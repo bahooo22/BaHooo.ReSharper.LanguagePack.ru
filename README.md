@@ -1,2 +1,167 @@
-# BaHooo.ReSharper.LanguagePack.ru
-Плагин для русской локализации интерфейса ReSharper для Visual Studio
+
+---
+
+# 📘 BaHooo.ReSharper.LanguagePack.ru
+
+Плагин для русской локализации интерфейса **ReSharper** в Visual Studio.  
+Проект автоматизирует перевод китайских ресурсов JetBrains на русский язык через промежуточный английский, используя **Argos Translate** и при необходимости **OpenNMT-py**.
+
+---
+
+## 🔧 Подготовка окружений
+
+### 1. Создание виртуальных окружений
+Используй скрипт `InstallTranslaters.ps1`:
+
+- **Argos Translate**  
+- **OpenNMT-py**  
+- Оба сразу  
+- Удаление окружений  
+- Проверка существующих окружений  
+
+Пример запуска:
+```powershell
+.\InstallTranslaters.ps1
+```
+
+### 2. Активация окружений
+Скрипт `activate-venv.ps1` позволяет выбрать окружение:
+
+```powershell
+.\activate-venv.ps1
+```
+Выбор:
+- `1` → Argos Translate  
+- `2` → OpenNMT-py  
+
+---
+
+## 📂 Конвертация ресурсов
+
+Перед переводом нужно преобразовать `.resources` → `.resx`.  
+Используй `ConvertResourceToResx.ps1`:
+
+```powershell
+.\ConvertResourceToResx.ps1
+```
+
+- Исходная папка: китайские ресурсы (`zh-CN`)  
+- Целевая папка: русские `.resx` (`ru-RU`)  
+- Автоматическая замена `zh-CN` → `ru-RU` внутри файлов  
+
+---
+
+## 🌐 Установка переводчиков
+
+В окружении Argos Translate установи пакеты:
+
+```python
+import argostranslate.package as pkg
+available = pkg.get_available_packages()
+
+zh_en = next(p for p in available if p.from_code == "zh" and p.to_code == "en")
+pkg.install_from_path(zh_en.download())
+
+en_ru = next(p for p in available if p.from_code == "en" and p.to_code == "ru")
+pkg.install_from_path(en_ru.download())
+```
+
+---
+
+## 📝 Тест перевода
+
+Файл `ArgosTest.txt` проверяет цепочку zh→en→ru:
+
+```python
+import argostranslate.translate as tr
+
+langs = tr.get_installed_languages()
+zh = next(l for l in langs if l.code == "zh")
+en = next(l for l in langs if l.code == "en")
+ru = next(l for l in langs if l.code == "ru")
+
+zh_en = zh.get_translation(en)
+en_ru = en.get_translation(ru)
+
+text = "测试一下中文到俄文的翻译"
+print(en_ru.translate(zh_en.translate(text)))
+```
+
+---
+
+## 🚀 Основной скрипт перевода
+
+Файл `translate_resx.py` выполняет пакетный перевод `.resx` файлов:
+
+### Возможности
+- Аргументы: `--original`, `--intermediate`, `--final`, `--single`, `--log`, `--workers`, `--resume`, `--dry-run`, `--logfile`  
+- Прогрессбар для строк внутри файла  
+- Логирование на разных уровнях (`full`, `first5`, `every10`, `minimal`)  
+- Параллельная обработка файлов (`--workers`)  
+- Продолжение обработки (`--resume`)  
+- Dry-run для проверки списка файлов  
+- Сохранение лога в файл  
+
+### Примеры запуска
+```bash
+# Все файлы (минимальный лог)
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru
+
+# Один файл для отладки
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --single MyPlugin.Strings.ru-RU.resx
+
+# Полный лог
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log full
+
+# Каждая 10-я фраза, 2 воркера
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log every10 --workers 2
+
+# Продолжение обработки
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --resume
+
+# Проверка списка файлов без перевода
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --dry-run
+
+# Сохранение лога в файл
+python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log full --workers 2 --resume --logfile C:\logs\translate.log
+```
+
+---
+
+## ❗ Типичные ошибки и их решение
+
+1. **`AttributeError: 'NoneType' object has no attribute 'translate'`**  
+   → Установи пакеты zh→en и en→ru заново.
+
+2. **`KeyboardInterrupt` при установке пакета**  
+   → Не прерывай процесс, он может занимать несколько минут.
+
+3. **`Could not load Stanza resources...`**  
+   → Это предупреждение, перевод работает.
+
+4. **`FileNotFoundError`**  
+   → Проверь пути `--original`, `--intermediate`, `--final`.
+
+5. **`PermissionError`**  
+   → Запусти от имени администратора или выбери другую папку.
+
+6. **`ModuleNotFoundError: No module named 'tqdm'`**  
+   → Установи библиотеку: `pip install tqdm`.
+
+7. **Перевод слишком медленный**  
+   → Используй `--workers N` и `translate_batch`.
+
+8. **Нужно продолжить после сбоя**  
+   → Добавь `--resume`.
+
+---
+
+## ⚡ Оптимизация производительности
+
+- Используй **batch‑перевод** (`translate_batch`) вместо построчного.  
+- Включи **кэширование** повторяющихся строк.  
+- Минимизируй логирование (`--log minimal`).  
+- Параллельная обработка файлов (`--workers`, по умолчанию половина CPU).  
+- Логи можно писать в файл (`--logfile`) для анализа.  
+
+---
