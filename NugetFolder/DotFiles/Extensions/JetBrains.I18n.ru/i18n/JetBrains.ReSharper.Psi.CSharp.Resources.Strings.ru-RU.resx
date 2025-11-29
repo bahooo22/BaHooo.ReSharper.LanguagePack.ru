@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Field_Text" xml:space="preserve">
+  <value>Поле</value>
+</data>
+<data name="BeforeNullableMarkSettingDescription" xml:space="preserve">
+  <value>Перед признаком nullable</value>
+</data>
+<data name="ParserConditionalSymbolName_Text" xml:space="preserve">
+  <value>Имя условного символа</value>
+</data>
+<data name="QualifyMembersDeclaredInSettingDescription" xml:space="preserve">
+  <value>Квалифицировать объявленные члены в</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapAfterDotInMethodCalls_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос после '.' в вызовах методов</value>
+</data>
+<data name="LocalFunctionsSettingDescription" xml:space="preserve">
+  <value>Локальные функции</value>
+</data>
+<data name="IndentBracesInsideStatementConditionsSettingDescription" xml:space="preserve">
+  <value>Отступ фигурных скобок внутри условий операторов</value>
+</data>
+<data name="EntityFrameworkAnalysisSettingsDisabledDbContextsDescription" xml:space="preserve">
+  <value>FQN классов DbContext, для которых будет отключена проверка запросов Entity Framework</value>
+</data>
+<data name="PlacePropertyExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать тело-выражение свойства на той же строке</value>
+</data>
+<data name="RemoveUnusedOnlyUsingAliasesSettingDescription" xml:space="preserve">
+  <value>Удалять только неиспользуемые псевдонимы 'using'</value>
+</data>
+<data name="WrapObjectAndCollectionInitializerSettingDescription" xml:space="preserve">
+  <value>Переносить инициализаторы объектов и коллекций</value>
+</data>
+<data name="UseUsingAliasDirectiveToResolveConflictsSettingDescription" xml:space="preserve">
+  <value>Использовать директиву using alias для разрешения конфликтов</value>
+</data>
+<data name="PlaceSimpleEnumerationOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простые перечисления в одной строке</value>
+</data>
+<data name="RecordStruct_Text" xml:space="preserve">
+  <value>Запись struct</value>
+</data>
+<data name="ParserPropertyAssignmentSymbol_Text" xml:space="preserve">
+  <value>Присваивание свойства</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeComma_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед ','</value>
+</data>
+<data name="Type_DoesnTMatchExpectedType__Text" xml:space="preserve">
+  <value>Тип '{0}' не соответствует ожидаемому типу '{1}'</value>
+</data>
+<data name="AroundDotSettingDescription" xml:space="preserve">
+  <value>Вокруг точки</value>
+</data>
+<data name="InAnonymousType_Text" xml:space="preserve">
+  <value>В анонимном типе</value>
+</data>
+<data name="AroundPropertyEventSettingDescription" xml:space="preserve">
+  <value>Вокруг свойства/события</value>
+</data>
+<data name="Struct_Text" xml:space="preserve">
+  <value>struct</value>
+</data>
+<data name="ParserTypeDeclarationBodySymbol_Text" xml:space="preserve">
+  <value>Тело объявления типа</value>
+</data>
+<data name="CSharpPatternStyleSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки стиля шаблонов C#</value>
+</data>
+<data name="SettingsEntryDescription_ForceChopCompoundConditionInStatement" xml:space="preserve">
+  <value>Принудительно разбивать составное условие в операторе '{0}'</value>
+</data>
+<data name="PlaceSimplePropertyPatternOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой шаблон свойства в одной строке</value>
+</data>
+<data name="WhenCreatedTypeIsNotEvidentFromUsageSettingDescription" xml:space="preserve">
+  <value>Когда созданный тип не очевиден из использования</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Name_IgnoreCase_Text" xml:space="preserve">
+  <value>Игнорировать регистр</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceSingleMethodArgumentLambdaOnTheSameLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать один аргумент-лямбда в вызове метода на той же строке, что и '('</value>
+</data>
+<data name="RemoveBraces_Description_Text" xml:space="preserve">
+  <value>Удалять фигурные скобки</value>
+</data>
+<data name="KeepExistingArrangementOfEnumerationSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение перечислений</value>
+</data>
+<data name="WrapMultipleTypeParameterConstraintsSettingDescription" xml:space="preserve">
+  <value>Переносить ограничения нескольких параметров типа</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceSimpleCaseStatementOnSameLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать простой оператор 'case' на той же строке</value>
+</data>
+<data name="ExtensionDeclarationWithNameError_Text" xml:space="preserve">
+  <value>Объявление расширения не может иметь имени</value>
+</data>
+<data name="EmptyBracesFormattingSettingDescription" xml:space="preserve">
+  <value>Форматирование пустых фигурных скобок</value>
+</data>
+<data name="InitializerExpected_Text" xml:space="preserve">
+  <value>Ожидается инициализатор</value>
+</data>
+<data name="CSharpFormatSettingsKey_RemoveBlankLinesNearBracesInCode_SettingsEntryDescription" xml:space="preserve">
+  <value>Удалять пустые строки после '{' и перед '}' в коде</value>
+</data>
+<data name="PreferWrapBeforeTypeParametersOpeningAngleSettingDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед открывающей угловой скобкой списка параметров типа</value>
+</data>
+<data name="IndentPrimaryConstructorDeclarationsParenthesisSettingDescription" xml:space="preserve">
+  <value>Делать отступ для круглых скобок объявлений основного конструктора</value>
+</data>
+<data name="FileLayoutDesigner_Elements_ImplementsInterface_Immediate_Text" xml:space="preserve">
+  <value>Непосредственно</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Direction_Ascending_Text" xml:space="preserve">
+  <value>По возрастанию</value>
+</data>
+<data name="CNamespaceImportSettingDescription" xml:space="preserve">
+  <value>Импорт пространств имен C#</value>
+</data>
+<data name="AroundSingleLineFieldSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного поля</value>
+</data>
+<data name="CSharpFormatSettingsKey_PreferToWrapBeforeFirstMethodCall_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед первым вызовом метода</value>
+</data>
+<data name="KeepExistingArrangementOfListPatternsSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение шаблонов списков и выражений коллекций</value>
+</data>
+<data name="AllowTypeConstraintsOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Разрешать ограничения типа на той же строке</value>
+</data>
+<data name="AfterStatementsWithChildBlocksSettingDescription" xml:space="preserve">
+  <value>После операторов с дочерними блоками</value>
+</data>
+<data name="IndentTypeConstraintsSettingDescription" xml:space="preserve">
+  <value>Делать отступ для ограничений типа</value>
+</data>
+<data name="AfterTypeParameterConstraintColonSettingDescription" xml:space="preserve">
+  <value>После двоеточия ограничения параметра типа</value>
+</data>
+<data name="WithinArrayAccessBracketsSettingDescription" xml:space="preserve">
+  <value>Внутри квадратных скобок доступа к массиву</value>
+</data>
+<data name="ParserTypeDeclarationSymbol_Text" xml:space="preserve">
+  <value>Объявление типа</value>
+</data>
+<data name="ParserModifierSymbol_Text" xml:space="preserve">
+  <value>Модификатор</value>
+</data>
+<data name="ModifiersOrderSettingDescription" xml:space="preserve">
+  <value>Порядок модификаторов</value>
+</data>
+<data name="PreferFullyQualifiedUsingNameAtNestedScopeSettingDescription" xml:space="preserve">
+  <value>Предпочитать полностью квалифицированное имя во вложенной области</value>
+</data>
+<data name="AllowConstructorInitializerOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Разрешать инициализатор конструктора на той же строке</value>
+</data>
+<data name="AroundSingleLineLocalFunctionSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочной локальной функции</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Strict_Text" xml:space="preserve">
+  <value>Строгий</value>
+</data>
+<data name="FileLayoutPatternSettingDescription" xml:space="preserve">
+  <value>Шаблон размещения файлов</value>
+</data>
+<data name="Presenter_ITopLevelEntryPoint_Text" xml:space="preserve">
+  <value>&lt;точка-входа-верхнего-уровня&gt;</value>
+</data>
+<data name="KeepusingDirectivesOnOptimizationSettingDescription" xml:space="preserve">
+  <value>Сохранять директивы 'using' при оптимизации</value>
+</data>
+<data name="AnonymousFunction_Text" xml:space="preserve">
+  <value>Анонимная функция</value>
+</data>
+<data name="BeforeEndOfLineCommentTextSettingDescription" xml:space="preserve">
+  <value>После '//' в комментариях</value>
+</data>
+<data name="AssignmentOperatorsSettingDescription" xml:space="preserve">
+  <value>Операторы присваивания (например, '=' и '+=')</value>
+</data>
+<data name="UseContinuousLineIndentInsideParenthesisSettingDescription" xml:space="preserve">
+  <value>Использовать непрерывный отступ строк внутри круглых скобок</value>
+</data>
+<data name="PropertiesIndexersAndEventsSettingDescription" xml:space="preserve">
+  <value>Свойства, индексаторы и события</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_All_Text" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="AlwaysIfMultiLine" xml:space="preserve">
+  <value>Всегда, если многострочный</value>
+</data>
+<data name="AddusingDirectivesOnOptimizationSettingDescription" xml:space="preserve">
+  <value>Добавлять директивы 'using' при оптимизации</value>
+</data>
+<data name="Class_Text" xml:space="preserve">
+  <value>class</value>
+</data>
+<data name="DefaultLayoutWithoutRegions_Description_Text" xml:space="preserve">
+  <value>Макет по умолчанию без регионов</value>
+</data>
+<data name="OutdentBinaryOperatorsSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для бинарных операторов</value>
+</data>
+<data name="NestedTernaryExpressionStyleSettingDescription" xml:space="preserve">
+  <value>Стиль вложенного тернарного выражения</value>
+</data>
+<data name="EqualityOperatorsSettingDescription" xml:space="preserve">
+  <value>Операторы равенства (==,!=)</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapForStmtHeaderStyle_SettingsEntryDescription" xml:space="preserve">
+  <value>Стиль заголовка оператора 'for' при переносе</value>
+</data>
+<data name="ParserValidOperatorSignSymbol_Text" xml:space="preserve">
+  <value>Допустимый знак оператора</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Is_Text" xml:space="preserve">
+  <value>Является</value>
+</data>
+<data name="FieldsAndConstantsSettingDescription" xml:space="preserve">
+  <value>Поля и константы</value>
+</data>
+<data name="TypeDoesNotMatchExpectedTypeMessage" xml:space="preserve">
+  <value>Тип '{0}' не соответствует ожидаемому типу '{1}'</value>
+</data>
+<data name="IndentIfElseElifEndifSettingDescription" xml:space="preserve">
+  <value>Делать отступ для #if, #else, #elif, #endif</value>
+</data>
+<data name="RemoveTrailingCommaToConformToCodeStyle_Text" xml:space="preserve">
+  <value>Удалять завершающую запятую для соответствия стилю кода</value>
+</data>
+<data name="IndentInsideNamespaceDeclarationSettingDescription" xml:space="preserve">
+  <value>Делать отступ внутри объявления пространства имен</value>
+</data>
+<data name="ParserAttributeSectionSymbol_Text" xml:space="preserve">
+  <value>Секция атрибута</value>
+</data>
+<data name="WithinListPatternBracketsSettingDescription" xml:space="preserve">
+  <value>Внутри квадратных скобок шаблонов списков и выражений коллекций</value>
+</data>
+<data name="OtherAssignmentsAndInitializersSettingDescription" xml:space="preserve">
+  <value>Другие присваивания и инициализаторы</value>
+</data>
+<data name="WrapPropertyPatternSettingDescription" xml:space="preserve">
+  <value>Переносить шаблон свойства</value>
+</data>
+<data name="EmptyRecursivePattern_Text" xml:space="preserve">
+  <value>Шаблон '{ }'</value>
+</data>
+<data name="MembersToQualifySettingDescription" xml:space="preserve">
+  <value>Члены для квалификации</value>
+</data>
+<data name="MaxPrimaryConstructorParametersOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум параметров основного конструктора в одной строке</value>
+</data>
+<data name="MultiplicativeOperatorsSettingDescription" xml:space="preserve">
+  <value>Мультипликативные операторы (*,/,%)</value>
+</data>
+<data name="BeforeTypeArgumentListAngleSettingDescription" xml:space="preserve">
+  <value>Перед открывающей угловой скобкой списка аргументов типа</value>
+</data>
+<data name="ParenthesesSettingDescription" xml:space="preserve">
+  <value>Круглые скобки</value>
+</data>
+<data name="WithinArrayRankEmptyBracketsSettingDescription" xml:space="preserve">
+  <value>Внутри пустых квадратных скобок ранга массива</value>
+</data>
+<data name="ParserTypeParameterConstraintSymbol_Text" xml:space="preserve">
+  <value>Ограничение параметра типа</value>
+</data>
+<data name="EntityFrameworkModelAnalysis_Settings_Enabled_Description" xml:space="preserve">
+  <value>Включен ли анализ, специфичный для модели Entity Framework, и связанные функции</value>
+</data>
+<data name="Record_PresentableName_Text" xml:space="preserve">
+  <value>Запись</value>
+</data>
+<data name="TupleComponent_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+  <value>Компонент кортежа '{0}' должен быть удален для соответствия ожидаемому типу</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Direction_Text" xml:space="preserve">
+  <value>Направление сортировки</value>
+</data>
+<data name="Constructor_Text" xml:space="preserve">
+  <value>Конструктор</value>
+</data>
+<data name="PreferWrapBeforeOperatorInBinaryPatternSettingDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед оператором в бинарном шаблоне</value>
+</data>
+<data name="AroundSingleLinePropertyEventSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного свойства/события</value>
+</data>
+<data name="CaseBlockBracesSettingDescription" xml:space="preserve">
+  <value>Блок под меткой 'case'</value>
+</data>
+<data name="ParserUsageOfTypeSymbol_Text" xml:space="preserve">
+  <value>Использование типа</value>
+</data>
+<data name="GeneratorModeSettingDescription" xml:space="preserve">
+  <value>Режим генератора</value>
+</data>
+<data name="CatchVariable_PresentableName_Text" xml:space="preserve">
+  <value>Перехватываемая переменная</value>
+</data>
+<data name="WrapSwitchExpressionSettingDescription" xml:space="preserve">
+  <value>Переносить выражение switch</value>
+</data>
+<data name="CSharpFormatSettingsKey_PreferToWrapAfterPropertiesAndFields_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос после свойств и полей в цепочках вызовов методов</value>
+</data>
+<data name="BinaryPatternsSettingDescription" xml:space="preserve">
+  <value>Бинарные шаблоны</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Priority_Text" xml:space="preserve">
+  <value>Приоритет</value>
+</data>
+<data name="ParserLambdaSignatureSymbol_Text" xml:space="preserve">
+  <value>Сигнатура лямбды</value>
+</data>
+<data name="FileLayoutDesigner_Elements_ParameterName_Text" xml:space="preserve">
+  <value>Имя параметра</value>
+</data>
+<data name="PreferWrapBeforeFirstConstraintSettingDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед первым ограничением</value>
+</data>
+<data name="KeepMaxBlankLinesInCodeSettingDescription" xml:space="preserve">
+  <value>Сохранять максимальное количество пустых строк в коде</value>
+</data>
+<data name="WhenTheOperationsFromTheFollowingGroupsAreNestedSettingDescription" xml:space="preserve">
+  <value>Когда операции из следующих групп вложены</value>
+</data>
+<data name="ParserUnexpectedToken_Text" xml:space="preserve">
+  <value>Неожиданная лексема</value>
+</data>
+<data name="UseNotNullPattern_Text" xml:space="preserve">
+  <value>Использовать шаблон 'not null'</value>
+</data>
+<data name="Type_Text" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="PatternIsMissing_Text" xml:space="preserve">
+  <value>Отсутствует шаблон</value>
+</data>
+<data name="ParserPatternSymbol_Text" xml:space="preserve">
+  <value>Шаблон</value>
+</data>
+<data name="TypeParametersListSettingDescription" xml:space="preserve">
+  <value>Список параметров типа</value>
+</data>
+<data name="UseExplicitDiscardDeclaration_Text" xml:space="preserve">
+  <value>Использовать явное объявление отбрасывания</value>
+</data>
+<data name="ParserInterpolationStringExpressionSymbol_Text" xml:space="preserve">
+  <value>Выражение интерполированной строки</value>
+</data>
+<data name="PlaceAbstractAutoPropertyIndexerEventDeclarationOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать объявление abstract/auto свойства/индексатора/события в одной строке</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Unrestricted_Text" xml:space="preserve">
+  <value>Без ограничений</value>
+</data>
+<data name="CSharpFormatSettingsKey_SpaceBeforeForSemicolon_SettingsEntryDescription" xml:space="preserve">
+  <value>Перед точкой с запятой в 'for'</value>
+</data>
+<data name="MultipleDeclarationsSettingDescription" xml:space="preserve">
+  <value>Множественные объявления</value>
+</data>
+<data name="CIndenting_Text" xml:space="preserve">
+  <value>Отступы в C#</value>
+</data>
+<data name="MaxFormalParametersOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум формальных параметров в одной строке</value>
+</data>
+<data name="KeepExistingArrangementOfExpressionBodiedMembersSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение элементов с телом-выражением</value>
+</data>
+<data name="InconsistentBodyStyleUseStatementBody_Text" xml:space="preserve">
+  <value>Тело кода не соответствует настройкам стиля кода: используйте тело-оператор</value>
+</data>
+<data name="StatementConditionsInsideParenthesisSettingDescription" xml:space="preserve">
+  <value>Условия операторов внутри круглых скобок</value>
+</data>
+<data name="CMemberOrderPatternSettingDescription" xml:space="preserve">
+  <value>Шаблон порядка членов C#</value>
+</data>
+<data name="Property_Text" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="KeepNonTrivialUsingAliasesSettingDescription" xml:space="preserve">
+  <value>Сохранять псевдонимы 'using', если они отличаются от имени символа</value>
+</data>
+<data name="OutdentDotsInChainedMethodCallsSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для точек в цепочках вызовов методов</value>
+</data>
+<data name="TupleElementName_DoesnTMatchExpected_Text" xml:space="preserve">
+  <value>Имя элемента кортежа '{0}' не соответствует ожидаемому имени '{1}'</value>
+</data>
+<data name="KeepExistingArrangementOfInitializersSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение инициализаторов</value>
+</data>
+<data name="WrapLINQExpressionsSettingDescription" xml:space="preserve">
+  <value>Переносить выражения LINQ</value>
+</data>
+<data name="ParserExpressionBodyClauseSymbol_Text" xml:space="preserve">
+  <value>Предложение тела-выражения</value>
+</data>
+<data name="BeforeSingleLineCommentSettingDescription" xml:space="preserve">
+  <value>Перед однострочным комментарием</value>
+</data>
+<data name="PlaceSimpleAccessorOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой аксессор в одной строке</value>
+</data>
+<data name="IndentOtherPreprocessorDirectivesSettingDescription" xml:space="preserve">
+  <value>Делать отступ для других директив препроцессора</value>
+</data>
+<data name="PlaceSimpleListPatternOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой шаблон списка и выражение коллекции в одной строке</value>
+</data>
+<data name="SettingsEntryDescription_BracesInStatement" xml:space="preserve">
+  <value>Фигурные скобки в операторе '{0}'</value>
+</data>
+<data name="DontIndentCommentsStartedAtFirstColumnSettingDescription" xml:space="preserve">
+  <value>Не делать отступ для комментариев, начинающихся с первого столбца</value>
+</data>
+<data name="SyntaxStyleInCSettingDescription" xml:space="preserve">
+  <value>Стиль синтаксиса в C#</value>
+</data>
+<data name="IncorrectPrimaryExpression_Text" xml:space="preserve">
+  <value>Некорректное первичное выражение</value>
+</data>
+<data name="AroundSingleLinePropertyEventAccessorSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного аксессора свойства/события</value>
+</data>
+<data name="AddusingDirectiveToDeepestScopeSettingDescription" xml:space="preserve">
+  <value>Добавлять директиву 'using' в самую глубокую область</value>
+</data>
+<data name="Event_Text" xml:space="preserve">
+  <value>event</value>
+</data>
+<data name="QualifyWithTheNameOfSettingDescription" xml:space="preserve">
+  <value>Квалифицировать с помощью имени типа:</value>
+</data>
+<data name="KeepExistingArrangementOfParenthesisInInvocationSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение круглых скобок в вызовах</value>
+</data>
+<data name="MethodCallParenthesesSettingDescription" xml:space="preserve">
+  <value>Круглые скобки вызова метода</value>
+</data>
+<data name="SettingsEntry_Description_InStatement" xml:space="preserve">
+  <value>В операторе '{0}'</value>
+</data>
+<data name="KeepExistingLineBreaksSettingDescription" xml:space="preserve">
+  <value>Сохранять существующие разрывы строк</value>
+</data>
+<data name="UsePositionalDeconstructionPattern_Text" xml:space="preserve">
+  <value>Использовать позиционный шаблон деконструкции</value>
+</data>
+<data name="ParserExpectedTwoSymbols_Text" xml:space="preserve">
+  <value>Ожидается {0} или {1}</value>
+</data>
+<data name="PlaceSimplePropertyIndexerEventDeclarationOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простое объявление свойства/индексатора/события в одной строке</value>
+</data>
+<data name="AnonymousMethodsDelegatesAndLambdasSettingDescription" xml:space="preserve">
+  <value>Анонимные методы (делегаты и лямбды)</value>
+</data>
+<data name="UseBracesForMultiline_Description_Text" xml:space="preserve">
+  <value>Использовать фигурные скобки для многострочных</value>
+</data>
+<data name="PlaceAttributeSectionListOnSeparateLineIfItIsLongerThanSettingDescription" xml:space="preserve">
+  <value>Размещать список секций атрибутов на отдельной строке, если его длина превышает</value>
+</data>
+<data name="AroundFieldSettingDescription" xml:space="preserve">
+  <value>Вокруг поля</value>
+</data>
+<data name="IndentToPreviousLine_Text" xml:space="preserve">
+  <value>Отступ до предыдущей строки</value>
+</data>
+<data name="KeepExistingAttributePlacementSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее размещение атрибутов</value>
+</data>
+<data name="AsyncTaskMethod_PresentableName_Text" xml:space="preserve">
+  <value>Метод, возвращающий задачу (не 'async')</value>
+</data>
+<data name="Namespace_Text" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="BeforeOtherColonsSettingDescription" xml:space="preserve">
+  <value>Перед другими двоеточиями</value>
+</data>
+<data name="AfterOtherColonsSettingDescription" xml:space="preserve">
+  <value>После других двоеточиями</value>
+</data>
+<data name="ParserExpressionSymbol_Text" xml:space="preserve">
+  <value>Выражение</value>
+</data>
+<data name="TypeCastParenthesesSettingDescription" xml:space="preserve">
+  <value>Круглые скобки приведения типа</value>
+</data>
+<data name="RangeVariable_Text" xml:space="preserve">
+  <value>Переменная диапазона</value>
+</data>
+<data name="CheckedOperator_Text" xml:space="preserve">
+  <value>Оператор checked</value>
+</data>
+<data name="SettingsEntryDescription_Parentheses" xml:space="preserve">
+  <value>Круглые скобки '{0}'</value>
+</data>
+<data name="CSharpFormatSettingsKey_TreatCaseStatementWithBreakAsSimple_SettingsEntryDescription" xml:space="preserve">
+  <value>Считать оператор 'case' с 'break' простым</value>
+</data>
+<data name="BeforeStatementsWithChildBlocksSettingDescription" xml:space="preserve">
+  <value>Перед операторами с дочерними блоками</value>
+</data>
+<data name="AccessorDeclarationSettingDescription" xml:space="preserve">
+  <value>Объявление аксессора</value>
+</data>
+<data name="TupleComponentShouldBeRemovedInOrder_Text" xml:space="preserve">
+  <value>Компонент кортежа{0} должен быть удален для соответствия ожидаемому типу</value>
+</data>
+<data name="OutdentBinaryPatternsSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для бинарных шаблонов</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_SubscriptionOrSignature_Text" xml:space="preserve">
+  <value>Оба</value>
+</data>
+<data name="FileLayoutDesigner_Elements_SortBy_Text" xml:space="preserve">
+  <value>Сортировать по</value>
+</data>
+<data name="TypeArgumentAnglesSettingDescription" xml:space="preserve">
+  <value>Угловые скобки аргументов типа</value>
+</data>
+<data name="ParserTypeMemberDeclarationSymbol_Text" xml:space="preserve">
+  <value>Объявление члена типа</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="Method_Text" xml:space="preserve">
+  <value>method</value>
+</data>
+<data name="PropertiesAndEventsSettingDescription" xml:space="preserve">
+  <value>Свойства и события</value>
+</data>
+<data name="ParserTupleExpressionSymbol_Text" xml:space="preserve">
+  <value>Выражение кортежа</value>
+</data>
+<data name="LayoutTypeSettingDescription" xml:space="preserve">
+  <value>Тип макета</value>
+</data>
+<data name="NoParameters_Text" xml:space="preserve">
+  <value>Без параметров</value>
+</data>
+<data name="ParserDeclarationOrExpressionListSymbol_Text" xml:space="preserve">
+  <value>Список объявлений или выражений</value>
+</data>
+<data name="FunctionPointer_Text" xml:space="preserve">
+  <value>Указатель на функцию</value>
+</data>
+<data name="InMemberAccessExpressionsPreferSettingDescription" xml:space="preserve">
+  <value>В выражениях доступа к членам предпочитать</value>
+</data>
+<data name="MethodDeclarationParenthesesSettingDescription" xml:space="preserve">
+  <value>Круглые скобки объявления метода</value>
+</data>
+<data name="SkipSingleArgumentsSettingDescription" xml:space="preserve">
+  <value>Пропускать одиночные аргументы</value>
+</data>
+<data name="PreferWrapBeforeMultilineLINQExpressionsSettingDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед многострочными выражениями LINQ</value>
+</data>
+<data name="AlignMultilineCommentsWithAsterisksSettingsDescription" xml:space="preserve">
+  <value>Выравнивать многострочные комментарии по звездочкам</value>
+</data>
+<data name="AroundSingleLineMethodSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного метода</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeTernaryOpsigns_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед '?' и ':' в тернарных выражениях</value>
+</data>
+<data name="BetweenAttributeSectionsSettingDescription" xml:space="preserve">
+  <value>Между секциями атрибутов</value>
+</data>
+<data name="NotNullPattern_Text" xml:space="preserve">
+  <value>Шаблон 'not null'</value>
+</data>
+<data name="ParserParameterDeclarationSymbol_Text" xml:space="preserve">
+  <value>Объявление параметра</value>
+</data>
+<data name="CFileLayoutPatternSettingDescription" xml:space="preserve">
+  <value>Шаблон размещения файлов C#</value>
+</data>
+<data name="IndentOtherParenthesisAndBracketsSettingDescription" xml:space="preserve">
+  <value>Делать отступ для других круглых и квадратных скобок</value>
+</data>
+<data name="RemoveRedundantSettingDescription" xml:space="preserve">
+  <value>Удалять избыточные фигурные скобки</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeExtendsColon_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед ':'</value>
+</data>
+<data name="InAnonymousTypeBrackets_Text" xml:space="preserve">
+  <value>(В анонимном типе)</value>
+</data>
+<data name="UnaryPlusOperatorSettingDescription" xml:space="preserve">
+  <value>Унарный оператор плюс (+)</value>
+</data>
+<data name="BeforeSingleLineAccessorsBlockSettingDescription" xml:space="preserve">
+  <value>Перед блоком однострочных аксессоров</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesAroundMultilineCaseSection_SettingsEntryDescription" xml:space="preserve">
+  <value>Вокруг многострочной секции 'case' в операторе switch</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_Text" xml:space="preserve">
+  <value>Удалять регионы</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Direction_Descending_Text" xml:space="preserve">
+  <value>По убыванию</value>
+</data>
+<data name="EntityFrameworkQueryAnalysisModeSettingsEntryDescription" xml:space="preserve">
+  <value>Использовать ли оптимистичный режим при анализе запросов Entity Framework</value>
+</data>
+<data name="UseSeparateDeclarationExpressions_Text" xml:space="preserve">
+  <value>Использовать отдельные выражения объявления</value>
+</data>
+<data name="UseVarWhenEvident_Description_Text" xml:space="preserve">
+  <value>Использовать 'var', когда это очевидно</value>
+</data>
+<data name="SettingsEntryDescription_IndentNestetStatements" xml:space="preserve">
+  <value>Делать отступ для вложенных операторов '{0}'</value>
+</data>
+<data name="UseContinuousLineIndentInsideExpressionBracesSettingDescription" xml:space="preserve">
+  <value>Использовать непрерывный отступ строк внутри фигурных скобок выражений</value>
+</data>
+<data name="PreferRoslynRulesForParenthesesClaritySettingDescription" xml:space="preserve">
+  <value>Предпочитать правила Roslyn для ясности круглых скобок</value>
+</data>
+<data name="AfterMultilineStatementsSettingDescription" xml:space="preserve">
+  <value>После многострочных операторов</value>
+</data>
+<data name="LocalConstant_Text" xml:space="preserve">
+  <value>Локальная константа</value>
+</data>
+<data name="KeepExistingArrangementOfPropertyPatternsSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение шаблонов свойств</value>
+</data>
+<data name="ParserConstructorDeclarationSymbol_Text" xml:space="preserve">
+  <value>Объявление конструктора</value>
+</data>
+<data name="ParserUsingDirectiveSymbol_Text" xml:space="preserve">
+  <value>Директива using</value>
+</data>
+<data name="Extension_Text" xml:space="preserve">
+  <value>Расширение</value>
+</data>
+<data name="KeepExistingArrangementOfAttributesSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение атрибутов</value>
+</data>
+<data name="DumpDbContextsStatsText" xml:space="preserve">
+  <value>Дамп статистики по DbContexts</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Body_Type_Block_Text" xml:space="preserve">
+  <value>Блок</value>
+</data>
+<data name="PlaceMethodAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут метода на той же строке</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Text" xml:space="preserve">
+  <value>Политика переупорядочивания static полей</value>
+</data>
+<data name="IndentRegionEndregionSettingDescription" xml:space="preserve">
+  <value>Делать отступ для #region, #endregion</value>
+</data>
+<data name="PreferFullyQualifiedReferencesSettingDescription" xml:space="preserve">
+  <value>Предпочитать полностью квалифицированные ссылки</value>
+</data>
+<data name="PlaceSimpleArrayObjectAndCollectionOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простые массивы, объекты и коллекции в одной строке</value>
+</data>
+<data name="PlaceSimpleSwitchExpressionOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простое выражение switch в одной строке</value>
+</data>
+<data name="Presenter_INamespace_Root_Text" xml:space="preserve">
+  <value>&lt;корневое-пространство-имен&gt;</value>
+</data>
+<data name="AfterColonSettingDescription" xml:space="preserve">
+  <value>После ':'</value>
+</data>
+<data name="BetweenAccessorsInSingleLinePropertyEventSettingDescription" xml:space="preserve">
+  <value>Между аксессорами в однострочном свойстве/событии</value>
+</data>
+<data name="BeforeUnsafePointerDeclarationSettingDescription" xml:space="preserve">
+  <value>Перед объявлением небезопасного указателя</value>
+</data>
+<data name="AroundOperandsOfTheFollowingOperationsSettingDescription" xml:space="preserve">
+  <value>Вокруг операндов следующих операций</value>
+</data>
+<data name="OtherSettingDescription" xml:space="preserve">
+  <value>Другое</value>
+</data>
+<data name="CSharpFormatSettingsKey_IndentCaseFromSwitch_SettingsEntry" xml:space="preserve">
+  <value>Отступ 'case' от 'switch'</value>
+</data>
+<data name="OutdentTernaryExpressionsSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для тернарных выражений</value>
+</data>
+<data name="WithinSlicePatternSettingDescription" xml:space="preserve">
+  <value>В шаблоне среза после '..'</value>
+</data>
+<data name="ListPatternsSettingDescription" xml:space="preserve">
+  <value>Шаблоны списков и выражения коллекций</value>
+</data>
+<data name="WhenCreatedTypeIsEvidentFromUsageSettingDescription" xml:space="preserve">
+  <value>Когда созданный тип очевиден из использования</value>
+</data>
+<data name="LiteralValuesSettingDescription" xml:space="preserve">
+  <value>Литеральные значения</value>
+</data>
+<data name="InconsistentBodyStyleUseExpressionBodiedIndexer_Text" xml:space="preserve">
+  <value>Тело кода не соответствует настройкам стиля кода: используйте индексатор с телом-выражением</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Signature_Text" xml:space="preserve">
+  <value>Сигнатура</value>
+</data>
+<data name="InvocationsOfTheSameMethodSettingDescription" xml:space="preserve">
+  <value>Вызовы одного и того же метода</value>
+</data>
+<data name="WhenTheLastElementIsNotFollowedByANewLineSettingDescription" xml:space="preserve">
+  <value>Когда последний элемент не следует за новой строкой</value>
+</data>
+<data name="LocalFunction_Text" xml:space="preserve">
+  <value>Локальная функция</value>
+</data>
+<data name="ParserGroupClauseSymbol_Text" xml:space="preserve">
+  <value>Предложение 'group'</value>
+</data>
+<data name="ParserLineNumberSymbol_Text" xml:space="preserve">
+  <value>Номер строки</value>
+</data>
+<data name="JoinOrSeparateAttributesInSectionSettingDescription" xml:space="preserve">
+  <value>Объединять или разделять атрибуты в секции</value>
+</data>
+<data name="AfterAttributesSettingDescription" xml:space="preserve">
+  <value>После атрибутов</value>
+</data>
+<data name="ApplySyntaxStyleOnCodeCompletionSettingDescription" xml:space="preserve">
+  <value>Применять стиль синтаксиса при завершении кода</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapAfterInvocationLpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос после '(' в вызове</value>
+</data>
+<data name="PlaceSinglelineMethodAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать однострочный атрибут метода на той же строке</value>
+</data>
+<data name="ConstructorsAndDestructorsSettingDescription" xml:space="preserve">
+  <value>Конструкторы и деструкторы</value>
+</data>
+<data name="PlaceSimpleEmbeddedStatementOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой встроенный оператор на той же строке</value>
+</data>
+<data name="WhenTypeIsNotEvidentFromUsageSettingDescription" xml:space="preserve">
+  <value>Когда тип не очевиден из использования</value>
+</data>
+<data name="RecordPositionalParameter_PresentableName_Text" xml:space="preserve">
+  <value>Позиционный параметр записи</value>
+</data>
+<data name="UseAlways_Description_Text" xml:space="preserve">
+  <value>Использовать всегда</value>
+</data>
+<data name="WithinSingleLineAccessorSettingDescription" xml:space="preserve">
+  <value>Внутри однострочного аксессора</value>
+</data>
+<data name="Presenter_IAnonymousMethod_Text" xml:space="preserve">
+  <value>Анонимный метод</value>
+</data>
+<data name="RevertToOldFormattingEngineSettingDescription" xml:space="preserve">
+  <value>Возврат к старому механизму форматирования</value>
+</data>
+<data name="ExplicitType_Text" xml:space="preserve">
+  <value>Явный тип</value>
+</data>
+<data name="NamespacesThatShouldNotBeRemovedFromFullyQualifiedTypeNamesSettingDescription" xml:space="preserve">
+  <value>Пространства имен, которые не должны удаляться из полностью квалифицированных имен типов</value>
+</data>
+<data name="PlaceMethodExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать тело-выражение метода на той же строке</value>
+</data>
+<data name="MethodCallEmptyParenthesesSettingDescription" xml:space="preserve">
+  <value>Пустые круглые скобки вызова метода</value>
+</data>
+<data name="CSharpFormatSettingsKey_SpecialElseIfTreatment_SettingsEntryDescription" xml:space="preserve">
+  <value>Особое обращение с 'else if'</value>
+</data>
+<data name="SameClass_Text" xml:space="preserve">
+  <value>Тот же класс</value>
+</data>
+<data name="ParserEnumDeclarationBodySymbol_Text" xml:space="preserve">
+  <value>Тело объявления перечисления</value>
+</data>
+<data name="OtherExpressionsSettingDescription" xml:space="preserve">
+  <value>Другие выражения</value>
+</data>
+<data name="IndentTypeParametersAnglesSettingDescription" xml:space="preserve">
+  <value>Делать отступ для угловых скобок параметров типа</value>
+</data>
+<data name="CommaExpected_Text" xml:space="preserve">
+  <value>Ожидается ,</value>
+</data>
+<data name="PreferredVarStyle_Text" xml:space="preserve">
+  <value>Предпочитаемый стиль '{0}'</value>
+</data>
+<data name="ParserExpectedSymbol_Text" xml:space="preserve">
+  <value>Ожидается {0}</value>
+</data>
+<data name="DontRemoveExtraBlankLinesSettingDescription" xml:space="preserve">
+  <value>Не удалять лишние пустые строки</value>
+</data>
+<data name="MaxInvocationArgumentsOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум аргументов вызова в одной строке</value>
+</data>
+<data name="TypeParameter_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+  <value>Параметр типа '{0}' должен быть удален для соответствия ожидаемому типу</value>
+</data>
+<data name="KeepExistingArrangementOfSwitchExpressionsSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение выражений switch</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesAfterUsingList_SettingsEntryDescription" xml:space="preserve">
+  <value>После списка 'using'</value>
+</data>
+<data name="WrapListPatternSettingDescription" xml:space="preserve">
+  <value>Переносить шаблоны списков и выражения коллекций</value>
+</data>
+<data name="BeforeArrayAccessBracketsSettingDescription" xml:space="preserve">
+  <value>Перед квадратными скобками доступа к массиву</value>
+</data>
+<data name="InsideRegionSettingDescription" xml:space="preserve">
+  <value>Внутри региона</value>
+</data>
+<data name="ElsewhereSettingDescription" xml:space="preserve">
+  <value>В других местах</value>
+</data>
+<data name="ParserExpressionOrInitializerSymbol_Text" xml:space="preserve">
+  <value>Выражение или инициализатор</value>
+</data>
+<data name="PreferExplicitImplicitInternalModifierForTypesSettingDescription" xml:space="preserve">
+  <value>Предпочитать явный/неявный модификатор internal для типов</value>
+</data>
+<data name="Record_Text" xml:space="preserve">
+  <value>record</value>
+</data>
+<data name="GetsTheSubstringAtTheSpecifiedRange_Text" xml:space="preserve">
+  <value>Получает подстроку в указанном диапазоне.</value>
+</data>
+<data name="PlaceRecordFieldAttributeOnTheSameLine" xml:space="preserve">
+  <value>Размещать атрибут поля записи на той же строке</value>
+</data>
+<data name="TupleComponent_DoesnTMatchExpectedComponent_Text" xml:space="preserve">
+  <value>Компонент кортежа '{0}' не соответствует ожидаемому компоненту '{1}'.</value>
+</data>
+<data name="LogicalOperatorsSettingDescription" xml:space="preserve">
+  <value>Логические операторы (&amp;&amp;,||)</value>
+</data>
+<data name="StringLiteralValuesSettingDescription" xml:space="preserve">
+  <value>Строковые литеральные значения</value>
+</data>
+<data name="ParserStatementSymbol_Text" xml:space="preserve">
+  <value>Оператор</value>
+</data>
+<data name="UseVarDeconstructionPattern_Text" xml:space="preserve">
+  <value>Использовать шаблон деконструкции 'var'</value>
+</data>
+<data name="KeepExistingArrangementOfEmbeddedBlocksSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение встроенных блоков</value>
+</data>
+<data name="TypeParameter_Text" xml:space="preserve">
+  <value>Параметр типа</value>
+</data>
+<data name="ParserConditionalSymbol_Text" xml:space="preserve">
+  <value>Условный символ</value>
+</data>
+<data name="AdditiveOperatorsSettingDescription" xml:space="preserve">
+  <value>Аддитивные операторы (+, -)</value>
+</data>
+<data name="WrapTernaryExpressionSettingDescription" xml:space="preserve">
+  <value>Переносить тернарное выражение</value>
+</data>
+<data name="ArrayObjectAndCollectionInitializerSettingDescription" xml:space="preserve">
+  <value>Инициализаторы массивов, объектов и коллекций</value>
+</data>
+<data name="CSharpFormatSettingsKey_IndentBreakFromCase_SettingsEntry" xml:space="preserve">
+  <value>Отступ 'break' от 'case'</value>
+</data>
+<data name="UnaryMinusOperatorSettingDescription" xml:space="preserve">
+  <value>Унарный оператор минус (-)</value>
+</data>
+<data name="ParserMethodBodySymbol_Text" xml:space="preserve">
+  <value>Тело метода</value>
+</data>
+<data name="SortusingDirectivesSettingDescription" xml:space="preserve">
+  <value>Сортировать директивы 'using'</value>
+</data>
+<data name="AfterFileScopedNamespaceDirectiveSettingDescription" xml:space="preserve">
+  <value>После директивы пространства имен в области файла</value>
+</data>
+<data name="ExpressionExpected_Text" xml:space="preserve">
+  <value>Ожидается выражение</value>
+</data>
+<data name="MethodsAndOperatorsSettingDescription" xml:space="preserve">
+  <value>Методы и операторы</value>
+</data>
+<data name="PreferRoslynVisualStudioLogicForTypeEvidenceSettingDescription" xml:space="preserve">
+  <value>Предпочитать логику Roslyn (Visual Studio) для доказательства типа</value>
+</data>
+<data name="BeforeMultilineStatementsSettingDescription" xml:space="preserve">
+  <value>Перед многострочными операторами</value>
+</data>
+<data name="UsingDirectivesAreOnlyAllowedInTheBeginningOfNamespace_Text" xml:space="preserve">
+  <value>Директивы 'using' разрешены только в начале тела пространства имен</value>
+</data>
+<data name="BeforeAfterAndSettingDescription" xml:space="preserve">
+  <value>До/после ++ и --</value>
+</data>
+<data name="Destructor_Text" xml:space="preserve">
+  <value>Деструктор</value>
+</data>
+<data name="PrimaryCtorParameter_PresentableName_Text" xml:space="preserve">
+  <value>Параметр основного конструктора</value>
+</data>
+<data name="AllowCommentAfterSettingDescription" xml:space="preserve">
+  <value>Разрешать комментарий после '{'</value>
+</data>
+<data name="PlaceMultilineAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать многострочный атрибут аксессора на той же строке</value>
+</data>
+<data name="CWrapping_Text" xml:space="preserve">
+  <value>Перенос в C#</value>
+</data>
+<data name="Constant_Text" xml:space="preserve">
+  <value>Константа</value>
+</data>
+<data name="UseSingleDeconstructionDeclaration_Text" xml:space="preserve">
+  <value>Использовать единое объявление деконструкции</value>
+</data>
+<data name="Parameter_Text" xml:space="preserve">
+  <value>Параметр</value>
+</data>
+<data name="TypeAndNamespaceDeclarationSettingDescription" xml:space="preserve">
+  <value>Объявления типов и пространств имен</value>
+</data>
+<data name="MethodDeclarationSettingDescription" xml:space="preserve">
+  <value>Объявление метода</value>
+</data>
+<data name="AllowglobalPrefixUseSettingDescription" xml:space="preserve">
+  <value>Разрешать использование префикса 'global::'</value>
+</data>
+<data name="NamedExpressionsVariablesPropertiesMethodsEtcSettingDescription" xml:space="preserve">
+  <value>Именованные выражения (переменные, свойства, методы и т.д.)</value>
+</data>
+<data name="DoNotChange_Description_Text" xml:space="preserve">
+  <value>Не изменять</value>
+</data>
+<data name="BaseClass_Text" xml:space="preserve">
+  <value>Базовый класс</value>
+</data>
+<data name="EvenWhenOperationsOfTheSameTypeAreNestedSettingDescription" xml:space="preserve">
+  <value>Даже когда операции одного типа вложены</value>
+</data>
+<data name="DoNotUse_Description_Text" xml:space="preserve">
+  <value>Не использовать</value>
+</data>
+<data name="ParserCharacterNumberSymbol_Text" xml:space="preserve">
+  <value>Количество символов</value>
+</data>
+<data name="KeepExistingArrangementOfParenthesisInDeclarationSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение круглых скобок в объявлениях</value>
+</data>
+<data name="CollectionExpressionElementExpected_Text" xml:space="preserve">
+  <value>Ожидается элемент выражения коллекции</value>
+</data>
+<data name="PropertyDeclarationSettingDescription" xml:space="preserve">
+  <value>Объявление свойства</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Relaxed_Text" xml:space="preserve">
+  <value>Свободный</value>
+</data>
+<data name="SpaceBetweenEmptyBracesSettingDescription" xml:space="preserve">
+  <value>Пробел между пустыми фигурными скобками</value>
+</data>
+<data name="WrapCollectionExpressionSettingDescription" xml:space="preserve">
+  <value>Переносить выражение коллекции</value>
+</data>
+<data name="AvoidIfPossible" xml:space="preserve">
+  <value>Избегать, если возможно</value>
+</data>
+<data name="ArrayCreationMustHaveArraySizeOrArray_Text" xml:space="preserve">
+  <value>Создание массива должно иметь размер массива или инициализатор массива</value>
+</data>
+<data name="CSharpFormatSettingsKey_AlignMultilineForStmt_SettingsEntryDescription" xml:space="preserve">
+  <value>Заголовок оператора 'for'</value>
+</data>
+<data name="AfterStatementsWithControlTransferSettingDescription" xml:space="preserve">
+  <value>После операторов с передачей управления</value>
+</data>
+<data name="CNamingSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки именования C#</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeDeclarationLpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед '(' в объявлении</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesAroundBlockCaseSection_SettingsEntryDescription" xml:space="preserve">
+  <value>Вокруг секции 'case' с блоком в операторе switch</value>
+</data>
+<data name="ForFields_Description_Text" xml:space="preserve">
+  <value>Для полей</value>
+</data>
+<data name="PlacePropertyAccessorExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать тело-выражение аксессора свойства на той же строке</value>
+</data>
+<data name="ParserArgumentSymbol_Text" xml:space="preserve">
+  <value>Аргумент</value>
+</data>
+<data name="AmbiguousUserDefinedConversions_Text" xml:space="preserve">
+  <value>Неоднозначные пользовательские преобразования</value>
+</data>
+<data name="TupleElementName_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+  <value>Имя элемента кортежа '{0}' должно быть удалено для соответствия ожидаемому типу</value>
+</data>
+<data name="MethodDeclarationEmptyParenthesesSettingDescription" xml:space="preserve">
+  <value>Пустые круглые скобки объявления метода</value>
+</data>
+<data name="TypeParameterConstraintsSettingDescription" xml:space="preserve">
+  <value>Ограничения параметра типа</value>
+</data>
+<data name="BreakLineInABlockWithASingleStatementSettingDescription" xml:space="preserve">
+  <value>Разрыв строки в блоке с одним оператором</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesBeforeCase_SettingsEntryDescription" xml:space="preserve">
+  <value>Перед 'case' в операторе switch</value>
+</data>
+<data name="StaticMemberQualifierSettingDescription" xml:space="preserve">
+  <value>Квалификатор static члена</value>
+</data>
+<data name="NullCoalescingOperatorSettingDescription" xml:space="preserve">
+  <value>Оператор объединения со значением NULL (??)</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Body_Type_Expression_Text" xml:space="preserve">
+  <value>Выражение</value>
+</data>
+<data name="PlacePropertyIndexerEventAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут свойства/индексатора/события на той же строке</value>
+</data>
+<data name="AroundInNamespaceAliasDirectiveSettingDescription" xml:space="preserve">
+  <value>Вокруг '=' в директиве псевдонима пространства имен</value>
+</data>
+<data name="KeepExistingArrangementOfEmbeddedStatementsSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение встроенных операторов</value>
+</data>
+<data name="AliasKeywordExpected_Text" xml:space="preserve">
+  <value>Ожидается ключевое слово 'alias'</value>
+</data>
+<data name="CSharpFormatSettingsKey_SpaceAfterColonInCase_SettingsEntryDescription" xml:space="preserve">
+  <value>После двоеточия в операторе 'case'</value>
+</data>
+<data name="TupleComponentShouldBeAddedInOrder_Text" xml:space="preserve">
+  <value>Компонент кортежа{0} должен быть добавлен для соответствия ожидаемому типу</value>
+</data>
+<data name="ParserParameterModifierSymbol2_Text" xml:space="preserve">
+  <value>Модификатор параметра</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeInvocationRpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед ')' в вызове</value>
+</data>
+<data name="UnsafeArrowOperatorSettingDescription" xml:space="preserve">
+  <value>Небезопасный оператор стрелки (-&gt;)</value>
+</data>
+<data name="WrapExtendsImplementsListSettingDescription" xml:space="preserve">
+  <value>Переносить список extends/implements</value>
+</data>
+<data name="UseExplicitVar_Pattern_Text" xml:space="preserve">
+  <value>Использовать явный шаблон 'var _'</value>
+</data>
+<data name="Align_Text" xml:space="preserve">
+  <value>Выравнивать</value>
+</data>
+<data name="CFormatting_Text" xml:space="preserve">
+  <value>Форматирование C#</value>
+</data>
+<data name="AnonymousMethodBodySettingDescription" xml:space="preserve">
+  <value>Тело анонимного метода</value>
+</data>
+<data name="AroundPropertyEventAccessorSettingDescription" xml:space="preserve">
+  <value>Вокруг аксессора свойства/события</value>
+</data>
+<data name="WithinSingleLineAnonymousMethodSettingDescription" xml:space="preserve">
+  <value>Внутри однострочного анонимного метода</value>
+</data>
+<data name="DimensionExpressionMissing_Text" xml:space="preserve">
+  <value>Отсутствует выражение размера</value>
+</data>
+<data name="LogicalNotOperatorSettingDescription" xml:space="preserve">
+  <value>Логический оператор НЕ (!)</value>
+</data>
+<data name="AroundTypeSettingDescription" xml:space="preserve">
+  <value>Вокруг типа</value>
+</data>
+<data name="AfterFileHeaderCommentSettingDescription" xml:space="preserve">
+  <value>После комментария заголовка файла</value>
+</data>
+<data name="AroundRegionSettingDescription" xml:space="preserve">
+  <value>Вокруг региона</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceCatchOnNewLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать 'catch' на новой строке</value>
+</data>
+<data name="StronglyPrefer" xml:space="preserve">
+  <value>Строго предпочитать</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Text" xml:space="preserve">
+  <value>Сопоставлять по</value>
+</data>
+<data name="EntityFrameworkAnalysisSettingsEntryDescription" xml:space="preserve">
+  <value>Включен ли анализ, специфичный для Entity Framework, и связанные функции</value>
+</data>
+<data name="CollectionExpressionExpected_Text" xml:space="preserve">
+  <value>Ожидается выражение коллекции</value>
+</data>
+<data name="IndentMethodDeclarationsParenthesisSettingDescription" xml:space="preserve">
+  <value>Делать отступ для круглых скобок объявлений методов</value>
+</data>
+<data name="MethodParametersSettingDescription" xml:space="preserve">
+  <value>Параметры метода</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HasAttribute_Target_Text" xml:space="preserve">
+  <value>Цель</value>
+</data>
+<data name="ParserParameterModifierSymbol_Text" xml:space="preserve">
+  <value>Модификатор параметра</value>
+</data>
+<data name="BeforeSemicolonSettingDescription" xml:space="preserve">
+  <value>Перед точкой с запятой</value>
+</data>
+<data name="UnsafeAddressofOperatorSettingDescription" xml:space="preserve">
+  <value>Небезопасный оператор addressof (&amp;)</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceFinallyOnNewLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать 'finally' на новой строке</value>
+</data>
+<data name="FileIsNotIncludedIntoCompilation_Text" xml:space="preserve">
+  <value>Файл не включен в компиляцию</value>
+</data>
+<data name="AroundAutoAbstractPropertyEventSettingDescription" xml:space="preserve">
+  <value>Вокруг auto/abstract свойства/события</value>
+</data>
+<data name="CSharpFormatSettingsKey_RedundantThisQualifierStyle_SettingsEntryDescription" xml:space="preserve">
+  <value>Использовать квалификатор 'this.' для членов экземпляра</value>
+</data>
+<data name="BeforeColonSettingDescription" xml:space="preserve">
+  <value>Перед ':'</value>
+</data>
+<data name="AroundSingleLineTypeSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного типа</value>
+</data>
+<data name="ApplyStyleHeuristicsSettingDescription" xml:space="preserve">
+  <value>Применять эвристики стиля</value>
+</data>
+<data name="IndentTypeArgumentsAnglesSettingDescription" xml:space="preserve">
+  <value>Делать отступ для угловых скобок аргументов типа</value>
+</data>
+<data name="SimpleSwitchSectionsSettingDescription" xml:space="preserve">
+  <value>Простые секции switch</value>
+</data>
+<data name="CSharpFormatSettingsKey_SpaceBeforeColonInUse_SettingsEntryDescription" xml:space="preserve">
+  <value>Перед двоеточием в операторе 'case'</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceWhileOnNewLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать 'while' на новой строке</value>
+</data>
+<data name="ExpectedTupleElementName__Text" xml:space="preserve">
+  <value>Ожидается имя элемента кортежа: '{0}'</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceElseOnNewLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать 'else' на новой строке</value>
+</data>
+<data name="CodeFormattingInCSettingDescription" xml:space="preserve">
+  <value>Форматирование кода в C#</value>
+</data>
+<data name="DontForceSingleLinesSettingDescription" xml:space="preserve">
+  <value>Не принуждать к однострочности</value>
+</data>
+<data name="AroundLocalFunctionSettingDescription" xml:space="preserve">
+  <value>Вокруг локальной функции</value>
+</data>
+<data name="PlaceSystemAndWindowsNamespacesFirstWhenSortingusingDirectivesSettingDescription" xml:space="preserve">
+  <value>При сортировке директив 'using' сначала размещать пространства имен 'System.*' и 'Windows.*'</value>
+</data>
+<data name="EnumMember_Text" xml:space="preserve">
+  <value>Член перечисления</value>
+</data>
+<data name="BeforeEndOfLineCommentSettingDescription" xml:space="preserve">
+  <value>Перед комментарием в конце строки</value>
+</data>
+<data name="KeepMaxBlankLinesInDeclarationsSettingDescription" xml:space="preserve">
+  <value>Сохранять максимальное количество пустых строк в объявлениях</value>
+</data>
+<data name="InconsistentBodyStyleUseExpressionBodiedProperty_Text" xml:space="preserve">
+  <value>Тело кода не соответствует настройкам стиля кода: используйте свойство с телом-выражением</value>
+</data>
+<data name="PlaceAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут аксессора на той же строке</value>
+</data>
+<data name="Accessor_Text" xml:space="preserve">
+  <value>Аксессор</value>
+</data>
+<data name="WrapMultipleDeclarationSettingDescription" xml:space="preserve">
+  <value>Переносить множественные объявления</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeDeclarationRpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед ')' в объявлении</value>
+</data>
+<data name="UseExplicitType_Description_Text" xml:space="preserve">
+  <value>Использовать явный тип</value>
+</data>
+<data name="AroundLambdaArrowSettingDescription" xml:space="preserve">
+  <value>Вокруг стрелки лямбды</value>
+</data>
+<data name="Operator_Text" xml:space="preserve">
+  <value>Оператор</value>
+</data>
+<data name="Class_PresentableName_Text" xml:space="preserve">
+  <value>Класс</value>
+</data>
+<data name="LambdaAndDelegateAnonymousMethodDeclarationSettingDescription" xml:space="preserve">
+  <value>Лямбда и делегат (объявление анонимного метода)</value>
+</data>
+<data name="IncludePrefixCommentsInIndentsSettingDescription" xml:space="preserve">
+  <value>Включать префиксные комментарии в отступы</value>
+</data>
+<data name="AroundNamespaceSettingDescription" xml:space="preserve">
+  <value>Вокруг пространства имен</value>
+</data>
+<data name="Interface_Text" xml:space="preserve">
+  <value>interface</value>
+</data>
+<data name="DefaultLayoutUsingRegions_Description_Text" xml:space="preserve">
+  <value>Макет по умолчанию с использованием регионов</value>
+</data>
+<data name="HowToIndentRawStringLiteralsSettingsDescription" xml:space="preserve">
+  <value>Как делать отступ для сырых строковых литералов</value>
+</data>
+<data name="IndentMethodCallsParenthesisSettingDescription" xml:space="preserve">
+  <value>Делать отступ для круглых скобок вызовов методов</value>
+</data>
+<data name="CallArgumentsBySettingDescription" xml:space="preserve">
+  <value>Выравнивать аргументы вызова по '('</value>
+</data>
+<data name="ForThisClassMembers_Description_Text" xml:space="preserve">
+  <value>Для членов этого класса</value>
+</data>
+<data name="Enum_Text" xml:space="preserve">
+  <value>enum</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeArrowWithExpressions_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед '=&gt;', за которым следует выражение</value>
+</data>
+<data name="EndifDirectiveExpected_Text" xml:space="preserve">
+  <value>Ожидается директива #endif</value>
+</data>
+<data name="ParserVariableDesignationSymbol_Text" xml:space="preserve">
+  <value>Обозначение переменной</value>
+</data>
+<data name="AfterOperatorKeywordSettingDescription" xml:space="preserve">
+  <value>После ключевого слова operator</value>
+</data>
+<data name="ThisQualifierSettingsKey_InstanceMembersQualifyMembers_SettingsEntryDescription" xml:space="preserve">
+  <value>Использовать квалификатор 'this.' для</value>
+</data>
+<data name="NamespacesSettingDescription" xml:space="preserve">
+  <value>Пространства имен</value>
+</data>
+<data name="BinaryExpressionsSettingDescription" xml:space="preserve">
+  <value>Бинарные выражения</value>
+</data>
+<data name="WithinSingleLineMethodSettingDescription" xml:space="preserve">
+  <value>Внутри однострочного метода</value>
+</data>
+<data name="UsingDirectivesAreOnlyAllowedInTheBeginningOfFile_Text" xml:space="preserve">
+  <value>Директивы 'using' разрешены только в начале файла</value>
+</data>
+<data name="BeforeBaseTypesListColonSettingDescription" xml:space="preserve">
+  <value>Перед двоеточием списка базовых типов</value>
+</data>
+<data name="BeforeCommaSettingDescription" xml:space="preserve">
+  <value>Перед запятой</value>
+</data>
+<data name="MaxArrayInitializerElementsOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум элементов инициализатора массива и выражений коллекций в одной строке</value>
+</data>
+<data name="BeforeQuestSettingDescription" xml:space="preserve">
+  <value>Перед '?'</value>
+</data>
+<data name="CSharpFormatSettingsKey_SpaceAfterForSemicolon_SettingsEntryDescription" xml:space="preserve">
+  <value>После точки с запятой в 'for'</value>
+</data>
+<data name="IndentStatementIfWhileForEtcParenthesisSettingDescription" xml:space="preserve">
+  <value>Делать отступ для круглых скобок операторов (if, while, for и т.д.)</value>
+</data>
+<data name="LambdaArrowExpected_Text" xml:space="preserve">
+  <value>Ожидается =&gt;</value>
+</data>
+<data name="AsyncLocalFunction_PresentableName_Text" xml:space="preserve">
+  <value>Локальная функция с 'async'</value>
+</data>
+<data name="MaxObjectAndCollectionInitializerElementsOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум элементов инициализатора объекта и коллекции в одной строке</value>
+</data>
+<data name="WrapEnumerationDeclarationSettingDescription" xml:space="preserve">
+  <value>Переносить объявление перечисления</value>
+</data>
+<data name="UseEmptyRecursivePattern_Text" xml:space="preserve">
+  <value>Использовать шаблон '{ }'</value>
+</data>
+<data name="GlobalAttributesAreOnlyAllowedInThe_Text" xml:space="preserve">
+  <value>Глобальные атрибуты разрешены только после директив 'using' в начале файла</value>
+</data>
+<data name="InconsistentBodyStyleUseExpressionBody_Text" xml:space="preserve">
+  <value>Тело кода не соответствует настройкам стиля кода: используйте тело-выражение</value>
+</data>
+<data name="CSharpVarKeywordUsageSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки использования ключевого слова var в C#</value>
+</data>
+<data name="UsevarKeywordForDiscardsSettingDescription" xml:space="preserve">
+  <value>Использовать ключевое слово 'var' для отбрасываний</value>
+</data>
+<data name="PlaceABlockWithASingleSimpleStatementOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать блок с одним простым оператором на той же строке</value>
+</data>
+<data name="ExternAliasDirectivesAreOnlyAllowed_Text" xml:space="preserve">
+  <value>Директивы 'extern alias' разрешены только в начале файла</value>
+</data>
+<data name="InsideTypeSettingDescription" xml:space="preserve">
+  <value>Внутри типа</value>
+</data>
+<data name="ForFieldsInThisClass_Description_Text" xml:space="preserve">
+  <value>Для полей в этом классе</value>
+</data>
+<data name="ParserForeachVariableDeclarationSymbol_Text" xml:space="preserve">
+  <value>Объявление переменной foreach</value>
+</data>
+<data name="DumpDbContextsStructureText" xml:space="preserve">
+  <value>Дамп структур DbContexts</value>
+</data>
+<data name="Delegate_Text" xml:space="preserve">
+  <value>delegate</value>
+</data>
+<data name="BetweenKeywordAndTypeSettingDescription" xml:space="preserve">
+  <value>Между ключевым словом и типом</value>
+</data>
+<data name="ForSimpleTypesSettingDescription" xml:space="preserve">
+  <value>Для простых типов</value>
+</data>
+<data name="ParserFunctionBodySymbol_Text" xml:space="preserve">
+  <value>Тело функции</value>
+</data>
+<data name="CLanguageLevelSettingDescription" xml:space="preserve">
+  <value>Уровень языка C#</value>
+</data>
+<data name="OutdentStatementLabelsSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для меток операторов</value>
+</data>
+<data name="WrapCommentsSettingDescription" xml:space="preserve">
+  <value>Переносить не-документирующие комментарии</value>
+</data>
+<data name="CSharpFormatSettingsKey_SimpleCaseStatementStyle_SettingsEntryDescription" xml:space="preserve">
+  <value>Разрыв строки в одном операторе 'case'</value>
+</data>
+<data name="BreakLineInSingleEmbeddedStatementSettingDescription" xml:space="preserve">
+  <value>Разрыв строки в одном встроенном операторе</value>
+</data>
+<data name="TypeParameterAnglesSettingDescription" xml:space="preserve">
+  <value>Угловые скобки параметров типа</value>
+</data>
+<data name="NestedTernaryOperatorsSettingDescription" xml:space="preserve">
+  <value>Вложенные тернарные операторы</value>
+</data>
+<data name="ParserSwitchCaseLabelSymbol_Text" xml:space="preserve">
+  <value>Метка case оператора switch</value>
+</data>
+<data name="GetsOrSetsElementAtTheSpecifiedIndex_Text" xml:space="preserve">
+  <value>Получает или задает элемент по указанному индексу.</value>
+</data>
+<data name="LINQQuerySettingDescription" xml:space="preserve">
+  <value>Запрос LINQ</value>
+</data>
+<data name="SimpleMethodsOperatorsDelegatesSettingDescription" xml:space="preserve">
+  <value>Простые методы, операторы, делегаты</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DisplayName_Text" xml:space="preserve">
+  <value>Отображаемое имя</value>
+</data>
+<data name="ListOfBaseClassesAndInterfacesSettingDescription" xml:space="preserve">
+  <value>Список базовых классов и интерфейсов</value>
+</data>
+<data name="NullCheckingPatternStyle" xml:space="preserve">
+  <value>Стиль шаблона проверки на null</value>
+</data>
+<data name="ParserSwitchGoverningExpressionSymbol_Text" xml:space="preserve">
+  <value>Управляющее выражение switch</value>
+</data>
+<data name="WrapChainedMethodCallsSettingDescription" xml:space="preserve">
+  <value>Переносить цепочки вызовов методов</value>
+</data>
+<data name="Alias_Text" xml:space="preserve">
+  <value>Псевдоним</value>
+</data>
+<data name="UnsafeAsteriskOperatorSettingDescription" xml:space="preserve">
+  <value>Небезопасный оператор звездочка (*)</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Body_Type_Text" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="BeforeStatementsWithControlTransferSettingDescription" xml:space="preserve">
+  <value>Перед операторами с передачей управления</value>
+</data>
+<data name="ParserUsageOfUserDefinedTypeSymbol_Text" xml:space="preserve">
+  <value>Использование пользовательского типа</value>
+</data>
+<data name="CSharpFormatSettingsKey_PlaceLinqInotOnNewLine_SettingsEntryDescription" xml:space="preserve">
+  <value>Размещать 'into' в выражениях LINQ на новой строке</value>
+</data>
+<data name="PlaceCommentsAtFirstColumnWhenCommentingOutCodeSettingDescription" xml:space="preserve">
+  <value>При комментировании кода размещать комментарии в первом столбце</value>
+</data>
+<data name="ThisQualifierSettingsKey_Description" xml:space="preserve">
+  <value>Квалификатор 'this.'</value>
+</data>
+<data name="TupleComponentsSettingDescription" xml:space="preserve">
+  <value>Компоненты кортежа</value>
+</data>
+<data name="AroundMethodSettingDescription" xml:space="preserve">
+  <value>Вокруг метода</value>
+</data>
+<data name="BeforeANewLineInMultilineListsSettingDescription" xml:space="preserve">
+  <value>Перед новой строкой в многострочных списках</value>
+</data>
+<data name="RelationalOperatorsSettingDescription" xml:space="preserve">
+  <value>Операторы отношения (&lt;, &gt;, &lt;=, &gt;=)</value>
+</data>
+<data name="AfterBaseTypesListColonSettingDescription" xml:space="preserve">
+  <value>После двоеточия списка базовых типов</value>
+</data>
+<data name="MultilineMethodSignatureSettingDescription" xml:space="preserve">
+  <value>Многострочная сигнатура метода</value>
+</data>
+<data name="LocalFunction_PresentableName_Text" xml:space="preserve">
+  <value>Локальная функция</value>
+</data>
+<data name="ParserPointerTypeSymbol_Text" xml:space="preserve">
+  <value>Тип указателя</value>
+</data>
+<data name="WrapInvocationArgumentsSettingDescription" xml:space="preserve">
+  <value>Переносить аргументы вызова</value>
+</data>
+<data name="MaxEnumerationMembersOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум членов перечисления в одной строке</value>
+</data>
+<data name="RemoveRedundantParenthesesSettingDescription" xml:space="preserve">
+  <value>Удалять избыточные круглые скобки</value>
+</data>
+<data name="Indexer_Text" xml:space="preserve">
+  <value>Индексатор</value>
+</data>
+<data name="PlaceTypeAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут типа на той же строке</value>
+</data>
+<data name="PreferExtensionMethodsImportWithusingStaticDirectiveSettingDescription" xml:space="preserve">
+  <value>Предпочитать импорт методов расширения с помощью директивы 'using static'</value>
+</data>
+<data name="WrapFormalParametersSettingDescription" xml:space="preserve">
+  <value>Переносить формальные параметры</value>
+</data>
+<data name="OutdentCommasSettingDescription" xml:space="preserve">
+  <value>Уменьшать отступ для запятых</value>
+</data>
+<data name="PreferExplicitImplicitPrivateModifierForTypeMembersSettingDescription" xml:space="preserve">
+  <value>Предпочитать явный/неявный модификатор private для членов типа</value>
+</data>
+<data name="AllowPrimaryConstructorInitializerOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Разрешать инициализатор основного конструктора на той же строке</value>
+</data>
+<data name="SettingsEntryDescription_Parentheses_CheckedUnchecked" xml:space="preserve">
+  <value>Круглые скобки 'checked' и 'unchecked'</value>
+</data>
+<data name="AroundSingleLineAutoAbstractPropertyEventSettingDescription" xml:space="preserve">
+  <value>Вокруг однострочного auto/abstract свойства/события</value>
+</data>
+<data name="BetweenKeywordAndExpressionSettingDescription" xml:space="preserve">
+  <value>Между ключевым словом и выражением</value>
+</data>
+<data name="KeepExistingArrangementOfDeclarationBlocksSettingDescription" xml:space="preserve">
+  <value>Сохранять существующее расположение блоков объявлений</value>
+</data>
+<data name="ParserIdentifierSymbol_Text" xml:space="preserve">
+  <value>Идентификатор</value>
+</data>
+<data name="AfterTypeCastParenthesesSettingDescription" xml:space="preserve">
+  <value>После круглых скобок приведения типа</value>
+</data>
+<data name="ParserUsageOfPredefinedTypeSymbol_Text" xml:space="preserve">
+  <value>Использование предопределенного типа</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapAroundEq_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос вокруг '='</value>
+</data>
+<data name="PlaceSimpleAnonymousMethodOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой анонимный метод в одной строке</value>
+</data>
+<data name="PlaceSimpleMethodOnSingleLineSettingDescription" xml:space="preserve">
+  <value>Размещать простой метод в одной строке</value>
+</data>
+<data name="PreferWrapBeforeOperatorInBinaryExpressionSettingDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед оператором в бинарном выражении</value>
+</data>
+<data name="PlaceAttributeOnSeparateLineIfItIsLongerThanSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут на отдельной строке, если его длина превышает</value>
+</data>
+<data name="AfterQuestSettingDescription" xml:space="preserve">
+  <value>После '?'</value>
+</data>
+<data name="AddTrailingCommaToConformToCodeStyle_Text" xml:space="preserve">
+  <value>Добавлять завершающую запятую для соответствия стилю кода</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Subscription_Text" xml:space="preserve">
+  <value>Подписка</value>
+</data>
+<data name="Label_Text" xml:space="preserve">
+  <value>Метка</value>
+</data>
+<data name="WhenTypeIsEvidentFromUsageSettingDescription" xml:space="preserve">
+  <value>Когда тип очевиден из использования</value>
+</data>
+<data name="ShiftOperatorsSettingDescription" xml:space="preserve">
+  <value>Операторы сдвига (&lt;&lt;, &gt;&gt;, &gt;&gt;&gt;)</value>
+</data>
+<data name="WithinAttributeBracketsSettingDescription" xml:space="preserve">
+  <value>Внутри квадратных скобок атрибута</value>
+</data>
+<data name="AfterCommaSettingDescription" xml:space="preserve">
+  <value>После запятой</value>
+</data>
+<data name="ApplyToNativeIntegerDescription" xml:space="preserve">
+  <value>Также применяется к целочисленным типам собственного размера</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeEq_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед '='</value>
+</data>
+<data name="WrapPrimaryConstructorParametersSettingDescription" xml:space="preserve">
+  <value>Переносить параметры основного конструктора</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesAfterCase_SettingsEntryDescription" xml:space="preserve">
+  <value>После 'case' в операторе switch</value>
+</data>
+<data name="WithinArrayRankBracketsSettingDescription" xml:space="preserve">
+  <value>Внутри квадратных скобок ранга массива</value>
+</data>
+<data name="BeforeTypeParameterListAngleSettingDescription" xml:space="preserve">
+  <value>Перед открывающей угловой скобкой списка параметров типа</value>
+</data>
+<data name="EntityFrameworkEntityAdornment_Settings_Enabled_Description" xml:space="preserve">
+  <value>Показывать ли оформление рядом с объявлениями классов сущностей EF</value>
+</data>
+<data name="InconsistentBodyStyleUseExpressionBodiedGetter_Text" xml:space="preserve">
+  <value>Тело кода не соответствует настройкам стиля кода: используйте геттер с телом-выражением</value>
+</data>
+<data name="ForBuiltInTypesSettingDescription" xml:space="preserve">
+  <value>Для встроенных типов</value>
+</data>
+<data name="BitwiseOperatorsSettingDescription" xml:space="preserve">
+  <value>Поразрядные операторы (&amp;,|,^)</value>
+</data>
+<data name="LambdaParameter_PresentableName_Text" xml:space="preserve">
+  <value>Параметр лямбды</value>
+</data>
+<data name="InsideNamespaceSettingDescription" xml:space="preserve">
+  <value>Внутри пространства имен</value>
+</data>
+<data name="EnableDisableRestoreExpected_Text" xml:space="preserve">
+  <value>Ожидается enable/disable/restore</value>
+</data>
+<data name="BeforeTypeParameterConstraintColonSettingDescription" xml:space="preserve">
+  <value>Перед двоеточием ограничения параметра типа</value>
+</data>
+<data name="ExpressionsInitializersSwitchExpressionsPatternsSettingDescription" xml:space="preserve">
+  <value>Выражения (инициализаторы, выражения switch, шаблоны, выражения коллекций)</value>
+</data>
+<data name="PlaceSinglelineAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать однострочный атрибут аксессора на той же строке</value>
+</data>
+<data name="AddBraces_Description_Text" xml:space="preserve">
+  <value>Добавлять фигурные скобки</value>
+</data>
+<data name="InLocalsMembersAndParametersPreferSettingDescription" xml:space="preserve">
+  <value>В локальных переменных, членах и параметрах предпочитать</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_ExceptGenerated_Text" xml:space="preserve">
+  <value>Кроме сгенерированных регионов</value>
+</data>
+<data name="BeforeArrayRankBracketsSettingDescription" xml:space="preserve">
+  <value>Перед квадратными скобками ранга массива</value>
+</data>
+<data name="CSharpFormatSettingsKey_RemoveBlankLinesNearBracesInDeclaration_SettingsEntryDescription" xml:space="preserve">
+  <value>Удалять пустые строки после '{' и перед '}' в объявлениях</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Name_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="ParserSelectClauseSymbol_Text" xml:space="preserve">
+  <value>Предложение 'select'</value>
+</data>
+<data name="PreferSeparateDeclarationsForDeconstructedVariablesSettingDescription" xml:space="preserve">
+  <value>Предпочитать отдельные объявления для деконструированных переменных</value>
+</data>
+<data name="AsyncTaskLocalFunction_PresentableName_Text" xml:space="preserve">
+  <value>Локальная функция, возвращающая задачу (не 'async')</value>
+</data>
+<data name="WrapArrayInitializerSettingDescription" xml:space="preserve">
+  <value>Переносить инициализатор массива</value>
+</data>
+<data name="EntityFrameworkSettingsDescription" xml:space="preserve">
+  <value>Настройки анализа Entity Framework</value>
+</data>
+<data name="WrapChainedBinaryExpressionsSettingDescription" xml:space="preserve">
+  <value>Переносить цепочки бинарных выражений</value>
+</data>
+<data name="ParserInitializerSymbol_Text" xml:space="preserve">
+  <value>Инициализатор</value>
+</data>
+<data name="MaxPatternPropertiesOnASingleLineSettingDescription" xml:space="preserve">
+  <value>Максимум свойств шаблона в одной строке</value>
+</data>
+<data name="Missing_Text" xml:space="preserve">
+  <value>Отсутствует</value>
+</data>
+<data name="EndCommentsSettingDescription" xml:space="preserve">
+  <value>Завершающие комментарии</value>
+</data>
+<data name="UseVar_Description_Text" xml:space="preserve">
+  <value>Использовать 'var'</value>
+</data>
+<data name="SwitchExpressionsSettingDescription" xml:space="preserve">
+  <value>Выражения Switch</value>
+</data>
+<data name="ChainedMethodCallsSettingDescription" xml:space="preserve">
+  <value>Цепочки вызовов методов</value>
+</data>
+<data name="CustomPatternUseNullForDefaultPatternSettingDescription" xml:space="preserve">
+  <value>Пользовательский шаблон. Используйте null для шаблона по умолчанию.</value>
+</data>
+<data name="DefaultWrap" xml:space="preserve">
+  <value>Предпочтение по умолчанию</value>
+</data>
+<data name="VariablesAndLocalConstantsSettingDescription" xml:space="preserve">
+  <value>Переменные и локальные константы</value>
+</data>
+<data name="CallArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы вызова</value>
+</data>
+<data name="WithinSingleLineExpressionBracesSettingDescription" xml:space="preserve">
+  <value>Внутри однострочных фигурных скобок выражений</value>
+</data>
+<data name="EqualsExpected_Text" xml:space="preserve">
+  <value>Ожидается =</value>
+</data>
+<data name="PlaceItOnSingleLineEvenWhenItHasAttributesOnAccessorsSettingDescription" xml:space="preserve">
+  <value>Размещать это в одной строке, даже если на аксессорах есть атрибуты</value>
+</data>
+<data name="PrimaryConstructor_Text" xml:space="preserve">
+  <value>Основной конструктор</value>
+</data>
+<data name="CustomLayout_Description_Text" xml:space="preserve">
+  <value>Пользовательский макет</value>
+</data>
+<data name="PlaceFieldAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+  <value>Размещать атрибут поля на той же строке</value>
+</data>
+<data name="AsyncMethod_PresentableName_Text" xml:space="preserve">
+  <value>Метод с 'async'</value>
+</data>
+<data name="WarningsAnnotationsExpected_Text" xml:space="preserve">
+  <value>Ожидается warnings/annotations</value>
+</data>
+<data name="ParserCollectionExpressionElementSymbol_Text" xml:space="preserve">
+  <value>Элемент выражения коллекции</value>
+</data>
+<data name="CLanguageSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки языка C#</value>
+</data>
+<data name="PropertyPatternsSettingDescription" xml:space="preserve">
+  <value>Шаблоны свойств</value>
+</data>
+<data name="CSharpFormatSettingsKey_BlankLinesBetweenUsingGroups_SettingsEntryDescription" xml:space="preserve">
+  <value>Между разными группами 'using'</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapBeforeInvocationLpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос перед '(' в вызове</value>
+</data>
+<data name="RemoveRedundantVarKeyword_Text" xml:space="preserve">
+  <value>Удалять избыточное ключевое слово 'var'</value>
+</data>
+<data name="ExternAliasDirectivesAreOnlyAllowed2_Text" xml:space="preserve">
+  <value>Директивы 'extern alias' разрешены только в начале тела пространства имен</value>
+</data>
+<data name="CSharpFormatSettingsKey_WrapAfterDeclarationLpar_SettingsEntryDescription" xml:space="preserve">
+  <value>Предпочитать перенос после '(' в объявлении</value>
+</data>
+<data name="WrapComplexBinaryPatternsSettingDescription" xml:space="preserve">
+  <value>Переносить сложные бинарные шаблоны</value>
+</data>
+<data name="NamespaceBodyBlockExpected_Text" xml:space="preserve">
+  <value>Ожидается блок тела пространства имен</value>
+</data>
+<data name="WrapVerbatimInterpolatedStringsSettingDescription" xml:space="preserve">
+  <value>Переносить интерполированные строки</value>
+</data>
+<data name="LocalVariable_Text" xml:space="preserve">
+  <value>Локальная переменная</value>
+</data>
+<data name="IndexedProperty_Text" xml:space="preserve">
+  <value>Индексированное свойство</value>
+</data>
+</root>

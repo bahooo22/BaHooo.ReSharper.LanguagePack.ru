@@ -1,0 +1,3322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="RiderUsageLocalizer_ToLocalizedString_Extension_for_objects" xml:space="preserve">
+    <value>Расширения для объектов</value>
+</data>
+<data name="Project_Template_Option_TWFjIENhdGFseXN0IEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Приложение Mac Catalyst</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Set_Project_Properties" xml:space="preserve">
+    <value>Не удалось установить свойства проекта</value>
+</data>
+<data name="RearrangeCodeActionText" xml:space="preserve">
+    <value>Переупорядочить код</value>
+</data>
+<data name="NETFrameworkProjects_Text" xml:space="preserve">
+    <value>Проекты .NET Framework</value>
+</data>
+<data name="GeneratingType__Text" xml:space="preserve">
+    <value>Генерация типа "{0}"…</value>
+</data>
+<data name="AdditionalData_Text" xml:space="preserve">
+    <value>Дополнительные данные</value>
+</data>
+<data name="Processing_File_Text" xml:space="preserve">
+    <value>Обработка {0}…</value>
+</data>
+<data name="ShowRunMarkerOnStaticMethodsSettingDescription" xml:space="preserve">
+    <value>Показывать маркер запуска на статических методах</value>
+</data>
+<data name="CanNotFindTypeDeclaration_SkipGeneration_Text" xml:space="preserve">
+    <value>Не удалось найти объявление типа "{0}", пропуск генерации</value>
+</data>
+<data name="AnonymousAuthentication_Caption" xml:space="preserve">
+    <value>Анонимная аутентификация</value>
+</data>
+<data name="XCodeProjectFileIsMissing_Text" xml:space="preserve">
+    <value>Отсутствует файл проекта Xcode</value>
+</data>
+<data name="GenerateApplicationhostConfig_Caption" xml:space="preserve">
+    <value>Сгенерировать applicationhost.config</value>
+</data>
+<data name="SmartStepInto_Text" xml:space="preserve">
+    <value>Умный вход в функцию (Smart Step Into)</value>
+</data>
+<data name="ProvisionProfile_Text" xml:space="preserve">
+    <value>Профиль подготовки:</value>
+</data>
+<data name="Decompress__Text" xml:space="preserve">
+    <value>Распаковка {0}</value>
+</data>
+<data name="EnableHotReloadWhenDebugging_Text" xml:space="preserve">
+    <value>Включить горячую перезагрузку при отладке</value>
+</data>
+<data name="UseIncrementalAndroidPackingSystemAapt2_CheckBox_Caption" xml:space="preserve">
+    <value>Использовать инкрементальную систему упаковки Android (aapt2)</value>
+</data>
+<data name="JavaDevelopmentKitPathSettingDescription" xml:space="preserve">
+    <value>Путь к Java Development Kit</value>
+</data>
+<data name="TrueIfSWEAWasEnabledOnFirstSolutionLoadSettingDescription" xml:space="preserve">
+    <value>True, если SWEA была включена при первой загрузке решения</value>
+</data>
+<data name="ProjectFileContentWasUpdated_Text" xml:space="preserve">
+    <value>Содержимое файла проекта было обновлено</value>
+</data>
+<data name="FailedToParseMethodOn__Text" xml:space="preserve">
+    <value>Не удалось разобрать метод на {0}</value>
+</data>
+<data name="NotificationsActionGroupText" xml:space="preserve">
+    <value>Уведомления</value>
+</data>
+<data name="AndroidResourceDesignerGenerator_Text" xml:space="preserve">
+    <value>Генератор Android Resource.Designer</value>
+</data>
+<data name="RiderDetectsNamingConventionsInOpened_Text" xml:space="preserve">
+    <value>Rider может обнаруживать соглашения об именовании в открытом решении и соответствующим образом обновлять настройки. Нажмите "Настроить", чтобы изменить.</value>
+</data>
+<data name="FirstAndLastName_Text" xml:space="preserve">
+    <value>Имя и фамилия</value>
+</data>
+<data name="AuthenticationType_ToolTip" xml:space="preserve">
+    <value>Тип аутентификации</value>
+</data>
+<data name="Unknown___Text" xml:space="preserve">
+    <value>Неизвестно {0}: {1}</value>
+</data>
+<data name="Finish_Text" xml:space="preserve">
+    <value>Готово</value>
+</data>
+<data name="AndroidPackageFormat_ComboBox_Caption" xml:space="preserve">
+    <value>Формат пакета Android</value>
+</data>
+<data name="VBLanguageLevel_Caption" xml:space="preserve">
+    <value>Переопределение уровня языка в Rider</value>
+</data>
+<data name="PathToCInteractiveToolSettingDescription" xml:space="preserve">
+    <value>Путь к инструменту C# Interactive</value>
+</data>
+<data name="HttpClientManaged_ComboBoxValue" xml:space="preserve">
+    <value>HttpClient (управляемый)</value>
+</data>
+<data name="DistributionAutomatic_Text" xml:space="preserve">
+    <value>Распространение (автоматическое)</value>
+</data>
+<data name="AndroidSDKPlatformForApplicationAPI_Text" xml:space="preserve">
+    <value>Платформа Android SDK для уровня API приложения не установлена.
+Пожалуйста, установите ее через менеджер Android SDK или измените ваш проект Xamarin.Android для целевой установленной версии API.</value>
+</data>
+<data name="Package_vulnerabilities_detected" xml:space="preserve">
+    <value>Обнаружены уязвимости в пакетах</value>
+</data>
+<data name="CompactFormatActionText" xml:space="preserve">
+    <value>Компактный формат</value>
+</data>
+<data name="ShowArchitectureDiagramActionText" xml:space="preserve">
+    <value>Показать диаграмму зависимостей проекта(&amp;P)</value>
+</data>
+<data name="CannotGenerateTheConfigurationFile_Text" xml:space="preserve">
+    <value>Не удалось сгенерировать файл конфигурации</value>
+</data>
+<data name="SqlProjects_Tools_Header_Text" xml:space="preserve">
+    <value>Инструменты</value>
+</data>
+<data name="ArchivesListPage_Name_Title" xml:space="preserve">
+    <value>Имя</value>
+</data>
+<data name="RemoveSelectedTest_Text" xml:space="preserve">
+    <value>Удалить выбранный тест</value>
+</data>
+<data name="WhetherWindowsFormsDesignerIsEnabledSettingDescription" xml:space="preserve">
+    <value>Включен ли конструктор Windows Forms</value>
+</data>
+<data name="Project_Template_Option_d2l0aCBSZWFjdC5qcwEQEQ" xml:space="preserve">
+    <value>С использованием React.js</value>
+</data>
+<data name="SpecifiedXcodePath_PointsToInvalidXcode_Text" xml:space="preserve">
+    <value>Указанный путь Xcode '{0}' ведет в недопустимое место</value>
+</data>
+<data name="OpenXamarinAndroidSDKRepositoryPage_Text" xml:space="preserve">
+    <value>Открыть страницу репозитория Xamarin Android SDK на GitHub…</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Related_Usages" xml:space="preserve">
+    <value>Связанные использования</value>
+</data>
+<data name="CredentialProviders_Header_Text" xml:space="preserve">
+    <value>Поставщики учетных данных</value>
+</data>
+<data name="GeneratePageModelClass_DescriptionText" xml:space="preserve">
+    <value>Сгенерировать класс PageModel(_P)</value>
+</data>
+<data name="_IsNotFrameworkProject_Text" xml:space="preserve">
+    <value>{0} не является проектом Framework</value>
+</data>
+<data name="IisExpressSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки IIS Express</value>
+</data>
+<data name="GoTo__Caption" xml:space="preserve">
+    <value>Перейти к {0}</value>
+</data>
+<data name="Core_ComboBoxValue" xml:space="preserve">
+    <value>Ядро (Core)</value>
+</data>
+<data name="DefaultCLR_Text" xml:space="preserve">
+    <value>По умолчанию (CLR)</value>
+</data>
+<data name="_ReferenceScriptLibraries_Text" xml:space="preserve">
+    <value>Ссылаться на библиотеки скриптов(_R)</value>
+</data>
+<data name="Uninstall_Header_Text" xml:space="preserve">
+    <value>Удалить</value>
+</data>
+<data name="_IsAlreadyUsingPackageReferences_Text" xml:space="preserve">
+    <value>{0} уже использует ссылки на пакеты</value>
+</data>
+<data name="ItemWithName_AlreadyExists_Text" xml:space="preserve">
+    <value>Элемент с именем '{0}' уже существует</value>
+</data>
+<data name="CheckAndInstallNuGetPackages_Text" xml:space="preserve">
+    <value>Проверить и установить пакеты NuGet</value>
+</data>
+<data name="GoToUsageIfThereIsOnly_oneResultNavigate_Text" xml:space="preserve">
+    <value>Перейти к использованию: если только один результат, переходить без показа списка(_O)</value>
+</data>
+<data name="IgnoreAssemblies_TextBox_Caption" xml:space="preserve">
+    <value>Игнорировать сборки</value>
+</data>
+<data name="EnterURIPath_Caption" xml:space="preserve">
+    <value>Введите путь URI</value>
+</data>
+<data name="UnableToFindBaseObjectTypeFor__Text" xml:space="preserve">
+    <value>Не удалось найти базовый тип объекта для '{0}'</value>
+</data>
+<data name="SpecifyAnExistingOrNewCSHTMLFileFrom_Text" xml:space="preserve">
+    <value>Укажите существующий или новый файл CSHTML из проекта '{0}'</value>
+</data>
+<data name="LoadPatterns_Text" xml:space="preserve">
+    <value>Загрузить шаблоны:</value>
+</data>
+<data name="DefaultLanguage_Text" xml:space="preserve">
+    <value>Значение по умолчанию для выбранного фреймворка</value>
+</data>
+<data name="UsingDefaultXcodeToOpenGeneratedProject_Text" xml:space="preserve">
+    <value>Использовать Xcode по умолчанию для открытия сгенерированного проекта</value>
+</data>
+<data name="MtouchSdkRootPathSettingDescription" xml:space="preserve">
+    <value>Корневой путь Mtouch SDK</value>
+</data>
+<data name="ExecutablePackageExe_ComboBoxValue" xml:space="preserve">
+    <value>Пакет исполняемого файла (.exe)</value>
+</data>
+<data name="ShowTestPanelNotificationActionText" xml:space="preserve">
+    <value>Показывать уведомление панели тестов</value>
+</data>
+<data name="GettingDebuggingInformationForAType_Text" xml:space="preserve">
+    <value>Получение информации об отладке для типа</value>
+</data>
+<data name="Project_Template_Option_TWFjIENhdGFseXN0IENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Библиотека классов Mac Catalyst</value>
+</data>
+<data name="ThereIsNo_DefinedInXCodeProjectButUsed_Text" xml:space="preserve">
+    <value>'{0}' не определен в проекте Xcode, но используется в 'Info.plist'</value>
+</data>
+<data name="Project_Template_Option_QW5kcm9pZCBXZWFyIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Приложение для Android Wear</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Delete_File" xml:space="preserve">
+    <value>Не удалось удалить файл: {0}</value>
+</data>
+<data name="DoNotStripNativeDebuggingSymbols_CheckBox_Caption" xml:space="preserve">
+    <value>Не удалять нативные символы отладки</value>
+</data>
+<data name="EnterpriseDistributeToYourOrganization_Text" xml:space="preserve">
+    <value>Предприятие — распространение внутри вашей организации</value>
+</data>
+<data name="CalculateInlineDocsSettingName" xml:space="preserve">
+    <value>Вычислять встроенную документацию для файлов не в режиме чтения</value>
+</data>
+<data name="Project_Template_Option_Qmxhem9yIFdlYkFzc2VtYmx5IEFwcAEQEQ" xml:space="preserve">
+    <value>Приложение Blazor WebAssembly</value>
+</data>
+<data name="Project_Template_Option_Qmxhem9yIFdlYkFzc2VtYmx5IEFwcCBFbXB0eQEQEQ" xml:space="preserve">
+    <value>Пустое приложение Blazor WebAssembly</value>
+</data>
+<data name="XcodeProjectRootPath__Text" xml:space="preserve">
+    <value>Корневой путь проекта Xcode: '{0}'</value>
+</data>
+<data name="ContentFileWasCreatedAndWillBeSynced_Text" xml:space="preserve">
+    <value>Файл содержимого был создан и будет синхронизирован с проектом .NET</value>
+</data>
+<data name="NETStandardProjects_Text" xml:space="preserve">
+    <value>Проекты .NET Standard</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_DefaultInspection" xml:space="preserve">
+    <value>Найденные проблемы</value>
+</data>
+<data name="UsageGrouping_IssueCategory_Text" xml:space="preserve">
+    <value>Категория проблемы</value>
+</data>
+<data name="Project_Template_Option_V2ViIEFwcCAoTW9kZWwtVmlldy1Db250cm9sbGVyKQEQEQ" xml:space="preserve">
+    <value>Веб-приложение (Модель-Представление-Контроллер)</value>
+</data>
+<data name="Project_Template_Option_aU9TIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Приложение для iOS</value>
+</data>
+<data name="Template_Editable_UmF6b3IgUGFnZQEQEQ" xml:space="preserve">
+    <value>Страница Razor</value>
+</data>
+<data name="Project_Template_Option_V2luZG93cyBGb3JtcyBDb250cm9sIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Библиотека элементов управления Windows Forms</value>
+</data>
+<data name="UniversalWindowsPlatformSDKSupported_Text" xml:space="preserve">
+    <value>Платформа Universal Windows Platform SDK поддерживается только под Windows</value>
+</data>
+<data name="ASPNETVBNETOptionPageTitle" xml:space="preserve">
+    <value>ASP.NET (VB.NET)</value>
+</data>
+<data name="CLRActionText" xml:space="preserve">
+    <value>CLR</value>
+</data>
+<data name="FindingModules_Text" xml:space="preserve">
+    <value>Поиск модулей</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Dynamic__smart_" xml:space="preserve">
+    <value>Динамическое (интеллектуальное)</value>
+</data>
+<data name="LinkFrameworkSDKsOnly_ComboBoxValue" xml:space="preserve">
+    <value>Связывать только Framework SDK</value>
+</data>
+<data name="LeaveEmptyIfItIsSetInRazor_viewstart_Text" xml:space="preserve">
+    <value>Оставьте пустым, если задано в файле Razor _viewstart</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_MacroArgument" xml:space="preserve">
+    <value>Использование в аргументах макроса</value>
+</data>
+<data name="GeneratingSolutionFile_Text" xml:space="preserve">
+    <value>Генерация файла решения…</value>
+</data>
+<data name="SelectFileDialogTitle" xml:space="preserve">
+    <value>Выберите файл</value>
+</data>
+<data name="InvalidText_Error__Text" xml:space="preserve">
+    <value>Неверный текст {0}. Ошибка: {1}</value>
+</data>
+<data name="UsageGrouping_OccurrenceType_Text" xml:space="preserve">
+    <value>Тип вхождения</value>
+</data>
+<data name="ManagedPipelineMode_Text" xml:space="preserve">
+    <value>Режим управваемого конвейера</value>
+</data>
+<data name="ASPCodeBehindGenerator_Text" xml:space="preserve">
+    <value>Генератор кода ASP Code-Behind</value>
+</data>
+<data name="XcodePath_Text" xml:space="preserve">
+    <value>Путь к Xcode: </value>
+</data>
+<data name="Template_Editable_WElC" xml:space="preserve">
+    <value>XIB</value>
+</data>
+<data name="SqlProjects_Text" xml:space="preserve">
+    <value>Проекты SQL</value>
+</data>
+<data name="SigningCertificateData_Text" xml:space="preserve">
+    <value>Данные сертификата подписи</value>
+</data>
+<data name="CreatingProject_Text" xml:space="preserve">
+    <value>Создание проекта</value>
+</data>
+<data name="Delete_DescriptionText" xml:space="preserve">
+    <value>Удалить</value>
+</data>
+<data name="LoadingSigningKeys_Text" xml:space="preserve">
+    <value>Загрузка ключей подписи…</value>
+</data>
+<data name="FileConflictAction_Text" xml:space="preserve">
+    <value>Действие при конфликте файлов</value>
+</data>
+<data name="ImportChangesFromXcodeInto__Caption" xml:space="preserve">
+    <value>Импортировать изменения из Xcode в '{0}'</value>
+</data>
+<data name="WiXLibraryWixlib_ComboBoxValue" xml:space="preserve">
+    <value>Библиотека WiX (.wixlib)</value>
+</data>
+<data name="ReadMore_ComboEnum_TextSuffix" xml:space="preserve">
+    <value>Подробнее</value>
+</data>
+<data name="Prompt_Text" xml:space="preserve">
+    <value>Запрос</value>
+</data>
+<data name="TestIconTransformationPerformanceActionText" xml:space="preserve">
+    <value>Протестировать производительность преобразования иконок</value>
+</data>
+<data name="UnableToSyncContentItem__Text" xml:space="preserve">
+    <value>Не удалось синхронизировать элемент содержимого: {0}</value>
+</data>
+<data name="Template_Editable_VmlldyBDb250cm9sbGVy" xml:space="preserve">
+    <value>Контроллер представления</value>
+</data>
+<data name="AdditionalArguments_TextBox_Caption" xml:space="preserve">
+    <value>Дополнительные аргументы</value>
+</data>
+<data name="View_AlreadyExists_Text" xml:space="preserve">
+    <value>Представление '{0}' уже существует</value>
+</data>
+<data name="DownloadIISExpress_WarningTextWithLink_Text" xml:space="preserve">
+    <value>Скачать IIS Express</value>
+</data>
+<data name="DiagnosticTypesN__Text" xml:space="preserve">
+    <value>Типы диагностики:
+{0}</value>
+</data>
+<data name="AllowDownloadingSymbolsFromRemoteLocations_BoolOption_Text" xml:space="preserve">
+    <value>Разрешить загрузку символов из удаленных местоположений</value>
+</data>
+<data name="URL_Caption" xml:space="preserve">
+    <value>URL</value>
+</data>
+<data name="PreviousError_Text" xml:space="preserve">
+    <value>Предыдущая ошибка</value>
+</data>
+<data name="HighestMinorInstallsTheVersionWithThe_ToolTip" xml:space="preserve">
+    <value>«Наивысшая次要ная версия» устанавливает версию с тем же основным номером версии, но с наивысшим номером次要ной версии и исправления. Если указана версия 1.2.2, будет установлена наивысшая версия, начинающаяся с 1.</value>
+</data>
+<data name="SolutionAnalysis_Analyzing_Files_N_Text" xml:space="preserve">
+    <value>Анализ файлов ({0}/{1}): {2}</value>
+</data>
+<data name="XAMLVBNETOptionPageTitle" xml:space="preserve">
+    <value>XAML (VB.NET)</value>
+</data>
+<data name="SendLineFocusesToolWindow_BoolOption_ToolTip" xml:space="preserve">
+    <value>Отправка строки фокусирует окно инструментов</value>
+</data>
+<data name="Project_Template_Option_WGFtYXJpbi5Gb3JtcwEQEQ" xml:space="preserve">
+    <value>Xamarin.Forms</value>
+</data>
+<data name="OptionExplicit_ComboBox_Caption" xml:space="preserve">
+    <value>Option Explicit</value>
+</data>
+<data name="XamarinSDKRequiresXcode_OrLater_Caption" xml:space="preserve">
+    <value>Xamarin SDK требует Xcode {0} или новее</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_DependentCode" xml:space="preserve">
+    <value>Зависимый код</value>
+</data>
+<data name="XamarinSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки Xamarin</value>
+</data>
+<data name="UnableToFind__Text" xml:space="preserve">
+    <value>Не удалось найти '{0}'</value>
+</data>
+<data name="ApplicationRootURL_Caption" xml:space="preserve">
+    <value>Корневой URL приложения</value>
+</data>
+<data name="Author_Text" xml:space="preserve">
+    <value>Автор</value>
+</data>
+<data name="UseAzureCredentialProviderV2_Text" xml:space="preserve">
+    <value>Использовать встроенный поставщик учетных данных Azure (экспериментально)</value>
+</data>
+<data name="IncludePrereleaseVersionsOfPackages_BoolOption_ToolTip" xml:space="preserve">
+    <value>Включать предрелизные версии пакетов в результаты поиска</value>
+</data>
+<data name="DebugOverWiFi_CheckBox_Caption" xml:space="preserve">
+    <value>Отладка по WiFi</value>
+</data>
+<data name="Environment_Text" xml:space="preserve">
+    <value>Окружение</value>
+</data>
+<data name="EnableXAMLHotReloadForXamarinFormsSettingDescription" xml:space="preserve">
+    <value>Включить XAML Hot Reload для Xamarin.Forms</value>
+</data>
+<data name="WiXSettings_Text" xml:space="preserve">
+    <value>Настройки WiX</value>
+</data>
+<data name="TargetPlatformVersion_IsNotInstalled_Text" xml:space="preserve">
+    <value>Целевая версия платформы '{0}' не установлена. Подумайте об изменении целевой версии в свойствах проекта.</value>
+</data>
+<data name="RestartRequired_Text" xml:space="preserve">
+    <value>Требуется перезапуск</value>
+</data>
+<data name="SymbolsOptionPageTitle" xml:space="preserve">
+    <value>Символы</value>
+</data>
+<data name="DevelopmentDistributeToMembersOfYour_Text" xml:space="preserve">
+    <value>Разработка — распространение среди членов вашей команды</value>
+</data>
+<data name="List_DescriptionText" xml:space="preserve">
+    <value>Список</value>
+</data>
+<data name="AheadOfTimeCompileAssemblies_ComboBox_Caption" xml:space="preserve">
+    <value>Компиляция сборок Ahead-of-Time (AOT)</value>
+</data>
+<data name="Project_Template_Option_RHluYW1pYyBMaWJyYXJ5" xml:space="preserve">
+    <value>Динамическая библиотека</value>
+</data>
+<data name="EnableDockerSupportActionActionText" xml:space="preserve">
+    <value>Включить поддержку Docker</value>
+</data>
+<data name="RiderPrimaryThreadWatchdogSettingsInternalSettingDescription" xml:space="preserve">
+    <value>Настройки RiderPrimaryThreadWatchdog (внутренние)</value>
+</data>
+<data name="ArchiveForPublishIsFailed_SignFailed_Text" xml:space="preserve">
+    <value>Не удалось подписать архив</value>
+</data>
+<data name="MonoIsNotFound_Text" xml:space="preserve">
+    <value>Mono не найден</value>
+</data>
+<data name="EnterSignPassword_Caption" xml:space="preserve">
+    <value>Введите пароль подписи</value>
+</data>
+<data name="Advisory" xml:space="preserve">
+    <value>Рекомендация</value>
+</data>
+<data name="FormattingIssueReport_Text" xml:space="preserve">
+    <value>Отчет о проблемах форматирования</value>
+</data>
+<data name="TypeFileWasChangedAndWillBeSyncedWith_Text" xml:space="preserve">
+    <value>Файл типа был изменен и будет синхронизирован с проектом .NET</value>
+</data>
+<data name="GeneratesRandomIdForTheStoryboardXibMacroDefinition_Description" xml:space="preserve">
+    <value>Случайный ID для Storyboard/XIB</value>
+</data>
+<data name="AppsCannotBeArchivedWithout__Text" xml:space="preserve">
+    <value>Приложения не могут быть заархивированы без {0}</value>
+</data>
+<data name="Project_Template_Option_Lk5FVCBTdGFuZGFyZAEQEQ" xml:space="preserve">
+    <value>.NET Standard</value>
+</data>
+<data name="RiderRequiresACInteractiveToolSuchAs_CommentText_Text" xml:space="preserve">
+    <value>Rider требует инструмент C# Interactive, такой как csi.exe, csi или csharp, поставляемые с MSBuild/Mono.</value>
+</data>
+<data name="ExpandingProjectTemplate_Text" xml:space="preserve">
+    <value>Развертывание шаблона проекта</value>
+</data>
+<data name="UnitTestSession_AllTestsHaveSameStatus_Title" xml:space="preserve">
+    <value>{0} тестов{1}</value>
+</data>
+<data name="AspNetErrorsDefaultSettings_Text" xml:space="preserve">
+    <value>Настройки по умолчанию для ошибок ASP.NET</value>
+</data>
+<data name="IISHostingDocumentation_WarningTextWithLink_Text" xml:space="preserve">
+    <value>Документация по размещению IIS</value>
+</data>
+<data name="AndroidOptionPageTitle" xml:space="preserve">
+    <value>Android</value>
+</data>
+<data name="MacOSBigSur_Text" xml:space="preserve">
+    <value>macOS Big Sur</value>
+</data>
+<data name="SsdtIsNotInstalled_Text" xml:space="preserve">
+    <value>Инструменты SQL Server Data Tools не найдены на этом компьютере</value>
+</data>
+<data name="SkipGenerationApplicationhostConfigFileBasedOnProjectPropertiesSettingDescription" xml:space="preserve">
+    <value>Пропустить генерацию файла applicationhost.config на основе свойств проекта</value>
+</data>
+<data name="DebuggerForceRunToStatementContextAction_Description" xml:space="preserve">
+    <value>Запустить до оператора под текстовым курсором без остановки в точках останова</value>
+</data>
+<data name="CInteractiveTool_Text" xml:space="preserve">
+    <value>Инструмент C# Interactive:</value>
+</data>
+<data name="CommentSettingsKeyName" xml:space="preserve">
+    <value>Настройки комментариев Rider</value>
+</data>
+<data name="SearchPageSize_IntOption_Text" xml:space="preserve">
+    <value>Размер страницы поиска</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_MacroBody" xml:space="preserve">
+    <value>Использование в теле макроса</value>
+</data>
+<data name="Project_Template_Option_TVNUZXN0" xml:space="preserve">
+    <value>MSTest</value>
+</data>
+<data name="Provisioning_Text" xml:space="preserve">
+    <value>Подготовка (Provisioning)</value>
+</data>
+<data name="WindowsFormsDesignerSaving_Caption" xml:space="preserve">
+    <value>Конструктор Windows Forms сохраняет</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Declarations" xml:space="preserve">
+    <value>Объявления</value>
+</data>
+<data name="Project_Template_Option_TWFjIENhdGFseXN0IEJpbmRpbmcgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>Библиотека привязок Mac Catalyst</value>
+</data>
+<data name="OptimizeImportsActionText" xml:space="preserve">
+    <value>Оптимизировать импорты</value>
+</data>
+<data name="FileLayoutOptionPageTitle" xml:space="preserve">
+    <value>Макет файла</value>
+</data>
+<data name="_CanTUsePackageReferences_Text" xml:space="preserve">
+    <value>{0} не может использовать ссылки на пакеты</value>
+</data>
+<data name="XamarinAndroid_Header_Text" xml:space="preserve">
+    <value>Xamarin.Android</value>
+</data>
+<data name="WhenCheckedUninstallsAPackageEvenIf_BoolOption_ToolTip" xml:space="preserve">
+    <value>При включении удаляет пакет, даже если на него все еще есть ссылки в проекте</value>
+</data>
+<data name="UnableToCreateCertificate_Caption" xml:space="preserve">
+    <value>Не удалось создать сертификат</value>
+</data>
+<data name="XamarinMacCProjects_Text" xml:space="preserve">
+    <value>Проекты Xamarin (Mac) C#</value>
+</data>
+<data name="ThereAreManyCliTypesForTheObjcType__Text" xml:space="preserve">
+    <value>Для objc-типа '{0}' существует множество CLI-типов, используйте '{1}'</value>
+</data>
+<data name="UsageGrouping_Member_Text" xml:space="preserve">
+    <value>Член</value>
+</data>
+<data name="UnitTestOutput_LastLaunchLogFile_Text" xml:space="preserve">
+    <value>Последний файл журнала запуска: {0}</value>
+</data>
+<data name="ArchivesListPage_Platform_Title" xml:space="preserve">
+    <value>Платформа</value>
+</data>
+<data name="KeystorePassword_TextBox_Caption" xml:space="preserve">
+    <value>Пароль хранилища ключей</value>
+</data>
+<data name="ManagedHttpClientHandler_ComboBoxValue" xml:space="preserve">
+    <value>Управляемый (HttpClientHandler)</value>
+</data>
+<data name="OSXYosemite_Text" xml:space="preserve">
+    <value>OS X Yosemite</value>
+</data>
+<data name="Web_PropertyTabCaption" xml:space="preserve">
+    <value>Веб</value>
+</data>
+<data name="TargetOS_Text" xml:space="preserve">
+    <value>Целевая ОС</value>
+</data>
+<data name="LoggerTraceUntraceThisActionText" xml:space="preserve">
+    <value>Трассировка/Отмена трассировки логгера для этого</value>
+</data>
+<data name="EnableDockerComposeSupportInProject__Caption" xml:space="preserve">
+    <value>Включить поддержку Docker Compose в проекте '{0}'</value>
+</data>
+<data name="SearchPageSize_IntOption_Tooltip" xml:space="preserve">
+    <value>Количество элементов, получаемых на странице при поиске пакетов в источнике</value>
+</data>
+<data name="ScanningForNSObjectTypes_Text" xml:space="preserve">
+    <value>Сканирование типов NSObject</value>
+</data>
+<data name="Project_Template_Option_QW5kcm9pZCBDbGFzcyBMaWJyYXJ5" xml:space="preserve">
+    <value>Библиотека классов Android</value>
+</data>
+<data name="AnalyzingChanges_Text" xml:space="preserve">
+    <value>Анализ изменений</value>
+</data>
+<data name="CouldNotExportSession_Caption" xml:space="preserve">
+    <value>Не удалось экспортировать сеанс</value>
+</data>
+<data name="SelectFolder_Text" xml:space="preserve">
+    <value>Выберите папку</value>
+</data>
+<data name="WindowsFormsDesignerSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки конструктора Windows Forms</value>
+</data>
+<data name="City_Text" xml:space="preserve">
+    <value>Город</value>
+</data>
+<data name="Project_Template_Option_Q3Jvc3MgUGxhdGZvcm0gVUkEQ" xml:space="preserve">
+    <value>Кросс-платформенный UI</value>
+</data>
+<data name="Qodana_InspectCodeFinder_Text" xml:space="preserve">
+    <value>Анализ глобальных зависимостей</value>
+</data>
+<data name="Area_DescriptionText" xml:space="preserve">
+    <value>Область</value>
+</data>
+<data name="SelectFolders_Text" xml:space="preserve">
+    <value>Выберите папки</value>
+</data>
+<data name="ShouldMoveCaretToNextLineOnLineCommentActionName" xml:space="preserve">
+    <value>Должен ли перемещать курсор на следующую строку при комментировании строки</value>
+</data>
+<data name="Binary_ComboBoxValue" xml:space="preserve">
+    <value>Двоичный</value>
+</data>
+<data name="LinkSDKAssembliesOnly_ComboBoxValue" xml:space="preserve">
+    <value>Связывать только сборки SDK</value>
+</data>
+<data name="HotReloadOptionPageTitle" xml:space="preserve">
+    <value>Горячая перезагрузка (Hot Reload)</value>
+</data>
+<data name="DebuggerSmartStepIntoContextAction_Name" xml:space="preserve">
+    <value>Отладчик — Умный вход (Smart Step Into)</value>
+</data>
+<data name="InactivePreprocessorBranch_ToolTip" xml:space="preserve">
+    <value>Неактивная ветвь препроцессора</value>
+</data>
+<data name="Template_Editable_cnVudGltZWNvbmZpZy50ZW1wbGF0ZS5qc29uIEZpbGUEQ" xml:space="preserve">
+    <value>Файл runtimeconfig.template.json</value>
+</data>
+<data name="SignTheApplicationBundle_CheckBox_Caption" xml:space="preserve">
+    <value>Подписывать бандл приложения</value>
+</data>
+<data name="Project_Template_Option_Lk5FVCBNQVVJIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Библиотека классов .NET MAUI</value>
+</data>
+<data name="FindSimilarIssues_name_Text" xml:space="preserve">
+    <value>Найти похожие проблемы — {0}</value>
+</data>
+<data name="AdditionalMtouchArguments_TextBox_Caption" xml:space="preserve">
+    <value>Дополнительные аргументы 'mtouch'</value>
+</data>
+<data name="Project_Template_Option_WGFtYXJpbiBGb3JtcwEQEQ" xml:space="preserve">
+    <value>Формы Xamarin (Xamarin.Forms)</value>
+</data>
+<data name="RemoveDependencies_BoolOption_Text" xml:space="preserve">
+    <value>Удалить зависимости</value>
+</data>
+<data name="Project_Template_Option_V2VhcgEQEQ" xml:space="preserve">
+    <value>Wear (носимые устройства)</value>
+</data>
+<data name="XamarinMacIOSProjects_Text" xml:space="preserve">
+    <value>Проекты Xamarin (Mac/iOS)</value>
+</data>
+<data name="StartScaffolding__Text" xml:space="preserve">
+    <value>Запуск скаффолдинга '{0}'</value>
+</data>
+<data name="State_Text" xml:space="preserve">
+    <value>Штат/Область</value>
+</data>
+<data name="RemoveSelectedTestsActionText" xml:space="preserve">
+    <value>Удалить выбранные тесты</value>
+</data>
+<data name="LinkEverything_ComboBoxValue" xml:space="preserve">
+    <value>Связать всё</value>
+</data>
+<data name="HotReloadSettingDescription" xml:space="preserve">
+    <value>Горячая перезагрузка (Hot Reload)</value>
+</data>
+<data name="YesToAll_Text" xml:space="preserve">
+    <value>Да для всех</value>
+</data>
+<data name="AppStoreDistributeThroughTheAppStore_Text" xml:space="preserve">
+    <value>App Store — распространение через App Store</value>
+</data>
+<data name="DockerSupport_Disabled_Text" xml:space="preserve">
+    <value>Отключено</value>
+</data>
+<data name="CouplingAnalysis_Text" xml:space="preserve">
+    <value>Анализ связей</value>
+</data>
+<data name="ReSharperIndentGuide_Text" xml:space="preserve">
+    <value>Направляющая отступа ReSharper</value>
+</data>
+<data name="MacOSHighSierra_Text" xml:space="preserve">
+    <value>macOS High Sierra</value>
+</data>
+<data name="IISExpressRootPathBitSettingDescription" xml:space="preserve">
+    <value>Корневой путь IIS Express (32-битный)</value>
+</data>
+<data name="TvOS_Text" xml:space="preserve">
+    <value>tvOS</value>
+</data>
+<data name="DebuggerForceRunToStatementContextAction_Name" xml:space="preserve">
+    <value>Отладчик — Принудительный запуск до оператора</value>
+</data>
+<data name="GeneratingXcodeProject_Text" xml:space="preserve">
+    <value>Генерация проекта Xcode</value>
+</data>
+<data name="HttpClientImplementation_ComboBox_Caption" xml:space="preserve">
+    <value>Реализация HttpClient</value>
+</data>
+<data name="On_ComboBoxValue" xml:space="preserve">
+    <value>Вкл</value>
+</data>
+<data name="RunToCursorNonStop_Text" xml:space="preserve">
+    <value>Запуск до курсора без остановки</value>
+</data>
+<data name="NuGet__Caption" xml:space="preserve">
+    <value>NuGet: {0}</value>
+</data>
+<data name="UnexpectedOn__Text" xml:space="preserve">
+    <value>Неожиданный '-' на {0}</value>
+</data>
+<data name="No_Text" xml:space="preserve">
+    <value>Нет</value>
+</data>
+<data name="AndroidSdkPathSettingDescription" xml:space="preserve">
+    <value>Путь к Android SDK</value>
+</data>
+<data name="Cancel_Text" xml:space="preserve">
+    <value>Отмена</value>
+</data>
+<data name="IsAutomaticThreadSamplingCollectionAllowedSettingDescription" xml:space="preserve">
+    <value>Разрешён ли автоматический сбор сэмплов потоков</value>
+</data>
+<data name="UnableToFindTheCodeGeneratorFor__Text" xml:space="preserve">
+    <value>Не удалось найти генератор кода для {0}</value>
+</data>
+<data name="Template_Editable_UmF6b3IgVmlldyBJbXBvcnRz" xml:space="preserve">
+    <value>Импорты представления Razor</value>
+</data>
+<data name="RiderWasUnableToLocateTheXSPServerThat_Macos_Text" xml:space="preserve">
+    <value>Rider не удалось найти сервер XSP, необходимый для запуска этого проекта. Ожидаемый путь XSP: {0}. Убедитесь, что Mono установлен с использованием официального установщика: http://www.mono-project.com/download/ (Mono, установленный из Homebrew, не включает сервер XSP).</value>
+</data>
+<data name="Authenticate_Caption" xml:space="preserve">
+    <value>Аутентификация</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Project_Is_Readonly" xml:space="preserve">
+    <value>Проект не может быть обновлен, так как он доступен только для чтения</value>
+</data>
+<data name="Project_Template_Option_U3RhdGljIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Статическая библиотека</value>
+</data>
+<data name="InstallNew_Text" xml:space="preserve">
+    <value>Установить новый</value>
+</data>
+<data name="ContentFileWasChangedAndWillBeSynced_Text" xml:space="preserve">
+    <value>Файл содержимого был изменен и будет синхронизирован с проектом .NET</value>
+</data>
+<data name="IOS_Text" xml:space="preserve">
+    <value>iOS</value>
+</data>
+<data name="BuildTypeDependenciesMap_Text" xml:space="preserve">
+    <value>Карта зависимостей типа сборки</value>
+</data>
+<data name="_ViewName_Text" xml:space="preserve">
+    <value>Имя представления(_V): </value>
+</data>
+<data name="Browse_TooltipText" xml:space="preserve">
+    <value>Обзор</value>
+</data>
+<data name="_Template_Text" xml:space="preserve">
+    <value>Шаблон(_T): </value>
+</data>
+<data name="OSXMountainLion_Text" xml:space="preserve">
+    <value>OS X Mountain Lion</value>
+</data>
+<data name="Back_Text" xml:space="preserve">
+    <value>Назад</value>
+</data>
+<data name="RazorFoldingsHighlighterGroup" xml:space="preserve">
+    <value>Сворачивание Razor</value>
+</data>
+<data name="DockShowBuildProgressInMacOSDock_Text" xml:space="preserve">
+    <value>Док: Показывать прогресс сборки в доке macOS</value>
+</data>
+<data name="UnableToFindObjcSystemTypesGeneration_Text" xml:space="preserve">
+    <value>Не удалось найти системные типы objc, генерация будет пропущена</value>
+</data>
+<data name="InitializeDockerComposeSupport_Text" xml:space="preserve">
+    <value>Инициализация поддержки Docker Compose</value>
+</data>
+<data name="Create_DescriptionText" xml:space="preserve">
+    <value>Создать</value>
+</data>
+<data name="Options_Text" xml:space="preserve">
+    <value>Параметры: </value>
+</data>
+<data name="View_DescriptionText" xml:space="preserve">
+    <value>Просмотреть</value>
+</data>
+<data name="UseHeuristicsToDetermineWhetherARestore_BoolOption_ToolTip" xml:space="preserve">
+    <value>Использовать эвристику для определения необходимости восстановления во время сборки</value>
+</data>
+<data name="AnErrorOccurredDuringExport___Text" xml:space="preserve">
+    <value>Произошла ошибка во время экспорта:{0}{1}</value>
+</data>
+<data name="MappedFileOrFolderIsNotSpecified_Text" xml:space="preserve">
+    <value>Сопоставленный файл или папка не указаны</value>
+</data>
+<data name="SendLineFocusesToolWindow_BoolOption_Text" xml:space="preserve">
+    <value>Отправка строки фокусирует окно инструментов</value>
+</data>
+<data name="BackToArchives_Text" xml:space="preserve">
+    <value>Назад к архивам</value>
+</data>
+<data name="IgnoreAllInstructsNuGetToSkipOverwriting_ToolTip" xml:space="preserve">
+    <value>«Игнорировать все» указывает NuGet пропустить перезапись любых существующих пакетов</value>
+</data>
+<data name="URI_Text" xml:space="preserve">
+    <value>URI:</value>
+</data>
+<data name="RerunFailedTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>Перезапустить неудавшиеся тесты</value>
+</data>
+<data name="UnableToParseTheStoryboardFile__Text" xml:space="preserve">
+    <value>Не удалось разобрать файл раскадровки: {0}</value>
+</data>
+<data name="RunToCursor_Text" xml:space="preserve">
+    <value>Запустить до курсора</value>
+</data>
+<data name="RazorPage_AlreadyExists_Text" xml:space="preserve">
+    <value>Страница Razor '{0}' уже существует</value>
+</data>
+<data name="UnableToCreateFolder__Text" xml:space="preserve">
+    <value>Не удалось создать папку '{0}'</value>
+</data>
+<data name="DebuggerRunToStatementContextAction_Name" xml:space="preserve">
+    <value>Отладчик — Запуск до оператора</value>
+</data>
+<data name="_Missing_Text" xml:space="preserve">
+    <value>{0} (отсутствует)</value>
+</data>
+<data name="DirectoryWithTheMatchingName_Exists_Text" xml:space="preserve">
+    <value>В файловой системе существует каталог с соответствующим именем '{0}', он не будет переименован</value>
+</data>
+<data name="TheProjectFileParsingError_Text" xml:space="preserve">
+    <value>Ошибка разбора файла проекта</value>
+</data>
+<data name="OSXLion_Text" xml:space="preserve">
+    <value>OS X Lion</value>
+</data>
+<data name="IISSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки IIS</value>
+</data>
+<data name="ArchiveForPublishIsFailed_AuthorizeForArchiveDirectoryFailed_Text" xml:space="preserve">
+    <value>Не удалось получить доступ к каталогу архива. Пожалуйста, проверьте ваши разрешения.</value>
+</data>
+<data name="ArchivesListPage_Version_Title" xml:space="preserve">
+    <value>Версия</value>
+</data>
+<data name="IncrementalBuild_CheckBox_Caption" xml:space="preserve">
+    <value>Инкрементная сборка</value>
+</data>
+<data name="ExcludingMono_Text" xml:space="preserve">
+    <value> (исключая Mono)</value>
+</data>
+<data name="SqlProjectsSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки проектов SQL</value>
+</data>
+<data name="RiderFindResultsBrowserSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки браузера результатов поиска Rider</value>
+</data>
+<data name="CreationDate_Text" xml:space="preserve">
+    <value>Дата создания:</value>
+</data>
+<data name="ManagedPipelineMode_Classic_Text" xml:space="preserve">
+    <value>Классический</value>
+</data>
+<data name="XamarinMacIOSOptionPageTitle" xml:space="preserve">
+    <value>Xamarin (Mac/iOS)</value>
+</data>
+<data name="Project_Template_Option_TmF0aXZl" xml:space="preserve">
+    <value>Нативный (Native)</value>
+</data>
+<data name="Project_Template_Option_aU9T" xml:space="preserve">
+    <value>iOS</value>
+</data>
+<data name="ShowIPAFile_Text" xml:space="preserve">
+    <value>Показать файл IPA</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_Text" xml:space="preserve">
+    <value>Настроить шаблон:</value>
+</data>
+<data name="UsageGrouping_Directory_Text" xml:space="preserve">
+    <value>Каталог</value>
+</data>
+<data name="DebuggerShowClassInstancesContextAction_Name" xml:space="preserve">
+    <value>Отладчик — Показать экземпляры класса</value>
+</data>
+<data name="MonoActionText" xml:space="preserve">
+    <value>Mono</value>
+</data>
+<data name="BundleSigning_SectionName" xml:space="preserve">
+    <value>Подписание бандла</value>
+</data>
+<data name="See_advisory_by_1_2" xml:space="preserve">
+    <value>Рекомендация от {0}: {1}</value>
+</data>
+<data name="OpenApplicationhostConfigForSolutionActionText" xml:space="preserve">
+    <value>Открыть applicationhost.config для решения</value>
+</data>
+<data name="RerunInconclusiveTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>Перезапустить неопределенные тесты</value>
+</data>
+<data name="Error_EnumText" xml:space="preserve">
+    <value>Ошибка</value>
+</data>
+<data name="UnitTestOutput_LastRunnerLogFile_Text" xml:space="preserve">
+    <value>Последний файл журнала запуска: {0}</value>
+</data>
+<data name="ConfigFileOverridesSettingsMessage" xml:space="preserve">
+    <value>&lt;a&gt;{0}&lt;/a&gt; для {1} переопределяет некоторые настройки стиля кода на этой странице</value>
+</data>
+<data name="UsageGrouping_IssueType_Text" xml:space="preserve">
+    <value>Тип проблемы</value>
+</data>
+<data name="UsageGrouping_File_Text" xml:space="preserve">
+    <value>Файл</value>
+</data>
+<data name="FilesAndFolders_Caption" xml:space="preserve">
+    <value>Файлы и папки:</value>
+</data>
+<data name="UniversalWindowsPlatformSDKSupportedUnloadUWP_Text" xml:space="preserve">
+    <value>Платформа Universal Windows Platform SDK поддерживается только под Windows, выгрузите проект UWP '{0}', чтобы скрыть это сообщение</value>
+</data>
+<data name="IISExpressRootFolder_Text_Text" xml:space="preserve">
+    <value>Корневая папка IIS Express:</value>
+</data>
+<data name="DecompileMethods_BoolOption_Text" xml:space="preserve">
+    <value>Декомпилировать методы</value>
+</data>
+<data name="Template_Editable_U3Rvcnlib2FyZAEQEQ" xml:space="preserve">
+    <value>Раскадровка (Storyboard)</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Failed" xml:space="preserve">
+    <value>Не удалось обновить целевой проект</value>
+</data>
+<data name="UnitTestOutput_LastRunnerError_Text" xml:space="preserve">
+    <value>Последняя ошибка запуска: {0}</value>
+</data>
+<data name="ApplicationContainer_Text" xml:space="preserve">
+    <value>Контейнер приложения</value>
+</data>
+<data name="AutomaticallyApplyChangesOnStepAndResume_Text" xml:space="preserve">
+    <value>Автоматически применять изменения при шаге и возобновлении</value>
+</data>
+<data name="HotReloadIsNotActive_Caption" xml:space="preserve">
+    <value>Горячая перезагрузка не активна</value>
+</data>
+<data name="WinFormsRiderFileTemplates_Text" xml:space="preserve">
+    <value>Файловые шаблоны Rider для WinForms</value>
+</data>
+<data name="IncludeUnlistedVersionsOfPackagesIn_BoolOption_ToolTip" xml:space="preserve">
+    <value>Включать не указанные в списке версии пакетов в результаты поиска</value>
+</data>
+<data name="TheSelectedBuildConfigurationIsUsingIncrementalBuilds_Text" xml:space="preserve">
+    <value>Для более быстрого развертывания выбранная конфигурация сборки использует инкрементные сборки. При включенной этой настройке приложение не может быть заархивировано. Перейдите в «Проект | Свойства» и снимите флажок настройки «Инкрементная сборка» в соответствующей конфигурации.</value>
+</data>
+<data name="XamarinMacIOS_Text" xml:space="preserve">
+    <value>Xamarin (Mac/iOS)</value>
+</data>
+<data name="ValidityYears_Text" xml:space="preserve">
+    <value>Срок действия (лет)</value>
+</data>
+<data name="WindowsFormsDesignerOptionPageTitle" xml:space="preserve">
+    <value>Конструктор Windows Forms</value>
+</data>
+<data name="Disable_Text" xml:space="preserve">
+    <value>Отключить</value>
+</data>
+<data name="ASPNETCoreModule_Text_Text" xml:space="preserve">
+    <value>Модуль ASP.NET Core:</value>
+</data>
+<data name="EnableHotReloadWhenRunningWithoutDebugging_Text" xml:space="preserve">
+    <value>Включать горячую перезагрузку при запуске без отладки (.NET 6.0 и выше)</value>
+</data>
+<data name="ChangeTargetAPIVersion_Text" xml:space="preserve">
+    <value>Изменить целевую версию API…</value>
+</data>
+<data name="EnablePackageSearchInAzureBlobsNuGet_BoolOption_ToolTip" xml:space="preserve">
+    <value>Включить поиск пакетов в источниках NuGet Azure Blobs (может увеличить использование памяти)</value>
+</data>
+<data name="See_advisory_by_1" xml:space="preserve">
+    <value>Рекомендация от {0}</value>
+</data>
+<data name="CollectSamplingTimeoutSettingDescription" xml:space="preserve">
+    <value>Таймаут сбора сэмплов</value>
+</data>
+<data name="SqlProjSettings_Text" xml:space="preserve">
+    <value>SQL</value>
+</data>
+<data name="General_Text" xml:space="preserve">
+    <value>Общие настройки макета файла</value>
+</data>
+<data name="RevealArchiveActionText" xml:space="preserve">
+    <value>Показать архив</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Project_Files_Update_Failure" xml:space="preserve">
+    <value>Некоторые файлы проекта не удалось обновить</value>
+</data>
+<data name="DeclaredElementKind_Type_Text" xml:space="preserve">
+    <value>Группировать по типу</value>
+</data>
+<data name="SpecifyAValidName_Text" xml:space="preserve">
+    <value>Укажите допустимое имя</value>
+</data>
+<data name="GeneratedDirectoriesAndFilesSetting_Text" xml:space="preserve">
+    <value> Настройки генерируемых каталогов и файлов доступны только при открытом решении </value>
+</data>
+<data name="DefaultRiderFileTemplates_Text" xml:space="preserve">
+    <value>Файловые шаблоны Rider по умолчанию</value>
+</data>
+<data name="XamarinIOSProjects_Text" xml:space="preserve">
+    <value>Проекты Xamarin (iOS)</value>
+</data>
+<data name="Unloaded_Text" xml:space="preserve">
+    <value> · выгружено</value>
+</data>
+<data name="GeneratesRandomIdForTheStoryboardXibMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Генерирует случайный идентификатор для раскадровки/xib</value>
+</data>
+<data name="Razor_PageName_Text" xml:space="preserve">
+    <value>Имя страницы Razor(_P): </value>
+</data>
+<data name="AddAPIControllerWithActionsUsingEntity_Text" xml:space="preserve">
+    <value>Добавить API-контроллер с действиями, использующими Entity Framework</value>
+</data>
+<data name="SpellChecking_FixTypo" xml:space="preserve">
+    <value>Исправить опечатку</value>
+</data>
+<data name="ProjectConfigurationDoesNotTargetAn_Text" xml:space="preserve">
+    <value>Конфигурация проекта не предназначена для устройства iOS.
+Выберите конфигурацию проекта 'iPhone'.</value>
+</data>
+<data name="UseSQ_LiteInsteadOfSQLServer_Text" xml:space="preserve">
+    <value>Использовать SQLite вместо SQL Server(_L)</value>
+</data>
+<data name="AliasPassword_TextBox_Caption" xml:space="preserve">
+    <value>Пароль псевдонима</value>
+</data>
+<data name="NETProjectsWithSDKStyleProjectFile_Text" xml:space="preserve">
+    <value>Проекты .NET с файлом проекта в стиле SDK</value>
+</data>
+<data name="NewDataContextType_Text" xml:space="preserve">
+    <value>Новый тип контекста данных:</value>
+</data>
+<data name="Classifications_Text" xml:space="preserve">
+    <value>Классификации</value>
+</data>
+<data name="_AlreadySignedWith_Keystore_Text" xml:space="preserve">
+    <value>{0} уже подписан с использованием хранилища ключей '{1}'</value>
+</data>
+<data name="OpeningCInteractiveToolFocusesToolWindow_BoolOption_ToolTip" xml:space="preserve">
+    <value>Открытие инструмента C# Interactive фокусирует окно инструментов</value>
+</data>
+<data name="RiderRazorFileTemplates_Text" xml:space="preserve">
+    <value>Файловые шаблоны Rider для Razor</value>
+</data>
+<data name="PreferredRuntime__Text" xml:space="preserve">
+    <value>Предпочтительная среда выполнения: {0}</value>
+</data>
+<data name="AllRegisteredCliTypes__Text" xml:space="preserve">
+    <value>Все зарегистрированные CLI-типы: {0}</value>
+</data>
+<data name="Hint_EnumText" xml:space="preserve">
+    <value>Подсказка</value>
+</data>
+<data name="Close_Text" xml:space="preserve">
+    <value>Закрыть</value>
+</data>
+<data name="Project_Template_Option_V1BGIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Приложение WPF</value>
+</data>
+<data name="Details_DescriptionText" xml:space="preserve">
+    <value>Подробности</value>
+</data>
+<data name="UniversalWindowsPlatformSDK_Text" xml:space="preserve">
+    <value>Платформа Universal Windows Platform SDK</value>
+</data>
+<data name="OptionStrict_ComboBox_Caption" xml:space="preserve">
+    <value>Option Strict</value>
+</data>
+<data name="SearchInDotnetfeedBlobFeeds_BoolOption_Text" xml:space="preserve">
+    <value>Искать в источниках dotnetfeed*.blob</value>
+</data>
+<data name="XcodePathSettingDescription" xml:space="preserve">
+    <value>Путь к Xcode</value>
+</data>
+<data name="TypeWasNotChangedSinceLastSync_Text" xml:space="preserve">
+    <value>Тип не изменялся с момента последней синхронизации</value>
+</data>
+<data name="JavaDevelopmentKit_Text" xml:space="preserve">
+    <value>Комплект разработки Java (JDK)</value>
+</data>
+<data name="HowItWorks_Text" xml:space="preserve">
+    <value>Как это работает</value>
+</data>
+<data name="AndroidSignForPublishSettingsPage_Alias_Title" xml:space="preserve">
+    <value>Псевдоним (Alias)</value>
+</data>
+<data name="UnexpectedPropertyOn__Text" xml:space="preserve">
+    <value>Неожиданное '@property' на {0}</value>
+</data>
+<data name="DependencyBehavior_Text" xml:space="preserve">
+    <value>Поведение зависимостей</value>
+</data>
+<data name="AndroidSignForPublishSettingsPage_Expiration_Title" xml:space="preserve">
+    <value>Срок действия</value>
+</data>
+<data name="GroupID_Text" xml:space="preserve">
+    <value>Идентификатор группы</value>
+</data>
+<data name="VisualFormatterEnabledSettingsEntryName" xml:space="preserve">
+    <value>Визуальный форматтер включен в режиме чтения</value>
+</data>
+<data name="SyncingContentItems_Text" xml:space="preserve">
+    <value>Синхронизация элементов содержимого</value>
+</data>
+<data name="WarningDuringLoadingSolution_Text" xml:space="preserve">
+    <value>Предупреждение во время загрузки решения</value>
+</data>
+<data name="ForceUninstallEvenIfThereAreDependencies_BoolOption_Text" xml:space="preserve">
+    <value>Принудительно удалить, даже если есть зависимости</value>
+</data>
+<data name="SqlProj_Project_Not_Ready" xml:space="preserve">
+    <value>Целевой проект не готов</value>
+</data>
+<data name="TypeOfProjectForSharedCode_ToolTip" xml:space="preserve">
+    <value>Тип проекта для общего кода</value>
+</data>
+<data name="RazorOptionPageTitle" xml:space="preserve">
+    <value>Razor</value>
+</data>
+<data name="InlinePromptHighlightingGroup_Text" xml:space="preserve">
+    <value>Группа выделения встроенных подсказок</value>
+</data>
+<data name="Project_Template_Option_WGFtYXJpbi5OYXRpdmUEQ" xml:space="preserve">
+    <value>Xamarin.Native</value>
+</data>
+<data name="FindUsagesActionText" xml:space="preserve">
+    <value>Найти использования</value>
+</data>
+<data name="UpdatingCaches_Text" xml:space="preserve">
+    <value>Обновление кэшей</value>
+</data>
+<data name="_Expired_Text" xml:space="preserve">
+    <value>{0} (истек)</value>
+</data>
+<data name="Search_Text" xml:space="preserve">
+    <value>Поиск</value>
+</data>
+<data name="ShortName_Text" xml:space="preserve">
+    <value>Короткое имя</value>
+</data>
+<data name="ActiveRuntimeIsnTSelectedPleaseSelect_Text" xml:space="preserve">
+    <value>Активная среда выполнения не выбрана. Пожалуйста, выберите ее и переоткройте решение.</value>
+</data>
+<data name="InvalidXcodeInstallation_Text" xml:space="preserve">
+    <value>Неверная установка Xcode</value>
+</data>
+<data name="SupportedABIs_Caption" xml:space="preserve">
+    <value>Поддерживаемые ABI</value>
+</data>
+<data name="WindowsAuthentication_Caption" xml:space="preserve">
+    <value>Аутентификация Windows</value>
+</data>
+<data name="ChooseFile_Caption" xml:space="preserve">
+    <value>Выбрать файл</value>
+</data>
+<data name="ClearUserClass_Text" xml:space="preserve">
+    <value>Очистить пользовательский класс</value>
+</data>
+<data name="IsUiSmoothnessToolkitEnabledSettingDescription" xml:space="preserve">
+    <value>Включить UiSmoothnessToolkit</value>
+</data>
+<data name="CannotCreateArchive_Caption" xml:space="preserve">
+    <value>Не удалось создать архив</value>
+</data>
+<data name="_DataContextClass_Text" xml:space="preserve">
+    <value>Класс контекста данных(_D): </value>
+</data>
+<data name="StrictFormatActionText" xml:space="preserve">
+    <value>Строгий формат</value>
+</data>
+<data name="IncludeUnlisted_BoolOption_Text" xml:space="preserve">
+    <value>Включать не указанные в списке</value>
+</data>
+<data name="Edit_DescriptionText" xml:space="preserve">
+    <value>Редактировать</value>
+</data>
+<data name="MacOSSierra_Text" xml:space="preserve">
+    <value>macOS Sierra</value>
+</data>
+<data name="UnexpectedProtocolOn__Text" xml:space="preserve">
+    <value>Неожиданное '@protocol' на {0}</value>
+</data>
+<data name="ExpandingProjectTemplateDots_Text" xml:space="preserve">
+    <value>Развертывание шаблона проекта…</value>
+</data>
+<data name="WaitingForTheFirstSolutionLoad_Text" xml:space="preserve">
+    <value>Первоначальная обработка решения.</value>
+</data>
+<data name="Project_Template_Option_bWFjT1MEQ" xml:space="preserve">
+    <value>macOS</value>
+</data>
+<data name="UnableToFindTheBaseType_ForType__Text" xml:space="preserve">
+    <value>Не удалось найти базовый тип '{0}' для типа '{1}'</value>
+</data>
+<data name="Automatic_ComboBoxValue" xml:space="preserve">
+    <value>Автоматически</value>
+</data>
+<data name="XAMLOptionPageTitle" xml:space="preserve">
+    <value>XAML</value>
+</data>
+<data name="AppStoreAutomatic_ComboBoxValue" xml:space="preserve">
+    <value>App Store (автоматически)</value>
+</data>
+<data name="ResXGenerator_Text" xml:space="preserve">
+    <value>Генератор ResX</value>
+</data>
+<data name="Password_Text" xml:space="preserve">
+    <value>Пароль</value>
+</data>
+<data name="__ContainsVulnerabilitiesAccordingTo_Text" xml:space="preserve">
+    <value>Согласно {2}, {0} {1} содержит уязвимости</value>
+</data>
+<data name="ActionReferenceInCInteractiveBuilds_BoolOption_ToolTip" xml:space="preserve">
+    <value>Собирать проект при вызове действия «Ссылка в C# Interactive»</value>
+</data>
+<data name="FileWasNotChangedSinceLastSync_Text" xml:space="preserve">
+    <value>Файл не изменялся с момента последней синхронизации</value>
+</data>
+<data name="UpdateTypeDependenciesMap_Text" xml:space="preserve">
+    <value>Обновить карту зависимостей типов</value>
+</data>
+<data name="ErrorDuringLoadingProject_Text" xml:space="preserve">
+    <value>Ошибка во время загрузки проекта</value>
+</data>
+<data name="Project_Template_Option_V2luZG93cyBGb3JtcyBBcHAEQ" xml:space="preserve">
+    <value>Приложение Windows Forms</value>
+</data>
+<data name="Signing_SectionName" xml:space="preserve">
+    <value>Подписание</value>
+</data>
+<data name="SpecifyAPathToAnExistingOrNewCSHTML_Text" xml:space="preserve">
+    <value>Укажите путь к существующему или новому файлу CSHTML</value>
+</data>
+<data name="ErrorDuringLoadingSolution_Text" xml:space="preserve">
+    <value>Ошибка во время загрузки решения</value>
+</data>
+<data name="Exception_Text" xml:space="preserve">
+    <value>Исключение</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Remove_MsBuild_Item" xml:space="preserve">
+    <value>Не удалось удалить элемент MSBuild: {0}</value>
+</data>
+<data name="UWPProjectIsBasedOnProjectJsonAndIs_Text" xml:space="preserve">
+    <value>Проект UWP основан на project.json и не поддерживается. Вместо этого используйте PackageReference.</value>
+</data>
+<data name="ArchivesListPage_Date_Title" xml:space="preserve">
+    <value>Дата</value>
+</data>
+<data name="AutomaticActionText" xml:space="preserve">
+    <value>Автоматически</value>
+</data>
+<data name="PromptInstructsNuGetToAskWhetherToKeep_ToolTip" xml:space="preserve">
+    <value>«Запрос» указывает NuGet спросить, сохранить или перезаписать существующие пакеты</value>
+</data>
+<data name="SyncFinished_Sec_Caption" xml:space="preserve">
+    <value>Синхронизация завершена ({0} сек)</value>
+</data>
+<data name="ArchivesListPage_Id_Title" xml:space="preserve">
+    <value>ID</value>
+</data>
+<data name="UncompressedResourceExtensions_TextBox_Caption" xml:space="preserve">
+    <value>Расширения несжатых ресурсов</value>
+</data>
+<data name="Architecture_ComboBox_Caption" xml:space="preserve">
+    <value>Архитектура</value>
+</data>
+<data name="SqlProjGeneralSettings_Caption" xml:space="preserve">
+    <value>Общие</value>
+</data>
+<data name="PublishOptions_Text" xml:space="preserve">
+    <value>Параметры публикации</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Related_Symbols" xml:space="preserve">
+    <value>Связанные символы</value>
+</data>
+<data name="IISExpressNotFoundToGetItPleaseVisit_Text" xml:space="preserve">
+    <value>IIS Express не найден. Чтобы получить его, посетите: &lt;a href="{0}"&gt;ссылку&lt;/a&gt;</value>
+</data>
+<data name="DownloadXcode_Text" xml:space="preserve">
+    <value>Скачать Xcode…</value>
+</data>
+<data name="UnableToFindTheCLITypeFor__Text" xml:space="preserve">
+    <value>Не удалось найти CLI-тип для '{0}'</value>
+</data>
+<data name="PathToCInteractiveTool_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>Путь к инструменту C# Interactive</value>
+</data>
+<data name="ScaffoldItemCommandFailed" xml:space="preserve">
+    <value>Команда скаффолдинга элемента завершилась неудачей</value>
+</data>
+<data name="SamplingDurationSettingDescription" xml:space="preserve">
+    <value>Продолжительность сэмплирования</value>
+</data>
+<data name="EnableMultiDex_CheckBox_Caption" xml:space="preserve">
+    <value>Включить Multi-Dex</value>
+</data>
+<data name="CreatingSolutionFile_Text" xml:space="preserve">
+    <value>Создание файла решения</value>
+</data>
+<data name="UWPSDKIsNotFound_Text" xml:space="preserve">
+    <value>UWP SDK не найден</value>
+</data>
+<data name="Project_Template_Option_V2ViIEFwcAEQEQ" xml:space="preserve">
+    <value>Веб-приложение</value>
+</data>
+<data name="GettingExportableCategories_Text" xml:space="preserve">
+    <value>Получение экспортируемых категорий…</value>
+</data>
+<data name="InlineDocHighlightingGroup_Text" xml:space="preserve">
+    <value>Группа выделения встроенной документации</value>
+</data>
+<data name="AddMVCView_Text" xml:space="preserve">
+    <value>Добавить представление MVC</value>
+</data>
+<data name="IisExpressOptionPageTitle" xml:space="preserve">
+    <value>IIS Express</value>
+</data>
+<data name="LinkBehavior_ComboBox_Caption" xml:space="preserve">
+    <value>Поведение компоновщика (Linker)</value>
+</data>
+<data name="Arguments_Text" xml:space="preserve">
+    <value>Аргументы:</value>
+</data>
+<data name="DevelopmentPort_Caption" xml:space="preserve">
+    <value>Порт разработки</value>
+</data>
+<data name="MacOSMonterey_Text" xml:space="preserve">
+    <value>macOS Monterey</value>
+</data>
+<data name="OrganisationalUnit_Text" xml:space="preserve">
+    <value>Подразделение организации</value>
+</data>
+<data name="HotReloadDisabledDueToAndroidLinker_Text" xml:space="preserve">
+    <value>Горячая перезагрузка отключена из-за настроек компоновщика Android. Перейдите в «Проект | Свойства» и измените настройку компоновщика на «Не связывать».</value>
+</data>
+<data name="ReplaceXCodePropertiesWithActualValues_Text" xml:space="preserve">
+    <value>Замена свойств Xcode фактическими значениями в Info.plist…</value>
+</data>
+<data name="EnterTypeName_Text" xml:space="preserve">
+    <value>Введите имя типа:</value>
+</data>
+<data name="DesignerSaving_Text" xml:space="preserve">
+    <value>Конструктор сохраняет</value>
+</data>
+<data name="WhetherRecordingIsEnabledSettingDescription" xml:space="preserve">
+    <value>Включена ли запись</value>
+</data>
+<data name="RestoreDecompileSettingsSettingDescription" xml:space="preserve">
+    <value>Восстановить настройки декомпиляции</value>
+</data>
+<data name="WaitingForCachesToBeBuilt_Text" xml:space="preserve">
+  <value>Ожидание построения кэшей</value>
+</data>
+<data name="ReadSettingsFromEditorconfigProject_Text" xml:space="preserve">
+  <value>Чтение настроек из editorconfig, настроек проекта и набора правил</value>
+</data>
+<data name="AllowProvisioningUpdates_Text" xml:space="preserve">
+  <value>Разрешить обновления подготовки</value>
+</data>
+<data name="SigningIdentity_Text" xml:space="preserve">
+  <value>Идентификатор подписи: </value>
+</data>
+<data name="EnableDockerComposeSupportActionActionText" xml:space="preserve">
+  <value>Включить поддержку Docker Compose</value>
+</data>
+<data name="InstallAndUpdate_Header_Text" xml:space="preserve">
+  <value>Установка и обновление</value>
+</data>
+<data name="Template_Editable_V2luZG93cyBGb3Jt" xml:space="preserve">
+  <value>Форма Windows</value>
+</data>
+<data name="CreateVirtualDirectory_Text" xml:space="preserve">
+  <value>Создать виртуальный каталог IIS</value>
+</data>
+<data name="FlipAroundCommaActionText" xml:space="preserve">
+  <value>Перевернуть вокруг запятой</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Textual__fuzzy_" xml:space="preserve">
+  <value>Текстовый (нечеткий)</value>
+</data>
+<data name="OSXElCapitan_Text" xml:space="preserve">
+  <value>OS X El Capitan</value>
+</data>
+<data name="Template_Editable_VXNlciBDb250cm9s" xml:space="preserve">
+  <value>Пользовательский элемент управления</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Compiled" xml:space="preserve">
+  <value>Скомпилированный</value>
+</data>
+<data name="CSharpInteractiveSettingDescription" xml:space="preserve">
+  <value>C# Interactive</value>
+</data>
+<data name="Server_SectionTitle" xml:space="preserve">
+  <value>Сервер</value>
+</data>
+<data name="SelectFilesDialogTitle" xml:space="preserve">
+  <value>Выбор файлов</value>
+</data>
+<data name="Internal_Header_Text" xml:space="preserve">
+  <value>Внутренние</value>
+</data>
+<data name="UnableToGenerateContentForTheFile_Text" xml:space="preserve">
+  <value>Не удалось сгенерировать содержимое для файла</value>
+</data>
+<data name="_GenerateViews_Text" xml:space="preserve">
+  <value>Сгенерировать представления (_G)</value>
+</data>
+<data name="Packaging_SectionName" xml:space="preserve">
+  <value>Упаковка</value>
+</data>
+<data name="JavaDevelopmentKitLocation_Text_Text" xml:space="preserve">
+  <value>Расположение Java Development Kit:</value>
+</data>
+<data name="SendLineMovesCaretDown_BoolOption_Text" xml:space="preserve">
+  <value>Отправка строки перемещает каретку вниз</value>
+</data>
+<data name="ThereIsNoKeyToSignSelected_Text" xml:space="preserve">
+  <value>Ключ для подписи не выбран</value>
+</data>
+<data name="InHouseAutomatic_ComboBoxValue" xml:space="preserve">
+  <value>Внутренний (автоматически)</value>
+</data>
+<data name="ASPNETOptionPageTitle" xml:space="preserve">
+  <value>ASP.NET</value>
+</data>
+<data name="Vulnerable_Installed_Packages_Detected" xml:space="preserve">
+  <value>Обнаружены уязвимые пакеты</value>
+</data>
+<data name="RiderSourceLinkNotifications_Title_Text" xml:space="preserve">
+  <value>Внешние источники</value>
+</data>
+<data name="GenerateXcodeProjectFor___Caption" xml:space="preserve">
+  <value>Создание проекта Xcode для '{0}' [{1}]…</value>
+</data>
+<data name="ReaderModeEnabledSettingsEntryName" xml:space="preserve">
+  <value>Режим чтения включен</value>
+</data>
+<data name="ShowILCode_Text" xml:space="preserve">
+  <value>Показать IL-код</value>
+</data>
+<data name="Organisation_Text" xml:space="preserve">
+  <value>Организация</value>
+</data>
+<data name="AutomaticallyRestoreMissingPackages_ComboEnum_Caption" xml:space="preserve">
+  <value>Автоматически восстанавливать отсутствующие пакеты при необходимости</value>
+</data>
+<data name="FindSimilarIssuesInCustomScope_Text" xml:space="preserve">
+  <value>Найти похожие проблемы в пользовательской области…</value>
+</data>
+<data name="EnableWindowsFormsDesigner_Text" xml:space="preserve">
+  <value>Включить конструктор Windows Forms</value>
+</data>
+<data name="FileConflict_Caption" xml:space="preserve">
+  <value>Конфликт файлов</value>
+</data>
+<data name="_UserClass_Text" xml:space="preserve">
+  <value>Пользовательский класс (_U): </value>
+</data>
+<data name="AspNetFoldingsHighlighterGroup" xml:space="preserve">
+  <value>Сворачивание ASP.NET</value>
+</data>
+<data name="Project_Template_Option_aU9TIFRhYmJlZCBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+  <value>Вкладное приложение iOS</value>
+</data>
+<data name="DebuggerShowClassInstancesContextAction_Description" xml:space="preserve">
+  <value>Показать экземпляры определенного класса</value>
+</data>
+<data name="UnexpectedEndOn__Text" xml:space="preserve">
+  <value>Неожиданное '@end' на {0}</value>
+</data>
+<data name="EnableDesignerExceptionsNavigation_Text" xml:space="preserve">
+  <value>Включить навигацию по исключениям конструктора</value>
+</data>
+<data name="OpenApplicationhostConfigInTheEditor_Text" xml:space="preserve">
+  <value>Открыть applicationhost.config в редакторе</value>
+</data>
+<data name="VisualStudioBuildTools_Text" xml:space="preserve">
+  <value>Средства сборки Visual Studio</value>
+</data>
+<data name="ConfigureVisualStudioInstallationFolder_Text" xml:space="preserve">
+  <value>Настроить папку установки Visual Studio</value>
+</data>
+<data name="FindGenericTypeUsagesBehaviour_ComboEnum_Caption" xml:space="preserve">
+  <value>Поведение при поиске использований универсального типа:</value>
+</data>
+<data name="Platform_GroupName" xml:space="preserve">
+  <value>Платформа</value>
+</data>
+<data name="Template_Editable_bGF1bmNoU2V0dGluZ3MuanNvbiBGaWxl" xml:space="preserve">
+  <value>Файл launchSettings.json</value>
+</data>
+<data name="SyncingTypes_Text" xml:space="preserve">
+  <value>Синхронизация типов</value>
+</data>
+<data name="XcodeProjectWasDeletedStopSyncing_Caption" xml:space="preserve">
+  <value>Проект Xcode удален из файловой системы, синхронизация остановлена</value>
+</data>
+<data name="ControllerName_Text" xml:space="preserve">
+  <value>Имя контроллера (_C): </value>
+</data>
+<data name="Configure_Text" xml:space="preserve">
+  <value>Настроить</value>
+</data>
+<data name="Project_Template_Option_eFVuaXQEQ" xml:space="preserve">
+  <value>xUnit</value>
+</data>
+<data name="Project_Template_Option_Lk5FVCBNQVVJIEJsYXpvciBBcHAEQ" xml:space="preserve">
+  <value>Приложение .NET MAUI Blazor</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Update_File" xml:space="preserve">
+  <value>Не удалось обновить файл: {0}</value>
+</data>
+<data name="SkipToCursor_Text" xml:space="preserve">
+  <value>Перейти к курсору</value>
+</data>
+<data name="XCodeInstallation_Presentation_Default_Text" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="RazorCOptionPageTitle" xml:space="preserve">
+  <value>Razor (C#)</value>
+</data>
+<data name="Alias_TextBox_Caption" xml:space="preserve">
+  <value>Псевдоним</value>
+</data>
+<data name="SkipInfoPlistPostProcessingThereIsNo_Text" xml:space="preserve">
+  <value>Пропуск постобработки Info.plist: в файле нет известных атрибутов</value>
+</data>
+<data name="Text_ComboBoxValue" xml:space="preserve">
+  <value>Текстовый файл</value>
+</data>
+<data name="PathMappingHelpsRiderAnalyzeResources_Text" xml:space="preserve">
+  <value>Сопоставление путей помогает Rider анализировать ресурсы, имеющие разные пути во время разработки и после развертывания. Игнорируйте пути к файлам или папкам, которых нет во время разработки, чтобы избежать ложного выделения. Заменяйте пути, которые отличаются после развертывания, чтобы обеспечить правильную навигацию.</value>
+</data>
+<data name="Template_Editable_UmF6b3IgTGF5b3V0" xml:space="preserve">
+  <value>Макет Razor</value>
+</data>
+<data name="UsagesOptionsPageTitle" xml:space="preserve">
+  <value>Поиск и навигация</value>
+</data>
+<data name="Other_Text" xml:space="preserve">
+  <value>Другие</value>
+</data>
+<data name="FailedToParseIBOutletOn__Text" xml:space="preserve">
+  <value>Не удалось разобрать IBOutlet на {0}</value>
+</data>
+<data name="HighestPatch_Text" xml:space="preserve">
+  <value>Наивысший патч</value>
+</data>
+<data name="AddIdentity_Text" xml:space="preserve">
+  <value>Добавить удостоверение</value>
+</data>
+<data name="ShowInstancesOf__Text" xml:space="preserve">
+  <value>Показать экземпляры '{0}'</value>
+</data>
+<data name="UnableToSyncType__Text" xml:space="preserve">
+  <value>Не удалось синхронизировать тип: {0}</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Remove_Reference" xml:space="preserve">
+  <value>Не удалось удалить ссылку на сборку: {0}</value>
+</data>
+<data name="MigratePackagesConfigToPackageReferenceActionText" xml:space="preserve">
+  <value>Перенести packages.config в PackageReference</value>
+</data>
+<data name="OpenAndroidSDKManager_Text" xml:space="preserve">
+  <value>Открыть диспетчер Android SDK…</value>
+</data>
+<data name="SkippedElementsSettinsOptionPageTitle" xml:space="preserve">
+  <value>Настройки пропускаемых элементов</value>
+</data>
+<data name="MinimumPlatform_Text" xml:space="preserve">
+  <value>Минимальная платформа</value>
+</data>
+<data name="Parsing__Text" xml:space="preserve">
+  <value>Разбор '{0}'…</value>
+</data>
+<data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGggWElCIGZvciBpT1MEQ" xml:space="preserve">
+  <value>Контроллер представления с XIB для iOS</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_EditorLocation" xml:space="preserve">
+  <value>Настройки &gt; Редактор &gt; Файловые шаблоны</value>
+</data>
+<data name="ExportSettings_Text" xml:space="preserve">
+  <value>Экспорт настроек</value>
+</data>
+<data name="OverwriteAllInstructsNuGetToOverwrite_ToolTip" xml:space="preserve">
+  <value>«Перезаписать все» указывает NuGet перезаписать любые существующие пакеты</value>
+</data>
+<data name="TargetPlatform_Text" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="IISExpress32Bit_Header_Text" xml:space="preserve">
+  <value>IIS Express (32-разрядная)</value>
+</data>
+<data name="SelectAnExistingLayoutPageOrSpecify_Text" xml:space="preserve">
+  <value>Выберите существующую страницу макета или укажите новую:</value>
+</data>
+<data name="PackageReferenceRestoreEngine_ComboEnum_Caption" xml:space="preserve">
+  <value>Механизм восстановления PackageReference</value>
+</data>
+<data name="Template_Editable_V2ViLmNvbmZpZyBGaWxl" xml:space="preserve">
+  <value>Файл Web.config</value>
+</data>
+<data name="GetsTheNewestNETFrameworkVersionOfTheProjectAndPreparesAnAttributeStringFrameworkMacroDefinition_Description" xml:space="preserve">
+  <value>Атрибут framework для Web.config</value>
+</data>
+<data name="GeneratedFilesAndDirectories_Caption" xml:space="preserve">
+  <value>Сгенерированные файлы и каталоги:</value>
+</data>
+<data name="ToolArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы инструмента</value>
+</data>
+<data name="UnknownModel__Text" xml:space="preserve">
+  <value>Неизвестная модель {0}</value>
+</data>
+<data name="Off_ComboBoxValue" xml:space="preserve">
+  <value>Выкл.</value>
+</data>
+<data name="SelectFolderOrFileDialogTitle" xml:space="preserve">
+  <value>Выбор пути</value>
+</data>
+<data name="IISExpressIsNotSupportedOnCurrentOperating_Text" xml:space="preserve">
+  <value>IIS Express не поддерживается в этой ОС</value>
+</data>
+<data name="Project_Template_Option_U2hhcmVkIExpYnJhcnkEQ" xml:space="preserve">
+  <value>Общая библиотека</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Create_Reference" xml:space="preserve">
+  <value>Не удалось создать ссылку на сборку: {0}</value>
+</data>
+<data name="SignTheAPKFileUsingTheNextKeystoreInformation_CheckBox_Caption" xml:space="preserve">
+  <value>Подписать APK-файл, используя следующую информацию о хранилище ключей</value>
+</data>
+<data name="_Issues_Text" xml:space="preserve">
+  <value>Проблемы «{0}»</value>
+</data>
+<data name="VBNETOptionPageTitle" xml:space="preserve">
+  <value>VB.NET</value>
+</data>
+<data name="Advisory_1" xml:space="preserve">
+  <value>Рекомендация: {0}</value>
+</data>
+<data name="FileWasUpdated_Text" xml:space="preserve">
+  <value>Файл обновлен</value>
+</data>
+<data name="TheRequiredXcodeVersionForInstalled_Text" xml:space="preserve">
+  <value>Требуемая версия Xcode для установленного Xamarin SDK для {0} — Xcode {1} или выше. Текущая версия Xcode (найдена в {2}) — {3}.</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Generated" xml:space="preserve">
+  <value>Сгенерированный</value>
+</data>
+<data name="SolutionAnalysis_Analyzing_Files_Text" xml:space="preserve">
+  <value>Анализ файлов</value>
+</data>
+<data name="PreserveDataCacheBetweenApplication_Text" xml:space="preserve">
+  <value>Сохранять данные/кэш между развертываниями приложения</value>
+</data>
+<data name="TemporarySettingToRestoreDecompileMethodsSettingDescription" xml:space="preserve">
+  <value>Временная настройка для восстановления 'Декомпилировать методы'</value>
+</data>
+<data name="UseCredentialProvidersRequiresRestart_ComboEnum_Caption" xml:space="preserve">
+  <value>Использовать поставщики учетных данных (требуется перезапуск)</value>
+</data>
+<data name="UsageGrouping_Type_Text" xml:space="preserve">
+  <value>Группировать по типу</value>
+</data>
+<data name="ExpandUnitTestTree_ProgressText" xml:space="preserve">
+  <value>Вычисление модульных тестов для развертывания…</value>
+</data>
+<data name="Internal_Text" xml:space="preserve">
+  <value>Внутренние</value>
+</data>
+<data name="SynchronizationHasStoppedReopenProject_Text" xml:space="preserve">
+  <value>Синхронизация остановлена. Переоткройте проект в Xcode, чтобы снова синхронизировать изменения.</value>
+</data>
+<data name="DiagnosticsWithoutDumpActionFound_Text" xml:space="preserve">
+  <value>Найдена диагностика без действия дампа</value>
+</data>
+<data name="RiderDebuggerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отладчика Rider</value>
+</data>
+<data name="FormattedTestOutput_Text" xml:space="preserve">
+  <value>Вывод '{0}'</value>
+</data>
+<data name="Score" xml:space="preserve">
+  <value>Оценка</value>
+</data>
+<data name="OutputName_TextBox_Caption" xml:space="preserve">
+  <value>Имя выходных данных</value>
+</data>
+<data name="SigningIdentity_TitleText" xml:space="preserve">
+  <value>Идентификатор подписи</value>
+</data>
+<data name="OpenFullTestOutputInEditorActionText" xml:space="preserve">
+  <value>Открыть полный вывод теста в редакторе</value>
+</data>
+<data name="ArchiveForPublishActionText" xml:space="preserve">
+  <value>Архивировать для публикации</value>
+</data>
+<data name="IsAutomaticThreadDumpCollectionAllowedSettingDescription" xml:space="preserve">
+  <value>Разрешён ли автоматический сбор дампов потоков</value>
+</data>
+<data name="ForBuildingAndRunningApplications_Text" xml:space="preserve">
+  <value>Для сборки и запуска приложений</value>
+</data>
+<data name="FilesAndFoldersAreSpecifiedRelative_Text_Text" xml:space="preserve">
+  <value>Файлы и папки указываются относительно корня решения; маски файлов будут сопоставляться с абсолютным путем к файлу.</value>
+</data>
+<data name="RiderOnlineHelpActionText" xml:space="preserve">
+  <value>Онлайн-справка Rider</value>
+</data>
+<data name="Keystore_TextBox_Caption" xml:space="preserve">
+  <value>Хранилище ключей</value>
+</data>
+<data name="XCodeInstallation_Presentation_Missing_Text" xml:space="preserve">
+  <value>Отсутствует</value>
+</data>
+<data name="UnableToSyncXcodeProject__Text" xml:space="preserve">
+  <value>Не удалось синхронизировать проект Xcode: {0}</value>
+</data>
+<data name="SyncChangesFromXcodeProject_Caption" xml:space="preserve">
+  <value>Синхронизация изменений из проекта Xcode…</value>
+</data>
+<data name="CodeIssues_Text" xml:space="preserve">
+  <value>Проблемы кода</value>
+</data>
+<data name="InitTypeSystem_Text" xml:space="preserve">
+  <value>Инициализация системы типов</value>
+</data>
+<data name="DeviceSpecificBuild_Caption" xml:space="preserve">
+  <value>Сборка для конкретного устройства</value>
+</data>
+<data name="ManagedPipelineMode_Integrated_Text" xml:space="preserve">
+  <value>Интегрированный</value>
+</data>
+<data name="Codesets_TextBox_Caption" xml:space="preserve">
+  <value>Наборы кодов</value>
+</data>
+<data name="IncludePrerelease_BoolOption_Text" xml:space="preserve">
+  <value>Включать предварительные версии</value>
+</data>
+<data name="IPhoneShouldBeConnectedToTheSameNetwork_Text" xml:space="preserve">
+  <value>iPhone должен быть подключен к той же сети, что и хост-компьютер</value>
+</data>
+<data name="NETCoreProjects_Text" xml:space="preserve">
+  <value>Проекты .NET Core</value>
+</data>
+<data name="CodeBlock_Highlighter_Display_Name" xml:space="preserve">
+  <value>Razor//Блок кода</value>
+</data>
+<data name="ItemCannotBeRemoved_Text" xml:space="preserve">
+  <value>Элемент не может быть удален. Причина: {0}</value>
+</data>
+<data name="ToolSettings_Header_Text" xml:space="preserve">
+  <value>Настройки инструментов</value>
+</data>
+<data name="Remove_Caption" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="IllegalCharactersInPath_Text" xml:space="preserve">
+  <value>Недопустимые символы в пути</value>
+</data>
+<data name="RerunAbortedTestsInCurrentSessionActionText" xml:space="preserve">
+  <value>Перезапустить прерванные тесты</value>
+</data>
+<data name="AreYouSureYouWantToRemove_TestElements_Text" xml:space="preserve">
+  <value>Удалить {0} элементов тестов из сеанса?</value>
+</data>
+<data name="CanNotFindPlatformProjectFolderPlatforms_Text" xml:space="preserve">
+  <value>Не удается найти папку проекта платформы 'Platforms/{0}'</value>
+</data>
+<data name="LoadingTypeHierarchy_Text" xml:space="preserve">
+  <value>Загрузка иерархии типов</value>
+</data>
+<data name="ServerType_NoneServer_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="PasswordsMustMatch_Text" xml:space="preserve">
+  <value>Пароли должны совпадать</value>
+</data>
+<data name="NTLMAuthentication_Caption" xml:space="preserve">
+  <value>Аутентификация NTLM</value>
+</data>
+<data name="TypeFileWasCreatedAndWillBeSyncedWith_Text" xml:space="preserve">
+  <value>Файл типа создан и будет синхронизирован с проектом .NET</value>
+</data>
+<data name="NoToAll_Text" xml:space="preserve">
+  <value>Нет для всех</value>
+</data>
+<data name="Next_Text" xml:space="preserve">
+  <value>Далее</value>
+</data>
+<data name="CheckAndInstallCodeGenerationTool_Text" xml:space="preserve">
+  <value>Проверить и установить инструмент генерации кода</value>
+</data>
+<data name="DebuggerJumpToStatementContextAction_Name" xml:space="preserve">
+  <value>Отладчик — Перейти к оператору</value>
+</data>
+<data name="UnableToFindTheBaseType__Text" xml:space="preserve">
+  <value>Не удалось найти базовый тип '{0}'</value>
+</data>
+<data name="RiderSourceLinkNotifications_CannotDownloadSource_Text" xml:space="preserve">
+  <value>Не удалось загрузить исходный код</value>
+</data>
+<data name="ThereAreNoAnyPackagesIn__Text" xml:space="preserve">
+  <value>В {0} нет пакетов</value>
+</data>
+<data name="TagHelperElement_Highlighter_Display_Name" xml:space="preserve">
+  <value>Razor//Элемент вспомогательной функции тегов</value>
+</data>
+<data name="FailedToParseInterfaceDefinitionOn__Text" xml:space="preserve">
+  <value>Не удалось разобрать определение интерфейса на {0}</value>
+</data>
+<data name="Debug_SectionName" xml:space="preserve">
+  <value>Отладка</value>
+</data>
+<data name="ASPNETCoreModuleDLLPathBitSettingDescription" xml:space="preserve">
+  <value>Путь к DLL модуля ASP.NET Core (32-разрядная)</value>
+</data>
+<data name="UnexpectedInterfaceOn__Text" xml:space="preserve">
+  <value>Неожиданное '@interface' на {0}</value>
+</data>
+<data name="ShowQuickDocumentationActionText" xml:space="preserve">
+  <value>Показать краткую документацию (&amp;Q)…</value>
+</data>
+<data name="NothingToGenerate_Text" xml:space="preserve">
+  <value>Нечего генерировать</value>
+</data>
+<data name="OptionCompare_ComboBox_Caption" xml:space="preserve">
+  <value>Option Compare</value>
+</data>
+<data name="Signing_Text" xml:space="preserve">
+  <value>Подписание</value>
+</data>
+<data name="EnableDockerSupportInProject__Caption" xml:space="preserve">
+  <value>Включить поддержку Docker в проекте '{0}'</value>
+</data>
+<data name="Root_Text" xml:space="preserve">
+  <value>Корень</value>
+</data>
+<data name="ItemWasRemoved_Text" xml:space="preserve">
+  <value>Элемент удален</value>
+</data>
+<data name="NextInsightHighlightingsGroup_Text" xml:space="preserve">
+  <value>Группа инсайтов AI</value>
+</data>
+<data name="DownloadAndInstallUWPSDK_Text" xml:space="preserve">
+  <value>Скачать и установить UWP SDK…</value>
+</data>
+<data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
+  <value>Сгенерированный код</value>
+</data>
+<data name="SpaciousFormatActionText" xml:space="preserve">
+  <value>Просторное форматирование</value>
+</data>
+<data name="PreparingFileSystem_Text" xml:space="preserve">
+  <value>Подготовка файловой системы</value>
+</data>
+<data name="EnableHotReloadWhenRunningWithoutDebuggingNETAndLaterSettingDescription" xml:space="preserve">
+  <value>Включить горячую перезагрузку при запуске без отладки (.NET 6.0 и выше)</value>
+</data>
+<data name="HighestMinor_Text" xml:space="preserve">
+  <value>Наивысшая минорная версия</value>
+</data>
+<data name="EnableXAMLHotReloadForXamarinForms_Text" xml:space="preserve">
+  <value>Включить горячую перезагрузку XAML для Xamarin.Forms</value>
+</data>
+<data name="FindIssues_Text" xml:space="preserve">
+  <value>Найти проблемы</value>
+</data>
+<data name="_OverrideExistingFiles_Text" xml:space="preserve">
+  <value>Перезаписать существующие файлы (_O)</value>
+</data>
+<data name="DecompileProtectedAssemblies_BoolOption_Text" xml:space="preserve">
+  <value>Декомпилировать защищенные сборки (игнорировать атрибут SuppressIldasm)</value>
+</data>
+<data name="DebuggerJumpToStatementContextAction_Description" xml:space="preserve">
+  <value>Переместить указатель выполнения на текущий оператор без выполнения кода</value>
+</data>
+<data name="UnexpectedImplementationOn__Text" xml:space="preserve">
+  <value>Неожиданное '@implementation' на {0}</value>
+</data>
+<data name="ILCode_Text" xml:space="preserve">
+  <value>IL-код</value>
+</data>
+<data name="CodeSharing_GroupName" xml:space="preserve">
+  <value>Общий код</value>
+</data>
+<data name="DownloadMono_Linux_Text" xml:space="preserve">
+  <value>Скачать последний стабильный пакет mono-complete</value>
+</data>
+<data name="Empty_Text" xml:space="preserve">
+  <value>Пусто</value>
+</data>
+<data name="NETFrameworkDeveloperPackIsNotFound_Text" xml:space="preserve">
+  <value>Пакет разработчика .NET Framework не найден</value>
+</data>
+<data name="AddRazorPageUsingEntityFramework_Text" xml:space="preserve">
+  <value>Добавить страницу Razor с использованием Entity Framework</value>
+</data>
+<data name="Template_Editable_WElCIGZvciBNYWMEQ" xml:space="preserve">
+  <value>XIB для Mac</value>
+</data>
+<data name="UseSharedMonoRuntime_CheckBox_Caption" xml:space="preserve">
+  <value>Использовать общую среду выполнения Mono</value>
+</data>
+<data name="Controller_AlreadyExists_Text" xml:space="preserve">
+  <value>Контроллер '{0}' уже существует</value>
+</data>
+<data name="Solution_contains_vulnerable_packages_installed" xml:space="preserve">
+  <value>В этом решении установлены уязвимые пакеты</value>
+</data>
+<data name="IgnoreAll_Text" xml:space="preserve">
+  <value>Игнорировать все</value>
+</data>
+<data name="InOrderToRunMSTestTestsRiderNeedsTo_Text_Text" xml:space="preserve">
+  <value>Для запуска тестов MSTest Rider должен использовать консольный исполнитель модульных тестов, поставляемый с Visual Studio, и требует лицензию Visual Studio. Выбирая установку Visual Studio ниже, вы подтверждаете, что берете на себя ответственность за получение соответствующей лицензии на использование установки Visual Studio:</value>
+</data>
+<data name="None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="Project_Template_Option_VVdQIEFwcGxpY2F0aW9u" xml:space="preserve">
+  <value>Приложение UWP</value>
+</data>
+<data name="UwpDeploy_UnableToCopy_Message" xml:space="preserve">
+  <value>Не удалось скопировать файл '{0}'</value>
+</data>
+<data name="HereYouCanSpecifyFilesFileMasksAndFolders_Text_Text" xml:space="preserve">
+  <value>Здесь можно указать файлы, маски файлов и папки, которые следует исключить из анализа кода.</value>
+</data>
+<data name="Project_Template_Option_VkIEQ" xml:space="preserve">
+  <value>VB</value>
+</data>
+<data name="Project_Template_Option_RiMEQ" xml:space="preserve">
+  <value>F#</value>
+</data>
+<data name="Project_Template_Option_QyMEQ" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="DoNotLink_ComboBoxValue" xml:space="preserve">
+  <value>Не связывать</value>
+</data>
+<data name="ContextActions_Text" xml:space="preserve">
+  <value>Контекстные действия</value>
+</data>
+<data name="Linker_TextBox_Caption" xml:space="preserve">
+  <value>Компоновщик</value>
+</data>
+<data name="XcodeWasClosedStopSyncing_Caption" xml:space="preserve">
+  <value>Xcode закрыт, остановка синхронизации</value>
+</data>
+<data name="FilesToOverride_Text" xml:space="preserve">
+  <value>Файлы для перезаписи: </value>
+</data>
+<data name="SyncWithDdlDataSourceSetting_Text" xml:space="preserve">
+  <value>Создать источник данных DDL для проекта базы данных и синхронизировать</value>
+</data>
+<data name="LastLaunchLog_Text" xml:space="preserve">
+  <value>Последний журнал запуска</value>
+</data>
+<data name="VBLanguageLevel_ToolTip" xml:space="preserve">
+  <value>Указывает уровень языка Visual Basic, который Rider должен использовать для анализа кода; не влияет на компилятор, анализаторы Roslyn и сборку проекта.</value>
+</data>
+<data name="PackageSpecDumpStrategy_ComboEnum_Caption" xml:space="preserve">
+  <value>Стратегия дампа PackageSpec</value>
+</data>
+<data name="Run__Text" xml:space="preserve">
+  <value>Запустить '{0}'</value>
+</data>
+<data name="Qodana_InspectCode_Text" xml:space="preserve">
+  <value>Qodana для .NET</value>
+</data>
+<data name="Project_Template_Option_Qmxhem9yIFNlcnZlciBBcHAgRW1wdHkEQ" xml:space="preserve">
+  <value>Пустое приложение Blazor Server</value>
+</data>
+<data name="SearchTarget_Text" xml:space="preserve">
+  <value>Цель поиска</value>
+</data>
+<data name="Show_File_Text" xml:space="preserve">
+  <value>Показать файл {0}</value>
+</data>
+<data name="Search_Header_Text" xml:space="preserve">
+  <value>Поиск</value>
+</data>
+<data name="AndroidSDKLocation_Text_Text" xml:space="preserve">
+  <value>Расположение Android SDK:</value>
+</data>
+<data name="DefaultNativeTLS12_ComboBoxValue" xml:space="preserve">
+  <value>По умолчанию (Native TLS 1.2+)</value>
+</data>
+<data name="UseXcodeSelectUtilityToChangeDefault_Text" xml:space="preserve">
+  <value>Используйте служебную программу 'xcode-select', чтобы изменить Xcode по умолчанию в системе и IDE.</value>
+</data>
+<data name="UsingXcode_ToOpenGeneratedProject_Text" xml:space="preserve">
+  <value>Использование Xcode {0} для открытия сгенерированного проекта</value>
+</data>
+<data name="DebuggerSmartStepIntoContextAction_Description" xml:space="preserve">
+  <value>Позволяет выбрать функцию для входа, если в текущей строке есть несколько вызовов</value>
+</data>
+<data name="SsdtLocationSetting_Description" xml:space="preserve">
+  <value>Расположение SQL Server Data Tools</value>
+</data>
+<data name="FailedToParseMethodOf_On__Text" xml:space="preserve">
+  <value>Не удалось разобрать метод '{0}' на {1}</value>
+</data>
+<data name="GettingProfiles_Text" xml:space="preserve">
+  <value>Получение профилей…</value>
+</data>
+<data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
+  <value>Показывать непубличные скомпилированные элементы в результатах «Перейти к…»</value>
+</data>
+<data name="AutoIndentLinesActionText" xml:space="preserve">
+  <value>Автоматический отступ строк</value>
+</data>
+<data name="Project_Template_Option_QmluZGluZ3MgTGlicmFyeQEQEQ" xml:space="preserve">
+  <value>Библиотека привязок</value>
+</data>
+<data name="NoNewCustomUIClassDefinitionsFound_Text" xml:space="preserve">
+  <value>Новые определения пользовательских классов UI не найдены</value>
+</data>
+<data name="SqlProjOptionPageTitle" xml:space="preserve">
+  <value>Проект SQL</value>
+</data>
+<data name="ProcessKeys_Text" xml:space="preserve">
+  <value>Обработка ключей</value>
+</data>
+<data name="LowestInstallsTheDependencyWithTheMinimal_ToolTip" xml:space="preserve">
+  <value>«Наименьшая» устанавливает зависимость с наименьшим номером версии, удовлетворяющим первоначальным требованиям выбранного пакета</value>
+</data>
+<data name="ASPNETCOptionPageTitle" xml:space="preserve">
+  <value>ASP.NET (C#)</value>
+</data>
+<data name="Project_Template_Option_V2luZG93cyBGb3JtcyBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+  <value>Приложение Windows Forms</value>
+</data>
+<data name="DebuggerPort_TextBox_Caption" xml:space="preserve">
+  <value>Порт отладчика</value>
+</data>
+<data name="MSTestOptionPageTitle" xml:space="preserve">
+  <value>MSTest</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Add_MsBuild_Item" xml:space="preserve">
+  <value>Не удалось добавить элемент MSBuild: {0}</value>
+</data>
+<data name="Controller_DescriptionText" xml:space="preserve">
+  <value>Контроллер</value>
+</data>
+<data name="UnitTestSession_IsFinished_Caption" xml:space="preserve">
+  <value>Сеанс модульного тестирования '{0}' завершен</value>
+</data>
+<data name="MacOSCatalina_Text" xml:space="preserve">
+  <value>macOS Catalina</value>
+</data>
+<data name="ThereAreManyObjcTypesForTheCliType__Text" xml:space="preserve">
+  <value>Для типа CLI '{0}' существует множество типов objc, используйте '{1}'</value>
+</data>
+<data name="Output_Text" xml:space="preserve">
+  <value>Вывод</value>
+</data>
+<data name="DistributionChannel_Text" xml:space="preserve">
+  <value>Канал распространения</value>
+</data>
+<data name="XamarinSDK_Text" xml:space="preserve">
+  <value>Xamarin SDK</value>
+</data>
+<data name="DownloadNETFrameworkDeveloperPack_Text" xml:space="preserve">
+  <value>Скачать последнюю версию пакета разработчика .NET Framework</value>
+</data>
+<data name="RiderRecorderSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки записи Rider</value>
+</data>
+<data name="GroupingsSettingDescription" xml:space="preserve">
+  <value>Группировки</value>
+</data>
+<data name="AddDataContextClass_Text" xml:space="preserve">
+  <value>Добавить класс контекста данных</value>
+</data>
+<data name="OpeningCInteractiveToolFocusesToolWindow_BoolOption_Text" xml:space="preserve">
+  <value>Открытие инструмента C# Interactive активирует окно инструментов</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="Identifier_Text" xml:space="preserve">
+  <value>Идентификатор:</value>
+</data>
+<data name="XamarinMacProjects_Text" xml:space="preserve">
+  <value>Проекты Xamarin (Mac)</value>
+</data>
+<data name="NoteThatIfSomeSymbolsAreOnlyUsedInThe_Text_Text" xml:space="preserve">
+  <value>Обратите внимание, что если некоторые символы используются только в исключенных файлах, анализ на уровне решения будет выделять эти символы как никогда не использованные.</value>
+</data>
+<data name="InstallAndroidSDK_Text" xml:space="preserve">
+  <value>Установить Android SDK…</value>
+</data>
+<data name="Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="AddFromURIActionText" xml:space="preserve">
+  <value>Добавить из URI…</value>
+</data>
+<data name="Other_Header_Text" xml:space="preserve">
+  <value>Другие</value>
+</data>
+<data name="SpellAndGrammarMarks_Text" xml:space="preserve">
+  <value>Пометки орфографии и грамматики</value>
+</data>
+<data name="Yesterday_Text" xml:space="preserve">
+  <value>Вчера</value>
+</data>
+<data name="AddDataContext_Text" xml:space="preserve">
+  <value>Добавить контекст данных</value>
+</data>
+<data name="XAMLCOptionPageTitle" xml:space="preserve">
+  <value>XAML (C#)</value>
+</data>
+<data name="CodeStyleConfiguration_Caption" xml:space="preserve">
+  <value>Конфигурация стиля кода</value>
+</data>
+<data name="UpdateFromXCodeWasSkippedApplication_Caption" xml:space="preserve">
+  <value>Обновление из Xcode пропущено: приложение находится в режиме отладки</value>
+</data>
+<data name="AddUserClass_Text" xml:space="preserve">
+  <value>Добавить пользовательский класс</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Documentation" xml:space="preserve">
+  <value>Документация</value>
+</data>
+<data name="FocusToolWindowOnSendLineSettingDescription" xml:space="preserve">
+  <value>Активировать окно инструментов при отправке строки</value>
+</data>
+<data name="AccessDeniedToFileOrDirectory__Text" xml:space="preserve">
+  <value>Доступ к файлу или каталогу запрещен: '{0}'</value>
+</data>
+<data name="Is_vulnerable" xml:space="preserve">
+  <value>Содержит уязвимости</value>
+</data>
+<data name="UnableToInitializeHotReloadAgentIn__Text" xml:space="preserve">
+  <value>Не удалось инициализировать агент горячей перезагрузки за {0} секунд. {1}Подробности см. в разделе «Вывод отладчика».</value>
+</data>
+<data name="ShowCodeStyleConfigurationActionText" xml:space="preserve">
+  <value>Показать конфигурацию стиля кода</value>
+</data>
+<data name="WhetherNavigationToDesignerErrorsViaExceptionPopupIsActiveSettingDescription" xml:space="preserve">
+  <value>Активна ли навигация к ошибкам конструктора через всплывающее окно исключения</value>
+</data>
+<data name="_Password_Text" xml:space="preserve">
+  <value>Пароль (_P): </value>
+</data>
+<data name="AdditionalMmpArguments_TextBox_Caption" xml:space="preserve">
+  <value>Дополнительные аргументы 'mmp'</value>
+</data>
+<data name="BuildingProject__Text" xml:space="preserve">
+  <value>Сборка проекта '{0}'…</value>
+</data>
+<data name="NuGetOptionPageTitle" xml:space="preserve">
+  <value>NuGet</value>
+</data>
+<data name="Internalisation_SectionName" xml:space="preserve">
+  <value>Интернационализация</value>
+</data>
+<data name="ArchivesListPage_Notification" xml:space="preserve">
+  <value>Сборка {0} для проекта '{1}' успешно завершена</value>
+</data>
+<data name="EnablePrivateSourceLinkSupport_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку приватного Source Link</value>
+</data>
+<data name="ThereIsNoSyncedProjectUseSolutionExplorer_Text" xml:space="preserve">
+  <value>Нет синхронизированного проекта. Используйте обозреватель решений, чтобы выбрать проект для открытия.</value>
+</data>
+<data name="OutputType_ComboBox_Caption" xml:space="preserve">
+  <value>Тип выходных данных</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Dynamic" xml:space="preserve">
+  <value>Динамический</value>
+</data>
+<data name="Security" xml:space="preserve">
+  <value>Безопасность</value>
+</data>
+<data name="Template_Editable_U3Rvcnlib2FyZCBmb3IgTWFj" xml:space="preserve">
+  <value>Раскадровка для Mac</value>
+</data>
+<data name="Template_Editable_U3Rvcnlib2FyZCBmb3IgaU9T" xml:space="preserve">
+  <value>Раскадровка для iOS</value>
+</data>
+<data name="Saving__Text" xml:space="preserve">
+  <value>Сохранение {0}</value>
+</data>
+<data name="NoneWithAngleBrackets_Text" xml:space="preserve">
+  <value>&lt;None&gt;</value>
+</data>
+<data name="GoToBaseInheritorIfThereIsOnlyOneResult_Text" xml:space="preserve">
+  <value>Перейти к базовому/наследнику: если результат один, переходить без показа списка</value>
+</data>
+<data name="ChangePathToXcodeInRiderSettings_Text" xml:space="preserve">
+  <value>Изменить путь к Xcode в настройках Rider…</value>
+</data>
+<data name="UseManagedDesignTimeResourceGenerator_Text" xml:space="preserve">
+  <value>Использовать управляемый генератор ресурсов времени разработки по умолчанию</value>
+</data>
+<data name="Template_Editable_V2luZG93" xml:space="preserve">
+  <value>Окно</value>
+</data>
+<data name="AndroidSDKPlatformIsNotInstalled_Text" xml:space="preserve">
+  <value>Платформа Android SDK не установлена</value>
+</data>
+<data name="CodeShrinker_ComboBox_Caption" xml:space="preserve">
+  <value>Сжиматель кода</value>
+</data>
+<data name="AllTemplates_Text" xml:space="preserve">
+  <value>Все шаблоны</value>
+</data>
+<data name="NavigateToUnitTestSessionActionText" xml:space="preserve">
+  <value>Перейти к сеансу модульного тестирования</value>
+</data>
+<data name="Project_Template_Option_V1BGIEN1c3RvbSBDb250cm9sIExpYnJhcnkEQ" xml:space="preserve">
+  <value>Библиотека пользовательских элементов управления WPF</value>
+</data>
+<data name="NewUserClassType_Text" xml:space="preserve">
+  <value>Тип нового пользовательского класса:</value>
+</data>
+<data name="MoveCaretDownOnSendLineSettingDescription" xml:space="preserve">
+  <value>Перемещать каретку вниз при отправке строки</value>
+</data>
+<data name="SSLPort_Caption" xml:space="preserve">
+  <value>Порт SSL</value>
+</data>
+<data name="Template_Editable_YXBwc2V0dGluZ3MuanNvbiBGaWxl" xml:space="preserve">
+  <value>Файл appsettings.json</value>
+</data>
+<data name="InjectionMark_Text" xml:space="preserve">
+  <value>Метка внедрения</value>
+</data>
+<data name="ThePackageNameOfAnAndroidAppMustConsist_Text" xml:space="preserve">
+  <value>Имя пакета приложения Android должно содержать не менее 2 сегментов. Укажите имя пакета в {0}.</value>
+</data>
+<data name="SpecifyAPathToAValidCSHTMLFile_Text" xml:space="preserve">
+  <value>Укажите путь к допустимому CSHTML-файлу.</value>
+</data>
+<data name="AllRegisteredObjcTypes__Text" xml:space="preserve">
+  <value>Все зарегистрированные типы objc: {0}</value>
+</data>
+<data name="TargetPlatformVersionOfUWPSDK_ToolTip" xml:space="preserve">
+  <value>Целевая версия платформы UWP SDK</value>
+</data>
+<data name="_IsNotAValidNuGetProject_Text" xml:space="preserve">
+  <value>{0} не является допустимым проектом NuGet</value>
+</data>
+<data name="COptionPageTitle" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Update_Reference" xml:space="preserve">
+  <value>Не удалось обновить ссылку на сборку: {0}</value>
+</data>
+<data name="FailedToParsePropertyOn__Text" xml:space="preserve">
+  <value>Не удалось разобрать свойство на {0}</value>
+</data>
+<data name="ToolWindowBehavior_Header_Text" xml:space="preserve">
+  <value>Поведение окна инструментов</value>
+</data>
+<data name="PackingAndDeployment_Caption" xml:space="preserve">
+  <value>Упаковка и развертывание</value>
+</data>
+<data name="UnableToPerformRefactoring_Caption" xml:space="preserve">
+  <value>Не удалось выполнить рефакторинг</value>
+</data>
+<data name="ServerType_ComboBoxTitle" xml:space="preserve">
+  <value>Тип сервера</value>
+</data>
+<data name="OptionInfer_ComboBox_Caption" xml:space="preserve">
+  <value>Option Infer</value>
+</data>
+<data name="UnexpectedIBOutletCollectionOn__Text" xml:space="preserve">
+  <value>Неожиданное 'IBOutletCollection' на {0}</value>
+</data>
+<data name="CodeBlockTag_Highlighter_Display_Name" xml:space="preserve">
+  <value>Razor//Тег блока кода</value>
+</data>
+<data name="UnitTestSession_TestsHaveMixedStatuses_Title" xml:space="preserve">
+  <value>{0}/{1} тестов</value>
+</data>
+<data name="Project_Template_Option_d2l0aCBBbmd1bGFy" xml:space="preserve">
+  <value>С использованием Angular</value>
+</data>
+<data name="AllowRiderToRestoreMissingPackages_ComboEnum_Caption" xml:space="preserve">
+  <value>Разрешить Rider восстанавливать отсутствующие пакеты</value>
+</data>
+<data name="Auth_Text" xml:space="preserve">
+  <value>Аутентификация</value>
+</data>
+<data name="ShowClassInstances_Text" xml:space="preserve">
+  <value>Показать экземпляры класса</value>
+</data>
+<data name="Paths_SectionTitle" xml:space="preserve">
+  <value>Пути</value>
+</data>
+<data name="InlinePromptSettings_Text" xml:space="preserve">
+  <value>Настройки встроенных подсказок</value>
+</data>
+<data name="TargetAndroidAPI_Text" xml:space="preserve">
+  <value>Целевой API Android</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Default" xml:space="preserve">
+  <value>Найденные использования</value>
+</data>
+<data name="AnalysingTypes_Text" xml:space="preserve">
+  <value>Анализ типов</value>
+</data>
+<data name="ArchiveForPublishIsFailed_BuildFailed_Text" xml:space="preserve">
+  <value>Задача сборки не выполнена</value>
+</data>
+<data name="RunningCustomTool_Text" xml:space="preserve">
+  <value>Запуск пользовательского инструмента</value>
+</data>
+<data name="IOSSuggestUpdateCodesignKeySettingDescription" xml:space="preserve">
+  <value>IOS предлагает обновить ключ Codesign</value>
+</data>
+<data name="WaitForFileSystemTrackerSync_Text" xml:space="preserve">
+  <value>Ожидание синхронизации FileSystemTracker</value>
+</data>
+<data name="CollectingAndInstantiatingProblemDiagnostics_Text" xml:space="preserve">
+  <value>Сбор и создание экземпляров диагностики проблем…</value>
+</data>
+<data name="SettingsCodeBehindGenerator_Text" xml:space="preserve">
+  <value>Настройки генератора кода программной части</value>
+</data>
+<data name="Project_Template_Option_UmF6b3IgQ2xhc3MgTGlicmFyeQEQEQ" xml:space="preserve">
+  <value>Библиотека классов Razor</value>
+</data>
+<data name="Type_GroupName" xml:space="preserve">
+  <value>Группировать по типу</value>
+</data>
+<data name="RevealKeystoreActionText" xml:space="preserve">
+  <value>Показать хранилище ключей</value>
+</data>
+<data name="Warning_EnumText" xml:space="preserve">
+  <value>Предупреждение</value>
+</data>
+<data name="CreateANewKey_Button_ToolTip" xml:space="preserve">
+  <value>Создать новый ключ</value>
+</data>
+<data name="UseConcurrentGarbageCollector_CheckBox_Caption" xml:space="preserve">
+  <value>Использовать параллельный сборщик мусора</value>
+</data>
+<data name="Project_Template_Option_Q2xhc3MgTGlicmFyeQEQEQ" xml:space="preserve">
+  <value>Библиотека классов</value>
+</data>
+<data name="GroupBy_Text" xml:space="preserve">
+  <value>Группировать по:</value>
+</data>
+<data name="Version_Text" xml:space="preserve">
+  <value>Версия:</value>
+</data>
+<data name="DexCompiler_ComboBox_Caption" xml:space="preserve">
+  <value>Компилятор Dex</value>
+</data>
+<data name="EditApplicationhostConfigActionText" xml:space="preserve">
+  <value>Редактировать applicationhost.config</value>
+</data>
+<data name="Project_Template_Option_QW5kcm9pZAEQEQ" xml:space="preserve">
+  <value>Android</value>
+</data>
+<data name="RunMethodMarkersSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки маркеров запуска метода</value>
+</data>
+<data name="Project_Template_Option_V1BGIFVzZXIgQ29udHJvbCBMaWJyYXJ5" xml:space="preserve">
+  <value>Библиотека пользовательских элементов управления WPF</value>
+</data>
+<data name="Class_AlreadyExists_Text" xml:space="preserve">
+  <value>Класс '{0}' уже существует</value>
+</data>
+<data name="Template_Editable_WElCIGZvciBpT1MEQ" xml:space="preserve">
+  <value>XIB для iOS</value>
+</data>
+<data name="OverwriteAll_Text" xml:space="preserve">
+  <value>Перезаписать все</value>
+</data>
+<data name="ProcessingAssemblies_Text" xml:space="preserve">
+  <value>Обработка сборок</value>
+</data>
+<data name="HotReloadDisabledDueToIOSLinkerSettings_Text" xml:space="preserve">
+  <value>Горячая перезагрузка отключена из-за настроек компоновщика iOS. Перейдите в «Проект | Свойства» и измените настройку компоновщика на «Не связывать».</value>
+</data>
+<data name="RiderCodeCleanupService_RunCodeCleanup_Cannot_find_profile" xml:space="preserve">
+  <value>Не удается найти профиль очистки кода с именем '{0}'</value>
+</data>
+<data name="Template_Editable_UHJvcGVydHkgTGlzdAEQEQ" xml:space="preserve">
+  <value>Список свойств</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Other" xml:space="preserve">
+  <value>Другие</value>
+</data>
+<data name="Project_Template_Option_V2ViIEFQSQEQEQ" xml:space="preserve">
+  <value>Веб-API</value>
+</data>
+<data name="DownloadMono_MacOs_Text" xml:space="preserve">
+  <value>Скачать последнюю стабильную версию Mono</value>
+</data>
+<data name="_ModelClass_Text" xml:space="preserve">
+  <value>Класс модели (_M): </value>
+</data>
+<data name="PathMappingFor__Caption" xml:space="preserve">
+  <value>Сопоставление путей для {0}</value>
+</data>
+<data name="AndroidNDKLocation_Text_Text" xml:space="preserve">
+  <value>Пользовательское расположение Android NDK:</value>
+</data>
+<data name="Project_Template_Option_QW5kcm9pZCBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+  <value>Приложение Android</value>
+</data>
+<data name="Template_Editable_WGFtYXJpbiBGb3Jt" xml:space="preserve">
+  <value>Форма Xamarin</value>
+</data>
+<data name="SmartGoTo_DeclarationBehavior_ComboEnum_Caption" xml:space="preserve">
+  <value>Поведение при умном переходе к объявлению:</value>
+</data>
+<data name="EvaluatesNETFrameworkVersionOfCurrentProjectAndCreatesAStartupSectionForItMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Оценивает версию .NET Framework текущего проекта и создает для нее раздел &lt;startup&gt;</value>
+</data>
+<data name="AlwaysSuggestToUpdateCodesignKey_Text" xml:space="preserve">
+  <value>Всегда предлагать обновить ключ Codesign</value>
+</data>
+<data name="AutomaticallyApplyChangesOnStepAndResumeSettingDescription" xml:space="preserve">
+  <value>Автоматически применять изменения при шаге и возобновлении</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_InactiveCode" xml:space="preserve">
+  <value>Использования в неактивном коде</value>
+</data>
+<data name="SpecifyADataContextClass_Text" xml:space="preserve">
+  <value>Указать класс контекста данных</value>
+</data>
+<data name="AppsCannotBeArchivedWhenTheProjectDoes_Text" xml:space="preserve">
+  <value>Приложения нельзя архивировать, когда у проекта нет имени пакета. Укажите имя пакета в {0}.</value>
+</data>
+<data name="NextError_Text" xml:space="preserve">
+  <value>Следующая ошибка</value>
+</data>
+<data name="HighestInstallsTheHighestAvailableVersion_ToolTip" xml:space="preserve">
+  <value>«Наивысшая» устанавливает самую высокую доступную версию пакета</value>
+</data>
+<data name="RiderSolutionAnalysisSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки анализа решения Rider</value>
+</data>
+<data name="DumpUnitTestTrees_Text" xml:space="preserve">
+  <value>Дамп деревьев модульных тестов</value>
+</data>
+<data name="GeneratedFileMasks_Caption" xml:space="preserve">
+  <value>Маски сгенерированных файлов:</value>
+</data>
+<data name="ChangeJDKPathInRiderSettings_Text" xml:space="preserve">
+  <value>Изменить путь к JDK в настройках Rider…</value>
+</data>
+<data name="IISExpress64Bit_Header_Text" xml:space="preserve">
+  <value>IIS Express (64-разрядная)</value>
+</data>
+<data name="Country2CharactersCode_Text" xml:space="preserve">
+  <value>Страна (2-символьный код)</value>
+</data>
+<data name="SolutionBuilderHost_GetProgressTitle_Build" xml:space="preserve">
+  <value>Сборка {0}</value>
+</data>
+<data name="LanguageVersion_Text" xml:space="preserve">
+  <value>Версия языка</value>
+</data>
+<data name="ImportSettings_Text" xml:space="preserve">
+  <value>Импорт настроек</value>
+</data>
+<data name="SolutionBuilderHost_GetProgressTitle_Clean" xml:space="preserve">
+  <value>Очистка {0}</value>
+</data>
+<data name="SpecifyAValidCSHTMLFileFromThe_Project_Text" xml:space="preserve">
+  <value>Укажите допустимый CSHTML-файл в проекте '{0}'.</value>
+</data>
+<data name="RemoveArchiveActionText" xml:space="preserve">
+  <value>Удалить архив</value>
+</data>
+<data name="AddRazorPageUsingEntityFrameworkCRUD_Text" xml:space="preserve">
+  <value>Добавить страницу Razor с использованием Entity Framework (CRUD)</value>
+</data>
+<data name="Project_Template_Option_aU9TIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+  <value>Библиотека классов iOS</value>
+</data>
+<data name="UrlsOfSymbolServersSettingDescription" xml:space="preserve">
+  <value>URL-адреса серверов символов</value>
+</data>
+<data name="SolutionBuilderHost_GetProgressTitle_solution" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="Publish__Text" xml:space="preserve">
+  <value>Публикация {0}</value>
+</data>
+<data name="UseAzureCredentialProviderV2_Tooltip" xml:space="preserve">
+  <value>Обеспечивает лучший опыт аутентификации для источников NuGet на основе Azure. Может быть нестабильным.</value>
+</data>
+<data name="Language_GroupName" xml:space="preserve">
+  <value>Язык</value>
+</data>
+<data name="SolutionBuilderHost_GetProgressTitle_Rebuild" xml:space="preserve">
+  <value>Пересборка {0}</value>
+</data>
+<data name="GenerateResources_Text" xml:space="preserve">
+  <value>Генерация ресурсов</value>
+</data>
+<data name="XCodeInstallation_Presentation_Unknown_Text" xml:space="preserve">
+  <value>Неизвестно</value>
+</data>
+<data name="CodeGenerationAndRuntime_SectionName" xml:space="preserve">
+  <value>Генерация кода и среда выполнения</value>
+</data>
+<data name="ServerType_CustomServer_Text" xml:space="preserve">
+  <value>Пользовательский сервер</value>
+</data>
+<data name="UseFastAssemblyDeployment_InvertedCheckBox_Caption" xml:space="preserve">
+  <value>Использовать быстрое развертывание сборок</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Create_File" xml:space="preserve">
+  <value>Не удалось создать файл: {0}</value>
+</data>
+<data name="PasswordShouldNotBeLessThan6Characters_Text" xml:space="preserve">
+  <value>Пароль должен содержать не менее 6 символов</value>
+</data>
+<data name="DefaultPackageManagementFormat_ComboEnum_Caption" xml:space="preserve">
+  <value>Формат управления пакетами по умолчанию</value>
+</data>
+<data name="ListOfSymbolServerUrlsSettingDescription" xml:space="preserve">
+  <value>Список URL-адресов серверов символов</value>
+</data>
+<data name="ReformatCodeActionText" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="Custom_Text" xml:space="preserve">
+  <value>Настроить…</value>
+</data>
+<data name="AddRazorPage_Text" xml:space="preserve">
+  <value>Добавить страницу Razor</value>
+</data>
+<data name="AreYouSureYouWantToRemoveTestElement_Text" xml:space="preserve">
+  <value>Удалить элемент теста из сеанса?</value>
+</data>
+<data name="Project_Template_Option_Lk5FVCBNQVVJIEFwcAEQEQ" xml:space="preserve">
+  <value>Приложение .NET MAUI</value>
+</data>
+<data name="GenerateCodeBehind_Text" xml:space="preserve">
+  <value>Сгенерировать код программной части</value>
+</data>
+<data name="Restore_Header_Text" xml:space="preserve">
+  <value>Восстановление</value>
+</data>
+<data name="RiderBrowseTypeHierarchyAction_Title_Type_Hierarchy" xml:space="preserve">
+  <value>Иерархия типов (&amp;H)</value>
+</data>
+<data name="Alias_Text" xml:space="preserve">
+  <value>Псевдоним</value>
+</data>
+<data name="HotReloadIsDisabled_Caption" xml:space="preserve">
+  <value>Горячая перезагрузка отключена</value>
+</data>
+<data name="Solution_Text" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="Views_Text" xml:space="preserve">
+  <value>Представления:</value>
+</data>
+<data name="AllTemplatesOptionPageTitle" xml:space="preserve">
+  <value>Все шаблоны</value>
+</data>
+<data name="Project_Template_Option_V1BGIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+  <value>Библиотека классов WPF</value>
+</data>
+<data name="ScanningForCustomUIClassDefinitions_Text" xml:space="preserve">
+  <value>Сканирование определений пользовательских классов UI…</value>
+</data>
+<data name="EvaluatesNETFrameworkVersionOfCurrentProjectAndCreatesAStartupSectionForItMacroDefinition_Description" xml:space="preserve">
+  <value>Раздел startup App.config для целевой платформы проекта</value>
+</data>
+<data name="Dependency" xml:space="preserve">
+  <value>Зависимость</value>
+</data>
+<data name="GetsTheNewestNETFrameworkVersionOfTheProjectAndPreparesAnAttributeStringFrameworkMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Возвращает строку атрибута 'framework="&lt;версия&gt;"' с целевой .NET Framework проекта последней версии</value>
+</data>
+<data name="WhenCheckedRemovesAnyDependentPackages_BoolOption_ToolTip" xml:space="preserve">
+  <value>При установке удаляет любые зависимые пакеты, если они не ссылаются в другом месте проекта</value>
+</data>
+<data name="SyncWithDdlDataSourceSetting_Description" xml:space="preserve">
+  <value>Создать источник данных DDL для проекта базы данных и синхронизировать</value>
+</data>
+<data name="UwpDeploy_UnableToCopyAttempt_Message" xml:space="preserve">
+  <value>Попытка {0} копирования файла '{1}' не удалась. Повтор…</value>
+</data>
+<data name="SolutionBuilderHost_GetProgressTitle_selected_projects" xml:space="preserve">
+  <value>Выбранные проекты</value>
+</data>
+<data name="RemoveFromSession_Caption" xml:space="preserve">
+  <value>Удалить из сеанса</value>
+</data>
+<data name="Project_Template_Option_TlVuaXQEQ" xml:space="preserve">
+  <value>NUnit</value>
+</data>
+<data name="RunAllTestsActionText" xml:space="preserve">
+  <value>Запустить все тесты</value>
+</data>
+<data name="Linker_SectionTitle" xml:space="preserve">
+  <value>Компоновщик</value>
+</data>
+<data name="MSTestAndVisualStudioIntegration_Header_Text" xml:space="preserve">
+  <value>Интеграция MSTest и Visual Studio</value>
+</data>
+<data name="PackageManagement_Header_Text" xml:space="preserve">
+  <value>Управление пакетами</value>
+</data>
+<data name="IncludePaths_TextBox_Caption" xml:space="preserve">
+  <value>Пути Include</value>
+</data>
+<data name="ContextActionsOptionPageTitle" xml:space="preserve">
+  <value>Контекстные действия</value>
+</data>
+<data name="FileOrFolderDoesNotExist_Text" xml:space="preserve">
+  <value>Файл или папка не существует</value>
+</data>
+<data name="Lowest_Text" xml:space="preserve">
+  <value>Наименьшая</value>
+</data>
+<data name="AdHocAutomatic_ComboBoxValue" xml:space="preserve">
+  <value>Ad Hoc (автоматически)</value>
+</data>
+<data name="NewN_ame_Text" xml:space="preserve">
+  <value>Новое имя (_A):</value>
+</data>
+<data name="ASPNETCoreModulePathFor32BitIISExpress_FileChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к модулю ASP.NET Core для 32-разрядного IIS Express</value>
+</data>
+<data name="SqlTargetPlatform_TextBox_Caption" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="AnyNETProjects_Text" xml:space="preserve">
+  <value>Любой проект .NET</value>
+</data>
+<data name="AndroidUseManagedDesignTimeResourceGeneratorSettingDescription" xml:space="preserve">
+  <value>Android использует управляемый генератор ресурсов времени разработки</value>
+</data>
+<data name="OptimizePNGImages_CheckBox_Caption" xml:space="preserve">
+  <value>Оптимизировать PNG-изображения</value>
+</data>
+<data name="RunMarkers_Text" xml:space="preserve">
+  <value>Маркеры запуска</value>
+</data>
+<data name="MinimumPlatformVersionOfUWPSDK_ToolTip" xml:space="preserve">
+  <value>Минимальная версия платформы UWP SDK</value>
+</data>
+<data name="UsageGrouping_Namespace_Text" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="Writing__Text" xml:space="preserve">
+  <value>Запись {0}</value>
+</data>
+<data name="SqlProj_ProjectUpdate_Cannot_Update_MsBuild_Item" xml:space="preserve">
+  <value>Не удалось обновить элемент MSBuild: {0}</value>
+</data>
+<data name="AddMVCControllerWithActionsUsingEntity_Text" xml:space="preserve">
+  <value>Добавить контроллер MVC с действиями, использующими Entity Framework</value>
+</data>
+<data name="PublishIPA_Text" xml:space="preserve">
+  <value>Опубликовать IPA</value>
+</data>
+<data name="ArchiveForPublishIsFailed_BuildAndArchiveFailed_Text" xml:space="preserve">
+  <value>Задача MSBuild «Сборка и архивирование» не выполнена</value>
+</data>
+<data name="DoNotShow_EnumText" xml:space="preserve">
+  <value>Не показывать</value>
+</data>
+<data name="Location_Text" xml:space="preserve">
+  <value>Расположение:</value>
+</data>
+<data name="MacOSMojave_Text" xml:space="preserve">
+  <value>macOS Mojave</value>
+</data>
+<data name="WarningDuringLoadingProject_Text" xml:space="preserve">
+  <value>Предупреждение при загрузке проекта</value>
+</data>
+<data name="ApplePlatformsOptionPageTitle" xml:space="preserve">
+  <value>Платформы Apple</value>
+</data>
+<data name="Project_Template_Option_Q3Jvc3MgUGxhdGZvcm0EQ" xml:space="preserve">
+  <value>Кросс-платформенный</value>
+</data>
+<data name="FileAlreadyExists_Plural" xml:space="preserve">
+  <value>{0:choice:one#Файл|other#Файлы} {1} уже {0:choice:one#существует|other#существуют}. Удалите {0:choice:one#файл|other#файлы}, чтобы выбрать этот параметр.</value>
+</data>
+<data name="GenerateResourceDesigner_Text" xml:space="preserve">
+  <value>Сгенерировать Resource.Designer</value>
+</data>
+<data name="UsageGrouping_Project_Text" xml:space="preserve">
+  <value>Проект</value>
+</data>
+<data name="AndroidSignForPublishSettingsPage_Name_Title" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="Ignore_Text" xml:space="preserve">
+  <value>Игнорировать</value>
+</data>
+<data name="UniversalWindowsPlatformSDKIsRequired_Caption" xml:space="preserve">
+  <value>Для загрузки '{0}' требуется пакет SDK универсальной платформы Windows, но он не найден</value>
+</data>
+<data name="Project_Template_Option_RW1wdHkEQ" xml:space="preserve">
+  <value>Пустой</value>
+</data>
+<data name="WindowsInstallerPackageMsi_ComboBoxValue" xml:space="preserve">
+  <value>Пакет установщика Windows (.msi)</value>
+</data>
+<data name="Project_Template_Option_dHZPUwEQEQ" xml:space="preserve">
+  <value>tvOS</value>
+</data>
+<data name="All_ComboBoxValue" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="SendLineMovesCaretDown_BoolOption_ToolTip" xml:space="preserve">
+  <value>Отправка строки перемещает каретку вниз</value>
+</data>
+<data name="AndroidPreserveDataAndCacheBetweenDeploysSettingDescription" xml:space="preserve">
+  <value>Android сохраняет данные и кэш между развертываниями</value>
+</data>
+<data name="SearchTargets_Text" xml:space="preserve">
+  <value>Цели поиска</value>
+</data>
+<data name="UsageGrouping_SolutionFolder_Text" xml:space="preserve">
+  <value>Папка решения</value>
+</data>
+<data name="RiderUnitTestMsTestSettingDescription" xml:space="preserve">
+  <value>Rider.UnitTest.MsTest</value>
+</data>
+<data name="OverrideApplicationRoot_Caption" xml:space="preserve">
+  <value>Переопределить корень приложения</value>
+</data>
+<data name="ASPNETCoreModulePathFor64BitIISExpress_FileChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к модулю ASP.NET Core для 64-разрядного IIS Express</value>
+</data>
+<data name="ASPNETCoreModuleIsNotInstalledToInstall_WarningTextWithLink_Text" xml:space="preserve">
+  <value>Модуль ASP.NET Core не установлен. Чтобы установить модуль ASP.NET Core, перейдите по ссылке ниже и скачайте пакет размещения .NET Core:</value>
+</data>
+<data name="IgnoreDependenciesSkipsInstallingAny_ToolTip" xml:space="preserve">
+  <value>Игнорирование зависимостей пропускает установку любых зависимых пакетов, что обычно нарушает работу изначально установленного пакета</value>
+</data>
+<data name="WaitingForCaches_Text" xml:space="preserve">
+  <value>Ожидание кэшей</value>
+</data>
+<data name="ShowRunMarkerOnEntryPointSettingDescription" xml:space="preserve">
+  <value>Показывать маркер запуска в точке входа</value>
+</data>
+<data name="Keyword_Highlighter_Display_Name" xml:space="preserve">
+  <value>Razor//Ключевое слово</value>
+</data>
+<data name="InlinePromptIsEnabled_Text" xml:space="preserve">
+  <value>Встроенные подсказки включены</value>
+</data>
+<data name="ExpandTreeNode_Text" xml:space="preserve">
+  <value>Развернуть узел дерева</value>
+</data>
+<data name="CollectingProjectsInformation_Text" xml:space="preserve">
+  <value>Сбор информации о проектах…</value>
+</data>
+<data name="UsageGrouping_SectionType_Text" xml:space="preserve">
+  <value>Тип раздела</value>
+</data>
+<data name="SelectFolderDialogTitle" xml:space="preserve">
+  <value>Выбор папки</value>
+</data>
+<data name="Net8AndLater_Text" xml:space="preserve">
+  <value> (.NET 8.0 и выше)</value>
+</data>
+<data name="SqlProjectsSsdtFolder_Text_Text" xml:space="preserve">
+  <value>Папка SQL Server Data Tools:</value>
+</data>
+<data name="WixProjectExtensionsFolder_Text" xml:space="preserve">
+  <value>Расширения</value>
+</data>
+<data name="OSXMavericks_Text" xml:space="preserve">
+  <value>OS X Mavericks</value>
+</data>
+<data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGhvdXQgWElCIGZvciBpT1MEQ" xml:space="preserve">
+  <value>Контроллер представления без XIB для iOS</value>
+</data>
+<data name="Suggestion_EnumText" xml:space="preserve">
+  <value>Предложение</value>
+</data>
+<data name="MinimumPlatform_ComboBox_Caption" xml:space="preserve">
+  <value>Минимальная платформа</value>
+</data>
+<data name="DebuggingOnAPhysicalIPhoneRequiresThe_Text" xml:space="preserve">
+  <value>Для отладки на физическом iPhone требуется интерпретатор для использования горячей перезагрузки XAML. Перейдите в «Проект | Свойства» и добавьте переключатель '--interpreter' к дополнительным аргументам mtouch.</value>
+</data>
+<data name="InitializeDockerSupport_Text" xml:space="preserve">
+  <value>Инициализировать поддержку Docker</value>
+</data>
+<data name="GeneratedCodeRegions_Caption" xml:space="preserve">
+  <value>Области сгенерированного кода:</value>
+</data>
+<data name="TheSelectedBuildConfigurationIsUsingSharedMono_Text" xml:space="preserve">
+  <value>Выбранная конфигурация сборки использует общую среду выполнения Mono для более быстрого развертывания. При включенной этой настройке приложение нельзя архивировать. Перейдите в «Проект | Свойства» и снимите флажок «Использовать общую среду выполнения mono» в соответствующей конфигурации.</value>
+</data>
+<data name="Qodana_LocalInspections_Text" xml:space="preserve">
+  <value>Локальные проверки</value>
+</data>
+<data name="Diagram_Compare_Current_With" xml:space="preserve">
+  <value>Сравнить текущее решение с {0}</value>
+</data>
+<data name="GenerateRazorPagesUsingEntityFramework_Text" xml:space="preserve">
+  <value>Сгенерировать страницы Razor с использованием Entity Framework для выбранной модели для: создания, удаления, сведений, редактирования и операций списка</value>
+</data>
+<data name="ProvisionProfile_TitleText" xml:space="preserve">
+  <value>Профиль подготовки</value>
+</data>
+<data name="Template_Editable_UmF6b3IgVmlldyBTdGFydAEQEQ" xml:space="preserve">
+  <value>Начало представления Razor</value>
+</data>
+<data name="ActionReferenceInCInteractiveBuilds_BoolOption_Text" xml:space="preserve">
+  <value>«Ссылка в C# Interactive» собирает проект</value>
+</data>
+<data name="ToEditTheListOfSkippedFilesAndFolders_Text_Text" xml:space="preserve">
+  <value>Чтобы отредактировать список пропускаемых файлов и папок, откройте решение</value>
+</data>
+<data name="XamarinDevelopmentUnderLinuxIsNotSupported_Text" xml:space="preserve">
+  <value>В настоящее время разработка Xamarin под Linux не поддерживается. Для разработки приложений Xamarin Android вручную загрузите и соберите Xamarin SDK.</value>
+</data>
+<data name="NoChangesFound_Caption" xml:space="preserve">
+  <value>Изменения не найдены</value>
+</data>
+<data name="UpdateXCodePropertyInProjectFile" xml:space="preserve">
+  <value>Обновление свойства '{0}' = '{1}' в файле проекта '{2}'…</value>
+</data>
+<data name="NETOptionPageTitle" xml:space="preserve">
+  <value>.NET</value>
+</data>
+<data name="TargetPlatform_ComboBox_Caption" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="TagHelperAttribute_Highlighter_Display_Name" xml:space="preserve">
+  <value>Razor//Атрибут вспомогательной функции тегов</value>
+</data>
+<data name="ElementsToSkip_Header_Text" xml:space="preserve">
+  <value>Элементы для пропуска</value>
+</data>
+<data name="DefaultWithRegions_Text" xml:space="preserve">
+  <value>По умолчанию с областями</value>
+</data>
+<data name="PathStateAction_Substitute_Text" xml:space="preserve">
+  <value>Заменить</value>
+</data>
+<data name="Project_Template_Option_d2F0Y2hPUwEQEQ" xml:space="preserve">
+  <value>watchOS</value>
+</data>
+<data name="UnitTestSession_NoTestsRunInSession_Title" xml:space="preserve">
+  <value>В сеансе {0} тесты не запускались</value>
+</data>
+<data name="UpdatingProject_Text" xml:space="preserve">
+  <value>Обновление проекта</value>
+</data>
+<data name="DebuggerRunToStatementContextAction_Description" xml:space="preserve">
+  <value>Выполнить программу до достижения текущего оператора</value>
+</data>
+<data name="AutoDetectAndConfigureFormattingTip" xml:space="preserve">
+  <value>Чтобы просмотреть только правила стиля кода, влияющие на выбранный блок кода, нажмите &lt;i&gt;Alt+Enter&lt;/i&gt; и выберите &lt;i&gt;{0} | {1}&lt;/i&gt; или &lt;i&gt;{2}&lt;/i&gt;</value>
+</data>
+<data name="BuildOnReferenceProjectDescription" xml:space="preserve">
+  <value>Собирать проект при использовании действия «Ссылка в C# Interactive»</value>
+</data>
+<data name="Use32BitFloatOperations_CheckBox_Caption" xml:space="preserve">
+  <value>Использовать 32-битные операции с плавающей запятой</value>
+</data>
+<data name="MacDeveloperAutomatic_Text" xml:space="preserve">
+  <value>Разработчик Mac (автоматически)</value>
+</data>
+<data name="ConfigFileOverridesNamingSettingsMessage" xml:space="preserve">
+  <value>{0} для {1} переопределяет некоторые настройки стиля кода на этой странице</value>
+</data>
+<data name="DefaultXamarinMacIOSFileTemplates_Text" xml:space="preserve">
+  <value>Файловые шаблоны Xamarin (Mac/iOS) по умолчанию</value>
+</data>
+<data name="XCodeProjectFileWasChangedAndWillBeSynced_Text" xml:space="preserve">
+  <value>Файл проекта Xcode изменен и будет синхронизирован с проектом .NET</value>
+</data>
+<data name="UnexpectedIBOutletOn__Text" xml:space="preserve">
+  <value>Неожиданное 'IBOutlet' на {0}</value>
+</data>
+<data name="Remove__FromDisk_Text" xml:space="preserve">
+  <value>Удалить '{0}' [{1}] с диска?</value>
+</data>
+<data name="SavingAllDocumentsInXcode_Text" xml:space="preserve">
+  <value>Сохранение всех документов в Xcode</value>
+</data>
+<data name="FocusToolWindowOnOpenSettingDescription" xml:space="preserve">
+  <value>Активировать окно инструментов при открытии</value>
+</data>
+<data name="PreferredRuntimeActionGroupText" xml:space="preserve">
+  <value>Предпочтительная среда выполнения</value>
+</data>
+<data name="Identity_DescriptionText" xml:space="preserve">
+  <value>Удостоверение</value>
+</data>
+<data name="_UseALayoutPage_Text" xml:space="preserve">
+  <value>Использовать страницу макета (_U):</value>
+</data>
+<data name="Project_Template_Option_Qmxhem9yIFNlcnZlciBBcHAEQ" xml:space="preserve">
+  <value>Приложение Blazor Server</value>
+</data>
+<data name="DeveloperAutomatic_Text" xml:space="preserve">
+  <value>Разработчик (автоматически)</value>
+</data>
+<data name="ErrorDuringGenerationActionsOutlets_Text" xml:space="preserve">
+  <value>Ошибка при генерации действий/аутлетов</value>
+</data>
+<data name="XamarinIOSCProjects_Text" xml:space="preserve">
+  <value>Проекты Xamarin (iOS) C#</value>
+</data>
+<data name="IISExpressIsNotInstalledToInstallIIS_WarningTextWithLink_Text" xml:space="preserve">
+  <value>IIS Express не установлен. Чтобы установить IIS Express, перейдите по ссылке:</value>
+</data>
+<data name="ArchivesBrowser_Caption" xml:space="preserve">
+  <value>Браузер архивов</value>
+</data>
+<data name="Identity_Text" xml:space="preserve">
+  <value>Удостоверение</value>
+</data>
+<data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGggWElCIGZvciBNYWMEQ" xml:space="preserve">
+  <value>Контроллер представления с XIB для Mac</value>
+</data>
+<data name="Highest_Text" xml:space="preserve">
+  <value>Наивысшая</value>
+</data>
+<data name="RerunBrokenTestsInCurrentSessionActionText" xml:space="preserve">
+  <value>Перезапустить сломанные тесты</value>
+</data>
+<data name="MergeModuleMsm_ComboBoxValue" xml:space="preserve">
+  <value>Модуль слияния (.msm)</value>
+</data>
+<data name="CollectDumpTimeoutSettingDescription" xml:space="preserve">
+  <value>Тайм-аут сбора дампа</value>
+</data>
+<data name="VisualStudioRootFolderSettingDescription" xml:space="preserve">
+  <value>Корневая папка Visual Studio</value>
+</data>
+<data name="Project_Template_Option_V2luZG93cyBGb3JtcyBDbGFzcyBMaWJyYXJ5" xml:space="preserve">
+  <value>Библиотека классов Windows Forms</value>
+</data>
+<data name="SpecifyAModelClass_Text" xml:space="preserve">
+  <value>Указать класс модели</value>
+</data>
+<data name="AppsCannotBeArchivedWithThisProject_Caption" xml:space="preserve">
+  <value>Приложения нельзя архивировать с этой конфигурацией проекта</value>
+</data>
+<data name="AndroidNdkPathSettingDescription" xml:space="preserve">
+  <value>Путь к Android NDK</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Textual" xml:space="preserve">
+  <value>Текстовый</value>
+</data>
+<data name="EnableHotReloadWhenDebuggingSettingDescription" xml:space="preserve">
+  <value>Включить горячую перезагрузку при отладке</value>
+</data>
+<data name="ASPNETCoreIISModuleNotFound_Text" xml:space="preserve">
+  <value>Модуль ASP.NET Core IIS не найден</value>
+</data>
+<data name="EnterAtLeastOneOfTheFollowing_Text" xml:space="preserve">
+  <value>Введите хотя бы одно из следующих</value>
+</data>
+<data name="GenerateOnePackageApkPerSelectedABI_CheckBox_Caption" xml:space="preserve">
+  <value>Генерировать один пакет (.apk) для каждого выбранного ABI</value>
+</data>
+<data name="HighestPatchInstallsTheVersionWithThe_ToolTip" xml:space="preserve">
+  <value>«Наивысший патч» устанавливает версию с тем же основным и дополнительным номером, но с наивысшим номером патча. Например, если указана версия 1.2.2, будет установлена самая высокая версия, начинающаяся с 1.2.</value>
+</data>
+<data name="HelloWorld_Text" xml:space="preserve">
+  <value>Hello, world</value>
+</data>
+<data name="CanNotFindXcodeInTheSystem_Text" xml:space="preserve">
+  <value>Не удается найти Xcode в системе</value>
+</data>
+<data name="IISExpressExecutable_NotFound_Text" xml:space="preserve">
+  <value>Не удается найти исполняемый файл IIS Express ({0})</value>
+</data>
+<data name="CreateAsAPartialView_DescriptionText" xml:space="preserve">
+  <value>Создать как частичное представление (_P)</value>
+</data>
+<data name="SSLTLSImplementation_ComboBox_Caption" xml:space="preserve">
+  <value>Реализация SSL/TLS</value>
+</data>
+<data name="Template_Editable_UmVzb3VyY2VzICgucmVzeCkEQ" xml:space="preserve">
+  <value>Ресурсы (.resx)</value>
+</data>
+<data name="DeveloperIDAutomatic_Text" xml:space="preserve">
+  <value>ID разработчика (автоматически)</value>
+</data>
+<data name="Template_Editable_VmlldyBDb21wb25lbnQEQ" xml:space="preserve">
+  <value>Компонент представления</value>
+</data>
+<data name="PasswordConfirm_Text" xml:space="preserve">
+  <value>Пароль (подтверждение)</value>
+</data>
+<data name="FileMasksWildcardsAreSupported_Caption" xml:space="preserve">
+  <value>Маски файлов (поддерживаются подстановочные знаки ?, *, **):</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="ArchiveForPublishIsFailed_Caption" xml:space="preserve">
+  <value>Сбой «Архивировать для публикации»</value>
+</data>
+<data name="IOError__Text" xml:space="preserve">
+  <value>Ошибка ввода-вывода: {0}</value>
+</data>
+<data name="Razorpage_DescriptionText" xml:space="preserve">
+  <value>страница razor</value>
+</data>
+<data name="ExportSessionResultsActionText" xml:space="preserve">
+  <value>Экспорт результатов сеанса</value>
+</data>
+<data name="EmptyWithoutModel_DescriptionText" xml:space="preserve">
+  <value>Пустой (без модели)</value>
+</data>
+<data name="Compiler_TextBox_Caption" xml:space="preserve">
+  <value>Компилятор</value>
+</data>
+<data name="ShowTypeDependencyDiagramActionText" xml:space="preserve">
+  <value>Показать диаграмму зависимостей типов (&amp;T)</value>
+</data>
+<data name="Project_Template_Option_aU9TIEJpbmRpbmcgTGlicmFyeQEQEQ" xml:space="preserve">
+  <value>Библиотека привязок iOS</value>
+</data>
+<data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGhvdXQgWElCIGZvciBNYWMEQ" xml:space="preserve">
+  <value>Контроллер представления без XIB для Mac</value>
+</data>
+<data name="XcodeProject_WasGeneratedSuccessfully_Caption" xml:space="preserve">
+  <value>Проект Xcode '{0}' успешно создан</value>
+</data>
+<data name="ReferenceScriptLibraries_DescriptionText" xml:space="preserve">
+  <value>Ссылаться на библиотеки сценариев (_R)</value>
+</data>
+<data name="FileWasAddedToTheProject_Text" xml:space="preserve">
+  <value>Файл добавлен в проект</value>
+</data>
+<data name="RiderUsageLocalizer_ToLocalizedString_Dynamic__other_" xml:space="preserve">
+  <value>Динамический (другой)</value>
+</data>
+<data name="PathStateAction_Ignore_Text" xml:space="preserve">
+  <value>Игнорировать</value>
+</data>
+<data name="SolutionAnalysis_Loading_Analysis_Results_Text" xml:space="preserve">
+  <value>Загрузка результатов анализа… – {0}</value>
+</data>
+<data name="EnableHotReloadForBlazorWasmSettingDescription" xml:space="preserve">
+  <value>Включить горячую перезагрузку для Blazor WebAssembly</value>
+</data>
+<data name="YouAreAboutToReplaceTheSetOfPatterns_Text" xml:space="preserve">
+  <value>Вы собираетесь заменить этот набор шаблонов набором по умолчанию. {0}Это удалит все внесенные вами изменения. {1}Продолжить?</value>
+</data>
+<data name="CSharpInteractiveOptionPageTitle" xml:space="preserve">
+  <value>C# Interactive</value>
+</data>
+<data name="XamarinMacIOSCProjects_Text" xml:space="preserve">
+  <value>Проекты Xamarin (Mac/iOS) C#</value>
+</data>
+<data name="SignAndPublish_Text" xml:space="preserve">
+  <value>Подписать и опубликовать</value>
+</data>
+<data name="AndroidSDKPlatformRequiredForProject_Caption" xml:space="preserve">
+  <value>Для проекта '{0}' требуется платформа Android SDK, которая не установлена</value>
+</data>
+<data name="CreateNewCertificate_Caption" xml:space="preserve">
+  <value>Создать новый сертификат</value>
+</data>
+<data name="DebugUnitTestsUntilFailActionText" xml:space="preserve">
+  <value>Отлаживать модульные тесты до сбоя</value>
+</data>
+<data name="RiderWasUnableToLocateTheXSPServerThat_Linux_Text" xml:space="preserve">
+  <value>Rider не удалось найти сервер XSP, необходимый для запуска этого проекта. Ожидаемый путь XSP: {0}. Установите пакет mono-xsp для вашего дистрибутива Linux (например, в Ubuntu выполните apt-get install mono-xsp).</value>
+</data>
+<data name="ThisNavigationIsNotImplementedYet_Text" xml:space="preserve">
+  <value>Эта навигация еще не реализована</value>
+</data>
+<data name="AdditionalToolOptions_Caption" xml:space="preserve">
+  <value>Дополнительные параметры инструментов</value>
+</data>
+<data name="_NUnlockDirectoryAndRestartRiderToFix_Text" xml:space="preserve">
+  <value>{0}
+Разблокируйте каталог и перезапустите Rider, чтобы решить проблему.</value>
+</data>
+<data name="AdHocInstallOnDesignatedDevices_Text" xml:space="preserve">
+  <value>Ad Hoc — установка на указанные устройства</value>
+</data>
+<data name="See_advisory_below" xml:space="preserve">
+  <value>См. рекомендацию ниже</value>
+</data>
+<data name="Default_Text" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="UseSourcesFromSymbolFilesWhenAvailable_BoolOption_Text" xml:space="preserve">
+  <value>Использовать исходный код из файлов символов, когда это возможно</value>
+</data>
+<data name="Project_Template_Option_QW5kcm9pZCBKYXZhIExpYnJhcnkgQmluZGluZwEQEQ" xml:space="preserve">
+  <value>Привязка библиотеки Java для Android</value>
+</data>
+<data name="Template_Editable_QXBwLmNvbmZpZyBGaWxl" xml:space="preserve">
+  <value>Файл App.config</value>
+</data>
+<data name="RemoveSelectedTest_Plural" xml:space="preserve">
+  <value>Удалить выбранный{0:choice:one# тест|other# тесты}</value>
+</data>
+<data name="SelectPath_Caption" xml:space="preserve">
+  <value>Выбор пути</value>
+</data>
+<data name="Today_Text" xml:space="preserve">
+  <value>Сегодня</value>
+</data>
+<data name="Project_Template_Option_Z1JQQyBTZXJ2aWNl" xml:space="preserve">
+  <value>Служба gRPC</value>
+</data>
+<data name="TheTargetExecutionError_Text" xml:space="preserve">
+  <value>Ошибка выполнения цели</value>
+</data>
+<data name="AndroidSDK_Text" xml:space="preserve">
+  <value>Android SDK</value>
+</data>
+<data name="GeneralSettings_Text" xml:space="preserve">
+  <value>Общие настройки</value>
+</data>
+<data name="FailedToParseIBOutletCollectionOn__Text" xml:space="preserve">
+  <value>Не удалось разобрать IBOutletCollection на {0}</value>
+</data>
+<data name="SmartRestoreOnBuild_BoolOption_Text" xml:space="preserve">
+  <value>Умное восстановление при сборке</value>
+</data>
+<data name="MacDistributionAutomatic_Text" xml:space="preserve">
+  <value>Распространение Mac (автоматически)</value>
+</data>
+<data name="FileOrFolderIsOutsideTheCurrentProject_Text" xml:space="preserve">
+  <value>Файл или папка находится вне текущего проекта</value>
+</data>
+<data name="ViewArchivesActionText" xml:space="preserve">
+  <value>Просмотреть архивы</value>
+</data>
+<data name="UsageGrouping_Severity_Text" xml:space="preserve">
+  <value>Серьезность</value>
+</data>
+<data name="ManagedTLS10Legacy_ComboBoxValue" xml:space="preserve">
+  <value>Управляемый TLS 1.0 (устаревший)</value>
+</data>
+<data name="RequiredPluginRiderXamarinAndroidSupport_Text" xml:space="preserve">
+  <value>Отсутствует необходимый плагин 'Rider Xamarin Android Support'</value>
+</data>
+<data name="Properties_PropertyTabCaption" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="ChooseTheIDEFolderInsideTheVisualStudio_Text_Text" xml:space="preserve">
+  <value>Выберите папку IDE внутри папки Visual Studio (например, "c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE")</value>
+</data>
+<data name="WebConfigErrorsDefaultSettings_Text" xml:space="preserve">
+  <value>Настройки ошибок Web.config по умолчанию</value>
+</data>
+<data name="AnalysingSolution__Caption" xml:space="preserve">
+  <value>Анализ решения {0}</value>
+</data>
+<data name="ReaderModeSettingsKeyName" xml:space="preserve">
+  <value>Имя ключа настроек режима чтения</value>
+</data>
+</root>

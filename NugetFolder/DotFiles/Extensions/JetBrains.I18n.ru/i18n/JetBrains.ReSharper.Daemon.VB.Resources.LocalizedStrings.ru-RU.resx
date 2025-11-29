@@ -1,0 +1,1310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="InconsistentAccessibilityTupleComponentTypeIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность типа компонента кортежа '{0}' ниже, чем у {1} '{2}'</value>
+</data>
+<data name="MethodWithTheFollowingSignatureIsExpectedMessage" xml:space="preserve">
+  <value>Ожидается метод со следующей сигнатурой: '{0} {1}{2}'</value>
+</data>
+<data name="LabelIsAlreadyDefinedInTheCurrentMethodOrMultilineLambdaExpressionMessage" xml:space="preserve">
+  <value>Метка '{0}' уже определена в текущем методе или многострочном лямбда-выражении</value>
+</data>
+<data name="AttributeSystemRuntimeInteropServicesPreserveSigAttributeIsNotSupportedInWinRTMessage" xml:space="preserve">
+  <value>Атрибут 'System.Runtime.InteropServices.PreserveSigAttribute' не поддерживается в WinRT</value>
+</data>
+<data name="WinRTStructureShouldContainAtLeastOnePublicFieldMessage" xml:space="preserve">
+  <value>Структура WinRT должна содержать хотя бы одно открытое поле</value>
+</data>
+<data name="ExplicitArgumentPassedToParameterWithCallerInfoAttributeMessage" xml:space="preserve">
+  <value>Явный аргумент передан параметру с атрибутом информации о вызывающем объекте</value>
+</data>
+<data name="IncorrectArgumentTypesCandidatesAreMessage" xml:space="preserve">
+  <value>Неправильные типы аргументов. Кандидаты: {0}</value>
+</data>
+<data name="ConstantMustHaveAValueMessage" xml:space="preserve">
+  <value>Константа должна иметь значение</value>
+</data>
+<data name="SimplifyIIfMessage" xml:space="preserve">
+  <value>Упростить 'IIf'</value>
+</data>
+<data name="CannotBecauseTheyDifferByParamArrayParameterMessage" xml:space="preserve">
+  <value>'{0}' не может {1} '{2}', потому что они отличаются параметром 'ParamArray'</value>
+</data>
+<data name="ImportClauseIsNotUsedInTheFileAndCouldBeSafelyRemoved" xml:space="preserve">
+  <value>Предложение Import не используется в файле и может быть безопасно удалено</value>
+</data>
+<data name="AsyncModifierCannotBeUsedInPartialMethodDeclarationMessage" xml:space="preserve">
+  <value>Модификатор 'async' нельзя использовать в объявлении разделяемого метода</value>
+</data>
+<data name="TheParameterHasCallerArgumentExpressionAttributeAppliedSoArgumentCouldBeOmittedMessage" xml:space="preserve">
+  <value>К параметру '{0}' применен атрибут 'CallerArgumentExpression', поэтому аргумент можно опустить</value>
+</data>
+<data name="CallToBaseMemberWithImplicitDefaultParametersMessage" xml:space="preserve">
+  <value>Вызов базового члена с неявными параметрами по умолчанию</value>
+</data>
+<data name="WinRTEnumerationTypeShouldBeBackedByValuesOfTypeIntegerOrUIntegerMessage" xml:space="preserve">
+  <value>Тип перечисления WinRT должен поддерживаться значениями типа 'Integer' или 'UInteger'</value>
+</data>
+<data name="HidesMessage" xml:space="preserve">
+  <value>{0} '{1}' скрывает {2} '{3}'</value>
+</data>
+<data name="CannotApplyOperatorToOperandOfTypeMessage" xml:space="preserve">
+  <value>Нельзя применить оператор '{0}' к операнду типа '{1}'</value>
+</data>
+<data name="TypeIsNotAValidWinRTTypeMessage" xml:space="preserve">
+  <value>Тип '{0}' не является допустимым типом WinRT</value>
+</data>
+<data name="OnlyletQueryStatementCanContainExplicitTypeNameInVariableDeclarationMessage" xml:space="preserve">
+  <value>Только оператор запроса 'let' может содержать явное имя типа в объявлении переменной</value>
+</data>
+<data name="WinRTConstructorCannotBeProtectedMessage" xml:space="preserve">
+  <value>Конструктор WinRT не может быть 'Protected'</value>
+</data>
+<data name="QualifierIsRedundant" xml:space="preserve">
+  <value>Квалификатор избыточен</value>
+</data>
+<data name="WinRTDoesNotSupportOperatorOverloadsMessage" xml:space="preserve">
+  <value>WinRT не поддерживает перегрузку операторов</value>
+</data>
+<data name="NoAccessibleCanBeCalledWithoutANarrowingConversionCandidatesAreMessage" xml:space="preserve">
+  <value>Нет доступного '{0}', который можно вызвать без сужающего преобразования. Кандидаты: {1}</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage4" xml:space="preserve">
+  <value>Функция языка Visual Basic 15.5</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage5" xml:space="preserve">
+  <value>Функция языка Visual Basic 16.0</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage2" xml:space="preserve">
+  <value>Функция языка Visual Basic 15.0</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage3" xml:space="preserve">
+  <value>Функция языка Visual Basic 15.3</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage1" xml:space="preserve">
+  <value>Функция языка Visual Basic 14.0</value>
+</data>
+<data name="InconsistentAccessibilityTypeArgumentIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность аргумента типа '{0}' ниже, чем у {1} '{2}'</value>
+</data>
+<data name="AutoPropertiesCannotBeDeclaredIteratorMessage" xml:space="preserve">
+  <value>Автосвойства не могут быть объявлены как 'iterator'</value>
+</data>
+<data name="ProcessingRedundancies_Text" xml:space="preserve">
+  <value>Обработка избыточностей</value>
+</data>
+<data name="WinRTSharedCannotBeProtectedMessage" xml:space="preserve">
+  <value>Общий член WinRT {0} не может быть 'Protected'</value>
+</data>
+<data name="ShouldBeParameterlessInOrderToInitializeItThroughAnObjectInitializerMessage" xml:space="preserve">
+  <value>'{0}' должен быть без параметров, чтобы инициализировать его через инициализатор объектов</value>
+</data>
+<data name="MustHavePublicParameterlessConstructorMessage" xml:space="preserve">
+  <value>Тип '{0}' должен иметь открытый конструктор без параметров, чтобы использовать его в качестве параметра '{1}' в универсальном {2} '{3}'</value>
+</data>
+<data name="CannotUseAsATypeArgumentMessage" xml:space="preserve">
+  <value>Нельзя использовать '{0}' в качестве аргумента типа</value>
+</data>
+<data name="OnlyIndexExpressionIsAllowedAsAStatementMessage" xml:space="preserve">
+  <value>Только индексное выражение разрешено в качестве оператора</value>
+</data>
+<data name="TypeSystemValueTupleIsNotResolvedMessage" xml:space="preserve">
+  <value>Тип 'System.ValueTuple' не разрешен</value>
+</data>
+<data name="CannotAccessHereDueToProtectionLevelMessage" xml:space="preserve">
+  <value>Не удается получить доступ к {0} '{1}' здесь из-за уровня защиты</value>
+</data>
+<data name="IsExpressionOperandMustBeReferenceOrNullableTypeMessage" xml:space="preserve">
+  <value>Операнд выражения 'Is' должен быть ссылочным или допускающим значение NULL типом</value>
+</data>
+<data name="OnlyMemberAccessExpressionCanStartAnInvocationStatementMessage" xml:space="preserve">
+  <value>Только выражение доступа к члену может начинать оператор вызова</value>
+</data>
+<data name="ModuleCannotBeUsedAsTypeArgumentMessage" xml:space="preserve">
+  <value>'{0}': модуль нельзя использовать в качестве аргумента типа</value>
+</data>
+<data name="ParameterWithparamsModifierMustHaveAnArrayTypeMessage" xml:space="preserve">
+  <value>Параметр с модификатором 'params' должен иметь тип массива</value>
+</data>
+<data name="OperatorCannotHaveParamArrayParameterMessage" xml:space="preserve">
+  <value>Оператор не может иметь параметр 'ParamArray'</value>
+</data>
+<data name="MeQualifierIsRedundantAndCanBeSafelyRemovedWithoutChangingCodeSemantics" xml:space="preserve">
+  <value>Квалификатор 'Me.' избыточен и может быть безопасно удален без изменения семантики кода.</value>
+</data>
+<data name="NameIsNotValidAtThisPointMessage" xml:space="preserve">
+  <value>Имя {0} недопустимо в этой позиции</value>
+</data>
+<data name="ParameterlessPropertyParenthesesAreRedundant" xml:space="preserve">
+  <value>Скобки свойства без параметров избыточны</value>
+</data>
+<data name="ShouldBeUsedAsSimpleNameMessage" xml:space="preserve">
+  <value>{0} '{1}' должен использоваться как простое имя</value>
+</data>
+<data name="OverriddenGetHashCodeCallsBaseObjectGetHashCodeMessage" xml:space="preserve">
+  <value>Переопределенный GetHashCode вызывает базовый 'Object.GetHashCode()'</value>
+</data>
+<data name="outParameterIsNotAssignedUponExit" xml:space="preserve">
+  <value>Параметр 'out' не назначен при выходе</value>
+</data>
+<data name="SubCannotBeIteratorMessage" xml:space="preserve">
+  <value>Sub не может быть итератором</value>
+</data>
+<data name="IsReadOnlyMessage" xml:space="preserve">
+  <value>{0} '{1}' является 'ReadOnly'</value>
+</data>
+<data name="ImplementingFriendInterfaceIsNotAllowedInWinRTMessage" xml:space="preserve">
+  <value>Реализация дружественного интерфейса не разрешена в WinRT</value>
+</data>
+<data name="InvokeAsExtensionMethodMessage" xml:space="preserve">
+  <value>Вызов как метода расширения</value>
+</data>
+<data name="ArrayBoundsCannotAppearInTypeSpecifiersMessage" xml:space="preserve">
+  <value>Границы массива не могут появляться в спецификаторах типа</value>
+</data>
+<data name="WinRTTypeCannotContainExternallyVisibleConstantsMessage" xml:space="preserve">
+  <value>Тип WinRT не может содержать внешне видимые константы</value>
+</data>
+<data name="CannotBecauseTheyDifferByOptionalParameterMessage" xml:space="preserve">
+  <value>'{0}' не может {1} '{2}', потому что они отличаются необязательными параметрами</value>
+</data>
+<data name="WinRTTypesCannotHaveMultipleConstructorsWithTheSameNumberOfArgumentsMessage" xml:space="preserve">
+  <value>Типы WinRT не могут иметь несколько конструкторов с одинаковым количеством аргументов</value>
+</data>
+<data name="WinRTTypeCannotBeGenericMessage" xml:space="preserve">
+  <value>Тип WinRT не может быть универсальным</value>
+</data>
+<data name="CustomAsyncOperationsAreNotSupportedUseAsyncInfoFactoryInsteadMessage" xml:space="preserve">
+  <value>Пользовательские асинхронные операции не поддерживаются, используйте вместо этого AsyncInfoFactory</value>
+</data>
+<data name="IncorrectNumberOfArgumentsInReferenceToMessage" xml:space="preserve">
+  <value>Неправильное количество аргументов в ссылке на '{0}'</value>
+</data>
+<data name="ConvertPropertyToAutoPropertyWithPrivateSetter" xml:space="preserve">
+  <value>Преобразовать свойство в автосвойство с закрытым сеттером</value>
+</data>
+<data name="TheValuePassedToTheMethodIsNeverUsedBecauseItIsOverwrittenInTheMethodBodyBeforeBeingReadMessage" xml:space="preserve">
+  <value>Значение, переданное методу, никогда не используется, потому что оно перезаписывается в теле метода до чтения</value>
+</data>
+<data name="OnlyVariableOrPropertyCanBeTheTargetOfAnAssignemntMessage" xml:space="preserve">
+  <value>Только переменная или свойство могут быть целью присваивания</value>
+</data>
+<data name="RedundantOperandInLogicalConditionalExpressionMessage" xml:space="preserve">
+  <value>Избыточный операнд в логическом условном выражении</value>
+</data>
+<data name="ThreadStaticDoesntWorkWithInstanceFieldsMessage" xml:space="preserve">
+  <value>&lt;ThreadStatic&gt; не работает с полями экземпляра</value>
+</data>
+<data name="CannotAccessNonSharedInSharedContextMessage" xml:space="preserve">
+  <value>Не удается получить доступ к необщему {0} '{1}' в общем контексте</value>
+</data>
+<data name="RedundantPropertyParenthesesMessage" xml:space="preserve">
+  <value>Избыточные скобки свойства</value>
+</data>
+<data name="EventsCannotBeDeclaredWithADelegateTypeThatHasAReturnTypeMessage" xml:space="preserve">
+  <value>События не могут быть объявлены с типом делегата, который имеет возвращаемый тип</value>
+</data>
+<data name="CodeIsUnreachable" xml:space="preserve">
+  <value>Код недостижим</value>
+</data>
+<data name="MethodCannotHandleEventBecauseTheyDoNotHaveACompatibleSignatureMessage" xml:space="preserve">
+  <value>Метод '{0}' не может обработать событие '{1}', потому что у них нет совместимой сигнатуры</value>
+</data>
+<data name="AnnotationIsAppliedImplicitlyMessage" xml:space="preserve">
+  <value>Аннотация применяется неявно</value>
+</data>
+<data name="TheReturnTypeOfAnIteratorMustBeIEnumerableOfTIEnumeratorOfTIEnumerableOrIEnumeratorMessage" xml:space="preserve">
+  <value>Тип возвращаемого значения итератора {0} должен быть IEnumerable(Of T), IEnumerator(Of T), IEnumerable или IEnumerator</value>
+</data>
+<data name="NamespaceOrTypeSpecifiedInTheImportsDoesntContainAnyPublicMemberOrCannotBeFoundMessage" xml:space="preserve">
+  <value>Пространство имен или тип, указанные в Imports '{0}', не содержат открытых членов или не найдены</value>
+</data>
+<data name="TheAsyncMethodMustEitherBeSubOrFunctionThatReturnsTaskOrTaskOfTMessage" xml:space="preserve">
+  <value>Асинхронный метод должен быть Sub или Function, который возвращает Task или Task(Of T)</value>
+</data>
+<data name="UseImplicitByValModifier" xml:space="preserve">
+  <value>Использовать неявный модификатор 'ByVal'</value>
+</data>
+<data name="ReturnValueOfPureMethodIsNotUsedMessage" xml:space="preserve">
+  <value>Возвращаемое значение чистого метода не используется</value>
+</data>
+<data name="RedundantAttributeParenthesesMessage" xml:space="preserve">
+  <value>Избыточные скобки атрибута</value>
+</data>
+<data name="NewConstraintCannotHaveRequiredMembersMessage" xml:space="preserve">
+  <value>'{0}' не может удовлетворить ограничению 'New' для параметра '{1}' в универсальном {2} '{3}', потому что '{0}' имеет обязательные члены</value>
+</data>
+<data name="ConstantExpressionIsRequiredMessage" xml:space="preserve">
+  <value>Требуется константное выражение</value>
+</data>
+<data name="TypeArgumentsForCannotBeInferredFromTheUsageTrySpecifyingTypeArgumentsExplicitlyMessage" xml:space="preserve">
+  <value>Невозможно вывести аргументы типа для '{0}' из использования. Попробуйте явно указать аргументы типа.</value>
+</data>
+<data name="ConstantsMustBeOfAnIntrinsicOrEnumeratedTypeNotAClassStructureTypeParameterOrArrayTypeMessage" xml:space="preserve">
+  <value>Константы должны быть внутреннего или перечислимого типа, а не класса, структуры, параметра типа или типа массива</value>
+</data>
+<data name="NameAndNameCannotDifferInCaseOnlyMessage" xml:space="preserve">
+  <value>Имя {0} '{1}' и имя {2} '{3}' не могут отличаться только регистром</value>
+</data>
+<data name="InconsistentAccessibilityBaseIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность базового {0} '{1}' ниже, чем у {2} '{3}'</value>
+</data>
+<data name="TypeNameExpectedMessage" xml:space="preserve">
+  <value>Ожидается имя типа</value>
+</data>
+<data name="QualifierMeIsRedundantMessage" xml:space="preserve">
+  <value>Квалификатор 'Me.' избыточен</value>
+</data>
+<data name="CannotApplyIndexingToTypeMessage" xml:space="preserve">
+  <value>Нельзя применить индексирование к типу '{0}'</value>
+</data>
+<data name="CodeIsUnreachableMessage" xml:space="preserve">
+  <value>Код недостижим</value>
+</data>
+<data name="PropertyWithoutAReadOnlyOrWriteOnlySpecifierMustProvideBothAGetAndASetMessage" xml:space="preserve">
+  <value>Свойство без спецификатора 'ReadOnly' или 'WriteOnly' должно предоставлять как 'Get', так и 'Set'</value>
+</data>
+<data name="UsingDirectCastOperatorToCastAValueTypeToTheSameTypeIsObsoleteMessage" xml:space="preserve">
+  <value>Использование оператора DirectCast для приведения типа значения к тому же типу устарело</value>
+</data>
+<data name="ImpureMethodIsCalledForReadonlyFieldOfValueTypeMessage" xml:space="preserve">
+  <value>Для поля только для чтения типа значения вызывается нечистый метод</value>
+</data>
+<data name="WinRTClassCannotContainExternallyVisibleFieldsMessage" xml:space="preserve">
+  <value>Класс WinRT не может содержать внешне видимые поля</value>
+</data>
+<data name="CannotBeIndexedBecauseItHasNoDefaultPropertyMessage" xml:space="preserve">
+  <value>{0} '{1}' не может быть индексирован, потому что у него нет свойства по умолчанию</value>
+</data>
+<data name="TheTypeMustBeConvertibleToInOrderToUseItAsParameterInTheGenericMessage" xml:space="preserve">
+  <value>Тип '{0}' должен быть преобразуем в '{1}', чтобы использовать его в качестве параметра '{2}' в универсальном {3} '{4}'</value>
+</data>
+<data name="ParameterHidesMessage" xml:space="preserve">
+  <value>Параметр '{0}' скрывает {1} '{2}'</value>
+</data>
+<data name="TheParameterizedConstructorHasAParameterNamedvalueWhichIsTheSameAsTheDefaultReturnValueNameConsiderUsingAnotherNameForTheParameterMessage" xml:space="preserve">
+  <value>Параметризованный конструктор имеет параметр с именем 'value', которое совпадает с именем возвращаемого значения по умолчанию. Рассмотрите возможность использования другого имени для параметра.</value>
+</data>
+<data name="UnusedImportClause" xml:space="preserve">
+  <value>Неиспользуемое предложение Import</value>
+</data>
+<data name="ArrayInitializerLengthDoesNotMatchTheSpecifiedArraySizeMessage" xml:space="preserve">
+  <value>Длина инициализатора массива не соответствует указанному размеру массива</value>
+</data>
+<data name="HidesAVariableInAnEnclosingBlockAPreviouslyDefinedRangeVariableOrAnImplicitlyDeclaredVariableInAQueryExpressionMessage" xml:space="preserve">
+  <value>{0} '{1}' скрывает переменную во включающем блоке, ранее определенную переменную диапазона или неявно объявленную переменную в выражении запроса</value>
+</data>
+<data name="ConvertToAutoPropertyWithPrivateSetterMessage" xml:space="preserve">
+  <value>Преобразовать в автосвойство с закрытым сеттером</value>
+</data>
+<data name="TupleElementNameIsOnlyAllowedAtPositionMessage" xml:space="preserve">
+  <value>Имя элемента кортежа '{0}' разрешено только в позиции {1}.</value>
+</data>
+<data name="ThereIsNoMatchingInInterfaceCandidatesAreMessage" xml:space="preserve">
+  <value>В интерфейсе '{3}' нет соответствующего {0} '{1}{2}'. Кандидаты: {4}</value>
+</data>
+<data name="WinRTMethodCannotHaveOptionalParametersMessage" xml:space="preserve">
+  <value>Метод WinRT не может иметь необязательные параметры</value>
+</data>
+<data name="UseImplicitlyTypedVariableDeclarationEvident" xml:space="preserve">
+  <value>Использовать неявно типизированное объявление переменной (очевидно)</value>
+</data>
+<data name="EventNameExpectedMessage" xml:space="preserve">
+  <value>Ожидается имя события</value>
+</data>
+<data name="CannotUseBeforeItIsDeclaredMessage" xml:space="preserve">
+  <value>Нельзя использовать {0} '{1}' до его объявления</value>
+</data>
+<data name="LoopCanBeConvertedIntoLINQExpressionMessage" xml:space="preserve">
+  <value>Цикл можно преобразовать в выражение LINQ</value>
+</data>
+<data name="CannotBeUsedInThisContextBecauseTheAccessorIsInaccessibleMessage" xml:space="preserve">
+  <value>{0} '{1}' нельзя использовать в этом контексте, потому что метод доступа {2} недоступен</value>
+</data>
+<data name="PossibleMultipleEnumerationOfIEnumerableMessage" xml:space="preserve">
+  <value>Возможное множественное перечисление IEnumerable</value>
+</data>
+<data name="LongLiteralEndingWithlInsteadOfLMessage" xml:space="preserve">
+  <value>Длинный целочисленный литерал оканчивается на 'l' вместо 'L'</value>
+</data>
+<data name="FieldInWinRTStructureCannotHaveInitializerMessage" xml:space="preserve">
+  <value>Поле в структуре WinRT не может иметь инициализатор</value>
+</data>
+<data name="AccessToModifiedClosureMessage" xml:space="preserve">
+  <value>Доступ к измененному замыканию</value>
+</data>
+<data name="RedundantMeQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор 'Me.'</value>
+</data>
+<data name="BranchingOutOfAFinallyIsNotValidMessage" xml:space="preserve">
+  <value>Ветвление из блока 'Finally' недопустимо</value>
+</data>
+<data name="AmbiguousmatchMessage" xml:space="preserve">
+  <value>Неоднозначное соответствие {0}:{1}{2}</value>
+</data>
+<data name="ImplementationInheritanceIsNotAllowedInWinRTMessage" xml:space="preserve">
+  <value>Наследование реализации не разрешено в WinRT</value>
+</data>
+<data name="ExplicitvalueParameterDeclarationIsRedundant" xml:space="preserve">
+  <value>Явное объявление параметра 'value' избыточно</value>
+</data>
+<data name="WinRTDoesNotSupportEventsWithParametersMessage" xml:space="preserve">
+  <value>WinRT не поддерживает события с параметрами</value>
+</data>
+<data name="NamespaceNameExpectedButNameFoundMessage" xml:space="preserve">
+  <value>Ожидалось имя пространства имен, но найдено имя {0}</value>
+</data>
+<data name="SimplifyConditionalOperator" xml:space="preserve">
+  <value>Упростить условный оператор</value>
+</data>
+<data name="OverridesMultipleMembersWithTheSameNameAndSignatureMessage" xml:space="preserve">
+  <value>{0} '{1}' переопределяет несколько членов с одинаковым именем и сигнатурой: {2}{3}</value>
+</data>
+<data name="SyntaxErrorMessage" xml:space="preserve">
+  <value>Синтаксическая ошибка</value>
+</data>
+<data name="IncorrectNumberOfTypeParametersInReferenceToMessage" xml:space="preserve">
+  <value>Неправильное количество параметров типа в ссылке на '{0}'</value>
+</data>
+<data name="AsyncCannotHaveByRefParametersMessage" xml:space="preserve">
+  <value>Асинхронный {0} не может иметь параметры ByRef</value>
+</data>
+<data name="RedundantQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор</value>
+</data>
+<data name="BecauseThisCallIsNotAwaitedExecutionOfTheCurrentMethodContinuesBeforeTheCallIsCompletedConsiderApplyingTheAwaitOperatorToTheResultOfTheCallMessage" xml:space="preserve">
+  <value>Поскольку этот вызов не ожидается, выполнение текущего метода продолжается до завершения вызова. Рассмотрите возможность применения оператора 'await' к результату вызова.</value>
+</data>
+<data name="WinRTCannotBeOverridableMessage" xml:space="preserve">
+  <value>Член WinRT {0} не может быть 'Overridable'</value>
+</data>
+<data name="IteratorCannotHaveByRefParametersMessage" xml:space="preserve">
+  <value>Итератор {0} не может иметь параметры ByRef</value>
+</data>
+<data name="ExplicitInitializationIsNotPermittedForArraysDeclaredWithExplicitBoundsMessage" xml:space="preserve">
+  <value>Явная инициализация не разрешена для массивов, объявленных с явными границами</value>
+</data>
+<data name="AsyncOrIteratorLambdaExpressionCannotBeConvertedToExpressionTreesMessage" xml:space="preserve">
+  <value>Нельзя преобразовать асинхронное лямбда-выражение или лямбда-выражение итератора в деревья выражений</value>
+</data>
+<data name="DoesNotHaveTypeParametersMessage" xml:space="preserve">
+  <value>'{0}' не имеет параметров типа</value>
+</data>
+<data name="CannotInferAReturnTypeConsiderAddingAnAsClauseToSpecifyTheReturnTypeMessage" xml:space="preserve">
+  <value>Невозможно вывести тип возвращаемого значения. Рассмотрите возможность добавления предложения 'As' для указания типа возвращаемого значения.</value>
+</data>
+<data name="KeywordThenIsRedundantInMultilineIfStatementMessage" xml:space="preserve">
+  <value>Ключевое слово 'Then' избыточно в многострочном операторе 'If'</value>
+</data>
+<data name="TheCallerArgumentExpressionAttributeAppliedToParameterWillHaveNoEffectBecauseItsSelfReferentialMessage" xml:space="preserve">
+  <value>Атрибут CallerArgumentExpression, примененный к параметру '{0}', не будет иметь эффекта, потому что он является самореферентным</value>
+</data>
+<data name="CannotConvertExpressionOfTypeToTypeMessage" xml:space="preserve">
+  <value>Нельзя преобразовать выражение типа '{0}' в тип '{1}'</value>
+</data>
+<data name="InheritsKeywordMustBeUsedWithAnInterfaceMessage" xml:space="preserve">
+  <value>Ключевое слово Inherits должно использоваться с интерфейсом</value>
+</data>
+<data name="InconsistentAccessibilityParameterTypeIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность типа параметра '{0}' ниже, чем у {1} '{2}'</value>
+</data>
+<data name="ValueAssignedIsNotUsedInAnyExecutionPathMessage" xml:space="preserve">
+  <value>Присвоенное значение не используется ни в одном пути выполнения</value>
+</data>
+<data name="AwaitCanOnlyBeUsedInAMethodMarkedWithTheAsyncModifierMessage" xml:space="preserve">
+  <value>Await можно использовать только в методе, помеченном модификатором 'async'</value>
+</data>
+<data name="FunctionNeverReturnsMessage" xml:space="preserve">
+  <value>Функция никогда не возвращает значение</value>
+</data>
+<data name="CannotImplicitlyConvertTypeToSystemIDisposableMessage" xml:space="preserve">
+  <value>Нельзя неявно преобразовать тип '{0}' в 'System.IDisposable'</value>
+</data>
+<data name="ExceptionRethrowPossiblyIntendedMessage" xml:space="preserve">
+  <value>Возможно, предполагалось повторно выбросить исключение</value>
+</data>
+<data name="QualifierMyBaseIsRedundantMessage" xml:space="preserve">
+  <value>Квалификатор 'MyBase.' избыточен</value>
+</data>
+<data name="ArrayModifierCannotContainBothSpecifiedAndUnspecifiedBoundsMessage" xml:space="preserve">
+  <value>Модификатор массива не может содержать как указанные, так и неуказанные границы</value>
+</data>
+<data name="DynamicExtensionMethodsAreNotSupportedMessage" xml:space="preserve">
+  <value>Динамические методы расширения не поддерживаются</value>
+</data>
+<data name="UnreachableCode" xml:space="preserve">
+  <value>Недостижимый код</value>
+</data>
+<data name="PossibleIncorrectImplementationOfDoubleCheckLockingPossibleMultipleWriteAccessToCheckedFieldMessage" xml:space="preserve">
+  <value>Возможна некорректная реализация двойной проверки блокировки. Возможен множественный доступ на запись к проверенному полю.</value>
+</data>
+<data name="TheArgumentTypeDoesNotMatchByRefParameterTypeMessage" xml:space="preserve">
+  <value>Тип аргумента не соответствует типу параметра 'ByRef'</value>
+</data>
+<data name="TypeOfCannotBeInferredFromAnExpressionContainingMessage" xml:space="preserve">
+  <value>Невозможно вывести тип {0} '{1}' из выражения, содержащего '{1}'</value>
+</data>
+<data name="CannotCallMethodUseInsteadMessage" xml:space="preserve">
+  <value>Не удается вызвать метод '{0}()'. Используйте вместо этого {1} '{2}'</value>
+</data>
+<data name="AccessToDisposedClosureMessage" xml:space="preserve">
+  <value>Доступ к удаленному замыканию</value>
+</data>
+<data name="OverloadsWithTheSameNumberOfParametersAreNotAllowedPleaseMarkOneOfThemWithDefaultOverloadAttributeMessage" xml:space="preserve">
+  <value>Перегрузки с одинаковым количеством параметров не разрешены. Пометьте одну из них атрибутом 'DefaultOverloadAttribute'.</value>
+</data>
+<data name="DuplicateBaseTypeSpecificationMessage" xml:space="preserve">
+  <value>Дублирующая спецификация базового типа</value>
+</data>
+<data name="TheReturnTypeOfAnIteratorLambdaExpressionMustBeIEnumerableOfTIEnumeratorOfTIEnumerableOrIEnumeratorMessage" xml:space="preserve">
+  <value>Тип возвращаемого значения лямбда-выражения итератора должен быть IEnumerable(Of T), IEnumerator(Of T), IEnumerable или IEnumerator</value>
+</data>
+<data name="WinRTOutParametersOfArrayTypeCannotBeAnnotatedWithReadOnlyArrayAttributeSinceTheContentsOfOutputArraysAreWritableMessage" xml:space="preserve">
+  <value>Выходные параметры типа массива WinRT не могут быть аннотированы атрибутом 'ReadOnlyArrayAttribute', поскольку содержимое выходных массивов доступно для записи.</value>
+</data>
+<data name="UnableToChooseAMoreApplicableCandidateCandidatesAreMessage" xml:space="preserve">
+  <value>Не удается выбрать более подходящего кандидата. Кандидаты: {0}</value>
+</data>
+<data name="ReturnStatementInASubOrASetCannotReturnAValueMessage" xml:space="preserve">
+  <value>Оператор 'Return' в Sub или Set не может возвращать значение</value>
+</data>
+<data name="TypeCastIsRedundantMessage" xml:space="preserve">
+  <value>Приведение типа избыточно</value>
+</data>
+<data name="newCannotBeUsedWithValueTupleTypeUseATupleLiteralExpressionInsteadMessage" xml:space="preserve">
+  <value>'New' нельзя использовать с типом кортежа-значения. Вместо этого используйте литеральное выражение кортежа.</value>
+</data>
+<data name="EventNameExpectedButNameFoundMessage" xml:space="preserve">
+  <value>Ожидалось имя события, но найдено имя {0}</value>
+</data>
+<data name="ReadOnlyPropertyMustProvideGetterMessage" xml:space="preserve">
+  <value>Свойство 'ReadOnly' должно предоставлять метод доступа Get</value>
+</data>
+<data name="CannotUseOverloadResolutionPriorityOnOverrideMessage" xml:space="preserve">
+  <value>Невозможно использовать 'OverloadResolutionPriorityAttribute' для переопределяемого члена</value>
+</data>
+<data name="CannotBeDeclaredOverridesBecauseThereIsNoMatchingMemberToOverrideInTheBaseClassMessage" xml:space="preserve">
+  <value>{0} '{1}' не может быть объявлен как 'Overrides', потому что в базовом классе нет соответствующего члена для переопределения</value>
+</data>
+<data name="InactivePreprocessorBranch" xml:space="preserve">
+  <value>Неактивная ветвь препроцессора</value>
+</data>
+<data name="CannotAccessHereMessage" xml:space="preserve">
+  <value>Не удается получить доступ к {0}{1} '{2}' здесь</value>
+</data>
+<data name="MultilineLambdaCannotBeConvertedToExpressionTreesMessage" xml:space="preserve">
+  <value>Многострочное лямбда-выражение нельзя преобразовать в деревья выражений</value>
+</data>
+<data name="RedundantvalueParameterDeclarationMessage" xml:space="preserve">
+  <value>Избыточное объявление параметра 'value'</value>
+</data>
+<data name="ConvertToAutoPropertyMessage" xml:space="preserve">
+  <value>Преобразовать в автосвойство</value>
+</data>
+<data name="SimplifyConditionalOperatorMessage" xml:space="preserve">
+  <value>Упростить условный оператор</value>
+</data>
+<data name="WinRTMethodCannotBeGenericMessage" xml:space="preserve">
+  <value>Метод WinRT не может быть универсальным</value>
+</data>
+<data name="LoopCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage" xml:space="preserve">
+  <value>Цикл можно преобразовать в выражение LINQ, но будет использован другой метод 'GetEnumerator'</value>
+</data>
+<data name="LowerArrayBoundsCanOnlyBeSetToMessage" xml:space="preserve">
+  <value>Нижние границы массива могут быть установлены только в '0'</value>
+</data>
+<data name="WinRTDoNotSupportsoutParametersOnConstructorsMessage" xml:space="preserve">
+  <value>WinRT не поддерживает параметры 'out' в конструкторах</value>
+</data>
+<data name="IncorrectNumberOfTypeParametersCandidatesAreMessage" xml:space="preserve">
+  <value>Неправильное количество параметров типа. Кандидаты: {0}</value>
+</data>
+<data name="VisualBasic17_13LanguageFeatureMessage" xml:space="preserve">
+  <value>Функция языка Visual Basic 17.13</value>
+</data>
+<data name="IteratorFunctionWithoutYieldStatements" xml:space="preserve">
+  <value>Функция-итератор без операторов 'Yield'</value>
+</data>
+<data name="AwaitCannotCurrentlyBeUsedInALINQQueryMessage" xml:space="preserve">
+  <value>'Await' в настоящее время нельзя использовать в запросе LINQ</value>
+</data>
+<data name="WriteOnlyPropertyMustNotHaveGetterMessage" xml:space="preserve">
+  <value>Свойство 'WriteOnly' не должно иметь метод доступа Get</value>
+</data>
+<data name="TheparamsParameterCannotBeDeclaredAsByRefMessage" xml:space="preserve">
+  <value>Параметр 'params' не может быть объявлен как 'ByRef'</value>
+</data>
+<data name="MethodHasAsInvalidReturnValueNameMessage" xml:space="preserve">
+  <value>Метод имеет недопустимое имя возвращаемого значения</value>
+</data>
+<data name="ApplyingNullnessAnnotationToTypeIsMeaninglessMessage" xml:space="preserve">
+  <value>Применение аннотации допустимости значения NULL к {0} типу бессмысленно</value>
+</data>
+<data name="WinRTDoesNotSupportPropertiesWithParametersMessage" xml:space="preserve">
+  <value>WinRT не поддерживает свойства с параметрами</value>
+</data>
+<data name="HasNoSetterMessage" xml:space="preserve">
+  <value>{0} '{1}' не имеет сеттера</value>
+</data>
+<data name="SharedFieldInGenericTypeMessage" xml:space="preserve">
+  <value>Общее поле в универсальном типе</value>
+</data>
+<data name="WriteOnlyPropertyMustProvideSetterMessage" xml:space="preserve">
+  <value>Свойство 'WriteOnly' должно предоставлять метод доступа Set</value>
+</data>
+<data name="DoesntReturnAValueOnAllCodePathsMessage" xml:space="preserve">
+  <value>{0} не возвращает значение на всех путях кода</value>
+</data>
+<data name="KeywordThenIsRedundantInMultilineIfStatement" xml:space="preserve">
+  <value>Ключевое слово 'Then' избыточно в многострочном операторе 'If'</value>
+</data>
+<data name="AparamsParameterMustBeTheLastParameterInAFormalParameterListMessage" xml:space="preserve">
+  <value>Параметр 'params' должен быть последним параметром в формальном списке параметров</value>
+</data>
+<data name="TypeIsNotEnumerableMessage" xml:space="preserve">
+  <value>Тип '{0}' не является перечислимым</value>
+</data>
+<data name="RedundantArrayLowerBoundSpecification" xml:space="preserve">
+  <value>Избыточная спецификация нижней границы массива</value>
+</data>
+<data name="TheTypeMustBeANonNullableValueTypeInOrderToUseItAsParameterMessage" xml:space="preserve">
+  <value>Тип '{0}' должен быть типом значения, не допускающим значение NULL, чтобы использовать его в качестве параметра '{1}'</value>
+</data>
+<data name="CannotResolveSymbolMessage" xml:space="preserve">
+  <value>Не удается разрешить символ '{0}'</value>
+</data>
+<data name="PartOfLoopsBodyCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage" xml:space="preserve">
+  <value>Часть тела цикла можно преобразовать в выражение LINQ, но будет использован другой метод 'GetEnumerator'</value>
+</data>
+<data name="WinRTTypeCannotContainBothSharedAndInstanceWithNameMessage" xml:space="preserve">
+  <value>Тип WinRT не может содержать как общий, так и экземплярный {0} с именем '{1}'</value>
+</data>
+<data name="MyBaseQualifierIsRedundantAndCanBeSafelyRemovedWithoutChangingCodeSemantics" xml:space="preserve">
+  <value>Квалификатор 'MyBase.' избыточен и может быть безопасно удален без изменения семантики кода.</value>
+</data>
+<data name="ReferenceToRequiresTypeMessage" xml:space="preserve">
+  <value>Ссылка на '{0}' требует {1} тип{2}</value>
+</data>
+<data name="AutoPropertyCannotHaveParametersMessage" xml:space="preserve">
+  <value>Автосвойство не может иметь параметры</value>
+</data>
+<data name="WinRTTypeShouldBeNotInheritableMessage" xml:space="preserve">
+  <value>Тип WinRT должен быть 'NotInheritable'</value>
+</data>
+<data name="UseImplicitlyTypedVariableDeclarationMessage" xml:space="preserve">
+  <value>Использовать неявно типизированное объявление переменной</value>
+</data>
+<data name="ConditionArgumentMustBeBooleanMessage" xml:space="preserve">
+  <value>Аргумент условия должен быть 'Boolean'</value>
+</data>
+<data name="TypeArgumentsCannotBeInferredFromTheQueryCandidatesAreMessage" xml:space="preserve">
+  <value>Невозможно вывести аргументы типа из запроса. Кандидаты: {0}</value>
+</data>
+<data name="TheTypeMustBeUnmanagedTypeMessage" xml:space="preserve">
+  <value>Тип '{0}' должен быть типом значения, не допускающим значение NULL, и иметь на всех уровнях вложенности поля только неуправляемых типов, чтобы использоваться в качестве аргумента типа для параметра '{1}'</value>
+</data>
+<data name="MethodHasReturnValueNameThatDiffersFromImplementedInterfaceMethodReturnValueNamePleaseMakeSureThatTheNamesAreIdenticalMessage" xml:space="preserve">
+  <value>Имя возвращаемого значения метода отличается от имени возвращаемого значения реализованного метода интерфейса '{0}'. Убедитесь, что имена идентичны.</value>
+</data>
+<data name="RemoveRedundantParentheses" xml:space="preserve">
+  <value>Удалить избыточные скобки</value>
+</data>
+<data name="EventsOfSharedWithEventsVariablesCannotBeHandledByNonSharedMethodsMessage" xml:space="preserve">
+  <value>События общих переменных WithEvents не могут обрабатываться необщими методами</value>
+</data>
+<data name="TypeDeclarationHasTheSameNameAsInterfaceGeneratedForTypeMessage" xml:space="preserve">
+  <value>Объявление типа имеет то же имя, что и интерфейс '{0}', сгенерированный для типа '{1}'</value>
+</data>
+<data name="InconsistentAccessibilityTypeIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность {0} типа '{1}' ниже, чем у {2} '{3}'</value>
+</data>
+<data name="MissingImplementationOfMembersFromBaseTypesMessage" xml:space="preserve">
+  <value>Отсутствует реализация членов из базовых типов: {0}{1}</value>
+</data>
+<data name="NullnessAnnotationConflictsWithAnnotationInSuperTypeMessage" xml:space="preserve">
+  <value>Аннотация допустимости значения NULL конфликтует с аннотацией в супертипе</value>
+</data>
+<data name="WinRTTypesCanOnlyImplementOtherWinRTInterfacesMessage" xml:space="preserve">
+  <value>Типы WinRT могут реализовывать только другие интерфейсы WinRT</value>
+</data>
+<data name="VariableMightNotBeInitializedBeforeAccessingANullReferenceExceptionCouldOccurAtRuntimeMessage" xml:space="preserve">
+  <value>Переменная '{0}' может быть не инициализирована перед доступом. Во время выполнения может возникнуть исключение NULL reference.</value>
+</data>
+<data name="ImplementsMoreThanOneInterfaceMemberPleaseMakeSureThisMemberOnlyImplementsOneInterfaceMemberMessage" xml:space="preserve">
+  <value>{0} '{1}' реализует несколько членов интерфейса. Убедитесь, что этот член реализует только один член интерфейса.</value>
+</data>
+<data name="SharedFieldInitializerRefersToSharedFieldBelowOrInOtherPartMessage" xml:space="preserve">
+  <value>Инициализатор общего поля ссылается на общее поле ниже или в другой части</value>
+</data>
+<data name="IteratorNeverReturnsMessage" xml:space="preserve">
+  <value>Итератор никогда не возвращает значение</value>
+</data>
+<data name="RedundantMyClassQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор 'MyClass.'</value>
+</data>
+<data name="YieldCannotBeUsedInATryCatchOrATryFinallyOrASyncLockMessage" xml:space="preserve">
+  <value>'Yield' нельзя использовать в блоке Try-Catch, Try-Finally или SyncLock</value>
+</data>
+<data name="UseImplicitlyTypedVariableDeclaration" xml:space="preserve">
+  <value>Использовать неявно типизированное объявление переменной</value>
+</data>
+<data name="InheritsKeywordMustBeUsedWithClassMessage" xml:space="preserve">
+  <value>Ключевое слово Inherits должно использоваться с классом</value>
+</data>
+<data name="CannotInferACommonTypeBecauseMoreThanOneTypeIsPossibleForAndMessage" xml:space="preserve">
+  <value>Невозможно вывести общий тип, потому что для '{0}' и '{1}' возможно несколько типов</value>
+</data>
+<data name="TupleElementNameIsDisallowedAtAnyPositionMessage" xml:space="preserve">
+  <value>Имя элемента кортежа '{0}' запрещено в любой позиции</value>
+</data>
+<data name="ExpressionIsNotAnArrayOrAMethodAndCannotHaveAnArgumentListMessage" xml:space="preserve">
+  <value>Выражение не является массивом или методом и не может иметь список аргументов</value>
+</data>
+<data name="CannotInferACommonTypeForAndAndOptionStrictOnDoesNotAllowObjectToBeAssumedMessage" xml:space="preserve">
+  <value>Невозможно вывести общий тип для '{0}' и '{1}', и Option Strict On не позволяет предполагать 'Object'</value>
+</data>
+<data name="WithEventsVariablesCanOnlyBeTypedAsClassesInterfacesOrTypeParametersWithClassConstraintsMessage" xml:space="preserve">
+  <value>Переменные 'WithEvents' могут быть типизированы только как классы, интерфейсы или параметры типа с ограничениями класса</value>
+</data>
+<data name="VariableNameExpectedMessage" xml:space="preserve">
+  <value>Ожидается имя переменной</value>
+</data>
+<data name="AMidAssignmentStatementShouldHaveSyntaxMidStringIntegerOptionalIntegerStringMessage" xml:space="preserve">
+  <value>Оператор присваивания Mid должен иметь синтаксис 'Mid(String, Integer, [Optional]Integer) = String'</value>
+</data>
+<data name="TupleMustContainAtLeastTwoElementsMessage" xml:space="preserve">
+  <value>Кортеж должен содержать как минимум два элемента.</value>
+</data>
+<data name="WinRTMethodCannotHaveByRefParametersMessage" xml:space="preserve">
+  <value>Метод WinRT не может иметь параметры 'ByRef'</value>
+</data>
+<data name="ReturnStatementInAFunctionGetOrOperatorMustReturnAValueMessage" xml:space="preserve">
+  <value>Оператор 'Return' в Function, Get или Operator должен возвращать значение</value>
+</data>
+<data name="PossibleWriteToMeMessage" xml:space="preserve">
+  <value>Возможная запись в 'Me'</value>
+</data>
+<data name="CannotApplyOperatorToOperandsOfTypeAndMessage" xml:space="preserve">
+  <value>Нельзя применить оператор '{0}' к операндам типа '{1}' и '{2}'</value>
+</data>
+<data name="SingleLineLambdaCannotHaveTheIteratorModifierMessage" xml:space="preserve">
+  <value>Однострочное лямбда-выражение не может иметь модификатор 'iterator'</value>
+</data>
+<data name="IteratorWithoutYieldStatementMessage" xml:space="preserve">
+  <value>Итератор без оператора Yield</value>
+</data>
+<data name="IsValidOnlyWithinAnInstanceMethodMessage" xml:space="preserve">
+  <value>'{0}' допустимо только в методе экземпляра</value>
+</data>
+<data name="MethodDiffersOnlyByOptionalParameterIsAlreadyDeclaredInMessage" xml:space="preserve">
+  <value>Метод, отличающийся только необязательным параметром, уже объявлен в {0} '{1}'</value>
+</data>
+<data name="TypeIsNotAwaitableMessage" xml:space="preserve">
+  <value>Тип '{0}' не является ожидаемым</value>
+</data>
+<data name="ThelSuffixIsEasilyConfusedWithTheDigit" xml:space="preserve">
+  <value>Суффикс 'l' легко спутать с цифрой '1'</value>
+</data>
+<data name="ParenthesesCanBeSafelyRemovedFromExpressionsWithoutChangingCodeSemantics" xml:space="preserve">
+  <value>Скобки можно безопасно удалить из выражений без изменения семантики кода</value>
+</data>
+<data name="DontProvideGenericArgumentsWhenTakingMethodNamesMessage" xml:space="preserve">
+  <value>Не предоставляйте универсальные аргументы при получении имен методов</value>
+</data>
+<data name="RedundantEmptyCaseElseMessage" xml:space="preserve">
+  <value>Избыточный пустой блок Case Else</value>
+</data>
+<data name="BaseClassDoesntContainParameterlessConstructorMessage" xml:space="preserve">
+  <value>Базовый класс '{0}' не содержит конструктора без параметров</value>
+</data>
+<data name="TheTypeMustBeAReferenceTypeInOrderToUseItAsParameterMessage" xml:space="preserve">
+  <value>Тип '{0}' должен быть ссылочным типом, чтобы использовать его в качестве параметра '{1}'</value>
+</data>
+<data name="ArrayExceedsTheLimitOfDimensionsMessage" xml:space="preserve">
+  <value>Массив превышает ограничение в 32 измерения</value>
+</data>
+<data name="PartOfLoopsBodyCanBeConvertedIntoLINQExpressionMessage" xml:space="preserve">
+  <value>Часть тела цикла можно преобразовать в выражение LINQ</value>
+</data>
+<data name="IIfInvocationWithIdenticalSecondAndThirdArgumentsMessage" xml:space="preserve">
+  <value>Вызов 'IIf' с идентичными вторым и третьим аргументами</value>
+</data>
+<data name="ConditionalOperatorContainsTrueOrFalseInResultBranchForExamplepreIfConditionTrueElseBranchIfConditionThenBranchTruePre" xml:space="preserve">
+  <value>Условный оператор содержит 'True' или 'False' в результирующей ветви, например
+              &lt;pre&gt;
+                If(condition, True, elseBranch)
+                If(condition, thenBranch, True)
+              &lt;/pre&gt;</value>
+</data>
+<data name="MemberInAModuleCannotBeDeclaredSharedMessage" xml:space="preserve">
+  <value>Член в модуле не может быть объявлен как 'Shared'</value>
+</data>
+<data name="TypeArgumentsForCannotBeInferredFromTheQueryMessage" xml:space="preserve">
+  <value>Невозможно вывести аргументы типа для '{0}' из запроса</value>
+</data>
+<data name="BaseDeclarationHasTheSameAnnotationMessage" xml:space="preserve">
+  <value>Базовое объявление метода имеет ту же аннотацию</value>
+</data>
+<data name="ArrayInitializerCannotBeSpecifiedForANonConstantDimensionUseEmptyInitializerInsteadMessage" xml:space="preserve">
+  <value>Инициализатор массива не может быть указан для неконстантного измерения; используйте вместо этого пустой инициализатор '{}'</value>
+</data>
+<data name="HasNoGetterMessage" xml:space="preserve">
+  <value>{0} '{1}' не имеет геттера</value>
+</data>
+<data name="AllPublicTypesMustBelongToNamespacesWithACommonPrefixMessage" xml:space="preserve">
+  <value>Все открытые типы должны принадлежать пространствам имен с общим префиксом</value>
+</data>
+<data name="VBCompilerErrors_Text" xml:space="preserve">
+  <value>Ошибки компилятора VB</value>
+</data>
+<data name="MemberWithTheSameNameOrSignatureIsAlreadyDeclaredInMessage" xml:space="preserve">
+  <value>Член с таким же именем или сигнатурой уже объявлен в {0} '{1}'</value>
+</data>
+<data name="ConvertsPropertyDeclarationToVBNETAutoPropertySyntax" xml:space="preserve">
+  <value>Преобразует объявление свойства в синтаксис автосвойства VB.NET.</value>
+</data>
+<data name="ConditionalExpressionHasIdenticalTrueAndFalseBranchesMessage" xml:space="preserve">
+  <value>Условное выражение имеет идентичные ветви True и False</value>
+</data>
+<data name="ThereIsNoMatchingInInterfaceMessage" xml:space="preserve">
+  <value>В интерфейсе '{3}' нет соответствующего {0} '{1}{2}'</value>
+</data>
+<data name="ReadOnlyPropertyMustNotHaveSetterMessage" xml:space="preserve">
+  <value>Свойство 'ReadOnly' не должно иметь метод доступа Set</value>
+</data>
+<data name="AnnotatingSubByPureIsMeaninglessMessage" xml:space="preserve">
+  <value>Аннотирование 'Sub' с помощью &lt;Pure&gt; бессмысленно</value>
+</data>
+<data name="ArrayInitializerIsExpectedMessage" xml:space="preserve">
+  <value>Ожидается инициализатор массива</value>
+</data>
+<data name="PossibleIncorrectImplementationOfDoubleCheckLockingCheckedFieldMustBeVolatileOrAssignedFromLocalVariableAfterThreadMemoryBarrierCallMessage" xml:space="preserve">
+  <value>Возможна некорректная реализация двойной проверки блокировки. Проверенное поле должно быть volatile или присваиваться из локальной переменной после вызова 'Thread.MemoryBarrier()'</value>
+</data>
+<data name="NamespaceShouldBeTheDefaultNamespaceOfThisProjectMessage" xml:space="preserve">
+  <value>Пространство имен '{0}' должно быть пространством имен по умолчанию для этого проекта</value>
+</data>
+<data name="MeCannotBeTheTargetOfAnAssignmentMessage" xml:space="preserve">
+  <value>'Me' не может быть целью присваивания</value>
+</data>
+<data name="ArraysInWinRTPublicAPIMustBeSingleDimensionalMessage" xml:space="preserve">
+  <value>Массивы в общедоступном WinRT API должны быть одномерными</value>
+</data>
+<data name="WinRTParametersOfArrayTypeMustBeAnnotatedWithEitherReadOnlyArrayAttributeOrWriteOnlyArrayAttributeAttributeMessage" xml:space="preserve">
+  <value>Параметры WinRT типа массив должны быть аннотированы атрибутом 'ReadOnlyArrayAttribute' или 'WriteOnlyArrayAttribute'</value>
+</data>
+<data name="AwaitCannotBeUsedInATryCatchOrATryFinallyOrASyncLockMessage" xml:space="preserve">
+  <value>'await' нельзя использовать в try catch, try finally или SyncLock</value>
+</data>
+<data name="UseImplicitlyTypedVariableDeclarationWhenVariableTypeIsEvidentFromInitializerExpression" xml:space="preserve">
+  <value>Используйте неявно типизированное объявление переменной, когда тип переменной очевиден из выражения инициализатора</value>
+</data>
+<data name="DoesntReturnAValueOnAllCodePathsAreYouMissingAReturnStatementMessage" xml:space="preserve">
+  <value>{0} не возвращает значение на всех путях кода. Возможно, отсутствует оператор 'Return'?</value>
+</data>
+<data name="TypeNameExpectedButNameFoundMessage" xml:space="preserve">
+  <value>Ожидалось имя типа, но найдено имя {0}</value>
+</data>
+<data name="NamespaceWithPublicTypesShouldStartWithCommonPrefixMessage" xml:space="preserve">
+  <value>Пространства имен с public типами должны начинаться с общего префикса '{0}'</value>
+</data>
+<data name="PropertiesWithNoRequiredParametersCannotBeDeclaredDefaultMessage" xml:space="preserve">
+  <value>Свойства без обязательных параметров не могут быть объявлены как 'Default'</value>
+</data>
+<data name="ImplementsKeywordMustBeUsedWithAnInterfaceMessage" xml:space="preserve">
+  <value>Ключевое слово Implements должно использоваться с интерфейсом</value>
+</data>
+<data name="RedundantEmptyCaseElseStatement" xml:space="preserve">
+  <value>Избыточный пустой оператор 'case else'</value>
+</data>
+<data name="CannotBecauseTheyDifferByTheDefaultValuesOfOptionalParameterMessage" xml:space="preserve">
+  <value>'{0}' не может {1} '{2}', потому что они отличаются значениями по умолчанию для необязательных параметров</value>
+</data>
+<data name="PointerTypesAreNotAllowedInWinRTPublicAPIMessage" xml:space="preserve">
+  <value>Типы указателей не допускаются в общедоступном WinRT API</value>
+</data>
+<data name="QualifierMyClassIsRedundantMessage" xml:space="preserve">
+  <value>Квалификатор 'MyClass.' избыточен</value>
+</data>
+<data name="MyClassQualifierIsRedundantAndCanBeSafelyRemovedWithoutChangingCodeSemantics" xml:space="preserve">
+  <value>Квалификатор 'MyClass.' избыточен и может быть безопасно удален без изменения семантики кода.</value>
+</data>
+<data name="ToReturnAValueFromAnIteratorFunctionUseYieldMessage" xml:space="preserve">
+  <value>Для возврата значения из функции-итератора используйте 'yield'</value>
+</data>
+<data name="UseImplicitByValModifierInParameterDeclaration" xml:space="preserve">
+  <value>Используйте неявный модификатор параметра 'ByVal'</value>
+</data>
+<data name="MultipleWithTheSameNumberOfParametersCannotBeMarkedWithDefaultOverloadAttributeMessage" xml:space="preserve">
+  <value>Несколько {0} с одинаковым количеством параметров не могут быть помечены атрибутом 'DefaultOverloadAttribute'</value>
+</data>
+<data name="YieldCannotCurrentlyBeUsedInALINQQueryMessage" xml:space="preserve">
+  <value>'yield' в настоящее время нельзя использовать в LINQ-запросе</value>
+</data>
+<data name="ExpressionIsAlwaysMessage" xml:space="preserve">
+  <value>Выражение всегда {0}</value>
+</data>
+<data name="NonReadonlyFieldReferencedInGetHashCodeMessage" xml:space="preserve">
+  <value>В 'GetHashCode()' ссылаются на не readonly поле</value>
+</data>
+<data name="MethodNameExpectedMessage" xml:space="preserve">
+  <value>Ожидалось имя метода</value>
+</data>
+<data name="ThelSuffixIsEasilyConfusedWithTheDigitUseLForClarity" xml:space="preserve">
+  <value>Суффикс 'l' легко спутать с цифрой '1', для ясности используйте 'L'</value>
+</data>
+<data name="ReadOnlyCannotBeUsedAsAnAssignmentTargetMessage" xml:space="preserve">
+  <value>'{0}' 'ReadOnly' не может быть целью присваивания</value>
+</data>
+<data name="WinRTFieldCannotBeOfTypeEachFieldInAWinRTStructureCanOnlyBeUIntIntUIntIntUIntIntUIntSingleDoubleBooleanStringEnumCharOrItselfAStructureMessage" xml:space="preserve">
+  <value>Поле WinRT не может иметь тип '{0}'. Каждое поле в структуре WinRT может быть только типа UInt8, Int16, UInt16, Int32, UInt32, Int64, UInt64, Single, Double, Boolean, String, Enum, Char или самой структурой.</value>
+</data>
+<data name="YieldCanOnlyBeUsedInAMethodMarkedWithTheIteratorModifierMessage" xml:space="preserve">
+  <value>Yield можно использовать только в методе, помеченном модификатором 'iterator'</value>
+</data>
+<data name="CannotUseOverloadResolutionPriorityOnThisMemberMessage" xml:space="preserve">
+  <value>Невозможно использовать 'OverloadResolutionPriorityAttribute' для этого члена</value>
+</data>
+<data name="SubCannotHaveReturnTypeMessage" xml:space="preserve">
+  <value>'Sub' не может иметь возвращаемый тип</value>
+</data>
+<data name="TryCastOperandsMustBeClassConstrainedTypeParameterButHasNoClassConstraintMessage" xml:space="preserve">
+  <value>Операнды 'TryCast' должны быть параметрами типа с ограничением класса, но '{0}' не имеет ограничения класса</value>
+</data>
+<data name="ApplyingContainerNullnessAnnotationToNonContainerTypeIsMeaninglessMessage" xml:space="preserve">
+  <value>Применение аннотации nullability контейнера к типу, не являющемуся контейнером, бессмысленно</value>
+</data>
+<data name="IsNotAnAttributeMessage" xml:space="preserve">
+  <value>'{0}' не является атрибутом</value>
+</data>
+<data name="NullableTypeArgumentIsNotValueTypeMessage" xml:space="preserve">
+  <value>Тип '{0}' должен быть типом значения или аргументом типа, ограниченным 'Structure', для использования с 'Nullable' или модификатором nullable '?'</value>
+</data>
+<data name="GCSuppressFinalizeIsInvokedForTypeWithoutDestructorMessage" xml:space="preserve">
+  <value>'GC.SuppressFinalize' вызывается для типа без деструктора</value>
+</data>
+<data name="InconsistentAccessibilityReturnTypeIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: тип возвращаемого значения '{0}' менее доступен, чем {1} '{2}'</value>
+</data>
+<data name="IsNotAMemberOfMessage" xml:space="preserve">
+  <value>'{0}' не является членом '{1}'</value>
+</data>
+<data name="ArrayInitializerHasTooManyDimensionsMessage" xml:space="preserve">
+  <value>Инициализатор массива имеет слишком много измерений</value>
+</data>
+<data name="MethodNameExpectedButNameFoundMessage" xml:space="preserve">
+  <value>Ожидалось имя метода, но найдено имя {0}</value>
+</data>
+<data name="TheparamsParameterMustBeASingleDimensionalArrayMessage" xml:space="preserve">
+  <value>Параметр 'params' должен быть одномерным массивом</value>
+</data>
+<data name="MethodDoesNotHaveASignatureCompatibleWithDelegateMessage" xml:space="preserve">
+  <value>Метод '{0}' не имеет сигнатуры, совместимой с делегатом '{1}'</value>
+</data>
+<data name="AccessToForeachVariableInClosureMayHaveDifferentBehaviourWhenCompiledWithDifferentVersionsOfCompilerMessage" xml:space="preserve">
+  <value>Доступ к переменной foreach в замыкании. Может иметь разное поведение при компиляции с другими версиями компилятора.</value>
+</data>
+<data name="SimplifyIIf" xml:space="preserve">
+  <value>Упростить 'IIf'</value>
+</data>
+<data name="CanBeReplacedWithDimTryCastIfIsNotNothingEndIfMessage" xml:space="preserve">
+  <value>Может быть заменено на 'Dim {0}{3} = TryCast({1}, {2}) If ({0} IsNot Nothing) ... EndIf'</value>
+</data>
+<data name="InactivePreprocessorBranchMessage" xml:space="preserve">
+  <value>Неактивная ветвь препроцессора</value>
+</data>
+<data name="AssignmentToAPropertyOfAReadonlyFieldCanBeUselessFieldTypeIsNotKnownToBeReferenceTypeMessage" xml:space="preserve">
+  <value>Присваивание свойству readonly поля может быть бессмысленным. Тип поля не является заведомо ссылочным типом</value>
+</data>
+<data name="UseImplicitByValParameterModifierMessage" xml:space="preserve">
+  <value>Используйте неявный модификатор параметра 'ByVal'</value>
+</data>
+<data name="HandlesClauseRequiresAWithEventsVariableDefinedInTheContainingTypeOrOneOfItsBaseTypesMessage" xml:space="preserve">
+  <value>Предложение Handles требует переменную WithEvents, определенную в содержащем типе или одном из его базовых типов</value>
+</data>
+<data name="ConstantCannotBeUsedAsAnAssignmentTargetMessage" xml:space="preserve">
+  <value>Константа не может быть целью присваивания</value>
+</data>
+<data name="ParameterlessPropertyParameterParenthesesAreRedundant" xml:space="preserve">
+  <value>Круглые скобки параметра беспараметрического свойства избыточны</value>
+</data>
+<data name="TupleElementNamesMustBeUniqueMessage" xml:space="preserve">
+  <value>Имена элементов кортежа должны быть уникальными.</value>
+</data>
+<data name="WhenInitializingAnArrayOfArraysBoundsCanOnlyBeSpecifiedForTheTopLevelArrayMessage" xml:space="preserve">
+  <value>При инициализации массива массивов границы могут быть указаны только для массива верхнего уровня</value>
+</data>
+<data name="TryCastOperandMustBeReferenceTypeButIsAValueTypeMessage" xml:space="preserve">
+  <value>Операнд 'TryCast' должен быть ссылочным типом, но '{0}' является типом значения</value>
+</data>
+<data name="PropertyMightHaveOnlyGetAndASetMessage" xml:space="preserve">
+  <value>Свойство может иметь только 'Get' и 'Set'</value>
+</data>
+<data name="CannotInvokeAnExtensionMethodOverImplicitClassInstanceInStaticContextMessage" xml:space="preserve">
+  <value>Невозможно вызвать метод расширения '{0}' для неявного экземпляра класса в статическом контексте</value>
+</data>
+<data name="ExplicitSetAccessorvalueParameterDeclarationIsRedundant" xml:space="preserve">
+  <value>Явное объявление параметра 'value' метода доступа set избыточно</value>
+</data>
+<data name="ConvertPropertyToAutoProperty" xml:space="preserve">
+  <value>Преобразовать свойство в автоматическое свойство</value>
+</data>
+<data name="ClassCannotInheritSealedClassMessage" xml:space="preserve">
+  <value>Класс не может наследовать от запечатанного класса</value>
+</data>
+<data name="TheCallerArgumentExpressionAttributeAppliedToParameterWillHaveNoEffectItIsAppliedWithAnInvalidParameterNameMessage" xml:space="preserve">
+  <value>Атрибут CallerArgumentExpression, примененный к параметру '{0}', не будет иметь эффекта. Он применен с недопустимым именем параметра.</value>
+</data>
+<data name="TheAsyncLambdaExpressionMustEitherBeSubOrFunctionThatReturnsTaskOrTaskOfTMessage" xml:space="preserve">
+  <value>Асинхронное лямбда-выражение должно быть Sub или Function, возвращающей Task или Task(Of T)</value>
+</data>
+<data name="AsyncAndIteratorModifiersCannotBeUsedTogetherMessage" xml:space="preserve">
+  <value>Модификаторы 'async' и 'iterator' не могут использоваться вместе</value>
+</data>
+<data name="DuplicateDefinitionModifierPartialIsPossiblyMissingMessage" xml:space="preserve">
+  <value>Повторяющееся определение '{0}'. Возможно, отсутствует модификатор 'Partial'</value>
+</data>
+<data name="LateboundOverloadResolutionCannotBeAppliedToBecauseTheAccessingInstanceIsAnInterfaceTypeMessage" xml:space="preserve">
+  <value>Разрешение поздне-связанной перегрузки не может быть применено к '{0}', потому что accessing instance является типом интерфейса</value>
+</data>
+<data name="ArraysCannotBeNestedInWinRTPublicAPIMessage" xml:space="preserve">
+  <value>Массивы не могут быть вложенными в общедоступном WinRT API</value>
+</data>
+<data name="UnableToChooseAMoreSpecificCandidateCandidatesAreMessage" xml:space="preserve">
+  <value>Невозможно выбрать более конкретного кандидата. Кандидаты: {0}</value>
+</data>
+<data name="MethodHasTheReturnValueNamedWhichIsTheSameAsAParameterNameWinRTMethodParametersAndReturnValueMustHaveUniqueNamesMessage" xml:space="preserve">
+  <value>Метод имеет возвращаемое значение с именем '{0}', которое совпадает с именем параметра. Параметры и возвращаемые значения методов WinRT должны иметь уникальные имена.</value>
+</data>
+<data name="CannotAssignToAPropertyWithoutSetterOrWithInaccessibleSetterMessage" xml:space="preserve">
+  <value>Невозможно присвоить значение свойству без setter'а или с недоступным setter'ом</value>
+</data>
+<data name="Message" xml:space="preserve">
+  <value>{0}</value>
+</data>
+<data name="EventsDeclaredWithAnAsClauseMustHaveADelegateTypeMessage" xml:space="preserve">
+  <value>События, объявленные с предложением 'as', должны иметь тип делегата</value>
+</data>
+<data name="PossibleIncorrectImplementationOfDoubleCheckLockingReadAccessToCheckedFieldMessage" xml:space="preserve">
+  <value>Возможна некорректная реализация двойной проверки блокировки. Осуществляется доступ на чтение к проверенному полю.</value>
+</data>
+<data name="DuplicateDefinitionMessage" xml:space="preserve">
+  <value>Дублирующее определение '{0}'</value>
+</data>
+<data name="ConvertsPropertyDeclarationToVBNETAutoPropertySyntaxWithPrivateSetterDeclared" xml:space="preserve">
+  <value>Преобразует объявление свойства в синтаксис автосвойства VB.NET с объявленным закрытым сеттером.</value>
+</data>
+<data name="CannotResolveSymbolErrorTypeMessage" xml:space="preserve">
+  <value>Не удается разрешить символ '{0}'. Тип ошибки: {1}</value>
+</data>
+<data name="TypeArgumentsCannotBeInferredFromTheUsageTrySpecifyingTypeArgumentsExplicitlyCandidatesAreMessage" xml:space="preserve">
+  <value>Невозможно вывести аргументы типа из использования. Попробуйте явно указать аргументы типа. Кандидаты: {0}</value>
+</data>
+<data name="WinRTStructureMayOnlyContainPublicFieldsMessage" xml:space="preserve">
+  <value>Структура WinRT может содержать только открытые поля</value>
+</data>
+<data name="CannotInferAnElementTypeOfAnonymousArrayAndOptionStrictOnDoesNotAllowObjectToBeAssumedMessage" xml:space="preserve">
+  <value>Невозможно вывести тип элемента анонимного массива, и Option Strict On не позволяет предполагать 'Object'</value>
+</data>
+<data name="ConvertPropertyToAutoPropertyWhenPossible" xml:space="preserve">
+  <value>Преобразовать свойство в автосвойство, если возможно</value>
+</data>
+<data name="RedundantArrayLowerBoundSpecificationMessage" xml:space="preserve">
+  <value>Избыточная спецификация нижней границы массива</value>
+</data>
+<data name="CannotSpecifyADefaultValueForAParameterArrayMessage" xml:space="preserve">
+  <value>Нельзя указать значение по умолчанию для массива параметров</value>
+</data>
+<data name="AsyncMethodWithoutAwaitOperatorMessage" xml:space="preserve">
+  <value>Асинхронный метод без оператора Await</value>
+</data>
+<data name="DigitSeparatorCannotBeUsedInAPositionWhereItsNotSeparatingTheDigitsMessage" xml:space="preserve">
+  <value>Разделитель цифр нельзя использовать в позиции, где он не разделяет цифры</value>
+</data>
+<data name="RedundantExplicitArraySizeSpecificationMessage" xml:space="preserve">
+  <value>Избыточная явная спецификация размера массива</value>
+</data>
+<data name="CannotCreateAnInstanceOfTypeParameterBecauseItDoesNotHaveANewConstraintMessage" xml:space="preserve">
+  <value>Не удается создать экземпляр параметра типа '{0}', потому что у него нет ограничения 'New'</value>
+</data>
+<data name="SimilarExpressionsComparisonMessage" xml:space="preserve">
+  <value>Сравнение похожих выражений</value>
+</data>
+<data name="RemoveRedundantParenthesesMessage" xml:space="preserve">
+  <value>Удалить избыточные скобки</value>
+</data>
+<data name="SpecifyStringComparisonExplicitlyMessage" xml:space="preserve">
+  <value>Явно указать сравнение строк</value>
+</data>
+<data name="AmbiguousReferenceMessage" xml:space="preserve">
+  <value>Неоднозначная ссылка '{0}'</value>
+</data>
+<data name="SharedFieldOrPropertyCannotBeAssignedInAnObjectInitializerMessage" xml:space="preserve">
+  <value>Нельзя присвоить общему полю или свойству '{0}' значение в инициализаторе объекта</value>
+</data>
+<data name="UnresolvedJumpMessage" xml:space="preserve">
+  <value>Нераспознанный переход</value>
+</data>
+<data name="ReturnStatementInThisAsyncMethodCannotReturnAValueConsiderChangingTheMethodReturnTypeToTaskOfTMessage" xml:space="preserve">
+  <value>Оператор 'Return' в этом асинхронном методе не может возвращать значение. Рассмотрите возможность изменения типа возвращаемого значения метода на 'Task(Of T)'.</value>
+</data>
+<data name="MissingImplementationOfMembersMessage" xml:space="preserve">
+  <value>Отсутствует реализация членов: {0}{1}</value>
+</data>
+<data name="InterfaceIsNotImplementedByThisClassMessage" xml:space="preserve">
+  <value>Интерфейс '{0}' не реализуется этим классом</value>
+</data>
+<data name="ShadowsAnOverridableMethodInTheBaseClassMessage" xml:space="preserve">
+  <value>{0} '{1}' скрывает переопределяемый метод в базовом классе '{2}'</value>
+</data>
+<data name="ArrayInitializerHasTooFewDimensionsMessage" xml:space="preserve">
+  <value>Инициализатор массива имеет слишком мало измерений</value>
+</data>
+<data name="VisualBasicLanguageFeatureMessage" xml:space="preserve">
+  <value>Функция языка Visual Basic 11.0</value>
+</data>
+<data name="WinRTDoesNotSupportSetterOnlyPropertiesMessage" xml:space="preserve">
+  <value>WinRT не поддерживает свойства только с сеттером</value>
+</data>
+<data name="AndCannotBeCombinedMessage" xml:space="preserve">
+  <value>'{0}' и '{1}' нельзя комбинировать</value>
+</data>
+<data name="TheModifierIteratorIsNotValidForThisItemMessage" xml:space="preserve">
+  <value>Модификатор 'iterator' недопустим для этого элемента</value>
+</data>
+<data name="Message6" xml:space="preserve">
+  <value />
+</data>
+<data name="Message2" xml:space="preserve">
+  <value>{0}: {1}</value>
+</data>
+<data name="InconsistentAccessibilityConstraintTypeIsLessAccessibleThanMessage" xml:space="preserve">
+  <value>Несогласованность доступности: доступность типа ограничения '{0}' ниже, чем у {1} '{2}'</value>
+</data>
+<data name="ThreadStaticFieldHasInitializerMessage" xml:space="preserve">
+  <value>Поле с атрибутом ThreadStatic имеет инициализатор</value>
+</data>
+<data name="MultipleNullnessAttributesUsageMessage" xml:space="preserve">
+  <value>Использование нескольких атрибутов допустимости значения NULL</value>
+</data>
+<data name="CannotAwaitNothingConsiderAwaitingTaskExYieldInsteadMessage" xml:space="preserve">
+  <value>Нельзя ожидать Nothing. Рассмотрите возможность ожидания 'TaskEx.Yield()' вместо этого.</value>
+</data>
+<data name="AnalysisIsNotAvailableForTheFileFileLanguageIsNotVBNETMessage" xml:space="preserve">
+  <value>Анализ недоступен для файла. Язык файла - не Visual Basic.</value>
+</data>
+<data name="ArgumentsMismatchMessage" xml:space="preserve">
+  <value>Несоответствие аргументов</value>
+</data>
+<data name="IIfContainsTrueOrFalseInResultBranchForExamplepreIIfConditionTrueElseBranchIIfConditionThenBranchTruePre" xml:space="preserve">
+  <value>'IIf' содержит 'True' или 'False' в результирующей ветви, например
+              &lt;pre&gt;
+                IIf(condition, True, elseBranch)
+                IIf(condition, thenBranch, True)
+              &lt;/pre&gt;</value>
+</data>
+<data name="InterfaceCannotInheritFromATypeNestedWithinItMessage" xml:space="preserve">
+  <value>Интерфейс '{0}' не может наследовать от типа, вложенного в него</value>
+</data>
+<data name="IfOperatorRequiresEitherTwoOrThreeOperandsMessage" xml:space="preserve">
+  <value>Оператор 'If' требует два или три операнда</value>
+</data>
+<data name="TheModifierAsyncIsNotValidForThisItemMessage" xml:space="preserve">
+  <value>Модификатор 'async' недопустим для этого элемента</value>
+</data>
+<data name="WinRTParametersOfArrayTypeCannotBeBothAnnotatedWithReadOnlyArrayAttributeAndWriteOnlyArrayAttributeAtributesMessage" xml:space="preserve">
+  <value>Параметры типа массива WinRT не могут быть одновременно аннотированы атрибутами 'ReadOnlyArrayAttribute' и 'WriteOnlyArrayAttribute'</value>
+</data>
+<data name="CannotCreateAnArrayOfNegativeSizeMessage" xml:space="preserve">
+  <value>Нельзя создать массив отрицательного размера</value>
+</data>
+<data name="IncorrectNumberOfArgumentsCandidatesAreMessage" xml:space="preserve">
+  <value>Неправильное количество аргументов. Кандидаты: {0}</value>
+</data>
+<data name="AccessOfSharedMemberConstantMemberEnumMemberOrNestedTypeThroughAnInstanceQualifyingExpressionWillNotBeEvaluatedMessage" xml:space="preserve">
+  <value>Доступ к общему члену, члену-константе, члену перечисления или вложенному типу через экземпляр; квалифицирующее выражение не будет вычисляться</value>
+</data>
+<data name="ExpressionDoesNotProduceAValueMessage" xml:space="preserve">
+  <value>Выражение не производит значение</value>
+</data>
+<data name="CannotCreateAnInstanceOfInterfaceMessage" xml:space="preserve">
+  <value>Не удается создать экземпляр интерфейса '{0}'</value>
+</data>
+<data name="PossibleWriteToMe1" xml:space="preserve">
+  <value>Возможная запись в 'Me'.</value>
+</data>
+<data name="MethodPropertyDelegateOrEventIsExpectedMessage" xml:space="preserve">
+  <value>Ожидается метод, свойство, делегат или событие</value>
+</data>
+<data name="PossibleWriteToMe" xml:space="preserve">
+  <value>Возможная запись в 'Me'</value>
+</data>
+<data name="ImportClauseIsNotRequiredByTheCodeAndCanBeSafelyRemovedMessage" xml:space="preserve">
+  <value>Код не требует предложения Import, и его можно безопасно удалить</value>
+</data>
+<data name="ArrayLowerBoundSpecificationIsRedundant" xml:space="preserve">
+  <value>Спецификация нижней границы массива избыточна</value>
+</data>
+<data name="DefaultMemberIsNotAPropertyMessage" xml:space="preserve">
+  <value>Член по умолчанию '{0}' не является свойством</value>
+</data>
+<data name="RedundantMyBaseQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор 'MyBase.'</value>
+</data>
+<data name="FieldOrPropertyNameExpectedButNameFoundMessage" xml:space="preserve">
+  <value>Ожидалось имя поля или свойства, но найдено имя {0}</value>
+</data>
+<data name="NamespaceNameExpectedMessage" xml:space="preserve">
+  <value>Ожидается имя пространства имен</value>
+</data>
+<data name="QualifierIsRedundantMessage" xml:space="preserve">
+  <value>Квалификатор избыточен</value>
+</data>
+<data name="OperatorTypeOfIsCanBeUsedMessage" xml:space="preserve">
+  <value>Можно использовать оператор 'TypeOf ... Is ...'</value>
+</data>
+<data name="ObjectReferenceEqualsIsAlwaysFalseBecauseItIsCalledWithValueTypeMessage" xml:space="preserve">
+  <value>'Object.ReferenceEquals' всегда имеет значение False, потому что он вызывается с типом значения</value>
+</data>
+<data name="WinRTTypeCannotBeNestedMessage" xml:space="preserve">
+  <value>Тип WinRT не может быть вложенным</value>
+</data>
+<data name="TryCatchAndTryFinallyStatementsCanBeMergedMessage" xml:space="preserve">
+  <value>Операторы Try-Catch и Try-Finally можно объединить</value>
+</data>
+<data name="ArrayModifiersCannotBeSpecifiedOnBothAVariableAndItsTypeMessage" xml:space="preserve">
+  <value>Модификаторы массива не могут быть указаны одновременно для переменной и ее типа</value>
+</data>
+<data name="TypeDoesntFollowTheAwaitPatternMessage" xml:space="preserve">
+  <value>Тип '{0}' не следует шаблону ожидания</value>
+</data>
+<data name="IsAlreadyImplementedInThisClassMessage" xml:space="preserve">
+  <value>{0} '{1}' уже реализован в этом классе</value>
+</data>
+<data name="EqualityComparisonOfFloatingPointNumbersMessage" xml:space="preserve">
+  <value>Сравнение на равенство чисел с плавающей запятой. {0}</value>
+</data>
+<data name="CallToMyBaseEqualsIsReferenceEqualityMessage" xml:space="preserve">
+  <value>Вызов 'MyBase.Equals(...)' является ссылочным равенством</value>
+</data>
+<data name="CircularDependencyInvolvingAndMessage" xml:space="preserve">
+  <value>Циклическая {0} зависимость, включающая '{1}' и '{2}'</value>
+</data>
+</root>

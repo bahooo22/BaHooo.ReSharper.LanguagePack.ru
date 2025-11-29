@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="MemberAccessorPublic_PresentableName_Text" xml:space="preserve">
+    <value>Метод доступа к члену (public)</value>
+  </data>
+  <data name="FileIsDuplicateHidden_Text" xml:space="preserve">
+    <value>Файл скрыт как дубликат</value>
+  </data>
+  <data name="DocumentsTheDefaultValue__Text" xml:space="preserve">
+    <value>Документирует значение по умолчанию</value>
+  </data>
+  <data name="PreferAddingModuleAliasesInsteadOfQualifyingSettingDescription" xml:space="preserve">
+    <value>Предпочитать добавление псевдонимов модулей вместо квалификации</value>
+  </data>
+  <data name="TypeMethodPrivate_PresentableName_Text" xml:space="preserve">
+    <value>Метод типа (private)</value>
+  </data>
+  <data name="GlobalVariable_PresentableName_Text" xml:space="preserve">
+    <value>Глобальная переменная</value>
+  </data>
+  <data name="JSONSchemaCatalogsSettingDescription" xml:space="preserve">
+    <value>Каталоги схем JSON</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapAfterDeclarationLpar_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос после '(' в объявлении</value>
+  </data>
+  <data name="DocumentsAMixinObject__Text" xml:space="preserve">
+    <value>Документирует объект-примесь (mixin)</value>
+  </data>
+  <data name="AroundDotSettingDescription" xml:space="preserve">
+    <value>Вокруг точки</value>
+  </data>
+  <data name="ThisSymbolIsMeantToBeProtected__Text" xml:space="preserve">
+    <value>Этот символ должен быть protected</value>
+  </data>
+  <data name="TypeArgumentCountExpected_Text" xml:space="preserve">
+    <value>Ожидается количество аргументов типа</value>
+  </data>
+  <data name="TypeFieldPublic_PresentableName_Text" xml:space="preserve">
+    <value>Поле типа (public)</value>
+  </data>
+  <data name="EmptyBracesFormattingSettingDescription" xml:space="preserve">
+    <value>Форматирование пустых фигурных скобок</value>
+  </data>
+  <data name="JsonNodeContext_TypeDescription" xml:space="preserve">
+    <value>Тип: {0}</value>
+  </data>
+  <data name="PickTheClosestTsconfigJsonWhichIncludesSourceFileSettingDescription" xml:space="preserve">
+    <value>Выбирать ближайший tsconfig.json, который включает исходный файл</value>
+  </data>
+  <data name="KindOfSymbol__Text" xml:space="preserve">
+    <value>Вид символа</value>
+  </data>
+  <data name="UnknownHTMLAttributeValue_ToolTip" xml:space="preserve">
+    <value>Неизвестное значение HTML-атрибута</value>
+  </data>
+  <data name="InternalErrorTypeReferenceExpectedBut_Text" xml:space="preserve">
+    <value>Внутренняя ошибка: ожидалась ссылка на тип, но получено {0}</value>
+  </data>
+  <data name="AlignMultilineConstructsMethodParametersSettingDescription" xml:space="preserve">
+    <value>Выравнивание многострочных конструкций: параметры метода</value>
+  </data>
+  <data name="PreferQualifyingInsteadOfAddingModuleAliasesSettingDescription" xml:space="preserve">
+    <value>Предпочитать квалификацию вместо добавления псевдонимов модулей</value>
+  </data>
+  <data name="ConsecutiveRouteParametersWithoutDelimiters_Text" xml:space="preserve">
+    <value>Не допускаются последовательные параметры маршрута без разделителей</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_SpecialElseIfTreatment_SettingsDescription" xml:space="preserve">
+    <value>Особое обращение с 'else if'</value>
+  </data>
+  <data name="ControlTemplates_Text" xml:space="preserve">
+    <value>Шаблоны элементов управления</value>
+  </data>
+  <data name="CodeFormattingInHTMLSettingDescription" xml:space="preserve">
+    <value>Форматирование кода в HTML</value>
+  </data>
+  <data name="SortClassSelectorsSettingDescription" xml:space="preserve">
+    <value>Сортировать селекторы классов</value>
+  </data>
+  <data name="AspCSharpFormatSettings_RemoveBlankLinesNearBraces_Description" xml:space="preserve">
+    <value>Удалять пустые строки в &lt;script runat="server"&gt;</value>
+  </data>
+  <data name="FileWithSourceMapIsIgnored_Text" xml:space="preserve">
+    <value>Файл с картой источников проигнорирован</value>
+  </data>
+  <data name="FeatureIdSettingDescription" xml:space="preserve">
+    <value>Идентификатор функции (FeatureId)</value>
+  </data>
+  <data name="JavaScriptFormatLineBreaksSettingsKey_SpecialElseIfTreatment_SettingsDescription" xml:space="preserve">
+    <value>Особое обращение с 'else if'</value>
+  </data>
+  <data name="WrapObjectLiteralsSettingDescription" xml:space="preserve">
+    <value>Переносить литералы объектов</value>
+  </data>
+  <data name="PathMaskSettingDescription" xml:space="preserve">
+    <value>Маска пути (PathMask)</value>
+  </data>
+  <data name="MinBlankLinesBetweenDeclarationsSettingDescription" xml:space="preserve">
+    <value>Минимальное количество пустых строк между объявлениями</value>
+  </data>
+  <data name="LinkToATutorial__Text" xml:space="preserve">
+    <value>Ссылка на учебник</value>
+  </data>
+  <data name="Field_MustBeWritable_Text" xml:space="preserve">
+    <value>Поле {0} должно быть доступно для записи</value>
+  </data>
+  <data name="ThisFileRequiresAJavaScriptModule__Text" xml:space="preserve">
+    <value>Этот файл требует модуль JavaScript</value>
+  </data>
+  <data name="DistinguishDifferentObjectsWithTheSame__Text" xml:space="preserve">
+    <value>Различать разные объекты с одинаковым именем</value>
+  </data>
+  <data name="BlankLineAfterProcessingInstructionsSettingDescription" xml:space="preserve">
+    <value>Пустая строка после инструкций обработки</value>
+  </data>
+  <data name="SpacesAroundInAttributeSettingDescription" xml:space="preserve">
+    <value>Пробелы вокруг '=' в атрибуте</value>
+  </data>
+  <data name="InTernaryOperatorSettingDescription" xml:space="preserve">
+    <value>В тернарном операторе '? :'</value>
+  </data>
+  <data name="NormalizeTagNamesSettingDescription" xml:space="preserve">
+    <value>Нормализовать имена тегов</value>
+  </data>
+  <data name="OthersSettingDescription" xml:space="preserve">
+    <value>Другие</value>
+  </data>
+  <data name="ThisFunctionMemberWillBeTheConstructor__Text" xml:space="preserve">
+    <value>Этот член-функция будет конструктором для предыдущего класса</value>
+  </data>
+  <data name="JavaScriptConstructor_PresentableName_Text" xml:space="preserve">
+    <value>Конструктор JavaScript</value>
+  </data>
+  <data name="CodeFormattingInASPNETCSettingDescription" xml:space="preserve">
+    <value>Форматирование кода в ASP.NET C#</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapAfterInvocationLrap_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос после '(' при вызове</value>
+  </data>
+  <data name="AShorterVersionOfTheFullDescription__Text" xml:space="preserve">
+    <value>Короткая версия полного описания</value>
+  </data>
+  <data name="NumericEnum_PresentableName_Text" xml:space="preserve">
+    <value>Числовое перечисление</value>
+  </data>
+  <data name="OptimizeCacheForSmartnessMaybeSlowSettingDescription" xml:space="preserve">
+    <value>Оптимизировать кеш для интеллектуальности (может быть медленным)</value>
+  </data>
+  <data name="LineBreaksSettingDescription" xml:space="preserve">
+    <value>Разрывы строк</value>
+  </data>
+  <data name="DoNotIndentChildrenIfElementHasMoreLinesThanSettingDescription" xml:space="preserve">
+    <value>Не делать отступ для дочерних элементов, если элемент имеет строк больше чем</value>
+  </data>
+  <data name="EnumerationsSettingDescription" xml:space="preserve">
+    <value>Перечисления</value>
+  </data>
+  <data name="Resources_Text" xml:space="preserve">
+    <value>Ресурсы</value>
+  </data>
+  <data name="RemoveAttributeQuotesWhereValuesDoNotContainSpacesSettingDescription" xml:space="preserve">
+    <value>Удалять кавычки атрибутов, где значения не содержат пробелов</value>
+  </data>
+  <data name="IdentifiesAnExternalClassNamespaceOr__Text" xml:space="preserve">
+    <value>Идентифицирует внешний класс, пространство имен или модуль</value>
+  </data>
+  <data name="SelectorSettingDescription" xml:space="preserve">
+    <value>Селектор</value>
+  </data>
+  <data name="WithinBracketsSettingDescription" xml:space="preserve">
+    <value>Внутри квадратных скобок</value>
+  </data>
+  <data name="SchemaSettingDescription" xml:space="preserve">
+    <value>Схема</value>
+  </data>
+  <data name="CodeFormattingInJavaScriptSettingDescription" xml:space="preserve">
+    <value>Форматирование кода в JavaScript</value>
+  </data>
+  <data name="DocumentsACallbackFunction__Text" xml:space="preserve">
+    <value>Документирует функцию обратного вызова</value>
+  </data>
+  <data name="KeepWhiteSpacesInsideSettingDescription" xml:space="preserve">
+    <value>Сохранять пробелы внутри</value>
+  </data>
+  <data name="EMPTYBLOCKSTYLESettingDescription" xml:space="preserve">
+    <value>Стиль пустого блока (EMPTY_BLOCK_STYLE)</value>
+  </data>
+  <data name="AttributesFormatSettingDescription" xml:space="preserve">
+    <value>Формат атрибутов</value>
+  </data>
+  <data name="GeneratorModeSettingDescription" xml:space="preserve">
+    <value>Режим генератора</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_PlaceCatchOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'catch' на новой строке</value>
+  </data>
+  <data name="ThisSymbolIsMeantToBePrivate__Text" xml:space="preserve">
+    <value>Этот символ должен быть private</value>
+  </data>
+  <data name="JavaScriptTypeResolveSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки разрешения типов JavaScript</value>
+  </data>
+  <data name="EnumMember_PresentableName_Text" xml:space="preserve">
+    <value>Член перечисления</value>
+  </data>
+  <data name="IndicateThatASymbolInheritsFromAnds__Text" xml:space="preserve">
+    <value>Указывает, что символ наследует от родительского символа и добавляется к родительскому символу</value>
+  </data>
+  <data name="DocumentsTheParameterToAFunction__Text" xml:space="preserve">
+    <value>Документирует параметр для функции</value>
+  </data>
+  <data name="AnalysePropertyContextWhenInspectingCodeSettingDescription" xml:space="preserve">
+    <value>Анализировать контекст свойства при проверке кода</value>
+  </data>
+  <data name="PreferWrapBeforeCommaSettingDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед запятой</value>
+  </data>
+  <data name="ClassSelectorName_PresentableName_Text" xml:space="preserve">
+    <value>Имя селектора класса</value>
+  </data>
+  <data name="MultipleDeclarationsSettingDescription" xml:space="preserve">
+    <value>Множественные объявления</value>
+  </data>
+  <data name="SpaceBeforeSettingDescription" xml:space="preserve">
+    <value>Пробел перед '/&gt;'</value>
+  </data>
+  <data name="TypeFieldProtected_PresentableName_Text" xml:space="preserve">
+    <value>Поле типа (protected)</value>
+  </data>
+  <data name="AroundOrInTypeUsageSettingDescription" xml:space="preserve">
+    <value>Вокруг '|' или '&amp;' в использовании типа</value>
+  </data>
+  <data name="UnknownHTMLAttribute_ToolTip" xml:space="preserve">
+    <value>Неизвестный HTML-атрибут</value>
+  </data>
+  <data name="RelativeFileReferenceStyleInrequireSettingDescription" xml:space="preserve">
+    <value>Стиль относительной ссылки на файл в 'require'</value>
+  </data>
+  <data name="CatchAllParameterCanOnlyAppearAsThe_Text" xml:space="preserve">
+    <value>Параметр "catch-all" может появляться только в последнем сегменте шаблона маршрута</value>
+  </data>
+  <data name="ForceThisQuoteStyleEvenIfIfOtherQuotesAreInsideSettingDescription" xml:space="preserve">
+    <value>Принудительно использовать этот стиль кавычек, даже если внутри есть другие кавычки</value>
+  </data>
+  <data name="UseExplicitpublicModifierSettingDescription" xml:space="preserve">
+    <value>Использовать явный модификатор 'public'</value>
+  </data>
+  <data name="LiteralEnum_PresentableName_Text" xml:space="preserve">
+    <value>Литеральное перечисление</value>
+  </data>
+  <data name="TypeArgumentsCountMismatch_ToolTip" xml:space="preserve">
+    <value>Несоответствие количества аргументов типа</value>
+  </data>
+  <data name="SpecifyTypesExplicitlySettingDescription" xml:space="preserve">
+    <value>Указывать типы явно</value>
+  </data>
+  <data name="FunctionParameter_PresentableName_Text" xml:space="preserve">
+    <value>Параметр функции</value>
+  </data>
+  <data name="LinebreakAfterAndAndBeforeAndInMultilineObjectAndArrayLiteralsSettingDescription" xml:space="preserve">
+    <value>Разрыв строки после '{' и '[' и перед '}' и ']' в многострочных литералах объектов и массивов</value>
+  </data>
+  <data name="ExportedOrGlobalFunctionsAndVariables_PresentableName_Text" xml:space="preserve">
+    <value>Экспортированные или глобальные функции и переменные</value>
+  </data>
+  <data name="SingleLineAnonymousFunctionSettingDescription" xml:space="preserve">
+    <value>Однострочная анонимная функция</value>
+  </data>
+  <data name="DescribesASymbol__Text" xml:space="preserve">
+    <value>Описывает символ</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_PlaceFinallyOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'finally' на новой строке</value>
+  </data>
+  <data name="AngularLanguageLevelSettingDescription" xml:space="preserve">
+    <value>Уровень языка Angular</value>
+  </data>
+  <data name="Function_EntityKind_Text" xml:space="preserve">
+    <value>Функция</value>
+  </data>
+  <data name="DontIndentCommentsStartedAtFirstColumnSettingDescription" xml:space="preserve">
+    <value>Не делать отступ для комментариев, начинающихся с первой колонки</value>
+  </data>
+  <data name="JsonInspectionsSettings_DontErrorOnBrackedTemplates_Description" xml:space="preserve">
+    <value>Разрешать шаблоны формы '[text]'</value>
+  </data>
+  <data name="ControlStatementsSettingDescription" xml:space="preserve">
+    <value>Операторы управления</value>
+  </data>
+  <data name="MustBeFollowedByAValidCodeBlock_Text" xml:space="preserve">
+    <value>'@' должен следовать за допустимым блоком кода</value>
+  </data>
+  <data name="RouteParameterNameCanTContainCharacters_Text" xml:space="preserve">
+    <value>Имя параметра маршрута не может содержать символы '{', '}', '*', '/' и '?'</value>
+  </data>
+  <data name="DocumentsTheNameOfAnObject__Text" xml:space="preserve">
+    <value>Документирует имя объекта</value>
+  </data>
+  <data name="IdentifiesTheLicenseThatAppliesToThis__Text" xml:space="preserve">
+    <value>Идентифицирует лицензию, применяемую к этому коду</value>
+  </data>
+  <data name="KeepExistingLineBreaksSettingDescription" xml:space="preserve">
+    <value>Сохранять существующие разрывы строк</value>
+  </data>
+  <data name="FileMaskSettingDescription" xml:space="preserve">
+    <value>Маска файла (FileMask)</value>
+  </data>
+  <data name="ClassDecoratorsOnTheSameLineWithClassSettingDescription" xml:space="preserve">
+    <value>Декораторы класса на той же строке, что и класс</value>
+  </data>
+  <data name="AroundOperatorSettingDescription" xml:space="preserve">
+    <value>Вокруг оператора</value>
+  </data>
+  <data name="MinBlankLinesAroundFunctionsSettingDescription" xml:space="preserve">
+    <value>Минимальное количество пустых строк вокруг функций</value>
+  </data>
+  <data name="UseTheFollowingTextToDescribeTheEntire__Text" xml:space="preserve">
+    <value>Использовать следующий текст для описания всего класса</value>
+  </data>
+  <data name="ThisObjectMixesInAllTheMembersFromAnother__Text" xml:space="preserve">
+    <value>Этот объект примешивает все члены из другого объекта</value>
+  </data>
+  <data name="TypeExpected_ToolTip" xml:space="preserve">
+    <value>Ожидается тип</value>
+  </data>
+  <data name="IdSettingDescription" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapBeforeDot_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед '.'</value>
+  </data>
+  <data name="UnknownHTMLTag_ToolTip" xml:space="preserve">
+    <value>Неизвестный HTML-тег</value>
+  </data>
+  <data name="AlignMultilineConstructsMultipleDeclarationsSettingDescription" xml:space="preserve">
+    <value>Выравнивание многострочных конструкций: множественные объявления</value>
+  </data>
+  <data name="TokenMustBeFollowedByIfOrEndIf_Text" xml:space="preserve">
+    <value>{0} должен следовать за {1} или {2}</value>
+  </data>
+  <data name="ResolveJavaScriptReferenceCommentsRelativeToWebSiteRootFolderSettingDescription" xml:space="preserve">
+    <value>Разрешать комментарии ссылок JavaScript относительно корневой папки веб-сайта</value>
+  </data>
+  <data name="PseudoClass_EntityKind_Text" xml:space="preserve">
+    <value>Псевдокласс</value>
+  </data>
+  <data name="BeforeSemicolonInForStatementSettingDescription" xml:space="preserve">
+    <value>Перед точкой с запятой в операторе for</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_PlaceElseOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'else' на новой строке</value>
+  </data>
+  <data name="DefinesHowStatementsAreTerminatedSettingDescription" xml:space="preserve">
+    <value>Определяет, как завершаются операторы</value>
+  </data>
+  <data name="PropertyName_PresentableName_Text" xml:space="preserve">
+    <value>Имя свойства</value>
+  </data>
+  <data name="Property_EntityKind_Text" xml:space="preserve">
+    <value>Свойство</value>
+  </data>
+  <data name="PlaceEachDecoratorOnANewLineSettingDescription" xml:space="preserve">
+    <value>Размещать каждый декоратор на новой строке</value>
+  </data>
+  <data name="AspCSharpFormatSettings_AlwaysUseEndOfLineBraceStyle_Description" xml:space="preserve">
+    <value>Переопределить стиль скобок C#, чтобы всегда использовать 'в конце строки (стиль K&amp;R)'</value>
+  </data>
+  <data name="QuoteStyleSettingDescription" xml:space="preserve">
+    <value>Стиль кавычек</value>
+  </data>
+  <data name="DocumentsAGlobalObject__Text" xml:space="preserve">
+    <value>Документирует глобальный объект</value>
+  </data>
+  <data name="WithinBlockSettingDescription" xml:space="preserve">
+    <value>Внутри блока</value>
+  </data>
+  <data name="FunctionName_PresentableName_Text" xml:space="preserve">
+    <value>Имя функции</value>
+  </data>
+  <data name="AroundBinaryOperatorSettingDescription" xml:space="preserve">
+    <value>Вокруг бинарного оператора</value>
+  </data>
+  <data name="PropertiesSettingDescription" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="ForceNewLineAfterCommaInMultiVariableDeclarationsSettingDescription" xml:space="preserve">
+    <value>Принудительный перенос строки после запятой в объявлениях нескольких переменных</value>
+  </data>
+  <data name="OldSettingsUpgradedSettingDescription" xml:space="preserve">
+    <value>Старые настройки обновлены</value>
+  </data>
+  <data name="TypeFieldPrivate_PresentableName_Text" xml:space="preserve">
+    <value>Поле типа (private)</value>
+  </data>
+  <data name="Directive_Text" xml:space="preserve">
+    <value>Директива</value>
+  </data>
+  <data name="WebConfigTagName_PresentableName_Text" xml:space="preserve">
+    <value>Имя тега web.config</value>
+  </data>
+  <data name="SingleStatementFunctionSettingDescription" xml:space="preserve">
+    <value>Функция с одним оператором</value>
+  </data>
+  <data name="MemberAccessorProtected_PresentableName_Text" xml:space="preserve">
+    <value>Метод доступа к члену (protected)</value>
+  </data>
+  <data name="AttributeNameExpected_Text" xml:space="preserve">
+    <value>Ожидается имя атрибута</value>
+  </data>
+  <data name="IndentInternalTagsSettingDescription" xml:space="preserve">
+    <value>Делать отступ для внутренних тегов</value>
+  </data>
+  <data name="FunctionSettingDescription" xml:space="preserve">
+    <value>Функция</value>
+  </data>
+  <data name="UseOldEngineForRazorFormattingSettingDescription" xml:space="preserve">
+    <value>Использовать старый движок для форматирования Razor</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_IndentCaseFromSwitch_SettingsDescription" xml:space="preserve">
+    <value>Делать отступ для 'case' внутри 'switch'</value>
+  </data>
+  <data name="JSONFeaturesSettingDescription" xml:space="preserve">
+    <value>Функции JSON</value>
+  </data>
+  <data name="FunctionsPassedAsParametersToOtherFunctionCallsSettingDescription" xml:space="preserve">
+    <value>Функции, передаваемые как параметры в другие вызовы функций</value>
+  </data>
+  <data name="DescribesGenericParameter__Text" xml:space="preserve">
+    <value>Описывает обобщенный параметр</value>
+  </data>
+  <data name="RazorBaseTypesSettingDescription" xml:space="preserve">
+    <value>Базовые типы Razor</value>
+  </data>
+  <data name="BlankLinesAroundRazorfunctionsBlockSettingDescription" xml:space="preserve">
+    <value>Количество пустых строк вокруг блока Razor @functions</value>
+  </data>
+  <data name="Reference_Text" xml:space="preserve">
+    <value>&lt;reference&gt;</value>
+  </data>
+  <data name="JavaScriptFormatLineBreaksSettingsKey_PlaceCatchOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'catch' на новой строке</value>
+  </data>
+  <data name="OtherBracesParenthesesSquareAndAngleBracketsSettingDescription" xml:space="preserve">
+    <value>Другие скобки: фигурные, круглые, квадратные и угловые</value>
+  </data>
+  <data name="CatchAllParameterShouldBeTheOnlyPart_Text" xml:space="preserve">
+    <value>Параметр "catch-all" должен быть единственной частью сегмента маршрута</value>
+  </data>
+  <data name="EnableBrowserCompatibilitySettingDescription" xml:space="preserve">
+    <value>Включить совместимость с браузером</value>
+  </data>
+  <data name="AngularInspectionsSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки проверок Angular</value>
+  </data>
+  <data name="VersionOrDateSinceWhichThisFeatureWas__Text" xml:space="preserve">
+    <value>Версия или дата, с которой была добавлена эта функция</value>
+  </data>
+  <data name="PropertyCannotBeDeclaredAsInnerProperty_ToolTip" xml:space="preserve">
+    <value>Свойство не может быть объявлено как внутреннее свойство. Оно должно быть атрибутом.</value>
+  </data>
+  <data name="UnknownHTMLEvent_ToolTip" xml:space="preserve">
+    <value>Неизвестное HTML-событие</value>
+  </data>
+  <data name="KEEPUSERLINEBREAKSINEXPRESSIONSSettingDescription" xml:space="preserve">
+    <value>Сохранять пользовательские разрывы строк в выражениях (KEEP_USER_LINEBREAKS_IN_EXPRESSIONS)</value>
+  </data>
+  <data name="RouteCanTContainCharacter_Text" xml:space="preserve">
+    <value>Маршрут не может содержать символ '?'</value>
+  </data>
+  <data name="UrlSettingDescription" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Unknown_Text" xml:space="preserve">
+    <value>&lt;Неизвестно&gt;</value>
+  </data>
+  <data name="SpacesSettingDescription" xml:space="preserve">
+    <value>Пробелы</value>
+  </data>
+  <data name="CustomProcessingOfPageParserFilterTypeSettingDescription" xml:space="preserve">
+    <value>Пользовательская обработка pageParserFilterType</value>
+  </data>
+  <data name="_IsAReservedWordAndCannotBeUsedInImplicit_Text" xml:space="preserve">
+    <value>{0} является зарезервированным словом и не может использоваться в неявном выражении. Используйте явное выражение ("@()").</value>
+  </data>
+  <data name="LineBreaksAfterStartTagAndBeforeEndTagInElementsThatContainOtherElementsAndNoTextSettingDescription" xml:space="preserve">
+    <value>Разрывы строк после начального тега и перед конечным тегом в элементах, которые содержат другие элементы и не содержат текст</value>
+  </data>
+  <data name="SpecifiesTheAccessLevelOfThisMember__Text" xml:space="preserve">
+    <value>Указывает уровень доступа этого члена (private, public или protected)</value>
+  </data>
+  <data name="AfterColonSettingDescription" xml:space="preserve">
+    <value>После двоеточия</value>
+  </data>
+  <data name="IsEnabledSettingDescription" xml:space="preserve">
+    <value>Включено (IsEnabled)</value>
+  </data>
+  <data name="AroundAssignmentOperatorSettingDescription" xml:space="preserve">
+    <value>Вокруг оператора присваивания</value>
+  </data>
+  <data name="BeforeEmptyParenthesesSettingDescription" xml:space="preserve">
+    <value>Перед пустыми круглыми скобками</value>
+  </data>
+  <data name="BeforeParenthesesSettingDescription" xml:space="preserve">
+    <value>Перед круглыми скобками</value>
+  </data>
+  <data name="TypeMethodPublic_PresentableName_Text" xml:space="preserve">
+    <value>Метод типа (public)</value>
+  </data>
+  <data name="PlaceAllElementsOnNewLineSettingDescription" xml:space="preserve">
+    <value>Размещать все элементы на новой строке</value>
+  </data>
+  <data name="WithinEmptyBracketsSettingDescription" xml:space="preserve">
+    <value>Внутри пустых квадратных скобок</value>
+  </data>
+  <data name="FileFrom_Folder_Text" xml:space="preserve">
+    <value>Файл из папки {0}</value>
+  </data>
+  <data name="UseFullyQualifiedNamesForinheritsAndmodelDirectivesSettingDescription" xml:space="preserve">
+    <value>Использовать полные квалифицированные имена для директив @inherits и @model</value>
+  </data>
+  <data name="EnabledSettingDescription" xml:space="preserve">
+    <value>Включено</value>
+  </data>
+  <data name="JavaScriptInspectionsSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки проверок JavaScript</value>
+  </data>
+  <data name="ASPNETMVCAssembliesSettingDescription" xml:space="preserve">
+    <value>Сборки ASP.NET MVC</value>
+  </data>
+  <data name="CannotResolveSymbol__Text" xml:space="preserve">
+    <value>Не удается разрешить символ '{0}'</value>
+  </data>
+  <data name="LineBreaksAroundRazorStatementsSettingDescription" xml:space="preserve">
+    <value>Разрывы строк вокруг операторов Razor</value>
+  </data>
+  <data name="DescribesAFunctionOrMethod__Text" xml:space="preserve">
+    <value>Описывает функцию или метод</value>
+  </data>
+  <data name="WithinEmptyParenthesesSettingDescription" xml:space="preserve">
+    <value>Внутри пустых круглых скобок</value>
+  </data>
+  <data name="StaticTypeFieldPublic_PresentableName_Text" xml:space="preserve">
+    <value>Статическое поле типа (public)</value>
+  </data>
+  <data name="InvalidModuleQualification__Text" xml:space="preserve">
+    <value>Неверная квалификация модуля: {0}</value>
+  </data>
+  <data name="DocumentsSomeCopyrightInformation__Text" xml:space="preserve">
+    <value>Документирует информацию об авторских правах</value>
+  </data>
+  <data name="JavaScriptFormatLineBreaksSettingsKey_PlaceFinallyOnNewLine" xml:space="preserve">
+    <value>Размещать 'finally' на новой строке</value>
+  </data>
+  <data name="JavaScriptNamingSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки именования JavaScript</value>
+  </data>
+  <data name="BracesLayoutSettingDescription" xml:space="preserve">
+    <value>Расположение фигурных скобок</value>
+  </data>
+  <data name="LocalVariable_PresentableName_Text" xml:space="preserve">
+    <value>Локальная переменная</value>
+  </data>
+  <data name="RazorCSharpFormatSettings_RemoveThisQualifier_SettingsDescription" xml:space="preserve">
+    <value>Всегда удалять квалификатор 'this.' (переопределяет соответствующую настройку C#)</value>
+  </data>
+  <data name="WithinBracesAroundTemplateArgumentSettingDescription" xml:space="preserve">
+    <value>Внутри фигурных скобок вокруг аргумента шаблона</value>
+  </data>
+  <data name="CommaExpected_Text" xml:space="preserve">
+    <value>Ожидается ','</value>
+  </data>
+  <data name="DefaultReferencedRazorAssembliesSettings_Text" xml:space="preserve">
+    <value>Настройки сборок Razor, на которые есть ссылки, по умолчанию</value>
+  </data>
+  <data name="TypeScriptNamingSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки именования TypeScript</value>
+  </data>
+  <data name="MinBlankLinesAfterImportsSettingDescription" xml:space="preserve">
+    <value>Минимальное количество пустых строк после импортов</value>
+  </data>
+  <data name="ThisSymbolBelongsToAParentSymbol__Text" xml:space="preserve">
+    <value>Этот символ принадлежит родительскому символу</value>
+  </data>
+  <data name="TypeArgumentsExpected_Text" xml:space="preserve">
+    <value>Ожидаются аргументы типа</value>
+  </data>
+  <data name="IdentifierExpected_Text" xml:space="preserve">
+    <value>Ожидается идентификатор</value>
+  </data>
+  <data name="BeforeParenthesesOfAnonymousMethodSettingDescription" xml:space="preserve">
+    <value>Перед круглыми скобками анонимного метода</value>
+  </data>
+  <data name="BreakLineInSimpleEmbeddedStatementSettingDescription" xml:space="preserve">
+    <value>Разрывать строку в простом встроенном операторе</value>
+  </data>
+  <data name="CodeFormattingInRazorCSettingDescription" xml:space="preserve">
+    <value>Форматирование кода в Razor C#</value>
+  </data>
+  <data name="PrioritySettingDescription" xml:space="preserve">
+    <value>Приоритет</value>
+  </data>
+  <data name="ThisSymbolIsMeantToBeReadOnly__Text" xml:space="preserve">
+    <value>Этот символ должен быть только для чтения</value>
+  </data>
+  <data name="ThisSymbolIsMeantToBePublic__Text" xml:space="preserve">
+    <value>Этот символ должен быть public</value>
+  </data>
+  <data name="DocumentsAPropertyOfAnObject__Text" xml:space="preserve">
+    <value>Документирует свойство объекта</value>
+  </data>
+  <data name="PseudoClassName_PresentableName_Text" xml:space="preserve">
+    <value>Имя псевдокласса</value>
+  </data>
+  <data name="AfterSettingDescription" xml:space="preserve">
+    <value>После '?'</value>
+  </data>
+  <data name="StaticTypeFieldPrivate_PresentableName_Text" xml:space="preserve">
+    <value>Статическое поле типа (private)</value>
+  </data>
+  <data name="UnexpectedCharacter_Text" xml:space="preserve">
+    <value>Неожиданный символ</value>
+  </data>
+  <data name="_ShouldBeEscaped__Text" xml:space="preserve">
+    <value>'{0}' должен быть экранирован ('{1}')</value>
+  </data>
+  <data name="DirectiveAttribute_Text" xml:space="preserve">
+    <value>Атрибут директивы</value>
+  </data>
+  <data name="_Expected_Text" xml:space="preserve">
+    <value>Ожидается '{0}'</value>
+  </data>
+  <data name="FailedToResolveAssembly__Text" xml:space="preserve">
+    <value>Не удалось разрешить сборку {0}</value>
+  </data>
+  <data name="WrapTernaryExpressionSettingDescription" xml:space="preserve">
+    <value>Переносить тернарное выражение</value>
+  </data>
+  <data name="MediaFeatureName_PresentableName_Text" xml:space="preserve">
+    <value>Имя медиа-функции</value>
+  </data>
+  <data name="ThisObjectUsesSomethingFromAnotherObject__Text" xml:space="preserve">
+    <value>Этот объект использует что-то из другого объекта</value>
+  </data>
+  <data name="DeclarationsSettingDescription" xml:space="preserve">
+    <value>Объявления</value>
+  </data>
+  <data name="DocumentsTheTypeOfAnObject__Text" xml:space="preserve">
+    <value>Документирует тип объекта</value>
+  </data>
+  <data name="AfterSeparatorSettingDescription" xml:space="preserve">
+    <value>После разделителя</value>
+  </data>
+  <data name="PreferredImportStatementKindIfPossibleSettingDescription" xml:space="preserve">
+    <value>Предпочитаемый вид оператора import (если возможно)</value>
+  </data>
+  <data name="TypeHasNoDefaultConstructor_ToolTip" xml:space="preserve">
+    <value>Тип не имеет конструктора по умолчанию</value>
+  </data>
+  <data name="TemporarySourceControlFile_Text" xml:space="preserve">
+    <value>Временный файл системы управления версиями</value>
+  </data>
+  <data name="DocumentsAnObjectAsAConstant__Text" xml:space="preserve">
+    <value>Документирует объект как константу</value>
+  </data>
+  <data name="AllowTemplatesInFormOftextSettingDescription" xml:space="preserve">
+    <value>Разрешать шаблоны в форме $text$</value>
+  </data>
+  <data name="DocumentsTheReturnValueOfAFunction__Text" xml:space="preserve">
+    <value>Документирует возвращаемое значение функции</value>
+  </data>
+  <data name="TweaksOfWebConfigProcessingSettingDescription" xml:space="preserve">
+    <value>Настройки обработки web.config</value>
+  </data>
+  <data name="FunctionsAndVariablesLocalToModule_PresentableName_Text" xml:space="preserve">
+    <value>Функции и переменные, локальные для модуля</value>
+  </data>
+  <data name="Control_ReferencedByTheControlToValidate_Text" xml:space="preserve">
+    <value>Невозможно проверить элемент управления '{0}', на который ссылается свойство ControlToValidate '{1}'</value>
+  </data>
+  <data name="DocumentsTheVersionNumberOfAnItem__Text" xml:space="preserve">
+    <value>Документирует номер версии элемента</value>
+  </data>
+  <data name="WithinEmptyBracesSettingDescription" xml:space="preserve">
+    <value>Внутри пустых фигурных скобок</value>
+  </data>
+  <data name="JsonNodeContext_FormatDescription" xml:space="preserve">
+    <value>Формат: {0}</value>
+  </data>
+  <data name="AssemblySettingDescription" xml:space="preserve">
+    <value>Сборка</value>
+  </data>
+  <data name="MasterFiles_Text" xml:space="preserve">
+    <value>Главные файлы (Master Pages)</value>
+  </data>
+  <data name="ParameterNameExpected_Text" xml:space="preserve">
+    <value>Ожидается имя параметра</value>
+  </data>
+  <data name="AttributeEnumValue_Text" xml:space="preserve">
+    <value>Значение перечисления атрибута</value>
+  </data>
+  <data name="BeforeBracketsSettingDescription" xml:space="preserve">
+    <value>Перед квадратными скобками</value>
+  </data>
+  <data name="WrapArrayLiteralsSettingDescription" xml:space="preserve">
+    <value>Переносить литералы массивов</value>
+  </data>
+  <data name="FieldExpected_ToolTip" xml:space="preserve">
+    <value>Ожидается поле</value>
+  </data>
+  <data name="Layouts_Text" xml:space="preserve">
+    <value>Макеты (Layouts)</value>
+  </data>
+  <data name="FileIsCompiledJavascriptWithDebugInfo_Text" xml:space="preserve">
+    <value>Файл представляет собой скомпилированный JavaScript с отладочной информацией</value>
+  </data>
+  <data name="CSSNamingSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки именования CSS</value>
+  </data>
+  <data name="EnableSemanticColoringForTypeGuardsSettingDescription" xml:space="preserve">
+    <value>Включить семантическую раскраску для защитников типа (type guards)</value>
+  </data>
+  <data name="IndicatesThatASymbolInheritsFromAnds__Text" xml:space="preserve">
+    <value>Указывает, что символ наследует от родительского символа и добавляется к родительскому символу</value>
+  </data>
+  <data name="BlankLinesAroundRazorSectionsSettingDescription" xml:space="preserve">
+    <value>Количество пустых строк вокруг секций Razor</value>
+  </data>
+  <data name="DescribesAFile__Text" xml:space="preserve">
+    <value>Описывает файл</value>
+  </data>
+  <data name="MinBlankLinesAroundFieldsAndSignatureDeclarationsSettingDescription" xml:space="preserve">
+    <value>Минимальное количество пустых строк вокруг полей и объявлений сигнатур</value>
+  </data>
+  <data name="BodyExpected_Text" xml:space="preserve">
+    <value>Ожидается тело</value>
+  </data>
+  <data name="IndicatesThatASymbolOverridesItsParent__Text" xml:space="preserve">
+    <value>Указывает, что символ переопределяет своего родителя</value>
+  </data>
+  <data name="TagName_Text" xml:space="preserve">
+    <value>Имя тега</value>
+  </data>
+  <data name="DocumentAStaticMember__Text" xml:space="preserve">
+    <value>Документирует статический член</value>
+  </data>
+  <data name="ReferToSomeOtherDocumentationForMore__Text" xml:space="preserve">
+    <value>См. другую документацию для получения дополнительной информации</value>
+  </data>
+  <data name="TypeScriptCodeStyleSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки стиля кода TypeScript</value>
+  </data>
+  <data name="Interface_PresentableName_Text" xml:space="preserve">
+    <value>Интерфейс</value>
+  </data>
+  <data name="MaximumBlankLinesBetweenTagsSettingDescription" xml:space="preserve">
+    <value>Максимальное количество пустых строк между тегами</value>
+  </data>
+  <data name="ForceLineBreaksAfterLeftBeforeRightBraceInMultilineObjectLiteralsArraysSettingDescription" xml:space="preserve">
+    <value>Принудительный разрыв строки после левой/перед правой фигурной скобкой в многострочных литералах объектов/массивов</value>
+  </data>
+  <data name="JsonPathDeclaredElementPresenter_EntityKind" xml:space="preserve">
+    <value>Путь JSON</value>
+  </data>
+  <data name="Selector_EntityKind_Text" xml:space="preserve">
+    <value>Селектор</value>
+  </data>
+  <data name="BracesSettingDescription" xml:space="preserve">
+    <value>Фигурные скобки</value>
+  </data>
+  <data name="Type_HasNoDefaultConstructor_Text" xml:space="preserve">
+    <value>Тип {0} не имеет конструктора по умолчанию</value>
+  </data>
+  <data name="DescribesTheEventsThisMethodMayFire__Text" xml:space="preserve">
+    <value>Описывает события, которые может инициировать этот метод</value>
+  </data>
+  <data name="RazorAssembliesSettingDescription" xml:space="preserve">
+    <value>Сборки Razor</value>
+  </data>
+  <data name="DocumentsANamespaceObject__Text" xml:space="preserve">
+    <value>Документирует объект пространства имен</value>
+  </data>
+  <data name="EnableJSXSyntaxInJSFilesSettingDescription" xml:space="preserve">
+    <value>Включить синтаксис JSX в файлах .JS</value>
+  </data>
+  <data name="AfterInLambdaExpressionsSettingDescription" xml:space="preserve">
+    <value>После '=&gt;' в лямбда-выражениях</value>
+  </data>
+  <data name="Property_MustBeWritable_Text" xml:space="preserve">
+    <value>Свойство {0} должно быть доступно для записи</value>
+  </data>
+  <data name="StaticTypeFieldProtected_PresentableName_Text" xml:space="preserve">
+    <value>Статическое поле типа (protected)</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapBeforeTernaryOpsigns_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед '?' и ':' в тернарном выражении</value>
+  </data>
+  <data name="IndentParenthesisBracketsAndExpressionBracesSettingDescription" xml:space="preserve">
+    <value>Делать отступ для круглых скобок, квадратных скобок и фигурных скобок выражений</value>
+  </data>
+  <data name="BracesInStatementsSettingDescription" xml:space="preserve">
+    <value>Фигурные скобки в операторах</value>
+  </data>
+  <data name="JavaScriptFormatBracesLayoutSettingsKey_IndentCaseFromSwitch_SettingsDescription" xml:space="preserve">
+    <value>Делать отступ для 'case' внутри 'switch'</value>
+  </data>
+  <data name="BlockScopeFunction_PresentableName_Text" xml:space="preserve">
+    <value>Функция блочной области видимости</value>
+  </data>
+  <data name="NoImplicitanySettingDescription" xml:space="preserve">
+    <value>Запретить неявный 'any'</value>
+  </data>
+  <data name="BeforeSettingDescription" xml:space="preserve">
+    <value>Перед ':'</value>
+  </data>
+  <data name="Output_Text" xml:space="preserve">
+    <value>&lt;output&gt;</value>
+  </data>
+  <data name="BlockScopeConstant_PresentableName_Text" xml:space="preserve">
+    <value>Константа блочной области видимости</value>
+  </data>
+  <data name="MethodParametersSettingDescription" xml:space="preserve">
+    <value>Параметры метода</value>
+  </data>
+  <data name="CodeFormattingInCSSSettingDescription" xml:space="preserve">
+    <value>Форматирование кода в CSS</value>
+  </data>
+  <data name="PseudoFunctionName_PresentableName_Text" xml:space="preserve">
+    <value>Имя псевдофункции</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapBeforeInvocationLrap_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед '(' при вызове</value>
+  </data>
+  <data name="BaseTypeSettingDescription" xml:space="preserve">
+    <value>Базовый тип (BaseType)</value>
+  </data>
+  <data name="TreatAMemberAsIfItHadADifferentName__Text" xml:space="preserve">
+    <value>Рассматривать член как имеющий другое имя</value>
+  </data>
+  <data name="BeforeSemicolonSettingDescription" xml:space="preserve">
+    <value>Перед точкой с запятой</value>
+  </data>
+  <data name="BeforeColonSettingDescription" xml:space="preserve">
+    <value>Перед запятой</value>
+  </data>
+  <data name="MaxBlankLinesBetweenDeclarationsSettingDescription" xml:space="preserve">
+    <value>Максимальное количество пустых строк между объявлениями</value>
+  </data>
+  <data name="UnionTypeUsageSettingDescription" xml:space="preserve">
+    <value>Использование объединения типов</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_PlaceWhileOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'while' на новой строке</value>
+  </data>
+  <data name="JavaScriptLanguageLevelSettingDescription" xml:space="preserve">
+    <value>Уровень языка JavaScript</value>
+  </data>
+  <data name="BlankLinesAroundRazorHelpersSettingDescription" xml:space="preserve">
+    <value>Количество пустых строк вокруг вспомогательных методов Razor</value>
+  </data>
+  <data name="ASPNETSolutionProjectLevelSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки уровня решения/проекта ASP.NET</value>
+  </data>
+  <data name="MinBlankLinesAroundTypesAndModulesSettingDescription" xml:space="preserve">
+    <value>Минимальное количество пустых строк вокруг типов и модулей</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapForStmtHeaderStyle_SettingsDescription" xml:space="preserve">
+    <value>Переносить заголовок оператора 'for'</value>
+  </data>
+  <data name="DocumentsThatThisIsNoLongerThePreferred__Text" xml:space="preserve">
+    <value>Указывает, что это больше не является предпочтительным способом</value>
+  </data>
+  <data name="ListsTheEventsThatASymbolListensFor__Text" xml:space="preserve">
+    <value>Перечисляет события, которые прослушивает символ</value>
+  </data>
+  <data name="SharepointPredefinedFiles__Text" xml:space="preserve">
+    <value>Предопределенные файлы Sharepoint - {0}</value>
+  </data>
+  <data name="LinkToAnotherItemInTheDocumentation__Text" xml:space="preserve">
+    <value>Ссылка на другой элемент в документации</value>
+  </data>
+  <data name="GeneratedFile_Text" xml:space="preserve">
+    <value>Сгенерированный файл</value>
+  </data>
+  <data name="WrapUnionTypeUsageSettingDescription" xml:space="preserve">
+    <value>Переносить использование объединения типов</value>
+  </data>
+  <data name="DocumentsTasksToBeCompleted__Text" xml:space="preserve">
+    <value>Документирует задачи, которые необходимо выполнить</value>
+  </data>
+  <data name="ReplacementTokenShouldNotBeEmpty_Text" xml:space="preserve">
+    <value>Токен замены не должен быть пустым</value>
+  </data>
+  <data name="JavaScriptCodeFormattingSettingsKey_WrapBeforeDeclarationLpar_SettingsDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед '(' в объявлении</value>
+  </data>
+  <data name="TagPrefix_Text" xml:space="preserve">
+    <value>Префикс тега</value>
+  </data>
+  <data name="FileFromNode_modules_Text" xml:space="preserve">
+    <value>Файл из node_modules</value>
+  </data>
+  <data name="ProvidesAnExampleOfHowToUseADocumented__Text" xml:space="preserve">
+    <value>Предоставляет пример использования документированного элемента</value>
+  </data>
+  <data name="TypeAlias_PresentableName_Text" xml:space="preserve">
+    <value>Псевдоним типа</value>
+  </data>
+  <data name="WrapMultipleDeclarationSettingDescription" xml:space="preserve">
+    <value>Переносить множественные объявления</value>
+  </data>
+  <data name="TypeScriptCodeInspectionSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки проверки кода TypeScript</value>
+  </data>
+  <data name="SearchForReferencesInJSDocsInsideDTsFilesSettingDescription" xml:space="preserve">
+    <value>Искать ссылки в JSDocs внутри файлов .d.ts</value>
+  </data>
+  <data name="Class_PresentableName_Text" xml:space="preserve">
+    <value>Класс</value>
+  </data>
+  <data name="TypeMethodProtected_PresentableName_Text" xml:space="preserve">
+    <value>Метод типа (protected)</value>
+  </data>
+  <data name="JsonNodeContext_DefaultValue" xml:space="preserve">
+    <value>Значение по умолчанию: {0}</value>
+  </data>
+  <data name="DefaultVariableKindSettingDescription" xml:space="preserve">
+    <value>Вид переменной по умолчанию</value>
+  </data>
+  <data name="JavaScriptCodeStyleSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки стиля кода JavaScript</value>
+  </data>
+  <data name="OmitASymbolFromTheDocumentation__Text" xml:space="preserve">
+    <value>Исключить символ из документации</value>
+  </data>
+  <data name="WrongModuleSpecified_Expected_Text" xml:space="preserve">
+    <value>Указан неверный модуль. Ожидался {0}.</value>
+  </data>
+  <data name="PlaceMultilineElementsOnNewLineSettingDescription" xml:space="preserve">
+    <value>Размещать многострочные элементы на новой строке</value>
+  </data>
+  <data name="AfterSemicolonSettingDescription" xml:space="preserve">
+    <value>После точки с запятой</value>
+  </data>
+  <data name="RootFolderForrequireReferencesSettingDescription" xml:space="preserve">
+    <value>Корневая папка для ссылок 'require'</value>
+  </data>
+  <data name="DocumentsAnInstanceMember__Text" xml:space="preserve">
+    <value>Документирует член экземпляра</value>
+  </data>
+  <data name="Value_EntityKind_Text" xml:space="preserve">
+    <value>Значение</value>
+  </data>
+  <data name="BeforeCommaSettingDescription" xml:space="preserve">
+    <value>Перед запятой</value>
+  </data>
+  <data name="TypeArgumentExpected_Text" xml:space="preserve">
+    <value>Ожидается аргумент типа</value>
+  </data>
+  <data name="Expected_Text" xml:space="preserve">
+    <value>Ожидается</value>
+  </data>
+  <data name="RazorCSharpFormatSettings_RemoveBlankLinesNearBraces_SettingsDescription" xml:space="preserve">
+    <value>Удалять пустые строки после '{' и перед '}' в @functions</value>
+  </data>
+  <data name="BuildCSSStyleHierarchySettingDescription" xml:space="preserve">
+    <value>Строить иерархию стилей CSS</value>
+  </data>
+  <data name="AttributesIndentingSettingDescription" xml:space="preserve">
+    <value>Отступ атрибутов</value>
+  </data>
+  <data name="IndentObjectLiteralsArraysNestedExpressionsSettingDescription" xml:space="preserve">
+    <value>Делать отступ для литералов объектов/массивов/вложенных выражений</value>
+  </data>
+  <data name="MethodDecoratorsOnTheSameLineWithSignatureSettingDescription" xml:space="preserve">
+    <value>Декораторы метода на той же строке, что и сигнатура</value>
+  </data>
+  <data name="WebConfigTagPrefix_PresentableName_Text" xml:space="preserve">
+    <value>Префикс тега web.config</value>
+  </data>
+  <data name="TypeParameter_PresentableName_Text" xml:space="preserve">
+    <value>Параметр типа</value>
+  </data>
+  <data name="WebAssembliesSettingDescription" xml:space="preserve">
+    <value>Веб-сборки</value>
+  </data>
+  <data name="PlaceTheseElementsOnNewLineSettingDescription" xml:space="preserve">
+    <value>Размещать последующие элементы на новой строке</value>
+  </data>
+  <data name="WithinBracesSettingDescription" xml:space="preserve">
+    <value>Внутри фигурных скобок</value>
+  </data>
+  <data name="DocumentsPropertiesOnAnObjectLiteral__Text" xml:space="preserve">
+    <value>Документирует свойства литерала объекта, как если бы они принадлежали символу с данным именем</value>
+  </data>
+  <data name="UnexpectedText_Text" xml:space="preserve">
+    <value>Неожиданный текст</value>
+  </data>
+  <data name="_MustBeConvertibleTo__Text" xml:space="preserve">
+    <value>{0} должен быть преобразуем в {1}</value>
+  </data>
+  <data name="TypesAndModulesSettingDescription" xml:space="preserve">
+    <value>Типы и модули</value>
+  </data>
+  <data name="TypeSelectorName_PresentableName_Text" xml:space="preserve">
+    <value>Имя селектора типа</value>
+  </data>
+  <data name="DocumentsACollectionOfRelatedProperties__Text" xml:space="preserve">
+    <value>Документирует коллекцию связанных свойств</value>
+  </data>
+  <data name="Label_PresentableName_Text" xml:space="preserve">
+    <value>Метка</value>
+  </data>
+  <data name="WrapChainedMethodCallsSettingDescription" xml:space="preserve">
+    <value>Переносить цепочные вызовы методов</value>
+  </data>
+  <data name="PredefinedWebSettings_Text" xml:space="preserve">
+    <value>Предопределенные веб-настройки</value>
+  </data>
+  <data name="ThisFunctionIsIntendedToBeCalledWith__Text" xml:space="preserve">
+    <value>Эта функция предназначена для вызова с ключевым словом 'new'</value>
+  </data>
+  <data name="AnOptionalParameterCannotHaveDefault_Text" xml:space="preserve">
+    <value>Необязательный параметр не может иметь значение по умолчанию</value>
+  </data>
+  <data name="JSONInspectionsSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки проверок JSON</value>
+  </data>
+  <data name="LineBreaksAfterStartTagAndBeforeEndTagInMultilineElementsSettingDescription" xml:space="preserve">
+    <value>Разрывы строк после начального тега и перед конечным тегом в многострочных элементах</value>
+  </data>
+  <data name="AroundMatchOperatorSettingDescription" xml:space="preserve">
+    <value>Вокруг оператора сопоставления (match)</value>
+  </data>
+  <data name="IdentifiesTheAuthorOfAnItem__Text" xml:space="preserve">
+    <value>Идентифицирует автора элемента</value>
+  </data>
+  <data name="AfterSemicolonInForStatementSettingDescription" xml:space="preserve">
+    <value>После точки с запятой в операторе for</value>
+  </data>
+  <data name="ThisSymbolImplementsAnInterface__Text" xml:space="preserve">
+    <value>Этот символ реализует интерфейс</value>
+  </data>
+  <data name="Module_DoesNotMatchQualification__Text" xml:space="preserve">
+    <value>Модуль {0} не соответствует квалификации {1}</value>
+  </data>
+  <data name="Module_PresentableName_Text" xml:space="preserve">
+    <value>Модуль</value>
+  </data>
+  <data name="WebSettingsSettingDescription" xml:space="preserve">
+    <value>Веб-настройки</value>
+  </data>
+  <data name="IndicatesThatASymbolShouldInheritIts__Text" xml:space="preserve">
+    <value>Указывает, что символ должен наследовать документацию от своего родителя</value>
+  </data>
+  <data name="HighlightNamingIssuesInDeclarationDTsFilesSettingDescription" xml:space="preserve">
+    <value>Подсвечивать проблемы именования в файлах объявлений (.d.ts)</value>
+  </data>
+  <data name="ThisSymbolIsAnInterfaceThatOthersCan__Text" xml:space="preserve">
+    <value>Этот символ является интерфейсом, который другие могут реализовать</value>
+  </data>
+  <data name="LocalFunction_PresentableName_Text" xml:space="preserve">
+    <value>Локальная функция</value>
+  </data>
+  <data name="LanguageLevelSettingDescription" xml:space="preserve">
+    <value>Уровень языка</value>
+  </data>
+  <data name="WrapInvocationArgumentsSettingDescription" xml:space="preserve">
+    <value>Переносить аргументы вызова</value>
+  </data>
+  <data name="DefaultReferencedASPNETMVCAssemblies_Text" xml:space="preserve">
+    <value>Настройки сборок ASP.NET MVC, на которые есть ссылки, по умолчанию</value>
+  </data>
+  <data name="EnableSemanticColoringForFunctionsSettingDescription" xml:space="preserve">
+    <value>Включить семантическую раскраску для функций</value>
+  </data>
+  <data name="WithinParenthesesSettingDescription" xml:space="preserve">
+    <value>Внутри круглых скобок</value>
+  </data>
+  <data name="MediaQuerySettingDescription" xml:space="preserve">
+    <value>Медиа-запрос</value>
+  </data>
+  <data name="ACatchAllParameterCannotBeMarkedOptional_Text" xml:space="preserve">
+    <value>Параметр "catch-all" не может быть помечен как необязательный</value>
+  </data>
+  <data name="DocumentsACustomType__Text" xml:space="preserve">
+    <value>Документирует пользовательский тип</value>
+  </data>
+  <data name="WrapFormalParametersSettingDescription" xml:space="preserve">
+    <value>Переносить формальные параметры</value>
+  </data>
+  <data name="DoNotIndentChildrenOfSettingDescription" xml:space="preserve">
+    <value>Не делать отступ для дочерних элементов</value>
+  </data>
+  <data name="AttributeValueExpected_Text" xml:space="preserve">
+    <value>Ожидается значение атрибута</value>
+  </data>
+  <data name="MaxBlankLinesInCodeSettingDescription" xml:space="preserve">
+    <value>Максимальное количество пустых строк в коде</value>
+  </data>
+  <data name="CssClass_EntityKind_Text" xml:space="preserve">
+    <value>CSS-класс</value>
+  </data>
+  <data name="SymbolExpectedOr_Text" xml:space="preserve">
+    <value>или</value>
+  </data>
+  <data name="BrowsersSettingDescription" xml:space="preserve">
+    <value>Браузеры</value>
+  </data>
+  <data name="DescribesWhatErrorsCouldBeThrown__Text" xml:space="preserve">
+    <value>Описывает, какие ошибки могут быть выброшены</value>
+  </data>
+  <data name="PlaceTemplateLiteralArgumentsOnANewLineSettingDescription" xml:space="preserve">
+    <value>Размещать аргументы шаблонных литералов на новой строке</value>
+  </data>
+  <data name="DocumentsAnEvent__Text" xml:space="preserve">
+    <value>Документирует событие</value>
+  </data>
+  <data name="InternalErrorModuleQualificationReference_Text" xml:space="preserve">
+    <value>Внутренняя ошибка: ожидалась ссылка с квалификацией модуля, но получено {0}</value>
+  </data>
+  <data name="PreferWrapBeforeOperatorInBinaryExpressionSettingDescription" xml:space="preserve">
+    <value>Предпочитать перенос перед оператором в бинарном выражении</value>
+  </data>
+  <data name="DisablePropertyDottedAccessSyntaxForTypesWithStringIndexSignaturesSettingDescription" xml:space="preserve">
+    <value>Отключить синтаксис доступа к свойствам через точку для типов со строковыми индексными сигнатурами</value>
+  </data>
+  <data name="ApplyRelativeFileReferenceCodeStyleForImportPathsCompletionSettingDescription" xml:space="preserve">
+    <value>Применять стиль кода относительной ссылки на файл для завершения путей импорта</value>
+  </data>
+  <data name="IdentifiesTheMemberThatIsExportedBy__Text" xml:space="preserve">
+    <value>Идентифицирует член, который экспортируется модулем JavaScript</value>
+  </data>
+  <data name="RazorCSharpFormatSettings_AlwaysUseEndOfLineBraceStyle_SettingsDescription" xml:space="preserve">
+    <value>Переопределить стиль скобок C#, чтобы всегда использовать 'в конце строки (стиль K&amp;R)'</value>
+  </data>
+  <data name="AfterCommaSettingDescription" xml:space="preserve">
+    <value>После запятой</value>
+  </data>
+  <data name="JavaScriptTemplatesMIMETypesSettingDescription" xml:space="preserve">
+    <value>MIME-типы шаблонов JavaScript</value>
+  </data>
+  <data name="DocumentsAMember__Text" xml:space="preserve">
+    <value>Документирует член</value>
+  </data>
+  <data name="MemberAccessorPrivate_PresentableName_Text" xml:space="preserve">
+    <value>Метод доступа к члену (private)</value>
+  </data>
+  <data name="WrapImportDeclarationSettingDescription" xml:space="preserve">
+    <value>Переносить объявление import</value>
+  </data>
+  <data name="_SourceGeneratorOutputFile_Text" xml:space="preserve">
+    <value>Файл вывода генератора исходного кода ${0}</value>
+  </data>
+  <data name="WebNamingSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки именования для Web</value>
+  </data>
+  <data name="SymbolExpected_Text" xml:space="preserve">
+    <value>Ожидается символ</value>
+  </data>
+  <data name="PropertyDecoratorsOnTheSameLineWithPropertySettingDescription" xml:space="preserve">
+    <value>Декораторы свойства на той же строке, что и свойство</value>
+  </data>
+  <data name="ExpectedFormat_Text" xml:space="preserve">
+    <value>Ожидается {0}</value>
+  </data>
+  <data name="FrameworkSourcesFile_Text" xml:space="preserve">
+    <value>Файл исходного кода фреймворка</value>
+  </data>
+  <data name="InvalidControlType_ToolTip" xml:space="preserve">
+    <value>Неверный тип элемента управления</value>
+  </data>
+  <data name="JavaScriptFormatLineBreaksSettingsKey_PlaceWhileOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'while' на новой строке</value>
+  </data>
+  <data name="LocalJavaScriptClass_PresentableName_Text" xml:space="preserve">
+    <value>Локальный класс JavaScript</value>
+  </data>
+  <data name="BlockScopeLetVariable_PresentableName_Text" xml:space="preserve">
+    <value>Переменная блочной области видимости ('let')</value>
+  </data>
+  <data name="EnableWrappingSettingDescription" xml:space="preserve">
+    <value>Включить перенос</value>
+  </data>
+  <data name="UnexpectedToken_Text" xml:space="preserve">
+    <value>Неожиданная лексема</value>
+  </data>
+  <data name="CSSLanguageSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки языка CSS</value>
+  </data>
+  <data name="AlignOperatorSettingDescription" xml:space="preserve">
+    <value>Выравнивать оператор ?:</value>
+  </data>
+  <data name="JavaScriptLocalConstructor_PresentableName_Text" xml:space="preserve">
+    <value>Локальный конструктор JavaScript</value>
+  </data>
+  <data name="PseudoElement_EntityKind_Text" xml:space="preserve">
+    <value>Псевдоэлемент</value>
+  </data>
+  <data name="WrapChainedBinaryExpressionsSettingDescription" xml:space="preserve">
+    <value>Переносить цепочные бинарные выражения</value>
+  </data>
+  <data name="DescribesWhatThisInThisContextRefers__Text" xml:space="preserve">
+    <value>Описывает, на что ссылается 'this' в этом контексте</value>
+  </data>
+  <data name="SpaceAfterLastAttributeSettingDescription" xml:space="preserve">
+    <value>Пробел после последнего атрибута</value>
+  </data>
+  <data name="BeforeSeparatorSettingDescription" xml:space="preserve">
+    <value>Перед разделителем</value>
+  </data>
+  <data name="MediaFeature_EntityKind_Text" xml:space="preserve">
+    <value>Медиа-функция</value>
+  </data>
+  <data name="SortAttributesSettingDescription" xml:space="preserve">
+    <value>Сортировать атрибуты</value>
+  </data>
+  <data name="ObjectPropertyOrFunction_PresentableName_Text" xml:space="preserve">
+    <value>Свойство или функция объекта</value>
+  </data>
+  <data name="_MustBeWritable_Text" xml:space="preserve">
+    <value>{0} должен быть доступен для записи</value>
+  </data>
+  <data name="Id_Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="FieldDecoratorsOnTheSameLineWithFieldSettingDescription" xml:space="preserve">
+    <value>Декораторы поля на той же строке, что и поле</value>
+  </data>
+  <data name="NamingRulesForInterfaceMembersTakingInheritanceIntoAccountCanBeSlowSettingDescription" xml:space="preserve">
+    <value>Правила именования для членов интерфейса с учетом наследования (может быть медленным)</value>
+  </data>
+  <data name="DefaultRazorBaseTypesSettings_Text" xml:space="preserve">
+    <value>Настройки базовых типов Razor по умолчанию</value>
+  </data>
+  <data name="JavaScriptFormatLineBreaksSettingsKey_PlaceElseOnNewLine_SettingsDescription" xml:space="preserve">
+    <value>Размещать 'else' на новой строке</value>
+  </data>
+  <data name="RazorCodeStyleSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки стиля кода Razor</value>
+  </data>
+  <data name="ThisMemberMustBeImplementedOrOverridden__Text" xml:space="preserve">
+    <value>Этот член должен быть реализован (или переопределен) наследующими типами</value>
+  </data>
+  <data name="DocumentsAJavaScriptModule__Text" xml:space="preserve">
+    <value>Документирует модуль JavaScript</value>
+  </data>
+  <data name="ConsecutiveSlashesAreNotAllowedInRoute_Text" xml:space="preserve">
+    <value>Последовательные слеши не допускаются в шаблоне маршрута</value>
+  </data>
+  <data name="SimpleEmbeddedStatementSettingDescription" xml:space="preserve">
+    <value>Простой встроенный оператор</value>
+  </data>
+  <data name="DocumentsAnInnerObject__Text" xml:space="preserve">
+    <value>Документирует внутренний объект</value>
+  </data>
+  <data name="BrowserCompatibilitySolutionProjectLevelSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки уровня решения/проекта для совместимости браузеров</value>
+  </data>
+</root>

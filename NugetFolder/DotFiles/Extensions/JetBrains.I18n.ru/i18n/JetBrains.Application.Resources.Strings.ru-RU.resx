@@ -1,0 +1,2074 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AuthorizeInWebBrowserIfTheBrowserIs_Text" xml:space="preserve">
+  <value>Аутентификация в веб-браузере. Если браузер не открылся автоматически, откройте его и вставьте ссылку из буфера обмена для аутентификации. Затем скопируйте код из браузера в поле ниже.</value>
+</data>
+<data name="MaximizeToolWindowActionActionText" xml:space="preserve">
+  <value>Развернуть</value>
+</data>
+<data name="OpenInternetURI_Caption" xml:space="preserve">
+  <value>Открыть URI в Интернете</value>
+</data>
+<data name="ABExperimentSettingsText" xml:space="preserve">
+  <value>Настройки A/B эксперимента</value>
+</data>
+<data name="FreeTrialPeriodOf_IsOver_Text" xml:space="preserve">
+  <value>Бесплатный пробный период для {0} завершен.</value>
+</data>
+<data name="NETCLIInstallationFolderNotFound_Text" xml:space="preserve">
+  <value>Папка установки .NET CLI не найдена</value>
+</data>
+<data name="UserIdentificatorStringSettingDescription" xml:space="preserve">
+  <value>Строка идентификатора пользователя</value>
+</data>
+<data name="PlatformGeneralIconsOptionPageTitle" xml:space="preserve">
+  <value>Основные значки платформы</value>
+</data>
+<data name="ExtensionManagerEnablePluginVerifierSettingDescription" xml:space="preserve">
+  <value>Включить средство проверки плагинов</value>
+</data>
+<data name="PackageSourcesSettingDescription" xml:space="preserve">
+  <value>Источники пакетов</value>
+</data>
+<data name="Asia_Text" xml:space="preserve">
+  <value>Азия (кроме материкового Китая)</value>
+</data>
+<data name="Submitting_Text" xml:space="preserve">
+  <value>Отправка</value>
+</data>
+<data name="NoLicenseFoundFor__Text" xml:space="preserve">
+  <value>Лицензия для {0} не найдена</value>
+</data>
+<data name="License_HasNotBeenAutoRenewed_Text" xml:space="preserve">
+  <value>Лицензия {0} не была автоматически продлена</value>
+</data>
+<data name="ManageOptionsActionText" xml:space="preserve">
+  <value>Управление параметрами(&amp;M)…</value>
+</data>
+<data name="AggressiveFiberUsageNumberOdFibersIsTwiceProcessorCount_Description_Text" xml:space="preserve">
+  <value>Агрессивное использование файберов. Количество файберов в два раза превышает количество процессоров.</value>
+</data>
+<data name="DiskCleanupSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки очистки диска</value>
+</data>
+<data name="MaximumDelay__RichText_Text" xml:space="preserve">
+  <value>Максимальная задержка: {0} мс</value>
+</data>
+<data name="CloseAllActionText" xml:space="preserve">
+  <value>Закрыть все</value>
+</data>
+<data name="RenderingCodeToText_Text" xml:space="preserve">
+  <value>Преобразование кода в текст</value>
+</data>
+<data name="JetBrainsLicenseRequiresYourAttention_Text" xml:space="preserve">
+  <value>Лицензия JetBrains требует вашего внимания</value>
+</data>
+<data name="RunBuildAutomaticallyShuttingDownSoon_Text" xml:space="preserve">
+  <value>RunBuild: Скоро автоматическое закрытие, нажмите для отмены</value>
+</data>
+<data name="OpenEventLogFolderActionText" xml:space="preserve">
+  <value>Открыть папку с журналом событий</value>
+</data>
+<data name="ProfileExplorer_Text" xml:space="preserve">
+  <value>Профилировщик</value>
+</data>
+<data name="DockAsDocumentActionText" xml:space="preserve">
+  <value>Закрепить как документ</value>
+</data>
+<data name="Cancel_Options_Dialog_Button_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="LogTraceScenariosEnabledInInternalModeSettingDescription" xml:space="preserve">
+  <value>Сценарии трассировки журнала, включенные во внутреннем режиме</value>
+</data>
+<data name="InterfaceLanguage_Text" xml:space="preserve">
+  <value>Язык интерфейса:</value>
+</data>
+<data name="_DatabaseSize_MaxSize__RichText_Text" xml:space="preserve">
+  <value>{0} Размер базы данных: {1}. Максимальный размер: {2}</value>
+</data>
+<data name="CheckLicenseKey_Text" xml:space="preserve">
+  <value>Проверить лицензионный ключ</value>
+</data>
+<data name="EmittingCodeForIcons_Text" xml:space="preserve">
+  <value>Генерация кода для значков</value>
+</data>
+<data name="TutorialSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки руководства</value>
+</data>
+<data name="LayoutOfTheCustomizedUserInterfaceSettingDescription" xml:space="preserve">
+  <value>Макет настраиваемого пользовательского интерфейса</value>
+</data>
+<data name="GoToNextItemActionText" xml:space="preserve">
+  <value>Перейти к следующему элементу</value>
+</data>
+<data name="WhetherThisPaneIsShowingCompiledIconsSourcesScatteredFilesEtcSettingDescription" xml:space="preserve">
+  <value>Показывает ли эта панель скомпилированные значки, исходный код, scatter-файлы и т.д.</value>
+</data>
+<data name="FeedbackSubmitterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отправителя отзывов</value>
+</data>
+<data name="ThisComputer_Text" xml:space="preserve">
+  <value>Этот компьютер</value>
+</data>
+<data name="FailedToWriteToTheOutputFile_Caption" xml:space="preserve">
+  <value>Не удалось записать в выходной файл</value>
+</data>
+<data name="FetchingUserDetails_Text" xml:space="preserve">
+  <value>Получение деталей пользователя</value>
+</data>
+<data name="TheStringMustNotBeEmpty_Text" xml:space="preserve">
+  <value>Строка не должна быть пустой.</value>
+</data>
+<data name="DefaultExtensionManagerSettings_Text" xml:space="preserve">
+  <value>Настройки менеджера расширений по умолчанию</value>
+</data>
+<data name="ShowDataSharingOptionsAction_Text" xml:space="preserve">
+  <value>Параметры общего доступа к данным</value>
+</data>
+<data name="AttachmentUploadMethodSettingDescription" xml:space="preserve">
+  <value>Метод загрузки вложения</value>
+</data>
+<data name="And_Separator_Text" xml:space="preserve">
+  <value>, </value>
+</data>
+<data name="WouldYouLikeToContinueAnyway_Text" xml:space="preserve">
+  <value>Все равно продолжить?</value>
+</data>
+<data name="KeepAttachmentsSettingDescription" xml:space="preserve">
+  <value>Сохранять вложения</value>
+</data>
+<data name="NewItem_Text" xml:space="preserve">
+  <value>Новый элемент:</value>
+</data>
+<data name="TrackerUsernameSettingDescription" xml:space="preserve">
+  <value>Имя пользователя трекера</value>
+</data>
+<data name="NotSet_Text" xml:space="preserve">
+  <value>Не задано</value>
+</data>
+<data name="DirectoryDoesnTExist__Text" xml:space="preserve">
+  <value>Каталог не существует: {0}</value>
+</data>
+<data name="OptionsBadgeSettingsDescription" xml:space="preserve">
+  <value>Настройки бейджей</value>
+</data>
+<data name="StartNewLineBeforeActionText" xml:space="preserve">
+  <value>Начать новую строку перед текущей</value>
+</data>
+<data name="WasRequestedByAPI_Text" xml:space="preserve">
+  <value>Запрошено через API</value>
+</data>
+<data name="Configure_Caption" xml:space="preserve">
+  <value>Настроить</value>
+</data>
+<data name="CannotCopyLayerSettingsIntoTheSameLayer_Text" xml:space="preserve">
+  <value>Невозможно скопировать настройки слоя в тот же слой</value>
+</data>
+<data name="UserInterface_Header_Text" xml:space="preserve">
+  <value>Пользовательский интерфейс</value>
+</data>
+<data name="ImportFromFileActionText" xml:space="preserve">
+  <value>Импорт из файла…</value>
+</data>
+<data name="IfGuardedActionExecutionTimeExceeds_Text" xml:space="preserve">
+  <value>Если время выполнения защищенного действия превышает этот порог, будет записана ошибка.</value>
+</data>
+<data name="Help_Caption" xml:space="preserve">
+  <value>Справка</value>
+</data>
+<data name="AddGroupToEventsTestSchemeActionText" xml:space="preserve">
+  <value>Добавить группу в схему тестирования событий…</value>
+</data>
+<data name="UserInterfaceSettings_IconThemeSelection" xml:space="preserve">
+  <value>Выбор темы значков, используемой при отображении значков приложения</value>
+</data>
+<data name="LayerNameMustNotBeEmpty_Text" xml:space="preserve">
+  <value>Имя слоя не должно быть пустым</value>
+</data>
+<data name="ApplicationEnvironmentSettingsGenerallyShouldNotBeSharedWithTheSolutionWithinATeamSettingDescription" xml:space="preserve">
+  <value>Настройки среды приложения. Обычно не должны быть общими для решения в рамках команды.</value>
+</data>
+<data name="LicenseTo_Key__Text" xml:space="preserve">
+  <value>Лицензия для {0} (ключ{1})</value>
+</data>
+<data name="SomeBoolOptionForShowingVisibilitySettingDescription" xml:space="preserve">
+  <value>Некоторая логическая опция для отображения видимости</value>
+</data>
+<data name="ConfigureSettingsToImprovePerformance_Text" xml:space="preserve">
+  <value>Настройка параметров для повышения производительности</value>
+</data>
+<data name="ShowHelp_Caption" xml:space="preserve">
+  <value>Показать справку</value>
+</data>
+<data name="UploadingFile__KbytesS_Text" xml:space="preserve">
+  <value>Загрузка файла '{0}'. {1:N0} Кбайт/с</value>
+</data>
+<data name="OutdatedLicenseServerDetected_Text" xml:space="preserve">
+  <value>Обнаружен устаревший сервер лицензий</value>
+</data>
+<data name="ExpiresOn__Text" xml:space="preserve">
+  <value>. Истек {0}</value>
+</data>
+<data name="IfIsCustomProxyAndCreatingCustomProxyFromTheProvidedSettingsFailedReportsTheErrorAnEmptyStringIfLastProxyUseWasSuccessfulThisErrorWontBeExposedAsADownloadExceptionBecauseOnThisErrorProxySettingsSilentlyFallBackToDefaultAlwaysSetOnTheGlobalContextSettingDescription" xml:space="preserve">
+  <value>Если IsCustomProxy и создание пользовательского прокси из предоставленных настроек не удалось, сообщает об ошибке. Пустая строка, если последнее использование прокси было успешным. Эта ошибка не будет отображаться как исключение загрузки, потому что при этой ошибке настройки прокси молча возвращаются к значениям по умолчанию. Всегда устанавливается в глобальном контексте.</value>
+</data>
+<data name="OpenBrowserAt__Text" xml:space="preserve">
+  <value>Открыть {0} в браузере</value>
+</data>
+<data name="SomeEnumOptionSettingDescription" xml:space="preserve">
+  <value>Некоторая перечислимая опция</value>
+</data>
+<data name="SelectedUserIdentificatorSettingDescription" xml:space="preserve">
+  <value>Выбранный идентификатор пользователя</value>
+</data>
+<data name="BuildArtifactSettingDescription" xml:space="preserve">
+  <value>Артефакт сборки</value>
+</data>
+<data name="FolderForPortableNetworkGraphicsFiles_Caption" xml:space="preserve">
+  <value>Папка для файлов PNG</value>
+</data>
+<data name="AddTestGroup_Text" xml:space="preserve">
+  <value>Добавить тестовую группу</value>
+</data>
+<data name="SomeStringOptionSettingDescription" xml:space="preserve">
+  <value>Некоторая строковая опция</value>
+</data>
+<data name="FocusMonitorActionText" xml:space="preserve">
+  <value>Фокус на монитор</value>
+</data>
+<data name="LoadingProductContentPack_Text" xml:space="preserve">
+  <value>Загрузка пакета содержимого продукта</value>
+</data>
+<data name="AMinimalPeriodBetweenCallsToClrStack_Text" xml:space="preserve">
+  <value>Минимальный период между вызовами ClrStack.</value>
+</data>
+<data name="Europe_Text" xml:space="preserve">
+  <value>Европа</value>
+</data>
+<data name="GotoProductTwitterActionText" xml:space="preserve">
+  <value>Перейти в Twitter продукта(&amp;T)</value>
+</data>
+<data name="UserIsInformedAboutSendingCodeToJetBrainsSettingDescription" xml:space="preserve">
+  <value>Пользователь уведомлен об отправке узлов в JetBrains</value>
+</data>
+<data name="PerpetualForBuildsReleasedBefore__Text" xml:space="preserve">
+  <value>. Бессрочная для сборок, выпущенных до {0}</value>
+</data>
+<data name="IfIsCustomProxyUseThisProxyPasswordForPasswordProtectedProxiesOnlyIgnoredIfUsernameIsEmptySettingDescription" xml:space="preserve">
+  <value>Если IsCustomProxy, используйте этот пароль прокси (только для защищенных паролем прокси, игнорируется, если имя пользователя пустое)</value>
+</data>
+<data name="RestoreActionText" xml:space="preserve">
+  <value>Восстановить</value>
+</data>
+<data name="BrowseAsListActionDescription" xml:space="preserve">
+  <value>Детальный вид с текстовым поиском</value>
+</data>
+<data name="AnInjectedLayerCreatedOverAFilePathSettingDescription" xml:space="preserve">
+  <value>Внедренный слой, созданный по пути к файлу</value>
+</data>
+<data name="NETCLIExecutableNotFound_Text" xml:space="preserve">
+  <value>Исполняемый файл .NET CLI не найден</value>
+</data>
+<data name="ShowManaged_memoryUsageInStatusBar_BoolOption_Text" xml:space="preserve">
+  <value>Показывать использование управляемой памяти в строке состояния(_M)</value>
+</data>
+<data name="WhenCleanupTaskIsQueuedOfApplicationStartSettingDescription" xml:space="preserve">
+  <value>Когда задача очистки поставлена в очередь при запуске приложения</value>
+</data>
+<data name="AttachFile_Caption" xml:space="preserve">
+  <value>Прикрепить файл</value>
+</data>
+<data name="LicenseHasExpiredOn__Text" xml:space="preserve">
+  <value>Лицензия истекла {0}</value>
+</data>
+<data name="EnabledScenariosFromLogTraceScenariosMapDelimitedByCommaSettingDescription" xml:space="preserve">
+  <value>Включенные сценарии из LogTraceScenarios.Map, разделенные запятыми</value>
+</data>
+<data name="FluentLight_Text" xml:space="preserve">
+  <value>Fluent Design, Светлая тема</value>
+</data>
+<data name="WritingThemedIconsInCFormat_Text" xml:space="preserve">
+  <value>Запись тематических значков в формате C#</value>
+</data>
+<data name="License_HasBeenAssignedTo__Text" xml:space="preserve">
+  <value>Лицензия {0} была назначена {1}</value>
+</data>
+<data name="ShowEnterLicenseAction_Text" xml:space="preserve">
+  <value>Сведения о лицензии(&amp;L)…</value>
+</data>
+<data name="ExtensionManagerProviderOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры провайдера менеджера расширений</value>
+</data>
+<data name="IfTheSpecifiedMigratorObjectIdentifiedByTheFullClassNameWithoutAssemblyNameHasAlreadyBeenRunForTheMountPointInWhichThisInformationIsWrittenSettingDescription" xml:space="preserve">
+  <value>Если указанный объект миграции, идентифицируемый полным именем класса (без имени сборки), уже был запущен для точки монтирования, в которую записывается эта информация</value>
+</data>
+<data name="GoToPreviousItemActionText" xml:space="preserve">
+  <value>Перейти к предыдущему элементу</value>
+</data>
+<data name="CultureSettingDescription" xml:space="preserve">
+  <value>Культура</value>
+</data>
+<data name="StopTask__Text" xml:space="preserve">
+  <value>Остановить задачу "{0}"?</value>
+</data>
+<data name="AutomaticSelection_Text" xml:space="preserve">
+  <value>Автоматический выбор</value>
+</data>
+<data name="LastBuildOutputsSummary_Text" xml:space="preserve">
+  <value>{0:N0} файлов, всего {1:N0} байт</value>
+</data>
+<data name="Restart_Caption" xml:space="preserve">
+  <value>Перезапустить</value>
+</data>
+<data name="MemorySnapshotAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Снимок памяти</value>
+</data>
+<data name="WhetherToShowTheMemoryUsageIndicatorInTheStatusBarOfTheApplicationMainWindowSettingDescription" xml:space="preserve">
+  <value>Показывать ли индикатор использования памяти в строке состояния главного окна приложения</value>
+</data>
+<data name="InternalMode_Text" xml:space="preserve">
+  <value>Внутренний режим.</value>
+</data>
+<data name="_PendingExceptionsClickHereToSubmit_Text" xml:space="preserve">
+  <value>{0} ожидающих исключений. Нажмите здесь, чтобы отправить.</value>
+</data>
+<data name="NotLoggedIn_Text" xml:space="preserve">
+  <value>Не в системе</value>
+</data>
+<data name="PathPatternsToCleanSettingDescription" xml:space="preserve">
+  <value>Шаблоны путей для очистки</value>
+</data>
+<data name="UploadingFile__Text" xml:space="preserve">
+  <value>Загрузка файла '{0}'</value>
+</data>
+<data name="NoAccessTokenObtained_Text" xml:space="preserve">
+  <value>Токен доступа не получен</value>
+</data>
+<data name="VSVersionRootSuffixDoNotCompileFlagAndOtherUserBuildPreferencesSettingDescription" xml:space="preserve">
+  <value>Версия VS, суффикс корня, флаг не компилировать и другие пользовательские предпочтения сборки</value>
+</data>
+<data name="OptionsBadgeSettingsHiddenFeaturesText" xml:space="preserve">
+  <value>Скрытые бейджи на функциях и странице продукта</value>
+</data>
+<data name="ExportSVGActionText" xml:space="preserve">
+  <value>Экспорт SVG…</value>
+</data>
+<data name="YouAreGoingToRemoveThePluginThatIsCurrently_Text" xml:space="preserve">
+  <value>Удаление плагина локализации сбросит язык пользовательского интерфейса на язык по умолчанию</value>
+</data>
+<data name="BrowseAsTilesActionDescription" xml:space="preserve">
+  <value>Режим обзора плитками</value>
+</data>
+<data name="ADisplayNameToTellThisPaneApartFromTheOthersWhenReferringFromOtherUINotAnIdentitySettingDescription" xml:space="preserve">
+  <value>Отображаемое имя, позволяющее отличить эту панель от других при ссылке из другого пользовательского интерфейса. Не идентификатор.</value>
+</data>
+<data name="Never_Description_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="WhetherToHideVSMenusTrueHideSettingDescription" xml:space="preserve">
+  <value>Скрывать ли меню VS. True: скрыть.</value>
+</data>
+<data name="SomeBoolOptionForVisibleSettingDescription" xml:space="preserve">
+  <value>Видимая логическая опция</value>
+</data>
+<data name="_UnknownLoggingLevel__Text" xml:space="preserve">
+  <value>/{0}: неизвестный уровень ведения журнала {1}.</value>
+</data>
+<data name="SelfProfilingToolVersionSettingDescription" xml:space="preserve">
+  <value>Версия инструмента самопрофилирования</value>
+</data>
+<data name="EnvironmentOptionPageTitle" xml:space="preserve">
+  <value>Среда</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="AboutActionText" xml:space="preserve">
+  <value>О программе</value>
+</data>
+<data name="TokensRefreshed_Text" xml:space="preserve">
+  <value>Токены обновлены</value>
+</data>
+<data name="TotalVirtual__RichText_Text" xml:space="preserve">
+  <value>Всего виртуальной памяти: {0}</value>
+</data>
+<data name="PerformanceMonitoringSettingsHeaded_Text" xml:space="preserve">
+  <value>Настройки мониторинга производительности завершены. TODO: добавить описание</value>
+</data>
+<data name="ExportToCsv_Button_Text" xml:space="preserve">
+  <value>Экспорт в .csv</value>
+</data>
+<data name="AcceptedAgreementsSettingDescription" xml:space="preserve">
+  <value>Лицензионные соглашения, принятые пользователем</value>
+</data>
+<data name="TheUserSettingsFileCouldNotBeLoaded_Text" xml:space="preserve">
+  <value>Не удалось загрузить файл пользовательских настроек.
+
+{0}
+{1}</value>
+</data>
+<data name="SomeBoolOptionForEnabledSettingDescription" xml:space="preserve">
+  <value>Включенная логическая опция</value>
+</data>
+<data name="StandardBrowserActionsActionGroupText" xml:space="preserve">
+  <value>Стандартные действия браузера</value>
+</data>
+<data name="MemoryUsageIndicatorInTheStatusBarSettingDescription" xml:space="preserve">
+  <value>Индикатор использования памяти (в строке состояния)</value>
+</data>
+<data name="About___Text" xml:space="preserve">
+  <value>О {0} {1}(&amp;A)…</value>
+</data>
+<data name="SubmittingExceptions_Text" xml:space="preserve">
+  <value>Отправка исключений</value>
+</data>
+<data name="Canceled_Text" xml:space="preserve">
+  <value>Отменено</value>
+</data>
+<data name="ExportsThemedIconThisIncludesBothImagesOnDiscOrSourceFilesForAddingIconsToTheSolutionActionGroupDescription" xml:space="preserve">
+  <value>Экспорт тематических значков, включая как изображения на диске, так и исходные файлы для добавления значков в решение</value>
+</data>
+<data name="ApplicationHousekeepingSettingsGenerallyShouldNotBeSharedWithTheSolutionWithinATeamSettingDescription" xml:space="preserve">
+  <value>Настройки внутреннего обслуживания приложения. Обычно не должны быть общими для решения в рамках команды.</value>
+</data>
+<data name="AuthorizeInWebBrowserIfItIsNotOpenAutomatically_Text" xml:space="preserve">
+  <value>Аутентификация в веб-браузере. Если браузер не открылся автоматически, откройте его и вставьте ссылку из буфера обмена для аутентификации.</value>
+</data>
+<data name="OpenSettings_Caption" xml:space="preserve">
+  <value>Открыть настройки</value>
+</data>
+<data name="FluentDark_Text" xml:space="preserve">
+  <value>Fluent Design, Тёмная тема</value>
+</data>
+<data name="SentAcceptedAgreementsPerDocumentSettingDescription" xml:space="preserve">
+  <value>Отправленные принятые соглашения по документам</value>
+</data>
+<data name="NoOutputsYet_Text" xml:space="preserve">
+  <value>Выводов пока нет</value>
+</data>
+<data name="Smart_Text" xml:space="preserve">
+  <value>Умный</value>
+</data>
+<data name="HowFrequentlyUIResponsivenessIsCheckedSettingDescription" xml:space="preserve">
+  <value>Как часто проверяется отзывчивость пользовательского интерфейса</value>
+</data>
+<data name="SettingsForTheThemedIconsViewerVSettingDescription" xml:space="preserve">
+  <value>Настройки средства просмотра тематических значков V1</value>
+</data>
+<data name="IconViewerOpenSyncPaneActionText" xml:space="preserve">
+  <value>Синхронизация</value>
+</data>
+<data name="WhetherThisInjectedLayerIsOnOrOffSettingDescription" xml:space="preserve">
+  <value>Включен или выключен этот внедренный слой</value>
+</data>
+<data name="MemoryUsageOptionPageTitle" xml:space="preserve">
+  <value>Использование памяти</value>
+</data>
+<data name="StoresTheSettingsMigrationStatusForEachOfTheSettingsLayersShouldOnlyBePresentIfASettingsMigrationCaseWasDetectedAndTheMigrationProcedureHasRunSettingDescription" xml:space="preserve">
+  <value>Хранит статус миграции настроек для каждого из слоев настроек. Должен присутствовать только в случае обнаружения миграции настроек и выполнения процедуры миграции.</value>
+</data>
+<data name="CouldNotOpenAnInternetURIWithPlatform_Text" xml:space="preserve">
+  <value>Не удалось открыть интернет-URI с помощью платформенно-специфичной команды.
+
+Команда: {0}
+URI: {1}
+Ошибка: {2}</value>
+</data>
+<data name="LicensedTo__Text" xml:space="preserve">
+  <value>Лицензировано для {0}</value>
+</data>
+<data name="ProductHomeDirActionText" xml:space="preserve">
+  <value>Домашний каталог продукта</value>
+</data>
+<data name="CopySettingsToActionGroupText" xml:space="preserve">
+  <value>Копировать настройки в</value>
+</data>
+<data name="NoLicenseServerDetected_Text" xml:space="preserve">
+  <value>Сервер лицензий не обнаружен</value>
+</data>
+<data name="ExportToCsv_Button_Text2" xml:space="preserve">
+  <value>Экспорт в .csv</value>
+</data>
+<data name="RunBuildWaitingForEntryPoints_Text" xml:space="preserve">
+  <value>RunBuild: Ожидание точек входа</value>
+</data>
+<data name="DefaultVisibilityModeOfInlayHintsSettingDescription" xml:space="preserve">
+  <value>Режим видимости встроенных подсказок по умолчанию</value>
+</data>
+<data name="ModifiedSettingWillBeSaved_Text" xml:space="preserve">
+  <value>Будет сохранена 1 измененная настройка</value>
+</data>
+<data name="CopyLayerToLayerActionText" xml:space="preserve">
+  <value>Копировать слой в слой</value>
+</data>
+<data name="ExceptionReporterAuthorization_Body" xml:space="preserve">
+  <value>Теперь вы можете закрыть эту страницу и вернуться в IDE</value>
+</data>
+<data name="NotificationSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки уведомлений</value>
+</data>
+<data name="Submitting_Exceptions_ToolTip" xml:space="preserve">
+  <value>Отправка {0} исключений</value>
+</data>
+<data name="DirectoryWithIconFilesActionDescription" xml:space="preserve">
+  <value>Открывает панель, в которой можно просматривать папки на диске и предварительно просматривать все похожие на значки файлы как тематические значки</value>
+</data>
+<data name="SomeBoolOptionForBindSSettingDescription" xml:space="preserve">
+  <value>Некоторая логическая опция для привязки s</value>
+</data>
+<data name="ThereIsNoGroupSelectedToAddTheNewFile_Text" xml:space="preserve">
+  <value>Не выбрана группа, в которую нужно добавить новый файловый слой</value>
+</data>
+<data name="OpenSettingsFileActionText" xml:space="preserve">
+  <value>Открыть файл настроек…</value>
+</data>
+<data name="WhetherAutomaticCleanupAllowedSettingDescription" xml:space="preserve">
+  <value>Разрешена ли автоматическая очистка</value>
+</data>
+<data name="ProductHomeDirActionDescription" xml:space="preserve">
+  <value>Открывает панель, отображающую все тематические значки, объявленные в файлах исходного кода C# в проектах в домашнем каталоге продукта</value>
+</data>
+<data name="Extensions_Text" xml:space="preserve">
+  <value>Расширения</value>
+</data>
+<data name="NoNewTokens_Text" xml:space="preserve">
+  <value>Нет новых токенов</value>
+</data>
+<data name="OptionsActionText" xml:space="preserve">
+  <value>Параметры(&amp;O)…</value>
+</data>
+<data name="SubscriptionIsValidThrough__Text" xml:space="preserve">
+  <value>. Подписка действительна до {0}</value>
+</data>
+<data name="LoggedIn_Text" xml:space="preserve">
+  <value>В системе</value>
+</data>
+<data name="CurrentRuntimeIconsActionText" xml:space="preserve">
+  <value>Текущие значки времени выполнения</value>
+</data>
+<data name="VisualStudioRestartMayBeRequired_Text" xml:space="preserve">
+  <value>Может потребоваться перезапуск Visual Studio, если выбранный язык еще не установлен.</value>
+</data>
+<data name="OpensANewPaneInTheThemedIconsViewerToolWindowActionGroupDescription" xml:space="preserve">
+  <value>Открывает новую панель в окне инструментов средства просмотра тематических значков</value>
+</data>
+<data name="MRUPositionsAndSizesOfApplicationWindowsSettingDescription" xml:space="preserve">
+  <value>Последние позиции и размеры окон приложения</value>
+</data>
+<data name="ProfileActionGroupText" xml:space="preserve">
+  <value>Профиль</value>
+</data>
+<data name="ReportNonProductExceptionsSettingDescription" xml:space="preserve">
+  <value>Сообщать о непродуктовых исключениях</value>
+</data>
+<data name="URI_Text" xml:space="preserve">
+  <value>URI:</value>
+</data>
+<data name="SettingsForInternalActionToCreateZoneLicensCheckersSettingDescription" xml:space="preserve">
+  <value>Настройки для внутреннего действия создания ZoneLicensCheckers</value>
+</data>
+<data name="MRUViewModeSettingDescription" xml:space="preserve">
+  <value>Режим просмотра последних</value>
+</data>
+<data name="_In__Text" xml:space="preserve">
+  <value>{0} в {1}</value>
+</data>
+<data name="ReSharperCultureSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки культуры ReSharper</value>
+</data>
+<data name="TheSettingsCouldNotBeAppliedReturning_Text" xml:space="preserve">
+  <value>Не удалось применить настройки. Возврат в диалоговое окно "Параметры".</value>
+</data>
+<data name="ToolsOptionPageTitle" xml:space="preserve">
+  <value>Инструменты</value>
+</data>
+<data name="ExportLayer_Caption" xml:space="preserve">
+  <value>Экспорт слоя</value>
+</data>
+<data name="FileDoesnTExist__Text" xml:space="preserve">
+  <value>Файл не существует: {0}</value>
+</data>
+<data name="SubscriptionCoversOnlyBuildsIssuedPrior_Text" xml:space="preserve">
+  <value>Подписка распространяется только на сборки, выпущенные до {0}</value>
+</data>
+<data name="FolderDoesnTExist__Text" xml:space="preserve">
+  <value>Папка не существует: {0}</value>
+</data>
+<data name="CheckedBuild_Text" xml:space="preserve">
+  <value>Проверенная сборка.</value>
+</data>
+<data name="ThereReOptionsThatRequireUserConsent_Text" xml:space="preserve">
+  <value>Есть параметры, требующие согласия пользователя</value>
+</data>
+<data name="TheToolWindowHasNotBeenLoadedYet_Text" xml:space="preserve">
+  <value>Окно инструментов еще не загружено</value>
+</data>
+<data name="PersistExceptionsSettingDescription" xml:space="preserve">
+  <value>Сохранять исключения</value>
+</data>
+<data name="SetsUpApplicationsAccessToTheWorldWideWebSettingDescription" xml:space="preserve">
+  <value>Настраивает доступ приложения к всемирной паутине</value>
+</data>
+<data name="Add_Button_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="ImportFromFile_Text" xml:space="preserve">
+  <value>Импорт из файла</value>
+</data>
+<data name="Remove_Button_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="WritingScalableVectorGraphicsFiles_Text" xml:space="preserve">
+  <value>Запись файлов SVG</value>
+</data>
+<data name="WatchExceptionStorageSettingDescription" xml:space="preserve">
+  <value>Хранилище исключений Watch</value>
+</data>
+<data name="ApplicationLogs_Text" xml:space="preserve">
+  <value>Журналы приложения</value>
+</data>
+<data name="AreYouSureToRemove_Layer_FromLayers_Text" xml:space="preserve">
+  <value>Вы уверены, что хотите удалить слой {0} из списка слоев?</value>
+</data>
+<data name="_PendingExceptionClickHereToSubmit_Text" xml:space="preserve">
+  <value>{0} ожидающих исключений. Нажмите здесь, чтобы отправить.</value>
+</data>
+<data name="FailedToUpload_Text" xml:space="preserve">
+  <value>Не удалось загрузить {0}. Проверьте подключение к сети и повторите попытку.
+Хотите попробовать перезагрузить?</value>
+</data>
+<data name="ExportToHTMLActionText" xml:space="preserve">
+  <value>Экспорт в HTML…</value>
+</data>
+<data name="DoNotUseMultiCoreFibers_Description_Text" xml:space="preserve">
+  <value>Не использовать многоядерные файберы</value>
+</data>
+<data name="ProductRegionAndCultureSettings_Text" xml:space="preserve">
+  <value>Регион и язык</value>
+</data>
+<data name="Settings_Text" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="WebProxySettingsOptionPageTitle" xml:space="preserve">
+  <value>Настройки веб-прокси</value>
+</data>
+<data name="SubscriptionHasExpiredOn__WillBeDisabled_Text" xml:space="preserve">
+  <value>Подписка истекла {0}. {1} будет отключен {2}</value>
+</data>
+<data name="NameSettingDescription" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="NoValidLicenseFound_Text" xml:space="preserve">
+  <value>Действительная лицензия не найдена</value>
+</data>
+<data name="OrderSettingDescription" xml:space="preserve">
+  <value>Порядок</value>
+</data>
+<data name="Save_Options_Dialog_Button_Text" xml:space="preserve">
+  <value>Сохранить</value>
+</data>
+<data name="ReSharperActionGroupText" xml:space="preserve">
+  <value>ReSharper</value>
+</data>
+<data name="ExceptionSubmitter_Text" xml:space="preserve">
+  <value>Отправитель исключений</value>
+</data>
+<data name="SubmitPrivatelySettingDescription" xml:space="preserve">
+  <value>Отправлять приватно</value>
+</data>
+<data name="Report_Consent_Aggree2" xml:space="preserve">
+  <value>Отправляя отчет, который включает любые персональные данные или адрес электронной почты, вы подтверждаете, что JetBrains s.r.o. может обрабатывать предоставленные вами персональные данные для оказания поддержки и может привлекать к такому обработке &lt;a href="https://www.jetbrains.com/legal/docs/privacy/third-parties"&gt;третьи стороны&lt;/a&gt;. Для получения более подробной информации об этой обработке см. &lt;a href="https://www.jetbrains.com/legal/docs/privacy/privacy.html"&gt;Политику конфиденциальности JetBrains&lt;/a&gt;.</value>
+</data>
+<data name="Report_Consent_Aggree3" xml:space="preserve">
+  <value>Отправляя форму, которая включает любые персональные данные или адрес электронной почты, вы подтверждаете, что JetBrains s.r.o. может обрабатывать предоставленные вами персональные данные для оказания поддержки и может привлекать к такому обработке &lt;a href="https://www.jetbrains.com/legal/docs/privacy/third-parties"&gt;третьи стороны&lt;/a&gt;. Для получения более подробной информации об этой обработке см. &lt;a href="https://www.jetbrains.com/legal/docs/privacy/privacy.html"&gt;Политику конфиденциальности JetBrains&lt;/a&gt;.</value>
+</data>
+<data name="AiAssistantWithAccelerator" xml:space="preserve">
+  <value>AI Assistant(&amp;S)</value>
+</data>
+<data name="DeleteAll_Text" xml:space="preserve">
+  <value>Удалить все</value>
+</data>
+<data name="EditLayerActionText" xml:space="preserve">
+  <value>Редактировать слой</value>
+</data>
+<data name="IfIsCustomProxyUseThisProxyUsernameForPasswordProtectedProxiesOnlySettingDescription" xml:space="preserve">
+  <value>Если IsCustomProxy, используйте это имя пользователя прокси (только для защищенных паролем прокси)</value>
+</data>
+<data name="BuildArtifacts_Text" xml:space="preserve">
+  <value>Артефакты сборки</value>
+</data>
+<data name="SubscriptionWillExpireOn__WillNoLonger_Text" xml:space="preserve">
+  <value>Подписка истечет {0}. {1} больше не будет доступен.</value>
+</data>
+<data name="AllFiles_Text" xml:space="preserve">
+  <value>Все файлы</value>
+</data>
+<data name="FailedToWriteToTheOutputLayer_Caption" xml:space="preserve">
+  <value>Не удалось записать в выходной слой</value>
+</data>
+<data name="IconsIn___Text" xml:space="preserve">
+  <value>Значки в {0} {1}</value>
+</data>
+<data name="VisualStudioActionGroupText" xml:space="preserve">
+  <value>Visual Studio</value>
+</data>
+<data name="CollapseAllActionText" xml:space="preserve">
+  <value>Свернуть все</value>
+</data>
+<data name="DownloadingDotMemoryConsoleProfiler_Text" xml:space="preserve">
+  <value>Загрузка консольного профилировщика dotMemory…</value>
+</data>
+<data name="SettingsLayersActionGroupText" xml:space="preserve">
+  <value>Слои настроек</value>
+</data>
+<data name="Report_Consent_AggreeHeader" xml:space="preserve">
+  <value>Отправляя этот отчет, вы соглашаетесь с условиями политики конфиденциальности</value>
+</data>
+<data name="WhetherToSubmitAnonymouslySettingDescription" xml:space="preserve">
+  <value>Отправлять ли анонимно</value>
+</data>
+<data name="WindowsActionGroupText" xml:space="preserve">
+  <value>Окна(&amp;W)</value>
+</data>
+<data name="CopyActionText" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="SavingProfilingSnapshot_Text" xml:space="preserve">
+  <value>Сохранение снимка профилирования…</value>
+</data>
+<data name="UserIsInformedAboutAnonymousSubmissionSettingDescription" xml:space="preserve">
+  <value>Пользователь уведомлен об анонимной отправке</value>
+</data>
+<data name="ExtraArtifactsForBuildSettingDescription" xml:space="preserve">
+  <value>Дополнительные артефакты для сборки</value>
+</data>
+<data name="Ms_IntOption_TextSuffix2" xml:space="preserve">
+  <value>мс</value>
+</data>
+<data name="SendingReport_Text" xml:space="preserve">
+  <value>Отправка отчета…</value>
+</data>
+<data name="ReSharperGeneralInlayHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Общие настройки встроенных подсказок ReSharper</value>
+</data>
+<data name="About_Text" xml:space="preserve">
+  <value>О программе</value>
+</data>
+<data name="MuteAll_Text" xml:space="preserve">
+  <value>Отключить все</value>
+</data>
+<data name="_CtrlP_Text" xml:space="preserve">
+  <value>{0} (Ctrl+P)</value>
+</data>
+<data name="VsMenuOpenedActionText" xml:space="preserve">
+  <value>VsMenuOpenedAction</value>
+</data>
+<data name="VisualStudioVersionForLocalInstallSettingDescription" xml:space="preserve">
+  <value>Версия Visual Studio для LocalInstall</value>
+</data>
+<data name="ThisTextCouldNotBeParsedAsAValidURI_Text" xml:space="preserve">
+  <value>Этот текст не может быть распознан как допустимый URI</value>
+</data>
+<data name="EditorOptionPageTitle" xml:space="preserve">
+  <value>Редактор</value>
+</data>
+<data name="FreeTrialPeriodIsRunning1DayLeft_Text" xml:space="preserve">
+  <value>Действует бесплатный пробный период. Остался 1 день</value>
+</data>
+<data name="LayerName_Text" xml:space="preserve">
+  <value>Имя слоя</value>
+</data>
+<data name="ResetAllSettingsActionText" xml:space="preserve">
+  <value>Сбросить все настройки</value>
+</data>
+<data name="MiddleEast_Text" xml:space="preserve">
+  <value>Ближний Восток</value>
+</data>
+<data name="HTMLActionText" xml:space="preserve">
+  <value>HTML</value>
+</data>
+<data name="AverageDelay__RichText_Text" xml:space="preserve">
+  <value>Средняя задержка: {0} мс</value>
+</data>
+<data name="GroupID_Text" xml:space="preserve">
+  <value>ID группы</value>
+</data>
+<data name="MRUSelectedPageSettingDescription" xml:space="preserve">
+  <value>Последняя выбранная страница</value>
+</data>
+<data name="ThereAreNoRecentBuildsToShowInThisView_Text" xml:space="preserve">
+  <value>Нет последних сборок для отображения в этом представлении</value>
+</data>
+<data name="SelectAnItemToEdit_Text" xml:space="preserve">
+  <value>Выберите элемент для редактирования</value>
+</data>
+<data name="ShowMoreItems_Text" xml:space="preserve">
+  <value>Показать больше элементов</value>
+</data>
+<data name="ShowFormAfterSubmissionSettingDescription" xml:space="preserve">
+  <value>Показывать форму после отправки</value>
+</data>
+<data name="HelpActionGroupText" xml:space="preserve">
+  <value>Справка(&amp;H)</value>
+</data>
+<data name="SingleGotoTwitterActionText" xml:space="preserve">
+  <value>SingleGotoTwitter</value>
+</data>
+<data name="FreeTrialPeriodIsRunning_DaysLeft_Text" xml:space="preserve">
+  <value>Действует бесплатный пробный период. Осталось {0} дней</value>
+</data>
+<data name="PleaseWait_Text" xml:space="preserve">
+  <value>Пожалуйста, подождите…</value>
+</data>
+<data name="GettingMemorySnapshot_Text" xml:space="preserve">
+  <value>Получение снимка памяти…</value>
+</data>
+<data name="AuthorizationFailed_ThisMightHappen_Text" xml:space="preserve">
+  <value>Сбой аутентификации: {0}. Это может произойти, если выполняется другой процесс аутентификации.</value>
+</data>
+<data name="ContextHelpActionText" xml:space="preserve">
+  <value>Контекстная справка</value>
+</data>
+<data name="TemporaryStorageForSavingToAPath_Text" xml:space="preserve">
+  <value>Временное хранилище для сохранения по пути</value>
+</data>
+<data name="GlobalSettingsUpgradedSettingDescription" xml:space="preserve">
+  <value>Глобальные настройки обновлены</value>
+</data>
+<data name="SubscriptionExpiredOn__Text" xml:space="preserve">
+  <value>Подписка истекла {0}</value>
+</data>
+<data name="IsUiSmoothnessToolkitEnabledSettingDescription" xml:space="preserve">
+  <value>Включить инструмент плавности пользовательского интерфейса</value>
+</data>
+<data name="Manage_Options_Dialog_Button_Text" xml:space="preserve">
+  <value>Управление…</value>
+</data>
+<data name="DockOptionsActionText" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="TrueAlwaysShowModalDialogWhenExceptionOccursFalseExceptionNotificationInStatusBarCollectingExceptionsInBackgroundIfPossibleSettingDescription" xml:space="preserve">
+  <value>True: всегда показывать модальное диалоговое окно при возникновении исключения. False: уведомление об исключении в строке состояния, сбор исключений в фоновом режиме (если возможно).</value>
+</data>
+<data name="ProjectModelActionGroupText" xml:space="preserve">
+  <value>Модель проекта</value>
+</data>
+<data name="RegularFiberUsageNumberOfFibersEqualsProcessorNumber_Description_Text" xml:space="preserve">
+  <value>Обычное использование файберов. Количество файберов равно количеству процессоров.</value>
+</data>
+<data name="IsEnabledSettingDescription" xml:space="preserve">
+  <value>Включено</value>
+</data>
+<data name="CommaSeparatedListOfGuardedActionNames_Text" xml:space="preserve">
+  <value>Список имен защищенных действий, разделенных запятыми, для игнорирования</value>
+</data>
+<data name="BrowseAsTilesActionText" xml:space="preserve">
+  <value>Просматривать как плитки</value>
+</data>
+<data name="MemoryLoad__RichText_Text" xml:space="preserve">
+  <value>Загрузка памяти: {0}</value>
+</data>
+<data name="EditItem_Text" xml:space="preserve">
+  <value>Редактировать элемент</value>
+</data>
+<data name="IntervalOfTimeForWhichTheTextInputChangesAreDeferredBeforeTheyAreCommittedHelpsToProcessConsiderableAmountsOfUserInputRatherThanReactToEachKeystrokeSettingDescription" xml:space="preserve">
+  <value>Интервал времени, на который откладываются изменения текстового ввода перед их применением. Помогает обрабатывать значительные объемы пользовательского ввода, а не реагировать на каждое нажатие клавиши.</value>
+</data>
+<data name="CouldNotOpenAnInternetURIInYourDefault_Text" xml:space="preserve">
+  <value>Не удалось открыть интернет-URI в браузере по умолчанию.
+Возможно, он неправильно интегрирован с операционной системой.
+
+URI: {0}
+Ошибка: {1}</value>
+</data>
+<data name="ProperlyLicensed_Text" xml:space="preserve">
+  <value>Надлежащим образом лицензировано</value>
+</data>
+<data name="AddLayerActionGroupText" xml:space="preserve">
+  <value>Добавить слой</value>
+</data>
+<data name="ShowInFindResults_Text" xml:space="preserve">
+  <value>Показать в результатах поиска</value>
+</data>
+<data name="ActionsActionGroupText" xml:space="preserve">
+  <value>Действия</value>
+</data>
+<data name="SubscriptionToLicense_HasExpired_Text" xml:space="preserve">
+  <value>Подписка на лицензию {0} истекла</value>
+</data>
+<data name="SpecifiesTheAbsolutePathToTheFileBasedUserInjectedLayerDiskFileOptionalTheRelativePathIfApplicableHasPriorityOverThisValueSettingDescription" xml:space="preserve">
+  <value>Указывает абсолютный путь к файловому пользовательскому внедренному слою на диске. Необязательно. RelativePath (если применим) имеет приоритет над этим значением.</value>
+</data>
+<data name="TemporaryStorageForLoadingFromAnURI_Text" xml:space="preserve">
+  <value>Временное хранилище для загрузки из URI</value>
+</data>
+<data name="TimeoutBetweenCleanupRunsSettingDescription" xml:space="preserve">
+  <value>Таймаут между запусками очистки</value>
+</data>
+<data name="ErrorWhenExportingSettings__Text" xml:space="preserve">
+  <value>Не удалось экспортировать настройки в файл. {0}</value>
+</data>
+<data name="OpenDefaultSetOfPanesActionText" xml:space="preserve">
+  <value>Открыть набор панелей по умолчанию</value>
+</data>
+<data name="DumpActionGroupText" xml:space="preserve">
+  <value>Дамп</value>
+</data>
+<data name="Browse_Button_Text2" xml:space="preserve">
+  <value>Обзор…</value>
+</data>
+<data name="TODOAddDescription_Text" xml:space="preserve">
+  <value>TODO: добавить описание</value>
+</data>
+<data name="ClearNotifications_Caption" xml:space="preserve">
+  <value>Очистить уведомления</value>
+</data>
+<data name="RelativePriorityLevelOfThisInjectedLayerAgainstItsHostingLayerSettingDescription" xml:space="preserve">
+  <value>Относительный уровень приоритета этого внедренного слоя по отношению к его hosting-слою</value>
+</data>
+<data name="FailedToConnectToJetBrainsAccountTo_Text" xml:space="preserve">
+  <value>Не удалось подключиться к JetBrains Account для проверки ресурса</value>
+</data>
+<data name="ShowNotificationsActionText" xml:space="preserve">
+  <value>Показать уведомления</value>
+</data>
+<data name="TotalPhysical__RichText_Text" xml:space="preserve">
+  <value>Всего физической памяти: {0}</value>
+</data>
+<data name="_LIVE_Text" xml:space="preserve">
+  <value>{0} (LIVE)</value>
+</data>
+<data name="RunBuildFAILED_Text" xml:space="preserve">
+  <value>RunBuild: СБОЙ</value>
+</data>
+<data name="AddNewItem_Text" xml:space="preserve">
+  <value>Добавить новый элемент</value>
+</data>
+<data name="ToolsActionGroupText" xml:space="preserve">
+  <value>Инструменты</value>
+</data>
+<data name="SaveTo_Options_Dialog_Button_Text" xml:space="preserve">
+  <value>Сохранить в</value>
+</data>
+<data name="LoginFailedNoUserIdObtained_Text" xml:space="preserve">
+  <value>Ошибка входа: идентификатор пользователя не получен</value>
+</data>
+<data name="ReentrancyGuardFreezeMonitorSettingsDescription" xml:space="preserve">
+  <value>Настройки монитора заморозки защиты от реентерабельности</value>
+</data>
+<data name="PathMustBeAbsolute__Text" xml:space="preserve">
+  <value>Путь должен быть абсолютным: {0}</value>
+</data>
+<data name="DumpToFile_Caption" xml:space="preserve">
+  <value>Дамп в файл</value>
+</data>
+<data name="CurrentRuntimeIconsActionDescription" xml:space="preserve">
+  <value>Открывает панель, содержащую тематические значки, доступные в текущей среде выполнения</value>
+</data>
+<data name="InlayHintSettingsGenerallyShouldNotBeSharedWithTheSolutionWithinATeamSettingDescription" xml:space="preserve">
+  <value>Настройки встроенных подсказок. Обычно не должны быть общими для решения в рамках команды.</value>
+</data>
+<data name="Color_Text" xml:space="preserve">
+  <value>Цвет</value>
+</data>
+<data name="SystemWebProxySettingsCouldNotBeOpened_Text" xml:space="preserve">
+  <value>Не удалось открыть настройки системного веб-прокси.
+
+{0}</value>
+</data>
+<data name="RunBuildAutomaticallyShuttingDownIn_Text" xml:space="preserve">
+  <value>RunBuild: автоматическое закрытие через {0:N0} сек., нажмите для отмены</value>
+</data>
+<data name="DoesNotRequireLicense_Text" xml:space="preserve">
+  <value>Не требует лицензии</value>
+</data>
+<data name="WindowPersistenceDataSettingDescription" xml:space="preserve">
+  <value>Данные сохранения состояния окон</value>
+</data>
+<data name="ShortcutsSchemeSettingDescription" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="LicenseToVersion_IsNotAcceptable_Text" xml:space="preserve">
+  <value>Лицензия для версии {0} неприемлема</value>
+</data>
+<data name="ShowAllLayers_Text" xml:space="preserve">
+  <value>Показать все слои…</value>
+</data>
+<data name="PByPublicKeySettingDescription" xml:space="preserve">
+  <value>P по открытому ключу</value>
+</data>
+<data name="NoRefreshTokenObtained_Text" xml:space="preserve">
+  <value>Токен обновления не получен</value>
+</data>
+<data name="ExportCCodeSExpressionBodyCreateNewIconPackFileActionDescription" xml:space="preserve">
+  <value>Создать совершенно новый файл пакета тематических значков</value>
+</data>
+<data name="ItemText_Text" xml:space="preserve">
+  <value>Текст элемента:</value>
+</data>
+<data name="IconViewerOpenIconsActionGroupText" xml:space="preserve">
+  <value>Открыть набор значков</value>
+</data>
+<data name="ThereReDocumentsThatRequireUserConsent_Text" xml:space="preserve">
+  <value>Есть документы, требующие согласия пользователя</value>
+</data>
+<data name="ShowWarningNotificationsForPerformanceIssuesSettingDescription" xml:space="preserve">
+  <value>Показывать предупреждающие уведомления о проблемах производительности</value>
+</data>
+<data name="LicenseIsNotApplicableTo_Text" xml:space="preserve">
+  <value>Лицензия неприменима к</value>
+</data>
+<data name="Africa_Text" xml:space="preserve">
+  <value>Африка</value>
+</data>
+<data name="OptionsOptionPageTitle" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="IncorrectDataReceivedFromTheAuthorization_Text" xml:space="preserve">
+  <value>Получены некорректные данные с сервера аутентификации</value>
+</data>
+<data name="BuildLog_Text" xml:space="preserve">
+  <value>Журнал сборки</value>
+</data>
+<data name="ThisPreReleaseVersionWillExpireIn_Days_Text" xml:space="preserve">
+  <value>Срок действия этой пре-релизной версии истечет через {0:####} дней.</value>
+</data>
+<data name="Other_Text" xml:space="preserve">
+  <value>Другое</value>
+</data>
+<data name="CloseAllButThisActionText" xml:space="preserve">
+  <value>Закрыть все, кроме этого</value>
+</data>
+<data name="WritingThemedIconsPackInCFormat_Text" xml:space="preserve">
+  <value>Запись пакета тематических значков в формате C#</value>
+</data>
+<data name="ThereWereNoExceptionsRecordedWithSettings_Text" xml:space="preserve">
+  <value>В подсистеме настроек не было зарегистрировано исключений</value>
+</data>
+<data name="BottomActionText" xml:space="preserve">
+  <value>Снизу</value>
+</data>
+<data name="Restart__Text" xml:space="preserve">
+  <value>Перезапустить {0}</value>
+</data>
+<data name="MoveUpActionText" xml:space="preserve">
+  <value>Переместить вверх</value>
+</data>
+<data name="RenameSettingsLayer_Caption" xml:space="preserve">
+  <value>Переименовать слой настроек</value>
+</data>
+<data name="TheUserSettingsFileFromAPreviousVersion_Text" xml:space="preserve">
+  <value>Не удалось загрузить файл пользовательских настроек предыдущей версии продукта.
+
+{0}
+{1}</value>
+</data>
+<data name="SettingsLayersRightHandActionGroupText" xml:space="preserve">
+  <value>Слои настроек (правая сторона)</value>
+</data>
+<data name="UiSmoothnessToolkitSettingsDescription" xml:space="preserve">
+  <value>Настройки инструмента плавности пользовательского интерфейса</value>
+</data>
+<data name="InfiniteSubscription_Text" xml:space="preserve">
+  <value>Бессрочная подписка</value>
+</data>
+<data name="ImportAndExportActionGroupText" xml:space="preserve">
+  <value>Импорт и экспорт</value>
+</data>
+<data name="LicenseIsNotApplicableToThisProduct_Text" xml:space="preserve">
+  <value>Лицензия неприменима к этому продукту</value>
+</data>
+<data name="YourLicenseTicketHasBeenObtainedFrom_Text" xml:space="preserve">
+  <value>Ваш лицензионный билет был получен из устаревшей версии сервера лицензий. Чтобы ваш продукт был лицензирован, License Server необходимо немедленно обновить до последней версии. Пожалуйста, ознакомьтесь с полной информацией и передайте ее вашему серверному администратору.</value>
+</data>
+<data name="ToggleAutoHideActionText" xml:space="preserve">
+  <value>Переключить автоматическое скрытие</value>
+</data>
+<data name="SubmitPending_Text" xml:space="preserve">
+  <value>Ожидают отправки</value>
+</data>
+<data name="ACustomDisplayNameGivenToTheLayerByTheUserAnEmptyStringMeansItsNotDefinedAndWhateverDefaultIsOnTheMountingPointShouldBeUsedSettingDescription" xml:space="preserve">
+  <value>Пользовательское отображаемое имя, заданное пользователем для слоя. Пустая строка означает, что оно не определено, и следует использовать значение по умолчанию для точки монтирования.</value>
+</data>
+<data name="ABExperimentStatusText" xml:space="preserve">
+  <value>Статус A/B эксперимента</value>
+</data>
+<data name="OptionsBadgeSettingsHiddenPagesText" xml:space="preserve">
+  <value>Скрытые бейджи в дереве страниц</value>
+</data>
+<data name="DirectoryWithIconFilesActionText" xml:space="preserve">
+  <value>Каталог с файлами значков</value>
+</data>
+<data name="ExceptionSubmitterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отправителя исключений</value>
+</data>
+<data name="WritingPortableNetworkGraphicsFiles_Text" xml:space="preserve">
+  <value>Запись файлов PNG</value>
+</data>
+<data name="UIResponsivenessOptionPageTitle" xml:space="preserve">
+  <value>Отзывчивость пользовательского интерфейса</value>
+</data>
+<data name="GotoProductWebPageActionText" xml:space="preserve">
+  <value>Перейти на веб-страницу продукта(&amp;W)</value>
+</data>
+<data name="GatheringResults_Text" xml:space="preserve">
+  <value>Сбор результатов</value>
+</data>
+<data name="IsUiSmoothnessToolkitEnabledByEnvironmentVariableDescription" xml:space="preserve">
+  <value>Включить инструмент плавности пользовательского интерфейса через переменную окружения</value>
+</data>
+<data name="NoProductFound_Text" xml:space="preserve">
+  <value>Продукт не найден</value>
+</data>
+<data name="AuthenticationStarted_Text" xml:space="preserve">
+  <value>Аутентификация начата</value>
+</data>
+<data name="License_HasBeenAssignedTo_PleaseEnter_Text" xml:space="preserve">
+  <value>Лицензия {0} была назначена {1}. Введите другой лицензионный ключ или обратитесь к администратору вашей команды.</value>
+</data>
+<data name="ExceptionReporterAuthorization_Message" xml:space="preserve">
+  <value>Аутентификация прошла успешно</value>
+</data>
+<data name="TheToolWindowHasBeenLoadedRendering_Text" xml:space="preserve">
+  <value>Окно инструментов загружено, отрисовывается его содержимое…</value>
+</data>
+<data name="SomeBoolOptionSettingDescription" xml:space="preserve">
+  <value>Некоторая логическая опция</value>
+</data>
+<data name="EditLicense_Caption" xml:space="preserve">
+  <value>Редактировать лицензию</value>
+</data>
+<data name="LoggingIn_Text" xml:space="preserve">
+  <value>Вход в систему…</value>
+</data>
+<data name="ShowPreviewActionGroupText" xml:space="preserve">
+  <value>Показать предварительный просмотр</value>
+</data>
+<data name="LoggingIsNotEnabled_Text" xml:space="preserve">
+  <value>Ведение журнала не включено.</value>
+</data>
+<data name="SingleGotoWebActionText" xml:space="preserve">
+  <value>SingleGotoWeb</value>
+</data>
+<data name="ProductTwitterActionGroupText" xml:space="preserve">
+  <value>Twitter продукта(&amp;T)</value>
+</data>
+<data name="FUSActionGroupText" xml:space="preserve">
+  <value>FUS</value>
+</data>
+<data name="TextActionText" xml:space="preserve">
+  <value>Текст</value>
+</data>
+<data name="TimelinePerformanceSnapshotAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Снимок производительности (Временная шкала)</value>
+</data>
+<data name="TokenRefreshFailed_Text" xml:space="preserve">
+  <value>Не удалось обновить токен</value>
+</data>
+<data name="SamplingPerformanceSnapshotAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Снимок производительности (Сэмплирование)</value>
+</data>
+<data name="ShowLicenseRequestedByUser_Text" xml:space="preserve">
+  <value>Показать лицензию, запрошенную пользователем</value>
+</data>
+<data name="DumpStatisticsGroupsActionText" xml:space="preserve">
+  <value>Дамп групп статистики…</value>
+</data>
+<data name="DumpComponentContainersStatisticsActionText" xml:space="preserve">
+  <value>Дамп статистики контейнеров компонентов</value>
+</data>
+<data name="CopyTo_Text" xml:space="preserve">
+  <value>Копировать в</value>
+</data>
+<data name="CoverActionGroupText" xml:space="preserve">
+  <value>Обложка(&amp;C)</value>
+</data>
+<data name="PerformanceMonitoringOptionPageTitle" xml:space="preserve">
+  <value>Мониторинг производительности</value>
+</data>
+<data name="OpenDefaultSetOfPanesActionDescription" xml:space="preserve">
+  <value>Открыть набор панелей средства просмотра тематических значков по умолчанию</value>
+</data>
+<data name="OK_Options_Dialog_Button_Text" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="Report_Consent_Review3" xml:space="preserve">
+  <value>Проверьте детали того, что будет отправлено</value>
+</data>
+<data name="Report_Consent_Review2" xml:space="preserve">
+  <value>Хотя мы прилагаем все усилия, чтобы удалить любую конфиденциальную информацию (например, пути и т.д.), рекомендуется проверить перед отправкой. Вы можете выбрать приватную отправку исключения, чтобы оно было видно только вам и JetBrains.</value>
+</data>
+<data name="Report_Consent_Review1" xml:space="preserve">
+  <value>Пожалуйста, убедитесь, что вы проверили информацию, отправляемую в трекер проблем.</value>
+</data>
+<data name="ShowDataSharingOptionsRequestedByUser_Text" xml:space="preserve">
+  <value>Показать параметры общего доступа к данным, запрошенные пользователем</value>
+</data>
+<data name="N_ModifiedSettingsWillBeSaved_Text" xml:space="preserve">
+  <value>Будет сохранено {0} измененных настроек</value>
+</data>
+<data name="OpenLogActionText" xml:space="preserve">
+  <value>Открыть журнал</value>
+</data>
+<data name="_UseSystemProxyServerSettingsWhenDownloading_Text" xml:space="preserve">
+  <value>Использовать настройки прокси-сервера системы при загрузке из Интернета(_U)</value>
+</data>
+<data name="EnablePerformanceAssertionsOnReentrancyGuardActionExecutionSettingDescription" xml:space="preserve">
+  <value>Включить проверки производительности при выполнении действий защиты от реентерабельности</value>
+</data>
+<data name="DumpComponentContainersFlameGraphActionText" xml:space="preserve">
+  <value>Дамп Flame Graph контейнеров компонентов</value>
+</data>
+<data name="Edit_Button_Text" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="PerformanceGuideSettingDescription" xml:space="preserve">
+  <value>Руководство по производительности</value>
+</data>
+<data name="SubscriptionToLicense_IsAboutToExpire_Text" xml:space="preserve">
+  <value>Подписка на лицензию {0} скоро истечет</value>
+</data>
+<data name="__BuiltOn__Text" xml:space="preserve">
+  <value>{0} {1}, сборка от {2}</value>
+</data>
+<data name="BuildSteps_Text" xml:space="preserve">
+  <value>Шаги сборки</value>
+</data>
+<data name="ReadingPackagesFromProductContentPack_Text" xml:space="preserve">
+  <value>Чтение пакетов из ресурса пакета содержимого продукта…</value>
+</data>
+<data name="PerformanceMonitoringSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки мониторинга производительности</value>
+</data>
+<data name="FloatActionText" xml:space="preserve">
+  <value>Плавающий</value>
+</data>
+<data name="DumpUnwantedComponentContainersDependenciesActionText" xml:space="preserve">
+  <value>Дамп нежелательных зависимостей контейнеров компонентов</value>
+</data>
+<data name="ExportToFileActionText" xml:space="preserve">
+  <value>Экспорт в файл…</value>
+</data>
+<data name="GovernsTheUseOfAProxyServerWhenDownloadingFromInternetSettingDescription" xml:space="preserve">
+  <value>Регулирует использование прокси-сервера при загрузке из Интернета</value>
+</data>
+<data name="CouldNotOpenAnInternetURIOnBehalfOf_Text" xml:space="preserve">
+  <value>Не удалось открыть интернет-URI от имени "iexplore.exe" и "explorer.exe" в качестве резервного варианта после неудачи открытия URI в браузере по умолчанию.
+URI: {0}
+Ошибка Iexplore.exe: {1}
+Ошибка Explorer.exe: {2}</value>
+</data>
+<data name="IfConnectionTo_IsNotRestoredUntil___Text" xml:space="preserve">
+  <value>Если подключение к {0} не будет восстановлено до {1:f}, {2} будет отключен</value>
+</data>
+<data name="PrimaryScreenScreenshotAttachmentAction_Text" xml:space="preserve">
+  <value>Снимок экрана</value>
+</data>
+<data name="TheLastBuildGaveNoFilesForOutput_Text" xml:space="preserve">
+  <value>Последняя сборка не дала файлов для вывода</value>
+</data>
+<data name="AIIsProvideByTheIDEServicesButForbidden_Text" xml:space="preserve">
+  <value>AI Assistant предоставляется JetBrains IDE Services, но запрещен вашей организацией</value>
+</data>
+<data name="ExportSettingsToFile_Text" xml:space="preserve">
+  <value>{0} → Файл</value>
+</data>
+<data name="PathToFileWithStoredStateSettingDescription" xml:space="preserve">
+  <value>Путь к файлу с сохраненным состоянием</value>
+</data>
+<data name="GeneralSettingsOfTheApplicationUserInterfaceSettingDescription" xml:space="preserve">
+  <value>Общие настройки пользовательского интерфейса приложения</value>
+</data>
+<data name="WindowBoundsSettingDescription" xml:space="preserve">
+  <value>Границы окна</value>
+</data>
+<data name="BrowseAsIconPacksActionText" xml:space="preserve">
+  <value>Просматривать как пакеты значков</value>
+</data>
+<data name="CloseActionText" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="CannotCopyLayerSettingsHere_Text" xml:space="preserve">
+  <value>Невозможно скопировать настройки слоя сюда</value>
+</data>
+<data name="IfIsCustomProxyUseThisProxyPortSettingDescription" xml:space="preserve">
+  <value>Если IsCustomProxy, используйте этот порт прокси</value>
+</data>
+<data name="PublishedByExtension__Text" xml:space="preserve">
+  <value>Опубликовано расширением {0}</value>
+</data>
+<data name="CreateSettingsFileActionText" xml:space="preserve">
+  <value>Создать файл настроек…</value>
+</data>
+<data name="_Took_ms_Text" xml:space="preserve">
+  <value>{0} заняло {1} мс</value>
+</data>
+<data name="TrueMouseWheelMessagesAreForcedToBeProcessedByTheControlUnderCursorFalseNoBehaviorEnforcedUsuallyThisMeansTheFocusedControlIsScrolledInsteadOfTheHoveredOneSettingDescription" xml:space="preserve">
+  <value>True: сообщения колесика мыши принудительно обрабатываются элементом управления под курсором. False: поведение не применяется; обычно это означает, что прокручивается элемент управления с фокусом, а не наведенный.</value>
+</data>
+<data name="WhetherToUseUserDefinedProxySettingsInsteadOfTheSystemWideProxySettingsSettingDescription" xml:space="preserve">
+  <value>Использовать ли пользовательские настройки прокси вместо общесистемных</value>
+</data>
+<data name="PlatformGeneralCheckboxesOptionPageTitle" xml:space="preserve">
+  <value>Основные флажки платформы</value>
+</data>
+<data name="WithAutoRenewal_Text" xml:space="preserve">
+  <value>(с автопродлением)</value>
+</data>
+<data name="ContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню</value>
+</data>
+<data name="TODO_Text" xml:space="preserve">
+  <value>TODO!!</value>
+</data>
+<data name="DefaultSettingsFrom__Text" xml:space="preserve">
+  <value>Настройки по умолчанию из {0}</value>
+</data>
+<data name="ExportActionGroupText" xml:space="preserve">
+  <value>Экспорт…</value>
+</data>
+<data name="BuildDispatch_Text" xml:space="preserve">
+  <value>Диспетчер сборки</value>
+</data>
+<data name="ImportFromURLActionText" xml:space="preserve">
+  <value>Импорт из URL…</value>
+</data>
+<data name="URICannotBeEmpty_Text" xml:space="preserve">
+  <value>URI не может быть пустым</value>
+</data>
+<data name="AnImportSourceForThisToolWindowPaneDependingOnTheKindOfThePaneUsuallyADiskDirectorySettingDescription" xml:space="preserve">
+  <value>Источник импорта для этой панели окна инструментов, в зависимости от типа панели. Обычно это каталог на диске.</value>
+</data>
+<data name="ExpiredTo__Text" xml:space="preserve">
+  <value>Истек {0}</value>
+</data>
+<data name="PlatformGeneralUserInterfaceOptionPageTitle" xml:space="preserve">
+  <value>Основной пользовательский интерфейс платформы</value>
+</data>
+<data name="OptionsDialogLogicalSettingsSettingDescription" xml:space="preserve">
+  <value>Логические настройки диалогового окна параметров</value>
+</data>
+<data name="Localization_Header_Text" xml:space="preserve">
+  <value>Локализация</value>
+</data>
+<data name="SelectAnItemToRemove_Text" xml:space="preserve">
+  <value>Выберите элемент для удаления</value>
+</data>
+<data name="ForceShowDialog_Text" xml:space="preserve">
+  <value>Принудительно показать диалог</value>
+</data>
+<data name="QByPublicKeySettingDescription" xml:space="preserve">
+  <value>Q по открытому ключу</value>
+</data>
+<data name="ViewModeAndImportSettingsForEachOfTheToolWindowPanesSettingDescription" xml:space="preserve">
+  <value>Режим просмотра и настройки импорта для каждой из панелей окна инструментов</value>
+</data>
+<data name="SaveSettings_Caption" xml:space="preserve">
+  <value>Сохранить настройки</value>
+</data>
+<data name="LastStartTimeSettingDescription" xml:space="preserve">
+  <value>Время последнего запуска</value>
+</data>
+<data name="RightActionText" xml:space="preserve">
+  <value>Справа</value>
+</data>
+<data name="ExtensionManagerOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры менеджера расширений</value>
+</data>
+<data name="LicenseServerInaccessible_Text" xml:space="preserve">
+  <value>Сервер лицензий недоступен</value>
+</data>
+<data name="NoProductInstalled_Text" xml:space="preserve">
+  <value>Продукт не установлен</value>
+</data>
+<data name="ShortNameForThisComputerSettingsLayer" xml:space="preserve">
+  <value>Этот компьютер</value>
+</data>
+<data name="APerformanceRelatedOptionWasUpdated_Text" xml:space="preserve">
+  <value>ReSharper обновил параметр, связанный с производительностью</value>
+</data>
+<data name="WhetherToBindThePressAndHoldOfTheCtrlKeyToPushToHintSettingDescription" xml:space="preserve">
+  <value>Связывать ли нажатие и удержание клавиши Ctrl с функцией "Push to Hint"</value>
+</data>
+<data name="BuildSettings_Text" xml:space="preserve">
+  <value>Настройки сборки</value>
+</data>
+<data name="Options_Dialog_Title_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="InternaLActionGroupText" xml:space="preserve">
+  <value>Внутренние(&amp;L)</value>
+</data>
+<data name="DeletePending_Text" xml:space="preserve">
+  <value>Ожидают удаления</value>
+</data>
+<data name="AvailablePhysical__RichText_Text" xml:space="preserve">
+  <value>Доступно физической памяти: {0}</value>
+</data>
+<data name="UserInterfaceSettings_IconThemeSelectionExtensionForFluentDesign" xml:space="preserve">
+  <value>Изменяет выбор темы значков настройкой IconThemeSelection для использования или неиспользования расширений Fluent</value>
+</data>
+<data name="ShowLogActionText" xml:space="preserve">
+  <value>Показать журнал</value>
+</data>
+<data name="ExportToTextActionText" xml:space="preserve">
+  <value>Экспорт в текст…</value>
+</data>
+<data name="BrowseAsIconPacksActionDescription" xml:space="preserve">
+  <value>Режим детального просмотра с дополнительной группировкой по пакетам значков, которым принадлежат значки</value>
+</data>
+<data name="Report_Consent_Aggree2Header" xml:space="preserve">
+  <value>Отправляя этот отчет, вы соглашаетесь с &lt;a href="https://www.jetbrains.com/legal/agreements/teamware.html"&gt;соответствующими соглашениями&lt;/a&gt; и подтверждаете нашу &lt;a href="https://www.jetbrains.com/legal/docs/privacy/privacy.html"&gt;Политику конфиденциальности&lt;/a&gt;</value>
+</data>
+<data name="NoValidTokensFound_Text" xml:space="preserve">
+  <value>Действительные токены не найдены</value>
+</data>
+<data name="ExportIcons_Text" xml:space="preserve">
+  <value>Экспорт значков</value>
+</data>
+<data name="DoYouReallyWantToRestart__Text" xml:space="preserve">
+  <value>Вы действительно хотите перезапустить {0}?</value>
+</data>
+<data name="RenameActionText" xml:space="preserve">
+  <value>Переименовать</value>
+</data>
+<data name="EnabledCustomNamespacesFromLogTraceScenariosMapDelimitedByCommaSettingDescription" xml:space="preserve">
+  <value>Включенные пользовательские пространства имен из LogTraceScenarios.Map, разделенные запятыми</value>
+</data>
+<data name="Browse_Button_Text" xml:space="preserve">
+  <value>Обзор…</value>
+</data>
+<data name="AlwaysShowPushToHintIndicatorSettingDescription" xml:space="preserve">
+  <value>Показывать ли индикатор состояния "Push to Hint" в редакторе, даже когда состояние "Push to Hint" неактивно</value>
+</data>
+<data name="Unavailable_Text" xml:space="preserve">
+  <value>Недоступно</value>
+</data>
+<data name="AvailableVirtual__RichText_Text" xml:space="preserve">
+  <value>Доступно виртуальной памяти: {0}</value>
+</data>
+<data name="AuthenticationSucceded_Text" xml:space="preserve">
+  <value>Аутентификация прошла успешно</value>
+</data>
+<data name="FileUploadBufferSizeSettingDescription" xml:space="preserve">
+  <value>Размер буфера загрузки файлов</value>
+</data>
+<data name="RunBuildDone_Text" xml:space="preserve">
+  <value>RunBuild: Готово</value>
+</data>
+<data name="TheToolWindowHasBeenRestored_Text" xml:space="preserve">
+  <value>Окно инструментов восстановлено</value>
+</data>
+<data name="SettingsPublishedByExtensions_Text" xml:space="preserve">
+  <value>Настройки, опубликованные расширениями</value>
+</data>
+<data name="TheToolWindowHasBeenPutInAnUnexpected_Text" xml:space="preserve">
+  <value>Окно инструментов переведено в неожиданное состояние: {0}</value>
+</data>
+<data name="MoveDownActionText" xml:space="preserve">
+  <value>Переместить вниз</value>
+</data>
+<data name="TheSettingsHaveBeenResetToTheirFactory_Text" xml:space="preserve">
+  <value>Настройки были сброшены к заводским значениям по умолчанию</value>
+</data>
+<data name="AssetLicensedTo__Text" xml:space="preserve">
+  <value>Продукт лицензирован для {0}</value>
+</data>
+<data name="ProductWebPageActionGroupText" xml:space="preserve">
+  <value>Веб-страница продукта(&amp;W)</value>
+</data>
+<data name="JetBrainsAccountMustBeConnectedUntil_Text" xml:space="preserve">
+  <value>JetBrains Account должен быть подключен до {0:f} для проверки ресурса</value>
+</data>
+<data name="ThankYouForInstalling__Text" xml:space="preserve">
+  <value>Спасибо за установку {0}</value>
+</data>
+<data name="Initializing_Text" xml:space="preserve">
+  <value>Инициализация</value>
+</data>
+<data name="AuthenticationRequired_Text" xml:space="preserve">
+  <value>Требуется аутентификация</value>
+</data>
+<data name="InvalidPath__Text" xml:space="preserve">
+  <value>Неверный путь: {0}</value>
+</data>
+<data name="AuthorizeInWebBrowser_Text" xml:space="preserve">
+  <value>Аутентификация в веб-браузере.</value>
+</data>
+<data name="UIResposivenessInfo_Header_Text" xml:space="preserve">
+  <value>Информация об отзывчивости пользовательского интерфейса:</value>
+</data>
+<data name="ApplicationIconsTheme_Text" xml:space="preserve">
+  <value>Тема значков приложения:</value>
+</data>
+<data name="NumberOfSamplesLongerThan50ms__RichText_Text" xml:space="preserve">
+  <value>Количество выборок длиннее 50 мс: {0}</value>
+</data>
+<data name="CheckMemoryInterval0MeansDisabled_IntOption_Text" xml:space="preserve">
+  <value>Интервал проверки памяти. 0 означает отключено.</value>
+</data>
+<data name="LicenseToReSharper_IsNotAcceptableTo_Text" xml:space="preserve">
+  <value>Лицензия для ReSharper {0} неприменима к {1}</value>
+</data>
+<data name="DefaultSettingsCompositeStorage_Text" xml:space="preserve">
+  <value>Композитное хранилище настроек по умолчанию</value>
+</data>
+<data name="StartNewLine_Text" xml:space="preserve">
+  <value>Начать новую строку</value>
+</data>
+<data name="_Edit_Button_Text" xml:space="preserve">
+  <value>Редактировать(_E)…</value>
+</data>
+<data name="Americas_Text" xml:space="preserve">
+  <value>Америка</value>
+</data>
+<data name="Report_Consent_AggreeZendesk" xml:space="preserve">
+  <value>Я согласен с тем, что JetBrains s.r.o. («JetBrains») использует мое имя и адрес электронной почты, чтобы связаться со мной по поводу моего отзыва. Я согласен с тем, что &lt;a href="{1}"&gt;JetBrains в соответствии с Политикой конфиденциальности JetBrains&lt;/a&gt; отправляет данные &lt;a href="{0}"&gt;третьей стороне&lt;/a&gt; для этой цели.</value>
+</data>
+<data name="RunBuildAutomaticallyShuttingDownNow_Text" xml:space="preserve">
+  <value>RunBuild: Идет автоматическое закрытие, нажмите для отмены</value>
+</data>
+<data name="ShowReport_ErrorDialogEachTime_Encounters_BoolOption_Text" xml:space="preserve">
+  <value>Показывать диалог "Сообщить об ошибке" каждый раз, когда {0} встречает внутреннюю ошибку(_E)</value>
+</data>
+<data name="China_Text" xml:space="preserve">
+  <value>Материковый Китай</value>
+</data>
+<data name="RunBuildNowBuildingFor__Text" xml:space="preserve">
+  <value>RunBuild: Сборка для {0}</value>
+</data>
+<data name="CheckingForChanges_Text" xml:space="preserve">
+  <value>Проверка изменений</value>
+</data>
+<data name="ThereWasAProblemRenewingYourLicense_Text" xml:space="preserve">
+  <value>Возникла проблема с продлением вашей лицензии. Убедитесь, что ваш контракт продлен до {0}.</value>
+</data>
+<data name="CentrallyManagedCustomizationOfInjectedLayersOfThisHostingLayerLikeTheirOnOffStateAndOrderLayerKindSpecificCustomizationsAreStoredByInjectionHandlersUnderTheirOwnKeysSettingDescription" xml:space="preserve">
+  <value>Централизованно управляемая настройка внедренных слоев этого hosting-слоя, например, их состояние вкл/выкл и порядок. Специфичные для вида слоя настройки хранятся обработчиками внедрения под своими собственными ключами.</value>
+</data>
+<data name="_WebPage_Text" xml:space="preserve">
+  <value>Веб-страница {0}</value>
+</data>
+<data name="UseAltRToOpenReSharperMainMenuSettingDescription" xml:space="preserve">
+  <value>Использовать Alt+R для открытия главного меню ReSharper</value>
+</data>
+<data name="ReindentActionText" xml:space="preserve">
+  <value>Переформатировать отступы</value>
+</data>
+<data name="BrowseAsListActionText" xml:space="preserve">
+  <value>Просматривать как список</value>
+</data>
+<data name="HowLiveTheSwitchIsSettingDescription" xml:space="preserve">
+  <value>Насколько переключатель живой</value>
+</data>
+<data name="IfIsCustomProxyUseThisProxyHostnameSettingDescription" xml:space="preserve">
+  <value>Если IsCustomProxy, используйте это имя хоста прокси</value>
+</data>
+<data name="LoggerActionGroupText" xml:space="preserve">
+  <value>Logger</value>
+</data>
+<data name="ThisDirectoryIsWatchedForImportableIconFilesTheCollectedFilesAreListedInTheThemedIconsViewerImportWindowSettingDescription" xml:space="preserve">
+  <value>Этот каталог отслеживается на наличие импортируемых файлов значков. Собранные файлы перечислены в окне импорта средства просмотра тематических значков.</value>
+</data>
+<data name="WhetherKeyboardSelectionInListsShouldWrapAroundEndsPressingUpArrowOnTheFirstItemSelectsTheLastOneAndViceVersaSettingDescription" xml:space="preserve">
+  <value>Должен ли выбор с клавиатуры в списках зацикливаться: нажатие стрелки вверх на первом элементе выбирает последний и наоборот, нажатие стрелки вниз на последнем элементе выбирает первый</value>
+</data>
+<data name="ThisWillResetAllOfThe_SettingsNYouWon_Text" xml:space="preserve">
+  <value>Это сбросит все настройки {0}.
+Вы не сможете отменить это действие.
+
+Продолжить?</value>
+</data>
+<data name="CloseAllButPinnedActionText" xml:space="preserve">
+  <value>Закрыть все незакрепленные</value>
+</data>
+<data name="PerpetualForBuildsReleasedUpTo__Text" xml:space="preserve">
+  <value>Бессрочная для сборок, выпущенных до {0}</value>
+</data>
+<data name="ExceptionOccurred__Text" xml:space="preserve">
+  <value>Произошло исключение: {0}</value>
+</data>
+<data name="ImportSettingsFromURI_Caption" xml:space="preserve">
+  <value>Импорт настроек из URI</value>
+</data>
+<data name="NETCLIInvalidDotNetRoot_Text" xml:space="preserve">
+  <value>Исполняемый файл .NET CLI содержит недопустимую переменную окружения DOTNET_ROOT</value>
+</data>
+<data name="WhyReSharperIsDisabledActionText" xml:space="preserve">
+  <value>Почему ReSharper отключен</value>
+</data>
+<data name="DarkGray_Text" xml:space="preserve">
+  <value>Серая, Тёмная тема</value>
+</data>
+<data name="SourceSettingDescription" xml:space="preserve">
+  <value>Источник</value>
+</data>
+<data name="TheWorkspaceSettingsFileCouldNotBeLoaded_Text" xml:space="preserve">
+  <value>Не удалось загрузить файл настроек рабочей области.
+
+{0}
+{1}</value>
+</data>
+<data name="ExportToXMLActionText" xml:space="preserve">
+  <value>Экспорт в XML…</value>
+</data>
+<data name="ToReSharper_Text" xml:space="preserve">
+  <value>для ReSharper</value>
+</data>
+<data name="Tab_Text" xml:space="preserve">
+  <value>Tab</value>
+</data>
+<data name="NoTokensObtained_Text" xml:space="preserve">
+  <value>Токены не получены</value>
+</data>
+<data name="FromPopup_Text" xml:space="preserve">
+  <value>Из всплывающего окна</value>
+</data>
+<data name="PerformanceTip__Text" xml:space="preserve">
+  <value>Совет по производительности: {0}</value>
+</data>
+<data name="SelfProfilingToolLocationSettingDescription" xml:space="preserve">
+  <value>Расположение инструмента самопрофилирования</value>
+</data>
+<data name="LogScenarioEnabledItAffectsPerformance_ToolTip" xml:space="preserve">
+  <value>Сценарий ведения журнала включен. Это влияет на производительность. Двойной щелчок для отключения.</value>
+</data>
+<data name="ThisFileIsAlreadyAddedAsASettingsLayer_Text" xml:space="preserve">
+  <value>Этот файл уже добавлен как слой настроек</value>
+</data>
+<data name="RemoveActionText" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="SelectFile_Caption" xml:space="preserve">
+  <value>Выбрать файл</value>
+</data>
+<data name="IconViewerOpenSyncPaneActionDescription" xml:space="preserve">
+  <value>Открывает панель, которая показывает разницу между наборами значков, доступными в двух других панелях, и позволяет синхронизировать эти наборы</value>
+</data>
+<data name="_Logs_Text" xml:space="preserve">
+  <value>Журналы {0}</value>
+</data>
+<data name="ClickAuthorizeButtonBelowAndAuthorize_Text" xml:space="preserve">
+  <value>Нажмите кнопку «Авторизовать» ниже и предоставьте свои учетные данные в браузере.</value>
+</data>
+<data name="DumpStatisticsSchemaActionText" xml:space="preserve">
+  <value>Дамп схемы статистики</value>
+</data>
+<data name="HighUtilization_Description_Text" xml:space="preserve">
+  <value>Высокая (экспериментальная)</value>
+</data>
+<data name="Oceania_Text" xml:space="preserve">
+  <value>Океания</value>
+</data>
+<data name="Ms_IntOption_TextSuffix" xml:space="preserve">
+  <value>мс</value>
+</data>
+<data name="OOPActionGroupText" xml:space="preserve">
+  <value>OOP</value>
+</data>
+<data name="BuildActionGroupText" xml:space="preserve">
+  <value>Сборка(&amp;B)</value>
+</data>
+<data name="JetBrainsAccountInaccessible_Text" xml:space="preserve">
+  <value>JetBrains Account недоступен</value>
+</data>
+<data name="EnterActionName_Text" xml:space="preserve">
+  <value>Имя действия:</value>
+</data>
+<data name="OptionsRelatedToVariousHacksSettingDescription" xml:space="preserve">
+  <value>Параметры, связанные с различными хаками</value>
+</data>
+<data name="ModerateUtilization_Description_Text" xml:space="preserve">
+  <value>Умеренная</value>
+</data>
+<data name="HowSwitchBehavesWhenConflictFoundSettingDescription" xml:space="preserve">
+  <value>Как ведет себя переключатель при обнаружении конфликта</value>
+</data>
+<data name="UserCommentSettingDescription" xml:space="preserve">
+  <value>Комментарий пользователя</value>
+</data>
+<data name="WillBeDisabledBy0F_Text" xml:space="preserve">
+  <value>Будет отключен до {0:F}</value>
+</data>
+<data name="ResetActionText" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="VisualStudioVersionForOpenInVsSettingDescription" xml:space="preserve">
+  <value>Версия Visual Studio для OpenInVs</value>
+</data>
+<data name="SpecifiesTheRelativePathToTheFileBasedUserInjectedLayerDiskFileRelativelyToItsHostingLayerNOTETheFileItselfNotTheDirectoryOptionalThisIsOnlyAvailableWhenTheHostingLayerIsAlsoFileBasedAndHasItsPathAvailableAndThesePathsAreOffTheSameRootWhenDefinedThisPathShouldBePreferredForRestoringTheMountedLayerInTheNewSessionSettingDescription" xml:space="preserve">
+  <value>Указывает относительный путь к файловому пользовательскому внедренному слою на диске относительно его hosting-слоя (ПРИМЕЧАНИЕ: сам файл, а не каталог). Необязательно. Доступно только тогда, когда hosting-слой также является файловым и имеет доступный путь, и эти пути находятся в одном корне. При определении этот путь следует предпочитать для восстановления смонтированного слоя в новом сеансе.</value>
+</data>
+<data name="ExceptionReporterAuthorization_Header" xml:space="preserve">
+  <value>Аутентификация</value>
+</data>
+<data name="DidNotManageToCreateHTTPRequestHandler_Text" xml:space="preserve">
+  <value>Не удалось создать обработчик HTTP-запросов на портах {0}-{1} для приема обратного вызова аутентификации. Это может произойти, если порты заняты другим приложением или выполняется другой процесс аутентификации.</value>
+</data>
+<data name="ThereAreNoIconsSelected_Text" xml:space="preserve">
+  <value>Значки не выбраны</value>
+</data>
+<data name="HowFrequentlyMemoryStateIsUpdatedSettingDescription" xml:space="preserve">
+  <value>Как часто обновляется состояние памяти</value>
+</data>
+<data name="Report_Consent_Aggree3Header" xml:space="preserve">
+  <value>Отправляя этот отчет, вы подтверждаете нашу &lt;a href="https://www.jetbrains.com/legal/docs/privacy/privacy.html"&gt;Политику конфиденциальности&lt;/a&gt;</value>
+</data>
+<data name="ResetLayer_Text" xml:space="preserve">
+  <value>Сбросить слой</value>
+</data>
+<data name="SubscriptionBefore___Text" xml:space="preserve">
+  <value>Подписка действительна до {1}{0}</value>
+</data>
+<data name="AttachingPerformanceProfiler_Text" xml:space="preserve">
+  <value>Присоединение профилировщика производительности…</value>
+</data>
+<data name="DisableTraceScenario_Text" xml:space="preserve">
+  <value>Отключить сценарий трассировки</value>
+</data>
+<data name="ControlsThemeSelectionForThemedIconsSettingDescription" xml:space="preserve">
+  <value>Управляет выбором темы для тематических значков</value>
+</data>
+<data name="ThisWillCloseTheOptionsDialogAndOpen_Caption" xml:space="preserve">
+  <value>Это закроет диалоговое окно «Параметры» и откроет диалоговое окно «Слои настроек».
+
+Сохранить изменения?</value>
+</data>
+<data name="SaveBuildOutputsToFolder_Caption" xml:space="preserve">
+  <value>Сохранить выходные данные сборки в папку</value>
+</data>
+<data name="Region_Text" xml:space="preserve">
+  <value>Регион:</value>
+</data>
+<data name="SubmitAllExceptionsAutomaticallySettingDescription" xml:space="preserve">
+  <value>Автоматически отправлять все исключения</value>
+</data>
+<data name="BuildSettingsPerHomeDirStorageOrigin_Text" xml:space="preserve">
+  <value>Настройки сборки для каждого домашнего каталога.</value>
+</data>
+<data name="WhetherToUseVSIconsInsteadOfRTrueUseVSIconsFalseUseRIconsSettingDescription" xml:space="preserve">
+  <value>Использовать ли значки VS вместо R#. True: использовать значки VS, False: использовать значки R#.</value>
+</data>
+<data name="Twitter_Text" xml:space="preserve">
+  <value>Twitter {0}</value>
+</data>
+<data name="WhetherToEnableTheEntireInfrastructureOfInlayHintsSettingDescription" xml:space="preserve">
+  <value>Включать ли всю инфраструктуру встроенных подсказок</value>
+</data>
+<data name="RecentMemoryUsageInfo_Header_Text" xml:space="preserve">
+  <value>Информация о недавнем использовании памяти:</value>
+</data>
+<data name="TabsSortingOrderSettingDescription" xml:space="preserve">
+  <value>Порядок сортировки вкладок</value>
+</data>
+<data name="LowUtilization_Description_Text" xml:space="preserve">
+  <value>Низкая</value>
+</data>
+<data name="NoAuthenticationRequired_Text" xml:space="preserve">
+  <value>Аутентификация не требуется</value>
+</data>
+<data name="VisualStudioPerformanceWillImproveIf_Text" xml:space="preserve">
+  <value>Производительность Visual Studio улучшится, если вы {0}. Узнайте больше и настройте это поведение в руководстве по производительности ReSharper.</value>
+</data>
+<data name="PreparingTheListOfItemsPleaseWait_Text" xml:space="preserve">
+  <value>Подготовка списка элементов, пожалуйста, подождите…</value>
+</data>
+<data name="JetPopupMenuNoItemsBanner" xml:space="preserve">
+  <value>Нет элементов для отображения в этом меню</value>
+</data>
+<data name="LicenseChanged_Text" xml:space="preserve">
+  <value>Лицензия изменена</value>
+</data>
+<data name="SyntheticLayerWhichAutomaticallyDecides_Text" xml:space="preserve">
+  <value>Синтетический слой, который автоматически решает, куда следует записывать настройки</value>
+</data>
+<data name="NoWritePermissionForFolder__Text" xml:space="preserve">
+  <value>Нет разрешения на запись в папку {0}</value>
+</data>
+<data name="SomeBoolOptionForBindSettingDescription" xml:space="preserve">
+  <value>Некоторая логическая опция для привязки 1</value>
+</data>
+<data name="GlobalPerProductStorageOrigin_Text" xml:space="preserve">
+  <value>Папка данных пользовательского приложения {0}.</value>
+</data>
+<data name="Always_Description_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="ShowLicenseDialog_Caption" xml:space="preserve">
+  <value>Показать диалог лицензии</value>
+</data>
+<data name="PropertiesActionText" xml:space="preserve">
+  <value>Свойства(&amp;P)</value>
+</data>
+<data name="OpenContainingFolderActionText" xml:space="preserve">
+  <value>Открыть содержащую папку</value>
+</data>
+<data name="TheToolWindowHasBeenUnloaded_Text" xml:space="preserve">
+  <value>Окно инструментов выгружено</value>
+</data>
+<data name="ExportPNGActionText" xml:space="preserve">
+  <value>Экспорт PNG…</value>
+</data>
+<data name="ImportFromActionGroupText" xml:space="preserve">
+  <value>Импортировать из</value>
+</data>
+<data name="OnlineHelpActionText" xml:space="preserve">
+  <value>Онлайн-справка(&amp;H)</value>
+</data>
+<data name="FreeTrialPeriodIsRunning_Text" xml:space="preserve">
+  <value>Бесплатный пробный период активен</value>
+</data>
+<data name="LicenseToReSharper_IsNotAcceptable__Text" xml:space="preserve">
+  <value>Лицензия для ReSharper {0} неприемлема{1}</value>
+</data>
+<data name="FreeTrialPeriodWillExpireTomorrow_Text" xml:space="preserve">
+  <value>Бесплатный пробный период истекает завтра</value>
+</data>
+<data name="ExtensionManagerIncludePrereleasePackagesSettingDescription" xml:space="preserve">
+  <value>Показывать ли предрелизные пакеты в менеджере расширений</value>
+</data>
+<data name="UserInjectedLayersListStoredInTheInjectionsHostLayerSettingDescription" xml:space="preserve">
+  <value>Список пользовательских внедренных слоев, хранящийся в hosting-слое внедрений</value>
+</data>
+<data name="Submitted_Exceptions_ToolTip" xml:space="preserve">
+  <value>Отправлено {0} исключений</value>
+</data>
+<data name="DataValidation_Text" xml:space="preserve">
+  <value>Проверка данных</value>
+</data>
+<data name="ThemedIconViewerActionText" xml:space="preserve">
+  <value>Средство просмотра тематических значков</value>
+</data>
+<data name="DoYouWantToSaveChanges_Text" xml:space="preserve">
+  <value>Сохранить изменения?</value>
+</data>
+<data name="ThereWereErrorsExportingIcons____Text" xml:space="preserve">
+  <value>При экспорте значков произошли ошибки. {0}{1}{2}</value>
+</data>
+<data name="CopySettingsFilePathActionText" xml:space="preserve">
+  <value>Копировать путь к файлу настроек</value>
+</data>
+<data name="Why_IsDisabled_Text" xml:space="preserve">
+  <value>Почему {0} отключен</value>
+</data>
+<data name="FolderForScalableVectorGraphicsFiles_Caption" xml:space="preserve">
+  <value>Папка для файлов SVG</value>
+</data>
+<data name="CollectDumpTimeoutSettingDescription" xml:space="preserve">
+  <value>UiSmoothnessToolkit: Таймаут сбора дампа</value>
+</data>
+<data name="NoPendingChanges_Text" xml:space="preserve">
+  <value>Нет ожидающих изменений</value>
+</data>
+<data name="CannotConnectToJetBrainsLicenseServer_Text" xml:space="preserve">
+  <value>Не удается подключиться к серверу лицензий JetBrains</value>
+</data>
+<data name="ExpandAllActionText" xml:space="preserve">
+  <value>Развернуть все</value>
+</data>
+<data name="English_Text" xml:space="preserve">
+  <value>Английский</value>
+</data>
+<data name="XMLActionText" xml:space="preserve">
+  <value>XML</value>
+</data>
+<data name="AttachMemorySnapshot_Caption" xml:space="preserve">
+  <value>Прикрепить снимок памяти</value>
+</data>
+<data name="ShowAllReSharperActions_ToolTip" xml:space="preserve">
+  <value>Показать все действия ReSharper</value>
+</data>
+<data name="ShortNameForDefaultSettingsLayer" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="AssignedTo__Text" xml:space="preserve">
+  <value>, назначено {0}</value>
+</data>
+<data name="AuthorizationRequired_Text" xml:space="preserve">
+  <value>Требуется авторизация.</value>
+</data>
+<data name="_Of___Text" xml:space="preserve">
+  <value>{0} / {1:N0}: {2}</value>
+</data>
+<data name="Report_Consent_AggreeYoutrack" xml:space="preserve">
+  <value>Я согласен с тем, что JetBrains s.r.o. («JetBrains») использует мое имя, адрес электронной почты, имя пользователя и пароль, чтобы позволить JetBrains связать отправленные данные с моей учетной записью на https://youtrack.jetbrains.com и предоставить мне доступ в соответствии с &lt;a href="{0}"&gt;Лицензионным соглашением с конечным пользователем JetBrains YouTrack&lt;/a&gt;. За исключением данных, перечисленных выше, отправленная проблема YouTrack не должна содержать каких-либо персональных данных.</value>
+</data>
+<data name="WhetherToOverrideVSRefactoringsTrueOverrideSettingDescription" xml:space="preserve">
+  <value>Переопределять ли рефакторинги VS. True: переопределить.</value>
+</data>
+<data name="ThereIsNoHelpAvailableFor__Text" xml:space="preserve">
+  <value>Нет доступной справки для '{0}'</value>
+</data>
+<data name="OpenLogFile_Text" xml:space="preserve">
+  <value>Открыть файл журнала</value>
+</data>
+<data name="ThereIsNoToolWindowToShowInThisView_Text" xml:space="preserve">
+  <value>Нет окна инструментов для отображения в этом представлении</value>
+</data>
+<data name="DumpDataAccessActionText" xml:space="preserve">
+  <value>Дамп доступа к данным</value>
+</data>
+<data name="AIIsProvidedByTheIDEServices_Text" xml:space="preserve">
+  <value>AI Assistant предоставляется JetBrains IDE Services</value>
+</data>
+<data name="FailedToProcessSettings_Caption" xml:space="preserve">
+  <value>Не удалось обработать настройки</value>
+</data>
+<data name="SettingsLayers_Caption" xml:space="preserve">
+  <value>Слои настроек</value>
+</data>
+<data name="Reset_Button_Text" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="Gray_Text" xml:space="preserve">
+  <value>Серая, Светлая тема</value>
+</data>
+<data name="ProfilingReproduceProblemAndStopItManually_Text" xml:space="preserve">
+  <value>Профилирование… (воспроизведите проблему и остановите вручную)</value>
+</data>
+<data name="SubscriptionHasExpiredOn_PleaseRenew_Text" xml:space="preserve">
+  <value>Подписка истекла {0}. Пожалуйста, продлите до {1}, чтобы предотвратить отключение {2}.</value>
+</data>
+<data name="MaintenanceSubscriptionUntil__Text" xml:space="preserve">
+  <value>. Подписка на техническое обслуживание действительна до {0}</value>
+</data>
+<data name="AttachSensitiveDataSettingDescription" xml:space="preserve">
+  <value>Прикреплять конфиденциальные данные</value>
+</data>
+<data name="WhenTheCaretIsNear_Description_Text" xml:space="preserve">
+  <value>Когда курсор рядом</value>
+</data>
+<data name="CheckMemoryInterval0MeansDisabled_IntOption_Text2" xml:space="preserve">
+  <value>Интервал проверки памяти. 0 означает отключено.</value>
+</data>
+<data name="EnableOrDisableAllSuggestionsSettingDescription" xml:space="preserve">
+  <value>Включить или отключить все предложения</value>
+</data>
+<data name="License_HasExpired_Text" xml:space="preserve">
+  <value>Лицензия {0} истекла</value>
+</data>
+<data name="TooManyItemsListTruncated_Text" xml:space="preserve">
+  <value>Слишком много элементов, список усечен</value>
+</data>
+<data name="DefaultSettingsCompositeStorageBacking_Text" xml:space="preserve">
+  <value>Резервное хранилище композитного хранилища настроек по умолчанию</value>
+</data>
+</root>

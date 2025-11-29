@@ -12,7 +12,7 @@ import torch
 cache = {}
 
 class TwoStepTranslator:
-    def __init__(self, zh_en_model_path="./models/opus-mt-zh-en", en_ru_model_name="Helsinki-NLP/opus-mt-en-ru"):
+    def __init__(self, zh_en_model_path="./models/opus-mt-zh-en", en_ru_model_name="./models/opus-mt-en-ru"):
         self.device = self.get_device()
         
         # Загружаем модели для двухэтапного перевода

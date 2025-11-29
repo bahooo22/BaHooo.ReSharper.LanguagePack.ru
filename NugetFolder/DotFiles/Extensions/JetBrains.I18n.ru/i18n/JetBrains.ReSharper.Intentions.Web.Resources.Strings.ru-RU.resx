@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AddParameter_ToMethodsThatDonTHaveIt_Text" xml:space="preserve">
+  <value>Добавить параметр '{0}' в методы, у которых его нет</value>
+</data>
+<data name="ReorderAttributes_Text" xml:space="preserve">
+  <value>Переупорядочить атрибуты</value>
+</data>
+<data name="CSSStatements_Text" xml:space="preserve">
+  <value>CSS-операторы</value>
+</data>
+<data name="MakeClassAbstract_Text" xml:space="preserve">
+  <value>Сделать класс абстрактным</value>
+</data>
+<data name="UncommentContextAction_Description" xml:space="preserve">
+  <value>Удалить комментарии из блока кода</value>
+</data>
+<data name="SplitIfWithConditionIntoNestedIfStatementsContextAction_Name" xml:space="preserve">
+  <value>Разделить 'if' с условием '&amp;&amp;' на вложенные операторы 'if'</value>
+</data>
+<data name="IntroduceTypeAliasContextAction_Description" xml:space="preserve">
+  <value>Ввести новое псевдоним типа для выбранного фрагмента</value>
+</data>
+<data name="Specify_QualifierExplicitly_Text" xml:space="preserve">
+  <value>Явно указать квалификатор '{0}'</value>
+</data>
+<data name="SplitVariableDeclarationAndAssignmentContextAction_Description" xml:space="preserve">
+  <value>Переместить инициализатор переменной из оператора объявления в отдельный оператор присваивания</value>
+</data>
+<data name="ConvertNamedColorToRgbContextAction_Name" xml:space="preserve">
+  <value>Преобразовать именованный цвет в rgb()</value>
+</data>
+<data name="ConvertToHSLA_Text" xml:space="preserve">
+  <value>Преобразовать в HSLA</value>
+</data>
+<data name="ReplaceForWithHtmlFor_Text" xml:space="preserve">
+  <value>Заменить 'for' на 'htmlFor'</value>
+</data>
+<data name="FlipOperatorArgumentsContextAction_Description" xml:space="preserve">
+  <value>Поменять местами левый и правый аргументы выбранного оператора, например 'null == x' на 'x == null'</value>
+</data>
+<data name="ConvertIfToSwitchContextAction_Name" xml:space="preserve">
+  <value>Преобразовать 'if' в 'switch'</value>
+</data>
+<data name="ReplaceTernaryWithItsNegatedCondition_Text" xml:space="preserve">
+  <value>Заменить тернарный оператор его инвертированным условием</value>
+</data>
+<data name="InsertTableColumnAfterContextAction_Name" xml:space="preserve">
+  <value>Вставить столбец таблицы после:</value>
+</data>
+<data name="MoveServerScriptContentToCodebehindContextAction_Description" xml:space="preserve">
+  <value>Переместить содержимое серверного скрипта в CodeBehind</value>
+</data>
+<data name="ReplaceAliasWithQualifierContextAction_Description" xml:space="preserve">
+  <value>Заменить псевдоним полностью квалифицированным именем</value>
+</data>
+<data name="ConvertHslToHexLiteralContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'hsl()' в шестнадцатеричный литерал</value>
+</data>
+<data name="AddParameterToMethodSRouteTemplateContextAction_Description" xml:space="preserve">
+  <value>Добавить параметр метода в его шаблон маршрута</value>
+</data>
+<data name="ConvertIfStatementToTernaryExpressionContextAction_Name" xml:space="preserve">
+  <value>Преобразовать оператор 'if' в тернарное выражение</value>
+</data>
+<data name="SpecifyTypeExplicitlyContextAction_Description" xml:space="preserve">
+  <value>Явно указать тип переменной для объявления с присваиванием</value>
+</data>
+<data name="MakeMemberStatic_Text" xml:space="preserve">
+  <value>Сделать член статическим</value>
+</data>
+<data name="RemoveAtSignCharacter_Text" xml:space="preserve">
+  <value>Удалить символ '@'</value>
+</data>
+<data name="ReplaceWithDestructuringDeclaration_Text" xml:space="preserve">
+  <value>Заменить на деструктурирующее объявление</value>
+</data>
+<data name="MergeNestedIfStatementsContextAction_Description" xml:space="preserve">
+  <value>Объединить два вложенных оператора 'if' в один оператор 'if' для проверки конъюнкции исходных условий</value>
+</data>
+<data name="CreateDerivedTypeContextAction_Name" xml:space="preserve">
+  <value>Создать производный тип</value>
+</data>
+<data name="FixTypeAnnotation_Text" xml:space="preserve">
+  <value>Исправить аннотацию типа</value>
+</data>
+<data name="ReplaceSingleQuotedStringWithDouble_Text" xml:space="preserve">
+  <value>Заменить строку в одинарных кавычках на строку в двойных кавычках</value>
+</data>
+<data name="TsCreateFromUsageAction_ModuleElement" xml:space="preserve">
+  <value>Элемент модуля</value>
+</data>
+<data name="ConvertToTemplateString_Text" xml:space="preserve">
+  <value>Преобразовать в шаблонную строку</value>
+</data>
+<data name="InCSSWhereExpressionIsExpected_Text" xml:space="preserve">
+  <value>В CSS, где ожидается выражение</value>
+</data>
+<data name="AddMemberBody_Text" xml:space="preserve">
+  <value>Добавить тело члена</value>
+</data>
+<data name="ReplaceWithNegatedValue_Text" xml:space="preserve">
+  <value>Заменить на инвертированное значение</value>
+</data>
+<data name="AddVendorSpecificProperties_Text" xml:space="preserve">
+  <value>Добавить специфичные для поставщика свойства</value>
+</data>
+<data name="CreateOverloadWithoutParameterContextAction_Description" xml:space="preserve">
+  <value>Создать перегруженную сигнатуру без указанного параметра. При необходимости последующие параметры в основной сигнатуре могут быть помечены как необязательные.</value>
+</data>
+<data name="ConvertToParameterProperty_Text" xml:space="preserve">
+  <value>Преобразовать в параметр-свойство</value>
+</data>
+<data name="InsertTableColumnAfterContextAction_Description" xml:space="preserve">
+  <value>Вставить столбец таблицы после:</value>
+</data>
+<data name="RemoveRedundantParenthesis_Text" xml:space="preserve">
+  <value>Удалить избыточные круглые скобки</value>
+</data>
+<data name="AddParenthesesToMakeItObjectLiteral_Text" xml:space="preserve">
+  <value>Добавить круглые скобки, чтобы сделать это литералом объекта</value>
+</data>
+<data name="RemoveRedundantParenthesisContextAction_Description" xml:space="preserve">
+  <value>Удалить круглые скобки, если они избыточны</value>
+</data>
+<data name="RazorMoveToCodeBehindContextAction_Name" xml:space="preserve">
+  <value>Переместить блок в файл кода программной части</value>
+</data>
+<data name="FixModuleQualification_Text" xml:space="preserve">
+  <value>Исправить квалификацию модуля</value>
+</data>
+<data name="ReplaceAll_Tags_Text" xml:space="preserve">
+  <value>Заменить все теги '{0}'</value>
+</data>
+<data name="OptimizeRegisterDirectives_Text" xml:space="preserve">
+  <value>Оптимизировать директивы register</value>
+</data>
+<data name="ReplaceVarWithItsFallbackValueContextAction_Description" xml:space="preserve">
+  <value>Заменить вызов var(…) на его резервное значение (если есть)</value>
+</data>
+<data name="TsCreateFromUsageAction_InExternalModuleText" xml:space="preserve">
+  <value>Создать {0} '{1}' во внешнем модуле '{2}'</value>
+</data>
+<data name="GenerateArgumentStubs_Text" xml:space="preserve">
+  <value>Сгенерировать заглушки аргументов</value>
+</data>
+<data name="MoveRestParameterToTheEnd_Text" xml:space="preserve">
+  <value>Переместить параметр rest в конец</value>
+</data>
+<data name="ConvertToIfStatement_Text" xml:space="preserve">
+  <value>Преобразовать в оператор if</value>
+</data>
+<data name="ConvertIfToSwitchForEnumsContextAction_Name" xml:space="preserve">
+  <value>Преобразовать 'if' в 'switch' для перечислений</value>
+</data>
+<data name="CreateFunction__Text" xml:space="preserve">
+  <value>Создать функцию '{0}'</value>
+</data>
+<data name="ConvertToOperator_Text" xml:space="preserve">
+  <value>Преобразовать в оператор '?:'</value>
+</data>
+<data name="DeclareVariableForThis_InTheOuterScope_Text" xml:space="preserve">
+  <value>Объявить переменную для 'this.{0}' во внешней области видимости</value>
+</data>
+<data name="Rename_Text" xml:space="preserve">
+  <value>Переименовать</value>
+</data>
+<data name="CreateMethodContextAction_Description" xml:space="preserve">
+  <value>Создать метод</value>
+</data>
+<data name="FixTypeExplicitness_Text" xml:space="preserve">
+  <value>Исправить явность типа</value>
+</data>
+<data name="MergeServerScriptsContentContextAction_Name" xml:space="preserve">
+  <value>Объединить содержимое серверных скриптов</value>
+</data>
+<data name="RemoveUnneededInitializer_Text" xml:space="preserve">
+  <value>Удалить ненужный инициализатор</value>
+</data>
+<data name="UnrestifyParameter_Text" xml:space="preserve">
+  <value>Заменить параметр REST на стандартный параметр</value>
+</data>
+<data name="UnableToCreateParenthesizedExpression_Text" xml:space="preserve">
+  <value>Не удается создать выражение в круглых скобках</value>
+</data>
+<data name="Flip_OperatorTo__Text" xml:space="preserve">
+  <value>Переключить оператор '{0}' на '{1}'</value>
+</data>
+<data name="InsertClosingTag__Text" xml:space="preserve">
+  <value>Вставить закрывающий тег '{0}'</value>
+</data>
+<data name="UseCorrectImageSize_Text" xml:space="preserve">
+  <value>Использовать правильный размер изображения</value>
+</data>
+<data name="CSSExpressions_Text" xml:space="preserve">
+  <value>CSS-выражения</value>
+</data>
+<data name="RemoveRedundantConstructor_Text" xml:space="preserve">
+  <value>Удалить избыточный конструктор</value>
+</data>
+<data name="UseSingleColonInsteadOf_Text" xml:space="preserve">
+  <value>Использовать ':' вместо '::'</value>
+</data>
+<data name="FlipClausesToBeInTheRightOrder_Text" xml:space="preserve">
+  <value>Переключить предложения для получения правильного порядка</value>
+</data>
+<data name="CodeCleanupTask_CssReformatCode" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="RemoveModuleNameQuotes_Text" xml:space="preserve">
+  <value>Удалить кавычки имени модуля</value>
+</data>
+<data name="NegateLogicalExpressionContextAction_Name" xml:space="preserve">
+  <value>Инвертировать логическое выражение</value>
+</data>
+<data name="SetReturnTypeToVoid_Text" xml:space="preserve">
+  <value>Установить тип возвращаемого значения void</value>
+</data>
+<data name="RemoveTag__Text" xml:space="preserve">
+  <value>Удалить тег '{0}'</value>
+</data>
+<data name="AddModuleQualification_Text" xml:space="preserve">
+  <value>Добавить квалификацию модуля</value>
+</data>
+<data name="MatchFileNameWithTypeNameContextAction_Description" xml:space="preserve">
+  <value>Переименовать текущий файл в соответствии с именем единственного типа верхнего уровня, объявленного в нем</value>
+</data>
+<data name="CannotApplyFixCannotFindBlockToWhich_Text" xml:space="preserve">
+  <value>Не удается применить исправление: не удается найти блок, в который нужно добавить оператор</value>
+</data>
+<data name="JoinBothLinesIntoASingleStatement_Text" xml:space="preserve">
+  <value>Объединить обе строки в один оператор</value>
+</data>
+<data name="RemoveAccessibilityModifiers_Text" xml:space="preserve">
+  <value>Удалить модификаторы доступа</value>
+</data>
+<data name="ToLINQToJSON_Text" xml:space="preserve">
+  <value>Преобразовать в LINQ to JSON</value>
+</data>
+<data name="AddRequiredDeclareModifier_Text" xml:space="preserve">
+  <value>Добавить обязательный модификатор 'declare'</value>
+</data>
+<data name="MakeEmpty_Tag_Text" xml:space="preserve">
+  <value>Сделать тег '{0}' пустым</value>
+</data>
+<data name="ToBlockLambda_Text" xml:space="preserve">
+  <value>Преобразовать в блочное лямбда-выражение</value>
+</data>
+<data name="MoveFunctionStatementUpper_Text" xml:space="preserve">
+  <value>Переместить оператор функции выше</value>
+</data>
+<data name="ToDataPropertyDefinition_Text" xml:space="preserve">
+  <value>Преобразовать в определение свойства данных</value>
+</data>
+<data name="ConvertRazorLineMarkupToBlockMarkupContextAction_Name" xml:space="preserve">
+  <value>Преобразовать разметку строки Razor в блочную разметку</value>
+</data>
+<data name="ConvertTernaryExpressionToIfStatementContextAction_Description" xml:space="preserve">
+  <value>Преобразовать тернарное выражение, значение которого возвращается или присваивается, в оператор 'if'</value>
+</data>
+<data name="SplitReturnStatementOfBooleanValueToIfStatementContextAction_Name" xml:space="preserve">
+  <value>Разделить оператор 'return' логического значения на оператор 'if'</value>
+</data>
+<data name="ExpandEmptyTagContextAction_Name" xml:space="preserve">
+  <value>Развернуть пустой тег</value>
+</data>
+<data name="CreateViewComponent__Text" xml:space="preserve">
+  <value>Создать компонент представления '{0}'</value>
+</data>
+<data name="FixReturnTypeAction_Text" xml:space="preserve">
+  <value>Использовать тип '{0}' для возвращаемого типа сигнатуры '{1}' для члена '{2}'{3}</value>
+</data>
+<data name="DottedNameToNestedModuleContextAction_Description" xml:space="preserve">
+  <value>Создать вложенные модули для сегментов точечного имени. Например, преобразовать 'module A.B.C' в 'module A.B' с вложенным модулем 'C'.</value>
+</data>
+<data name="ToAccessorsWithBackingField_Text" xml:space="preserve">
+  <value>Преобразовать в аксессоры с резервным полем</value>
+</data>
+<data name="IntroduceVariableToApplyGuard_Text" xml:space="preserve">
+  <value>Ввести переменную и применить защиту</value>
+</data>
+<data name="AddBraces_Text" xml:space="preserve">
+  <value>Добавить фигурные скобки</value>
+</data>
+<data name="ImplementAbstractMember_Text" xml:space="preserve">
+  <value>Реализовать абстрактный член</value>
+</data>
+<data name="MakeConstructorProtected_Text" xml:space="preserve">
+  <value>Сделать конструктор защищенным</value>
+</data>
+<data name="Function_Text" xml:space="preserve">
+  <value>Функция</value>
+</data>
+<data name="Expression_Text" xml:space="preserve">
+  <value>Выражение</value>
+</data>
+<data name="ConvertToSwitchStatement_Text" xml:space="preserve">
+  <value>Преобразовать в оператор 'switch'</value>
+</data>
+<data name="RemoveTagContextAction_Name" xml:space="preserve">
+  <value>Удалить тег</value>
+</data>
+<data name="UseNewArray__Text" xml:space="preserve">
+  <value>Использовать 'new Array&lt;{0}&gt;()'</value>
+</data>
+<data name="AddMissingAttributesForImageDimensions_Text" xml:space="preserve">
+  <value>Добавить отсутствующие атрибуты для размеров изображения</value>
+</data>
+<data name="IncludeFile_IntoProject___Text" xml:space="preserve">
+  <value>Включить файл '{0}' в проект '{1}/{2}'</value>
+</data>
+<data name="ConvertColorToHexForm_Text" xml:space="preserve">
+  <value>Преобразовать цвет в шестнадцатеричную форму</value>
+</data>
+<data name="AddInitializer_Text" xml:space="preserve">
+  <value>Добавить инициализатор</value>
+</data>
+<data name="IntroduceTypeAlias_Text" xml:space="preserve">
+  <value>Ввести псевдоним типа</value>
+</data>
+<data name="ToLINQToJSONContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в LINQ to JSON</value>
+</data>
+<data name="DeclareAmbientVariableUsingDeclareKeyword_Text" xml:space="preserve">
+  <value>Объявить ambient-переменную с использованием ключевого слова 'declare'</value>
+</data>
+<data name="AddParameterToMinimalAPIDeclarationRouteTemplateContextAction_Name" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута объявления минимального API</value>
+</data>
+<data name="ReplaceTernaryWithItsCondition_Text" xml:space="preserve">
+  <value>Заменить тернарный оператор его условием</value>
+</data>
+<data name="InlineRedundantTemporaryVariable_Text" xml:space="preserve">
+  <value>Встроить избыточную временную переменную</value>
+</data>
+<data name="PrependAtSignToRenderReturnValue_Text" xml:space="preserve">
+  <value>Добавить '@' в начало для отображения возвращаемого значения</value>
+</data>
+<data name="ImportTypeContextAction_Name" xml:space="preserve">
+  <value>Импортировать тип</value>
+</data>
+<data name="FixParameterTypeAction_Text" xml:space="preserve">
+  <value>Использовать тип '{0}' для параметра '{1}' в сигнатуре '{2}' для члена '{3}'{4}</value>
+</data>
+<data name="ReplaceWithDestructuringAssignment_Text" xml:space="preserve">
+  <value>Заменить на деструктурирующее присваивание</value>
+</data>
+<data name="ConvertColorToRgb_Text" xml:space="preserve">
+  <value>Преобразовать цвет в rgb()</value>
+</data>
+<data name="InitializeField_FromParameter_Text" xml:space="preserve">
+  <value>Инициализировать поле '{0}' из параметра</value>
+</data>
+<data name="PutPropertyAfterVendorSpecificProperties_Text" xml:space="preserve">
+  <value>Поместить свойство после специфичных для поставщика свойств</value>
+</data>
+<data name="ConvertHexColorToRgbContextAction_Name" xml:space="preserve">
+  <value>Преобразовать шестнадцатеричный цвет в rgb()</value>
+</data>
+<data name="SplitVariableDeclarationAndAssignmentContextAction_Name" xml:space="preserve">
+  <value>Разделить объявление и присваивание переменной</value>
+</data>
+<data name="TsCreateFromUsageAction_ExternalScopeText" xml:space="preserve">
+  <value>Создать {0} '{1}' и изменить область видимости файла на внешнюю</value>
+</data>
+<data name="ReplaceAllTagsContextAction_Description" xml:space="preserve">
+  <value>Заменить все теги с таким же именем в файле на другой тег</value>
+</data>
+<data name="ConvertBinToDecES6ContextAction_Name" xml:space="preserve">
+  <value>Преобразовать двоичное в десятичное (ES6)</value>
+</data>
+<data name="ImplementMissingMembersAbstract_Text" xml:space="preserve">
+  <value>Реализовать отсутствующие члены как абстрактные</value>
+</data>
+<data name="RemoveReturnStatement_Text" xml:space="preserve">
+  <value>Удалить оператор return</value>
+</data>
+<data name="AddQuotes_Text" xml:space="preserve">
+  <value>Добавить кавычки</value>
+</data>
+<data name="LineBreaks_Text" xml:space="preserve">
+  <value>Разрывы строк</value>
+</data>
+<data name="ChangeLanguageLevelToECMAScript2016_Text" xml:space="preserve">
+  <value>Изменить уровень языка на ECMAScript 2016</value>
+</data>
+<data name="ExplicitlySpecifyElidedTrailingElementsAsNull_Text" xml:space="preserve">
+  <value>Явно указать опущенные завершающие элементы как 'null'</value>
+</data>
+<data name="DeclareLocalVariable__Text" xml:space="preserve">
+  <value>Объявить локальную переменную '{0}'</value>
+</data>
+<data name="UnsupportedCodeBehindLanguage_Text" xml:space="preserve">
+  <value>Неподдерживаемый язык кода программной части</value>
+</data>
+<data name="CodeCleanupTask_CssAlphabetizeProperties" xml:space="preserve">
+  <value>Упорядочить свойства по алфавиту</value>
+</data>
+<data name="ReverseAssignmentStatementContextAction_Name" xml:space="preserve">
+  <value>Обратить оператор присваивания</value>
+</data>
+<data name="AddFunctionBody_Text" xml:space="preserve">
+  <value>Добавить тело функции</value>
+</data>
+<data name="Remove_Tag_Text" xml:space="preserve">
+  <value>Удалить тег '{0}'</value>
+</data>
+<data name="CreateStyle__Text" xml:space="preserve">
+  <value>Создать стиль {0}</value>
+</data>
+<data name="ConvertsExpressionLambdaToBlockLambdaWithReturnContextAction_Name" xml:space="preserve">
+  <value>Преобразовать лямбда-выражение в блочное лямбда-выражение с возвратом</value>
+</data>
+<data name="ChangeToExtends_Text" xml:space="preserve">
+  <value>Изменить на 'extends'</value>
+</data>
+<data name="ConvertMemberAssignedByALambdaExpressionToFunctionMemberContextAction_Name" xml:space="preserve">
+  <value>Преобразовать член, присваиваемый лямбда-выражением, в член-функцию</value>
+</data>
+<data name="ImplementMissingMembers_Text" xml:space="preserve">
+  <value>Реализовать отсутствующие члены</value>
+</data>
+<data name="CreatePropertyFromUsageContextAction_Description" xml:space="preserve">
+  <value>Создать свойство, функцию, локальную переменную или параметр из использования</value>
+</data>
+<data name="ReplaceWithDestructuringAndShortHand_Text" xml:space="preserve">
+  <value>Заменить на деструктуризацию и сокращенное свойство</value>
+</data>
+<data name="RenamingConflictingDeclaration_Text" xml:space="preserve">
+  <value>Переименование конфликтующего объявления</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToGetAccessorPropertyDefinitionContextAction_Name" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства с get-аксессором</value>
+</data>
+<data name="ConvertCastToAsOperator_Text" xml:space="preserve">
+  <value>Преобразовать приведение в оператор 'as'</value>
+</data>
+<data name="CreateOverloadWithoutParameter_Text" xml:space="preserve">
+  <value>Создать перегрузку без параметра</value>
+</data>
+<data name="ConvertOctToDecES6ContextAction_Name" xml:space="preserve">
+  <value>Преобразовать восьмеричное в десятичное (ES6)</value>
+</data>
+<data name="AddParameterConstraintToMatchingParametersInRouteTemplatesContextAction_Description" xml:space="preserve">
+  <value>Добавить ограничение параметра к соответствующим параметрам в шаблонах маршрутов</value>
+</data>
+<data name="RemoveTagContextAction_Description" xml:space="preserve">
+  <value>Удалить тег, оставив его содержимое неизменным</value>
+</data>
+<data name="RemoveUnitOfMeasure_Text" xml:space="preserve">
+  <value>Удалить единицу измерения</value>
+</data>
+<data name="DisableAndRestoreWithComments_Text" xml:space="preserve">
+  <value>Отключить и восстановить с комментариями</value>
+</data>
+<data name="EditPathMappingContextAction_Name" xml:space="preserve">
+  <value>Редактировать сопоставление путей</value>
+</data>
+<data name="NestedModuleToDottedNameContextAction_Description" xml:space="preserve">
+  <value>Объединить вложенные одиночные экспортируемые модули в точечное имя. Например, преобразовать 'module A.B' с вложенным экспортом 'module C' в 'module A.B.C'.</value>
+</data>
+<data name="ConvertRgbToNamedFormContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'rgb()' в именованную форму</value>
+</data>
+<data name="AddParameterConstraintToMatchingParametersInRouteTemplatesContextAction_Name" xml:space="preserve">
+  <value>Добавить ограничение параметра к соответствующим параметрам в шаблонах маршрутов</value>
+</data>
+<data name="CreateConstructorWithProvidedParameters_Text" xml:space="preserve">
+  <value>Создать конструктор с предоставленными параметрами в базовом классе</value>
+</data>
+<data name="Remove_Attribute_Text" xml:space="preserve">
+  <value>Удалить атрибут '{0}'</value>
+</data>
+<data name="Property_Text" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="MoveIntoSeparateGlobalFile_Text" xml:space="preserve">
+  <value>Переместить в отдельный глобальный файл</value>
+</data>
+<data name="AddRequiredSuperCall_Text" xml:space="preserve">
+  <value>Добавить обязательный вызов super()</value>
+</data>
+<data name="ChangeTypeTo_ToSatisfyConstraint__Text" xml:space="preserve">
+  <value>Изменить тип на '{0}' для удовлетворения ограничения '{1}'</value>
+</data>
+<data name="IntroduceVariableFromExpressionStatementContextAction_Name" xml:space="preserve">
+  <value>Ввести переменную из оператора выражения</value>
+</data>
+<data name="DeclareModuleAsAmbient_Text" xml:space="preserve">
+  <value>Объявить модуль как ambient</value>
+</data>
+<data name="CannotApplyFixProbablyTheActualType_Text" xml:space="preserve">
+  <value>Не удается применить исправление: возможно, фактический тип не разрешен</value>
+</data>
+<data name="TerminateAllUnterminatedStatementsIn_Text" xml:space="preserve">
+  <value>Завершить все незавершенные операторы в файле</value>
+</data>
+<data name="SplitIntoIfAndReturn_Text" xml:space="preserve">
+  <value>Разделить на 'if' и 'return'</value>
+</data>
+<data name="ConvertRazorBlockMarkupToLineMarkupContextAction_Name" xml:space="preserve">
+  <value>Преобразовать блочную разметку Razor в строчную разметку</value>
+</data>
+<data name="ConvertAllObsoleteConstructsToECMAScript_Text" xml:space="preserve">
+  <value>Преобразовать все устаревшие конструкции в ECMAScript 6</value>
+</data>
+<data name="ReplaceVarWithItsFallbackValue_Text" xml:space="preserve">
+  <value>Заменить var(…) на его резервное значение</value>
+</data>
+<data name="ChangeLanguageLevelToECMAScript2015_Text" xml:space="preserve">
+  <value>Изменить уровень языка на ECMAScript 2015</value>
+</data>
+<data name="CreateOverloadWithoutParameterContextAction_Name" xml:space="preserve">
+  <value>Создать перегрузку без параметра</value>
+</data>
+<data name="SortJSONPropertiesContextAction_Name" xml:space="preserve">
+  <value>Упорядочить свойства JSON</value>
+</data>
+<data name="QuotePropertyName_Text" xml:space="preserve">
+  <value>Заключить имя свойства в кавычки</value>
+</data>
+<data name="ConvertToBinES6ContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из десятичной формы в двоичную</value>
+</data>
+<data name="SplitReturnWithConditionIntoGuardingIfAndReturnContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'return', условием которого является конъюнкция двух более простых условий ('&amp;&amp;'). Он преобразует оператор 'return' в защитный оператор 'if' и 'return'.</value>
+</data>
+<data name="RemoveUnused__Text" xml:space="preserve">
+  <value>Удалить неиспользуемый{0}</value>
+</data>
+<data name="CreateClass_InModule___Text" xml:space="preserve">
+  <value>Создать класс '{0}' в модуле '{1}' {2}</value>
+</data>
+<data name="RemoveDeadCode_Text" xml:space="preserve">
+  <value>Удалить мертвый код</value>
+</data>
+<data name="SplitIntoSeparateDeclarations_Text" xml:space="preserve">
+  <value>Разделить на отдельные объявления</value>
+</data>
+<data name="MoveTypeToAnotherFileToMatchItsNameContextAction_Description" xml:space="preserve">
+  <value>Переместить текущий тип в другой файл, чтобы его имя соответствовало имени типа</value>
+</data>
+<data name="AddJsDocCommentsContextAction_Name" xml:space="preserve">
+  <value>Добавить комментарии JsDoc</value>
+</data>
+<data name="AddUseStrictStatement_Text" xml:space="preserve">
+  <value>Добавить оператор 'use strict'</value>
+</data>
+<data name="MediaQuery_Text" xml:space="preserve">
+  <value>Медиазапрос</value>
+</data>
+<data name="AddCodeBehindFileContextAction_Description" xml:space="preserve">
+  <value>Добавить файл кода программной части</value>
+</data>
+<data name="InsertTableColumnBeforeContextAction_Name" xml:space="preserve">
+  <value>Вставить столбец таблицы перед:</value>
+</data>
+<data name="Make_Public_Text" xml:space="preserve">
+  <value>Сделать {0} общедоступным</value>
+</data>
+<data name="AddXmlDocComments_Text" xml:space="preserve">
+  <value>Добавить xml-документирующие комментарии</value>
+</data>
+<data name="FixParenthesesBracketsNesting_Text" xml:space="preserve">
+  <value>Исправить вложение круглых/квадратных скобок</value>
+</data>
+<data name="FixPropertyName_Text" xml:space="preserve">
+  <value>Исправить имя свойства</value>
+</data>
+<data name="SpecifyReturnType_Explicitly_Text" xml:space="preserve">
+  <value>Явно указать тип возвращаемого значения '{0}'</value>
+</data>
+<data name="InsertTableColumnAfter_Text" xml:space="preserve">
+  <value>Вставить столбец таблицы после:</value>
+</data>
+<data name="CSSFiles_Text" xml:space="preserve">
+  <value>CSS-файлы</value>
+</data>
+<data name="AddChangeQuotesEverywhere_Text" xml:space="preserve">
+  <value>Добавить/изменить кавычки везде</value>
+</data>
+<data name="ConvertToClassField_Text" xml:space="preserve">
+  <value>Преобразовать в поле класса</value>
+</data>
+<data name="CannotApplyFixCannotResolveBaseType_Text" xml:space="preserve">
+  <value>Не удается применить исправление: не удается разрешить базовый тип</value>
+</data>
+<data name="RemoveDirectiveAttributeContextAction_Description" xml:space="preserve">
+  <value>Удалить атрибут директивы</value>
+</data>
+<data name="CreateMethod__Text" xml:space="preserve">
+  <value>Создать метод '{0}'</value>
+</data>
+<data name="MakePathAbsolute_Text" xml:space="preserve">
+  <value>Сделать путь абсолютным</value>
+</data>
+<data name="MakeAllOverloadsNonStatic_Text" xml:space="preserve">
+  <value>Сделать все перегрузки нестатическими</value>
+</data>
+<data name="MakeAllFurtherParametersStartingFrom_Text" xml:space="preserve">
+  <value>Сделать этот и все последующие параметры необязательными</value>
+</data>
+<data name="SurroundWithTypeGuard_SurroundWith" xml:space="preserve">
+  <value>Окружить '{0}'</value>
+</data>
+<data name="ReplaceTagContextAction_Name" xml:space="preserve">
+  <value>Заменить тег</value>
+</data>
+<data name="Remove__Text" xml:space="preserve">
+  <value>Удалить '{0}'</value>
+</data>
+<data name="ConvertFieldToParameterPropertyContextAction_Name" xml:space="preserve">
+  <value>Преобразовать поле в параметр-свойство</value>
+</data>
+<data name="ConvertToDecFromHexContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в десятичное</value>
+</data>
+<data name="ConvertHslToRgbContextAction_Name" xml:space="preserve">
+  <value>Преобразовать hsl() в rgb()</value>
+</data>
+<data name="GeneratingFileAlreadyExists_Text" xml:space="preserve">
+  <value>Генерируемый файл уже существует</value>
+</data>
+<data name="SortProperties_Text" xml:space="preserve">
+  <value>Упорядочить свойства</value>
+</data>
+<data name="MergeServerScriptsContentContextAction_Description" xml:space="preserve">
+  <value>Объединить содержимое серверных скриптов</value>
+</data>
+<data name="AddExplicitNull_Text" xml:space="preserve">
+  <value>Добавить явный 'null'</value>
+</data>
+<data name="ConvertTernaryExpressionToIfStatementContextAction_Name" xml:space="preserve">
+  <value>Преобразовать тернарное выражение в оператор 'if'</value>
+</data>
+<data name="ChangeVisibilityModifierContextAction_Name" xml:space="preserve">
+  <value>Изменить модификатор видимости</value>
+</data>
+<data name="MakeAllOverloadsNonExported_Text" xml:space="preserve">
+  <value>Сделать все перегрузки неэкспортируемыми</value>
+</data>
+<data name="CannotApplyFixCannotDetermineTypeOf_Text" xml:space="preserve">
+  <value>Не удается применить исправление: не удается определить тип {0}</value>
+</data>
+<data name="AddAsAnOptionalParameterToTheMainSignature_Text" xml:space="preserve">
+  <value>Добавить как необязательный параметр в основную сигнатуру</value>
+</data>
+<data name="RemoveNewKeyword_Text" xml:space="preserve">
+  <value>Удалить ключевое слово 'new'</value>
+</data>
+<data name="MakeVariable_BlockScope_Text" xml:space="preserve">
+  <value>Сделать переменную '{0}' блочной областью видимости</value>
+</data>
+<data name="RemoveRedundantQualifier_Text" xml:space="preserve">
+  <value>Удалить избыточный квалификатор</value>
+</data>
+<data name="RemoveUnneededTypeSpecializer_Text" xml:space="preserve">
+  <value>Удалить ненужный специализатор типа</value>
+</data>
+<data name="CreateMissingAttribute__Text" xml:space="preserve">
+  <value>Создать отсутствующий атрибут '{0}'</value>
+</data>
+<data name="AddExplicitAnyAnnotationFix_CastText" xml:space="preserve">
+  <value>Явно привести к '{0}'</value>
+</data>
+<data name="CreateView__Text" xml:space="preserve">
+  <value>Создать представление '{0}'</value>
+</data>
+<data name="AddBlock_Text" xml:space="preserve">
+  <value>Добавить блок</value>
+</data>
+<data name="RemoveAllParametersExcept__Text" xml:space="preserve">
+  <value>Удалить все параметры, кроме '{0}'</value>
+</data>
+<data name="ConvertToDecFromOctContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в десятичное</value>
+</data>
+<data name="RemoveUnusedClass_Text" xml:space="preserve">
+  <value>Удалить неиспользуемый класс</value>
+</data>
+<data name="ReverseAssignment_Text" xml:space="preserve">
+  <value>Обратить присваивание</value>
+</data>
+<data name="FixAllValidationIssues_Text" xml:space="preserve">
+  <value>Исправить все проблемы проверки</value>
+</data>
+<data name="RemoveRedundantLocalFunctionName_Text" xml:space="preserve">
+  <value>Удалить избыточное имя локальной функции</value>
+</data>
+<data name="CreateTypeFromUsageContextAction_Name" xml:space="preserve">
+  <value>Создать из использования</value>
+</data>
+<data name="MoveTo_Ts_Text" xml:space="preserve">
+  <value>Переместить в '{0}.ts'</value>
+</data>
+<data name="CastToAny_Text" xml:space="preserve">
+  <value>Привести к 'any'</value>
+</data>
+<data name="UseType_ForTheReturnTypeOf_IndexerIn_Text" xml:space="preserve">
+  <value>Использовать тип '{0}' для возвращаемого типа {1}индексатора в типе '{2}'</value>
+</data>
+<data name="RemoveAmbientMemberBody_Text" xml:space="preserve">
+  <value>Удалить тело ambient-члена</value>
+</data>
+<data name="ConvertToOctContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в восьмеричное</value>
+</data>
+<data name="SetReturnTypeToAny_Text" xml:space="preserve">
+  <value>Установить тип возвращаемого значения any</value>
+</data>
+<data name="MergeTwoIfS_Text" xml:space="preserve">
+  <value>Объединить два 'if'</value>
+</data>
+<data name="UnrestifyPrecedingRestParameter_Text" xml:space="preserve">
+  <value>Заменить предшествующий параметр REST на стандартный параметр</value>
+</data>
+<data name="SpecifyReturnTypeExplicitlyContextAction_Name" xml:space="preserve">
+  <value>Явно указать тип возвращаемого значения</value>
+</data>
+<data name="ChangeLanguageLevelToExperimental_Text" xml:space="preserve">
+  <value>Изменить уровень языка на экспериментальный</value>
+</data>
+<data name="GenerateDeclarationSourceFile_DTsFor_Text" xml:space="preserve">
+  <value>Сгенерировать исходный файл объявлений {0}.d.ts для глобальной переменной '{1}'</value>
+</data>
+<data name="AddParameterToMinimalAPIDeclarationRouteTemplateContextAction_Description" xml:space="preserve">
+  <value>Добавить параметр в параметр маршрута объявления минимального API</value>
+</data>
+<data name="MakeSuperCallTheFirstStatement_Text" xml:space="preserve">
+  <value>Сделать вызов super() первым оператором</value>
+</data>
+<data name="ConvertParameterPropertyToFieldContextAction_Name" xml:space="preserve">
+  <value>Преобразовать параметр-свойство в поле</value>
+</data>
+<data name="ConvertsSingleReturnBlockLambdaToExpressionContextAction_Description" xml:space="preserve">
+  <value>Преобразовать блочное лямбда-выражение с одним return в лямбда-выражение-выражение</value>
+</data>
+<data name="RemoveRedundantFinally_Text" xml:space="preserve">
+  <value>Удалить избыточный 'finally'</value>
+</data>
+<data name="Negate_Expression_Text" xml:space="preserve">
+  <value>Инвертировать выражение '{0}'</value>
+</data>
+<data name="AlphabetizeProperties_Name_Sort_CSS_properties" xml:space="preserve">
+  <value>Упорядочить свойства CSS</value>
+</data>
+<data name="CreateProperty__Text" xml:space="preserve">
+  <value>Создать свойство '{0}'</value>
+</data>
+<data name="CorrectVariableKinds_Text" xml:space="preserve">
+  <value>Исправить виды переменных</value>
+</data>
+<data name="AddParameter__Text" xml:space="preserve">
+  <value>Добавить параметр '{0}'</value>
+</data>
+<data name="AddXmlDocCommentsContextAction_Description" xml:space="preserve">
+  <value>Добавить xml-документирующие комментарии</value>
+</data>
+<data name="GenerateDeclarationSourceFile_DTsForAllGlobalDynamicProperty_Text" xml:space="preserve">
+  <value>Сгенерировать исходный файл объявлений {0}.d.ts для всех глобальных динамических свойств из файла {1}.js</value>
+</data>
+<data name="AddParameterToMethodSRouteTemplateContextAction_Name" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута метода</value>
+</data>
+<data name="UseAnyExplicitly_Text" xml:space="preserve">
+  <value>Явно использовать 'any*'</value>
+</data>
+<data name="TsCreateFromUsageAction_Class" xml:space="preserve">
+  <value>Класс</value>
+</data>
+<data name="ConvertRgbToHslContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'rgb()' в 'hsl()'</value>
+</data>
+<data name="MergeServerScriptsContent_Text" xml:space="preserve">
+  <value>Объединить содержимое серверных скриптов</value>
+</data>
+<data name="InsertTableRowAfterContextAction_Description" xml:space="preserve">
+  <value>Вставить строку таблицы после:</value>
+</data>
+<data name="MoveVariable_ToInnerBlock_Text" xml:space="preserve">
+  <value>Переместить переменную '{0}' во внутренний блок</value>
+</data>
+<data name="CreateVariable__Text" xml:space="preserve">
+  <value>Создать переменную '{0}'</value>
+</data>
+<data name="ConvertRgbToHexLiteralContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'rgb()' в шестнадцатеричный литерал</value>
+</data>
+<data name="SplitIfWithConditionIntoTwoIfStatementsContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'if', условием которого является дизъюнкция двух более простых условий ('||'). Он преобразует оператор 'if' в два оператора 'if' с одинаковым телом.</value>
+</data>
+<data name="CreatePairedAccessorContextAction_Name" xml:space="preserve">
+  <value>Создать парный аксессор</value>
+</data>
+<data name="RazorReservedKeywordQuickFix_Text" xml:space="preserve">
+  <value>Обернуть с помощью @()</value>
+</data>
+<data name="RemoveRedundantDoubleNegation_Text" xml:space="preserve">
+  <value>Удалить избыточное двойное отрицание</value>
+</data>
+<data name="ChangeToECMAScript6ExportDefault_Text" xml:space="preserve">
+  <value>Изменить на ECMAScript 6 'export default'</value>
+</data>
+<data name="ConvertObjectLiteralPropertyToAccessorsPairWithBackingFieldContextAction_Description" xml:space="preserve">
+  <value>Преобразовать свойство литерала объекта в пару аксессоров ECMAScript 5 с резервным полем</value>
+</data>
+<data name="RemoveProperty__Text" xml:space="preserve">
+  <value>Удалить свойство '{0}'</value>
+</data>
+<data name="AddAnOwnTypeParameterNamed_ToTheMethod_Text" xml:space="preserve">
+  <value>Добавить собственный параметр типа с именем {0} в метод</value>
+</data>
+<data name="ConvertToASPNETTag_Text" xml:space="preserve">
+  <value>Преобразовать в тег ASP.NET</value>
+</data>
+<data name="CreateDerivedType_Text" xml:space="preserve">
+  <value>Создать производный тип</value>
+</data>
+<data name="SplitIfWithConditionIntoNestedIfStatementsContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'if', значением которого является конъюнкция двух более простых условий ('&amp;&amp;'). Он преобразует оператор 'if' в два вложенных оператора 'if'.</value>
+</data>
+<data name="ConvertRazorLineMarkupToBlockMarkupContextAction_Description" xml:space="preserve">
+  <value>Преобразовать разметку строки Razor в блочную разметку</value>
+</data>
+<data name="UseDoubleColonInsteadOf_Text" xml:space="preserve">
+  <value>Использовать '::' вместо ':'</value>
+</data>
+<data name="RemoveDeclaration_Text" xml:space="preserve">
+  <value>Удалить объявление</value>
+</data>
+<data name="RemoveTypeParameters_Text" xml:space="preserve">
+  <value>Удалить параметры типа</value>
+</data>
+<data name="MergeImplementsClauses_Text" xml:space="preserve">
+  <value>Объединить предложения implements</value>
+</data>
+<data name="MoveImportToExternalModuleScopeChanges_Text" xml:space="preserve">
+  <value>Переместить импорт во внешнюю область видимости модуля (изменить область видимости при необходимости)</value>
+</data>
+<data name="RemoveTypeConstraintFromDeclaration_Text" xml:space="preserve">
+  <value>Удалить ограничение типа из объявления</value>
+</data>
+<data name="AddMissingParameter_Text" xml:space="preserve">
+  <value>Добавить отсутствующий параметр</value>
+</data>
+<data name="FixValue_Text" xml:space="preserve">
+  <value>Исправить значение</value>
+</data>
+<data name="ReplaceDoubleQuotedStringWithSingle_Text" xml:space="preserve">
+  <value>Заменить строку в двойных кавычках на строку в одинарных кавычках</value>
+</data>
+<data name="ReorderPropertiesInACorrectInitialization_Text" xml:space="preserve">
+  <value>Переупорядочить свойства в правильном порядке инициализации</value>
+</data>
+<data name="ConvertHslToNamedFormContextAction_Name" xml:space="preserve">
+  <value>Преобразовать hsl() в именованную форму</value>
+</data>
+<data name="InvertTernaryConditionContextAction_Description" xml:space="preserve">
+  <value>Инвертировать условие и поменять местами ветви тернарного выражения</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToDataPropertyDefinitionContextAction_Description" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства данных через вызов 'Object.defineProperty()'</value>
+</data>
+<data name="RenameHidingTypeParameter_Text" xml:space="preserve">
+  <value>Переименовать скрывающий параметр типа</value>
+</data>
+<data name="ChangeTypeScriptLevelTo__Text" xml:space="preserve">
+  <value>Изменить уровень TypeScript на {0}</value>
+</data>
+<data name="SpecifyType_Explicitly_Text" xml:space="preserve">
+  <value>Явно указать тип '{0}'</value>
+</data>
+<data name="ConvertToOctContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из десятичной формы в восьмеричную</value>
+</data>
+<data name="DeleteCodeFileAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут CodeFile</value>
+</data>
+<data name="Rename___Text" xml:space="preserve">
+  <value>Переименовать '{0}' {1}</value>
+</data>
+<data name="ReorderTagAttributesContextAction_Description" xml:space="preserve">
+  <value>Переупорядочить атрибуты тега по алфавиту</value>
+</data>
+<data name="ChangeNameTo__Text" xml:space="preserve">
+  <value>Изменить имя на {0}</value>
+</data>
+<data name="ConvertToHex_Text" xml:space="preserve">
+  <value>Преобразовать в шестнадцатеричное</value>
+</data>
+<data name="MoveTypesToMatchingFiles_Text" xml:space="preserve">
+  <value>Переместить типы в соответствующие файлы</value>
+</data>
+<data name="RemoveRedundantTypeSpecification_Text" xml:space="preserve">
+  <value>Удалить избыточную спецификацию типа</value>
+</data>
+<data name="ChangeViewModelTypeTo__Text" xml:space="preserve">
+  <value>Изменить тип модели представления на '{0}'</value>
+</data>
+<data name="RemoveAlphaComponent_Text" xml:space="preserve">
+  <value>Удалить альфа-компонент</value>
+</data>
+<data name="MakeMember_OfModule_Exported_Text" xml:space="preserve">
+  <value>Сделать член '{0}' модуля '{1}' экспортируемым</value>
+</data>
+<data name="CreateViewComponentView__Text" xml:space="preserve">
+  <value>Создать представление компонента представления '{0}'</value>
+</data>
+<data name="ConvertColorToHsl_Text" xml:space="preserve">
+  <value>Преобразовать цвет в hsl()</value>
+</data>
+<data name="ConvertToHexContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из десятичной формы в шестнадцатеричную</value>
+</data>
+<data name="RemoveTagAttributeContextAction_Name" xml:space="preserve">
+  <value>Удалить атрибут тега</value>
+</data>
+<data name="AddCodeBehindFileContextAction_Name" xml:space="preserve">
+  <value>Добавить файл кода программной части</value>
+</data>
+<data name="SplitReturnWithConditionIntoGuardingIfAndReturnContextAction_Name" xml:space="preserve">
+  <value>Разделить 'return' с условием '&amp;&amp;' на защитный 'if' и 'return'</value>
+</data>
+<data name="RazorMoveToCodeBehindContextAction_Description" xml:space="preserve">
+  <value>Переместить блок Blazor @code в файл кода программной части с соответствующим именем. Если файл не существует, он будет создан.</value>
+</data>
+<data name="ConvertToBin_Text" xml:space="preserve">
+  <value>Преобразовать в двоичное</value>
+</data>
+<data name="ConvertHTMLEntityContextAction_Description" xml:space="preserve">
+  <value>Преобразовать HTML-сущность между числовой и именованной формами</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToGetAccessorPropertyDefinitionContextAction_Description" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства с get-аксессором через вызов 'Object.defineProperty()'</value>
+</data>
+<data name="RemoveTypeParametersList_Text" xml:space="preserve">
+  <value>Удалить список параметров типа</value>
+</data>
+<data name="MakeAllVariablesFromThisListConstant_Text" xml:space="preserve">
+  <value>Сделать все переменные в этом списке константами</value>
+</data>
+<data name="AddMissingParametersFromRouteTemplate_Text" xml:space="preserve">
+  <value>Добавить отсутствующие параметры из шаблона маршрута</value>
+</data>
+<data name="CreatePropertyFromSubPropertyContextAction_Description" xml:space="preserve">
+  <value>Создать свойство из дочернего свойства</value>
+</data>
+<data name="RazorNullConditionalOperatorQuickFix_Text" xml:space="preserve">
+  <value>Заключить выражение в круглые скобки</value>
+</data>
+<data name="OptimizeImportStatements_Text" xml:space="preserve">
+  <value>Оптимизировать операторы 'import'</value>
+</data>
+<data name="MakeAllOverloadsExported_Text" xml:space="preserve">
+  <value>Сделать все перегрузки экспортируемыми</value>
+</data>
+<data name="AddReturnStatement_Text" xml:space="preserve">
+  <value>Добавить оператор return</value>
+</data>
+<data name="AddThisQualifier_Text" xml:space="preserve">
+  <value>Добавить квалификатор 'this'</value>
+</data>
+<data name="ConvertToOct_Text" xml:space="preserve">
+  <value>Преобразовать в восьмеричное</value>
+</data>
+<data name="MoveBlockToCodeBehind_Text" xml:space="preserve">
+  <value>Переместить блок в файл кода программной части</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToAccessorPropertyDefinitionWithBackingFieldContextAction_Name" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства-аксессора с резервным полем</value>
+</data>
+<data name="CreateMethodContextAction_Name" xml:space="preserve">
+  <value>Создать метод</value>
+</data>
+<data name="UseBaseCommonTypeAction_Text" xml:space="preserve">
+  <value>Использовать тип '{0}' для члена '{1}'{2}</value>
+</data>
+<data name="JoinLocalVariableDeclarationAndAssignmentContextAction_Name" xml:space="preserve">
+  <value>Объединить объявление и присваивание локальной переменной</value>
+</data>
+<data name="ExtractStyle_Text" xml:space="preserve">
+  <value>Извлечь стиль</value>
+</data>
+<data name="AddPublicModifier_Text" xml:space="preserve">
+  <value>Добавить модификатор 'public'</value>
+</data>
+<data name="RemoveCodeBehindFile_Text" xml:space="preserve">
+  <value>Удалить файл кода программной части</value>
+</data>
+<data name="InsertTableColumnBefore_Text" xml:space="preserve">
+  <value>Вставить столбец таблицы перед:</value>
+</data>
+<data name="ReplaceSingleQuotedStringLiteralWithDoubleQuotedContextAction_Name" xml:space="preserve">
+  <value>Заменить строковый литерал в одинарных кавычках на строковый литерал в двойных кавычках</value>
+</data>
+<data name="RemoveValue_Text" xml:space="preserve">
+  <value>Удалить значение</value>
+</data>
+<data name="ConvertObjectLiteralPropertyToGetAccessorContextAction_Description" xml:space="preserve">
+  <value>Преобразовать свойство литерала объекта в get-аксессор ECMAScript 5</value>
+</data>
+<data name="ImportType_Text" xml:space="preserve">
+  <value>Импортировать тип</value>
+</data>
+<data name="AddMissingComma_Text" xml:space="preserve">
+  <value>Добавить отсутствующую запятую</value>
+</data>
+<data name="AddUnitOfMeasure_Text" xml:space="preserve">
+  <value>Добавить единицу измерения</value>
+</data>
+<data name="CreatePartialView__Text" xml:space="preserve">
+  <value>Создать частичное представление '{0}'</value>
+</data>
+<data name="MakeBothAccessorsPrivate_Text" xml:space="preserve">
+  <value>Сделать оба аксессора закрытыми</value>
+</data>
+<data name="ConvertHexColorToNamedContextAction_Name" xml:space="preserve">
+  <value>Преобразовать шестнадцатеричный цвет в именованную форму</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToDataPropertyDefinitionContextAction_Name" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства данных</value>
+</data>
+<data name="ConvertColorToNamedForm_Text" xml:space="preserve">
+  <value>Преобразовать цвет в именованную форму</value>
+</data>
+<data name="SplitReturnWithConditionIntoAssignmentToTemporaryVariableContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'return', значением которого является дизъюнкция двух более простых условий ('||'). Он преобразует оператор 'return' в защитный оператор 'if' и 'return'.</value>
+</data>
+<data name="RemoveRedundantLocalClassName_Text" xml:space="preserve">
+  <value>Удалить избыточное локальное имя класса</value>
+</data>
+<data name="ToDottedName_Text" xml:space="preserve">
+  <value>В точечное имя</value>
+</data>
+<data name="ToNestedModule_Text" xml:space="preserve">
+  <value>Во вложенный модуль</value>
+</data>
+<data name="SplitIfWithConditionIntoTwoIfStatementsContextAction_Name" xml:space="preserve">
+  <value>Разделить 'if' с условием '||' на два оператора 'if'</value>
+</data>
+<data name="ConvertHTMLEntityContextAction_Name" xml:space="preserve">
+  <value>Преобразовать HTML-сущность</value>
+</data>
+<data name="ChangeSignatureOf__Text" xml:space="preserve">
+  <value>Изменить сигнатуру '{0}'</value>
+</data>
+<data name="AddValue_Text" xml:space="preserve">
+  <value>Добавить значение</value>
+</data>
+<data name="ImportControl_Text" xml:space="preserve">
+  <value>Импортировать элемент управления</value>
+</data>
+<data name="ReverseAssignmentStatementContextAction_Description" xml:space="preserve">
+  <value>Поменять местами исходную и целевую части оператора присваивания</value>
+</data>
+<data name="ConvertTagContextAction_Description" xml:space="preserve">
+  <value>Преобразовать тег</value>
+</data>
+<data name="InsertTableRowBeforeContextAction_Description" xml:space="preserve">
+  <value>Вставить строку таблицы перед:</value>
+</data>
+<data name="AddNew_Text" xml:space="preserve">
+  <value>Добавить 'new'</value>
+</data>
+<data name="AddConstraint_ToMatchingParametersIn_Text" xml:space="preserve">
+  <value>Добавить ограничение '{0}' к соответствующим параметрам в шаблоне маршрута</value>
+</data>
+<data name="WrapToGetAccessor_Text" xml:space="preserve">
+  <value>Обернуть в get-аксессор</value>
+</data>
+<data name="Close_Tag_Text" xml:space="preserve">
+  <value>Закрыть тег '{0}'</value>
+</data>
+<data name="RemoveUnusedFunction_Text" xml:space="preserve">
+  <value>Удалить неиспользуемую функцию</value>
+</data>
+<data name="ReformatCode_Name_Reformat_CSS" xml:space="preserve">
+  <value>Переформатировать CSS</value>
+</data>
+<data name="UncommentContextAction_Name" xml:space="preserve">
+  <value>Раскомментировать</value>
+</data>
+<data name="AddParentheses_Text" xml:space="preserve">
+  <value>Добавить круглые скобки</value>
+</data>
+<data name="ComputeConstantValueContextAction_Description" xml:space="preserve">
+  <value>Вычислить значение текущего выражения и заменить его (например, заменить 1 + 1 на 2)</value>
+</data>
+<data name="TryToJoinValuesAsString_Text" xml:space="preserve">
+  <value>Попытаться объединить значения в строку</value>
+</data>
+<data name="ChangeTypesOfBothAccessorsToTheSame_Text" xml:space="preserve">
+  <value>Изменить типы обоих аксессоров на одинаковый</value>
+</data>
+<data name="ConvertConcatenationToTemplateStringContextAction_Name" xml:space="preserve">
+  <value>Преобразовать конкатенацию в шаблонную строку</value>
+</data>
+<data name="MakeFieldReadonly_Text" xml:space="preserve">
+  <value>Сделать поле доступным только для чтения</value>
+</data>
+<data name="ConvertParameterToLocalVariable_Text" xml:space="preserve">
+  <value>Преобразовать параметр в локальную переменную</value>
+</data>
+<data name="CreateOverload_Text" xml:space="preserve">
+  <value>Создать перегрузку</value>
+</data>
+<data name="CastTo__Text" xml:space="preserve">
+  <value>Привести к '{0}'</value>
+</data>
+<data name="RemoveRedundantElseBlock_Text" xml:space="preserve">
+  <value>Удалить избыточный блок 'else'</value>
+</data>
+<data name="Replace_With__Text" xml:space="preserve">
+  <value>Заменить '{0}' на '{1}'</value>
+</data>
+<data name="NestedModuleToDottedNameContextAction_Name" xml:space="preserve">
+  <value>Вложенный модуль в точечное имя</value>
+</data>
+<data name="RemoveDuplicatedExtendsClause_Text" xml:space="preserve">
+  <value>Удалить дублирующее предложение extends</value>
+</data>
+<data name="Other_Text" xml:space="preserve">
+  <value>Другое</value>
+</data>
+<data name="ConvertObjectLiteralGetAccessorToSimplePropertyContextAction_Name" xml:space="preserve">
+  <value>Преобразовать get-аксессор литерала объекта в простое свойство</value>
+</data>
+<data name="ConvertObjectLiteralGetAccessorToSimplePropertyContextAction_Description" xml:space="preserve">
+  <value>Преобразовать get-аксессор ECMAScript 5 в простое свойство</value>
+</data>
+<data name="AddAngleBrackets_Text" xml:space="preserve">
+  <value>Добавить '&lt;&gt;'</value>
+</data>
+<data name="UseControlFrom__Text" xml:space="preserve">
+  <value>Использовать элемент управления из {0}</value>
+</data>
+<data name="BlankLines_Text" xml:space="preserve">
+  <value>Пустые строки</value>
+</data>
+<data name="CanTCreateView_Text" xml:space="preserve">
+  <value>Не удается создать представление</value>
+</data>
+<data name="RemoveBraces_Text" xml:space="preserve">
+  <value>Удалить фигурные скобки</value>
+</data>
+<data name="RemoveRedundantReferenceComment_Text" xml:space="preserve">
+  <value>Удалить избыточный комментарий ссылки</value>
+</data>
+<data name="JoinDeclarationAndAssignment_Text" xml:space="preserve">
+  <value>Объединить объявление и присваивание</value>
+</data>
+<data name="RemoveDuplicatedDirective_Text" xml:space="preserve">
+  <value>Удалить дублирующую директиву</value>
+</data>
+<data name="MoveClassDeclarationUpper_Text" xml:space="preserve">
+  <value>Переместить объявление класса выше</value>
+</data>
+<data name="AddReturnValue_Text" xml:space="preserve">
+  <value>Добавить возвращаемое значение</value>
+</data>
+<data name="MoveServerScriptContentToCodebehindContextAction_Name" xml:space="preserve">
+  <value>Переместить содержимое серверного скрипта в CodeBehind</value>
+</data>
+<data name="ConvertsExpressionLambdaToBlockLambdaWithReturnContextAction_Description" xml:space="preserve">
+  <value>Преобразовать лямбда-выражение в блочное лямбда-выражение с возвратом</value>
+</data>
+<data name="ConvertNamedColorToHexFormContextAction_Name" xml:space="preserve">
+  <value>Преобразовать именованный цвет в шестнадцатеричную форму</value>
+</data>
+<data name="TypeRelationProblemFixes_ParentText" xml:space="preserve">
+  <value> в типе '{0}'</value>
+</data>
+<data name="ConvertToHTMLTag_Text" xml:space="preserve">
+  <value>Преобразовать в HTML-тег</value>
+</data>
+<data name="ImportTypeOrTypeElementContextAction_Description" xml:space="preserve">
+  <value>Импортировать модуль, класс, переменную, интерфейс, перечисление, объявленные в другом месте</value>
+</data>
+<data name="ConvertTagContextAction_Name" xml:space="preserve">
+  <value>Преобразовать тег</value>
+</data>
+<data name="ReplaceLogicalExpressionWithEqualExpressionContextAction_Description" xml:space="preserve">
+  <value>Заменить логическое выражение на выражение равенства</value>
+</data>
+<data name="ReorderOverloadsProperly_Text" xml:space="preserve">
+  <value>Правильно переупорядочить перегрузки</value>
+</data>
+<data name="CreatePairedAccessorContextAction_Description" xml:space="preserve">
+  <value>Создать парный аксессор для текущего реализованного аксессора</value>
+</data>
+<data name="ReorderTagAttributesContextAction_Name" xml:space="preserve">
+  <value>Переупорядочить атрибуты тега</value>
+</data>
+<data name="InlineTypeAliasContextAction_Description" xml:space="preserve">
+  <value>Встроить псевдоним типа, т.е. заменить его использование соответствующим типом и удалить объявление псевдонима типа</value>
+</data>
+<data name="CreatePropertyFromAttributeContextAction_Name" xml:space="preserve">
+  <value>Создать свойство из атрибута</value>
+</data>
+<data name="AddBracesContextAction_Description" xml:space="preserve">
+  <value>Добавить фигурные скобки вокруг тела операторов if/else/for/do/while/with</value>
+</data>
+<data name="CreateModule_InModule___Text" xml:space="preserve">
+  <value>Создать модуль '{0}' в модуле '{1}' {2}</value>
+</data>
+<data name="CreateSpecializedOverloadForParameter_Text" xml:space="preserve">
+  <value>Создать специализированную перегрузку для параметра '{0}' со значением '{1}'</value>
+</data>
+<data name="Flip_Operands_Text" xml:space="preserve">
+  <value>Поменять операнды '{0}' местами</value>
+</data>
+<data name="IncludeFile_IntoSolution__Text" xml:space="preserve">
+  <value>Включить файл '{0}' в решение '{1}'</value>
+</data>
+<data name="InCSSWhereStatementIsExpected_Text" xml:space="preserve">
+  <value>В CSS, где ожидается оператор</value>
+</data>
+<data name="ReplaceAlias_WithQualifier__Text" xml:space="preserve">
+  <value>Заменить псевдоним '{0}' на квалификатор '{1}'</value>
+</data>
+<data name="InsertTableColumnBeforeContextAction_Description" xml:space="preserve">
+  <value>Вставить столбец таблицы перед:</value>
+</data>
+<data name="MakeMemberNotStatic_Text" xml:space="preserve">
+  <value>Сделать член нестатическим</value>
+</data>
+<data name="SpecifyTypeExplicitlyContextAction_Name" xml:space="preserve">
+  <value>Явно указать тип</value>
+</data>
+<data name="EscapeAtCharacterBy_Text" xml:space="preserve">
+  <value>Экранировать символ '@' с помощью '@@'</value>
+</data>
+<data name="ChangeMemberVariable_TypeTo__Text" xml:space="preserve">
+  <value>Изменить тип переменной-члена '{0}' на '{1}'</value>
+</data>
+<data name="AddTypeAnnotation_Text" xml:space="preserve">
+  <value>Добавить аннотацию типа</value>
+</data>
+<data name="AddAttributesForImageDimensionsContextAction_Name" xml:space="preserve">
+  <value>Добавить атрибуты для размеров изображения</value>
+</data>
+<data name="AddRunatServerAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут runat="server"</value>
+</data>
+<data name="CloseAllOpenTags_Text" xml:space="preserve">
+  <value>Закрыть все открытые теги</value>
+</data>
+<data name="ConvertHexColorToNamedContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из шестнадцатеричного литерала в именованную форму</value>
+</data>
+<data name="InlineConfigSourceAttribute_Text" xml:space="preserve">
+  <value>Встроить атрибут 'configSource'</value>
+</data>
+<data name="AddParameterToMethodSRouteTemplate_Text" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута метода</value>
+</data>
+<data name="RemoveTypeParameterConstraint_Text" xml:space="preserve">
+  <value>Удалить ограничение параметра типа</value>
+</data>
+<data name="ConvertTagToAttribute_Text" xml:space="preserve">
+  <value>Преобразовать тег в атрибут</value>
+</data>
+<data name="RemoveRedundantQualifiers_Text" xml:space="preserve">
+  <value>Удалить избыточные квалификаторы</value>
+</data>
+<data name="ComputeConstantValue_Text" xml:space="preserve">
+  <value>Вычислить постоянное значение</value>
+</data>
+<data name="AddParameterToControllerSRouteTemplateContextAction_Description" xml:space="preserve">
+  <value>Добавить параметр метода в шаблон маршрута контроллера</value>
+</data>
+<data name="InvertIf_Text" xml:space="preserve">
+  <value>Инвертировать 'if'</value>
+</data>
+<data name="AddUseStrictContextAction_Description" xml:space="preserve">
+  <value>Добавить 'use strict'</value>
+</data>
+<data name="AddingImportDeclarationWillChangeFile_Text" xml:space="preserve">
+  <value>Добавление директивы импорта изменит область видимости файла с глобальной на внешний модуль. Продолжить?</value>
+</data>
+<data name="AddingExportedStatementWillChangeFile_Text" xml:space="preserve">
+  <value>Добавление экспортируемого оператора изменит область видимости файла с глобальной на внешний модуль. Продолжить?</value>
+</data>
+<data name="ImportType__Text" xml:space="preserve">
+  <value>Импортировать тип '{0}'</value>
+</data>
+<data name="RemoveUnexpectedComma_Text" xml:space="preserve">
+  <value>Удалить неожиданную запятую</value>
+</data>
+<data name="ProcessingFiles_Text" xml:space="preserve">
+  <value>Обработка файлов</value>
+</data>
+<data name="FlipOperands_Text" xml:space="preserve">
+  <value>Поменять операнды местами</value>
+</data>
+<data name="RenameFileToMatchTypeName_Text" xml:space="preserve">
+  <value>Переименовать файл в соответствии с именем типа</value>
+</data>
+<data name="CreateDerivedTypeContextAction_Description" xml:space="preserve">
+  <value>Создать класс, реализующий интерфейс или наследующий класс</value>
+</data>
+<data name="ExecuteExpressionWithoutRendering_Text" xml:space="preserve">
+  <value>Выполнить выражение без отрисовки</value>
+</data>
+<data name="ReplaceWithSingleBranch_Text" xml:space="preserve">
+  <value>Заменить одной ветвью</value>
+</data>
+<data name="CastToPrimitiveFix_AdditionalInfo" xml:space="preserve">
+  <value> для параметра '{0}'</value>
+</data>
+<data name="InlineTypeAlias_Text" xml:space="preserve">
+  <value>Встроить псевдоним типа</value>
+</data>
+<data name="ConvertHslToHexLiteralContextAction_Name" xml:space="preserve">
+  <value>Преобразовать hsl() в шестнадцатеричный литерал</value>
+</data>
+<data name="FixValueType_Text" xml:space="preserve">
+  <value>Исправить тип значения</value>
+</data>
+<data name="ConvertHslToRgbContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'hsl()' в 'rgb()'</value>
+</data>
+<data name="MergeTwoIfStatementsContextAction_Name" xml:space="preserve">
+  <value>Объединить два оператора 'if'</value>
+</data>
+<data name="MakeBothAccessorsPublic_Text" xml:space="preserve">
+  <value>Сделать оба аксессора общедоступными</value>
+</data>
+<data name="CreateView_WithLayout_Text" xml:space="preserve">
+  <value>Создать представление '{0}' с макетом</value>
+</data>
+<data name="IntroduceVariableFromExpressionStatementContextAction_Description" xml:space="preserve">
+  <value>Ввести переменную из оператора выражения</value>
+</data>
+<data name="ConvertObjectLiteralPropertyToAccessorsPairWithBackingFieldContextAction_Name" xml:space="preserve">
+  <value>Преобразовать свойство литерала объекта в пару аксессоров с резервным полем</value>
+</data>
+<data name="RemoveQuestionMarkOnPrecedingOptional_Text" xml:space="preserve">
+  <value>Удалить вопросительный знак у предшествующего необязательного аргумента</value>
+</data>
+<data name="EditPathMappingContextAction_Description" xml:space="preserve">
+  <value>Открыть настройки сопоставления путей для текущего проекта</value>
+</data>
+<data name="AddCodeBehindFile__Text" xml:space="preserve">
+  <value>Добавить файл кода программной части {0}</value>
+</data>
+<data name="FixJSONPropertyNames_Text" xml:space="preserve">
+  <value>Исправить имена свойств JSON</value>
+</data>
+<data name="SplitReturnWithConditionIntoAssignmentToTemporaryVariableContextAction_Name" xml:space="preserve">
+  <value>Разделить 'return' с условием '||' на присваивание временной переменной, оператор 'if' и 'return'</value>
+</data>
+<data name="SplitDeclarationAndAssignment_Text" xml:space="preserve">
+  <value>Разделить объявление и присваивание</value>
+</data>
+<data name="MakeAllOverloadsStatic_Text" xml:space="preserve">
+  <value>Сделать все перегрузки статическими</value>
+</data>
+<data name="RemoveQuestionMark_Text" xml:space="preserve">
+  <value>Удалить вопросительный знак</value>
+</data>
+<data name="Create_In___Text" xml:space="preserve">
+  <value>Создать '{0}' в '{1}' {2}</value>
+</data>
+<data name="CreateAction__Text" xml:space="preserve">
+  <value>Создать действие '{0}'</value>
+</data>
+<data name="InsertTableRowBeforeContextAction_Name" xml:space="preserve">
+  <value>Вставить строку таблицы перед:</value>
+</data>
+<data name="AddThisQualifierToReferenceClassMember_Text" xml:space="preserve">
+  <value>Добавить квалификатор 'this.' к ссылающемуся члену класса</value>
+</data>
+<data name="InvertIfStatementContextAction_Name" xml:space="preserve">
+  <value>Инвертировать оператор 'if'</value>
+</data>
+<data name="ReplaceWithExactValue_Text" xml:space="preserve">
+  <value>Заменить точным значением</value>
+</data>
+<data name="JoinStringLiteralsContextAction_Name" xml:space="preserve">
+  <value>Объединить строковые литералы</value>
+</data>
+<data name="RemoveInvalidConstruct_Text" xml:space="preserve">
+  <value>Удалить недопустимую конструкцию</value>
+</data>
+<data name="Selector_Text" xml:space="preserve">
+  <value>Селектор</value>
+</data>
+<data name="SpecifyReturnTypeExplicitlyContextAction_Description" xml:space="preserve">
+  <value>Явно указать тип возвращаемого значения функции, если он может быть выведен из возвращаемого значения</value>
+</data>
+<data name="ImportTypeContextAction_Description" xml:space="preserve">
+  <value>Импортировать тип</value>
+</data>
+<data name="ConvertNamedColorToHslContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из именованной формы в hsl()</value>
+</data>
+<data name="InvertTernaryConditionContextAction_Name" xml:space="preserve">
+  <value>Инвертировать тернарное условие</value>
+</data>
+<data name="ConvertNamedColorToHslContextAction_Name" xml:space="preserve">
+  <value>Преобразовать именованный цвет в hsl()</value>
+</data>
+<data name="ConvertRgbToHexLiteralContextAction_Name" xml:space="preserve">
+  <value>Преобразовать rgb() в шестнадцатеричный литерал</value>
+</data>
+<data name="AttributeSelector_Text" xml:space="preserve">
+  <value>Селектор атрибутов</value>
+</data>
+<data name="ImplementMissingLiteralProperties_Text" xml:space="preserve">
+  <value>Реализовать отсутствующие литеральные свойства</value>
+</data>
+<data name="Import_AndAllOtherTypes_Text" xml:space="preserve">
+  <value>Импортировать '{0}' и все другие типы</value>
+</data>
+<data name="ToAccessorsDefinitionWithBackingField_Text" xml:space="preserve">
+  <value>Преобразовать в определение аксессоров с резервным полем</value>
+</data>
+<data name="AddParameterNamedValue_Text" xml:space="preserve">
+  <value>Добавить параметр с именем 'value'</value>
+</data>
+<data name="TreatPageParserFilterTypeAs__Text" xml:space="preserve">
+  <value>Рассматривать тип pageParserFilter как{0}</value>
+</data>
+<data name="IntroduceVariable_Text" xml:space="preserve">
+  <value>Ввести переменную</value>
+</data>
+<data name="ReplaceWithDestructuringSwap_Text" xml:space="preserve">
+  <value>Заменить на деструктурирующий обмен</value>
+</data>
+<data name="ReplaceAliasWithQualifierContextAction_Name" xml:space="preserve">
+  <value>Заменить псевдоним квалификатором</value>
+</data>
+<data name="ConvertHexColorToHslContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из шестнадцатеричного литерала в hsl()</value>
+</data>
+<data name="CreatePropertyFromAttributeContextAction_Description" xml:space="preserve">
+  <value>Создать свойство из атрибута</value>
+</data>
+<data name="ConvertRazorBlockMarkupToLineMarkupContextAction_Description" xml:space="preserve">
+  <value>Преобразовать блочную разметку Razor в строчную разметку</value>
+</data>
+<data name="CodeLayout_Text" xml:space="preserve">
+  <value>Макет кода</value>
+</data>
+<data name="ReferenceClassThisByIntroducingVariable_Text" xml:space="preserve">
+  <value>Ссылаться на класс 'this' путем введения переменной</value>
+</data>
+<data name="MakeMemberPublic_Text" xml:space="preserve">
+  <value>Сделать член общедоступным</value>
+</data>
+<data name="DisableOnceWithComment_Text" xml:space="preserve">
+  <value>Отключить один раз с комментарием</value>
+</data>
+<data name="UnableToCreateInvocationExpressionWith_Text" xml:space="preserve">
+  <value>Не удается создать выражение вызова с развертыванием</value>
+</data>
+<data name="ChangeVisibilityModifierContextAction_Description" xml:space="preserve">
+  <value>Изменить видимость членов классов и модулей</value>
+</data>
+<data name="ReorderDirectiveAttributesContextAction_Name" xml:space="preserve">
+  <value>Переупорядочить атрибуты директив</value>
+</data>
+<data name="UnableToCreateInvocationExpression_Text" xml:space="preserve">
+  <value>Не удается создать выражение вызова</value>
+</data>
+<data name="PushLessSpecificTypesToTheMainSignature_Text" xml:space="preserve">
+  <value>Переместить менее специфичные типы в основную сигнатуру и добавить перегрузку</value>
+</data>
+<data name="ReplaceWithNamedProperty_Text" xml:space="preserve">
+  <value>Заменить именованным свойством</value>
+</data>
+<data name="ConvertToBinES6ContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в двоичное (ES6)</value>
+</data>
+<data name="AddJsDocCommentsContextAction_Description" xml:space="preserve">
+  <value>Добавить комментарии JsDoc</value>
+</data>
+<data name="Spaces_Text" xml:space="preserve">
+  <value>Пробелы</value>
+</data>
+<data name="ConvertParameterPropertyToFieldContextAction_Description" xml:space="preserve">
+  <value>Ввести поле из параметра-свойства, объявленного в конструкторе</value>
+</data>
+<data name="RemoveStatement_Text" xml:space="preserve">
+  <value>Удалить оператор</value>
+</data>
+<data name="SplitToIfStatement_Text" xml:space="preserve">
+  <value>Разделить на оператор 'if'</value>
+</data>
+<data name="RemoveRedundantTypeCast_Text" xml:space="preserve">
+  <value>Удалить избыточное приведение типа</value>
+</data>
+<data name="DeleteCommentContextAction_Description" xml:space="preserve">
+  <value>Удалить комментарий</value>
+</data>
+<data name="AnywhereInCSS_Text" xml:space="preserve">
+  <value>В любом месте CSS</value>
+</data>
+<data name="AddParameterToRouteTemplate_Text" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута</value>
+</data>
+<data name="RemoveCodeBehindFileContextAction_Name" xml:space="preserve">
+  <value>Удалить файл кода программной части</value>
+</data>
+<data name="ConvertToECMAScript6ImportStatement_Text" xml:space="preserve">
+  <value>Преобразовать в оператор импорта ECMAScript 6</value>
+</data>
+<data name="UseExportKeywordOnTargetInsteadOfUsing_Text" xml:space="preserve">
+  <value>Использовать ключевое слово 'export' для цели вместо использования присваивания экспорта</value>
+</data>
+<data name="ConvertHexColorToHslContextAction_Name" xml:space="preserve">
+  <value>Преобразовать шестнадцатеричный цвет в hsl()</value>
+</data>
+<data name="MoveServerScriptContentToCodebehind_Text" xml:space="preserve">
+  <value>Переместить содержимое серверного скрипта в CodeBehind</value>
+</data>
+<data name="RemoveDirectiveAttributeContextAction_Name" xml:space="preserve">
+  <value>Удалить атрибут директивы</value>
+</data>
+<data name="RemoveTypeAnnotation_Text" xml:space="preserve">
+  <value>Удалить аннотацию типа</value>
+</data>
+<data name="SplitIntoSeparateDeclarationsContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору объявления переменной или лексическому объявлению, которое объявляет несколько переменных. Он разделяет такой оператор на несколько операторов, каждый из которых объявляет одну переменную.</value>
+</data>
+<data name="ConvertNamedColorToRgbContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из именованной формы в rgb()</value>
+</data>
+<data name="Typescriptify_Text" xml:space="preserve">
+  <value>Typescriptify</value>
+</data>
+<data name="ChangeModifierAction_Text" xml:space="preserve">
+  <value>Использовать модификатор '{0}' для члена '{1}'{2}</value>
+</data>
+<data name="ConvertToSimpleProperty_Text" xml:space="preserve">
+  <value>Преобразовать в простое свойство</value>
+</data>
+<data name="TurnOffBrowserCompatibility_Text" xml:space="preserve">
+  <value>Отключить совместимость с браузером</value>
+</data>
+<data name="RemovePublicModifier_Text" xml:space="preserve">
+  <value>Удалить модификатор 'public'</value>
+</data>
+<data name="MergeTwoIfStatementsContextAction_Description" xml:space="preserve">
+  <value>Объединить оператор 'if' с вложенным оператором 'if' в ветке else с одинаковым телом в один оператор 'if' для проверки дизъюнкции исходных условий</value>
+</data>
+<data name="RemoveCodeBehindFileContextAction_Description" xml:space="preserve">
+  <value>Удалить файл кода программной части</value>
+</data>
+<data name="Replace_Tag_Text" xml:space="preserve">
+  <value>Заменить тег '{0}'</value>
+</data>
+<data name="MoveAllVariablesToNarrowerBlocks_Text" xml:space="preserve">
+  <value>Переместить все переменные в более узкие блоки</value>
+</data>
+<data name="NegateLogicalExpressionContextAction_Description" xml:space="preserve">
+  <value>Инвертировать логическое выражение</value>
+</data>
+<data name="ConvertBinToDecES6ContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из двоичной формы в десятичную</value>
+</data>
+<data name="RemoveUnneededDeclare_Text" xml:space="preserve">
+  <value>Удалить ненужный 'declare'</value>
+</data>
+<data name="ConvertMemberAssignedByALambdaExpressionToFunctionMemberContextAction_Description" xml:space="preserve">
+  <value>Член типа, присваиваемый лямбда-выражением, обычно может быть преобразован в член-функцию. Если неявный вызов метода выполняется через 'apply', это не гарантирует правильную работу.</value>
+</data>
+<data name="RenameFunctionOverloadProperly_Text" xml:space="preserve">
+  <value>Правильно переименовать перегрузку функции</value>
+</data>
+<data name="UnableToCreateCastExpression_Text" xml:space="preserve">
+  <value>Не удается создать выражение приведения</value>
+</data>
+<data name="MoveTypeToAnotherFileToMatchItsNameContextAction_Name" xml:space="preserve">
+  <value>Переместить тип в другой файл в соответствии с его именем</value>
+</data>
+<data name="ConvertRazorBlockMarkupToLineMarkup_Text" xml:space="preserve">
+  <value>Преобразовать блочную разметку Razor в строчную разметку</value>
+</data>
+<data name="CannotGenerateMemberProbablyBecause_Text" xml:space="preserve">
+  <value>Не удается сгенерировать член, вероятно, из-за ошибки в исходном коде</value>
+</data>
+<data name="SplitIntoSeparateDeclarationsContextAction_Name" xml:space="preserve">
+  <value>Разделить на отдельные объявления</value>
+</data>
+<data name="SplitReturnStatementOfBooleanValueToIfStatementContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'return', значением которого является логическое значение. Он преобразует оператор 'return' в оператор 'if' с двумя операторами 'return', возвращающими значения 'true' и 'false'.</value>
+</data>
+<data name="ChangeOptionalityAction_Text" xml:space="preserve">
+  <value>Сделать член '{0}'{1} обязательным</value>
+</data>
+<data name="CreatePropertyFromSubPropertyContextAction_Name" xml:space="preserve">
+  <value>Создать свойство из дочернего свойства</value>
+</data>
+<data name="RemoveBracesContextAction_Name" xml:space="preserve">
+  <value>Удалить фигурные скобки</value>
+</data>
+<data name="SurroundWithToIgnore_Text" xml:space="preserve">
+  <value>Окружить '()' для игнорирования</value>
+</data>
+<data name="AddAttributesForImageDimensionsContextAction_Description" xml:space="preserve">
+  <value>Добавить атрибуты ширины и высоты для изображения</value>
+</data>
+<data name="GetMoreInfoOnBrowserSupportOf__Text" xml:space="preserve">
+  <value>Получить дополнительную информацию о поддержке браузером {0}</value>
+</data>
+<data name="MakeTag_Empty_Text" xml:space="preserve">
+  <value>Сделать тег '{0}' пустым</value>
+</data>
+<data name="RemoveRedundantParentTypeSpecification_Text" xml:space="preserve">
+  <value>Удалить избыточную спецификацию родительского типа</value>
+</data>
+<data name="RenameClashing__Text" xml:space="preserve">
+  <value>Переименовать конфликтующий{0}</value>
+</data>
+<data name="AddParameterToControllerSRouteTemplateContextAction_Name" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута контроллера</value>
+</data>
+<data name="InsertTableRowAfter_Text" xml:space="preserve">
+  <value>Вставить строку таблицы после:</value>
+</data>
+<data name="RemoveParameters_Text" xml:space="preserve">
+  <value>Удалить параметры</value>
+</data>
+<data name="CannotConvertValueToStringLiteral_Text" xml:space="preserve">
+  <value>Не удается преобразовать значение в строковый литерал</value>
+</data>
+<data name="Extract_ToControllerSRouteTemplates_Text" xml:space="preserve">
+  <value>Извлечь '{0}' в шаблоны маршрутов контроллера</value>
+</data>
+<data name="ReplaceVarWithItsFallbackValueContextAction_Name" xml:space="preserve">
+  <value>Заменить var(…) на его резервное значение</value>
+</data>
+<data name="ChangeVariable_TypeTo__Text" xml:space="preserve">
+  <value>Изменить тип переменной '{0}' на '{1}'</value>
+</data>
+<data name="RemoveParameter_Text" xml:space="preserve">
+  <value>Удалить параметр</value>
+</data>
+<data name="AddConstraint_ToRouteParameter_Text" xml:space="preserve">
+  <value>Добавить ограничение '{0}' к параметру маршрута</value>
+</data>
+<data name="CastToPrimitiveFix_Text" xml:space="preserve">
+  <value>Использовать {0}{1}</value>
+</data>
+<data name="CreateTypeFromUsageContextAction_Description" xml:space="preserve">
+  <value>Создать класс, интерфейс, перечисление, модуль, функцию-член или свойство-член из использования</value>
+</data>
+<data name="FlipRelationalExpressionContextAction_Description" xml:space="preserve">
+  <value>Инвертировать текущее отношение выражения, например 'x &gt; 1' на 'x &lt; 1'</value>
+</data>
+<data name="MakeMemberNonStatic_Text" xml:space="preserve">
+  <value>Сделать член нестатическим</value>
+</data>
+<data name="NormalizeLocalDeclarations_Text" xml:space="preserve">
+  <value>Нормализовать локальные объявления</value>
+</data>
+<data name="ReplaceSingleQuotedStringLiteralWithDoubleQuotedContextAction_Description" xml:space="preserve">
+  <value>Заменить строковый литерал в одинарных кавычках на строковый литерал в двойных кавычках и наоборот</value>
+</data>
+<data name="ChangeAll__Text" xml:space="preserve">
+  <value>Изменить все '{0}'</value>
+</data>
+<data name="RemoveAllAccessibilityModifiers_Text" xml:space="preserve">
+  <value>Удалить все модификаторы доступа</value>
+</data>
+<data name="ReplaceClassWithClassName_Text" xml:space="preserve">
+  <value>Заменить 'class' на 'className'</value>
+</data>
+<data name="ReplaceWithAllowedValue_Text" xml:space="preserve">
+  <value>Заменить допустимым значением</value>
+</data>
+<data name="SplitIntoTwoIfStatements_Text" xml:space="preserve">
+  <value>Разделить на два оператора 'if'</value>
+</data>
+<data name="ConvertColorToHexLiteral_Text" xml:space="preserve">
+  <value>Преобразовать цвет в шестнадцатеричный литерал</value>
+</data>
+<data name="RemoveBracesContextAction_Description" xml:space="preserve">
+  <value>Удалить ненужные фигурные скобки вокруг одной или нескольких инструкций в коде</value>
+</data>
+<data name="CollapseEmptyTagContextAction_Name" xml:space="preserve">
+  <value>Свернуть пустой тег</value>
+</data>
+<data name="NegateBooleanExpression_Text" xml:space="preserve">
+  <value>Инвертировать логическое выражение</value>
+</data>
+<data name="RemoveUnsafeComma_Text" xml:space="preserve">
+  <value>Удалить небезопасную запятую</value>
+</data>
+<data name="AddProperty__Text" xml:space="preserve">
+  <value>Добавить свойство '{0}'</value>
+</data>
+<data name="MakeBothAccessorsProtected_Text" xml:space="preserve">
+  <value>Сделать оба аксессора защищенными</value>
+</data>
+<data name="ReorderModifiersProperly_Text" xml:space="preserve">
+  <value>Правильно переупорядочить модификаторы</value>
+</data>
+<data name="ChangeToQuestionMark_Text" xml:space="preserve">
+  <value>Изменить на вопросительный знак</value>
+</data>
+<data name="RemoveRedundant__Text" xml:space="preserve">
+  <value>Удалить избыточный{0}</value>
+</data>
+<data name="ChangeAllLocal__Text" xml:space="preserve">
+  <value>Изменить все локальные '{0}'</value>
+</data>
+<data name="AddUseStrictContextAction_Name" xml:space="preserve">
+  <value>Добавить 'use strict'</value>
+</data>
+<data name="AddInheritsAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут Inherits</value>
+</data>
+<data name="ConvertObjectLiteralPropertyToGetAccessorContextAction_Name" xml:space="preserve">
+  <value>Преобразовать свойство литерала объекта в get-аксессор</value>
+</data>
+<data name="CreateASPXViews_Text" xml:space="preserve">
+  <value>Создать представления ASPX</value>
+</data>
+<data name="CreateRazorViews_Text" xml:space="preserve">
+  <value>Создать представления Razor</value>
+</data>
+<data name="ConvertToMemberFunction_Text" xml:space="preserve">
+  <value>Преобразовать в функцию-член</value>
+</data>
+<data name="MakeVariable_Constant_Text" xml:space="preserve">
+  <value>Сделать переменную '{0}' константой</value>
+</data>
+<data name="RemoveUnusedImport_Text" xml:space="preserve">
+  <value>Удалить неиспользуемый 'import'</value>
+</data>
+<data name="ConvertToHexContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в шестнадцатеричное</value>
+</data>
+<data name="ReplaceAssignmentWithEquality_Text" xml:space="preserve">
+  <value>Заменить '=' на '==='</value>
+</data>
+<data name="ConvertIfStatementToTernaryExpressionContextAction_Description" xml:space="preserve">
+  <value>Применяется к оператору 'if', который возвращает значение или выполняет присваивание в каждой ветке. Он преобразует оператор в тернарное выражение ('x ? a : b').</value>
+</data>
+<data name="AddBracesContextAction_Name" xml:space="preserve">
+  <value>Добавить фигурные скобки</value>
+</data>
+<data name="ConvertOctToDecES6ContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из двоичной формы в десятичную</value>
+</data>
+<data name="InvertIfStatementContextAction_Description" xml:space="preserve">
+  <value>Инвертировать критическое условие оператора 'if' и соответствующим образом поменять местами код веток</value>
+</data>
+<data name="JoinStringLiteralsContextAction_Description" xml:space="preserve">
+  <value>Объединить два строковых литерала в один</value>
+</data>
+<data name="ComputeConstantValueContextAction_Name" xml:space="preserve">
+  <value>Вычислить постоянное значение</value>
+</data>
+<data name="RemoveUnreachableCode_Text" xml:space="preserve">
+  <value>Удалить недостижимый код</value>
+</data>
+<data name="EncloseBlockStatement_Text" xml:space="preserve">
+  <value>Заключить блочный оператор</value>
+</data>
+<data name="FlipOperatorArgumentsContextAction_Name" xml:space="preserve">
+  <value>Поменять аргументы оператора местами</value>
+</data>
+<data name="CastParameterToAny_Text" xml:space="preserve">
+  <value>Привести параметр к 'any'</value>
+</data>
+<data name="MatchFileNameWithTypeNameContextAction_Name" xml:space="preserve">
+  <value>Сопоставить имя файла с именем типа</value>
+</data>
+<data name="CreateContentPlaceHolder_Text" xml:space="preserve">
+  <value>Создать ContentPlaceHolder</value>
+</data>
+<data name="ConvertPropertyAssignmentInConstructorsToAccessorPropertyDefinitionWithBackingFieldContextAction_Description" xml:space="preserve">
+  <value>Преобразовать присваивание свойства в конструкторе в определение свойства-аксессора через вызов 'Object.defineProperty()'</value>
+</data>
+<data name="ConvertToDecFromOctContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из восьмеричной формы в десятичную</value>
+</data>
+<data name="TsCreateFromUsageAction_DefaultText" xml:space="preserve">
+  <value>Создать {0} '{1}'</value>
+</data>
+<data name="CreateEventContextAction_Name" xml:space="preserve">
+  <value>Создать событие</value>
+</data>
+<data name="ReorderDirectiveAttributesContextAction_Description" xml:space="preserve">
+  <value>Переупорядочить атрибуты директив по алфавиту</value>
+</data>
+<data name="ReplaceWithStrictOperator__Text" xml:space="preserve">
+  <value>Заменить строгим оператором '{0}'</value>
+</data>
+<data name="ConvertRazorLineMarkupToBlockMarkup_Text" xml:space="preserve">
+  <value>Преобразовать разметку строки Razor в блочную разметку</value>
+</data>
+<data name="ConvertAllCastsToAsOperators_Text" xml:space="preserve">
+  <value>Преобразовать все приведения в операторы 'as'</value>
+</data>
+<data name="SurroundWithTypeGuard_PrefixWith" xml:space="preserve">
+  <value>Добавить префикс '{0}'</value>
+</data>
+<data name="MakeAllOverloadsPublic_Text" xml:space="preserve">
+  <value>Сделать все перегрузки общедоступными</value>
+</data>
+<data name="FixPublicModifierPresence_Text" xml:space="preserve">
+  <value>Добавить или удалить модификатор 'public' в соответствии со стилем кода</value>
+</data>
+<data name="MakeAllVariablesFromThisListBlockScope_Text" xml:space="preserve">
+  <value>Сделать все переменные в этом списке блочной области видимости</value>
+</data>
+<data name="CreateView_WithMasterpage_Text" xml:space="preserve">
+  <value>Создать представление '{0}' с главной страницей</value>
+</data>
+<data name="RemoveRedundantAssignment_Text" xml:space="preserve">
+  <value>Удалить избыточное присваивание</value>
+</data>
+<data name="RemoveTrailingElidedElements_Text" xml:space="preserve">
+  <value>Удалить завершающие опущенные элементы</value>
+</data>
+<data name="InsertTableRowAfterContextAction_Name" xml:space="preserve">
+  <value>Вставить строку таблицы после:</value>
+</data>
+<data name="JoinImportDeclarations_Text" xml:space="preserve">
+  <value>Объединить директивы импорта</value>
+</data>
+<data name="Extract_ToControllerSRouteTemplate_Text" xml:space="preserve">
+  <value>Извлечь '{0}' в шаблон маршрута контроллера</value>
+</data>
+<data name="ReplaceAllTagsContextAction_Name" xml:space="preserve">
+  <value>Заменить все теги</value>
+</data>
+<data name="AddXMLCommentReferenceContextAction_Name" xml:space="preserve">
+  <value>Добавить ссылку на XML-комментарий</value>
+</data>
+<data name="SurroundForInBodyWithHasOwnProperty_Text" xml:space="preserve">
+  <value>Окружить тело 'for in' проверкой 'hasOwnProperty'</value>
+</data>
+<data name="AddCodeBehindFile_Text" xml:space="preserve">
+  <value>Добавить файл кода программной части</value>
+</data>
+<data name="SortJSONPropertiesContextAction_Description" xml:space="preserve">
+  <value>Упорядочить свойства JSON по алфавиту</value>
+</data>
+<data name="ConvertFieldToParameterPropertyContextAction_Description" xml:space="preserve">
+  <value>Ввести параметр-свойство из объявления поля класса в параметр конструктора</value>
+</data>
+<data name="InsertTableRowBefore_Text" xml:space="preserve">
+  <value>Вставить строку таблицы перед:</value>
+</data>
+<data name="ToExpressionLambda_Text" xml:space="preserve">
+  <value>Преобразовать в лямбда-выражение</value>
+</data>
+<data name="RemoveTypeArguments_Text" xml:space="preserve">
+  <value>Удалить аргументы типа</value>
+</data>
+<data name="InvertCondition_Text" xml:space="preserve">
+  <value>Инвертировать условие</value>
+</data>
+<data name="CreateController_AndAction__Text" xml:space="preserve">
+  <value>Создать контроллер '{0}' и действие '{1}'</value>
+</data>
+<data name="ConvertIfToSwitchContextAction_Description" xml:space="preserve">
+  <value>Оператор 'if' может быть преобразован в 'switch', если одно и то же выражение проверяется на строгое равенство с несколькими значениями</value>
+</data>
+<data name="MergeNestedIfStatementsContextAction_Name" xml:space="preserve">
+  <value>Объединить вложенные операторы 'if'</value>
+</data>
+<data name="FixAttributeValue_Text" xml:space="preserve">
+  <value>Исправить значение атрибута</value>
+</data>
+<data name="ConvertConcatenationToTemplateStringContextAction_Description" xml:space="preserve">
+  <value>Преобразовать конкатенацию строк и аргументов в шаблонную строку</value>
+</data>
+<data name="AddParameterToControllerSRouteTemplate_Text" xml:space="preserve">
+  <value>Добавить параметр в шаблон маршрута контроллера</value>
+</data>
+<data name="InlineConfigSourceAttributeContextAction_Description" xml:space="preserve">
+  <value>Встроить атрибут configSource</value>
+</data>
+<data name="MoveTripleSlashCommentToTheTopOfThe_Text" xml:space="preserve">
+  <value>Переместить тройной комментарий в начало файла</value>
+</data>
+<data name="RemoveUnexpectedModifier_Text" xml:space="preserve">
+  <value>Удалить неожиданный модификатор</value>
+</data>
+<data name="PressEscapeToRemoveHighlighting_Text" xml:space="preserve">
+  <value>Нажмите Esc, чтобы убрать выделение</value>
+</data>
+<data name="CreateType__Text" xml:space="preserve">
+  <value>Создать тип {0}</value>
+</data>
+<data name="JoinLocalVariableDeclarationAndAssignmentContextAction_Description" xml:space="preserve">
+  <value>Применяется к присваиванию переменной, которая была объявлена без инициализатора. Перемещает объявление в текущую точку и объединяет его с присваиванием.</value>
+</data>
+<data name="CreateFallbackColor_Text" xml:space="preserve">
+  <value>Создать резервный цвет</value>
+</data>
+<data name="TerminateAllUnterminatedStatements_Text" xml:space="preserve">
+  <value>Завершить все незавершенные операторы</value>
+</data>
+<data name="ConvertRgbToNamedFormContextAction_Name" xml:space="preserve">
+  <value>Преобразовать rgb() в именованную форму</value>
+</data>
+<data name="AddReferenceTo__Text" xml:space="preserve">
+  <value>Добавить ссылку на '{0}'</value>
+</data>
+<data name="ConvertIfToSwitchForEnumsContextAction_Description" xml:space="preserve">
+  <value>Заменить 'if' на 'switch', если переменная затем проверяется на значения перечисления в 'if'</value>
+</data>
+<data name="ExpandEmptyTag_Text" xml:space="preserve">
+  <value>Развернуть пустой тег</value>
+</data>
+<data name="ChangeToBoolean_Text" xml:space="preserve">
+  <value>Изменить на 'boolean'</value>
+</data>
+<data name="FlipRelationalExpressionContextAction_Name" xml:space="preserve">
+  <value>Инвертировать выражение отношения</value>
+</data>
+<data name="IntroduceAndInitializeField__Text" xml:space="preserve">
+  <value>Ввести и инициализировать поле '{0}'</value>
+</data>
+<data name="CollapseEmptyTagContextAction_Description" xml:space="preserve">
+  <value>Преобразовать из пустых открывающего и закрывающего тегов в пустой тег</value>
+</data>
+<data name="ConvertToDec_Text" xml:space="preserve">
+  <value>Преобразовать в десятичное</value>
+</data>
+<data name="ConvertHexColorToRgbContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из шестнадцатеричного литерала в 'rgb()'</value>
+</data>
+<data name="DeleteCommentContextAction_Name" xml:space="preserve">
+  <value>Удалить комментарий</value>
+</data>
+<data name="UseStaticQualifier_Text" xml:space="preserve">
+  <value>Использовать статический квалификатор</value>
+</data>
+<data name="AddJsDocComments_Text" xml:space="preserve">
+  <value>Добавить комментарии JsDoc</value>
+</data>
+<data name="OptimizeReferenceComments_Text" xml:space="preserve">
+  <value>Оптимизировать комментарии ссылок</value>
+</data>
+<data name="RemoveTagAttributeContextAction_Description" xml:space="preserve">
+  <value>Удалить атрибут тега</value>
+</data>
+<data name="ConvertToDecFromHexContextAction_Description" xml:space="preserve">
+  <value>Преобразовать числовой литерал из шестнадцатеричной формы в десятичную</value>
+</data>
+<data name="JoinStrings_Text" xml:space="preserve">
+  <value>Объединить строки</value>
+</data>
+<data name="ExplicitlySpecifyElidedTrailingElementsAsUndefined_Text" xml:space="preserve">
+  <value>Явно указать опущенные завершающие элементы как 'undefined'</value>
+</data>
+<data name="MakeAllOverloadsPrivate_Text" xml:space="preserve">
+  <value>Сделать все перегрузки закрытыми</value>
+</data>
+<data name="CreateController__Text" xml:space="preserve">
+  <value>Создать контроллер '{0}'</value>
+</data>
+<data name="AddEndif_Text" xml:space="preserve">
+  <value>Добавить endif</value>
+</data>
+<data name="ChangeTypeTo_ToSatisfyAllRouteConstraints_Text" xml:space="preserve">
+  <value>Изменить тип на '{0}' для удовлетворения всех ограничений маршрута</value>
+</data>
+<data name="MakeSignatureReturnVoid_Text" xml:space="preserve">
+  <value>Сделать так, чтобы сигнатура возвращала 'void'</value>
+</data>
+<data name="IntroduceTypeAliasContextAction_Name" xml:space="preserve">
+  <value>Ввести псевдоним типа</value>
+</data>
+<data name="RemoveInitializer_Text" xml:space="preserve">
+  <value>Удалить инициализатор</value>
+</data>
+<data name="ConvertHslToNamedFormContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из 'hsl()' в именованную форму</value>
+</data>
+<data name="Remove_TagAndPromoteChildren_Text" xml:space="preserve">
+  <value>Удалить тег '{0}' и переместить дочерние элементы выше</value>
+</data>
+<data name="CreateObjectDataSourceSMethodContextAction_Description" xml:space="preserve">
+  <value>Создать метод ObjectDataSource</value>
+</data>
+<data name="RemoveRedundantParenthesisContextAction_Name" xml:space="preserve">
+  <value>Удалить избыточные круглые скобки</value>
+</data>
+<data name="ConvertToRGBA_Text" xml:space="preserve">
+  <value>Преобразовать в RGBA</value>
+</data>
+<data name="FixRelativePathStyle_Text" xml:space="preserve">
+  <value>Исправить стиль относительного пути</value>
+</data>
+<data name="RemoveReturnedValue_Text" xml:space="preserve">
+  <value>Удалить возвращаемое значение</value>
+</data>
+<data name="Remove_TagAndPromoteChild_Text" xml:space="preserve">
+  <value>Удалить тег '{0}' и переместить дочерний элемент выше</value>
+</data>
+<data name="TsCreateFromUsageAction_InModuleText" xml:space="preserve">
+  <value>Создать {0} '{1}' в модуле '{2}'</value>
+</data>
+<data name="ConvertRgbToHslContextAction_Name" xml:space="preserve">
+  <value>Преобразовать rgb() в hsl()</value>
+</data>
+<data name="MakeScopeContaining_ExportedToTheSame_Text" xml:space="preserve">
+  <value>Сделать область видимости, содержащую '{0}', экспортируемой в ту же область видимости</value>
+</data>
+<data name="MakeParameterNonOptional_Text" xml:space="preserve">
+  <value>Сделать параметр обязательным</value>
+</data>
+<data name="AddXmlDocCommentsContextAction_Name" xml:space="preserve">
+  <value>Добавить xml-документирующие комментарии</value>
+</data>
+<data name="ImportTypeOrTypeElementContextAction_Name" xml:space="preserve">
+  <value>Импортировать тип или элемент типа</value>
+</data>
+<data name="AddSingleOverloadAction_Text" xml:space="preserve">
+  <value>Добавить отсутствующую сигнатуру перегрузки для члена '{0}'{1}</value>
+</data>
+<data name="RemoveAllUnusedTagsAndAttributes_Text" xml:space="preserve">
+  <value>Удалить все неиспользуемые теги и атрибуты</value>
+</data>
+<data name="MergeVariablesAndUseAny_Text" xml:space="preserve">
+  <value>Объединить переменные и использовать 'any'</value>
+</data>
+<data name="RemoveUnusedVariable_Text" xml:space="preserve">
+  <value>Удалить неиспользуемую переменную</value>
+</data>
+<data name="RemoveDuplicatingFunctionUnderCursor_Text" xml:space="preserve">
+  <value>Удалить дублирующую функцию под курсором</value>
+</data>
+<data name="DottedNameToNestedModuleContextAction_Name" xml:space="preserve">
+  <value>Точечное имя в точечный модуль</value>
+</data>
+<data name="ChangeAnyToType_Text" xml:space="preserve">
+  <value>Изменить 'any' на тип</value>
+</data>
+<data name="CreatePaired_Accessor_Text" xml:space="preserve">
+  <value>Создать парный аксессор '{0}'</value>
+</data>
+<data name="RemoveDuplicatedModifier_Text" xml:space="preserve">
+  <value>Удалить дублирующий модификатор</value>
+</data>
+<data name="ToLINQToJSONContextAction_Description" xml:space="preserve">
+  <value>Преобразовать строку JSON в объект JSON.NET</value>
+</data>
+<data name="AddChangeQuotes_Text" xml:space="preserve">
+  <value>Добавить/изменить кавычки</value>
+</data>
+<data name="RemoveAmbientFunctionBody_Text" xml:space="preserve">
+  <value>Удалить тело ambient-функции</value>
+</data>
+<data name="ReplaceTagContextAction_Description" xml:space="preserve">
+  <value>Заменить тег другим тегом</value>
+</data>
+<data name="AddXMLCommentReferenceContextAction_Description" xml:space="preserve">
+  <value>Добавить ссылку на XML-комментарий в файл, который ссылается на символ</value>
+</data>
+<data name="RemoveRedundantBlock_Text" xml:space="preserve">
+  <value>Удалить избыточный блок</value>
+</data>
+<data name="AddReferenceTo__ShortText" xml:space="preserve">
+  <value>Ссылка на '{0}'</value>
+</data>
+<data name="File_AlreadyExists_Text" xml:space="preserve">
+  <value>Файл '{0}' уже существует</value>
+</data>
+<data name="CreateObjectDataSourceSMethodContextAction_Name" xml:space="preserve">
+  <value>Создать метод ObjectDataSource</value>
+</data>
+<data name="ReplaceLogicalExpressionWithEqualExpressionContextAction_Name" xml:space="preserve">
+  <value>Заменить логическое выражение на выражение равенства</value>
+</data>
+<data name="UsePseudoSelectorNot_Text" xml:space="preserve">
+  <value>Использовать псевдоселектор :not()</value>
+</data>
+<data name="ConvertNamedColorToHexFormContextAction_Description" xml:space="preserve">
+  <value>Преобразовать значение цвета из именованной формы в шестнадцатеричный литерал</value>
+</data>
+<data name="ToGetAccessorDefinition_Text" xml:space="preserve">
+  <value>Преобразовать в определение get-аксессора</value>
+</data>
+<data name="CreateEventContextAction_Description" xml:space="preserve">
+  <value>Создать событие</value>
+</data>
+<data name="InlineConfigSourceAttributeContextAction_Name" xml:space="preserve">
+  <value>Встроить атрибут configSource</value>
+</data>
+<data name="ExpandEmptyTagContextAction_Description" xml:space="preserve">
+  <value>Разбить самозакрывающийся тег на открывающий и закрывающий теги</value>
+</data>
+<data name="InlineTypeAliasContextAction_Name" xml:space="preserve">
+  <value>Встроить псевдоним типа</value>
+</data>
+<data name="RemoveFileExtensionFromPath_Text" xml:space="preserve">
+  <value>Удалить расширение файла из пути</value>
+</data>
+<data name="AddExplicitAnyAnnotationFix_SpecifyText" xml:space="preserve">
+  <value>Явно указать '{0}'</value>
+</data>
+<data name="ConvertsSingleReturnBlockLambdaToExpressionContextAction_Name" xml:space="preserve">
+  <value>Преобразовать блочное лямбда-выражение с одним return в выражение</value>
+</data>
+</root>

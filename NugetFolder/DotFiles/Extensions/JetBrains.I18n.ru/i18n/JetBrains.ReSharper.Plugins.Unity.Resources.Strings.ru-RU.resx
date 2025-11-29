@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTooltipAttributeAction_Text_Add__Tooltip__attribute_from_XML_doc" xml:space="preserve">
+    <value>Добавить атрибут 'Tooltip' из XML-документации</value>
+  </data>
+  <data name="UnityInlayHintsOptionsPage_UnityInlayHintsOptionsPage_Assembly_Definition_file_package_versions" xml:space="preserve">
+    <value>Версии пакетов в файле определения сборки</value>
+  </data>
+  <data name="CreateStaticConstructorFromUsageAction_Text_Create_static_constructor___0__" xml:space="preserve">
+    <value>Создать статический конструктор '{0}'</value>
+  </data>
+  <data name="Odin_MemberWrongGroupingAttributeMessage" xml:space="preserve">
+    <value>Атрибуты группировки разных типов не должны использовать один и тот же путь. Ожидается атрибут '{0}'.</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_Make__0__serialized__remove_static_and_readonly_" xml:space="preserve">
+    <value>Сделать {0} сериализуемыми (удалить static и readonly)</value>
+  </data>
+  <data name="UnitySettings_Dots_Header" xml:space="preserve">
+    <value>DOTS</value>
+  </data>
+  <data name="GenerateUnityEventFunctionsFix_Text_Generate_Unity_event_functions" xml:space="preserve">
+    <value>Сгенерировать функции-события Unity</value>
+  </data>
+  <data name="CachePropertyValueQuickFix_Text_Introduce_variable" xml:space="preserve">
+    <value>Ввести переменную</value>
+  </data>
+  <data name="AddAttributeAction_Text_Add___0__" xml:space="preserve">
+    <value>Добавить '{0}'</value>
+  </data>
+  <data name="RepeatedPropertyAccessOfBuiltInComponentIsInefficientMessage" xml:space="preserve">
+    <value>Повторный доступ к свойству встроенного компонента неэффективен</value>
+  </data>
+  <data name="AddSpaceAttributeAction_Description" xml:space="preserve">
+    <value>Добавить пробел перед этим свойством в инспекторе редактора Unity</value>
+  </data>
+  <data name="SomeUnityObjectPropertiesResultInNativeMethodsCallsAndRepeatedlyAccessingThePropertyIsInefficientIntroduceAVariableToLocallyCacheThePropertyValue" xml:space="preserve">
+    <value>Некоторые свойства объектов Unity приводят к вызовам нативных методов, и их повторный доступ неэффективен. Введите переменную для локального кэширования значения свойства.</value>
+  </data>
+  <data name="FindUnityUsagesText" xml:space="preserve">
+    <value>Найти использования в Unity</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgc2VyaWFsaXplZCBmaWVsZAEQEQ" xml:space="preserve">
+    <value>Сериализуемое поле Unity</value>
+  </data>
+  <data name="UnitySettings_Dots_Hide_generated_code_from_navigation" xml:space="preserve">
+    <value>Исключить сгенерированный код DOTS из результатов навигации</value>
+  </data>
+  <data name="UnityInlayHintsOptionsPage_UnityInlayHintsOptionsPage_UnityObjectNullComparisonHint" xml:space="preserve">
+    <value>Неявная проверка времени жизни объектов Unity</value>
+  </data>
+  <data name="UnityYamlProjectFileType_UnityYamlProjectFileType_Unity_Yaml" xml:space="preserve">
+    <value>YAML-файл Unity</value>
+  </data>
+  <data name="UnityDots_InconsistentModifiersForDotsInheritor" xml:space="preserve">
+    <value>Наследник '{1}' для {0} должен быть '{2}{3}{4}'</value>
+  </data>
+  <data name="AvoidbaseOnGUIInClassesDerivedFromPropertyDrawer" xml:space="preserve">
+    <value>Избегайте использования 'base.OnGUI()' в классах, производных от 'PropertyDrawer'</value>
+  </data>
+  <data name="ThereIsNoSceneWithTheSameNameInTheProject" xml:space="preserve">
+    <value>В проекте нет сцены с таким именем.</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Change_signature_to___0__" xml:space="preserve">
+    <value>Изменить сигнатуру на '{0}'</value>
+  </data>
+  <data name="TheDefaultImplementationForOnGUIInPropertyDrawerWillPrintNoGUIImplementedInTheUnityInspector" xml:space="preserve">
+    <value>Реализация 'OnGUI' по умолчанию в 'PropertyDrawer' будет выводить 'No GUI Implemented' в инспекторе Unity.</value>
+  </data>
+  <data name="AutoPropertyToSerializedBackingFieldAction_Text_To_property_with_serialized_backing_field" xml:space="preserve">
+    <value>В свойство с сериализуемым резервным полем</value>
+  </data>
+  <data name="RemoveAttributeAction_Text_Remove___0___from_SelectedField" xml:space="preserve">
+    <value>Удалить '{0}' из '{1}'</value>
+  </data>
+  <data name="ToggleHideInInspectorAttributeAction_Name" xml:space="preserve">
+    <value>Переключить атрибут 'HideInInspector' для поля</value>
+  </data>
+  <data name="InvalidVersionDefineExpressionMessage" xml:space="preserve">
+    <value>Неверное выражение определения версии</value>
+  </data>
+  <data name="InefficientMultidimensionalArrayUsageQuickFix_Text_Convert_to_jagged_array" xml:space="preserve">
+    <value>Преобразовать в ступенчатый массив</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration_Help_Link_Text" xml:space="preserve">
+    <value>Узнать больше</value>
+  </data>
+  <data name="PackageNotInstalledInfo_Symbol_not_defined__Package___0___is_not_installed" xml:space="preserve">
+    <value>Символ не определён. Пакет '{0}' не установлен.</value>
+  </data>
+  <data name="ShowBurstCallsBulbAction_Text_Show_outgoing_Burst_calls" xml:space="preserve">
+    <value>Показать исходящие вызовы Burst</value>
+  </data>
+  <data name="AutoPropertyToSerializedBackingFieldAction_Description" xml:space="preserve">
+    <value>Заменить автосвойства в типах Unity на свойства, использующие резервное поле, помеченное атрибутом 'UnityEngine.SerializeField'</value>
+  </data>
+  <data name="InvalidVersionDefineSymbolMessage" xml:space="preserve">
+    <value>Неверный символ определения версии</value>
+  </data>
+  <data name="GoToUnityUsagesProvider_CreateWorkflow_Unity_Usages_of_Symbol" xml:space="preserve">
+    <value>Использования символа в Unity</value>
+  </data>
+  <data name="AddRangeAttributeAction_Description" xml:space="preserve">
+    <value>Добавить диапазон для этого свойства в инспекторе редактора Unity</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Unity_entities" xml:space="preserve">
+    <value>Сущности Unity {0}</value>
+  </data>
+  <data name="SyncVarAttributeCanOnlyBeAppliedInAClassThatDerivesFromNetworkBehaviourMessage" xml:space="preserve">
+    <value>Атрибут 'SyncVar' может применяться только в классах, производных от 'NetworkBehaviour'</value>
+  </data>
+  <data name="MethodReferencedInStringLiteralDoesNotHaveTheExpectedSignature5" xml:space="preserve">
+    <value>Метод, на который ссылается строковый литерал, не имеет ожидаемой сигнатуры.</value>
+  </data>
+  <data name="SceneIsDisabledInTheBuildSettings" xml:space="preserve">
+    <value>Сцена отключена в настройках сборки</value>
+  </data>
+  <data name="Template_Editable_SW1hZ2UgRWZmZWN0IFNoYWRlcgEQEQ" xml:space="preserve">
+    <value>Шейдер эффекта изображения</value>
+  </data>
+  <data name="UnityInlayHintsSettingsSettingDescription" xml:space="preserve">
+    <value>Настройки встроенных подсказок Unity</value>
+  </data>
+  <data name="TheIndexIsMissingInTheBuildSettings" xml:space="preserve">
+    <value>Индекс отсутствует в настройках сборки</value>
+  </data>
+  <data name="UnityOptionsPage_AddGeneralSection_Automatically_refresh_assets_in_Unity" xml:space="preserve">
+    <value>Автоматически обновлять ассеты в Unity</value>
+  </data>
+  <data name="MultiplicationOrderQuickFix_Text_Reorder_multiplication" xml:space="preserve">
+    <value>Изменить порядок умножения</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_ECS_system" xml:space="preserve">
+    <value>Система ECS</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Popup_Add" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="MakeSerializable_Text_Make_type___0___serializable" xml:space="preserve">
+    <value>Сделать тип '{0}' сериализуемым</value>
+  </data>
+  <data name="TypeofIsProhibitedInBurst" xml:space="preserve">
+    <value>Использование typeof запрещено в Burst</value>
+  </data>
+  <data name="ModifyInspectorAttributes_Text" xml:space="preserve">
+    <value>Изменить атрибуты инспектора</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Always_Add_Formally_Serialized_As_Attribute_while_renaming_Serialized_Property" xml:space="preserve">
+    <value>Всегда добавлять 'FormerlySerializedAs' при переименовании сериализуемого поля</value>
+  </data>
+  <data name="AddHeaderAttributeAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'Header'</value>
+  </data>
+  <data name="InitializeFieldComponentContextAction_Name" xml:space="preserve">
+    <value>Инициализировать поле в методах Start или Awake</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgcHJvcGVydHkgd2l0aCBzZXJpYWxpemVkIGJhY2tpbmcgZmllbGQEQ" xml:space="preserve">
+    <value>Свойство Unity с сериализуемым резервным полем</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Name" xml:space="preserve">
+    <value>Сгенерировать Baker и Authoring скрипт</value>
+  </data>
+  <data name="ConvertToUnityObjectLifetimeCheck_Text" xml:space="preserve">
+    <value>Преобразовать в явную проверку времени жизни объекта Unity</value>
+  </data>
+  <data name="TheResourceIsNotDefinedInTheProjectExpressionWillReturnnullMessage" xml:space="preserve">
+    <value>Ресурс '{0}' не определён в проекте. Выражение вернёт 'null'.</value>
+  </data>
+  <data name="ToggleSerializedFieldOne_Text_Make_field___0___serialized__remove_static_" xml:space="preserve">
+    <value>Сделать поле '{0}' сериализуемым (удалить static)</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Refactoring_Settings_Header" xml:space="preserve">
+    <value>Рефакторинг</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Serialized_Field_Refactoring_Settings" xml:space="preserve">
+    <value>Настройки рефакторинга сериализуемых полей:</value>
+  </data>
+  <data name="RedundantHideInInspectorAttribute" xml:space="preserve">
+    <value>Избыточный атрибут 'HideInInspector'</value>
+  </data>
+  <data name="BurstLoadingManagedTypeIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Загрузка управляемого типа '{0}' не поддерживается</value>
+  </data>
+  <data name="AsmDefIntraTextAdornmentModel_BuildContextMenuItems_Configure___" xml:space="preserve">
+    <value>Настроить…</value>
+  </data>
+  <data name="Unity_Internal_DumpDuplicateTypeNames_Text" xml:space="preserve">
+    <value>Вывести повторяющиеся имена типов</value>
+  </data>
+  <data name="Odin_UnknownGroupingPathTitle" xml:space="preserve">
+    <value>Путь группировки не определён</value>
+  </data>
+  <data name="ThereAreSeveralScenesWithTheSameNameInTheUnityBuildSettingsOnlySceneWithSmallestIndexWillBeUsed" xml:space="preserve">
+    <value>В настройках сборки Unity есть несколько сцен с одинаковым именем.
+           Будет использована только сцена с наименьшим индексом.</value>
+  </data>
+  <data name="FormerlySerializedAsSplitDeclarationsFix_Text_Split_into_separate_declarations" xml:space="preserve">
+    <value>Разделить на отдельные объявления</value>
+  </data>
+  <data name="InitializePropertyComponentContextAction_Description" xml:space="preserve">
+    <value>Инициализировать текущее свойство в методах Start или Awake путём вызова 'GetComponent'</value>
+  </data>
+  <data name="UnityFirstpassRuntimeFolder_Text" xml:space="preserve">
+    <value>Папка времени выполнения Unity firstpass</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Name" xml:space="preserve">
+    <value>Сгенерировать свойства-аксессоры (DOTS)</value>
+  </data>
+  <data name="UnityAssetSpecificOccurrenceKinds_ComponentUsage_Unity_component_usage" xml:space="preserve">
+    <value>Использование компонента Unity</value>
+  </data>
+  <data name="UnityDots_projects" xml:space="preserve">
+    <value>Проекты Unity DOTS</value>
+  </data>
+  <data name="UnityOptionsPage_AddCSharpSection_Show_gutter_icons_for_implicit_script_usages_" xml:space="preserve">
+    <value>Показывать значки на полях или Code Vision для неявных использований скриптов:</value>
+  </data>
+  <data name="GenerateUnityEventFunctionsAction_Description" xml:space="preserve">
+    <value>Сгенерировать функции-события Unity в типах Unity</value>
+  </data>
+  <data name="UnityDots_WrongQueryTypeArgument_SurroundWith" xml:space="preserve">
+    <value>Окружить '{0}' с помощью '{1}'</value>
+  </data>
+  <data name="UnityEditorFolder_Text" xml:space="preserve">
+    <value>Папка редактора Unity</value>
+  </data>
+  <data name="ToAvoidConfusionTheNameOfTheAssemblyDefinitionFileShouldMatchTheNameOfTheAssemblyBeingDefined" xml:space="preserve">
+    <value>Во избежание путаницы, имя файла определения сборки должно совпадать с именем определяемой сборки.</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Scriptable_object" xml:space="preserve">
+    <value>Scriptable Object</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Remove___0___modifier" xml:space="preserve">
+    <value>Удалить модификатор '{0}'</value>
+  </data>
+  <data name="CreateAssetMenuAction_Text_Add_to_Unity_s__Assets_Create__menu" xml:space="preserve">
+    <value>Добавить в меню 'Assets/Create' Unity</value>
+  </data>
+  <data name="AddDiscardAttributeContextAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'BurstDiscard'</value>
+  </data>
+  <data name="ParameterShouldBeDerivedFromComponent4" xml:space="preserve">
+    <value>Параметр должен быть производным от 'Component'.</value>
+  </data>
+  <data name="RemoveInvalidArrayItemQuickFix_Text_Remove_invalid_value" xml:space="preserve">
+    <value>Удалить недопустимое значение</value>
+  </data>
+  <data name="CreateAssetMenuContextAction_Description" xml:space="preserve">
+    <value>Добавить атрибут 'CreateAssetMenu' в ScriptableObject. Это помечает тип, производный от 'ScriptableObject', для автоматического включения в меню 'Assets/Create' Unity, чтобы можно было легко создавать экземпляры этого типа и хранить их в проекте как '.asset' файлы.</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Extend_value_rendering_Comment" xml:space="preserve">
+    <value>При включении Rider будет отображать дополнительные значения в представлении объектов отладчика, такие как данные об активной сцене, компонентах GameObject и дочерних объектах.
+           Также улучшено представление агрегированных значений, например, отображение значений с плавающей запятой Vector3 с полной точностью.</value>
+  </data>
+  <data name="UxmlUnity_Text" xml:space="preserve">
+    <value>Uxml (Unity)</value>
+  </data>
+  <data name="ToggleSerializedFieldOne_Text_Make_field___0___serialized__remove_readonly_" xml:space="preserve">
+    <value>Сделать поле '{0}' сериализуемым (удалить readonly)</value>
+  </data>
+  <data name="UnityGutterMarks_Text" xml:space="preserve">
+    <value>Метки на полях Unity</value>
+  </data>
+  <data name="Template_Editable_RWRpdG9yIFdpbmRvdwEQEQ" xml:space="preserve">
+    <value>Окно редактора</value>
+  </data>
+  <data name="UnityDots_MustBeSurroundedWithRefRwRo" xml:space="preserve">
+    <value>Параметры типа SystemApi.Query&lt;...&gt; должны быть Aspect, RefRO или RefRW</value>
+  </data>
+  <data name="RenameFileToMatchAssemblyNameQuickFix_ExecutePsiTransaction_Cannot_rename___FileName__" xml:space="preserve">
+    <value>Не удается переименовать '{0}'</value>
+  </data>
+  <data name="UnitySettings_t_Breakpoint_Trace_Output" xml:space="preserve">
+    <value>Вывод трассировки точек останова:</value>
+  </data>
+  <data name="TheNameIsNotDefinedInTheInputManagerTheCallIsLikelyToFailAtRuntime" xml:space="preserve">
+    <value>Имя не определено в Input Manager. Вызов, скорее всего, завершится неудачей во время выполнения.</value>
+  </data>
+  <data name="Template_Editable_U3RhdGUgTWFjaGluZSBCZWhhdmlvdXIEQ" xml:space="preserve">
+    <value>State Machine Behaviour</value>
+  </data>
+  <data name="CameraMainIsExpensive" xml:space="preserve">
+    <value>'Camera.main' ресурсоёмко</value>
+  </data>
+  <data name="TheFormerlySerializedAsAttributeIsOnlyValidOnUnitySerializedFieldsItCanAlsoBeRedundantIfTheNameArgumentMatchesTheCurrentNameOfTheField" xml:space="preserve">
+    <value>Атрибут 'FormerlySerializedAs' действителен только для сериализуемых полей Unity. Он также может быть избыточным, если аргумент имени совпадает с текущим именем поля.</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Parse_text_based_asset_files_for_script_and_event_handler_usages" xml:space="preserve">
+    <value>Анализировать текстовые файлы ассетов для поиска использований скриптов и обработчиков событий</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Override_Component_In_Baker" xml:space="preserve">
+    <value>Перегенерировать существующую инициализацию '{0}' в Baker</value>
+  </data>
+  <data name="ExpensiveNullComparison_RiderPresentableName" xml:space="preserve">
+    <value>Ресурсоёмкое сравнение с null</value>
+  </data>
+  <data name="UnityInlayHintsOptionsPage_t_UnityInlayHintsOptionsPage_UnityObjectNullComparisonHint" xml:space="preserve">
+    <value>Неявная проверка времени жизни объектов Unity</value>
+  </data>
+  <data name="baseOnGUIWillPrintNoGUIImplementedInTheUnityInspectorMessage" xml:space="preserve">
+    <value>'base.OnGUI()' выведет 'No GUI Implemented' в инспекторе Unity</value>
+  </data>
+  <data name="ExplicitStringComparisonIsInefficientUseCompareTagInsteadMessage" xml:space="preserve">
+    <value>Явное сравнение строк неэффективно, используйте вместо этого 'CompareTag'</value>
+  </data>
+  <data name="BurstLoadingFromANonReadonlyStaticFieldIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Загрузка из нестатического поля только для чтения '{0}' не поддерживается</value>
+  </data>
+  <data name="AddAttributeAction_Text_Add___0___before_SelectedField" xml:space="preserve">
+    <value>Добавить '{0}' перед '{1}'</value>
+  </data>
+  <data name="Odin_MemberPresentInMultipleGroupsDescription" xml:space="preserve">
+    <value>Член содержится в нескольких группах UI и будет отображаться в UI несколько раз</value>
+  </data>
+  <data name="TypeParameterMustBeUnmanagedIsNotMessage" xml:space="preserve">
+    <value>Параметр типа должен быть неуправляемым, а '{0}' — нет</value>
+  </data>
+  <data name="UnityObjectNullPropagationWarning_Message" xml:space="preserve">
+    <value>Использование '?.' для типов, производных от 'UnityEngine.Object', обходит проверку времени жизни базового объекта Unity</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_Make__0__non_serialized" xml:space="preserve">
+    <value>Сделать {0} несериализуемыми</value>
+  </data>
+  <data name="BypassUnityLifetimeCheck_Text" xml:space="preserve">
+    <value>Преобразовать проверку времени жизни объекта Unity в проверку C# на null</value>
+  </data>
+  <data name="RemoveAllReadonly_Text_Make_all_fields_non_readonly" xml:space="preserve">
+    <value>Сделать все поля не только для чтения</value>
+  </data>
+  <data name="UnityDots_CurrentComponentLookupMustBeUpdated" xml:space="preserve">
+    <value>Поля типа 'ComponentLookup' должны быть обновлены перед использованием.</value>
+  </data>
+  <data name="RedundantHideInInspectorAttributeMessage" xml:space="preserve">
+    <value>Избыточный атрибут 'HideInInspector'</value>
+  </data>
+  <data name="EventFunctionWithTheSameNameIsAlreadyDeclared" xml:space="preserve">
+    <value>Функция-событие с таким именем уже объявлена</value>
+  </data>
+  <data name="UnityHighlightingProcess_Execute_Frequently_called" xml:space="preserve">
+    <value>Часто вызываемый</value>
+  </data>
+  <data name="MethodDoesNotMatchExpectedSignature" xml:space="preserve">
+    <value>Метод не соответствует ожидаемой сигнатуре.</value>
+  </data>
+  <data name="ConvertToGuidReferenceQuickFix_Text_To_GUID_reference" xml:space="preserve">
+    <value>В ссылку по GUID</value>
+  </data>
+  <data name="MethodReferencedInStringLiteralDoesNotHaveTheExpectedSignature" xml:space="preserve">
+    <value>Метод, на который ссылается строковый литерал, не имеет ожидаемой сигнатуры</value>
+  </data>
+  <data name="Template_Editable_TW9ubyBCZWhhdmlvdXIEQ" xml:space="preserve">
+    <value>Mono Behaviour</value>
+  </data>
+  <data name="EvaluatesCurrentFileNameWithoutWhitespace_Text" xml:space="preserve">
+    <value>Вычисляет текущее имя файла без пробелов</value>
+  </data>
+  <data name="UnityOptionsPage_AddShadersSection_Preview_Shader_variants_support" xml:space="preserve">
+    <value>[Превью] Поддержка вариантов шейдеров</value>
+  </data>
+  <data name="UnityOptionsPage_AddInternalSection__Deprecated__Parse_GLSL_files_for_syntax_errors__requires_internal_mode__and_re_opening_solution_" xml:space="preserve">
+    <value>[Устарело] Анализировать GLSL-файлы на наличие синтаксических ошибок (требуется внутренний режим и повторное открытие решения)</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_To_serialized_field" xml:space="preserve">
+    <value>В сериализуемое поле</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Never_Show_Serialized_Refactoring_Popup_For_Each_Case" xml:space="preserve">
+    <value>Показывать всплывающее окно подтверждения для каждого случая</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Description" xml:space="preserve">
+    <value>Сгенерировать Baker и Authoring скрипт в этом файле</value>
+  </data>
+  <data name="InefficientMultiplicationOrder_RiderPresentableName" xml:space="preserve">
+    <value>Неэффективный порядок умножения</value>
+  </data>
+  <data name="PossibleUnintendedBypassOfLifetimeCheckOfUnderlyingUnityEngineObject" xml:space="preserve">
+    <value>Возможно непреднамеренное обход проверки времени жизни базового объекта Unity</value>
+  </data>
+  <data name="SharedStaticTypeParameterRequiresTheUnmanagedConstraint" xml:space="preserve">
+    <value>Параметр типа SharedStatic требует ограничения unmanaged</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_Description" xml:space="preserve">
+    <value>Сгенерировать Baker и ComponentData скрипт в этом файле</value>
+  </data>
+  <data name="UnityOptionsPage_AddShadersSection_Suppress_resolve_errors_of_unqualified_names" xml:space="preserve">
+    <value>Подавлять ошибки разрешения для неквалифицированных имён</value>
+  </data>
+  <data name="UnitySettings_t_Prefab_cache" xml:space="preserve">
+    <value>Кэш префабов</value>
+  </data>
+  <data name="ShowBurstCallsBulbAction_Text_Show_incoming_Burst_calls" xml:space="preserve">
+    <value>Показать входящие вызовы Burst</value>
+  </data>
+  <data name="Template_Editable_RE9UUwEQEQ" xml:space="preserve">
+    <value>DOTS</value>
+  </data>
+  <data name="UnityOptionsPage_AddPerformanceAnalysisSubSection_Highlight_performance_critical_contexts_" xml:space="preserve">
+    <value>Подсвечивать ресурсоёмкие контексты:</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_NewComponentData" xml:space="preserve">
+    <value>Новый ComponentData</value>
+  </data>
+  <data name="TheTagIsNotDefinedInTheTagsLayersExpressionWillReturnfalseMessage" xml:space="preserve">
+    <value>Тег не определён в 'Tags &amp; Layers'. Выражение вернёт 'false'.</value>
+  </data>
+  <data name="CurrentFileNameWithoutWhitespaceCharacters_Text" xml:space="preserve">
+    <value>Текущее имя файла без пробелов</value>
+  </data>
+  <data name="IncorrectMethodSignature" xml:space="preserve">
+    <value>Неверная сигнатура метода</value>
+  </data>
+  <data name="MetaProjectFileType_MetaProjectFileType_Unity_Meta_File" xml:space="preserve">
+    <value>Мета-файл Unity</value>
+  </data>
+  <data name="AddTooltipAttributeAction_Description" xml:space="preserve">
+    <value>Добавить подсказку для этого свойства в инспекторе редактора Unity</value>
+  </data>
+  <data name="DocumentationNavigationAction_Text_View_documentation" xml:space="preserve">
+    <value>Просмотреть документацию</value>
+  </data>
+  <data name="UnitySettings_t_Enables_syntax_error_highlighting_of_CG_blocks_in_ShaderLab_files_" xml:space="preserve">
+    <value>Включить подсветку синтаксических ошибок в блоках CG в файлах ShaderLab</value>
+  </data>
+  <data name="UnityDots_PartialClassesGeneratedCode_ShowGeneratedCode" xml:space="preserve">
+    <value>Показать сгенерированный код</value>
+  </data>
+  <data name="StringBasedTypeLookupIsInefficientUseGenericOverloadMessage" xml:space="preserve">
+    <value>Поиск типа по строке неэффективен, используйте универсальную перегрузку</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Debugging" xml:space="preserve">
+    <value>Отладка</value>
+  </data>
+  <data name="UnityRuntimeFolder_Text" xml:space="preserve">
+    <value>Папка времени выполнения Unity</value>
+  </data>
+  <data name="StringFormatFunctionsAcceptsOnlyStrings" xml:space="preserve">
+    <value>String.Format(format, ...) принимает только строковые литералы и константные строки</value>
+  </data>
+  <data name="FieldDetector_AddDeclarationHighlighting_Serializable" xml:space="preserve">
+    <value>Сериализуемый</value>
+  </data>
+  <data name="UnityOptionsPage_AddShadersSection_Shaders" xml:space="preserve">
+    <value>Шейдеры</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Unity_script" xml:space="preserve">
+    <value>Скрипт Unity</value>
+  </data>
+  <data name="UnityPerformanceHints_Text" xml:space="preserve">
+    <value>Подсказки производительности Unity</value>
+  </data>
+  <data name="CreateSerializedFieldFromUsageAction_Text_Create_Unity_serialized_field___0__" xml:space="preserve">
+    <value>Создать сериализуемое поле Unity '{0}'</value>
+  </data>
+  <data name="ExpectedTypeDerivedFromScriptableObject3" xml:space="preserve">
+    <value>Ожидается тип, производный от 'ScriptableObject'</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbWVudSBpdGVtIGhhbmRsZXIEQ" xml:space="preserve">
+    <value>Обработчик пункта меню Unity</value>
+  </data>
+  <data name="RenameFileToMatchAssemblyNameQuickFix_Text_Rename_file_to_match_assembly_name" xml:space="preserve">
+    <value>Переименовать файл в соответствии с именем сборки</value>
+  </data>
+  <data name="DisabledIndexingOfUnityAssets_Text" xml:space="preserve">
+    <value>Индексация ассетов Unity отключена</value>
+  </data>
+  <data name="AnAlternativeMethodIsAvailableThatAvoidsAllocationAndReusesAnExistingBuffer" xml:space="preserve">
+    <value>Существует альтернативный метод, который позволяет избежать выделения памяти и повторно использовать существующий буфер.</value>
+  </data>
+  <data name="BurstTryStatementIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Оператор Try не поддерживается</value>
+  </data>
+  <data name="OrderOfMultiplicationOperationsIsInefficient" xml:space="preserve">
+    <value>Порядок операций умножения неэффективен</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Automatically_disable_asset_indexing_for_large_solutions" xml:space="preserve">
+    <value>Автоматически отключать индексацию ассетов для больших решений</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Popup_Dont_Add" xml:space="preserve">
+    <value>Не добавлять</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_Title" xml:space="preserve">
+    <value>Генерация Baker (DOTS)</value>
+  </data>
+  <data name="WritingToAStaticFieldIsNotSupported" xml:space="preserve">
+    <value>Запись в статическое поле не поддерживается</value>
+  </data>
+  <data name="TheResourceIsNotDefinedInTheProjectExpressionWillReturnnull" xml:space="preserve">
+    <value>Ресурс не определён в проекте. Выражение вернёт 'null'.</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Unity_Component_Fields_Description" xml:space="preserve">
+    <value>Выберите компоненты</value>
+  </data>
+  <data name="ExpensiveNullComparison" xml:space="preserve">
+    <value>Ресурсоёмкое сравнение с null</value>
+  </data>
+  <data name="RedundantUnityEventFunctionMessage" xml:space="preserve">
+    <value>Избыточная функция-событие Unity</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_all_fields" xml:space="preserve">
+    <value>все поля</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgU2NyaXB0" xml:space="preserve">
+    <value>Скрипт Unity</value>
+  </data>
+  <data name="PossibleIncorrectApplicationOfFormerlySerializedAsAttributeToMultipleFieldsMessage" xml:space="preserve">
+    <value>Атрибут 'FormerlySerializedAs', возможно, некорректно применён к нескольким полям</value>
+  </data>
+  <data name="AddPerformanceAnalysisDisableCommentContextAction_Name" xml:space="preserve">
+    <value>Отключить анализ производительности для метода</value>
+  </data>
+  <data name="Template_Editable_Q3VzdG9tIEVkaXRvcgEQEQ" xml:space="preserve">
+    <value>Пользовательский редактор</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbG9nIG9iamVjdC9tZXNzYWdl" xml:space="preserve">
+    <value>Объект/сообщение журнала Unity</value>
+  </data>
+  <data name="AsmDefErrors_Text" xml:space="preserve">
+    <value>Ошибки AsmDef</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_NewBaker" xml:space="preserve">
+    <value>Новый Baker</value>
+  </data>
+  <data name="ToggleSerializedFieldOne_Text_Make_field___0___non_serialized" xml:space="preserve">
+    <value>Сделать поле '{0}' несериализуемым</value>
+  </data>
+  <data name="AddSpaceAttributeAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'Space'</value>
+  </data>
+  <data name="BurstCreatingAManagedTypeIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Создание управляемого типа '{0}' не поддерживается</value>
+  </data>
+  <data name="BurstTypeofIsProhibitedMessage" xml:space="preserve">
+    <value>Burst: Использование typeof запрещено</value>
+  </data>
+  <data name="Template_Editable_SGVhZGVyIGZpbGUEQ" xml:space="preserve">
+    <value>Файл заголовка</value>
+  </data>
+  <data name="UnitySettings_t_Enables_asset_indexing" xml:space="preserve">
+    <value>Включить индексацию ассетов</value>
+  </data>
+  <data name="IncorrectTypeParametersMessage" xml:space="preserve">
+    <value>Некорректные параметры типа</value>
+  </data>
+  <data name="FieldDetector_AddDeclarationHighlighting_Tooltip" xml:space="preserve">
+    <value>Это поле сериализуется Unity</value>
+  </data>
+  <data name="UnityElementDescriptionProvider_GetEventFunctionParameterDescription_This_parameter_is_optional___0_" xml:space="preserve">
+    <value>Этот параметр необязательный: {0}</value>
+  </data>
+  <data name="ExpensiveMethodInvocationMessage" xml:space="preserve">
+    <value>Ресурсоёмкий вызов метода</value>
+  </data>
+  <data name="ConvertToScriptableObjectCreateInstanceQuickFix_Text_Convert_to__ScriptableObject_CreateInstance__0_____" xml:space="preserve">
+    <value>Преобразовать в 'ScriptableObject.CreateInstance&lt;{0}&gt;()'</value>
+  </data>
+  <data name="UnityDots_Add_RequireForUpdate_SingletonQuickFix_For_All" xml:space="preserve">
+    <value>Добавить все отсутствующие вызовы 'RequireForUpdate'</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Show_Inspector_values_in_the_editor" xml:space="preserve">
+    <value>Показывать значения инспектора в редакторе</value>
+  </data>
+  <data name="AsmDefPackageVersionInlayHintHighlighting_ContextMenuTitle_Package_Version_Hints" xml:space="preserve">
+    <value>Подсказки версий пакетов</value>
+  </data>
+  <data name="ThisMethodCallIsInefficientWhenCalledInsideAPerformanceCriticalContext" xml:space="preserve">
+    <value>Этот вызов метода неэффективен при вызове внутри ресурсоёмкого контекста.</value>
+  </data>
+  <data name="Odin_FieldDetector_AddDeclarationHighlighting_Tooltip" xml:space="preserve">
+    <value>Это поле сериализуется Odin</value>
+  </data>
+  <data name="UnitySettings_t_If_this_option_is_enabled__Rider_will_automatically_notify_the_Unity_editor_to_refresh_assets_" xml:space="preserve">
+    <value>Если эта опция включена, Rider будет автоматически уведомлять редактор Unity об обновлении ассетов</value>
+  </data>
+  <data name="ComparisonTonullIsExpensiveMessage" xml:space="preserve">
+    <value>Сравнение с 'null' ресурсоёмко</value>
+  </data>
+  <data name="UseNonAllocatingMethodMessage" xml:space="preserve">
+    <value>Используйте метод без выделения памяти '{0}'</value>
+  </data>
+  <data name="PreferAddressByIdToGraphicsParamsQuickFix_Text_Use_cached_property_index" xml:space="preserve">
+    <value>Использовать кэшированный индекс свойства</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Unity_Component_Fields_Title" xml:space="preserve">
+    <value>Свойства-аксессоры (DOTS)</value>
+  </data>
+  <data name="ConvertFromCoroutineBulbAction_Text_To_standard_event_function" xml:space="preserve">
+    <value>В стандартную функцию-событие</value>
+  </data>
+  <data name="AddRangeAttributeAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'Range'</value>
+  </data>
+  <data name="LoadingFromANonReadonlyStaticFieldIsNotSupported" xml:space="preserve">
+    <value>Загрузка из нестатического поля только для чтения не поддерживается</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_WindowTitle" xml:space="preserve">
+    <value>ComponentData</value>
+  </data>
+  <data name="TypeDetector_GetActions_Generate_Unity_event_functions" xml:space="preserve">
+    <value>Сгенерировать функции-события Unity</value>
+  </data>
+  <data name="BurstBoxingIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Упаковка '{0}' не поддерживается</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_NewBaker_As_Nested" xml:space="preserve">
+    <value>Новый Baker (вложенный)</value>
+  </data>
+  <data name="UnityObjectNullPropagationWarning_Inspection_Title" xml:space="preserve">
+    <value>Использование распространения null для типов, производных от 'UnityEngine.Object', обходит проверку времени жизни базового объекта Unity</value>
+  </data>
+  <data name="BurstStringFormatFunctionsInvalidArgumentType" xml:space="preserve">
+    <value>Burst: String.Format(format, ...) неверный тип аргумента</value>
+  </data>
+  <data name="Template_Editable_U3lzdGVtQmFzZQEQEQ" xml:space="preserve">
+    <value>SystemBase</value>
+  </data>
+  <data name="InitialiseOnLoadCctorDetector_AddDeclarationHighlighting_Text" xml:space="preserve">
+    <value>Неявное использование</value>
+  </data>
+  <data name="UnitySettings_t_Unity_highlighter_scheme_for_editor_" xml:space="preserve">
+    <value>Цветовая схема подсветки Unity для редактора</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_Make__0__serialized" xml:space="preserve">
+    <value>Сделать {0} сериализуемыми</value>
+  </data>
+  <data name="Template_Editable_UGxheSBNb2RlIFRlc3QEQ" xml:space="preserve">
+    <value>Тест режима воспроизведения</value>
+  </data>
+  <data name="EmptyUnityEventFunctionsAreStillCalledFromNativeCodeWhichAffectsPerformance" xml:space="preserve">
+    <value>Пустые функции-события Unity всё равно вызываются из нативного кода, что влияет на производительность.</value>
+  </data>
+  <data name="AdditionalFileLayoutSettings_s_File_Layout_Pattern" xml:space="preserve">
+    <value>Шаблон размещения файлов</value>
+  </data>
+  <data name="ExpectedTypeDerivedFromScriptableObject" xml:space="preserve">
+    <value>Ожидается тип, производный от 'ScriptableObject'</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Unity_scriptable_object" xml:space="preserve">
+    <value>Scriptable Object Unity</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Custom_Unity_type" xml:space="preserve">
+    <value>Пользовательский тип Unity</value>
+  </data>
+  <data name="AccessingManagedMethodsIsNotSupported" xml:space="preserve">
+    <value>Доступ к управляемым методам не поддерживается</value>
+  </data>
+  <data name="UnitySettings_t_Enables_completion_based_on_words_found_in_the_current_file_" xml:space="preserve">
+    <value>Включить завершение кода на основе слов, найденных в текущем файле</value>
+  </data>
+  <data name="RedundantSerializeFieldAttributeMessage" xml:space="preserve">
+    <value>Избыточный атрибут 'SerializeField'</value>
+  </data>
+  <data name="DebugLoggingFunctionsAcceptsOnlyStrings" xml:space="preserve">
+    <value>Функции журнала отладки принимают только строки</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbG9nIGV4Y2VwdGlvbgEQEQ" xml:space="preserve">
+    <value>Исключение журнала Unity</value>
+  </data>
+  <data name="InitializeComponentBulbActionBase_Text_Initialize_in___0__" xml:space="preserve">
+    <value>Инициализировать в '{0}'</value>
+  </data>
+  <data name="ChangeSceneAtArgumentAction_Text_Change_scene_name_to___0__" xml:space="preserve">
+    <value>Изменить имя сцены на '{0}'</value>
+  </data>
+  <data name="UnityCSharpFormattingSettingsKey_s_Force_a_line_break_after_any__Header__annotations" xml:space="preserve">
+    <value>Принудительный разрыв строки после любых аннотаций [Header]</value>
+  </data>
+  <data name="UnitySettings_t_If_this_option_is_enabled__UnityYamlMerge_would_be_used_to_merge_YAML_files_" xml:space="preserve">
+    <value>Если эта опция включена, для объединения YAML-файлов будет использоваться UnityYamlMerge</value>
+  </data>
+  <data name="Template_Editable_SUNvbXBvbmVudERhdGEEQ" xml:space="preserve">
+    <value>IComponentData</value>
+  </data>
+  <data name="UnityAssetsFolder_Text" xml:space="preserve">
+    <value>Папка ассетов Unity</value>
+  </data>
+  <data name="Odin_MemberWrongGroupingAttributeDescription" xml:space="preserve">
+    <value>Атрибуты группировки разных типов не должны использовать один и тот же путь</value>
+  </data>
+  <data name="AsmDefProjectFileType_AsmDefProjectFileType_Assembly_Definition__Unity_" xml:space="preserve">
+    <value>Определение сборки (Unity)</value>
+  </data>
+  <data name="AddTooltipAttributeAction_Text_Convert_to__Tooltip__attribute" xml:space="preserve">
+    <value>Преобразовать в атрибут 'Tooltip'</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Timeout_for_Advance_Unity_Evaluation_Comment" xml:space="preserve">
+    <value>Время ожидания перед прерыванием длительных операций оценки (например, предпросмотр текстур)</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Change_parameters_to____0___" xml:space="preserve">
+    <value>Изменить параметры на '({0})'</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Script" xml:space="preserve">
+    <value>Скрипт</value>
+  </data>
+  <data name="UnitySettings_t_Enables_showing_Unity_icon_for_Burst_compiled_code" xml:space="preserve">
+    <value>Включить значок Unity для кода, скомпилированного Burst</value>
+  </data>
+  <data name="UnityObjectNullComparisonHint_Message" xml:space="preserve">
+    <value>Неявная проверка времени жизни объектов Unity</value>
+  </data>
+  <data name="Template_Editable_SUpvYkVudGl0eQEQEQ" xml:space="preserve">
+    <value>IJobEntity</value>
+  </data>
+  <data name="FieldDetector_AddDeclarationHighlighting_This_field_is_initialized_from_Inspector" xml:space="preserve">
+    <value>Это поле инициализируется из инспектора</value>
+  </data>
+  <data name="Template_Editable_U2NyaXB0YWJsZSBPYmplY3QEQ" xml:space="preserve">
+    <value>Scriptable Object</value>
+  </data>
+  <data name="EvaluatesBakerParentTypeName_Text" xml:space="preserve">
+    <value>Сгенерировать имя Baker на основе имени родительского типа Unity</value>
+  </data>
+  <data name="UnityOptionsPage_AddBurstAnalysisSubSection_Enable_analysis_for_Burst_compiler_issues" xml:space="preserve">
+    <value>Включить анализ проблем компилятора Burst</value>
+  </data>
+  <data name="AddRequireComponentBulbActionBase_Text_Add__RequireComponent_" xml:space="preserve">
+    <value>Добавить 'RequireComponent'</value>
+  </data>
+  <data name="Template_Editable_VW5saXQgU2hhZGVy" xml:space="preserve">
+    <value>Несветящийся шейдер</value>
+  </data>
+  <data name="RedundantSerializeFieldAttribute" xml:space="preserve">
+    <value>Избыточный атрибут 'SerializeField'</value>
+  </data>
+  <data name="IncorrectMethodSignatureMessage" xml:space="preserve">
+    <value>Неверная сигнатура метода</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Make___0____1_" xml:space="preserve">
+    <value>Сделать '{0}' {1}</value>
+  </data>
+  <data name="Template_Editable_Q3VzdG9tIEVkaXRvciAoSU1HVUkp" xml:space="preserve">
+    <value>Пользовательский редактор (IMGUI)</value>
+  </data>
+  <data name="UnityDots_InconsistentModifiersForDotsInheritor_Title" xml:space="preserve">
+    <value>DOTS: Несогласованные ключевые слова типа</value>
+  </data>
+  <data name="AdditionalFileLayoutSettings_s_Additional_Unity_C__file_layout_pattern" xml:space="preserve">
+    <value>Дополнительный шаблон размещения C# файлов Unity</value>
+  </data>
+  <data name="UnitySettings_t_Enables_showing_hot_icon_for_frequently_called_code" xml:space="preserve">
+    <value>Включить значок 'горячего' кода для часто вызываемого кода</value>
+  </data>
+  <data name="DuplicateMenuItemShortCutProblemAnalyzer_Analyze_this_file" xml:space="preserve">
+    <value>Этот файл</value>
+  </data>
+  <data name="Template_Editable_RWRpdG9yIEVudHJ5UG9pbnQgQyMgc2NyaXB0" xml:space="preserve">
+    <value>Скрипт C# точки входа редактора</value>
+  </data>
+  <data name="Unity_Internal_DumpSpellCheckWordLists_Text" xml:space="preserve">
+    <value>Вывести списки слов проверки орфографии</value>
+  </data>
+  <data name="UnityDots_MustBeStructForDotsInheritor" xml:space="preserve">
+    <value>Наследник '{1}' для {0} должен быть структурой</value>
+  </data>
+  <data name="SceneIsDisabledInTheUnityBuildSettingsSoItCouldNotBeLoaded" xml:space="preserve">
+    <value>Сцена отключена в настройках сборки Unity, поэтому не может быть загружена</value>
+  </data>
+  <data name="UnitySettings_t_Suppress_resolve_errors_in_render_pipeline_package_in_HLSL_" xml:space="preserve">
+    <value>Подавлять ошибки разрешения в пакете рендер-пайплайна в HLSL</value>
+  </data>
+  <data name="BurstLocalStringVariableDeclarationMessage" xml:space="preserve">
+    <value>Burst: Переменная разрешается в System.String, что может привести к недопустимому вызову управляемого метода в стеке вызовов, скомпилированном Burst</value>
+  </data>
+  <data name="UnityDots_AddFieldToExistingBakerAndAuthoring_Text" xml:space="preserve">
+    <value>Добавить '{0}' в существующий Baker</value>
+  </data>
+  <data name="AsmDefOccurrenceKindProvider_AssemblyDefinitionReference_Assembly_definition_reference" xml:space="preserve">
+    <value>Ссылка на определение сборки</value>
+  </data>
+  <data name="AddHeaderAttributeAction_Description" xml:space="preserve">
+    <value>Добавить заголовок для этого свойства в инспекторе редактора Unity</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_Description" xml:space="preserve">
+    <value>Выберите поля для генерации</value>
+  </data>
+  <data name="ToggleHideInInspectorAttributeAction_Description" xml:space="preserve">
+    <value>Добавить или удалить атрибут 'HideInInspector' для сериализуемого поля Unity, чтобы удалить это поле из окна инспектора</value>
+  </data>
+  <data name="UnityDots_ComponentLookupFieldMustBeUpdated" xml:space="preserve">
+    <value>Поиск компонента '{0}' должен быть обновлён</value>
+  </data>
+  <data name="UnityDots_AspectWrongFieldsType_WrapWith" xml:space="preserve">
+    <value>Обернуть с помощью '{0}'</value>
+  </data>
+  <data name="EventHandlerDetector_AddEventHandlerHighlighting_Text" xml:space="preserve">
+    <value>Обработчик событий</value>
+  </data>
+  <data name="StringBasedLookupOfComponentTypeIsInefficient" xml:space="preserve">
+    <value>Поиск типа компонента по строке неэффективен</value>
+  </data>
+  <data name="UnityOptionsPage_AddInternalSection_Suppress_resolve_errors_in_render_pipeline_packages" xml:space="preserve">
+    <value>Подавлять ошибки разрешения в пакетах рендер-пайплайна</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgU2hhZGVy" xml:space="preserve">
+    <value>Шейдер Unity</value>
+  </data>
+  <data name="CameraMainIsExpensiveMessage" xml:space="preserve">
+    <value>'Camera.main' ресурсоёмко</value>
+  </data>
+  <data name="BurstTheforeachConstructionIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Конструкция 'foreach' не поддерживается</value>
+  </data>
+  <data name="CannotResolveSymbolMessage" xml:space="preserve">
+    <value>Не удается разрешить символ '{0}'</value>
+  </data>
+  <data name="Template_Editable_UHJvcGVydHkgRHJhd2Vy" xml:space="preserve">
+    <value>Редактор свойств</value>
+  </data>
+  <data name="UnityDots_AddComponentLookupScoped_Update_Text" xml:space="preserve">
+    <value>Добавить отсутствующий вызов 'Update' для всех QueryLookups</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbG9nIGVycm9y" xml:space="preserve">
+    <value>Ошибка журнала Unity</value>
+  </data>
+  <data name="TheSameShortcutIsDefinedForAnotherMenuItemInMessage" xml:space="preserve">
+    <value>Тот же ярлык определён для другого пункта меню в {0}</value>
+  </data>
+  <data name="UnitySettings_t_Enables_performance_analysis_in_frequently_called_code" xml:space="preserve">
+    <value>Включить анализ производительности в часто вызываемом коде</value>
+  </data>
+  <data name="UnitySettings_t_Breakpoint_Trace_Output__Both" xml:space="preserve">
+    <value>Консоль отладчика и журнал Unity</value>
+  </data>
+  <data name="Odin_UnknownGroupingPathDescription" xml:space="preserve">
+    <value>Использование неопределённой группы приведёт к ошибке во время выполнения</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbG9nIHdhcm5pbmcEQ" xml:space="preserve">
+    <value>Предупреждение журнала Unity</value>
+  </data>
+  <data name="UnitySettings_t_Show_Inspector_properties_changes_in_editor" xml:space="preserve">
+    <value>Показывать изменения свойств инспектора в редакторе</value>
+  </data>
+  <data name="AddAttributeAction_Text_Add___0___to_all_fields" xml:space="preserve">
+    <value>Добавить '{0}' ко всем полям</value>
+  </data>
+  <data name="UnitySettings_t_If_this_option_is_disabled__Rider_package_update_notifications_would_never_be_shown_" xml:space="preserve">
+    <value>Если эта опция отключена, уведомления об обновлении пакета Rider никогда не будут показываться</value>
+  </data>
+  <data name="StringBasedPropertyLookupIsInefficientMessage" xml:space="preserve">
+    <value>Поиск свойства по строке неэффективен</value>
+  </data>
+  <data name="UnitySettings_t_Merge_parameters" xml:space="preserve">
+    <value>Объединить параметры</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Editor" xml:space="preserve">
+    <value>Редактор</value>
+  </data>
+  <data name="UnityFindUsagesProvider_GetNotFoundMessage_SearchRequestLocalizedTitle_are_only_implicit_" xml:space="preserve">
+    <value>{0} являются только неявными.</value>
+  </data>
+  <data name="ExpectedBuiltInTypeDerivedFromComponentOrUserTypeDerivedFromMonoBehaviour" xml:space="preserve">
+    <value>Ожидается встроенный тип, производный от 'Component', или пользовательский тип, производный от 'MonoBehaviour'</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Unity_type" xml:space="preserve">
+    <value>Тип Unity</value>
+  </data>
+  <data name="UnityWarnings_Text" xml:space="preserve">
+    <value>Предупреждения Unity</value>
+  </data>
+  <data name="PreferGenericMethodOverloadQuickFix_ScopedText_Use_strongly_typed_overloads" xml:space="preserve">
+    <value>Использовать строго типизированные перегрузки</value>
+  </data>
+  <data name="UnitySettings_t_Should_yaml_heuristic_be_applied_" xml:space="preserve">
+    <value>Применять эвристику YAML</value>
+  </data>
+  <data name="UnityInlayHintSettings_t_Visibility_mode_of_hints_for_package_versions_in__asmdef_files" xml:space="preserve">
+    <value>Режим видимости подсказок для версий пакетов в файлах .asmdef</value>
+  </data>
+  <data name="UnityAssetSpecificOccurrenceKinds_EventHandler_Unity_event_handler" xml:space="preserve">
+    <value>Обработчик событий Unity</value>
+  </data>
+  <data name="UnityDots_AspectWrongFieldsType" xml:space="preserve">
+    <value>Тип поля '{1}' в {0} должен быть RefRW, RefRO, EnabledRefRW, EnabledRefRO, DynamicBuffer или Entity</value>
+  </data>
+  <data name="Template_Editable_SVN5c3RlbQEQEQ" xml:space="preserve">
+    <value>ISystem</value>
+  </data>
+  <data name="ConvertCoalescingToConditionalQuickFix_Text_Convert_to_conditional_expression" xml:space="preserve">
+    <value>Преобразовать в условное выражение</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Popup_Should_Add_Attribute" xml:space="preserve">
+    <value>Добавить 'FormerlySerializedAs' к {0}</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Popup_Remember_Selected_Options_And_Never_Show_Popup" xml:space="preserve">
+    <value>Запомнить выбранные опции и больше не показывать это всплывающее окно</value>
+  </data>
+  <data name="UnitySettings_t_Enable_debugger_extensions" xml:space="preserve">
+    <value>Включить расширения отладчика</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_Name" xml:space="preserve">
+    <value>Сгенерировать Baker и ComponentData скрипт</value>
+  </data>
+  <data name="ParameterShouldBeDerivedFromComponent" xml:space="preserve">
+    <value>Параметр должен быть производным от 'Component'</value>
+  </data>
+  <data name="UnityOptionsPage_AddBurstAnalysisSubSection_Show_gutter_icons_for_Burst_compiled_called_methods" xml:space="preserve">
+    <value>Показывать значки на полях или Code Vision для методов, скомпилированных Burst</value>
+  </data>
+  <data name="Odin_UnknownGroupingPathMessage" xml:space="preserve">
+    <value>Путь группировки '{0}' не определён</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Merge_parameters" xml:space="preserve">
+    <value>Объединить параметры</value>
+  </data>
+  <data name="UnityElementDescriptionProvider_GetEventFunctionDescription_This_function_is_undocumented_" xml:space="preserve">
+    <value>Эта функция не документирована.</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_DOTS" xml:space="preserve">
+    <value>DOTS</value>
+  </data>
+  <data name="UnityDots_GetSingletonMustBeRequested_Title" xml:space="preserve">
+    <value>Чтобы использовать результат вызовов 'GetSingleton' в функции, 'OnCreate' должен содержать вызов 'RequireForUpdate'</value>
+  </data>
+  <data name="ShowPerformanceCriticalCallsBulbAction_Text_Show_outgoing_Performance_Critical_calls" xml:space="preserve">
+    <value>Показать исходящие ресурсоёмкие вызовы</value>
+  </data>
+  <data name="ConvertToNamedAssemblyDefinitionReference_Description" xml:space="preserve">
+    <value>Преобразовать ссылку на определение сборки из GUID в основанную на имени</value>
+  </data>
+  <data name="FunctionSignatureCannotContainManagedTypes" xml:space="preserve">
+    <value>Сигнатура функции не может содержать управляемые типы</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgY29yb3V0aW5lIG1ldGhvZAEQEQ" xml:space="preserve">
+    <value>Метод-корутина Unity</value>
+  </data>
+  <data name="InitializeOnLoadAttributeIsRedundantWhenStaticConstructorIsMissingMessage" xml:space="preserve">
+    <value>Атрибут 'InitializeOnLoad' избыточен при отсутствии статического конструктора</value>
+  </data>
+  <data name="EventHandlerDetector_AddAnimationEventHighlighting_Text" xml:space="preserve">
+    <value>Событие анимации</value>
+  </data>
+  <data name="Odin_MemberPresentInMultipleGroupsMessage" xml:space="preserve">
+    <value>Член присутствует в нескольких группах UI одновременно</value>
+  </data>
+  <data name="ThereIsNoAnimatorStateWithTheSameNameInTheProjectMessage" xml:space="preserve">
+    <value>В проекте нет состояния аниматора с таким именем.</value>
+  </data>
+  <data name="ReorderingMultiplicationOperationsWillImprovePerformance" xml:space="preserve">
+    <value>Изменение порядка операций умножения повысит производительность</value>
+  </data>
+  <data name="TheResourceIsNotDefinedInTheProject" xml:space="preserve">
+    <value>Ресурс не определён в проекте</value>
+  </data>
+  <data name="PreferNonAllocApiQuickFix_Text_Convert_to___0__" xml:space="preserve">
+    <value>Преобразовать в '{0}'</value>
+  </data>
+  <data name="UnityCommonIconProvider_GetEventFunctionTooltip_This_function_can_be_a_coroutine_" xml:space="preserve">
+    <value>Эта функция может быть корутиной.</value>
+  </data>
+  <data name="AddTooltipAttributeAction_Text_Convert_XML_doc_to__Tooltip__attribute" xml:space="preserve">
+    <value>Преобразовать XML-документацию в атрибут 'Tooltip'</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_Make__0__serialized__remove_static_" xml:space="preserve">
+    <value>Сделать {0} сериализуемыми (удалить static)</value>
+  </data>
+  <data name="UnityObjectNullCoalescingWarning_Description" xml:space="preserve">
+    <value>Оператор объединения null не вызывает пользовательские операторы равенства, определённые для 'UnityEngine.Object'. Эти операторы проверяют, не был ли уничтожен базовый объект Unity. Если требуется проверка времени жизни, предпочтительнее явное сравнение с null или неявное булево сравнение, либо явное использование 'object.ReferenceEquals()' для стандартной (и более быстрой) проверки CLR на null.</value>
+  </data>
+  <data name="UsingAStringTypeNameToLookUpAComponentIsSlowerThanSpecifyingTheTypeAsAGenericTypeParameter" xml:space="preserve">
+    <value>Использование строкового имени типа для поиска компонента медленнее, чем указание типа в качестве параметра универсального типа</value>
+  </data>
+  <data name="UnityPerformanceCriticalCodeLineMarker_Performance_critical_context" xml:space="preserve">
+    <value>Ресурсоёмкий контекст</value>
+  </data>
+  <data name="ConvertXmlDocToTooltipAttributeAction_Description" xml:space="preserve">
+    <value>Преобразовать XML-документацию для отображения подсказки в инспекторе редактора Unity</value>
+  </data>
+  <data name="AccessingManagedIndexerIsNotSupported" xml:space="preserve">
+    <value>Доступ к управляемому индексатору не поддерживается</value>
+  </data>
+  <data name="RedundantInitializeOnLoadAttribute" xml:space="preserve">
+    <value>Избыточный атрибут 'InitializeOnLoad'</value>
+  </data>
+  <data name="UnityOptionsPage_AddCSharpSection_Always" xml:space="preserve">
+    <value>Всегда</value>
+  </data>
+  <data name="ReferencesInAAsmdefFileCanBeByNameOrByAssetGUIDUsingAnAssetGUIDProtectsAgainstRenamingTheAssemblyDefinition" xml:space="preserve">
+    <value>Ссылки в файле .asmdef могут быть по имени или по GUID ассета. Использование GUID ассета защищает от переименования определения сборки.</value>
+  </data>
+  <data name="Template_Editable_RWRpdCBNb2RlIFRlc3QEQ" xml:space="preserve">
+    <value>Тест режима редактирования</value>
+  </data>
+  <data name="ApplyingAnAttributeToASingleDeclarationContainingMultipleFieldsWillApplyTheAttributeToEachFieldTheHighlightedAttributeEGFormerlySerializedAsIsIntendedToBeAppliedOnlyToASingleFieldPreferAnExplicitApplicationToASingleFieldInASingleDeclaration" xml:space="preserve">
+    <value>Применение атрибута к одному объявлению, содержащему несколько полей, приведёт к применению атрибута к каждому полю. Выделенный атрибут (например, 'FormerlySerializedAs') предназначен для применения только к одному полю. Предпочтительнее явное применение к одному полю в одном объявлении.</value>
+  </data>
+  <data name="UnityCommonIconProvider_GetEventFunctionTooltip_Unity_event_function" xml:space="preserve">
+    <value>Функция-событие Unity</value>
+  </data>
+  <data name="IncorrectMethodSignatureExpectedMessage" xml:space="preserve">
+    <value>Неверная сигнатура метода. Ожидается '{0}'</value>
+  </data>
+  <data name="UnitySettings_t_Enable_analysis_for_Burst_compiler_issues" xml:space="preserve">
+    <value>Включить анализ проблем компилятора Burst</value>
+  </data>
+  <data name="RemoveAllReadonly_Text_Make_field_non_readonly" xml:space="preserve">
+    <value>Сделать поле не только для чтения</value>
+  </data>
+  <data name="ConvertToCompareTagQuickFix_Text_Convert_to__CompareTag_" xml:space="preserve">
+    <value>Преобразовать в 'CompareTag'</value>
+  </data>
+  <data name="AttributeIsRedundantWhenAppliedToThisDeclarationType" xml:space="preserve">
+    <value>Атрибут избыточен при применении к этому типу объявления</value>
+  </data>
+  <data name="UnitySettings_Refactoring_Never_Add_Formally_Serialized_As_Attribute_while_renaming_Serialized_Property" xml:space="preserve">
+    <value>Никогда не добавлять 'FormerlySerializedAs' при переименовании сериализуемого поля</value>
+  </data>
+  <data name="ScriptableObjectInstancesMustBeInstantiatedWithScriptableObjectCreateInstanceTInsteadOfnew" xml:space="preserve">
+    <value>Экземпляры 'ScriptableObject' должны создаваться с помощью 'ScriptableObject.CreateInstance&lt;T&gt;()', а не 'new'</value>
+  </data>
+  <data name="TheLayerIsNotDefinedInTheTagsLayersTheCallIsLikelyToFailAtRuntime" xml:space="preserve">
+    <value>Слой не определён в 'Tags &amp; Layers'. Вызов, скорее всего, завершится неудачей во время выполнения.</value>
+  </data>
+  <data name="TryStatementIsNotSupported" xml:space="preserve">
+    <value>Оператор Try не поддерживается</value>
+  </data>
+  <data name="UnityProjects_Text" xml:space="preserve">
+    <value>Проекты Unity</value>
+  </data>
+  <data name="AutoPropertyToSerializedBackingFieldAction_Name" xml:space="preserve">
+    <value>Заменить автосвойство на свойство и сериализуемое резервное поле</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration_Fetching_Disabled" xml:space="preserve">
+    <value>Отключено</value>
+  </data>
+  <data name="SomeSharedStaticGetOrCreateOverloadsCauseCompilerErrors" xml:space="preserve">
+    <value>Некоторые перегрузки SharedStatic`1.GetOrCreate вызывают ошибки компилятора</value>
+  </data>
+  <data name="TheTagIsNotDefinedInTheTagsLayersExpressionWillReturnfalse" xml:space="preserve">
+    <value>Тег не определён в 'Tags &amp; Layers'. Выражение вернёт 'false'.</value>
+  </data>
+  <data name="EventHandlerDetector_AddEventHandlerHighlighting_Tooltip" xml:space="preserve">
+    <value>Обработчик событий Unity</value>
+  </data>
+  <data name="Template_Editable_QXNzZXQgUG9zdHByb2Nlc3NvcgEQEQ" xml:space="preserve">
+    <value>Постпроцессор ассетов</value>
+  </data>
+  <data name="InputActionsProjectFileType_InputActionsProjectFileType_InputActions__Unity_" xml:space="preserve">
+    <value>InputActions (Unity)</value>
+  </data>
+  <data name="Template_Editable_U3RhbmRhcmQgU3VyZmFjZSBTaGFkZXIEQ" xml:space="preserve">
+    <value>Стандартный шейдер поверхности</value>
+  </data>
+  <data name="ParameterShouldBeDerivedFromComponentMessage" xml:space="preserve">
+    <value>Параметр '{0}' должен быть производным от 'Component'</value>
+  </data>
+  <data name="UnitySerializedField_PresentableName_Text" xml:space="preserve">
+    <value>Сериализуемое поле Unity</value>
+  </data>
+  <data name="EvaluatesParentTypeName_Text" xml:space="preserve">
+    <value>Имя текущего родительского типа Unity</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration_Auto_Fetching" xml:space="preserve">
+    <value>Автоматически</value>
+  </data>
+  <data name="CreateAssetMenuContextAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'CreateAssetMenu'</value>
+  </data>
+  <data name="BurstAccessingManagedIndexerFromTypeIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Оператор индексатора не поддерживается для управляемого типа '{0}'</value>
+  </data>
+  <data name="UnitySettings_t_Timeout_for_Advance_Unity_Evaluation" xml:space="preserve">
+    <value>Таймаут для расширенной оценки Unity (в миллисекундах):</value>
+  </data>
+  <data name="ToggleSerializedFieldAction_Name" xml:space="preserve">
+    <value>Переключить атрибуты 'SerializeField' и 'NonSerialized' для поля</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Break_on_unhandled_exceptions__setting_for_IL2CPP_players_Comment" xml:space="preserve">
+    <value>Моно-рантайм Unity 4.x игнорирует настройку 'Прерывать при необработанных исключениях'.
+           Эта опция применяет такое же поведение к плеерам IL2CPP.</value>
+  </data>
+  <data name="QuickFixRegistrar_Register_Remove_redundant_Unity_event_function" xml:space="preserve">
+    <value>Удалить избыточную функцию-событие Unity</value>
+  </data>
+  <data name="MoveFromLoopAction_Text_Move_outside_of_loop" xml:space="preserve">
+    <value>Переместить вне цикла</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgUmVxdWlyZUNvbXBvbmVudCBhdHRyaWJ1dGUEQ" xml:space="preserve">
+    <value>Атрибут Unity RequireComponent</value>
+  </data>
+  <data name="RemoveAttributeAction_Text_Remove___0___from_all_fields" xml:space="preserve">
+    <value>Удалить '{0}' из всех полей</value>
+  </data>
+  <data name="BurstStringFormatFunctionsAcceptsOnlyStringsMessage" xml:space="preserve">
+    <value>Burst: Аргумент 'format' в String.Format(format, ...) должен быть строковым литералом или константной строкой</value>
+  </data>
+  <data name="UnityDots_AspectWrongFieldsType_Title" xml:space="preserve">
+    <value>DOTS: Поля IAspect должны быть одного из следующих типов: RefRW, RefRO, EnabledRefRW, EnabledRefRO, DynamicBuffer или Entity</value>
+  </data>
+  <data name="UnityEventFunctionInheritanceMarkOnGutter_KindName_Unity_event_function" xml:space="preserve">
+    <value>Функция-событие Unity</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgbG9nIHZhcmlhYmxl" xml:space="preserve">
+    <value>Переменная журнала Unity</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration_Manual_Fetching" xml:space="preserve">
+    <value>Вручную</value>
+  </data>
+  <data name="InitializePropertyComponentContextAction_Name" xml:space="preserve">
+    <value>Инициализировать свойство в методах Start или Awake</value>
+  </data>
+  <data name="TheforeachConstructionIsNotSupported" xml:space="preserve">
+    <value>Конструкция 'foreach' не поддерживается</value>
+  </data>
+  <data name="InvalidDefineConstraintExpressionMessage" xml:space="preserve">
+    <value>Неверное выражение ограничения определения</value>
+  </data>
+  <data name="UnityCSharpFormattingSettingsKey_s_Blank_lines_after_the__Header__annotations" xml:space="preserve">
+    <value>Пустые строки после аннотаций [Header]</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Unity_Component_Fields_Title" xml:space="preserve">
+    <value>Добавить ссылку на ComponentData (DOTS)</value>
+  </data>
+  <data name="UnityBurst_Text" xml:space="preserve">
+    <value>Unity Burst</value>
+  </data>
+  <data name="TheTagIsNotDefinedInTheTagsLayers" xml:space="preserve">
+    <value>Тег не определён в 'Tags &amp; Layers'</value>
+  </data>
+  <data name="ShowPerformanceCriticalCallsBulbAction_Text_Show_incoming_Performance_Critical_calls" xml:space="preserve">
+    <value>Показать входящие ресурсоёмкие вызовы</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_field" xml:space="preserve">
+    <value>поле</value>
+  </data>
+  <data name="RenameFileToMatchAssemblyNameQuickFix_ExecutePsiTransaction_File___NewFileName___already_exists" xml:space="preserve">
+    <value>Файл '{0}' уже существует</value>
+  </data>
+  <data name="InstantiatingAUnityObjectAndSettingTheparentPropertyAsSeparateOperationsIsInefficientAsTheTransformHierarchyIsCreatedAndImmediatelyReplacedCombineSettingTheparentPropertyWithTheCallToInstantiateTheObject" xml:space="preserve">
+    <value>Создание экземпляра объекта Unity и установка свойства 'parent' в виде отдельных операций неэффективны, поскольку иерархия трансформаций создаётся и немедленно заменяется. Объедините установку свойства 'parent' с вызовом создания экземпляра объекта.</value>
+  </data>
+  <data name="TheNameIsNotDefinedInTheInputManagerTheCallIsLikelyToFailAtRuntimeMessage" xml:space="preserve">
+    <value>Имя не определено в Input Manager. Вызов, скорее всего, завершится неудачей во время выполнения.</value>
+  </data>
+  <data name="CreatingAManagedTypeIsNotSupported" xml:space="preserve">
+    <value>Создание управляемого типа не поддерживается</value>
+  </data>
+  <data name="CannotResolveComponentOrScriptableObject" xml:space="preserve">
+    <value>Не удается разрешить компонент или Scriptable Object</value>
+  </data>
+  <data name="UnitySettings_t_Ignore__Break_on_Unhandled_Exceptions__for_IL2CPP_players" xml:space="preserve">
+    <value>Игнорировать 'Прерывать при необработанных исключениях' для плееров IL2CPP</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Unity_Component_Fields_Description" xml:space="preserve">
+    <value>Выберите поля для генерации</value>
+  </data>
+  <data name="TurnOnAnyway_Text" xml:space="preserve">
+    <value>Все равно включить</value>
+  </data>
+  <data name="UsingnewToInstantiateAClassDerivedFromScriptableObjectMeansThatUnityWillNotCallAnyEventFunctionsCreateANewInstanceUsingGameObjectAddComponentT" xml:space="preserve">
+    <value>Использование 'new' для создания экземпляра класса, производного от 'ScriptableObject', означает, что Unity не вызовет никакие функции-события. Создайте новый экземпляр с помощью 'GameObject.AddComponent&lt;T&gt;()'.</value>
+  </data>
+  <data name="TheAttributeDoesNotDefineAnyRestrictionsOnValidTargetsButIsOnlyUsefulWhenAppliedToSpecificDeclarationsEGFieldClassOrMethod" xml:space="preserve">
+    <value>Атрибут не определяет никаких ограничений для допустимых целей, но полезен только при применении к определённым объявлениям (например, поле, класс или метод).</value>
+  </data>
+  <data name="Odin_MemberWrongGroupingAttributeTitle" xml:space="preserve">
+    <value>Неверный тип атрибута группировки Odin</value>
+  </data>
+  <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_JetBrains_Rider_package_in_Unity_is_missing_" xml:space="preserve">
+    <value>Отсутствует пакет JetBrains Rider в Unity.</value>
+  </data>
+  <data name="Unity_Internal_SerializeReferencesDump_Text" xml:space="preserve">
+    <value>Вывести кэш SerializeReference</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Prefer_UnityYamlMerge_for_merging_YAML_files" xml:space="preserve">
+    <value>Предпочитать UnityYamlMerge для объединения YAML-файлов</value>
+  </data>
+  <data name="ExpectedTypeDerivedFromComponentOrMonoBehaviour" xml:space="preserve">
+    <value>Ожидается тип, производный от 'Component' или 'MonoBehaviour'</value>
+  </data>
+  <data name="SceneIsDisabledInTheUnityBuildSettingsSoItCouldNotBeLoadedMessage" xml:space="preserve">
+    <value>Сцена отключена в настройках сборки Unity, поэтому не может быть загружена</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_Description" xml:space="preserve">
+    <value>Выберите поля и свойства</value>
+  </data>
+  <data name="AccessingMultidimensionalArraysIsInefficientUseAJaggedOrOneDimensionalArrayInsteadMessage" xml:space="preserve">
+    <value>Доступ к многомерным массивам неэффективен. Вместо этого используйте ступенчатый или одномерный массив.</value>
+  </data>
+  <data name="ConvertToNamedReferenceContextAction_Text_To_named_reference" xml:space="preserve">
+    <value>В именованную ссылку</value>
+  </data>
+  <data name="RemoveOneReadonly_Text_Make_Field_non_readonly" xml:space="preserve">
+    <value>Сделать '{0}' не только для чтения</value>
+  </data>
+  <data name="UnityOptionsPage_AddInternalSection_Internal" xml:space="preserve">
+    <value>Внутренние</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Cache_prefab_data_to_improve_find_usage_performance" xml:space="preserve">
+    <value>Кэшировать данные префабов для повышения производительности поиска использований</value>
+  </data>
+  <data name="ToggleSerializedFieldOne_Text_Make_field___0___serialized__remove_static_and_readonly_" xml:space="preserve">
+    <value>Сделать поле '{0}' сериализуемым (удалить static и readonly)</value>
+  </data>
+  <data name="CameraMainIsSlowAndDoesNotCacheItsResultUsingCameraMainInFrequentlyCalledMethodsIsVeryInefficientPreferCachingTheResultInStartOrAwake" xml:space="preserve">
+    <value>'Camera.main' работает медленно и не кэширует свой результат. Использование 'Camera.main' в часто вызываемых методах очень неэффективно. Предпочтительнее кэшировать результат в 'Start()' или 'Awake()'.</value>
+  </data>
+  <data name="ThereIsNoSceneWithTheSameNameInTheBuildSettings" xml:space="preserve">
+    <value>В настройках сборки нет сцены с таким именем.</value>
+  </data>
+  <data name="TheInputNameIsNotDefinedInTheInputManager" xml:space="preserve">
+    <value>Имя ввода не определено в Input Manager</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Component_References" xml:space="preserve">
+    <value>Ссылки на компоненты</value>
+  </data>
+  <data name="ExpectedTypeDerivedFromMessage" xml:space="preserve">
+    <value>Ожидается тип, производный от '{0}'</value>
+  </data>
+  <data name="UnityWillIgnoreTheSerializeFieldAttributeIfAFieldIsAlsoMarkedWithTheNonSerializedAttribute" xml:space="preserve">
+    <value>Unity проигнорирует атрибут 'SerializeField', если поле также помечено атрибутом 'NonSerialized'</value>
+  </data>
+  <data name="BurstSignatureContainsManagedTypesMessage" xml:space="preserve">
+    <value>Burst: Сигнатура '{0}' содержит управляемые типы</value>
+  </data>
+  <data name="ShowExpensiveCallsBulbAction_Text_Show_incoming_Expensive_calls" xml:space="preserve">
+    <value>Показать входящие ресурсоёмкие вызовы</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Baker" xml:space="preserve">
+    <value>Baker</value>
+  </data>
+  <data name="ToggleSerializedFieldAll_Text_Make__0__serialized__remove_readonly_" xml:space="preserve">
+    <value>Сделать {0} сериализуемыми (удалить readonly)</value>
+  </data>
+  <data name="InitializeFieldComponentContextAction_Description" xml:space="preserve">
+    <value>Инициализировать текущее поле в методах Start или Awake путём вызова 'GetComponent'</value>
+  </data>
+  <data name="MissingAssemblyReferenceAssemblyWillNotBeReferencedDuringCompilationMessage" xml:space="preserve">
+    <value>Отсутствует ссылка на сборку '{0}'. Сборка не будет referenced во время компиляции.</value>
+  </data>
+  <data name="ExplicitStringComparisonWithGameObjectTagOrComponentTagIsInefficientUseTheCompareTagMethodInstead" xml:space="preserve">
+    <value>Явное сравнение строк с 'GameObject.tag' или 'Component.tag' неэффективно. Вместо этого используйте метод 'CompareTag'.</value>
+  </data>
+  <data name="EventHandlerDetector_AddAnimationEventHighlighting_Tooltip" xml:space="preserve">
+    <value>Событие анимации Unity</value>
+  </data>
+  <data name="UnityFirstpassFolder_Text" xml:space="preserve">
+    <value>Папка Unity firstpass</value>
+  </data>
+  <data name="UnityDots_AddFieldToExistingBakerAndAuthoring_NoBakersFound" xml:space="preserve">
+    <value>Не найдено Baker'ов в проекте</value>
+  </data>
+  <data name="TheSceneIsMissingInTheUnityBuildSettingsMessage" xml:space="preserve">
+    <value>Сцена отсутствует в настройках сборки Unity.</value>
+  </data>
+  <data name="ThereIsNoAnimatorStateWithTheSameNameInTheProject" xml:space="preserve">
+    <value>В проекте нет состояния аниматора с таким именем.</value>
+  </data>
+  <data name="Template_Editable_TW9kdWxlIGludGVyZmFjZSB1bml0" xml:space="preserve">
+    <value>Модуль интерфейса</value>
+  </data>
+  <data name="SceneDoesNotExist" xml:space="preserve">
+    <value>Сцена не существует</value>
+  </data>
+  <data name="UnityDots_GetSingletonMustBeRequested" xml:space="preserve">
+    <value>Чтобы использовать результат вызова 'GetSingleton&lt;{0}&gt;' в функции, 'OnCreate' должен содержать вызов 'RequireForUpdate'</value>
+  </data>
+  <data name="ThereIsNoSceneWithSameNameInTheProjectMessage" xml:space="preserve">
+    <value>В проекте нет сцены с таким именем.</value>
+  </data>
+  <data name="AddTooltipAttributeAction_Name" xml:space="preserve">
+    <value>Добавить атрибут 'Tooltip'</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_ComponentData" xml:space="preserve">
+    <value>ComponentData</value>
+  </data>
+  <data name="FileNameShouldMatchTheNameOfTheAssembly" xml:space="preserve">
+    <value>Имя файла должно совпадать с именем сборки</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration" xml:space="preserve">
+    <value>Интеграция с профилировщиком (экспериментальная)</value>
+  </data>
+  <data name="EqualityOperationsOnObjectsDerivingFromUnityEngineObjectWillAlsoCheckThatTheUnderlyingNativeObjectHasNotBeenDestroyedThisRequiresACallIntoNativeCodeAndCanHaveAPerformanceImpactWhenUsedInsideFrequentlyCalledMethods" xml:space="preserve">
+    <value>Операции равенства для объектов, производных от 'UnityEngine.Object', также проверяют, что базовый нативный объект не был уничтожен. Это требует вызова в нативный код и может повлиять на производительность при использовании внутри часто вызываемых методов.</value>
+  </data>
+  <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_Make_sure_JetBrains_Rider_package_is_installed_in_Unity_Package_Manager_" xml:space="preserve">
+    <value>Убедитесь, что пакет JetBrains Rider установлен в Unity Package Manager.</value>
+  </data>
+  <data name="SettingparentPropertyImmediatelyAfterObjectInstantiationIsInefficientMessage" xml:space="preserve">
+    <value>Установка свойства 'parent' сразу после создания экземпляра объекта неэффективна</value>
+  </data>
+  <data name="RedundantFormerlySerializedAsAttributeMessage" xml:space="preserve">
+    <value>Избыточный атрибут 'FormerlySerializedAs'</value>
+  </data>
+  <data name="AlternativeNonAllocatingMethodAvailable" xml:space="preserve">
+    <value>Доступен альтернативный метод без выделения памяти</value>
+  </data>
+  <data name="UnityCSharpFormattingSettingsKey_s_Settings_for_Unity_specific_C__formatting" xml:space="preserve">
+    <value>Настройки форматирования C# для Unity</value>
+  </data>
+  <data name="RedundantFormerlySerializedAsAttribute" xml:space="preserve">
+    <value>Избыточный атрибут 'FormerlySerializedAs'</value>
+  </data>
+  <data name="UnityOptionsPage_AddGeneralSection_General" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="UnityDots_WrongQueryTypeArgument" xml:space="preserve">
+    <value>Параметр типа '{0}' должен быть Aspect, RefRO или RefRW</value>
+  </data>
+  <data name="EventFunctionWithTheSameNameIsAlreadyDeclaredMessage" xml:space="preserve">
+    <value>Функция-событие с таким именем уже объявлена</value>
+  </data>
+  <data name="AsmDefGuidReferenceInlayHintHighlighting_ContextMenuTitle_GUID_Reference_Hints" xml:space="preserve">
+    <value>Подсказки для ссылок по GUID</value>
+  </data>
+  <data name="InitialiseOnLoadCctorDetector_AddDeclarationHighlighting_Tooltip" xml:space="preserve">
+    <value>Вызывается при первом запуске редактора или плеера Unity или при перекомпиляции скриптов</value>
+  </data>
+  <data name="ThereIsNoSceneWithTheSameIndexInTheUnityBuildSettings" xml:space="preserve">
+    <value>В настройках сборки Unity нет сцены с таким же индексом.</value>
+  </data>
+  <data name="MultidimensionalArrayElementAccessIsConvertedToAMethodCallItIsMoreEfficientToUseAJaggedOrOneDimensionalArray" xml:space="preserve">
+    <value>Доступ к элементам многомерного массива преобразуется в вызов метода. Использование ступенчатого или одномерного массива более эффективно.</value>
+  </data>
+  <data name="UnityDots_Add_RequireForUpdate_SingletonQuickFix" xml:space="preserve">
+    <value>Добавить отсутствующий вызов 'RequireForUpdate&lt;{0}&gt;'</value>
+  </data>
+  <data name="UnitySettings_t_Unity_plugin_settings" xml:space="preserve">
+    <value>Настройки плагина Unity</value>
+  </data>
+  <data name="BurstStringFormatFunctionsInvalidArgumentTypeMessage" xml:space="preserve">
+    <value>Burst: Аргумент String.Format с индексом '{1}' имеет недопустимый тип '{0}'. Поддерживаются только типы значений.</value>
+  </data>
+  <data name="SettingparentPropertyImmediatelyAfterObjectInstantiationIsInefficient" xml:space="preserve">
+    <value>Установка свойства 'parent' сразу после создания экземпляра объекта неэффективна</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Ignore__Break_on_unhandled_exceptions__setting_for_IL2CPP_players" xml:space="preserve">
+    <value>Игнорировать настройку 'Прерывать при необработанных исключениях' для плееров IL2CPP</value>
+  </data>
+  <data name="UnityInlayHintSettings_t_Inlay_hint_settings_for_Unity_related_files" xml:space="preserve">
+    <value>Настройки встроенных подсказок для файлов, связанных с Unity</value>
+  </data>
+  <data name="UnityOptionsPage_Profiler_Integration_Snapshot_Fetching" xml:space="preserve">
+    <value>Получение снимков профилировщика:</value>
+  </data>
+  <data name="ExpensiveMethodInvocation_RiderPresentableName" xml:space="preserve">
+    <value>Ресурсоёмкий вызов метода</value>
+  </data>
+  <data name="UnityErrors_Text" xml:space="preserve">
+    <value>Ошибки Unity</value>
+  </data>
+  <data name="UsingnewToInstantiateAClassDerivedFromMonoBehaviourWillNotAttachItToAGameObjectInstanceAndUnityWillNotCallAnyEventFunctionsCreateANewInstanceUsingGameObjectAddComponentT" xml:space="preserve">
+    <value>Использование 'new' для создания экземпляра класса, производного от 'MonoBehaviour', не присоединит его к экземпляру 'GameObject', и Unity не вызовет никакие функции-события. Создайте новый экземпляр с помощью 'GameObject.AddComponent&lt;T&gt;()'.</value>
+  </data>
+  <data name="ConvertXmlDocToTooltipAttributeAction_Name" xml:space="preserve">
+    <value>Преобразовать XML-документацию в атрибут 'Tooltip'</value>
+  </data>
+  <data name="Template_Editable_UHJvcGVydHkgRHJhd2VyIChJTUdVSSkEQ" xml:space="preserve">
+    <value>Редактор свойств (IMGUI)</value>
+  </data>
+  <data name="TypeDetector_AddDeclarationHighlighting_Custom_Unity_editor" xml:space="preserve">
+    <value>Пользовательский редактор Unity</value>
+  </data>
+  <data name="DueToTheSizeOfTheProjectIndexingOfUnity_Text" xml:space="preserve">
+    <value>Из-за размера проекта индексация сцен, ассетов и префабов Unity отключена. Использования C# кода в этих файлах не будут обнаружены. Повторное включение повлияет на первоначальную обработку файлов.</value>
+  </data>
+  <data name="TheLayerIsNotDefinedInTheTagsLayers" xml:space="preserve">
+    <value>Слой не определён в 'Tags &amp; Layers'</value>
+  </data>
+  <data name="TheSameShortcutIsDefinedForAnotherMenuItem" xml:space="preserve">
+    <value>Тот же ярлык определён для другого пункта меню</value>
+  </data>
+  <data name="Odin_MemberPresentInMultipleGroupsTitle" xml:space="preserve">
+    <value>Член присутствует в нескольких группах UI одновременно</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_Title" xml:space="preserve">
+    <value>Генерация ComponentData (DOTS)</value>
+  </data>
+  <data name="AddAttributeAction_Text_Add___0___to_SelectedField" xml:space="preserve">
+    <value>Добавить '{0}' к '{1}'</value>
+  </data>
+  <data name="RemoveRedundantAttributeQuickFix_ScopedText_Remove_redundant_Unity_attributes" xml:space="preserve">
+    <value>Удалить избыточные атрибуты Unity</value>
+  </data>
+  <data name="StringBasedGraphicsPropertyLookupIsInefficient" xml:space="preserve">
+    <value>Поиск графического свойства по строке неэффективен</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Extend_value_rendering" xml:space="preserve">
+    <value>Расширенное отображение значений</value>
+  </data>
+  <data name="GenerateUnityEventFunctionsWorkflow_Unity_Event_Functions" xml:space="preserve">
+    <value>Функции-события Unity</value>
+  </data>
+  <data name="ConvertToGameObjectAddComponentQuickFix_Text_Convert_to__GameObject_AddComponent__0_____" xml:space="preserve">
+    <value>Преобразовать в 'GameObject.AddComponent&lt;{0}&gt;()'</value>
+  </data>
+  <data name="UnmetDefineConstraintInfo_Unmet_define_constraint_Assembly_definition_will_not_be_compiled" xml:space="preserve">
+    <value>Невыполненное ограничение определения. Определение сборки не будет скомпилировано.</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Description" xml:space="preserve">
+    <value>Добавить ссылку на ComponentData (DOTS)</value>
+  </data>
+  <data name="UnityObjectNullPatternMatchingWarning_Message" xml:space="preserve">
+    <value>Использование сопоставления шаблонов с null для типов, производных от 'UnityEngine.Object', обходит проверку времени жизни базового объекта Unity</value>
+  </data>
+  <data name="ShowExpensiveCallsBulbAction_Text_Show_outgoing_Expensive_calls" xml:space="preserve">
+    <value>Показать исходящие ресурсоёмкие вызовы</value>
+  </data>
+  <data name="ImplicitlyUsedIdentifier_RiderPresentableName" xml:space="preserve">
+    <value>Неявно используемый идентификатор</value>
+  </data>
+  <data name="UnityObjectNullPropagationWarning_Description" xml:space="preserve">
+    <value>Оператор распространения null не вызывает пользовательские операторы равенства, определённые для 'UnityEngine.Object'. Эти операторы проверяют, не был ли уничтожен базовый объект Unity. Если требуется проверка времени жизни, предпочтительнее явное сравнение с null или неявное булево сравнение, либо явное использование 'object.ReferenceEquals()' для стандартной (и более быстрой) проверки CLR на null.</value>
+  </data>
+  <data name="OdinReplaceAttributeQuickFix" xml:space="preserve">
+    <value>Изменить на атрибут '{0}'</value>
+  </data>
+  <data name="GenerateUnityEventFunctionsAction_Name" xml:space="preserve">
+    <value>Сгенерировать функции-события Unity</value>
+  </data>
+  <data name="ToggleSerializedFieldOne_Text_Make_field___0___serialized" xml:space="preserve">
+    <value>Сделать поле '{0}' сериализуемым</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Name" xml:space="preserve">
+    <value>Добавить ссылку на ComponentData (DOTS)</value>
+  </data>
+  <data name="UnityOptionsPage_AddPerformanceAnalysisSubSection_Enable_performance_analysis_in_frequently_called_code" xml:space="preserve">
+    <value>Включить анализ производительности в часто вызываемом коде</value>
+  </data>
+  <data name="ExpectedTypeDerivedFromUnityEngineScriptableObjectMessage" xml:space="preserve">
+    <value>Ожидается тип, производный от 'UnityEngine.ScriptableObject'</value>
+  </data>
+  <data name="UnityElementDescriptionProvider_GetEventFunctionParameterDescription_This_parameter_is_optional_and_can_be_removed_if_not_used_" xml:space="preserve">
+    <value>Этот параметр необязательный и может быть удалён, если не используется.</value>
+  </data>
+  <data name="BurstAccessingManagedMethodFromTypeIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Доступ к управляемому методу '{0}' из типа '{1}' не поддерживается</value>
+  </data>
+  <data name="ShortSceneNameIsNotUnique" xml:space="preserve">
+    <value>Короткое имя сцены не уникально</value>
+  </data>
+  <data name="BurstDebugLoggingFunctionsAcceptsOnlyStringsMessage" xml:space="preserve">
+    <value>Burst: Функции журнала отладки принимают только строки</value>
+  </data>
+  <data name="BurstCompiledCode_Text" xml:space="preserve">
+    <value>Код, скомпилированный Burst</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Generate_Setters" xml:space="preserve">
+    <value>Сгенерировать сеттеры</value>
+  </data>
+  <data name="ConvertToNamedAssemblyDefinitionReference_Name" xml:space="preserve">
+    <value>Преобразовать в именованную ссылку на определение сборки</value>
+  </data>
+  <data name="BurstThisMethodIsAvailableInCOnlyNotHPCMessage" xml:space="preserve">
+    <value>Burst: Этот метод доступен только в C#, но не в Burst</value>
+  </data>
+  <data name="RedundantUnityEventFunction" xml:space="preserve">
+    <value>Избыточная функция-событие Unity</value>
+  </data>
+  <data name="UnityDots_DotsPartialClassesQuickFix_Add_Partial_Readonly" xml:space="preserve">
+    <value>Добавить '{0}' в {1}</value>
+  </data>
+  <data name="AsmRefProjectFileType_AsmRefProjectFileType_Assembly_Definition_Reference__Unity_" xml:space="preserve">
+    <value>Ссылка на определение сборки (Unity)</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="UnityOptionsPage_AddPerformanceAnalysisSubSection_Show_gutter_icons_for_frequently_called_methods" xml:space="preserve">
+    <value>Показывать значки на полях или Code Vision для часто вызываемых методов</value>
+  </data>
+  <data name="PreferGUIDBasedAssemblyReferences" xml:space="preserve">
+    <value>Предпочитать ссылки на сборки на основе GUID</value>
+  </data>
+  <data name="StringBasedPropertyLookupIsInefficientAsEachTimeTheMethodIsCalledTheStringNameIsConvertedIntoAnIntegerValuePreferCalculatingTheIntegerValueOnceAndCachingTheResult" xml:space="preserve">
+    <value>Поиск свойства по строке неэффективен, так как при каждом вызове метода строковое имя преобразуется в целочисленное значение. Предпочтительнее вычислить целочисленное значение один раз и кэшировать результат.</value>
+  </data>
+  <data name="TheHideInInspectorAttributeOnlyAppliesToSerialisedFields" xml:space="preserve">
+    <value>Атрибут 'HideInInspector' применяется только к сериализуемым полям</value>
+  </data>
+  <data name="PreferGUIDReferenceMessage" xml:space="preserve">
+    <value>Предпочитать ссылку по GUID</value>
+  </data>
+  <data name="OrderOfMultiplicationOperationsIsInefficientMessage" xml:space="preserve">
+    <value>Порядок операций умножения неэффективен</value>
+  </data>
+  <data name="UnityDots_AddFieldToExistingBakerAndAuthoring_NoBakersForComponent" xml:space="preserve">
+    <value>Не найдено Baker'ов для компонента '{0}'</value>
+  </data>
+  <data name="RedundantAttributeUsage" xml:space="preserve">
+    <value>Избыточное использование атрибута</value>
+  </data>
+  <data name="UnityOptionsPage_AddPerformanceAnalysisSubSection_Never" xml:space="preserve">
+    <value>Никогда</value>
+  </data>
+  <data name="UnityOptionsPage_AddPerformanceAnalysisSubSection_Current_method_only" xml:space="preserve">
+    <value>Только текущий метод</value>
+  </data>
+  <data name="UnityFirstpassEditorFolder_Text" xml:space="preserve">
+    <value>Папка редактора Unity firstpass</value>
+  </data>
+  <data name="InefficientMultidimensionalArrayUsage_RiderPresentableName" xml:space="preserve">
+    <value>Неэффективное использование многомерных массивов</value>
+  </data>
+  <data name="UnityObjectNullCoalescingWarning_Message" xml:space="preserve">
+    <value>Использование '{0}' для типов, производных от 'UnityEngine.Object', обходит проверку времени жизни базового объекта Unity</value>
+  </data>
+  <data name="AttributeIsRedundantOnThisDeclarationTypeItIsOnlyUsedWhenAppliedToDeclarationsMessage" xml:space="preserve">
+    <value>Атрибут '{0}' избыточен для этого типа объявления. Он используется только при применении к объявлениям '{1}'.</value>
+  </data>
+  <data name="UnitySettings_t_Suppress_resolve_errors_in_HLSL_" xml:space="preserve">
+    <value>Подавлять ошибки разрешения в HLSL</value>
+  </data>
+  <data name="UnityObjectNullPatternMatchingWarning_Description" xml:space="preserve">
+    <value>Оператор сопоставления шаблонов с null не вызывает пользовательские операторы равенства, определённые для 'UnityEngine.Object'. Эти операторы проверяют, не был ли уничтожен базовый объект Unity. Если требуется проверка времени жизни, предпочтительнее явное сравнение с null или неявное булево сравнение, либо явное использование 'object.ReferenceEquals()' для стандартной (и более быстрой) проверки CLR на null.</value>
+  </data>
+  <data name="Template_Editable_U2NyaXB0YWJsZSBXaXphcmQEQ" xml:space="preserve">
+    <value>Scriptable Wizard</value>
+  </data>
+  <data name="BurstWritingToAStaticFieldIsNotSupportedMessage" xml:space="preserve">
+    <value>Burst: Запись в статическое поле '{0}' не поддерживается</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Description" xml:space="preserve">
+    <value>Сгенерировать свойства-аксессоры (DOTS)</value>
+  </data>
+  <data name="UnityOptionsPage_AddGeneralSection_Notify_when_Rider_package_update_is_available" xml:space="preserve">
+    <value>Уведомлять, когда доступно обновление пакета Rider</value>
+  </data>
+  <data name="AddExpensiveCommentContextAction_Name" xml:space="preserve">
+    <value>Пометить функцию как ресурсоёмкую</value>
+  </data>
+  <data name="MoveAction_Text_Introduce_field_and_initialise_in___0__" xml:space="preserve">
+    <value>Ввести поле и инициализировать в '{0}'</value>
+  </data>
+  <data name="ConvertToCoroutineBulbAction_Text_To_coroutine" xml:space="preserve">
+    <value>В корутину</value>
+  </data>
+  <data name="LoadingManagedTypeIsNotSupported" xml:space="preserve">
+    <value>Загрузка управляемого типа не поддерживается</value>
+  </data>
+  <data name="MonoBehaviourInstancesMustBeInstantiatedWithGameObjectAddComponentTInsteadOfnew" xml:space="preserve">
+    <value>Экземпляры 'MonoBehaviour' должны создаваться с помощью 'GameObject.AddComponent&lt;T&gt;()', а не 'new'</value>
+  </data>
+  <data name="UnityInlayHintsOptionsPage_UnityInlayHintsOptionsPage_Assembly_Definition_file_GUID_references" xml:space="preserve">
+    <value>GUID-ссылки в файле определения сборки</value>
+  </data>
+  <data name="UnityDots_GenerateComponentReference_Unity_Component_Fields_WindowTitle" xml:space="preserve">
+    <value>Доступные компоненты (DOTS)</value>
+  </data>
+  <data name="IncorrectReturnTypeExpectedMessage" xml:space="preserve">
+    <value>Некорректный тип возвращаемого значения. Ожидается '{0}'</value>
+  </data>
+  <data name="UnitySettings_t_Enables_syntax_error_highlighting__brace_matching_and_more_of_ShaderLab_files_" xml:space="preserve">
+    <value>Включить подсветку синтаксических ошибок, сопоставление скобок и другие функции в файлах ShaderLab</value>
+  </data>
+  <data name="UnityInlayHintSettings_t_Visibility_mode_of_hints_for_GUID_references_in__asmdef_files" xml:space="preserve">
+    <value>Режим видимости подсказок для GUID-ссылок в файлах .asmdef</value>
+  </data>
+  <data name="UnityOptionsPage_AddTextBasedAssetsSection_Text_based_assets" xml:space="preserve">
+    <value>Текстовые ассеты</value>
+  </data>
+  <data name="UseCompareTagInsteadOfExplicitStringComparison" xml:space="preserve">
+    <value>Использовать 'CompareTag' вместо явного сравнения строк</value>
+  </data>
+  <data name="Template_Editable_U291cmNlIGZpbGUEQ" xml:space="preserve">
+    <value>Исходный файл</value>
+  </data>
+  <data name="MonoBehaviourInstancesMustBeInstantiatedWithGameObjectAddComponentTInsteadOfnewMessage" xml:space="preserve">
+    <value>Экземпляры 'MonoBehaviour' должны создаваться с помощью 'GameObject.AddComponent&lt;T&gt;()', а не 'new'</value>
+  </data>
+  <data name="UnmetVersionConstraintInfo_Symbol_not_defined__Unmet_version_constraint___0_" xml:space="preserve">
+    <value>Символ не определён. Невыполненное ограничение версии: {0}.</value>
+  </data>
+  <data name="TheClassReferredToInTheCallToGetComponentAddComponentOrScriptableObjectCreateInstanceCannotBeFoundInTheCurrentProjectOrReferencedAssembliesTheCallIsLikelyToFailAtRuntimeAndReturnNull" xml:space="preserve">
+    <value>Класс, на который ссылается вызов 'GetComponent', 'AddComponent' или 'ScriptableObject.CreateInstance', не найден в текущем проекте или подключенных сборках. Вызов, скорее всего, завершится неудачей во время выполнения и вернёт null.</value>
+  </data>
+  <data name="UnityHighlightingProcess_Event_function" xml:space="preserve">
+    <value>Функция-событие</value>
+  </data>
+  <data name="UnitySettings_t_Breakpoint_Trace_Output__Debugger_Console" xml:space="preserve">
+    <value>Консоль отладки</value>
+  </data>
+  <data name="UnityHighlightingProcess_Execute_Frequently_called_code" xml:space="preserve">
+    <value>Часто вызываемый код</value>
+  </data>
+  <data name="CannotReferenceSelfMessage" xml:space="preserve">
+    <value>Нельзя ссылаться на себя</value>
+  </data>
+  <data name="UnityOptionsPage_AddCSharpSection_When_Code_Vision_is_disabled" xml:space="preserve">
+    <value>Когда Code Vision отключен</value>
+  </data>
+  <data name="UnityOptionsPage_AddCSharpSection_Show_gutter_icons_for_implicit_script_usages" xml:space="preserve">
+    <value>Показывать значки на полях или Code Vision для неявных использований скриптов</value>
+  </data>
+  <data name="RemoveAttributeAction_Text_Remove___0__" xml:space="preserve">
+    <value>Удалить '{0}'</value>
+  </data>
+  <data name="UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_WindowTitle" xml:space="preserve">
+    <value>Baker</value>
+  </data>
+  <data name="UnityDots_AddComponentLookup_Update_Text" xml:space="preserve">
+    <value>Добавить отсутствующий вызов 'Update' для '{0}'</value>
+  </data>
+  <data name="Template_Editable_SUFzcGVjdAEQEQ" xml:space="preserve">
+    <value>IAspect</value>
+  </data>
+  <data name="UnityDots_MustBeStructForDotsInheritor_Title" xml:space="preserve">
+    <value>DOTS: Указанный тип должен быть структурой</value>
+  </data>
+  <data name="BurstLocalStringVariableDeclarationQuickFix" xml:space="preserve">
+    <value>Явно указать тип {0}</value>
+  </data>
+  <data name="ToggleSerializedFieldAction_Description" xml:space="preserve">
+    <value>Переключить поле в типах Unity между сериализуемым и несериализуемым. Если поле не public, добавляется атрибут 'UnityEngine.SerializeField'. Если поле уже сериализуется, атрибут удаляется, а для public полей добавляется атрибут 'NonSerialized'.</value>
+  </data>
+  <data name="PreferGenericMethodOverloadQuickFix_Text_Convert_to__MethodName__1__" xml:space="preserve">
+    <value>Преобразовать в '{0}&lt;{1}&gt;()'</value>
+  </data>
+  <data name="Template_Editable_QXNzZW1ibHkgRGVmaW5pdGlvbiBGaWxl" xml:space="preserve">
+    <value>Файл определения сборки</value>
+  </data>
+  <data name="UnityFixFloatingPointComparison_Text" xml:space="preserve">
+    <value>Исправить сравнение с помощью Mathf.Approximately</value>
+  </data>
+  <data name="TheSceneIsMissingInTheUnityBuildSettings" xml:space="preserve">
+    <value>Сцена отсутствует в настройках сборки Unity.</value>
+  </data>
+  <data name="TheInitializeOnLoadAttributeIsRedundantWhenTheStaticConstructorIsMissing" xml:space="preserve">
+    <value>Атрибут 'InitializeOnLoad' избыточен при отсутствии статического конструктора</value>
+  </data>
+  <data name="UnmetDefineConstraintInfo_Unmet_define_constraint" xml:space="preserve">
+    <value>Невыполненное ограничение определения</value>
+  </data>
+  <data name="UnityAssetSpecificOccurrenceKinds_InspectorUsage_Inspector_values" xml:space="preserve">
+    <value>Значения инспектора</value>
+  </data>
+  <data name="BoxingIsNotSupported" xml:space="preserve">
+    <value>Упаковка не поддерживается</value>
+  </data>
+  <data name="AddTooltipAttributeAction_Text_Add__Tooltip__attribute" xml:space="preserve">
+    <value>Добавить атрибут 'Tooltip'</value>
+  </data>
+  <data name="ThereIsNoSceneWithSameIndexInTheUnityBuildSettingsMessage" xml:space="preserve">
+    <value>В настройках сборки Unity нет сцены с таким же индексом.</value>
+  </data>
+  <data name="UnityObjectNullCoalescingWarning_Inspection_Title" xml:space="preserve">
+    <value>Использование объединения null для типов, производных от 'UnityEngine.Object', обходит проверку времени жизни базового объекта Unity</value>
+  </data>
+  <data name="RemoveRedundantAttributeQuickFix_Text_Remove_redundant_attribute" xml:space="preserve">
+    <value>Удалить избыточный атрибут</value>
+  </data>
+  <data name="PossibleIncorrectApplicationOfAttributeToMultipleFields" xml:space="preserve">
+    <value>Возможно некорректное применение атрибута к нескольким полям</value>
+  </data>
+  <data name="UnityDots_GenerateRefAccessors_Unity_Component_Fields_WindowTitle" xml:space="preserve">
+    <value>Свойства-аксессоры (DOTS)</value>
+  </data>
+  <data name="Template_Editable_RWRpdG9yIFdpbmRvdyAoSU1HVUkp" xml:space="preserve">
+    <value>Окно редактора (IMGUI)</value>
+  </data>
+  <data name="EventFunctionWithTheSameNameIsAlreadyDeclared2" xml:space="preserve">
+    <value>Функция-событие с таким именем уже объявлена.</value>
+  </data>
+  <data name="ThereAreSeveralScenesWithSameNameInTheUnityBuildSettingsOnlySceneWithSmallestIndexWillBeUsedMessage" xml:space="preserve">
+    <value>В настройках сборки Unity есть несколько сцен с одинаковым именем. Будет использована только сцена с наименьшим индексом.</value>
+  </data>
+  <data name="ExpectedAMethodWithSignatureMessage" xml:space="preserve">
+    <value>Ожидается метод с сигнатурой '{0}'</value>
+  </data>
+  <data name="UnitySettings_t_Highlighting_mode_for_performance_critical_code" xml:space="preserve">
+    <value>Режим подсветки для ресурсоёмкого кода</value>
+  </data>
+  <data name="ExpensiveCameraMainUsage_RiderPresentableName" xml:space="preserve">
+    <value>Ресурсоёмкое использование 'Camera.main'</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Change_return_type_to___0__" xml:space="preserve">
+    <value>Изменить тип возвращаемого значения на '{0}'</value>
+  </data>
+  <data name="TheLayerIsNotDefinedInTheTagsLayersTheCallIsLikelyToFailAtRuntimeMessage" xml:space="preserve">
+    <value>Слой не определён в 'Tags &amp; Layers'. Вызов, скорее всего, завершится неудачей во время выполнения.</value>
+  </data>
+  <data name="AddAttributeAction_Text_Add___0___before_all_fields" xml:space="preserve">
+    <value>Добавить '{0}' перед всеми полями</value>
+  </data>
+  <data name="FileNameShouldMatchTheNameOfTheAssemblyMessage" xml:space="preserve">
+    <value>Имя файла должно совпадать с именем сборки</value>
+  </data>
+  <data name="Template_Editable_VW5pdHkgQ3JlYXRlQXNzZXRNZW51IGF0dHJpYnV0ZQEQEQ" xml:space="preserve">
+    <value>Атрибут Unity CreateAssetMenu</value>
+  </data>
+  <data name="UnityDots_AddFieldToExistingBakerAndAuthoring_Description" xml:space="preserve">
+    <value>Добавить поле IComponentData в существующий Baker</value>
+  </data>
+  <data name="ExpensiveMethodInvocation" xml:space="preserve">
+    <value>Ресурсоёмкий вызов метода</value>
+  </data>
+  <data name="UnitySettings_t_Breakpoint_Trace_Output__Unity_Log" xml:space="preserve">
+    <value>Журнал Unity</value>
+  </data>
+  <data name="IncorrectMethodParametersExpectedMessage" xml:space="preserve">
+    <value>Некорректные параметры метода. Ожидается '({0})'</value>
+  </data>
+  <data name="RepeatedAccessOfPropertyOnBuiltInComponentIsInefficient" xml:space="preserve">
+    <value>Повторный доступ к свойству встроенного компонента неэффективен</value>
+  </data>
+  <data name="ChangeSignatureBulbAction_GetText_Remove_type_parameters" xml:space="preserve">
+    <value>Удалить параметры типа</value>
+  </data>
+  <data name="UnityOptionsPage_AddDebuggingSection_Timeout_for_Advance_Unity_Evaluation" xml:space="preserve">
+    <value>Таймаут для расширенной оценки Unity (в миллисекундах):</value>
+  </data>
+  <data name="ScriptableObjectInstancesMustBeInstantiatedWithScriptableObjectCreateInstanceTInsteadOfnewMessage" xml:space="preserve">
+    <value>Экземпляры 'ScriptableObject' должны создаваться с помощью 'ScriptableObject.CreateInstance&lt;T&gt;()', а не 'new'</value>
+  </data>
+  <data name="UseJaggedOrOneDimensionalArrayInsteadOfMultidimensionalArray" xml:space="preserve">
+    <value>Использовать ступенчатый или одномерный массив вместо многомерного</value>
+  </data>
+  <data name="AsmDefWarnings_Text" xml:space="preserve">
+    <value>Предупреждения AsmDef</value>
+  </data>
+  <data name="UnitySettings_Profiler_Integration_Snapshot_Fetching" xml:space="preserve">
+    <value>Интеграция с профилировщиком Unity</value>
+  </data>
+</root>

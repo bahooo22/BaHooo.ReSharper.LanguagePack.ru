@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DiskManagement_StorageContents_HeaderText" xml:space="preserve">
+    <value>Содержимое хранилища</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Name" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedLinuxLibC" xml:space="preserve">
+    <value>Не удалось открыть снимок: неподдерживаемая ОС — Linux (дистрибутив на основе {0}).</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Size_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный в стектреках, содержащих только неразрешенные нативные функции</value>
+  </data>
+  <data name="KnownEventTypes_Exception_EventName_Plural" xml:space="preserve">
+    <value>Исключения</value>
+  </data>
+  <data name="Payloads_MeasuredPartly" xml:space="preserve">
+    <value>Функция начала работу до того, как dotTrace начал измерение,
+и/или завершила работу после того, как dotTrace остановил измерение</value>
+  </data>
+  <data name="Unit_SI_Yotta" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Unit_SI_Zetta" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="SpecialValue_Http_UnknownEndpoint" xml:space="preserve">
+    <value>[Неизвестная конечная точка]</value>
+  </data>
+  <data name="KnownEventTypes_ThreadLifetime_ShortName" xml:space="preserve">
+    <value>Событие</value>
+  </data>
+  <data name="CallTreeGrouped_ButtonTooltip" xml:space="preserve">
+    <value>Группировать дерево вызовов по потокам</value>
+  </data>
+  <data name="SpecialValue_File_UnknownFileName" xml:space="preserve">
+    <value>[Неизвестное имя файла]</value>
+  </data>
+  <data name="Filters_BlockingGcReason_Name" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <data name="Overview_CPUFrequency" xml:space="preserve">
+    <value>Частота CPU</value>
+  </data>
+  <data name="CallTree_History_Transition_Up_Tooltip" xml:space="preserve">
+    <value>Переход снизу вверх: от вызываемого к вызывающему</value>
+  </data>
+  <data name="CallTree_Backtrace_Threads_Tooltip" xml:space="preserve">
+    <value>Количество потоков, находящихся в корневом методе и исходящих из этого пути вызовов в выбранный момент времени</value>
+  </data>
+  <data name="Overview_ComputerName" xml:space="preserve">
+    <value>Имя компьютера</value>
+  </data>
+  <data name="MetadataProcessingHasFailed" xml:space="preserve">
+    <value>Обработка метаданных не удалась. Некоторые данные профилирования могут быть повреждены. Чтобы решить проблему, перезапустите профилирование. Если это не поможет, обратитесь в службу поддержки dotTrace.</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда сервер обрабатывал входящий HTTP-запрос: время между получением запроса сервером и отправкой ответа</value>
+  </data>
+  <data name="SnapshotList_NoSnapshotsMatchingTheFilterFound" xml:space="preserve">
+    <value>Не найдено снимков, соответствующих фильтру</value>
+  </data>
+  <data name="Properties_UnknownModuleName" xml:space="preserve">
+    <value>&lt;Неизвестно&gt;</value>
+  </data>
+  <data name="Properties_UnknownModulePath" xml:space="preserve">
+    <value>&lt;Неизвестно&gt;</value>
+  </data>
+  <data name="KnownProperties_IODirection_Write" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="KnownEventTypes_ThreadLifetime_Tooltip" xml:space="preserve">
+    <value>Фильтровать интервалы по событиям</value>
+  </data>
+  <data name="FlameGraph_ToggleButtonTooltip" xml:space="preserve">
+    <value>Открыть окно flame-графа</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Name_Plural" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="KnownEventTypes_DiskIO_FullName" xml:space="preserve">
+    <value>Дисковый ввод-вывод</value>
+  </data>
+  <data name="SpecialValue_Sql_OpenConnection" xml:space="preserve">
+    <value>[Открыть соединение]</value>
+  </data>
+  <data name="Filters_Threads_Name" xml:space="preserve">
+    <value>Потоки</value>
+  </data>
+  <data name="OpenSnapshotDialog_SupportedFilesDescription" xml:space="preserve">
+    <value>Файлы снимков</value>
+  </data>
+  <data name="PropertiesModulePath" xml:space="preserve">
+    <value>Путь к модулю:</value>
+  </data>
+  <data name="PropertiesModuleName" xml:space="preserve">
+    <value>Имя модуля:</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_EventName_Plural" xml:space="preserve">
+    <value>Нативные выделения памяти</value>
+  </data>
+  <data name="Summary_ThreadPart" xml:space="preserve">
+    <value>В 1 потоке</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedCpuType" xml:space="preserve">
+    <value>Не удалось открыть снимок: неподдерживаемый тип CPU ({0}). Этот снимок можно открыть только на компьютерах с {1}.</value>
+  </data>
+  <data name="CallTree_History_MergeAll_Text" xml:space="preserve">
+    <value>… (любой код)</value>
+  </data>
+  <data name="Summary_Empty" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="Filters_WaitingActivatingThread_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток ожидал, пока его разблокирует определенный поток или процесс</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_EventName_Plural" xml:space="preserve">
+    <value>События фреймворка</value>
+  </data>
+  <data name="KnownEventTypes_DebugOutput_EventName_Plural" xml:space="preserve">
+    <value>Отладочные сообщения</value>
+  </data>
+  <data name="KnownEventTypes_Running_EventName_Plural" xml:space="preserve">
+    <value>Интервалы выполнения</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_FullName" xml:space="preserve">
+    <value>Ожидание CPU</value>
+  </data>
+  <data name="Filters_Off_Value" xml:space="preserve">
+    <value>Выкл.</value>
+  </data>
+  <data name="OpenSnapshotDialog_Title" xml:space="preserve">
+    <value>Открыть снимок</value>
+  </data>
+  <data name="Processing_SourceToMemoryMappedStorage" xml:space="preserve">
+    <value>Подготовка снимка</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_Notification" xml:space="preserve">
+    <value>Не удалось открыть снимок: файл был создан в более ранней версии dotTrace.</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_LinkText" xml:space="preserve">
+    <value>Скачать dotTrace 2024.1</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Threads_Tooltip" xml:space="preserve">
+    <value>Собственные потоки = Всего потоков: количество потоков, находящихся в этом методе в выбранный момент времени. В этот момент в дочерних вызовах этого метода нет потоков.</value>
+  </data>
+  <data name="Processing_ConvertEvents_PumpAll_ProgressName" xml:space="preserve">
+    <value>Обработка трассировки событий</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Size_Tooltip" xml:space="preserve">
+    <value>Собственное выделение: объем памяти, выделенный в этом методе, исключая выделения в дочерних вызовах этого метода</value>
+  </data>
+  <data name="KnownEventTypes_Exception_Tooltip" xml:space="preserve">
+    <value>Переключиться на события точек исключений. Посмотрите, какие вызовы и потоки вызывают исключения.</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Time_Tooltip" xml:space="preserve">
+    <value>Собственное время = Общее время: время, затраченное в этом методе. Никакое время не было затрачено в дочерних вызовах этого метода.</value>
+  </data>
+  <data name="Filters_ThreadStates_Name_Plural" xml:space="preserve">
+    <value>Состояния потока</value>
+  </data>
+  <data name="Filters_ApiEventDescription_Name_Plural" xml:space="preserve">
+    <value>Описания событий</value>
+  </data>
+  <data name="RiderUnity_UnityVersionIsUnknown" xml:space="preserve">
+    <value>Не удалось определить версию Unity. Профилирование поддерживается только для Unity 2018.3 или новее. Запустить профилирование?</value>
+  </data>
+  <data name="Properties_AssemblyInfo" xml:space="preserve">
+    <value>Информация о сборке: {0}</value>
+  </data>
+  <data name="FindFunction_OnlyInUserMethod_Checkbox" xml:space="preserve">
+    <value>Только в пользовательских методах</value>
+  </data>
+  <data name="SpecialValue_Process_Unknown" xml:space="preserve">
+    <value>[Неизвестный процесс]</value>
+  </data>
+  <data name="PlainList_UnknownClass" xml:space="preserve">
+    <value>[Неизвестный класс]</value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда пользовательский интерфейс не отвечал (сообщения окна не перекачивались в течение более 200 мс или определенное сообщение потребляло более 200 мс). Это событие может происходить только в UI-потоке.</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Blocking" xml:space="preserve">
+    <value>Блокирующая</value>
+  </data>
+  <data name="Filters_GcDepth_Name_Plural" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Events_Tooltip" xml:space="preserve">
+    <value>Собственные события: количество событий, произошедших в этом методе, исключая события в дочерних вызовах этого метода</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_FullName" xml:space="preserve">
+    <value>SQL-запрос</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Unknown" xml:space="preserve">
+    <value>Неизвестная причина</value>
+  </data>
+  <data name="Filters_ThreadPriority_Name" xml:space="preserve">
+    <value>Приоритет потока</value>
+  </data>
+  <data name="CallTreeRecursiveFold" xml:space="preserve">
+    <value>Свернуть рекурсивно вызываемые экземпляры методов — объединить все рекурсивные вызовы в один узел</value>
+  </data>
+  <data name="KnownEventTypes_Running_EventName" xml:space="preserve">
+    <value>Интервал выполнения</value>
+  </data>
+  <data name="Filters_CpuCore_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток выполнялся на определенном ядре CPU</value>
+  </data>
+  <data name="ConfigurationEditor_AttachUnavailable" xml:space="preserve">
+    <value>Эта конфигурация профилирования не применима при присоединении к процессу</value>
+  </data>
+  <data name="EventLogTable_Unresolved" xml:space="preserve">
+    <value>[Не разрешено]</value>
+  </data>
+  <data name="Comparison_ComparisonItemPrefix" xml:space="preserve">
+    <value>{0}-{1}</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Size_Tooltip" xml:space="preserve">
+    <value>Общее выделение: объем памяти, выделенный в этом методе или в любом из его дочерних вызовов</value>
+  </data>
+  <data name="Filters_ApiEventName_Name" xml:space="preserve">
+    <value>Имя события</value>
+  </data>
+  <data name="CallTree_Backtrace_Time_Tooltip" xml:space="preserve">
+    <value>Часть времени под корневым методом, исходящая из этого пути вызовов</value>
+  </data>
+  <data name="Overview_WorkingDir" xml:space="preserve">
+    <value>Рабочий каталог</value>
+  </data>
+  <data name="SettingsFactory_TimelineViewerStateLayer_DisplayName" xml:space="preserve">
+    <value>Слой состояния просмотрщика временной шкалы {0}:{1}</value>
+  </data>
+  <data name="ExportSnapshotError" xml:space="preserve">
+    <value>Не удалось экспортировать снимок: недостаточно места на диске или целевой файл используется (например, открыт в dotTrace Viewer).</value>
+  </data>
+  <data name="KnownEventTypes_Tasks_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения задач, запущенных через API задач (например, Task.StartNew или Task.ContinueWith)</value>
+  </data>
+  <data name="SpecialValue_Sql_EmptyText" xml:space="preserve">
+    <value>[Пустой текст]</value>
+  </data>
+  <data name="KnownEventTypes_MemoryManagement_FullName" xml:space="preserve">
+    <value>Ожидание памяти</value>
+  </data>
+  <data name="SpecialValue_Sql_CommitTransaction" xml:space="preserve">
+    <value>[Зафиксировать транзакцию]</value>
+  </data>
+  <data name="CallTree_History_MergeSystem_Tooltip" xml:space="preserve">
+    <value>Объединены системные пути вызовов от предыдущего метода к следующему</value>
+  </data>
+  <data name="Filters_FileIoDirection_Name" xml:space="preserve">
+    <value>Направление</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Background" xml:space="preserve">
+    <value>Фоновая</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>Собственное выделение + Системное выделение: объем памяти, выделенный в этом методе или в его системных вызовах. Не включает выделения в вызовах других пользовательских методов.</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Tooltip" xml:space="preserve">
+    <value>Интервалы времени обработки HTTP-запросов с определенным методом</value>
+  </data>
+  <data name="KnownEventTypes_Contention_EventName" xml:space="preserve">
+    <value>Блокировка contention</value>
+  </data>
+  <data name="ProviderInUse_UnknownSessionName" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="Properties_AveragePayload" xml:space="preserve">
+    <value>Средняя нагрузка: {0}</value>
+  </data>
+  <data name="ThreadPresentation_Process_Empty_ShortName" xml:space="preserve">
+    <value>[Неизвестный процесс]</value>
+  </data>
+  <data name="PropertiesTableScope" xml:space="preserve">
+    <value>Область видимости</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_OOS_LOH" xml:space="preserve">
+    <value>Недостаточно места в куче больших объектов</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_OOS_SOH" xml:space="preserve">
+    <value>Недостаточно места в куче малых объектов</value>
+  </data>
+  <data name="RiderUnity_Profile_Caption" xml:space="preserve">
+    <value>Профилирование проекта Unity</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Induced" xml:space="preserve">
+    <value>Индуцированная</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Header" xml:space="preserve">
+    <value>Сообщение исключения</value>
+  </data>
+  <data name="Filters_FileIoDirection_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток выполнял операцию чтения или записи</value>
+  </data>
+  <data name="FlameGraph_ToggleButtonText" xml:space="preserve">
+    <value>Flame-граф</value>
+  </data>
+  <data name="RiderIntegrationPresentableName" xml:space="preserve">
+    <value>Профилировщик dotTrace</value>
+  </data>
+  <data name="SnapshotList_GettingStartedWithDotTrace" xml:space="preserve">
+    <value>Начало работы с профилировщиком производительности dotTrace</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_Unknown" xml:space="preserve">
+    <value>Неизвестная куча</value>
+  </data>
+  <data name="TopMethods_Merged_ShowSystem_Tooltip" xml:space="preserve">
+    <value>Стектрейсы, где все фреймы являются нативными, и мы не смогли найти их символы</value>
+  </data>
+  <data name="Filters_Threads_Tooltip" xml:space="preserve">
+    <value>Фильтровать по потокам</value>
+  </data>
+  <data name="ThreadPresentation_NoInfo_ShortName" xml:space="preserve">
+    <value>[Нет активирующего потока]</value>
+  </data>
+  <data name="ThreadPresentation_TypeWithName_Name" xml:space="preserve">
+    <value>Поток {0}</value>
+  </data>
+  <data name="Comparison_SelectSnapshotText" xml:space="preserve">
+    <value>Выберите снимок: {0}</value>
+  </data>
+  <data name="Filters_AllX" xml:space="preserve">
+    <value>Все {0}</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения операций чтения/записи с использованием диска или системного кэша</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_EventName" xml:space="preserve">
+    <value>Входящий HTTP-запрос</value>
+  </data>
+  <data name="Filters_AllocationType_Tooltip" xml:space="preserve">
+    <value>Распределение выделенной памяти между объектами определенных типов</value>
+  </data>
+  <data name="Filters_CpuCore_Name_Plural" xml:space="preserve">
+    <value>Ядра CPU</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_ShortName" xml:space="preserve">
+    <value>SQL</value>
+  </data>
+  <data name="ProcessingMessageLevel_Warning_Plural" xml:space="preserve">
+    <value>Предупреждения</value>
+  </data>
+  <data name="Filters_GcType_Name" xml:space="preserve">
+    <value>Группировать по типу</value>
+  </data>
+  <data name="Filters_WaitingActivatingThread_Name" xml:space="preserve">
+    <value>Активатор</value>
+  </data>
+  <data name="ProfilingApiMessage" xml:space="preserve">
+    <value>Сессия профилирования управляется через API</value>
+  </data>
+  <data name="EventLogTable_FileIo_To" xml:space="preserve">
+    <value>к</value>
+  </data>
+  <data name="Filters_AwaitInfoDuration_Name_Plural" xml:space="preserve">
+    <value>Длительности ожидания</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously_Export" xml:space="preserve">
+    <value>экспортировать</value>
+  </data>
+  <data name="SpecialValue_Empty" xml:space="preserve">
+    <value>[Пусто]</value>
+  </data>
+  <data name="Overview_Profiler" xml:space="preserve">
+    <value>Профилировщик</value>
+  </data>
+  <data name="Filters_BlockingGcReason_Name_Plural" xml:space="preserve">
+    <value>Причины</value>
+  </data>
+  <data name="Hotspots_Header" xml:space="preserve">
+    <value>Точки нагрузки</value>
+  </data>
+  <data name="SnapshotProcessing_SelectRowToSeeDetails" xml:space="preserve">
+    <value>Выберите сообщение слева, чтобы увидеть детали</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_ShortName" xml:space="preserve">
+    <value>Выделения .NET</value>
+  </data>
+  <data name="Comparison_FirstSnapshotPrefix" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="RiderUnity_CantDetectUnityPathText" xml:space="preserve">
+    <value>Не удалось определить путь к редактору Unity. Обратитесь в службу поддержки JetBrains Rider.</value>
+  </data>
+  <data name="Filters_WaitingReason_Name_Plural" xml:space="preserve">
+    <value>Причины</value>
+  </data>
+  <data name="CallTreeAggregation_ProgressName" xml:space="preserve">
+    <value>Агрегация дерева вызовов</value>
+  </data>
+  <data name="PossibleCauseTooManyEvents" xml:space="preserve">
+    <value>Возможная причина: слишком много событий ETW в системе. Чтобы решить проблему, попробуйте закрыть ненужные приложения и перезапустите профилирование.</value>
+  </data>
+  <data name="Filters_ApiEventName_Name_Plural" xml:space="preserve">
+    <value>Имена событий</value>
+  </data>
+  <data name="KnownEventTypes_OtherSuspends_FullName" xml:space="preserve">
+    <value>Другие приостановки</value>
+  </data>
+  <data name="Filters_TaskName_Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="SpecialValue_Sql_UnknownConnection" xml:space="preserve">
+    <value>[Неизвестное соединение]</value>
+  </data>
+  <data name="Filters_GcDepth_Name" xml:space="preserve">
+    <value>Глубина</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_EventName" xml:space="preserve">
+    <value>JIT-компиляция</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения компиляции на лету (JIT)</value>
+  </data>
+  <data name="EventLogTable_FileIo_Write" xml:space="preserve">
+    <value>Запись</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Threads_Tooltip" xml:space="preserve">
+    <value>Количество потоков, чьи стеки вызовов в выбранный момент времени содержат только неразрешенные нативные функции</value>
+  </data>
+  <data name="Processing_FailedToMoveSnapshotToStorage" xml:space="preserve">
+    <value>Не удалось переместить промежуточный снимок {0} во временное хранилище снимков</value>
+  </data>
+  <data name="Filters_GcDepth_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения сборки мусора определенной глубины</value>
+  </data>
+  <data name="TopMethods_Merged_ShowUser_Tooltip" xml:space="preserve">
+    <value>Стектрейсы, содержащие только системные вызовы. Чтобы увидеть эти детали, отключите "Скрывать системные функции" на панели инструментов</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_No" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="MethodViewData_Synthetic" xml:space="preserve">
+    <value>Синтетический</value>
+  </data>
+  <data name="PropertiesTableOwnPlusSystemPayload" xml:space="preserve">
+    <value>Собственная+Системная нагрузка</value>
+  </data>
+  <data name="FlameGraph_SmallItemsNode" xml:space="preserve">
+    <value>Мелкие элементы</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_FullName" xml:space="preserve">
+    <value>События фреймворка</value>
+  </data>
+  <data name="Processing_ConvertEvents" xml:space="preserve">
+    <value>Обработка событий</value>
+  </data>
+  <data name="Filters_AllocationHeap_Tooltip" xml:space="preserve">
+    <value>Распределение выделенной памяти между определенными кучами</value>
+  </data>
+  <data name="Filters_FileIoDirection_Header" xml:space="preserve">
+    <value>Направление ввода-вывода</value>
+  </data>
+  <data name="Filters_OnlySystemCalls_Tooltip" xml:space="preserve">
+    <value>Системные стеки вызовов до первого пользовательского метода.</value>
+  </data>
+  <data name="CallTree_Downtrace_Threads_Tooltip" xml:space="preserve">
+    <value>Количество потоков, находящихся под этим методом в выбранный момент времени</value>
+  </data>
+  <data name="ThreadPresentation_Id_Name" xml:space="preserve">
+    <value>Поток #{0}</value>
+  </data>
+  <data name="KnownEventTypes_GC_FullName" xml:space="preserve">
+    <value>Сборка мусора</value>
+  </data>
+  <data name="Filters_EventsHeader" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="Filters_OnlySystemCalls_Text" xml:space="preserve">
+    <value>Системные вызовы</value>
+  </data>
+  <data name="Filters_ConversionErrorMessage_Name_Plural" xml:space="preserve">
+    <value>Сообщения</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously_Open" xml:space="preserve">
+    <value>открыть</value>
+  </data>
+  <data name="Processing_ThroughPostprocessor" xml:space="preserve">
+    <value>Постобработка дерева вызовов</value>
+  </data>
+  <data name="SnapshotProcessing_ProcessingWithPercent_RowText" xml:space="preserve">
+    <value>Обработка… {0}%</value>
+  </data>
+  <data name="PropertiesParameters" xml:space="preserve">
+    <value>Параметры:</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_EventName_Plural" xml:space="preserve">
+    <value>Выделения .NET</value>
+  </data>
+  <data name="ProviderInUse" xml:space="preserve">
+    <value>Провайдер ETW {0} используется внешней сессией ETW {1} в процессе {2} (PID: {3}).</value>
+  </data>
+  <data name="DeleteSnapshotConfirmationMessage" xml:space="preserve">
+    <value>Удалить этот снимок?</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241" xml:space="preserve">
+    <value>Не удалось открыть снимок: файл был создан в более ранней версии dotTrace. Чтобы открыть снимок,</value>
+  </data>
+  <data name="AutoCleanupByDateCheckBoxText" xml:space="preserve">
+    <value>Автоматически удалять снимки, которые не открывались</value>
+  </data>
+  <data name="Processing_Starting" xml:space="preserve">
+    <value>Начало обработки снимка</value>
+  </data>
+  <data name="KnownEventTypes_AwaitInfo_FullName" xml:space="preserve">
+    <value>[Внутренняя] Информация об ожидании</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_FullName" xml:space="preserve">
+    <value>Нативные выделения памяти</value>
+  </data>
+  <data name="SpecialValue_Sql_RollbackTransaction" xml:space="preserve">
+    <value>[Откатить транзакцию]</value>
+  </data>
+  <data name="ConfigurationEditor_CollectUnreleasedAllocation" xml:space="preserve">
+    <value>Собирать только неосвобожденные выделения</value>
+  </data>
+  <data name="ConfigurationEditor_ConfigureSymbolServers_LinkText" xml:space="preserve">
+    <value>(Настроить серверы символов)</value>
+  </data>
+  <data name="ConfigurationEditor_ControlManually" xml:space="preserve">
+    <value>Управлять профилированием вручную</value>
+  </data>
+  <data name="Filters_ProcessOverview_Name" xml:space="preserve">
+    <value>Обзор процесса</value>
+  </data>
+  <data name="Comparison_SecondSnapshotPrefix" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="CallTree_Backtrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>Часть выделения памяти под корневым методом, исходящая из этого пути вызовов</value>
+  </data>
+  <data name="SnapshotList_NoSnapshotsCollected" xml:space="preserve">
+    <value>Снимки не собраны</value>
+  </data>
+  <data name="Filters_ThreadPriority_Name_Plural" xml:space="preserve">
+    <value>Приоритеты потоков</value>
+  </data>
+  <data name="ThreadPresentation_ProcessUnknown_Tooltip" xml:space="preserve">
+    <value>Неизвестный процесс #{0}</value>
+  </data>
+  <data name="ProcessingMessageLevel_Info_Plural" xml:space="preserve">
+    <value>Информационные сообщения</value>
+  </data>
+  <data name="Filters_Threads_IDColumn" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Filters_Subsystems_Name" xml:space="preserve">
+    <value>Подсистемы</value>
+  </data>
+  <data name="KnownEventTypes_Tasks_FullName" xml:space="preserve">
+    <value>Задачи</value>
+  </data>
+  <data name="Processing_Warning_UnknownProcessName" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="SpecialValue_Sql_UnknownText" xml:space="preserve">
+    <value>[Неизвестный текст]</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_ShortName" xml:space="preserve">
+    <value>Нативные выделения</value>
+  </data>
+  <data name="RiderUnity_UnityVersionIsNotSupported" xml:space="preserve">
+    <value>Не удалось начать профилирование: требуется Unity 2018.3 или новее</value>
+  </data>
+  <data name="KnownEventTypes_EtwEventCallStack_FullName" xml:space="preserve">
+    <value>Стек вызовов</value>
+  </data>
+  <data name="CallTree_History_MergeSystem_Text" xml:space="preserve">
+    <value>… (системный код)</value>
+  </data>
+  <data name="Unit_SI_Peta" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Unit_SI_Mega" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_EventName_Plural" xml:space="preserve">
+    <value>Зависания UI</value>
+  </data>
+  <data name="Filters_BlockingGc_NoHeader" xml:space="preserve">
+    <value>Исключить GC</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный в стектреках, содержащих только системный код</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Events_Tooltip" xml:space="preserve">
+    <value>Количество событий, произошедших в стектреках, содержащих только неразрешенные нативные функции</value>
+  </data>
+  <data name="EventLogTable_FileIo_Read" xml:space="preserve">
+    <value>Чтение</value>
+  </data>
+  <data name="EventLogTable_FileIo_From" xml:space="preserve">
+    <value>из</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_Tooltip" xml:space="preserve">
+    <value>Переключиться на события точек выделения памяти. Посмотрите, сколько памяти выделяют определенные потоки и вызовы.</value>
+  </data>
+  <data name="Filters_ExceptionType_Name" xml:space="preserve">
+    <value>Группировать по типу</value>
+  </data>
+  <data name="WaitingForXRuntime" xml:space="preserve">
+    <value>Запуск сессии профилирования…
+Если ожидание затянулось, убедитесь, что целью профилирования является приложение {0}</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Name_Plural" xml:space="preserve">
+    <value>Методы</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_EventName_Plural" xml:space="preserve">
+    <value>SQL-запросы</value>
+  </data>
+  <data name="KnownEventTypes_Idle_EventName_Plural" xml:space="preserve">
+    <value>Интервалы ожидания</value>
+  </data>
+  <data name="Filters_BlockingGc_Tooltip" xml:space="preserve">
+    <value> Фильтровать интервалы по статусу блокирующей GC:
+ • Не выбрано — не применять фильтр блокирующей GC.
+ • Блокирующая GC — интервалы времени выполнения блокирующей GC. Все потоки, кроме потока, вызвавшего GC, приостановлены.
+ • Исключая блокирующую GC — интервалы времени, когда блокирующая GC не выполняется. Приложение работает.</value>
+  </data>
+  <data name="Filters_ApiEventColor_Name" xml:space="preserve">
+    <value>Цвет события</value>
+  </data>
+  <data name="SnapshotProcessing_ShowSnapshot_ButtonText" xml:space="preserve">
+    <value>Показать снимок</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Empty" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="PropertiesTableTotalPayload" xml:space="preserve">
+    <value>Общая нагрузка</value>
+  </data>
+  <data name="RiderActions_JumpToSource" xml:space="preserve">
+    <value>Перейти к исходному коду</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_LOH" xml:space="preserve">
+    <value>Выделение в куче больших объектов</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_SOH" xml:space="preserve">
+    <value>Выделение в куче малых объектов</value>
+  </data>
+  <data name="KnownEventTypes_EtwSample_FullName" xml:space="preserve">
+    <value>Сэмплы</value>
+  </data>
+  <data name="PropertiesTableInstance" xml:space="preserve">
+    <value>Экземпляр</value>
+  </data>
+  <data name="Overview_Source" xml:space="preserve">
+    <value>Источник</value>
+  </data>
+  <data name="PlainList_UnknownModule" xml:space="preserve">
+    <value>[Неизвестный модуль]</value>
+  </data>
+  <data name="Options_SystemModules_LoadingText" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="Overview_ModulesCount" xml:space="preserve">
+    <value>{0} модулей</value>
+  </data>
+  <data name="KnownEventTypes_Contention_FullName" xml:space="preserve">
+    <value>Блокировка contention</value>
+  </data>
+  <data name="TopMethods_OwnPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>Собственное выделение: объем памяти, выделенный в этом методе, исключая выделения в дочерних вызовах этого метода</value>
+  </data>
+  <data name="Overview_Executable" xml:space="preserve">
+    <value>Исполняемый файл</value>
+  </data>
+  <data name="CallTree_IncludeAwaits_Text" xml:space="preserve">
+    <value>+ Ожидания</value>
+  </data>
+  <data name="Comparison_OpenExtraSnapshotHint" xml:space="preserve">
+    <value>Добавить снимок к сравнению</value>
+  </data>
+  <data name="ConfigurationEditor_TimeMeasurement" xml:space="preserve">
+    <value>Измерение времени</value>
+  </data>
+  <data name="Filters_ProcessingErrorType_Name_Plural" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Header" xml:space="preserve">
+    <value>HTTP-метод</value>
+  </data>
+  <data name="KnownEventTypes_GC_EventName_Plural" xml:space="preserve">
+    <value>События GC</value>
+  </data>
+  <data name="ConfigurationEditor_AllowLoadPdbInBackground" xml:space="preserve">
+    <value>Фоновая загрузка</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Text" xml:space="preserve">
+    <value>Это действие окончательно удалит все снимки из временного хранилища.
+Снимки, сохраненные в других местах, не будут затронуты.
+
+Продолжить?</value>
+  </data>
+  <data name="CallTree_Empty" xml:space="preserve">
+    <value>Нет дерева вызовов для отображения</value>
+  </data>
+  <data name="Filters_SqlCommandText_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток выполнял определенную SQL-команду</value>
+  </data>
+  <data name="DiskManagement_Cleanup_LinkText" xml:space="preserve">
+    <value>Очистка</value>
+  </data>
+  <data name="Processing_NetTrace_Starting" xml:space="preserve">
+    <value>Начало обработки снимка NetTrace</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Name_Plural" xml:space="preserve">
+    <value>Строки подключения</value>
+  </data>
+  <data name="NoThreads" xml:space="preserve">
+    <value>В снимке отсутствуют данные о потоках. Потоки не будут отображаться на временной шкале. Чтобы решить проблему, обратитесь в службу поддержки dotTrace.</value>
+  </data>
+  <data name="Filters_GcType_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения сборки мусора определенного типа</value>
+  </data>
+  <data name="Filters_AwaitInfoTaskName_Name_Plural" xml:space="preserve">
+    <value>Имена задач</value>
+  </data>
+  <data name="NetTraceFileToTemporaryStorage" xml:space="preserve">
+    <value>Для обработки файла NetTrace '{0}' dotTrace преобразует его в совместимый формат и сохранит во временное хранилище снимков.</value>
+  </data>
+  <data name="AutoCleanupBySizeCheckBoxText" xml:space="preserve">
+    <value>Автоматически удалять самые старые снимки, чтобы размер хранилища никогда не превышался</value>
+  </data>
+  <data name="CallTree_History_Transition_Down_Tooltip" xml:space="preserve">
+    <value>Переход сверху вниз: от вызывающего к вызываемому</value>
+  </data>
+  <data name="DeleteLaunchConfigurationError" xml:space="preserve">
+    <value>Не удалось удалить конфигурацию запуска и ее снимки: возможно, некоторые снимки открыты в просмотрщике. Закройте просмотрщик и повторите попытку.</value>
+  </data>
+  <data name="ThreadPresentation_Name_Empty_ShortName" xml:space="preserve">
+    <value>[Пустое имя потока]</value>
+  </data>
+  <data name="PropertiesDialogTitle" xml:space="preserve">
+    <value>Свойства {0}</value>
+  </data>
+  <data name="CallTree_History_MergeAll_Tooltip" xml:space="preserve">
+    <value>Объединены все пути вызовов от предыдущего метода к следующему</value>
+  </data>
+  <data name="Options_StorageLocation_Label" xml:space="preserve">
+    <value>Расположение хранилища:</value>
+  </data>
+  <data name="Filters_FileIoName_Name" xml:space="preserve">
+    <value>Имя файла</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_EventName" xml:space="preserve">
+    <value>Файловая операция</value>
+  </data>
+  <data name="Filters_ConversionErrorMessage_Name" xml:space="preserve">
+    <value>Сообщение</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_FullName" xml:space="preserve">
+    <value>Входящий HTTP-запрос</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Size_Tooltip" xml:space="preserve">
+    <value>Собственное выделение + Системное выделение: объем памяти, выделенный в этом методе или в его системных вызовах. Не включает выделения в вызовах других пользовательских методов.</value>
+  </data>
+  <data name="ThreadPresentation_TypeGC_Name" xml:space="preserve">
+    <value>Поток GC</value>
+  </data>
+  <data name="CallTree_Navigate_Disambiguate" xml:space="preserve">
+    <value>Выберите объявление</value>
+  </data>
+  <data name="Filters_CpuCore_Name" xml:space="preserve">
+    <value>Ядро CPU</value>
+  </data>
+  <data name="Filters_BlockingGc_YesHeader" xml:space="preserve">
+    <value>Блокирующая GC</value>
+  </data>
+  <data name="KnownEventTypes_KernelCallStackSamplesInternal_FullName" xml:space="preserve">
+    <value>[Внутренняя] Сэмплирование ядра</value>
+  </data>
+  <data name="Filters_FileIoDirection_Name_Plural" xml:space="preserve">
+    <value>Направления</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Events_Tooltip" xml:space="preserve">
+    <value>Собственные события + Системные события = Всего событий: количество событий, произошедших в этом методе или в его системных вызовах. В вызовах из этого метода в другие пользовательские методы событий нет.</value>
+  </data>
+  <data name="Filters_Subsystems_Header" xml:space="preserve">
+    <value>Подсистемы</value>
+  </data>
+  <data name="SnapshotProcessing_TabHeader" xml:space="preserve">
+    <value>Обработка {0}</value>
+  </data>
+  <data name="Overview_Stats" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="Overview_Taken" xml:space="preserve">
+    <value>Время получения</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkUri" xml:space="preserve">
+    <value>https://www.jetbrains.com/ru-RU/profiler/download/#section=web-installer</value>
+  </data>
+  <data name="Filters_ProcessingErrorDetails_Name" xml:space="preserve">
+    <value>Детали</value>
+  </data>
+  <data name="Filters_Threads_NameColumn" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="Processing_FinishedIn" xml:space="preserve">
+    <value>Обработка снимка завершена за {0:00}:{1:00}:{2:00}</value>
+  </data>
+  <data name="Overview_FunctionsCount" xml:space="preserve">
+    <value>{0} функций</value>
+  </data>
+  <data name="Filters_Panel_AllCalls_Tooltip" xml:space="preserve">
+    <value>Фильтрация по методам не применена. Чтобы применить фильтр, установите область видимости на метод в дереве вызовов.</value>
+  </data>
+  <data name="ConfigurationEditor_AdvancedHeaderText" xml:space="preserve">
+    <value>Дополнительно</value>
+  </data>
+  <data name="AllThreadsHaveBeenStopped" xml:space="preserve">
+    <value>Все потоки завершили выполнение до того, как профилировщик начал собирать данные.</value>
+  </data>
+  <data name="Properties_NoModuleInfo" xml:space="preserve">
+    <value>Нет информации о модуле</value>
+  </data>
+  <data name="TopMethods_Loading" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_EventName_Plural" xml:space="preserve">
+    <value>Входящие HTTP-запросы</value>
+  </data>
+  <data name="DiskManagement_ProfilingType_Column" xml:space="preserve">
+    <value>Тип профилирования</value>
+  </data>
+  <data name="LostEventsFound" xml:space="preserve">
+    <value>Потеряно {0} событий в сессии ETW {1}. Эти события не будут отображаться на временной шкале.</value>
+  </data>
+  <data name="FindFunction_HistoryHeader_Empty" xml:space="preserve">
+    <value>Нет недавних запросов, доступных на этой вкладке</value>
+  </data>
+  <data name="DiskManagement_EmptySize" xml:space="preserve">
+    <value>0 МБ</value>
+  </data>
+  <data name="Presentation_NoFileName" xml:space="preserve">
+    <value>[Без имени файла]</value>
+  </data>
+  <data name="CallTree_Downtrace_Tooltip_Suffix" xml:space="preserve">
+    <value>. Нажмите, чтобы отфильтровать по этому стеку вызовов</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Time_Tooltip" xml:space="preserve">
+    <value>Собственное время + Системное время: время, затраченное в этом методе и его системных вызовах. Не включает время, затраченное в пользовательских методах, вызванных из этого метода.</value>
+  </data>
+  <data name="CallTree_TaskRecursionFoldedNode_Text" xml:space="preserve">
+    <value>Свернутая рекурсия</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer" xml:space="preserve">
+    <value>Не удалось открыть снимок: файл был создан в более новой версии dotTrace.</value>
+  </data>
+  <data name="Filters_ThreadStates_Tooltip" xml:space="preserve">
+    <value> Фильтровать интервалы по состоянию потока:
+ • Выполнение — интервалы времени, когда поток выполнялся на CPU.
+ • Ожидание — интервалы времени, когда поток ожидал ресурс или уведомление от других потоков.</value>
+  </data>
+  <data name="FindFunction_HistoryHeader" xml:space="preserve">
+    <value>Недавние запросы, доступные на этой вкладке</value>
+  </data>
+  <data name="Filters_AllocationType_Name_Plural" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="Overview_ApplicationHeader" xml:space="preserve">
+    <value>Приложение</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Size_Tooltip" xml:space="preserve">
+    <value>Собственное выделение + Системное выделение = Общее выделение: объем памяти, выделенный в этом методе или в его системных вызовах. В вызовах из этого метода в другие пользовательские методы выделений нет.</value>
+  </data>
+  <data name="Filters_ExcludedCallTreePaths_Name" xml:space="preserve">
+    <value>Исключенные пути</value>
+  </data>
+  <data name="SnapshotOpening_DownloadDotTrace241" xml:space="preserve">
+    <value>
+&lt;a href="https://www.jetbrains.com/profiler/download/other.html"&gt;Скачать dotTrace 2024.1&lt;/a&gt;</value>
+  </data>
+  <data name="KnownProperties_IODirection_Read" xml:space="preserve">
+    <value>Чтение</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingRate" xml:space="preserve">
+    <value>Частота сэмплирования</value>
+  </data>
+  <data name="Filters_DebugOutputString_Name_Plural" xml:space="preserve">
+    <value>Строки</value>
+  </data>
+  <data name="FindFunction_NotReadyMessage" xml:space="preserve">
+    <value>Еще не готово</value>
+  </data>
+  <data name="TopMethods_PayloadType_SizeKb" xml:space="preserve">
+    <value>Выделение</value>
+  </data>
+  <data name="Filters_TaskName_Name_Plural" xml:space="preserve">
+    <value>Имена</value>
+  </data>
+  <data name="SnapshotOpening_DownloadLatestRider" xml:space="preserve">
+    <value>
+&lt;a href="https://www.jetbrains.com/ru-RU/rider/download/"&gt;Скачать последнюю версию JetBrains Rider&lt;/a&gt;</value>
+  </data>
+  <data name="SourceViewNotAvailable" xml:space="preserve">
+    <value>Представление исходного кода будет недоступно для большинства модулей. Чтобы решить проблему, перезапустите профилирование. Если это не поможет, обратитесь в службу поддержки dotTrace.</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Events_Tooltip" xml:space="preserve">
+    <value>Собственные события + Системные события: количество событий, произошедших в этом методе или в его системных вызовах. Не включает события в вызовах других пользовательских методов.</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_BlockingDuringBackground" xml:space="preserve">
+    <value>Блокирующая во время фоновой</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Events_Tooltip" xml:space="preserve">
+    <value>Всего событий: количество событий, произошедших в этом методе или в любом из его дочерних вызовов</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_EventName_Plural" xml:space="preserve">
+    <value>Файловые операции</value>
+  </data>
+  <data name="Filters_AllocationHeap_Name" xml:space="preserve">
+    <value>Куча</value>
+  </data>
+  <data name="DiskManagement_Header" xml:space="preserve">
+    <value>Временное хранилище снимков:</value>
+  </data>
+  <data name="DiskManagement_Size_Column" xml:space="preserve">
+    <value>Размер</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_EventName" xml:space="preserve">
+    <value>Выделение .NET</value>
+  </data>
+  <data name="DiskManagement_ClearTemporarySnapshots_LinkText" xml:space="preserve">
+    <value>Очистить все временные снимки</value>
+  </data>
+  <data name="Options_SystemModules_ModuleName_ErrorPrefix" xml:space="preserve">
+    <value>Имя модуля</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkText" xml:space="preserve">
+    <value>Скачать последнюю версию dotTrace</value>
+  </data>
+  <data name="Filters_GcReason_Name" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <data name="Overview_EnvironmentHeader" xml:space="preserve">
+    <value>Окружение</value>
+  </data>
+  <data name="KnownEventTypes_Contention_ShortName" xml:space="preserve">
+    <value>Contention</value>
+  </data>
+  <data name="Filters_Subsystems_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения кода в определенной подсистеме</value>
+  </data>
+  <data name="SnapshotList_UnknownProfilingType" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="SavingSnapshot" xml:space="preserve">
+    <value>Сохранение снимка</value>
+  </data>
+  <data name="Filters_BooleanProperties_False" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>Собственное выделение = Общее выделение: объем памяти, выделенный в этом методе. В дочерних вызовах этого метода выделений нет.</value>
+  </data>
+  <data name="Overview_User" xml:space="preserve">
+    <value>Пользователь</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Tooltip" xml:space="preserve">
+    <value>Интервалы времени работы SQL-сессии с определенными параметрами подключения</value>
+  </data>
+  <data name="WaitingForWeb" xml:space="preserve">
+    <value>Ожидание приложения…
+Пожалуйста, откройте URL-адрес приложения, которое вы хотите профилировать</value>
+  </data>
+  <data name="CallTree_Backtrace_Events_Tooltip" xml:space="preserve">
+    <value>Количество событий под корневым методом, исходящих из этого пути вызовов</value>
+  </data>
+  <data name="ConfigurationEditor_ConfigurationName_Label" xml:space="preserve">
+    <value>Имя: </value>
+  </data>
+  <data name="SnapshotPresentableName_ReprocessedSuffix" xml:space="preserve">
+    <value> (переобработан)</value>
+  </data>
+  <data name="TimelineSnapshotPostprocessor_CopyingNodes_ProgressName" xml:space="preserve">
+    <value>Копирование узлов</value>
+  </data>
+  <data name="CallTreeGrouped_ButtonText" xml:space="preserve">
+    <value>Группировать по потокам</value>
+  </data>
+  <data name="DiskManagement_Created_Column" xml:space="preserve">
+    <value>Создан</value>
+  </data>
+  <data name="Filters_Comparison_Name" xml:space="preserve">
+    <value>Сравнение</value>
+  </data>
+  <data name="Filters_AllocationHeap_Name_Plural" xml:space="preserve">
+    <value>Кучи</value>
+  </data>
+  <data name="ThreadPresentation_Name_Tooltip" xml:space="preserve">
+    <value>{0} (#{1})</value>
+  </data>
+  <data name="ConfigurationEditor_UnitTestProfilingUnavailable" xml:space="preserve">
+    <value>Эта конфигурация профилирования не применима для модульных тестов</value>
+  </data>
+  <data name="KnownProperties_CpuCore_Unknown" xml:space="preserve">
+    <value>[Неизвестно]</value>
+  </data>
+  <data name="Filters_Enum_MultipleSelected" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Filters_BooleanProperties_True" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="Filters_ExceptionType_Tooltip" xml:space="preserve">
+    <value>Распределение выброшенных исключений по типам</value>
+  </data>
+  <data name="ProcessingMessageLevel_Error" xml:space="preserve">
+    <value>Ошибка</value>
+  </data>
+  <data name="Summary_ThreadPart_Plural" xml:space="preserve">
+    <value>В {0} потоках</value>
+  </data>
+  <data name="Options_AutoDelete_Header" xml:space="preserve">
+    <value>Автоматическое удаление снимков</value>
+  </data>
+  <data name="Filters_AwaitInfoTaskName_Name" xml:space="preserve">
+    <value>Имя задачи</value>
+  </data>
+  <data name="Filters_AnalysisSubhect_Default" xml:space="preserve">
+    <value>Не выбрано</value>
+  </data>
+  <data name="RiderOptions_ShowDiskManagement" xml:space="preserve">
+    <value>(Внутренняя) Показывать вкладку хранилища снимков</value>
+  </data>
+  <data name="Filters_CallTree_Name" xml:space="preserve">
+    <value>Дерево вызовов</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_LinkUri" xml:space="preserve">
+    <value>https://www.jetbrains.com/ru-RU/profiler/download/other.html</value>
+  </data>
+  <data name="SpecialValue_Sql_EmptyConnection" xml:space="preserve">
+    <value>[Пустое соединение]</value>
+  </data>
+  <data name="Filters_ConversionErrorType_Name" xml:space="preserve">
+    <value>Группировать по типу</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen1" xml:space="preserve">
+    <value>Поколение 1</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen0" xml:space="preserve">
+    <value>Поколение 0</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen2" xml:space="preserve">
+    <value>Поколение 2</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный в стектреках, содержащих только неразрешенные нативные функции</value>
+  </data>
+  <data name="CallTree_IncludeAwaits_Tooltip" xml:space="preserve">
+    <value>Включать время ожидания в асинхронных методах</value>
+  </data>
+  <data name="Comparison_ChangeSnapshotsOrderHint" xml:space="preserve">
+    <value>Изменить режим сравнения на {0}</value>
+  </data>
+  <data name="Hotspots_Total" xml:space="preserve">
+    <value>Всего</value>
+  </data>
+  <data name="CallTree_Downtrace_Events_Tooltip" xml:space="preserve">
+    <value>Количество событий, произошедших под этим методом</value>
+  </data>
+  <data name="FindFunction_Node_InPreposition" xml:space="preserve">
+    <value>В:</value>
+  </data>
+  <data name="Properties_ThisInstancePayloads_Header" xml:space="preserve">
+    <value>Нагрузка этого экземпляра:</value>
+  </data>
+  <data name="Properties_ModulePath" xml:space="preserve">
+    <value>Путь к модулю: {0}</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_EventName" xml:space="preserve">
+    <value>Интервал ожидания CPU</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingUnstableOnEarlyNetCore" xml:space="preserve">
+    <value>Внимание: из-за ограничений .NET Core, сэмплирующее профилирование нестабильно на .NET Core 3.0 или более ранних версиях. Профилируемое приложение может зависнуть или аварийно завершиться во время профилирования.</value>
+  </data>
+  <data name="FindFunction_Caption" xml:space="preserve">
+    <value>Введите имя класса или функции:</value>
+  </data>
+  <data name="PropertiesTableNumberOfCalls" xml:space="preserve">
+    <value>Количество вызовов</value>
+  </data>
+  <data name="Overview_Options" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Filters_ThreadStates_Running" xml:space="preserve">
+    <value>Выполнение…</value>
+  </data>
+  <data name="Options_SystemModules_ModuleNameLabel" xml:space="preserve">
+    <value>Имя: </value>
+  </data>
+  <data name="Filters_ExceptionType_Header" xml:space="preserve">
+    <value>Тип исключения</value>
+  </data>
+  <data name="Hotspots_Own" xml:space="preserve">
+    <value>Собственное</value>
+  </data>
+  <data name="SnapshotProcessing_UnreliableDataInSnapshot" xml:space="preserve">
+    <value>Данные в снимке могут быть ненадежными из-за проблем со сбором данных</value>
+  </data>
+  <data name="PropertiesTableOwnPayload" xml:space="preserve">
+    <value>Собственная нагрузка</value>
+  </data>
+  <data name="TopMethods_PayloadType_Events" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_FullName" xml:space="preserve">
+    <value>Выделение памяти .NET</value>
+  </data>
+  <data name="Options_StorageLocation_PathIsNotWriteable" xml:space="preserve">
+    <value>У вас нет разрешения на запись в {0}. Обратитесь к системному администратору.</value>
+  </data>
+  <data name="DaysSingularPluralForm" xml:space="preserve">
+    <value>дней</value>
+  </data>
+  <data name="Processing_NetTraceToTimeline" xml:space="preserve">
+    <value>Преобразование Nettrace в снимок временной шкалы dotTrace</value>
+  </data>
+  <data name="Filters_GcReason_Name_Plural" xml:space="preserve">
+    <value>Причины</value>
+  </data>
+  <data name="CallTree_LoadingNodeText" xml:space="preserve">
+    <value>Загрузка…</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_LowMemory" xml:space="preserve">
+    <value>Недостаточно памяти</value>
+  </data>
+  <data name="TopMethods_Empty" xml:space="preserve">
+    <value>Нет методов для отображения</value>
+  </data>
+  <data name="KnownEventTypes_Idle_EventName" xml:space="preserve">
+    <value>Интервал ожидания</value>
+  </data>
+  <data name="Filters_SqlCommandText_Name" xml:space="preserve">
+    <value>Команда</value>
+  </data>
+  <data name="UseCrossPlatformViewerComment" xml:space="preserve">
+    <value>Отключите это, если у вас возникли проблемы с использованием нового просмотрщика</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Name_Plural" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingAllocationsInLabel" xml:space="preserve">
+    <value>КБ</value>
+  </data>
+  <data name="CallTree_IncludeContinuations_Tooltip" xml:space="preserve">
+    <value>Включать время, затраченное на продолжение асинхронных методов</value>
+  </data>
+  <data name="CallTreeSystemFold" xml:space="preserve">
+    <value>Свернуть цепочки системных вызовов — объединить все методы, не являющиеся пользовательскими, в один узел</value>
+  </data>
+  <data name="Processing_ThroughPreprocessor" xml:space="preserve">
+    <value>Предварительная обработка дерева вызовов</value>
+  </data>
+  <data name="ReadonlySnapshotToTemporaryStorage" xml:space="preserve">
+    <value>Снимок '{0}' доступен только для чтения. Для его обработки dotTrace сохранит его копию во временное хранилище снимков.</value>
+  </data>
+  <data name="PropertiesFullName" xml:space="preserve">
+    <value>Полное имя:</value>
+  </data>
+  <data name="Overview_Frequency" xml:space="preserve">
+    <value>{0:0.000} {1}Гц</value>
+  </data>
+  <data name="CallTree_Downtrace_Size_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный под этим методом</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Name" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Filters_DebugOutputString_Tooltip" xml:space="preserve">
+    <value>Распределение сообщений, отправленных в отладочный вывод, по содержимому сообщения</value>
+  </data>
+  <data name="AsyncAwaitSupportWillBeDisabled" xml:space="preserve">
+    <value>Поддержка async/await будет отключена для этого снимка</value>
+  </data>
+  <data name="Filters_IntervalFiltersShort_Name_Plural" xml:space="preserve">
+    <value>Интервалы</value>
+  </data>
+  <data name="Comparison_CloseExtraSnapshotHint" xml:space="preserve">
+    <value>Удалить второй снимок из сравнения</value>
+  </data>
+  <data name="Comparison_CloseExtraSnapshotText" xml:space="preserve">
+    <value>Очистить</value>
+  </data>
+  <data name="KnownEventTypes_Running_FullName" xml:space="preserve">
+    <value>Выполнение</value>
+  </data>
+  <data name="Filters_IntervalFilters_Name" xml:space="preserve">
+    <value>Фильтры интервалов</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Threads_Tooltip" xml:space="preserve">
+    <value>Собственные потоки + Системные потоки: количество потоков, находящихся непосредственно в этом методе или в его системных вызовах (но не в вызовах других пользовательских методов) в выбранный момент времени</value>
+  </data>
+  <data name="Properties_OwnPayload" xml:space="preserve">
+    <value>Собственная нагрузка: {0}</value>
+  </data>
+  <data name="ProcessingMessageLevel_Error_Plural" xml:space="preserve">
+    <value>Ошибки</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Threads_Tooltip" xml:space="preserve">
+    <value>Собственные потоки: количество потоков, находящихся непосредственно в этом методе (а не в дочерних вызовах) в выбранный момент времени</value>
+  </data>
+  <data name="Filters_ThreadStates_Name" xml:space="preserve">
+    <value>Состояние потока</value>
+  </data>
+  <data name="FailedToOpenSnapshot_BrokenSnapshot" xml:space="preserve">
+    <value>Не удалось открыть снимок: файл поврежден.</value>
+  </data>
+  <data name="Processing_Issues_Header" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Filters_SqlCommandText_Header" xml:space="preserve">
+    <value>SQL-команда</value>
+  </data>
+  <data name="CallTree_IncludeContinuations_Text" xml:space="preserve">
+    <value>+ Продолжения</value>
+  </data>
+  <data name="Filters_GcDepth_Header" xml:space="preserve">
+    <value>Глубина GC</value>
+  </data>
+  <data name="StartingTheProfilingSession" xml:space="preserve">
+    <value>Запуск сессии профилирования…</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Tooltip" xml:space="preserve">
+    <value>Интервалы времени обработки HTTP-запросов к определенному URL</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Name" xml:space="preserve">
+    <value>Метод</value>
+  </data>
+  <data name="SnapshotProcessing_Processing_RowText" xml:space="preserve">
+    <value>Обработка…</value>
+  </data>
+  <data name="TopMethods_Merged_ShowUser_Name" xml:space="preserve">
+    <value>Стектрейсы без пользовательских методов</value>
+  </data>
+  <data name="DiskManagement_Configure_LinkText" xml:space="preserve">
+    <value>Настроить автоматическую очистку</value>
+  </data>
+  <data name="Hotspots_DefaultPayloadString" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="SpecialValue_Sql_BeginTransaction" xml:space="preserve">
+    <value>[Начать транзакцию]</value>
+  </data>
+  <data name="Overview_SnapshotHeader" xml:space="preserve">
+    <value>Снимок</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_SOH" xml:space="preserve">
+    <value>Куча малых объектов</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_POH" xml:space="preserve">
+    <value>Куча закрепленных объектов</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_LOH" xml:space="preserve">
+    <value>Куча больших объектов</value>
+  </data>
+  <data name="KnownEventTypes_ConversionErrors_FullName" xml:space="preserve">
+    <value>[Внутренние] Ошибки обработки</value>
+  </data>
+  <data name="Filters_AwaitInfoDuration_Name" xml:space="preserve">
+    <value>Длительность ожидания</value>
+  </data>
+  <data name="KnownEventTypes_Exception_FullName" xml:space="preserve">
+    <value>Исключения</value>
+  </data>
+  <data name="ThreadPresentation_Type_Tooltip" xml:space="preserve">
+    <value>Поток {0} (#{1})</value>
+  </data>
+  <data name="SaveSnapshot_DialogTitle" xml:space="preserve">
+    <value>Сохранить снимок</value>
+  </data>
+  <data name="Properties_CallCount" xml:space="preserve">
+    <value>Количество вызовов: {0}</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_EventName_Plural" xml:space="preserve">
+    <value>Интервалы ожидания CPU</value>
+  </data>
+  <data name="Filters_FileIoName_Name_Plural" xml:space="preserve">
+    <value>Имена файлов</value>
+  </data>
+  <data name="Overview_Location" xml:space="preserve">
+    <value>Расположение</value>
+  </data>
+  <data name="RiderOptions_ShowNativeThreads" xml:space="preserve">
+    <value>Показывать нативные потоки в фильтрах потоков</value>
+  </data>
+  <data name="NamespaceTree_Building_ProgressName" xml:space="preserve">
+    <value>Построение поискового индекса</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Time_Tooltip" xml:space="preserve">
+    <value>Общее время: время, затраченное в этом методе, включая время, затраченное в любом из его дочерних вызовов</value>
+  </data>
+  <data name="Filters_BackgroundGc_Name" xml:space="preserve">
+    <value>Фоновая GC</value>
+  </data>
+  <data name="Filters_FileIoName_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток работал с определенным файлом</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>Собственное выделение + Системное выделение = Общее выделение: объем памяти, выделенный в этом методе или в его системных вызовах. В вызовах из этого метода в другие пользовательские методы выделений нет.</value>
+  </data>
+  <data name="Overview_SnapshotDuration" xml:space="preserve">
+    <value>Длительность снимка</value>
+  </data>
+  <data name="DeleteSnapshotError" xml:space="preserve">
+    <value>Не удалось удалить снимок: возможно, он открыт в просмотрщике. Закройте просмотрщик и повторите попытку.</value>
+  </data>
+  <data name="Filters_On_Value" xml:space="preserve">
+    <value>Вкл.</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_FullName" xml:space="preserve">
+    <value>JIT-компиляция</value>
+  </data>
+  <data name="PropertiesTableAveragePayload" xml:space="preserve">
+    <value>Средняя нагрузка</value>
+  </data>
+  <data name="TopMethods_TotalPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>Общее выделение: объем памяти, выделенный в этом методе или в любом из его дочерних вызовов</value>
+  </data>
+  <data name="NetOrNetCore" xml:space="preserve">
+    <value>.NET/.NET Core</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_ShortName" xml:space="preserve">
+    <value>HTTP</value>
+  </data>
+  <data name="PropertiesCopyToClipboard" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Time_Tooltip" xml:space="preserve">
+    <value>Время, затраченное в стектреках, содержащих только неразрешенные нативные функции</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_ShortName" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="ConfigurationEditor_StartMode" xml:space="preserve">
+    <value>Режим запуска</value>
+  </data>
+  <data name="Processing_NetTrace_ProgressName" xml:space="preserve">
+    <value>Обработка событий из файла NetTrace</value>
+  </data>
+  <data name="ThreadPresentation_ProcessNoName_Name" xml:space="preserve">
+    <value>Процесс #{0}</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_EventName" xml:space="preserve">
+    <value>SQL-запрос</value>
+  </data>
+  <data name="TopMethods_PayloadType_Threads" xml:space="preserve">
+    <value>Потоки</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingAllocationsIn" xml:space="preserve">
+    <value>Частота сэмплирования выделений</value>
+  </data>
+  <data name="Backtraces_Header" xml:space="preserve">
+    <value>Обратные трассировки</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedFormat" xml:space="preserve">
+    <value>Не удалось открыть снимок: неожиданный формат файла.</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_FullName" xml:space="preserve">
+    <value>Файловые операции</value>
+  </data>
+  <data name="RiderOptions_OtherCategory" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="DiskManagement_LastOpened_Column" xml:space="preserve">
+    <value>Последнее открытие</value>
+  </data>
+  <data name="Filters_TopMethods_Name" xml:space="preserve">
+    <value>Точки нагрузки</value>
+  </data>
+  <data name="KnownEventTypes_Idle_FullName" xml:space="preserve">
+    <value>Ожидание</value>
+  </data>
+  <data name="ProfilingTestsMessage" xml:space="preserve">
+    <value>Профилирование модульных тестов. Профилировщик автоматически соберет снимки</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Threads_Tooltip" xml:space="preserve">
+    <value>Всего потоков: количество потоков, находящихся внутри этого метода (имеющих этот метод в стеке вызовов) в выбранный момент времени</value>
+  </data>
+  <data name="KnownEventTypes_Exception_EventName" xml:space="preserve">
+    <value>Исключение</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Time_Tooltip" xml:space="preserve">
+    <value>Собственное время: время, затраченное в этом методе, исключая время, затраченное в дочерних вызовах этого метода</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Threads_Tooltip" xml:space="preserve">
+    <value>Количество потоков, чьи стеки вызовов в выбранный момент времени содержат только системный код</value>
+  </data>
+  <data name="Overview_NETRuntime" xml:space="preserve">
+    <value>Среда выполнения .NET</value>
+  </data>
+  <data name="Filters_DebugOutputString_Name" xml:space="preserve">
+    <value>Строка</value>
+  </data>
+  <data name="UseCrossPlatformViewer" xml:space="preserve">
+    <value>Использовать новый кроссплатформенный dotTrace Viewer по умолчанию</value>
+  </data>
+  <data name="PropertiesClose" xml:space="preserve">
+    <value>Закрыть</value>
+  </data>
+  <data name="Filters_All_Value" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="KnownEventTypes_UiFreeze_FullName" xml:space="preserve">
+    <value>Зависание UI</value>
+  </data>
+  <data name="PossibleCauseAlreadyInUse" xml:space="preserve">
+    <value>Возможная причина: этот провайдер событий используется другим процессом (см. список выше). Чтобы решить проблему, остановите конфликтующий процесс или сессию ETW (в «Мой компьютер | Управление | Системные инструменты | Производительность | Наборы сборщиков данных | Сессии трассировки событий») и перезапустите профилирование.</value>
+  </data>
+  <data name="Filters_BlockingGc_Name" xml:space="preserve">
+    <value>Блокирующая GC</value>
+  </data>
+  <data name="Filters_ApiEventColor_Name_Plural" xml:space="preserve">
+    <value>Цвета событий</value>
+  </data>
+  <data name="Managed" xml:space="preserve">
+    <value>Управляемый</value>
+  </data>
+  <data name="SaveSnapshot_Question" xml:space="preserve">
+    <value>Сохранить снимок?</value>
+  </data>
+  <data name="Filters_ConversionErrorType_Name_Plural" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="CallTreeRecursiveUnfold" xml:space="preserve">
+    <value>Развернуть рекурсивно свернутые узлы — отображать все рекурсивные вызовы, как в стеке вызовов</value>
+  </data>
+  <data name="KnownEventTypes_ApiEvent_FullName" xml:space="preserve">
+    <value>Пользовательские события</value>
+  </data>
+  <data name="SpecialValue_Unknown" xml:space="preserve">
+    <value>[Неизвестно]</value>
+  </data>
+  <data name="CallTree_Downtrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный под этим методом</value>
+  </data>
+  <data name="Overview_OS" xml:space="preserve">
+    <value>ОС</value>
+  </data>
+  <data name="Overview_NA" xml:space="preserve">
+    <value>Н/Д</value>
+  </data>
+  <data name="KnownEventTypes_GC_EventName" xml:space="preserve">
+    <value>Сборка мусора</value>
+  </data>
+  <data name="Overview_ThreadsCount" xml:space="preserve">
+    <value>{0} потоков</value>
+  </data>
+  <data name="KnownEventTypes_RuntimeRunning_FullName" xml:space="preserve">
+    <value>Стандартный</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Title" xml:space="preserve">
+    <value>Очистка временного хранилища снимков</value>
+  </data>
+  <data name="Overview_CommandLine" xml:space="preserve">
+    <value>Командная строка</value>
+  </data>
+  <data name="Filters_Popup_TooManyItems" xml:space="preserve">
+    <value>Слишком много элементов, список обрезан</value>
+  </data>
+  <data name="MethodViewData_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="DiskManagement_Snapshot_Column" xml:space="preserve">
+    <value>Снимок</value>
+  </data>
+  <data name="Filters_DebugOutputString_Header" xml:space="preserve">
+    <value>Отладочная строка</value>
+  </data>
+  <data name="Comparison_SnapshotPrefix" xml:space="preserve">
+    <value>{0}: </value>
+  </data>
+  <data name="Filters_IntervalFiltersShort_Name" xml:space="preserve">
+    <value>Интервал</value>
+  </data>
+  <data name="CallTree_NavigateToCode_ActionText" xml:space="preserve">
+    <value>Перейти к коду</value>
+  </data>
+  <data name="TopMethods_Merged_ShowSystem_Name" xml:space="preserve">
+    <value>Нативные стектрейсы без разрешенных функций</value>
+  </data>
+  <data name="Unit_SI_T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Unit_SI_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Unit_SI_G" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="Unit_SI_y" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Unit_SI_z" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="Unit_SI_p" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="Unit_SI_u" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="Unit_SI_k" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="Unit_SI_m" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="Unit_SI_n" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="Unit_SI_a" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Unit_SI_f" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Events_Tooltip" xml:space="preserve">
+    <value>Собственные события = Всего событий: количество событий, произошедших в этом методе. В дочерних вызовах этого метода событий нет.</value>
+  </data>
+  <data name="SpecialValue_Sql_CloseConnection" xml:space="preserve">
+    <value>[Закрыть соединение]</value>
+  </data>
+  <data name="DiskManagement_ManageStorage_LinkText" xml:space="preserve">
+    <value>Управление настройками хранилища</value>
+  </data>
+  <data name="Filters_Reset_ButtonTooltip" xml:space="preserve">
+    <value>Очистить все фильтры</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Unknown" xml:space="preserve">
+    <value>Неизвестно</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Yes" xml:space="preserve">
+    <value>Да</value>
+  </data>
+  <data name="PlainList_UnknownNamespace" xml:space="preserve">
+    <value>[Неизвестное пространство имен]</value>
+  </data>
+  <data name="Filters_WaitingReason_Name" xml:space="preserve">
+    <value>Причина</value>
+  </data>
+  <data name="DeleteSnapshotsConfirmationMessage" xml:space="preserve">
+    <value>Удалить снимки?</value>
+  </data>
+  <data name="Filters_GcReason_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения сборки мусора, вызванной определенной причиной</value>
+  </data>
+  <data name="ThreadPresentation_Process_Tooltip" xml:space="preserve">
+    <value>{0} (процесс #{1})</value>
+  </data>
+  <data name="Options_General_Header" xml:space="preserve">
+    <value>Общие</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Name" xml:space="preserve">
+    <value>Строка подключения</value>
+  </data>
+  <data name="KnownProperties_CpuCore" xml:space="preserve">
+    <value>Ядро CPU {0}</value>
+  </data>
+  <data name="Filters_Panel_AllCalls_Text" xml:space="preserve">
+    <value>Все вызовы</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Time_Tooltip" xml:space="preserve">
+    <value>Собственное время + Системное время = Общее время: время, затраченное в этом методе или в его системных вызовах. Никакое время не было затрачено в вызовах из этого метода в другие пользовательские методы.</value>
+  </data>
+  <data name="KnownEventTypes_Contention_Tooltip" xml:space="preserve">
+    <value>Интервалы времени, когда поток ожидал эксклюзивного доступа к объекту. Это включает только объекты, заблокированные с помощью Monitor.Enter или lock.</value>
+  </data>
+  <data name="Filters_Reset_ButtonText" xml:space="preserve">
+    <value>Сбросить</value>
+  </data>
+  <data name="CallTree_Header" xml:space="preserve">
+    <value>Дерево вызовов</value>
+  </data>
+  <data name="ThreadPresentation_IdType_ShortName" xml:space="preserve">
+    <value>Поток {0}</value>
+  </data>
+  <data name="KnownEventTypes_CallStackInversion_FullName" xml:space="preserve">
+    <value>Инверсия стека вызовов</value>
+  </data>
+  <data name="FollowSelectionButtonTooltip" xml:space="preserve">
+    <value>Следовать за выделением в дереве вызовов. При включении точки нагрузки вычисляются в области видимости текущего выбранного узла в дереве вызовов.</value>
+  </data>
+  <data name="Ide_OpenInStandalone_TextAction" xml:space="preserve">
+    <value>Сохранить как…</value>
+  </data>
+  <data name="ThreadPresentation_NoInfo_Name" xml:space="preserve">
+    <value>Нет активирующего потока</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_Tooltip" xml:space="preserve">
+    <value>Интервалы времени общения клиента с SQL-сервером: время между отправкой запроса клиентом и получением ответа</value>
+  </data>
+  <data name="ExportSnapshotErrorTitle" xml:space="preserve">
+    <value>Не удалось экспортировать снимок</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Events_Tooltip" xml:space="preserve">
+    <value>Количество событий, произошедших в стектреках, содержащих только системный код</value>
+  </data>
+  <data name="ConfigurationEditor_SampleRateDisplayFormatString" xml:space="preserve">
+    <value>{0} сэмплов/сек</value>
+  </data>
+  <data name="GroupByThread_Header" xml:space="preserve">
+    <value>Группировать по потокам</value>
+  </data>
+  <data name="KnownEventTypes_BlockingGC_FullName" xml:space="preserve">
+    <value>Блокирующая GC</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Threads_Tooltip" xml:space="preserve">
+    <value>Собственные потоки + Системные потоки = Всего потоков: количество потоков, находящихся в этом методе или в его системных вызовах в выбранный момент времени. В этот момент в вызовах из этого метода в другие пользовательские методы потоков нет.</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Size_Tooltip" xml:space="preserve">
+    <value>Собственное выделение = Общее выделение: объем памяти, выделенный в этом методе. В дочерних вызовах этого метода выделений нет.</value>
+  </data>
+  <data name="TopMethods_PayloadType_Time" xml:space="preserve">
+    <value>Время</value>
+  </data>
+  <data name="TopMethods_PayloadType_Size" xml:space="preserve">
+    <value>Выделение</value>
+  </data>
+  <data name="Properties_TotalPayload" xml:space="preserve">
+    <value>Общая нагрузка: {0}</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Size_Tooltip" xml:space="preserve">
+    <value>Объем памяти, выделенный в стектреках, содержащих только системный код</value>
+  </data>
+  <data name="Overview_ProcessArchitecture" xml:space="preserve">
+    <value>Архитектура процесса</value>
+  </data>
+  <data name="Filters_ApiEventDescription_Name" xml:space="preserve">
+    <value>Описание события</value>
+  </data>
+  <data name="Filters_SqlCommandText_Name_Plural" xml:space="preserve">
+    <value>Команды</value>
+  </data>
+  <data name="Summary_IntervalPart_Plural" xml:space="preserve">
+    <value>В {0} интервалах</value>
+  </data>
+  <data name="Processing_ConvertEvents_PrepareForDispose_ProgressName" xml:space="preserve">
+    <value>Обработка буферизованных событий</value>
+  </data>
+  <data name="Properties_ThisScopePayloads_Header" xml:space="preserve">
+    <value>Нагрузка этой области видимости:</value>
+  </data>
+  <data name="ProcessingMessageLevel_Info" xml:space="preserve">
+    <value>Информационное сообщение</value>
+  </data>
+  <data name="CallFrameInfo_NoData" xml:space="preserve">
+    <value>Нет данных</value>
+  </data>
+  <data name="KnownEventTypes_DebugOutput_FullName" xml:space="preserve">
+    <value>Отладочный вывод</value>
+  </data>
+  <data name="Options_SystemModules_CategoryLabel" xml:space="preserve">
+    <value>Категория: </value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_EventName" xml:space="preserve">
+    <value>Зависание UI</value>
+  </data>
+  <data name="Summary_IntervalPart" xml:space="preserve">
+    <value>В 1 интервале</value>
+  </data>
+  <data name="HideSystemFunctionsButtonTooltip" xml:space="preserve">
+    <value>Скрывать системные функции. Собственное время скрытых системных функций будет добавлено к собственному времени ближайшего пользовательского метода в стеке вызовов.</value>
+  </data>
+  <data name="CallTreeSystemUnfold" xml:space="preserve">
+    <value>Развернуть цепочки системных вызовов — отображать все методы, не являющиеся пользовательскими, как в стеке вызовов</value>
+  </data>
+  <data name="Filters_AnalysisSubject_Name" xml:space="preserve">
+    <value>События</value>
+  </data>
+  <data name="EventSessionInterrupted" xml:space="preserve">
+    <value>Сессия ETW {0} была прервана процессом {1} (PID: {2}). События из этой сессии не будут отображаться на временной шкале. Чтобы решить проблему, остановите конфликтующий процесс и перезапустите профилирование</value>
+  </data>
+  <data name="Filters_ProcessingErrorType_Name" xml:space="preserve">
+    <value>Тип</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_InducedNotForced" xml:space="preserve">
+    <value>Индуцированная, но не принудительная как блокирующая</value>
+  </data>
+  <data name="Filters_GcType_Name_Plural" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="TimelineSnapshotPostprocessor_CopyingParents_ProgressName" xml:space="preserve">
+    <value>Копирование родителей</value>
+  </data>
+  <data name="AutoSaveCheckBoxText" xml:space="preserve">
+    <value>Автоматически сохранять все собранные снимки в хранилище</value>
+  </data>
+  <data name="ProcessingMessageLevel_Warning" xml:space="preserve">
+    <value>Предупреждение</value>
+  </data>
+  <data name="HideSystemFunctionsButtonTooltipWhenDisabled" xml:space="preserve">
+    <value>Все остальные методы под текущим узлом дерева вызовов являются системными, поэтому эта опция отключена, и системные методы отображаются в списке</value>
+  </data>
+  <data name="KnownEventTypes_GC_Tooltip" xml:space="preserve">
+    <value>Интервалы времени выполнения сборки мусора</value>
+  </data>
+  <data name="Filters_AllocationType_Name" xml:space="preserve">
+    <value>Группировать по типу</value>
+  </data>
+  <data name="SaveSnapshot_ProgressName" xml:space="preserve">
+    <value>Сохранение снимка ({0})…</value>
+  </data>
+  <data name="Subsystems_Hidden" xml:space="preserve">
+    <value>Скрыто</value>
+  </data>
+  <data name="CallTree_Backtrace_Size_Tooltip" xml:space="preserve">
+    <value>Часть выделения памяти под корневым методом, исходящая из этого пути вызовов</value>
+  </data>
+  <data name="Options_TemporaryStorage_Header" xml:space="preserve">
+    <value>Временное хранилище снимков</value>
+  </data>
+  <data name="Overview_Source_UnitTests" xml:space="preserve">
+    <value>Снимок создан runner'ом модульных тестов</value>
+  </data>
+  <data name="CallTree_Downtrace_Time_Tooltip" xml:space="preserve">
+    <value>Время, затраченное под этим методом</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously" xml:space="preserve">
+    <value>Вы собираетесь одновременно {0} {1} снимков. Это может занять много времени. Продолжить?</value>
+  </data>
+  <data name="SpecialValue_Tasks_UnknownTask" xml:space="preserve">
+    <value>[Неизвестная задача]</value>
+  </data>
+  <data name="ExceptionsDuringProcessing" xml:space="preserve">
+    <value>Во время обработки снимка возникли исключения. Пожалуйста, отправьте исключения в службу поддержки dotTrace.</value>
+  </data>
+  <data name="UnknownCallFrameTooltip" xml:space="preserve">
+    <value>Этот стек вызовов, скорее всего, принадлежит текущему поддереву вызовов, но dotTrace не смог получить его полные данные</value>
+  </data>
+  <data name="Filters_ThreadStates_Waiting" xml:space="preserve">
+    <value>Ожидание</value>
+  </data>
+  <data name="KnownEventTypes_Contention_EventName_Plural" xml:space="preserve">
+    <value>Блокировки contention</value>
+  </data>
+  <data name="Properties_OwnPlusSystemPayload" xml:space="preserve">
+    <value>Собственная+Системная нагрузка: {0}</value>
+  </data>
+  <data name="Unity20183_OrLater" xml:space="preserve">
+    <value>Unity 2018.3 (или новее)</value>
+  </data>
+  <data name="ConfigurationEditor_StartProfileUnavailable" xml:space="preserve">
+    <value>Эта конфигурация профилирования не применима для выбранной конфигурации запуска</value>
+  </data>
+  <data name="Filters_ExceptionType_Name_Plural" xml:space="preserve">
+    <value>Типы</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Tooltip" xml:space="preserve">
+    <value>Распределение выброшенных исключений по сообщениям исключений</value>
+  </data>
+  <data name="Overview_ProcessId" xml:space="preserve">
+    <value>ID процесса</value>
+  </data>
+  <data name="Hotspots_Header_UnderMethod" xml:space="preserve">
+    <value>Точки нагрузки под '{0}'</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Time_Tooltip" xml:space="preserve">
+    <value>Время, затраченное в стектреках, содержащих только системный код</value>
+  </data>
+  <data name="ConfigurationEditor_ControlViaApi" xml:space="preserve">
+    <value>Управлять профилированием через API</value>
+  </data>
+  <data name="Filters_NativeAllocationIsClosed_Name" xml:space="preserve">
+    <value>IsClosed</value>
+  </data>
+  <data name="Properties_SnapshotHeader" xml:space="preserve">
+    <value>Заголовок снимка: {0}</value>
+  </data>
+  <data name="Processing_Warning_UnknownProcessId" xml:space="preserve">
+    <value>Неизвестный ProcessId</value>
+  </data>
+  <data name="Hotspots_OwnPlusSystem" xml:space="preserve">
+    <value>Собственное+Системное</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_EventName" xml:space="preserve">
+    <value>Событие фреймворка</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_EventName_Plural" xml:space="preserve">
+    <value>События JIT</value>
+  </data>
+  <data name="EventLogTable_CallInfo_Unknown" xml:space="preserve">
+    <value>[Неизвестно]</value>
+  </data>
+</root>
