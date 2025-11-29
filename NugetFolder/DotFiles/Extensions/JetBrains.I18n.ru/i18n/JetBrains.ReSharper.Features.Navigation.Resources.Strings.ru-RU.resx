@@ -1,0 +1,1035 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ShowUsagesActionText" xml:space="preserve">
+  <value>Показать использования</value>
+</data>
+<data name="NoExposingAPIsFound_Text" xml:space="preserve">
+  <value>Открытые API не найдены</value>
+</data>
+<data name="OpenPreviewTabForSelectedItem_Text" xml:space="preserve">
+  <value>Открыть выбранный элемент в предпросмотре</value>
+</data>
+<data name="InDocumentation_Text" xml:space="preserve">
+  <value>, в документации</value>
+</data>
+<data name="ExposingAPIsActionText" xml:space="preserve">
+  <value>Открытые API</value>
+</data>
+<data name="BindingDataContext_Caption" xml:space="preserve">
+  <value>Привязка DataContext</value>
+</data>
+<data name="FindNullableWarningSuppressions_Text" xml:space="preserve">
+  <value>Найти подавления предупреждений nullable</value>
+</data>
+<data name="NullableWarningSuppressionExpressions_Text" xml:space="preserve">
+  <value>Выражения подавления nullable предупреждений</value>
+</data>
+<data name="GotoNextDeclarationOf_1__Text" xml:space="preserve">
+  <value>Перейти к следующему объявлению '{{0}}' (1/{0})</value>
+</data>
+<data name="_TextualOccurrences_Text" xml:space="preserve">
+  <value>Текстовые совпадения</value>
+</data>
+<data name="GoToUsageIfThereIsOnly_oneResultNavigate_Text" xml:space="preserve">
+  <value>Перейти к использованию: если один результат, перейти без показа списка</value>
+</data>
+<data name="ShowVBHandlesClausesActionText" xml:space="preserve">
+  <value>Показать предложения обработки VB</value>
+</data>
+<data name="RemoveBreakpointActionText" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="NoTermsFoundInSolution_Text" xml:space="preserve">
+  <value>Совпадений в решении не найдено</value>
+</data>
+<data name="E_xpandSearchResultsTreeByDefault_Text" xml:space="preserve">
+  <value>Разворачивать дерево результатов поиска по умолчанию</value>
+</data>
+<data name="ThereAreNoRelatedFiles_Text" xml:space="preserve">
+  <value>Нет связанных файлов</value>
+</data>
+<data name="CodeDependentOn_Ellipsis___Text" xml:space="preserve">
+  <value>Код зависит от '{0}', '{1}'…</value>
+</data>
+<data name="_DynamicReferences_Text" xml:space="preserve">
+  <value>Динамические ссылки</value>
+</data>
+<data name="FuzzyResultsInGoToText_Text" xml:space="preserve">
+  <value>Нечеткие результаты в "Перейти к тексту"</value>
+</data>
+<data name="ShowWriteUsagesActionText" xml:space="preserve">
+  <value>Показать использования записи</value>
+</data>
+<data name="FilterUsagesActionGroupText" xml:space="preserve">
+  <value>Фильтровать использования</value>
+</data>
+<data name="SearchNavigationOptionPageTitle" xml:space="preserve">
+  <value>Поиск и навигация</value>
+</data>
+<data name="BaseSymbols_Caption" xml:space="preserve">
+  <value>&amp;Базовые символы</value>
+</data>
+<data name="CodeOf_DependentOn__AndOthers_Text" xml:space="preserve">
+  <value>Код {0} зависит от '{1}', '{2}' и других</value>
+</data>
+<data name="UnknownExpression_Text" xml:space="preserve">
+  <value>Неизвестное выражение</value>
+</data>
+<data name="ImplementingMembersActionText" xml:space="preserve">
+  <value>Реализующие члены</value>
+</data>
+<data name="LookForAdditionalDeclarations_Text" xml:space="preserve">
+  <value>Искать дополнительные объявления</value>
+</data>
+<data name="EmptySearch_Text" xml:space="preserve">
+  <value>Пустой поиск</value>
+</data>
+<data name="EXtensionMethods_Text" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="LocateInAssemblyExplorer_ActionName" xml:space="preserve">
+  <value>Найти в обозревателе сборок</value>
+</data>
+<data name="CantLocateInSolutionOrAssemblyExplorer_TooltipMessage" xml:space="preserve">
+  <value>Не удается найти файл в обозревателе решений/сборок</value>
+</data>
+<data name="InvalidUsingDirective_Text" xml:space="preserve">
+  <value>Неверная директива using</value>
+</data>
+<data name="_Implementing__Text" xml:space="preserve">
+  <value>Реализация{0}</value>
+</data>
+<data name="Declaration_Caption" xml:space="preserve">
+  <value>&amp;Объявление</value>
+</data>
+<data name="SameAttributesAs_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Такие же атрибуты, как у '{0}'</value>
+</data>
+<data name="NavigateTo_Ellipsis_Text" xml:space="preserve">
+  <value>Перейти к…</value>
+</data>
+<data name="Found__And__PressEscapeToRemoveHighlighting_Plural" xml:space="preserve">
+  <value>Найдено {0} {0:choice:one#использование|other#использований} и {2} {2:choice:one#объявление|other#объявлений} для '{1}' (нажмите Escape, чтобы убрать подсветку)</value>
+</data>
+<data name="NavigateTo_Text" xml:space="preserve">
+  <value>Перейти к</value>
+</data>
+<data name="CurrentFile_Text" xml:space="preserve">
+  <value>Текущий файл</value>
+</data>
+<data name="AnonymousFunction_Text" xml:space="preserve">
+  <value>Анонимная функция</value>
+</data>
+<data name="UsagesOf_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Использования '{0}'</value>
+</data>
+<data name="SelectContainingDeclarationActionText" xml:space="preserve">
+  <value>Выбрать содержащее объявление</value>
+</data>
+<data name="NoGenericSubstitutionsFoundForThisType_Text" xml:space="preserve">
+  <value>Для этого параметра типа не найдено обобщенных замен</value>
+</data>
+<data name="Found__PressEscapeToRemoveHighlighting_Plural" xml:space="preserve">
+  <value>Найдено {0} {0:choice:one#использование|other#использований} для '{1}' (нажмите Escape, чтобы убрать подсветку)</value>
+</data>
+<data name="ConflictingDeclarationSActionText" xml:space="preserve">
+  <value>Конфликтующие объявления</value>
+</data>
+<data name="FunctionExitS_Text" xml:space="preserve">
+  <value>Выход из функции</value>
+</data>
+<data name="ShowAllUsagesActionText" xml:space="preserve">
+  <value>Показать все использования</value>
+</data>
+<data name="MemberOverloadsActionText" xml:space="preserve">
+  <value>Перегрузки членов</value>
+</data>
+<data name="FindIn_Project_Text" xml:space="preserve">
+  <value>Найти в проекте '{0}'</value>
+</data>
+<data name="_Hiding_Text" xml:space="preserve">
+  <value>Скрытие </value>
+</data>
+<data name="FindUsages_Caption" xml:space="preserve">
+  <value>&amp;Найти использования</value>
+</data>
+<data name="_ExtendingInterfaces_Text" xml:space="preserve">
+  <value>Расширяющие интерфейсы</value>
+</data>
+<data name="ModulesReferencedOn__Text" xml:space="preserve">
+  <value>Модули, на которые ссылается {0}</value>
+</data>
+<data name="GenericSubstitution_Text" xml:space="preserve">
+  <value>Обобщенная замена</value>
+</data>
+<data name="FindUsagesActionGroupText" xml:space="preserve">
+  <value>Найти использования</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="ShowUsagesInDocumentationActionText" xml:space="preserve">
+  <value>Показать использования в документации</value>
+</data>
+<data name="CodeDependentOnAssembly__Text" xml:space="preserve">
+  <value>Код зависит от сборки '{0}'</value>
+</data>
+<data name="UsagesOf_members_Text" xml:space="preserve">
+  <value>Использования членов</value>
+</data>
+<data name="NextMemberActionText" xml:space="preserve">
+  <value>Следующий член</value>
+</data>
+<data name="ShowOtherUsagesActionText" xml:space="preserve">
+  <value>Показать другие использования</value>
+</data>
+<data name="CodeOf_DependentOn___Text" xml:space="preserve">
+  <value>Код {0} зависит от '{1}', '{2}'</value>
+</data>
+<data name="RecentEdits_Caption" xml:space="preserve">
+  <value>Недавние правки</value>
+</data>
+<data name="SearchFor__Text" xml:space="preserve">
+  <value>Искать '{0}'</value>
+</data>
+<data name="Declaration_Text" xml:space="preserve">
+  <value>Объявление</value>
+</data>
+<data name="Displaying_Of____Text" xml:space="preserve">
+  <value>Показано {0} {2} из {1} для {3}</value>
+</data>
+<data name="DeclarationOf__Text" xml:space="preserve">
+  <value>Объявление '{0}'</value>
+</data>
+<data name="FindNullableWarningSuppressionsContextAction_Name" xml:space="preserve">
+  <value>Найти подавления nullable предупреждений</value>
+</data>
+<data name="FileIsMissing_Text" xml:space="preserve">
+  <value>Файл отсутствует</value>
+</data>
+<data name="Usages_Text" xml:space="preserve">
+  <value>Использования</value>
+</data>
+<data name="GoToDeclarationActionText" xml:space="preserve">
+  <value>Перейти к объявлению</value>
+</data>
+<data name="UseReSharperNavigationHistoryForMouse_Text" xml:space="preserve">
+  <value>Использовать историю навигации ReSharper для навигации мышью назад/вперед</value>
+</data>
+<data name="CannotExecuteTheGoToActionBecauseThere_Text" xml:space="preserve">
+  <value>Невозможно выполнить "Перейти", так как нет открытого решения</value>
+</data>
+<data name="Implementation_Caption" xml:space="preserve">
+  <value>&amp;Реализация</value>
+</data>
+<data name="CodeDependentOn__Text" xml:space="preserve">
+  <value>Код зависит от '{0}'</value>
+</data>
+<data name="UsagesOf__Text" xml:space="preserve">
+  <value>Использования {0}</value>
+</data>
+<data name="UseCtrlAltMiddleClickToPeekImplementations_Text" xml:space="preserve">
+  <value>Используйте Ctrl+Alt+Средняя кнопка мыши для просмотра реализаций</value>
+</data>
+<data name="GoToImplementationActionText" xml:space="preserve">
+  <value>Перейти к реализации</value>
+</data>
+<data name="_DelegateTargets_Text" xml:space="preserve">
+  <value>Цели делегатов</value>
+</data>
+<data name="CurrentMethod_Text" xml:space="preserve">
+  <value>Текущий метод</value>
+</data>
+<data name="SearchScope_CurrentProject_Text" xml:space="preserve">
+  <value>Текущий проект</value>
+</data>
+<data name="GeneratedClasses_Text" xml:space="preserve">
+  <value>Сгенерированные классы</value>
+</data>
+<data name="ParameterDeclaration_Text" xml:space="preserve">
+  <value>&amp;Объявление параметра</value>
+</data>
+<data name="BaseSymbolsActionText" xml:space="preserve">
+  <value>Базовые символы</value>
+</data>
+<data name="FindResultsActionText" xml:space="preserve">
+  <value>Результаты поиска</value>
+</data>
+<data name="ReferencedCodeIn__Text" xml:space="preserve">
+  <value>Ссылочный код в '{0}'</value>
+</data>
+<data name="HereYouCanSpecifyFilesAndFoldersThat_Text_Text" xml:space="preserve">
+  <value>Здесь вы можете указать файлы и папки, которые следует исключить из функций поиска и навигации</value>
+</data>
+<data name="GotoNextUsageOf___All__Text" xml:space="preserve">
+  <value>Перейти к следующему использованию '{{0}}' ({0}/{1}) [все {2}]</value>
+</data>
+<data name="_Overriding__Text" xml:space="preserve">
+  <value>Переопределение{0}</value>
+</data>
+<data name="GoToModuleReferenceDeclaration_Caption" xml:space="preserve">
+  <value>Перейти к объявлению ссылки на модуль</value>
+</data>
+<data name="ScanningAnElement_Text" xml:space="preserve">
+  <value>Сканирование элемента</value>
+</data>
+<data name="RememberExtendedSearchPreferences_Text" xml:space="preserve">
+  <value>Запоминать настройки расширенного поиска</value>
+</data>
+<data name="GeneratedClasses_Caption" xml:space="preserve">
+  <value>Сгенерированные классы</value>
+</data>
+<data name="Substitution_Plural" xml:space="preserve">
+  <value>{0:choice:one#замена|other#замен}</value>
+</data>
+<data name="RememberTheIncludeLibraryTypesInclude_Text" xml:space="preserve">
+  <value>Запоминать настройки 'Включать типы библиотек', 'Включать члены из связанных файлов' и 'Учитывать регистр' для команд поиска</value>
+</data>
+<data name="Include_overloading__Text" xml:space="preserve">
+  <value>Включать перегрузки{0}</value>
+</data>
+<data name="ControlFlowTarget_Text" xml:space="preserve">
+  <value>Цель потока управления</value>
+</data>
+<data name="WindowsExplorerActionText" xml:space="preserve">
+  <value>Проводник Windows</value>
+</data>
+<data name="SelectFile_Text" xml:space="preserve">
+  <value>Выбрать файл</value>
+</data>
+<data name="SetBreakpointActionText" xml:space="preserve">
+  <value>Установить точку останова</value>
+</data>
+<data name="GoToByNameActionGroupText" xml:space="preserve">
+  <value>Перейти по имени</value>
+</data>
+<data name="_FromAssembly_WhichIsNotReferencedIn_Text" xml:space="preserve">
+  <value>{0} из сборки {1}, которая не referenced в проекте</value>
+</data>
+<data name="ExposingAPIsAreNotAvailableForStatic_ToolTip" xml:space="preserve">
+  <value>Открытые API недоступны для статических типов</value>
+</data>
+<data name="FindDependentCodeActionGroupText" xml:space="preserve">
+  <value>Найти зависимый код</value>
+</data>
+<data name="ShowOnlyReadUsagesActionText" xml:space="preserve">
+  <value>Показать только использования чтения</value>
+</data>
+<data name="ControlFlowTargetActionText" xml:space="preserve">
+  <value>Цель потока управления</value>
+</data>
+<data name="_Matching__Text" xml:space="preserve">
+  <value>{0}, соответствующие '{1}'</value>
+</data>
+<data name="ParameterDeclarationActionText" xml:space="preserve">
+  <value>Объявление параметра</value>
+</data>
+<data name="NoExtensionMethodsFoundForThisType_Text" xml:space="preserve">
+  <value>Для этого типа не найдено методов расширения</value>
+</data>
+<data name="ReturnToUsageOf__Text" xml:space="preserve">
+  <value>Вернуться к использованию '{0}'</value>
+</data>
+<data name="Found____Text" xml:space="preserve">
+  <value>{2}Найдено {0} {1}</value>
+</data>
+<data name="ShowUsages_Caption" xml:space="preserve">
+  <value>Показать использования</value>
+</data>
+<data name="ReferencedCode_Text" xml:space="preserve">
+  <value>Ссылочный код</value>
+</data>
+<data name="ReferencedCodeIn_U2026_Text" xml:space="preserve">
+  <value>Ссылочный код в: '{0}' (…)</value>
+</data>
+<data name="IterateUsagesActionText" xml:space="preserve">
+  <value>Итерировать использования</value>
+</data>
+<data name="INcludeBaseMembers_Text" xml:space="preserve">
+  <value>Включать базовые члены</value>
+</data>
+<data name="CommandPromptActionText" xml:space="preserve">
+  <value>Командная строка</value>
+</data>
+<data name="Displaying_Of_Found__Text" xml:space="preserve">
+  <value>Показано {0} найденных {2} из {1}</value>
+</data>
+<data name="UsagesNotFound_Text" xml:space="preserve">
+  <value>Использования не найдены</value>
+</data>
+<data name="SearchDomainForGlobalUsing_Text" xml:space="preserve">
+  <value>Домен поиска для глобального using</value>
+</data>
+<data name="SearchProperties_Caption" xml:space="preserve">
+  <value>Свойства поиска</value>
+</data>
+<data name="FindUsagesActionText" xml:space="preserve">
+  <value>Найти использования</value>
+</data>
+<data name="PressCancelToContinueSearchWithoutQuasi_Text" xml:space="preserve">
+  <value>Нажмите "Отмена", чтобы продолжить поиск без квази-реализаций</value>
+</data>
+<data name="ReferencedCodeScope_Text" xml:space="preserve">
+  <value>Область ссылочного кода</value>
+</data>
+<data name="HighlightUsagesInFileActionText" xml:space="preserve">
+  <value>Подсветить использования в файле</value>
+</data>
+<data name="Search_Text" xml:space="preserve">
+  <value>Поиск</value>
+</data>
+<data name="NoImplementationsFoundForThisType_Text" xml:space="preserve">
+  <value>Для этого типа не найдено реализаций</value>
+</data>
+<data name="GotoNextUsageOf__Text" xml:space="preserve">
+  <value>Перейти к следующему использованию '{0}'</value>
+</data>
+<data name="FindDependentCodeAllProjectsActionText" xml:space="preserve">
+  <value>Найти зависимый код (все проекты)</value>
+</data>
+<data name="RememberLastSearch_Text" xml:space="preserve">
+  <value>Запоминать последний поиск</value>
+</data>
+<data name="EnterMemberName_Text" xml:space="preserve">
+  <value>Имя члена:</value>
+</data>
+<data name="_Implementations_Text" xml:space="preserve">
+  <value>Реализации</value>
+</data>
+<data name="MemberOverloads_Text" xml:space="preserve">
+  <value>&amp;Перегрузки членов</value>
+</data>
+<data name="LocateInSolutionExplorer_ActionName" xml:space="preserve">
+  <value>Найти в обозревателе решений</value>
+</data>
+<data name="ScanningForTargets_Text" xml:space="preserve">
+  <value>Сканирование целей</value>
+</data>
+<data name="ShowInFindResults_Text" xml:space="preserve">
+  <value>Показать в "Результатах поиска"</value>
+</data>
+<data name="RecentFiles_Text" xml:space="preserve">
+  <value>Недавние файлы:</value>
+</data>
+<data name="InvalidElement_Text" xml:space="preserve">
+  <value>Неверный элемент</value>
+</data>
+<data name="CommandPrompt_Text" xml:space="preserve">
+  <value>Командная строка</value>
+</data>
+<data name="Symbol_Goto_Target_Text" xml:space="preserve">
+  <value>Символ</value>
+</data>
+<data name="CodeOf_DependentOn__Text" xml:space="preserve">
+  <value>Код {0} зависит от '{1}'</value>
+</data>
+<data name="File_Goto_Target_Text" xml:space="preserve">
+  <value>Файл</value>
+</data>
+<data name="ObjectExtensionMethod_FindResult_Kind_Plural" xml:space="preserve">
+  <value>{0:choice:one#метод расширения объекта|other#методов расширения объекта}</value>
+</data>
+<data name="InReferencedLibraries_Text" xml:space="preserve">
+  <value>, в referenced библиотеках</value>
+</data>
+<data name="NoUsagesFound_Text" xml:space="preserve">
+  <value>Использования не найдены</value>
+</data>
+<data name="PreviousEditActionText" xml:space="preserve">
+  <value>Предыдущее редактирование</value>
+</data>
+<data name="ShowInvocationUsagesActionText" xml:space="preserve">
+  <value>Показать использования вызова</value>
+</data>
+<data name="FindNullableWarningSuppressionsContextAction_Description" xml:space="preserve">
+  <value>Найти все выражения подавления nullable предупреждений в выбранной области</value>
+</data>
+<data name="_Fuzzy_TreeSection_Title_Text" xml:space="preserve">
+  <value>{0} (нечеткое)</value>
+</data>
+<data name="MergeOccurrencesOnTheSameLineActionText" xml:space="preserve">
+  <value>Объединить вхождения на одной строке</value>
+</data>
+<data name="RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="AnalyzingTargets_Text" xml:space="preserve">
+  <value>Анализ целей</value>
+</data>
+<data name="FindInFile_Caption" xml:space="preserve">
+  <value>Найти в файле</value>
+</data>
+<data name="FuzzyResults_Caption" xml:space="preserve">
+  <value>Нечеткие результаты</value>
+</data>
+<data name="ConsuminGAPIs_Text" xml:space="preserve">
+  <value>Потребляющие API</value>
+</data>
+<data name="ReachableExitsOf_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Достижимые выходы '{0}'</value>
+</data>
+<data name="TypeOfSymbolActionText" xml:space="preserve">
+  <value>Тип символа</value>
+</data>
+<data name="FindGenericTypeUsagesBehaviour_ComboEnum_Caption" xml:space="preserve">
+  <value>Поведение при поиске использований обобщенных типов:</value>
+</data>
+<data name="ShowBaseMethodCallsActionText" xml:space="preserve">
+  <value>Показать вызовы базовых методов</value>
+</data>
+<data name="SearchingForQuasiImplementations_Text" xml:space="preserve">
+  <value>Поиск квази-реализаций…</value>
+</data>
+<data name="Rich_mouseNavigationInTheEditor_Text" xml:space="preserve">
+  <value>Богатая навигация мышью в редакторе</value>
+</data>
+<data name="ImplementingMembers_Text" xml:space="preserve">
+  <value>Реализующие члены</value>
+</data>
+<data name="FindReferencedCodeViewSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отображения для поиска ссылочного кода</value>
+</data>
+<data name="GoToFile_Caption" xml:space="preserve">
+  <value>Перейти к файлу</value>
+</data>
+<data name="ControlFlowNeverLeavesTheFunction_Text" xml:space="preserve">
+  <value>Поток управления никогда не покидает функцию</value>
+</data>
+<data name="StandardOccurrenceBrowserActionsActionGroupText" xml:space="preserve">
+  <value>Стандартные действия обозревателя вхождений</value>
+</data>
+<data name="FindIn_Solution_Text" xml:space="preserve">
+  <value>Найти в решении '{0}'</value>
+</data>
+<data name="OverridingMembers_Text" xml:space="preserve">
+  <value>Переопределяющие члены</value>
+</data>
+<data name="FindDependentCodeActionText" xml:space="preserve">
+  <value>Найти зависимый код</value>
+</data>
+<data name="ConsumingAPIsAreNotAvailableForStatic_ToolTip" xml:space="preserve">
+  <value>Потребляющие API недоступны для статических типов</value>
+</data>
+<data name="NoDeclarationsFoundForThisParameter_Text" xml:space="preserve">
+  <value>Для этого параметра не найдено объявлений</value>
+</data>
+<data name="ExposingAPIs_FindResult_Form_Text" xml:space="preserve">
+  <value>Открытые API</value>
+</data>
+<data name="UsagesOf_derived__Text" xml:space="preserve">
+  <value>Использования производных{0}</value>
+</data>
+<data name="SearchScope_CurrentFile_Text" xml:space="preserve">
+  <value>Текущий файл</value>
+</data>
+<data name="NavigateToSolutionExplorer_Caption" xml:space="preserve">
+  <value>Перейти к обозревателю решений</value>
+</data>
+<data name="ExtensionMethod_FindResult_Kind__Plural" xml:space="preserve">
+  <value>{0:choice:one#метод расширения|other#методов расширения}</value>
+</data>
+<data name="MouseNavigation_Header_Text" xml:space="preserve">
+  <value>Навигация мышью</value>
+</data>
+<data name="ShowIgnoredUsagesActionText" xml:space="preserve">
+  <value>Показать игнорируемые использования</value>
+</data>
+<data name="DisableGroupingByKind_Text" xml:space="preserve">
+  <value>Отключить группировку по виду</value>
+</data>
+<data name="Found___Caption" xml:space="preserve">
+  <value>Найдено {0} {1}</value>
+</data>
+<data name="GoToFile_Text" xml:space="preserve">
+  <value>Перейти к файлу…</value>
+</data>
+<data name="SearchFor_MatchCase_Text" xml:space="preserve">
+  <value>Искать '{0}' (с учетом регистра)</value>
+</data>
+<data name="General_Header_Text" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="ThisIsTheOnlyUsage_Text" xml:space="preserve">
+  <value>Это единственное использование</value>
+</data>
+<data name="SetTracepointActionText" xml:space="preserve">
+  <value>Установить точку трассировки</value>
+</data>
+<data name="Stop_Text" xml:space="preserve">
+  <value>Стоп</value>
+</data>
+<data name="GenericSubstitutionsActionText" xml:space="preserve">
+  <value>Обобщенные замены</value>
+</data>
+<data name="ToEditTheListOfSkippedFilesAndFolders_Text" xml:space="preserve">
+  <value> Чтобы отредактировать список пропускаемых файлов и папок, откройте решение </value>
+</data>
+<data name="InvalidBreakpoint_Text" xml:space="preserve">
+  <value>Неверная точка останова</value>
+</data>
+<data name="CancelHighlighingUsagesActionText" xml:space="preserve">
+  <value>Отменить подсветку использований</value>
+</data>
+<data name="TypesSimilarTo_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Типы, похожие на '{0}'</value>
+</data>
+<data name="NavigateToTypeDeclaration_Text" xml:space="preserve">
+  <value>Перейти к объявлению типа</value>
+</data>
+<data name="ShowUnitTestUsagesActionText" xml:space="preserve">
+  <value>Показать использования модульных тестов</value>
+</data>
+<data name="NoExposingAPIsFound_ToolTip" xml:space="preserve">
+  <value>Открытые API не найдены</value>
+</data>
+<data name="FindText_Text" xml:space="preserve">
+  <value>Найти текст:</value>
+</data>
+<data name="ClickForNextUsage_Text" xml:space="preserve">
+  <value>(нажмите, чтобы перейти к следующему использованию)</value>
+</data>
+<data name="RelatedFiles_Caption" xml:space="preserve">
+  <value>&amp;Связанные файлы</value>
+</data>
+<data name="_Usages_Text" xml:space="preserve">
+  <value>Использования</value>
+</data>
+<data name="ExactMatches_Text" xml:space="preserve">
+  <value>Точные совпадения</value>
+</data>
+<data name="InSolution_Text" xml:space="preserve">
+  <value>В решении</value>
+</data>
+<data name="FindIn__Text" xml:space="preserve">
+  <value>Найти в '{0}'</value>
+</data>
+<data name="ShowAttributeUsagesActionText" xml:space="preserve">
+  <value>Показать использования атрибутов</value>
+</data>
+<data name="NoSubstitutionFound_Text" xml:space="preserve">
+  <value>Замена не найдена</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="GenericSubstitutions_Text" xml:space="preserve">
+  <value>Обобщенные замены</value>
+</data>
+<data name="FindInFile_Text" xml:space="preserve">
+  <value>Найти в файле</value>
+</data>
+<data name="ViewInAssemblyExplorerActionText" xml:space="preserve">
+  <value>Просмотреть в обозревателе сборок</value>
+</data>
+<data name="ConflictDeclarationS_Text" xml:space="preserve">
+  <value>Конфликтующие объявления</value>
+</data>
+<data name="In_ReferencedModule_Text" xml:space="preserve">
+  <value>В модуле, на который ссылается {0}</value>
+</data>
+<data name="FindResultEnableBreakpointActionText" xml:space="preserve">
+  <value>FindResult.EnableBreakpoint</value>
+</data>
+<data name="_NotFoundInThisFile_Text" xml:space="preserve">
+  <value>{0} не найдено в этом файле</value>
+</data>
+<data name="InReferencedModules_AndOthers_Text" xml:space="preserve">
+  <value>В referenced модулях: {0} и другие</value>
+</data>
+<data name="NUsagesHighlighted_Text" xml:space="preserve">
+  <value>{0:N0} использований подсвечено</value>
+</data>
+<data name="GroupBySettingDescription" xml:space="preserve">
+  <value>Группировать по</value>
+</data>
+<data name="NoTypeMembersFoundInThisFile_Text" xml:space="preserve">
+  <value>В этом файле не найдено членов типа</value>
+</data>
+<data name="Include_overloading_Text" xml:space="preserve">
+  <value>Включать перегрузки </value>
+</data>
+<data name="UseCtrlShiftClickToPeekDeclaration_Text" xml:space="preserve">
+  <value>Используйте Ctrl+Shift+щелчок для просмотра объявления</value>
+</data>
+<data name="GoToBaseInheritorIfThereIsOnlyOneResult_Text" xml:space="preserve">
+  <value>Перейти к базовому/наследнику: если один результат, перейти без показа списка</value>
+</data>
+<data name="ContainingDeclarationActionText" xml:space="preserve">
+  <value>Содержащее объявление</value>
+</data>
+<data name="ConsumingAPIsActionText" xml:space="preserve">
+  <value>Потребляющие API</value>
+</data>
+<data name="Usage_FindResult_Form_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="ThereAreNo__Text" xml:space="preserve">
+  <value>Нет {0}</value>
+</data>
+<data name="ShowReadUsagesActionText" xml:space="preserve">
+  <value>Показать использования чтения</value>
+</data>
+<data name="ExposingAPIsFor__Text" xml:space="preserve">
+  <value>Открытые API для {0}</value>
+</data>
+<data name="EnableSearchEverywhere_Text" xml:space="preserve">
+  <value>Включить "Поиск везде"</value>
+</data>
+<data name="ToggleKindGroupingActionText" xml:space="preserve">
+  <value>Переключить группировку по виду</value>
+</data>
+<data name="Item_Default_DeclaredElement_Kind_Text" xml:space="preserve">
+  <value>Элемент</value>
+</data>
+<data name="ExtensionMethodsFor__Text" xml:space="preserve">
+  <value>Методы расширения для {0}</value>
+</data>
+<data name="Find_Text" xml:space="preserve">
+  <value>Найти</value>
+</data>
+<data name="ShowNameCapturesActionText" xml:space="preserve">
+  <value>Показать захваты имен</value>
+</data>
+<data name="Found__PressEscapeToRemoveHighlighting_Text" xml:space="preserve">
+  <value>Найдено {0} {1} (нажмите Escape, чтобы убрать подсветку)</value>
+</data>
+<data name="SelectDeclaration_Caption" xml:space="preserve">
+  <value>Выбрать объявление</value>
+</data>
+<data name="SearchingPleaseWait_Text" xml:space="preserve">
+  <value>Идет поиск, подождите…</value>
+</data>
+<data name="OpenNewFilesIn_previewTabFromEverywhere_BoolOption_Text" xml:space="preserve">
+  <value>Открывать новые файлы в предпросмотре отовсюду</value>
+</data>
+<data name="INcludeMembersFromRelatedFiles_Text" xml:space="preserve">
+  <value>Включать члены из связанных файлов</value>
+</data>
+<data name="Reference_FindResult_Kind_Plural" xml:space="preserve">
+  <value>{0:choice:one#ссылка|other#ссылок}</value>
+</data>
+<data name="NoMembersFoundInThisFile_Text" xml:space="preserve">
+  <value>В этом файле не найдено членов</value>
+</data>
+<data name="SmartGoTo_DeclarationBehavior_ComboEnum_Caption" xml:space="preserve">
+  <value>Поведение умного перехода к объявлению:</value>
+</data>
+<data name="SubstitutionsOfTypeParameter_Text" xml:space="preserve">
+  <value>Замены параметра типа</value>
+</data>
+<data name="IntegrateGoToTextIntoSearchEverywhere_Text" xml:space="preserve">
+  <value>Интегрировать "Перейти к тексту" в "Поиск везде"</value>
+</data>
+<data name="DoYouWantToFindUsagesOfTheParameter_Text" xml:space="preserve">
+  <value>Хотите найти использования параметра '{0}' в переопределении{1}?</value>
+</data>
+<data name="SeachingForNextUsage_Text" xml:space="preserve">
+  <value>Поиск следующего использования…</value>
+</data>
+<data name="ShowUsages_Text" xml:space="preserve">
+  <value>Показать использования…</value>
+</data>
+<data name="NavigateForwardActionText" xml:space="preserve">
+  <value>Навигация вперед</value>
+</data>
+<data name="SearchScope_Solution_Text" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="UseCtrlMiddleClickToPeekUsages_Text" xml:space="preserve">
+  <value>Используйте Ctrl+Средняя кнопка мыши для просмотра использований</value>
+</data>
+<data name="CannotEvaluate_ThereAreTooManyReferences_Text" xml:space="preserve">
+  <value>Невозможно оценить {0}. Слишком много ссылок для хранения.</value>
+</data>
+<data name="ExposingAPIs_Text" xml:space="preserve">
+  <value>Открытые API</value>
+</data>
+<data name="LocateInSolutionOrAssemblyExplorer_ActionName" xml:space="preserve">
+  <value>Найти в обозревателе решений/сборок</value>
+</data>
+<data name="ExtensionMethodsForUnknownType_Text" xml:space="preserve">
+  <value>Методы расширения для неизвестного типа</value>
+</data>
+<data name="CodeDependentOnProject__Text" xml:space="preserve">
+  <value>Код зависит от проекта '{0}'</value>
+</data>
+<data name="Solution_Text" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="UseCtrlAltClickToGoToImplementations_Text" xml:space="preserve">
+  <value>Используйте Ctrl+Alt+щелчок для перехода к реализациям</value>
+</data>
+<data name="Found___Text" xml:space="preserve">
+  <value>Найдено {0} {1}</value>
+</data>
+<data name="EnableGroupingByKind_Text" xml:space="preserve">
+  <value>Включить группировку по виду</value>
+</data>
+<data name="Scope_Text" xml:space="preserve">
+  <value>Область</value>
+</data>
+<data name="FindResultToggleBreakpointActionText" xml:space="preserve">
+  <value>FindResult.ToggleBreakpoint</value>
+</data>
+<data name="FindDependenciesActionGroupText" xml:space="preserve">
+  <value>Найти зависимости</value>
+</data>
+<data name="NavigateBackwardActionText" xml:space="preserve">
+  <value>Навигация назад</value>
+</data>
+<data name="NoDeclarationsFound_Text" xml:space="preserve">
+  <value>Объявления не найдены</value>
+</data>
+<data name="SomeItemsMayBeMissingAtTheMoment_Text" xml:space="preserve">
+  <value>В данный момент некоторые элементы могут отсутствовать</value>
+</data>
+<data name="ExtensionMethodsActionText" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="DerivedSymbolsActionText" xml:space="preserve">
+  <value>Производные символы</value>
+</data>
+<data name="FindUsagesAdvancedActionText" xml:space="preserve">
+  <value>Расширенный поиск использований…</value>
+</data>
+<data name="ReferencesAvailableVia_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Ссылки, доступные через '{0}'</value>
+</data>
+<data name="NoExternalReferencesFound_Text" xml:space="preserve">
+  <value>Внешние ссылки не найдены</value>
+</data>
+<data name="Found_NullableWarningSuppressions_Text" xml:space="preserve">
+  <value>Найдено {0} подавлений nullable предупреждений</value>
+</data>
+<data name="PressEscapeToRemoveHighlighting_Text" xml:space="preserve">
+  <value>Нажмите Esc, чтобы убрать подсветку</value>
+</data>
+<data name="RecentEditsActionText" xml:space="preserve">
+  <value>Недавние правки…</value>
+</data>
+<data name="WindowsExplorer_Text" xml:space="preserve">
+  <value>&amp;Проводник Windows</value>
+</data>
+<data name="RecentFiles_Caption" xml:space="preserve">
+  <value>Недавние файлы</value>
+</data>
+<data name="UsagesOf_derived_Text" xml:space="preserve">
+  <value>Использования производных </value>
+</data>
+<data name="PreviousMemberActionText" xml:space="preserve">
+  <value>Предыдущий член</value>
+</data>
+<data name="ShowInterfaceQualificationsActionText" xml:space="preserve">
+  <value>Показать квалификации интерфейса</value>
+</data>
+<data name="ConsumingAPIsFor__Text" xml:space="preserve">
+  <value>Потребляющие API для {0}</value>
+</data>
+<data name="SubstitutionsOf__Text" xml:space="preserve">
+  <value>Замены '{0}'</value>
+</data>
+<data name="ScanningFile__Text" xml:space="preserve">
+  <value>Сканирование файла "{0}"</value>
+</data>
+<data name="ElementsToSkip_Header_Text" xml:space="preserve">
+  <value>Элементы для пропуска</value>
+</data>
+<data name="_DerivedTypes_Text" xml:space="preserve">
+  <value>Производные типы</value>
+</data>
+<data name="RelatedFilesActionText" xml:space="preserve">
+  <value>Связанные файлы</value>
+</data>
+<data name="_WasNotFound_Text" xml:space="preserve">
+  <value>{0} не найдено</value>
+</data>
+<data name="Text_Find_Result_Kind_Text" xml:space="preserve">
+  <value>Текстовый файл</value>
+</data>
+<data name="FindResultsWindow_Header_Text" xml:space="preserve">
+  <value>Окно "Результаты поиска"</value>
+</data>
+<data name="DerivedSymbols_Caption" xml:space="preserve">
+  <value>Производные символы</value>
+</data>
+<data name="ShowOnlyWriteUsagesActionText" xml:space="preserve">
+  <value>Показать только использования записи</value>
+</data>
+<data name="ReferencedCode_Caption" xml:space="preserve">
+  <value>Ссылочный код</value>
+</data>
+<data name="SameTagsAs_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Такие же теги, как у '{0}'</value>
+</data>
+<data name="FunctionExitSActionText" xml:space="preserve">
+  <value>Выход из функции</value>
+</data>
+<data name="TypeOfSymbol_Caption" xml:space="preserve">
+  <value>&amp;Тип символа</value>
+</data>
+<data name="UseMiddleClickToGoToDeclaration_Text" xml:space="preserve">
+  <value>Используйте среднюю кнопку мыши для перехода к объявлению</value>
+</data>
+<data name="ReferencedCodeActionText" xml:space="preserve">
+  <value>Ссылочный код</value>
+</data>
+<data name="NoConsumingAPIsFound_ToolTip" xml:space="preserve">
+  <value>Потребляющие API не найдены</value>
+</data>
+<data name="ShowSolutionExplorer_Text" xml:space="preserve">
+  <value>Показать обозреватель решений</value>
+</data>
+<data name="MergeOccurrencesOnASingleLine_Text" xml:space="preserve">
+  <value>Объединить вхождения в одну строку</value>
+</data>
+<data name="NavigateToActionText" xml:space="preserve">
+  <value>Перейти к…</value>
+</data>
+<data name="Declarations_Text" xml:space="preserve">
+  <value>Объявления</value>
+</data>
+<data name="Found1NullableWarningSuppression_Text" xml:space="preserve">
+  <value>Найдено 1 подавление nullable предупреждения</value>
+</data>
+<data name="GotoNextDeclarationOf____Text" xml:space="preserve">
+  <value>Перейти к следующему объявлению '{{0}}' ({0}/{1})</value>
+</data>
+<data name="Usages_FindResult_Form_Text" xml:space="preserve">
+  <value>Использования</value>
+</data>
+<data name="SolutionExplorer_Caption" xml:space="preserve">
+  <value>&amp;Обозреватель решений</value>
+</data>
+<data name="RememberLastInputForSearchCommandsAnd_Text" xml:space="preserve">
+  <value>Запоминать последний ввод для команд поиска и использовать текущее выделение в качестве начального запроса</value>
+</data>
+<data name="CollectingSymbolsMatching__Text" xml:space="preserve">
+  <value>Сбор символов, соответствующих '{0}'</value>
+</data>
+<data name="SwitchCasesActionText" xml:space="preserve">
+  <value>case оператора switch</value>
+</data>
+<data name="GotoNextUsageOf____Text" xml:space="preserve">
+  <value>Перейти к следующему использованию '{{0}}' ({0}/{1})</value>
+</data>
+<data name="_Assembly_IsNotReferenced_Text" xml:space="preserve">
+  <value>{0} (сборка {1} не referenced)</value>
+</data>
+</root>

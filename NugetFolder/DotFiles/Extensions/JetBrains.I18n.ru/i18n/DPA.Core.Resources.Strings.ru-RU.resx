@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="DynamicProgramAnalysisOptionPageTitle" xml:space="preserve">
+  <value>Динамический анализ программ</value>
+</data>
+<data name="IssueNode_Details_MaxRunTime" xml:space="preserve">
+  <value>Максимальное время выполнения среди всех запусков</value>
+</data>
+<data name="DisableWithAttributeAction_CantOpenFile" xml:space="preserve">
+  <value>Не удалось открыть файл</value>
+</data>
+<data name="IssuesToolWindow_ToDetectIssues" xml:space="preserve">
+  <value>Для обнаружения проблем запустите решение. Чтобы включить анализ во время отладки, перейдите </value>
+</data>
+<data name="ViewSqlIssuesActionText" xml:space="preserve">
+  <value>Просмотреть проблемы базы данных</value>
+</data>
+<data name="IssueNode_MemoryAllocation_StackTraceTabName_Template" xml:space="preserve">
+  <value>{0}/{1}</value>
+</data>
+<data name="Suppress_SqlRecordCountAttributeCheck" xml:space="preserve">
+  <value>Большое количество записей БД</value>
+</data>
+<data name="Tooltip_SqlCommandDurationIssue_Template" xml:space="preserve">
+  <value>Максимальное время команды БД: {0}, общее время: {1}, {2}</value>
+</data>
+<data name="IssuesToolWindow_MemoryAllocations_NoIssuesText" xml:space="preserve">
+  <value>Проблем с выделением памяти не обнаружено</value>
+</data>
+<data name="Ignore_Exclude_ByClassActionText" xml:space="preserve">
+  <value>По классу</value>
+</data>
+<data name="Tooltip_AspControllerActionDurationIssue_Template" xml:space="preserve">
+  <value>Максимальное время операции: {0}, общее время: {1}, {2}</value>
+</data>
+<data name="QuickFilter_ShowSQL" xml:space="preserve">
+  <value>Показать проблемы БД</value>
+</data>
+<data name="QuickFilter_ShowASP" xml:space="preserve">
+  <value>Показать проблемы ASP.NET Core</value>
+</data>
+<data name="FilteringOptionsPage_AnalyzeCodeOnlyIn" xml:space="preserve">
+  <value>Единственная область для анализа кода</value>
+</data>
+<data name="IssueTypeDescription_SohAllocation" xml:space="preserve">
+  <value>Код, выделяющий большой объем памяти в SOH</value>
+</data>
+<data name="DpaStatus_FoundIssues_Template" xml:space="preserve">
+  <value>{0}: Найдено {1}</value>
+</data>
+<data name="IssueSummary_SqlConnectionCount_By_Template" xml:space="preserve">
+  <value>В {0}</value>
+</data>
+<data name="Tooltip_LohAllocationIssue_Template" xml:space="preserve">
+  <value>Выделено в LOH: {0}, {1}</value>
+</data>
+<data name="IssueTypeDescription_SqlConnectionCount" xml:space="preserve">
+  <value>Код открывает больше одновременных подключений к БД, чем заданное пороговое значение</value>
+</data>
+<data name="DpaStatus_InactiveEtw_Template" xml:space="preserve">
+  <value>{0} не активен. Убедитесь, что установлена 'Служба узла ETW'.</value>
+</data>
+<data name="IssueNode_Tooltip_By" xml:space="preserve">
+  <value>Автор:</value>
+</data>
+<data name="EnableHighlightingsActionText" xml:space="preserve">
+  <value>Включить подсветку DPA</value>
+</data>
+<data name="QuickFilter_ShowGC" xml:space="preserve">
+  <value>Показать высокую активность GC</value>
+</data>
+<data name="IssuesToolWindowBase_AutoDisabledInspectionWarning" xml:space="preserve">
+  <value>Проверка DPA {0} влияет на производительность приложения. Проверка отключена для последующих запусков.</value>
+</data>
+<data name="IssueTypeFullName_AspViewComponentDuration" xml:space="preserve">
+  <value>Медленный компонент представления Razor</value>
+</data>
+<data name="IssueNode_Details_TotalRunTime" xml:space="preserve">
+  <value>Общее время выполнения</value>
+</data>
+<data name="Suppress_AspControllerActionDurationAttributeCheck" xml:space="preserve">
+  <value>Высокое время выполнения действия MVC</value>
+</data>
+<data name="IssueTypeName_LohAllocation" xml:space="preserve">
+  <value>Куча больших объектов</value>
+</data>
+<data name="IsIssuesNotificationEnabledDescription" xml:space="preserve">
+  <value>Включены ли уведомления о проблемах</value>
+</data>
+<data name="IssueNode_Details_AspRan" xml:space="preserve">
+  <value>Запущено</value>
+</data>
+<data name="Suppress_AllDpaIssuesAttributeCheck" xml:space="preserve">
+  <value>Проблемы DPA</value>
+</data>
+<data name="Suppress_SqlConnectionCountActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0:N0} подключений к БД</value>
+</data>
+<data name="Ignore_Exclude_ByMethodFromClassAction" xml:space="preserve">
+  <value>'{0}' в классе '{1}'</value>
+</data>
+<data name="OptionsPage_Asp_AutoFixEnabled" xml:space="preserve">
+  <value>Помечать проблемы как исправленные после:</value>
+</data>
+<data name="DotTraceApi_UnavailableTitle" xml:space="preserve">
+  <value>Плагин dotTrace отключен</value>
+</data>
+<data name="IssuesToolWindowBase_Asp_AutodisableOptions" xml:space="preserve">
+  <value>Настроить параметры автоотключения</value>
+</data>
+<data name="OptionsPage_Internal" xml:space="preserve">
+  <value>внутренний</value>
+</data>
+<data name="IssueTypeDescription_AspControllerActionDuration" xml:space="preserve">
+  <value>Метод действия MVC выполняется дольше заданного порогового значения</value>
+</data>
+<data name="IssueSummary_SqlRecordCount_Executed_Template" xml:space="preserve">
+  <value>{0}: {1} {2}</value>
+</data>
+<data name="IssueTypeDescription_AspHandlerDuration" xml:space="preserve">
+  <value>Метод обработчика страницы Razor (например, OnGet или OnPost) выполняется дольше заданного порогового значения</value>
+</data>
+<data name="EnableDynamicProgramAnalysisActionText" xml:space="preserve">
+  <value>Включить динамический анализ программ</value>
+</data>
+<data name="IssueNode_Details_AvgExecutionTime" xml:space="preserve">
+  <value>Среднее время выполнения</value>
+</data>
+<data name="CollecotrLimitSnapshotSizeSettingDescription" xml:space="preserve">
+  <value>Размер снимка ограничения сборщика</value>
+</data>
+<data name="IssueTypeDescription_SqlRecordCount" xml:space="preserve">
+  <value>Команда БД возвращает больше записей, чем заданное пороговое значение</value>
+</data>
+<data name="Suppress_AttributeMessageId_Connection" xml:space="preserve">
+  <value>Подключение</value>
+</data>
+<data name="DynamicProgramAnalysisHighlighterIssue_Text" xml:space="preserve">
+  <value>Средство подсветки Dynamic Program Analysis (Infrastructure)</value>
+</data>
+<data name="IssueTypeFullName_AspControllerActionDuration" xml:space="preserve">
+  <value>Медленное действие MVC</value>
+</data>
+<data name="OptionsPage_SqlForceEnableCommentText" xml:space="preserve">
+  <value>Использование поставщиков данных ADO.NET Devart в проекте может привести к аварийному завершению приложения во время анализа. Чтобы предотвратить это, DPA автоматически отключает проверки БД в таких проектах.</value>
+</data>
+<data name="EditFilter_ProcessNameMaskCantBeEmpty" xml:space="preserve">
+  <value>Маска имени процесса не может быть пустой</value>
+</data>
+<data name="FilteringOptionsPage_EditFilter" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="Suppress_AspViewComponentDurationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: макс. время вызова {0:N0} мс</value>
+</data>
+<data name="IssueSummary_SqlCommandCount_By_Template" xml:space="preserve">
+  <value>В {0}</value>
+</data>
+<data name="OptionsPage_MonitoringSqlForceEnableCommentText" xml:space="preserve">
+  <value>Использование поставщиков данных ADO.NET Devart в проекте может привести к аварийному завершению приложения во время анализа. Чтобы предотвратить это, мониторинг автоматически отключает обнаружение проблем БД в таких проектах.</value>
+</data>
+<data name="NavigateToMethodActionText" xml:space="preserve">
+  <value>Перейти к методу</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="EditFilter_MetodExample" xml:space="preserve">
+  <value>Например, MethodName</value>
+</data>
+<data name="Suppress_ClosureAllocationAttributeCheck" xml:space="preserve">
+  <value>Выделение объекта замыкания</value>
+</data>
+<data name="DisableWithAttributeAction_RangeIsNotInsideClassMemberDeclaration" xml:space="preserve">
+  <value>Область находится не внутри объявления члена класса</value>
+</data>
+<data name="EditFilter_ProcessExample" xml:space="preserve">
+  <value>Например, ProcessName.exe</value>
+</data>
+<data name="DisableHighlightingsActionText" xml:space="preserve">
+  <value>Выключить подсветку DPA</value>
+</data>
+<data name="Suppress_SqlCommandDurationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: макс. время команды БД {0:N0} мс</value>
+</data>
+<data name="IssueSummary_SqlRecordCount_By_Template" xml:space="preserve">
+  <value>В {0}</value>
+</data>
+<data name="OptionsPage_Asp_AutoDisableCommantText" xml:space="preserve">
+  <value>Когда DPA обрабатывает большой объем данных ASP, производительность приложения может значительно снизиться. DPA автоматически отключит проблемные проверки для последующих запусков.</value>
+</data>
+<data name="DPASettingsSettingDescription" xml:space="preserve">
+  <value>Настройки DPA</value>
+</data>
+<data name="OptionsPage_SqlAutoDisable" xml:space="preserve">
+  <value>Автоматически отключать проверки БД для ADO.NET Devart</value>
+</data>
+<data name="OptionsPage_MemoryAllocations_EnableInspections" xml:space="preserve">
+  <value>Включить проверки выделения памяти</value>
+</data>
+<data name="IssueTypeName_AspViewComponentDuration" xml:space="preserve">
+  <value>Медленный компонент представления Razor</value>
+</data>
+<data name="Suppress_AspHandlerDurationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: макс. время обработчика {0:N0} мс</value>
+</data>
+<data name="IssueTypeFullName_SohAllocation" xml:space="preserve">
+  <value>Куча малых объектов</value>
+</data>
+<data name="IssueSummary_SqlCommandDuration_By_Template" xml:space="preserve">
+  <value>В {0}</value>
+</data>
+<data name="Suppress_MemoryAllocationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0} в {1}</value>
+</data>
+<data name="IssueTypeDescription_SqlCommandDuration" xml:space="preserve">
+  <value>Команда БД выполняется дольше заданного порогового значения</value>
+</data>
+<data name="IssueNode_Details_TheSqlCommandWasExecuted" xml:space="preserve">
+  <value>Выполнено</value>
+</data>
+<data name="EditFilter_MethodNameMaskCantBeEmpty" xml:space="preserve">
+  <value>Маска имени метода не может быть пустой</value>
+</data>
+<data name="EditFilter_MaskCantContain" xml:space="preserve">
+  <value>Маска не может содержать ';' или ','</value>
+</data>
+<data name="DetailsView_ScrollToInfo" xml:space="preserve">
+  <value>Прокрутить к информации</value>
+</data>
+<data name="EditFilter_ClassExample" xml:space="preserve">
+  <value>Например, NameSpace.ClassName</value>
+</data>
+<data name="IsDPAEnabledSettingDescription" xml:space="preserve">
+  <value>Включен ли DPA</value>
+</data>
+<data name="IssueNode_Details_LastObserved" xml:space="preserve">
+  <value>Последнее наблюдение</value>
+</data>
+<data name="MillisecondsShort" xml:space="preserve">
+  <value>мс</value>
+</data>
+<data name="IssueNode_Details_AvgRecordsCount" xml:space="preserve">
+  <value>Среднее количество записей</value>
+</data>
+<data name="Suppress_MemoryAllocationDpaIssuesActionText" xml:space="preserve">
+  <value>Подавить проблемы выделения памяти</value>
+</data>
+<data name="Connection" xml:space="preserve">
+  <value>Подключение</value>
+</data>
+<data name="Record" xml:space="preserve">
+  <value>запись</value>
+</data>
+<data name="FilteringOptionsPage_AddProcessModuleClassMethod" xml:space="preserve">
+  <value>Добавить имя процесса/модуля/класса/метода</value>
+</data>
+<data name="Suppress_IssueTypeActionText_Template" xml:space="preserve">
+  <value>Подавить проблему '{0}'</value>
+</data>
+<data name="IsInsufficientResourceEtwNotificationEnabledDescription" xml:space="preserve">
+  <value>Включены ли уведомления о недостаточности ресурсов ETW</value>
+</data>
+<data name="IssueTypeName_SqlCommandDuration" xml:space="preserve">
+  <value>Медленная команда БД</value>
+</data>
+<data name="AiAssistant_AskAboutIssue" xml:space="preserve">
+  <value>Объяснить с помощью ИИ</value>
+</data>
+<data name="IssueNode_Details_Process" xml:space="preserve">
+  <value>Процесс</value>
+</data>
+<data name="OptionsPage_Asp_AutoFix" xml:space="preserve">
+  <value>Автоматически исправлять проблемы</value>
+</data>
+<data name="QuickFilter_ShowHotspots" xml:space="preserve">
+  <value>Показать узкие места производительности</value>
+</data>
+<data name="IssueNode_Details_MaxExecutionTime" xml:space="preserve">
+  <value>Максимальное время выполнения среди всех выполнений:</value>
+</data>
+<data name="IssuesToolWindowBase_ArmWarning" xml:space="preserve">
+  <value>DPA не поддерживает анализ процессов x64, работающих в эмуляции на компьютерах ARM.</value>
+</data>
+<data name="OptionsPage_Asp_AutoDisableInternalComment" xml:space="preserve">
+  <value>DPA автоматически отключает проверки ASP, когда количество полученных событий превышает указанный лимит за промежуток времени</value>
+</data>
+<data name="EditFilter_ModuleExample" xml:space="preserve">
+  <value>Например, AssemblyName.dll</value>
+</data>
+<data name="AiAssistant_CodeNotFoundTitle" xml:space="preserve">
+  <value>Исходный код не найден</value>
+</data>
+<data name="MapOfIssueTypeToOutdateTimeoutEnableSettingDescription" xml:space="preserve">
+  <value>Соответствие типа проблемы и включения таймаута устаревания</value>
+</data>
+<data name="Ignore_MarkAsFixedActionText" xml:space="preserve">
+  <value>Пометить как исправленное</value>
+</data>
+<data name="EditFilter_ClassNameMaskCantBeEmpty" xml:space="preserve">
+  <value>Маска имени класса не может быть пустой</value>
+</data>
+<data name="Suppress_SohAllocationActionAttributeCheck" xml:space="preserve">
+  <value>Чрезмерное выделение памяти в SOH</value>
+</data>
+<data name="IssueNode_Tooltip_Average" xml:space="preserve">
+  <value>Среднее:</value>
+</data>
+<data name="IssueSummary_SqlCommandCount_MaxExecuted_Template" xml:space="preserve">
+  <value>Макс.: {0}</value>
+</data>
+<data name="IssueNode_SqlCommandDuration_InfotipWithMax" xml:space="preserve">
+  <value>{0}, общее время {1} {2} {3:g}&lt;br/&gt;Макс.: {4}, общее время {5} {6} {7:g}</value>
+</data>
+<data name="Command" xml:space="preserve">
+  <value>Команда</value>
+</data>
+<data name="IssueNode_Details_TotalExecutionTime" xml:space="preserve">
+  <value>Общее время выполнения</value>
+</data>
+<data name="IssueNode_Details_Threshold" xml:space="preserve">
+  <value>Пороговое значение</value>
+</data>
+<data name="IssueSummary_SqlCommandCount_Executed_Template" xml:space="preserve">
+  <value>{0}: {1} {2}</value>
+</data>
+<data name="CopyDetailsAndStackTraceActionText" xml:space="preserve">
+  <value>Копировать сведения о проблеме и трассировку стека</value>
+</data>
+<data name="Suppress_MemoryAllocationDpaIssuesAttributeCheck" xml:space="preserve">
+  <value>Проблемы выделения памяти</value>
+</data>
+<data name="IssuesToolWindow_Sql_NoIssuesText" xml:space="preserve">
+  <value>Проблем с БД не обнаружено</value>
+</data>
+<data name="ExcludeFiltersSettingDescription" xml:space="preserve">
+  <value>Исключающие фильтры</value>
+</data>
+<data name="OptionsPage_EnableInDebugCommentText" xml:space="preserve">
+  <value>Во время отладки приложение использует системные сборки, которые выделяют больше памяти, чем при обычном запуске. Это может приводить к ложным срабатываниям.</value>
+</data>
+<data name="FilteringOptionsPage_UseFilters" xml:space="preserve">
+  <value>Используйте фильтры, чтобы исключить ненужные процессы/модули/классы/методы из анализа. Обычно имя модуля — это имя соответствующей сборки с расширением (.dll или .exe).</value>
+</data>
+<data name="StackTrace_Line_Template" xml:space="preserve">
+  <value>в {0}</value>
+</data>
+<data name="IssueTypeDescription_AspViewComponentDuration" xml:space="preserve">
+  <value>Метод Invoke() компонента представления Razor выполняется дольше заданного порогового значения</value>
+</data>
+<data name="OptionsPage_MemoryAllocations_Debugging" xml:space="preserve">
+  <value>Отладка</value>
+</data>
+<data name="Suppress_AttributeMessageId_Duration" xml:space="preserve">
+  <value>Время</value>
+</data>
+<data name="IsNoEtwHostNotificationEnabledDescription" xml:space="preserve">
+  <value>Включены ли уведомления об отсутствии узла ETW</value>
+</data>
+<data name="DetailsView_ScrollToStacktrace" xml:space="preserve">
+  <value>Прокрутить к трассировке стека</value>
+</data>
+<data name="FindIssuesActionText" xml:space="preserve">
+  <value>Найти проблемы…</value>
+</data>
+<data name="IssueSummary_SqlCommandDuration_MaxExecuted_Template" xml:space="preserve">
+  <value>Макс.: {0}, общее время {1}</value>
+</data>
+<data name="EditFilter_MethodLabel" xml:space="preserve">
+  <value>Метод:</value>
+</data>
+<data name="Suppress_AspHandlerDurationAttributeCheck" xml:space="preserve">
+  <value>Высокое время выполнения обработчика страницы Razor</value>
+</data>
+<data name="DisableAspInspectionsEventsPerFrameCountExpr" xml:space="preserve">
+  <value>Количество событий на кадр для автоматического отключения проверок ASP</value>
+</data>
+<data name="IsShowProcessingEnabledSettingDescription" xml:space="preserve">
+  <value>Показывать специальный значок для состояния обработки</value>
+</data>
+<data name="IssuesToolWindow_Refresh" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="IsDPAEnabledWhileDebuggingSettingDescription" xml:space="preserve">
+  <value>Включен ли DPA для выделения памяти во время отладки</value>
+</data>
+<data name="Suppress_AspDpaIssuesAttributeCheck" xml:space="preserve">
+  <value>Проблемы ASP</value>
+</data>
+<data name="DpaDefaultSettings_Name" xml:space="preserve">
+  <value>Настройки DPA по умолчанию</value>
+</data>
+<data name="IssueNode_Tooltip_Total" xml:space="preserve">
+  <value>Всего:</value>
+</data>
+<data name="IssueTypeName_SqlRecordCount" xml:space="preserve">
+  <value>Слишком большой набор результатов БД</value>
+</data>
+<data name="DisableWithAttributeAction_SuppressMessageAttributeIsNotSupported" xml:space="preserve">
+  <value>SuppressMessageAttribute не поддерживается в этом проекте</value>
+</data>
+<data name="IssueNode_Tooltip_MaxObservation" xml:space="preserve">
+  <value>Максимальное наблюдение</value>
+</data>
+<data name="IssueTypeName_SqlConnectionCount" xml:space="preserve">
+  <value>Слишком много подключений к БД</value>
+</data>
+<data name="Issue_Plural" xml:space="preserve">
+  <value>{0:N0} {0:choice:1#проблема|2#проблемы|5#проблем}</value>
+</data>
+<data name="Ignore_Exclude_ByModuleActionText" xml:space="preserve">
+  <value>По модулю</value>
+</data>
+<data name="IncludeFiltersSettingDescription" xml:space="preserve">
+  <value>Включающие фильтры</value>
+</data>
+<data name="IssueNode_By" xml:space="preserve">
+  <value>Владелец:</value>
+</data>
+<data name="FilteringOptionsPage_ByDefaultTheEntireSolutionIsAnalyzed" xml:space="preserve">
+  <value>По умолчанию анализируется все решение</value>
+</data>
+<data name="ThresholdsToolWindow_Asp" xml:space="preserve">
+  <value>ASP</value>
+</data>
+<data name="IssuesToolWindow_WaitingForIssues" xml:space="preserve">
+  <value>Ожидание данных…</value>
+</data>
+<data name="IssueNode_Max" xml:space="preserve">
+  <value>Макс.: </value>
+</data>
+<data name="Suppress_AspDpaIssuesActionText" xml:space="preserve">
+  <value>Подавить проблемы ASP</value>
+</data>
+<data name="BytesShort" xml:space="preserve">
+  <value>Б</value>
+</data>
+<data name="EmptyContentDpaDisabledText" xml:space="preserve">
+  <value>Dynamic Program Analysis (DPA) отключен.</value>
+</data>
+<data name="IssuesToolWindow_RunEtw" xml:space="preserve">
+  <value>Запустить 'Службу узла ETW' один раз</value>
+</data>
+<data name="Tooltip_AspViewComponentDurationIssue_Template" xml:space="preserve">
+  <value>Максимальное время вызова: {0}, общее время: {1}, {2}</value>
+</data>
+<data name="Suppress_AspViewComponentDurationAttributeCheck" xml:space="preserve">
+  <value>Высокое время выполнения компонента представления Razor</value>
+</data>
+<data name="Tooltip_AspHandlerDurationIssue_Template" xml:space="preserve">
+  <value>Максимальное время обработчика: {0}, общее время: {1}, {2}</value>
+</data>
+<data name="Suppress_AspControllerActionDurationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: макс. время операции {0:N0} мс</value>
+</data>
+<data name="Tooltip_SqlCommandCountIssue_Template" xml:space="preserve">
+  <value>Выполнено {0} команд БД, {2}</value>
+</data>
+<data name="DpaStatus_InProgress_Template" xml:space="preserve">
+  <value>{0} выполняется</value>
+</data>
+<data name="IssueNode_Tooltip_Connection" xml:space="preserve">
+  <value>Подключение:</value>
+</data>
+<data name="OptionsPage_IsShowProcessingEnabled" xml:space="preserve">
+  <value>Показывать специальный значок для состояния обработки</value>
+</data>
+<data name="IssueNode_Details_ConnectionsCount" xml:space="preserve">
+  <value>Количество подключений</value>
+</data>
+<data name="ViewMemoryAllocationIssuesActionText" xml:space="preserve">
+  <value>Просмотреть проблемы выделения памяти</value>
+</data>
+<data name="IssueTypeFullName_ClosureAllocation" xml:space="preserve">
+  <value>Объект замыкания</value>
+</data>
+<data name="OptionsPage_Asp_AutoFix_Days" xml:space="preserve">
+  <value>дней</value>
+</data>
+<data name="IssuesToolWindowBase_EnableInspection" xml:space="preserve">
+  <value>Оставлять проверку активной</value>
+</data>
+<data name="CopyCommandTextActionText" xml:space="preserve">
+  <value>Копировать текст команды</value>
+</data>
+<data name="Suppress_MemoryAllocationWithSizeActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0} в {1} в {2}</value>
+</data>
+<data name="MapOfIssueTypeToThresholdInBytesSettingDescription" xml:space="preserve">
+  <value>Соответствие типа проблемы и порогового значения в метрике</value>
+</data>
+<data name="Suppress_SqlDpaIssuesActionText" xml:space="preserve">
+  <value>Подавить проблемы БД</value>
+</data>
+<data name="StackTrace_LineSequencePoint_Template" xml:space="preserve">
+  <value> в {0}: строка {1}, столбец {2}</value>
+</data>
+<data name="IssuesToolWindowBase_DevartWarning" xml:space="preserve">
+  <value>DPA отключил проверки БД: проект использует поставщик данных ADO.NET Devart, что вызывает проблемы при анализе.</value>
+</data>
+<data name="IssuesToolWindow_BuildConfiguration" xml:space="preserve">
+  <value>Проблемы в запуске {0}</value>
+</data>
+<data name="IssuesToolWindow_InstallEtw" xml:space="preserve">
+  <value>Установить 'Службу узла ETW'</value>
+</data>
+<data name="Ignore_ExcludeFromIssueListActionGroupText" xml:space="preserve">
+  <value>Исключить из списка проблем</value>
+</data>
+<data name="IssueNode_Details_AllocatedSize" xml:space="preserve">
+  <value>Выделенный размер</value>
+</data>
+<data name="IssueNode_Details_AllocatedType" xml:space="preserve">
+  <value>Тип выделенного объекта</value>
+</data>
+<data name="Time_Plural" xml:space="preserve">
+  <value>{0:choice:1#раз|2#раза|5#раз}</value>
+</data>
+<data name="Suppress_LohAllocationAttributeCheck" xml:space="preserve">
+  <value>Чрезмерное выделение памяти в LOH</value>
+</data>
+<data name="MapOfIssueTypeToEnableInspectionsSettingDescription" xml:space="preserve">
+  <value>Соответствие типа проблемы и включения проверки</value>
+</data>
+<data name="Count" xml:space="preserve">
+  <value>количество</value>
+</data>
+<data name="AiAssistant_CodeNotFoundMsg" xml:space="preserve">
+  <value>Не удается найти исходный код проблемы: код был изменен или отсутствует. Убедитесь, что решение, открытое в Rider, совпадает с решением, анализируемым DPA. Если это правильное решение, попробуйте перезапустить.</value>
+</data>
+<data name="IssuesToolWindow_HowToFix" xml:space="preserve">
+  <value>Как исправить эти проблемы?</value>
+</data>
+<data name="IsAspHandlerDurationAutoDisabledExpr" xml:space="preserve">
+  <value>AspHandlerDuration автоматически отключен</value>
+</data>
+<data name="HighlightingOnSettingDescription" xml:space="preserve">
+  <value>Подсветка кода DPA включена</value>
+</data>
+<data name="DotTraceApi_UnavailableMessage" xml:space="preserve">
+  <value>Чтобы использовать dotTrace, включите плагин в Настройки > Плагины</value>
+</data>
+<data name="FilteringOptionsPage_Metod" xml:space="preserve">
+  <value>Метод</value>
+</data>
+<data name="IssueSummary_SqlConnectionCount_Max_Template" xml:space="preserve">
+  <value>Макс.: {0}</value>
+</data>
+<data name="FilteringOptionsPage_Class" xml:space="preserve">
+  <value>Класс</value>
+</data>
+<data name="Tooltip_SqlRecordCountIssue_Template" xml:space="preserve">
+  <value>Максимальный результат команды БД: {0} {1}, {2}</value>
+</data>
+<data name="Command_Plural" xml:space="preserve">
+  <value>{0:choice:1#команда|2#команды|5#команд}</value>
+</data>
+<data name="IssueNode_SqlCommandDuration_Infotip" xml:space="preserve">
+  <value>{0}, общее время {1} {2} {3:g}</value>
+</data>
+<data name="Suppress_SqlCommandCountAttributeCheck" xml:space="preserve">
+  <value>Большое количество команд БД</value>
+</data>
+<data name="FilteringOptionsPage_Everything" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="CopyConnectionStringActionText" xml:space="preserve">
+  <value>Копировать строку подключения</value>
+</data>
+<data name="IssueTypeFullName_SqlConnectionCount" xml:space="preserve">
+  <value>Слишком много подключений к БД</value>
+</data>
+<data name="DpaStatus_IsDisabled_Template" xml:space="preserve">
+  <value>{0} отключен</value>
+</data>
+<data name="IssueNode_Details_AllocatedClosureType" xml:space="preserve">
+  <value>Тип, сгенерированный для замыкания</value>
+</data>
+<data name="FilteringOptionsPage_FromModule" xml:space="preserve">
+  <value>, из модуля</value>
+</data>
+<data name="IssueNode_Details_MaxRecordsCount" xml:space="preserve">
+  <value>Максимальное количество записей среди всех выполнений</value>
+</data>
+<data name="EditFilter_ProcessLabel" xml:space="preserve">
+  <value>Процесс:</value>
+</data>
+<data name="IssueTypeName_SqlCommandCount" xml:space="preserve">
+  <value>Слишком много команд БД</value>
+</data>
+<data name="OptionsPage_IsOnAutoDisableAspInspections" xml:space="preserve">
+  <value>Автоматически отключать проверки ASP, влияющие на производительность</value>
+</data>
+<data name="EditFilter_ModuleLabel" xml:space="preserve">
+  <value>Модуль:</value>
+</data>
+<data name="MonitoringOptionsPage_CollectingCounters_Warning" xml:space="preserve">
+  <value>Предупреждение: сбор данных счетчиков может вызвать взаимоблокировку в среде выполнения .NET Core в приложениях и модульных тестах</value>
+</data>
+<data name="KiloBytesShort" xml:space="preserve">
+  <value>КБ</value>
+</data>
+<data name="TeraBytesShort" xml:space="preserve">
+  <value>ТБ</value>
+</data>
+<data name="LearnMore" xml:space="preserve">
+  <value>Узнать больше</value>
+</data>
+<data name="FilteringOptionsPage_Process" xml:space="preserve">
+  <value>Процесс</value>
+</data>
+<data name="Suppress_SqlDpaIssuesAttributeCheck" xml:space="preserve">
+  <value>Проблемы базы данных</value>
+</data>
+<data name="Suppress_PerformanceHotspot" xml:space="preserve">
+  <value>Узкое место производительности</value>
+</data>
+<data name="IssueNode_Details_AvgRunTime" xml:space="preserve">
+  <value>Среднее время выполнения</value>
+</data>
+<data name="IssueTypeName_SohAllocation" xml:space="preserve">
+  <value>Куча малых объектов</value>
+</data>
+<data name="IssueTypeName_AspControllerActionDuration" xml:space="preserve">
+  <value>Медленное действие MVC</value>
+</data>
+<data name="OptionsPage_AutoDisableAspInspectionsEventsPerFrameCount" xml:space="preserve">
+  <value>Лимит количества событий на кадр</value>
+</data>
+<data name="Tooltip_SqlConnectionCountIssue_Template" xml:space="preserve">
+  <value>{0} подключений к БД, {2}</value>
+</data>
+<data name="SecondsShort" xml:space="preserve">
+  <value>с</value>
+</data>
+<data name="FilteringOptionsPage_OfProcess" xml:space="preserve">
+  <value>, процесса</value>
+</data>
+<data name="StackTrace_InDocument_Template" xml:space="preserve">
+  <value> (в {0})</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="Suppress_SqlRecordCountActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0:N0} записей БД</value>
+</data>
+<data name="Ignore_LearnMoreActionText" xml:space="preserve">
+  <value>Узнать больше…</value>
+</data>
+<data name="ShowStacktraceActionText" xml:space="preserve">
+  <value>Показать трассировку стека</value>
+</data>
+<data name="IssuesToolWindow_ClearFilterToViewIssues" xml:space="preserve">
+  <value>Очистите фильтр типов, чтобы увидеть все соответствующие проблемы</value>
+</data>
+<data name="MemoryAllocationTabTitle" xml:space="preserve">
+  <value>Выделение памяти</value>
+</data>
+<data name="DPAErrors_Text" xml:space="preserve">
+  <value>Ошибки DPA</value>
+</data>
+<data name="DpaStatus_Inactive_Template" xml:space="preserve">
+  <value>{0} не активен. Дважды щелкните значок, чтобы узнать, как это исправить.</value>
+</data>
+<data name="Suppress_ClosureAllocationActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0} замыканий</value>
+</data>
+<data name="CopyDetailsActionText" xml:space="preserve">
+  <value>Копировать сведения о проблеме</value>
+</data>
+<data name="ViewAspIssuesActionText" xml:space="preserve">
+  <value>Просмотреть проблемы ASP</value>
+</data>
+<data name="ThresholdsTabTitle" xml:space="preserve">
+  <value>Пороговые значения</value>
+</data>
+<data name="IsSqlForceEnabledExpr" xml:space="preserve">
+  <value>Принудительно включить проверки SQL</value>
+</data>
+<data name="Suppress_AllDpaIssuesActionText" xml:space="preserve">
+  <value>Подавить все проблемы</value>
+</data>
+<data name="IsAspViewComponentDurationAutoDisabledExpr" xml:space="preserve">
+  <value>AspViewComponentDuration автоматически отключен</value>
+</data>
+<data name="Ignore_HideSmallerActionInactiveText" xml:space="preserve">
+  <value>Установить новый порог</value>
+</data>
+<data name="IssuesToolWindow_ClearFilterToViewNIssues" xml:space="preserve">
+  <value>Очистите фильтр, чтобы просмотреть {0}</value>
+</data>
+<data name="OptionsPage_Asp_AutoDisable" xml:space="preserve">
+  <value>Автоматическое отключение</value>
+</data>
+<data name="IssueTypeDescription_LohAllocation" xml:space="preserve">
+  <value>Код, выделяющий большой объем памяти в LOH</value>
+</data>
+<data name="FilteringOptionsPage_Module" xml:space="preserve">
+  <value>Модуль</value>
+</data>
+<data name="IsAspControllerActionDurationAutoDisabledExpr" xml:space="preserve">
+  <value>AspControllerActionDuration автоматически отключен</value>
+</data>
+<data name="IssueTypeFullName_AspHandlerDuration" xml:space="preserve">
+  <value>Медленный обработчик страницы Razor</value>
+</data>
+<data name="FilteringOptionsPage_FiltersHeader" xml:space="preserve">
+  <value>Фильтры</value>
+</data>
+<data name="Ignore_Exclude_ByMethodActionText" xml:space="preserve">
+  <value>По методу</value>
+</data>
+<data name="FilteringOptionPageTitle" xml:space="preserve">
+  <value>Фильтрация</value>
+</data>
+<data name="OptionsPage_AutoDisableAspInspectionsFrameSize" xml:space="preserve">
+  <value>Размер кадра (мс)</value>
+</data>
+<data name="Suppress_AttributeMessageId_Type" xml:space="preserve">
+  <value>Группировать по типу</value>
+</data>
+<data name="Suppress_AttributeMessageId_Size" xml:space="preserve">
+  <value>Размер</value>
+</data>
+<data name="Tooltip_SohAllocationIssue_Template" xml:space="preserve">
+  <value>Выделено в SOH: {0}, {1}</value>
+</data>
+<data name="Tooltip_ClosureAllocationIssue_Template" xml:space="preserve">
+  <value>Выделено {0} замыканий, {1}</value>
+</data>
+<data name="Connections" xml:space="preserve">
+  <value>Подключения</value>
+</data>
+<data name="OptionsPage_Asp_EnableInspections" xml:space="preserve">
+  <value>Включить проверки ASP.NET Core</value>
+</data>
+<data name="IssueNode_Details_ReturnedMoreThan" xml:space="preserve">
+  <value>Возвращено более</value>
+</data>
+<data name="TurnCodeHighlightingOnActionText" xml:space="preserve">
+  <value>Включить подсветку кода</value>
+</data>
+<data name="Suppress_SqlCommandCountActionText_Template" xml:space="preserve">
+  <value>Подавить проблему: {0:N0} выполненных команд БД</value>
+</data>
+<data name="FilteringOptionsPage_AddFilter" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="OptionsPage_Sql_AutoDisable" xml:space="preserve">
+  <value>Автоматическое отключение</value>
+</data>
+<data name="IssuesToolWindow_IssueTypes" xml:space="preserve">
+  <value>Проблемы:</value>
+</data>
+<data name="TurnCodeHighlightingOffActionText" xml:space="preserve">
+  <value>Выключить подсветку кода</value>
+</data>
+<data name="Records" xml:space="preserve">
+  <value>Записи</value>
+</data>
+<data name="OptionsPage_LimitSnapshotSize" xml:space="preserve">
+  <value>Ограничить размер собираемых данных производительности</value>
+</data>
+<data name="EditFilter_DontAnalyzeCodeIn" xml:space="preserve">
+  <value>Исключенная область для анализа кода</value>
+</data>
+<data name="FilteringOptionsPage_DontAnalyzeCodeIn" xml:space="preserve">
+  <value>Исключенная область для анализа кода</value>
+</data>
+<data name="IssueNode_Details_TotalRecordsCount" xml:space="preserve">
+  <value>Общее количество записей</value>
+</data>
+<data name="DisableAspInspectionsFrameSizeExpr" xml:space="preserve">
+  <value>Размер кадра (мс) для автоматического отключения проверок ASP</value>
+</data>
+<data name="ThresholdsToolWindow_Database" xml:space="preserve">
+  <value>База данных</value>
+</data>
+<data name="Record_Plural" xml:space="preserve">
+  <value>{0:choice:1#запись|2#записи|5#записей}</value>
+</data>
+<data name="IssuesToolWindow_LearnMore" xml:space="preserve">
+  <value>Узнать больше</value>
+</data>
+<data name="Suppress_SqlCommandDurationAttributeCheck" xml:space="preserve">
+  <value>Высокое время выполнения команды БД</value>
+</data>
+<data name="IssueTypeDescription_ClosureAllocation" xml:space="preserve">
+  <value>Код, выделяющий большое количество объектов замыкания (например, для лямбда-выражений или LINQ)</value>
+</data>
+<data name="IssueSummary_SqlRecordCount_MaxExecuted_Template" xml:space="preserve">
+  <value>Макс.: {0}</value>
+</data>
+<data name="IssueTypeFullName_SqlCommandDuration" xml:space="preserve">
+  <value>Медленная команда БД</value>
+</data>
+<data name="IssuesToolWindow_NoIssuesFound" xml:space="preserve">
+  <value>Соответствующих проблем не найдено</value>
+</data>
+<data name="IssueSummary_SqlCommandDuration_Executed_Template" xml:space="preserve">
+  <value>{0}: {1}, общее время {2} </value>
+</data>
+<data name="Suppress_RootMenuActionText " xml:space="preserve">
+  <value>Подавить проблему DPA</value>
+</data>
+<data name="IssueTypeFullName_SqlRecordCount" xml:space="preserve">
+  <value>Слишком большой набор результатов БД</value>
+</data>
+<data name="EditFilter_ModuleNameMaskCantBeEmpty" xml:space="preserve">
+  <value>Маска имени модуля не может быть пустой</value>
+</data>
+<data name="IssueNode_Tooltip_Max" xml:space="preserve">
+  <value>Максимум:</value>
+</data>
+<data name="IssueNode_Details_ExecutionsCount" xml:space="preserve">
+  <value>Одинаковая команда БД выполнена</value>
+</data>
+<data name="DetailsView_ScrollToEnd" xml:space="preserve">
+  <value>Прокрутить до конца</value>
+</data>
+<data name="DetailsView_ScrollToSql" xml:space="preserve">
+  <value>Прокрутить к SQL</value>
+</data>
+<data name="AspTabTitle" xml:space="preserve">
+  <value>ASP</value>
+</data>
+<data name="IsOnAutoDisableAspInspectionsExpr" xml:space="preserve">
+  <value>Автоматически отключать проверки ASP</value>
+</data>
+<data name="Ignore_ShowFilteringSettingsActionText" xml:space="preserve">
+  <value>Показать настройки фильтрации</value>
+</data>
+<data name="DynamicProgramAnalysis" xml:space="preserve">
+  <value>Динамический анализ программ</value>
+</data>
+<data name="IssueTypeDescription_SqlCommandCount" xml:space="preserve">
+  <value>Код многократно выполняет одну и ту же команду БД</value>
+</data>
+<data name="EditFilter_AnalyzeCodeIn" xml:space="preserve">
+  <value>Включенная область для анализа кода</value>
+</data>
+<data name="AspIssuesOutdateTimeoutSettingDescription" xml:space="preserve">
+  <value>Таймаут устаревания проблем ASP</value>
+</data>
+<data name="Connection_Plural" xml:space="preserve">
+  <value>{0:choice:1#подключение|2#подключения|5#подключений}</value>
+</data>
+<data name="IssueNode_Tooltip_Command" xml:space="preserve">
+  <value>Команда:</value>
+</data>
+<data name="MinutesShort" xml:space="preserve">
+  <value>м</value>
+</data>
+<data name="IssueTypeName_AspHandlerDuration" xml:space="preserve">
+  <value>Медленный обработчик страницы Razor</value>
+</data>
+<data name="IssuesToolWindow_Settings" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="IssuesToolWindowBase_HighlightIssuesInCode" xml:space="preserve">
+  <value>Подсвечивать проблемы в коде</value>
+</data>
+<data name="FilteringOptionsPage_FromClass" xml:space="preserve">
+  <value>, из класса </value>
+</data>
+<data name="IssueTypeFullName_LohAllocation" xml:space="preserve">
+  <value>Куча больших объектов</value>
+</data>
+<data name="Ignore_Exclude_ByProcessActionText" xml:space="preserve">
+  <value>По процессу</value>
+</data>
+<data name="ThresholdsToolWindow_MemoryAllocation" xml:space="preserve">
+  <value>Выделение памяти</value>
+</data>
+<data name="Ignore_HideSmallerActionText_Template" xml:space="preserve">
+  <value>Установить новый порог для '{0}': {1} {2}</value>
+</data>
+<data name="DpaStatus_IsReady_Template" xml:space="preserve">
+  <value>{0} готов</value>
+</data>
+<data name="IssueTypeFullName_SqlCommandCount" xml:space="preserve">
+  <value>Слишком много команд БД</value>
+</data>
+<data name="EditFilter_ClassLabel" xml:space="preserve">
+  <value>Класс:</value>
+</data>
+<data name="IssueNode_Details_MaxObserved" xml:space="preserve">
+  <value>Максимальное наблюдение в истории запусков</value>
+</data>
+<data name="IssuesToolWindow_Asp_NoIssuesText" xml:space="preserve">
+  <value>Проблем с ASP не обнаружено</value>
+</data>
+<data name="Suppress_SqlConnectionCountAttributeCheck" xml:space="preserve">
+  <value>Большое количество подключений к БД</value>
+</data>
+<data name="EmptyContentDpaEnableLinkText" xml:space="preserve">
+  <value>Включить DPA</value>
+</data>
+<data name="SetThresholdsActionText" xml:space="preserve">
+  <value>Установить пороговые значения</value>
+</data>
+<data name="OptionsPage_Sql_EnableInspections" xml:space="preserve">
+  <value>Включить проверки БД</value>
+</data>
+<data name="OptionsPage_EnableInDebug" xml:space="preserve">
+  <value>Анализировать выделение памяти во время отладки</value>
+</data>
+<data name="IssueSummary_SqlConnectionCount_Template" xml:space="preserve">
+  <value>{0}: {1} {2}</value>
+</data>
+<data name="Suppress_AttributeMessageId_Count" xml:space="preserve">
+  <value>Количество</value>
+</data>
+<data name="GigaBytesShort" xml:space="preserve">
+  <value>ГБ</value>
+</data>
+<data name="Suppress_AttributeMessageId_Command" xml:space="preserve">
+  <value>Команда</value>
+</data>
+<data name="IssueNode_MemoryAllocation_AllocatedType" xml:space="preserve">
+  <value>Тип выделения</value>
+</data>
+<data name="IssueNode_Details_Above" xml:space="preserve">
+  <value>Выше</value>
+</data>
+<data name="Ignore_ActionGroupText" xml:space="preserve">
+  <value>Игнорировать</value>
+</data>
+<data name="SqlTabTitle" xml:space="preserve">
+  <value>База данных</value>
+</data>
+<data name="IssueTypeName_ClosureAllocation" xml:space="preserve">
+  <value>Объект замыкания</value>
+</data>
+<data name="MegaBytesShort" xml:space="preserve">
+  <value>МБ</value>
+</data>
+<data name="QuickFilter_ShowUiFreeze" xml:space="preserve">
+  <value>Показать зависания UI</value>
+</data>
+</root>

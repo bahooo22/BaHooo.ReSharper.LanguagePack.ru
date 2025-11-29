@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="InstantiationCannotBeTransformedInto_Collection_Text" xml:space="preserve">
+  <value>{0, экземпляризация} не может быть преобразована в фабричный метод: не удается извлечь инициализатор коллекции</value>
+</data>
+<data name="_ExtractMethod_Text" xml:space="preserve">
+  <value>Извлечь метод (&amp;E)</value>
+</data>
+<data name="IntroduceVariableForSubstring_Text" xml:space="preserve">
+  <value>Ввести переменную для подстроки</value>
+</data>
+<data name="UsageOf_InConstantContextWillBecome_Text" xml:space="preserve">
+  <value>Использование '{0}' в константном контексте станет недействительным</value>
+</data>
+<data name="UseDefaultParameterValue__Text" xml:space="preserve">
+  <value>Использовать значение параметра по умолчанию ({0})</value>
+</data>
+<data name="UsingDeclarationConflict_Text" xml:space="preserve">
+  <value>Переменная является частью объявления 'using', встраивание может привести к утечке ресурсов</value>
+</data>
+<data name="_HasUnresolvedTypeOfParametersMethod_Text" xml:space="preserve">
+  <value>{0} имеет неразрешенный тип параметров. Метод не будет преобразован.</value>
+</data>
+<data name="SelectNone_Text" xml:space="preserve">
+  <value>Не выбирать (_O)</value>
+</data>
+<data name="DeterminingImportScopes_Text" xml:space="preserve">
+  <value>Определение областей импорта</value>
+</data>
+<data name="Field_AccessWillBecomePolymorphic_Text" xml:space="preserve">
+  <value>Доступ к полю {0} станет полиморфным</value>
+</data>
+<data name="__MightBeImpliclyUsedByTheCompilerGenerated_Text" xml:space="preserve">
+  <value>{0} '{{0}}' может неявно использоваться сгенерированными компилятором методами 'Equals'/'GetHashCode'/'PrintMembers' для типа записи '{1}'</value>
+</data>
+<data name="UsageOf_MayBeBrokenMethodCallOver_Can_Text" xml:space="preserve">
+  <value>Использование {0} может быть нарушено: вызов метода для {0} может изменить структуру, так как она классифицируется как переменная. Свойства возвращают временную копию структуры при каждом обращении, поэтому результаты изменения наблюдаться не будут.</value>
+</data>
+<data name="ChangeNullability_Text" xml:space="preserve">
+  <value>Изменить допустимость значения NULL</value>
+</data>
+<data name="VariableHasUnsupportedUsageKind_Text" xml:space="preserve">
+  <value>Переменная имеет неподдерживаемый вид использования</value>
+</data>
+<data name="UsageOf_MayBeBrokenIfStructTypeWill_MutateVariable_Text" xml:space="preserve">
+  <value>Использование {0} может быть нарушено, если тип структуры будет заменен на неограниченный параметр универсального типа: вызов метода для {0} может изменить структуру, так как она классифицируется как изменяемая переменная</value>
+</data>
+<data name="SignatureChangeConflictsWithSignature_Text" xml:space="preserve">
+  <value>Изменение сигнатуры конфликтует с сигнатурой {0,делегата}</value>
+</data>
+<data name="ConvertToGlobalUsing_Text" xml:space="preserve">
+  <value>Преобразовать в global using</value>
+</data>
+<data name="CannotRenameIndexers_Text" xml:space="preserve">
+  <value>Нельзя переименовать индексаторы</value>
+</data>
+<data name="ReturnedValueOf0CallIsNotUsed_Text" xml:space="preserve">
+  <value>Возвращаемое значение {0,вызова} не используется</value>
+</data>
+<data name="ConvertToGlobalUsing_RemoveUsingDirective_X_Of_N_Text" xml:space="preserve">
+  <value>Удаление директивы using ({0:N0}/{1:N0})</value>
+</data>
+<data name="AssignedValueHasNoReachableUsages_Text" xml:space="preserve">
+  <value>Присвоенное значение не имеет достижимых использований</value>
+</data>
+<data name="DeconstructInto_TextPrefix" xml:space="preserve">
+  <value>Деструктуризация в </value>
+</data>
+<data name="ConvertToGlobalUsing_CheckingConflicts_Text" xml:space="preserve">
+  <value>Проверка конфликтов</value>
+</data>
+<data name="ApplyNullabilityChange_Text" xml:space="preserve">
+  <value>Применение изменения допустимости значения NULL…</value>
+</data>
+<data name="RemovingGlobalUsingDirectives_Text" xml:space="preserve">
+  <value>Удаление глобальных директив using…</value>
+</data>
+<data name="DeterminingSearchDomainFor__Text" xml:space="preserve">
+  <value>Определение домена поиска для '{0}'</value>
+</data>
+<data name="ExtractProperty_Text" xml:space="preserve">
+  <value>Извлечь свойство</value>
+</data>
+<data name="_FileName_Text" xml:space="preserve">
+  <value>Имя файла (_F):</value>
+</data>
+<data name="AmbiguousDeclarationsFor_ReferenceWere_Text" xml:space="preserve">
+  <value>Обнаружены неоднозначные объявления для ссылки '{0}', директива using не будет удалена</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodLogLevelConstant_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен принимать LogLevel в качестве параметра, но вместо этого имеет {1}</value>
+</data>
+<data name="StoringReferences_Text" xml:space="preserve">
+  <value>Сохранение ссылок…</value>
+</data>
+<data name="TransformParameters_Conflict_CannotCreateVariable_Text" xml:space="preserve">
+  <value>Не удается объявить переменную для параметра '{0}' в точке вызова</value>
+</data>
+<data name="NewAccessorIntroductionIsNotAllowedInExplicitImplementation_Text" xml:space="preserve">
+  <value>Введение нового метода доступа не допускается в явной реализации {0}</value>
+</data>
+<data name="ConvertToGeneratedMethod_MemberOfSourceType_Text" xml:space="preserve">
+  <value>Создать метод в том же классе, где производится вызов</value>
+</data>
+<data name="InitOnlyPropertyWillBecomeMutableTo_Text" xml:space="preserve">
+  <value>Свойство только для инициализации станет изменяемым, чтобы избежать нарушения {0} использований</value>
+</data>
+<data name="MemberHas1UsageInObjectInitializer_Text" xml:space="preserve">
+  <value>{0,член} имеет {1,использование} в инициализаторе объекта</value>
+</data>
+<data name="Attribute0_OfTheFieldDeclarationWill_Text" xml:space="preserve">
+  <value>Атрибут поля {{0,[{0}]}} будет применен к объявлению свойства</value>
+</data>
+<data name="_IsAMethodGroup_Text" xml:space="preserve">
+  <value>{0} является группой методов</value>
+</data>
+<data name="MaKeStatic_Text" xml:space="preserve">
+  <value>Сделать статическим (&amp;K)</value>
+</data>
+<data name="RefactoringWillChangeInitAccessorOf_Text" xml:space="preserve">
+  <value>Рефакторинг изменит метод доступа 'init' свойства '{0}' на 'set', что позволит извлечь инициализатор объекта в присваивание</value>
+</data>
+<data name="PasteDeclarationsTo__Of__Text" xml:space="preserve">
+  <value>Вставка объявлений в {0}({1:N0} / {2:N0})…</value>
+</data>
+<data name="UnableToRemoveTheAccessorFrom_Positional_Text" xml:space="preserve">
+  <value>Не удается удалить метод доступа из позиционного свойства {0}</value>
+</data>
+<data name="Parameter_CreatedIn___Text" xml:space="preserve">
+  <value>Параметр ’{0}’, созданный в {1} ’{2}’</value>
+</data>
+<data name="_WillBeConvertedToARegularMethodAsIt_Text" xml:space="preserve">
+  <value>{0} будет преобразован в обычный метод, так как он используется как в исходном, так и в извлеченном коде</value>
+</data>
+<data name="UsageOf_MayBeBrokenIfStructTypeWill_Text" xml:space="preserve">
+  <value>Использование {0} может быть нарушено, если тип структуры будет заменен на неограниченный параметр универсального типа: вызов метода для {0} может изменить структуру, так как она классифицируется как переменная. Свойства возвращают временную копию структуры при каждом обращении, поэтому результаты изменения наблюдаться не будут.</value>
+</data>
+<data name="RemovingOutArgumentOf0UsageMayCause_Text" xml:space="preserve">
+  <value>Удаление аргумента 'out' у {0, использования} может вызвать проблемы</value>
+</data>
+<data name="NoValidQualifierCanBeCreatedFor0Usage_Text" xml:space="preserve">
+  <value>Не удается создать допустимый квалификатор для {0, использования}</value>
+</data>
+<data name="AtTheEndOfTopLevelStatements_Text" xml:space="preserve">
+  <value>В конце операторов верхнего уровня</value>
+</data>
+<data name="FieldWillBeEncapsulated_Text" xml:space="preserve">
+  <value>{0,поле} будет инкапсулировано</value>
+</data>
+<data name="_IsNotDeclaredAbstractBodyWillBeRemoved_Text" xml:space="preserve">
+  <value>{0} не объявлен как abstract. Тело будет удалено.</value>
+</data>
+<data name="ConvertToGlobalUsing_TopUsingsInProject_Text" xml:space="preserve">
+  <value>Наиболее частые using в проекте '{0}':</value>
+</data>
+<data name="_0_WillBeMadeUnsafeInOrderToInlineUnsafe_Text" xml:space="preserve">
+  <value>{0} '{{0,{1}}}' будет сделан небезопасным для встраивания в него небезопасного кода</value>
+</data>
+<data name="_WillBeReplacedWithBackingFieldProperty_Text" xml:space="preserve">
+  <value>{0} будет заменен свойством с резервным полем</value>
+</data>
+<data name="OperationOrderChangeInCallsiteConflict_Text" xml:space="preserve">
+  <value>Порядок операций изменится на стороне вызова</value>
+</data>
+<data name="NewField_CreatedInType__Text" xml:space="preserve">
+  <value>Новое поле '{0}', созданное в типе '{1}'</value>
+</data>
+<data name="_HasBaseClassUsage_Text" xml:space="preserve">
+  <value>{0} имеет использование базового класса</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodWithoutAttribute_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен иметь атрибут '{1}'</value>
+</data>
+<data name="Usages_Text" xml:space="preserve">
+  <value>{0} использований</value>
+</data>
+<data name="ConvertToGlobalUsing_DirectiveColumn_Text" xml:space="preserve">
+  <value>Директива</value>
+</data>
+<data name="CanTUpdate0_EncapsulatedFieldWonTBe_Text" xml:space="preserve">
+  <value>Не удается обновить {{0,{0}}}: инкапсулированное поле будет недоступно</value>
+</data>
+<data name="RecordTypeImplicitMemberCouldNotBeRenamed_Text" xml:space="preserve">
+  <value>Не удалось переименовать неявный член типа записи</value>
+</data>
+<data name="UnableToRemove0DeconstructionUsage_Text" xml:space="preserve">
+  <value>Не удается удалить {0, использование деструктуризации}</value>
+</data>
+<data name="UsageRequiresAStatementWhichCannot_Text" xml:space="preserve">
+  <value>{0, использование} требует оператор, который не может быть создан в точке вызова</value>
+</data>
+<data name="CallerCannotBeNull_Text" xml:space="preserve">
+  <value>{0, вызывающий} не может быть null</value>
+</data>
+<data name="ThisUsage0CanTBeResolved_Text" xml:space="preserve">
+  <value>Не удается разрешить это использование {$0}.</value>
+</data>
+<data name="__CannotBeAssignedInTheExtractedCode_Text" xml:space="preserve">
+  <value>{0} '{{0}}' не может быть присвоено в извлеченном коде</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodLogLevelRequired_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен принимать LogLevel в качестве параметра</value>
+</data>
+<data name="ExtractChainedConstructor_Text" xml:space="preserve">
+  <value>Извлечь цепочку конструкторов</value>
+</data>
+<data name="CreateLocalFunctionInsideTheCurrent_Text" xml:space="preserve">
+  <value>Создать локальную функцию внутри текущего члена</value>
+</data>
+<data name="Member_HasNotEnoughAccess_Text" xml:space="preserve">
+  <value>У члена {0} недостаточный уровень доступности</value>
+</data>
+<data name="_CanTBeTransformedCorrectlyDueToLanguage_Text" xml:space="preserve">
+  <value>{0} не может быть корректно преобразован из-за особенностей языка</value>
+</data>
+<data name="_CannotBeMadePublicThereIsAConflicting_Text" xml:space="preserve">
+  <value>{0} не может быть сделан public. Существует конфликтующий {1}.</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_NextButtonText" xml:space="preserve">
+  <value>Извлечь здесь…</value>
+</data>
+<data name="ReadWriteUsage_Text" xml:space="preserve">
+  <value>Использование для чтения/записи</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodLogLevelMismatch_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен иметь LogLevel = {2}, но вместо этого имеет {1}</value>
+</data>
+<data name="TypeOfOutVariable_CannotBeUsedAtThe_Text" xml:space="preserve">
+  <value>Тип выходной переменной {0} не может быть использован в точке вызова</value>
+</data>
+<data name="ExtractMethod_PositionSelectorInlayHint_Text" xml:space="preserve">
+  <value>Используйте клавиши со стрелками для выбора позиции локальной функции</value>
+</data>
+<data name="AmbiguousReference_WillBeUpdated_Text" xml:space="preserve">
+  <value>Неоднозначная ссылка {0} будет обновлена</value>
+</data>
+<data name="WillBeMadeStatic_ConflictText" xml:space="preserve">
+  <value>Метод расширения будет сделан статическим</value>
+</data>
+<data name="ConvertToLogMethod_LoggerParameter_Text" xml:space="preserve">
+  <value>Параметр логгера:</value>
+</data>
+<data name="DelegateViaOverloading_CSharp8_Text" xml:space="preserve">
+  <value>Оставить вызов как есть, перегрузить {0} и делегировать реализацию созданной перегрузке (требуется C# 8.0 или выше)(_O)</value>
+</data>
+<data name="TheExtractedCodeHasMultipleExits_Text" xml:space="preserve">
+  <value>Извлеченный код имеет несколько выходов</value>
+</data>
+<data name="TaskReturnedFromTheAsync0CallWillNo_Text" xml:space="preserve">
+  <value>Задача, возвращенная из асинхронного {0,вызова}, больше не будет доступна</value>
+</data>
+<data name="CannotIntroduceVariableFromTheSelected_Text" xml:space="preserve">
+  <value>Нельзя ввести переменную из выбранной части строки</value>
+</data>
+<data name="GlobalUsingDirectivesComment_Text" xml:space="preserve">
+  <value>Глобальные директивы using</value>
+</data>
+<data name="AddingImport_Text" xml:space="preserve">
+  <value>Добавление импорта</value>
+</data>
+<data name="MethodIsUsedFor0Unsubscribing_Text" xml:space="preserve">
+  <value>Метод используется для {0,отписки}.</value>
+</data>
+<data name="PropertyAccessorsCannotBeRenamed_Text" xml:space="preserve">
+  <value>Методы доступа свойств нельзя переименовать</value>
+</data>
+<data name="SearchInSolution_Text" xml:space="preserve">
+  <value>В решении</value>
+</data>
+<data name="MergingResults_Text" xml:space="preserve">
+  <value>Объединение результатов</value>
+</data>
+<data name="EnableImplicitUsings_Action_Text" xml:space="preserve">
+  <value>Включить неявные using</value>
+</data>
+<data name="TypeSystemFuncIsNotAvailable_Text" xml:space="preserve">
+  <value>Тип System.Func недоступен</value>
+</data>
+<data name="_WillBeMovedToTheExtractedCodeAlongside_Text" xml:space="preserve">
+  <value>{0} будет перемещен в извлеченный код вместе со всеми его использованиями</value>
+</data>
+<data name="_Visibility_Text" xml:space="preserve">
+  <value>Видимость (_V):</value>
+</data>
+<data name="IntroducePartOfAQueryExpression_Text" xml:space="preserve">
+  <value>Ввести часть выражения запроса</value>
+</data>
+<data name="PrimaryConstructorParameterHasMutationUsage_Text" xml:space="preserve">
+  <value>Параметр первичного конструктора имеет {0,изменяющее использование} в замыкании. Целевое автоматическое свойство будет инициализировано копией значения параметра и не будет отражать изменения изменяемого параметра первичного конструктора.</value>
+</data>
+<data name="ThereIsAmbiguousConstructorReference_Text" xml:space="preserve">
+  <value>Существует неоднозначная ссылка на конструктор. Будет создана версия конструктора для всех вариантов.</value>
+</data>
+<data name="UsageOf_WillBeBrokenAccessedExpression_Text" xml:space="preserve">
+  <value>Использование {0} будет нарушено: доступное выражение должно классифицироваться как переменная. Доступ к автоматическому свойству возвращает временную копию значения при каждом обращении.</value>
+</data>
+<data name="Inlining__Text" xml:space="preserve">
+  <value>Встраивание '{0}'</value>
+</data>
+<data name="TypeNameShouldnTBeEmpty_Text" xml:space="preserve">
+  <value>Имя типа не должно быть пустым</value>
+</data>
+<data name="FieldInitializerWillNotBeMovedFor__Text" xml:space="preserve">
+  <value>Инициализатор поля не будет перемещен для {0}</value>
+</data>
+<data name="ExtractMethod_MovedLocalFunctionHint" xml:space="preserve">
+  <value>&lt;Будет перемещено&gt;</value>
+</data>
+<data name="CCodeFilesShouldBeUnderAppCodeFolder_Text" xml:space="preserve">
+  <value>Файлы кода C# должны находиться в папке AppCode веб-сайта</value>
+</data>
+<data name="VariableHasUnsupportedInitializer_Text" xml:space="preserve">
+  <value>Переменная имеет неподдерживаемый инициализатор</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_MoveUpButtonTooltip" xml:space="preserve">
+  <value>Переместить локальную функцию вверх</value>
+</data>
+<data name="_IsUsedWithUnpresentableType_Text" xml:space="preserve">
+  <value>{0} используется с непредставимым типом</value>
+</data>
+<data name="Unknown_Text" xml:space="preserve">
+  <value>&lt;Неизвестно&gt;</value>
+</data>
+<data name="ConvertToGlobalUsingPageTitle_Text" xml:space="preserve">
+  <value>Проверка директив using</value>
+</data>
+<data name="CannotInline0Usage_Text" xml:space="preserve">
+  <value>Не удается встроить {0, использование}.</value>
+</data>
+<data name="Attribute0_OfTheFieldDeclarationCannot_Text" xml:space="preserve">
+  <value>Атрибут поля {{0,[{0}]}} не может быть применен к объявлению свойства и будет проигнорирован компилятором в новом контексте</value>
+</data>
+<data name="TypeCannotBeResolved_Text" xml:space="preserve">
+  <value>Тип не может быть разрешен</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodEventIdMismatch_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен иметь EventId = {1}, но вместо этого имеет {2}</value>
+</data>
+<data name="SearchInClass_Text" xml:space="preserve">
+  <value>В классе</value>
+</data>
+<data name="InitializerExpressionIsOverwritten_Text" xml:space="preserve">
+  <value>{0,выражение инициализации} перезаписывается во всех конструкторах и будет удалено</value>
+</data>
+<data name="CreateConstructorToDelegateInitialization_Text" xml:space="preserve">
+  <value>Создать конструктор для делегирования инициализации</value>
+</data>
+<data name="RemovingLastDeconstructionComponent_Text" xml:space="preserve">
+  <value>Удаление последнего компонента деструктуризации нарушит все {0, использования деструктуризации}</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_Title" xml:space="preserve">
+  <value>Извлечь локальную функцию</value>
+</data>
+<data name="CannotIntroduceVariable_Text" xml:space="preserve">
+  <value>Нельзя ввести переменную</value>
+</data>
+<data name="Property_OverridingBaseClassProperty_Text" xml:space="preserve">
+  <value>Свойство {0} переопределяет свойство базового класса</value>
+</data>
+<data name="VariableHasWriteUsages_Text" xml:space="preserve">
+  <value>Переменная имеет использования для записи</value>
+</data>
+<data name="ToConvert_PropertyShouldBeNamedItem_Text" xml:space="preserve">
+  <value>Для преобразования {0} свойство должно быть названо 'Item'</value>
+</data>
+<data name="CannotMove__Text" xml:space="preserve">
+  <value>Не удается переместить {0}</value>
+</data>
+<data name="RemovingOutArgumentWillBreakUsagesOf_Text" xml:space="preserve">
+  <value>Удаление аргумента 'out' нарушит использования 'out' {0, переменной}</value>
+</data>
+<data name="AutoPropertyWillAlsoOverride__Text" xml:space="preserve">
+  <value>Автоматическое свойство также переопределит {0}</value>
+</data>
+<data name="ConvertToNonGlobalUsing_Action_Text" xml:space="preserve">
+  <value>Преобразовать в неглобальный using…</value>
+</data>
+<data name="CannotReplaceNameofArgumentWithDefault_Text" xml:space="preserve">
+  <value>Не удается заменить аргумент 'nameof()' значением параметра по умолчанию</value>
+</data>
+<data name="InvalidType_Text" xml:space="preserve">
+  <value>Неверный тип</value>
+</data>
+<data name="BackingField_AccessWillBecomePolymorphic_Text" xml:space="preserve">
+  <value>Доступ к резервному полю {0} станет полиморфным</value>
+</data>
+<data name="UnableToPartiallyEncapsulateField0Usage_Text" xml:space="preserve">
+  <value>Не удается частично инкапсулировать использование поля {0}</value>
+</data>
+<data name="ConvertToGeneratedMethod_MoveToAnotherClass_Text" xml:space="preserve">
+  <value>Переместить созданный метод в определенный класс (_M):</value>
+</data>
+<data name="After__Text" xml:space="preserve">
+  <value>После {0}</value>
+</data>
+<data name="AtTheBeginningOf__Text" xml:space="preserve">
+  <value>В начале {0}</value>
+</data>
+<data name="CannotInlineAsynchronousCodeInNonAsync_Text" xml:space="preserve">
+  <value>Не удается встроить асинхронный код в неасинхронную функцию</value>
+</data>
+<data name="_CannotBeReferencedInSourceFunction_Text" xml:space="preserve">
+  <value>{0} не может быть ссылаться в исходной функции после рефакторинга</value>
+</data>
+<data name="CreateDeconstructingDeclaration_Text" xml:space="preserve">
+  <value>Создать деконструирующее объявление</value>
+</data>
+<data name="ChooseWhereToPlaceTheNewLocalFunction_Text" xml:space="preserve">
+  <value>Выберите, куда поместить новую локальную функцию</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodEventIdWillChange_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' объявляет EventId = {1}, что отличается от исходного EventId = {2}</value>
+</data>
+<data name="Field0InitializerWillBeReplacedWith_Text" xml:space="preserve">
+  <value>Инициализатор поля {0} будет заменен полиморфным присваиванием в конструкторе</value>
+</data>
+<data name="Existing0AutoPropertyWillBeBroken_Text" xml:space="preserve">
+  <value>Существующее {0, автоматическое свойство} будет нарушено</value>
+</data>
+<data name="CreateNewMethodDeclarationBelowTheCurrent_Text" xml:space="preserve">
+  <value>Создать новое объявление метода под текущим членом</value>
+</data>
+<data name="MemberCanTHaveTheSameNameAsEnclosing_Text" xml:space="preserve">
+  <value>Член не может иметь то же имя, что и его вмещающий тип {0}</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodMessageMismatch_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен иметь Message = {1}, но вместо этого имеет {2}</value>
+</data>
+<data name="RemovingDeconstructionComponentWillBreakPattern_Text" xml:space="preserve">
+  <value>Удаление компонента деструктуризации нарушит использования шаблонной {0, переменной}</value>
+</data>
+<data name="NodeBecameInvalid_Text" xml:space="preserve">
+  <value>Узел стал недействительным</value>
+</data>
+<data name="ConvertToGlobalUsing_Action_Text" xml:space="preserve">
+  <value>Преобразовать в global using…</value>
+</data>
+<data name="ParameterWillBeReplacedWithLocalVariable_Text" xml:space="preserve">
+  <value>Параметр будет заменен локальной переменной для сохранения использований</value>
+</data>
+<data name="CannotRunControlFlowAnalysisFromThis_Text" xml:space="preserve">
+  <value>Не удается выполнить анализ потока управления из этого расположения</value>
+</data>
+<data name="ConflictingAliasUsingDirective_WasFound_Text" xml:space="preserve">
+  <value>Найдена конфликтующая директива using с псевдонимом '{{0}}', псевдоним будет переименован в '{0}'</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_Text" xml:space="preserve">
+  <value>Используйте **клавиши со стрелками** для выбора позиции
+Нажмите **Enter** для подтверждения, **Esc** для отмены</value>
+</data>
+<data name="BecauseThe0CallIsNotAwaitedTheInlined_Text" xml:space="preserve">
+  <value>Поскольку {0,вызов} не ожидается, встроенный код больше не будет выполняться параллельно</value>
+</data>
+<data name="CannonMakeClass_StaticInstanceConstructor_Text" xml:space="preserve">
+  <value>Не удается сделать класс '{0}' статическим: {{0, использование}} экземпляра конструктора</value>
+</data>
+<data name="ConvertToLogMethod_ExistingMethodEventIdRequired_ConflictText" xml:space="preserve">
+  <value>Существующий метод '{0}' должен иметь EventId = {1}, но он не указан</value>
+</data>
+<data name="MakeV_irtual_Text" xml:space="preserve">
+  <value>Сделать виртуальным (_I)</value>
+</data>
+<data name="ConditionalInvocationOfExtensionMethod_Text" xml:space="preserve">
+  <value>{0, условный вызов} метода расширения не может быть переписан как вызов статического метода</value>
+</data>
+<data name="CannotReplaceNameofArgumentWithArgument_Text" xml:space="preserve">
+  <value>Не удается заменить аргумент 'nameof()' выражением аргумента</value>
+</data>
+<data name="CannotInlineUsageUnder0NameofOperator_Text" xml:space="preserve">
+  <value>Не удается встроить использование под оператором {0, nameof}</value>
+</data>
+<data name="SourceFunctionCannotReference__Text" xml:space="preserve">
+  <value>Исходная функция не может ссылаться на {0}</value>
+</data>
+<data name="TransformParameters_Conflict_CannotCreateVariableOfType_Text" xml:space="preserve">
+  <value>Не удается объявить переменную типа '{0}' для параметра '{1}' в точке вызова</value>
+</data>
+<data name="SetterWillBeAddedFor___Text" xml:space="preserve">
+  <value>Для {0} '{{0}}' будет добавлен setter</value>
+</data>
+<data name="ConvertToGeneratedMethod_CreateClassPart_Text" xml:space="preserve">
+  <value>Переместить созданный метод в отдельную часть в файле '{0}'</value>
+</data>
+<data name="CannotAccessParameterType_InInstance_Text" xml:space="preserve">
+  <value>Не удается получить доступ к типу параметра {0} в типе экземпляра</value>
+</data>
+<data name="Name_Column_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="UsagesOfLocalFunction0_WillBecomeInvalid_Text" xml:space="preserve">
+  <value>Использования локальной функции '{{0, {0}}}' станут недействительными, так как ее область видимости будет изменена в точке вызова</value>
+</data>
+<data name="_CannotBePlacedInTheInterface_Text" xml:space="preserve">
+  <value>{0} не может быть помещен в интерфейс</value>
+</data>
+<data name="Before__Text" xml:space="preserve">
+  <value>До {0}</value>
+</data>
+<data name="ExtractedCodeCannotReference_ForRecursive_Text" xml:space="preserve">
+  <value>Извлеченный код не может ссылаться на {0} для рекурсивного вызова</value>
+</data>
+<data name="NewFileWillBeCreated_Text" xml:space="preserve">
+  <value>Будет создан новый файл</value>
+</data>
+<data name="TheNameWillBeCoercedDueToAConflictWith_Text" xml:space="preserve">
+  <value>Имя будет приведено из-за конфликта с другим элементом</value>
+</data>
+<data name="DefaultParameterValueIsUsed__Text" xml:space="preserve">
+  <value>Используется значение параметра по умолчанию({0})</value>
+</data>
+<data name="ConvertToGlobalUsing_RemovingUsingDirectives_Text" xml:space="preserve">
+  <value>Удаление директив using</value>
+</data>
+<data name="AfterTopLevelStatements_Text" xml:space="preserve">
+  <value>После операторов верхнего уровня</value>
+</data>
+<data name="None_Text" xml:space="preserve">
+  <value>&lt;Нет&gt;</value>
+</data>
+<data name="TheExtractedCodeCannotReference__Text" xml:space="preserve">
+  <value>Извлеченный код не может ссылаться на {0}</value>
+</data>
+<data name="RefactorGlobalUsingsGroup_Text" xml:space="preserve">
+  <value>global using</value>
+</data>
+<data name="RemovingDeconstructionComponentWillBreakComponent_Text" xml:space="preserve">
+  <value>Удаление компонента деструктуризации нарушит использования компонента {0, переменной}</value>
+</data>
+<data name="ProcessTupleTypeComponent_Text" xml:space="preserve">
+  <value>Обработка компонента типа кортежа</value>
+</data>
+<data name="ExtractMethod_PositionSelectorTooltip" xml:space="preserve">
+  <value>Используйте **клавиши со стрелками** или **Home**/**End** для выбора позиции
+Нажмите **Enter** для подтверждения
+Нажмите **Esc** для отмены</value>
+</data>
+<data name="ConvertToLogMethod_ExistingLoggerPart_Text" xml:space="preserve">
+  <value>Поиск целевого типа для существующих методов логгера</value>
+</data>
+<data name="ConvertToGlobalUsings_Text" xml:space="preserve">
+  <value>Преобразовать using в global</value>
+</data>
+<data name="ConvertToGlobalUsing_SelectedUsings_Text" xml:space="preserve">
+  <value>Выбранные using:</value>
+</data>
+<data name="MakeNullable_Text" xml:space="preserve">
+  <value>Сделать допускающим NULL</value>
+</data>
+<data name="CreateParameter_InPrimaryConstructor___Text" xml:space="preserve">
+  <value>Создать параметр '{0}' в первичном конструкторе {1} '{2}'</value>
+</data>
+<data name="CutDeclarations_Of__Text" xml:space="preserve">
+  <value>Вырезание объявлений({0:N0}/{1:N0})…</value>
+</data>
+<data name="ConvertToLogMethod_Calls_Text" xml:space="preserve">
+  <value>Преобразовать в метод ведения журнала</value>
+</data>
+<data name="ReadUsage_Text" xml:space="preserve">
+  <value>Использование для чтения</value>
+</data>
+<data name="PropertyWithFieldKeywordWillBeTransformed_Text" xml:space="preserve">
+  <value>{0, свойство} с ключевым словом 'field' будет преобразовано в свойство с резервным полем</value>
+</data>
+<data name="WriteUsage_Text" xml:space="preserve">
+  <value>Использование для записи</value>
+</data>
+<data name="ConvertToLogMethod_TargetTypeFile_Text" xml:space="preserve">
+  <value>Целевой файл:</value>
+</data>
+<data name="VariableDoesnTHaveInitializer_Text" xml:space="preserve">
+  <value>Переменная не имеет инициализатора</value>
+</data>
+<data name="CanTUpdate0_EncapsulatedFieldWillBe_Text" xml:space="preserve">
+  <value>Не удается обновить {{0,{0}}}: инкапсулированное поле будет удалено</value>
+</data>
+<data name="Optional__Text" xml:space="preserve">
+  <value>&lt;Опционально&gt; {0}</value>
+</data>
+<data name="UsageWillBeTransformedButTransformation_Text" xml:space="preserve">
+  <value>{0, использование} будет преобразовано, но преобразование может нарушить семантику выражения</value>
+</data>
+<data name="ConvertToLogMethod_UseLoggerField_Text" xml:space="preserve">
+  <value>&lt;Использовать поле логгера&gt;</value>
+</data>
+<data name="ConvertToGlobalUsingPageDescription_Text" xml:space="preserve">
+  <value>и укажите новое или существующее имя файла для размещения global using</value>
+</data>
+<data name="TheExtractedCodeCannotReferenceName_Text" xml:space="preserve">
+  <value>Извлеченный код не может ссылаться на имя {0}</value>
+</data>
+<data name="CannotConstructDelegateParameterTypes_Text" xml:space="preserve">
+  <value>Не удается сконструировать типы параметров делегата для {0, использования}</value>
+</data>
+<data name="CannotIntroduceVariableForReturnValue_Text" xml:space="preserve">
+  <value>Не удается ввести переменную для возвращаемого значения, так как его тип не может быть явно использован в точке вызова</value>
+</data>
+<data name="NewTargetTypePartWillBeCreated_Text" xml:space="preserve">
+  <value>Будет создана новая часть целевого класса</value>
+</data>
+<data name="MemberRemovalWillIntroduceImplicitProperty_Text" xml:space="preserve">
+  <value>Удаление члена введет неявное свойство для позиционного параметра {0} производного типа записи</value>
+</data>
+<data name="MemberNameInFileName_Text" xml:space="preserve">
+  <value>{0} в {1}</value>
+</data>
+<data name="RemovalOfExplicitlyImplemented_Will_Text" xml:space="preserve">
+  <value>Удаление явно реализованного {0} вместо этого введет неявный член</value>
+</data>
+<data name="Usage_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="CannotUseThrowExpressionInTarget0Context_Text" xml:space="preserve">
+  <value>Не удается использовать выражение throw в целевом {0, контексте}</value>
+</data>
+<data name="SelectScope_Text" xml:space="preserve">
+  <value>Выберите область </value>
+</data>
+<data name="ConvertToGlobalUsing_FindingUsingDirectivesToRemove_Text" xml:space="preserve">
+  <value>Поиск директив using для удаления</value>
+</data>
+<data name="ChangeNullabilityActionText" xml:space="preserve">
+  <value>Изменить допустимость значения NULL</value>
+</data>
+<data name="ProcessTupleComponent_Text" xml:space="preserve">
+  <value>Обработка компонента кортежа</value>
+</data>
+<data name="AmbiguousReference_WasFoundWhichCan_Text" xml:space="preserve">
+  <value>Найдена неоднозначная ссылка {0}, которую нельзя обновить</value>
+</data>
+<data name="ConvertToGlobalUsing_AliasConflict_Text" xml:space="preserve">
+  <value>Конфликт с существующим псевдонимом using '{0}'</value>
+</data>
+<data name="Invalid_Text" xml:space="preserve">
+  <value>Неверно</value>
+</data>
+<data name="UnsafeCodeIsNotAllowedInAsyncFunctions_Text" xml:space="preserve">
+  <value>Небезопасный код не допускается в асинхронных функциях</value>
+</data>
+<data name="CreateDefaultParameter_In___Text" xml:space="preserve">
+  <value>Создать параметр по умолчанию ’{0}’ в {1} ’{2}’</value>
+</data>
+<data name="CannotReplaceDeclarationExpressionVariable_Text" xml:space="preserve">
+  <value>Не удается заменить переменную выражения объявления '{0}' на обычную переменную, так как ее тип не может быть явно использован в точке вызова</value>
+</data>
+<data name="Make_static_Text" xml:space="preserve">
+  <value>Сделать статическим (_S)</value>
+</data>
+<data name="AtTheBeginningOfTopLevelStatements_Text" xml:space="preserve">
+  <value>В начале операторов верхнего уровня</value>
+</data>
+<data name="ThereExistsSourceClassObjectCreation_Text" xml:space="preserve">
+  <value>Вне исходного класса существует создание объекта исходного класса. Не удается выполнить рефакторинг.</value>
+</data>
+<data name="SelectAll_Text" xml:space="preserve">
+  <value>Выбрать все (_A)</value>
+</data>
+<data name="ConvertToLogMethod_Text" xml:space="preserve">
+  <value>Преобразовать в метод ведения журнала</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_MoveDownButtonTooltip" xml:space="preserve">
+  <value>Переместить локальную функцию вниз</value>
+</data>
+<data name="NewAccessorIntroductionInVirtual_Can_Text" xml:space="preserve">
+  <value>Введение нового метода доступа в виртуальном {0} может нарушить наследников</value>
+</data>
+<data name="Property_HasNotEnoughAccess_Text" xml:space="preserve">
+  <value>Свойство {0} имеет недостаточный уровень доступности</value>
+</data>
+<data name="CreatePropertyDeclarationBelowTheCurrent_Text" xml:space="preserve">
+  <value>Создать объявление свойства под текущим членом</value>
+</data>
+<data name="__MightBeImplicitlyUsedByTheDefault_Text" xml:space="preserve">
+  <value>{0} '{{0}}' может неявно использоваться предоставляемой средой выполнения реализацией по умолчанию методов 'Equals' и 'GetHashCode'</value>
+</data>
+<data name="TheExtractedCodeCannotHaveAnyRefOut_Text" xml:space="preserve">
+  <value>Извлеченный код не может иметь параметров ref/out</value>
+</data>
+<data name="InvalidValue_Text" xml:space="preserve">
+  <value>Неверное значение</value>
+</data>
+<data name="NameUsage_Text" xml:space="preserve">
+  <value>Использование имени</value>
+</data>
+<data name="ConvertToGlobalUsing_StatisticsColumn_Text" xml:space="preserve">
+  <value>Использования</value>
+</data>
+<data name="SearchInProject_Text" xml:space="preserve">
+  <value>В проекте</value>
+</data>
+<data name="ConvertToNonGlobalUsing_Text" xml:space="preserve">
+  <value>Преобразовать в неглобальный using</value>
+</data>
+<data name="InstantiationValueIsIgnoredCodeWould_Text" xml:space="preserve">
+  <value>Значение {0, экземпляризации} игнорируется: код не скомпилируется после замены на доступ к экземпляру</value>
+</data>
+<data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_CancelButtonTooltip" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="SearchingForUsages_Text" xml:space="preserve">
+  <value>Поиск использований…</value>
+</data>
+<data name="AtTheEndOf__Text" xml:space="preserve">
+  <value>В конце {0}</value>
+</data>
+<data name="ConvertToLogMethod_ArgumentCountMismatchInLogMessage_ConflictText" xml:space="preserve">
+  <value>Количество аргументов не соответствует формату сообщения журнала для этого вызова</value>
+</data>
+<data name="UsageOf_MayBeBrokenMethodCallOver_Can_MutateVariable_Text" xml:space="preserve">
+  <value>Использование {0} может быть нарушено: вызов метода для {0} может изменить структуру, так как она классифицируется как изменяемая переменная</value>
+</data>
+<data name="ExtractMethod_Text" xml:space="preserve">
+  <value>Извлечь метод</value>
+</data>
+<data name="ConfigureAwait0CallWillNotBeTransferred_Text" xml:space="preserve">
+  <value>Вызов 'ConfigureAwait()' {0} не будет перенесен в встроенное выражение await, его эффект будет потерян</value>
+</data>
+<data name="CreateField_InType__Text" xml:space="preserve">
+  <value>Создать поле '{0}' в типе '{1}'</value>
+</data>
+<data name="SearchingScope_Text" xml:space="preserve">
+  <value>Область поиска (_S):</value>
+</data>
+<data name="UsageOf_MayBeBrokenIfStructTypeWill_Text2" xml:space="preserve">
+  <value>Использование {0} может быть нарушено, если тип структуры будет заменен на неограниченный параметр универсального типа: доступное выражение должно классифицироваться как переменная. Доступ к автоматическому свойству возвращает временную копию значения при каждом обращении.</value>
+</data>
+<data name="The_ConstantWillBeConvertedToARegular_Text" xml:space="preserve">
+  <value>Константа '{0}' будет преобразована в обычную переменную</value>
+</data>
+<data name="ConvertToLogMethod_SearchingLogMethodCalls_Text" xml:space="preserve">
+  <value>Поиск вызовов методов логгера</value>
+</data>
+<data name="CanTOverridePropertyWithAutoProperty_Text" xml:space="preserve">
+  <value>Не удается переопределить свойство автоматическим свойством из-за private {0}</value>
+</data>
+<data name="DisableImplicitUsings_Action_Text" xml:space="preserve">
+  <value>Отключить неявные using</value>
+</data>
+<data name="NewAccessorIntroductionIsNotAllowed_Text" xml:space="preserve">
+  <value>Введение нового метода доступа не допускается в переопределении {0}</value>
+</data>
+<data name="Optional_Text" xml:space="preserve">
+  <value>&lt;Опционально&gt;</value>
+</data>
+<data name="ConvertToLogMethod_Action_Text" xml:space="preserve">
+  <value>Преобразовать вызов метода расширения логгера в метод ведения журнала</value>
+</data>
+<data name="NullPassedAsInstanceParameter_Text" xml:space="preserve">
+  <value>{0,Null} передан как параметр экземпляра</value>
+</data>
+<data name="SearchingGlobalUsingDirectives_Text" xml:space="preserve">
+  <value>Поиск глобальных директив using…</value>
+</data>
+<data name="IntroduceSingleVariable__Text" xml:space="preserve">
+  <value>Ввести одну переменную({0})</value>
+</data>
+<data name="ConvertingMethodCalls_Text" xml:space="preserve">
+  <value>Преобразование вызовов методов</value>
+</data>
+<data name="VariableDoesnTHaveDeclarationsInSource_Text" xml:space="preserve">
+  <value>Переменная не имеет объявлений в исходном коде</value>
+</data>
+<data name="ReplacementOfTheFieldWithAPropertyWould_Text" xml:space="preserve">
+  <value>Замена поля свойством введет копирование структуры в {0}</value>
+</data>
+<data name="_NeedsWiderAccess_Text" xml:space="preserve">
+  <value>{0} требует более широкого доступа</value>
+</data>
+<data name="UnsafeCodeIsNotAllowedInIterators_Text" xml:space="preserve">
+  <value>Небезопасный код не допускается в итераторах</value>
+</data>
+<data name="FixCannotBeCreated_Text" xml:space="preserve">
+  <value>Не удается создать исправление</value>
+</data>
+<data name="ExtractMethodObject_Text" xml:space="preserve">
+  <value>Извлечь объект метода</value>
+</data>
+<data name="TargetFieldNameWasNotSpecified_Text" xml:space="preserve">
+  <value>Имя целевого поля не указано</value>
+</data>
+<data name="ConvertToGeneratedMethod_LocationColumn_Text" xml:space="preserve">
+  <value>Расположение</value>
+</data>
+<data name="ReplaceInitialExpressionOnly_Text" xml:space="preserve">
+  <value>Заменить только начальное выражение</value>
+</data>
+<data name="ConvertToGlobalUsing_StatisticsTooltip_Text" xml:space="preserve">
+  <value>Импортировано в {0:N0}/{1:N0} файлах</value>
+</data>
+<data name="GenericParametersCannotBeUsedIn0Method_Text" xml:space="preserve">
+  <value>Параметры универсального типа не могут использоваться в {0,методе}</value>
+</data>
+<data name="RemovalOfExplicitPositionalMemberFor_Introduce_Text" xml:space="preserve">
+  <value>Удаление явного позиционного члена для параметра {0} вместо этого введет неявное свойство</value>
+</data>
+<data name="OnlyAbstractDeclarationsCanBeMovedTo_Text" xml:space="preserve">
+  <value>Только abstract объявления могут быть перемещены в {0}</value>
+</data>
+<data name="IntroducedRefTempVariableWillRequire_Text" xml:space="preserve">
+  <value>Введенная ref временная переменная потребует инициализатор</value>
+</data>
+<data name="InstantiationOfTargetClass_WillBeBroken_Text" xml:space="preserve">
+  <value>Экземпляризация целевого класса: {0} будет нарушена, так как он будет сделан abstract</value>
+</data>
+<data name="InstantiationCannotBeTransformedInto_Text" xml:space="preserve">
+  <value>{{0, экземпляризация}} не может быть преобразована в фабричный метод: не удается изменить метод доступа 'init' свойства '{0}' на 'set'</value>
+</data>
+<data name="ForLocalFunctionPlacement_Text" xml:space="preserve">
+  <value> для размещения локальной функции</value>
+</data>
+<data name="ConvertToGlobalUsing_AddingGlobalUsingDirective_Text" xml:space="preserve">
+  <value>Добавление глобальной директивы using</value>
+</data>
+<data name="BeforeTopLevelStatements_Text" xml:space="preserve">
+  <value>До операторов верхнего уровня</value>
+</data>
+<data name="ConvertToGlobalUsings_Action_Text" xml:space="preserve">
+  <value>Преобразовать using в global…</value>
+</data>
+<data name="InvalidFieldName_Text" xml:space="preserve">
+  <value>fieldName неверно</value>
+</data>
+<data name="Modifier_Column_Text" xml:space="preserve">
+  <value>Модификатор</value>
+</data>
+<data name="UnableToAddSetAccessorTo__Text" xml:space="preserve">
+  <value>Не удается добавить метод доступа 'set' к {0}</value>
+</data>
+<data name="BackingFieldIsUsedFromThe1Structure_Text" xml:space="preserve">
+  <value>{0, резервное поле} используется из {1,конструктора структуры}. Будет добавлен вызов конструктора по умолчанию.</value>
+</data>
+<data name="UnableToRemovePrimaryConstructorOf__Text" xml:space="preserve">
+  <value>Не удается удалить первичный конструктор {0}</value>
+</data>
+<data name="UpdatingReferences_Text" xml:space="preserve">
+  <value>Обновление ссылок…</value>
+</data>
+<data name="ParameterOfMethodCanTHaveOutModifier_Text" xml:space="preserve">
+  <value>{0,Параметр метода} не может иметь модификатор [out]</value>
+</data>
+<data name="ConvertToLogMethod_ChooseLogMethodCalls_Text" xml:space="preserve">
+  <value>Выберите вызовы методов логгера для преобразования:</value>
+</data>
+<data name="ConvertToLogMethod_PageTitle" xml:space="preserve">
+  <value>Выберите вызовы методов логгера для замены на вызовы методов, сгенерированных с помощью [LoggerMessage]</value>
+</data>
+<data name="UnableToAddGetAccessorTo__Text" xml:space="preserve">
+  <value>Не удается добавить метод доступа 'get' к {0}</value>
+</data>
+<data name="CapturedField_NameWillBeReplacedWith_Text" xml:space="preserve">
+  <value>Имя захваченного поля {0} будет заменено на имя свойства</value>
+</data>
+<data name="InstantiationCannotBeTransformedInto_Object_Text" xml:space="preserve">
+  <value>{0, экземпляризация} не может быть преобразована в фабричный метод: не удается извлечь инициализатор объекта</value>
+</data>
+<data name="TheExtractedCodeWillReferenceNewElement_Text" xml:space="preserve">
+  <value>Извлеченный код будет ссылаться на новый элемент вместо {0}</value>
+</data>
+<data name="ConflictingDeclaration_WasFoundAlias_Text" xml:space="preserve">
+  <value>Найдено конфликтующее объявление '{{0}}', псевдоним будет переименован в '{0}'</value>
+</data>
+<data name="ConvertToGeneratedMethod_InvocationColumn_Text" xml:space="preserve">
+  <value>Новое имя метода</value>
+</data>
+<data name="ParameterOfMethodCanTHaveRefOrOutModifiers_Text" xml:space="preserve">
+  <value>{0,Параметр метода} не может иметь модификаторы [ref] или [out]</value>
+</data>
+<data name="InvalidMethodName_Text" xml:space="preserve">
+  <value>Имя метода неверно</value>
+</data>
+<data name="RemovalOfExplicitPositionalMemberFor_Rebind_Text" xml:space="preserve">
+  <value>Удаление явного позиционного члена для параметра {0} перепривязывает его к члену базового типа</value>
+</data>
+<data name="ExtractLocalFunction_Text" xml:space="preserve">
+  <value>Извлечь локальную функцию</value>
+</data>
+<data name="InitOnlyProperty_WillBecomeMutable_Text" xml:space="preserve">
+  <value>Свойство только для инициализации {0} станет изменяемым</value>
+</data>
+<data name="_WillBeMovedToTargetScopeAsItIsUsed_Text" xml:space="preserve">
+  <value>{0} будет перемещен в целевую область, так как он используется как в исходном, так и в извлеченном коде</value>
+</data>
+<data name="MemberNameExists_Text" xml:space="preserve">
+  <value>Будет использован существующий член</value>
+</data>
+</root>

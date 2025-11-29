@@ -117,5 +117,1096 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-
+<data name="PleaseHelpUsImprove_Text" xml:space="preserve">
+  <value>Помогите нам стать лучше</value>
+</data>
+<data name="ConvertThemedIconsActionText" xml:space="preserve">
+  <value>Преобразовать тематические значки…</value>
+</data>
+<data name="DisableOtherInstance_Text" xml:space="preserve">
+  <value>Отключить другой экземпляр</value>
+</data>
+<data name="ExtensionManagerDialogButtonOK_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="ProvideFeedback_Text" xml:space="preserve">
+  <value>Оставить отзыв</value>
+</data>
+<data name="CopyFullPathActionText" xml:space="preserve">
+  <value>Копировать полный путь</value>
+</data>
+<data name="IfYouAgreeToParticipateInTheProgram_Text" xml:space="preserve">
+  <value>Если вы согласны участвовать в программе, ReSharper будет анонимно отправлять следующую информацию:</value>
+</data>
+<data name="QuickSearchSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки быстрого поиска</value>
+</data>
+<data name="RequestApplicationShutdownActionText" xml:space="preserve">
+  <value>Запросить завершение работы приложения</value>
+</data>
+<data name="Submitting_Text" xml:space="preserve">
+  <value>Отправка</value>
+</data>
+<data name="ThrowExceptionsActionText" xml:space="preserve">
+  <value>Генерировать исключения</value>
+</data>
+<data name="ThereIsNoContentToShowInThisView_Text" xml:space="preserve">
+  <value>В этом представлении нет содержимого для отображения</value>
+</data>
+<data name="NoPersonallyIdentifiableInformation_RichText_Text" xml:space="preserve">
+  <value>На сервер не передается никакая личная информация</value>
+</data>
+<data name="Reverse_Text" xml:space="preserve">
+  <value>Обратный порядок</value>
+</data>
+<data name="TheClickedStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+  <value>Имя изображения состояния "Нажато" в ImageList.</value>
+</data>
+<data name="LastName_Text" xml:space="preserve">
+  <value>Фамилия:</value>
+</data>
+<data name="FailedToObtainCredentials_Text" xml:space="preserve">
+  <value>Не удалось получить учетные данные</value>
+</data>
+<data name="EM_ExtensionSection_Updated" xml:space="preserve">
+  <value>Обновлено</value>
+</data>
+<data name="TheStringMustNotBeEmpty_Text" xml:space="preserve">
+  <value>Строка не должна быть пустой</value>
+</data>
+<data name="StatusBarWasFoundAs__Text" xml:space="preserve">
+  <value>StatusBar был найден как {0}.</value>
+</data>
+<data name="OptionsDialogViewRelatedSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки, связанные с представлением диалогового окна параметров</value>
+</data>
+<data name="AboutBox_DataHasBeenCopiedOnClipboard" xml:space="preserve">
+  <value>Данные скопированы в буфер обмена</value>
+</data>
+<data name="NewItem_Text" xml:space="preserve">
+  <value>Новый элемент:</value>
+</data>
+<data name="AboutBox_ShowMore" xml:space="preserve">
+  <value>Показать еще</value>
+</data>
+<data name="AboutBox_Evaluating" xml:space="preserve">
+  <value>Оценивается…</value>
+</data>
+<data name="IfYouLlProceedWeWonTBeAbleToGetBackShort_Text" xml:space="preserve">
+  <value>Если вы продолжите, мы не сможем связаться с вами с решением вашей проблемы или</value>
+</data>
+<data name="ClearExceptionReporterDataText" xml:space="preserve">
+  <value>Очистить пользовательские данные средства отчетов об исключениях</value>
+</data>
+<data name="Open_Text" xml:space="preserve">
+  <value>Открыть</value>
+</data>
+<data name="EM_ExtensionSection_To_Install" xml:space="preserve">
+  <value>Будет установлено</value>
+</data>
+<data name="ExceptionReporterAnonymouslyText" xml:space="preserve">
+  <value>Анонимно</value>
+</data>
+<data name="MoveBeforeActionText" xml:space="preserve">
+  <value>Переместить до</value>
+</data>
+<data name="AndA_Text" xml:space="preserve">
+  <value>и</value>
+</data>
+<data name="UsageStatisticsActionText" xml:space="preserve">
+  <value>Статистика использования</value>
+</data>
+<data name="Source_Caption" xml:space="preserve">
+  <value>Источник</value>
+</data>
+<data name="ExtensionManagerOptionViewButtonMoveUp" xml:space="preserve">
+  <value>Переместить вверх</value>
+</data>
+<data name="TextFiles_Text" xml:space="preserve">
+  <value>Текстовые файлы</value>
+</data>
+<data name="ExtensionManagerOptionViewButtonAdd" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="EditPackageSource_Text" xml:space="preserve">
+  <value>Редактировать источник пакета</value>
+</data>
+<data name="WithEMail_Text" xml:space="preserve">
+  <value>(с электронной почтой)</value>
+</data>
+<data name="AreYouGenerallySatisfiedWithTheProduct_Text" xml:space="preserve">
+  <value>Вы в целом довольны продуктом? Как бы вы его оценили?</value>
+</data>
+<data name="New_Text" xml:space="preserve">
+  <value>Создать</value>
+</data>
+<data name="EM_Install_Button_Text" xml:space="preserve">
+  <value>Установить</value>
+</data>
+<data name="DetectedAutomatically_Text" xml:space="preserve">
+  <value>(определяется автоматически)</value>
+</data>
+<data name="Extensions_Caption" xml:space="preserve">
+  <value>Расширения</value>
+</data>
+<data name="ProcessEXplorerActionText" xml:space="preserve">
+  <value>Обозреватель процессов (&amp;X)</value>
+</data>
+<data name="AreYouSureYouWantToCancel_Text" xml:space="preserve">
+  <value>Вы уверены, что хотите отменить?</value>
+</data>
+<data name="ClearAllSurvivors_Text" xml:space="preserve">
+  <value>Очистить все уцелевшие объекты</value>
+</data>
+<data name="ToolWindowEmptyContentWithActionHint_UseAction" xml:space="preserve">
+  <value>Используйте {0}</value>
+</data>
+<data name="ExtensionManagerOptionViewButtonEdit" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="SettingsStore_Text" xml:space="preserve">
+  <value>Хранилище настроек</value>
+</data>
+<data name="TheContentOfThisViewHasBeenUnloaded_Text" xml:space="preserve">
+  <value>Содержимое этого представления было выгружено</value>
+</data>
+<data name="SettingsDashboard_Text" xml:space="preserve">
+  <value>Панель настроек</value>
+</data>
+<data name="TheHoverStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+  <value>Имя изображения состояния "При наведении" в ImageList.</value>
+</data>
+<data name="Name_Text" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="Restart_Caption" xml:space="preserve">
+  <value>Перезапустить?</value>
+</data>
+<data name="UpgradeFromExceptionReportSettingsKeySettingDescription" xml:space="preserve">
+  <value>UpgradeFromExceptionReportSettingsKey</value>
+</data>
+<data name="Provide_Caption" xml:space="preserve">
+  <value>Оставить отзыв</value>
+</data>
+<data name="EM_ExtensionSection_Selected_Short_Description" xml:space="preserve">
+  <value>{0:choice:one#{{0}}|other#Изменения}}</value>
+</data>
+<data name="KeepOriginalNewLinesActionText" xml:space="preserve">
+  <value>Сохранять исходные переводы строк</value>
+</data>
+<data name="Description_Text" xml:space="preserve">
+  <value>Описание:</value>
+</data>
+<data name="EM_Model_Installed" xml:space="preserve">
+  <value>Сейчас установлено {0} {1}</value>
+</data>
+<data name="ExtensionManagerOptionViewButtonMoveDown" xml:space="preserve">
+  <value>Переместить вниз</value>
+</data>
+<data name="EM_View_More_Info" xml:space="preserve">
+  <value>Дополнительная информация…</value>
+</data>
+<data name="YouCanAlwaysChangeYourSettingOnTheReSharper_Text" xml:space="preserve">
+  <value>Вы всегда можете изменить свой выбор на странице параметров "Статистика использования" ReSharper</value>
+</data>
+<data name="AnyInformationIdentifyingYourProjects_Text" xml:space="preserve">
+  <value>  * Любая информация, идентифицирующая ваши проекты (например, имена файлов и проектов, символы, исходный код)</value>
+</data>
+<data name="Never_Description_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="Schema_Text" xml:space="preserve">
+  <value>Схема</value>
+</data>
+<data name="EditActionText" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="WhetherFilterCheckedSettingDescription" xml:space="preserve">
+  <value>Проверен ли фильтр</value>
+</data>
+<data name="CannotSetValue_Caption" xml:space="preserve">
+  <value>Не удалось установить значение</value>
+</data>
+<data name="ClearSearchTooltip_Text" xml:space="preserve">
+  <value>Очистить поиск (Esc)</value>
+</data>
+<data name="SelectFolder_Text" xml:space="preserve">
+  <value>Выбрать папку</value>
+</data>
+<data name="PleaseAttachAtLeastOnePerformanceOr_Text" xml:space="preserve">
+  <value>Нажмите кнопку "+" ниже, чтобы прикрепить хотя бы один снимок производительности или памяти</value>
+</data>
+<data name="SelectFolders_Text" xml:space="preserve">
+  <value>Выбрать папки</value>
+</data>
+<data name="ExtensionManagerDialogButtonCancel_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="Statistics_Text" xml:space="preserve">
+  <value>Статистика</value>
+</data>
+<data name="AboutBox_Copy" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="DetectEnvironment_Description_Text" xml:space="preserve">
+  <value>Определить среду</value>
+</data>
+<data name="Result_Caption" xml:space="preserve">
+  <value>Результат</value>
+</data>
+<data name="ShowAccentColorsActionText" xml:space="preserve">
+  <value>Показать акцентные цвета…</value>
+</data>
+<data name="CheckForUpdates_Header_Text" xml:space="preserve">
+  <value>Проверить обновления</value>
+</data>
+<data name="AboutBox_CheckedBuild" xml:space="preserve">
+  <value>Проверенная сборка. </value>
+</data>
+<data name="AboutBox_InDays" xml:space="preserve">
+  <value>через {0} д.</value>
+</data>
+<data name="OpenStoragesWindowActionText" xml:space="preserve">
+  <value>Открыть окно хранилищ</value>
+</data>
+<data name="ClickToUpdate_Text" xml:space="preserve">
+  <value>Нажмите для обновления</value>
+</data>
+<data name="ExtensionManagerOptionPageTitle" xml:space="preserve">
+  <value>Диспетчер расширений</value>
+</data>
+<data name="PlatformGeneralHacksOptionPageTitle" xml:space="preserve">
+  <value>Общие хаки платформы</value>
+</data>
+<data name="ProcessExplorer_Text" xml:space="preserve">
+  <value>Обозреватель процессов</value>
+</data>
+<data name="TheFocusedStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+  <value>Имя изображения состояния "В фокусе" в ImageList.</value>
+</data>
+<data name="BugOrIncorrectBehavior_Text" xml:space="preserve">
+  <value>Ошибка или некорректное поведение</value>
+</data>
+<data name="EvaluationOf_AboutToExpire_Text" xml:space="preserve">
+  <value>Оценка {0} скоро истечет</value>
+</data>
+<data name="Cancel_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="Execute_Text" xml:space="preserve">
+  <value>Выполнить</value>
+</data>
+<data name="IndicatesWhetherTheSplitHeightMustBeFilledToTheButtonHeightEvenIfTheSplitImageHeightIsLower_Description_Text" xml:space="preserve">
+  <value>Указывает, должна ли высота разделения заполняться до высоты кнопки, даже если высота изображения разделения меньше.</value>
+</data>
+<data name="FileLayoutDesigner_Presenters_DropItemsHere_Text" xml:space="preserve">
+  <value>Перетащите элементы сюда</value>
+</data>
+<data name="TheSplitHeightIgnoredIfCalculateSplitRectIsSetToTrue_Description_Text" xml:space="preserve">
+  <value>Высота разделения (игнорируется, если для CalculateSplitRect установлено значение true).</value>
+</data>
+<data name="AboutBox_Today" xml:space="preserve">
+  <value>Сегодня</value>
+</data>
+<data name="AboutBox_Title" xml:space="preserve">
+  <value>О {0} {1}</value>
+</data>
+<data name="RequestApplicationShutdownActionDescription" xml:space="preserve">
+  <value>Запросить окончательное завершение работы приложения или завершение работы с последующим перезапуском</value>
+</data>
+<data name="TheFollowingFilesWillBeDeletedAfter_Text" xml:space="preserve">
+  <value>Следующие файлы будут удалены после отправки. Хотите удалить эти файлы?</value>
+</data>
+<data name="TypeWordsToSearchFor_Text" xml:space="preserve">
+  <value>Введите слова для поиска</value>
+</data>
+<data name="Enables_Text" xml:space="preserve">
+  <value>Включить:</value>
+</data>
+<data name="EM_ExtensionSection_To_Remove" xml:space="preserve">
+  <value>Будет удалено</value>
+</data>
+<data name="Rename__Caption" xml:space="preserve">
+  <value>Переименовать {0}</value>
+</data>
+<data name="OpenMountingPointsWindowActionText" xml:space="preserve">
+  <value>Открыть окно точек подключения</value>
+</data>
+<data name="CopyShortcut_Text" xml:space="preserve">
+  <value>Копировать сочетание клавиш</value>
+</data>
+<data name="OpenExtensionManager_Text" xml:space="preserve">
+  <value>Открыть диспетчер расширений…</value>
+</data>
+<data name="PleaseProvideAValidEMailAddress_Text" xml:space="preserve">
+  <value>Укажите действительный адрес электронной почты</value>
+</data>
+<data name="ApplyTheFix_ComboEnum_Caption" xml:space="preserve">
+  <value>Применить исправление:</value>
+</data>
+<data name="TheFixIsAppliedToRemoveTheFixPlease_RichText_Text" xml:space="preserve">
+  <value>**Исправление применено.** Чтобы удалить исправление, отключите этот параметр и перезапустите Visual Studio.</value>
+</data>
+<data name="ReSharperGenericTooltipWindow_Text" xml:space="preserve">
+  <value>Окно общих всплывающих подсказок ReSharper</value>
+</data>
+<data name="Calculating_Text" xml:space="preserve">
+  <value>Вычисление…</value>
+</data>
+<data name="ScrollLeft_Text" xml:space="preserve">
+  <value>Прокрутить влево</value>
+</data>
+<data name="Target_Caption" xml:space="preserve">
+  <value>Цель</value>
+</data>
+<data name="SavedWindowPositionsManagedBySaveWindowPositionBehaviorKeyedByTheWindowIDSettingDescription" xml:space="preserve">
+  <value>Сохраненные позиции окон, управляемые поведением SaveWindowPositionBehavior, с ключом по ID окна</value>
+</data>
+<data name="GeneralStatisticsNumberOfFilesFileTypes_Text" xml:space="preserve">
+  <value>  * Общая статистика по вашему решению (количество файлов, типы файлов)</value>
+</data>
+<data name="EM_ExtensionSection_Selected_Description" xml:space="preserve">
+  <value>{0} {0:choice:one#расширение|other#расширения} для {1}</value>
+</data>
+<data name="AndAttachAtLeastOnePerformanceSnapshot_Text" xml:space="preserve">
+  <value>и прикрепите хотя бы один снимок производительности</value>
+</data>
+<data name="TypeToSearch_Text" xml:space="preserve">
+  <value>Введите для поиска</value>
+</data>
+<data name="SavedWindowPositionsManagedBySaveWindowPositionBehaviorSettingDescription" xml:space="preserve">
+  <value>Сохраненные позиции окон, управляемые поведением SaveWindowPositionBehavior</value>
+</data>
+<data name="RequestActivationCode_Text" xml:space="preserve">
+  <value>Запросить код активации</value>
+</data>
+<data name="EM_Action_Install" xml:space="preserve">
+  <value>Установить</value>
+</data>
+<data name="EXtensionManagerActionText" xml:space="preserve">
+  <value>Диспетчер расширений (&amp;X)…</value>
+</data>
+<data name="LicenseKey_Text" xml:space="preserve">
+  <value>Лицензионный ключ:</value>
+</data>
+<data name="EM_ExtensionSection_Recently_Updated" xml:space="preserve">
+  <value>Недавно обновленные</value>
+</data>
+<data name="KeepTextAndAttachmentsAfterSubmission_Text" xml:space="preserve">
+  <value>Сохранить текст и вложения после отправки</value>
+</data>
+<data name="ExtensionManagerOptionViewColumnSource" xml:space="preserve">
+  <value>Источник</value>
+</data>
+<data name="Copy_Text" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="GettingReadyToLoadTheView_Text" xml:space="preserve">
+  <value>Подготовка к загрузке представления…</value>
+</data>
+<data name="CancelAuthorization_Text" xml:space="preserve">
+  <value>Отменить авторизацию</value>
+</data>
+<data name="FixTheProblemWithBitWinAPIGetCursorPosFunctionSettingDescription" xml:space="preserve">
+  <value>Исправить проблему с 32-битной функцией WinAPI GetCursorPos</value>
+</data>
+<data name="FocusMonitor_Text" xml:space="preserve">
+  <value>Монитор фокуса</value>
+</data>
+<data name="AboutBox_InternalMode" xml:space="preserve">
+  <value>Внутренний режим. </value>
+</data>
+<data name="ReSharperWILLNOTSend_Text" xml:space="preserve">
+  <value>ReSharper НЕ отправляет:</value>
+</data>
+<data name="AboutBox_CheckingForUpdates" xml:space="preserve">
+  <value>Проверка обновлений…</value>
+</data>
+<data name="FirstName_Text" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="Invert_Text" xml:space="preserve">
+  <value>Инвертировать</value>
+</data>
+<data name="CollapseAllActionText" xml:space="preserve">
+  <value>Свернуть все</value>
+</data>
+<data name="ShowProcessTreeActionText" xml:space="preserve">
+  <value>Показать дерево процессов</value>
+</data>
+<data name="OpenSchemaWindowActionText" xml:space="preserve">
+  <value>Открыть окно схем</value>
+</data>
+<data name="EM_View_Progress" xml:space="preserve">
+  <value>Загрузка сведений о расширениях…</value>
+</data>
+<data name="ShowNativeProcessesActionText" xml:space="preserve">
+  <value>Показать собственные процессы</value>
+</data>
+<data name="IncludePrereleasePackages_BoolOption_Text" xml:space="preserve">
+  <value>Включать пакеты предварительной версии</value>
+</data>
+<data name="Close_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="StopProfiling_Text" xml:space="preserve">
+  <value>Остановить профилирование</value>
+</data>
+<data name="FileAttachmentsHaveBeenSavedTo__Text" xml:space="preserve">
+  <value>Файловые вложения сохранены в {0}</value>
+</data>
+<data name="ShowNativeModulesActionText" xml:space="preserve">
+  <value>Показать собственные модули</value>
+</data>
+<data name="ObtainTicketsFor_Text" xml:space="preserve">
+  <value>Получить тикеты для:</value>
+</data>
+<data name="AreThereAnyProblems_Text" xml:space="preserve">
+  <value>Есть ли какие-либо проблемы?</value>
+</data>
+<data name="AboutBox_UpToDate" xml:space="preserve">
+  <value>(актуально)</value>
+</data>
+<data name="IfYouLlProceedWeWonTBeAbleToGetBack_Text" xml:space="preserve">
+  <value>Если вы продолжите, мы не сможем связаться с вами с решением вашей проблемы или запросить дополнительную информацию о проблеме. Хотите проверить ваши контактные данные?</value>
+</data>
+<data name="SelectAnItemToEdit_Text" xml:space="preserve">
+  <value>Выберите элемент для редактирования</value>
+</data>
+<data name="Hide_Text" xml:space="preserve">
+  <value>Скрыть</value>
+</data>
+<data name="_ParticipateInTheEarlyAccessProgram_BoolOption_Text" xml:space="preserve">
+  <value>Участвовать в программе раннего доступа (EAP)(_P)</value>
+</data>
+<data name="WeNeedYouFor5Seconds_Text" xml:space="preserve">
+  <value>Нам нужно 5 секунд вашего времени, чтобы поделиться отзывом…</value>
+</data>
+<data name="FromEvaluationExpirationNotification_Text" xml:space="preserve">
+  <value>Из уведомления об окончании оценки</value>
+</data>
+<data name="DefaultReporterChangedSettingDescription" xml:space="preserve">
+  <value>UpgradePerformed</value>
+</data>
+<data name="SourceShouldBeValidUri_Text" xml:space="preserve">
+  <value>Источник должен быть допустимым URI</value>
+</data>
+<data name="PleaseWait_Text" xml:space="preserve">
+  <value>Пожалуйста, подождите</value>
+</data>
+<data name="ScrollRight_Text" xml:space="preserve">
+  <value>Прокрутить вправо</value>
+</data>
+<data name="Product_WillBeDisabledIn_Day__Text" xml:space="preserve">
+  <value>Продукт будет отключен через {0} д.</value>
+</data>
+<data name="MultipleSelectionCannotBeEdited_Text" xml:space="preserve">
+  <value>Нельзя редактировать множественный выбор</value>
+</data>
+<data name="CheckLicense_Caption" xml:space="preserve">
+  <value>Проверить лицензию</value>
+</data>
+<data name="Password_Text" xml:space="preserve">
+  <value>Пароль:</value>
+</data>
+<data name="NameShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Имя не должно быть пустым</value>
+</data>
+<data name="GeneralInformationAboutYourHardware_Text" xml:space="preserve">
+  <value>  * Общая информация о конфигурации оборудования (например, объем ОЗУ, скорость и количество ядер ЦП)</value>
+</data>
+<data name="EM_Install_Completed_Success_Description" xml:space="preserve">
+  <value>Все выбранные функции успешно установлены</value>
+</data>
+<data name="SourceShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Источник не может быть пустым</value>
+</data>
+<data name="InformationAboutWhichProductFeatures_Text" xml:space="preserve">
+  <value>  * Информация о том, какие функции продукта вы используете</value>
+</data>
+<data name="Account_Text" xml:space="preserve">
+  <value>Учетная запись:</value>
+</data>
+<data name="GroupByCLRActionText" xml:space="preserve">
+  <value>Группировать по CLR</value>
+</data>
+<data name="Details_Text" xml:space="preserve">
+  <value>Сведения</value>
+</data>
+<data name="ToggleInternalActionText" xml:space="preserve">
+  <value>Переключить внутренний режим</value>
+</data>
+<data name="AdminRightsRequired_Text" xml:space="preserve">
+  <value>(требуются права администратора)</value>
+</data>
+<data name="MinimalValueShouldBeLessThanMaximal_Text" xml:space="preserve">
+  <value>Минимальное значение должно быть меньше максимального</value>
+</data>
+<data name="GotAnOperationCanceledExceptionProbably_Text" xml:space="preserve">
+  <value>Возникло исключение OperationCanceledException. Загрузка представления была прервана, и теперь представление будет выгружено.</value>
+</data>
+<data name="OpenSettingsStoreWindowActionText" xml:space="preserve">
+  <value>Открыть окно хранилища настроек</value>
+</data>
+<data name="AboutBox_Environment_Subtitle" xml:space="preserve">
+  <value>Среда</value>
+</data>
+<data name="YouReAboutToSubmitFeedbackAnonymously_Text" xml:space="preserve">
+  <value>Вы собираетесь отправить отзыв анонимно.</value>
+</data>
+<data name="_AutomaticallyCheckFor_Updates_BoolOption_Text" xml:space="preserve">
+  <value>Автоматически проверять обновления {0}(_A)</value>
+</data>
+<data name="CopySettingsFromLayerToLayer_Text" xml:space="preserve">
+  <value>Копировать настройки из слоя в слой</value>
+</data>
+<data name="EM_View_Text1" xml:space="preserve">
+  <value>
+            При использовании сторонних плагинов ваши личные данные могут обрабатываться поставщиком плагина.
+            Для получения подробной информации об обработке личных данных обратитесь к документации поставщика плагина.</value>
+</data>
+<data name="EM_View_Text2" xml:space="preserve">
+  <value>JetBrains не несет ответственности за обработку ваших личных данных любым поставщиком сторонних плагинов.</value>
+</data>
+<data name="AtomicRename_Text" xml:space="preserve">
+  <value>Атомарное переименование</value>
+</data>
+<data name="RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="LogInWithJetBrainsAccount_Text" xml:space="preserve">
+  <value>Войти с помощью JetBrains Account</value>
+</data>
+<data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
+  <value>Все права защищены. © {0} {1}</value>
+</data>
+<data name="ManageJetBrainsAccount_Text" xml:space="preserve">
+  <value>Управление JetBrains Account</value>
+</data>
+<data name="PreviewAvailableSourceDataAndSelect_ToolTip" xml:space="preserve">
+  <value>Просмотреть доступные исходные данные и выбрать настройки для применения</value>
+</data>
+<data name="ExceptionReporterSubmitAsText" xml:space="preserve">
+  <value>Отправить как</value>
+</data>
+<data name="Clone_Text" xml:space="preserve">
+  <value>Клонировать</value>
+</data>
+<data name="SelectTheSourceFromWhichTheDataIsExtracted_ToolTip" xml:space="preserve">
+  <value>Выберите источник, из которого извлекаются данные</value>
+</data>
+<data name="MountingPoints_Text" xml:space="preserve">
+  <value>Точки подключения</value>
+</data>
+<data name="___Text" xml:space="preserve">
+  <value>{0}: {1}.</value>
+</data>
+<data name="_Collected_Text" xml:space="preserve">
+  <value>{0} собрано</value>
+</data>
+<data name="Subject_Text" xml:space="preserve">
+  <value>Тема:</value>
+</data>
+<data name="ItemText_Text" xml:space="preserve">
+  <value>Текст элемента:</value>
+</data>
+<data name="TheDisabledStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+  <value>Имя изображения состояния "Отключено" в ImageList.</value>
+</data>
+<data name="SelectColor_Text" xml:space="preserve">
+  <value>Выбрать цвет</value>
+</data>
+<data name="ExtensionManagerOptionViewColumnName" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="ShortInfoHasBeenCopiedToClipboard_Text" xml:space="preserve">
+  <value>Краткая информация скопирована в буфер обмена</value>
+</data>
+<data name="AnyPersonallyIdentifiableInformation_Text" xml:space="preserve">
+  <value>  * Любая личная информация (например, имя пользователя, лицензия, логин YouTrack/JIRA, электронная почта и т. д.)</value>
+</data>
+<data name="Expired_Caption" xml:space="preserve">
+  <value>Истекло</value>
+</data>
+<data name="IndicatesWhetherTheDoubleClickEventIsRaisedOnTheSplitButton_Description_Text" xml:space="preserve">
+  <value>Указывает, вызывается ли событие двойного щелчка на SplitButton</value>
+</data>
+<data name="MRUDialogPositionSettingDescription" xml:space="preserve">
+  <value>Позиция диалогового окна MRU</value>
+</data>
+<data name="TabStripView_TabContextMenu_Close" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="_NameCannotBeEmpty_Text" xml:space="preserve">
+  <value>Имя {0} не может быть пустым</value>
+</data>
+<data name="FeedbackCenter_Text" xml:space="preserve">
+  <value>Центр отзывов</value>
+</data>
+<data name="AboutBox_Tomorrow" xml:space="preserve">
+  <value>Завтра</value>
+</data>
+<data name="TheNormalStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+  <value>Имя изображения состояния "Обычное" в ImageList.</value>
+</data>
+<data name="AddNewItem_Caption" xml:space="preserve">
+  <value>Добавить новый элемент</value>
+</data>
+<data name="EM_Action_Update" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="DeleteActionText" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="SubmitAs_Text" xml:space="preserve">
+  <value>Отправить как:</value>
+</data>
+<data name="EM_Product_Name" xml:space="preserve">
+  <value>Расширения {0}</value>
+</data>
+<data name="LogPresentationTraceSourcesActionText" xml:space="preserve">
+  <value>Вести журнал источников трассировки представления</value>
+</data>
+<data name="EditItem_Caption" xml:space="preserve">
+  <value>Редактировать элемент</value>
+</data>
+<data name="AnotherInstanceOf_With_IsRunningOn__Text" xml:space="preserve">
+  <value>Другой экземпляр {1} для {2} запущен на {0}.
+Введите другую лицензию или отключите другой экземпляр. В противном случае {1} на этом компьютере будет отключен.</value>
+</data>
+<data name="ExceptionDetails_Caption" xml:space="preserve">
+  <value>Сведения об исключении</value>
+</data>
+<data name="OpenSettingsImportExportWindowActionText" xml:space="preserve">
+  <value>Открыть окно импорта и экспорта настроек</value>
+</data>
+<data name="EM_Options_Button_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="TheInstallationOfThisLanguageIsNotComplete_Text" xml:space="preserve">
+  <value>Если установка завершилась успешно, перезапустите Visual Studio. В противном случае попробуйте завершить установку через диспетчер расширений.</value>
+</data>
+<data name="MoveAfterActionText" xml:space="preserve">
+  <value>Переместить после</value>
+</data>
+<data name="Less_Text" xml:space="preserve">
+  <value>Свернуть</value>
+</data>
+<data name="LogOut_Text" xml:space="preserve">
+  <value>Выйти</value>
+</data>
+<data name="SubmitAnonymousUsageStatisticsToHelp_Text" xml:space="preserve">
+  <value>Отправлять анонимную статистику использования, чтобы помочь нам создавать лучшие версии и оптимизировать наиболее важные области продукта.</value>
+</data>
+<data name="InOrderToSubmitFeedbackYouMustFillAt_Text" xml:space="preserve">
+  <value>Чтобы отправить отзыв, заполните хотя бы одно поле</value>
+</data>
+<data name="Updates_Text" xml:space="preserve">
+  <value>Обновления</value>
+</data>
+<data name="_WithName_AlreadyExists_Text" xml:space="preserve">
+  <value>{0} с именем "{1}" уже существует</value>
+</data>
+<data name="InternalModeIsSetTo_Restart_Text" xml:space="preserve">
+  <value>Внутренний режим установлен в {0}. Перезапустить?</value>
+</data>
+<data name="PleaseDonTForgetToAttachA_Text" xml:space="preserve">
+  <value>Пожалуйста, не забудьте прикрепить</value>
+</data>
+<data name="AboutBox_BuiltOn" xml:space="preserve">
+  <value>Собрано {0}</value>
+</data>
+<data name="FixMouseIssuesInThe32BitApplication_Header_Text" xml:space="preserve">
+  <value>Исправить проблемы с мышью в 32-битном приложении (Экспериментально)</value>
+</data>
+<data name="ClickHereToAuthenticate_Text" xml:space="preserve">
+  <value>Нажмите здесь для аутентификации</value>
+</data>
+<data name="NoteWindows10InsiderPreviewIsNotListed_Text_Text" xml:space="preserve">
+  <value>Примечание: Windows 10 Insider Preview не указан как среда для автоматического применения исправления. Примените исправление вручную.</value>
+</data>
+<data name="OccursWhenTheButtonPartOfTheSplitButtonIsClicked_Description_Text" xml:space="preserve">
+  <value>Происходит при нажатии на кнопочную часть SplitButton.</value>
+</data>
+<data name="ExtensionManagerDialogColumnName_Title" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="ByClickingTheButtonBelow_Text" xml:space="preserve">
+  <value>, нажав кнопку "+" ниже</value>
+</data>
+<data name="ExceptionReporterSubmitAnonymouslyMessage" xml:space="preserve">
+  <value>Анонимная отправка</value>
+</data>
+<data name="IndicatesWhetherTheSplitButtonAlwaysShowsTheHoverImageStatusInTheSplitPartEvenIfTheButtonPartOfTheSplitButtonIsHovered_Description_Text" xml:space="preserve">
+  <value>Указывает, всегда ли SplitButton показывает состояние изображения "При наведении" в части разделения, даже если на кнопочную часть SplitButton наведен указатель.</value>
+</data>
+<data name="_Cancel_Text" xml:space="preserve">
+  <value>Отмена(_C)</value>
+</data>
+<data name="_ExtensionsHaveBeenInstalled_Text" xml:space="preserve">
+  <value>Установлено расширений: {0}</value>
+</data>
+<data name="NameIsInUse_Text" xml:space="preserve">
+  <value>Имя уже используется</value>
+</data>
+<data name="TabStripView_TabContextMenu_CloseAllButPinned" xml:space="preserve">
+  <value>Закрыть все, кроме закрепленных</value>
+</data>
+<data name="ProblemCategory_Text" xml:space="preserve">
+  <value>Категория проблемы:</value>
+</data>
+<data name="WhatFeaturesAppearUseful_Text" xml:space="preserve">
+  <value>Какие функции кажутся полезными?</value>
+</data>
+<data name="ChangeAccount_Text" xml:space="preserve">
+  <value>Сменить учетную запись</value>
+</data>
+<data name="AreThereAnyFeaturesYouDLikeToHaveBut_Text" xml:space="preserve">
+  <value>Есть ли функции, которые вы хотели бы иметь, но не нашли?</value>
+</data>
+<data name="EM_ExtensionSection_Incompatible" xml:space="preserve">
+  <value>Несовместимо</value>
+</data>
+<data name="Or_Text" xml:space="preserve">
+  <value> или </value>
+</data>
+<data name="LicenseSummary_Text" xml:space="preserve">
+  <value>Сводка по лицензии:</value>
+</data>
+<data name="SaveAs_Text" xml:space="preserve">
+  <value>Сохранить как</value>
+</data>
+<data name="ControlShowcase_Text" xml:space="preserve">
+  <value>Витрина элементов управления</value>
+</data>
+<data name="AddAttachment_Text" xml:space="preserve">
+  <value>Добавить вложение</value>
+</data>
+<data name="UpgradePerformedSettingDescription" xml:space="preserve">
+  <value>UpgradePerformed</value>
+</data>
+<data name="_NoIWouldNotLikeToParticipate_Text" xml:space="preserve">
+  <value>Нет, я не хочу участвовать(_N)</value>
+</data>
+<data name="EvaluationExpiration_Caption" xml:space="preserve">
+  <value>Окончание оценки</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="PackageSourceDirectory_Caption" xml:space="preserve">
+  <value>Каталог источника пакета</value>
+</data>
+<data name="AboutBox_CheckingForUpdatesFailed" xml:space="preserve">
+  <value>(не удалось проверить обновления)</value>
+</data>
+<data name="EMail_Text" xml:space="preserve">
+  <value>Электронная почта:</value>
+</data>
+<data name="ABoutBox_Back" xml:space="preserve">
+  <value>Назад</value>
+</data>
+<data name="ToUseThisLanguagePleaseRestartVisual_Text" xml:space="preserve">
+  <value>Чтобы использовать этот язык, перезапустите Visual Studio и дождитесь завершения установки.</value>
+</data>
+<data name="EM_ExtensionSection_Most_Popular" xml:space="preserve">
+  <value>Самые популярные</value>
+</data>
+<data name="WritesToTheTargetAndDisplaysTheResult_ToolTip" xml:space="preserve">
+  <value>Записывает в цель и отображает результат</value>
+</data>
+<data name="IndicatesWhetherTheSplitRectangeMustBeCalculatedBasingOnSplitImageSize_Description_Text" xml:space="preserve">
+  <value>Указывает, должен ли вычисляться прямоугольник разделения (на основе размера изображения разделения).</value>
+</data>
+<data name="TheSplitWidthIgnoredIfCalculateSplitRectIsSetToTrue_Description_Text" xml:space="preserve">
+  <value>Ширина разделения (игнорируется, если для CalculateSplitRect установлено значение true).</value>
+</data>
+<data name="EM_Installer_Is_Running" xml:space="preserve">
+  <value>Установщик {0} запущен. Закройте его, чтобы продолжить.</value>
+</data>
+<data name="ExceptionReporterRemoveAttachmentsDialogText" xml:space="preserve">
+  <value>Удаление вложений</value>
+</data>
+<data name="Loading_Text" xml:space="preserve">
+  <value>Загрузка…</value>
+</data>
+<data name="EM_Install_Completed_Failure_Description" xml:space="preserve">
+  <value>Произошло {0} {0:choice:one#ошибка|other#ошибок}}</value>
+</data>
+<data name="AreYouSureYouWantToStopProfiling_Text" xml:space="preserve">
+  <value>Вы уверены, что хотите остановить профилирование?</value>
+</data>
+<data name="SettingsStoreViewerActionText" xml:space="preserve">
+  <value>Просмотрщик хранилища настроек</value>
+</data>
+<data name="Attachments_Text" xml:space="preserve">
+  <value>Вложения</value>
+</data>
+<data name="IndicatesWhetherTheSplitButtonAlwaysShowsTheDropDownMenuEvenIfTheButtonPartOfTheSplitButtonIsClicked_Description_Text" xml:space="preserve">
+  <value>Указывает, всегда ли SplitButton показывает раскрывающееся меню, даже если нажата кнопочная часть SplitButton.</value>
+</data>
+<data name="EM_ExtensionSection_Installed" xml:space="preserve">
+  <value>Установлено</value>
+</data>
+<data name="Preview_Caption" xml:space="preserve">
+  <value>Предварительный просмотр</value>
+</data>
+<data name="RegionSelection_Text" xml:space="preserve">
+  <value>Выбор региона</value>
+</data>
+<data name="DoYouWantToSaveTheTextYouVeEnteredAnd_Text" xml:space="preserve">
+  <value>Хотите сохранить введенный текст и добавленные вложения?</value>
+</data>
+<data name="EnterLicense_Text" xml:space="preserve">
+  <value>Ввести лицензию</value>
+</data>
+<data name="_Storage_Text" xml:space="preserve">
+  <value>Хранилище {0}</value>
+</data>
+<data name="ProductsFeaturesOptionPageTitle" xml:space="preserve">
+  <value>Продукты и функции</value>
+</data>
+<data name="Feedback_Text" xml:space="preserve">
+  <value>Обратная связь</value>
+</data>
+<data name="CannotRunUpdatesChecker_Caption" xml:space="preserve">
+  <value>Не удается запустить проверку обновлений</value>
+</data>
+<data name="Storages_Text" xml:space="preserve">
+  <value>Хранилища</value>
+</data>
+<data name="_YesParticipateAnonymouslyInTheReSharper_Text" xml:space="preserve">
+  <value>Да, анонимно участвовать в программе статистики использования ReSharper(_Y)</value>
+</data>
+<data name="EM_ExtensionSection_Available_Extensions" xml:space="preserve">
+  <value>Доступные расширения</value>
+</data>
+<data name="OpenStorageActionText" xml:space="preserve">
+  <value>Открыть хранилище</value>
+</data>
+<data name="OK_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="Submit_Text" xml:space="preserve">
+  <value>Отправить(_S)</value>
+</data>
+<data name="CollectingThisInformationWillNotAffect_Text" xml:space="preserve">
+  <value>Сбор этой информации не повлияет на производительность ReSharper.</value>
+</data>
+<data name="Disable__Text" xml:space="preserve">
+  <value>Отключить {0}</value>
+</data>
+<data name="TheEarlyAccessProgramProvidesAccess_RichText_Text" xml:space="preserve">
+  <value>Программа раннего доступа предоставляет доступ к предварительным версиям продукта.</value>
+</data>
+<data name="AvailableExtensionSources_Text_Text" xml:space="preserve">
+  <value>Доступные источники расширений:</value>
+</data>
+<data name="NewVersionsOfTheExtensionsAreAvailable_Text" xml:space="preserve">
+  <value>Доступны новые версии расширений:</value>
+</data>
+<data name="GettingThingsReady_Text" xml:space="preserve">
+  <value>Подготовка…</value>
+</data>
+<data name="OpenFileLocation_Text" xml:space="preserve">
+  <value>Открыть расположение файла</value>
+</data>
+<data name="ImportExport_Text" xml:space="preserve">
+  <value>Импорт и экспорт</value>
+</data>
+<data name="AboutBox_UpdateAvailable" xml:space="preserve">
+  <value>(доступно обновление: {0})</value>
+</data>
+<data name="RemoveNewLinesActionText" xml:space="preserve">
+  <value>Удалить новые строки</value>
+</data>
+<data name="OpenMountingPointActionText" xml:space="preserve">
+  <value>Открыть точку подключения</value>
+</data>
+<data name="GeneralInformationAboutYourSoftware_Text" xml:space="preserve">
+  <value>  * Общая информация о конфигурации программного обеспечения (например, версия ОС)</value>
+</data>
+<data name="EditException_Text" xml:space="preserve">
+  <value>Редактировать исключение</value>
+</data>
+<data name="ShuttingDown_Text" xml:space="preserve">
+  <value>Завершение работы…</value>
+</data>
+<data name="TheFolder_DoesNotExist_Text" xml:space="preserve">
+  <value>Папка {0} не существует</value>
+</data>
+<data name="InOrderToSubmitAReportYouMustProvide_Text" xml:space="preserve">
+  <value>Чтобы отправить отчет, укажите сведения</value>
+</data>
+<data name="ChooseHowYouDLikeToIdentifyYourself_Text" xml:space="preserve">
+  <value>Выберите, как вы хотите идентифицировать себя</value>
+</data>
+<data name="AvailableLicenses_Text" xml:space="preserve">
+  <value>Доступные лицензии:</value>
+</data>
+<data name="PerformanceProblem_Text" xml:space="preserve">
+  <value>Проблема с производительностью</value>
+</data>
+<data name="UserName_Text" xml:space="preserve">
+  <value>Имя пользователя:</value>
+</data>
+<data name="ExceptionReporterBrowserAuthenticationDescriptionText" xml:space="preserve">
+  <value>Используйте веб-браузер|Войти в JetBrains Hub|, чтобы получать уведомления, когда о сообщенном исключении будет исправлено.|Или|Отправить анонимно|.</value>
+</data>
+<data name="SomethingWentWrongWhileLoadingThisView_Text" xml:space="preserve">
+  <value>При загрузке этого представления что-то пошло не так. Пожалуйста, повторите попытку позже.</value>
+</data>
+<data name="AddPackageSource_Text" xml:space="preserve">
+  <value>Добавить источник пакета</value>
+</data>
+<data name="SearchTextBox_Watermark" xml:space="preserve">
+  <value>Поиск…</value>
+</data>
+<data name="FeedbackCenterBrowserAuthenticationDescriptionText" xml:space="preserve">
+  <value>Используйте веб-браузер|Войти в JetBrains Hub|, чтобы получать уведомления об обновлениях отзыва.|Или|Отправить анонимно|.</value>
+</data>
+<data name="CollectGarbage_Text" xml:space="preserve">
+  <value>Собрать мусор</value>
+</data>
+<data name="ExtensionManagerDialogColumnSource_Title" xml:space="preserve">
+  <value>Источник:</value>
+</data>
+<data name="TabStripView_TabContextMenu_CloseAllButThis" xml:space="preserve">
+  <value>Закрыть все, кроме этого</value>
+</data>
+<data name="ToggleAutoHide_Text" xml:space="preserve">
+  <value>Переключить автоматическое скрытие панели поиска</value>
+</data>
+<data name="YouExpresslyAcknowledgeThatEAPVersions_RichText_Text" xml:space="preserve">
+  <value>Вы прямо подтверждаете, что версии EAP этого продукта могут быть ненадежными, работать не так, как ожидается, и содержать ошибки. Вы используете продукт EAP на свой страх и риск.</value>
+</data>
+<data name="EM_View_License" xml:space="preserve">
+  <value>Лицензия…</value>
+</data>
+<data name="TheRichTextCouldNotBeUploadedToTheView_Text" xml:space="preserve">
+  <value>Не удалось загрузить форматированный текст в представление</value>
+</data>
+<data name="LicenseConflict_Text" xml:space="preserve">
+  <value>Конфликт лицензий</value>
+</data>
+<data name="TreeWidthSettingDescription" xml:space="preserve">
+  <value>Ширина дерева</value>
+</data>
+<data name="EM_Close_Button_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="SelectTheTargetIntoWhichTheDataShould_ToolTip" xml:space="preserve">
+  <value>Выберите цель, в которую должны быть записаны данные</value>
+</data>
+<data name="ExceptionBrowser_Caption" xml:space="preserve">
+  <value>Браузер исключений</value>
+</data>
+<data name="UsageStatistics_Text" xml:space="preserve">
+  <value>Статистика использования</value>
+</data>
+<data name="TabStripView_TabContextMenu_CloseAll" xml:space="preserve">
+  <value>Закрыть все вкладки</value>
+</data>
+<data name="YouCanTurnTheIndicatorBackOnAtTheMenu_Text" xml:space="preserve">
+  <value>Вы можете снова включить индикатор в меню **ReSharper | Параметры | Среда | Общие**</value>
+</data>
+<data name="Always_Description_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="CopySurvivorsToClipboard_Text" xml:space="preserve">
+  <value>Копировать уцелевшие объекты в буфер обмена</value>
+</data>
+<data name="FixModeAutomaticAlwaysOrNeverSettingDescription" xml:space="preserve">
+  <value>Режим исправления (Автоматически, Всегда или Никогда)</value>
+</data>
+<data name="ExtensionManagerOptionViewButtonRemove" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="EM_Action_Skip" xml:space="preserve">
+  <value>Пропустить</value>
+</data>
+<data name="EM_Action_Keep" xml:space="preserve">
+  <value>Сохранить</value>
+</data>
+<data name="_IsNotAValidFilesystemPath_Text" xml:space="preserve">
+  <value>'{0}' не является допустимым путем в файловой системе</value>
+</data>
+<data name="SelectRegionWhereYouLocated_Text" xml:space="preserve">
+  <value>Выберите регион, чтобы ссылки и функции, специфичные для региона, работали правильно</value>
+</data>
+<data name="LicenseInformation_Text" xml:space="preserve">
+  <value>Информация о лицензии</value>
+</data>
+<data name="ThrowMemoryLeakException_Text" xml:space="preserve">
+  <value>Генерировать MemoryLeakException</value>
+</data>
+<data name="EM_Install_Completed" xml:space="preserve">
+  <value>Установка завершена</value>
+</data>
+<data name="ExceptionReporterBrowserAuthenticationText" xml:space="preserve">
+  <value>Аутентификация в браузере</value>
+</data>
+<data name="EM_View_Confirm2" xml:space="preserve">
+  <value>Заявление о конфиденциальности сторонних плагинов</value>
+</data>
+<data name="EM_View_Confirm1" xml:space="preserve">
+  <value>Я прочитал и понял</value>
+</data>
+<data name="ExpandAllActionText" xml:space="preserve">
+  <value>Развернуть все</value>
+</data>
+<data name="Delete_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="DataSharingOptions_Text" xml:space="preserve">
+  <value>Параметры общего доступа к данным</value>
+</data>
+<data name="IsHierarchicalActionText" xml:space="preserve">
+  <value>Иерархический</value>
+</data>
+<data name="EM_Action_Uninstall" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="UserNameShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Имя пользователя не должно быть пустым</value>
+</data>
+<data name="IconPackFolder_Caption" xml:space="preserve">
+  <value>Папка набора значков</value>
+</data>
+<data name="ParticipatingInThisProgramWillHelpUs_Text" xml:space="preserve">
+  <value>Участие в этой программе поможет нам лучше определить наиболее и наименее используемые функции, а также конфигурации, в которых используется продукт.</value>
+</data>
+<data name="NewActionText" xml:space="preserve">
+  <value>Создать</value>
+</data>
+<data name="OpenInWebBrowser_Text" xml:space="preserve">
+  <value>Открыть в веб-браузере</value>
+</data>
+<data name="GarbageWereCollectedButThisDidnTGive_Text" xml:space="preserve">
+  <value>Мусор был собран, но это не дало доступной памяти</value>
+</data>
+<data name="AboutBox_ThisPreReleaseWillExpire" xml:space="preserve">
+  <value>Эта предварительная версия истечет {0}</value>
+</data>
+<data name="More_Text" xml:space="preserve">
+  <value>Развернуть</value>
+</data>
+<data name="NoSignal_Text" xml:space="preserve">
+  <value>Нет сигнала</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_PropertyGrid_Header_Text" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="ProblemReport_Text" xml:space="preserve">
+  <value>Отчет о проблеме</value>
+</data>
+<data name="FindProcessByWindowActionText" xml:space="preserve">
+  <value>Найти процесс по окну</value>
+</data>
+<data name="ServerAddress_Text" xml:space="preserve">
+  <value>Адрес сервера:</value>
+</data>
+<data name="PleaseReviewHowYouPreferToShareYour_Text" xml:space="preserve">
+  <value>Пожалуйста, проверьте, как вы предпочитаете делиться данными с JetBrains:</value>
+</data>
 </root>

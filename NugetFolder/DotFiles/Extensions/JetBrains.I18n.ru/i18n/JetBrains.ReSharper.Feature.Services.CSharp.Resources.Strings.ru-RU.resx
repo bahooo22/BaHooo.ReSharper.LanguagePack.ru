@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="PatternMatchingExpressions_Header_Text" xml:space="preserve">
+  <value>Выражения сопоставления с образцом</value>
+</data>
+<data name="GeneratingMemberBodies_Text" xml:space="preserve">
+  <value>Создание тел членов</value>
+</data>
+<data name="ThrowIfNull_Text" xml:space="preserve">
+  <value>API ThrowIfNull() (.NET 6+)</value>
+</data>
+<data name="CodeCleanupTask_CSReorderTypeMembers" xml:space="preserve">
+  <value>Применить макет файла</value>
+</data>
+<data name="CSharp_EventsOnThisStyle_Text" xml:space="preserve">
+  <value>Подписки на события для этого:</value>
+</data>
+<data name="EmptyParams_Text" xml:space="preserve">
+  <value>[Пустые параметры]</value>
+</data>
+<data name="GenerateOption_PublicMember_Text" xml:space="preserve">
+  <value>public члены</value>
+</data>
+<data name="CodeCleanupTask_CSReformatCode" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="CSharp_AccessRights_Header" xml:space="preserve">
+  <value>Права доступа:</value>
+</data>
+<data name="NewRegion_Text" xml:space="preserve">
+  <value>Новая область</value>
+</data>
+<data name="RuleName_Text" xml:space="preserve">
+  <value>Имя правила</value>
+</data>
+<data name="ShowInterceptedCallsDescription" xml:space="preserve">
+  <value>Показывать значок для вызовов, перехваченных атрибутом [InterceptsLocation]</value>
+</data>
+<data name="AnnotateNullabilityOnAfterEntityNameSettingDescription" xml:space="preserve">
+  <value>Аннотировать допустимость значений NULL при вводе '!'/'?' после имени сущности</value>
+</data>
+<data name="EnableInspections" xml:space="preserve">
+  <value>Включить проверки</value>
+</data>
+<data name="GenerateOption_UseMethod__Text" xml:space="preserve">
+  <value>Использовать метод '{0}'</value>
+</data>
+<data name="NUnitAttributesDescription" xml:space="preserve">
+  <value>Атрибуты NUnit</value>
+</data>
+<data name="ShowUnnamedTupleComponentTypeNamesHintsSettingDescription" xml:space="preserve">
+  <value>Показывать типы компонентов кортежа для безымянных компонентов как подсказки редактора</value>
+</data>
+<data name="TargetTypedNewExpressions_Header_Text" xml:space="preserve">
+  <value>Выражения new с целевым типом</value>
+</data>
+<data name="MakeTaskReturningMethodsAsync_Text" xml:space="preserve">
+  <value>Сделать методы, возвращающие задачу, 'async'</value>
+</data>
+<data name="ReadUsagesOf__Text" xml:space="preserve">
+  <value>Чтения использования {0}</value>
+</data>
+<data name="ReformatCode_Name_Reformat_C_" xml:space="preserve">
+  <value>Переформатировать C#</value>
+</data>
+<data name="Preview_Text" xml:space="preserve">
+  <value>Предварительный просмотр</value>
+</data>
+<data name="MakeFormattingMethodsOverrideable_Text" xml:space="preserve">
+  <value>Сделать методы форматирования переопределяемыми (&amp;O)</value>
+</data>
+<data name="CodeContractGeneric_Text" xml:space="preserve">
+  <value>Контракт кода (универсальный)</value>
+</data>
+<data name="ElementOfCollection__Text" xml:space="preserve">
+  <value>Элемент коллекции {0}</value>
+</data>
+<data name="NullCheckPatternsSettings_CustomStatementPatternText_Description" xml:space="preserve">
+  <value>Пользовательский текст шаблона на основе оператора</value>
+</data>
+<data name="ReformatInactiveBranchesProgressText" xml:space="preserve">
+  <value>Переформатирование отключенных ветвей препроцессора</value>
+</data>
+<data name="ReformatComments__Name_Reformat_C__comments" xml:space="preserve">
+  <value>Переформатировать комментарии C#</value>
+</data>
+<data name="AfternewSettingDescription" xml:space="preserve">
+  <value>После 'new'</value>
+</data>
+<data name="AddNotNullCanBeNullByTypingAfterSymbol_Text" xml:space="preserve">
+  <value>Добавлять 'NotNull'/'CanBeNull' при вводе '!'/'?' после символа</value>
+</data>
+<data name="ShowBlockHeaderAfterItsClosingBraceDescription" xml:space="preserve">
+  <value>Показывать заголовок блока на его закрывающей скобке</value>
+</data>
+<data name="DebugAssert_Text" xml:space="preserve">
+  <value>Утверждение отладки</value>
+</data>
+<data name="PresentationFailed_Text" xml:space="preserve">
+  <value>Сбой представления</value>
+</data>
+<data name="Component__Text" xml:space="preserve">
+  <value>Компонент #{0}</value>
+</data>
+<data name="CTypingAssistOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры помощи при вводе C#</value>
+</data>
+<data name="CSharp_EditorConfigOverride_Text" xml:space="preserve">
+  <value>Некоторые правила именования на этой странице переопределяются {0} для решения</value>
+</data>
+<data name="OverrideInlineDataArgumentNames_BoolOption_Text" xml:space="preserve">
+  <value>Показывать для аргументов атрибута InlineData</value>
+</data>
+<data name="LetterAndDigitsSettingDescription" xml:space="preserve">
+  <value>Буквы и цифры</value>
+</data>
+<data name="GeneratingXMLDocumentation_Text" xml:space="preserve">
+  <value>Создание XML-документации</value>
+</data>
+<data name="ReorderTypeMembers_Name_Apply_file_layout" xml:space="preserve">
+  <value>Применить макет файла</value>
+</data>
+<data name="VisibilityModeOfTypeNameHintsForLambdaExpressionParametersSettingDescription" xml:space="preserve">
+  <value>Режим видимости подсказок с именами типов для параметров лямбда-выражений</value>
+</data>
+<data name="WhetherToHideTypeNameHintsForLambdaExpressionParametersIfTheTypeIsEvidentSettingDescription" xml:space="preserve">
+  <value>Скрывать ли подсказки с именами типов для параметров лямбда-выражений, если тип очевиден</value>
+</data>
+<data name="VisibilityModeOfTypeNameHintsForTargetTypedNewExpressionsSettingDescription" xml:space="preserve">
+  <value>Режим видимости подсказок с именами типов для выражений new с целевым типом</value>
+</data>
+<data name="Is_Text" xml:space="preserve">
+  <value>{0} является {1}</value>
+</data>
+<data name="GeneratingPartialProperties_Text" xml:space="preserve">
+  <value>Создание частичных свойств</value>
+</data>
+<data name="Style_Text" xml:space="preserve">
+  <value>Стиль</value>
+</data>
+<data name="MoveDown_Text" xml:space="preserve">
+  <value>Переместить вниз</value>
+</data>
+<data name="TraceAssert_Text" xml:space="preserve">
+  <value>Утверждение трассировки</value>
+</data>
+<data name="ReSharperCTypeConversionHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки подсказок преобразования типов ReSharper C#</value>
+</data>
+<data name="SyntaxError_Text" xml:space="preserve">
+  <value>Синтаксическая ошибка</value>
+</data>
+<data name="UpgradedFromVSSettingsSettingDescription" xml:space="preserve">
+  <value>Обновлено из настроек VS</value>
+</data>
+<data name="InvalidPlaceholder__Text" xml:space="preserve">
+  <value>Неверный заполнитель {0}</value>
+</data>
+<data name="CSharp_InconsistentNaming_Text" xml:space="preserve">
+  <value>Проверка "Несогласованное именование" обнаруживает нарушения правил именования. Если вы хотите, чтобы эта проверка пропускала только определенные правила, снимите флажок "Включить проверку" в настройках этих правил.</value>
+</data>
+<data name="CSharpInterceptorsInlayHints_OptionsPage_IgnoredGenerators_FQN" xml:space="preserve">
+  <value>Полное имя генератора источника</value>
+</data>
+<data name="SelectExpressionToCast_Text" xml:space="preserve">
+  <value>Выберите выражение для приведения</value>
+</data>
+<data name="GenerateOption_PropertiesAs_Text" xml:space="preserve">
+  <value>Свойства как (&amp;P)</value>
+</data>
+<data name="PatternMatchingC70_Text" xml:space="preserve">
+  <value>&gt;</value>
+</data>
+<data name="XUnitAttributesDescription" xml:space="preserve">
+  <value>Атрибуты xUnit</value>
+</data>
+<data name="NullCheckPatternsSettings_CustomExpressionPatternText_Description" xml:space="preserve">
+  <value>Пользовательский текст шаблона на основе выражения</value>
+</data>
+<data name="MinimumLinesToShowBlockHeaderHint" xml:space="preserve">
+  <value>Минимальное количество строк в блоке для показа его заголовка</value>
+</data>
+<data name="InDocCommentsSettingDescription" xml:space="preserve">
+  <value>Внутри комментариев документации</value>
+</data>
+<data name="CAutoNamingSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки автоматического именования C#</value>
+</data>
+<data name="GenerateOption_Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="CSharp_ToTheFollowingElements_Header" xml:space="preserve">
+  <value>К следующим элементам:</value>
+</data>
+<data name="CreateTracepoint_Text" xml:space="preserve">
+  <value>Создать точку трассировки</value>
+</data>
+<data name="RuleDescription_Text" xml:space="preserve">
+  <value>Описание правила</value>
+</data>
+<data name="Classic_Text" xml:space="preserve">
+  <value>Классический</value>
+</data>
+<data name="WhetherToIncludePropertyFieldAndVariableAccessorsInTheInvocationChainSettingDescription" xml:space="preserve">
+  <value>Включать ли методы доступа свойств, полей и переменных в цепочку вызовов</value>
+</data>
+<data name="AnnotateNullabilityOnAtOtherPositionsSettingDescription" xml:space="preserve">
+  <value>Аннотировать допустимость значений NULL при вводе '!/''?' в других позициях</value>
+</data>
+<data name="HideForSystemTypeConversions_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать для преобразований системных типов</value>
+</data>
+<data name="Argument_Of__Text" xml:space="preserve">
+  <value>Аргумент {0} для {1}</value>
+</data>
+<data name="FormattingMembers_Text" xml:space="preserve">
+  <value>Форматирование членов</value>
+</data>
+<data name="WhetherToHideTypeNameHintsForTargetTypedNewExpressionsIfTheTypeIsEvidentSettingDescription" xml:space="preserve">
+  <value>Скрывать ли подсказки с именами типов для выражений new с целевым типом, если тип очевиден</value>
+</data>
+<data name="CSharp_AutodetectedRules_Header" xml:space="preserve">
+  <value>Использовать автоматически обнаруженные правила</value>
+</data>
+<data name="ForeachStatementTemplate_Text" xml:space="preserve">
+  <value>Шаблон оператора foreach</value>
+</data>
+<data name="MethodReturnType_Header_Text" xml:space="preserve">
+  <value>Тип возвращаемого значения метода</value>
+</data>
+<data name="FromPackageAndAssemblyText" xml:space="preserve">
+  <value>Из пакета {0} {1} (сборка {2})</value>
+</data>
+<data name="FromPackageText" xml:space="preserve">
+  <value>Из пакета {0} {1}</value>
+</data>
+<data name="GenerateOption_PropertyWithBackingField_Text" xml:space="preserve">
+  <value>Свойство с резервным полем</value>
+</data>
+<data name="NullCheckPatternsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки шаблонов проверки на null</value>
+</data>
+<data name="CheckParametersForNull_Text" xml:space="preserve">
+  <value>Проверять параметры на null (&amp;N)</value>
+</data>
+<data name="ShowResourceDisposeRequiredAsEditorHintsSettingDescription" xml:space="preserve">
+  <value>Показывать аннотацию [MustDisposeResource] как подсказки редактора</value>
+</data>
+<data name="CSharp_EventHandlersNamingStyle_Text" xml:space="preserve">
+  <value>Стиль именования обработчиков событий:</value>
+</data>
+<data name="SelectArgumentExpression_Text" xml:space="preserve">
+  <value>Выберите выражение аргумента</value>
+</data>
+<data name="DaemonProjectSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки проекта Daemon</value>
+</data>
+<data name="From_Text" xml:space="preserve">
+  <value>Источник</value>
+</data>
+<data name="Prefix_Text" xml:space="preserve">
+  <value>Префикс</value>
+</data>
+<data name="ShowInferredDiscardNames" xml:space="preserve">
+  <value>Показывать выведенные имена отбрасываемых значений</value>
+</data>
+<data name="UseSingleIterationVariable__Text" xml:space="preserve">
+  <value>Использовать одну переменную типа '{0}'</value>
+</data>
+<data name="GenerateOption_Automatic_Text" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="CSettingDescription" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="CSharp_AddNamingRule_Header" xml:space="preserve">
+  <value>Добавить правило именования</value>
+</data>
+<data name="Assembly_Ellipsis_Text" xml:space="preserve">
+  <value>[Сборка: {0}(...)]</value>
+</data>
+<data name="ShowDeconstructionPatternComponentNamesHints" xml:space="preserve">
+  <value>Показывать имена компонентов в шаблоне деконструкции как подсказки редактора</value>
+</data>
+<data name="CompleteOnSpaceSettingDescription" xml:space="preserve">
+  <value>Завершать при нажатии пробела</value>
+</data>
+<data name="UsingStatisticsProcessor_ScanningFile_Text" xml:space="preserve">
+  <value>Сканирование файла {0:N0}/{1:N0}: '{2}'</value>
+</data>
+<data name="DeconstructIterationVariableInto_TextPrefix" xml:space="preserve">
+  <value>Деконструировать переменную в</value>
+</data>
+<data name="ConvertToGlobalUsing_AnalyzingUsings_Text" xml:space="preserve">
+  <value>Анализ using</value>
+</data>
+<data name="CustomExpression_Text" xml:space="preserve">
+  <value>Пользовательский (выражение)</value>
+</data>
+<data name="IncludePropertyFieldAndVariableAccessors_BoolOption_Text" xml:space="preserve">
+  <value>Включать методы доступа свойств, полей и переменных в цепочку вызовов</value>
+</data>
+<data name="GeneratingInitializations_Text" xml:space="preserve">
+  <value>Создание инициализаций</value>
+</data>
+<data name="ReferenceEquals_Text" xml:space="preserve">
+  <value>Ссылочное равенство</value>
+</data>
+<data name="GeneratingTypePatterns_Text" xml:space="preserve">
+  <value>Создание шаблонов типов</value>
+</data>
+<data name="Failed_Tests_Hint" xml:space="preserve">
+  <value>Неудачные тесты</value>
+</data>
+<data name="CodeCleanupTask_CSharpFormatDocComments" xml:space="preserve">
+  <value>Переформатировать встроенные XML-комментарии документации</value>
+</data>
+<data name="ReturnValueOfGetterOf__Text" xml:space="preserve">
+  <value>Возвращаемое значение геттера {0}</value>
+</data>
+<data name="MoveUp_Text" xml:space="preserve">
+  <value>Переместить вверх</value>
+</data>
+<data name="InterceptorsHints_OptionsPage_Title" xml:space="preserve">
+  <value>Подсказки перехватчиков</value>
+</data>
+<data name="Parameter_Of__Text" xml:space="preserve">
+  <value>Параметр {0} для {1}</value>
+</data>
+<data name="GeneratingConstructor_Text" xml:space="preserve">
+  <value>Создание конструктора</value>
+</data>
+<data name="ConfigureAwaitAnalysisModeSettingDescription" xml:space="preserve">
+  <value>Режим анализа ConfigureAwait</value>
+</data>
+<data name="ShowPragmaDescriptionHints" xml:space="preserve">
+  <value>Показывать описания предупреждений, отключенных или восстановленных директивами #pragma, как подсказки редактора</value>
+</data>
+<data name="View_Text" xml:space="preserve">
+  <value>Вид</value>
+</data>
+<data name="HideIfTargetTypeIsEvident_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать, если целевой тип очевиден</value>
+</data>
+<data name="XUnitParameterNameHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Параметры подсказок с именами параметров для xUnit</value>
+</data>
+<data name="InterceptedCallHint_Visibility_Text" xml:space="preserve">
+  <value>Перехваченный вызов</value>
+</data>
+<data name="CSharp_EditNamingRule_Header" xml:space="preserve">
+  <value>Редактировать правило именования</value>
+</data>
+<data name="ImplicitlyTypedVariables_Header_Text" xml:space="preserve">
+  <value>Неявно типизированные переменные</value>
+</data>
+<data name="ReformatInactiveBranches_Name_Reformat_CS" xml:space="preserve">
+  <value>Переформатировать отключенные ветви препроцессора C# в файле</value>
+</data>
+<data name="WhereValueIsExpectedSettingDescription" xml:space="preserve">
+  <value>Где ожидается значение</value>
+</data>
+<data name="HandleAnyOtherValue_Text" xml:space="preserve">
+  <value>Обрабатывать любое другое значение (&amp;O)</value>
+</data>
+<data name="CSharpInterceptorsInlayHints_OptionsPage_IgnoredGenerators_Description" xml:space="preserve">
+  <value>Не показывать подсказки для вызовов, перехваченных следующими генераторами исходного кода:</value>
+</data>
+<data name="PatternIsEmpty_Text" xml:space="preserve">
+  <value>Шаблон пуст</value>
+</data>
+<data name="InvocationResultOf__Text" xml:space="preserve">
+  <value>Результат вызова {0}</value>
+</data>
+<data name="Ignored_Tests_Hint" xml:space="preserve">
+  <value>Пропущенные тесты</value>
+</data>
+<data name="VisibilityModeOfTypeNameHintsForPatternMatchingExpressionsSettingDescription" xml:space="preserve">
+  <value>Режим видимости подсказок с именами типов для выражений сопоставления с образцом</value>
+</data>
+<data name="LINQRangeVariables_Header_Text" xml:space="preserve">
+  <value>Переменные диапазона LINQ</value>
+</data>
+<data name="GenerateOption_No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="CIntelliSenseEnabledSettingDescription" xml:space="preserve">
+  <value>Включить C# IntelliSense</value>
+</data>
+<data name="TupleComponentNameUnnamedComponentTypeHints_Option_Text" xml:space="preserve">
+  <value>Показывать типы безымянных компонентов</value>
+</data>
+<data name="CanUseCustomStatementBasedPatternForAssertionSettingDescription" xml:space="preserve">
+  <value>Можно использовать пользовательский шаблон на основе оператора для утверждения</value>
+</data>
+<data name="WhetherToUseVarInsteadOfTypeSettingDescription" xml:space="preserve">
+  <value>Использовать ли 'var' вместо имени типа</value>
+</data>
+<data name="MakePropertiesMutable_Text" xml:space="preserve">
+  <value>Сделать свойства изменяемыми</value>
+</data>
+<data name="Inconclusive_Tests_Hint" xml:space="preserve">
+  <value>Неопределенные тесты</value>
+</data>
+<data name="Remove_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="UseCompactTypeNamePresentation_BoolOption_Text" xml:space="preserve">
+  <value>Использовать компактное представление имени типа</value>
+</data>
+<data name="HideIfTypeOfVariableIsEvident_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать, если тип переменной очевиден</value>
+</data>
+<data name="GenerateOption_VirtualMember_Text" xml:space="preserve">
+  <value>virtual члены</value>
+</data>
+<data name="Configure_Text" xml:space="preserve">
+  <value>Настроить</value>
+</data>
+<data name="ShowInterceptsLocationNavigationHintDescription" xml:space="preserve">
+  <value>Показывать навигационный значок для атрибута [InterceptsLocation]</value>
+</data>
+<data name="OverrideTestCaseAttributeArgumentNamesWithTestMethodsParameterNamesSettingDescription" xml:space="preserve">
+  <value>Использовать ли имена параметров связанного метода в качестве имен для аргументов, предоставленных для методов с атрибутом TestCase</value>
+</data>
+<data name="GeneratingEventSubscriptions_Text" xml:space="preserve">
+  <value>Создание подписок на события</value>
+</data>
+<data name="HideIfTypesOfParametersAreEvident_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать, если типы параметров очевидны</value>
+</data>
+<data name="EvaluatesToNameofEntityIfPossibleOrEntityOtherwiseMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вычисляет в 'nameof(entity)', если возможно, иначе в 'entity'</value>
+</data>
+<data name="CSharp_AutodetectedRules_Text" xml:space="preserve">
+  <value>Стили именования будут выведены на основе именования символов в текущем решении и автоматически сохранены в настройках решения.</value>
+</data>
+<data name="CSharp_EventOnFieldsStyle_Text" xml:space="preserve">
+  <value>Подписки на события для полей:</value>
+</data>
+<data name="ThrowExpressionC70_Text" xml:space="preserve">
+  <value>&gt;</value>
+</data>
+<data name="UseSingleIterationVariable_Text" xml:space="preserve">
+  <value>Использовать одну переменную итерации</value>
+</data>
+<data name="General_Header_Text" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="CodeContract_Text" xml:space="preserve">
+  <value>Контракт кода</value>
+</data>
+<data name="UpdateFileHeader_Name_Update_file_header" xml:space="preserve">
+  <value>Обновить заголовок файла</value>
+</data>
+<data name="ValuesAssignedTo_Text" xml:space="preserve">
+  <value>Значения, присвоенные {0}</value>
+</data>
+<data name="NoTypeConversionHintsWillBeShownForOperatorPatter" xml:space="preserve">
+  <value>Не показывать подсказки преобразования типов для операторов, соответствующих любому из следующих шаблонов:</value>
+</data>
+<data name="PredefinedCParameterNameHintsExclusion_Text" xml:space="preserve">
+  <value>Предопределенный список исключений подсказок с именами параметров C#</value>
+</data>
+<data name="GeneratingDelegatingMembers_Text" xml:space="preserve">
+  <value>Создание делегирующих членов</value>
+</data>
+<data name="UseNameofExressionToReferenceMemberNames_Text" xml:space="preserve">
+  <value>Использовать выражение 'nameof' для ссылки на имена членов (&amp;N)</value>
+</data>
+<data name="Virtual_Text" xml:space="preserve">
+  <value>Виртуальный (&amp;V)</value>
+</data>
+<data name="SelectExpressionToInvert_Text" xml:space="preserve">
+  <value>Выберите выражение для инвертирования</value>
+</data>
+<data name="ApplyingSyntaxStyle_Text" xml:space="preserve">
+  <value>Применение синтаксического стиля</value>
+</data>
+<data name="CAnnotationTypingAssistOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры помощи при вводе аннотаций C#</value>
+</data>
+<data name="CParameterNameHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки подсказок с именами параметров C#</value>
+</data>
+<data name="VisibilityModeOfTypeNameHintsForQueryRangeVariablesInLINQQueriesSettingDescription" xml:space="preserve">
+  <value>Режим видимости подсказок с именами типов для переменных диапазона запроса в запросах LINQ</value>
+</data>
+<data name="GeneratingOverrides_Text" xml:space="preserve">
+  <value>Создание переопределений</value>
+</data>
+<data name="TabActionSettingDescription" xml:space="preserve">
+  <value>Действие Tab</value>
+</data>
+<data name="GenerateOption_AutomaticProperty_Text" xml:space="preserve">
+  <value>Автоматическое свойство</value>
+</data>
+<data name="TypeConversionHintsExclusionListValueNotValid" xml:space="preserve">
+  <value>Укажите допустимый шаблон. Шаблон должен выглядеть как 'ReturnType(ParameterType)' с полным именем CLR типа. Шаблон также может содержать подстановочный знак '*' для соответствия любой последовательности символов.</value>
+</data>
+<data name="PredictionFailed_Text" xml:space="preserve">
+  <value>Сбой прогноза</value>
+</data>
+<data name="GeneratingProperties_Text" xml:space="preserve">
+  <value>Создание свойств</value>
+</data>
+<data name="Broken_Tests_Hint" xml:space="preserve">
+  <value>Сломанные тесты</value>
+</data>
+<data name="PredictionEnds_Text" xml:space="preserve">
+  <value>Прогноз заканчивается здесь</value>
+</data>
+<data name="ImplementMembers_Text" xml:space="preserve">
+  <value>Реализовать интерфейс (&amp;I)</value>
+</data>
+<data name="EvaluatesToNameofEntityIfPossibleOrEntityOtherwiseMacroDefinition_Description" xml:space="preserve">
+  <value>Имя сущности</value>
+</data>
+<data name="InContainerKind_Text" xml:space="preserve">
+  <value>, в:</value>
+</data>
+<data name="CodeCleanupTask_CSharpReformatComments" xml:space="preserve">
+  <value>Переформатировать комментарии</value>
+</data>
+<data name="WhetherOrNotLiveTemplatesShouldUsevarInsteadOfASpecificTypeNameSettingDescription" xml:space="preserve">
+  <value>Должны ли живые шаблоны использовать 'var' вместо конкретного имени типа</value>
+</data>
+<data name="QualifierOfExpression__Text" xml:space="preserve">
+  <value>Квалификатор выражения: {0}</value>
+</data>
+<data name="OverrideInlineAutoDataAttributeArgumentNamesWithTestMethodsParameterNamesSettingDescription" xml:space="preserve">
+  <value>Использовать ли имена параметров связанного метода в качестве имен для аргументов, предоставленных для методов с атрибутом InlineAutoData</value>
+</data>
+<data name="InAssembly__Text" xml:space="preserve">
+  <value>В сборке</value>
+</data>
+<data name="ReSharperCTypeNameHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки подсказок с именами типов ReSharper C#</value>
+</data>
+<data name="PriorityOfNullCheckingPatternsSettingDescription" xml:space="preserve">
+  <value>Приоритет шаблонов проверки на null</value>
+</data>
+<data name="GeneratePatternVariable_Text" xml:space="preserve">
+  <value>Сгенерировать переменную шаблона (&amp;V)</value>
+</data>
+<data name="EnterActionSettingDescription" xml:space="preserve">
+  <value>Действие Enter</value>
+</data>
+<data name="CAutoNamingNotificationStateSettingDescription" xml:space="preserve">
+  <value>Состояние уведомления автоматического именования C#</value>
+</data>
+<data name="CsLanguageLevelDisplayName_Text" xml:space="preserve">
+  <value>Уровень языка C#</value>
+</data>
+<data name="ComputingImplicitUsings_Text" xml:space="preserve">
+  <value>Вычисление неявных using</value>
+</data>
+<data name="COptionPageTitle" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="CSharp_Abbreviations_Text" xml:space="preserve">
+  <value>Сокращения:</value>
+</data>
+<data name="ShowDiscardTypeNameHints" xml:space="preserve">
+  <value>Показывать тип отбрасываемых переменных как подсказки редактора</value>
+</data>
+<data name="ShowImplicitJumpHintsBeforeLocalFunctionsDescription" xml:space="preserve">
+  <value>Показывать неявные переходы управления перед локальными функциями в конце блока</value>
+</data>
+<data name="CsLanguageLevelDescription_Text" xml:space="preserve">
+  <value>Указывает уровень языка C# для анализа кода проекта.</value>
+</data>
+<data name="ShowResourceDisposePointsAsEditorHintsSettingDescription" xml:space="preserve">
+  <value>Показывать точки освобождения ресурсов как подсказки редактора</value>
+</data>
+<data name="CCsFilesAndCCodeInSupportedServerPagesSettingDescription" xml:space="preserve">
+  <value>C# (файлы .cs и код C# на поддерживаемых серверных страницах)</value>
+</data>
+<data name="Aborted_Tests_Hint" xml:space="preserve">
+  <value>Прерванные тесты</value>
+</data>
+<data name="HideForSingleInvocationsAndOneLineMethod_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать для одиночных вызовов и однострочных цепочек методов</value>
+</data>
+<data name="NonCompletingCharactersSettingDescription" xml:space="preserve">
+  <value>Символы, не завершающие ввод</value>
+</data>
+<data name="HideForTheLastInvocationWhenHintIsIrrelevant_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать для последнего вызова, когда подсказка нерелевантна</value>
+</data>
+<data name="DefaultValueForType__Text" xml:space="preserve">
+  <value>Значение по умолчанию для типа {0}</value>
+</data>
+<data name="CodeCleanupTask_CSUpdateFileHeader" xml:space="preserve">
+  <value>Обновить заголовок файла</value>
+</data>
+<data name="GenerateOption_ImplementAs_Text" xml:space="preserve">
+  <value>Реализовать как (&amp;I)</value>
+</data>
+<data name="JoinHintsForSequencesOfMethodInvocations_BoolOption_Text" xml:space="preserve">
+  <value>Объединять подсказки для последовательностей вызовов методов с одинаковым типом возвращаемого значения</value>
+</data>
+<data name="ReturnValueOf__Text" xml:space="preserve">
+  <value>Возвращаемое значение {0}</value>
+</data>
+<data name="NUnitParameterNameHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Параметры подсказок с именами параметров для NUnit</value>
+</data>
+<data name="OverrideInlineAutoDataArgumentNames_BoolOption_Text" xml:space="preserve">
+  <value>Показывать для аргументов атрибута InlineAutoData</value>
+</data>
+<data name="InterceptsLocationHint_Visibility_Text" xml:space="preserve">
+  <value>Навигационная подсказка для атрибута [InterceptsLocation]</value>
+</data>
+<data name="CSharpAutoNamingAction_Text" xml:space="preserve">
+  <value>Обнаружить именование C#</value>
+</data>
+<data name="CodeAnnotationsForParameterDeclarations_Header_Text" xml:space="preserve">
+  <value>Аннотации кода для объявлений параметров</value>
+</data>
+<data name="CanUseCustomExpressionBasedPatternForAssertionSettingDescription" xml:space="preserve">
+  <value>Можно использовать пользовательский шаблон на основе выражения для утверждения</value>
+</data>
+<data name="DefaultValue__Text" xml:space="preserve">
+  <value> // Значение по умолчанию: {0}</value>
+</data>
+<data name="ResultOf__Text" xml:space="preserve">
+  <value>Результат {0}</value>
+</data>
+<data name="ShowMissingConstructsAsEditorHintsSettingDescription" xml:space="preserve">
+  <value>Показывать отсутствующие конструкции как подсказки редактора</value>
+</data>
+<data name="CSharp_SupportMicrosoftEventsStyle_Text" xml:space="preserve">
+  <value>Поддерживать стиль именования событий Microsoft</value>
+</data>
+<data name="AnnotateNullabilityOnAfterTypeNameSettingDescription" xml:space="preserve">
+  <value>Аннотировать допустимость значений NULL при вводе '!'/'?' после имени типа</value>
+</data>
+<data name="GenerateOption_DefaultBodyFromOptions_Text" xml:space="preserve">
+  <value>Тело по умолчанию (из параметров)</value>
+</data>
+<data name="Suffix_Text" xml:space="preserve">
+  <value>Суффикс</value>
+</data>
+<data name="InStringLiteralsSettingDescription" xml:space="preserve">
+  <value>В строковых литералах</value>
+</data>
+<data name="SelectExpressionToParenthesize_Text" xml:space="preserve">
+  <value>Выберите выражение для заключения в скобки</value>
+</data>
+<data name="HandleNUllValue_Text" xml:space="preserve">
+  <value>Обрабатывать значение 'n&amp;ull' (&amp;U)</value>
+</data>
+<data name="ShowCommentBeforeLocalFunctionsWhenThereIsCodeInOuterScope_Tooltip" xml:space="preserve">
+  <value>Показывать подсказку с комментарием в конце блока для разделения локальных функций, если во внешней области видимости есть исполняемый код, и невозможно показать подсказку 'return' или 'continue'. Например, внутри оператора 'if', за которым следует исполняемый код.</value>
+</data>
+<data name="CPredefinedNamingPolicy_Text" xml:space="preserve">
+  <value>Предопределенная политика именования C#</value>
+</data>
+<data name="GeneratingPartialMembers_Text" xml:space="preserve">
+  <value>Создание частичных членов</value>
+</data>
+<data name="MakeParametersOptional_Text" xml:space="preserve">
+  <value>Сделать параметры необязательными</value>
+</data>
+<data name="NamingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль именования</value>
+</data>
+<data name="Running_Tests_Hint" xml:space="preserve">
+  <value>Выполняются тесты</value>
+</data>
+<data name="UseSystemHashCodeToImplementGetHashCode_Text" xml:space="preserve">
+  <value>Использовать 'System.&amp;HashCode' для реализации 'GetHashCode'</value>
+</data>
+<data name="ShowCommentBeforeLocalFunctionsWhenThereIsCodeInOuterScope" xml:space="preserve">
+  <value>Показывать комментарий перед большими локальными функциями в конце нетерминирующих вложенных областей</value>
+</data>
+<data name="Successful_Tests_Hint" xml:space="preserve">
+  <value>Успешные тесты</value>
+</data>
+<data name="ShowTypeConversionHintsAsIcons_BoolOption_Text" xml:space="preserve">
+  <value>Показывать подсказки преобразования типов в виде значков</value>
+</data>
+<data name="MinimumLinesToShowCommentBeforeLocalFunctions" xml:space="preserve">
+  <value>Минимальное общее количество строк в локальной функции для показа комментария перед ней</value>
+</data>
+<data name="GenerateOption_NotifyOnPropertyChanges_Text" xml:space="preserve">
+  <value>Уведомлять об изменениях свойств (&amp;C)</value>
+</data>
+<data name="InsertDocumentationCommentStubOnTypingTheThirdSettingDescription" xml:space="preserve">
+  <value>Вставлять заглушку комментария документации при вводе третьего '/'</value>
+</data>
+<data name="General_Header_Text2" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="Pending_Tests_Hint" xml:space="preserve">
+  <value>Ожидающие тесты</value>
+</data>
+<data name="GenerateOption_ReadOnly_Text" xml:space="preserve">
+  <value>Только для чтения (&amp;O)</value>
+</data>
+<data name="Unknown_Tests_Hint" xml:space="preserve">
+  <value>Неизвестные тесты</value>
+</data>
+<data name="CustomStatement_Text" xml:space="preserve">
+  <value>Пользовательский (оператор)</value>
+</data>
+<data name="Assembly__Text" xml:space="preserve">
+  <value>[Сборка: {0}]</value>
+</data>
+<data name="GenerateOption_AccessRights_Text" xml:space="preserve">
+  <value>Права доступа (&amp;R)</value>
+</data>
+<data name="OverrideTestCaseArgumentNames_BoolOption_Text" xml:space="preserve">
+  <value>Показывать для аргументов атрибута TestCase</value>
+</data>
+<data name="OverrideInlineDataAttributeArgumentNamesWithTestMethodsParameterNamesSettingDescription" xml:space="preserve">
+  <value>Использовать ли имена параметров связанного метода в качестве имен для аргументов, предоставленных для методов с атрибутом InlineData</value>
+</data>
+<data name="HideIfTypeNameIsEvidentFromVariable_BoolOption_Text" xml:space="preserve">
+  <value>Скрывать, если имя типа очевидно из имени переменной</value>
+</data>
+<data name="ExceptionPredicted_Text" xml:space="preserve">
+  <value>Прогнозируется исключение</value>
+</data>
+<data name="CSharp_InconsistentNaming_Header" xml:space="preserve">
+  <value>Включить проверку "Несогласованное именование"</value>
+</data>
+<data name="CodeCleanupTask_CSReformatInactiveBranches" xml:space="preserve">
+  <value>Переформатировать отключенные ветви препроцессора в файле</value>
+</data>
+<data name="GenerateOption_AbstractMember_Text" xml:space="preserve">
+  <value>abstract члены</value>
+</data>
+<data name="LambdaExpressionParameters_Header_Text" xml:space="preserve">
+  <value>Параметры лямбда-выражений</value>
+</data>
+<data name="AnnotateYourCodeInJustOneKeystrokeAfter_Text" xml:space="preserve">
+  <value>Аннотируйте свой код одним нажатием клавиши:
+Введите '!' после имени типа или сущности, чтобы добавить аннотацию 'NotNull'
+Введите '?' после имени типа или сущности, чтобы добавить аннотацию 'CanBeNull'</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Edit_Text" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="CSharp_AutodetectOverride_Text" xml:space="preserve">
+  <value>Некоторые правила именования задаются на основе именования символов в текущем решении. Чтобы использовать правила по умолчанию, снимите флажок "Использовать автоматически обнаруженные значения".</value>
+</data>
+<data name="PatternIsValid_Text" xml:space="preserve">
+  <value>Шаблон допустим</value>
+</data>
+<data name="GenerateOption_ExplicitImplementation_Text" xml:space="preserve">
+  <value>Явная реализация</value>
+</data>
+<data name="CSharp_ApplyThisStyle_Header" xml:space="preserve">
+  <value>Применить этот стиль:</value>
+</data>
+<data name="ReceivedValueOf__Text" xml:space="preserve">
+  <value>Полученное значение {0}</value>
+</data>
+<data name="Mode_ComboEnum_Caption" xml:space="preserve">
+  <value>Режим:</value>
+</data>
+<data name="GeneratingImplementations_Text" xml:space="preserve">
+  <value>Создание реализаций</value>
+</data>
+<data name="ShowTupleComponentNameHintsSettingDescription" xml:space="preserve">
+  <value>Показывать имена компонентов кортежа как подсказки редактора</value>
+</data>
+<data name="ShowBlockHeaderAfterItsClosingBrace_Header_Text" xml:space="preserve">
+  <value>Показывать заголовок блока на его закрывающей скобке</value>
+</data>
+<data name="AfterDotSettingDescription" xml:space="preserve">
+  <value>После точки</value>
+</data>
+<data name="COtherInlayHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки других встроенных подсказок C#</value>
+</data>
+</root>

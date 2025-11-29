@@ -1,0 +1,864 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ConstructorMustBePublic_Text" xml:space="preserve">
+  <value>Конструктор должен быть public</value>
+</data>
+<data name="EmptyXKeyElementIsNotAllowed_Text" xml:space="preserve">
+  <value>Пустой элемент x:Key не допускается</value>
+</data>
+<data name="_HasNoGetter_Text" xml:space="preserve">
+  <value>У '{0}' нет getter</value>
+</data>
+<data name="DuplicateSetterMessage" xml:space="preserve">
+  <value>Повторяющийся setter для {0} '{1}'</value>
+</data>
+<data name="SingleCell_SpanIsRedundant_ToolTip" xml:space="preserve">
+  <value>Для одной ячейки {0}.Span избыточен</value>
+</data>
+<data name="PropertyValueIsEqualToValueProvidedByExplicitStyleAndCanBeRemoved" xml:space="preserve">
+  <value>Значение свойства равно значению, предоставленному явным стилем, и может быть удалено</value>
+</data>
+<data name="MissingGrid_SetterForNonFirstChild_Text" xml:space="preserve">
+  <value>Отсутствует setter Grid.{0} для не первого дочернего элемента</value>
+</data>
+<data name="IncorrectNumberOfTypeParameters_Text" xml:space="preserve">
+  <value>Некорректное количество параметров типа</value>
+</data>
+<data name="UnmanagedTypeExpected_Text" xml:space="preserve">
+  <value>Ожидается неуправляемый тип</value>
+</data>
+<data name="DynamicResourceCanOnlyBeUsedWithDependency_Text" xml:space="preserve">
+  <value>{DynamicResource} можно использовать только со свойством зависимостей</value>
+</data>
+<data name="PropertiesAndVariablesField_Text" xml:space="preserve">
+  <value>Свойства и переменные // Поля</value>
+</data>
+<data name="ParentTypeShouldBeSpecifiedAtMostOnce_Text" xml:space="preserve">
+  <value>Родительский тип можно указать не более одного раза</value>
+</data>
+<data name="DuplicateViewForDeviceFamily__ToolTip" xml:space="preserve">
+  <value>Повторяющееся представление для семейства устройств {0}</value>
+</data>
+<data name="TwoWayBindingCannotBeAppliedToCastExpression_Text" xml:space="preserve">
+  <value>Двусторонняя привязка не может быть применена к выражению приведения</value>
+</data>
+<data name="_IsNotFoundInXmlns__Text" xml:space="preserve">
+  <value>'{0}' не найден в xmlns '{1}'</value>
+</data>
+<data name="InvalidFreezeAttributeValue_ToolTip" xml:space="preserve">
+  <value>Недопустимое значение атрибута Freeze</value>
+</data>
+<data name="PathToResourceIsCaseSensitive_Text" xml:space="preserve">
+  <value>Путь к ресурсу чувствителен к регистру</value>
+</data>
+<data name="XFieldModifierAttributeRequiresXNameAttribute" xml:space="preserve">
+  <value>Атрибут x:FieldModifier требует наличия атрибута x:Name</value>
+</data>
+<data name="Resource_IsNotFound_Text" xml:space="preserve">
+  <value>Ресурс '{0}' не найден</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantModifiersAttributes" xml:space="preserve">
+  <value>Удалить избыточные атрибуты модификаторов</value>
+</data>
+<data name="TextIsNotExpectedHere_Text" xml:space="preserve">
+  <value>Текст здесь не ожидается</value>
+</data>
+<data name="XAMLLanguageLevelError_Text" xml:space="preserve">
+  <value>Ошибка уровня языка XAML</value>
+</data>
+<data name="DereferencingAnExpressionWhichCanHave_Text" xml:space="preserve">
+  <value>Разыменование выражения, которое может иметь значение 'null' в привязке без указанного резервного значения</value>
+</data>
+<data name="PropertyValueIsEqualToStyleProvided" xml:space="preserve">
+  <value>Значение свойства равно значению, предоставленному стилем</value>
+</data>
+<data name="Single_IsRedundant_Text" xml:space="preserve">
+  <value>Одиночный &lt;{0}&gt; избыточен</value>
+</data>
+<data name="DefaultConstructorMustBePublic_Text" xml:space="preserve">
+  <value>Конструктор по умолчанию должен быть public</value>
+</data>
+<data name="MismatchedClassName_Expected_ToolTip" xml:space="preserve">
+  <value>Несоответствие имени класса. Ожидалось '{0}'.</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RedundantFreezeAttributes" xml:space="preserve">
+  <value>Удалить избыточные атрибуты 'Freeze'</value>
+</data>
+<data name="IgnoredPath_Text" xml:space="preserve">
+  <value>Игнорируемый путь</value>
+</data>
+<data name="InvalidLengthValue_Text" xml:space="preserve">
+  <value>Недопустимое значение длины</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantAttachedPropertySetter" xml:space="preserve">
+  <value>Удалить избыточный setter присоединенного свойства</value>
+</data>
+<data name="CannotResolveMethod_InDataContextOf_Text" xml:space="preserve">
+  <value>Не удается разрешить метод '{0}' в контексте данных типа '{1}'</value>
+</data>
+<data name="TypesClass_Text" xml:space="preserve">
+  <value>Типы // Классы</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantUpdateSourceTriggerAttribute" xml:space="preserve">
+  <value>Удалить избыточный атрибут UpdateSourceTrigger</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantResource" xml:space="preserve">
+  <value>Удалить избыточный ресурс</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantAttachedPropertySetters" xml:space="preserve">
+  <value>Удалить избыточные сеттеры присоединенных свойств</value>
+</data>
+<data name="XamlMissingGridIndexHints_Text" xml:space="preserve">
+  <value>Отсутствуют подсказки индексов сетки</value>
+</data>
+<data name="NamespaceAlias_Text" xml:space="preserve">
+  <value>Псевдоним пространства имен</value>
+</data>
+<data name="UnresolvedBindingPathWhenContextIsKnown_DescriptionText" xml:space="preserve">
+  <value>Нераспознанный путь привязки при указанном DataContext, но символ не найден</value>
+</data>
+<data name="DependencyPropertyDescriptorField_Missing_ToolTip" xml:space="preserve">
+  <value>Отсутствует поле дескриптора свойства зависимостей '{0}'</value>
+</data>
+<data name="DependencyPropertyDescriptorFieldMissing_DescriptionText" xml:space="preserve">
+  <value>Отсутствует поле дескриптора свойства зависимостей или реализация не соответствует руководству по стилю Microsoft</value>
+</data>
+<data name="ConstructorIsNotResolved_Text" xml:space="preserve">
+  <value>Конструктор не разрешен</value>
+</data>
+<data name="AttachedPropertySetterHasNoEffectInCurrentContextAndCanBeRemovedMessage" xml:space="preserve">
+  <value>Сеттер присоединенного свойства '{0}.{1}' не оказывает никакого эффекта в текущем контексте и может быть удален</value>
+</data>
+<data name="UseOfObsoleteTypeOrTypeMember" xml:space="preserve">
+  <value>Используется устаревший тип или член типа</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantStyledValues" xml:space="preserve">
+  <value>Удалить избыточные сеттеры свойств стиля</value>
+</data>
+<data name="RedundantNamespaceAlias" xml:space="preserve">
+  <value>Избыточный псевдоним пространства имен</value>
+</data>
+<data name="ElementNotFound__ToolTip" xml:space="preserve">
+  <value>Элемент {0} не найден</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantNamespaceAliass" xml:space="preserve">
+  <value>Удалить избыточные псевдонимы пространств имен</value>
+</data>
+<data name="ResourceIsNotUsedAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Ресурс не используется и может быть безопасно удален</value>
+</data>
+<data name="IncorrectParameterType_Text" xml:space="preserve">
+  <value>Некорректный тип параметра</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantNamespaceAlias" xml:space="preserve">
+  <value>Удалить избыточный псевдоним пространства имен</value>
+</data>
+<data name="_IsDefaultBindingModeAndCanBeSafely_Text" xml:space="preserve">
+  <value>'{0}' является режимом привязки по умолчанию и может быть безопасно удален</value>
+</data>
+<data name="IncorrectTypeArgument_Text" xml:space="preserve">
+  <value>Некорректный аргумент типа</value>
+</data>
+<data name="_IsNotSupportedForXBind_Text" xml:space="preserve">
+  <value>'{0}' не поддерживается для x:Bind</value>
+</data>
+<data name="EventsCanOnlyBeBoundToNonOverloaded_Text" xml:space="preserve">
+  <value>События могут быть привязаны только к не перегруженным методам</value>
+</data>
+<data name="SetResourceVisibilityToPublic_Text" xml:space="preserve">
+  <value>Установить видимость ресурса в public</value>
+</data>
+<data name="ValueTypeExpected_Text" xml:space="preserve">
+  <value>Ожидается тип значения</value>
+</data>
+<data name="Type_SpecifiedInBindingContextDoesNot_Text" xml:space="preserve">
+  <value>Тип '{0}', указанный в BindingContext, не соответствует типу '{1}', указанному в x:DataType</value>
+</data>
+<data name="InvalidLength__Text" xml:space="preserve">
+  <value>Недопустимая длина. {0}</value>
+</data>
+<data name="RedundantEmptyCollectionPropertySetter" xml:space="preserve">
+  <value>Избыточный сеттер свойства пустой коллекции</value>
+</data>
+<data name="PropertiesAndVariablesTemplateField_Text" xml:space="preserve">
+  <value>Свойства и переменные // Поля шаблона</value>
+</data>
+<data name="InconsistentAccessibilityType_Text" xml:space="preserve">
+  <value>Несогласованность доступности типа</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantModifiersAttribute" xml:space="preserve">
+  <value>Удалить избыточный атрибут модификатора</value>
+</data>
+<data name="MissingGridColumnRowSetterForNonFirst_DescriptionText" xml:space="preserve">
+  <value>Отсутствует сеттер столбца/строки сетки для не первого дочернего элемента внутри обычной сетки</value>
+</data>
+<data name="AttachedPropertySetterHasNoEffectInCurrentContextAndCanBeRemoved" xml:space="preserve">
+  <value>Сеттер присоединенного свойства не оказывает никакого эффекта в текущем контексте и может быть удален</value>
+</data>
+<data name="MissingGrid_Value_Text" xml:space="preserve">
+  <value>Отсутствует значение Grid.{0}</value>
+</data>
+<data name="Remove_Attribute_Text" xml:space="preserve">
+  <value>Удалить атрибут {0}</value>
+</data>
+<data name="RedundantNameAttribute" xml:space="preserve">
+  <value>Избыточный атрибут Name</value>
+</data>
+<data name="NoDefaultConstructorFound_Text" xml:space="preserve">
+  <value>Конструктор по умолчанию не найден</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantCollectionProperty" xml:space="preserve">
+  <value>Удалить избыточный сеттер свойства пустой коллекции</value>
+</data>
+<data name="SingleGridRowColumnDefinitionIsRedundant_Text" xml:space="preserve">
+  <value>Единичное определение строки/столбца сетки избыточно</value>
+</data>
+<data name="_AttributeRequiresXNameAttribute_Text" xml:space="preserve">
+  <value>Атрибут {0} требует наличия атрибута x:Name</value>
+</data>
+<data name="PossibleNullValueInThePathOfBinding_Text" xml:space="preserve">
+  <value>Возможное значение 'null' в пути привязки без резервного значения</value>
+</data>
+<data name="Method_IsNotResolved_Text" xml:space="preserve">
+  <value>Метод '{0}' не разрешен</value>
+</data>
+<data name="UnresolvedBindingPathWhenContextIsUnknown_TitleText" xml:space="preserve">
+  <value>Нераспознанный путь привязки при неизвестном DataContext</value>
+</data>
+<data name="AttributeIsNotAllowedInPropertyElement_ToolTip" xml:space="preserve">
+  <value>Атрибуты не допускаются в элементе свойства</value>
+</data>
+<data name="UsingStreamBindingOperatorIn_Binding_Text" xml:space="preserve">
+  <value>Использование оператора потоковой привязки в режиме привязки {0} может привести к ошибке времени выполнения</value>
+</data>
+<data name="XAMLErrors_Text" xml:space="preserve">
+  <value>Ошибки XAML</value>
+</data>
+<data name="DuplicateDeviceFamilyView_Text" xml:space="preserve">
+  <value>Повторяющееся представление семейства устройств</value>
+</data>
+<data name="TypesInXDataTypeAndBindingContextAre_Text" xml:space="preserve">
+  <value>Типы в x:DataType и BindingContext различаются</value>
+</data>
+<data name="UpdateSourceTriggerIsAllowedOnlyInTwoWay_Text" xml:space="preserve">
+  <value>UpdateSourceTrigger разрешен только в двусторонней привязке</value>
+</data>
+<data name="ParentTypeShouldBeSpecifiedBeforeParent_Text" xml:space="preserve">
+  <value>Родительский тип должен быть указан до родительского индекса</value>
+</data>
+<data name="FreezeAttributeIsNotUsedAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Атрибут Freeze не используется и может быть безопасно удален</value>
+</data>
+<data name="Type_DoesNotSatisfyConstraint__Text" xml:space="preserve">
+  <value>Тип {0} не удовлетворяет ограничению {1}</value>
+</data>
+<data name="MultipleOverloadsWithSameArgumentsCount_Text" xml:space="preserve">
+  <value>Найдено несколько перегрузок с одинаковым количеством аргументов</value>
+</data>
+<data name="IsNotMessage" xml:space="preserve">
+  <value>'{0}' не является {1}</value>
+</data>
+<data name="IsAllowedForResourcesAndDictionaryElementsOnlyMessage" xml:space="preserve">
+  <value>{0} разрешен только для ресурсов и элементов словаря</value>
+</data>
+<data name="_IsReadonly_Text" xml:space="preserve">
+  <value>'{0}' доступен только для чтения</value>
+</data>
+<data name="TypesPredefinedElement_Text" xml:space="preserve">
+  <value>Типы // Предопределенные элементы</value>
+</data>
+<data name="StyleDeclarationTargetTypeIsNotConvertibleToStyleBaseType" xml:space="preserve">
+  <value>Целевой тип объявления стиля не преобразуется в базовый тип стиля</value>
+</data>
+<data name="NamespaceAliasIsNotRequiredByCodeAndCanBeSafelyRemovedMessage" xml:space="preserve">
+  <value>Псевдоним пространства имен '{0}' не требуется кодом и может быть безопасно удален</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RedundantFreezeAttribute" xml:space="preserve">
+  <value>Удалить избыточный атрибут 'Freeze'</value>
+</data>
+<data name="ElementNameReferenceNotResolvedToAny_Text" xml:space="preserve">
+  <value>Ссылка на имя элемента не разрешена ни к одному именованному элементу в области видимости</value>
+</data>
+<data name="CanTConvertType_To__Text" xml:space="preserve">
+  <value>Не удается преобразовать тип '{0}' в '{1}'</value>
+</data>
+<data name="NoElement_FoundIn__ToolTip" xml:space="preserve">
+  <value>Элемент {0} не найден в {1}</value>
+</data>
+<data name="AreByDefaultMessage" xml:space="preserve">
+  <value>{0} по умолчанию '{1}'</value>
+</data>
+<data name="ResourcesOfValueTypesAndTypesWithout_ToolTip" xml:space="preserve">
+  <value>Ресурсы типов значений и типов без конструктора по умолчанию не могут иметь атрибут x:Name</value>
+</data>
+<data name="IncorrectMethodSignature_Text" xml:space="preserve">
+  <value>Некорректная сигнатура метода</value>
+</data>
+<data name="UnresolvedBindingPathWhenContextIsKnown_TitleText" xml:space="preserve">
+  <value>Нераспознанный путь привязки при известном DataContext</value>
+</data>
+<data name="DefaultIsTheDefaultValueForUpdateSourceTrigger_Text" xml:space="preserve">
+  <value>'Default' является значением по умолчанию для атрибута UpdateSourceTrigger и может быть безопасно удален</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantGridDefinitionsAttribute" xml:space="preserve">
+  <value>Удалить избыточные определения</value>
+</data>
+<data name="RedundantPropertyTypeQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор типа свойства</value>
+</data>
+<data name="DuplicatedResourceKey__Text" xml:space="preserve">
+  <value>Повторяющийся ключ ресурса '{0}'</value>
+</data>
+<data name="ElementIsNotExpectedHereSinceContent_Text" xml:space="preserve">
+  <value>Элемент здесь не ожидается, так как свойство содержимого для {0} не определено</value>
+</data>
+<data name="Missing_PropertySetter_Text" xml:space="preserve">
+  <value>Отсутствует сеттер свойства '{0}'</value>
+</data>
+<data name="Class_IsAlreadyDeclared_ToolTip" xml:space="preserve">
+  <value>Класс {0} уже объявлен</value>
+</data>
+<data name="PropertiesAndVariablesAttachedProperty_Text" xml:space="preserve">
+  <value>Свойства и переменные // Присоединенные свойства</value>
+</data>
+<data name="NameAttributeInResourceDeclarationIsNeglectableAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Атрибут name в объявлении ресурса незначителен и может быть безопасно удален</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveForbiddenResourceNames" xml:space="preserve">
+  <value>Удалить запрещенные атрибуты name</value>
+</data>
+<data name="LengthExpected__Text" xml:space="preserve">
+  <value>Ожидается длина. {0}</value>
+</data>
+<data name="ConstructorReturnTypeMustBeConvertible_Text" xml:space="preserve">
+  <value>Возвращаемый тип конструктора должен быть преобразуем в '{0}'</value>
+</data>
+<data name="Method_ReturnTypeMustBeConvertibleTo_Text" xml:space="preserve">
+  <value>Возвращаемый тип метода '{0}' должен быть преобразуем в '{1}'</value>
+</data>
+<data name="Resource_Text" xml:space="preserve">
+  <value>Ресурс</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantGridSpanAttributs" xml:space="preserve">
+  <value>Удалить избыточные атрибуты span</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantBindingModeAttributes" xml:space="preserve">
+  <value>Удалить избыточные атрибуты Mode</value>
+</data>
+<data name="DuplicateElementXKey_Text" xml:space="preserve">
+  <value>Повторяющийся элемент 'x:Key'</value>
+</data>
+<data name="PropertiesAndVariablesProperty_Text" xml:space="preserve">
+  <value>Свойства и переменные // Свойства</value>
+</data>
+<data name="Property_DoesNotHaveValue_ToolTip" xml:space="preserve">
+  <value>Свойство {0} не имеет значения</value>
+</data>
+<data name="EmptyCollectionPropertySetterIsRedundantAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Сеттер свойства пустой коллекции избыточен и может быть безопасно удален</value>
+</data>
+<data name="_HasNoSetter_Text" xml:space="preserve">
+  <value>У '{0}' нет setter</value>
+</data>
+<data name="MissingGridColumnRowSetterForNonFirst_TitleText" xml:space="preserve">
+  <value>Отсутствует сеттер столбца/строки сетки для не первого дочернего элемента</value>
+</data>
+<data name="UnknownDeviceFamily_TitleText" xml:space="preserve">
+  <value>Неизвестное семейство устройств</value>
+</data>
+<data name="UsingStreamBindingOperatorInTwoWayOr_DescriptionText" xml:space="preserve">
+  <value>Использование оператора потоковой привязки в режиме TwoWay или OneWayToSource может привести к ошибке времени выполнения</value>
+</data>
+<data name="MethodInvocationIsNotAllowedInBindBack_Text" xml:space="preserve">
+  <value>Вызов метода не допускается в атрибуте разметки BindBack</value>
+</data>
+<data name="ConstructorNotResolved_Text" xml:space="preserve">
+  <value>Конструктор не разрешен</value>
+</data>
+<data name="_Index__IsOutOfGrid_DefinitionsRange_ToolTip" xml:space="preserve">
+  <value>{0}индекс {1} вне диапазона определений {3} сетки (0-{4})</value>
+</data>
+<data name="CannotResolveSymbol__Text" xml:space="preserve">
+  <value>Не удается разрешить символ '{0}'</value>
+</data>
+<data name="RedundantModifiersAttribute" xml:space="preserve">
+  <value>Избыточный атрибут модификаторов</value>
+</data>
+<data name="ThisConstructIsNotSupportedByXAMLCompiler_Text" xml:space="preserve">
+  <value>Эта конструкция еще не поддерживается компилятором XAML</value>
+</data>
+<data name="ReferenceTypeExpected_Text" xml:space="preserve">
+  <value>Ожидается ссылочный тип</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantGridSpanAttribut" xml:space="preserve">
+  <value>Удалить избыточный атрибут span</value>
+</data>
+<data name="TooManyDefaultConstructorsTheBehaviour_Text" xml:space="preserve">
+  <value>Слишком много конструкторов по умолчанию. Поведение непредсказуемо.</value>
+</data>
+<data name="_IsNotAllowedInObjectElementsForXAML_Text" xml:space="preserve">
+  <value>{0} не допускается в элементах объекта для версий XAML ниже 2009</value>
+</data>
+<data name="RemoveSpanAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут span</value>
+</data>
+<data name="XamlRemoveRedundantCodeCleanupModule_GetModuleActionName_Remove_Redundant_Code_in_XAML" xml:space="preserve">
+  <value>Удалить избыточный код в XAML</value>
+</data>
+<data name="GridElementColumnRowIndexIsOutOfGrid_Text" xml:space="preserve">
+  <value>Индекс столбца/строки элемента сетки вне диапазона определений сетки</value>
+</data>
+<data name="ModuleComponentMustBePrecededWith_ToolTip" xml:space="preserve">
+  <value>Компонент модуля должен начинаться с /</value>
+</data>
+<data name="Configure_Text" xml:space="preserve">
+  <value>Настроить…</value>
+</data>
+<data name="InvalidNumberOfArguments_IsExpected_Text" xml:space="preserve">
+  <value>Недопустимое количество аргументов: ожидается {0}</value>
+</data>
+<data name="UnknownDeviceFamily_Text" xml:space="preserve">
+  <value>Неизвестное семейство устройств</value>
+</data>
+<data name="TypesInXDataTypeAndBindingContextMismatch_Text" xml:space="preserve">
+  <value>Типы в x:DataType и BindingContext не совпадают</value>
+</data>
+<data name="DecimalNumbersParsedDependingOnCurrent_Text" xml:space="preserve">
+  <value>Десятичные числа разбираются в зависимости от текущей культуры компьютера</value>
+</data>
+<data name="BindBackIsRequiredInTwoWayBindingsWith_Text" xml:space="preserve">
+  <value>BindBack требуется в двусторонних привязках с вызовом метода</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantCollectionPropertys" xml:space="preserve">
+  <value>Удалить избыточные сеттеры свойств пустой коллекции</value>
+</data>
+<data name="PropertyElementsAreNotAllowedOnObjects_Text" xml:space="preserve">
+  <value>Элементы свойств не допускаются на объектах, созданных через TypeConverter</value>
+</data>
+<data name="Property_IsSetMoreThanOnce_ToolTip" xml:space="preserve">
+  <value>Свойство {0} устанавливается более одного раза</value>
+</data>
+<data name="SingleCellGridColumnRowSpanIsRedundant_Text" xml:space="preserve">
+  <value>Span столбца/строки сетки для одной ячейки избыточен</value>
+</data>
+<data name="SpecifiedParentIsOutsideTheCurrentComponent_Text" xml:space="preserve">
+  <value>Указанный родитель находится вне текущего дерева компонентов и может быть потерян, что может привести к ошибке времени выполнения</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantUpdateSourceTriggerAttributes" xml:space="preserve">
+  <value>Удалить избыточные атрибуты UpdateSourceTrigger</value>
+</data>
+<data name="ClassNameCannotBeEmpty_Text" xml:space="preserve">
+  <value>Имя класса не может быть пустым</value>
+</data>
+<data name="Method_IsNotAccessible_Text" xml:space="preserve">
+  <value>Метод '{0}' недоступен</value>
+</data>
+<data name="SharedAttributeValueMustBeTrueOrFalse_Text" xml:space="preserve">
+  <value>Значение атрибута Shared должно быть 'true' или 'false'</value>
+</data>
+<data name="_TagCanBeConvertedToAttribute_Text" xml:space="preserve">
+  <value>Тег {0} может быть преобразован в атрибут</value>
+</data>
+<data name="PropertiesAndVariablesImplicitField_Text" xml:space="preserve">
+  <value>Свойства и переменные // Неявные поля</value>
+</data>
+<data name="EmptyCollectionPropertySetterIsRedundantAndCanBeSafelyRemovedMessage" xml:space="preserve">
+  <value>Сеттер свойства пустой коллекции избыточен и может быть безопасно удален</value>
+</data>
+<data name="_IsAllowedIn_Only_Text" xml:space="preserve">
+  <value>{0} разрешен только в {1}</value>
+</data>
+<data name="RoutedEventDescriptorField_Missing_ToolTip" xml:space="preserve">
+  <value>Отсутствует поле дескриптора маршрутизированного события '{0}'</value>
+</data>
+<data name="XAML2009LanguageConstructIsNotAllowed_Text" xml:space="preserve">
+  <value>Языковая конструкция XAML 2009 здесь не допускается</value>
+</data>
+<data name="_TagCanBeConvertedToAttribute_ToolTip" xml:space="preserve">
+  <value>Тег {0} может быть преобразован в атрибут</value>
+</data>
+<data name="NoConstructorWith_ParametersFound_Text" xml:space="preserve">
+  <value>Не найден конструктор с {0} параметрами</value>
+</data>
+<data name="UseOfObsoleteTypeOrTypeMemberInXAMLMarkup" xml:space="preserve">
+  <value>В разметке XAML используется устаревший тип или член типа</value>
+</data>
+<data name="StyleClass_NotFound_Text" xml:space="preserve">
+  <value>Класс стиля '{0}' не найден</value>
+</data>
+<data name="XamlMarkupAttributeNameHints_Text" xml:space="preserve">
+  <value>Подсказки имен атрибутов разметки</value>
+</data>
+<data name="Type_HasNoDefaultConstructor_Text" xml:space="preserve">
+  <value>Тип {0} не имеет конструктора по умолчанию</value>
+</data>
+<data name="PossibleNullAssignmentToNonNullable_Text" xml:space="preserve">
+  <value>Возможное присваивание 'null' сущности, не допускающей null</value>
+</data>
+<data name="AnExpressionWhichCanHaveNullValueIs_Text" xml:space="preserve">
+  <value>Выражение, которое может иметь значение 'null', присваивается сущности, помеченной атрибутом 'значение не может быть null'. В частности, это может произойти при передаче таких значений в метод, параметры которого помечены атрибутом 'значение не может быть null'.</value>
+</data>
+<data name="AnalysisIsNotAvailableForTheFileFile_Text" xml:space="preserve">
+  <value>Анализ недоступен для этого файла. Язык файла не XAML.</value>
+</data>
+<data name="UsingStreamBindingOperatorInTwoWayOr_TitleText" xml:space="preserve">
+  <value>Использование оператора потоковой привязки в режиме TwoWay или OneWayToSource</value>
+</data>
+<data name="DuplicateStylePropertyEventSetter" xml:space="preserve">
+  <value>Повторяющийся сеттер свойства/события стиля</value>
+</data>
+<data name="XFieldModifierAttributeRequiresXNameAttributeMessage" xml:space="preserve">
+  <value>Атрибут x:FieldModifier требует наличия атрибута x:Name</value>
+</data>
+<data name="HidesStyleSetterFromBaseStyle__Text" xml:space="preserve">
+  <value>Скрывает сеттер стиля от базового стиля '{0}'</value>
+</data>
+<data name="NamespaceAliasIsNotRequiredByCodeAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Псевдоним пространства имен не требуется кодом и может быть безопасно удален</value>
+</data>
+<data name="MethodArgumentsWillBeReplacedByEvent_Text" xml:space="preserve">
+  <value>Аргументы метода будут заменены аргументами события в сгенерированном коде</value>
+</data>
+<data name="RedundantPropertyTypeQualifierMessage" xml:space="preserve">
+  <value>Избыточный квалификатор типа свойства</value>
+</data>
+<data name="CannotResolveFieldOrProperty_InData_Text" xml:space="preserve">
+  <value>Не удается разрешить поле или свойство '{0}' в контексте данных типа '{1}'</value>
+</data>
+<data name="NavigateToDeclaration_Text" xml:space="preserve">
+  <value>Перейти к объявлению</value>
+</data>
+<data name="AncestorTypeMustBeSpecifiedInFindAncestor_ToolTip" xml:space="preserve">
+  <value>AncestorType должен быть указан в режиме FindAncestor</value>
+</data>
+<data name="GenericTypesCannotBeReferencedInXAML_ToolTip" xml:space="preserve">
+  <value>На универсальные типы нельзя ссылаться в XAML 2006</value>
+</data>
+<data name="_Index_WithSpan_IsOutOfGrid_DefinitionsRange_ToolTip" xml:space="preserve">
+  <value>{0}индекс {1} с диапазоном {2} вне диапазона определений {3} сетки (0-{4})</value>
+</data>
+<data name="GridColumnsRowsDefinitionsCanBeConverted_Text" xml:space="preserve">
+  <value>Определения столбцов/строк сетки могут быть преобразованы в атрибуты</value>
+</data>
+<data name="_IsNotAccessible_Text" xml:space="preserve">
+  <value>{0} недоступен</value>
+</data>
+<data name="DynamicResourceCanOnlyBeUsedWithDependencyProperty_Text" xml:space="preserve">
+  <value>{DynamicResource} можно использовать только со свойством зависимостей DependencyObject</value>
+</data>
+<data name="CannotAccess____Text" xml:space="preserve">
+  <value>Не удается получить доступ к {0} {1} {2}</value>
+</data>
+<data name="_IsAllowedAtTheRootElementOnly_Text" xml:space="preserve">
+  <value>{0} разрешен только в корневом элементе</value>
+</data>
+<data name="UnableToInferDataContextTypeForCompiled_Text" xml:space="preserve">
+  <value>Не удается вывести тип DataContext для скомпилированной привязки</value>
+</data>
+<data name="TooManyConstructorsWith_ParametersThe_Text" xml:space="preserve">
+  <value>Слишком много конструкторов с {0} параметрами. Поведение непредсказуемо.</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantResources" xml:space="preserve">
+  <value>Удалить избыточные ресурсы</value>
+</data>
+<data name="OnlyAttributesAllowedIn__Text" xml:space="preserve">
+  <value>В {0} разрешены только атрибуты</value>
+</data>
+<data name="XmlNsDefinitionAttributeForIsDeclaredInTheSameProjectAndCannotBeReferencedMessage" xml:space="preserve">
+  <value>Атрибут XmlNsDefinition для '{0}' объявлен в том же проекте и на него нельзя ссылаться</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveForbiddenResourceName" xml:space="preserve">
+  <value>Удалить запрещенный атрибут name</value>
+</data>
+<data name="EqualValueProvidedByStyleMessage" xml:space="preserve">
+  <value>Равное значение предоставлено стилем '{0}'</value>
+</data>
+<data name="UseOfObsoleteTypeOrTypeMemberError" xml:space="preserve">
+  <value>Используется устаревший тип или член типа (ошибка)</value>
+</data>
+<data name="UseOfObsoleteTypeOrTypeMemberInXAMLMarkupError" xml:space="preserve">
+  <value>В разметке XAML используется устаревший тип или член типа (ошибка)</value>
+</data>
+<data name="_IsNotAllowedInPropertyElements_ToolTip" xml:space="preserve">
+  <value>{0} не допускается в элементах свойства</value>
+</data>
+<data name="ParentIndexShouldBeNonNegativeInteger_Text" xml:space="preserve">
+  <value>Родительский индекс должен быть неотрицательным целым числом</value>
+</data>
+<data name="RedundantResource" xml:space="preserve">
+  <value>Избыточный ресурс</value>
+</data>
+<data name="ResourceIsNeverUsedMessage" xml:space="preserve">
+  <value>Ресурс {0} никогда не используется</value>
+</data>
+<data name="RedundantFreezeAttribute" xml:space="preserve">
+  <value>Избыточный атрибут 'Freeze'</value>
+</data>
+<data name="BindBackIsAllowedOnlyInTwoWayBindings_Text" xml:space="preserve">
+  <value>BindBack разрешен только в двусторонних привязках с вызовом метода</value>
+</data>
+<data name="DependencyPropertyDescriptorFieldMissing_TitleText" xml:space="preserve">
+  <value>Отсутствует поле дескриптора свойства зависимостей</value>
+</data>
+<data name="AttributeRequiredMessage" xml:space="preserve">
+  <value>Атрибут {0} обязателен</value>
+</data>
+<data name="AssemblyNameExpectedInsteadOfProject_ToolTip" xml:space="preserve">
+  <value>Ожидается имя сборки, а не имя проекта</value>
+</data>
+<data name="CannotResolveProperty_InDataContext_Text" xml:space="preserve">
+  <value>Не удается разрешить свойство '{0}' в контексте данных типа '{1}'</value>
+</data>
+<data name="Only_ElementsAllowedIn__Text" xml:space="preserve">
+  <value>В {1} разрешены только элементы {0}</value>
+</data>
+<data name="RelativeSourceModeIsNotSetDefaultRelativeSourceMode_Text" xml:space="preserve">
+  <value>RelativeSourceMode не установлен. Значение RelativeSourceMode по умолчанию зависит от платформы и требует явного указания для однозначной обработки использования RelativeSource.</value>
+</data>
+<data name="AccessibilitySetByAttributeCoincidesWithDefaultOneThusAttributeCanBeSafelyRemoved" xml:space="preserve">
+  <value>Доступность, установленная атрибутом, совпадает с установленной по умолчанию, поэтому атрибут может быть безопасно удален</value>
+</data>
+<data name="TextNotAllowedAsContentInADictionary_Text" xml:space="preserve">
+  <value>Текст не допускается в качестве содержимого в словаре или свойстве массива</value>
+</data>
+<data name="GridLengthDefinitionShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Определение длины сетки не должно быть пустым</value>
+</data>
+<data name="PathIsIgnoredInProjectSettings_Text" xml:space="preserve">
+  <value>Путь игнорируется в настройках проекта</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantNameAttribute" xml:space="preserve">
+  <value>Удалить избыточный атрибут Name</value>
+</data>
+<data name="ConstructorIsNotAccessible_Text" xml:space="preserve">
+  <value>Конструктор недоступен</value>
+</data>
+<data name="PathReferenceCannotBeEmpty_Text" xml:space="preserve">
+  <value>Ссылка на путь не может быть пустой</value>
+</data>
+<data name="ElementNameReferenceNotResolved_Text" xml:space="preserve">
+  <value>Ссылка на имя элемента не разрешена</value>
+</data>
+<data name="Message" xml:space="preserve">
+  <value>{0}</value>
+</data>
+<data name="RemoveRedundantAttachedPropertySetter" xml:space="preserve">
+  <value>Удалить избыточный сеттер присоединенного свойства</value>
+</data>
+<data name="RemoveRedundantDefinitions_Text" xml:space="preserve">
+  <value>Удалить избыточные определения</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantGridDefinitionsAttributes" xml:space="preserve">
+  <value>Удалить избыточные определения</value>
+</data>
+<data name="InvalidNumberOfArguments1Or4IsExpected_Text" xml:space="preserve">
+  <value>Недопустимое количество аргументов: ожидается 1 или 4</value>
+</data>
+<data name="TextAfterMarkupIsNotAllowed_Text" xml:space="preserve">
+  <value>Текст после разметки не допускается</value>
+</data>
+<data name="MissingGrid_SetterForNonFirstChild_ToolTip" xml:space="preserve">
+  <value>Отсутствует setter Grid.{0} для не первого дочернего элемента</value>
+</data>
+<data name="StyleClass_Text" xml:space="preserve">
+  <value>Класс стиля</value>
+</data>
+<data name="TargetTypeIsNotConvertibleToBaseTypeMessage" xml:space="preserve">
+  <value>Целевой тип '{0}' не преобразуется в базовый тип '{1}'</value>
+</data>
+<data name="WrongNameCase_Text" xml:space="preserve">
+  <value>Неверный регистр имени</value>
+</data>
+<data name="CannotResolveSymbol_DueToUnknownDataContext_Text" xml:space="preserve">
+  <value>Не удается разрешить символ '{0}' из-за неизвестного DataContext</value>
+</data>
+<data name="ThisConstructIsSupportedByWorkflowXAML_Text" xml:space="preserve">
+  <value>Эта конструкция поддерживается только компилятором XAML рабочего процесса</value>
+</data>
+<data name="_IsAllowedAtTopLevelOnly_ToolTip" xml:space="preserve">
+  <value>{0} разрешен только на верхнем уровне</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantStyledValue" xml:space="preserve">
+  <value>Удалить избыточный сеттер свойства стиля</value>
+</data>
+<data name="Field_IsAlreadyDeclared_ToolTip" xml:space="preserve">
+  <value>Поле {0} уже объявлено</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantNameAttributes" xml:space="preserve">
+  <value>Удалить избыточные атрибуты name</value>
+</data>
+<data name="CodeCleanupTask_Xaml_RemoveRedundantBindingModeAttribute" xml:space="preserve">
+  <value>Удалить избыточный атрибут Mode</value>
+</data>
+<data name="XamlThicknessArgumentHints_Text" xml:space="preserve">
+  <value>Подсказки аргументов Thickness</value>
+</data>
+<data name="SharedAttributeIsAllowedInResources_Text" xml:space="preserve">
+  <value>Атрибут Shared разрешен только в ресурсах</value>
+</data>
+<data name="UnresolvedBindingPathNotSpecified_DescriptionText" xml:space="preserve">
+  <value>Нераспознанный путь привязки, когда DataContext для привязки данных не указан</value>
+</data>
+<data name="XmlnsNameMissing_Text" xml:space="preserve">
+  <value>Отсутствует имя xmlns</value>
+</data>
+<data name="StyleTargetTypeIsNotConvertibleToBaseType" xml:space="preserve">
+  <value>Целевой тип стиля не преобразуется в базовый тип</value>
+</data>
+<data name="XKeyIsAllowedForResourcesAndDictionaryElementsOnly" xml:space="preserve">
+  <value>x:Key разрешен только для ресурсов и элементов словаря</value>
+</data>
+<data name="IncorrectNumberOfParameters_Text" xml:space="preserve">
+  <value>Некорректное количество параметров</value>
+</data>
+<data name="ElementAttributesAreNotAllowedOnObjects_Text" xml:space="preserve">
+  <value>Атрибуты элемента не допускаются на объектах, созданных через TypeConverter</value>
+</data>
+<data name="TwoWayBindingSTargetShouldBeADependency_Text" xml:space="preserve">
+  <value>Цель двусторонней привязки должна быть свойством зависимостей</value>
+</data>
+<data name="XamlCornerRadiusArgumentHints_Text" xml:space="preserve">
+  <value>Подсказки аргументов CornerRadius</value>
+</data>
+<data name="CannotConvertType_To__Text" xml:space="preserve">
+  <value>Не удается преобразовать тип '{0}' в '{1}'</value>
+</data>
+<data name="SetterFor_IsNotAccessible_Text" xml:space="preserve">
+  <value>Сеттер для '{0}' недоступен</value>
+</data>
+<data name="DuplicateNameAttribute__Text" xml:space="preserve">
+  <value>Повторяющийся атрибут Name '{0}'</value>
+</data>
+<data name="ParentIndexShouldBeSpecifiedAtMostOnce_Text" xml:space="preserve">
+  <value>Родительский индекс можно указать не более одного раза</value>
+</data>
+<data name="AttributeInResourcesIsNegligibleMessage" xml:space="preserve">
+  <value>Атрибут {0} в ресурсах незначителен</value>
+</data>
+<data name="ResourceCannotBeAccessedByClass_Because_Text" xml:space="preserve">
+  <value>Класс {0} не может получить доступ к ресурсу из-за атрибута x:Key</value>
+</data>
+<data name="XamlDataContextHints_Text" xml:space="preserve">
+  <value>Подсказки DataContext</value>
+</data>
+<data name="PropertyOwnerTypeQualifierIsRedundantAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Квалификатор типа владельца свойства избыточен и может быть безопасно удален</value>
+</data>
+</root>

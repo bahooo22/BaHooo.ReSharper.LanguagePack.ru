@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Execute__Text" xml:space="preserve">
+  <value>Выполнить {0}</value>
+</data>
+<data name="EnvironmentSettingPage_Text" xml:space="preserve">
+  <value>Среда</value>
+</data>
+<data name="Version_TextBox_Caption" xml:space="preserve">
+  <value>Версия</value>
+</data>
+<data name="MsBuild_Imported_From_Text" xml:space="preserve">
+  <value>Импортировано из</value>
+</data>
+<data name="Compile_SectionTitle" xml:space="preserve">
+  <value>Компиляция</value>
+</data>
+<data name="DependenciesFolder_Text" xml:space="preserve">
+  <value>Зависимости</value>
+</data>
+<data name="DefineConstants_Text" xml:space="preserve">
+  <value>Определить константы</value>
+</data>
+<data name="ProjectGUID_Caption" xml:space="preserve">
+  <value>GUID проекта</value>
+</data>
+<data name="HideObsoleteMembersSettingDescription" xml:space="preserve">
+  <value>Скрыть устаревшие члены</value>
+</data>
+<data name="DownloadAndInstallNodeJs_Text" xml:space="preserve">
+  <value>Скачать и установить Node.js…</value>
+</data>
+<data name="Product_TextBox_Caption" xml:space="preserve">
+  <value>Продукт</value>
+</data>
+<data name="InvalidNETFramework_Text" xml:space="preserve">
+  <value>Неверный .NET Framework</value>
+</data>
+<data name="WarningsAndErrors_SectionTitle" xml:space="preserve">
+  <value>Предупреждения и ошибки</value>
+</data>
+<data name="Portable_Text" xml:space="preserve">
+  <value>Переносимый</value>
+</data>
+<data name="ProductionBuildCommand_Property" xml:space="preserve">
+  <value>Команда сборки для продакшена</value>
+</data>
+<data name="MSBuildIncompatibleWithNETCore_Text" xml:space="preserve">
+  <value>MSBuild несовместим с .NET Core</value>
+</data>
+<data name="EnableNullabilityAnnotationsOnly_Text" xml:space="preserve">
+  <value>Включить только аннотации nullable</value>
+</data>
+<data name="ProjectURL_TextBox_Caption" xml:space="preserve">
+  <value>URL проекта</value>
+</data>
+<data name="_OwnUsages_Text" xml:space="preserve">
+  <value>{0} собственных использований</value>
+</data>
+<data name="AddCustomTool_Caption" xml:space="preserve">
+  <value>Добавить пользовательский инструмент</value>
+</data>
+<data name="ToTargetOtherFrameworksEditProjectFile_Text" xml:space="preserve">
+  <value>Чтобы выбрать другие фреймворки, отредактируйте файл проекта вручную</value>
+</data>
+<data name="ImplicitAssembliesFolder_Text" xml:space="preserve">
+  <value>Неявные</value>
+</data>
+<data name="MsBuild_UnevaluatedInclude_Text" xml:space="preserve">
+  <value>Невычисленный Include</value>
+</data>
+<data name="_Own_Text" xml:space="preserve">
+  <value>{0} собственных</value>
+</data>
+<data name="IndexClassEventsNotPersistedCountDescription" xml:space="preserve">
+  <value>Количество неперсистентных событий индекса класса</value>
+</data>
+<data name="Localization_SectionTitle" xml:space="preserve">
+  <value>Локализация</value>
+</data>
+<data name="ConfigureAwaitAnalysisMode_ToolTip" xml:space="preserve">
+  <value>Включить или отключить анализ 'ConfigureAwait' для текущего проекта</value>
+</data>
+<data name="CurrentFile_Text" xml:space="preserve">
+  <value>Текущий файл</value>
+</data>
+<data name="_ExtensionMethodsForBaseTypes_Text" xml:space="preserve">
+  <value> + {0} методов расширения для базовых типов</value>
+</data>
+<data name="General_SectionTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="Environment_Text" xml:space="preserve">
+  <value>Среда</value>
+</data>
+<data name="DerivedSymbols_Text" xml:space="preserve">
+  <value>Производные символы</value>
+</data>
+<data name="NullableReferenceTypesC80_Text" xml:space="preserve">
+  <value>Ссылочные типы, допускающие null (C# 8.0+)</value>
+</data>
+<data name="DisabledGeneratorsSettingDescription" xml:space="preserve">
+  <value>Отключенные генераторы</value>
+</data>
+<data name="PDBOnly_Text" xml:space="preserve">
+  <value>Только PDB</value>
+</data>
+<data name="Signing_TabTitle" xml:space="preserve">
+  <value>Подписание</value>
+</data>
+<data name="Name_Text" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="Disabled_Text" xml:space="preserve">
+  <value>Отключено</value>
+</data>
+<data name="_ExtensionMethodForBaseTypes_Text" xml:space="preserve">
+  <value> + {0} метод расширения для базовых типов</value>
+</data>
+<data name="MSBuild150IsRequiredToLoadProject__Caption" xml:space="preserve">
+  <value>Для загрузки проекта '{0}' требуется MSBuild 15.0+</value>
+</data>
+<data name="ProjectHasUnsupportedLanguageVersion_Label_Text" xml:space="preserve">
+  <value>Проект имеет неподдерживаемую версию языка '{0}'</value>
+</data>
+<data name="FrameworkReferenceFolder_Text" xml:space="preserve">
+  <value>Фреймворки</value>
+</data>
+<data name="ExternalTool_Text" xml:space="preserve">
+  <value>Внешний инструмент</value>
+</data>
+<data name="MsBuild_EvaluatedInclude_Text" xml:space="preserve">
+  <value>Вычисленный Include</value>
+</data>
+<data name="BuiltInDisabled_Text" xml:space="preserve">
+  <value>Встроенный (отключен)</value>
+</data>
+<data name="Editable_SectionTitle" xml:space="preserve">
+  <value>Редактируемый</value>
+</data>
+<data name="Implementations_Text" xml:space="preserve">
+  <value>Реализации</value>
+</data>
+<data name="_NotYetImplemented_Text" xml:space="preserve">
+  <value>{0} (еще не реализовано)</value>
+</data>
+<data name="CustomToolsDataSettingDescription" xml:space="preserve">
+  <value>Данные пользовательских инструментов</value>
+</data>
+<data name="_NotAvailable_Text" xml:space="preserve">
+  <value>{0} недоступно</value>
+</data>
+<data name="Inheritors_Text" xml:space="preserve">
+  <value>Наследники</value>
+</data>
+<data name="Project_HasMissingDependencies_Caption" xml:space="preserve">
+  <value>Проект '{0}' имеет отсутствующие зависимости</value>
+</data>
+<data name="Language_SectionTitle" xml:space="preserve">
+  <value>Язык</value>
+</data>
+<data name="CurrentMono__Text" xml:space="preserve">
+  <value>Текущий Mono: {0}</value>
+</data>
+<data name="DownloadMonoPackage_Text" xml:space="preserve">
+  <value>Скачать пакет Mono…</value>
+</data>
+<data name="SourceGeneratorFolder_Text" xml:space="preserve">
+  <value>Генераторы исходного кода</value>
+</data>
+<data name="PropertyName_ColumnName" xml:space="preserve">
+  <value>Имя свойства</value>
+</data>
+<data name="EcmaScriptDeployPropertiesTab_Text" xml:space="preserve">
+  <value>Развертывание</value>
+</data>
+<data name="EvaluatedPropertyValue_ColumnName" xml:space="preserve">
+  <value>Вычисленное значение свойства</value>
+</data>
+<data name="Library_Text" xml:space="preserve">
+  <value>Библиотека</value>
+</data>
+<data name="AttributeName_Highlighter_Display_Name" xml:space="preserve">
+  <value>ASPX//Имя атрибута</value>
+</data>
+<data name="DirectiveName_Highlighter_Display_Name" xml:space="preserve">
+  <value>ASPX//Имя директивы</value>
+</data>
+<data name="ExternalTool__Text" xml:space="preserve">
+  <value>Внешний инструмент: '{0}'</value>
+</data>
+<data name="CustomTool_Text" xml:space="preserve">
+  <value>Пользовательский инструмент</value>
+</data>
+<data name="RequireLicenseAcceptance_CheckBox_Caption" xml:space="preserve">
+  <value>Требуется принятие лицензии</value>
+</data>
+<data name="AssemblyFileVersion_TextBox_Caption" xml:space="preserve">
+  <value>Версия файла сборки</value>
+</data>
+<data name="CodeInsightsSettingDescription" xml:space="preserve">
+  <value>Анализ кода</value>
+</data>
+<data name="ConsoleApplication_Text" xml:space="preserve">
+  <value>Консольное приложение</value>
+</data>
+<data name="CreateSolutionConfigurations_Text" xml:space="preserve">
+  <value>Создать конфигурации решения</value>
+</data>
+<data name="ApplicationIcon_IconTitle" xml:space="preserve">
+  <value>Значок приложения</value>
+</data>
+<data name="ProjectsFolder_Text" xml:space="preserve">
+  <value>Проекты</value>
+</data>
+<data name="Usages_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="Name_Caption" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="Platform_SectionTitle" xml:space="preserve">
+  <value>Платформа</value>
+</data>
+<data name="SyncToVisualStudioThemeSettingDescription" xml:space="preserve">
+  <value>Синхронизировать с темой Visual Studio</value>
+</data>
+<data name="AvailableMacros_Text" xml:space="preserve">
+  <value>Доступные макросы:</value>
+</data>
+<data name="CustomToolNamespace_Text" xml:space="preserve">
+  <value>Пространство имен пользовательского инструмента</value>
+</data>
+<data name="Platform_Caption" xml:space="preserve">
+  <value>Платформа</value>
+</data>
+<data name="ConfigureAwaitAnalysisMode_Caption" xml:space="preserve">
+  <value>Режим анализа ConfigureAwait</value>
+</data>
+<data name="Extensions_Text" xml:space="preserve">
+  <value>Расширения:</value>
+</data>
+<data name="BuildAction_Text" xml:space="preserve">
+  <value>Действие при сборке</value>
+</data>
+<data name="StartupCommand_Property" xml:space="preserve">
+  <value>Команда запуска</value>
+</data>
+<data name="AllowUnsafeCode_CheckBox_Caption" xml:space="preserve">
+  <value>Разрешить небезопасный код</value>
+</data>
+<data name="RiderOptionPageTitle" xml:space="preserve">
+  <value>Rider</value>
+</data>
+<data name="IconURL_TextBox_Caption" xml:space="preserve">
+  <value>URL значка</value>
+</data>
+<data name="Title_TextBox_Caption" xml:space="preserve">
+  <value>Заголовок</value>
+</data>
+<data name="Linked_Text" xml:space="preserve">
+  <value>Связанный</value>
+</data>
+<data name="_OwnExtensionMethod_Text" xml:space="preserve">
+  <value>{0} собственных методов расширения</value>
+</data>
+<data name="__Of__Text" xml:space="preserve">
+  <value> + {0} из {1}, всего {2}</value>
+</data>
+<data name="DefineConstantsImplicit_Text" xml:space="preserve">
+  <value>Определить константы (неявные)</value>
+</data>
+<data name="BuildEvents_Text" xml:space="preserve">
+  <value>События сборки</value>
+</data>
+<data name="ApplyingFileNestingRules_Text" xml:space="preserve">
+  <value>Применение правил вложения файлов…</value>
+</data>
+<data name="MSBuildVersionIssue_Text" xml:space="preserve">
+  <value>Проблема версии MSBuild</value>
+</data>
+<data name="Flatten_Text" xml:space="preserve">
+  <value>Свернуть</value>
+</data>
+<data name="Localizable_Caption" xml:space="preserve">
+  <value>Локализуемый</value>
+</data>
+<data name="EditingPropertiesIsNotSupportedForThis_Text" xml:space="preserve">
+  <value>Редактирование свойств не поддерживается для этой записи</value>
+</data>
+<data name="Tags_TextBox_Caption" xml:space="preserve">
+  <value>Теги</value>
+</data>
+<data name="ConflictsWillAppear_Text" xml:space="preserve">
+  <value>Возникнут конфликты:</value>
+</data>
+<data name="Optimistic_Text" xml:space="preserve">
+  <value>Оптимистичный</value>
+</data>
+<data name="Project_ContainsDuplicatedPackageReferences_Caption" xml:space="preserve">
+  <value>Проект {0} содержит дублирующиеся PackageReferences</value>
+</data>
+<data name="_UsageOfBaseMethod_Text" xml:space="preserve">
+  <value> + {0} использований базового метода</value>
+</data>
+<data name="CopyIfNewer_Text" xml:space="preserve">
+  <value>Копировать, если новее</value>
+</data>
+<data name="RepositoryType_TextBox_Caption" xml:space="preserve">
+  <value>Тип репозитория</value>
+</data>
+<data name="IndexSymbolEventsNotPersistedCountDescription" xml:space="preserve">
+  <value>Количество неперсистентных событий индекса символов</value>
+</data>
+<data name="InstallNETCoreToDevelopNETApplications_Text" xml:space="preserve">
+  <value>Установить .NET Core для разработки .NET приложений…</value>
+</data>
+<data name="UnloadedProjectsSettingDescription" xml:space="preserve">
+  <value>Выгруженные проекты</value>
+</data>
+<data name="ApplicationPropertiesTab_Text" xml:space="preserve">
+  <value>Приложение</value>
+</data>
+<data name="ExecuteCommand_Caption" xml:space="preserve">
+  <value>Выполнить команду</value>
+</data>
+<data name="Remove__Text" xml:space="preserve">
+  <value>Удалить '{0}'?</value>
+</data>
+<data name="In__Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="LoadingSolution_Caption" xml:space="preserve">
+  <value>Загрузка решения</value>
+</data>
+<data name="SolutionFolder_Text" xml:space="preserve">
+  <value>Папка решения</value>
+</data>
+<data name="DebugSymbols_CheckBox_Caption" xml:space="preserve">
+  <value>Отладочные символы</value>
+</data>
+<data name="Metadata_SectionTitle" xml:space="preserve">
+  <value>Метаданные</value>
+</data>
+<data name="Disable_Text" xml:space="preserve">
+  <value>Отключить</value>
+</data>
+<data name="SignTheAssembly_CheckBox_Caption" xml:space="preserve">
+  <value>Подписать сборку</value>
+</data>
+<data name="GenerateANuGetPackageDuringTheBuild_CheckBox_Caption" xml:space="preserve">
+  <value>Создавать пакет NuGet во время сборки</value>
+</data>
+<data name="BuildCommandWorkingDirectory_Property" xml:space="preserve">
+  <value>Рабочий каталог</value>
+</data>
+<data name="IndexEventsCountSettingsDescription" xml:space="preserve">
+  <value>Настройки количества событий индекса</value>
+</data>
+<data name="XMLDocumentation_SectionTitle" xml:space="preserve">
+  <value>XML-документация</value>
+</data>
+<data name="CodeCompletionObsoleteItemsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки устаревших элементов завершения кода</value>
+</data>
+<data name="ProductionQualityWarnings_Text" xml:space="preserve">
+  <value>3 - Предупреждения продакшен-качества</value>
+</data>
+<data name="SignificantWarnings_Text" xml:space="preserve">
+  <value>2 - Значительные предупреждения</value>
+</data>
+<data name="AssembliesFolder_Text" xml:space="preserve">
+  <value>Сборки</value>
+</data>
+<data name="_HasFoundThatTheRefactoringHasSomeConflicts_Text" xml:space="preserve">
+  <value>{0} обнаружил, что рефакторинг имеет некоторые конфликты с существующим кодом. </value>
+</data>
+<data name="DownloadAndInstall_DeveloperPack_Text" xml:space="preserve">
+  <value>Скачать и установить {0} Developer Pack…</value>
+</data>
+<data name="Derived_Text" xml:space="preserve">
+  <value>Производный</value>
+</data>
+<data name="SelectDifferentMSBuildInRiderSettings_Text" xml:space="preserve">
+  <value>Выбрать другой MSBuild в настройках Rider…</value>
+</data>
+<data name="CodeAnalysis_SectionTitle" xml:space="preserve">
+  <value>Анализ кода</value>
+</data>
+<data name="InternalSymbolsOnly_Text" xml:space="preserve">
+  <value>Только внутренние символы</value>
+</data>
+<data name="AllWarnings_Text" xml:space="preserve">
+  <value>4 - Все предупреждения</value>
+</data>
+<data name="EnableNullabilityWarningsOnly_Text" xml:space="preserve">
+  <value>Включить только предупреждения nullable</value>
+</data>
+<data name="PublicSign_CheckBox_Caption" xml:space="preserve">
+  <value>Публичная подпись</value>
+</data>
+<data name="CopyLocal_CheckboxText" xml:space="preserve">
+  <value>Копировать локально</value>
+</data>
+<data name="AfterBuild_SectionTitle" xml:space="preserve">
+  <value>После сборки</value>
+</data>
+<data name="WhatIsJetBrainsMSBuild_Text" xml:space="preserve">
+  <value>Что такое JetBrains MSBuild?</value>
+</data>
+<data name="BuildCommand_Property" xml:space="preserve">
+  <value>Команда сборки</value>
+</data>
+<data name="FollowingDuplicatedProjectReferences_Text" xml:space="preserve">
+  <value>Найдены следующие дублирующиеся ProjectReferences:
+
+{0}</value>
+</data>
+<data name="Pessimistic_Text" xml:space="preserve">
+  <value>Пессимистичный</value>
+</data>
+<data name="InvalidNETFrameworkInProject__Caption" xml:space="preserve">
+  <value>Неверный .NET Framework в проекте '{0}'</value>
+</data>
+<data name="ChangeTargetFramework_Text" xml:space="preserve">
+  <value>Изменить целевую платформу…</value>
+</data>
+<data name="ExposingAPI_m_Text" xml:space="preserve">
+  <value>Открытие API</value>
+</data>
+<data name="DelaySign_CheckBox_Caption" xml:space="preserve">
+  <value>Отложенная подпись</value>
+</data>
+<data name="MsBuild_Build_Time_Targets_Text" xml:space="preserve">
+  <value>Цели времени сборки</value>
+</data>
+<data name="ShowMsBuildConnectionDiagnosticActionActionText" xml:space="preserve">
+  <value>Показать действие диагностики подключения MsBuild</value>
+</data>
+<data name="BeforeBuild_SectionTitle" xml:space="preserve">
+  <value>До сборки</value>
+</data>
+<data name="Assembly_TabTitleText" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ReferenceHintPath_IsDifferentFromThe_Text" xml:space="preserve">
+  <value>HintPath ссылки '{0}' отличается от фактического местоположения ссылки '{1}', разрешенного MsBuild</value>
+</data>
+<data name="SemanticSymbolCacheEnabledDescription" xml:space="preserve">
+  <value>Количество символов семантического кэша</value>
+</data>
+<data name="CopyAlways_Text" xml:space="preserve">
+  <value>Копировать всегда</value>
+</data>
+<data name="NETFrameworkNotInstalled_Text" xml:space="preserve">
+  <value>.NET Framework не установлен</value>
+</data>
+<data name="TargetFrameworkProfileClientCanBeUsed_Text" xml:space="preserve">
+  <value>Профиль целевой платформы 'Client' можно использовать только с .NET Framework v3.5 или v4.0.</value>
+</data>
+<data name="Aliases_ComboBoxText" xml:space="preserve">
+  <value>Псевдонимы</value>
+</data>
+<data name="TargetFramework_Text" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="Override_Text" xml:space="preserve">
+  <value>переопределение</value>
+</data>
+<data name="RdEditProjectPropertyTab_Properties_Caption" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="Resources_SectionTitile" xml:space="preserve">
+  <value>Ресурсы</value>
+</data>
+<data name="PlatformTarget_ComboBox_Caption" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="PropertyIconUrlIsObsoleteUsePackage_Text" xml:space="preserve">
+  <value>Свойство IconUrl устарело. Вместо этого используйте PackageIcon.</value>
+</data>
+<data name="StartupCommandWorkingDirectory_Property" xml:space="preserve">
+  <value>Рабочий каталог</value>
+</data>
+<data name="TurnOffAllWarnings_Text" xml:space="preserve">
+  <value>0 - Выключить все предупреждения</value>
+</data>
+<data name="Files_Text" xml:space="preserve">
+  <value>Файлы</value>
+</data>
+<data name="AnalyzersFolder_Text" xml:space="preserve">
+  <value>Анализаторы</value>
+</data>
+<data name="CustomToolsOptionPageTitle" xml:space="preserve">
+  <value>Пользовательские инструменты</value>
+</data>
+<data name="UnloadedProjectListSettingDescription" xml:space="preserve">
+  <value>Список выгруженных проектов</value>
+</data>
+<data name="On_Text" xml:space="preserve">
+  <value>Вкл</value>
+</data>
+<data name="InstallMono_Text" xml:space="preserve">
+  <value>Установить Mono…</value>
+</data>
+<data name="RefactoringModification_Text" xml:space="preserve">
+  <value>Модификация рефакторинга</value>
+</data>
+<data name="PessimisticAnalyzeAllPossibleElements_ToolTip" xml:space="preserve">
+  <value>Пессимистичный: анализировать все возможные элементы. Оптимистичный: анализировать только локализуемые элементы.</value>
+</data>
+<data name="_OwnUsage_Text" xml:space="preserve">
+  <value>{0} собственное использование</value>
+</data>
+<data name="Company_TextBox_Caption" xml:space="preserve">
+  <value>Компания</value>
+</data>
+<data name="AssemblyNeutralLanguage_ComboBox_Caption" xml:space="preserve">
+  <value>Нейтральный язык сборки</value>
+</data>
+<data name="Overrides_Text" xml:space="preserve">
+  <value>Переопределения</value>
+</data>
+<data name="SevereWarnings_Text" xml:space="preserve">
+  <value>1 - Серьезные предупреждения</value>
+</data>
+<data name="ProjectLocation_Caption" xml:space="preserve">
+  <value>Расположение проекта</value>
+</data>
+<data name="NETAndNETCoreSupportPolicy_Text" xml:space="preserve">
+  <value>Политика поддержки .NET и .NET Core</value>
+</data>
+<data name="ImportsFolder_Text" xml:space="preserve">
+  <value>Импорты</value>
+</data>
+<data name="Inspections_Text" xml:space="preserve">
+  <value>Инспекции</value>
+</data>
+<data name="ProjectFolder_Text" xml:space="preserve">
+  <value>Папка проекта</value>
+</data>
+<data name="UI_Text" xml:space="preserve">
+  <value>Пользовательский интерфейс</value>
+</data>
+<data name="WarningLevel_ComboBox_Caption" xml:space="preserve">
+  <value>Уровень предупреждений</value>
+</data>
+<data name="RecentURLsSettingDescription" xml:space="preserve">
+  <value>Недавние URL</value>
+</data>
+<data name="Notes_Caption" xml:space="preserve">
+  <value>Примечания</value>
+</data>
+<data name="ManageNETSDKForTheSolution_Text" xml:space="preserve">
+  <value>Управлять .NET SDK для решения…</value>
+</data>
+<data name="BuiltIn_Text" xml:space="preserve">
+  <value>Встроенный</value>
+</data>
+<data name="_ThisMayBeBecauseTheProjectIsUnloaded_Text" xml:space="preserve">
+  <value>[{0}] Это может быть связано с тем, что проект выгружен или не является частью текущего решения, поэтому выполните восстановление из командной строки. В противном случае файл проекта может быть недопустимым или отсутствуют цели, необходимые для восстановления.</value>
+</data>
+<data name="SqlCmdVariablesFolder_Text" xml:space="preserve">
+  <value>Переменные SQLCMD</value>
+</data>
+<data name="ReferenceOutputAssembly_Caption" xml:space="preserve">
+  <value>Ссылка на выходную сборку</value>
+</data>
+<data name="Off_Text" xml:space="preserve">
+  <value>Выкл</value>
+</data>
+<data name="Args_Text" xml:space="preserve">
+  <value>Аргументы:</value>
+</data>
+<data name="Authors_TextBox_Caption" xml:space="preserve">
+  <value>Авторы</value>
+</data>
+<data name="InstallXamarinSDK_Text" xml:space="preserve">
+  <value>Установить Xamarin SDK…</value>
+</data>
+<data name="ExtMethods_Text" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="ExposingAPI_Text" xml:space="preserve">
+  <value>Открытие API</value>
+</data>
+<data name="Path_Text" xml:space="preserve">
+  <value>Путь:</value>
+</data>
+<data name="SolutionWideAnalysisIsPaused_Text" xml:space="preserve">
+  <value>Общерешенийный анализ приостановлен</value>
+</data>
+<data name="Location_Caption" xml:space="preserve">
+  <value>Местоположение</value>
+</data>
+<data name="ImportLocations__Text" xml:space="preserve">
+  <value>Местоположения импорта</value>
+</data>
+<data name="Folders_Text" xml:space="preserve">
+  <value>Папки</value>
+</data>
+<data name="EnablesOrDisablesSolutionWideInspections_ToolTip" xml:space="preserve">
+  <value>Включить или отключить общерешенийные проверки, например неиспользуемые не-private методы</value>
+</data>
+<data name="CSharpLanguageLevel_ToolTip" xml:space="preserve">
+  <value>Указывает уровень языка C#, который должен использовать Rider для анализа кода; не влияет на компилятор, анализаторы Roslyn и сборку проекта.</value>
+</data>
+<data name="WhatIsMSBuild_Text" xml:space="preserve">
+  <value>Что такое MSBuild?</value>
+</data>
+<data name="OpenDetailedLog_Text" xml:space="preserve">
+  <value>Открыть подробный журнал</value>
+</data>
+<data name="LicenseURL_TextBox_Caption" xml:space="preserve">
+  <value>URL лицензии</value>
+</data>
+<data name="ShowNAEntriesIfSWEAIsDisabledSettingDescription" xml:space="preserve">
+  <value>Показывать записи 'Н/Д', если SWEA отключен</value>
+</data>
+<data name="CSharpLanguageLevel_Caption" xml:space="preserve">
+  <value>Переопределение уровня языка в Rider</value>
+</data>
+<data name="BindingRedirects_SectionTitle" xml:space="preserve">
+  <value>Перенаправления привязки</value>
+</data>
+<data name="ID_TextBox_Caption" xml:space="preserve">
+  <value>ID</value>
+</data>
+<data name="ThisErrorUsuallyOccursBecauseOfInvalid_Text" xml:space="preserve">
+  <value>Эта ошибка обычно возникает из-за неверной версии Mono. Попробуйте обновить среду выполнения Mono.</value>
+</data>
+<data name="UpdateNETSDK_Text" xml:space="preserve">
+  <value>Обновить .NET SDK…</value>
+</data>
+<data name="TreatAllWarningsAsErrors_CheckBox_Caption" xml:space="preserve">
+  <value>Рассматривать все предупреждения как ошибки</value>
+</data>
+<data name="IfNETCoreIsInstalledInANonStandardLocation_Text" xml:space="preserve">
+  <value>Если .NET Core установлен в нестандартном месте, укажите пользовательский путь выполнения .NET CLI в настройках.</value>
+</data>
+<data name="ApplePlatforms_Text" xml:space="preserve">
+  <value>Платформы Apple</value>
+</data>
+<data name="StickyLinesSettingsDescription" xml:space="preserve">
+  <value>Настройки липких строк</value>
+</data>
+<data name="MSBuildCannotFindTargetFrameworkAssemblies_Text" xml:space="preserve">
+  <value>MSBuild не может найти сборки TargetFramework для {0}</value>
+</data>
+<data name="MsBuild_ItemType_Text" xml:space="preserve">
+  <value>Тип элемента</value>
+</data>
+<data name="SdkFolder_Text" xml:space="preserve">
+  <value>SDK</value>
+</data>
+<data name="BlockTag_Highlighter_Display_Name" xml:space="preserve">
+  <value>ASPX//Блочный тег</value>
+</data>
+<data name="AlsoMSBuildPackageShouldBeInstalled_Text" xml:space="preserve">
+  <value>Также должен быть установлен пакет MSBuild.</value>
+</data>
+<data name="None_Text" xml:space="preserve">
+  <value>(Нет)</value>
+</data>
+<data name="RootNamespace_Text" xml:space="preserve">
+  <value>Корневое пространство имен</value>
+</data>
+<data name="Full_Text" xml:space="preserve">
+  <value>Полный</value>
+</data>
+<data name="ContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню</value>
+</data>
+<data name="AutoGenerateBindingRedirects_Caption" xml:space="preserve">
+  <value>Автоматически генерировать перенаправления привязки</value>
+</data>
+<data name="Copyright_TextBox_Caption" xml:space="preserve">
+  <value>Авторское право</value>
+</data>
+<data name="Enable_Text" xml:space="preserve">
+  <value>Включить</value>
+</data>
+<data name="CanTEditPropertiesForThisTypeOfProject_Text" xml:space="preserve">
+  <value>Нельзя редактировать свойства для этого типа проекта</value>
+</data>
+<data name="SuppressWarnings_TextBox_Caption" xml:space="preserve">
+  <value>Подавить предупреждения</value>
+</data>
+<data name="Debug_SectionTitle" xml:space="preserve">
+  <value>Отладка</value>
+</data>
+<data name="ReferencePaths_Text" xml:space="preserve">
+  <value>Пути ссылок</value>
+</data>
+<data name="SolutionWideInspections_Caption" xml:space="preserve">
+  <value>Общерешенийные проверки</value>
+</data>
+<data name="StickyLinesHighlightingGroup_Text" xml:space="preserve">
+  <value>Группа выделения липких строк</value>
+</data>
+<data name="SolutionName_Text" xml:space="preserve">
+  <value>Имя решения</value>
+</data>
+<data name="EditingProjectDependenciesIsNotSupported_Text" xml:space="preserve">
+  <value>Редактирование зависимостей проекта не поддерживается для этой записи</value>
+</data>
+<data name="Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="Processing__Text" xml:space="preserve">
+  <value>Обработка {0}</value>
+</data>
+<data name="OutputType_ComboBox_Caption" xml:space="preserve">
+  <value>Тип выходных данных</value>
+</data>
+<data name="IDE_Text" xml:space="preserve">
+  <value>IDE</value>
+</data>
+<data name="DoNotCopy_Text" xml:space="preserve">
+  <value>Не копировать</value>
+</data>
+<data name="Reset_ActionLink_Text" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="AssemblyVersion_TextBox_Caption" xml:space="preserve">
+  <value>Версия сборки</value>
+</data>
+<data name="HideUnavailableMetrics_Text" xml:space="preserve">
+  <value>Скрыть недоступные метрики</value>
+</data>
+<data name="InternalActionsReSharper_Text" xml:space="preserve">
+  <value>Внутренние действия (ReSharper)</value>
+</data>
+<data name="InstallNETCoreOrMonoToDevelopNETApplications_Text" xml:space="preserve">
+  <value>Установить .NET Core или Mono для разработки .NET приложений…</value>
+</data>
+<data name="CheckForArithmeticOverflow_CheckBox_Caption" xml:space="preserve">
+  <value>Проверять арифметическое переполнение</value>
+</data>
+<data name="SemanticClassCacheEnabledDescription" xml:space="preserve">
+  <value>Количество классов семантического кэша</value>
+</data>
+<data name="Usage_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="Target__Text" xml:space="preserve">
+  <value>Цель: {0}</value>
+</data>
+<data name="DocumentationFile_Caption" xml:space="preserve">
+  <value>Файл документации</value>
+</data>
+<data name="AttributeValue_Highlighter_Display_Name" xml:space="preserve">
+  <value>ASPX//Значение атрибута</value>
+</data>
+<data name="OnBuildSuccess_Text" xml:space="preserve">
+  <value>При успешной сборке</value>
+</data>
+<data name="AssemblyName_Text" xml:space="preserve">
+  <value>Имя сборки</value>
+</data>
+<data name="ThemeSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки темы</value>
+</data>
+<data name="Postprocessing_Text" xml:space="preserve">
+  <value>Постобработка…</value>
+</data>
+<data name="DebugType_ComboBox_Caption" xml:space="preserve">
+  <value>Тип отладки</value>
+</data>
+<data name="Description_TextBox_Caption" xml:space="preserve">
+  <value>Описание</value>
+</data>
+<data name="RunCommand_ComboBox_Caption" xml:space="preserve">
+  <value>Команда выполнения</value>
+</data>
+<data name="Usages_m_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="Rename__Text" xml:space="preserve">
+  <value>Переименовать '{0}'</value>
+</data>
+<data name="RepositoryURL_TextBox_Caption" xml:space="preserve">
+  <value>URL репозитория</value>
+</data>
+<data name="CleanCommand_Property" xml:space="preserve">
+  <value>Команда очистки</value>
+</data>
+<data name="TargetFrameworkProfile_Text" xml:space="preserve">
+  <value>Профиль целевой платформы</value>
+</data>
+<data name="Items_Text" xml:space="preserve">
+  <value>Элементы</value>
+</data>
+<data name="DumpWildcardContainerActionText" xml:space="preserve">
+  <value>Дамп контейнера шаблонов</value>
+</data>
+<data name="ToolsetAndBuild_Text" xml:space="preserve">
+  <value>Набор инструментов и сборка</value>
+</data>
+<data name="WindowsApplication_Text" xml:space="preserve">
+  <value>Приложение Windows</value>
+</data>
+<data name="PackagesFolder_Text" xml:space="preserve">
+  <value>Пакеты</value>
+</data>
+<data name="OnOutputUpdated_Text" xml:space="preserve">
+  <value>При обновлении вывода</value>
+</data>
+<data name="ConflictsWereFound_Text" xml:space="preserve">
+  <value>Найдены конфликты</value>
+</data>
+<data name="StickyLinesDisabledLanguagesDescription" xml:space="preserve">
+  <value>Языки, на которых отключены липкие строки</value>
+</data>
+<data name="BuildOutputFolder_Property" xml:space="preserve">
+  <value>Папка выходных данных сборки</value>
+</data>
+<data name="NETFramework_IsRequiredToLoadProject_Caption" xml:space="preserve">
+  <value>Для загрузки проекта '{1}' требуется .NET Framework {0}, но он не установлен</value>
+</data>
+<data name="Properties_Text" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="LanguageVersion_Text" xml:space="preserve">
+  <value>Версия языка</value>
+</data>
+<data name="OutputPath_TextBox_Caption" xml:space="preserve">
+  <value>Выходной путь</value>
+</data>
+<data name="Configurations_Text" xml:space="preserve">
+  <value>Конфигурации</value>
+</data>
+<data name="TheProjectCanBePackedIntoAPackage_CheckBox_Caption" xml:space="preserve">
+  <value>Проект можно упаковать в пакет</value>
+</data>
+<data name="Implementation_Text" xml:space="preserve">
+  <value>Реализация</value>
+</data>
+<data name="ExposingAPIs_Text" xml:space="preserve">
+  <value>Открытие API</value>
+</data>
+<data name="GroupByFile_Text" xml:space="preserve">
+  <value>Группировать по файлу</value>
+</data>
+<data name="SemanticCacheSettingsDescription" xml:space="preserve">
+  <value>Настройки семантического кэша</value>
+</data>
+<data name="Inheritor_Text" xml:space="preserve">
+  <value>Наследник</value>
+</data>
+<data name="ExtensionMethods_Text" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="ReadMoreAboutNuGetMetadataProperties_Text" xml:space="preserve">
+  <value>Узнать больше о свойствах метаданных NuGet</value>
+</data>
+<data name="WebReferencesSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки веб-ссылок</value>
+</data>
+<data name="LanguageLevelIsOverriddenByRiderSettings_ActionLink_Caption" xml:space="preserve">
+  <value>Уровень языка переопределен в настройках Rider на '{0}'</value>
+</data>
+<data name="OnlyNETFrameworkV35AndV40SupportsClient_Label_Text" xml:space="preserve">
+  <value>Только .NET Framework v3.5 и v4.0 поддерживают профиль `Client`</value>
+</data>
+<data name="DatabasesFolder_Text" xml:space="preserve">
+  <value>Базы данных</value>
+</data>
+<data name="IfAMonoRuntimeIsAvailableInANonStandard_Text" xml:space="preserve">
+  <value>Если среда выполнения Mono доступна в нестандартном месте, укажите пользовательское расположение среды выполнения в настройках.</value>
+</data>
+<data name="StickyLinesIsEnabledDescription" xml:space="preserve">
+  <value>Липкие строки включены</value>
+</data>
+<data name="Note_Caption" xml:space="preserve">
+  <value>Примечание</value>
+</data>
+<data name="ProjectName_Caption" xml:space="preserve">
+  <value>Имя проекта</value>
+</data>
+<data name="CurrentFolder_Text" xml:space="preserve">
+  <value>Текущая папка</value>
+</data>
+<data name="EnablesOrDisablesLocalizationFeatures_ToolTip" xml:space="preserve">
+  <value>Включить или отключить функции локализации для текущего проекта. По умолчанию Rider выделяет локализуемые элементы только в том случае, если в проекте есть один или несколько файлов ресурсов.</value>
+</data>
+<data name="CurrentColorThemeSettingDescription" xml:space="preserve">
+  <value>Текущая цветовая тема</value>
+</data>
+<data name="SolutionWideAnalysisIsOff_Text" xml:space="preserve">
+  <value>Общерешенийный анализ выключен</value>
+</data>
+<data name="_OwnExtensionMethods_Text" xml:space="preserve">
+  <value>{0} собственных методов расширения</value>
+</data>
+<data name="Assembly_SectionTitle" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="DownloadJetBrainsMSBuildPackage_Text" xml:space="preserve">
+  <value>Скачать пакет JetBrains MSBuild</value>
+</data>
+<data name="CopyToOutputDirectory_Text" xml:space="preserve">
+  <value>Копировать в выходной каталог</value>
+</data>
+<data name="StrongNameKeyFile_Caption" xml:space="preserve">
+  <value>Файл ключа строгого имени</value>
+</data>
+<data name="TreatTheseWarningsAsErrors_TextBox_Caption" xml:space="preserve">
+  <value>Рассматривать эти предупреждения как ошибки</value>
+</data>
+<data name="ExtMethod_Text" xml:space="preserve">
+  <value>Метод расширения</value>
+</data>
+<data name="Generate_Caption" xml:space="preserve">
+  <value>Сгенерировать</value>
+</data>
+<data name="OptimizeCode_CheckBox_Caption" xml:space="preserve">
+  <value>Оптимизировать код</value>
+</data>
+<data name="EditSolutionConfigurations_Text" xml:space="preserve">
+  <value>Редактировать конфигурации решения</value>
+</data>
+<data name="Embedded_Text" xml:space="preserve">
+  <value>Встроенный</value>
+</data>
+<data name="FullName_Caption" xml:space="preserve">
+  <value>Полное имя</value>
+</data>
+<data name="ReleaseNotes_TextBox_Caption" xml:space="preserve">
+  <value>Примечания к выпуску</value>
+</data>
+<data name="RemoveCustomTool_Caption" xml:space="preserve">
+  <value>Удалить пользовательский инструмент</value>
+</data>
+<data name="MSBuild150IsRequiredToLoadProject_NCurrent_Text" xml:space="preserve">
+  <value>Для загрузки проекта '{0}' требуется MSBuild 15.0+.
+Текущий MSBuild {1} '{2}'.</value>
+</data>
+<data name="CustomToolsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки пользовательских инструментов</value>
+</data>
+<data name="AnyCPU32BitPreferred_CheckBox_Caption" xml:space="preserve">
+  <value>Предпочитать любой 32-битный CPU</value>
+</data>
+<data name="Task__Text" xml:space="preserve">
+  <value>Задача: {0}</value>
+</data>
+<data name="Different_Text" xml:space="preserve">
+  <value>Различные</value>
+</data>
+<data name="NoteThatMonoInstalledFromHomebrewIs_Text" xml:space="preserve">
+  <value>Обратите внимание, что Mono, установленный из Homebrew, не поддерживается.</value>
+</data>
+<data name="_UsagesOfBaseMethods_Text" xml:space="preserve">
+  <value> + {0} использований базовых методов</value>
+</data>
+<data name="Imports_Caption" xml:space="preserve">
+  <value>Импорты</value>
+</data>
+<data name="CustomTools_Text" xml:space="preserve">
+  <value>Пользовательские инструменты:</value>
+</data>
+<data name="SpecifyNETCLIPathInRiderSettings_Text" xml:space="preserve">
+  <value>Указать путь .NET CLI в настройках Rider…</value>
+</data>
+<data name="DocumentsModification_Text" xml:space="preserve">
+  <value>Модификация документов</value>
+</data>
+<data name="Module_Text" xml:space="preserve">
+  <value>Модуль</value>
+</data>
+<data name="Always_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="UseWindowChromeForTheMainWindowSettingDescription" xml:space="preserve">
+  <value>Использовать Window Chrome для главного окна</value>
+</data>
+<data name="UnpauseSolutionWideAnalysis_Text" xml:space="preserve">
+  <value>Возобновить общерешенийный анализ</value>
+</data>
+<data name="Missing_Text" xml:space="preserve">
+  <value>Отсутствует</value>
+</data>
+<data name="PackageIcon_Caption" xml:space="preserve">
+  <value>Значок пакета</value>
+</data>
+<data name="ProjectName_Text" xml:space="preserve">
+  <value>Имя проекта</value>
+</data>
+<data name="EcmaScriptBuildPropertiesTab_Text" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ResetLanguageLevelSettingsActionText" xml:space="preserve">
+  <value>Сбросить настройки уровня языка</value>
+</data>
+<data name="LocalizableInspector_Caption" xml:space="preserve">
+  <value>Инспектор локализуемости</value>
+</data>
+<data name="NamespaceProvider_Text" xml:space="preserve">
+  <value>Поставщик пространства имен</value>
+</data>
+<data name="ClassLibrary_Text" xml:space="preserve">
+  <value>Библиотека классов</value>
+</data>
+<data name="CacheProcessing_Text" xml:space="preserve">
+  <value>Обработка кэша</value>
+</data>
+<data name="UpdatingSolution_Caption" xml:space="preserve">
+  <value>Обновление решения</value>
+</data>
+<data name="None_ComboBoxValue" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="Default_Text" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="SetOfDisabledProvidersSettingDescription" xml:space="preserve">
+  <value>Набор отключенных поставщиков</value>
+</data>
+<data name="CanTExecute_RNTheSourceCodeHasBeenModified_Text" xml:space="preserve">
+  <value>Не удается выполнить '{0}'.
+Исходный код был изменен.</value>
+</data>
+<data name="TurnSolutionWideAnalysisON_Text" xml:space="preserve">
+  <value>Включить общерешенийный анализ</value>
+</data>
+<data name="Diagnostic_Text" xml:space="preserve">
+  <value>Диагностика</value>
+</data>
+<data name="InstallNETSDK_Text" xml:space="preserve">
+  <value>Установить .NET SDK…</value>
+</data>
+</root>

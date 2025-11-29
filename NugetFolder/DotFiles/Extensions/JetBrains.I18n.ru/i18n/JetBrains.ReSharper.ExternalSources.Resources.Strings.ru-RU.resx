@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="SourcesFromSymbolFilesWereNotFoundNTo_Text" xml:space="preserve">
+  <value>Не удалось найти исходные файлы из файлов символов.
+Чтобы узнать о возможных причинах, см. окно "{0}".</value>
+</data>
+<data name="ReSharperCanEnableDebuggingWithoutSymbols_Text" xml:space="preserve">
+  <value>ReSharper может включить отладку без символов</value>
+</data>
+<data name="FileWasRemoved_ToolTip" xml:space="preserve">
+  <value>Файл был удален</value>
+</data>
+<data name="BundleV___Text" xml:space="preserve">
+  <value> (Пакет v{0}.{1})</value>
+</data>
+<data name="CopyFullPathActionText" xml:space="preserve">
+  <value>Копировать полный путь</value>
+</data>
+<data name="AddSourceLinkToPortablePDB_ActionText" xml:space="preserve">
+  <value>Добавить SourceLink в переносимый PDB…</value>
+</data>
+<data name="ClearListActionText" xml:space="preserve">
+  <value>Очистить список</value>
+</data>
+<data name="Bundle_Text" xml:space="preserve">
+  <value> (Пакет)</value>
+</data>
+<data name="ILViewerCodeUnavailabilityReason_NotInProject_Text" xml:space="preserve">
+  <value>Этот файл не входит в проект</value>
+</data>
+<data name="DiffModeShowAll_Text" xml:space="preserve">
+  <value>Показать все</value>
+</data>
+<data name="LocateInMetadataTreeContextNavigationProvider_ActionTitle" xml:space="preserve">
+  <value>Найти в метаданных</value>
+</data>
+<data name="DiffIgnoreAttributeOrderDifferences_Text" xml:space="preserve">
+  <value>Игнорировать различия в порядке атрибутов</value>
+</data>
+<data name="DecompilerLegalNoticeIsAcceptedByUserSettingDescription" xml:space="preserve">
+  <value>Юридическое уведомление декомпилятора принято пользователем</value>
+</data>
+<data name="OpenDiffOptionsActionText" xml:space="preserve">
+  <value>Параметры сравнения…</value>
+</data>
+<data name="AssemblyExplorerActionGroupText" xml:space="preserve">
+  <value>Обозреватель сборок</value>
+</data>
+<data name="WebAssemblyLimitedSupport_Text" xml:space="preserve">
+  <value>(WebAssembly, ограниченная поддержка)</value>
+</data>
+<data name="InMethod_Text" xml:space="preserve">
+  <value>В методе</value>
+</data>
+<data name="OpenContainingFolder_Text" xml:space="preserve">
+  <value>Открыть содержащую папку</value>
+</data>
+<data name="UseNewTreeForAssemblyExplorerSettingDescription" xml:space="preserve">
+  <value>Использовать новое дерево для обозревателя сборок</value>
+</data>
+<data name="DiffIgnoreMemberOrderDifferences_Text" xml:space="preserve">
+  <value>Игнорировать различия в порядке членов</value>
+</data>
+<data name="PdbFileWasNotDownloaded_Text" xml:space="preserve">
+  <value>PDB-файл не загружен</value>
+</data>
+<data name="Headers_Text" xml:space="preserve">
+  <value>Заголовки</value>
+</data>
+<data name="ByDefaultReSharperNavigatesToAssembly_Text" xml:space="preserve">
+  <value>По умолчанию ReSharper переходит в обозреватель сборок</value>
+</data>
+<data name="XmlDocumentRepresentingAssemblyDiffExplorerStateSettingDescription" xml:space="preserve">
+  <value>XmlDocument, представляющий состояние обозревателя сравнения сборок</value>
+</data>
+<data name="ILViewerViewILCodeAction_Caption" xml:space="preserve">
+  <value>IL-код</value>
+</data>
+<data name="OpenWithActionText" xml:space="preserve">
+  <value>Открыть с помощью(&amp;W)…</value>
+</data>
+<data name="_TrustTheCommandsGeneratedFromThisTemplate_Text" xml:space="preserve">
+  <value>Доверять командам, созданным из этого шаблона(&amp;T)</value>
+</data>
+<data name="PdbGenerationStatusActionText" xml:space="preserve">
+  <value>Статус создания PDB(&amp;G)</value>
+</data>
+<data name="ProjectPDBGenerationStatus_Text" xml:space="preserve">
+  <value>Статус проекта/создания PDB</value>
+</data>
+<data name="AssemblyContains_Image_ToolTip" xml:space="preserve">
+  <value>Сборка содержит {0} изображений</value>
+</data>
+<data name="ResourcesFiles_Files_Filter_Text" xml:space="preserve">
+  <value>Файлы ресурсов</value>
+</data>
+<data name="JustMyCodeEnabledDisabled_Text" xml:space="preserve">
+  <value> • Только мой код (включено → отключено)</value>
+</data>
+<data name="Resources_Text" xml:space="preserve">
+  <value>Ресурсы</value>
+</data>
+<data name="UseStringInterpolationSettingDescription" xml:space="preserve">
+  <value>Использовать интерполяцию строк</value>
+</data>
+<data name="DiffIgnoreAttributeOrderDifferencesSettingDescription" xml:space="preserve">
+  <value>Игнорировать различия в порядке атрибутов</value>
+</data>
+<data name="AssemblyList__Text" xml:space="preserve">
+  <value>Список сборок DotPeek ({0})</value>
+</data>
+<data name="ToEnableDebuggingWithoutSymbolsReSharperWillUpdateTheFollowingVisualStudioSettings_Text" xml:space="preserve">
+  <value>Чтобы включить отладку без символов, ReSharper обновит следующие настройки Visual Studio:</value>
+</data>
+<data name="AssemblyFiles__Text" xml:space="preserve">
+  <value>Файлы сборок ({0})</value>
+</data>
+<data name="GeneratingDebugData_Text" xml:space="preserve">
+  <value>Генерация отладочных данных</value>
+</data>
+<data name="DiffModeShowOnlyDifferences_Text" xml:space="preserve">
+  <value>Показать только различия</value>
+</data>
+<data name="Inheritors_Text" xml:space="preserve">
+  <value>Наследники</value>
+</data>
+<data name="ILViewerActionText" xml:space="preserve">
+  <value>Просмотр IL</value>
+</data>
+<data name="UpdateSettingsAndEnable_Text" xml:space="preserve">
+  <value>Обновить настройки и включить</value>
+</data>
+<data name="UndefinedTargetFramework_Text" xml:space="preserve">
+  <value>Неопределенная целевая платформа</value>
+</data>
+<data name="CollectingPackages__Text" xml:space="preserve">
+  <value>Сбор пакетов ({0})…</value>
+</data>
+<data name="UnmanagedAssemblyLimitedSupport_ToolTip" xml:space="preserve">
+  <value>Не сборка .NET, типы не отображаются</value>
+</data>
+<data name="SavePatchedSymbolFile_Title" xml:space="preserve">
+  <value>Сохранить исправленный файл символов</value>
+</data>
+<data name="And_MoreAssemblies_Text" xml:space="preserve">
+  <value>и еще {0} сборок</value>
+</data>
+<data name="PdbFilesWillNotBeGeneratedForTheAssembliy_Text" xml:space="preserve">
+  <value>PDB-файлы не будут созданы для сборки</value>
+</data>
+<data name="InternalPrivate_RiderPresentableName" xml:space="preserve">
+  <value>Внутренний/private</value>
+</data>
+<data name="UseWithExpressionsSettingDescription" xml:space="preserve">
+  <value>Использовать выражения 'with'</value>
+</data>
+<data name="Test_Button_Text" xml:space="preserve">
+  <value>Тест</value>
+</data>
+<data name="ILViewerViewLowLevelCSharpCodeAction_Caption" xml:space="preserve">
+  <value>Низкоуровневый C# код</value>
+</data>
+<data name="ExtractToFileActionText" xml:space="preserve">
+  <value>Извлечь в файл…</value>
+</data>
+<data name="ILViewerCodeTypeILText" xml:space="preserve">
+  <value>IL</value>
+</data>
+<data name="Usages_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="PortablePDBMetadata_Text" xml:space="preserve">
+  <value>Метаданные переносимого PDB</value>
+</data>
+<data name="SelectAssemblyToBindPdbWith_Title" xml:space="preserve">
+  <value>Выберите сборку для привязки PDB</value>
+</data>
+<data name="MetadataEmphasized_RiderPresentableName" xml:space="preserve">
+  <value>Метаданные с акцентом</value>
+</data>
+<data name="Diff_OptionsPageTitle" xml:space="preserve">
+  <value>Сравнение сборок</value>
+</data>
+<data name="AllSupportedExtensions__Text" xml:space="preserve">
+  <value>Все поддерживаемые расширения ({0})</value>
+</data>
+<data name="TrackCaretInEditorActionText" xml:space="preserve">
+  <value>Отслеживать курсор в редакторе</value>
+</data>
+<data name="UpdatingTypePresentations_Text" xml:space="preserve">
+  <value>Обновление представлений типов</value>
+</data>
+<data name="UnloadActionText" xml:space="preserve">
+  <value>Выгрузить</value>
+</data>
+<data name="ToDoSoItWillUpdateTheFollowingVisualStudioSettings_Text" xml:space="preserve">
+  <value>Для этого он обновит следующие настройки Visual Studio:</value>
+</data>
+<data name="Metadata_Text" xml:space="preserve">
+  <value>Метаданные</value>
+</data>
+<data name="DiffModeShowOnlyPublicApiDifferences_Text" xml:space="preserve">
+  <value>Показать только различия в публичном API</value>
+</data>
+<data name="ResourcesDecompiler_Text" xml:space="preserve">
+  <value>Декомпилятор ресурсов</value>
+</data>
+<data name="LibraryFiles__Text" xml:space="preserve">
+  <value>Файлы библиотек ({0})</value>
+</data>
+<data name="Modules_Text" xml:space="preserve">
+  <value>Модули</value>
+</data>
+<data name="UseNullCoalescingOperatorsSettingDescription" xml:space="preserve">
+  <value>Использовать операторы объединения со значением NULL (??)</value>
+</data>
+<data name="ILViewerCodeUnavailabilityReason_ExpiredCacheItem_Text" xml:space="preserve">
+  <value>Декомпилированный код из кэша устарел. Сборка {0} была перекомпилирована. Передекомпилируйте {1}.</value>
+</data>
+<data name="ExternalSourcesOptionPageTitle" xml:space="preserve">
+  <value>Внешние источники</value>
+</data>
+<data name="DiffMode_RadioOption_Caption" xml:space="preserve">
+  <value>Режим сравнения</value>
+</data>
+<data name="NavigationToSources_Text" xml:space="preserve">
+  <value>Навигация к источникам</value>
+</data>
+<data name="AssemblyDiffExplorerActionGroupText" xml:space="preserve">
+  <value>Сравнение сборок</value>
+</data>
+<data name="InParameter_Text" xml:space="preserve">
+  <value>В параметре</value>
+</data>
+<data name="In__Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="PdbHasNotBeenGeneratedBecauseAssemblyDoesNotContainCodeViewDebugDirectoryEntry" xml:space="preserve">
+  <value>PDB не был создан, потому что сборка не содержит запись каталога отладки CodeView</value>
+</data>
+<data name="DefaultVisualStudioNavigation_Text" xml:space="preserve">
+  <value>Навигация Visual Studio по умолчанию</value>
+</data>
+<data name="AdvancedSymbolsOptions_Button_Text" xml:space="preserve">
+  <value>Дополнительные параметры символов…</value>
+</data>
+<data name="BCLAssemblyContains_Image_ToolTip" xml:space="preserve">
+  <value>Сборка BCL содержит {0} изображений</value>
+</data>
+<data name="DecompileMethods_BoolOption_Text" xml:space="preserve">
+  <value>Декомпилировать методы</value>
+</data>
+<data name="ExternalSources_Text" xml:space="preserve">
+  <value>Внешние источники</value>
+</data>
+<data name="TypeElement_RiderPresentableName" xml:space="preserve">
+  <value>Элемент типа</value>
+</data>
+<data name="SelectSymbolPdbFileToPatch_Title" xml:space="preserve">
+  <value>Выберите файл символов (PDB) для исправления</value>
+</data>
+<data name="InConstructor_Text" xml:space="preserve">
+  <value>В конструкторе</value>
+</data>
+<data name="AssemblyDiffExplorerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки обозревателя сравнения сборок</value>
+</data>
+<data name="BCLAssembly_ToolTip" xml:space="preserve">
+  <value>Сборка BCL</value>
+</data>
+<data name="SourceLinkJsonFiles__Text" xml:space="preserve">
+  <value>SourceLink JSON-файлы ({0})</value>
+</data>
+<data name="UseAssemblyExplorerInsteadOfObjectBrowser_BoolOption_Text" xml:space="preserve">
+  <value>По умолчанию использовать обозреватель сборок вместо обозревателя объектов</value>
+</data>
+<data name="DecompileVeryLongMethodsSettingDescription" xml:space="preserve">
+  <value>Декомпилировать очень длинные методы</value>
+</data>
+<data name="ILViewerActionBarActionGroupText" xml:space="preserve">
+  <value>Панель действий просмотра IL</value>
+</data>
+<data name="AssemblyExportParametersSettingDescription" xml:space="preserve">
+  <value>Параметры экспорта сборки</value>
+</data>
+<data name="MemberRefMethod_Text" xml:space="preserve">
+  <value>MemberRef - метод</value>
+</data>
+<data name="LoadActionText" xml:space="preserve">
+  <value>Загрузить</value>
+</data>
+<data name="FilePathIsRelative_ToolTip" xml:space="preserve">
+  <value>Путь к файлу относительный</value>
+</data>
+<data name="OpenResource_Caption" xml:space="preserve">
+  <value>Открыть ресурс</value>
+</data>
+<data name="DecompileProtectedAssembliesSettingDescription" xml:space="preserve">
+  <value>Декомпилировать защищенные сборки (игнорировать SuppressIldasmAttribute)</value>
+</data>
+<data name="ILViewer_Text" xml:space="preserve">
+  <value>Просмотр IL</value>
+</data>
+<data name="Usages__Text" xml:space="preserve">
+  <value>Использование {0}</value>
+</data>
+<data name="AppHost_Text" xml:space="preserve">
+  <value> (хост приложения)</value>
+</data>
+<data name="SynchronizeCaretToILViewSettingDescription" xml:space="preserve">
+  <value>Синхронизировать курсор с представлением IL</value>
+</data>
+<data name="ShowAtRootLevelActionText" xml:space="preserve">
+  <value>Показать на корневом уровне(&amp;R)</value>
+</data>
+<data name="OpenInVisualStudioActionText" xml:space="preserve">
+  <value>Открыть в Visual Studio</value>
+</data>
+<data name="OpeningNuGetPackagesConfig_Text" xml:space="preserve">
+  <value>Открытие NuGet packages.config</value>
+</data>
+<data name="PdbAlreadyExists_Text" xml:space="preserve">
+  <value>PDB уже существует</value>
+</data>
+<data name="ThisWillRemoveAllAssembliesFromAssembly_Text" xml:space="preserve">
+  <value>Это удалит все сборки из обозревателя сборок.
+Вы не сможете отменить это действие.
+
+Продолжить?</value>
+</data>
+<data name="SelectSourceLinkToAddToPdb_Title" xml:space="preserve">
+  <value>Выберите SourceLink для добавления в PDB</value>
+</data>
+<data name="DiffModeSettingDescription" xml:space="preserve">
+  <value>Режим сравнения сборок/NuGet/папок/архивов</value>
+</data>
+<data name="ProjFileItem_Text" xml:space="preserve">
+  <value>Элемент ProjFile</value>
+</data>
+<data name="CollectingPackages_Text" xml:space="preserve">
+  <value>Сбор пакетов…</value>
+</data>
+<data name="ReorderMembersAccordingToCurrentOptionsSettingDescription" xml:space="preserve">
+  <value>Изменять порядок членов в соответствии с текущими настройками</value>
+</data>
+<data name="ExploreFolDerActionText" xml:space="preserve">
+  <value>Обзор папки(&amp;D)…</value>
+</data>
+<data name="Downloading_NuGetPackage_Text" xml:space="preserve">
+  <value>Загрузка пакета NuGet {0}…</value>
+</data>
+<data name="ModuleReference__ToolTip" xml:space="preserve">
+  <value>Ссылка на модуль</value>
+</data>
+<data name="NavigationToExternalSource_RadioOption_Caption" xml:space="preserve">
+  <value>Навигация к внешнему источнику:</value>
+</data>
+<data name="NativeAppHost_ToolTip" xml:space="preserve">
+  <value>Собственный хост приложения</value>
+</data>
+<data name="MetadataUsage_RiderPresentableName" xml:space="preserve">
+  <value>Использование метаданных</value>
+</data>
+<data name="AssemblyExplorerOpenResourceActionText" xml:space="preserve">
+  <value>Открыть</value>
+</data>
+<data name="SaveResourceToFileActionText" xml:space="preserve">
+  <value>Сохранить ресурс в файл(&amp;S)…</value>
+</data>
+<data name="SaveAssemblyListActionText" xml:space="preserve">
+  <value>Сохранить список сборок(&amp;S)…</value>
+</data>
+<data name="TheCommandIsGeneratedFromThisTemplate_Text" xml:space="preserve">
+  <value>Команда создана из шаблона, указанного в PDB:</value>
+</data>
+<data name="FailedToDownloadPdbRequiredForLocatingSource_Text" xml:space="preserve">
+  <value>Не удалось загрузить PDB-файл, необходимый для поиска источника</value>
+</data>
+<data name="DiffModeShowOnlySignatureDifferences_Comment_Text" xml:space="preserve">
+  <value>Элементы с одинаковым содержимым скрыты,
+Члены с одинаковыми сигнатурами скрыты (тело игнорируется)</value>
+</data>
+<data name="NuGetPackagesConfig_Text" xml:space="preserve">
+  <value>NuGet packages.config</value>
+</data>
+<data name="ShowXmlDocLocations_ActionText" xml:space="preserve">
+  <value>Показать расположения XML-документации</value>
+</data>
+<data name="NavigationToObjectBrowser_Text" xml:space="preserve">
+  <value>Навигация к обозревателю объектов</value>
+</data>
+<data name="FailedToDownloadPdbRequiredForLocatingRepository_Text" xml:space="preserve">
+  <value>Не удалось загрузить PDB-файл, необходимый для поиска репозитория исходного кода</value>
+</data>
+<data name="PdbGenerationStatus_Text" xml:space="preserve">
+  <value>Статус создания PDB</value>
+</data>
+<data name="RemoveItemFromListActionText" xml:space="preserve">
+  <value>Удалить элемент из списка</value>
+</data>
+<data name="ILViewerCodeTypeGroupText" xml:space="preserve">
+  <value>Тип кода</value>
+</data>
+<data name="BaseTypes_Text" xml:space="preserve">
+  <value>Базовые типы</value>
+</data>
+<data name="FilePathIsRelative_Text" xml:space="preserve">
+  <value> (путь к файлу относительный)</value>
+</data>
+<data name="ILViewerCodeTypeSettingDescription" xml:space="preserve">
+  <value>Тип кода</value>
+</data>
+<data name="FailedToFindInfoForBuidingUrlForThisAssembly_Text" xml:space="preserve">
+  <value>Не удалось найти информацию о репозитории исходного кода в PDB</value>
+</data>
+<data name="_NeverUseThisTemplate_Text" xml:space="preserve">
+  <value>Никогда не использовать этот шаблон(&amp;N)</value>
+</data>
+<data name="ContextActionPageUISettingsSettingDescription" xml:space="preserve">
+  <value>Настройки пользовательского интерфейса страницы контекстных действий</value>
+</data>
+<data name="MetadataTreeDownloadSource_Text" xml:space="preserve">
+  <value>Дерево метаданных: Загрузить источник</value>
+</data>
+<data name="AssemblyVersion__Text" xml:space="preserve">
+  <value> ({0})</value>
+</data>
+<data name="MemberRefField_Text" xml:space="preserve">
+  <value>MemberRef - поле</value>
+</data>
+<data name="DiffIgnoreNullableReferenceTypesAnnotationsDifferences_Text" xml:space="preserve">
+  <value>Игнорировать различия в аннотациях ссылочных типов, допускающих значение NULL</value>
+</data>
+<data name="ShowPDBContentForAssemblyActionText" xml:space="preserve">
+  <value>Показать содержимое PDB</value>
+</data>
+<data name="DiffModeShowOnlySignatureDifferences_Text" xml:space="preserve">
+  <value>Показать только различия в сигнатурах</value>
+</data>
+<data name="EmbeddedPortablePDBMetadata_Text" xml:space="preserve">
+  <value>Встроенные метаданные переносимого PDB</value>
+</data>
+<data name="SymbolCacheDirectoryNotSet__Text" xml:space="preserve">
+  <value> • Каталог кэша символов (не задан → {0})</value>
+</data>
+<data name="ILViewerCodeUnavailabilityReason_PutCursorInsideType_Text" xml:space="preserve">
+  <value>Установите курсор внутри объявления типа, чтобы просмотреть {0}</value>
+</data>
+<data name="Adding_AssembliesToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Добавление {0:N0} сборок в обозреватель сборок</value>
+</data>
+<data name="MetadataToken_RiderPresentableName" xml:space="preserve">
+  <value>Токен метаданных</value>
+</data>
+<data name="DecompileMethodBodiesSettingDescription" xml:space="preserve">
+  <value>Декомпилировать тела методов</value>
+</data>
+<data name="ShowXMLDocInDecompiledCodeSettingDescription" xml:space="preserve">
+  <value>Показывать XML-документацию в декомпилированном коде</value>
+</data>
+<data name="AssemblyExportHistoryAssemblyFileWithModificationTimeCreatedProjectPathSettingDescription" xml:space="preserve">
+  <value>История экспорта сборок: файл сборки (с временем изменения) - созданный путь к проекту</value>
+</data>
+<data name="WebAssemblyLimitedSupport_ToolTip" xml:space="preserve">
+  <value>Не WebCIL WebAssembly, типы не отображаются</value>
+</data>
+<data name="OpenAssemblyListActionText" xml:space="preserve">
+  <value>Открыть список сборок(&amp;L)…</value>
+</data>
+<data name="SourcesFromSymbolFilesActionText" xml:space="preserve">
+  <value>Источники из файлов символов</value>
+</data>
+<data name="NavigatingTo__Text" xml:space="preserve">
+  <value>Переход к {0}</value>
+</data>
+<data name="ILViewerCodeTypeHighLevelCSharpText" xml:space="preserve">
+  <value>Высокоуровневый C#</value>
+</data>
+<data name="UseExpressionBodiedMembersSettingDescription" xml:space="preserve">
+  <value>Использовать члены-выражения</value>
+</data>
+<data name="LocateFirstItemInFileExplorerActionText" xml:space="preserve">
+  <value>Найти первый элемент в проводнике</value>
+</data>
+<data name="ILViewerCodeTypeLowLevelCSharpText" xml:space="preserve">
+  <value>Низкоуровневый C#</value>
+</data>
+<data name="AdditionalInformation_RiderPresentableName" xml:space="preserve">
+  <value>Дополнительная информация</value>
+</data>
+<data name="DiffModeGroup_PresentationText" xml:space="preserve">
+  <value>Режим сравнения: {0}</value>
+</data>
+<data name="CanTResolveAssemblyReference_Text" xml:space="preserve">
+  <value>Не удалось разрешить ссылку на сборку</value>
+</data>
+<data name="DiffModeShowOnlyPublicApiDifferences_Comment_Text" xml:space="preserve">
+  <value>Публичные элементы с одинаковыми сигнатурами (тело игнорируется) и непубличные члены скрыты</value>
+</data>
+<data name="DeltaGeneration___Text" xml:space="preserve">
+  <value>{0} (Поколение {1}, {2})</value>
+</data>
+<data name="SynchronizeILViewToCaretSettingDescription" xml:space="preserve">
+  <value>Синхронизировать представление IL с курсором</value>
+</data>
+<data name="RemoveItemsFromList_Text" xml:space="preserve">
+  <value>Удалить элементы из списка</value>
+</data>
+<data name="InEvent_Text" xml:space="preserve">
+  <value>В событии</value>
+</data>
+<data name="DecompileProtectedAssemblies_BoolOption_Text" xml:space="preserve">
+  <value>Декомпилировать защищенные сборки (игнорировать атрибут SuppressIldasm)</value>
+</data>
+<data name="DoYouWantToUpdateTheseSettingsAndEnableDebugging_Text" xml:space="preserve">
+  <value>Хотите обновить эти настройки и включить отладку?</value>
+</data>
+<data name="PatchPdbBindWithAssembly_ActionText" xml:space="preserve">
+  <value>Исправить PDB (привязать к сборке)…</value>
+</data>
+<data name="DiffOptionsDescription" xml:space="preserve">
+  <value>Параметры для сравнения сборок, пакетов NuGet, архивов и папок в обозревателе сборок</value>
+</data>
+<data name="DiffModeGroup_Text" xml:space="preserve">
+  <value>Режим сравнения</value>
+</data>
+<data name="PlaceOpenBraceOnNewLineSettingDescription" xml:space="preserve">
+  <value>Размещать открывающую фигурную скобку на новой строке</value>
+</data>
+<data name="DiffModeShowOnlyDifferences_Comment_Text" xml:space="preserve">
+  <value>Элементы с одинаковым содержимым (типы/члены/пространства имен/ресурсы/ссылки/файлы/папки) скрыты</value>
+</data>
+<data name="DecompilerOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры декомпилятора</value>
+</data>
+<data name="Enable_Text" xml:space="preserve">
+  <value>Включить</value>
+</data>
+<data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
+  <value>Показывать непубличные скомпилированные элементы в результатах 'Перейти к…'</value>
+</data>
+<data name="SingleFileBundle_ToolTip" xml:space="preserve">
+  <value>Однофайловый пакет</value>
+</data>
+<data name="ConnectionProblems_Text" xml:space="preserve">
+  <value> Проблемы с подключением</value>
+</data>
+<data name="Output_Text" xml:space="preserve">
+  <value>Выходные данные</value>
+</data>
+<data name="UseNullConditionalOperatorsAndSettingDescription" xml:space="preserve">
+  <value>Использовать условные операторы NULL (?., ?[])</value>
+</data>
+<data name="TopLevelEntryPoint_Text" xml:space="preserve">
+  <value>&lt;Точка входа верхнего уровня&gt;</value>
+</data>
+<data name="DecompiledSourcesActionText" xml:space="preserve">
+  <value>Декомпилированные исходные коды</value>
+</data>
+<data name="ShowILCodeInCommentsSettingDescription" xml:space="preserve">
+  <value>Показывать IL-код в комментариях</value>
+</data>
+<data name="OpenNuGetPackagesConfigActionText" xml:space="preserve">
+  <value>Открыть NuGet packages.config…</value>
+</data>
+<data name="Processing__Text" xml:space="preserve">
+  <value>Обработка {0}…</value>
+</data>
+<data name="MetadataViewer_Text" xml:space="preserve">
+  <value>Просмотр метаданных</value>
+</data>
+<data name="DiffModeShowAll_Comment_Text" xml:space="preserve">
+  <value />
+</data>
+<data name="AuthorizationToken_Text" xml:space="preserve">
+  <value>Токен авторизации:</value>
+</data>
+<data name="ZipArchives__Text" xml:space="preserve">
+  <value>Zip-архивы ({0})</value>
+</data>
+<data name="PdbDataIsEmbeddedIntoAssembly_Text" xml:space="preserve">
+  <value>Данные PDB встроены в сборку</value>
+</data>
+<data name="AssemblyExplorer_Text" xml:space="preserve">
+  <value>Обозреватель сборок</value>
+</data>
+<data name="FileWasRemoved_Text" xml:space="preserve">
+  <value> (файл был удален)</value>
+</data>
+<data name="OpenFolder_Text" xml:space="preserve">
+  <value>Открыть папку</value>
+</data>
+<data name="EnablePrivateSourceLinkSupport_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку приватных SourceLink</value>
+</data>
+<data name="DecompilerLegalNoticeAccept_Caption" xml:space="preserve">
+  <value>Юридическое уведомление декомпилятора — Принять</value>
+</data>
+<data name="DiffSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки сравнения сборок/NuGet/папок/архивов</value>
+</data>
+<data name="ExternalSourcesNavigator_Text" xml:space="preserve">
+  <value>Навигатор внешних источников</value>
+</data>
+<data name="ByDefaultReSharperNavigatesToObject_Text" xml:space="preserve">
+  <value>По умолчанию ReSharper переходит в обозреватель объектов</value>
+</data>
+<data name="Loading_Text" xml:space="preserve">
+  <value> (Загрузка…)</value>
+</data>
+<data name="ILViewerCodeUnavailabilityReason_BuildProject_Text" xml:space="preserve">
+  <value>Соберите проект, чтобы просмотреть {0}</value>
+</data>
+<data name="NavigationIsCarriedOutByVisualStudio_Text" xml:space="preserve">
+  <value>Навигация осуществляется Visual Studio. Навигация ReSharper к внешним источникам отключена.</value>
+</data>
+<data name="ClearAssemblyListActionText" xml:space="preserve">
+  <value>Очистить список сборок(&amp;C)</value>
+</data>
+<data name="ExportToProjectActionText" xml:space="preserve">
+  <value>Экспортировать в проект…</value>
+</data>
+<data name="INTERNALERROR_Text" xml:space="preserve">
+  <value> ВНУТРЕННЯЯ ОШИБКА</value>
+</data>
+<data name="LibraryFiles_Text" xml:space="preserve">
+  <value>Файлы библиотек</value>
+</data>
+<data name="NavigationToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Навигация к обозревателю сборок</value>
+</data>
+<data name="DownloadingNuGetPackages_Text" xml:space="preserve">
+  <value>Загрузка пакетов NuGet</value>
+</data>
+<data name="AssemblyExplorerAddItemsActionText" xml:space="preserve">
+  <value>Открыть(&amp;O)…</value>
+</data>
+<data name="InField_Text" xml:space="preserve">
+  <value>В поле</value>
+</data>
+<data name="LocateSecondItemInFileExplorerActionText" xml:space="preserve">
+  <value>Найти второй элемент в проводнике</value>
+</data>
+<data name="ZipArchives_Text" xml:space="preserve">
+  <value>Zip-архивы</value>
+</data>
+<data name="InProperty_Text" xml:space="preserve">
+  <value>В свойстве</value>
+</data>
+<data name="ExtractBundleContentsToFolder_Caption" xml:space="preserve">
+  <value>Извлечь содержимое пакета в папку</value>
+</data>
+<data name="CancelAllGenerationsActionText" xml:space="preserve">
+  <value>Отменить все создания</value>
+</data>
+<data name="PdbFilesWillNotBeGeneratedForTheFollowingAssemblies_Text" xml:space="preserve">
+  <value>PDB-файлы не будут созданы для следующих сборок:</value>
+</data>
+<data name="ExtractBundleContentsToFolderActionText" xml:space="preserve">
+  <value>Извлечь содержимое пакета в папку…</value>
+</data>
+<data name="Dependencies_Text" xml:space="preserve">
+  <value>Зависимости</value>
+</data>
+<data name="PdbAlreadyLoaded_Text" xml:space="preserve">
+  <value>PDB уже загружен</value>
+</data>
+<data name="NavigateTo_NamespaceIn_Caption" xml:space="preserve">
+  <value>Перейти к пространству имен {0} в сборках:</value>
+</data>
+<data name="ParsingFiles_Text" xml:space="preserve">
+  <value>Разбор файлов…</value>
+</data>
+<data name="CopyFirstItemFullPathActionText" xml:space="preserve">
+  <value>Копировать полный путь первого элемента</value>
+</data>
+<data name="GeneratePdbActionText" xml:space="preserve">
+  <value>Создать PDB…</value>
+</data>
+<data name="GeneratingPDBs_Text" xml:space="preserve">
+  <value>Создание PDB</value>
+</data>
+<data name="Decompiler_Text" xml:space="preserve">
+  <value>Декомпилятор</value>
+</data>
+<data name="PdbFileAlreadyExistsSignature_Provider__Text" xml:space="preserve">
+  <value>PDB-файл уже существует (сигнатура {0}, поставщик {1})</value>
+</data>
+<data name="IsNotSupported_Text" xml:space="preserve">
+  <value>Не поддерживается</value>
+</data>
+<data name="_HeapItem_Text" xml:space="preserve">
+  <value>{0} элемент кучи</value>
+</data>
+<data name="ShowMetadataTokenValuesSettingDescription" xml:space="preserve">
+  <value>Показывать значения токенов метаданных</value>
+</data>
+<data name="AssemblyExplorerHighlightingAttributeGroup_Title_Assembly_Explorer" xml:space="preserve">
+  <value>Обозреватель сборок</value>
+</data>
+<data name="UseFileScopedNamespacesSettingDescription" xml:space="preserve">
+  <value>Использовать пространства имен в области файла</value>
+</data>
+<data name="ShowPDBContentActionText" xml:space="preserve">
+  <value>Показать содержимое PDB(&amp;D)…</value>
+</data>
+<data name="RecursiveReferences__ToolTip" xml:space="preserve">
+  <value>Рекурсивные ссылки</value>
+</data>
+<data name="Delta_Text" xml:space="preserve">
+  <value>Дельта</value>
+</data>
+<data name="IndentStyleWhitespacesOrTabsSettingDescription" xml:space="preserve">
+  <value>Стиль отступа (пробелы или табуляция)</value>
+</data>
+<data name="IndentSizeSettingDescription" xml:space="preserve">
+  <value>Размер отступа</value>
+</data>
+<data name="BaseInheritors_RiderPresentableName" xml:space="preserve">
+  <value>Базовые/Наследники</value>
+</data>
+<data name="ByDefaultReSharperNavigatesToMetadata_Text" xml:space="preserve">
+  <value>По умолчанию ReSharper переходит к представлению метаданных или декомпилированному коду, или к источникам из файлов символов, в зависимости от настроек, определенных ниже</value>
+</data>
+<data name="SaveDecompiledResourcesToFolder_Caption" xml:space="preserve">
+  <value>Сохранить декомпилированные ресурсы в папку</value>
+</data>
+<data name="NuGetPackages_Text" xml:space="preserve">
+  <value>Пакеты NuGet</value>
+</data>
+<data name="UserName_Text" xml:space="preserve">
+  <value>Имя пользователя:</value>
+</data>
+<data name="UnmanagedAssemblyLimitedSupport_Text" xml:space="preserve">
+  <value> (Неуправляемая сборка, ограниченная поддержка)</value>
+</data>
+<data name="Declarations_Caption" xml:space="preserve">
+  <value>Объявления</value>
+</data>
+<data name="ClearAssemblyList_Caption" xml:space="preserve">
+  <value>Очистить список сборок</value>
+</data>
+<data name="References_Text" xml:space="preserve">
+  <value>Ссылки</value>
+</data>
+<data name="ShowStrings_ActionText" xml:space="preserve">
+  <value>Показать строки</value>
+</data>
+<data name="ExecuteTheCommandToGetTheSourceCode_Text" xml:space="preserve">
+  <value>Выполнить команду и получить исходный код?</value>
+</data>
+<data name="DiffIgnoreMemberOrderDifferencesSettingDescription" xml:space="preserve">
+  <value>Игнорировать различия в порядке членов</value>
+</data>
+<data name="UseTernaryConditionalOperatorsSettingDescription" xml:space="preserve">
+  <value>Использовать тернарные условные операторы (?:)</value>
+</data>
+<data name="LocateInFileExplorerActionText" xml:space="preserve">
+  <value>Найти в проводнике</value>
+</data>
+<data name="SourcesFromSymbolFiles_Text" xml:space="preserve">
+  <value>Источники из файлов символов</value>
+</data>
+<data name="XamlResourceNavigation_Text" xml:space="preserve">
+  <value>Навигация по ресурсам Xaml</value>
+</data>
+<data name="ForwardedTypes_Text" xml:space="preserve">
+  <value>Перенаправленные типы</value>
+</data>
+<data name="PdbFileIsAlreadyInTheVisualStudioCacheSignature__Text" xml:space="preserve">
+  <value>PDB-файл уже находится в кэше Visual Studio (сигнатура {0})</value>
+</data>
+<data name="CopySecondItemFullPathActionText" xml:space="preserve">
+  <value>Копировать полный путь второго элемента</value>
+</data>
+<data name="ILViewerCodeUnavailabilityReason_OpenSource_Text" xml:space="preserve">
+  <value>Откройте {0}, чтобы просмотреть его исходный код</value>
+</data>
+<data name="DecompileResourcesFileActionText" xml:space="preserve">
+  <value>Декомпилировать .resources файл…</value>
+</data>
+<data name="FailedToFindInfoForBuidingUrlForThisElement_Text" xml:space="preserve">
+  <value>Не удалось найти информацию об источнике элемента в PDB</value>
+</data>
+<data name="AllowDownloadingFromRemoteLocations_BoolOption_Text" xml:space="preserve">
+  <value>Разрешить загрузку из удаленных мест</value>
+</data>
+<data name="DiffIgnoreNullableReferenceTypesAnnotationsDifferencesSettingDescription" xml:space="preserve">
+  <value>Игнорировать различия в аннотациях ссылочных типов, допускающих значение NULL</value>
+</data>
+<data name="OpenInBrowserActionText" xml:space="preserve">
+  <value>Открыть в браузере</value>
+</data>
+<data name="PreparingAssemblyExplorer_Text" xml:space="preserve">
+  <value>Подготовка обозревателя сборок</value>
+</data>
+<data name="ThereAreNoSymbolsForAssembly_ButReSharperCanEnableDebuggingWithoutSymbolsForThisAssembly_Text" xml:space="preserve">
+  <value>Для сборки {0} нет символов, но ReSharper может включить отладку без символов для этой сборки.</value>
+</data>
+<data name="CanTShowTheContentOfPDBNItDoesnTMeet_Text" xml:space="preserve">
+  <value>Не удалось отобразить содержимое PDB.
+Оно не соответствует спецификации {0} ({1}).</value>
+</data>
+<data name="CollectingAssembliesFrom__Text" xml:space="preserve">
+  <value>Сбор сборок из {0}</value>
+</data>
+<data name="ILViewerToolWindowSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки окна инструментов просмотра IL</value>
+</data>
+<data name="UseSourcesFromSymbolFilesWhenAvailable_BoolOption_Text" xml:space="preserve">
+  <value>Использовать исходные коды из файлов символов, когда они доступны</value>
+</data>
+<data name="AutomaticallyScrollToSourceActionText" xml:space="preserve">
+  <value>Автоматически прокручивать к исходному коду</value>
+</data>
+<data name="DoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+  <value>Не содержит каталога отладки</value>
+</data>
+<data name="ProjectItemNavigation_Caption" xml:space="preserve">
+  <value>Навигация по элементам проекта</value>
+</data>
+<data name="AllFiles__Text" xml:space="preserve">
+  <value>Все файлы ({0})</value>
+</data>
+<data name="HistoryXMLSettingDescription" xml:space="preserve">
+  <value>История XML</value>
+</data>
+<data name="MetadataViewActionText" xml:space="preserve">
+  <value>Представление метаданных</value>
+</data>
+<data name="SymbolFiles__Text" xml:space="preserve">
+  <value>Файлы символов ({0})</value>
+</data>
+<data name="ShowCodeGeneratedByCompilerSettingDescription" xml:space="preserve">
+  <value>Показывать код, сгенерированный компилятором</value>
+</data>
+</root>

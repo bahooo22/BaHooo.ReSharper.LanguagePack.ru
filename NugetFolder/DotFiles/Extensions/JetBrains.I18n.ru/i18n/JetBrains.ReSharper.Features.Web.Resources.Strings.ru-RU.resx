@@ -1,0 +1,980 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Template_Editable_Q3JlYXRlIGNsb3NlZCB0YWcEQ" xml:space="preserve">
+    <value>Создать закрытый тег</value>
+  </data>
+  <data name="GenerateContentForPlaceholdersActionText" xml:space="preserve">
+    <value>Сгенерировать содержимое для заполнителей</value>
+  </data>
+  <data name="Displaying_Of_FoundMatchedTag_Text" xml:space="preserve">
+    <value>Отображение {0} из {1} найденных совпадающих тегов</value>
+  </data>
+  <data name="CaseStatements_Text" xml:space="preserve">
+    <value>Операторы case</value>
+  </data>
+  <data name="InsideOfTagHeader_Text" xml:space="preserve">
+    <value>Внутри заголовка тега</value>
+  </data>
+  <data name="Endpoint_Text" xml:space="preserve">
+    <value>Конечная точка</value>
+  </data>
+  <data name="InImportDeclarations_Text" xml:space="preserve">
+    <value>В объявлениях импорта</value>
+  </data>
+  <data name="RazorSettingDescription" xml:space="preserve">
+    <value>Razor</value>
+  </data>
+  <data name="ForceBraces_Text" xml:space="preserve">
+    <value>Принудительно использовать фигурные скобки</value>
+  </data>
+  <data name="ResolveJavaScriptReferenceCommentsRelative_BoolOption_Text" xml:space="preserve">
+    <value>Разрешать комментарии ссылок JavaScript относительно корневой папки сайта</value>
+  </data>
+  <data name="AnywhereInHTMLOnly_Text" xml:space="preserve">
+    <value>Только в любом месте HTML</value>
+  </data>
+  <data name="StyleHierarchyActionGroupText" xml:space="preserve">
+    <value>Иерархия стилей</value>
+  </data>
+  <data name="AllowRelativeFileReferencesStyleChange_Text" xml:space="preserve">
+    <value>Разрешить изменение стиля относительных ссылок на файлы при завершении пути импорта</value>
+  </data>
+  <data name="Template_Editable_Q29udHJvbGxlcgEQEQ" xml:space="preserve">
+    <value>Контроллер</value>
+  </data>
+  <data name="StyleHierarchyAction_Text" xml:space="preserve">
+    <value>Иерархия стилей</value>
+  </data>
+  <data name="Template_Editable_QVNQLk5FVCBNVkMgVXJsLkFjdGlvbgEQEQ" xml:space="preserve">
+    <value>ASP.NET MVC Url.Action</value>
+  </data>
+  <data name="SuggestsAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+    <value>Предлагать имена атрибутов по тегу</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInRazor_Text" xml:space="preserve">
+    <value>Место, где атрибут может находиться в Razor</value>
+  </data>
+  <data name="AllowInTypeScript_Text" xml:space="preserve">
+    <value>Разрешить в TypeScript</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIHNjcmlwdCB0YWcEQ" xml:space="preserve">
+    <value>Создать тег скрипта</value>
+  </data>
+  <data name="Found_MatchedTags_Text" xml:space="preserve">
+    <value>Найдено {0} совпадающих тегов</value>
+  </data>
+  <data name="SuggestAttributeValueForCurrentHtmlTagAttributeMacroDefinition_Description" xml:space="preserve">
+    <value>Предложить значение атрибута</value>
+  </data>
+  <data name="InFunctionInvocations_Text" xml:space="preserve">
+    <value>В вызовах функций</value>
+  </data>
+  <data name="PublicSymbols_Text" xml:space="preserve">
+    <value>Общедоступные символы</value>
+  </data>
+  <data name="ProjectsWithTypeScript_Text" xml:space="preserve">
+    <value>Проекты с TypeScript</value>
+  </data>
+  <data name="JavaScriptLanguageLevel_ComboEnum_Caption" xml:space="preserve">
+    <value>Уровень языка JavaScript: </value>
+  </data>
+  <data name="Template_Editable_V2ViIENvbnRyb2wEQ" xml:space="preserve">
+    <value>Веб-элемент управления</value>
+  </data>
+  <data name="Template_Editable_dGFn" xml:space="preserve">
+    <value>Тег</value>
+  </data>
+  <data name="InvalidRangeInCharacterSet_ToolTip" xml:space="preserve">
+    <value>Неверный диапазон в наборе символов</value>
+  </data>
+  <data name="UnterminatedRegularExpressionLiteral_Text" xml:space="preserve">
+    <value>Незавершенный литерал регулярного выражения</value>
+  </data>
+  <data name="DisablePropertyDottedAccessSyntaxFor_BoolOption_Text" xml:space="preserve">
+    <value>Отключить синтаксис доступа к свойствам (через точку) для типов со строковой сигнатурой индекса</value>
+  </data>
+  <data name="TypeSpecification_Text" xml:space="preserve">
+    <value>Спецификация типа</value>
+  </data>
+  <data name="AfterSpaceInsectionSettingDescription" xml:space="preserve">
+    <value>После пробела в 'section'</value>
+  </data>
+  <data name="_Attributes_Text" xml:space="preserve">
+    <value>{0} атрибутов</value>
+  </data>
+  <data name="ChildStylesOf__Text" xml:space="preserve">
+    <value>Дочерние стили {0}</value>
+  </data>
+  <data name="DefinesHowStatementsAreTerminated_Text" xml:space="preserve">
+    <value>Определяет, как завершаются операторы</value>
+  </data>
+  <data name="Aliases_Text" xml:space="preserve">
+    <value>Псевдонимы</value>
+  </data>
+  <data name="InTypeScriptWhereModuleMemberIsExpected_Text" xml:space="preserve">
+    <value>Место, где ожидается член модуля в TypeScript</value>
+  </data>
+  <data name="ProtectedSettingDescription" xml:space="preserve">
+    <value>protected</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgTVZDIFBhcnRpYWwgVmlldwEQEQ" xml:space="preserve">
+    <value>Частичное представление Razor MVC</value>
+  </data>
+  <data name="Template_Editable_V2ViIGZvcm0gd2l0aCBtYXN0ZXIgcGFnZQEQEQ" xml:space="preserve">
+    <value>Веб-форма с главной страницей</value>
+  </data>
+  <data name="Template_Editable_VFNYIEVtcHR5IEZpJmxl" xml:space="preserve">
+    <value>Пустой файл TSX (&amp;L)</value>
+  </data>
+  <data name="Quotes_Text" xml:space="preserve">
+    <value>Кавычки</value>
+  </data>
+  <data name="_SynchronousChangingOfMatchingTag_Text" xml:space="preserve">
+    <value>Синхронное изменение совпадающего тега (_S)</value>
+  </data>
+  <data name="PrivateSettingDescription" xml:space="preserve">
+    <value>private</value>
+  </data>
+  <data name="InTernaryOperators_Text" xml:space="preserve">
+    <value>В тернарном операторе '? :'</value>
+  </data>
+  <data name="DefinesWhetherSingleQuotesOrDoubleQuotes_Text" xml:space="preserve">
+    <value>Определяет, использовать ли для строковых литералов одинарные (') или двойные (") кавычки</value>
+  </data>
+  <data name="Template_Editable_V2ViIGNvbnRyb2wEQ" xml:space="preserve">
+    <value>Веб-элемент управления</value>
+  </data>
+  <data name="Template_Editable_QVNQLk5FVCBDb250cm9sbGVyIFJlZGlyZWN0VG9BY3Rpb24EQ" xml:space="preserve">
+    <value>Перенаправление к действию контроллера ASP.NET</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgTVZDIFZpZXcEQ" xml:space="preserve">
+    <value>Представление Razor MVC</value>
+  </data>
+  <data name="InvalidRegularExpressionFlagOneOfIG_Text" xml:space="preserve">
+    <value>Неверный флаг регулярного выражения, ожидается один из 'i', 'g', 'm', 'u', 'y'</value>
+  </data>
+  <data name="JavaScriptAndFrameworksOptionPageTitle" xml:space="preserve">
+    <value>JavaScript и платформы</value>
+  </data>
+  <data name="HtmlSettingDescription" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="Semicolons_Text" xml:space="preserve">
+    <value>Точки с запятой</value>
+  </data>
+  <data name="InObjectExpressions_Text" xml:space="preserve">
+    <value>В объектных выражениях</value>
+  </data>
+  <data name="AnywhereInASPNET_Text" xml:space="preserve">
+    <value>В любом месте ASP.NET</value>
+  </data>
+  <data name="InArrayLiterals_Text" xml:space="preserve">
+    <value>В литералах массива</value>
+  </data>
+  <data name="LineBreaks_Text" xml:space="preserve">
+    <value>Разрывы строк</value>
+  </data>
+  <data name="PreserveExistingFormatting_Text" xml:space="preserve">
+    <value>Сохранять существующее форматирование</value>
+  </data>
+  <data name="Template_Editable_V2ViIFBhZ2UEQ" xml:space="preserve">
+    <value>Веб-страница</value>
+  </data>
+  <data name="UnexpectedQuantifier_ToolTip" xml:space="preserve">
+    <value>Неожиданный квантификатор</value>
+  </data>
+  <data name="InsertRunatMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Вставляет runat="server", если выбран серверный тег</value>
+  </data>
+  <data name="TypeScriptSettingDescription" xml:space="preserve">
+    <value>TypeScript</value>
+  </data>
+  <data name="HTML_Text" xml:space="preserve">
+    <value>HTML-файл</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInAngular2HTML_Text" xml:space="preserve">
+    <value>Место, где атрибут может находиться в Angular 2 HTML</value>
+  </data>
+  <data name="MatchedActions_Text" xml:space="preserve">
+    <value>Сопоставленные действия</value>
+  </data>
+  <data name="Template_Editable_QVNQLk5FVCBNVkMgSHRtbC5BY3Rpb25MaW5r" xml:space="preserve">
+    <value>ASP.NET MVC Html.ActionLink</value>
+  </data>
+  <data name="FieldsSettingDescription" xml:space="preserve">
+    <value>Поля</value>
+  </data>
+  <data name="ClassesSettingDescription" xml:space="preserve">
+    <value>Классы</value>
+  </data>
+  <data name="InDocCommentsSettingDescription" xml:space="preserve">
+    <value>Внутри комментариев документации</value>
+  </data>
+  <data name="ShowCompletionListWithAvailableASPNETMVCControllersAtThePointWhereTheVariableIsEvaluatedMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Показывать список завершения с доступными контроллерами ASP.NET MVC в точке оценки переменной</value>
+  </data>
+  <data name="AnywhereInHTMLOrSimilarLanguages_Text" xml:space="preserve">
+    <value>В любом месте HTML или подобных языков</value>
+  </data>
+  <data name="Template_Editable_TWFzdGVyIHBhZ2Ugd2l0aCBiYXNlIG1hc3RlciBwYWdl" xml:space="preserve">
+    <value>Главная страница с базовой главной страницей</value>
+  </data>
+  <data name="SpacesOptionPageTitle" xml:space="preserve">
+    <value>Пробелы</value>
+  </data>
+  <data name="AroundTags_Text" xml:space="preserve">
+    <value>Вокруг тегов</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInHTMLOnly_Text" xml:space="preserve">
+    <value>Место, где атрибут может находиться только в HTML</value>
+  </data>
+  <data name="AfterSpaceInRazorDirectivesSettingsDescription" xml:space="preserve">
+    <value>После пробела в директивах Razor</value>
+  </data>
+  <data name="Template_Editable_Q29udGVudCBQYWdl" xml:space="preserve">
+    <value>Страница содержимого</value>
+  </data>
+  <data name="ASPNETTags_Text" xml:space="preserve">
+    <value>Теги ASP.NET</value>
+  </data>
+  <data name="Template_Editable_Q29udGVudCBWaWV3" xml:space="preserve">
+    <value>Представление содержимого</value>
+  </data>
+  <data name="Template_Editable_bGluawEQEQ" xml:space="preserve">
+    <value>Ссылка</value>
+  </data>
+  <data name="SelectStyle_Text" xml:space="preserve">
+    <value>Выбрать стиль</value>
+  </data>
+  <data name="Variables_Text" xml:space="preserve">
+    <value>Переменные</value>
+  </data>
+  <data name="WhereATagCouldBeInASPNET_Text" xml:space="preserve">
+    <value>Место, где тег может находиться в ASP.NET</value>
+  </data>
+  <data name="InterfacesSettingDescription" xml:space="preserve">
+    <value>Интерфейсы</value>
+  </data>
+  <data name="DefaultVariableKindVarLetConstSuggest_Text" xml:space="preserve">
+    <value>Вид переменной по умолчанию (var/let/const/suggest)</value>
+  </data>
+  <data name="BracesLayout_Text" xml:space="preserve">
+    <value>Расположение фигурных скобок</value>
+  </data>
+  <data name="ParentStylesHierarchyAction_Text" xml:space="preserve">
+    <value>Родительские стили</value>
+  </data>
+  <data name="Template_Editable_V2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ" xml:space="preserve">
+    <value>С файлом ограниченного CSS (*.razor.css)</value>
+  </data>
+  <data name="Modules_Text" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="DumpLexerState" xml:space="preserve">
+    <value>Состояние дампа лексера</value>
+  </data>
+  <data name="Enums_Text" xml:space="preserve">
+    <value>Перечисления</value>
+  </data>
+  <data name="HTMLAndSimilar_Text" xml:space="preserve">
+    <value>HTML и подобное</value>
+  </data>
+  <data name="MinimumJSVersion_Text" xml:space="preserve">
+    <value>Минимальная версия JS:</value>
+  </data>
+  <data name="Parameters_Text" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="Angular2HTMLTags_Text" xml:space="preserve">
+    <value>Теги Angular 2 HTML</value>
+  </data>
+  <data name="TypeScriptFiles_Text" xml:space="preserve">
+    <value>Файлы TypeScript</value>
+  </data>
+  <data name="In__Text" xml:space="preserve">
+    <value>{0} (в {1})</value>
+  </data>
+  <data name="GoToMatchingTagsActionText" xml:space="preserve">
+    <value>Перейти к сопоставленным тегам</value>
+  </data>
+  <data name="WrapLinesDescription" xml:space="preserve">
+    <value>Перенос длинных строк
+Включено:
+var output = MyVeryLongFunctionName(SomeVeryLongParameterExpr,
+                              "строковый литерал", date, message);
+Выключено:
+var output = MyVeryLongFunctionName(SomeVeryLongParameterExpr, "строковый литерал", date, message);</value>
+  </data>
+  <data name="NoImplicitAnyForceExplicitAnySpecifications_Text" xml:space="preserve">
+    <value>Запретить неявный 'any': принудительно использовать явные спецификации 'any'</value>
+  </data>
+  <data name="PropertiesSettingDescription" xml:space="preserve">
+    <value>Свойства</value>
+  </data>
+  <data name="AnywhereInTypeScript_Text" xml:space="preserve">
+    <value>В любом месте TypeScript</value>
+  </data>
+  <data name="Found_MatchedTag_Text" xml:space="preserve">
+    <value>Найден {0} совпадающий тег</value>
+  </data>
+  <data name="ProtectedSymbols_Text" xml:space="preserve">
+    <value>Защищенные символы</value>
+  </data>
+  <data name="DynamicProperties_Text" xml:space="preserve">
+    <value>Динамические свойства</value>
+  </data>
+  <data name="GenerateContentForMasterpageContentPlaceholdersAtThePointWhereTheVariableIsEvaluatedMacroDefinition_Description" xml:space="preserve">
+    <value>Генератор содержимого главной страницы ASP.NET</value>
+  </data>
+  <data name="Template_Editable_UGFnZQEQEQ" xml:space="preserve">
+    <value>Страница</value>
+  </data>
+  <data name="HTML_Caption" xml:space="preserve">
+    <value>HTML-файл</value>
+  </data>
+  <data name="PublicSettingDescription" xml:space="preserve">
+    <value>public</value>
+  </data>
+  <data name="DefaultJSTSLiveTemplates_Text" xml:space="preserve">
+    <value>Шаблоны Live Templates по умолчанию для JS&amp;TS</value>
+  </data>
+  <data name="WhereATagCouldBeInHTMLOrSimilarLanguages_Text" xml:space="preserve">
+    <value>Место, где тег может находиться в HTML или подобных языках</value>
+  </data>
+  <data name="DynamicPropertiesSettingDescription" xml:space="preserve">
+    <value>Динамические свойства</value>
+  </data>
+  <data name="SuggestsAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Предлагает имена атрибутов, используемые в одинаковых тегах в текущем документе</value>
+  </data>
+  <data name="RazorOptionPageTitle" xml:space="preserve">
+    <value>Razor</value>
+  </data>
+  <data name="InFunctionDeclarations_Text" xml:space="preserve">
+    <value>В объявлениях функций</value>
+  </data>
+  <data name="CompleteOnSpaceSettingDescription" xml:space="preserve">
+    <value>Завершать при нажатии пробела</value>
+  </data>
+  <data name="ASPNETSettingDescription" xml:space="preserve">
+    <value>ASP.NET</value>
+  </data>
+  <data name="RootPathForGeneratedRelativeFileReferences_FolderChooserOption_ToolTip" xml:space="preserve">
+    <value>Корневой путь для сгенерированных относительных ссылок на файлы в операторах import</value>
+  </data>
+  <data name="EnableJSXSyntaxInJSFiles_ComboEnum_Caption" xml:space="preserve">
+    <value>Включить синтаксис JSX в файлах .JS</value>
+  </data>
+  <data name="TSExpressions_Text" xml:space="preserve">
+    <value>TS-выражения</value>
+  </data>
+  <data name="TypeAnnotations_Text" xml:space="preserve">
+    <value>Аннотации типов</value>
+  </data>
+  <data name="DefaultHTMLSurroundTemplates_Text" xml:space="preserve">
+    <value>Шаблоны окружения HTML по умолчанию</value>
+  </data>
+  <data name="CaseStatement_Text" xml:space="preserve">
+    <value>Оператор case</value>
+  </data>
+  <data name="AutoFormatOn_Enter_Text" xml:space="preserve">
+    <value>Автоформат при нажатии Enter (_E)</value>
+  </data>
+  <data name="ImportReferenceStyleApplicableOnlyFor_Text" xml:space="preserve">
+    <value>Стиль ссылки импорта. Применяется только для TypeScript 1.5 и выше с целями ECMAScript 3 и 5.
+Для TypeScript 1.4 и ниже не применяется – всегда будет использоваться require().
+Для TypeScript 1.5 и выше с целями ECMAScript 6 и выше не применяется – всегда будет использоваться стиль импорта ES6.</value>
+  </data>
+  <data name="GenerateOption_CopyDefaultContent_Text" xml:space="preserve">
+    <value>Копировать содержимое по умолчанию</value>
+  </data>
+  <data name="OverrideVSIntelliSenseForTypeScriptSettingDescription" xml:space="preserve">
+    <value>Переопределить VS IntelliSense для TypeScript</value>
+  </data>
+  <data name="WrappingAndChopping_Text" xml:space="preserve">
+    <value>Перенос и усечение</value>
+  </data>
+  <data name="LocalVariablesSettingDescription" xml:space="preserve">
+    <value>Локальные переменные</value>
+  </data>
+  <data name="JavaScriptTemplatesMIMETypes_Caption" xml:space="preserve">
+    <value>MIME-типы шаблонов JavaScript:</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIHRhZwEQEQ" xml:space="preserve">
+    <value>Создать тег</value>
+  </data>
+  <data name="GoToControllerOrViewActionText" xml:space="preserve">
+    <value>Перейти к контроллеру</value>
+  </data>
+  <data name="Allow_CPUIntensiveTypingAssists_Text" xml:space="preserve">
+    <value>Разрешить ресурсоемкие помощники при вводе (_C)</value>
+  </data>
+  <data name="Lambdas_Text" xml:space="preserve">
+    <value>Лямбда-выражения</value>
+  </data>
+  <data name="TypeScriptProjects_Text" xml:space="preserve">
+    <value>Проекты TypeScript</value>
+  </data>
+  <data name="Template_Editable_JlR5cGVTY3JpcHQgQ2xhc3MEQ" xml:space="preserve">
+    <value>Класс TypeScript (&amp;T)</value>
+  </data>
+  <data name="ParametersSettingDescription" xml:space="preserve">
+    <value>Параметры</value>
+  </data>
+  <data name="WhereATagCouldBeInAngular2HTML_Text" xml:space="preserve">
+    <value>Место, где тег может находиться в Angular 2 HTML</value>
+  </data>
+  <data name="JavaScriptSettingDescription" xml:space="preserve">
+    <value>JavaScript</value>
+  </data>
+  <data name="NONE_Text" xml:space="preserve">
+    <value>Нет</value>
+  </data>
+  <data name="ShowCompletionListWithAvailableASPNETMVCActionsAtThePointWhereTheVariableIsEvaluatedMacroDefinition_Description" xml:space="preserve">
+    <value>Действие ASP.NET MVC</value>
+  </data>
+  <data name="ASPNETOptionPageTitle" xml:space="preserve">
+    <value>ASP.NET</value>
+  </data>
+  <data name="MethodsSettingDescription" xml:space="preserve">
+    <value>Методы</value>
+  </data>
+  <data name="PlaceOnANewLine_Text" xml:space="preserve">
+    <value>Размещать на новой строке</value>
+  </data>
+  <data name="TypeScriptTsFilesSettingDescription" xml:space="preserve">
+    <value>TypeScript (файлы .ts)</value>
+  </data>
+  <data name="ASPNETFiles_Text" xml:space="preserve">
+    <value>Файлы ASP.NET</value>
+  </data>
+  <data name="FunctionMembers_Text" xml:space="preserve">
+    <value>Члены-функции</value>
+  </data>
+  <data name="SearchForReferencesInJSDocsInsideDTs_BoolOption_Text" xml:space="preserve">
+    <value>Искать ссылки в JSDocs внутри файлов .d.ts</value>
+  </data>
+  <data name="SyntaxStyle_Text" xml:space="preserve">
+    <value>Стиль синтаксиса</value>
+  </data>
+  <data name="ProcessingInstructions_Text" xml:space="preserve">
+    <value>Инструкции обработки</value>
+  </data>
+  <data name="EnumsSettingDescription" xml:space="preserve">
+    <value>Перечисления</value>
+  </data>
+  <data name="HierarchyOf__Text" xml:space="preserve">
+    <value>Иерархия {0}</value>
+  </data>
+  <data name="Other_Text" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="UnionAndIntersectionTypes_Text" xml:space="preserve">
+    <value>Объединенные и пересекающиеся типы</value>
+  </data>
+  <data name="SpecificRazorLanguage_Text" xml:space="preserve">
+    <value>Конкретный язык Razor:</value>
+  </data>
+  <data name="TemplateLiterals_Text" xml:space="preserve">
+    <value>Шаблонные литералы</value>
+  </data>
+  <data name="BlankLines_Text" xml:space="preserve">
+    <value>Пустые строки</value>
+  </data>
+  <data name="HTMLAndSimilarAttributes_Text" xml:space="preserve">
+    <value>Атрибуты HTML и подобные</value>
+  </data>
+  <data name="TabsAndIndentsOptionPageTitle" xml:space="preserve">
+    <value>Табуляции и отступы</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIEFTUC5ORVQgdGFn" xml:space="preserve">
+    <value>Создать тег ASP.NET</value>
+  </data>
+  <data name="HTMLLike_Text" xml:space="preserve">
+    <value>Подобные HTML</value>
+  </data>
+  <data name="FilterDynamicPropertiesInvertActionText" xml:space="preserve">
+    <value>Инвертировать фильтр динамических свойств</value>
+  </data>
+  <data name="Template_Editable_VHlwZVNjcmlwdCBFbXB0eSBGaSZsZQEQEQ" xml:space="preserve">
+    <value>Пустой файл TypeScript (&amp;L)</value>
+  </data>
+  <data name="CSSSettingDescription" xml:space="preserve">
+    <value>CSS</value>
+  </data>
+  <data name="UpdateStyleHierarchyAction_Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="DefaultJSTSSurroundTemplates_Text" xml:space="preserve">
+    <value>Шаблоны окружения JS&amp;TS по умолчанию</value>
+  </data>
+  <data name="Angular2HTMLAttributes_Text" xml:space="preserve">
+    <value>Атрибуты Angular 2 HTML</value>
+  </data>
+  <data name="SupportAngularMarkupInHTMLPages_ComboEnum_Caption" xml:space="preserve">
+    <value>Поддержка разметки Angular на HTML-страницах:</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInHTMLOrSimilar_Text" xml:space="preserve">
+    <value>Место, где атрибут может находиться в HTML или подобных языках</value>
+  </data>
+  <data name="PrivateSymbols_Text" xml:space="preserve">
+    <value>Приватные символы</value>
+  </data>
+  <data name="CodeStyleOptionPageTitle" xml:space="preserve">
+    <value>Стиль кода</value>
+  </data>
+  <data name="GenerateContentForMasterpageSContent_Text" xml:space="preserve">
+    <value>Сгенерировать содержимое для заполнителей содержимого главной страницы</value>
+  </data>
+  <data name="MatchedControllers_Text" xml:space="preserve">
+    <value>Сопоставленные контроллеры</value>
+  </data>
+  <data name="_Tags_Text" xml:space="preserve">
+    <value>{0} тегов</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgaW5oZXJpdHMgZGlyZWN0aXZl" xml:space="preserve">
+    <value>Директива наследования Razor</value>
+  </data>
+  <data name="FindComponentUsagesCaptionText" xml:space="preserve">
+    <value>Найти использования компонента</value>
+  </data>
+  <data name="GoToControllerCaptionText" xml:space="preserve">
+    <value>Перейти к контроллеру</value>
+  </data>
+  <data name="Modifiers_Text" xml:space="preserve">
+    <value>Модификаторы</value>
+  </data>
+  <data name="ModulesSettingDescription" xml:space="preserve">
+    <value>Модули</value>
+  </data>
+  <data name="DeclarationsOfQueryParameter__Text" xml:space="preserve">
+    <value>Объявления параметра запроса '{0}'</value>
+  </data>
+  <data name="InTypeScriptWhereExpressionIsExpected_Text" xml:space="preserve">
+    <value>Место, где ожидается выражение в TypeScript</value>
+  </data>
+  <data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
+    <value>Сгенерированный код</value>
+  </data>
+  <data name="DefaultHTMLFileTemplates_Text" xml:space="preserve">
+    <value>Шаблоны файлов HTML по умолчанию</value>
+  </data>
+  <data name="SyntaxStyleOptionPageTitle" xml:space="preserve">
+    <value>Стиль синтаксиса</value>
+  </data>
+  <data name="Displaying_Of_FoundMatchedTags_Text" xml:space="preserve">
+    <value>Отображение {0} из {1} найденных совпадающих тегов</value>
+  </data>
+  <data name="WhereATagCouldBeInHTMLOnly_Text" xml:space="preserve">
+    <value>Место, где тег может находиться только в HTML</value>
+  </data>
+  <data name="InspectionsOptionPageTitle" xml:space="preserve">
+    <value>Инспекции</value>
+  </data>
+  <data name="FilterDynamicPropertiesActionText" xml:space="preserve">
+    <value>Фильтровать динамические свойства</value>
+  </data>
+  <data name="AutoFormatOnClosing_tag_Text" xml:space="preserve">
+    <value>Автоформат при вводе закрывающего тега (_T)</value>
+  </data>
+  <data name="TabActionSettingDescription" xml:space="preserve">
+    <value>Действие Tab</value>
+  </data>
+  <data name="Template_Editable_VCZ5cGVTY3JpcHQgSW50ZXJmYWNl" xml:space="preserve">
+    <value>Интерфейс TypeScript (&amp;Y)</value>
+  </data>
+  <data name="AfterAndSettingDescription" xml:space="preserve">
+    <value>После '-' и ':'</value>
+  </data>
+  <data name="TSModuleMembers_Text" xml:space="preserve">
+    <value>Члены модуля TS</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInASPNET_Text" xml:space="preserve">
+    <value>Место, где атрибут может находиться в ASP.NET</value>
+  </data>
+  <data name="AnalysePropertiesContextWhenInspecting_BoolOption_Text" xml:space="preserve">
+    <value>Анализировать контекст свойств при проверке кода</value>
+  </data>
+  <data name="DefaultHTMLLiveTemplates_Text" xml:space="preserve">
+    <value>Шаблоны Live Templates HTML по умолчанию</value>
+  </data>
+  <data name="Template_Editable_Q29tcG9uZW50" xml:space="preserve">
+    <value>Компонент</value>
+  </data>
+  <data name="Template_Editable_V2ViIGZvcm0gd2l0aG91dCBtYXN0ZXIgcGFnZQEQEQ" xml:space="preserve">
+    <value>Веб-форма без главной страницы</value>
+  </data>
+  <data name="Spaces_Text" xml:space="preserve">
+    <value>Пробелы</value>
+  </data>
+  <data name="DefaultAngular2HTMLLiveTemplates_Text" xml:space="preserve">
+    <value>Шаблоны Live Templates Angular 2 HTML по умолчанию</value>
+  </data>
+  <data name="FormattingStyleOptionPageTitle" xml:space="preserve">
+    <value>Стиль форматирования</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgbW9kZWwgZGlyZWN0aXZl" xml:space="preserve">
+    <value>Директива модели Razor</value>
+  </data>
+  <data name="ThisOptionIsAvailableOnlyIfYouHaveSyntax_Text" xml:space="preserve">
+    <value>Эта опция доступна только в том случае, если для параметра стиля синтаксиса «Стиль относительных ссылок на файлы в 'require'» установлено значение «Относительно корневой папки».</value>
+  </data>
+  <data name="Template_Editable_d2l0aCBDb2RlLUJlaGluZCAoKi5yYXpvci5jcykgRmlsZQEQEQ" xml:space="preserve">
+    <value>С файлом кода (Code-Behind) (*.razor.cs)</value>
+  </data>
+  <data name="ParentStylesOf__Text" xml:space="preserve">
+    <value>Родительские стили {0}</value>
+  </data>
+  <data name="SuggestTagNameUsedInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+    <value>Предложить имя тега</value>
+  </data>
+  <data name="EnterActionSettingDescription" xml:space="preserve">
+    <value>Действие Enter</value>
+  </data>
+  <data name="Template_Editable_UmF6b3Igc2VjdGlvbgEQEQ" xml:space="preserve">
+    <value>Раздел Razor</value>
+  </data>
+  <data name="SuggestAttributeValueForCurrentHtmlTagAttributeMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Предлагает значение атрибута для текущего атрибута HTML-тега</value>
+  </data>
+  <data name="HtmlOptionPageTitle" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="ASPNETAttributes_Text" xml:space="preserve">
+    <value>Атрибуты ASP.NET</value>
+  </data>
+  <data name="Template_Editable_d2l0aCBKUyAoKi5yYXpvci5qcykgRmlsZQEQEQ" xml:space="preserve">
+    <value>С JS-файлом (*.razor.js)</value>
+  </data>
+  <data name="WhereATagCouldBeInRazor_Text" xml:space="preserve">
+    <value>Место, где тег может находиться в Razor</value>
+  </data>
+  <data name="RazorFiles_Text" xml:space="preserve">
+    <value>Файлы Razor</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlICB0YWcgYXR0cmlidXRl" xml:space="preserve">
+    <value>Создать атрибут тега</value>
+  </data>
+  <data name="InControlStatements_Text" xml:space="preserve">
+    <value>В управляющих операторах</value>
+  </data>
+  <data name="GoToViewCaptionText" xml:space="preserve">
+    <value>Перейти к представлению</value>
+  </data>
+  <data name="InExpressions_Text" xml:space="preserve">
+    <value>В выражениях</value>
+  </data>
+  <data name="TypeParametersAndArguments_Text" xml:space="preserve">
+    <value>Параметры и аргументы типа</value>
+  </data>
+  <data name="Template_Editable_Qmxhem9yIENvbXBvbmVudAEQEQ" xml:space="preserve">
+    <value>Компонент Blazor</value>
+  </data>
+  <data name="EnableSemanticTypeGuardsNarrowingColoring_BoolOption_Text" xml:space="preserve">
+    <value>Включить семантическую окраску сужения типа (type guards)</value>
+  </data>
+  <data name="HTMLAndSimilarTags_Text" xml:space="preserve">
+    <value>Теги HTML и подобные</value>
+  </data>
+  <data name="NonCompletingCharactersSettingDescription" xml:space="preserve">
+    <value>Символы, не завершающие ввод</value>
+  </data>
+  <data name="WhenAnalyzingAFileUseTheClosestTsconfig_Text" xml:space="preserve">
+    <value>При анализе файла использовать ближайший tsconfig.json, содержащий его *(рекомендуется)*</value>
+  </data>
+  <data name="TSTypeMembers_Text" xml:space="preserve">
+    <value>Члены типа TS</value>
+  </data>
+  <data name="InTypeScriptWhereStatementIsExpected_Text" xml:space="preserve">
+    <value>Место, где ожидается оператор в TypeScript</value>
+  </data>
+  <data name="AlignMultilineConstructs_Text" xml:space="preserve">
+    <value>Выравнивать многострочные конструкции</value>
+  </data>
+  <data name="LineBreaksOptionPageTitle" xml:space="preserve">
+    <value>Разрывы строк</value>
+  </data>
+  <data name="BracesLayoutOptionPageTitle" xml:space="preserve">
+    <value>Расположение фигурных скобок</value>
+  </data>
+  <data name="MatchedTags_Caption" xml:space="preserve">
+    <value>Сопоставленные теги (&amp;M)</value>
+  </data>
+  <data name="LocalVariables_Text" xml:space="preserve">
+    <value>Локальные переменные</value>
+  </data>
+  <data name="ConteNtForPlaceholders_Caption" xml:space="preserve">
+    <value>Содержимое для заполнителей (&amp;N)</value>
+  </data>
+  <data name="QuotesInheritedFromJavaScript_Text" xml:space="preserve">
+    <value>Кавычки (унаследовано от JavaScript)</value>
+  </data>
+  <data name="KeywordsSettingDescription" xml:space="preserve">
+    <value>Ключевые слова</value>
+  </data>
+  <data name="GenerateContentForMasterpageSContent_Caption" xml:space="preserve">
+    <value>Сгенерировать содержимое для заполнителей содержимого главной страницы</value>
+  </data>
+  <data name="InTypeScriptWhereTypeMemberIsExpected_Text" xml:space="preserve">
+    <value>Место, где ожидается член типа в TypeScript</value>
+  </data>
+  <data name="ChildStylesHierarchyAction_Text" xml:space="preserve">
+    <value>Дочерние стили</value>
+  </data>
+  <data name="Interfaces_Text" xml:space="preserve">
+    <value>Интерфейсы</value>
+  </data>
+  <data name="HTMLTags_Text" xml:space="preserve">
+    <value>Теги HTML</value>
+  </data>
+  <data name="Template_Editable_VHlwZVNjcmlwdCAmTW9kdWxl" xml:space="preserve">
+    <value>Модуль TypeScript (&amp;M)</value>
+  </data>
+  <data name="NoMatchedTagsFound_Text" xml:space="preserve">
+    <value>Совпадающие теги не найдены</value>
+  </data>
+  <data name="AnywhereInAngular2HTML_Text" xml:space="preserve">
+    <value>В любом месте Angular 2 HTML</value>
+  </data>
+  <data name="DefinesWhetherPublicModifierShouldBe_Text" xml:space="preserve">
+    <value>Определяет, следует ли явно указывать или опускать модификатор 'public'</value>
+  </data>
+  <data name="GenerateContentForMasterpageContentPlaceholdersAtThePointWhereTheVariableIsEvaluatedMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Генерирует содержимое для заполнителей содержимого главной страницы в точке оценки переменной</value>
+  </data>
+  <data name="SuggestTagNameUsedInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Предлагает имена тегов, используемые в текущем документе</value>
+  </data>
+  <data name="ExplicitAlwaysSpecifyExplicitTypesAlways_Text" xml:space="preserve">
+    <value>Всегда явно: всегда указывать явный тип, даже если предоставлен инициализатор:
+	 var x: number = 5; var y: string; y = "a";
+
+Явно без инициализатора: указывать явный тип, но только если инициализатор не предоставлен
+	 var x = 5; var y: string; y = "a";
+
+Предпочитать неявно: влияет только на генерацию кода, позволяет неявный 'any', когда инициализатор не предоставлен и 'неявный any' выключен
+	 var y; y = "a"</value>
+  </data>
+  <data name="InsertRunatMacroDefinition_Description" xml:space="preserve">
+    <value>Вставляет runat="server", если выбран серверный тег</value>
+  </data>
+  <data name="OtherOptionPageTitle" xml:space="preserve">
+    <value>Другое</value>
+  </data>
+  <data name="RootPathForReferencesInRequire_Text_Text" xml:space="preserve">
+    <value> Корневой путь для ссылок в 'require':</value>
+  </data>
+  <data name="ShowCompletionListWithAvailableASPNETMVCActionsAtThePointWhereTheVariableIsEvaluatedMacroDefinition_LongDescription" xml:space="preserve">
+    <value>Показывать список завершения с доступными действиями ASP.NET MVC в точке оценки переменной</value>
+  </data>
+  <data name="EnableSemanticFunctionColoring_BoolOption_Text" xml:space="preserve">
+    <value>Включить семантическую окраску функций</value>
+  </data>
+  <data name="Template_Editable_TVZDIFZpZXcgUGFnZSB3aXRoIG1hc3RlciBwYWdl" xml:space="preserve">
+    <value>Страница представления MVC с главной страницей</value>
+  </data>
+  <data name="DeclarationsOfEndpoint__Text" xml:space="preserve">
+    <value>Объявления конечной точки '{0}'</value>
+  </data>
+  <data name="MaximumJSVersion_Text" xml:space="preserve">
+    <value>Максимальная версия JS:</value>
+  </data>
+  <data name="Template_Editable_TWFzdGVyIHBhZ2Ugd2l0aG91dCBiYXNlIG1hc3RlciBwYWdl" xml:space="preserve">
+    <value>Главная страница без базовой главной страницы</value>
+  </data>
+  <data name="HTMLFiles_Text" xml:space="preserve">
+    <value>HTML-файлы</value>
+  </data>
+  <data name="Razor_Caption" xml:space="preserve">
+    <value>Razor</value>
+  </data>
+  <data name="Template_Editable_TVZDIFZpZXcgVXNlckNvbnRyb2wEQ" xml:space="preserve">
+    <value>Пользовательский элемент управления представления MVC</value>
+  </data>
+  <data name="InIndexExpressions_Text" xml:space="preserve">
+    <value>В индексных выражениях</value>
+  </data>
+  <data name="VariablesInheritedFromJavaScript_Text" xml:space="preserve">
+    <value>Переменные (унаследовано от JavaScript)</value>
+  </data>
+  <data name="TypeScriptLanguageLevel_ComboEnum_Caption" xml:space="preserve">
+    <value>Уровень языка TypeScript:</value>
+  </data>
+  <data name="ShowCompletionListWithAvailableASPNETMVCControllersAtThePointWhereTheVariableIsEvaluatedMacroDefinition_Description" xml:space="preserve">
+    <value>Контроллер ASP.NET MVC</value>
+  </data>
+  <data name="Statements_Text" xml:space="preserve">
+    <value>Операторы</value>
+  </data>
+  <data name="Commas_Text" xml:space="preserve">
+    <value>Запятые</value>
+  </data>
+  <data name="StatementsInheritedFromJavaScript_Text" xml:space="preserve">
+    <value>Операторы (унаследовано от JavaScript)</value>
+  </data>
+  <data name="AnywhereInRazor_Text" xml:space="preserve">
+    <value>В любом месте Razor</value>
+  </data>
+  <data name="Angular2HTMLFiles_Text" xml:space="preserve">
+    <value>Файлы Angular 2 HTML</value>
+  </data>
+  <data name="RelativeReferencesInRequire_Text" xml:space="preserve">
+    <value>Относительные ссылки в 'require'</value>
+  </data>
+  <data name="BaseOnThisAction_Text" xml:space="preserve">
+    <value>На основе этого</value>
+  </data>
+  <data name="Template_Editable_QVNQLk5FVCBIeXBlcmxpbmsEQ" xml:space="preserve">
+    <value>Гиперссылка ASP.NET</value>
+  </data>
+  <data name="TSStatements_Text" xml:space="preserve">
+    <value>TS-операторы</value>
+  </data>
+  <data name="PreferQualifyingInsteadOfAddingAliases_Text" xml:space="preserve">
+    <value>Предпочитать квалификацию вместо добавления псевдонимов для элементов при импорте типов</value>
+  </data>
+  <data name="JavaScriptFiles_Text" xml:space="preserve">
+    <value>Файлы JavaScript</value>
+  </data>
+  <data name="IgnoreAssignmentInConditionWarningIf_BoolOption_Text" xml:space="preserve">
+    <value>Игнорировать предупреждение о присваивании в условии, если оно окружено избыточными круглыми скобками</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIHRhZyBhdHRyaWJ1dGUEQ" xml:space="preserve">
+    <value>Создать атрибут тега</value>
+  </data>
+  <data name="HTMLAttributes_Text" xml:space="preserve">
+    <value>Атрибуты HTML</value>
+  </data>
+  <data name="FormattingStyle_Text" xml:space="preserve">
+    <value>Стиль форматирования</value>
+  </data>
+  <data name="Template_Editable_TVZDIFZpZXcgUGFnZSB3aXRob3V0IG1hc3RlciBwYWdl" xml:space="preserve">
+    <value>Страница представления MVC без главной страницы</value>
+  </data>
+  <data name="Classes_Text" xml:space="preserve">
+    <value>Классы</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgTVZDIFZpZXcgd2l0aCBMYXlvdXQEQ" xml:space="preserve">
+    <value>Представление Razor MVC с макетом</value>
+  </data>
+  <data name="ASPNET_Caption" xml:space="preserve">
+    <value>ASP.NET</value>
+  </data>
+</root>

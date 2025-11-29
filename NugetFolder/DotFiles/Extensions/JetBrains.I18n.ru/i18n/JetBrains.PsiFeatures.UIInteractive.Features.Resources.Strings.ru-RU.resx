@@ -117,5 +117,1100 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+<data name="OK_ButtonText" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="FileLayoutDesigner_Elements_UnknownConstraint_Text" xml:space="preserve">
+  <value>Неизвестное ограничение</value>
+</data>
+<data name="OpenProjectIn_VisualStudio_Text" xml:space="preserve">
+  <value>Открыть проект в Visual Studio (_V)</value>
+</data>
+<data name="TodoItemPatternWindow_CaseSensitive_CheckBox" xml:space="preserve">
+  <value>С учетом регистра</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Extern_Text" xml:space="preserve">
+  <value>Extern</value>
+</data>
+<data name="CustomFilterConfiguration_Text" xml:space="preserve">
+  <value>Конфигурация пользовательского фильтра</value>
+</data>
+<data name="GoToMetadataView_Text" xml:space="preserve">
+  <value>Перейти к представлению метаданных (_M)</value>
+</data>
+<data name="MinCountOfSearchsBeforeNotificationSettingDescription" xml:space="preserve">
+  <value>Минимальное количество поисков перед уведомлением</value>
+</data>
+<data name="AssemblyExplorerActionText" xml:space="preserve">
+  <value>Обозреватель сборок (&amp;E)</value>
+</data>
+<data name="BasicCompletion_BoolOption_Text" xml:space="preserve">
+  <value>Базовое завершение (_B)</value>
+</data>
+<data name="FileLayoutDesigner_Load_DefaultWithRegions_Text" xml:space="preserve">
+  <value>По умолчанию с регионами</value>
+</data>
+<data name="CannotExecuteTheGoToMetadataTokenBecause_Text" xml:space="preserve">
+  <value>Невозможно выполнить «Перейти к токену метаданных», так как нет открытого решения</value>
+</data>
+<data name="EditPlaceholder_Text" xml:space="preserve">
+  <value>Редактировать заполнитель</value>
+</data>
+<data name="_Export_ButtonText" xml:space="preserve">
+  <value>Экспорт (_E)</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Constraints_Text" xml:space="preserve">
+  <value>Ограничения</value>
+</data>
+<data name="PathSelection_Placeholder" xml:space="preserve">
+  <value>Выберите расположение файла…</value>
+</data>
+<data name="Waiting_Text" xml:space="preserve">
+  <value>Ожидание…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_InheritsFromType_Text" xml:space="preserve">
+  <value>Наследует от типа</value>
+</data>
+<data name="PackageSource_Text" xml:space="preserve">
+  <value>Источник пакета:</value>
+</data>
+<data name="RegExpWindow_Options_TextBlock" xml:space="preserve">
+  <value>Параметры:</value>
+</data>
+<data name="GotoFileMemberAction_Text" xml:space="preserve">
+  <value>Перейти к члену файла (&amp;M)…</value>
+</data>
+<data name="FileLayoutDesigner_View_InheritsFromType_Text" xml:space="preserve">
+  <value>Наследование:</value>
+</data>
+<data name="TypeBrowserActionGroupText" xml:space="preserve">
+  <value>Браузер типов</value>
+</data>
+<data name="_Generate_ButtonText" xml:space="preserve">
+  <value>Сгенерировать (_G)</value>
+</data>
+<data name="ReplaceWithPatternConflicts_Text" xml:space="preserve">
+  <value>Конфликты с заменой по шаблону</value>
+</data>
+<data name="ValidateRegularExpression_Caption" xml:space="preserve">
+  <value>Проверить регулярное выражение</value>
+</data>
+<data name="FileDoesNotExist_Text" xml:space="preserve">
+  <value>Файл не существует</value>
+</data>
+<data name="SmartBehaviorInBasicCompletion_ComboEnum_Caption" xml:space="preserve">
+  <value>Интеллектуальное поведение в базовом завершении:</value>
+</data>
+<data name="TheSameScope__Text" xml:space="preserve">
+  <value>Та же область ({0})</value>
+</data>
+<data name="TodoItemPatternWindow_MatchInStrings_CheckBox" xml:space="preserve">
+  <value>Совпадение в строках</value>
+</data>
+<data name="GoToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Перейти в обозреватель сборок (_A)</value>
+</data>
+<data name="OpenSymbolInVSObjectBrowser_Text" xml:space="preserve">
+  <value>Открыть символ в обозревателе объектов Visual Studio</value>
+</data>
+<data name="GotoMethodAction_Text" xml:space="preserve">
+  <value>Перейти к методу…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Property_Text" xml:space="preserve">
+  <value>Свойство зависимости</value>
+</data>
+<data name="Enabled_Text" xml:space="preserve">
+  <value>Включено</value>
+</data>
+<data name="LoadingView_WaitCache_Text" xml:space="preserve">
+  <value>Ожидание кеша</value>
+</data>
+<data name="GoToText_3Hotkey_Text" xml:space="preserve">
+  <value>Перейти к тексту ({0}, {0}, {0})</value>
+</data>
+<data name="FileLayoutDesigner_Load_DefaultWithoutRegions_Text" xml:space="preserve">
+  <value>По умолчанию без регионов</value>
+</data>
+<data name="DecompilerLegalNotice_Caption" xml:space="preserve">
+  <value>Юридическое уведомление декомпилятора</value>
+</data>
+<data name="RegularExpressionValidatorPatternRowHeightSettingDescription" xml:space="preserve">
+  <value>Высота строки шаблона валидатора регулярных выражений</value>
+</data>
+<data name="FileLayoutDesigner_Elements_UnknownSortDescriptor_Text" xml:space="preserve">
+  <value>Неизвестный дескриптор сортировки</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Priority_High_Text" xml:space="preserve">
+  <value>Высокий</value>
+</data>
+<data name="SwapPaths_Text" xml:space="preserve">
+  <value>Поменять пути местами</value>
+</data>
+<data name="ThisAssemblyHasAlreadyBeenExportedToProject_Text" xml:space="preserve">
+  <value>Эта сборка уже экспортирована в проект</value>
+</data>
+<data name="CanUseForAssertion_Text" xml:space="preserve">
+  <value>Можно использовать для утверждений</value>
+</data>
+<data name="OpenFromNuGetActionText" xml:space="preserve">
+  <value>Открыть из NuGet (&amp;N)…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_UnknownEntry_Text" xml:space="preserve">
+  <value>Неизвестная запись</value>
+</data>
+<data name="ChooseDefaultNavigationActionForCompiled_Text" xml:space="preserve">
+  <value>Выбрать действие навигации по умолчанию для скомпилированного кода</value>
+</data>
+<data name="GoToMetadataTokenActionText" xml:space="preserve">
+  <value>Перейти к токену метаданных (&amp;M)…</value>
+</data>
+<data name="FileLayoutDesigner_View_ImplementsInterface_Text" xml:space="preserve">
+  <value>Реализации:</value>
+</data>
+<data name="ThereIsConflictingItem_Text" xml:space="preserve">
+  <value>Имеется конфликтующая запись:</value>
+</data>
+<data name="DeleteAllFilesAndSubfoldersBeforeExport_Text" xml:space="preserve">
+  <value>Удалить все файлы и подпапки перед экспортом</value>
+</data>
+<data name="Disabled_Text" xml:space="preserve">
+  <value>Отключено</value>
+</data>
+<data name="FileLayoutDesigner_Elements_ImplementsInterface_Text" xml:space="preserve">
+  <value>Реализует интерфейс</value>
+</data>
+<data name="SearchEverywhereGoToType_Text" xml:space="preserve">
+  <value>Искать везде/Перейти к типу (&amp;T)…</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Entries_Text" xml:space="preserve">
+  <value>Записи</value>
+</data>
+<data name="AssemblyExplorerCompareSelectedItemsActionText" xml:space="preserve">
+  <value>Сравнить выбранное…</value>
+</data>
+<data name="FileLayoutOptionPageTitle" xml:space="preserve">
+  <value>Макет файла</value>
+</data>
+<data name="MoveDown_Button_Text" xml:space="preserve">
+  <value>Вниз (_D)</value>
+</data>
+<data name="FindUsagesActionGroupText" xml:space="preserve">
+  <value>Найти использования</value>
+</data>
+<data name="RecentFilesActionText" xml:space="preserve">
+  <value>Недавние файлы (&amp;R)…</value>
+</data>
+<data name="OverwriteExistingFiles_Text" xml:space="preserve">
+  <value>Перезаписывать существующие файлы</value>
+</data>
+<data name="TargetFolder_Text" xml:space="preserve">
+  <value>Целевая папка: </value>
+</data>
+<data name="ProjectNameCannotEndWithDot_Text" xml:space="preserve">
+  <value>Имя проекта не может заканчиваться на '.'</value>
+</data>
+<data name="PublicKey_Header" xml:space="preserve">
+  <value>Открытый ключ</value>
+</data>
+<data name="GoToSymbol_Text" xml:space="preserve">
+  <value>Перейти к символу (&amp;S)…</value>
+</data>
+<data name="Canceled_Text" xml:space="preserve">
+  <value>Отменено</value>
+</data>
+<data name="ReplaceWithPattern_Text" xml:space="preserve">
+  <value>Заменить по шаблону</value>
+</data>
+<data name="ProjectNameCannotBeAnEmptyString_Text" xml:space="preserve">
+  <value>Имя проекта не может быть пустой строкой</value>
+</data>
+<data name="FileLayoutDesigner_Load_Text" xml:space="preserve">
+  <value>Загрузить…</value>
+</data>
+<data name="ChangeSearchPatternActionText" xml:space="preserve">
+  <value>Изменить шаблон поиска</value>
+</data>
+<data name="AddProjectToAssemblyExplorerSettingDescription" xml:space="preserve">
+  <value>Добавить проект в обозреватель сборок</value>
+</data>
+<data name="FolderSubstitutions_Text" xml:space="preserve">
+  <value>Замены папок</value>
+</data>
+<data name="File_Text" xml:space="preserve">
+  <value>Файл</value>
+</data>
+<data name="InvalidPathFormat_Text" xml:space="preserve">
+  <value>Неверный формат пути</value>
+</data>
+<data name="CannotExecuteTheGoToActionBecauseThere_Text" xml:space="preserve">
+  <value>Невозможно выполнить действие «Перейти», так как нет открытого решения</value>
+</data>
+<data name="NewPath_Text" xml:space="preserve">
+  <value>Расположение 2:</value>
+</data>
+<data name="CreatePattern_Text" xml:space="preserve">
+  <value>Создать шаблон</value>
+</data>
+<data name="Generating_TooltipText" xml:space="preserve">
+  <value>Генерация</value>
+</data>
+<data name="Folder_IsNotEmpty_Text" xml:space="preserve">
+  <value>Папка '{0}' не пуста!</value>
+</data>
+<data name="FileLayoutDesigner_Presenters_DropConstraintHere_Text" xml:space="preserve">
+  <value>Перетащите ограничение сюда</value>
+</data>
+<data name="FileLayoutDesigner_XAML_Text" xml:space="preserve">
+  <value>XAML</value>
+</data>
+<data name="Open_ButtonText" xml:space="preserve">
+  <value>Открыть</value>
+</data>
+<data name="AssemblyExplorerCompareActionText" xml:space="preserve">
+  <value>Сравнить…</value>
+</data>
+<data name="CustomPatternsOptionPageTitle" xml:space="preserve">
+  <value>Пользовательские шаблоны</value>
+</data>
+<data name="NoAssembliesAreSelected_Text" xml:space="preserve">
+  <value>Сборки не выбраны</value>
+</data>
+<data name="FileLayoutDesigner_Elements_And_Text" xml:space="preserve">
+  <value>And</value>
+</data>
+<data name="AssemblyExplorerCompareWithActionText" xml:space="preserve">
+  <value>Сравнить с…</value>
+</data>
+<data name="CanUseForAssertionYes_Text" xml:space="preserve">
+  <value>Можно использовать для утверждений: Да</value>
+</data>
+<data name="ConfigurePriorityOfNullCheckingPatterns_Tooltip" xml:space="preserve">
+  <value>ReSharper использует шаблон с наивысшим приоритетом, доступный для данного контекста</value>
+</data>
+<data name="PatternWithColon_Text" xml:space="preserve">
+  <value>Шаблон:</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Abstract_Text" xml:space="preserve">
+  <value>abstract</value>
+</data>
+<data name="CodeCleanup_Text" xml:space="preserve">
+  <value>Очистка кода</value>
+</data>
+<data name="AssemblyDiffExplorerActionText" xml:space="preserve">
+  <value>Сравнение сборок</value>
+</data>
+<data name="Folders_TabName" xml:space="preserve">
+  <value>Папки</value>
+</data>
+<data name="SearchEverywhere_Text" xml:space="preserve">
+  <value>Искать везде{0}</value>
+</data>
+<data name="RegExpWindow_TestInput_TextBlock" xml:space="preserve">
+  <value>Тестовый ввод:</value>
+</data>
+<data name="DestinationOf__Text" xml:space="preserve">
+  <value>Назначение '{0}'</value>
+</data>
+<data name="WhatWouldYouLikeToDo_Text" xml:space="preserve">
+  <value>Что вы хотите сделать?</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Priority_Normal_Text" xml:space="preserve">
+  <value>Обычный</value>
+</data>
+<data name="OpeningOnl_y_Option_Text" xml:space="preserve">
+  <value>Только открывающая круглая скобка (_Y)</value>
+</data>
+<data name="SwapPaths_Tooltip" xml:space="preserve">
+  <value>Поменять сравниваемые файлы местами</value>
+</data>
+<data name="CanUseForAssertionNo_Text" xml:space="preserve">
+  <value>Можно использовать для утверждений: Нет</value>
+</data>
+<data name="AssemblyDiff_Text" xml:space="preserve">
+  <value>Сравнение сборок</value>
+</data>
+<data name="PackageFilters_Text" xml:space="preserve">
+  <value>Фильтры пакетов:</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Setter_Text" xml:space="preserve">
+  <value>Присоединенный сеттер DP</value>
+</data>
+<data name="CompletionBehaviorOptionPageTitle" xml:space="preserve">
+  <value>Поведение при завершении</value>
+</data>
+<data name="DiffOptions_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="OldPath_Text" xml:space="preserve">
+  <value>Расположение 1:</value>
+</data>
+<data name="_Remove_Text" xml:space="preserve">
+  <value>Удалить (_R)…</value>
+</data>
+<data name="GoToStrIngActionText" xml:space="preserve">
+  <value>Перейти к строке (&amp;I)…</value>
+</data>
+<data name="Assemblies_TabName" xml:space="preserve">
+  <value>Сборки</value>
+</data>
+<data name="ThisAssemblyHasAlreadyBeenExportedTo_Text" xml:space="preserve">
+  <value>Эта сборка уже экспортирована в проект
+{0}
+Вы хотите экспортировать её снова?
+(Нажмите «Нет», чтобы добавить существующий проект в обозреватель сборок без повторного экспорта)</value>
+</data>
+<data name="LoadDependencies_Text" xml:space="preserve">
+  <value>Загрузить зависимости</value>
+</data>
+<data name="InsertSpacingAfterKeywordsWhenRequired_BoolOption_Text" xml:space="preserve">
+  <value>Вставлять пробел после ключевых слов, когда это требуется</value>
+</data>
+<data name="TestRegularExpression_Text" xml:space="preserve">
+  <value>Проверить регулярное выражение…</value>
+</data>
+<data name="DidYouTry_Text" xml:space="preserve">
+  <value>Вы пробовали {0}?</value>
+</data>
+<data name="FileLayoutDesigner_Load_Empty_Text" xml:space="preserve">
+  <value>Пустой шаблон</value>
+</data>
+<data name="RegExpWindow_Why_TextBlock" xml:space="preserve">
+  <value>(почему?)</value>
+</data>
+<data name="UseVSSymbolCacheFolderForPdbGenerationSettingDescription" xml:space="preserve">
+  <value>Использовать папку кеша символов VS для генерации PDB</value>
+</data>
+<data name="InProgress_Text" xml:space="preserve">
+  <value>Выполняется</value>
+</data>
+<data name="PressCancelToContinueSearchWithoutQuasi_Text" xml:space="preserve">
+  <value>Нажмите «Отмена», чтобы продолжить поиск без квазиреализации</value>
+</data>
+<data name="FileLayoutDesigner_Elements_TypePattern_Text" xml:space="preserve">
+  <value>Шаблон типа</value>
+</data>
+<data name="Create_SlnFile_Text" xml:space="preserve">
+  <value>Создать *._sln файл</value>
+</data>
+<data name="MoveUp_Button_Text" xml:space="preserve">
+  <value>Вверх (_U)</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Sequential_Label_Text" xml:space="preserve">
+  <value>Then By</value>
+</data>
+<data name="FileLayoutDesigner_Editors_SortBy_None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="RegularExpressionValidatorMatchColumnWidthSettingDescription" xml:space="preserve">
+  <value>Ширина столбца совпадения валидатора регулярных выражений</value>
+</data>
+<data name="ExternalSourceInformationActionText" xml:space="preserve">
+  <value>Информация о внешнем источнике…</value>
+</data>
+<data name="LoadingData_Text" xml:space="preserve">
+  <value>Загрузка данных</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Priority_Lowest_Text" xml:space="preserve">
+  <value>Самый низкий</value>
+</data>
+<data name="_MatchMiddleOfIdentifiers_BoolOption_Text" xml:space="preserve">
+  <value>Сопоставлять середину идентификаторов (_M)</value>
+</data>
+<data name="SaveChanges_Text" xml:space="preserve">
+  <value>Сохранить изменения?</value>
+</data>
+<data name="DestinationFolder_Text" xml:space="preserve">
+  <value>Целевая папка:</value>
+</data>
+<data name="AllFilesAndSubfoldersInThisFolderWill_Text" xml:space="preserve">
+  <value>Все файлы и подпапки в этой папке будут удалены</value>
+</data>
+<data name="ShowConfirmationDialogBeforeAddingReference_BoolOption_Text" xml:space="preserve">
+  <value>Показывать диалог подтверждения перед добавлением ссылки</value>
+</data>
+<data name="TodoItemPatternWindow_Icon_Label" xml:space="preserve">
+  <value>Значок:</value>
+</data>
+<data name="Cancel_ButtonText" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="FileLayoutDesigner_View_Entry_ToggleButton_SwitchToCompositionView_Tooltip" xml:space="preserve">
+  <value>Переключиться на составное представление</value>
+</data>
+<data name="AdvancedSymbolsOptions_Caption" xml:space="preserve">
+  <value>Дополнительные параметры символов</value>
+</data>
+<data name="Create_PdbFile_Text" xml:space="preserve">
+  <value>Создать *._pdb файл</value>
+</data>
+<data name="CanTGeneratePdbThisAssemblyDoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+  <value>Не удается сгенерировать PDB: эта сборка не содержит каталога отладки</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Patterns_Text" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="OpenFromGacDialogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диалога «Открыть из GAC»</value>
+</data>
+<data name="FileLayoutDesigner_View_Entry_ToggleButton_SwitchToConstraintsView_Tooltip" xml:space="preserve">
+  <value>Переключиться на представление ограничений</value>
+</data>
+<data name="IncludePrerelease_Text" xml:space="preserve">
+  <value>Включать предварительные версии</value>
+</data>
+<data name="_AddProjectToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Добавить проект в обозреватель сборок (_A)</value>
+</data>
+<data name="TodoItemPatternWindow_Pattern_Label" xml:space="preserve">
+  <value>Шаблон:</value>
+</data>
+<data name="RegExpWindow_RegularExpression_TextBlock" xml:space="preserve">
+  <value>Регулярное выражение:</value>
+</data>
+<data name="Archives_TabName" xml:space="preserve">
+  <value>Архивы</value>
+</data>
+<data name="Example_Text" xml:space="preserve">
+  <value>Пример</value>
+</data>
+<data name="GoToActionActionText" xml:space="preserve">
+  <value>Перейти к действию (&amp;A)…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_UnknownPattern_Text" xml:space="preserve">
+  <value>Неизвестный шаблон</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Text" xml:space="preserve">
+  <value>Панель элементов</value>
+</data>
+<data name="DoYouWantToReplaceIt_Text" xml:space="preserve">
+  <value>Вы хотите заменить его?</value>
+</data>
+<data name="LocalizationManagerActionText" xml:space="preserve">
+  <value>Диспетчер локализации (&amp;L)</value>
+</data>
+<data name="TodoItemPatternWindow_MatchInComments_CheckBox" xml:space="preserve">
+  <value>Совпадение в комментариях</value>
+</data>
+<data name="TryNow_Text" xml:space="preserve">
+  <value>Попробовать сейчас</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HasMember_Text" xml:space="preserve">
+  <value>Имеет член</value>
+</data>
+<data name="GoToText_Hotkey_Text" xml:space="preserve">
+  <value>Перейти к тексту{0}</value>
+</data>
+<data name="UnableToApplyReplaceIn_BecauseItHas_Text" xml:space="preserve">
+  <value>Не удалось применить замену в {0}, так как он был изменен</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Override_Text" xml:space="preserve">
+  <value>Переопределение</value>
+</data>
+<data name="GoToText_Text" xml:space="preserve">
+  <value>Перейти к тексту (&amp;T)…</value>
+</data>
+<data name="CannotCompareFiles_Text" xml:space="preserve">
+  <value>Невозможно сравнить эти файлы</value>
+</data>
+<data name="Remove_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="Done_Text" xml:space="preserve">
+  <value>Готово</value>
+</data>
+<data name="PackageFilterShowOnlyReleaseSettingDescription" xml:space="preserve">
+  <value>Фильтр пакетов: показывать только релизы</value>
+</data>
+<data name="TodoItemPatternWindow_Pattern_Tooltip" xml:space="preserve">
+  <value>Регулярное выражение
+Используйте группу захвата ?&lt;TAG&gt; для выделения части совпадающего текста</value>
+</data>
+<data name="RegularExpressionValidatorInputColumnWidthSettingDescription" xml:space="preserve">
+  <value>Ширина столбца ввода валидатора регулярных выражений</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HandlesEvent_Text" xml:space="preserve">
+  <value>Обрабатывает событие</value>
+</data>
+<data name="AssemblyDiff_Header" xml:space="preserve">
+  <value>Сравнить</value>
+</data>
+<data name="_Add_Text" xml:space="preserve">
+  <value>Добавить (_A)…</value>
+</data>
+<data name="FilesWithNamesLikeTheGeneratedFiles_Text" xml:space="preserve">
+  <value>Сгенерированные файлы перезапишут существующие файлы с такими же именами</value>
+</data>
+<data name="DisplayDeclarationOfTargetTypeAndItsMembers_Text" xml:space="preserve">
+  <value>Показывать в редакторе объявления целевого типа и его членов, аналогично окну определения кода Visual Studio</value>
+</data>
+<data name="OpenProjectInVisualStudio_Text" xml:space="preserve">
+  <value>Открыть проект в Visual Studio</value>
+</data>
+<data name="MRUDialogPositionSettingDescription" xml:space="preserve">
+  <value>Позиция диалога MRU</value>
+</data>
+<data name="Name_Header" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="GotoMethodAction_CreateController_CaptionText" xml:space="preserve">
+  <value>Введите имя метода:</value>
+</data>
+<data name="MoveUp_Button_Tooltip" xml:space="preserve">
+  <value>Повысить приоритет выбранного шаблона проверки на null</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Access_Text" xml:space="preserve">
+  <value>Доступ</value>
+</data>
+<data name="TodoItemPatternWindow_Name_Label" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="ApplyingChanges_Text" xml:space="preserve">
+  <value>Применение изменений</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Hidden_Text" xml:space="preserve">
+  <value>Скрытые</value>
+</data>
+<data name="SelectedPackageSourceSettingDescription" xml:space="preserve">
+  <value>Выбранный источник пакета</value>
+</data>
+<data name="FileLayoutDesigner_Editors_GroupBy_None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="OpenFromGACActionText" xml:space="preserve">
+  <value>Открыть из GAC (&amp;G)…</value>
+</data>
+<data name="NuGetPackages_TabName" xml:space="preserve">
+  <value>Пакеты NuGet</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Sealed_Text" xml:space="preserve">
+  <value>sealed</value>
+</data>
+<data name="ChooseFolderForPdbFiles_Caption" xml:space="preserve">
+  <value>Выберите папку для .pdb файлов</value>
+</data>
+<data name="ExportToProjectDialogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диалога «Экспорт в проект»</value>
+</data>
+<data name="GoToNetFrameworkSources_Text" xml:space="preserve">
+  <value>Перейти к исходному источнику (_S)</value>
+</data>
+<data name="GoToFile_Text" xml:space="preserve">
+  <value>Перейти к файлу (&amp;F)…</value>
+</data>
+<data name="AddProjectToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Добавить проект в обозреватель сборок</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Property_Text" xml:space="preserve">
+  <value>Свойство с резервным полем</value>
+</data>
+<data name="TodoItemPatternWindow_MatchInIdentifiers_CheckBox" xml:space="preserve">
+  <value>Совпадение в идентификаторах</value>
+</data>
+<data name="SourceFolder_Caption" xml:space="preserve">
+  <value>Исходная папка</value>
+</data>
+<data name="_WhatWouldYouLikeToDo_Text" xml:space="preserve">
+  <value>{0}
 
+Что вы хотите сделать?</value>
+</data>
+<data name="FileTypeDoesnTMatchCurrentMode_Text" xml:space="preserve">
+  <value>Тип файла не соответствует текущему режиму сравнения</value>
+</data>
+<data name="_Edit_Text" xml:space="preserve">
+  <value>Редактировать (_E)…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyProperty_Text" xml:space="preserve">
+  <value>Свойство зависимости</value>
+</data>
+<data name="MoveDown_Button_Tooltip" xml:space="preserve">
+  <value>Понизить приоритет выбранного шаблона проверки на null</value>
+</data>
+<data name="UnableToApplyReplaceBecauseFileIsNot_Text" xml:space="preserve">
+  <value>Не удалось применить замену, так как файл больше недоступен</value>
+</data>
+<data name="Version_Header" xml:space="preserve">
+  <value>Версия</value>
+</data>
+<data name="ExportToProjectDestinationFolderSettingDescription" xml:space="preserve">
+  <value>Целевая папка экспорта в проект</value>
+</data>
+<data name="CreatePdbFileSettingDescription" xml:space="preserve">
+  <value>Создать *._pdb файл</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Virtual_Text" xml:space="preserve">
+  <value>Виртуальный</value>
+</data>
+<data name="TodoItemPatternWindow_Cancel_Button" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="InvalidCharacter_AtPosition__Text" xml:space="preserve">
+  <value>Недопустимый символ '{0}' в позиции {1}</value>
+</data>
+<data name="AttemptToLocateSourcesOnSymbolServer_Text" xml:space="preserve">
+  <value>Попытаться загрузить исходники с сервера символов (например, https://raw.githubusercontent.com) и показать их в редакторе</value>
+</data>
+<data name="Use__Text" xml:space="preserve">
+  <value>Использовать «{0}»</value>
+</data>
+<data name="AttemptToLocateSourcesOnSymbolServerAndIfItFailsUseDecompiler_Text" xml:space="preserve">
+  <value>Попытаться загрузить исходники с сервера символов, и если это не удастся, использовать встроенный декомпилятор dotPeek для отображения кода библиотеки как C#.</value>
+</data>
+<data name="ExportAgain_Text" xml:space="preserve">
+  <value>Экспортировать снова</value>
+</data>
+<data name="TheSamePatternHasAlreadyBeenCreated_Text" xml:space="preserve">
+  <value>Такой шаблон уже создан. Вы можете просмотреть и отредактировать его в «ReSharper | Параметры | Пользовательские шаблоны».</value>
+</data>
+<data name="OpenForComparison_Caption" xml:space="preserve">
+  <value>Выберите элементы для сравнения</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Text" xml:space="preserve">
+  <value>Часть свойства зависимости</value>
+</data>
+<data name="CustomPackageSourcesSettingDescription" xml:space="preserve">
+  <value>Пользовательские источники пакетов</value>
+</data>
+<data name="NotSpecifiedInToolsOptionsDebuggingSymbols_Text" xml:space="preserve">
+  <value>Не указано (в «Сервис | Параметры | Отладка | Символы»)</value>
+</data>
+<data name="UnsupportedFileExtension_Text" xml:space="preserve">
+  <value>Неподдерживаемое расширение файла</value>
+</data>
+<data name="OpenFromGAC_Caption" xml:space="preserve">
+  <value>Открыть из GAC</value>
+</data>
+<data name="AdditionalAliasItemsToCorrectCommonErrors_BoolOption_Text" xml:space="preserve">
+  <value>Добавлять специальные записи для исправления распространенных ошибок (например, 'Length' вместо 'Count')</value>
+</data>
+<data name="_CachesSeemsToBeCorrupted_Text" xml:space="preserve">
+  <value>Кеш {0}, похоже, поврежден</value>
+</data>
+<data name="_GenerationItem_Progress_TooltipText" xml:space="preserve">
+  <value>{0} {1}%</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_LogicalContainers_Text" xml:space="preserve">
+  <value>Логические контейнеры</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Entry_Text" xml:space="preserve">
+  <value>Запись</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Kind_Text" xml:space="preserve">
+  <value>Вид</value>
+</data>
+<data name="PathIsRelative_Text" xml:space="preserve">
+  <value>Путь является относительным</value>
+</data>
+<data name="OpenSymbolInAssemblyExplorer_Text" xml:space="preserve">
+  <value>Открыть символ в обозревателе сборок</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="ThereAreConflictingItems_Text" xml:space="preserve">
+  <value>Имеются конфликтующие записи:</value>
+</data>
+<data name="UnableToApplyReplaceTo_BecauseOfInline_Text" xml:space="preserve">
+  <value>Не удалось применить замену к {0} из-за встроенного кода</value>
+</data>
+<data name="GoToDecompiledSources_Text" xml:space="preserve">
+  <value>Перейти к декомпилированным исходникам (_D)</value>
+</data>
+<data name="_ImportCompletion__BoolOption_Text" xml:space="preserve">
+  <value>Завершение импорта (_I)</value>
+</data>
+<data name="AssemblyExplorer_Text" xml:space="preserve">
+  <value>Обозреватель сборок</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Synthetic_Text" xml:space="preserve">
+  <value>Синтетические</value>
+</data>
+<data name="OpenFromNuGetPackagesCache_Caption" xml:space="preserve">
+  <value>Открыть из кеша пакетов NuGet</value>
+</data>
+<data name="PdbGenerationDialogPositionSettingDescription" xml:space="preserve">
+  <value>Позиция диалога генерации PDB</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Body_Text" xml:space="preserve">
+  <value>Тело</value>
+</data>
+<data name="ProcessExplorerEnableDebuggingActionHandler_ActionText" xml:space="preserve">
+  <value>Включить отладку</value>
+</data>
+<data name="OpenFromRunningProcessActionText" xml:space="preserve">
+  <value>Открыть из выполняемого процесса (&amp;R)</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Readonly_Text" xml:space="preserve">
+  <value>Только для чтения</value>
+</data>
+<data name="RegExpWindow_Capture_Name_Header" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="ChooseFolderForProject_Caption" xml:space="preserve">
+  <value>Выберите папку проекта</value>
+</data>
+<data name="ThereIsNoPermissionToCreateSubfolderOfTheFolder__Text" xml:space="preserve">
+  <value>У вас нет разрешения на создание подпапки в папке '{0}'</value>
+</data>
+<data name="Advanced_Button_Text" xml:space="preserve">
+  <value>Дополнительно</value>
+</data>
+<data name="PdbGenerationDialogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диалога генерации PDB</value>
+</data>
+<data name="FileLayoutDesigner_Elements_NameMatchingFile_Text" xml:space="preserve">
+  <value>Имя, соответствующее файлу</value>
+</data>
+<data name="DoYouWantToReplaceThem_Text" xml:space="preserve">
+  <value>Вы хотите заменить их?</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Static_Text" xml:space="preserve">
+  <value>static</value>
+</data>
+<data name="SortItems_ComboEnum_Caption" xml:space="preserve">
+  <value>Сортировать элементы:</value>
+</data>
+<data name="ILCodeIsNotAvailable_Text" xml:space="preserve">
+  <value>Код недоступен</value>
+</data>
+<data name="Loading_Text" xml:space="preserve">
+  <value>Загрузка…</value>
+</data>
+<data name="CompareAssembliesActionText" xml:space="preserve">
+  <value>Сравнить сборки…</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Or_Text" xml:space="preserve">
+  <value>Or</value>
+</data>
+<data name="CheckOutReSharpersInstantNavigation_Text" xml:space="preserve">
+  <value>Ознакомьтесь с мгновенной навигацией ReSharper
+{0}</value>
+</data>
+<data name="TheSymbolYouAreNavigatingToIsInCompiledCode_Text" xml:space="preserve">
+  <value>Символ, к которому вы переходите, находится в скомпилированном коде. Вам нужно выбрать действие по умолчанию для отображения таких символов.
+Это предпочтение можно изменить позже в «ReSharper | Параметры | Инструменты | Внешние источники».
+Вы также можете явно вызвать любое действие в меню «Перейти к» {0}.</value>
+</data>
+<data name="AddFolderSubstitution_Caption" xml:space="preserve">
+  <value>Добавить замену папки</value>
+</data>
+<data name="GoToObjectBrowser_Text" xml:space="preserve">
+  <value>Перейти в обозреватель объектов (_O)</value>
+</data>
+<data name="ApplyChanges_Text" xml:space="preserve">
+  <value>Применить изменения</value>
+</data>
+<data name="LeaveVSNavigationIntact_Text" xml:space="preserve">
+  <value>Оставить навигацию Visual Studio без изменений (_V)</value>
+</data>
+<data name="ConfigurePriorityOfNullCheckingPatterns_Text" xml:space="preserve">
+  <value>Настроить приоритет шаблонов проверки на null:</value>
+</data>
+<data name="PdbGeneration_Caption" xml:space="preserve">
+  <value>Генерация PDB</value>
+</data>
+<data name="RunningCustomTool_Text" xml:space="preserve">
+  <value>Запуск пользовательского инструмента</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Field_Text" xml:space="preserve">
+  <value>Поле DP</value>
+</data>
+<data name="AdvancedCodeCompletionSettings_Text" xml:space="preserve">
+  <value>Дополнительные настройки завершения кода</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Priority_Low_Text" xml:space="preserve">
+  <value>Низкий</value>
+</data>
+<data name="RegularExpressionValidatorInputRowHeightSettingDescription" xml:space="preserve">
+  <value>Высота строки ввода валидатора регулярных выражений</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyName_Text" xml:space="preserve">
+  <value>Имя DP</value>
+</data>
+<data name="FileLayoutDesigner_Editors_Priority_Highest_Text" xml:space="preserve">
+  <value>Самый высокий</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Region_Text" xml:space="preserve">
+  <value>Регион</value>
+</data>
+<data name="TestRegularExpressionContextAction_Description" xml:space="preserve">
+  <value>Открыть диалог для редактирования регулярного выражения и его проверки на примере текста</value>
+</data>
+<data name="_LoadingData_Text" xml:space="preserve">
+  <value>{0} – Загрузка данных</value>
+</data>
+<data name="AssemblyDiff_Description" xml:space="preserve">
+  <value>Выберите тип и расположение элементов для сравнения</value>
+</data>
+<data name="AddAssemblyToAssemblyExplorerActionText" xml:space="preserve">
+  <value>Добавить сборку в обозреватель сборок</value>
+</data>
+<data name="PDB_Plural" xml:space="preserve">
+  <value>{0} {0:choice:one#PDB|other#PDB}</value>
+</data>
+<data name="FileLayoutDesigner_Elements_PropertyPart_Text" xml:space="preserve">
+  <value>Часть свойства</value>
+</data>
+<data name="_BothOpeningAndClosing_Option_Text" xml:space="preserve">
+  <value>Открывающая и закрывающая круглая скобка (_B)</value>
+</data>
+<data name="CannotExecuteTheGoToStringBecauseThere_Text" xml:space="preserve">
+  <value>Невозможно выполнить «Перейти к строке», так как нет открытого решения</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Patterns_Text" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="ValidateRegularExpressionActionText" xml:space="preserve">
+  <value>Проверить регулярное выражение…</value>
+</data>
+<data name="CreateTracepoint_Caption" xml:space="preserve">
+  <value>Создать точку трассировки</value>
+</data>
+<data name="OpenProjectInVisualStudioSettingDescription" xml:space="preserve">
+  <value>Открыть проект в Visual Studio (_V)</value>
+</data>
+<data name="ExportToProjectDialogPositionSettingDescription" xml:space="preserve">
+  <value>Позиция диалога «Экспорт в проект»</value>
+</data>
+<data name="FileLayoutDesigner_Elements_UnknownGroupDescriptor_Text" xml:space="preserve">
+  <value>Неизвестный дескриптор группы</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Key_Text" xml:space="preserve">
+  <value>Ключ DP</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Modifiers_Text" xml:space="preserve">
+  <value>Модификаторы</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Group_Text" xml:space="preserve">
+  <value>Группа</value>
+</data>
+<data name="ChooseAnotherFolder_Text" xml:space="preserve">
+  <value>Выбрать другую папку</value>
+</data>
+<data name="TargetFolder_Caption" xml:space="preserve">
+  <value>Целевая папка</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Not_Text" xml:space="preserve">
+  <value>Не</value>
+</data>
+<data name="PatternIsSavedAndWillBeUsedForBackground_Text" xml:space="preserve">
+  <value>Шаблон сохранен и будет использоваться для фонового анализа кода. Вы можете просмотреть и отредактировать его в «ReSharper | Параметры | Пользовательские шаблоны».</value>
+</data>
+<data name="LocateProjectInFileExplorer_Text" xml:space="preserve">
+  <value>Найти проект в проводнике</value>
+</data>
+<data name="Generating___Text" xml:space="preserve">
+  <value>Генерация {0}…</value>
+</data>
+<data name="DoNotModifyDefaultBehaviorOfVS_Text" xml:space="preserve">
+  <value>Не изменять поведение Visual Studio по умолчанию</value>
+</data>
+<data name="ReplaceKeywordsWithLiveTemplates_BoolOption_Text" xml:space="preserve">
+  <value>Заменять ключевые слова живыми шаблонами</value>
+</data>
+<data name="RegularExpressionValidatorDialogLayoutSettingDescription" xml:space="preserve">
+  <value>Макет диалога валидатора регулярных выражений</value>
+</data>
+<data name="FileLayoutDesigner_Elements_PropertyName_Text" xml:space="preserve">
+  <value>Имя свойства</value>
+</data>
+<data name="OpenFromNuGetPackagesCacheDialogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диалога «Открыть из кеша пакетов NuGet»</value>
+</data>
+<data name="Item_Plural" xml:space="preserve">
+  <value>{0} {0:choice:one#элемент|other#элементов}</value>
+</data>
+<data name="OpenFromNuGet_Caption" xml:space="preserve">
+  <value>Открыть из NuGet</value>
+</data>
+<data name="Status_Text" xml:space="preserve">
+  <value>Группировать по статусу</value>
+</data>
+<data name="FileLayoutDesigner_Toolbox_Category_Snippets_Text" xml:space="preserve">
+  <value>Фрагменты</value>
+</data>
+<data name="_VSSymbolCacheFolder__Text" xml:space="preserve">
+  <value>Папка кеша символов Visual Studio: {0}(_V)</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Handler_Text" xml:space="preserve">
+  <value>Обработчик DP</value>
+</data>
+<data name="OpenFromNuGetPackagesCacheActionText" xml:space="preserve">
+  <value>Открыть из кеша пакетов NuGet…</value>
+</data>
+<data name="SourceFolder_Text" xml:space="preserve">
+  <value>Исходная папка: </value>
+</data>
+<data name="EnterActionName_Text" xml:space="preserve">
+  <value>Имя действия:</value>
+</data>
+<data name="TodoItemPatternWindow_Url_Tooltip" xml:space="preserve">
+  <value>Шаблон URL
+Используйте ${GROUP} для замены текста, соответствующего группе захвата ?&lt;GROUP&gt;</value>
+</data>
+<data name="SearchWithPatteRnActionText" xml:space="preserve">
+  <value>Искать с помощью шаблона (&amp;R)…</value>
+</data>
+<data name="TestRegularExpressionContextAction_Name" xml:space="preserve">
+  <value>Проверить регулярное выражение</value>
+</data>
+<data name="FileLayoutDesigner_View_HasAttribute_Text" xml:space="preserve">
+  <value>Имеет атрибут:</value>
+</data>
+<data name="PatternCouldNotBeParsed_Text" xml:space="preserve">
+  <value>Не удалось разобрать шаблон</value>
+</data>
+<data name="AutomaticallyAcceptSingleSuggestedItemIn_Text" xml:space="preserve">
+  <value>Автоматически принимать единственный предложенный элемент в завершении:</value>
+</data>
+<data name="Id_Header" xml:space="preserve">
+  <value>ID</value>
+</data>
+<data name="Sma_rtCompletion__BoolOption_Text" xml:space="preserve">
+  <value>Интеллектуальное завершение (_R)</value>
+</data>
+<data name="FolderCannotBeAnEmptyString_Text" xml:space="preserve">
+  <value>Папка не может быть пустой строкой</value>
+</data>
+<data name="ShouldEnterAnUniqueName_Text" xml:space="preserve">
+  <value>Пожалуйста, введите уникальное имя</value>
+</data>
+<data name="PdbGenerationDestinationFolderSettingDescription" xml:space="preserve">
+  <value>Целевая папка генерации PDB</value>
+</data>
+<data name="FindSimilarIssues__Text" xml:space="preserve">
+  <value>Найти похожие проблемы ('{0}')</value>
+</data>
+<data name="Location_Header" xml:space="preserve">
+  <value>Расположение</value>
+</data>
+<data name="_Cancel_ButtonText" xml:space="preserve">
+  <value>Отмена (_C)</value>
+</data>
+<data name="AssemblyDiff_RadioGroup_Header" xml:space="preserve">
+  <value>Выберите тип:</value>
+</data>
+<data name="AutomaticallyInsert_parenthesesAfter_RadioOption_Caption" xml:space="preserve">
+  <value>Автоматически вставлять круглые скобки после завершения (_P):</value>
+</data>
+<data name="FileLayoutDesigner_Elements_FilePattern_Text" xml:space="preserve">
+  <value>Файловый шаблон</value>
+</data>
+<data name="TodoItemPatternWindow_Url_Label" xml:space="preserve">
+  <value>URL:</value>
+</data>
+<data name="EditPattern_Text" xml:space="preserve">
+  <value>Редактировать шаблон</value>
+</data>
+<data name="ExportToProject_Caption" xml:space="preserve">
+  <value>Экспорт в проект</value>
+</data>
+<data name="OpenContainingFolderActionText" xml:space="preserve">
+  <value>Открыть содержащую папку</value>
+</data>
+<data name="TodoItemPatternWindow_OK_Button" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="Published_Header" xml:space="preserve">
+  <value>Опубликовано</value>
+</data>
+<data name="RegExpWindow_Capture_Value_Header" xml:space="preserve">
+  <value>Значение</value>
+</data>
+<data name="Authors_Header" xml:space="preserve">
+  <value>Авторы</value>
+</data>
+<data name="Downloads_Header" xml:space="preserve">
+  <value>Загрузки</value>
+</data>
+<data name="CreatePlaceholder_Text" xml:space="preserve">
+  <value>Создать заполнитель</value>
+</data>
+<data name="OpenWithLocalizationManagerActionText" xml:space="preserve">
+  <value>Открыть с помощью Localization Manager</value>
+</data>
+<data name="OpenFromNuGetDialogPositionSettingDescription" xml:space="preserve">
+  <value>Позиция диалога «Открыть из NuGet»</value>
+</data>
+<data name="FileLayoutDesigner_Elements_HasAttribute_Text" xml:space="preserve">
+  <value>Имеет атрибут</value>
+</data>
+<data name="AssemblyName_Information_Caption" xml:space="preserve">
+  <value>Имя сборки:</value>
+</data>
+<data name="AddNewFileToCompare_Text" xml:space="preserve">
+  <value>Добавить новый файл для сравнения</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Name_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="RegExpWindow_CheckLinesSeparately_CheckBox" xml:space="preserve">
+  <value>Проверять строки отдельно</value>
+</data>
+<data name="AddAssembliesToAssemblyExplorer_Text" xml:space="preserve">
+  <value>Добавить сборки в обозреватель сборок</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="AssemblyLocation_Information_Caption" xml:space="preserve">
+  <value>Расположение сборки:</value>
+</data>
+<data name="Edit_Text" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="PathMustBeANonEmptyString_Text" xml:space="preserve">
+  <value>Путь должен быть непустой строкой</value>
+</data>
+<data name="OriginOf__Text" xml:space="preserve">
+  <value>Источник '{0}'</value>
+</data>
+<data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Getter_Text" xml:space="preserve">
+  <value>Присоединенный геттер DP</value>
+</data>
+<data name="ProjectName_Text" xml:space="preserve">
+  <value>Имя проекта:</value>
+</data>
+<data name="CanUseForAssertion_Tooltip" xml:space="preserve">
+  <value>Шаблон с наивысшим приоритетом, помеченный этим флагом, будет использоваться при генерации утверждений</value>
+</data>
+<data name="FolderNameCannotEndWithDot_Text" xml:space="preserve">
+  <value>Имя папки не может заканчиваться на '.'</value>
+</data>
+<data name="Summary_Header" xml:space="preserve">
+  <value>Сводка</value>
+</data>
+<data name="FileLayoutDesigner_Elements_Type_Text" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="YouAreAboutToReplaceTheSetOfPatterns_Text" xml:space="preserve">
+  <value>Вы собираетесь заменить этот набор шаблонов набором по умолчанию. Это удалит все изменения, которые вы, возможно, сделали. Продолжить?</value>
+</data>
+<data name="ShowImportItemsInBasicCompletion_BoolOption_Text" xml:space="preserve">
+  <value>Показывать элементы импорта в базовом завершении</value>
+</data>
+<data name="OpenFromNuGetDialogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диалога «Открыть из NuGet»</value>
+</data>
+<data name="ThereIsNoDrive__Text" xml:space="preserve">
+  <value>Нет диска '{0}'</value>
+</data>
+<data name="CannotCompareFileOrFolderWithItself_Text" xml:space="preserve">
+  <value>Невозможно сравнить с самим собой</value>
+</data>
+<data name="CreateSlnFileSettingDescription" xml:space="preserve">
+  <value>Создать *._sln файл</value>
+</data>
+<data name="LoadReferencePackagesSettingDescription" xml:space="preserve">
+  <value>Загрузить ссылочные пакеты</value>
+</data>
+<data name="ExternalSourcesProvider_Information_Caption" xml:space="preserve">
+  <value>Провайдер внешних источников:</value>
+</data>
+<data name="ConfiguresGoToSuggesterSettingDescription" xml:space="preserve">
+  <value>Настраивает «Советник перехода»</value>
+</data>
+<data name="Pattern_Text" xml:space="preserve">
+  <value>Шаблон</value>
+</data>
 </root>

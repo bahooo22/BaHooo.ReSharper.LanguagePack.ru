@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Field_Text" xml:space="preserve">
+  <value>Поле</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Blank_lines_are_redundant_elsewhere" xml:space="preserve">
+  <value>Пустые строки избыточны в других местах</value>
+</data>
+<data name="ClassDefinition_Text" xml:space="preserve">
+  <value>Определение класса</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_declaration_braces" xml:space="preserve">
+  <value>Вокруг фигурных скобок объявления</value>
+</data>
+<data name="Parser_Error_TemplateTemplateParameterRequiresClass_Text" xml:space="preserve">
+  <value>Параметр шаблона template требует 'class' или 'typename' после списка параметров</value>
+</data>
+<data name="Linkage_GetSymbolsForDerivedEntities_Text" xml:space="preserve">
+  <value>Получение символов для производных сущностей</value>
+</data>
+<data name="Parser_Error_ExpectedLPar_Text" xml:space="preserve">
+  <value>Ожидается '('</value>
+</data>
+<data name="Struct_Text" xml:space="preserve">
+  <value>struct</value>
+</data>
+<data name="Parser_Error_InsideForEachLoopInShouldBeUsedInstead_Text" xml:space="preserve">
+  <value>В цикле for each следует использовать 'in' вместо ':'</value>
+</data>
+<data name="Something_In_Container_Text" xml:space="preserve">
+  <value>{0} (в {1})</value>
+</data>
+<data name="Parser_Error_UnexpectedCharLiteral_Text" xml:space="preserve">
+  <value>Неожиданный символьный литерал</value>
+</data>
+<data name="ComparisonUtil_WhileComparingParameters_Text" xml:space="preserve">
+  <value>При сравнении параметров типа {1} (игнорируя текущий оператор)
+{0}</value>
+</data>
+<data name="ComparisonUtil_ReturnTypeIsNotComparisonCategory_Text" xml:space="preserve">
+  <value>Возвращаемый тип {0} не является типом категории сравнения</value>
+</data>
+<data name="Parser_Error_ExceptionInParser_Text" xml:space="preserve">
+  <value>Исключение в парсере</value>
+</data>
+<data name="Parser_Error_ExpectedCliPropertyAccessor_Text" xml:space="preserve">
+  <value>Ожидается метод доступа свойства CLI</value>
+</data>
+<data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowed_Text" xml:space="preserve">
+  <value>Последовательность спецификаторов атрибутов не допускается перед {0}</value>
+</data>
+<data name="ComparisonUtil_ReturnTypeMustBeBool_Text" xml:space="preserve">
+  <value>Возвращаемый тип должен быть {0}, а не {1}</value>
+</data>
+<data name="Parser_Error_QualifiersAreNotAllowedAtTopLevelAsm_Text" xml:space="preserve">
+  <value>Квалификаторы не допускаются в объявлении 'asm' верхнего уровня</value>
+</data>
+<data name="Parser_Error_RestrictionSpecifierCannotBeEmpty_Text" xml:space="preserve">
+  <value>Спецификатор ограничения не может быть пустым</value>
+</data>
+<data name="PresenterUtil_EntityKindFormat_Text" xml:space="preserve">
+  <value>{0} {1}</value>
+</data>
+<data name="CStandardLibrary_Text" xml:space="preserve">
+  <value>Стандартная библиотека C</value>
+</data>
+<data name="WordsCache_SerializationObject_Text" xml:space="preserve">
+  <value>Кэш слов</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemEnum_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::Enum' не найден</value>
+</data>
+<data name="Parser_Error_UnexpectedCvQualifier_Text" xml:space="preserve">
+  <value>Неожиданный cv-квалификатор</value>
+</data>
+<data name="ComparisonUtil_CannotHaveTheRefQualifier_Text" xml:space="preserve">
+  <value>Не может иметь ref-квалификатор '&&'</value>
+</data>
+<data name="ComparisonUtil_AfterRewriting_Text" xml:space="preserve">
+  <value>После перезаписи {1} с использованием {2} и {3}
+{0}</value>
+</data>
+<data name="Linkage_SearchingForAllBasesOf_Text" xml:space="preserve">
+  <value>Поиск всех баз {0}</value>
+</data>
+<data name="ComparisonUtil_DeducedReturnTypeMustBeAuto_Text" xml:space="preserve">
+  <value>Выведенный возвращаемый тип должен быть {0}, а не {1}</value>
+</data>
+<data name="Parser_Error_ExpectedCondition_Text" xml:space="preserve">
+  <value>Ожидается условие</value>
+</data>
+<data name="GenericParameter_Text" xml:space="preserve">
+  <value>Универсальный параметр</value>
+</data>
+<data name="ParameterList_Text" xml:space="preserve">
+  <value>Список параметров</value>
+</data>
+<data name="Parser_Error_OnlyPartitionsOfTheCurrentModuleCan_Text" xml:space="preserve">
+  <value>Можно импортировать только разделы текущего модуля</value>
+</data>
+<data name="Parser_Error_UnexpectedNumericLiteral_Text" xml:space="preserve">
+  <value>Неожиданный числовой литерал</value>
+</data>
+<data name="ProtectedField_Text" xml:space="preserve">
+  <value>protected поле</value>
+</data>
+<data name="GlobalVariable_Text" xml:space="preserve">
+  <value>Глобальная переменная</value>
+</data>
+<data name="Parser_Error_ExpectedAGenericParameter_Text" xml:space="preserve">
+  <value>Ожидается универсальный параметр</value>
+</data>
+<data name="Parser_Error_ExpectedLBrace_Text" xml:space="preserve">
+  <value>Ожидается '{'</value>
+</data>
+<data name="Parser_Error_ExpectedCommaLBraceOrSemicolon_Text" xml:space="preserve">
+  <value>Ожидается ',', '{' или ';'</value>
+</data>
+<data name="Class_Text" xml:space="preserve">
+  <value>class</value>
+</data>
+<data name="Parser_Error_OperatorSignExpected_Text" xml:space="preserve">
+  <value>Ожидается знак оператора</value>
+</data>
+<data name="ModulePartition_Text" xml:space="preserve">
+  <value>Раздел модуля</value>
+</data>
+<data name="Conversion_Text" xml:space="preserve">
+  <value>Преобразование</value>
+</data>
+<data name="DeclaredElement_In_Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="Parser_Error_ExpectedIn_Text" xml:space="preserve">
+  <value>Ожидается 'in'</value>
+</data>
+<data name="ComparisonUtil_OperatorIsNotAComparisonOperator_Text" xml:space="preserve">
+  <value>{0} не является оператором сравнения</value>
+</data>
+<data name="Parser_Error_UnexpectedToken_Text" xml:space="preserve">
+  <value>Неожиданный '{0}'</value>
+</data>
+<data name="DependentName_Text" xml:space="preserve">
+  <value>Зависимое имя</value>
+</data>
+<data name="Parser_Error_ExpectedRBracket_Text" xml:space="preserve">
+  <value>Ожидается ']'</value>
+</data>
+<data name="ComparisonUtil_WhileComparingArrayField_Text" xml:space="preserve">
+  <value>При сравнении элементов массива {1}
+{0}</value>
+</data>
+<data name="Function_Text" xml:space="preserve">
+  <value>Функция</value>
+</data>
+<data name="NamespaceAlias_Text" xml:space="preserve">
+  <value>Псевдоним пространства имен</value>
+</data>
+<data name="Parser_Error_ExpectedSemanticIdentifier_Text" xml:space="preserve">
+  <value>Ожидается семантический идентификатор</value>
+</data>
+<data name="Parser_Error_KeywordRequiresIsUsedAsAnIdentifier_Text" xml:space="preserve">
+  <value>Ключевое слово 'requires' используется как идентификатор</value>
+</data>
+<data name="Typedef_Text" xml:space="preserve">
+  <value>typedef</value>
+</data>
+<data name="Parser_Error_ExpectedEqOrColon_Text" xml:space="preserve">
+  <value>Ожидается '=' или ':'</value>
+</data>
+<data name="Parser_Error_InsideForLoopColonShouldBeUsedInstead_Text" xml:space="preserve">
+  <value>В цикле for следует использовать двоеточие ':' вместо 'in'</value>
+</data>
+<data name="Parser_Error_ExpectedClassOrTypenameKeyword_Text" xml:space="preserve">
+  <value>Ожидается ключевое слово 'class' или 'typename'</value>
+</data>
+<data name="Parser_Error_ExpectedDefaultOrDelete_Text" xml:space="preserve">
+  <value>Ожидается 'default' или 'delete'</value>
+</data>
+<data name="Macro_Text" xml:space="preserve">
+  <value>Макрос</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrColon_Text" xml:space="preserve">
+  <value>Ожидается ',' или ':'</value>
+</data>
+<data name="Constructor_Text" xml:space="preserve">
+  <value>Конструктор</value>
+</data>
+<data name="Never_Description_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="Parser_Error_UnknownRestrictionSpecifier__Text" xml:space="preserve">
+  <value>Неизвестный спецификатор ограничения '{0}'</value>
+</data>
+<data name="InvalidParenthesisSequence_Text" xml:space="preserve">
+  <value>Неверная последовательность круглых скобок</value>
+</data>
+<data name="ComparisonUtil_CannotConvertValueTheReturnType_Text" xml:space="preserve">
+  <value>Невозможно преобразовать значение типа {0} в возвращаемый тип {1}</value>
+</data>
+<data name="SyntaxError_Text" xml:space="preserve">
+  <value>Синтаксическая ошибка</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_comma_in_lists" xml:space="preserve">
+  <value>Вокруг запятых в списках</value>
+</data>
+<data name="Parser_Error_ExpectedAfterWhile_Text" xml:space="preserve">
+  <value>После 'while' ожидается '('</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Tabs_spaces_mismatch" xml:space="preserve">
+  <value>Несоответствие табуляции/пробелов</value>
+</data>
+<data name="PresenterUtil_Inherited_Text" xml:space="preserve">
+  <value>[Унаследовано]</value>
+</data>
+<data name="Parser_Error_KeywordConceptIsUsedAsAnIdentifier_Text" xml:space="preserve">
+  <value>Ключевое слово 'concept' используется как идентификатор</value>
+</data>
+<data name="Parser_Error_InvalidCombinationOfAccessibilitySpecifiers_Text" xml:space="preserve">
+  <value>Неверная комбинация спецификаторов доступности</value>
+</data>
+<data name="Parser_Error_ExpectedCliEvent_Text" xml:space="preserve">
+  <value>Ожидается событие CLI</value>
+</data>
+<data name="EnumClass_Text" xml:space="preserve">
+  <value>Класс перечисления</value>
+</data>
+<data name="Concept_Text" xml:space="preserve">
+  <value>Концепт</value>
+</data>
+<data name="TemplateTemplateArgument_Text" xml:space="preserve">
+  <value>Аргумент шаблона template</value>
+</data>
+<data name="Parser_Error_ExpectedACallAfterThe__raiseKeyword_Text" xml:space="preserve">
+  <value>После ключевого слова '__raise' ожидается вызов</value>
+</data>
+<data name="File_Text" xml:space="preserve">
+  <value>Файл</value>
+</data>
+<data name="Parser_Error_ExpectedMetaKey_Text" xml:space="preserve">
+  <value>Ожидается ключ метаданных</value>
+</data>
+<data name="MacroParameter_Text" xml:space="preserve">
+  <value>Параметр макроса</value>
+</data>
+<data name="Property_Text" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="ComparisonUtil_MustHaveAParameterOfClassType_Text" xml:space="preserve">
+  <value>Должен иметь параметр классового типа</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_empty_braces" xml:space="preserve">
+  <value>Вокруг пустых фигурных скобок</value>
+</data>
+<data name="Parser_Error_ExpectedLambdaCapture_Text" xml:space="preserve">
+  <value>Ожидается захват lambda</value>
+</data>
+<data name="DuringInitialIndexing_Description_Text" xml:space="preserve">
+  <value>Во время начального индексирования</value>
+</data>
+<data name="Linkage_ProcessingSymbols_Text" xml:space="preserve">
+  <value>Обработка символов</value>
+</data>
+<data name="Event_Text" xml:space="preserve">
+  <value>event</value>
+</data>
+<data name="UEReflectionMacro_Text" xml:space="preserve">
+  <value>Макрос отражения Unreal Engine</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_semicolon" xml:space="preserve">
+  <value>Вокруг точки с запятой</value>
+</data>
+<data name="ProcessingChangedFiles_Text" xml:space="preserve">
+  <value>Обработка измененных файлов…</value>
+</data>
+<data name="Parser_Error_ExpectedAfterDeclaration_Text" xml:space="preserve">
+  <value>После объявления ожидается ';'</value>
+</data>
+<data name="Parser_Error_ExpectedTypeId_Text" xml:space="preserve">
+  <value>Ожидается идентификатор типа</value>
+</data>
+<data name="StructuredBindingUtil_BothHavePublicDataMembers_Text" xml:space="preserve">
+  <value>{0} и {1} оба имеют public члены данных</value>
+</data>
+<data name="ComparisonUtil_CannotConvertReturnTypeToType_Text" xml:space="preserve">
+  <value>Невозможно преобразовать возвращаемый тип {0} в {1}</value>
+</data>
+<data name="ComparisonUtil_SelectedCandidateIsNotRewritten_Text" xml:space="preserve">
+  <value>Кандидат, выбранный разрешением перегрузки{0}, не является переписанным кандидатом</value>
+</data>
+<data name="Namespace_Text" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="Linkage_SearchingLinkageEntities_Text" xml:space="preserve">
+  <value>Поиск связующих сущностей</value>
+</data>
+<data name="Parser_Error_ExpectedComma_Text" xml:space="preserve">
+  <value>Ожидается ','</value>
+</data>
+<data name="ComparisonUtil_FuncIsDeleted_Text" xml:space="preserve">
+  <value>{0} удален</value>
+</data>
+<data name="Parser_Error_ExpectedSpecifierKey_Text" xml:space="preserve">
+  <value>Ожидается ключ спецификатора</value>
+</data>
+<data name="StructuredBindingUtil_HasAnonymousUnionOrClassMembers_Text" xml:space="preserve">
+  <value>{0} имеет анонимные члены объединения или класса</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_parenthesis" xml:space="preserve">
+  <value>Вокруг круглых скобок</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_expression_braces" xml:space="preserve">
+  <value>Вокруг фигурных скобок выражения</value>
+</data>
+<data name="NonTypeTemplateParameter_Text" xml:space="preserve">
+  <value>Нетиповой параметр шаблона</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_indent_should_be_restored_to_the_previous_level_elsewhere" xml:space="preserve">
+  <value>Уровень отступа не восстановлен</value>
+</data>
+<data name="Parser_Error_UnexpectedTemplate_Text" xml:space="preserve">
+  <value>Неожиданный 'template'</value>
+</data>
+<data name="Method_Text" xml:space="preserve">
+  <value>method</value>
+</data>
+<data name="__interface_Text" xml:space="preserve">
+  <value>__interface</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrRPar_Text" xml:space="preserve">
+  <value>Ожидается ',' или ')'</value>
+</data>
+<data name="Parser_Error_QualifiersAreNotAllowedInGNUStyleAttribute_Text" xml:space="preserve">
+  <value>Квалификаторы не допускаются в списке атрибутов в стиле GNU</value>
+</data>
+<data name="StructuredBindingUtil_IsNotAccessible_Text" xml:space="preserve">
+  <value>{0} недоступен</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemValueType_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::ValueType' не найден</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_comma" xml:space="preserve">
+  <value>Вокруг запятой</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_colon" xml:space="preserve">
+  <value>Вокруг двоеточия</value>
+</data>
+<data name="CompoundStatement_Text" xml:space="preserve">
+  <value>Составной оператор</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Between_keyword_and_parenthesis" xml:space="preserve">
+  <value>Между ключевым словом и круглой скобкой</value>
+</data>
+<data name="Parser_Error_ExpectedAClassName_Text" xml:space="preserve">
+  <value>Ожидается имя класса</value>
+</data>
+<data name="Parser_Error_ExpectedDeclaratorName_Text" xml:space="preserve">
+  <value>Ожидается имя декларатора</value>
+</data>
+<data name="ComparisonUtil_CannotFindComparisonCategoryType_Text" xml:space="preserve">
+  <value>Не удается найти тип {0} (Вы включили {1}?)</value>
+</data>
+<data name="DeductionGuide_Text" xml:space="preserve">
+  <value>Руководство по выводу</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_child_statement" xml:space="preserve">
+  <value>Вокруг дочернего оператора</value>
+</data>
+<data name="Parser_Error_ExpectedWhile_Text" xml:space="preserve">
+  <value>Ожидается 'while'</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_indent_should_not_be_changed_relative_to_the_previous_line_elsewhere" xml:space="preserve">
+  <value>Избыточный отступ/уменьшение отступа в других местах</value>
+</data>
+<data name="Parser_Error_StatementExpressionMayOnlyBeUsedInside_Text" xml:space="preserve">
+  <value>Выражение-оператор может использоваться только внутри тела функции</value>
+</data>
+<data name="ComparisonUtil_WhileComparingWithZero_Text" xml:space="preserve">
+  <value>При сравнении значения типа {1} с нулем
+{0}</value>
+</data>
+<data name="StructField_Text" xml:space="preserve">
+  <value>Поле структуры</value>
+</data>
+<data name="Parser_Error_TheAttributeUsingPrefixIsNotCompatible_Text" xml:space="preserve">
+  <value>Префикс using атрибута несовместим с областью видимости на отдельном атрибуте</value>
+</data>
+<data name="Resource_Text" xml:space="preserve">
+  <value>Ресурс</value>
+</data>
+<data name="Parser_Error_AutoIsNotAllowedInALambdaCapture_Text" xml:space="preserve">
+  <value>Запрещено использование 'auto' в захвате lambda</value>
+</data>
+<data name="Parser_Error_ExpectedAFoldableBinaryOperator_Text" xml:space="preserve">
+  <value>Ожидается складываемый бинарный оператор</value>
+</data>
+<data name="ConversionOperator_Text" xml:space="preserve">
+  <value>Оператор преобразования</value>
+</data>
+<data name="TemplateParameter_Text" xml:space="preserve">
+  <value>Параметр шаблона</value>
+</data>
+<data name="ComparisonUtil_MustBeDeclaredAsFriendOf_Text" xml:space="preserve">
+  <value>Должен быть объявлен как friend {0}</value>
+</data>
+<data name="StructuredBindingUtil_BaseIsAmbiguous_Text" xml:space="preserve">
+  <value>База {0} неоднозначна</value>
+</data>
+<data name="Parser_Error_ExpectedNumericLiteral_Text" xml:space="preserve">
+  <value>Ожидается числовой литерал</value>
+</data>
+<data name="Parser_Error_ExpectedIdentifier_Text" xml:space="preserve">
+  <value>Ожидается идентификатор</value>
+</data>
+<data name="PreparingWordIndex_Text" xml:space="preserve">
+  <value>Подготовка словесного индекса…</value>
+</data>
+<data name="Parser_Error_ExpectedStatement_Text" xml:space="preserve">
+  <value>Ожидается оператор</value>
+</data>
+<data name="Parser_Error_ExpectedLt_Text" xml:space="preserve">
+  <value>Ожидается '&lt;'</value>
+</data>
+<data name="Parser_Error_ExpectedKeyword_Text" xml:space="preserve">
+  <value>Ожидается ключевое слово</value>
+</data>
+<data name="Parser_Error_ExpectedEqOrLBrace_Text" xml:space="preserve">
+  <value>Ожидается '=' или '{'</value>
+</data>
+<data name="ComparisonUtil_CannotBeAnOperatorTemplate_Text" xml:space="preserve">
+  <value>Не может быть шаблоном оператора</value>
+</data>
+<data name="PrivateMethod_Text" xml:space="preserve">
+  <value>private метод</value>
+</data>
+<data name="GlobalNamespace_Text" xml:space="preserve">
+  <value>Глобальное пространство имен</value>
+</data>
+<data name="ComparisonUtil_WhileComparingField_Text" xml:space="preserve">
+  <value>При сравнении {1}
+{0}</value>
+</data>
+<data name="TemplateTemplateParameter_Text" xml:space="preserve">
+  <value>Параметр шаблона template</value>
+</data>
+<data name="Parser_Error_ExpectedConstantExpression_Text" xml:space="preserve">
+  <value>Ожидается константное выражение</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrLBrace_Text" xml:space="preserve">
+  <value>Ожидается ',' или '{'</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Multiple_spaces_are_prohibited" xml:space="preserve">
+  <value>Запрещено использование нескольких пробелов</value>
+</data>
+<data name="IncludesCache_SerializationObject_Text" xml:space="preserve">
+  <value>Кэш включений (include)</value>
+</data>
+<data name="UsingDeclaration_Text" xml:space="preserve">
+  <value>using-объявление</value>
+</data>
+<data name="Parser_Error_ExpectedConversionId_Text" xml:space="preserve">
+  <value>Ожидается идентификатор преобразования</value>
+</data>
+<data name="PresenterUtil_GeneratedByUHT_Text" xml:space="preserve">
+  <value>[Сгенерировано UHT]</value>
+</data>
+<data name="Parser_Error_ExpectedExpression_Text" xml:space="preserve">
+  <value>Ожидается выражение</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_switch_statement" xml:space="preserve">
+  <value>Вокруг оператора switch</value>
+</data>
+<data name="Parser_Error_ExpectedLabelIdentifier_Text" xml:space="preserve">
+  <value>Ожидается идентификатор метки</value>
+</data>
+<data name="Parser_Error_ExpectedNewline_Text" xml:space="preserve">
+  <value>Ожидается новая строка</value>
+</data>
+<data name="ComparisonUtil_TypeContainsVariantMembers_Text" xml:space="preserve">
+  <value>{0} содержит вариантные члены</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemIEnumerable_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::IEnumerable' не найден</value>
+</data>
+<data name="Parser_Error_ExpectedGt_Text" xml:space="preserve">
+  <value>Ожидается '&gt;'</value>
+</data>
+<data name="PrivateField_Text" xml:space="preserve">
+  <value>private поле</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_statement_braces" xml:space="preserve">
+  <value>Вокруг фигурных скобок оператора</value>
+</data>
+<data name="Parser_Error_ExpectedType_Text" xml:space="preserve">
+  <value>Ожидается тип</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrSemicolon_Text" xml:space="preserve">
+  <value>Ожидается ',' или ';'</value>
+</data>
+<data name="Parser_Error_ExpectedFriendTypeSpecifier_Text" xml:space="preserve">
+  <value>Ожидается спецификатор типа friend</value>
+</data>
+<data name="Destructor_Text" xml:space="preserve">
+  <value>Деструктор</value>
+</data>
+<data name="PresenterUtil_Intrinsic_Text" xml:space="preserve">
+  <value>[Встроенный]</value>
+</data>
+<data name="Parameter_Text" xml:space="preserve">
+  <value>Параметр</value>
+</data>
+<data name="UnionMember_Text" xml:space="preserve">
+  <value>Член объединения</value>
+</data>
+<data name="CommentIdentifier_Text" xml:space="preserve">
+  <value>Идентификатор комментария</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystem_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но пространство имен 'System' не найдено</value>
+</data>
+<data name="Parser_Error_ExpectedModuleName_Text" xml:space="preserve">
+  <value>Ожидается имя модуля</value>
+</data>
+<data name="Parser_Error_ExpectedDeclaration_Text" xml:space="preserve">
+  <value>Ожидается объявление</value>
+</data>
+<data name="TypeTemplateArgument_Text" xml:space="preserve">
+  <value>Типовой аргумент шаблона</value>
+</data>
+<data name="ClassTemplate_Text" xml:space="preserve">
+  <value>Шаблон класса</value>
+</data>
+<data name="Parser_Error_ExpectedRBracketRBracket_Text" xml:space="preserve">
+  <value>Ожидается ']]'</value>
+</data>
+<data name="Parser_Error_ExpectedAClassDeclaration_Text" xml:space="preserve">
+  <value>Ожидается объявление класса</value>
+</data>
+<data name="TemplateArgument_Text" xml:space="preserve">
+  <value>Аргумент шаблона</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemObject_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::Object' не найден</value>
+</data>
+<data name="Folder_Text" xml:space="preserve">
+  <value>Папка</value>
+</data>
+<data name="Parser_Error_KeywordTypenameShouldBeFollowedByQualified_Text" xml:space="preserve">
+  <value>После ключевого слова 'typename' должно следовать квалифицированное имя</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_square_brackets_within_a_statement" xml:space="preserve">
+  <value>Вокруг квадратных скобок внутри оператора</value>
+</data>
+<data name="Parser_Error_ExpectedRBrace_Text" xml:space="preserve">
+  <value>Ожидается '}'</value>
+</data>
+<data name="Parser_Error_UnexpectedIdentifier_Text" xml:space="preserve">
+  <value>Неожиданный идентификатор</value>
+</data>
+<data name="Parser_Error_ConceptMustBeATemplate_Text" xml:space="preserve">
+  <value>Концепт должен быть шаблоном</value>
+</data>
+<data name="PresenterUtil_FunctionOverloadSet_Text" xml:space="preserve">
+  <value>набор перегрузок функции</value>
+</data>
+<data name="ComparisonUtil_AmbiguousCallWithCandidates_Text" xml:space="preserve">
+  <value>Разрешение {0} приводит к неоднозначному вызову функции с подходящими кандидатами:</value>
+</data>
+<data name="StructDefinition_Text" xml:space="preserve">
+  <value>Определение структуры</value>
+</data>
+<data name="Parser_Error_Expected__exceptOr__finally_Text" xml:space="preserve">
+  <value>Ожидается '__except' или '__finally'</value>
+</data>
+<data name="Parser_Error_ExpectedAuto_Text" xml:space="preserve">
+  <value>Ожидается 'auto'</value>
+</data>
+<data name="Parser_Error_ExpectedCatch_Text" xml:space="preserve">
+  <value>Ожидается 'catch'</value>
+</data>
+<data name="Parser_Error_ExpectedSemicolonOrColon_Text" xml:space="preserve">
+  <value>Ожидается ';' или ':'</value>
+</data>
+<data name="Parser_Error_ExpectedBinaryOperator_Text" xml:space="preserve">
+  <value>Ожидается бинарный оператор</value>
+</data>
+<data name="Parser_Error_ExpectedClassOrStruct_Text" xml:space="preserve">
+  <value>Ожидается 'class' или 'struct'</value>
+</data>
+<data name="HeaderFile_Text" xml:space="preserve">
+  <value>Заголовочный файл</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Incorrect_indent_size" xml:space="preserve">
+  <value>Некорректный размер отступа</value>
+</data>
+<data name="ComparisonUtil_CannotBeVolatileQualified_Text" xml:space="preserve">
+  <value>Не может быть {0}-квалифицирован</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_should_be_indented_or_outdented_elsewhere" xml:space="preserve">
+  <value>Отсутствует отступ/уменьшение отступа в других местах</value>
+</data>
+<data name="StructuredBindingUtil_TypeIsNotComplete_Text" xml:space="preserve">
+  <value>{0} неполный</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemArray_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::Array' не найден</value>
+</data>
+<data name="Parser_Error_ExpectedRParRPar_Text" xml:space="preserve">
+  <value>Ожидается '))'</value>
+</data>
+<data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowedHere_Text" xml:space="preserve">
+  <value>Последовательность спецификаторов атрибутов здесь не допускается</value>
+</data>
+<data name="ComparisonUtil_WhileComparingBase_Text" xml:space="preserve">
+  <value>При сравнении базы {1}
+{0}</value>
+</data>
+<data name="PresenterUtil_AnonymousFormat_Text" xml:space="preserve">
+  <value>анонимный {0}</value>
+</data>
+<data name="CExternalModule_Text" xml:space="preserve">
+  <value>Внешний модуль C++</value>
+</data>
+<data name="ComparisonUtil_NoViableCandidates_Text" xml:space="preserve">
+  <value>Нет подходящих кандидатов для вызова {0}</value>
+</data>
+<data name="PublicMethod_Text" xml:space="preserve">
+  <value>public метод</value>
+</data>
+<data name="ComparisonUtil_TypeIsReference_Text" xml:space="preserve">
+  <value>Тип {0} является ссылкой</value>
+</data>
+<data name="Parser_Error_ExpectedRegisterKeywordOrSemantic_Text" xml:space="preserve">
+  <value>Ожидается ключевое слово register или семантика</value>
+</data>
+<data name="Buffer_Text" xml:space="preserve">
+  <value>Буфер</value>
+</data>
+<data name="EnumStruct_Text" xml:space="preserve">
+  <value>Структура перечисления</value>
+</data>
+<data name="PresenterUtil_Builtin_Text" xml:space="preserve">
+  <value>[Встроенный]</value>
+</data>
+<data name="Saving__Text" xml:space="preserve">
+  <value>Сохранение {0}</value>
+</data>
+<data name="Parser_Error_SuperfluousSemicolon_Text" xml:space="preserve">
+  <value>Лишняя ';'</value>
+</data>
+<data name="Parser_Error_ExpectedMetaValue_Text" xml:space="preserve">
+  <value>Ожидается значение метаданных</value>
+</data>
+<data name="Symbols_SerializationObject_Text" xml:space="preserve">
+  <value>Символы</value>
+</data>
+<data name="Loading__Text" xml:space="preserve">
+  <value>Загрузка {0}</value>
+</data>
+<data name="Parser_Error_ExpectedCliDelegate_Text" xml:space="preserve">
+  <value>Ожидается делегат CLI</value>
+</data>
+<data name="RequiresExpressionClause_Text" xml:space="preserve">
+  <value>Предложение выражения requires</value>
+</data>
+<data name="Operator_Text" xml:space="preserve">
+  <value>Оператор</value>
+</data>
+<data name="Enumerator_Text" xml:space="preserve">
+  <value>Перечислитель</value>
+</data>
+<data name="Parser_Error_ExpectedGetOrPut_Text" xml:space="preserve">
+  <value>Ожидается 'get' или 'put'</value>
+</data>
+<data name="Interface_Text" xml:space="preserve">
+  <value>interface</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrGt_Text" xml:space="preserve">
+  <value>Ожидается ',' или '&gt;'</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrRBracket_Text" xml:space="preserve">
+  <value>Ожидается ',' или ']'</value>
+</data>
+<data name="ComparisonUtil_FormatWithDeletionReason_Text" xml:space="preserve">
+  <value>{0}:
+{1}</value>
+</data>
+<data name="Parser_Error_ExpectedEq_Text" xml:space="preserve">
+  <value>Ожидается '='</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrRParen_Text" xml:space="preserve">
+  <value>Ожидается ',' или ')'</value>
+</data>
+<data name="IndexingSymbols_Text" xml:space="preserve">
+  <value>Индексирование символов…</value>
+</data>
+<data name="Enum_Text" xml:space="preserve">
+  <value>enum</value>
+</data>
+<data name="Parser_Error_ExpectedColon_Text" xml:space="preserve">
+  <value>Ожидается ':'</value>
+</data>
+<data name="ProtectedMethod_Text" xml:space="preserve">
+  <value>protected метод</value>
+</data>
+<data name="Member_Text" xml:space="preserve">
+  <value>Член</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemString_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::String' не найден</value>
+</data>
+<data name="Parser_Error_ConceptsAreOnlyAllowedAtNamespaceLevel_Text" xml:space="preserve">
+  <value>Концепты разрешены только на уровне пространства имен</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemIDisposable_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::IDisposable' не найден</value>
+</data>
+<data name="ComparisonUtil_NotSupportedInTheCurrentLanguageDialect_Text" xml:space="preserve">
+  <value>Не поддерживается в текущем диалекте языка</value>
+</data>
+<data name="SymbolCache_SerializationObject_Text" xml:space="preserve">
+  <value>Кэш символов</value>
+</data>
+<data name="EnumDefinition_Text" xml:space="preserve">
+  <value>Определение перечисления</value>
+</data>
+<data name="Parser_Error_MustBeATypeConcept_Text" xml:space="preserve">
+  <value>Должен быть тип-концепт</value>
+</data>
+<data name="Parser_Error_ExpectedSemicolon_Text" xml:space="preserve">
+  <value>Ожидается ';'</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_angle_brackets" xml:space="preserve">
+  <value>Вокруг угловых скобок</value>
+</data>
+<data name="CommonLanguageRunTimeIsSupportedInFileButSystemVoid_Text" xml:space="preserve">
+  <value>В файле поддерживается общеязыковая среда выполнения, но тип 'System::Void' не найден</value>
+</data>
+<data name="Parser_Error_QualifierCanBeUsedOnlyAfter_Text" xml:space="preserve">
+  <value>Квалификатор '{0}' может использоваться только после '*'</value>
+</data>
+<data name="Parser_Error_ExpectedSpecifierValue_Text" xml:space="preserve">
+  <value>Ожидается значение спецификатора</value>
+</data>
+<data name="Parser_Error_ExpectedParameterDeclaration_Text" xml:space="preserve">
+  <value>Ожидается объявление параметра</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_operator_symbols" xml:space="preserve">
+  <value>Вокруг символов операторов</value>
+</data>
+<data name="TypeAlias_Text" xml:space="preserve">
+  <value>Псевдоним типа</value>
+</data>
+<data name="Parser_Error_ExpectedMacroParameter_Text" xml:space="preserve">
+  <value>Ожидается параметр макроса</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_member_access_symbols" xml:space="preserve">
+  <value>Вокруг символов доступа к членам</value>
+</data>
+<data name="DeclaredElement_From_Text" xml:space="preserve">
+  <value>Из {0}</value>
+</data>
+<data name="ComparisonUtil_FuncIsNotAccessible_Text" xml:space="preserve">
+  <value>{0} недоступен</value>
+</data>
+<data name="Parser_Error_ExpectedRPar_Text" xml:space="preserve">
+  <value>Ожидается ')'</value>
+</data>
+<data name="ClassField_Text" xml:space="preserve">
+  <value>Поле класса</value>
+</data>
+<data name="Parser_Error_ExpectedSecondArgumentOfForLoop_Text" xml:space="preserve">
+  <value>Ожидается второй аргумент цикла for</value>
+</data>
+<data name="Parser_Error_ExpectedStringLiteral_Text" xml:space="preserve">
+  <value>Ожидается строковый литерал</value>
+</data>
+<data name="ComparisonUtil_MustHaveTwoParametersOfSpecificTypes_Text" xml:space="preserve">
+  <value>Должен иметь два параметра типа {0} или два параметра типа {1}</value>
+</data>
+<data name="Union_Text" xml:space="preserve">
+  <value>union</value>
+</data>
+<data name="Parser_Error_ExpectedCommaOrRBrace_Text" xml:space="preserve">
+  <value>Ожидается ',' или '}'</value>
+</data>
+<data name="Parser_Error_ExpectedGtGtGt_Text" xml:space="preserve">
+  <value>Ожидается '&gt;&gt;&gt;'</value>
+</data>
+<data name="GlslFile_Text" xml:space="preserve">
+  <value>glsl файл</value>
+</data>
+<data name="DeclaredElement_InBrackets_Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="Parser_Error__IsNotAFoldableOperator_Text" xml:space="preserve">
+  <value>'{0}' не является складываемым оператором</value>
+</data>
+<data name="TypeTemplateParameter_Text" xml:space="preserve">
+  <value>Типовой параметр шаблона</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Tabs_are_prohibited_except_for_indentation" xml:space="preserve">
+  <value>Табуляция запрещена, кроме как для отступов</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_namespace_braces" xml:space="preserve">
+  <value>Вокруг фигурных скобок пространства имен</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Blank_lines_are_missing_elsewhere" xml:space="preserve">
+  <value>В других местах отсутствуют пустые строки</value>
+</data>
+<data name="Parser_Error_ExpectedOperator_Text" xml:space="preserve">
+  <value>Ожидается '{0}'</value>
+</data>
+<data name="Parser_Error_UnknownDeclspec__Text" xml:space="preserve">
+  <value>Неизвестный declspec '{0}'</value>
+</data>
+<data name="ComparisonUtil_MustHaveASingleParameterOfType_Text" xml:space="preserve">
+  <value>Должен иметь один параметр типа {0}</value>
+</data>
+<data name="SourceFile_Text" xml:space="preserve">
+  <value>Исходный файл</value>
+</data>
+<data name="Linkage_Processing_Text" xml:space="preserve">
+  <value>Обработка {0}</value>
+</data>
+<data name="PresenterUtil_BracedInitList_Text" xml:space="preserve">
+  <value>список инициализации в фигурных скобках</value>
+</data>
+<data name="NonTypeTemplateArgument_Text" xml:space="preserve">
+  <value>Нетиповой аргумент шаблона</value>
+</data>
+<data name="Always_Description_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="Parser_Error_ExpectedRefOrValue_Text" xml:space="preserve">
+  <value>Ожидается 'ref' или 'value'</value>
+</data>
+<data name="ComparisonUtil_CannotBeStaticMemberFunction_Text" xml:space="preserve">
+  <value>Не может быть {0} функцией-членом</value>
+</data>
+<data name="PublicField_Text" xml:space="preserve">
+  <value>public поле</value>
+</data>
+<data name="Parser_Error_ExpectedLParOrLBrace_Text" xml:space="preserve">
+  <value>Ожидается '(' или '{'</value>
+</data>
+<data name="Parser_Error_ExpectedCliConstraintTypeId_Text" xml:space="preserve">
+  <value>Ожидается идентификатор типа ограничения CLI</value>
+</data>
+<data name="Parser_Error_ExpectedGenericConstraintItem_Text" xml:space="preserve">
+  <value>Ожидается элемент универсального ограничения</value>
+</data>
+<data name="Parser_Error_ExpectedPrivate_Text" xml:space="preserve">
+  <value>Ожидается 'private'</value>
+</data>
+<data name="Parser_Error_ExpectedDeclarator_Text" xml:space="preserve">
+  <value>Ожидается декларатор</value>
+</data>
+<data name="HlslFile_Text" xml:space="preserve">
+  <value>hlsl файл</value>
+</data>
+<data name="Module_Text" xml:space="preserve">
+  <value>Модуль</value>
+</data>
+<data name="PresenterUtil_ImplicitlyGenerated_Text" xml:space="preserve">
+  <value>[Неявно сгенерировано]</value>
+</data>
+<data name="Parser_Error_TemplateInCompoundStatement_Text" xml:space="preserve">
+  <value>Объявления шаблонов разрешены только в глобальной области, области пространства имен или области класса</value>
+</data>
+<data name="Parser_Error_ParensCannotBeUsedInIfConsteval_Text" xml:space="preserve">
+  <value>'consteval' не должен заключаться в круглые скобки</value>
+</data>
+<data name="CppStandardLibrary_Text" xml:space="preserve">
+  <value>Стандартная библиотека C++</value>
+</data>
+<data name="Parser_Error_UnknownOperatorType_Text" xml:space="preserve">
+  <value>Неизвестный тип оператора</value>
+</data>
+<data name="Parser_Error_ExpectedThis_Text" xml:space="preserve">
+  <value>Ожидается 'this'</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_braces" xml:space="preserve">
+  <value>Вокруг фигурных скобок</value>
+</data>
+<data name="InitializingSymbolCache_Text" xml:space="preserve">
+  <value>Инициализация кэша символов…</value>
+</data>
+<data name="Parser_Error_ExpectedCliProperty_Text" xml:space="preserve">
+  <value>Ожидается свойство CLI</value>
+</data>
+<data name="UnionDefinition_Text" xml:space="preserve">
+  <value>Определение объединения</value>
+</data>
+<data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowedAfterMSAttribute_Text" xml:space="preserve">
+  <value>Последовательность спецификаторов атрибутов не допускается после атрибута MS</value>
+</data>
+<data name="PredefinedMacro_Text" xml:space="preserve">
+  <value>Предопределенный макрос</value>
+</data>
+<data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Incorrect_number_of_blank_lines_near_braces" xml:space="preserve">
+  <value>Некорректное количество пустых строк near фигурных скобок</value>
+</data>
+<data name="ComparisonUtil_MustBeConstQualified_Text" xml:space="preserve">
+  <value>Должен быть {0}-квалифицирован</value>
+</data>
+<data name="Parser_Error_ExpectedAfterIf_Text" xml:space="preserve">
+  <value>После 'if' ожидается '('</value>
+</data>
+<data name="LocalVariable_Text" xml:space="preserve">
+  <value>Локальная переменная</value>
+</data>
+</root>

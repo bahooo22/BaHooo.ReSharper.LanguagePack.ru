@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ProjectWasSuccessfullyMigratedToProjectReferences_Text" xml:space="preserve">
+  <value>Проект успешно перенесен на ProjectReferences</value>
+</data>
+<data name="RiderIntegrated_Text" xml:space="preserve">
+  <value>Интеграция Rider</value>
+</data>
+<data name="_WasSuccessfullyInstalledTo__Text" xml:space="preserve">
+  <value>{0} успешно установлен в {1}</value>
+</data>
+<data name="RemoveDependenciesSettingDescription" xml:space="preserve">
+  <value>Удалять зависимости</value>
+</data>
+<data name="PreparingAssemblies_Text" xml:space="preserve">
+  <value>Подготовка сборок</value>
+</data>
+<data name="ClearNuGetFolders__Caption" xml:space="preserve">
+  <value>Очистка папок NuGet: {0}</value>
+</data>
+<data name="Failing_Text" xml:space="preserve">
+  <value>Сбой...</value>
+</data>
+<data name="UpdatingAllPackagesInSolution" xml:space="preserve">
+  <value>Обновление всех пакетов в решении</value>
+</data>
+<data name="Uninstalling_From__Caption" xml:space="preserve">
+  <value>Удаление {0} из {1}</value>
+</data>
+<data name="NuGetFolderCleaningIsCancelled_Caption" xml:space="preserve">
+  <value>Очистка папки NuGet отменена</value>
+</data>
+<data name="Feed_Invalid_Name" xml:space="preserve">
+  <value>Недопустимое имя: '{0}'</value>
+</data>
+<data name="NETCLIX64ExecutablePathSettingDescription" xml:space="preserve">
+  <value>Путь к исполняемому файлу .NET CLI x64</value>
+</data>
+<data name="IsSolutionWatchdogEnabledSettingDescription" xml:space="preserve">
+  <value>Включен ли монитор решений</value>
+</data>
+<data name="CacheFolderLocationTypeSettingDescription" xml:space="preserve">
+  <value>Тип расположения папки кэша</value>
+</data>
+<data name="ItemTypesToFetchAsCompileFilesAlongWithTheirBuildActionSettingDescription" xml:space="preserve">
+  <value>Типы элементов, получаемых как файлы компиляции, вместе с их действием при сборке</value>
+</data>
+<data name="ConfiguresNuGetSettingDescription" xml:space="preserve">
+  <value>Настройка NuGet</value>
+</data>
+<data name="PolicyForAutomaticDownloadSDKPropertySettingDescription" xml:space="preserve">
+  <value>Автоматически загружать .NET SDK, если целевая версия SDK не найдена</value>
+</data>
+<data name="DontUseReferencesProvidedByRoslynUseCOMAPISettingDescription" xml:space="preserve">
+  <value>Не использовать ссылки, предоставляемые Roslyn. Использовать COM API.</value>
+</data>
+<data name="FollowingInvalidFallbackFoldersFound_Text" xml:space="preserve">
+  <value>Найдены следующие недопустимые резервные папки&lt;br/&gt;{0}</value>
+</data>
+<data name="IncludeUnlistedSettingDescription" xml:space="preserve">
+  <value>Включать скрытые пакеты</value>
+</data>
+<data name="RunBuildAfterSolutionIsLoadedSettingDescription" xml:space="preserve">
+  <value>Запускать сборку после загрузки решения</value>
+</data>
+<data name="NuGetNETCLIPlugins_Text" xml:space="preserve">
+  <value>Плагины NuGet/.NET CLI</value>
+</data>
+<data name="EditProjectItemPropertiesActionText" xml:space="preserve">
+  <value>Редактировать свойства элемента проекта</value>
+</data>
+<data name="UseAzureCredentialProviderV2Title" xml:space="preserve">
+  <value>Использовать встроенный поставщик учетных данных Azure (экспериментально)</value>
+</data>
+<data name="Assembly_PresentableLocation_Text" xml:space="preserve">
+  <value>&lt;Сборка:{0}&gt;</value>
+</data>
+<data name="FailedToRetrievePackageSourceCredentials__Text" xml:space="preserve">
+  <value>Не удалось получить учетные данные источника пакета '{0}'</value>
+</data>
+<data name="RecentCustomNETCLIX86ExecutablePathsSettingDescription" xml:space="preserve">
+  <value>Последние пользовательские пути к исполняемым файлам .NET CLI x86</value>
+</data>
+<data name="NETCLIExecutablePathSettingDescription" xml:space="preserve">
+  <value>Путь к исполняемому файлу .NET CLI</value>
+</data>
+<data name="CannotInstallPackage_InProject_Because_Text" xml:space="preserve">
+  <value>Невозможно установить пакет '{0}' в проект '{1}', так как их имена совпадают. Рассмотрите возможность переименования проекта.</value>
+</data>
+<data name="ProjectModelSynchronizerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки ProjectModelSynchronizer</value>
+</data>
+<data name="WhetherToLoadProjectModelFromVisualStudioCOMAPIOrFromFilesOnDiskSettingDescription" xml:space="preserve">
+  <value>Загружать модель проекта из Visual Studio COM API или из файлов на диске</value>
+</data>
+<data name="RestoreSkipped_Caption" xml:space="preserve">
+  <value>Восстановление пропущено</value>
+</data>
+<data name="Project_Shared_Text" xml:space="preserve">
+  <value>Проект {0} общий</value>
+</data>
+<data name="ForceRemoveSettingDescription" xml:space="preserve">
+  <value>Принудительное удаление</value>
+</data>
+<data name="Project_Personal_Text" xml:space="preserve">
+  <value>Проект {0} личный</value>
+</data>
+<data name="WhetherToUseMSBuildToObtainProjectReferencesAndGeneratedFilesSettingDescription" xml:space="preserve">
+  <value>Использовать ли MSBuild для получения ссылок проекта и сгенерированных файлов</value>
+</data>
+<data name="CustomPathForBuildToolSettingDescription" xml:space="preserve">
+  <value>Пользовательский путь для инструмента сборки</value>
+</data>
+<data name="AdditionalCompileItemsDisplayName_Text" xml:space="preserve">
+  <value>Дополнительные элементы компиляции</value>
+</data>
+<data name="ShowBuildResultsAfterBuildCompletedSettingDescription" xml:space="preserve">
+  <value>Показывать результаты сборки после ее завершения</value>
+</data>
+<data name="MonoExePathSettingDescription" xml:space="preserve">
+  <value>Путь к Mono exe</value>
+</data>
+<data name="FolderAutoCleanModeSettingDescription" xml:space="preserve">
+  <value>Режим автоматической очистки папки</value>
+</data>
+<data name="FileConflictActionSettingDescription" xml:space="preserve">
+  <value>Действие при конфликте файлов</value>
+</data>
+<data name="CredentialProvidersSettingDescription" xml:space="preserve">
+  <value>Поставщики учетных данных</value>
+</data>
+<data name="TrackPublicAPIChangesAndOnlyRebuildDependenciesWhenPublicAPIIsChangedNotRecommendedForSolutionsThatIncludeNonMSBuildProjectsOrProjectsWithCustomBuildStepsSettingDescription" xml:space="preserve">
+  <value>Отслеживать изменения Public API и перестраивать зависимости только при изменении Public API. Не рекомендуется для решений, включающих проекты не-MSBuild или проекты с пользовательскими шагами сборки.</value>
+</data>
+<data name="NuGet_Fallback_Title" xml:space="preserve">
+  <value>Откат {0}</value>
+</data>
+<data name="TargetsToExecuteToFetchGeneratedFilesToBeCompiledAlongWithSourcesSettingDescription" xml:space="preserve">
+  <value>Цели для выполнения, чтобы получить сгенерированные файлы для компиляции вместе с исходниками</value>
+</data>
+<data name="PackageSource_WasRemoved_Text" xml:space="preserve">
+  <value>Источник пакетов '{0}' был удален</value>
+</data>
+<data name="NETCLIX86ExecutablePathSettingDescription" xml:space="preserve">
+  <value>Путь к исполняемому файлу .NET CLI x86</value>
+</data>
+<data name="AllPackagesWereSuccessfullyUpdated_Text" xml:space="preserve">
+  <value>Все пакеты успешно обновлены</value>
+</data>
+<data name="TheSolutionSettingsFileCouldNotBeUpgraded_Text" xml:space="preserve">
+  <value>Не удалось обновить файл настроек решения с предыдущей версии.
+
+{0}
+{1}</value>
+</data>
+<data name="UninstallFailedProject_Package__Text" xml:space="preserve">
+  <value>Сбой удаления (Проект: {0}, Пакет: {1})</value>
+</data>
+<data name="StartingFeatures_Text" xml:space="preserve">
+  <value>Запуск функций</value>
+</data>
+<data name="FailedToAddPackageSource__Text" xml:space="preserve">
+  <value>Не удалось добавить источник пакетов '{0}'</value>
+</data>
+<data name="Build_Caption" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="Console_Text" xml:space="preserve">
+  <value>Консоль</value>
+</data>
+<data name="UninstallPackage0FromProject1" xml:space="preserve">
+  <value>Удалить '{0}' из {1}</value>
+</data>
+<data name="SeeLogsForDetails_Text" xml:space="preserve">
+  <value>Подробности см. в журналах</value>
+</data>
+<data name="IgnoreDisableInterruptionAssertCookieDescription" xml:space="preserve">
+  <value>Принудительно включает проверку для отключенных известных случаев</value>
+</data>
+<data name="NuGetSettingDescription" xml:space="preserve">
+  <value>NuGet</value>
+</data>
+<data name="UseAllColorsForPaintingOutputMessagesOnlyForTestingSettingDescription" xml:space="preserve">
+  <value>Использовать все цвета для окрашивания выходных сообщений. Только для тестирования.</value>
+</data>
+<data name="AllPackagesAreAlreadyRestored_Text" xml:space="preserve">
+  <value>Все пакеты уже восстановлены</value>
+</data>
+<data name="NuGetHome" xml:space="preserve">
+  <value>NuGet Home</value>
+</data>
+<data name="DoNotCreateSolutionContainerUntilSolutionInstance_Text" xml:space="preserve">
+  <value>Ожидание компонента экземпляра решения</value>
+</data>
+<data name="HttpRequestError__Caption" xml:space="preserve">
+  <value>Ошибка HttpRequest ({0})</value>
+</data>
+<data name="RestoreAllPackagesInSolution" xml:space="preserve">
+  <value>Восстановить все пакеты в решении</value>
+</data>
+<data name="Local_Packages" xml:space="preserve">
+  <value>Локальные пакеты</value>
+</data>
+<data name="PackageSource_WasAdded_Text" xml:space="preserve">
+  <value>Источник пакетов '{0}' был добавлен</value>
+</data>
+<data name="LoadingSolution_Text" xml:space="preserve">
+  <value>Загрузка решения</value>
+</data>
+<data name="NameSettingDescription" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="CacheFullTreeInStubTreeNodesCachesDescription" xml:space="preserve">
+  <value>Кэшировать полные PSI-деревья в StubTreeNodesCache</value>
+</data>
+<data name="BindingRedirectsWasAddedSuccessfully_Text" xml:space="preserve">
+  <value>Перенаправления привязок успешно добавлены</value>
+</data>
+<data name="RunConfigurationsSettingDescription" xml:space="preserve">
+  <value>Конфигурации запуска</value>
+</data>
+<data name="AllPackagesWereSuccessfullyInstalled_Text" xml:space="preserve">
+  <value>Все пакеты успешно установлены в проект</value>
+</data>
+<data name="FailedToRemovePackageSource__Text" xml:space="preserve">
+  <value>Не удалось удалить источник пакетов '{0}'</value>
+</data>
+<data name="RestoreFailed_Text" xml:space="preserve">
+  <value>Сбой восстановления</value>
+</data>
+<data name="AdditionalCompileItemsPerProjectSettingDescription" xml:space="preserve">
+  <value>Дополнительные элементы компиляции для каждого проекта</value>
+</data>
+<data name="TimeoutError__Caption" xml:space="preserve">
+  <value>Ошибка таймаута ({0})</value>
+</data>
+<data name="InstallingAnnotationsNuGetPackage_Text" xml:space="preserve">
+  <value>Установка пакета NuGet аннотаций</value>
+</data>
+<data name="BuildToolSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки инструмента сборки</value>
+</data>
+<data name="AlwaysUseValueFromNuGetConfig_Text" xml:space="preserve">
+  <value>Всегда использовать значение из NuGet.Config</value>
+</data>
+<data name="Automatic_Text" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="AdditionalAssemblyReferencesPerProjectSettingDescription" xml:space="preserve">
+  <value>Дополнительные ссылки на сборки для каждого проекта</value>
+</data>
+<data name="UpdatingAllPackagesIn" xml:space="preserve">
+  <value>Обновление всех пакетов в {0}</value>
+</data>
+<data name="NuGetRestoreIsDisabledInSettings_Text" xml:space="preserve">
+  <value>Восстановление NuGet отключено в настройках</value>
+</data>
+<data name="Global_Packages" xml:space="preserve">
+  <value>Глобальные пакеты</value>
+</data>
+<data name="_CannotAccessNuGetConfigPleaseCheck_Text" xml:space="preserve">
+  <value>{0}: Нет доступа к NuGet.Config, проверьте NuGet.Config</value>
+</data>
+<data name="CacheTokensAndBuffersDescription" xml:space="preserve">
+  <value>Кэшировать токены и буферы в StubTreeNodesCache</value>
+</data>
+<data name="BRestoreFailedWithFollowingErrorsBN_Text" xml:space="preserve">
+  <value>&lt;b&gt;Восстановление завершилось с ошибками:&lt;/b&gt;
+
+{0}</value>
+</data>
+<data name="AssertInterruptibleReadAccessDescription" xml:space="preserve">
+  <value>Вызывает исключение при доступе к модели содержимого не прерываемым способом</value>
+</data>
+<data name="Package_Cache" xml:space="preserve">
+  <value>Кэш пакетов</value>
+</data>
+<data name="UseNewPresentationBuildResultsTreeWithProjectsBuildStateSettingDescription" xml:space="preserve">
+  <value>Использовать новое представление (дерево результатов сборки с состоянием сборки проектов)</value>
+</data>
+<data name="ReadingCaches_Text" xml:space="preserve">
+  <value>Чтение кэшей</value>
+</data>
+<data name="FailedWithoutErrors_Text" xml:space="preserve">
+  <value>Сбой без ошибок</value>
+</data>
+<data name="NuGetNETCLIPluginsThenRiderIntegrated_Text" xml:space="preserve">
+  <value>Плагины NuGet/.NET CLI, затем интеграция Rider</value>
+</data>
+<data name="RecentCustomBuildToolPathsSettingDescription" xml:space="preserve">
+  <value>Последние пользовательские пути к инструменту сборки</value>
+</data>
+<data name="NamespaceProviderDescription_Text" xml:space="preserve">
+  <value>Указывает, следует ли включать имена папок как часть пространства имен для исходных файлов в этой папке</value>
+</data>
+<data name="WhetherToRunMsbuildWithinVisualStudioOrUseExternalProcessSettingDescription" xml:space="preserve">
+  <value>Запускать MSBuild внутри Visual Studio или использовать внешний процесс</value>
+</data>
+<data name="RecentCustomNETCLIX64ExecutablePathsSettingDescription" xml:space="preserve">
+  <value>Последние пользовательские пути к исполняемым файлам .NET CLI x64</value>
+</data>
+<data name="PolicyForenabledNuGetConfigRestorePropertySettingDescription" xml:space="preserve">
+  <value>Политика для свойства восстановления 'enabled' в NuGet.Config</value>
+</data>
+<data name="Project_Plural" xml:space="preserve">
+  <value>{0} {0:choice:1#проект|2#проекта|3#проекта|4#проекта|other#проектов}</value>
+</data>
+<data name="PackageSpecDumpStrategySettingDescription" xml:space="preserve">
+  <value>Стратегия дампа PackageSpec</value>
+</data>
+<data name="InstallFailedProject_Package__Text" xml:space="preserve">
+  <value>Сбой установки (Проект: {0}, Пакет: {1})</value>
+</data>
+<data name="MachineConfigDir" xml:space="preserve">
+  <value>Каталог Machine.config</value>
+</data>
+<data name="CustomGlobalPropertiesSettingDescription" xml:space="preserve">
+  <value>Пользовательские глобальные свойства</value>
+</data>
+<data name="RestoringPackagesInSolution__Caption" xml:space="preserve">
+  <value>Восстановление пакетов в решении {0}</value>
+</data>
+<data name="SucceededWithErrors_Text" xml:space="preserve">
+  <value>Успешно, но с ошибками</value>
+</data>
+<data name="_ReadFailed_Text" xml:space="preserve">
+  <value>{0}: Ошибка чтения</value>
+</data>
+<data name="ProjectSettingsStorageComponentOriginShared_Text" xml:space="preserve">
+  <value>Файл *proj.DotSettings в папке проекта — общий для команды, если добавлен в систему контроля версий</value>
+</data>
+<data name="CanTStartBuildSolutionHasnTBeenLoaded_Text" xml:space="preserve">
+  <value>Невозможно начать сборку. Решение еще не загружено. Продолжить без сборки?</value>
+</data>
+<data name="PackageSource_WasUpdated_Text" xml:space="preserve">
+  <value>Источник пакетов '{0}' был обновлен</value>
+</data>
+<data name="InstallationSourceSettingDescription" xml:space="preserve">
+  <value>Источник установки</value>
+</data>
+<data name="ProjectGuidsThatNeedMsbuildCalledSettingDescription" xml:space="preserve">
+  <value>GUID проектов, для которых требуется вызов msbuild</value>
+</data>
+<data name="UpdatingAllPackagesIn__Caption" xml:space="preserve">
+  <value>Обновление всех пакетов в {0}</value>
+</data>
+<data name="NumberOfProcessesRunningInParallelDuringSolutionLoadingSettingDescription" xml:space="preserve">
+  <value>Количество процессов, выполняемых параллельно во время загрузки решения</value>
+</data>
+<data name="Feed_URL_Exists" xml:space="preserve">
+  <value>Канал с URL '{0}' уже существует</value>
+</data>
+<data name="ExcludedProjectsSettingDescription" xml:space="preserve">
+  <value>Исключенные проекты</value>
+</data>
+<data name="___Text" xml:space="preserve">
+  <value>{0} ({1})</value>
+</data>
+<data name="SolutionSettingsStoragePersonalOrigin_Text" xml:space="preserve">
+  <value>Файл sln.DotSettings.User в папке решения — не следует добавлять в систему контроля версий</value>
+</data>
+<data name="FailedToFindConfigFile_Text" xml:space="preserve">
+  <value>Не удалось найти файл конфигурации</value>
+</data>
+<data name="ActiveSettingDescription" xml:space="preserve">
+  <value>Активный</value>
+</data>
+<data name="LoadingProjects_Text" xml:space="preserve">
+  <value>Загрузка проектов</value>
+</data>
+<data name="UseGetClCommandLinesTargetForCppProjectsTooltip" xml:space="preserve">
+  <value>Если включено, будет запущена цель 'GetClCommandLines', и ее результаты будут проанализированы для получения свойств проектов C++.</value>
+</data>
+<data name="UninstallFailedProject_Package__Caption" xml:space="preserve">
+  <value>Сбой удаления (Проект: {0}, Пакет: {1})</value>
+</data>
+<data name="WaitForAsyncProjectModelLoad_Text" xml:space="preserve">
+  <value>Ожидание асинхронной загрузки модели проекта</value>
+</data>
+<data name="WaitSolutionContainerComponentsCompose_Text" xml:space="preserve">
+  <value>Ожидание компонентов контейнера решения</value>
+</data>
+<data name="WriteLogToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать журнал в вывод</value>
+</data>
+<data name="NuGetBrowserSearchServiceUrlForTestsSettingDescription" xml:space="preserve">
+  <value>URL службы поиска обозревателя NuGet для тестов</value>
+</data>
+<data name="AdditionalAssemblyReferencesDescription_Text" xml:space="preserve">
+  <value>Список, разделенный точками с запятой, абсолютных или относительных путей к библиотекам, которые могут быть неправильно разрешены</value>
+</data>
+<data name="SolutionBuilderDashboardActionsRestoreNugetActionText" xml:space="preserve">
+  <value>Восстановить NuGet-пакеты</value>
+</data>
+<data name="ConfiguresSolutionAndProjectBuildSettingDescription" xml:space="preserve">
+  <value>Настройка сборки решения и проекта</value>
+</data>
+<data name="RecentCustomMonoExecutablePathsSettingDescription" xml:space="preserve">
+  <value>Последние пользовательские пути к исполняемым файлам mono</value>
+</data>
+<data name="Http_Cache" xml:space="preserve">
+  <value>HTTP-кэш</value>
+</data>
+<data name="CachesLocationIfLocationTypeCUSTOMFOLDERSettingDescription" xml:space="preserve">
+  <value>Расположение кэша, если LocationType == CUSTOM_FOLDER</value>
+</data>
+<data name="EnvironmentHierarchySettingsInVisualStudioThisIsTheSolutionProjectModelSettingDescription" xml:space="preserve">
+  <value>Настройки иерархии окружения. В Visual Studio это модель решения/проекта.</value>
+</data>
+<data name="CalculatingModifiedFiles_ToolTip" xml:space="preserve">
+  <value>Вычисление измененных файлов…</value>
+</data>
+<data name="MachineSettingsBaseDir" xml:space="preserve">
+  <value>Базовый каталог настроек машины</value>
+</data>
+<data name="SearchInAzureBlobsSettingDescription" xml:space="preserve">
+  <value>Поиск в контейнерах Azure Blob</value>
+</data>
+<data name="ShowVerticalProgressBarWhenBuildStartedSettingDescription" xml:space="preserve">
+  <value>Показывать вертикальную полосу прогресса при начале сборки</value>
+</data>
+<data name="SolutionSettingsStorageSharedOrigin_Text" xml:space="preserve">
+  <value>Файл sln.DotSettings в папке решения — общий для команды, если добавлен в систему контроля версий</value>
+</data>
+<data name="Displaying_NuGetConfig" xml:space="preserve">
+  <value>Отображение действительного NuGet.Config, полученного в результате объединения следующих файлов:</value>
+</data>
+<data name="PreparingSolutionStructure_Text" xml:space="preserve">
+  <value>Подготовка структуры решения</value>
+</data>
+<data name="TypeSettingDescription" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="NuGetSourcePathIsInvalid_Caption" xml:space="preserve">
+  <value>Неверный путь к источнику NuGet</value>
+</data>
+<data name="PsiCachesRepairServiceEnabledDescription" xml:space="preserve">
+  <value>Включает службу автоматического восстановления кэшей PSI</value>
+</data>
+<data name="SearchPageSizeDescription" xml:space="preserve">
+  <value>Размер страницы поиска</value>
+</data>
+<data name="Solution_Personal_Text" xml:space="preserve">
+  <value>Решение "{0}" личное</value>
+</data>
+<data name="GenerateBindingRedirectsFailedProject_Text" xml:space="preserve">
+  <value>Сбой генерации перенаправлений привязок (Проект: {0}): {1}</value>
+</data>
+<data name="_WasSuccessfullyUninstalledFrom__Text" xml:space="preserve">
+  <value>{0} успешно удален из {1}</value>
+</data>
+<data name="EnableGroupingSolutionBuilderResultsByNamespacesTypesAndMembersSettingDescription" xml:space="preserve">
+  <value>Включить группировку результатов сборщика решений по пространствам имен, типам и членам</value>
+</data>
+<data name="WaitTenSecondsBeforeRestoringPackagesShouldBeVisibleOnlyInInternalOnlyForManualTestingSettingDescription" xml:space="preserve">
+  <value>Ждать десять секунд перед восстановлением пакетов. Должно быть видно только внутри. Только для ручного тестирования.</value>
+</data>
+<data name="SettingsForNuGetBrowserSettingDescription" xml:space="preserve">
+  <value>Настройки обозревателя NuGet</value>
+</data>
+<data name="NuGet_Text" xml:space="preserve">
+  <value>NuGet</value>
+</data>
+<data name="SolutionWatchdogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки монитора решений</value>
+</data>
+<data name="TheEventsAllowedIntoTheLoggerMustBeAtLeastThisImportantAllowingThroughLowerImportanceEventsSlowDownTheBuildProcessSettingDescription" xml:space="preserve">
+  <value>События, разрешенные для регистрации, должны быть как минимум такой важности. Разрешение событий с меньшей важностью замедлит процесс сборки.</value>
+</data>
+<data name="AfterBuildFinishesSwitchToTreeViewModeIfAnyImportantEventsWereReportedDuringTheBuildSettingDescription" xml:space="preserve">
+  <value>После завершения сборки переключаться в режим дерева, если во время сборки были сообщены важные события</value>
+</data>
+<data name="NuGetConfigContainsInvalidFallbackFolders_Caption" xml:space="preserve">
+  <value>Конфигурация NuGet содержит недопустимые резервные папки</value>
+</data>
+<data name="SolutionBuilderDashboardActionsRestoreNugetActionDescription" xml:space="preserve">
+  <value>Восстановить пакеты NuGet</value>
+</data>
+<data name="AdditionalCompileItemsDescription_Text" xml:space="preserve">
+  <value>Список, разделенный точками с запятой, абсолютных или относительных путей к файлам, включенным в компиляцию, но которые могут быть неправильно разрешены</value>
+</data>
+<data name="ProjectGuidSettingDescription" xml:space="preserve">
+  <value>GUID проекта</value>
+</data>
+<data name="NuGetFoldersAreCleared_Caption" xml:space="preserve">
+  <value>Папки NuGet очищены</value>
+</data>
+<data name="AutoAttachSettingDescription" xml:space="preserve">
+  <value>Автоприсоединение</value>
+</data>
+<data name="None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="PresentationAspectsOfTheSolutionBuilderSettingDescription" xml:space="preserve">
+  <value>Аспекты представления сборщика решений</value>
+</data>
+<data name="WillInstallAnnotationsNuGetPackage_Text" xml:space="preserve">
+  <value>{0} (будет установлен пакет NuGet 'JetBrains.Annotations')</value>
+</data>
+<data name="AlwaysDisable_Text" xml:space="preserve">
+  <value>Всегда отключать</value>
+</data>
+<data name="MRUGroupingOfBuildResultsInBuildResultsViewSettingDescription" xml:space="preserve">
+  <value>Группировка MRU результатов сборки в представлении результатов сборки</value>
+</data>
+<data name="ConstructingComponents_Text" xml:space="preserve">
+  <value>Построение компонентов</value>
+</data>
+<data name="ShowBuildProgressInWindowsTaskBarWhenABuildIsRunningSettingDescription" xml:space="preserve">
+  <value>Показывать ход сборки в панели задач Windows во время сборки</value>
+</data>
+<data name="WhetherToAvoidRebuildingUnchangedProjectsWhoseReferencesHaveOnlyHadInsignificantChangesSinceLastBuildSettingDescription" xml:space="preserve">
+  <value>Избегать ли пересборки неизмененных проектов, ссылки которых имели лишь незначительные изменения с последней сборки</value>
+</data>
+<data name="PackageUninstallFailedSeeLogForDetails_Text" xml:space="preserve">
+  <value>Не удалось удалить пакет. Подробности см. в журнале.</value>
+</data>
+<data name="SingleConfigurationSettingDescription" xml:space="preserve">
+  <value>Одиночная конфигурация</value>
+</data>
+<data name="MigrationFailedProject___Text" xml:space="preserve">
+  <value>Сбой переноса (Проект: {0}): {1}</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="Failed_Text" xml:space="preserve">
+  <value>Не удалось</value>
+</data>
+<data name="SolutionSettingsUpgradedSettingDescription" xml:space="preserve">
+  <value>Настройки решения обновлены</value>
+</data>
+<data name="RestoreFailed_Caption" xml:space="preserve">
+  <value>Сбой восстановления</value>
+</data>
+<data name="DefaultPackageManagementFormatSettingDescription" xml:space="preserve">
+  <value>Формат управления пакетами по умолчанию</value>
+</data>
+<data name="ProjectMasksToIgnoreSettingDescription" xml:space="preserve">
+  <value>Маски проектов для игнорирования</value>
+</data>
+<data name="PackageUninstallFailedDueToRestoreCancel_Text" xml:space="preserve">
+  <value>Не удалось удалить пакет из-за отмены восстановления. Подробности см. в журнале.</value>
+</data>
+<data name="Solution_PresentableLocation_Text" xml:space="preserve">
+  <value>&lt;Решение:{0}&gt;</value>
+</data>
+<data name="Canceling_Text" xml:space="preserve">
+  <value>Отмена…</value>
+</data>
+<data name="SmartRestoreOnBuildSettingDescription" xml:space="preserve">
+  <value>Умное восстановление при сборке</value>
+</data>
+<data name="MsBuild_Text" xml:space="preserve">
+  <value>MsBuild</value>
+</data>
+<data name="ThereAreNoNuGetPackagesToRestore_Text" xml:space="preserve">
+  <value>Нет пакетов NuGet для восстановления</value>
+</data>
+<data name="Solution_TeamShared_Text" xml:space="preserve">
+  <value>Решение "{0}" общее для команды</value>
+</data>
+<data name="PackageUninstallFailedDueToRestoreFail_Text" xml:space="preserve">
+  <value>Не удалось удалить пакет из-за сбоя восстановления. Подробности см. в журнале.</value>
+</data>
+<data name="OrderProjectLoadingAccordingToDependenciesSettingDescription" xml:space="preserve">
+  <value>Упорядочить загрузку проектов в соответствии с зависимостями (может снизить скорость сборки во время разработки, но предотвратит многократную сборку проектов)</value>
+</data>
+<data name="_RestoreFailed_Caption" xml:space="preserve">
+  <value>{0}: Сбой восстановления</value>
+</data>
+<data name="MultiInstall" xml:space="preserve">
+  <value>Установка нескольких пакетов</value>
+</data>
+<data name="NETCoreRestoreEngineSettingDescription" xml:space="preserve">
+  <value>Механизм восстановления .NET Core</value>
+</data>
+<data name="BuildWithSolBuilderDuoSettingDescription" xml:space="preserve">
+  <value>Сборка с помощью SolBuilderDuo</value>
+</data>
+<data name="SyncingProjects_Text" xml:space="preserve">
+  <value>Синхронизация проектов</value>
+</data>
+<data name="Installing_In__Caption" xml:space="preserve">
+  <value>Установка {0} в {1}</value>
+</data>
+<data name="BuildResultsBrowserSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки браузера результатов сборки</value>
+</data>
+<data name="StartingCodeAnalysis_Text" xml:space="preserve">
+  <value>Запуск анализа кода</value>
+</data>
+<data name="RestoreFinished_Caption" xml:space="preserve">
+  <value>Восстановление завершено</value>
+</data>
+<data name="MultiInstallFailed_Caption" xml:space="preserve">
+  <value>Сбой MultiInstall</value>
+</data>
+<data name="Succeeded_Text" xml:space="preserve">
+  <value>Успешно</value>
+</data>
+<data name="RestoreFinished_Text" xml:space="preserve">
+  <value>Восстановление завершено</value>
+</data>
+<data name="WhenBuildStartsOpenAToolWindowWithGraphicalPresentationOfTheBuildDisableSmartnessProgressSettingDescription" xml:space="preserve">
+  <value>Открывать окно инструментов с графическим представлением хода сборки, даже если сборка вызвана неявно</value>
+</data>
+<data name="WhenBuildStartsOpenAToolWindowWithGraphicalPresentationOfTheBuildProgressSettingDescription" xml:space="preserve">
+  <value>При явном вызове сборки открывать окно инструментов с графическим представлением хода сборки</value>
+</data>
+<data name="IncludePrereleaseSettingDescription" xml:space="preserve">
+  <value>IncludePrerelease</value>
+</data>
+<data name="CanTRestoreNuGetPackagesInIntegrated_Caption" xml:space="preserve">
+  <value>Невозможно восстановить пакеты NuGet в интегрированном проекте</value>
+</data>
+<data name="Package_Plural" xml:space="preserve">
+  <value>{0} {0:choice:1#пакет|2#пакета|3#пакета|4#пакета|other#пакетов}</value>
+</data>
+<data name="Feed_Exists" xml:space="preserve">
+  <value>Канал с именем '{0}' уже существует</value>
+</data>
+<data name="DependencyBehaviorSettingDescription" xml:space="preserve">
+  <value>Поведение при работе с зависимостями</value>
+</data>
+<data name="RelativePathsToProjectFilesOrProjectFolderInCaseOfAWebsiteToLoadFromVisualStudioUsingCOMAPIIfAPathCannotBeMadeRelativeAbsolutePathWillBeUsedSettingDescription" xml:space="preserve">
+  <value>Относительные пути к файлам проектов (или папке проекта для веб-сайта), загружаемым из Visual Studio с использованием COM API. Если путь не может быть сделан относительным, будет использоваться абсолютный путь.</value>
+</data>
+<data name="UpdateFailed_Text" xml:space="preserve">
+  <value>Сбой обновления</value>
+</data>
+<data name="ReloadProjectsOnExternalRestore" xml:space="preserve">
+  <value>Перезагружать проекты при внешнем восстановлении</value>
+</data>
+<data name="TargetsToExecuteToObtainAssemblyReferencesSettingDescription" xml:space="preserve">
+  <value>Цели для выполнения, чтобы получить ссылки на сборки</value>
+</data>
+<data name="ProjectSettingsStorageComponentOriginPersonal_Text" xml:space="preserve">
+  <value>Файл *proj.DotSettings.User в папке проекта — не следует добавлять в систему контроля версий</value>
+</data>
+<data name="MSBuildSolutionLoadingTargetsSettingDescription" xml:space="preserve">
+  <value>Цели загрузки решения MSBuild</value>
+</data>
+<data name="SwapDefaultActionToSkipBuildingSettingDescription" xml:space="preserve">
+  <value>Поменять действие по умолчанию на пропуск сборки</value>
+</data>
+<data name="DefaultActionSettingDescription" xml:space="preserve">
+  <value>Действие по умолчанию</value>
+</data>
+<data name="ProjectItemProperties_Text" xml:space="preserve">
+  <value>Свойства элемента проекта</value>
+</data>
+<data name="Feed_Invalid_URL" xml:space="preserve">
+  <value>Недопустимый URL: '{0}'</value>
+</data>
+<data name="Cancelled_Text" xml:space="preserve">
+  <value>Отменено</value>
+</data>
+<data name="PaintOutputLogSettingDescription" xml:space="preserve">
+  <value>Раскрашивать журнал вывода</value>
+</data>
+<data name="Embedded_Text" xml:space="preserve">
+  <value>Встроенный</value>
+</data>
+<data name="UseGetClCommandLinesTargetForCppProjectsDescription" xml:space="preserve">
+  <value>Использовать свойства компиляции C++ на основе командной строки при чтении из MSBuild</value>
+</data>
+<data name="VersionOfMSBuildToUseWhenBuildingMeansasTheRuntimeVersionOfTheApplicationInitiatingTheBuildInCaseOfVisualStudioThisIsTheSameMSBuildVSItselfUsesForBuildingFFFFFFFFMeansUseTheHighestVersionAvailableOnThisMachineAnyOtherNumberHIWORDIsTheMajorVersionNumberLOWORDIsTheMinorVersionNumberSettingDescription" xml:space="preserve">
+  <value>Версия MSBuild, используемая при сборке. 0 означает "версия среды выполнения приложения, инициирующего сборку" (для Visual Studio это тот же MSBuild, который VS сам использует для сборки). FFFFFFFF означает использовать самую высокую версию, доступную на этой машине. Любое другое число: HIWORD — старший номер версии, LOWORD — младший номер версии.</value>
+</data>
+<data name="RestoringPackage__Caption" xml:space="preserve">
+  <value>Восстановление пакета {0}</value>
+</data>
+<data name="WaitForDelayedShellComponents_Text" xml:space="preserve">
+  <value>Ожидание отложенных компонентов оболочки</value>
+</data>
+<data name="ReSharperBuild__Text" xml:space="preserve">
+  <value>ReSharper Build – {0}</value>
+</data>
+<data name="PolicyForautomaticNuGetConfigRestorePropertySettingDescription" xml:space="preserve">
+  <value>Политика для свойства восстановления 'automatic' в NuGet.Config</value>
+</data>
+<data name="RestoreCancelled_Caption" xml:space="preserve">
+  <value>Восстановление отменено</value>
+</data>
+<data name="PSIConfigurationSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки конфигурации PSI</value>
+</data>
+<data name="NuGetBrowserSearchServiceUrlSettingDescription" xml:space="preserve">
+  <value>URL службы поиска обозревателя NuGet</value>
+</data>
+<data name="AlwaysEnable_Text" xml:space="preserve">
+  <value>Всегда включать</value>
+</data>
+<data name="ShowBuildProgressInStatusBarWhenABuildIsRunningSettingDescription" xml:space="preserve">
+  <value>Показывать ход сборки в строке состояния во время сборки</value>
+</data>
+<data name="InstallPackage0InProject1" xml:space="preserve">
+  <value>Установить '{0}' в {1}</value>
+</data>
+<data name="Effective_NuGet_Config" xml:space="preserve">
+  <value>Действительный NuGet.Config</value>
+</data>
+<data name="FailedToUpdatePackageSource__Text" xml:space="preserve">
+  <value>Не удалось обновить источник пакетов '{0}'</value>
+</data>
+<data name="AdditionalAssemblyReferencesDisplayName_Text" xml:space="preserve">
+  <value>Дополнительные ссылки на сборки</value>
+</data>
+<data name="ShowFullPathInConsoleSettingDescription" xml:space="preserve">
+  <value>Во время сборки выводить в консоль полные пути</value>
+</data>
+<data name="UserSettings" xml:space="preserve">
+  <value>Пользовательские настройки</value>
+</data>
+<data name="NamespaceProviderDisplayName_Text" xml:space="preserve">
+  <value>Поставщик пространства имен</value>
+</data>
+<data name="RecentCustomNETCLIExecutablePathsSettingDescription" xml:space="preserve">
+  <value>Последние пользовательские пути к исполняемым файлам .NET CLI</value>
+</data>
+<data name="PackageUninstallFailedPackageRestore_Text" xml:space="preserve">
+  <value>Не удалось удалить пакет: восстановление пакетов было пропущено в соответствии с настройками восстановления.
+Включите восстановление, чтобы удалить пакет.</value>
+</data>
+<data name="Temp" xml:space="preserve">
+  <value>Temp</value>
+</data>
+<data name="Feed_Not_Found" xml:space="preserve">
+  <value>Не найден канал с именем '{0}'</value>
+</data>
+<data name="DefaultPSIConfigurationSettings_Text" xml:space="preserve">
+  <value>Настройки конфигурации PSI по умолчанию</value>
+</data>
+<data name="TurnSolutionWatchdogOnOrOffSettingDescription" xml:space="preserve">
+  <value>Включить или выключить монитор решений</value>
+</data>
+</root>

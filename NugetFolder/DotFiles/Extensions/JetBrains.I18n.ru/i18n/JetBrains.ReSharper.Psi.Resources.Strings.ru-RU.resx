@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Field_Text" xml:space="preserve">
+  <value>Поле</value>
+</data>
+<data name="Element_In___Text" xml:space="preserve">
+  <value>Элемент {0} в {1}</value>
+</data>
+<data name="IgnoredPathsRelativeToProjectLocationSettingDescription" xml:space="preserve">
+  <value>Игнорируемые пути относительно расположения проекта</value>
+</data>
+<data name="BlockListMaskSettingDescription" xml:space="preserve">
+  <value>Маска блок-листа</value>
+</data>
+<data name="GeneratedFilesMaskSettingDescription" xml:space="preserve">
+  <value>Маска сгенерированных файлов</value>
+</data>
+<data name="Parameter_PresentableName_Text" xml:space="preserve">
+  <value>Параметр</value>
+</data>
+<data name="ExternalDependencyFile_Text" xml:space="preserve">
+  <value>Файл внешних зависимостей</value>
+</data>
+<data name="AlignEvenIfTheResultingIndentationIsTooLargeSettingDescription" xml:space="preserve">
+  <value>Выравнивать, даже если результирующий отступ слишком велик</value>
+</data>
+<data name="WrapGeneratedMembersInRegionSettingDescription" xml:space="preserve">
+  <value>Переносить сгенерированные члены в регион</value>
+</data>
+<data name="Unknown_PresentableName_Text" xml:space="preserve">
+  <value>Неизвестный</value>
+</data>
+<data name="CompactPicoStyle_Description_Text" xml:space="preserve">
+  <value>Компактный (стиль Pico)</value>
+</data>
+<data name="ScanningAssembly__Text" xml:space="preserve">
+  <value>Сканирование сборки '{0}'</value>
+</data>
+<data name="Struct_Text" xml:space="preserve">
+  <value>структура</value>
+</data>
+<data name="Found_Inheritor_Text" xml:space="preserve">
+  <value>Наследников найдено: {0}</value>
+</data>
+<data name="CodeFormatterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки форматирования кода</value>
+</data>
+<data name="EventHandlerNamePatternLongVersionWithObjectNameSettingDescription" xml:space="preserve">
+  <value>Шаблон имени обработчика событий (длинная версия с именем объекта)</value>
+</data>
+<data name="FilesSizeThresholdAfterWhichPSIIsNotBuiltKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+  <value>Порог размера файлов, после которого PSI не строится. Ключ - язык. Значение - размер файла в символах.</value>
+</data>
+<data name="UseSpacesLooksAlignedOnAnyTabSize_Description_Text" xml:space="preserve">
+  <value>Использовать пробелы (выглядит выровненным при любом размере табуляции)</value>
+</data>
+<data name="ContinuousLineIndentMultiplierSettingDescription" xml:space="preserve">
+  <value>Множитель отступа для продолжения строки</value>
+</data>
+<data name="Method_PresentableName_Text" xml:space="preserve">
+  <value>Метод</value>
+</data>
+<data name="NamedElementKinds_Interfaces" xml:space="preserve">
+  <value>Интерфейсы</value>
+</data>
+<data name="GuidSettingDescription" xml:space="preserve">
+  <value>GUID</value>
+</data>
+<data name="CommonFormatterSettingsSettingDescription" xml:space="preserve">
+  <value>Общие настройки форматирования</value>
+</data>
+<data name="Tab_Description_Text" xml:space="preserve">
+  <value>Табуляция</value>
+</data>
+<data name="LFUnixMacOSX_Description_Text" xml:space="preserve">
+  <value>LF (Unix, Mac OS X)</value>
+</data>
+<data name="AtEndOfLineKRStyle_Description_Text" xml:space="preserve">
+  <value>В конце строки (стиль K&amp;R)</value>
+</data>
+<data name="LeaveMultipleExtraSpaces_Description_Text" xml:space="preserve">
+  <value>Оставлять несколько лишних пробелов</value>
+</data>
+<data name="SearchScope_ReferencedLibraries_Text" xml:space="preserve">
+  <value>Связанные библиотеки</value>
+</data>
+<data name="TheSameFileIsListedIn_MultipleTimes_Text" xml:space="preserve">
+  <value>Один и тот же файл указан несколько раз в {0} с одним и тем же действием сборки '{1}': {2}</value>
+</data>
+<data name="AddSpacesAroundWhenWritingToANewEditorConfigSettingDescription" xml:space="preserve">
+  <value>Добавлять пробелы вокруг '=' при записи в новый EditorConfig</value>
+</data>
+<data name="ExperimentalElementMessage" xml:space="preserve">
+  <value>'{0}' используется только для оценки и может быть изменен или удален в будущих обновлениях. Запретите эту диагностику.</value>
+</data>
+<data name="_DirectiveIsNotAllowedIn_File_Text" xml:space="preserve">
+  <value>Директива {0} не разрешена в файле {1}</value>
+</data>
+<data name="ScheduleNextChunkTimeoutMs" xml:space="preserve">
+  <value>Таймаут (в мс) при планировании следующего блока</value>
+</data>
+<data name="DocumentationGenerationKindSettingDescription" xml:space="preserve">
+  <value>Тип генерации документации</value>
+</data>
+<data name="NoAlign_Description_Text" xml:space="preserve">
+  <value>Не выравнивать</value>
+</data>
+<data name="_ExpressionsInEntitiesMarkedBy_Attribute_Text" xml:space="preserve">
+  <value>Выражения {0} в сущностях, помеченных атрибутом [{1}]</value>
+</data>
+<data name="NamedElementKinds_PrivateConstants" xml:space="preserve">
+  <value>Закрытые константные поля</value>
+</data>
+<data name="EditorconfigGeneratedCodeSettingDescription" xml:space="preserve">
+  <value>.editorconfig generated_code</value>
+</data>
+<data name="Class_Text" xml:space="preserve">
+  <value>класс</value>
+</data>
+<data name="Element_Text" xml:space="preserve">
+  <value>Элемент</value>
+</data>
+<data name="PredefinedGeneratedCodeSettings_Text" xml:space="preserve">
+  <value>Предопределенные настройки сгенерированного кода</value>
+</data>
+<data name="ShowIndicatorInStatusBarWhenEditorConfigIsPresentSettingDescription" xml:space="preserve">
+  <value>Показывать индикатор в строке состояния, когда доступен EditorConfig</value>
+</data>
+<data name="MergingAssembliesIndex_Text" xml:space="preserve">
+  <value>Объединение индексов сборок</value>
+</data>
+<data name="ChunkSizeDescription" xml:space="preserve">
+  <value>Сколько файлов помечать как измененные за раз</value>
+</data>
+<data name="DisableAlignInColumnsSettingDescription" xml:space="preserve">
+  <value>Отключить выравнивание в столбцах</value>
+</data>
+<data name="NamedElementKinds_EnumMember" xml:space="preserve">
+  <value>Члены перечисления</value>
+</data>
+<data name="FixColumnAlignmentInAdjacentLinesSettingDescription" xml:space="preserve">
+  <value>Исправлять выравнивание столбцов в смежных строках</value>
+</data>
+<data name="GeneratedCodeDetectionSettingDescription" xml:space="preserve">
+  <value>Обнаружение сгенерированного кода</value>
+</data>
+<data name="FileHeaderRegionNameSettingDescription" xml:space="preserve">
+  <value>Имя региона заголовка файла</value>
+</data>
+<data name="SystemDependentNativeForOS_Description_Text" xml:space="preserve">
+  <value>Зависит от системы (нативное для ОС)</value>
+</data>
+<data name="Constructor_Text" xml:space="preserve">
+  <value>конструктор</value>
+</data>
+<data name="Never_Description_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="DefaultLineEndingStyleSettingDescription" xml:space="preserve">
+  <value>Стиль конца строки по умолчанию</value>
+</data>
+<data name="SyntaxError_Text" xml:space="preserve">
+  <value>Синтаксическая ошибка</value>
+</data>
+<data name="Delegate_PresentableName_Text" xml:space="preserve">
+  <value>Делегат</value>
+</data>
+<data name="EnumMember_PresentableName_Text" xml:space="preserve">
+  <value>Член перечисления</value>
+</data>
+<data name="ChopInCompactStyle_Description_Text" xml:space="preserve">
+  <value>Обрезать в компактном стиле</value>
+</data>
+<data name="ComplexSearchDomain_Text" xml:space="preserve">
+  <value>Сложная область поиска</value>
+</data>
+<data name="InContainerKindText" xml:space="preserve">
+  <value>в {0}{1}</value>
+</data>
+<data name="ShouldTriggerStyleCopSeverityConverters" xml:space="preserve">
+  <value>Читать конфигурацию StyleCop.Analyzers из файлов .editorconfig и .globalconfig</value>
+</data>
+<data name="CRMacOSClassic_Description_Text" xml:space="preserve">
+  <value>CR (классическая Mac OS)</value>
+</data>
+<data name="FileHeaderRegexSettingDescription" xml:space="preserve">
+  <value>Считает, что в файле отсутствует заголовок, если он не соответствует следующему регулярному выражению</value>
+</data>
+<data name="Property_Text" xml:space="preserve">
+  <value>свойство</value>
+</data>
+<data name="FullyQualifiedImportsSettingDescription" xml:space="preserve">
+  <value>Полностью квалифицированные импорты</value>
+</data>
+<data name="AnnotationNamespacesSettingDescription" xml:space="preserve">
+  <value>Пространства имен аннотаций</value>
+</data>
+<data name="Cancel_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="DesignerGeneratedCode_Text" xml:space="preserve">
+  <value>Код, созданный конструктором</value>
+</data>
+<data name="Indenting_Text" xml:space="preserve">
+  <value>Отступы</value>
+</data>
+<data name="MaximumPSITreeDepthUsedToPreventStackOverflowExceptionSettingDescription" xml:space="preserve">
+  <value>Максимальная глубина дерева PSI. Используется для предотвращения исключения переполнения стека.</value>
+</data>
+<data name="Event_Text" xml:space="preserve">
+  <value>событие</value>
+</data>
+<data name="Quote_Description_Text" xml:space="preserve">
+  <value>Кавычка: "</value>
+</data>
+<data name="GeneratedFilesAndFoldersToSkipSettingDescription" xml:space="preserve">
+  <value>Сгенерированные файлы и папки для пропуска</value>
+</data>
+<data name="SpecifiesWhetherFilesShouldBeCheckedForBeingCompressedKeyIsLanguageIfValueItIstrueSettingDescription" xml:space="preserve">
+  <value>Указывает, следует ли проверять файлы на сжатие. Ключ - язык. Если значение > 0, то 'true'.</value>
+</data>
+<data name="UseIndentStyleAndSizeFromVisualStudioSettingDescription" xml:space="preserve">
+  <value>Использовать стиль и размер отступа из Visual Studio</value>
+</data>
+<data name="ParenthesisAndInsideEquallyWhitesmithsStyle_Description_Text" xml:space="preserve">
+  <value>Скобка и внутренность с одинаковым отступом (стиль Whitesmiths)</value>
+</data>
+<data name="TogetherOnTheSameLine_Description_Text" xml:space="preserve">
+  <value>Вместе на одной строке</value>
+</data>
+<data name="ScanningAnElement_Text" xml:space="preserve">
+  <value>Сканирование элемента</value>
+</data>
+<data name="Namespace_Text" xml:space="preserve">
+  <value>пространство имен</value>
+</data>
+<data name="ChopInExpandedStyle_Description_Text" xml:space="preserve">
+  <value>Обрезать в расширенном стиле</value>
+</data>
+<data name="__IsObsolete_Text" xml:space="preserve">
+  <value>{0} '{1}' устарел</value>
+</data>
+<data name="ProcessingSourceFiles_Text" xml:space="preserve">
+  <value>Обработка исходных файлов</value>
+</data>
+<data name="ThresholdsToDisablePSIOrAnalysisInTheSakeOfPerformanceReasonsSettingDescription" xml:space="preserve">
+  <value>Пороги для отключения PSI или анализа в целях производительности</value>
+</data>
+<data name="File__Text" xml:space="preserve">
+  <value>Файл {0}</value>
+</data>
+<data name="Align_Description_Text" xml:space="preserve">
+  <value>Выравнивать</value>
+</data>
+<data name="Namespace_PresentableName_Text" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="Method_Text" xml:space="preserve">
+  <value>метод</value>
+</data>
+<data name="SpecifiesWhetherFilesShouldIndexedForTextSearchDescription" xml:space="preserve">
+  <value>Указывает, следует ли индексировать файлы для текстового поиска. Значение - максимально допустимый размер файла в байтах. «0» означает отсутствие порога.</value>
+</data>
+<data name="SearchScope_SolutionAndLibraries_Text" xml:space="preserve">
+  <value>Решение и библиотеки</value>
+</data>
+<data name="PlaceBackingFieldAbovePropertySettingDescription" xml:space="preserve">
+  <value>Размещать резервное поле над свойством</value>
+</data>
+<data name="MethodImplementationKindSettingDescription" xml:space="preserve">
+  <value>Тип реализации метода</value>
+</data>
+<data name="UseStyleCopStyleXmlHeaderSettingDescription" xml:space="preserve">
+  <value>Использовать XML-оформление в стиле StyleCop.Analyzers для заголовка</value>
+</data>
+<data name="FilesSizeThresholdAfterWhichAnalysisIsNotRunUnlessExplicitlySpecifiedByUserKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+  <value>Порог размера файлов, после которого анализ не выполняется, если явно не указано пользователем. Ключ - язык. Значение - размер файла в символах.</value>
+</data>
+<data name="SettingsStyleCop_Description_Text" xml:space="preserve">
+  <value>Settings.StyleCop</value>
+</data>
+<data name="LanguageInjectionsSettingDescription" xml:space="preserve">
+  <value>Внедрения языка</value>
+</data>
+<data name="Enum_PresentableName_Text" xml:space="preserve">
+  <value>Перечисление</value>
+</data>
+<data name="FileFromNuGetPackage__Text" xml:space="preserve">
+  <value>Файл из пакета NuGet {0}</value>
+</data>
+<data name="EnableClangFormatSupportSettingDescription" xml:space="preserve">
+  <value>Включить поддержку ClangFormat</value>
+</data>
+<data name="LocalConstant_PresentableName_Text" xml:space="preserve">
+  <value>Локальная константа</value>
+</data>
+<data name="AllowCommentsAfterPropertiesSettingDescription" xml:space="preserve">
+  <value>Разрешать комментарии после свойств в EditorConfig (иначе они становятся частью значения свойства)</value>
+</data>
+<data name="SimpleField_PresentableName_Text" xml:space="preserve">
+  <value>Простое поле</value>
+</data>
+<data name="AtNextLineIndentedWhitesmithsStyle_Description_Text" xml:space="preserve">
+  <value>На следующей строке с отступом (стиль Whitesmiths)</value>
+</data>
+<data name="WarnAboutUsingPrefixesAndSuffixesFromThisRule" xml:space="preserve">
+  <value>Предупреждать об использовании префиксов и суффиксов из этого правила в несвязанных идентификаторах</value>
+</data>
+<data name="ClassOrRecord_PresentableName_Text" xml:space="preserve">
+  <value>Класс или запись</value>
+</data>
+<data name="GeneratedFilesCacheSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки кэша сгенерированных файлов</value>
+</data>
+<data name="RouteTemplate_Text" xml:space="preserve">
+  <value>Шаблон маршрута</value>
+</data>
+<data name="Injects_ExpressionInEntitiesMarkedBy_Text" xml:space="preserve">
+  <value>Внедряет выражение {0} в сущности, помеченные атрибутом [{1}]</value>
+</data>
+<data name="NamedElementKinds_LocalConstants" xml:space="preserve">
+  <value>Локальные константы</value>
+</data>
+<data name="UseIndentSettingsFromMainLanguageInFileAsVisualStudioDoesSettingDescription" xml:space="preserve">
+  <value>Использовать настройки отступа основного языка в файле, как это делает Visual Studio</value>
+</data>
+<data name="StructFields_Text" xml:space="preserve">
+  <value>Поля структуры</value>
+</data>
+<data name="LocalVariablesAndConstants_PresentableName_Text" xml:space="preserve">
+  <value>Локальные переменные и константы</value>
+</data>
+<data name="Unknown_Text" xml:space="preserve">
+  <value>&lt;неизвестный&gt;</value>
+</data>
+<data name="LeaveAllExtraSpacesAndTabs_Description_Text" xml:space="preserve">
+  <value>Оставлять все лишние пробелы и табуляции</value>
+</data>
+<data name="Formatting_Text" xml:space="preserve">
+  <value>Форматирование</value>
+</data>
+<data name="WebFormDesignerGeneratedCode_Text" xml:space="preserve">
+  <value>Код, созданный конструктором веб-форм</value>
+</data>
+<data name="OnlyUseTabsInaccurate_Description_Text" xml:space="preserve">
+  <value>Использовать только табуляцию (неточно)</value>
+</data>
+<data name="StructField_Text" xml:space="preserve">
+  <value>Поле структуры</value>
+</data>
+<data name="IndentAsUsual_Description_Text" xml:space="preserve">
+  <value>Обычный отступ</value>
+</data>
+<data name="ChopInExistingStyle_Description_Text" xml:space="preserve">
+  <value>Обрезать в существующем стиле</value>
+</data>
+<data name="SettingsForFormatConfigurationFilesSettingDescription" xml:space="preserve">
+  <value>Настройки для файлов конфигурации форматирования</value>
+</data>
+<data name="LoadingCaches_Text" xml:space="preserve">
+  <value>Загрузка кэшей</value>
+</data>
+<data name="Apostrophe_Description_Text" xml:space="preserve">
+  <value>Апостроф: '</value>
+</data>
+<data name="NamedElementKinds_TypesAndNamespaces" xml:space="preserve">
+  <value>Типы и пространства имен</value>
+</data>
+<data name="ExtensionMethod_PresentableName_Text" xml:space="preserve">
+  <value>Метод расширения</value>
+</data>
+<data name="ReadonlyField_PresentableName_Text" xml:space="preserve">
+  <value>Поле только для чтения</value>
+</data>
+<data name="DoNotWrapEvenIfLong_Description_Text" xml:space="preserve">
+  <value>Не переносить, даже если длинная</value>
+</data>
+<data name="HowToAlignWhenTabsAreUsedForIndentsSettingDescription" xml:space="preserve">
+  <value>Как выравнивать, когда для отступов используются табуляции</value>
+</data>
+<data name="FormatLeadingFileSpacesViaDeclarativeFormatterSettingDescription" xml:space="preserve">
+  <value>Форматировать начальные пробелы в файле с помощью декларативного форматтера</value>
+</data>
+<data name="AtNextLineIndented2GNUStyle_Description_Text" xml:space="preserve">
+  <value>На следующей строке с отступом 2 (стиль GNU)</value>
+</data>
+<data name="RemoveSpacesOnBlankLines" xml:space="preserve">
+  <value>Удалять пробелы на пустых строках</value>
+</data>
+<data name="OfParameterText" xml:space="preserve">
+  <value>/ {0}</value>
+</data>
+<data name="DisableLineBreakChangesSettingDescription" xml:space="preserve">
+  <value>Отключить изменения разрывов строк</value>
+</data>
+<data name="EnabledSettingDescription" xml:space="preserve">
+  <value>Включено</value>
+</data>
+<data name="NamedElementKinds_Method" xml:space="preserve">
+  <value>Методы</value>
+</data>
+<data name="MakingBlankLines_Text" xml:space="preserve">
+  <value>Создание пустых строк</value>
+</data>
+<data name="File___Text" xml:space="preserve">
+  <value>Файл {0}</value>
+</data>
+<data name="DisableSpaceChangesSettingDescription" xml:space="preserve">
+  <value>Отключить изменения пробелов</value>
+</data>
+<data name="CodeAnnotationSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки аннотаций кода</value>
+</data>
+<data name="NamedElementKinds_Property" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="FileWithExtension_Expected_Text" xml:space="preserve">
+  <value>Ожидается файл с расширением {0}</value>
+</data>
+<data name="NamedElementKinds_Locals" xml:space="preserve">
+  <value>Локальные переменные</value>
+</data>
+<data name="PathIsOutsideOfTheWebsite_ToolTip" xml:space="preserve">
+  <value>Путь находится вне веб-сайта</value>
+</data>
+<data name="LocalVariable_PresentableName_Text" xml:space="preserve">
+  <value>Локальная переменная</value>
+</data>
+<data name="ComponentDesignerGeneratedCode_Text" xml:space="preserve">
+  <value>Код, созданный конструктором компонентов</value>
+</data>
+<data name="Color_Text" xml:space="preserve">
+  <value>Цвет</value>
+</data>
+<data name="Double_Description_Text" xml:space="preserve">
+  <value>Двойные</value>
+</data>
+<data name="SimpleWrapDoNotChange_Description_Text" xml:space="preserve">
+  <value>Простой перенос / не изменять</value>
+</data>
+<data name="ChopAlways_Description_Text" xml:space="preserve">
+  <value>Всегда обрезать</value>
+</data>
+<data name="NamedElementKinds_Parameters" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="DisableBlankLineChangesSettingDescription" xml:space="preserve">
+  <value>Отключить изменения пустых строк</value>
+</data>
+<data name="ListOfNamingRulesSettingDescription" xml:space="preserve">
+  <value>Список правил именования</value>
+</data>
+<data name="DisableFormatterInGeneralSettingDescription" xml:space="preserve">
+  <value>Отключить форматирование в целом</value>
+</data>
+<data name="IsDocumentHeaderParserTriggeredDescription" xml:space="preserve">
+  <value>Указывает состояние преобразователя настроек правил документов stylecop.json</value>
+</data>
+<data name="RemoveAllExtraSpaces_Description_Text" xml:space="preserve">
+  <value>Удалять все лишние пробелы</value>
+</data>
+<data name="FilesExcludedFromCodeAnalysisSettingDescription" xml:space="preserve">
+  <value>Файлы, исключенные из анализа кода</value>
+</data>
+<data name="NamedElementKinds_PrivateStaticFields" xml:space="preserve">
+  <value>Закрытые статические поля</value>
+</data>
+<data name="Invariant_Text" xml:space="preserve">
+  <value>Инвариантный</value>
+</data>
+<data name="TypeParameter_Text" xml:space="preserve">
+  <value>Параметр типа</value>
+</data>
+<data name="LineFeedAtEndOfFileSettingDescription" xml:space="preserve">
+  <value>Перевод строки в конце файла</value>
+</data>
+<data name="OutParameter_Text" xml:space="preserve">
+  <value>Выходной параметр</value>
+</data>
+<data name="GeneratedCodeRegionsSettingDescription" xml:space="preserve">
+  <value>Регионы сгенерированного кода</value>
+</data>
+<data name="Struct_PresentableName_Text" xml:space="preserve">
+  <value>Структура</value>
+</data>
+<data name="InsideParenthesisBSDKRStyle_Description_Text" xml:space="preserve">
+  <value>Внутри скобки (стиль BSD/K&amp;R)</value>
+</data>
+<data name="CouldNotChangeANamingPolicyMaybeItWas_Text" xml:space="preserve">
+  <value>Не удалось изменить политику именования, возможно, она предоставлена через EditorConfig или StyleCop</value>
+</data>
+<data name="IndentStyleSettingDescription" xml:space="preserve">
+  <value>Стиль отступа</value>
+</data>
+<data name="ProvideReSharperIndentSettingsToVisualStudioSettingDescription" xml:space="preserve">
+  <value>Предоставлять настройки отступа ReSharper в Visual Studio</value>
+</data>
+<data name="ChunkedMarkAsDirtySettingsKeyDescription" xml:space="preserve">
+  <value>Настройки для пометки файлов как измененных</value>
+</data>
+<data name="PropagateAnnotationsSettingDescription" xml:space="preserve">
+  <value>Распространять аннотации</value>
+</data>
+<data name="Constant_Text" xml:space="preserve">
+  <value>константа</value>
+</data>
+<data name="TabWidthSettingDescription" xml:space="preserve">
+  <value>Ширина табуляции</value>
+</data>
+<data name="Parameter_Text" xml:space="preserve">
+  <value>параметр</value>
+</data>
+<data name="IsIndentationParserTriggeredDescription" xml:space="preserve">
+  <value>Указывает состояние преобразователя настроек правил отступов stylecop.json</value>
+</data>
+<data name="DoNotChange_Description_Text" xml:space="preserve">
+  <value>Не изменять</value>
+</data>
+<data name="NamedElementKinds_PrivateInstanceFields" xml:space="preserve">
+  <value>Закрытые поля экземпляра</value>
+</data>
+<data name="Found_Inheritors_Text" xml:space="preserve">
+  <value>Наследников найдено: {0}</value>
+</data>
+<data name="MixTabsAndSpacesForOptimalFill_Description_Text" xml:space="preserve">
+  <value>Смешивать табуляции и пробелы для оптимального заполнения</value>
+</data>
+<data name="SimpleWrap_Description_Text" xml:space="preserve">
+  <value>Простой перенос</value>
+</data>
+<data name="Path_Text" xml:space="preserve">
+  <value>Путь</value>
+</data>
+<data name="AutodetectedSettingsConfigSourceName" xml:space="preserve">
+  <value>Автообнаруженные настройки</value>
+</data>
+<data name="WindowsFormDesignerGeneratedCode_Text" xml:space="preserve">
+  <value>Код, созданный конструктором Windows Forms</value>
+</data>
+<data name="Single_Description_Text" xml:space="preserve">
+  <value>Одинарные</value>
+</data>
+<data name="Event_PresentableName_Text" xml:space="preserve">
+  <value>Событие</value>
+</data>
+<data name="SearchingForInheritors_Text" xml:space="preserve">
+  <value>Поиск наследников…</value>
+</data>
+<data name="ProcessingFiles_Text" xml:space="preserve">
+  <value>Обработка файлов</value>
+</data>
+<data name="NoIndent_Description_Text" xml:space="preserve">
+  <value>Без отступа</value>
+</data>
+<data name="DotNetRegularExpression" xml:space="preserve">
+  <value>Регулярное выражение .NET</value>
+</data>
+<data name="OnDifferentLines_Description_Text" xml:space="preserve">
+  <value>На разных строках</value>
+</data>
+<data name="FieldConstant_PresentableName_Text" xml:space="preserve">
+  <value>Константа поля</value>
+</data>
+<data name="Interface_PresentableName_Text" xml:space="preserve">
+  <value>Интерфейс</value>
+</data>
+<data name="NativeVisualStudioHighlighting" xml:space="preserve">
+  <value>Собственная подсветка синтаксиса Visual Studio</value>
+</data>
+<data name="MappedPathsRelativeToProjectLocationSettingDescription" xml:space="preserve">
+  <value>Сопоставленные пути относительно расположения проекта</value>
+</data>
+<data name="FileHeaderTextSettingDescription" xml:space="preserve">
+  <value>Текст заголовка файла</value>
+</data>
+<data name="IfOwnerIsSingleline_Description_Text" xml:space="preserve">
+  <value>Если владелец однострочный</value>
+</data>
+<data name="EnableStyleCopSupportSettingDescription" xml:space="preserve">
+  <value>Включить поддержку StyleCop</value>
+</data>
+<data name="Outdent_Description_Text" xml:space="preserve">
+  <value>Уменьшить отступ</value>
+</data>
+<data name="Property_PresentableName_Text" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="Or_Text" xml:space="preserve">
+  <value> или</value>
+</data>
+<data name="ExtraSpacesInsideSettingDescription" xml:space="preserve">
+  <value>Лишние пробелы внутри</value>
+</data>
+<data name="EnforceLineEndingStyleOnFullReformatSettingDescription" xml:space="preserve">
+  <value>Применять стиль конца строки при полном переформатировании</value>
+</data>
+<data name="ExcludedFilesSettingsKey_SourceGeneratedFilesSweaEnabled_Description" xml:space="preserve">
+  <value>Включать ли сгенерированные исходные файлы в анализ на уровне решения</value>
+</data>
+<data name="Spaces_Description_Text" xml:space="preserve">
+  <value>Пробелы</value>
+</data>
+<data name="KeepUserWrappingSettingDescription" xml:space="preserve">
+  <value>Сохранять пользовательский перенос</value>
+</data>
+<data name="MemberGenerationSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки генерации членов</value>
+</data>
+<data name="AverageLineLengthThresholdAfterWhichAnalysisIsNotRunUnlessExplicitlySpecifiedByUserIEMinimizedJavascriptsKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+  <value>Порог средней длины строки, после которого анализ не выполняется, если явно не указано пользователем (например, минимизированный JS). Ключ - язык. Значение - размер файла в символах.</value>
+</data>
+<data name="FileBelongsToExcludedProject_Text" xml:space="preserve">
+  <value>Файл принадлежит исключенному проекту</value>
+</data>
+<data name="AlignExceptWhenNested_Description_Text" xml:space="preserve">
+  <value>Выравнивать, кроме случаев вложенности</value>
+</data>
+<data name="MapFromUpperCasedPathsToProperlyCasedSettingDescription" xml:space="preserve">
+  <value>Сопоставлять пути в верхнем регистре с путями в правильном регистре</value>
+</data>
+<data name="ExternalConfigurationFiles_Text" xml:space="preserve">
+  <value>Внешние файлы конфигурации</value>
+</data>
+<data name="ListOfAbbreviationsSettingDescription" xml:space="preserve">
+  <value>Список сокращений</value>
+</data>
+<data name="NamedElementKinds_StaticReadonly" xml:space="preserve">
+  <value>Статические поля только для чтения (не закрытые)</value>
+</data>
+<data name="HardWrapAtSettingDescription" xml:space="preserve">
+  <value>Жесткий перенос на:</value>
+</data>
+<data name="NamedElementKinds_PrivateStaticReadonly" xml:space="preserve">
+  <value>Закрытые статические поля только для чтения</value>
+</data>
+<data name="RuleSetFiles_Description_Text" xml:space="preserve">
+  <value>Файлы набора правил</value>
+</data>
+<data name="EnumMember_Text" xml:space="preserve">
+  <value>член перечисления</value>
+</data>
+<data name="Contravariant_Text" xml:space="preserve">
+  <value>Контравариантный</value>
+</data>
+<data name="Accessor_Text" xml:space="preserve">
+  <value>аксессор</value>
+</data>
+<data name="SourceGeneratorOutputFile_Text" xml:space="preserve">
+  <value>Файл выхода генератора исходного кода</value>
+</data>
+<data name="CRLFWindows_Description_Text" xml:space="preserve">
+  <value>CR+LF (Windows)</value>
+</data>
+<data name="Type_PresentableName_Text" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="Operator_Text" xml:space="preserve">
+  <value>оператор</value>
+</data>
+<data name="AnyField_PresentableName_Text" xml:space="preserve">
+  <value>Любое поле</value>
+</data>
+<data name="ECMAScriptRegularExpression_Text" xml:space="preserve">
+  <value>Регулярное выражение ECMAScript</value>
+</data>
+<data name="FileHeaderVariablesSettingDescription" xml:space="preserve">
+  <value>Заменяемые переменные заголовка файла</value>
+</data>
+<data name="TypeMember_PresentableName_Text" xml:space="preserve">
+  <value>Член типа</value>
+</data>
+<data name="NamedElementKinds_TypeParameters" xml:space="preserve">
+  <value>Параметры типа</value>
+</data>
+<data name="DisableIndenterSettingDescription" xml:space="preserve">
+  <value>Отключить обработчик отступов</value>
+</data>
+<data name="Interface_Text" xml:space="preserve">
+  <value>интерфейс</value>
+</data>
+<data name="AutoDetectIndentSizeAndIndentStyleSettingDescription" xml:space="preserve">
+  <value>Автоматически определять размер и стиль отступа</value>
+</data>
+<data name="Enum_Text" xml:space="preserve">
+  <value>перечисление</value>
+</data>
+<data name="PathIgnored_ToolTip" xml:space="preserve">
+  <value>Путь проигнорирован</value>
+</data>
+<data name="PredefinedExcludedFilesSettings_Text" xml:space="preserve">
+  <value>Предопределенные настройки исключенных файлов</value>
+</data>
+<data name="DefaultFileHeaderSettingDescription" xml:space="preserve">
+  <value>Заголовок файла по умолчанию</value>
+</data>
+<data name="NamedElementKinds_Constants" xml:space="preserve">
+  <value>Константные поля (не закрытые)</value>
+</data>
+<data name="FilesAndFoldersToSkipSettingDescription" xml:space="preserve">
+  <value>Файлы и папки для пропуска</value>
+</data>
+<data name="ProcessingAssemblies_Text" xml:space="preserve">
+  <value>Обработка сборок</value>
+</data>
+<data name="WrapLongLinesSettingDescription" xml:space="preserve">
+  <value>Перенос длинных строк</value>
+</data>
+<data name="ShowAutodetectAndConfigureFormattingTipSettingDescription" xml:space="preserve">
+  <value>Показывать подсказку об автоопределении и настройке форматирования</value>
+</data>
+<data name="AreStyleCopConversionsTriggeredDescription" xml:space="preserve">
+  <value>Указывает, применяются ли правила stylecop</value>
+</data>
+<data name="DisableLineBreakRemovalSettingDescription" xml:space="preserve">
+  <value>Отключить удаление разрывов строк</value>
+</data>
+<data name="Elements_Text" xml:space="preserve">
+  <value>Элементы</value>
+</data>
+<data name="FileIsBinary_Text" xml:space="preserve">
+  <value>Файл является двоичным</value>
+</data>
+<data name="TypeParameter_PresentableName_Text" xml:space="preserve">
+  <value>Параметр типа</value>
+</data>
+<data name="Parenthesis1xInside2xGNUStyle_Description_Text" xml:space="preserve">
+  <value>Скобка с отступом 1x, внутренность с отступом 2x (стиль GNU)</value>
+</data>
+<data name="ContentFileFromNuGetPackage_Text" xml:space="preserve">
+  <value>Файл содержимого из пакета NuGet</value>
+</data>
+<data name="Delegate_Text" xml:space="preserve">
+  <value>делегат</value>
+</data>
+<data name="AligningInColumns_Text" xml:space="preserve">
+  <value>Выравнивание в столбцах</value>
+</data>
+<data name="GlobalAnalyzerConfigConfigSourceName" xml:space="preserve">
+  <value>Глобальный AnalyzerConfig</value>
+</data>
+<data name="SavingCaches_Text" xml:space="preserve">
+  <value>Сохранение кэшей</value>
+</data>
+<data name="ForcePutOnSingleLine_Description_Text" xml:space="preserve">
+  <value>Размещать в одну строку принудительно</value>
+</data>
+<data name="DefaultPerformanceThresholdSettings_Text" xml:space="preserve">
+  <value>Настройки порогов производительности по умолчанию</value>
+</data>
+<data name="SearchScope_Solution_Text" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="GetsOrSetsElementAtTheSpecifiedIndex_Text" xml:space="preserve">
+  <value>Возвращает или задает элемент по указанному индексу.</value>
+</data>
+<data name="EventHandlerNamePatternSettingDescription" xml:space="preserve">
+  <value>Шаблон имени обработчика событий</value>
+</data>
+<data name="LocalVariables_Text" xml:space="preserve">
+  <value>Локальные переменные</value>
+</data>
+<data name="DefaultNamespaceSettingDescription" xml:space="preserve">
+  <value>Пространство имен по умолчанию</value>
+</data>
+<data name="Label_PresentableName_Text" xml:space="preserve">
+  <value>Метка</value>
+</data>
+<data name="InContainerBracketsText" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="Solution_Text" xml:space="preserve">
+  <value>Решение</value>
+</data>
+<data name="DetectingWrapLimit_Text" xml:space="preserve">
+  <value>Определение предела переноса</value>
+</data>
+<data name="PathReference" xml:space="preserve">
+  <value>Ссылка на путь</value>
+</data>
+<data name="PathMapped_ToolTip" xml:space="preserve">
+  <value>Путь сопоставлен</value>
+</data>
+<data name="IndentSizeSettingDescription" xml:space="preserve">
+  <value>Размер отступа</value>
+</data>
+<data name="NamedElementKinds_Other" xml:space="preserve">
+  <value>Все остальные сущности</value>
+</data>
+<data name="DebuggerStepThroughAccessorsSettingDescription" xml:space="preserve">
+  <value>Обход аксессоров отладчиком</value>
+</data>
+<data name="NamedElementKinds_Event" xml:space="preserve">
+  <value>События</value>
+</data>
+<data name="RemovingAssemblies_Text" xml:space="preserve">
+  <value>Удаление сборок</value>
+</data>
+<data name="None_Description_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="SourceGeneratedFilesToSkipSettingDescription" xml:space="preserve">
+  <value>Сгенерированные исходные файлы для пропуска</value>
+</data>
+<data name="InitialFileProcessing_Text" xml:space="preserve">
+  <value>Начальная обработка файлов</value>
+</data>
+<data name="ReadConfigFilesAboveSolutionLevelSettingDescription" xml:space="preserve">
+  <value>Читать файлы конфигурации выше уровня решения</value>
+</data>
+<data name="SearchScope_Empty_Text" xml:space="preserve">
+  <value>Пусто</value>
+</data>
+<data name="UsePreviousElementsIndentOnPartialFormatSettingDescription" xml:space="preserve">
+  <value>Использовать отступ предыдущего элемента при частичном форматировании</value>
+</data>
+<data name="GeneratedFilesCacheTimestampSettingDescription" xml:space="preserve">
+  <value>Метка времени GeneratedFilesCache</value>
+</data>
+<data name="UnknownElement_Text" xml:space="preserve">
+  <value>Неизвестный элемент</value>
+</data>
+<data name="UseNewFileHeaderEngineSettingDescription" xml:space="preserve">
+  <value>Использовать новый механизм шаблонов заголовков файлов</value>
+</data>
+<data name="LeaveExtraTabs_Description_Text" xml:space="preserve">
+  <value>Оставлять лишние табуляции</value>
+</data>
+<data name="PlaceBracesTogether_Description_Text" xml:space="preserve">
+  <value>Размещать фигурные скобки вместе</value>
+</data>
+<data name="DefaultNameForExceptionVariableSettingDescription" xml:space="preserve">
+  <value>Имя переменной исключения по умолчанию</value>
+</data>
+<data name="ChopIfLongOrMultiline_Description_Text" xml:space="preserve">
+  <value>Обрезать, если длинная или многострочная</value>
+</data>
+<data name="ShouldAutoDetectedRulesBeAppliedSettingDescription" xml:space="preserve">
+  <value>Следует ли применять автообнаруженные правила</value>
+</data>
+<data name="FileHeaderDecorationSettingDescription" xml:space="preserve">
+  <value>Оформление заголовка, добавляемое в начало и конец текста заголовка</value>
+</data>
+<data name="PathMappingsInWebProjectSettingDescription" xml:space="preserve">
+  <value>Сопоставления путей в веб-проекте</value>
+</data>
+<data name="AccessorImplementationKindSettingDescription" xml:space="preserve">
+  <value>Тип реализации аксессора</value>
+</data>
+<data name="FileSizeExceedsThresholdItMightBeAdjusted_Text" xml:space="preserve">
+  <value>Размер файла превышает порог. Вы можете изменить порог в параметрах.</value>
+</data>
+<data name="OfParameterBracketsText" xml:space="preserve">
+  <value>({0})</value>
+</data>
+<data name="Assembly__Text" xml:space="preserve">
+  <value>Сборка {0}</value>
+</data>
+<data name="ScanningFile__Text" xml:space="preserve">
+  <value>Сканирование файла '{0}'</value>
+</data>
+<data name="Always_Description_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="Sa1633State" xml:space="preserve">
+  <value>Указывает состояние проверки SA1633</value>
+</data>
+<data name="InContainerText" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="TheThisObject_Text" xml:space="preserve">
+  <value>Объект '{0}'</value>
+</data>
+<data name="StyleCopRulesSourceSettingDescription" xml:space="preserve">
+  <value>Источник правил StyleCop</value>
+</data>
+<data name="FailedToAddNuGetPackage_Text" xml:space="preserve">
+  <value>Не удалось добавить пакет NuGet</value>
+</data>
+<data name="InContainerKindBracketsText" xml:space="preserve">
+  <value>(в {0}{1})</value>
+</data>
+<data name="WindowsExperimentalElementMessage" xml:space="preserve">
+  <value>«{0}» используется только для оценки и может быть изменен или удален в будущих обновлениях.</value>
+</data>
+<data name="Project_LoadFinishedWithWarnings_Text" xml:space="preserve">
+  <value>Загрузка проекта '{0}' завершена с предупреждениями</value>
+</data>
+<data name="ForceLineBreaks_Description_Text" xml:space="preserve">
+  <value>Принудительные разрывы строк</value>
+</data>
+<data name="SupportVisualStudioEventNamingPatternSettingDescription" xml:space="preserve">
+  <value>Поддерживать шаблон именования событий Visual Studio</value>
+</data>
+<data name="Project__Text" xml:space="preserve">
+  <value>Проект {0}</value>
+</data>
+<data name="FileMasksToSkipSettingDescription" xml:space="preserve">
+  <value>Маски файлов для пропуска</value>
+</data>
+<data name="SearchScope_UnknownSearchDomain_Text" xml:space="preserve">
+  <value>Неизвестная область поиска</value>
+</data>
+<data name="Module_Text" xml:space="preserve">
+  <value>модуль</value>
+</data>
+<data name="NamingSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки именования</value>
+</data>
+<data name="OutParameters_Text" xml:space="preserve">
+  <value>Выходные параметры</value>
+</data>
+<data name="GenericSQL" xml:space="preserve">
+  <value>Универсальный SQL (без проверки)</value>
+</data>
+<data name="_DummyElements_Text" xml:space="preserve">
+  <value>{0} фиктивных элементов</value>
+</data>
+<data name="AtNextLineBSDStyle_Description_Text" xml:space="preserve">
+  <value>На следующей строке (стиль BSD)</value>
+</data>
+<data name="Covariant_Text" xml:space="preserve">
+  <value>Ковариантный</value>
+</data>
+<data name="UnknownName_Text" xml:space="preserve">
+  <value>&lt;неизвестное имя&gt;</value>
+</data>
+<data name="AtEndOfLineNoSpace_Description_Text" xml:space="preserve">
+  <value>В конце строки (без пробела)</value>
+</data>
+<data name="NamedElementKinds_LocalFunctions" xml:space="preserve">
+  <value>Локальные функции</value>
+</data>
+<data name="EnableEditorConfigSupportSettingDescription" xml:space="preserve">
+  <value>Включить поддержку EditorConfig</value>
+</data>
+<data name="NamedElementKinds_PublicFields" xml:space="preserve">
+  <value>Поля (не закрытые)</value>
+</data>
+<data name="AutoImportSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки автоматического импорта</value>
+</data>
+<data name="LocalVariable_Text" xml:space="preserve">
+  <value>локальная переменная</value>
+</data>
+</root>
