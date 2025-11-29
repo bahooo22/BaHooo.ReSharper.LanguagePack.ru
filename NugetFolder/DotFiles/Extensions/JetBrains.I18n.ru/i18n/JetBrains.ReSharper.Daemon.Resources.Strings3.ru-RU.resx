@@ -117,671 +117,671 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="HighlightGroupsOfLogicalOperatorSigns_Text" xml:space="preserve">
-    <value>高亮显示逻辑运算符符号组(例如 C# 中的 '&amp;&amp;' 和 '||' 链)</value>
-  </data>
-  <data name="IncorrectBlankLinesWrapper" xml:space="preserve">
-    <value>{0}，应为{1} {2} 个，而不是 {3} 个</value>
-  </data>
-  <data name="HighlightColorUsages_BoolOption_Text" xml:space="preserve">
-    <value>高亮显示颜色用法</value>
-  </data>
-  <data name="ThisOptionDoesNotAffectCToToggleSyntax_Text" xml:space="preserve">
-    <value>此选项不影响 C\+\+。要切换 C\+\+ 中的语法高亮显示，请使用 ReSharper 选项的*代码编辑 | C\+\+ | 检查*页面上的相应选项。</value>
-  </data>
-  <data name="EntityFrameworkSettingsPageName" xml:space="preserve">
-    <value>Entity Framework</value>
-  </data>
-  <data name="NullableReferenceTypesWarningsModeWhen_RadioOption_Caption" xml:space="preserve">
-    <value>可以为 null 引用类型的警告模式(何时警告不可以为 null 值在启用 '可以为 null 引用类型' 的项目中检查是否为 null):</value>
-  </data>
-  <data name="Vulnerable_api_inspection_title" xml:space="preserve">
-    <value>易受攻击的 API 用法</value>
-  </data>
-  <data name="IlIdentifierHighlighterName" xml:space="preserve">
-    <value>标识符</value>
-  </data>
-  <data name="AHref_LearnMoreA_Text" xml:space="preserve">
-    <value>&lt;a href="{0}"&gt;了解详情&lt;/a&gt;</value>
-  </data>
-  <data name="LineShouldOnlyBeIndentedWithSpaces_ToolTip" xml:space="preserve">
-    <value>行应只能缩进空格</value>
-  </data>
-  <data name="GotoNextCodeAnalysisHighlightingActionText" xml:space="preserve">
-    <value>转到下一个代码分析高亮显示</value>
-  </data>
-  <data name="WhyNoDaemonActionText" xml:space="preserve">
-    <value>Why no daemon</value>
-  </data>
-  <data name="WrongIndentSizeWrapperForTabsAndSpaces" xml:space="preserve">
-    <value>{0}，应为{1}{2}和{3}</value>
-  </data>
-  <data name="AnnotationsSourceCode_Text" xml:space="preserve">
-    <value>注解源代码:</value>
-  </data>
-  <data name="AnalysisSwitchedOff_Text" xml:space="preserve">
-    <value>分析已关闭</value>
-  </data>
-  <data name="IncludesFilesProducedBySourceGenerators_Text" xml:space="preserve">
-    <value>在解决方案级分析中包括源生成器生成的文件。可能会影响性能。</value>
-  </data>
-  <data name="MissingBlankLinesDescription" xml:space="preserve">
-    <value>{0}缺少空行</value>
-  </data>
-  <data name="IlInstructionHighlighterName" xml:space="preserve">
-    <value>指令</value>
-  </data>
-  <data name="DisposeAnalysisMode_OptionsCaption" xml:space="preserve">
-    <value>处置分析模式(何时警告标有 [MustDisposeResource] 的已获取资源):</value>
-  </data>
-  <data name="IncorrectTabSpacesMixInTheLineIndent_ToolTip" xml:space="preserve">
-    <value>不正确的制表符/空格混合在行缩进中，应为 {0} 个制表符和 {1} 个空格</value>
-  </data>
-  <data name="ShowWarningsAndErrors_Text" xml:space="preserve">
-    <value>显示警告和错误</value>
-  </data>
-  <data name="UnexpectedProjectFileBuildActionAt__Text" xml:space="preserve">
-    <value>{0} 下出现意外的项目文件构建操作</value>
-  </data>
-  <data name="NavigateToNextMessage_Text" xml:space="preserve">
-    <value>导航到下一条消息</value>
-  </data>
-  <data name="AnalysisIsSuspendedForTheFileWaiting_Text" xml:space="preserve">
-    <value>已为该文件暂停分析。正在等待 {0}。</value>
-  </data>
-  <data name="LineIndentNotRestoredToThePreviousLevel__Text" xml:space="preserve">
-    <value>行缩进没有还原到以前的级别{0}</value>
-  </data>
-  <data name="AnalyzeIntegerArithmetic_BoolOption_Text" xml:space="preserve">
-    <value>分析整数算术</value>
-  </data>
-  <data name="SyntaxHighlightings_Text" xml:space="preserve">
-    <value>语法高亮显示</value>
-  </data>
-  <data name="TrustAPIContractsWhenAValueIsAnnotated_Text" xml:space="preserve">
-    <value>信任 API 协定: 值被注解为不可以为 null 时</value>
-  </data>
-  <data name="ToggleShowImportPopupActionText" xml:space="preserve">
-    <value>切换“显示导入弹出窗口”</value>
-  </data>
-  <data name="Path_NotFoundInTheProject__Text" xml:space="preserve">
-    <value>在项目 '{1}' 中找不到路径 '{0}'</value>
-  </data>
-  <data name="CodeAnnotationsOptionPageTitle" xml:space="preserve">
-    <value>代码注解</value>
-  </data>
-  <data name="AnalysisIsNotAvailableForTheFileNoFile_Text" xml:space="preserve">
-    <value>无法分析该文件。找不到文档的文件。</value>
-  </data>
-  <data name="Indent" xml:space="preserve">
-    <value>缩进</value>
-  </data>
-  <data name="ProcessingConfigFiles_Text" xml:space="preserve">
-    <value>正在处理配置文件</value>
-  </data>
-  <data name="EntityFrameworkQueryPessimisticModeOption" xml:space="preserve">
-    <value>悲观: 如果在至少一个执行路径中发现，则报告问题</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_Line_break_is_missing" xml:space="preserve">
-    <value>{0}缺少换行</value>
-  </data>
-  <data name="EnableIncrementalDaemonStagesOptimization_Tooltip_Text" xml:space="preserve">
-    <value>打开后，完整文件重新高亮显示会跟踪检查了哪些成员，并且如果修改仅更改文件中的其他成员，则不会重新分析它们</value>
-  </data>
-  <data name="IncludesWarningsToSolutionWideAnalysis_BoolOption_ToolTip" xml:space="preserve">
-    <value>在解决方案级分析中包括警告。可能会影响性能。</value>
-  </data>
-  <data name="IlTargetHighlighterName" xml:space="preserve">
-    <value>目标</value>
-  </data>
-  <data name="ExpectedBuildAction_At__Text" xml:space="preserve">
-    <value>{1} 下应为构建操作“{0}”</value>
-  </data>
-  <data name="CodeAnnotationsOptionsPage_Text" xml:space="preserve">
-    <value>代码注解选项页面</value>
-  </data>
-  <data name="ReSharperMethodSeparatorHighlighting_Text" xml:space="preserve">
-    <value>ReSharper 方法分隔符高亮显示</value>
-  </data>
-  <data name="FoldersProvideNamespacesByDefault" xml:space="preserve">
-    <value>启用文件夹命名空间提供程序</value>
-  </data>
-  <data name="EntityFrameworkFQNKeyColumn" xml:space="preserve">
-    <value>完全限定类名</value>
-  </data>
-  <data name="IlMethodNameHighlighterName" xml:space="preserve">
-    <value>方法标识符</value>
-  </data>
-  <data name="EntityFrameworkQueryOptimisticModeOption" xml:space="preserve">
-    <value>乐观: 只在所有执行路径中发现时才报告问题</value>
-  </data>
-  <data name="WrongIndentSizeWrapperForTabs" xml:space="preserve">
-    <value>{0}，应为{1}{2}</value>
-  </data>
-  <data name="ConfigureSyntaxStyle_Text" xml:space="preserve">
-    <value>配置语法样式</value>
-  </data>
-  <data name="NavigateToNextUsage_Text" xml:space="preserve">
-    <value>导航到下一个用法</value>
-  </data>
-  <data name="RedundantBlankLinesDescription" xml:space="preserve">
-    <value>{0}空行冗余</value>
-  </data>
-  <data name="NoErrorsOrWarnings_Text" xml:space="preserve">
-    <value>没有错误或警告</value>
-  </data>
-  <data name="MonitorWarnings_Text" xml:space="preserve">
-    <value>监视警告</value>
-  </data>
-  <data name="DefaultAnnotationsNamespaceToUse_Text" xml:space="preserve">
-    <value>要使用的默认注解命名空间:</value>
-  </data>
-  <data name="ShowCImportPopups_Text" xml:space="preserve">
-    <value>显示 C++ 导入弹出窗口</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_Line_break_is_redundant" xml:space="preserve">
-    <value>{0}换行冗余</value>
-  </data>
-  <data name="ClickToNavigate_Text" xml:space="preserve">
-    <value>(点击以导航)</value>
-  </data>
-  <data name="HighlightLevelForFilesWithoutRecent_RadioOption_Caption" xml:space="preserve">
-    <value>没有最近更改的文件的高亮显示级别:</value>
-  </data>
-  <data name="InvalidCharactersInPath_Text" xml:space="preserve">
-    <value>路径中的无效字符</value>
-  </data>
-  <data name="OptimisticWhenExplicitlyMarkedWithCanBeNull_Text" xml:space="preserve">
-    <value>乐观: 使用 [CanBeNull] 特性显式标记时，或为 'null' 检查</value>
-  </data>
-  <data name="FoldersThatDoNotMeanANamespace_Text" xml:space="preserve">
-    <value>不代表命名空间的文件夹</value>
-  </data>
-  <data name="SettingsOptionPageTitle" xml:space="preserve">
-    <value>设置</value>
-  </data>
-  <data name="EnableEntityFrameworkModelAnalysisOption_Comment" xml:space="preserve">
-    <value>依赖关系循环、不受限的字符串属性长度等检查。</value>
-  </data>
-  <data name="LineNotIndentedRelativeToThePrevious_Text" xml:space="preserve">
-    <value>行相对于上一行没有缩进{0}</value>
-  </data>
-  <data name="AnalysisIsNotSupported__Text" xml:space="preserve">
-    <value>分析不受支持: {0}</value>
-  </data>
-  <data name="EnableEntityFrameworkModelAnalysisOption" xml:space="preserve">
-    <value>启用 Entity Framework 模型特定检查</value>
-  </data>
-  <data name="PessimisticWhenEntityDoesnTHaveExplicit_Text" xml:space="preserve">
-    <value>悲观: 当实体没有显式 [NotNull] 特性时</value>
-  </data>
-  <data name="_EnableCodeAnalysis_BoolOption_Text" xml:space="preserve">
-    <value>启用代码分析(_E)</value>
-  </data>
-  <data name="AnalysisWillBeginShortly_Text" xml:space="preserve">
-    <value>分析即将开始</value>
-  </data>
-  <data name="IlStringLiteralHighlighterName" xml:space="preserve">
-    <value>字符串字面量</value>
-  </data>
-  <data name="CodeAnalysisActionGroupText" xml:space="preserve">
-    <value>代码分析</value>
-  </data>
-  <data name="EntityFrameworkQueryAnalysisDisabledOption" xml:space="preserve">
-    <value>不分析 Entity Framework 查询</value>
-  </data>
-  <data name="Path_NotFound_Text" xml:space="preserve">
-    <value>找不到路径 '{0}'</value>
-  </data>
-  <data name="Vulnerable_api_inspection_description" xml:space="preserve">
-    <value>报告导入的依赖项中易受攻击的 API 的用法</value>
-  </data>
-  <data name="GeneratedDirectoriesAndFilesSetting_Text" xml:space="preserve">
-    <value> 生成的目录和文件仅在解决方案打开时可配置 </value>
-  </data>
-  <data name="AnalysisIsNotAvailableForTheFileNoDaemon_Text" xml:space="preserve">
-    <value>无法分析该文件。没有为文档创建守护进程。</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_BlankLinesProblemsCompoundItem_Incorrect_blank_lines" xml:space="preserve">
-    <value>空行不正确</value>
-  </data>
-  <data name="GotoBraceActionText" xml:space="preserve">
-    <value>转到大括号</value>
-  </data>
-  <data name="AnalysisIsDisabledNoProjectFileForThis_Text" xml:space="preserve">
-    <value>分析已被禁用: 此文档没有项目文件</value>
-  </data>
-  <data name="IlParameterHighlighterName" xml:space="preserve">
-    <value>形参标识符</value>
-  </data>
-  <data name="CopyCImplementationToClipboard_Text" xml:space="preserve">
-    <value>将 C# 实现复制到剪贴板</value>
-  </data>
-  <data name="HighlightRelatedAsyncAwaitKeywords_BoolOption_Text" xml:space="preserve">
-    <value>高亮显示相关的 async/await 关键字</value>
-  </data>
-  <data name="CodeAnalysisIsDisabledForTheContaining_Text" xml:space="preserve">
-    <value>代码分析已对包含项目禁用</value>
-  </data>
-  <data name="Tab_Plural" xml:space="preserve">
-    <value>{0} 个{0:choice:one#制表符|other#制表符}</value>
-  </data>
-  <data name="EnableComputationallyExpensiveInspections_Text" xml:space="preserve">
-    <value>启用计算量大的检查</value>
-  </data>
-  <data name="UnexpectedLineIndentChange__ToolTip" xml:space="preserve">
-    <value>意外的行缩进更改{0}</value>
-  </data>
-  <data name="IgnoredCodeOptionPageTitle" xml:space="preserve">
-    <value>忽略的代码</value>
-  </data>
-  <data name="NamespaceProviderSettingsSettingDescription" xml:space="preserve">
-    <value>命名空间提供程序设置</value>
-  </data>
-  <data name="ToggleShowCImportPopupActionText" xml:space="preserve">
-    <value>切换“显示 C++ 导入弹出窗口”</value>
-  </data>
-  <data name="UseParallelCodeAnalysisWhenApplying_BoolOption_Text" xml:space="preserve">
-    <value>在作用域内应用修正/操作时使用并行代码分析</value>
-  </data>
-  <data name="EntityFrameworkDisabledDbContextsTableDescription" xml:space="preserve">
-    <value>应禁用 Entity Framework 查询检查的类(从 DbContext 继承的类的完全限定名称):</value>
-  </data>
-  <data name="HighlightUsagesOfTheElementUnderCursor_BoolOption_Text" xml:space="preserve">
-    <value>高亮显示光标下元素的用法</value>
-  </data>
-  <data name="AnalysisIsCompleteFileIsConsideredGenerated_Text" xml:space="preserve">
-    <value>分析已完成。文件被认为是生成的。某些操作可能无法访问。</value>
-  </data>
-  <data name="ProcessingRulesetFiles_Text" xml:space="preserve">
-    <value>正在处理规则集文件</value>
-  </data>
-  <data name="EntityFrameworkOptionsReanalyze" xml:space="preserve">
-    <value>如果更改则重新分析解决方案</value>
-  </data>
-  <data name="AnalysisIsNotAvailableForTheFileNoLanguage_Text" xml:space="preserve">
-    <value>无法分析该文件。文档没有特定于语言的守护程序行为可以显示错误。</value>
-  </data>
-  <data name="IlViewerSynchronizationHighlighterName" xml:space="preserve">
-    <value>查看器同步</value>
-  </data>
-  <data name="DaemonIsInInvalidState_Text" xml:space="preserve">
-    <value>(守护进程处于无效状态)</value>
-  </data>
-  <data name="EnableIncrementalDaemonStagesOptimization_BoolOption_Text" xml:space="preserve">
-    <value>优化增量分析</value>
-  </data>
-  <data name="TabsAreProhibitedHere_ToolTip" xml:space="preserve">
-    <value>此处禁止使用制表符</value>
-  </data>
-  <data name="WhetherTheFolderActsAsANamespaceProviderFolderPathRelativeToTheProjectRootSettingDescription" xml:space="preserve">
-    <value>文件夹是否充当命名空间提供程序。文件夹路径相对于项目根。</value>
-  </data>
-  <data name="_At__Text" xml:space="preserve">
-    <value>{1} 的 {0}</value>
-  </data>
-  <data name="Plural_Errors" xml:space="preserve">
-    <value>{0} 个{0:choice:one#错误|other#错误}</value>
-  </data>
-  <data name="FileWasExcludedFromCodeAnalysis_Text" xml:space="preserve">
-    <value>文件已被从代码分析中排除</value>
-  </data>
-  <data name="ResourcesUtilization_Text" xml:space="preserve">
-    <value>资源利用率:</value>
-  </data>
-  <data name="LowPriorityAnalysesStillRunning_Text" xml:space="preserve">
-    <value>低优先级分析仍在后台运行。</value>
-  </data>
-  <data name="ReadSettingsFromEditorconfigAndProject_Text" xml:space="preserve">
-    <value>从 .editorconfig 和项目设置中读取设置</value>
-  </data>
-  <data name="FolderNamespaceSettingsDescription" xml:space="preserve">
-    <value>Folder namespace provider settings</value>
-  </data>
-  <data name="Why_IsNotAvailableInCurrentFile_Text" xml:space="preserve">
-    <value>为什么 {0} 在当前文件中不可用?</value>
-  </data>
-  <data name="ShowInlayHints_Text" xml:space="preserve">
-    <value>显示内嵌提示</value>
-  </data>
-  <data name="ToggleEnhancedSyntaxColoringActionText" xml:space="preserve">
-    <value>切换增强的语法着色</value>
-  </data>
-  <data name="ShowSuggestionsWarningsAndErrors_Text" xml:space="preserve">
-    <value>显示建议、警告和错误</value>
-  </data>
-  <data name="UnexpectedProjectFileTypeAt__Text" xml:space="preserve">
-    <value>{0} 下出现意外的项目文件类型</value>
-  </data>
-  <data name="SpecifyProjectFileNamesToExcludeProjects_Text_Text" xml:space="preserve">
-    <value>指定项目文件名以从索引和分析中排除项目。在被忽略的项目中定义的符号仍然可以从编译的工件中获得。</value>
-  </data>
-  <data name="SyntaxStyle_Text" xml:space="preserve">
-    <value>语法样式</value>
-  </data>
-  <data name="RecentChangesPeriodDays_Text" xml:space="preserve">
-    <value>最近更改的期限(天)</value>
-  </data>
-  <data name="Caret_Dependent_Highlightings_Header_Text" xml:space="preserve">
-    <value>文本光标依赖高亮显示</value>
-  </data>
-  <data name="GeneratedFilesAndDirectories_Caption" xml:space="preserve">
-    <value>生成的文件和目录:</value>
-  </data>
-  <data name="YouCanEditIdentifierColorsOnTheVisual_Text" xml:space="preserve">
-    <value>您可以在 Visual Studio *环境 | 字体和颜色*选项页面编辑标识符颜色。查找 '*ReSharper ... 标识符*' 条目。</value>
-  </data>
-  <data name="RunningGlobalAnalysis_Text" xml:space="preserve">
-    <value>正在运行全局分析</value>
-  </data>
-  <data name="AutomaticallyPropagateAnnotationsIn_Text" xml:space="preserve">
-    <value>自动传播注解(在代码操作和重构中)</value>
-  </data>
-  <data name="ReSharperAnnotationsHelpReduceFalse_Text" xml:space="preserve">
-    <value>ReSharper 注解有助于减少误报警告、显示声明纯度和代码中的为 null 性、处理成员的隐式用法、支持 ASP.NET 和 XAML 框架中 API 的特殊语义，以及提高 ReSharper 代码检查的准确性。</value>
-  </data>
-  <data name="EnableEntityFrameworkAnalysisOption" xml:space="preserve">
-    <value>启用 Entity Framework 特定检查</value>
-  </data>
-  <data name="AnalysisIsComplete_Text" xml:space="preserve">
-    <value>分析已完成</value>
-  </data>
-  <data name="FilesAndFoldersAreSpecifiedRelative_Text_Text" xml:space="preserve">
-    <value>文件和文件夹是相对于解决方案根目录指定的；文件掩码将与文件绝对路径匹配。</value>
-  </data>
-  <data name="IlTargetLabelHighlighterName" xml:space="preserve">
-    <value>目标代码标签</value>
-  </data>
-  <data name="ShowUnused_globalUsingDirectivesWhen_BoolOption_Text" xml:space="preserve">
-    <value>当解决方案级分析关闭时显示未使用的 global using 指令(_G)</value>
-  </data>
-  <data name="OfficialNuGetPackageRecommendedWayTo_Text" xml:space="preserve">
-    <value>官方 NuGet 软件包(获取注解的推荐方式)</value>
-  </data>
-  <data name="EnableEntityFrameworkEntityAdornmentOption" xml:space="preserve">
-    <value>显示实体类的装饰</value>
-  </data>
-  <data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
-    <value>生成的代码</value>
-  </data>
-  <data name="ProjectFileExpectedAt__Text" xml:space="preserve">
-    <value>项目文件应位于 {0}</value>
-  </data>
-  <data name="AnnotationsSourceCodeIsCopiedToTheClipboard_Text" xml:space="preserve">
-    <value>注解源代码已被复制到剪贴板</value>
-  </data>
-  <data name="AnalysisInProgress_Text" xml:space="preserve">
-    <value>正在进行分析</value>
-  </data>
-  <data name="HighlightCapturedPrimaryParametersDescription_Text" xml:space="preserve">
-    <value>高亮显示“捕获”的 C# 主形参 – 在实例成员中使用，并采用单独的颜色（默认与字段相同）</value>
-  </data>
-  <data name="DisposeAnalysisMode_OptionOptimisticCaption" xml:space="preserve">
-    <value>乐观: 如果既没有 'using' 块或声明，没有处置调用，也没有接受处置性对象或使用 [HandlesResourceDisposal] 注解的使用者</value>
-  </data>
-  <data name="EntityFrameworkQueryAnalysisModeOption" xml:space="preserve">
-    <value>Entity Framework 查询分析模式</value>
-  </data>
-  <data name="HereYouCanSpecifyFilesFileMasksAndFolders_Text_Text" xml:space="preserve">
-    <value>在这里，您可以指定应从代码分析中排除的文件、文件掩码和文件夹。</value>
-  </data>
-  <data name="RecursiveCall_Text" xml:space="preserve">
-    <value>递归调用</value>
-  </data>
-  <data name="MultipleSpacesAreProhibited_ToolTip" xml:space="preserve">
-    <value>禁止使用多个空格</value>
-  </data>
-  <data name="UtilizesAvailableCPUsToPerformCodeAnalysis_BoolOption_ToolTip" xml:space="preserve">
-    <value>在超过 10 个文件的作用域内应用快速修复和上下文操作时，利用可用的 CPU 并行执行代码分析</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_Space_is_missing" xml:space="preserve">
-    <value>{0}缺少空格</value>
-  </data>
-  <data name="IlHighlighterGroupName" xml:space="preserve">
-    <value>IL （中间语言）</value>
-  </data>
-  <data name="RunningSlowAnalysis_Text" xml:space="preserve">
-    <value>正在运行慢速分析</value>
-  </data>
-  <data name="choice:mappings" xml:space="preserve">
-    <value>one:i == 1</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_SpacesProblemsCompoundItem_Incorrect_spacing" xml:space="preserve">
-    <value>间距不正确</value>
-  </data>
-  <data name="NoteThatIfSomeSymbolsAreOnlyUsedInThe_Text_Text" xml:space="preserve">
-    <value>请注意，如果某些符号仅在排除的文件中使用，则解决方案级分析会将这些符号高亮显示为从未被使用。</value>
-  </data>
-  <data name="MakeUseOfSolutionWideAnalysisResults_BoolOption_ToolTip" xml:space="preserve">
-    <value>利用解决方案级分析结果在作用域内加速应用快速修复。需要启用解决方案级分析的 '监视警告' 选项</value>
-  </data>
-  <data name="GotoPreviousCodeAnalysisHighlightingActionText" xml:space="preserve">
-    <value>转到上一个代码分析高亮显示</value>
-  </data>
-  <data name="ShowVirtualIndents_Text" xml:space="preserve">
-    <value>显示虚拟缩进</value>
-  </data>
-  <data name="DaemonIndicatorErrorsAndWarnings_Text" xml:space="preserve">
-    <value>{0} 和 {1}</value>
-  </data>
-  <data name="IlQualifiedNameHighlighterName" xml:space="preserve">
-    <value>限定名称</value>
-  </data>
-  <data name="EnablesInspectionsThatPerformComplex_Text" xml:space="preserve">
-    <value>启用执行复杂数据流分析的检查 – 例如，为 null 性检查。可能会影响性能。</value>
-  </data>
-  <data name="NavigateToNextWarning_Text" xml:space="preserve">
-    <value>导航到下一个警告</value>
-  </data>
-  <data name="IlCommentHighlighterName" xml:space="preserve">
-    <value>评论</value>
-  </data>
-  <data name="_ColorIdentifiers_BoolOption_Text" xml:space="preserve">
-    <value>颜色标识符(_C)</value>
-  </data>
-  <data name="HighlightSpecialCharactersInStringLiterals_BoolOption_Text" xml:space="preserve">
-    <value>高亮显示字符串字面量中的特殊字符</value>
-  </data>
-  <data name="ProjectFolderExpectedAt__Text" xml:space="preserve">
-    <value>项目文件夹应位于 {0}</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_Space_is_redundant" xml:space="preserve">
-    <value>{0}空格冗余</value>
-  </data>
-  <data name="Analysis_Header_Text" xml:space="preserve">
-    <value>分析</value>
-  </data>
-  <data name="MarkFileAsUnchangedToHideExcessiveHighlightingsActionText" xml:space="preserve">
-    <value>将文件标记为未更改以隐藏过多的高亮显示</value>
-  </data>
-  <data name="Path_NotResolved_Text" xml:space="preserve">
-    <value>路径 {0} 未被解析</value>
-  </data>
-  <data name="Outdent" xml:space="preserve">
-    <value>减少缩进</value>
-  </data>
-  <data name="HighlightCapturedPrimaryParameters_Text" xml:space="preserve">
-    <value>高亮显示捕获的主形参</value>
-  </data>
-  <data name="GotoBraceExtendActionText" xml:space="preserve">
-    <value>转到带选区的大括号</value>
-  </data>
-  <data name="Space_Plural" xml:space="preserve">
-    <value>{0} 个{0:choice:one#空格|other#空格}</value>
-  </data>
-  <data name="ToEditTheListOfIgnoredProjectsYouShould_Text_Text" xml:space="preserve">
-    <value>要编辑忽略的项目列表，请打开解决方案</value>
-  </data>
-  <data name="OnlyShowErrors_Text" xml:space="preserve">
-    <value>仅显示错误</value>
-  </data>
-  <data name="IlConstantLiteralHighlighterName" xml:space="preserve">
-    <value>常量字面量</value>
-  </data>
-  <data name="OutdentSizeIsIncorrect__Text" xml:space="preserve">
-    <value>减少缩进大小不正确</value>
-  </data>
-  <data name="IndentSizeIsIncorrect__Text" xml:space="preserve">
-    <value>缩进大小不正确</value>
-  </data>
-  <data name="IlKeywordHighlighterName" xml:space="preserve">
-    <value>关键字</value>
-  </data>
-  <data name="GeneratedFileMasks_Caption" xml:space="preserve">
-    <value>生成的文件掩码:</value>
-  </data>
-  <data name="CloseOptions_Text" xml:space="preserve">
-    <value>关闭选项</value>
-  </data>
-  <data name="EnableTheAnalysisOfIntegerValuesCurrently_Text" xml:space="preserve">
-    <value>启用整数值的分析，目前仅在 C# 中可用</value>
-  </data>
-  <data name="Path_NotFoundInTheSolution_Text" xml:space="preserve">
-    <value>在解决方案中找不到路径 '{0}'</value>
-  </data>
-  <data name="FileIsOutOfUserScopeItMightComeFrom_Text" xml:space="preserve">
-    <value>文件超出用户作用域。它可能来自 NuGet 软件包，也可能是外部源文件。</value>
-  </data>
-  <data name="TrustOnlyRuntimeChecksOnlyWhenAValue_Text" xml:space="preserve">
-    <value>仅信任运行时检查: 仅在代码中显式检查某个值是否为 null 时</value>
-  </data>
-  <data name="IlCodeLabelHighlighterName" xml:space="preserve">
-    <value>代码标签</value>
-  </data>
-  <data name="IncludeSourceGeneratedFiles_Text" xml:space="preserve">
-    <value>包括源生成的文件</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_LineBreaksProblemsCompoundItem_Incorrect_line_breaks" xml:space="preserve">
-    <value>换行不正确</value>
-  </data>
-  <data name="FileWillBeReanalysed_Text" xml:space="preserve">
-    <value>文件将被重新分析</value>
-  </data>
-  <data name="RunningLocalAnalysis_Text" xml:space="preserve">
-    <value>正在运行局部分析</value>
-  </data>
-  <data name="SyncInspectionsWithRoslynConfiguration_BoolOption_Text" xml:space="preserve">
-    <value>将与 Roslyn 分析器匹配的检查视为编译器检查</value>
-  </data>
-  <data name="NavigateToNextError_Text" xml:space="preserve">
-    <value>导航到下一个错误</value>
-  </data>
-  <data name="DisposeAnalysisMode_OptionPessimisticCaption" xml:space="preserve">
-    <value>悲观: 如果既没有 'using' 块或声明，没有处置调用，也没有使用 [HandlesResourceDisposal] 注解的使用者</value>
-  </data>
-  <data name="Plural_Warnings" xml:space="preserve">
-    <value>{0} 个{0:choice:one#警告|other#警告}</value>
-  </data>
-  <data name="ValueAnalysisModeWhenToAssumeEntity_RadioOption_Caption" xml:space="preserve">
-    <value>值分析模式(假设实体值可以是 'null' 引用时):</value>
-  </data>
-  <data name="TabsMustGoFirstInIndent_ToolTip" xml:space="preserve">
-    <value>制表符必须先缩进</value>
-  </data>
-  <data name="ReSharperAlwaysSupportsAnnotationsFrom_Text" xml:space="preserve">
-    <value>ReSharper 始终支持来自 '{0}' 命名空间的注解。{1}自定义命名空间应在下面的列表中标记:</value>
-  </data>
-  <data name="ShowTheImportNamespacePopup_Text" xml:space="preserve">
-    <value>显示“导入命名空间”弹出窗口</value>
-  </data>
-  <data name="ShowAllIssues_Text" xml:space="preserve">
-    <value>显示所有问题</value>
-  </data>
-  <data name="GeneratedCodeRegions_Caption" xml:space="preserve">
-    <value>生成的代码区域:</value>
-  </data>
-  <data name="ToEditTheListOfSkippedFilesAndFolders_Text_Text" xml:space="preserve">
-    <value>要编辑跳过的文件和文件夹列表，请打开解决方案</value>
-  </data>
-  <data name="ElementsToSkip_Header_Text" xml:space="preserve">
-    <value>要跳过的元素</value>
-  </data>
-  <data name="IncorrectBlankLines_Minimum" xml:space="preserve">
-    <value>最少</value>
-  </data>
-  <data name="CommonFormatHighlightingIdsBase_IndentProblemsCompoundItem_Incorrect_indent" xml:space="preserve">
-    <value>缩进不正确</value>
-  </data>
-  <data name="CopyHighlightingNameText" xml:space="preserve">
-    <value>Copy Highlighting Name</value>
-  </data>
-  <data name="HighlightContextExits_BoolOption_Text" xml:space="preserve">
-    <value>高亮显示上下文退出</value>
-  </data>
-  <data name="AnalysisIsSwitchedOffForTheFileFile_Text" xml:space="preserve">
-    <value>文件分析已关闭。该文件不再有效。</value>
-  </data>
-  <data name="HighlightConditionElements_Text" xml:space="preserve">
-    <value>高亮显示条件元素</value>
-  </data>
-  <data name="CodeAnalysisIsDisabledForTheWholeSolution_Text" xml:space="preserve">
-    <value>代码分析已对整个解决方案禁用</value>
-  </data>
-  <data name="SyncInspectionsWithRoslynConfiguration_Tooltip_Text" xml:space="preserve">
-    <value>将 .editorconfig 严重性用于与 Roslyn 分析器匹配的检查
-允许通过带有相应编译器 ID 的 #pragma 禁止检查</value>
-  </data>
-  <data name="ToggleInlayHintsActionText" xml:space="preserve">
-    <value>切换内嵌提示(&amp;I)</value>
-  </data>
-  <data name="FoldersProvideNamespacesByDefault_Tooltip_Text" xml:space="preserve">
-    <value>此设置控制所有文件夹的命名空间的默认行为，允许所有文件夹影响命名空间(带有一些可选排除)或者禁用所有文件夹并启用特定文件夹。</value>
-  </data>
-  <data name="Highlighting_Header_Text" xml:space="preserve">
-    <value>高亮显示</value>
-  </data>
-  <data name="ToggleParameterNameHintsActionText" xml:space="preserve">
-    <value>切换内嵌提示</value>
-  </data>
-  <data name="YouCanEditIdentifierColorsInSettings_Text" xml:space="preserve">
-    <value>您可以在设置*++(编辑器 -&gt; 配色方案)++*中编辑标识符颜色。</value>
-  </data>
-  <data name="Show_unusedNonPrivateTypeMembersWhen_BoolOption_Text" xml:space="preserve">
-    <value>当解决方案级分析关闭时显示未使用的非 private 类型成员(_U)</value>
-  </data>
-  <data name="CodeFoldingHighlightings_Text" xml:space="preserve">
-    <value>代码折叠高亮显示</value>
-  </data>
-  <data name="ProjectsToIgnore_Header_Text" xml:space="preserve">
-    <value>要忽略的项目</value>
-  </data>
-  <data name="FileWasIsolatedBecauseCodeAnalysisLed_Text" xml:space="preserve">
-    <value>文件已被隔离，因为代码分析导致异常</value>
-  </data>
-  <data name="IncorrectBlankLines_Maximum" xml:space="preserve">
-    <value>最多</value>
-  </data>
-  <data name="UseSolutionWideAnalysisResultsWhenApplying_BoolOption_Text" xml:space="preserve">
-    <value>在作用域内应用快速修复时，利用解决方案级分析结果</value>
-  </data>
-  <data name="Elsewhere" xml:space="preserve">
-    <value>其他位置</value>
-  </data>
-  <data name="EnhancedSyntaxColoring_Text" xml:space="preserve">
-    <value>增强的语法着色</value>
-  </data>
-  <data name="EnableSolutionWide_analysis_BoolOption_Text" xml:space="preserve">
-    <value>启用解决方案级分析(_A)</value>
-  </data>
-  <data name="LineNotOutdentedRelativeToThePrevious_Text" xml:space="preserve">
-    <value>行相对于上一行没有减少缩进{0}</value>
-  </data>
-  <data name="QuickFixesAndContextActions_Header_Text" xml:space="preserve">
-    <value>快速修复与上下文操作</value>
-  </data>
-  <data name="InspectionSeverityOptionPageTitle" xml:space="preserve">
-    <value>检查严重性</value>
-  </data>
-  <data name="SomeResultsWereHiddenToReduceComplexity_Text" xml:space="preserve">
-    <value>为了降低复杂性，一些结果已被隐藏，选择上下文菜单可查看全部结果</value>
-  </data>
-  <data name="MarkFileAsModifiedToShowHiddenHighlightingsActionText" xml:space="preserve">
-    <value>将文件标记为已修改以显示隐藏的高亮显示</value>
-  </data>
-  <data name="WrongIndentSizeWrapperForSpaces" xml:space="preserve">
-    <value>{0}，应为{1}{3}</value>
-  </data>
-  <data name="LineShouldOnlyBeIndentedWithTabs_ToolTip" xml:space="preserve">
-    <value>行应只能缩进制表符</value>
-  </data>
+<data name="HighlightGroupsOfLogicalOperatorSigns_Text" xml:space="preserve">
+  <value>Подсветка групп знаков логических операторов (например, цепочки '&amp;&amp;' и '||' в C#)</value>
+</data>
+<data name="IncorrectBlankLinesWrapper" xml:space="preserve">
+  <value>{0}, должно быть {1} {2}, а не {3}</value>
+</data>
+<data name="HighlightColorUsages_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать использование цветов</value>
+</data>
+<data name="ThisOptionDoesNotAffectCToToggleSyntax_Text" xml:space="preserve">
+  <value>Эта опция не влияет на C++. Для переключения подсветки синтаксиса в C++ используйте соответствующую опцию на странице *Редактирование кода | C++ | Инспекции* настроек ReSharper.</value>
+</data>
+<data name="EntityFrameworkSettingsPageName" xml:space="preserve">
+  <value>Entity Framework</value>
+</data>
+<data name="NullableReferenceTypesWarningsModeWhen_RadioOption_Caption" xml:space="preserve">
+  <value>Режим предупреждений для допускающих значение NULL ссылочных типов (когда предупреждать о проверке не-NULL значений в проектах с включёнными 'NULLable ссылочными типами'):</value>
+</data>
+<data name="Vulnerable_api_inspection_title" xml:space="preserve">
+  <value>Использование уязвимого API</value>
+</data>
+<data name="IlIdentifierHighlighterName" xml:space="preserve">
+  <value>Идентификатор</value>
+</data>
+<data name="AHref_LearnMoreA_Text" xml:space="preserve">
+  <value>&lt;a href="{0}"&gt;Подробнее&lt;/a&gt;</value>
+</data>
+<data name="LineShouldOnlyBeIndentedWithSpaces_ToolTip" xml:space="preserve">
+  <value>Строка должна иметь отступ только пробелами</value>
+</data>
+<data name="GotoNextCodeAnalysisHighlightingActionText" xml:space="preserve">
+  <value>Перейти к следующей подсветке анализа кода</value>
+</data>
+<data name="WhyNoDaemonActionText" xml:space="preserve">
+  <value>Почему нет демона</value>
+</data>
+<data name="WrongIndentSizeWrapperForTabsAndSpaces" xml:space="preserve">
+  <value>{0}, должно быть {1}{2} и {3}</value>
+</data>
+<data name="AnnotationsSourceCode_Text" xml:space="preserve">
+  <value>Исходный код аннотаций:</value>
+</data>
+<data name="AnalysisSwitchedOff_Text" xml:space="preserve">
+  <value>Анализ отключён</value>
+</data>
+<data name="IncludesFilesProducedBySourceGenerators_Text" xml:space="preserve">
+  <value>Включать файлы, созданные генераторами исходного кода, в анализ на уровне решения. Может повлиять на производительность.</value>
+</data>
+<data name="MissingBlankLinesDescription" xml:space="preserve">
+  <value>{0} отсутствуют пустые строки</value>
+</data>
+<data name="IlInstructionHighlighterName" xml:space="preserve">
+  <value>Инструкция</value>
+</data>
+<data name="DisposeAnalysisMode_OptionsCaption" xml:space="preserve">
+  <value>Режим анализа освобождения (когда предупреждать о полученных ресурсах, помеченных [MustDisposeResource]):</value>
+</data>
+<data name="IncorrectTabSpacesMixInTheLineIndent_ToolTip" xml:space="preserve">
+  <value>Некорректное смешение табуляций/пробелов в отступе строки, должно быть {0} табуляций и {1} пробелов</value>
+</data>
+<data name="ShowWarningsAndErrors_Text" xml:space="preserve">
+  <value>Показывать предупреждения и ошибки</value>
+</data>
+<data name="UnexpectedProjectFileBuildActionAt__Text" xml:space="preserve">
+  <value>Неожиданное действие сборки файла проекта в {0}</value>
+</data>
+<data name="NavigateToNextMessage_Text" xml:space="preserve">
+  <value>Перейти к следующему сообщению</value>
+</data>
+<data name="AnalysisIsSuspendedForTheFileWaiting_Text" xml:space="preserve">
+  <value>Анализ приостановлен для этого файла. Ожидание {0}.</value>
+</data>
+<data name="LineIndentNotRestoredToThePreviousLevel__Text" xml:space="preserve">
+  <value>Отступ строки не восстановлен до предыдущего уровня{0}</value>
+</data>
+<data name="AnalyzeIntegerArithmetic_BoolOption_Text" xml:space="preserve">
+  <value>Анализировать целочисленную арифметику</value>
+</data>
+<data name="SyntaxHighlightings_Text" xml:space="preserve">
+  <value>Подсветка синтаксиса</value>
+</data>
+<data name="TrustAPIContractsWhenAValueIsAnnotated_Text" xml:space="preserve">
+  <value>Доверять контрактам API: когда значение аннотировано как не-NULL</value>
+</data>
+<data name="ToggleShowImportPopupActionText" xml:space="preserve">
+  <value>Переключить "Показывать всплывающее окно импорта"</value>
+</data>
+<data name="Path_NotFoundInTheProject__Text" xml:space="preserve">
+  <value>Путь '{0}' не найден в проекте '{1}'</value>
+</data>
+<data name="CodeAnnotationsOptionPageTitle" xml:space="preserve">
+  <value>Аннотации кода</value>
+</data>
+<data name="AnalysisIsNotAvailableForTheFileNoFile_Text" xml:space="preserve">
+  <value>Анализ недоступен для этого файла. Файл для документа не найден.</value>
+</data>
+<data name="Indent" xml:space="preserve">
+  <value>Отступ</value>
+</data>
+<data name="ProcessingConfigFiles_Text" xml:space="preserve">
+  <value>Обработка файлов конфигурации</value>
+</data>
+<data name="EntityFrameworkQueryPessimisticModeOption" xml:space="preserve">
+  <value>Пессимистичный: сообщать о проблеме, если она найдена хотя бы в одном пути выполнения</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_Line_break_is_missing" xml:space="preserve">
+  <value>{0} отсутствует разрыв строки</value>
+</data>
+<data name="EnableIncrementalDaemonStagesOptimization_Tooltip_Text" xml:space="preserve">
+  <value>При включении полная переподсветка файла отслеживает, какие члены были проверены, и не переанализирует их, если изменения затрагивают только другие члены в файле</value>
+</data>
+<data name="IncludesWarningsToSolutionWideAnalysis_BoolOption_ToolTip" xml:space="preserve">
+  <value>Включать предупреждения в анализ на уровне решения. Может повлиять на производительность.</value>
+</data>
+<data name="IlTargetHighlighterName" xml:space="preserve">
+  <value>Цель</value>
+</data>
+<data name="ExpectedBuildAction_At__Text" xml:space="preserve">
+  <value>Ожидалось действие сборки '{0}' в {1}</value>
+</data>
+<data name="CodeAnnotationsOptionsPage_Text" xml:space="preserve">
+  <value>Страница опций аннотаций кода</value>
+</data>
+<data name="ReSharperMethodSeparatorHighlighting_Text" xml:space="preserve">
+  <value>Подсветка разделителей методов ReSharper</value>
+</data>
+<data name="FoldersProvideNamespacesByDefault" xml:space="preserve">
+  <value>Включить поставщик пространств имён для папок</value>
+</data>
+<data name="EntityFrameworkFQNKeyColumn" xml:space="preserve">
+  <value>Полное имя класса</value>
+</data>
+<data name="IlMethodNameHighlighterName" xml:space="preserve">
+  <value>Идентификатор метода</value>
+</data>
+<data name="EntityFrameworkQueryOptimisticModeOption" xml:space="preserve">
+  <value>Оптимистичный: сообщать о проблеме, только если она найдена во всех путях выполнения</value>
+</data>
+<data name="WrongIndentSizeWrapperForTabs" xml:space="preserve">
+  <value>{0}, должно быть {1}{2}</value>
+</data>
+<data name="ConfigureSyntaxStyle_Text" xml:space="preserve">
+  <value>Настроить стиль синтаксиса</value>
+</data>
+<data name="NavigateToNextUsage_Text" xml:space="preserve">
+  <value>Перейти к следующему использованию</value>
+</data>
+<data name="RedundantBlankLinesDescription" xml:space="preserve">
+  <value>{0} пустые строки избыточны</value>
+</data>
+<data name="NoErrorsOrWarnings_Text" xml:space="preserve">
+  <value>Нет ошибок или предупреждений</value>
+</data>
+<data name="MonitorWarnings_Text" xml:space="preserve">
+  <value>Мониторить предупреждения</value>
+</data>
+<data name="DefaultAnnotationsNamespaceToUse_Text" xml:space="preserve">
+  <value>Пространство имён аннотаций по умолчанию для использования:</value>
+</data>
+<data name="ShowCImportPopups_Text" xml:space="preserve">
+  <value>Показывать всплывающие окна импорта C++</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_Line_break_is_redundant" xml:space="preserve">
+  <value>{0} разрыв строки избыточен</value>
+</data>
+<data name="ClickToNavigate_Text" xml:space="preserve">
+  <value>(нажмите для навигации)</value>
+</data>
+<data name="HighlightLevelForFilesWithoutRecent_RadioOption_Caption" xml:space="preserve">
+  <value>Уровень подсветки для файлов без недавних изменений:</value>
+</data>
+<data name="InvalidCharactersInPath_Text" xml:space="preserve">
+  <value>Недопустимые символы в пути</value>
+</data>
+<data name="OptimisticWhenExplicitlyMarkedWithCanBeNull_Text" xml:space="preserve">
+  <value>Оптимистичный: когда явно помечено атрибутом [CanBeNull], или при проверке на 'null'</value>
+</data>
+<data name="FoldersThatDoNotMeanANamespace_Text" xml:space="preserve">
+  <value>Папки, которые не означают пространство имён</value>
+</data>
+<data name="SettingsOptionPageTitle" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="EnableEntityFrameworkModelAnalysisOption_Comment" xml:space="preserve">
+  <value>Проверки на циклические зависимости, неограниченную длину строковых свойств и т.д.</value>
+</data>
+<data name="LineNotIndentedRelativeToThePrevious_Text" xml:space="preserve">
+  <value>Строка не имеет отступа относительно предыдущей строки{0}</value>
+</data>
+<data name="AnalysisIsNotSupported__Text" xml:space="preserve">
+  <value>Анализ не поддерживается: {0}</value>
+</data>
+<data name="EnableEntityFrameworkModelAnalysisOption" xml:space="preserve">
+  <value>Включить специфические проверки модели Entity Framework</value>
+</data>
+<data name="PessimisticWhenEntityDoesnTHaveExplicit_Text" xml:space="preserve">
+  <value>Пессимистичный: когда у сущности нет явного атрибута [NotNull]</value>
+</data>
+<data name="_EnableCodeAnalysis_BoolOption_Text" xml:space="preserve">
+  <value>Включить анализ кода(_E)</value>
+</data>
+<data name="AnalysisWillBeginShortly_Text" xml:space="preserve">
+  <value>Анализ скоро начнётся</value>
+</data>
+<data name="IlStringLiteralHighlighterName" xml:space="preserve">
+  <value>Строковый литерал</value>
+</data>
+<data name="CodeAnalysisActionGroupText" xml:space="preserve">
+  <value>Анализ кода</value>
+</data>
+<data name="EntityFrameworkQueryAnalysisDisabledOption" xml:space="preserve">
+  <value>Не анализировать запросы Entity Framework</value>
+</data>
+<data name="Path_NotFound_Text" xml:space="preserve">
+  <value>Путь '{0}' не найден</value>
+</data>
+<data name="Vulnerable_api_inspection_description" xml:space="preserve">
+  <value>Сообщает об использовании уязвимых API в импортированных зависимостях</value>
+</data>
+<data name="GeneratedDirectoriesAndFilesSetting_Text" xml:space="preserve">
+  <value> Сгенерированные каталоги и файлы настраиваются только при открытом решении </value>
+</data>
+<data name="AnalysisIsNotAvailableForTheFileNoDaemon_Text" xml:space="preserve">
+  <value>Анализ недоступен для этого файла. Для документа не создан демон.</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_BlankLinesProblemsCompoundItem_Incorrect_blank_lines" xml:space="preserve">
+  <value>Некорректные пустые строки</value>
+</data>
+<data name="GotoBraceActionText" xml:space="preserve">
+  <value>Перейти к скобке</value>
+</data>
+<data name="AnalysisIsDisabledNoProjectFileForThis_Text" xml:space="preserve">
+  <value>Анализ отключён: для этого документа нет файла проекта</value>
+</data>
+<data name="IlParameterHighlighterName" xml:space="preserve">
+  <value>Идентификатор параметра</value>
+</data>
+<data name="CopyCImplementationToClipboard_Text" xml:space="preserve">
+  <value>Копировать реализацию на C# в буфер обмена</value>
+</data>
+<data name="HighlightRelatedAsyncAwaitKeywords_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать связанные ключевые слова async/await</value>
+</data>
+<data name="CodeAnalysisIsDisabledForTheContaining_Text" xml:space="preserve">
+  <value>Анализ кода отключён для содержащего проекта</value>
+</data>
+<data name="Tab_Plural" xml:space="preserve">
+  <value>{0} {0:choice:one#табуляция|other#табуляций}</value>
+</data>
+<data name="EnableComputationallyExpensiveInspections_Text" xml:space="preserve">
+  <value>Включить ресурсоёмкие проверки</value>
+</data>
+<data name="UnexpectedLineIndentChange__ToolTip" xml:space="preserve">
+  <value>Неожиданное изменение отступа строки{0}</value>
+</data>
+<data name="IgnoredCodeOptionPageTitle" xml:space="preserve">
+  <value>Игнорируемый код</value>
+</data>
+<data name="NamespaceProviderSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки поставщика пространств имён</value>
+</data>
+<data name="ToggleShowCImportPopupActionText" xml:space="preserve">
+  <value>Переключить "Показывать всплывающее окно импорта C++"</value>
+</data>
+<data name="UseParallelCodeAnalysisWhenApplying_BoolOption_Text" xml:space="preserve">
+  <value>Использовать параллельный анализ кода при применении исправлений/действий в области</value>
+</data>
+<data name="EntityFrameworkDisabledDbContextsTableDescription" xml:space="preserve">
+  <value>Классы, для которых следует отключить проверки запросов Entity Framework (полные имена классов, наследуемых от DbContext):</value>
+</data>
+<data name="HighlightUsagesOfTheElementUnderCursor_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать использования элемента под курсором</value>
+</data>
+<data name="AnalysisIsCompleteFileIsConsideredGenerated_Text" xml:space="preserve">
+  <value>Анализ завершён. Файл считается сгенерированным. Некоторые действия могут быть недоступны.</value>
+</data>
+<data name="ProcessingRulesetFiles_Text" xml:space="preserve">
+  <value>Обработка файлов набора правил</value>
+</data>
+<data name="EntityFrameworkOptionsReanalyze" xml:space="preserve">
+  <value>Переанализировать решение при изменении</value>
+</data>
+<data name="AnalysisIsNotAvailableForTheFileNoLanguage_Text" xml:space="preserve">
+  <value>Анализ недоступен для этого файла. У документа нет специфичного для языка поведения демона для отображения ошибок.</value>
+</data>
+<data name="IlViewerSynchronizationHighlighterName" xml:space="preserve">
+  <value>Синхронизация просмотрщика</value>
+</data>
+<data name="DaemonIsInInvalidState_Text" xml:space="preserve">
+  <value>(Демон находится в недопустимом состоянии)</value>
+</data>
+<data name="EnableIncrementalDaemonStagesOptimization_BoolOption_Text" xml:space="preserve">
+  <value>Оптимизировать инкрементальный анализ</value>
+</data>
+<data name="TabsAreProhibitedHere_ToolTip" xml:space="preserve">
+  <value>Табуляции запрещены здесь</value>
+</data>
+<data name="WhetherTheFolderActsAsANamespaceProviderFolderPathRelativeToTheProjectRootSettingDescription" xml:space="preserve">
+  <value>Выступает ли папка в роли поставщика пространств имён. Путь к папке указан относительно корня проекта.</value>
+</data>
+<data name="_At__Text" xml:space="preserve">
+  <value>{0} в {1}</value>
+</data>
+<data name="Plural_Errors" xml:space="preserve">
+  <value>{0} {0:choice:one#ошибка|other#ошибок}</value>
+</data>
+<data name="FileWasExcludedFromCodeAnalysis_Text" xml:space="preserve">
+  <value>Файл был исключён из анализа кода</value>
+</data>
+<data name="ResourcesUtilization_Text" xml:space="preserve">
+  <value>Использование ресурсов:</value>
+</data>
+<data name="LowPriorityAnalysesStillRunning_Text" xml:space="preserve">
+  <value>Низкоприоритетный анализ всё ещё выполняется в фоне.</value>
+</data>
+<data name="ReadSettingsFromEditorconfigAndProject_Text" xml:space="preserve">
+  <value>Читать настройки из .editorconfig и настроек проекта</value>
+</data>
+<data name="FolderNamespaceSettingsDescription" xml:space="preserve">
+  <value>Настройки поставщика пространств имён для папок</value>
+</data>
+<data name="Why_IsNotAvailableInCurrentFile_Text" xml:space="preserve">
+  <value>Почему {0} недоступен в текущем файле?</value>
+</data>
+<data name="ShowInlayHints_Text" xml:space="preserve">
+  <value>Показывать встроенные подсказки</value>
+</data>
+<data name="ToggleEnhancedSyntaxColoringActionText" xml:space="preserve">
+  <value>Переключить расширенную расцветку синтаксиса</value>
+</data>
+<data name="ShowSuggestionsWarningsAndErrors_Text" xml:space="preserve">
+  <value>Показывать предложения, предупреждения и ошибки</value>
+</data>
+<data name="UnexpectedProjectFileTypeAt__Text" xml:space="preserve">
+  <value>Неожиданный тип файла проекта в {0}</value>
+</data>
+<data name="SpecifyProjectFileNamesToExcludeProjects_Text_Text" xml:space="preserve">
+  <value>Укажите имена файлов проектов для исключения проектов из индексирования и анализа. Символы, определённые в игнорируемых проектах, всё ещё могут быть доступны из скомпилированных артефактов.</value>
+</data>
+<data name="SyntaxStyle_Text" xml:space="preserve">
+  <value>Стиль синтаксиса</value>
+</data>
+<data name="RecentChangesPeriodDays_Text" xml:space="preserve">
+  <value>Период недавних изменений (дни)</value>
+</data>
+<data name="Caret_Dependent_Highlightings_Header_Text" xml:space="preserve">
+  <value>Подсветка, зависящая от позиции курсора</value>
+</data>
+<data name="GeneratedFilesAndDirectories_Caption" xml:space="preserve">
+  <value>Сгенерированные файлы и каталоги:</value>
+</data>
+<data name="YouCanEditIdentifierColorsOnTheVisual_Text" xml:space="preserve">
+  <value>Вы можете редактировать цвета идентификаторов на странице настроек Visual Studio *Среда | Шрифты и цвета*. Найдите элементы '*ReSharper ... Identifier*'.</value>
+</data>
+<data name="RunningGlobalAnalysis_Text" xml:space="preserve">
+  <value>Выполняется глобальный анализ</value>
+</data>
+<data name="AutomaticallyPropagateAnnotationsIn_Text" xml:space="preserve">
+  <value>Автоматически распространять аннотации (в операциях с кодом и рефакторингах)</value>
+</data>
+<data name="ReSharperAnnotationsHelpReduceFalse_Text" xml:space="preserve">
+  <value>Аннотации ReSharper помогают уменьшить количество ложных предупреждений, показывать чистоту и допустимость NULL в коде, обрабатывать неявные использования членов, поддерживать специальную семантику API в рамках ASP.NET и XAML, а также повышать точность проверок кода ReSharper.</value>
+</data>
+<data name="EnableEntityFrameworkAnalysisOption" xml:space="preserve">
+  <value>Включить специфические проверки Entity Framework</value>
+</data>
+<data name="AnalysisIsComplete_Text" xml:space="preserve">
+  <value>Анализ завершён</value>
+</data>
+<data name="FilesAndFoldersAreSpecifiedRelative_Text_Text" xml:space="preserve">
+  <value>Файлы и папки указываются относительно корня решения; маски файлов будут сопоставляться с абсолютными путями файлов.</value>
+</data>
+<data name="IlTargetLabelHighlighterName" xml:space="preserve">
+  <value>Метка цели</value>
+</data>
+<data name="ShowUnused_globalUsingDirectivesWhen_BoolOption_Text" xml:space="preserve">
+  <value>Показывать неиспользуемые глобальные using директивы, когда анализ на уровне решения выключен(_G)</value>
+</data>
+<data name="OfficialNuGetPackageRecommendedWayTo_Text" xml:space="preserve">
+  <value>Официальный пакет NuGet (рекомендуемый способ получения аннотаций)</value>
+</data>
+<data name="EnableEntityFrameworkEntityAdornmentOption" xml:space="preserve">
+  <value>Показывать оформление для классов сущностей</value>
+</data>
+<data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
+  <value>Сгенерированный код</value>
+</data>
+<data name="ProjectFileExpectedAt__Text" xml:space="preserve">
+  <value>Ожидался файл проекта в {0}</value>
+</data>
+<data name="AnnotationsSourceCodeIsCopiedToTheClipboard_Text" xml:space="preserve">
+  <value>Исходный код аннотаций скопирован в буфер обмена</value>
+</data>
+<data name="AnalysisInProgress_Text" xml:space="preserve">
+  <value>Выполняется анализ</value>
+</data>
+<data name="HighlightCapturedPrimaryParametersDescription_Text" xml:space="preserve">
+  <value>Подсвечивать «захваченные» первичные параметры C# – используются в элементах экземпляра и отображаются отдельным цветом (по умолчанию таким же, как у полей)</value>
+</data>
+<data name="DisposeAnalysisMode_OptionOptimisticCaption" xml:space="preserve">
+  <value>Оптимистичный: если нет ни блока или объявления 'using', ни вызова освобождения, ни потребителя, принимающего высвобождаемый объект или аннотированного [HandlesResourceDisposal]</value>
+</data>
+<data name="EntityFrameworkQueryAnalysisModeOption" xml:space="preserve">
+  <value>Режим анализа запросов Entity Framework</value>
+</data>
+<data name="HereYouCanSpecifyFilesFileMasksAndFolders_Text_Text" xml:space="preserve">
+  <value>Здесь вы можете указать файлы, маски файлов и папки, которые следует исключить из анализа кода.</value>
+</data>
+<data name="RecursiveCall_Text" xml:space="preserve">
+  <value>Рекурсивный вызов</value>
+</data>
+<data name="MultipleSpacesAreProhibited_ToolTip" xml:space="preserve">
+  <value>Запрещено использовать несколько пробелов</value>
+</data>
+<data name="UtilizesAvailableCPUsToPerformCodeAnalysis_BoolOption_ToolTip" xml:space="preserve">
+  <value>Использует доступные ЦПУ для параллельного выполнения анализа кода при применении быстрых исправлений и контекстных действий в области, превышающей 10 файлов</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_Space_is_missing" xml:space="preserve">
+  <value>{0} отсутствует пробел</value>
+</data>
+<data name="IlHighlighterGroupName" xml:space="preserve">
+  <value>IL (промежуточный язык)</value>
+</data>
+<data name="RunningSlowAnalysis_Text" xml:space="preserve">
+  <value>Выполняется медленный анализ</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_SpacesProblemsCompoundItem_Incorrect_spacing" xml:space="preserve">
+  <value>Некорректные интервалы</value>
+</data>
+<data name="NoteThatIfSomeSymbolsAreOnlyUsedInThe_Text_Text" xml:space="preserve">
+  <value>Обратите внимание, что если некоторые символы используются только в исключённых файлах, анализ на уровне решения будет подсвечивать эти символы как никогда не использованные.</value>
+</data>
+<data name="MakeUseOfSolutionWideAnalysisResults_BoolOption_ToolTip" xml:space="preserve">
+  <value>Использовать результаты анализа на уровне решения для ускорения применения быстрых исправлений в области. Требуется включённая опция 'Мониторинг предупреждений' для анализа на уровне решения</value>
+</data>
+<data name="GotoPreviousCodeAnalysisHighlightingActionText" xml:space="preserve">
+  <value>Перейти к предыдущей подсветке анализа кода</value>
+</data>
+<data name="ShowVirtualIndents_Text" xml:space="preserve">
+  <value>Показывать виртуальные отступы</value>
+</data>
+<data name="DaemonIndicatorErrorsAndWarnings_Text" xml:space="preserve">
+  <value>{0} и {1}</value>
+</data>
+<data name="IlQualifiedNameHighlighterName" xml:space="preserve">
+  <value>Полное имя</value>
+</data>
+<data name="EnablesInspectionsThatPerformComplex_Text" xml:space="preserve">
+  <value>Включает проверки, выполняющие сложный анализ потока данных – например, проверки на NULL. Может повлиять на производительность.</value>
+</data>
+<data name="NavigateToNextWarning_Text" xml:space="preserve">
+  <value>Перейти к следующему предупреждению</value>
+</data>
+<data name="IlCommentHighlighterName" xml:space="preserve">
+  <value>Комментарий</value>
+</data>
+<data name="_ColorIdentifiers_BoolOption_Text" xml:space="preserve">
+  <value>Раскрашивать идентификаторы(_C)</value>
+</data>
+<data name="HighlightSpecialCharactersInStringLiterals_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать специальные символы в строковых литералах</value>
+</data>
+<data name="ProjectFolderExpectedAt__Text" xml:space="preserve">
+  <value>Ожидалась папка проекта в {0}</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_Space_is_redundant" xml:space="preserve">
+  <value>{0} пробел избыточен</value>
+</data>
+<data name="Analysis_Header_Text" xml:space="preserve">
+  <value>Анализ</value>
+</data>
+<data name="MarkFileAsUnchangedToHideExcessiveHighlightingsActionText" xml:space="preserve">
+  <value>Пометить файл как неизменённый, чтобы скрыть избыточную подсветку</value>
+</data>
+<data name="Path_NotResolved_Text" xml:space="preserve">
+  <value>Путь {0} не разрешён</value>
+</data>
+<data name="Outdent" xml:space="preserve">
+  <value>Уменьшить отступ</value>
+</data>
+<data name="HighlightCapturedPrimaryParameters_Text" xml:space="preserve">
+  <value>Подсвечивать захваченные первичные параметры</value>
+</data>
+<data name="GotoBraceExtendActionText" xml:space="preserve">
+  <value>Перейти к скобке с выделением</value>
+</data>
+<data name="Space_Plural" xml:space="preserve">
+  <value>{0} {0:choice:one#пробел|other#пробелов}</value>
+</data>
+<data name="ToEditTheListOfIgnoredProjectsYouShould_Text_Text" xml:space="preserve">
+  <value>Чтобы редактировать список игнорируемых проектов, откройте решение</value>
+</data>
+<data name="OnlyShowErrors_Text" xml:space="preserve">
+  <value>Показывать только ошибки</value>
+</data>
+<data name="IlConstantLiteralHighlighterName" xml:space="preserve">
+  <value>Константный литерал</value>
+</data>
+<data name="OutdentSizeIsIncorrect__Text" xml:space="preserve">
+  <value>Некорректный размер уменьшения отступа</value>
+</data>
+<data name="IndentSizeIsIncorrect__Text" xml:space="preserve">
+  <value>Некорректный размер отступа</value>
+</data>
+<data name="IlKeywordHighlighterName" xml:space="preserve">
+  <value>Ключевое слово</value>
+</data>
+<data name="GeneratedFileMasks_Caption" xml:space="preserve">
+  <value>Маски сгенерированных файлов:</value>
+</data>
+<data name="CloseOptions_Text" xml:space="preserve">
+  <value>Закрыть настройки</value>
+</data>
+<data name="EnableTheAnalysisOfIntegerValuesCurrently_Text" xml:space="preserve">
+  <value>Включить анализ целочисленных значений, в настоящее время доступен только в C#</value>
+</data>
+<data name="Path_NotFoundInTheSolution_Text" xml:space="preserve">
+  <value>Путь '{0}' не найден в решении</value>
+</data>
+<data name="FileIsOutOfUserScopeItMightComeFrom_Text" xml:space="preserve">
+  <value>Файл вне пользовательской области. Он может быть из пакета NuGet или внешним исходным файлом.</value>
+</data>
+<data name="TrustOnlyRuntimeChecksOnlyWhenAValue_Text" xml:space="preserve">
+  <value>Доверять только проверкам времени выполнения: только когда значение явно проверяется на NULL в коде</value>
+</data>
+<data name="IlCodeLabelHighlighterName" xml:space="preserve">
+  <value>Метка кода</value>
+</data>
+<data name="IncludeSourceGeneratedFiles_Text" xml:space="preserve">
+  <value>Включать сгенерированные исходные файлы</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_LineBreaksProblemsCompoundItem_Incorrect_line_breaks" xml:space="preserve">
+  <value>Некорректные разрывы строк</value>
+</data>
+<data name="FileWillBeReanalysed_Text" xml:space="preserve">
+  <value>Файл будет перепроанализирован</value>
+</data>
+<data name="RunningLocalAnalysis_Text" xml:space="preserve">
+  <value>Выполняется локальный анализ</value>
+</data>
+<data name="SyncInspectionsWithRoslynConfiguration_BoolOption_Text" xml:space="preserve">
+  <value>Считать проверки, совпадающие с анализаторами Roslyn, проверками компилятора</value>
+</data>
+<data name="NavigateToNextError_Text" xml:space="preserve">
+  <value>Перейти к следующей ошибке</value>
+</data>
+<data name="DisposeAnalysisMode_OptionPessimisticCaption" xml:space="preserve">
+  <value>Пессимистичный: если нет ни блока или объявления 'using', ни вызова освобождения, ни потребителя, аннотированного [HandlesResourceDisposal]</value>
+</data>
+<data name="Plural_Warnings" xml:space="preserve">
+  <value>{0} {0:choice:one#предупреждение|other#предупреждений}</value>
+</data>
+<data name="ValueAnalysisModeWhenToAssumeEntity_RadioOption_Caption" xml:space="preserve">
+  <value>Режим анализа значений (когда предполагать, что значение сущности может быть 'NULL' ссылкой):</value>
+</data>
+<data name="TabsMustGoFirstInIndent_ToolTip" xml:space="preserve">
+  <value>Табуляции должны быть первыми в отступе</value>
+</data>
+<data name="ReSharperAlwaysSupportsAnnotationsFrom_Text" xml:space="preserve">
+  <value>ReSharper всегда поддерживает аннотации из пространства имён '{0}'. {1}Пользовательские пространства имён должны быть отмечены в списке ниже:</value>
+</data>
+<data name="ShowTheImportNamespacePopup_Text" xml:space="preserve">
+  <value>Показывать всплывающее окно "Импорт пространства имён"</value>
+</data>
+<data name="ShowAllIssues_Text" xml:space="preserve">
+  <value>Показывать все проблемы</value>
+</data>
+<data name="GeneratedCodeRegions_Caption" xml:space="preserve">
+  <value>Области сгенерированного кода:</value>
+</data>
+<data name="ToEditTheListOfSkippedFilesAndFolders_Text_Text" xml:space="preserve">
+  <value>Чтобы редактировать список пропускаемых файлов и папок, откройте решение</value>
+</data>
+<data name="ElementsToSkip_Header_Text" xml:space="preserve">
+  <value>Элементы для пропуска</value>
+</data>
+<data name="IncorrectBlankLines_Minimum" xml:space="preserve">
+  <value>минимум</value>
+</data>
+<data name="CommonFormatHighlightingIdsBase_IndentProblemsCompoundItem_Incorrect_indent" xml:space="preserve">
+  <value>Некорректный отступ</value>
+</data>
+<data name="CopyHighlightingNameText" xml:space="preserve">
+  <value>Копировать название подсветки</value>
+</data>
+<data name="HighlightContextExits_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать выходы из контекста</value>
+</data>
+<data name="AnalysisIsSwitchedOffForTheFileFile_Text" xml:space="preserve">
+  <value>Анализ файла отключён. Файл больше не действителен.</value>
+</data>
+<data name="HighlightConditionElements_Text" xml:space="preserve">
+  <value>Подсвечивать элементы условия</value>
+</data>
+<data name="CodeAnalysisIsDisabledForTheWholeSolution_Text" xml:space="preserve">
+  <value>Анализ кода отключён для всего решения</value>
+</data>
+<data name="SyncInspectionsWithRoslynConfiguration_Tooltip_Text" xml:space="preserve">
+  <value>Использовать серьёзность .editorconfig для проверок, совпадающих с анализаторами Roslyn
+Позволяет подавлять проверки с помощью #pragma с соответствующим ID компилятора</value>
+</data>
+<data name="ToggleInlayHintsActionText" xml:space="preserve">
+  <value>Переключить встроенные подсказки(&amp;I)</value>
+</data>
+<data name="FoldersProvideNamespacesByDefault_Tooltip_Text" xml:space="preserve">
+  <value>Эта настройка управляет поведением по умолчанию для пространств имён всех папок, позволяя всем папкам влиять на пространство имён (с некоторыми исключениями) или отключая все папки и включая определённые.</value>
+</data>
+<data name="Highlighting_Header_Text" xml:space="preserve">
+  <value>Подсветка</value>
+</data>
+<data name="ToggleParameterNameHintsActionText" xml:space="preserve">
+  <value>Переключить встроенные подсказки</value>
+</data>
+<data name="YouCanEditIdentifierColorsInSettings_Text" xml:space="preserve">
+  <value>Вы можете редактировать цвета идентификаторов в настройках*++(Editor -> Color Scheme)++*.</value>
+</data>
+<data name="Show_unusedNonPrivateTypeMembersWhen_BoolOption_Text" xml:space="preserve">
+  <value>Показывать неиспользуемые не-private члены типов, когда анализ на уровне решения выключен(_U)</value>
+</data>
+<data name="CodeFoldingHighlightings_Text" xml:space="preserve">
+  <value>Подсветка свёртки кода</value>
+</data>
+<data name="ProjectsToIgnore_Header_Text" xml:space="preserve">
+  <value>Проекты для игнорирования</value>
+</data>
+<data name="FileWasIsolatedBecauseCodeAnalysisLed_Text" xml:space="preserve">
+  <value>Файл был изолирован, потому что анализ кода привёл к исключению</value>
+</data>
+<data name="IncorrectBlankLines_Maximum" xml:space="preserve">
+  <value>максимум</value>
+</data>
+<data name="UseSolutionWideAnalysisResultsWhenApplying_BoolOption_Text" xml:space="preserve">
+  <value>Использовать результаты анализа на уровне решения при применении быстрых исправлений в области</value>
+</data>
+<data name="Elsewhere" xml:space="preserve">
+  <value>В другом месте</value>
+</data>
+<data name="EnhancedSyntaxColoring_Text" xml:space="preserve">
+  <value>Расширенная расцветка синтаксиса</value>
+</data>
+<data name="EnableSolutionWide_analysis_BoolOption_Text" xml:space="preserve">
+  <value>Включить анализ на уровне решения(_A)</value>
+</data>
+<data name="LineNotOutdentedRelativeToThePrevious_Text" xml:space="preserve">
+  <value>Строка не имеет уменьшенного отступа относительно предыдущей строки{0}</value>
+</data>
+<data name="QuickFixesAndContextActions_Header_Text" xml:space="preserve">
+  <value>Быстрые исправления и контекстные действия</value>
+</data>
+<data name="InspectionSeverityOptionPageTitle" xml:space="preserve">
+  <value>Серьёзность проверок</value>
+</data>
+<data name="SomeResultsWereHiddenToReduceComplexity_Text" xml:space="preserve">
+  <value>Некоторые результаты были скрыты для снижения сложности, выберите в контекстном меню, чтобы увидеть все</value>
+</data>
+<data name="MarkFileAsModifiedToShowHiddenHighlightingsActionText" xml:space="preserve">
+  <value>Пометить файл как изменённый, чтобы показать скрытую подсветку</value>
+</data>
+<data name="WrongIndentSizeWrapperForSpaces" xml:space="preserve">
+  <value>{0}, должно быть {1}{3}</value>
+</data>
+<data name="LineShouldOnlyBeIndentedWithTabs_ToolTip" xml:space="preserve">
+  <value>Строка должна иметь отступ только табуляциями</value>
+</data>
 </root>

@@ -117,726 +117,726 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="_CopyXMLDocumentationFromOverridden_Text" xml:space="preserve">
-    <value>从被重写的成员复制 XML 文档(_C)</value>
-  </data>
-  <data name="GenerateAction_Text" xml:space="preserve">
-    <value>生成代码…</value>
-  </data>
-  <data name="InsideOfTagHeader_Text" xml:space="preserve">
-    <value>标记头内部</value>
-  </data>
-  <data name="FileHeaderNewSubstitutionsLabelText" xml:space="preserve">
-    <value>新替换</value>
-  </data>
-  <data name="CodeBody_Text" xml:space="preserve">
-    <value>代码主体</value>
-  </data>
-  <data name="WhenFormattingOnlyAPartOfTheFileTry_Text" xml:space="preserve">
-    <value>当仅格式化文件的一部分时，尝试从之前几行的元素(先前的语句/类成员等)中获取缩进。
-如果关闭，缩进将是父元素(通常是父块)的缩进加上缩进设置的缩进。</value>
-  </data>
-  <data name="CleanupRecentFilesActionGroupText" xml:space="preserve">
-    <value>清理最近的文件(&amp;R)</value>
-  </data>
-  <data name="CodeCleanupTask_CppSortMemberInitializers" xml:space="preserve">
-    <value>对成员初始值设定项排序</value>
-  </data>
-  <data name="CompactFormatActionText" xml:space="preserve">
-    <value>紧凑格式</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeTypeAliases" xml:space="preserve">
-    <value>应用类型别名样式(typedef 与类型别名)</value>
-  </data>
-  <data name="NestedStatements_Text" xml:space="preserve">
-    <value>嵌套语句</value>
-  </data>
-  <data name="GenerateReadOnlyPropertiesActionText" xml:space="preserve">
-    <value>生成只读属性</value>
-  </data>
-  <data name="ReSharperTrackedNoModifiedFilesDuring_Text" xml:space="preserve">
-    <value>ReSharper 未跟踪到在过去 {0} 天内修改过的文件，或者所有修改过的文件都已被清理</value>
-  </data>
-  <data name="Use_ToMove__Text" xml:space="preserve">
-    <value>使用箭头或字母 {0} 移动 {1}</value>
-  </data>
-  <data name="AttributeSectionsLongerThanSpecified_Text" xml:space="preserve">
-    <value>长于指定值的特性部分将被置于单独的行中</value>
-  </data>
-  <data name="Days_IntOption_PostfixText" xml:space="preserve">
-    <value>天</value>
-  </data>
-  <data name="ArrangementOfTypeParametersConstraints_Text" xml:space="preserve">
-    <value>类型形参、约束和基类型的排列</value>
-  </data>
-  <data name="MaxSingleLineTagLengthXmlDescription" xml:space="preserve">
-    <value>设置长标记的格式，如下所示:
+<data name="_CopyXMLDocumentationFromOverridden_Text" xml:space="preserve">
+  <value>Копировать XML-документацию из переопределяемого члена (_C)</value>
+</data>
+<data name="GenerateAction_Text" xml:space="preserve">
+  <value>Создать код…</value>
+</data>
+<data name="InsideOfTagHeader_Text" xml:space="preserve">
+  <value>Внутри заголовка тега</value>
+</data>
+<data name="FileHeaderNewSubstitutionsLabelText" xml:space="preserve">
+  <value>Новые подстановки</value>
+</data>
+<data name="CodeBody_Text" xml:space="preserve">
+  <value>Тело кода</value>
+</data>
+<data name="WhenFormattingOnlyAPartOfTheFileTry_Text" xml:space="preserve">
+  <value>При форматировании только части файла пытаться получить отступ от элементов из предыдущих строк (предыдущие операторы/члены класса и т.д.).
+Если выключено, отступ будет равен отступу родительского элемента (обычно родительского блока) плюс отступ, заданный в настройках отступов.</value>
+</data>
+<data name="CleanupRecentFilesActionGroupText" xml:space="preserve">
+  <value>Очистить недавние файлы (&amp;R)</value>
+</data>
+<data name="CodeCleanupTask_CppSortMemberInitializers" xml:space="preserve">
+  <value>Сортировать инициализаторы членов</value>
+</data>
+<data name="CompactFormatActionText" xml:space="preserve">
+  <value>Компактный формат</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeTypeAliases" xml:space="preserve">
+  <value>Применить стиль псевдонимов типов (typedef против using)</value>
+</data>
+<data name="NestedStatements_Text" xml:space="preserve">
+  <value>Вложенные операторы</value>
+</data>
+<data name="GenerateReadOnlyPropertiesActionText" xml:space="preserve">
+  <value>Сгенерировать свойства только для чтения</value>
+</data>
+<data name="ReSharperTrackedNoModifiedFilesDuring_Text" xml:space="preserve">
+  <value>ReSharper не отследил файлы, измененные за последние {0} дней, или все измененные файлы уже очищены</value>
+</data>
+<data name="Use_ToMove__Text" xml:space="preserve">
+  <value>Используйте стрелки или букву {0} для перемещения {1}</value>
+</data>
+<data name="AttributeSectionsLongerThanSpecified_Text" xml:space="preserve">
+  <value>Секции атрибутов длиннее указанного значения будут размещены на отдельных строках</value>
+</data>
+<data name="Days_IntOption_PostfixText" xml:space="preserve">
+  <value>дн.</value>
+</data>
+<data name="ArrangementOfTypeParametersConstraints_Text" xml:space="preserve">
+  <value>Расположение параметров типа, ограничений и базовых типов</value>
+</data>
+<data name="MaxSingleLineTagLengthXmlDescription" xml:space="preserve">
+  <value>Форматировать длинные теги следующим образом:
 &lt;tag&gt;
-  内容
+  Содержимое
 &lt;/tag&gt;</value>
-  </data>
-  <data name="StaticMembersQualification_Text" xml:space="preserve">
-    <value>static 成员限定</value>
-  </data>
-  <data name="ArrangementOfTernaryExpressions_Text" xml:space="preserve">
-    <value>三元表达式的排列</value>
-  </data>
-  <data name="GenerateRelationalComparerActionText" xml:space="preserve">
-    <value>生成关系比较器</value>
-  </data>
-  <data name="CleanupOpenFilesActionText" xml:space="preserve">
-    <value>清理打开的文件…</value>
-  </data>
-  <data name="BlankLinesOptionPageTitle" xml:space="preserve">
-    <value>空行</value>
-  </data>
-  <data name="PostfixTemplatesSettingsOptionsPage_Name" xml:space="preserve">
-    <value>后缀模板</value>
-  </data>
-  <data name="AfterUnaryOperators_Text" xml:space="preserve">
-    <value>一元运算符后</value>
-  </data>
-  <data name="ArrangementOfEmbeddedBlocks_Text" xml:space="preserve">
-    <value>嵌入块的排列</value>
-  </data>
-  <data name="SaveAfterCleanupIfAppliedToTheWhole_BoolOption_Text" xml:space="preserve">
-    <value>如果应用于整个文件，则在清理后保存</value>
-  </data>
-  <data name="EnforceLineEndingStyleOnFullReformat_BoolOption_Text" xml:space="preserve">
-    <value>在完全重新格式化时强制行尾样式</value>
-  </data>
-  <data name="CSharpNullCheckingSettingsOptionsPage_Name" xml:space="preserve">
-    <value>null 检查</value>
-  </data>
-  <data name="RemoveSelectedFileHeaderVariable_Text" xml:space="preserve">
-    <value>移除所选变量</value>
-  </data>
-  <data name="N_one_Text" xml:space="preserve">
-    <value>无(_O)</value>
-  </data>
-  <data name="SetToZeroToDisableTracking_IntOption_ToolTip" xml:space="preserve">
-    <value>设置为零以禁用跟踪</value>
-  </data>
-  <data name="InTernaryOperator_Text" xml:space="preserve">
-    <value>三元运算符内</value>
-  </data>
-  <data name="Move__Text" xml:space="preserve">
-    <value>移动 {0}</value>
-  </data>
-  <data name="DetectSettingsCodeCleanupModule_Name_Detect_formatting_settings" xml:space="preserve">
-    <value>检测格式设置</value>
-  </data>
-  <data name="TheFollowingValuesWillBeSubstituted_Text" xml:space="preserve">
-    <value>文件头文本中的以下值将被替换为 $Variable.Named($"{Variable Name}")插值。</value>
-  </data>
-  <data name="FileHeaderOldSubstitutionsLabelText" xml:space="preserve">
-    <value>旧替换</value>
-  </data>
-  <data name="ReSharperWouldReadCodeStyleConfiguration_BoolOption_ToolTip" xml:space="preserve">
-    <value>是否从现有 .editorconfig 文件中读取代码样式规则。EditorConfig 是一种基于 INI 的格式，受到许多代码编辑器的广泛支持。</value>
-  </data>
-  <data name="NearbyParentheses_Text" xml:space="preserve">
-    <value>附近的圆括号</value>
-  </data>
-  <data name="ArrangementOfSwitchExpressions_Text" xml:space="preserve">
-    <value>switch 表达式的排列</value>
-  </data>
-  <data name="GeneratedMemberDefaultBodyStyle_RadioOption_Caption" xml:space="preserve">
-    <value>生成的成员默认主体样式:</value>
-  </data>
-  <data name="Parentheses_Text" xml:space="preserve">
-    <value>圆括号</value>
-  </data>
-  <data name="OnlyInFilesMatchingTheMask_StringOption_Text" xml:space="preserve">
-    <value>仅在与掩码匹配的文件中</value>
-  </data>
-  <data name="WrapLongLine_Text" xml:space="preserve">
-    <value>长行换行</value>
-  </data>
-  <data name="AlignSimilarCodeInColumns_Text" xml:space="preserve">
-    <value>对齐列中的相似代码</value>
-  </data>
-  <data name="GeneralOptionPageTitle" xml:space="preserve">
-    <value>常规</value>
-  </data>
-  <data name="Experimental_Option_Text" xml:space="preserve">
-    <value>以下选项为实验性功能，已知存在缺陷</value>
-  </data>
-  <data name="RearrangeCodeActionGroupText" xml:space="preserve">
-    <value>重新排列代码(&amp;R)</value>
-  </data>
-  <data name="Attributes_Text" xml:space="preserve">
-    <value>特性</value>
-  </data>
-  <data name="LineBreaks_Text" xml:space="preserve">
-    <value>换行</value>
-  </data>
-  <data name="PreserveExistingFormatting_Text" xml:space="preserve">
-    <value>保留现有格式设置</value>
-  </data>
-  <data name="_WrapGeneratedMembersInRegions_BoolOption_Text" xml:space="preserve">
-    <value>将区域中的生成成员换行(_W)</value>
-  </data>
-  <data name="ArrangementOfComments_Text" xml:space="preserve">
-    <value>注释排列</value>
-  </data>
-  <data name="AroundAngleBrackets_Text" xml:space="preserve">
-    <value>尖括号周围</value>
-  </data>
-  <data name="ReferenceQualificationAndUsingDirectives_Text" xml:space="preserve">
-    <value>引用限定和 'using' 指令</value>
-  </data>
-  <data name="ImplementMissingMembers_Text" xml:space="preserve">
-    <value>实现缺少的成员</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeAuto" xml:space="preserve">
-    <value>应用 'auto' 样式</value>
-  </data>
-  <data name="EditEditorconfigInteractively_Button_Caption" xml:space="preserve">
-    <value>交互式编辑 .editorconfig…</value>
-  </data>
-  <data name="ObjectCreation_Text" xml:space="preserve">
-    <value>对象创建</value>
-  </data>
-  <data name="FileHeaderRegexSettingsPageCaption" xml:space="preserve">
-    <value>文件头开始检测正则表达式</value>
-  </data>
-  <data name="SpacesOptionPageTitle" xml:space="preserve">
-    <value>空格</value>
-  </data>
-  <data name="AroundTags_Text" xml:space="preserve">
-    <value>标记周围</value>
-  </data>
-  <data name="TrackingModifiedFilesIsTurnedOffToTurn_Text" xml:space="preserve">
-    <value>已关闭对修改的文件的跟踪。要将其打开，请转到“ReSharper &gt; 选项 &gt; 代码清理 &gt; 常规”并设置时间段以跟踪修改的文件。</value>
-  </data>
-  <data name="BlankLinesInCode" xml:space="preserve">
-    <value>代码中的空行</value>
-  </data>
-  <data name="DefaultValue_Text" xml:space="preserve">
-    <value>默认值</value>
-  </data>
-  <data name="GenerateDeconstructorActionText" xml:space="preserve">
-    <value>生成解构函数</value>
-  </data>
-  <data name="U_ncompilableCode_Text" xml:space="preserve">
-    <value>不可编译的代码(_N)</value>
-  </data>
-  <data name="ConsiderFilesRecentlyModifiedIfChanged_IntOption_Text" xml:space="preserve">
-    <value>将文件视为“最近修改”的条件: 更改于最近</value>
-  </data>
-  <data name="BracesLayout_Text" xml:space="preserve">
-    <value>大括号布局</value>
-  </data>
-  <data name="InstanceMembersQualification_Text" xml:space="preserve">
-    <value>实例成员限定</value>
-  </data>
-  <data name="GenerateDisposePatternActionText" xml:space="preserve">
-    <value>生成处置模式</value>
-  </data>
-  <data name="AroundBinaryOperators_Text" xml:space="preserve">
-    <value>二元运算符周围</value>
-  </data>
-  <data name="ProfilesOptionPageTitle" xml:space="preserve">
-    <value>个人资料</value>
-  </data>
-  <data name="GenerateEventSubscriptionsActionText" xml:space="preserve">
-    <value>生成事件订阅</value>
-  </data>
-  <data name="NamespaceImportsOptionPageTitle" xml:space="preserve">
-    <value>命名空间导入</value>
-  </data>
-  <data name="OtherOptions_Header_Text" xml:space="preserve">
-    <value>其他选项:</value>
-  </data>
-  <data name="ResxEditorActionGroupText" xml:space="preserve">
-    <value>Resx 编辑器</value>
-  </data>
-  <data name="FileHeaderRegexSettingsPageCaptionHint" xml:space="preserve">
-    <value>如果该正则表达式与起始注释文本不匹配，则认为缺少文件头</value>
-  </data>
-  <data name="OverrideMembersActionText" xml:space="preserve">
-    <value>重写成员</value>
-  </data>
-  <data name="PreprocessorDirectives_Text" xml:space="preserve">
-    <value>预处理程序指令</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeSlashesInIncludeDirectives" xml:space="preserve">
-    <value>排列 include 指令中的斜杠(正斜杠与反斜杠)</value>
-  </data>
-  <data name="TrailingComma_Text" xml:space="preserve">
-    <value>尾随逗号</value>
-  </data>
-  <data name="General_Text" xml:space="preserve">
-    <value>选项</value>
-  </data>
-  <data name="ReadCodeStyleFromClangFormatFiles_BoolOption_Text" xml:space="preserve">
-    <value>从 .clang-format 文件中读取代码样式</value>
-  </data>
-  <data name="BuiltInTypes_Text" xml:space="preserve">
-    <value>内置类型</value>
-  </data>
-  <data name="AroundArrayBrackets_Text" xml:space="preserve">
-    <value>数组中括号周围</value>
-  </data>
-  <data name="VariableName_Text" xml:space="preserve">
-    <value>变量名称</value>
-  </data>
-  <data name="SelectAnItemToEdit_Text" xml:space="preserve">
-    <value>选择要编辑的条目</value>
-  </data>
-  <data name="UseNewFileHeaderEngineCheckboxHint" xml:space="preserve">
-    <value>使用新替换</value>
-  </data>
-  <data name="CodeCleanupTask_CppSortIncludeDirectives" xml:space="preserve">
-    <value>对 include 指令排序</value>
-  </data>
-  <data name="DetectCodeStyleSettingsActionText" xml:space="preserve">
-    <value>检测代码样式设置</value>
-  </data>
-  <data name="StrictFormatActionText" xml:space="preserve">
-    <value>严格格式</value>
-  </data>
-  <data name="GenerateConstructorActionText" xml:space="preserve">
-    <value>生成构造函数</value>
-  </data>
-  <data name="ApplySyntaxStyleActionText" xml:space="preserve">
-    <value>应用语法样式</value>
-  </data>
-  <data name="IndentEachLanguageUsingItsOwnSettings_Text" xml:space="preserve">
-    <value>使用自身设置缩进每种语言(如 ReSharper 7 及更早版本中的操作)</value>
-  </data>
-  <data name="ThereAreNoOpenFiles_Text" xml:space="preserve">
-    <value>没有打开的文件</value>
-  </data>
-  <data name="ReadCodeStyleFromSettingsStyleCopFiles_BoolOption_Text" xml:space="preserve">
-    <value>从 StyleCop 文件中读取代码样式。启用后可能会减慢解决方案级分析速度。</value>
-  </data>
-  <data name="Add_inheritdocForOverriddenMembers_Text" xml:space="preserve">
-    <value>为被重写的成员添加 &lt;_inheritdoc /&gt;</value>
-  </data>
-  <data name="Arguments_Text" xml:space="preserve">
-    <value>参数</value>
-  </data>
-  <data name="CleanupCode_Text" xml:space="preserve">
-    <value>清理代码</value>
-  </data>
-  <data name="CodeCleanupActionText" xml:space="preserve">
-    <value>代码清理</value>
-  </data>
-  <data name="ArrangementOfLINQExpressions_Text" xml:space="preserve">
-    <value>LINQ 表达式的排列</value>
-  </data>
-  <data name="TabsIndentsAlignment_Text" xml:space="preserve">
-    <value>制表符、缩进、对齐</value>
-  </data>
-  <data name="OnlyRunCleanupOnChangedStatementsAnd_BoolOption_ToolTip" xml:space="preserve">
-    <value>仅对更改的语句和类成员运行清理。优化 using (如果启用)仍然适用于整个文件。</value>
-  </data>
-  <data name="ArrangementOfMethodSignatures_Text" xml:space="preserve">
-    <value>方法签名的排列</value>
-  </data>
-  <data name="ArrangementOfBinaryExpressions_Text" xml:space="preserve">
-    <value>二元表达式的排列</value>
-  </data>
-  <data name="ArrangementOfInterpolatedStrings_Text" xml:space="preserve">
-    <value>内插字符串的排列</value>
-  </data>
-  <data name="SilentCleanupUnsavedFilesAndSaveThemActionText" xml:space="preserve">
-    <value>静默清理未保存的文件并将其保存</value>
-  </data>
-  <data name="VirtualIndentStylePage_LanguageSupportIsDisabledText_Virtual_Formatter_or_use_of_dedicated_settings_is_disabled" xml:space="preserve">
-    <value>虚拟格式化程序或专用设置被禁用</value>
-  </data>
-  <data name="WithinOtherParentheses_Text" xml:space="preserve">
-    <value>其他圆括号内</value>
-  </data>
-  <data name="AddParenthesisToAvoidNonObviousPrecedence_Text" xml:space="preserve">
-    <value>添加圆括号以避免不明显的优先级</value>
-  </data>
-  <data name="Arrays_Text" xml:space="preserve">
-    <value>数组</value>
-  </data>
-  <data name="SyntaxStyle_Text" xml:space="preserve">
-    <value>语法样式</value>
-  </data>
-  <data name="ProcessingInstructions_Text" xml:space="preserve">
-    <value>处理指令</value>
-  </data>
-  <data name="BeforeParenthesesInStatements_Text" xml:space="preserve">
-    <value>语句的圆括号前</value>
-  </data>
-  <data name="Other_Text" xml:space="preserve">
-    <value>其他</value>
-  </data>
-  <data name="BlankLines_Text" xml:space="preserve">
-    <value>空行</value>
-  </data>
-  <data name="ShowStatusBarIndicatorIfCodeStyleConfiguration_BoolOption_Text" xml:space="preserve">
-    <value>如果使用了代码样式配置文件，则显示状态栏指示器</value>
-  </data>
-  <data name="TabsAndIndentsOptionPageTitle" xml:space="preserve">
-    <value>制表符和缩进</value>
-  </data>
-  <data name="MoveUpActionText" xml:space="preserve">
-    <value>上移</value>
-  </data>
-  <data name="MoveLeftActionText" xml:space="preserve">
-    <value>左移</value>
-  </data>
-  <data name="ArrangementOfInvocations_Text" xml:space="preserve">
-    <value>调用的排列</value>
-  </data>
-  <data name="GeneratedDocumentation_RadioOption_Caption" xml:space="preserve">
-    <value>生成的文档:</value>
-  </data>
-  <data name="ReadStyleCopAnalyzersSettingsFromEditorconfigAndGlobalconfig_BoolOption_Text" xml:space="preserve">
-    <value>从 .editorconfig 和 .globalconfig 文件中读取 StyleCop.Analyzers 检查严重性(实验性，不建议用于多文件或多层 .editorconfig StyleCop.Analyzers 配置)</value>
-  </data>
-  <data name="AroundColon_Text" xml:space="preserve">
-    <value>冒号周围</value>
-  </data>
-  <data name="CodeStyleConfigurationFiles_Header_Text" xml:space="preserve">
-    <value>代码样式配置文件</value>
-  </data>
-  <data name="GeneralFormatterStyleOptionPageTitle" xml:space="preserve">
-    <value>通用格式化程序样式</value>
-  </data>
-  <data name="GenerateDelegatingMembersActionText" xml:space="preserve">
-    <value>生成委托成员</value>
-  </data>
-  <data name="ArrangementOfPropertyPatterns_Text" xml:space="preserve">
-    <value>属性模式的排列</value>
-  </data>
-  <data name="SilentCleanupRecentlyModifiedFilesActionText" xml:space="preserve">
-    <value>静默清理最近修改的文件</value>
-  </data>
-  <data name="Modifiers_Text" xml:space="preserve">
-    <value>修饰符</value>
-  </data>
-  <data name="ArrangementOfMemberAccessExpressions_Text" xml:space="preserve">
-    <value>成员访问表达式的排列</value>
-  </data>
-  <data name="WithinParenthesesInStatements_Text" xml:space="preserve">
-    <value>语句的圆括号内</value>
-  </data>
-  <data name="GenerateEqualityMembersActionText" xml:space="preserve">
-    <value>生成相等成员</value>
-  </data>
-  <data name="SpaciousFormatActionText" xml:space="preserve">
-    <value>宽松格式</value>
-  </data>
-  <data name="BlankLinesInDeclarations_Text" xml:space="preserve">
-    <value>声明中的空行</value>
-  </data>
-  <data name="AroundOperations_Text" xml:space="preserve">
-    <value>运算周围</value>
-  </data>
-  <data name="AroundBraces_Text" xml:space="preserve">
-    <value>大括号周围</value>
-  </data>
-  <data name="_AutomaticProperty_Text" xml:space="preserve">
-    <value>自动属性(_A)</value>
-  </data>
-  <data name="SyntaxStyleOptionPageTitle" xml:space="preserve">
-    <value>语法样式</value>
-  </data>
-  <data name="GeneratePropertiesActionText" xml:space="preserve">
-    <value>生成属性</value>
-  </data>
-  <data name="VariableValue_Text" xml:space="preserve">
-    <value>变量值</value>
-  </data>
-  <data name="CleaningUpCode_Text" xml:space="preserve">
-    <value>正在清理代码</value>
-  </data>
-  <data name="CleanupRecentlyModifiedFilesActionText" xml:space="preserve">
-    <value>清理最近修改的文件…</value>
-  </data>
-  <data name="_ThrowNotImplementedException_Text" xml:space="preserve">
-    <value>抛出 NotImplementedException(_T)</value>
-  </data>
-  <data name="AutoIndentLinesActionText" xml:space="preserve">
-    <value>自动缩进行</value>
-  </data>
-  <data name="HowToIndentMultiLanguageFiles_RadioOption_Caption" xml:space="preserve">
-    <value>如何缩进多语言文件:</value>
-  </data>
-  <data name="Braces_Text" xml:space="preserve">
-    <value>大括号</value>
-  </data>
-  <data name="GeneratedPropertyBodyStyle_RadioOption_Caption" xml:space="preserve">
-    <value>生成的属性主体样式:</value>
-  </data>
-  <data name="SilentCleanupOpenFilesActionText" xml:space="preserve">
-    <value>静默清理打开的文件</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeCVQualifiers" xml:space="preserve">
-    <value>排列 cv 限定符</value>
-  </data>
-  <data name="LineBreaksAndWrappingOptionPageTitle" xml:space="preserve">
-    <value>换行</value>
-  </data>
-  <data name="ThisOptionSimilarlyToTheEditorconfig_Text" xml:space="preserve">
-    <value>此选项(类似于 Editorconfig 的 'max_line_length')定义每行中所需的最大字符数。如果启用 '长行换行'，它会在代码重新格式化期间应用。根据语言语法和其他换行设置，尽可能在不超过指定值的位置添加换行符。</value>
-  </data>
-  <data name="OverrideMembers_Text" xml:space="preserve">
-    <value>重写成员</value>
-  </data>
-  <data name="MaxBlankLinesXmlDescription" xml:space="preserve">
-    <value>标记之间的最大空行数</value>
-  </data>
-  <data name="Spaces_Text" xml:space="preserve">
-    <value>空格</value>
-  </data>
-  <data name="AnnotatePropertyAccessorsWith_DebuggerStepThrough_BoolOption_Text" xml:space="preserve">
-    <value>使用 [_DebuggerStepThrough] 注解属性访问器</value>
-  </data>
-  <data name="FormattingStyleOptionPageTitle" xml:space="preserve">
-    <value>格式设置样式</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeFunctionDeclarations" xml:space="preserve">
-    <value>应用函数声明样式(正则与尾随返回值类型)</value>
-  </data>
-  <data name="ReSharperOther_Text" xml:space="preserve">
-    <value>ReSharper 其他</value>
-  </data>
-  <data name="WrapLinesXmlDescription" xml:space="preserve">
-    <value>长行换行
-启用时:
+</data>
+<data name="StaticMembersQualification_Text" xml:space="preserve">
+  <value>Квалификация static членов</value>
+</data>
+<data name="ArrangementOfTernaryExpressions_Text" xml:space="preserve">
+  <value>Расположение тернарных выражений</value>
+</data>
+<data name="GenerateRelationalComparerActionText" xml:space="preserve">
+  <value>Сгенерировать компаратор отношений</value>
+</data>
+<data name="CleanupOpenFilesActionText" xml:space="preserve">
+  <value>Очистить открытые файлы…</value>
+</data>
+<data name="BlankLinesOptionPageTitle" xml:space="preserve">
+  <value>Пустые строки</value>
+</data>
+<data name="PostfixTemplatesSettingsOptionsPage_Name" xml:space="preserve">
+  <value>Постфиксные шаблоны</value>
+</data>
+<data name="AfterUnaryOperators_Text" xml:space="preserve">
+  <value>После унарных операторов</value>
+</data>
+<data name="ArrangementOfEmbeddedBlocks_Text" xml:space="preserve">
+  <value>Расположение встроенных блоков</value>
+</data>
+<data name="SaveAfterCleanupIfAppliedToTheWhole_BoolOption_Text" xml:space="preserve">
+  <value>Сохранять после очистки, если применено ко всему файлу</value>
+</data>
+<data name="EnforceLineEndingStyleOnFullReformat_BoolOption_Text" xml:space="preserve">
+  <value>Применять стиль конца строки при полном переформатировании</value>
+</data>
+<data name="CSharpNullCheckingSettingsOptionsPage_Name" xml:space="preserve">
+  <value>Проверки на null</value>
+</data>
+<data name="RemoveSelectedFileHeaderVariable_Text" xml:space="preserve">
+  <value>Удалить выбранную переменную</value>
+</data>
+<data name="N_one_Text" xml:space="preserve">
+  <value>Нет (_O)</value>
+</data>
+<data name="SetToZeroToDisableTracking_IntOption_ToolTip" xml:space="preserve">
+  <value>Установите ноль для отключения отслеживания</value>
+</data>
+<data name="InTernaryOperator_Text" xml:space="preserve">
+  <value>В тернарном операторе</value>
+</data>
+<data name="Move__Text" xml:space="preserve">
+  <value>Переместить {0}</value>
+</data>
+<data name="DetectSettingsCodeCleanupModule_Name_Detect_formatting_settings" xml:space="preserve">
+  <value>Обнаружить настройки форматирования</value>
+</data>
+<data name="TheFollowingValuesWillBeSubstituted_Text" xml:space="preserve">
+  <value>Следующие значения в тексте заголовка файла будут заменены интерполяцией $Variable.Named("$Имя переменной$").</value>
+</data>
+<data name="FileHeaderOldSubstitutionsLabelText" xml:space="preserve">
+  <value>Старые подстановки</value>
+</data>
+<data name="ReSharperWouldReadCodeStyleConfiguration_BoolOption_ToolTip" xml:space="preserve">
+  <value>Следует ли читать правила стиля кода из существующих файлов .editorconfig. EditorConfig — это широко поддерживаемый многими редакторами кода формат на основе INI.</value>
+</data>
+<data name="NearbyParentheses_Text" xml:space="preserve">
+  <value>Смежные круглые скобки</value>
+</data>
+<data name="ArrangementOfSwitchExpressions_Text" xml:space="preserve">
+  <value>Расположение switch-выражений</value>
+</data>
+<data name="GeneratedMemberDefaultBodyStyle_RadioOption_Caption" xml:space="preserve">
+  <value>Стиль тела генерируемых членов по умолчанию:</value>
+</data>
+<data name="Parentheses_Text" xml:space="preserve">
+  <value>Круглые скобки</value>
+</data>
+<data name="OnlyInFilesMatchingTheMask_StringOption_Text" xml:space="preserve">
+  <value>Только в файлах, соответствующих маске</value>
+</data>
+<data name="WrapLongLine_Text" xml:space="preserve">
+  <value>Перенос длинных строк</value>
+</data>
+<data name="AlignSimilarCodeInColumns_Text" xml:space="preserve">
+  <value>Выравнивать похожий код в столбцах</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="Experimental_Option_Text" xml:space="preserve">
+  <value>Следующие опции являются экспериментальными и имеют известные недостатки</value>
+</data>
+<data name="RearrangeCodeActionGroupText" xml:space="preserve">
+  <value>Реорганизовать код (&amp;R)</value>
+</data>
+<data name="Attributes_Text" xml:space="preserve">
+  <value>Атрибуты</value>
+</data>
+<data name="LineBreaks_Text" xml:space="preserve">
+  <value>Разрывы строк</value>
+</data>
+<data name="PreserveExistingFormatting_Text" xml:space="preserve">
+  <value>Сохранять существующее форматирование</value>
+</data>
+<data name="_WrapGeneratedMembersInRegions_BoolOption_Text" xml:space="preserve">
+  <value>Разместить сгенерированные члены в регионах (_W)</value>
+</data>
+<data name="ArrangementOfComments_Text" xml:space="preserve">
+  <value>Расположение комментариев</value>
+</data>
+<data name="AroundAngleBrackets_Text" xml:space="preserve">
+  <value>Вокруг угловых скобок</value>
+</data>
+<data name="ReferenceQualificationAndUsingDirectives_Text" xml:space="preserve">
+  <value>Квалификация ссылок и директивы 'using'</value>
+</data>
+<data name="ImplementMissingMembers_Text" xml:space="preserve">
+  <value>Реализовать отсутствующие члены</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeAuto" xml:space="preserve">
+  <value>Применить стиль 'auto'</value>
+</data>
+<data name="EditEditorconfigInteractively_Button_Caption" xml:space="preserve">
+  <value>Интерактивно редактировать .editorconfig…</value>
+</data>
+<data name="ObjectCreation_Text" xml:space="preserve">
+  <value>Создание объекта</value>
+</data>
+<data name="FileHeaderRegexSettingsPageCaption" xml:space="preserve">
+  <value>Регулярное выражение для обнаружения начала заголовка файла</value>
+</data>
+<data name="SpacesOptionPageTitle" xml:space="preserve">
+  <value>Пробелы</value>
+</data>
+<data name="AroundTags_Text" xml:space="preserve">
+  <value>Вокруг тегов</value>
+</data>
+<data name="TrackingModifiedFilesIsTurnedOffToTurn_Text" xml:space="preserve">
+  <value>Отслеживание измененных файлов отключено. Чтобы включить его, перейдите в ReSharper &gt; Параметры &gt; Очистка кода &gt; Общие и задайте период для отслеживания измененных файлов.</value>
+</data>
+<data name="BlankLinesInCode" xml:space="preserve">
+  <value>Пустые строки в коде</value>
+</data>
+<data name="DefaultValue_Text" xml:space="preserve">
+  <value>Значение по умолчанию</value>
+</data>
+<data name="GenerateDeconstructorActionText" xml:space="preserve">
+  <value>Сгенерировать деконструктор</value>
+</data>
+<data name="U_ncompilableCode_Text" xml:space="preserve">
+  <value>Некомпилируемый код (_N)</value>
+</data>
+<data name="ConsiderFilesRecentlyModifiedIfChanged_IntOption_Text" xml:space="preserve">
+  <value>Считать файлы «недавно измененными», если они изменялись за последние</value>
+</data>
+<data name="BracesLayout_Text" xml:space="preserve">
+  <value>Расположение фигурных скобок</value>
+</data>
+<data name="InstanceMembersQualification_Text" xml:space="preserve">
+  <value>Квалификация членов экземпляра</value>
+</data>
+<data name="GenerateDisposePatternActionText" xml:space="preserve">
+  <value>Сгенерировать шаблон Dispose</value>
+</data>
+<data name="AroundBinaryOperators_Text" xml:space="preserve">
+  <value>Вокруг бинарных операторов</value>
+</data>
+<data name="ProfilesOptionPageTitle" xml:space="preserve">
+  <value>Профили</value>
+</data>
+<data name="GenerateEventSubscriptionsActionText" xml:space="preserve">
+  <value>Сгенерировать подписки на события</value>
+</data>
+<data name="NamespaceImportsOptionPageTitle" xml:space="preserve">
+  <value>Импорты пространств имен</value>
+</data>
+<data name="OtherOptions_Header_Text" xml:space="preserve">
+  <value>Другие параметры:</value>
+</data>
+<data name="ResxEditorActionGroupText" xml:space="preserve">
+  <value>Редактор RESX</value>
+</data>
+<data name="FileHeaderRegexSettingsPageCaptionHint" xml:space="preserve">
+  <value>Если это регулярное выражение не совпадает с текстом начального комментария, заголовок файла считается отсутствующим</value>
+</data>
+<data name="OverrideMembersActionText" xml:space="preserve">
+  <value>Переопределить члены</value>
+</data>
+<data name="PreprocessorDirectives_Text" xml:space="preserve">
+  <value>Директивы препроцессора</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeSlashesInIncludeDirectives" xml:space="preserve">
+  <value>Упорядочить слеши в директивах include (прямые vs обратные)</value>
+</data>
+<data name="TrailingComma_Text" xml:space="preserve">
+  <value>Завершающая запятая</value>
+</data>
+<data name="General_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="ReadCodeStyleFromClangFormatFiles_BoolOption_Text" xml:space="preserve">
+  <value>Читать стиль кода из файлов .clang-format</value>
+</data>
+<data name="BuiltInTypes_Text" xml:space="preserve">
+  <value>Встроенные типы</value>
+</data>
+<data name="AroundArrayBrackets_Text" xml:space="preserve">
+  <value>Вокруг квадратных скобок массива</value>
+</data>
+<data name="VariableName_Text" xml:space="preserve">
+  <value>Имя переменной</value>
+</data>
+<data name="SelectAnItemToEdit_Text" xml:space="preserve">
+  <value>Выберите элемент для редактирования</value>
+</data>
+<data name="UseNewFileHeaderEngineCheckboxHint" xml:space="preserve">
+  <value>Использовать новые подстановки</value>
+</data>
+<data name="CodeCleanupTask_CppSortIncludeDirectives" xml:space="preserve">
+  <value>Сортировать директивы include</value>
+</data>
+<data name="DetectCodeStyleSettingsActionText" xml:space="preserve">
+  <value>Обнаружить настройки стиля кода</value>
+</data>
+<data name="StrictFormatActionText" xml:space="preserve">
+  <value>Строгий формат</value>
+</data>
+<data name="GenerateConstructorActionText" xml:space="preserve">
+  <value>Сгенерировать конструктор</value>
+</data>
+<data name="ApplySyntaxStyleActionText" xml:space="preserve">
+  <value>Применить синтаксический стиль</value>
+</data>
+<data name="IndentEachLanguageUsingItsOwnSettings_Text" xml:space="preserve">
+  <value>Использовать собственные настройки отступов для каждого языка (как в ReSharper 7 и ранее)</value>
+</data>
+<data name="ThereAreNoOpenFiles_Text" xml:space="preserve">
+  <value>Нет открытых файлов</value>
+</data>
+<data name="ReadCodeStyleFromSettingsStyleCopFiles_BoolOption_Text" xml:space="preserve">
+  <value>Читать стиль кода из файлов StyleCop. Включение может замедлить анализ на уровне решения.</value>
+</data>
+<data name="Add_inheritdocForOverriddenMembers_Text" xml:space="preserve">
+  <value>Добавить &lt;inheritdoc /&gt; для переопределенных членов</value>
+</data>
+<data name="Arguments_Text" xml:space="preserve">
+  <value>Аргументы</value>
+</data>
+<data name="CleanupCode_Text" xml:space="preserve">
+  <value>Очистить код</value>
+</data>
+<data name="CodeCleanupActionText" xml:space="preserve">
+  <value>Очистка кода</value>
+</data>
+<data name="ArrangementOfLINQExpressions_Text" xml:space="preserve">
+  <value>Расположение LINQ-выражений</value>
+</data>
+<data name="TabsIndentsAlignment_Text" xml:space="preserve">
+  <value>Табуляция, отступы, выравнивание</value>
+</data>
+<data name="OnlyRunCleanupOnChangedStatementsAnd_BoolOption_ToolTip" xml:space="preserve">
+  <value>Запускать очистку только для измененных операторов и членов класса. Оптимизация using (если включена) все равно применяется ко всему файлу.</value>
+</data>
+<data name="ArrangementOfMethodSignatures_Text" xml:space="preserve">
+  <value>Расположение сигнатур методов</value>
+</data>
+<data name="ArrangementOfBinaryExpressions_Text" xml:space="preserve">
+  <value>Расположение бинарных выражений</value>
+</data>
+<data name="ArrangementOfInterpolatedStrings_Text" xml:space="preserve">
+  <value>Расположение интерполированных строк</value>
+</data>
+<data name="SilentCleanupUnsavedFilesAndSaveThemActionText" xml:space="preserve">
+  <value>Тихо очистить несохраненные файлы и сохранить их</value>
+</data>
+<data name="VirtualIndentStylePage_LanguageSupportIsDisabledText_Virtual_Formatter_or_use_of_dedicated_settings_is_disabled" xml:space="preserve">
+  <value>Виртуальный форматтер или использование специальных настроек отключено</value>
+</data>
+<data name="WithinOtherParentheses_Text" xml:space="preserve">
+  <value>Внутри других круглых скобок</value>
+</data>
+<data name="AddParenthesisToAvoidNonObviousPrecedence_Text" xml:space="preserve">
+  <value>Добавлять круглые скобки, чтобы избежать неочевидного приоритета</value>
+</data>
+<data name="Arrays_Text" xml:space="preserve">
+  <value>Массивы</value>
+</data>
+<data name="SyntaxStyle_Text" xml:space="preserve">
+  <value>Синтаксический стиль</value>
+</data>
+<data name="ProcessingInstructions_Text" xml:space="preserve">
+  <value>Директивы обработки</value>
+</data>
+<data name="BeforeParenthesesInStatements_Text" xml:space="preserve">
+  <value>Перед круглыми скобками в операторах</value>
+</data>
+<data name="Other_Text" xml:space="preserve">
+  <value>Прочее</value>
+</data>
+<data name="BlankLines_Text" xml:space="preserve">
+  <value>Пустые строки</value>
+</data>
+<data name="ShowStatusBarIndicatorIfCodeStyleConfiguration_BoolOption_Text" xml:space="preserve">
+  <value>Показывать индикатор в строке состояния, если используется конфигурационный файл стиля кода</value>
+</data>
+<data name="TabsAndIndentsOptionPageTitle" xml:space="preserve">
+  <value>Табуляция и отступы</value>
+</data>
+<data name="MoveUpActionText" xml:space="preserve">
+  <value>Переместить вверх</value>
+</data>
+<data name="MoveLeftActionText" xml:space="preserve">
+  <value>Переместить влево</value>
+</data>
+<data name="ArrangementOfInvocations_Text" xml:space="preserve">
+  <value>Расположение вызовов</value>
+</data>
+<data name="GeneratedDocumentation_RadioOption_Caption" xml:space="preserve">
+  <value>Генерируемая документация:</value>
+</data>
+<data name="ReadStyleCopAnalyzersSettingsFromEditorconfigAndGlobalconfig_BoolOption_Text" xml:space="preserve">
+  <value>Читать настройки StyleCop.Analyzers (серьезность проверок) из файлов .editorconfig и .globalconfig (экспериментально, не рекомендуется для многофайловых или многоуровневых конфигураций StyleCop.Analyzers в .editorconfig)</value>
+</data>
+<data name="AroundColon_Text" xml:space="preserve">
+  <value>Вокруг двоеточия</value>
+</data>
+<data name="CodeStyleConfigurationFiles_Header_Text" xml:space="preserve">
+  <value>Файлы конфигурации стиля кода</value>
+</data>
+<data name="GeneralFormatterStyleOptionPageTitle" xml:space="preserve">
+  <value>Общий стиль форматирования</value>
+</data>
+<data name="GenerateDelegatingMembersActionText" xml:space="preserve">
+  <value>Сгенерировать делегирующие члены</value>
+</data>
+<data name="ArrangementOfPropertyPatterns_Text" xml:space="preserve">
+  <value>Расположение шаблонов свойств</value>
+</data>
+<data name="SilentCleanupRecentlyModifiedFilesActionText" xml:space="preserve">
+  <value>Тихо очистить недавно измененные файлы</value>
+</data>
+<data name="Modifiers_Text" xml:space="preserve">
+  <value>Модификаторы</value>
+</data>
+<data name="ArrangementOfMemberAccessExpressions_Text" xml:space="preserve">
+  <value>Расположение выражений доступа к членам</value>
+</data>
+<data name="WithinParenthesesInStatements_Text" xml:space="preserve">
+  <value>Внутри круглых скобок в операторах</value>
+</data>
+<data name="GenerateEqualityMembersActionText" xml:space="preserve">
+  <value>Сгенерировать члены проверки равенства</value>
+</data>
+<data name="SpaciousFormatActionText" xml:space="preserve">
+  <value>Свободный формат</value>
+</data>
+<data name="BlankLinesInDeclarations_Text" xml:space="preserve">
+  <value>Пустые строки в объявлениях</value>
+</data>
+<data name="AroundOperations_Text" xml:space="preserve">
+  <value>Вокруг операций</value>
+</data>
+<data name="AroundBraces_Text" xml:space="preserve">
+  <value>Вокруг фигурных скобок</value>
+</data>
+<data name="_AutomaticProperty_Text" xml:space="preserve">
+  <value>Автосвойство (_A)</value>
+</data>
+<data name="SyntaxStyleOptionPageTitle" xml:space="preserve">
+  <value>Синтаксический стиль</value>
+</data>
+<data name="GeneratePropertiesActionText" xml:space="preserve">
+  <value>Сгенерировать свойства</value>
+</data>
+<data name="VariableValue_Text" xml:space="preserve">
+  <value>Значение переменной</value>
+</data>
+<data name="CleaningUpCode_Text" xml:space="preserve">
+  <value>Очистка кода</value>
+</data>
+<data name="CleanupRecentlyModifiedFilesActionText" xml:space="preserve">
+  <value>Очистить недавно измененные файлы…</value>
+</data>
+<data name="_ThrowNotImplementedException_Text" xml:space="preserve">
+  <value>Выбросить NotImplementedException (_T)</value>
+</data>
+<data name="AutoIndentLinesActionText" xml:space="preserve">
+  <value>Автоматический отступ строк</value>
+</data>
+<data name="HowToIndentMultiLanguageFiles_RadioOption_Caption" xml:space="preserve">
+  <value>Как делать отступы в многоязычных файлах:</value>
+</data>
+<data name="Braces_Text" xml:space="preserve">
+  <value>Фигурные скобки</value>
+</data>
+<data name="GeneratedPropertyBodyStyle_RadioOption_Caption" xml:space="preserve">
+  <value>Стиль тела генерируемых свойств:</value>
+</data>
+<data name="SilentCleanupOpenFilesActionText" xml:space="preserve">
+  <value>Тихо очистить открытые файлы</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeCVQualifiers" xml:space="preserve">
+  <value>Упорядочить cv-квалификаторы</value>
+</data>
+<data name="LineBreaksAndWrappingOptionPageTitle" xml:space="preserve">
+  <value>Разрывы строк и переносы</value>
+</data>
+<data name="ThisOptionSimilarlyToTheEditorconfig_Text" xml:space="preserve">
+  <value>Эта опция (аналогично 'max_line_length' в Editorconfig) определяет максимальное желаемое количество символов в строке. Она применяется во время переформатирования кода, если включен 'Перенос длинных строк'. В соответствии с синтаксисом языка и другими настройками переноса, разрывы строк добавляются, где это возможно, не превышая указанное значение.</value>
+</data>
+<data name="OverrideMembers_Text" xml:space="preserve">
+  <value>Переопределить члены</value>
+</data>
+<data name="MaxBlankLinesXmlDescription" xml:space="preserve">
+  <value>Максимальное количество пустых строк между тегами</value>
+</data>
+<data name="Spaces_Text" xml:space="preserve">
+  <value>Пробелы</value>
+</data>
+<data name="AnnotatePropertyAccessorsWith_DebuggerStepThrough_BoolOption_Text" xml:space="preserve">
+  <value>Аннотировать методы доступа свойств с помощью [DebuggerStepThrough]</value>
+</data>
+<data name="FormattingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль форматирования</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeFunctionDeclarations" xml:space="preserve">
+  <value>Применить стиль объявления функций (обычный против trailing return type)</value>
+</data>
+<data name="ReSharperOther_Text" xml:space="preserve">
+  <value>ReSharper — Прочее</value>
+</data>
+<data name="WrapLinesXmlDescription" xml:space="preserve">
+  <value>Перенос длинных строк
+Включено:
   &lt;tag attr1='1234567890'
        attr2='1234567890'/&gt;
-禁用时:
+Выключено:
   &lt;tag attr1='1234567890' attr2='1234567890'/&gt;</value>
-  </data>
-  <data name="ArrangementOfEmbeddedStatements_Text" xml:space="preserve">
-    <value>嵌入语句的排列</value>
-  </data>
-  <data name="BeforeOtherParentheses_Text" xml:space="preserve">
-    <value>其他圆括号前</value>
-  </data>
-  <data name="MoveDownActionText" xml:space="preserve">
-    <value>下移</value>
-  </data>
-  <data name="ArrangementOfStatements_Text" xml:space="preserve">
-    <value>语句的排列</value>
-  </data>
-  <data name="AroundCommaAndSemicolon_Text" xml:space="preserve">
-    <value>逗号和分号周围</value>
-  </data>
-  <data name="FileHeaderText_Text" xml:space="preserve">
-    <value>文件头文本</value>
-  </data>
-  <data name="ProvideReSharperIndentSettingsToVisual_BoolOption_Text" xml:space="preserve">
-    <value>向 Visual Studio 提供 ReSharper 缩进设置</value>
-  </data>
-  <data name="Patterns_Text" xml:space="preserve">
-    <value>模式</value>
-  </data>
-  <data name="FileHeaderTextOptionPageTitle" xml:space="preserve">
-    <value>文件头文本</value>
-  </data>
-  <data name="ArrangementOfEnumerations_Text" xml:space="preserve">
-    <value>枚举的排列</value>
-  </data>
-  <data name="GeneratePartialMembersActionText" xml:space="preserve">
-    <value>生成分部成员</value>
-  </data>
-  <data name="AutoDetectIndentSizeAndStyle_BoolOption_Text" xml:space="preserve">
-    <value>自动检测缩进大小和样式</value>
-  </data>
-  <data name="IgnoreIndentSizeAndStyleFromSettings_BoolOption_ToolTip" xml:space="preserve">
-    <value>忽略设置中的缩进大小和样式并使用自动检测的值，格式化整个文件时除外</value>
-  </data>
-  <data name="RightMarginColumns_Text" xml:space="preserve">
-    <value>右边距(列)</value>
-  </data>
-  <data name="GenerateRelationalMembersActionText" xml:space="preserve">
-    <value>生成关系成员</value>
-  </data>
-  <data name="PerformFullCleanupIfPartialImpossible_Tooltip" xml:space="preserve">
-    <value>在极个别情况下(例如，当您在更改文件后打开上一个选项时)，可能无法对更改的语句运行清理。如果此选项处于开启状态，将执行完全清理，否则将完全不会清理。</value>
-  </data>
-  <data name="Parenthesis_Text" xml:space="preserve">
-    <value>圆括号</value>
-  </data>
-  <data name="MembersGenerationOptionPageTitle" xml:space="preserve">
-    <value>成员生成</value>
-  </data>
-  <data name="ProvideIndentSettingsThatWereAutoDetected_BoolOption_ToolTip" xml:space="preserve">
-    <value>向 Visual Studio 提供自动检测、从配置文件读取或在 ReSharper 设置中指定的缩进设置。可导致标签页切换速度变慢。</value>
-  </data>
-  <data name="LineWrapping_Text" xml:space="preserve">
-    <value>换行</value>
-  </data>
-  <data name="ReferenceQualification_Text" xml:space="preserve">
-    <value>引用限定</value>
-  </data>
-  <data name="ArrangementOfPrimaryConstructorSignatures_Text" xml:space="preserve">
-    <value>主构造函数签名的排列</value>
-  </data>
-  <data name="AlignMultilineConstructs_Text" xml:space="preserve">
-    <value>对齐多行构造</value>
-  </data>
-  <data name="_ReturnDefaultValue_Text" xml:space="preserve">
-    <value>返回默认值(_R)</value>
-  </data>
-  <data name="BracesLayoutOptionPageTitle" xml:space="preserve">
-    <value>大括号布局</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeNestedNamespaces" xml:space="preserve">
-    <value>应用嵌套命名空间样式</value>
-  </data>
-  <data name="ReformatCodeActionText" xml:space="preserve">
-    <value>重新格式化代码</value>
-  </data>
-  <data name="CodeCleanupOptionPageTitle" xml:space="preserve">
-    <value>代码清理</value>
-  </data>
-  <data name="GenerateProperties_Text" xml:space="preserve">
-    <value>生成属性</value>
-  </data>
-  <data name="ArrangementOfDeclarationBlocks_Text" xml:space="preserve">
-    <value>声明块的排列</value>
-  </data>
-  <data name="CleanupUnsavedFilesAndSaveThemActionText" xml:space="preserve">
-    <value>清理未保存的文件并将其保存</value>
-  </data>
-  <data name="OnlyInChangedPartsOfFile_BoolOption_Text" xml:space="preserve">
-    <value>仅在文件的更改部分中</value>
-  </data>
-  <data name="ReadCodeStyleFromEditorconfigFiles_BoolOption_Text" xml:space="preserve">
-    <value>从 .editorconfig 文件中读取代码样式</value>
-  </data>
-  <data name="GenerateEventSubscriptions_Text" xml:space="preserve">
-    <value>生成事件订阅</value>
-  </data>
-  <data name="Move_Text" xml:space="preserve">
-    <value>移动</value>
-  </data>
-  <data name="ArrangementOfExpressionBodiedMembers_Text" xml:space="preserve">
-    <value>表达式体成员的排列</value>
-  </data>
-  <data name="OtherOptionPageTitle" xml:space="preserve">
-    <value>其他</value>
-  </data>
-  <data name="ImplementMissingMembersActionText" xml:space="preserve">
-    <value>实现缺少的成员</value>
-  </data>
-  <data name="ArrangementOfAttributes_Text" xml:space="preserve">
-    <value>特性的排列</value>
-  </data>
-  <data name="SilentCleanupCodeActionText" xml:space="preserve">
-    <value>静默清理代码</value>
-  </data>
-  <data name="TagContent_Text" xml:space="preserve">
-    <value>标记内容</value>
-  </data>
-  <data name="TabsIndentsAlignmentOptionPageTitle" xml:space="preserve">
-    <value>制表符、缩进、对齐</value>
-  </data>
-  <data name="GenerateFormattingMembersActionText" xml:space="preserve">
-    <value>生成格式化成员</value>
-  </data>
-  <data name="PropertyWithBacking_field_Text" xml:space="preserve">
-    <value>带支持字段的属性(_F)</value>
-  </data>
-  <data name="PlaceCommentsAtTheFirstColumnWhenCommenting_Text" xml:space="preserve">
-    <value>注释掉代码时将注释置于第一列。否则，注释将使用已注释代码的缩进级别。</value>
-  </data>
-  <data name="AddNewFileHeaderVariable_Text" xml:space="preserve">
-    <value>添加新变量</value>
-  </data>
-  <data name="VirtualFormattingStyleOptionPageTitle" xml:space="preserve">
-    <value>虚拟格式设置样式</value>
-  </data>
-  <data name="MarkFilesAsCleanedUpActionText" xml:space="preserve">
-    <value>将文件标记为已清理</value>
-  </data>
-  <data name="AutomaticallyRunCleanupWhenSavingAFile_BoolOption_Text" xml:space="preserve">
-    <value>保存文件时自动运行清理</value>
-  </data>
-  <data name="GenerateEqualityComparerActionText" xml:space="preserve">
-    <value>生成相等比较器</value>
-  </data>
-  <data name="MoveRightActionText" xml:space="preserve">
-    <value>右移</value>
-  </data>
-  <data name="EmbraceFileHeaderIntoRegionWithName_Text" xml:space="preserve">
-    <value>将文件头放入以下名称的区域:</value>
-  </data>
-  <data name="DefaultLineEndingStyle_ComboEnum_Caption" xml:space="preserve">
-    <value>默认行尾样式</value>
-  </data>
-  <data name="VarUsageInDeclarations_Text" xml:space="preserve">
-    <value>声明中的 'var' 用法</value>
-  </data>
-  <data name="TheseSettingsOnlyAffectSpecificActions_RichText_Text" xml:space="preserve">
-    <value>这些设置仅影响*清理最近修改的文件*和*静默清理最近修改的文件*操作。您可以通过 *ReSharper &gt; 编辑 &gt; 清理最近的文件*子菜单调用。</value>
-  </data>
-  <data name="CleanupCodeActionText" xml:space="preserve">
-    <value>清理代码…</value>
-  </data>
-  <data name="WhenFormattingSomeCodeAlsoFixColumn_Text" xml:space="preserve">
-    <value>格式化所选代码时，如果需要，还可以修正相邻行中的列对齐</value>
-  </data>
-  <data name="CleaningUpFiles_Text" xml:space="preserve">
-    <value>正在清理文件</value>
-  </data>
-  <data name="CodeStyleConfigurationFilesAllowYou_Text_Text" xml:space="preserve">
-    <value>代码样式配置文件允许您在不同的编辑器和 IDE 之间定义和维护一致的编码样式</value>
-  </data>
-  <data name="ArrangementOfListPatterns_Text" xml:space="preserve">
-    <value>列表模式的排列</value>
-  </data>
-  <data name="OtherIndents_Text" xml:space="preserve">
-    <value>其他缩进</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeBraces" xml:space="preserve">
-    <value>为单条语句添加/移除大括号</value>
-  </data>
-  <data name="ArrangementOfInitializers_Text" xml:space="preserve">
-    <value>初始值设定项的排列</value>
-  </data>
-  <data name="AccessorsWith_defaultBody_Text" xml:space="preserve">
-    <value>带默认主体的访问器(_D)</value>
-  </data>
-  <data name="FileHeaderVariables_Text" xml:space="preserve">
-    <value>文件头变量</value>
-  </data>
-  <data name="Place_backingFieldAboveProperty_BoolOption_Text" xml:space="preserve">
-    <value>将支持字段置于属性上方(_B)</value>
-  </data>
-  <data name="CodeCleanupTask_CppArrangeOverridingFunctions" xml:space="preserve">
-    <value>在重写函数上排列说明符('virtual' 和/或 'override')</value>
-  </data>
-  <data name="WriteCurrentStyleTo__Button_Caption" xml:space="preserve">
-    <value>将当前样式写入 {0}…</value>
-  </data>
-  <data name="CleanupInRecentlyModifiedFiles_Header_Text" xml:space="preserve">
-    <value>在最近修改的文件中清理</value>
-  </data>
-  <data name="IndentAllLanguagesEquallyUsingSettings_Text" xml:space="preserve">
-    <value>使用主要语言的设置平均缩进所有语言(如 Visual Studio 中的操作)</value>
-  </data>
-  <data name="ReSharperWouldReadFromSettingsStyleCop_BoolOption_ToolTip" xml:space="preserve">
-    <value>是否从现有 StyleCop 文件中读取代码样式规则。StyleCop 可以分析 C# 源代码以强制执行一组样式和一致性规则。</value>
-  </data>
-  <data name="FormattingStyle_Text" xml:space="preserve">
-    <value>格式设置样式</value>
-  </data>
-  <data name="ReSharperWouldReadCodeStyleConfiguration_BoolOption_ToolTip2" xml:space="preserve">
-    <value>是否从现有 .clang-format 文件中读取代码样式规则。ClangFormat 是 C/C++、JavaScript 和 ProtoBuf 代码样式的基于 YAML 的格式。</value>
-  </data>
-  <data name="CodeCleanupTask_ClangTidy" xml:space="preserve">
-    <value>应用 clang-tidy fix-its</value>
-  </data>
-  <data name="WrapLongLines_WhenEnabled_stringOutput_Text" xml:space="preserve">
-    <value>长行换行
-启用时:
+</data>
+<data name="ArrangementOfEmbeddedStatements_Text" xml:space="preserve">
+  <value>Расположение встроенных операторов</value>
+</data>
+<data name="BeforeOtherParentheses_Text" xml:space="preserve">
+  <value>Перед другими круглыми скобками</value>
+</data>
+<data name="MoveDownActionText" xml:space="preserve">
+  <value>Переместить вниз</value>
+</data>
+<data name="ArrangementOfStatements_Text" xml:space="preserve">
+  <value>Расположение операторов</value>
+</data>
+<data name="AroundCommaAndSemicolon_Text" xml:space="preserve">
+  <value>Вокруг запятой и точки с запятой</value>
+</data>
+<data name="FileHeaderText_Text" xml:space="preserve">
+  <value>Текст заголовка файла</value>
+</data>
+<data name="ProvideReSharperIndentSettingsToVisual_BoolOption_Text" xml:space="preserve">
+  <value>Предоставлять настройки отступов ReSharper в Visual Studio</value>
+</data>
+<data name="Patterns_Text" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="FileHeaderTextOptionPageTitle" xml:space="preserve">
+  <value>Текст заголовка файла</value>
+</data>
+<data name="ArrangementOfEnumerations_Text" xml:space="preserve">
+  <value>Расположение перечислений</value>
+</data>
+<data name="GeneratePartialMembersActionText" xml:space="preserve">
+  <value>Сгенерировать частичные члены</value>
+</data>
+<data name="AutoDetectIndentSizeAndStyle_BoolOption_Text" xml:space="preserve">
+  <value>Автоматически определять размер и стиль отступа</value>
+</data>
+<data name="IgnoreIndentSizeAndStyleFromSettings_BoolOption_ToolTip" xml:space="preserve">
+  <value>Игнорировать размер и стиль отступа из настроек и использовать автоматически определенные значения, за исключением форматирования всего файла</value>
+</data>
+<data name="RightMarginColumns_Text" xml:space="preserve">
+  <value>Правое поле (столбцов)</value>
+</data>
+<data name="GenerateRelationalMembersActionText" xml:space="preserve">
+  <value>Сгенерировать члены отношений</value>
+</data>
+<data name="PerformFullCleanupIfPartialImpossible_Tooltip" xml:space="preserve">
+  <value>В редких случаях (например, когда вы включаете предыдущую опцию после изменения файла) может быть невозможно запустить очистку для измененных операторов. Если эта опция включена, будет выполнена полная очистка, в противном случае очистка не будет выполнена вовсе.</value>
+</data>
+<data name="Parenthesis_Text" xml:space="preserve">
+  <value>Круглые скобки</value>
+</data>
+<data name="MembersGenerationOptionPageTitle" xml:space="preserve">
+  <value>Генерация членов</value>
+</data>
+<data name="ProvideIndentSettingsThatWereAutoDetected_BoolOption_ToolTip" xml:space="preserve">
+  <value>Предоставлять в Visual Studio настройки отступов, которые были автоматически обнаружены, прочитаны из файлов конфигурации или указаны в настройках ReSharper. Может замедлить переключение вкладок.</value>
+</data>
+<data name="LineWrapping_Text" xml:space="preserve">
+  <value>Перенос строк</value>
+</data>
+<data name="ReferenceQualification_Text" xml:space="preserve">
+  <value>Квалификация ссылок</value>
+</data>
+<data name="ArrangementOfPrimaryConstructorSignatures_Text" xml:space="preserve">
+  <value>Расположение сигнатур первичных конструкторов</value>
+</data>
+<data name="AlignMultilineConstructs_Text" xml:space="preserve">
+  <value>Выравнивать многострочные конструкции</value>
+</data>
+<data name="_ReturnDefaultValue_Text" xml:space="preserve">
+  <value>Вернуть значение по умолчанию (_R)</value>
+</data>
+<data name="BracesLayoutOptionPageTitle" xml:space="preserve">
+  <value>Расположение фигурных скобок</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeNestedNamespaces" xml:space="preserve">
+  <value>Применить стиль вложенных пространств имен</value>
+</data>
+<data name="ReformatCodeActionText" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="CodeCleanupOptionPageTitle" xml:space="preserve">
+  <value>Очистка кода</value>
+</data>
+<data name="GenerateProperties_Text" xml:space="preserve">
+  <value>Сгенерировать свойства</value>
+</data>
+<data name="ArrangementOfDeclarationBlocks_Text" xml:space="preserve">
+  <value>Расположение блоков объявлений</value>
+</data>
+<data name="CleanupUnsavedFilesAndSaveThemActionText" xml:space="preserve">
+  <value>Очистить несохраненные файлы и сохранить их</value>
+</data>
+<data name="OnlyInChangedPartsOfFile_BoolOption_Text" xml:space="preserve">
+  <value>Только в измененных частях файла</value>
+</data>
+<data name="ReadCodeStyleFromEditorconfigFiles_BoolOption_Text" xml:space="preserve">
+  <value>Читать стиль кода из файлов .editorconfig</value>
+</data>
+<data name="GenerateEventSubscriptions_Text" xml:space="preserve">
+  <value>Сгенерировать подписки на события</value>
+</data>
+<data name="Move_Text" xml:space="preserve">
+  <value>Переместить</value>
+</data>
+<data name="ArrangementOfExpressionBodiedMembers_Text" xml:space="preserve">
+  <value>Расположение членов с выражением в теле</value>
+</data>
+<data name="OtherOptionPageTitle" xml:space="preserve">
+  <value>Прочее</value>
+</data>
+<data name="ImplementMissingMembersActionText" xml:space="preserve">
+  <value>Реализовать отсутствующие члены</value>
+</data>
+<data name="ArrangementOfAttributes_Text" xml:space="preserve">
+  <value>Расположение атрибутов</value>
+</data>
+<data name="SilentCleanupCodeActionText" xml:space="preserve">
+  <value>Тихо очистить код</value>
+</data>
+<data name="TagContent_Text" xml:space="preserve">
+  <value>Содержимое тега</value>
+</data>
+<data name="TabsIndentsAlignmentOptionPageTitle" xml:space="preserve">
+  <value>Табуляция, отступы, выравнивание</value>
+</data>
+<data name="GenerateFormattingMembersActionText" xml:space="preserve">
+  <value>Сгенерировать члены форматирования</value>
+</data>
+<data name="PropertyWithBacking_field_Text" xml:space="preserve">
+  <value>Свойство с резервным полем (_F)</value>
+</data>
+<data name="PlaceCommentsAtTheFirstColumnWhenCommenting_Text" xml:space="preserve">
+  <value>Размещать комментарии в первом столбце при комментировании кода. В противном случае комментарии будут использовать уровень отступа закомментированного кода.</value>
+</data>
+<data name="AddNewFileHeaderVariable_Text" xml:space="preserve">
+  <value>Добавить новую переменную</value>
+</data>
+<data name="VirtualFormattingStyleOptionPageTitle" xml:space="preserve">
+  <value>Виртуальный стиль форматирования</value>
+</data>
+<data name="MarkFilesAsCleanedUpActionText" xml:space="preserve">
+  <value>Пометить файлы как очищенные</value>
+</data>
+<data name="AutomaticallyRunCleanupWhenSavingAFile_BoolOption_Text" xml:space="preserve">
+  <value>Автоматически запускать очистку при сохранении файла</value>
+</data>
+<data name="GenerateEqualityComparerActionText" xml:space="preserve">
+  <value>Сгенерировать компаратор проверки равенства</value>
+</data>
+<data name="MoveRightActionText" xml:space="preserve">
+  <value>Переместить вправо</value>
+</data>
+<data name="EmbraceFileHeaderIntoRegionWithName_Text" xml:space="preserve">
+  <value>Поместить заголовок файла в регион с именем:</value>
+</data>
+<data name="DefaultLineEndingStyle_ComboEnum_Caption" xml:space="preserve">
+  <value>Стиль конца строки по умолчанию</value>
+</data>
+<data name="VarUsageInDeclarations_Text" xml:space="preserve">
+  <value>Использование 'var' в объявлениях</value>
+</data>
+<data name="TheseSettingsOnlyAffectSpecificActions_RichText_Text" xml:space="preserve">
+  <value>Эти настройки влияют только на действия *Очистить недавно измененные файлы* и *Тихо очистить недавно измененные файлы*. Вы можете вызвать их через подменю *ReSharper &gt; Правка &gt; Очистить недавние файлы*.</value>
+</data>
+<data name="CleanupCodeActionText" xml:space="preserve">
+  <value>Очистить код…</value>
+</data>
+<data name="WhenFormattingSomeCodeAlsoFixColumn_Text" xml:space="preserve">
+  <value>При форматировании выделенного кода, при необходимости, также исправлять выравнивание по столбцам в соседних строках</value>
+</data>
+<data name="CleaningUpFiles_Text" xml:space="preserve">
+  <value>Очистка файлов</value>
+</data>
+<data name="CodeStyleConfigurationFilesAllowYou_Text_Text" xml:space="preserve">
+  <value>Файлы конфигурации стиля кода позволяют вам определять и поддерживать единый стиль кодирования в различных редакторах и IDE</value>
+</data>
+<data name="ArrangementOfListPatterns_Text" xml:space="preserve">
+  <value>Расположение шаблонов списков</value>
+</data>
+<data name="OtherIndents_Text" xml:space="preserve">
+  <value>Другие отступы</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeBraces" xml:space="preserve">
+  <value>Добавить/удалить фигурные скобки для одиночных операторов</value>
+</data>
+<data name="ArrangementOfInitializers_Text" xml:space="preserve">
+  <value>Расположение инициализаторов</value>
+</data>
+<data name="AccessorsWith_defaultBody_Text" xml:space="preserve">
+  <value>Методы доступа с телом по умолчанию (_D)</value>
+</data>
+<data name="FileHeaderVariables_Text" xml:space="preserve">
+  <value>Переменные заголовка файла</value>
+</data>
+<data name="Place_backingFieldAboveProperty_BoolOption_Text" xml:space="preserve">
+  <value>Размещать резервное поле над свойством (_B)</value>
+</data>
+<data name="CodeCleanupTask_CppArrangeOverridingFunctions" xml:space="preserve">
+  <value>Упорядочить спецификаторы ('virtual' и/или 'override') для переопределяющих функций</value>
+</data>
+<data name="WriteCurrentStyleTo__Button_Caption" xml:space="preserve">
+  <value>Записать текущий стиль в {0}…</value>
+</data>
+<data name="CleanupInRecentlyModifiedFiles_Header_Text" xml:space="preserve">
+  <value>Очистка в недавно измененных файлах</value>
+</data>
+<data name="IndentAllLanguagesEquallyUsingSettings_Text" xml:space="preserve">
+  <value>Одинаково отступать все языки, используя настройки основного языка (как в Visual Studio)</value>
+</data>
+<data name="ReSharperWouldReadFromSettingsStyleCop_BoolOption_ToolTip" xml:space="preserve">
+  <value>Следует ли читать правила стиля кода из существующих файлов StyleCop. StyleCop может анализировать исходный код C# для применения набора правил стиля и согласованности.</value>
+</data>
+<data name="FormattingStyle_Text" xml:space="preserve">
+  <value>Стиль форматирования</value>
+</data>
+<data name="ReSharperWouldReadCodeStyleConfiguration_BoolOption_ToolTip2" xml:space="preserve">
+  <value>Следует ли читать правила стиля кода из существующих файлов .clang-format. ClangFormat — это формат на основе YAML для стилей кода C/C++, JavaScript и ProtoBuf.</value>
+</data>
+<data name="CodeCleanupTask_ClangTidy" xml:space="preserve">
+  <value>Применить clang-tidy fix-its</value>
+</data>
+<data name="WrapLongLines_WhenEnabled_stringOutput_Text" xml:space="preserve">
+  <value>Перенос длинных строк
+Включено:
 string output = string.Format(CultureInfo.InvariantCulture,
                               "{{0:yyyy-MM-dd}} {{1}}", date, message);
-禁用时:
+Выключено:
 string output = string.Format(CultureInfo.InvariantCulture, "{{0:yyyy-MM-dd}} {{1}}", date, message);</value>
-  </data>
+</data>
 </root>
