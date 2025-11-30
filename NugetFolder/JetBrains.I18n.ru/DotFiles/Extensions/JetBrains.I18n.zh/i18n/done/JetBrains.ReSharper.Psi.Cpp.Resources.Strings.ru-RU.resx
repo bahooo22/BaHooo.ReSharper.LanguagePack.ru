@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Field_Text" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Blank_lines_are_redundant_elsewhere" xml:space="preserve">
+    <value>其他位置空行冗余</value>
+  </data>
+  <data name="ClassDefinition_Text" xml:space="preserve">
+    <value>类定义</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_declaration_braces" xml:space="preserve">
+    <value>声明大括号周围</value>
+  </data>
+  <data name="Parser_Error_TemplateTemplateParameterRequiresClass_Text" xml:space="preserve">
+    <value>模板 template 形参需要在形参列表之后具有 'class' 或 'typename'</value>
+  </data>
+  <data name="Linkage_GetSymbolsForDerivedEntities_Text" xml:space="preserve">
+    <value>正在获取派生实体的符号</value>
+  </data>
+  <data name="Parser_Error_ExpectedLPar_Text" xml:space="preserve">
+    <value>应为 '('</value>
+  </data>
+  <data name="Struct_Text" xml:space="preserve">
+    <value>struct</value>
+  </data>
+  <data name="Parser_Error_InsideForEachLoopInShouldBeUsedInstead_Text" xml:space="preserve">
+    <value>在 for each 循环内，应使用 'in' 而非 ':'</value>
+  </data>
+  <data name="Something_In_Container_Text" xml:space="preserve">
+    <value>{0} ({1} 中)</value>
+  </data>
+  <data name="Parser_Error_UnexpectedCharLiteral_Text" xml:space="preserve">
+    <value>意外的字符字面量</value>
+  </data>
+  <data name="ComparisonUtil_WhileComparingParameters_Text" xml:space="preserve">
+    <value>比较 {1} 类型的形参时(忽略当前运算符)
+{0}</value>
+  </data>
+  <data name="ComparisonUtil_ReturnTypeIsNotComparisonCategory_Text" xml:space="preserve">
+    <value>{0}的返回值类型不是比较类别类型</value>
+  </data>
+  <data name="Parser_Error_ExceptionInParser_Text" xml:space="preserve">
+    <value>解析器中存在异常</value>
+  </data>
+  <data name="Parser_Error_ExpectedCliPropertyAccessor_Text" xml:space="preserve">
+    <value>应为 CLI 属性访问器</value>
+  </data>
+  <data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowed_Text" xml:space="preserve">
+    <value>不允许在 {0} 前面使用特性说明符序列</value>
+  </data>
+  <data name="ComparisonUtil_ReturnTypeMustBeBool_Text" xml:space="preserve">
+    <value>返回值类型必须是 {0}，而不是 {1}</value>
+  </data>
+  <data name="Parser_Error_QualifiersAreNotAllowedAtTopLevelAsm_Text" xml:space="preserve">
+    <value>不允许在顶层 'asm' 声明中使用限定符</value>
+  </data>
+  <data name="Parser_Error_RestrictionSpecifierCannotBeEmpty_Text" xml:space="preserve">
+    <value>限制说明符不能为空</value>
+  </data>
+  <data name="PresenterUtil_EntityKindFormat_Text" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="CStandardLibrary_Text" xml:space="preserve">
+    <value>C 标准库</value>
+  </data>
+  <data name="WordsCache_SerializationObject_Text" xml:space="preserve">
+    <value>单词缓存</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemEnum_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::Enum' 类型</value>
+  </data>
+  <data name="Parser_Error_UnexpectedCvQualifier_Text" xml:space="preserve">
+    <value>意外的 cv 限定符</value>
+  </data>
+  <data name="ComparisonUtil_CannotHaveTheRefQualifier_Text" xml:space="preserve">
+    <value>不能具有 '&amp;&amp;' ref 限定符</value>
+  </data>
+  <data name="ComparisonUtil_AfterRewriting_Text" xml:space="preserve">
+    <value>在根据 {2} 和 {3} 重写 {1} 后
+{0}</value>
+  </data>
+  <data name="Linkage_SearchingForAllBasesOf_Text" xml:space="preserve">
+    <value>正在搜索 {0} 的所有基</value>
+  </data>
+  <data name="ComparisonUtil_DeducedReturnTypeMustBeAuto_Text" xml:space="preserve">
+    <value>推导的返回值类型必须是 {0}，而不是 {1}</value>
+  </data>
+  <data name="Parser_Error_ExpectedCondition_Text" xml:space="preserve">
+    <value>应为条件</value>
+  </data>
+  <data name="GenericParameter_Text" xml:space="preserve">
+    <value>泛型形参</value>
+  </data>
+  <data name="ParameterList_Text" xml:space="preserve">
+    <value>形参列表</value>
+  </data>
+  <data name="Parser_Error_OnlyPartitionsOfTheCurrentModuleCan_Text" xml:space="preserve">
+    <value>只能导入当前模块的分区</value>
+  </data>
+  <data name="Parser_Error_UnexpectedNumericLiteral_Text" xml:space="preserve">
+    <value>意外的数值字面量</value>
+  </data>
+  <data name="ProtectedField_Text" xml:space="preserve">
+    <value>protected 字段</value>
+  </data>
+  <data name="GlobalVariable_Text" xml:space="preserve">
+    <value>全局变量</value>
+  </data>
+  <data name="Parser_Error_ExpectedAGenericParameter_Text" xml:space="preserve">
+    <value>应为泛型形参</value>
+  </data>
+  <data name="Parser_Error_ExpectedLBrace_Text" xml:space="preserve">
+    <value>应为 '{'</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaLBraceOrSemicolon_Text" xml:space="preserve">
+    <value>应为 ','、'{' 或 ';'</value>
+  </data>
+  <data name="Class_Text" xml:space="preserve">
+    <value>class</value>
+  </data>
+  <data name="Parser_Error_OperatorSignExpected_Text" xml:space="preserve">
+    <value>应为运算符符号</value>
+  </data>
+  <data name="ModulePartition_Text" xml:space="preserve">
+    <value>模块分区</value>
+  </data>
+  <data name="Conversion_Text" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="DeclaredElement_In_Text" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="Parser_Error_ExpectedIn_Text" xml:space="preserve">
+    <value>应为 'in'</value>
+  </data>
+  <data name="ComparisonUtil_OperatorIsNotAComparisonOperator_Text" xml:space="preserve">
+    <value>{0} 不是比较运算符</value>
+  </data>
+  <data name="Parser_Error_UnexpectedToken_Text" xml:space="preserve">
+    <value>意外的 '{0}'</value>
+  </data>
+  <data name="DependentName_Text" xml:space="preserve">
+    <value>依赖名称</value>
+  </data>
+  <data name="Parser_Error_ExpectedRBracket_Text" xml:space="preserve">
+    <value>应为 ']'</value>
+  </data>
+  <data name="ComparisonUtil_WhileComparingArrayField_Text" xml:space="preserve">
+    <value>比较{1} 的数组元素时
+{0}</value>
+  </data>
+  <data name="Function_Text" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="NamespaceAlias_Text" xml:space="preserve">
+    <value>命名空间别名</value>
+  </data>
+  <data name="Parser_Error_ExpectedSemanticIdentifier_Text" xml:space="preserve">
+    <value>应为语义标识符</value>
+  </data>
+  <data name="Parser_Error_KeywordRequiresIsUsedAsAnIdentifier_Text" xml:space="preserve">
+    <value>关键字 'requires' 被用作标识符</value>
+  </data>
+  <data name="Typedef_Text" xml:space="preserve">
+    <value>typedef</value>
+  </data>
+  <data name="Parser_Error_ExpectedEqOrColon_Text" xml:space="preserve">
+    <value>应为 '=' 或 ':'</value>
+  </data>
+  <data name="Parser_Error_InsideForLoopColonShouldBeUsedInstead_Text" xml:space="preserve">
+    <value>在 for 循环内，应使用冒号 ':' 而非 'in'</value>
+  </data>
+  <data name="Parser_Error_ExpectedClassOrTypenameKeyword_Text" xml:space="preserve">
+    <value>应为 'class' 或 'typename' 关键字</value>
+  </data>
+  <data name="Parser_Error_ExpectedDefaultOrDelete_Text" xml:space="preserve">
+    <value>应为 'default' 或 'delete'</value>
+  </data>
+  <data name="Macro_Text" xml:space="preserve">
+    <value>宏</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrColon_Text" xml:space="preserve">
+    <value>应为 ',' 或 ':'</value>
+  </data>
+  <data name="Constructor_Text" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="Never_Description_Text" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="Parser_Error_UnknownRestrictionSpecifier__Text" xml:space="preserve">
+    <value>未知的限制说明符 '{0}'</value>
+  </data>
+  <data name="InvalidParenthesisSequence_Text" xml:space="preserve">
+    <value>无效的圆括号序列</value>
+  </data>
+  <data name="ComparisonUtil_CannotConvertValueTheReturnType_Text" xml:space="preserve">
+    <value>不能将 {0} 类型的值转换为返回值类型 {1}</value>
+  </data>
+  <data name="SyntaxError_Text" xml:space="preserve">
+    <value>语法错误</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_comma_in_lists" xml:space="preserve">
+    <value>列表中的逗号周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedAfterWhile_Text" xml:space="preserve">
+    <value>'while' 后面应为 '('</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Tabs_spaces_mismatch" xml:space="preserve">
+    <value>制表符/空格不匹配</value>
+  </data>
+  <data name="PresenterUtil_Inherited_Text" xml:space="preserve">
+    <value>[继承]</value>
+  </data>
+  <data name="Parser_Error_KeywordConceptIsUsedAsAnIdentifier_Text" xml:space="preserve">
+    <value>关键字 'concept' 被用作标识符</value>
+  </data>
+  <data name="Parser_Error_InvalidCombinationOfAccessibilitySpecifiers_Text" xml:space="preserve">
+    <value>无效的辅助功能说明符组合</value>
+  </data>
+  <data name="Parser_Error_ExpectedCliEvent_Text" xml:space="preserve">
+    <value>应为 CLI 事件</value>
+  </data>
+  <data name="EnumClass_Text" xml:space="preserve">
+    <value>枚举类</value>
+  </data>
+  <data name="Concept_Text" xml:space="preserve">
+    <value>概念</value>
+  </data>
+  <data name="TemplateTemplateArgument_Text" xml:space="preserve">
+    <value>模板 template 实参</value>
+  </data>
+  <data name="Parser_Error_ExpectedACallAfterThe__raiseKeyword_Text" xml:space="preserve">
+    <value>'__raise' 关键字后面应为调用</value>
+  </data>
+  <data name="File_Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="Parser_Error_ExpectedMetaKey_Text" xml:space="preserve">
+    <value>应为元数据键</value>
+  </data>
+  <data name="MacroParameter_Text" xml:space="preserve">
+    <value>宏形参</value>
+  </data>
+  <data name="Property_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ComparisonUtil_MustHaveAParameterOfClassType_Text" xml:space="preserve">
+    <value>必须具有类类型的形参</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_empty_braces" xml:space="preserve">
+    <value>空大括号周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedLambdaCapture_Text" xml:space="preserve">
+    <value>应为 lambda 捕获</value>
+  </data>
+  <data name="DuringInitialIndexing_Description_Text" xml:space="preserve">
+    <value>初始索引编制期间</value>
+  </data>
+  <data name="Linkage_ProcessingSymbols_Text" xml:space="preserve">
+    <value>正在处理符号</value>
+  </data>
+  <data name="Event_Text" xml:space="preserve">
+    <value>event</value>
+  </data>
+  <data name="UEReflectionMacro_Text" xml:space="preserve">
+    <value>Unreal Engine 反射宏</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_semicolon" xml:space="preserve">
+    <value>分号周围</value>
+  </data>
+  <data name="ProcessingChangedFiles_Text" xml:space="preserve">
+    <value>正在处理更改的文件…</value>
+  </data>
+  <data name="Parser_Error_ExpectedAfterDeclaration_Text" xml:space="preserve">
+    <value>声明后面应为 ';'</value>
+  </data>
+  <data name="Parser_Error_ExpectedTypeId_Text" xml:space="preserve">
+    <value>应为类型 ID</value>
+  </data>
+  <data name="StructuredBindingUtil_BothHavePublicDataMembers_Text" xml:space="preserve">
+    <value>{0} 和 {1} 都有 public 数据成员</value>
+  </data>
+  <data name="ComparisonUtil_CannotConvertReturnTypeToType_Text" xml:space="preserve">
+    <value>不能将 {0} 的返回值类型转换为 {1}</value>
+  </data>
+  <data name="ComparisonUtil_SelectedCandidateIsNotRewritten_Text" xml:space="preserve">
+    <value>重载解析选择的候选项{0}不是被重写的候选项</value>
+  </data>
+  <data name="Namespace_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="Linkage_SearchingLinkageEntities_Text" xml:space="preserve">
+    <value>正在搜索链接实体</value>
+  </data>
+  <data name="Parser_Error_ExpectedComma_Text" xml:space="preserve">
+    <value>应为 ','</value>
+  </data>
+  <data name="ComparisonUtil_FuncIsDeleted_Text" xml:space="preserve">
+    <value>{0}已被删除</value>
+  </data>
+  <data name="Parser_Error_ExpectedSpecifierKey_Text" xml:space="preserve">
+    <value>应为说明符键</value>
+  </data>
+  <data name="StructuredBindingUtil_HasAnonymousUnionOrClassMembers_Text" xml:space="preserve">
+    <value>{0} 具有匿名联合或类成员</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_parenthesis" xml:space="preserve">
+    <value>圆括号周围</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_expression_braces" xml:space="preserve">
+    <value>表达式大括号周围</value>
+  </data>
+  <data name="NonTypeTemplateParameter_Text" xml:space="preserve">
+    <value>非类型模板形参</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_indent_should_be_restored_to_the_previous_level_elsewhere" xml:space="preserve">
+    <value>未还原缩进级别</value>
+  </data>
+  <data name="Parser_Error_UnexpectedTemplate_Text" xml:space="preserve">
+    <value>意外的 'template'</value>
+  </data>
+  <data name="Method_Text" xml:space="preserve">
+    <value>method</value>
+  </data>
+  <data name="__interface_Text" xml:space="preserve">
+    <value>__interface</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrRPar_Text" xml:space="preserve">
+    <value>应为 ',' 或 ')'</value>
+  </data>
+  <data name="Parser_Error_QualifiersAreNotAllowedInGNUStyleAttribute_Text" xml:space="preserve">
+    <value>不允许在 GNU 样式的特性列表中使用限定符</value>
+  </data>
+  <data name="StructuredBindingUtil_IsNotAccessible_Text" xml:space="preserve">
+    <value>{0} 无法访问</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemValueType_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::ValueType' 类型</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_comma" xml:space="preserve">
+    <value>逗号周围</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_colon" xml:space="preserve">
+    <value>冒号周围</value>
+  </data>
+  <data name="CompoundStatement_Text" xml:space="preserve">
+    <value>复合语句</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Between_keyword_and_parenthesis" xml:space="preserve">
+    <value>关键字和圆括号之间</value>
+  </data>
+  <data name="Parser_Error_ExpectedAClassName_Text" xml:space="preserve">
+    <value>应为类名</value>
+  </data>
+  <data name="Parser_Error_ExpectedDeclaratorName_Text" xml:space="preserve">
+    <value>应为声明符名称</value>
+  </data>
+  <data name="ComparisonUtil_CannotFindComparisonCategoryType_Text" xml:space="preserve">
+    <value>找不到 {0} 类型(您是否包含了 {1}?)</value>
+  </data>
+  <data name="DeductionGuide_Text" xml:space="preserve">
+    <value>推导指南</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_child_statement" xml:space="preserve">
+    <value>子语句周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedWhile_Text" xml:space="preserve">
+    <value>应为 'while'</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_indent_should_not_be_changed_relative_to_the_previous_line_elsewhere" xml:space="preserve">
+    <value>其他位置有冗余的缩进/减少缩进</value>
+  </data>
+  <data name="Parser_Error_StatementExpressionMayOnlyBeUsedInside_Text" xml:space="preserve">
+    <value>语句表达式只能在函数体内使用</value>
+  </data>
+  <data name="ComparisonUtil_WhileComparingWithZero_Text" xml:space="preserve">
+    <value>将 {1} 类型的值与零比较时
+{0}</value>
+  </data>
+  <data name="StructField_Text" xml:space="preserve">
+    <value>结构字段</value>
+  </data>
+  <data name="Parser_Error_TheAttributeUsingPrefixIsNotCompatible_Text" xml:space="preserve">
+    <value>使用前缀的特性与单个特性上的作用域不兼容</value>
+  </data>
+  <data name="Resource_Text" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="Parser_Error_AutoIsNotAllowedInALambdaCapture_Text" xml:space="preserve">
+    <value>不允许在 lambda 捕获中使用 'auto'</value>
+  </data>
+  <data name="Parser_Error_ExpectedAFoldableBinaryOperator_Text" xml:space="preserve">
+    <value>应为可折叠的二元运算符</value>
+  </data>
+  <data name="ConversionOperator_Text" xml:space="preserve">
+    <value>转换运算符</value>
+  </data>
+  <data name="TemplateParameter_Text" xml:space="preserve">
+    <value>模板形参</value>
+  </data>
+  <data name="ComparisonUtil_MustBeDeclaredAsFriendOf_Text" xml:space="preserve">
+    <value>必须被声明为{0} 的 friend</value>
+  </data>
+  <data name="StructuredBindingUtil_BaseIsAmbiguous_Text" xml:space="preserve">
+    <value>基{0} 不明确</value>
+  </data>
+  <data name="Parser_Error_ExpectedNumericLiteral_Text" xml:space="preserve">
+    <value>应为数值字面量</value>
+  </data>
+  <data name="Parser_Error_ExpectedIdentifier_Text" xml:space="preserve">
+    <value>应为标识符</value>
+  </data>
+  <data name="PreparingWordIndex_Text" xml:space="preserve">
+    <value>正在准备单词索引…</value>
+  </data>
+  <data name="Parser_Error_ExpectedStatement_Text" xml:space="preserve">
+    <value>应为语句</value>
+  </data>
+  <data name="Parser_Error_ExpectedLt_Text" xml:space="preserve">
+    <value>应为 '&lt;'</value>
+  </data>
+  <data name="Parser_Error_ExpectedKeyword_Text" xml:space="preserve">
+    <value>应为关键字</value>
+  </data>
+  <data name="Parser_Error_ExpectedEqOrLBrace_Text" xml:space="preserve">
+    <value>应为 '=' 或 '{'</value>
+  </data>
+  <data name="ComparisonUtil_CannotBeAnOperatorTemplate_Text" xml:space="preserve">
+    <value>不能是运算符模板</value>
+  </data>
+  <data name="PrivateMethod_Text" xml:space="preserve">
+    <value>private 方法</value>
+  </data>
+  <data name="GlobalNamespace_Text" xml:space="preserve">
+    <value>全局命名空间</value>
+  </data>
+  <data name="ComparisonUtil_WhileComparingField_Text" xml:space="preserve">
+    <value>比较{1} 时
+{0}</value>
+  </data>
+  <data name="TemplateTemplateParameter_Text" xml:space="preserve">
+    <value>模板 template 形参</value>
+  </data>
+  <data name="Parser_Error_ExpectedConstantExpression_Text" xml:space="preserve">
+    <value>应为常量表达式</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrLBrace_Text" xml:space="preserve">
+    <value>应为 ',' 或 '{'</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Multiple_spaces_are_prohibited" xml:space="preserve">
+    <value>禁止使用多个空格</value>
+  </data>
+  <data name="IncludesCache_SerializationObject_Text" xml:space="preserve">
+    <value>include 缓存</value>
+  </data>
+  <data name="UsingDeclaration_Text" xml:space="preserve">
+    <value>using 声明</value>
+  </data>
+  <data name="Parser_Error_ExpectedConversionId_Text" xml:space="preserve">
+    <value>应为转换 ID</value>
+  </data>
+  <data name="PresenterUtil_GeneratedByUHT_Text" xml:space="preserve">
+    <value>[由 UHT 生成]</value>
+  </data>
+  <data name="Parser_Error_ExpectedExpression_Text" xml:space="preserve">
+    <value>应为表达式</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_switch_statement" xml:space="preserve">
+    <value>switch 语句周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedLabelIdentifier_Text" xml:space="preserve">
+    <value>应为标签标识符</value>
+  </data>
+  <data name="Parser_Error_ExpectedNewline_Text" xml:space="preserve">
+    <value>应为新行</value>
+  </data>
+  <data name="ComparisonUtil_TypeContainsVariantMembers_Text" xml:space="preserve">
+    <value>{0} 包含变体成员</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemIEnumerable_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::IEnumerable' 类型</value>
+  </data>
+  <data name="Parser_Error_ExpectedGt_Text" xml:space="preserve">
+    <value>应为 '&gt;'</value>
+  </data>
+  <data name="PrivateField_Text" xml:space="preserve">
+    <value>private 字段</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_statement_braces" xml:space="preserve">
+    <value>语句大括号周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedType_Text" xml:space="preserve">
+    <value>应为类型</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrSemicolon_Text" xml:space="preserve">
+    <value>应为 ',' 或 ';'</value>
+  </data>
+  <data name="Parser_Error_ExpectedFriendTypeSpecifier_Text" xml:space="preserve">
+    <value>应为 friend 类型说明符</value>
+  </data>
+  <data name="Destructor_Text" xml:space="preserve">
+    <value>析构函数</value>
+  </data>
+  <data name="PresenterUtil_Intrinsic_Text" xml:space="preserve">
+    <value>[固有]</value>
+  </data>
+  <data name="Parameter_Text" xml:space="preserve">
+    <value>形参</value>
+  </data>
+  <data name="UnionMember_Text" xml:space="preserve">
+    <value>联合成员</value>
+  </data>
+  <data name="CommentIdentifier_Text" xml:space="preserve">
+    <value>注释标识符</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystem_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System' 命名空间</value>
+  </data>
+  <data name="Parser_Error_ExpectedModuleName_Text" xml:space="preserve">
+    <value>应为模块名称</value>
+  </data>
+  <data name="Parser_Error_ExpectedDeclaration_Text" xml:space="preserve">
+    <value>应为声明</value>
+  </data>
+  <data name="TypeTemplateArgument_Text" xml:space="preserve">
+    <value>类型模板实参</value>
+  </data>
+  <data name="ClassTemplate_Text" xml:space="preserve">
+    <value>类模板</value>
+  </data>
+  <data name="Parser_Error_ExpectedRBracketRBracket_Text" xml:space="preserve">
+    <value>应为 ']]'</value>
+  </data>
+  <data name="Parser_Error_ExpectedAClassDeclaration_Text" xml:space="preserve">
+    <value>应为类声明</value>
+  </data>
+  <data name="TemplateArgument_Text" xml:space="preserve">
+    <value>模板实参</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemObject_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::Object' 类型</value>
+  </data>
+  <data name="Folder_Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="Parser_Error_KeywordTypenameShouldBeFollowedByQualified_Text" xml:space="preserve">
+    <value>关键字 'typename' 后应跟限定名称</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_square_brackets_within_a_statement" xml:space="preserve">
+    <value>语句中的方括号周围</value>
+  </data>
+  <data name="Parser_Error_ExpectedRBrace_Text" xml:space="preserve">
+    <value>应为 '}'</value>
+  </data>
+  <data name="Parser_Error_UnexpectedIdentifier_Text" xml:space="preserve">
+    <value>意外标识符</value>
+  </data>
+  <data name="Parser_Error_ConceptMustBeATemplate_Text" xml:space="preserve">
+    <value>概念必须为模板</value>
+  </data>
+  <data name="PresenterUtil_FunctionOverloadSet_Text" xml:space="preserve">
+    <value>function-overload-set</value>
+  </data>
+  <data name="ComparisonUtil_AmbiguousCallWithCandidates_Text" xml:space="preserve">
+    <value>解析 {0} 会导致具有可行候选项的不明确函数调用:</value>
+  </data>
+  <data name="StructDefinition_Text" xml:space="preserve">
+    <value>结构定义</value>
+  </data>
+  <data name="Parser_Error_Expected__exceptOr__finally_Text" xml:space="preserve">
+    <value>应为 '__except' 或 '__finally'</value>
+  </data>
+  <data name="Parser_Error_ExpectedAuto_Text" xml:space="preserve">
+    <value>应为 'auto'</value>
+  </data>
+  <data name="Parser_Error_ExpectedCatch_Text" xml:space="preserve">
+    <value>应为 'catch'</value>
+  </data>
+  <data name="Parser_Error_ExpectedSemicolonOrColon_Text" xml:space="preserve">
+    <value>应为 ';' 或 ':'</value>
+  </data>
+  <data name="Parser_Error_ExpectedBinaryOperator_Text" xml:space="preserve">
+    <value>应为二元运算符</value>
+  </data>
+  <data name="Parser_Error_ExpectedClassOrStruct_Text" xml:space="preserve">
+    <value>应为 'class' 或 'struct'</value>
+  </data>
+  <data name="HeaderFile_Text" xml:space="preserve">
+    <value>头文件</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Incorrect_indent_size" xml:space="preserve">
+    <value>缩进大小不正确</value>
+  </data>
+  <data name="ComparisonUtil_CannotBeVolatileQualified_Text" xml:space="preserve">
+    <value>不能为 {0} 限定</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Line_should_be_indented_or_outdented_elsewhere" xml:space="preserve">
+    <value>其他位置缺少缩进/减少缩进</value>
+  </data>
+  <data name="StructuredBindingUtil_TypeIsNotComplete_Text" xml:space="preserve">
+    <value>{0} 不完整</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemArray_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::Array' 类型</value>
+  </data>
+  <data name="Parser_Error_ExpectedRParRPar_Text" xml:space="preserve">
+    <value>应为 '))'</value>
+  </data>
+  <data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowedHere_Text" xml:space="preserve">
+    <value>此处不允许使用特性说明符序列</value>
+  </data>
+  <data name="ComparisonUtil_WhileComparingBase_Text" xml:space="preserve">
+    <value>比较基{1} 时
+{0}</value>
+  </data>
+  <data name="PresenterUtil_AnonymousFormat_Text" xml:space="preserve">
+    <value>匿名 {0}</value>
+  </data>
+  <data name="CExternalModule_Text" xml:space="preserve">
+    <value>C++ 外部模块</value>
+  </data>
+  <data name="ComparisonUtil_NoViableCandidates_Text" xml:space="preserve">
+    <value>没有对 {0} 的调用的可行候选项</value>
+  </data>
+  <data name="PublicMethod_Text" xml:space="preserve">
+    <value>public 方法</value>
+  </data>
+  <data name="ComparisonUtil_TypeIsReference_Text" xml:space="preserve">
+    <value>类型 {0} 为引用</value>
+  </data>
+  <data name="Parser_Error_ExpectedRegisterKeywordOrSemantic_Text" xml:space="preserve">
+    <value>应为 register 关键字或语义</value>
+  </data>
+  <data name="Buffer_Text" xml:space="preserve">
+    <value>缓冲区</value>
+  </data>
+  <data name="EnumStruct_Text" xml:space="preserve">
+    <value>枚举结构</value>
+  </data>
+  <data name="PresenterUtil_Builtin_Text" xml:space="preserve">
+    <value>[内置]</value>
+  </data>
+  <data name="Saving__Text" xml:space="preserve">
+    <value>正在保存 {0}</value>
+  </data>
+  <data name="Parser_Error_SuperfluousSemicolon_Text" xml:space="preserve">
+    <value>多余的 ';'</value>
+  </data>
+  <data name="Parser_Error_ExpectedMetaValue_Text" xml:space="preserve">
+    <value>应为元数据值</value>
+  </data>
+  <data name="Symbols_SerializationObject_Text" xml:space="preserve">
+    <value>符号</value>
+  </data>
+  <data name="Loading__Text" xml:space="preserve">
+    <value>正在加载 {0}</value>
+  </data>
+  <data name="Parser_Error_ExpectedCliDelegate_Text" xml:space="preserve">
+    <value>应为 CLI 委托</value>
+  </data>
+  <data name="RequiresExpressionClause_Text" xml:space="preserve">
+    <value>requires 表达式子句</value>
+  </data>
+  <data name="Operator_Text" xml:space="preserve">
+    <value>运算符</value>
+  </data>
+  <data name="Enumerator_Text" xml:space="preserve">
+    <value>枚举器</value>
+  </data>
+  <data name="Parser_Error_ExpectedGetOrPut_Text" xml:space="preserve">
+    <value>应为 'get' 或 'put'</value>
+  </data>
+  <data name="Interface_Text" xml:space="preserve">
+    <value>interface</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrGt_Text" xml:space="preserve">
+    <value>应为 ',' 或 '&gt;'</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrRBracket_Text" xml:space="preserve">
+    <value>应为 ',' 或 ']'</value>
+  </data>
+  <data name="ComparisonUtil_FormatWithDeletionReason_Text" xml:space="preserve">
+    <value>{0}:
+{1}</value>
+  </data>
+  <data name="Parser_Error_ExpectedEq_Text" xml:space="preserve">
+    <value>应为 '='</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrRParen_Text" xml:space="preserve">
+    <value>应为 ',' 或 ')'</value>
+  </data>
+  <data name="IndexingSymbols_Text" xml:space="preserve">
+    <value>正在为符号编制索引…</value>
+  </data>
+  <data name="Enum_Text" xml:space="preserve">
+    <value>enum</value>
+  </data>
+  <data name="Parser_Error_ExpectedColon_Text" xml:space="preserve">
+    <value>应为 ':'</value>
+  </data>
+  <data name="ProtectedMethod_Text" xml:space="preserve">
+    <value>protected 方法</value>
+  </data>
+  <data name="Member_Text" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemString_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::String' 类型</value>
+  </data>
+  <data name="Parser_Error_ConceptsAreOnlyAllowedAtNamespaceLevel_Text" xml:space="preserve">
+    <value>仅允许在命名空间级别使用概念</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemIDisposable_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::IDisposable' 类型</value>
+  </data>
+  <data name="ComparisonUtil_NotSupportedInTheCurrentLanguageDialect_Text" xml:space="preserve">
+    <value>当前语言方言不支持</value>
+  </data>
+  <data name="SymbolCache_SerializationObject_Text" xml:space="preserve">
+    <value>符号缓存</value>
+  </data>
+  <data name="EnumDefinition_Text" xml:space="preserve">
+    <value>枚举定义</value>
+  </data>
+  <data name="Parser_Error_MustBeATypeConcept_Text" xml:space="preserve">
+    <value>必须为类型概念</value>
+  </data>
+  <data name="Parser_Error_ExpectedSemicolon_Text" xml:space="preserve">
+    <value>应为 ';'</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_angle_brackets" xml:space="preserve">
+    <value>尖括号周围</value>
+  </data>
+  <data name="CommonLanguageRunTimeIsSupportedInFileButSystemVoid_Text" xml:space="preserve">
+    <value>文件中支持公共语言运行时，但找不到 'System::Void' 类型</value>
+  </data>
+  <data name="Parser_Error_QualifierCanBeUsedOnlyAfter_Text" xml:space="preserve">
+    <value>'{0}' 限定符只能在 '*' 后面使用</value>
+  </data>
+  <data name="Parser_Error_ExpectedSpecifierValue_Text" xml:space="preserve">
+    <value>应为说明符值</value>
+  </data>
+  <data name="Parser_Error_ExpectedParameterDeclaration_Text" xml:space="preserve">
+    <value>应为形参声明</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_operator_symbols" xml:space="preserve">
+    <value>运算符符号周围</value>
+  </data>
+  <data name="TypeAlias_Text" xml:space="preserve">
+    <value>类型别名</value>
+  </data>
+  <data name="Parser_Error_ExpectedMacroParameter_Text" xml:space="preserve">
+    <value>应为宏形参</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_member_access_symbols" xml:space="preserve">
+    <value>成员访问符号周围</value>
+  </data>
+  <data name="DeclaredElement_From_Text" xml:space="preserve">
+    <value>从 {0}</value>
+  </data>
+  <data name="ComparisonUtil_FuncIsNotAccessible_Text" xml:space="preserve">
+    <value>{0}无法访问</value>
+  </data>
+  <data name="Parser_Error_ExpectedRPar_Text" xml:space="preserve">
+    <value>应为 ')'</value>
+  </data>
+  <data name="ClassField_Text" xml:space="preserve">
+    <value>类字段</value>
+  </data>
+  <data name="Parser_Error_ExpectedSecondArgumentOfForLoop_Text" xml:space="preserve">
+    <value>应为 for 循环的第二个实参</value>
+  </data>
+  <data name="Parser_Error_ExpectedStringLiteral_Text" xml:space="preserve">
+    <value>应为字符串字面量</value>
+  </data>
+  <data name="ComparisonUtil_MustHaveTwoParametersOfSpecificTypes_Text" xml:space="preserve">
+    <value>必须具有 {0} 类型的两个形参或 {1} 类型的两个形参</value>
+  </data>
+  <data name="Union_Text" xml:space="preserve">
+    <value>union</value>
+  </data>
+  <data name="Parser_Error_ExpectedCommaOrRBrace_Text" xml:space="preserve">
+    <value>应为 ',' 或 '}'</value>
+  </data>
+  <data name="Parser_Error_ExpectedGtGtGt_Text" xml:space="preserve">
+    <value>应为 '&gt;&gt;&gt;'</value>
+  </data>
+  <data name="GlslFile_Text" xml:space="preserve">
+    <value>glsl 文件</value>
+  </data>
+  <data name="DeclaredElement_InBrackets_Text" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="Parser_Error__IsNotAFoldableOperator_Text" xml:space="preserve">
+    <value>'{0}' 不是可折叠的运算符</value>
+  </data>
+  <data name="TypeTemplateParameter_Text" xml:space="preserve">
+    <value>类型模板形参</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Tabs_are_prohibited_except_for_indentation" xml:space="preserve">
+    <value>除缩进外禁止制表符</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_namespace_braces" xml:space="preserve">
+    <value>命名空间大括号周围</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Blank_lines_are_missing_elsewhere" xml:space="preserve">
+    <value>其他位置缺少空行</value>
+  </data>
+  <data name="Parser_Error_ExpectedOperator_Text" xml:space="preserve">
+    <value>应为 '{0}'</value>
+  </data>
+  <data name="Parser_Error_UnknownDeclspec__Text" xml:space="preserve">
+    <value>未知的 declspec '{0}'</value>
+  </data>
+  <data name="ComparisonUtil_MustHaveASingleParameterOfType_Text" xml:space="preserve">
+    <value>必须具有 {0} 类型的一个形参</value>
+  </data>
+  <data name="SourceFile_Text" xml:space="preserve">
+    <value>源文件</value>
+  </data>
+  <data name="Linkage_Processing_Text" xml:space="preserve">
+    <value>正在处理 {0}</value>
+  </data>
+  <data name="PresenterUtil_BracedInitList_Text" xml:space="preserve">
+    <value>braced-init-list</value>
+  </data>
+  <data name="NonTypeTemplateArgument_Text" xml:space="preserve">
+    <value>非类型模板实参</value>
+  </data>
+  <data name="Always_Description_Text" xml:space="preserve">
+    <value>始终</value>
+  </data>
+  <data name="Parser_Error_ExpectedRefOrValue_Text" xml:space="preserve">
+    <value>应为 'ref' 或 'value'</value>
+  </data>
+  <data name="ComparisonUtil_CannotBeStaticMemberFunction_Text" xml:space="preserve">
+    <value>不能是 {0} 成员函数</value>
+  </data>
+  <data name="PublicField_Text" xml:space="preserve">
+    <value>public 字段</value>
+  </data>
+  <data name="Parser_Error_ExpectedLParOrLBrace_Text" xml:space="preserve">
+    <value>应为 '(' 或 '{'</value>
+  </data>
+  <data name="Parser_Error_ExpectedCliConstraintTypeId_Text" xml:space="preserve">
+    <value>应为 CLI 约束类型 ID</value>
+  </data>
+  <data name="Parser_Error_ExpectedGenericConstraintItem_Text" xml:space="preserve">
+    <value>应为泛型约束条目</value>
+  </data>
+  <data name="Parser_Error_ExpectedPrivate_Text" xml:space="preserve">
+    <value>应为 'private'</value>
+  </data>
+  <data name="Parser_Error_ExpectedDeclarator_Text" xml:space="preserve">
+    <value>应为声明符</value>
+  </data>
+  <data name="HlslFile_Text" xml:space="preserve">
+    <value>hlsl 文件</value>
+  </data>
+  <data name="Module_Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="PresenterUtil_ImplicitlyGenerated_Text" xml:space="preserve">
+    <value>[隐式生成]</value>
+  </data>
+  <data name="Parser_Error_TemplateInCompoundStatement_Text" xml:space="preserve">
+    <value>仅在全局、命名空间或类范围内允许使用模板声明</value>
+  </data>
+  <data name="Parser_Error_ParensCannotBeUsedInIfConsteval_Text" xml:space="preserve">
+    <value>'consteval' 不应加括号</value>
+  </data>
+  <data name="CppStandardLibrary_Text" xml:space="preserve">
+    <value>C++ 标准库</value>
+  </data>
+  <data name="Parser_Error_UnknownOperatorType_Text" xml:space="preserve">
+    <value>未知的运算符类型</value>
+  </data>
+  <data name="Parser_Error_ExpectedThis_Text" xml:space="preserve">
+    <value>应为 'this'</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Around_braces" xml:space="preserve">
+    <value>大括号周围</value>
+  </data>
+  <data name="InitializingSymbolCache_Text" xml:space="preserve">
+    <value>正在初始化符号缓存…</value>
+  </data>
+  <data name="Parser_Error_ExpectedCliProperty_Text" xml:space="preserve">
+    <value>应为 CLI 属性</value>
+  </data>
+  <data name="UnionDefinition_Text" xml:space="preserve">
+    <value>联合定义</value>
+  </data>
+  <data name="Parser_Error_AnAttributeSpecifierSequenceIsNotAllowedAfterMSAttribute_Text" xml:space="preserve">
+    <value>不允许在 MS 特性后面使用特性说明符序列</value>
+  </data>
+  <data name="PredefinedMacro_Text" xml:space="preserve">
+    <value>预定义宏</value>
+  </data>
+  <data name="CppFormatterHighlightingProvider_InternalConfigurableSeverityItems_Incorrect_number_of_blank_lines_near_braces" xml:space="preserve">
+    <value>大括号附近的空行数不正确</value>
+  </data>
+  <data name="ComparisonUtil_MustBeConstQualified_Text" xml:space="preserve">
+    <value>必须为 {0} 限定</value>
+  </data>
+  <data name="Parser_Error_ExpectedAfterIf_Text" xml:space="preserve">
+    <value>'if' 后面应为 '('</value>
+  </data>
+  <data name="LocalVariable_Text" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+</root>

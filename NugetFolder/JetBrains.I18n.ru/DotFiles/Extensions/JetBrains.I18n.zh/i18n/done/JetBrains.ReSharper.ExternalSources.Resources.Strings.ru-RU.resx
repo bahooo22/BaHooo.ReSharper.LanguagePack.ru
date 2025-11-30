@@ -1,0 +1,954 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SourcesFromSymbolFilesWereNotFoundNTo_Text" xml:space="preserve">
+    <value>找不到来自符号文件的源。
+要了解可能的原因，请查看“{0}”窗口。</value>
+  </data>
+  <data name="ReSharperCanEnableDebuggingWithoutSymbols_Text" xml:space="preserve">
+    <value>ReSharper 可以启用无符号调试</value>
+  </data>
+  <data name="FileWasRemoved_ToolTip" xml:space="preserve">
+    <value>文件已被移除</value>
+  </data>
+  <data name="BundleV___Text" xml:space="preserve">
+    <value> (捆绑包 v{0}.{1})</value>
+  </data>
+  <data name="CopyFullPathActionText" xml:space="preserve">
+    <value>复制完整路径</value>
+  </data>
+  <data name="AddSourceLinkToPortablePDB_ActionText" xml:space="preserve">
+    <value>将 SourceLink 添加到便携式 PDB…</value>
+  </data>
+  <data name="ClearListActionText" xml:space="preserve">
+    <value>清除列表</value>
+  </data>
+  <data name="Bundle_Text" xml:space="preserve">
+    <value> (捆绑包)</value>
+  </data>
+  <data name="ILViewerCodeUnavailabilityReason_NotInProject_Text" xml:space="preserve">
+    <value>此文件不属于该项目</value>
+  </data>
+  <data name="DiffModeShowAll_Text" xml:space="preserve">
+    <value>全部显示</value>
+  </data>
+  <data name="LocateInMetadataTreeContextNavigationProvider_ActionTitle" xml:space="preserve">
+    <value>在元数据中定位</value>
+  </data>
+  <data name="DiffIgnoreAttributeOrderDifferences_Text" xml:space="preserve">
+    <value>忽略特性顺序差异</value>
+  </data>
+  <data name="DecompilerLegalNoticeIsAcceptedByUserSettingDescription" xml:space="preserve">
+    <value>反编译器法律声明已被用户接受</value>
+  </data>
+  <data name="OpenDiffOptionsActionText" xml:space="preserve">
+    <value>差异选项…</value>
+  </data>
+  <data name="AssemblyExplorerActionGroupText" xml:space="preserve">
+    <value>程序集资源管理器</value>
+  </data>
+  <data name="WebAssemblyLimitedSupport_Text" xml:space="preserve">
+    <value>(WebAssembly，有限支持)</value>
+  </data>
+  <data name="InMethod_Text" xml:space="preserve">
+    <value>在方法中</value>
+  </data>
+  <data name="OpenContainingFolder_Text" xml:space="preserve">
+    <value>打开包含文件夹</value>
+  </data>
+  <data name="UseNewTreeForAssemblyExplorerSettingDescription" xml:space="preserve">
+    <value>为程序集资源管理器使用新树</value>
+  </data>
+  <data name="DiffIgnoreMemberOrderDifferences_Text" xml:space="preserve">
+    <value>忽略成员顺序差异</value>
+  </data>
+  <data name="PdbFileWasNotDownloaded_Text" xml:space="preserve">
+    <value>PDB 文件未下载</value>
+  </data>
+  <data name="Headers_Text" xml:space="preserve">
+    <value>标头</value>
+  </data>
+  <data name="ByDefaultReSharperNavigatesToAssembly_Text" xml:space="preserve">
+    <value>默认情况下，ReSharper 导航到程序集资源管理器</value>
+  </data>
+  <data name="XmlDocumentRepresentingAssemblyDiffExplorerStateSettingDescription" xml:space="preserve">
+    <value>表示程序集差异资源管理器状态的 XmlDocument</value>
+  </data>
+  <data name="ILViewerViewILCodeAction_Caption" xml:space="preserve">
+    <value>IL 代码</value>
+  </data>
+  <data name="OpenWithActionText" xml:space="preserve">
+    <value>打开方式(&amp;W)…</value>
+  </data>
+  <data name="_TrustTheCommandsGeneratedFromThisTemplate_Text" xml:space="preserve">
+    <value>信任从此模板生成的命令(_T)</value>
+  </data>
+  <data name="PdbGenerationStatusActionText" xml:space="preserve">
+    <value>PDB 生成状态(&amp;G)</value>
+  </data>
+  <data name="ProjectPDBGenerationStatus_Text" xml:space="preserve">
+    <value>项目/PDB 生成状态</value>
+  </data>
+  <data name="AssemblyContains_Image_ToolTip" xml:space="preserve">
+    <value>程序集包含 {0} 图像</value>
+  </data>
+  <data name="ResourcesFiles_Files_Filter_Text" xml:space="preserve">
+    <value>资源文件</value>
+  </data>
+  <data name="JustMyCodeEnabledDisabled_Text" xml:space="preserve">
+    <value> • 仅我的代码(已启用 → 已禁用)</value>
+  </data>
+  <data name="Resources_Text" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="UseStringInterpolationSettingDescription" xml:space="preserve">
+    <value>使用字符串内插</value>
+  </data>
+  <data name="DiffIgnoreAttributeOrderDifferencesSettingDescription" xml:space="preserve">
+    <value>忽略特性顺序差异</value>
+  </data>
+  <data name="AssemblyList__Text" xml:space="preserve">
+    <value>DotPeek 程序集列表({0})</value>
+  </data>
+  <data name="ToEnableDebuggingWithoutSymbolsReSharperWillUpdateTheFollowingVisualStudioSettings_Text" xml:space="preserve">
+    <value>为了启用无符号调试，ReSharper 将更新以下 Visual Studio 设置:</value>
+  </data>
+  <data name="AssemblyFiles__Text" xml:space="preserve">
+    <value>程序集文件({0})</value>
+  </data>
+  <data name="GeneratingDebugData_Text" xml:space="preserve">
+    <value>正在生成调试数据</value>
+  </data>
+  <data name="DiffModeShowOnlyDifferences_Text" xml:space="preserve">
+    <value>仅显示差异</value>
+  </data>
+  <data name="Inheritors_Text" xml:space="preserve">
+    <value>继承者</value>
+  </data>
+  <data name="ILViewerActionText" xml:space="preserve">
+    <value>IL Viewer</value>
+  </data>
+  <data name="UpdateSettingsAndEnable_Text" xml:space="preserve">
+    <value>更新设置并启用</value>
+  </data>
+  <data name="UndefinedTargetFramework_Text" xml:space="preserve">
+    <value>未定义的目标框架</value>
+  </data>
+  <data name="CollectingPackages__Text" xml:space="preserve">
+    <value>正在收集软件包({0})…</value>
+  </data>
+  <data name="UnmanagedAssemblyLimitedSupport_ToolTip" xml:space="preserve">
+    <value>不是 .NET 程序集，类型未显示</value>
+  </data>
+  <data name="SavePatchedSymbolFile_Title" xml:space="preserve">
+    <value>保存修补的符号文件</value>
+  </data>
+  <data name="And_MoreAssemblies_Text" xml:space="preserve">
+    <value>和其他 {0} 个程序集</value>
+  </data>
+  <data name="PdbFilesWillNotBeGeneratedForTheAssembliy_Text" xml:space="preserve">
+    <value>将不会为程序集生成 PDB 文件</value>
+  </data>
+  <data name="InternalPrivate_RiderPresentableName" xml:space="preserve">
+    <value>内部/private</value>
+  </data>
+  <data name="UseWithExpressionsSettingDescription" xml:space="preserve">
+    <value>使用 'with' 表达式</value>
+  </data>
+  <data name="Test_Button_Text" xml:space="preserve">
+    <value>测试</value>
+  </data>
+  <data name="ILViewerViewLowLevelCSharpCodeAction_Caption" xml:space="preserve">
+    <value>低级别 C# 代码</value>
+  </data>
+  <data name="ExtractToFileActionText" xml:space="preserve">
+    <value>提取到文件…</value>
+  </data>
+  <data name="ILViewerCodeTypeILText" xml:space="preserve">
+    <value>IL</value>
+  </data>
+  <data name="Usages_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="PortablePDBMetadata_Text" xml:space="preserve">
+    <value>便携式 PDB 元数据</value>
+  </data>
+  <data name="SelectAssemblyToBindPdbWith_Title" xml:space="preserve">
+    <value>选择要绑定 PDB 的程序集</value>
+  </data>
+  <data name="MetadataEmphasized_RiderPresentableName" xml:space="preserve">
+    <value>强调元数据</value>
+  </data>
+  <data name="Diff_OptionsPageTitle" xml:space="preserve">
+    <value>程序集差异</value>
+  </data>
+  <data name="AllSupportedExtensions__Text" xml:space="preserve">
+    <value>所有支持的扩展名({0})</value>
+  </data>
+  <data name="TrackCaretInEditorActionText" xml:space="preserve">
+    <value>在编辑器中跟踪文本光标</value>
+  </data>
+  <data name="UpdatingTypePresentations_Text" xml:space="preserve">
+    <value>正在更新类型表示</value>
+  </data>
+  <data name="UnloadActionText" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="ToDoSoItWillUpdateTheFollowingVisualStudioSettings_Text" xml:space="preserve">
+    <value>为此，它将更新以下 Visual Studio 设置:</value>
+  </data>
+  <data name="Metadata_Text" xml:space="preserve">
+    <value>元数据</value>
+  </data>
+  <data name="DiffModeShowOnlyPublicApiDifferences_Text" xml:space="preserve">
+    <value>仅显示公共 API 差异</value>
+  </data>
+  <data name="ResourcesDecompiler_Text" xml:space="preserve">
+    <value>资源反编译器</value>
+  </data>
+  <data name="LibraryFiles__Text" xml:space="preserve">
+    <value>库文件({0})</value>
+  </data>
+  <data name="Modules_Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="UseNullCoalescingOperatorsSettingDescription" xml:space="preserve">
+    <value>使用 null 合并运算符(??)</value>
+  </data>
+  <data name="ILViewerCodeUnavailabilityReason_ExpiredCacheItem_Text" xml:space="preserve">
+    <value>来自缓存的反编译代码已过时。程序集 {0} 已被重新编译。重新反编译 {1}。</value>
+  </data>
+  <data name="ExternalSourcesOptionPageTitle" xml:space="preserve">
+    <value>外部源</value>
+  </data>
+  <data name="DiffMode_RadioOption_Caption" xml:space="preserve">
+    <value>差异模式</value>
+  </data>
+  <data name="NavigationToSources_Text" xml:space="preserve">
+    <value>导航到源</value>
+  </data>
+  <data name="AssemblyDiffExplorerActionGroupText" xml:space="preserve">
+    <value>程序集差异</value>
+  </data>
+  <data name="InParameter_Text" xml:space="preserve">
+    <value>在形参中</value>
+  </data>
+  <data name="In__Text" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="PdbHasNotBeenGeneratedBecauseAssemblyDoesNotContainCodeViewDebugDirectoryEntry" xml:space="preserve">
+    <value>尚未生成 PDB，因为程序集不包含 CodeView 调试目录条目</value>
+  </data>
+  <data name="DefaultVisualStudioNavigation_Text" xml:space="preserve">
+    <value>默认 Visual Studio 导航</value>
+  </data>
+  <data name="AdvancedSymbolsOptions_Button_Text" xml:space="preserve">
+    <value>高级符号选项…</value>
+  </data>
+  <data name="BCLAssemblyContains_Image_ToolTip" xml:space="preserve">
+    <value>BCL 程序集包含 {0} 图像</value>
+  </data>
+  <data name="DecompileMethods_BoolOption_Text" xml:space="preserve">
+    <value>反编译方法</value>
+  </data>
+  <data name="ExternalSources_Text" xml:space="preserve">
+    <value>外部源</value>
+  </data>
+  <data name="TypeElement_RiderPresentableName" xml:space="preserve">
+    <value>类型元素</value>
+  </data>
+  <data name="SelectSymbolPdbFileToPatch_Title" xml:space="preserve">
+    <value>选择要修补的符号(PDB)文件</value>
+  </data>
+  <data name="InConstructor_Text" xml:space="preserve">
+    <value>在构造函数中</value>
+  </data>
+  <data name="AssemblyDiffExplorerSettingsSettingDescription" xml:space="preserve">
+    <value>Assembly Diff Explorer settings</value>
+  </data>
+  <data name="BCLAssembly_ToolTip" xml:space="preserve">
+    <value>BCL 程序集</value>
+  </data>
+  <data name="SourceLinkJsonFiles__Text" xml:space="preserve">
+    <value>SourceLink JSON 文件({0})</value>
+  </data>
+  <data name="UseAssemblyExplorerInsteadOfObjectBrowser_BoolOption_Text" xml:space="preserve">
+    <value>默认使用程序集资源管理器而不是对象浏览器</value>
+  </data>
+  <data name="DecompileVeryLongMethodsSettingDescription" xml:space="preserve">
+    <value>反编译很长的方法</value>
+  </data>
+  <data name="ILViewerActionBarActionGroupText" xml:space="preserve">
+    <value>IL Viewer 操作栏</value>
+  </data>
+  <data name="AssemblyExportParametersSettingDescription" xml:space="preserve">
+    <value>程序集导出形参</value>
+  </data>
+  <data name="MemberRefMethod_Text" xml:space="preserve">
+    <value>MemberRef - 方法</value>
+  </data>
+  <data name="LoadActionText" xml:space="preserve">
+    <value>加载</value>
+  </data>
+  <data name="FilePathIsRelative_ToolTip" xml:space="preserve">
+    <value>文件路径为相对路径</value>
+  </data>
+  <data name="OpenResource_Caption" xml:space="preserve">
+    <value>打开资源</value>
+  </data>
+  <data name="DecompileProtectedAssembliesSettingDescription" xml:space="preserve">
+    <value>反编译受保护的程序集(忽略 SuppressIldasmAttribute)</value>
+  </data>
+  <data name="ILViewer_Text" xml:space="preserve">
+    <value>IL 查看器</value>
+  </data>
+  <data name="Usages__Text" xml:space="preserve">
+    <value>用法 {0}</value>
+  </data>
+  <data name="AppHost_Text" xml:space="preserve">
+    <value> (应用主机)</value>
+  </data>
+  <data name="SynchronizeCaretToILViewSettingDescription" xml:space="preserve">
+    <value>将文本光标同步到 IL 视图</value>
+  </data>
+  <data name="ShowAtRootLevelActionText" xml:space="preserve">
+    <value>在根级别显示(&amp;R)</value>
+  </data>
+  <data name="OpenInVisualStudioActionText" xml:space="preserve">
+    <value>在 Visual Studio 中打开</value>
+  </data>
+  <data name="OpeningNuGetPackagesConfig_Text" xml:space="preserve">
+    <value>正在打开 NuGet packages.config</value>
+  </data>
+  <data name="PdbAlreadyExists_Text" xml:space="preserve">
+    <value>PDB 已存在</value>
+  </data>
+  <data name="ThisWillRemoveAllAssembliesFromAssembly_Text" xml:space="preserve">
+    <value>这将从程序集资源管理器中移除所有程序集。
+您将无法撤消此操作。
+
+要继续吗?</value>
+  </data>
+  <data name="SelectSourceLinkToAddToPdb_Title" xml:space="preserve">
+    <value>选择要添加到 PDB 的 SourceLink</value>
+  </data>
+  <data name="DiffModeSettingDescription" xml:space="preserve">
+    <value>程序集/NuGet/文件夹/归档差异模式</value>
+  </data>
+  <data name="ProjFileItem_Text" xml:space="preserve">
+    <value>ProjFile 条目</value>
+  </data>
+  <data name="CollectingPackages_Text" xml:space="preserve">
+    <value>正在收集软件包…</value>
+  </data>
+  <data name="ReorderMembersAccordingToCurrentOptionsSettingDescription" xml:space="preserve">
+    <value>根据当前选项对成员重新排序</value>
+  </data>
+  <data name="ExploreFolDerActionText" xml:space="preserve">
+    <value>浏览文件夹(&amp;D)…</value>
+  </data>
+  <data name="Downloading_NuGetPackage_Text" xml:space="preserve">
+    <value>正在下载 {0} NuGet 软件包…</value>
+  </data>
+  <data name="ModuleReference__ToolTip" xml:space="preserve">
+    <value>模块引用</value>
+  </data>
+  <data name="NavigationToExternalSource_RadioOption_Caption" xml:space="preserve">
+    <value>导航到外部源:</value>
+  </data>
+  <data name="NativeAppHost_ToolTip" xml:space="preserve">
+    <value>原生应用主机</value>
+  </data>
+  <data name="MetadataUsage_RiderPresentableName" xml:space="preserve">
+    <value>元数据用法</value>
+  </data>
+  <data name="AssemblyExplorerOpenResourceActionText" xml:space="preserve">
+    <value>开放</value>
+  </data>
+  <data name="SaveResourceToFileActionText" xml:space="preserve">
+    <value>将资源保存到文件(&amp;S)…</value>
+  </data>
+  <data name="SaveAssemblyListActionText" xml:space="preserve">
+    <value>保存程序集列表(&amp;S)…</value>
+  </data>
+  <data name="TheCommandIsGeneratedFromThisTemplate_Text" xml:space="preserve">
+    <value>命令生成自 PDB 指定的模板:</value>
+  </data>
+  <data name="FailedToDownloadPdbRequiredForLocatingSource_Text" xml:space="preserve">
+    <value>无法下载定位源所需的 PDB 文件</value>
+  </data>
+  <data name="DiffModeShowOnlySignatureDifferences_Comment_Text" xml:space="preserve">
+    <value>具有相同内容的项被隐藏，
+具有相同签名的成员被隐藏(主体被忽略)</value>
+  </data>
+  <data name="NuGetPackagesConfig_Text" xml:space="preserve">
+    <value>NuGet packages.config</value>
+  </data>
+  <data name="ShowXmlDocLocations_ActionText" xml:space="preserve">
+    <value>显示 XML 文档位置</value>
+  </data>
+  <data name="NavigationToObjectBrowser_Text" xml:space="preserve">
+    <value>导航到对象浏览器</value>
+  </data>
+  <data name="FailedToDownloadPdbRequiredForLocatingRepository_Text" xml:space="preserve">
+    <value>无法下载定位源代码仓库所需的 PDB 文件</value>
+  </data>
+  <data name="PdbGenerationStatus_Text" xml:space="preserve">
+    <value>PDB 生成状态</value>
+  </data>
+  <data name="RemoveItemFromListActionText" xml:space="preserve">
+    <value>从列表中移除条目</value>
+  </data>
+  <data name="ILViewerCodeTypeGroupText" xml:space="preserve">
+    <value>代码类型</value>
+  </data>
+  <data name="BaseTypes_Text" xml:space="preserve">
+    <value>基类型</value>
+  </data>
+  <data name="FilePathIsRelative_Text" xml:space="preserve">
+    <value> (文件路径为相对路径)</value>
+  </data>
+  <data name="ILViewerCodeTypeSettingDescription" xml:space="preserve">
+    <value>代码类型</value>
+  </data>
+  <data name="FailedToFindInfoForBuidingUrlForThisAssembly_Text" xml:space="preserve">
+    <value>在 PDB 中找不到源代码仓库信息</value>
+  </data>
+  <data name="_NeverUseThisTemplate_Text" xml:space="preserve">
+    <value>永不使用此模板(_N)</value>
+  </data>
+  <data name="ContextActionPageUISettingsSettingDescription" xml:space="preserve">
+    <value>上下文操作页面 UI 设置</value>
+  </data>
+  <data name="MetadataTreeDownloadSource_Text" xml:space="preserve">
+    <value>元数据树: 下载源</value>
+  </data>
+  <data name="AssemblyVersion__Text" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="MemberRefField_Text" xml:space="preserve">
+    <value>MemberRef - 字段</value>
+  </data>
+  <data name="DiffIgnoreNullableReferenceTypesAnnotationsDifferences_Text" xml:space="preserve">
+    <value>忽略可为 null 引用类型注解中的差异</value>
+  </data>
+  <data name="ShowPDBContentForAssemblyActionText" xml:space="preserve">
+    <value>显示 PDB 内容</value>
+  </data>
+  <data name="DiffModeShowOnlySignatureDifferences_Text" xml:space="preserve">
+    <value>仅显示签名差异</value>
+  </data>
+  <data name="EmbeddedPortablePDBMetadata_Text" xml:space="preserve">
+    <value>嵌入式便携式 PDB 元数据</value>
+  </data>
+  <data name="SymbolCacheDirectoryNotSet__Text" xml:space="preserve">
+    <value> • 符号缓存目录(未设置 → {0})</value>
+  </data>
+  <data name="ILViewerCodeUnavailabilityReason_PutCursorInsideType_Text" xml:space="preserve">
+    <value>在类型声明中设置文本光标以查看{0}</value>
+  </data>
+  <data name="Adding_AssembliesToAssemblyExplorer_Text" xml:space="preserve">
+    <value>正在将 {0:N0} 个程序集添加到程序集资源管理器</value>
+  </data>
+  <data name="MetadataToken_RiderPresentableName" xml:space="preserve">
+    <value>元数据令牌</value>
+  </data>
+  <data name="DecompileMethodBodiesSettingDescription" xml:space="preserve">
+    <value>反编译方法体</value>
+  </data>
+  <data name="ShowXMLDocInDecompiledCodeSettingDescription" xml:space="preserve">
+    <value>在反编译的代码中显示 XML 文档</value>
+  </data>
+  <data name="AssemblyExportHistoryAssemblyFileWithModificationTimeCreatedProjectPathSettingDescription" xml:space="preserve">
+    <value>程序集导出历史记录: 程序集文件(带修改时间) - 创建的项目路径</value>
+  </data>
+  <data name="WebAssemblyLimitedSupport_ToolTip" xml:space="preserve">
+    <value>不是 WebCIL WebAssembly，类型未显示</value>
+  </data>
+  <data name="OpenAssemblyListActionText" xml:space="preserve">
+    <value>打开程序集列表(&amp;L)…</value>
+  </data>
+  <data name="SourcesFromSymbolFilesActionText" xml:space="preserve">
+    <value>来自符号文件的源</value>
+  </data>
+  <data name="NavigatingTo__Text" xml:space="preserve">
+    <value>正在导航到 {0}</value>
+  </data>
+  <data name="ILViewerCodeTypeHighLevelCSharpText" xml:space="preserve">
+    <value>高级别 C#</value>
+  </data>
+  <data name="UseExpressionBodiedMembersSettingDescription" xml:space="preserve">
+    <value>使用表达式体成员</value>
+  </data>
+  <data name="LocateFirstItemInFileExplorerActionText" xml:space="preserve">
+    <value>在文件资源管理器中定位第一个条目</value>
+  </data>
+  <data name="ILViewerCodeTypeLowLevelCSharpText" xml:space="preserve">
+    <value>低级别 C#</value>
+  </data>
+  <data name="AdditionalInformation_RiderPresentableName" xml:space="preserve">
+    <value>其他信息</value>
+  </data>
+  <data name="DiffModeGroup_PresentationText" xml:space="preserve">
+    <value>差异模式: {0}</value>
+  </data>
+  <data name="CanTResolveAssemblyReference_Text" xml:space="preserve">
+    <value>无法解析程序集引用</value>
+  </data>
+  <data name="DiffModeShowOnlyPublicApiDifferences_Comment_Text" xml:space="preserve">
+    <value>具有相同签名的 public 条目(主体被忽略)和非 public 成员被隐藏</value>
+  </data>
+  <data name="DeltaGeneration___Text" xml:space="preserve">
+    <value>{0} (Generation {1}, {2})</value>
+  </data>
+  <data name="SynchronizeILViewToCaretSettingDescription" xml:space="preserve">
+    <value>将 IL 视图同步到文本光标</value>
+  </data>
+  <data name="RemoveItemsFromList_Text" xml:space="preserve">
+    <value>从列表中移除条目</value>
+  </data>
+  <data name="InEvent_Text" xml:space="preserve">
+    <value>在事件中</value>
+  </data>
+  <data name="DecompileProtectedAssemblies_BoolOption_Text" xml:space="preserve">
+    <value>反编译受保护的程序集(忽略 SuppressIldasm 特性)</value>
+  </data>
+  <data name="DoYouWantToUpdateTheseSettingsAndEnableDebugging_Text" xml:space="preserve">
+    <value>要更新这些设置并启用调试吗?</value>
+  </data>
+  <data name="PatchPdbBindWithAssembly_ActionText" xml:space="preserve">
+    <value>Patch PDB (bind with assembly)…</value>
+  </data>
+  <data name="DiffOptionsDescription" xml:space="preserve">
+    <value>用于在程序集资源管理器中比较程序集、NuGet 程序包、归档和文件夹的选项</value>
+  </data>
+  <data name="DiffModeGroup_Text" xml:space="preserve">
+    <value>差异模式</value>
+  </data>
+  <data name="PlaceOpenBraceOnNewLineSettingDescription" xml:space="preserve">
+    <value>将左大括号置于新行中</value>
+  </data>
+  <data name="DiffModeShowOnlyDifferences_Comment_Text" xml:space="preserve">
+    <value>具有相同内容的条目(类型/成员/命名空间/资源/引用/文件/文件夹)被隐藏</value>
+  </data>
+  <data name="DecompilerOptionsSettingDescription" xml:space="preserve">
+    <value>反编译器选项</value>
+  </data>
+  <data name="Enable_Text" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
+    <value>在 '转到…' 结果中显示非 public 编译条目</value>
+  </data>
+  <data name="SingleFileBundle_ToolTip" xml:space="preserve">
+    <value>单个文件捆绑包</value>
+  </data>
+  <data name="ConnectionProblems_Text" xml:space="preserve">
+    <value> 连接问题</value>
+  </data>
+  <data name="Output_Text" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="UseNullConditionalOperatorsAndSettingDescription" xml:space="preserve">
+    <value>使用 null 条件运算符(?. 和 ?[])</value>
+  </data>
+  <data name="TopLevelEntryPoint_Text" xml:space="preserve">
+    <value>&lt;Top-Level Entry Point&gt;</value>
+  </data>
+  <data name="DecompiledSourcesActionText" xml:space="preserve">
+    <value>反编译的源代码</value>
+  </data>
+  <data name="ShowILCodeInCommentsSettingDescription" xml:space="preserve">
+    <value>在注释中显示 IL 代码</value>
+  </data>
+  <data name="OpenNuGetPackagesConfigActionText" xml:space="preserve">
+    <value>打开 NuGet packages.config…</value>
+  </data>
+  <data name="Processing__Text" xml:space="preserve">
+    <value>正在处理 {0}…</value>
+  </data>
+  <data name="MetadataViewer_Text" xml:space="preserve">
+    <value>元数据查看器</value>
+  </data>
+  <data name="DiffModeShowAll_Comment_Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AuthorizationToken_Text" xml:space="preserve">
+    <value>授权令牌:</value>
+  </data>
+  <data name="ZipArchives__Text" xml:space="preserve">
+    <value>Zip 归档({0})</value>
+  </data>
+  <data name="PdbDataIsEmbeddedIntoAssembly_Text" xml:space="preserve">
+    <value>PDB 数据已被嵌入程序集</value>
+  </data>
+  <data name="AssemblyExplorer_Text" xml:space="preserve">
+    <value>程序集资源管理器</value>
+  </data>
+  <data name="FileWasRemoved_Text" xml:space="preserve">
+    <value> (文件已被移除)</value>
+  </data>
+  <data name="OpenFolder_Text" xml:space="preserve">
+    <value>打开文件夹</value>
+  </data>
+  <data name="EnablePrivateSourceLinkSupport_BoolOption_Text" xml:space="preserve">
+    <value>启用不公开源链接支持</value>
+  </data>
+  <data name="DecompilerLegalNoticeAccept_Caption" xml:space="preserve">
+    <value>反编译器法律声明 — 接受</value>
+  </data>
+  <data name="DiffSettingsSettingDescription" xml:space="preserve">
+    <value>程序集/NuGet/文件夹/归档差异设置</value>
+  </data>
+  <data name="ExternalSourcesNavigator_Text" xml:space="preserve">
+    <value>外部源导航器</value>
+  </data>
+  <data name="ByDefaultReSharperNavigatesToObject_Text" xml:space="preserve">
+    <value>默认情况下，ReSharper 导航到对象浏览器</value>
+  </data>
+  <data name="Loading_Text" xml:space="preserve">
+    <value> (正在加载…)</value>
+  </data>
+  <data name="ILViewerCodeUnavailabilityReason_BuildProject_Text" xml:space="preserve">
+    <value>构建项目以查看{0}</value>
+  </data>
+  <data name="NavigationIsCarriedOutByVisualStudio_Text" xml:space="preserve">
+    <value>导航由 Visual Studio 执行。ReSharper 到外部源的导航被禁用。</value>
+  </data>
+  <data name="ClearAssemblyListActionText" xml:space="preserve">
+    <value>清除程序集列表(&amp;C)</value>
+  </data>
+  <data name="ExportToProjectActionText" xml:space="preserve">
+    <value>导出到项目…</value>
+  </data>
+  <data name="INTERNALERROR_Text" xml:space="preserve">
+    <value> INTERNAL ERROR</value>
+  </data>
+  <data name="LibraryFiles_Text" xml:space="preserve">
+    <value>库文件</value>
+  </data>
+  <data name="NavigationToAssemblyExplorer_Text" xml:space="preserve">
+    <value>导航到程序集资源管理器</value>
+  </data>
+  <data name="DownloadingNuGetPackages_Text" xml:space="preserve">
+    <value>正在下载 NuGet 软件包</value>
+  </data>
+  <data name="AssemblyExplorerAddItemsActionText" xml:space="preserve">
+    <value>打开(&amp;O)…</value>
+  </data>
+  <data name="InField_Text" xml:space="preserve">
+    <value>在字段中</value>
+  </data>
+  <data name="LocateSecondItemInFileExplorerActionText" xml:space="preserve">
+    <value>在文件资源管理器中定位第二个条目</value>
+  </data>
+  <data name="ZipArchives_Text" xml:space="preserve">
+    <value>Zip 归档</value>
+  </data>
+  <data name="InProperty_Text" xml:space="preserve">
+    <value>在属性中</value>
+  </data>
+  <data name="ExtractBundleContentsToFolder_Caption" xml:space="preserve">
+    <value>将捆绑包内容提取到文件夹</value>
+  </data>
+  <data name="CancelAllGenerationsActionText" xml:space="preserve">
+    <value>取消所有生成</value>
+  </data>
+  <data name="PdbFilesWillNotBeGeneratedForTheFollowingAssemblies_Text" xml:space="preserve">
+    <value>将不会为以下程序集生成 PDB 文件:</value>
+  </data>
+  <data name="ExtractBundleContentsToFolderActionText" xml:space="preserve">
+    <value>将捆绑内容提取到文件夹…</value>
+  </data>
+  <data name="Dependencies_Text" xml:space="preserve">
+    <value>依赖</value>
+  </data>
+  <data name="PdbAlreadyLoaded_Text" xml:space="preserve">
+    <value>PDB 已加载</value>
+  </data>
+  <data name="NavigateTo_NamespaceIn_Caption" xml:space="preserve">
+    <value>导航到以下程序集中的 {0} 命名空间:</value>
+  </data>
+  <data name="ParsingFiles_Text" xml:space="preserve">
+    <value>正在解析文件…</value>
+  </data>
+  <data name="CopyFirstItemFullPathActionText" xml:space="preserve">
+    <value>复制第一个条目的完整路径</value>
+  </data>
+  <data name="GeneratePdbActionText" xml:space="preserve">
+    <value>生成 PDB…</value>
+  </data>
+  <data name="GeneratingPDBs_Text" xml:space="preserve">
+    <value>正在生成 PDB</value>
+  </data>
+  <data name="Decompiler_Text" xml:space="preserve">
+    <value>反编译器</value>
+  </data>
+  <data name="PdbFileAlreadyExistsSignature_Provider__Text" xml:space="preserve">
+    <value>PDB 文件已存在(签名 {0}，提供程序 {1})</value>
+  </data>
+  <data name="IsNotSupported_Text" xml:space="preserve">
+    <value>不受支持</value>
+  </data>
+  <data name="_HeapItem_Text" xml:space="preserve">
+    <value>{0} 堆条目</value>
+  </data>
+  <data name="ShowMetadataTokenValuesSettingDescription" xml:space="preserve">
+    <value>显示元数据令牌值</value>
+  </data>
+  <data name="AssemblyExplorerHighlightingAttributeGroup_Title_Assembly_Explorer" xml:space="preserve">
+    <value>程序集资源管理器</value>
+  </data>
+  <data name="UseFileScopedNamespacesSettingDescription" xml:space="preserve">
+    <value>使用文件作用域的命名空间</value>
+  </data>
+  <data name="ShowPDBContentActionText" xml:space="preserve">
+    <value>显示 PDB 内容(&amp;D)…</value>
+  </data>
+  <data name="RecursiveReferences__ToolTip" xml:space="preserve">
+    <value>递归引用</value>
+  </data>
+  <data name="Delta_Text" xml:space="preserve">
+    <value>增量</value>
+  </data>
+  <data name="IndentStyleWhitespacesOrTabsSettingDescription" xml:space="preserve">
+    <value>Indent style (whitespaces or tabs)</value>
+  </data>
+  <data name="IndentSizeSettingDescription" xml:space="preserve">
+    <value>缩进大小</value>
+  </data>
+  <data name="BaseInheritors_RiderPresentableName" xml:space="preserve">
+    <value>基/继承者</value>
+  </data>
+  <data name="ByDefaultReSharperNavigatesToMetadata_Text" xml:space="preserve">
+    <value>默认情况下，ReSharper 导航到元数据视图或反编译的代码，或符号文件的源，具体取决于下面定义的设置</value>
+  </data>
+  <data name="SaveDecompiledResourcesToFolder_Caption" xml:space="preserve">
+    <value>将反编译的资源保存到文件夹</value>
+  </data>
+  <data name="NuGetPackages_Text" xml:space="preserve">
+    <value>NuGet 软件包</value>
+  </data>
+  <data name="UserName_Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="UnmanagedAssemblyLimitedSupport_Text" xml:space="preserve">
+    <value> (非托管程序集，支持有限)</value>
+  </data>
+  <data name="Declarations_Caption" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="ClearAssemblyList_Caption" xml:space="preserve">
+    <value>清除程序集列表</value>
+  </data>
+  <data name="References_Text" xml:space="preserve">
+    <value>引用</value>
+  </data>
+  <data name="ShowStrings_ActionText" xml:space="preserve">
+    <value>显示字符串</value>
+  </data>
+  <data name="ExecuteTheCommandToGetTheSourceCode_Text" xml:space="preserve">
+    <value>执行命令并获取源代码?</value>
+  </data>
+  <data name="DiffIgnoreMemberOrderDifferencesSettingDescription" xml:space="preserve">
+    <value>忽略成员顺序差异</value>
+  </data>
+  <data name="UseTernaryConditionalOperatorsSettingDescription" xml:space="preserve">
+    <value>使用三元条件运算符(?:)</value>
+  </data>
+  <data name="LocateInFileExplorerActionText" xml:space="preserve">
+    <value>在文件资源管理器中定位</value>
+  </data>
+  <data name="SourcesFromSymbolFiles_Text" xml:space="preserve">
+    <value>来自符号文件的源</value>
+  </data>
+  <data name="XamlResourceNavigation_Text" xml:space="preserve">
+    <value>Xaml 资源导航</value>
+  </data>
+  <data name="ForwardedTypes_Text" xml:space="preserve">
+    <value>转发的类型</value>
+  </data>
+  <data name="PdbFileIsAlreadyInTheVisualStudioCacheSignature__Text" xml:space="preserve">
+    <value>PDB 文件已位于 Visual Studio 缓存中(签名 {0})</value>
+  </data>
+  <data name="CopySecondItemFullPathActionText" xml:space="preserve">
+    <value>复制第二个条目的完整路径</value>
+  </data>
+  <data name="ILViewerCodeUnavailabilityReason_OpenSource_Text" xml:space="preserve">
+    <value>打开要查看其源代码的{0}</value>
+  </data>
+  <data name="DecompileResourcesFileActionText" xml:space="preserve">
+    <value>反编译 .resources 文件…</value>
+  </data>
+  <data name="FailedToFindInfoForBuidingUrlForThisElement_Text" xml:space="preserve">
+    <value>在 PDB 中找不到元素源信息</value>
+  </data>
+  <data name="AllowDownloadingFromRemoteLocations_BoolOption_Text" xml:space="preserve">
+    <value>允许从远程位置下载</value>
+  </data>
+  <data name="DiffIgnoreNullableReferenceTypesAnnotationsDifferencesSettingDescription" xml:space="preserve">
+    <value>忽略可为 null 引用类型注解中的差异</value>
+  </data>
+  <data name="OpenInBrowserActionText" xml:space="preserve">
+    <value>在浏览器中打开</value>
+  </data>
+  <data name="PreparingAssemblyExplorer_Text" xml:space="preserve">
+    <value>正在准备程序集资源管理器</value>
+  </data>
+  <data name="ThereAreNoSymbolsForAssembly_ButReSharperCanEnableDebuggingWithoutSymbolsForThisAssembly_Text" xml:space="preserve">
+    <value>程序集 {0} 没有符号，但 ReSharper 可以为此程序集启用无符号调试。</value>
+  </data>
+  <data name="CanTShowTheContentOfPDBNItDoesnTMeet_Text" xml:space="preserve">
+    <value>无法显示 PDB 的内容。
+它不符合规范{0}({1})。</value>
+  </data>
+  <data name="CollectingAssembliesFrom__Text" xml:space="preserve">
+    <value>正在从 {0} 收集程序集</value>
+  </data>
+  <data name="ILViewerToolWindowSettingsSettingDescription" xml:space="preserve">
+    <value>IL Viewer 工具窗口设置</value>
+  </data>
+  <data name="UseSourcesFromSymbolFilesWhenAvailable_BoolOption_Text" xml:space="preserve">
+    <value>尽可能使用符号文件中的源代码</value>
+  </data>
+  <data name="AutomaticallyScrollToSourceActionText" xml:space="preserve">
+    <value>自动滚动到源代码</value>
+  </data>
+  <data name="DoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+    <value>不包含任何调试目录</value>
+  </data>
+  <data name="ProjectItemNavigation_Caption" xml:space="preserve">
+    <value>项目条目导航</value>
+  </data>
+  <data name="AllFiles__Text" xml:space="preserve">
+    <value>所有文件({0})</value>
+  </data>
+  <data name="HistoryXMLSettingDescription" xml:space="preserve">
+    <value>历史 XML</value>
+  </data>
+  <data name="MetadataViewActionText" xml:space="preserve">
+    <value>元数据视图</value>
+  </data>
+  <data name="SymbolFiles__Text" xml:space="preserve">
+    <value>符号文件({0})</value>
+  </data>
+  <data name="ShowCodeGeneratedByCompilerSettingDescription" xml:space="preserve">
+    <value>显示编译器生成的代码</value>
+  </data>
+</root>

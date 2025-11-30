@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CollapseShortMultiRowValues_Text" xml:space="preserve">
+    <value>收起短的多行值</value>
+  </data>
+  <data name="RoutineStatement_Text" xml:space="preserve">
+    <value>例程语句</value>
+  </data>
+  <data name="IndentENDIF_Text" xml:space="preserve">
+    <value>缩进 END IF</value>
+  </data>
+  <data name="Columns_Text" xml:space="preserve">
+    <value>列</value>
+  </data>
+  <data name="ToEnd_Text" xml:space="preserve">
+    <value>至结尾</value>
+  </data>
+  <data name="IndentOptions_Text" xml:space="preserve">
+    <value>缩进选项</value>
+  </data>
+  <data name="ChangeDialectTo_Text" xml:space="preserve">
+    <value>将方言更改为…</value>
+  </data>
+  <data name="AlignLineCommentsAtRightOfElements_Text" xml:space="preserve">
+    <value>将行注释与元素右侧对齐</value>
+  </data>
+  <data name="NewLine_Text" xml:space="preserve">
+    <value>新行</value>
+  </data>
+  <data name="Script_Text" xml:space="preserve">
+    <value>脚本</value>
+  </data>
+  <data name="UseOriginalCase_Text" xml:space="preserve">
+    <value>使用原始大小写</value>
+  </data>
+  <data name="WrappedAligned_Text" xml:space="preserve">
+    <value>换行且对齐</value>
+  </data>
+  <data name="JOINContinuouslyIndented_Text" xml:space="preserve">
+    <value>JOIN 连续缩进</value>
+  </data>
+  <data name="QuotedIdentifiers_Text" xml:space="preserve">
+    <value>带引号的标识符</value>
+  </data>
+  <data name="WrapTHEN_Text" xml:space="preserve">
+    <value>将 THEN 换行</value>
+  </data>
+  <data name="SpacesWithinParentheses_Text" xml:space="preserve">
+    <value>圆括号内的空格</value>
+  </data>
+  <data name="WrappedIndented_Text" xml:space="preserve">
+    <value>换行且缩进</value>
+  </data>
+  <data name="UseAS_Text" xml:space="preserve">
+    <value>使用 AS</value>
+  </data>
+  <data name="PlaceSubquery_Text" xml:space="preserve">
+    <value>放置子查询</value>
+  </data>
+  <data name="INSERTStatementAndVALUESClause_Text" xml:space="preserve">
+    <value>INSERT 语句和 VALUES 子句</value>
+  </data>
+  <data name="WrapTheFirstJOIN_Text" xml:space="preserve">
+    <value>将第一个 JOIN 换行</value>
+  </data>
+  <data name="SELECTClause_Text" xml:space="preserve">
+    <value>SELECT 子句</value>
+  </data>
+  <data name="Routines_Text" xml:space="preserve">
+    <value>例程</value>
+  </data>
+  <data name="SQLNamingSettings_Text" xml:space="preserve">
+    <value>SQL 命名设置</value>
+  </data>
+  <data name="Queries_Text" xml:space="preserve">
+    <value>查询</value>
+  </data>
+  <data name="UPDATEStatement_Text" xml:space="preserve">
+    <value>UPDATE 语句</value>
+  </data>
+  <data name="QueryLanguagesFeatureSuggesterMessageWithLicense" xml:space="preserve">
+    <value>已为您启用 ReSharper 的 SQL 和 NoSQL 支持。
+订阅 dotUltimate 和 All Products Pack，可以不受限制地使用智能代码分析、补全和快速修复。</value>
+  </data>
+  <data name="Aliases_Text" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="SpaceBeforeComma_Text" xml:space="preserve">
+    <value>在逗号前空格</value>
+  </data>
+  <data name="WordCase_Text" xml:space="preserve">
+    <value>单词大小写</value>
+  </data>
+  <data name="WHEREAndHAVINGClauses_Text" xml:space="preserve">
+    <value>WHERE 和 HAVING 子句</value>
+  </data>
+  <data name="NamingStyle_Text" xml:space="preserve">
+    <value>大小写</value>
+  </data>
+  <data name="CodeCleanupTask_StandaloneSqlReformatCode" xml:space="preserve">
+    <value>重新设置 SQL/NoSQL 文件的格式</value>
+  </data>
+  <data name="Expressions_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="PlaceClauseElementsOn_Text" xml:space="preserve">
+    <value>将子句元素置于</value>
+  </data>
+  <data name="WrapInnerCode_Text" xml:space="preserve">
+    <value>将内部代码换行</value>
+  </data>
+  <data name="FROM_Text" xml:space="preserve">
+    <value>FROM</value>
+  </data>
+  <data name="BinaryExpression_Text" xml:space="preserve">
+    <value>二元表达式</value>
+  </data>
+  <data name="KeepItemsOnOneLineIf_Text" xml:space="preserve">
+    <value>一行中的最大条目数</value>
+  </data>
+  <data name="OnTheSameLine_Text" xml:space="preserve">
+    <value>在同一行</value>
+  </data>
+  <data name="WrapREFERENCES_Text" xml:space="preserve">
+    <value>将 REFERENCES 换行</value>
+  </data>
+  <data name="WrapAlteringInstructions_Text" xml:space="preserve">
+    <value>将 ALTER 指令换行</value>
+  </data>
+  <data name="SQLNoSQLDefaultLiveTemplates_Text" xml:space="preserve">
+    <value>SQL/NoSQL 默认实时模板</value>
+  </data>
+  <data name="KeepSectionElementUnderSectionHeader_Text" xml:space="preserve">
+    <value>将小节元素保持在小节标题下</value>
+  </data>
+  <data name="ForeignKeys_Text" xml:space="preserve">
+    <value>外键</value>
+  </data>
+  <data name="QueryLanguagesTrialTimerStartedFeatureSuggesterShortDescription" xml:space="preserve">
+    <value>SQL 和 NoSQL 支持试用已开始</value>
+  </data>
+  <data name="NewLineAfterALLDISTINCT_Text" xml:space="preserve">
+    <value>在 ALL、DISTINCT 后换行</value>
+  </data>
+  <data name="PlaceTopLevelANDOR_Text" xml:space="preserve">
+    <value>放置顶层 AND/OR</value>
+  </data>
+  <data name="ToLeftWithIndent_Text" xml:space="preserve">
+    <value>至左侧并且带缩进</value>
+  </data>
+  <data name="PlaceComma_Text" xml:space="preserve">
+    <value>放置逗号</value>
+  </data>
+  <data name="DeclaredVariables_Text" xml:space="preserve">
+    <value>声明的变量</value>
+  </data>
+  <data name="AsIdentifiers_Text" xml:space="preserve">
+    <value>与标识符相同</value>
+  </data>
+  <data name="KeepNewLineAfterTHENELSE_Text" xml:space="preserve">
+    <value>在 THEN、ELSE 后换行</value>
+  </data>
+  <data name="AlignMultiRowVALUESPercentile_Text" xml:space="preserve">
+    <value>对齐多行 VALUES 百分位数</value>
+  </data>
+  <data name="PlaceINTOClauseElementsOn_Text" xml:space="preserve">
+    <value>将 INTO 子句元素置于</value>
+  </data>
+  <data name="WrapEveryStatement_Text" xml:space="preserve">
+    <value>将每条语句换行</value>
+  </data>
+  <data name="AddSpaceBefore_Text" xml:space="preserve">
+    <value>在 `(` 前添加空格</value>
+  </data>
+  <data name="MaximumBlankLinesBetweenDeclarations_Text" xml:space="preserve">
+    <value>声明之间的最大空行数</value>
+  </data>
+  <data name="SpaceWithinParenthesizedSubExpressions_Text" xml:space="preserve">
+    <value>在带圆括号的子表达式内空格</value>
+  </data>
+  <data name="PlaceJOINInJoinOnlyQueriesUnder_Text" xml:space="preserve">
+    <value>将仅联接查询中的 JOIN 放置在以下元素下</value>
+  </data>
+  <data name="No_Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="DDL_Text" xml:space="preserve">
+    <value>DDL</value>
+  </data>
+  <data name="Aligned_Text" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="WrapElements_Text" xml:space="preserve">
+    <value>将元素换行</value>
+  </data>
+  <data name="Unindented_Text" xml:space="preserve">
+    <value>不缩进</value>
+  </data>
+  <data name="Variables_Text" xml:space="preserve">
+    <value>变量</value>
+  </data>
+  <data name="AllDonTBreak_Text" xml:space="preserve">
+    <value>所有(不换行)</value>
+  </data>
+  <data name="SameLine_Text" xml:space="preserve">
+    <value>同一行</value>
+  </data>
+  <data name="DisableInFileWithComment_Text" xml:space="preserve">
+    <value>使用注释在文件中禁用</value>
+  </data>
+  <data name="TableAsUsual_Text" xml:space="preserve">
+    <value>表(如往常)</value>
+  </data>
+  <data name="SqlCommonHighlightingGroup" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="KeepBlankLinesInCode_Text" xml:space="preserve">
+    <value>保留代码中的空行</value>
+  </data>
+  <data name="WrapLOOP_Text" xml:space="preserve">
+    <value>将 LOOP 换行</value>
+  </data>
+  <data name="SameLineAligned_Text" xml:space="preserve">
+    <value>同一行对齐</value>
+  </data>
+  <data name="ToLower_Text" xml:space="preserve">
+    <value>成小写</value>
+  </data>
+  <data name="WrapIfLong_Text" xml:space="preserve">
+    <value>如果长则换行</value>
+  </data>
+  <data name="AlignDefaults_Text" xml:space="preserve">
+    <value>对齐 DEFAULT</value>
+  </data>
+  <data name="WrapCONSTRAINT_Text" xml:space="preserve">
+    <value>将 CONSTRAINT 换行</value>
+  </data>
+  <data name="WrapELSE_Text" xml:space="preserve">
+    <value>将 ELSE 换行</value>
+  </data>
+  <data name="Common_Text" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="BuiltInTypes_Text" xml:space="preserve">
+    <value>内置类型</value>
+  </data>
+  <data name="Schemas_Text" xml:space="preserve">
+    <value>架构</value>
+  </data>
+  <data name="Never_Text" xml:space="preserve">
+    <value>从未</value>
+  </data>
+  <data name="WrapTheNextOption_Text" xml:space="preserve">
+    <value>将下一个选项换行</value>
+  </data>
+  <data name="SQLAndNoSQLSupportTrialEnded_Text" xml:space="preserve">
+    <value>SQL 和 NoSQL 支持试用即将结束</value>
+  </data>
+  <data name="DisableInStatementWithComment_Text" xml:space="preserve">
+    <value>使用注释在语句中禁用</value>
+  </data>
+  <data name="ToTitle_Text" xml:space="preserve">
+    <value>成标题</value>
+  </data>
+  <data name="AlignAlteringInstructions_Text" xml:space="preserve">
+    <value>对齐 ALTER 指令</value>
+  </data>
+  <data name="AlignMultiRowVALUESWithINSERT_Text" xml:space="preserve">
+    <value>将多行 VALUES 与 INSERT 对齐</value>
+  </data>
+  <data name="IndentWHENIfWrapped_Text" xml:space="preserve">
+    <value>如果换行则缩进 WHEN</value>
+  </data>
+  <data name="InTheMiddle_Text" xml:space="preserve">
+    <value>在中间</value>
+  </data>
+  <data name="ToLeft_Text" xml:space="preserve">
+    <value>至左侧</value>
+  </data>
+  <data name="QueryLanguagesFeatureSuggesterMessageNoLicense" xml:space="preserve">
+    <value>ReSharper 的 SQL 和 NoSQL 支持现已为您启用!
+在 30 天内为您的查询尽情使用智能代码分析、补全和快速修复，或者可以订阅 dotUltimate。
+</value>
+  </data>
+  <data name="ChopIfLong_Text" xml:space="preserve">
+    <value>如果长则截断</value>
+  </data>
+  <data name="WrapCascadeAndDeferrability_Text" xml:space="preserve">
+    <value>将 CASCADE 和 DEFERRED 换行</value>
+  </data>
+  <data name="AlignWithWHEN_Text" xml:space="preserve">
+    <value>与 WHEN 对齐</value>
+  </data>
+  <data name="AlignOperandsInBinaryExpressions_Text" xml:space="preserve">
+    <value>对齐二元表达式中的操作数</value>
+  </data>
+  <data name="CREATEOrALTERTABLE_Text" xml:space="preserve">
+    <value>CREATE 或 ALTER TABLE</value>
+  </data>
+  <data name="WrapOptionsAfterClosing_Text" xml:space="preserve">
+    <value>将结束 $$ 后的选项换行</value>
+  </data>
+  <data name="Table_Text" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="FunctionOrProcedureCall_Text" xml:space="preserve">
+    <value>函数或过程调用</value>
+  </data>
+  <data name="SQLAndNoSQLSupportLicenseInformation_Text" xml:space="preserve">
+    <value>SQL 和 NoSQL 支持许可证信息</value>
+  </data>
+  <data name="Functions_Text" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="IndentLOOP_Text" xml:space="preserve">
+    <value>缩进 LOOP</value>
+  </data>
+  <data name="FROMIndented_Text" xml:space="preserve">
+    <value>FROM 缩进</value>
+  </data>
+  <data name="AlignMultiRowVALUESMinimalIncreaseThreshold_Text" xml:space="preserve">
+    <value>对齐多行 VALUES 最小增加阈值</value>
+  </data>
+  <data name="TabsIndentsAlignment_Text" xml:space="preserve">
+    <value>制表符、缩进、对齐</value>
+  </data>
+  <data name="SQLFiles_Text" xml:space="preserve">
+    <value>SQL 文件</value>
+  </data>
+  <data name="PlaceColumnsOrValues_Text" xml:space="preserve">
+    <value>放置列或值</value>
+  </data>
+  <data name="WrapWHEN_Text" xml:space="preserve">
+    <value>将 WHEN 换行</value>
+  </data>
+  <data name="CustomTypes_Text" xml:space="preserve">
+    <value>自定义类型</value>
+  </data>
+  <data name="ImperativeCommons_Text" xml:space="preserve">
+    <value>祈使命令</value>
+  </data>
+  <data name="Tables_Text" xml:space="preserve">
+    <value>表</value>
+  </data>
+  <data name="WrapONUSING_Text" xml:space="preserve">
+    <value>将 ON/USING 换行</value>
+  </data>
+  <data name="IndentENDLOOP_Text" xml:space="preserve">
+    <value>缩进 END LOOP</value>
+  </data>
+  <data name="Remove_Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="AlignSectionElements_Text" xml:space="preserve">
+    <value>对齐小节元素</value>
+  </data>
+  <data name="CollapseShortStatement_Text" xml:space="preserve">
+    <value>收起短语句</value>
+  </data>
+  <data name="UseSpacesAroundOperators_Text" xml:space="preserve">
+    <value>在运算符周围使用空格</value>
+  </data>
+  <data name="SqlFormatSettingsKeyDescription" xml:space="preserve">
+    <value>SQL/NoSQL 中的代码格式设置</value>
+  </data>
+  <data name="AlignAS_Text" xml:space="preserve">
+    <value>对齐 AS</value>
+  </data>
+  <data name="WrapOpening_Text" xml:space="preserve">
+    <value>将起始 $$ 换行</value>
+  </data>
+  <data name="TreatAsteriskAsARegularElement_Text" xml:space="preserve">
+    <value>将星号视为常规元素</value>
+  </data>
+  <data name="Loops_Text" xml:space="preserve">
+    <value>循环</value>
+  </data>
+  <data name="WrappedUnindented_Text" xml:space="preserve">
+    <value>换行且不缩进</value>
+  </data>
+  <data name="AsKeywords_Text" xml:space="preserve">
+    <value>与关键字相同</value>
+  </data>
+  <data name="LatestStatusOfSQLAndNoSQLSupportLicense_Text" xml:space="preserve">
+    <value>SQL 和 NoSQL 支持许可证的最新状态</value>
+  </data>
+  <data name="ShowLicenseInformation_Text" xml:space="preserve">
+    <value>显示许可证信息</value>
+  </data>
+  <data name="ToRight_Text" xml:space="preserve">
+    <value>至右侧</value>
+  </data>
+  <data name="WrapFirstOption_Text" xml:space="preserve">
+    <value>将第一个选项换行</value>
+  </data>
+  <data name="SQLDialectIsNotConfigured_Text" xml:space="preserve">
+    <value>ReSharper SQL 方言未配置。</value>
+  </data>
+  <data name="PlaceINTOOnTheNewLine_Text" xml:space="preserve">
+    <value>将 INTO 置于新行中</value>
+  </data>
+  <data name="AlignASCDESC_Text" xml:space="preserve">
+    <value>对齐 ASC/DESC</value>
+  </data>
+  <data name="AtTheEnd_Text" xml:space="preserve">
+    <value>在末尾</value>
+  </data>
+  <data name="SQLInCStringLiterals_Text" xml:space="preserve">
+    <value>C# 字符串文字中的 SQL</value>
+  </data>
+  <data name="YourTrialPeriodIsEndingConsiderUpgrading_Text" xml:space="preserve">
+    <value>您的试用期即将结束。请考虑升级至 dotUltimate 订阅，
+以继续在各种方言中使用先进的高亮显示、代码补全和快速修复，
+编写更好的 SQL 和 NoSQL。</value>
+  </data>
+  <data name="WrapTheNextJOIN_Text" xml:space="preserve">
+    <value>将下一个 JOIN 换行</value>
+  </data>
+  <data name="SpaceWithinParentheses_Text" xml:space="preserve">
+    <value>在圆括号内空格</value>
+  </data>
+  <data name="JOIN_Text" xml:space="preserve">
+    <value>JOIN</value>
+  </data>
+  <data name="Identifiers_Text" xml:space="preserve">
+    <value>标识符</value>
+  </data>
+  <data name="ExploreDotUltimate_Text" xml:space="preserve">
+    <value>探索 dotUltimate</value>
+  </data>
+  <data name="CollapseShortClause_Text" xml:space="preserve">
+    <value>收起短子句</value>
+  </data>
+  <data name="AlignWithCASE_Text" xml:space="preserve">
+    <value>与 CASE 对齐</value>
+  </data>
+  <data name="AlignTableAliases_Text" xml:space="preserve">
+    <value>对齐表别名</value>
+  </data>
+  <data name="IndentContent_Text" xml:space="preserve">
+    <value>缩进内容</value>
+  </data>
+  <data name="UnderOpening_Text" xml:space="preserve">
+    <value>在左圆括号下</value>
+  </data>
+  <data name="AsInCommon_Text" xml:space="preserve">
+    <value>与通用相同</value>
+  </data>
+  <data name="QueryLanguagesTrialTimerStartedFeatureSuggesterMessage" xml:space="preserve">
+    <value>您的 SQL 和 NoSQL 支持试用已开始。还剩 {0} {1:choice:one#天|other#天}。</value>
+  </data>
+  <data name="MinimumBlankLinesBetweenDeclarations_Text" xml:space="preserve">
+    <value>声明之间的最少空行数</value>
+  </data>
+  <data name="Align_Text" xml:space="preserve">
+    <value>对齐 `=`</value>
+  </data>
+  <data name="ContinuationIndentSizeSettingDescription" xml:space="preserve">
+    <value>连续缩进大小</value>
+  </data>
+  <data name="MatchBest_Text" xml:space="preserve">
+    <value>最{0:choice:one#符合|other#符合}。</value>
+  </data>
+  <data name="AlignExpressions_Text" xml:space="preserve">
+    <value>对齐表达式</value>
+  </data>
+  <data name="WrapColumnsOrValues_Text" xml:space="preserve">
+    <value>将列或值换行</value>
+  </data>
+  <data name="WITHClause_Text" xml:space="preserve">
+    <value>WITH 子句</value>
+  </data>
+  <data name="WrapBeforeClosing_Text" xml:space="preserve">
+    <value>在结束 $$ 前换行</value>
+  </data>
+  <data name="AlignJoinedTables_Text" xml:space="preserve">
+    <value>对齐联接表</value>
+  </data>
+  <data name="choice:mappings" xml:space="preserve">
+    <value>one:i == 1</value>
+  </data>
+  <data name="Yes_Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Auto_Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="GROUPBYAndORDERBYClauses_Text" xml:space="preserve">
+    <value>GROUP BY 和 ORDER BY 子句</value>
+  </data>
+  <data name="InAppropriateSQLNoSQLContext_Text" xml:space="preserve">
+    <value>在合适的 SQL/NoSQL 上下文中(由 ReSharper 控制)</value>
+  </data>
+  <data name="WrapKEYCHECK_Text" xml:space="preserve">
+    <value>将 KEY/CHECK 换行</value>
+  </data>
+  <data name="ToBegin_Text" xml:space="preserve">
+    <value>至开头</value>
+  </data>
+  <data name="WrapTheContentAfterOpening_Text" xml:space="preserve">
+    <value>将起始 $$ 后的内容换行</value>
+  </data>
+  <data name="SpaceAfterComma_Text" xml:space="preserve">
+    <value>在逗号后空格</value>
+  </data>
+  <data name="CASEClause_Text" xml:space="preserve">
+    <value>CASE 子句</value>
+  </data>
+  <data name="DoNotChange_Text" xml:space="preserve">
+    <value>不更改</value>
+  </data>
+  <data name="SuitableSQLCode_Text" xml:space="preserve">
+    <value>合适的 SQL 代码</value>
+  </data>
+  <data name="UnderElements_Text" xml:space="preserve">
+    <value>在元素下</value>
+  </data>
+  <data name="AlignTheFirstWordOfClause_Text" xml:space="preserve">
+    <value>对齐子句的第一个单词</value>
+  </data>
+  <data name="SubqueriesOnly_Text" xml:space="preserve">
+    <value>仅子查询</value>
+  </data>
+  <data name="CommandsFollowByBlankLines_Text" xml:space="preserve">
+    <value>在命令后添加空行</value>
+  </data>
+  <data name="RoutineArguments_Text" xml:space="preserve">
+    <value>例程实参</value>
+  </data>
+  <data name="AlignNullabilities_Text" xml:space="preserve">
+    <value>对齐为 null 性</value>
+  </data>
+  <data name="Subquery_Text" xml:space="preserve">
+    <value>子查询</value>
+  </data>
+  <data name="AddAlways_Text" xml:space="preserve">
+    <value>始终添加</value>
+  </data>
+  <data name="SQLSupportTrialFailedToStartRecently_Text" xml:space="preserve">
+    <value>对 SQL 支持的试用最近未能开始</value>
+  </data>
+  <data name="PlaceElements_Text" xml:space="preserve">
+    <value>放置元素</value>
+  </data>
+  <data name="BuiltInFunctions_Text" xml:space="preserve">
+    <value>内置函数</value>
+  </data>
+  <data name="IndentAlteringInstructions_Text" xml:space="preserve">
+    <value>缩进 ALTER 指令</value>
+  </data>
+  <data name="PlaceClosingParenthesis_Text" xml:space="preserve">
+    <value>放置右圆括号</value>
+  </data>
+  <data name="PlaceONUSINGUnder_Text" xml:space="preserve">
+    <value>将 ON/USING 置于以下元素下</value>
+  </data>
+  <data name="JOINIndented_Text" xml:space="preserve">
+    <value>JOIN 缩进</value>
+  </data>
+  <data name="FROMClause_Text" xml:space="preserve">
+    <value>FROM 子句</value>
+  </data>
+  <data name="IndentTHENAndELSE_Text" xml:space="preserve">
+    <value>缩进 THEN 和 ELSE</value>
+  </data>
+  <data name="AlignEnd_Text" xml:space="preserve">
+    <value>对齐 END</value>
+  </data>
+  <data name="AlignAssignments_Text" xml:space="preserve">
+    <value>对齐赋值</value>
+  </data>
+  <data name="InjectsSQLInCStringLiteralsWhenAString_Text" xml:space="preserve">
+    <value>当字符串类似于 SQL 语句时，在 C# 字符串文字中注入 SQL</value>
+  </data>
+  <data name="CodeCleanupTask_InjectedSqlReformatCode" xml:space="preserve">
+    <value>重新设置注入的 SQL/NoSQL 的格式</value>
+  </data>
+  <data name="WrapAS_Text" xml:space="preserve">
+    <value>将 AS 换行</value>
+  </data>
+  <data name="Views_Text" xml:space="preserve">
+    <value>视图</value>
+  </data>
+  <data name="TableIndented_Text" xml:space="preserve">
+    <value>表缩进</value>
+  </data>
+  <data name="IndentAlteredItems_Text" xml:space="preserve">
+    <value>缩进 ALTER 对象条目</value>
+  </data>
+  <data name="WrapAlteredItems_Text" xml:space="preserve">
+    <value>将 ALTER 对象条目换行</value>
+  </data>
+  <data name="Indented_Text" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="AlignTypes_Text" xml:space="preserve">
+    <value>对齐类型</value>
+  </data>
+  <data name="AlignMultiRowVALUES_Text" xml:space="preserve">
+    <value>对齐多行 VALUES</value>
+  </data>
+  <data name="WarpCommandEndingSemicolon_Text" xml:space="preserve">
+    <value>将命令结束分号换行</value>
+  </data>
+  <data name="QueryLanguagesFeatureSuggesterShortDescription" xml:space="preserve">
+    <value>ReSharper 提供 SQL 和 NoSQL 支持</value>
+  </data>
+  <data name="Cortege_Text" xml:space="preserve">
+    <value>元组</value>
+  </data>
+  <data name="Code_Text" xml:space="preserve">
+    <value>代码</value>
+  </data>
+  <data name="DatabaseLanguageComboBoxToolTip" xml:space="preserve">
+    <value>此文件的 SQL 方言</value>
+  </data>
+  <data name="Keys_Text" xml:space="preserve">
+    <value>键</value>
+  </data>
+  <data name="PlaceVALUESClauseElementsRowsOn_Text" xml:space="preserve">
+    <value>将 VALUES 子句元素(行)置于</value>
+  </data>
+  <data name="Keywords_Text" xml:space="preserve">
+    <value>关键字</value>
+  </data>
+  <data name="ReSharperSSQLAndNoSQLSupportIsIncluded_Text" xml:space="preserve">
+    <value>ReSharper 的 SQL 和 NoSQL 支持已包含在您的订阅中。
+您尝试过吗? 我们很想听听您的想法。</value>
+  </data>
+  <data name="IndentJOIN_Text" xml:space="preserve">
+    <value>缩进 JOIN</value>
+  </data>
+  <data name="AlignAlteredItems_Text" xml:space="preserve">
+    <value>对齐 ALTER 对象条目</value>
+  </data>
+  <data name="PlaceTheOpeningParenthesis_Text" xml:space="preserve">
+    <value>放置左圆括号</value>
+  </data>
+  <data name="ReSharperIsRequiredToEnableSQLAndNoSQL_Text" xml:space="preserve">
+    <value>启用 SQL 和 NoSQL 支持需要 ReSharper</value>
+  </data>
+  <data name="Chop_Text" xml:space="preserve">
+    <value>截断</value>
+  </data>
+  <data name="CollapseWhenShort_Text" xml:space="preserve">
+    <value>短时收起</value>
+  </data>
+  <data name="WrapSection_Text" xml:space="preserve">
+    <value>将小节换行</value>
+  </data>
+  <data name="InAnySQLFile_Text" xml:space="preserve">
+    <value>在任何 SQL 文件中</value>
+  </data>
+  <data name="Templates_Text" xml:space="preserve">
+    <value>模板</value>
+  </data>
+  <data name="AlignMultiRowVALUESBreakThreshold_Text" xml:space="preserve">
+    <value>对齐多行 VALUES 换行阈值</value>
+  </data>
+  <data name="Always_Text" xml:space="preserve">
+    <value>始终</value>
+  </data>
+  <data name="AlignELSEUnderTHENWhenTHENAligned_Text" xml:space="preserve">
+    <value>当 THEN 对齐后，在 THEN 下对齐 ELSE</value>
+  </data>
+  <data name="WrapTheBeginningOfTheQuery_Text" xml:space="preserve">
+    <value>将查询的开头换行</value>
+  </data>
+  <data name="SpaceAfterKeyword_Text" xml:space="preserve">
+    <value>关键字后的空格</value>
+  </data>
+  <data name="PlaceElementsOn_Text" xml:space="preserve">
+    <value>将元素置于</value>
+  </data>
+  <data name="ToUpper_Text" xml:space="preserve">
+    <value>成大写</value>
+  </data>
+  <data name="SQLAndNoSQLSupportTrialFailedToStart_Text" xml:space="preserve">
+    <value>SQL 和 NoSQL 支持试用未能开始。</value>
+  </data>
+  <data name="AlignOptions_Text" xml:space="preserve">
+    <value>对齐选项</value>
+  </data>
+  <data name="AlignTHEN_Text" xml:space="preserve">
+    <value>对齐 THEN</value>
+  </data>
+  <data name="FormattingStyle_Text" xml:space="preserve">
+    <value>格式设置样式</value>
+  </data>
+  <data name="PostfixOptions_Text" xml:space="preserve">
+    <value>后缀选项</value>
+  </data>
+  <data name="WrapVariables_Text" xml:space="preserve">
+    <value>将变量换行</value>
+  </data>
+  <data name="IndentQuery_Text" xml:space="preserve">
+    <value>缩进查询</value>
+  </data>
+  <data name="PlaceCommaToBegin_Text" xml:space="preserve">
+    <value>将逗号置于开头</value>
+  </data>
+</root>

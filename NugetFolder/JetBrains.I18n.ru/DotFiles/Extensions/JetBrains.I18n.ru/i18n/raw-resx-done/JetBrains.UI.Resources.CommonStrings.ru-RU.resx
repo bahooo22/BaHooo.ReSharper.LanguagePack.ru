@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="_ForOpenSourceProjects_Text" xml:space="preserve">
+  <value>Для проектов с открытым исходным кодом {0}</value>
+</data>
+<data name="Dismiss_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="IdeAuthorizationToken_Text" xml:space="preserve">
+  <value>Токен аутентификации IDE</value>
+</data>
+<data name="SortInfoSettingDescription" xml:space="preserve">
+  <value>Информация о сортировке</value>
+</data>
+<data name="User_LoggedIn_Text" xml:space="preserve">
+  <value>{0} вошел в систему</value>
+</data>
+<data name="BugReportActionText" xml:space="preserve">
+  <value>Отчет об ошибке</value>
+</data>
+<data name="Authenticate_Text" xml:space="preserve">
+  <value>Аутентификация</value>
+</data>
+<data name="HasBeenUpdated_Text" xml:space="preserve">
+  <value>Был обновлен</value>
+</data>
+<data name="ClearAllActionText" xml:space="preserve">
+  <value>Очистить все</value>
+</data>
+<data name="Feedback_GeneralStatisticsNumberOfFilesFileTypes_Text_Text" xml:space="preserve">
+  <value>  * Общая статистика по решению, над которым вы работаете (количество файлов, типы файлов)</value>
+</data>
+<data name="TextFiles_Text" xml:space="preserve">
+  <value>Текстовые файлы</value>
+</data>
+<data name="NavigateTo_Text" xml:space="preserve">
+  <value>Перейти к:</value>
+</data>
+<data name="UseLicenseServer_Text" xml:space="preserve">
+  <value>Использовать сервер лицензий:</value>
+</data>
+<data name="ReadTheEntireDocumentToEnableTheButton_Text" xml:space="preserve">
+  <value>Прочтите весь документ, чтобы активировать кнопку</value>
+</data>
+<data name="ShowLog_Text" xml:space="preserve">
+  <value>Показать журнал</value>
+</data>
+<data name="PauseTrial_Text" xml:space="preserve">
+  <value>Приостановить пробную версию</value>
+</data>
+<data name="UpdatesManagerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки менеджера обновлений</value>
+</data>
+<data name="ResumeTrial_Text" xml:space="preserve">
+  <value>Возобновить пробную версию</value>
+</data>
+<data name="LoginToJBAccountFailed" xml:space="preserve">
+  <value>Не удалось войти в JetBrains Account</value>
+</data>
+<data name="Cancel" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="InvalidLicenseKey_Text" xml:space="preserve">
+  <value>Неверный ключ лицензии</value>
+</data>
+<data name="I_Reject_Text" xml:space="preserve">
+  <value>Я отказываюсь</value>
+</data>
+<data name="NotLoggedIn_Text" xml:space="preserve">
+  <value>Не вошел в систему</value>
+</data>
+<data name="Print_Text" xml:space="preserve">
+  <value>Печать</value>
+</data>
+<data name="LogIn_Text" xml:space="preserve">
+  <value>Войти</value>
+</data>
+<data name="DataValid_Text" xml:space="preserve">
+  <value>Данные действительны</value>
+</data>
+<data name="ErrorConnectingToTheServer_Text" xml:space="preserve">
+  <value>Ошибка подключения к серверу</value>
+</data>
+<data name="Feedback_GeneralInformationAboutYourHardware_Text_Text" xml:space="preserve">
+  <value>  * Общая информация о вашем оборудовании (например, объем ОЗУ, скорость и количество ядер ЦП)</value>
+</data>
+<data name="NoLicensesUsed_Text" xml:space="preserve">
+  <value>Лицензии не используются</value>
+</data>
+<data name="LicensedTo_Text " xml:space="preserve">
+  <value>Лицензировано для {0}</value>
+</data>
+<data name="LastUpdateCheckPerHostSettingDescription" xml:space="preserve">
+  <value>Последняя проверка обновлений для каждого хоста</value>
+</data>
+<data name="DismissAllNotifications_Text" xml:space="preserve">
+  <value>Закрыть все уведомления</value>
+</data>
+<data name="RequestPermanent_Text" xml:space="preserve">
+  <value>Запросить постоянную лицензию</value>
+</data>
+<data name="AnnotationNamespacesSettingDescription" xml:space="preserve">
+  <value>Пространства имен аннотаций</value>
+</data>
+<data name="Feedback_AnyPersonallyIdentifiableInformation_Text_Text" xml:space="preserve">
+  <value>  * Любая личная информация (например, имя пользователя, лицензия, логин YouTrack/JIRA, электронная почта и т.д.)</value>
+</data>
+<data name="SendLogsConsent_Text_Text" xml:space="preserve">
+  <value>Отправить логи в JetBrains?
+
+Нажимая «Да», вы соглашаетесь отправить логи ReSharper для общения со службой поддержки JetBrains. Логи могут содержать приватную информацию, такую как системные сведения и информация о проектах, открытых в IDE.
+
+Если вы не отправите логи, мы, возможно, не сможем помочь с вашей проблемой. В качестве альтернативы вы можете проверить файлы логов и вручную прикрепить их как вложение.</value>
+</data>
+<data name="Feedback_DoNotAskMeAboutThisAtStartup_BoolOption_Text" xml:space="preserve">
+  <value>Не спрашивать об этом при запуске</value>
+</data>
+<data name="UnknownProduct_Text" xml:space="preserve">
+  <value>Неизвестный продукт</value>
+</data>
+<data name="WhetherToDownloadTheDataForNewUpdatesSettingDescription" xml:space="preserve">
+  <value>Загружать ли данные для новых обновлений</value>
+</data>
+<data name="LoggedIn_Text" xml:space="preserve">
+  <value>Вы вошли в систему</value>
+</data>
+<data name="Options_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="MustBeAccepted_Text" xml:space="preserve">
+  <value>Должен быть принят</value>
+</data>
+<data name="AddNewLicenseServer_Text" xml:space="preserve">
+  <value>Добавить новый сервер лицензий</value>
+</data>
+<data name="DetectAutomatically_Text" xml:space="preserve">
+  <value>Определять автоматически</value>
+</data>
+<data name="Feedback_InformationAboutWhichProductFeatures_Text_Text" xml:space="preserve">
+  <value>  * Информация о том, какими функциями продукта вы пользуетесь</value>
+</data>
+<data name="SendLogsConsent_Caption_Text" xml:space="preserve">
+  <value>Загрузить логи</value>
+</data>
+<data name="InvalidEmail_Text" xml:space="preserve">
+  <value>Неверный адрес электронной почты</value>
+</data>
+<data name="GoToJetBrainsWebSiteForPricingInfo_Text" xml:space="preserve">
+  <value>Перейти на сайт JetBrains для получения информации о ценах</value>
+</data>
+<data name="ReadTheEntireDocumentToContinue_Text" xml:space="preserve">
+  <value>Прочтите весь документ, чтобы продолжить</value>
+</data>
+<data name="ExceptionActionText" xml:space="preserve">
+  <value>Исключение</value>
+</data>
+<data name="Feedback_ProductFeedbackOptionPageTitle" xml:space="preserve">
+  <value>Статистика использования</value>
+</data>
+<data name="NoSuitableLicenseFound_Text" xml:space="preserve">
+  <value>Подходящая лицензия не найдена</value>
+</data>
+<data name="DisabledByDefault_Text" xml:space="preserve">
+  <value>Отключено по умолчанию</value>
+</data>
+<data name="Ok_small_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="WelcomeToEAP_Text" xml:space="preserve">
+  <value>Добро пожаловать в EAP {0}</value>
+</data>
+<data name="EnterLicenseFromConflictDialog_Text" xml:space="preserve">
+  <value>Введите лицензию из диалога конфликта</value>
+</data>
+<data name="CancelAuthorization_Text" xml:space="preserve">
+  <value>Отменить аутентификацию</value>
+</data>
+<data name="SkipTheUpdates__Text" xml:space="preserve">
+  <value>Пропустить обновления</value>
+</data>
+<data name="Feedback_IfYouAgreeToParticipateInTheProgram_Text_Text" xml:space="preserve">
+  <value>Если вы согласны участвовать в программе, будет анонимно отправлена следующая информация:</value>
+</data>
+<data name="Connecting_Text" xml:space="preserve">
+  <value>Подключение…</value>
+</data>
+<data name="NoLicenseServer_Text" xml:space="preserve">
+  <value>Нет сервера лицензий</value>
+</data>
+<data name="CheckForUpdatesActionText" xml:space="preserve">
+  <value>Проверить обновления…</value>
+</data>
+<data name="ShowItemInExplorer_Text" xml:space="preserve">
+  <value>Показать {0} в проводнике</value>
+</data>
+<data name="Feedback_ParticipatingInThisProgramWillHelpUs_Text_Text" xml:space="preserve">
+  <value>Участие в этой программе поможет нам лучше определить наиболее и наименее используемые функции, а также конфигурации использования продукта.</value>
+</data>
+<data name="LastNameCannotBeEmpty_Text" xml:space="preserve">
+  <value>Фамилия не может быть пустой</value>
+</data>
+<data name="__Change_WillBeLostUnlessApplied_Text" xml:space="preserve">
+  <value>Изменения {0} {1} будут потеряны, если не применить</value>
+</data>
+<data name="Unknown_Text" xml:space="preserve">
+  <value>Неизвестно</value>
+</data>
+<data name="PauseEAP_Text" xml:space="preserve">
+  <value>Приостановить EAP</value>
+</data>
+<data name="ProblemReportActionText" xml:space="preserve">
+  <value>Отчет о проблеме</value>
+</data>
+<data name="Feedback_YouCanSubmitAnonymousUsageStatistics_Text_Text" xml:space="preserve">
+  <value>Вы можете отправлять анонимную статистику использования, чтобы помочь нам создавать лучшие версии и оптимизировать наиболее важные области продукта.</value>
+</data>
+<data name="LoginFailed_State_Text" xml:space="preserve">
+  <value>Ошибка входа. {0}</value>
+</data>
+<data name="Feedback_AnyInformationIdentifyingYourProjects_Text_Text" xml:space="preserve">
+  <value>  * Любая информация, идентифицирующая ваши проекты (например, имена файлов и проектов, символы, исходный код)</value>
+</data>
+<data name="SkipTheUpdate__Text" xml:space="preserve">
+  <value>Пропустить обновление</value>
+</data>
+<data name="StartTrialOf__Text" xml:space="preserve">
+  <value>Начать пробную версию {0}</value>
+</data>
+<data name="ReSharperXXxWillExpireIn10Days_Text" xml:space="preserve">
+  <value>ReSharper x.xx истечет через 10 дней.</value>
+</data>
+<data name="UseLicenseKeys2_Text" xml:space="preserve">
+  <value>Использовать ключи лицензий:</value>
+</data>
+<data name="Apply_Text" xml:space="preserve">
+  <value>Применить</value>
+</data>
+<data name="ReportABugActionText" xml:space="preserve">
+  <value>Сообщить об ошибке…</value>
+</data>
+<data name="SubmitFeedbackActionText" xml:space="preserve">
+  <value>Отправить отзыв…</value>
+</data>
+<data name="Feedback_PleaseHelpUsImproveOurProducts_Header_Text" xml:space="preserve">
+  <value>Пожалуйста, помогите нам улучшить наши продукты</value>
+</data>
+<data name="NoJBAccountConfigured" xml:space="preserve">
+  <value>JetBrains Account не настроен</value>
+</data>
+<data name="TheLicenseIsAlreadyAdded_Text" xml:space="preserve">
+  <value>Лицензия уже была добавлена ранее</value>
+</data>
+<data name="LogInWithJetBrainsAccount_Text" xml:space="preserve">
+  <value>Войти с помощью JetBrains Account</value>
+</data>
+<data name="StartTrial_Text" xml:space="preserve">
+  <value>Начать пробный период</value>
+</data>
+<data name="LastUpdateCheckSettingDescription" xml:space="preserve">
+  <value>Последняя проверка обновлений</value>
+</data>
+<data name="ConnectionError_Text" xml:space="preserve">
+  <value>Ошибка соединения</value>
+</data>
+<data name="GlobalThrowExceptionActionText" xml:space="preserve">
+  <value>Глобальное исключение</value>
+</data>
+<data name="ShowDetails_Text" xml:space="preserve">
+  <value>Показать подробности…</value>
+</data>
+<data name="JoinLinesIfTheMessageContainsMultipleLinesSettingDescription" xml:space="preserve">
+  <value>Объединять строки, если сообщение содержит несколько строк</value>
+</data>
+<data name="AboutLicenseServer_Text" xml:space="preserve">
+  <value>О сервере лицензий</value>
+</data>
+<data name="ToInstall_LaterUse_Text" xml:space="preserve">
+  <value>Чтобы установить {0} позже, используйте: </value>
+</data>
+<data name="ProductsUpdatesNotifications_Header_Plural" xml:space="preserve">
+  <value>Доступны следующие обновления</value>
+</data>
+<data name="LeaveTheFieldEmptyIfTheLicenseIssued_Text" xml:space="preserve">
+  <value>Оставьте поле пустым, если лицензия выдана после {0}</value>
+</data>
+<data name="AboutJetBrainsProductLicenses_Text" xml:space="preserve">
+  <value>О лицензиях на продукты JetBrains</value>
+</data>
+<data name="Close" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="LicenseKeyCannotBeEmpty_Text" xml:space="preserve">
+  <value>Ключ лицензии не может быть пустым</value>
+</data>
+<data name="ContactSupportActionText" xml:space="preserve">
+  <value>Связаться со службой поддержки…</value>
+</data>
+<data name="Print" xml:space="preserve">
+  <value>Печать</value>
+</data>
+<data name="LoggingIn_Text" xml:space="preserve">
+  <value>Выполняется вход</value>
+</data>
+<data name="LicenseServer_Text" xml:space="preserve">
+  <value>Сервер лицензий</value>
+</data>
+<data name="LogOut_Text" xml:space="preserve">
+  <value>Выйти</value>
+</data>
+<data name="LoginFailed_Text" xml:space="preserve">
+  <value>Ошибка входа</value>
+</data>
+<data name="Purchase_Text" xml:space="preserve">
+  <value>Приобрести</value>
+</data>
+<data name="RetrievingTrialLicense" xml:space="preserve">
+  <value>Получение пробной лицензии</value>
+</data>
+<data name="LogInToObtainEvaluationLicense" xml:space="preserve">
+  <value>Войдите, чтобы получить оценочную лицензию</value>
+</data>
+<data name="ShowInExplorer_Text" xml:space="preserve">
+  <value>Показать в проводнике</value>
+</data>
+<data name="ProductWebPageActionText" xml:space="preserve">
+  <value>Веб-страница продукта</value>
+</data>
+<data name="AuthorizeWith_0_Text" xml:space="preserve">
+  <value>Аутентифицироваться с помощью {0}</value>
+</data>
+<data name="CheckingLicense_Text" xml:space="preserve">
+  <value>Проверка лицензии…</value>
+</data>
+<data name="_TotalNotifications_ToolTip" xml:space="preserve">
+  <value>Всего уведомлений: {0}</value>
+</data>
+<data name="ButtonViewInBrowser" xml:space="preserve">
+  <value>Посмотреть в браузере</value>
+</data>
+<data name="AddNewLicense_Text" xml:space="preserve">
+  <value>Добавить новую лицензию</value>
+</data>
+<data name="NotificationsLog_Text" xml:space="preserve">
+  <value>Журнал уведомлений</value>
+</data>
+<data name="FirstNameCannotBeEmpty_Text" xml:space="preserve">
+  <value>Имя не может быть пустым</value>
+</data>
+<data name="Feedback_WeWILLNOTSend_Text_Text" xml:space="preserve">
+  <value>Мы НЕ будем отправлять:</value>
+</data>
+<data name="IncorrectAddress_Text" xml:space="preserve">
+  <value>Неверный адрес</value>
+</data>
+<data name="ThankYou_Text" xml:space="preserve">
+  <value>Спасибо!</value>
+</data>
+<data name="FetchingTrialLicense" xml:space="preserve">
+  <value>Получение пробной лицензии</value>
+</data>
+<data name="ReSharper_Text" xml:space="preserve">
+  <value>ReSharper</value>
+</data>
+<data name="GetStarted_Text" xml:space="preserve">
+  <value>Начать</value>
+</data>
+<data name="ShowRecentExceptionsActionText" xml:space="preserve">
+  <value>Показать последние исключения</value>
+</data>
+<data name="LogIntoJetBrainsAccount_Text" xml:space="preserve">
+  <value>Войти в JetBrains Account</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="ReadLicenseKeyFromFile_Caption" xml:space="preserve">
+  <value>Прочитать ключ лицензии из файла</value>
+</data>
+<data name="TrialLicenseReceived_Text" xml:space="preserve">
+  <value>Пробная лицензия получена</value>
+</data>
+<data name="AboutEAP_Text" xml:space="preserve">
+  <value>О EAP</value>
+</data>
+<data name="DismissedProductsAndVersions" xml:space="preserve">
+  <value>Игнорируемые продукты и версии</value>
+</data>
+<data name="CouldNotInitializeTheBasicException_Text" xml:space="preserve">
+  <value>Не удалось инициализировать базовую службу отчетов об исключениях. Сбои запуска не будут сообщаться.
+
+{0}</value>
+</data>
+<data name="AuthorizeInWebBrowser_Text" xml:space="preserve">
+  <value>Аутентификация в веб-браузере.
+Если браузер не открылся автоматически, откройте его и вставьте ссылку из буфера обмена для аутентификации.
+Затем скопируйте код из браузера в поле ниже.</value>
+</data>
+<data name="CannotConnect_Text" xml:space="preserve">
+  <value>Не удается подключиться</value>
+</data>
+<data name="RetryAuthorization_Text" xml:space="preserve">
+  <value>Повторить аутентификацию</value>
+</data>
+<data name="DuplicateLicense_Text" xml:space="preserve">
+  <value>Дубликат лицензии</value>
+</data>
+<data name="NoLicenseKeyStored_Text" xml:space="preserve">
+  <value>На этом компьютере не сохранен ключ лицензии</value>
+</data>
+<data name="ExchangingKey_Text" xml:space="preserve">
+  <value>Обмен ключами…</value>
+</data>
+<data name="ClearSelectionActionText" xml:space="preserve">
+  <value>Очистить выделение</value>
+</data>
+<data name="PerformanceReportActionText" xml:space="preserve">
+  <value>Отчет о производительности</value>
+</data>
+<data name="AboutJetBrainsAccount_Text" xml:space="preserve">
+  <value>О JetBrains Account</value>
+</data>
+<data name="CannotRunUpdatesChecker_Caption" xml:space="preserve">
+  <value>Не удается запустить проверку обновлений</value>
+</data>
+<data name="LicenseKeyIsInvalid_Text" xml:space="preserve">
+  <value>Ключ лицензии недействителен</value>
+</data>
+<data name="OK_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="SendLogsConsent_FailedToCollectOrUploadLogs_Text" xml:space="preserve">
+  <value>Не удалось собрать или загрузить логи.
+Пожалуйста, вручную прикрепите файлы логов к проблеме.</value>
+</data>
+<data name="InvalidLicenseServer_Text" xml:space="preserve">
+  <value>Неверный сервер лицензий</value>
+</data>
+<data name="FetchingLicenseInformation_Text" xml:space="preserve">
+  <value>Получение информации о лицензии</value>
+</data>
+<data name="Authorize_Text" xml:space="preserve">
+  <value>Аутентифицировать</value>
+</data>
+<data name="Feedback_ParticipateAnonymouslyInTheFeedback_BoolOption_Text" xml:space="preserve">
+  <value>Участвовать анонимно в программе сбора статистики использования</value>
+</data>
+<data name="GoToJetBrainsAccountForLicenseRenewal_Text" xml:space="preserve">
+  <value>Перейти в JetBrains Account для получения вариантов продления лицензии</value>
+</data>
+<data name="Till__Text" xml:space="preserve">
+  <value>Действительно до {0}</value>
+</data>
+<data name="InstallationSeemsToBeBrokenPleaseGo_Text" xml:space="preserve">
+  <value>Установка, похоже, повреждена. Перейдите на jetbrains.com, чтобы загрузить и переустановить это приложение.</value>
+</data>
+<data name="RetryStartTrialOf__Text" xml:space="preserve">
+  <value>Повторить попытку начала пробной версии {0}</value>
+</data>
+<data name="UseJBAccount_Text" xml:space="preserve">
+  <value>Использовать JB Account:</value>
+</data>
+<data name="Feedback_CollectingThisInformationWillNotAffect_Text_Text" xml:space="preserve">
+  <value>Сбор этой информации не повлияет на производительность.</value>
+</data>
+<data name="EmailCannotBeEmpty_Text" xml:space="preserve">
+  <value>Адрес электронной почты не может быть пустым</value>
+</data>
+<data name="I_Accept_Text" xml:space="preserve">
+  <value>Я принимаю</value>
+</data>
+<data name="CopySelectionActionText" xml:space="preserve">
+  <value>Копировать выделение</value>
+</data>
+<data name="ParticipateInEAPSettingDescription" xml:space="preserve">
+  <value>Участвовать в EAP</value>
+</data>
+<data name="TheLicenseServerIsAlreadyAdded_Text" xml:space="preserve">
+  <value>Сервер лицензий уже был добавлен ранее</value>
+</data>
+<data name="Feedback_GeneralInformationAboutYourSoftware_Text_Text" xml:space="preserve">
+  <value>  * Общая информация о вашем программном обеспечении (например, версия ОС)</value>
+</data>
+<data name="GoToJetBrainsWebSiteToDownload__Text" xml:space="preserve">
+  <value>Перейти на сайт JetBrains, чтобы загрузить {0}</value>
+</data>
+<data name="ResumeEAP_Text" xml:space="preserve">
+  <value>Возобновить EAP</value>
+</data>
+<data name="NotificationsLogSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки журнала уведомлений</value>
+</data>
+<data name="NetworkError" xml:space="preserve">
+  <value>Сетевая ошибка</value>
+</data>
+<data name="And_MoreShowLog_Text" xml:space="preserve">
+  <value>и еще {0}. Показать журнал</value>
+</data>
+<data name="AvailableAssets_Text" xml:space="preserve">
+  <value>Доступные ресурсы:</value>
+</data>
+<data name="NotificationsLogActionText" xml:space="preserve">
+  <value>Журнал уведомлений</value>
+</data>
+<data name="LoggingOnDotDotDot_Text" xml:space="preserve">
+  <value>Вход в систему…</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="___WillBeRemovedPermanently_Text" xml:space="preserve">
+  <value>{0} {1}{2} будет удален навсегда</value>
+</data>
+<data name="StartEAP_Text" xml:space="preserve">
+  <value>Начать EAP</value>
+</data>
+<data name="ManageLicenseKeys_Text" xml:space="preserve">
+  <value>Управление ключами лицензий</value>
+</data>
+<data name="ManageLicenseServers_Text" xml:space="preserve">
+  <value>Управление серверами лицензий</value>
+</data>
+<data name="AccountLoginFailed_Text" xml:space="preserve">
+  <value>Ошибка входа в Account</value>
+</data>
+<data name="ReportABugOrSubmitFeedbackActionText" xml:space="preserve">
+  <value>Сообщить об ошибке или отправить отзыв…</value>
+</data>
+<data name="CouldNotViewInBrowser" xml:space="preserve">
+  <value>Не удалось просмотреть документ в браузере.</value>
+</data>
+</root>

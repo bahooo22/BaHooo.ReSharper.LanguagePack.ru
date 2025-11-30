@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="UnityProfilerSnapshot_Multiple_Method_Highlighting_moreinfo" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [最低: {2:F2}，最高: {3:F2}，平均: {4:F2}] ({5})在此帧中调用 {6} 次</value>
+  </data>
+  <data name="MakeSureRider_IsSetAsTheExternalEditor_Text" xml:space="preserve">
+    <value>请确保在 Unity 偏好设置中将 Rider {0} 设置为外部编辑器。</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Fetching_Profiler_snapshot_description" xml:space="preserve">
+    <value>帧索引:{0}，{1}</value>
+  </data>
+  <data name="UnityFileLayoutPageTab_Create_Load_patterns_" xml:space="preserve">
+    <value>加载模式:</value>
+  </data>
+  <data name="UnityFileLayoutPageTab_Create_Default_with_regions" xml:space="preserve">
+    <value>带区域的默认值</value>
+  </data>
+  <data name="RiderTypeDetector_AddScriptUsagesHighlighting_Assets_usages" xml:space="preserve">
+    <value>资源用法</value>
+  </data>
+  <data name="RiderFieldDetector_AddMonoBehaviourHighlighting_Inspector_values_are_not_available_during_asset_indexing" xml:space="preserve">
+    <value>资源索引期间，检查器值不可用</value>
+  </data>
+  <data name="UnityIsNotRunning_Text" xml:space="preserve">
+    <value>Unity 未运行</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_Unchanged" xml:space="preserve">
+    <value>未更改</value>
+  </data>
+  <data name="RiderUnityAssetOccurrenceNavigator_Navigate_Start_the_Unity_Editor_to_view_results" xml:space="preserve">
+    <value>启动 Unity 编辑器查看结果</value>
+  </data>
+  <data name="LoadSceneFixBulbAction_Text_Add___SceneName___to_build_settings" xml:space="preserve">
+    <value>将 '{0}' 添加到构建设置</value>
+  </data>
+  <data name="AdditionalFileLayoutSettingsHelper_LoadDefaultPattern_You_are_about_to_replace_the_set_of_patterns_with_a_default_one___0_This_will_remove_all_changes_you_might_have_made__1_Do_you_want_to_proceed_" xml:space="preserve">
+    <value>您即将用默认模式集替换该模式集。{0}这将移除您可能进行的所有更改。{0}要继续吗?</value>
+  </data>
+  <data name="UnityUsagesCodeVisionProvider_Noun_asset_usage" xml:space="preserve">
+    <value>资源用法</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_Changed_in__0__assets___possible_indirect_changes" xml:space="preserve">
+    <value>已在 {0} 个资源中更改 + 可能的间接更改</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_Changed_in__0___1_" xml:space="preserve">
+    <value>已在 {0} 个{1}中更改</value>
+  </data>
+  <data name="UnityUsagesCodeVisionProvider_Noun_asset_usages" xml:space="preserve">
+    <value>资源用法</value>
+  </data>
+  <data name="OpenManifestJson_Text" xml:space="preserve">
+    <value>打开 manifest.json</value>
+  </data>
+  <data name="ComponentUsageGroupingRule_ComponentUsageGroupingRule_UnityComponent" xml:space="preserve">
+    <value>Unity 组件</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_DisplayName_Unity_serialized_field" xml:space="preserve">
+    <value>Unity 序列化字段</value>
+  </data>
+  <data name="UnityPathTemplateParameter_CreateContent_Custom" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="UnityRefresher_RefreshInternal_Refreshing_solution_in_Unity_Editor___" xml:space="preserve">
+    <value>正在 Unity 编辑器中刷新解决方案…</value>
+  </data>
+  <data name="ConfigureShaderVariantKeywordsQuickFix_Text" xml:space="preserve">
+    <value>配置着色器变体关键字</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_Changed_in_1_asset___possible_indirect_changes" xml:space="preserve">
+    <value>已在 1 个资源中更改 + 可能的间接更改</value>
+  </data>
+  <data name="UnitySettingsCategoryProvider_myCategoryToKeys_Unity_plugin_settings" xml:space="preserve">
+    <value>Unity 插件设置</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Method_Highlighting_moreinfo" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [{2}] 在此帧中调用一次</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Class_Highlighting_moreinfo" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [{2}] 在此帧中使用一次</value>
+  </data>
+  <data name="RiderTypeDetector_AddScriptUsagesHighlighting_Click_to_view_usages_in_assets" xml:space="preserve">
+    <value>点击以查看资源中的用法</value>
+  </data>
+  <data name="PleaseSwitchToTheUnityEditorToReload_Text" xml:space="preserve">
+    <value>请切换到 Unity 编辑器以加载插件。
+                             可以在以下位置找到 Rider 插件 v{0}:
+                             {1}。</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Internal_Call_Highlighting_moreinfo" xml:space="preserve">
+    <value>{0} {1:F2}ms ({2:P1}) [{3}] 在此函数中调用 {4} 次</value>
+  </data>
+  <data name="InactiveShaderVariantBranch_Text" xml:space="preserve">
+    <value>非活跃的着色器变体分支</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_Property_Inspector_values" xml:space="preserve">
+    <value>属性检查器值</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_methods" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="UnityUsagesCodeVisionProvider_DisplayName_Unity_assets_usage" xml:space="preserve">
+    <value>Unity 资源用法</value>
+  </data>
+  <data name="ImmutablePackageNotification_ImmutablePackageNotification_This_file_is_part_of_the_Global_Unity_Package_Cache__Any_changes_made_will_be_lost_" xml:space="preserve">
+    <value>此文件是全局 Unity 软件包缓存的一部分。所做的任何更改都将丢失。</value>
+  </data>
+  <data name="RiderEventHandlerDetector_AddEventsHighlighting_Click_to_view_usages_in_assets" xml:space="preserve">
+    <value>点击以查看资源中的用法</value>
+  </data>
+  <data name="AnimationEventGroupingRule_AnimationEventGroupingRule_AnimationEvent" xml:space="preserve">
+    <value>动画事件</value>
+  </data>
+  <data name="PleaseSwitchToUnityEditorToLoadThePlugin_Text" xml:space="preserve">
+    <value>请切换到 Unity 编辑器以加载插件。
+                             可以在以下位置找到 Rider 插件 v{0}:
+                             {1}。</value>
+  </data>
+  <data name="GameObjectUsageGroupingRule_GameObjectUsageGroupingRule_UnityGameObject" xml:space="preserve">
+    <value>Unity GameObject</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Multiple_Class_Highlighting_display_name" xml:space="preserve">
+    <value>{0:F2}ms ({1:P1}) x{2} [{3:F1}]</value>
+  </data>
+  <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_Do_not_show_for_this_solution" xml:space="preserve">
+    <value>不对此解决方案显示</value>
+  </data>
+  <data name="UsagesInAssetsAreNotAvailableDuring_Text" xml:space="preserve">
+    <value>资源索引期间，资源中的用法不可用</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Update_Profiler_Snapshot_Cache_header" xml:space="preserve">
+    <value>正在更新本地分析器快照缓存</value>
+  </data>
+  <data name="UnityStaticMethodRunMarkerGutterMark_GetRunMethodItems_Make_sure_Unity_is_running_" xml:space="preserve">
+    <value>确保 Unity 正在运行。</value>
+  </data>
+  <data name="RiderTypeDetector_AddMonoBehaviourHighlighting_Usages_in_assets_are_not_available_during_asset_indexing" xml:space="preserve">
+    <value>资源索引期间，资源中的用法不可用</value>
+  </data>
+  <data name="RiderIconProviderUtil_GetExtraActions_Start_Unity_Editor" xml:space="preserve">
+    <value>启动 Unity 编辑器</value>
+  </data>
+  <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_Update_available___JetBrains_Rider_package_" xml:space="preserve">
+    <value>有可用的更新 - JetBrains Rider 软件包。</value>
+  </data>
+  <data name="ImmutablePackageNotification_ImmutablePackageNotification_This_file_is_part_of_the_Unity_Package_Cache__Any_changes_made_will_be_lost_" xml:space="preserve">
+    <value>此文件是 Unity 软件包缓存的一部分。所做的任何更改都将丢失。</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Method_Highlighting_display_name" xml:space="preserve">
+    <value>{0:F2}ms ({1:P1}) [{2:F1}]</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Method_Highlighting_tooltip" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [{2}] 在此帧中调用一次</value>
+  </data>
+  <data name="ImmutablePackageNotification_ImmutablePackageNotification_This_file_is_part_of_the_BuildIn_Unity_Package_Cache__Any_changes_made_will_be_lost_" xml:space="preserve">
+    <value>此文件是内置 Unity 软件包缓存的一部分。所做的任何更改都将丢失。</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Internal_Call_Highlighting_display_name" xml:space="preserve">
+    <value>{0:F2}ms ({1:P1}) x{2} [{3:F1}]</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_CapitalChar_Method" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Multiple_Class_Highlighting_tooltip" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [最低: {2:F2}，最高: {3:F2}，平均: {4:F2}] ({5}) 在此帧中使用 {6} 次</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Fetching_Profiler_snapshot_header" xml:space="preserve">
+    <value>获取 Unity 分析器快照</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_asset" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Parent_Sample_Information" xml:space="preserve">
+    <value>{0} {1:F2}ms ({2:P1})</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Multiple_Method_Highlighting_display_name" xml:space="preserve">
+    <value>{0:F2}ms ({1:P1}) x{2} [{3:F1}]</value>
+  </data>
+  <data name="GeneratedFileNotification_GeneratedFileNotification_Edit_corresponding__asmdef_in_Unity" xml:space="preserve">
+    <value>在 Unity 中编辑相应的 .asmdef</value>
+  </data>
+  <data name="SceneManagerLoadSceneEnableQuickFix_Text_Enable_scene_in_build_settings" xml:space="preserve">
+    <value>在构建设置中启用场景</value>
+  </data>
+  <data name="ConfigureShaderVariantKeywords_Text" xml:space="preserve">
+    <value>配置着色器变体关键字</value>
+  </data>
+  <data name="UnityPathTemplateParameter_CreateContent_Custom__Unity_installation_was_not_found_" xml:space="preserve">
+    <value>自定义(找不到 Unity 安装)</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_No_changes_in_assets" xml:space="preserve">
+    <value>资源中无更改</value>
+  </data>
+  <data name="UnityUsagesCodeVisionProvider_GetText_No_asset_usages" xml:space="preserve">
+    <value>无资源用法</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_No_methods" xml:space="preserve">
+    <value>无方法</value>
+  </data>
+  <data name="UnityFileLayoutPageTab_Create_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_Changed_in__0___assets" xml:space="preserve">
+    <value>已在 {0}+ 个资源中更改</value>
+  </data>
+  <data name="PerformanceCriticalLineMarker_RiderPresentableName" xml:space="preserve">
+    <value>性能关键行标记</value>
+  </data>
+  <data name="AnimatorGroupingRule_AnimatorGroupingRule_Animator" xml:space="preserve">
+    <value>Animator</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Class_Highlighting_tooltip" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [{2}] 在此帧中使用一次</value>
+  </data>
+  <data name="UnityController_StartUnityInternal_Start_Unity_Editor" xml:space="preserve">
+    <value>启动 Unity 编辑器</value>
+  </data>
+  <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_Check_for_JetBrains_Rider_package__Version__in_Unity_Package_Manager_" xml:space="preserve">
+    <value>在 Unity Package Manager 中检查 JetBrains Rider 软件包 {0}。</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Multiple_Method_Highlighting_tooltip" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [最低: {2:F2}，最高: {3:F2}，平均: {4:F2}] ({5})在此帧中调用 {6} 次</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_Unique_change" xml:space="preserve">
+    <value>唯一更改</value>
+  </data>
+  <data name="GeneratedFileNotification_GeneratedFileNotification_This_file_is_generated_by_Unity__Any_changes_made_will_be_lost_" xml:space="preserve">
+    <value>此文件由 Unity 生成。所做的任何更改都将丢失。</value>
+  </data>
+  <data name="RiderEventHandlerDetector_AddEventsHighlighting_Assets_usages" xml:space="preserve">
+    <value>资源用法</value>
+  </data>
+  <data name="UnityStaticMethodRunMarkerGutterMark_GetRunMethodItems_No_connection_to_Unity" xml:space="preserve">
+    <value>未连接到 Unity</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Text" xml:space="preserve">
+    <value>Unity 分析器快照</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_method" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="ThisBranchMayBeActiveInOneOfShaderVariants_Text" xml:space="preserve">
+    <value>此分支可能在其中一个着色器变体中处于活跃状态。点击以为着色器变体配置启用的关键字。</value>
+  </data>
+  <data name="UnityEditorFindUsageResultCreator_CreateRequestToUnity_Finding_usages_in_Unity_for__" xml:space="preserve">
+    <value>正在 Unity 中查找以下对象的用法: </value>
+  </data>
+  <data name="UnityProfilerSnapshot_Single_Class_Highlighting_display_name" xml:space="preserve">
+    <value>{0:F2}ms ({1:P1}) [{2:F1}]</value>
+  </data>
+  <data name="UnityImplicitUsage_Text" xml:space="preserve">
+    <value>Unity 隐式用法</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Internal_Call_Highlighting_tooltip" xml:space="preserve">
+    <value>{0} {1:F2}ms ({2:P1}) [{3}] 在此函数中调用 {4} 次</value>
+  </data>
+  <data name="UnityPathTemplateParameter_CreateContent_Custom_path" xml:space="preserve">
+    <value>自定义路径</value>
+  </data>
+  <data name="UnityProfilerSnapshot_Multiple_Class_Highlighting_moreinfo" xml:space="preserve">
+    <value>{0:F2}ms (帧的 {1:P1}) [最低: {2:F2}，最高: {3:F2}，平均: {4:F2}] ({5}) 在此帧中使用 {6} 次</value>
+  </data>
+  <data name="DoNotShowForThisSolution_Text" xml:space="preserve">
+    <value>不对此解决方案显示</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_Changed_in__0__assets" xml:space="preserve">
+    <value>已在 {0} 个资产中更改</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_GetTooltip_Possible_indirect_changes" xml:space="preserve">
+    <value>可能的间接更改</value>
+  </data>
+  <data name="AdvancedUnityIntegrationIsUnavailable_Text" xml:space="preserve">
+    <value>无法使用高级 Unity 集成</value>
+  </data>
+  <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_assets" xml:space="preserve">
+    <value>资产</value>
+  </data>
+  <data name="UnityAssetsUsage_Text" xml:space="preserve">
+    <value>Unity 资源用法</value>
+  </data>
+  <data name="UnityFileLayoutPageTab_Create_Default" xml:space="preserve">
+    <value>默认(通用)</value>
+  </data>
+</root>

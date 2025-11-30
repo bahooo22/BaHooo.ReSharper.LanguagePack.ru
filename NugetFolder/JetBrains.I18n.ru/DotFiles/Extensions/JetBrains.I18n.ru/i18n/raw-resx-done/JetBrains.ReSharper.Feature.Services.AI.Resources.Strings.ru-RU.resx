@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="EnableCommentChangeSuggestions_Text" xml:space="preserve">
+  <value>Включить предложения по изменению комментариев (экспериментальная функция)</value>
+</data>
+<data name="ExplainThis_Text" xml:space="preserve">
+  <value>Объяснить…</value>
+</data>
+<data name="ImplementThis_NoDots_Text" xml:space="preserve">
+  <value>Реализовать</value>
+</data>
+<data name="PromptLibrary_Text" xml:space="preserve">
+  <value>Библиотека промтов…</value>
+</data>
+<data name="IsUserNotifiedAboutSmartChat_Text" xml:space="preserve">
+  <value>Уведомлен ли пользователь об умном чате</value>
+</data>
+<data name="EnableExceptionExplanationFeatures_Text" xml:space="preserve">
+  <value>Включить функции объяснения исключений</value>
+</data>
+<data name="ApplyInplaceAISuggestion_Name" xml:space="preserve">
+  <value>Применить встроенную рекомендацию ИИ</value>
+</data>
+<data name="EnableTestRunSuggestions_Text" xml:space="preserve">
+  <value>Включить предложения запускать тесты после изменений в связанных типах (экспериментальная функция)</value>
+</data>
+<data name="ImplementThisUsingAI_Text" xml:space="preserve">
+  <value>Реализовать с помощью ИИ</value>
+</data>
+<data name="InEditorProofreadExperimental_Text" xml:space="preserve">
+  <value>Вычитка комментариев в редакторе (экспериментальная функция)</value>
+</data>
+<data name="DocumentThis_Text" xml:space="preserve">
+  <value>Документировать</value>
+</data>
+<data name="ImplementThisWithAI_Text" xml:space="preserve">
+  <value>Реализовать с помощью ИИ</value>
+</data>
+<data name="ExplainThisIntention_PleaseExplain" xml:space="preserve">
+  <value>Пожалуйста, объясните</value>
+</data>
+<data name="InputSettings_Text" xml:space="preserve">
+  <value>Настройки ввода</value>
+</data>
+<data name="CollectingRelevantCode_Text" xml:space="preserve">
+  <value>Сбор релевантного кода…</value>
+</data>
+<data name="RetrievesCodeFragmentsFromCurrently_Text" xml:space="preserve">
+  <value>Извлекает фрагменты кода, содержащие объявления символов и связанный код, из текущего открытого решения, используя CLR-имена символов.</value>
+</data>
+<data name="ImplementThis_Text" xml:space="preserve">
+  <value>Реализовать…</value>
+</data>
+<data name="InEditorWriteDocumentationExperimental_Text" xml:space="preserve">
+  <value>Написание документации в редакторе (экспериментальная функция)</value>
+</data>
+<data name="ApplyInplaceAISuggestion_Description" xml:space="preserve">
+  <value>Применить встроенную рекомендацию ИИ</value>
+</data>
+<data name="ExplainRegExpIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, объясните следующее регулярное выражение: `{0}`</value>
+</data>
+<data name="SuggestChatTitlesWithAI_Text" xml:space="preserve">
+  <value>Предлагать названия чатов с помощью ИИ</value>
+</data>
+<data name="EnableTasksAPI_Text" xml:space="preserve">
+  <value>Включить Tasks API</value>
+</data>
+<data name="WriteDocumentationIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, напишите XML-документацию для следующего {0}: `{1}`</value>
+</data>
+<data name="ShowAsInlayHintInTheEditor_Text" xml:space="preserve">
+  <value>Показывать в редакторе как inlay-подсказку</value>
+</data>
+<data name="FindIssuesInCodeIntention_DisplayTextSelection" xml:space="preserve">
+  <value>Пожалуйста, найдите проблемы в выбранном коде.</value>
+</data>
+<data name="DisableDocumentThisSuggestions_Text" xml:space="preserve">
+  <value>Отключить предложения «Документировать»</value>
+</data>
+<data name="ImplementThisChatIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, реализуйте следующую функцию: {0}</value>
+</data>
+<data name="SemanticRenameSuggestion_ActionTitle" xml:space="preserve">
+  <value>Переименовать «{0}» в «{1}»</value>
+</data>
+<data name="ChatFontSize_Text" xml:space="preserve">
+  <value>Размер шрифта чата</value>
+</data>
+<data name="DisableAllInPlaceAISuggestions_Text" xml:space="preserve">
+  <value>Отключить все встроенные рекомендации ИИ</value>
+</data>
+<data name="EnableSlidingContextWindowExperimental_Text" xml:space="preserve">
+  <value>Включить скользящее окно контекста (экспериментальная функция)</value>
+</data>
+<data name="DocumentThisUsingAI_Text" xml:space="preserve">
+  <value>Документировать с помощью ИИ</value>
+</data>
+<data name="AIAssistantOptions_Text" xml:space="preserve">
+  <value>Параметры AI Assistant</value>
+</data>
+<data name="FindIssuesInCodeIntention_DisplayText_IssuesInFollowingCode" xml:space="preserve">
+  <value>Пожалуйста, найдите проблемы в следующем коде:</value>
+</data>
+<data name="RefactorThis_Text" xml:space="preserve">
+  <value>Рефакторинг</value>
+</data>
+<data name="ExplainThisRegularExpressionWithAI_Text" xml:space="preserve">
+  <value>Объяснить это регулярное выражение с помощью ИИ…</value>
+</data>
+<data name="ContextPlacement_Text" xml:space="preserve">
+  <value>Размещение контекста</value>
+</data>
+<data name="CommentChangeSuggestion_Update_NextStep_NoVisibleDiff_ActionTitle" xml:space="preserve">
+  <value>Обновить комментарий '{0}'</value>
+</data>
+<data name="EnableMemberRenameSuggestions_Text" xml:space="preserve">
+  <value>Включить предложения по переименованию членов типа (экспериментальная функция)</value>
+</data>
+<data name="InEditorImplementMemberExperimental_Text" xml:space="preserve">
+  <value>Реализация члена в редакторе (экспериментальная функция)</value>
+</data>
+<data name="FindIssuesInDeclarationIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, найдите проблемы в {0}</value>
+</data>
+<data name="ExplainRegExpIntention_DisplayTextShort" xml:space="preserve">
+  <value>Пожалуйста, объясните выбранное регулярное выражение</value>
+</data>
+<data name="EnableAIBackedQuickInfo_Text" xml:space="preserve">
+  <value>Включить быструю справку на основе ИИ</value>
+</data>
+<data name="CommentChangeSuggestion_Delete_ActionTitle" xml:space="preserve">
+  <value>Удалить комментарий</value>
+</data>
+<data name="ShowInTheExceptionHelperPopup_Text" xml:space="preserve">
+  <value>Показывать во всплывающем окне помощника по исключениям</value>
+</data>
+<data name="WriteDocumentationIntention_DisplayMessage_WriteFor" xml:space="preserve">
+  <value>Пожалуйста, напишите XML-документацию для:</value>
+</data>
+<data name="ExplainThisIntention_PleaseExplainCode" xml:space="preserve">
+  <value>Пожалуйста, объясните следующий код:</value>
+</data>
+<data name="CustomGlobalPrompt_Text" xml:space="preserve">
+  <value>Пользовательский глобальный промт</value>
+</data>
+<data name="UpdateXmlDocCommentSuggestion_ActionTitle" xml:space="preserve">
+  <value>Обновить XML-документацию для '{0}'</value>
+</data>
+<data name="EnableAskAI_Text" xml:space="preserve">
+  <value>Ask AI (экспериментальная функция)</value>
+</data>
+<data name="DisableImplementThisSuggestions_Text" xml:space="preserve">
+  <value>Отключить предложения «Реализовать»</value>
+</data>
+<data name="CommentChangeSuggestion_Delete_NextStep_ActionTitle" xml:space="preserve">
+  <value>Удалить комментарий '{0}'</value>
+</data>
+<data name="ExplainThisIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, объясните следующий {0}: `{1}`</value>
+</data>
+<data name="CommentChangeSuggestion_Update_ActionTitle" xml:space="preserve">
+  <value>Изменить на '{0}'</value>
+</data>
+<data name="EnableAIRenameSuggestions_Text" xml:space="preserve">
+  <value>Включить предложения по переименованию на основе ИИ</value>
+</data>
+<data name="SuggestPossibleUserPromptsWithAI_Text" xml:space="preserve">
+  <value>Предлагать возможные пользовательские промты с помощью ИИ</value>
+</data>
+<data name="WriteXMLDocumentationForThis_Text" xml:space="preserve">
+  <value>Написать XML-документацию</value>
+</data>
+<data name="OpenAIChat_Text" xml:space="preserve">
+  <value>Открыть AI Chat</value>
+</data>
+<data name="CommentChangeSuggestion_Update_NextStep_ActionTitle" xml:space="preserve">
+  <value>Изменить комментарий '{0}' на '{1}'</value>
+</data>
+<data name="FetchingContextsOfDeclarationsAndUsages_Text" xml:space="preserve">
+  <value>Получение контекстов объявлений и использований…</value>
+</data>
+<data name="EnableSmartChat_Text" xml:space="preserve">
+  <value>Включить умный чат</value>
+</data>
+<data name="EnableSemanticRenameSuggestions_Text" xml:space="preserve">
+  <value>Включить семантические предложения по переименованию (экспериментальная функция)</value>
+</data>
+<data name="EnableContextActionsExperimental_Text" xml:space="preserve">
+  <value>Включить контекстные действия (экспериментальная функция)</value>
+</data>
+<data name="FindIssuesIn_Text" xml:space="preserve">
+  <value>Найти проблемы…</value>
+</data>
+<data name="ChatType_Text" xml:space="preserve">
+  <value>Тип чата</value>
+</data>
+<data name="FindIssuesInCodeIntention_DisplayText" xml:space="preserve">
+  <value>Пожалуйста, найдите проблемы в следующем коде:{0}{1}</value>
+</data>
+</root>

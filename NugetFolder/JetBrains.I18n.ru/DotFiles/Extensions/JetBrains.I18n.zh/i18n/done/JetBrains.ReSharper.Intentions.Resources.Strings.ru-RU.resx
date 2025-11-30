@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Setter_Text" xml:space="preserve">
+    <value>setter</value>
+  </data>
+  <data name="ToStringInterpolation_Text" xml:space="preserve">
+    <value>转换为字符串内插</value>
+  </data>
+  <data name="SelectSignature_Text" xml:space="preserve">
+    <value>选择签名</value>
+  </data>
+  <data name="RemoveParameterAndUpdateUsages_Text" xml:space="preserve">
+    <value>移除形参(并更新用法)</value>
+  </data>
+  <data name="SearchingForDerivedTypes_Text" xml:space="preserve">
+    <value>正在搜索派生类型</value>
+  </data>
+  <data name="ChangeNamingRule__Text" xml:space="preserve">
+    <value>更改命名规则 '{0}'…</value>
+  </data>
+  <data name="EditPattern__Text" xml:space="preserve">
+    <value>编辑模式 '{0}'</value>
+  </data>
+  <data name="EscapeUnmatchedBrace_Text" xml:space="preserve">
+    <value>转义不匹配的大括号</value>
+  </data>
+  <data name="MoveToGlobalNamespace_Text" xml:space="preserve">
+    <value>移至全局命名空间</value>
+  </data>
+  <data name="SetLanguageVersionTo_ForAll_Projects_Text" xml:space="preserve">
+    <value>将语言版本较低的所有 {1} 项目的语言版本设置为 '{0}'</value>
+  </data>
+  <data name="EncapsulateFieldContextAction_Name" xml:space="preserve">
+    <value>封装字段</value>
+  </data>
+  <data name="RenameTo__Text" xml:space="preserve">
+    <value>重命名为 '{0}'</value>
+  </data>
+  <data name="InstallPackage_AndImport__Text" xml:space="preserve">
+    <value>安装软件包 {0} 并导入 '{1}'</value>
+  </data>
+  <data name="ImFeelingLuckyActionText" xml:space="preserve">
+    <value>手气不错</value>
+  </data>
+  <data name="Reference_AndImport__Text" xml:space="preserve">
+    <value>引用 {0} 并导入 '{1}'</value>
+  </data>
+  <data name="GeneratingMembers_Text" xml:space="preserve">
+    <value>正在生成成员</value>
+  </data>
+  <data name="SomeOfTheSettingsYouModifiedAreOverridden_Text" xml:space="preserve">
+    <value>您修改的某些设置在 .editorconfig 中被重写。是否要将更改保存到 .editorconfig?
+被重写的设置:
+{0}</value>
+  </data>
+  <data name="DetectCodeStyleSettings_Text" xml:space="preserve">
+    <value>检测代码样式设置…</value>
+  </data>
+  <data name="Rename_Text" xml:space="preserve">
+    <value>重命名…</value>
+  </data>
+  <data name="Folder_DoNotIntroduceNamespace_Text" xml:space="preserve">
+    <value>文件夹 '{0}' 不引入命名空间</value>
+  </data>
+  <data name="MarkAsInjectedLanguageOrReference_Text" xml:space="preserve">
+    <value>标记为注入的语言或引用</value>
+  </data>
+  <data name="DonTShowThisTipAgain_Text" xml:space="preserve">
+    <value>不再显示此提示</value>
+  </data>
+  <data name="ImportPath_Text" xml:space="preserve">
+    <value>导入路径</value>
+  </data>
+  <data name="EditPathMappingsFor__Text" xml:space="preserve">
+    <value>编辑 {0} 的路径映射</value>
+  </data>
+  <data name="New_Text" xml:space="preserve">
+    <value>新 </value>
+  </data>
+  <data name="ViewActionList__Text" xml:space="preserve">
+    <value>查看操作列表{0}</value>
+  </data>
+  <data name="AddTypeArgument_Text" xml:space="preserve">
+    <value>添加类型实参</value>
+  </data>
+  <data name="ReformatAndCleanupContextAction_Description" xml:space="preserve">
+    <value>提供操作以对选区执行代码清理</value>
+  </data>
+  <data name="FindThis_OnNugetOrg_Text" xml:space="preserve">
+    <value>在 nuget.org 上查找此 {0}…</value>
+  </data>
+  <data name="AdjustNamespaces_Text" xml:space="preserve">
+    <value>调整命名空间</value>
+  </data>
+  <data name="PassStringInterpolation_Text" xml:space="preserve">
+    <value>传递字符串内插</value>
+  </data>
+  <data name="Non_ModifierText" xml:space="preserve">
+    <value>非 {0}</value>
+  </data>
+  <data name="TheFollowingSettingsWereNotSavedBecause_Text" xml:space="preserve">
+    <value>未保存以下设置，因为它们在外部配置文件中被重写:
+{0}</value>
+  </data>
+  <data name="MoveTo_Namespace_Text" xml:space="preserve">
+    <value>移至 '{0}' 命名空间</value>
+  </data>
+  <data name="SetPathMappingFor__Text" xml:space="preserve">
+    <value>设置 '{0}' 的路径映射</value>
+  </data>
+  <data name="Tip__Text" xml:space="preserve">
+    <value>提示: {0}</value>
+  </data>
+  <data name="RemoveTemplateArgument__Text" xml:space="preserve">
+    <value>移除模板实参 {{{0}}}</value>
+  </data>
+  <data name="ChangeSignatureOf____Text" xml:space="preserve">
+    <value>更改{0} '{1}' 的签名{2}</value>
+  </data>
+  <data name="WhyIs_SuggestingThis_Text" xml:space="preserve">
+    <value>为何 {0} 提出这种建议?</value>
+  </data>
+  <data name="AllAboveTypes_Text" xml:space="preserve">
+    <value>上述所有类型</value>
+  </data>
+  <data name="Remove___Text" xml:space="preserve">
+    <value>移除 {0} {1}</value>
+  </data>
+  <data name="Set_LanguageVersionTo_ForThisProject_Text" xml:space="preserve">
+    <value>将此项目的 {0} 语言版本设置为 '{1}'</value>
+  </data>
+  <data name="ShowAdvisoryFor_Text" xml:space="preserve">
+    <value>在 {2} 上显示 {0} ({1})的咨询</value>
+  </data>
+  <data name="WrapLongLineContextAction_Name" xml:space="preserve">
+    <value>长行换行</value>
+  </data>
+  <data name="WrapLongLine_Text" xml:space="preserve">
+    <value>长行换行</value>
+  </data>
+  <data name="UsedImplicitly_Text" xml:space="preserve">
+    <value>隐式使用</value>
+  </data>
+  <data name="ConfiguresSwitchToGoToActionSuggesterSettingDescription" xml:space="preserve">
+    <value>Configures Switch to Go to Action Suggester</value>
+  </data>
+  <data name="ReplaceAssignmentToField_WithParameter_Text" xml:space="preserve">
+    <value>将对字段 '{0}' 的赋值替换为形参值</value>
+  </data>
+  <data name="Make__Static_Text" xml:space="preserve">
+    <value>将 '{0}' 设为{1}</value>
+  </data>
+  <data name="Type_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="EncapsulateField_Text" xml:space="preserve">
+    <value>封装字段</value>
+  </data>
+  <data name="CommentUnused__Text" xml:space="preserve">
+    <value>为未使用的{0}添加注释</value>
+  </data>
+  <data name="ConfigureCodeStyle_Text" xml:space="preserve">
+    <value>配置代码样式…</value>
+  </data>
+  <data name="InsertFormatArgument_Text" xml:space="preserve">
+    <value>插入格式实参</value>
+  </data>
+  <data name="FullCleanup_Text" xml:space="preserve">
+    <value>完全清理</value>
+  </data>
+  <data name="InitializeField_WithParameterValue_Text" xml:space="preserve">
+    <value>使用形参值初始化字段 '{0}'</value>
+  </data>
+  <data name="EnableAutoDetectedRules_Text" xml:space="preserve">
+    <value>启用自动检测的规则</value>
+  </data>
+  <data name="InitializeMembersFromConstructor_Text" xml:space="preserve">
+    <value>从构造函数初始化成员</value>
+  </data>
+  <data name="Make_Accessor__Text" xml:space="preserve">
+    <value>将 '{0}' 访问器设为{1}</value>
+  </data>
+  <data name="RemoveFormatArgument__Text" xml:space="preserve">
+    <value>移除格式实参 #{0}</value>
+  </data>
+  <data name="ChopLongLine_Text" xml:space="preserve">
+    <value>截断长行</value>
+  </data>
+  <data name="ShowContextActionsSuggesterName_FindActionsFaster_Text" xml:space="preserve">
+    <value>更快地查找操作</value>
+  </data>
+  <data name="IntroduceFieldsForAllUnusedParameters_Text" xml:space="preserve">
+    <value>为所有未使用的形参引入字段</value>
+  </data>
+  <data name="FailedToReferenceModuleProbablyReference_Text" xml:space="preserve">
+    <value>无法引用模块。引用可能会在项目之间产生循环依赖关系。</value>
+  </data>
+  <data name="RemoveUnusedFixDiscarded_Text" xml:space="preserve">
+    <value>已舍弃</value>
+  </data>
+  <data name="StrictFormat_Text" xml:space="preserve">
+    <value>严格格式</value>
+  </data>
+  <data name="MarkAsInjectedLanguageOrReferenceContextAction_Description" xml:space="preserve">
+    <value>将字面量表达式内容识别为某种语言或引用</value>
+  </data>
+  <data name="RemoveUnused__Text" xml:space="preserve">
+    <value>移除未使用的{0}</value>
+  </data>
+  <data name="Add_ToTheAbbreviationsList_Text" xml:space="preserve">
+    <value>将 '{0}' 添加到缩写列表</value>
+  </data>
+  <data name="DisableAutoDetectedRules_Text" xml:space="preserve">
+    <value>禁用自动检测的规则</value>
+  </data>
+  <data name="Initialize_FromConstructor_Text" xml:space="preserve">
+    <value>从构造函数初始化 {0}</value>
+  </data>
+  <data name="ConfigureDefault_Text" xml:space="preserve">
+    <value>配置默认值</value>
+  </data>
+  <data name="As__Text" xml:space="preserve">
+    <value>为{0}</value>
+  </data>
+  <data name="SaveFormatterOptionsToComments_Text" xml:space="preserve">
+    <value>将格式化程序选项保存到注释</value>
+  </data>
+  <data name="Namespace_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="CommentSelectionContextAction_Description" xml:space="preserve">
+    <value>为选区添加注释</value>
+  </data>
+  <data name="WithPrivateSetter_Text" xml:space="preserve">
+    <value>具有 private setter</value>
+  </data>
+  <data name="AutodetectCodeStyleSettings_Text" xml:space="preserve">
+    <value>自动检测代码样式设置</value>
+  </data>
+  <data name="RemoveRedundantArgument_Text" xml:space="preserve">
+    <value>移除冗余的实参</value>
+  </data>
+  <data name="TryTypingToFindMoreActions_Text" xml:space="preserve">
+    <value>尝试输入以查找更多操作</value>
+  </data>
+  <data name="DefaultSetterAccessRightsSettingDescription" xml:space="preserve">
+    <value>默认 setter 访问权限</value>
+  </data>
+  <data name="IntroduceReadOnlyField__Text" xml:space="preserve">
+    <value>引入只读字段 '{0}'</value>
+  </data>
+  <data name="SelectTargetTypePart_Text" xml:space="preserve">
+    <value>选择目标类型部分</value>
+  </data>
+  <data name="SettingsDetectedFromYourCodeSample_Caption" xml:space="preserve">
+    <value>从您的代码示例中检测到的设置</value>
+  </data>
+  <data name="ViewActionList_Text" xml:space="preserve">
+    <value>查看操作列表</value>
+  </data>
+  <data name="ERROR_Text" xml:space="preserve">
+    <value>&lt;错误&gt;</value>
+  </data>
+  <data name="LocateInToDoExplorer_Text" xml:space="preserve">
+    <value>在 TODO 资源管理器中定位</value>
+  </data>
+  <data name="EditLanguageInjectionsSettings_Text" xml:space="preserve">
+    <value>编辑语言注入设置</value>
+  </data>
+  <data name="UpdatingHierarchyAccessRights_Text" xml:space="preserve">
+    <value>更新层次结构访问权限</value>
+  </data>
+  <data name="ImportTypeWithDots_Text" xml:space="preserve">
+    <value>导入类型…</value>
+  </data>
+  <data name="SpaciousFormatChop_Text" xml:space="preserve">
+    <value>宽松格式(截断)</value>
+  </data>
+  <data name="WrapLongLineContextAction_Description" xml:space="preserve">
+    <value>长行换行</value>
+  </data>
+  <data name="Getter_Text" xml:space="preserve">
+    <value>getter</value>
+  </data>
+  <data name="ImportMissingReferences_Text" xml:space="preserve">
+    <value>导入缺少的引用</value>
+  </data>
+  <data name="Move_ToOuterScope_Text" xml:space="preserve">
+    <value>将 {0} 移至外部作用域</value>
+  </data>
+  <data name="Use___Text" xml:space="preserve">
+    <value>使用{0} {1}</value>
+  </data>
+  <data name="UpdateProjects_Text" xml:space="preserve">
+    <value>更新项目</value>
+  </data>
+  <data name="IntroduceFieldsForAllParameters_Text" xml:space="preserve">
+    <value>为所有形参引入字段</value>
+  </data>
+  <data name="Remove_FromTheAbbreviationsList_Text" xml:space="preserve">
+    <value>从缩写列表中移除 '{0}'</value>
+  </data>
+  <data name="AnalyzingMembers_Text" xml:space="preserve">
+    <value>正在分析成员</value>
+  </data>
+  <data name="OpenToDoLink_Text" xml:space="preserve">
+    <value>打开待办事项链接</value>
+  </data>
+  <data name="MakeMembers__Text" xml:space="preserve">
+    <value>将成员设为 {0}</value>
+  </data>
+  <data name="RenameDuplicateItems_Text" xml:space="preserve">
+    <value>重命名重复的条目</value>
+  </data>
+  <data name="FixNaming_Text" xml:space="preserve">
+    <value>修正命名</value>
+  </data>
+  <data name="MakeType__Text" xml:space="preserve">
+    <value>将类型设为 {0}</value>
+  </data>
+  <data name="UseStringInterpolation_Text" xml:space="preserve">
+    <value>使用字符串内插</value>
+  </data>
+  <data name="ForAllUnusedParameters_Text" xml:space="preserve">
+    <value>为所有未使用的形参</value>
+  </data>
+  <data name="MakeReturnType__Text" xml:space="preserve">
+    <value>将返回值类型设为 {0}</value>
+  </data>
+  <data name="ExportSettingsToEditorconfigActionText" xml:space="preserve">
+    <value>将设置导出到 .editorconfig</value>
+  </data>
+  <data name="ImportType_Text" xml:space="preserve">
+    <value>导入类型</value>
+  </data>
+  <data name="_From__Text" xml:space="preserve">
+    <value>{0} (来自{1})</value>
+  </data>
+  <data name="TryNow_Text" xml:space="preserve">
+    <value>立即试用</value>
+  </data>
+  <data name="NothingToImplement_Text" xml:space="preserve">
+    <value>没有要实现的内容</value>
+  </data>
+  <data name="AddArgument_Text" xml:space="preserve">
+    <value>添加实参</value>
+  </data>
+  <data name="NoCodeInALanguageSupportedByAutodetection_Text" xml:space="preserve">
+    <value>未选择自动检测功能支持的语言的代码</value>
+  </data>
+  <data name="Remove_InjectionMark_Text" xml:space="preserve">
+    <value>移除{0}注入标记</value>
+  </data>
+  <data name="AdditionalCodeCleanupAfterElementRemoval_Text" xml:space="preserve">
+    <value>元素移除后的额外代码清理</value>
+  </data>
+  <data name="SelectTargetPart_Text" xml:space="preserve">
+    <value>选择目标部分</value>
+  </data>
+  <data name="InsertInterpolationArgument_Text" xml:space="preserve">
+    <value>插入内插实参</value>
+  </data>
+  <data name="NoPlacesWereFoundToImplementThisMember_Text" xml:space="preserve">
+    <value>找不到实现此成员的位置</value>
+  </data>
+  <data name="ShowContextActionsSuggesterDescription_BoostYourEfficiency_Text" xml:space="preserve">
+    <value>使用“{0}”或“{1}”立即找到您需要的任何操作 – 无需再在菜单中搜索</value>
+  </data>
+  <data name="ApplyReplacement_Text" xml:space="preserve">
+    <value>应用替换</value>
+  </data>
+  <data name="ShowContextActionsSuggesterName_BoostYourEfficiency_Text" xml:space="preserve">
+    <value>提高效率</value>
+  </data>
+  <data name="FormatSelection_Text" xml:space="preserve">
+    <value>格式化选区</value>
+  </data>
+  <data name="MoveFileToFolder__Text" xml:space="preserve">
+    <value>将文件移至文件夹 '{0}'</value>
+  </data>
+  <data name="CommentSelectionContextAction_Name" xml:space="preserve">
+    <value>为选区添加注释</value>
+  </data>
+  <data name="Make__Text" xml:space="preserve">
+    <value>设为 {0}</value>
+  </data>
+  <data name="RenameCqrs_Text" xml:space="preserve">
+    <value>CQRS: 重命名…</value>
+  </data>
+  <data name="TheFollowingSettingsAffectTheCodeStyle_Caption" xml:space="preserve">
+    <value>以下设置影响此处的代码样式</value>
+  </data>
+  <data name="ImportType__Text" xml:space="preserve">
+    <value>导入类型 '{0}'</value>
+  </data>
+  <data name="IgnorePath__Text" xml:space="preserve">
+    <value>忽略路径 '{0}'</value>
+  </data>
+  <data name="Folder_Text" xml:space="preserve">
+    <value>文件夹 </value>
+  </data>
+  <data name="FixFormattingProblem_Text" xml:space="preserve">
+    <value>修正格式设置问题</value>
+  </data>
+  <data name="Set_LanguageLevelTo_ForCodeAnalysis_Text" xml:space="preserve">
+    <value>为此项目的代码分析将 {0} 语言级别设置为 '{1}' (不影响构建)</value>
+  </data>
+  <data name="MakeAllTypes__Text" xml:space="preserve">
+    <value>将所有类型设为 '{0}'</value>
+  </data>
+  <data name="ReformatAndCleanupContextAction_Name" xml:space="preserve">
+    <value>重新格式化并清理…</value>
+  </data>
+  <data name="Use__Text" xml:space="preserve">
+    <value>使用“{0}”</value>
+  </data>
+  <data name="ForAllAs__Text" xml:space="preserve">
+    <value>为所有作为 {0} 的形参</value>
+  </data>
+  <data name="ReferenceAndImportType_Text" xml:space="preserve">
+    <value>引用并导入类型…</value>
+  </data>
+  <data name="ToStringFormatInvocation_Text" xml:space="preserve">
+    <value>转换为 string.Format 调用</value>
+  </data>
+  <data name="CleanupWith_Profile_Text" xml:space="preserve">
+    <value>使用 '{0}' 配置文件清理</value>
+  </data>
+  <data name="ConfigureCodeAnnotations_Text" xml:space="preserve">
+    <value>配置代码注解</value>
+  </data>
+  <data name="MarkAsMyProviderInjectDescription_Text" xml:space="preserve">
+    <value>标记为{0}</value>
+  </data>
+  <data name="AltEnterActionText" xml:space="preserve">
+    <value>Alt Enter</value>
+  </data>
+  <data name="ForAllParameters_Text" xml:space="preserve">
+    <value>为所有形参</value>
+  </data>
+  <data name="ReplaceTabsWithSpaces_Text" xml:space="preserve">
+    <value>将制表符替换为空格</value>
+  </data>
+  <data name="CreateOther_Text" xml:space="preserve">
+    <value>创建其他</value>
+  </data>
+  <data name="ForAllWith__Text" xml:space="preserve">
+    <value>为所有具有 {0} 的形参</value>
+  </data>
+  <data name="ShowContextActionsSuggesterDescription_FindActionsFaster_Text" xml:space="preserve">
+    <value>按 {0} 或 {1}，在几秒钟内搜索并激活任何 ReSharper 功能</value>
+  </data>
+  <data name="PassStringFormat_Text" xml:space="preserve">
+    <value>传递 string.Format</value>
+  </data>
+  <data name="ApplySyntaxStyle_Text" xml:space="preserve">
+    <value>应用语法样式</value>
+  </data>
+  <data name="FixIndentationProblem_Text" xml:space="preserve">
+    <value>修正缩进问题</value>
+  </data>
+  <data name="SaveToEditorconfig_Caption" xml:space="preserve">
+    <value>保存到 .editorconfig</value>
+  </data>
+  <data name="MoveFileTo_Text" xml:space="preserve">
+    <value>将文件移至</value>
+  </data>
+  <data name="ReplaceWithFormatSpecifier_Text" xml:space="preserve">
+    <value>替换为格式说明符</value>
+  </data>
+  <data name="ChangeInjectedLanguage" xml:space="preserve">
+    <value>将注入的语言更改为 {0}</value>
+  </data>
+  <data name="Import_AndOtherMissingReferences_Text" xml:space="preserve">
+    <value>导入 '{0}' 和其他缺少的引用</value>
+  </data>
+  <data name="SeeMore_Text" xml:space="preserve">
+    <value>查看更多…</value>
+  </data>
+  <data name="WeCanTRecommendAnyChangesToYourCode_Text" xml:space="preserve">
+    <value>我们无法对代码样式设置提出任何更改建议。看起来您的代码符合当前设置，或者您的代码样式不受支持。</value>
+  </data>
+  <data name="IncreaseLineIndentActionText" xml:space="preserve">
+    <value>增加行缩进</value>
+  </data>
+  <data name="ReSharperMenuClicksThresholdSettingDescription" xml:space="preserve">
+    <value>ReSharper menu clicks threshold</value>
+  </data>
+  <data name="EncapsulateFieldContextAction_Description" xml:space="preserve">
+    <value>如果没有现有属性，则将字段封装到属性中</value>
+  </data>
+  <data name="IntroducePropertySettingsSettingDescription" xml:space="preserve">
+    <value>Introduce Property Settings</value>
+  </data>
+  <data name="CommentSelection_Text" xml:space="preserve">
+    <value>为选区添加注释</value>
+  </data>
+  <data name="MakeParameterType__Text" xml:space="preserve">
+    <value>将形参类型设为 '{0}'</value>
+  </data>
+  <data name="Update_ToTheLatestVersion_Text" xml:space="preserve">
+    <value>尝试将 {0} 更新到最新版本</value>
+  </data>
+  <data name="Rename__Text" xml:space="preserve">
+    <value>重命名 {0}</value>
+  </data>
+  <data name="RemoveUnusedFixUnused_Text" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="Add_AccessorFor__Text" xml:space="preserve">
+    <value>为 {1} 添加 {0} 访问器</value>
+  </data>
+  <data name="ChangeTypeOf__To__Text" xml:space="preserve">
+    <value>将{0} '{1}' 的类型更改为 '{2}'</value>
+  </data>
+  <data name="ConvertConcatenationToInterpolation_Text" xml:space="preserve">
+    <value>将串联转换为内插</value>
+  </data>
+  <data name="RemoveRedundantTypeParameter__Text" xml:space="preserve">
+    <value>移除冗余的类型形参 '{0}'</value>
+  </data>
+  <data name="CleanupSelection_Text" xml:space="preserve">
+    <value>Cleanup selection</value>
+  </data>
+  <data name="ReformatSelection_Text" xml:space="preserve">
+    <value>重新格式化选区</value>
+  </data>
+  <data name="ContextActionsOptionPageTitle" xml:space="preserve">
+    <value>上下文操作</value>
+  </data>
+  <data name="EnterActionName_Text" xml:space="preserve">
+    <value>操作名称:</value>
+  </data>
+  <data name="MakeAccessibilityConsistent_Text" xml:space="preserve">
+    <value>保持一致的可访问性</value>
+  </data>
+  <data name="ReindentOnly_Text" xml:space="preserve">
+    <value>仅重新缩进</value>
+  </data>
+  <data name="ReformatAndCleanup_Text" xml:space="preserve">
+    <value>重新格式化并清理…</value>
+  </data>
+  <data name="RemoveUnusedFixNotAccessed_Text" xml:space="preserve">
+    <value>未访问</value>
+  </data>
+  <data name="FailedToImportType_Text" xml:space="preserve">
+    <value>无法导入类型</value>
+  </data>
+  <data name="CompactFormatFewerLineBreaks_Text" xml:space="preserve">
+    <value>紧凑格式(较少换行)</value>
+  </data>
+  <data name="ReplaceWith__Text" xml:space="preserve">
+    <value>替换为 '{0}'</value>
+  </data>
+  <data name="DefaultGetterAccessRightsSettingDescription" xml:space="preserve">
+    <value>默认 getter 访问权限</value>
+  </data>
+  <data name="InitializeAutoProperty__Text" xml:space="preserve">
+    <value>初始化自动属性 '{0}'</value>
+  </data>
+  <data name="MarkAsInjectedLanguageOrReferenceContextAction_Name" xml:space="preserve">
+    <value>标记为注入的语言或引用</value>
+  </data>
+  <data name="ReplaceAssignmentToAutoProperty_With_Text" xml:space="preserve">
+    <value>将对自动属性 '{0}' 的赋值替换为形参值</value>
+  </data>
+  <data name="RenameToCqrs__Text" xml:space="preserve">
+    <value>CQRS: 重命名为 '{0}'</value>
+  </data>
+  <data name="AddReferenceTo__Text" xml:space="preserve">
+    <value>添加对{0}的引用</value>
+  </data>
+  <data name="PickColorFromPalette_Text" xml:space="preserve">
+    <value>从调色板中选取颜色</value>
+  </data>
+  <data name="DetectedSettings_Text" xml:space="preserve">
+    <value>检测到的设置</value>
+  </data>
+  <data name="DonTShowTipsInThisMenu_Text" xml:space="preserve">
+    <value>不在此菜单中显示提示</value>
+  </data>
+  <data name="SurroundWithFormat_Text" xml:space="preserve">
+    <value>用格式包围</value>
+  </data>
+  <data name="EditEditorconfigActionText" xml:space="preserve">
+    <value>编辑 .editorconfig</value>
+  </data>
+  <data name="CreateDefaultConstructorIn___Text" xml:space="preserve">
+    <value>在{0} '{1}' 中创建默认构造函数</value>
+  </data>
+  <data name="MakeAllMembers__Text" xml:space="preserve">
+    <value>将所有成员设为 '{0}'</value>
+  </data>
+  <data name="ImportType_MultipleChoices_Text" xml:space="preserve">
+    <value>导入类型 '{0}' (多重选择…)?</value>
+  </data>
+  <data name="ConfigureCleanupProfiles_Text" xml:space="preserve">
+    <value>配置清理配置文件…</value>
+  </data>
+  <data name="PreviousValue_DetectedValue__Text" xml:space="preserve">
+    <value>上一个值 {0}，检测到的值 {1}</value>
+  </data>
+  <data name="MakeTypes__Text" xml:space="preserve">
+    <value>将类型设为 {0}</value>
+  </data>
+  <data name="IntroduceAutoProperty_WithPrivateSetter_Text" xml:space="preserve">
+    <value>引入具有 private setter 的自动属性 '{0}'</value>
+  </data>
+  <data name="ConfigureInspectionSeverity_Text" xml:space="preserve">
+    <value>配置检查严重性</value>
+  </data>
+  <data name="Make____Text" xml:space="preserve">
+    <value>使 {0} '{1}' {2}</value>
+  </data>
+</root>

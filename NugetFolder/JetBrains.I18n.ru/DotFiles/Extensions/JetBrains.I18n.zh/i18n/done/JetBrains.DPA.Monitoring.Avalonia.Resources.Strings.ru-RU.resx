@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FilterIssueByModuleAction" xml:space="preserve">
+    <value>在分析中排除模块 '{0}'</value>
+  </data>
+  <data name="NoRunningProcess" xml:space="preserve">
+    <value>要查看实时性能洞察，
+请运行或调试您的应用程序</value>
+  </data>
+  <data name="IssuesHeader" xml:space="preserve">
+    <value>检测到的问题</value>
+  </data>
+  <data name="LinkFeedback" xml:space="preserve">
+    <value>分享反馈</value>
+  </data>
+  <data name="ChartLabel_Cpu" xml:space="preserve">
+    <value>CPU</value>
+  </data>
+  <data name="ToolTipShowAllData" xml:space="preserve">
+    <value>分析完整时间范围</value>
+  </data>
+  <data name="FilterIssueByTypeAction" xml:space="preserve">
+    <value>在分析中排除类型 '{0}'</value>
+  </data>
+  <data name="SessionStopProfiling" xml:space="preserve">
+    <value>由于正在分析，监控被暂停</value>
+  </data>
+  <data name="ToolTipTimelineProfiling" xml:space="preserve">
+    <value>开始时间线分析</value>
+  </data>
+  <data name="ToolTipSelectIssueRange" xml:space="preserve">
+    <value>选择问题范围</value>
+  </data>
+  <data name="SessionStopLimitSnapshotSize" xml:space="preserve">
+    <value>监测已暂停 - 已达到数据大小上限</value>
+  </data>
+  <data name="SuppressActionWithAttribute" xml:space="preserve">
+    <value>禁止带有特性的问题</value>
+  </data>
+  <data name="LicenseActionAllData" xml:space="preserve">
+    <value>全部显示</value>
+  </data>
+  <data name="IssueDescription_Freeze" xml:space="preserve">
+    <value>UI 冻结</value>
+  </data>
+  <data name="FilterIssueByTypeActionNoLicense" xml:space="preserve">
+    <value>按类型筛选</value>
+  </data>
+  <data name="LicenseHeader" xml:space="preserve">
+    <value>使用 dotUltimate 解锁</value>
+  </data>
+  <data name="LicenseActionRange" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="SetThresholdAction_to" xml:space="preserve">
+    <value>为此问题类型设置新的阈值: {0}</value>
+  </data>
+  <data name="ToolTipFix" xml:space="preserve">
+    <value>修正问题</value>
+  </data>
+  <data name="EtwHostRun" xml:space="preserve">
+    <value>运行一次 'ETW Host Service'</value>
+  </data>
+  <data name="EnvironmentCommandLine" xml:space="preserve">
+    <value>命令行</value>
+  </data>
+  <data name="MonitoringNavigateActionNoLicense" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="FixWithAITask" xml:space="preserve">
+    <value>`{0}` (`{1}`)存在性能问题。请分析并提供修正方法。</value>
+  </data>
+  <data name="ChartsHeader" xml:space="preserve">
+    <value>图表</value>
+  </data>
+  <data name="ToolTipStopProfiling" xml:space="preserve">
+    <value>停止分析</value>
+  </data>
+  <data name="ToolTipFilterIssues" xml:space="preserve">
+    <value>显示问题</value>
+  </data>
+  <data name="FilterIssueByModuleActionNoLicense" xml:space="preserve">
+    <value>按模块筛选</value>
+  </data>
+  <data name="LicenseActionGc" xml:space="preserve">
+    <value>垃圾回收压力</value>
+  </data>
+  <data name="SetThresholdAction_to_ms" xml:space="preserve">
+    <value>为此问题类型设置新的阈值: {0} ms</value>
+  </data>
+  <data name="IssueDescription_PotentialIssue" xml:space="preserve">
+    <value>性能热点</value>
+  </data>
+  <data name="LicenseActionHotspot" xml:space="preserve">
+    <value>Hotspot</value>
+  </data>
+  <data name="LicenseList1" xml:space="preserve">
+    <value>查找并修正性能瓶颈</value>
+  </data>
+  <data name="LicenseList2" xml:space="preserve">
+    <value>了解是什么拖慢了您的应用</value>
+  </data>
+  <data name="LicenseList3" xml:space="preserve">
+    <value>利用高级洞察进行优化</value>
+  </data>
+  <data name="EtwHostLearnMore" xml:space="preserve">
+    <value>了解详情</value>
+  </data>
+  <data name="ChartLabel_TotalMemory" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="EtwHostInstall" xml:space="preserve">
+    <value>安装 'ETW Host Service'</value>
+  </data>
+  <data name="FixWithAI" xml:space="preserve">
+    <value>使用 AI 修正...</value>
+  </data>
+  <data name="FilterIssueByMethodActionNoLicense" xml:space="preserve">
+    <value>按方法筛选</value>
+  </data>
+  <data name="ExplainWithAI" xml:space="preserve">
+    <value>使用 AI 解释...</value>
+  </data>
+  <data name="EnvironmentStartTime" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="FilterIssueByMethodAction" xml:space="preserve">
+    <value>在分析中排除方法 '{0}'</value>
+  </data>
+  <data name="ExplainWithAITask" xml:space="preserve">
+    <value>`{0}` (`{1}`)存在性能问题。请分析并提供详细解释。</value>
+  </data>
+  <data name="LicenseHint" xml:space="preserve">
+    <value>30 天免费试用</value>
+  </data>
+  <data name="ShowHelp" xml:space="preserve">
+    <value>显示问题帮助…</value>
+  </data>
+  <data name="LicenseStartTrial" xml:space="preserve">
+    <value>尝试一下</value>
+  </data>
+  <data name="ChartLabel_GC" xml:space="preserve">
+    <value>垃圾回收</value>
+  </data>
+  <data name="ChartLabel_NetMemory" xml:space="preserve">
+    <value>托管</value>
+  </data>
+  <data name="IssuesMenuOpen" xml:space="preserve">
+    <value>分析问题…</value>
+  </data>
+  <data name="ChartLabel_Memory" xml:space="preserve">
+    <value>内存</value>
+  </data>
+  <data name="LicenseActionFreeze" xml:space="preserve">
+    <value>UI 冻结</value>
+  </data>
+  <data name="ToolTipMemorySnapshot" xml:space="preserve">
+    <value>获取内存快照</value>
+  </data>
+  <data name="ToolTipSamplingProfiling" xml:space="preserve">
+    <value>开始采样分析</value>
+  </data>
+  <data name="SessionStopArmEmulated" xml:space="preserve">
+    <value>监测不支持分析在 ARM 计算机上运行的 x64 模拟进程。</value>
+  </data>
+  <data name="LicenseDescription" xml:space="preserve">
+    <value>&lt;i&gt;监测&lt;/i&gt; 工具检测到您的应用中存在潜在运行时问题。如果您想追溯到导致问题的方法，dotTrace 可以提供帮助。</value>
+  </data>
+  <data name="EtwHostMessage" xml:space="preserve">
+    <value>.NET 监测未处于有效状态。请确保已安装 'ETW Host Service'。</value>
+  </data>
+  <data name="EnvironmentProcessArchitecture" xml:space="preserve">
+    <value>进程架构</value>
+  </data>
+  <data name="MenuGroupScope" xml:space="preserve">
+    <value>分析作用域</value>
+  </data>
+  <data name="EnvironmentSeparator" xml:space="preserve">
+    <value> = </value>
+  </data>
+  <data name="DismissIssueAction" xml:space="preserve">
+    <value>忽略问题</value>
+  </data>
+  <data name="EnvironmentFilePath" xml:space="preserve">
+    <value>文件路径</value>
+  </data>
+  <data name="IssueDescription_GC" xml:space="preserve">
+    <value>高垃圾回收活动</value>
+  </data>
+  <data name="TabCharts" xml:space="preserve">
+    <value>性能</value>
+  </data>
+  <data name="TabEnvironment" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="MenuGroupIgnore" xml:space="preserve">
+    <value>忽略问题</value>
+  </data>
+  <data name="ToolTipShowDataForRange" xml:space="preserve">
+    <value>分析所选时间范围</value>
+  </data>
+  <data name="MonitoringNavigateAction" xml:space="preserve">
+    <value>导航到 '{0}'</value>
+  </data>
+  <data name="LicenseActionAsp" xml:space="preserve">
+    <value>ASP.NET Core 问题</value>
+  </data>
+  <data name="LicenseActionSql" xml:space="preserve">
+    <value>数据库问题</value>
+  </data>
+  <data name="EnvironmentVariablesHeader" xml:space="preserve">
+    <value>环境变量</value>
+  </data>
+  <data name="ToolTipClearSelection" xml:space="preserve">
+    <value>清除选区</value>
+  </data>
+  <data name="SessionStopDefault" xml:space="preserve">
+    <value>监测已暂停。</value>
+  </data>
+  <data name="EnvironmentProcessId" xml:space="preserve">
+    <value>进程 ID</value>
+  </data>
+  <data name="TabCounters" xml:space="preserve">
+    <value>计数器</value>
+  </data>
+  <data name="ToolTipCallStack" xml:space="preserve">
+    <value>收集堆栈跟踪</value>
+  </data>
+  <data name="MenuGroupAnalysis" xml:space="preserve">
+    <value>分析</value>
+  </data>
+</root>

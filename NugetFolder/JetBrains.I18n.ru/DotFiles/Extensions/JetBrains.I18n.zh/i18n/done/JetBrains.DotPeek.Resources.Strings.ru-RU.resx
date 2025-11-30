@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PathToDiffTool_Text" xml:space="preserve">
+    <value>外部差异工具位置:</value>
+  </data>
+  <data name="DiffToolCommandLineArguments_Text" xml:space="preserve">
+    <value>命令行实参:</value>
+  </data>
+  <data name="Show_TokenValues_Text" xml:space="preserve">
+    <value>显示令牌值(_T)</value>
+  </data>
+  <data name="DumpLoadedAssembliesActionText" xml:space="preserve">
+    <value>转储加载的程序集</value>
+  </data>
+  <data name="NavigateActionGroupText" xml:space="preserve">
+    <value>导航(&amp;N)</value>
+  </data>
+  <data name="_ColorIdentifiersAndShowTooltips_Text" xml:space="preserve">
+    <value>颜色标识符和显示工具提示(_C)</value>
+  </data>
+  <data name="DarkTheme_Text" xml:space="preserve">
+    <value>深色</value>
+  </data>
+  <data name="EnablePrivateSource_LinkSupport_Text" xml:space="preserve">
+    <value>启用不公开源链接支持(_L)</value>
+  </data>
+  <data name="BoundTo__Text" xml:space="preserve">
+    <value>{0}
+绑定到 {1}，</value>
+  </data>
+  <data name="AllAssemblies_FilterText" xml:space="preserve">
+    <value>所有程序集</value>
+  </data>
+  <data name="CurrentFile_Text" xml:space="preserve">
+    <value>当前文件(&amp;F)</value>
+  </data>
+  <data name="HideCompilerGeneratedCode_Text" xml:space="preserve">
+    <value>隐藏编译器生成的代码</value>
+  </data>
+  <data name="DotPeekDiffSettingDescription" xml:space="preserve">
+    <value>DotPeek external diff tool settings</value>
+  </data>
+  <data name="LoadedAssemblies_Text" xml:space="preserve">
+    <value>已加载的程序集(&amp;A)</value>
+  </data>
+  <data name="Font_Text" xml:space="preserve">
+    <value>字体:</value>
+  </data>
+  <data name="NETXActionText" xml:space="preserve">
+    <value>.NET 2.0 x86</value>
+  </data>
+  <data name="SaveAsActionText" xml:space="preserve">
+    <value>另存为…</value>
+  </data>
+  <data name="Show_XmlDocumentationInDecompiledSources_Text" xml:space="preserve">
+    <value>在反编译的源代码中显示 XML 文档(_X)</value>
+  </data>
+  <data name="DotPeekDiffToolPathSettingDescription" xml:space="preserve">
+    <value>Path to external diff tool</value>
+  </data>
+  <data name="Show_PinButtonInUnpinnedTabs_Text" xml:space="preserve">
+    <value>在未固定的标签页中显示固定按钮(_P)</value>
+  </data>
+  <data name="File_CannotBeSaved_Text" xml:space="preserve">
+    <value>不能保存文件 {0}</value>
+  </data>
+  <data name="PdbAccessLog_Text" xml:space="preserve">
+    <value>Pdb 访问日志</value>
+  </data>
+  <data name="DiffToolCommandLineArgumentsFormatDescription_Text" xml:space="preserve">
+    <value>$1 和 $2 指示要比较的第一个和第二个文件的路径</value>
+  </data>
+  <data name="Tutorial_MenuItemText" xml:space="preserve">
+    <value>教程</value>
+  </data>
+  <data name="CompilerGeneratedCodeActionText" xml:space="preserve">
+    <value>编译器生成的代码(&amp;G)</value>
+  </data>
+  <data name="Port_Text" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="IndentSize_Text" xml:space="preserve">
+    <value>缩进大小</value>
+  </data>
+  <data name="StopSymbolServer_Text" xml:space="preserve">
+    <value>停止符号服务器</value>
+  </data>
+  <data name="_AllAssemblies_FilterText" xml:space="preserve">
+    <value>所有程序集(_A)</value>
+  </data>
+  <data name="_VerticalScrollbar_Text" xml:space="preserve">
+    <value>垂直滚动条(_V)</value>
+  </data>
+  <data name="Show_ILCodeInComments_Text" xml:space="preserve">
+    <value>在注释中显示 IL 代码(_I)</value>
+  </data>
+  <data name="Use_KnownDiffTool_ButtonText" xml:space="preserve">
+    <value>使用“{0}”</value>
+  </data>
+  <data name="SymbolServerSetup_Caption" xml:space="preserve">
+    <value>符号服务器设置</value>
+  </data>
+  <data name="InspectActionGroupText" xml:space="preserve">
+    <value>检查(&amp;I)</value>
+  </data>
+  <data name="PlaceOpenBraceOn_NewLine_Text" xml:space="preserve">
+    <value>将左大括号置于新行中(_N)</value>
+  </data>
+  <data name="LightTheme_Text" xml:space="preserve">
+    <value>细</value>
+  </data>
+  <data name="UseTernaryConditionalOperators_Text" xml:space="preserve">
+    <value>使用三元条件运算符(?:)</value>
+  </data>
+  <data name="SymbolServer_SymbolFilesPdbGeneration_TooltipText" xml:space="preserve">
+    <value>符号服务器({0})
+符号文件(.pdb)生成:
+{1}</value>
+  </data>
+  <data name="Diff_OptionsPageTitle" xml:space="preserve">
+    <value>差异</value>
+  </data>
+  <data name="SyncToVisualStudioThemeSettingDescription" xml:space="preserve">
+    <value>同步到 Visual Studio 主题</value>
+  </data>
+  <data name="AboutJetBrainsDotPeekActionText" xml:space="preserve">
+    <value>关于 JetBrains dotPeek(&amp;A)…</value>
+  </data>
+  <data name="StartSymbolServer_Text" xml:space="preserve">
+    <value>启动符号服务器</value>
+  </data>
+  <data name="OptionsActionText" xml:space="preserve">
+    <value>选项(&amp;O)…</value>
+  </data>
+  <data name="AllExceptDotNet_FrameworkAssemblies_FilterText" xml:space="preserve">
+    <value>除 .NET Framework 程序集以外的所有程序集(_F)</value>
+  </data>
+  <data name="SchemeVs" xml:space="preserve">
+    <value>_Visual Studio (Default)</value>
+  </data>
+  <data name="DotPeeksThemingSettingDescription" xml:space="preserve">
+    <value>DotPeek 主题设置</value>
+  </data>
+  <data name="DumpExternalSourcesSupportInformationActionText" xml:space="preserve">
+    <value>转储外部源支持信息</value>
+  </data>
+  <data name="InsertNewTabsToThe_RightOfExistingTabs_Text" xml:space="preserve">
+    <value>在现有标签页的右侧插入新标签页(_R)</value>
+  </data>
+  <data name="DotPeekSymbolServerDescription_Text" xml:space="preserve">
+    <value>&lt;a&gt;dotPeek 符号服务器&lt;/a&gt;允许调试器为已加载的程序集自动检索正确的调试符号文件。要将 dotPeek 符号服务器添加到 Visual Studio 符号位置，请在 Visual Studio 选项(工具 | 选项 | 调试 | 符号 | 符号文件位置)中指定以下地址: {0}
+
+请选择要为其生成调试符号文件(.pdb)的程序集。您可以稍后{1}更改您的选择。</value>
+  </data>
+  <data name="LicenseVersionWasAcceptedByUserSettingDescription" xml:space="preserve">
+    <value>许可证版本已被用户接受</value>
+  </data>
+  <data name="_HighlightCurrentLine_Text" xml:space="preserve">
+    <value>高亮显示当前行(_H)</value>
+  </data>
+  <data name="Use_CamelHumpsForNavigation_Text" xml:space="preserve">
+    <value>使用 CamelHumps 进行导航(_C)</value>
+  </data>
+  <data name="DeleteDecompiledFileActionText" xml:space="preserve">
+    <value>删除反编译的文件</value>
+  </data>
+  <data name="ProductRegionAndCultureSettings_Text" xml:space="preserve">
+    <value>区域与区域性</value>
+  </data>
+  <data name="LicenseWasAcceptedByUserSettingDescription" xml:space="preserve">
+    <value>许可证已被用户接受</value>
+  </data>
+  <data name="At_OuterSide_Text" xml:space="preserve">
+    <value>外侧(_O)</value>
+  </data>
+  <data name="AllExceptNuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
+    <value>除 NuGet 软件包缓存程序集以外的所有程序集</value>
+  </data>
+  <data name="AllowDownloadingFrom_RemoteLocations_Text" xml:space="preserve">
+    <value>允许从远程位置下载(_R)</value>
+  </data>
+  <data name="UseSourcesFrom_SymbolFilesWhenAvailable_Text" xml:space="preserve">
+    <value>尽可能使用符号文件中的源代码(_S)</value>
+  </data>
+  <data name="WindowsActionGroupText" xml:space="preserve">
+    <value>Windows(&amp;W)</value>
+  </data>
+  <data name="GoToAssembly_Text" xml:space="preserve">
+    <value>转到程序集…</value>
+  </data>
+  <data name="_OpenNewDocumentsInThePreviewTab_Text" xml:space="preserve">
+    <value>在预览标签页中打开新文档(_O)</value>
+  </data>
+  <data name="ChooseDiffTool_Caption" xml:space="preserve">
+    <value>选择差异工具来比较文件</value>
+  </data>
+  <data name="HelpActionGroupText" xml:space="preserve">
+    <value>帮助(&amp;H)</value>
+  </data>
+  <data name="DotPeekDiffToolCommandLineArgumentsSettingDescription" xml:space="preserve">
+    <value>External diff tool command line arguments</value>
+  </data>
+  <data name="GeneratePdbFor_Caption" xml:space="preserve">
+    <value>为以下程序集生成符号文件(.pdb):</value>
+  </data>
+  <data name="VisualExperience_Header" xml:space="preserve">
+    <value>视觉效果</value>
+  </data>
+  <data name="UseNullCoalescingOperators_Text" xml:space="preserve">
+    <value>使用 null 合并运算符(??)</value>
+  </data>
+  <data name="AllExceptDotNetFrameworkAssemblies_FilterText" xml:space="preserve">
+    <value>除 .NET Framework 程序集以外的所有程序集</value>
+  </data>
+  <data name="Outline_Text" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="Use_FileScopedNamespaces_Text" xml:space="preserve">
+    <value>使用文件作用域的命名空间(_F)</value>
+  </data>
+  <data name="UseStringInterpolation_Text" xml:space="preserve">
+    <value>使用字符串内插</value>
+  </data>
+  <data name="ByProvider_Text" xml:space="preserve">
+    <value>通过 '{0}' 提供程序</value>
+  </data>
+  <data name="ToolsActionGroupText" xml:space="preserve">
+    <value>工具(&amp;T)</value>
+  </data>
+  <data name="Viewer_OptionsPageTitle" xml:space="preserve">
+    <value>查看器</value>
+  </data>
+  <data name="ResetSymbolServerFirstStartSettingActionText" xml:space="preserve">
+    <value>Reset SymbolServer FirstStart Setting</value>
+  </data>
+  <data name="Show_CompilerGeneratedCode_Text" xml:space="preserve">
+    <value>显示编译器生成的代码(_C)</value>
+  </data>
+  <data name="AllExceptGACAssemblies_FilterText" xml:space="preserve">
+    <value>除 GAC 程序集以外的所有程序集</value>
+  </data>
+  <data name="_LineNumbers_Text" xml:space="preserve">
+    <value>行号(_L)</value>
+  </data>
+  <data name="Color_Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="ShowMetadataTokenValues_Text" xml:space="preserve">
+    <value>显示元数据令牌值</value>
+  </data>
+  <data name="ShowCompilerGeneratedCode_Text" xml:space="preserve">
+    <value>显示编译器生成的代码</value>
+  </data>
+  <data name="ViewActionGroupText" xml:space="preserve">
+    <value>查看(&amp;V)</value>
+  </data>
+  <data name="KeyboardShortcutScheme_Text" xml:space="preserve">
+    <value>键盘快捷键方案</value>
+  </data>
+  <data name="_SyncToVisualStudioColorTheme_Text" xml:space="preserve">
+    <value>同步到 Visual Studio 颜色主题(_S)</value>
+  </data>
+  <data name="IntegrateWith_WindowsExplorer_Text" xml:space="preserve">
+    <value>与 Windows 资源管理器集成(_W)</value>
+  </data>
+  <data name="DiffToolArgumentsMustContain2_Text" xml:space="preserve">
+    <value>实参必须包含 '$2'</value>
+  </data>
+  <data name="Decompile_VeryLongMethods_Text" xml:space="preserve">
+    <value>反编译很长的方法(_V)</value>
+  </data>
+  <data name="IndentStyle_Text" xml:space="preserve">
+    <value>缩进样式</value>
+  </data>
+  <data name="DiffToolArgumentsMustContain1_Text" xml:space="preserve">
+    <value>实参必须包含 '$1'</value>
+  </data>
+  <data name="SymbolServer_OptionsPageTitle" xml:space="preserve">
+    <value>符号服务器</value>
+  </data>
+  <data name="Highlight_MatchingDelimitersWhenCaretIs_Text" xml:space="preserve">
+    <value>当文本光标位于以下位置时高亮显示匹配的分隔符(_M):</value>
+  </data>
+  <data name="AllExcept_GACAssemblies_FilterText" xml:space="preserve">
+    <value>除 GAC 程序集以外的所有程序集(_G)</value>
+  </data>
+  <data name="At_BothSides_Text" xml:space="preserve">
+    <value>两侧(_B)</value>
+  </data>
+  <data name="HideMetadataTokenValues_Text" xml:space="preserve">
+    <value>隐藏元数据令牌值</value>
+  </data>
+  <data name="Keyboard_Header" xml:space="preserve">
+    <value>键盘</value>
+  </data>
+  <data name="SymbolServer_Caption" xml:space="preserve">
+    <value>符号服务器</value>
+  </data>
+  <data name="UseNullConditionalOperators_Text" xml:space="preserve">
+    <value>使用 null 条件运算符(?. 和 ?[])</value>
+  </data>
+  <data name="AllExcept_NuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
+    <value>除 NuGet 软件包缓存程序集以外的所有程序集(_N)</value>
+  </data>
+  <data name="DotPeeksLicenseAgreementSettingDescription" xml:space="preserve">
+    <value>DotPeek 许可协议</value>
+  </data>
+  <data name="SYmbolServerActionText" xml:space="preserve">
+    <value>符号服务器(&amp;Y)</value>
+  </data>
+  <data name="DiffToolArgumentsMustBeANonEmptyString_Text" xml:space="preserve">
+    <value>实参必须是非空字符串</value>
+  </data>
+  <data name="PathToDiffTool_FileChooser_ToolTip" xml:space="preserve">
+    <value>差异工具路径</value>
+  </data>
+  <data name="AssembliesOpenedInTheAssemblyExplorer_FilterText" xml:space="preserve">
+    <value>在程序集资源管理器中打开的程序集</value>
+  </data>
+  <data name="UseThemedWindowChrome_Text" xml:space="preserve">
+    <value>使用 Chrome 主题窗口</value>
+  </data>
+  <data name="ToAddDotPeekSymbolServerToVisualStudio_Text" xml:space="preserve">
+    <value>要将 dotPeek 符号服务器添加到 Visual Studio 符号位置，请在 Visual Studio 选项(工具 | 选项 | 调试 | 符号 | 符号文件位置)中指定以下地址:</value>
+  </data>
+  <data name="ForMoreInformationAboutDotPeekSymbolServerSee_Text" xml:space="preserve">
+    <value>有关 dotPeek 符号服务器的详细信息，请参阅</value>
+  </data>
+  <data name="BlueTheme_Text" xml:space="preserve">
+    <value>蓝色</value>
+  </data>
+  <data name="MetadataToKenValuesActionText" xml:space="preserve">
+    <value>元数据令牌值(&amp;K)</value>
+  </data>
+  <data name="CopyToClipboard_Text" xml:space="preserve">
+    <value>复制到剪贴板</value>
+  </data>
+  <data name="WindowsMetadataFilesWinRTActionText" xml:space="preserve">
+    <value>Windows 元数据文件(WinRT)</value>
+  </data>
+  <data name="Decompile_ProtectedAssemblies_Text" xml:space="preserve">
+    <value>反编译受保护的程序集(忽略 SuppressIldasm 特性)(_P)</value>
+  </data>
+  <data name="OpenSolutionActionText" xml:space="preserve">
+    <value>打开解决方案…</value>
+  </data>
+  <data name="SchemeIdea" xml:space="preserve">
+    <value>IntelliJ _IDEA</value>
+  </data>
+  <data name="HighlightWith_Text" xml:space="preserve">
+    <value>高亮显示方式</value>
+  </data>
+  <data name="InternaLActionGroupText" xml:space="preserve">
+    <value>内部(&amp;L)</value>
+  </data>
+  <data name="Decompiler_OptionsPageTitle" xml:space="preserve">
+    <value>反编译器</value>
+  </data>
+  <data name="KeyboardShortcutsActionText" xml:space="preserve">
+    <value>键盘快捷键(&amp;K)</value>
+  </data>
+  <data name="PdbAccessLogActionText" xml:space="preserve">
+    <value>Pdb 访问日志(&amp;A)</value>
+  </data>
+  <data name="PresentationOfTypeBy_Text" xml:space="preserve">
+    <value>{0} 类型通过 {1} 的演示</value>
+  </data>
+  <data name="InDotPeekSymbolServerOptions_Text" xml:space="preserve">
+    <value>在 dotPeek 选项(工具 | 选项 | 符号服务器)中</value>
+  </data>
+  <data name="VisibleWhite_Spaces_Text" xml:space="preserve">
+    <value>可见空格(_S)</value>
+  </data>
+  <data name="ShowILCodeInCommentsActionText" xml:space="preserve">
+    <value>在注释中显示 IL 代码(&amp;L)</value>
+  </data>
+  <data name="DotPeeksColorThemeSettingDescription" xml:space="preserve">
+    <value>DotPeek 颜色主题</value>
+  </data>
+  <data name="FileActionGroupText" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="AccessTo_IsDenied_Text" xml:space="preserve">
+    <value>访问 {0} 被拒绝!</value>
+  </data>
+  <data name="_Ok_ButtonText" xml:space="preserve">
+    <value>确定(_O)</value>
+  </data>
+  <data name="NETFrameworkActionGroupText" xml:space="preserve">
+    <value>.NET Framework</value>
+  </data>
+  <data name="Properties_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="_WordWrap_Text" xml:space="preserve">
+    <value>自动换行(_W)</value>
+  </data>
+  <data name="NavigateForwardActionText" xml:space="preserve">
+    <value>向前导航</value>
+  </data>
+  <data name="Color_Theme_Text" xml:space="preserve">
+    <value>颜色主题(_T):</value>
+  </data>
+  <data name="DumpActionsAndShortcutsActionText" xml:space="preserve">
+    <value>Dump Actions and Shortcuts</value>
+  </data>
+  <data name="EnterAssemblyName_Text" xml:space="preserve">
+    <value>输入程序集名称:</value>
+  </data>
+  <data name="Use_ExpressionBodiedMembers_Text" xml:space="preserve">
+    <value>使用表达式体成员(_E)</value>
+  </data>
+  <data name="ShowManaged_MemoryUsageInStatusBar_Text" xml:space="preserve">
+    <value>在状态栏中显示托管内存使用情况(_M)</value>
+  </data>
+  <data name="NavigateBackwardActionText" xml:space="preserve">
+    <value>向后导航</value>
+  </data>
+  <data name="_HorizontalScrollbar_Text" xml:space="preserve">
+    <value>水平滚动条(_H)</value>
+  </data>
+  <data name="ThisIsTheFirstTimeYouRunDotPeekSymbolServer_Text" xml:space="preserve">
+    <value>这是您第一次运行 dotPeek 符号服务器</value>
+  </data>
+  <data name="Tutorial_Text" xml:space="preserve">
+    <value>此教程</value>
+  </data>
+  <data name="Region_Text" xml:space="preserve">
+    <value>区域:</value>
+  </data>
+  <data name="AssembliesOpenedInTheAssembly_Explorer_FilterText" xml:space="preserve">
+    <value>在程序集资源管理器中打开的程序集(_E)</value>
+  </data>
+  <data name="TextControl_Header" xml:space="preserve">
+    <value>文本控制</value>
+  </data>
+  <data name="ShowMetadataTokenValues2_Text" xml:space="preserve">
+    <value>显示元数据令牌值</value>
+  </data>
+  <data name="CopySymbolServerURL_Text" xml:space="preserve">
+    <value>复制符号服务器 URL</value>
+  </data>
+  <data name="DotPeekDefaultOptions_Text" xml:space="preserve">
+    <value>dotPeek 默认选项</value>
+  </data>
+  <data name="_Cancel_ButtonText" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="SilverlightActionText" xml:space="preserve">
+    <value>Silverlight 3</value>
+  </data>
+  <data name="Assembly_GotoTargetText" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="Tabs_OptionsPageTitle" xml:space="preserve">
+    <value>选项卡</value>
+  </data>
+  <data name="OpenFrameworkAssembliesActionGroupText" xml:space="preserve">
+    <value>打开 Framework 程序集</value>
+  </data>
+  <data name="CodeStyleAndFormatting_Header" xml:space="preserve">
+    <value>代码样式和格式化</value>
+  </data>
+  <data name="DotPeekSpecificSettingsSettingDescription" xml:space="preserve">
+    <value>DotPeek 特定的设置</value>
+  </data>
+  <data name="UseWithExpressions_Text" xml:space="preserve">
+    <value>使用 'with' 表达式</value>
+  </data>
+  <data name="CodeHighlight_Header" xml:space="preserve">
+    <value>代码高亮显示</value>
+  </data>
+  <data name="About__ActionText" xml:space="preserve">
+    <value>关于 {0} {1}(&amp;A)…</value>
+  </data>
+  <data name="SilverlightActionGroupText" xml:space="preserve">
+    <value>Silverlight</value>
+  </data>
+  <data name="UseWindowChromeForTheMainWindowSettingDescription" xml:space="preserve">
+    <value>为主窗口使用窗口镶边</value>
+  </data>
+  <data name="CurrentlyIntegratedInstance_Text" xml:space="preserve">
+    <value>当前集成实例:</value>
+  </data>
+  <data name="OpenManyTabsActionText" xml:space="preserve">
+    <value>打开许多标签页</value>
+  </data>
+  <data name="_ByDefaultItGeneratesPdbFor_YouCanChangeIt_Text" xml:space="preserve">
+    <value>{0}。默认情况下，它会为 {1} 生成符号文件(.pdb)。您可以{2}进行更改。</value>
+  </data>
+  <data name="EnableTab_ColorsToIndicateCodePresentationMode_Text" xml:space="preserve">
+    <value>启用标签页颜色以指示代码演示模式(_C)</value>
+  </data>
+</root>

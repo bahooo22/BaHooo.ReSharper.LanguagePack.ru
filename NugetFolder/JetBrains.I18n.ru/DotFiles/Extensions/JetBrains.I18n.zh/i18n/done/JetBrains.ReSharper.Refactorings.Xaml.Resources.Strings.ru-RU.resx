@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_StyleName_Text" xml:space="preserve">
+    <value>样式名称(_S):</value>
+  </data>
+  <data name="FailedToReferenceExtractedResourceAfter_Text" xml:space="preserve">
+    <value>提取后无法引用提取的资源(资源可能被隐藏)</value>
+  </data>
+  <data name="ExistingResource0ReferenceWillBeHiddenByExtractedResource_Text" xml:space="preserve">
+    <value>现有资源{0, 引用}将被提取的资源隐藏</value>
+  </data>
+  <data name="InitializingRefactoring_Text" xml:space="preserve">
+    <value>正在初始化重构</value>
+  </data>
+  <data name="WhereToExtractNewResource_Text" xml:space="preserve">
+    <value>将新资源提取到哪里</value>
+  </data>
+  <data name="SearchingForResourceUsages_Text" xml:space="preserve">
+    <value>正在搜索资源用法…</value>
+  </data>
+  <data name="Inline_allUsages_Text" xml:space="preserve">
+    <value>内联所有用法(_A)</value>
+  </data>
+  <data name="ResourceN_ame_Text" xml:space="preserve">
+    <value>资源名称(_A):</value>
+  </data>
+  <data name="CheckingResources_Text" xml:space="preserve">
+    <value>正在检查资源…</value>
+  </data>
+  <data name="ExtractedStyleIsNotExplicitlyReferenced_Text" xml:space="preserve">
+    <value>由于现有{0, 样式引用}，提取的样式未明确引用</value>
+  </data>
+  <data name="ReplacingOccurrencesWithResourceReferences_Text" xml:space="preserve">
+    <value>正在将匹配项替换为资源引用</value>
+  </data>
+  <data name="ExtractXAMLStyleActionText" xml:space="preserve">
+    <value>提取 XAML 样式…</value>
+  </data>
+  <data name="WhereToMoveResource_Text" xml:space="preserve">
+    <value>将资源移动到哪里</value>
+  </data>
+  <data name="Resource0UsageInsideDeclaration_Text" xml:space="preserve">
+    <value>声明中的资源{0,用法}</value>
+  </data>
+  <data name="ExtractingProperties_Text" xml:space="preserve">
+    <value>正在提取属性…</value>
+  </data>
+  <data name="InliningUsages_Text" xml:space="preserve">
+    <value>正在内联用法…</value>
+  </data>
+  <data name="ThereIsNoTargetResourceDictionaryFound_Text" xml:space="preserve">
+    <value>找不到目标资源字典。
+不能在当前上下文中执行重构。</value>
+  </data>
+  <data name="ExtractXAMLStyle_Column_Value" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Project_Text" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="MoveXAMLResource_Text" xml:space="preserve">
+    <value>移动 XAML 资源</value>
+  </data>
+  <data name="SearchingForConflicts_Text" xml:space="preserve">
+    <value>正在搜索冲突…</value>
+  </data>
+  <data name="CanTAddArgumentsTo0BindBackMethodSince_Text" xml:space="preserve">
+    <value>无法向 {0,BindBack 方法}添加实参，因为此处不允许方法调用</value>
+  </data>
+  <data name="MethodInvocationInXBindCanTBeMadeStatic_Text" xml:space="preserve">
+    <value>x:Bind 中的{0,方法调用}无法通过引入形参设为 static</value>
+  </data>
+  <data name="__More_Text" xml:space="preserve">
+    <value>{0} (其他 {1} 个)</value>
+  </data>
+  <data name="Resource0UsageInlineWillProduceConflicts_Text" xml:space="preserve">
+    <value>内联资源{0, 用法}会产生冲突</value>
+  </data>
+  <data name="ConflictWithDefaultNamespaceAlias_Text" xml:space="preserve">
+    <value>与默认命名空间别名冲突</value>
+  </data>
+  <data name="ExtractXAMLResource_Text" xml:space="preserve">
+    <value>提取 XAML 资源</value>
+  </data>
+  <data name="Use_existingStyle_Text" xml:space="preserve">
+    <value>使用现有样式(_E):</value>
+  </data>
+  <data name="Assembly_Text" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="ExtractXAMLStyle_Column_Type" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="FailedTo0ReferenceMovedResourceResource_Text" xml:space="preserve">
+    <value>无法{0, 引用}移动的资源(资源可能被隐藏)</value>
+  </data>
+  <data name="ForInliningResource__Text" xml:space="preserve">
+    <value>用于内联资源 '{0}'</value>
+  </data>
+  <data name="CheckingConflicts_Text" xml:space="preserve">
+    <value>正在检查冲突…</value>
+  </data>
+  <data name="ResourceType_Text" xml:space="preserve">
+    <value>资源类型:</value>
+  </data>
+  <data name="ExistingResource0ReferenceWillBeHidden_Text" xml:space="preserve">
+    <value>现有资源{0, 引用}将被移动的资源隐藏</value>
+  </data>
+  <data name="CreateNewStyle_Text" xml:space="preserve">
+    <value>&lt;Create new style&gt;</value>
+  </data>
+  <data name="CreatingResourceDeclaration_Text" xml:space="preserve">
+    <value>正在创建资源声明</value>
+  </data>
+  <data name="CollectingReferences_Text" xml:space="preserve">
+    <value>正在收集引用…</value>
+  </data>
+  <data name="InlinedResourceHasPossibleDynamic0Usage_Text" xml:space="preserve">
+    <value>内联的资源有可能的 dynamic {0,用法}，移除资源声明后会被破坏</value>
+  </data>
+  <data name="CanTConvert0BoundEventHandlerToMethod_Text" xml:space="preserve">
+    <value>无法将{0,绑定事件处理程序}转换为方法调用</value>
+  </data>
+  <data name="Hides__Text" xml:space="preserve">
+    <value>隐藏了{0}</value>
+  </data>
+  <data name="ExplicitlyProvidedStyleIs_Extracted_Text" xml:space="preserve">
+    <value>{{0,明确提供的}}样式为 '{0}'。提取的属性将被置于 '{1}' 样式中。</value>
+  </data>
+  <data name="NoResourceUsagesInlined_Text" xml:space="preserve">
+    <value>没有内联的资源用法</value>
+  </data>
+  <data name="C_ollapsePropertyElementsToAttributes_Text" xml:space="preserve">
+    <value>将属性元素收起到特性(_O)</value>
+  </data>
+  <data name="_More_Text" xml:space="preserve">
+    <value>(+{0}更多) </value>
+  </data>
+  <data name="RenameOfElementsOfThisKindIs_Text" xml:space="preserve">
+    <value>尚不支持重命名此类元素</value>
+  </data>
+  <data name="RemovingSetters_Text" xml:space="preserve">
+    <value>正在移除 setter…</value>
+  </data>
+  <data name="InlineXAMLResourceActionText" xml:space="preserve">
+    <value>内联 XAML 资源…</value>
+  </data>
+  <data name="BindBackMethodInXBindCanTBeMadeStatic_Text" xml:space="preserve">
+    <value>x:Bind 中的 {0,BindBack 方法}无法通过引入形参设为 static</value>
+  </data>
+  <data name="_RemoveInlinedResourceDeclaration_Text" xml:space="preserve">
+    <value>移除内联的资源声明(_R)</value>
+  </data>
+  <data name="Replace_Occurrences_Text" xml:space="preserve">
+    <value>替换 {0} 个匹配项</value>
+  </data>
+  <data name="ToExtractIntoNewOrExistingStyle_Text" xml:space="preserve">
+    <value>以提取到新的或现有样式</value>
+  </data>
+  <data name="SpecifyOptions_Text" xml:space="preserve">
+    <value>指定选项</value>
+  </data>
+  <data name="Inline_dynamicUsages_Text" xml:space="preserve">
+    <value>内联 dynamic 用法(_D)</value>
+  </data>
+  <data name="MovingResourceDeclaration_Text" xml:space="preserve">
+    <value>正在移动资源声明</value>
+  </data>
+  <data name="ChooseProperties_Text" xml:space="preserve">
+    <value>选择属性</value>
+  </data>
+  <data name="ExtractXAMLStyle_Column_Property" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="DynamicResource_0Usage_WillBeBroken_Text" xml:space="preserve">
+    <value>dynamic 资源 '{0}' {{0, 用法}}{1}将被破坏</value>
+  </data>
+  <data name="NoResourceUsagesInlinedButDynamicReferences_Text" xml:space="preserve">
+    <value>没有内联的资源用法(但存在 dynamic 引用)</value>
+  </data>
+  <data name="LookingForReferencesInsideMarkupExtensions_Text" xml:space="preserve">
+    <value>正在标记扩展中查找引用</value>
+  </data>
+  <data name="ExtractXAMLStyle_Text" xml:space="preserve">
+    <value>提取 XAML 样式</value>
+  </data>
+  <data name="CreatingResourceBody_Text" xml:space="preserve">
+    <value>正在创建资源主体</value>
+  </data>
+  <data name="ReplacingOccurrencesWithReferences_Text" xml:space="preserve">
+    <value>正在将匹配项替换为引用</value>
+  </data>
+  <data name="ExtractXAMLResourceActionText" xml:space="preserve">
+    <value>提取 XAML 资源…</value>
+  </data>
+  <data name="Invalid_Text" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="ResourceWithTheSameNameAlreadyExists_Text" xml:space="preserve">
+    <value>已存在同名的资源</value>
+  </data>
+  <data name="AtLeastOnePropertyShouldBeSelected_Text" xml:space="preserve">
+    <value>必须至少选择一个属性</value>
+  </data>
+  <data name="ChooseLocation_Text" xml:space="preserve">
+    <value>选择位置</value>
+  </data>
+  <data name="UsagesOf0DeclarationMayBeBroken_Text" xml:space="preserve">
+    <value>{0, 声明}的用法可能已被破坏</value>
+  </data>
+  <data name="Allow_markupExtensionsExpansion_Text" xml:space="preserve">
+    <value>允许标记扩展展开(_M)</value>
+  </data>
+  <data name="CanTAddArgumentsTo0BindBackMethodSinceItShouldNotBeInvoked_Text" xml:space="preserve">
+    <value>无法向 {0,BindBack 方法}添加实参，因为不应调用它</value>
+  </data>
+  <data name="ReplaceOneOccurrence_Text" xml:space="preserve">
+    <value>替换一个匹配项</value>
+  </data>
+  <data name="StaticResource_0Usage_WillBeBroken_Text" xml:space="preserve">
+    <value>static 资源 '{0}' {{0, 用法}}{1}将被破坏</value>
+  </data>
+  <data name="CallSiteCanTBeMadeStaticWithIntroducing_Text" xml:space="preserve">
+    <value>{0,调用点}无法通过引入形参设为 static</value>
+  </data>
+  <data name="CollectingResourceUsages_Text" xml:space="preserve">
+    <value>正在收集资源用法</value>
+  </data>
+  <data name="ReplaceInitialExpressionOnly_Text" xml:space="preserve">
+    <value>仅替换初始表达式。</value>
+  </data>
+  <data name="CheckingTypeReferences_Text" xml:space="preserve">
+    <value>正在检查类型引用…</value>
+  </data>
+  <data name="TargetStyle_AlreadyProvides0SetterFor_Text" xml:space="preserve">
+    <value>目标样式 '{0}' 已为属性 '{1}' 提供 {{0,setter}}</value>
+  </data>
+  <data name="InlineXAMLResource_Text" xml:space="preserve">
+    <value>内联 XAML 资源</value>
+  </data>
+  <data name="RefactoringHasDetectedThatExtraReference_Text" xml:space="preserve">
+    <value>重构检测到应添加对 '{0}' {1} 的额外引用以使用类型 {2}</value>
+  </data>
+  <data name="ReplaceAllHighlightedOccurrencesOfInitial_Text" xml:space="preserve">
+    <value>替换初始表达式的所有高亮显示匹配项</value>
+  </data>
+  <data name="ReferenceResource_statically_Text" xml:space="preserve">
+    <value>静态引用资源(_S)</value>
+  </data>
+  <data name="CheckingCodebehindReferences_Text" xml:space="preserve">
+    <value>正在检查代码隐藏引用…</value>
+  </data>
+  <data name="CheckingForConflicts_Text" xml:space="preserve">
+    <value>正在检查冲突…</value>
+  </data>
+  <data name="_Resources__Text" xml:space="preserve">
+    <value>{0} (资源: {1})</value>
+  </data>
+</root>

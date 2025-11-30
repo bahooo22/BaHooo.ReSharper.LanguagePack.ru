@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ToCollectionReturn_Text" xml:space="preserve">
+  <value>Преобразовать в возврат коллекции</value>
+</data>
+<data name="ToConst_Text" xml:space="preserve">
+  <value>Преобразовать в const</value>
+</data>
+<data name="Reference_AndUseMethod__Text" xml:space="preserve">
+  <value>Ссылаться на '{0}' и использовать метод '{1}'</value>
+</data>
+<data name="RemoveIteratorModifier_Text" xml:space="preserve">
+  <value>Удалить модификатор 'Iterator'</value>
+</data>
+<data name="SpecifyStringComparison_Text" xml:space="preserve">
+  <value>Указать сравнение строк</value>
+</data>
+<data name="CanBeNull_Text" xml:space="preserve">
+  <value>Может быть null</value>
+</data>
+<data name="CreateNestedDelegate__Text" xml:space="preserve">
+  <value>Создать вложенный делегат '{0}'</value>
+</data>
+<data name="CreateLocalVariable__Text" xml:space="preserve">
+  <value>Создать локальную переменную '{0}'</value>
+</data>
+<data name="ToAutoPropertyWithPrivateSetter_Text" xml:space="preserve">
+  <value>Преобразовать в автосвойство с private setter</value>
+</data>
+<data name="RemoveUnusedLabel_Text" xml:space="preserve">
+  <value>Удалить неиспользуемую метку</value>
+</data>
+<data name="Make__NonReadonly_Text" xml:space="preserve">
+  <value>Сделать {0} '{1}' не readonly</value>
+</data>
+<data name="CreateParameter_InContaining__Text" xml:space="preserve">
+  <value>Создать параметр '{0}' в содержащем {1}</value>
+</data>
+<data name="CompareADifferenceWithEpsilon_Text" xml:space="preserve">
+  <value>Сравнить разницу с Epsilon</value>
+</data>
+<data name="ReplaceExpressionWith__Text" xml:space="preserve">
+  <value>Заменить выражение на '{0}'</value>
+</data>
+<data name="RemoveThenKeyword_Text" xml:space="preserve">
+  <value>Удалить ключевое слово 'Then'</value>
+</data>
+<data name="FixFloatingPointNumbersComparing__Text" xml:space="preserve">
+  <value>Исправить сравнение чисел с плавающей запятой. {0}</value>
+</data>
+<data name="CreateConstructor__Text" xml:space="preserve">
+  <value>Создать конструктор {0}</value>
+</data>
+<data name="ConvertToSelectCaseStatement_Text" xml:space="preserve">
+  <value>Преобразовать в оператор 'Select Case'</value>
+</data>
+<data name="AddAsyncModifier_Text" xml:space="preserve">
+  <value>Добавить модификатор 'Async'</value>
+</data>
+<data name="RethrowException_Text" xml:space="preserve">
+  <value>Повторно выбросить исключение</value>
+</data>
+<data name="CreateMustInherit___Text" xml:space="preserve">
+  <value>Создать MustInherit {1} '{0}'</value>
+</data>
+<data name="CreateParameter_InContaining_AndUpdate_Text" xml:space="preserve">
+  <value>Создать параметр '{0}' в содержащем {1} и обновить иерархию</value>
+</data>
+<data name="AddOverloads_Text" xml:space="preserve">
+  <value>Добавить "Overloads"</value>
+</data>
+<data name="EnumerateToArray_Text" xml:space="preserve">
+  <value>Перечислить в массив</value>
+</data>
+<data name="ToSub_Text" xml:space="preserve">
+  <value>Преобразовать в Sub</value>
+</data>
+<data name="Create_AccessorFor__Text" xml:space="preserve">
+  <value>Создать {0} аксессор для '{1}'</value>
+</data>
+<data name="RemoveParentheses_Text" xml:space="preserve">
+  <value>Удалить круглые скобки</value>
+</data>
+<data name="CreateOverloadWithoutParameter_Text" xml:space="preserve">
+  <value>Создать перегрузку без параметра</value>
+</data>
+<data name="SetReturnTypeTo__Text" xml:space="preserve">
+  <value>Установить тип возвращаемого значения в {0}</value>
+</data>
+<data name="DisableAndRestoreWithComments_Text" xml:space="preserve">
+  <value>Отключить и восстановить с комментариями</value>
+</data>
+<data name="NotNull_Text" xml:space="preserve">
+  <value>Не null</value>
+</data>
+<data name="SafelyCast_To__Text" xml:space="preserve">
+  <value>Безопасно преобразовать {0} в {1}</value>
+</data>
+<data name="ImplementMemberIn_Text" xml:space="preserve">
+  <value>Реализовать член в</value>
+</data>
+<data name="CreateDelegate__Text" xml:space="preserve">
+  <value>Создать делегат '{0}'</value>
+</data>
+<data name="GenerateRelationalMembers_Text" xml:space="preserve">
+  <value>Сгенерировать реляционные члены</value>
+</data>
+<data name="IterateCollectionViaForEach_Text" xml:space="preserve">
+  <value>Итерировать коллекцию через 'For Each'</value>
+</data>
+<data name="ToFunction_Text" xml:space="preserve">
+  <value>Преобразовать в Function</value>
+</data>
+<data name="SplitIntoSeparateDeclarations_Text" xml:space="preserve">
+  <value>Разделить на отдельные объявления</value>
+</data>
+<data name="AddOf_Text" xml:space="preserve">
+  <value>Добавить '(Of )'</value>
+</data>
+<data name="SimplifyConditionalOperator_Text" xml:space="preserve">
+  <value>Упростить условный оператор</value>
+</data>
+<data name="ToAutomaticProperty_Text" xml:space="preserve">
+  <value>Преобразовать в автоматическое свойство</value>
+</data>
+<data name="Add_ConstraintTo_Of__Text" xml:space="preserve">
+  <value>Добавить ограничение '{0}' к {1} {2} из {3} {4}</value>
+</data>
+<data name="AwaitExpression_Text" xml:space="preserve">
+  <value>Выражение Await</value>
+</data>
+<data name="FailedToImportMethod_Text" xml:space="preserve">
+  <value>Не удалось импортировать метод</value>
+</data>
+<data name="CreateField__Text" xml:space="preserve">
+  <value>Создать поле '{0}'</value>
+</data>
+<data name="SplitString_Text" xml:space="preserve">
+  <value>Разделить строку</value>
+</data>
+<data name="RemoveRedundantQualifier_Text" xml:space="preserve">
+  <value>Удалить избыточный квалификатор</value>
+</data>
+<data name="MakeProperty_WriteOnly_Text" xml:space="preserve">
+  <value>Сделать свойство '{0}' доступным только для записи</value>
+</data>
+<data name="ToImplicitlyTyped_Text" xml:space="preserve">
+  <value>Преобразовать в неявно типизированное</value>
+</data>
+<data name="CreateEvent__Text" xml:space="preserve">
+  <value>Создать событие {0}</value>
+</data>
+<data name="ReverseAssignment_Text" xml:space="preserve">
+  <value>Обратить присваивание</value>
+</data>
+<data name="CreateOverloadWithoutSelectedParameters_Text" xml:space="preserve">
+  <value>Создать перегрузку без выбранных параметров</value>
+</data>
+<data name="ReplaceIfWithBranch_Text" xml:space="preserve">
+  <value>Заменить 'If' на ветвление</value>
+</data>
+<data name="MergeTwoIfS_Text" xml:space="preserve">
+  <value>Объединить два 'if'</value>
+</data>
+<data name="CreateMustInheritDefaultProperty__Text" xml:space="preserve">
+  <value>Создать MustInherit свойство по умолчанию</value>
+</data>
+<data name="RemoveRedundantImports_Text" xml:space="preserve">
+  <value>Удалить избыточные 'imports'</value>
+</data>
+<data name="CreateProperty__Text" xml:space="preserve">
+  <value>Создать свойство '{0}'</value>
+</data>
+<data name="UseMethod_Text" xml:space="preserve">
+  <value>Использовать метод</value>
+</data>
+<data name="DisableWithPreprocessorDirective_Text" xml:space="preserve">
+  <value>Отключить с помощью директивы препроцессора</value>
+</data>
+<data name="ImportNamespace_Text" xml:space="preserve">
+  <value>Импортировать пространство имен</value>
+</data>
+<data name="CorrectSharedAccess_Text" xml:space="preserve">
+  <value>Исправить общий доступ</value>
+</data>
+<data name="ReplaceWith___Call_Text" xml:space="preserve">
+  <value>Заменить на вызов {0}{1}.{2}(...)</value>
+</data>
+<data name="RemoveReturnValue_Text" xml:space="preserve">
+  <value>Удалить возвращаемое значение</value>
+</data>
+<data name="MakeProperty_ReadOnly_Text" xml:space="preserve">
+  <value>Сделать свойство '{0}' доступным только для чтения</value>
+</data>
+<data name="RemoveCaseBranch_Text" xml:space="preserve">
+  <value>Удалить ветвь case</value>
+</data>
+<data name="RemoveValueParameter_Text" xml:space="preserve">
+  <value>Удалить параметр 'value'</value>
+</data>
+<data name="ReplaceWithImplements_Text" xml:space="preserve">
+  <value>Заменить на Implements</value>
+</data>
+<data name="CreateMustInheritOverloadFor___Text" xml:space="preserve">
+  <value>Создать MustInherit перегрузку для {1} '{0}'</value>
+</data>
+<data name="RemoveAwait_Text" xml:space="preserve">
+  <value>Удалить 'Await'</value>
+</data>
+<data name="MoveReturnValueBeforeReturnStatement_Text" xml:space="preserve">
+  <value>Переместить возвращаемое значение перед оператором return</value>
+</data>
+<data name="EnumerateWithMethodAsArrayInternal_Text" xml:space="preserve">
+  <value>Перечислить с помощью метода AsArray [Internal]</value>
+</data>
+<data name="RemoveRedundantParentheses_Text" xml:space="preserve">
+  <value>Удалить избыточные круглые скобки</value>
+</data>
+<data name="OverrideMemberIn_Text" xml:space="preserve">
+  <value>Переопределить член в</value>
+</data>
+<data name="CreateEnumMember__Text" xml:space="preserve">
+  <value>Создать член перечисления '{0}'</value>
+</data>
+<data name="RemoveAllValueParameters_Text" xml:space="preserve">
+  <value>Удалить все параметры 'value'</value>
+</data>
+<data name="AddShadows_Text" xml:space="preserve">
+  <value>Добавить "Shadows"</value>
+</data>
+<data name="GenerateEqualityMembers_Text" xml:space="preserve">
+  <value>Сгенерировать члены равенства</value>
+</data>
+<data name="ImplementInDerivedClasses_Text" xml:space="preserve">
+  <value>Реализовать в производных классах</value>
+</data>
+<data name="CastTo__Text" xml:space="preserve">
+  <value>Преобразовать в {1}</value>
+</data>
+<data name="JoinDeclarationAndAssignment_Text" xml:space="preserve">
+  <value>Объединить объявление и присваивание</value>
+</data>
+<data name="UseMethod__Text" xml:space="preserve">
+  <value>Использовать метод '{0}'</value>
+</data>
+<data name="CastSecondOperandTo__Text" xml:space="preserve">
+  <value>Преобразовать второй операнд в '{0}'</value>
+</data>
+<data name="ConvertPartOfBodyIntoLINQExpression_Text" xml:space="preserve">
+  <value>Преобразовать часть тела в LINQ-выражение</value>
+</data>
+<data name="RemoveByValModifiers_Text" xml:space="preserve">
+  <value>Удалить модификаторы 'ByVal'</value>
+</data>
+<data name="Cast_To__Text" xml:space="preserve">
+  <value>Преобразовать {0} в {1}</value>
+</data>
+<data name="SafelyCastTo__Text" xml:space="preserve">
+  <value>Безопасно преобразовать в {1}</value>
+</data>
+<data name="ConvertToFor_Text" xml:space="preserve">
+  <value>Преобразовать в For</value>
+</data>
+<data name="AddIteratorModifier_Text" xml:space="preserve">
+  <value>Добавить модификатор 'Iterator'</value>
+</data>
+<data name="ReplaceByOperatorTypeOfIsInvocation_Text" xml:space="preserve">
+  <value>Заменить на вызов оператора 'TypeOf ... Is ...'</value>
+</data>
+<data name="InvokeAsExtensionMethod_Text" xml:space="preserve">
+  <value>Вызвать как метод расширения</value>
+</data>
+<data name="RemoveRedundantQualifiers_Text" xml:space="preserve">
+  <value>Удалить избыточные квалификаторы</value>
+</data>
+<data name="Create___Text" xml:space="preserve">
+  <value>Создать {1} '{0}'</value>
+</data>
+<data name="ReplaceIIfWithBranch_Text" xml:space="preserve">
+  <value>Заменить 'IIf' на ветвление</value>
+</data>
+<data name="InvertIf_Text" xml:space="preserve">
+  <value>Инвертировать 'If'</value>
+</data>
+<data name="CreateReadOnlyProperty__Text" xml:space="preserve">
+  <value>Создать свойство только для чтения '{0}'</value>
+</data>
+<data name="ConvertIntoLINQExpression_Text" xml:space="preserve">
+  <value>Преобразовать в LINQ-выражение</value>
+</data>
+<data name="RenameFileToMatchTypeName_Text" xml:space="preserve">
+  <value>Переименовать файл в соответствии с именем типа</value>
+</data>
+<data name="ImportNamespace__Text" xml:space="preserve">
+  <value>Импортировать пространство имен '{0}'</value>
+</data>
+<data name="ToImplicitlyTypedVariables_Text" xml:space="preserve">
+  <value>Преобразовать в неявно типизированные переменные</value>
+</data>
+<data name="MakeSuffixUppercase_Text" xml:space="preserve">
+  <value>Сделать суффикс заглавным</value>
+</data>
+<data name="RemoveAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут</value>
+</data>
+<data name="SpecifyType_Text" xml:space="preserve">
+  <value>Указать тип</value>
+</data>
+<data name="SplitDeclarationAndAssignment_Text" xml:space="preserve">
+  <value>Разделить объявление и присваивание</value>
+</data>
+<data name="MoveToAnotherFileToMatchTypeName_Text" xml:space="preserve">
+  <value>Переместить в другой файл в соответствии с именем типа</value>
+</data>
+<data name="InsertInferredTypeArguments_Text" xml:space="preserve">
+  <value>Вставить выведенные аргументы типа</value>
+</data>
+<data name="CreateNested___Text" xml:space="preserve">
+  <value>Создать вложенный {1} '{0}'</value>
+</data>
+<data name="IntroduceVariable_Text" xml:space="preserve">
+  <value>Ввести переменную</value>
+</data>
+<data name="GenerateDisposePattern_Text" xml:space="preserve">
+  <value>Сгенерировать шаблон Dispose</value>
+</data>
+<data name="CreateDefaultProperty_Text" xml:space="preserve">
+  <value>Создать свойство по умолчанию</value>
+</data>
+<data name="ImplementMembers_Text" xml:space="preserve">
+  <value>Реализовать члены</value>
+</data>
+<data name="DisableOnceWithComment_Text" xml:space="preserve">
+  <value>Отключить один раз с комментарием</value>
+</data>
+<data name="CreateMustOverrideProperty__Text" xml:space="preserve">
+  <value>Создать MustOverride свойство '{0}'</value>
+</data>
+<data name="AddCallKeyword_Text" xml:space="preserve">
+  <value>Добавить ключевое слово 'Call'</value>
+</data>
+<data name="ToPropertyWithBackingField_Text" xml:space="preserve">
+  <value>Преобразовать в свойство с резервным полем</value>
+</data>
+<data name="CreateOverloadFor___Text" xml:space="preserve">
+  <value>Создать перегрузку для {1} '{0}'</value>
+</data>
+<data name="OverrideInDerivedClasses_Text" xml:space="preserve">
+  <value>Переопределить в производных классах</value>
+</data>
+<data name="RemoveThenKeywords_Text" xml:space="preserve">
+  <value>Удалить ключевые слова 'Then'</value>
+</data>
+<data name="ToAutoProperty_Text" xml:space="preserve">
+  <value>Преобразовать в автосвойство</value>
+</data>
+<data name="RemoveByValModifier_Text" xml:space="preserve">
+  <value>Удалить модификатор 'ByVal'</value>
+</data>
+<data name="Create_AccessorFor_InBase_Text" xml:space="preserve">
+  <value>Создать {0} аксессор для '{1}' в базовом</value>
+</data>
+<data name="EnumerateWithMethodAsListInternal_Text" xml:space="preserve">
+  <value>Перечислить с помощью метода AsList [Internal]</value>
+</data>
+<data name="ReplaceWithInherits_Text" xml:space="preserve">
+  <value>Заменить на Inherits</value>
+</data>
+<data name="Remove_Modifier_Text" xml:space="preserve">
+  <value>Удалить модификатор '{0}'</value>
+</data>
+<data name="ChangeFunctionIntoSub_Text" xml:space="preserve">
+  <value>Изменить Function на Sub</value>
+</data>
+<data name="SurroundWithWith_Text" xml:space="preserve">
+  <value>Окружить с помощью 'With'</value>
+</data>
+<data name="SplitIntoTwoIfS_Text" xml:space="preserve">
+  <value>Разделить на два 'If'</value>
+</data>
+<data name="AddAnotherAccessor_Text" xml:space="preserve">
+  <value>Добавить другой аксессор</value>
+</data>
+<data name="RemoveExpression_Text" xml:space="preserve">
+  <value>Удалить выражение</value>
+</data>
+<data name="ReverseAssignments_Text" xml:space="preserve">
+  <value>Обратить присваивания</value>
+</data>
+<data name="RemoveUnreachableCode_Text" xml:space="preserve">
+  <value>Удалить недостижимый код</value>
+</data>
+<data name="Create_AccessorFor_InInterface_Text" xml:space="preserve">
+  <value>Создать {0} аксессор для '{1}' в интерфейсе</value>
+</data>
+<data name="_WillConflictWith__Text" xml:space="preserve">
+  <value>{0} будет конфликтовать с {1}</value>
+</data>
+<data name="RemoveRedundantImportsInFile_Text" xml:space="preserve">
+  <value>Удалить избыточные 'imports' в файле</value>
+</data>
+<data name="FailedToImportType_Text" xml:space="preserve">
+  <value>Не удалось импортировать тип</value>
+</data>
+<data name="MergeTryCatchFinallyStatements_Text" xml:space="preserve">
+  <value>Объединить операторы try-catch-finally</value>
+</data>
+<data name="RemoveTypeArguments_Text" xml:space="preserve">
+  <value>Удалить аргументы типа</value>
+</data>
+<data name="EnumerateToList_Text" xml:space="preserve">
+  <value>Перечислить в список</value>
+</data>
+<data name="RemoveAsyncModifier_Text" xml:space="preserve">
+  <value>Удалить модификатор 'Async'</value>
+</data>
+<data name="RemoveExplicitArraySizeSpecification_Text" xml:space="preserve">
+  <value>Удалить явное указание размера массива</value>
+</data>
+<data name="WrapTypeNameWithGetType_Text" xml:space="preserve">
+  <value>Обернуть имя типа с помощью GetType()</value>
+</data>
+<data name="Reference_AndImportNamespace__Text" xml:space="preserve">
+  <value>Ссылаться на '{0}' и импортировать пространство имен '{1}'</value>
+</data>
+<data name="CouldnTConvertIteratorWithoutAnyReachable_Text" xml:space="preserve">
+  <value>Не удалось преобразовать итератор без достижимых выходов</value>
+</data>
+<data name="ReplaceWithDim__TryCast__If_IsNotNothing_Text" xml:space="preserve">
+  <value>Заменить на 'Dim {0}{3} = TryCast({1}, {2}) If ({0} IsNot Nothing) ... EndIf'</value>
+</data>
+<data name="RemoveRedundantCast_Text" xml:space="preserve">
+  <value>Удалить избыточное преобразование</value>
+</data>
+<data name="AddOtherAccessors_Text" xml:space="preserve">
+  <value>Добавить другие аксессоры</value>
+</data>
+</root>

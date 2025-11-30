@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="InstallInEngine_Text" xml:space="preserve">
+  <value>Установить в движке</value>
+</data>
+<data name="RiderLinkIsDeleted_Text" xml:space="preserve">
+  <value>RiderLink был удален</value>
+</data>
+<data name="IfThisOptionIsEnabledTheRiderLinkEditor_Text" xml:space="preserve">
+  <value>Если эта опция включена, плагин редактора RiderLink будет автоматически обновляться</value>
+</data>
+<data name="InstallInGame_Text" xml:space="preserve">
+  <value>Установить в игре</value>
+</data>
+<data name="Reason_UatIsNotAvailable_Text" xml:space="preserve">
+  <value>Причина: {0} недоступно в целевых объектах: {1}</value>
+</data>
+<data name="ExtractRiderLinkPluginInEngineDescription_Text" xml:space="preserve">
+  <value>Извлечь плагин RiderLink в движок решения.
+Примечание: Используйте это только для версий Unreal Engine, собранных из исходного кода. Это не подходит для UE4 и UE5, установленных через Epic Games Launcher.
+Используйте эту опцию, если установка плагина RiderLink не удалась по какой-либо причине.</value>
+</data>
+<data name="FailedToRefreshProjectFiles_Text" xml:space="preserve">
+  <value>Не удалось обновить файлы проекта</value>
+</data>
+<data name="RiderLinkPluginInstalled_Message" xml:space="preserve">
+  <value>Плагин RiderLink был установлен в: {0}</value>
+</data>
+<data name="Settings_General_Header_Text" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="FailedToBuildRiderLinkPluginFor__Text" xml:space="preserve">
+  <value>Не удалось собрать плагин RiderLink для {0}</value>
+</data>
+<data name="InstallOrExtractRadio_Comment_Text" xml:space="preserve">
+  <value>Примечание: Если плагин находится в проекте Engine и движок предварительно собран (например, установлен через Epic Games Launcher), он всегда будет устанавливать RiderLink, а не извлекать</value>
+</data>
+<data name="PathContainsNonASCIICharactersBuild_Text" xml:space="preserve">
+  <value>Путь содержит не-ASCII символы, что может привести к сбою сборки. Измените временный каталог или используйте действие «Извлечь RiderLink…».</value>
+</data>
+<data name="InstallRiderLinkPluginInGameDescription_Text" xml:space="preserve">
+  <value>Установить плагин RiderLink в каждую доступную игру в решении. Если Rider не сможет установить плагин RiderLink в какой-либо игровой проект, он откатит процесс установки.</value>
+</data>
+<data name="FailedToDeleteRiderLink_Text" xml:space="preserve">
+  <value>Не удалось удалить RiderLink</value>
+</data>
+<data name="RefreshingProjectsFilesHasBeenCancelled_Text" xml:space="preserve">
+  <value>Обновление файлов проекта было отменено</value>
+</data>
+<data name="ExtractRiderLinkPluginInGameDescription_Text" xml:space="preserve">
+  <value>Извлечь плагин RiderLink в каждую доступную игру в решении.
+Примечание: Он не будет пытаться собрать RiderLink для вашего текущего проекта.
+Используйте эту опцию, если установка плагина RiderLink не удалась по какой-либо причине.</value>
+</data>
+<data name="ExtractOnly_RadioButton_Text" xml:space="preserve">
+  <value>Только извлечь исходный код, не собирать плагин RiderLink</value>
+</data>
+<data name="FailedToPatchRiderLinkUplugin_Text" xml:space="preserve">
+  <value>Не удалось исправить RiderLink.uplugin</value>
+</data>
+<data name="UnrealEngine_Version_IsRequired_Title" xml:space="preserve">
+  <value>Требуется Unreal Engine {0}+</value>
+</data>
+<data name="UnrealEngine_Version_IsRequired_Message" xml:space="preserve">
+  <value>&lt;html&gt;UnrealLink поддерживает версии Unreal Engine, начиная с {0}&lt;/html&gt;</value>
+</data>
+<data name="DeletingRiderLinkPlugin_Text" xml:space="preserve">
+  <value>Удаление плагина RiderLink</value>
+</data>
+<data name="FailedToPatchRiderLinkUplugin_Message" xml:space="preserve">
+  <value>Не удалось установить для `EnableByDefault` значение true в RiderLink.uplugin
+Вам нужно будет вручную включить RiderLink в UnrealEditor</value>
+</data>
+<data name="RiderLinkInstallationHasBeenCancelled_Text" xml:space="preserve">
+  <value>Установка RiderLink была отменена</value>
+</data>
+<data name="RiderLinkPluginExtracted_Message" xml:space="preserve">
+  <value>Плагин RiderLink был извлечен в: {0}</value>
+</data>
+<data name="InstallRiderLinkPluginInEngineDescription_Text" xml:space="preserve">
+  <value>Установить плагин RiderLink в движок.</value>
+</data>
+<data name="BuildAndInstall_RadioButton_Text" xml:space="preserve">
+  <value>Собрать и установить плагин RiderLink</value>
+</data>
+<data name="UnrealLinkPluginSettings_Text" xml:space="preserve">
+  <value>Настройки плагина UnrealLink</value>
+</data>
+<data name="RiderLinkPluginWillNotBeVisibleInThe_Text" xml:space="preserve">
+  <value>Плагин RiderLink не будет виден в обозревателе решений</value>
+</data>
+<data name="AutoupdateRiderLink_CheckBox_Text" xml:space="preserve">
+  <value>Автоматически обновлять плагин RiderLink для Unreal Editor</value>
+</data>
+<data name="DefaultLocationForRiderLinkInstallation_Text" xml:space="preserve">
+  <value>Расположение по умолчанию для установки RiderLink</value>
+</data>
+<data name="InstallRiderLinkInGame_Text" xml:space="preserve">
+  <value>Установить RiderLink в игре</value>
+</data>
+<data name="FailedToBuildRiderLinkPlugin_Text" xml:space="preserve">
+  <value>Не удалось собрать плагин RiderLink</value>
+</data>
+<data name="BuildingRiderLinkMightFailWithNonASCIISymbols_Text" xml:space="preserve">
+  <value>Сборка RiderLink может завершиться неудачей, если путь содержит не-ASCII символы.
+        Если у вас возникли проблемы со сборкой RiderLink, и в окне вывода сборки отображаются символы '???', попробуйте установить эту переменную в папку без специальных символов (например, C:\temp_folder), но убедитесь, что текущий пользователь имеет права на запись в эту папку.</value>
+</data>
+<data name="ExtractRiderLinkInGame_Text" xml:space="preserve">
+  <value>Извлечь RiderLink в игре</value>
+</data>
+<data name="RiderLinkInstallationIsInProgress_Text" xml:space="preserve">
+  <value>Идет установка…</value>
+</data>
+<data name="RefreshProjectsAfterRiderLinkInstallation_Text" xml:space="preserve">
+  <value>Обновлять проекты после установки RiderLink</value>
+</data>
+<data name="RefreshingProjectFiles_Text" xml:space="preserve">
+  <value>Обновление файлов проекта</value>
+</data>
+<data name="RiderLinkPluginInstalled_Title" xml:space="preserve">
+  <value>Плагин RiderLink установлен</value>
+</data>
+<data name="NeedToRefreshProjectFilesManually_Text" xml:space="preserve">
+  <value>Необходимо вручную обновить файлы проекта с помощью контекстного действия 'Сгенерировать файлы проекта' для файла .uproject в Unreal Editor или проводнике файлов</value>
+</data>
+<data name="RiderLinkPluginExtracted_Title" xml:space="preserve">
+  <value>Плагин RiderLink извлечен</value>
+</data>
+<data name="IntermediateBuildFolder_FileChooserOption_Tooltip" xml:space="preserve">
+  <value>Путь к промежуточной папке, используемой для сборки RiderLink перед установкой в проект</value>
+</data>
+<data name="Settings_ManualInstallation_Header_Text" xml:space="preserve">
+  <value>Ручная установка</value>
+</data>
+<data name="UnrealLinkPluginSettings_Title_Text" xml:space="preserve">
+  <value>Unreal Engine</value>
+</data>
+<data name="InstallRiderLinkInEngine_Text" xml:space="preserve">
+  <value>Установить RiderLink в движке</value>
+</data>
+<data name="Settings_AutoUpdate_Header_Text" xml:space="preserve">
+  <value>Автообновление</value>
+</data>
+<data name="ExtractRiderLinkInEngine_Text" xml:space="preserve">
+  <value>Извлечь RiderLink в движке</value>
+</data>
+<data name="NonASCIICharactersInTheBuildDirectory_Text" xml:space="preserve">
+  <value>В каталоге сборки RiderLink обнаружены не-ASCII символы. Если сборка не удается, попробуйте изменить временный путь в «Файл | Настройки | Языки и платформы | Unreal Engine».</value>
+</data>
+<data name="DefaultBehaviorForRiderLinkUpdate_Text" xml:space="preserve">
+  <value>Поведение по умолчанию для автоматического обновления плагина RiderLink</value>
+</data>
+<data name="IntermediateBuildFolderRoot_Text" xml:space="preserve">
+  <value>Промежуточная папка для сборки RiderLink перед установкой в проект</value>
+</data>
+</root>

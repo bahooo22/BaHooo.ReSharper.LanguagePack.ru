@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="UnableToFindBrowserExecutable__Text" xml:space="preserve">
+  <value>Не удалось найти исполняемый файл браузера: {0}</value>
+</data>
+<data name="JasmineVersionSettingDescription" xml:space="preserve">
+  <value>Версия Jasmine</value>
+</data>
+<data name="PathToCustomBrowserExecutable_RelativeFilePathChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к исполняемому файлу пользовательского браузера</value>
+</data>
+<data name="PathToPhantomJSSettingDescription" xml:space="preserve">
+  <value>Путь к PhantomJS</value>
+</data>
+<data name="PathToPhantomJSExecutable_RelativeFilePathChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к исполняемому файлу PhantomJS</value>
+</data>
+<data name="CommandLineArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы командной строки</value>
+</data>
+<data name="PhantomJSRelativeLocationSettingDescription" xml:space="preserve">
+  <value>Относительное расположение PhantomJS</value>
+</data>
+<data name="TestHarnessPath_RelativeFilePathChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к тестовому окружению</value>
+</data>
+<data name="UseCustomTestHarnessToRunJavaScriptTestsSettingDescription" xml:space="preserve">
+  <value>Использовать пользовательское тестовое окружение для запуска JavaScript-тестов</value>
+</data>
+<data name="CommonSettingsForAllJavaScriptUnitTestProvidersSettingDescription" xml:space="preserve">
+  <value>Общие настройки для всех провайдеров модульных тестов JavaScript</value>
+</data>
+<data name="CommandLineArguments_Text_Text" xml:space="preserve">
+  <value>Аргументы командной строки</value>
+</data>
+<data name="_Version_Text" xml:space="preserve">
+  <value>Версия {0}</value>
+</data>
+<data name="WebPages_Files_Filter_Text" xml:space="preserve">
+  <value>Веб-страницы</value>
+</data>
+<data name="TestHarnessRelativeLocationSettingDescription" xml:space="preserve">
+  <value>Относительное расположение тестового окружения</value>
+</data>
+<data name="ChooseBrowser_IconComboBoxOption_ToolTip" xml:space="preserve">
+  <value>Выбрать браузер</value>
+</data>
+<data name="WebBrowserIdentifierToRunTestsInSettingDescription" xml:space="preserve">
+  <value>Идентификатор веб-браузера для запуска тестов</value>
+</data>
+<data name="CustomTestHarnessFilenameSettingDescription" xml:space="preserve">
+  <value>Имя файла пользовательского тестового окружения</value>
+</data>
+<data name="ExecutableFiles_Files_Filter_Text" xml:space="preserve">
+  <value>Исполняемые файлы</value>
+</data>
+<data name="RunTestsWith_Header_Text" xml:space="preserve">
+  <value>Запускать тесты с помощью</value>
+</data>
+<data name="AdditionalCommandLineArgumentsPassed_StringOption_ToolTip" xml:space="preserve">
+  <value>Дополнительные аргументы командной строки, передаваемые браузеру или PhantomJS</value>
+</data>
+<data name="PathToWebBrowserToRunTestsInSettingDescription" xml:space="preserve">
+  <value>Путь к веб-браузеру для запуска тестов</value>
+</data>
+<data name="PathToPhantomJSExecutable_RelativeFilePathChooserOption_Text" xml:space="preserve">
+  <value>Путь к исполняемому файлу PhantomJS</value>
+</data>
+<data name="BrowsersRelativeLocationSettingDescription" xml:space="preserve">
+  <value>Относительное расположение браузеров</value>
+</data>
+<data name="PathToBrowserExecutable_RelativeFilePathChooserOption_Text" xml:space="preserve">
+  <value>Путь к исполняемому файлу браузера</value>
+</data>
+<data name="Empty_Text" xml:space="preserve">
+  <value>&lt;пусто&gt;</value>
+</data>
+<data name="QUnitVersionSettingDescription" xml:space="preserve">
+  <value>Версия QUnit</value>
+</data>
+<data name="WebBrowser_SingleRadioOption_Text" xml:space="preserve">
+  <value>Веб-браузер</value>
+</data>
+<data name="ChooseRuntime_Text_Text" xml:space="preserve">
+  <value>Выбрать среду выполнения</value>
+</data>
+<data name="ChooseBrowser_IconComboBoxOption_Text" xml:space="preserve">
+  <value>Выбрать браузер</value>
+</data>
+<data name="UnableToFindPhantomJsExecutable__Text" xml:space="preserve">
+  <value>Не удалось найти исполняемый файл PhantomJs: {0}</value>
+</data>
+<data name="Enable__Support_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку _{0}</value>
+</data>
+<data name="EnableCustomHTML_harness_Text" xml:space="preserve">
+  <value>Включить пользовательское HTML-окружение(_H)</value>
+</data>
+<data name="TestHarnessPath_RelativeFilePathChooserOption_Text" xml:space="preserve">
+  <value>Путь к тестовому окружению</value>
+</data>
+<data name="CopyDefaultImplementationToClipboard_Button_Text" xml:space="preserve">
+  <value>Скопировать реализацию по умолчанию в буфер обмена</value>
+</data>
+<data name="WhereToRunJavaScriptTestsSettingDescription" xml:space="preserve">
+  <value>Место запуска JavaScript-тестов</value>
+</data>
+<data name="PhantomJS_SingleRadioOption_Text" xml:space="preserve">
+  <value>PhantomJS</value>
+</data>
+</root>

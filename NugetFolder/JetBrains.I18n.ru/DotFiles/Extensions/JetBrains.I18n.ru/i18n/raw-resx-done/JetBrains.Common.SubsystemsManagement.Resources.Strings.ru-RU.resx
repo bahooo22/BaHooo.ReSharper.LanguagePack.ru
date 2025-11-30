@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Options_Tip" xml:space="preserve">
+  <value>Правила подсистем в этом списке применяются сверху вниз. Порядок для каждого профиля независим.</value>
+</data>
+<data name="ActiveProfileInTimelineSettingDescription" xml:space="preserve">
+  <value>АктивныйПрофильНаВременнойШкале</value>
+</data>
+<data name="Subsystems_SubTree_OtherStar_DisplayName" xml:space="preserve">
+  <value>Другие*</value>
+</data>
+<data name="Subsystems_Profile_Default_Name" xml:space="preserve">
+  <value>По умолчанию (Общий)</value>
+</data>
+<data name="Subsystems_EmptyMeasure_DisplayName" xml:space="preserve">
+  <value>Скрытые подсистемы</value>
+</data>
+<data name="Subsystems_Predefined_WPF" xml:space="preserve">
+  <value>WPF</value>
+</data>
+<data name="Subsystems_MergedSubsystem_Name" xml:space="preserve">
+  <value>Объединено</value>
+</data>
+<data name="Subsystems_InfoEditor_EmptySubsystemName" xml:space="preserve">
+  <value>Пустое имя подсистемы</value>
+</data>
+<data name="Options_Profiles_Header" xml:space="preserve">
+  <value>Профили</value>
+</data>
+<data name="Options_SubsystemEdit_Color_Tooltip" xml:space="preserve">
+  <value>Выбрать случайный цвет</value>
+</data>
+<data name="Options_MergeSubsystem_Tooltip" xml:space="preserve">
+  <value>Объединить несколько подсистем</value>
+</data>
+<data name="Subsystems_Predefined_String" xml:space="preserve">
+  <value>Строка</value>
+</data>
+<data name="Options_AddSubsystem_Duplicate_Tooltip" xml:space="preserve">
+  <value>Дублировать подсистему</value>
+</data>
+<data name="Options_SubsystemEdit_Color_Label" xml:space="preserve">
+  <value>Цвет:</value>
+</data>
+<data name="Subsystems_ProfilesEditor_NewProfile_AllFailed" xml:space="preserve">
+  <value>НовыйПрофиль</value>
+</data>
+<data name="Subsystems_RuleEditor_EditRule_Title" xml:space="preserve">
+  <value>Редактировать правило</value>
+</data>
+<data name="Subsystems_Predefined_UserCode" xml:space="preserve">
+  <value>Пользовательский код</value>
+</data>
+<data name="Subsystems_Predefined_Reflection" xml:space="preserve">
+  <value>Рефлексия</value>
+</data>
+<data name="Subsystems_InfoEditor_DuplicateSubsystemName" xml:space="preserve">
+  <value>Дублирующееся имя подсистемы</value>
+</data>
+<data name="Subsystems_Predefined_Special" xml:space="preserve">
+  <value>Специальный</value>
+</data>
+<data name="ComplexRuleType_Or_Preposition" xml:space="preserve">
+  <value>или</value>
+</data>
+<data name="Options_Join" xml:space="preserve">
+  <value>Объединить</value>
+</data>
+<data name="Options_Hide" xml:space="preserve">
+  <value>Скрыть</value>
+</data>
+<data name="Options_Show" xml:space="preserve">
+  <value>Показать</value>
+</data>
+<data name="Subsystems_Predefined_FileIO" xml:space="preserve">
+  <value>Файловый ввод-вывод</value>
+</data>
+<data name="Subsystems_Predefined_GCWait" xml:space="preserve">
+  <value>Ожидание GC</value>
+</data>
+<data name="Options_Subsystems_Header" xml:space="preserve">
+  <value>Подсистемы</value>
+</data>
+<data name="Subsystems_Predefined_Sleep" xml:space="preserve">
+  <value>Сон</value>
+</data>
+<data name="Subsystems_Predefined_Hidden" xml:space="preserve">
+  <value>Скрыто</value>
+</data>
+<data name="ActiveProfileSettingDescription" xml:space="preserve">
+  <value>АктивныйПрофиль</value>
+</data>
+<data name="Options_AddSubsystem_Empty_Tooltip" xml:space="preserve">
+  <value>Добавить пустую подсистему</value>
+</data>
+<data name="ComplexRuleType_N_other" xml:space="preserve">
+  <value>Еще {0}</value>
+</data>
+<data name="Options_MoveDownSubsystem_Tooltip" xml:space="preserve">
+  <value>Переместить выбранную подсистему вниз</value>
+</data>
+<data name="Subsystems_SubsystemListSelector_Title" xml:space="preserve">
+  <value>Выберите подсистему</value>
+</data>
+<data name="Subsystems_SubTree_Other_DisplayName" xml:space="preserve">
+  <value>Другие</value>
+</data>
+<data name="Options_DeleteProfile_Tooltip" xml:space="preserve">
+  <value>Удалить все пользовательские профили и восстановить исходные настройки подсистем</value>
+</data>
+<data name="Subsystems_SubsystemListEditor_RemovePrompt_Title" xml:space="preserve">
+  <value>Удалить подсистему</value>
+</data>
+<data name="SimpleRuleType_HasAssemblyAndNamespaceTemplate_Text1" xml:space="preserve">
+  <value>Методы в сборке, имя которой начинается с</value>
+</data>
+<data name="SimpleRuleType_HasAssemblyAndNamespaceTemplate_Text2" xml:space="preserve">
+  <value>и имеют FQN, начинающийся с</value>
+</data>
+<data name="Options_SubsystemEdit_AssemblyPrefix_Header" xml:space="preserve">
+  <value>Префикс сборки</value>
+</data>
+<data name="Options_ChangeSubsystem_Tooltip" xml:space="preserve">
+  <value>Изменить определение подсистемы</value>
+</data>
+<data name="Options_SubsystemEdit_EmptyRule" xml:space="preserve">
+  <value>Пусто</value>
+</data>
+<data name="SimpleRuleType_HasAssemblyTemplate" xml:space="preserve">
+  <value>Только сборка</value>
+</data>
+<data name="Options_RemoveProfile_Tooltip" xml:space="preserve">
+  <value>Удалить текущий профиль</value>
+</data>
+<data name="XmlSettingDescription" xml:space="preserve">
+  <value>Xml</value>
+</data>
+<data name="Subsystems_Migration_NewNameOnConflict" xml:space="preserve">
+  <value>[Новый] {0}</value>
+</data>
+<data name="FirstAssemblyRule_Text1" xml:space="preserve">
+  <value>Методы в сборке, имя которой начинается с</value>
+</data>
+<data name="Subsystems_Predefined_SystemCode" xml:space="preserve">
+  <value>Системный код</value>
+</data>
+<data name="EntityNotUsed" xml:space="preserve">
+  <value>Не используется</value>
+</data>
+<data name="Subsystems_Predefined_WaitingForCPU" xml:space="preserve">
+  <value>Ожидание CPU</value>
+</data>
+<data name="Subsystems_Predefined_Collections" xml:space="preserve">
+  <value>Коллекции</value>
+</data>
+<data name="Options_SubsystemEdit_DuringEvent_Label" xml:space="preserve">
+  <value>Во время:</value>
+</data>
+<data name="Subsystems_ProfilesEditor_NewProfileWithIndex" xml:space="preserve">
+  <value>Профиль {0}</value>
+</data>
+<data name="Subsystems_RuleEditor_AddRule_Title" xml:space="preserve">
+  <value>Добавить новое правило</value>
+</data>
+<data name="ComplexRuleType_Complex" xml:space="preserve">
+  <value>Сложное правило</value>
+</data>
+<data name="Options_RemoveSubsystem_Tooltip" xml:space="preserve">
+  <value>Удалить определение подсистемы</value>
+</data>
+<data name="Subsystems_OpenSettings_ContextMenuAction" xml:space="preserve">
+  <value>Редактировать…</value>
+</data>
+<data name="SimpleRuleType_HasAssemblyAndNamespaceTemplate" xml:space="preserve">
+  <value>Оба</value>
+</data>
+<data name="Subsystems_Predefined_WinForms" xml:space="preserve">
+  <value>WinForms</value>
+</data>
+<data name="Subsystems_ProfilesEditor_Default_Title" xml:space="preserve">
+  <value>Конфигурация подсистем</value>
+</data>
+<data name="Subsystems_Predefined_NativeCode" xml:space="preserve">
+  <value>Нативный код</value>
+</data>
+<data name="EntityUsedIn_NProfiles" xml:space="preserve">
+  <value>{0} профилей</value>
+</data>
+<data name="Options_ChangeProfile_Tooltip" xml:space="preserve">
+  <value>Изменить имя профиля</value>
+</data>
+<data name="Options_SubsystemEdit_MethodPrefix_Header" xml:space="preserve">
+  <value>Префикс метода</value>
+</data>
+<data name="Options_SubsystemEdit_TimeSpent_Label" xml:space="preserve">
+  <value>Затраченное время: </value>
+</data>
+<data name="Options_SubsystemEdit_MethodFilter_Hint" xml:space="preserve">
+  <value>Или включить методы с префиксом имени сборки:</value>
+</data>
+<data name="Options_SubsystemEdit_Name_Label" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="Subsystems_SubsystemListEditor_RemovePrompt_Text" xml:space="preserve">
+  <value>Удалить подсистему '{0}'?
+Эта подсистема будет удалена из всех профилей.
+Если вы хотите отключить эту подсистему в текущем профиле, снимите флажок слева от нее.
+</value>
+</data>
+<data name="DefaultSettingsVersionSettingDescription" xml:space="preserve">
+  <value>ВерсияНастроекПоУмолчанию</value>
+</data>
+<data name="Options_AddSubsystem_Tooltip" xml:space="preserve">
+  <value>Создать новую подсистему</value>
+</data>
+<data name="Options_SubsystemEdit_Reset_Label" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="Subsystems_Predefined_Remoting" xml:space="preserve">
+  <value>Удаленное взаимодействие</value>
+</data>
+<data name="FirstNamespaceRule_Text1" xml:space="preserve">
+  <value>Методы с FQN, начинающимся с</value>
+</data>
+<data name="Options_MoveUpSubsystem_Tooltip" xml:space="preserve">
+  <value>Переместить выбранную подсистему вверх</value>
+</data>
+<data name="EntityUsedIn" xml:space="preserve">
+  <value>Используется в</value>
+</data>
+<data name="Options_SubsystemEdit_Join_Tooltip" xml:space="preserve">
+  <value>Время подсистемы включается во время вызывающей подсистемы</value>
+</data>
+<data name="Options_SubsystemEdit_Hide_Tooltip" xml:space="preserve">
+  <value>Подсистема не отображается. Время подсистемы не включается в расчеты.</value>
+</data>
+<data name="Subsystems_Predefined_Wait" xml:space="preserve">
+  <value>Ожидание</value>
+</data>
+<data name="Subsystems_Predefined_Linq" xml:space="preserve">
+  <value>Linq</value>
+</data>
+<data name="Options_SubsystemEdit_InAssembly_Label" xml:space="preserve">
+  <value>Где:</value>
+</data>
+<data name="SubsystemManagerSettingsSettingDescription" xml:space="preserve">
+  <value>НастройкиМенеджераПодсистем</value>
+</data>
+<data name="Options_SubsystemEdit_Show_Tooltip" xml:space="preserve">
+  <value>Подсистема отображается как отдельная запись</value>
+</data>
+<data name="Subsystems_SubsystemEdit_Title" xml:space="preserve">
+  <value>Определение подсистемы</value>
+</data>
+<data name="SimpleRuleType_HasNamespaceTemplate" xml:space="preserve">
+  <value>Только пространство имен</value>
+</data>
+<data name="Options_AddProfile_Tooltip" xml:space="preserve">
+  <value>Добавить новый профиль</value>
+</data>
+<data name="SimpleRuleType_Empty_Text1" xml:space="preserve">
+  <value>Пусто</value>
+</data>
+</root>

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InstallInEngine_Text" xml:space="preserve">
+    <value>在引擎中安装</value>
+  </data>
+  <data name="RiderLinkIsDeleted_Text" xml:space="preserve">
+    <value>RiderLink 已被删除</value>
+  </data>
+  <data name="IfThisOptionIsEnabledTheRiderLinkEditor_Text" xml:space="preserve">
+    <value>如果启用此选项，RiderLink 编辑器插件将自动更新</value>
+  </data>
+  <data name="InstallInGame_Text" xml:space="preserve">
+    <value>在游戏中安装</value>
+  </data>
+  <data name="Reason_UatIsNotAvailable_Text" xml:space="preserve">
+    <value>原因: {0} 在预期目标中不可用: {1}</value>
+  </data>
+  <data name="ExtractRiderLinkPluginInEngineDescription_Text" xml:space="preserve">
+    <value>将 RiderLink 插件提取到解决方案的引擎中。
+注意: 仅将其用于从源代码构建的 Unreal Engine 版本。它不适用于从 Epic Games Launcher 安装的 UE4 和 UE5。
+如果由于某种原因 RiderLink 插件安装失败，请使用此选项。</value>
+  </data>
+  <data name="FailedToRefreshProjectFiles_Text" xml:space="preserve">
+    <value>无法刷新项目文件</value>
+  </data>
+  <data name="RiderLinkPluginInstalled_Message" xml:space="preserve">
+    <value>RiderLink 插件已被安装到: {0}</value>
+  </data>
+  <data name="Settings_General_Header_Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="FailedToBuildRiderLinkPluginFor__Text" xml:space="preserve">
+    <value>无法为 {0} 构建 RiderLink 插件</value>
+  </data>
+  <data name="InstallOrExtractRadio_Comment_Text" xml:space="preserve">
+    <value>注意: 如果插件位于 Engine 项目中并且引擎是预构建的(例如从 Epic Games Launcher 安装)，它将始终安装 RiderLink，而不是解压</value>
+  </data>
+  <data name="PathContainsNonASCIICharactersBuild_Text" xml:space="preserve">
+    <value>路径包含非 ASCII 字符，这可能导致构建失败。更改临时目录或使用“提取 RiderLink…”操作。</value>
+  </data>
+  <data name="InstallRiderLinkPluginInGameDescription_Text" xml:space="preserve">
+    <value>将 RiderLink 插件安装到解决方案中可用的每个游戏中。如果 Rider 无法将 RiderLink 插件安装到任何游戏项目，它将还原安装过程。</value>
+  </data>
+  <data name="FailedToDeleteRiderLink_Text" xml:space="preserve">
+    <value>无法删除 RiderLink</value>
+  </data>
+  <data name="RefreshingProjectsFilesHasBeenCancelled_Text" xml:space="preserve">
+    <value>项目文件刷新操作已被取消</value>
+  </data>
+  <data name="ExtractRiderLinkPluginInGameDescription_Text" xml:space="preserve">
+    <value>将 RiderLink 插件提取到解决方案中可用的每个游戏中。
+注意: 它不会尝试为您当前的项目构建 RiderLink。
+如果由于某种原因 RiderLink 插件安装失败，请使用此选项。</value>
+  </data>
+  <data name="ExtractOnly_RadioButton_Text" xml:space="preserve">
+    <value>提取源代码，不构建 RiderLink 插件</value>
+  </data>
+  <data name="FailedToPatchRiderLinkUplugin_Text" xml:space="preserve">
+    <value>无法修补 RiderLink.uplugin</value>
+  </data>
+  <data name="UnrealEngine_Version_IsRequired_Title" xml:space="preserve">
+    <value>需要 Unreal Engine {0}+</value>
+  </data>
+  <data name="UnrealEngine_Version_IsRequired_Message" xml:space="preserve">
+    <value>&lt;html&gt;UnrealLink 支持以 {0} 开头的 Unreal Engine 版本&lt;/html&gt;</value>
+  </data>
+  <data name="DeletingRiderLinkPlugin_Text" xml:space="preserve">
+    <value>正在删除 RiderLink 插件</value>
+  </data>
+  <data name="FailedToPatchRiderLinkUplugin_Message" xml:space="preserve">
+    <value>无法在 RiderLink.uplugin 中将 `EnableByDefault` 设置为 true
+您需要在 UnrealEditor 中手动启用 RiderLink</value>
+  </data>
+  <data name="RiderLinkInstallationHasBeenCancelled_Text" xml:space="preserve">
+    <value>RiderLink 安装已被取消</value>
+  </data>
+  <data name="RiderLinkPluginExtracted_Message" xml:space="preserve">
+    <value>RiderLink 插件已被提取到: {0}</value>
+  </data>
+  <data name="InstallRiderLinkPluginInEngineDescription_Text" xml:space="preserve">
+    <value>将 RiderLink 插件安装到引擎中。</value>
+  </data>
+  <data name="BuildAndInstall_RadioButton_Text" xml:space="preserve">
+    <value>构建并安装 RiderLink 插件</value>
+  </data>
+  <data name="UnrealLinkPluginSettings_Text" xml:space="preserve">
+    <value>UnrealLink 插件设置</value>
+  </data>
+  <data name="RiderLinkPluginWillNotBeVisibleInThe_Text" xml:space="preserve">
+    <value>RiderLink 插件在解决方案资源管理器中不可见</value>
+  </data>
+  <data name="AutoupdateRiderLink_CheckBox_Text" xml:space="preserve">
+    <value>为 Unreal Editor 自动更新 RiderLink 插件</value>
+  </data>
+  <data name="DefaultLocationForRiderLinkInstallation_Text" xml:space="preserve">
+    <value>RiderLink 安装的默认位置</value>
+  </data>
+  <data name="InstallRiderLinkInGame_Text" xml:space="preserve">
+    <value>在游戏中安装 RiderLink</value>
+  </data>
+  <data name="FailedToBuildRiderLinkPlugin_Text" xml:space="preserve">
+    <value>无法构建 RiderLink 插件</value>
+  </data>
+  <data name="BuildingRiderLinkMightFailWithNonASCIISymbols_Text" xml:space="preserve">
+    <value>如果路径包含非 ASCII 符号，构建 RiderLink 可能会失败。
+        如果您在构建 RiderLink 时在构建输出窗口中遇到显示  '???'  符号的问题，请尝试将此变量设置为没有特殊字符的文件夹(例如 C:\temp_folder)，但要确保当前用户对此文件夹具有写入权限</value>
+  </data>
+  <data name="ExtractRiderLinkInGame_Text" xml:space="preserve">
+    <value>在游戏中提取 RiderLink</value>
+  </data>
+  <data name="RiderLinkInstallationIsInProgress_Text" xml:space="preserve">
+    <value>正在安装…</value>
+  </data>
+  <data name="RefreshProjectsAfterRiderLinkInstallation_Text" xml:space="preserve">
+    <value>安装 RiderLink 后刷新项目</value>
+  </data>
+  <data name="RefreshingProjectFiles_Text" xml:space="preserve">
+    <value>正在刷新项目文件</value>
+  </data>
+  <data name="RiderLinkPluginInstalled_Title" xml:space="preserve">
+    <value>RiderLink 插件已安装</value>
+  </data>
+  <data name="NeedToRefreshProjectFilesManually_Text" xml:space="preserve">
+    <value>需要使用 .uproject 文件的上下文操作 '生成项目文件' 在 Unreal 编辑器或文件资源管理器中刷新项目文件</value>
+  </data>
+  <data name="RiderLinkPluginExtracted_Title" xml:space="preserve">
+    <value>RiderLink 插件已提取</value>
+  </data>
+  <data name="IntermediateBuildFolder_FileChooserOption_Tooltip" xml:space="preserve">
+    <value>在安装到项目之前，用于构建 RiderLink 的中间文件夹的路径</value>
+  </data>
+  <data name="Settings_ManualInstallation_Header_Text" xml:space="preserve">
+    <value>手动安装</value>
+  </data>
+  <data name="UnrealLinkPluginSettings_Title_Text" xml:space="preserve">
+    <value>Unreal Engine</value>
+  </data>
+  <data name="InstallRiderLinkInEngine_Text" xml:space="preserve">
+    <value>在引擎中安装 RiderLink</value>
+  </data>
+  <data name="Settings_AutoUpdate_Header_Text" xml:space="preserve">
+    <value>自动更新</value>
+  </data>
+  <data name="ExtractRiderLinkInEngine_Text" xml:space="preserve">
+    <value>在引擎中提取 RiderLink</value>
+  </data>
+  <data name="NonASCIICharactersInTheBuildDirectory_Text" xml:space="preserve">
+    <value>在 RiderLink 的构建目录中发现非 ASCII 字符。如果构建失败，请尝试在“文件 | 设置 | 语言和框架 | Unreal Engine”中更改临时路径。</value>
+  </data>
+  <data name="DefaultBehaviorForRiderLinkUpdate_Text" xml:space="preserve">
+    <value>自动更新 RiderLink 插件的默认行为</value>
+  </data>
+  <data name="IntermediateBuildFolderRoot_Text" xml:space="preserve">
+    <value>在安装到项目之前，用于构建 RiderLink 的中间文件夹</value>
+  </data>
+</root>

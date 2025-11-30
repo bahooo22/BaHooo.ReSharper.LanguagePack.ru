@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ContentOfCollectionIsNeverUpdatedMessage" xml:space="preserve">
+  <value>Содержимое коллекции '{0}' никогда не обновляется</value>
+</data>
+<data name="ConvertLocalVariableOrFieldToConstant" xml:space="preserve">
+  <value>Преобразовать локальную переменную или поле в константу</value>
+</data>
+<data name="Implements_From__Text" xml:space="preserve">
+  <value>Реализует {0} из {1}</value>
+</data>
+<data name="LocalVariableParameterIsOnlyUsedToCaptureItsNameVianameofExpression" xml:space="preserve">
+  <value>Локальная переменная/параметр используется только для захвата её имени через выражение 'nameof'</value>
+</data>
+<data name="EventIsInvokedNeitherInThisClassNorInItsInheritorsMessage" xml:space="preserve">
+  <value>Событие '{0}' не вызывается ни в этом классе, ни в его наследниках</value>
+</data>
+<data name="OnlyImplementationsOfAreUsedMessage" xml:space="preserve">
+  <value>Используются только реализации {0} '{1}'</value>
+</data>
+<data name="EnableAnalysisForAll_FilesFromNuGet_Text" xml:space="preserve">
+  <value>Включить анализ для всех файлов {0} из пакетов NuGet в этом {1}</value>
+</data>
+<data name="TypeMemberIsNeverUsedFromOutsideOfImplementationHierarchyItIsOnlyAccessedFromOverridesThroughBaseCall" xml:space="preserve">
+  <value>Член типа никогда не используется вне иерархии реализации, доступ к нему осуществляется только из переопределений через вызов base</value>
+</data>
+<data name="ConfigureActionText" xml:space="preserve">
+  <value>Настроить</value>
+</data>
+<data name="ParameterIsOnlyPassedToItselfAndUsedForPreconditionCheckSMessage" xml:space="preserve">
+  <value>Параметр '{0}' передается только самому себе и используется для проверки предусловий</value>
+</data>
+<data name="MethodReturnValueIsNeverUsedMessage" xml:space="preserve">
+  <value>Возвращаемое значение метода '{0}' никогда не используется</value>
+</data>
+<data name="FromTo_Text" xml:space="preserve">
+  <value>С {0} по {1}</value>
+</data>
+<data name="Default_ToolTipFormatString_Text" xml:space="preserve">
+  <value>{0}</value>
+</data>
+<data name="TypeMemberIsNeverUsed" xml:space="preserve">
+  <value>Член типа никогда не используется</value>
+</data>
+<data name="EventIsNeverSubscribedToMessage" xml:space="preserve">
+  <value>На событие '{0}' никогда не подписываются</value>
+</data>
+<data name="UnusedParameter" xml:space="preserve">
+  <value>Неиспользуемый параметр</value>
+</data>
+<data name="ConvertToConstantMessage" xml:space="preserve">
+  <value>Преобразовать в константу</value>
+</data>
+<data name="EventIsNeverSubscribedTo" xml:space="preserve">
+  <value>На событие никогда не подписываются</value>
+</data>
+<data name="MemberOrTypeCanBeMadeInternalFriend" xml:space="preserve">
+  <value>Член или тип можно сделать internal (friend)</value>
+</data>
+<data name="UnassignedReadonlyField" xml:space="preserve">
+  <value>Неназначенное поле только для чтения</value>
+</data>
+<data name="StructLacksIEquatableImplementationDescription" xml:space="preserve">
+  <value>Структура переопределяет члены равенства, но не имеет реализации 'IEquatable'. Чтобы предотвратить упаковку в универсальных контекстах, реализуйте 'IEquatable'. Эта проверка срабатывает только если структура или содержащий её тип (например, запись) фактически используется в решении для сравнения на равенство.</value>
+</data>
+<data name="AutoPropertyWithoutSetterHasNoInitializerOrNeverAssignedInConstructor" xml:space="preserve">
+  <value>У автоматического свойства без сеттера нет инициализатора или оно никогда не назначается в конструкторе</value>
+</data>
+<data name="ReadonlyIsNeverAssignedMessage" xml:space="preserve">
+  <value>Только для чтения {0} '{1}' никогда не назначается</value>
+</data>
+<data name="EventIsNeverInvokedMessage" xml:space="preserve">
+  <value>Событие '{0}' никогда не вызывается</value>
+</data>
+<data name="CanBeMadeProtectedMessage" xml:space="preserve">
+  <value>{0} '{1}' можно сделать protected</value>
+</data>
+<data name="UnusedTypeParameter" xml:space="preserve">
+  <value>Неиспользуемый параметр типа</value>
+</data>
+<data name="StructLacksIEquatableImplementationMessage" xml:space="preserve">
+  <value>Реализуйте интерфейс '{0}', чтобы избежать упаковки при использовании равенства структур в универсальных контекстах</value>
+</data>
+<data name="TypeParameterIsNeverUsedMessage" xml:space="preserve">
+  <value>Параметр типа '{0}' никогда не используется</value>
+</data>
+<data name="UnusedPositionalParameter" xml:space="preserve">
+  <value>Неиспользуемый позиционный параметр</value>
+</data>
+<data name="ClickToGo_Text" xml:space="preserve">
+  <value>(Нажмите для перехода)</value>
+</data>
+<data name="NewElementsAreNeverAddedToTheCollection" xml:space="preserve">
+  <value>Новые элементы никогда не добавляются в коллекцию</value>
+</data>
+<data name="AutoPropertyAccessorIsNeverUsedMessage" xml:space="preserve">
+  <value>Метод доступа автоматического свойства '{0}' никогда не используется</value>
+</data>
+<data name="ParameterOfThePrimaryConstructorIsDeclaredButNeverUsed" xml:space="preserve">
+  <value>Параметр основного конструктора объявлен, но никогда не используется</value>
+</data>
+<data name="SuggestBaseTypeForParameter_AvoidMemberVirtualizationDescription" xml:space="preserve">
+  <value>Не рекомендуется изменять тип параметра, если невиртуальные члены типа, вызываемые с этим параметром, из-за этого станут виртуальными</value>
+</data>
+<data name="PositionalPropertyIsNeverAccessedExceptInImplicitEqualsToStringImplementationsMessage" xml:space="preserve">
+  <value>Позиционное свойство '{0}' никогда не доступно (кроме как в неявных реализациях {1}/{2})</value>
+</data>
+<data name="LabelIsNeverReferencedMessage" xml:space="preserve">
+  <value>Метка '{0}' никогда не упоминается</value>
+</data>
+<data name="AutoPropertyAccessorIsNeverUsed" xml:space="preserve">
+  <value>Метод доступа автоматического свойства никогда не используется</value>
+</data>
+<data name="ImplicitConversionOfElements_Text" xml:space="preserve">
+  <value>Неявное преобразование элементов {0}</value>
+</data>
+<data name="LocalVariableIsNeverUsedCompilerWarning" xml:space="preserve">
+  <value>Локальная переменная никогда не используется (предупреждение компилятора)</value>
+</data>
+<data name="TypeMemberIsNeverAccessedViaBaseType" xml:space="preserve">
+  <value>Член типа никогда не доступен через базовый тип</value>
+</data>
+<data name="TypeMemberIsOnlyUsedInOverrides" xml:space="preserve">
+  <value>Член типа используется только в переопределениях</value>
+</data>
+<data name="LocalFunctionReturnValueIsNeverUsedMessage" xml:space="preserve">
+  <value>Возвращаемое значение локальной функции '{0}' никогда не используется</value>
+</data>
+<data name="Implements__Text" xml:space="preserve">
+  <value>Реализует {0}</value>
+</data>
+<data name="ParameterIsOnlyUsedForPreconditionCheck" xml:space="preserve">
+  <value>Параметр используется только для проверки предусловий</value>
+</data>
+<data name="FieldIsNeverUsedCompilerWarning" xml:space="preserve">
+  <value>Поле никогда не используется (предупреждение компилятора)</value>
+</data>
+<data name="TypeWithSuspiciousEqualityIsUsedInRecordDescription" xml:space="preserve">
+  <value>Тип с подозрительным равенством используется как член типа записи. Эта проверка срабатывает только если тип записи фактически используется в решении для сравнения на равенство.</value>
+</data>
+<data name="IsNeverAssignedMessage" xml:space="preserve">
+  <value>{0} '{1}' никогда не назначается</value>
+</data>
+<data name="ExceptInsideItsDeclaration_Text" xml:space="preserve">
+  <value>(Кроме как внутри его объявления)</value>
+</data>
+<data name="MemberCanBeMadeProtected16" xml:space="preserve">
+  <value>Член можно сделать protected</value>
+</data>
+<data name="PropertyCanBeMadeMessage" xml:space="preserve">
+  <value>Свойство можно сделать {0}</value>
+</data>
+<data name="ParameterCanBeDeclaredWithBaseTypeNoteThatWhenTheBaseTypeIsIEnumerableTAnotherInspectionParameterTypeCanBeIEnumerableTWillBeApplied" xml:space="preserve">
+  <value>Параметр можно объявить с базовым типом. Обратите внимание, что когда базовый тип — IEnumerable&lt;T&gt;, будет применена другая проверка 'Тип параметра может быть IEnumerable&lt;T&gt;'.</value>
+</data>
+<data name="MemberCanBeMadePrivate" xml:space="preserve">
+  <value>Член можно сделать private</value>
+</data>
+<data name="ConvertLocalVariableOrFieldToConstant18" xml:space="preserve">
+  <value>Преобразовать локальную переменную или поле в константу</value>
+</data>
+<data name="ANonVirtualInstanceMemberDoesNotUsethisObjectNeitherImplicitlyNorExplicitlyAndCanBeMadeStaticShared" xml:space="preserve">
+  <value>Невиртуальный член экземпляра не использует объект 'this' (ни неявно, ни явно) и может быть сделан static (shared)</value>
+</data>
+<data name="FieldIsAssignedButItsValueIsNeverUsed" xml:space="preserve">
+  <value>Поле назначено, но его значение никогда не используется</value>
+</data>
+<data name="ResumeAnalysis_Text" xml:space="preserve">
+  <value>Возобновить анализ</value>
+</data>
+<data name="CanBeMadeMessage" xml:space="preserve">
+  <value>{0} '{1}' можно сделать {2}</value>
+</data>
+<data name="MethodReturnValueIsNeverUsed12" xml:space="preserve">
+  <value>Возвращаемое значение метода никогда не используется</value>
+</data>
+<data name="OneTypeIsConvertedToAnotherButThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAlsoAppliesToisOperatorAndAndComparisons" xml:space="preserve">
+  <value>Один тип преобразуется в другой, но в решении нет типа, унаследованного от обоих. Также применяется к оператору 'is' и сравнениям '==' и '!='.</value>
+</data>
+<data name="PropertyCanBeMadeInitOnly" xml:space="preserve">
+  <value>Свойство можно сделать только для инициализации</value>
+</data>
+<data name="VirtualOverridableMemberIsNeverOverridden" xml:space="preserve">
+  <value>Виртуальный (overridable) член никогда не переопределяется</value>
+</data>
+<data name="ParameterIsNeverUsed" xml:space="preserve">
+  <value>Параметр никогда не используется</value>
+</data>
+<data name="NonAccessedLocalVariable" xml:space="preserve">
+  <value>Недоступная локальная переменная</value>
+</data>
+<data name="TypeIsNeverUsed11" xml:space="preserve">
+  <value>Тип никогда не используется</value>
+</data>
+<data name="IsOnlyUsedToCaptureItsNameMessage" xml:space="preserve">
+  <value>{0} '{1}' используется только для захвата его имени</value>
+</data>
+<data name="ParameterCanBeOfTypeMessage" xml:space="preserve">
+  <value>Параметр может иметь тип '{0}'</value>
+</data>
+<data name="TypeMemberIsNeverUsedWithBaseTypeOrInterfaceItIsAlwaysAccessedViaMoreSpecificType" xml:space="preserve">
+  <value>Член типа никогда не используется с базовым типом или интерфейсом, доступ к нему всегда осуществляется через более конкретный тип</value>
+</data>
+<data name="Hides_From__Text" xml:space="preserve">
+  <value>Скрывает {0} из {1}</value>
+</data>
+<data name="UsageCheckingServiceSettingDescription" xml:space="preserve">
+  <value>Служба проверки использования</value>
+</data>
+<data name="ParameterCanBeDeclaredWithBaseType" xml:space="preserve">
+  <value>Параметр можно объявить с базовым типом</value>
+</data>
+<data name="OnlyOverridesOfAreUsedMessage" xml:space="preserve">
+  <value>Используются только переопределения {0} '{1}'</value>
+</data>
+<data name="EventIsNeverSubscribedTo14" xml:space="preserve">
+  <value>На событие никогда не подписываются</value>
+</data>
+<data name="StructMemberHasNoMutableAccessTothisAndCanBeMadeReadonly" xml:space="preserve">
+  <value>Член структуры не изменяет содержащую структуру через 'this' и может быть сделан только для чтения</value>
+</data>
+<data name="ParameterIsNeverUsedMessage" xml:space="preserve">
+  <value>Параметр '{0}' никогда не используется</value>
+</data>
+<data name="TypeParameterIsNeverUsed" xml:space="preserve">
+  <value>Параметр типа никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется{2}</value>
+</data>
+<data name="ConstructorParameterCanBeDeclaredWithBaseType" xml:space="preserve">
+  <value>Параметр конструктора можно объявить с базовым типом</value>
+</data>
+<data name="ParameterOfPartialMethodIsNeverUsed" xml:space="preserve">
+  <value>Параметр частичного метода никогда не используется</value>
+</data>
+<data name="FieldIsNeverUsed" xml:space="preserve">
+  <value>Поле никогда не используется</value>
+</data>
+<data name="IsAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+  <value>{0} '{1}' назначено, но его значение никогда не используется</value>
+</data>
+<data name="CanBeMadeMessage3" xml:space="preserve">
+  <value>{0} можно сделать {1}</value>
+</data>
+<data name="CanBeMadeMessage4" xml:space="preserve">
+  <value>{0} можно сделать {1}</value>
+</data>
+<data name="CanBeMadeMessage5" xml:space="preserve">
+  <value>{0} можно сделать {1}</value>
+</data>
+<data name="ParameterIsAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+  <value>Параметр '{0}' назначен, но его значение никогда не используется</value>
+</data>
+<data name="GetOnlyAutoPropertyIsNeverAssigned" xml:space="preserve">
+  <value>Автосвойство только с getter никогда не назначается</value>
+</data>
+<data name="ReadonlyFieldIsNeverAssignedCompilerWarning" xml:space="preserve">
+  <value>Поле только для чтения никогда не назначается (предупреждение компилятора)</value>
+</data>
+<data name="ClassCanBeMadeSealedNonInheritable" xml:space="preserve">
+  <value>Класс можно сделать sealed (не наследуемым)</value>
+</data>
+<data name="EventNeverInvokedNoteThatInCThisWarningIsTheCompilerWarningCSAndIsNotConfiguredHere" xml:space="preserve">
+  <value>Событие никогда не вызывается. Обратите внимание, что в C# это предупреждение компилятора CS0067, и оно здесь не настраивается.</value>
+</data>
+<data name="SuggestBaseTypeForParameter_AvoidMemberVirtualizationTitle" xml:space="preserve">
+  <value>Избегать виртуализации членов типа</value>
+</data>
+<data name="Overrides_From__Text" xml:space="preserve">
+  <value>Переопределяет {0} из {1}</value>
+</data>
+<data name="UnusedLabel" xml:space="preserve">
+  <value>Неиспользуемая метка</value>
+</data>
+<data name="FieldIsAssignedButItsValueIsNeverUsedCompilerWarning" xml:space="preserve">
+  <value>Поле назначено, но его значение никогда не используется (предупреждение компилятора)</value>
+</data>
+<data name="CollectionIsNeverUpdated" xml:space="preserve">
+  <value>Коллекция никогда не обновляется</value>
+</data>
+<data name="ElementsAreOnlyAddedToTheCollectionButNeverUsed" xml:space="preserve">
+  <value>Элементы только добавляются в коллекцию, но никогда не используются</value>
+</data>
+<data name="NonAccessedPositionalProperty" xml:space="preserve">
+  <value>Недоступное позиционное свойство</value>
+</data>
+<data name="WithItsOverridersIsNeverUsedFromOutsideMessage" xml:space="preserve">
+  <value>{0} '{1}' и его переопределители никогда не используются извне</value>
+</data>
+<data name="ALocalFunctionDoesNotUsethisObjectNeitherImplicitlyNorExplicitlyOrOutsideLocalVariablesAndCanBeMadeStatic" xml:space="preserve">
+  <value>Локальная функция не использует объект 'this' (ни неявно, ни явно) или переменные из внешней области видимости и может быть сделана static</value>
+</data>
+<data name="DisableAnalysis_Text" xml:space="preserve">
+  <value>Отключить анализ</value>
+</data>
+<data name="NonStaticClassIsNeverInstantiated" xml:space="preserve">
+  <value>Нестатический класс никогда не создается</value>
+</data>
+<data name="CollectionsContentIsNeverQueried" xml:space="preserve">
+  <value>Содержимое коллекции никогда не запрашивается</value>
+</data>
+<data name="DefaultEqualityOfStructIsUsedMessage" xml:space="preserve">
+  <value>Для проверки равенства структуры '{0}' используется неэффективная реализация, предоставляемая средой выполнения</value>
+</data>
+<data name="MemberCanBeMadeProtected" xml:space="preserve">
+  <value>Член можно сделать protected</value>
+</data>
+<data name="ClassIsNeverInstantiated" xml:space="preserve">
+  <value>Класс никогда не создается</value>
+</data>
+<data name="TypeWithSuspiciousEqualityIsUsedInRecordTitle" xml:space="preserve">
+  <value>В записи используется тип с подозрительным равенством</value>
+</data>
+<data name="MethodReturnValueIsNeverUsed" xml:space="preserve">
+  <value>Возвращаемое значение метода никогда не используется</value>
+</data>
+<data name="FieldIsNeverAssignedCompilerWarning" xml:space="preserve">
+  <value>Поле никогда не назначается (предупреждение компилятора)</value>
+</data>
+<data name="AutoPropertyCanBeMadeGetOnly" xml:space="preserve">
+  <value>Автосвойство можно сделать только с getter</value>
+</data>
+<data name="IsOnlyUsedToDiscardOutParameterValueMessage" xml:space="preserve">
+  <value>{0} '{1}' используется только для отбрасывания значения параметра 'out'</value>
+</data>
+<data name="IsNeverUsedMessage9" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage8" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage1" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage2" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage7" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="IsNeverUsedMessage6" xml:space="preserve">
+  <value>{0} '{1}' никогда не используется</value>
+</data>
+<data name="LocalVariableToDiscardOutParameterDescription" xml:space="preserve">
+  <value>Недоступная локальная переменная используется только для отбрасывания значения параметра 'out'</value>
+</data>
+<data name="AutoPropertyCanBeMadeMessage" xml:space="preserve">
+  <value>Автосвойство можно сделать {0}</value>
+</data>
+<data name="CanBeMadePrivateMessage" xml:space="preserve">
+  <value>{0} '{1}' можно сделать private</value>
+</data>
+<data name="PrimaryConstructorParameterIsNeverAccessed" xml:space="preserve">
+  <value>Параметр основного конструктора '{0}' никогда не доступен</value>
+</data>
+<data name="VirtualOverridableMemberIsNeverOverriddenAndSoThevirtualoverridableModifierCanBeRemoved" xml:space="preserve">
+  <value>Виртуальный (overridable) член никогда не переопределяется, поэтому модификатор 'virtual' ('overridable') можно удалить</value>
+</data>
+<data name="FieldIsNeverAssigned" xml:space="preserve">
+  <value>Поле никогда не назначается</value>
+</data>
+<data name="UnassignedField" xml:space="preserve">
+  <value>Неназначенное поле</value>
+</data>
+<data name="ParameterIsOnlyPassedToItselfMessage" xml:space="preserve">
+  <value>Параметр '{0}' передается только самому себе</value>
+</data>
+<data name="ParameterOutputValueIsAlwaysDiscarded" xml:space="preserve">
+  <value>Выходное значение параметра всегда отбрасывается</value>
+</data>
+<data name="ParameterOutputValueIsAlwaysDiscardedMessage" xml:space="preserve">
+  <value>Выходное значение параметра '{0}' всегда отбрасывается</value>
+</data>
+<data name="GetOnlyAutoPropertyIsNeverAssignedMessage" xml:space="preserve">
+  <value>Автосвойство только с getter '{0}' никогда не назначается</value>
+</data>
+<data name="EnableAnalysis_Text" xml:space="preserve">
+  <value>Включить анализ</value>
+</data>
+<data name="StructHasNoMutableMembersAndCanBeMadeReadonly" xml:space="preserve">
+  <value>Структура не имеет изменяемых членов и может быть сделана только для чтения</value>
+</data>
+<data name="NotAccessedPrimaryConstructorParameter" xml:space="preserve">
+  <value>Недоступный параметр основного конструктора</value>
+</data>
+<data name="ParameterDeclaresTheImplicitPositionalPropertyThatIsNeverAccessed" xml:space="preserve">
+  <value>Параметр '{0}' объявляет неявное позиционное свойство '{1}', которое никогда не доступно. Это может привести к захвату избыточного состояния в экземплярах '{2}' и участию в неявных реализациях {3}/{4}.</value>
+</data>
+<data name="PositionalParameterIsNeverUsedDidYouForgetToUseItToInitializeThePropertyWithThatNameMessage" xml:space="preserve">
+  <value>Позиционный параметр '{0}' никогда не используется. Вы не забыли использовать его для инициализации свойства с этим именем?</value>
+</data>
+<data name="OnlyOverridersOfEventAreSubscribedToMessage" xml:space="preserve">
+  <value>Подписаны только на переопределители события '{0}'</value>
+</data>
+<data name="ReturnTypeCanBeMessage" xml:space="preserve">
+  <value>Тип возвращаемого значения может быть '{0}'</value>
+</data>
+<data name="LocalVariableIsAssignedButItsValueIsNeverUsed" xml:space="preserve">
+  <value>Локальная переменная назначена, но её значение никогда не используется</value>
+</data>
+<data name="EventIsNotInvokedInAnyOfTheImplementationsMessage" xml:space="preserve">
+  <value>Событие '{0}' не вызывается ни в одной из реализаций</value>
+</data>
+<data name="StructCanBeMadeReadonly" xml:space="preserve">
+  <value>Структуру можно сделать только для чтения</value>
+</data>
+<data name="HasSomeMembersButNoInheritorsMessage" xml:space="preserve">
+  <value>{0} '{1}' имеет некоторые члены {2}, но не имеет наследников</value>
+</data>
+<data name="SuspiciousTypeCheckThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+  <value>Подозрительная проверка типа: в решении нет типа, унаследованного и от '{0}', и от '{1}'</value>
+</data>
+<data name="ParameterIsOnlyUsedForPreconditionCheck13" xml:space="preserve">
+  <value>Параметр используется только для проверки предусловий</value>
+</data>
+<data name="StructLacksIEquatableImplementationTitle" xml:space="preserve">
+  <value>Структуре не хватает реализации 'IEquatable'</value>
+</data>
+<data name="UnusedParameterInPartialMethod" xml:space="preserve">
+  <value>Неиспользуемый параметр в частичном методе</value>
+</data>
+<data name="LocalVariableToDiscardOutParameter" xml:space="preserve">
+  <value>Недоступная локальная переменная используется только для отбрасывания значения параметра 'out'</value>
+</data>
+<data name="HasNoInheritorsAndCanBeMarkedMessage" xml:space="preserve">
+  <value>{0} '{1}' не имеет наследников и может быть помечен как {2}</value>
+</data>
+<data name="ParameterIsUsedNeitherInThisNorInOverridingsMessage" xml:space="preserve">
+  <value>Параметр '{0}' не используется здесь и не используется при переопределении{1}</value>
+</data>
+<data name="ClassHasNoInheritorsAndCanBeMarkedSealedNonInheritable" xml:space="preserve">
+  <value>Класс не имеет наследников и может быть помечен как sealed (не наследуемый)</value>
+</data>
+<data name="AbstractOrVirtualOverridableEventIsNeverInvoked" xml:space="preserve">
+  <value>Абстрактное или виртуальное (overridable) событие никогда не вызывается</value>
+</data>
+<data name="ClassWithVirtualOverridableMembersNeverInherited" xml:space="preserve">
+  <value>Класс с виртуальными (overridable) членами никогда не наследуется</value>
+</data>
+<data name="LocalFunctionCanBeMadeStatic" xml:space="preserve">
+  <value>Локальную функцию можно сделать static</value>
+</data>
+<data name="ParameterIsOnlyUsedForPreconditionCheckSMessage" xml:space="preserve">
+  <value>Параметр '{0}' используется только для проверки предусловий</value>
+</data>
+<data name="DefaultEqualityOfStructIsUsedDescription" xml:space="preserve">
+  <value>Реализации по умолчанию для методов 'Equals' и 'GetHashCode' структуры основаны на отражении и работают неэффективно. Чтобы предотвратить упаковку и повысить производительность, рекомендуется переопределить члены равенства. Эта проверка срабатывает только если структура или содержащий её тип (например, запись) фактически используется в решении для сравнения на равенство.</value>
+</data>
+<data name="TypeWithSuspiciousEqualityIsUsedInRecordMessage" xml:space="preserve">
+  <value>Тип с подозрительным равенством используется как член типа записи</value>
+</data>
+<data name="MemberCanBeMadeStaticShared" xml:space="preserve">
+  <value>Член можно сделать static (shared)</value>
+</data>
+<data name="IsNeverOverriddenMessage" xml:space="preserve">
+  <value>{0} {1} '{2}' никогда не переопределяется</value>
+</data>
+<data name="TypeCanBeMadeFileLocal" xml:space="preserve">
+  <value>Тип можно сделать file-local</value>
+</data>
+<data name="EntityIsOnlyUsedToCaptureItsName" xml:space="preserve">
+  <value>Сущность используется только для захвата её имени</value>
+</data>
+<data name="ReturnTypeCanBeIEnumerableT" xml:space="preserve">
+  <value>Тип возвращаемого значения может быть IEnumerable&lt;T&gt;</value>
+</data>
+<data name="UnusedLocalVariable" xml:space="preserve">
+  <value>Неиспользуемая локальная переменная</value>
+</data>
+<data name="LocalVariableIsNeverUsed" xml:space="preserve">
+  <value>Локальная переменная никогда не используется</value>
+</data>
+<data name="TypeCanBeMessage" xml:space="preserve">
+  <value>Тип может быть '{0}'</value>
+</data>
+<data name="ParameterCanBeDeclaredWithIEnumerableTTypeWhileItsDeclaredWithMoreSpecificTypeEGListT" xml:space="preserve">
+  <value>Параметр можно объявить с типом IEnumerable&lt;T&gt;, но он объявлен с более конкретным типом (например, List&lt;T&gt;)</value>
+</data>
+<data name="TypeIsNeverUsed" xml:space="preserve">
+  <value>Тип никогда не используется</value>
+</data>
+<data name="OnlyImplementationsOfEventAreSubscribedToMessage" xml:space="preserve">
+  <value>Подписаны только на реализации события '{0}'</value>
+</data>
+<data name="ImplicitConversion_Text" xml:space="preserve">
+  <value>Неявное преобразование {0}</value>
+</data>
+<data name="LocalVariableIsAssignedButItsValueIsNeverUsedCompilerWarning" xml:space="preserve">
+  <value>Локальная переменная назначена, но её значение никогда не используется (предупреждение компилятора)</value>
+</data>
+<data name="FieldHasNoWriteUsagesAfterInitializationAndCanBeMadeReadonly" xml:space="preserve">
+  <value>У поля нет использований на запись после инициализации, и его можно сделать только для чтения</value>
+</data>
+<data name="ReadonlyFieldIsNeverAssigned" xml:space="preserve">
+  <value>Поле только для чтения никогда не назначается</value>
+</data>
+<data name="StructMemberCanBeMadeReadonly" xml:space="preserve">
+  <value>Член структуры можно сделать только для чтения</value>
+</data>
+<data name="TheResultingValueOfOutputParameterIsAlwaysDiscarded" xml:space="preserve">
+  <value>Результирующее значение выходного параметра всегда отбрасывается</value>
+</data>
+<data name="AllUsagesOfAMethodOrReadOnlyPropertyIndexerUseReturnedValueAsIEnumerableTWhileItsDeclaredWithMoreSpecificTypeEGListT" xml:space="preserve">
+  <value>Все использования метода (или свойства/индексатора только для чтения) используют возвращаемое значение как IEnumerable&lt;T&gt;, но он объявлен с более конкретным типом (например, List&lt;T&gt;)</value>
+</data>
+<data name="SuspiciousComparisonThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+  <value>Подозрительное сравнение: в решении нет типа, унаследованного и от '{0}', и от '{1}'</value>
+</data>
+<data name="EnableAnalysisInSolution_Text" xml:space="preserve">
+  <value>Включить анализ в решении</value>
+</data>
+<data name="PositionalPropertyIsNeverAccessedForRead" xml:space="preserve">
+  <value>Позиционное свойство никогда не доступно для чтения</value>
+</data>
+<data name="AutoPropertyHasNoWriteUsagesAfterInitializationAndCanBeMadeGetOnly" xml:space="preserve">
+  <value>У автосвойства нет использований на запись после инициализации, и его можно сделать только с getter</value>
+</data>
+<data name="DisableAnalysisForAll_FilesFromNuGet_Text" xml:space="preserve">
+  <value>Отключить анализ для всех файлов {0} из пакетов NuGet в этом {1}</value>
+</data>
+<data name="CanBeMadeFileLocalMessage" xml:space="preserve">
+  <value>{0} '{1}' можно сделать file-local</value>
+</data>
+<data name="CalculateElementIdForPrivateMembersSettingDescription" xml:space="preserve">
+  <value>Вычислять ElementId для private членов</value>
+</data>
+<data name="TypeMemberIsNeverUsed10" xml:space="preserve">
+  <value>Член типа никогда не используется</value>
+</data>
+<data name="ParameterTypeCanBeIEnumerableT" xml:space="preserve">
+  <value>Тип параметра может быть IEnumerable&lt;T&gt;</value>
+</data>
+<data name="DefaultEqualityOfStructIsUsedTitle" xml:space="preserve">
+  <value>Структура с членами равенства по умолчанию используется для сравнения</value>
+</data>
+<data name="ParameterIsNotUsedInAnyOfTheImplementationsMessage" xml:space="preserve">
+  <value>Параметр '{0}' не используется ни в одной из реализаций</value>
+</data>
+<data name="PropertySetterCanBeReplacesWithinitAccessorToEnforcePropertyImmutability" xml:space="preserve">
+  <value>Сеттер свойства можно заменить на accessor 'init' для обеспечения неизменяемости свойства</value>
+</data>
+<data name="ContentOfCollectionIsOnlyUpdatedButNeverUsedMessage" xml:space="preserve">
+  <value>Содержимое коллекции '{0}' только обновляется, но никогда не используется</value>
+</data>
+<data name="ImplicitConversionCompound_Text" xml:space="preserve">
+  <value>Эта операция выполнит следующие неявные преобразования:</value>
+</data>
+<data name="LabelIsNeverReferenced" xml:space="preserve">
+  <value>Метка никогда не упоминается</value>
+</data>
+<data name="AccessorInAutoPropertyIsNeverUsed" xml:space="preserve">
+  <value>Метод доступа в автосвойстве никогда не используется</value>
+</data>
+<data name="EventNeverInvoked" xml:space="preserve">
+  <value>Событие никогда не вызывается</value>
+</data>
+<data name="SuspiciousTypeConversionOrCheck" xml:space="preserve">
+  <value>Подозрительное преобразование или проверка типа</value>
+</data>
+<data name="AnAbstractOrVirtualOverridableEventIsNeverInvokedInItsClassOrItsInheritors" xml:space="preserve">
+  <value>Абстрактное или виртуальное (overridable) событие никогда не вызывается в его классе или его наследниках</value>
+</data>
+<data name="FieldCanBeMadeReadonly" xml:space="preserve">
+  <value>Поле можно сделать только для чтения</value>
+</data>
+<data name="NonAbstractClassHasVirtualOverridableMembersButHasNoInheritors" xml:space="preserve">
+  <value>Неабстрактный класс имеет виртуальные (overridable) члены, но не имеет наследников</value>
+</data>
+<data name="NonAccessedField" xml:space="preserve">
+  <value>Недоступное поле</value>
+</data>
+<data name="SuspiciousCastThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+  <value>Подозрительное приведение: в решении нет типа, унаследованного и от '{0}', и от '{1}'</value>
+</data>
+<data name="MemberCanBeMadePrivate15" xml:space="preserve">
+  <value>Член можно сделать private</value>
+</data>
+<data name="IsNeverInstantiatedMessage" xml:space="preserve">
+  <value>{0} '{1}' никогда не создается</value>
+</data>
+<data name="IsOnlyAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+  <value>{0} '{1}' только назначается, но его значение никогда не используется</value>
+</data>
+</root>

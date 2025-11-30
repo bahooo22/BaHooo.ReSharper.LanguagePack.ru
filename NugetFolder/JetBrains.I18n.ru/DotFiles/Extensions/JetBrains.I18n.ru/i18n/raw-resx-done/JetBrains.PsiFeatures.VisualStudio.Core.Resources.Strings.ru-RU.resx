@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="PatchingProjectFiles_Text" xml:space="preserve">
+  <value>Патчинг файлов проекта</value>
+</data>
+<data name="PathMappingDescription_Text" xml:space="preserve">
+  <value>Определяет корреляцию между путями веб-сайта в разработке и после развертывания</value>
+</data>
+<data name="DonTShowWhatSNewPageAfterUpdate_Text" xml:space="preserve">
+  <value>Не показывать страницу «Что нового» после обновления</value>
+</data>
+<data name="ReSharperSupportsTheLanguageThatYou_Text" xml:space="preserve">
+  <value>ReSharper поддерживает язык, который вы используете в Visual Studio. Нажмите «Настроить», чтобы изменить язык.</value>
+</data>
+<data name="SettingsForLeakedSolutionExceptionHandlingSettingDescription" xml:space="preserve">
+  <value>Настройки обработки исключений для утерянных решений</value>
+</data>
+<data name="CodeInspectionSettingsColorIdentifiers_Text" xml:space="preserve">
+  <value>Опция *Проверка кода | Настройки | Цветовые идентификаторы* должна быть включена, чтобы ReSharper отображал свои всплывающие подсказки</value>
+</data>
+<data name="SolutionStatisticsAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Статистика решения</value>
+</data>
+<data name="YouHave__Installed_Text" xml:space="preserve">
+  <value>Установлен {0} {1}</value>
+</data>
+<data name="StoresForWhichWhatsNewIsShownSettingDescription" xml:space="preserve">
+  <value>Хранилища, для которых показывается информация о нововведениях</value>
+</data>
+<data name="ReSharperHasDetectedASeriousMemoryLeak_Text" xml:space="preserve">
+  <value>ReSharper обнаружил серьезную утечку памяти. Хотите присоединить снимок памяти и отправить отчет в JetBrains? Это значительно поможет нам в решении подобных проблем.
+        
+Инструкции:
+1. После нажатия «Да» анализатор памяти будет автоматически загружен и присоединен.
+2. Дождитесь сбора снимка памяти и его отображения во вложениях окна «Браузер исключений».
+3. Нажмите «Опубликовать» или «Опубликовать приватно» в соответствии с вашими предпочтениями.</value>
+</data>
+<data name="ProfileVisualStudioActionText" xml:space="preserve">
+  <value>Профилировать Visual Studio</value>
+</data>
+<data name="ByDefault_InVisualStudioJumpsToTheBeginning_Text_Text" xml:space="preserve">
+  <value>По умолчанию «Перейти к содержащему блоку» {0} в Visual Studio переходит к началу содержащего оператора. Используйте эту опцию, чтобы изменить это поведение и переходить к открывающей фигурной скобке содержащего блока.</value>
+</data>
+<data name="ReSharperTeamNeedsYourFeedback_Text" xml:space="preserve">
+  <value>Команде ReSharper нужна ваша обратная связь</value>
+</data>
+<data name="LearnWhatSNew_Text" xml:space="preserve">
+  <value>Узнать о нововведениях</value>
+</data>
+<data name="ZippedSolutionAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Заархивированное решение</value>
+</data>
+<data name="ReSharperCHasBeenInstalled_Text" xml:space="preserve">
+  <value>ReSharper C++ установлен</value>
+</data>
+<data name="AnonymisingSolutionFile_Text" xml:space="preserve">
+  <value>Анонимизация файла решения</value>
+</data>
+<data name="MappedFileOrFolderIsNotSpecified_Text" xml:space="preserve">
+  <value>Сопоставленный файл или папка не указаны</value>
+</data>
+<data name="PathMappingDisplayName_Text" xml:space="preserve">
+  <value>Сопоставление путей</value>
+</data>
+<data name="ArchivingSolution_Text" xml:space="preserve">
+  <value>Архивация решения</value>
+</data>
+<data name="YourLicenseAlsoCoversReSharperCIfYou_Text" xml:space="preserve">
+  <value>**Ваша лицензия также покрывает ReSharper C\+\+**
+Если вы работаете с кодом на C\+\+, установите расширение ReSharper C\+\+, чтобы обогатить вашу работу с C\+\+.
+Оно предоставляет: одноклассовую генерацию стандартного кода C\+\+, глубокий динамический анализ кода и быстрые исправления, рефакторинги для целей C\+\+, навигацию по коду и многое другое.</value>
+</data>
+<data name="AlignBaselines_BoolOption_Text" xml:space="preserve">
+  <value>Выравнивать базовые линии</value>
+</data>
+<data name="CreatingArchive_Text" xml:space="preserve">
+  <value>Создание архива</value>
+</data>
+<data name="FontSizeScaleFactor_Text" xml:space="preserve">
+  <value>Коэффициент масштабирования размера шрифта:</value>
+</data>
+<data name="DearReSharperUser_Text" xml:space="preserve">
+  <value>Уважаемый пользователь ReSharper!</value>
+</data>
+<data name="ShowLog_Button_Text" xml:space="preserve">
+  <value>Показать журнал</value>
+</data>
+<data name="LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption" xml:space="preserve">
+  <value>Уровень журнала для записи сообщений восстановителя пакетов NuGet в вывод:</value>
+</data>
+<data name="RestoringNuGetPackagesClickToCancel_ToolTip" xml:space="preserve">
+  <value>Восстановление пакетов NuGet
+Нажмите для отмены</value>
+</data>
+<data name="None_Option_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="AnonymisingProject__Text" xml:space="preserve">
+  <value>Анонимизация проекта {0}</value>
+</data>
+<data name="CustomPageParserFilterTypeDisplayName_Text" xml:space="preserve">
+  <value>Обработка пользовательского pageParserFilterType</value>
+</data>
+<data name="Tooltips_Header_Text" xml:space="preserve">
+  <value>Всплывающие подсказки</value>
+</data>
+<data name="ShowSolutionStructureChangesActionText" xml:space="preserve">
+  <value>Показать изменения структуры решения</value>
+</data>
+<data name="SettingsAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="StoresMd5HashForLastShownWhatNew" xml:space="preserve">
+  <value>Хранит MD5-хэш последнего показанного whats_new.json</value>
+</data>
+<data name="GoToSurvey_Text" xml:space="preserve">
+  <value>Перейти к опросу</value>
+</data>
+<data name="VisualStudio_Text" xml:space="preserve">
+  <value>Visual Studio</value>
+</data>
+<data name="CssSupportIsDisabled_Text" xml:space="preserve">
+  <value>Поддержка CSS отключена по умолчанию</value>
+</data>
+<data name="EnterFolderName_Text" xml:space="preserve">
+  <value>Введите имя папки:</value>
+</data>
+<data name="CurrentFileAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Текущий исходный файл</value>
+</data>
+<data name="Configure_Text" xml:space="preserve">
+  <value>Настроить…</value>
+</data>
+<data name="CanTCreateView_Text" xml:space="preserve">
+  <value>Не удается создать представление</value>
+</data>
+<data name="Notification_Option_Text" xml:space="preserve">
+  <value>Уведомление</value>
+</data>
+<data name="Interline_Hints_Scale " xml:space="preserve">
+  <value>Масштаб межстрочных подсказок:</value>
+</data>
+<data name="OpenReSharperSettingsToEnable_Text" xml:space="preserve">
+  <value>Откройте настройки ReSharper, чтобы включить</value>
+</data>
+<data name="Log_Option_Text" xml:space="preserve">
+  <value>Журнал</value>
+</data>
+<data name="PredictiveDebuggerAutoRun_Text" xml:space="preserve">
+  <value>Если отключить эту опцию, вы сможете запускать прогностический отладчик из редактора при необходимости</value>
+</data>
+<data name="WhatSNew_Text" xml:space="preserve">
+  <value>Что нового</value>
+</data>
+<data name="Hint_Text_Size" xml:space="preserve">
+  <value>Размер шрифта</value>
+</data>
+<data name="IllegalCharactersInPath_Text" xml:space="preserve">
+  <value>Недопустимые символы в пути</value>
+</data>
+<data name="InstallReSharperC_Text" xml:space="preserve">
+  <value>Установить ReSharper C++</value>
+</data>
+<data name="MemoryLeakDetected_Text" xml:space="preserve">
+  <value>Обнаружена утечка памяти</value>
+</data>
+<data name="ParticipateInOurPerformanceResearch_Text" xml:space="preserve">
+  <value>Примите участие в нашем исследовании производительности и получите шанс выиграть призы</value>
+</data>
+<data name="WhatsNew_FailedToLoad_Text" xml:space="preserve">
+  <value>Не удалось загрузить содержимое «Что нового»</value>
+</data>
+<data name="EnvironmentInfoAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Информация о среде</value>
+</data>
+<data name="MoveCaretToCodeBlockStartActionText" xml:space="preserve">
+  <value>Переместить курсор в начало блока кода</value>
+</data>
+<data name="WhatsNew_OpenInBrowser_Hyperlink_Text" xml:space="preserve">
+  <value>Открыть в браузере ↗</value>
+</data>
+<data name="CustomPageParserFilterTypeDescription_Text" xml:space="preserve">
+  <value>Указывает, как обрабатывать customPageParserFilterType, когда ReSharper его не распознает</value>
+</data>
+<data name="JavaScriptAndTypeScriptSupportIsDisabled_Text" xml:space="preserve">
+  <value>Поддержка JavaScript и TypeScript отключена по умолчанию</value>
+</data>
+<data name="WhatsNewShownSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отображения «Что нового»</value>
+</data>
+<data name="SpecifiesWhetherToShowPredictiveValuesInEditorSettingDescription" xml:space="preserve">
+  <value>Указывает, показывать ли прогностические значения в редакторе</value>
+</data>
+<data name="MissingJsTsSupport_Text" xml:space="preserve">
+  <value>Отсутствует поддержка Js/Ts?</value>
+</data>
+<data name="ReplaceVisualStudioTooltips_Text" xml:space="preserve">
+  <value>Заменять всплывающие подсказки Visual Studio</value>
+</data>
+<data name="DidYouTryReSharperC_Text" xml:space="preserve">
+  <value>Вы пробовали ReSharper C++?</value>
+</data>
+<data name="Use_ToJumpToTheOpeningBrace_BoolOption_Text" xml:space="preserve">
+  <value>Использовать «Перейти к содержащему блоку» {0} для перехода к открывающей скобке</value>
+</data>
+<data name="VsAdvertiseSubmitFeedbackComponentSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек компонента «Отправить отзыв» в Visual Studio</value>
+</data>
+<data name="FileOrFolderDoesNotExist_Text" xml:space="preserve">
+  <value>Файл или папка не существует</value>
+</data>
+<data name="DefaultActionForMemorySnapshotAttachmentSettingDescription" xml:space="preserve">
+  <value>Действие по умолчанию для вложения снимка памяти</value>
+</data>
+<data name="PatchingSolutionFile_Text" xml:space="preserve">
+  <value>Патчинг файла решения</value>
+</data>
+<data name="Inline_Hints_Scale " xml:space="preserve">
+  <value>Масштаб встроенных подсказок:</value>
+</data>
+<data name="PreparingTheListOfItemsPleaseWait_Text" xml:space="preserve">
+  <value>Подготовка списка элементов, пожалуйста, подождите…</value>
+</data>
+<data name="DoNotAskAgainToAttachMemorySnapshotSettingDescription" xml:space="preserve">
+  <value>Больше не спрашивать о присоединении снимка памяти</value>
+</data>
+<data name="Navigation_Header_Text" xml:space="preserve">
+  <value>Навигация</value>
+</data>
+<data name="SolutionStructureAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>Структура решения</value>
+</data>
+<data name="NuGetRestorerOptionPageTitle" xml:space="preserve">
+  <value>Восстановитель NuGet</value>
+</data>
+<data name="RemovalDelayDuration_IntOption_Text" xml:space="preserve">
+  <value>Длительность задержки удаления</value>
+</data>
+<data name="MissingCssSupport_Text" xml:space="preserve">
+  <value>Отсутствует поддержка CSS?</value>
+</data>
+<data name="DoNotShowSettingDescription" xml:space="preserve">
+  <value>Не показывать</value>
+</data>
+<data name="InternalOptions_Header_Text" xml:space="preserve">
+  <value>[ВНУТРЕННИЕ] опции</value>
+</data>
+<data name="HelpUsEnhanceReSharperSPerformance_Text" xml:space="preserve">
+  <value>Помогите нам улучшить производительность ReSharper</value>
+</data>
+<data name="YouHaveInstalledANewVersionOf__Text" xml:space="preserve">
+  <value>Вы установили новую версию {0}</value>
+</data>
+<data name="FileOrFolderIsOutsideTheCurrentProject_Text" xml:space="preserve">
+  <value>Файл или папка находится вне текущего проекта</value>
+</data>
+<data name="WhatsNew_Loading_Text" xml:space="preserve">
+  <value>Загрузка «Что нового»…</value>
+</data>
+</root>

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CSharpParameterNameHintsExclusionListPredefinedValues_Name_Predefined_VB_NET_Parameter_Name_Hints_Exclusion_List" xml:space="preserve">
+  <value>Предопределенный список исключений для подсказок имен параметров Visual Basic</value>
+</data>
+<data name="ReformatCode_Name_Reformat_VB" xml:space="preserve">
+  <value>Переформатировать Visual Basic</value>
+</data>
+<data name="AfternewSettingDescription" xml:space="preserve">
+  <value>После 'new'</value>
+</data>
+<data name="LetterAndDigitsSettingDescription" xml:space="preserve">
+  <value>Буквы и цифры</value>
+</data>
+<data name="GenerateOption_DefaultBody_Text" xml:space="preserve">
+  <value>Тело по умолчанию (из настроек)</value>
+</data>
+<data name="GenerateOption_PropertiesAs_Text" xml:space="preserve">
+  <value>Свойства как (&amp;P)</value>
+</data>
+<data name="GenerateOption_NonOverridableMember_Text" xml:space="preserve">
+  <value>Непереопределяемый член</value>
+</data>
+<data name="VbLanguageLevelDisplayName_Text" xml:space="preserve">
+  <value>Уровень языка VB</value>
+</data>
+<data name="InDocCommentsSettingDescription" xml:space="preserve">
+  <value>В комментариях документации</value>
+</data>
+<data name="GenerateOption_Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="GenerateOption_MakeTaskReturningMethodsAsync_Text" xml:space="preserve">
+  <value>Сделать возвращающие задачу методы 'async'</value>
+</data>
+<data name="GenerateOption_OverridableMember_Text" xml:space="preserve">
+  <value>Переопределяемый член</value>
+</data>
+<data name="GenerateOption_CheckParametersForNull_Text" xml:space="preserve">
+  <value>Проверять параметры на null (&amp;N)</value>
+</data>
+<data name="GenerateOption_PropertyWithBackingField_Text" xml:space="preserve">
+  <value>Свойство с резервным полем</value>
+</data>
+<data name="VBTypingAssistanceSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки помощи при вводе VB</value>
+</data>
+<data name="VBNETCodeInspectionSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки проверки кода VB.NET</value>
+</data>
+<data name="GenerateOption_Automatic_Text" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="GeneratingXmlDocumentation" xml:space="preserve">
+  <value>Генерация XML-документации</value>
+</data>
+<data name="CompleteOnSpaceSettingDescription" xml:space="preserve">
+  <value>Завершать по пробелу</value>
+</data>
+<data name="GenerateOption_MustOverrideMember_Text" xml:space="preserve">
+  <value>Обязательно переопределяемый член</value>
+</data>
+<data name="GenerateOption_Overridable_Text" xml:space="preserve">
+  <value>Переопределяемый (&amp;O)</value>
+</data>
+<data name="VBNETSettingDescription" xml:space="preserve">
+  <value>VB.NET</value>
+</data>
+<data name="VBNETVbFilesAndVBNETCodeInSupportedServerPagesSettingDescription" xml:space="preserve">
+  <value>VB.NET (файлы .vb и код VB.NET в поддерживаемых серверных страницах)</value>
+</data>
+<data name="WhereValueIsExpectedSettingDescription" xml:space="preserve">
+  <value>Там, где ожидается значение</value>
+</data>
+<data name="GenerateOption_No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="AfterSettingDescription" xml:space="preserve">
+  <value>После '_'</value>
+</data>
+<data name="VBOtherInlayHintsOptionsPage_New_Code_annotations_for_parameter_declarations" xml:space="preserve">
+  <value>Аннотации кода для объявлений параметров</value>
+</data>
+<data name="UseReSharperAnalysisSettingDescription" xml:space="preserve">
+  <value>Использовать анализ ReSharper</value>
+</data>
+<data name="GenerateOption_UseSystemHashCodeToImplementGetHashCode_Text" xml:space="preserve">
+  <value>Использовать 'System.&amp;HashCode' для реализации 'GetHashCode'</value>
+</data>
+<data name="VbLanguageLevelDescription_Text" xml:space="preserve">
+  <value>Указывает уровень языка VB для анализа кода проекта</value>
+</data>
+<data name="GenerateOption_UseNameOf_Text" xml:space="preserve">
+  <value>Использовать 'NameOf'</value>
+</data>
+<data name="VisualBasicNETOtherInlayHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки других встроенных подсказок Visual Basic .NET</value>
+</data>
+<data name="TabActionSettingDescription" xml:space="preserve">
+  <value>Действие Tab</value>
+</data>
+<data name="GenerateOption_AutomaticProperty_Text" xml:space="preserve">
+  <value>Автоматическое свойство</value>
+</data>
+<data name="VisualBasicNETParameterNameHintsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки подсказок имен параметров Visual Basic .NET</value>
+</data>
+<data name="OverrideVSIntelliSenseForVBNETSettingDescription" xml:space="preserve">
+  <value>Переопределять VS IntelliSense для VB.NET</value>
+</data>
+<data name="EnterActionSettingDescription" xml:space="preserve">
+  <value>Действие Enter</value>
+</data>
+<data name="GenerateOption_UseMethod_Text" xml:space="preserve">
+  <value>Использовать метод '{0}'</value>
+</data>
+<data name="VisualBasicOptionPageTitle" xml:space="preserve">
+  <value>Visual Basic</value>
+</data>
+<data name="NonCompletingCharactersSettingDescription" xml:space="preserve">
+  <value>Символы, не завершающие ввод</value>
+</data>
+<data name="GenerateOption_ImplementAs_Text" xml:space="preserve">
+  <value>Реализовать как (&amp;I)</value>
+</data>
+<data name="OtherOptionPageTitle" xml:space="preserve">
+  <value>Другое</value>
+</data>
+<data name="NamingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль именования</value>
+</data>
+<data name="VBPredefinedNamingPolicySettings_Name_VB_NET_Predefined_Naming_Policy" xml:space="preserve">
+  <value>Предопределенная политика именования Visual Basic</value>
+</data>
+<data name="GenerateOption_NotifyOnPropertyChanges_Text" xml:space="preserve">
+  <value>Уведомлять об изменениях свойств (&amp;N)</value>
+</data>
+<data name="GenerateOption_ReadOnly_Text" xml:space="preserve">
+  <value>Только для чтения (&amp;R)</value>
+</data>
+<data name="InsertEndConstructsEndSubEndIfNextEtcOnEnterSettingDescription" xml:space="preserve">
+  <value>Вставлять завершающие конструкции (End Sub, End If, Next и т.д.) по нажатию Enter</value>
+</data>
+<data name="GenerateOption_AccessRights_Text" xml:space="preserve">
+  <value>Права доступа (&amp;R)</value>
+</data>
+<data name="ParameterNameHintsOptionPageTitle" xml:space="preserve">
+  <value>Подсказки имен параметров</value>
+</data>
+<data name="AfterDotSettingDescription" xml:space="preserve">
+  <value>После точки</value>
+</data>
+</root>

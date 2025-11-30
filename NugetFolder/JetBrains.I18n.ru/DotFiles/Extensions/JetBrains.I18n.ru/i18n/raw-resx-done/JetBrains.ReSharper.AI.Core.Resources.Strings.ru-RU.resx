@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Completed_Text" xml:space="preserve">
+  <value>Выполнено</value>
+</data>
+<data name="GrazieProfileForAIAssistant_Text" xml:space="preserve">
+  <value>Профиль Grazie для AI Assistant</value>
+</data>
+<data name="LastKnownUserState_Text" xml:space="preserve">
+  <value>Последнее известное состояние пользователя</value>
+</data>
+<data name="SuggestBetterComment_Text" xml:space="preserve">
+  <value>Предложить лучший комментарий</value>
+</data>
+<data name="AIProTrialCouldBeActivated_Text" xml:space="preserve">
+  <value>Пробную версию AI Pro теперь можно активировать</value>
+</data>
+<data name="GenerateImplementationAction_Description" xml:space="preserve">
+  <value>Реализовать с помощью ИИ</value>
+</data>
+<data name="QuotaRefillAtDatetime_Text" xml:space="preserve">
+  <value>Дата и время пополнения квоты</value>
+</data>
+<data name="GrazieTestMethodGenerator_Progress_Header" xml:space="preserve">
+  <value>Генерация тестов с помощью ИИ</value>
+</data>
+<data name="ErrorDuplicateResponseReceived_Text" xml:space="preserve">
+  <value>Ошибка: получен повторный ответ</value>
+</data>
+<data name="RewriteDocumentationContextAction_Text" xml:space="preserve">
+  <value>Переписать документацию</value>
+</data>
+<data name="AIEnabledState_NoJBALogin_Text" xml:space="preserve">
+  <value>Для доступа к функциям ИИ необходимо войти в JetBrains Account с соответствующей лицензией</value>
+</data>
+<data name="ProofreadCommentContextAction_Text" xml:space="preserve">
+  <value>Вычитать комментарий</value>
+</data>
+<data name="GrazieTestMethodGenerator_ComboboxItem_Label" xml:space="preserve">
+  <value>JetBrains AI</value>
+</data>
+<data name="TheUsageOfTheServiceIsNotPermittedIn_Text" xml:space="preserve">
+  <value>Использование сервиса запрещено в вашем регионе</value>
+</data>
+<data name="ExpandToIncludeMoreDetails_Text" xml:space="preserve">
+  <value>Развернуть, чтобы включить больше деталей…</value>
+</data>
+<data name="Print_Text" xml:space="preserve">
+  <value>Печать</value>
+</data>
+<data name="Finished_Text" xml:space="preserve">
+  <value>Завершено</value>
+</data>
+<data name="CollectingRelevantCode_Text" xml:space="preserve">
+  <value>Сбор релевантного кода…</value>
+</data>
+<data name="InEditorGenerateImplementationBulbAction_Text" xml:space="preserve">
+  <value>Реализовать</value>
+</data>
+<data name="GenerateTests_Text" xml:space="preserve">
+  <value>Сгенерировать тесты…</value>
+</data>
+<data name="TooManyRequestsPleaseTryAgainLater_Text" xml:space="preserve">
+  <value>Слишком много запросов. Пожалуйста, повторите попытку позже.</value>
+</data>
+<data name="LoginOnNextLicenceChange_Text" xml:space="preserve">
+  <value>Войти при следующем изменении лицензии</value>
+</data>
+<data name="ProofreadComment_Text" xml:space="preserve">
+  <value>Вычитать комментарий</value>
+</data>
+<data name="SimplifyDocumentation_Text" xml:space="preserve">
+  <value>Упростить текст в документации</value>
+</data>
+<data name="YouMustMeLoggedIntoJetBrainsAccount_Text" xml:space="preserve">
+  <value>Для использования функций ИИ необходимо войти в JetBrains Account</value>
+</data>
+<data name="AnotherQueryIsInProgressPleaseWait_Text" xml:space="preserve">
+  <value>Выполняется другой запрос. Пожалуйста, подождите.</value>
+</data>
+<data name="ErrorErrorFromAI_Text" xml:space="preserve">
+  <value>Ошибка: ошибка ИИ</value>
+</data>
+<data name="SomethingWentWrong_Text" xml:space="preserve">
+  <value>Что-то пошло не так</value>
+</data>
+<data name="GrazieTestMethodGenerator_Progress_Tokens_Text" xml:space="preserve">
+  <value>Получено токенов: {0}</value>
+</data>
+<data name="ReadTheEntireDocumentToContinue_Text" xml:space="preserve">
+  <value>Прочтите весь документ, чтобы продолжить</value>
+</data>
+<data name="NewChat_Text" xml:space="preserve">
+  <value>Новый чат</value>
+</data>
+<data name="AIEnabledState_AIFeaturesAreDisabledByTheFloatingLicense_Text" xml:space="preserve">
+  <value>Функции ИИ отключены сервером плавающих лицензий</value>
+</data>
+<data name="GrazieTestMethodGenerator_Progress_Start_Text" xml:space="preserve">
+  <value>Подготовка запроса…</value>
+</data>
+<data name="AIEnabledState_NoLicense_Text" xml:space="preserve">
+  <value>Для использования функций ИИ требуется активная ИИ-подписка</value>
+</data>
+<data name="LicenseIDWhichIsUsedToLogin_Text" xml:space="preserve">
+  <value>ID лицензии, используемый для входа</value>
+</data>
+<data name="AIEnabledState_AIFeatureAreEnabledByTheFloatingLicense_Text" xml:space="preserve">
+  <value>Функции ИИ включены сервером плавающих лицензий</value>
+</data>
+<data name="AIEnabledState_AIFeaturesAreEnabledByIDEService_Text" xml:space="preserve">
+  <value>Функции ИИ включены службой JetBrains IDE Services</value>
+</data>
+<data name="JetBrainsAIOptions_Text" xml:space="preserve">
+  <value>Настройки JetBrains AI</value>
+</data>
+<data name="SorryCannotAddressSuchQueries_Text" xml:space="preserve">
+  <value>Извините, не могу обработать такие запросы</value>
+</data>
+<data name="CurrentQuotaValue_Text" xml:space="preserve">
+  <value>Текущее значение квоты</value>
+</data>
+<data name="GeneratingNameSuggestions_Text" xml:space="preserve">
+  <value>Генерация предложений имен…</value>
+</data>
+<data name="AIEnabledState_TheStateIsUnknownYet_Text" xml:space="preserve">
+  <value>Состояние неизвестно</value>
+</data>
+<data name="AIFeaturesAreEnabledByAIPULicense__Text" xml:space="preserve">
+  <value>Функции ИИ включены лицензией AIPU {0}</value>
+</data>
+<data name="MaximumQuotaValue_Text" xml:space="preserve">
+  <value>Максимальное значение квоты</value>
+</data>
+<data name="PreparingARequest_Text" xml:space="preserve">
+  <value>Подготовка запроса…</value>
+</data>
+<data name="WriteDocumentation_Text" xml:space="preserve">
+  <value>Написать документацию</value>
+</data>
+<data name="GrazieEnvironment_Text" xml:space="preserve">
+  <value>Среда Grazie</value>
+</data>
+<data name="NameSuggestionsGeneratedSuccessfully_Text" xml:space="preserve">
+  <value>Предложения имен успешно сгенерированы</value>
+</data>
+<data name="SimplifyComment_Text" xml:space="preserve">
+  <value>Упростить комментарий</value>
+</data>
+<data name="RewriteDocumentation_Text" xml:space="preserve">
+  <value>Переписать документацию</value>
+</data>
+<data name="AIEnabledState_AIFeaturesAreDisabledByIDEService_Text" xml:space="preserve">
+  <value>Функции ИИ отключены службой JetBrains IDE Services</value>
+</data>
+<data name="ChatLimitExceededClickBelowToSummarize_Text" xml:space="preserve">
+  <value>Превышен лимит чата. Нажмите ниже, чтобы подвести итоги и продолжить.</value>
+</data>
+<data name="SuggestBetterDocumentation_Text" xml:space="preserve">
+  <value>Предложить лучший текст в документации</value>
+</data>
+<data name="GrazieAuthorizationIDToken_Text" xml:space="preserve">
+  <value>Токен авторизации Grazie ID</value>
+</data>
+<data name="AIEnabledState_NoEnabledLicenses_Text" xml:space="preserve">
+  <value>ID пользователя вошел в JetBrains Account, но лицензии не найдены</value>
+</data>
+<data name="GrazieProfileForAICompletion_Text" xml:space="preserve">
+  <value>Профиль Grazie для AI Completion</value>
+</data>
+<data name="QuotaUntilDatetime_Text" xml:space="preserve">
+  <value>Квота действует до даты и времени</value>
+</data>
+<data name="SorrySomethingWentWrong_Text" xml:space="preserve">
+  <value>Извините, что-то пошло не так</value>
+</data>
+<data name="AIAssistantIsOutOfVolume_Text" xml:space="preserve">
+  <value>AI Assistant исчерпал лимит</value>
+</data>
+<data name="HasEverLoggedIn_Text" xml:space="preserve">
+  <value>Когда-либо входил в систему</value>
+</data>
+<data name="AskAI_Text" xml:space="preserve">
+  <value>Спросить ИИ…</value>
+</data>
+<data name="AIWritingTheCode_Text" xml:space="preserve">
+  <value>AI Assistant пишет код…</value>
+</data>
+<data name="GrazieStagingInviteKey_Text" xml:space="preserve">
+  <value>Пригласительный ключ Grazie staging</value>
+</data>
+<data name="AIEnabledState_License_AllowsAIFeatures_NoActiveLicense_Text" xml:space="preserve">
+  <value>Хотя лицензия {0} разрешает использование функций ИИ, активная подписка не найдена</value>
+</data>
+<data name="AIEnabledState_License_ForbidsAIFeatures_Text" xml:space="preserve">
+  <value>Лицензия {0} запрещает использование функций ИИ</value>
+</data>
+<data name="GenerateImplementationFor_Text" xml:space="preserve">
+  <value>Сгенерировать реализацию для:</value>
+</data>
+<data name="AIEnabledState_License_AllowsAIFeatures_NoJBALogin_Text" xml:space="preserve">
+  <value>Хотя лицензия {0} разрешает использование функций ИИ, вход в JetBrains Account не обнаружен</value>
+</data>
+<data name="WriteDocumentationContextAction_Text" xml:space="preserve">
+  <value>Написать документацию</value>
+</data>
+<data name="ProofreadDocumentation_Text" xml:space="preserve">
+  <value>Вычитать документацию</value>
+</data>
+<data name="EnhanceComment_Text" xml:space="preserve">
+  <value>Улучшить комментарий</value>
+</data>
+<data name="GrazieTestMethodGenerator_Checkbox_Label" xml:space="preserve">
+  <value>Использовать ИИ для генерации тестов</value>
+</data>
+<data name="WaitingForResponse_Text" xml:space="preserve">
+  <value>Ожидание ответа…</value>
+</data>
+<data name="GrazieTestMethodGenerator_Progress_Waiting_Text" xml:space="preserve">
+  <value>Ожидание данных…</value>
+</data>
+<data name="GrazieTestMethodGenerator_Progress_End_Text" xml:space="preserve">
+  <value>Применение изменений…</value>
+</data>
+<data name="ErrorCouldNotApplyAIResponse_Text" xml:space="preserve">
+  <value>Ошибка: не удалось применить ответ ИИ</value>
+</data>
+<data name="AIEnabledState_AIFeaturesEnabledByLicense__Text" xml:space="preserve">
+  <value>Функции ИИ включены лицензией {0}</value>
+</data>
+<data name="GenerateDocumentation_Text" xml:space="preserve">
+  <value>Сгенерировать документацию</value>
+</data>
+<data name="GrazieProfileForLowCostFeatures_Text" xml:space="preserve">
+  <value>Профиль Grazie для AI Low Cost Features</value>
+</data>
+<data name="EnhancePromptTaskIsCompleted_Text" xml:space="preserve">
+  <value>Задача «Улучшить подсказку» завершена</value>
+</data>
+<data name="AIIsPreparingToWriteCode_Text" xml:space="preserve">
+  <value>AI Assistant готовится писать код…</value>
+</data>
+<data name="ProofreadCommentContextAction_Description" xml:space="preserve">
+  <value>Исправьте грамматические и синтаксические ошибки в комментарии, переписав его при необходимости</value>
+</data>
+<data name="GrazieProfileForInEditorGeneration_Text" xml:space="preserve">
+  <value>Профиль Grazie для AI In-Editor Generation</value>
+</data>
+<data name="WriteDocumentationContextAction_Description" xml:space="preserve">
+  <value>Написать XML-документацию для объявления</value>
+</data>
+<data name="AIAssistant_Text" xml:space="preserve">
+  <value>AI Assistant</value>
+</data>
+<data name="RequestTimedOutPleaseTryAgain_Text" xml:space="preserve">
+  <value>Время запроса истекло. Повторите попытку.</value>
+</data>
+<data name="WriteDocumentationFor_Text" xml:space="preserve">
+  <value>Написать документацию для:</value>
+</data>
+<data name="CorrectNaturalLanguageMistakesOnly_Text" xml:space="preserve">
+  <value>Исправлять только ошибки естественного языка</value>
+</data>
+</root>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="MemberImplementsInterfaces_Text" xml:space="preserve">
+  <value>{0} реализует интерфейсы</value>
+</data>
+<data name="UnregisteredHighlightingType_Description" xml:space="preserve">
+  <value>Тип подсветки должен быть указан в 'HighlightingSourceAttribute', 'ElementProblemAnalyzerAttribute' или 'DaemonStageAttribute' для содержащего типа</value>
+</data>
+<data name="MissingHighlightingSourceAttribute_Description" xml:space="preserve">
+  <value>Тип, унаследованный от источника подсветки, должен либо иметь атрибут источника подсветки, либо быть аннотированным с помощью 'NonHighlightingSourceAttribute'</value>
+</data>
+<data name="HighlightingSourceContractViolationOnBaseClass_Description" xml:space="preserve">
+  <value>Базовый класс, имеющий аннотацию источника подсветки, должен реализовывать контрактный интерфейс</value>
+</data>
+<data name="UseStringInterpolationSettingConvertToStringInterpolationWhenPossibleTitle" xml:space="preserve">
+  <value>Когда замена удалит символы новой строки</value>
+</data>
+<data name="UnmatchedOpeningBraceInFormatStringMessage" xml:space="preserve">
+  <value>Непарная открывающая фигурная скобка в строке формата</value>
+</data>
+<data name="NamespaceInFileDoesNotHaveAFormOfProjectDefaultNamespacePlusFolderNames" xml:space="preserve">
+  <value>Пространство имен в файле не имеет формы "Пространство имен проекта по умолчанию плюс имена папок в пути к файлу". Вы можете настроить папки, составляющие пространство имен, на страницах свойств папки.</value>
+</data>
+<data name="ToStringCallCouldBeReplacedWithFormatSpecifier" xml:space="preserve">
+  <value>Вызов '.ToString()' можно заменить на спецификатор формата</value>
+</data>
+<data name="MultipleHighlightingSourceAttributes_Description" xml:space="preserve">
+  <value>Тип должен быть аннотирован только одним атрибутом источника подсветки</value>
+</data>
+<data name="NamingStyle_Text" xml:space="preserve">
+  <value>Стиль именования</value>
+</data>
+<data name="NamespaceDoesNotCorrespondToFileLocation" xml:space="preserve">
+  <value>Пространство имен не соответствует расположению файла</value>
+</data>
+<data name="ArgumentIsNotUsedInFormatStringMessage" xml:space="preserve">
+  <value>Аргумент не используется в строке формата</value>
+</data>
+<data name="UnmatchedClosingBraceInMessageTemplateMessage" xml:space="preserve">
+  <value>Непарная закрывающая фигурная скобка в шаблоне сообщения</value>
+</data>
+<data name="TypeHasBase_Text" xml:space="preserve">
+  <value>{0} имеет базовый {1}</value>
+</data>
+<data name="ReplaceStringConstructionByStringFormatMethodInvocationWithStringInterpolationExpression" xml:space="preserve">
+  <value>Заменить создание строки вызовом метода 'String.Format()' на интерполированное строковое выражение</value>
+</data>
+<data name="RedundantHighlightingType_Description" xml:space="preserve">
+  <value>Тип подсветки избыточен, так как он либо унаследован, либо указан в классе с помощью 'HighlightingSourceAttribute'</value>
+</data>
+<data name="MultipleHighlightingSourceContracts_Message" xml:space="preserve">
+  <value>Несколько контрактов источников подсветки в иерархии: {0}</value>
+</data>
+<data name="UnregisteredHighlightingType_Message" xml:space="preserve">
+  <value>Подсветка '{0}' не указана в '{1}' для содержащего типа</value>
+</data>
+<data name="FormatSpecifierCapturesRightBraces_Title" xml:space="preserve">
+  <value>Не используйте закрывающие фигурные скобки после спецификатора формата, не находящегося в строке формата</value>
+</data>
+<data name="PossibleInfiniteInheritanceMessage" xml:space="preserve">
+  <value>Возможно бесконечное наследование</value>
+</data>
+<data name="Name_DoesNotMatchRule_SuggestedName_Text" xml:space="preserve">
+  <value>Имя '{0}' не соответствует правилу '{1}'. Предлагаемое имя: '{2}'.</value>
+</data>
+<data name="DuplicateItemInLoggerTemplate_Title" xml:space="preserve">
+  <value>Повторяющийся или отличающийся только регистром элемент в структурированном сообщении журнала</value>
+</data>
+<data name="FormatItemIndexMustBeANumberStartingWithoutLeadingOrTrailingWhitespacesMessage" xml:space="preserve">
+  <value>Индекс элемента формата должен быть числом, начинающимся с 0, без начальных или конечных пробелов</value>
+</data>
+<data name="HighlightingSourceContractViolation_Description" xml:space="preserve">
+  <value>Источник подсветки должен производить только подсветки, разрешенные контрактным интерфейсом</value>
+</data>
+<data name="MemberIsOverriden_Text" xml:space="preserve">
+  <value>{0} переопределен</value>
+</data>
+<data name="MissingHighlightingSourceAttribute_Message" xml:space="preserve">
+  <value>Отсутствует атрибут источника подсветки</value>
+</data>
+<data name="FormattingIsSpecifiedButArgumentIsNotIFormattableMessage" xml:space="preserve">
+  <value>Указано форматирование, но аргумент не является '{0}'</value>
+</data>
+<data name="UseStringInterpolationExpressionWhenPossible" xml:space="preserve">
+  <value>Используйте интерполированные строковые выражения, когда это возможно</value>
+</data>
+<data name="MultipleHighlightingSourceContracts_Title" xml:space="preserve">
+  <value>Несколько интерфейсов контрактов источников подсветки в иерархии типов</value>
+</data>
+<data name="TypeHasBaseTypes_Text" xml:space="preserve">
+  <value>{0} имеет базовые типы</value>
+</data>
+<data name="PossibleInfiniteInheritance" xml:space="preserve">
+  <value>Возможно бесконечное наследование</value>
+</data>
+<data name="HighlightingSourceContractViolation_Message" xml:space="preserve">
+  <value>'{0}' не разрешено контрактным интерфейсом '{1}'</value>
+</data>
+<data name="UseStringInterpolationSettingConvertToStringInterpolationWhenPossibleDescription" xml:space="preserve">
+  <value>Преобразование вызова 'String.Format()' с несколькими аргументами, содержащими символы новой строки, в одну интерполированную строку может привести к созданию очень длинной однострочной строки и изменению форматирования. Используйте эту настройку, чтобы настроить серьезность проверки для таких случаев или полностью отключить ее.</value>
+</data>
+<data name="DuplicateItemInLoggerTemplate_Description" xml:space="preserve">
+  <value>Элементы в структурированном сообщении журнала не должны повторяться или отличаться только регистром, так как это может вызвать проблемы при обработке. Например, элементы могут быть потеряны, автоматически переименованы, исключены из поискового индекса или неправильно сгруппированы.</value>
+</data>
+<data name="_NCTRLClickToFollowLink_Text" xml:space="preserve">
+  <value>{0}
+CTRL + щелчок для перехода по ссылке</value>
+</data>
+<data name="NonExistingArgumentInMessageTemplateMessage" xml:space="preserve">
+  <value>В шаблоне сообщения присутствует несуществующий аргумент</value>
+</data>
+<data name="TypeIsImplemented_Text" xml:space="preserve">
+  <value>{0} реализован</value>
+</data>
+<data name="StructuredMessageTemplateSyntaxErrorsUnescapedBracesUnusedArgumentsEtc" xml:space="preserve">
+  <value>Синтаксические ошибки в структурированном шаблоне сообщения (неэкранированные фигурные скобки, неиспользуемые аргументы и т.д.)</value>
+</data>
+<data name="FormatStringSyntaxErrorsProblems" xml:space="preserve">
+  <value>Синтаксические ошибки в строке формата (неэкранированные фигурные скобки, неверный индекс/выравнивание, неиспользуемые аргументы и т.д.) и другие проблемы с вызовами методов форматирования</value>
+</data>
+<data name="TODOHighlightings_Text" xml:space="preserve">
+  <value>Подсветка TODO</value>
+</data>
+<data name="UseFormatSpecifierInFormatStrings" xml:space="preserve">
+  <value>Используйте спецификаторы формата в строках формата</value>
+</data>
+<data name="DuplicateItemInLoggerTemplate_Message" xml:space="preserve">
+  <value>Элементы в структурированном сообщении журнала не должны повторяться или отличаться только регистром</value>
+</data>
+<data name="ReplaceFormattingMethodArgumentsByPassingStringInterpolationExpression" xml:space="preserve">
+  <value>Замените аргументы метода форматирования, передав интерполированное строковое выражение.</value>
+</data>
+<data name="StringFormattingMethodProblems" xml:space="preserve">
+  <value>Проблемы с методами форматирования строк</value>
+</data>
+<data name="UnregisteredHighlightingType_Title" xml:space="preserve">
+  <value>Незарегистрированный тип подсветки</value>
+</data>
+<data name="NameDoesnTMatchNamingStyleDefinedFor_Text" xml:space="preserve">
+  <value>Имя не соответствует стилю именования, определенному для этого типа символов</value>
+</data>
+<data name="MultipleHighlightingSourceAttributes_Message" xml:space="preserve">
+  <value>Конфликт с '[{0}]'</value>
+</data>
+<data name="MissingHighlightingSourceAttribute_Title" xml:space="preserve">
+  <value>Отсутствует атрибут источника подсветки</value>
+</data>
+<data name="InconsistentNaming_Text" xml:space="preserve">
+  <value>Несогласованное именование</value>
+</data>
+<data name="RedundantHighlightingType_Message" xml:space="preserve">
+  <value>Избыточный тип подсветки: уже указан в '{0}'</value>
+</data>
+<data name="StructuredMessageTemplateProblems" xml:space="preserve">
+  <value>Проблемы с структурированным шаблоном сообщения</value>
+</data>
+<data name="RedundantHighlightingType_Title" xml:space="preserve">
+  <value>Избыточный тип подсветки</value>
+</data>
+<data name="FormatSpecifierCapturesRightBraces_Description" xml:space="preserve">
+  <value>В .NET Framework спецификаторы формата жадно захватывают закрывающие фигурные скобки '}', даже если они экранированы двойными скобками '}}'</value>
+</data>
+<data name="HighlightingSourceContractViolationOnBaseClass_Message" xml:space="preserve">
+  <value>Базовый класс '{0}' не реализует контрактный интерфейс '{1}'</value>
+</data>
+<data name="HighlightingSourceContractViolationOnBaseClass_Title" xml:space="preserve">
+  <value>Нарушение контракта источника подсветки (базовый класс)</value>
+</data>
+<data name="MultipleHighlightingSourceAttributes_Title" xml:space="preserve">
+  <value>Тип имеет несколько атрибутов источников подсветки</value>
+</data>
+<data name="TypeIsInherited_Text" xml:space="preserve">
+  <value>{0} унаследован</value>
+</data>
+<data name="ArgumentIsNotUsedInMessageTemplateMessage" xml:space="preserve">
+  <value>Аргумент не используется в шаблоне сообщения</value>
+</data>
+<data name="UseStringInterpolationExpressionMessage" xml:space="preserve">
+  <value>Используйте интерполированное строковое выражение</value>
+</data>
+<data name="UnmatchedOpeningBraceInMessageTemplateMessage" xml:space="preserve">
+  <value>Непарная открывающая фигурная скобка в шаблоне сообщения</value>
+</data>
+<data name="UseFormatSpecifierMessage" xml:space="preserve">
+  <value>Используйте спецификатор формата</value>
+</data>
+<data name="FormatSpecifierCapturesRightBraces_Message" xml:space="preserve">
+  <value>При работе на .NET Framework закрывающие фигурные скобки будут захвачены спецификатором формата</value>
+</data>
+<data name="MemberImplementsInterface_Text" xml:space="preserve">
+  <value>{0} реализует интерфейс</value>
+</data>
+<data name="PassStringInterpolationExpression" xml:space="preserve">
+  <value>Передайте интерполированное строковое выражение</value>
+</data>
+<data name="PassStringInterpolationMessage" xml:space="preserve">
+  <value>Передайте интерполированную строку</value>
+</data>
+<data name="HighlightingTypesGroup_Title" xml:space="preserve">
+  <value>Внутреннее: Типы подсветки</value>
+</data>
+<data name="UnmatchedClosingBraceInFormatStringMessage" xml:space="preserve">
+  <value>Непарная закрывающая фигурная скобка в строке формата</value>
+</data>
+<data name="NonExistingArgumentInFormatStringMessage" xml:space="preserve">
+  <value>В строке формата присутствует несуществующий аргумент</value>
+</data>
+<data name="NamespaceDoesNotCorrespondToFileLocationShouldBeMessage" xml:space="preserve">
+  <value>Пространство имен не соответствует расположению файла, должно быть: '{0}'</value>
+</data>
+<data name="MultipleHighlightingSourceContracts_Description" xml:space="preserve">
+  <value>Тип должен наследоваться не более чем от одного интерфейса с 'HighlightingSourceAttribute'</value>
+</data>
+<data name="UseStringInterpolationExpression" xml:space="preserve">
+  <value>Используйте интерполированное строковое выражение</value>
+</data>
+<data name="AccordingToECMAPartIIMetadataParagraphGenericsAndRecursiveInheritanceGraphs" xml:space="preserve">
+  <value>Согласно ECMA-335, часть II (Метаданные), параграф 9.2: 'Дженерики и графы рекурсивного наследования'</value>
+</data>
+<data name="FormatStringItemAlignmentIsNotANumberMessage" xml:space="preserve">
+  <value>Выравнивание элемента строки формата не является числом</value>
+</data>
+<data name="HighlightingSourceContractViolation_Title" xml:space="preserve">
+  <value>Нарушение контракта источника подсветки</value>
+</data>
+</root>

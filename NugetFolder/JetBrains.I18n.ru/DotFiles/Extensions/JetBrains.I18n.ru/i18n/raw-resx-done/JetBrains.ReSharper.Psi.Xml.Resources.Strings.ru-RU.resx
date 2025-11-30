@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="NoIndentFromParentElement_Description_Text" xml:space="preserve">
+  <value>Не делать отступ от родительского элемента</value>
+</data>
+<data name="SingleIndent_Description_Text" xml:space="preserve">
+  <value>Один отступ</value>
+</data>
+<data name="InvalidClosingTag_Text" xml:space="preserve">
+  <value>Закрывающий тег недействителен</value>
+</data>
+<data name="CodeFormattingInXMLSettingDescription" xml:space="preserve">
+  <value>Форматирование кода в XML</value>
+</data>
+<data name="WrapBeforeAndAfterElementsSettingDescription" xml:space="preserve">
+  <value>Перенос строк до и после элементов</value>
+</data>
+<data name="BlankLineAfterProcessingInstructionsSettingDescription" xml:space="preserve">
+  <value>Пустая строка после инструкций обработки</value>
+</data>
+<data name="SpacesAroundInAttributeSettingDescription" xml:space="preserve">
+  <value>Пробелы вокруг '=' в атрибуте</value>
+</data>
+<data name="WrapInsideTextSettingDescription" xml:space="preserve">
+  <value>Перенос внутри текста</value>
+</data>
+<data name="LineBreaksAfterStartTagAndBeforeEndTagWhenElementIsLongerThanSettingDescription" xml:space="preserve">
+  <value>Разрывы строк после начального тега и перед конечным тегом, когда элемент длиннее указанного значения</value>
+</data>
+<data name="XMLDocFormatterPredefinedSettings_Text" xml:space="preserve">
+  <value>Предустановленные настройки форматирования XML Doc</value>
+</data>
+<data name="AttributesFormatSettingDescription" xml:space="preserve">
+  <value>Формат атрибутов</value>
+</data>
+<data name="PlaceTheseElementsOnNewLineRegardlessSettingDescription" xml:space="preserve">
+  <value>Всегда размещать следующие элементы на новой строке</value>
+</data>
+<data name="SpaceBeforeSettingDescription" xml:space="preserve">
+  <value>Пробел перед '/&gt;'</value>
+</data>
+<data name="OnSingleLine_Description_Text" xml:space="preserve">
+  <value>В одной строке</value>
+</data>
+<data name="DoubleIndent_Description_Text" xml:space="preserve">
+  <value>Двойной отступ</value>
+</data>
+<data name="KeepExistingLineBreaksSettingDescription" xml:space="preserve">
+  <value>Сохранять существующие разрывы строк</value>
+</data>
+<data name="TypeExpected_ToolTip" xml:space="preserve">
+  <value>Ожидается тип</value>
+</data>
+<data name="SpaceAfterSettingDescription" xml:space="preserve">
+  <value>Пробел после ///</value>
+</data>
+<data name="AttributeNameExpected_Text" xml:space="preserve">
+  <value>Ожидается имя атрибута</value>
+</data>
+<data name="IgnoreSpacePreservationSettingDescription" xml:space="preserve">
+  <value>Игнорировать сохранение пробелов</value>
+</data>
+<data name="EntityValueExpected_Text" xml:space="preserve">
+  <value>Ожидается значение сущности</value>
+</data>
+<data name="DefaultValueExpected_Text" xml:space="preserve">
+  <value>Ожидается значение по умолчанию</value>
+</data>
+<data name="Formatting_Text" xml:space="preserve">
+  <value>Форматирование</value>
+</data>
+<data name="LineBreaksAfterStartTagAndBeforeEndTagInElementsThatContainOtherElementsAndNoTextSettingDescription" xml:space="preserve">
+  <value>Разрывы строк после начального тега и перед конечным тегом в элементах, которые содержат другие элементы и не содержат текст</value>
+</data>
+<data name="NoOpenTagFound_Text" xml:space="preserve">
+  <value>Открывающий тег не найден</value>
+</data>
+<data name="CodeFormattingInXMLDocumentationSettingDescription" xml:space="preserve">
+  <value>Форматирование кода в XML-документации</value>
+</data>
+<data name="IndentInsideElementThatDoesntContainTextSettingDescription" xml:space="preserve">
+  <value>Отступ внутри элемента, не содержащего текст</value>
+</data>
+<data name="IdentifierExpected_Text" xml:space="preserve">
+  <value>Ожидается идентификатор</value>
+</data>
+<data name="DoNotTouch_Description_Text" xml:space="preserve">
+  <value>Не трогать</value>
+</data>
+<data name="DoNotChangeIndenting_Description_Text" xml:space="preserve">
+  <value>Не изменять отступы</value>
+</data>
+<data name="PlaceSinglelineElementsOnNewLineSettingDescription" xml:space="preserve">
+  <value>Размещать однострочные элементы на новой строке</value>
+</data>
+<data name="NoIndentAtAll_Description_Text" xml:space="preserve">
+  <value>Вообще без отступа</value>
+</data>
+<data name="MaximumBlankLinesBetweenTagsSettingDescription" xml:space="preserve">
+  <value>Максимальное количество пустых строк между тегами</value>
+</data>
+<data name="RightMarginColumnsSettingDescription" xml:space="preserve">
+  <value>Правое поле (столбцы)</value>
+</data>
+<data name="EachAttributeOnSeparateLines_Description_Text" xml:space="preserve">
+  <value>Каждый атрибут на отдельной строке</value>
+</data>
+<data name="InvalidTagHeader_Text" xml:space="preserve">
+  <value>Заголовок тега недействителен</value>
+</data>
+<data name="FirstAttributeOnSingleLine_Description_Text" xml:space="preserve">
+  <value>Первый атрибут на отдельной строке</value>
+</data>
+<data name="SpacesAfterStartTagAndBeforeEndTagOtherwiseSettingDescription" xml:space="preserve">
+  <value>Пробелы после начального тега и перед конечным тегом в остальных случаях</value>
+</data>
+<data name="PlaceMultilineElementsOnNewLineSettingDescription" xml:space="preserve">
+  <value>Размещать многострочные элементы на новой строке</value>
+</data>
+<data name="WrapTagsAndProcessingInstructionsSettingDescription" xml:space="preserve">
+  <value>Переносить теги и инструкции обработки</value>
+</data>
+<data name="ElementContentExpected_Text" xml:space="preserve">
+  <value>Ожидается содержимое элемента</value>
+</data>
+<data name="WrapLongLinesSettingDescription" xml:space="preserve">
+  <value>Перенос длинных строк</value>
+</data>
+<data name="AttributesIndentingSettingDescription" xml:space="preserve">
+  <value>Отступ атрибутов</value>
+</data>
+<data name="AlignByFirstAttribute_Description_Text" xml:space="preserve">
+  <value>Выравнивать по первому атрибуту</value>
+</data>
+<data name="OneIndentFromParentElement_Description_Text" xml:space="preserve">
+  <value>Один отступ от родительского элемента</value>
+</data>
+<data name="LineBreaksAfterStartTagAndBeforeEndTagInMultilineElementsSettingDescription" xml:space="preserve">
+  <value>Разрывы строк после начального тега и перед конечным тегом в многострочных элементах</value>
+</data>
+<data name="NamespaceExpected_ToolTip" xml:space="preserve">
+  <value>Ожидается пространство имен</value>
+</data>
+<data name="IndentInsideElementThatContainTextSettingDescription" xml:space="preserve">
+  <value>Отступ внутри элемента, содержащего текст</value>
+</data>
+<data name="AmbiguousReference_ToolTip" xml:space="preserve">
+  <value>Неоднозначная ссылка</value>
+</data>
+<data name="AttributeValueExpected_Text" xml:space="preserve">
+  <value>Ожидается значение атрибута</value>
+</data>
+<data name="SymbolExpectedOr_Text" xml:space="preserve">
+  <value>ИЛИ</value>
+</data>
+<data name="SymbolExpected_Text" xml:space="preserve">
+  <value>Ожидается</value>
+</data>
+<data name="AttributeExpectedAfterComma_Text" xml:space="preserve">
+  <value>После запятой ожидается атрибут</value>
+</data>
+<data name="UnexpectedToken_Text" xml:space="preserve">
+  <value>Неожиданная лексема</value>
+</data>
+<data name="SpaceAfterLastAttributeSettingDescription" xml:space="preserve">
+  <value>Пробел после последнего атрибута</value>
+</data>
+</root>

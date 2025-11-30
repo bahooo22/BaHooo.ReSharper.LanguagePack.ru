@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="OpenChat_Text" xml:space="preserve">
+  <value>Открыть чат</value>
+</data>
+<data name="AIAssistantIsNotActivated_Text" xml:space="preserve">
+  <value>AI Assistant не активирован</value>
+</data>
+<data name="ProvideFeedback_Text" xml:space="preserve">
+  <value>Оставить отзыв</value>
+</data>
+<data name="WaitForAdditionalInputAfterInvoking_Text" xml:space="preserve">
+  <value>Ожидание дополнительного ввода после вызова</value>
+</data>
+<data name="AIAssistantPro_Text" xml:space="preserve">
+  <value>AI Assistant Pro</value>
+</data>
+<data name="EnterThePromptBody_Text" xml:space="preserve">
+  <value>Введите текст промпта…</value>
+</data>
+<data name="Accept_Text" xml:space="preserve">
+  <value>Принять</value>
+</data>
+<data name="MessagesFactory_CreateOpenASolutionWelcomeMessage_Header" xml:space="preserve">
+  <value>Открыть решение</value>
+</data>
+<data name="SubmitWithEnter_Text" xml:space="preserve">
+  <value>Отправлять по Enter</value>
+</data>
+<data name="ChangePrompts_Text" xml:space="preserve">
+  <value>Изменить промпты</value>
+</data>
+<data name="Menu_Text" xml:space="preserve">
+  <value>Показывать в меню</value>
+</data>
+<data name="ToEnableThe_Text" xml:space="preserve">
+  <value>Чтобы включить AI-завершения</value>
+</data>
+<data name="ActivateAIAssistant_Text" xml:space="preserve">
+  <value>Активировать AI Assistant</value>
+</data>
+<data name="ManageSubscription_Text" xml:space="preserve">
+  <value>Управление подпиской</value>
+</data>
+<data name="ProvideFeedback" xml:space="preserve">
+  <value>Оставить отзыв</value>
+</data>
+<data name="ToBoostYourExperienceAIAssistantSends_Text" xml:space="preserve">
+  <value>Для улучшения вашего опыта AI Assistant отправляет ваш исходный код и другую информацию в сервисы JetBrains AI. Вы можете отключить это в настройках ReSharper.</value>
+</data>
+<data name="LoginDialog_Header" xml:space="preserve">
+  <value>Добро пожаловать в JetBrains AI</value>
+</data>
+<data name="PromptLibrary_Text" xml:space="preserve">
+  <value>Библиотека промптов</value>
+</data>
+<data name="Rename_Text" xml:space="preserve">
+  <value>Переименовать</value>
+</data>
+<data name="WelcomeToTheAIAssistantChatYourNewAssistantLogin_Text" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Нажмите ниже, чтобы войти с помощью JetBrains Account.</value>
+</data>
+<data name="Prompt_Text" xml:space="preserve">
+  <value>Промпт</value>
+</data>
+<data name="ArchiveChats" xml:space="preserve">
+  <value>Архивировать</value>
+</data>
+<data name="MessagesFactory_FirstLaunchWelcomeMessage_Option1" xml:space="preserve">
+  <value>Объясни 5 причинами, почему программирование — это здорово</value>
+</data>
+<data name="MessagesFactory_FirstLaunchWelcomeMessage_Option2" xml:space="preserve">
+  <value>Как найти элемент в отсортированном массиве?</value>
+</data>
+<data name="MessagesFactory_FirstLaunchWelcomeMessage_Option3" xml:space="preserve">
+  <value>Как использовать async/await в C#?</value>
+</data>
+<data name="NextGeneratedResult_Text" xml:space="preserve">
+  <value>Следующий сгенерированный результат</value>
+</data>
+<data name="SpecifyCustomInstructionsThatWillBe_Text" xml:space="preserve">
+  <value>Укажите пользовательские инструкции, которые будут неявно добавлены ко всем чатам AI Assistant.</value>
+</data>
+<data name="RequestTimedOutPleaseTryAgainLater_Text" xml:space="preserve">
+  <value>Время запроса истекло. Пожалуйста, повторите попытку позже.</value>
+</data>
+<data name="LicenseIsRequired_Text" xml:space="preserve">
+  <value>Требуется лицензия</value>
+</data>
+<data name="ChatBehaviour_Text" xml:space="preserve">
+  <value>Поведение чата</value>
+</data>
+<data name="AIAssistantSubscriptionStatus_Text" xml:space="preserve">
+  <value>Статус подписки AI Assistant</value>
+</data>
+<data name="LogInJbAccount" xml:space="preserve">
+  <value>Войти с JetBrains Account</value>
+</data>
+<data name="UpgradeToAIProEllipsis_Text" xml:space="preserve">
+  <value>Обновить до AI Pro…</value>
+</data>
+<data name="Reprompt_Text" xml:space="preserve">
+  <value>Повторный промпт</value>
+</data>
+<data name="AddToPromptLibrary_Text" xml:space="preserve">
+  <value>Добавить в библиотеку промптов</value>
+</data>
+<data name="Environment_Text" xml:space="preserve">
+  <value>Окружение:</value>
+</data>
+<data name="AttachmentsFilesCoultWereSentShort" xml:space="preserve">
+  <value>Отправлено файлов: {0}</value>
+</data>
+<data name="ChatNavigationView_DeleteAllDialog_Text" xml:space="preserve">
+  <value>Вы уверены, что хотите окончательно удалить все сеансы AI Assistant?</value>
+</data>
+<data name="Cancel" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="YourResponse" xml:space="preserve">
+  <value>Ваш запрос</value>
+</data>
+<data name="MessagesFactory_AuthorizationErrorOnEmptySessionMessage_Header" xml:space="preserve">
+  <value>Не удается подключиться</value>
+</data>
+<data name="InputSettingsChat_Text" xml:space="preserve">
+  <value>Настройки ввода (чат)</value>
+</data>
+<data name="PromptBody_Text" xml:space="preserve">
+  <value>Текст промпта:</value>
+</data>
+<data name="ToContinueUsingTheProductYouMustAccept_Text" xml:space="preserve">
+  <value>Чтобы продолжить использование продукта, вы должны принять Условия предоставления услуг</value>
+</data>
+<data name="NoMoreVolume_Text" xml:space="preserve">
+  <value>Лимит исчерпан</value>
+</data>
+<data name="Provide_Text" xml:space="preserve">
+  <value>Отправить отзыв</value>
+</data>
+<data name="ProfileForAICompletion_Text" xml:space="preserve">
+  <value>Профиль для AI-завершений:</value>
+</data>
+<data name="ManageLicense_Text" xml:space="preserve">
+  <value>Управление лицензией</value>
+</data>
+<data name="YourFreeTrialHasExpired_Text" xml:space="preserve">
+  <value>Ваш бесплатный пробный период истек</value>
+</data>
+<data name="Update" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="NoFocusedTextControl_Text" xml:space="preserve">
+  <value>Нет активного текстового контрола</value>
+</data>
+<data name="Add_newPrompt_Text" xml:space="preserve">
+  <value>Добавить новый промпт</value>
+</data>
+<data name="CollectingRelevantCode_Text" xml:space="preserve">
+  <value>Сбор релевантного кода…</value>
+</data>
+<data name="PreviousGeneratedResult_Text" xml:space="preserve">
+  <value>Предыдущий сгенерированный результат</value>
+</data>
+<data name="InvokeAutomaticallyOnNewLine_Text" xml:space="preserve">
+  <value>Вызывать автоматически на новой строке</value>
+</data>
+<data name="ContactSupport" xml:space="preserve">
+  <value>Связаться со службой поддержки</value>
+</data>
+<data name="UnsavedChanges_Text" xml:space="preserve">
+  <value>Несохраненные изменения</value>
+</data>
+<data name="No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="Cancel_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="DefaultOptions_Text" xml:space="preserve">
+  <value>Параметры по умолчанию</value>
+</data>
+<data name="Fetching_Text" xml:space="preserve">
+  <value>Получение…</value>
+</data>
+<data name="PleaseMakeSureRegionChosenSettingsCorrect_Text" xml:space="preserve">
+  <value>Убедитесь, что в настройках выбран правильный регион. Дополнительную информацию о доступности AI Assistant в разных регионах вы можете найти в документации.</value>
+</data>
+<data name="DataSharing_Text" xml:space="preserve">
+  <value>Обмен данными</value>
+</data>
+<data name="Reset_Text" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="ManageSubscription" xml:space="preserve">
+  <value>Управление подпиской</value>
+</data>
+<data name="LaunchJbInstaller" xml:space="preserve">
+  <value>Запустить установщик dotUltimate</value>
+</data>
+<data name="NLines_Text" xml:space="preserve">
+  <value>Еще {0} строк</value>
+</data>
+<data name="StopResponding" xml:space="preserve">
+  <value>Остановить ответ</value>
+</data>
+<data name="MessagesFactory_WaitListMessage_Header" xml:space="preserve">
+  <value>Ваш запрос на вход в очередь</value>
+</data>
+<data name="Options_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="SingleAttachmentWasSentShort" xml:space="preserve">
+  <value>Отправлен 1 файл</value>
+</data>
+<data name="NewChat" xml:space="preserve">
+  <value>Новый чат</value>
+</data>
+<data name="SomethingWentWrong_Text" xml:space="preserve">
+  <value>Что-то пошло не так</value>
+</data>
+<data name="EnableInEditorGenerateImplementation_Text" xml:space="preserve">
+  <value>Включить внутриредакторное "Сгенерировать реализацию"</value>
+</data>
+<data name="AskSomething_Text" xml:space="preserve">
+  <value>Задайте вопрос</value>
+</data>
+<data name="LoginDialog_PreviewNotice" xml:space="preserve">
+  <value>JetBrains AI находится на стадии технического превью.</value>
+</data>
+<data name="Retry_Text" xml:space="preserve">
+  <value>Повторить</value>
+</data>
+<data name="NewChat_Text" xml:space="preserve">
+  <value>Новый чат</value>
+</data>
+<data name="LoginDialog_Description" xml:space="preserve">
+  <value>Используйте помощников и функции с искусственным интеллектом в продуктах JetBrains</value>
+</data>
+<data name="CreateAndEditYourOwnAIPrompts_Text" xml:space="preserve">
+  <value>Создавайте и редактируйте свои собственные AI-промпты</value>
+</data>
+<data name="AskAIAboutTheCodeAtTheCaretPosition_Text" xml:space="preserve">
+  <value>Спросить ИИ о коде в позиции курсора</value>
+</data>
+<data name="ChatNavigationView_DeleteAllDialog_Title" xml:space="preserve">
+  <value>Удалить все AI-сеансы</value>
+</data>
+<data name="MessagesFactory_AuthorizationErrorOnEmptySessionMessage_Text" xml:space="preserve">
+  <value>Не удается синхронизироваться с JetBrains AI. Нажмите ниже, чтобы войти снова</value>
+</data>
+<data name="Settings_Text" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="SubscriptionIsActive_Text" xml:space="preserve">
+  <value>Подписка активна</value>
+</data>
+<data name="Copy_Text" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="OpenAIAssistantOptions_Text" xml:space="preserve">
+  <value>Открыть настройки AI Assistant…</value>
+</data>
+<data name="SuggestChatTitlesWithAI_Text" xml:space="preserve">
+  <value>Предлагать названия чатов с помощью ИИ</value>
+</data>
+<data name="General_Text" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="DeleteAllChats" xml:space="preserve">
+  <value>Удалить все чаты</value>
+</data>
+<data name="SendToChat_Text" xml:space="preserve">
+  <value>Отправить в чат</value>
+</data>
+<data name="EnableTasksAPI_Text" xml:space="preserve">
+  <value>Включить Tasks API</value>
+</data>
+<data name="SuggestGenerationOfNewMembersWithInlay_Text" xml:space="preserve">
+  <value>Предлагать генерацию новых членов с помощью встроенных подсказок</value>
+</data>
+<data name="TheChatHistoryIsAboutToReachTheLimit_Text" xml:space="preserve">
+  <value>История чата скоро достигнет лимита</value>
+</data>
+<data name="HowToConfigureShortcuts_Text" xml:space="preserve">
+  <value>Как настроить сочетания клавиш…</value>
+</data>
+<data name="Close_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="OpenLibrary_Text" xml:space="preserve">
+  <value>Открыть библиотеку…</value>
+</data>
+<data name="InPlaceSuggestions_Text" xml:space="preserve">
+  <value>Встроенные предложения</value>
+</data>
+<data name="AtTheBeginning_Text" xml:space="preserve">
+  <value>В начале</value>
+</data>
+<data name="LoginInProgress_Text" xml:space="preserve">
+  <value>Выполняется вход…</value>
+</data>
+<data name="ImproveYourPromptWithAI_Text" xml:space="preserve">
+  <value>Улучшить промпт с помощью ИИ</value>
+</data>
+<data name="ShortcutForAICompletionSelectOneOfThe_Text" xml:space="preserve">
+  <value>Сочетание клавиш. Выберите одну из схем на странице "Окружение | Клавиатура | Схемы сочетаний клавиш" и нажмите "Применить схему".</value>
+</data>
+<data name="InsertCode" xml:space="preserve">
+  <value>Вставить этот код в редактор</value>
+</data>
+<data name="SubscriptionStatus_Text" xml:space="preserve">
+  <value>Статус подписки</value>
+</data>
+<data name="PromptLibrary" xml:space="preserve">
+  <value>Библиотека промптов (&amp;L)…</value>
+</data>
+<data name="AIPromptLibrary_Text" xml:space="preserve">
+  <value>Библиотека AI-промптов</value>
+</data>
+<data name="NoResults_Text" xml:space="preserve">
+  <value>Нет результатов</value>
+</data>
+<data name="SendToNewChat_Text" xml:space="preserve">
+  <value>Отправить в новый чат</value>
+</data>
+<data name="TermsOfServicesMustBeAccepted_Text" xml:space="preserve">
+  <value>Необходимо принять Условия предоставления услуг</value>
+</data>
+<data name="JetBrainsAIDebugFeatures_Text" xml:space="preserve">
+  <value>Функции отладки JetBrains AI</value>
+</data>
+<data name="AskAIAboutThisCode_Text" xml:space="preserve">
+  <value>Спросить ИИ об этом коде</value>
+</data>
+<data name="Documentation_Text" xml:space="preserve">
+  <value>Документация</value>
+</data>
+<data name="Shortcut_Text" xml:space="preserve">
+  <value>Сочетание клавиш.</value>
+</data>
+<data name="StartTrial_Text" xml:space="preserve">
+  <value>Начать пробный период</value>
+</data>
+<data name="Prompt_library_Text" xml:space="preserve">
+  <value>Библиотека промптов</value>
+</data>
+<data name="MessagesFactory_OnboardingMessage_Default" xml:space="preserve">
+  <value>Добро пожаловать в AI Assistant — вашего нового помощника для решения вопросов, связанных с программированием.
+
+Нажмите ниже, чтобы войти с помощью JetBrains Account.</value>
+</data>
+<data name="EnableExperimentalLanguagesForAICode_Text" xml:space="preserve">
+  <value>Включить экспериментальные языки для AI-завершения кода</value>
+</data>
+<data name="NewPrompt_Text" xml:space="preserve">
+  <value>Новый промпт</value>
+</data>
+<data name="ShowInPlaceAIActionSuggestions_Text" xml:space="preserve">
+  <value>Показывать все встроенные предложения AI-действий</value>
+</data>
+<data name="WillBeRefilledIn_Days_Text" xml:space="preserve">
+  <value>Пополнится через {0} д.</value>
+</data>
+<data name="AdvancedOptions_Text" xml:space="preserve">
+  <value>Дополнительные параметры</value>
+</data>
+<data name="JetBrainsAIAuthToken_Text" xml:space="preserve">
+  <value>Токен аутентификации JetBrains AI:</value>
+</data>
+<data name="OK" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="AIAssistantUltimate_Text" xml:space="preserve">
+  <value>AI Assistant Ultimate</value>
+</data>
+<data name="ProfileForAILowCostFeatures_Text" xml:space="preserve">
+  <value>Профиль для недорогих AI-функций (переименование, чат и суммаризация изменений и т.д.):</value>
+</data>
+<data name="Improve_Text" xml:space="preserve">
+  <value>Улучшить</value>
+</data>
+<data name="ContextPlacement_Text" xml:space="preserve">
+  <value>Размещение контекста:</value>
+</data>
+<data name="AskAIToChangeTheGeneratedCode_Text" xml:space="preserve">
+  <value>Попросить ИИ изменить сгенерированный код</value>
+</data>
+<data name="ShowMore_Text" xml:space="preserve">
+  <value>Развернуть</value>
+</data>
+<data name="EnableReSharper" xml:space="preserve">
+  <value>Включить ReSharper</value>
+</data>
+<data name="Trial" xml:space="preserve">
+  <value>Пробный период</value>
+</data>
+<data name="ForceReloginToJetBrainsAI_Text" xml:space="preserve">
+  <value>Принудительный повторный вход в JetBrains AI</value>
+</data>
+<data name="GetHelp_Text" xml:space="preserve">
+  <value>Получить помощь</value>
+</data>
+<data name="AtTheEnd_Text" xml:space="preserve">
+  <value>В конце</value>
+</data>
+<data name="WelcomeToTheAIAssistantChatYourNewAssistantCompanyRestriction_Text" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Ваша компания еще не включила поддержку AI Assistant.</value>
+</data>
+<data name="LogInCancel" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="LoginDialog_LoginButton_Text" xml:space="preserve">
+  <value>Продолжить с JetBrains Account</value>
+</data>
+<data name="EnableAIBackedQuickInfo_Text" xml:space="preserve">
+  <value>Включить AI-подсказки (Quick Info)</value>
+</data>
+<data name="LogOut_Text" xml:space="preserve">
+  <value>Выйти</value>
+</data>
+<data name="ReSharperAICodeCompletionSuggestions_Text" xml:space="preserve">
+  <value>Предложения ReSharper AI-завершения кода будут иметь приоритет над предложениями Visual Studio IntelliCode или GitHub Copilot</value>
+</data>
+<data name="Stop_Text" xml:space="preserve">
+  <value>Остановить</value>
+</data>
+<data name="RePromptWarning" xml:space="preserve">
+  <value>Сеанс с измененным промптом будет продолжен в новом чате</value>
+</data>
+<data name="Regenerate_Text" xml:space="preserve">
+  <value>Сгенерировать заново</value>
+</data>
+<data name="AIAssistantIsNotAvailableInYourLocation_Text" xml:space="preserve">
+  <value>AI Assistant недоступен в вашем местоположении при использовании региона, выбранного в настройках IDE</value>
+</data>
+<data name="AIAssistantExperimentalFeatures_Text" xml:space="preserve">
+  <value>Экспериментальные функции AI Assistant</value>
+</data>
+<data name="LoginStatusIsUnknown_Text" xml:space="preserve">
+  <value>Статус входа неизвестен</value>
+</data>
+<data name="MessagesFactory_WelcomeMessage_Header" xml:space="preserve">
+  <value>Позвольте ИИ помочь вам</value>
+</data>
+<data name="TryAgain_Text" xml:space="preserve">
+  <value>Повторить</value>
+</data>
+<data name="YouAreLoggedInJetBrainsAI_Text" xml:space="preserve">
+  <value>Вы вошли в JetBrains AI</value>
+</data>
+<data name="CustomPrompts_Text" xml:space="preserve">
+  <value>Пользовательские промпты</value>
+</data>
+<data name="MessagesFactory_CreateOpenASolutionWelcomeMessage_Text" xml:space="preserve">
+  <value>Чтобы начать новый чат, откройте любое существующее решение или создайте новое</value>
+</data>
+<data name="AttachmentsFilesCountWereSent" xml:space="preserve">
+  <value>Отправлено файлов: {0}</value>
+</data>
+<data name="LoginDialog_CancelButton_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="AssistantMessageHeader" xml:space="preserve">
+  <value>AI Assistant</value>
+</data>
+<data name="ProfileForAIInEditorGeneration_Text" xml:space="preserve">
+  <value>Профиль для внутриредакторных AI-функций генерации (написание документации, проверка правописания, реализация этого и т.д.):</value>
+</data>
+<data name="Standard_Text" xml:space="preserve">
+  <value>Стандартный</value>
+</data>
+<data name="CustomGlobalPrompt_Text" xml:space="preserve">
+  <value>Пользовательский глобальный промпт</value>
+</data>
+<data name="MessagesFactory_AuthorizationErrorMessage" xml:space="preserve">
+  <value>Не удается синхронизироваться с JetBrains AI. Нажмите ниже, чтобы войти снова</value>
+</data>
+<data name="AskAIAboutTheSelectedCode_Text" xml:space="preserve">
+  <value>Спросить ИИ о выбранном коде</value>
+</data>
+<data name="TheAIServerIsCurrentlyOverloadedPlease_Text" xml:space="preserve">
+  <value>AI-сервер в настоящее время перегружен. Пожалуйста, повторите попытку позже.</value>
+</data>
+<data name="MessagesFactory_AuthorizationSuccessMessage" xml:space="preserve">
+  <value>Вы подключены</value>
+</data>
+<data name="YourSubscriptionHasExpired_Text" xml:space="preserve">
+  <value>Ваша подписка истекла</value>
+</data>
+<data name="AIAssistantDebugFeatures_Text" xml:space="preserve">
+  <value>Функции отладки AI Assistant</value>
+</data>
+<data name="EnableAskAI_Text" xml:space="preserve">
+  <value>Включить 'Спросить ИИ'</value>
+</data>
+<data name="Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="DoYouWantToSaveChangesBeforeClosing_Text" xml:space="preserve">
+  <value>Хотите сохранить изменения перед закрытием библиотеки промптов?</value>
+</data>
+<data name="EnterCtrlEnterApplyEscCancelShiftRegenerate_Text" xml:space="preserve">
+  <value>`Enter` `Ctrl + Enter` применить  |  `Esc` отмена  |  `Shift + ↹` сгенерировать заново  |  `Ctrl + ← / →` предыдущий или следующий результат</value>
+</data>
+<data name="JetBrainsAI_Text" xml:space="preserve">
+  <value>JetBrains AI</value>
+</data>
+<data name="MessagesFactory_WaitListMessage_Text" xml:space="preserve">
+  <value>Мы отправим вам электронное письмо, когда в JetBrains AI появятся новые места. Или нажмите ниже, чтобы проверить доступность</value>
+</data>
+<data name="YourFreeTrialIsOverYouNeedAValidSubscription_Text" xml:space="preserve">
+  <value>Ваш бесплатный пробный период окончен. Вам нужна действующая подписка, чтобы продолжить использование AI Assistant.</value>
+</data>
+<data name="ToStartANewChatOpenAnyExistingSolution_Text" xml:space="preserve">
+  <value>Чтобы начать новый чат, откройте любое существующее решение или создайте новое</value>
+</data>
+<data name="EnableAIRenameSuggestions_Text" xml:space="preserve">
+  <value>Включить AI-предложения переименования</value>
+</data>
+<data name="AiAssistant" xml:space="preserve">
+  <value>AI Assistant</value>
+</data>
+<data name="Results_Text" xml:space="preserve">
+  <value>Результаты</value>
+</data>
+<data name="ExampleYourAnswersShouldBeOnlyAbout_Text" xml:space="preserve">
+  <value>Пример:
+Ваши ответы должны касаться только Unity.</value>
+</data>
+<data name="SomethingWentWrongPleaseTryAgainLater_Text" xml:space="preserve">
+  <value>Что-то пошло не так. Пожалуйста, повторите попытку позже.</value>
+</data>
+<data name="HowToEnable_Text" xml:space="preserve">
+  <value>Как включить?</value>
+</data>
+<data name="PressEnterToSubmitCtrlEnterForNewLine_Text" xml:space="preserve">
+  <value>Нажмите `Enter` для отправки, `Ctrl` + `Enter` для новой строки</value>
+</data>
+<data name="AiAssistantShowChat" xml:space="preserve">
+  <value>AI-чат (&amp;C)</value>
+</data>
+<data name="SuggestPossibleUserPromptsWithAI_Text" xml:space="preserve">
+  <value>Предлагать возможные пользовательские промпты с помощью ИИ</value>
+</data>
+<data name="ShowImplementThisSuggestions_Text" xml:space="preserve">
+  <value>Показывать предложения "Реализовать"</value>
+</data>
+<data name="ChatSettings" xml:space="preserve">
+  <value>Настройки</value>
+</data>
+<data name="CompleteWithAI_Action_Text" xml:space="preserve">
+  <value>Завершить с помощью ИИ</value>
+</data>
+<data name="AICodeCompletionIsAlwaysAvailableWith_Text" xml:space="preserve">
+  <value>Чтобы вызвать AI-завершение кода, всегда можно использовать</value>
+</data>
+<data name="CopyCode" xml:space="preserve">
+  <value>Скопировать этот код в буфер обмена</value>
+</data>
+<data name="AddsAIPoweredActionsSuchAsExplainOr_Text" xml:space="preserve">
+  <value>Добавляет AI-действия, такие как "Объяснить…" или "Найти проблему", в меню Alt+Enter, делясь выбранным кодом с AI-моделью</value>
+</data>
+<data name="EnableInEditorWriteDocumentation_Text" xml:space="preserve">
+  <value>Включить внутриредакторное "Написать документацию"</value>
+</data>
+<data name="WelcomeToTheAIAssistantChatYourNewAssistantNoLicense_Text" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Получите подписку AI Pro или начните пробный период.</value>
+</data>
+<data name="TryForFree_Text" xml:space="preserve">
+  <value>Попробовать бесплатно</value>
+</data>
+<data name="ToolWindowSize_Text" xml:space="preserve">
+  <value>Размер окна инструментов</value>
+</data>
+<data name="EnableAICodeCompletionBeta_Text" xml:space="preserve">
+  <value>Включить AI-завершение кода (Бета)</value>
+</data>
+<data name="OK_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="EnableCommentsProofreading_Text" xml:space="preserve">
+  <value>Включить проверку комментариев</value>
+</data>
+<data name="RegenerateTheResponseToThePreviousQuery_Text" xml:space="preserve">
+  <value>Повторно сгенерировать ответ на предыдущий запрос</value>
+</data>
+<data name="AIChatFontSize_Text" xml:space="preserve">
+  <value>Размер шрифта AI-чата</value>
+</data>
+<data name="CheckForLicenseUpdate_Text" xml:space="preserve">
+  <value>Проверить обновление лицензии</value>
+</data>
+<data name="HelpsManageLongConversationsWithThe_Text" xml:space="preserve">
+  <value>Помогает управлять длинными беседами с ИИ, удаляя старые сообщения из контекста чата, чтобы предотвратить превышение лимита токенов</value>
+</data>
+<data name="ShowDocumentThisSuggestions_Text" xml:space="preserve">
+  <value>Показывать предложения "Задокументировать"</value>
+</data>
+<data name="PressCtrlEnterToSubmitEnterForNewLine_Text" xml:space="preserve">
+  <value>Нажмите `Ctrl` + `Enter` для отправки, `Enter` для новой строки</value>
+</data>
+<data name="OpenAIChat_Text" xml:space="preserve">
+  <value>Открыть AI-чат</value>
+</data>
+<data name="ProfileForAIAssistant_Text" xml:space="preserve">
+  <value>Профиль для AI Assistant:</value>
+</data>
+<data name="ReLogin" xml:space="preserve">
+  <value>Подключиться</value>
+</data>
+<data name="AIPoweredCompletionRefactoringsIntegrated_Text" xml:space="preserve">
+  <value>AI-завершения, рефакторинги, интегрированный чат и многое другое</value>
+</data>
+<data name="SignificantlyImproveTheRelevanceOfThe_Text" xml:space="preserve">
+  <value>Значительно улучшите релевантность AI-предложений, делясь исходным кодом и другой информацией с сервисами JetBrains AI</value>
+</data>
+<data name="Status_Text" xml:space="preserve">
+  <value>Группировать по статусу</value>
+</data>
+<data name="JetBrainsAIInternalFeatures_Text" xml:space="preserve">
+  <value>Внутренние функции JetBrains AI</value>
+</data>
+<data name="EnableContextActions_Text" xml:space="preserve">
+  <value>Включить контекстные действия</value>
+</data>
+<data name="MessagesFactory_OnboardingMessage_ReSharperNotInstalled" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Чтобы начать использовать чат, установите ReSharper и перезапустите Visual Studio.</value>
+</data>
+<data name="ProvideYourFeedback_Text" xml:space="preserve">
+  <value>Ваш отзыв</value>
+</data>
+<data name="WaitingForSolution_Text" xml:space="preserve">
+  <value>Ожидание решения…</value>
+</data>
+<data name="EnableAICodeCompletion_Text" xml:space="preserve">
+  <value>Включить AI-завершение кода</value>
+</data>
+<data name="SubmitWithCtrlEnter_Text" xml:space="preserve">
+  <value>Отправлять по Ctrl+Enter</value>
+</data>
+<data name="Summarize_Text" xml:space="preserve">
+  <value>Суммаризировать</value>
+</data>
+<data name="HelpUsMakeTheProductBetter_Text" xml:space="preserve">
+  <value>Помогите нам улучшить продукт.</value>
+</data>
+<data name="BoostYourProductivityWithAI_Text" xml:space="preserve">
+  <value>Повысьте свою производительность с помощью ИИ</value>
+</data>
+<data name="MessagesFactory_FirstLaunchWelcomeMessage_Header" xml:space="preserve">
+  <value>Спросите напрямую или нажмите на один из вопросов ниже, чтобы увидеть, как это работает:</value>
+</data>
+<data name="YouAreNotLoggedInToJetBrainsAIToLog_Text" xml:space="preserve">
+  <value>Вы не вошли в JetBrains AI. Чтобы войти, откройте AI Chat: ReSharper | AI Assistant | AI Chat.</value>
+</data>
+<data name="RecentChats" xml:space="preserve">
+  <value>Недавние чаты</value>
+</data>
+<data name="Generating_Text" xml:space="preserve">
+  <value>Генерация…</value>
+</data>
+<data name="MessagesFactory_OnboardingMessage_ReSharperDisabled" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Чтобы начать использовать чат, включите ReSharper в настройках и перезапустите Visual Studio.</value>
+</data>
+<data name="AIRenameSuggestions_Text" xml:space="preserve">
+  <value>AI-предложения переименования</value>
+</data>
+<data name="LoginDialog_DisclaimerAgreement" xml:space="preserve">
+  <value>Входя в систему, вы соглашаетесь с Условиями предоставления услуг JetBrains AI и Политикой конфиденциальности JetBrains.</value>
+</data>
+<data name="UpgradeToAIPro_Text" xml:space="preserve">
+  <value>Обновить до AI Pro</value>
+</data>
+<data name="Duplicate_Text" xml:space="preserve">
+  <value>Дублировать</value>
+</data>
+<data name="YourCompanyHasNotEnabledAIAssistant_Text" xml:space="preserve">
+  <value>Ваша компания еще не включила поддержку AI Assistant.</value>
+</data>
+<data name="SingleAttachmentWasSent" xml:space="preserve">
+  <value>Отправлен 1 файл</value>
+</data>
+<data name="YourFreeTrialEndsIn_Days_Text" xml:space="preserve">
+  <value>Ваш бесплатный пробный период закончится через {0} д.</value>
+</data>
+<data name="OneLine_Text" xml:space="preserve">
+  <value>Еще 1 строка</value>
+</data>
+<data name="ReSharperAIAssistant_Text" xml:space="preserve">
+  <value>ReSharper AI Assistant</value>
+</data>
+<data name="Delete_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="AIAssistantSubscriptionHasExpiredClick_Text" xml:space="preserve">
+  <value>Срок действия подписки AI Assistant истек. Нажмите ниже, чтобы продлить.</value>
+</data>
+<data name="PredefinedPrompts_Text" xml:space="preserve">
+  <value>Предопределенные промпты</value>
+</data>
+<data name="MessagesFactory_WelcomeMessage_Text" xml:space="preserve">
+  <value>Попросите его сгенерировать код по описанию, объяснить или задокументировать выбранный код, предложить рефакторинг и т.д.</value>
+</data>
+<data name="BeforeLastUserMessage_Text" xml:space="preserve">
+  <value>Перед последним пользовательским сообщением</value>
+</data>
+<data name="UpgradeToPro" xml:space="preserve">
+  <value>Обновить до AI Pro</value>
+</data>
+<data name="RevertImproving_Text" xml:space="preserve">
+  <value>Отменить улучшение</value>
+</data>
+<data name="ShowIn_Text" xml:space="preserve">
+  <value>Показывать в</value>
+</data>
+<data name="Large_Text" xml:space="preserve">
+  <value>Большой</value>
+</data>
+<data name="ManageSubscriptionEllipsis_Text" xml:space="preserve">
+  <value>Управление подпиской…</value>
+</data>
+<data name="AIAssistant_Text" xml:space="preserve">
+  <value>AI Assistant</value>
+</data>
+<data name="AddNewPrompt_Text" xml:space="preserve">
+  <value>Добавить новый промпт</value>
+</data>
+<data name="_OfVolumeLeft_Text" xml:space="preserve">
+  <value>Осталось {0}% лимита</value>
+</data>
+<data name="ConnectingToJetBrainsAI_Text" xml:space="preserve">
+  <value>Подключение к JetBrains AI…</value>
+</data>
+<data name="WelcomeToTheAIAssistantChatYourNewAssistantTerms_Text" xml:space="preserve">
+  <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
+
+Обязательно ознакомьтесь и примите Условия предоставления услуг платформы JetBrains AI.</value>
+</data>
+</root>

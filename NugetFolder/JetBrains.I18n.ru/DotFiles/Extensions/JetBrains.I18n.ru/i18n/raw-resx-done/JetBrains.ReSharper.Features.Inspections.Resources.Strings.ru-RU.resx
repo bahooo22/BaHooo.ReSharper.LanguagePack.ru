@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ImplementationsOf__Text" xml:space="preserve">
+  <value>Реализации {0}</value>
+</data>
+<data name="ShowToDoItemsInGeneratedCodeActionText" xml:space="preserve">
+  <value>Показывать элементы TODO в сгенерированном коде</value>
+</data>
+<data name="ToDoSettingsActionText" xml:space="preserve">
+  <value>Настройки TODO</value>
+</data>
+<data name="ValueTrackingUpAction_Title" xml:space="preserve">
+  <value>Источники значения(&amp;V)</value>
+</data>
+<data name="SupertypesHierarchyActionText" xml:space="preserve">
+  <value>Иерархия базовых типов</value>
+</data>
+<data name="ImplementationHierarchyActionText" xml:space="preserve">
+  <value>Иерархия реализаций</value>
+</data>
+<data name="AnalyzeReferences_Text" xml:space="preserve">
+  <value>Анализировать ссылки</value>
+</data>
+<data name="RemoveReferenceWarning_ReferencesWillBeRemoved" xml:space="preserve">
+  <value>Будут удалены ссылки на следующие модули:</value>
+</data>
+<data name="RemoveReferenceWarning_ConfirmationMessage" xml:space="preserve">
+  <value>Все равно удалить ссылки?</value>
+</data>
+<data name="PublicConstructor_Text" xml:space="preserve">
+  <value>public конструктор</value>
+</data>
+<data name="AnalyzeReferencesActionGroupText" xml:space="preserve">
+  <value>Анализировать ссылки</value>
+</data>
+<data name="ClearAllBookmarksInDocumentActionText" xml:space="preserve">
+  <value>Очистить все закладки в документе</value>
+</data>
+<data name="RemoveAllUnusedReferencesActionText" xml:space="preserve">
+  <value>Удалить все неиспользуемые ссылки</value>
+</data>
+<data name="EnableMultilinePresentationActionText" xml:space="preserve">
+  <value>Включить многострочное отображение</value>
+</data>
+<data name="FilterUsagesActionGroupText" xml:space="preserve">
+  <value>Фильтровать использования</value>
+</data>
+<data name="NotSet_Text" xml:space="preserve">
+  <value>&lt;не задано&gt;</value>
+</data>
+<data name="CodeStructure_Text" xml:space="preserve">
+  <value>Структура кода</value>
+</data>
+<data name="ShowMembers_Text" xml:space="preserve">
+  <value>Показать члены</value>
+</data>
+<data name="LocateInToDoExplorer_Caption" xml:space="preserve">
+  <value>Найти в обозревателе задач(&amp;T)</value>
+</data>
+<data name="NoHierarchiesOpen_Text" xml:space="preserve">
+  <value>Нет открытых иерархий</value>
+</data>
+<data name="ShowPRojectHierarchy_Caption" xml:space="preserve">
+  <value>Показать иерархию проекта(&amp;R)</value>
+</data>
+<data name="DisabledFiltersSettingDescription" xml:space="preserve">
+  <value>Отключенные фильтры</value>
+</data>
+<data name="SurroundWithRegionActionText" xml:space="preserve">
+  <value>Окружить регионом</value>
+</data>
+<data name="ToggleBookmark3ActionText" xml:space="preserve">
+  <value>Переключить закладку 3</value>
+</data>
+<data name="ClearAllBookmarksActionText" xml:space="preserve">
+  <value>Очистить все закладки</value>
+</data>
+<data name="InterfaceLeavesActionText" xml:space="preserve">
+  <value>Листья интерфейса</value>
+</data>
+<data name="ToggleBookmark5ActionText" xml:space="preserve">
+  <value>Переключить закладку 5</value>
+</data>
+<data name="ClassHierarchyActionText" xml:space="preserve">
+  <value>Иерархия классов</value>
+</data>
+<data name="RemoveReferenceWarning_ChangesDetected" xml:space="preserve">
+  <value>С момента последнего обновления дерева обнаружены некоторые изменения.</value>
+</data>
+<data name="GoToBookmark0ActionText" xml:space="preserve">
+  <value>Перейти к закладке 0</value>
+</data>
+<data name="ClearNumberedDeleteAnonymous_Text" xml:space="preserve">
+  <value>Очистить нумерованные/удалить анонимные</value>
+</data>
+<data name="ValueTrackingDownAction_Title" xml:space="preserve">
+  <value>Цели значения(&amp;A)</value>
+</data>
+<data name="ClearUsedAtRuntimeMarkActionText" xml:space="preserve">
+  <value>Очистить отметку 'Используется во время выполнения'</value>
+</data>
+<data name="ModuleReferencesActionText" xml:space="preserve">
+  <value>Ссылки на модули(&amp;M)</value>
+</data>
+<data name="Bookmark_Text" xml:space="preserve">
+  <value>Закладка</value>
+</data>
+<data name="UnknownSymbol_Text" xml:space="preserve">
+  <value>Неизвестный символ</value>
+</data>
+<data name="EditPattern_Button_Text" xml:space="preserve">
+  <value>Редактировать шаблон</value>
+</data>
+<data name="Hierarchy_Text" xml:space="preserve">
+  <value>Иерархия</value>
+</data>
+<data name="LeafInterfacesOf__Text" xml:space="preserve">
+  <value>Листовые интерфейсы {0}</value>
+</data>
+<data name="_UsedDependencies_Text" xml:space="preserve">
+  <value> ({0}: используемые зависимости)</value>
+</data>
+<data name="ToggleBookmark6ActionText" xml:space="preserve">
+  <value>Переключить закладку 6</value>
+</data>
+<data name="OutgoingCallsFrom__Text" xml:space="preserve">
+  <value>Исходящие вызовы из '{0}'</value>
+</data>
+<data name="ToggleBookmark8ActionText" xml:space="preserve">
+  <value>Переключить закладку 8</value>
+</data>
+<data name="OnlyPolymorphicMembersActionText" xml:space="preserve">
+  <value>Только полиморфные члены</value>
+</data>
+<data name="SafeDeleteAssemblyReference_Text" xml:space="preserve">
+  <value>Безопасное удаление ссылки на сборку</value>
+</data>
+<data name="InspectActionGroupText" xml:space="preserve">
+  <value>Инспектировать</value>
+</data>
+<data name="GoToBookmark3ActionText" xml:space="preserve">
+  <value>Перейти к закладке 3</value>
+</data>
+<data name="ToDoExplorer_Text" xml:space="preserve">
+  <value>Обозреватель задач</value>
+</data>
+<data name="PolymorphicCall_Text" xml:space="preserve">
+  <value>Полиморфный вызов</value>
+</data>
+<data name="SeveralUsagesWereFoundInSelectedReferenced_Text" xml:space="preserve">
+  <value>В выбранных ссылочных сборках найдено несколько использований</value>
+</data>
+<data name="RemoveReferenceWarning_UsedReferenceRemoved" xml:space="preserve">
+  <value>Некоторые выбранные ссылки имеют использования. Их удаление может вызвать проблемы с компиляцией.</value>
+</data>
+<data name="TrackCaretInEditorActionText" xml:space="preserve">
+  <value>Отслеживать курсор в редакторе</value>
+</data>
+<data name="TypeHierarchyMembersActionGroupText" xml:space="preserve">
+  <value>Члены иерархии типов</value>
+</data>
+<data name="SubhierarchyOf__Text" xml:space="preserve">
+  <value>Подчиненная иерархия {0}</value>
+</data>
+<data name="TypeHierarchy_Text" xml:space="preserve">
+  <value>Иерархия типов</value>
+</data>
+<data name="HideSubTreesWithoutImplementation_Text" xml:space="preserve">
+  <value>Скрывать поддеревья без реализации</value>
+</data>
+<data name="ReferencesHierarchyActionText" xml:space="preserve">
+  <value>Иерархия ссылок</value>
+</data>
+<data name="FilterToDoItemsActionText" xml:space="preserve">
+  <value>Фильтровать элементы TODO</value>
+</data>
+<data name="UnusedReferences_Text" xml:space="preserve">
+  <value>Неиспользуемые ссылки</value>
+</data>
+<data name="GoToBookmark5ActionText" xml:space="preserve">
+  <value>Перейти к закладке 5</value>
+</data>
+<data name="BaseType_Text" xml:space="preserve">
+  <value>Базовый тип</value>
+</data>
+<data name="Bookmark__Text" xml:space="preserve">
+  <value>Добавить закладку для {0}</value>
+</data>
+<data name="RemoveUnusedProjectReferences_Text" xml:space="preserve">
+  <value>Удалить неиспользуемые ссылки на проекты</value>
+</data>
+<data name="_In__Text" xml:space="preserve">
+  <value>{0} в {1}</value>
+</data>
+<data name="ExplorerToolbarActionGroupText" xml:space="preserve">
+  <value>Панель инструментов обозревателя</value>
+</data>
+<data name="DecomposableNugets_Text" xml:space="preserve">
+  <value>Декомпозируемые пакеты NuGet</value>
+</data>
+<data name="Add_Button_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Remove_Button_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="DestinationOf__Text" xml:space="preserve">
+  <value>Назначения '{0}'</value>
+</data>
+<data name="ProcessingProject__Text" xml:space="preserve">
+  <value>Обрабатывается проект {0}</value>
+</data>
+<data name="TypeHierarchyViewSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки просмотра иерархии типов</value>
+</data>
+<data name="SearchDependentCode_Text" xml:space="preserve">
+  <value>Поиск зависимого кода</value>
+</data>
+<data name="UnknownAssembly_Text" xml:space="preserve">
+  <value>Неизвестная сборка</value>
+</data>
+<data name="ShowIncomingCallsAction_Title" xml:space="preserve">
+  <value>Входящие вызовы(&amp;I)</value>
+</data>
+<data name="CallHierarchyActionText" xml:space="preserve">
+  <value>Иерархия вызовов</value>
+</data>
+<data name="ContainingModulesHierarchy_Text" xml:space="preserve">
+  <value>Иерархия содержащих модулей</value>
+</data>
+<data name="CodeReferencedIn__Text" xml:space="preserve">
+  <value>Код, на который ссылаются в {0}</value>
+</data>
+<data name="InspectionsActionText" xml:space="preserve">
+  <value>Инспекции(&amp;I)</value>
+</data>
+<data name="ToggleBookmark1ActionText" xml:space="preserve">
+  <value>Переключить закладку 1</value>
+</data>
+<data name="ClearAllBookmarks_Text" xml:space="preserve">
+  <value>Очистить все закладки?</value>
+</data>
+<data name="NoUnusedAssemblyReferencesFound_Text" xml:space="preserve">
+  <value>Неиспользуемые ссылки на сборки не найдены</value>
+</data>
+<data name="ExpressionIn__Text" xml:space="preserve">
+  <value>Выражение в {0}</value>
+</data>
+<data name="ToDoExplorerAmpActionText" xml:space="preserve">
+  <value>Обозреватель задач(&amp;P)</value>
+</data>
+<data name="FieldInitializer_Text" xml:space="preserve">
+  <value>Инициализатор поля</value>
+</data>
+<data name="ClearAllBookmarksInDocument_Text" xml:space="preserve">
+  <value>Очистить все закладки в документе?</value>
+</data>
+<data name="IncomingCallsTo__Text" xml:space="preserve">
+  <value>Входящие вызовы в '{0}'</value>
+</data>
+<data name="CallHierarchy_Text" xml:space="preserve">
+  <value>Иерархия вызовов</value>
+</data>
+<data name="Recursion_Text" xml:space="preserve">
+  <value>Рекурсия</value>
+</data>
+<data name="_UsedDependency_Text" xml:space="preserve">
+  <value> ({0}: используемая зависимость)</value>
+</data>
+<data name="ToggleBookmark2ActionText" xml:space="preserve">
+  <value>Переключить закладку 2</value>
+</data>
+<data name="InstalledIn__Text" xml:space="preserve">
+  <value> (Установлено в: {0})</value>
+</data>
+<data name="BookmarksActionText" xml:space="preserve">
+  <value>Закладки…</value>
+</data>
+<data name="Duplicate_Button_Text" xml:space="preserve">
+  <value>Дублировать</value>
+</data>
+<data name="BaseOnThisActionText" xml:space="preserve">
+  <value>На основе этого</value>
+</data>
+<data name="ShowOutgoingCallsAction_Title" xml:space="preserve">
+  <value>Исходящие вызовы(&amp;O)</value>
+</data>
+<data name="RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="ToggleBookmark4ActionText" xml:space="preserve">
+  <value>Переключить закладку 4</value>
+</data>
+<data name="UnusedDependency_Text" xml:space="preserve">
+  <value>Неиспользуемая зависимость</value>
+</data>
+<data name="BuildingAssemblyReferencesTree_Text" xml:space="preserve">
+  <value>Построение дерева ссылок на сборки</value>
+</data>
+<data name="GoToBookmark1ActionText" xml:space="preserve">
+  <value>Перейти к закладке 1</value>
+</data>
+<data name="ClearSelection_Text" xml:space="preserve">
+  <value>Очистить выделение</value>
+</data>
+<data name="BrowseTypeHierarchyAction_Title" xml:space="preserve">
+  <value>Иерархия(&amp;H)</value>
+</data>
+<data name="ShowElementsFromThisSolutionActionText" xml:space="preserve">
+  <value>Показывать элементы из этого решения</value>
+</data>
+<data name="RecursiveInheritance__ToolTip" xml:space="preserve">
+  <value>Рекурсивное наследование</value>
+</data>
+<data name="ShowSubHierarchy_Text" xml:space="preserve">
+  <value>Показать подчиненную иерархию</value>
+</data>
+<data name="HierarchyOf__Text" xml:space="preserve">
+  <value>Иерархия {0}</value>
+</data>
+<data name="GroupByIndexSettingDescription" xml:space="preserve">
+  <value>Группировать по индексу</value>
+</data>
+<data name="RemoveUnusedReferencesActionText" xml:space="preserve">
+  <value>Удалить неиспользуемые ссылки</value>
+</data>
+<data name="EnableMultilineTodoCommentsSettingText" xml:space="preserve">
+  <value>Считать последующие строки комментариев частью того же To-do</value>
+</data>
+<data name="AddPattern_Button_Text" xml:space="preserve">
+  <value>Добавить шаблон</value>
+</data>
+<data name="ShowRelatedUsagesActionText" xml:space="preserve">
+  <value>Показать связанные использования</value>
+</data>
+<data name="BookmarkTooltipText" xml:space="preserve">
+  <value>Добавить закладку #{0} ({1})</value>
+</data>
+<data name="UnusedProjectReference_Text" xml:space="preserve">
+  <value>Неиспользуемая ссылка на проект</value>
+</data>
+<data name="RemoveReferenceWarning_PackagesRemoved" xml:space="preserve">
+  <value>Будут удалены следующие пакеты и их зависимости:</value>
+</data>
+<data name="HierarchyFor_ContainsAllTypesAndMay_Text" xml:space="preserve">
+  <value>Иерархия для {0} содержит все типы и может занять значительное время для вычисления.
+Вы уверены, что хотите показать все типы?</value>
+</data>
+<data name="FindCodeDependentOnModuleActionText" xml:space="preserve">
+  <value>Найти код, зависящий от модуля</value>
+</data>
+<data name="Edit_Button_Text" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="ShowPreprocessorDirectivesSettingDescription" xml:space="preserve">
+  <value>Показывать директивы препроцессора</value>
+</data>
+<data name="Bookmarks_Text" xml:space="preserve">
+  <value>Закладки</value>
+</data>
+<data name="SearchingForInheritors_Text" xml:space="preserve">
+  <value>Поиск наследников</value>
+</data>
+<data name="AnalyzeReferencesSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки анализа ссылок</value>
+</data>
+<data name="DirectUsages_Text" xml:space="preserve">
+  <value>Прямые использования</value>
+</data>
+<data name="Remove_onlyUnusedReferences_Text" xml:space="preserve">
+  <value>Удалить только неиспользуемые ссылки(_O)</value>
+</data>
+<data name="NoUsagesWereFoundInTheseReferencedAssemblies_Text" xml:space="preserve">
+  <value>В этих ссылочных сборках не найдено ни одного использования</value>
+</data>
+<data name="LocateInToDoExplorerActionText" xml:space="preserve">
+  <value>Найти в обозревателе задач</value>
+</data>
+<data name="GoToBookmark8ActionText" xml:space="preserve">
+  <value>Перейти к закладке 8</value>
+</data>
+<data name="ShowPreprocessorDirectivesActionText" xml:space="preserve">
+  <value>Показывать директивы препроцессора</value>
+</data>
+<data name="ToDoExplorerOptionPageTitle" xml:space="preserve">
+  <value>Обозреватель задач</value>
+</data>
+<data name="_FromInitializer_Text" xml:space="preserve">
+  <value>{0} (из инициализатора)</value>
+</data>
+<data name="Item_DonTHaveFileStructureAspect_Text" xml:space="preserve">
+  <value>Элемент '{0}' не имеет аспекта структуры файла</value>
+</data>
+<data name="ModulesAxis_Text" xml:space="preserve">
+  <value>Ось модулей</value>
+</data>
+<data name="GoToBookmark6ActionText" xml:space="preserve">
+  <value>Перейти к закладке 6</value>
+</data>
+<data name="NoAssemblyReferencesFound_Text" xml:space="preserve">
+  <value>Ссылки на сборки не найдены</value>
+</data>
+<data name="UnusedAssemblyReferences_Text" xml:space="preserve">
+  <value>Неиспользуемые ссылки на сборки</value>
+</data>
+<data name="ViewStyleSettingDescription" xml:space="preserve">
+  <value>Стиль просмотра</value>
+</data>
+<data name="DuplicatePattern_Button_Text" xml:space="preserve">
+  <value>Дублировать шаблон</value>
+</data>
+<data name="FileStructure_Text" xml:space="preserve">
+  <value>Структура файла</value>
+</data>
+<data name="ToggleBookmark0ActionText" xml:space="preserve">
+  <value>Переключить закладку 0</value>
+</data>
+<data name="RemoveSelectedReferencesActionText" xml:space="preserve">
+  <value>Удалить выбранные ссылки</value>
+</data>
+<data name="_Implicit_Text" xml:space="preserve">
+  <value>{0} (неявно)</value>
+</data>
+<data name="ThisModulesNameAlwaysAssumedToBeUsedInAnalyzeReferencesSettingDescription" xml:space="preserve">
+  <value>Это имя модуля всегда считается используемым при анализе ссылок</value>
+</data>
+<data name="AssemblyReferenceContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню ссылки на сборку</value>
+</data>
+<data name="SetNumberedAddAnonymous_Text" xml:space="preserve">
+  <value>Установить нумерованные/добавить анонимные</value>
+</data>
+<data name="BookmarksActionGroupText" xml:space="preserve">
+  <value>Закладки</value>
+</data>
+<data name="FileStructureActionText" xml:space="preserve">
+  <value>Структура файла(&amp;S)</value>
+</data>
+<data name="NoModulesToAnalyzeOpen_Text" xml:space="preserve">
+  <value>Нет открытых модулей для анализа</value>
+</data>
+<data name="GenericConstructorCall_Text" xml:space="preserve">
+  <value>Вызов универсального конструктора</value>
+</data>
+<data name="HierarchiesActionText" xml:space="preserve">
+  <value>Иерархии(&amp;H)</value>
+</data>
+<data name="TodoFilterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки фильтра TODO</value>
+</data>
+<data name="Invalid_Text" xml:space="preserve">
+  <value>&lt;недействительно&gt;</value>
+</data>
+<data name="AllInstanceMembersActionText" xml:space="preserve">
+  <value>Все экземпляры членов</value>
+</data>
+<data name="SelectAll_Text" xml:space="preserve">
+  <value>Выбрать все</value>
+</data>
+<data name="BookmarkIsNotSet_Text" xml:space="preserve">
+  <value>Закладка не установлена</value>
+</data>
+<data name="ToDoExplorerActionText" xml:space="preserve">
+  <value>Обозреватель задач</value>
+</data>
+<data name="UnknownModule_Text" xml:space="preserve">
+  <value>Неизвестный модуль</value>
+</data>
+<data name="CannotEvaluate_ThereAreTooManyReferences_Text" xml:space="preserve">
+  <value>Не удается оценить {0}. Слишком много ссылок для хранения. Попробуйте вместо этого использовать 'Удалить неиспользуемые ссылки'.</value>
+</data>
+<data name="MarkReferenceAsUsedAtRuntimeActionText" xml:space="preserve">
+  <value>Пометить ссылку как используемую во время выполнения</value>
+</data>
+<data name="UsedProjectReference_Text" xml:space="preserve">
+  <value>Используемая ссылка на проект</value>
+</data>
+<data name="SynchronizeCaretToViewSettingDescription" xml:space="preserve">
+  <value>Синхронизировать курсор с видом</value>
+</data>
+<data name="MarkReferenceAsUsedAtRuntimeForWholeSolutionActionText" xml:space="preserve">
+  <value>Пометить ссылку как используемую во время выполнения для всего решения</value>
+</data>
+<data name="Inheritor_Text" xml:space="preserve">
+  <value>Наследник</value>
+</data>
+<data name="RemovingAssemblyReferences_Text" xml:space="preserve">
+  <value>Удаление ссылок на сборки</value>
+</data>
+<data name="SynchronizeViewToCaretSettingDescription" xml:space="preserve">
+  <value>Синхронизировать вид с курсором</value>
+</data>
+<data name="ToggleBookmark9ActionText" xml:space="preserve">
+  <value>Переключить закладку 9</value>
+</data>
+<data name="NoUnusedReferencesForThisProject_Text" xml:space="preserve">
+  <value>Для этого проекта нет неиспользуемых ссылок</value>
+</data>
+<data name="AtLines__Text" xml:space="preserve">
+  <value> · строки {0}</value>
+</data>
+<data name="SupertypesOf__Text" xml:space="preserve">
+  <value>Базовые типы {0}</value>
+</data>
+<data name="TypeMembers_Text" xml:space="preserve">
+  <value>Члены типа</value>
+</data>
+<data name="OptimizeReferencesActionText" xml:space="preserve">
+  <value>Оптимизировать ссылки…</value>
+</data>
+<data name="OnAnItemToSeeHierarchy_Text" xml:space="preserve">
+  <value>(На элементе) Просмотреть его иерархию</value>
+</data>
+<data name="StopExpandingActionText" xml:space="preserve">
+  <value>Остановить развертывание</value>
+</data>
+<data name="CallHierarchyActionGroupText" xml:space="preserve">
+  <value>Иерархия вызовов</value>
+</data>
+<data name="RemoveUnusedReferences_Text" xml:space="preserve">
+  <value>Удалить неиспользуемые ссылки</value>
+</data>
+<data name="Closure_Text" xml:space="preserve">
+  <value>Замыкание</value>
+</data>
+<data name="SubtypesHierarchyActionText" xml:space="preserve">
+  <value>Иерархия подтипов</value>
+</data>
+<data name="ExpandingNode_Text" xml:space="preserve">
+  <value>Развертывание узла</value>
+</data>
+<data name="ToggleBookmark7ActionText" xml:space="preserve">
+  <value>Переключить закладку 7</value>
+</data>
+<data name="ConfirmRemove_Text" xml:space="preserve">
+  <value>Подтвердить удаление</value>
+</data>
+<data name="CodeStructureWindowSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки окна 'Структура кода'</value>
+</data>
+<data name="ShowWholeHierarchy_Text" xml:space="preserve">
+  <value>Показать полную иерархию</value>
+</data>
+<data name="DirectUsage_Text" xml:space="preserve">
+  <value>Прямое использование</value>
+</data>
+<data name="GoToBookmark2ActionText" xml:space="preserve">
+  <value>Перейти к закладке 2</value>
+</data>
+<data name="PaintItemsActionText" xml:space="preserve">
+  <value>Раскрасить элементы</value>
+</data>
+<data name="CouldNotGoToBookmark___Text" xml:space="preserve">
+  <value>Не удалось перейти к закладке #{0}. {1}</value>
+</data>
+<data name="ToDoExplorerActionGroupText" xml:space="preserve">
+  <value>Обозреватель задач</value>
+</data>
+<data name="GoToBookmark4ActionText" xml:space="preserve">
+  <value>Перейти к закладке 4</value>
+</data>
+<data name="SubtypesOf__Text" xml:space="preserve">
+  <value>Подтипы {0}</value>
+</data>
+<data name="SafeDeleteAssemblyReferencesActionGroupText" xml:space="preserve">
+  <value>Безопасное удаление ссылок на сборки</value>
+</data>
+<data name="ShowProjectHierarchyActionText" xml:space="preserve">
+  <value>Показать иерархию проекта</value>
+</data>
+<data name="ImplicitUsages_Text" xml:space="preserve">
+  <value>Неявные использования</value>
+</data>
+<data name="ProjectHierarchyActionGroupText" xml:space="preserve">
+  <value>Иерархия проекта</value>
+</data>
+<data name="RuntimeReferencesSettingsActionGroupText" xml:space="preserve">
+  <value>Настройки ссылок времени выполнения</value>
+</data>
+<data name="RemoveUnusedReferencesContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню удаления неиспользуемых ссылок</value>
+</data>
+<data name="TypeHierarchyActionGroupText" xml:space="preserve">
+  <value>Иерархия типов</value>
+</data>
+<data name="FileStructureActionBarActionGroupText" xml:space="preserve">
+  <value>Панель действий структуры файла</value>
+</data>
+<data name="ShowUnusedReferencesActionText" xml:space="preserve">
+  <value>Показать неиспользуемые ссылки</value>
+</data>
+<data name="ValueTrackingActionGroupText" xml:space="preserve">
+  <value>Отслеживание значений</value>
+</data>
+<data name="Patterns_Caption" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="OriginOf__Text" xml:space="preserve">
+  <value>Источники '{0}'</value>
+</data>
+<data name="SelectUnusedProjectReferences_Text" xml:space="preserve">
+  <value>Выбрать неиспользуемые ссылки на проекты</value>
+</data>
+<data name="PredefinedIgnoredReferencesInAnalyze_Text" xml:space="preserve">
+  <value>Предопределенные игнорируемые ссылки в анализе ссылок</value>
+</data>
+<data name="OnAModuleToAnalyzeItsReferencesAndRemoveUnused_Text" xml:space="preserve">
+  <value>(На модуле) Проанализировать его ссылки и удалить неиспользуемые</value>
+</data>
+<data name="AutomaticallyScrollToSourceActionText" xml:space="preserve">
+  <value>Автоматически прокручивать к исходному коду</value>
+</data>
+<data name="GoToBookmark7ActionText" xml:space="preserve">
+  <value>Перейти к закладке 7</value>
+</data>
+<data name="NewAnonymousBookmark_Text" xml:space="preserve">
+  <value>Новая анонимная закладка</value>
+</data>
+<data name="GoToBookmark9ActionText" xml:space="preserve">
+  <value>Перейти к закладке 9</value>
+</data>
+<data name="_AnalyzeUsedReferences_Text" xml:space="preserve">
+  <value>Анализировать используемые ссылки(_A)…</value>
+</data>
+</root>

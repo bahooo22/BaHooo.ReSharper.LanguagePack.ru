@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AsmParserError_ExpectedRBracket" xml:space="preserve">
+    <value>应为 ']'</value>
+  </data>
+  <data name="AsmMemoryAccessError_InvalidCombinationOfRegisters" xml:space="preserve">
+    <value>内存地址的寄存器组合无效</value>
+  </data>
+  <data name="AsmOperandSizeError_OperandSizeGreaterThanProcessorModeOfStatement" xml:space="preserve">
+    <value>在 {0} 位模式下，操作数的大小不能为 {1} 位</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_SingleLineComment" xml:space="preserve">
+    <value>汇编器//单行注释</value>
+  </data>
+  <data name="AsmCharsProvider_Setting_CompleteOnSpace" xml:space="preserve">
+    <value>按空格键时补全</value>
+  </data>
+  <data name="AsmExprCalculationError_InvalidRegister" xml:space="preserve">
+    <value>内存访问中只能使用通用寄存器</value>
+  </data>
+  <data name="AsmOperandSizeDeadCode_RedundantSizeSpecification" xml:space="preserve">
+    <value>冗余大小规范</value>
+  </data>
+  <data name="AsmOperandSizeWarning_OverflowInImmediateValue" xml:space="preserve">
+    <value>转换为 {0} 位值时发生溢出</value>
+  </data>
+  <data name="AsmCharsProvider_Setting_TabAction" xml:space="preserve">
+    <value>Tab action</value>
+  </data>
+  <data name="AsmExprCalculationError_ImpossibleValueForCalculation" xml:space="preserve">
+    <value>无法计算值 LONG_MIN {0} -1</value>
+  </data>
+  <data name="AsmParserError_ExpectedNumericLiteral" xml:space="preserve">
+    <value>应为数字文字</value>
+  </data>
+  <data name="AsmInvalidCombinationOfArgumentsError_Text" xml:space="preserve">
+    <value>指令 '{0}' 不能将({1})作为操作数组合</value>
+  </data>
+  <data name="AsmOperandSizeError_InvalidSizeKeywordInMemoryAccess" xml:space="preserve">
+    <value>内存访问中的大小关键字无效</value>
+  </data>
+  <data name="AsmOperandSizeError_OperandSizeCanNotBeDerivedFromOperands" xml:space="preserve">
+    <value>指令的操作数大小未指定，并且无法从操作数派生</value>
+  </data>
+  <data name="AsmFirstArgumentMustBeRegisterError_Text" xml:space="preserve">
+    <value>指令 '{0}' 的第一个操作数必须为寄存器</value>
+  </data>
+  <data name="AsmExprCalculationError_InvalidNumberBinary" xml:space="preserve">
+    <value>二进制数表示中有无效字符</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Directive" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_123Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 1 个或 2 个或 3 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Label" xml:space="preserve">
+    <value>汇编器//标签//标签</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_UnresolvedIdentifier" xml:space="preserve">
+    <value>汇编器//未解析的标识符</value>
+  </data>
+  <data name="AsmExprCalculationWarning_InvalidStringLiteral" xml:space="preserve">
+    <value>字符串字面量中有非 ASCII 字符</value>
+  </data>
+  <data name="AsmParserError_ExpectedNewLine" xml:space="preserve">
+    <value>应为新行</value>
+  </data>
+  <data name="AsmInstructionMovzxDoesntAllowExtension32To64Error_Text" xml:space="preserve">
+    <value>指令 'movzx' 不允许从 32 位零扩展到 64 位</value>
+  </data>
+  <data name="AsmInstructionMovsxdRequires32BitSourceError_Text" xml:space="preserve">
+    <value>指令 'movsxd' 要求 32 位源操作数</value>
+  </data>
+  <data name="AsmPtrKeywordNotAllowedError_MemoryAccessesMustHaveNoPtrKeyword" xml:space="preserve">
+    <value>内存访问中不允许使用 'ptr' 关键字</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Instruction" xml:space="preserve">
+    <value>汇编器//指令//指令</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Variable" xml:space="preserve">
+    <value>汇编器//标签//变量</value>
+  </data>
+  <data name="AsmOperandSizeError_DifferentOperandSizesOfOperands" xml:space="preserve">
+    <value>根据前面的操作数，操作数的大小必须为 {0} 位</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_DataPseudoInstruction" xml:space="preserve">
+    <value>汇编器//指令//数据伪指令</value>
+  </data>
+  <data name="AsmParserError_ExpectedLPar" xml:space="preserve">
+    <value>应为 '('</value>
+  </data>
+  <data name="AsmParserError_ExpectedRPar" xml:space="preserve">
+    <value>应为 ')'</value>
+  </data>
+  <data name="AsmParserError_ExpectedInstruction" xml:space="preserve">
+    <value>应为指令</value>
+  </data>
+  <data name="AssemblerErrors_Text" xml:space="preserve">
+    <value>汇编程序错误</value>
+  </data>
+  <data name="AsmInstructionMovsxdRequires64BitDestinationError_Text" xml:space="preserve">
+    <value>指令 'movsxd' 要求 64 位目标操作数</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_2Singular" xml:space="preserve">
+    <value>指令 '{0}' 要求 2 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_AlAxEaxRegister" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为 AL/AX/EAX 寄存器</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_GprOrSegOrMem" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为寄存器或内存访问</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_GprOrSegOrMemOrImm" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为寄存器、内存访问或即时值</value>
+  </data>
+  <data name="AsmExprCalculationError_InvalidNumberDecimal" xml:space="preserve">
+    <value>十进制数表示中有无效字符</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_ConstantLabel" xml:space="preserve">
+    <value>汇编器//标签//常量</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_SizeKeyword" xml:space="preserve">
+    <value>汇编器//关键字//大小关键字</value>
+  </data>
+  <data name="AsmLabelRedefinitionError_MultipleDefinitionsOfLabel" xml:space="preserve">
+    <value>标签 '{0}' 的多个定义</value>
+  </data>
+  <data name="AsmProcessorModeError_InvalidProcessorModeDirective" xml:space="preserve">
+    <value>允许的处理器模式为 16、32 和 64，但提供的是 '{0}'</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Keyword" xml:space="preserve">
+    <value>汇编器//关键字//关键字</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_01Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 0 个或 1 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmExprCalculationError_InvalidNumberOctal" xml:space="preserve">
+    <value>八进制数表示中有无效字符</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_0Singular" xml:space="preserve">
+    <value>指令 '{0}' 要求 0 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Register" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_0Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 0 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Constant" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="AsmInvalidCombinationOfArgumentsError_MemoryAccess" xml:space="preserve">
+    <value>内存访问</value>
+  </data>
+  <data name="AsmInvalidCombinationOfArgumentsError_GeneralRegister" xml:space="preserve">
+    <value>通用寄存器</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_SizeSpecifier" xml:space="preserve">
+    <value>大小说明符</value>
+  </data>
+  <data name="AsmOperandSizeWarning_SizeSpecificationWillBeIgnored" xml:space="preserve">
+    <value>大小规范将被忽略</value>
+  </data>
+  <data name="AsmRipRelativeAddressingPlacementError_MustBePlacedInMemoryAccess" xml:space="preserve">
+    <value>RIP 相对寻址说明符必须置于内存访问中</value>
+  </data>
+  <data name="AsmParserError_ExpectedInstructionOperand" xml:space="preserve">
+    <value>应为指令操作数</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Number" xml:space="preserve">
+    <value>汇编器//数值字面量</value>
+  </data>
+  <data name="AsmOperandSizeError_InvalidSizeKeywordInMemoryAccessWithSpecification" xml:space="preserve">
+    <value>{0} 位模式下内存访问中的大小关键字无效</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Instruction" xml:space="preserve">
+    <value>指令</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_1Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 1 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_ClRegisterOrImm" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为 CL 寄存器或即时值</value>
+  </data>
+  <data name="AsmOperandSizeError_SizeOfRegistersInMemoryAccessGreaterThenProcessorModeOfStatement" xml:space="preserve">
+    <value>{0} 位寄存器不能在 {1} 位模式下使用</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Prefix" xml:space="preserve">
+    <value>前缀</value>
+  </data>
+  <data name="AsmRipRelativeAddressingPlacementError_MustBePlacedInsideBrackets" xml:space="preserve">
+    <value>RIP 相对寻址说明符必须置于方括号内</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Prefix" xml:space="preserve">
+    <value>汇编器//指令//前缀</value>
+  </data>
+  <data name="AsmParserError_ExpectedIdentifier" xml:space="preserve">
+    <value>应为标识符</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_Gpr" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为通用寄存器</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_Imm" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为即时值</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_Mem" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为内存访问</value>
+  </data>
+  <data name="AsmInvalidCombinationOfArgumentsError_Immediate" xml:space="preserve">
+    <value>即时值</value>
+  </data>
+  <data name="AsmExprCalculationWarning_NumericConstantIsTooLarge" xml:space="preserve">
+    <value>数值常量太大</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_Label" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_String" xml:space="preserve">
+    <value>汇编器//字符串字面量</value>
+  </data>
+  <data name="AsmInstructionRequiresDestinationLargerThanSourceError_Text" xml:space="preserve">
+    <value>指令 '{0}' 要求目标操作数大于源</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_ConstantKeyword" xml:space="preserve">
+    <value>汇编器//关键字//常量关键字</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_2Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 2 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmInvalidCombinationOfArgumentsError_SegmentRegister" xml:space="preserve">
+    <value>段寄存器</value>
+  </data>
+  <data name="AsmCharsProvider_Setting_NonCompletingCharacters" xml:space="preserve">
+    <value>非补全字符</value>
+  </data>
+  <data name="AsmCharsProvider_Setting_EnterAction" xml:space="preserve">
+    <value>Enter 操作</value>
+  </data>
+  <data name="AsmParserError_ExpectedComma" xml:space="preserve">
+    <value>应为 ','</value>
+  </data>
+  <data name="AsmParserError_ExpectedColon" xml:space="preserve">
+    <value>应为 ':'</value>
+  </data>
+  <data name="AsmMemoryAccessError_InvalidFormOfMemoryAccess" xml:space="preserve">
+    <value>内存地址必须采用 '[reg + N * reg + displacement]' 形式</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_EquPseudoInstruction" xml:space="preserve">
+    <value>汇编器//指令//Equ 伪指令</value>
+  </data>
+  <data name="AsmMemoryAccessError_XSP_RegisterCanNotBeUsedInMemoryAccess" xml:space="preserve">
+    <value>'{0}' 寄存器不能用作内存访问中的索引寄存器</value>
+  </data>
+  <data name="Asm_Setting_Description" xml:space="preserve">
+    <value>ASM</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Directive" xml:space="preserve">
+    <value>汇编器//指令//指令</value>
+  </data>
+  <data name="AsmInvalidNumberOfOperandsError_12Plural" xml:space="preserve">
+    <value>指令 '{0}' 要求 1 个或 2 个操作数，但提供了 {1} 个</value>
+  </data>
+  <data name="AsmExprCalculationError_LeftHandSideOfConditionalExprMustBeConstantExpression" xml:space="preserve">
+    <value>'?' 的左侧必须为常量表达式</value>
+  </data>
+  <data name="AsmDeclaredElement_PresentableName_LocalLabel" xml:space="preserve">
+    <value>局部标签</value>
+  </data>
+  <data name="AsmAutopopup_Setting_OnLabelDeclarationItemDescription" xml:space="preserve">
+    <value>在标签声明上</value>
+  </data>
+  <data name="AsmAutopopup_Setting_OverrideVSIntelliSense" xml:space="preserve">
+    <value>覆盖 ASM 的 VS IntelliSense</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_DxRegisterOrImm" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为 DX 寄存器或即时值</value>
+  </data>
+  <data name="AsmExprCalculationError_DivisionByZero" xml:space="preserve">
+    <value>除以零</value>
+  </data>
+  <data name="AsmExprCalculationError_FloatingNumber" xml:space="preserve">
+    <value>内存访问中不允许使用浮点数</value>
+  </data>
+  <data name="AsmExprCalculationError_OperationCanBeUsedOnlyWithConstantExpressions" xml:space="preserve">
+    <value>此操作只能与常量表达式一起使用</value>
+  </data>
+  <data name="AsmHighlighterPresentableName_Register" xml:space="preserve">
+    <value>汇编器//寄存器</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_GprOrMemOrImm" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为通用寄存器、内存访问或即时值</value>
+  </data>
+  <data name="AsmArgumentIsSupposedToBeError_GprOrMem" xml:space="preserve">
+    <value>指令 '{1}' 的{0}操作数必须为通用寄存器或内存访问</value>
+  </data>
+  <data name="AsmExprCalculationError_InvalidNumberHexadecimal" xml:space="preserve">
+    <value>十六进制数字表示中有无效字符</value>
+  </data>
+  <data name="AsmAutopopup_Setting_OnIdentifierItemDescription" xml:space="preserve">
+    <value>字母和数字</value>
+  </data>
+  <data name="AsmMemoryAccessError_InvalidFormOfMemoryAccessWithCalculatedExpr" xml:space="preserve">
+    <value>内存地址必须采用 '[reg] + [{{1, 2, 4, 8}}*reg] + [displacement]' 形式，但提供的是 '{0}'</value>
+  </data>
+  <data name="AsmExprCalculationError_QuotationMarkExpected" xml:space="preserve">
+    <value>字符串字面量末尾应为 '{0}'</value>
+  </data>
+</root>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="FixModuleQualification_Text" xml:space="preserve">
+  <value>Исправить квалификацию модуля</value>
+</data>
+<data name="DeleteComment_Text" xml:space="preserve">
+  <value>Удалить комментарий</value>
+</data>
+<data name="AddModuleQualification_Text" xml:space="preserve">
+  <value>Добавить квалификацию модуля</value>
+</data>
+<data name="ConvertTextToCDataContextAction_Name" xml:space="preserve">
+  <value>Преобразовать текст в CDATA</value>
+</data>
+<data name="ExpandEmptyTagContextAction_Name" xml:space="preserve">
+  <value>Развернуть пустой тег</value>
+</data>
+<data name="RemoveTagAndPromoteItsChildrenContextAction_Description" xml:space="preserve">
+  <value>Удалить тег, но оставить его дочерние элементы неизменными</value>
+</data>
+<data name="CollapseEmptyTag_Text" xml:space="preserve">
+  <value>Свернуть пустой тег</value>
+</data>
+<data name="ReplaceAllTagsContextAction_Description" xml:space="preserve">
+  <value>Заменить все теги с таким же именем в файле на другой тег</value>
+</data>
+<data name="RemoveTagAndPromoteItsChildrenContextAction_Name" xml:space="preserve">
+  <value>Удалить тег и переместить его дочерние элементы</value>
+</data>
+<data name="DisableAndRestoreWithComments_Text" xml:space="preserve">
+  <value>Отключить и восстановить с помощью комментариев</value>
+</data>
+<data name="ConvertTagToAttributeContextAction_Description" xml:space="preserve">
+  <value>Преобразовать вложенный тег в атрибут окружающего тега</value>
+</data>
+<data name="RemoveTagAndPromoteChilds_Text" xml:space="preserve">
+  <value>Удалить тег и переместить дочерние элементы</value>
+</data>
+<data name="ConvertTagToAttributeContextAction_Name" xml:space="preserve">
+  <value>Преобразовать тег в атрибут</value>
+</data>
+<data name="ReplaceTagContextAction_Name" xml:space="preserve">
+  <value>Заменить тег</value>
+</data>
+<data name="RemoveAllTagsWithSpecifiedNameAndPromoteTheirChildrenContextAction_Name" xml:space="preserve">
+  <value>Удалить все теги с указанным именем и переместить их дочерние элементы</value>
+</data>
+<data name="AddModuleQualificationContextAction_Description" xml:space="preserve">
+  <value>Добавить или обновить квалификацию модуля для ссылки на тип</value>
+</data>
+<data name="AddClosingTagsToAllOpenElements_Text" xml:space="preserve">
+  <value>Добавить закрывающие теги ко всем открытым элементам</value>
+</data>
+<data name="RemoveAll_TagsAndPromoteChildren_Text" xml:space="preserve">
+  <value>Удалить все теги &lt;{0}&gt; и переместить дочерние элементы</value>
+</data>
+<data name="Insert__Text" xml:space="preserve">
+  <value>Вставить '{0}'</value>
+</data>
+<data name="AddModuleQualificationContextAction_Name" xml:space="preserve">
+  <value>Добавить квалификацию модуля</value>
+</data>
+<data name="InsertClosingTagTo__Text" xml:space="preserve">
+  <value>Вставить закрывающий тег в {0}</value>
+</data>
+<data name="ReplaceAllAttributes_Text" xml:space="preserve">
+  <value>Заменить все атрибуты</value>
+</data>
+<data name="RemoveTagAttributeContextAction_Name" xml:space="preserve">
+  <value>Удалить атрибут тега</value>
+</data>
+<data name="ReplaceAllAttributesContextAction_Description" xml:space="preserve">
+  <value>Заменить конкретный атрибут, который появляется в одном и том же теге в текущем файле</value>
+</data>
+<data name="ConvertAttributeToNestedElementContextAction_Name" xml:space="preserve">
+  <value>Преобразовать атрибут во вложенный элемент</value>
+</data>
+<data name="ToAttribute_Text" xml:space="preserve">
+  <value>Преобразовать в атрибут</value>
+</data>
+<data name="ReplaceAllTags_Text" xml:space="preserve">
+  <value>Заменить все теги</value>
+</data>
+<data name="RemoveClosingTag_Text" xml:space="preserve">
+  <value>Удалить закрывающий тег</value>
+</data>
+<data name="CDataToText_Text" xml:space="preserve">
+  <value>Преобразовать CDATA в текст</value>
+</data>
+<data name="ConvertAttributeToNestedElementContextAction_Description" xml:space="preserve">
+  <value>Преобразовать атрибут тега во вложенный элемент</value>
+</data>
+<data name="RemoveTag_Text" xml:space="preserve">
+  <value>Удалить тег</value>
+</data>
+<data name="ConvertTextToCDataContextAction_Description" xml:space="preserve">
+  <value>Окружить текст элементом 'CDATA', при необходимости убрав экранирование из текста</value>
+</data>
+<data name="RemoveAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут</value>
+</data>
+<data name="ConvertCDataToTextContextAction_Description" xml:space="preserve">
+  <value>Заменить последовательные элементы 'CDATA' их экранированным содержимым</value>
+</data>
+<data name="DisableOnceWithComment_Text" xml:space="preserve">
+  <value>Отключить один раз с помощью комментария</value>
+</data>
+<data name="ReplaceAllAttributesContextAction_Name" xml:space="preserve">
+  <value>Заменить все атрибуты</value>
+</data>
+<data name="MoveComment_Text" xml:space="preserve">
+  <value>Переместить комментарий</value>
+</data>
+<data name="ReplaceTag_Text" xml:space="preserve">
+  <value>Заменить тег</value>
+</data>
+<data name="CollapseEmptyTagContextAction_Name" xml:space="preserve">
+  <value>Свернуть пустой тег</value>
+</data>
+<data name="RemoveAllTagsWithSpecifiedNameAndPromoteTheirChildrenContextAction_Description" xml:space="preserve">
+  <value>Удалить все теги с указанным именем, но оставить их дочерние элементы неизменными</value>
+</data>
+<data name="RemoveTagAndPromoteChild_Text" xml:space="preserve">
+  <value>Удалить тег и переместить дочерний элемент</value>
+</data>
+<data name="FixXMLProcessingInstruction_Text" xml:space="preserve">
+  <value>Исправить инструкцию обработки XML</value>
+</data>
+<data name="ReplaceAllTagsContextAction_Name" xml:space="preserve">
+  <value>Заменить все теги</value>
+</data>
+<data name="AddClosingTagFor__Text" xml:space="preserve">
+  <value>Добавить закрывающий тег для {0}</value>
+</data>
+<data name="ConvertCDataToTextContextAction_Name" xml:space="preserve">
+  <value>Преобразовать CDATA в текст</value>
+</data>
+<data name="ToNestedElement_Text" xml:space="preserve">
+  <value>Преобразовать во вложенный элемент</value>
+</data>
+<data name="ExpandEmptyTag_Text" xml:space="preserve">
+  <value>Развернуть пустой тег</value>
+</data>
+<data name="CollapseEmptyTagContextAction_Description" xml:space="preserve">
+  <value>Преобразовать открывающий и закрывающий теги без дочерних элементов в пустой тег</value>
+</data>
+<data name="RemoveTagAttributeContextAction_Description" xml:space="preserve">
+  <value>Удалить атрибут из тега</value>
+</data>
+<data name="MakeElement_Empty_Text" xml:space="preserve">
+  <value>Сделать элемент {0} пустым</value>
+</data>
+<data name="ReplaceTagContextAction_Description" xml:space="preserve">
+  <value>Заменить тег другим тегом</value>
+</data>
+<data name="ExpandEmptyTagContextAction_Description" xml:space="preserve">
+  <value>Заменить пустой тег открывающим и закрывающим тегами</value>
+</data>
+<data name="AddClosingTagTo__Text" xml:space="preserve">
+  <value>Добавить закрывающий тег к {0}</value>
+</data>
+<data name="TextToCData_Text" xml:space="preserve">
+  <value>Преобразовать текст в CDATA</value>
+</data>
+</root>

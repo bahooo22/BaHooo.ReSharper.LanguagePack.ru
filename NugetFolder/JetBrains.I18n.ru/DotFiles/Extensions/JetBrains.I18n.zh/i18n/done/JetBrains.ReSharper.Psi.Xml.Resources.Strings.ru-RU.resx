@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NoIndentFromParentElement_Description_Text" xml:space="preserve">
+    <value>不从父元素缩进</value>
+  </data>
+  <data name="SingleIndent_Description_Text" xml:space="preserve">
+    <value>一次缩进</value>
+  </data>
+  <data name="InvalidClosingTag_Text" xml:space="preserve">
+    <value>结束标记无效</value>
+  </data>
+  <data name="CodeFormattingInXMLSettingDescription" xml:space="preserve">
+    <value>XML 中的代码格式设置</value>
+  </data>
+  <data name="WrapBeforeAndAfterElementsSettingDescription" xml:space="preserve">
+    <value>在元素之前和之后换行</value>
+  </data>
+  <data name="BlankLineAfterProcessingInstructionsSettingDescription" xml:space="preserve">
+    <value>处理指令后空行</value>
+  </data>
+  <data name="SpacesAroundInAttributeSettingDescription" xml:space="preserve">
+    <value>在特性中的 '=' 周围空格</value>
+  </data>
+  <data name="WrapInsideTextSettingDescription" xml:space="preserve">
+    <value>在文本内换行</value>
+  </data>
+  <data name="LineBreaksAfterStartTagAndBeforeEndTagWhenElementIsLongerThanSettingDescription" xml:space="preserve">
+    <value>当元素长于此值时在开始标记后和结束标记前换行</value>
+  </data>
+  <data name="XMLDocFormatterPredefinedSettings_Text" xml:space="preserve">
+    <value>XML Doc Formatter Predefined Settings</value>
+  </data>
+  <data name="AttributesFormatSettingDescription" xml:space="preserve">
+    <value>特性格式</value>
+  </data>
+  <data name="PlaceTheseElementsOnNewLineRegardlessSettingDescription" xml:space="preserve">
+    <value>始终将后续元素置于新行中</value>
+  </data>
+  <data name="SpaceBeforeSettingDescription" xml:space="preserve">
+    <value>在 '/&gt;' 前空格</value>
+  </data>
+  <data name="OnSingleLine_Description_Text" xml:space="preserve">
+    <value>在单行中</value>
+  </data>
+  <data name="DoubleIndent_Description_Text" xml:space="preserve">
+    <value>两次缩进</value>
+  </data>
+  <data name="KeepExistingLineBreaksSettingDescription" xml:space="preserve">
+    <value>保留现有换行符</value>
+  </data>
+  <data name="TypeExpected_ToolTip" xml:space="preserve">
+    <value>应为类型</value>
+  </data>
+  <data name="SpaceAfterSettingDescription" xml:space="preserve">
+    <value>在 /// 后空格</value>
+  </data>
+  <data name="AttributeNameExpected_Text" xml:space="preserve">
+    <value>应为特性名称</value>
+  </data>
+  <data name="IgnoreSpacePreservationSettingDescription" xml:space="preserve">
+    <value>忽略空格保留</value>
+  </data>
+  <data name="EntityValueExpected_Text" xml:space="preserve">
+    <value>应为实体值</value>
+  </data>
+  <data name="DefaultValueExpected_Text" xml:space="preserve">
+    <value>应为默认值</value>
+  </data>
+  <data name="Formatting_Text" xml:space="preserve">
+    <value>格式设置</value>
+  </data>
+  <data name="LineBreaksAfterStartTagAndBeforeEndTagInElementsThatContainOtherElementsAndNoTextSettingDescription" xml:space="preserve">
+    <value>在包含其他元素且无文本的元素的开始标记后和结束标记前换行</value>
+  </data>
+  <data name="NoOpenTagFound_Text" xml:space="preserve">
+    <value>找不到起始标记</value>
+  </data>
+  <data name="CodeFormattingInXMLDocumentationSettingDescription" xml:space="preserve">
+    <value>XML 文档中的代码格式设置</value>
+  </data>
+  <data name="IndentInsideElementThatDoesntContainTextSettingDescription" xml:space="preserve">
+    <value>在不包含文本的元素内缩进</value>
+  </data>
+  <data name="IdentifierExpected_Text" xml:space="preserve">
+    <value>应为标识符</value>
+  </data>
+  <data name="DoNotTouch_Description_Text" xml:space="preserve">
+    <value>勿动</value>
+  </data>
+  <data name="DoNotChangeIndenting_Description_Text" xml:space="preserve">
+    <value>不更改缩进</value>
+  </data>
+  <data name="PlaceSinglelineElementsOnNewLineSettingDescription" xml:space="preserve">
+    <value>将单行元素置于新行中</value>
+  </data>
+  <data name="NoIndentAtAll_Description_Text" xml:space="preserve">
+    <value>完全不缩进</value>
+  </data>
+  <data name="MaximumBlankLinesBetweenTagsSettingDescription" xml:space="preserve">
+    <value>标记之间的最大空行数</value>
+  </data>
+  <data name="RightMarginColumnsSettingDescription" xml:space="preserve">
+    <value>右边距(列)</value>
+  </data>
+  <data name="EachAttributeOnSeparateLines_Description_Text" xml:space="preserve">
+    <value>每个特性在单独的行中</value>
+  </data>
+  <data name="InvalidTagHeader_Text" xml:space="preserve">
+    <value>标记标头无效</value>
+  </data>
+  <data name="FirstAttributeOnSingleLine_Description_Text" xml:space="preserve">
+    <value>第一个特性在单独的行中</value>
+  </data>
+  <data name="SpacesAfterStartTagAndBeforeEndTagOtherwiseSettingDescription" xml:space="preserve">
+    <value>所有其他情况下在开始标记后和结束标记前空格</value>
+  </data>
+  <data name="PlaceMultilineElementsOnNewLineSettingDescription" xml:space="preserve">
+    <value>将多行元素置于新行中</value>
+  </data>
+  <data name="WrapTagsAndProcessingInstructionsSettingDescription" xml:space="preserve">
+    <value>将标记和处理指令换行</value>
+  </data>
+  <data name="ElementContentExpected_Text" xml:space="preserve">
+    <value>应为元素内容</value>
+  </data>
+  <data name="WrapLongLinesSettingDescription" xml:space="preserve">
+    <value>长行换行</value>
+  </data>
+  <data name="AttributesIndentingSettingDescription" xml:space="preserve">
+    <value>特性缩进</value>
+  </data>
+  <data name="AlignByFirstAttribute_Description_Text" xml:space="preserve">
+    <value>按第一个特性对齐</value>
+  </data>
+  <data name="OneIndentFromParentElement_Description_Text" xml:space="preserve">
+    <value>从父元素缩进一次</value>
+  </data>
+  <data name="LineBreaksAfterStartTagAndBeforeEndTagInMultilineElementsSettingDescription" xml:space="preserve">
+    <value>在多行元素中的开始标记后和结束标记前换行</value>
+  </data>
+  <data name="NamespaceExpected_ToolTip" xml:space="preserve">
+    <value>应为命名空间</value>
+  </data>
+  <data name="IndentInsideElementThatContainTextSettingDescription" xml:space="preserve">
+    <value>在包含文本的元素内缩进</value>
+  </data>
+  <data name="AmbiguousReference_ToolTip" xml:space="preserve">
+    <value>不明确的引用</value>
+  </data>
+  <data name="AttributeValueExpected_Text" xml:space="preserve">
+    <value>应为特性值</value>
+  </data>
+  <data name="SymbolExpectedOr_Text" xml:space="preserve">
+    <value>或者</value>
+  </data>
+  <data name="SymbolExpected_Text" xml:space="preserve">
+    <value>预期</value>
+  </data>
+  <data name="AttributeExpectedAfterComma_Text" xml:space="preserve">
+    <value>逗号之后应为特性</value>
+  </data>
+  <data name="UnexpectedToken_Text" xml:space="preserve">
+    <value>意外令牌</value>
+  </data>
+  <data name="SpaceAfterLastAttributeSettingDescription" xml:space="preserve">
+    <value>在最后一个特性后空格</value>
+  </data>
+</root>

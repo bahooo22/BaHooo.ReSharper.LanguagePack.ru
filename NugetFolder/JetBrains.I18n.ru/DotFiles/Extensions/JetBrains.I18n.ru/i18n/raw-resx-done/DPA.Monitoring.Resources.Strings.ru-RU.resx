@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="OptionsPage_BasicIssues" xml:space="preserve">
+  <value>Основные проблемы</value>
+</data>
+<data name="OptionsPage_MonitoringMode" xml:space="preserve">
+  <value>Режим мониторинга</value>
+</data>
+<data name="OptionsPage_WindowsKernelProvider" xml:space="preserve">
+  <value>ETW CPU Сэмплинг</value>
+</data>
+<data name="Settings_Default_Name" xml:space="preserve">
+  <value>Настройки мониторинга по умолчанию</value>
+</data>
+<data name="Settings_Counters_Description" xml:space="preserve">
+  <value>Поставщики счетчиков</value>
+</data>
+<data name="OptionsPage_AspIssues" xml:space="preserve">
+  <value>Проблемы ASP.NET Core</value>
+</data>
+<data name="MemorySnapshotHandler_CollectingMemorySnapshot" xml:space="preserve">
+  <value>Сбор снимка памяти</value>
+</data>
+<data name="Settings_MonitoringAutoOpenDescription" xml:space="preserve">
+  <value>Автоматически открывать при запуске процесса</value>
+</data>
+<data name="OptionsPage_Edit" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="MonitoringSettings_PerformanceHotspotInspectionThreshold" xml:space="preserve">
+  <value>Порог обнаружения горячих точек производительности</value>
+</data>
+<data name="OptionsPage_UiFreeze" xml:space="preserve">
+  <value>Зависания UI</value>
+</data>
+<data name="MonitoringSettings_IsEnabledGcPressureInspection" xml:space="preserve">
+  <value>Проверка нагрузки на GC включена</value>
+</data>
+<data name="MonitoringSettings_GcPressureIssuesCount" xml:space="preserve">
+  <value>Максимальное количество проблем нагрузки на GC</value>
+</data>
+<data name="MonitoringSettings_GcPressureRatioThreshold" xml:space="preserve">
+  <value>Пороговое значение соотношения нагрузки на GC</value>
+</data>
+<data name="OptionsPage_Providers" xml:space="preserve">
+  <value>Поставщики данных</value>
+</data>
+<data name="OptionsPage_StartMode_AlwaysOn" xml:space="preserve">
+  <value>При отладке или запуске</value>
+</data>
+<data name="MonitoringSettings_IsEnabledKernelProvider" xml:space="preserve">
+  <value>Включить поставщик ядра</value>
+</data>
+<data name="OptionsPage_MetricProviders" xml:space="preserve">
+  <value>Поставщики метрик</value>
+</data>
+<data name="OptionsPage_PerformanceHotspot_DisabledTooltip" xml:space="preserve">
+  <value>Отключено, так как поставщик "ETW CPU Сэмплинг" в настройках мониторинга выключен</value>
+</data>
+<data name="OptionsPage_Validation_ValueShouldNotBeEmpty" xml:space="preserve">
+  <value>Значение не должно быть пустым</value>
+</data>
+<data name="OptionsPage_Monitoring" xml:space="preserve">
+  <value>Мониторинг</value>
+</data>
+<data name="MonitoringSettings_IsEnabledUiFreezeInspection" xml:space="preserve">
+  <value>Проверка зависаний UI включена</value>
+</data>
+<data name="OptionsPage_DevartAutoDisable" xml:space="preserve">
+  <value>Автоматически отключать обнаружение проблем с БД для Devart ADO.NET</value>
+</data>
+<data name="OptionsPage_Validation_ValueShouldBeValidNonEmptyGUID" xml:space="preserve">
+  <value>Значение должно быть действительным непустым GUID</value>
+</data>
+<data name="Settings_PerformanceProfilingMode_Description" xml:space="preserve">
+  <value>Режим профилирования производительности</value>
+</data>
+<data name="Settings_RefreshInterval_Description" xml:space="preserve">
+  <value>Интервал обновления</value>
+</data>
+<data name="OptionsPage_AddMetricProvider" xml:space="preserve">
+  <value>Добавить поставщика метрик</value>
+</data>
+<data name="MonitoringSettings_ShownIssueKinds" xml:space="preserve">
+  <value>Отображаемые типы проблем (быстрый фильтр)</value>
+</data>
+<data name="Settings_CounterProvidersGuids_Description" xml:space="preserve">
+  <value>GUID поставщиков счетчиков</value>
+</data>
+<data name="MonitoringSettings_UiFreezeIssuesCount" xml:space="preserve">
+  <value>Максимальное количество проблем зависания UI</value>
+</data>
+<data name="OptionsPage_StartMode_AlwaysOff" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="OptionsPage_WindowsKernelProviderWarning" xml:space="preserve">
+  <value>Невозможно собрать данные о производительности, так как поставщик ETW CPU Сэмплинг отключен.
+Такие функции, как проверка "Горячих точек производительности" и отслеживание использования CPU, недоступны.</value>
+</data>
+<data name="Settings_MaxHistograms_Description" xml:space="preserve">
+  <value>Максимальное количество гистограмм</value>
+</data>
+<data name="Settings_MaxTimeSeries_Description" xml:space="preserve">
+  <value>Максимальное количество временных рядов</value>
+</data>
+<data name="MonitoringSettings_PerformanceHotspotIssuesCount" xml:space="preserve">
+  <value>Максимальное количество проблем с горячими точками производительности</value>
+</data>
+<data name="OptionsPage_RefreshInterval" xml:space="preserve">
+  <value>Интервал обновления</value>
+</data>
+<data name="MonitoringSettings_GcPressureTimeThreshold" xml:space="preserve">
+  <value>Временной порог нагрузки на GC</value>
+</data>
+<data name="OptionsPage_AutoDisable" xml:space="preserve">
+  <value>Автоматически отключать обнаружение проблем</value>
+</data>
+<data name="MonitoringSettings_IsEnabledPerformanceHotspotInspection" xml:space="preserve">
+  <value>Проверка горячих точек производительности включена</value>
+</data>
+<data name="OptionsPage_Threshold" xml:space="preserve">
+  <value>Порог</value>
+</data>
+<data name="OptionsPage_ProviderGuid" xml:space="preserve">
+  <value>GUID поставщика</value>
+</data>
+<data name="OptionsPage_Counters" xml:space="preserve">
+  <value>Счетчики</value>
+</data>
+<data name="MonitoringOptionsPage_CollectorLimitSnapshotInfo" xml:space="preserve">
+  <value>Приостанавливать мониторинг, когда собранные данные достигают предела размера (примерно 6-10 ГБ).</value>
+</data>
+<data name="MonitoringOptionsPage_CollectorLimitSnapshotSize" xml:space="preserve">
+  <value>Ограничить размер собираемых данных производительности</value>
+</data>
+<data name="OptionsPage_DatabaseIssues" xml:space="preserve">
+  <value>Проблемы с базой данных</value>
+</data>
+<data name="OptionsPage_LearnMore" xml:space="preserve">
+  <value>Узнать больше</value>
+</data>
+<data name="Session_StartingPerformanceProfiler" xml:space="preserve">
+  <value>Запуск профилировщика производительности</value>
+</data>
+<data name="Settings_Metric_Description" xml:space="preserve">
+  <value>Поставщики метрик</value>
+</data>
+<data name="OptionsPage_PerformanceHotspot" xml:space="preserve">
+  <value>Горячие точки производительности</value>
+</data>
+<data name="OptionsPage_AddCounterProvider" xml:space="preserve">
+  <value>Добавить поставщика счетчиков</value>
+</data>
+<data name="OptionsPage_Behavior" xml:space="preserve">
+  <value>Поведение окна инструментов</value>
+</data>
+<data name="OptionsPage_ProviderConfiguration" xml:space="preserve">
+  <value>Конфигурация поставщика</value>
+</data>
+<data name="Settings_MonitoringShowTotalMemory" xml:space="preserve">
+  <value>Показывать общую память</value>
+</data>
+<data name="OptionsPage_GcPressure" xml:space="preserve">
+  <value>Высокая активность сборщика мусора</value>
+</data>
+<data name="MonitoringOptionPageTitle" xml:space="preserve">
+  <value>Мониторинг</value>
+</data>
+<data name="OptionsPage_Add" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="MonitoringSettings_UiFreezeInspectionThreshold" xml:space="preserve">
+  <value>Порог проверки зависаний UI</value>
+</data>
+<data name="OptionsPage_Seconds" xml:space="preserve">
+  <value>секунды</value>
+</data>
+<data name="Session_AttachingPerformanceProfiler" xml:space="preserve">
+  <value>Присоединение профилировщика производительности</value>
+</data>
+<data name="OptionsPage_StartMode_OnlyDuringDebug" xml:space="preserve">
+  <value>Во время отладки</value>
+</data>
+<data name="OptionsPage_Inspections" xml:space="preserve">
+  <value>Включить проверки</value>
+</data>
+<data name="OptionsPage_CounterProviders" xml:space="preserve">
+  <value>Поставщики счетчиков</value>
+</data>
+<data name="Settings_Description" xml:space="preserve">
+  <value>Настройки мониторинга</value>
+</data>
+<data name="Session_CollectingPerformanceSnapshot" xml:space="preserve">
+  <value>Сбор снимка производительности</value>
+</data>
+<data name="Settings_MonitoringStartMode_Description" xml:space="preserve">
+  <value>Режим запуска мониторинга</value>
+</data>
+</root>

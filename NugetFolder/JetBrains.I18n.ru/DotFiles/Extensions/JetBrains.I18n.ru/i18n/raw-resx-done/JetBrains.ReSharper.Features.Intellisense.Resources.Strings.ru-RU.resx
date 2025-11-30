@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AdvancedCCompletionSettingsSettingDescription" xml:space="preserve">
+  <value>Расширенные настройки завершения C#</value>
+</data>
+<data name="JumpOutsideOfClosingBracketsWhenTab_Text" xml:space="preserve">
+  <value>Перескакивать за закрывающую квадратную скобку при нажатии Tab в позиции отступа</value>
+</data>
+<data name="ExtensionMethodsSettingDescription" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="VisualBasicNET_Header_Text" xml:space="preserve">
+  <value>Visual Basic</value>
+</data>
+<data name="WhenYouTypeAQuoteBraceParenthesisThe_Text" xml:space="preserve">
+  <value>При вводе кавычки/фигурной скобки/квадратной скобки/круглой скобки текущий выделенный фрагмент будет окружён ими, а не удалён</value>
+</data>
+<data name="ThisSettingDoesNotApplyToC_Text" xml:space="preserve">
+  <value>Эта настройка не применяется к C++</value>
+</data>
+<data name="PressTabToReplaceHighlightedRange_Text" xml:space="preserve">
+  <value>Нажмите Tab для замены выделенного диапазона</value>
+</data>
+<data name="Replaces_Text" xml:space="preserve">
+  <value>Заменяет</value>
+</data>
+<data name="InsertLambdaCompletionItemsAsTemplates_Text" xml:space="preserve">
+  <value>Вставлять элементы завершения lambda как шаблоны</value>
+</data>
+<data name="Highlight_matchingDelimitersWhenCaret_RadioOption_Caption" xml:space="preserve">
+  <value>Подсвечивать соответствующие разделители, когда курсор находится на(_M):</value>
+</data>
+<data name="EnableAutomaticIntelliSensePopup_Text" xml:space="preserve">
+  <value>Включить автоматическое всплывающее окно IntelliSense</value>
+</data>
+<data name="ExceptForShiftTabAfterTheLastSymbol_BoolOption_Text" xml:space="preserve">
+  <value>Кроме Shift+Tab после последнего символа в строке</value>
+</data>
+<data name="XAMLSettingDescription" xml:space="preserve">
+  <value>XAML</value>
+</data>
+<data name="JumpOutsideOfClosingQuotesBracesInString_Text" xml:space="preserve">
+  <value>Использовать Tab для перескакивания за закрывающие кавычки/фигурные скобки в строковых литералах при вводе</value>
+</data>
+<data name="CompletingCharactersOptionPageTitle" xml:space="preserve">
+  <value>Завершающие символы</value>
+</data>
+<data name="Arrow_keys_Text" xml:space="preserve">
+  <value>Клавиши со стрелками(_K)</value>
+</data>
+<data name="Narrow_Text" xml:space="preserve">
+  <value>Узкая</value>
+</data>
+<data name="Language_Text" xml:space="preserve">
+  <value>Язык</value>
+</data>
+<data name="ContainingType_Text" xml:space="preserve">
+  <value>Содержащий тип</value>
+</data>
+<data name="DeleteTextFromPreviousWordHumpToTheCaretActionText" xml:space="preserve">
+  <value>Удалить текст от горба предыдущего слова до курсора</value>
+</data>
+<data name="LabelFor_Statement_Text" xml:space="preserve">
+  <value>Метка для оператора {0}</value>
+</data>
+<data name="RemoveCodeEntityStructurallyOnDelete_Text" xml:space="preserve">
+  <value>Структурно удалять сущности кода при нажатии [Delete]/[Backspace], когда они выбраны в редакторе с помощью действий 'Сжать/Расширить выделение' или 'Структурная навигация'</value>
+</data>
+<data name="ProtectedSettingDescription" xml:space="preserve">
+  <value>protected</value>
+</data>
+<data name="OnPunctuationSettingDescription" xml:space="preserve">
+  <value>На знаках пунктуации</value>
+</data>
+<data name="TheCaretIsAtIndentingBeforeTheFirst_BoolOption_Text" xml:space="preserve">
+  <value>Курсор находится в позиции отступа (перед первым не-пробельным символом)</value>
+</data>
+<data name="AutoInsert_pairBracketsParenthesesAnd_Text" xml:space="preserve">
+  <value>Автоматически вставлять парные квадратные скобки, круглые скобки и кавычки(_P)</value>
+</data>
+<data name="PrivateSettingDescription" xml:space="preserve">
+  <value>private</value>
+</data>
+<data name="Is_Text" xml:space="preserve">
+  <value>Является</value>
+</data>
+<data name="OverrideVSIntelliSenseForMSBuildSettingDescription" xml:space="preserve">
+  <value>Переопределять VS IntelliSense для MSBuild</value>
+</data>
+<data name="ShowNormalAnd_AdvancedMembers_Text" xml:space="preserve">
+  <value>Показывать обычные и расширенные члены(_A)</value>
+</data>
+<data name="BehaviorOptionPageTitle" xml:space="preserve">
+  <value>Поведение</value>
+</data>
+<data name="AffectsTheWayExtendSelectionAndNext_RichText_Text" xml:space="preserve">
+  <value>Влияет на работу действий *Расширить выделение* и *Следующее/Предыдущее слово*</value>
+</data>
+<data name="TabKey_Text" xml:space="preserve">
+  <value>Клавиша Tab</value>
+</data>
+<data name="NamespaceAlias_Text" xml:space="preserve">
+  <value>Псевдоним пространства имён</value>
+</data>
+<data name="GotoPrevWordActionText" xml:space="preserve">
+  <value>Перейти к предыдущему слову</value>
+</data>
+<data name="ShowGlobalImports_Text" xml:space="preserve">
+  <value>Показывать глобальные импорты</value>
+</data>
+<data name="SmartPaste_Tooltip" xml:space="preserve">
+  <value>Экранировать текст, вставляемый в строковые литералы, комментарии и XML</value>
+</data>
+<data name="EditorBrowsableStateAlwaysAndEditorBrowsableState_Text" xml:space="preserve">
+  <value>EditorBrowsableState.Always и EditorBrowsableState.Advanced</value>
+</data>
+<data name="InsertVirtualIndentOnEnter_Text" xml:space="preserve">
+  <value>Вставлять виртуальный отступ при нажатии Enter</value>
+</data>
+<data name="PressBeforeWithinTypeNameOrBeforeWithin_Text" xml:space="preserve">
+  <value>Нажатие '!'/'?' до/внутри имени типа или до/внутри/после имени сущности для вставки атрибута 'NotNull'/'CanBeNull'</value>
+</data>
+<data name="AnnotateNullabilityOnAfterTypeName_Text" xml:space="preserve">
+  <value>Аннотировать допустимость значения NULL при вводе '!'/'?' после имени типа</value>
+</data>
+<data name="ShowGutterNavigationMarksForImplemented_Text" xml:space="preserve">
+  <value>Показывать метки навигации на полях для реализованных и переопределённых типов и членов</value>
+</data>
+<data name="PatternVariable_Text" xml:space="preserve">
+  <value>Переменная шаблона</value>
+</data>
+<data name="ParameterOfOwner_Text" xml:space="preserve">
+  <value>Параметр {0} {1}</value>
+</data>
+<data name="ExtendSelectionToPrevWordActionText" xml:space="preserve">
+  <value>Расширить выделение до предыдущего слова</value>
+</data>
+<data name="Type_Text" xml:space="preserve">
+  <value>Группировать по типу</value>
+</data>
+<data name="MemberKindInContainerKind_Text" xml:space="preserve">
+  <value>{0} в {1}</value>
+</data>
+<data name="TypeParameterOf___Text" xml:space="preserve">
+  <value>Параметр типа {0} {1}</value>
+</data>
+<data name="SmartIndentOnEnter_Text" xml:space="preserve">
+  <value>Умный отступ при нажатии Enter</value>
+</data>
+<data name="DeleteTextFromStartOfWordToTheCaretActionText" xml:space="preserve">
+  <value>Удалить текст от начала слова до курсора</value>
+</data>
+<data name="FieldsSettingDescription" xml:space="preserve">
+  <value>Поля</value>
+</data>
+<data name="ClassesSettingDescription" xml:space="preserve">
+  <value>Классы</value>
+</data>
+<data name="CompleteSymbolActionText" xml:space="preserve">
+  <value>Завершить символ(&amp;C)</value>
+</data>
+<data name="PressOnNotNullAnnotatedParameterToInsert_Text" xml:space="preserve">
+  <value>Нажатие '!' на параметре, аннотированном как 'NotNull', для вставки проверки на null</value>
+</data>
+<data name="InplaceRefactorings_DisplayOption_Text" xml:space="preserve">
+  <value>Предлагать рефакторинги в виде:</value>
+</data>
+<data name="CompleteStatementActionText" xml:space="preserve">
+  <value>Завершить оператор</value>
+</data>
+<data name="DeleteTextFromTheCaretToNextWordHumpActionText" xml:space="preserve">
+  <value>Удалить текст от курсора до горба следующего слова</value>
+</data>
+<data name="_WillInsertAtAStartOfTheNewLineIfEnter_Text" xml:space="preserve">
+  <value>{0} будет вставлять * в начале новой строки, если Enter нажат сразу после /*</value>
+</data>
+<data name="_FilterMembersByEditorBrowsableAttribute_RadioOption_Caption" xml:space="preserve">
+  <value>Фильтровать члены по атрибуту [EditorBrowsable](_F)</value>
+</data>
+<data name="WhenTabIsPressed_ComboEnum_Caption" xml:space="preserve">
+  <value>При нажатии Tab:</value>
+</data>
+<data name="UnindentOnBackspace_ComboEnum_Caption" xml:space="preserve">
+  <value>Убирать отступ при нажатии Backspace:</value>
+</data>
+<data name="CorrectCommonLanguageSpecificTypos_Text" xml:space="preserve">
+  <value>Исправлять распространённые языко-специфичные опечатки</value>
+</data>
+<data name="LoopSele_ctionAroundEndsOfAList_BoolOption_Text" xml:space="preserve">
+  <value>Зациклить выделение вокруг концов списка(_C)</value>
+</data>
+<data name="IntelliSenseOptionPageTitle" xml:space="preserve">
+  <value>IntelliSense</value>
+</data>
+<data name="InterfacesSettingDescription" xml:space="preserve">
+  <value>Интерфейсы</value>
+</data>
+<data name="Show_ParameterInfo__Text" xml:space="preserve">
+  <value>Команда 'Сведения о параметрах'{0}(_P)</value>
+</data>
+<data name="_WillJumpOverClosingBracesAndParentheses_Text" xml:space="preserve">
+  <value>{0} будет перескакивать через закрывающие фигурные и круглые скобки в C# при нажатии Tab</value>
+</data>
+<data name="ExtendSelectionToNextWordActionText" xml:space="preserve">
+  <value>Расширить выделение до следующего слова</value>
+</data>
+<data name="AutoFormatOn_Paste_ComboEnum_Caption" xml:space="preserve">
+  <value>Автоформат при вставке(_P):</value>
+</data>
+<data name="ShowFloatingOverTheCode_Text" xml:space="preserve">
+  <value>Показывать поверх кода</value>
+</data>
+<data name="GutterMarks_Header_Text" xml:space="preserve">
+  <value>Метки на полях (C#, Visual Basic)</value>
+</data>
+<data name="ResourceVariable_Text" xml:space="preserve">
+  <value>Переменная ресурса</value>
+</data>
+<data name="ParameterInfoOptionPageTitle" xml:space="preserve">
+  <value>Сведения о параметрах</value>
+</data>
+<data name="_WillInsertDocumentationCommentStub_Text" xml:space="preserve">
+  <value>{0} будет вставлять заглушку документационного комментария при вводе третьего '/'.</value>
+</data>
+<data name="MemberOfEnum_Text" xml:space="preserve">
+  <value>Член перечисления</value>
+</data>
+<data name="MemberOfFlagsEnum_Text" xml:space="preserve">
+  <value>Член перечисления флагов</value>
+</data>
+<data name="ForeachIterationVariable_Text" xml:space="preserve">
+  <value>Переменная итерации foreach</value>
+</data>
+<data name="Show_NormalMembersOnly_Text" xml:space="preserve">
+  <value>Показывать только обычные члены(_N)</value>
+</data>
+<data name="MarkerBarDisplaysErrorsWarningsSuggestions_RadioOption_Caption" xml:space="preserve">
+  <value>Полоса маркеров отображает ошибки, предупреждения, предложения и подсвеченные использования.</value>
+</data>
+<data name="PropertiesSettingDescription" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="OverrideVSIntelliSenseForXAMLSettingDescription" xml:space="preserve">
+  <value>Переопределять VS IntelliSense для XAML</value>
+</data>
+<data name="NoteSomeOfTheControlsHaveBeenDisabled_Text" xml:space="preserve">
+  <value>**Примечание**: *Некоторые элементы управления отключены, поскольку вы отключили поддержку ReSharper IntelliSense.*</value>
+</data>
+<data name="All_Tab_Title_Text" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="ABlockOfCodeIsSelected_BoolOption_Text" xml:space="preserve">
+  <value>Выделен блок кода</value>
+</data>
+<data name="InsertEndConstructsEndSubEndIfNextEtc_BoolOption_Text" xml:space="preserve">
+  <value>Вставлять завершающие конструкции (End Sub, End If, Next и т.д.) при нажатии Enter</value>
+</data>
+<data name="EditorBrowsableStateAlways_Text" xml:space="preserve">
+  <value>Всегда отображать в редакторе</value>
+</data>
+<data name="CSettingDescription" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="PublicSettingDescription" xml:space="preserve">
+  <value>public</value>
+</data>
+<data name="Di_splayExtendedInfo_BoolOption_Text" xml:space="preserve">
+  <value>Показывать расширенную информацию(_S)</value>
+</data>
+<data name="TheCaretIsInACommentOrStringLiteral_BoolOption_Text" xml:space="preserve">
+  <value>Курсор находится в комментарии или строковом литерале</value>
+</data>
+<data name="LocalConstant_Text" xml:space="preserve">
+  <value>Локальная константа</value>
+</data>
+<data name="CompleteOnSpaceSettingDescription" xml:space="preserve">
+  <value>Завершать при нажатии пробела</value>
+</data>
+<data name="Auto_insertClosingBrace_ComboEnum_Caption" xml:space="preserve">
+  <value>Автоматически вставлять закрывающую фигурную скобку(_I):</value>
+</data>
+<data name="CombinationOfFlags_Text" xml:space="preserve">
+  <value>Комбинация флагов:</value>
+</data>
+<data name="FallBackToTheStandardTabShiftTabKeys_Text_Text" xml:space="preserve">
+  <value>Возвращаться к стандартному поведению клавиш Tab/Shift+Tab, когда:</value>
+</data>
+<data name="GotoNextWordActionText" xml:space="preserve">
+  <value>Перейти к следующему слову</value>
+</data>
+<data name="Wide_Text" xml:space="preserve">
+  <value>Широкая</value>
+</data>
+<data name="AnnotateNullabilityOnAtOtherPositions_Text" xml:space="preserve">
+  <value>Аннотировать допустимость значения NULL при вводе '!'/'?' в других позициях</value>
+</data>
+<data name="FixedPointerVariable_Text" xml:space="preserve">
+  <value>Фиксированная указательная переменная</value>
+</data>
+<data name="AtBo_thSides_Text" xml:space="preserve">
+  <value>С обеих сторон(_T)</value>
+</data>
+<data name="LocalVariablesSettingDescription" xml:space="preserve">
+  <value>Локальные переменные</value>
+</data>
+<data name="Outline_Text" xml:space="preserve">
+  <value>Рамка</value>
+</data>
+<data name="ExtendSelectionToPreviousWordHumpActionText" xml:space="preserve">
+  <value>Расширить выделение до горба предыдущего слова</value>
+</data>
+<data name="_WillJumpOverClosingQuotesAndBrackets_Text" xml:space="preserve">
+  <value>{0} будет перескакивать через закрывающие кавычки и квадратные скобки в строковых литералах C# при нажатии Tab в конце литерала</value>
+</data>
+<data name="SuggestToEncapsulateFieldsFromBaseTypes_Text" xml:space="preserve">
+  <value>Предлагать инкапсулировать поля из базовых типов</value>
+</data>
+<data name="SmartCodeCompletionActionText" xml:space="preserve">
+  <value>Умное завершение кода(&amp;S)</value>
+</data>
+<data name="ParametersSettingDescription" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="C_Header_Text" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="CommentWithBlockCommentActionText" xml:space="preserve">
+  <value>Закомментировать блочным комментарием</value>
+</data>
+<data name="SurroundSelectionOnTypingAQuoteBrace_Text" xml:space="preserve">
+  <value>Окружать выделение при вводе кавычки, фигурной скобки, квадратной скобки или круглой скобки</value>
+</data>
+<data name="CreateMethodPrefix" xml:space="preserve">
+  <value>Создать метод</value>
+</data>
+<data name="MethodsSettingDescription" xml:space="preserve">
+  <value>Методы</value>
+</data>
+<data name="Color_Text" xml:space="preserve">
+  <value>Цвет</value>
+</data>
+<data name="CommentWithLineCommentActionText" xml:space="preserve">
+  <value>Закомментировать строчным комментарием</value>
+</data>
+<data name="ActionIndicatorAppearance_RadioOption_Caption" xml:space="preserve">
+  <value>Внешний вид индикатора действий</value>
+</data>
+<data name="AccessorParameter_Text" xml:space="preserve">
+  <value>Параметр метода доступа</value>
+</data>
+<data name="ExceptionVariable_Text" xml:space="preserve">
+  <value>Переменная исключения</value>
+</data>
+<data name="EnumsSettingDescription" xml:space="preserve">
+  <value>Перечисления</value>
+</data>
+<data name="MSBuildSettingDescription" xml:space="preserve">
+  <value>MSBuild</value>
+</data>
+<data name="InsertOnEnterAfter_Text" xml:space="preserve">
+  <value>Вставлять * при нажатии Enter после /*</value>
+</data>
+<data name="BinaryValue__Text" xml:space="preserve">
+  <value>Двоичное значение: {0}</value>
+</data>
+<data name="AliasFor_TypeIn__Text" xml:space="preserve">
+  <value>Псевдоним для типа {0} в {1}</value>
+</data>
+<data name="JoinConcatenatedStringsOnPlusSignRemoval_Text" xml:space="preserve">
+  <value>Объединять concatenated строки при удалении знака плюс между ними</value>
+</data>
+<data name="ShowSummaryTooltip_BoolOption_Text" xml:space="preserve">
+  <value>Показывать всплывающую подсказку с кратким описанием(_S)</value>
+</data>
+<data name="PropertyOfAnonymousType_Text" xml:space="preserve">
+  <value>Свойство анонимного типа</value>
+</data>
+<data name="TypeParameter_Text" xml:space="preserve">
+  <value>Параметр типа</value>
+</data>
+<data name="InsertDocumentationCommentStubOn_Text" xml:space="preserve">
+  <value>Вставлять заглушку документационного комментария при вводе '/'</value>
+</data>
+<data name="SmartPaste_TooltipRider" xml:space="preserve">
+  <value>Экранировать текст, вставляемый в строковые литералы и комментарии</value>
+</data>
+<data name="EnablingThisOptionWillAlsoEnableVirtual_RichText_Text" xml:space="preserve">
+  <value>Включение этой опции также включит виртуальное пространство в настройках "Редактор &gt; Общие"</value>
+</data>
+<data name="ActionIndicatorIsAnIconThatAppearsIn_Remarks_Text" xml:space="preserve">
+  <value>Индикатор действия - это значок, появляющийся слева в редакторе и показывающий действия, доступные для текущей позиции курсора.</value>
+</data>
+<data name="ShowMarkerBarNextToTheVerticalScroll_Text" xml:space="preserve">
+  <value>Показывать полосу маркеров рядом с вертикальной полосой прокрутки</value>
+</data>
+<data name="_WillHandleSmartIndentingWhenYouPress_Text" xml:space="preserve">
+  <value>{0} будет обрабатывать умное оформление отступов при нажатии Enter</value>
+</data>
+<data name="VBOptionPageTitle" xml:space="preserve">
+  <value>VB</value>
+</data>
+<data name="EditorAppearancePage_ShowMatchingBraceHeaderWithInlayHint_Text" xml:space="preserve">
+  <value>Показывать заголовок соответствующего блока с помощью встроенной подсказки, когда курсор находится на закрывающей фигурной скобке</value>
+</data>
+<data name="EnableActionBarForActionIndicatorsAnd_BoolOption_Text" xml:space="preserve">
+  <value>Включить панель действий для индикаторов действий и отображать её рядом с левым полем редактора</value>
+</data>
+<data name="CompleteOnSpace_Text" xml:space="preserve">
+  <value>Завершать при нажатии пробела</value>
+</data>
+<data name="HexadecimalValue__Text" xml:space="preserve">
+  <value>Шестнадцатеричное значение: {0}</value>
+</data>
+<data name="InsertParameterNullCheckOnWhenParameter_Text" xml:space="preserve">
+  <value>Вставлять проверку параметра на null при вводе '!', когда параметр аннотирован как 'NotNull'</value>
+</data>
+<data name="DuplicateTextActionText" xml:space="preserve">
+  <value>Дублировать текст(&amp;D)</value>
+</data>
+<data name="StructuralNavigationCXMLWebLanguages_Header_Text" xml:space="preserve">
+  <value>Структурная навигация (C#, XML, веб-языки)</value>
+</data>
+<data name="SwitchBetweenSignaturesWith_RadioOption_Caption" xml:space="preserve">
+  <value>Переключаться между сигнатурами с помощью:</value>
+</data>
+<data name="Annotations_ComboEnum_Caption" xml:space="preserve">
+  <value>Аннотации:</value>
+</data>
+<data name="AppearanceOptionPageTitle" xml:space="preserve">
+  <value>Внешний вид</value>
+</data>
+<data name="CreateLocalFunctionPrefix" xml:space="preserve">
+  <value>Создать локальную функцию</value>
+</data>
+<data name="AttributeSettingDescription" xml:space="preserve">
+  <value>Атрибуты</value>
+</data>
+<data name="AutoFormatOnClosing_brace_Text" xml:space="preserve">
+  <value>Автоформат при вводе закрывающей фигурной скобки(_B)</value>
+</data>
+<data name="InsertLambdaItemAsTemplateSettingDescription" xml:space="preserve">
+  <value>Вставлять элемент lambda как шаблон</value>
+</data>
+<data name="TabActionSettingDescription" xml:space="preserve">
+  <value>Действие Tab</value>
+</data>
+<data name="ForExampleInCTypingFooWouldProduceFoo_Text" xml:space="preserve">
+  <value>Например, ввод 'Foo(.)' в C# создаст 'Foo().', или некорректное выражение '@$"abc"' будет автоматически исправлено на '$@"abc"'.</value>
+</data>
+<data name="EnterKey_Text" xml:space="preserve">
+  <value>Клавиша Enter</value>
+</data>
+<data name="AutoFormatOn_semicolon_Text" xml:space="preserve">
+  <value>Автоформат при вводе точки с запятой(_S)</value>
+</data>
+<data name="Highlightings_Header_Text" xml:space="preserve">
+  <value>Подсветка</value>
+</data>
+<data name="DoNotShowActionListIsOnlyAvailableVia_Text" xml:space="preserve">
+  <value>Не показывать (список действий доступен только через Alt+Enter)</value>
+</data>
+<data name="DoNotShowMarkerBar_Text" xml:space="preserve">
+  <value>Не показывать полосу маркеров</value>
+</data>
+<data name="HighlightWith_Text" xml:space="preserve">
+  <value>Способ подсветки:</value>
+</data>
+<data name="MarkerBar_Header_Text" xml:space="preserve">
+  <value>Полоса маркеров</value>
+</data>
+<data name="_VisualStudioIntelliSenseFont_Text" xml:space="preserve">
+  <value>Шрифт Visual Studio IntelliSense(_V)</value>
+</data>
+<data name="ContainingNestedType_Text" xml:space="preserve">
+  <value>Содержащий вложенный тип</value>
+</data>
+<data name="EventsSettingDescription" xml:space="preserve">
+  <value>События</value>
+</data>
+<data name="InvariantCulture_Text" xml:space="preserve">
+  <value>Инвариантная культура</value>
+</data>
+<data name="EnterActionSettingDescription" xml:space="preserve">
+  <value>Действие Enter</value>
+</data>
+<data name="EnableStructuralRemove_Text" xml:space="preserve">
+  <value>Включить структурное удаление</value>
+</data>
+<data name="DelegatesSettingDescription" xml:space="preserve">
+  <value>Делегаты</value>
+</data>
+<data name="_WillInsertVirtualIndentInsteadOfReal_Text" xml:space="preserve">
+  <value>{0} будет вставлять виртуальный отступ вместо реальных пробелов при нажатии Enter</value>
+</data>
+<data name="COptionPageTitle" xml:space="preserve">
+  <value>C#</value>
+</data>
+<data name="ForLoopVariable_Text" xml:space="preserve">
+  <value>Переменная цикла for</value>
+</data>
+<data name="NamespacesSettingDescription" xml:space="preserve">
+  <value>Пространства имён</value>
+</data>
+<data name="GoToNextWordHumpActionText" xml:space="preserve">
+  <value>Перейти к следующему горбу слова</value>
+</data>
+<data name="GoToPreviousWordHumpActionText" xml:space="preserve">
+  <value>Перейти к предыдущему горбу слова</value>
+</data>
+<data name="CompletionAppearanceOptionPageTitle" xml:space="preserve">
+  <value>Внешний вид завершения</value>
+</data>
+<data name="XAMLXamlFilesSettingDescription" xml:space="preserve">
+  <value>XAML (файлы .xaml)</value>
+</data>
+<data name="UseTabShiftTabKeysForStructuralNavigation_BoolOption_Text" xml:space="preserve">
+  <value>Использовать клавиши Tab/Shift+Tab для структурной навигации</value>
+</data>
+<data name="AutopopupOptionPageTitle" xml:space="preserve">
+  <value>Автовсплывание</value>
+</data>
+<data name="TheCaretIsAtTheEndOfALine_BoolOption_Text" xml:space="preserve">
+  <value>Курсор находится в конце строки</value>
+</data>
+<data name="NonCompletingCharactersSettingDescription" xml:space="preserve">
+  <value>Не завершающие символы</value>
+</data>
+<data name="Medium_Text" xml:space="preserve">
+  <value>Средняя</value>
+</data>
+<data name="TemplatesSettingDescription" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="JumpOutsideOfClosingBracketsWithTab_Text" xml:space="preserve">
+  <value>Перескакивать за закрывающие квадратные скобки с помощью Tab</value>
+</data>
+<data name="InplaceRefactorings_Header_Text" xml:space="preserve">
+  <value>Предложения рефакторинга на месте</value>
+</data>
+<data name="CLRSymbolsFilterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки фильтра символов CLR</value>
+</data>
+<data name="DoNotCompleteOn_Text" xml:space="preserve">
+  <value>Не завершать при вводе</value>
+</data>
+<data name="TypeAlias_Text" xml:space="preserve">
+  <value>Псевдоним типа</value>
+</data>
+<data name="StructuresSettingDescription" xml:space="preserve">
+  <value>Структуры</value>
+</data>
+<data name="DelimiterCharacters_Header_Text" xml:space="preserve">
+  <value>Символы-разделители</value>
+</data>
+<data name="InternalSettingDescription" xml:space="preserve">
+  <value>internal</value>
+</data>
+<data name="IntegrateMarkerBarIntoTheEnhancedScroll_Text" xml:space="preserve">
+  <value>Интегрировать полосу маркеров в расширенную полосу прокрутки в Visual Studio 2013 или новее</value>
+</data>
+<data name="KeywordsSettingDescription" xml:space="preserve">
+  <value>Ключевые слова</value>
+</data>
+<data name="ActionIndicator_Header_Text" xml:space="preserve">
+  <value>Индикатор действий</value>
+</data>
+<data name="ExtensionMethods_Text" xml:space="preserve">
+  <value>Методы расширения</value>
+</data>
+<data name="AtO_uterSide_Text" xml:space="preserve">
+  <value>С внешней стороны(_U)</value>
+</data>
+<data name="ShowInTheActionBar_Text" xml:space="preserve">
+  <value>Показывать в панели действий</value>
+</data>
+<data name="SmartPaste_Caption" xml:space="preserve">
+  <value>Включить умную вставку</value>
+</data>
+<data name="Show_memberSignatures_BoolOption_Text" xml:space="preserve">
+  <value>Показывать сигнатуры членов(_M)</value>
+</data>
+<data name="DisplayCompletionItemsIn_RadioOption_Caption" xml:space="preserve">
+  <value>Шрифт для отображения элементов завершения:</value>
+</data>
+<data name="PressAfterTypeNameToInsertNotNullCanBeNull_Text" xml:space="preserve">
+  <value>Нажатие '!'/'?' после имени типа для вставки атрибута 'NotNull'/'CanBeNull'</value>
+</data>
+<data name="ExtendSelectionToNextWordHumpActionText" xml:space="preserve">
+  <value>Расширить выделение до горба следующего слова</value>
+</data>
+<data name="ImportSymbolActionText" xml:space="preserve">
+  <value>Импортировать символ(&amp;I)</value>
+</data>
+<data name="HighlightCurrent_line_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать текущую строку(_L)</value>
+</data>
+<data name="AllSettingDescription" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="AddExceptionVariableToTheCatchClause" xml:space="preserve">
+  <value>Добавить переменную исключения в блок catch</value>
+</data>
+<data name="TypingAssist_Header_Text" xml:space="preserve">
+  <value>Помощник при вводе</value>
+</data>
+<data name="StoredFiltersSettingDescription" xml:space="preserve">
+  <value>Сохранённые фильтры</value>
+</data>
+<data name="MarkersWidth_ComboOption_TextPrefix" xml:space="preserve">
+  <value>Ширина маркеров:</value>
+</data>
+<data name="OnSpaceSettingDescription" xml:space="preserve">
+  <value>На пробеле</value>
+</data>
+<data name="Di_splayDelegatesInLambdaSyntax_BoolOption_Text" xml:space="preserve">
+  <value>Отображать делегаты в синтаксисе lambda(_S)</value>
+</data>
+<data name="OverrideVSIntellisenseForXmlSettingDescription" xml:space="preserve">
+  <value>Переопределять VS IntelliSense для XML</value>
+</data>
+<data name="UseCamel_Humps_Text" xml:space="preserve">
+  <value>Использовать верблюжий регистр (CamelHumps)(_H)</value>
+</data>
+<data name="ProjectsAssembliesAliased_Text" xml:space="preserve">
+  <value>Псевдонимы проектов и сборок:</value>
+</data>
+<data name="PreviewInDifferentCultures_Text" xml:space="preserve">
+  <value>Предпросмотр в разных культурах:</value>
+</data>
+<data name="DeleteTextFromTheCaretToTheEndOfTheWordActionText" xml:space="preserve">
+  <value>Удалить текст от курсора до конца слова</value>
+</data>
+<data name="Templates_Text" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="ShowSymbol_types_BoolOption_Text" xml:space="preserve">
+  <value>Показывать типы символов(_T)</value>
+</data>
+<data name="OnIdentifiersSettingDescription" xml:space="preserve">
+  <value>На идентификаторах</value>
+</data>
+<data name="_WillJumpOverClosingBracketsInCWhen_Text" xml:space="preserve">
+  <value>{0} будет перескакивать через закрывающие квадратные скобки в C#, когда курсор находится в позиции отступа (перед первым не-пробельным символом).
+Эта опция может препятствовать использованию Tab для отступа, если первый символ в строке - закрывающая квадратная скобка.</value>
+</data>
+<data name="Annotations_ComboEnum_Caption2" xml:space="preserve">
+  <value>Аннотации:</value>
+</data>
+<data name="Inserts_Text" xml:space="preserve">
+  <value>Вставляет</value>
+</data>
+<data name="JoinLinesAction_ActionText" xml:space="preserve">
+  <value>Объединить строки</value>
+</data>
+<data name="CompletionFiltersOptionPageTitle" xml:space="preserve">
+  <value>Фильтры завершения</value>
+</data>
+<data name="SuggestEncapsulateFieldItemsForFieldsFromBaseClassesSettingDescription" xml:space="preserve">
+  <value>Предлагать элементы инкапсуляции поля для полей из базовых классов</value>
+</data>
+<data name="StructuralNavigationCXAML_Header_Text" xml:space="preserve">
+  <value>Структурная навигация (C#, XAML)</value>
+</data>
+<data name="Text_EditorFont_Text" xml:space="preserve">
+  <value>Шрифт текстового редактора(_E)</value>
+</data>
+<data name="LocalVariable_Text" xml:space="preserve">
+  <value>Локальная переменная</value>
+</data>
+</root>

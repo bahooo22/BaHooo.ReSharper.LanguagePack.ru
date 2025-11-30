@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="IncludeProcessFilterSettingDescription" xml:space="preserve">
+  <value>Включить фильтр процессов</value>
+</data>
+<data name="UseRandomPortSettingDescription" xml:space="preserve">
+  <value>Использовать случайный порт</value>
+</data>
+<data name="UseEnvironmentVariablesSettingDescription" xml:space="preserve">
+  <value>Использовать переменные окружения</value>
+</data>
+<data name="ProfileWholeProcessTreeSettingDescription" xml:space="preserve">
+  <value>Профилировать полное дерево процессов</value>
+</data>
+<data name="ProfilingTargetSettingsKey_KeyDescription" xml:space="preserve">
+  <value>Сохраненная цель профилирования</value>
+</data>
+<data name="UnitySettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек Unity</value>
+</data>
+<data name="TerminalEmulatorNotFoundMessage" xml:space="preserve">
+  <value>В системе не найден поддерживаемый эмулятор терминала. Сделайте одно из следующих действий:
+ * Нажмите «Да», чтобы начать профилирование без эмулятора.
+ * Установите один из поддерживаемых эмуляторов (konsole, gnome-terminal, xfce4-terminal, mate-terminal, urxvt или xterm) и перезапустите профилирование.</value>
+</data>
+<data name="ProcessFilter_KeyDescription" xml:space="preserve">
+  <value>Сохраненный фильтр процессов</value>
+</data>
+<data name="XmlConnectionListSettingDescription" xml:space="preserve">
+  <value>Список XML-подключений</value>
+</data>
+<data name="PackageSettingDescription" xml:space="preserve">
+  <value>Пакет</value>
+</data>
+<data name="LeaderKeyModifierSettingDescription" xml:space="preserve">
+  <value>Модификатор клавиши Leader</value>
+</data>
+<data name="RecentProcessNameSettingDescription" xml:space="preserve">
+  <value>Имя последнего процесса</value>
+</data>
+<data name="WinRtSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек WinRT</value>
+</data>
+<data name="ProfilingTargetNameSettingDescription" xml:space="preserve">
+  <value>Имя цели профилирования</value>
+</data>
+<data name="ClientArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы клиента</value>
+</data>
+<data name="Snapshot_DeleteFile_Warning" xml:space="preserve">
+  <value>Это действие навсегда удалит выбранные файлы с диска, и это нельзя будет отменить.</value>
+</data>
+<data name="SiteSettingDescription" xml:space="preserve">
+  <value>Сайт</value>
+</data>
+<data name="WorkingDirectorySettingDescription" xml:space="preserve">
+  <value>Рабочий каталог</value>
+</data>
+<data name="StartDependentServicesSettingDescription" xml:space="preserve">
+  <value>Запускать зависимые службы</value>
+</data>
+<data name="LeaderKeySettingDescription" xml:space="preserve">
+  <value>Клавиша Leader</value>
+</data>
+<data name="NetProcessSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек процесса .NET</value>
+</data>
+<data name="MarkForEntriesWhichCannotReadSettingDescription" xml:space="preserve">
+  <value>Помечать записи, которые нельзя прочитать</value>
+</data>
+<data name="ProfilersKeyboardNavigationSettingDescription" xml:space="preserve">
+  <value>Навигация с клавиатуры в профилировщике</value>
+</data>
+<data name="NeedOpenUrlSettingDescription" xml:space="preserve">
+  <value>Требуется открыть URL</value>
+</data>
+<data name="IsApplicationSelectedSettingDescription" xml:space="preserve">
+  <value>Выбрано ли приложение</value>
+</data>
+<data name="MonoSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек Mono</value>
+</data>
+<data name="RecentProcessSettingsKey_KeyDescription" xml:space="preserve">
+  <value>Сохраненные недавно профилируемые процессы</value>
+</data>
+<data name="ShownAnnouncementsSettingDescription" xml:space="preserve">
+  <value>Показанные объявления</value>
+</data>
+<data name="ArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы</value>
+</data>
+<data name="UrlSettingDescription" xml:space="preserve">
+  <value>URL</value>
+</data>
+<data name="IisExpressSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек IIS Express</value>
+</data>
+<data name="SelectedControlKindSettingDescription" xml:space="preserve">
+  <value>Выбранный тип элемента управления</value>
+</data>
+<data name="LibraryPathSettingDescription" xml:space="preserve">
+  <value>Путь к библиотеке</value>
+</data>
+<data name="SelectedProcessFilterIdSettingDescription" xml:space="preserve">
+  <value>Выбранный ID фильтра процессов</value>
+</data>
+<data name="OrderIndexSettingDescription" xml:space="preserve">
+  <value>Порядковый индекс</value>
+</data>
+<data name="SelectedProfileTargetTypeSettingDescription" xml:space="preserve">
+  <value>Выбранный тип цели профилирования</value>
+</data>
+<data name="WcfHostSettingDescription" xml:space="preserve">
+  <value>Хост WCF</value>
+</data>
+<data name="ServiceSettingDescription" xml:space="preserve">
+  <value>Служба</value>
+</data>
+<data name="IsConfigurationFileSelectedSettingDescription" xml:space="preserve">
+  <value>Выбран ли файл конфигурации</value>
+</data>
+<data name="ApplicationPathSettingDescription" xml:space="preserve">
+  <value>Путь к приложению</value>
+</data>
+<data name="ProfilingUiStateBaseSettingsKey_KeyDescription" xml:space="preserve">
+  <value>Состояние UI раздела профилирования на главной странице</value>
+</data>
+<data name="NavigationStrategySettingDescription" xml:space="preserve">
+  <value>Стратегия навигации</value>
+</data>
+<data name="SelectedProcessToAttachNameSettingDescription" xml:space="preserve">
+  <value>Выбранный процесс для присоединения по имени</value>
+</data>
+<data name="ExcludeProcessFilterSettingDescription" xml:space="preserve">
+  <value>Исключить фильтр процессов</value>
+</data>
+<data name="StandaloneSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ автономных настроек</value>
+</data>
+<data name="CoreClrSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек Core CLR</value>
+</data>
+<data name="ProductAnnouncementSettingKeysSettingDescription" xml:space="preserve">
+  <value>Ключи настроек объявлений о продукте</value>
+</data>
+<data name="WindowsServiceSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек службы Windows</value>
+</data>
+<data name="EnvironmentVariablesSettingDescription" xml:space="preserve">
+  <value>Переменные окружения</value>
+</data>
+<data name="BrowserSettingDescription" xml:space="preserve">
+  <value>Браузер</value>
+</data>
+<data name="IisSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек IIS</value>
+</data>
+<data name="RemoteConnectionSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки удаленного подключения</value>
+</data>
+<data name="ProcessFilterNameSettingDescription" xml:space="preserve">
+  <value>Имя фильтра процессов</value>
+</data>
+<data name="PortSettingDescription" xml:space="preserve">
+  <value>Порт</value>
+</data>
+<data name="ClientPathSettingDescription" xml:space="preserve">
+  <value>Путь к клиенту</value>
+</data>
+<data name="WcfHostSettingsKeySettingDescription" xml:space="preserve">
+  <value>Ключ настроек хоста WCF</value>
+</data>
+<data name="FilePathSettingDescription" xml:space="preserve">
+  <value>Путь к файлу</value>
+</data>
+<data name="SelectedRunConfigurationIdSettingDescription" xml:space="preserve">
+  <value>Выбранный ID конфигурации запуска</value>
+</data>
+<data name="RuntimeSettingDescription" xml:space="preserve">
+  <value>Среда выполнения</value>
+</data>
+<data name="TypeOfRelatedProfilingTargetSettingDescription" xml:space="preserve">
+  <value>Тип связанной цели профилирования</value>
+</data>
+<data name="Snapshot_DeleteFiles_Warning" xml:space="preserve">
+  <value>Это действие навсегда удалит выбранные файлы с диска, и это нельзя будет отменить.</value>
+</data>
+<data name="RuntimeVersionSettingDescription" xml:space="preserve">
+  <value>Версия среды выполнения</value>
+</data>
+<data name="ServerSettingDescription" xml:space="preserve">
+  <value>Сервер</value>
+</data>
+<data name="ConfigurationFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к файлу конфигурации</value>
+</data>
+</root>

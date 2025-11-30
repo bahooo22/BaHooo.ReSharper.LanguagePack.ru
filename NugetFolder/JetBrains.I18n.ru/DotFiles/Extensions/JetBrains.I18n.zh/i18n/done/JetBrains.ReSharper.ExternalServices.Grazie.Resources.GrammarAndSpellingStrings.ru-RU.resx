@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Notifications_FailedToDownload_List" xml:space="preserve">
+    <value>无法下载: {0}</value>
+  </data>
+  <data name="Options_DisabledNotification_Main" xml:space="preserve">
+    <value>语法和拼写分析已禁用。</value>
+  </data>
+  <data name="Options_Languages_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_AddDialog_FileDoesNotExist" xml:space="preserve">
+    <value>文件 {0} 不存在</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_AddDialog_FailedTitle" xml:space="preserve">
+    <value>无法添加字典</value>
+  </data>
+  <data name="Notifications_Missing_OneLanguage" xml:space="preserve">
+    <value>缺少{0}的语言包</value>
+  </data>
+  <data name="Options_Languages_FixBrokenLanguagesDialog_Status_Fixed" xml:space="preserve">
+    <value>已添加文件 {0}</value>
+  </data>
+  <data name="Options_Exceptions" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="Button_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="QuickFix_ReplaceWith" xml:space="preserve">
+    <value>替换为 '**{0}**'</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries" xml:space="preserve">
+    <value>字典</value>
+  </data>
+  <data name="Options_GrazieFailedNotification_Main" xml:space="preserve">
+    <value>拼写和语法服务已禁用</value>
+  </data>
+  <data name="Options_Rules_RuleDescription_Incorrect" xml:space="preserve">
+    <value>不正确:</value>
+  </data>
+  <data name="Options_Languages_Remove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Notifications_FailedToDownload_ManyLanguages" xml:space="preserve">
+    <value>无法下载 {0} 个语言包</value>
+  </data>
+  <data name="Notifications_FailedToDownload_ManyLanguages_LicenseIssue" xml:space="preserve">
+    <value>无法下载 {0} 语言包。某些语言包需要您先接受许可</value>
+  </data>
+  <data name="Spelling_Advanced_CheckDocCommentsAccordingToVisibility_BoolOption_Text" xml:space="preserve">
+    <value>根据成员的可见性设置检查文档注释</value>
+  </data>
+  <data name="Options_GrazieFailedNotification_Link_Text" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="GrammarMistakeInMarkupTextConfigurableSeverityTitle" xml:space="preserve">
+    <value>标记文本中的语法错误</value>
+  </data>
+  <data name="StatusBar_DownloadingLanguages" xml:space="preserve">
+    <value>正在下载语言包</value>
+  </data>
+  <data name="Options_Languages_FixBrokenLanguagesDialog_Title" xml:space="preserve">
+    <value>添加语言</value>
+  </data>
+  <data name="LanguageDetection_NeverSuggest_Several" xml:space="preserve">
+    <value>从不建议 {0}</value>
+  </data>
+  <data name="GrammarMistakeInCommentConfigurableSeverityTitle" xml:space="preserve">
+    <value>注释中的语法错误</value>
+  </data>
+  <data name="Spelling_Advanced_Private_BoolOption_Text" xml:space="preserve">
+    <value>检查 private 成员</value>
+  </data>
+  <data name="GrammarMistakeInStringLiteralConfigurableSeverityTitle" xml:space="preserve">
+    <value>字符串字面量中的语法错误</value>
+  </data>
+  <data name="Notifications_FailedToDownload_ShowLicenseInfo" xml:space="preserve">
+    <value>显示许可证信息</value>
+  </data>
+  <data name="Grammar_Advanced_CheckIn_Comments" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="Options_General_Languages" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="Notifications_FailedToDownload_OpenSettings" xml:space="preserve">
+    <value>打开设置</value>
+  </data>
+  <data name="Options_Rules_CategoryDescription_Prefix" xml:space="preserve">
+    <value>使用复选框切换</value>
+  </data>
+  <data name="LanguageDetection_Description_Several" xml:space="preserve">
+    <value>是否启用 {0} 的语法和拼写检查器?</value>
+  </data>
+  <data name="Options_Grammar_Exceptions_Description" xml:space="preserve">
+    <value>要添加异常，请在编辑器中高亮显示的语法问题上按 **{0}**</value>
+  </data>
+  <data name="Options_General_FailedToDownloadLanguages_LinkText" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="Notifications_FailedToDownload_OneLanguage" xml:space="preserve">
+    <value>无法下载{0}的语言包</value>
+  </data>
+  <data name="Options_DisabledNotification_Link_Text" xml:space="preserve">
+    <value>在“常规”选项页面上启用</value>
+  </data>
+  <data name="Options_Rules_RuleDescription_LinkText" xml:space="preserve">
+    <value>规则描述</value>
+  </data>
+  <data name="GrammarMistakeInCommentConfigurableSeverityDescription" xml:space="preserve">
+    <value>注释中的语法错误</value>
+  </data>
+  <data name="Options_General_FailedToDownloadLanguages_MainText" xml:space="preserve">
+    <value>无法安装一个或多个所选语言。请尝试手动安装。</value>
+  </data>
+  <data name="Options_Advanced" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="Spelling_Advanced_ProtectedInternal_BoolOption_Text" xml:space="preserve">
+    <value>检查 protected internal 成员</value>
+  </data>
+  <data name="Options_Spelling_Title" xml:space="preserve">
+    <value>拼写</value>
+  </data>
+  <data name="Grammar_Advanced_CheckIn_Documentation" xml:space="preserve">
+    <value>在文档中检查</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_AddDialog_AffixFileDoesNotExist" xml:space="preserve">
+    <value>找不到所选字典文件 {0} 的词缀文件(.aff)</value>
+  </data>
+  <data name="Notifications_Missing_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Options_Languages_FixBrokenLanguagesDialog_Status_None" xml:space="preserve">
+    <value>未安装文件 {0}</value>
+  </data>
+  <data name="Options_Languages_Summary_Missing" xml:space="preserve">
+    <value>缺少 {0} 个语言包</value>
+  </data>
+  <data name="Spelling_Advanced_CheckVerbatimStringsStartingWith_BoolOption_Text" xml:space="preserve">
+    <value>检查逐字字符串(以 @ 开头)</value>
+  </data>
+  <data name="Options_Languages_Status_Missing" xml:space="preserve">
+    <value>未安装</value>
+  </data>
+  <data name="StatusBar_DownloadingLanguage" xml:space="preserve">
+    <value>正在下载 '{0}'</value>
+  </data>
+  <data name="Options_Rules" xml:space="preserve">
+    <value>规则</value>
+  </data>
+  <data name="GrammarMistakeInMarkupAttributeConfigurableSeverityDescription" xml:space="preserve">
+    <value>标记特性值中的语法错误</value>
+  </data>
+  <data name="Options_General_MissingLanguages_MainText" xml:space="preserve">
+    <value>缺少语言包。要解决该问题，请点击下载链接。</value>
+  </data>
+  <data name="Options_Rules_CategoryDescription_Suffix_Language" xml:space="preserve">
+    <value>语言中的所有规则。</value>
+  </data>
+  <data name="Options_General_Options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="LanguageDetection_NeverSuggest_Many" xml:space="preserve">
+    <value>从不建议检测到的语言</value>
+  </data>
+  <data name="Spelling_Advanced_General_Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Options_Rules_RuleDescription_Correct" xml:space="preserve">
+    <value>正确:</value>
+  </data>
+  <data name="Options_Languages_Status_Loading" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="Options_Languages_Install" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="Spelling_Advanced_Internal_BoolOption_Text" xml:space="preserve">
+    <value>检查 internal 成员</value>
+  </data>
+  <data name="Notifications_FailedToDownload_Retry" xml:space="preserve">
+    <value>重试</value>
+  </data>
+  <data name="Spelling_Advanced_Public_BoolOption_Text" xml:space="preserve">
+    <value>检查 public 成员</value>
+  </data>
+  <data name="ConfigureDictionaries_Text" xml:space="preserve">
+    <value>配置字典</value>
+  </data>
+  <data name="Spelling_Advanced_Protected_BoolOption_Text" xml:space="preserve">
+    <value>检查 protected 成员</value>
+  </data>
+  <data name="Options_Languages_Summary_MissingAndFailedToDownload" xml:space="preserve">
+    <value>缺少 {0} 个语言包，{1} 个下载失败</value>
+  </data>
+  <data name="Grammar_Advanced_CheckIn_StringLiterals" xml:space="preserve">
+    <value>字符串字面量</value>
+  </data>
+  <data name="LanguageDetection_Description_Many" xml:space="preserve">
+    <value>是否启用检测到的语言的语法和拼写检查器?</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_BuiltInText" xml:space="preserve">
+    <value>内置**英语(美国)**字典。</value>
+  </data>
+  <data name="Options_Spelling_AcceptedWords_Placeholder" xml:space="preserve">
+    <value>点击以添加忽略的单词</value>
+  </data>
+  <data name="Options_General_Title" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Options_Spelling_AcceptedWords_Description" xml:space="preserve">
+    <value>要添加异常，请输入以换行符分隔的单词列表，或在编辑器中高亮显示的拼写问题上按 **{0}**</value>
+  </data>
+  <data name="Options_Grammar_Title" xml:space="preserve">
+    <value>语法</value>
+  </data>
+  <data name="GrammarMistakeInStringLiteralConfigurableSeverityDescription" xml:space="preserve">
+    <value>字符串字面量中的语法错误</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_AddDialog_Title" xml:space="preserve">
+    <value>指定 Hunspell 字典文件(.dic)</value>
+  </data>
+  <data name="Grammar_Advanced_FileTypes" xml:space="preserve">
+    <value>文件类型</value>
+  </data>
+  <data name="Options_GrazieCantBeStartedNotification_Main" xml:space="preserve">
+    <value>需要具有 Windows 版本 1803 或更高版本才能使用语法服务。您的计算机上只能进行拼写检查</value>
+  </data>
+  <data name="GrazieGplLicenseNotice" xml:space="preserve">
+    <value>{0} 字典已根据&lt;a href="https://www.gnu.org/licenses/licenses.html"&gt;通用公共许可证&lt;/a&gt;授权为免费软件。是否继续下载?</value>
+  </data>
+  <data name="Options_Rules_CategoryDescription_Suffix_Category" xml:space="preserve">
+    <value>类别中的所有规则。</value>
+  </data>
+  <data name="Button_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Options_Languages_FixBrokenLanguagesDialog_Status_Failed" xml:space="preserve">
+    <value>找不到文件 {0}</value>
+  </data>
+  <data name="Notifications_FailedToDownload_OneLanguage_LicenseIssue" xml:space="preserve">
+    <value>接受使用 {0} 的许可协议，或者禁用该语言</value>
+  </data>
+  <data name="Notifications_FailedToDownload_RetryAndShowLicenseInfo" xml:space="preserve">
+    <value>显示许可信息并重试</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_Help_LinkText" xml:space="preserve">
+    <value>了解详情</value>
+  </data>
+  <data name="Options_General_EnableChecks" xml:space="preserve">
+    <value>分析语法和拼写</value>
+  </data>
+  <data name="Options_Languages_SelectLanguages" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="GrammarMistake_TooltipFormat" xml:space="preserve">
+    <value>语法错误: '{0}'</value>
+  </data>
+  <data name="Options_General_EnableChecks_Description" xml:space="preserve">
+    <value>检查标识符名称、字符串字面量、&lt;br/&gt;注释等中的语法和拼写。</value>
+  </data>
+  <data name="Spelling_Advanced_CheckNonLocalizableStrings_BoolOption_Text" xml:space="preserve">
+    <value>检查显式标记为不可本地化的字符串</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_Help_AfterLinkText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GrammarMistakeInMarkupTextConfigurableSeverityDescription" xml:space="preserve">
+    <value>标记文本中的语法错误</value>
+  </data>
+  <data name="Options_Languages_Summary_FailedToDownload" xml:space="preserve">
+    <value>{0} 个语言包下载失败</value>
+  </data>
+  <data name="GrammarMistakeInMarkupAttributeConfigurableSeverityTitle" xml:space="preserve">
+    <value>标记特性值中的语法错误</value>
+  </data>
+  <data name="Spelling_Advanced_CheckLocals_BoolOption_Text" xml:space="preserve">
+    <value>检查局部变量和形参</value>
+  </data>
+  <data name="Options_Languages_Download" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Spelling_Advanced_CheckInheritedMembers_BoolOption_Text" xml:space="preserve">
+    <value>检查继承的成员</value>
+  </data>
+  <data name="Options_Root_Title" xml:space="preserve">
+    <value>语法和拼写</value>
+  </data>
+  <data name="Grammar_Advanced_CheckIn_InterpolatedStringLiterals" xml:space="preserve">
+    <value>检查内插字符串字面量</value>
+  </data>
+  <data name="Grammar_Advanced_CheckIn" xml:space="preserve">
+    <value>检查位置</value>
+  </data>
+  <data name="LanguageDetection_Download" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="Options_General_MissingLanguages_LinkText" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="Options_General_AddLanguagesDialog_Title" xml:space="preserve">
+    <value>选择要安装的语言</value>
+  </data>
+  <data name="Options_Exceptions_EmptyText" xml:space="preserve">
+    <value>此处列出的短语不会&lt;br/&gt;被报告为语法错误。</value>
+  </data>
+  <data name="Notifications_Missing_ManyLanguages" xml:space="preserve">
+    <value>缺少 {0} 个语言包</value>
+  </data>
+  <data name="Options_Spelling_Dictionaries_Help_BeforeLinkText" xml:space="preserve">
+    <value>要添加更多字典，请点击“添加”并选择 Hunspell 字典文件(.dic)。</value>
+  </data>
+  <data name="PoweredByLanguageTool" xml:space="preserve">
+    <value>由 LanguageTool 提供技术支持</value>
+  </data>
+</root>

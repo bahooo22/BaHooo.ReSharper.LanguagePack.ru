@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="InsertLiveTemplateActionText" xml:space="preserve">
+  <value>Вставить живой шаблон(&amp;L)…</value>
+</data>
+<data name="Edit_variables_Text" xml:space="preserve">
+  <value>Редактировать переменные(_V)</value>
+</data>
+<data name="Template_Editable_UHJvcGVydHkEQ" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="In_WhereAnywhereExceptStringLiterals_Text" xml:space="preserve">
+  <value>В {0}, разрешено везде, кроме строковых литералов</value>
+</data>
+<data name="Template_Editable_VGhlICJNYWluIiBtZXRob2QgZGVjbGFyYXRpb24EQ" xml:space="preserve">
+  <value>Объявление метода "Main"</value>
+</data>
+<data name="SuggestsXMLTagNameUsedInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+  <value>Предлагает имя XML-тега</value>
+</data>
+<data name="Template_Editable_Q3VycmVudCBmaWxlIGNvbnRleHQEQ" xml:space="preserve">
+  <value>Контекст текущего файла</value>
+</data>
+<data name="NoMacro_Text" xml:space="preserve">
+  <value>(нет макроса)</value>
+</data>
+<data name="ErrorRemovingTemplate_Caption" xml:space="preserve">
+  <value>Ошибка при удалении шаблона</value>
+</data>
+<data name="Template_Editable_Y2hlY2tlZCBibG9jawEQEQ" xml:space="preserve">
+  <value>checked-блок</value>
+</data>
+<data name="In_WhereNamespaceOrTypeDeclarationIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешено объявление пространства имен или типа</value>
+</data>
+<data name="Template_Editable_dGhyb3cgbmV3" xml:space="preserve">
+  <value>бросить новый</value>
+</data>
+<data name="_Both_Text" xml:space="preserve">
+  <value>Оба(_B)</value>
+</data>
+<data name="Template_Editable_VHJ5Q2FzdCBjbGF1c2UEQ" xml:space="preserve">
+  <value>Предложение TryCast</value>
+</data>
+<data name="Template_Editable_Q1R5cGUEQ" xml:space="preserve">
+  <value>CType</value>
+</data>
+<data name="AllTemplatesActionText" xml:space="preserve">
+  <value>Все шаблоны…</value>
+</data>
+<data name="DefaultCLiveTemplates_Text" xml:space="preserve">
+  <value>Шаблоны C# по умолчанию</value>
+</data>
+<data name="Template_IsBeingEditedDoYouWantToDiscard_Text" xml:space="preserve">
+  <value>Шаблон '{0}' редактируется. Отменить изменения и удалить шаблон?</value>
+</data>
+<data name="InResxFileWhereDataTagIsExpected_Text" xml:space="preserve">
+  <value>В Resx-файле, где ожидается тег данных</value>
+</data>
+<data name="Template_Editable_Q29uc3RydWN0b3IEQ" xml:space="preserve">
+  <value>Конструктор</value>
+</data>
+<data name="VisualBasicProjects_Text" xml:space="preserve">
+  <value>Проекты Visual Basic</value>
+</data>
+<data name="InsertsTheFileHeaderSpecifiedInTheReSharperOptionsMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вставляет заголовок файла, указанный в настройках</value>
+</data>
+<data name="Template_Editable_dHJ5IGNhdGNo" xml:space="preserve">
+  <value>try catch</value>
+</data>
+<data name="Template_Editable_JkVudW0EQ" xml:space="preserve">
+  <value>Перечисление(&amp;E)</value>
+</data>
+<data name="Template_Editable_Q3JlYXRlIGFuIGVtcHR5IGFycmF5" xml:space="preserve">
+  <value>Создать пустой массив</value>
+</data>
+<data name="_ExceptStrings_Text" xml:space="preserve">
+  <value>{0} исключая строки</value>
+</data>
+<data name="Change_macro_Text" xml:space="preserve">
+  <value>Изменить макрос(_M)</value>
+</data>
+<data name="CFiles_Text" xml:space="preserve">
+  <value>Файлы C#</value>
+</data>
+<data name="DeleteTemplate_Text" xml:space="preserve">
+  <value>Удалить шаблон</value>
+</data>
+<data name="DefaultCFileTemplates_Text" xml:space="preserve">
+  <value>Файловые шаблоны C# по умолчанию</value>
+</data>
+<data name="NotInQuickList_Text" xml:space="preserve">
+  <value>Не в быстром списке:</value>
+</data>
+<data name="Template_Editable_U2FmZWx5IGNhc3QgYSB2YXJpYWJsZQEQEQ" xml:space="preserve">
+  <value>Безопасно преобразовать переменную</value>
+</data>
+<data name="InsertsIfRequiredCastToTheTypeWhichIsExpectedAtTheLeftSideOfAssignmentExpressionMacroDefinition_Description" xml:space="preserve">
+  <value>Приводит к требуемому типу (если требуется приведение)</value>
+</data>
+<data name="Template_Editable_QXNzZXJ0IGV4cHJlc3Npb24gbm90IG51bGwEQ" xml:space="preserve">
+  <value>Утверждение, что выражение не null</value>
+</data>
+<data name="Template_Editable_c3dpdGNoIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+  <value>switch-оператор</value>
+</data>
+<data name="Template_Editable_dHJ5IGNhdGNoIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+  <value>try catch-оператор</value>
+</data>
+<data name="Template_Editable_dW5zYWZlIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+  <value>unsafe-оператор</value>
+</data>
+<data name="Template_Editable_U2ltcGxlICJmb3IiIGxvb3AEQ" xml:space="preserve">
+  <value>Простой цикл "for"</value>
+</data>
+<data name="_SuitableForTemplateSAvailabilityOnly_Text" xml:space="preserve">
+  <value>Только для доступности шаблонов(_S)</value>
+</data>
+<data name="Expression_Text" xml:space="preserve">
+  <value>Выражение</value>
+</data>
+<data name="Template_Editable_J3ZvaWQgTWFpbicgbWV0aG9k" xml:space="preserve">
+  <value>Метод 'void Main'</value>
+</data>
+<data name="Template_Editable_aWYgc3RhdGVtZW50" xml:space="preserve">
+  <value>if-оператор</value>
+</data>
+<data name="Template_Editable_SW5zZXJ0IG5ldyBHVUlE" xml:space="preserve">
+  <value>Вставить новый GUID</value>
+</data>
+<data name="S_urround_Text" xml:space="preserve">
+  <value>Окружить(_U)</value>
+</data>
+<data name="Template_Editable_JlN0cnVjdAEQEQ" xml:space="preserve">
+  <value>Структура(&amp;S)</value>
+</data>
+<data name="_Reformat_Text" xml:space="preserve">
+  <value>Переформатировать(_R)</value>
+</data>
+<data name="Shorten_qualifiedReferences_Text" xml:space="preserve">
+  <value>Сократить полные ссылки(_Q)</value>
+</data>
+<data name="_All_Text" xml:space="preserve">
+  <value>Все(_A)</value>
+</data>
+<data name="Template_Editable_RGlyZWN0Q2FzdAEQEQ" xml:space="preserve">
+  <value>DirectCast</value>
+</data>
+<data name="SuggestsXMLTagNameUsedInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Предлагает имя XML-тега, используемого в текущем документе</value>
+</data>
+<data name="Template_Editable_UmVzb3VyY2UgRGljdGlvbmFyeQEQEQ" xml:space="preserve">
+  <value>Словарь ресурсов</value>
+</data>
+<data name="Template_Editable_ZG8uLi53aGlsZSBsb29w" xml:space="preserve">
+  <value>цикл do...while</value>
+</data>
+<data name="Template_Editable_U2FmZWx5IGNhc3QgdmFyaWFibGUEQ" xml:space="preserve">
+  <value>Безопасно преобразовать переменную</value>
+</data>
+<data name="Template_Editable_RGlyZWN0Q2FzdCBjbGF1c2UEQ" xml:space="preserve">
+  <value>Предложение DirectCast</value>
+</data>
+<data name="In_WhereExpressionIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешено выражение</value>
+</data>
+<data name="AvailabilityConfiguration_Caption" xml:space="preserve">
+  <value>Конфигурация доступности</value>
+</data>
+<data name="In_WhereStatementIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешен оператор</value>
+</data>
+<data name="AnywhereIn__Text" xml:space="preserve">
+  <value>Везде в {0}</value>
+</data>
+<data name="Template_Editable_VXNpbmcEQ" xml:space="preserve">
+  <value>Using</value>
+</data>
+<data name="DefaultXMLFileTemplates_Text" xml:space="preserve">
+  <value>Файловые шаблоны XML по умолчанию</value>
+</data>
+<data name="Options_Text" xml:space="preserve">
+  <value>Параметры:</value>
+</data>
+<data name="InResxFileWhereRootTagIsExpected_Text" xml:space="preserve">
+  <value>В Resx-файле, где ожидается корневой тег</value>
+</data>
+<data name="Template_Editable_SWYuLkVsc2UEQ" xml:space="preserve">
+  <value>If..Else</value>
+</data>
+<data name="Template_Editable_SXRlcmF0ZSBhbiBhcnJheQEQEQ" xml:space="preserve">
+  <value>Итерация по массиву</value>
+</data>
+<data name="Template_Editable_dXNpbmcgc3RhdGVtZW50" xml:space="preserve">
+  <value>using-оператор</value>
+</data>
+<data name="AreYouSureYouWantToDeleteThisSection_Text" xml:space="preserve">
+  <value>Вы уверены, что хотите удалить этот раздел?</value>
+</data>
+<data name="SurroundItemsContextAction_Description" xml:space="preserve">
+  <value>Окружить выбранные элементы</value>
+</data>
+<data name="DefaultXMLSurroundTemplates_Text" xml:space="preserve">
+  <value>Шаблоны обрамления XML по умолчанию</value>
+</data>
+<data name="DefaultXMLLiveTemplates_Text" xml:space="preserve">
+  <value>Шаблоны XML по умолчанию</value>
+</data>
+<data name="Template_Editable_cmV2ZXJzZSBmb3IgbG9vcAEQEQ" xml:space="preserve">
+  <value>обратный цикл for</value>
+</data>
+<data name="Template_Editable_UmV2ZXJzZSAnZm9yJyBsb29w" xml:space="preserve">
+  <value>Обратный цикл 'for'</value>
+</data>
+<data name="Template_Editable_Y2FzdAEQEQ" xml:space="preserve">
+  <value>приведение</value>
+</data>
+<data name="Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ" xml:space="preserve">
+  <value>Console.WriteLine</value>
+</data>
+<data name="Template_Editable_Q2xhc3MvSW50ZXJmYWNl" xml:space="preserve">
+  <value>Класс/Интерфейс</value>
+</data>
+<data name="Template_Editable_JlN0cnVjdHVyZQEQEQ" xml:space="preserve">
+  <value>Структура(&amp;S)</value>
+</data>
+<data name="CProjects_Text" xml:space="preserve">
+  <value>Проекты C#</value>
+</data>
+<data name="Template_Editable_SXRlcmF0ZSBhcnJheSBpbiByZXZlcnNlIG9yZGVy" xml:space="preserve">
+  <value>Итерация по массиву в обратном порядке</value>
+</data>
+<data name="Template_Editable_TWFrZSBhbiBhc3NlcnRpb24EQ" xml:space="preserve">
+  <value>Создать утверждение</value>
+</data>
+<data name="Template_Editable_SXRlcmF0ZSBhbiBhcnJheSBpbiBpbnZlcnNlIG9yZGVy" xml:space="preserve">
+  <value>Итерация по массиву в обратном порядке</value>
+</data>
+<data name="XMLFiles_Text" xml:space="preserve">
+  <value>XML-файлы</value>
+</data>
+<data name="AnywhereInResxFile_Text" xml:space="preserve">
+  <value>Везде в Resx-файле</value>
+</data>
+<data name="_Generation_Text" xml:space="preserve">
+  <value>Генерация(_G)</value>
+</data>
+<data name="TypeMemberDeclaration_Text" xml:space="preserve">
+  <value>Объявление члена типа</value>
+</data>
+<data name="_Queries_Text" xml:space="preserve">
+  <value>{0} запросы</value>
+</data>
+<data name="AnywhereInXMLFile_Text" xml:space="preserve">
+  <value>Везде в XML-файле</value>
+</data>
+<data name="Template_Editable_TGFuZ3VhZ2UtSW50ZWdyYXRlZCBRdWVyeQEQEQ" xml:space="preserve">
+  <value>Язык интегрированных запросов (LINQ)</value>
+</data>
+<data name="Template_Editable_Zm9yLi4uaW4gbG9vcAEQEQ" xml:space="preserve">
+  <value>цикл for...in</value>
+</data>
+<data name="Template_Editable_QXR0YWNoZWQgcHJvcGVydHkEQ" xml:space="preserve">
+  <value>Присоединенное свойство</value>
+</data>
+<data name="Template_Editable_SXRlcmF0ZSBnZW5lcmljIFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLklMaXN0KE9mIFQp" xml:space="preserve">
+  <value>Итерация по универсальному System.Collections.Generic.IList(Of T)</value>
+</data>
+<data name="ShowIn_contextAction_Text" xml:space="preserve">
+  <value>Показать в контекстном действии(_C)</value>
+</data>
+<data name="_Expressions_Text" xml:space="preserve">
+  <value>{0} выражения</value>
+</data>
+<data name="Template_Editable_Sm9pbiBjbGF1c2UgaW4gbGFuZ3VhZ2UgaW50ZWdyYXRlZCBxdWVyeQEQEQ" xml:space="preserve">
+  <value>Предложение Join в языке интегрированных запросов (LINQ)</value>
+</data>
+<data name="InsertsFullNameOfContainingTagMacroDefinition_Description" xml:space="preserve">
+  <value>Полное имя тега</value>
+</data>
+<data name="In_WhereTypeMemberDeclarationIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешено объявление члена типа</value>
+</data>
+<data name="ResxFiles_Text" xml:space="preserve">
+  <value>Resx-файлы</value>
+</data>
+<data name="Template_Editable_Zm9yLW9mIGxvb3AEQ" xml:space="preserve">
+  <value>цикл for-of</value>
+</data>
+<data name="Template_Editable_d3JpdGVsbiBmdW5jdGlvbiBjYWxs" xml:space="preserve">
+  <value>вызов функции writeln</value>
+</data>
+<data name="Template_Editable_QXR0cmlidXRlIHVzaW5nIHJlY29tbWVuZGVkIHBhdHRlcm4EQ" xml:space="preserve">
+  <value>Атрибут с использованием рекомендуемого шаблона</value>
+</data>
+<data name="Template_Editable_d2l0aCBzdGF0ZW1lbnQEQ" xml:space="preserve">
+  <value>with-оператор</value>
+</data>
+<data name="Template_Editable_RGVwZW5kZW5jeSBwcm9wZXJ0eQEQEQ" xml:space="preserve">
+  <value>Свойство зависимости</value>
+</data>
+<data name="SUrroundWithTemplateActionText" xml:space="preserve">
+  <value>Окружить с помощью шаблона…</value>
+</data>
+<data name="CProjectsIncludingASPNETCProjects_Text" xml:space="preserve">
+  <value>Проекты C# (включая ASP.NET C#)</value>
+</data>
+<data name="_Editable_Text" xml:space="preserve">
+  <value>Редактируемый(_E)</value>
+</data>
+<data name="SurroundWithBlock_Text" xml:space="preserve">
+  <value>Окружить блоком</value>
+</data>
+<data name="Template_Editable_RGVjbGFyZSBhIHZhcmlhYmxl" xml:space="preserve">
+  <value>Объявить переменную</value>
+</data>
+<data name="ResxDatatags_Text" xml:space="preserve">
+  <value>.resx теги данных</value>
+</data>
+<data name="InsertsNameOfContainingTagWithoutNamespaceMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вставляет имя содержащего тега без пространства имен</value>
+</data>
+<data name="Done_Text" xml:space="preserve">
+  <value>Готово</value>
+</data>
+<data name="ProjectRoot_Text" xml:space="preserve">
+  <value>Корень проекта</value>
+</data>
+<data name="Template_Editable_cHVibGljIHN0YXRpYyByZWFkb25seQEQEQ" xml:space="preserve">
+  <value>public static readonly</value>
+</data>
+<data name="VisualBasicFiles_Text" xml:space="preserve">
+  <value>Файлы Visual Basic</value>
+</data>
+<data name="Template_Editable_JlRlc3QgRml4dHVyZQEQEQ" xml:space="preserve">
+  <value>Тестовый метод(&amp;T)</value>
+</data>
+<data name="Template_Editable_bG9jayBzdGF0ZW1lbnQEQ" xml:space="preserve">
+  <value>lock-оператор</value>
+</data>
+<data name="Template_Editable_J2ludCBNYWluJyBtZXRob2Qg" xml:space="preserve">
+  <value>Метод 'int Main'</value>
+</data>
+<data name="Template_Editable_JlJlY29yZAEQEQ" xml:space="preserve">
+  <value>Запись(&amp;R)</value>
+</data>
+<data name="Template_Editable_QnlWYWwgcGFyYW1ldGVy" xml:space="preserve">
+  <value>Параметр ByVal</value>
+</data>
+<data name="Template_Editable_dW5jaGVja2VkIGJsb2Nr" xml:space="preserve">
+  <value>unchecked-блок</value>
+</data>
+<data name="WhereATagCouldBeInXMLFile_Text" xml:space="preserve">
+  <value>Где тег может находиться в XML-файле</value>
+</data>
+<data name="NewFromTemplateActionGroupText" xml:space="preserve">
+  <value>Создать из шаблона(&amp;N)</value>
+</data>
+<data name="In_WhereQueryClauseIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешено предложение запроса</value>
+</data>
+<data name="Template_Editable_dHJ5IGZpbmFsbHkEQ" xml:space="preserve">
+  <value>try finally</value>
+</data>
+<data name="CreateFileFromTemplate_Text" xml:space="preserve">
+  <value>Создать файл из шаблона</value>
+</data>
+<data name="Template_Editable_VHJ5Q2FzdAEQEQ" xml:space="preserve">
+  <value>TryCast</value>
+</data>
+<data name="Template_Editable_Q3JlYXRlIHJlc291cmNlIGVudHJ5" xml:space="preserve">
+  <value>Создать запись ресурса</value>
+</data>
+<data name="Template_Editable_SXRlcmF0ZSBhIElMaXN0PFQPL" xml:space="preserve">
+  <value>Итерация по IList&lt;T&gt;</value>
+</data>
+<data name="FileNameMustBeAValid_identifier_Text" xml:space="preserve">
+  <value>Имя файла должно быть допустимым идентификатором(_I)</value>
+</data>
+<data name="SuggestsXMLAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+  <value>Предлагает имя XML-атрибута по тегу</value>
+</data>
+<data name="Template_Editable_RnVuY3Rpb24gZGVjbGFyYXRpb24EQ" xml:space="preserve">
+  <value>Объявление функции</value>
+</data>
+<data name="AddTo_NewMenu_Text" xml:space="preserve">
+  <value>Добавить в меню "Создать(_N)…"</value>
+</data>
+<data name="EditQuickList_Caption" xml:space="preserve">
+  <value>Редактировать быстрый список</value>
+</data>
+<data name="AllApplicableLiveTemplates_Text" xml:space="preserve">
+  <value>Все применимые живые шаблоны</value>
+</data>
+<data name="SurroundItemsContextAction_Name" xml:space="preserve">
+  <value>Окружить элементы</value>
+</data>
+<data name="VBProjects_Text" xml:space="preserve">
+  <value>Проекты VB.NET</value>
+</data>
+<data name="Template_Editable_KCkEQ" xml:space="preserve">
+  <value>()</value>
+</data>
+<data name="Template_Editable_SWYEQ" xml:space="preserve">
+  <value>If</value>
+</data>
+<data name="DefaultCSurroundTemplates_Text" xml:space="preserve">
+  <value>Шаблоны обрамления C# по умолчанию</value>
+</data>
+<data name="Template_Editable_e30EQ" xml:space="preserve">
+  <value>{}</value>
+</data>
+<data name="Template_Editable_TWVzc2FnZUJveC5TaG93" xml:space="preserve">
+  <value>MessageBox.Show</value>
+</data>
+<data name="CreateNewFileActionText" xml:space="preserve">
+  <value>Создать новый файл…</value>
+</data>
+<data name="_Group_Text" xml:space="preserve">
+  <value>Группа(_G):</value>
+</data>
+<data name="SurroundWith_PopupMenu_Title_Text" xml:space="preserve">
+  <value>Окружить с помощью</value>
+</data>
+<data name="Template_Editable_UHJpbnQgdmFsdWUgb2YgYW4gZXhwcmVzc2lvbgEQEQ" xml:space="preserve">
+  <value>Напечатать значение выражения</value>
+</data>
+<data name="NoApplicableSurroundsFound_Text" xml:space="preserve">
+  <value>Применимые шаблоны обрамления не найдены</value>
+</data>
+<data name="AllApplicableFileTemplates_Text" xml:space="preserve">
+  <value>Все применимые файловые шаблоны</value>
+</data>
+<data name="Template_Editable_c2ltcGxlIGl0ZXJhdG9y" xml:space="preserve">
+  <value>Простой итератор</value>
+</data>
+<data name="Template_Editable_Q1R5cGUgY2xhdXNl" xml:space="preserve">
+  <value>Предложение CType</value>
+</data>
+<data name="SelectTargetFolder_Text" xml:space="preserve">
+  <value>Выберите целевую папку</value>
+</data>
+<data name="Template_Editable_Z2VuZXJhdG9y" xml:space="preserve">
+  <value>генератор</value>
+</data>
+<data name="EditQuickLists_Text" xml:space="preserve">
+  <value>Редактировать быстрые списки…</value>
+</data>
+<data name="Template_Editable_ZWxzZSBzdGF0ZW1lbnQEQ" xml:space="preserve">
+  <value>else-оператор</value>
+</data>
+<data name="Template_Editable_JkNsYXNz" xml:space="preserve">
+  <value>Класс(&amp;C)</value>
+</data>
+<data name="Template_Editable_JkludGVyZmFjZQEQEQ" xml:space="preserve">
+  <value>Интерфейс(&amp;I)</value>
+</data>
+<data name="Template_Editable_QnlSZWYgcGFyYW1ldGVy" xml:space="preserve">
+  <value>Параметр ByRef</value>
+</data>
+<data name="CreateLiveTemplateFromSelectionActionText" xml:space="preserve">
+  <value>Создать живой шаблон из выделения…</value>
+</data>
+<data name="AllTemplates_Text" xml:space="preserve">
+  <value>Все шаблоны…</value>
+</data>
+<data name="_Statements_Text" xml:space="preserve">
+  <value>{0} операторы</value>
+</data>
+<data name="Template_Editable_cHVibGljIGNvbnN0IHN0cmluZwEQEQ" xml:space="preserve">
+  <value>public const string</value>
+</data>
+<data name="Template_Editable_bmFtZXNwYWNl" xml:space="preserve">
+  <value>пространство имен</value>
+</data>
+<data name="Template_Editable_UHJpbnQgYSBzdHJpbmcEQ" xml:space="preserve">
+  <value>Напечатать строку</value>
+</data>
+<data name="TemplatesUIDialogActionText" xml:space="preserve">
+  <value>Диалог UI шаблонов…</value>
+</data>
+<data name="MinimumCVersion_Text" xml:space="preserve">
+  <value>Минимальная версия C#:</value>
+</data>
+<data name="Template_Editable_RGVzdHJ1Y3RvcgEQEQ" xml:space="preserve">
+  <value>Деструктор</value>
+</data>
+<data name="NoMacroSelected_Text" xml:space="preserve">
+  <value>Макрос не выбран</value>
+</data>
+<data name="XMLAttributes_Text" xml:space="preserve">
+  <value>XML-атрибуты</value>
+</data>
+<data name="Template_Editable_cHVibGljIGNvbnN0IGludAEQEQ" xml:space="preserve">
+  <value>public const int</value>
+</data>
+<data name="Template_Editable_UHJpbnQgdmFsdWUgb2YgYSB2YXJpYWJsZQEQEQ" xml:space="preserve">
+  <value>Напечатать значение переменной</value>
+</data>
+<data name="AllApplicableSurroundTemplates_Text" xml:space="preserve">
+  <value>Все применимые шаблоны обрамления</value>
+</data>
+<data name="_EditableAt_Text" xml:space="preserve">
+  <value>Редактируемый в(_E):</value>
+</data>
+<data name="InsertsFullNameOfContainingTagMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вставляет полное имя содержащего тега</value>
+</data>
+<data name="DefaultFile_name_Text" xml:space="preserve">
+  <value>Имя файла по умолчанию(_N):</value>
+</data>
+<data name="_Availability_Text" xml:space="preserve">
+  <value>Доступность(_A):</value>
+</data>
+<data name="Template_Editable_d2hpbGUgbG9vcAEQEQ" xml:space="preserve">
+  <value>цикл while</value>
+</data>
+<data name="_Description_Text" xml:space="preserve">
+  <value>Описание(_D):</value>
+</data>
+<data name="_Shortcut_Text" xml:space="preserve">
+  <value>Сочетание клавиш(_S):</value>
+</data>
+<data name="CloneAndEditTemplate_Text" xml:space="preserve">
+  <value>Клонировать и редактировать шаблон</value>
+</data>
+<data name="_Mnemonic_Text" xml:space="preserve">
+  <value>Мнемоника(_M):</value>
+</data>
+<data name="EditVariables_Text" xml:space="preserve">
+  <value>Редактировать переменные</value>
+</data>
+<data name="Template_Editable_U2ltcGxlICJGb3IiIGxvb3AEQ" xml:space="preserve">
+  <value>Простой цикл "For"</value>
+</data>
+<data name="Template_Editable_Rm9yIEVhY2ggYmxvY2sEQ" xml:space="preserve">
+  <value>Блок For Each</value>
+</data>
+<data name="_TypeMembers_Text" xml:space="preserve">
+  <value>{0} члены типа</value>
+</data>
+<data name="In_WhereNamespaceDeclarationIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешено объявление пространства имен</value>
+</data>
+<data name="Template_Editable_Jk1vZHVsZQEQEQ" xml:space="preserve">
+  <value>Модуль (&amp;M)</value>
+</data>
+<data name="Template_Editable_Zm9yZWFjaCBibG9jawEQEQ" xml:space="preserve">
+  <value>foreach-блок</value>
+</data>
+<data name="DeleteConfirmation_Caption" xml:space="preserve">
+  <value>Подтверждение удаления</value>
+</data>
+<data name="SuggestsXMLAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Предлагает имя XML-атрибута, используемого в одинаковых тегах текущего документа</value>
+</data>
+<data name="ResxRoots_Text" xml:space="preserve">
+  <value>.resx корни</value>
+</data>
+<data name="SurroundWith_Text" xml:space="preserve">
+  <value>Окружить с помощью…</value>
+</data>
+<data name="Template_Editable_U2VsZWN0IGNhc2Ugc3RhdGVtZW50" xml:space="preserve">
+  <value>оператор выбора case</value>
+</data>
+<data name="InsertsNamespaceOfContainingTagMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вставляет пространство имен содержащего тега</value>
+</data>
+<data name="NewTemplate_Text" xml:space="preserve">
+  <value>Новый шаблон</value>
+</data>
+<data name="InsertsNameOfContainingTagWithoutNamespaceMacroDefinition_Description" xml:space="preserve">
+  <value>Имя тега</value>
+</data>
+<data name="Template_Editable_U3luY0xvY2sEQ" xml:space="preserve">
+  <value>SyncLock</value>
+</data>
+<data name="Template_Editable_Zm9yIGxvb3AEQ" xml:space="preserve">
+  <value>цикл for</value>
+</data>
+<data name="_TypesAndNamespaces_Text" xml:space="preserve">
+  <value>{0} типы и пространства имен</value>
+</data>
+<data name="DefaultResxFileTemplates_Text" xml:space="preserve">
+  <value>Файловые шаблоны Resx по умолчанию</value>
+</data>
+<data name="InsertsTheFileHeaderSpecifiedInTheReSharperOptionsMacroDefinition_Description" xml:space="preserve">
+  <value>Заголовок файла</value>
+</data>
+<data name="VBProjectsIncludingASPNETProjects_Text" xml:space="preserve">
+  <value>Проекты VB.NET (включая ASP.NET VB.NET)</value>
+</data>
+<data name="Template_Editable_UHJvcGVydHkgd2l0aCBhICdnZXQnIGFjY2Vzc29yIGFuZCBhIHByaXZhdGUgJ3NldCcgYWNjZXNzb3IEQ" xml:space="preserve">
+  <value>Свойство с аксессором 'get' и приватным аксессором 'set'</value>
+</data>
+<data name="Template_Editable_U3Vicm91dGluZSBkZWNsYXJhdGlvbgEQEQ" xml:space="preserve">
+  <value>Объявление подпрограммы</value>
+</data>
+<data name="MnemonicCouldBeSingleDigitOnly_Text" xml:space="preserve">
+  <value>Мнемоника может быть только одной цифрой</value>
+</data>
+<data name="UseIn_Text" xml:space="preserve">
+  <value>Использовать в:</value>
+</data>
+<data name="In_WhereMethodParameterIsAllowed_Text" xml:space="preserve">
+  <value>В {0}, где разрешен параметр метода</value>
+</data>
+<data name="DefaultResxLiveTemplates_Text" xml:space="preserve">
+  <value>Шаблоны Resx по умолчанию</value>
+</data>
+<data name="InQuickList_Text" xml:space="preserve">
+  <value>В быстром списке:</value>
+</data>
+<data name="ChooseMacro_Caption" xml:space="preserve">
+  <value>Выберите макрос</value>
+</data>
+<data name="InsertsNamespaceOfContainingTagMacroDefinition_Description" xml:space="preserve">
+  <value>Пространство имен тега</value>
+</data>
+<data name="SuggestsXMLAttributeNameUsedInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Предлагает имя XML-атрибута, используемого в текущем документе</value>
+</data>
+<data name="More_Text" xml:space="preserve">
+  <value>Еще…</value>
+</data>
+<data name="SuggestsXMLAttributeNameUsedInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+  <value>Предлагает имя XML-атрибута</value>
+</data>
+<data name="Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ" xml:space="preserve">
+  <value>Public Shared Sub Main</value>
+</data>
+<data name="WhereAnAttributeCouldBeInXMLFile_Text" xml:space="preserve">
+  <value>Где атрибут может находиться в XML-файле</value>
+</data>
+<data name="InsertsIfRequiredCastToTheTypeWhichIsExpectedAtTheLeftSideOfAssignmentExpressionMacroDefinition_LongDescription" xml:space="preserve">
+  <value>Вставляет (при необходимости) приведение к типу, который ожидается в левой части выражения присваивания</value>
+</data>
+<data name="NamespaceDeclaration_Text" xml:space="preserve">
+  <value>Объявление пространства имен</value>
+</data>
+<data name="XMLTags_Text" xml:space="preserve">
+  <value>XML-теги</value>
+</data>
+</root>

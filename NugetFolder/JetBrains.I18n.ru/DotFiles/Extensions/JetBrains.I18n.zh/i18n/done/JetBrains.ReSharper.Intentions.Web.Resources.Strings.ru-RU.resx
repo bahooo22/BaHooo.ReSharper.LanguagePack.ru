@@ -1,0 +1,2223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddParameter_ToMethodsThatDonTHaveIt_Text" xml:space="preserve">
+    <value>将形参 '{0}' 添加到没有它的方法</value>
+  </data>
+  <data name="ReorderAttributes_Text" xml:space="preserve">
+    <value>对特性重新排序</value>
+  </data>
+  <data name="CSSStatements_Text" xml:space="preserve">
+    <value>CSS 语句</value>
+  </data>
+  <data name="MakeClassAbstract_Text" xml:space="preserve">
+    <value>将类设为 abstract</value>
+  </data>
+  <data name="UncommentContextAction_Description" xml:space="preserve">
+    <value>从代码块中移除注释</value>
+  </data>
+  <data name="SplitIfWithConditionIntoNestedIfStatementsContextAction_Name" xml:space="preserve">
+    <value>将带有 '&amp;&amp;' 条件的 'if' 拆分为嵌套 'if' 语句</value>
+  </data>
+  <data name="IntroduceTypeAliasContextAction_Description" xml:space="preserve">
+    <value>为选区引入新的类型别名</value>
+  </data>
+  <data name="Specify_QualifierExplicitly_Text" xml:space="preserve">
+    <value>显式指定 '{0}' 限定符</value>
+  </data>
+  <data name="SplitVariableDeclarationAndAssignmentContextAction_Description" xml:space="preserve">
+    <value>将变量初始值设定项从声明语句移至单独的赋值语句</value>
+  </data>
+  <data name="ConvertNamedColorToRgbContextAction_Name" xml:space="preserve">
+    <value>将命名颜色转换为 rgb()</value>
+  </data>
+  <data name="ConvertToHSLA_Text" xml:space="preserve">
+    <value>转换为 HSLA</value>
+  </data>
+  <data name="ReplaceForWithHtmlFor_Text" xml:space="preserve">
+    <value>将 'for' 替换为 'htmlFor'</value>
+  </data>
+  <data name="FlipOperatorArgumentsContextAction_Description" xml:space="preserve">
+    <value>翻转所选运算符的左右实参，例如 'null == x' 到 'x == null'</value>
+  </data>
+  <data name="ConvertIfToSwitchContextAction_Name" xml:space="preserve">
+    <value>将 'if' 转换为 'switch'</value>
+  </data>
+  <data name="ReplaceTernaryWithItsNegatedCondition_Text" xml:space="preserve">
+    <value>将三元替换为其求反条件</value>
+  </data>
+  <data name="InsertTableColumnAfterContextAction_Name" xml:space="preserve">
+    <value>在此后插入表列:</value>
+  </data>
+  <data name="MoveServerScriptContentToCodebehindContextAction_Description" xml:space="preserve">
+    <value>将服务器脚本内容移至 CodeBehind</value>
+  </data>
+  <data name="ReplaceAliasWithQualifierContextAction_Description" xml:space="preserve">
+    <value>将别名替换为完全限定名称</value>
+  </data>
+  <data name="ConvertHslToHexLiteralContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'hsl()' 转换为十六进制字面量</value>
+  </data>
+  <data name="AddParameterToMethodSRouteTemplateContextAction_Description" xml:space="preserve">
+    <value>将方法的形参添加到其路由模板</value>
+  </data>
+  <data name="ConvertIfStatementToTernaryExpressionContextAction_Name" xml:space="preserve">
+    <value>将 'if' 语句转换为三元表达式</value>
+  </data>
+  <data name="SpecifyTypeExplicitlyContextAction_Description" xml:space="preserve">
+    <value>为带赋值的声明显式指定变量类型</value>
+  </data>
+  <data name="MakeMemberStatic_Text" xml:space="preserve">
+    <value>将成员设为 static</value>
+  </data>
+  <data name="RemoveAtSignCharacter_Text" xml:space="preserve">
+    <value>移除 '@' 字符</value>
+  </data>
+  <data name="ReplaceWithDestructuringDeclaration_Text" xml:space="preserve">
+    <value>替换为析构声明</value>
+  </data>
+  <data name="MergeNestedIfStatementsContextAction_Description" xml:space="preserve">
+    <value>将两条嵌套 'if' 语句合并为单条 'if' 语句，用于检查原始条件的合取情况</value>
+  </data>
+  <data name="CreateDerivedTypeContextAction_Name" xml:space="preserve">
+    <value>创建派生类型</value>
+  </data>
+  <data name="FixTypeAnnotation_Text" xml:space="preserve">
+    <value>修正类型注解</value>
+  </data>
+  <data name="ReplaceSingleQuotedStringWithDouble_Text" xml:space="preserve">
+    <value>将带单引号的字符串替换为带双引号的字符串</value>
+  </data>
+  <data name="TsCreateFromUsageAction_ModuleElement" xml:space="preserve">
+    <value>模块元素</value>
+  </data>
+  <data name="ConvertToTemplateString_Text" xml:space="preserve">
+    <value>转换为模板字符串</value>
+  </data>
+  <data name="InCSSWhereExpressionIsExpected_Text" xml:space="preserve">
+    <value>在 CSS 中应为表达式的位置</value>
+  </data>
+  <data name="AddMemberBody_Text" xml:space="preserve">
+    <value>添加成员主体</value>
+  </data>
+  <data name="ReplaceWithNegatedValue_Text" xml:space="preserve">
+    <value>替换为求反后的值</value>
+  </data>
+  <data name="AddVendorSpecificProperties_Text" xml:space="preserve">
+    <value>添加供应商特定的属性</value>
+  </data>
+  <data name="CreateOverloadWithoutParameterContextAction_Description" xml:space="preserve">
+    <value>在缺少指定形参的情况下创建重载签名。如果需要，主签名中的后续形参可被标记为可选。</value>
+  </data>
+  <data name="ConvertToParameterProperty_Text" xml:space="preserve">
+    <value>转换为形参属性</value>
+  </data>
+  <data name="InsertTableColumnAfterContextAction_Description" xml:space="preserve">
+    <value>在此后插入表列:</value>
+  </data>
+  <data name="RemoveRedundantParenthesis_Text" xml:space="preserve">
+    <value>移除冗余的圆括号</value>
+  </data>
+  <data name="AddParenthesesToMakeItObjectLiteral_Text" xml:space="preserve">
+    <value>添加圆括号使其成为对象字面量</value>
+  </data>
+  <data name="RemoveRedundantParenthesisContextAction_Description" xml:space="preserve">
+    <value>如果圆括号冗余，则将其移除</value>
+  </data>
+  <data name="RazorMoveToCodeBehindContextAction_Name" xml:space="preserve">
+    <value>将块移至代码隐藏文件</value>
+  </data>
+  <data name="FixModuleQualification_Text" xml:space="preserve">
+    <value>修正模块限定</value>
+  </data>
+  <data name="ReplaceAll_Tags_Text" xml:space="preserve">
+    <value>替换所有 '{0}' 标记</value>
+  </data>
+  <data name="OptimizeRegisterDirectives_Text" xml:space="preserve">
+    <value>优化 register 指令</value>
+  </data>
+  <data name="ReplaceVarWithItsFallbackValueContextAction_Description" xml:space="preserve">
+    <value>将 var(…) 调用替换为其回滚值(如果有)</value>
+  </data>
+  <data name="TsCreateFromUsageAction_InExternalModuleText" xml:space="preserve">
+    <value>在外部模块 '{2}' 中创建{0} '{1}'</value>
+  </data>
+  <data name="GenerateArgumentStubs_Text" xml:space="preserve">
+    <value>生成实参存根</value>
+  </data>
+  <data name="MoveRestParameterToTheEnd_Text" xml:space="preserve">
+    <value>将 rest 形参移至末尾</value>
+  </data>
+  <data name="ConvertToIfStatement_Text" xml:space="preserve">
+    <value>转换为 if 语句</value>
+  </data>
+  <data name="ConvertIfToSwitchForEnumsContextAction_Name" xml:space="preserve">
+    <value>为枚举将 'if' 转换为 'switch'</value>
+  </data>
+  <data name="CreateFunction__Text" xml:space="preserve">
+    <value>创建函数 '{0}'</value>
+  </data>
+  <data name="ConvertToOperator_Text" xml:space="preserve">
+    <value>转换为 '?:' 运算符</value>
+  </data>
+  <data name="DeclareVariableForThis_InTheOuterScope_Text" xml:space="preserve">
+    <value>在外部作用域内为 'this.{0}' 声明变量</value>
+  </data>
+  <data name="Rename_Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="CreateMethodContextAction_Description" xml:space="preserve">
+    <value>创建方法</value>
+  </data>
+  <data name="FixTypeExplicitness_Text" xml:space="preserve">
+    <value>修正类型显式</value>
+  </data>
+  <data name="MergeServerScriptsContentContextAction_Name" xml:space="preserve">
+    <value>合并服务器脚本内容</value>
+  </data>
+  <data name="RemoveUnneededInitializer_Text" xml:space="preserve">
+    <value>移除不需要的初始值设定项</value>
+  </data>
+  <data name="UnrestifyParameter_Text" xml:space="preserve">
+    <value>将 REST 形参替换为标准形参</value>
+  </data>
+  <data name="UnableToCreateParenthesizedExpression_Text" xml:space="preserve">
+    <value>无法创建带圆括号的表达式</value>
+  </data>
+  <data name="Flip_OperatorTo__Text" xml:space="preserve">
+    <value>将 '{0}' 运算符翻转为 '{1}'</value>
+  </data>
+  <data name="InsertClosingTag__Text" xml:space="preserve">
+    <value>插入结束标记 '{0}'</value>
+  </data>
+  <data name="UseCorrectImageSize_Text" xml:space="preserve">
+    <value>使用正确的图像大小</value>
+  </data>
+  <data name="CSSExpressions_Text" xml:space="preserve">
+    <value>CSS 表达式</value>
+  </data>
+  <data name="RemoveRedundantConstructor_Text" xml:space="preserve">
+    <value>移除冗余构造函数</value>
+  </data>
+  <data name="UseSingleColonInsteadOf_Text" xml:space="preserve">
+    <value>使用 ':' 而不是 '::'</value>
+  </data>
+  <data name="FlipClausesToBeInTheRightOrder_Text" xml:space="preserve">
+    <value>翻转子句以获得正确的顺序</value>
+  </data>
+  <data name="CodeCleanupTask_CssReformatCode" xml:space="preserve">
+    <value>重新格式化代码</value>
+  </data>
+  <data name="RemoveModuleNameQuotes_Text" xml:space="preserve">
+    <value>移除模块名称引号</value>
+  </data>
+  <data name="NegateLogicalExpressionContextAction_Name" xml:space="preserve">
+    <value>对逻辑表达式求反</value>
+  </data>
+  <data name="SetReturnTypeToVoid_Text" xml:space="preserve">
+    <value>将返回值类型设置为 void</value>
+  </data>
+  <data name="RemoveTag__Text" xml:space="preserve">
+    <value>移除标记 '{0}'</value>
+  </data>
+  <data name="AddModuleQualification_Text" xml:space="preserve">
+    <value>添加模块限定</value>
+  </data>
+  <data name="MatchFileNameWithTypeNameContextAction_Description" xml:space="preserve">
+    <value>重命名当前文件，以匹配其中声明的唯一顶层类型的名称</value>
+  </data>
+  <data name="CannotApplyFixCannotFindBlockToWhich_Text" xml:space="preserve">
+    <value>不能应用修正: 找不到添加语句的块</value>
+  </data>
+  <data name="JoinBothLinesIntoASingleStatement_Text" xml:space="preserve">
+    <value>将两行联接为单条语句</value>
+  </data>
+  <data name="RemoveAccessibilityModifiers_Text" xml:space="preserve">
+    <value>移除可访问性修饰符</value>
+  </data>
+  <data name="ToLINQToJSON_Text" xml:space="preserve">
+    <value>转换为 LINQ to JSON</value>
+  </data>
+  <data name="AddRequiredDeclareModifier_Text" xml:space="preserve">
+    <value>添加必选 'declare' 修饰符</value>
+  </data>
+  <data name="MakeEmpty_Tag_Text" xml:space="preserve">
+    <value>设为空 '{0}' 标记</value>
+  </data>
+  <data name="ToBlockLambda_Text" xml:space="preserve">
+    <value>转换为 lambda 块</value>
+  </data>
+  <data name="MoveFunctionStatementUpper_Text" xml:space="preserve">
+    <value>向上移动函数语句</value>
+  </data>
+  <data name="ToDataPropertyDefinition_Text" xml:space="preserve">
+    <value>转换为数据属性定义</value>
+  </data>
+  <data name="ConvertRazorLineMarkupToBlockMarkupContextAction_Name" xml:space="preserve">
+    <value>将 Razor 行标记转换为块标记</value>
+  </data>
+  <data name="ConvertTernaryExpressionToIfStatementContextAction_Description" xml:space="preserve">
+    <value>转换值被返回或赋给 'if' 语句的三元表达式</value>
+  </data>
+  <data name="SplitReturnStatementOfBooleanValueToIfStatementContextAction_Name" xml:space="preserve">
+    <value>将布尔值的 'return' 语句拆分为 'if' 语句</value>
+  </data>
+  <data name="ExpandEmptyTagContextAction_Name" xml:space="preserve">
+    <value>展开空标记</value>
+  </data>
+  <data name="CreateViewComponent__Text" xml:space="preserve">
+    <value>创建视图组件 '{0}'</value>
+  </data>
+  <data name="FixReturnTypeAction_Text" xml:space="preserve">
+    <value>针对成员 '{2}'{3} 为签名 '{1}' 的返回值类型使用类型 '{0}'</value>
+  </data>
+  <data name="DottedNameToNestedModuleContextAction_Description" xml:space="preserve">
+    <value>为点分名称段创建嵌套模块。例如，将 'module A.B.C' 转换为带有嵌套模块 'C' 的 'module 'A.B'。</value>
+  </data>
+  <data name="ToAccessorsWithBackingField_Text" xml:space="preserve">
+    <value>转换为具有支持字段的访问器</value>
+  </data>
+  <data name="IntroduceVariableToApplyGuard_Text" xml:space="preserve">
+    <value>引入变量并应用保护</value>
+  </data>
+  <data name="AddBraces_Text" xml:space="preserve">
+    <value>添加大括号</value>
+  </data>
+  <data name="ImplementAbstractMember_Text" xml:space="preserve">
+    <value>实现 abstract 成员</value>
+  </data>
+  <data name="MakeConstructorProtected_Text" xml:space="preserve">
+    <value>将构造函数设为 protected</value>
+  </data>
+  <data name="Function_Text" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="Expression_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="ConvertToSwitchStatement_Text" xml:space="preserve">
+    <value>转换为 'switch' 语句</value>
+  </data>
+  <data name="RemoveTagContextAction_Name" xml:space="preserve">
+    <value>移除标记</value>
+  </data>
+  <data name="UseNewArray__Text" xml:space="preserve">
+    <value>使用 'new Array&lt;{0}&gt;()'</value>
+  </data>
+  <data name="AddMissingAttributesForImageDimensions_Text" xml:space="preserve">
+    <value>为图像尺寸添加缺失的特性</value>
+  </data>
+  <data name="IncludeFile_IntoProject___Text" xml:space="preserve">
+    <value>在项目 '{1}/{2}' 中包含文件 '{0}'</value>
+  </data>
+  <data name="ConvertColorToHexForm_Text" xml:space="preserve">
+    <value>将颜色转换为十六进制形式</value>
+  </data>
+  <data name="AddInitializer_Text" xml:space="preserve">
+    <value>添加初始值设定项</value>
+  </data>
+  <data name="IntroduceTypeAlias_Text" xml:space="preserve">
+    <value>引入类型别名</value>
+  </data>
+  <data name="ToLINQToJSONContextAction_Name" xml:space="preserve">
+    <value>转换为 LINQ to JSON</value>
+  </data>
+  <data name="DeclareAmbientVariableUsingDeclareKeyword_Text" xml:space="preserve">
+    <value>使用 'declare' 关键字声明环境变量</value>
+  </data>
+  <data name="AddParameterToMinimalAPIDeclarationRouteTemplateContextAction_Name" xml:space="preserve">
+    <value>将形参添加到最小 API 声明路由模板</value>
+  </data>
+  <data name="ReplaceTernaryWithItsCondition_Text" xml:space="preserve">
+    <value>将三元替换为其条件</value>
+  </data>
+  <data name="InlineRedundantTemporaryVariable_Text" xml:space="preserve">
+    <value>内联冗余临时变量</value>
+  </data>
+  <data name="PrependAtSignToRenderReturnValue_Text" xml:space="preserve">
+    <value>在 '@' 前追加以呈现返回值</value>
+  </data>
+  <data name="ImportTypeContextAction_Name" xml:space="preserve">
+    <value>导入类型</value>
+  </data>
+  <data name="FixParameterTypeAction_Text" xml:space="preserve">
+    <value>针对成员 '{3}'{4} 在签名 '{2}' 中为形参 '{1}' 使用类型 '{0}'</value>
+  </data>
+  <data name="ReplaceWithDestructuringAssignment_Text" xml:space="preserve">
+    <value>替换为析构赋值</value>
+  </data>
+  <data name="ConvertColorToRgb_Text" xml:space="preserve">
+    <value>将颜色转换为 rgb()</value>
+  </data>
+  <data name="InitializeField_FromParameter_Text" xml:space="preserve">
+    <value>从形参初始化字段 '{0}'</value>
+  </data>
+  <data name="PutPropertyAfterVendorSpecificProperties_Text" xml:space="preserve">
+    <value>将属性置于供应商特定属性之后</value>
+  </data>
+  <data name="ConvertHexColorToRgbContextAction_Name" xml:space="preserve">
+    <value>十六进制颜色值转换为 rgb()</value>
+  </data>
+  <data name="SplitVariableDeclarationAndAssignmentContextAction_Name" xml:space="preserve">
+    <value>拆分变量声明和赋值</value>
+  </data>
+  <data name="TsCreateFromUsageAction_ExternalScopeText" xml:space="preserve">
+    <value>创建{0} '{1}' 并将文件作用域更改为外部</value>
+  </data>
+  <data name="ReplaceAllTagsContextAction_Description" xml:space="preserve">
+    <value>将文件中的所有同名标记替换为不同的标记</value>
+  </data>
+  <data name="ConvertBinToDecES6ContextAction_Name" xml:space="preserve">
+    <value>将二进制转换为十进制(ES6)</value>
+  </data>
+  <data name="ImplementMissingMembersAbstract_Text" xml:space="preserve">
+    <value>将缺失的成员实现为 abstract</value>
+  </data>
+  <data name="RemoveReturnStatement_Text" xml:space="preserve">
+    <value>移除 return 语句</value>
+  </data>
+  <data name="AddQuotes_Text" xml:space="preserve">
+    <value>添加引号</value>
+  </data>
+  <data name="LineBreaks_Text" xml:space="preserve">
+    <value>换行</value>
+  </data>
+  <data name="ChangeLanguageLevelToECMAScript2016_Text" xml:space="preserve">
+    <value>将语言级别更改为 ECMAScript 2016</value>
+  </data>
+  <data name="ExplicitlySpecifyElidedTrailingElementsAsNull_Text" xml:space="preserve">
+    <value>将省略的尾随元素显式指定为 'null'</value>
+  </data>
+  <data name="DeclareLocalVariable__Text" xml:space="preserve">
+    <value>声明局部变量 '{0}'</value>
+  </data>
+  <data name="UnsupportedCodeBehindLanguage_Text" xml:space="preserve">
+    <value>不支持的代码隐藏语言</value>
+  </data>
+  <data name="CodeCleanupTask_CssAlphabetizeProperties" xml:space="preserve">
+    <value>按字母顺序排列属性</value>
+  </data>
+  <data name="ReverseAssignmentStatementContextAction_Name" xml:space="preserve">
+    <value>反转赋值语句</value>
+  </data>
+  <data name="AddFunctionBody_Text" xml:space="preserve">
+    <value>添加函数体</value>
+  </data>
+  <data name="Remove_Tag_Text" xml:space="preserve">
+    <value>移除 '{0}' 标记</value>
+  </data>
+  <data name="CreateStyle__Text" xml:space="preserve">
+    <value>创建样式 {0}</value>
+  </data>
+  <data name="ConvertsExpressionLambdaToBlockLambdaWithReturnContextAction_Name" xml:space="preserve">
+    <value>将表达式 lambda 转换为带有返回值的块 lambda</value>
+  </data>
+  <data name="ChangeToExtends_Text" xml:space="preserve">
+    <value>更改为 'extends'</value>
+  </data>
+  <data name="ConvertMemberAssignedByALambdaExpressionToFunctionMemberContextAction_Name" xml:space="preserve">
+    <value>将 lambda 表达式赋值的成员转换为函数成员</value>
+  </data>
+  <data name="ImplementMissingMembers_Text" xml:space="preserve">
+    <value>实现缺少的成员</value>
+  </data>
+  <data name="CreatePropertyFromUsageContextAction_Description" xml:space="preserve">
+    <value>从用法创建属性、函数、局部变量或形参</value>
+  </data>
+  <data name="ReplaceWithDestructuringAndShortHand_Text" xml:space="preserve">
+    <value>替换为析构和速记属性</value>
+  </data>
+  <data name="RenamingConflictingDeclaration_Text" xml:space="preserve">
+    <value>重命名冲突声明</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToGetAccessorPropertyDefinitionContextAction_Name" xml:space="preserve">
+    <value>将构造函数中的属性赋值转换为 get-accessor 属性定义</value>
+  </data>
+  <data name="ConvertCastToAsOperator_Text" xml:space="preserve">
+    <value>将 cast 转换为 'as' 运算符</value>
+  </data>
+  <data name="CreateOverloadWithoutParameter_Text" xml:space="preserve">
+    <value>创建不带形参的重载</value>
+  </data>
+  <data name="ConvertOctToDecES6ContextAction_Name" xml:space="preserve">
+    <value>将八进制转换为十进制(ES6)</value>
+  </data>
+  <data name="AddParameterConstraintToMatchingParametersInRouteTemplatesContextAction_Description" xml:space="preserve">
+    <value>将形参约束添加到路由模板中的匹配形参</value>
+  </data>
+  <data name="RemoveTagContextAction_Description" xml:space="preserve">
+    <value>移除标记，保留其内容不变</value>
+  </data>
+  <data name="RemoveUnitOfMeasure_Text" xml:space="preserve">
+    <value>移除计量单位</value>
+  </data>
+  <data name="DisableAndRestoreWithComments_Text" xml:space="preserve">
+    <value>使用注释禁用和还原</value>
+  </data>
+  <data name="EditPathMappingContextAction_Name" xml:space="preserve">
+    <value>编辑路径映射</value>
+  </data>
+  <data name="NestedModuleToDottedNameContextAction_Description" xml:space="preserve">
+    <value>将嵌套的单个导出模块合并为点分名称。例如，将带有嵌套导出 'module C' 的 'module A.B' 转换为 'module A.B.C'。</value>
+  </data>
+  <data name="ConvertRgbToNamedFormContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'rgb()' 转换为命名形式</value>
+  </data>
+  <data name="AddParameterConstraintToMatchingParametersInRouteTemplatesContextAction_Name" xml:space="preserve">
+    <value>将形参约束添加到路由模板中的匹配形参</value>
+  </data>
+  <data name="CreateConstructorWithProvidedParameters_Text" xml:space="preserve">
+    <value>在基类中使用提供的形参创建构造函数</value>
+  </data>
+  <data name="Remove_Attribute_Text" xml:space="preserve">
+    <value>移除 '{0}' 特性</value>
+  </data>
+  <data name="Property_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="MoveIntoSeparateGlobalFile_Text" xml:space="preserve">
+    <value>移至单独的全局文件</value>
+  </data>
+  <data name="AddRequiredSuperCall_Text" xml:space="preserve">
+    <value>添加必选 super() 调用</value>
+  </data>
+  <data name="ChangeTypeTo_ToSatisfyConstraint__Text" xml:space="preserve">
+    <value>将类型更改为 '{0}' 以满足约束 '{1}'</value>
+  </data>
+  <data name="IntroduceVariableFromExpressionStatementContextAction_Name" xml:space="preserve">
+    <value>从表达式语句引入变量</value>
+  </data>
+  <data name="DeclareModuleAsAmbient_Text" xml:space="preserve">
+    <value>将模块声明为环境</value>
+  </data>
+  <data name="CannotApplyFixProbablyTheActualType_Text" xml:space="preserve">
+    <value>不能应用修正: 实际类型可能未解析</value>
+  </data>
+  <data name="TerminateAllUnterminatedStatementsIn_Text" xml:space="preserve">
+    <value>终止文件中的所有未终止语句</value>
+  </data>
+  <data name="SplitIntoIfAndReturn_Text" xml:space="preserve">
+    <value>拆分为 'if' 和 'return'</value>
+  </data>
+  <data name="ConvertRazorBlockMarkupToLineMarkupContextAction_Name" xml:space="preserve">
+    <value>将 Razor 块标记转换为行标记</value>
+  </data>
+  <data name="ConvertAllObsoleteConstructsToECMAScript_Text" xml:space="preserve">
+    <value>将所有过时的构造转换为 ECMAScript 6</value>
+  </data>
+  <data name="ReplaceVarWithItsFallbackValue_Text" xml:space="preserve">
+    <value>将 var(…) 替换为其回滚值</value>
+  </data>
+  <data name="ChangeLanguageLevelToECMAScript2015_Text" xml:space="preserve">
+    <value>将语言级别更改为 ECMAScript 2015</value>
+  </data>
+  <data name="CreateOverloadWithoutParameterContextAction_Name" xml:space="preserve">
+    <value>创建不带形参的重载</value>
+  </data>
+  <data name="SortJSONPropertiesContextAction_Name" xml:space="preserve">
+    <value>对 JSON 属性排序</value>
+  </data>
+  <data name="QuotePropertyName_Text" xml:space="preserve">
+    <value>为属性名称加引号</value>
+  </data>
+  <data name="ConvertToBinES6ContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从十进制转换为二进制形式</value>
+  </data>
+  <data name="SplitReturnWithConditionIntoGuardingIfAndReturnContextAction_Description" xml:space="preserve">
+    <value>适用于 'return' 语句，其条件是两个更简单条件的合取('&amp;&amp;')。它将 'return' 语句转换为保护 'if' 语句和 'return'。</value>
+  </data>
+  <data name="RemoveUnused__Text" xml:space="preserve">
+    <value>移除未使用的{0}</value>
+  </data>
+  <data name="CreateClass_InModule___Text" xml:space="preserve">
+    <value>在模块 '{1}' {2} 中创建类 '{0}'</value>
+  </data>
+  <data name="RemoveDeadCode_Text" xml:space="preserve">
+    <value>移除死代码</value>
+  </data>
+  <data name="SplitIntoSeparateDeclarations_Text" xml:space="preserve">
+    <value>拆分为单独的声明</value>
+  </data>
+  <data name="MoveTypeToAnotherFileToMatchItsNameContextAction_Description" xml:space="preserve">
+    <value>将当前类型移至另一个文件，使其名称与该类型的名称相匹配</value>
+  </data>
+  <data name="AddJsDocCommentsContextAction_Name" xml:space="preserve">
+    <value>添加 JsDoc 注释</value>
+  </data>
+  <data name="AddUseStrictStatement_Text" xml:space="preserve">
+    <value>添加 'use strict' 语句</value>
+  </data>
+  <data name="MediaQuery_Text" xml:space="preserve">
+    <value>媒体查询</value>
+  </data>
+  <data name="AddCodeBehindFileContextAction_Description" xml:space="preserve">
+    <value>添加 CodeBehind 文件</value>
+  </data>
+  <data name="InsertTableColumnBeforeContextAction_Name" xml:space="preserve">
+    <value>在此前插入表列:</value>
+  </data>
+  <data name="Make_Public_Text" xml:space="preserve">
+    <value>将 {0} 设为 public</value>
+  </data>
+  <data name="AddXmlDocComments_Text" xml:space="preserve">
+    <value>添加 xml-doc 注释</value>
+  </data>
+  <data name="FixParenthesesBracketsNesting_Text" xml:space="preserve">
+    <value>修正圆括号/中括号嵌套</value>
+  </data>
+  <data name="FixPropertyName_Text" xml:space="preserve">
+    <value>修正属性名称</value>
+  </data>
+  <data name="SpecifyReturnType_Explicitly_Text" xml:space="preserve">
+    <value>显式指定返回值类型 '{0}'</value>
+  </data>
+  <data name="InsertTableColumnAfter_Text" xml:space="preserve">
+    <value>在此后插入表列:</value>
+  </data>
+  <data name="CSSFiles_Text" xml:space="preserve">
+    <value>CSS 文件</value>
+  </data>
+  <data name="AddChangeQuotesEverywhere_Text" xml:space="preserve">
+    <value>添加/更改所有位置的引号</value>
+  </data>
+  <data name="ConvertToClassField_Text" xml:space="preserve">
+    <value>转换为类字段</value>
+  </data>
+  <data name="CannotApplyFixCannotResolveBaseType_Text" xml:space="preserve">
+    <value>不能应用修正: 不能解析基类型</value>
+  </data>
+  <data name="RemoveDirectiveAttributeContextAction_Description" xml:space="preserve">
+    <value>移除指令特性</value>
+  </data>
+  <data name="CreateMethod__Text" xml:space="preserve">
+    <value>创建方法 '{0}'</value>
+  </data>
+  <data name="MakePathAbsolute_Text" xml:space="preserve">
+    <value>将路径设为绝对</value>
+  </data>
+  <data name="MakeAllOverloadsNonStatic_Text" xml:space="preserve">
+    <value>将所有重载设为非 static</value>
+  </data>
+  <data name="MakeAllFurtherParametersStartingFrom_Text" xml:space="preserve">
+    <value>将此形参和以下所有形参设为可选</value>
+  </data>
+  <data name="SurroundWithTypeGuard_SurroundWith" xml:space="preserve">
+    <value>使用 '{0}' 包围</value>
+  </data>
+  <data name="ReplaceTagContextAction_Name" xml:space="preserve">
+    <value>替换标记</value>
+  </data>
+  <data name="Remove__Text" xml:space="preserve">
+    <value>移除 '{0}'</value>
+  </data>
+  <data name="ConvertFieldToParameterPropertyContextAction_Name" xml:space="preserve">
+    <value>将字段转换为形参属性</value>
+  </data>
+  <data name="ConvertToDecFromHexContextAction_Name" xml:space="preserve">
+    <value>转换为十进制</value>
+  </data>
+  <data name="ConvertHslToRgbContextAction_Name" xml:space="preserve">
+    <value>将 hsl() 转换为 rgb()</value>
+  </data>
+  <data name="GeneratingFileAlreadyExists_Text" xml:space="preserve">
+    <value>生成文件已经存在</value>
+  </data>
+  <data name="SortProperties_Text" xml:space="preserve">
+    <value>对属性排序</value>
+  </data>
+  <data name="MergeServerScriptsContentContextAction_Description" xml:space="preserve">
+    <value>合并服务器脚本内容</value>
+  </data>
+  <data name="AddExplicitNull_Text" xml:space="preserve">
+    <value>添加显式 'null'</value>
+  </data>
+  <data name="ConvertTernaryExpressionToIfStatementContextAction_Name" xml:space="preserve">
+    <value>将三元表达式转换为 'if' 语句</value>
+  </data>
+  <data name="ChangeVisibilityModifierContextAction_Name" xml:space="preserve">
+    <value>更改可见性修饰符</value>
+  </data>
+  <data name="MakeAllOverloadsNonExported_Text" xml:space="preserve">
+    <value>将所有重载设为未导出</value>
+  </data>
+  <data name="CannotApplyFixCannotDetermineTypeOf_Text" xml:space="preserve">
+    <value>不能应用修正: 不能确定 {0} 的类型</value>
+  </data>
+  <data name="AddAsAnOptionalParameterToTheMainSignature_Text" xml:space="preserve">
+    <value>作为可选形参添加到主签名</value>
+  </data>
+  <data name="RemoveNewKeyword_Text" xml:space="preserve">
+    <value>移除 'new' 关键字</value>
+  </data>
+  <data name="MakeVariable_BlockScope_Text" xml:space="preserve">
+    <value>将变量 '{0}' 设为块作用域</value>
+  </data>
+  <data name="RemoveRedundantQualifier_Text" xml:space="preserve">
+    <value>移除冗余的限定符</value>
+  </data>
+  <data name="RemoveUnneededTypeSpecializer_Text" xml:space="preserve">
+    <value>移除不需要的类型专门化设定项</value>
+  </data>
+  <data name="CreateMissingAttribute__Text" xml:space="preserve">
+    <value>创建缺失的特性 '{0}'</value>
+  </data>
+  <data name="AddExplicitAnyAnnotationFix_CastText" xml:space="preserve">
+    <value>显式转换为 '{0}'</value>
+  </data>
+  <data name="CreateView__Text" xml:space="preserve">
+    <value>创建视图 '{0}'</value>
+  </data>
+  <data name="AddBlock_Text" xml:space="preserve">
+    <value>添加块</value>
+  </data>
+  <data name="RemoveAllParametersExcept__Text" xml:space="preserve">
+    <value>移除 '{0}' 之外的所有形参</value>
+  </data>
+  <data name="ConvertToDecFromOctContextAction_Name" xml:space="preserve">
+    <value>转换为十进制</value>
+  </data>
+  <data name="RemoveUnusedClass_Text" xml:space="preserve">
+    <value>移除未使用的类</value>
+  </data>
+  <data name="ReverseAssignment_Text" xml:space="preserve">
+    <value>反转赋值</value>
+  </data>
+  <data name="FixAllValidationIssues_Text" xml:space="preserve">
+    <value>修正所有验证问题</value>
+  </data>
+  <data name="RemoveRedundantLocalFunctionName_Text" xml:space="preserve">
+    <value>移除冗余局部函数名称</value>
+  </data>
+  <data name="CreateTypeFromUsageContextAction_Name" xml:space="preserve">
+    <value>从用法创建</value>
+  </data>
+  <data name="MoveTo_Ts_Text" xml:space="preserve">
+    <value>移至 '{0}.ts'</value>
+  </data>
+  <data name="CastToAny_Text" xml:space="preserve">
+    <value>转换为 'any'</value>
+  </data>
+  <data name="UseType_ForTheReturnTypeOf_IndexerIn_Text" xml:space="preserve">
+    <value>使用类型 '{0}' 作为类型 '{2}' 中{1}索引器的返回值类型</value>
+  </data>
+  <data name="RemoveAmbientMemberBody_Text" xml:space="preserve">
+    <value>移除环境成员主体</value>
+  </data>
+  <data name="ConvertToOctContextAction_Name" xml:space="preserve">
+    <value>转换为八进制</value>
+  </data>
+  <data name="SetReturnTypeToAny_Text" xml:space="preserve">
+    <value>将返回值类型设为 any</value>
+  </data>
+  <data name="MergeTwoIfS_Text" xml:space="preserve">
+    <value>合并两条 'if'</value>
+  </data>
+  <data name="UnrestifyPrecedingRestParameter_Text" xml:space="preserve">
+    <value>将前面的 REST 形参替换为标准形参</value>
+  </data>
+  <data name="SpecifyReturnTypeExplicitlyContextAction_Name" xml:space="preserve">
+    <value>显式指定返回值类型</value>
+  </data>
+  <data name="ChangeLanguageLevelToExperimental_Text" xml:space="preserve">
+    <value>将语言级别更改为实验性</value>
+  </data>
+  <data name="GenerateDeclarationSourceFile_DTsFor_Text" xml:space="preserve">
+    <value>为 '{1}' 全局变量生成声明源文件 {0}.d.ts</value>
+  </data>
+  <data name="AddParameterToMinimalAPIDeclarationRouteTemplateContextAction_Description" xml:space="preserve">
+    <value>将形参添加到最小 API 声明路由形参</value>
+  </data>
+  <data name="MakeSuperCallTheFirstStatement_Text" xml:space="preserve">
+    <value>将 super() 调用设为第一条语句</value>
+  </data>
+  <data name="ConvertParameterPropertyToFieldContextAction_Name" xml:space="preserve">
+    <value>将形参属性转换为字段</value>
+  </data>
+  <data name="ConvertsSingleReturnBlockLambdaToExpressionContextAction_Description" xml:space="preserve">
+    <value>将单 return 块 lambda 转换为表达式 lambda</value>
+  </data>
+  <data name="RemoveRedundantFinally_Text" xml:space="preserve">
+    <value>移除冗余 'finally'</value>
+  </data>
+  <data name="Negate_Expression_Text" xml:space="preserve">
+    <value>对 '{0}' 表达式求反</value>
+  </data>
+  <data name="AlphabetizeProperties_Name_Sort_CSS_properties" xml:space="preserve">
+    <value>对 CSS 属性排序</value>
+  </data>
+  <data name="CreateProperty__Text" xml:space="preserve">
+    <value>创建属性 '{0}'</value>
+  </data>
+  <data name="CorrectVariableKinds_Text" xml:space="preserve">
+    <value>更正变量种类</value>
+  </data>
+  <data name="AddParameter__Text" xml:space="preserve">
+    <value>添加形参 '{0}'</value>
+  </data>
+  <data name="AddXmlDocCommentsContextAction_Description" xml:space="preserve">
+    <value>添加 xml-doc 注释</value>
+  </data>
+  <data name="GenerateDeclarationSourceFile_DTsForAllGlobalDynamicProperty_Text" xml:space="preserve">
+    <value>从 {1}.js 文件为所有全局动态属性生成声明源文件 {0}.d.ts</value>
+  </data>
+  <data name="AddParameterToMethodSRouteTemplateContextAction_Name" xml:space="preserve">
+    <value>将形参添加到方法的路由模板</value>
+  </data>
+  <data name="UseAnyExplicitly_Text" xml:space="preserve">
+    <value>显式使用 'any*'</value>
+  </data>
+  <data name="TsCreateFromUsageAction_Class" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="ConvertRgbToHslContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'rgb()' 转换为 'hsl()'</value>
+  </data>
+  <data name="MergeServerScriptsContent_Text" xml:space="preserve">
+    <value>合并服务器脚本内容</value>
+  </data>
+  <data name="InsertTableRowAfterContextAction_Description" xml:space="preserve">
+    <value>在此后插入表行:</value>
+  </data>
+  <data name="MoveVariable_ToInnerBlock_Text" xml:space="preserve">
+    <value>将变量 '{0}' 移至内部块</value>
+  </data>
+  <data name="CreateVariable__Text" xml:space="preserve">
+    <value>创建变量 '{0}'</value>
+  </data>
+  <data name="ConvertRgbToHexLiteralContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'rgb()' 转换为十六进制字面量</value>
+  </data>
+  <data name="SplitIfWithConditionIntoTwoIfStatementsContextAction_Description" xml:space="preserve">
+    <value>适用于 'if' 语句，其条件是两个更简单条件的析取('||')。它将 'if' 语句转换为两条主体相同的 'if' 语句。</value>
+  </data>
+  <data name="CreatePairedAccessorContextAction_Name" xml:space="preserve">
+    <value>创建配对的访问器</value>
+  </data>
+  <data name="RazorReservedKeywordQuickFix_Text" xml:space="preserve">
+    <value>使用 @() 包装</value>
+  </data>
+  <data name="RemoveRedundantDoubleNegation_Text" xml:space="preserve">
+    <value>移除冗余双重求反</value>
+  </data>
+  <data name="ChangeToECMAScript6ExportDefault_Text" xml:space="preserve">
+    <value>更改为 ECMAScript 6 'export default'</value>
+  </data>
+  <data name="ConvertObjectLiteralPropertyToAccessorsPairWithBackingFieldContextAction_Description" xml:space="preserve">
+    <value>将对象字面量属性转换为具有支持字段的 ECMAScript 5 访问器对</value>
+  </data>
+  <data name="RemoveProperty__Text" xml:space="preserve">
+    <value>移除属性 '{0}'</value>
+  </data>
+  <data name="AddAnOwnTypeParameterNamed_ToTheMethod_Text" xml:space="preserve">
+    <value>将自己名为 {0} 的类型形参添加到方法</value>
+  </data>
+  <data name="ConvertToASPNETTag_Text" xml:space="preserve">
+    <value>转换为 ASP.NET 标记</value>
+  </data>
+  <data name="CreateDerivedType_Text" xml:space="preserve">
+    <value>创建派生类型</value>
+  </data>
+  <data name="SplitIfWithConditionIntoNestedIfStatementsContextAction_Description" xml:space="preserve">
+    <value>适用于 'if' 语句，其值是两个更简单条件的合取('&amp;&amp;')。它将 'if' 语句转换为两条嵌套 'if' 语句。</value>
+  </data>
+  <data name="ConvertRazorLineMarkupToBlockMarkupContextAction_Description" xml:space="preserve">
+    <value>将 Razor 行标记转换为块标记</value>
+  </data>
+  <data name="UseDoubleColonInsteadOf_Text" xml:space="preserve">
+    <value>使用 '::' 而不是 ':'</value>
+  </data>
+  <data name="RemoveDeclaration_Text" xml:space="preserve">
+    <value>移除声明</value>
+  </data>
+  <data name="RemoveTypeParameters_Text" xml:space="preserve">
+    <value>移除类型形参</value>
+  </data>
+  <data name="MergeImplementsClauses_Text" xml:space="preserve">
+    <value>合并 implements 子句</value>
+  </data>
+  <data name="MoveImportToExternalModuleScopeChanges_Text" xml:space="preserve">
+    <value>将 import 移至外部模块作用域(根据需要更改作用域)</value>
+  </data>
+  <data name="RemoveTypeConstraintFromDeclaration_Text" xml:space="preserve">
+    <value>从声明中移除类型约束</value>
+  </data>
+  <data name="AddMissingParameter_Text" xml:space="preserve">
+    <value>添加缺失的形参</value>
+  </data>
+  <data name="FixValue_Text" xml:space="preserve">
+    <value>修正值</value>
+  </data>
+  <data name="ReplaceDoubleQuotedStringWithSingle_Text" xml:space="preserve">
+    <value>将带双引号的字符串替换为带单引号的字符串</value>
+  </data>
+  <data name="ReorderPropertiesInACorrectInitialization_Text" xml:space="preserve">
+    <value>以正确的初始化顺序对属性重新排序</value>
+  </data>
+  <data name="ConvertHslToNamedFormContextAction_Name" xml:space="preserve">
+    <value>将 hsl() 转换为命名形式</value>
+  </data>
+  <data name="InvertTernaryConditionContextAction_Description" xml:space="preserve">
+    <value>反转条件并交换三元表达式的分支</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToDataPropertyDefinitionContextAction_Description" xml:space="preserve">
+    <value>通过 'Object.defineProperty()' 调用将构造函数中的属性赋值转换为数据属性定义</value>
+  </data>
+  <data name="RenameHidingTypeParameter_Text" xml:space="preserve">
+    <value>重命名隐藏类型形参</value>
+  </data>
+  <data name="ChangeTypeScriptLevelTo__Text" xml:space="preserve">
+    <value>将 TypeScript 级别更改为 {0}</value>
+  </data>
+  <data name="SpecifyType_Explicitly_Text" xml:space="preserve">
+    <value>显式指定类型 '{0}'</value>
+  </data>
+  <data name="ConvertToOctContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从十进制转换为八进制形式</value>
+  </data>
+  <data name="DeleteCodeFileAttribute_Text" xml:space="preserve">
+    <value>删除 CodeFile 特性</value>
+  </data>
+  <data name="Rename___Text" xml:space="preserve">
+    <value>重命名 '{0}' {1}</value>
+  </data>
+  <data name="ReorderTagAttributesContextAction_Description" xml:space="preserve">
+    <value>按字母顺序对标记特性重新排序</value>
+  </data>
+  <data name="ChangeNameTo__Text" xml:space="preserve">
+    <value>将名称更改为 {0}</value>
+  </data>
+  <data name="ConvertToHex_Text" xml:space="preserve">
+    <value>转换为十六进制</value>
+  </data>
+  <data name="MoveTypesToMatchingFiles_Text" xml:space="preserve">
+    <value>将类型移至匹配的文件</value>
+  </data>
+  <data name="RemoveRedundantTypeSpecification_Text" xml:space="preserve">
+    <value>移除冗余的类型规范</value>
+  </data>
+  <data name="ChangeViewModelTypeTo__Text" xml:space="preserve">
+    <value>将视图模型类型更改为 '{0}'</value>
+  </data>
+  <data name="RemoveAlphaComponent_Text" xml:space="preserve">
+    <value>移除 alpha 组件</value>
+  </data>
+  <data name="MakeMember_OfModule_Exported_Text" xml:space="preserve">
+    <value>将模块 '{1}' 的成员 '{0}' 设为已导出</value>
+  </data>
+  <data name="CreateViewComponentView__Text" xml:space="preserve">
+    <value>创建视图组件视图 '{0}'</value>
+  </data>
+  <data name="ConvertColorToHsl_Text" xml:space="preserve">
+    <value>将颜色转换为 hsl()</value>
+  </data>
+  <data name="ConvertToHexContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从十进制转换为十六进制形式</value>
+  </data>
+  <data name="RemoveTagAttributeContextAction_Name" xml:space="preserve">
+    <value>移除标记特性</value>
+  </data>
+  <data name="AddCodeBehindFileContextAction_Name" xml:space="preserve">
+    <value>添加 CodeBehind 文件</value>
+  </data>
+  <data name="SplitReturnWithConditionIntoGuardingIfAndReturnContextAction_Name" xml:space="preserve">
+    <value>将带有 '&amp;&amp;' 条件的 'return' 拆分为保护 'if' 和 'return'</value>
+  </data>
+  <data name="RazorMoveToCodeBehindContextAction_Description" xml:space="preserve">
+    <value>将 Blazor @code 块移至具有相应名称的代码隐藏文件中。如果文件不存在，则创建该文件。</value>
+  </data>
+  <data name="ConvertToBin_Text" xml:space="preserve">
+    <value>转换为二进制</value>
+  </data>
+  <data name="ConvertHTMLEntityContextAction_Description" xml:space="preserve">
+    <value>将 HTML 实体在编号形式和命名形式之间转换</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToGetAccessorPropertyDefinitionContextAction_Description" xml:space="preserve">
+    <value>通过 'Object.defineProperty()' 调用将构造函数中的属性赋值转换为 get-accessor 属性定义</value>
+  </data>
+  <data name="RemoveTypeParametersList_Text" xml:space="preserve">
+    <value>移除类型形参列表</value>
+  </data>
+  <data name="MakeAllVariablesFromThisListConstant_Text" xml:space="preserve">
+    <value>将此列表中的所有变量设为常量</value>
+  </data>
+  <data name="AddMissingParametersFromRouteTemplate_Text" xml:space="preserve">
+    <value>从路由模板添加缺少的形参</value>
+  </data>
+  <data name="CreatePropertyFromSubPropertyContextAction_Description" xml:space="preserve">
+    <value>从子属性创建属性</value>
+  </data>
+  <data name="RazorNullConditionalOperatorQuickFix_Text" xml:space="preserve">
+    <value>将表达式包装到圆括号中</value>
+  </data>
+  <data name="OptimizeImportStatements_Text" xml:space="preserve">
+    <value>优化 'import' 语句</value>
+  </data>
+  <data name="MakeAllOverloadsExported_Text" xml:space="preserve">
+    <value>将所有重载设为已导出</value>
+  </data>
+  <data name="AddReturnStatement_Text" xml:space="preserve">
+    <value>添加 return 语句</value>
+  </data>
+  <data name="AddThisQualifier_Text" xml:space="preserve">
+    <value>添加 'this' 限定符</value>
+  </data>
+  <data name="ConvertToOct_Text" xml:space="preserve">
+    <value>转换为八进制</value>
+  </data>
+  <data name="MoveBlockToCodeBehind_Text" xml:space="preserve">
+    <value>将块移至代码隐藏文件</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToAccessorPropertyDefinitionWithBackingFieldContextAction_Name" xml:space="preserve">
+    <value>将构造函数中的属性赋值转换为具有支持字段的访问器属性定义</value>
+  </data>
+  <data name="CreateMethodContextAction_Name" xml:space="preserve">
+    <value>创建方法</value>
+  </data>
+  <data name="UseBaseCommonTypeAction_Text" xml:space="preserve">
+    <value>为成员 '{1}'{2} 使用类型 '{0}'</value>
+  </data>
+  <data name="JoinLocalVariableDeclarationAndAssignmentContextAction_Name" xml:space="preserve">
+    <value>联接局部变量声明和赋值</value>
+  </data>
+  <data name="ExtractStyle_Text" xml:space="preserve">
+    <value>提取样式</value>
+  </data>
+  <data name="AddPublicModifier_Text" xml:space="preserve">
+    <value>添加 'public' 修饰符</value>
+  </data>
+  <data name="RemoveCodeBehindFile_Text" xml:space="preserve">
+    <value>移除 CodeBehind 文件</value>
+  </data>
+  <data name="InsertTableColumnBefore_Text" xml:space="preserve">
+    <value>在此前插入表列:</value>
+  </data>
+  <data name="ReplaceSingleQuotedStringLiteralWithDoubleQuotedContextAction_Name" xml:space="preserve">
+    <value>将单引号字符串字面量替换为双引号字符串字面量</value>
+  </data>
+  <data name="RemoveValue_Text" xml:space="preserve">
+    <value>移除值</value>
+  </data>
+  <data name="ConvertObjectLiteralPropertyToGetAccessorContextAction_Description" xml:space="preserve">
+    <value>将对象字面量属性转换为 ECMAScript 5 get-accessor</value>
+  </data>
+  <data name="ImportType_Text" xml:space="preserve">
+    <value>导入类型</value>
+  </data>
+  <data name="AddMissingComma_Text" xml:space="preserve">
+    <value>添加缺失的逗号</value>
+  </data>
+  <data name="AddUnitOfMeasure_Text" xml:space="preserve">
+    <value>添加计量单位</value>
+  </data>
+  <data name="CreatePartialView__Text" xml:space="preserve">
+    <value>创建分部视图 '{0}'</value>
+  </data>
+  <data name="MakeBothAccessorsPrivate_Text" xml:space="preserve">
+    <value>将两个访问器设为 private</value>
+  </data>
+  <data name="ConvertHexColorToNamedContextAction_Name" xml:space="preserve">
+    <value>将十六进制颜色转换为命名形式</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToDataPropertyDefinitionContextAction_Name" xml:space="preserve">
+    <value>将构造函数中的属性赋值转换为数据属性定义</value>
+  </data>
+  <data name="ConvertColorToNamedForm_Text" xml:space="preserve">
+    <value>将颜色转换为命名形式</value>
+  </data>
+  <data name="SplitReturnWithConditionIntoAssignmentToTemporaryVariableContextAction_Description" xml:space="preserve">
+    <value>适用于 'return' 语句，其值是两个更简单条件的析取('||')。它将 'return' 语句转换为保护 'if' 语句和 'return'。</value>
+  </data>
+  <data name="RemoveRedundantLocalClassName_Text" xml:space="preserve">
+    <value>移除冗余局部类名</value>
+  </data>
+  <data name="ToDottedName_Text" xml:space="preserve">
+    <value>到点分名称</value>
+  </data>
+  <data name="ToNestedModule_Text" xml:space="preserve">
+    <value>到嵌套模块</value>
+  </data>
+  <data name="SplitIfWithConditionIntoTwoIfStatementsContextAction_Name" xml:space="preserve">
+    <value>将带有 '||' 条件的 'if' 拆分为两条 'if' 语句</value>
+  </data>
+  <data name="ConvertHTMLEntityContextAction_Name" xml:space="preserve">
+    <value>转换 HTML 实体</value>
+  </data>
+  <data name="ChangeSignatureOf__Text" xml:space="preserve">
+    <value>更改 '{0}' 的签名</value>
+  </data>
+  <data name="AddValue_Text" xml:space="preserve">
+    <value>添加值</value>
+  </data>
+  <data name="ImportControl_Text" xml:space="preserve">
+    <value>导入控制</value>
+  </data>
+  <data name="ReverseAssignmentStatementContextAction_Description" xml:space="preserve">
+    <value>反转赋值语句的源和目标部分</value>
+  </data>
+  <data name="ConvertTagContextAction_Description" xml:space="preserve">
+    <value>转换标记</value>
+  </data>
+  <data name="InsertTableRowBeforeContextAction_Description" xml:space="preserve">
+    <value>在此前插入表行:</value>
+  </data>
+  <data name="AddNew_Text" xml:space="preserve">
+    <value>添加 'new'</value>
+  </data>
+  <data name="AddConstraint_ToMatchingParametersIn_Text" xml:space="preserve">
+    <value>将约束 '{0}' 添加到路由模板中的匹配形参</value>
+  </data>
+  <data name="WrapToGetAccessor_Text" xml:space="preserve">
+    <value>换行到 get-accessor</value>
+  </data>
+  <data name="Close_Tag_Text" xml:space="preserve">
+    <value>关闭 '{0}' 标记</value>
+  </data>
+  <data name="RemoveUnusedFunction_Text" xml:space="preserve">
+    <value>移除未使用的函数</value>
+  </data>
+  <data name="ReformatCode_Name_Reformat_CSS" xml:space="preserve">
+    <value>重新格式化 CSS</value>
+  </data>
+  <data name="UncommentContextAction_Name" xml:space="preserve">
+    <value>撤消注释</value>
+  </data>
+  <data name="AddParentheses_Text" xml:space="preserve">
+    <value>添加圆括号</value>
+  </data>
+  <data name="ComputeConstantValueContextAction_Description" xml:space="preserve">
+    <value>计算当前表达式的值并将进行替换(例如，将 1 + 1 替换为 2)</value>
+  </data>
+  <data name="TryToJoinValuesAsString_Text" xml:space="preserve">
+    <value>尝试将值联接为字符串</value>
+  </data>
+  <data name="ChangeTypesOfBothAccessorsToTheSame_Text" xml:space="preserve">
+    <value>将两个访问器的类型更改为相同类型</value>
+  </data>
+  <data name="ConvertConcatenationToTemplateStringContextAction_Name" xml:space="preserve">
+    <value>将串联转换为模板字符串</value>
+  </data>
+  <data name="MakeFieldReadonly_Text" xml:space="preserve">
+    <value>将字段设为只读</value>
+  </data>
+  <data name="ConvertParameterToLocalVariable_Text" xml:space="preserve">
+    <value>将形参转换为局部变量</value>
+  </data>
+  <data name="CreateOverload_Text" xml:space="preserve">
+    <value>创建重载</value>
+  </data>
+  <data name="CastTo__Text" xml:space="preserve">
+    <value>转换为 '{0}'</value>
+  </data>
+  <data name="RemoveRedundantElseBlock_Text" xml:space="preserve">
+    <value>移除冗余 'else' 块</value>
+  </data>
+  <data name="Replace_With__Text" xml:space="preserve">
+    <value>将 '{0}' 替换为 '{1}'</value>
+  </data>
+  <data name="NestedModuleToDottedNameContextAction_Name" xml:space="preserve">
+    <value>嵌套模块到点分名称</value>
+  </data>
+  <data name="RemoveDuplicatedExtendsClause_Text" xml:space="preserve">
+    <value>移除重复 extends 子句</value>
+  </data>
+  <data name="Other_Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="ConvertObjectLiteralGetAccessorToSimplePropertyContextAction_Name" xml:space="preserve">
+    <value>将对象字面量 get-accessor 转换为简单属性</value>
+  </data>
+  <data name="ConvertObjectLiteralGetAccessorToSimplePropertyContextAction_Description" xml:space="preserve">
+    <value>将 ECMAScript 5 get-accessor 转换为简单属性</value>
+  </data>
+  <data name="AddAngleBrackets_Text" xml:space="preserve">
+    <value>添加 '&lt;&gt;'</value>
+  </data>
+  <data name="UseControlFrom__Text" xml:space="preserve">
+    <value>使用来自 {0} 的控件</value>
+  </data>
+  <data name="BlankLines_Text" xml:space="preserve">
+    <value>空行</value>
+  </data>
+  <data name="CanTCreateView_Text" xml:space="preserve">
+    <value>无法创建视图</value>
+  </data>
+  <data name="RemoveBraces_Text" xml:space="preserve">
+    <value>移除大括号</value>
+  </data>
+  <data name="RemoveRedundantReferenceComment_Text" xml:space="preserve">
+    <value>移除冗余引用注释</value>
+  </data>
+  <data name="JoinDeclarationAndAssignment_Text" xml:space="preserve">
+    <value>联接声明和赋值</value>
+  </data>
+  <data name="RemoveDuplicatedDirective_Text" xml:space="preserve">
+    <value>移除重复的指令</value>
+  </data>
+  <data name="MoveClassDeclarationUpper_Text" xml:space="preserve">
+    <value>向上移动类声明</value>
+  </data>
+  <data name="AddReturnValue_Text" xml:space="preserve">
+    <value>添加返回值</value>
+  </data>
+  <data name="MoveServerScriptContentToCodebehindContextAction_Name" xml:space="preserve">
+    <value>将服务器脚本内容移至 CodeBehind</value>
+  </data>
+  <data name="ConvertsExpressionLambdaToBlockLambdaWithReturnContextAction_Description" xml:space="preserve">
+    <value>将表达式 lambda 转换为带有返回值的块 lambda</value>
+  </data>
+  <data name="ConvertNamedColorToHexFormContextAction_Name" xml:space="preserve">
+    <value>将命名颜色转换为十六进制形式</value>
+  </data>
+  <data name="TypeRelationProblemFixes_ParentText" xml:space="preserve">
+    <value> 在类型 '{0}' 中</value>
+  </data>
+  <data name="ConvertToHTMLTag_Text" xml:space="preserve">
+    <value>转换为 HTML 标记</value>
+  </data>
+  <data name="ImportTypeOrTypeElementContextAction_Description" xml:space="preserve">
+    <value>导入在别处声明的模块、类、变量、接口、枚举</value>
+  </data>
+  <data name="ConvertTagContextAction_Name" xml:space="preserve">
+    <value>转换标记</value>
+  </data>
+  <data name="ReplaceLogicalExpressionWithEqualExpressionContextAction_Description" xml:space="preserve">
+    <value>将逻辑表达式替换为相等表达式</value>
+  </data>
+  <data name="ReorderOverloadsProperly_Text" xml:space="preserve">
+    <value>正确地对重载重新排序</value>
+  </data>
+  <data name="CreatePairedAccessorContextAction_Description" xml:space="preserve">
+    <value>为当前实现的访问器创建配对访问器</value>
+  </data>
+  <data name="ReorderTagAttributesContextAction_Name" xml:space="preserve">
+    <value>对标记特性重新排序</value>
+  </data>
+  <data name="InlineTypeAliasContextAction_Description" xml:space="preserve">
+    <value>内联类型别名，即，将其用法替换为相应的类型并移除类型别名声明</value>
+  </data>
+  <data name="CreatePropertyFromAttributeContextAction_Name" xml:space="preserve">
+    <value>从特性创建属性</value>
+  </data>
+  <data name="AddBracesContextAction_Description" xml:space="preserve">
+    <value>在 if/else/for/do/while/with 语句主体周围添加大括号</value>
+  </data>
+  <data name="CreateModule_InModule___Text" xml:space="preserve">
+    <value>在模块 '{1}' {2} 中创建模块 '{0}'</value>
+  </data>
+  <data name="CreateSpecializedOverloadForParameter_Text" xml:space="preserve">
+    <value>为值为 '{1}' 的形参 '{0}' 创建专属重载</value>
+  </data>
+  <data name="Flip_Operands_Text" xml:space="preserve">
+    <value>翻转 '{0}' 操作数</value>
+  </data>
+  <data name="IncludeFile_IntoSolution__Text" xml:space="preserve">
+    <value>在解决方案 '{1}' 中包含文件 '{0}'</value>
+  </data>
+  <data name="InCSSWhereStatementIsExpected_Text" xml:space="preserve">
+    <value>在 CSS 中应为语句的位置</value>
+  </data>
+  <data name="ReplaceAlias_WithQualifier__Text" xml:space="preserve">
+    <value>将别名 '{0}' 替换为限定符 '{1}'</value>
+  </data>
+  <data name="InsertTableColumnBeforeContextAction_Description" xml:space="preserve">
+    <value>在此前插入表列:</value>
+  </data>
+  <data name="MakeMemberNotStatic_Text" xml:space="preserve">
+    <value>将成员设为非 static</value>
+  </data>
+  <data name="SpecifyTypeExplicitlyContextAction_Name" xml:space="preserve">
+    <value>明确地指定类型</value>
+  </data>
+  <data name="EscapeAtCharacterBy_Text" xml:space="preserve">
+    <value>通过 '@@' 转义 '@' 字符</value>
+  </data>
+  <data name="ChangeMemberVariable_TypeTo__Text" xml:space="preserve">
+    <value>将成员变量 '{0}' 类型更改为 '{1}'</value>
+  </data>
+  <data name="AddTypeAnnotation_Text" xml:space="preserve">
+    <value>添加类型注解</value>
+  </data>
+  <data name="AddAttributesForImageDimensionsContextAction_Name" xml:space="preserve">
+    <value>为图像尺寸添加特性</value>
+  </data>
+  <data name="AddRunatServerAttribute_Text" xml:space="preserve">
+    <value>添加 runat="server" 特性</value>
+  </data>
+  <data name="CloseAllOpenTags_Text" xml:space="preserve">
+    <value>结束所有起始标记</value>
+  </data>
+  <data name="ConvertHexColorToNamedContextAction_Description" xml:space="preserve">
+    <value>将颜色值从十六进制字面量转换为命名形式</value>
+  </data>
+  <data name="InlineConfigSourceAttribute_Text" xml:space="preserve">
+    <value>内联 'configSource' 特性</value>
+  </data>
+  <data name="AddParameterToMethodSRouteTemplate_Text" xml:space="preserve">
+    <value>将形参添加到方法的路由模板</value>
+  </data>
+  <data name="RemoveTypeParameterConstraint_Text" xml:space="preserve">
+    <value>移除类型形参约束</value>
+  </data>
+  <data name="ConvertTagToAttribute_Text" xml:space="preserve">
+    <value>将标记转换为特性</value>
+  </data>
+  <data name="RemoveRedundantQualifiers_Text" xml:space="preserve">
+    <value>移除冗余限定符</value>
+  </data>
+  <data name="ComputeConstantValue_Text" xml:space="preserve">
+    <value>计算常量值</value>
+  </data>
+  <data name="AddParameterToControllerSRouteTemplateContextAction_Description" xml:space="preserve">
+    <value>将方法的形参添加到控制器的路由模板</value>
+  </data>
+  <data name="InvertIf_Text" xml:space="preserve">
+    <value>反转 'if'</value>
+  </data>
+  <data name="AddUseStrictContextAction_Description" xml:space="preserve">
+    <value>添加 'use strict'</value>
+  </data>
+  <data name="AddingImportDeclarationWillChangeFile_Text" xml:space="preserve">
+    <value>添加导入声明会将文件作用域从全局更改为外部模块。是否继续?</value>
+  </data>
+  <data name="AddingExportedStatementWillChangeFile_Text" xml:space="preserve">
+    <value>添加导出的语句会将文件作用域从全局更改为外部模块。是否继续?</value>
+  </data>
+  <data name="ImportType__Text" xml:space="preserve">
+    <value>导入类型 '{0}'</value>
+  </data>
+  <data name="RemoveUnexpectedComma_Text" xml:space="preserve">
+    <value>移除意外逗号</value>
+  </data>
+  <data name="ProcessingFiles_Text" xml:space="preserve">
+    <value>正在处理文件</value>
+  </data>
+  <data name="FlipOperands_Text" xml:space="preserve">
+    <value>翻转操作数</value>
+  </data>
+  <data name="RenameFileToMatchTypeName_Text" xml:space="preserve">
+    <value>重命名文件以匹配类型名称</value>
+  </data>
+  <data name="CreateDerivedTypeContextAction_Description" xml:space="preserve">
+    <value>创建实现接口或继承类的类</value>
+  </data>
+  <data name="ExecuteExpressionWithoutRendering_Text" xml:space="preserve">
+    <value>在不呈现的情况下执行表达式</value>
+  </data>
+  <data name="ReplaceWithSingleBranch_Text" xml:space="preserve">
+    <value>替换为单个分支</value>
+  </data>
+  <data name="CastToPrimitiveFix_AdditionalInfo" xml:space="preserve">
+    <value> 为形参 '{0}'</value>
+  </data>
+  <data name="InlineTypeAlias_Text" xml:space="preserve">
+    <value>内联类型别名</value>
+  </data>
+  <data name="ConvertHslToHexLiteralContextAction_Name" xml:space="preserve">
+    <value>将 hsl() 转换为十六进制字面量</value>
+  </data>
+  <data name="FixValueType_Text" xml:space="preserve">
+    <value>修正值类型</value>
+  </data>
+  <data name="ConvertHslToRgbContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'hsl()' 转换为 'rgb()'</value>
+  </data>
+  <data name="MergeTwoIfStatementsContextAction_Name" xml:space="preserve">
+    <value>合并两条 'if' 语句</value>
+  </data>
+  <data name="MakeBothAccessorsPublic_Text" xml:space="preserve">
+    <value>将两个访问器设为 public</value>
+  </data>
+  <data name="CreateView_WithLayout_Text" xml:space="preserve">
+    <value>使用布局创建视图 '{0}'</value>
+  </data>
+  <data name="IntroduceVariableFromExpressionStatementContextAction_Description" xml:space="preserve">
+    <value>从表达式语句引入变量</value>
+  </data>
+  <data name="ConvertObjectLiteralPropertyToAccessorsPairWithBackingFieldContextAction_Name" xml:space="preserve">
+    <value>将对象字面量属性转换为具有支持字段的访问器对</value>
+  </data>
+  <data name="RemoveQuestionMarkOnPrecedingOptional_Text" xml:space="preserve">
+    <value>移除前面可选实参的问号</value>
+  </data>
+  <data name="EditPathMappingContextAction_Description" xml:space="preserve">
+    <value>打开当前项目的路径映射设置</value>
+  </data>
+  <data name="AddCodeBehindFile__Text" xml:space="preserve">
+    <value>添加 CodeBehind 文件 {0}</value>
+  </data>
+  <data name="FixJSONPropertyNames_Text" xml:space="preserve">
+    <value>修正 JSON 属性名称</value>
+  </data>
+  <data name="SplitReturnWithConditionIntoAssignmentToTemporaryVariableContextAction_Name" xml:space="preserve">
+    <value>将带有 '||' 条件的 'return' 拆分为对临时变量的赋值、'if' 语句和 'return'</value>
+  </data>
+  <data name="SplitDeclarationAndAssignment_Text" xml:space="preserve">
+    <value>拆分声明和赋值</value>
+  </data>
+  <data name="MakeAllOverloadsStatic_Text" xml:space="preserve">
+    <value>将所有重载设为 static</value>
+  </data>
+  <data name="RemoveQuestionMark_Text" xml:space="preserve">
+    <value>移除问号</value>
+  </data>
+  <data name="Create_In___Text" xml:space="preserve">
+    <value>在 '{1}' {2} 中创建 '{0}'</value>
+  </data>
+  <data name="CreateAction__Text" xml:space="preserve">
+    <value>创建操作 '{0}'</value>
+  </data>
+  <data name="InsertTableRowBeforeContextAction_Name" xml:space="preserve">
+    <value>在此前插入表行:</value>
+  </data>
+  <data name="AddThisQualifierToReferenceClassMember_Text" xml:space="preserve">
+    <value>将 'this.' 限定符添加到引用类成员</value>
+  </data>
+  <data name="InvertIfStatementContextAction_Name" xml:space="preserve">
+    <value>反转 'if' 语句</value>
+  </data>
+  <data name="ReplaceWithExactValue_Text" xml:space="preserve">
+    <value>替换为精确值</value>
+  </data>
+  <data name="JoinStringLiteralsContextAction_Name" xml:space="preserve">
+    <value>联接字符串字面量</value>
+  </data>
+  <data name="RemoveInvalidConstruct_Text" xml:space="preserve">
+    <value>移除无效构造</value>
+  </data>
+  <data name="Selector_Text" xml:space="preserve">
+    <value>选择器</value>
+  </data>
+  <data name="SpecifyReturnTypeExplicitlyContextAction_Description" xml:space="preserve">
+    <value>如果可以从返回值派生，则显式指定函数返回值类型</value>
+  </data>
+  <data name="ImportTypeContextAction_Description" xml:space="preserve">
+    <value>导入类型</value>
+  </data>
+  <data name="ConvertNamedColorToHslContextAction_Description" xml:space="preserve">
+    <value>将颜色值从命名形式转换为 hsl()</value>
+  </data>
+  <data name="InvertTernaryConditionContextAction_Name" xml:space="preserve">
+    <value>反转三元条件</value>
+  </data>
+  <data name="ConvertNamedColorToHslContextAction_Name" xml:space="preserve">
+    <value>将命名颜色转换为 hsl()</value>
+  </data>
+  <data name="ConvertRgbToHexLiteralContextAction_Name" xml:space="preserve">
+    <value>将 rgb() 转换为十六进制字面量</value>
+  </data>
+  <data name="AttributeSelector_Text" xml:space="preserve">
+    <value>特性选择器</value>
+  </data>
+  <data name="ImplementMissingLiteralProperties_Text" xml:space="preserve">
+    <value>实现缺失的字面量属性</value>
+  </data>
+  <data name="Import_AndAllOtherTypes_Text" xml:space="preserve">
+    <value>导入 '{0}' 和所有其他类型</value>
+  </data>
+  <data name="ToAccessorsDefinitionWithBackingField_Text" xml:space="preserve">
+    <value>转换为具有支持字段的访问器定义</value>
+  </data>
+  <data name="AddParameterNamedValue_Text" xml:space="preserve">
+    <value>添加名为 'value' 的形参</value>
+  </data>
+  <data name="TreatPageParserFilterTypeAs__Text" xml:space="preserve">
+    <value>将 pageParserFilter 类型视为{0}</value>
+  </data>
+  <data name="IntroduceVariable_Text" xml:space="preserve">
+    <value>引入变量</value>
+  </data>
+  <data name="ReplaceWithDestructuringSwap_Text" xml:space="preserve">
+    <value>替换为析构交换</value>
+  </data>
+  <data name="ReplaceAliasWithQualifierContextAction_Name" xml:space="preserve">
+    <value>将别名替换为限定符</value>
+  </data>
+  <data name="ConvertHexColorToHslContextAction_Description" xml:space="preserve">
+    <value>将颜色值从十六进制字面量转换为 hsl()</value>
+  </data>
+  <data name="CreatePropertyFromAttributeContextAction_Description" xml:space="preserve">
+    <value>从特性创建属性</value>
+  </data>
+  <data name="ConvertRazorBlockMarkupToLineMarkupContextAction_Description" xml:space="preserve">
+    <value>将 Razor 块标记转换为行标记</value>
+  </data>
+  <data name="CodeLayout_Text" xml:space="preserve">
+    <value>代码布局</value>
+  </data>
+  <data name="ReferenceClassThisByIntroducingVariable_Text" xml:space="preserve">
+    <value>通过引入变量引用类 'this'</value>
+  </data>
+  <data name="MakeMemberPublic_Text" xml:space="preserve">
+    <value>将成员设为 public</value>
+  </data>
+  <data name="DisableOnceWithComment_Text" xml:space="preserve">
+    <value>使用注释禁用一次</value>
+  </data>
+  <data name="UnableToCreateInvocationExpressionWith_Text" xml:space="preserve">
+    <value>无法创建带有展开的调用表达式</value>
+  </data>
+  <data name="ChangeVisibilityModifierContextAction_Description" xml:space="preserve">
+    <value>更改类和模块成员的可见性</value>
+  </data>
+  <data name="ReorderDirectiveAttributesContextAction_Name" xml:space="preserve">
+    <value>对指令特性重新排序</value>
+  </data>
+  <data name="UnableToCreateInvocationExpression_Text" xml:space="preserve">
+    <value>无法创建调用表达式</value>
+  </data>
+  <data name="PushLessSpecificTypesToTheMainSignature_Text" xml:space="preserve">
+    <value>将非特定类型推送到主签名并添加重载</value>
+  </data>
+  <data name="ReplaceWithNamedProperty_Text" xml:space="preserve">
+    <value>替换为命名属性</value>
+  </data>
+  <data name="ConvertToBinES6ContextAction_Name" xml:space="preserve">
+    <value>转换为二进制(ES6)</value>
+  </data>
+  <data name="AddJsDocCommentsContextAction_Description" xml:space="preserve">
+    <value>添加 JsDoc 注释</value>
+  </data>
+  <data name="Spaces_Text" xml:space="preserve">
+    <value>空格</value>
+  </data>
+  <data name="ConvertParameterPropertyToFieldContextAction_Description" xml:space="preserve">
+    <value>从构造函数中声明的形参属性引入字段</value>
+  </data>
+  <data name="RemoveStatement_Text" xml:space="preserve">
+    <value>移除语句</value>
+  </data>
+  <data name="SplitToIfStatement_Text" xml:space="preserve">
+    <value>拆分为 'if' 语句</value>
+  </data>
+  <data name="RemoveRedundantTypeCast_Text" xml:space="preserve">
+    <value>移除冗余类型转换</value>
+  </data>
+  <data name="DeleteCommentContextAction_Description" xml:space="preserve">
+    <value>删除注释</value>
+  </data>
+  <data name="AnywhereInCSS_Text" xml:space="preserve">
+    <value>CSS 中的任意位置</value>
+  </data>
+  <data name="AddParameterToRouteTemplate_Text" xml:space="preserve">
+    <value>将形参添加到路由模板</value>
+  </data>
+  <data name="RemoveCodeBehindFileContextAction_Name" xml:space="preserve">
+    <value>移除 CodeBehind 文件</value>
+  </data>
+  <data name="ConvertToECMAScript6ImportStatement_Text" xml:space="preserve">
+    <value>转换为 ECMAScript 6 import 语句</value>
+  </data>
+  <data name="UseExportKeywordOnTargetInsteadOfUsing_Text" xml:space="preserve">
+    <value>在目标上使用 'export' 关键字而不是使用导出赋值</value>
+  </data>
+  <data name="ConvertHexColorToHslContextAction_Name" xml:space="preserve">
+    <value>将十六进制颜色转换为 hsl()</value>
+  </data>
+  <data name="MoveServerScriptContentToCodebehind_Text" xml:space="preserve">
+    <value>将服务器脚本内容移至 CodeBehind</value>
+  </data>
+  <data name="RemoveDirectiveAttributeContextAction_Name" xml:space="preserve">
+    <value>移除指令特性</value>
+  </data>
+  <data name="RemoveTypeAnnotation_Text" xml:space="preserve">
+    <value>移除类型注解</value>
+  </data>
+  <data name="SplitIntoSeparateDeclarationsContextAction_Description" xml:space="preserve">
+    <value>适用于变量声明或声明多个变量的词法声明语句。它将此类语句拆分为多条语句，每条语句声明一个变量。</value>
+  </data>
+  <data name="ConvertNamedColorToRgbContextAction_Description" xml:space="preserve">
+    <value>将颜色值从命名形式转换为 rgb()</value>
+  </data>
+  <data name="Typescriptify_Text" xml:space="preserve">
+    <value>Typescriptify</value>
+  </data>
+  <data name="ChangeModifierAction_Text" xml:space="preserve">
+    <value>为成员 '{1}'{2} 使用修饰符 '{0}'</value>
+  </data>
+  <data name="ConvertToSimpleProperty_Text" xml:space="preserve">
+    <value>转换为简单属性</value>
+  </data>
+  <data name="TurnOffBrowserCompatibility_Text" xml:space="preserve">
+    <value>关闭浏览器兼容性</value>
+  </data>
+  <data name="RemovePublicModifier_Text" xml:space="preserve">
+    <value>移除 'public' 修饰符</value>
+  </data>
+  <data name="MergeTwoIfStatementsContextAction_Description" xml:space="preserve">
+    <value>将 'if' 语句与 else 分支中具有相等主体的嵌套 'if' 语句合并为单条 'if' 语句，用于检查原始条件的析取</value>
+  </data>
+  <data name="RemoveCodeBehindFileContextAction_Description" xml:space="preserve">
+    <value>移除 CodeBehind 文件</value>
+  </data>
+  <data name="Replace_Tag_Text" xml:space="preserve">
+    <value>替换 '{0}' 标记</value>
+  </data>
+  <data name="MoveAllVariablesToNarrowerBlocks_Text" xml:space="preserve">
+    <value>将所有变量移至更窄的块</value>
+  </data>
+  <data name="NegateLogicalExpressionContextAction_Description" xml:space="preserve">
+    <value>对逻辑表达式求反</value>
+  </data>
+  <data name="ConvertBinToDecES6ContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从二进制转换为十进制形式</value>
+  </data>
+  <data name="RemoveUnneededDeclare_Text" xml:space="preserve">
+    <value>移除不需要的 'declare'</value>
+  </data>
+  <data name="ConvertMemberAssignedByALambdaExpressionToFunctionMemberContextAction_Description" xml:space="preserve">
+    <value>由 lambda 表达式赋值的类型成员，通常可以转换为函数成员。如果通过 'apply' 进行隐式方法调用，则不能保证正常工作。</value>
+  </data>
+  <data name="RenameFunctionOverloadProperly_Text" xml:space="preserve">
+    <value>正确重命名函数重载</value>
+  </data>
+  <data name="UnableToCreateCastExpression_Text" xml:space="preserve">
+    <value>无法创建转换表达式</value>
+  </data>
+  <data name="MoveTypeToAnotherFileToMatchItsNameContextAction_Name" xml:space="preserve">
+    <value>将类型移至另一个文件以匹配其名称</value>
+  </data>
+  <data name="ConvertRazorBlockMarkupToLineMarkup_Text" xml:space="preserve">
+    <value>将 Razor 块标记转换为行标记</value>
+  </data>
+  <data name="CannotGenerateMemberProbablyBecause_Text" xml:space="preserve">
+    <value>不能生成成员，可能是由于源代码错误所致</value>
+  </data>
+  <data name="SplitIntoSeparateDeclarationsContextAction_Name" xml:space="preserve">
+    <value>拆分为单独的声明</value>
+  </data>
+  <data name="SplitReturnStatementOfBooleanValueToIfStatementContextAction_Description" xml:space="preserve">
+    <value>适用于 'return' 语句，其值为布尔类型。它将 'return' 语句转换为带有两条 'return' 语句的 'if' 语句，返回 'true' 和 'false' 值。</value>
+  </data>
+  <data name="ChangeOptionalityAction_Text" xml:space="preserve">
+    <value>将成员 '{0}'{1} 设为非可选</value>
+  </data>
+  <data name="CreatePropertyFromSubPropertyContextAction_Name" xml:space="preserve">
+    <value>从子属性创建属性</value>
+  </data>
+  <data name="RemoveBracesContextAction_Name" xml:space="preserve">
+    <value>移除大括号</value>
+  </data>
+  <data name="SurroundWithToIgnore_Text" xml:space="preserve">
+    <value>使用 '()' 包围以忽略</value>
+  </data>
+  <data name="AddAttributesForImageDimensionsContextAction_Description" xml:space="preserve">
+    <value>添加图像的宽度和高度特性</value>
+  </data>
+  <data name="GetMoreInfoOnBrowserSupportOf__Text" xml:space="preserve">
+    <value>获取有关 {0} 的浏览器支持的更多信息</value>
+  </data>
+  <data name="MakeTag_Empty_Text" xml:space="preserve">
+    <value>将标记 '{0}' 设为空</value>
+  </data>
+  <data name="RemoveRedundantParentTypeSpecification_Text" xml:space="preserve">
+    <value>移除冗余父类型规范</value>
+  </data>
+  <data name="RenameClashing__Text" xml:space="preserve">
+    <value>重命名冲突的{0}</value>
+  </data>
+  <data name="AddParameterToControllerSRouteTemplateContextAction_Name" xml:space="preserve">
+    <value>将形参添加到控制器的路由模板</value>
+  </data>
+  <data name="InsertTableRowAfter_Text" xml:space="preserve">
+    <value>在此后插入表行:</value>
+  </data>
+  <data name="RemoveParameters_Text" xml:space="preserve">
+    <value>移除形参</value>
+  </data>
+  <data name="CannotConvertValueToStringLiteral_Text" xml:space="preserve">
+    <value>不能将值转换为字符串字面量</value>
+  </data>
+  <data name="Extract_ToControllerSRouteTemplates_Text" xml:space="preserve">
+    <value>将 '{0}' 提取到控制器的路由模板</value>
+  </data>
+  <data name="ReplaceVarWithItsFallbackValueContextAction_Name" xml:space="preserve">
+    <value>将 var(…) 替换为其回滚值</value>
+  </data>
+  <data name="ChangeVariable_TypeTo__Text" xml:space="preserve">
+    <value>将变量 '{0}' 类型更改为 '{1}'</value>
+  </data>
+  <data name="RemoveParameter_Text" xml:space="preserve">
+    <value>移除形参</value>
+  </data>
+  <data name="AddConstraint_ToRouteParameter_Text" xml:space="preserve">
+    <value>将约束 '{0}' 添加到路由形参</value>
+  </data>
+  <data name="CastToPrimitiveFix_Text" xml:space="preserve">
+    <value>使用 {0}{1}</value>
+  </data>
+  <data name="CreateTypeFromUsageContextAction_Description" xml:space="preserve">
+    <value>从用法创建类、接口、枚举、模块、成员函数或成员属性</value>
+  </data>
+  <data name="FlipRelationalExpressionContextAction_Description" xml:space="preserve">
+    <value>翻转当前的关系表达式，例如 'x &gt; 1' 到 'x &lt; 1'</value>
+  </data>
+  <data name="MakeMemberNonStatic_Text" xml:space="preserve">
+    <value>将成员设为非 static</value>
+  </data>
+  <data name="NormalizeLocalDeclarations_Text" xml:space="preserve">
+    <value>标准化局部声明</value>
+  </data>
+  <data name="ReplaceSingleQuotedStringLiteralWithDoubleQuotedContextAction_Description" xml:space="preserve">
+    <value>将单引号字符串字面量和双引号字符串字面量互相替换</value>
+  </data>
+  <data name="ChangeAll__Text" xml:space="preserve">
+    <value>更改所有 '{0}'</value>
+  </data>
+  <data name="RemoveAllAccessibilityModifiers_Text" xml:space="preserve">
+    <value>移除所有可访问性修饰符</value>
+  </data>
+  <data name="ReplaceClassWithClassName_Text" xml:space="preserve">
+    <value>将 'class' 替换为 'className'</value>
+  </data>
+  <data name="ReplaceWithAllowedValue_Text" xml:space="preserve">
+    <value>替换为允许的值</value>
+  </data>
+  <data name="SplitIntoTwoIfStatements_Text" xml:space="preserve">
+    <value>拆分为两条 'if' 语句</value>
+  </data>
+  <data name="ConvertColorToHexLiteral_Text" xml:space="preserve">
+    <value>将颜色转换为十六进制字面量</value>
+  </data>
+  <data name="RemoveBracesContextAction_Description" xml:space="preserve">
+    <value>移除代码中一条或多条语句周围的不必要的大括号</value>
+  </data>
+  <data name="CollapseEmptyTagContextAction_Name" xml:space="preserve">
+    <value>收起空标记</value>
+  </data>
+  <data name="NegateBooleanExpression_Text" xml:space="preserve">
+    <value>布尔表达式求反</value>
+  </data>
+  <data name="RemoveUnsafeComma_Text" xml:space="preserve">
+    <value>移除不安全的逗号</value>
+  </data>
+  <data name="AddProperty__Text" xml:space="preserve">
+    <value>添加属性 '{0}'</value>
+  </data>
+  <data name="MakeBothAccessorsProtected_Text" xml:space="preserve">
+    <value>将两个访问器设为 protected</value>
+  </data>
+  <data name="ReorderModifiersProperly_Text" xml:space="preserve">
+    <value>正确地对修饰符重新排序</value>
+  </data>
+  <data name="ChangeToQuestionMark_Text" xml:space="preserve">
+    <value>更改为问号</value>
+  </data>
+  <data name="RemoveRedundant__Text" xml:space="preserve">
+    <value>移除冗余{0}</value>
+  </data>
+  <data name="ChangeAllLocal__Text" xml:space="preserve">
+    <value>更改所有局部 '{0}'</value>
+  </data>
+  <data name="AddUseStrictContextAction_Name" xml:space="preserve">
+    <value>添加 'use strict'</value>
+  </data>
+  <data name="AddInheritsAttribute_Text" xml:space="preserve">
+    <value>添加 Inherits 特性</value>
+  </data>
+  <data name="ConvertObjectLiteralPropertyToGetAccessorContextAction_Name" xml:space="preserve">
+    <value>将对象字面量属性转换为 get-accessor</value>
+  </data>
+  <data name="CreateASPXViews_Text" xml:space="preserve">
+    <value>创建 ASPX 视图</value>
+  </data>
+  <data name="CreateRazorViews_Text" xml:space="preserve">
+    <value>创建 Razor 视图</value>
+  </data>
+  <data name="ConvertToMemberFunction_Text" xml:space="preserve">
+    <value>转换为成员函数</value>
+  </data>
+  <data name="MakeVariable_Constant_Text" xml:space="preserve">
+    <value>将变量 '{0}' 设为常量</value>
+  </data>
+  <data name="RemoveUnusedImport_Text" xml:space="preserve">
+    <value>移除未使用的 'import'</value>
+  </data>
+  <data name="ConvertToHexContextAction_Name" xml:space="preserve">
+    <value>转换为十六进制</value>
+  </data>
+  <data name="ReplaceAssignmentWithEquality_Text" xml:space="preserve">
+    <value>将 '=' 替换为 '==='</value>
+  </data>
+  <data name="ConvertIfStatementToTernaryExpressionContextAction_Description" xml:space="preserve">
+    <value>适用于返回值或在每个分支内执行赋值的 'if' 语句。它将语句转换为三元表达式('x ? a : b')。</value>
+  </data>
+  <data name="AddBracesContextAction_Name" xml:space="preserve">
+    <value>添加大括号</value>
+  </data>
+  <data name="ConvertOctToDecES6ContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从二进制转换为十进制形式</value>
+  </data>
+  <data name="InvertIfStatementContextAction_Description" xml:space="preserve">
+    <value>反转 'if' 语句的临界条件并相应地交换分支代码</value>
+  </data>
+  <data name="JoinStringLiteralsContextAction_Description" xml:space="preserve">
+    <value>将两个字符串字面量串联成一个</value>
+  </data>
+  <data name="ComputeConstantValueContextAction_Name" xml:space="preserve">
+    <value>计算常量值</value>
+  </data>
+  <data name="RemoveUnreachableCode_Text" xml:space="preserve">
+    <value>移除无法访问的代码</value>
+  </data>
+  <data name="EncloseBlockStatement_Text" xml:space="preserve">
+    <value>封闭块语句</value>
+  </data>
+  <data name="FlipOperatorArgumentsContextAction_Name" xml:space="preserve">
+    <value>翻转运算符实参</value>
+  </data>
+  <data name="CastParameterToAny_Text" xml:space="preserve">
+    <value>将形参转换为 'any'</value>
+  </data>
+  <data name="MatchFileNameWithTypeNameContextAction_Name" xml:space="preserve">
+    <value>将文件名称与类型名称匹配</value>
+  </data>
+  <data name="CreateContentPlaceHolder_Text" xml:space="preserve">
+    <value>创建 ContentPlaceHolder</value>
+  </data>
+  <data name="ConvertPropertyAssignmentInConstructorsToAccessorPropertyDefinitionWithBackingFieldContextAction_Description" xml:space="preserve">
+    <value>通过 'Object.defineProperty()' 调用将构造函数中的属性赋值转换为访问器属性定义</value>
+  </data>
+  <data name="ConvertToDecFromOctContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从八进制转换为十进制形式</value>
+  </data>
+  <data name="TsCreateFromUsageAction_DefaultText" xml:space="preserve">
+    <value>创建{0} '{1}'</value>
+  </data>
+  <data name="CreateEventContextAction_Name" xml:space="preserve">
+    <value>创建事件</value>
+  </data>
+  <data name="ReorderDirectiveAttributesContextAction_Description" xml:space="preserve">
+    <value>按字母顺序对指令特性重新排序</value>
+  </data>
+  <data name="ReplaceWithStrictOperator__Text" xml:space="preserve">
+    <value>替换为严格运算符 '{0}'</value>
+  </data>
+  <data name="ConvertRazorLineMarkupToBlockMarkup_Text" xml:space="preserve">
+    <value>将 Razor 行标记转换为块标记</value>
+  </data>
+  <data name="ConvertAllCastsToAsOperators_Text" xml:space="preserve">
+    <value>将所有 cast 转换为 'as' 运算符</value>
+  </data>
+  <data name="SurroundWithTypeGuard_PrefixWith" xml:space="preserve">
+    <value>前缀为 '{0}'</value>
+  </data>
+  <data name="MakeAllOverloadsPublic_Text" xml:space="preserve">
+    <value>将所有重载设为 public</value>
+  </data>
+  <data name="FixPublicModifierPresence_Text" xml:space="preserve">
+    <value>根据代码样式添加或移除 'public' 修饰符</value>
+  </data>
+  <data name="MakeAllVariablesFromThisListBlockScope_Text" xml:space="preserve">
+    <value>将此列表中的所有变量设为块作用域</value>
+  </data>
+  <data name="CreateView_WithMasterpage_Text" xml:space="preserve">
+    <value>使用母版页创建视图 '{0}'</value>
+  </data>
+  <data name="RemoveRedundantAssignment_Text" xml:space="preserve">
+    <value>移除冗余赋值</value>
+  </data>
+  <data name="RemoveTrailingElidedElements_Text" xml:space="preserve">
+    <value>移除尾随的省略元素</value>
+  </data>
+  <data name="InsertTableRowAfterContextAction_Name" xml:space="preserve">
+    <value>在此后插入表行:</value>
+  </data>
+  <data name="JoinImportDeclarations_Text" xml:space="preserve">
+    <value>联接导入声明</value>
+  </data>
+  <data name="Extract_ToControllerSRouteTemplate_Text" xml:space="preserve">
+    <value>将 '{0}' 提取到控制器的路由模板</value>
+  </data>
+  <data name="ReplaceAllTagsContextAction_Name" xml:space="preserve">
+    <value>替换所有标记</value>
+  </data>
+  <data name="AddXMLCommentReferenceContextAction_Name" xml:space="preserve">
+    <value>添加 XML 注释引用</value>
+  </data>
+  <data name="SurroundForInBodyWithHasOwnProperty_Text" xml:space="preserve">
+    <value>使用 'hasOwnProperty' 检查包围 'for in' 主体</value>
+  </data>
+  <data name="AddCodeBehindFile_Text" xml:space="preserve">
+    <value>添加 CodeBehind 文件</value>
+  </data>
+  <data name="SortJSONPropertiesContextAction_Description" xml:space="preserve">
+    <value>按字母顺序对 JSON 属性排序</value>
+  </data>
+  <data name="ConvertFieldToParameterPropertyContextAction_Description" xml:space="preserve">
+    <value>引入从类字段声明为构造函数形参的形参属性</value>
+  </data>
+  <data name="InsertTableRowBefore_Text" xml:space="preserve">
+    <value>在此前插入表行:</value>
+  </data>
+  <data name="ToExpressionLambda_Text" xml:space="preserve">
+    <value>转换为表达式 lambda</value>
+  </data>
+  <data name="RemoveTypeArguments_Text" xml:space="preserve">
+    <value>移除类型实参</value>
+  </data>
+  <data name="InvertCondition_Text" xml:space="preserve">
+    <value>反转条件</value>
+  </data>
+  <data name="CreateController_AndAction__Text" xml:space="preserve">
+    <value>创建控制器 '{0}' 和操作 '{1}'</value>
+  </data>
+  <data name="ConvertIfToSwitchContextAction_Description" xml:space="preserve">
+    <value>如果针对多个值检查相同的表达式是否严格相等，则 'if' 语句可能会被转换为 'switch'</value>
+  </data>
+  <data name="MergeNestedIfStatementsContextAction_Name" xml:space="preserve">
+    <value>合并嵌套的 'if' 语句</value>
+  </data>
+  <data name="FixAttributeValue_Text" xml:space="preserve">
+    <value>修正特性值</value>
+  </data>
+  <data name="ConvertConcatenationToTemplateStringContextAction_Description" xml:space="preserve">
+    <value>将字符串和实参串联转换为模板字符串</value>
+  </data>
+  <data name="AddParameterToControllerSRouteTemplate_Text" xml:space="preserve">
+    <value>将形参添加到控制器的路由模板</value>
+  </data>
+  <data name="InlineConfigSourceAttributeContextAction_Description" xml:space="preserve">
+    <value>内联 configSource 特性</value>
+  </data>
+  <data name="MoveTripleSlashCommentToTheTopOfThe_Text" xml:space="preserve">
+    <value>将三斜杠注释移至文件顶部</value>
+  </data>
+  <data name="RemoveUnexpectedModifier_Text" xml:space="preserve">
+    <value>移除意外修饰符</value>
+  </data>
+  <data name="PressEscapeToRemoveHighlighting_Text" xml:space="preserve">
+    <value>按 Esc 键可移除高亮显示</value>
+  </data>
+  <data name="CreateType__Text" xml:space="preserve">
+    <value>创建类型 {0}</value>
+  </data>
+  <data name="JoinLocalVariableDeclarationAndAssignmentContextAction_Description" xml:space="preserve">
+    <value>适用于对在没有初始值设定项的情况下声明的变量的赋值。将声明移至当前点并将其与赋值合并。</value>
+  </data>
+  <data name="CreateFallbackColor_Text" xml:space="preserve">
+    <value>创建回滚颜色</value>
+  </data>
+  <data name="TerminateAllUnterminatedStatements_Text" xml:space="preserve">
+    <value>终止所有未终止语句</value>
+  </data>
+  <data name="ConvertRgbToNamedFormContextAction_Name" xml:space="preserve">
+    <value>将 rgb() 转换为命名形式</value>
+  </data>
+  <data name="AddReferenceTo__Text" xml:space="preserve">
+    <value>添加对 '{0}' 的引用</value>
+  </data>
+  <data name="ConvertIfToSwitchForEnumsContextAction_Description" xml:space="preserve">
+    <value>如果随后在 'if' 中使用枚举值检查变量，则将 'if' 替换为 'switch'</value>
+  </data>
+  <data name="ExpandEmptyTag_Text" xml:space="preserve">
+    <value>展开空标记</value>
+  </data>
+  <data name="ChangeToBoolean_Text" xml:space="preserve">
+    <value>更改为 'boolean'</value>
+  </data>
+  <data name="FlipRelationalExpressionContextAction_Name" xml:space="preserve">
+    <value>翻转关系表达式</value>
+  </data>
+  <data name="IntroduceAndInitializeField__Text" xml:space="preserve">
+    <value>引入并初始化字段 '{0}'</value>
+  </data>
+  <data name="CollapseEmptyTagContextAction_Description" xml:space="preserve">
+    <value>从空的起始和结束标记转换为空标记</value>
+  </data>
+  <data name="ConvertToDec_Text" xml:space="preserve">
+    <value>转换为十进制</value>
+  </data>
+  <data name="ConvertHexColorToRgbContextAction_Description" xml:space="preserve">
+    <value>将颜色值从十六进制字面量转换为 'rgb()'</value>
+  </data>
+  <data name="DeleteCommentContextAction_Name" xml:space="preserve">
+    <value>删除注释</value>
+  </data>
+  <data name="UseStaticQualifier_Text" xml:space="preserve">
+    <value>使用 static 限定符</value>
+  </data>
+  <data name="AddJsDocComments_Text" xml:space="preserve">
+    <value>添加 JsDoc 注释</value>
+  </data>
+  <data name="OptimizeReferenceComments_Text" xml:space="preserve">
+    <value>优化引用注释</value>
+  </data>
+  <data name="RemoveTagAttributeContextAction_Description" xml:space="preserve">
+    <value>移除标记特性</value>
+  </data>
+  <data name="ConvertToDecFromHexContextAction_Description" xml:space="preserve">
+    <value>将数值字面量从十六进制转换为十进制形式</value>
+  </data>
+  <data name="JoinStrings_Text" xml:space="preserve">
+    <value>联接字符串</value>
+  </data>
+  <data name="ExplicitlySpecifyElidedTrailingElementsAsUndefined_Text" xml:space="preserve">
+    <value>将省略的尾随元素显式指定为 'undefined'</value>
+  </data>
+  <data name="MakeAllOverloadsPrivate_Text" xml:space="preserve">
+    <value>将所有重载设为 private</value>
+  </data>
+  <data name="CreateController__Text" xml:space="preserve">
+    <value>创建控制器 '{0}'</value>
+  </data>
+  <data name="AddEndif_Text" xml:space="preserve">
+    <value>添加 endif</value>
+  </data>
+  <data name="ChangeTypeTo_ToSatisfyAllRouteConstraints_Text" xml:space="preserve">
+    <value>将类型更改为 '{0}' 以满足所有路由约束</value>
+  </data>
+  <data name="MakeSignatureReturnVoid_Text" xml:space="preserve">
+    <value>使签名返回 'void'</value>
+  </data>
+  <data name="IntroduceTypeAliasContextAction_Name" xml:space="preserve">
+    <value>引入类型别名</value>
+  </data>
+  <data name="RemoveInitializer_Text" xml:space="preserve">
+    <value>移除初始值设定项</value>
+  </data>
+  <data name="ConvertHslToNamedFormContextAction_Description" xml:space="preserve">
+    <value>将颜色值从 'hsl()' 转换为命名形式</value>
+  </data>
+  <data name="Remove_TagAndPromoteChildren_Text" xml:space="preserve">
+    <value>移除 '{0}' 标记并提升子项</value>
+  </data>
+  <data name="CreateObjectDataSourceSMethodContextAction_Description" xml:space="preserve">
+    <value>创建 ObjectDataSource 的方法</value>
+  </data>
+  <data name="RemoveRedundantParenthesisContextAction_Name" xml:space="preserve">
+    <value>移除冗余圆括号</value>
+  </data>
+  <data name="ConvertToRGBA_Text" xml:space="preserve">
+    <value>转换为 RGBA</value>
+  </data>
+  <data name="FixRelativePathStyle_Text" xml:space="preserve">
+    <value>修正相对路径样式</value>
+  </data>
+  <data name="RemoveReturnedValue_Text" xml:space="preserve">
+    <value>移除返回值</value>
+  </data>
+  <data name="Remove_TagAndPromoteChild_Text" xml:space="preserve">
+    <value>移除 '{0}' 标记并提升子项</value>
+  </data>
+  <data name="TsCreateFromUsageAction_InModuleText" xml:space="preserve">
+    <value>在模块 '{2}' 中创建{0} '{1}'</value>
+  </data>
+  <data name="ConvertRgbToHslContextAction_Name" xml:space="preserve">
+    <value>将 rgb() 转换为 hsl()</value>
+  </data>
+  <data name="MakeScopeContaining_ExportedToTheSame_Text" xml:space="preserve">
+    <value>将包含 '{0}' 的作用域设为已导出到相同作用域</value>
+  </data>
+  <data name="MakeParameterNonOptional_Text" xml:space="preserve">
+    <value>将形参设为非可选</value>
+  </data>
+  <data name="AddXmlDocCommentsContextAction_Name" xml:space="preserve">
+    <value>添加 xml-doc 注释</value>
+  </data>
+  <data name="ImportTypeOrTypeElementContextAction_Name" xml:space="preserve">
+    <value>导入类型或类型元素</value>
+  </data>
+  <data name="AddSingleOverloadAction_Text" xml:space="preserve">
+    <value>为成员 '{0}'{1} 添加缺失的重载签名</value>
+  </data>
+  <data name="RemoveAllUnusedTagsAndAttributes_Text" xml:space="preserve">
+    <value>移除所有未使用的标记和特性</value>
+  </data>
+  <data name="MergeVariablesAndUseAny_Text" xml:space="preserve">
+    <value>合并变量并使用 'any'</value>
+  </data>
+  <data name="RemoveUnusedVariable_Text" xml:space="preserve">
+    <value>移除未使用的变量</value>
+  </data>
+  <data name="RemoveDuplicatingFunctionUnderCursor_Text" xml:space="preserve">
+    <value>移除光标下的重复函数</value>
+  </data>
+  <data name="DottedNameToNestedModuleContextAction_Name" xml:space="preserve">
+    <value>点分名称到点分模块</value>
+  </data>
+  <data name="ChangeAnyToType_Text" xml:space="preserve">
+    <value>将 'any' 更改为类型</value>
+  </data>
+  <data name="CreatePaired_Accessor_Text" xml:space="preserve">
+    <value>创建配对的 '{0}' 访问器</value>
+  </data>
+  <data name="RemoveDuplicatedModifier_Text" xml:space="preserve">
+    <value>移除重复修饰符</value>
+  </data>
+  <data name="ToLINQToJSONContextAction_Description" xml:space="preserve">
+    <value>将 JSON 字符串转换为 JSON.NET 对象</value>
+  </data>
+  <data name="AddChangeQuotes_Text" xml:space="preserve">
+    <value>添加/更改引号</value>
+  </data>
+  <data name="RemoveAmbientFunctionBody_Text" xml:space="preserve">
+    <value>移除环境函数体</value>
+  </data>
+  <data name="ReplaceTagContextAction_Description" xml:space="preserve">
+    <value>将标记替换为不同的标记</value>
+  </data>
+  <data name="AddXMLCommentReferenceContextAction_Description" xml:space="preserve">
+    <value>将 XML 注释引用添加到声明引用符号的文件中</value>
+  </data>
+  <data name="RemoveRedundantBlock_Text" xml:space="preserve">
+    <value>移除冗余块</value>
+  </data>
+  <data name="AddReferenceTo__ShortText" xml:space="preserve">
+    <value>引用 '{0}'</value>
+  </data>
+  <data name="File_AlreadyExists_Text" xml:space="preserve">
+    <value>文件 '{0}' 已存在</value>
+  </data>
+  <data name="CreateObjectDataSourceSMethodContextAction_Name" xml:space="preserve">
+    <value>创建 ObjectDataSource 的方法</value>
+  </data>
+  <data name="ReplaceLogicalExpressionWithEqualExpressionContextAction_Name" xml:space="preserve">
+    <value>将逻辑表达式替换为相等表达式</value>
+  </data>
+  <data name="UsePseudoSelectorNot_Text" xml:space="preserve">
+    <value>使用伪选择器 :not()</value>
+  </data>
+  <data name="ConvertNamedColorToHexFormContextAction_Description" xml:space="preserve">
+    <value>将颜色值从命名形式转换为十六进制字面量</value>
+  </data>
+  <data name="ToGetAccessorDefinition_Text" xml:space="preserve">
+    <value>转换为 get-accessor 定义</value>
+  </data>
+  <data name="CreateEventContextAction_Description" xml:space="preserve">
+    <value>创建事件</value>
+  </data>
+  <data name="InlineConfigSourceAttributeContextAction_Name" xml:space="preserve">
+    <value>内联 configSource 特性</value>
+  </data>
+  <data name="ExpandEmptyTagContextAction_Description" xml:space="preserve">
+    <value>将自结束标记拆分为起始标记和结束标记</value>
+  </data>
+  <data name="InlineTypeAliasContextAction_Name" xml:space="preserve">
+    <value>内联类型别名</value>
+  </data>
+  <data name="RemoveFileExtensionFromPath_Text" xml:space="preserve">
+    <value>从路径中移除文件扩展名</value>
+  </data>
+  <data name="AddExplicitAnyAnnotationFix_SpecifyText" xml:space="preserve">
+    <value>显式指定 '{0}'</value>
+  </data>
+  <data name="ConvertsSingleReturnBlockLambdaToExpressionContextAction_Name" xml:space="preserve">
+    <value>将单 return 块 lambda 转换为表达式</value>
+  </data>
+</root>

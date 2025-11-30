@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ExtractFunction_Text" xml:space="preserve">
+  <value>Извлечь функцию (&amp;E)</value>
+</data>
+<data name="IntroduceVariableForSubstring_Text" xml:space="preserve">
+  <value>Ввести переменную для подстроки</value>
+</data>
+<data name="RouteParameter0_IsAlreadyDeclaredIn_Text" xml:space="preserve">
+  <value>Параметр маршрута {{0, {0}}} уже был объявлен в шаблоне маршрута для внешней цели {1}</value>
+</data>
+<data name="RelatedStronglyTypedMembers_Text" xml:space="preserve">
+  <value>Связанные строго типизированные члены</value>
+</data>
+<data name="VariableHasNoInitializers_Text" xml:space="preserve">
+  <value>Переменная не имеет инициализаторов</value>
+</data>
+<data name="CannotRenameRouteParameter0_OnExternal_Text" xml:space="preserve">
+  <value>Невозможно переименовать параметр маршрута {{0, {0}}} на внешней цели '{1}'</value>
+</data>
+<data name="PossibleDynamicReferences_FindUsagesSection_Text" xml:space="preserve">
+  <value>Возможные динамические ссылки</value>
+</data>
+<data name="Insert_importDirective_Text" xml:space="preserve">
+  <value>Вставить директиву import (&amp;I)</value>
+</data>
+<data name="RefactoringHasFoundAdditionalReferences_Text" xml:space="preserve">
+  <value>Рефакторинг обнаружил дополнительные ссылки в связанном коде. Выберите ссылки для переименования:</value>
+</data>
+<data name="IntroduceTypeAlias_Text" xml:space="preserve">
+  <value>Ввести псевдоним типа</value>
+</data>
+<data name="AdditionalReferencesInDependentCode_Text" xml:space="preserve">
+  <value>Дополнительные ссылки в зависимом коде</value>
+</data>
+<data name="In_LineTypeAlias_Text" xml:space="preserve">
+  <value>Встроить псевдоним типа (&amp;L)</value>
+</data>
+<data name="MoveHelperToApp_Code_Text" xml:space="preserve">
+  <value>Переместить helper в App_Code</value>
+</data>
+<data name="SearchIn_relatedFiles_Text" xml:space="preserve">
+  <value>Искать в связанных файлах (&amp;R)</value>
+</data>
+<data name="ExtractingStyle_Text" xml:space="preserve">
+  <value>Извлечение стиля</value>
+</data>
+<data name="PossibleDynamicReferences_Text" xml:space="preserve">
+  <value>Возможные динамические ссылки</value>
+</data>
+<data name="IntroduceTypeAliasActionText" xml:space="preserve">
+  <value>Ввести псевдоним типа…</value>
+</data>
+<data name="StructurallyCompatibleMembers_Text" xml:space="preserve">
+  <value>Структурно совместимые члены</value>
+</data>
+<data name="TheExtractedCodeHasMultipleExits_Text" xml:space="preserve">
+  <value>Извлеченный код имеет несколько выходов.</value>
+</data>
+<data name="SearchingDynamicReferences_Text" xml:space="preserve">
+  <value>Поиск динамических ссылок</value>
+</data>
+<data name="SelectionShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Выделенная область не должна быть пустой</value>
+</data>
+<data name="_Visibility_Text" xml:space="preserve">
+  <value>Видимость (_V):</value>
+</data>
+<data name="UnableToAddReadAccessorTo__Text" xml:space="preserve">
+  <value>Невозможно добавить метод доступа на чтение к {0}</value>
+</data>
+<data name="RefactoringHasFoundPossibleDynamicReferences_Text" xml:space="preserve">
+  <value>Рефакторинг обнаружил возможные динамические ссылки с тем же именем. Выберите ссылки для переименования:</value>
+</data>
+<data name="VariableHasWriteUsages_Text" xml:space="preserve">
+  <value>Переменная имеет использования на запись</value>
+</data>
+<data name="AdditionalDynamicReferences_Text" xml:space="preserve">
+  <value>Дополнительные динамические ссылки</value>
+</data>
+<data name="MoveBlockToCodeBehind_Text" xml:space="preserve">
+  <value>Переместить блок в файл кода программной части</value>
+</data>
+<data name="ExtractStyle_Text" xml:space="preserve">
+  <value>Извлечь стиль</value>
+</data>
+<data name="RenameSelectedElementOnly_Text" xml:space="preserve">
+  <value>Переименовать только выбранный элемент.</value>
+</data>
+<data name="_TargetFile_Text" xml:space="preserve">
+  <value>Целевой файл (_T):</value>
+</data>
+<data name="TargetFile_Text" xml:space="preserve">
+  <value>Целевой файл</value>
+</data>
+<data name="File_HaveContentReferencedTo_Placeholder_Text" xml:space="preserve">
+  <value>Содержимое файла {0} ссылается на заполнитель {1}</value>
+</data>
+<data name="YouHaveChosenATypeMemberForRenameThe_Text" xml:space="preserve">
+  <value>Выбран член типа для переименования. Следующие члены структурно совместимы с исходным членом:</value>
+</data>
+<data name="SelectorForNewStyle_Text" xml:space="preserve">
+  <value>Селектор для нового стиля</value>
+</data>
+<data name="ExtractContentPlaceholder_Text" xml:space="preserve">
+  <value>Извлечь заполнитель содержимого (&amp;E)</value>
+</data>
+<data name="Mo_dule_Text" xml:space="preserve">
+  <value>Модуль (_D)</value>
+</data>
+<data name="RouteParameter0_IsAlreadyDeclared_Text" xml:space="preserve">
+  <value>Параметр маршрута {{0, {0}}} уже был объявлен</value>
+</data>
+<data name="CannotBindPathReferences_Text" xml:space="preserve">
+  <value>Невозможно привязать ссылки на путь</value>
+</data>
+<data name="InlineTypeAlias_Text" xml:space="preserve">
+  <value>Встроить псевдоним типа</value>
+</data>
+<data name="MoveToFolderIsNotSupportedForRAZORFiles_Text" xml:space="preserve">
+  <value>Перемещение в папку не поддерживается для RAZOR файлов</value>
+</data>
+<data name="VariableHasNoDeclarations_Text" xml:space="preserve">
+  <value>Переменная не имеет объявлений</value>
+</data>
+<data name="RenameOnly__Text" xml:space="preserve">
+  <value>Переименовать только {0}</value>
+</data>
+<data name="SelectorIsNotValid_Text" xml:space="preserve">
+  <value>Селектор недопустим</value>
+</data>
+<data name="UnableToAddWriteAccessorTo__Text" xml:space="preserve">
+  <value>Невозможно добавить метод доступа на запись к {0}</value>
+</data>
+<data name="PleaseSpecify_Text" xml:space="preserve">
+  <value>Пожалуйста, укажите</value>
+</data>
+<data name="FindPossible_dynamicUsages_Text" xml:space="preserve">
+  <value>Найти возможные динамические использования (&amp;D)</value>
+</data>
+<data name="MoveStyle_Text" xml:space="preserve">
+  <value>Переместить стиль</value>
+</data>
+<data name="CannotFindDeclarationInTargetFile_Text" xml:space="preserve">
+  <value>Не удается найти объявление в целевом файле</value>
+</data>
+<data name="_Selector_Text" xml:space="preserve">
+  <value>Селектор (_S):</value>
+</data>
+<data name="CannotInlineRecursiveFunction_Text" xml:space="preserve">
+  <value>Невозможно встроить рекурсивную функцию</value>
+</data>
+<data name="InlineMasterPageContent_Action_text" xml:space="preserve">
+  <value>Встроить содержимое мастер-страницы…</value>
+</data>
+<data name="ProfileGroupClassNameMustStartWith__Text" xml:space="preserve">
+  <value>Имя класса группы профиля должно начинаться с {0}</value>
+</data>
+<data name="Make_static_Text" xml:space="preserve">
+  <value>Сделать static (&amp;S)</value>
+</data>
+<data name="PossibleConflictWith__Text" xml:space="preserve">
+  <value>Возможный конфликт с {0}</value>
+</data>
+<data name="CannotInsertDeclarationIntoTargetFile_Text" xml:space="preserve">
+  <value>Невозможно вставить объявление в целевой файл</value>
+</data>
+<data name="VariableHasManyInitializers_Text" xml:space="preserve">
+  <value>Переменная имеет несколько инициализаторов</value>
+</data>
+<data name="DynamicReferences_FindUsagesSection_Text" xml:space="preserve">
+  <value>Динамические ссылки</value>
+</data>
+<data name="InlineTypeAliasActionText" xml:space="preserve">
+  <value>Встроить псевдоним типа…</value>
+</data>
+<data name="RenameInAllTypes_Text" xml:space="preserve">
+  <value>Переименовать во всех типах</value>
+</data>
+<data name="IfTheClass_IsRenamedTo_TheProperty__Text" xml:space="preserve">
+  <value>Если класс {{0}} будет переименован в {0}, то свойство {1} также должно быть переименовано в {2}</value>
+</data>
+<data name="ExtractCSSStyleActionText" xml:space="preserve">
+  <value>Извлечь CSS стиль…</value>
+</data>
+<data name="IntroduceType_Alias_Text" xml:space="preserve">
+  <value>Ввести псевдоним типа (&amp;A)</value>
+</data>
+<data name="RenameMemberInAllTypes_Text" xml:space="preserve">
+  <value>Переименовать член во всех типах</value>
+</data>
+<data name="Move_Text" xml:space="preserve">
+  <value>Переместить</value>
+</data>
+<data name="IfTheProperty_IsRenamedTo_TheClass__Text" xml:space="preserve">
+  <value>Если свойство {{0}} будет переименовано в {1}, то класс {2}{0} также должен быть переименован в {3}{1}</value>
+</data>
+<data name="InLineContentToMasterpage_Text" xml:space="preserve">
+  <value>Встроить содержимое в мастер-страницу (&amp;L)</value>
+</data>
+<data name="CannotRenameRouteParameter0_SinceIt_Text" xml:space="preserve">
+  <value>Невозможно переименовать параметр маршрута {{0, {0}}}, так как он объявлен в константе</value>
+</data>
+<data name="ExtractContentPlaceholder_Action_Text" xml:space="preserve">
+  <value>Извлечь заполнитель содержимого…</value>
+</data>
+<data name="ExtractCSSStyle_Text" xml:space="preserve">
+  <value>Извлечь CSS стиль</value>
+</data>
+<data name="ExtractHelper_Text" xml:space="preserve">
+  <value>Извлечь helper (&amp;E)</value>
+</data>
+<data name="FindS_tructurallyCompatibleMembers_Text" xml:space="preserve">
+  <value>Найти структурно совместимые члены (&amp;T)</value>
+</data>
+<data name="RefactoringHasFoundAdditionalDynamic_Text" xml:space="preserve">
+  <value>Рефакторинг обнаружил дополнительные динамические ссылки с тем же именем. Выберите ссылки для переименования:</value>
+</data>
+<data name="CannotInlineFunctionWithManyDeclarations_Text" xml:space="preserve">
+  <value>Невозможно встроить функцию с несколькими объявлениями</value>
+</data>
+<data name="UnableToIntroduceVariableFromTheSelected_Text" xml:space="preserve">
+  <value>Невозможно ввести переменную из выбранной части строки</value>
+</data>
+<data name="CannotUpdate0RouteTemplate_Text" xml:space="preserve">
+  <value>Не удается обновить{0, шаблон маршрута}</value>
+</data>
+<data name="_Properties_Text" xml:space="preserve">
+  <value>Свойства (_P):</value>
+</data>
+<data name="YouAreAboutToRenameATypeMemberTheFollowing_Text" xml:space="preserve">
+  <value>Вы собираетесь переименовать член типа. Следующие члены структурно совместимы с этим членом:</value>
+</data>
+</root>

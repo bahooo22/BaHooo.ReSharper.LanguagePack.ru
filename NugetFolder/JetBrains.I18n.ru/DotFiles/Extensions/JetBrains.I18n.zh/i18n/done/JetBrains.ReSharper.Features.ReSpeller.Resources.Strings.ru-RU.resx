@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReSpellerSettingsSettingDescription" xml:space="preserve">
+    <value>ReSpeller 设置</value>
+  </data>
+  <data name="TypoIn_ReplaceWith_Text" xml:space="preserve">
+    <value>'{0}' 中存在拼写错误。替换为…</value>
+  </data>
+  <data name="DocCommentsUseMemberModifiersSettingDescription" xml:space="preserve">
+    <value>根据成员的可见性设置检查文档注释</value>
+  </data>
+  <data name="DontCheckInheritedMembersSettingDescription" xml:space="preserve">
+    <value>不检查继承的成员</value>
+  </data>
+  <data name="CheckNonLocalizableStringsSettingDescription" xml:space="preserve">
+    <value>检查显式标记为不可本地化的字符串</value>
+  </data>
+  <data name="Internal_BoolOption_Text" xml:space="preserve">
+    <value>internal</value>
+  </data>
+  <data name="TypoIn_RenameTo_Text" xml:space="preserve">
+    <value>'{0}' 中存在拼写错误。重命名为…</value>
+  </data>
+  <data name="GrammarCheckingScope" xml:space="preserve">
+    <value>语法检查作用域</value>
+  </data>
+  <data name="WordsSettingDescription" xml:space="preserve">
+    <value>单词</value>
+  </data>
+  <data name="UserWords_Header_Text" xml:space="preserve">
+    <value>用户单词</value>
+  </data>
+  <data name="MinimalWordLengthToCheckSmallerWordsWillBeSkippedSettingDescription" xml:space="preserve">
+    <value>要检查的最小单词长度(将跳过更小的单词)</value>
+  </data>
+  <data name="CheckProtectedInternalMembersSettingDescription" xml:space="preserve">
+    <value>检查 protected internal 成员</value>
+  </data>
+  <data name="GrammarMistake_Tooltip_PoweredByLanguageTool" xml:space="preserve">
+    <value>由 LanguageTool 提供技术支持</value>
+  </data>
+  <data name="ReSpellerInstalledDictionariesSettingDescription" xml:space="preserve">
+    <value>ReSpeller 用户字典</value>
+  </data>
+  <data name="SpellCheckingScope" xml:space="preserve">
+    <value>拼写检查作用域</value>
+  </data>
+  <data name="LanguageDetectionSettings" xml:space="preserve">
+    <value>语言检测设置</value>
+  </data>
+  <data name="DisableOnceWithComment" xml:space="preserve">
+    <value>使用注释禁用一次</value>
+  </data>
+  <data name="CheckInInterpolatedStringLiterals" xml:space="preserve">
+    <value>检查内插字符串字面量</value>
+  </data>
+  <data name="SpellingSettings" xml:space="preserve">
+    <value>拼写检查设置</value>
+  </data>
+  <data name="AddToUserDictionary_Text" xml:space="preserve">
+    <value>添加到用户字典</value>
+  </data>
+  <data name="TypoInMarkupText__Text" xml:space="preserve">
+    <value>标记文本中存在拼写错误: '{0}'</value>
+  </data>
+  <data name="TypoInMarkupAttributeValueConfigurableSeverityDescription" xml:space="preserve">
+    <value>标记特性值中存在拼写错误</value>
+  </data>
+  <data name="CheckNonLocalizableStrings_BoolOption_Text" xml:space="preserve">
+    <value>检查显式标记为不可本地化的字符串</value>
+  </data>
+  <data name="CheckVerbatimStringsStartingWith_BoolOption_Text" xml:space="preserve">
+    <value>检查逐字字符串(以 @ 开头)</value>
+  </data>
+  <data name="ReSpellerPencilsFilter_Spelling_Text" xml:space="preserve">
+    <value>拼写</value>
+  </data>
+  <data name="CheckLocalsLocalVariablesAndParametersSettingDescription" xml:space="preserve">
+    <value>检查局部项(局部变量和形参)</value>
+  </data>
+  <data name="GrammarSettings" xml:space="preserve">
+    <value>语法检查设置</value>
+  </data>
+  <data name="TypoInString__Text" xml:space="preserve">
+    <value>字符串中存在拼写错误: '{0}'</value>
+  </data>
+  <data name="TypoInMarkupTextConfigurableSeverityTitle" xml:space="preserve">
+    <value>标记文本中存在拼写错误</value>
+  </data>
+  <data name="VisibilityOptionsMarkedMembersWillBe_Header_Text" xml:space="preserve">
+    <value>可见性选项(标记的成员将被检查)</value>
+  </data>
+  <data name="CheckInheritedMembersSettingDescription" xml:space="preserve">
+    <value>检查继承的成员</value>
+  </data>
+  <data name="CheckPublicMembersSettingDescription" xml:space="preserve">
+    <value>检查 public 成员</value>
+  </data>
+  <data name="TypoInIdentifier__Text" xml:space="preserve">
+    <value>标识符中存在拼写错误: '{0}'</value>
+  </data>
+  <data name="CheckLocals_BoolOption_Text" xml:space="preserve">
+    <value>检查局部变量</value>
+  </data>
+  <data name="TypoInMarkupAttributeValue__Text" xml:space="preserve">
+    <value>标记特性值中存在拼写错误: '{0}'</value>
+  </data>
+  <data name="Grazie_Bulbs_IgnorePattern" xml:space="preserve">
+    <value>忽略 '{0}'</value>
+  </data>
+  <data name="TypoInStringLiteralConfigurableSeverityTitle" xml:space="preserve">
+    <value>字符串字面量中存在拼写错误</value>
+  </data>
+  <data name="ConfigureDictionaries_Text" xml:space="preserve">
+    <value>配置字典</value>
+  </data>
+  <data name="GrammarIssues_Text" xml:space="preserve">
+    <value>语法问题</value>
+  </data>
+  <data name="IgnoredWordsSettingDescription" xml:space="preserve">
+    <value>忽略的单词</value>
+  </data>
+  <data name="General_Header_Text" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="TypoInStringLiteralConfigurableSeverityDescription" xml:space="preserve">
+    <value>字符串字面量中存在拼写错误</value>
+  </data>
+  <data name="Public_BoolOption_Text" xml:space="preserve">
+    <value>public</value>
+  </data>
+  <data name="CheckVerbatimStringsStartingWithSettingDescription" xml:space="preserve">
+    <value>检查逐字字符串(以 @ 开头)</value>
+  </data>
+  <data name="ReSpellerUserDictionariesSettingDescription" xml:space="preserve">
+    <value>ReSpeller 用户字典</value>
+  </data>
+  <data name="ConfigureRule__Text" xml:space="preserve">
+    <value>配置规则 '{0}'…</value>
+  </data>
+  <data name="EnableSpellChecking" xml:space="preserve">
+    <value>启用拼写检查</value>
+  </data>
+  <data name="Protected_BoolOption_Text" xml:space="preserve">
+    <value>protected</value>
+  </data>
+  <data name="CheckProtectedMembersSettingDescription" xml:space="preserve">
+    <value>检查 protected 成员</value>
+  </data>
+  <data name="DontCheckVerbatimStringsStartingWithSettingDescription" xml:space="preserve">
+    <value>不检查逐字字符串(以 @ 开头)</value>
+  </data>
+  <data name="EnableReSpeller_BoolOption_Text" xml:space="preserve">
+    <value>启用 ReSpeller</value>
+  </data>
+  <data name="ReSpellerUserDictionarySettingDescription" xml:space="preserve">
+    <value>ReSpeller 用户字典</value>
+  </data>
+  <data name="TypoInMarkupAttributeValueConfigurableSeverityTitle" xml:space="preserve">
+    <value>标记特性值中存在拼写错误</value>
+  </data>
+  <data name="CheckPrivateMembersSettingDescription" xml:space="preserve">
+    <value>检查 private 成员</value>
+  </data>
+  <data name="ShowDisableWarningOptionsPopup" xml:space="preserve">
+    <value>Show DisableWarning options popup</value>
+  </data>
+  <data name="CheckInDocumentation" xml:space="preserve">
+    <value>在文档中检查</value>
+  </data>
+  <data name="TypoInCommentConfigurableSeverityDescription" xml:space="preserve">
+    <value>注释中存在拼写错误</value>
+  </data>
+  <data name="CheckDocCommentsAccordingToVisibility_BoolOption_Text" xml:space="preserve">
+    <value>根据成员的可见性设置检查文档注释</value>
+  </data>
+  <data name="UnderlineTyposInRenameDialogSettingDescription" xml:space="preserve">
+    <value>对重命名对话框中的拼写错误添加下划线</value>
+  </data>
+  <data name="GrammarMistake_TooltipFormat" xml:space="preserve">
+    <value>语法错误: '{0}'</value>
+  </data>
+  <data name="ProtectedInternal_BoolOption_Text" xml:space="preserve">
+    <value>protected internal</value>
+  </data>
+  <data name="TypoInMarkupTextConfigurableSeverityDescription" xml:space="preserve">
+    <value>标记文本中存在拼写错误</value>
+  </data>
+  <data name="GrammarFix_RemoveText" xml:space="preserve">
+    <value>移除 '{0}'</value>
+  </data>
+  <data name="ReSpellerIsEnabledSettingDescription" xml:space="preserve">
+    <value>Grammar and spell checking enabled</value>
+  </data>
+  <data name="SpellingIssues_Text" xml:space="preserve">
+    <value>拼写问题</value>
+  </data>
+  <data name="DisableAndRestoreWithComments" xml:space="preserve">
+    <value>使用注释禁用和还原</value>
+  </data>
+  <data name="GrammarMistake_Tooltip_Incorrect" xml:space="preserve">
+    <value>不正确:</value>
+  </data>
+  <data name="TypoInIdentifierConfigurableSeverityTitle" xml:space="preserve">
+    <value>标识符中存在拼写错误</value>
+  </data>
+  <data name="ReSpellerOptionPageTitle" xml:space="preserve">
+    <value>ReSpeller</value>
+  </data>
+  <data name="CheckInternalMembersSettingDescription" xml:space="preserve">
+    <value>检查 internal 成员</value>
+  </data>
+  <data name="CheckInheritedMembers_BoolOption_Text" xml:space="preserve">
+    <value>检查继承的成员</value>
+  </data>
+  <data name="TypoInCommentConfigurableSeverityTitle" xml:space="preserve">
+    <value>注释中存在拼写错误</value>
+  </data>
+  <data name="InstalledDictionariesSettingDescription" xml:space="preserve">
+    <value>InstalledDictionaries</value>
+  </data>
+  <data name="GrammarAndSpellingSettings" xml:space="preserve">
+    <value>语法和拼写设置</value>
+  </data>
+  <data name="ConfigureReSpellerDictionaries_Text" xml:space="preserve">
+    <value>配置 ReSpeller 字典</value>
+  </data>
+  <data name="TypoInComment__Text" xml:space="preserve">
+    <value>注释中存在拼写错误: '{0}'</value>
+  </data>
+  <data name="Private_BoolOption_Text" xml:space="preserve">
+    <value>private</value>
+  </data>
+  <data name="GrammarMistake_Tooltip_Correct" xml:space="preserve">
+    <value>正确:</value>
+  </data>
+  <data name="TypoInIdentifierConfigurableSeverityDescription" xml:space="preserve">
+    <value>标识符中存在拼写错误</value>
+  </data>
+  <data name="HighlightingGroup_Common" xml:space="preserve">
+    <value>通用</value>
+  </data>
+  <data name="UseBundledDictionarySettingDescription" xml:space="preserve">
+    <value>使用捆绑的字典</value>
+  </data>
+</root>

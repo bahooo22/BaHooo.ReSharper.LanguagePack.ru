@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Common_FileNotFoundMessage" xml:space="preserve">
+  <value>Файл {0} не найден.</value>
+</data>
+<data name="Common_IsFavoriteSettingDescription" xml:space="preserve">
+  <value>Избранное</value>
+</data>
+<data name="Common_UnpackedIndexFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к распакованному файлу индекса снимка</value>
+</data>
+<data name="Common_InternalStorageSizeToNotExceedSettingDescription" xml:space="preserve">
+  <value>Максимальный размер внутреннего хранилища</value>
+</data>
+<data name="Common_ModuleSettingDescription" xml:space="preserve">
+  <value>Модуль</value>
+</data>
+<data name="Common_ModulesSettingDescription" xml:space="preserve">
+  <value>Модули</value>
+</data>
+<data name="Common_EnableAutoCleanupOfTemporaryStorageByExpirationDateSettingDescription" xml:space="preserve">
+  <value>Включить автоматическую очистку временного хранилища по дате истечения срока</value>
+</data>
+<data name="Common_IndexFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к файлу индекса</value>
+</data>
+<data name="Common_LastAccessDateUtcSettingDescription" xml:space="preserve">
+  <value>Дата последнего доступа (UTC)</value>
+</data>
+<data name="Common_ProfilingIsActiveMessage" xml:space="preserve">
+  <value>Завершите сеанс профилирования и дождитесь сохранения данных {0}.</value>
+</data>
+<data name="Common_CleanupTempStorageQuestionText" xml:space="preserve">
+  <value>Это действие навсегда удалит все {0} из временного хранилища.
+{0}, сохраненные в других местах, затронуты не будут.
+Продолжить?</value>
+</data>
+<data name="Common_IncompatibleMessage" xml:space="preserve">
+  <value>{0} несовместим с текущей версией.</value>
+</data>
+<data name="Common_RecentSnapshotIndexFilePathIdMappingSettingDescription" xml:space="preserve">
+  <value>Последние сопоставления IndexFilePath -> Id для снимков</value>
+</data>
+<data name="Common_UnableToSaveText" xml:space="preserve">
+  <value>Не удалось сохранить {0}</value>
+</data>
+<data name="Common_ConfigurationXmlSettingDescription" xml:space="preserve">
+  <value>Настройка Xml</value>
+</data>
+<data name="Common_EnableAutoSaveSettingDescription" xml:space="preserve">
+  <value>Включить автосохранение</value>
+</data>
+<data name="Common_RemoveFailedText" xml:space="preserve">
+  <value>Не удалось удалить некоторые {0}. Возможно, некоторые файлы используются в данный момент.</value>
+</data>
+<data name="Common_ShouldBeRemovedSettingDescription" xml:space="preserve">
+  <value>Должно быть удалено</value>
+</data>
+<data name="Common_RenameActionText" xml:space="preserve">
+  <value>Редактировать имя</value>
+</data>
+<data name="Common_UnableToOpenText" xml:space="preserve">
+  <value>Не удалось открыть {0}</value>
+</data>
+<data name="Common_ImportingProgressText" xml:space="preserve">
+  <value>Идет импорт…</value>
+</data>
+<data name="Common_RecentSnapshotInfoSettingDescription" xml:space="preserve">
+  <value>Информация о последних снимках</value>
+</data>
+<data name="DotTrace_OpenInPerformanceActionText" xml:space="preserve">
+  <value>Открыть в старом средстве просмотра</value>
+</data>
+<data name="Common_LastTimeWhenUserCleanedUpSessionsSettingDescription" xml:space="preserve">
+  <value>Время последней очистки сеансов пользователем</value>
+</data>
+<data name="Common_DeleteSelectedSingle_Question" xml:space="preserve">
+  <value>Удалить выбранный {0}?</value>
+</data>
+<data name="Common_SaveActionText" xml:space="preserve">
+  <value>Сохранить</value>
+</data>
+<data name="Common_CommandLineSettingDescription" xml:space="preserve">
+  <value>Командная строка</value>
+</data>
+<data name="Common_SaveDialogTitle" xml:space="preserve">
+  <value>Сохранить {0}</value>
+</data>
+<data name="Common_RemoveFromDiskActionText" xml:space="preserve">
+  <value>Удалить с диска</value>
+</data>
+<data name="Common_DaysBeforeSessionWillBeDeletedSettingDescription" xml:space="preserve">
+  <value>Количество дней до удаления сеанса</value>
+</data>
+<data name="Common_CleanupModeSettingDescription" xml:space="preserve">
+  <value>Режим очистки</value>
+</data>
+<data name="Common_UnableToSaveUnknownText" xml:space="preserve">
+  <value>Не удалось сохранить {0}. Возможно, некоторые файлы используются в данный момент.</value>
+</data>
+<data name="Common_EndTimeUtcSettingDescription" xml:space="preserve">
+  <value>Время окончания (UTC)</value>
+</data>
+<data name="Common_OpenInViewerActionText" xml:space="preserve">
+  <value>Открыть</value>
+</data>
+<data name="Common_SnapshotsStorageLocationSettingDescription" xml:space="preserve">
+  <value>Расположение хранилища снимков</value>
+</data>
+<data name="Common_ExportingProgressText" xml:space="preserve">
+  <value>Идет сохранение…</value>
+</data>
+<data name="Common_EnableAutoCleanupOfTemporaryStorageBySizeLimitSettingDescription" xml:space="preserve">
+  <value>Включить автоматическую очистку временного хранилища по ограничению размера</value>
+</data>
+<data name="Common_UnableToOpenUnknownText" xml:space="preserve">
+  <value>Не удалось открыть {0}. Подробности см. в файле журнала.</value>
+</data>
+<data name="Common_NotSupportedMessage" xml:space="preserve">
+  <value>{0} не поддерживается.</value>
+</data>
+<data name="Common_ArtifactAlreadyInList" xml:space="preserve">
+  <value>Не удалось сохранить {0} как '{2}', так как он уже существует в списке последних {1}.</value>
+</data>
+<data name="Common_IdSettingDescription" xml:space="preserve">
+  <value>ID</value>
+</data>
+<data name="Common_StartTimeUtcSettingDescription" xml:space="preserve">
+  <value>Время начала (UTC)</value>
+</data>
+<data name="Common_TypeSettingDescription" xml:space="preserve">
+  <value>Type</value>
+</data>
+<data name="Common_CleanupProgressText" xml:space="preserve">
+  <value>Идет очистка…</value>
+</data>
+<data name="Common_DeleteError" xml:space="preserve">
+  <value>Не удалось удалить {0}: возможно, он открыт в средстве просмотра. Закройте средство просмотра и повторите попытку.</value>
+</data>
+<data name="Common_OpenIssueMessage" xml:space="preserve">
+  <value>Не удалось открыть {0} {1}</value>
+</data>
+<data name="Common_ProcessNameSettingDescription" xml:space="preserve">
+  <value>Имя процесса</value>
+</data>
+<data name="Common_RemoveFromListActionText" xml:space="preserve">
+  <value>Удалить из списка</value>
+</data>
+<data name="Common_NameSettingDescription" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="Common_RecentSnapshotModuleInfoSettingDescription" xml:space="preserve">
+  <value>Информация о модулях последних снимков</value>
+</data>
+<data name="Common_InternalSettingDescription" xml:space="preserve">
+  <value>Internal</value>
+</data>
+<data name="Common_CleanupSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки очистки Snapshots</value>
+</data>
+<data name="Common_CleaunupFailedText" xml:space="preserve">
+  <value>Не удалось удалить некоторые временные {0}. Возможно, некоторые файлы используются в данный момент.</value>
+</data>
+<data name="Common_UnpackedText" xml:space="preserve">
+  <value>Распакован</value>
+</data>
+<data name="Common_ClearTempStorageActionText" xml:space="preserve">
+  <value>Очистить временное хранилище</value>
+</data>
+<data name="Common_ShowInListSettingDescription" xml:space="preserve">
+  <value>Показывать в списке</value>
+</data>
+<data name="Common_DeleteSelected_Question" xml:space="preserve">
+  <value>Удалить выбранные {0}?</value>
+</data>
+<data name="Common_StateSettingDescription" xml:space="preserve">
+  <value>Состояние</value>
+</data>
+<data name="Common_FileAccessDeniedMessage" xml:space="preserve">
+  <value>В доступе к файлу {0} отказано. Возможно, он открыт в средстве просмотра. Закройте средство просмотра и повторите попытку.</value>
+</data>
+</root>

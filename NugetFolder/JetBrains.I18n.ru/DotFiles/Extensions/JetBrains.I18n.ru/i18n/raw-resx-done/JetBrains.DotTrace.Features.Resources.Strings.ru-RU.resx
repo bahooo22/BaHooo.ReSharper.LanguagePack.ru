@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ProcessingWarning_TooManyTplEvents" xml:space="preserve">
+  <value>Получено слишком много событий TPL: функции async/await и задач будут отключены.</value>
+</data>
+<data name="History_Redo" xml:space="preserve">
+  <value>Повторить</value>
+</data>
+<data name="History_Undo" xml:space="preserve">
+  <value>Отменить</value>
+</data>
+<data name="CallTreeFoldUnfoldDefaultAction_Folding_ActionName" xml:space="preserve">
+  <value>Свернуть/развернуть системные вызовы (&amp;U)</value>
+</data>
+<data name="ProcessingException_HTTP" xml:space="preserve">
+  <value>Ошибка в данных HTTP: dotTrace может некорректно отображать данные событий HTTP.</value>
+</data>
+<data name="DaysBeforeSessionWillBeDeletedSettingDescription" xml:space="preserve">
+  <value>Количество дней до удаления сеанса</value>
+</data>
+<data name="ProcessingException_Exceptions" xml:space="preserve">
+  <value>Ошибка в данных исключений: dotTrace может некорректно отображать исключения.</value>
+</data>
+<data name="DontShowViewerMigrationWarningSettingDescription" xml:space="preserve">
+  <value>Не показывать баннер предупреждения о миграции средства просмотра при запуске</value>
+</data>
+<data name="EventTableShiftLeftAndRightTickAction_ActionText" xml:space="preserve">
+  <value>Оба вышеуказанных</value>
+</data>
+<data name="NavigateForwardActionDescription" xml:space="preserve">
+  <value>Навигация вперед</value>
+</data>
+<data name="CurrentStoreSettingDescription" xml:space="preserve">
+  <value>Текущее хранилище</value>
+</data>
+<data name="ProcessingException_ActivatedByFilter" xml:space="preserve">
+  <value>Ошибка в данных потоков: dotTrace может некорректно отображать данные активации потоков.</value>
+</data>
+<data name="IsFavoriteSettingDescription" xml:space="preserve">
+  <value>Является ли избранным</value>
+</data>
+<data name="RecentSnapshotIndexFilePathIdMappingSettingDescription" xml:space="preserve">
+  <value>Недавние сопоставления IndexFilePath-&gt;Id для снимков</value>
+</data>
+<data name="TimelineLayoutSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки макета временной шкалы</value>
+</data>
+<data name="ProcessingWarning_ZeroedActivityId" xml:space="preserve">
+  <value>Недостаточно данных событий HTTP. dotTrace может не отображать HTTP-запросы. Чтобы решить эту проблему, перезапустите профилирование с включенной опцией "Собирать события TPL".</value>
+</data>
+<data name="UnpackedIndexFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к распакованному файлу индекса снимка</value>
+</data>
+<data name="MarkModuleAsSystemActionText" xml:space="preserve">
+  <value>Пометить выбранные модули как системные</value>
+</data>
+<data name="OpenSnapshot_FileDialog_AllFilesDescription" xml:space="preserve">
+  <value>Все файлы</value>
+</data>
+<data name="AppBrowserSnapshotsStoreSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки хранилища снимков AppBrowser</value>
+</data>
+<data name="ProcessingException_NativeAllocations" xml:space="preserve">
+  <value>Ошибка в данных собственных распределений: dotTrace может не отображать собственные распределения.</value>
+</data>
+<data name="AsyncSupportSettingDescription" xml:space="preserve">
+  <value>Поддержка асинхронности</value>
+</data>
+<data name="RecentSnapshotModuleInfoSettingDescription" xml:space="preserve">
+  <value>Информация о недавних модулях снимков</value>
+</data>
+<data name="EnumFilterHeights" xml:space="preserve">
+  <value>Высота представления фильтров, измененная вручную</value>
+</data>
+<data name="IndexFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к файлу индекса</value>
+</data>
+<data name="StartTimeUtcSettingDescription" xml:space="preserve">
+  <value>Время начала (UTC)</value>
+</data>
+<data name="NavigateBackActionDescription" xml:space="preserve">
+  <value>Навигация назад</value>
+</data>
+<data name="CallTreeHistoryActiveItemIndexSettingDescription" xml:space="preserve">
+  <value>Индекс активного элемента истории дерева вызовов</value>
+</data>
+<data name="CopyToClipboardActionText" xml:space="preserve">
+  <value>Копировать в буфер обмена (&amp;C)</value>
+</data>
+<data name="SnapshotStateSettingDescription" xml:space="preserve">
+  <value>Состояние снимка</value>
+</data>
+<data name="CallTreeRestoreAllAction_Text" xml:space="preserve">
+  <value>Восстановить все исключенные узлы</value>
+</data>
+<data name="ReturnToPreviousScopeActionDescription" xml:space="preserve">
+  <value>Вернуться к предыдущей области</value>
+</data>
+<data name="LogETWBridgeSettingDescription" xml:space="preserve">
+  <value>Журналировать мост ETW</value>
+</data>
+<data name="ModulesAssemblyNamePresentationBuilder_Unknown_Text" xml:space="preserve">
+  <value>&lt;Неизвестно&gt;</value>
+</data>
+<data name="IdSettingDescription" xml:space="preserve">
+  <value>ID</value>
+</data>
+<data name="CallTreeShowProperties_ActionText" xml:space="preserve">
+  <value>Свойства…</value>
+</data>
+<data name="ReturnToPreviousScopeActionText" xml:space="preserve">
+  <value>Вернуться к предыдущей области</value>
+</data>
+<data name="ProcessingException_Subsystems" xml:space="preserve">
+  <value>Ошибка в данных подсистем: dotTrace может некорректно отображать подсистемы.</value>
+</data>
+<data name="ShowInListSettingDescription" xml:space="preserve">
+  <value>Показывать в списке</value>
+</data>
+<data name="LastTimeWhenUserCleanedUpSessionsSettingDescription" xml:space="preserve">
+  <value>Время последней очистки сеансов пользователем</value>
+</data>
+<data name="ListOfManuallyHiddenThreadsDoesNotIncludeThreadsHiddenByDefaultLikeNativeOnesSettingDescription" xml:space="preserve">
+  <value>Список потоков, скрытых вручную. Не включает потоки, скрытые по умолчанию, например, собственные.</value>
+</data>
+<data name="NameSettingDescription" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="ProcessingException_DebugOutput" xml:space="preserve">
+  <value>Ошибка в данных отладочного вывода: dotTrace может некорректно отображать отладочный вывод.</value>
+</data>
+<data name="ExcludedNodesSettingDescription" xml:space="preserve">
+  <value>Исключенные узлы</value>
+</data>
+<data name="CopyRawSectionsIntoConvertedSettingDescription" xml:space="preserve">
+  <value>Копировать необработанные разделы в преобразованные</value>
+</data>
+<data name="ProcessingException_JIT" xml:space="preserve">
+  <value>Ошибка в данных JIT: dotTrace может некорректно отображать данные событий JIT.</value>
+</data>
+<data name="ProcessingException_SQL" xml:space="preserve">
+  <value>Ошибка в данных SQL: dotTrace может некорректно отображать данные событий SQL.</value>
+</data>
+<data name="ProcessNameSettingDescription" xml:space="preserve">
+  <value>Имя процесса</value>
+</data>
+<data name="ProcessingException_CallStacksProcessing" xml:space="preserve">
+  <value>Ошибка в данных стеков вызовов: dotTrace может не отображать стеки вызовов.</value>
+</data>
+<data name="CallTreeFoldUnfoldDefaultAction_RecursiveFolding_ActionName" xml:space="preserve">
+  <value>Свернуть/развернуть рекурсивные вызовы (&amp;U)</value>
+</data>
+<data name="LastAccessDateUtcSettingDescription" xml:space="preserve">
+  <value>Дата последнего доступа (UTC)</value>
+</data>
+<data name="OpenSnapshot_FileDialogError_Title" xml:space="preserve">
+  <value>Неверный файл снимка</value>
+</data>
+<data name="SnapshotSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки снимка</value>
+</data>
+<data name="AppBrowserStoreSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки хранилища AppBrowser</value>
+</data>
+<data name="ProcessingWarning_IgnoredThreadLifetimesBecauseOfThreadIdReuse" xml:space="preserve">
+  <value>Снимок содержит потоки с повторно используемыми ID: Windows может повторно использовать ID остановленного потока для нового потока. dotTrace покажет данные только для исходного потока.</value>
+</data>
+<data name="MarkAllFunctionsFromAssemblyAsSystemActionText" xml:space="preserve">
+  <value>Пометить все функции в сборке как системные</value>
+</data>
+<data name="VisibleRangeSettingDescription" xml:space="preserve">
+  <value>Видимый диапазон</value>
+</data>
+<data name="CallTreeScopeToAsync_ActionText" xml:space="preserve">
+  <value>Анализировать асинхронные методы</value>
+</data>
+<data name="EnableAutoCleanupOfTemporaryStorageByExpirationDateSettingDescription" xml:space="preserve">
+  <value>Включить автоматическую очистку временного хранилища по дате истечения срока</value>
+</data>
+<data name="PlainListTableStarHeightSettingDescription" xml:space="preserve">
+  <value>Соотношение таблицы простого списка и деталей</value>
+</data>
+<data name="ProcessingWarning_NoKernelSampling" xml:space="preserve">
+  <value>Отсутствуют данные событий семплирования. Попробуйте отключить Защитник Windows и пересобрать снимок.</value>
+</data>
+<data name="SortingOrderOfAThreadsListSettingDescription" xml:space="preserve">
+  <value>Порядок сортировки списка потоков</value>
+</data>
+<data name="ProcessingWarning_ErroneousFileIO" xml:space="preserve">
+  <value>Ошибка в данных I/O: dotTrace может некорректно отображать данные событий файлового ввода-вывода.</value>
+</data>
+<data name="NextImportantCallActionText" xml:space="preserve">
+  <value>Следующий важный вызов (&amp;I)</value>
+</data>
+<data name="ProcessingException_ProfilingAPI" xml:space="preserve">
+  <value>Ошибка в данных событий Profiling API: dotTrace может не отображать вызовы API.</value>
+</data>
+<data name="MetadataPresentationSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки представления метаданных</value>
+</data>
+<data name="EventTableShiftRightTickAction_ActionText" xml:space="preserve">
+  <value>Установить максимальную метку времени как конец временного интервала</value>
+</data>
+<data name="OpenSnapshot_FileDialogError_Comparison_SnapshotTypeMismatch" xml:space="preserve">
+  <value>Невозможно сравнить снимок семплирования со снимком трассировки</value>
+</data>
+<data name="ProcessingException_FileIO" xml:space="preserve">
+  <value>Ошибка в данных I/O: dotTrace может некорректно отображать данные событий файлового ввода-вывода.</value>
+</data>
+<data name="ScopeToThisActionText" xml:space="preserve">
+  <value>Ограничить этой областью</value>
+</data>
+<data name="ListOfManuallyUnhiddenThreadsWhenUserMakesVisibleAThreadHiddenByDefaultSettingDescription" xml:space="preserve">
+  <value>Список потоков, показанных вручную. Потоки, скрытые по умолчанию и сделанные видимыми пользователем.</value>
+</data>
+<data name="ModulesAssemblyNamePresentationBuilder_NoAssemblyName_Text" xml:space="preserve">
+  <value>[Без имени сборки]</value>
+</data>
+<data name="CopySubtreeLogic_ActionText" xml:space="preserve">
+  <value>Скопировать поддерево в буфер обмена</value>
+</data>
+<data name="ModuleSettingDescription" xml:space="preserve">
+  <value>Модуль</value>
+</data>
+<data name="ResetCallTreeFilterActionText" xml:space="preserve">
+  <value>Сбросить фильтр дерева вызовов</value>
+</data>
+<data name="CallTreeExcludeMethodAction_ActionText" xml:space="preserve">
+  <value>Исключить метод</value>
+</data>
+<data name="ProcessingException_ManagedEvents" xml:space="preserve">
+  <value>Ошибка в данных управляемых событий: dotTrace может не отображать управляемые события, такие как JIT, управляемые распределения и т.д.</value>
+</data>
+<data name="CallTreeHistorySettingDescription" xml:space="preserve">
+  <value>История дерева вызовов</value>
+</data>
+<data name="ModulesSettingDescription" xml:space="preserve">
+  <value>Модули</value>
+</data>
+<data name="ProcessingException_ThreadNames" xml:space="preserve">
+  <value>Ошибка в данных потоков: dotTrace может не отображать имена потоков.</value>
+</data>
+<data name="SelectedRangeSettingDescription" xml:space="preserve">
+  <value>Выбранный диапазон</value>
+</data>
+<data name="ProcessingException_LineInformation" xml:space="preserve">
+  <value>Ошибка в исходных данных: dotTrace может некорректно отображать данные строк в исходном представлении.</value>
+</data>
+<data name="ProcessingException_ThreadTypes" xml:space="preserve">
+  <value>Ошибка в данных типов потоков: dotTrace может некорректно отображать типы потоков.</value>
+</data>
+<data name="DotTraceCleanupSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки очистки DotTrace</value>
+</data>
+<data name="OpenSnapshot_FileDialog_Title" xml:space="preserve">
+  <value>Открыть снимок</value>
+</data>
+<data name="OpenSnapshot_FileDialogError_BrokenOrUnsupportedSnapshot" xml:space="preserve">
+  <value>Не удалось открыть снимок: файл поврежден или не поддерживается</value>
+</data>
+<data name="SavedStateOfAllEnumFiltersSettingDescription" xml:space="preserve">
+  <value>Сохраненное состояние всех фильтров перечисления</value>
+</data>
+<data name="ProcessingException_KernelCallStacks" xml:space="preserve">
+  <value>Ошибка в данных стеков вызовов ядра: dotTrace может не отображать стеки вызовов.</value>
+</data>
+<data name="CallTreeOpenAllMethodInstancesAction_ActionText" xml:space="preserve">
+  <value>Объединить экземпляры методов (&amp;M)</value>
+</data>
+<data name="OpenSnapshot_FileDialogError_Comparison_TheSameSnapshot" xml:space="preserve">
+  <value>Выбран тот же снимок для сравнения</value>
+</data>
+<data name="ProcessingException_AsyncAwaitAndTasks" xml:space="preserve">
+  <value>Ошибка в данных асинхронных событий: dotTrace может не отображать вызовы async/await и задачи в дереве вызовов.</value>
+</data>
+<data name="CoreSettingsSettingDescription" xml:space="preserve">
+  <value>Основные настройки</value>
+</data>
+<data name="PlainListShowNodeActionText" xml:space="preserve">
+  <value>Выбрать метод в простом списке</value>
+</data>
+<data name="TopMethodsHeightSettingDescription" xml:space="preserve">
+  <value>Высота раздела основных методов</value>
+</data>
+<data name="EventTableShiftLeftTickAction_ActionText" xml:space="preserve">
+  <value>Установить минимальную метку времени как начало временного интервала</value>
+</data>
+<data name="PlainListDetailsStarHeightSettingDescription" xml:space="preserve">
+  <value>Звездное значение сетки деталей простого списка</value>
+</data>
+<data name="CleanupModeSettingDescription" xml:space="preserve">
+  <value>Режим очистки</value>
+</data>
+<data name="States_LabelPrefix" xml:space="preserve">
+  <value>Профилирование #</value>
+</data>
+<data name="CopySignatureToClipboardActionText" xml:space="preserve">
+  <value>Скопировать сигнатуру в буфер обмена</value>
+</data>
+<data name="IncludeFilterOfSubsystemsSettingDescription" xml:space="preserve">
+  <value>Фильтр включения подсистем</value>
+</data>
+<data name="ProcessingWarning_InconsistentApiEvents" xml:space="preserve">
+  <value>Ошибка в данных API: dotTrace может некорректно отображать события API.</value>
+</data>
+<data name="ProcessingException_GC" xml:space="preserve">
+  <value>Ошибка в данных GC: dotTrace может некорректно отображать события сборки мусора.</value>
+</data>
+<data name="OldsCountSettingDescription" xml:space="preserve">
+  <value>Количество старых</value>
+</data>
+<data name="EnableAutoSaveSettingDescription" xml:space="preserve">
+  <value>Включить автосохранение</value>
+</data>
+<data name="CallTreeVisualStateSettingDescription" xml:space="preserve">
+  <value>Визуальное состояние дерева вызовов</value>
+</data>
+<data name="CallTreeOpenCurrentMethodInstanceAction_ActionText" xml:space="preserve">
+  <value>Ограничить этой областью (&amp;C)</value>
+</data>
+<data name="SavedStateOfAllYesNoFiltersSettingDescription" xml:space="preserve">
+  <value>Сохраненное состояние всех да/нет фильтров</value>
+</data>
+<data name="InternalStorageSizeToNotExceedSettingDescription" xml:space="preserve">
+  <value>Максимальный размер внутреннего хранилища</value>
+</data>
+<data name="CallTreeGroupedByThreadVisualStateSettingDescription" xml:space="preserve">
+  <value>Визуальное состояние дерева вызовов, сгруппированного по потокам</value>
+</data>
+<data name="NavigateBackActionText" xml:space="preserve">
+  <value>Навигация назад (&amp;B)</value>
+</data>
+<data name="ShouldBeRemovedSettingDescription" xml:space="preserve">
+  <value>Должно быть удалено</value>
+</data>
+<data name="OldStoresSettingDescription" xml:space="preserve">
+  <value>Старые хранилища</value>
+</data>
+<data name="FilterByMethodsOwnTimeActionText" xml:space="preserve">
+  <value>Фильтровать по собственному времени методов</value>
+</data>
+<data name="ShowFuidsSettingDescription" xml:space="preserve">
+  <value>Показывать Fuids</value>
+</data>
+<data name="CallTreeExcludeCurrentPathAction_ActionText" xml:space="preserve">
+  <value>Исключить этот путь вызова (&amp;X)</value>
+</data>
+<data name="ProcessingWarning_NoRundownEvents" xml:space="preserve">
+  <value>В снимке не найдены события завершения. Некоторые данные профилирования могут быть повреждены. Чтобы решить эту проблему, перезапустите профилирование. Если проблема сохраняется, обратитесь в службу поддержки dotTrace.</value>
+</data>
+<data name="EventTableSelectThreadsAction_ActionText" xml:space="preserve">
+  <value>Выбрать связанные потоки</value>
+</data>
+<data name="SelectedAnalysisSubjectSettingDescription" xml:space="preserve">
+  <value>Выбранный объект анализа</value>
+</data>
+<data name="StateSettingDescription" xml:space="preserve">
+  <value>Состояние</value>
+</data>
+<data name="NavigateForwardActionText" xml:space="preserve">
+  <value>Навигация вперед (&amp;F)</value>
+</data>
+<data name="PinnedThreadsInAThreadsListSettingDescription" xml:space="preserve">
+  <value>Закрепленные потоки в списке потоков</value>
+</data>
+<data name="KeepRawSnapshotAfterConversionSettingDescription" xml:space="preserve">
+  <value>Сохранять необработанный снимок после преобразования</value>
+</data>
+<data name="InternalSettingDescription" xml:space="preserve">
+  <value>Внутренний</value>
+</data>
+<data name="SnapshotProcessing_NoRuntimeEvents" xml:space="preserve">
+  <value>Снимок не содержит событий среды выполнения от поставщиков, поддерживаемых dotTrace. Возможные причины: попытка открыть файл NetTrace, для которого во время профилирования не был включен поставщик "Microsoft-Windows-DotNETRuntime".</value>
+</data>
+<data name="MarkModuleAsUserActionText" xml:space="preserve">
+  <value>Пометить выбранные модули как пользовательские</value>
+</data>
+<data name="ProcessingException_UIFreeze" xml:space="preserve">
+  <value>Ошибка в данных о зависаниях UI: dotTrace может не отображать события зависания пользовательского интерфейса.</value>
+</data>
+<data name="CallTreeCopySubtreeAction_ActionText" xml:space="preserve">
+  <value>Скопировать поддерево в буфер обмена</value>
+</data>
+<data name="ExcludeFilterOfSubsystemsSettingDescription" xml:space="preserve">
+  <value>Фильтр исключения подсистем</value>
+</data>
+<data name="RecentSnapshotInfoSettingDescription" xml:space="preserve">
+  <value>Информация о недавних снимках</value>
+</data>
+<data name="ShowSnapshotCacheFolderActionText" xml:space="preserve">
+  <value>Показать папку кэша снимков (&amp;S)</value>
+</data>
+<data name="CallTreeRestoreNodeAction_Text" xml:space="preserve">
+  <value>Восстановить исключенный узел</value>
+</data>
+<data name="CallTreeFoldUnfoldDefaultAction_SystemFolding_ActionName" xml:space="preserve">
+  <value>Свернуть/развернуть системные вызовы (&amp;U)</value>
+</data>
+<data name="ProcessingWarning_MainThreadNotDetected" xml:space="preserve">
+  <value>Не удалось определить главный поток в снимке: на временной шкале он будет отображаться как поток "CLR Worker" (для управляемых приложений) или "Native" (для собственных приложений). Чтобы решить эту проблему, перезапустите профилирование. Если проблема сохраняется, обратитесь в службу поддержки dotTrace.</value>
+</data>
+<data name="OpenSnapshot_FileDialogError_Comparison_CannotCompareTimelineSnapshots" xml:space="preserve">
+  <value>Сравнение снимков временной шкалы не поддерживается</value>
+</data>
+<data name="SavedStateOfAllToggleFiltersSettingDescription" xml:space="preserve">
+  <value>Сохраненное состояние всех переключаемых фильтров</value>
+</data>
+<data name="ProcessingException_ThreadStates" xml:space="preserve">
+  <value>Ошибка в данных состояний потоков: dotTrace может некорректно отображать состояния потоков.</value>
+</data>
+<data name="SetCustomRangeFilterAction_ActionText" xml:space="preserve">
+  <value>Установить пользовательский фильтр диапазона</value>
+</data>
+<data name="SortingModeOfAThreadsListPayloadByDefaultNoneWhenUserRearrangesThreadsSettingDescription" xml:space="preserve">
+  <value>Режим сортировки списка потоков. По умолчанию - Payload, None - когда пользователь меняет порядок потоков.</value>
+</data>
+<data name="ProcessingException_ManagedAllocations" xml:space="preserve">
+  <value>Ошибка в данных управляемых распределений: dotTrace может не отображать управляемые распределения.</value>
+</data>
+<data name="EndTimeUtcSettingDescription" xml:space="preserve">
+  <value>Время окончания (UTC)</value>
+</data>
+<data name="EnableAutoCleanupOfTemporaryStorageBySizeLimitSettingDescription" xml:space="preserve">
+  <value>Включить автоматическую очистку временного хранилища по ограничению размера</value>
+</data>
+<data name="OpenSnapshot_FileDialog_AllSnapshotsFilesDescription" xml:space="preserve">
+  <value>Файлы снимков</value>
+</data>
+</root>

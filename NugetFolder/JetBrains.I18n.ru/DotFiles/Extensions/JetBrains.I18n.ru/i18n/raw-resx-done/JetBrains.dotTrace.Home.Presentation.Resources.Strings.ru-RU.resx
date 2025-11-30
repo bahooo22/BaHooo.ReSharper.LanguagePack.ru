@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ConfigurationTree_DisableReason_Attach_Tracing" xml:space="preserve">
+  <value>Не поддерживается присоединение к уже работающему процессу с типом профилирования "Трассировка".</value>
+</data>
+<data name="TracingWinDescription" xml:space="preserve">
+  <value>Точный подсчет вызовов функций.
+Наилучший вариант для анализа сложности алгоритмов.</value>
+</data>
+<data name="EntryPoint_General_Footer_Header" xml:space="preserve">
+  <value>Общий</value>
+</data>
+<data name="TimelineUnixDescription" xml:space="preserve">
+  <value>Отображение данных сэмплинга на временной шкале.
+Подходит для большинства случаев использования.</value>
+</data>
+<data name="ConfigurationTree_DisableReason_MonoVm" xml:space="preserve">
+  <value>Для приложений MonoVM поддерживается только тип профилирования "Временная шкала".</value>
+</data>
+<data name="Name_Column_Title" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="NetLineByLineUiStateSettingDescription" xml:space="preserve">
+  <value>Состояние UI построчного анализа .NET</value>
+</data>
+<data name="EntryPoint_Unity_Item_Header" xml:space="preserve">
+  <value>Для разработчиков Unity</value>
+</data>
+<data name="SelectedProfilingTypeSettingDescription" xml:space="preserve">
+  <value>Выбранный тип профилирования</value>
+</data>
+<data name="SelectedMeterKindSettingDescription" xml:space="preserve">
+  <value>Выбранный тип измерителя</value>
+</data>
+<data name="EntryPoint_Footer_Button_Content" xml:space="preserve">
+  <value>Переключить</value>
+</data>
+<data name="EntryPoint_General_Item_Description" xml:space="preserve">
+  <value>Доступны все типы приложений и настройки профилирования</value>
+</data>
+<data name="CollectTPLEventsSettingDescription" xml:space="preserve">
+  <value>Собирать события TPL</value>
+</data>
+<data name="SymbolPathsSettingsKey_KeyDescription" xml:space="preserve">
+  <value>Настройки сервера символов для профилирования dotTrace</value>
+</data>
+<data name="EntryPoint_Unreal_Item_Description" xml:space="preserve">
+  <value>Интерфейс оптимизирован для профилирования приложений Unreal Engine</value>
+</data>
+<data name="SamplingWinDescription" xml:space="preserve">
+  <value>Точное измерение времени вызовов.
+Наилучший вариант для начального анализа производительности.</value>
+</data>
+<data name="EnableNativeProfilingSettingDescription" xml:space="preserve">
+  <value>Включить профилирование нативного кода</value>
+</data>
+<data name="SelectedEntryPointDescription" xml:space="preserve">
+  <value>Текущий режим точки входа</value>
+</data>
+<data name="LineByLineWinDescription" xml:space="preserve">
+  <value>Только для расширенных случаев использования</value>
+</data>
+<data name="CollectUnreleasedAllocationsSettingDescription" xml:space="preserve">
+  <value>Собирать неосвобождённые выделения памяти</value>
+</data>
+<data name="EntryPoint_General_Item_Header" xml:space="preserve">
+  <value>Общий</value>
+</data>
+<data name="EntryPoint_Unity_Item_Description" xml:space="preserve">
+  <value>Интерфейс оптимизирован для профилирования приложений Unity</value>
+</data>
+<data name="DownloadSymbolFilesSettingDescription" xml:space="preserve">
+  <value>DownloadSymbolFiles</value>
+</data>
+<data name="LiteSnapshotViewModelFactory_ProfileType_Timeline" xml:space="preserve">
+  <value>Временная шкала</value>
+</data>
+<data name="NetSamplingUiStateSettingDescription" xml:space="preserve">
+  <value>Состояние UI выборки .NET</value>
+</data>
+<data name="ConfigurationTree_DisableReason_Native_Attach_Sampling" xml:space="preserve">
+  <value>Не поддерживается присоединение к нативному процессу с типом профилирования "Сэмплинг".</value>
+</data>
+<data name="AllowBackgroundLoadPdbSettingDescription" xml:space="preserve">
+  <value>AllowBackgroundLoadPdb</value>
+</data>
+<data name="ConfigurationTree_DisableReason_MonoVm_Sampling" xml:space="preserve">
+  <value>Тип профилирования "Сэмплинг" не поддерживается для процессов MonoVM.</value>
+</data>
+<data name="EntryPoint_Unity_Footer_Header" xml:space="preserve">
+  <value>Unity</value>
+</data>
+<data name="LiteSnapshotViewModelFactory_ProfileType_Monitoring" xml:space="preserve">
+  <value>Мониторинг</value>
+</data>
+<data name="EmptySnapshotListDescription" xml:space="preserve">
+  <value>Нет доступных снимков</value>
+</data>
+<data name="EntryPoint_Unreal_Item_Header" xml:space="preserve">
+  <value>Для разработчиков Unreal Engine</value>
+</data>
+<data name="DotTraceProfilingUiStateSettingsKey_KeyDescription" xml:space="preserve">
+  <value>Состояние интерфейса раздела профилирования DotTrace Home</value>
+</data>
+<data name="EnableInliningSettingDescription" xml:space="preserve">
+  <value>Включить Inlining</value>
+</data>
+<data name="EntryPoint_Change_Header" xml:space="preserve">
+  <value>Выбор пресета</value>
+</data>
+<data name="LiteSnapshotViewModelFactory_ProfileType_Sampling" xml:space="preserve">
+  <value>Сэмплинг</value>
+</data>
+<data name="NetTimelineUiStateSettingDescription" xml:space="preserve">
+  <value>Состояние UI временной шкалы .NET</value>
+</data>
+<data name="LiteSnapshotViewModelFactory_ProfileType_Line_by_Line" xml:space="preserve">
+  <value>Построчный</value>
+</data>
+<data name="EntryPoint_Footer_Header" xml:space="preserve">
+  <value>Пресет:</value>
+</data>
+<data name="SymbolServersUsedInDotTraceSettingDescription" xml:space="preserve">
+  <value>Серверы символов, используемые в dotTrace</value>
+</data>
+<data name="TimelineWinDescription" xml:space="preserve">
+  <value>Отображение данных сэмплинга на временной шкале.
+Поддерживает нативные процессы.
+Подходит для большинства случаев использования.</value>
+</data>
+<data name="EntryPoint_Unreal_Footer_Header" xml:space="preserve">
+  <value>Unreal Engine</value>
+</data>
+<data name="NetTracingUiStateSettingDescription" xml:space="preserve">
+  <value>Состояние UI трассировки .NET</value>
+</data>
+<data name="ConfigurationTree_DisableReason_Mono" xml:space="preserve">
+  <value>Для приложений Mono/Unity поддерживается только тип профилирования "Временная шкала".</value>
+</data>
+<data name="ConfigurationTree_DisableReason_Maui" xml:space="preserve">
+  <value>Для приложений MAUI поддерживается только тип профилирования "Временная шкала".</value>
+</data>
+<data name="SampleAllocationsInSettingDescription" xml:space="preserve">
+  <value>Выборка выделений памяти (входящие)</value>
+</data>
+<data name="LastAccessDate_Column_Title" xml:space="preserve">
+  <value>Последнее открытие</value>
+</data>
+<data name="Duration_Column_Title" xml:space="preserve">
+  <value>Длительность</value>
+</data>
+<data name="CollectNativeAllocationsSettingDescription" xml:space="preserve">
+  <value>Собирать выделения нативной памяти</value>
+</data>
+
+<data name="MonoTimelineUiStateSettingDescription" xml:space="preserve">
+  <value>Состояние UI временной шкалы Mono</value>
+</data>
+
+<data name="CollectDebugOutputSettingDescription" xml:space="preserve">
+  <value>Собирать отладочный вывод</value>
+</data>
+<data name="ConfigurationTree_DisableReason_Attach_LineByLine" xml:space="preserve">
+  <value>Не поддерживается присоединение к уже работающему процессу с типом профилирования "Построчный".</value>
+</data>
+<data name="EntryPoint_Change_Description" xml:space="preserve">
+  <value>Выберите пресет, чтобы адаптировать интерфейс и опции профилировщика под ваш проект.</value>
+</data>
+<data name="IsSampleAllocationsInSettingDescription" xml:space="preserve">
+  <value>Выборка распределений памяти включена</value>
+</data>
+<data name="CreationDate_Column_Title" xml:space="preserve">
+  <value>Создан</value>
+</data>
+<data name="LiteSnapshotViewModelFactory_ProfileType_Tracing" xml:space="preserve">
+  <value>Трассировка</value>
+</data>
+<data name="SamplingRateSettingDescription" xml:space="preserve">
+  <value>Частота выборки</value>
+</data>
+<data name="DotTraceHomeSettingsKeyDescription" xml:space="preserve">
+  <value>Специфичные настройки DotTrace Home</value>
+</data>
+<data name="CollectProfilingDataFromStartSettingDescription" xml:space="preserve">
+  <value>Собирать данные профилирования с начала</value>
+</data>
+<data name="SnapshotSize_Column_Title" xml:space="preserve">
+  <value>Размер</value>
+</data>
+<data name="HighAccuracySettingDescription" xml:space="preserve">
+  <value>Высокая точность</value>
+</data>
+</root>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="MatchAtLeastNTimes_Text" xml:space="preserve">
+  <value>Совпадение не менее n раз</value>
+</data>
+<data name="AnyCharacterExceptN_Text" xml:space="preserve">
+  <value>Любой символ, кроме \n</value>
+</data>
+<data name="RegularExpressionErrors_Text" xml:space="preserve">
+  <value>Ошибки регулярного выражения</value>
+</data>
+<data name="NewLine_Text" xml:space="preserve">
+  <value>Новая строка</value>
+</data>
+<data name="MeaninglessQuantifierAfterAnAnchorMessage" xml:space="preserve">
+  <value>Квантор после якоря не имеет смысла</value>
+</data>
+<data name="IllegalxyWithXYMessage" xml:space="preserve">
+  <value>Недопустимый {x,y}, x > y</value>
+</data>
+<data name="MatchZeroOrOneTimeAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Совпадение ноль или один раз, как можно меньше раз</value>
+</data>
+<data name="CaptureGroupNumbersMustBeLessThanOrEqualToIntMaxValueMessage" xml:space="preserve">
+  <value>Номера захватывающих групп должны быть меньше или равны Int32.MaxValue</value>
+</data>
+<data name="RegexOption_IgnorePatternWhitespace_Description" xml:space="preserve">
+  <value>Исключает неэкранированные пробелы из шаблона и включает комментарии, помеченные #</value>
+</data>
+<data name="ToPrecompiledRegex_Text" xml:space="preserve">
+  <value>Преобразовать в предкомпилированное регулярное выражение</value>
+</data>
+<data name="ZeroWidthPositiveLookbehindAssertion_Text" xml:space="preserve">
+  <value>Проверка позитивного просмотра назад с нулевой шириной</value>
+</data>
+<data name="SyntaxError_Text" xml:space="preserve">
+  <value>Синтаксическая ошибка</value>
+</data>
+<data name="NegativeUnicodeCategoryOrUnicodeBlock_Text" xml:space="preserve">
+  <value>Отрицательная категория Unicode или блок Unicode</value>
+</data>
+<data name="RemoveQuantifier_Text" xml:space="preserve">
+  <value>Удалить квантор</value>
+</data>
+<data name="NonDigitCharacter_Text" xml:space="preserve">
+  <value>Нецифровой символ</value>
+</data>
+<data name="ConditionalMatchingWithAnExpression_Text" xml:space="preserve">
+  <value>Условное сопоставление с выражением</value>
+</data>
+<data name="MatchZeroOrMoreTimesAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Совпадение ноль или более раз, как можно меньше раз</value>
+</data>
+<data name="MatchBetweenNAndMTimesAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Совпадение от n до m раз, как можно меньше раз</value>
+</data>
+<data name="UTF16CodeUnit_Text" xml:space="preserve">
+  <value>Кодовая единица UTF-16</value>
+</data>
+<data name="NonWhiteSpaceCharacter_Text" xml:space="preserve">
+  <value>Не пробельный символ</value>
+</data>
+<data name="MatchAtLeastNTimesAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Совпадение не менее n раз, как можно меньше раз</value>
+</data>
+<data name="RegularExpressionInspections" xml:space="preserve">
+  <value>Проверки регулярных выражений</value>
+</data>
+<data name="NonbacktrackingSubexpression_Text" xml:space="preserve">
+  <value>Невозвращаемое подвыражение</value>
+</data>
+<data name="NegativeMarker_Text" xml:space="preserve">
+  <value>Отрицательный маркер</value>
+</data>
+<data name="ToPrecompiledRegexObjectContextAction_Name" xml:space="preserve">
+  <value>Преобразовать в предкомпилированный объект 'Regex'</value>
+</data>
+<data name="EndOfStringOnly_Text" xml:space="preserve">
+  <value>Только конец строки</value>
+</data>
+<data name="WordBoundary_Text" xml:space="preserve">
+  <value>Граница слова</value>
+</data>
+<data name="RegexOption_CaseInsensitive_Description" xml:space="preserve">
+  <value>Задает сопоставление без учета регистра</value>
+</data>
+<data name="ASCIICharacter_Text" xml:space="preserve">
+  <value>Символ ASCII</value>
+</data>
+<data name="MatchExactlyNTimes_Text" xml:space="preserve">
+  <value>Точное совпадение n раз</value>
+</data>
+<data name="MatchOneOrMoreTimes_Text" xml:space="preserve">
+  <value>Совпадение один или более раз</value>
+</data>
+<data name="NonWordCharacter_Text" xml:space="preserve">
+  <value>Не словесный символ</value>
+</data>
+<data name="UnicodeCategoryOrUnicodeBlock_Text" xml:space="preserve">
+  <value>Категория Unicode или блок Unicode</value>
+</data>
+<data name="InlineComment_Text" xml:space="preserve">
+  <value>Встроенный комментарий</value>
+</data>
+<data name="ZeroWidthPositiveLookaheadAssertion_Text" xml:space="preserve">
+  <value>Проверка позитивного просмотра вперед с нулевой шириной</value>
+</data>
+<data name="ToPrecompiledRegexObjectContextAction_Description" xml:space="preserve">
+  <value>Внедрить поле и предкомпилированный объект типа 'Regex'</value>
+</data>
+<data name="RegexOption_Singleline_Description" xml:space="preserve">
+  <value>Изменяет значение точки (.) так, чтобы она соответствовала каждому символу, а не каждому символу, кроме \n</value>
+</data>
+<data name="RegexOption_EcmaScript_Description" xml:space="preserve">
+  <value>Включает поведение выражения, соответствующее ECMAScript</value>
+</data>
+<data name="CharacterClassSubtraction_Text" xml:space="preserve">
+  <value>Вычитание классов символов</value>
+</data>
+<data name="CannotInsertRegularExpressionInTheDocument_Text" xml:space="preserve">
+  <value>Невозможно вставить регулярное выражение в документ. Шаблон скопирован в буфер обмена.</value>
+</data>
+<data name="ZeroWidthNegativeLookbehindAssertion_Text" xml:space="preserve">
+  <value>Проверка негативного просмотра назад с нулевой шириной</value>
+</data>
+<data name="RegexOption_CultureInvariant_Description" xml:space="preserve">
+  <value>Указывает, что игнорируются культурные различия в языке</value>
+</data>
+<data name="DecimalDigitCharacter_Text" xml:space="preserve">
+  <value>Символ десятичной цифры</value>
+</data>
+<data name="FixRegularExpression_Text" xml:space="preserve">
+  <value>Исправить регулярное выражение</value>
+</data>
+<data name="RegexpHighlighterGroup" xml:space="preserve">
+  <value>Регулярное выражение</value>
+</data>
+<data name="XYRangeInReverseOrderMessage" xml:space="preserve">
+  <value>Диапазон [x-y] в обратном порядке</value>
+</data>
+<data name="RegexOption_RightToLeft_Description" xml:space="preserve">
+  <value>Указывает, что поиск будет выполняться справа налево вместо слева направо</value>
+</data>
+<data name="NonWordBoundary_Text" xml:space="preserve">
+  <value>Не граница слова</value>
+</data>
+<data name="Or_Text" xml:space="preserve">
+  <value>Или</value>
+</data>
+<data name="RegexOption_Compiled_Description" xml:space="preserve">
+  <value>Указывает, что регулярное выражение компилируется в сборку. Это ускоряет выполнение, но увеличивает время запуска.</value>
+</data>
+<data name="BalancingGroupDefinition_Text" xml:space="preserve">
+  <value>Определение балансирующей группы</value>
+</data>
+<data name="EndOfStringOrBeforeEndingNewline_Text" xml:space="preserve">
+  <value>Конец строки или перед завершающим символом новой строки</value>
+</data>
+<data name="MatchExactlyNTimesAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Точное совпадение n раз, как можно меньше раз</value>
+</data>
+<data name="MatchZeroOrMoreTimes_Text" xml:space="preserve">
+  <value>Совпадение ноль или более раз</value>
+</data>
+<data name="WordCharacter_Text" xml:space="preserve">
+  <value>Словесный символ</value>
+</data>
+<data name="PositiveCharacterGroup_Text" xml:space="preserve">
+  <value>Позитивная группа символов</value>
+</data>
+<data name="EndOfStringOrLine_Text" xml:space="preserve">
+  <value>Конец строки или строки</value>
+</data>
+<data name="MatchBetweenNAndMTimes_Text" xml:space="preserve">
+  <value>Совпадение от n до m раз</value>
+</data>
+<data name="NamedGroup_Text" xml:space="preserve">
+  <value>Именованная группа</value>
+</data>
+<data name="ContiguousMatchesStartsOfPreviousMatch_Text" xml:space="preserve">
+  <value>Непрерывные совпадения, начало предыдущего совпадения</value>
+</data>
+<data name="Tab_Text" xml:space="preserve">
+  <value>Табуляция</value>
+</data>
+<data name="ConditionalMatchingBasedOnACaptured_Text" xml:space="preserve">
+  <value>Условное сопоставление на основе захваченной группы</value>
+</data>
+<data name="StartOfStringOnly_Text" xml:space="preserve">
+  <value>Только начало строки</value>
+</data>
+<data name="ZeroWidthNegativeLookaheadAssertion_Text" xml:space="preserve">
+  <value>Проверка негативного просмотра вперед с нулевой шириной</value>
+</data>
+<data name="MatchZeroOrOneTime_Text" xml:space="preserve">
+  <value>Совпадение ноль или один раз</value>
+</data>
+<data name="RegularExpressionLanguageInspections" xml:space="preserve">
+  <value>Проверки языка регулярных выражений</value>
+</data>
+<data name="QuantifierFollowingNothingMessage" xml:space="preserve">
+  <value>Квантору {0} не предшествует ничего</value>
+</data>
+<data name="NamedBackreference_Text" xml:space="preserve">
+  <value>Именованная обратная ссылка</value>
+</data>
+<data name="GroupName_Text" xml:space="preserve">
+  <value>Имя группы</value>
+</data>
+<data name="MatchOneOrMoreTimesAsFewTimesAsPossible_Text" xml:space="preserve">
+  <value>Совпадение один или более раз, как можно меньше раз</value>
+</data>
+<data name="FixRegularExpressionContextAction_Description" xml:space="preserve">
+  <value>Исправить недопустимые символы в регулярном выражении</value>
+</data>
+<data name="NoncapturingGroup_Text" xml:space="preserve">
+  <value>Незахватывающая группа</value>
+</data>
+<data name="Group_Text" xml:space="preserve">
+  <value>Группа</value>
+</data>
+<data name="WhiteSpaceCharacter_Text" xml:space="preserve">
+  <value>Пробельный символ</value>
+</data>
+<data name="RegexOption_Multiline_Description" xml:space="preserve">
+  <value>Изменяет значение ^ и $ так, чтобы они соответствовали началу и концу любой строки, а не началу и концу всей строки</value>
+</data>
+<data name="StartOfStringOrLine_Text" xml:space="preserve">
+  <value>Начало строки или строки</value>
+</data>
+<data name="NestedQuantifierMessage" xml:space="preserve">
+  <value>Вложенный квантор {0}</value>
+</data>
+<data name="NegativeCharacterGroup_Text" xml:space="preserve">
+  <value>Негативная группа символов</value>
+</data>
+<data name="RegexOption_ExplicitCapture_Description" xml:space="preserve">
+  <value>Указывает, что допустимыми захватами являются только явно именованные группы или нумерованные группы вида (?&lt;name&gt;…)</value>
+</data>
+<data name="FixRegularExpressionContextAction_Name" xml:space="preserve">
+  <value>Исправить регулярное выражение</value>
+</data>
+<data name="RangeOfCharacters_Text" xml:space="preserve">
+  <value>Диапазон символов</value>
+</data>
+</root>

@@ -1,0 +1,1909 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DiskManagement_StorageContents_HeaderText" xml:space="preserve">
+    <value>Storage contents</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Name" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedLinuxLibC" xml:space="preserve">
+    <value>无法打开快照: 不受支持的操作系统 - Linux (基于 {0} 的发行版)。</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Size_Tooltip" xml:space="preserve">
+    <value>在仅包含未解析的原生函数的堆栈跟踪中分配的内存量</value>
+  </data>
+  <data name="KnownEventTypes_Exception_EventName_Plural" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="Payloads_MeasuredPartly" xml:space="preserve">
+    <value>函数在 dotTrace 开始测量之前已启动
+和/或在 dotTrace 停止测量之后已完成</value>
+  </data>
+  <data name="Unit_SI_Yotta" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="Unit_SI_Zetta" xml:space="preserve">
+    <value>Z</value>
+  </data>
+  <data name="SpecialValue_Http_UnknownEndpoint" xml:space="preserve">
+    <value>[未知端点]</value>
+  </data>
+  <data name="KnownEventTypes_ThreadLifetime_ShortName" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="CallTreeGrouped_ButtonTooltip" xml:space="preserve">
+    <value>按线程对调用树分组</value>
+  </data>
+  <data name="SpecialValue_File_UnknownFileName" xml:space="preserve">
+    <value>[未知的文件名]</value>
+  </data>
+  <data name="Filters_BlockingGcReason_Name" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="Overview_CPUFrequency" xml:space="preserve">
+    <value>CPU 频率</value>
+  </data>
+  <data name="CallTree_History_Transition_Up_Tooltip" xml:space="preserve">
+    <value>自下而上的转换: 从被调用者到调用者</value>
+  </data>
+  <data name="CallTree_Backtrace_Threads_Tooltip" xml:space="preserve">
+    <value>在所选时间点位于根方法内并来自此调用路径的线程数</value>
+  </data>
+  <data name="Overview_ComputerName" xml:space="preserve">
+    <value>计算机名称</value>
+  </data>
+  <data name="MetadataProcessingHasFailed" xml:space="preserve">
+    <value>元数据处理失败。某些分析数据可能已损坏。要解决此问题，请重新运行分析。如果这不起作用，请联系 dotTrace 支持团队。</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_Tooltip" xml:space="preserve">
+    <value>服务器处理传入 HTTP 请求的时间间隔: 服务器接收请求与发送响应之间的时间</value>
+  </data>
+  <data name="SnapshotList_NoSnapshotsMatchingTheFilterFound" xml:space="preserve">
+    <value>未找到与筛选条件匹配的快照</value>
+  </data>
+  <data name="Properties_UnknownModuleName" xml:space="preserve">
+    <value>&lt;未知&gt;</value>
+  </data>
+  <data name="Properties_UnknownModulePath" xml:space="preserve">
+    <value>&lt;未知&gt;</value>
+  </data>
+  <data name="KnownProperties_IODirection_Write" xml:space="preserve">
+    <value>写入</value>
+  </data>
+  <data name="KnownEventTypes_ThreadLifetime_Tooltip" xml:space="preserve">
+    <value>按事件筛选时间间隔</value>
+  </data>
+  <data name="FlameGraph_ToggleButtonTooltip" xml:space="preserve">
+    <value>打开火焰图窗口</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Name_Plural" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="KnownEventTypes_DiskIO_FullName" xml:space="preserve">
+    <value>磁盘 I/O</value>
+  </data>
+  <data name="SpecialValue_Sql_OpenConnection" xml:space="preserve">
+    <value>[打开连接]</value>
+  </data>
+  <data name="Filters_Threads_Name" xml:space="preserve">
+    <value>线程</value>
+  </data>
+  <data name="OpenSnapshotDialog_SupportedFilesDescription" xml:space="preserve">
+    <value>快照文件</value>
+  </data>
+  <data name="PropertiesModulePath" xml:space="preserve">
+    <value>模块路径:</value>
+  </data>
+  <data name="PropertiesModuleName" xml:space="preserve">
+    <value>模块名称:</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_EventName_Plural" xml:space="preserve">
+    <value>原生分配</value>
+  </data>
+  <data name="Summary_ThreadPart" xml:space="preserve">
+    <value>在 1 个线程</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedCpuType" xml:space="preserve">
+    <value>无法打开快照: 不受支持的 CPU 类型({0})。只能在 {1} 台计算机上打开此快照。</value>
+  </data>
+  <data name="CallTree_History_MergeAll_Text" xml:space="preserve">
+    <value>… (任何代码)</value>
+  </data>
+  <data name="Summary_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="Filters_WaitingActivatingThread_Tooltip" xml:space="preserve">
+    <value>线程在被特定线程或进程解锁之前等待的时间间隔</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_EventName_Plural" xml:space="preserve">
+    <value>框架事件</value>
+  </data>
+  <data name="KnownEventTypes_DebugOutput_EventName_Plural" xml:space="preserve">
+    <value>调试消息</value>
+  </data>
+  <data name="KnownEventTypes_Running_EventName_Plural" xml:space="preserve">
+    <value>运行间隔</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_FullName" xml:space="preserve">
+    <value>正在等待 CPU</value>
+  </data>
+  <data name="Filters_Off_Value" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="OpenSnapshotDialog_Title" xml:space="preserve">
+    <value>打开快照</value>
+  </data>
+  <data name="Processing_SourceToMemoryMappedStorage" xml:space="preserve">
+    <value>正在准备快照</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_Notification" xml:space="preserve">
+    <value>无法打开快照: 文件是使用较早版本的 dotTrace 创建的。</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_LinkText" xml:space="preserve">
+    <value>下载 dotTrace 2024.1</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Threads_Tooltip" xml:space="preserve">
+    <value>自有线程 = 总线程: 在所选时间点位于此方法中的线程数。此时，此方法的子调用中没有任何线程。</value>
+  </data>
+  <data name="Processing_ConvertEvents_PumpAll_ProgressName" xml:space="preserve">
+    <value>Processing events trace</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Size_Tooltip" xml:space="preserve">
+    <value>自有分配: 此方法中分配的内存量，不包括此方法的子调用中的分配</value>
+  </data>
+  <data name="KnownEventTypes_Exception_Tooltip" xml:space="preserve">
+    <value>切换到异常点事件。查看哪些调用和线程引发异常。</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Time_Tooltip" xml:space="preserve">
+    <value>自有时间 = 总时间: 在此方法中花费的时间。未在此方法的子调用中花费任何时间。</value>
+  </data>
+  <data name="Filters_ThreadStates_Name_Plural" xml:space="preserve">
+    <value>线程状态</value>
+  </data>
+  <data name="Filters_ApiEventDescription_Name_Plural" xml:space="preserve">
+    <value>事件描述</value>
+  </data>
+  <data name="RiderUnity_UnityVersionIsUnknown" xml:space="preserve">
+    <value>无法确定 Unity 版本。仅 Unity 2018.3 或更高版本支持分析。是否要运行分析?</value>
+  </data>
+  <data name="Properties_AssemblyInfo" xml:space="preserve">
+    <value>程序集信息: {0}</value>
+  </data>
+  <data name="FindFunction_OnlyInUserMethod_Checkbox" xml:space="preserve">
+    <value>仅在用户方法中</value>
+  </data>
+  <data name="SpecialValue_Process_Unknown" xml:space="preserve">
+    <value>[未知进程]</value>
+  </data>
+  <data name="PlainList_UnknownClass" xml:space="preserve">
+    <value>[未知类]</value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_Tooltip" xml:space="preserve">
+    <value>用户界面没有响应的时间间隔(窗口消息在超过 200ms 的时间里未泵送，或特定消息消耗的时间超过 200ms)。此事件只能发生在 UI 线程上。</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Blocking" xml:space="preserve">
+    <value>阻塞</value>
+  </data>
+  <data name="Filters_GcDepth_Name_Plural" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Events_Tooltip" xml:space="preserve">
+    <value>自有事件: 此方法中发生的事件数，不包括此方法的子调用中发生的事件</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_FullName" xml:space="preserve">
+    <value>SQL 查询</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Unknown" xml:space="preserve">
+    <value>Unknown Reason</value>
+  </data>
+  <data name="Filters_ThreadPriority_Name" xml:space="preserve">
+    <value>线程优先级</value>
+  </data>
+  <data name="CallTreeRecursiveFold" xml:space="preserve">
+    <value>折叠递归调用的方法实例 - 将所有递归调用合并到一个节点</value>
+  </data>
+  <data name="KnownEventTypes_Running_EventName" xml:space="preserve">
+    <value>运行间隔</value>
+  </data>
+  <data name="Filters_CpuCore_Tooltip" xml:space="preserve">
+    <value>线程在特定 CPU 核心上运行的时间间隔</value>
+  </data>
+  <data name="ConfigurationEditor_AttachUnavailable" xml:space="preserve">
+    <value>附加到进程时，此分析配置不适用</value>
+  </data>
+  <data name="EventLogTable_Unresolved" xml:space="preserve">
+    <value>[未解析]</value>
+  </data>
+  <data name="Comparison_ComparisonItemPrefix" xml:space="preserve">
+    <value>{0}-{1}</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Size_Tooltip" xml:space="preserve">
+    <value>总分配: 此方法或此方法的任何子调用中分配的内存量</value>
+  </data>
+  <data name="Filters_ApiEventName_Name" xml:space="preserve">
+    <value>事件名称</value>
+  </data>
+  <data name="CallTree_Backtrace_Time_Tooltip" xml:space="preserve">
+    <value>来自此调用路径的根方法下的时间部分</value>
+  </data>
+  <data name="Overview_WorkingDir" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="SettingsFactory_TimelineViewerStateLayer_DisplayName" xml:space="preserve">
+    <value>时间线查看器状态层 {0}:{1}</value>
+  </data>
+  <data name="ExportSnapshotError" xml:space="preserve">
+    <value>无法导出快照: 磁盘空间不足或目标文件正在使用中(例如，在 dotTrace Viewer 中打开)。</value>
+  </data>
+  <data name="KnownEventTypes_Tasks_Tooltip" xml:space="preserve">
+    <value>执行通过任务 API (例如，Task.StartNew 或 Task.ContinueWith)启动的任务的时间间隔</value>
+  </data>
+  <data name="SpecialValue_Sql_EmptyText" xml:space="preserve">
+    <value>[空文本]</value>
+  </data>
+  <data name="KnownEventTypes_MemoryManagement_FullName" xml:space="preserve">
+    <value>内存等待</value>
+  </data>
+  <data name="SpecialValue_Sql_CommitTransaction" xml:space="preserve">
+    <value>[提交事务]</value>
+  </data>
+  <data name="CallTree_History_MergeSystem_Tooltip" xml:space="preserve">
+    <value>已合并从上一个方法到下一个方法的系统调用路径</value>
+  </data>
+  <data name="Filters_FileIoDirection_Name" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Background" xml:space="preserve">
+    <value>后台</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>自有分配 + 系统分配: 在此方法中或此方法的系统调用中分配的内存量。不包括对其他用户方法的调用中的分配。</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Tooltip" xml:space="preserve">
+    <value>处理特定 HTTP 方法的时间间隔</value>
+  </data>
+  <data name="KnownEventTypes_Contention_EventName" xml:space="preserve">
+    <value>锁定争用</value>
+  </data>
+  <data name="ProviderInUse_UnknownSessionName" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Properties_AveragePayload" xml:space="preserve">
+    <value>平均负载: {0}</value>
+  </data>
+  <data name="ThreadPresentation_Process_Empty_ShortName" xml:space="preserve">
+    <value>[未知进程]</value>
+  </data>
+  <data name="PropertiesTableScope" xml:space="preserve">
+    <value>范围</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_OOS_LOH" xml:space="preserve">
+    <value>Out Of Space For Large Object Heap</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_OOS_SOH" xml:space="preserve">
+    <value>Out Of Space For Small Object Heap</value>
+  </data>
+  <data name="RiderUnity_Profile_Caption" xml:space="preserve">
+    <value>分析 Unity 项目</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Induced" xml:space="preserve">
+    <value>Induced</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Header" xml:space="preserve">
+    <value>异常消息</value>
+  </data>
+  <data name="Filters_FileIoDirection_Tooltip" xml:space="preserve">
+    <value>线程执行读取或写入操作的时间间隔</value>
+  </data>
+  <data name="FlameGraph_ToggleButtonText" xml:space="preserve">
+    <value>火焰图</value>
+  </data>
+  <data name="RiderIntegrationPresentableName" xml:space="preserve">
+    <value>dotTrace 分析器</value>
+  </data>
+  <data name="SnapshotList_GettingStartedWithDotTrace" xml:space="preserve">
+    <value>开始使用 dotTrace 性能分析器</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_Unknown" xml:space="preserve">
+    <value>未知堆</value>
+  </data>
+  <data name="TopMethods_Merged_ShowSystem_Tooltip" xml:space="preserve">
+    <value>所有帧都为原生帧，我们无法找到它们的符号的堆栈跟踪</value>
+  </data>
+  <data name="Filters_Threads_Tooltip" xml:space="preserve">
+    <value>按线程筛选</value>
+  </data>
+  <data name="ThreadPresentation_NoInfo_ShortName" xml:space="preserve">
+    <value>[没有正在激活的线程]</value>
+  </data>
+  <data name="ThreadPresentation_TypeWithName_Name" xml:space="preserve">
+    <value>{0}线程</value>
+  </data>
+  <data name="Comparison_SelectSnapshotText" xml:space="preserve">
+    <value>选择快照: {0}</value>
+  </data>
+  <data name="Filters_AllX" xml:space="preserve">
+    <value>所有{0}</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_Tooltip" xml:space="preserve">
+    <value>使用磁盘或系统缓存执行读/写操作的时间间隔</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_EventName" xml:space="preserve">
+    <value>传入 HTTP 请求</value>
+  </data>
+  <data name="Filters_AllocationType_Tooltip" xml:space="preserve">
+    <value>所分配内存在特定类型的对象之间的分布</value>
+  </data>
+  <data name="Filters_CpuCore_Name_Plural" xml:space="preserve">
+    <value>CPU 核心</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_ShortName" xml:space="preserve">
+    <value>SQL</value>
+  </data>
+  <data name="ProcessingMessageLevel_Warning_Plural" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="Filters_GcType_Name" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="Filters_WaitingActivatingThread_Name" xml:space="preserve">
+    <value>激活者</value>
+  </data>
+  <data name="ProfilingApiMessage" xml:space="preserve">
+    <value>分析会话通过 API 进行控制</value>
+  </data>
+  <data name="EventLogTable_FileIo_To" xml:space="preserve">
+    <value>助力您</value>
+  </data>
+  <data name="Filters_AwaitInfoDuration_Name_Plural" xml:space="preserve">
+    <value>Await durations</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously_Export" xml:space="preserve">
+    <value>导出</value>
+  </data>
+  <data name="SpecialValue_Empty" xml:space="preserve">
+    <value>[空]</value>
+  </data>
+  <data name="Overview_Profiler" xml:space="preserve">
+    <value>分析器</value>
+  </data>
+  <data name="Filters_BlockingGcReason_Name_Plural" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="Hotspots_Header" xml:space="preserve">
+    <value>热点</value>
+  </data>
+  <data name="SnapshotProcessing_SelectRowToSeeDetails" xml:space="preserve">
+    <value>选择左侧的消息以查看详细信息</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_ShortName" xml:space="preserve">
+    <value>.NET 分配</value>
+  </data>
+  <data name="Comparison_FirstSnapshotPrefix" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="RiderUnity_CantDetectUnityPathText" xml:space="preserve">
+    <value>无法检测 Unity 编辑器的路径。请联系 JetBrains Rider 支持团队。</value>
+  </data>
+  <data name="Filters_WaitingReason_Name_Plural" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="CallTreeAggregation_ProgressName" xml:space="preserve">
+    <value>Aggregating Call Tree</value>
+  </data>
+  <data name="PossibleCauseTooManyEvents" xml:space="preserve">
+    <value>可能的原因: 系统中的 ETW 事件过多。要解决此问题，请尝试关闭不需要的应用程序，然后重新运行分析。</value>
+  </data>
+  <data name="Filters_ApiEventName_Name_Plural" xml:space="preserve">
+    <value>事件名称</value>
+  </data>
+  <data name="KnownEventTypes_OtherSuspends_FullName" xml:space="preserve">
+    <value>其他挂起</value>
+  </data>
+  <data name="Filters_TaskName_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SpecialValue_Sql_UnknownConnection" xml:space="preserve">
+    <value>[未知连接]</value>
+  </data>
+  <data name="Filters_GcDepth_Name" xml:space="preserve">
+    <value>深度</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_EventName" xml:space="preserve">
+    <value>JIT 编译</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_Tooltip" xml:space="preserve">
+    <value>执行实时编译的时间间隔</value>
+  </data>
+  <data name="EventLogTable_FileIo_Write" xml:space="preserve">
+    <value>写入</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Threads_Tooltip" xml:space="preserve">
+    <value>在所选时间点，调用堆栈仅包含未解析的原生函数的线程数</value>
+  </data>
+  <data name="Processing_FailedToMoveSnapshotToStorage" xml:space="preserve">
+    <value>无法将中间快照 {0} 移动到临时快照存储区</value>
+  </data>
+  <data name="Filters_GcDepth_Tooltip" xml:space="preserve">
+    <value>执行特定深度的垃圾收集的时间间隔</value>
+  </data>
+  <data name="TopMethods_Merged_ShowUser_Tooltip" xml:space="preserve">
+    <value>仅包含系统调用的堆栈跟踪。要查看这些详细信息，请在工具栏上关闭“隐藏系统函数”</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_No" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="MethodViewData_Synthetic" xml:space="preserve">
+    <value>合成</value>
+  </data>
+  <data name="PropertiesTableOwnPlusSystemPayload" xml:space="preserve">
+    <value>自有负载+系统负载</value>
+  </data>
+  <data name="FlameGraph_SmallItemsNode" xml:space="preserve">
+    <value>小条目</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_FullName" xml:space="preserve">
+    <value>框架事件</value>
+  </data>
+  <data name="Processing_ConvertEvents" xml:space="preserve">
+    <value>正在处理事件</value>
+  </data>
+  <data name="Filters_AllocationHeap_Tooltip" xml:space="preserve">
+    <value>所分配内存在特定堆之间的分布</value>
+  </data>
+  <data name="Filters_FileIoDirection_Header" xml:space="preserve">
+    <value>I/O 方向</value>
+  </data>
+  <data name="Filters_OnlySystemCalls_Tooltip" xml:space="preserve">
+    <value>调用第一个用户方法之前的系统调用堆栈。</value>
+  </data>
+  <data name="CallTree_Downtrace_Threads_Tooltip" xml:space="preserve">
+    <value>在所选时间点，位于此方法下的线程数</value>
+  </data>
+  <data name="ThreadPresentation_Id_Name" xml:space="preserve">
+    <value>线程 #{0}</value>
+  </data>
+  <data name="KnownEventTypes_GC_FullName" xml:space="preserve">
+    <value>垃圾收集</value>
+  </data>
+  <data name="Filters_EventsHeader" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="Filters_OnlySystemCalls_Text" xml:space="preserve">
+    <value>系统调用</value>
+  </data>
+  <data name="Filters_ConversionErrorMessage_Name_Plural" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously_Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="Processing_ThroughPostprocessor" xml:space="preserve">
+    <value>正在对调用树进行后处理</value>
+  </data>
+  <data name="SnapshotProcessing_ProcessingWithPercent_RowText" xml:space="preserve">
+    <value>正在处理… {0}%</value>
+  </data>
+  <data name="PropertiesParameters" xml:space="preserve">
+    <value>参数:</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_EventName_Plural" xml:space="preserve">
+    <value>.NET 分配</value>
+  </data>
+  <data name="ProviderInUse" xml:space="preserve">
+    <value>ETW 提供程序 {0} 被进程 {2} (PID: {3})中的外部 ETW 会话 {1} 使用。</value>
+  </data>
+  <data name="DeleteSnapshotConfirmationMessage" xml:space="preserve">
+    <value>是否删除该快照?</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241" xml:space="preserve">
+    <value>无法打开快照: 文件是使用较早版本的 dotTrace 创建的。要打开快照，</value>
+  </data>
+  <data name="AutoCleanupByDateCheckBoxText" xml:space="preserve">
+    <value>自动删除过去</value>
+  </data>
+  <data name="Processing_Starting" xml:space="preserve">
+    <value>正在开始处理快照</value>
+  </data>
+  <data name="KnownEventTypes_AwaitInfo_FullName" xml:space="preserve">
+    <value>[Internal] Await info</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_FullName" xml:space="preserve">
+    <value>原生分配</value>
+  </data>
+  <data name="SpecialValue_Sql_RollbackTransaction" xml:space="preserve">
+    <value>[回滚事务]</value>
+  </data>
+  <data name="ConfigurationEditor_CollectUnreleasedAllocation" xml:space="preserve">
+    <value>仅收集未释放的分配</value>
+  </data>
+  <data name="ConfigurationEditor_ConfigureSymbolServers_LinkText" xml:space="preserve">
+    <value>(配置符号服务器)</value>
+  </data>
+  <data name="ConfigurationEditor_ControlManually" xml:space="preserve">
+    <value>手动控制分析</value>
+  </data>
+  <data name="Filters_ProcessOverview_Name" xml:space="preserve">
+    <value>进程概览</value>
+  </data>
+  <data name="Comparison_SecondSnapshotPrefix" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="CallTree_Backtrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>来自此调用路径的根方法下的内存分配部分</value>
+  </data>
+  <data name="SnapshotList_NoSnapshotsCollected" xml:space="preserve">
+    <value>未收集任何快照</value>
+  </data>
+  <data name="Filters_ThreadPriority_Name_Plural" xml:space="preserve">
+    <value>线程优先级</value>
+  </data>
+  <data name="ThreadPresentation_ProcessUnknown_Tooltip" xml:space="preserve">
+    <value>未知进程 #{0}</value>
+  </data>
+  <data name="ProcessingMessageLevel_Info_Plural" xml:space="preserve">
+    <value>信息消息</value>
+  </data>
+  <data name="Filters_Threads_IDColumn" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Filters_Subsystems_Name" xml:space="preserve">
+    <value>子系统</value>
+  </data>
+  <data name="KnownEventTypes_Tasks_FullName" xml:space="preserve">
+    <value>任务</value>
+  </data>
+  <data name="Processing_Warning_UnknownProcessName" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="SpecialValue_Sql_UnknownText" xml:space="preserve">
+    <value>[未知文本]</value>
+  </data>
+  <data name="KnownEventTypes_NativeAllocation_ShortName" xml:space="preserve">
+    <value>原生分配</value>
+  </data>
+  <data name="RiderUnity_UnityVersionIsNotSupported" xml:space="preserve">
+    <value>无法开始分析: 需要具有 Unity 2018.3 或更高版本</value>
+  </data>
+  <data name="KnownEventTypes_EtwEventCallStack_FullName" xml:space="preserve">
+    <value>调用堆栈</value>
+  </data>
+  <data name="CallTree_History_MergeSystem_Text" xml:space="preserve">
+    <value>… (系统代码)</value>
+  </data>
+  <data name="Unit_SI_Peta" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="Unit_SI_Mega" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_EventName_Plural" xml:space="preserve">
+    <value>UI 冻结</value>
+  </data>
+  <data name="Filters_BlockingGc_NoHeader" xml:space="preserve">
+    <value>排除 GC</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>在仅包含系统代码的堆栈跟踪中分配的内存量</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Events_Tooltip" xml:space="preserve">
+    <value>在仅包含未解析的原生函数的堆栈跟踪中发生的事件数</value>
+  </data>
+  <data name="EventLogTable_FileIo_Read" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="EventLogTable_FileIo_From" xml:space="preserve">
+    <value>来自</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_Tooltip" xml:space="preserve">
+    <value>切换到内存分配点事件。查看某些线程和调用分配了多少内存。</value>
+  </data>
+  <data name="Filters_ExceptionType_Name" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="WaitingForXRuntime" xml:space="preserve">
+    <value>正在启动分析会话…
+如果等待时间过长，请确保分析目标为 {0} 应用程序</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Name_Plural" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_EventName_Plural" xml:space="preserve">
+    <value>SQL 请求</value>
+  </data>
+  <data name="KnownEventTypes_Idle_EventName_Plural" xml:space="preserve">
+    <value>等待间隔</value>
+  </data>
+  <data name="Filters_BlockingGc_Tooltip" xml:space="preserve">
+    <value> 按阻塞 GC 的状态筛选时间间隔:
+ • 未选择 - 不应用阻塞 GC 筛选器。
+ • 阻塞 GC - 执行阻塞 GC 的时间间隔。除触发 GC 的线程外，所有其他线程都被挂起。
+ • 排除阻塞 GC - 不执行阻塞 GC 的时间间隔。应用程序正在运行。</value>
+  </data>
+  <data name="Filters_ApiEventColor_Name" xml:space="preserve">
+    <value>事件颜色</value>
+  </data>
+  <data name="SnapshotProcessing_ShowSnapshot_ButtonText" xml:space="preserve">
+    <value>显示快照</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_Empty" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="PropertiesTableTotalPayload" xml:space="preserve">
+    <value>总负载</value>
+  </data>
+  <data name="RiderActions_JumpToSource" xml:space="preserve">
+    <value>跳转到源</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_LOH" xml:space="preserve">
+    <value>Large Object Heap Allocation</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_SOH" xml:space="preserve">
+    <value>Small Object Heap Allocation</value>
+  </data>
+  <data name="KnownEventTypes_EtwSample_FullName" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="PropertiesTableInstance" xml:space="preserve">
+    <value>实例</value>
+  </data>
+  <data name="Overview_Source" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="PlainList_UnknownModule" xml:space="preserve">
+    <value>[未知模块]</value>
+  </data>
+  <data name="Options_SystemModules_LoadingText" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="Overview_ModulesCount" xml:space="preserve">
+    <value>{0} 模块</value>
+  </data>
+  <data name="KnownEventTypes_Contention_FullName" xml:space="preserve">
+    <value>锁定争用</value>
+  </data>
+  <data name="TopMethods_OwnPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>自有分配: 此方法中分配的内存量，不包括此方法的子调用中的分配</value>
+  </data>
+  <data name="Overview_Executable" xml:space="preserve">
+    <value>可执行文件</value>
+  </data>
+  <data name="CallTree_IncludeAwaits_Text" xml:space="preserve">
+    <value>+ 等待</value>
+  </data>
+  <data name="Comparison_OpenExtraSnapshotHint" xml:space="preserve">
+    <value>将快照添加到比较</value>
+  </data>
+  <data name="ConfigurationEditor_TimeMeasurement" xml:space="preserve">
+    <value>时间度量</value>
+  </data>
+  <data name="Filters_ProcessingErrorType_Name_Plural" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Header" xml:space="preserve">
+    <value>HTTP 方法</value>
+  </data>
+  <data name="KnownEventTypes_GC_EventName_Plural" xml:space="preserve">
+    <value>GC 事件</value>
+  </data>
+  <data name="ConfigurationEditor_AllowLoadPdbInBackground" xml:space="preserve">
+    <value>后台下载</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Text" xml:space="preserve">
+    <value>这将永久删除临时存储区中的所有快照。
+保存在其他位置的快照将不受影响。
+
+是否要继续?</value>
+  </data>
+  <data name="CallTree_Empty" xml:space="preserve">
+    <value>没有可显示的调用树</value>
+  </data>
+  <data name="Filters_SqlCommandText_Tooltip" xml:space="preserve">
+    <value>线程执行特定 SQL 命令的时间间隔</value>
+  </data>
+  <data name="DiskManagement_Cleanup_LinkText" xml:space="preserve">
+    <value>清理</value>
+  </data>
+  <data name="Processing_NetTrace_Starting" xml:space="preserve">
+    <value>开始处理 NetTrace 快照</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Name_Plural" xml:space="preserve">
+    <value>连接字符串</value>
+  </data>
+  <data name="NoThreads" xml:space="preserve">
+    <value>快照中缺少线程数据。线程将不显示在时间线上。要解决此问题，请联系 dotTrace 支持团队。</value>
+  </data>
+  <data name="Filters_GcType_Tooltip" xml:space="preserve">
+    <value>执行特定类型的垃圾收集的时间间隔</value>
+  </data>
+  <data name="Filters_AwaitInfoTaskName_Name_Plural" xml:space="preserve">
+    <value>任务名称</value>
+  </data>
+  <data name="NetTraceFileToTemporaryStorage" xml:space="preserve">
+    <value>为了处理 NetTrace 文件 '{0}'，dotTrace 会将其转换为兼容的格式并将其保存到临时快照存储区。</value>
+  </data>
+  <data name="AutoCleanupBySizeCheckBoxText" xml:space="preserve">
+    <value>自动删除最早的快照，以便永远不会超出存储区容量</value>
+  </data>
+  <data name="CallTree_History_Transition_Down_Tooltip" xml:space="preserve">
+    <value>自上而下的转换: 从调用者到被调用者</value>
+  </data>
+  <data name="DeleteLaunchConfigurationError" xml:space="preserve">
+    <value>无法删除启动配置及其快照: 可能在查看器中打开了某些快照。请关闭查看器并重试。</value>
+  </data>
+  <data name="ThreadPresentation_Name_Empty_ShortName" xml:space="preserve">
+    <value>[空线程名称]</value>
+  </data>
+  <data name="PropertiesDialogTitle" xml:space="preserve">
+    <value>{0} 的属性</value>
+  </data>
+  <data name="CallTree_History_MergeAll_Tooltip" xml:space="preserve">
+    <value>已合并从上一个方法到下一个方法的所有调用路径</value>
+  </data>
+  <data name="Options_StorageLocation_Label" xml:space="preserve">
+    <value>存储位置:</value>
+  </data>
+  <data name="Filters_FileIoName_Name" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_EventName" xml:space="preserve">
+    <value>文件操作</value>
+  </data>
+  <data name="Filters_ConversionErrorMessage_Name" xml:space="preserve">
+    <value>消息</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_FullName" xml:space="preserve">
+    <value>传入 HTTP 请求</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Size_Tooltip" xml:space="preserve">
+    <value>自有分配 + 系统分配: 在此方法中或此方法的系统调用中分配的内存量。不包括对其他用户方法的调用中的分配。</value>
+  </data>
+  <data name="ThreadPresentation_TypeGC_Name" xml:space="preserve">
+    <value>GC 线程</value>
+  </data>
+  <data name="CallTree_Navigate_Disambiguate" xml:space="preserve">
+    <value>选择声明</value>
+  </data>
+  <data name="Filters_CpuCore_Name" xml:space="preserve">
+    <value>CPU 核心</value>
+  </data>
+  <data name="Filters_BlockingGc_YesHeader" xml:space="preserve">
+    <value>阻塞 GC</value>
+  </data>
+  <data name="KnownEventTypes_KernelCallStackSamplesInternal_FullName" xml:space="preserve">
+    <value>[Internal] Kernel Sampling</value>
+  </data>
+  <data name="Filters_FileIoDirection_Name_Plural" xml:space="preserve">
+    <value>方向</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Events_Tooltip" xml:space="preserve">
+    <value>自有事件 + 系统事件 = 总事件: 在此方法中或此方法的系统调用中发生的事件数。从此方法到其他用户方法的调用中没有任何事件。</value>
+  </data>
+  <data name="Filters_Subsystems_Header" xml:space="preserve">
+    <value>子系统</value>
+  </data>
+  <data name="SnapshotProcessing_TabHeader" xml:space="preserve">
+    <value>正在处理{0}</value>
+  </data>
+  <data name="Overview_Stats" xml:space="preserve">
+    <value>统计信息</value>
+  </data>
+  <data name="Overview_Taken" xml:space="preserve">
+    <value>获取时间</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkUri" xml:space="preserve">
+    <value>https://www.jetbrains.com/ru-RU/profiler/download/#section=web-installer</value>
+  </data>
+  <data name="Filters_ProcessingErrorDetails_Name" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="Filters_Threads_NameColumn" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Processing_FinishedIn" xml:space="preserve">
+    <value>快照处理于 {0:00}:{1:00}:{2:00} 完成</value>
+  </data>
+  <data name="Overview_FunctionsCount" xml:space="preserve">
+    <value>{0} 个函数</value>
+  </data>
+  <data name="Filters_Panel_AllCalls_Tooltip" xml:space="preserve">
+    <value>未应用按方法筛选。要应用该筛选器，请将范围设置为调用树中的一个方法。</value>
+  </data>
+  <data name="ConfigurationEditor_AdvancedHeaderText" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="AllThreadsHaveBeenStopped" xml:space="preserve">
+    <value>在分析器开始收集数据之前，所有线程都已完成执行。</value>
+  </data>
+  <data name="Properties_NoModuleInfo" xml:space="preserve">
+    <value>没有模块信息</value>
+  </data>
+  <data name="TopMethods_Loading" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_EventName_Plural" xml:space="preserve">
+    <value>传入 HTTP 请求</value>
+  </data>
+  <data name="DiskManagement_ProfilingType_Column" xml:space="preserve">
+    <value>Profiling Type</value>
+  </data>
+  <data name="LostEventsFound" xml:space="preserve">
+    <value>{1} ETW 会话中丢失了 {0} 个事件。这些事件将不显示在时间线上。</value>
+  </data>
+  <data name="FindFunction_HistoryHeader_Empty" xml:space="preserve">
+    <value>此标签页中没有可用的最近查询</value>
+  </data>
+  <data name="DiskManagement_EmptySize" xml:space="preserve">
+    <value>0 MB</value>
+  </data>
+  <data name="Presentation_NoFileName" xml:space="preserve">
+    <value>[无文件名]</value>
+  </data>
+  <data name="CallTree_Downtrace_Tooltip_Suffix" xml:space="preserve">
+    <value>。点击以按此调用堆栈筛选</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Time_Tooltip" xml:space="preserve">
+    <value>自有时间 + 系统时间: 在此方法中和此方法的系统调用中花费的时间。不包括在从此方法调用的用户方法中花费的时间。</value>
+  </data>
+  <data name="CallTree_TaskRecursionFoldedNode_Text" xml:space="preserve">
+    <value>折叠递归</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer" xml:space="preserve">
+    <value>无法打开快照: 文件是使用较新版本的 dotTrace 创建的。</value>
+  </data>
+  <data name="Filters_ThreadStates_Tooltip" xml:space="preserve">
+    <value> 按线程状态筛选时间间隔:
+ • 运行 - 线程在 CPU 上运行的时间间隔。
+ • 等待 - 线程等待来自其他线程的资源或通知的时间间隔。</value>
+  </data>
+  <data name="FindFunction_HistoryHeader" xml:space="preserve">
+    <value>此标签页中可用的最近查询</value>
+  </data>
+  <data name="Filters_AllocationType_Name_Plural" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Overview_ApplicationHeader" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Size_Tooltip" xml:space="preserve">
+    <value>自有分配 + 系统分配 = 总分配: 在此方法中或此方法的系统调用中分配的内存量。从此方法到其他用户方法的调用中没有任何分配。</value>
+  </data>
+  <data name="Filters_ExcludedCallTreePaths_Name" xml:space="preserve">
+    <value>排除的路径</value>
+  </data>
+  <data name="SnapshotOpening_DownloadDotTrace241" xml:space="preserve">
+    <value>
+&lt;a href="https://www.jetbrains.com/profiler/download/other.html"&gt;下载 dotTrace 2024.1&lt;/a&gt;</value>
+  </data>
+  <data name="KnownProperties_IODirection_Read" xml:space="preserve">
+    <value>读取</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingRate" xml:space="preserve">
+    <value>采样率</value>
+  </data>
+  <data name="Filters_DebugOutputString_Name_Plural" xml:space="preserve">
+    <value>字符串</value>
+  </data>
+  <data name="FindFunction_NotReadyMessage" xml:space="preserve">
+    <value>尚未就绪</value>
+  </data>
+  <data name="TopMethods_PayloadType_SizeKb" xml:space="preserve">
+    <value>分配</value>
+  </data>
+  <data name="Filters_TaskName_Name_Plural" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SnapshotOpening_DownloadLatestRider" xml:space="preserve">
+    <value>
+&lt;a href="https://www.jetbrains.com/ru-RU/rider/download/"&gt;下载最新版本的 JetBrains Rider&lt;/a&gt;</value>
+  </data>
+  <data name="SourceViewNotAvailable" xml:space="preserve">
+    <value>大多数模块的源视图将不可用。要解决此问题，请重新运行分析。如果这不起作用，请联系 dotTrace 支持团队。</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Events_Tooltip" xml:space="preserve">
+    <value>自有事件 + 系统事件: 在此方法中或此方法的系统调用中发生的事件数。不包括在对其他用户方法的调用中发生的事件。</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_BlockingDuringBackground" xml:space="preserve">
+    <value>后台期间阻塞</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Events_Tooltip" xml:space="preserve">
+    <value>总事件: 此方法或此方法的任何子调用中发生的事件数</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_EventName_Plural" xml:space="preserve">
+    <value>文件操作</value>
+  </data>
+  <data name="Filters_AllocationHeap_Name" xml:space="preserve">
+    <value>堆</value>
+  </data>
+  <data name="DiskManagement_Header" xml:space="preserve">
+    <value>临时快照存储区:</value>
+  </data>
+  <data name="DiskManagement_Size_Column" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_EventName" xml:space="preserve">
+    <value>.NET 分配</value>
+  </data>
+  <data name="DiskManagement_ClearTemporarySnapshots_LinkText" xml:space="preserve">
+    <value>Clear all temporary snapshots</value>
+  </data>
+  <data name="Options_SystemModules_ModuleName_ErrorPrefix" xml:space="preserve">
+    <value>模块名称</value>
+  </data>
+  <data name="FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkText" xml:space="preserve">
+    <value>下载最新的 dotTrace 版本</value>
+  </data>
+  <data name="Filters_GcReason_Name" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="Overview_EnvironmentHeader" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="KnownEventTypes_Contention_ShortName" xml:space="preserve">
+    <value>争用</value>
+  </data>
+  <data name="Filters_Subsystems_Tooltip" xml:space="preserve">
+    <value>执行特定子系统中的代码的时间间隔</value>
+  </data>
+  <data name="SnapshotList_UnknownProfilingType" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="SavingSnapshot" xml:space="preserve">
+    <value>正在保存快照</value>
+  </data>
+  <data name="Filters_BooleanProperties_False" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>自有分配 = 总分配: 此方法中分配的内存量。此方法的子调用中没有任何分配。</value>
+  </data>
+  <data name="Overview_User" xml:space="preserve">
+    <value>用户</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Tooltip" xml:space="preserve">
+    <value>运行具有特定连接参数的 SQL 会话的时间间隔</value>
+  </data>
+  <data name="WaitingForWeb" xml:space="preserve">
+    <value>正在等待应用程序…
+请打开要分析的应用程序的 URL</value>
+  </data>
+  <data name="CallTree_Backtrace_Events_Tooltip" xml:space="preserve">
+    <value>来自此调用路径的根方法下的事件数</value>
+  </data>
+  <data name="ConfigurationEditor_ConfigurationName_Label" xml:space="preserve">
+    <value>名称: </value>
+  </data>
+  <data name="SnapshotPresentableName_ReprocessedSuffix" xml:space="preserve">
+    <value> (reprocessed)</value>
+  </data>
+  <data name="TimelineSnapshotPostprocessor_CopyingNodes_ProgressName" xml:space="preserve">
+    <value>Copying nodes</value>
+  </data>
+  <data name="CallTreeGrouped_ButtonText" xml:space="preserve">
+    <value>按线程分组</value>
+  </data>
+  <data name="DiskManagement_Created_Column" xml:space="preserve">
+    <value>已创建</value>
+  </data>
+  <data name="Filters_Comparison_Name" xml:space="preserve">
+    <value>对比</value>
+  </data>
+  <data name="Filters_AllocationHeap_Name_Plural" xml:space="preserve">
+    <value>堆</value>
+  </data>
+  <data name="ThreadPresentation_Name_Tooltip" xml:space="preserve">
+    <value>{0} (#{1})</value>
+  </data>
+  <data name="ConfigurationEditor_UnitTestProfilingUnavailable" xml:space="preserve">
+    <value>此分析配置不适用于单元测试</value>
+  </data>
+  <data name="KnownProperties_CpuCore_Unknown" xml:space="preserve">
+    <value>[未知]</value>
+  </data>
+  <data name="Filters_Enum_MultipleSelected" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Filters_BooleanProperties_True" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Filters_ExceptionType_Tooltip" xml:space="preserve">
+    <value>引发的异常按类型的分布</value>
+  </data>
+  <data name="ProcessingMessageLevel_Error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="Summary_ThreadPart_Plural" xml:space="preserve">
+    <value>在 {0} 个线程</value>
+  </data>
+  <data name="Options_AutoDelete_Header" xml:space="preserve">
+    <value>自动删除快照</value>
+  </data>
+  <data name="Filters_AwaitInfoTaskName_Name" xml:space="preserve">
+    <value>任务名称</value>
+  </data>
+  <data name="Filters_AnalysisSubhect_Default" xml:space="preserve">
+    <value>未选择</value>
+  </data>
+  <data name="RiderOptions_ShowDiskManagement" xml:space="preserve">
+    <value>(Internal) Show snapshot storage tab</value>
+  </data>
+  <data name="Filters_CallTree_Name" xml:space="preserve">
+    <value>调用树</value>
+  </data>
+  <data name="FailedToOpenSnapshot_DownloadDotTrace241_LinkUri" xml:space="preserve">
+    <value>https://www.jetbrains.com/ru-RU/profiler/download/other.html</value>
+  </data>
+  <data name="SpecialValue_Sql_EmptyConnection" xml:space="preserve">
+    <value>[空连接]</value>
+  </data>
+  <data name="Filters_ConversionErrorType_Name" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen1" xml:space="preserve">
+    <value>第 1 代</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen0" xml:space="preserve">
+    <value>第 0 代</value>
+  </data>
+  <data name="Filters_BlockingGc_Depth_Enum_Gen2" xml:space="preserve">
+    <value>第 2 代</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>在仅包含未解析的原生函数的堆栈跟踪中分配的内存量</value>
+  </data>
+  <data name="CallTree_IncludeAwaits_Tooltip" xml:space="preserve">
+    <value>包括异步方法的等待时间</value>
+  </data>
+  <data name="Comparison_ChangeSnapshotsOrderHint" xml:space="preserve">
+    <value>将比较模式更改为 {0}</value>
+  </data>
+  <data name="Hotspots_Total" xml:space="preserve">
+    <value>总计</value>
+  </data>
+  <data name="CallTree_Downtrace_Events_Tooltip" xml:space="preserve">
+    <value>在此方法下发生的事件数</value>
+  </data>
+  <data name="FindFunction_Node_InPreposition" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="Properties_ThisInstancePayloads_Header" xml:space="preserve">
+    <value>此实例负载:</value>
+  </data>
+  <data name="Properties_ModulePath" xml:space="preserve">
+    <value>模块路径: {0}</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_EventName" xml:space="preserve">
+    <value>CPU 等待间隔</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingUnstableOnEarlyNetCore" xml:space="preserve">
+    <value>警告: 由于 .NET Core 的限制，采样分析在 .NET Core 3.0 或更早版本上不稳定。所分析的应用程序可能在分析过程中挂起或崩溃。</value>
+  </data>
+  <data name="FindFunction_Caption" xml:space="preserve">
+    <value>输入类或函数名称:</value>
+  </data>
+  <data name="PropertiesTableNumberOfCalls" xml:space="preserve">
+    <value>调用次数</value>
+  </data>
+  <data name="Overview_Options" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="Filters_ThreadStates_Running" xml:space="preserve">
+    <value>正在运行…</value>
+  </data>
+  <data name="Options_SystemModules_ModuleNameLabel" xml:space="preserve">
+    <value>名称: </value>
+  </data>
+  <data name="Filters_ExceptionType_Header" xml:space="preserve">
+    <value>异常类型</value>
+  </data>
+  <data name="Hotspots_Own" xml:space="preserve">
+    <value>自身</value>
+  </data>
+  <data name="SnapshotProcessing_UnreliableDataInSnapshot" xml:space="preserve">
+    <value>由于数据收集问题，快照中的数据可能不可靠</value>
+  </data>
+  <data name="PropertiesTableOwnPayload" xml:space="preserve">
+    <value>自有负载</value>
+  </data>
+  <data name="TopMethods_PayloadType_Events" xml:space="preserve">
+    <value>活动</value>
+  </data>
+  <data name="KnownEventTypes_AllocationTick_FullName" xml:space="preserve">
+    <value>.NET 内存分配</value>
+  </data>
+  <data name="Options_StorageLocation_PathIsNotWriteable" xml:space="preserve">
+    <value>您没有权限保存到 {0}。请联系系统管理员。</value>
+  </data>
+  <data name="DaysSingularPluralForm" xml:space="preserve">
+    <value>天未打开的快照</value>
+  </data>
+  <data name="Processing_NetTraceToTimeline" xml:space="preserve">
+    <value>正在将 Nettrace 转换为 dotTrace 时间线快照</value>
+  </data>
+  <data name="Filters_GcReason_Name_Plural" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="CallTree_LoadingNodeText" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_LowMemory" xml:space="preserve">
+    <value>内存不足</value>
+  </data>
+  <data name="TopMethods_Empty" xml:space="preserve">
+    <value>没有要显示的方法</value>
+  </data>
+  <data name="KnownEventTypes_Idle_EventName" xml:space="preserve">
+    <value>等待间隔</value>
+  </data>
+  <data name="Filters_SqlCommandText_Name" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="UseCrossPlatformViewerComment" xml:space="preserve">
+    <value>如果您在使用新查看器时遇到问题，请将此禁用</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Name_Plural" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingAllocationsInLabel" xml:space="preserve">
+    <value>KB</value>
+  </data>
+  <data name="CallTree_IncludeContinuations_Tooltip" xml:space="preserve">
+    <value>包括延续异步方法所花费的时间</value>
+  </data>
+  <data name="CallTreeSystemFold" xml:space="preserve">
+    <value>折叠系统调用链 - 将所有非用户方法合并到一个节点</value>
+  </data>
+  <data name="Processing_ThroughPreprocessor" xml:space="preserve">
+    <value>正在预处理调用树</value>
+  </data>
+  <data name="ReadonlySnapshotToTemporaryStorage" xml:space="preserve">
+    <value>快照 '{0}' 处于只读状态。为了处理该快照，dotTrace 会将其副本保存到临时快照存储区。</value>
+  </data>
+  <data name="PropertiesFullName" xml:space="preserve">
+    <value>全名:</value>
+  </data>
+  <data name="Overview_Frequency" xml:space="preserve">
+    <value>{0:0.000} {1}Hz</value>
+  </data>
+  <data name="CallTree_Downtrace_Size_Tooltip" xml:space="preserve">
+    <value>在此方法下分配的内存量</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Name" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Filters_DebugOutputString_Tooltip" xml:space="preserve">
+    <value>发送到调试输出的消息按消息内容的分布</value>
+  </data>
+  <data name="AsyncAwaitSupportWillBeDisabled" xml:space="preserve">
+    <value>将对此快照禁用 async/await 支持</value>
+  </data>
+  <data name="Filters_IntervalFiltersShort_Name_Plural" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="Comparison_CloseExtraSnapshotHint" xml:space="preserve">
+    <value>从比较中移除第二个快照</value>
+  </data>
+  <data name="Comparison_CloseExtraSnapshotText" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="KnownEventTypes_Running_FullName" xml:space="preserve">
+    <value>正在运行</value>
+  </data>
+  <data name="Filters_IntervalFilters_Name" xml:space="preserve">
+    <value>间隔筛选器</value>
+  </data>
+  <data name="TopMethods_OwnPlusSystemPayload_Threads_Tooltip" xml:space="preserve">
+    <value>自有线程 + 系统线程: 在所选时间点直接位于此方法中或此方法的系统调用中(而不是对其他用户方法的调用中)的线程数</value>
+  </data>
+  <data name="Properties_OwnPayload" xml:space="preserve">
+    <value>自有负载: {0}</value>
+  </data>
+  <data name="ProcessingMessageLevel_Error_Plural" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Threads_Tooltip" xml:space="preserve">
+    <value>自有线程: 在所选时间点直接位于此方法中(而不是子调用中)的线程数</value>
+  </data>
+  <data name="Filters_ThreadStates_Name" xml:space="preserve">
+    <value>线程状态</value>
+  </data>
+  <data name="FailedToOpenSnapshot_BrokenSnapshot" xml:space="preserve">
+    <value>无法打开快照: 文件已损坏。</value>
+  </data>
+  <data name="Processing_Issues_Header" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="Filters_SqlCommandText_Header" xml:space="preserve">
+    <value>SQL 命令</value>
+  </data>
+  <data name="CallTree_IncludeContinuations_Text" xml:space="preserve">
+    <value>+ 延续</value>
+  </data>
+  <data name="Filters_GcDepth_Header" xml:space="preserve">
+    <value>GC 深度</value>
+  </data>
+  <data name="StartingTheProfilingSession" xml:space="preserve">
+    <value>正在启动分析会话…</value>
+  </data>
+  <data name="Filters_HttpRequestUrl_Tooltip" xml:space="preserve">
+    <value>处理对特定 URL 的 HTTP 请求的时间间隔</value>
+  </data>
+  <data name="Filters_HttpRequestVerb_Name" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="SnapshotProcessing_Processing_RowText" xml:space="preserve">
+    <value>正在处理…</value>
+  </data>
+  <data name="TopMethods_Merged_ShowUser_Name" xml:space="preserve">
+    <value>没有用户方法的堆栈跟踪</value>
+  </data>
+  <data name="DiskManagement_Configure_LinkText" xml:space="preserve">
+    <value>配置自动清理</value>
+  </data>
+  <data name="Hotspots_DefaultPayloadString" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="SpecialValue_Sql_BeginTransaction" xml:space="preserve">
+    <value>[开始事务]</value>
+  </data>
+  <data name="Overview_SnapshotHeader" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_SOH" xml:space="preserve">
+    <value>小对象堆</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_POH" xml:space="preserve">
+    <value>固定的对象堆</value>
+  </data>
+  <data name="Filters_AllocationHeap_Enum_LOH" xml:space="preserve">
+    <value>大对象堆</value>
+  </data>
+  <data name="KnownEventTypes_ConversionErrors_FullName" xml:space="preserve">
+    <value>[Internal] Processing errors</value>
+  </data>
+  <data name="Filters_AwaitInfoDuration_Name" xml:space="preserve">
+    <value>Await duration</value>
+  </data>
+  <data name="KnownEventTypes_Exception_FullName" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="ThreadPresentation_Type_Tooltip" xml:space="preserve">
+    <value>{0}线程(#{1})</value>
+  </data>
+  <data name="SaveSnapshot_DialogTitle" xml:space="preserve">
+    <value>保存快照</value>
+  </data>
+  <data name="Properties_CallCount" xml:space="preserve">
+    <value>调用计数: {0}</value>
+  </data>
+  <data name="KnownEventTypes_Preemption_EventName_Plural" xml:space="preserve">
+    <value>CPU 等待间隔</value>
+  </data>
+  <data name="Filters_FileIoName_Name_Plural" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="Overview_Location" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="RiderOptions_ShowNativeThreads" xml:space="preserve">
+    <value>在线程筛选器中显示原生线程</value>
+  </data>
+  <data name="NamespaceTree_Building_ProgressName" xml:space="preserve">
+    <value>Building Search Index</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Time_Tooltip" xml:space="preserve">
+    <value>总时间: 此方法中所花费的时间，包括此方法的任何子调用中所花费的时间</value>
+  </data>
+  <data name="Filters_BackgroundGc_Name" xml:space="preserve">
+    <value>后台 GC</value>
+  </data>
+  <data name="Filters_FileIoName_Tooltip" xml:space="preserve">
+    <value>线程处理特定文件的时间间隔</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>自有分配 + 系统分配 = 总分配: 在此方法中或此方法的系统调用中分配的内存量。从此方法到其他用户方法的调用中没有任何分配。</value>
+  </data>
+  <data name="Overview_SnapshotDuration" xml:space="preserve">
+    <value>快照持续时间</value>
+  </data>
+  <data name="DeleteSnapshotError" xml:space="preserve">
+    <value>无法删除快照: 可能在查看器中打开了该快照。请关闭查看器并重试。</value>
+  </data>
+  <data name="Filters_On_Value" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_FullName" xml:space="preserve">
+    <value>JIT 编译</value>
+  </data>
+  <data name="PropertiesTableAveragePayload" xml:space="preserve">
+    <value>平均负载</value>
+  </data>
+  <data name="TopMethods_TotalPayload_SizeKb_Tooltip" xml:space="preserve">
+    <value>总分配: 此方法或此方法的任何子调用中分配的内存量</value>
+  </data>
+  <data name="NetOrNetCore" xml:space="preserve">
+    <value>.NET/.NET Core</value>
+  </data>
+  <data name="KnownEventTypes_HttpRequest_ShortName" xml:space="preserve">
+    <value>HTTP</value>
+  </data>
+  <data name="PropertiesCopyToClipboard" xml:space="preserve">
+    <value>复制到剪贴板</value>
+  </data>
+  <data name="TopMethods_NativeStackTrace_Time_Tooltip" xml:space="preserve">
+    <value>在仅包含未解析的原生函数的堆栈跟踪中花费的时间</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_ShortName" xml:space="preserve">
+    <value>JIT</value>
+  </data>
+  <data name="ConfigurationEditor_StartMode" xml:space="preserve">
+    <value>启动模式</value>
+  </data>
+  <data name="Processing_NetTrace_ProgressName" xml:space="preserve">
+    <value>Processing events from NetTrace file</value>
+  </data>
+  <data name="ThreadPresentation_ProcessNoName_Name" xml:space="preserve">
+    <value>处理#{0}</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_EventName" xml:space="preserve">
+    <value>SQL 请求</value>
+  </data>
+  <data name="TopMethods_PayloadType_Threads" xml:space="preserve">
+    <value>线程</value>
+  </data>
+  <data name="ConfigurationEditor_SamplingAllocationsIn" xml:space="preserve">
+    <value>分配采样频率</value>
+  </data>
+  <data name="Backtraces_Header" xml:space="preserve">
+    <value>回溯</value>
+  </data>
+  <data name="FailedToOpenSnapshot_UnsupportedFormat" xml:space="preserve">
+    <value>无法打开快照: 意外的文件格式。</value>
+  </data>
+  <data name="KnownEventTypes_FileIO_FullName" xml:space="preserve">
+    <value>文件操作</value>
+  </data>
+  <data name="RiderOptions_OtherCategory" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="DiskManagement_LastOpened_Column" xml:space="preserve">
+    <value>上次打开</value>
+  </data>
+  <data name="Filters_TopMethods_Name" xml:space="preserve">
+    <value>热点</value>
+  </data>
+  <data name="KnownEventTypes_Idle_FullName" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="ProfilingTestsMessage" xml:space="preserve">
+    <value>正在分析单元测试。分析器会自动获取快照</value>
+  </data>
+  <data name="TopMethods_TotalPayload_Threads_Tooltip" xml:space="preserve">
+    <value>总线程: 在所选时间点位于此方法内(在调用堆栈中具有此方法)的线程数</value>
+  </data>
+  <data name="KnownEventTypes_Exception_EventName" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="TopMethods_OwnPayload_Time_Tooltip" xml:space="preserve">
+    <value>自有时间: 此方法中所花费的时间，不包括此方法的子调用中所花费的时间</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Threads_Tooltip" xml:space="preserve">
+    <value>在所选时间点，调用堆栈仅包含系统代码的线程数</value>
+  </data>
+  <data name="Overview_NETRuntime" xml:space="preserve">
+    <value>.NET 运行时</value>
+  </data>
+  <data name="Filters_DebugOutputString_Name" xml:space="preserve">
+    <value>String</value>
+  </data>
+  <data name="UseCrossPlatformViewer" xml:space="preserve">
+    <value>默认使用新的跨平台 dotTrace Viewer</value>
+  </data>
+  <data name="PropertiesClose" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Filters_All_Value" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="KnownEventTypes_UiFreeze_FullName" xml:space="preserve">
+    <value>UI 冻结</value>
+  </data>
+  <data name="PossibleCauseAlreadyInUse" xml:space="preserve">
+    <value>可能的原因: 另一个进程使用此事件提供程序(请参见上面的列表)。要解决此问题，请停止存在冲突的进程或 ETW 会话(在“我的电脑 | 管理 | 系统工具 | 性能 | 数据收集器集 | 事件跟踪会话”中)，然后重新运行分析。</value>
+  </data>
+  <data name="Filters_BlockingGc_Name" xml:space="preserve">
+    <value>阻塞 GC</value>
+  </data>
+  <data name="Filters_ApiEventColor_Name_Plural" xml:space="preserve">
+    <value>事件颜色</value>
+  </data>
+  <data name="Managed" xml:space="preserve">
+    <value>托管</value>
+  </data>
+  <data name="SaveSnapshot_Question" xml:space="preserve">
+    <value>要保存快照吗?</value>
+  </data>
+  <data name="Filters_ConversionErrorType_Name_Plural" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="CallTreeRecursiveUnfold" xml:space="preserve">
+    <value>展开递归折叠的节点 - 像在调用堆栈中一样显示所有递归调用</value>
+  </data>
+  <data name="KnownEventTypes_ApiEvent_FullName" xml:space="preserve">
+    <value>自定义事件</value>
+  </data>
+  <data name="SpecialValue_Unknown" xml:space="preserve">
+    <value>[未知]</value>
+  </data>
+  <data name="CallTree_Downtrace_SizeKb_Tooltip" xml:space="preserve">
+    <value>在此方法下分配的内存量</value>
+  </data>
+  <data name="Overview_OS" xml:space="preserve">
+    <value>OS</value>
+  </data>
+  <data name="Overview_NA" xml:space="preserve">
+    <value>不适用</value>
+  </data>
+  <data name="KnownEventTypes_GC_EventName" xml:space="preserve">
+    <value>垃圾收集</value>
+  </data>
+  <data name="Overview_ThreadsCount" xml:space="preserve">
+    <value>{0}线程</value>
+  </data>
+  <data name="KnownEventTypes_RuntimeRunning_FullName" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Title" xml:space="preserve">
+    <value>清理临时快照存储区</value>
+  </data>
+  <data name="Overview_CommandLine" xml:space="preserve">
+    <value>命令行</value>
+  </data>
+  <data name="Filters_Popup_TooManyItems" xml:space="preserve">
+    <value>条目过多，列表被截断</value>
+  </data>
+  <data name="MethodViewData_Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="DiskManagement_Snapshot_Column" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="Filters_DebugOutputString_Header" xml:space="preserve">
+    <value>调试字符串</value>
+  </data>
+  <data name="Comparison_SnapshotPrefix" xml:space="preserve">
+    <value>{0}: </value>
+  </data>
+  <data name="Filters_IntervalFiltersShort_Name" xml:space="preserve">
+    <value>间隔</value>
+  </data>
+  <data name="CallTree_NavigateToCode_ActionText" xml:space="preserve">
+    <value>导航到代码</value>
+  </data>
+  <data name="TopMethods_Merged_ShowSystem_Name" xml:space="preserve">
+    <value>没有已解析函数的原生堆栈跟踪</value>
+  </data>
+  <data name="Unit_SI_T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Unit_SI_E" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Unit_SI_G" xml:space="preserve">
+    <value>G</value>
+  </data>
+  <data name="Unit_SI_y" xml:space="preserve">
+    <value>y</value>
+  </data>
+  <data name="Unit_SI_z" xml:space="preserve">
+    <value>z</value>
+  </data>
+  <data name="Unit_SI_p" xml:space="preserve">
+    <value>p</value>
+  </data>
+  <data name="Unit_SI_u" xml:space="preserve">
+    <value>u</value>
+  </data>
+  <data name="Unit_SI_k" xml:space="preserve">
+    <value>k</value>
+  </data>
+  <data name="Unit_SI_m" xml:space="preserve">
+    <value>m</value>
+  </data>
+  <data name="Unit_SI_n" xml:space="preserve">
+    <value>n</value>
+  </data>
+  <data name="Unit_SI_a" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="Unit_SI_f" xml:space="preserve">
+    <value>f</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Events_Tooltip" xml:space="preserve">
+    <value>自有事件 = 总事件: 此方法中发生的事件数。此方法的子调用中没有任何事件。</value>
+  </data>
+  <data name="SpecialValue_Sql_CloseConnection" xml:space="preserve">
+    <value>[关闭连接]</value>
+  </data>
+  <data name="DiskManagement_ManageStorage_LinkText" xml:space="preserve">
+    <value>Manage storage settings</value>
+  </data>
+  <data name="Filters_Reset_ButtonTooltip" xml:space="preserve">
+    <value>清除所有筛选器</value>
+  </data>
+  <data name="Filters_Gc_Type_Enum_Unknown" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="DiskManagement_RemoveAllTemp_Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="PlainList_UnknownNamespace" xml:space="preserve">
+    <value>[未知命名空间]</value>
+  </data>
+  <data name="Filters_WaitingReason_Name" xml:space="preserve">
+    <value>原因</value>
+  </data>
+  <data name="DeleteSnapshotsConfirmationMessage" xml:space="preserve">
+    <value>是否删除快照?</value>
+  </data>
+  <data name="Filters_GcReason_Tooltip" xml:space="preserve">
+    <value>执行由特定原因触发的垃圾收集的时间间隔</value>
+  </data>
+  <data name="ThreadPresentation_Process_Tooltip" xml:space="preserve">
+    <value>{0} (进程 #{1})</value>
+  </data>
+  <data name="Options_General_Header" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Filters_SqlConnectionString_Name" xml:space="preserve">
+    <value>连接字符串</value>
+  </data>
+  <data name="KnownProperties_CpuCore" xml:space="preserve">
+    <value>CPU 核心 {0}</value>
+  </data>
+  <data name="Filters_Panel_AllCalls_Text" xml:space="preserve">
+    <value>所有调用</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Time_Tooltip" xml:space="preserve">
+    <value>自有时间 + 系统时间 = 总时间: 在此方法或此方法的系统调用中花费的时间。未在从此方法到其他用户方法的调用中花费任何时间。</value>
+  </data>
+  <data name="KnownEventTypes_Contention_Tooltip" xml:space="preserve">
+    <value>线程等待独占访问对象的时间间隔。这仅包括被 Monitor.Enter 或 lock 锁定的对象。</value>
+  </data>
+  <data name="Filters_Reset_ButtonText" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="CallTree_Header" xml:space="preserve">
+    <value>调用树</value>
+  </data>
+  <data name="ThreadPresentation_IdType_ShortName" xml:space="preserve">
+    <value>{0}线程</value>
+  </data>
+  <data name="KnownEventTypes_CallStackInversion_FullName" xml:space="preserve">
+    <value>调用堆栈反转</value>
+  </data>
+  <data name="FollowSelectionButtonTooltip" xml:space="preserve">
+    <value>遵循调用树中的选区。启用后，将在调用树中当前所选节点的范围内计算热点。</value>
+  </data>
+  <data name="Ide_OpenInStandalone_TextAction" xml:space="preserve">
+    <value>保存到…</value>
+  </data>
+  <data name="ThreadPresentation_NoInfo_Name" xml:space="preserve">
+    <value>没有正在激活的线程</value>
+  </data>
+  <data name="KnownEventTypes_SqlCommand_Tooltip" xml:space="preserve">
+    <value>客户端与 SQL 服务器通信的时间间隔: 客户端发送请求与接收响应之间的时间</value>
+  </data>
+  <data name="ExportSnapshotErrorTitle" xml:space="preserve">
+    <value>无法导出快照</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Events_Tooltip" xml:space="preserve">
+    <value>在仅包含系统代码的堆栈跟踪中发生的事件数</value>
+  </data>
+  <data name="ConfigurationEditor_SampleRateDisplayFormatString" xml:space="preserve">
+    <value>{0} 个样本/秒</value>
+  </data>
+  <data name="GroupByThread_Header" xml:space="preserve">
+    <value>按线程分组</value>
+  </data>
+  <data name="KnownEventTypes_BlockingGC_FullName" xml:space="preserve">
+    <value>阻塞 GC</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPlusSystemPayload_Threads_Tooltip" xml:space="preserve">
+    <value>自有线程 + 系统线程 = 总线程: 在所选时间点，位于此方法中或此方法的系统调用中的线程数。此时，在从此方法到其他用户方法的调用中没有任何线程。</value>
+  </data>
+  <data name="TopMethods_TotalEqualsOwnPayload_Size_Tooltip" xml:space="preserve">
+    <value>自有分配 = 总分配: 此方法中分配的内存量。此方法的子调用中没有任何分配。</value>
+  </data>
+  <data name="TopMethods_PayloadType_Time" xml:space="preserve">
+    <value>时间</value>
+  </data>
+  <data name="TopMethods_PayloadType_Size" xml:space="preserve">
+    <value>分配</value>
+  </data>
+  <data name="Properties_TotalPayload" xml:space="preserve">
+    <value>总负载: {0}</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Size_Tooltip" xml:space="preserve">
+    <value>在仅包含系统代码的堆栈跟踪中分配的内存量</value>
+  </data>
+  <data name="Overview_ProcessArchitecture" xml:space="preserve">
+    <value>进程架构</value>
+  </data>
+  <data name="Filters_ApiEventDescription_Name" xml:space="preserve">
+    <value>事件描述</value>
+  </data>
+  <data name="Filters_SqlCommandText_Name_Plural" xml:space="preserve">
+    <value>命令</value>
+  </data>
+  <data name="Summary_IntervalPart_Plural" xml:space="preserve">
+    <value>在 {0} 个间隔中</value>
+  </data>
+  <data name="Processing_ConvertEvents_PrepareForDispose_ProgressName" xml:space="preserve">
+    <value>Processing buffered events</value>
+  </data>
+  <data name="Properties_ThisScopePayloads_Header" xml:space="preserve">
+    <value>此范围负载:</value>
+  </data>
+  <data name="ProcessingMessageLevel_Info" xml:space="preserve">
+    <value>信息消息</value>
+  </data>
+  <data name="CallFrameInfo_NoData" xml:space="preserve">
+    <value>无数据</value>
+  </data>
+  <data name="KnownEventTypes_DebugOutput_FullName" xml:space="preserve">
+    <value>调试输出</value>
+  </data>
+  <data name="Options_SystemModules_CategoryLabel" xml:space="preserve">
+    <value>类别: </value>
+  </data>
+  <data name="KnownEventTypes_UiFreezeInterval_EventName" xml:space="preserve">
+    <value>UI 冻结</value>
+  </data>
+  <data name="Summary_IntervalPart" xml:space="preserve">
+    <value>在 1 个间隔中</value>
+  </data>
+  <data name="HideSystemFunctionsButtonTooltip" xml:space="preserve">
+    <value>隐藏系统函数。所隐藏系统函数的自有时间将加到调用堆栈中最近用户方法的自有时间中。</value>
+  </data>
+  <data name="CallTreeSystemUnfold" xml:space="preserve">
+    <value>展开系统调用链 - 像在调用堆栈中一样显示所有非用户方法</value>
+  </data>
+  <data name="Filters_AnalysisSubject_Name" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="EventSessionInterrupted" xml:space="preserve">
+    <value>ETW 会话 {0} 被进程 {1} (PID: {2})中断。此会话中的事件将不显示在时间线上。要解决此问题，请停止存在冲突的进程并重新运行分析</value>
+  </data>
+  <data name="Filters_ProcessingErrorType_Name" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Filters_BlockingGc_Reason_Enum_InducedNotForced" xml:space="preserve">
+    <value>Induced But Not Forced As Blocking</value>
+  </data>
+  <data name="Filters_GcType_Name_Plural" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="TimelineSnapshotPostprocessor_CopyingParents_ProgressName" xml:space="preserve">
+    <value>Copying parents</value>
+  </data>
+  <data name="AutoSaveCheckBoxText" xml:space="preserve">
+    <value>将所有收集的快照自动保存到存储区</value>
+  </data>
+  <data name="ProcessingMessageLevel_Warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="HideSystemFunctionsButtonTooltipWhenDisabled" xml:space="preserve">
+    <value>当前调用树节点下的所有其他方法都是系统方法，因此，此选项被禁用，并且系统方法在列表中显示</value>
+  </data>
+  <data name="KnownEventTypes_GC_Tooltip" xml:space="preserve">
+    <value>执行垃圾收集的时间间隔</value>
+  </data>
+  <data name="Filters_AllocationType_Name" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="SaveSnapshot_ProgressName" xml:space="preserve">
+    <value>正在保存快照({0})…</value>
+  </data>
+  <data name="Subsystems_Hidden" xml:space="preserve">
+    <value>已隐藏</value>
+  </data>
+  <data name="CallTree_Backtrace_Size_Tooltip" xml:space="preserve">
+    <value>来自此调用路径的根方法下的内存分配部分</value>
+  </data>
+  <data name="Options_TemporaryStorage_Header" xml:space="preserve">
+    <value>临时快照存储区</value>
+  </data>
+  <data name="Overview_Source_UnitTests" xml:space="preserve">
+    <value>单元测试运行程序已生成快照</value>
+  </data>
+  <data name="CallTree_Downtrace_Time_Tooltip" xml:space="preserve">
+    <value>在此方法下花费的时间</value>
+  </data>
+  <data name="TooManySnapshotsSimulatneously" xml:space="preserve">
+    <value>您即将同时{0} {1} 个快照。这可能需要很长时间。是否继续?</value>
+  </data>
+  <data name="SpecialValue_Tasks_UnknownTask" xml:space="preserve">
+    <value>[未知任务]</value>
+  </data>
+  <data name="ExceptionsDuringProcessing" xml:space="preserve">
+    <value>处理快照过程中出现异常。请将异常提交给 dotTrace 支持团队。</value>
+  </data>
+  <data name="UnknownCallFrameTooltip" xml:space="preserve">
+    <value>此调用堆栈很可能属于当前调用子树，但 dotTrace 无法获取其中的完整数据</value>
+  </data>
+  <data name="Filters_ThreadStates_Waiting" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="KnownEventTypes_Contention_EventName_Plural" xml:space="preserve">
+    <value>锁定争用</value>
+  </data>
+  <data name="Properties_OwnPlusSystemPayload" xml:space="preserve">
+    <value>自有负载+系统负载: {0}</value>
+  </data>
+  <data name="Unity20183_OrLater" xml:space="preserve">
+    <value>Unity 2018.3 (或更高版本)</value>
+  </data>
+  <data name="ConfigurationEditor_StartProfileUnavailable" xml:space="preserve">
+    <value>此分析配置不适用于所选运行配置</value>
+  </data>
+  <data name="Filters_ExceptionType_Name_Plural" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Filters_ExceptionMessage_Tooltip" xml:space="preserve">
+    <value>引发的异常按异常消息的分布</value>
+  </data>
+  <data name="Overview_ProcessId" xml:space="preserve">
+    <value>进程 ID</value>
+  </data>
+  <data name="Hotspots_Header_UnderMethod" xml:space="preserve">
+    <value>'{0}' 下的热点</value>
+  </data>
+  <data name="TopMethods_SystemStackTrace_Time_Tooltip" xml:space="preserve">
+    <value>在仅包含系统代码的堆栈跟踪中花费的时间</value>
+  </data>
+  <data name="ConfigurationEditor_ControlViaApi" xml:space="preserve">
+    <value>通过 API 控制分析</value>
+  </data>
+  <data name="Filters_NativeAllocationIsClosed_Name" xml:space="preserve">
+    <value>IsClosed</value>
+  </data>
+  <data name="Properties_SnapshotHeader" xml:space="preserve">
+    <value>快照标题: {0}</value>
+  </data>
+  <data name="Processing_Warning_UnknownProcessId" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="Hotspots_OwnPlusSystem" xml:space="preserve">
+    <value>自有+系统</value>
+  </data>
+  <data name="Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="KnownEventTypes_ApiFrameEvent_EventName" xml:space="preserve">
+    <value>框架事件</value>
+  </data>
+  <data name="KnownEventTypes_Jitting_EventName_Plural" xml:space="preserve">
+    <value>JIT 事件</value>
+  </data>
+  <data name="EventLogTable_CallInfo_Unknown" xml:space="preserve">
+    <value>[未知]</value>
+  </data>
+</root>

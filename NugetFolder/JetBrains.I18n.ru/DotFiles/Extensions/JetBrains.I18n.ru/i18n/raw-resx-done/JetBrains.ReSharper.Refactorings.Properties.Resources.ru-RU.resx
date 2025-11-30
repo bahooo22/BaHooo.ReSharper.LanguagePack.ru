@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="MoveIntoMatchingFilesPage_Title" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="UseBaseTypeMainWindow_Title" xml:space="preserve">
+  <value>Выберите базовый тип, который вы хотите использовать</value>
+</data>
+<data name="TransformOutParameters_Title" xml:space="preserve">
+  <value>Преобразовать out-параметры</value>
+</data>
+<data name="VBFunction2PropertyPage_Description" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="EncapsulateFieldPage_Description" xml:space="preserve">
+  <value>Укажите имя и модификаторы для нового свойства</value>
+</data>
+<data name="PushDownWindow_Description" xml:space="preserve">
+  <value>и члены для перемещения в производные классы</value>
+</data>
+<data name="RenameNamespaceControl_Description" xml:space="preserve">
+  <value>Для пространства имен {0} укажите новое имя.</value>
+</data>
+<data name="SafeDeleteProjectsPage_Title" xml:space="preserve">
+  <value>Подтверждение удаления</value>
+</data>
+<data name="ExtractSuperclassWindow_Description" xml:space="preserve">
+  <value>и члены для извлечения в этот класс</value>
+</data>
+<data name="ConflictsPage_Title" xml:space="preserve">
+  <value>Обнаружены конфликты</value>
+</data>
+<data name="ConflictsPage_Description_CanNotExecute" xml:space="preserve">
+  <value>Невозможно выполнить рефакторинг</value>
+</data>
+<data name="PushDownWindow_Title" xml:space="preserve">
+  <value>Выберите наследников</value>
+</data>
+<data name="TypeSuggestionPage_Description" xml:space="preserve">
+  <value>Введенные вами в диалоге "Изменение сигнатуры" типы не могут быть разрешены или разрешены неоднозначно. Выберите точные типы в таблице ниже или проверьте неразрешенные типы.</value>
+</data>
+<data name="AdjustNamespacesPage_Description_No_files_were_found_with_inconsistent_namespaces" xml:space="preserve">
+  <value>Файлов с несогласованными пространствами имен не найдено</value>
+</data>
+<data name="RenameInitialControl_Description" xml:space="preserve">
+  <value>в {0}</value>
+</data>
+<data name="MoveToFilePage_Description" xml:space="preserve">
+  <value>Укажите имя нового или существующего файла</value>
+</data>
+<data name="TransformOutParameters_Description" xml:space="preserve">
+  <value>Выберите out-параметры для преобразования</value>
+</data>
+<data name="CopyTypePage_Title" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="SafeDeletePageOverridableMember_Title" xml:space="preserve">
+  <value>Удалить переопределения?</value>
+</data>
+<data name="MoveToNamespacePage_Title" xml:space="preserve">
+  <value>Укажите пространство имен</value>
+</data>
+<data name="SafeDeleteFolderPage_Title" xml:space="preserve">
+  <value>Подтверждение удаления</value>
+</data>
+<data name="SafeDeletePageReplaceTypeUsages_Description" xml:space="preserve">
+  <value>использований {0}. Укажите, как поступить с этими использованиями.</value>
+</data>
+<data name="IntroFieldWindow_Title" xml:space="preserve">
+  <value>Укажите имя вводимого поля</value>
+</data>
+<data name="ConflictsPage_Description_ReviewProblems" xml:space="preserve">
+  <value>Пожалуйста, проверьте возможные проблемы перед выполнением рефакторинга</value>
+</data>
+<data name="UseBaseTypeMainWindow_Description" xml:space="preserve">
+  <value>вместо исходного типа</value>
+</data>
+<data name="Property2FunctionWindow_Description" xml:space="preserve">
+  <value>и укажите имя</value>
+</data>
+<data name="SafeDeletePageOverridableMember_Description" xml:space="preserve">
+  <value>{0} является членом иерархии. Какие члены вы хотите удалить?</value>
+</data>
+<data name="MakeStaticPage_Title" xml:space="preserve">
+  <value>Укажите параметры</value>
+</data>
+<data name="ExtractClassFromParamsControl_Title" xml:space="preserve">
+  <value>Укажите параметры</value>
+</data>
+<data name="CheckDeclarationsToMakePublicPage_Title" xml:space="preserve">
+  <value>Выберите объявления, которые следует сделать public</value>
+</data>
+<data name="RenameInitialControl_Title" xml:space="preserve">
+  <value>sdf</value> <!-- Оставлено как есть, т.к. значение 'sdf' не несет смысловой нагрузки -->
+</data>
+<data name="SafeDeleteProjectsPage_Description" xml:space="preserve">
+  <value>Для безопасного удаления выбранных проектов может потребоваться некоторое время на поиск их использований в этом решении</value>
+</data>
+<data name="MoveFileRemoveEmptyFilePage_Description" xml:space="preserve">
+  <value>Исходный файл не содержит больше объявлений</value>
+</data>
+<data name="RenameMainForm_Title" xml:space="preserve">
+  <value>Придумайте новое имя</value>
+</data>
+<data name="IntroFieldWindow_Description" xml:space="preserve">
+  <value>и определите его модификаторы</value>
+</data>
+<data name="Property2FunctionWindow_Title" xml:space="preserve">
+  <value>Проверьте аксессоры, которые вы хотите создать</value>
+</data>
+<data name="ExtractSuperclassWindow_Title" xml:space="preserve">
+  <value>Укажите имя базового типа</value>
+</data>
+<data name="InlineMethodWindow_Description" xml:space="preserve">
+  <value>Параметры для встраивания {0}</value>
+</data>
+<data name="MoveToFilePage_Title" xml:space="preserve">
+  <value>Укажите имя файла</value>
+</data>
+<data name="RenameDerivedElementsPage_Description" xml:space="preserve">
+  <value>Некоторые объявления, по-видимому, связаны по имени с типом, который вы переименовываете. Вы можете изменить их имена в соответствии с новым именем типа. Вы можете согласиться с предложенными именами или щелкнуть ячейку нового имени для редактирования.</value>
+</data>
+<data name="VBFunction2PropertyPage_Title" xml:space="preserve">
+  <value>Укажите для нового свойства</value>
+</data>
+<data name="IntroduceParameterWindow_Title" xml:space="preserve">
+  <value>Укажите имя параметра</value>
+</data>
+<data name="SelectTypePartWindow_Description" xml:space="preserve">
+  <value>Куда вы хотите поместить члены</value>
+</data>
+<data name="MakeMethodNonStaticPage_Title" xml:space="preserve">
+  <value>Укажите параметры</value>
+</data>
+<data name="RenameDerived_Title_UsagesChanged" xml:space="preserve">
+  <value>Изменено использований: {0}.</value>
+</data>
+<data name="MakeMethodNonStaticPage_Description" xml:space="preserve">
+  <value>Выберите параметр экземпляра метода</value>
+</data>
+<data name="MoveFileRemoveEmptyFilePage_Title" xml:space="preserve">
+  <value>Удалить пустой файл?</value>
+</data>
+<data name="MoveIntoMatchingFilesPage_Description" xml:space="preserve">
+  <value>Укажите объявления, которые должны быть перемещены в отдельные файлы</value>
+</data>
+<data name="CopyTypePage_Description" xml:space="preserve">
+  <value>Укажите имя копии типа и пространство имен, в которое его поместить</value>
+</data>
+<data name="SelectTypePartWindow_Title" xml:space="preserve">
+  <value>Выберите объявление для {0}</value>
+</data>
+<data name="MoveTypeToOuterScopePage_Description" xml:space="preserve">
+  <value>(если вы хотите, чтобы оно отличалось)</value>
+</data>
+<data name="SafeDeleteRemoveFilesConfirmation_Description" xml:space="preserve">
+  <value>Некоторые файлы могут стать пустыми. Рефакторинг может удалить эти файлы при необходимости.</value>
+</data>
+<data name="Anonymous2DeclaredWindow_Title_Configure_type" xml:space="preserve">
+  <value>Настроить тип</value>
+</data>
+<data name="RenameDerived_Title_UsageChanged" xml:space="preserve">
+  <value>Изменено использований: {0}.</value> <!-- Предполагается, что name и value одинаковы, исправлено на множественное число для согласованности -->
+</data>
+<data name="SafeDeletePage2TypeElement_Description" xml:space="preserve">
+  <value>{0} имеет наследников. Удалить всю иерархию?</value>
+</data>
+<data name="RenameNamespaceControl_Title" xml:space="preserve">
+  <value>Для пространства имен</value>
+</data>
+<data name="ChangeSignaturePage_Title" xml:space="preserve">
+  <value>Определите изменения сигнатуры</value>
+</data>
+<data name="InlineMethodWindow_Title" xml:space="preserve">
+  <value>Укажите</value>
+</data>
+<data name="MoveTypeToOuterScopePage_Title" xml:space="preserve">
+  <value>Укажите имя для перемещаемого класса</value>
+</data>
+<data name="Anonymous2DeclaredWindow_Description_Specify_parameters_of_new_type_declaration___" xml:space="preserve">
+  <value>Укажите параметры нового объявления типа…</value>
+</data>
+<data name="Constructor2FactoryMethodWindow_Title" xml:space="preserve">
+  <value>Определите имя фабричного метода</value>
+</data>
+<data name="ExtractInterfaceWindow_Description" xml:space="preserve">
+  <value>и члены, которые вы хотите переместить в базовый тип</value>
+</data>
+<data name="SafeDeletePageReplaceTypeUsages_Title" xml:space="preserve">
+  <value>Существуют</value>
+</data>
+<data name="MoveStaticMembersControl_Title" xml:space="preserve">
+  <value>Укажите целевой тип</value>
+</data>
+<data name="MakeStaticPage_Description" xml:space="preserve">
+  <value>Определите, как преобразовать использования членов экземпляра</value>
+</data>
+<data name="ExtractInterfaceWindow_Title" xml:space="preserve">
+  <value>Выберите базовый тип</value>
+</data>
+<data name="AdjustNamespacesPage_Description_Please_review_files_that_have_inconsistent_namespace_names" xml:space="preserve">
+  <value>Пожалуйста, проверьте файлы, в которых имена пространств имен несогласованны</value>
+</data>
+<data name="AdjustNamespacesPage_Title_Inconsistent_files_review" xml:space="preserve">
+  <value>Обзор файлов с несогласованностями</value>
+</data>
+<data name="SafeDeleteFolderPage_Description" xml:space="preserve">
+  <value>Рефакторинг покажет вам использования удаляемого кода, а затем удалит файлы</value>
+</data>
+<data name="SafeDeletePage2TypeElement_Title" xml:space="preserve">
+  <value>Удалить иерархию?</value>
+</data>
+<data name="ExtractMethodPage_Title" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="MoveStaticMembersControl_Description" xml:space="preserve">
+  <value>и члены для перемещения в целевой тип</value>
+</data>
+<data name="SafeDeleteRemoveFilesConfirmation_Title" xml:space="preserve">
+  <value>Удалить пустые файлы?</value>
+</data>
+<data name="Constructor2FactoryMethodWindow_Description" xml:space="preserve">
+  <value>и укажите, где должна быть создана фабричный метод</value>
+</data>
+<data name="EncapsulateFieldPage_Title" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="TypeSuggestionPage_Title_Specify_unresolved_types" xml:space="preserve">
+  <value>Укажите неразрешенные типы</value>
+</data>
+<data name="AdjustNamespacesPage_Title_Nothing_to_fix" xml:space="preserve">
+  <value>Нечего исправлять</value>
+</data>
+<data name="IntroduceParameterWindow_Description" xml:space="preserve">
+  <value>и другие параметры</value>
+</data>
+<data name="ChangeSignaturePage_Description" xml:space="preserve">
+  <value>Укажите новое имя, тип возвращаемого значения и параметры, затем убедитесь, что предпросмотр сигнатуры показывает правильную сигнатуру</value>
+</data>
+<data name="RenameDerived_Title" xml:space="preserve">
+  <value>Переименовать связанные символы</value>
+</data>
+<data name="CheckDeclarationsToMakePublicPage_Description" xml:space="preserve">
+  <value>Рефакторинг обнаружил, что следующие типы и члены должны быть сделаны public</value>
+</data>
+<data name="ConflictsPage_Description" xml:space="preserve">
+  <value>Рефакторинг имеет некоторые конфликты с существующим кодом. Вы можете просмотреть список конфликтов и исправить их, вручную отредактировав код или выбрав один из быстрых способов исправления, если таковые имеются.</value>
+</data>
+<data name="ExtractClassFromParamsControl_Description" xml:space="preserve">
+  <value>Выберите параметры для обертывания и определите свойства извлекаемого типа</value>
+</data>
+<data name="ExtractMethodPage_Description" xml:space="preserve">
+  <value>Введите имя для создаваемого метода и при необходимости измените его сигнатуру</value>
+</data>
+</root>

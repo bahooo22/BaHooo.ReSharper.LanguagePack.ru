@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="NUnitTestCaseResultPropertyIsObsoleteSinceNUnit" xml:space="preserve">
+    <value>NUnit。自 NUnit 2.6 起，测试用例的 Result 属性已过时。</value>
+  </data>
+  <data name="NUnitMissingCancelAfterAttributeDescription" xml:space="preserve">
+    <value>根据测试方法签名，可能缺少 [CancelAfter] 特性</value>
+  </data>
+  <data name="NoValuesProvidedForTheParameterOfTypeInTheAttributeMessage" xml:space="preserve">
+    <value>未在 {1} 特性中为 '{0}' 类型的形参提供任何值。{2}</value>
+  </data>
+  <data name="NUnitTestCaseAttributeShouldNotProvideExpectedResultForTestMethodWithoutReturnValueMessage" xml:space="preserve">
+    <value>NUnit TestCase 特性不应为没有返回值的测试方法提供预期结果</value>
+  </data>
+  <data name="ArgumentValueInTheTestCaseAttributeIsIncorrectOrIsNotCompatibleWithTheTestMethodParameterType" xml:space="preserve">
+    <value>[TestCase] 特性中的实参值不正确或与测试方法形参类型不兼容</value>
+  </data>
+  <data name="DoesLastArgumentOfNUnitTestCaseAttributeMeanExpectedResultMessage" xml:space="preserve">
+    <value>NUnit TestCase 特性的最后一个实参是否意味着预期结果?</value>
+  </data>
+  <data name="AccordingToTheTestMethodSignatureThereAreMissingArgumentsInTheTestCaseAttribute" xml:space="preserve">
+    <value>根据测试方法签名，[TestCase] 特性中缺少实参</value>
+  </data>
+  <data name="TheAttributeIsIgnoredBecauseAnotherParameterAttributeHasAlreadyBeenSpecifiedMessage" xml:space="preserve">
+    <value>由于指定了另一个形参特性，该特性已被忽略</value>
+  </data>
+  <data name="NUnitValuesSpecifiedInTheAttributeAreNotCompatibleWithTheCorrespondingTestParameterType" xml:space="preserve">
+    <value>NUnit。特性中指定的值与相应的测试形参类型不兼容。</value>
+  </data>
+  <data name="ExpectedResultValueInTestCaseOrTestAttributesIsIncorrectOrIsNotCompatibleWithTheTestMethodReturnType" xml:space="preserve">
+    <value>[TestCase] 或 [Test] 特性中的 ExpectedResult 值不正确或与测试方法返回类型不兼容</value>
+  </data>
+  <data name="RemoveIgnoredAttribute_Text" xml:space="preserve">
+    <value>移除忽略的特性</value>
+  </data>
+  <data name="NUnitImplicitlyUnspecifiedNullValues" xml:space="preserve">
+    <value>NUnit。隐式未指定的 null 值。</value>
+  </data>
+  <data name="ValueOfTypeIsIncorrectOrIsNotAssignableToTheTestMethodsExpectedResultOfTypeMessage" xml:space="preserve">
+    <value>'{0}' 类型的值不正确或不可赋值给 '{1}' 类型的测试方法的预期结果</value>
+  </data>
+  <data name="NoValuesProvidedForAllParametersOfNUnitTestMethodMessage" xml:space="preserve">
+    <value>没有为 NUnit 测试方法的所有形参提供任何值</value>
+  </data>
+  <data name="NUnitAutoFixtureMissedTestAttributeTestMethodWillNotBeRun" xml:space="preserve">
+    <value>NUnit.AutoFixture。缺少 [Test] 特性，测试方法将不运行。</value>
+  </data>
+  <data name="NUnitValuesInRangeDoNotFitTheTypeOfTheTestParameter" xml:space="preserve">
+    <value>NUnit。范围内的值不适合测试形参的类型。</value>
+  </data>
+  <data name="NUnitTestCaseSourceMustReferToNonAbstractClassImplementingIEnumerable" xml:space="preserve">
+    <value>NUnit。测试用例源必须引用实现 IEnumerable 的非抽象类。</value>
+  </data>
+  <data name="UseITestOutputHelperInstead_Text" xml:space="preserve">
+    <value>改用 ITestOutputHelper</value>
+  </data>
+  <data name="NUnitTheMaximumRangeValueIsNotReachableWithTheStepValue" xml:space="preserve">
+    <value>NUnit。无法通过步进值达到最大范围值。</value>
+  </data>
+  <data name="NUnitNoValuesProvidedInTheAttributes" xml:space="preserve">
+    <value>NUnit。未在特性中提供任何值。</value>
+  </data>
+  <data name="WithTheCurrentStepTheTestWillReachButNotCheckRangeAndStepValuesMessage" xml:space="preserve">
+    <value>使用当前步进时，测试将到达 {0} 但不会到达 {1}。请检查范围和步进值。</value>
+  </data>
+  <data name="TheValueIsDuplicatedItProducesUnnecessaryDuplicateTestsMessage" xml:space="preserve">
+    <value>值重复。这会产生不必要的重复测试。</value>
+  </data>
+  <data name="AddsTestCaseAttributeToNUnitTestMethod_Text" xml:space="preserve">
+    <value>向 NUnit 测试方法添加 TestCase 特性</value>
+  </data>
+  <data name="NUnitTestCaseResultPropertyDuplicatesSpecifiedExpectedResult" xml:space="preserve">
+    <value>NUnit。测试用例的 Result 属性与指定的 ExpectedResult 重复。</value>
+  </data>
+  <data name="TheAttributeProducesTestsWhichExceedsTheSpecifiedThresholdWithThisManyTestsNUnitTestRunnerMayFailWithOutOfMemoryMessage" xml:space="preserve">
+    <value>'{0}' 特性产生 {1} 个测试，这超出了指定的阈值({2})。对于这些测试，NUnit 测试运行程序可能会因“内存不足”而失败。</value>
+  </data>
+  <data name="NUnitNonPublicTestMethod" xml:space="preserve">
+    <value>NUnit。非 public 测试方法。</value>
+  </data>
+  <data name="NUnitIncorrectRangeBoundsTheValueOftoParameterMustBeGreaterThanOrEqualTofromOrThereMustBeANegativeStep" xml:space="preserve">
+    <value>NUnit。不正确的 [Range] 界限。'to' 形参的值必须大于或等于 'from'，或者必须存在一个负向步进。</value>
+  </data>
+  <data name="NUnitTestCaseSourceMustBeStatic" xml:space="preserve">
+    <value>NUnit。测试用例源必须为 static。</value>
+  </data>
+  <data name="NUnitIgnoredParameterAttribute" xml:space="preserve">
+    <value>NUnit。已忽略的形参特性。</value>
+  </data>
+  <data name="ExpectedResultOfACompatibleTypeMustBeProvidedForNonVoidNUnitTestMethodsThroughTheTestCaseAttribute" xml:space="preserve">
+    <value>必须通过 [TestCase] 特性为非 void NUnit 测试方法提供兼容类型的预期结果</value>
+  </data>
+  <data name="ArgumentValueOfTypeIsIncorrectOrIsNotAssignableToParameterOfTypeMessage" xml:space="preserve">
+    <value>'{0}' 类型的实参值不正确或不可赋值给 '{2}' 类型的形参 '{1}'</value>
+  </data>
+  <data name="ParametersOfNUnitTestMethodMustBeProvidedWithValuesThroughEitherValuesOrTestCaseAttribute" xml:space="preserve">
+    <value>必须通过 [Values] 或 [TestCase] 特性为 NUnit 测试方法的形参提供值</value>
+  </data>
+  <data name="NUnitSpecifiedValuesAreNotCompatibleWithTheTestParameterType" xml:space="preserve">
+    <value>NUnit。指定的值与测试形参类型不兼容。</value>
+  </data>
+  <data name="TheTypeProvidedInIsNotCompatibleWithTheTestParameterTypeMessage" xml:space="preserve">
+    <value>[{1}] 中提供的类型 '{0}' 与测试形参类型 '{2}' 不兼容</value>
+  </data>
+  <data name="NUnitDuplicateValuesProduceUnnecessaryDuplicateTests" xml:space="preserve">
+    <value>NUnit。重复的值会产生不必要的重复测试。</value>
+  </data>
+  <data name="RedundantArgumentIsFoundInsteadOfExpectedResult" xml:space="preserve">
+    <value>发现冗余的实参，而不是 'ExpectedResult'</value>
+  </data>
+  <data name="NUnitValuesSpecifiedInRangeAreOutRangeForTheTypeOfTheTestParameter" xml:space="preserve">
+    <value>NUnit。[Range] 中指定的值超出了测试形参类型的范围。</value>
+  </data>
+  <data name="NUnitTestCaseSourceFieldPropertyMethodShouldBeStaticMessage" xml:space="preserve">
+    <value>NUnit 测试用例源字段/属性/方法 '{0}' 必须为 static</value>
+  </data>
+  <data name="NUnitAddCancelAfterAttribute_Text" xml:space="preserve">
+    <value>添加 'CancelAfter' 特性</value>
+  </data>
+  <data name="NUnitSupportsOnlyAsyncTestMethodsThatReturnTaskOrTaskTMessage" xml:space="preserve">
+    <value>NUnit 仅支持返回 Task 或 Task&lt;T&gt; 的异步测试方法。</value>
+  </data>
+  <data name="NUnitTestCaseSourceMustBeFieldPropertyOrMethod" xml:space="preserve">
+    <value>NUnit。测试用例源必须为字段、属性或方法。</value>
+  </data>
+  <data name="NUnitTestMethodsMustHavePublicVisibility" xml:space="preserve">
+    <value>NUnit 测试方法必须具有 public 可见性</value>
+  </data>
+  <data name="SpecifyingExpectedResultForVoidNUnitTestMethodsThroughTheTestCaseAttributeIsRedundant" xml:space="preserve">
+    <value>通过 [TestCase] 特性指定 void NUnit 测试方法的预期结果是冗余的</value>
+  </data>
+  <data name="NUnitAutoFixtureArgumentValueInTheInlineAutoDataAttributeIsIncorrectOrIsNotCompatibleWithTheTestMethodParameterType" xml:space="preserve">
+    <value>NUnit.AutoFixture。[InlineAutoData] 特性中的实参值不正确或与测试方法形参类型不兼容。</value>
+  </data>
+  <data name="NUnitAutoFixtureIncompatibleArgumentTypeOrIncorrectArgumentValue" xml:space="preserve">
+    <value>NUnit.AutoFixture。不兼容的实参类型或不正确的实参值。</value>
+  </data>
+  <data name="NUnitRangestepParameterValueMustBeNonZero" xml:space="preserve">
+    <value>NUnit。范围 'step' 形参值必须为非零值。</value>
+  </data>
+  <data name="NUnitTestCaseResultPropertyDuplicatesExpectedResult" xml:space="preserve">
+    <value>NUnit。测试用例的 Result 属性与 ExpectedResult 重复。</value>
+  </data>
+  <data name="SequentialAttributeProducesTestsButValuesAreProvidedByTheAttributeNUnitAddsImplicitlynullValuesMessage" xml:space="preserve">
+    <value>'Sequential' 特性产生 {0} 个测试，但该属性提供 {1} 个值。其余测试将使用 'null' 或默认值隐式初始化。</value>
+  </data>
+  <data name="NUnitIncorrectRangeBoundstoMustBeGreaterThanOrEqualTofrom" xml:space="preserve">
+    <value>NUnit。不正确的范围界限。'to' 必须大于或等于 'from'。</value>
+  </data>
+  <data name="NUnitMissingExpectedResultForNonVoidTestMethod" xml:space="preserve">
+    <value>NUnit。缺少非 void 测试方法的预期结果。</value>
+  </data>
+  <data name="AddExpectedResult_Text" xml:space="preserve">
+    <value>添加预期结果</value>
+  </data>
+  <data name="ConsoleOutputInXunitTests" xml:space="preserve">
+    <value>Xunit 测试中的控制台输出</value>
+  </data>
+  <data name="NUnitIncompatibleExpectedResultTypeOrIncorrectValue" xml:space="preserve">
+    <value>NUnit。不兼容的预期结果类型或不正确的值。</value>
+  </data>
+  <data name="NUnitAutoFixtureMissedTestAttribute" xml:space="preserve">
+    <value>NUnit.AutoFixture。缺少 Test 特性。</value>
+  </data>
+  <data name="NUnitValuesOfTheAttributeProduceTooManyTestsWhichMayLeadNUnitTestRunnerToOutOfMemory" xml:space="preserve">
+    <value>NUnit。该特性的值会产生太多测试，这可能导致 NUnit 测试运行程序出现“内存不足”的情况。</value>
+  </data>
+  <data name="CannotResolveSymbolMessage" xml:space="preserve">
+    <value>无法解析符号'{0}'</value>
+  </data>
+  <data name="AddTestCaseAttribute_Text" xml:space="preserve">
+    <value>添加 TestCase 特性</value>
+  </data>
+  <data name="AccordingToTheTestMethodSignatureTheArgumentInTheTestCaseAttributeIsRedundant" xml:space="preserve">
+    <value>根据测试方法签名，[TestCase] 特性中的实参冗余</value>
+  </data>
+  <data name="UseNUnit36ToGenerateNullableValues" xml:space="preserve">
+    <value>要自动生成 'enum?' 或 'bool?' 的所有可能值，请使用 NUnit 3.6 或更高版本。</value>
+  </data>
+  <data name="NUnitMissingArgumentsInTestCaseAttribute" xml:space="preserve">
+    <value>NUnit。TestCase 特性中缺少实参。</value>
+  </data>
+  <data name="UseNUnit30ToGenerateValues" xml:space="preserve">
+    <value>要自动生成 'enum' 或 'bool' 的所有可能值，请使用 NUnit 3.0 或更高版本。</value>
+  </data>
+  <data name="NUnitTestMethodsShouldHavePublicVisibilityMessage" xml:space="preserve">
+    <value>NUnit 测试方法应具有 public 可见性</value>
+  </data>
+  <data name="NUnitSupportsOnlyAsyncTestMethodsThatReturnTaskOrTaskT" xml:space="preserve">
+    <value>NUnit 仅支持返回 Task 或 Task&lt;T&gt; 的异步测试方法。</value>
+  </data>
+  <data name="TestCaseResultPropertyIsObsoleteSinceNUnitUseExpectedResultInsteadOfItMessage" xml:space="preserve">
+    <value>自 NUnit 2.6 起，测试用例的 Result 属性已过时。请改用 ExpectedResult。</value>
+  </data>
+  <data name="MissedTestOrTestFixtureAttributeTestMethodWillNotBeRunMessage" xml:space="preserve">
+    <value>缺少 [Test] 或 [TestFixture] 特性，测试方法将不会运行</value>
+  </data>
+  <data name="TestCaseSourceMemberOfTypeIEnumerableMessage" xml:space="preserve">
+    <value>类型 '{1}' 的测试用例源 '{0}' 必须返回 IEnumerable 或实现 IEnumerable 的类型</value>
+  </data>
+  <data name="NUnitTheMaximumValueOfRangeIsNotReachableCheckRangeAndStepValues" xml:space="preserve">
+    <value>NUnit。无法达到 [Range] 的最大值，请检查范围和步进值。</value>
+  </data>
+  <data name="CannotResolveSymbolSpecifiedInTestCaseSourceOrValueSourceAttributes" xml:space="preserve">
+    <value>不能解析在 [TestCaseSource] 或 [ValueSource] 特性中指定的符号</value>
+  </data>
+  <data name="XunitTestsShouldUseITestOutputHelperInsteadOfSystemConsole" xml:space="preserve">
+    <value>Xunit 测试应使用 ITestOutputHelper 而不是 System.Console</value>
+  </data>
+  <data name="NUnitAutoFixtureAccordingToTheTestMethodSignatureTheArgumentInTheInlineAutoDataAttributeIsRedundant" xml:space="preserve">
+    <value>NUnit.AutoFixture。根据测试方法签名，[InlineAutoData] 特性中的实参冗余。</value>
+  </data>
+  <data name="NUnitParameterAttributeIsIgnoredByNUnitFramework" xml:space="preserve">
+    <value>NUnit。NUnit 框架忽略了形参特性。</value>
+  </data>
+  <data name="stepParameterValueIsIncorrectItMustBeNonZeroMessage" xml:space="preserve">
+    <value>'step' 形参值不正确，它必须为非零值</value>
+  </data>
+  <data name="RedundantArgumentInAutoFixtureInlineAutoDataAttributeMessage" xml:space="preserve">
+    <value>AutoFixture InlineAutoData 特性中的实参冗余</value>
+  </data>
+  <data name="RemoveResultPropertyAssignment_Text" xml:space="preserve">
+    <value>移除结果属性分配</value>
+  </data>
+  <data name="RenameResultToExpectedResult_Text" xml:space="preserve">
+    <value>将 Result 重命名为 ExpectedResult</value>
+  </data>
+  <data name="NUnitMismatchOfTheRangeStepSign" xml:space="preserve">
+    <value>NUnit。范围步进符号不匹配。</value>
+  </data>
+  <data name="NUnitAttributeShouldProvideExpectedResultForTestMethodWithReturnValueMessage" xml:space="preserve">
+    <value>NUnit {0} 特性应为具有返回值的测试方法提供预期结果</value>
+  </data>
+  <data name="NUnitValuesForTestMethodParametersAreNotProvided" xml:space="preserve">
+    <value>NUnit。未提供测试方法形参的值。</value>
+  </data>
+  <data name="NUnitSpecifiedAttributeValuesProduceTooManyTests" xml:space="preserve">
+    <value>NUnit。指定的特性值会产生太多测试。</value>
+  </data>
+  <data name="NUnitIncompatibleArgumentTypeOrIncorrectArgumentValue" xml:space="preserve">
+    <value>NUnit。不兼容的实参类型或不正确的实参值。</value>
+  </data>
+  <data name="TheSignOfThestepParameterMustBeToMatchTheRangeValuesMessage" xml:space="preserve">
+    <value>'step' 形参的符号必须为 {0} 才能与范围值匹配</value>
+  </data>
+  <data name="NUnitNoEnoughValuesAreProvidedInTheValuesAttributeSoNUnitImplicitlyAddsnullValuesToFillTestData" xml:space="preserve">
+    <value>NUnit。未在 Values 特性中提供足够的值，因此 NUnit 会隐式添加 'null' 值来填充测试数据。</value>
+  </data>
+  <data name="ProvideValues_Text" xml:space="preserve">
+    <value>提供值</value>
+  </data>
+  <data name="NUnitAutoFixtureAddTestFixtureAttribute_Text" xml:space="preserve">
+    <value>NUnit.AutoFixture。添加 'TestFixture' 特性</value>
+  </data>
+  <data name="ObsoleteTestCaseResultPropertyDuplicatesSpecifiedExpectedResultMessage" xml:space="preserve">
+    <value>过时的测试用例 'Result' 属性与指定的 'ExpectedResult' 重复</value>
+  </data>
+  <data name="NUnitCannotResolveSymbolInTestCaseSourceOrValueSourceAttribute" xml:space="preserve">
+    <value>NUnit。不能解析 TestCaseSource 或 ValueSource 特性中的符号。</value>
+  </data>
+  <data name="NUnitDuplicateValues" xml:space="preserve">
+    <value>NUnit。重复的值。</value>
+  </data>
+  <data name="TheValueIsOutOfRangeForTheTestParameterTypeMessage" xml:space="preserve">
+    <value>值超出测试形参类型 '{0}' 的范围</value>
+  </data>
+  <data name="NUnitMissingCancelAfterAttribute" xml:space="preserve">
+    <value>NUnit。测试方法声明中缺少 'CancelAfter' 特性。</value>
+  </data>
+  <data name="NUnitRedundantArgumentInTestCaseAttribute" xml:space="preserve">
+    <value>NUnit。TestCase 特性中的实参冗余。</value>
+  </data>
+  <data name="RedundantArgumentInNUnitTestCaseAttributeMessage" xml:space="preserve">
+    <value>NUnit TestCase 特性中的实参冗余</value>
+  </data>
+  <data name="IncorrectRangeBoundstoMustBeGreaterThanOrEqualTofromOrThereMustBeANegativeStepMessage" xml:space="preserve">
+    <value>不正确的范围界限。'to' 必须大于或等于 'from'，或者必须存在一个负向步进。</value>
+  </data>
+  <data name="TestCaseSourceTypeIEnumerableMessage" xml:space="preserve">
+    <value>测试用例源类型 '{0}' 必须是实现 IEnumerable 的非抽象类</value>
+  </data>
+  <data name="NUnitTestCaseSourceSpecifiedInTestCaseSourceOrValueSourceAttributesMustOnlyReferToFieldPropertyOrMethod" xml:space="preserve">
+    <value>[TestCaseSource] 或 [ValueSource] 特性中指定的 NUnit 测试用例源必须仅引用字段、属性或方法</value>
+  </data>
+  <data name="NUnitAutoFixtureRedundantArgumentInInlineAutoDataAttribute" xml:space="preserve">
+    <value>NUnit.AutoFixture。InlineAutoData 特性中的实参冗余。</value>
+  </data>
+  <data name="NUnitTestCaseResultPropertyIsObsolete" xml:space="preserve">
+    <value>NUnit。测试用例的 Result 属性已过时。</value>
+  </data>
+  <data name="NUnitRedundantExpectedResultForVoidTestMethod" xml:space="preserve">
+    <value>NUnit。预期结果对 void 测试方法冗余。</value>
+  </data>
+  <data name="MissingCancelAfterAttributeMessage" xml:space="preserve">
+    <value>测试方法声明中缺少 'CancelAfter' 特性</value>
+  </data>
+  <data name="NUnitTheSignOfThestepParameterOfRangeDoesNotMatchTheRangeValues" xml:space="preserve">
+    <value>NUnit。[Range] 的 'step' 形参的符号与范围值不匹配。</value>
+  </data>
+  <data name="NUnitTestCaseSourceFieldPropertyMethodSpecifiedInTestCaseSourceOrValuesSourceAttributesMustBeStatic" xml:space="preserve">
+    <value>[TestCaseSource] 或 [ValuesSource] 特性中指定的 NUnit 测试用例源字段/属性/方法必须为 static。</value>
+  </data>
+  <data name="NUnitNoValuesAreProvidedInTheAttributeOrTheCurrentNUnitVersionDoesNotSupportAutomaticGenerationOfValuesForTheParameterType" xml:space="preserve">
+    <value>NUnit。未在特性中提供任何值，或者当前的 NUnit 版本不支持为该形参类型自动生成值。</value>
+  </data>
+  <data name="NUnitRedundantArgumentInsteadOfExpectedResult" xml:space="preserve">
+    <value>NUnit。冗余的实参，而不是 ExpectedResult。</value>
+  </data>
+  <data name="NUnitstepParameterValueOfRangeIsIncorrectItMustBeNonZero" xml:space="preserve">
+    <value>NUnit。[Range] 的 'step' 形参值不正确，它必须为非零值。</value>
+  </data>
+  <data name="NUnitAsyncTestMethodMustReturnTaskOrTaskT" xml:space="preserve">
+    <value>NUnit。异步测试方法必须返回 Task 或 Task&lt;T&gt;</value>
+  </data>
+  <data name="NUnitAutoFixtureAddTestAttribute_Text" xml:space="preserve">
+    <value>NUnit.AutoFixture。添加 'Test' 特性</value>
+  </data>
+  <data name="MissingRequiredInNUnitTestCaseAttributeMessage" xml:space="preserve">
+    <value>NUnit TestCase 特性中缺少必要的{0}({1})</value>
+  </data>
+  <data name="XunitTestsShouldUseITestOutputHelperInsteadOfSystemConsoleMessage" xml:space="preserve">
+    <value>Xunit 测试应使用 ITestOutputHelper 而不是 System.Console</value>
+  </data>
+  <data name="NUnitAutoFixtureMissedTestOrTestFixtureAttribute" xml:space="preserve">
+    <value>NUnit.AutoFixture。缺少 Test 或 TestFixture 特性。</value>
+  </data>
+  <data name="NUnitTestCaseSourceMustBeNonAbstractAndImplementIEnumerable" xml:space="preserve">
+    <value>NUnit。测试用例源必须为非 abstract 并实现 IEnumerable。</value>
+  </data>
+  <data name="ConvertToExpectedResult_Text" xml:space="preserve">
+    <value>转换为预期结果</value>
+  </data>
+  <data name="NUnitTestCaseSourceShouldBeFieldPropertyOrMethodOnlyMessage" xml:space="preserve">
+    <value>NUnit 测试用例源 '{0}' 必须为字段、属性或方法</value>
+  </data>
+  <data name="NUnitAutoFixtureMissedTestOrTestFixtureAttributeTestMethodWillNotBeRun" xml:space="preserve">
+    <value>NUnit.AutoFixture。缺少 [Test] 或 [TestFixture] 特性，测试方法将不运行。</value>
+  </data>
+</root>

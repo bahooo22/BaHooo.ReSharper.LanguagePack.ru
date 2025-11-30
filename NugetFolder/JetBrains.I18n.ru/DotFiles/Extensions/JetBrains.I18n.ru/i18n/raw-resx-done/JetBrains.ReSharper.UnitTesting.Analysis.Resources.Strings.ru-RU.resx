@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="NUnitTestCaseResultPropertyIsObsoleteSinceNUnit" xml:space="preserve">
+  <value>NUnit. Свойство Result тестового случая устарело, начиная с NUnit 2.6.</value>
+</data>
+<data name="NUnitMissingCancelAfterAttributeDescription" xml:space="preserve">
+  <value>В сигнатуре тестового метода, вероятно, отсутствует атрибут [CancelAfter]</value>
+</data>
+<data name="NoValuesProvidedForTheParameterOfTypeInTheAttributeMessage" xml:space="preserve">
+  <value>Для параметра типа '{0}' в атрибуте {1} не указано ни одного значения. {2}</value>
+</data>
+<data name="NUnitTestCaseAttributeShouldNotProvideExpectedResultForTestMethodWithoutReturnValueMessage" xml:space="preserve">
+  <value>Атрибут NUnit TestCase не должен предоставлять ожидаемый результат для тестового метода без возвращаемого значения</value>
+</data>
+<data name="ArgumentValueInTheTestCaseAttributeIsIncorrectOrIsNotCompatibleWithTheTestMethodParameterType" xml:space="preserve">
+  <value>Значение аргумента в атрибуте [TestCase] неверно или несовместимо с типом параметра тестового метода</value>
+</data>
+<data name="DoesLastArgumentOfNUnitTestCaseAttributeMeanExpectedResultMessage" xml:space="preserve">
+  <value>Означает ли последний аргумент атрибута NUnit TestCase ожидаемый результат?</value>
+</data>
+<data name="AccordingToTheTestMethodSignatureThereAreMissingArgumentsInTheTestCaseAttribute" xml:space="preserve">
+  <value>Согласно сигнатуре тестового метода, в атрибуте [TestCase] отсутствуют аргументы</value>
+</data>
+<data name="TheAttributeIsIgnoredBecauseAnotherParameterAttributeHasAlreadyBeenSpecifiedMessage" xml:space="preserve">
+  <value>Атрибут игнорируется, так как уже указан другой атрибут параметра</value>
+</data>
+<data name="NUnitValuesSpecifiedInTheAttributeAreNotCompatibleWithTheCorrespondingTestParameterType" xml:space="preserve">
+  <value>NUnit. Значения, указанные в атрибуте, несовместимы с типом соответствующего тестового параметра.</value>
+</data>
+<data name="ExpectedResultValueInTestCaseOrTestAttributesIsIncorrectOrIsNotCompatibleWithTheTestMethodReturnType" xml:space="preserve">
+  <value>Значение ExpectedResult в атрибуте [TestCase] или [Test] неверно или несовместимо с возвращаемым типом тестового метода</value>
+</data>
+<data name="RemoveIgnoredAttribute_Text" xml:space="preserve">
+  <value>Удалить игнорируемый атрибут</value>
+</data>
+<data name="NUnitImplicitlyUnspecifiedNullValues" xml:space="preserve">
+  <value>NUnit. Неявно неопределенные значения null.</value>
+</data>
+<data name="ValueOfTypeIsIncorrectOrIsNotAssignableToTheTestMethodsExpectedResultOfTypeMessage" xml:space="preserve">
+  <value>Значение типа '{0}' неверно или не может быть присвоено ожидаемому результату тестового метода типа '{1}'</value>
+</data>
+<data name="NoValuesProvidedForAllParametersOfNUnitTestMethodMessage" xml:space="preserve">
+  <value>Не указано ни одного значения для всех параметров тестового метода NUnit</value>
+</data>
+<data name="NUnitAutoFixtureMissedTestAttributeTestMethodWillNotBeRun" xml:space="preserve">
+  <value>NUnit.AutoFixture. Отсутствует атрибут [Test], тестовый метод не будет запущен.</value>
+</data>
+<data name="NUnitValuesInRangeDoNotFitTheTypeOfTheTestParameter" xml:space="preserve">
+  <value>NUnit. Значения в диапазоне не подходят для типа тестового параметра.</value>
+</data>
+<data name="NUnitTestCaseSourceMustReferToNonAbstractClassImplementingIEnumerable" xml:space="preserve">
+  <value>NUnit. Источник тестовых случаев должен ссылаться на неабстрактный класс, реализующий IEnumerable.</value>
+</data>
+<data name="UseITestOutputHelperInstead_Text" xml:space="preserve">
+  <value>Используйте вместо этого ITestOutputHelper</value>
+</data>
+<data name="NUnitTheMaximumRangeValueIsNotReachableWithTheStepValue" xml:space="preserve">
+  <value>NUnit. Максимальное значение диапазона недостижимо с заданным шагом.</value>
+</data>
+<data name="NUnitNoValuesProvidedInTheAttributes" xml:space="preserve">
+  <value>NUnit. В атрибутах не указано ни одного значения.</value>
+</data>
+<data name="WithTheCurrentStepTheTestWillReachButNotCheckRangeAndStepValuesMessage" xml:space="preserve">
+  <value>При текущем шаге тест достигнет {0}, но не достигнет {1}. Проверьте значения диапазона и шага.</value>
+</data>
+<data name="TheValueIsDuplicatedItProducesUnnecessaryDuplicateTestsMessage" xml:space="preserve">
+  <value>Значение дублируется. Это создает ненужные повторяющиеся тесты.</value>
+</data>
+<data name="AddsTestCaseAttributeToNUnitTestMethod_Text" xml:space="preserve">
+  <value>Добавить атрибут TestCase к тестовому методу NUnit</value>
+</data>
+<data name="NUnitTestCaseResultPropertyDuplicatesSpecifiedExpectedResult" xml:space="preserve">
+  <value>NUnit. Свойство Result тестового случая дублирует указанный ExpectedResult.</value>
+</data>
+<data name="TheAttributeProducesTestsWhichExceedsTheSpecifiedThresholdWithThisManyTestsNUnitTestRunnerMayFailWithOutOfMemoryMessage" xml:space="preserve">
+  <value>Атрибут '{0}' создает {1} тестов, что превышает указанный порог ({2}). При таком количестве тестов запускатель тестов NUnit может завершиться с ошибкой «Недостаточно памяти».</value>
+</data>
+<data name="NUnitNonPublicTestMethod" xml:space="preserve">
+  <value>NUnit. Непубличный тестовый метод.</value>
+</data>
+<data name="NUnitIncorrectRangeBoundsTheValueOftoParameterMustBeGreaterThanOrEqualTofromOrThereMustBeANegativeStep" xml:space="preserve">
+  <value>NUnit. Некорректные границы [Range]. Значение параметра 'to' должно быть больше или равно 'from', либо должен присутствовать отрицательный шаг.</value>
+</data>
+<data name="NUnitTestCaseSourceMustBeStatic" xml:space="preserve">
+  <value>NUnit. Источник тестовых случаев должен быть статическим.</value>
+</data>
+<data name="NUnitIgnoredParameterAttribute" xml:space="preserve">
+  <value>NUnit. Игнорируемый атрибут параметра.</value>
+</data>
+<data name="ExpectedResultOfACompatibleTypeMustBeProvidedForNonVoidNUnitTestMethodsThroughTheTestCaseAttribute" xml:space="preserve">
+  <value>Для не void тестовых методов NUnit через атрибут [TestCase] должен быть предоставлен ожидаемый результат совместимого типа</value>
+</data>
+<data name="ArgumentValueOfTypeIsIncorrectOrIsNotAssignableToParameterOfTypeMessage" xml:space="preserve">
+  <value>Значение аргумента типа '{0}' неверно или не может быть присвоено параметру '{1}' типа '{2}'</value>
+</data>
+<data name="ParametersOfNUnitTestMethodMustBeProvidedWithValuesThroughEitherValuesOrTestCaseAttribute" xml:space="preserve">
+  <value>Параметрам тестового метода NUnit должны быть предоставлены значения через атрибут [Values] или [TestCase]</value>
+</data>
+<data name="NUnitSpecifiedValuesAreNotCompatibleWithTheTestParameterType" xml:space="preserve">
+  <value>NUnit. Указанные значения несовместимы с типом тестового параметра.</value>
+</data>
+<data name="TheTypeProvidedInIsNotCompatibleWithTheTestParameterTypeMessage" xml:space="preserve">
+  <value>Тип '{0}', предоставленный в [{1}], несовместим с типом тестового параметра '{2}'</value>
+</data>
+<data name="NUnitDuplicateValuesProduceUnnecessaryDuplicateTests" xml:space="preserve">
+  <value>NUnit. Дублирующиеся значения создают ненужные повторяющиеся тесты.</value>
+</data>
+<data name="RedundantArgumentIsFoundInsteadOfExpectedResult" xml:space="preserve">
+  <value>Обнаружен избыточный аргумент вместо 'ExpectedResult'</value>
+</data>
+<data name="NUnitValuesSpecifiedInRangeAreOutRangeForTheTypeOfTheTestParameter" xml:space="preserve">
+  <value>NUnit. Значения, указанные в [Range], выходят за пределы диапазона для типа тестового параметра.</value>
+</data>
+<data name="NUnitTestCaseSourceFieldPropertyMethodShouldBeStaticMessage" xml:space="preserve">
+  <value>Поле/свойство/метод источника тестовых случаев NUnit '{0}' должны быть статическими</value>
+</data>
+<data name="NUnitAddCancelAfterAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут 'CancelAfter'</value>
+</data>
+<data name="NUnitSupportsOnlyAsyncTestMethodsThatReturnTaskOrTaskTMessage" xml:space="preserve">
+  <value>NUnit поддерживает только асинхронные тестовые методы, которые возвращают Task или Task&lt;T&gt;.</value>
+</data>
+<data name="NUnitTestCaseSourceMustBeFieldPropertyOrMethod" xml:space="preserve">
+  <value>NUnit. Источник тестовых случаев должен быть полем, свойством или методом.</value>
+</data>
+<data name="NUnitTestMethodsMustHavePublicVisibility" xml:space="preserve">
+  <value>Тестовые методы NUnit должны иметь публичную видимость</value>
+</data>
+<data name="SpecifyingExpectedResultForVoidNUnitTestMethodsThroughTheTestCaseAttributeIsRedundant" xml:space="preserve">
+  <value>Указание ожидаемого результата для void тестовых методов NUnit через атрибут [TestCase] является избыточным</value>
+</data>
+<data name="NUnitAutoFixtureArgumentValueInTheInlineAutoDataAttributeIsIncorrectOrIsNotCompatibleWithTheTestMethodParameterType" xml:space="preserve">
+  <value>NUnit.AutoFixture. Значение аргумента в атрибуте [InlineAutoData] неверно или несовместимо с типом параметра тестового метода.</value>
+</data>
+<data name="NUnitAutoFixtureIncompatibleArgumentTypeOrIncorrectArgumentValue" xml:space="preserve">
+  <value>NUnit.AutoFixture. Несовместимый тип аргумента или некорректное значение аргумента.</value>
+</data>
+<data name="NUnitRangestepParameterValueMustBeNonZero" xml:space="preserve">
+  <value>NUnit. Значение параметра 'step' в [Range] должно быть ненулевым.</value>
+</data>
+<data name="NUnitTestCaseResultPropertyDuplicatesExpectedResult" xml:space="preserve">
+  <value>NUnit. Свойство Result тестового случая дублирует ExpectedResult.</value>
+</data>
+<data name="SequentialAttributeProducesTestsButValuesAreProvidedByTheAttributeNUnitAddsImplicitlynullValuesMessage" xml:space="preserve">
+  <value>Атрибут 'Sequential' создает {0} тестов, но атрибут предоставляет {1} значений. Остальные тесты будут неявно инициализированы значениями 'null' или значениями по умолчанию.</value>
+</data>
+<data name="NUnitIncorrectRangeBoundstoMustBeGreaterThanOrEqualTofrom" xml:space="preserve">
+  <value>NUnit. Некорректные границы диапазона. 'to' должно быть больше или равно 'from'.</value>
+</data>
+<data name="NUnitMissingExpectedResultForNonVoidTestMethod" xml:space="preserve">
+  <value>NUnit. Отсутствует ожидаемый результат для не void тестового метода.</value>
+</data>
+<data name="AddExpectedResult_Text" xml:space="preserve">
+  <value>Добавить ожидаемый результат</value>
+</data>
+<data name="ConsoleOutputInXunitTests" xml:space="preserve">
+  <value>Вывод в консоль в тестах Xunit</value>
+</data>
+<data name="NUnitIncompatibleExpectedResultTypeOrIncorrectValue" xml:space="preserve">
+  <value>NUnit. Несовместимый тип ожидаемого результата или некорректное значение.</value>
+</data>
+<data name="NUnitAutoFixtureMissedTestAttribute" xml:space="preserve">
+  <value>NUnit.AutoFixture. Отсутствует атрибут Test.</value>
+</data>
+<data name="NUnitValuesOfTheAttributeProduceTooManyTestsWhichMayLeadNUnitTestRunnerToOutOfMemory" xml:space="preserve">
+  <value>NUnit. Значения этого атрибута создают слишком много тестов, что может привести к ошибке «Недостаточно памяти» в запускателе тестов NUnit.</value>
+</data>
+<data name="CannotResolveSymbolMessage" xml:space="preserve">
+  <value>Не удается разрешить символ '{0}'</value>
+</data>
+<data name="AddTestCaseAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут TestCase</value>
+</data>
+<data name="AccordingToTheTestMethodSignatureTheArgumentInTheTestCaseAttributeIsRedundant" xml:space="preserve">
+  <value>Согласно сигнатуре тестового метода, аргумент в атрибуте [TestCase] является избыточным</value>
+</data>
+<data name="UseNUnit36ToGenerateNullableValues" xml:space="preserve">
+  <value>Для автоматической генерации всех возможных значений 'enum?' или 'bool?' используйте NUnit 3.6 или выше.</value>
+</data>
+<data name="NUnitMissingArgumentsInTestCaseAttribute" xml:space="preserve">
+  <value>NUnit. В атрибуте TestCase отсутствуют аргументы.</value>
+</data>
+<data name="UseNUnit30ToGenerateValues" xml:space="preserve">
+  <value>Для автоматической генерации всех возможных значений 'enum' или 'bool' используйте NUnit 3.0 или выше.</value>
+</data>
+<data name="NUnitTestMethodsShouldHavePublicVisibilityMessage" xml:space="preserve">
+  <value>Тестовые методы NUnit должны иметь публичную видимость</value>
+</data>
+<data name="NUnitSupportsOnlyAsyncTestMethodsThatReturnTaskOrTaskT" xml:space="preserve">
+  <value>NUnit поддерживает только асинхронные тестовые методы, которые возвращают Task или Task&lt;T&gt;.</value>
+</data>
+<data name="TestCaseResultPropertyIsObsoleteSinceNUnitUseExpectedResultInsteadOfItMessage" xml:space="preserve">
+  <value>Свойство Result тестового случая устарело, начиная с NUnit 2.6. Вместо этого используйте ExpectedResult.</value>
+</data>
+<data name="MissedTestOrTestFixtureAttributeTestMethodWillNotBeRunMessage" xml:space="preserve">
+  <value>Отсутствует атрибут [Test] или [TestFixture], тестовый метод не будет запущен</value>
+</data>
+<data name="TestCaseSourceMemberOfTypeIEnumerableMessage" xml:space="preserve">
+  <value>Источник тестовых случаев '{0}' типа '{1}' должен возвращать IEnumerable или тип, реализующий IEnumerable</value>
+</data>
+<data name="NUnitTheMaximumValueOfRangeIsNotReachableCheckRangeAndStepValues" xml:space="preserve">
+  <value>NUnit. Максимальное значение [Range] недостижимо, проверьте значения диапазона и шага.</value>
+</data>
+<data name="CannotResolveSymbolSpecifiedInTestCaseSourceOrValueSourceAttributes" xml:space="preserve">
+  <value>Не удается разрешить символ, указанный в атрибутах [TestCaseSource] или [ValueSource]</value>
+</data>
+<data name="XunitTestsShouldUseITestOutputHelperInsteadOfSystemConsole" xml:space="preserve">
+  <value>Тесты Xunit должны использовать ITestOutputHelper вместо System.Console</value>
+</data>
+<data name="NUnitAutoFixtureAccordingToTheTestMethodSignatureTheArgumentInTheInlineAutoDataAttributeIsRedundant" xml:space="preserve">
+  <value>NUnit.AutoFixture. Согласно сигнатуре тестового метода, аргумент в атрибуте [InlineAutoData] является избыточным.</value>
+</data>
+<data name="NUnitParameterAttributeIsIgnoredByNUnitFramework" xml:space="preserve">
+  <value>NUnit. Атрибут параметра игнорируется фреймворком NUnit.</value>
+</data>
+<data name="stepParameterValueIsIncorrectItMustBeNonZeroMessage" xml:space="preserve">
+  <value>Значение параметра 'step' неверно, оно должно быть ненулевым</value>
+</data>
+<data name="RedundantArgumentInAutoFixtureInlineAutoDataAttributeMessage" xml:space="preserve">
+  <value>Избыточный аргумент в атрибуте AutoFixture InlineAutoData</value>
+</data>
+<data name="RemoveResultPropertyAssignment_Text" xml:space="preserve">
+  <value>Удалить присваивание свойства Result</value>
+</data>
+<data name="RenameResultToExpectedResult_Text" xml:space="preserve">
+  <value>Переименовать Result в ExpectedResult</value>
+</data>
+<data name="NUnitMismatchOfTheRangeStepSign" xml:space="preserve">
+  <value>NUnit. Несоответствие знака шага диапазона.</value>
+</data>
+<data name="NUnitAttributeShouldProvideExpectedResultForTestMethodWithReturnValueMessage" xml:space="preserve">
+  <value>Атрибут NUnit {0} должен предоставлять ожидаемый результат для тестового метода с возвращаемым значением</value>
+</data>
+<data name="NUnitValuesForTestMethodParametersAreNotProvided" xml:space="preserve">
+  <value>NUnit. Значения для параметров тестового метода не предоставлены.</value>
+</data>
+<data name="NUnitSpecifiedAttributeValuesProduceTooManyTests" xml:space="preserve">
+  <value>NUnit. Указанные значения атрибутов создают слишком много тестов.</value>
+</data>
+<data name="NUnitIncompatibleArgumentTypeOrIncorrectArgumentValue" xml:space="preserve">
+  <value>NUnit. Несовместимый тип аргумента или некорректное значение аргумента.</value>
+</data>
+<data name="TheSignOfThestepParameterMustBeToMatchTheRangeValuesMessage" xml:space="preserve">
+  <value>Знак параметра 'step' должен быть {0}, чтобы соответствовать значениям диапазона</value>
+</data>
+<data name="NUnitNoEnoughValuesAreProvidedInTheValuesAttributeSoNUnitImplicitlyAddsnullValuesToFillTestData" xml:space="preserve">
+  <value>NUnit. В атрибуте Values предоставлено недостаточно значений, поэтому NUnit неявно добавляет значения 'null' для заполнения тестовых данных.</value>
+</data>
+<data name="ProvideValues_Text" xml:space="preserve">
+  <value>Предоставить значения</value>
+</data>
+<data name="NUnitAutoFixtureAddTestFixtureAttribute_Text" xml:space="preserve">
+  <value>NUnit.AutoFixture. Добавить атрибут 'TestFixture'</value>
+</data>
+<data name="ObsoleteTestCaseResultPropertyDuplicatesSpecifiedExpectedResultMessage" xml:space="preserve">
+  <value>Устаревшее свойство 'Result' тестового случая дублирует указанный 'ExpectedResult'</value>
+</data>
+<data name="NUnitCannotResolveSymbolInTestCaseSourceOrValueSourceAttribute" xml:space="preserve">
+  <value>NUnit. Не удается разрешить символ в атрибуте TestCaseSource или ValueSource.</value>
+</data>
+<data name="NUnitDuplicateValues" xml:space="preserve">
+  <value>NUnit. Дублирующиеся значения.</value>
+</data>
+<data name="TheValueIsOutOfRangeForTheTestParameterTypeMessage" xml:space="preserve">
+  <value>Значение выходит за пределы диапазона для типа тестового параметра '{0}'</value>
+</data>
+<data name="NUnitMissingCancelAfterAttribute" xml:space="preserve">
+  <value>NUnit. В объявлении тестового метода отсутствует атрибут 'CancelAfter'.</value>
+</data>
+<data name="NUnitRedundantArgumentInTestCaseAttribute" xml:space="preserve">
+  <value>NUnit. Избыточный аргумент в атрибуте TestCase.</value>
+</data>
+<data name="RedundantArgumentInNUnitTestCaseAttributeMessage" xml:space="preserve">
+  <value>Избыточный аргумент в атрибуте NUnit TestCase</value>
+</data>
+<data name="IncorrectRangeBoundstoMustBeGreaterThanOrEqualTofromOrThereMustBeANegativeStepMessage" xml:space="preserve">
+  <value>Некорректные границы диапазона. 'to' должно быть больше или равно 'from', либо должен присутствовать отрицательный шаг.</value>
+</data>
+<data name="TestCaseSourceTypeIEnumerableMessage" xml:space="preserve">
+  <value>Тип источника тестовых случаев '{0}' должен быть неабстрактным классом, реализующим IEnumerable</value>
+</data>
+<data name="NUnitTestCaseSourceSpecifiedInTestCaseSourceOrValueSourceAttributesMustOnlyReferToFieldPropertyOrMethod" xml:space="preserve">
+  <value>Источник тестовых случаев NUnit, указанный в атрибутах [TestCaseSource] или [ValueSource], должен ссылаться только на поле, свойство или метод</value>
+</data>
+<data name="NUnitAutoFixtureRedundantArgumentInInlineAutoDataAttribute" xml:space="preserve">
+  <value>NUnit.AutoFixture. Избыточный аргумент в атрибуте InlineAutoData.</value>
+</data>
+<data name="NUnitTestCaseResultPropertyIsObsolete" xml:space="preserve">
+  <value>NUnit. Свойство Result тестового случая устарело.</value>
+</data>
+<data name="NUnitRedundantExpectedResultForVoidTestMethod" xml:space="preserve">
+  <value>NUnit. Ожидаемый результат избыточен для void тестового метода.</value>
+</data>
+<data name="MissingCancelAfterAttributeMessage" xml:space="preserve">
+  <value>В объявлении тестового метода отсутствует атрибут 'CancelAfter'</value>
+</data>
+<data name="NUnitTheSignOfThestepParameterOfRangeDoesNotMatchTheRangeValues" xml:space="preserve">
+  <value>NUnit. Знак параметра 'step' в [Range] не соответствует значениям диапазона.</value>
+</data>
+<data name="NUnitTestCaseSourceFieldPropertyMethodSpecifiedInTestCaseSourceOrValuesSourceAttributesMustBeStatic" xml:space="preserve">
+  <value>Поле/свойство/метод источника тестовых случаев NUnit, указанные в атрибутах [TestCaseSource] или [ValuesSource], должны быть статическими.</value>
+</data>
+<data name="NUnitNoValuesAreProvidedInTheAttributeOrTheCurrentNUnitVersionDoesNotSupportAutomaticGenerationOfValuesForTheParameterType" xml:space="preserve">
+  <value>NUnit. В атрибуте не указано ни одного значения, либо текущая версия NUnit не поддерживает автоматическую генерацию значений для данного типа параметра.</value>
+</data>
+<data name="NUnitRedundantArgumentInsteadOfExpectedResult" xml:space="preserve">
+  <value>NUnit. Избыточный аргумент вместо ExpectedResult.</value>
+</data>
+<data name="NUnitstepParameterValueOfRangeIsIncorrectItMustBeNonZero" xml:space="preserve">
+  <value>NUnit. Значение параметра 'step' в [Range] неверно, оно должно быть ненулевым.</value>
+</data>
+<data name="NUnitAsyncTestMethodMustReturnTaskOrTaskT" xml:space="preserve">
+  <value>NUnit. Асинхронный тестовый метод должен возвращать Task или Task&lt;T&gt;.</value>
+</data>
+<data name="NUnitAutoFixtureAddTestAttribute_Text" xml:space="preserve">
+  <value>NUnit.AutoFixture. Добавить атрибут 'Test'</value>
+</data>
+<data name="MissingRequiredInNUnitTestCaseAttributeMessage" xml:space="preserve">
+  <value>В атрибуте NUnit TestCase отсутствует обязательный {0} ({1})</value>
+</data>
+<data name="XunitTestsShouldUseITestOutputHelperInsteadOfSystemConsoleMessage" xml:space="preserve">
+  <value>Тесты Xunit должны использовать ITestOutputHelper вместо System.Console</value>
+</data>
+<data name="NUnitAutoFixtureMissedTestOrTestFixtureAttribute" xml:space="preserve">
+  <value>NUnit.AutoFixture. Отсутствует атрибут Test или TestFixture.</value>
+</data>
+<data name="NUnitTestCaseSourceMustBeNonAbstractAndImplementIEnumerable" xml:space="preserve">
+  <value>NUnit. Источник тестовых случаев должен быть неабстрактным и реализовывать IEnumerable.</value>
+</data>
+<data name="ConvertToExpectedResult_Text" xml:space="preserve">
+  <value>Преобразовать в ожидаемый результат</value>
+</data>
+<data name="NUnitTestCaseSourceShouldBeFieldPropertyOrMethodOnlyMessage" xml:space="preserve">
+  <value>Источник тестовых случаев NUnit '{0}' должен быть полем, свойством или методом</value>
+</data>
+<data name="NUnitAutoFixtureMissedTestOrTestFixtureAttributeTestMethodWillNotBeRun" xml:space="preserve">
+  <value>NUnit.AutoFixture. Отсутствует атрибут [Test] или [TestFixture], тестовый метод не будет запущен.</value>
+</data>
+</root>

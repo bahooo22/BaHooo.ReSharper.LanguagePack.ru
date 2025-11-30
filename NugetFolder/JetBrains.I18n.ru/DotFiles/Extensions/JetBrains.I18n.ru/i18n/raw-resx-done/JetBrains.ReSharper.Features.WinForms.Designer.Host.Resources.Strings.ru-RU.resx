@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="FailedToParseAtLine___Text" xml:space="preserve">
+  <value>Не удалось разобрать в строке: {0}
+{1}</value>
+</data>
+<data name="ChooseComponentForDetails_Text" xml:space="preserve">
+  <value>Выберите компонент для получения подробной информации</value>
+</data>
+<data name="AddFromFile_Text" xml:space="preserve">
+  <value>Добавить из файла…</value>
+</data>
+<data name="DesignerToolboxManagerNetCoreStateSettingDescription" xml:space="preserve">
+  <value>Состояние видимости Designer Toolbox Manager .NET Core</value>
+</data>
+<data name="ToolboxManager_Caption" xml:space="preserve">
+  <value>Менеджер панели элементов</value>
+</data>
+<data name="FailedToBuildDesignerSurface_Text" xml:space="preserve">
+  <value>Не удалось построить поверхность конструктора</value>
+</data>
+<data name="NETDefault_Text" xml:space="preserve">
+  <value>Значение по умолчанию .NET</value>
+</data>
+<data name="DesignerIsOutdatedReloadRequired_Text" xml:space="preserve">
+  <value>Конструктор устарел. Требуется перезагрузка.</value>
+</data>
+<data name="WindowFormsDesignerException_Caption" xml:space="preserve">
+  <value>Исключение конструктора Windows Forms</value>
+</data>
+<data name="NETCoreSDK_Text" xml:space="preserve">
+  <value>.NET Core SDK</value>
+</data>
+<data name="CollapseAll_Button_ToolTip" xml:space="preserve">
+  <value>Свернуть все</value>
+</data>
+<data name="Namespace_Text" xml:space="preserve">
+  <value>Пространство имён</value>
+</data>
+<data name="Rollback_Text" xml:space="preserve">
+  <value>Откатить</value>
+</data>
+<data name="ChooseItemsToShowInTheToolbox_Text" xml:space="preserve">
+  <value>Выберите элементы для отображения на панели элементов</value>
+</data>
+<data name="Assembly_Text" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ResetTheItemsListToTheDefaultView_Text" xml:space="preserve">
+  <value>Сбросить список элементов к виду по умолчанию?</value>
+</data>
+<data name="NuGetCore_Text" xml:space="preserve">
+  <value>NuGet</value>
+</data>
+<data name="SelectFiles_Caption" xml:space="preserve">
+  <value>Выберите файлы</value>
+</data>
+<data name="MultipleClassSupertypesInDesignerFile_Text" xml:space="preserve">
+  <value>В файле конструктора присутствует несколько супертипов класса</value>
+</data>
+<data name="ItemsRemovingConfirmation_Caption" xml:space="preserve">
+  <value>Подтверждение удаления элементов</value>
+</data>
+<data name="UnknownReference__Text" xml:space="preserve">
+  <value>Неизвестная ссылка {0}</value>
+</data>
+<data name="DesignerToolboxSettingDescription" xml:space="preserve">
+  <value>Состояние окна инструментов Designer Toolbox Manager</value>
+</data>
+<data name="Apply_Text" xml:space="preserve">
+  <value>Применить</value>
+</data>
+<data name="ExpandAll_Button_ToolTip" xml:space="preserve">
+  <value>Развернуть все</value>
+</data>
+<data name="_Line__Text" xml:space="preserve">
+  <value>{0}. Строка: {1}</value>
+</data>
+<data name="UnknownAssignmentExpression__Text" xml:space="preserve">
+  <value>Неизвестное выражение присваивания: {0}</value>
+</data>
+<data name="DesignerToolboxManagerNuGetStateSettingDescription" xml:space="preserve">
+  <value>Состояние диспетчера панели элементов конструктора NuGet</value>
+</data>
+<data name="UnsuitableDeclaration_Text" xml:space="preserve">
+  <value>Неподходящее объявление</value>
+</data>
+<data name="ProjectReferencesAreMissing_Text" xml:space="preserve">
+  <value>Отсутствуют ссылки на проект</value>
+</data>
+<data name="DesignerToolboxComponentManagerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диспетчера компонентов панели элементов конструктора</value>
+</data>
+<data name="ErrorInDesignerFileParsing_Text" xml:space="preserve">
+  <value>Ошибка при разборе файла конструктора</value>
+</data>
+<data name="RemoveComponentActionText" xml:space="preserve">
+  <value>Удалить компонент</value>
+</data>
+<data name="DesignerToolboxSettingsShouldShowDesctiption" xml:space="preserve">
+  <value>Состояние окна инструментов панели элементов конструктора при открытии конструктора</value>
+</data>
+<data name="UnknownExpression__Text" xml:space="preserve">
+  <value>Неизвестное выражение: {0}</value>
+</data>
+<data name="Path_Text" xml:space="preserve">
+  <value>Путь</value>
+</data>
+<data name="Pointer_Text" xml:space="preserve">
+  <value>Указатель</value>
+</data>
+<data name="ComponentsFromReferencedProjects_Text" xml:space="preserve">
+  <value>Компоненты из ссылочных проектов</value>
+</data>
+<data name="NuGet_Text" xml:space="preserve">
+  <value>NuGet</value>
+</data>
+<data name="DesignerToolboxManagerFrameworkVisibleStateSettingDescription" xml:space="preserve">
+  <value>Состояние видимости диспетчера панели элементов конструктора для Framework</value>
+</data>
+<data name="GACLocalNuGet_Text" xml:space="preserve">
+  <value>GAC, локальный, NuGet</value>
+</data>
+<data name="DesignerToolboxManagerLocalStateSettingDescription" xml:space="preserve">
+  <value>Локальное состояние диспетчера панели элементов конструктора</value>
+</data>
+<data name="ProjectComponents_Text" xml:space="preserve">
+  <value>Компоненты проекта</value>
+</data>
+<data name="UnknownType__Text" xml:space="preserve">
+  <value>Неизвестный тип: {0}</value>
+</data>
+<data name="LibrariesAndAssemblies_Text" xml:space="preserve">
+  <value>Библиотеки и сборки</value>
+</data>
+<data name="AddActionText" xml:space="preserve">
+  <value>Добавить…</value>
+</data>
+<data name="AllLibraries_Text" xml:space="preserve">
+  <value>Все библиотеки</value>
+</data>
+<data name="OpenComponentManager_Text" xml:space="preserve">
+  <value>Открыть диспетчер компонентов</value>
+</data>
+<data name="ManageComponents_Text" xml:space="preserve">
+  <value>Управление компонентами…</value>
+</data>
+<data name="Version_Text" xml:space="preserve">
+  <value>Версия</value>
+</data>
+<data name="DesignerComponentManagerNuGetSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки диспетчера компонентов конструктора NuGet</value>
+</data>
+<data name="CanTParseStatement_Text" xml:space="preserve">
+  <value>Не удается разобрать оператор</value>
+</data>
+<data name="DesignerToolboxManagerNuGetNetCoreStateSettingDescription" xml:space="preserve">
+  <value>Состояние Designer Toolbox Manager NuGet .NET Core</value>
+</data>
+<data name="GlobalAssemblyCache_Text" xml:space="preserve">
+  <value>Глобальный кэш сборок</value>
+</data>
+<data name="RemoveActionText" xml:space="preserve">
+  <value>Удалить…</value>
+</data>
+<data name="NETCoreDefault_Text" xml:space="preserve">
+  <value>Значение по умолчанию .NET Core</value>
+</data>
+<data name="DesignerToolbox_Text" xml:space="preserve">
+  <value>Панель элементов конструктора</value>
+</data>
+<data name="AddComponentActionText" xml:space="preserve">
+  <value>Добавить компонент</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Remove_FromToolbox_Text" xml:space="preserve">
+  <value>Удалить {0} с панели элементов?</value>
+</data>
+<data name="FailedToParseExpression__Text" xml:space="preserve">
+  <value>Не удалось разобрать выражение:
+{0} </value>
+</data>
+</root>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="EvaluatePossiblyMutatingExpression_Text" xml:space="preserve">
+    <value>对可能会变化的表达式求值</value>
+  </data>
+  <data name="Breakpoints_Text" xml:space="preserve">
+    <value>断点</value>
+  </data>
+  <data name="AutoEvaluatePropertyActionDescription" xml:space="preserve">
+    <value>自动对属性求值</value>
+  </data>
+  <data name="InDebugModeReSharperTriesToNavigate_Text" xml:space="preserve">
+    <value>在调试模式下，ReSharper 会尝试导航到实例的实际类型而不是静态已知类型</value>
+  </data>
+  <data name="OK_Link_Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="HexadecimalPropertyActionText" xml:space="preserve">
+    <value>十六进制属性</value>
+  </data>
+  <data name="CreateObjectIdActionDescription" xml:space="preserve">
+    <value>创建对象 ID</value>
+  </data>
+  <data name="DisableImplicitPropertyEvaluationActionText" xml:space="preserve">
+    <value>禁用隐式属性求值</value>
+  </data>
+  <data name="EnableImplicitPropertyEvaluationActionText" xml:space="preserve">
+    <value>启用隐式属性求值</value>
+  </data>
+  <data name="EditValueActionText" xml:space="preserve">
+    <value>编辑值</value>
+  </data>
+  <data name="Show__Text" xml:space="preserve">
+    <value>显示 {0}</value>
+  </data>
+  <data name="EnableLinqAdornments_BoolOption_Text" xml:space="preserve">
+    <value>显示 LINQ 表达式值</value>
+  </data>
+  <data name="SpecifiesWhetherToShowCurrentExpressionsValuesInEditorSettingDescription" xml:space="preserve">
+    <value>指定是否在编辑器中显示当前表达式值</value>
+  </data>
+  <data name="ShowCurrentLineExpressionsValues_BoolOption_Text" xml:space="preserve">
+    <value>显示当前行表达式值</value>
+  </data>
+  <data name="RunPredictiveDebugger_Text" xml:space="preserve">
+    <value>运行预测调试器(测试版)</value>
+  </data>
+  <data name="LoadSymbolsWithReSharperDecompilerActionText" xml:space="preserve">
+    <value>使用 ReSharper 反编译器加载符号(&amp;R)</value>
+  </data>
+  <data name="HexadecimalPropertyActionDescription" xml:space="preserve">
+    <value>十六进制属性</value>
+  </data>
+  <data name="AutoEvaluatePropertyActionText" xml:space="preserve">
+    <value>自动对属性求值</value>
+  </data>
+  <data name="CallStackActionText" xml:space="preserve">
+    <value>调用堆栈</value>
+  </data>
+  <data name="PredictiveDebuggerIsStarted_Text" xml:space="preserve">
+    <value>预测调试器正在启动</value>
+  </data>
+  <data name="NavigateToActualTypeInGoToDeclaration_ComboEnum_Caption" xml:space="preserve">
+    <value>在“转到声明”中导航到实际类型:</value>
+  </data>
+  <data name="PureChildrenSettingDescription" xml:space="preserve">
+    <value>纯子级</value>
+  </data>
+  <data name="InlayEditorHints_Header_Text" xml:space="preserve">
+    <value>内嵌编辑器提示</value>
+  </data>
+  <data name="NavigationOptionPageTitle" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="HighlightPropertyActionDescription" xml:space="preserve">
+    <value>高亮显示属性</value>
+  </data>
+  <data name="CopyActionText" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="CallStackActionBarActionGroupText" xml:space="preserve">
+    <value>调用堆栈操作栏</value>
+  </data>
+  <data name="DisableImplicitPropertyEvaluationActionDescription" xml:space="preserve">
+    <value>禁用隐式属性求值</value>
+  </data>
+  <data name="HighlightedChildrenSettingDescription" xml:space="preserve">
+    <value>高亮显示的子级</value>
+  </data>
+  <data name="EnableImplicitPropertyEvaluationActionDescription" xml:space="preserve">
+    <value>启用隐式属性求值</value>
+  </data>
+  <data name="DebuggerDataTips_Header_Text" xml:space="preserve">
+    <value>调试器数据提示</value>
+  </data>
+  <data name="PredictionInside_Text" xml:space="preserve">
+    <value>预测内部</value>
+  </data>
+  <data name="HideInsidePrediction_Text" xml:space="preserve">
+    <value>隐藏嵌套预测</value>
+  </data>
+  <data name="SpecifiesWhetherToShowLocalVariablesValuesInEditorSettingDescription" xml:space="preserve">
+    <value>指定是否在编辑器中显示局部变量值</value>
+  </data>
+  <data name="DataTips_Header_Text" xml:space="preserve">
+    <value>数据提示</value>
+  </data>
+  <data name="ObjectExplorerContextMenuActionGroupText" xml:space="preserve">
+    <value>对象资源管理器上下文菜单</value>
+  </data>
+  <data name="EvaluateActionDescription" xml:space="preserve">
+    <value>求值</value>
+  </data>
+  <data name="BreakpointsWindowContextMenuActionGroupText" xml:space="preserve">
+    <value>断点窗口上下文菜单</value>
+  </data>
+  <data name="HidePredictiveDebugger_Text" xml:space="preserve">
+    <value>停止预测值</value>
+  </data>
+  <data name="UseTextEditorFontForEditorAdornmentsSettingDescription" xml:space="preserve">
+    <value>为编辑器修饰使用文本编辑器字体</value>
+  </data>
+  <data name="ExternalStackFrameLibraryLoadRequest_Text" xml:space="preserve">
+    <value>外部堆栈框架库加载请求</value>
+  </data>
+  <data name="SpecifiesWhetherToShowFunctionReturnValueInEditorSettingDescription" xml:space="preserve">
+    <value>指定是否在编辑器中显示函数返回值</value>
+  </data>
+  <data name="DeleteActionText" xml:space="preserve">
+    <value>删除(&amp;D)</value>
+  </data>
+  <data name="CopyValueActionDescription" xml:space="preserve">
+    <value>复制值</value>
+  </data>
+  <data name="CallStackWindowContextMenuActionGroupText" xml:space="preserve">
+    <value>调用堆栈窗口上下文菜单</value>
+  </data>
+  <data name="EditorIntegrationOptionPageTitle" xml:space="preserve">
+    <value>编辑器集成</value>
+  </data>
+  <data name="BreakpointsActionBarActionGroupText" xml:space="preserve">
+    <value>断点操作栏</value>
+  </data>
+  <data name="CopyExpressionActionDescription" xml:space="preserve">
+    <value>复制表达式</value>
+  </data>
+  <data name="EnableActionText" xml:space="preserve">
+    <value>启用(&amp;E)</value>
+  </data>
+  <data name="ToggleActionText" xml:space="preserve">
+    <value>切换</value>
+  </data>
+  <data name="AddToVSWatchActionDescription" xml:space="preserve">
+    <value>添加到 VS 监视</value>
+  </data>
+  <data name="RecursiveReference__ToolTip" xml:space="preserve">
+    <value>递归引用</value>
+  </data>
+  <data name="DebuggerSettingsSettingDescription" xml:space="preserve">
+    <value>调试器设置</value>
+  </data>
+  <data name="BreakpointsActionText" xml:space="preserve">
+    <value>断点(&amp;B)</value>
+  </data>
+  <data name="EditValueActionDescription" xml:space="preserve">
+    <value>编辑值</value>
+  </data>
+  <data name="_MayInvolveAnImpureFunctionCallOrChange_Text" xml:space="preserve">
+    <value>'{0}' 可能涉及不纯的函数调用或在执行时以其他方式更改程序状态</value>
+  </data>
+  <data name="CopyValueActionText" xml:space="preserve">
+    <value>复制值</value>
+  </data>
+  <data name="HighlightPropertyActionText" xml:space="preserve">
+    <value>高亮显示属性</value>
+  </data>
+  <data name="Frame_Text" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="PossiblyImpureEvaluation_Text" xml:space="preserve">
+    <value>可能不纯的求值</value>
+  </data>
+  <data name="ClassWatchesSettingDescription" xml:space="preserve">
+    <value>类监视</value>
+  </data>
+  <data name="DisplayHintsIn_RadioOption_Caption" xml:space="preserve">
+    <value>提示显示位置:</value>
+  </data>
+  <data name="_VisualStudioIntelliSenseFont_Text" xml:space="preserve">
+    <value>Visual Studio IntelliSense 字体(_V)</value>
+  </data>
+  <data name="Close_Link_Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="ShowInBreakpointsWindow_Text" xml:space="preserve">
+    <value>在“断点”窗口中显示</value>
+  </data>
+  <data name="MakeObjectID_Text" xml:space="preserve">
+    <value>设为对象 ID</value>
+  </data>
+  <data name="ShowFunctionReturnValues_BoolOption_Text" xml:space="preserve">
+    <value>显示函数返回值</value>
+  </data>
+  <data name="CopyActionDescription" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="CallStack_Text" xml:space="preserve">
+    <value>调用堆栈:</value>
+  </data>
+  <data name="DeleteObjectID_Text" xml:space="preserve">
+    <value>删除对象 ID</value>
+  </data>
+  <data name="GotoDeclarationActionText" xml:space="preserve">
+    <value>转到声明</value>
+  </data>
+  <data name="EvaluateActionText" xml:space="preserve">
+    <value>求值</value>
+  </data>
+  <data name="ThereAreNoBreakpoints_Text" xml:space="preserve">
+    <value>没有断点。</value>
+  </data>
+  <data name="AddToVSWatchActionText" xml:space="preserve">
+    <value>添加到 VS 监视</value>
+  </data>
+  <data name="GoToDeclarationOpenMethodFromTheReal_Text" xml:space="preserve">
+    <value>“转到声明”会从实际类型中打开方法</value>
+  </data>
+  <data name="DebuggerOptionPageTitle" xml:space="preserve">
+    <value>调试器</value>
+  </data>
+  <data name="ShowCustomVisualizerActionText" xml:space="preserve">
+    <value>显示自定义可视化器</value>
+  </data>
+  <data name="SpecifiesWhetherToOverrideVisualStudioDataTipsWithReSharperDataTipsSettingDescription" xml:space="preserve">
+    <value>指定是否使用 ReSharper 数据提示重写 Visual Studio 数据提示</value>
+  </data>
+  <data name="OverrideVisualStudioDataTipsWithReSharper_BoolOption_Text" xml:space="preserve">
+    <value>将 Visual Studio 数据提示替代为 ReSharper 数据提示</value>
+  </data>
+  <data name="DisableActionText" xml:space="preserve">
+    <value>禁用(&amp;D)</value>
+  </data>
+  <data name="CopyExpressionActionText" xml:space="preserve">
+    <value>复制表达式</value>
+  </data>
+  <data name="ReplaceVisualStudioDataTipsWithReSharper_BoolOption_Text" xml:space="preserve">
+    <value>将 Visual Studio 数据提示替换为 ReSharper 数据提示</value>
+  </data>
+  <data name="ShowInCallStackWindow_Text" xml:space="preserve">
+    <value>在“调用堆栈”窗口中显示</value>
+  </data>
+  <data name="GotoBreakpointsActionText" xml:space="preserve">
+    <value>断点(&amp;B)…</value>
+  </data>
+  <data name="HexadecimalChildrenSettingDescription" xml:space="preserve">
+    <value>十六进制子级</value>
+  </data>
+  <data name="CreateObjectIdActionText" xml:space="preserve">
+    <value>创建对象 ID</value>
+  </data>
+  <data name="CurrentIteration__Text" xml:space="preserve">
+    <value>当前迭代 {0}</value>
+  </data>
+  <data name="GotoDeclarationActionDescription" xml:space="preserve">
+    <value>转到声明</value>
+  </data>
+  <data name="Text_EditorFont_Text" xml:space="preserve">
+    <value>文本编辑器字体(_E)</value>
+  </data>
+  <data name="ShowLocalVariablesValues_BoolOption_Text" xml:space="preserve">
+    <value>显示局部变量值</value>
+  </data>
+  <data name="DebuggerTypeVisualizingSettingsSettingDescription" xml:space="preserve">
+    <value>调试器类型可视化设置</value>
+  </data>
+  <data name="ActualTypeKnownFromTheDebuggerWasUsed_Text" xml:space="preserve">
+    <value>使用调试器中已知的实际类型进行导航</value>
+  </data>
+</root>

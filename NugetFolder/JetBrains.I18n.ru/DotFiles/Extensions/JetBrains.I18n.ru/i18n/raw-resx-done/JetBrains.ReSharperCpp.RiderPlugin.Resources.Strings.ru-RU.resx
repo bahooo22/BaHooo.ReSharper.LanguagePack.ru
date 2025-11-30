@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="UnrealNewModuleWaitForTargets" xml:space="preserve">
+  <value>Ожидание готовности целевых файлов</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_CleanSectionLabel" xml:space="preserve">
+  <value>Очистка</value>
+</data>
+<data name="UnrealCustomTargetSettings_CleanArgs" xml:space="preserve">
+  <value>Дополнительные аргументы очистки</value>
+</data>
+<data name="Sharpmake_SolutionFileDoesNotExist_Text" xml:space="preserve">
+  <value>Файл решения не существует</value>
+</data>
+<data name="UnrealNewModuleNoConstructorDescription" xml:space="preserve">
+  <value>Не удалось найти конструктор в '{0}'</value>
+</data>
+<data name="RdJsonFileForProjectDoesNotExist_Text" xml:space="preserve">
+  <value>Файл RdJson для проекта не существует</value>
+</data>
+<data name="Sharpmake_FailedToGenerateDueToInvalidExe_Text" xml:space="preserve">
+  <value>Не удалось сгенерировать модель проекта, так как путь к Sharpmake недействителен</value>
+</data>
+<data name="UnrealNewClassErrorDescription" xml:space="preserve">
+  <value>Произошла непредвиденная ошибка при добавлении нового класса</value>
+</data>
+<data name="SearchScope_Project_Text" xml:space="preserve">
+  <value>Проект(&amp;P)</value>
+</data>
+<data name="SharpmakeOptionsPageTitle" xml:space="preserve">
+  <value>Sharpmake</value>
+</data>
+<data name="CompileFileActionText" xml:space="preserve">
+  <value>Компилировать</value>
+</data>
+<data name="UnrealCustomTargetSettingsDescription" xml:space="preserve">
+  <value>Настройки пользовательских целей Unreal</value>
+</data>
+<data name="Implementations_Text" xml:space="preserve">
+  <value>Реализации</value>
+</data>
+<data name="Inheritors_Text" xml:space="preserve">
+  <value>Наследники</value>
+</data>
+<data name="NoPlatformToolsets_DownloadMessage" xml:space="preserve">
+  <value>Скачать инструменты сборки C++</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_BuildArguments" xml:space="preserve">
+  <value>Аргументы</value>
+</data>
+<data name="UnrealFileTemplatesNotificationSettingSettingDescription" xml:space="preserve">
+  <value>Настройки уведомлений для шаблонов файлов Unreal</value>
+</data>
+<data name="Usages_Text" xml:space="preserve">
+  <value>Использование</value>
+</data>
+<data name="UFunctionsImplementations_Text" xml:space="preserve">
+  <value>Реализации UFunction</value>
+</data>
+<data name="UnrealCustomTargetSettings_RebuildArgs" xml:space="preserve">
+  <value>Дополнительные аргументы пересборки</value>
+</data>
+<data name="FailedToGenerateProjectModelDefinition_Text" xml:space="preserve">
+  <value>Не удалось сгенерировать файл определения модели проекта для файла проекта</value>
+</data>
+<data name="FailedToLocateUnrealEngineAssociatedWithUproject_Text" xml:space="preserve">
+  <value>Не удалось найти Unreal Engine, связанный с файлом проекта.
+Убедитесь, что поле EngineAssociation в {0} имеет правильное значение.
+Или щелкните правой кнопкой мыши на {0}, выберите 'Switch Unreal Engine version…' и укажите желаемую версию Unreal Engine.</value>
+</data>
+<data name="FailedToReadUnrealEngineVersionFrom_Text" xml:space="preserve">
+  <value>Не удалось прочитать версию Unreal Engine из файла …/Engine/Build/Build.version</value>
+</data>
+<data name="BuildProject_Text" xml:space="preserve">
+  <value>Собрать проект</value>
+</data>
+<data name="FailedToFindTheRequiredSoftwareXcode_Text" xml:space="preserve">
+  <value>Не удалось найти необходимое программное обеспечение (Xcode)</value>
+</data>
+<data name="InternalSharpmakeIgnoreDefaultsSettingDescription" xml:space="preserve">
+  <value>Игнорировать значения по умолчанию в сгенерированном json</value>
+</data>
+<data name="UnrealJsonParsingErrorDescription" xml:space="preserve">
+  <value>Не удалось разобрать json-файл: '{0}'</value>
+</data>
+<data name="Sharpmake_NoProjectFolder_Text" xml:space="preserve">
+  <value>Не удалось найти папку файла проекта Rider. Возможно, проект C/C++ недоступен.</value>
+</data>
+<data name="SourceCodeWasChanged_Text" xml:space="preserve">
+  <value>Сессия устарела: исходный код был изменен</value>
+</data>
+<data name="FailedToGenerateProjectModelDefinitionNotification_Text" xml:space="preserve">
+  <value>Не удалось сгенерировать файл определения модели проекта Unreal. Это может быть вызвано конфликтом с запущенным экземпляром UBT.</value>
+</data>
+<data name="ForEarlierVersionsUseVisualStudioProject_Text" xml:space="preserve">
+  <value>Для более ранних версий используйте файлы проекта Visual Studio, которые можно сгенерировать через контекстное меню проводника файлов</value>
+</data>
+<data name="FailedToReadConfigurationFile_Text" xml:space="preserve">
+  <value>Не удалось прочитать файл конфигурации</value>
+</data>
+<data name="SharpmakeExecutableSettingDescription" xml:space="preserve">
+  <value>Путь к исполняемому файлу Sharpmake</value>
+</data>
+<data name="DerivedBlueprintClasses_Text" xml:space="preserve">
+  <value>Производные классы Blueprint</value>
+</data>
+<data name="FailedToLocateUnrealEngineAssociatedWithUprojectDirs_Text" xml:space="preserve">
+  <value>Не удалось найти Unreal Engine, связанный с файлом проекта.
+{0} должен находиться в корневом каталоге Unreal Engine.</value>
+</data>
+<data name="UnrealNewClassNoTemplateError" xml:space="preserve">
+  <value>Не удалось найти шаблон для класса '{0}'</value>
+</data>
+<data name="NoPlatformToolsets_DownloadTooltip" xml:space="preserve">
+  <value>Установите компонент "Разработка для настольных компьютеров с помощью C++".</value>
+</data>
+<data name="UnrealNewActionsFileAlreadyExists" xml:space="preserve">
+  <value>Файл '{0}' уже существует</value>
+</data>
+<data name="Template_Editable_Q2xhc3MvU3RydWN0" xml:space="preserve">
+  <value>Класс/Структура</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_BuildSectionLabel" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_BuildOptionalArgs" xml:space="preserve">
+  <value>Дополнительные аргументы</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_BuildCommand" xml:space="preserve">
+  <value>Команда</value>
+</data>
+<data name="UPropertiesWriteAccess_Text" xml:space="preserve">
+  <value>Права на запись UProperty</value>
+</data>
+<data name="PlatformToolset_Text" xml:space="preserve">
+  <value>Набор инструментов платформы</value>
+</data>
+<data name="SharpmakeSettingsDescription" xml:space="preserve">
+  <value>Настройки Sharpmake</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_PropertyNotAvailable" xml:space="preserve">
+  <value>Свойство недоступно</value>
+</data>
+<data name="SearchScope_CurrentFile_Text" xml:space="preserve">
+  <value>Текущий файл(&amp;F)</value>
+</data>
+<data name="InternalActionsReSharperCpp" xml:space="preserve">
+  <value>Внутренние действия (ReSharper C++)</value>
+</data>
+<data name="UnrealNewModuleNoTargetRulesDescription" xml:space="preserve">
+  <value>Не удалось найти класс, производный от TargetRules, в '{0}'</value>
+</data>
+<data name="RegenerateUnrealProjectModel_Text" xml:space="preserve">
+  <value>Повторить</value>
+</data>
+<data name="UnrealNewModuleNoProjectFileDescription" xml:space="preserve">
+  <value>Нет файла проекта для '{0}'</value>
+</data>
+<data name="ScanFileSystemHeader_Text" xml:space="preserve">
+  <value>Сканирование файловой системы для модулей</value>
+</data>
+<data name="UnrealNewPluginErrorDescription" xml:space="preserve">
+  <value>Произошла непредвиденная ошибка при добавлении нового плагина</value>
+</data>
+<data name="LoadingViaUprojectIsSupportedForProjects_Text" xml:space="preserve">
+  <value>Загрузка через .uproject поддерживается для проектов, ориентированных на Unreal Engine {0} или выше. {1}</value>
+</data>
+<data name="Results_Text" xml:space="preserve">
+  <value>Результаты</value>
+</data>
+<data name="COptionPageTitle" xml:space="preserve">
+  <value>C/C++</value>
+</data>
+<data name="Close_Button_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="UnrealOptionPageTitle" xml:space="preserve">
+  <value>Unreal</value>
+</data>
+<data name="UnrealNewClassNoTemplatesError" xml:space="preserve">
+  <value>Должны быть определены шаблоны классов Unreal</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_RebuildSectionLabel" xml:space="preserve">
+  <value>Пересобрать</value>
+</data>
+<data name="ThisIsABlueprintProjectAddCSourceFiles_Text" xml:space="preserve">
+  <value>Это проект Blueprint. Добавьте файлы исходного кода C++ в проект из редактора Unreal перед открытием проекта в Rider.</value>
+</data>
+<data name="CodingAssistanceIsNotAvailableNotification_Text" xml:space="preserve">
+  <value>Сопровождение кода недоступно, так как ThirdParty и Plugins исключены из индексации. Нажмите "Настроить", чтобы изменить.</value>
+</data>
+<data name="UFunctionsUsages_Text" xml:space="preserve">
+  <value>Использование UFunction</value>
+</data>
+<data name="InsufficientPermissionsToAccessTheProject_Text" xml:space="preserve">
+  <value>Недостаточно прав для доступа к файлу проекта</value>
+</data>
+<data name="RecentlyCreatedCppClassNotification_Text" xml:space="preserve">
+  <value>Недавно созданные классы C++ станут доступны в редакторе Unreal только после сборки проекта.</value>
+</data>
+<data name="UnrealNewModuleErrorDescription" xml:space="preserve">
+  <value>Произошла непредвиденная ошибка при добавлении нового модуля</value>
+</data>
+<data name="UnrealModulePropertiesTabProvider_UnknownTarget" xml:space="preserve">
+  <value>Свойства цели недоступны для этой конфигурации</value>
+</data>
+<data name="NoPlatformToolsets_Message" xml:space="preserve">
+  <value>На компьютере не найден набор инструментов платформы</value>
+</data>
+<data name="UnknownSourcePosition_Text" xml:space="preserve">
+  <value>Исходное положение неизвестно</value>
+</data>
+<data name="Sharpmake_FailedToGenerateProjectModel_Text" xml:space="preserve">
+  <value>Не удалось сгенерировать модель проекта</value>
+</data>
+<data name="RadlerSettingsMountPointOrigin_Text" xml:space="preserve">
+  <value>LowPriorityIdeaSettings</value>
+</data>
+<data name="UnrealNewModuleNoSourceFileDescription" xml:space="preserve">
+  <value>Не удалось найти исходный файл для '{0}'</value>
+</data>
+<data name="InternalSharpmakeMinimizeJsonSettingDescription" xml:space="preserve">
+  <value>Минимизировать сгенерированный json</value>
+</data>
+<data name="UnrealAutoUpdateProjectModelAfterFileChangeDisable_Text" xml:space="preserve">
+  <value>Отключить автоматическое обновление после изменения файлов проекта</value>
+</data>
+<data name="UnrealFileTemplateNotificationStateSettingDescription" xml:space="preserve">
+  <value>Состояние уведомления для шаблонов файлов Unreal</value>
+</data>
+<data name="RadlerSettingsMountPointDisplayName_Text" xml:space="preserve">
+  <value>LowPriorityIdeaSettings</value>
+</data>
+<data name="SharpmakeSelectSolutionActionText" xml:space="preserve">
+  <value>Выбрать решение</value>
+</data>
+<data name="UsagesAndDeclarations_Text" xml:space="preserve">
+  <value>Использование и объявления для '{0}'</value>
+</data>
+<data name="DonTShowAgain_Text" xml:space="preserve">
+  <value>Больше не показывать</value>
+</data>
+<data name="RdJsonExploringFileSystemAndSearchingForProjects_Text" xml:space="preserve">
+  <value>Сканирование файловой системы для поиска сгенерированных проектов…</value>
+</data>
+<data name="UnrealCustomTargetSettings_BuildArgs" xml:space="preserve">
+  <value>Дополнительные аргументы сборки</value>
+</data>
+</root>

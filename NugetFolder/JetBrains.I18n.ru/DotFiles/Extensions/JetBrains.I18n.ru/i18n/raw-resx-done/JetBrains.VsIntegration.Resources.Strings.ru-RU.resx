@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Intelli_JIDEA_Text" xml:space="preserve">
+  <value>IntelliJ IDEA(_J)</value>
+</data>
+<data name="FilesCheckedOutToEdit_Text" xml:space="preserve">
+  <value>Файлы проверены для редактирования</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowIntellijIdeaSubtitle" xml:space="preserve">
+  <value>Для разработчиков, знакомых со средами на основе IntelliJ</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowAssignNoShortcutsSubtitle" xml:space="preserve">
+  <value>Сочетания клавиш Visual Studio не изменятся</value>
+</data>
+<data name="ConflictingShortcutWindowHelpButton" xml:space="preserve">
+  <value>Справка</value>
+</data>
+<data name="CouldNotRename_To__Text" xml:space="preserve">
+  <value>Visual Studio не удалось переименовать {0} в {1} из-за следующей ошибки: {2}</value>
+</data>
+<data name="YouJustSuspendedReSharper_Text" xml:space="preserve">
+  <value>Вы только что приостановили ReSharper.</value>
+</data>
+<data name="EditNotAllowedBecauseFileIsReadOnlyUnderVCS_Text" xml:space="preserve">
+  <value>Редактирование запрещено, так как файл доступен только для чтения и находится в системе управления версиями (возможно, зарегистрирован)</value>
+</data>
+<data name="ShortcutsConflictsForActionsWithSetShortcutsSettingDescription" xml:space="preserve">
+  <value>Конфликты сочетаний клавиш для действий с установленными сочетаниями</value>
+</data>
+<data name="WhetherToAlignAdornmentTextBaselineWithCodeBaselineSettingDescription" xml:space="preserve">
+  <value>Выравнивать ли базовую линию текста оформления с базовой линией кода</value>
+</data>
+<data name="WhenAVSWindowFrameGetsFocusChecksItsConditionAutorepairsIfNeededAndAllowedSettingDescription" xml:space="preserve">
+  <value>Когда фрейм окна VS получает фокус, проверяет его состояние. При необходимости и если разрешено, выполняет автоисправление.</value>
+</data>
+<data name="RestoreVsShortcuts_Text" xml:space="preserve">
+  <value>Восстановить сочетания клавиш Visual Studio</value>
+</data>
+<data name="ShortcutsLiveView_Text" xml:space="preserve">
+  <value>Просмотр сочетаний клавиш в реальном времени</value>
+</data>
+<data name="EditNotAllowedBecauseFileIsReadOnly_Text" xml:space="preserve">
+  <value>Редактирование запрещено, так как файл доступен только для чтения на диске</value>
+</data>
+<data name="FindPreviousInterceptorActionText" xml:space="preserve">
+  <value>Найти предыдущий перехватчик</value>
+</data>
+<data name="ReSharperWillReplaceVisualStudioRefactorings_Text_Text" xml:space="preserve">
+  <value>ReSharper заменит рефакторинги Visual Studio на свои собственные</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowTitle" xml:space="preserve">
+  <value>Настройка сочетаний клавиш ReSharper</value>
+</data>
+<data name="InlayHintFontSizeScaleFactorSettingDescription" xml:space="preserve">
+  <value>Коэффициент масштабирования размера шрифта встроенных подсказок</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Options_Description" xml:space="preserve">
+  <value>Открывает диалоговое окно параметров {0}.</value>
+</data>
+<data name="EditNotAllowedBecauseCheckoutFailed_Text" xml:space="preserve">
+  <value>Редактирование запрещено, так как извлечение не удалось</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Suspend_Description" xml:space="preserve">
+  <value>Немедленно приостанавливает {0}</value>
+</data>
+<data name="ReSharperOutOfProcessSettingsSettingDescription" xml:space="preserve">
+  <value>Внепроцессные настройки ReSharper</value>
+</data>
+<data name="ControlsInteractionBetweenOurResultListAndVisualStudiosSEIDResultListSelectionItemSettingDescription" xml:space="preserve">
+  <value>Управляет взаимодействием между нашим ResultList и элементом выбора SEID_ResultList Visual Studio</value>
+</data>
+<data name="VsFileSystemSynchronizerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки VsFileSystemSynchronizer</value>
+</data>
+<data name="WhetherToShowVisualStudioInlineHintsDisablerNotificationSettingDescription" xml:space="preserve">
+  <value>Показывать ли уведомление об отключении встроенных подсказок Visual Studio</value>
+</data>
+<data name="WhenCheckingAWindowFrameDetectsThatItIsInABrokenStateReportsAnExceptionSettingDescription" xml:space="preserve">
+  <value>При проверке фрейма окна, если обнаружено, что он в нерабочем состоянии, сообщает об исключении.</value>
+</data>
+<data name="WhyDoYouWantToSuspendReSharper_Text" xml:space="preserve">
+  <value>Почему вы хотите приостановить ReSharper?</value>
+</data>
+<data name="OverrideVSGoToContainingBlockToJumpToTheOpeningBraceSettingDescription" xml:space="preserve">
+  <value>Переопределить VS GoToContainingBlock для перехода к открывающей фигурной скобке</value>
+</data>
+<data name="VisualStudioCommand_Text" xml:space="preserve">
+  <value>Команда Visual Studio</value>
+</data>
+<data name="LongDelayOnQueryingToSaveSettingsFile_Text" xml:space="preserve">
+  <value>Длительная задержка при запросе на сохранение файла настроек</value>
+</data>
+<data name="Show_Caption" xml:space="preserve">
+  <value>Показать</value>
+</data>
+<data name="ExternalServices_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэш внешних служб. Невозможно удалить файлы, используемые в настоящее время.</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowAssignNoShortcutsTitle" xml:space="preserve">
+  <value>Решить позже</value>
+</data>
+<data name="RestoringVisualStudioShortcuts_Text" xml:space="preserve">
+  <value>Восстановление сочетаний клавиш Visual Studio</value>
+</data>
+<data name="CannotLaunchDebugger__Text" xml:space="preserve">
+  <value>Не удается запустить отладчик. {0}</value>
+</data>
+<data name="ConflictingShortcutWindowText" xml:space="preserve">
+  <value>Конфликт в области {0} со следующими сочетаниями клавиш: {1}</value>
+</data>
+<data name="FindNextInterceptorActionText" xml:space="preserve">
+  <value>Найти следующий перехватчик</value>
+</data>
+<data name="RunConfigurations_Caption" xml:space="preserve">
+  <value>Конфигурации запуска</value>
+</data>
+<data name="CannotModifyVBFilesWhileDebuggingA64_Text" xml:space="preserve">
+  <value>Невозможно изменить файлы VB при отладке 64-разрядного приложения</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowRecommendedBadge" xml:space="preserve">
+  <value>Рекомендуется</value>
+</data>
+<data name="MakingTheFile_WritableTook_OpenManage_Text" xml:space="preserve">
+  <value>Сделать файл {0} доступным для записи заняло {1}. Откройте «Параметры управления», чтобы выгрузить этот файл.</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Help_Description" xml:space="preserve">
+  <value>Показывает справку {0}.</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowGoToDeclarationActionName" xml:space="preserve">
+  <value>Перейти к объявлению</value>
+</data>
+<data name="DoNotSetAnyShortcutsYouCanConfigure_Comment_Text" xml:space="preserve">
+  <value>Не устанавливать никакие сочетания клавиш. Вы можете в любое время настроить команды {0} на странице «Среда | Клавиатура» параметров Visual Studio.</value>
+</data>
+<data name="UnresolvedProjectReferences_Caption" xml:space="preserve">
+  <value>Неразрешенные ссылки на проекты</value>
+</data>
+<data name="WhetherToHideVisualStudioInlineHintsSettingDescription" xml:space="preserve">
+  <value>Скрывать ли встроенные подсказки Visual Studio</value>
+</data>
+<data name="DoesNotAffectCompilation_Text" xml:space="preserve">
+  <value> [не влияет на компиляцию]</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Options_Text" xml:space="preserve">
+  <value>Параметры(_O)…</value>
+</data>
+<data name="VsWindowFrameMonitor_Text" xml:space="preserve">
+  <value>Монитор фреймов окон VS</value>
+</data>
+<data name="ProvidesAQuickAccessToReSharperMenu_Text" xml:space="preserve">
+  <value>Обеспечивает быстрый доступ к меню ReSharper, когда оно скрыто в менете «Расширения»</value>
+</data>
+<data name="Usability_Header_Text" xml:space="preserve">
+  <value>Удобство использования</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Options_Description2" xml:space="preserve">
+  <value>Это действие обычно находится в главном меню {0}.</value>
+</data>
+<data name="ResetKeyboardScheme_Text" xml:space="preserve">
+  <value>Сбросить схему клавиатуры</value>
+</data>
+<data name="ReSharperProcessingCommandBar__Text" xml:space="preserve">
+  <value>ReSharper: обработка панели команд '{0}'</value>
+</data>
+<data name="DumpStartupPeriodStatisticsActionText" xml:space="preserve">
+  <value>Вывести статистику периода запуска</value>
+</data>
+<data name="UserCancelled_Text" xml:space="preserve">
+  <value>Пользователь отменил</value>
+</data>
+<data name="SilentModeOperationDoesNotPermitUI_Text" xml:space="preserve">
+  <value>Работа в тихом режиме не допускает пользовательский интерфейс</value>
+</data>
+<data name="TempCaches_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Временные кэши</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowVisualStudioTitle" xml:space="preserve">
+  <value>Visual Studio</value>
+</data>
+<data name="_UseAltRShortcutToOpenReSharperMain_BoolOption_Text" xml:space="preserve">
+  <value>Использовать сочетание клавиш Alt+R для открытия главного меню ReSharper(_U)</value>
+</data>
+<data name="VSCommandsNotToBeOverriddenSettingDescription" xml:space="preserve">
+  <value>Команды VS, которые не должны быть переопределены</value>
+</data>
+<data name="NoteApplyingANewKeyboardSchemeDoesNot_Text" xml:space="preserve">
+  <value>Примечание. Применение новой схемы клавиатуры не отменяет никаких привязок клавиш, установленных предыдущей схемой. Чтобы начать с начала (особенно для восстановления привязок клавиш VS, удаленных схемой IDEA), сбросьте привязки клавиш к значениям по умолчанию на странице параметров Visual Studio «Среда | Клавиатура».</value>
+</data>
+<data name="ConflictingShortcutsSettingDescription" xml:space="preserve">
+  <value>Конфликтующие сочетания клавиш</value>
+</data>
+<data name="TellUsWhyInOurShortSurvey_Text" xml:space="preserve">
+  <value>Расскажите нам почему в нашем коротком опросе.</value>
+</data>
+<data name="VSShortcutsConflictsOverridesEtcSettingDescription" xml:space="preserve">
+  <value>Сочетания клавиш VS, конфликты, переопределения и т.д.</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowVisualStudioSubtitle" xml:space="preserve">
+  <value>Меньше конфликтов с родными сочетаниями клавиш Visual Studio</value>
+</data>
+<data name="DeplozedPackagesCache_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэш развернутых пакетов. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
+</data>
+<data name="PressLeftCtrlKey3TimesInARowWithin__Text" xml:space="preserve">
+  <value>Нажмите левую клавишу Ctrl 3 раза подряд в течение {0} секунд</value>
+</data>
+<data name="_VisualStudio_Text" xml:space="preserve">
+  <value>_Visual Studio</value>
+</data>
+<data name="EnableShortcutBrowserExperimental_BoolOption_Text" xml:space="preserve">
+  <value>Включить браузер сочетаний клавиш (экспериментальный)</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowOKButton_Text" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="ActionsRetrievalTimedOut_Text" xml:space="preserve">
+  <value>Время получения действий истекло</value>
+</data>
+<data name="ShortcutSchemeOptionPageTitle" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="ShortcutsSchemeSettingDescription" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Suspend_Description2" xml:space="preserve">
+  <value>Все действия {0} станут недоступны, фоновый анализ выполняться не будет, память будет освобождена, потребление ЦП прекратится. Для возобновления работы функций {0} требуется ручное восстановление.</value>
+</data>
+<data name="LogFiles_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Файлы журналов</value>
+</data>
+<data name="FilesChangedOnCheckout_Text" xml:space="preserve">
+  <value>Файлы изменены при извлечении</value>
+</data>
+<data name="VsToolsOptionsPage_State_Suspended" xml:space="preserve">
+  <value>Продукт не работает, так как он приостановлен.</value>
+</data>
+<data name="TheActionCouldNotBeExecutedAnotherAction_Text" xml:space="preserve">
+  <value>Действие не может быть выполнено. Выполняется другое действие.</value>
+</data>
+<data name="WhenCheckingAWindowFrameDetectsThatItIsInABrokenStateAttemptsToRepairItAutomaticallySettingDescription" xml:space="preserve">
+  <value>При проверке фрейма окна, если обнаружено, что он в нерабочем состоянии, пытается автоматически восстановить его.</value>
+</data>
+<data name="SetupShortcuts_Text" xml:space="preserve">
+  <value>Настроить сочетания клавиш</value>
+</data>
+<data name="ManageOptions_Caption" xml:space="preserve">
+  <value>Параметры управления</value>
+</data>
+<data name="AttachToProcess_Caption" xml:space="preserve">
+  <value>Присоединить к процессу</value>
+</data>
+<data name="WhyAreThereNoShortcutsAction_Text" xml:space="preserve">
+  <value>Почему нет сочетаний клавиш?</value>
+</data>
+<data name="AdornmentRemovalDelaySettingDescription" xml:space="preserve">
+  <value>Задержка удаления оформления</value>
+</data>
+<data name="ReSharperInternalIntraTextAdornmentsSettingsSettingDescription" xml:space="preserve">
+  <value>Внутренние настройки внутритекстового оформления ReSharper</value>
+</data>
+<data name="KeyboardScheme_Caption" xml:space="preserve">
+  <value>Сочетания клавиш</value>
+</data>
+<data name="WindowFrameGenericPaneHWNDHealthCheckAndRepairOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры проверки работоспособности и восстановления HWND универсальной панели фрейма окна</value>
+</data>
+<data name="EditDeniedBecauseInMemoryEditNotAllowed_Text" xml:space="preserve">
+  <value>Редактирование запрещено, так как редактирование в памяти не разрешено</value>
+</data>
+<data name="Remove_Caption" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="ConflictingShortcutWindowApplyAllCheckBox" xml:space="preserve">
+  <value>Применить ко всем конфликтам сочетаний клавиш ReSharper(_A)</value>
+</data>
+<data name="SolutionCachesInAppData_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэши решений в локальных данных приложения</value>
+</data>
+<data name="SomeKeyboardShortcutsCouldNotBeAssigned_Text" xml:space="preserve">
+  <value>Некоторые сочетания клавиш не могут быть назначены, так как текущая схема клавиатуры доступна только для чтения.
+Измените схему клавиатуры и повторите попытку.</value>
+</data>
+<data name="SafeToEditFilesInMemory_Text" xml:space="preserve">
+  <value>Безопасно редактировать файлы в памяти</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Suspend_Text" xml:space="preserve">
+  <value>Приостановить(_S)</value>
+</data>
+<data name="ConflictingShortcutReSharperCommandsText" xml:space="preserve">
+  <value>Команды ReSharper</value>
+</data>
+<data name="EnablesTwoWaySynchronizationWithVisualStudioOurResultListsAreTraversibleWithStandardVSShortcutsAndOurShortcutsWouldWalkStandardVSListsLikeOutputAndErrorsSettingDescription" xml:space="preserve">
+  <value>Включает двустороннюю синхронизацию с Visual Studio: наши списки результатов можно перемещаться с помощью стандартных сочетаний клавиш VS, а наши сочетания клавиш будут работать со стандартными списками VS, такими как Output и Errors.</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowSubtitle" xml:space="preserve">
+  <value>Выберите схему сочетаний клавиш ReSharper:</value>
+</data>
+<data name="SettingsStorageCache_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэш хранилища настроек. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
+</data>
+<data name="_OverrideVisualStudioRefactorings_BoolOption_Text" xml:space="preserve">
+  <value>Переопределить рефакторинги Visual Studio(_O)</value>
+</data>
+<data name="EditWillNeverBeAllowedBecauseOfCurrent_Text" xml:space="preserve">
+  <value>Редактирование никогда не будет разрешено из-за текущих параметров настройки или внешних условий</value>
+</data>
+<data name="ConflictingShortcutVisualStudioCommandsText" xml:space="preserve">
+  <value>Команды Visual Studio</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_6" xml:space="preserve">
+  <value>Возобновляет приостановленный продукт.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_7" xml:space="preserve">
+  <value>Приостанавливает работающий продукт.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_5" xml:space="preserve">
+  <value>Команды Visual Studio:</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_2" xml:space="preserve">
+  <value>Гарантирует, что продукт не приостановлен при запуске Visual Studio.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_3" xml:space="preserve">
+  <value>Гарантирует, что продукт приостановлен при запуске Visual Studio.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_1" xml:space="preserve">
+  <value>Ключи командной строки Visual Studio:</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_8" xml:space="preserve">
+  <value>Возобновляет приостановленный продукт или приостанавливает работающий продукт в зависимости от текущего состояния.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_9" xml:space="preserve">
+  <value>С помощью настройки пользовательского интерфейса Visual Studio эти команды можно добавить в меню, на панели инструментов или назначить им сочетание клавиш.</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_Link" xml:space="preserve">
+  <value>Подробнее &gt;&gt;</value>
+</data>
+<data name="CachedMapOfKeyboardShortcutToVSCommandSettingDescription" xml:space="preserve">
+  <value>Кэшированное сопоставление сочетаний клавиш с командами VS</value>
+</data>
+<data name="WindowFrameGenericPaneHWNDHealthCheckActionText" xml:space="preserve">
+  <value>Проверка работоспособности HWND универсальной панели фрейма окна</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowAssignNoShortcutsRemarks" xml:space="preserve">
+  <value>ReSharper &gt; Параметры &gt; Среда &gt; Клавиатура &gt; Схема сочетаний клавиш</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Help_Text" xml:space="preserve">
+  <value>Справка(_H)…</value>
+</data>
+<data name="BasedOnTheIntelliJIDEAKeyboardLayout_Comment_Text" xml:space="preserve">
+  <value>На основе раскладки клавиатуры IntelliJ IDEA, эта схема удовлетворит потребности разработчиков, знакомых с Java, или тех, кто привык использовать сочетания клавиш на основе IDEA в ReSharper 2.5 и более ранних версиях. Следовательно, это изменяет значения многих стандартных сочетаний клавиш Visual Studio.</value>
+</data>
+<data name="CannotModifyVBFilesWhileDebuggingWith_Text" xml:space="preserve">
+  <value>Невозможно изменить файлы VB при отладке с отключенной опцией «Edit and Continue»</value>
+</data>
+<data name="FailedToOpenAnInternetURIInYourDefault_Text" xml:space="preserve">
+  <value>Не удалось открыть интернет-URI в браузере по умолчанию.
+Возможно, он неправильно интегрирован с операционной системой.
+
+URI: {0}
+Ошибка: {1}</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Resume_Text" xml:space="preserve">
+  <value>Возобновить(_R)</value>
+</data>
+<data name="SelectIndividualVisualStudioCommands_Text" xml:space="preserve">
+  <value>Выберите отдельные команды Visual Studio для переопределения:</value>
+</data>
+<data name="WhenTheAppGetsActiveChecksAllOfItsWindowFramesAutorepairsIfNeededAndAllowedSettingDescription" xml:space="preserve">
+  <value>Когда приложение становится активным, проверяет все его фреймы окон. При необходимости и если разрешено, выполняет автоисправление.</value>
+</data>
+<data name="VsToolsOptionsPage_State_Suspended_Description" xml:space="preserve">
+  <value>Это означает, что все действия {0} сейчас недоступны, фоновый анализ не выполняется, память будет освобождена, потребление ЦП остановится.</value>
+</data>
+<data name="Keyboard_Text" xml:space="preserve">
+  <value>Клавиатура</value>
+</data>
+<data name="DefaultDiskCleanupSettings_Text" xml:space="preserve">
+  <value>Настройки очистки диска по умолчанию</value>
+</data>
+<data name="ConflictingShortcutWindowTitle" xml:space="preserve">
+  <value>Конфликт сочетаний клавиш ReSharper</value>
+</data>
+<data name="KeyboardScheme_Header_Text" xml:space="preserve">
+  <value>Схема клавиатуры</value>
+</data>
+<data name="IsShortcutBrowserEnabledSettingDescription" xml:space="preserve">
+  <value>Включен ли браузер сочетаний клавиш</value>
+</data>
+<data name="VsToolsOptionsPage_SuspendResume_Details_Header" xml:space="preserve">
+  <value>Помимо этой страницы, действия «Возобновить» и «Приостановить» также доступны как команды Visual Studio и ключи командной строки.</value>
+</data>
+<data name="ProductContentCache_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэш содержимого продукта. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
+</data>
+<data name="SolutionCachesInTemp_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэши решений в temp</value>
+</data>
+<data name="RestoreAllVsShortcuts_Text" xml:space="preserve">
+  <value>Восстановить все сочетания клавиш Visual Studio</value>
+</data>
+<data name="KeyboardShortcuts_Caption" xml:space="preserve">
+  <value>Сочетания клавиш</value>
+</data>
+<data name="ActionsWithShortcutsSetSettingDescription" xml:space="preserve">
+  <value>Действия с установленными сочетаниями клавиш</value>
+</data>
+<data name="WindowFrameGenericPaneHWNDHealthCheckActionDescription" xml:space="preserve">
+  <value>Панель управления для исправления проблем, когда клиентский HWND универсальной панели фрейма окна уничтожается</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowAssignNoShortcutsDescription" xml:space="preserve">
+  <value>Вы всегда можете настроить сочетания клавиш в параметрах клавиатуры ReSharper</value>
+</data>
+<data name="SynchronizingProject__OutOf__Text" xml:space="preserve">
+  <value>Синхронизация проекта {0} {1} из {2}</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowSettingsPath" xml:space="preserve">
+  <value>ReSharper &gt; Параметры &gt; Среда &gt; Клавиатура &gt; Схема сочетаний клавиш</value>
+</data>
+<data name="WebsiteBuilderFiles_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Файлы и папки построителя веб-сайтов для временных веб-сайтов, созданных ReSharper</value>
+</data>
+<data name="PushToHintLongTapDurationSettingDescription" xml:space="preserve">
+  <value>Длительность длительного нажатия для «Нажми для подсказки»</value>
+</data>
+<data name="DesignedForUsersWithVisualStudioBackground_Comment_Text" xml:space="preserve">
+  <value>Эта схема предназначена для пользователей, знакомых с Visual Studio, и прикрепляет функции {0} к стандартным сочетаниям клавиш Visual Studio, где это возможно. Для функций {0}, не имеющих аналогов в VS, сочетания клавиш выбираются так, чтобы они не конфликтовали с существующими функциями VS.</value>
+</data>
+<data name="_ApplyScheme_Button_Text" xml:space="preserve">
+  <value>Применить схему(_A)</value>
+</data>
+<data name="CannotModifyVBFilesWhileDebuggedApplication_Text" xml:space="preserve">
+  <value>Невозможно изменить файлы VB во время работы отлаживаемого приложения</value>
+</data>
+<data name="FailedToOpenFileForWriting_N__Text" xml:space="preserve">
+  <value>Не удалось открыть файл для записи: {0}.
+{1}</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowIntellijIdeaTitle" xml:space="preserve">
+  <value>IntelliJ IDEA</value>
+</data>
+<data name="Ready_Text" xml:space="preserve">
+  <value>Готово</value>
+</data>
+<data name="_None_Text" xml:space="preserve">
+  <value>Нет(_N)</value>
+</data>
+<data name="ReSharperCommand_Text" xml:space="preserve">
+  <value>Команда ReSharper</value>
+</data>
+<data name="InstallerLogFiles_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Файлы журнала установки</value>
+</data>
+<data name="FailedToAddProjectWithDescription___Text" xml:space="preserve">
+  <value>Не удалось добавить проект из {0}: {1}</value>
+</data>
+<data name="ShellCachesInAppData_PathToCleanDescription_Text" xml:space="preserve">
+  <value>Кэши оболочки в локальных данных приложения</value>
+</data>
+<data name="FailedToOpenAnInternetURIOnBehalfOf_Text" xml:space="preserve">
+  <value>Не удалось открыть URI от имени IEXPLORE.exe и Explorer.exe в качестве резервного пути после того, как браузер по умолчанию не смог открыть URI.
+Повторите попытку или откройте вручную.
+
+URI: {0}
+Ошибка Iexplore.exe: {1}
+Ошибка Explorer.exe: {2}</value>
+</data>
+<data name="Shortcuts_Text" xml:space="preserve">
+  <value>Сочетания клавиш</value>
+</data>
+<data name="FailedToAddProject_Text" xml:space="preserve">
+  <value>Не удалось добавить проект из {0}</value>
+</data>
+<data name="ThereAreUnresolvedProjectReferences_Text" xml:space="preserve">
+  <value>Имеются неразрешенные ссылки на проекты</value>
+</data>
+<data name="VisualStudioCommandsOptionPageTitle" xml:space="preserve">
+  <value>Команды Visual Studio</value>
+</data>
+<data name="VsToolsOptionsPage_State_NotRunning" xml:space="preserve">
+  <value>Продукт не работает, хотя он не приостановлен. Приостановите и возобновите, чтобы повторить попытку, или перезапустите Visual Studio.</value>
+</data>
+<data name="_SimplifyVisualStudioMenus_BoolOption_Text" xml:space="preserve">
+  <value>Упростить меню Visual Studio(_S)</value>
+</data>
+<data name="VsToolsOptionsPage_About_Link" xml:space="preserve">
+  <value>О программе…</value>
+</data>
+<data name="CouldNotRename_To__Caption" xml:space="preserve">
+  <value>Не удалось переименовать {0} в {1}</value>
+</data>
+<data name="ShortcutConflict_Text" xml:space="preserve">
+  <value>Конфликт сочетаний клавиш</value>
+</data>
+<data name="ConflictingShortcutWindowOkButton" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowHelpButton_Text" xml:space="preserve">
+  <value>Справка(_H)</value>
+</data>
+<data name="IsAliveTimeoutInMillisecondsSettingDescription" xml:space="preserve">
+  <value>Тайм-аут IsAlive в миллисекундах</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Resume_Description" xml:space="preserve">
+  <value>Немедленно возобновляет {0}</value>
+</data>
+<data name="SomeOverriddenVisualStudioCommandsCould_Text_Text" xml:space="preserve">
+  <value>Некоторые переопределенные команды Visual Studio могут быть скрыты в меню, чтобы избежать дублирования команд</value>
+</data>
+<data name="ThisMayResultInFalseRedCodeHighlighting_Text" xml:space="preserve">
+  <value>Это может привести к ложному выделению красным цветом в коде. Нажмите, чтобы узнать больше.</value>
+</data>
+<data name="WhenSynchronizationIsPerformedSettingDescription" xml:space="preserve">
+  <value>Когда выполняется синхронизация</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowRenameActionName" xml:space="preserve">
+  <value>Переименовать</value>
+</data>
+<data name="ShortcutSchemeSelectionWindowGoToEverythingActionName" xml:space="preserve">
+  <value>Перейти ко всему</value>
+</data>
+<data name="Applying_KeyboardScheme_Text" xml:space="preserve">
+  <value>Применение схемы клавиатуры {0}</value>
+</data>
+</root>

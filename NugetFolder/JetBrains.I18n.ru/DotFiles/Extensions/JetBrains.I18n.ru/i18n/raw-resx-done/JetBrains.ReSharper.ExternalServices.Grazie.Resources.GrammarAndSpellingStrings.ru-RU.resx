@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Notifications_FailedToDownload_List" xml:space="preserve">
+  <value>Не удалось загрузить: {0}</value>
+</data>
+<data name="Options_DisabledNotification_Main" xml:space="preserve">
+  <value>Синтаксический и орфографический анализ отключен.</value>
+</data>
+<data name="Options_Languages_Add" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Options_Spelling_Dictionaries_AddDialog_FileDoesNotExist" xml:space="preserve">
+  <value>Файл {0} не существует</value>
+</data>
+<data name="Options_Spelling_Dictionaries_AddDialog_FailedTitle" xml:space="preserve">
+  <value>Не удалось добавить словарь</value>
+</data>
+<data name="Notifications_Missing_OneLanguage" xml:space="preserve">
+  <value>Отсутствует языковой пакет для {0}</value>
+</data>
+<data name="Options_Languages_FixBrokenLanguagesDialog_Status_Fixed" xml:space="preserve">
+  <value>Файл {0} добавлен</value>
+</data>
+<data name="Options_Exceptions" xml:space="preserve">
+  <value>Исключения</value>
+</data>
+<data name="Button_Remove" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="QuickFix_ReplaceWith" xml:space="preserve">
+  <value>Заменить на '**{0}**'</value>
+</data>
+<data name="Options_Spelling_Dictionaries" xml:space="preserve">
+  <value>Словари</value>
+</data>
+<data name="Options_GrazieFailedNotification_Main" xml:space="preserve">
+  <value>Сервис проверки орфографии и грамматики отключен</value>
+</data>
+<data name="Options_Rules_RuleDescription_Incorrect" xml:space="preserve">
+  <value>Неправильно:</value>
+</data>
+<data name="Options_Languages_Remove" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="Notifications_FailedToDownload_ManyLanguages" xml:space="preserve">
+  <value>Не удалось загрузить {0} языковых пакетов</value>
+</data>
+<data name="Notifications_FailedToDownload_ManyLanguages_LicenseIssue" xml:space="preserve">
+  <value>Не удалось загрузить {0} языковых пакетов. Для некоторых пакетов требуется принять лицензию</value>
+</data>
+<data name="Spelling_Advanced_CheckDocCommentsAccordingToVisibility_BoolOption_Text" xml:space="preserve">
+  <value>Проверять комментарии документации в соответствии с видимостью члена</value>
+</data>
+<data name="Options_GrazieFailedNotification_Link_Text" xml:space="preserve">
+  <value>Включить</value>
+</data>
+<data name="GrammarMistakeInMarkupTextConfigurableSeverityTitle" xml:space="preserve">
+  <value>Грамматическая ошибка в тексте разметки</value>
+</data>
+<data name="StatusBar_DownloadingLanguages" xml:space="preserve">
+  <value>Загрузка языковых пакетов</value>
+</data>
+<data name="Options_Languages_FixBrokenLanguagesDialog_Title" xml:space="preserve">
+  <value>Добавить язык</value>
+</data>
+<data name="LanguageDetection_NeverSuggest_Several" xml:space="preserve">
+  <value>Никогда не предлагать {0}</value>
+</data>
+<data name="GrammarMistakeInCommentConfigurableSeverityTitle" xml:space="preserve">
+  <value>Грамматическая ошибка в комментарии</value>
+</data>
+<data name="Spelling_Advanced_Private_BoolOption_Text" xml:space="preserve">
+  <value>Проверять private члены</value>
+</data>
+<data name="GrammarMistakeInStringLiteralConfigurableSeverityTitle" xml:space="preserve">
+  <value>Грамматическая ошибка в строковом литерале</value>
+</data>
+<data name="Notifications_FailedToDownload_ShowLicenseInfo" xml:space="preserve">
+  <value>Показать информацию о лицензии</value>
+</data>
+<data name="Grammar_Advanced_CheckIn_Comments" xml:space="preserve">
+  <value>Комментарии</value>
+</data>
+<data name="Options_General_Languages" xml:space="preserve">
+  <value>Языки</value>
+</data>
+<data name="Notifications_FailedToDownload_OpenSettings" xml:space="preserve">
+  <value>Открыть настройки</value>
+</data>
+<data name="Options_Rules_CategoryDescription_Prefix" xml:space="preserve">
+  <value>Используйте флажки для переключения</value>
+</data>
+<data name="LanguageDetection_Description_Several" xml:space="preserve">
+  <value>Включить проверку грамматики и орфографии для {0}?</value>
+</data>
+<data name="Options_Grammar_Exceptions_Description" xml:space="preserve">
+  <value>Чтобы добавить исключение, нажмите **{0}** на выделенной грамматической ошибке в редакторе</value>
+</data>
+<data name="Options_General_FailedToDownloadLanguages_LinkText" xml:space="preserve">
+  <value>Установить</value>
+</data>
+<data name="Notifications_FailedToDownload_OneLanguage" xml:space="preserve">
+  <value>Не удалось загрузить языковой пакет для {0}</value>
+</data>
+<data name="Options_DisabledNotification_Link_Text" xml:space="preserve">
+  <value>Включить на странице опций "Общие"</value>
+</data>
+<data name="Options_Rules_RuleDescription_LinkText" xml:space="preserve">
+  <value>Описание правила</value>
+</data>
+<data name="GrammarMistakeInCommentConfigurableSeverityDescription" xml:space="preserve">
+  <value>Грамматическая ошибка в комментарии</value>
+</data>
+<data name="Options_General_FailedToDownloadLanguages_MainText" xml:space="preserve">
+  <value>Не удалось установить один или несколько выбранных языков. Попробуйте установить вручную.</value>
+</data>
+<data name="Options_Advanced" xml:space="preserve">
+  <value>Дополнительно</value>
+</data>
+<data name="Spelling_Advanced_ProtectedInternal_BoolOption_Text" xml:space="preserve">
+  <value>Проверять protected internal члены</value>
+</data>
+<data name="Options_Spelling_Title" xml:space="preserve">
+  <value>Орфография</value>
+</data>
+<data name="Grammar_Advanced_CheckIn_Documentation" xml:space="preserve">
+  <value>Проверять в документации</value>
+</data>
+<data name="Options_Spelling_Dictionaries_AddDialog_AffixFileDoesNotExist" xml:space="preserve">
+  <value>Не найден файл аффиксов (.aff) для выбранного файла словаря {0}</value>
+</data>
+<data name="Notifications_Missing_Download" xml:space="preserve">
+  <value>Загрузить</value>
+</data>
+<data name="Options_Languages_FixBrokenLanguagesDialog_Status_None" xml:space="preserve">
+  <value>Файл {0} не установлен</value>
+</data>
+<data name="Options_Languages_Summary_Missing" xml:space="preserve">
+  <value>Отсутствует {0} языковых пакетов</value>
+</data>
+<data name="Spelling_Advanced_CheckVerbatimStringsStartingWith_BoolOption_Text" xml:space="preserve">
+  <value>Проверять дословные строки (начинающиеся с @)</value>
+</data>
+<data name="Options_Languages_Status_Missing" xml:space="preserve">
+  <value>Не установлен</value>
+</data>
+<data name="StatusBar_DownloadingLanguage" xml:space="preserve">
+  <value>Загрузка '{0}'</value>
+</data>
+<data name="Options_Rules" xml:space="preserve">
+  <value>Правила</value>
+</data>
+<data name="GrammarMistakeInMarkupAttributeConfigurableSeverityDescription" xml:space="preserve">
+  <value>Грамматическая ошибка в значении атрибута разметки</value>
+</data>
+<data name="Options_General_MissingLanguages_MainText" xml:space="preserve">
+  <value>Отсутствуют языковые пакеты. Чтобы решить проблему, нажмите ссылку для загрузки.</value>
+</data>
+<data name="Options_Rules_CategoryDescription_Suffix_Language" xml:space="preserve">
+  <value>Все правила для языка.</value>
+</data>
+<data name="Options_General_Options" xml:space="preserve">
+  <value>Параметры</value>
+</data>
+<data name="LanguageDetection_NeverSuggest_Many" xml:space="preserve">
+  <value>Никогда не предлагать обнаруженные языки</value>
+</data>
+<data name="Spelling_Advanced_General_Text" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="Options_Rules_RuleDescription_Correct" xml:space="preserve">
+  <value>Правильно:</value>
+</data>
+<data name="Options_Languages_Status_Loading" xml:space="preserve">
+  <value>Загрузка…</value>
+</data>
+<data name="Options_Languages_Install" xml:space="preserve">
+  <value>Установить</value>
+</data>
+<data name="Spelling_Advanced_Internal_BoolOption_Text" xml:space="preserve">
+  <value>Проверять internal члены</value>
+</data>
+<data name="Notifications_FailedToDownload_Retry" xml:space="preserve">
+  <value>Повторить</value>
+</data>
+<data name="Spelling_Advanced_Public_BoolOption_Text" xml:space="preserve">
+  <value>Проверять public члены</value>
+</data>
+<data name="ConfigureDictionaries_Text" xml:space="preserve">
+  <value>Настроить словари</value>
+</data>
+<data name="Spelling_Advanced_Protected_BoolOption_Text" xml:space="preserve">
+  <value>Проверять protected члены</value>
+</data>
+<data name="Options_Languages_Summary_MissingAndFailedToDownload" xml:space="preserve">
+  <value>Отсутствует {0} языковых пакетов, не удалось загрузить {1}</value>
+</data>
+<data name="Grammar_Advanced_CheckIn_StringLiterals" xml:space="preserve">
+  <value>Строковые литералы</value>
+</data>
+<data name="LanguageDetection_Description_Many" xml:space="preserve">
+  <value>Включить проверку грамматики и орфографии для обнаруженных языков?</value>
+</data>
+<data name="Options_Spelling_Dictionaries_BuiltInText" xml:space="preserve">
+  <value>Встроенный словарь **Английский (США)**.</value>
+</data>
+<data name="Options_Spelling_AcceptedWords_Placeholder" xml:space="preserve">
+  <value>Нажмите, чтобы добавить игнорируемые слова</value>
+</data>
+<data name="Options_General_Title" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="Options_Spelling_AcceptedWords_Description" xml:space="preserve">
+  <value>Чтобы добавить исключения, введите список слов, разделенных переносами строк, или нажмите **{0}** на выделенной орфографической ошибке в редакторе</value>
+</data>
+<data name="Options_Grammar_Title" xml:space="preserve">
+  <value>Грамматика</value>
+</data>
+<data name="GrammarMistakeInStringLiteralConfigurableSeverityDescription" xml:space="preserve">
+  <value>Грамматическая ошибка в строковом литерале</value>
+</data>
+<data name="Options_Spelling_Dictionaries_AddDialog_Title" xml:space="preserve">
+  <value>Укажите файл словаря Hunspell (.dic)</value>
+</data>
+<data name="Grammar_Advanced_FileTypes" xml:space="preserve">
+  <value>Типы файлов</value>
+</data>
+<data name="Options_GrazieCantBeStartedNotification_Main" xml:space="preserve">
+  <value>Требуется Windows версии 1803 или новее для использования службы грамматики. На вашем компьютере доступна только проверка орфографии</value>
+</data>
+<data name="GrazieGplLicenseNotice" xml:space="preserve">
+  <value>Словари {0} распространяются как бесплатное программное обеспечение в соответствии с &lt;a href="https://www.gnu.org/licenses/licenses.html"&gt;Универсальной Общественной Лицензией&lt;/a&gt;. Продолжить загрузку?</value>
+</data>
+<data name="Options_Rules_CategoryDescription_Suffix_Category" xml:space="preserve">
+  <value>Все правила в категории.</value>
+</data>
+<data name="Button_Add" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Options_Languages_FixBrokenLanguagesDialog_Status_Failed" xml:space="preserve">
+  <value>Не удалось найти файл {0}</value>
+</data>
+<data name="Notifications_FailedToDownload_OneLanguage_LicenseIssue" xml:space="preserve">
+  <value>Примите лицензионное соглашение для использования {0} или отключите этот язык</value>
+</data>
+<data name="Notifications_FailedToDownload_RetryAndShowLicenseInfo" xml:space="preserve">
+  <value>Показать информацию о лицензии и повторить</value>
+</data>
+<data name="Options_Spelling_Dictionaries_Help_LinkText" xml:space="preserve">
+  <value>Узнать больше</value>
+</data>
+<data name="Options_General_EnableChecks" xml:space="preserve">
+  <value>Анализировать грамматику и орфографию</value>
+</data>
+<data name="Options_Languages_SelectLanguages" xml:space="preserve">
+  <value>Выбрать языки</value>
+</data>
+<data name="GrammarMistake_TooltipFormat" xml:space="preserve">
+  <value>Грамматическая ошибка: '{0}'</value>
+</data>
+<data name="Options_General_EnableChecks_Description" xml:space="preserve">
+  <value>Проверять грамматику и орфографию в именах идентификаторов, строковых литералах, &lt;br/&gt;комментариях и т.д.</value>
+</data>
+<data name="Spelling_Advanced_CheckNonLocalizableStrings_BoolOption_Text" xml:space="preserve">
+  <value>Проверять строки, явно помеченные как нелокализуемые</value>
+</data>
+<data name="Options_Spelling_Dictionaries_Help_AfterLinkText" xml:space="preserve">
+  <value>Дополнительные сведения о словарях см. по ссылке выше.</value>
+</data>
+<data name="GrammarMistakeInMarkupTextConfigurableSeverityDescription" xml:space="preserve">
+  <value>Грамматическая ошибка в тексте разметки</value>
+</data>
+<data name="Options_Languages_Summary_FailedToDownload" xml:space="preserve">
+  <value>Не удалось загрузить {0} языковых пакетов</value>
+</data>
+<data name="GrammarMistakeInMarkupAttributeConfigurableSeverityTitle" xml:space="preserve">
+  <value>Грамматическая ошибка в значении атрибута разметки</value>
+</data>
+<data name="Spelling_Advanced_CheckLocals_BoolOption_Text" xml:space="preserve">
+  <value>Проверять локальные переменные и параметры</value>
+</data>
+<data name="Options_Languages_Download" xml:space="preserve">
+  <value>Загрузить</value>
+</data>
+<data name="Spelling_Advanced_CheckInheritedMembers_BoolOption_Text" xml:space="preserve">
+  <value>Проверять унаследованные члены</value>
+</data>
+<data name="Options_Root_Title" xml:space="preserve">
+  <value>Грамматика и орфография</value>
+</data>
+<data name="Grammar_Advanced_CheckIn_InterpolatedStringLiterals" xml:space="preserve">
+  <value>Проверять интерполированные строковые литералы</value>
+</data>
+<data name="Grammar_Advanced_CheckIn" xml:space="preserve">
+  <value>Места проверки</value>
+</data>
+<data name="LanguageDetection_Download" xml:space="preserve">
+  <value>Включить</value>
+</data>
+<data name="Options_General_MissingLanguages_LinkText" xml:space="preserve">
+  <value>Загрузить</value>
+</data>
+<data name="Options_General_AddLanguagesDialog_Title" xml:space="preserve">
+  <value>Выберите языки для установки</value>
+</data>
+<data name="Options_Exceptions_EmptyText" xml:space="preserve">
+  <value>Фразы, перечисленные здесь, не будут&lt;br/&gt;сообщаться как грамматические ошибки.</value>
+</data>
+<data name="Notifications_Missing_ManyLanguages" xml:space="preserve">
+  <value>Отсутствует {0} языковых пакетов</value>
+</data>
+<data name="Options_Spelling_Dictionaries_Help_BeforeLinkText" xml:space="preserve">
+  <value>Чтобы добавить больше словарей, нажмите «Добавить» и выберите файл словаря Hunspell (.dic).</value>
+</data>
+<data name="PoweredByLanguageTool" xml:space="preserve">
+  <value>На базе технологии LanguageTool</value>
+</data>
+</root>

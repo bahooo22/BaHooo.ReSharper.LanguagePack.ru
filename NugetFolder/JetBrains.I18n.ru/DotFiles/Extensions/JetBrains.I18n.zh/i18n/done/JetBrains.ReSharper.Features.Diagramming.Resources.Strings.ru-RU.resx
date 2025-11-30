@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DisableAutoLayoutingActionText" xml:space="preserve">
+    <value>禁用自动布局</value>
+  </data>
+  <data name="SafeDeleteReferenceActionText" xml:space="preserve">
+    <value>安全删除引用</value>
+  </data>
+  <data name="RefreshActionGroupText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="AllowMoveToFolderOnDragNDropActionText" xml:space="preserve">
+    <value>拖放时允许“移动到文件夹”</value>
+  </data>
+  <data name="RebuildTypeDependenciesMap_Text" xml:space="preserve">
+    <value>重建类型依赖关系图</value>
+  </data>
+  <data name="NuGetDependenciesGraphFor__Text" xml:space="preserve">
+    <value>{0} 的 NuGet 依赖关系图</value>
+  </data>
+  <data name="DependentProjectsDiagram_Text" xml:space="preserve">
+    <value>依赖项目图</value>
+  </data>
+  <data name="CheckboxTree_Caption" xml:space="preserve">
+    <value>复选框树(&amp;C)</value>
+  </data>
+  <data name="ShowTypeDependenciesGraphAction_Text" xml:space="preserve">
+    <value>显示类型依赖关系图(&amp;T)</value>
+  </data>
+  <data name="ShowProjectDependencyGraphAction_Text" xml:space="preserve">
+    <value>显示项目依赖关系图(&amp;P)</value>
+  </data>
+  <data name="NoUsagesWereFound_Text" xml:space="preserve">
+    <value>找不到用法</value>
+  </data>
+  <data name="UndoCtrlZActionText" xml:space="preserve">
+    <value>撤消(Ctrl+Z)</value>
+  </data>
+  <data name="EntityFramework_Diagram_ToolTip_OpenFileFromNode" xml:space="preserve">
+    <value>计划开放</value>
+  </data>
+  <data name="GroupingIdSettingDescription" xml:space="preserve">
+    <value>GroupingId</value>
+  </data>
+  <data name="Type_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="AddDependentModulesActionText" xml:space="preserve">
+    <value>添加依赖模块</value>
+  </data>
+  <data name="EntityFramework_Menu_ShowERDAction_Text" xml:space="preserve">
+    <value>显示实体关系图</value>
+  </data>
+  <data name="BuildTypeDependenciesMap_Text" xml:space="preserve">
+    <value>构建类型依赖关系图</value>
+  </data>
+  <data name="ShowAggregationDependenciesActionText" xml:space="preserve">
+    <value>显示聚合依赖项</value>
+  </data>
+  <data name="ShowUsagesOnDiagramActionText" xml:space="preserve">
+    <value>在图上显示用法</value>
+  </data>
+  <data name="ShowTheseAndReferenced_Text" xml:space="preserve">
+    <value>显示这些和引用项</value>
+  </data>
+  <data name="EntityFramework_Diagram_Legend_UnlimitedStringLength_Text" xml:space="preserve">
+    <value>不受限的字符串长度</value>
+  </data>
+  <data name="GraphMlReadFailed_Caption" xml:space="preserve">
+    <value>打开文件时出错</value>
+  </data>
+  <data name="TurnCouplingAnalysisOn_Text" xml:space="preserve">
+    <value>打开耦合分析</value>
+  </data>
+  <data name="Search_Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="UpdateTypeDependenciesMap_Text" xml:space="preserve">
+    <value>更新类型依赖关系图</value>
+  </data>
+  <data name="NuGetDependenciesGraph_Text" xml:space="preserve">
+    <value>NuGet 依赖关系图</value>
+  </data>
+  <data name="WaitingForCachesToBeBuilt_Text" xml:space="preserve">
+    <value>正在等待构建缓存</value>
+  </data>
+  <data name="ShowNuGetDependencyDiagramActionText" xml:space="preserve">
+    <value>显示 NuGet 依赖关系图</value>
+  </data>
+  <data name="_AndOtherElements_Text" xml:space="preserve">
+    <value>{0} 和其他元素</value>
+  </data>
+  <data name="ShowTheseAndDependent_Text" xml:space="preserve">
+    <value>显示这些和依赖项目</value>
+  </data>
+  <data name="ConfirmExecution_Caption" xml:space="preserve">
+    <value>确认执行</value>
+  </data>
+  <data name="RedoCtrlYActionText" xml:space="preserve">
+    <value>重做(Ctrl+Y)</value>
+  </data>
+  <data name="ExpandGraphActionText" xml:space="preserve">
+    <value>展开图</value>
+  </data>
+  <data name="ImportActionText" xml:space="preserve">
+    <value>导入图</value>
+  </data>
+  <data name="AssemblyDependenciesGraph_Text" xml:space="preserve">
+    <value>程序集依赖关系图</value>
+  </data>
+  <data name="ShowOnDiagramActionText" xml:space="preserve">
+    <value>在图上显示</value>
+  </data>
+  <data name="ShowDependentProjects_Caption" xml:space="preserve">
+    <value>显示依赖项目</value>
+  </data>
+  <data name="EntityFramework_Diagram_Legend_DependencyLoop_Text" xml:space="preserve">
+    <value>依赖关系循环</value>
+  </data>
+  <data name="ShowThisAndReferencedActionText" xml:space="preserve">
+    <value>显示此模块和引用的模块</value>
+  </data>
+  <data name="ShowOnlyTargetAndSourceActionText" xml:space="preserve">
+    <value>仅显示目标和源</value>
+  </data>
+  <data name="ShowDiffActionText" xml:space="preserve">
+    <value>显示差异</value>
+  </data>
+  <data name="ExportActionText" xml:space="preserve">
+    <value>导出图</value>
+  </data>
+  <data name="ShowOnlyThisAndDependentItemsActionText" xml:space="preserve">
+    <value>仅显示此条目和依赖条目</value>
+  </data>
+  <data name="BaseDiagramToolbarActionGroupText" xml:space="preserve">
+    <value>基础图工具栏</value>
+  </data>
+  <data name="TurnOnCodeMetricsActionText" xml:space="preserve">
+    <value>打开代码指标</value>
+  </data>
+  <data name="CompareWithSavedActionText" xml:space="preserve">
+    <value>与已保存的比较…</value>
+  </data>
+  <data name="ShowInheritanceDependenciesActionText" xml:space="preserve">
+    <value>显示继承依赖项</value>
+  </data>
+  <data name="ShowOnlySelectedModulesActionText" xml:space="preserve">
+    <value>仅显示所选模块</value>
+  </data>
+  <data name="FilterDependenciesActionGroupText" xml:space="preserve">
+    <value>筛选依赖项</value>
+  </data>
+  <data name="AddReferencedModulesActionText" xml:space="preserve">
+    <value>添加引用的模块</value>
+  </data>
+  <data name="TypesDependenciesGraphToolbarActionGroupText" xml:space="preserve">
+    <value>类型依赖关系图工具栏</value>
+  </data>
+  <data name="EntityFramework_Diagram_RefreshAction_Text" xml:space="preserve">
+    <value>刷新图表</value>
+  </data>
+  <data name="EntityFramework_Diagram_Title_Text" xml:space="preserve">
+    <value>实体关系图</value>
+  </data>
+  <data name="ShowTransitiveReferences_Text" xml:space="preserve">
+    <value>显示可传递引用</value>
+  </data>
+  <data name="SaveArchitectureGraphActionText" xml:space="preserve">
+    <value>保存架构图…</value>
+  </data>
+  <data name="ShowOnlySelectedItemsActionText" xml:space="preserve">
+    <value>仅显示所选条目</value>
+  </data>
+  <data name="GroupByNamespaceActionText" xml:space="preserve">
+    <value>按命名空间分组</value>
+  </data>
+  <data name="TypeDependenciesDiagramFor__Text" xml:space="preserve">
+    <value>{0} 的类型依赖关系图</value>
+  </data>
+  <data name="ArchitectureGraphToolbarActionGroupText" xml:space="preserve">
+    <value>架构图工具栏</value>
+  </data>
+  <data name="SelectionActionGroupText" xml:space="preserve">
+    <value>选区</value>
+  </data>
+  <data name="_For__Text" xml:space="preserve">
+    <value>{1} 的 {0}</value>
+  </data>
+  <data name="TurnCouplingAnalysisOff_Text" xml:space="preserve">
+    <value>关闭耦合分析</value>
+  </data>
+  <data name="TypeDependenciesDiagram_Text" xml:space="preserve">
+    <value>类型依赖关系图</value>
+  </data>
+  <data name="YouAreAboutToExecuteMoveToFolderRefactoring_Text" xml:space="preserve">
+    <value>您即将执行“移动到文件夹”重构。
+ 所选条目: {0}
+ 目标文件夹: {1}</value>
+  </data>
+  <data name="ArchitectureToolbarActionGroupText" xml:space="preserve">
+    <value>架构工具栏</value>
+  </data>
+  <data name="BuildingNuGetDependenciesGraph_Text" xml:space="preserve">
+    <value>正在构建 NuGet 依赖关系图</value>
+  </data>
+  <data name="ShowReturnTypeDependenciesActionText" xml:space="preserve">
+    <value>显示返回值类型依赖项</value>
+  </data>
+  <data name="ShowThisAndDependentActionText" xml:space="preserve">
+    <value>显示此模块和依赖模块</value>
+  </data>
+  <data name="AddAllReferencedTypesActionText" xml:space="preserve">
+    <value>添加所有引用的类型</value>
+  </data>
+  <data name="ShowPathActionText" xml:space="preserve">
+    <value>显示路径</value>
+  </data>
+  <data name="ShowUsagesDependenciesActionText" xml:space="preserve">
+    <value>显示用法依赖项</value>
+  </data>
+  <data name="ShowAssemblyDependencyDiagramActionText" xml:space="preserve">
+    <value>显示程序集依赖关系图</value>
+  </data>
+  <data name="BuildingAssemblyDependenciesGraph_Text" xml:space="preserve">
+    <value>正在构建程序集依赖关系图</value>
+  </data>
+  <data name="EntityFramework_Highlightings_ShowERDAction_Text" xml:space="preserve">
+    <value>显示实体关系图</value>
+  </data>
+  <data name="HideTransitiveReferences_Text" xml:space="preserve">
+    <value>隐藏可传递引用</value>
+  </data>
+  <data name="CollapseGraphActionText" xml:space="preserve">
+    <value>收起图</value>
+  </data>
+  <data name="GraphMlReadFailed_Text" xml:space="preserve">
+    <value>读取文件时出错，请参阅日志文件，了解更多详细信息</value>
+  </data>
+  <data name="HideTransitiveClosureActionText" xml:space="preserve">
+    <value>隐藏可传递闭包</value>
+  </data>
+  <data name="GroupByProjectStructureActionText" xml:space="preserve">
+    <value>按项目结构分组</value>
+  </data>
+  <data name="RefreshTypeDependenciesActionText" xml:space="preserve">
+    <value>刷新类型依赖项</value>
+  </data>
+  <data name="ShowConstructorInjectionsActionText" xml:space="preserve">
+    <value>显示构造函数注入</value>
+  </data>
+  <data name="GroupingActionGroupText" xml:space="preserve">
+    <value>正在分组…</value>
+  </data>
+  <data name="DoNotGroupActionText" xml:space="preserve">
+    <value>不分组</value>
+  </data>
+  <data name="TypeDiagramSettingsSettingDescription" xml:space="preserve">
+    <value>类型图设置</value>
+  </data>
+  <data name="ShowOnlyThisAndReferencedItemsActionText" xml:space="preserve">
+    <value>仅显示此条目和引用的条目</value>
+  </data>
+  <data name="ShowOnlySourcesAndTargets_Text" xml:space="preserve">
+    <value>仅显示源和目标</value>
+  </data>
+  <data name="ShowPossiblePathsActionText" xml:space="preserve">
+    <value>显示可能的路径</value>
+  </data>
+</root>

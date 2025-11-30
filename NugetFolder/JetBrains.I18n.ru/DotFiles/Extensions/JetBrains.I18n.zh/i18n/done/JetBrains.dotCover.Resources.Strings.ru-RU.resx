@@ -1,0 +1,1067 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CoveringTests_Text" xml:space="preserve">
+    <value>覆盖测试</value>
+  </data>
+  <data name="ExportToDetailedXMLActionText" xml:space="preserve">
+    <value>导出到详细的 XML…</value>
+  </data>
+  <data name="WelcomeScreen_AnalyzeApplicationButton" xml:space="preserve">
+    <value>分析应用程序</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_EmptyState_AddButtonText" xml:space="preserve">
+    <value>添加程序集名称掩码</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeTestsPassed" xml:space="preserve">
+    <value>**{0}** 个测试**通过**</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_Header" xml:space="preserve">
+    <value>独立应用程序</value>
+  </data>
+  <data name="EditCoverageFiltersActionText" xml:space="preserve">
+    <value>编辑覆盖率筛选器(&amp;E)…</value>
+  </data>
+  <data name="FailedToObtainOutputDirectory_Error" xml:space="preserve">
+    <value>无法获取输出目录</value>
+  </data>
+  <data name="UnitTesting_CoverAllTestsFromCurrentSessionAction_Text" xml:space="preserve">
+    <value>覆盖当前会话中的所有测试</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_BuildMode_WholeSolution" xml:space="preserve">
+    <value>解决方案中的所有项目</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ContinuousTestingMode_RunAll" xml:space="preserve">
+    <value>运行所有测试</value>
+  </data>
+  <data name="Validation_TargetExecutablePathTooLong" xml:space="preserve">
+    <value>目标可执行文件的路径过长</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_Dialog_ValueHeader" xml:space="preserve">
+    <value>不分析程序集中的代码:</value>
+  </data>
+  <data name="EditFilterDialogs_AnalyzeCode" xml:space="preserve">
+    <value>代码分析的包含范围</value>
+  </data>
+  <data name="Validation_EnvironmentVariablesHaveLinesWithoutSeparator" xml:space="preserve">
+    <value>环境变量块中的某些行缺少 '=' 分隔符</value>
+  </data>
+  <data name="DisableChecksumCache" xml:space="preserve">
+    <value>禁用校验和缓存</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_ResultFilters_Header" xml:space="preserve">
+    <value>覆盖率结果筛选器</value>
+  </data>
+  <data name="LineMarkerTooltip_DocumentChangedSinceCoverageAnalysis" xml:space="preserve">
+    <value>自上次覆盖率分析以来文档已被更改。</value>
+  </data>
+  <data name="RemoveSelectedTestsFromSessionActionText" xml:space="preserve">
+    <value>从会话中移除所选测试</value>
+  </data>
+  <data name="SetBreakpointHereAndDebugSelectedTestsActionText" xml:space="preserve">
+    <value>在此处设置断点并调试所选测试</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_EditConfigurationButton_Tooltip" xml:space="preserve">
+    <value>编辑运行配置</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_Header" xml:space="preserve">
+    <value>不分析使用特性标记的代码</value>
+  </data>
+  <data name="DebugSelectedTestsActionText" xml:space="preserve">
+    <value>调试所选测试</value>
+  </data>
+  <data name="ReportDialog_FailedOpen" xml:space="preserve">
+    <value>无法打开报告</value>
+  </data>
+  <data name="EnvironmentSectionActionText" xml:space="preserve">
+    <value>环境部分</value>
+  </data>
+  <data name="ContinuousTestingTurnOff" xml:space="preserve">
+    <value>关闭连续测试</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_Standalone_Title" xml:space="preserve">
+    <value>独立</value>
+  </data>
+  <data name="DotCoverToggleContinuousTestingActionText" xml:space="preserve">
+    <value>切换连续测试</value>
+  </data>
+  <data name="CodeInsights_OneTestSucceed" xml:space="preserve">
+    <value>1 个测试正常</value>
+  </data>
+  <data name="CodeInsights_OutdatedInfo" xml:space="preserve">
+    <value>覆盖率信息已过期</value>
+  </data>
+  <data name="FlattenNamespacesActionText" xml:space="preserve">
+    <value>平展命名空间</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Text" xml:space="preserve">
+    <value>环境变量</value>
+  </data>
+  <data name="Report_DetailedXml" xml:space="preserve">
+    <value>Detailed XML</value>
+  </data>
+  <data name="UnitTestCoverageActionText" xml:space="preserve">
+    <value>单元测试覆盖率</value>
+  </data>
+  <data name="DotCoverOptions_General_ToolWindowActivationMode_AfterFirstRun" xml:space="preserve">
+    <value>首次运行测试覆盖率时</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_TargetArguments_Text" xml:space="preserve">
+    <value>目标实参</value>
+  </data>
+  <data name="DotCoverOptions_General_ToolWindowActivationMode_Never" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="SnapshotSettingsProviderOrigin_Text" xml:space="preserve">
+    <value>覆盖率快照文件旁边的 .DotSettings 文件</value>
+  </data>
+  <data name="FileTypeFilter_DotCoverFiles" xml:space="preserve">
+    <value>dotCover 文件</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ShadowCopyCustomFileMask_Caption" xml:space="preserve">
+    <value>文件掩码</value>
+  </data>
+  <data name="Validation_WorkingDirectoryDoesNotExist" xml:space="preserve">
+    <value>找不到指定的工作目录</value>
+  </data>
+  <data name="DotCoverAppendTestsToContinuousTestingContextActionText" xml:space="preserve">
+    <value>将所选测试附加到连续测试会话</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_BuildMode_Caption" xml:space="preserve">
+    <value>保存时和通过快捷键触发时，自动构建:</value>
+  </data>
+  <data name="CreateNewSession" xml:space="preserve">
+    <value>新建会话</value>
+  </data>
+  <data name="ContinuousTestingSettingsActionText" xml:space="preserve">
+    <value>持续测试设置…</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_StartButton_Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_EnableDotCoverBackendLogging" xml:space="preserve">
+    <value>启用外部存储日志</value>
+  </data>
+  <data name="LineMarkerTooltip_ClickToSeeTheTests" xml:space="preserve">
+    <value>(点击以查看测试)</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerMode_OnBuild" xml:space="preserve">
+    <value>构建</value>
+  </data>
+  <data name="SaveCoverageSnapshotDialog_Title" xml:space="preserve">
+    <value>将覆盖率快照另存为</value>
+  </data>
+  <data name="FileExtension_Xml" xml:space="preserve">
+    <value>.xml</value>
+  </data>
+  <data name="SaveCoverageSnapshotDialog_Error" xml:space="preserve">
+    <value>无法保存覆盖率快照: {0}</value>
+  </data>
+  <data name="CreateNewSessionAndRun" xml:space="preserve">
+    <value>创建新会话并运行测试</value>
+  </data>
+  <data name="DotCoverOptions_Anchor_PageTitle" xml:space="preserve">
+    <value>dotCover</value>
+  </data>
+  <data name="Validation_EnvironmentVariablesTooLong" xml:space="preserve">
+    <value>环境变量块过长</value>
+  </data>
+  <data name="EditFilterDialogs_Class" xml:space="preserve">
+    <value>类:</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_RuntimeFilters_Description" xml:space="preserve">
+    <value>dotCover 会在覆盖率会话期间应用这些筛选器。使用这些筛选器可以在分析时排除不必要的代码，从而加快会话速度。</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_CoreLogLevel_Verbose" xml:space="preserve">
+    <value>详细</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeTestsFailed" xml:space="preserve">
+    <value>**{0}** 个测试**失败**</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementCovered" xml:space="preserve">
+    <value>语句已被覆盖</value>
+  </data>
+  <data name="UnitTestCoverageNotification" xml:space="preserve">
+    <value>单元测试覆盖率 / {0}</value>
+  </data>
+  <data name="DotCoverOptions_General_ToolWindowActivationMode_AfterEachRun" xml:space="preserve">
+    <value>每次运行测试覆盖率时</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_Dialog_Title_Edit" xml:space="preserve">
+    <value>编辑程序集筛选器</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_KeepIntermediateResults" xml:space="preserve">
+    <value>保留中间覆盖率结果</value>
+  </data>
+  <data name="ToggleCodeHighlightingActionText" xml:space="preserve">
+    <value>切换代码高亮显示(&amp;H)</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_TargetExecutable_Hint" xml:space="preserve">
+    <value>留空以自动检测 dotnet 可执行文件</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_TargetExecutable_Text" xml:space="preserve">
+    <value>目标可执行文件</value>
+  </data>
+  <data name="DotCoverOptions_Region_Text" xml:space="preserve">
+    <value>区域:</value>
+  </data>
+  <data name="FunctionInfoActionText" xml:space="preserve">
+    <value>函数信息</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_IIS_Title" xml:space="preserve">
+    <value>IIS</value>
+  </data>
+  <data name="ProfilerConfigurator_IisConfigurator_Header" xml:space="preserve">
+    <value>IIS 应用程序</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_RemovalConfirmation_Plural" xml:space="preserve">
+    <value>确定要移除这些特性筛选器吗?</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeStatementsUncovered" xml:space="preserve">
+    <value>**{0}** 条语句未被覆盖</value>
+  </data>
+  <data name="Validation_ConfigurationNotSelected" xml:space="preserve">
+    <value>未选择任何配置</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementIUncovered" xml:space="preserve">
+    <value>语句 {0} 未被覆盖</value>
+  </data>
+  <data name="CodeInsights_OneCoveringTestFailed" xml:space="preserve">
+    <value>1 个覆盖测试失败</value>
+  </data>
+  <data name="Validation_UrlTooLong" xml:space="preserve">
+    <value>URL 过长</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ContinuousTestingMode_Caption" xml:space="preserve">
+    <value>持续测试:</value>
+  </data>
+  <data name="Validation_EnvironmentVariablesHaveLinesWithIncorrectName" xml:space="preserve">
+    <value>某些环境变量名无效</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementChanged_Covered" xml:space="preserve">
+    <value>语句 {0} 已更改。**上一个状态:** 已被覆盖:</value>
+  </data>
+  <data name="LineMarkerTooltip_DocumentChangedSinceBuild" xml:space="preserve">
+    <value>自上次构建以来文档已被更改。</value>
+  </data>
+  <data name="CoverUnItTestsActionGroupDescription" xml:space="preserve">
+    <value>覆盖单元测试(&amp;I)</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_Name_Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="DataSliceType_SelectedTestsInActiveSession" xml:space="preserve">
+    <value>有效会话中的所选测试</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_WindowsService_Title" xml:space="preserve">
+    <value>Windows 服务</value>
+  </data>
+  <data name="CoverageResultsActionText" xml:space="preserve">
+    <value>覆盖率结果</value>
+  </data>
+  <data name="DotCoverOptions_Editor_ShowDocumentCoverageIndicator" xml:space="preserve">
+    <value>显示文档覆盖率指示器</value>
+  </data>
+  <data name="ContinuousTestingAssist_RunNewAndOutdatedModeDescription" xml:space="preserve">
+    <value>在此模式下，dotCover 会自动启动所有新的和过时的测试，而不进行覆盖率分析。它使用最新的可用覆盖率信息来识别过时的测试。
+            优点: 由于不进行覆盖率分析，此模式可以降低连续测试的性能影响。
+            缺点: 随着代码的更改，初始覆盖率信息可能会过时。
+            为了保持准确的覆盖率信息，请定期手动运行覆盖率分析。</value>
+  </data>
+  <data name="UnitTestHostProvider_Cover_Format" xml:space="preserve">
+    <value>覆盖 {0}</value>
+  </data>
+  <data name="LineMarkerTooltip_PreviousState" xml:space="preserve">
+    <value>**上一个状态:**</value>
+  </data>
+  <data name="LineMarkerTooltip_MethodChangedSinceCoverageAnalysis" xml:space="preserve">
+    <value>自上次覆盖率分析以来方法已被更改。</value>
+  </data>
+  <data name="ContinuousTestingMode_RunAll" xml:space="preserve">
+    <value>运行所有测试</value>
+  </data>
+  <data name="CoverTestsInParallelSettingDescription" xml:space="preserve">
+    <value>并行覆盖测试</value>
+  </data>
+  <data name="DotCoverOptions_Editor_HighlightingMode_OnlyMarkers" xml:space="preserve">
+    <value>装订区域标记</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_Standalone_Description" xml:space="preserve">
+    <value>自包含或依赖框架的应用程序</value>
+  </data>
+  <data name="DotCoverOptions_General_ToolWindowActivationMode_Desctiption" xml:space="preserve">
+    <value>自动打开“单元测试覆盖率”工具窗口:</value>
+  </data>
+  <data name="CodeInsights_SomeTestsSucceed" xml:space="preserve">
+    <value>{0} 个测试正常</value>
+  </data>
+  <data name="TargetFrameworkFilterPresentation_AllTargetFramework" xml:space="preserve">
+    <value>所有目标框架</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_OpenUrl_Text" xml:space="preserve">
+    <value>打开 URL</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_OpenUrl_Hint" xml:space="preserve">
+    <value>URL 将在默认浏览器中打开</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_ControlKind_UsingApi" xml:space="preserve">
+    <value>使用 API</value>
+  </data>
+  <data name="ContinuousTestingAssist_AbortRunningTestsMessage" xml:space="preserve">
+    <value>是否中止运行测试? 如果不中止，覆盖率分析将在测试完成后运行。</value>
+  </data>
+  <data name="ExportToHTMLActionText" xml:space="preserve">
+    <value>导出到 HTML…</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_CoverAllTestsAtFirstTime_Caption" xml:space="preserve">
+    <value>覆盖无覆盖率信息的测试</value>
+  </data>
+  <data name="ExportToXMLForNDependActionText" xml:space="preserve">
+    <value>导出到适用于 NDepend 的 XML…</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeTestsOutdated" xml:space="preserve">
+    <value>**{0}** 个测试**已过时**</value>
+  </data>
+  <data name="ExportToJSONActionText" xml:space="preserve">
+    <value>导出到 JSON…</value>
+  </data>
+  <data name="Pencil_Background" xml:space="preserve">
+    <value>后台</value>
+  </data>
+  <data name="DotCoverOptions_Editor_PageTitle" xml:space="preserve">
+    <value>编辑器</value>
+  </data>
+  <data name="ProfilerConfigurator_ConfigurationWizardDialog_BackButton_Text" xml:space="preserve">
+    <value>返回</value>
+  </data>
+  <data name="LocateInCoverageTreeActionText" xml:space="preserve">
+    <value>在覆盖率树中定位</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_EditFiltersButton_Text" xml:space="preserve">
+    <value>编辑筛选器</value>
+  </data>
+  <data name="DotCoverToolWindow_Title" xml:space="preserve">
+    <value>dotCover</value>
+  </data>
+  <data name="HighlightCodeActionText" xml:space="preserve">
+    <value>高亮显示代码</value>
+  </data>
+  <data name="DocumentRangeSectionActionText" xml:space="preserve">
+    <value>文档范围部分</value>
+  </data>
+  <data name="ProfilerController_StartButton_Text" xml:space="preserve">
+    <value>启动</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_Dialog_EmptyValueError" xml:space="preserve">
+    <value>程序集名称掩码不得为空</value>
+  </data>
+  <data name="DotCoverOptions_Editor_HighlightingMode_MarkersAndFullLine" xml:space="preserve">
+    <value>装订区域标记和行背景</value>
+  </data>
+  <data name="ProfilerController_GetSnapshotButton_Text" xml:space="preserve">
+    <value>获取快照</value>
+  </data>
+  <data name="HighlightContinuousTestingSessionAutomatically" xml:space="preserve">
+    <value>启用连续测试后，为连续测试会话自动显示覆盖率信息。这包括“测试覆盖率”窗口和编辑器中的代码覆盖率高亮显示。
+    </value>
+  </data>
+  <data name="DropCoverageDataActionText" xml:space="preserve">
+    <value>舍弃覆盖率数据</value>
+  </data>
+  <data name="Report_Xml" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="DropCoverageDataActionText_ConfirmationText" xml:space="preserve">
+    <value>确定要舍弃覆盖率数据吗?</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerMode_Caption" xml:space="preserve">
+    <value>触发持续测试的快捷键:</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_ChooseWorkingDirectoryDialog_Title" xml:space="preserve">
+    <value>选择工作目录</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_CoreLogLevel" xml:space="preserve">
+    <value>核心日志级别:</value>
+  </data>
+  <data name="OpenCoverageSnapshotActionText" xml:space="preserve">
+    <value>打开覆盖率快照(&amp;O)…</value>
+  </data>
+  <data name="ContinuousTestingTurnOn" xml:space="preserve">
+    <value>开启连续测试</value>
+  </data>
+  <data name="CreateNewSessionAndCover" xml:space="preserve">
+    <value>创建新会话并覆盖测试</value>
+  </data>
+  <data name="UnitTesting_CoverAllTestsFromSolutionAction_Text" xml:space="preserve">
+    <value>覆盖解决方案中的所有测试(&amp;V)</value>
+  </data>
+  <data name="DotCoverOptions_Editor_HighlightingEnabled" xml:space="preserve">
+    <value>启用高亮显示</value>
+  </data>
+  <data name="ContinuousTestingMode_CoverNewAndOutdated" xml:space="preserve">
+    <value>涵盖新测试和受影响的测试</value>
+  </data>
+  <data name="EditFilterDialogs_ClassError" xml:space="preserve">
+    <value>类名掩码不得为空</value>
+  </data>
+  <data name="Dialog_DoNotShowAgain_Text" xml:space="preserve">
+    <value>不再显示(_D)</value>
+  </data>
+  <data name="DataSliceType_ContinuousTestingSession" xml:space="preserve">
+    <value>持续测试会话</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeStatementsUncoveredByTests" xml:space="preserve">
+    <value>**{0}** 条语句未被测试覆盖</value>
+  </data>
+  <data name="ShowCoveringTestsActionText" xml:space="preserve">
+    <value>显示覆盖的测试</value>
+  </data>
+  <data name="DotCoverSetTestsToContinuousTestingContextActionText" xml:space="preserve">
+    <value>将所选测试设置为连续测试会话</value>
+  </data>
+  <data name="HotSpotsActionText" xml:space="preserve">
+    <value>热点</value>
+  </data>
+  <data name="LineMarkerTooltip_OneStatementUncovered" xml:space="preserve">
+    <value>**1** 条语句未被覆盖</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ShowStatusBarIndicator_Caption" xml:space="preserve">
+    <value>在状态栏上显示持续测试指示器</value>
+  </data>
+  <data name="CoverageTreeActionText" xml:space="preserve">
+    <value>覆盖率树</value>
+  </data>
+  <data name="LineMarkerTooltip_CodeChangedSinceBuild" xml:space="preserve">
+    <value>自上次构建以来代码已被更改。</value>
+  </data>
+  <data name="ContinuousTestingTriggerModeSettingDescription" xml:space="preserve">
+    <value>持续测试触发模式</value>
+  </data>
+  <data name="CoverApplicationActionText" xml:space="preserve">
+    <value>覆盖应用程序(&amp;C)…</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_PageTitle" xml:space="preserve">
+    <value>持续测试</value>
+  </data>
+  <data name="ReportDialog_Title" xml:space="preserve">
+    <value>将覆盖率快照导出到 {0}</value>
+  </data>
+  <data name="DataSliceType_AllTestsInActiveSession" xml:space="preserve">
+    <value>有效会话中的所有测试</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_CopyConfigurationButton_Tooltip" xml:space="preserve">
+    <value>根据当前的运行配置创建新的运行配置</value>
+  </data>
+  <data name="ReportDialog_Error" xml:space="preserve">
+    <value>无法创建报告。{0}</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_Dialog_Title_Add" xml:space="preserve">
+    <value>添加程序集筛选器</value>
+  </data>
+  <data name="CoverNewAndOutdatedTestsActionText" xml:space="preserve">
+    <value>覆盖新的和过时的测试</value>
+  </data>
+  <data name="InitialDirectorySettingDescription" xml:space="preserve">
+    <value>InitialDirectory</value>
+  </data>
+  <data name="OpenCoverageSnapshotDialog_Title" xml:space="preserve">
+    <value>打开覆盖率快照</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_EnableDotCoverBackendDebug" xml:space="preserve">
+    <value>启用外部存储调试</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerOnAction_WithoutShortcut" xml:space="preserve">
+    <value>快捷键:</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_ControlKind_Manually" xml:space="preserve">
+    <value>手动</value>
+  </data>
+  <data name="UnitTestHostProvider_Cover" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="LineMarkerTooltip_OneStatementCovered" xml:space="preserve">
+    <value>**1** 条语句已被覆盖</value>
+  </data>
+  <data name="CodeInsights_SomeTestsFailed" xml:space="preserve">
+    <value>{0} 个测试失败</value>
+  </data>
+  <data name="SolutionBasedCoverageAndAttributeFiltersSettingsSettingDescription" xml:space="preserve">
+    <value>基于解决方案的覆盖率和特性筛选器的设置</value>
+  </data>
+  <data name="GroupNameIndexSectionActionText" xml:space="preserve">
+    <value>组名称索引部分</value>
+  </data>
+  <data name="LineMarkerTooltip_CodeHasBeenAdded" xml:space="preserve">
+    <value>自上次构建以来已添加代码</value>
+  </data>
+  <data name="Validation_WorkingDirectoryPathTooLong" xml:space="preserve">
+    <value>工作目录路径过长</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ShadowCopyAllFiles_Caption" xml:space="preserve">
+    <value>运行测试时，卷影复制:</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_UsePsiBasedChangesDetection_Caption" xml:space="preserve">
+    <value>使用基于 PSI 的更改检测</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_BuildMode_TestProjects" xml:space="preserve">
+    <value>仅与持续测试会话相关的项目</value>
+  </data>
+  <data name="CoverUnItTestsActionGroupText" xml:space="preserve">
+    <value>覆盖单元测试(&amp;I)</value>
+  </data>
+  <data name="DotCoverOptions_Editor_ConsiderUnitTestResultsInHighlightingColors_Description" xml:space="preserve">
+    <value>如果禁用，高亮显示功能仅显示代码覆盖率</value>
+  </data>
+  <data name="EditFilterDialogs_Method" xml:space="preserve">
+    <value>方法:</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_RuntimeFilters_Header" xml:space="preserve">
+    <value>运行时覆盖率筛选器</value>
+  </data>
+  <data name="EditFilterDialogs_MethodError" xml:space="preserve">
+    <value>方法名称掩码不得为空</value>
+  </data>
+  <data name="DotCoverOptions_Editor_UseShapedMarkers" xml:space="preserve">
+    <value>使用形状标记(色盲模式)</value>
+  </data>
+  <data name="LineMarkerTooltip_OneTestOutdated" xml:space="preserve">
+    <value>**1** 个测试**已过时**</value>
+  </data>
+  <data name="CoveragePercent" xml:space="preserve">
+    <value>已覆盖 {0}%</value>
+  </data>
+  <data name="UnitTestingSettingsActionText" xml:space="preserve">
+    <value>单元测试设置…</value>
+  </data>
+  <data name="DotCoverOptions_General_UseNGenImages" xml:space="preserve">
+    <value>使用 NGen 原生映像(_N)</value>
+  </data>
+  <data name="ProfilerConfigurator_ConfigurationWizardDialog_CancelButton_Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="UnitTestCoverage" xml:space="preserve">
+    <value>单元测试覆盖率</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_CoreLogLevel_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_WorkingDirectory_Text" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="DotCoverOptions_Feedback_PageTitle" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_Step1Header_CoverApplication" xml:space="preserve">
+    <value>覆盖应用程序</value>
+  </data>
+  <data name="CodeInsights_OneTestSucceedWithFailed" xml:space="preserve">
+    <value>1 个测试正常，{0} 个失败</value>
+  </data>
+  <data name="DotCoverAppendAndEnableContinuousTestingActionText" xml:space="preserve">
+    <value>将测试附加到连续测试会话</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_RemovalConfirmation_Plural" xml:space="preserve">
+    <value>确定要移除这些程序集筛选器吗?</value>
+  </data>
+  <data name="CodeInsights_SomeCoveringTestsFailed" xml:space="preserve">
+    <value>{0} 个覆盖测试失败</value>
+  </data>
+  <data name="StatusBarIndicator_Tooltip_BuildFailed" xml:space="preserve">
+    <value>构建失败</value>
+  </data>
+  <data name="RunSelectedTestsActionText" xml:space="preserve">
+    <value>运行所选测试</value>
+  </data>
+  <data name="TriggerContinuousTestingActionText" xml:space="preserve">
+    <value>触发持续测试</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeStatementsPartlyCovered" xml:space="preserve">
+    <value>**{0}** 条语句被测试部分覆盖</value>
+  </data>
+  <data name="SomeTestsOutdated" xml:space="preserve">
+    <value>某些测试已过时</value>
+  </data>
+  <data name="DotCoverOptions_General_UseNGenImages_Description" xml:space="preserve">
+    <value>如果启用，则允许 .NET Framework 运行时在覆盖率分析期间加载应用程序的原生映像。在大多数情况下，这样可以加快分析速度。在某些情况下，无法使用原生映像: 这可能导致出现无结论测试或应用程序异常。</value>
+  </data>
+  <data name="EditFilterDialogs_DontAnalyzeCode" xml:space="preserve">
+    <value>代码分析的排除范围</value>
+  </data>
+  <data name="DataSliceType_AllTests" xml:space="preserve">
+    <value>所有测试</value>
+  </data>
+  <data name="CodeInsights_SomeCoveringTestsSucceedWithFailed" xml:space="preserve">
+    <value>{0} 个覆盖测试正常，{1} 个失败</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementUncovered" xml:space="preserve">
+    <value>语句未被覆盖</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_Dialog_Title_Edit" xml:space="preserve">
+    <value>编辑特性筛选器</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_DeleteConfigurationButton_Tooltip" xml:space="preserve">
+    <value>删除运行配置</value>
+  </data>
+  <data name="CoverageFiltersSettingDescription" xml:space="preserve">
+    <value>覆盖率筛选器</value>
+  </data>
+  <data name="DotCoverOptions_Editor_ConsiderUnitTestResultsInHighlightingColors" xml:space="preserve">
+    <value>使用高亮显示显示单元测试结果</value>
+  </data>
+  <data name="CoverageFilterSettingsActionText" xml:space="preserve">
+    <value>覆盖率筛选器设置</value>
+  </data>
+  <data name="RunNewAndOutdatedTestsActionText" xml:space="preserve">
+    <value>运行新的和过时的测试</value>
+  </data>
+  <data name="ReportDialog_OpenReportQuestion" xml:space="preserve">
+    <value>报告已成功生成。是否要打开报告?</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerMode_OnSave" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerOnAction_Edit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_Dialog_ValueHeader" xml:space="preserve">
+    <value>不分析使用特性标记的代码:</value>
+  </data>
+  <data name="StatusBarIndicator_Tooltip_TestsPassed" xml:space="preserve">
+    <value>{0} 个测试通过</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_PageTitle" xml:space="preserve">
+    <value>筛选</value>
+  </data>
+  <data name="TargetFrameworkFilterPresentation_MultipleTargetFramework" xml:space="preserve">
+    <value>多个目标框架({0})</value>
+  </data>
+  <data name="CoverStartupProjectActionText" xml:space="preserve">
+    <value>覆盖启动项目(&amp;S)</value>
+  </data>
+  <data name="Report_Html" xml:space="preserve">
+    <value>Html</value>
+  </data>
+  <data name="Report_Json" xml:space="preserve">
+    <value>Json</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_RemovalConfirmation_Singular" xml:space="preserve">
+    <value>确定要移除该程序集筛选器吗?</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AssemblyFilters_Header" xml:space="preserve">
+    <value>不分析程序集中的代码</value>
+  </data>
+  <data name="SomeTestsFailed" xml:space="preserve">
+    <value>某些测试失败</value>
+  </data>
+  <data name="DetectEncodingByFileOnDisk" xml:space="preserve">
+    <value>通过磁盘上的文件检测文档编码</value>
+  </data>
+  <data name="CodeInsights_OneTestFailed" xml:space="preserve">
+    <value>1 个测试失败</value>
+  </data>
+  <data name="Validation_NameCannotBeEmpty" xml:space="preserve">
+    <value>名称不能为空</value>
+  </data>
+  <data name="ProfilerConfigurator_ConfigurationWizardDialog_SaveButton_Text" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="WelcomeScreen_Header" xml:space="preserve">
+    <value>欢迎使用 dotCover</value>
+  </data>
+  <data name="Validation_UrlInvalid" xml:space="preserve">
+    <value>URL 格式无效</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementChanged_Uncovered" xml:space="preserve">
+    <value>语句 {0} 已更改。**上一个状态:** 未被覆盖</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_EmptyState_AddButtonText" xml:space="preserve">
+    <value>添加特性类名称</value>
+  </data>
+  <data name="StatementCoverageIndexSectionActionText" xml:space="preserve">
+    <value>语句覆盖率索引部分</value>
+  </data>
+  <data name="LineMarkerTooltip_OneStatementCoveredByTests" xml:space="preserve">
+    <value>语句被测试覆盖</value>
+  </data>
+  <data name="DotCoverOptions_Editor_HighlightingMode" xml:space="preserve">
+    <value>代码覆盖率高亮显示方式:</value>
+  </data>
+  <data name="DotCoverOptions_General_PageTitle" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="StatusBarIndicator_Tooltip_TestFailed" xml:space="preserve">
+    <value>1 个测试失败</value>
+  </data>
+  <data name="DotCoverNavigateToNextIssueActionText" xml:space="preserve">
+    <value>导航到下一个问题</value>
+  </data>
+  <data name="GotoPreviousUncoveredStatementActionText" xml:space="preserve">
+    <value>转到上一条未覆盖的语句</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_BuildMode_TestProjectsAndProjectsWithCoverage" xml:space="preserve">
+    <value>与持续测试会话相关的项目和覆盖率分析中包含的项目</value>
+  </data>
+  <data name="CoverSelectedTestsActionText" xml:space="preserve">
+    <value>覆盖所选测试</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_ResultFilters_Description" xml:space="preserve">
+    <value>dotCover 会对覆盖结果应用这些筛选器。使用这些筛选器可以排除不必要的节点并降低覆盖率树中的“噪声”。</value>
+  </data>
+  <data name="Validation_TargetArgumentsTooLong" xml:space="preserve">
+    <value>目标实参过长</value>
+  </data>
+  <data name="LineMarkerTooltip_OneTestPassed" xml:space="preserve">
+    <value>**1** 个测试**通过**</value>
+  </data>
+  <data name="UnitTestsCoverage_Text" xml:space="preserve">
+    <value>单元测试覆盖率</value>
+  </data>
+  <data name="MatchCoverageResultsWithCurrentProjectStructureActionText" xml:space="preserve">
+    <value>将覆盖率结果与当前项目结构相匹配</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_Title" xml:space="preserve">
+    <value>覆盖配置</value>
+  </data>
+  <data name="CodeInsights_OneCoveringTestSucceed" xml:space="preserve">
+    <value>1 个覆盖测试正常</value>
+  </data>
+  <data name="EditFilterDialogs_AssemblyError" xml:space="preserve">
+    <value>程序集名称掩码不得为空</value>
+  </data>
+  <data name="ProfilerController_DropDataButton_Text" xml:space="preserve">
+    <value>删除数据</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_Dialog_Title_Add" xml:space="preserve">
+    <value>添加特性筛选器</value>
+  </data>
+  <data name="InAllTargetFrameworksActionText" xml:space="preserve">
+    <value>在所有目标框架中(&amp;I)</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint1" xml:space="preserve">
+    <value>在新行中指定每个变量，例如:</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint3" xml:space="preserve">
+    <value>ASPNETCORE_URLS=http://localhost:5000</value>
+  </data>
+  <data name="ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint2" xml:space="preserve">
+    <value>ASPNETCORE_ENVIRONMENT=Development</value>
+  </data>
+  <data name="CodeInsights_SomeTestsSucceedWithFailed" xml:space="preserve">
+    <value>{0} 个测试正常，{1} 个失败</value>
+  </data>
+  <data name="WelcomeScreen_Message" xml:space="preserve">
+    <value>执行覆盖率分析，探索快照，
+寻找改进应用程序的新机会</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ContinuousTestingMode_CoverNewAndOutdated" xml:space="preserve">
+    <value>涵盖新测试和受影响的测试</value>
+  </data>
+  <data name="ExcludeFromCoverageResultsActionText" xml:space="preserve">
+    <value>从覆盖率结果中排除</value>
+  </data>
+  <data name="UnitTesting_CoverAllTestsAction_Text" xml:space="preserve">
+    <value>覆盖所有测试</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ShadowCopyAllFiles_ByFiler" xml:space="preserve">
+    <value>测试开始文件夹中的文件</value>
+  </data>
+  <data name="ExportToXMLActionText" xml:space="preserve">
+    <value>导出到 XML…</value>
+  </data>
+  <data name="MergeCoverageSnapshotsActionText" xml:space="preserve">
+    <value>合并覆盖率快照(&amp;M)…</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_Step2Header_SpecifyCoverageOptions" xml:space="preserve">
+    <value>指定覆盖选项</value>
+  </data>
+  <data name="ModuleStatSectionActionText" xml:space="preserve">
+    <value>ModuleStat 部分</value>
+  </data>
+  <data name="Report_NDependXml" xml:space="preserve">
+    <value>XML for NDepend</value>
+  </data>
+  <data name="RunAllTestsActionText" xml:space="preserve">
+    <value>运行所有测试</value>
+  </data>
+  <data name="LineMarkerTooltip_OneStatementUncoveredByTests" xml:space="preserve">
+    <value>语句未被测试覆盖</value>
+  </data>
+  <data name="CoverageAnalysis" xml:space="preserve">
+    <value>覆盖率分析</value>
+  </data>
+  <data name="SaveCoverageSnapshotActionText" xml:space="preserve">
+    <value>保存覆盖率快照…</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_IIS_Description" xml:space="preserve">
+    <value>IIS 托管的 Web 应用程序</value>
+  </data>
+  <data name="FileExtension_Html" xml:space="preserve">
+    <value>.html</value>
+  </data>
+  <data name="FileExtension_Json" xml:space="preserve">
+    <value>.json</value>
+  </data>
+  <data name="WaitingUnitSessionsLoadingMessage" xml:space="preserve">
+    <value>正在等待单元测试会话加载</value>
+  </data>
+  <data name="CodeInsights_SomeCoveringTestsSucceed" xml:space="preserve">
+    <value>{0} 个覆盖测试正常</value>
+  </data>
+  <data name="CodeInsights_OneCoveringTestSucceedWithFailed" xml:space="preserve">
+    <value>1 个覆盖测试正常，{0} 个失败</value>
+  </data>
+  <data name="DotCoverOptions_Editor_HighlightingMode_OnlyFullLine" xml:space="preserve">
+    <value>行背景</value>
+  </data>
+  <data name="CoveringTestsPopup_TestPresentationText" xml:space="preserve">
+    <value>{0}**{1}** *(in {2})*</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_PageTitle" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementICovered" xml:space="preserve">
+    <value>语句 {0} 已被覆盖:</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeStatementsCoveredByTests" xml:space="preserve">
+    <value>**{0}** 条语句被测试覆盖</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_OnDemand_VsDescription" xml:space="preserve">
+    <value>要更改快捷键，请在 *{1}* 中找到 *{0}* 操作</value>
+  </data>
+  <data name="GotoNextUncoveredStatementActionText" xml:space="preserve">
+    <value>转到下一条未覆盖的语句</value>
+  </data>
+  <data name="ProfilerController_KillButton_Text" xml:space="preserve">
+    <value>终止</value>
+  </data>
+  <data name="ProfilerConfigurator_ConfigurationWizardDialog_NextButton_Text" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="Validation_TargetExecutableDoesNotExist" xml:space="preserve">
+    <value>找不到指定的目标可执行文件</value>
+  </data>
+  <data name="StatusBarIndicator_Tooltip_TestPassed" xml:space="preserve">
+    <value>1 个测试通过</value>
+  </data>
+  <data name="StatusBarIndicator_Tooltip_TestsFailed" xml:space="preserve">
+    <value>{0} 个测试失败</value>
+  </data>
+  <data name="AttributeFiltersSettingDescription" xml:space="preserve">
+    <value>特性筛选器</value>
+  </data>
+  <data name="WelcomeScreen_OpenSnapshotButton" xml:space="preserve">
+    <value>打开快照</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerOnAction_NotAssigned" xml:space="preserve">
+    <value>未分配</value>
+  </data>
+  <data name="DotCoverOptions_Diagnostics_CoreLogLevel_Trace" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="DotCoverOptions_Region_PageTitle" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_TriggerOnAction_WithShortcut" xml:space="preserve">
+    <value>快捷键: *{0} *</value>
+  </data>
+  <data name="LineMarkerTooltip_OneTestFailed" xml:space="preserve">
+    <value>**1** 个测试**失败**</value>
+  </data>
+  <data name="ExcludeAllButThisActionText" xml:space="preserve">
+    <value>排除除此之外的所有节点</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_HighlightContinuousTestingSession_Caption" xml:space="preserve">
+    <value>为连续测试会话自动显示覆盖率结果</value>
+  </data>
+  <data name="FileTypeFilter_ExecutableFiles" xml:space="preserve">
+    <value>可执行文件</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_WindowsService_Description" xml:space="preserve">
+    <value>.NET Windows 服务</value>
+  </data>
+  <data name="ContinuousTestingMode_RunNewAndOutdated" xml:space="preserve">
+    <value>运行新测试和受影响的测试</value>
+  </data>
+  <data name="AppliedDefaultAttributeFiltersSettingDescription" xml:space="preserve">
+    <value>应用的默认特性筛选器</value>
+  </data>
+  <data name="ProfilerConfigurator_StandaloneConfigurator_ChooseTargetExecutableDialog_Title" xml:space="preserve">
+    <value>选择目标可执行文件</value>
+  </data>
+  <data name="AppendToSession" xml:space="preserve">
+    <value>附加到会话</value>
+  </data>
+  <data name="ProfilerConfigurator_ApplicationTypeSelector_Header" xml:space="preserve">
+    <value>选择应用程序类型</value>
+  </data>
+  <data name="Pencil_GutterMarkers" xml:space="preserve">
+    <value>装订区域标记</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ContinuousTestingMode_RunNewAndOutdated" xml:space="preserve">
+    <value>运行新测试和受影响的测试</value>
+  </data>
+  <data name="ContinuousTestingModeActionPresentationText" xml:space="preserve">
+    <value>自动启动测试: {0}</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_RemovalConfirmation_Singular" xml:space="preserve">
+    <value>确定要移除该特性筛选器吗?</value>
+  </data>
+  <data name="UseNewCoverageIndicatorDescription" xml:space="preserve">
+    <value>使用新的覆盖率指示器</value>
+  </data>
+  <data name="TargetFrameworkFilterPresentation_Description" xml:space="preserve">
+    <value>按目标框架筛选覆盖率树</value>
+  </data>
+  <data name="OpenSettingsActionGroupText" xml:space="preserve">
+    <value>打开设置</value>
+  </data>
+  <data name="LineMarkerTooltip_StatementAdded" xml:space="preserve">
+    <value>语句 {0} 已添加</value>
+  </data>
+  <data name="DotCoverOptions_ContinuousTesting_ShadowCopyAllFiles_AssembliesAndSymbols" xml:space="preserve">
+    <value>程序集和符号文件</value>
+  </data>
+  <data name="ExportCoverageReportActionGroupText" xml:space="preserve">
+    <value>导出覆盖率报告…</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_Step3Header_RunAnalysis" xml:space="preserve">
+    <value>运行分析</value>
+  </data>
+  <data name="UnitTesting_CoverUnitTestsAction_Text" xml:space="preserve">
+    <value>覆盖单元测试(&amp;I)</value>
+  </data>
+  <data name="EditFilterDialogs_Assembly" xml:space="preserve">
+    <value>程序集:</value>
+  </data>
+  <data name="LineMarkerTooltip_SomeStatementsCovered" xml:space="preserve">
+    <value>**{0}** 条语句已被覆盖</value>
+  </data>
+  <data name="Validation_NameTooLong" xml:space="preserve">
+    <value>名称过长</value>
+  </data>
+  <data name="DotCoverOptions_Filtering_AttributeFilters_Dialog_EmptyValueError" xml:space="preserve">
+    <value>特性类名称掩码不得为空</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_AddConfigurationButton_Tooltip" xml:space="preserve">
+    <value>添加运行配置</value>
+  </data>
+  <data name="ProfilerConfigurator_CoverageConfigurationDialog_ControlKindLabel_Text" xml:space="preserve">
+    <value>如何控制覆盖率分析</value>
+  </data>
+</root>

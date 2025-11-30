@@ -1,0 +1,2517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_ReturnType_Text" xml:space="preserve">
+    <value>返回值类型(_R):</value>
+  </data>
+  <data name="Same_fileAsTheSource_Text" xml:space="preserve">
+    <value>与源相同的文件(_F)</value>
+  </data>
+  <data name="RenameFileAndUpdateReferencesToIt_Text" xml:space="preserve">
+    <value>重命名文件并更新对它的引用</value>
+  </data>
+  <data name="ExtensionMethodToPlainStaticActionText" xml:space="preserve">
+    <value>扩展方法到纯静态…</value>
+  </data>
+  <data name="AdjustNamespacesActionText" xml:space="preserve">
+    <value>调整命名空间…</value>
+  </data>
+  <data name="UseInputContextClass_DescriptionText" xml:space="preserve">
+    <value>使用相同形参作为输入</value>
+  </data>
+  <data name="_ExtractMethod_Text" xml:space="preserve">
+    <value>提取方法(&amp;E)</value>
+  </data>
+  <data name="_Implements_ThatWillNotBeChangedPlease_Text" xml:space="preserve">
+    <value>{0}实现不会被更改的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="Replace1Occurrence_Text" xml:space="preserve">
+    <value>替换 1 个匹配项</value>
+  </data>
+  <data name="Extract_Superclass_Text" xml:space="preserve">
+    <value>提取超类(&amp;S)</value>
+  </data>
+  <data name="Converted_IsQuasiImplementedBy_That_Text" xml:space="preserve">
+    <value>转换的{0}由不会被转换的{1}准实现。请手动解决冲突。</value>
+  </data>
+  <data name="ParameterCannottBeParams_Text" xml:space="preserve">
+    <value>类型 {1} 的形参 {0} 不能带有 'params' 修饰符</value>
+  </data>
+  <data name="TypeCannotBeUsedAtTheCallSite_Text" xml:space="preserve">
+    <value>不能在调用点使用类型</value>
+  </data>
+  <data name="RefOut_Text" xml:space="preserve">
+    <value>ref out</value>
+  </data>
+  <data name="AnonymousTypesCannotCrossExtractedBlock_Text" xml:space="preserve">
+    <value>匿名类型不能跨越提取的块边界</value>
+  </data>
+  <data name="RemovingUnusedUsings_Text" xml:space="preserve">
+    <value>移除未使用的 using…</value>
+  </data>
+  <data name="SearchIn_commentsAndStringLiterals_Text" xml:space="preserve">
+    <value>在注释和字符串字面量中搜索(_C)</value>
+  </data>
+  <data name="ResolveWithCallTree_DescriptionText" xml:space="preserve">
+    <value>使用调用树解决(_T)</value>
+  </data>
+  <data name="LeaveAsIs_Text" xml:space="preserve">
+    <value>保持原样</value>
+  </data>
+  <data name="TargetFolderShouldBeDifferentFromThe_Text" xml:space="preserve">
+    <value>目标文件夹必须与初始文件夹不同</value>
+  </data>
+  <data name="_ParameterUsagesWillBeBroken_Text" xml:space="preserve">
+    <value>{0,形参}用法将被破坏</value>
+  </data>
+  <data name="SelectionShouldnTBeEmpty_Text" xml:space="preserve">
+    <value>选区不得为空</value>
+  </data>
+  <data name="ErrorInDefaultValueExpression_Text" xml:space="preserve">
+    <value>默认值表达式出错</value>
+  </data>
+  <data name="_ClassStructureAndInterfaceDeclarations_Text" xml:space="preserve">
+    <value>类、结构和接口声明(_C)</value>
+  </data>
+  <data name="SelectWhereToMove_Text" xml:space="preserve">
+    <value>选择要移动到的位置:</value>
+  </data>
+  <data name="ThereAreUsagesOf_WhatWouldYouLikeTo_Text" xml:space="preserve">
+    <value>存在 {0} 的用法。您想做什么?</value>
+  </data>
+  <data name="Method_InvalidatedSinceRefactoringStarted_Text" xml:space="preserve">
+    <value>方法 {0} 自重构开始后失效</value>
+  </data>
+  <data name="Starting_Text" xml:space="preserve">
+    <value>正在启动</value>
+  </data>
+  <data name="TheNameOfTheRootNamespaceDiffersFrom_Text" xml:space="preserve">
+    <value>根命名空间的名称与项目名称不同，不能重命名</value>
+  </data>
+  <data name="SetParamsModifierRefactoringTitle" xml:space="preserve">
+    <value>将 'params' 修饰符添加到形参</value>
+  </data>
+  <data name="MakePublic_DescriptionText" xml:space="preserve">
+    <value>设为 public</value>
+  </data>
+  <data name="LanguageOfSourceCodeIsNotSupportedBy_Text" xml:space="preserve">
+    <value>重构不支持源代码的语言</value>
+  </data>
+  <data name="Method_returns_Text" xml:space="preserve">
+    <value>方法返回(_R):</value>
+  </data>
+  <data name="NotSupportedForThisProject_Text" xml:space="preserve">
+    <value>(此项目不支持)</value>
+  </data>
+  <data name="UseSelectedExpressionAsASource_Text" xml:space="preserve">
+    <value>使用所选表达式作为源</value>
+  </data>
+  <data name="ExtractMethodActionText" xml:space="preserve">
+    <value>提取方法…</value>
+  </data>
+  <data name="PartialDeclarationInFile_IsNotIncluded_Text" xml:space="preserve">
+    <value>不包括文件 {0} 中的{{0,分部声明}}</value>
+  </data>
+  <data name="PullMembersUp_Text" xml:space="preserve">
+    <value>向上拉取成员</value>
+  </data>
+  <data name="InC_lass_Text" xml:space="preserve">
+    <value>在类中(_L):</value>
+  </data>
+  <data name="ExpressionTypeIsVoid_Text" xml:space="preserve">
+    <value>表达式类型为 void</value>
+  </data>
+  <data name="IndexerToFunction_Text" xml:space="preserve">
+    <value>函数的索引器</value>
+  </data>
+  <data name="PreparingNewArguments_Text" xml:space="preserve">
+    <value>正在准备新实参…</value>
+  </data>
+  <data name="_FromDeletedElementOverridesAbstract_Text" xml:space="preserve">
+    <value>来自删除的元素的{0}重写 abstract {1}</value>
+  </data>
+  <data name="Generate_ToString_Text" xml:space="preserve">
+    <value>生成 ToString()(_T)</value>
+  </data>
+  <data name="ExtractedBlockHasMultipleEntries_Text" xml:space="preserve">
+    <value>提取的块有多个条目</value>
+  </data>
+  <data name="ExtractMethod_Caption" xml:space="preserve">
+    <value>提取方法</value>
+  </data>
+  <data name="Generate_recordType_Text" xml:space="preserve">
+    <value>生成记录类型(_R)</value>
+  </data>
+  <data name="NewDeclarationIsHiddenBy__Text" xml:space="preserve">
+    <value>新声明被{0}隐藏</value>
+  </data>
+  <data name="Symbol_Text" xml:space="preserve">
+    <value>符号</value>
+  </data>
+  <data name="Members_ColumnName" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="_WithSetterAlreadyExists_Text" xml:space="preserve">
+    <value>已存在带有 setter 的{0}</value>
+  </data>
+  <data name="CheckingAndFixingUsage_Text" xml:space="preserve">
+    <value>正在检查和修正用法</value>
+  </data>
+  <data name="ScanningFiles_Text" xml:space="preserve">
+    <value>正在扫描文件…</value>
+  </data>
+  <data name="CheckingForHiddenMembers_Text" xml:space="preserve">
+    <value>正在检查隐藏成员…</value>
+  </data>
+  <data name="SourceClass_Text" xml:space="preserve">
+    <value>源类:</value>
+  </data>
+  <data name="UnableToCreateClassDeclarationParameters_Text" xml:space="preserve">
+    <value>无法创建类声明，形参所有者无效</value>
+  </data>
+  <data name="NewClassWithAutoProperties_DescriptionText" xml:space="preserve">
+    <value>具有自动属性的新类</value>
+  </data>
+  <data name="SelectAn_instanceParameter_Text" xml:space="preserve">
+    <value>选择一个实例形参(_I):</value>
+  </data>
+  <data name="UnableToMove_AFileWithTheSameNameExists_Text" xml:space="preserve">
+    <value>无法移动{0}。目标文件夹中已存在同名文件。</value>
+  </data>
+  <data name="OldName_Column_Text" xml:space="preserve">
+    <value>旧名称</value>
+  </data>
+  <data name="_RenameRelatedSymbols_Text" xml:space="preserve">
+    <value>重命名相关符号(_R)</value>
+  </data>
+  <data name="AnonymousToDeclaredTypeRefactoringMRUSettingDescription" xml:space="preserve">
+    <value>Anonymous to Declared Type refactoring MRU</value>
+  </data>
+  <data name="ConstructorToFactoryMethod_Text" xml:space="preserve">
+    <value>构造函数到工厂方法</value>
+  </data>
+  <data name="RemoveParamsModifierActionText" xml:space="preserve">
+    <value>从形参中移除 'params' 修饰符…</value>
+  </data>
+  <data name="MethodBodyWillHaveErrorsBecauseItUsesMembers_Text" xml:space="preserve">
+    <value>方法主体会出错，因为它使用了实例成员</value>
+  </data>
+  <data name="Make_default_Text" xml:space="preserve">
+    <value>设为默认(_D)</value>
+  </data>
+  <data name="Parameter_Column_Name" xml:space="preserve">
+    <value>形参</value>
+  </data>
+  <data name="AfterMove_Text" xml:space="preserve">
+    <value>移动后</value>
+  </data>
+  <data name="Preview_Text" xml:space="preserve">
+    <value>预览:</value>
+  </data>
+  <data name="ConvertPropertyToAutoProperty_Text" xml:space="preserve">
+    <value>将属性转换为自动属性…</value>
+  </data>
+  <data name="NameIsInvalid_Text" xml:space="preserve">
+    <value>名称无效</value>
+  </data>
+  <data name="_UseBaseTypeWherePossible_Text" xml:space="preserve">
+    <value>尽可能使用基类型(&amp;U)</value>
+  </data>
+  <data name="Rename_Text" xml:space="preserve">
+    <value>重命名</value>
+  </data>
+  <data name="ParametersThatCanBeSafely_removed_Text" xml:space="preserve">
+    <value>可以安全移除的形参(_R):</value>
+  </data>
+  <data name="WebPageCannotBeMovedIntoAppCodeFolder_Text" xml:space="preserve">
+    <value>不能将网页移至网站的 AppCode 文件夹</value>
+  </data>
+  <data name="PleaseReviewElementsThatWillBe_deleted_Text" xml:space="preserve">
+    <value>请检查将被删除的元素(_D):</value>
+  </data>
+  <data name="UnableToIntroduceVariable_Text" xml:space="preserve">
+    <value>无法引入变量</value>
+  </data>
+  <data name="RefactoringFailedToCreateBaseTypeDeclaration_Text" xml:space="preserve">
+    <value>重构无法创建基类型声明</value>
+  </data>
+  <data name="InvertBooleanActionText" xml:space="preserve">
+    <value>反转布尔值…</value>
+  </data>
+  <data name="FileName_IsAlreadyUsedForAnotherMoved_Text" xml:space="preserve">
+    <value>文件名 '{0}' 已被用于另一个移动的声明</value>
+  </data>
+  <data name="_HasType_ThatCannotBeUsedDirectlyFrom_Text" xml:space="preserve">
+    <value>{{0}} 具有不能直接从调用点使用的类型 {0}</value>
+  </data>
+  <data name="PartOf_IsNotIncludedOtherPartCannot_Text" xml:space="preserve">
+    <value>不包括{0}的一部分。其他部分不能被移至另一个项目。</value>
+  </data>
+  <data name="_ExtendsConvertedInterface_Text" xml:space="preserve">
+    <value>{0}扩展转换的接口</value>
+  </data>
+  <data name="UnableToMove_StructureOfDependentFiles_Text" xml:space="preserve">
+    <value>无法移动 {0}。不能识别依赖文件的结构。</value>
+  </data>
+  <data name="Convert_getterToMethodWithName_Text" xml:space="preserve">
+    <value>将 getter 转换为带有名称的方法(_G):</value>
+  </data>
+  <data name="CollectingProjectReferencesInTheSource_Text" xml:space="preserve">
+    <value>正在收集源代码中的项目引用</value>
+  </data>
+  <data name="Solution_DescriptionText" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="GenerateE_qualsAndGetHashCode_Text" xml:space="preserve">
+    <value>生成 Equals() 和 GetHashCode()(_Q)</value>
+  </data>
+  <data name="ChangeSignatureIsAppliedTo_ThatAlsoImplements_Text" xml:space="preserve">
+    <value>“更改签名”应用于也实现不会被转换的{1}的{0}。请手动解决冲突。</value>
+  </data>
+  <data name="SetParamsModifier_Text" xml:space="preserve">
+    <value>将 'params' 修饰符添加到形参</value>
+  </data>
+  <data name="RenameF_Ile_Text" xml:space="preserve">
+    <value>重命名文件(&amp;I)</value>
+  </data>
+  <data name="FixingCode_Text" xml:space="preserve">
+    <value>正在修正代码…</value>
+  </data>
+  <data name="InvertBooleanValue_Text" xml:space="preserve">
+    <value>反转布尔值</value>
+  </data>
+  <data name="AnalyseTypeParameters_Text" xml:space="preserve">
+    <value>分析类型形参…</value>
+  </data>
+  <data name="NewClassWithPublicFields_DescriptionText" xml:space="preserve">
+    <value>具有 public 字段的新类</value>
+  </data>
+  <data name="InvertBoolean_Text" xml:space="preserve">
+    <value>反转布尔</value>
+  </data>
+  <data name="Re_Name_Text" xml:space="preserve">
+    <value>重命名(&amp;N)</value>
+  </data>
+  <data name="_TargetFolder_Text" xml:space="preserve">
+    <value>目标文件夹(_T):</value>
+  </data>
+  <data name="_FixNamespaces_Text" xml:space="preserve">
+    <value>修正命名空间(_F)</value>
+  </data>
+  <data name="DoNotUpdate_localUsages_Text" xml:space="preserve">
+    <value>不更新局部用法(_L)</value>
+  </data>
+  <data name="ExtensionMethodTo_PlainStatic_Text" xml:space="preserve">
+    <value>扩展方法到纯 static(&amp;P)</value>
+  </data>
+  <data name="Error_Caption" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="_WriteUsages_Text" xml:space="preserve">
+    <value>写入用法(_W)</value>
+  </data>
+  <data name="Inline_allUsages_Text" xml:space="preserve">
+    <value>内联所有用法(_A)</value>
+  </data>
+  <data name="MakeAbstract_ColumnName" xml:space="preserve">
+    <value>设为 abstract</value>
+  </data>
+  <data name="ExpressionTypeIsUnknown_Text" xml:space="preserve">
+    <value>表达式类型未知</value>
+  </data>
+  <data name="FieldInitializer_DescriptionText" xml:space="preserve">
+    <value>字段初始值设定项(_F)</value>
+  </data>
+  <data name="AdjustNamespaces_Text" xml:space="preserve">
+    <value>调整命名空间</value>
+  </data>
+  <data name="UnableToMove_BecauseThereIsAnotherDeclaration_Text" xml:space="preserve">
+    <value>无法移动 {{0}}，因为有另一个声明将被移动到文件 '{0}' 中</value>
+  </data>
+  <data name="__OverridesImplements_FromCompiledCode_Text" xml:space="preserve">
+    <value>{0} {1} 从已编译代码重写(实现) {2}。将对 {3} 类的后代执行重构。要继续重构吗?</value>
+  </data>
+  <data name="ExtractMethodPage_NameSuggestionGenerationFailed_Text" xml:space="preserve">
+    <value>无法生成名称建议</value>
+  </data>
+  <data name="MethodToPropertyActionText" xml:space="preserve">
+    <value>方法到属性…</value>
+  </data>
+  <data name="InvalidTupleComponentName_Text" xml:space="preserve">
+    <value>元组组件名称无效</value>
+  </data>
+  <data name="GenerateRecordTypeSettingDescription" xml:space="preserve">
+    <value>生成记录类型</value>
+  </data>
+  <data name="Converted_AlsoOverrides_ThatWillNot_Text" xml:space="preserve">
+    <value>转换的{0}也重写不会被转换的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="SymbolRemovalConfirmation_Text" xml:space="preserve">
+    <value>确认移除</value>
+  </data>
+  <data name="ParamsParameterMustAppearAfterAll_Text" xml:space="preserve">
+    <value>'{0}' 形参必须出现在所有其他形参之后</value>
+  </data>
+  <data name="UsePropertyToExposeOrReplaceTheField_Text" xml:space="preserve">
+    <value>使用属性来公开或替换字段并更新其用法</value>
+  </data>
+  <data name="StoringReferences_Text" xml:space="preserve">
+    <value>正在存储引用:</value>
+  </data>
+  <data name="_HasSetterThatCannotOverrideTheBase_Text" xml:space="preserve">
+    <value>{0}具有不能重写基类 setter 的 setter</value>
+  </data>
+  <data name="ExecuteChangeSignatureFixes_Text" xml:space="preserve">
+    <value>执行“更改签名”修正</value>
+  </data>
+  <data name="SetParamsModifierRefactoringCaption" xml:space="preserve">
+    <value>添加 'params' 修饰符</value>
+  </data>
+  <data name="WhetherToRenameTypeWhenTheFileIsRenamedSettingDescription" xml:space="preserve">
+    <value>文件被重命名时是否重命名类型</value>
+  </data>
+  <data name="EncapsulatedFieldWillBeInaccessible_Text" xml:space="preserve">
+    <value>在此{0,用法}中将无法访问封装的字段</value>
+  </data>
+  <data name="EditedByUser_Text" xml:space="preserve">
+    <value> 由用户编辑</value>
+  </data>
+  <data name="Navigate_Text" xml:space="preserve">
+    <value>导航</value>
+  </data>
+  <data name="PropertyToAutoPropertyActionText" xml:space="preserve">
+    <value>属性到自动属性…</value>
+  </data>
+  <data name="Expression_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="_HasDerivedTypesWhatWouldYouLikeToDo_Text" xml:space="preserve">
+    <value>{0} 具有派生类型。您想做什么?</value>
+  </data>
+  <data name="IntroduceParameter__Text" xml:space="preserve">
+    <value>引入形参 {0}</value>
+  </data>
+  <data name="MakeMethodNonStatic_Text" xml:space="preserve">
+    <value>将方法设为非 static</value>
+  </data>
+  <data name="UsagesInCommentsAndStringLiterals_Text" xml:space="preserve">
+    <value>注释和字符串字面量中的用法</value>
+  </data>
+  <data name="ExtractMembersToPartial_Text" xml:space="preserve">
+    <value>将成员提取为分部</value>
+  </data>
+  <data name="SearchingUsages_Text" xml:space="preserve">
+    <value>正在搜索用法…</value>
+  </data>
+  <data name="AbstractClassToInterface_Text" xml:space="preserve">
+    <value>abstract 类到接口</value>
+  </data>
+  <data name="Process__Text" xml:space="preserve">
+    <value>处理{0}</value>
+  </data>
+  <data name="PropertyToAutoProperty_Text" xml:space="preserve">
+    <value>属性到自动属性</value>
+  </data>
+  <data name="In_TroduceField_Text" xml:space="preserve">
+    <value>引入字段(&amp;T)</value>
+  </data>
+  <data name="In___Text" xml:space="preserve">
+    <value>(在 {0} '{1}' 中)</value>
+  </data>
+  <data name="WillImplement_Text" xml:space="preserve">
+    <value>{0}将实现{1}</value>
+  </data>
+  <data name="SearchConflictsWithExistingMembers_Text" xml:space="preserve">
+    <value>搜索与现有成员的冲突…</value>
+  </data>
+  <data name="Parameter_CreatedIn___Text" xml:space="preserve">
+    <value>在{1} ’{2}’ 中创建的形参 ’{0}’</value>
+  </data>
+  <data name="ReferenceTo_source_Text" xml:space="preserve">
+    <value>对源的引用(_S):</value>
+  </data>
+  <data name="Constructor_Text" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="MakeMethodStaticActionText" xml:space="preserve">
+    <value>将方法设为 static…</value>
+  </data>
+  <data name="CreateDelegatingWrapper_DescriptionText" xml:space="preserve">
+    <value>创建委托包装器</value>
+  </data>
+  <data name="Projects_Text" xml:space="preserve">
+    <value>项目:</value>
+  </data>
+  <data name="_ExtractedClass_Text" xml:space="preserve">
+    <value>提取的类(_E):</value>
+  </data>
+  <data name="_IsTheLastConstructorItCallsTheBase_Text" xml:space="preserve">
+    <value>{0} 是最后一个构造函数。它调用基类构造函数，而基类没有默认构造函数。</value>
+  </data>
+  <data name="StaticToExtensionMethodActionText" xml:space="preserve">
+    <value>static 到扩展方法…</value>
+  </data>
+  <data name="SpecifyHowToCreateNewFiles_Text" xml:space="preserve">
+    <value>如何创建新文件:</value>
+  </data>
+  <data name="StoringUsagesOfMovedSymbols_Text" xml:space="preserve">
+    <value>正在存储移动的符号的用法…</value>
+  </data>
+  <data name="ClassNa_me_Text" xml:space="preserve">
+    <value>类名(_M):</value>
+  </data>
+  <data name="_ImplementsConvertedInterfaceExplicitly_Text" xml:space="preserve">
+    <value>{0}显式实现转换的接口。实现将被设为 public。</value>
+  </data>
+  <data name="ReviewItemsThatWillBeRenamed_Text" xml:space="preserve">
+    <value>检查将被重命名的条目</value>
+  </data>
+  <data name="RenameRootNamespace_Text" xml:space="preserve">
+    <value>重命名根命名空间</value>
+  </data>
+  <data name="ExtractClass_Text" xml:space="preserve">
+    <value>提取类</value>
+  </data>
+  <data name="Factory_methodName_Text" xml:space="preserve">
+    <value>工厂方法名称(_M):</value>
+  </data>
+  <data name="_OverridesAbstract__Text" xml:space="preserve">
+    <value>{0}重写 abstract {1}</value>
+  </data>
+  <data name="ReplaceInitialTypeOnly_Text" xml:space="preserve">
+    <value>仅替换初始类型</value>
+  </data>
+  <data name="ParametersShouldHaveDifferentNames_Text" xml:space="preserve">
+    <value>形参应具有不同的名称</value>
+  </data>
+  <data name="InLineField_Text" xml:space="preserve">
+    <value>内联字段(&amp;L)</value>
+  </data>
+  <data name="NodeHadChangedStateCannotBeRestored_Text" xml:space="preserve">
+    <value>节点已被更改，状态不能恢复</value>
+  </data>
+  <data name="UnableToInline0UsageCannotIntroduce_Text" xml:space="preserve">
+    <value>无法内联{{0, 用法}}。无法引入 '{0}' 类型的可为 null 值。</value>
+  </data>
+  <data name="ReplacingFieldReferences_Text" xml:space="preserve">
+    <value>正在替换字段引用…</value>
+  </data>
+  <data name="Folder_Exists_Text" xml:space="preserve">
+    <value>文件夹 '{0}' 已存在</value>
+  </data>
+  <data name="CollectingMovedFiles_Text" xml:space="preserve">
+    <value>正在收集移动的文件…</value>
+  </data>
+  <data name="Remove_WHOLEHierarchy_Text" xml:space="preserve">
+    <value>移除整个层次结构(_W)</value>
+  </data>
+  <data name="RemoveA_SINGLEMemberOfTheHierarchy_Text" xml:space="preserve">
+    <value>移除层次结构的单个成员(_S)</value>
+  </data>
+  <data name="Usage_WillBeBroken_Text" xml:space="preserve">
+    <value>用法 {0} 将被破坏</value>
+  </data>
+  <data name="DelegateViaOverloading_Text" xml:space="preserve">
+    <value>按原样保留调用，重载 {0} 并将实现委托给创建的重载(_O)</value>
+  </data>
+  <data name="Generate_mutableProperties_Text" xml:space="preserve">
+    <value>生成可变属性(_M)</value>
+  </data>
+  <data name="Scanning__Text" xml:space="preserve">
+    <value>正在扫描: {0}…</value>
+  </data>
+  <data name="TransformParameters_Text" xml:space="preserve">
+    <value>转换形参</value>
+  </data>
+  <data name="Declaration_Text" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="ReplaceTypesIn_typeofOperator_Text" xml:space="preserve">
+    <value>替换 '_typeof' 运算符中的类型</value>
+  </data>
+  <data name="ReplaceSelectedOccurrences_Text" xml:space="preserve">
+    <value>替换所选匹配项</value>
+  </data>
+  <data name="Type_Column_Name" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="SearchingForUsagesAndTextualOccurences_Text" xml:space="preserve">
+    <value>正在搜索用法和文本匹配项…</value>
+  </data>
+  <data name="Removed_IsQuasiImplementedBy_ThatWill_Text" xml:space="preserve">
+    <value>移除的{0}由不会被移除的{1}准实现。请手动解决冲突。</value>
+  </data>
+  <data name="TargetTypeIsNotAccessibleAt0CallSite_Text" xml:space="preserve">
+    <value>无法在{0, 调用点}访问目标类型</value>
+  </data>
+  <data name="EncapsulateField_Text" xml:space="preserve">
+    <value>封装字段</value>
+  </data>
+  <data name="SelectedDeclarationsContainConflicts_Text" xml:space="preserve">
+    <value>所选声明包含冲突</value>
+  </data>
+  <data name="_Of__Text" xml:space="preserve">
+    <value>{0:N0} / {1:N0}</value>
+  </data>
+  <data name="RegisteringNewCopies_Text" xml:space="preserve">
+    <value>正在注册新副本…</value>
+  </data>
+  <data name="PasteDeclarations_Text" xml:space="preserve">
+    <value>粘贴声明…</value>
+  </data>
+  <data name="DefaultParameterValue_Text" xml:space="preserve">
+    <value> 默认形参值</value>
+  </data>
+  <data name="UpdatingLocalReferences_Text" xml:space="preserve">
+    <value>正在更新局部引用…</value>
+  </data>
+  <data name="NoAppropriateInheritorsWereFoundRefactoring_Text" xml:space="preserve">
+    <value>找不到合适的继承者。重构将被终止。</value>
+  </data>
+  <data name="WhetherToSearchForPossibleDynamicOccurrencesSettingDescription" xml:space="preserve">
+    <value>是否搜索可能的动态匹配项</value>
+  </data>
+  <data name="ChooseValueOfParameter_RecursiveParameterKeep_Text" xml:space="preserve">
+    <value>通过递归调用传递值</value>
+  </data>
+  <data name="ShowInFindResultsSettingDescription" xml:space="preserve">
+    <value>在“查找结果”中显示</value>
+  </data>
+  <data name="NewParameterHasToBeCreated_Text" xml:space="preserve">
+    <value>必须创建 1 个新形参</value>
+  </data>
+  <data name="MoveU_p_Text" xml:space="preserve">
+    <value>上移(_P)</value>
+  </data>
+  <data name="Usages_Text" xml:space="preserve">
+    <value>用法:</value>
+  </data>
+  <data name="ExtractClassActionText" xml:space="preserve">
+    <value>提取类…</value>
+  </data>
+  <data name="Property_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="_DoesnTHaveConstraint_ForTheTypeParameter_Text" xml:space="preserve">
+    <value>{{0}} 没有类型形参 {1} 的约束 {0}</value>
+  </data>
+  <data name="ReplaceWith_derivedType__Text" xml:space="preserve">
+    <value>替换为派生类型 {0}(_D)</value>
+  </data>
+  <data name="WillHide_Text" xml:space="preserve">
+    <value>{0}将隐藏{1}</value>
+  </data>
+  <data name="ParametersWillBe_added_Text" xml:space="preserve">
+    <value>以下形参将被添加(_A):</value>
+  </data>
+  <data name="FixingOverrides_Text" xml:space="preserve">
+    <value>正在修正重写…</value>
+  </data>
+  <data name="ProjectIsNullForThisFolder_Text" xml:space="preserve">
+    <value>项目对此文件夹为 null</value>
+  </data>
+  <data name="ErrorOccured_Text" xml:space="preserve">
+    <value>出错了</value>
+  </data>
+  <data name="ExtractSuperclassActionText" xml:space="preserve">
+    <value>提取超类…</value>
+  </data>
+  <data name="WriteUsageIsFoundButInitialization_Text" xml:space="preserve">
+    <value>找到{0, 写入用法}，但无法提取初始化表达式</value>
+  </data>
+  <data name="MethodToIndexer_Text" xml:space="preserve">
+    <value>方法到索引器</value>
+  </data>
+  <data name="LeaveCodeNonCompilableIllCorrectCallsMyself_DescriptionText" xml:space="preserve">
+    <value>让代码不可编译，我自己更正调用(_M)</value>
+  </data>
+  <data name="ValidatingUsagesOfSymbols_Of__Text" xml:space="preserve">
+    <value>正在验证符号的用法({0:N0}/{1:N0})…</value>
+  </data>
+  <data name="UseBaseTypeWherePossible_Text" xml:space="preserve">
+    <value>尽可能使用基类型</value>
+  </data>
+  <data name="ReviewChangesToTypesOfRelatedSymbols_Text" xml:space="preserve">
+    <value>审查根据初始更改建议的相关符号类型的更改</value>
+  </data>
+  <data name="FailedToProcessOverriden_Text" xml:space="preserve">
+    <value>无法处理重写的成员</value>
+  </data>
+  <data name="UnableToInline0UsageInlinedMethodHas_Text" xml:space="preserve">
+    <value>无法内联{0, 用法}。内联的方法具有不能重写以在调用点表示相同控制流的 return 语句。</value>
+  </data>
+  <data name="_IsAMemberOfAHierarchyWhatWouldYouLike_Text" xml:space="preserve">
+    <value>'{0}' 是层次结构的成员。您想做什么?</value>
+  </data>
+  <data name="GeneratingNewFiles_Text" xml:space="preserve">
+    <value>正在生成新文件…</value>
+  </data>
+  <data name="NewRecordClass_DescriptionText" xml:space="preserve">
+    <value>新记录类</value>
+  </data>
+  <data name="Select_fileForNewPart_Text" xml:space="preserve">
+    <value>为新部分选择文件(_F):</value>
+  </data>
+  <data name="_NewParametersHasToBeCreated_Text" xml:space="preserve">
+    <value>必须创建 {0} 个新形参</value>
+  </data>
+  <data name="Removed_AlsoOverrides_ThatWillNotBe_Text" xml:space="preserve">
+    <value>移除的{0}也重写不会被移除的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="N_ame_Text" xml:space="preserve">
+    <value>名称(_A):</value>
+  </data>
+  <data name="TheNameOfTheProjectFolderDiffersFrom_Text" xml:space="preserve">
+    <value>项目文件夹的名称与项目名称不同，不能重命名</value>
+  </data>
+  <data name="ProcessingReference_Of__Text" xml:space="preserve">
+    <value>正在处理引用 {0:N0}/{1:N0}…</value>
+  </data>
+  <data name="ReplacingReferences_Text" xml:space="preserve">
+    <value>正在替换引用…</value>
+  </data>
+  <data name="UpdatingDeclarations_Text" xml:space="preserve">
+    <value>正在更新声明…</value>
+  </data>
+  <data name="ConvertedInterfaceIsImplementedBy_That_Text" xml:space="preserve">
+    <value>转换的接口由未从 System.Object 继承的{0}实现</value>
+  </data>
+  <data name="SearchingInheritors_Text" xml:space="preserve">
+    <value>正在搜索继承者</value>
+  </data>
+  <data name="ExtractingDeclarationsFromSourceFiles_Text" xml:space="preserve">
+    <value>正在从源文件中提取声明…</value>
+  </data>
+  <data name="Name_ShouldBeUsedForType__Text" xml:space="preserve">
+    <value>名称 '{0}' 必须用于类型 {{0}}</value>
+  </data>
+  <data name="PathContainsInvalidCharacters_Text" xml:space="preserve">
+    <value>路径包含无效字符</value>
+  </data>
+  <data name="ChangeSignatureActionText" xml:space="preserve">
+    <value>更改签名…</value>
+  </data>
+  <data name="UnableToChangeSignatureOf0Element_Text" xml:space="preserve">
+    <value>无法更改{0, 元素}的签名</value>
+  </data>
+  <data name="Move_Down_Text" xml:space="preserve">
+    <value>下移(_D)</value>
+  </data>
+  <data name="N_estedType_Text" xml:space="preserve">
+    <value>嵌套类型(_E)</value>
+  </data>
+  <data name="TupleElementsNumberCannotBeMoreThan_Text" xml:space="preserve">
+    <value>元组元素数不能超过 7 个</value>
+  </data>
+  <data name="AccessTo0Instance_Text" xml:space="preserve">
+    <value>对{0, 实例}的访问权限</value>
+  </data>
+  <data name="MoveNestedTypeOneLevelUpAndOptionally_Text" xml:space="preserve">
+    <value>将嵌套类型向上移动一级并根据需要重命名</value>
+  </data>
+  <data name="RenameProjectReferencesInTheSourceCode_Text" xml:space="preserve">
+    <value>重命名源代码中的项目引用</value>
+  </data>
+  <data name="CheckingForDerivedFileRenames_Text" xml:space="preserve">
+    <value>正在检查与派生类型的名称匹配的文件名…</value>
+  </data>
+  <data name="AutoPropertyWillBeTransformedIntoProperty_Text" xml:space="preserve">
+    <value>{0, 自动属性}将被转换为带支持字段的属性</value>
+  </data>
+  <data name="C_HangeSignature_Text" xml:space="preserve">
+    <value>更改签名(&amp;H)</value>
+  </data>
+  <data name="RemoveParamsModifierRefactoringCaption" xml:space="preserve">
+    <value>移除 'params' 修饰符</value>
+  </data>
+  <data name="En_CapsulateField_Text" xml:space="preserve">
+    <value>封装字段(&amp;C)</value>
+  </data>
+  <data name="PostProcessingMovedFiles_Text" xml:space="preserve">
+    <value>正在后处理移动的文件…</value>
+  </data>
+  <data name="InlineActionText" xml:space="preserve">
+    <value>内联…</value>
+  </data>
+  <data name="RenameFile_Text" xml:space="preserve">
+    <value>重命名文件</value>
+  </data>
+  <data name="__Symbols_Text" xml:space="preserve">
+    <value>{0} ({1} 个字符)</value>
+  </data>
+  <data name="InterfaceToAbstractClassActionText" xml:space="preserve">
+    <value>接口到 abstract 类…</value>
+  </data>
+  <data name="UnableToInline0DeconstructionUsage_Text" xml:space="preserve">
+    <value>无法内联{0, 析构用法}</value>
+  </data>
+  <data name="Renamed_AlsoOverrides_ThatWillNotBe_Text" xml:space="preserve">
+    <value>重命名的{0}也重写不会重命名的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="InlineMethodRefactoringSettingsSettingDescription" xml:space="preserve">
+    <value>内联方法重构设置</value>
+  </data>
+  <data name="RefactoringHasDetectedThatExtraReferences_Text" xml:space="preserve">
+    <value>重构检测到应该添加额外的引用</value>
+  </data>
+  <data name="CheckingForConflictsBeforeRefactoring_Text" xml:space="preserve">
+    <value>正在重构之前检查冲突…</value>
+  </data>
+  <data name="_IsAlreadyDeclaredWithAnotherType_Text" xml:space="preserve">
+    <value>{0} 已使用另一种类型声明</value>
+  </data>
+  <data name="NoUsagesOfMethodWereFound_Text" xml:space="preserve">
+    <value>找不到方法的用法</value>
+  </data>
+  <data name="RenameProject_folder_Text" xml:space="preserve">
+    <value>重命名项目文件夹(_F)</value>
+  </data>
+  <data name="ConvertPropertyToMethodS_Text" xml:space="preserve">
+    <value>将属性转换为方法</value>
+  </data>
+  <data name="_DoesnTHaveClassConstraint_Text" xml:space="preserve">
+    <value>{0}没有类约束</value>
+  </data>
+  <data name="DynamicInvocation_Text" xml:space="preserve">
+    <value>动态调用</value>
+  </data>
+  <data name="Select_public_Text" xml:space="preserve">
+    <value>选择 public(_P)</value>
+  </data>
+  <data name="ReplaceAllHighlightedOccurrencesOfNamespace_Text" xml:space="preserve">
+    <value>将命名空间的所有高亮显示匹配项替换为新别名</value>
+  </data>
+  <data name="InlineParameter_Text" xml:space="preserve">
+    <value>内联参数</value>
+  </data>
+  <data name="CannotBeInlined_Text" xml:space="preserve">
+    <value>不能内联</value>
+  </data>
+  <data name="RemoveParamsModifier_Text" xml:space="preserve">
+    <value>从形参中移除 'params' 修饰符</value>
+  </data>
+  <data name="ParameterHasInvalidName_Text" xml:space="preserve">
+    <value>形参具有无效名称</value>
+  </data>
+  <data name="Method_Text" xml:space="preserve">
+    <value>method</value>
+  </data>
+  <data name="OptionalParametersMustAppearAfterAll_Text" xml:space="preserve">
+    <value>可选形参必须出现在所有常规形参之后</value>
+  </data>
+  <data name="CollectingProjectsReferences_Text" xml:space="preserve">
+    <value>正在收集项目引用</value>
+  </data>
+  <data name="CreateNewPart_Text" xml:space="preserve">
+    <value>&lt;Create new part&gt;</value>
+  </data>
+  <data name="Return_Text" xml:space="preserve">
+    <value>return</value>
+  </data>
+  <data name="RefactoringHasFoundUsagesRelatedToRefactoring_Text" xml:space="preserve">
+    <value>重构找到了与重构相关的用法。请检查哪些应该更新。</value>
+  </data>
+  <data name="MoveU_p_ButtonWithListAction_ToolTip" xml:space="preserve">
+    <value>上移(_P)</value>
+  </data>
+  <data name="UseUniqueValueOfTypeAtThePointOfCallIfExists_DescriptionText" xml:space="preserve">
+    <value>在调用点使用 '{0}' 类型的唯一值(如果存在)(_v)</value>
+  </data>
+  <data name="__Text" xml:space="preserve">
+    <value> ({0})</value>
+  </data>
+  <data name="ParameterNameConflicts_Text" xml:space="preserve">
+    <value>形参 '{0}' 重复，它将被重命名为 '{1}'</value>
+  </data>
+  <data name="FinalCheckingForConflicts_Text" xml:space="preserve">
+    <value>正在最后检查是否存在冲突…</value>
+  </data>
+  <data name="WhetherToIgnoreAnyReferencesWhenFileIsRenamedSettingDescription" xml:space="preserve">
+    <value>文件重命名时是否忽略任何引用</value>
+  </data>
+  <data name="SelectATypeToMoveMethod_ToAllCallsWill_Text" xml:space="preserve">
+    <value>选择要将方法 '{0}' 移动到的类型。所有调用都将被替换为来自所选元素的调用。</value>
+  </data>
+  <data name="SearchIn_textOccurrences_Text" xml:space="preserve">
+    <value>在文本匹配项中搜索(_T)</value>
+  </data>
+  <data name="ExtractMethodPage_NameSuggestionsAreAvailable_Text" xml:space="preserve">
+    <value>有可用名称建议</value>
+  </data>
+  <data name="PrepareFileSystem_Text" xml:space="preserve">
+    <value>准备文件系统</value>
+  </data>
+  <data name="FileName_Text" xml:space="preserve">
+    <value>文件名</value>
+  </data>
+  <data name="SomeReferencesTo_WillNeedManualFix_Text" xml:space="preserve">
+    <value>对{0}的某些引用需要手动修正</value>
+  </data>
+  <data name="Removed_AlsoImplements_ThatWillNotBe_Text" xml:space="preserve">
+    <value>移除的{0}也实现不会被移除的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="SearchingReferences_Text" xml:space="preserve">
+    <value>正在搜索引用…</value>
+  </data>
+  <data name="PlaceTopLevelSettingDescription" xml:space="preserve">
+    <value>放置顶层</value>
+  </data>
+  <data name="TheSymbolIsGoingToBeRemovedAndItsUsagesAre_Text" xml:space="preserve">
+    <value>如果 {0} 的任何用法无法安全移除，您将能够在下一步中进行检查</value>
+  </data>
+  <data name="CheckingNewNames_Text" xml:space="preserve">
+    <value>正在检查新名称…</value>
+  </data>
+  <data name="ReplaceInitialNamespaceOnly_Text" xml:space="preserve">
+    <value>仅替换初始命名空间</value>
+  </data>
+  <data name="ReplaceConstructorWithFactoryMethod_Text" xml:space="preserve">
+    <value>将构造函数替换为工厂方法</value>
+  </data>
+  <data name="RenameNamespace_Text" xml:space="preserve">
+    <value>重命名命名空间</value>
+  </data>
+  <data name="_CannotBeReferenced__Text" xml:space="preserve">
+    <value>{{0}}不能被引用 {0}</value>
+  </data>
+  <data name="_EnumDeclarations_Text" xml:space="preserve">
+    <value>枚举声明(_E)</value>
+  </data>
+  <data name="WhetherToSearchForTextInStringsSettingDescription" xml:space="preserve">
+    <value>是否搜索字符串中的文本</value>
+  </data>
+  <data name="SpecifySetOfFilesToMove_Text" xml:space="preserve">
+    <value>要移动的文件:</value>
+  </data>
+  <data name="_AlsoImplements_ThatWillNotBeChanged_Text" xml:space="preserve">
+    <value>{0}也实现不会被更改的 {1}。请手动解决冲突。</value>
+  </data>
+  <data name="Project_DescriptionText" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="_RenameUsagesInCommentsAndStringLiterals_Text" xml:space="preserve">
+    <value>重命名注释和字符串字面量中的用法(_R)</value>
+  </data>
+  <data name="InitializeFieldIn_Text" xml:space="preserve">
+    <value>在以下位置初始化字段:</value>
+  </data>
+  <data name="_MoveTypesIntoMatchingFiles_Text" xml:space="preserve">
+    <value>将类型移动到匹配文件中(&amp;M)</value>
+  </data>
+  <data name="SelectBaseTypeAndMembers_Text" xml:space="preserve">
+    <value>选择基类型和成员</value>
+  </data>
+  <data name="CutDeclarations_Text" xml:space="preserve">
+    <value>剪切声明…</value>
+  </data>
+  <data name="_StaticMembersToMove_Text" xml:space="preserve">
+    <value>要移动的 static 成员(_S):</value>
+  </data>
+  <data name="_Visibility_Text" xml:space="preserve">
+    <value>可见性(_V):</value>
+  </data>
+  <data name="_HasInitializerAnd_WriteUsageS1First_Text" xml:space="preserve">
+    <value>{{0}} 具有初始值设定项和 {0} 个写入用法: {{1,First write usage}}…</value>
+  </data>
+  <data name="ChangeSignatureIsAppliedTo_ThatAlsoOverrides_Text" xml:space="preserve">
+    <value>“更改签名”应用于也重写不会被更改的{1}的{0}。请手动解决冲突。</value>
+  </data>
+  <data name="NoWriteUsagesWereFound_Text" xml:space="preserve">
+    <value>找不到写入用法</value>
+  </data>
+  <data name="SafeDelete_Text" xml:space="preserve">
+    <value>安全删除</value>
+  </data>
+  <data name="RefactorThisAction_Caption" xml:space="preserve">
+    <value>重构此</value>
+  </data>
+  <data name="SearchingUsagesOfMovedSymbols_Text" xml:space="preserve">
+    <value>正在搜索移动的符号的用法…</value>
+  </data>
+  <data name="ConvertMethodToIndexer_Text" xml:space="preserve">
+    <value>将方法转换为索引器</value>
+  </data>
+  <data name="Select_membersToMakePublic_Text" xml:space="preserve">
+    <value>选择要设为 public 的成员(_M):</value>
+  </data>
+  <data name="_DeclaredInTheTargetElementHasConflicts_Text" xml:space="preserve">
+    <value>在目标元素中声明的{0}与移动的成员有冲突</value>
+  </data>
+  <data name="COnvertStaticMethodToExtension_Text" xml:space="preserve">
+    <value>将 static 方法转换为扩展(&amp;O)</value>
+  </data>
+  <data name="Select_members_Text" xml:space="preserve">
+    <value>选择成员(_M):</value>
+  </data>
+  <data name="TypeNameShouldnTBeEmpty_Text" xml:space="preserve">
+    <value>类型名称不得为空</value>
+  </data>
+  <data name="UseBaseTypeWherePossibleActionText" xml:space="preserve">
+    <value>尽可能使用基类型…</value>
+  </data>
+  <data name="RenameProject_Text" xml:space="preserve">
+    <value>重命名项目</value>
+  </data>
+  <data name="PutClassesInto_separateFiles_Text" xml:space="preserve">
+    <value>将类放入单独的文件中(_S)</value>
+  </data>
+  <data name="Use___Text" xml:space="preserve">
+    <value>使用{0} {1}</value>
+  </data>
+  <data name="EnterLocalFunctionName_Text" xml:space="preserve">
+    <value>输入局部函数名称</value>
+  </data>
+  <data name="PushMembersDownActionText" xml:space="preserve">
+    <value>向下推送成员…</value>
+  </data>
+  <data name="SearchFor_usages_Text" xml:space="preserve">
+    <value>搜索用法(_U)</value>
+  </data>
+  <data name="SelectTarget_baseType_Text" xml:space="preserve">
+    <value>选择目标基类型(_B):</value>
+  </data>
+  <data name="UpdatingCaches_Text" xml:space="preserve">
+    <value>更新缓存…</value>
+  </data>
+  <data name="StoringSuspiciousReferences_Text" xml:space="preserve">
+    <value>正在存储可疑引用…</value>
+  </data>
+  <data name="MethodBodyWillHaveErrorsBecauseItUsesCaptures_Text" xml:space="preserve">
+    <value>方法体会出错，因为使用的某些值无法通过 'this' 获得</value>
+  </data>
+  <data name="RefIn_Text" xml:space="preserve">
+    <value>ref in</value>
+  </data>
+  <data name="TypeIsNotValid_Text" xml:space="preserve">
+    <value>类型无效</value>
+  </data>
+  <data name="__From__Text" xml:space="preserve">
+    <value>{0}:{1} ++来自++ {2}</value>
+  </data>
+  <data name="_itsOwnFile_Text" xml:space="preserve">
+    <value>它自己的文件(_I)</value>
+  </data>
+  <data name="MakeTheTypePartialIfItIsnTAndMoveThe_Text" xml:space="preserve">
+    <value>如果类型不是分部类型，则将其设为分部类型，并将所选成员移动到新的或现有部分</value>
+  </data>
+  <data name="TypeCannotBeResolved_Text" xml:space="preserve">
+    <value>类型不能解析</value>
+  </data>
+  <data name="EncapsulateFieldActionText" xml:space="preserve">
+    <value>封装字段…</value>
+  </data>
+  <data name="SearchingOverrides_Text" xml:space="preserve">
+    <value>正在搜索重写…</value>
+  </data>
+  <data name="MoveInstanceMethod_Text" xml:space="preserve">
+    <value>移动实例方法</value>
+  </data>
+  <data name="EnterPropertyName_Text" xml:space="preserve">
+    <value>输入属性名称</value>
+  </data>
+  <data name="RefactorToPartialType_Text" xml:space="preserve">
+    <value>重构到分部类型</value>
+  </data>
+  <data name="UnableToUpdateOverrideDeclaration_Text" xml:space="preserve">
+    <value>无法更新重写声明</value>
+  </data>
+  <data name="GeneratingUsingDirectives_Text" xml:space="preserve">
+    <value>正在生成 using 指令…</value>
+  </data>
+  <data name="Convert_setterToMethodWithName_Text" xml:space="preserve">
+    <value>将 setter 转换为带有名称的方法(_S):</value>
+  </data>
+  <data name="ThereAreNoUsagesOf0_ValueOfNewParameter_Text" xml:space="preserve">
+    <value>没有 {{0,{0}}} 的用法。新形参的值将丢失。</value>
+  </data>
+  <data name="UnableToInline0Usage_Text" xml:space="preserve">
+    <value>无法内联{0, 用法}。</value>
+  </data>
+  <data name="CreateParameter_In___Text" xml:space="preserve">
+    <value>在{1} ’{2}’ 中创建形参 ’{0}’</value>
+  </data>
+  <data name="FailedToFindUsagesOf_In__Text" xml:space="preserve">
+    <value>在 {1} 中找不到 {0} 的用法</value>
+  </data>
+  <data name="NoMembersWereFoundToPushDownRefactoring_Text" xml:space="preserve">
+    <value>找不到要向下推送的成员。重构将被终止。</value>
+  </data>
+  <data name="MakeStatic_Text" xml:space="preserve">
+    <value>设为 static</value>
+  </data>
+  <data name="VirtualChainLeapOver_Detected_Text" xml:space="preserve">
+    <value>检测到跨越{0}的虚拟链</value>
+  </data>
+  <data name="MakeEncapsulatingFieldPrivateSettingDescription" xml:space="preserve">
+    <value>将封装字段设为 private</value>
+  </data>
+  <data name="Backing_IsMoreVisibleThanPropertyOr_Text" xml:space="preserve">
+    <value>支持{0}的可见性比属性或其访问器更高。无法更改属性重写的属性可见性。</value>
+  </data>
+  <data name="SelectElement_Text" xml:space="preserve">
+    <value>选择元素 </value>
+  </data>
+  <data name="AnonymousToNamedTypeActionText" xml:space="preserve">
+    <value>转换匿名类型为命名类型…</value>
+  </data>
+  <data name="RenameRoot_namespace__Text" xml:space="preserve">
+    <value>重命名根命名空间 {0}(_N)</value>
+  </data>
+  <data name="ElementHasOverrides_Text" xml:space="preserve">
+    <value>{0,元素}具有重写</value>
+  </data>
+  <data name="MakingClassesAbstract_Text" xml:space="preserve">
+    <value>正在将类设为 abstract…</value>
+  </data>
+  <data name="ParameterN_ame_Text" xml:space="preserve">
+    <value>形参名称(_A):</value>
+  </data>
+  <data name="NoUsagesFound_Text" xml:space="preserve">
+    <value>找不到任何用法</value>
+  </data>
+  <data name="ParametersWillBe_removed_Text" xml:space="preserve">
+    <value>以下形参将被移除(_R):</value>
+  </data>
+  <data name="_Remove_Only_Text" xml:space="preserve">
+    <value>仅移除{0}(_R)</value>
+  </data>
+  <data name="MoveToFoldeR_Text" xml:space="preserve">
+    <value>移至文件夹(&amp;R)</value>
+  </data>
+  <data name="ExtractMembersToPartialActionText" xml:space="preserve">
+    <value>将成员提取为分部…</value>
+  </data>
+  <data name="SourceClassMember_Column_Text" xml:space="preserve">
+    <value>源类成员</value>
+  </data>
+  <data name="UnableToInline0UsageUnableToIntroduce_Text2" xml:space="preserve">
+    <value>无法内联{0, 用法}。无法为限定符引入临时变量。</value>
+  </data>
+  <data name="UnableToInline0UsageUnableToIntroduce_Text3" xml:space="preserve">
+    <value>无法内联{0, 用法}。无法为返回值引入临时变量。</value>
+  </data>
+  <data name="UnableToInline0UsageUnableToIntroduce_Text4" xml:space="preserve">
+    <value>无法内联{0, 用法}。无法为赋值的表达式引入临时变量。</value>
+  </data>
+  <data name="UnableToInline0UsageUnableToIntroduce_Text5" xml:space="preserve">
+    <value>无法内联{0, 用法}。无法为实参引入临时变量。</value>
+  </data>
+  <data name="Selected___Text" xml:space="preserve">
+    <value>所选{0} {1}</value>
+  </data>
+  <data name="EnterMethodObjectName_Text" xml:space="preserve">
+    <value>输入类和方法名称</value>
+  </data>
+  <data name="PullMembersUpActionText" xml:space="preserve">
+    <value>向上拉取成员…</value>
+  </data>
+  <data name="CopyingDeclarations_Text" xml:space="preserve">
+    <value>正在复制声明:</value>
+  </data>
+  <data name="UnableToMove_BecauseAFileWithTheName_Text" xml:space="preserve">
+    <value>无法移动 {{0}}，因为名称为 '{0}' 的文件已存在</value>
+  </data>
+  <data name="HierarchyCannotBePreservedForDeclaration_Text" xml:space="preserve">
+    <value>不能为声明保留层次结构 – 使用放入单独的文件选项</value>
+  </data>
+  <data name="CheckingForNewOverridesImplementationsInBase_Text" xml:space="preserve">
+    <value>正在检查基类型中的新重写/实现…</value>
+  </data>
+  <data name="MethodNa_me_Text" xml:space="preserve">
+    <value>方法名称(_M):</value>
+  </data>
+  <data name="Use_existingPart_Text" xml:space="preserve">
+    <value>使用现有部分(_E):</value>
+  </data>
+  <data name="TheNewFileNameExtensionIsNotValidForSourceCodeFiles_Text" xml:space="preserve">
+    <value>新文件名扩展对源代码文件无效</value>
+  </data>
+  <data name="_ShouldReference__Text" xml:space="preserve">
+    <value>{0} 应引用 {1}</value>
+  </data>
+  <data name="ExpressionUsesLambdaParameterOrRange_Text" xml:space="preserve">
+    <value>表达式使用 lambda 形参或范围变量</value>
+  </data>
+  <data name="Select_baseType_Text" xml:space="preserve">
+    <value>选择基类型(_B):</value>
+  </data>
+  <data name="_OverridesImplements_FromBaseTypeDo_Text" xml:space="preserve">
+    <value>{0} 重写(实现)基类型的 {1}。您想从基类型对 {2} 执行重构吗?</value>
+  </data>
+  <data name="Selected__Text" xml:space="preserve">
+    <value>所选{0}</value>
+  </data>
+  <data name="ChooseConstructorParameters_Text" xml:space="preserve">
+    <value>选择构造函数形参</value>
+  </data>
+  <data name="ScanningProject_Of__Text" xml:space="preserve">
+    <value>正在扫描项目({0:N0}/{1:N0})…</value>
+  </data>
+  <data name="RemoveParamsModifierRefactoringTitle" xml:space="preserve">
+    <value>从形参中移除 'params' 修饰符</value>
+  </data>
+  <data name="Nam_eUsages_Text" xml:space="preserve">
+    <value>命名用法(_E)</value>
+  </data>
+  <data name="TupleComponentWithSuchNameAlreadyExists_Text" xml:space="preserve">
+    <value>已存在具有此名称的元组组件</value>
+  </data>
+  <data name="Choose_property_Text" xml:space="preserve">
+    <value>选择属性(_P):</value>
+  </data>
+  <data name="_sameFileAsTheSourceClass_Text" xml:space="preserve">
+    <value>与源类相同的文件(_S)</value>
+  </data>
+  <data name="Na_me_Text" xml:space="preserve">
+    <value>名称(_M):</value>
+  </data>
+  <data name="UpdatingBackingFieldUsages_Text" xml:space="preserve">
+    <value>正在更新支持字段用法…</value>
+  </data>
+  <data name="MoveActionText" xml:space="preserve">
+    <value>移动…</value>
+  </data>
+  <data name="ReplaceAnonymousTypeWithNamedType_Text" xml:space="preserve">
+    <value>将匿名类型替换为命名类型</value>
+  </data>
+  <data name="MakeMethodNonStaticActionText" xml:space="preserve">
+    <value>将方法设为非 static…</value>
+  </data>
+  <data name="IntroduceField_Text" xml:space="preserve">
+    <value>引入字段</value>
+  </data>
+  <data name="NewFolderIsNestedInTheOriginalFolder_Text" xml:space="preserve">
+    <value>新文件夹嵌套在原始文件夹中</value>
+  </data>
+  <data name="MovingMembers_Text" xml:space="preserve">
+    <value>正在移动成员…</value>
+  </data>
+  <data name="NewElementIsHiddenBy__Text" xml:space="preserve">
+    <value>新元素被{0}隐藏</value>
+  </data>
+  <data name="Remove_emptyFiles_Text" xml:space="preserve">
+    <value>移除空文件(_E)</value>
+  </data>
+  <data name="MethodBodyWillHaveErrorsBecauseItUsesFunctions_Text" xml:space="preserve">
+    <value>方法体利用将作为委托形参传递的其他方法</value>
+  </data>
+  <data name="FullyQualifiedTargetTypeNa_me_Text" xml:space="preserve">
+    <value>完全限定目标类型名称(_M):</value>
+  </data>
+  <data name="GenerateHashcodeSettingDescription" xml:space="preserve">
+    <value>生成哈希码</value>
+  </data>
+  <data name="Add_To__Text" xml:space="preserve">
+    <value>将 {0} 添加到 {1}</value>
+  </data>
+  <data name="_LocalScope_Text" xml:space="preserve">
+    <value>局部范围(_L)</value>
+  </data>
+  <data name="FolderName_Text" xml:space="preserve">
+    <value>文件夹名称</value>
+  </data>
+  <data name="ConstructorS_DescriptionText" xml:space="preserve">
+    <value>构造函数(_C)</value>
+  </data>
+  <data name="UpdatingUsages_Text" xml:space="preserve">
+    <value>正在更新用法…</value>
+  </data>
+  <data name="_RemoveSourceFile_Text" xml:space="preserve">
+    <value>移除源文件(_R)</value>
+  </data>
+  <data name="Return_type_Text" xml:space="preserve">
+    <value>返回值类型(_T):</value>
+  </data>
+  <data name="AbstractClassToInterfaceActionText" xml:space="preserve">
+    <value>abstract 类到接口…</value>
+  </data>
+  <data name="_HasHandlesClause_Text" xml:space="preserve">
+    <value>{0} 具有 handles 子句</value>
+  </data>
+  <data name="ParameterNameShadows_Text" xml:space="preserve">
+    <value>形参 ‘{0}’ 将遮蔽现有元素</value>
+  </data>
+  <data name="UsingStatementConflict_Text" xml:space="preserve">
+    <value>变量属于 'using' 语句，内联可能会导致资源泄漏</value>
+  </data>
+  <data name="ConflictWithModifiersListFoundIn__Text" xml:space="preserve">
+    <value>在 {0} 中找到与修饰符列表的冲突</value>
+  </data>
+  <data name="Related_symbols_Text" xml:space="preserve">
+    <value>相关符号(_S):</value>
+  </data>
+  <data name="NoFixesAvailableForThisNode_Text" xml:space="preserve">
+    <value>没有可用于此节点的修正</value>
+  </data>
+  <data name="NodeBecameInvalid_Text" xml:space="preserve">
+    <value>节点失效</value>
+  </data>
+  <data name="Class_DescriptionText" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="COnvertIndexerToMethodS_Text" xml:space="preserve">
+    <value>将索引器转换为方法(&amp;O)</value>
+  </data>
+  <data name="Whole_solution_Text" xml:space="preserve">
+    <value>整个解决方案(_S)</value>
+  </data>
+  <data name="Usages_Column_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="UpdatingDeclaration_Text" xml:space="preserve">
+    <value>正在更新声明…</value>
+  </data>
+  <data name="UpdatingOtherReferences_Text" xml:space="preserve">
+    <value>正在更新其他引用…</value>
+  </data>
+  <data name="ReturnValue_DescriptionText" xml:space="preserve">
+    <value>返回值</value>
+  </data>
+  <data name="PathIsEmpty_Text" xml:space="preserve">
+    <value>路径为空</value>
+  </data>
+  <data name="Show_processedUsagesInFindResults_Text" xml:space="preserve">
+    <value>在 '查找结果' 中显示已处理的用法(_P)</value>
+  </data>
+  <data name="_AdjustNamespaces_Text" xml:space="preserve">
+    <value>调整命名空间(&amp;A)</value>
+  </data>
+  <data name="ExtractMethodCannotProceed_Caption" xml:space="preserve">
+    <value>提取方法不能继续</value>
+  </data>
+  <data name="DoNotAddParametersToTheMethod_Text" xml:space="preserve">
+    <value>不将形参添加到方法(_D)</value>
+  </data>
+  <data name="SearchingRelatedElementsFor__Text" xml:space="preserve">
+    <value>正在搜索 '{0}' 的相关元素</value>
+  </data>
+  <data name="UsageWillBeFixed_Text" xml:space="preserve">
+    <value>{0,用法}将被修正</value>
+  </data>
+  <data name="PropertiesKindSettingDescription" xml:space="preserve">
+    <value>属性种类</value>
+  </data>
+  <data name="Conflicts_Text" xml:space="preserve">
+    <value>冲突</value>
+  </data>
+  <data name="CreatingFiles_Text" xml:space="preserve">
+    <value>正在创建文件…</value>
+  </data>
+  <data name="ScanningHierarchy_Text" xml:space="preserve">
+    <value>正在扫描层次结构…</value>
+  </data>
+  <data name="UpdateExternalFieldUsagesOnlySettingDescription" xml:space="preserve">
+    <value>仅更新外部字段用法</value>
+  </data>
+  <data name="ExtractedBlockHasExitsToDifferentPoints_Text" xml:space="preserve">
+    <value>提取的块有不同点的出口</value>
+  </data>
+  <data name="IntroduceFieldActionText" xml:space="preserve">
+    <value>引入字段…</value>
+  </data>
+  <data name="PushMembersDoWn_Text" xml:space="preserve">
+    <value>向下推送成员(&amp;W)</value>
+  </data>
+  <data name="SearchingForAmbiguitiesInTheTargetType_Text" xml:space="preserve">
+    <value>正在搜索目标类型中的不明确…</value>
+  </data>
+  <data name="InLineVariable_Text" xml:space="preserve">
+    <value>内联变量(&amp;L)</value>
+  </data>
+  <data name="Add_thisParameterOfType_WithName_Text" xml:space="preserve">
+    <value>添加具有以下名称的 '{0}' 类型的 'this' 形参(_T):</value>
+  </data>
+  <data name="ReplaceAllHighlightedOccurrencesOfType_Text" xml:space="preserve">
+    <value>将类型的所有高亮显示匹配项替换为新 typedef</value>
+  </data>
+  <data name="InlineClass_Text" xml:space="preserve">
+    <value>内联类</value>
+  </data>
+  <data name="Param_eters_Text" xml:space="preserve">
+    <value>形参(_E):</value>
+  </data>
+  <data name="NoSuchType___Text" xml:space="preserve">
+    <value>没有此类类型: {0}`{1}</value>
+  </data>
+  <data name="IntroduceParameterIsAppliedTo_ThatAlsoOverrides_Text" xml:space="preserve">
+    <value>“引入形参”应用于也重写不会被更改的{1}的{0}。请手动解决冲突。</value>
+  </data>
+  <data name="CreateAsField_Text" xml:space="preserve">
+    <value>创建为字段</value>
+  </data>
+  <data name="WhetherToRenameFileNameWhenASingleClassInTheFileIsRenamedSettingDescription" xml:space="preserve">
+    <value>当文件中的唯一类被重命名时是否重命名文件名</value>
+  </data>
+  <data name="RenameRelatedSYmbols_Text" xml:space="preserve">
+    <value>重命名相关符号(&amp;Y)</value>
+  </data>
+  <data name="LanguageOfInlinedDeclarationIs_ButLanguage_Text" xml:space="preserve">
+    <value>内联的声明的语言为 {0}，但{{0, 用法}}的语言为 {1}</value>
+  </data>
+  <data name="UpdatingSuspiciousReferences_Text" xml:space="preserve">
+    <value>正在更新可疑引用…</value>
+  </data>
+  <data name="ObjectCreationCannotBeDeleted_Text" xml:space="preserve">
+    <value>{0,对象创建}无法删除</value>
+  </data>
+  <data name="_ReferenceCannotBeInverted_Text" xml:space="preserve">
+    <value>{0, 引用}无法反转</value>
+  </data>
+  <data name="Inlined_OverridesBaseClassMemberDeclaration_Text" xml:space="preserve">
+    <value>内联的{0}重写基类成员。声明不会被移除。</value>
+  </data>
+  <data name="_TargetFileName_Text" xml:space="preserve">
+    <value>目标文件名(_T):</value>
+  </data>
+  <data name="Extract_Class_Refactoring_Title" xml:space="preserve">
+    <value>提取类</value>
+  </data>
+  <data name="_IsPresentedButItIsNotDefault_Text" xml:space="preserve">
+    <value>{0} 已显示，但不是默认值</value>
+  </data>
+  <data name="UpdatingUsageProgress_Text" xml:space="preserve">
+    <value>正在更新用法</value>
+  </data>
+  <data name="Select_parametersToTransform_Text" xml:space="preserve">
+    <value>选择要转换的形参(_P)：</value>
+  </data>
+  <data name="_DoesnTDefaultConstructorConstraint_Text" xml:space="preserve">
+    <value>{0}没有默认构造函数约束</value>
+  </data>
+  <data name="DeconstructMethodShouldContainOnlyOutParameters_Text" xml:space="preserve">
+    <value>'Deconstruct' 方法应当仅包含用于对象析构的 'out' 形参</value>
+  </data>
+  <data name="CreateANewClassToReplaceAllOccurrences_Text" xml:space="preserve">
+    <value>创建一个新类以替换所选作用域内匿名类型的所有匹配项</value>
+  </data>
+  <data name="ConvertActionGroupText" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="_FromDeletedElementImplements__Text" xml:space="preserve">
+    <value>来自删除的元素的{0}实现{1}</value>
+  </data>
+  <data name="_IsQuasiImplementedBy_ThatWillNotBe_Text" xml:space="preserve">
+    <value>{0}由不会被更改的{1}准实现。请手动解决冲突。</value>
+  </data>
+  <data name="InternalReferences_Text" xml:space="preserve">
+    <value>内部引用…</value>
+  </data>
+  <data name="ExtractActionGroupText" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="ReplaceReferencesToTheSelectedTypeWith_Text" xml:space="preserve">
+    <value>将对所选类型的引用替换为对其基类型之一的引用</value>
+  </data>
+  <data name="Sa_FeDelete_Text" xml:space="preserve">
+    <value>安全删除(&amp;F)</value>
+  </data>
+  <data name="AnalyzingPossibleProblems_Text" xml:space="preserve">
+    <value>正在分析可能的问题…</value>
+  </data>
+  <data name="InvertValues_insideMember_Text" xml:space="preserve">
+    <value>反转成员内部的值(_I)</value>
+  </data>
+  <data name="FixingTypeDeclarations_Text" xml:space="preserve">
+    <value>正在修正类型声明…</value>
+  </data>
+  <data name="UpdatingInternalUsages_Text" xml:space="preserve">
+    <value>正在更新内部用法…</value>
+  </data>
+  <data name="ThereAreSomeOtherProjectsInSameProjectFolders_Text" xml:space="preserve">
+    <value>同一项目文件夹中还有一些其他项目</value>
+  </data>
+  <data name="OperationOrderMayChange_Text" xml:space="preserve">
+    <value>操作顺序可能会在 {0} 中发生变化</value>
+  </data>
+  <data name="MoveTypesIntoMatchingFilesActionText" xml:space="preserve">
+    <value>将类型移动到匹配文件中…</value>
+  </data>
+  <data name="RemovingObsoleteImports_Text" xml:space="preserve">
+    <value>正在移除过时的 import…</value>
+  </data>
+  <data name="Name_Column_Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Name_Column_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="PullMem_BersUp_Text" xml:space="preserve">
+    <value>向上拉取成员(&amp;B)</value>
+  </data>
+  <data name="Replace_Occurrences_Text" xml:space="preserve">
+    <value>替换 {0} 个匹配项</value>
+  </data>
+  <data name="UserEdit_Text" xml:space="preserve">
+    <value>用户编辑</value>
+  </data>
+  <data name="ParameterHasInvalidType_Text" xml:space="preserve">
+    <value>形参具有无效类型</value>
+  </data>
+  <data name="GeneratingNewCode_Text" xml:space="preserve">
+    <value>正在生成新代码…</value>
+  </data>
+  <data name="Folder_AlreadyExists_Text" xml:space="preserve">
+    <value>文件夹 '{0}' 已存在</value>
+  </data>
+  <data name="TargetProjectLanguageShouldBe__Text" xml:space="preserve">
+    <value>目标项目语言应为 {0}</value>
+  </data>
+  <data name="TypeParameterAmbiguity_Text" xml:space="preserve">
+    <value>{0,类型形参}不明确性。</value>
+  </data>
+  <data name="Rena_Me_Text" xml:space="preserve">
+    <value>重命名(&amp;M)</value>
+  </data>
+  <data name="EnterMethodName_Text" xml:space="preserve">
+    <value>输入方法名称</value>
+  </data>
+  <data name="_1Symbol_Text" xml:space="preserve">
+    <value>{0} (1 个字符)</value>
+  </data>
+  <data name="RefactorThisAction_Title" xml:space="preserve">
+    <value>重构此…</value>
+  </data>
+  <data name="_WithGetterAlreadyExists_Text" xml:space="preserve">
+    <value>已存在带有 getter 的{0}</value>
+  </data>
+  <data name="UnableToInline0UsageInAnObjectInitializer_Text" xml:space="preserve">
+    <value>无法{0, 在对象初始值设定项表达式中内联用法}</value>
+  </data>
+  <data name="PushMemberDown_Text" xml:space="preserve">
+    <value>向下推送成员</value>
+  </data>
+  <data name="NotDefault_WithThisNameIsAlreadyDeclared_Text" xml:space="preserve">
+    <value>已声明具有此名称的非默认{0}</value>
+  </data>
+  <data name="Add_ParameterTo__Text" xml:space="preserve">
+    <value>将 '{0}' 形参添加到 {1}</value>
+  </data>
+  <data name="Inlined_ImplementsInterfaceMemberDeclaration_Text" xml:space="preserve">
+    <value>内联的{0}实现接口成员。声明不会被移除。</value>
+  </data>
+  <data name="NewName_Column_Text" xml:space="preserve">
+    <value>新名称</value>
+  </data>
+  <data name="Copy__Text" xml:space="preserve">
+    <value>复制{0}</value>
+  </data>
+  <data name="RefactoringChangeSignature_Text" xml:space="preserve">
+    <value>重构 - 更改签名</value>
+  </data>
+  <data name="Inline_Text" xml:space="preserve">
+    <value>内联</value>
+  </data>
+  <data name="PreProcessingUsages_Text" xml:space="preserve">
+    <value>正在预处理用法…</value>
+  </data>
+  <data name="_RemoveInlinedMethodDeclaration_Text" xml:space="preserve">
+    <value>移除内联的方法声明(_R)</value>
+  </data>
+  <data name="GiveANewNameToThe___Text" xml:space="preserve">
+    <value>为{0} '{1}' 指定一个新名称</value>
+  </data>
+  <data name="FunctionToProperty_Text" xml:space="preserve">
+    <value>函数到属性</value>
+  </data>
+  <data name="CheckUsagesThatShouldBeUpdated_Text" xml:space="preserve">
+    <value>检查应更新的用法</value>
+  </data>
+  <data name="FileDoesnTExistAndCannotBeCreated__Text" xml:space="preserve">
+    <value>文件不存在，并且不能创建: {0}</value>
+  </data>
+  <data name="_ValueWillBeLost_Text" xml:space="preserve">
+    <value>{0} 值将丢失</value>
+  </data>
+  <data name="ConvertMethodToProperty_Text" xml:space="preserve">
+    <value>将方法转换为属性</value>
+  </data>
+  <data name="CreatingProperty_Text" xml:space="preserve">
+    <value>正在创建属性…</value>
+  </data>
+  <data name="SplitRefParameterToInAndOut_DescriptionText" xml:space="preserve">
+    <value>将 ref 形参拆分为 in 和 out</value>
+  </data>
+  <data name="CreateNewProperty_Text" xml:space="preserve">
+    <value>&lt;Create new property&gt;</value>
+  </data>
+  <data name="Par_ameters_Text" xml:space="preserve">
+    <value>形参(_A):</value>
+  </data>
+  <data name="AnalysingConflicts_Text" xml:space="preserve">
+    <value>正在分析冲突…</value>
+  </data>
+  <data name="UpdatingRecursiveCalls_Text" xml:space="preserve">
+    <value>正在更新递归调用…</value>
+  </data>
+  <data name="CreateANewLocalVariableAndUseIt_DescriptionText" xml:space="preserve">
+    <value>创建新的局部变量并使用它(_L)</value>
+  </data>
+  <data name="None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="RenameInCommentsAnd_stringLiterals_Text" xml:space="preserve">
+    <value>在注释和字符串字面量中重命名(_S)</value>
+  </data>
+  <data name="CurrentMember_DescriptionText" xml:space="preserve">
+    <value>当前成员(_M)</value>
+  </data>
+  <data name="CopyTypeActionText" xml:space="preserve">
+    <value>复制类型…</value>
+  </data>
+  <data name="Introduce_Variable_Text" xml:space="preserve">
+    <value>引入变量(&amp;V)</value>
+  </data>
+  <data name="SetParamsModifierActionText" xml:space="preserve">
+    <value>将 'params' 修饰符添加到形参…</value>
+  </data>
+  <data name="Make_fieldPrivate_Text" xml:space="preserve">
+    <value>将字段设为 private(_F)</value>
+  </data>
+  <data name="BuildingASetOfElementsToRename_Text" xml:space="preserve">
+    <value>正在构建一组要重命名的元素…</value>
+  </data>
+  <data name="PersistentSettingsForEncapsulateFieldRefactoringSettingDescription" xml:space="preserve">
+    <value>封装字段重构的持久设置</value>
+  </data>
+  <data name="ChooseValueOfParameter_ToBeUsedToCorrect_Text" xml:space="preserve">
+    <value>选择要用于更正 '{1}' 调用的形参 {0} 的值:</value>
+  </data>
+  <data name="SomeMembersAreNotImplemented_Text" xml:space="preserve">
+    <value>部分成员未实现</value>
+  </data>
+  <data name="MethodR_eceives_Text" xml:space="preserve">
+    <value>方法接收(_E):</value>
+  </data>
+  <data name="CorrespondingFilesToBeRenamed_Text" xml:space="preserve">
+    <value>要重命名的相应文件:</value>
+  </data>
+  <data name="InlineActionGroupText" xml:space="preserve">
+    <value>内联</value>
+  </data>
+  <data name="CreateAccessor_DescriptionText" xml:space="preserve">
+    <value>创建访问器</value>
+  </data>
+  <data name="CreateProperty_DescriptionText" xml:space="preserve">
+    <value>创建属性</value>
+  </data>
+  <data name="T_opLevelType_Text" xml:space="preserve">
+    <value>顶层类型(_O)</value>
+  </data>
+  <data name="IntroduceVariable_Text" xml:space="preserve">
+    <value>引入变量</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value> 或</value>
+  </data>
+  <data name="CannotInlineCombinedReadAndWriteAccess_Text" xml:space="preserve">
+    <value>无法内联对属性的组合读写访问</value>
+  </data>
+  <data name="NewElementHides__Text" xml:space="preserve">
+    <value>新元素会隐藏{0}</value>
+  </data>
+  <data name="ExtractSuperclass_Text" xml:space="preserve">
+    <value>提取超类</value>
+  </data>
+  <data name="CannotCreateClassDeclaration_Text" xml:space="preserve">
+    <value>不能创建类声明</value>
+  </data>
+  <data name="Create_singleInstance_Text" xml:space="preserve">
+    <value>创建单个实例(_S)</value>
+  </data>
+  <data name="_AllowChangeInternalVisibilityToPublic_Text" xml:space="preserve">
+    <value>允许在需要时将内部可见性更改为 public(_A)</value>
+  </data>
+  <data name="E_XtractInterface_Text" xml:space="preserve">
+    <value>提取接口(&amp;X)</value>
+  </data>
+  <data name="NewParameterSuggestion_Text" xml:space="preserve">
+    <value>新形参建议,*</value>
+  </data>
+  <data name="_ReadUsages_Text" xml:space="preserve">
+    <value>读取用法(_R)</value>
+  </data>
+  <data name="_RenameSingleTypeToMatchFileName_Text" xml:space="preserve">
+    <value>重命名单一类型以匹配文件名(_R)</value>
+  </data>
+  <data name="FileIsAutogenerated_Text" xml:space="preserve">
+    <value>文件已自动生成</value>
+  </data>
+  <data name="MoveTypesIntoMatchingFiles_Text" xml:space="preserve">
+    <value>将类型移动到匹配文件中</value>
+  </data>
+  <data name="_IsAQuasiImplementation_Text" xml:space="preserve">
+    <value>{0}为准实现</value>
+  </data>
+  <data name="ConvertIntoAnInstanceMethodAndMoveIt_Text" xml:space="preserve">
+    <value>转换为实例方法并将其移动到所选形参的类型</value>
+  </data>
+  <data name="FindReferencesOf__Text" xml:space="preserve">
+    <value>查找{0}的引用</value>
+  </data>
+  <data name="Used_Text" xml:space="preserve">
+    <value>已使用</value>
+  </data>
+  <data name="Invocation_Text" xml:space="preserve">
+    <value>调用</value>
+  </data>
+  <data name="ReplaceTypesIn_isOperator_Text" xml:space="preserve">
+    <value>替换 '_is' 运算符中的类型</value>
+  </data>
+  <data name="DeletingFromTheFileSystem_Text" xml:space="preserve">
+    <value>正在从文件系统中删除</value>
+  </data>
+  <data name="CreateCopy_DescriptionText" xml:space="preserve">
+    <value>创建副本</value>
+  </data>
+  <data name="R_emove_AndInheritors_Text" xml:space="preserve">
+    <value>移除{0}和继承者(_E)</value>
+  </data>
+  <data name="BulkRenameRefactoring_Text" xml:space="preserve">
+    <value>批量重命名重构</value>
+  </data>
+  <data name="Tuple_DescriptionText" xml:space="preserve">
+    <value>元组</value>
+  </data>
+  <data name="_WillNotBeAccessible__Text" xml:space="preserve">
+    <value>{{0}}将无法访问 {0}</value>
+  </data>
+  <data name="ExtensionMethodToPlainStatic_Text" xml:space="preserve">
+    <value>扩展方法到纯静态</value>
+  </data>
+  <data name="ExtractMethodPage_LoadingNameSuggestions_Text" xml:space="preserve">
+    <value>正在加载名称建议…</value>
+  </data>
+  <data name="ExistingClass_DescriptionText" xml:space="preserve">
+    <value>现有类</value>
+  </data>
+  <data name="ParameterNameCannotBeEmpty_Text" xml:space="preserve">
+    <value>参数名称不能为空</value>
+  </data>
+  <data name="Usage_WillReferToComponentOfType_Instead_Text" xml:space="preserve">
+    <value>用法 {{0}} 将引用 '{0}' 类型而不是 '{1}' 类型的组件</value>
+  </data>
+  <data name="_WillBeHidden_Text" xml:space="preserve">
+    <value>{0}将被隐藏</value>
+  </data>
+  <data name="NewType_Text" xml:space="preserve">
+    <value>新类型</value>
+  </data>
+  <data name="InLineMethod_Text" xml:space="preserve">
+    <value>内联方法(&amp;L)</value>
+  </data>
+  <data name="_ReferenceToExtracted_Text" xml:space="preserve">
+    <value>对提取项的引用(_R):</value>
+  </data>
+  <data name="TooManyTupleParametersMaximumNumber_Text" xml:space="preserve">
+    <value>元组形参过多，形参的最大数量为 {0}</value>
+  </data>
+  <data name="ChooseValueOfParameter_ToBeUsedAsDefault_Text" xml:space="preserve">
+    <value>选择要用作 '{1}' 声明中的默认值的形参 {0} 的值:</value>
+  </data>
+  <data name="UseTheFollowingValue_DescriptionText" xml:space="preserve">
+    <value>使用以下值(_F):</value>
+  </data>
+  <data name="Select_dependent_Text" xml:space="preserve">
+    <value>选择依赖(_D)</value>
+  </data>
+  <data name="_AlsoOverrides_ThatWillNotBeChanged_Text" xml:space="preserve">
+    <value>{0}也重写不会被更改的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="IntroduceParameterActionText" xml:space="preserve">
+    <value>引入形参…</value>
+  </data>
+  <data name="_Implements__Text" xml:space="preserve">
+    <value>{0} 实现 {1}</value>
+  </data>
+  <data name="_RefactoringWillBeTerminated_Text" xml:space="preserve">
+    <value>{0} 重构将被终止</value>
+  </data>
+  <data name="ProjectWithName_AlreadyExistsInTheSolution_Text" xml:space="preserve">
+    <value>解决方案中已经存在名称为 '{0}' 的项目</value>
+  </data>
+  <data name="Select_typesWhereYouWantToMoveMembers_Text" xml:space="preserve">
+    <value>选择要移动成员的类型(_T):</value>
+  </data>
+  <data name="RenameActionText" xml:space="preserve">
+    <value>重命名…</value>
+  </data>
+  <data name="PropertyNa_me_Text" xml:space="preserve">
+    <value>属性名称(_M):</value>
+  </data>
+  <data name="Select_membersToMove_Text" xml:space="preserve">
+    <value>选择要移动的成员(_M):</value>
+  </data>
+  <data name="ConstructorParameters_Text" xml:space="preserve">
+    <value>构造函数形参</value>
+  </data>
+  <data name="InvalidDeclaredElement_Text" xml:space="preserve">
+    <value>声明的元素无效</value>
+  </data>
+  <data name="AlsoRename_filesToReflectThisChange_Text" xml:space="preserve">
+    <value>同时重命名文件以反映此更改(_F)</value>
+  </data>
+  <data name="MoveIntoSeparateFiles_Text" xml:space="preserve">
+    <value>移入单独的文件:</value>
+  </data>
+  <data name="DoNotApplyFix_DescriptionText" xml:space="preserve">
+    <value>不应用修正</value>
+  </data>
+  <data name="VerifyingSuspiciousReferencesAfterRename_Text" xml:space="preserve">
+    <value>正在验证重命名后的可疑引用…</value>
+  </data>
+  <data name="IntroduceConstant_DescriptionText" xml:space="preserve">
+    <value>引入常量(_I)</value>
+  </data>
+  <data name="ExtractInterface_Text" xml:space="preserve">
+    <value>提取接口</value>
+  </data>
+  <data name="Out_Text" xml:space="preserve">
+    <value>out</value>
+  </data>
+  <data name="UsageOf_CannotBeReplacedWith__Text" xml:space="preserve">
+    <value>{1} 的{0, 用法}无法被替换为 {2}</value>
+  </data>
+  <data name="TheNewFileNameCannotBeUsedAsAValidTypeName_Text" xml:space="preserve">
+    <value>新文件名不能用作有效的类型名称</value>
+  </data>
+  <data name="AnalyzingEmptyNamespaces_Text" xml:space="preserve">
+    <value>正在分析空命名空间…</value>
+  </data>
+  <data name="UnableToPerformRefactoring_Caption" xml:space="preserve">
+    <value>无法执行重构</value>
+  </data>
+  <data name="NoParametersAdded_Text" xml:space="preserve">
+    <value>尚未添加形参</value>
+  </data>
+  <data name="UnableToAccessTypeOf_InFactoryClass_Text" xml:space="preserve">
+    <value>无法访问工厂类中{0}的类型</value>
+  </data>
+  <data name="Usage_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="Target__Text" xml:space="preserve">
+    <value>目标 {0}:</value>
+  </data>
+  <data name="InlineParameterOptions_Text" xml:space="preserve">
+    <value>内联形参选项</value>
+  </data>
+  <data name="To_autoProperty_Text" xml:space="preserve">
+    <value>转换为自动属性(_A)</value>
+  </data>
+  <data name="ToMoveMethod_To_Text" xml:space="preserve">
+    <value> 以将方法 {0} 移动到 </value>
+  </data>
+  <data name="CollectingObsoleteUsages_Text" xml:space="preserve">
+    <value>正在收集过时的用法…</value>
+  </data>
+  <data name="QuickRename_IgnoreAnyReferences_Text" xml:space="preserve">
+    <value>快速重命名，忽略任何引用(_I)</value>
+  </data>
+  <data name="Update_occurrences_Text" xml:space="preserve">
+    <value>更新匹配项(_O)</value>
+  </data>
+  <data name="IndexerToMethodActionText" xml:space="preserve">
+    <value>索引器到方法…</value>
+  </data>
+  <data name="FixLinkedFiles_Text" xml:space="preserve">
+    <value>修正链接文件</value>
+  </data>
+  <data name="ContainingType_HasNameSameToTheNewName_Text" xml:space="preserve">
+    <value>包含类型({0})的名称与新名称相同。这仅被允许用于构造函数和析构函数。</value>
+  </data>
+  <data name="ReviewTypeChanges_Text" xml:space="preserve">
+    <value>审查类型更改</value>
+  </data>
+  <data name="SearchingBackingFieldUsages_Text" xml:space="preserve">
+    <value>正在搜索支持字段用法…</value>
+  </data>
+  <data name="Modifier_Text" xml:space="preserve">
+    <value>修饰符</value>
+  </data>
+  <data name="ReferenceCannotBeInverted_Text" xml:space="preserve">
+    <value> 引用不能反转</value>
+  </data>
+  <data name="ProcessingUsages_Text" xml:space="preserve">
+    <value>正在处理用法…</value>
+  </data>
+  <data name="UnableToUpdateCustomAsyncDeclaration_Text" xml:space="preserve">
+    <value>无法更新具有非任务返回值类型的异步方法</value>
+  </data>
+  <data name="SelectParametersTo_enlambda_Text" xml:space="preserve">
+    <value>选择要通过泛型委托形参传递的变量(_E):</value>
+  </data>
+  <data name="_HasGetterThatCannotOverrideTheBase_Text" xml:space="preserve">
+    <value>{0}具有不能重写基类 getter 的 getter</value>
+  </data>
+  <data name="MethodParameters_Text" xml:space="preserve">
+    <value>方法参数</value>
+  </data>
+  <data name="Invalid_Text" xml:space="preserve">
+    <value>无效</value>
+  </data>
+  <data name="CollectingProjectReferences_Text" xml:space="preserve">
+    <value>正在收集项目引用</value>
+  </data>
+  <data name="WillOverride_Text" xml:space="preserve">
+    <value>{0}将重写{1}</value>
+  </data>
+  <data name="Rename__Text" xml:space="preserve">
+    <value>重命名 {0}</value>
+  </data>
+  <data name="_ProceedWithRefactoring_Text" xml:space="preserve">
+    <value>{0} 继续进行重构?</value>
+  </data>
+  <data name="Extract_Text" xml:space="preserve">
+    <value>提取</value>
+  </data>
+  <data name="FileNameIsEmpty_Text" xml:space="preserve">
+    <value>文件名为空</value>
+  </data>
+  <data name="Make_static_Text" xml:space="preserve">
+    <value>设为 static(_S)</value>
+  </data>
+  <data name="MemberIsNotAccessedAnywhere_DescriptionText" xml:space="preserve">
+    <value>未在任何位置访问成员</value>
+  </data>
+  <data name="Renamed_IsQuasiImplementedBy_ThatWill_Text" xml:space="preserve">
+    <value>重命名的{0}由不会重命名的{1}准实现。请手动解决冲突。</value>
+  </data>
+  <data name="UnableToSaveReferenceTo__Text" xml:space="preserve">
+    <value>无法保存对{0}的引用</value>
+  </data>
+  <data name="_DoesnTHaveValueConstraint_Text" xml:space="preserve">
+    <value>{0}没有值约束</value>
+  </data>
+  <data name="_HasInitializer_Text" xml:space="preserve">
+    <value>{0} 具有初始值设定项</value>
+  </data>
+  <data name="SearchingUsagesOfRemovedElements_Text" xml:space="preserve">
+    <value>正在搜索移除的元素的用法</value>
+  </data>
+  <data name="MethodDescriptionText" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="IntroduceParameterIsAppliedTo_ThatAlsoImplements_Text" xml:space="preserve">
+    <value>“引入形参”应用于也实现不会被转换的{1}的{0}。请手动解决冲突。</value>
+  </data>
+  <data name="InlineClassActionText" xml:space="preserve">
+    <value>内联类…</value>
+  </data>
+  <data name="Virtual_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
+    <value>已在目标类型中声明 virtual {0}</value>
+  </data>
+  <data name="WhetherToRemoveTheMethodDeclarationAfterItsBeenInlinedIntoAllOfItsUsagesSettingDescription" xml:space="preserve">
+    <value>在方法声明被内联到其所有用法后是否将其移除</value>
+  </data>
+  <data name="DiscardOutParameterValue_DescriptionText" xml:space="preserve">
+    <value>舍弃 out 形参值(_D)</value>
+  </data>
+  <data name="COnvertAbstractClassToInterface_Text" xml:space="preserve">
+    <value>将 abstract 类转换为接口(&amp;O)</value>
+  </data>
+  <data name="UnableToInline0UsageUnableToIntroduce_Text" xml:space="preserve">
+    <value>无法内联{0, 用法}。无法为限定符和返回值引入临时变量。</value>
+  </data>
+  <data name="SelectScopeWhereToSearchForAnonymous_Text" xml:space="preserve">
+    <value>选择要搜索和更新匿名类型用法的作用域:</value>
+  </data>
+  <data name="ReplaceWith_baseType__Text" xml:space="preserve">
+    <value>替换为基类型 {0}(_B)</value>
+  </data>
+  <data name="CopyType_Text" xml:space="preserve">
+    <value>复制类型</value>
+  </data>
+  <data name="_UpdateRelatedSymbols_Text" xml:space="preserve">
+    <value>更新相关符号(_U)</value>
+  </data>
+  <data name="SearchingFilesWithInconsistentNamespaces_Text" xml:space="preserve">
+    <value>正在搜索命名空间不一致的文件</value>
+  </data>
+  <data name="COnvertInterfaceToAbstractClass_Text" xml:space="preserve">
+    <value>将接口转换为 abstract 类(&amp;O)</value>
+  </data>
+  <data name="EncapsulateFieldToAutoPropertySettingDescription" xml:space="preserve">
+    <value>封装字段到自动属性</value>
+  </data>
+  <data name="UseAsParameterDefaultValue__Text" xml:space="preserve">
+    <value>设置为形参声明中的默认值</value>
+  </data>
+  <data name="InvertU_sagesOfMember_Text" xml:space="preserve">
+    <value>反转成员的用法(_S)</value>
+  </data>
+  <data name="MethodToIndexerActionText" xml:space="preserve">
+    <value>方法到索引器…</value>
+  </data>
+  <data name="Module_Lower_Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="InlinedMethodHasAnotherImplementation_Text" xml:space="preserve">
+    <value>内联的方法具有将被忽略的另一个实现 {0}</value>
+  </data>
+  <data name="TargetClassMember_Column_Text" xml:space="preserve">
+    <value>目标类成员</value>
+  </data>
+  <data name="FoundAtLeast1UsageOf_In_2FindAllUsages_Text" xml:space="preserve">
+    <value>在 {1} {2,Find all usages}中找到至少 1 个 {0} 的用法</value>
+  </data>
+  <data name="ReplaceOneOccurrence_Text" xml:space="preserve">
+    <value>替换一个匹配项</value>
+  </data>
+  <data name="SearchingForUsages_Text" xml:space="preserve">
+    <value>正在搜索用法…</value>
+  </data>
+  <data name="Removing_Text" xml:space="preserve">
+    <value>正在移除…</value>
+  </data>
+  <data name="DefaultValue__Text" xml:space="preserve">
+    <value>默认值 {0}</value>
+  </data>
+  <data name="ExpressionTypeUnknown_Text" xml:space="preserve">
+    <value>表达式类型未知</value>
+  </data>
+  <data name="UseCustomValue__Text" xml:space="preserve">
+    <value>使用自定义值 {0}</value>
+  </data>
+  <data name="SpecifyTargetFolderAndMoveOptions_Text" xml:space="preserve">
+    <value>指定目标文件夹和移动选项</value>
+  </data>
+  <data name="ConvertInterfaceToAbstract_Text" xml:space="preserve">
+    <value>将接口转换为 abstract</value>
+  </data>
+  <data name="AddParameterAt__Text" xml:space="preserve">
+    <value>在 {0} 添加形参</value>
+  </data>
+  <data name="Scope_Text" xml:space="preserve">
+    <value>范围:</value>
+  </data>
+  <data name="BulkRename_Text" xml:space="preserve">
+    <value>批量重命名</value>
+  </data>
+  <data name="Reference_MayBeBroken_Text" xml:space="preserve">
+    <value>引用 {0} 可能已被破坏 </value>
+  </data>
+  <data name="SearchingUsagesOfMovedTypes_Text" xml:space="preserve">
+    <value>正在搜索移动的类型的用法</value>
+  </data>
+  <data name="Preserve_hierarchyOfFoldersAndFileNames_Text" xml:space="preserve">
+    <value>保留文件夹和文件名的层次结构(_H)</value>
+  </data>
+  <data name="Ma_KeStatic_Text" xml:space="preserve">
+    <value>设为 static(&amp;K)</value>
+  </data>
+  <data name="SomeFilesMayBecomeEmpty_Text" xml:space="preserve">
+    <value>一些文件可能会变空</value>
+  </data>
+  <data name="NewN_ame_Text" xml:space="preserve">
+    <value>新名称(_A):</value>
+  </data>
+  <data name="TargetClassHasMemberWithTheSameName_Text" xml:space="preserve">
+    <value>目标类具有与{0}同名的成员</value>
+  </data>
+  <data name="Success_Text" xml:space="preserve">
+    <value>成功.</value>
+  </data>
+  <data name="ExtractInterfaceActionText" xml:space="preserve">
+    <value>提取接口…</value>
+  </data>
+  <data name="SearchingExpressionOccurrences_Text" xml:space="preserve">
+    <value>正在搜索表达式匹配项…</value>
+  </data>
+  <data name="CheckingForNewOverridesImplementationsInDerived_Text" xml:space="preserve">
+    <value>正在检查派生类型中的新重写/实现…</value>
+  </data>
+  <data name="ThereAreSomeProjectsInSolutionDirectory_Text" xml:space="preserve">
+    <value>解决方案目录中存在一些项目。它们无法被安全删除。</value>
+  </data>
+  <data name="ExtractMethod_Text" xml:space="preserve">
+    <value>提取方法</value>
+  </data>
+  <data name="InMovedType_Text" xml:space="preserve">
+    <value>在移动的类型中</value>
+  </data>
+  <data name="NameIsEmpty_Text" xml:space="preserve">
+    <value>名称为空</value>
+  </data>
+  <data name="StaticToExtensionMethod_Text" xml:space="preserve">
+    <value>static 到扩展方法</value>
+  </data>
+  <data name="ReplaceAllHighlightedOccurrencesWithNewVariable_Text" xml:space="preserve">
+    <value>将初始表达式的所有高亮显示匹配项替换为新变量</value>
+  </data>
+  <data name="Finishing_Text" xml:space="preserve">
+    <value>正在完成…</value>
+  </data>
+  <data name="UpdatingLocalReferencesFor__Text" xml:space="preserve">
+    <value>正在更新 {0} 的局部引用…</value>
+  </data>
+  <data name="MoveToOuterScoPe_Text" xml:space="preserve">
+    <value>移至外部作用域(&amp;P)</value>
+  </data>
+  <data name="Move_Text" xml:space="preserve">
+    <value>移动</value>
+  </data>
+  <data name="Location_Text" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="USe_DescriptionText" xml:space="preserve">
+    <value>使用 '{0}'(_S)</value>
+  </data>
+  <data name="ExtractExtension_Text" xml:space="preserve">
+    <value>提取 extension 块</value>
+  </data>
+  <data name="AnalysingEmptyNamespaces_Text" xml:space="preserve">
+    <value>正在分析空命名空间…</value>
+  </data>
+  <data name="ProcessingCommentsAndStringLiterals_Text" xml:space="preserve">
+    <value>正在处理注释和字符串字面量</value>
+  </data>
+  <data name="SafeDeleteActionText" xml:space="preserve">
+    <value>安全删除…</value>
+  </data>
+  <data name="SearchingReferencesToFilesThatNeedTo_Text" xml:space="preserve">
+    <value>正在搜索对需要重命名的文件的引用…</value>
+  </data>
+  <data name="ProjectFileIsNotValid_Text" xml:space="preserve">
+    <value>项目文件无效</value>
+  </data>
+  <data name="FixProjectProperties_Text" xml:space="preserve">
+    <value>修正项目属性</value>
+  </data>
+  <data name="Encapsulate_Text" xml:space="preserve">
+    <value>封装:</value>
+  </data>
+  <data name="ExtractMethodPage_NoSuggestions_Text" xml:space="preserve">
+    <value>无建议</value>
+  </data>
+  <data name="ConstructorToFactoryMethodActionText" xml:space="preserve">
+    <value>构造函数到工厂方法…</value>
+  </data>
+  <data name="RemoveElementAndAll_INHERITORS_Text" xml:space="preserve">
+    <value>移除元素和所有继承者(_I)</value>
+  </data>
+  <data name="PartOf_ShouldBeInNamespace__Text" xml:space="preserve">
+    <value>{{0, 部分 {0}}} 必须在命名空间 {1} 中</value>
+  </data>
+  <data name="Indexer_Text" xml:space="preserve">
+    <value>索引器</value>
+  </data>
+  <data name="SearchingConflictsFor__Text" xml:space="preserve">
+    <value>正在搜索 {0} 的冲突…</value>
+  </data>
+  <data name="_Targets_Text" xml:space="preserve">
+    <value>目标(_T):</value>
+  </data>
+  <data name="UpdatingReferencesForRenamedFiles_Text" xml:space="preserve">
+    <value>正在更新重命名文件的引用…</value>
+  </data>
+  <data name="File_Exists_Text" xml:space="preserve">
+    <value>文件 '{0}' 已存在</value>
+  </data>
+  <data name="FieldIsUsedAs0RefOutArgument_Text" xml:space="preserve">
+    <value>字段被用作 {0,ref/out 实参}</value>
+  </data>
+  <data name="Select_allSuggestedMembers_Text" xml:space="preserve">
+    <value>选择所有建议的成员(_A)</value>
+  </data>
+  <data name="_SourceOfArgumentsToBeInlined_Text" xml:space="preserve">
+    <value>要内联的实参源(_S):</value>
+  </data>
+  <data name="UseCustomValue_Text" xml:space="preserve">
+    <value>使用自定义值</value>
+  </data>
+  <data name="CheckingMemberHidingInDerivedTypes_Text" xml:space="preserve">
+    <value>正在检查隐藏在派生类型中的成员…</value>
+  </data>
+  <data name="_DeleteProjectFolderAndFilesFromThe_Text" xml:space="preserve">
+    <value>从文件系统中删除项目文件夹和文件(_D)</value>
+  </data>
+  <data name="Choose_filesWhereYouWantToFixNamespaces_Text" xml:space="preserve">
+    <value>选择要修正命名空间的文件(_F):</value>
+  </data>
+  <data name="Report_conflict_Text" xml:space="preserve">
+    <value>报告冲突(_C)</value>
+  </data>
+  <data name="_Has_WriteUsages1FirstWriteUsage2Second_Text" xml:space="preserve">
+    <value>{{0}} 具有 {0} 个写入用法: {{1,First write usage}}, {{2, second write usage}}…</value>
+  </data>
+  <data name="Synchronize_filename_Text" xml:space="preserve">
+    <value>同步文件名(_F)</value>
+  </data>
+  <data name="UsedBy_Text" xml:space="preserve">
+    <value>使用者</value>
+  </data>
+  <data name="FixReferencesToTheProject_Text" xml:space="preserve">
+    <value>修正对项目的引用</value>
+  </data>
+  <data name="CheckingUsage_Text" xml:space="preserve">
+    <value>正在检查用法</value>
+  </data>
+  <data name="UnableToInline0UsageMethodGroupIsNot_Text" xml:space="preserve">
+    <value>无法内联{0,用法}。此语言不支持方法组。</value>
+  </data>
+  <data name="CheckingForConflictsInFileRenames_Text" xml:space="preserve">
+    <value>正在检查文件名是否存在冲突…</value>
+  </data>
+  <data name="Abstract_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
+    <value>已在目标类型中声明 abstract {0}</value>
+  </data>
+  <data name="DeclarationsInThisFileShouldBeIncluded_Text" xml:space="preserve">
+    <value> (此文件中的声明应同步包含/排除)</value>
+  </data>
+  <data name="SignaturePreview_Text" xml:space="preserve">
+    <value>签名预览:</value>
+  </data>
+  <data name="ExtractMethodPage_NameSuggestionGenerationTimedOut_Text" xml:space="preserve">
+    <value>名称建议生成超时</value>
+  </data>
+  <data name="In_Text" xml:space="preserve">
+    <value>in</value>
+  </data>
+  <data name="Name_space_Text" xml:space="preserve">
+    <value>命名空间(_S)</value>
+  </data>
+  <data name="MoveToAnotherTYpe_Text" xml:space="preserve">
+    <value>移至另一种类型(&amp;Y)</value>
+  </data>
+  <data name="RenameRefactoringSettingsSettingDescription" xml:space="preserve">
+    <value>重命名重构设置</value>
+  </data>
+  <data name="ReplaceInitialExpressionOnly_Text" xml:space="preserve">
+    <value>仅替换初始表达式</value>
+  </data>
+  <data name="Converted_AlsoImplements_ThatWillNot_Text" xml:space="preserve">
+    <value>转换的{0}也实现不会被转换的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="Namespace_Lower_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="ThisMethodIsAnImplementationOrAnOverride_Text" xml:space="preserve">
+    <value>此方法是实现或重写。您想创建委托成员而不移除这个成员吗?</value>
+  </data>
+  <data name="UnableToMove_BecauseFolderWithName__Text" xml:space="preserve">
+    <value>无法移动 {{0}}，因为名称为 '{0}' 的文件夹已存在</value>
+  </data>
+  <data name="Declare_shared_Text" xml:space="preserve">
+    <value>声明共享(_S)</value>
+  </data>
+  <data name="AnalyzeProjectDependencies_Text" xml:space="preserve">
+    <value>分析项目依赖项</value>
+  </data>
+  <data name="ParameterType_Text" xml:space="preserve">
+    <value>形参类型:</value>
+  </data>
+  <data name="_HasFoundSomeTextualOccurrencesInComments_Text" xml:space="preserve">
+    <value>{0} 在注释和字符串字面量中发现了一些可能与重构相关的文本匹配项。您可以选择其中哪些应该更改，哪些不应该更改。</value>
+  </data>
+  <data name="EvaluatingDerivedRenames_Text" xml:space="preserve">
+    <value>正在检查要重命名的派生符号…</value>
+  </data>
+  <data name="IntroduceParameter_Text" xml:space="preserve">
+    <value>引入形参</value>
+  </data>
+  <data name="GenerateToStringSettingDescription" xml:space="preserve">
+    <value>生成 ToString</value>
+  </data>
+  <data name="Renamed_AlsoImplements_ThatWillNotBe_Text" xml:space="preserve">
+    <value>重命名的{0}也实现不会重命名的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="PreparingToRename_Text" xml:space="preserve">
+    <value>正在准备重命名…</value>
+  </data>
+  <data name="MoveToAnotherFIle_Text" xml:space="preserve">
+    <value>移至另一个文件(&amp;I)</value>
+  </data>
+  <data name="DefaultValueForParameter__Text" xml:space="preserve">
+    <value>形参 {0} 的默认值</value>
+  </data>
+  <data name="TypeDeclaration_Text" xml:space="preserve">
+    <value>typeDeclaration</value>
+  </data>
+  <data name="Inserting_Text" xml:space="preserve">
+    <value>正在插入…</value>
+  </data>
+  <data name="UnableToInline0CollectionInitializer_Text" xml:space="preserve">
+    <value>无法内联{0, 集合初始值设定项}</value>
+  </data>
+  <data name="Introduce_parametersFromFollowingExpressions_Text" xml:space="preserve">
+    <value>从以下表达式中引入形参(_P):</value>
+  </data>
+  <data name="GiveANewNameToThe_File_Text" xml:space="preserve">
+    <value>为文件 '{0}' 指定一个新名称</value>
+  </data>
+  <data name="PropertyToMethodSActionText" xml:space="preserve">
+    <value>属性到方法…</value>
+  </data>
+  <data name="Modifier_Column_Name" xml:space="preserve">
+    <value>修饰符</value>
+  </data>
+  <data name="TransformParametersActionText" xml:space="preserve">
+    <value>转换形参…</value>
+  </data>
+  <data name="SelectedBlockOfCodeCannotBeExtracted_Text" xml:space="preserve">
+    <value>不能提取所选代码块</value>
+  </data>
+  <data name="CheckingSuspiciousReferences_Text" xml:space="preserve">
+    <value>正在检查可疑引用…</value>
+  </data>
+  <data name="UseOutParameterAsReturnValue_DescriptionText" xml:space="preserve">
+    <value>使用 out 形参作为返回值</value>
+  </data>
+  <data name="CollectingReferencesToMovedTypes_Text" xml:space="preserve">
+    <value>正在收集对移动的类型的引用…</value>
+  </data>
+  <data name="SearchInAllSolutionSettingDescription" xml:space="preserve">
+    <value>在所有解决方案中搜索</value>
+  </data>
+  <data name="ResolvingReferencesFromSourceFiles_Text" xml:space="preserve">
+    <value>正在从源文件中解析引用…</value>
+  </data>
+  <data name="FileAlreadyExists_Text" xml:space="preserve">
+    <value>文件已存在</value>
+  </data>
+  <data name="ReplaceAllHighlightedOccurrencesOfInitial_Text" xml:space="preserve">
+    <value>替换初始表达式的所有高亮显示匹配项</value>
+  </data>
+  <data name="ChangeSignature_Text" xml:space="preserve">
+    <value>更改签名</value>
+  </data>
+  <data name="MoveTypeToAnother__Text" xml:space="preserve">
+    <value>将类型移至另一个 {0}</value>
+  </data>
+  <data name="Project__Text" xml:space="preserve">
+    <value>项目 {0}</value>
+  </data>
+  <data name="UpdatingReferences_Text" xml:space="preserve">
+    <value>正在更新引用…</value>
+  </data>
+  <data name="IOError__Text" xml:space="preserve">
+    <value>IO 错误: {0}</value>
+  </data>
+  <data name="ContainingTypeHasTheSameNameAsTheNew_Text" xml:space="preserve">
+    <value>{0,包含类型}与新名称同名</value>
+  </data>
+  <data name="ReplaceInvocationsOfMethodWithItsImplementation_Text" xml:space="preserve">
+    <value>将方法的调用替换为其实现</value>
+  </data>
+  <data name="FillInTheNameForTheNewClassAndSelect_Text" xml:space="preserve">
+    <value>指定新类的名称并选择应移动的成员</value>
+  </data>
+  <data name="CreateAsProperty_Text" xml:space="preserve">
+    <value>创建为属性</value>
+  </data>
+  <data name="AndSpecifyOtherOptions_Text" xml:space="preserve">
+    <value>并指定其他选项</value>
+  </data>
+  <data name="FolderWithThisNameAlreadyExistsInTarget_Text" xml:space="preserve">
+    <value>目标文件夹中已存在同名文件夹。要合并吗? 否则它们将被替换。</value>
+  </data>
+  <data name="_Overrides_ThatWillNotBeChangedPlease_Text" xml:space="preserve">
+    <value>{0}重写不会被更改的{1}。请手动解决冲突。</value>
+  </data>
+  <data name="UnableToUse_FromTheCallSite_Text" xml:space="preserve">
+    <value>无法从调用点使用{0}</value>
+  </data>
+  <data name="RenameTypeToMatchTheNewFileName_Text" xml:space="preserve">
+    <value>重命名类型 '{0}' 以匹配新文件名(_T)</value>
+  </data>
+  <data name="MakingMembersProtected_Text" xml:space="preserve">
+    <value>正在将成员设为 protected…</value>
+  </data>
+  <data name="Type_AlreadyExists_Text" xml:space="preserve">
+    <value>类型 {0} 已存在</value>
+  </data>
+  <data name="FixingAccessRights_Text" xml:space="preserve">
+    <value>正在修正访问权限…</value>
+  </data>
+  <data name="DefineHowToTransformUsagesOfInstance_Text" xml:space="preserve">
+    <value>定义如何转换实例成员的用法</value>
+  </data>
+  <data name="_DelegateDeclarations_Text" xml:space="preserve">
+    <value>委托声明(_D)</value>
+  </data>
+  <data name="SearchingSuspiciousReferences_Text" xml:space="preserve">
+    <value>正在搜索可疑引用…</value>
+  </data>
+  <data name="WhetherToInlineAllUsagesOrJustTheCurrentUsageIfAvailableSettingDescription" xml:space="preserve">
+    <value>是内联所有用法，还是仅内联当前用法(如果可用)</value>
+  </data>
+  <data name="RemovingLegacyDeclarations_Text" xml:space="preserve">
+    <value>正在移除旧版声明…</value>
+  </data>
+  <data name="Override_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
+    <value>已在目标类型中声明重写{0}</value>
+  </data>
+  <data name="NoValueProvidedFor0Parameter_Text" xml:space="preserve">
+    <value>没有为{0,形参}提供值</value>
+  </data>
+  <data name="File_AlreadyExists_Text" xml:space="preserve">
+    <value>文件 '{0}' 已存在</value>
+  </data>
+  <data name="Preparing_Text" xml:space="preserve">
+    <value>正在准备…</value>
+  </data>
+  <data name="ParameterUsagesWillBeBroken_Text" xml:space="preserve">
+    <value>形参用法将被破坏</value>
+  </data>
+  <data name="ExtractedClassPlacement_Text" xml:space="preserve">
+    <value>提取的类放置:</value>
+  </data>
+  <data name="SearchingMembersToMakeProtected_Text" xml:space="preserve">
+    <value>正在搜索要设为 protected 的成员…</value>
+  </data>
+  <data name="ExecutingExternalRefactoring_Text" xml:space="preserve">
+    <value>正在执行外部重构…</value>
+  </data>
+  <data name="DeletingProjects_Text" xml:space="preserve">
+    <value>正在删除项目</value>
+  </data>
+  <data name="Make_readonly_Text" xml:space="preserve">
+    <value>设为只读(_R)</value>
+  </data>
+  <data name="IntroduceVariableActionText" xml:space="preserve">
+    <value>引入变量…</value>
+  </data>
+  <data name="ReturnValue__Text" xml:space="preserve">
+    <value>{0} : {1}</value>
+  </data>
+  <data name="NamespaceFor0DeclarationCannotBeFixed_Text" xml:space="preserve">
+    <value>{0,声明}的命名空间无法修正，因为与 {1} 有冲突</value>
+  </data>
+  <data name="PropertyN_ame_Text" xml:space="preserve">
+    <value>属性名称(_A):</value>
+  </data>
+  <data name="SpecifySetOfClassesToMove_Text" xml:space="preserve">
+    <value>要移动的类:</value>
+  </data>
+  <data name="ScanningInternalDeclarationsThatShould_Text" xml:space="preserve">
+    <value>正在扫描应设为 public 的内部声明</value>
+  </data>
+  <data name="None_DescriptionText" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ConvertMethodToProperty_Ellipsis_Text" xml:space="preserve">
+    <value>将方法转换为属性…</value>
+  </data>
+  <data name="WhetherToSearchForStructurallyCompatibleMembersSettingDescription" xml:space="preserve">
+    <value>是否搜索结构兼容成员</value>
+  </data>
+  <data name="DeletingProjectsReferences_Text" xml:space="preserve">
+    <value>正在删除项目引用</value>
+  </data>
+</root>

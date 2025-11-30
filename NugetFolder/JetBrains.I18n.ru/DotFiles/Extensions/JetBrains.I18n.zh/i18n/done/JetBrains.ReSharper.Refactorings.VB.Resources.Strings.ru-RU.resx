@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccessRightsFor0MemberWillBeExtended_Text" xml:space="preserve">
+    <value>{0,成员}的访问权限将被扩展</value>
+  </data>
+  <data name="MethodDeclarationHasEventSpecification_Text" xml:space="preserve">
+    <value>{0,方法声明}具有将被移除的事件规范。</value>
+  </data>
+  <data name="VariableHasUnsupportedUsageKind_Text" xml:space="preserve">
+    <value>变量具有不受支持的用法类型</value>
+  </data>
+  <data name="UsageOf_WillBeBrokenStructAccessShould_Text" xml:space="preserve">
+    <value>{0} 的用法将被中断，结构访问应被分类为变量，以改变结构字段或设置属性</value>
+  </data>
+  <data name="SignatureChangeConflictsWithSignature_Text" xml:space="preserve">
+    <value>签名更改与{0,委托}的签名冲突</value>
+  </data>
+  <data name="ReturnedValueOf0CallIsNotUsed_Text" xml:space="preserve">
+    <value>{0,调用}的返回值未使用</value>
+  </data>
+  <data name="AssignedValueHasNoReachableUsages_Text" xml:space="preserve">
+    <value>所赋的值没有可以访问的用法</value>
+  </data>
+  <data name="AllParametersOf_ShouldHaveByValModifier_Text" xml:space="preserve">
+    <value>{0} 的所有形参都应具有 ByVal 修饰符</value>
+  </data>
+  <data name="Attribute_OfTheFieldDeclarationWill_Text" xml:space="preserve">
+    <value>{{0,字段声明的 [{0}] 特性}}将应用于自动属性</value>
+  </data>
+  <data name="MaKeShared_Text" xml:space="preserve">
+    <value>设为共享(&amp;K)</value>
+  </data>
+  <data name="_IsAMethodGroup_Text" xml:space="preserve">
+    <value>{0} 为方法组</value>
+  </data>
+  <data name="MaKeMethodNonShared_Text" xml:space="preserve">
+    <value>将方法设为非共享(&amp;K)</value>
+  </data>
+  <data name="IntroDuceVariableForSubstring_Text" xml:space="preserve">
+    <value>为子字符串引入变量(&amp;D)</value>
+  </data>
+  <data name="FieldWillBeEncapsulated_Text" xml:space="preserve">
+    <value>{0,字段}将被封装</value>
+  </data>
+  <data name="_IsNotDeclaredAbstractBodyWillBeRemoved_Text" xml:space="preserve">
+    <value>{0}未被声明为 abstract。主体将被移除。</value>
+  </data>
+  <data name="_HasBaseClassUsage_Text" xml:space="preserve">
+    <value>{0}具有基类用法</value>
+  </data>
+  <data name="BackingField_AccessBecamePolymorphic_Text" xml:space="preserve">
+    <value>支持字段{0}访问变为多态</value>
+  </data>
+  <data name="CallerCannotBeNull_Text" xml:space="preserve">
+    <value>{0, 调用方}不能为 null</value>
+  </data>
+  <data name="Member_HasNotEnoughAccess_Text" xml:space="preserve">
+    <value>成员 {0} 没有足够的访问权限</value>
+  </data>
+  <data name="CannotChangeSignatureOf__Text" xml:space="preserve">
+    <value>无法更改 {0} 的签名</value>
+  </data>
+  <data name="CannotIntroduceVariableFromTheSelected_Text" xml:space="preserve">
+    <value>不能从字符串的所选部分引入变量</value>
+  </data>
+  <data name="SystemRuntimeCompilerServicesExtension_Text" xml:space="preserve">
+    <value>未引用 System.Runtime.CompilerServices.Extension 特性。</value>
+  </data>
+  <data name="TypeSystemFuncIsNotAvailable_Text" xml:space="preserve">
+    <value>类型 'System.Func' 不可用</value>
+  </data>
+  <data name="ThereIsAmbiguousConstructorReference_Text" xml:space="preserve">
+    <value>存在不明确的构造函数引用。将创建所有版本的构造函数。</value>
+  </data>
+  <data name="FieldInitializerWillNotBeMovedFor__Text" xml:space="preserve">
+    <value>不会为 {0} 移动字段初始值设定项</value>
+  </data>
+  <data name="_IsUsedWithUnpresentableType_Text" xml:space="preserve">
+    <value>{0}与无法呈现的类型一起使用</value>
+  </data>
+  <data name="Property_OverridingBaseClassProperty_Text" xml:space="preserve">
+    <value>属性 {0} 重写基类属性</value>
+  </data>
+  <data name="VariableHasWriteUsages_Text" xml:space="preserve">
+    <value>变量有写入用法</value>
+  </data>
+  <data name="Project_HasDefaultNamespace_WhichDoes_Text" xml:space="preserve">
+    <value>项目 {0} 具有默认命名空间 '{1}'，它与新的命名空间名称不相符</value>
+  </data>
+  <data name="_HasHandlesClause_Text" xml:space="preserve">
+    <value>{0} 具有 Handles 子句</value>
+  </data>
+  <data name="ConflictWithModifiersListFoundIn__Text" xml:space="preserve">
+    <value>在 {0} 中找到与修饰符列表的冲突</value>
+  </data>
+  <data name="CannotRunControlFlowAnalysisFromThis_Text" xml:space="preserve">
+    <value>无法从此位置运行控制流分析</value>
+  </data>
+  <data name="OperationOrderMayChange_Text" xml:space="preserve">
+    <value>操作顺序可能会在 {0} 中发生变化</value>
+  </data>
+  <data name="CannotAccessParameterType_InInstance_Text" xml:space="preserve">
+    <value>无法访问实例类型中的形参类型 {0}</value>
+  </data>
+  <data name="OverridingOfEvent_IsNotAllowedVB_Text" xml:space="preserve">
+    <value>在 Visual Basic 中不允许重写事件 {0}</value>
+  </data>
+  <data name="UnableToAddWriteAccessorTo__Text" xml:space="preserve">
+    <value>无法将写入访问器添加到 {0}</value>
+  </data>
+  <data name="VariableDoesnTHaveInitializer_Text" xml:space="preserve">
+    <value>变量没有初始值设定项</value>
+  </data>
+  <data name="CannotChangeWriteabilityOfPolymorphic_Text" xml:space="preserve">
+    <value>无法更改多态{0}的可写性</value>
+  </data>
+  <data name="ReadonlyModifierOfProperty_WillBeRemoved_Text" xml:space="preserve">
+    <value>属性 '{0}' 的只读修饰符将被移除</value>
+  </data>
+  <data name="UnableToUpdateCustomAsyncDeclaration_Text" xml:space="preserve">
+    <value>无法更新具有非任务返回值类型的异步方法</value>
+  </data>
+  <data name="ThereExistsSourceClassObjectCreation_Text" xml:space="preserve">
+    <value>在源类之外存在源类对象创建。不能执行重构。</value>
+  </data>
+  <data name="Property_HasNotEnoughAccess_Text" xml:space="preserve">
+    <value>属性 '{0}' 没有足够的访问权限</value>
+  </data>
+  <data name="LastArgumentOfMethod_ShouldnTBeOptional_Text" xml:space="preserve">
+    <value>为了转换为写属性，方法 {0} 的最后一个实参不能是可选项</value>
+  </data>
+  <data name="NullPassedAsInstanceParameter_Text" xml:space="preserve">
+    <value>{0, Null} 作为实例形参传递</value>
+  </data>
+  <data name="VariableDoesnTHaveDeclarationsInSource_Text" xml:space="preserve">
+    <value>变量在源代码中没有声明</value>
+  </data>
+  <data name="_NeedsWiderAccess_Text" xml:space="preserve">
+    <value>{0}需要更广泛的访问权限</value>
+  </data>
+  <data name="OnlyAbstractDeclarationsCanBeMovedTo_Text" xml:space="preserve">
+    <value>只能将 abstract 声明移至 {0}</value>
+  </data>
+  <data name="InstantiationOfTargetClass_WillBeBroken_Text" xml:space="preserve">
+    <value>目标类的实例化: {0}将被破坏，因为它将被设为 abstract</value>
+  </data>
+  <data name="InstantiationCannotBeTransformedInto_Text" xml:space="preserve">
+    <value>{0, 实例化}不能被转换为工厂方法: 无法提取转换初始值设定项</value>
+  </data>
+  <data name="BackingFieldIsUsedFromThe1Structure_Text" xml:space="preserve">
+    <value>{0, 支持字段}从{1,结构构造函数}使用。将添加对默认构造函数的调用。</value>
+  </data>
+  <data name="UsageCannotBeProcessedBecauseNotAll_Text" xml:space="preserve">
+    <value>{0,用法}无法处理，因为并非所有实参都被传递</value>
+  </data>
+  <data name="ConditionalAccessWillBeDiscarded_Text" xml:space="preserve">
+    <value>条件访问将被丢弃</value>
+  </data>
+  <data name="ConvertDefaultPropertyToMethodS_Text" xml:space="preserve">
+    <value>将默认属性转换为方法</value>
+  </data>
+</root>

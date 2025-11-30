@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CppDFAConstantFunctionResultTitle" xml:space="preserve">
+  <value>Функции, всегда возвращающие одну и ту же константу</value>
+</data>
+<data name="CppDFAInfiniteRecursionDescription" xml:space="preserve">
+  <value>Сообщает о функциях, которые бесконечно вызывают сами себя, если только не возникает исключение</value>
+</data>
+<data name="CppDFAUnreachableCodeDescription" xml:space="preserve">
+  <value>Сообщает о фрагментах кода, которые никогда не выполняются ни в одном потоке управления и могут быть безопасно удалены</value>
+</data>
+<data name="CppDFALoopConditionNotUpdatedDescription" xml:space="preserve">
+  <value>Сообщает о условии цикла, которое не обновляется внутри цикла</value>
+</data>
+<data name="VarUsedInLoopConditionIsNotUpdatedInTheLoop" xml:space="preserve">
+  <value>Используемая в условии цикла переменная {0} не обновляется в цикле</value>
+</data>
+<data name="InfiniteRecursion" xml:space="preserve">
+  <value>Бесконечная рекурсия</value>
+</data>
+<data name="IndexMayHaveAValueWhichIsOutOfBounds" xml:space="preserve">
+  <value>Значение индекса '{0}' может выходить за границы</value>
+</data>
+<data name="VarIsOnlyAssignedButNeverAccessed" xml:space="preserve">
+  <value>Переменной {0} только присваивается значение, но оно никогда не читается</value>
+</data>
+<data name="CppDFAUnreadVariableDescription" xml:space="preserve">
+  <value>Сообщает о локальных переменных, которые объявлены, но никогда не читаются</value>
+</data>
+<data name="CppDFAArrayIndexOutOfBoundsTitle" xml:space="preserve">
+  <value>Выражения доступа к массиву, где индекс может быть вне границ</value>
+</data>
+<data name="CppDFAMemoryLeakDescription" xml:space="preserve">
+  <value>Сообщает о выделениях памяти (с помощью 'new' или 'malloc()'), которые не освобождаются до того, как становятся недостижимыми</value>
+</data>
+<data name="CppDFAInfiniteRecursionTitle" xml:space="preserve">
+  <value>Функции, бесконечно вызывающие сами себя</value>
+</data>
+<data name="IndexMayBeOutOfBounds" xml:space="preserve">
+  <value>Индекс может быть вне границ</value>
+</data>
+<data name="CppDFAEndlessLoopDescription" xml:space="preserve">
+  <value>Сообщает о инструкциях 'for', 'while', 'do-while' и 'goto', которые завершаются только путем выброса исключения</value>
+</data>
+<data name="CppDFAMemoryLeakTitle" xml:space="preserve">
+  <value>Неосвобожденное выделение памяти</value>
+</data>
+<data name="CppDFAConstantFunctionResultDescription" xml:space="preserve">
+  <value>Сообщает о функциях, которые всегда возвращают одно и то же константное значение</value>
+</data>
+<data name="EntityMayPointToDeallocatedMemory" xml:space="preserve">
+  <value>{0} может указывать на освобожденную память</value>
+</data>
+<data name="AllocatedMemoryLeaked" xml:space="preserve">
+  <value>Утечка выделенной памяти</value>
+</data>
+<data name="CppDFADeletedPointerDescription" xml:space="preserve">
+  <value>Сообщает об использовании указателей, которые ссылаются на память, удаленную оператором delete или функцией free(void* ptr)</value>
+</data>
+<data name="CppDFALoopConditionNotUpdatedTitle" xml:space="preserve">
+  <value>Условие цикла не обновляется внутри цикла</value>
+</data>
+<data name="VarMayPointToInvalidatedMemory" xml:space="preserve">
+  <value>{0} может указывать на недействительную память</value>
+</data>
+<data name="CppDFANotInitializedFieldTitle" xml:space="preserve">
+  <value>Поля, которые могут быть использованы до инициализации</value>
+</data>
+<data name="CppDFAUnreadVariableTitle" xml:space="preserve">
+  <value>Локальные переменные, объявленные, но никогда не читаемые</value>
+</data>
+<data name="TheAddressOfTheLocalVariableMayEscapeTheFunction" xml:space="preserve">
+  <value>Адрес локальной переменной {0} может покинуть функцию</value>
+</data>
+<data name="CppDFANotInitializedFieldDescription" xml:space="preserve">
+  <value>Сообщает о полях, которые могут быть использованы до инициализации. Инициализация и использование могут происходить в разных функциях.</value>
+</data>
+<data name="CppDFAConstantParameterTitle" xml:space="preserve">
+  <value>Параметры функции, всегда имеющие одинаковое значение</value>
+</data>
+<data name="NotInitializedField" xml:space="preserve">
+  <value>Использование неинициализированного поля {0}</value>
+</data>
+<data name="CppDFANullDereferenceDescription" xml:space="preserve">
+  <value>Сообщает о разыменовании указателей, которые могут содержать nullptr</value>
+</data>
+<data name="FunctionAlwaysReturnsConstant" xml:space="preserve">
+  <value>{0} всегда возвращает {1}</value>
+</data>
+<data name="ParamAlwaysEqualsToConstant" xml:space="preserve">
+  <value>{0} всегда равно {1}</value>
+</data>
+<data name="CppDFALocalValueEscapesScopeDescription" xml:space="preserve">
+  <value>Сообщает о переменных, которые ссылаются на локальные переменные, покидающие свою область видимости</value>
+</data>
+<data name="AllCallsOfFunctionAreUnreachable" xml:space="preserve">
+  <value>Все вызовы функции {0} недостижимы</value>
+</data>
+<data name="CppDFAConstantParameterDescription" xml:space="preserve">
+  <value>Сообщает о параметрах функции, которые всегда имеют одинаковое значение</value>
+</data>
+<data name="TheAddressOfTheLocalObjectMayEscapeTheFunction" xml:space="preserve">
+  <value>Адрес локального временного объекта может покинуть функцию</value>
+</data>
+<data name="CalledFromGlobalScope" xml:space="preserve">
+  <value>При вызове из глобальной области видимости, {0}</value>
+</data>
+<data name="CppDFALocalValueEscapesFunctionTitle" xml:space="preserve">
+  <value>Ссылка на локальное значение, покидающее функцию</value>
+</data>
+<data name="CppDFAConstantConditionsTitle" xml:space="preserve">
+  <value>Условия, всегда истинные или ложные</value>
+</data>
+<data name="CppDFAUnreachableCodeTitle" xml:space="preserve">
+  <value>Недостижимый код</value>
+</data>
+<data name="EndlessLoop" xml:space="preserve">
+  <value>Бесконечный цикл</value>
+</data>
+<data name="CppDFAArrayIndexOutOfBoundsDescription" xml:space="preserve">
+  <value>Сообщает о выражениях доступа к массиву или указателю, где индекс может выходить за границы массива или выделенного буфера</value>
+</data>
+<data name="CppDFAUnusedValueDescription" xml:space="preserve">
+  <value>Сообщает о значениях переменных, которые никогда не используются после присваивания</value>
+</data>
+<data name="CppDFAInvalidatedMemoryDescription" xml:space="preserve">
+  <value>Сообщает о ссылках на содержимое недействительных контейнеров</value>
+</data>
+<data name="CppDFATimeOverDescription" xml:space="preserve">
+  <value>Проверка потока данных достигла ограничения по времени или памяти и не может быть оценена в контекстно-чувствительном или контекстно-свободном режиме</value>
+</data>
+<data name="CalledFrom" xml:space="preserve">
+  <value>При вызове из {1}, {0}</value>
+</data>
+<data name="CppDFAConstantConditionsDescription" xml:space="preserve">
+  <value>Сообщает об условиях, которые всегда истинны или ложны, и о выражениях, значения которых статически доказаны как константы</value>
+</data>
+<data name="TheValueIsNeverUsed" xml:space="preserve">
+  <value>Значение никогда не используется</value>
+</data>
+<data name="PointerMayBeNull" xml:space="preserve">
+  <value>Указатель может быть null</value>
+</data>
+<data name="VarMayPointToMemoryWhichIsOutOfScope" xml:space="preserve">
+  <value>{0} может указывать на память, которая вышла из области видимости</value>
+</data>
+<data name="CppDFAUnreachableFunctionCallDescription" xml:space="preserve">
+  <value>Сообщает о функциях, вызовы которых никогда не используются. Такие функции также никогда не выполняются.</value>
+</data>
+<data name="ConditionIsAlwaysConstantWhenReached" xml:space="preserve">
+  <value>Условие всегда равно {0} при достижении</value>
+</data>
+<data name="MemoryLeak" xml:space="preserve">
+  <value>Утечка памяти, выделенной в {0}</value>
+</data>
+<data name="DFAUnreachableCode" xml:space="preserve">
+  <value>Недостижимый код</value>
+</data>
+<data name="CppDFAInvalidatedMemoryTitle" xml:space="preserve">
+  <value>Ссылка на содержимое недействительного контейнера</value>
+</data>
+<data name="CppDFANullDereferenceTitle" xml:space="preserve">
+  <value>Разыменование указателя, который может содержать nullptr</value>
+</data>
+<data name="CppDFADeletedPointerTitle" xml:space="preserve">
+  <value>Использование указателя, ссылающегося на удаленную память</value>
+</data>
+<data name="CppDFAUnusedValueTitle" xml:space="preserve">
+  <value>Значение переменной никогда не используется после присваивания</value>
+</data>
+<data name="ConditionIsAlwaysConstant" xml:space="preserve">
+  <value>Условие всегда равно {0}</value>
+</data>
+<data name="CppDFATimeOverTitle" xml:space="preserve">
+  <value>Проверка потока данных превысила время ожидания</value>
+</data>
+<data name="CppDFALocalValueEscapesScopeTitle" xml:space="preserve">
+  <value>Ссылка на локальную переменную, покидающую свою область видимости</value>
+</data>
+<data name="CppDFAEndlessLoopTitle" xml:space="preserve">
+  <value>Бесконечные циклы</value>
+</data>
+<data name="CppDFALocalValueEscapesFunctionDescription" xml:space="preserve">
+  <value>Сообщает о ссылках на локальные значения, которые покидают функцию через возврат, присваивание глобальным переменным или полям</value>
+</data>
+<data name="DFATimeIsOver" xml:space="preserve">
+  <value>Этот файл слишком сложен для выполнения анализа потока данных</value>
+</data>
+<data name="CppDFAUnreachableFunctionCallTitle" xml:space="preserve">
+  <value>Функции, вызовы которых никогда не используются</value>
+</data>
+<data name="AddNoreturn_Text" xml:space="preserve">
+  <value>Добавить [[noreturn]] к содержащей функции</value>
+</data>
+</root>

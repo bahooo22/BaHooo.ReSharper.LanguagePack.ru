@@ -1,0 +1,52 @@
+name: Pack ReSharper I18n
+
+
+on:
+    push:
+        branches: [ 'main' ]
+    release:
+        types: [created]
+    workflow_dispatch: {}
+    
+    
+jobs:
+    pack:
+        runs-on: windows-latest
+        
+        
+        steps:
+        -   name: Checkout
+            uses: actions/checkout@v4
+        
+        
+        -   name: Setup NuGet
+            uses: NuGet/setup-nuget@v1
+        
+        
+        -   name: Setup MSBuild
+            uses: microsoft/setup-msbuild@v1
+        
+        
+        -   name: Restore NuGet (no-op for this repo)
+            run: nuget restore || echo "no solution to restore"
+        
+        
+        -   name: Build and pack
+            run: |
+                powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Version ${{ github.event.release.tag_name || '2025.11.27' }} -Output artifacts
+        
+        
+        -   name: Upload artifact
+            uses: actions/upload-artifact@v4
+            with:
+                name: JetBrains.I18n.ru.nupkg
+                path: artifacts/*.nupkg
+        
+        
+        -   name: Create release and attach package (optional)
+            if: github.event_name == 'release'
+            uses: softprops/action-gh-release@v1
+            with:
+                files: artifacts/*.nupkg
+            env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

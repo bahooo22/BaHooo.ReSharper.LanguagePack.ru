@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ResourceIsOverriddenWithIdenticalValueMessage" xml:space="preserve">
+  <value>Ресурс переопределён одинаковым значением</value>
+</data>
+<data name="DuplicateResourceName" xml:space="preserve">
+  <value>Дублирование имени ресурса</value>
+</data>
+<data name="ResourceTypeIsRedundantMessage" xml:space="preserve">
+  <value>Избыточный тип ресурса</value>
+</data>
+<data name="FormatStringPlaceholdersDontMatchBetweenCultures" xml:space="preserve">
+  <value>Заполнители строки формата не совпадают между культурами</value>
+</data>
+<data name="ResourceIsNotOverriddenInMessage" xml:space="preserve">
+  <value>Ресурс не переопределён в {0}</value>
+</data>
+<data name="ResourceIsOverriddenWithIdenticalValue" xml:space="preserve">
+  <value>Ресурс переопределён одинаковым значением</value>
+</data>
+<data name="ClickToNavigate_Text" xml:space="preserve">
+  <value>(Нажмите для перехода)</value>
+</data>
+<data name="ResourceIsNotDeclaredInBaseCulture1" xml:space="preserve">
+  <value>Ресурс не объявлен в базовой культуре</value>
+</data>
+<data name="ResourceIsNotDeclaredInMessage" xml:space="preserve">
+  <value>Ресурс не объявлен в {0}</value>
+</data>
+<data name="ResourceIsNotOverriddenInSpecificCulture" xml:space="preserve">
+  <value>Ресурс не переопределён в конкретной культуре</value>
+</data>
+<data name="CannotResolveSymbol" xml:space="preserve">
+  <value>Не удаётся разрешить символ</value>
+</data>
+<data name="ElementIsLocalizable" xml:space="preserve">
+  <value>Элемент можно локализовать</value>
+</data>
+<data name="DuplicateResourceMessage" xml:space="preserve">
+  <value>Ресурс '{0}' дублируется</value>
+</data>
+<data name="CannotResolveSymbol2" xml:space="preserve">
+  <value>Не удаётся разрешить символ.</value>
+</data>
+<data name="ResourceIsNotDeclaredInBaseCulture" xml:space="preserve">
+  <value>Ресурс не объявлен в базовой культуре</value>
+</data>
+<data name="ResourceValueTypeIsInvalid" xml:space="preserve">
+  <value>Недопустимый тип значения ресурса</value>
+</data>
+<data name="ResourceInBaseCultureHasAnotherValueType" xml:space="preserve">
+  <value>Ресурс в базовой культуре имеет другой тип значения</value>
+</data>
+<data name="BaseResourceContainsANonEmptyValueWhileThisResourceIsEmpty" xml:space="preserve">
+  <value>Базовый ресурс содержит непустое значение, а этот ресурс пуст</value>
+</data>
+<data name="YouCanMoveThisElementToAResource" xml:space="preserve">
+  <value>Вы можете переместить этот элемент в ресурс</value>
+</data>
+<data name="ExplicitlySpecifyingSystemStringAsTypeOfADataEntryIsRedundant" xml:space="preserve">
+  <value>Явное указание System.String в качестве типа для записи данных избыточно</value>
+</data>
+<data name="FormatStringPlaceholdersMismatch" xml:space="preserve">
+  <value>Несоответствие заполнителей строки формата</value>
+</data>
+<data name="ElementIsLocalizableMessage" xml:space="preserve">
+  <value>Элемент можно локализовать</value>
+</data>
+<data name="Message" xml:space="preserve">
+  <value>{0}</value>
+</data>
+<data name="ResourceTypeIsNotEqualToTheBaseTypeMessage" xml:space="preserve">
+  <value>Тип ресурса '{0}' не равен базовому типу '{1}'</value>
+</data>
+<data name="ResourceIsNotOverriddenInOneOrMoreSpecificCultures" xml:space="preserve">
+  <value>Ресурс не переопределён в одной или нескольких конкретных культурах</value>
+</data>
+<data name="RedundantStringType" xml:space="preserve">
+  <value>Избыточный строковый тип</value>
+</data>
+<data name="ResourceFileContainsTwoOrMoreItemsWithIdenticalNames" xml:space="preserve">
+  <value>Файл ресурсов содержит два или более элемента с одинаковыми именами</value>
+</data>
+<data name="Overrides__Text" xml:space="preserve">
+  <value>Переопределяет {0}</value>
+</data>
+<data name="BaseResourceItemAndTheCurrentItemHaveTheSameValue" xml:space="preserve">
+  <value>Элемент базового ресурса и текущий элемент имеют одинаковое значение</value>
+</data>
+<data name="OverriddenIn__Text" xml:space="preserve">
+  <value>Переопределён в {0}</value>
+</data>
+<data name="FormatStringPlaceholdersMismatchMessage" xml:space="preserve">
+  <value>Несоответствие заполнителей строки формата</value>
+</data>
+<data name="ResourceOverridesBaseResourceWithEmptyValue" xml:space="preserve">
+  <value>Ресурс переопределяет базовый ресурс пустым значением</value>
+</data>
+<data name="ResourceOverridesBaseResourceWithEmptyValueMessage" xml:space="preserve">
+  <value>Ресурс переопределяет базовый ресурс пустым значением</value>
+</data>
+</root>

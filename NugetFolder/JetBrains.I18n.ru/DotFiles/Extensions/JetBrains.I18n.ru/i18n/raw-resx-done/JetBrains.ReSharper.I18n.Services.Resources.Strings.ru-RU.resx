@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ResourceNameShouldBeNonEmpty_Text" xml:space="preserve">
+  <value>Имя ресурса не должно быть пустым</value>
+</data>
+<data name="OpenAllFilesWithChangesForEditingToEnableUndoActionText" xml:space="preserve">
+  <value>Открыть все файлы с изменениями для редактирования, чтобы включить отмену</value>
+</data>
+<data name="SelectResource_Text" xml:space="preserve">
+  <value>Выбрать ресурс</value>
+</data>
+<data name="CannotResolveProperty" xml:space="preserve">
+  <value>Не удается разрешить свойство</value>
+</data>
+<data name="ExportingResourceItem_Of__Text" xml:space="preserve">
+  <value>Экспорт элемента ресурса {0:N0} из {1:N0}…</value>
+</data>
+<data name="ExportToCSV_Text" xml:space="preserve">
+  <value>Экспорт в CSV</value>
+</data>
+<data name="InLineResource_Text" xml:space="preserve">
+  <value>Встроить ресурс(&amp;L)</value>
+</data>
+<data name="RenamingDeclarations_Text" xml:space="preserve">
+  <value>Переименование объявлений…</value>
+</data>
+<data name="ModifyingResourceFile_Text" xml:space="preserve">
+  <value>Изменение файла ресурсов</value>
+</data>
+<data name="ImportFromCSVActionText" xml:space="preserve">
+  <value>Импорт из CSV</value>
+</data>
+<data name="InvertSelection_Text" xml:space="preserve">
+  <value>Инвертировать выделение</value>
+</data>
+<data name="CannotFindResourceItem_Text" xml:space="preserve">
+  <value>Не удается найти элемент ресурса</value>
+</data>
+<data name="PasteActionText" xml:space="preserve">
+  <value>Вставить</value>
+</data>
+<data name="InitializingRefactoring_Text" xml:space="preserve">
+  <value>Инициализация рефакторинга…</value>
+</data>
+<data name="ResourceItemWithThisNameAlreadyExists_Text" xml:space="preserve">
+  <value>Элемент ресурса с таким именем уже существует</value>
+</data>
+<data name="DisabledLanguagesSettingDescription" xml:space="preserve">
+  <value>Отключенные языки</value>
+</data>
+<data name="SearchingForResourceUsages_Text" xml:space="preserve">
+  <value>Поиск использований ресурса…</value>
+</data>
+<data name="ErrorWhileModifyingTheResourceFile_Text" xml:space="preserve">
+  <value>Ошибка при изменении файла ресурсов</value>
+</data>
+<data name="ScopeForMovingSimilarElementsSettingDescription" xml:space="preserve">
+  <value>Область действия для перемещения похожих элементов</value>
+</data>
+<data name="ChooseCulturesActionText" xml:space="preserve">
+  <value>Выбрать культуры</value>
+</data>
+<data name="ResourceFileGroup_Text" xml:space="preserve">
+  <value>Группа файлов ресурсов</value>
+</data>
+<data name="CannotResolveResourceItemMessage" xml:space="preserve">
+  <value>Не удается разрешить элемент ресурса '{0}'</value>
+</data>
+<data name="Inline_allUsages_Text" xml:space="preserve">
+  <value>Встроить все использования(_A)</value>
+</data>
+<data name="SaFeDeleteResource_Text" xml:space="preserve">
+  <value>Безопасное удаление ресурса(&amp;F)</value>
+</data>
+<data name="RenamingResource_Text" xml:space="preserve">
+  <value>Переименование ресурса</value>
+</data>
+<data name="LocalizableInspectorSwitchSettingDescription" xml:space="preserve">
+  <value>Переключатель инспектора локализуемости</value>
+</data>
+<data name="LastUsedResourceFileSettingDescription" xml:space="preserve">
+  <value>Последний использованный файл ресурсов</value>
+</data>
+<data name="Name_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="MoveToResource_Text" xml:space="preserve">
+  <value>Переместить в ресурс(&amp;M)</value>
+</data>
+<data name="LastResourceFileSettingDescription" xml:space="preserve">
+  <value>Последний файл ресурсов</value>
+</data>
+<data name="EnterResourceName_Text" xml:space="preserve">
+  <value>Введите имя ресурса</value>
+</data>
+<data name="ValueFor_IsIdenticalToDefaultValue_Text" xml:space="preserve">
+  <value>Значение {0} идентично значению по умолчанию</value>
+</data>
+<data name="ResourceFile_ContainsSeveralItemsWith_Text" xml:space="preserve">
+  <value>Файл ресурсов {0} содержит несколько элементов с именем '{1}'</value>
+</data>
+<data name="GroupingNameSettingDescription" xml:space="preserve">
+  <value>Имя группировки</value>
+</data>
+<data name="ChooseFilePathAndSpecifyExportOptions_Text" xml:space="preserve">
+  <value>Выберите путь к файлу и укажите параметры экспорта</value>
+</data>
+<data name="ReNameResource_Text" xml:space="preserve">
+  <value>Переименовать ресурс(&amp;N)</value>
+</data>
+<data name="DeclaredElementIsInvalid_Text" xml:space="preserve">
+  <value>Объявленный элемент недействителен</value>
+</data>
+<data name="ResourceItemNavigation_Caption" xml:space="preserve">
+  <value>Навигация по элементам ресурса</value>
+</data>
+<data name="DisableLocalizationForThisProject_Text" xml:space="preserve">
+  <value>Отключить локализацию для этого проекта</value>
+</data>
+<data name="EditWithTextEditorActionText" xml:space="preserve">
+  <value>Редактировать в текстовом редакторе</value>
+</data>
+<data name="ErrorWhileInitializing_Text" xml:space="preserve">
+  <value>Ошибка при инициализации</value>
+</data>
+<data name="CultureTagShouldBeNonEmpty_Text" xml:space="preserve">
+  <value>Тег культуры не должен быть пустым</value>
+</data>
+<data name="CannotResolveResource" xml:space="preserve">
+  <value>Не удается разрешить ресурс</value>
+</data>
+<data name="Solution__Text" xml:space="preserve">
+  <value>Решение {0}</value>
+</data>
+<data name="CannotFindResourceEntry_Text" xml:space="preserve">
+  <value>Не удается найти запись ресурса</value>
+</data>
+<data name="MemberNameNameOfTheContainingMember_Text_Text" xml:space="preserve">
+  <value>$MemberName$ - имя содержащего члена</value>
+</data>
+<data name="CanTApplyRefactoringToThisElement_Text" xml:space="preserve">
+  <value>Не удается применить рефакторинг к этому элементу</value>
+</data>
+<data name="CannotResolveResourceItem" xml:space="preserve">
+  <value>Не удается разрешить элемент ресурса</value>
+</data>
+<data name="TheResource_AppearsToBeUnused_Text" xml:space="preserve">
+  <value>Ресурс '{0}', похоже, не используется</value>
+</data>
+<data name="SelectOptions_Text" xml:space="preserve">
+  <value>Выберите параметры</value>
+</data>
+<data name="ReadingCSV_Text" xml:space="preserve">
+  <value>Чтение CSV…</value>
+</data>
+<data name="InliningUsages_Text" xml:space="preserve">
+  <value>Встраивание использований…</value>
+</data>
+<data name="CannotApplyRefactoringToInvalidElement_Text" xml:space="preserve">
+  <value>Не удается применить рефакторинг к недействительному элементу</value>
+</data>
+<data name="OnlyLocalizableStringResourcesWillBeImported_Text" xml:space="preserve">
+  <value>Будут импортированы только локализуемые строковые ресурсы</value>
+</data>
+<data name="ExportToCSVActionText" xml:space="preserve">
+  <value>Экспорт в CSV</value>
+</data>
+<data name="ScanningAnElement_Text" xml:space="preserve">
+  <value>Сканирование элемента</value>
+</data>
+<data name="Re_sourceFile_Text" xml:space="preserve">
+  <value>Файл ресурсов(_S)</value>
+</data>
+<data name="OpenActionText" xml:space="preserve">
+  <value>Открыть</value>
+</data>
+<data name="InlineActionText" xml:space="preserve">
+  <value>Встроить…</value>
+</data>
+<data name="AddNewActionText" xml:space="preserve">
+  <value>Добавить…</value>
+</data>
+<data name="File__Text" xml:space="preserve">
+  <value>Файл {0}</value>
+</data>
+<data name="ErrorWhileInitializingMakeSureThatThere_Text" xml:space="preserve">
+  <value>Ошибка при инициализации. Убедитесь, что в исходном коде нет ошибок, и повторно запустите рефакторинг.</value>
+</data>
+<data name="LocalizationProjectSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки локализации проекта</value>
+</data>
+<data name="In__Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="ResxEditorActionGroupText" xml:space="preserve">
+  <value>Редактор Resx</value>
+</data>
+<data name="BaseResourceSymbols_Caption" xml:space="preserve">
+  <value>Базовые символы ресурсов(&amp;B)</value>
+</data>
+<data name="LocalizationOptionPageTitle" xml:space="preserve">
+  <value>Локализация</value>
+</data>
+<data name="ShowOnlyStringResourcesSettingDescription" xml:space="preserve">
+  <value>Показывать только строковые ресурсы</value>
+</data>
+<data name="CannotResolveProperty3" xml:space="preserve">
+  <value>Не удается разрешить свойство</value>
+</data>
+<data name="ProcessingReferences_Text" xml:space="preserve">
+  <value>Обработка ссылок…</value>
+</data>
+<data name="SearchingForIdenticalItems_Text" xml:space="preserve">
+  <value>Поиск идентичных элементов…</value>
+</data>
+<data name="CopyActionText" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="LocalizationOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры локализации</value>
+</data>
+<data name="_CultureOfResource__Text" xml:space="preserve">
+  <value>{0} культура ресурса "{1}"</value>
+</data>
+<data name="ShowOnlyProblemsActionText" xml:space="preserve">
+  <value>Показывать только проблемы</value>
+</data>
+<data name="_Comment_Text" xml:space="preserve">
+  <value>Комментарий(_C)</value>
+</data>
+<data name="OnlyNamesOfPublicPropertiesAreAllowedHereMessage" xml:space="preserve">
+  <value>Здесь допускаются только имена public свойств</value>
+</data>
+<data name="ExportingResourceItemsToCSV_Text" xml:space="preserve">
+  <value>Экспорт элементов ресурса в CSV…</value>
+</data>
+<data name="ValueValue_Text_Text" xml:space="preserve">
+  <value>$Value$ - значение</value>
+</data>
+<data name="CannotFindResourceFileForThe_Culture_Text" xml:space="preserve">
+  <value>Не удается найти файл ресурсов для культуры {0}</value>
+</data>
+<data name="_U2022_Text" xml:space="preserve">
+  <value>{0}  ++•++  {1}</value>
+</data>
+<data name="ShowOnlyProblemsSettingDescription" xml:space="preserve">
+  <value>Показывать только проблемы</value>
+</data>
+<data name="ImportingResourceItems_Text" xml:space="preserve">
+  <value>Импорт элементов ресурса…</value>
+</data>
+<data name="OrderByResourceFileKeyActionText" xml:space="preserve">
+  <value>Сортировать по ключу файла ресурсов</value>
+</data>
+<data name="_Value_Text" xml:space="preserve">
+  <value>Значение(_V)</value>
+</data>
+<data name="LocalizationManagerPersonalSolutionSettingsSettingDescription" xml:space="preserve">
+  <value>Персональные настройки решения Localization Manager</value>
+</data>
+<data name="Separator_Tab_Text" xml:space="preserve">
+  <value>Табуляция(_T)</value>
+</data>
+<data name="CannotResolveResource1" xml:space="preserve">
+  <value>Не удается разрешить ресурс</value>
+</data>
+<data name="ValueFor_IsEmptyOrConsistsOnlyOfWhite_Text" xml:space="preserve">
+  <value>Значение {0} пусто или состоит только из пробельных символов</value>
+</data>
+<data name="ShowCommentsActionText" xml:space="preserve">
+  <value>Показать комментарии</value>
+</data>
+<data name="Na_me_Text" xml:space="preserve">
+  <value>Имя(_M)</value>
+</data>
+<data name="MoveActionText" xml:space="preserve">
+  <value>Переместить…</value>
+</data>
+<data name="Separator_Semicolon_Text" xml:space="preserve">
+  <value>Точка с запятой(_S)</value>
+</data>
+<data name="ResourceName_template_StringOption_Text" xml:space="preserve">
+  <value>Шаблон имени ресурса(_T): </value>
+</data>
+<data name="ClearSelection_Text" xml:space="preserve">
+  <value>Очистить выделение</value>
+</data>
+<data name="Resource_file_Text" xml:space="preserve">
+  <value>Файл ресурсов(_F)</value>
+</data>
+<data name="SpecifyOptionsForInliningResourceValue_Text" xml:space="preserve">
+  <value>Укажите параметры для встраивания значения ресурса</value>
+</data>
+<data name="LocalizableInspectorDisplayName_Text" xml:space="preserve">
+  <value>Инспектор локализуемости</value>
+</data>
+<data name="ErrorWhileRollingBackRefactoringChanges_Text" xml:space="preserve">
+  <value>Ошибка при откате изменений рефакторинга</value>
+</data>
+<data name="TypeNameNameOfTheContainingType_Text_Text" xml:space="preserve">
+  <value>$TypeName$ - имя содержащего типа</value>
+</data>
+<data name="CultureAlreadyExists_Text" xml:space="preserve">
+  <value>Культура уже существует.</value>
+</data>
+<data name="SpecifyANameForTheNewResourceEntryAnd_Text" xml:space="preserve">
+  <value>Укажите имя для новой записи ресурса и выберите файл ресурсов для ее размещения</value>
+</data>
+<data name="_RemoveDeclarationOfInlinedResource_Text" xml:space="preserve">
+  <value>Удалить объявление встроенного ресурса(_R)</value>
+</data>
+<data name="OnlyNamesOfPropertiesAreAllowedHereMessage" xml:space="preserve">
+  <value>Здесь допускаются только имена свойств</value>
+</data>
+<data name="ShowTheNewResourceEntryIn_Localization_Text" xml:space="preserve">
+  <value>Показать новую запись ресурса в Localization Manager(_L)</value>
+</data>
+<data name="AmbiguousResourceItemmatchMessage" xml:space="preserve">
+  <value>Неоднозначный элемент ресурса:{0}{1}совпадений</value>
+</data>
+<data name="AddNewCultureActionText" xml:space="preserve">
+  <value>Добавить новую культуру</value>
+</data>
+<data name="ReplacingExistingItem_Text" xml:space="preserve">
+  <value>Замена существующего элемента…</value>
+</data>
+<data name="AddingNewItem_Text" xml:space="preserve">
+  <value>Добавление нового элемента…</value>
+</data>
+<data name="ThisProjectDoesNotContainAnAvailable_Text" xml:space="preserve">
+  <value>Этот проект не содержит доступного файла ресурсов</value>
+</data>
+<data name="ChooseDestinationResource_Text" xml:space="preserve">
+  <value>Выберите целевой ресурс</value>
+</data>
+<data name="File_path_Label_Text" xml:space="preserve">
+  <value>Путь к файлу(_P):</value>
+</data>
+<data name="CanTAddItemToResourceFile_Text" xml:space="preserve">
+  <value>Не удается добавить элемент в файл ресурсов.</value>
+</data>
+<data name="RunningCustomTools_Text" xml:space="preserve">
+  <value>Запуск пользовательских инструментов…</value>
+</data>
+<data name="ValueFor_IsMissing_Text" xml:space="preserve">
+  <value>Отсутствует значение для {0}</value>
+</data>
+<data name="PleaseFixErrorsAndRunTheRefactoring_Text" xml:space="preserve">
+  <value>Исправьте ошибки и повторно запустите рефакторинг</value>
+</data>
+<data name="IdenticalItemsFound_Text" xml:space="preserve">
+  <value>Найдены идентичные элементы</value>
+</data>
+<data name="WhetherToShowNewResourceEntryWithLocalizationManagerSettingDescription" xml:space="preserve">
+  <value>Показывать ли новую запись ресурса в Localization Manager</value>
+</data>
+<data name="ChooseResourceFileAndName_Text" xml:space="preserve">
+  <value>Выберите файл ресурсов и имя</value>
+</data>
+<data name="ResourceFileAlreadyContainsAnItemWith_Text" xml:space="preserve">
+  <value>Файл ресурсов уже содержит элемент с введенным вами именем. Нажмите «Да», чтобы использовать существующий элемент. Нажмите «Нет», чтобы заменить существующий элемент новым значением.</value>
+</data>
+<data name="ShowOnlyLocalizableStringResourcesActionText" xml:space="preserve">
+  <value>Показывать только локализуемые строковые ресурсы</value>
+</data>
+<data name="ImportingResourceItem_Of__Text" xml:space="preserve">
+  <value>Импорт элемента ресурса {0:N0} из {1:N0}…</value>
+</data>
+<data name="LocalizableInspectorDescription_Text" xml:space="preserve">
+  <value>Пессимистично: анализировать все возможные элементы. Оптимистично: анализировать только локализуемые элементы.</value>
+</data>
+<data name="CultureTagShouldBeIETFCompliant_Text" xml:space="preserve">
+  <value>Тег культуры должен соответствовать стандарту IETF</value>
+</data>
+<data name="SearchingForResourceItemUsages_Text" xml:space="preserve">
+  <value>Поиск использований элемента ресурса</value>
+</data>
+<data name="CommaSeparatedValues_Files_Filter_Text" xml:space="preserve">
+  <value>Значения, разделенные запятыми</value>
+</data>
+<data name="ShowCommentsSettingDescription" xml:space="preserve">
+  <value>Показывать комментарии</value>
+</data>
+<data name="CreateMissingFileActionText" xml:space="preserve">
+  <value>Создать отсутствующий файл</value>
+</data>
+<data name="OnlyLocalizableStringResourcesWillBeExported_Text" xml:space="preserve">
+  <value>Будут экспортированы только локализуемые строковые ресурсы</value>
+</data>
+<data name="MoveResource_Text" xml:space="preserve">
+  <value>Переместить ресурс(&amp;M)</value>
+</data>
+<data name="OrderByFullPathSettingDescription" xml:space="preserve">
+  <value>Сортировать по полному пути</value>
+</data>
+<data name="SelectIdenticalItemsThatShouldBeReplaced_Text" xml:space="preserve">
+  <value>Выберите идентичные элементы, которые следует заменить новыми использованиями ресурса</value>
+</data>
+<data name="_U2022Missing_Text" xml:space="preserve">
+  <value>{0}  ++•  Отсутствует++</value>
+</data>
+<data name="Processing__Text" xml:space="preserve">
+  <value>Обработка {0}…</value>
+</data>
+<data name="Apply_filters_Text" xml:space="preserve">
+  <value>Применить фильтры(_F)</value>
+</data>
+<data name="SelectADestinationResourceFileAndOptionally_Text" xml:space="preserve">
+  <value>Выберите целевой файл ресурсов и при необходимости измените целевое имя ресурса</value>
+</data>
+<data name="RenameActionText" xml:space="preserve">
+  <value>Переименовать…</value>
+</data>
+<data name="AddNewResource_Caption" xml:space="preserve">
+  <value>Добавить новый ресурс</value>
+</data>
+<data name="RunningCustomTool_Text" xml:space="preserve">
+  <value>Запуск пользовательского инструмента…</value>
+</data>
+<data name="SpecifyANewNameForTheResource_Text" xml:space="preserve">
+  <value>Укажите новое имя для ресурса</value>
+</data>
+<data name="ClearSelectionActionText" xml:space="preserve">
+  <value>Очистить выделение</value>
+</data>
+<data name="InvalidTargetResourceFile_Text" xml:space="preserve">
+  <value>Недействительный целевой файл ресурсов</value>
+</data>
+<data name="EditWithVisualStudioResourceEditor_Text" xml:space="preserve">
+  <value>Редактировать в редакторе ресурсов Visual Studio</value>
+</data>
+<data name="ResourceEntryDefaultNameSettingDescription" xml:space="preserve">
+  <value>Имя записи ресурса по умолчанию</value>
+</data>
+<data name="ResourceValueActionText" xml:space="preserve">
+  <value>Значение ресурса…</value>
+</data>
+<data name="Find_identicalItemsIn_Text" xml:space="preserve">
+  <value>Найти идентичные элементы в(_I)</value>
+</data>
+<data name="SelectAll_Text" xml:space="preserve">
+  <value>Выбрать все</value>
+</data>
+<data name="LocalizableInspectorStrategySettingDescription" xml:space="preserve">
+  <value>Стратегия инспектора локализуемости</value>
+</data>
+<data name="CannotMove0ElementToResource_Text" xml:space="preserve">
+  <value>Не удается переместить {0, элемент} в ресурс</value>
+</data>
+<data name="CannotResolveResourceItem2" xml:space="preserve">
+  <value>Не удается разрешить элемент ресурса</value>
+</data>
+<data name="WhetherToMoveSimilarElementsSettingDescription" xml:space="preserve">
+  <value>Перемещать ли похожие элементы</value>
+</data>
+<data name="DeriVedResources_Caption" xml:space="preserve">
+  <value>Производные ресурсы(&amp;V)</value>
+</data>
+<data name="IdenticalStringsFound_Text" xml:space="preserve">
+  <value>Найдены идентичные строки</value>
+</data>
+<data name="CultureTag_Text" xml:space="preserve">
+  <value>Тег культуры:</value>
+</data>
+<data name="NewN_ame_Text" xml:space="preserve">
+  <value>Новое имя(_A)</value>
+</data>
+<data name="LocalizationManagerChooseCultures_Caption" xml:space="preserve">
+  <value>Localization Manager — Выбор культур</value>
+</data>
+<data name="InitializedSettingDescription" xml:space="preserve">
+  <value>Инициализировано</value>
+</data>
+<data name="SafeDeleteActionText" xml:space="preserve">
+  <value>Безопасное удаление…</value>
+</data>
+<data name="MovingResourceItemsToTargetFile_Text" xml:space="preserve">
+  <value>Перемещение элементов ресурса в целевой файл…</value>
+</data>
+<data name="ValueFor_HasBeenRemovedByUser_Text" xml:space="preserve">
+  <value>Значение {0} было удалено пользователем</value>
+</data>
+<data name="CannotResolveResourceMessage" xml:space="preserve">
+  <value>Не удается разрешить ресурс '{0}'</value>
+</data>
+<data name="RunCustomToolFor__Text" xml:space="preserve">
+  <value>Запустить пользовательский инструмент для {0}</value>
+</data>
+<data name="MoveToResourceRefactoringSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки рефакторинга «Переместить в ресурс»</value>
+</data>
+<data name="CheckedGroupsSettingDescription" xml:space="preserve">
+  <value>Проверенные группы</value>
+</data>
+<data name="ScanningFile__Text" xml:space="preserve">
+  <value>Сканирование файла '{0}'</value>
+</data>
+<data name="ChooseFilePathAndSpecifyImportOptions_Text" xml:space="preserve">
+  <value>Выберите путь к файлу и укажите параметры импорта</value>
+</data>
+<data name="RollingBackChanges_Text" xml:space="preserve">
+  <value>Откат изменений…</value>
+</data>
+<data name="RemovingResourceItems_Text" xml:space="preserve">
+  <value>Удаление элементов ресурса…</value>
+</data>
+<data name="_IgnoreEmptyValues_Text" xml:space="preserve">
+  <value>Игнорировать пустые значения(_I)</value>
+</data>
+<data name="CanTApplyRefactoringToInvalidElement_Text" xml:space="preserve">
+  <value>Не удается применить рефакторинг к недействительному элементу</value>
+</data>
+<data name="Project__Text" xml:space="preserve">
+  <value>Проект {0}</value>
+</data>
+<data name="Separator_Text" xml:space="preserve">
+  <value>Разделитель:</value>
+</data>
+<data name="Separator_Comma_Text" xml:space="preserve">
+  <value>Запятая(_C)</value>
+</data>
+<data name="ResourceImpLementation_Caption" xml:space="preserve">
+  <value>Реализация ресурса(&amp;L)</value>
+</data>
+<data name="LocalizableDescription_Text" xml:space="preserve">
+  <value>Включить или отключить функции локализации для текущего проекта. По умолчанию ReSharper выделяет локализуемые элементы, только если в проекте есть один или несколько файлов ресурсов.</value>
+</data>
+<data name="Folder__Text" xml:space="preserve">
+  <value>Папка {0}</value>
+</data>
+<data name="ThereAreNoResources_Text" xml:space="preserve">
+  <value>Ресурсы отсутствуют</value>
+</data>
+<data name="Default_Text" xml:space="preserve">
+  <value>по умолчанию</value>
+</data>
+<data name="ImportFromCSV_Text" xml:space="preserve">
+  <value>Импорт из CSV</value>
+</data>
+<data name="LocalizableDisplayName_Text" xml:space="preserve">
+  <value>Локализуемость</value>
+</data>
+<data name="Export_comments_Text" xml:space="preserve">
+  <value>Экспорт комментариев(_C)</value>
+</data>
+<data name="MoveResourceRefactoringSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки рефакторинга «Переместить ресурс»</value>
+</data>
+<data name="CanTParseInputData_Text" xml:space="preserve">
+  <value>Не удается разобрать входные данные</value>
+</data>
+<data name="InvalidResourceFile_Text" xml:space="preserve">
+  <value>Недействительный файл ресурсов.</value>
+</data>
+</root>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="_AutomaticallyBasedOnCPU_Text" xml:space="preserve">
+  <value>{0} (Автоматически определяется на основе CPU и RAM)</value>
+</data>
+<data name="TaskBarShowBuildProgressInWindowsTask_Text" xml:space="preserve">
+  <value>Панель задач: показывать прогресс сборки в Windows Taskbar</value>
+</data>
+<data name="UseNewLogModeSettingDescription" xml:space="preserve">
+  <value>Использовать новый режим логирования</value>
+</data>
+<data name="MSBuildSolutionLoadingTargets_Text" xml:space="preserve">
+  <value>Цели загрузки решения MSBuild</value>
+</data>
+<data name="UseReSharperBuild_Hint_Text" xml:space="preserve">
+  <value>При первом запуске ReSharper Build он использует несколько параллельных процессов для сборки всех проектов.
+При последующих сборках будут пересобираться только проекты, в которых изменились поддерживаемые элементы сборки. Если изменения затрагивают общие типы, используемые другими проектами, то пересобираются и они.</value>
+</data>
+<data name="ShowingBuildResultsAfterBuildCompleted_ComboOptionFromEnum_TextPrefix" xml:space="preserve">
+  <value>После завершения сборки показывать результаты:</value>
+</data>
+<data name="OnlyIfErrorsOrWarningsReceived_ShowBuildResultsMode_Text" xml:space="preserve">
+  <value>Только при наличии ошибок или предупреждений</value>
+</data>
+<data name="UseLegacyPublicApiSurfaceHashingAlgorithmSettingDescription" xml:space="preserve">
+  <value>Использовать устаревший алгоритм хеширования поверхности публичного API для отслеживания изменений в собранных сборках. Старый алгоритм медленный, потребляет много памяти и имеет проблемы корректности, будет удалён в будущем. Используйте только если новый алгоритм вызывает проблемы.</value>
+</data>
+<data name="UseLegacyPublicApiSurfaceHashingAlgorithm_Text" xml:space="preserve">
+  <value>Использовать устаревший алгоритм хеширования публичного API</value>
+</data>
+<data name="WriteMSBuildLogToFile_BoolOption_Text" xml:space="preserve">
+  <value>Записывать лог MSBuild в файл</value>
+</data>
+<data name="VerbosityOfOutputLoggerSettingDescription" xml:space="preserve">
+  <value>Уровень детализации логгера вывода</value>
+</data>
+<data name="TrackChangesInAllAttributesFromPublic_Text" xml:space="preserve">
+  <value>Отслеживать изменения всех атрибутов публичного API</value>
+</data>
+<data name="ToolWindowWhenBuildStartsOpenTheBuild_BoolOption_Text" xml:space="preserve">
+  <value>Окно инструментов: при явном вызове сборки открывать окно прогресса</value>
+</data>
+<data name="Name_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="IncludeChangesInAllAttributesWhenTrackingChangesSettingDescription" xml:space="preserve">
+  <value>При отслеживании изменений в сборках учитывать изменения всех атрибутов публичного API. Режим полезен для решений с кастомными анализаторами Roslyn, которые могут выдавать ошибки по атрибутам и прерывать сборку.</value>
+</data>
+<data name="InvokePreAndPostBuildEventTargetsForSkippedProjectsSettingDescription" xml:space="preserve">
+  <value>Вызывать цели пред- и постсборки для пропущенных проектов</value>
+</data>
+<data name="Toolset_Header_Text" xml:space="preserve">
+  <value>Набор инструментов</value>
+</data>
+<data name="WriteErrorsToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать ошибки в вывод</value>
+</data>
+<data name="WriteLogToFileSettingDescription" xml:space="preserve">
+  <value>Записывать лог в файл</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="RestoreNuGetPackagesBeforeBuild_BoolOption_Text" xml:space="preserve">
+  <value>Восстанавливать пакеты NuGet перед сборкой</value>
+</data>
+<data name="Browse_Text" xml:space="preserve">
+  <value>Обзор</value>
+</data>
+<data name="EnableLoggerInsideMSBuildProcessToFileStoringToTempFolderSettingDescription" xml:space="preserve">
+  <value>Включить запись лога внутри процесса MSBuild. Сохраняется во временную папку.</value>
+</data>
+<data name="IDEUsesDesignTimeBuildToLoadSolutions_Text" xml:space="preserve">
+  <value>IDE использует дизайн-тайм сборку для загрузки решений и проектов.
+Если фреймворк сборки предоставляет компилируемые файлы или ссылки, добавьте их имена целей в список — IDE будет использовать их при дизайн-тайм сборке.</value>
+</data>
+<data name="CopyPathToClipboard_Text" xml:space="preserve">
+  <value>Копировать путь в буфер обмена</value>
+</data>
+<data name="Edit__Caption" xml:space="preserve">
+  <value>Редактировать {0}</value>
+</data>
+<data name="RestoreNuGetPackagesBeforeBuildSettingDescription" xml:space="preserve">
+  <value>Восстанавливать пакеты NuGet перед сборкой</value>
+</data>
+<data name="LearnMore_Button_Text" xml:space="preserve">
+  <value>Подробнее…</value>
+</data>
+<data name="MSBuildGlobalProperties_Text" xml:space="preserve">
+  <value>Глобальные свойства MSBuild</value>
+</data>
+<data name="Platform_Specific_Toolsets_Header_Text" xml:space="preserve">
+  <value>Платформенные наборы инструментов</value>
+</data>
+<data name="ToolWindowWhenBuildStartsOpenTheBuildDumb_BoolOption_Text" xml:space="preserve">
+  <value>Окно инструментов: открывать прогресс сборки даже при неявном вызове (запуск/отладка)</value>
+</data>
+<data name="NETCLIExecutableX64Path_Text" xml:space="preserve">
+  <value>Путь к .NET CLI (x64)</value>
+</data>
+<data name="WriteWarningsToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать предупреждения в вывод</value>
+</data>
+<data name="VerbosityLevel_Detailed_Text" xml:space="preserve">
+  <value>Подробный</value>
+</data>
+<data name="VerbosityLevel_Normal_Text" xml:space="preserve">
+  <value>Обычный</value>
+</data>
+<data name="WriteMessagesToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать сообщения в вывод</value>
+</data>
+<data name="OnlyIfErrorsReceived_ShowBuildResultsMode_Text" xml:space="preserve">
+  <value>Только при наличии ошибок</value>
+</data>
+<data name="MonoExecutablePath_Text" xml:space="preserve">
+  <value>Путь к Mono</value>
+</data>
+<data name="VerbosityOfFileLogger_ComboOptionFromEnum_TextPrefix" xml:space="preserve">
+  <value>Уровень детализации файлового логгера</value>
+</data>
+<data name="PropertyNameShouldNotContainWhitespaces_Text" xml:space="preserve">
+  <value>Имя свойства не должно содержать пробелов</value>
+</data>
+<data name="Build_Header_Text" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ProjectsShouldBeAlwaysBuiltIndependentlyFromHeuristicSettingDescription" xml:space="preserve">
+  <value>Проекты должны всегда собираться независимо от эвристик</value>
+</data>
+<data name="Never_ShowBuildResultsMode_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="ToolWindowSwitchToTreeViewAfterTheBuild_BoolOption_Text" xml:space="preserve">
+  <value>Окно инструментов: после сборки переключаться на древовидный вид, если есть события</value>
+</data>
+<data name="WriteLogToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать лог в вывод</value>
+</data>
+<data name="EnableAdvancedLogsInDocumentChangeTrackerSettingDescription" xml:space="preserve">
+  <value>Включить расширенное логирование в трекере изменений документов</value>
+</data>
+<data name="VisualStudioOptionProjectsAndSolutions_Text" xml:space="preserve">
+  <value>Visual Studio: *Проекты и решения | Общие | Показывать окно вывода при начале сборки* должно быть включено, чтобы ReSharper мог отображать вывод</value>
+</data>
+<data name="CheckBuildStateBeforeBuildingProjectSettingDescription" xml:space="preserve">
+  <value>Проверять состояние сборки перед сборкой проекта</value>
+</data>
+<data name="VerbosityLevel_Minimal_Text" xml:space="preserve">
+  <value>Минимальный</value>
+</data>
+<data name="TargetNameShouldNotContainWhitespaces_Text" xml:space="preserve">
+  <value>Имя цели не должно содержать пробелов</value>
+</data>
+<data name="WriteMSBuildLogToOutput_BoolOption_Text" xml:space="preserve">
+  <value>Записывать лог MSBuild в вывод</value>
+</data>
+<data name="VerbosityOfOutputLogger_ComboOptionFromEnum_TextPrefix" xml:space="preserve">
+  <value>Уровень детализации логгера вывода</value>
+</data>
+<data name="InvokePreAndPostBuildEventTargetsFor_BoolOption_Text" xml:space="preserve">
+  <value>Вызывать цели пред- и постсборки для пропущенных проектов</value>
+</data>
+<data name="BuildOptionPageTitle" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="PassVisualStudioParametersToTheBuild_BoolOption_Text" xml:space="preserve">
+  <value>Передавать параметры Visual Studio в сборку</value>
+</data>
+<data name="CanNotAddToolset_Caption" xml:space="preserve">
+  <value>Не удалось добавить набор инструментов</value>
+</data>
+<data name="ToolWindowFullPathsInConsole_BoolOption_Text" xml:space="preserve">
+  <value>Окно инструментов: показывать полные пути в консольном выводе</value>
+</data>
+<data name="DirectoryForFileLoggerSettingDescription" xml:space="preserve">
+  <value>Каталог файлового логгера</value>
+</data>
+<data name="ProcessesInParallel_Text" xml:space="preserve">
+  <value>процессов</value>
+</data>
+<data name="NumberOfProcessesRunningInParallelSettingDescription" xml:space="preserve">
+  <value>Количество процессов, выполняемых параллельно</value>
+</data>
+<data name="NETCLIExecutableX86Path_Text" xml:space="preserve">
+  <value>Путь к .NET CLI (x86)</value>
+</data>
+<data name="UseReSharperBuild_Text" xml:space="preserve">
+  <value>Использовать ReSharper Build</value>
+</data>
+<data name="VerbosityLevel_Diagnostic_Text" xml:space="preserve">
+  <value>Диагностический</value>
+</data>
+<data name="InvokeBeforeBuildAndAfterBuildTargetsForSkippedProjectsSettingDescription" xml:space="preserve">
+  <value>Вызывать цели BeforeBuild и AfterBuild для пропущенных проектов</value>
+</data>
+<data name="UseNewPresentationBuildResultsTreeWith_BoolOption_Text" xml:space="preserve">
+  <value>Использовать новое представление (дерево результатов сборки с состоянием проектов)</value>
+</data>
+<data name="VerbosityOfFileLoggerSettingDescription" xml:space="preserve">
+  <value>Уровень детализации файлового логгера</value>
+</data>
+<data name="MSBuild_RunsOn_N__Text" xml:space="preserve">
+  <value>MSBuild {0} выполняется на {1}
+{2}</value>
+</data>
+<data name="BuildLogging_Header_Text" xml:space="preserve">
+  <value>Логирование сборки</value>
+</data>
+<data name="StatusBarShowBuildProgressInStatusBar_BoolOption_Text" xml:space="preserve">
+  <value>Строка состояния: показывать прогресс сборки</value>
+</data>
+<data name="VerbosityLevel_Quite_Text" xml:space="preserve">
+  <value>Тихий</value>
+</data>
+<data name="PaintOutputLog_BoolOption_Text" xml:space="preserve">
+  <value>Подсвечивать вывод лога</value>
+</data>
+<data name="BuildWithSolBuilderDuoSettingDescription" xml:space="preserve">
+  <value>Собирать с помощью SolBuilderDuo</value>
+</data>
+<data name="Always_ShowBuildResultsMode_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="ShowVerticalProgressBarWhenBuildStarted_BoolOption_Text" xml:space="preserve">
+  <value>При начале сборки показывать вертикальную полосу прогресса</value>
+</data>
+<data name="MSBuildLogFileWillBeWrittenInTheSpecified_Text" xml:space="preserve">
+  <value>Файл лога MSBuild будет записан в указанную папку для каждой сборки.
+Пример имени файла: {0}</value>
+</data>
+<data name="Custom_Text" xml:space="preserve">
+  <value>Настроить…</value>
+</data>
+<data name="DumpBuildStatesBeforeBuildSettingDescription" xml:space="preserve">
+  <value>Перед сборкой сохранять состояние сборки</value>
+</data>
+<data name="PresentationOptionPageTitle" xml:space="preserve">
+  <value>Представление</value>
+</data>
+<data name="CanNotReadMSBuildVersionFromSpecified_Text" xml:space="preserve">
+  <value>Не удалось прочитать версию MSBuild из указанного исполняемого файла</value>
+</data>
+<data name="BuildResultsViewEnableGroupingSolution_BoolOption_Text" xml:space="preserve">
+  <value>В представлении результатов сборки можно группировать по пространствам имён, типам и членам</value>
+</data>
+<data name="MSBuildVersion_Text" xml:space="preserve">
+  <value>Версия MSBuild</value>
+</data>
+<data name="WriteConsoleLogToOutputSettingDescription" xml:space="preserve">
+  <value>Записывать консольный лог в вывод</value>
+</data>
+<data name="Invalid_Version_Text" xml:space="preserve">
+  <value>Недопустимая версия</value>
+</data>
+<data name="VersionOfMSBuildToUseWhenBuildingMeansasTheRuntimeVersionOfTheApplicationInitiatingTheBuildInCaseOfVisualStudioThisIsTheSameMSBuildVSItselfUsesForBuildingFFFFFFFFMeansUseTheHighestVersionAvailableOnThisMachineAnyOtherNumberHIWORDIsTheMajorVersionNumberLOWORDIsTheMinorVersionNumberSettingDescription" xml:space="preserve">
+  <value>Версия MSBuild для сборки. 0 — версия среды выполнения приложения, инициирующего сборку (в Visual Studio это та же версия MSBuild, что использует VS). FFFFFFFF — использовать самую новую доступную версию. Любое другое число: HIWORD — основной номер версии, LOWORD — дополнительный номер.</value>
+</data>
+<data name="DesignTimeBuildSolutionLoading_Header_Text" xml:space="preserve">
+  <value>Дизайн-тайм сборка (загрузка решения)</value>
+</data>
+<data name="AutomaticallyDownloadSDK_ComboEnum_Caption" xml:space="preserve">
+  <value>Автоматически загружать .NET SDK при необходимости</value>
+</data>
+<data name="PassVisualStudioParametersToTheBuildSettingDescription" xml:space="preserve">
+  <value>Передавать параметры Visual Studio в сборку</value>
+</data>
+<data name="AddDesignTimeItemsToChangeTrackingSettingDescription" xml:space="preserve">
+  <value>Добавлять дизайн-тайм элементы в отслеживание изменений</value>
+</data>
+<data name="NETCLIExecutablePath_Text" xml:space="preserve">
+  <value>Путь к .NET CLI</value>
+</data>
+<data name="FolderForFileLoggerSettingDescription" xml:space="preserve">
+  <value>Папка для файлового логгера</value>
+</data>
+<data name="Edit_Text" xml:space="preserve">
+  <value>Редактировать…</value>
+</data>
+<data name="ProjectsShouldBeNeverBuiltIndependentlyFromHeuristicSettingDescription" xml:space="preserve">
+  <value>Проекты не должны собираться независимо от эвристик</value>
+</data>
+<data name="RunBuildAfterSolutionIsLoaded_BoolOption_Text" xml:space="preserve">
+  <value>Запускать сборку после загрузки решения</value>
+</data>
+<data name="IDEProvidesThePropertiesToMSBuildDuring_Text" xml:space="preserve">
+  <value>IDE предоставляет свойства MSBuild во время сборки и дизайн-тайм сборки</value>
+</data>
+<data name="InvokeBeforeBuildAndAfterBuildTargets_BoolOption_Text" xml:space="preserve">
+  <value>Вызывать цели BeforeBuild и AfterBuild для пропущенных проектов</value>
+</data>
+<data name="Value_Text" xml:space="preserve">
+  <value>Значение</value>
+</data>
+<data name="UseUpTo_Text" xml:space="preserve">
+  <value>Использовать до</value>
+</data>
+</root>

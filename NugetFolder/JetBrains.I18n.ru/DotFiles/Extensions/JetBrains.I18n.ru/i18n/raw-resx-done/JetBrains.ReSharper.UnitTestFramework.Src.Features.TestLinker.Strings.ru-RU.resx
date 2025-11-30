@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="GenerateUnitTest_Dialog_Namespace_Label" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="GenerateUnitTest_InstallAnnotationsDialog_Text" xml:space="preserve">
+  <value>Для связи созданного тестового класса с тестируемым классом, его необходимо аннотировать атрибутом [TestSubject] из NuGet-пакета 'Jetbrains.Annotations'.
+
+Нажмите «ОК», чтобы установить пакет, или «Отмена», чтобы продолжить без использования атрибута [TestSubject].</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_InstallingReference" xml:space="preserve">
+  <value>Установка {0}</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_AddingInternalsVisibleTo" xml:space="preserve">
+  <value>Добавление InternalsVisibleTo</value>
+</data>
+<data name="GenerateUnitTest_DialogSettings_Description" xml:space="preserve">
+  <value>Настройки диалога создания модульного теста</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_TestFrameworkAlreadyUsedInSelectedProject_Text" xml:space="preserve">
+  <value>Уже используется в выбранном тестовом проекте</value>
+</data>
+<data name="TestLinker_Settings_SubjectAttribute_Description" xml:space="preserve">
+  <value>Атрибут субъекта</value>
+</data>
+<data name="GenerateUnitTest_Dialog_HelpButton_Label" xml:space="preserve">
+  <value>Справка</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_TestFrameworkAlreadyUsedInCurrentSolution_Text" xml:space="preserve">
+  <value>Уже используется в текущем решении</value>
+</data>
+<data name="GenerateUnitTest_Dialog_TestFrameworkGroup_Origin_InAnotherProject" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_EnableAffixSearchCheckBox_Label" xml:space="preserve">
+  <value>Использовать поиск по аффиксам</value>
+</data>
+<data name="LinkedTypesSearchDescriptor_SectionTitle_SingleResultFound" xml:space="preserve">
+  <value>Найден 1 связанный тип</value>
+</data>
+<data name="TestLinker_Settings_NamingSuffixes_Description" xml:space="preserve">
+  <value>Суффиксы именования</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_CreatingProject" xml:space="preserve">
+  <value>Создание проекта {0}</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_TestFrameworkAreLoading_Text" xml:space="preserve">
+  <value>Загрузка тестовых фреймворков…</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_NameOfSubjectAttributeTextBox_Label" xml:space="preserve">
+  <value>Имя атрибута для упоминания тестового субъекта:</value>
+</data>
+<data name="GenerateUnitTest_Dialog_TestFrameworkGroup_Origin_InOtherProjects" xml:space="preserve">
+  <value>В других проектах ({0})</value>
+</data>
+<data name="EmptyTestMethodGenerator_ExpandLiveTemplateCommandName" xml:space="preserve">
+  <value>Сгенерировать тестовый метод</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Destination_Label" xml:space="preserve">
+  <value>Назначение</value>
+</data>
+<data name="GenerateUnitTest_Dialog_TestFrameworkGroup_Origin_InThisProject" xml:space="preserve">
+  <value>В этом проекте</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Destination_FilePicker_Header" xml:space="preserve">
+  <value>Выберите место назначения</value>
+</data>
+<data name="CreateUnitTestContextAction_Description" xml:space="preserve">
+  <value>Создать тестовый класс для целевого класса</value>
+</data>
+<data name="LinkedTypesNavigationProvider_NavigateToMenuItemTitle_LinkedTypes" xml:space="preserve">
+  <value>Связанные типы</value>
+</data>
+<data name="TestLinker_AnnotationStrategy_WhenCannotBeInferred_DisplayName" xml:space="preserve">
+  <value>Когда не может быть выведен</value>
+</data>
+<data name="TestLinker_AnnotationStrategy_Always_DisplayName" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="GoToLinkedTypesAction_Text" xml:space="preserve">
+  <value>Перейти к связанным типам</value>
+</data>
+<data name="TestLinker_Settings_Description" xml:space="preserve">
+  <value>Настройки для TestLinker</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_Failure" xml:space="preserve">
+  <value>Сбой генерации теста во время {0}. Отправьте журнал и повторите попытку.</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_Title" xml:space="preserve">
+  <value>Генерация тестов</value>
+</data>
+<data name="LinkedTypesNavigationProvider_NavigateToMenuItemTitle_ProductionCode" xml:space="preserve">
+  <value>Тестовый субъект</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_Text" xml:space="preserve">
+  <value>Настроить шаблон:</value>
+</data>
+<data name="TestLinker_NamingConvention_Prefix_DisplayName" xml:space="preserve">
+  <value>Аффикс + Имя компонента</value>
+</data>
+<data name="TestLinkerOptionsPage_GenerationSection_TestSubjectAnnotationStrategy_Label" xml:space="preserve">
+  <value>Использовать аннотацию упоминания тестового субъекта:</value>
+</data>
+<data name="TestLinkerOptionsPage_GenerationSection_TestClassNamingConvention_Label" xml:space="preserve">
+  <value>Соглашение об именовании тестовых классов:</value>
+</data>
+<data name="GenerateUnitTest_Text" xml:space="preserve">
+  <value>Создать модульный тест</value>
+</data>
+<data name="GenerateUnitTest_TestSubjectMacro_Description" xml:space="preserve">
+  <value>Тестовый субъект</value>
+</data>
+<data name="LinkedTypesNavigationProvider_TestsNotFoundMessage" xml:space="preserve">
+  <value>Тесты не найдены</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_ReferencingProject" xml:space="preserve">
+  <value>Ссылается на {0}</value>
+</data>
+<data name="LinkedTypesNavigationProvider_NavigateToMenuItemTitle_TestCode" xml:space="preserve">
+  <value>Связанные тесты</value>
+</data>
+<data name="TestLinker_Settings_SubjectMarkerAttribute_Description" xml:space="preserve">
+  <value>Атрибут маркера субъекта</value>
+</data>
+<data name="GenerateUnitTest_Dialog_AdvancedOptions_Label" xml:space="preserve">
+  <value>Дополнительные параметры</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_ExpandingFileTemplate" xml:space="preserve">
+  <value>Развертывание файлового шаблона</value>
+</data>
+<data name="TestLinker_Settings_UseAttributeSearch_Description" xml:space="preserve">
+  <value>Использовать поиск по атрибутам</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_EditorLocation" xml:space="preserve">
+  <value>Расширения | ReSharper | Инструменты | Обозреватель шаблонов</value>
+</data>
+<data name="TestLinker_Settings_TestSubjectAnnotationStrategy_Description" xml:space="preserve">
+  <value>Стратегия аннотирования тестового субъекта для тестов</value>
+</data>
+<data name="LinkedTypesNavigationProvider_LinkedTypesNotFoundMessage" xml:space="preserve">
+  <value>Связанные типы не найдены</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_TestFrameworkWillBeInstalledFromNuget_Text" xml:space="preserve">
+  <value>Будет установлен из NuGet</value>
+</data>
+<data name="TestLinker_Settings_UseGenericArgumentSearch_Description" xml:space="preserve">
+  <value>Использовать поиск по аргументам универсального типа</value>
+</data>
+<data name="GenerateUnitTest_TargetClassDisambiquePopup_Header" xml:space="preserve">
+  <value>Место создания:</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_NewProject_Text" xml:space="preserve">
+  <value>Будет создан новый тестовый проект</value>
+</data>
+<data name="LinkedTypesSearchRequest_Title_ProductionCodeForElement" xml:space="preserve">
+  <value>Тестовый субъект для '{0}'</value>
+</data>
+<data name="GenerateUnitTest_TestSubjectMacro_LongDescription" xml:space="preserve">
+  <value>Вставляет тип класса, для которого генерируется тест</value>
+</data>
+<data name="GenerateUnitTest_DialogSettings_ShowAdvancedOptions_Description" xml:space="preserve">
+  <value>Сохранить последнее состояние ползунка «Дополнительные параметры»</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_InjectingTestSubject" xml:space="preserve">
+  <value>Внедрение тестового субъекта</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_EnableAttributeSearchCheckBox_Label" xml:space="preserve">
+  <value>Использовать поиск на основе атрибутов</value>
+</data>
+<data name="TestLinkerOptionsPage_GenerationSection_Header" xml:space="preserve">
+  <value>Создание модульных тестов</value>
+</data>
+<data name="TestLinker_AnnotationStrategy_Never_DisplayName" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="GenerateUnitTest_DialogSettings_TestProjectMapping_Description" xml:space="preserve">
+  <value>Сопоставляет проекты с последним выбранным соответствующим тестовым проектом</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Project_Label" xml:space="preserve">
+  <value>Тестовый проект</value>
+</data>
+<data name="LinkedTypesSearchDescriptor_SectionTitle_MultipleResultsFound" xml:space="preserve">
+  <value>Найдено связанных типов: {0}</value>
+</data>
+<data name="TestLinker_Settings_UseAffixSearch_Description" xml:space="preserve">
+  <value>Использовать поиск по аффиксам</value>
+</data>
+<data name="TestLinkerOptionsPage_Name" xml:space="preserve">
+  <value>Test Linker (Связыватель тестов)</value>
+</data>
+<data name="LinkedTypesSearchDescriptor_SectionTitle_SomeOfManyResultsDisplayed" xml:space="preserve">
+  <value>Отображается {0} из {1} связанных типов</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_Header" xml:space="preserve">
+  <value>Навигация</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Validation_MustBeValidProjectName" xml:space="preserve">
+  <value>Значение не является допустимым именем проекта</value>
+</data>
+<data name="GenerateUnitTest_ProgressDialog_ReferencingTestFramework" xml:space="preserve">
+  <value>Ссылается на {0}</value>
+</data>
+<data name="EmptyTestMethodGenerator_CheckboxLabel" xml:space="preserve">
+  <value>Пустой тестовый метод</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Validation_MustBeUniqueProjectName" xml:space="preserve">
+  <value>Проект с таким именем уже существует</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Validation_MustNotBeTakenClassName" xml:space="preserve">
+  <value>Класс с таким именем уже существует в данном пространстве имен</value>
+</data>
+<data name="GenerateUnitTest_FromSearch_TestsNotFoundMessage" xml:space="preserve">
+  <value>Тесты не найдены. Создать?</value>
+</data>
+<data name="GenerateUnitTest_Dialog_TestFramework_Label" xml:space="preserve">
+  <value>Тестовый фреймворк</value>
+</data>
+<data name="TestLinker_Settings_NamingStyle_Description" xml:space="preserve">
+  <value>Стиль именования для тестов</value>
+</data>
+<data name="LinkedTypesNavigationProvider_ProductionCodeNotFoundMessage" xml:space="preserve">
+  <value>Тестовый субъект не найден</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_EnableGenericArgumentSearchCheckBox_Label" xml:space="preserve">
+  <value>Использовать поиск по аргументам универсального типа</value>
+</data>
+<data name="LinkedTypesSearchDescriptor_SectionTitle_NoResultsFound" xml:space="preserve">
+  <value>Связанные типы не найдены</value>
+</data>
+<data name="LinkedTypesSearchRequest_Title_TestCodeForElement" xml:space="preserve">
+  <value>Связанные тесты для '{0}'</value>
+</data>
+<data name="GenerateUnitTest_Dialog_FileTemplate_Label" xml:space="preserve">
+  <value>Шаблон</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Validation_MustNotExistNotDiskIfNewProject" xml:space="preserve">
+  <value>Проект с таким именем уже существует в выбранном месте</value>
+</data>
+<data name="CreateUnitTestContextAction_Name" xml:space="preserve">
+  <value>Создать модульный тест</value>
+</data>
+<data name="CreateUnitTestContextAction_Text" xml:space="preserve">
+  <value>Создать модульный тест</value>
+</data>
+<data name="EmptyTestMethodGenerator_ComboboxItemLabel" xml:space="preserve">
+  <value>Пустой тестовый метод</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Notification_ExistingProject_Text" xml:space="preserve">
+  <value>Тест будет добавлен в существующий тестовый проект</value>
+</data>
+<data name="GenerateUnitTest_DialogSettings_TestTemplateMapping_Description" xml:space="preserve">
+  <value>Сопоставляет тестовые фреймворки с последним выбранным файловым шаблоном теста</value>
+</data>
+<data name="TestLinker_AnnotationStrategy_WhenCannotBeInferredFromName_DisplayName" xml:space="preserve">
+  <value>Когда не может быть выведен из имени</value>
+</data>
+<data name="GenerateUnitTest_Dialog_MethodGenerator_Label" xml:space="preserve">
+  <value>Генератор тестов</value>
+</data>
+<data name="GenerateUnitTest_Dialog_TestFrameworkGroup_Origin_FromFeed" xml:space="preserve">
+  <value>Из {0}</value>
+</data>
+<data name="TestLinker_AnnotationStrategy_WhenNotEvident_DisplayName" xml:space="preserve">
+  <value>Когда не очевиден</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Header_Description" xml:space="preserve">
+  <value>Укажите, где и как следует создавать тесты</value>
+</data>
+<data name="GenerateUnitTest_Dialog_Header_Title" xml:space="preserve">
+  <value>Создать модульный тест</value>
+</data>
+<data name="TestLinker_NamingConvention_Postfix_DisplayName" xml:space="preserve">
+  <value>Имя компонента + Аффикс</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationPage_Name" xml:space="preserve">
+  <value>Навигация по тестам</value>
+</data>
+<data name="GenerateUnitTest_Dialog_ClassName_Label" xml:space="preserve">
+  <value>Имя тестового класса</value>
+</data>
+<data name="GenerateUnitTest_WorkflowTitle" xml:space="preserve">
+  <value>Модульный тест</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_TestClassAffixesTextBox_Label" xml:space="preserve">
+  <value>Аффиксы тестовых классов (через запятую):</value>
+</data>
+<data name="TestLinkerOptionsPage_NavigationSection_NameOfSubjectMarkerAttributeTextBox_Label" xml:space="preserve">
+  <value>Имя атрибута маркера тестового субъекта:</value>
+</data>
+<data name="TestLinkerOptionsPage_GenerationPage_Name" xml:space="preserve">
+  <value>Генерация тестов</value>
+</data>
+<data name="GenerateUnitTest_InstallAnnotationsDialog_Title" xml:space="preserve">
+  <value>Установка NuGet-пакета JetBrains.Annotations</value>
+</data>
+</root>

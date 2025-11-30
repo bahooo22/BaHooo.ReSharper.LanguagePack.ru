@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="_StyleName_Text" xml:space="preserve">
+  <value>Имя стиля(_S):</value>
+</data>
+<data name="FailedToReferenceExtractedResourceAfter_Text" xml:space="preserve">
+  <value>Не удалось сослаться на извлеченный ресурс после извлечения (ресурс может быть скрыт)</value>
+</data>
+<data name="ExistingResource0ReferenceWillBeHiddenByExtractedResource_Text" xml:space="preserve">
+  <value>Существующая ссылка на ресурс {0} будет скрыта извлеченным ресурсом</value>
+</data>
+<data name="InitializingRefactoring_Text" xml:space="preserve">
+  <value>Инициализация рефакторинга</value>
+</data>
+<data name="WhereToExtractNewResource_Text" xml:space="preserve">
+  <value>Куда извлечь новый ресурс</value>
+</data>
+<data name="SearchingForResourceUsages_Text" xml:space="preserve">
+  <value>Поиск использований ресурса…</value>
+</data>
+<data name="Inline_allUsages_Text" xml:space="preserve">
+  <value>Встроить все использования(_A)</value>
+</data>
+<data name="ResourceN_ame_Text" xml:space="preserve">
+  <value>Имя ресурса(_A):</value>
+</data>
+<data name="CheckingResources_Text" xml:space="preserve">
+  <value>Проверка ресурсов…</value>
+</data>
+<data name="ExtractedStyleIsNotExplicitlyReferenced_Text" xml:space="preserve">
+  <value>Извлеченный стиль не ссылается явно из-за существующей {0, ссылки на стиль}</value>
+</data>
+<data name="ReplacingOccurrencesWithResourceReferences_Text" xml:space="preserve">
+  <value>Замена вхождений ссылками на ресурсы</value>
+</data>
+<data name="ExtractXAMLStyleActionText" xml:space="preserve">
+  <value>Извлечь стиль XAML…</value>
+</data>
+<data name="WhereToMoveResource_Text" xml:space="preserve">
+  <value>Куда переместить ресурс</value>
+</data>
+<data name="Resource0UsageInsideDeclaration_Text" xml:space="preserve">
+  <value>Использование ресурса {0} внутри объявления</value>
+</data>
+<data name="ExtractingProperties_Text" xml:space="preserve">
+  <value>Извлечение свойств…</value>
+</data>
+<data name="InliningUsages_Text" xml:space="preserve">
+  <value>Встраивание использований…</value>
+</data>
+<data name="ThereIsNoTargetResourceDictionaryFound_Text" xml:space="preserve">
+  <value>Целевой словарь ресурсов не найден.
+Невозможно выполнить рефакторинг в текущем контексте.</value>
+</data>
+<data name="ExtractXAMLStyle_Column_Value" xml:space="preserve">
+  <value>Значение</value>
+</data>
+<data name="Project_Text" xml:space="preserve">
+  <value>Проект</value>
+</data>
+<data name="MoveXAMLResource_Text" xml:space="preserve">
+  <value>Переместить ресурс XAML</value>
+</data>
+<data name="SearchingForConflicts_Text" xml:space="preserve">
+  <value>Поиск конфликтов…</value>
+</data>
+<data name="CanTAddArgumentsTo0BindBackMethodSince_Text" xml:space="preserve">
+  <value>Не удается добавить аргументы в {0, метод BindBack}, так как вызов метода здесь не разрешен</value>
+</data>
+<data name="MethodInvocationInXBindCanTBeMadeStatic_Text" xml:space="preserve">
+  <value>{0, вызов метода} в x:Bind не может быть сделан статическим путем введения параметров</value>
+</data>
+<data name="__More_Text" xml:space="preserve">
+  <value>{0} (еще {1})</value>
+</data>
+<data name="Resource0UsageInlineWillProduceConflicts_Text" xml:space="preserve">
+  <value>Встраивание использования ресурса {0} создаст конфликты</value>
+</data>
+<data name="ConflictWithDefaultNamespaceAlias_Text" xml:space="preserve">
+  <value>Конфликт с псевдонимом пространства имен по умолчанию</value>
+</data>
+<data name="ExtractXAMLResource_Text" xml:space="preserve">
+  <value>Извлечь ресурс XAML</value>
+</data>
+<data name="Use_existingStyle_Text" xml:space="preserve">
+  <value>Использовать существующий стиль(_E):</value>
+</data>
+<data name="Assembly_Text" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ExtractXAMLStyle_Column_Type" xml:space="preserve">
+  <value>Тип</value>
+</data>
+<data name="FailedTo0ReferenceMovedResourceResource_Text" xml:space="preserve">
+  <value>Не удалось {0, сослаться} на перемещенный ресурс (ресурс может быть скрыт)</value>
+</data>
+<data name="ForInliningResource__Text" xml:space="preserve">
+  <value>Для встраивания ресурса '{0}'</value>
+</data>
+<data name="CheckingConflicts_Text" xml:space="preserve">
+  <value>Проверка конфликтов…</value>
+</data>
+<data name="ResourceType_Text" xml:space="preserve">
+  <value>Тип ресурса:</value>
+</data>
+<data name="ExistingResource0ReferenceWillBeHidden_Text" xml:space="preserve">
+  <value>Существующая ссылка на ресурс {0} будет скрыта перемещенным ресурсом</value>
+</data>
+<data name="CreateNewStyle_Text" xml:space="preserve">
+  <value>&lt;Создать новый стиль&gt;</value>
+</data>
+<data name="CreatingResourceDeclaration_Text" xml:space="preserve">
+  <value>Создание объявления ресурса</value>
+</data>
+<data name="CollectingReferences_Text" xml:space="preserve">
+  <value>Сбор ссылок…</value>
+</data>
+<data name="InlinedResourceHasPossibleDynamic0Usage_Text" xml:space="preserve">
+  <value>Встроенный ресурс имеет возможное dynamic {0, использование}, которое будет нарушено при удалении объявления ресурса</value>
+</data>
+<data name="CanTConvert0BoundEventHandlerToMethod_Text" xml:space="preserve">
+  <value>Не удается преобразовать {0, привязанный обработчик событий} в вызов метода</value>
+</data>
+<data name="Hides__Text" xml:space="preserve">
+  <value>Скрывает {0}</value>
+</data>
+<data name="ExplicitlyProvidedStyleIs_Extracted_Text" xml:space="preserve">
+  <value>{{0, явно предоставленный}} стиль — '{0}'. Извлеченные свойства будут помещены в стиль '{1}'.</value>
+</data>
+<data name="NoResourceUsagesInlined_Text" xml:space="preserve">
+  <value>Использований ресурса не встроено</value>
+</data>
+<data name="C_ollapsePropertyElementsToAttributes_Text" xml:space="preserve">
+  <value>Свернуть элементы свойств в атрибуты(_O)</value>
+</data>
+<data name="_More_Text" xml:space="preserve">
+  <value>(+{0} еще) </value>
+</data>
+<data name="RenameOfElementsOfThisKindIs_Text" xml:space="preserve">
+  <value>Переименование элементов такого вида пока не поддерживается</value>
+</data>
+<data name="RemovingSetters_Text" xml:space="preserve">
+  <value>Удаление сеттеров…</value>
+</data>
+<data name="InlineXAMLResourceActionText" xml:space="preserve">
+  <value>Встроить ресурс XAML…</value>
+</data>
+<data name="BindBackMethodInXBindCanTBeMadeStatic_Text" xml:space="preserve">
+  <value>{0, метод BindBack} в x:Bind не может быть сделан статическим путем введения параметров</value>
+</data>
+<data name="_RemoveInlinedResourceDeclaration_Text" xml:space="preserve">
+  <value>Удалить встроенное объявление ресурса(_R)</value>
+</data>
+<data name="Replace_Occurrences_Text" xml:space="preserve">
+  <value>Заменить {0} вхождений</value>
+</data>
+<data name="ToExtractIntoNewOrExistingStyle_Text" xml:space="preserve">
+  <value>Для извлечения в новый или существующий стиль</value>
+</data>
+<data name="SpecifyOptions_Text" xml:space="preserve">
+  <value>Указать параметры</value>
+</data>
+<data name="Inline_dynamicUsages_Text" xml:space="preserve">
+  <value>Встроить dynamic использования(_D)</value>
+</data>
+<data name="MovingResourceDeclaration_Text" xml:space="preserve">
+  <value>Перемещение объявления ресурса</value>
+</data>
+<data name="ChooseProperties_Text" xml:space="preserve">
+  <value>Выберите свойства</value>
+</data>
+<data name="ExtractXAMLStyle_Column_Property" xml:space="preserve">
+  <value>Свойство</value>
+</data>
+<data name="DynamicResource_0Usage_WillBeBroken_Text" xml:space="preserve">
+  <value>Использование {{0}} ресурса DynamicResource '{0}'{1} будет нарушено</value>
+</data>
+<data name="NoResourceUsagesInlinedButDynamicReferences_Text" xml:space="preserve">
+  <value>Использований ресурса не встроено (но есть dynamic ссылки)</value>
+</data>
+<data name="LookingForReferencesInsideMarkupExtensions_Text" xml:space="preserve">
+  <value>Поиск ссылок внутри расширений разметки</value>
+</data>
+<data name="ExtractXAMLStyle_Text" xml:space="preserve">
+  <value>Извлечь стиль XAML</value>
+</data>
+<data name="CreatingResourceBody_Text" xml:space="preserve">
+  <value>Создание тела ресурса</value>
+</data>
+<data name="ReplacingOccurrencesWithReferences_Text" xml:space="preserve">
+  <value>Замена вхождений ссылками</value>
+</data>
+<data name="ExtractXAMLResourceActionText" xml:space="preserve">
+  <value>Извлечь ресурс XAML…</value>
+</data>
+<data name="Invalid_Text" xml:space="preserve">
+  <value>Недействительно</value>
+</data>
+<data name="ResourceWithTheSameNameAlreadyExists_Text" xml:space="preserve">
+  <value>Ресурс с таким именем уже существует</value>
+</data>
+<data name="AtLeastOnePropertyShouldBeSelected_Text" xml:space="preserve">
+  <value>Должно быть выбрано хотя бы одно свойство</value>
+</data>
+<data name="ChooseLocation_Text" xml:space="preserve">
+  <value>Выберите расположение</value>
+</data>
+<data name="UsagesOf0DeclarationMayBeBroken_Text" xml:space="preserve">
+  <value>Использования {0, объявления} могут быть нарушены</value>
+</data>
+<data name="Allow_markupExtensionsExpansion_Text" xml:space="preserve">
+  <value>Разрешить расширение расширений разметки(_M)</value>
+</data>
+<data name="CanTAddArgumentsTo0BindBackMethodSinceItShouldNotBeInvoked_Text" xml:space="preserve">
+  <value>Не удается добавить аргументы в {0, метод BindBack}, так как его не следует вызывать</value>
+</data>
+<data name="ReplaceOneOccurrence_Text" xml:space="preserve">
+  <value>Заменить одно вхождение</value>
+</data>
+<data name="StaticResource_0Usage_WillBeBroken_Text" xml:space="preserve">
+  <value>Использование {{0}} ресурса StaticResource '{0}'{1} будет нарушено</value>
+</data>
+<data name="CallSiteCanTBeMadeStaticWithIntroducing_Text" xml:space="preserve">
+  <value>{0, сайт вызова} не может быть сделан статическим путем введения параметров</value>
+</data>
+<data name="CollectingResourceUsages_Text" xml:space="preserve">
+  <value>Сбор использований ресурса</value>
+</data>
+<data name="ReplaceInitialExpressionOnly_Text" xml:space="preserve">
+  <value>Заменять только начальное выражение.</value>
+</data>
+<data name="CheckingTypeReferences_Text" xml:space="preserve">
+  <value>Проверка ссылок на типы…</value>
+</data>
+<data name="TargetStyle_AlreadyProvides0SetterFor_Text" xml:space="preserve">
+  <value>Целевой стиль '{0}' уже предоставляет {{0, сеттер}} для свойства '{1}'</value>
+</data>
+<data name="InlineXAMLResource_Text" xml:space="preserve">
+  <value>Встроить ресурс XAML</value>
+</data>
+<data name="RefactoringHasDetectedThatExtraReference_Text" xml:space="preserve">
+  <value>Рефакторинг обнаружил, что для использования типа {2} следует добавить дополнительную ссылку на '{0}' {1}</value>
+</data>
+<data name="ReplaceAllHighlightedOccurrencesOfInitial_Text" xml:space="preserve">
+  <value>Заменить все выделенные вхождения начального выражения</value>
+</data>
+<data name="ReferenceResource_statically_Text" xml:space="preserve">
+  <value>Ссылаться на ресурс статически(_S)</value>
+</data>
+<data name="CheckingCodebehindReferences_Text" xml:space="preserve">
+  <value>Проверка ссылок в коде программной части…</value>
+</data>
+<data name="CheckingForConflicts_Text" xml:space="preserve">
+  <value>Проверка на конфликты…</value>
+</data>
+<data name="_Resources__Text" xml:space="preserve">
+  <value>{0} (Ресурсы: {1})</value>
+</data>
+</root>

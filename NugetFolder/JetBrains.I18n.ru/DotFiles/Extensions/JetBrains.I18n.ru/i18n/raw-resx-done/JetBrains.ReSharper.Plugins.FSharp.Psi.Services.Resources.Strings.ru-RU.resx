@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AsPatternCanBeReplacedWithItsName" xml:space="preserve">
+  <value>Шаблон 'as' можно заменить на его имя.</value>
+</data>
+<data name="NestedRecordUpdateCanBeSimplifiedMessage" xml:space="preserve">
+  <value>Обновление вложенной записи можно упростить</value>
+</data>
+<data name="ThisUnionCaseDoesNotTakeArgumentsMessage" xml:space="preserve">
+  <value>Этот случай объединения не принимает аргументы</value>
+</data>
+<data name="ExtensionMemberInNonExtensionTypeLooksSuspiciousMessage" xml:space="preserve">
+  <value>Расширяющий член в нерасширяемом типе выглядит подозрительно</value>
+</data>
+<data name="RedundantRequireQualifiedAccessAttribute" xml:space="preserve">
+  <value>Избыточный атрибут RequireQualifiedAccess</value>
+</data>
+<data name="LambdaExpressionCanBeReplacedWithBuiltInFunction5" xml:space="preserve">
+  <value>Лямбда-выражение можно заменить встроенной функцией.</value>
+</data>
+<data name="NamespacesCannotContainExpressionsMessage" xml:space="preserve">
+  <value>Пространства имен не могут содержать выражения</value>
+</data>
+<data name="OpenDirectiveIsNotRequiredByTheCodeAndCanBeSafelyRemovedMessage" xml:space="preserve">
+  <value>Код не требует директиву open, её можно безопасно удалить</value>
+</data>
+<data name="ExplicitFieldsMatchingIsRedundantAndCanBeReplacedWith" xml:space="preserve">
+  <value>Явное сопоставление полей избыточно и может быть заменено на '_'.</value>
+</data>
+<data name="RedundantParenthesesMessage" xml:space="preserve">
+  <value>Избыточные круглые скобки</value>
+</data>
+<data name="RedundantAsPattern" xml:space="preserve">
+  <value>Избыточный шаблон 'as'</value>
+</data>
+<data name="ExtensionTypeDoesnTHaveAnyExtensionMembersMessage" xml:space="preserve">
+  <value>Тип расширения не имеет каких-либо расширяющих членов</value>
+</data>
+<data name="UseBindingsAreTreatedAsLetBindingsInModulesMessage" xml:space="preserve">
+  <value>Привязки 'use' в модулях рассматриваются как привязки 'let'</value>
+</data>
+<data name="InstanceMemberRequiresAParameterToRepresentTheObjectMessage" xml:space="preserve">
+  <value>Экземплярный член требует параметр для представления объекта</value>
+</data>
+<data name="RedundantOpenDirective" xml:space="preserve">
+  <value>Избыточная директива 'open'</value>
+</data>
+<data name="TheDeclarationFormLetAndIsOnlyAllowedForRecursiveBindingsConsiderUsingASequenceOfLetBindingsMessage" xml:space="preserve">
+  <value>Форма объявления 'let ... and ...' разрешена только для рекурсивных привязок. Рассмотрите использование последовательности привязок 'let'</value>
+</data>
+<data name="OpenDirectiveIsNotRequiredByTheCodeAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Код не требует директиву open, её можно безопасно удалить.</value>
+</data>
+<data name="EnumTypeAlwaysRequiresQualifiedAccess" xml:space="preserve">
+  <value>Тип перечисления всегда требует квалифицированного доступа.</value>
+</data>
+<data name="LambdaExpressionCanBeReplacedWithBuiltInFunction" xml:space="preserve">
+  <value>Лямбда-выражение можно заменить встроенной функцией</value>
+</data>
+<data name="TypeAbbreviationsCannotHaveAugmentationsMessage" xml:space="preserve">
+  <value>Сокращения типов не могут иметь дополнений</value>
+</data>
+<data name="TheValueIsUnusedMessage" xml:space="preserve">
+  <value>Значение '{0}' не используется</value>
+</data>
+<data name="RedundantApplicationMessage" xml:space="preserve">
+  <value>Избыточное применение</value>
+</data>
+<data name="OnlyClassAndStructTypesMayHaveConstructorsMessage" xml:space="preserve">
+  <value>Только классы и структурные типы могут иметь конструкторы</value>
+</data>
+<data name="RedundantAttributeSuffix" xml:space="preserve">
+  <value>Избыточный суффикс 'Attribute'</value>
+</data>
+<data name="ParenthesesAreRedundantIfAttributeHasNoArgumentsMessage" xml:space="preserve">
+  <value>Если атрибут не имеет аргументов, круглые скобки избыточны</value>
+</data>
+<data name="IsBoundMultipleTimesMessage" xml:space="preserve">
+  <value>'{0}' привязано несколько раз</value>
+</data>
+<data name="ThisLiteralPatternDoesNotTakeArgumentsMessage" xml:space="preserve">
+  <value>Этот литеральный шаблон не принимает аргументы</value>
+</data>
+<data name="RedundantUseOfQualifierForName" xml:space="preserve">
+  <value>Использование квалификатора для имени избыточно.</value>
+</data>
+<data name="MultipleDocumentationEntriesForParameterMessage" xml:space="preserve">
+  <value>Несколько записей документации для параметра</value>
+</data>
+<data name="PropertyCannotBeSetMessage" xml:space="preserve">
+  <value>Невозможно установить свойство '{0}'</value>
+</data>
+<data name="ApplicationIsRedundantAndCanBeReplacedWithItsArgument" xml:space="preserve">
+  <value>Применение избыточно и может быть заменено своим аргументом.</value>
+</data>
+<data name="RedundantApplication" xml:space="preserve">
+  <value>Избыточное применение</value>
+</data>
+<data name="RedundantIdentifierEscaping" xml:space="preserve">
+  <value>Избыточное экранирование идентификатора</value>
+</data>
+<data name="LookupOnObjectOfIndeterminateTypeBasedOnInformationPriorToThisProgramPointATypeAnnotationMayBeNeededConstrainTheTypeOfTheObjectMessage" xml:space="preserve">
+  <value>Поиск по объекту неопределенного типа на основе информации до этой точки программы. Для ограничения типа объекта может потребоваться аннотация типа.</value>
+</data>
+<data name="RedundantConcatenationWithEmptyList" xml:space="preserve">
+  <value>Избыточная конкатенация с пустым списком</value>
+</data>
+<data name="FormatStringCanBeReplacedWithAnInterpolatedString" xml:space="preserve">
+  <value>Строку форматирования можно заменить интерполированной строкой</value>
+</data>
+<data name="XMLCommentIsNotPlacedOnAValidLanguageElementMessage" xml:space="preserve">
+  <value>XML-комментарий размещен не на допустимом языковом элементе.</value>
+</data>
+<data name="ReturnMayOnlyBeUsedWithinComputationExpressionsMessage" xml:space="preserve">
+  <value>`return` может использоваться только внутри вычислительных выражений</value>
+</data>
+<data name="IfExpressionCanBeReplacedWithItsCondition" xml:space="preserve">
+  <value>Выражение 'if' можно заменить его условием</value>
+</data>
+<data name="ConstructDeprecatedSequenceExpressionInvalidFormMessage" xml:space="preserve">
+  <value>Эта конструкция устарела. Форма выражения-последовательности должна быть 'seq { ... }'</value>
+</data>
+<data name="ExtensionMemberShouldBeStaticMessage" xml:space="preserve">
+  <value>Расширяющий член должен быть static</value>
+</data>
+<data name="LambdaExpressionCanBeSimplified" xml:space="preserve">
+  <value>Лямбда-выражение можно упростить</value>
+</data>
+<data name="RedundantAsPatternMessage" xml:space="preserve">
+  <value>Избыточный шаблон 'as'</value>
+</data>
+<data name="NewKeywordIsRedundantMessage" xml:space="preserve">
+  <value>Ключевое слово 'new' избыточно</value>
+</data>
+<data name="YieldMayOnlyBeUsedWithinListArrayAndSequenceExpressionsMessage" xml:space="preserve">
+  <value>`yield` может использоваться только внутри выражений списка, массива и последовательности</value>
+</data>
+<data name="RemoveRedundantParentheses" xml:space="preserve">
+  <value>Удалить избыточные скобки</value>
+</data>
+<data name="IsStaticMessage" xml:space="preserve">
+  <value>'{0}' является static</value>
+</data>
+<data name="ClassLocalBindingsCannotBeInlineMessage" xml:space="preserve">
+  <value>Локальные привязки класса не могут быть встроенными</value>
+</data>
+<data name="UseSelfId" xml:space="preserve">
+  <value>Использовать `_` в качестве self id</value>
+</data>
+<data name="RedundantMessage" xml:space="preserve">
+  <value>Избыточная '.'</value>
+</data>
+<data name="TheOperatorExprIdxHasBeenUsedOnAnObjectOfIndeterminateTypeBasedOnInformationPriorToThisProgramPointMessage" xml:space="preserve">
+  <value>На основе информации до этой точки программы оператор 'expr.[idx]' был использован для объекта неопределенного типа.</value>
+</data>
+<data name="PatternCanBeSimplifiedMessage" xml:space="preserve">
+  <value>Шаблон можно упростить</value>
+</data>
+<data name="ParenthesesCanBeSafelyRemovedWithoutChangingCodeSemantics" xml:space="preserve">
+  <value>Круглые скобки можно безопасно удалить, не изменяя семантику кода.</value>
+</data>
+<data name="LambdaCanBeSimplifiedMessage" xml:space="preserve">
+  <value>Лямбду можно упростить</value>
+</data>
+<data name="CanBeRemovedInIndexers" xml:space="preserve">
+  <value>'.' можно удалить в индексаторах.</value>
+</data>
+<data name="FormatStringCanBeReplacedWithAnInterpolatedStringMessage" xml:space="preserve">
+  <value>Строку форматирования можно заменить интерполированной строкой</value>
+</data>
+<data name="AttributeSuffixIsRedundantMessage" xml:space="preserve">
+  <value>Суффикс атрибута избыточен</value>
+</data>
+<data name="RedundantConcatenationWithEmptyList2" xml:space="preserve">
+  <value>Избыточная конкатенация с пустым списком.</value>
+</data>
+<data name="RedundantIdentifierEscapingMessage" xml:space="preserve">
+  <value>Избыточное экранирование идентификатора</value>
+</data>
+<data name="IfExpressionCanBeReplacedWithItsCondition8" xml:space="preserve">
+  <value>Выражение 'if' можно заменить его условием.</value>
+</data>
+<data name="IsMissingExpressionMessage" xml:space="preserve">
+  <value>Для '{0}' отсутствует выражение</value>
+</data>
+<data name="RedundantNameQualifier" xml:space="preserve">
+  <value>Избыточный квалификатор имени</value>
+</data>
+<data name="CanTTakeAddressOfExpressionMessage" xml:space="preserve">
+  <value>Невозможно получить адрес выражения</value>
+</data>
+<data name="ConvertToUseBindingMessage" xml:space="preserve">
+  <value>Преобразовать в привязку 'use'</value>
+</data>
+<data name="DotLambdaCanBeUsedStringMessage" xml:space="preserve">
+  <value>Можно использовать сокращенную лямбду</value>
+</data>
+<data name="NoDocumentationForParameterMessage" xml:space="preserve">
+  <value>Нет документации для параметра</value>
+</data>
+<data name="UseBindingsAreNotPermittedInPrimaryConstructorsMessage" xml:space="preserve">
+  <value>Привязки 'use' не разрешены в первичных конструкторах</value>
+</data>
+<data name="RedundantUseOfEscapingSequences" xml:space="preserve">
+  <value>Использование escape-последовательностей `` избыточно.</value>
+</data>
+<data name="FormatStringCanBeReplacedWithAnInterpolatedString7" xml:space="preserve">
+  <value>Строку форматирования можно заменить интерполированной строкой.</value>
+</data>
+<data name="ThisRuleWillNeverBeMatchedMessage" xml:space="preserve">
+  <value>Это правило никогда не будет сопоставлено</value>
+</data>
+<data name="MissingNameAttributeForParameterOrParameterReferenceMessage" xml:space="preserve">
+  <value>Отсутствует атрибут 'name' для параметра или ссылки на параметр</value>
+</data>
+<data name="RedundantUnionCaseFieldsMatchingMessage" xml:space="preserve">
+  <value>Избыточное сопоставление полей случая объединения</value>
+</data>
+<data name="NamespacesCannotContainBindingsMessage" xml:space="preserve">
+  <value>Пространства имен не могут содержать привязки</value>
+</data>
+<data name="RedundantStringInterpolation" xml:space="preserve">
+  <value>Избыточная интерполяция строки</value>
+</data>
+<data name="UpcastIsUnnecessaryMessage" xml:space="preserve">
+  <value>Upcast не нужен</value>
+</data>
+<data name="RedundantNewKeyword" xml:space="preserve">
+  <value>Избыточное ключевое слово 'new'</value>
+</data>
+<data name="LambdaExpressionCanBeReplacedWithInnerExpression4" xml:space="preserve">
+  <value>Лямбда-выражение можно заменить внутренним выражением.</value>
+</data>
+<data name="RedundantInIndexer" xml:space="preserve">
+  <value>Избыточная '.' в индексаторе</value>
+</data>
+<data name="LambdaExpressionCanBeSimplified3" xml:space="preserve">
+  <value>Лямбда-выражение можно упростить.</value>
+</data>
+<data name="StringInterpolationExpressionWithoutArgumentsIsRedundant" xml:space="preserve">
+  <value>Выражение интерполяции строки без аргументов избыточно.</value>
+</data>
+<data name="ProtectedMembersCannotBeAccessedFromClosuresMessage" xml:space="preserve">
+  <value>Защищенные члены не могут быть доступны из замыканий</value>
+</data>
+<data name="Message" xml:space="preserve">
+  <value>{0}</value>
+</data>
+<data name="IsNotMutableMessage" xml:space="preserve">
+  <value>{0} неизменяемо</value>
+</data>
+<data name="LambdaExpressionCanBeReplacedWithInnerExpression" xml:space="preserve">
+  <value>Лямбда-выражение можно заменить внутренним выражением</value>
+</data>
+<data name="UseMessage" xml:space="preserve">
+  <value>Использовать '_'</value>
+</data>
+<data name="RedundantUnionCaseFieldsMatching" xml:space="preserve">
+  <value>Избыточное сопоставление полей случая объединения</value>
+</data>
+<data name="UnknownParameterNameMessage" xml:space="preserve">
+  <value>Неизвестное имя параметра</value>
+</data>
+<data name="ExtensionAttributeIsRedundantMessage" xml:space="preserve">
+  <value>Атрибут Extension избыточен</value>
+</data>
+<data name="ValueMustBeMutableMessage" xml:space="preserve">
+  <value>Значение должно быть изменяемым, чтобы можно было изменить его содержимое или получить адрес типа значения</value>
+</data>
+<data name="RedundantRequireQualifiedAccessAttributeMessage" xml:space="preserve">
+  <value>Избыточный атрибут RequireQualifiedAccess</value>
+</data>
+<data name="RedundantAttributeSuffix1" xml:space="preserve">
+  <value>Избыточный суффикс 'Attribute'.</value>
+</data>
+<data name="NewKeywordIsNotRequiredAndCanBeSafelyRemoved" xml:space="preserve">
+  <value>Ключевое слово 'new' не требуется и может быть безопасно удалено.</value>
+</data>
+<data name="TheSelfReferenceIsUnusedAndAddsRuntimeInitializationChecksToMembersInThisAndDerivedTypesMessage" xml:space="preserve">
+  <value>Ссылка на себя не используется и добавляет проверки инициализации во время выполнения для членов в этом и производных типах</value>
+</data>
+<data name="InvalidRecordSequenceOrComputationExpressionMessage" xml:space="preserve">
+  <value>Недопустимое выражение записи, последовательности или вычисления. Форма выражения-последовательности должна быть 'seq { ... }'</value>
+</data>
+<data name="ParenthesesAreRedundantIfAttributeHasNoArguments" xml:space="preserve">
+  <value>Если атрибут не имеет аргументов, круглые скобки избыточны.</value>
+</data>
+<data name="SuccessiveArgumentsShouldBeSeparatedBySpacesTupledOrParenthesizedMessage" xml:space="preserve">
+  <value>Последовательные аргументы должны быть разделены пробелами, заключены в кортеж или круглые скобки</value>
+</data>
+<data name="RedundantStringInterpolationMessage" xml:space="preserve">
+  <value>Избыточная интерполяция строки</value>
+</data>
+<data name="UseSelfId6" xml:space="preserve">
+  <value>Использовать `_` в качестве self id.</value>
+</data>
+<data name="QualifierIsRedundantMessage" xml:space="preserve">
+  <value>Квалификатор избыточен</value>
+</data>
+<data name="RedundantAttributeParenthesesArgument" xml:space="preserve">
+  <value>Избыточный аргумент в круглых скобках атрибута</value>
+</data>
+</root>

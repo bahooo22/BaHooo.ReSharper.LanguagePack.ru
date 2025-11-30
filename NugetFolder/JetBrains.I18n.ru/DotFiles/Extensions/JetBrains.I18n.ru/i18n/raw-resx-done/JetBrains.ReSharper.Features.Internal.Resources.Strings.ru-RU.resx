@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="RefactoringOptions_Header_Text" xml:space="preserve">
+  <value>Опции рефакторинга</value>
+</data>
+<data name="DumpICachesActionText" xml:space="preserve">
+  <value>Дамп ICache</value>
+</data>
+<data name="ReplaceF1OnTypesAndTypeMembersByOnline_BoolOption_Text" xml:space="preserve">
+  <value>Заменить F1 на типах и членах типов на онлайн-навигацию MSDN</value>
+</data>
+<data name="TaskMonitorActionText" xml:space="preserve">
+  <value>Монитор задач</value>
+</data>
+<data name="ZoneSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки зон</value>
+</data>
+<data name="DumpCodeBehindActionText" xml:space="preserve">
+  <value>Дамп Code-Behind</value>
+</data>
+<data name="ToggleInterruptionActionText" xml:space="preserve">
+  <value>Отключить прерывания</value>
+</data>
+<data name="PsiCachesRepairServiceEnabledText" xml:space="preserve">
+  <value>Включить службу автоматического восстановления кэшей PSI</value>
+</data>
+<data name="InternalOptionPageTitle" xml:space="preserve">
+  <value>Внутренние</value>
+</data>
+<data name="TestDataGeneratorActionText" xml:space="preserve">
+  <value>Генератор тестовых данных</value>
+</data>
+<data name="TaskMonitor_Text" xml:space="preserve">
+  <value>Монитор задач</value>
+</data>
+<data name="ShowTipsInCompletionPopup_BoolOption_Text" xml:space="preserve">
+  <value>Показывать подсказки во всплывающем окне завершения кода</value>
+</data>
+<data name="GenerateXSDForAMSBuildTaskClassActionText" xml:space="preserve">
+  <value>Сгенерировать XSD для класса задачи MSBuild</value>
+</data>
+<data name="UseNewTreeInSwea_BoolOption_Text" xml:space="preserve">
+  <value>Использовать новое дерево в SWEA</value>
+</data>
+<data name="UseNewTreeForAssemblyExplorer_BoolOption_Text" xml:space="preserve">
+  <value>Использовать новое дерево для обозревателя сборок</value>
+</data>
+<data name="DumpSymbolCacheForCurrentFileActionText" xml:space="preserve">
+  <value>Дамп SymbolCache для текущего файла</value>
+</data>
+<data name="ChunkSize_BoolOption_Text" xml:space="preserve">
+  <value>Размер блока</value>
+</data>
+<data name="UseOldStyleGroupingsInFindResults_BoolOption_Text" xml:space="preserve">
+  <value>Использовать старый стиль группировки в результатах поиска</value>
+</data>
+<data name="ThrowReadAccessInterruptibleActionText" xml:space="preserve">
+  <value>Выбросить утверждение прерывания (Assert)</value>
+</data>
+<data name="GenerateEditorConfigDocsActionText" xml:space="preserve">
+  <value>Сгенерировать документы editorconfig</value>
+</data>
+<data name="ToggleInterruptionEnableBackActionText" xml:space="preserve">
+  <value>Включить прерывания</value>
+</data>
+<data name="ReSharperValidationErrors_Text" xml:space="preserve">
+  <value>Ошибки проверки ReSharper</value>
+</data>
+<data name="DumpCodeBehindMappingsActionText" xml:space="preserve">
+  <value>Дамп сопоставлений Code-Behind</value>
+</data>
+<data name="ShowMsBuildTargetsActionText" xml:space="preserve">
+  <value>Показать цели MSBuild</value>
+</data>
+<data name="MemoryLeaks_Header_Text" xml:space="preserve">
+  <value>Утечки памяти</value>
+</data>
+<data name="TimeoutInMillisecondsBeforeSchedulingNextChunk_BoolOption_Text" xml:space="preserve">
+  <value>Таймаут (в мс) перед планированием следующего блока</value>
+</data>
+<data name="EnableModuleConsistencyInspectionSettingDescription" xml:space="preserve">
+  <value>Включить проверку согласованности модулей</value>
+</data>
+<data name="CodeBehind_Text" xml:space="preserve">
+  <value>Code-Behind</value>
+</data>
+<data name="CopyZoneSignatureToClipboardActionText" xml:space="preserve">
+  <value>Скопировать сигнатуру зоны в буфер обмена</value>
+</data>
+<data name="AllowNewGroupingOfCodeCleanupContext_BoolOption_Text" xml:space="preserve">
+  <value>Разрешить новую группировку для контекста очистки кода</value>
+</data>
+<data name="IgnoreIndependentModeDisableSuggestions_BoolOption_Text" xml:space="preserve">
+  <value>Игнорировать IndependentMode. Отключите, если вам действительно не нужны предложения</value>
+</data>
+<data name="ShowBuildGraphActionText" xml:space="preserve">
+  <value>Показать граф зависимостей сборки</value>
+</data>
+<data name="EnableZones_BoolOption_Text" xml:space="preserve">
+  <value>Включить зоны</value>
+</data>
+<data name="CaptureStackTracesActionText" xml:space="preserve">
+  <value>Захватить трассировки стека</value>
+</data>
+<data name="CleanupPSICachesActionText" xml:space="preserve">
+  <value>Очистить кэши PSI</value>
+</data>
+<data name="DisableStubTreeNodes_BoolOption_Text" xml:space="preserve">
+  <value>Отключить узлы дерева заглушек</value>
+</data>
+<data name="ExternalSources_Header_Text" xml:space="preserve">
+  <value>Внешние источники</value>
+</data>
+<data name="UseNewFormForRefactorings_BoolOption_Text" xml:space="preserve">
+  <value>Использовать новую форму для рефакторингов</value>
+</data>
+<data name="PSIModuleBrowser_Text" xml:space="preserve">
+  <value>Браузер модулей PSI</value>
+</data>
+<data name="AnnotatorActionGroupText" xml:space="preserve">
+  <value>Аннотатор</value>
+</data>
+<data name="HiddenLifetimesActionText" xml:space="preserve">
+  <value>Скрытые времена жизни</value>
+</data>
+<data name="OpenTestDataContextAction_Description" xml:space="preserve">
+  <value>Открыть тестовые данные для тестов R#</value>
+</data>
+<data name="GenerateEditorConfigJsonsActionText" xml:space="preserve">
+  <value>Сгенерировать JSON редактора конфигураций</value>
+</data>
+<data name="UseInlineRenameEverywhere_BoolOption_Text" xml:space="preserve">
+  <value>Использовать встроенное переименование везде</value>
+</data>
+<data name="OpenTestDataContextAction_Name" xml:space="preserve">
+  <value>Открыть тестовые данные</value>
+</data>
+<data name="TraceFalseError_Text" xml:space="preserve">
+  <value>Трассировать ложные неразрешенные ошибки</value>
+</data>
+<data name="DumpPsiFilesCacheActionText" xml:space="preserve">
+  <value>Дамп PsiFilesCache</value>
+</data>
+<data name="NavigationSettings_Header_Text" xml:space="preserve">
+  <value>Настройки навигации:</value>
+</data>
+<data name="DumpAllSymbolCacheActionText" xml:space="preserve">
+  <value>Дамп всех SymbolCache</value>
+</data>
+<data name="SolutionWatchdog_ComboEnum_Caption" xml:space="preserve">
+  <value>Наблюдатель за решением:</value>
+</data>
+<data name="Performance_Header_Text" xml:space="preserve">
+  <value>Производительность</value>
+</data>
+<data name="EnablePathReferenceTracker_BoolOption_Text" xml:space="preserve">
+  <value>Включить отслеживание ссылок на пути</value>
+</data>
+<data name="DumpPSIDiagnostics_Text" xml:space="preserve">
+  <value>Дамп диагностики PSI</value>
+</data>
+<data name="FeaturesWindowsActionGroupText" xml:space="preserve">
+  <value>Окна функций</value>
+</data>
+<data name="ZonesActionGroupText" xml:space="preserve">
+  <value>Зоны</value>
+</data>
+<data name="AnnotateActionText" xml:space="preserve">
+  <value>Аннотировать!</value>
+</data>
+<data name="ZonesSupportIsEnabledSettingDescription" xml:space="preserve">
+  <value>Поддержка зон включена</value>
+</data>
+<data name="PsiActionGroupText" xml:space="preserve">
+  <value>PSI</value>
+</data>
+<data name="MigrateTestData_Text" xml:space="preserve">
+  <value>Мигрировать тестовые данные</value>
+</data>
+<data name="FeatureSuggestions_Header_Text" xml:space="preserve">
+  <value>Предложения функций</value>
+</data>
+<data name="ShowRenameItemsInCompletion_BoolOption_Text" xml:space="preserve">
+  <value>Показывать элементы переименования при завершении кода</value>
+</data>
+<data name="MigratesTestDataForRTests_Text" xml:space="preserve">
+  <value>Мигрирует тесты R# на API DoNamedTest</value>
+</data>
+<data name="Zones_Header_Text" xml:space="preserve">
+  <value>Зоны</value>
+</data>
+<data name="EnableComponentInstantiationAnalysisSettingDescription" xml:space="preserve">
+  <value>Анализ создания экземпляров компонентов включен</value>
+</data>
+<data name="DumpXamlCachesActionText" xml:space="preserve">
+  <value>Дамп кэшей XAML</value>
+</data>
+<data name="ShowZonesGraphActionText" xml:space="preserve">
+  <value>Показать граф определений зон</value>
+</data>
+<data name="SolutionAnalysis_Header_Text" xml:space="preserve">
+  <value>Анализ решения</value>
+</data>
+<data name="TryProjectTransactionActionText" xml:space="preserve">
+  <value>Попробовать транзакцию проекта</value>
+</data>
+<data name="ExcludeTerminalNodesSettingDescription" xml:space="preserve">
+  <value>Исключить терминальные узлы</value>
+</data>
+<data name="InconsistentNamespacesActionText" xml:space="preserve">
+  <value>Несогласованные пространства имен</value>
+</data>
+<data name="ComponentInstantiationSettingsDescription" xml:space="preserve">
+  <value>Настройки создания экземпляров компонентов</value>
+</data>
+<data name="DumpPsiActionText" xml:space="preserve">
+  <value>Дамп PSI</value>
+</data>
+<data name="ShowActionsHierarchy_Text" xml:space="preserve">
+  <value>Показать иерархию действий</value>
+</data>
+<data name="Components_Header_Text" xml:space="preserve">
+  <value>Компоненты</value>
+</data>
+<data name="InitDependencyPresentationMapMoreDetail_BoolOption_Text" xml:space="preserve">
+  <value>Инициализировать карту представления зависимостей (более детальное логирование)</value>
+</data>
+<data name="ChunkedMarkAsDirty_Header" xml:space="preserve">
+  <value>Пометить как измененное блоками</value>
+</data>
+<data name="ShowTipsInBulbMenu_BoolOption_Text" xml:space="preserve">
+  <value>Показывать подсказки в меню лампочки</value>
+</data>
+<data name="DumpICachesForFileActionText" xml:space="preserve">
+  <value>Дамп ICache для файла</value>
+</data>
+<data name="ExcludedProjectNamesSettingDescription" xml:space="preserve">
+  <value>Исключенные имена проектов</value>
+</data>
+<data name="CacheFullTreeInStubTreeNodesCacheText" xml:space="preserve">
+  <value>Использовать кэш дерева PSI для C# и Visual Basic</value>
+</data>
+<data name="EnableComponentInstantiationAnalysis_BoolOption_Text" xml:space="preserve">
+  <value>Включить анализ создания экземпляров компонентов</value>
+</data>
+<data name="CacheTokensAndBuffersInStubTreeNodesCacheText" xml:space="preserve">
+  <value>Использовать кэш токенов и буферов для C# и Visual Basic</value>
+</data>
+<data name="ShowDependencyGraphInYEdActionText" xml:space="preserve">
+  <value>Показать граф зависимостей в yEd</value>
+</data>
+<data name="ExportContextActionsActionText" xml:space="preserve">
+  <value>Экспортировать контекстные действия</value>
+</data>
+<data name="BuildDependenciesFeatueSettingDescription" xml:space="preserve">
+  <value>Функция зависимостей сборки</value>
+</data>
+<data name="CaptureStackTracesOfAllThreadsActionText" xml:space="preserve">
+  <value>Захватить трассировки стека всех потоков</value>
+</data>
+<data name="SymbolCachesCleanupActionText" xml:space="preserve">
+  <value>Очистить кэши символов</value>
+</data>
+</root>

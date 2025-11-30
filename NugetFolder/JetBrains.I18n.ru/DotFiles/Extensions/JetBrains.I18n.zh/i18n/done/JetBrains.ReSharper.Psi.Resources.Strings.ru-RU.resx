@@ -1,0 +1,1062 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Field_Text" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="Element_In___Text" xml:space="preserve">
+    <value>{1} 中的元素 {0}</value>
+  </data>
+  <data name="IgnoredPathsRelativeToProjectLocationSettingDescription" xml:space="preserve">
+    <value>相对于项目位置的忽略路径</value>
+  </data>
+  <data name="BlockListMaskSettingDescription" xml:space="preserve">
+    <value>块列表掩码</value>
+  </data>
+  <data name="GeneratedFilesMaskSettingDescription" xml:space="preserve">
+    <value>生成的文件掩码</value>
+  </data>
+  <data name="Parameter_PresentableName_Text" xml:space="preserve">
+    <value>形参</value>
+  </data>
+  <data name="ExternalDependencyFile_Text" xml:space="preserve">
+    <value>外部依赖关系文件</value>
+  </data>
+  <data name="AlignEvenIfTheResultingIndentationIsTooLargeSettingDescription" xml:space="preserve">
+    <value>即使结果缩进过大也要对齐</value>
+  </data>
+  <data name="WrapGeneratedMembersInRegionSettingDescription" xml:space="preserve">
+    <value>将区域中的生成成员换行</value>
+  </data>
+  <data name="Unknown_PresentableName_Text" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="CompactPicoStyle_Description_Text" xml:space="preserve">
+    <value>紧凑(Pico 样式)</value>
+  </data>
+  <data name="ScanningAssembly__Text" xml:space="preserve">
+    <value>正在扫描程序集 '{0}'</value>
+  </data>
+  <data name="Struct_Text" xml:space="preserve">
+    <value>struct</value>
+  </data>
+  <data name="Found_Inheritor_Text" xml:space="preserve">
+    <value>找到 {0} 个继承者</value>
+  </data>
+  <data name="CodeFormatterSettingsSettingDescription" xml:space="preserve">
+    <value>代码格式化程序设置</value>
+  </data>
+  <data name="EventHandlerNamePatternLongVersionWithObjectNameSettingDescription" xml:space="preserve">
+    <value>事件处理程序名称模式(带有对象名称的长版本)</value>
+  </data>
+  <data name="FilesSizeThresholdAfterWhichPSIIsNotBuiltKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+    <value>文件大小阈值，超过此值后不构建 PSI。键是语言。值是以字符为单位的文件大小。</value>
+  </data>
+  <data name="UseSpacesLooksAlignedOnAnyTabSize_Description_Text" xml:space="preserve">
+    <value>使用空格(无论任何制表符大小，看起来均对齐)</value>
+  </data>
+  <data name="ContinuousLineIndentMultiplierSettingDescription" xml:space="preserve">
+    <value>连续行缩进乘数</value>
+  </data>
+  <data name="Method_PresentableName_Text" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="NamedElementKinds_Interfaces" xml:space="preserve">
+    <value>接口</value>
+  </data>
+  <data name="GuidSettingDescription" xml:space="preserve">
+    <value>Guid</value>
+  </data>
+  <data name="CommonFormatterSettingsSettingDescription" xml:space="preserve">
+    <value>通用格式化程序设置</value>
+  </data>
+  <data name="Tab_Description_Text" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="LFUnixMacOSX_Description_Text" xml:space="preserve">
+    <value>LF (Unix、Mac OS X)</value>
+  </data>
+  <data name="AtEndOfLineKRStyle_Description_Text" xml:space="preserve">
+    <value>在行尾(K&amp;R 样式)</value>
+  </data>
+  <data name="LeaveMultipleExtraSpaces_Description_Text" xml:space="preserve">
+    <value>保留多个多余的空格</value>
+  </data>
+  <data name="SearchScope_ReferencedLibraries_Text" xml:space="preserve">
+    <value>引用的库</value>
+  </data>
+  <data name="TheSameFileIsListedIn_MultipleTimes_Text" xml:space="preserve">
+    <value>使用相同的 '{1}' 构建操作在 {0} 中多次列出相同的文件: {2}</value>
+  </data>
+  <data name="AddSpacesAroundWhenWritingToANewEditorConfigSettingDescription" xml:space="preserve">
+    <value>写入新的 EditorConfig 时在 '=' 周围添加空格</value>
+  </data>
+  <data name="ExperimentalElementMessage" xml:space="preserve">
+    <value>'{0}' 仅用于评估，在将来的更新中可能会被更改或移除。禁止进行此诊断。</value>
+  </data>
+  <data name="_DirectiveIsNotAllowedIn_File_Text" xml:space="preserve">
+    <value>{1} 文件中不允许具有 {0} 指令</value>
+  </data>
+  <data name="ScheduleNextChunkTimeoutMs" xml:space="preserve">
+    <value>调度下一个块时的超时时间(以毫秒为单位)</value>
+  </data>
+  <data name="DocumentationGenerationKindSettingDescription" xml:space="preserve">
+    <value>文档生成种类</value>
+  </data>
+  <data name="NoAlign_Description_Text" xml:space="preserve">
+    <value>不对齐</value>
+  </data>
+  <data name="_ExpressionsInEntitiesMarkedBy_Attribute_Text" xml:space="preserve">
+    <value>[{1}] 特性标记的实体中的 {0} 表达式</value>
+  </data>
+  <data name="NamedElementKinds_PrivateConstants" xml:space="preserve">
+    <value>常量字段(private)</value>
+  </data>
+  <data name="EditorconfigGeneratedCodeSettingDescription" xml:space="preserve">
+    <value>.editorconfig generated_code</value>
+  </data>
+  <data name="Class_Text" xml:space="preserve">
+    <value>class</value>
+  </data>
+  <data name="Element_Text" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="PredefinedGeneratedCodeSettings_Text" xml:space="preserve">
+    <value>Predefined Generated Code Settings</value>
+  </data>
+  <data name="ShowIndicatorInStatusBarWhenEditorConfigIsPresentSettingDescription" xml:space="preserve">
+    <value>当 EditorConfig 可用时在状态栏中显示指示器</value>
+  </data>
+  <data name="MergingAssembliesIndex_Text" xml:space="preserve">
+    <value>正在合并程序集索引</value>
+  </data>
+  <data name="ChunkSizeDescription" xml:space="preserve">
+    <value>一次将多少个文件标记为脏</value>
+  </data>
+  <data name="DisableAlignInColumnsSettingDescription" xml:space="preserve">
+    <value>禁用列中对齐</value>
+  </data>
+  <data name="NamedElementKinds_EnumMember" xml:space="preserve">
+    <value>枚举成员</value>
+  </data>
+  <data name="FixColumnAlignmentInAdjacentLinesSettingDescription" xml:space="preserve">
+    <value>修正相邻行中的列对齐</value>
+  </data>
+  <data name="GeneratedCodeDetectionSettingDescription" xml:space="preserve">
+    <value>生成的代码检测</value>
+  </data>
+  <data name="FileHeaderRegionNameSettingDescription" xml:space="preserve">
+    <value>文件头区域名称</value>
+  </data>
+  <data name="SystemDependentNativeForOS_Description_Text" xml:space="preserve">
+    <value>系统相关(操作系统原生)</value>
+  </data>
+  <data name="Constructor_Text" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="Never_Description_Text" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="DefaultLineEndingStyleSettingDescription" xml:space="preserve">
+    <value>默认行尾样式</value>
+  </data>
+  <data name="SyntaxError_Text" xml:space="preserve">
+    <value>语法错误</value>
+  </data>
+  <data name="Delegate_PresentableName_Text" xml:space="preserve">
+    <value>委托</value>
+  </data>
+  <data name="EnumMember_PresentableName_Text" xml:space="preserve">
+    <value>枚举成员</value>
+  </data>
+  <data name="ChopInCompactStyle_Description_Text" xml:space="preserve">
+    <value>在紧凑样式下截断</value>
+  </data>
+  <data name="ComplexSearchDomain_Text" xml:space="preserve">
+    <value>复杂的搜索域</value>
+  </data>
+  <data name="InContainerKindText" xml:space="preserve">
+    <value>在{0}{1}中</value>
+  </data>
+  <data name="ShouldTriggerStyleCopSeverityConverters" xml:space="preserve">
+    <value>从 .editorconfig 和 .globalconfig 文件中读取 StyleCop.Analyzers 配置</value>
+  </data>
+  <data name="CRMacOSClassic_Description_Text" xml:space="preserve">
+    <value>CR (Mac OS classic)</value>
+  </data>
+  <data name="FileHeaderRegexSettingDescription" xml:space="preserve">
+    <value>如果以下正则表达式不匹配，则认为文件中缺少文件头</value>
+  </data>
+  <data name="Property_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="FullyQualifiedImportsSettingDescription" xml:space="preserve">
+    <value>完全限定 import</value>
+  </data>
+  <data name="AnnotationNamespacesSettingDescription" xml:space="preserve">
+    <value>注解命名空间</value>
+  </data>
+  <data name="Cancel_Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="DesignerGeneratedCode_Text" xml:space="preserve">
+    <value>设计器生成的代码</value>
+  </data>
+  <data name="Indenting_Text" xml:space="preserve">
+    <value>缩进</value>
+  </data>
+  <data name="MaximumPSITreeDepthUsedToPreventStackOverflowExceptionSettingDescription" xml:space="preserve">
+    <value>最大 PSI 树深度。用于防止堆栈溢出异常。</value>
+  </data>
+  <data name="Event_Text" xml:space="preserve">
+    <value>event</value>
+  </data>
+  <data name="Quote_Description_Text" xml:space="preserve">
+    <value>引号: "</value>
+  </data>
+  <data name="GeneratedFilesAndFoldersToSkipSettingDescription" xml:space="preserve">
+    <value>要跳过的生成的文件和文件夹</value>
+  </data>
+  <data name="SpecifiesWhetherFilesShouldBeCheckedForBeingCompressedKeyIsLanguageIfValueItIstrueSettingDescription" xml:space="preserve">
+    <value>Specifies whether files should be checked for being compressed. Key is language. If the value &gt; 0, it is 'true'.</value>
+  </data>
+  <data name="UseIndentStyleAndSizeFromVisualStudioSettingDescription" xml:space="preserve">
+    <value>使用 Visual Studio 中的缩进样式和大小</value>
+  </data>
+  <data name="ParenthesisAndInsideEquallyWhitesmithsStyle_Description_Text" xml:space="preserve">
+    <value>圆括号和内部等量缩进(Whitesmiths 样式)</value>
+  </data>
+  <data name="TogetherOnTheSameLine_Description_Text" xml:space="preserve">
+    <value>同时在同一行中</value>
+  </data>
+  <data name="ScanningAnElement_Text" xml:space="preserve">
+    <value>正在扫描元素</value>
+  </data>
+  <data name="Namespace_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="ChopInExpandedStyle_Description_Text" xml:space="preserve">
+    <value>在扩展样式下截断</value>
+  </data>
+  <data name="__IsObsolete_Text" xml:space="preserve">
+    <value>{0} '{1}' 已过时</value>
+  </data>
+  <data name="ProcessingSourceFiles_Text" xml:space="preserve">
+    <value>正在处理源文件</value>
+  </data>
+  <data name="ThresholdsToDisablePSIOrAnalysisInTheSakeOfPerformanceReasonsSettingDescription" xml:space="preserve">
+    <value>出于性能原因禁用 PSI 或分析的阈值</value>
+  </data>
+  <data name="File__Text" xml:space="preserve">
+    <value>文件 {0}</value>
+  </data>
+  <data name="Align_Description_Text" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="Namespace_PresentableName_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="Method_Text" xml:space="preserve">
+    <value>method</value>
+  </data>
+  <data name="SpecifiesWhetherFilesShouldIndexedForTextSearchDescription" xml:space="preserve">
+    <value>指定是否应为文件编制索引以进行文本搜索。值是可接受的最大文件大小(以字节为单位)。“0”表示没有阈值。</value>
+  </data>
+  <data name="SearchScope_SolutionAndLibraries_Text" xml:space="preserve">
+    <value>解决方案和库</value>
+  </data>
+  <data name="PlaceBackingFieldAbovePropertySettingDescription" xml:space="preserve">
+    <value>将支持字段置于属性上方</value>
+  </data>
+  <data name="MethodImplementationKindSettingDescription" xml:space="preserve">
+    <value>方法实现种类</value>
+  </data>
+  <data name="UseStyleCopStyleXmlHeaderSettingDescription" xml:space="preserve">
+    <value>为头使用 StyleCop.Analyzers-style XML 装饰</value>
+  </data>
+  <data name="FilesSizeThresholdAfterWhichAnalysisIsNotRunUnlessExplicitlySpecifiedByUserKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+    <value>Files size threshold after which analysis is not run unless explicitly specified by the user. Key is language. Value is file size in characters.</value>
+  </data>
+  <data name="SettingsStyleCop_Description_Text" xml:space="preserve">
+    <value>Settings.StyleCop</value>
+  </data>
+  <data name="LanguageInjectionsSettingDescription" xml:space="preserve">
+    <value>语言注入</value>
+  </data>
+  <data name="Enum_PresentableName_Text" xml:space="preserve">
+    <value>枚举</value>
+  </data>
+  <data name="FileFromNuGetPackage__Text" xml:space="preserve">
+    <value>NuGet 软件包 {0} 中的文件</value>
+  </data>
+  <data name="EnableClangFormatSupportSettingDescription" xml:space="preserve">
+    <value>启用 ClangFormat 支持</value>
+  </data>
+  <data name="LocalConstant_PresentableName_Text" xml:space="preserve">
+    <value>局部常量</value>
+  </data>
+  <data name="AllowCommentsAfterPropertiesSettingDescription" xml:space="preserve">
+    <value>在 EditorConfig 的属性后允许注释(否则它们将成为属性值的一部分)</value>
+  </data>
+  <data name="SimpleField_PresentableName_Text" xml:space="preserve">
+    <value>简单字段</value>
+  </data>
+  <data name="AtNextLineIndentedWhitesmithsStyle_Description_Text" xml:space="preserve">
+    <value>在下一行缩进(Whitesmiths 样式)</value>
+  </data>
+  <data name="WarnAboutUsingPrefixesAndSuffixesFromThisRule" xml:space="preserve">
+    <value>在不相关的标识符中使用此规则的前缀和后缀时发出警告</value>
+  </data>
+  <data name="ClassOrRecord_PresentableName_Text" xml:space="preserve">
+    <value>类或记录</value>
+  </data>
+  <data name="GeneratedFilesCacheSettingsSettingDescription" xml:space="preserve">
+    <value>生成的文件缓存设置</value>
+  </data>
+  <data name="RouteTemplate_Text" xml:space="preserve">
+    <value>路由模板</value>
+  </data>
+  <data name="Injects_ExpressionInEntitiesMarkedBy_Text" xml:space="preserve">
+    <value>在 [{1}] 特性标记的实体中注入 {0} 表达式</value>
+  </data>
+  <data name="NamedElementKinds_LocalConstants" xml:space="preserve">
+    <value>局部常量</value>
+  </data>
+  <data name="UseIndentSettingsFromMainLanguageInFileAsVisualStudioDoesSettingDescription" xml:space="preserve">
+    <value>像 Visual Studio 一样使用文件中主要语言的缩进设置</value>
+  </data>
+  <data name="StructFields_Text" xml:space="preserve">
+    <value>结构体字段</value>
+  </data>
+  <data name="LocalVariablesAndConstants_PresentableName_Text" xml:space="preserve">
+    <value>局部变量和常量</value>
+  </data>
+  <data name="Unknown_Text" xml:space="preserve">
+    <value>&lt;未知&gt;</value>
+  </data>
+  <data name="LeaveAllExtraSpacesAndTabs_Description_Text" xml:space="preserve">
+    <value>保留所有多余的空格和制表符</value>
+  </data>
+  <data name="Formatting_Text" xml:space="preserve">
+    <value>格式设置</value>
+  </data>
+  <data name="WebFormDesignerGeneratedCode_Text" xml:space="preserve">
+    <value>Web 窗体设计器生成的代码</value>
+  </data>
+  <data name="OnlyUseTabsInaccurate_Description_Text" xml:space="preserve">
+    <value>仅使用制表符(不准确)</value>
+  </data>
+  <data name="StructField_Text" xml:space="preserve">
+    <value>结构体字段</value>
+  </data>
+  <data name="IndentAsUsual_Description_Text" xml:space="preserve">
+    <value>照常缩进</value>
+  </data>
+  <data name="ChopInExistingStyle_Description_Text" xml:space="preserve">
+    <value>在现有样式下截断</value>
+  </data>
+  <data name="SettingsForFormatConfigurationFilesSettingDescription" xml:space="preserve">
+    <value>格式配置文件的设置</value>
+  </data>
+  <data name="LoadingCaches_Text" xml:space="preserve">
+    <value>正在加载缓存</value>
+  </data>
+  <data name="Apostrophe_Description_Text" xml:space="preserve">
+    <value>撇号: '</value>
+  </data>
+  <data name="NamedElementKinds_TypesAndNamespaces" xml:space="preserve">
+    <value>类型和命名空间</value>
+  </data>
+  <data name="ExtensionMethod_PresentableName_Text" xml:space="preserve">
+    <value>扩展方法</value>
+  </data>
+  <data name="ReadonlyField_PresentableName_Text" xml:space="preserve">
+    <value>只读字段</value>
+  </data>
+  <data name="DoNotWrapEvenIfLong_Description_Text" xml:space="preserve">
+    <value>即使很长也不换行</value>
+  </data>
+  <data name="HowToAlignWhenTabsAreUsedForIndentsSettingDescription" xml:space="preserve">
+    <value>制表符用于缩进时如何对齐</value>
+  </data>
+  <data name="FormatLeadingFileSpacesViaDeclarativeFormatterSettingDescription" xml:space="preserve">
+    <value>Format leading file spaces via declarative formatter</value>
+  </data>
+  <data name="AtNextLineIndented2GNUStyle_Description_Text" xml:space="preserve">
+    <value>在下一行缩进 2 (GNU 样式)</value>
+  </data>
+  <data name="RemoveSpacesOnBlankLines" xml:space="preserve">
+    <value>移除空行中的空格</value>
+  </data>
+  <data name="OfParameterText" xml:space="preserve">
+    <value>/ {0}</value>
+  </data>
+  <data name="DisableLineBreakChangesSettingDescription" xml:space="preserve">
+    <value>禁用换行更改</value>
+  </data>
+  <data name="EnabledSettingDescription" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="NamedElementKinds_Method" xml:space="preserve">
+    <value>方法</value>
+  </data>
+  <data name="MakingBlankLines_Text" xml:space="preserve">
+    <value>正在生成空行</value>
+  </data>
+  <data name="File___Text" xml:space="preserve">
+    <value>文件 {0}</value>
+  </data>
+  <data name="DisableSpaceChangesSettingDescription" xml:space="preserve">
+    <value>禁用空格更改</value>
+  </data>
+  <data name="CodeAnnotationSettingsSettingDescription" xml:space="preserve">
+    <value>代码注解设置</value>
+  </data>
+  <data name="NamedElementKinds_Property" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="FileWithExtension_Expected_Text" xml:space="preserve">
+    <value>应为扩展名为 {0} 的文件</value>
+  </data>
+  <data name="NamedElementKinds_Locals" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+  <data name="PathIsOutsideOfTheWebsite_ToolTip" xml:space="preserve">
+    <value>路径在网站以外</value>
+  </data>
+  <data name="LocalVariable_PresentableName_Text" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+  <data name="ComponentDesignerGeneratedCode_Text" xml:space="preserve">
+    <value>组件设计器生成的代码</value>
+  </data>
+  <data name="Color_Text" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="Double_Description_Text" xml:space="preserve">
+    <value>Double</value>
+  </data>
+  <data name="SimpleWrapDoNotChange_Description_Text" xml:space="preserve">
+    <value>简单换行/不更改</value>
+  </data>
+  <data name="ChopAlways_Description_Text" xml:space="preserve">
+    <value>始终截断</value>
+  </data>
+  <data name="NamedElementKinds_Parameters" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="DisableBlankLineChangesSettingDescription" xml:space="preserve">
+    <value>禁用空行更改</value>
+  </data>
+  <data name="ListOfNamingRulesSettingDescription" xml:space="preserve">
+    <value>命名规则列表</value>
+  </data>
+  <data name="DisableFormatterInGeneralSettingDescription" xml:space="preserve">
+    <value>Disable formatter in general</value>
+  </data>
+  <data name="IsDocumentHeaderParserTriggeredDescription" xml:space="preserve">
+    <value>指示 stylecop.json 文档规则设置转换器的状态</value>
+  </data>
+  <data name="RemoveAllExtraSpaces_Description_Text" xml:space="preserve">
+    <value>移除所有多余的空格</value>
+  </data>
+  <data name="FilesExcludedFromCodeAnalysisSettingDescription" xml:space="preserve">
+    <value>从代码分析中排除的文件</value>
+  </data>
+  <data name="NamedElementKinds_PrivateStaticFields" xml:space="preserve">
+    <value>static 字段(private)</value>
+  </data>
+  <data name="Invariant_Text" xml:space="preserve">
+    <value>不变</value>
+  </data>
+  <data name="TypeParameter_Text" xml:space="preserve">
+    <value>类型形参</value>
+  </data>
+  <data name="LineFeedAtEndOfFileSettingDescription" xml:space="preserve">
+    <value>在文件末尾换行</value>
+  </data>
+  <data name="OutParameter_Text" xml:space="preserve">
+    <value>out 形参</value>
+  </data>
+  <data name="GeneratedCodeRegionsSettingDescription" xml:space="preserve">
+    <value>生成的代码区域</value>
+  </data>
+  <data name="Struct_PresentableName_Text" xml:space="preserve">
+    <value>结构</value>
+  </data>
+  <data name="InsideParenthesisBSDKRStyle_Description_Text" xml:space="preserve">
+    <value>圆括号内(BSD/K&amp;R 样式)</value>
+  </data>
+  <data name="CouldNotChangeANamingPolicyMaybeItWas_Text" xml:space="preserve">
+    <value>无法更改命名策略，该策略可能是通过 EditorConfig 或 StyleCop 提供的</value>
+  </data>
+  <data name="IndentStyleSettingDescription" xml:space="preserve">
+    <value>缩进样式</value>
+  </data>
+  <data name="ProvideReSharperIndentSettingsToVisualStudioSettingDescription" xml:space="preserve">
+    <value>向 Visual Studio 提供 ReSharper 缩进设置</value>
+  </data>
+  <data name="ChunkedMarkAsDirtySettingsKeyDescription" xml:space="preserve">
+    <value>用于将文件标记为脏的设置</value>
+  </data>
+  <data name="PropagateAnnotationsSettingDescription" xml:space="preserve">
+    <value>传播注解</value>
+  </data>
+  <data name="Constant_Text" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="TabWidthSettingDescription" xml:space="preserve">
+    <value>制表符宽度</value>
+  </data>
+  <data name="Parameter_Text" xml:space="preserve">
+    <value>形参</value>
+  </data>
+  <data name="IsIndentationParserTriggeredDescription" xml:space="preserve">
+    <value>指示 stylecop.json 缩进规则设置转换器的状态</value>
+  </data>
+  <data name="DoNotChange_Description_Text" xml:space="preserve">
+    <value>不更改</value>
+  </data>
+  <data name="NamedElementKinds_PrivateInstanceFields" xml:space="preserve">
+    <value>实例字段(private)</value>
+  </data>
+  <data name="Found_Inheritors_Text" xml:space="preserve">
+    <value>找到 {0} 个继承者</value>
+  </data>
+  <data name="MixTabsAndSpacesForOptimalFill_Description_Text" xml:space="preserve">
+    <value>混合制表符和空格以获得最佳填充效果</value>
+  </data>
+  <data name="SimpleWrap_Description_Text" xml:space="preserve">
+    <value>简单换行</value>
+  </data>
+  <data name="Path_Text" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="AutodetectedSettingsConfigSourceName" xml:space="preserve">
+    <value>自动检测的设置</value>
+  </data>
+  <data name="WindowsFormDesignerGeneratedCode_Text" xml:space="preserve">
+    <value>Windows 窗体设计器生成的代码</value>
+  </data>
+  <data name="Single_Description_Text" xml:space="preserve">
+    <value>单一</value>
+  </data>
+  <data name="Event_PresentableName_Text" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="SearchingForInheritors_Text" xml:space="preserve">
+    <value>正在搜索继承者…</value>
+  </data>
+  <data name="ProcessingFiles_Text" xml:space="preserve">
+    <value>正在处理文件</value>
+  </data>
+  <data name="NoIndent_Description_Text" xml:space="preserve">
+    <value>不缩进</value>
+  </data>
+  <data name="DotNetRegularExpression" xml:space="preserve">
+    <value>.NET 正则表达式</value>
+  </data>
+  <data name="OnDifferentLines_Description_Text" xml:space="preserve">
+    <value>在不同的行中</value>
+  </data>
+  <data name="FieldConstant_PresentableName_Text" xml:space="preserve">
+    <value>字段常量</value>
+  </data>
+  <data name="Interface_PresentableName_Text" xml:space="preserve">
+    <value>接口</value>
+  </data>
+  <data name="NativeVisualStudioHighlighting" xml:space="preserve">
+    <value>原生 Visual Studio 高亮显示</value>
+  </data>
+  <data name="MappedPathsRelativeToProjectLocationSettingDescription" xml:space="preserve">
+    <value>相对于项目位置的映射路径</value>
+  </data>
+  <data name="FileHeaderTextSettingDescription" xml:space="preserve">
+    <value>文件头文本</value>
+  </data>
+  <data name="IfOwnerIsSingleline_Description_Text" xml:space="preserve">
+    <value>如果所有者为单行</value>
+  </data>
+  <data name="EnableStyleCopSupportSettingDescription" xml:space="preserve">
+    <value>启用 StyleCop 支持</value>
+  </data>
+  <data name="Outdent_Description_Text" xml:space="preserve">
+    <value>减少缩进</value>
+  </data>
+  <data name="Property_PresentableName_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value> 或</value>
+  </data>
+  <data name="ExtraSpacesInsideSettingDescription" xml:space="preserve">
+    <value>内部多余空格</value>
+  </data>
+  <data name="EnforceLineEndingStyleOnFullReformatSettingDescription" xml:space="preserve">
+    <value>在完全重新格式化时强制行尾样式</value>
+  </data>
+  <data name="ExcludedFilesSettingsKey_SourceGeneratedFilesSweaEnabled_Description" xml:space="preserve">
+    <value>是否在解决方案级分析中包含源生成的文件</value>
+  </data>
+  <data name="Spaces_Description_Text" xml:space="preserve">
+    <value>空格</value>
+  </data>
+  <data name="KeepUserWrappingSettingDescription" xml:space="preserve">
+    <value>保持用户换行</value>
+  </data>
+  <data name="MemberGenerationSettingsSettingDescription" xml:space="preserve">
+    <value>成员生成设置</value>
+  </data>
+  <data name="AverageLineLengthThresholdAfterWhichAnalysisIsNotRunUnlessExplicitlySpecifiedByUserIEMinimizedJavascriptsKeyIsLanguageValueIsFileSizeInCharactersSettingDescription" xml:space="preserve">
+    <value>Average line length threshold after which analysis is not run unless explicitly specified by the user (i.e. minimized JS). Key is language. Value is file size in characters.</value>
+  </data>
+  <data name="FileBelongsToExcludedProject_Text" xml:space="preserve">
+    <value>文件属于排除的项目</value>
+  </data>
+  <data name="AlignExceptWhenNested_Description_Text" xml:space="preserve">
+    <value>在除嵌套以外的情况下对齐</value>
+  </data>
+  <data name="MapFromUpperCasedPathsToProperlyCasedSettingDescription" xml:space="preserve">
+    <value>从大写路径映射到正确大小写</value>
+  </data>
+  <data name="ExternalConfigurationFiles_Text" xml:space="preserve">
+    <value>外部配置文件</value>
+  </data>
+  <data name="ListOfAbbreviationsSettingDescription" xml:space="preserve">
+    <value>缩写列表</value>
+  </data>
+  <data name="NamedElementKinds_StaticReadonly" xml:space="preserve">
+    <value>static 只读字段(非 private)</value>
+  </data>
+  <data name="HardWrapAtSettingDescription" xml:space="preserve">
+    <value>强制换行位置:</value>
+  </data>
+  <data name="NamedElementKinds_PrivateStaticReadonly" xml:space="preserve">
+    <value>static 只读字段(private)</value>
+  </data>
+  <data name="RuleSetFiles_Description_Text" xml:space="preserve">
+    <value>规则集文件</value>
+  </data>
+  <data name="EnumMember_Text" xml:space="preserve">
+    <value>枚举成员</value>
+  </data>
+  <data name="Contravariant_Text" xml:space="preserve">
+    <value>逆变式</value>
+  </data>
+  <data name="Accessor_Text" xml:space="preserve">
+    <value>访问器</value>
+  </data>
+  <data name="SourceGeneratorOutputFile_Text" xml:space="preserve">
+    <value>源生成器输出文件</value>
+  </data>
+  <data name="CRLFWindows_Description_Text" xml:space="preserve">
+    <value>CR+LF (Windows)</value>
+  </data>
+  <data name="Type_PresentableName_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="Operator_Text" xml:space="preserve">
+    <value>运算符</value>
+  </data>
+  <data name="AnyField_PresentableName_Text" xml:space="preserve">
+    <value>任何字段</value>
+  </data>
+  <data name="ECMAScriptRegularExpression_Text" xml:space="preserve">
+    <value>ECMAScript 正则表达式</value>
+  </data>
+  <data name="FileHeaderVariablesSettingDescription" xml:space="preserve">
+    <value>文件头可替换变量</value>
+  </data>
+  <data name="TypeMember_PresentableName_Text" xml:space="preserve">
+    <value>类型成员</value>
+  </data>
+  <data name="NamedElementKinds_TypeParameters" xml:space="preserve">
+    <value>类型形参</value>
+  </data>
+  <data name="DisableIndenterSettingDescription" xml:space="preserve">
+    <value>禁用缩进器</value>
+  </data>
+  <data name="Interface_Text" xml:space="preserve">
+    <value>interface</value>
+  </data>
+  <data name="AutoDetectIndentSizeAndIndentStyleSettingDescription" xml:space="preserve">
+    <value>自动检测缩进大小和缩进样式</value>
+  </data>
+  <data name="Enum_Text" xml:space="preserve">
+    <value>enum</value>
+  </data>
+  <data name="PathIgnored_ToolTip" xml:space="preserve">
+    <value>路径已忽略</value>
+  </data>
+  <data name="PredefinedExcludedFilesSettings_Text" xml:space="preserve">
+    <value>Predefined Excluded Files Settings</value>
+  </data>
+  <data name="DefaultFileHeaderSettingDescription" xml:space="preserve">
+    <value>默认文件头</value>
+  </data>
+  <data name="NamedElementKinds_Constants" xml:space="preserve">
+    <value>常量字段(非 private)</value>
+  </data>
+  <data name="FilesAndFoldersToSkipSettingDescription" xml:space="preserve">
+    <value>要跳过的文件和文件夹</value>
+  </data>
+  <data name="ProcessingAssemblies_Text" xml:space="preserve">
+    <value>正在处理程序集</value>
+  </data>
+  <data name="WrapLongLinesSettingDescription" xml:space="preserve">
+    <value>长行换行</value>
+  </data>
+  <data name="ShowAutodetectAndConfigureFormattingTipSettingDescription" xml:space="preserve">
+    <value>显示自动检测和配置格式设置提示</value>
+  </data>
+  <data name="AreStyleCopConversionsTriggeredDescription" xml:space="preserve">
+    <value>指示是否应用 stylecop 规则</value>
+  </data>
+  <data name="DisableLineBreakRemovalSettingDescription" xml:space="preserve">
+    <value>禁用换行移除</value>
+  </data>
+  <data name="Elements_Text" xml:space="preserve">
+    <value>元素</value>
+  </data>
+  <data name="FileIsBinary_Text" xml:space="preserve">
+    <value>文件为二进制</value>
+  </data>
+  <data name="TypeParameter_PresentableName_Text" xml:space="preserve">
+    <value>类型形参</value>
+  </data>
+  <data name="Parenthesis1xInside2xGNUStyle_Description_Text" xml:space="preserve">
+    <value>圆括号缩进一倍，内部缩进二倍(GNU 样式)</value>
+  </data>
+  <data name="ContentFileFromNuGetPackage_Text" xml:space="preserve">
+    <value>NuGet 软件包中的内容文件</value>
+  </data>
+  <data name="Delegate_Text" xml:space="preserve">
+    <value>delegate</value>
+  </data>
+  <data name="AligningInColumns_Text" xml:space="preserve">
+    <value>在列中对齐</value>
+  </data>
+  <data name="GlobalAnalyzerConfigConfigSourceName" xml:space="preserve">
+    <value>全局 AnalyzerConfig</value>
+  </data>
+  <data name="SavingCaches_Text" xml:space="preserve">
+    <value>正在保存缓存</value>
+  </data>
+  <data name="ForcePutOnSingleLine_Description_Text" xml:space="preserve">
+    <value>强制置于一行</value>
+  </data>
+  <data name="DefaultPerformanceThresholdSettings_Text" xml:space="preserve">
+    <value>Default performance threshold settings</value>
+  </data>
+  <data name="SearchScope_Solution_Text" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="GetsOrSetsElementAtTheSpecifiedIndex_Text" xml:space="preserve">
+    <value>在指定的索引处获取或设置元素。</value>
+  </data>
+  <data name="EventHandlerNamePatternSettingDescription" xml:space="preserve">
+    <value>事件处理程序名称模式</value>
+  </data>
+  <data name="LocalVariables_Text" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+  <data name="DefaultNamespaceSettingDescription" xml:space="preserve">
+    <value>默认命名空间</value>
+  </data>
+  <data name="Label_PresentableName_Text" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="InContainerBracketsText" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="Solution_Text" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="DetectingWrapLimit_Text" xml:space="preserve">
+    <value>正在检测换行限制</value>
+  </data>
+  <data name="PathReference" xml:space="preserve">
+    <value>路径引用</value>
+  </data>
+  <data name="PathMapped_ToolTip" xml:space="preserve">
+    <value>路径已映射</value>
+  </data>
+  <data name="IndentSizeSettingDescription" xml:space="preserve">
+    <value>缩进大小</value>
+  </data>
+  <data name="NamedElementKinds_Other" xml:space="preserve">
+    <value>所有其他实体</value>
+  </data>
+  <data name="DebuggerStepThroughAccessorsSettingDescription" xml:space="preserve">
+    <value>调试器逐步执行访问器</value>
+  </data>
+  <data name="NamedElementKinds_Event" xml:space="preserve">
+    <value>事件</value>
+  </data>
+  <data name="RemovingAssemblies_Text" xml:space="preserve">
+    <value>正在移除程序集</value>
+  </data>
+  <data name="None_Description_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="SourceGeneratedFilesToSkipSettingDescription" xml:space="preserve">
+    <value>要跳过的源生成文件</value>
+  </data>
+  <data name="InitialFileProcessing_Text" xml:space="preserve">
+    <value>初始文件处理</value>
+  </data>
+  <data name="ReadConfigFilesAboveSolutionLevelSettingDescription" xml:space="preserve">
+    <value>在解决方案级别以上读取配置文件</value>
+  </data>
+  <data name="SearchScope_Empty_Text" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="UsePreviousElementsIndentOnPartialFormatSettingDescription" xml:space="preserve">
+    <value>在部分格式上使用上一个元素的缩进</value>
+  </data>
+  <data name="GeneratedFilesCacheTimestampSettingDescription" xml:space="preserve">
+    <value>GeneratedFilesCache 时间戳</value>
+  </data>
+  <data name="UnknownElement_Text" xml:space="preserve">
+    <value>未知元素</value>
+  </data>
+  <data name="UseNewFileHeaderEngineSettingDescription" xml:space="preserve">
+    <value>使用新的文件头模板引擎</value>
+  </data>
+  <data name="LeaveExtraTabs_Description_Text" xml:space="preserve">
+    <value>保留多余的制表符</value>
+  </data>
+  <data name="PlaceBracesTogether_Description_Text" xml:space="preserve">
+    <value>将大括号放在一起</value>
+  </data>
+  <data name="DefaultNameForExceptionVariableSettingDescription" xml:space="preserve">
+    <value>异常变量的默认名称</value>
+  </data>
+  <data name="ChopIfLongOrMultiline_Description_Text" xml:space="preserve">
+    <value>如果很长或多行则截断</value>
+  </data>
+  <data name="ShouldAutoDetectedRulesBeAppliedSettingDescription" xml:space="preserve">
+    <value>Should auto-detected rules be applied</value>
+  </data>
+  <data name="FileHeaderDecorationSettingDescription" xml:space="preserve">
+    <value>添加到头文本的开头和末尾的头装饰</value>
+  </data>
+  <data name="PathMappingsInWebProjectSettingDescription" xml:space="preserve">
+    <value>Web 项目中的路径映射</value>
+  </data>
+  <data name="AccessorImplementationKindSettingDescription" xml:space="preserve">
+    <value>访问器实现种类</value>
+  </data>
+  <data name="FileSizeExceedsThresholdItMightBeAdjusted_Text" xml:space="preserve">
+    <value>文件大小超出阈值。您可以在选项中更改阈值。</value>
+  </data>
+  <data name="OfParameterBracketsText" xml:space="preserve">
+    <value>({0})</value>
+  </data>
+  <data name="Assembly__Text" xml:space="preserve">
+    <value>程序集 {0}</value>
+  </data>
+  <data name="ScanningFile__Text" xml:space="preserve">
+    <value>正在扫描文件 '{0}'</value>
+  </data>
+  <data name="Always_Description_Text" xml:space="preserve">
+    <value>始终</value>
+  </data>
+  <data name="Sa1633State" xml:space="preserve">
+    <value>指示 sa1633 检查的状态</value>
+  </data>
+  <data name="InContainerText" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="TheThisObject_Text" xml:space="preserve">
+    <value>'{0}' 对象</value>
+  </data>
+  <data name="StyleCopRulesSourceSettingDescription" xml:space="preserve">
+    <value>StyleCop 规则源</value>
+  </data>
+  <data name="FailedToAddNuGetPackage_Text" xml:space="preserve">
+    <value>无法添加 NuGet 软件包</value>
+  </data>
+  <data name="InContainerKindBracketsText" xml:space="preserve">
+    <value>(在{0}{1}中)</value>
+  </data>
+  <data name="WindowsExperimentalElementMessage" xml:space="preserve">
+    <value>“{0}”仅用于评估，在将来的更新中可能会被更改或删除。</value>
+  </data>
+  <data name="Project_LoadFinishedWithWarnings_Text" xml:space="preserve">
+    <value>项目 '{0}' 加载完成，但存在警告</value>
+  </data>
+  <data name="ForceLineBreaks_Description_Text" xml:space="preserve">
+    <value>强制换行</value>
+  </data>
+  <data name="SupportVisualStudioEventNamingPatternSettingDescription" xml:space="preserve">
+    <value>支持 Visual Studio 事件命名模式</value>
+  </data>
+  <data name="Project__Text" xml:space="preserve">
+    <value>项目 {0}</value>
+  </data>
+  <data name="FileMasksToSkipSettingDescription" xml:space="preserve">
+    <value>要跳过的文件掩码</value>
+  </data>
+  <data name="SearchScope_UnknownSearchDomain_Text" xml:space="preserve">
+    <value>未知的搜索域</value>
+  </data>
+  <data name="Module_Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="NamingSettingsSettingDescription" xml:space="preserve">
+    <value>命名设置</value>
+  </data>
+  <data name="OutParameters_Text" xml:space="preserve">
+    <value>out 形参</value>
+  </data>
+  <data name="GenericSQL" xml:space="preserve">
+    <value>泛型 SQL (无检查)</value>
+  </data>
+  <data name="_DummyElements_Text" xml:space="preserve">
+    <value>{0} 个虚拟元素</value>
+  </data>
+  <data name="AtNextLineBSDStyle_Description_Text" xml:space="preserve">
+    <value>在下一行(BSD 样式)</value>
+  </data>
+  <data name="Covariant_Text" xml:space="preserve">
+    <value>协变式</value>
+  </data>
+  <data name="UnknownName_Text" xml:space="preserve">
+    <value>&lt;unknown name&gt;</value>
+  </data>
+  <data name="AtEndOfLineNoSpace_Description_Text" xml:space="preserve">
+    <value>在行尾(无空格)</value>
+  </data>
+  <data name="NamedElementKinds_LocalFunctions" xml:space="preserve">
+    <value>局部函数</value>
+  </data>
+  <data name="EnableEditorConfigSupportSettingDescription" xml:space="preserve">
+    <value>启用 EditorConfig 支持</value>
+  </data>
+  <data name="NamedElementKinds_PublicFields" xml:space="preserve">
+    <value>字段(非 private)</value>
+  </data>
+  <data name="AutoImportSettingsSettingDescription" xml:space="preserve">
+    <value>自动导入设置</value>
+  </data>
+  <data name="LocalVariable_Text" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+</root>

@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangesView_RefreshActionText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="Svn_SpecifyThePathToTheSvnClient_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>指定 svn 客户端的路径</value>
+  </data>
+  <data name="RemoteRun_PreviousPositionOfTheDelayedCommitFormSettingDescription" xml:space="preserve">
+    <value>延迟提交表单的上一个位置</value>
+  </data>
+  <data name="RemoteRun_ResetBuildCustomizationActionText" xml:space="preserve">
+    <value>重置构建自定义</value>
+  </data>
+  <data name="ChangesView_ServerUserChangesSettingsSettingDescription" xml:space="preserve">
+    <value>服务器用户更改设置</value>
+  </data>
+  <data name="RemoteRun_InternalOptionPageTitle" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="Investigations_WhetherItShouldFilterFixedInvestigationsSettingDescription" xml:space="preserve">
+    <value>是否应该筛选已修正的调查</value>
+  </data>
+  <data name="Tfs_HistoryOfSelectedQuerySettingDescription" xml:space="preserve">
+    <value>所选查询的历史记录</value>
+  </data>
+  <data name="RemoteRun_FileSystemBrowserUsedToNavigateFrom_RadioOption_Caption" xml:space="preserve">
+    <value>用于从本地更改中导航的文件系统浏览器:</value>
+  </data>
+  <data name="ChangesView_ViewDetailsActionText" xml:space="preserve">
+    <value>查看详细信息</value>
+  </data>
+  <data name="ChangesView_HorizontalSplitterSettingDescription" xml:space="preserve">
+    <value>HorizontalSplitter</value>
+  </data>
+  <data name="Svn_LocationsUnderSubversionControl_Header_Text" xml:space="preserve">
+    <value>受 Subversion 控制的位置</value>
+  </data>
+  <data name="ChangesView_ServerUserBuildsSettingsSettingDescription" xml:space="preserve">
+    <value>服务器用户构建设置</value>
+  </data>
+  <data name="Investigations_OpenInWebActionText" xml:space="preserve">
+    <value>在 Web 中打开</value>
+  </data>
+  <data name="RemoteRun_MessageOfTheCommitSettingDescription" xml:space="preserve">
+    <value>提交的消息</value>
+  </data>
+  <data name="RemoteRun_WhetherTheMessageWasChangedManuallyOrNotThePreviousTimeSettingDescription" xml:space="preserve">
+    <value>上一次是否手动更改了消息</value>
+  </data>
+  <data name="ChangesView_OpenInWebActionText" xml:space="preserve">
+    <value>在 Web 中打开</value>
+  </data>
+  <data name="Investigations_MyInvestigationsActionText" xml:space="preserve">
+    <value>我的调查</value>
+  </data>
+  <data name="RemoteRun_PreviousSelectedTabIndexSettingDescription" xml:space="preserve">
+    <value>上一个所选制表符索引</value>
+  </data>
+  <data name="TestsView_NewSessionWithSelectedTestsActionText" xml:space="preserve">
+    <value>使用所选测试新建会话</value>
+  </data>
+  <data name="RemoteRun_WhetherUncheckedFilesShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+    <value>是否应筛选未选中的文件</value>
+  </data>
+  <data name="RemoteRun_PreviouslyCollapsedProjectIdsSettingDescription" xml:space="preserve">
+    <value>先前收起的项目 ID</value>
+  </data>
+  <data name="Tfs_TFSCommitPageSettingsSettingDescription" xml:space="preserve">
+    <value>TFS Commit page settings</value>
+  </data>
+  <data name="RemoteRun_PreviousSizeOfTheSelectedBuildConfigurationFormSettingDescription" xml:space="preserve">
+    <value>所选构建配置表单的先前大小</value>
+  </data>
+  <data name="Perforce_EnablePerforceSupport_BoolOption_Text" xml:space="preserve">
+    <value>启用 Perforce 支持</value>
+  </data>
+  <data name="RemoteRun_PreviouslySelectedGroupingModeSettingDescription" xml:space="preserve">
+    <value>先前选择的分组模式</value>
+  </data>
+  <data name="Coverage_DotCoverIntegration_Header_Text" xml:space="preserve">
+    <value>dotCover 集成</value>
+  </data>
+  <data name="RemoteRun_CustomizeBuildFormSettingsSettingDescription" xml:space="preserve">
+    <value>Customize build form settings</value>
+  </data>
+  <data name="RemoteRun_FilterUnversionedActionText" xml:space="preserve">
+    <value>筛选未进行版本管理</value>
+  </data>
+  <data name="Coverage_SaveDotCoverCoverageSnapshotsDownloaded_Text_Text" xml:space="preserve">
+    <value>保存从 TeamCity 服务器下载的 dotCover 覆盖快照:</value>
+  </data>
+  <data name="RemoteRun_PreviouslyCollapsedItemsSettingDescription" xml:space="preserve">
+    <value>先前收起的条目</value>
+  </data>
+  <data name="RemoteRun_EditActionText" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="TestsView_NavigateToSourceCodeActionText" xml:space="preserve">
+    <value>导航到源代码</value>
+  </data>
+  <data name="TestsView_OpenFailedTestsActionText" xml:space="preserve">
+    <value>打开失败的测试</value>
+  </data>
+  <data name="RemoteRun_DiffAgainstWorkspaceActionText" xml:space="preserve">
+    <value>与工作区的差异</value>
+  </data>
+  <data name="RemoteRun_DiffAgainstLatestActionText" xml:space="preserve">
+    <value>与最新的差异</value>
+  </data>
+  <data name="RemoteRun_CommitActionText" xml:space="preserve">
+    <value>提交…</value>
+  </data>
+  <data name="Svn_EnableSubversionSupport_BoolOption_Text" xml:space="preserve">
+    <value>启用 Subversion 支持</value>
+  </data>
+  <data name="RemoteRun_WindowsExplorer_Text" xml:space="preserve">
+    <value>Windows 资源管理器</value>
+  </data>
+  <data name="RemoteRun_Networking_Header_Text" xml:space="preserve">
+    <value>联网</value>
+  </data>
+  <data name="RemoteRun_ExpandAllActionText" xml:space="preserve">
+    <value>全部展开</value>
+  </data>
+  <data name="RemoteRun_PreTestedCommit_Header_Text" xml:space="preserve">
+    <value>预测试提交</value>
+  </data>
+  <data name="Tfs_OpenATFSSolutionToSeeTheTeamFoundation_Text" xml:space="preserve">
+    <value>打开 TFS 解决方案以查看 Team Foundation Server 工作区详细信息</value>
+  </data>
+  <data name="Svn_SubversionOptionPageTitle" xml:space="preserve">
+    <value>Subversion</value>
+  </data>
+  <data name="Tfs_TeamFoundationServerOptionPageTitle" xml:space="preserve">
+    <value>团队基础服务器</value>
+  </data>
+  <data name="Investigations_RefreshActionText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="RemoteRun_CustomizeBuildActionText" xml:space="preserve">
+    <value>自定义构建…</value>
+  </data>
+  <data name="Perforce_ConnectionSettings_Header_Text" xml:space="preserve">
+    <value>连接设置</value>
+  </data>
+  <data name="RemoteRun_SelectBuildConfigurationsViewSettingsSettingDescription" xml:space="preserve">
+    <value>Select build configurations view settings</value>
+  </data>
+  <data name="Svn_DetectedAutomaticallyMightAffectVisual_Text" xml:space="preserve">
+    <value>自动检测(可能影响 Visual Studio 启动性能)</value>
+  </data>
+  <data name="Perforce_PerforceClientLocation_Header_Text" xml:space="preserve">
+    <value>Perforce 客户端位置</value>
+  </data>
+  <data name="RemoteRun_CommitMessagePattern_Text_Text" xml:space="preserve">
+    <value>提交消息模式:</value>
+  </data>
+  <data name="Investigations_MarkInvestigationAsFixedActionText" xml:space="preserve">
+    <value>将调查标记为已修正…</value>
+  </data>
+  <data name="Svn_LoginSettings_Header_Text" xml:space="preserve">
+    <value>登录设置</value>
+  </data>
+  <data name="Perforce_SpecifyThePathToTheP4Exe_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>指定 p4.exe 的路径</value>
+  </data>
+  <data name="RemoteRun_FilterByCurrentSolutionActionText" xml:space="preserve">
+    <value>按当前解决方案筛选</value>
+  </data>
+  <data name="RemoteRun_RemoteRunActionText" xml:space="preserve">
+    <value>远程运行</value>
+  </data>
+  <data name="RemoteRun_PreviousMessageForBuildsSettingDescription" xml:space="preserve">
+    <value>构建的上一条消息</value>
+  </data>
+  <data name="Coverage_EnableDotCoverIntegrationInReSharper_Text" xml:space="preserve">
+    <value>在 ReSharper 中启用 dotCover 集成以在 TeamCity 插件中配置 dotCover 设置</value>
+  </data>
+  <data name="Common_TeamCityActionGroupText" xml:space="preserve">
+    <value>TeamCity(&amp;Y)</value>
+  </data>
+  <data name="Perforce_SpecifiedManually_Text" xml:space="preserve">
+    <value>已手动指定:</value>
+  </data>
+  <data name="Coverage_SelectTheDirectoryToStoreTheDownloaded_Text" xml:space="preserve">
+    <value>选择用于存储所下载快照的目录</value>
+  </data>
+  <data name="RemoteRun_PreviouslyCheckedBuildTypeIdsSettingDescription" xml:space="preserve">
+    <value>Previously checked buildTypeIds</value>
+  </data>
+  <data name="RemoteRun_ExternalDiffViewer_Header_Text" xml:space="preserve">
+    <value>外部差异查看器</value>
+  </data>
+  <data name="TestsView_RefreshActionText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="RemoteRun_PreviousSizeOfTheDelayedCommitFormSettingDescription" xml:space="preserve">
+    <value>延迟提交表单的先前大小</value>
+  </data>
+  <data name="ChangesView_UseVerticalLayoutSettingDescription" xml:space="preserve">
+    <value>使用垂直布局</value>
+  </data>
+  <data name="Connect_LoginActionText" xml:space="preserve">
+    <value>登录…</value>
+  </data>
+  <data name="RemoteRun_PreviousBuildConfigurationsFormSettingsSettingDescription" xml:space="preserve">
+    <value>先前的构建配置表单设置</value>
+  </data>
+  <data name="Connect_LogoutActionText" xml:space="preserve">
+    <value>退出登录</value>
+  </data>
+  <data name="Svn_DefinedBySubversionConfiguration_Text" xml:space="preserve">
+    <value>由 Subversion 配置定义</value>
+  </data>
+  <data name="RemoteRun_ShowInExplorerActionText" xml:space="preserve">
+    <value>在资源管理器中显示</value>
+  </data>
+  <data name="RemoteRun_UncheckAllActionText" xml:space="preserve">
+    <value>全部取消选中</value>
+  </data>
+  <data name="ChangesView_CommitActionText" xml:space="preserve">
+    <value>提交…</value>
+  </data>
+  <data name="Svn_Autodetect_Button_Text" xml:space="preserve">
+    <value>自动检测</value>
+  </data>
+  <data name="RemoteRun_CheckAllActionText" xml:space="preserve">
+    <value>全部选中</value>
+  </data>
+  <data name="RemoteRun_PreviouslyCheckedLocalFilesSettingDescription" xml:space="preserve">
+    <value>Previously checked local files</value>
+  </data>
+  <data name="Svn_SubversionClientLocation_Header_Text" xml:space="preserve">
+    <value>Subversion 客户端位置</value>
+  </data>
+  <data name="Svn_AddFolders_Button_Text" xml:space="preserve">
+    <value>添加文件夹</value>
+  </data>
+  <data name="ChangesView_HideSuccessfulActionText" xml:space="preserve">
+    <value>隐藏成功</value>
+  </data>
+  <data name="RemoteRun_FilterUncheckedActionText" xml:space="preserve">
+    <value>筛选未选中</value>
+  </data>
+  <data name="Perforce_DetectUsingPATHEnvironmentVariable_Text" xml:space="preserve">
+    <value>使用 $PATH 环境变量检测</value>
+  </data>
+  <data name="TestsView_ShowStackTraceInANewWindowActionText" xml:space="preserve">
+    <value>在新窗口中显示堆栈跟踪</value>
+  </data>
+  <data name="ChangesView_OpenBuildLogActionText" xml:space="preserve">
+    <value>打开构建日志</value>
+  </data>
+  <data name="ChangesView_HideNonPersonalActionText" xml:space="preserve">
+    <value>隐藏非个人</value>
+  </data>
+  <data name="RemoteRun_WhetherFilesFromOtherSolutionsShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+    <value>是否应筛选来自其他解决方案的文件</value>
+  </data>
+  <data name="Svn_SubversionLocationDirectoriesSetting_Text" xml:space="preserve">
+    <value>Subversion 位置目录设置仅在解决方案打开时可用</value>
+  </data>
+  <data name="ChangesView_ApplyChangeOnWorkspaceActionText" xml:space="preserve">
+    <value>对工作区应用更改</value>
+  </data>
+  <data name="Tfs_EnableTeamFoundationServerSupport_Text" xml:space="preserve">
+    <value>启用 Team Foundation Server 支持</value>
+  </data>
+  <data name="RemoteRun_RevertActionText" xml:space="preserve">
+    <value>还原…</value>
+  </data>
+  <data name="Svn_SpecifiedManually_Text" xml:space="preserve">
+    <value>已手动指定:</value>
+  </data>
+  <data name="RemoteRun_HistoryOfMessagesSettingDescription" xml:space="preserve">
+    <value>消息历史记录</value>
+  </data>
+  <data name="Common_TeamCityOptionPageTitle" xml:space="preserve">
+    <value>TeamCity</value>
+  </data>
+  <data name="RemoteRun_RemoteRunLocalChangesActionText" xml:space="preserve">
+    <value>远程运行(本地更改)</value>
+  </data>
+  <data name="ChangesView_ShowPersonalOnlySettingDescription" xml:space="preserve">
+    <value>仅显示个人</value>
+  </data>
+  <data name="ChangesView_ChangesViewSettingsSettingDescription" xml:space="preserve">
+    <value>Changes view settings</value>
+  </data>
+  <data name="EventTrackers_ToggleFilterBySolutionActionText" xml:space="preserve">
+    <value>切换按解决方案筛选</value>
+  </data>
+  <data name="RemoteRun_PreviousPreTestedCommitTypeSettingDescription" xml:space="preserve">
+    <value>上一个预测试提交类型</value>
+  </data>
+  <data name="RemoteRun_PreviousSizeOfTheCustomizeBuildFormSettingsSettingDescription" xml:space="preserve">
+    <value>自定义构建表单设置的先前大小</value>
+  </data>
+  <data name="RemoteRun_CustomTool_Text" xml:space="preserve">
+    <value>自定义工具:</value>
+  </data>
+  <data name="Svn_DetectedUsingPATHEnvironmentVariable_Text" xml:space="preserve">
+    <value>使用 $PATH 环境变量检测</value>
+  </data>
+  <data name="RemoteRun_UseExternalToolToCompareFiles_BoolOption_Text" xml:space="preserve">
+    <value>使用外部工具比较文件:</value>
+  </data>
+  <data name="Investigations_GiveUpInvestigationActionText" xml:space="preserve">
+    <value>放弃调查…</value>
+  </data>
+  <data name="Investigations_HideProblemsMarkedAsFixedActionText" xml:space="preserve">
+    <value>隐藏标记为已修正的问题</value>
+  </data>
+  <data name="ChangesView_ShowCommitFailureReasonActionText" xml:space="preserve">
+    <value>显示提交失败原因</value>
+  </data>
+  <data name="ChangesView_HideSuccessfulSettingDescription" xml:space="preserve">
+    <value>隐藏成功</value>
+  </data>
+  <data name="ChangesView_ChangeLayoutActionText" xml:space="preserve">
+    <value>更改布局</value>
+  </data>
+  <data name="ChangesView_MyChangesActionText" xml:space="preserve">
+    <value>我的更改</value>
+  </data>
+  <data name="Svn_SpecifiedManuallyIncludingAllSubversion_Text" xml:space="preserve">
+    <value>手动指定，包括所有 Subversion 外部项:</value>
+  </data>
+  <data name="Tfs_SelectedQueryGUIDSettingDescription" xml:space="preserve">
+    <value>所选查询 GUID</value>
+  </data>
+  <data name="RemoteRun_PreviousUndoChangesViewConfigsSettingDescription" xml:space="preserve">
+    <value>上一个撤消更改视图配置</value>
+  </data>
+  <data name="RemoteRun_WhetherUnversionedFilesShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+    <value>是否应筛选未进行版本管理的文件</value>
+  </data>
+  <data name="Investigations_PreviousBuildConfigurationsFormSettingsSettingDescription" xml:space="preserve">
+    <value>先前的构建配置表单设置</value>
+  </data>
+  <data name="RemoteRun_PreviouslyConfiguredBuildCustomizationDataSettingDescription" xml:space="preserve">
+    <value>先前配置的构建自定义数据</value>
+  </data>
+  <data name="Perforce_PerforceOptionPageTitle" xml:space="preserve">
+    <value>Perforce</value>
+  </data>
+  <data name="RemoteRun_FileSystemExplorer_Header_Text" xml:space="preserve">
+    <value>文件系统资源管理器</value>
+  </data>
+  <data name="Coverage_CoverageActionText" xml:space="preserve">
+    <value>覆盖率</value>
+  </data>
+  <data name="RemoteRun_RecollectLocalChangesActionText" xml:space="preserve">
+    <value>重新收集本地更改</value>
+  </data>
+  <data name="RemoteRun_CollapseAllActionText" xml:space="preserve">
+    <value>全部收起</value>
+  </data>
+  <data name="Perforce_TeamCityUsesStandardPerforceEnvironment_Text_Text" xml:space="preserve">
+    <value>TeamCity 使用标准的 Perforce 环境变量作为全局默认值</value>
+  </data>
+  <data name="TestsView_RunSelectedTestsActionText" xml:space="preserve">
+    <value>运行所选测试</value>
+  </data>
+  <data name="ChangesView_VerticalSplitterSettingDescription" xml:space="preserve">
+    <value>垂直拆分器</value>
+  </data>
+  <data name="RemoteRun_PreviousLocalChangesViewConfigsSettingDescription" xml:space="preserve">
+    <value>先前的本地更改视图配置</value>
+  </data>
+  <data name="RemoteRun_WhetherPreTestedCommitIsRequiredOrNotSettingDescription" xml:space="preserve">
+    <value>是否需要预测试提交</value>
+  </data>
+  <data name="RemoteRun_PreviousPositionOfTheSelectedBuildConfigurationFormSettingDescription" xml:space="preserve">
+    <value>所选构建配置表单的上一个位置</value>
+  </data>
+  <data name="Tfs_CurrentWorkspaceDetails_Text" xml:space="preserve">
+    <value>当前工作区详细信息</value>
+  </data>
+  <data name="Svn_Remove_Button_Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+</root>

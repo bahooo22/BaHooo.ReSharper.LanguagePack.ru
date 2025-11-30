@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImplementationsOf__Text" xml:space="preserve">
+    <value>{0} 的实现</value>
+  </data>
+  <data name="ShowToDoItemsInGeneratedCodeActionText" xml:space="preserve">
+    <value>在生成的代码中显示 TODO 条目</value>
+  </data>
+  <data name="ToDoSettingsActionText" xml:space="preserve">
+    <value>TODO 设置</value>
+  </data>
+  <data name="ValueTrackingUpAction_Title" xml:space="preserve">
+    <value>值来源(&amp;V)</value>
+  </data>
+  <data name="SupertypesHierarchyActionText" xml:space="preserve">
+    <value>父类型层次结构</value>
+  </data>
+  <data name="ImplementationHierarchyActionText" xml:space="preserve">
+    <value>实现层次结构</value>
+  </data>
+  <data name="AnalyzeReferences_Text" xml:space="preserve">
+    <value>分析引用</value>
+  </data>
+  <data name="RemoveReferenceWarning_ReferencesWillBeRemoved" xml:space="preserve">
+    <value>将移除对以下模块的引用:</value>
+  </data>
+  <data name="RemoveReferenceWarning_ConfirmationMessage" xml:space="preserve">
+    <value>仍然移除引用?</value>
+  </data>
+  <data name="PublicConstructor_Text" xml:space="preserve">
+    <value>public 构造函数</value>
+  </data>
+  <data name="AnalyzeReferencesActionGroupText" xml:space="preserve">
+    <value>分析引用</value>
+  </data>
+  <data name="ClearAllBookmarksInDocumentActionText" xml:space="preserve">
+    <value>清除文档中的所有书签</value>
+  </data>
+  <data name="RemoveAllUnusedReferencesActionText" xml:space="preserve">
+    <value>移除所有未使用的引用</value>
+  </data>
+  <data name="EnableMultilinePresentationActionText" xml:space="preserve">
+    <value>启用多行显示</value>
+  </data>
+  <data name="FilterUsagesActionGroupText" xml:space="preserve">
+    <value>筛选用法</value>
+  </data>
+  <data name="NotSet_Text" xml:space="preserve">
+    <value>&lt;not set&gt;</value>
+  </data>
+  <data name="CodeStructure_Text" xml:space="preserve">
+    <value>代码结构</value>
+  </data>
+  <data name="ShowMembers_Text" xml:space="preserve">
+    <value>显示成员</value>
+  </data>
+  <data name="LocateInToDoExplorer_Caption" xml:space="preserve">
+    <value>在 To-do 资源管理器中定位(&amp;T)</value>
+  </data>
+  <data name="NoHierarchiesOpen_Text" xml:space="preserve">
+    <value>未打开任何层次结构</value>
+  </data>
+  <data name="ShowPRojectHierarchy_Caption" xml:space="preserve">
+    <value>显示项目层次结构(&amp;R)</value>
+  </data>
+  <data name="DisabledFiltersSettingDescription" xml:space="preserve">
+    <value>禁用的筛选器</value>
+  </data>
+  <data name="SurroundWithRegionActionText" xml:space="preserve">
+    <value>使用区域包围</value>
+  </data>
+  <data name="ToggleBookmark3ActionText" xml:space="preserve">
+    <value>切换书签 3</value>
+  </data>
+  <data name="ClearAllBookmarksActionText" xml:space="preserve">
+    <value>清除所有书签</value>
+  </data>
+  <data name="InterfaceLeavesActionText" xml:space="preserve">
+    <value>接口叶</value>
+  </data>
+  <data name="ToggleBookmark5ActionText" xml:space="preserve">
+    <value>切换书签 5</value>
+  </data>
+  <data name="ClassHierarchyActionText" xml:space="preserve">
+    <value>类层次结构</value>
+  </data>
+  <data name="RemoveReferenceWarning_ChangesDetected" xml:space="preserve">
+    <value>自上次树更新以来检测到一些变化。</value>
+  </data>
+  <data name="GoToBookmark0ActionText" xml:space="preserve">
+    <value>转到书签 0</value>
+  </data>
+  <data name="ClearNumberedDeleteAnonymous_Text" xml:space="preserve">
+    <value>清除编号/删除匿名</value>
+  </data>
+  <data name="ValueTrackingDownAction_Title" xml:space="preserve">
+    <value>值目标(&amp;A)</value>
+  </data>
+  <data name="ClearUsedAtRuntimeMarkActionText" xml:space="preserve">
+    <value>清除 '在运行时使用' 标记</value>
+  </data>
+  <data name="ModuleReferencesActionText" xml:space="preserve">
+    <value>模块引用(&amp;M)</value>
+  </data>
+  <data name="Bookmark_Text" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="UnknownSymbol_Text" xml:space="preserve">
+    <value>未知符号</value>
+  </data>
+  <data name="EditPattern_Button_Text" xml:space="preserve">
+    <value>编辑模式</value>
+  </data>
+  <data name="Hierarchy_Text" xml:space="preserve">
+    <value>层次结构</value>
+  </data>
+  <data name="LeafInterfacesOf__Text" xml:space="preserve">
+    <value>{0} 的叶接口</value>
+  </data>
+  <data name="_UsedDependencies_Text" xml:space="preserve">
+    <value> ({0}: 已使用的依赖项)</value>
+  </data>
+  <data name="ToggleBookmark6ActionText" xml:space="preserve">
+    <value>切换书签 6</value>
+  </data>
+  <data name="OutgoingCallsFrom__Text" xml:space="preserve">
+    <value>来自 '{0}' 的传出调用</value>
+  </data>
+  <data name="ToggleBookmark8ActionText" xml:space="preserve">
+    <value>切换书签 8</value>
+  </data>
+  <data name="OnlyPolymorphicMembersActionText" xml:space="preserve">
+    <value>仅限多态成员</value>
+  </data>
+  <data name="SafeDeleteAssemblyReference_Text" xml:space="preserve">
+    <value>安全删除程序集引用</value>
+  </data>
+  <data name="InspectActionGroupText" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="GoToBookmark3ActionText" xml:space="preserve">
+    <value>转到书签 3</value>
+  </data>
+  <data name="ToDoExplorer_Text" xml:space="preserve">
+    <value>To-do Explorer</value>
+  </data>
+  <data name="PolymorphicCall_Text" xml:space="preserve">
+    <value>多态调用</value>
+  </data>
+  <data name="SeveralUsagesWereFoundInSelectedReferenced_Text" xml:space="preserve">
+    <value>在所选引用程序集中找到多个用法</value>
+  </data>
+  <data name="RemoveReferenceWarning_UsedReferenceRemoved" xml:space="preserve">
+    <value>部分所选引用具有用法。将其移除可能会导致编译问题。</value>
+  </data>
+  <data name="TrackCaretInEditorActionText" xml:space="preserve">
+    <value>在编辑器中跟踪文本光标</value>
+  </data>
+  <data name="TypeHierarchyMembersActionGroupText" xml:space="preserve">
+    <value>类型层次结构成员</value>
+  </data>
+  <data name="SubhierarchyOf__Text" xml:space="preserve">
+    <value>{0} 的子层次结构</value>
+  </data>
+  <data name="TypeHierarchy_Text" xml:space="preserve">
+    <value>类型层次结构</value>
+  </data>
+  <data name="HideSubTreesWithoutImplementation_Text" xml:space="preserve">
+    <value>隐藏没有实现的子树</value>
+  </data>
+  <data name="ReferencesHierarchyActionText" xml:space="preserve">
+    <value>引用层次结构</value>
+  </data>
+  <data name="FilterToDoItemsActionText" xml:space="preserve">
+    <value>筛选 TODO 条目</value>
+  </data>
+  <data name="UnusedReferences_Text" xml:space="preserve">
+    <value>未使用的引用</value>
+  </data>
+  <data name="GoToBookmark5ActionText" xml:space="preserve">
+    <value>转到书签 5</value>
+  </data>
+  <data name="BaseType_Text" xml:space="preserve">
+    <value>基类型</value>
+  </data>
+  <data name="Bookmark__Text" xml:space="preserve">
+    <value>为 {0} 添加书签</value>
+  </data>
+  <data name="RemoveUnusedProjectReferences_Text" xml:space="preserve">
+    <value>移除未使用的项目引用</value>
+  </data>
+  <data name="_In__Text" xml:space="preserve">
+    <value>{1}中的{0}</value>
+  </data>
+  <data name="ExplorerToolbarActionGroupText" xml:space="preserve">
+    <value>资源管理器工具栏</value>
+  </data>
+  <data name="DecomposableNugets_Text" xml:space="preserve">
+    <value>可分解的 NuGet 软件包</value>
+  </data>
+  <data name="Add_Button_Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="Remove_Button_Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="DestinationOf__Text" xml:space="preserve">
+    <value>'{0}' 的目标</value>
+  </data>
+  <data name="ProcessingProject__Text" xml:space="preserve">
+    <value>正在处理项目 {0}</value>
+  </data>
+  <data name="TypeHierarchyViewSettingsSettingDescription" xml:space="preserve">
+    <value>类型层次结构视图设置</value>
+  </data>
+  <data name="SearchDependentCode_Text" xml:space="preserve">
+    <value>搜索依赖代码</value>
+  </data>
+  <data name="UnknownAssembly_Text" xml:space="preserve">
+    <value>未知程序集</value>
+  </data>
+  <data name="ShowIncomingCallsAction_Title" xml:space="preserve">
+    <value>传入调用(&amp;I)</value>
+  </data>
+  <data name="CallHierarchyActionText" xml:space="preserve">
+    <value>调用层次结构</value>
+  </data>
+  <data name="ContainingModulesHierarchy_Text" xml:space="preserve">
+    <value>包含模块层次结构</value>
+  </data>
+  <data name="CodeReferencedIn__Text" xml:space="preserve">
+    <value>{0} 中引用的代码</value>
+  </data>
+  <data name="InspectionsActionText" xml:space="preserve">
+    <value>检查(&amp;I)</value>
+  </data>
+  <data name="ToggleBookmark1ActionText" xml:space="preserve">
+    <value>切换书签 1</value>
+  </data>
+  <data name="ClearAllBookmarks_Text" xml:space="preserve">
+    <value>清除所有书签?</value>
+  </data>
+  <data name="NoUnusedAssemblyReferencesFound_Text" xml:space="preserve">
+    <value>找不到未使用的程序集引用</value>
+  </data>
+  <data name="ExpressionIn__Text" xml:space="preserve">
+    <value>{0} 中的表达式</value>
+  </data>
+  <data name="ToDoExplorerAmpActionText" xml:space="preserve">
+    <value>To-do 资源管理器(&amp;P)</value>
+  </data>
+  <data name="FieldInitializer_Text" xml:space="preserve">
+    <value>字段初始值设定项</value>
+  </data>
+  <data name="ClearAllBookmarksInDocument_Text" xml:space="preserve">
+    <value>清除文档中的所有书签?</value>
+  </data>
+  <data name="IncomingCallsTo__Text" xml:space="preserve">
+    <value>到 '{0}' 的传入调用</value>
+  </data>
+  <data name="CallHierarchy_Text" xml:space="preserve">
+    <value>调用层次结构</value>
+  </data>
+  <data name="Recursion_Text" xml:space="preserve">
+    <value>递归</value>
+  </data>
+  <data name="_UsedDependency_Text" xml:space="preserve">
+    <value> ({0}: 已使用的依赖项)</value>
+  </data>
+  <data name="ToggleBookmark2ActionText" xml:space="preserve">
+    <value>切换书签 2</value>
+  </data>
+  <data name="InstalledIn__Text" xml:space="preserve">
+    <value> (安装位置: {0})</value>
+  </data>
+  <data name="BookmarksActionText" xml:space="preserve">
+    <value>书签…</value>
+  </data>
+  <data name="Duplicate_Button_Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="BaseOnThisActionText" xml:space="preserve">
+    <value>基于此</value>
+  </data>
+  <data name="ShowOutgoingCallsAction_Title" xml:space="preserve">
+    <value>传出调用(&amp;O)</value>
+  </data>
+  <data name="RefreshActionText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ToggleBookmark4ActionText" xml:space="preserve">
+    <value>切换书签 4</value>
+  </data>
+  <data name="UnusedDependency_Text" xml:space="preserve">
+    <value>未使用的依赖项</value>
+  </data>
+  <data name="BuildingAssemblyReferencesTree_Text" xml:space="preserve">
+    <value>正在构建程序集引用树</value>
+  </data>
+  <data name="GoToBookmark1ActionText" xml:space="preserve">
+    <value>转到书签 1</value>
+  </data>
+  <data name="ClearSelection_Text" xml:space="preserve">
+    <value>清除选区</value>
+  </data>
+  <data name="BrowseTypeHierarchyAction_Title" xml:space="preserve">
+    <value>层次结构(&amp;H)</value>
+  </data>
+  <data name="ShowElementsFromThisSolutionActionText" xml:space="preserve">
+    <value>显示此解决方案中的元素</value>
+  </data>
+  <data name="RecursiveInheritance__ToolTip" xml:space="preserve">
+    <value>递归继承</value>
+  </data>
+  <data name="ShowSubHierarchy_Text" xml:space="preserve">
+    <value>显示子层次结构</value>
+  </data>
+  <data name="HierarchyOf__Text" xml:space="preserve">
+    <value>{0}的层次结构</value>
+  </data>
+  <data name="GroupByIndexSettingDescription" xml:space="preserve">
+    <value>按索引分组</value>
+  </data>
+  <data name="RemoveUnusedReferencesActionText" xml:space="preserve">
+    <value>移除未使用的引用</value>
+  </data>
+  <data name="EnableMultilineTodoCommentsSettingText" xml:space="preserve">
+    <value>将后续注释行视为同一 To-do 的一部分</value>
+  </data>
+  <data name="AddPattern_Button_Text" xml:space="preserve">
+    <value>添加模式</value>
+  </data>
+  <data name="ShowRelatedUsagesActionText" xml:space="preserve">
+    <value>显示相关用法</value>
+  </data>
+  <data name="BookmarkTooltipText" xml:space="preserve">
+    <value>为 #{0} 添加书签({1})</value>
+  </data>
+  <data name="UnusedProjectReference_Text" xml:space="preserve">
+    <value>未使用的项目引用</value>
+  </data>
+  <data name="RemoveReferenceWarning_PackagesRemoved" xml:space="preserve">
+    <value>将卸载以下软件包及其依赖项:</value>
+  </data>
+  <data name="HierarchyFor_ContainsAllTypesAndMay_Text" xml:space="preserve">
+    <value>{0} 的层次结构包含所有类型，可能需要大量时间计算。
+确定要显示所有类型吗?</value>
+  </data>
+  <data name="FindCodeDependentOnModuleActionText" xml:space="preserve">
+    <value>查找依赖于模块的代码</value>
+  </data>
+  <data name="Edit_Button_Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="ShowPreprocessorDirectivesSettingDescription" xml:space="preserve">
+    <value>显示预处理程序指令</value>
+  </data>
+  <data name="Bookmarks_Text" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="SearchingForInheritors_Text" xml:space="preserve">
+    <value>正在搜索继承者</value>
+  </data>
+  <data name="AnalyzeReferencesSettingsSettingDescription" xml:space="preserve">
+    <value>分析引用设置</value>
+  </data>
+  <data name="DirectUsages_Text" xml:space="preserve">
+    <value>直接用法</value>
+  </data>
+  <data name="Remove_onlyUnusedReferences_Text" xml:space="preserve">
+    <value>仅移除未使用的引用(_O)</value>
+  </data>
+  <data name="NoUsagesWereFoundInTheseReferencedAssemblies_Text" xml:space="preserve">
+    <value>在这些引用程序集中找不到任何用法</value>
+  </data>
+  <data name="LocateInToDoExplorerActionText" xml:space="preserve">
+    <value>在 TODO 资源管理器中定位</value>
+  </data>
+  <data name="GoToBookmark8ActionText" xml:space="preserve">
+    <value>转到书签 8</value>
+  </data>
+  <data name="ShowPreprocessorDirectivesActionText" xml:space="preserve">
+    <value>显示预处理程序指令</value>
+  </data>
+  <data name="ToDoExplorerOptionPageTitle" xml:space="preserve">
+    <value>To-do Explorer</value>
+  </data>
+  <data name="_FromInitializer_Text" xml:space="preserve">
+    <value>{0} (来自初始值设定项)</value>
+  </data>
+  <data name="Item_DonTHaveFileStructureAspect_Text" xml:space="preserve">
+    <value>条目 '{0}' 没有文件结构切面</value>
+  </data>
+  <data name="ModulesAxis_Text" xml:space="preserve">
+    <value>Modules axis</value>
+  </data>
+  <data name="GoToBookmark6ActionText" xml:space="preserve">
+    <value>转到书签 6</value>
+  </data>
+  <data name="NoAssemblyReferencesFound_Text" xml:space="preserve">
+    <value>找不到程序集引用</value>
+  </data>
+  <data name="UnusedAssemblyReferences_Text" xml:space="preserve">
+    <value>未使用的程序集引用</value>
+  </data>
+  <data name="ViewStyleSettingDescription" xml:space="preserve">
+    <value>视图样式</value>
+  </data>
+  <data name="DuplicatePattern_Button_Text" xml:space="preserve">
+    <value>重复模式</value>
+  </data>
+  <data name="FileStructure_Text" xml:space="preserve">
+    <value>文件结构</value>
+  </data>
+  <data name="ToggleBookmark0ActionText" xml:space="preserve">
+    <value>切换书签 0</value>
+  </data>
+  <data name="RemoveSelectedReferencesActionText" xml:space="preserve">
+    <value>移除所选引用</value>
+  </data>
+  <data name="_Implicit_Text" xml:space="preserve">
+    <value>{0} (隐式)</value>
+  </data>
+  <data name="ThisModulesNameAlwaysAssumedToBeUsedInAnalyzeReferencesSettingDescription" xml:space="preserve">
+    <value>此模块名称始终假定用于分析引用</value>
+  </data>
+  <data name="AssemblyReferenceContextMenuActionGroupText" xml:space="preserve">
+    <value>Assembly Reference Context Menu</value>
+  </data>
+  <data name="SetNumberedAddAnonymous_Text" xml:space="preserve">
+    <value>设置编号/添加匿名</value>
+  </data>
+  <data name="BookmarksActionGroupText" xml:space="preserve">
+    <value>书签</value>
+  </data>
+  <data name="FileStructureActionText" xml:space="preserve">
+    <value>文件结构(&amp;S)</value>
+  </data>
+  <data name="NoModulesToAnalyzeOpen_Text" xml:space="preserve">
+    <value>未打开任何模块以供分析</value>
+  </data>
+  <data name="GenericConstructorCall_Text" xml:space="preserve">
+    <value>泛型构造函数调用</value>
+  </data>
+  <data name="HierarchiesActionText" xml:space="preserve">
+    <value>层次结构(&amp;H)</value>
+  </data>
+  <data name="TodoFilterSettingsSettingDescription" xml:space="preserve">
+    <value>TODO 筛选器设置</value>
+  </data>
+  <data name="Invalid_Text" xml:space="preserve">
+    <value>&lt;invalid&gt;</value>
+  </data>
+  <data name="AllInstanceMembersActionText" xml:space="preserve">
+    <value>所有实例成员</value>
+  </data>
+  <data name="SelectAll_Text" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="BookmarkIsNotSet_Text" xml:space="preserve">
+    <value>未设置书签</value>
+  </data>
+  <data name="ToDoExplorerActionText" xml:space="preserve">
+    <value>To-do Explorer</value>
+  </data>
+  <data name="UnknownModule_Text" xml:space="preserve">
+    <value>未知模块</value>
+  </data>
+  <data name="CannotEvaluate_ThereAreTooManyReferences_Text" xml:space="preserve">
+    <value>不能评估 {0}。待存储的引用过多。尝试改用 '移除未使用的引用'。</value>
+  </data>
+  <data name="MarkReferenceAsUsedAtRuntimeActionText" xml:space="preserve">
+    <value>将引用标记为在运行时使用</value>
+  </data>
+  <data name="UsedProjectReference_Text" xml:space="preserve">
+    <value>已使用的项目引用</value>
+  </data>
+  <data name="SynchronizeCaretToViewSettingDescription" xml:space="preserve">
+    <value>将文本光标同步到视图</value>
+  </data>
+  <data name="MarkReferenceAsUsedAtRuntimeForWholeSolutionActionText" xml:space="preserve">
+    <value>为整个解决方案将引用标记为在运行时使用</value>
+  </data>
+  <data name="Inheritor_Text" xml:space="preserve">
+    <value>继承者</value>
+  </data>
+  <data name="RemovingAssemblyReferences_Text" xml:space="preserve">
+    <value>正在移除程序集引用</value>
+  </data>
+  <data name="SynchronizeViewToCaretSettingDescription" xml:space="preserve">
+    <value>将视图同步到文本光标</value>
+  </data>
+  <data name="ToggleBookmark9ActionText" xml:space="preserve">
+    <value>切换书签 9</value>
+  </data>
+  <data name="NoUnusedReferencesForThisProject_Text" xml:space="preserve">
+    <value>此项目没有未使用的引用</value>
+  </data>
+  <data name="AtLines__Text" xml:space="preserve">
+    <value> · 行 {0}</value>
+  </data>
+  <data name="SupertypesOf__Text" xml:space="preserve">
+    <value>{0}的父类型</value>
+  </data>
+  <data name="TypeMembers_Text" xml:space="preserve">
+    <value>类型成员</value>
+  </data>
+  <data name="OptimizeReferencesActionText" xml:space="preserve">
+    <value>优化引用…</value>
+  </data>
+  <data name="OnAnItemToSeeHierarchy_Text" xml:space="preserve">
+    <value>(在条目上)查看其层次结构</value>
+  </data>
+  <data name="StopExpandingActionText" xml:space="preserve">
+    <value>停止展开</value>
+  </data>
+  <data name="CallHierarchyActionGroupText" xml:space="preserve">
+    <value>调用层次结构</value>
+  </data>
+  <data name="RemoveUnusedReferences_Text" xml:space="preserve">
+    <value>移除未使用的引用</value>
+  </data>
+  <data name="Closure_Text" xml:space="preserve">
+    <value>闭包</value>
+  </data>
+  <data name="SubtypesHierarchyActionText" xml:space="preserve">
+    <value>子类型层次结构</value>
+  </data>
+  <data name="ExpandingNode_Text" xml:space="preserve">
+    <value>正在展开节点</value>
+  </data>
+  <data name="ToggleBookmark7ActionText" xml:space="preserve">
+    <value>切换书签 7</value>
+  </data>
+  <data name="ConfirmRemove_Text" xml:space="preserve">
+    <value>确认移除</value>
+  </data>
+  <data name="CodeStructureWindowSettingsSettingDescription" xml:space="preserve">
+    <value>“代码结构”窗口设置</value>
+  </data>
+  <data name="ShowWholeHierarchy_Text" xml:space="preserve">
+    <value>显示完整层次结构</value>
+  </data>
+  <data name="DirectUsage_Text" xml:space="preserve">
+    <value>直接用法</value>
+  </data>
+  <data name="GoToBookmark2ActionText" xml:space="preserve">
+    <value>转到书签 2</value>
+  </data>
+  <data name="PaintItemsActionText" xml:space="preserve">
+    <value>绘制条目</value>
+  </data>
+  <data name="CouldNotGoToBookmark___Text" xml:space="preserve">
+    <value>无法转到书签 #{0}。{1}</value>
+  </data>
+  <data name="ToDoExplorerActionGroupText" xml:space="preserve">
+    <value>To-do Explorer</value>
+  </data>
+  <data name="GoToBookmark4ActionText" xml:space="preserve">
+    <value>转到书签 4</value>
+  </data>
+  <data name="SubtypesOf__Text" xml:space="preserve">
+    <value>{0}的子类型</value>
+  </data>
+  <data name="SafeDeleteAssemblyReferencesActionGroupText" xml:space="preserve">
+    <value>安全删除程序集引用</value>
+  </data>
+  <data name="ShowProjectHierarchyActionText" xml:space="preserve">
+    <value>显示项目层次结构</value>
+  </data>
+  <data name="ImplicitUsages_Text" xml:space="preserve">
+    <value>隐式用法</value>
+  </data>
+  <data name="ProjectHierarchyActionGroupText" xml:space="preserve">
+    <value>项目层次结构</value>
+  </data>
+  <data name="RuntimeReferencesSettingsActionGroupText" xml:space="preserve">
+    <value>运行时引用设置</value>
+  </data>
+  <data name="RemoveUnusedReferencesContextMenuActionGroupText" xml:space="preserve">
+    <value>Remove unused references context menu</value>
+  </data>
+  <data name="TypeHierarchyActionGroupText" xml:space="preserve">
+    <value>类型层次结构</value>
+  </data>
+  <data name="FileStructureActionBarActionGroupText" xml:space="preserve">
+    <value>文件结构操作栏</value>
+  </data>
+  <data name="ShowUnusedReferencesActionText" xml:space="preserve">
+    <value>显示未使用的引用</value>
+  </data>
+  <data name="ValueTrackingActionGroupText" xml:space="preserve">
+    <value>值跟踪</value>
+  </data>
+  <data name="Patterns_Caption" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="OriginOf__Text" xml:space="preserve">
+    <value>'{0}' 的来源</value>
+  </data>
+  <data name="SelectUnusedProjectReferences_Text" xml:space="preserve">
+    <value>选择未使用的项目引用</value>
+  </data>
+  <data name="PredefinedIgnoredReferencesInAnalyze_Text" xml:space="preserve">
+    <value>Predefined Ignored References in Analyze References</value>
+  </data>
+  <data name="OnAModuleToAnalyzeItsReferencesAndRemoveUnused_Text" xml:space="preserve">
+    <value>(在模块上)分析其引用并移除未使用的引用</value>
+  </data>
+  <data name="AutomaticallyScrollToSourceActionText" xml:space="preserve">
+    <value>自动滚动到源代码</value>
+  </data>
+  <data name="GoToBookmark7ActionText" xml:space="preserve">
+    <value>转到书签 7</value>
+  </data>
+  <data name="NewAnonymousBookmark_Text" xml:space="preserve">
+    <value>新建匿名书签</value>
+  </data>
+  <data name="GoToBookmark9ActionText" xml:space="preserve">
+    <value>转到书签 9</value>
+  </data>
+  <data name="_AnalyzeUsedReferences_Text" xml:space="preserve">
+    <value>分析使用的引用(_A)…</value>
+  </data>
+</root>

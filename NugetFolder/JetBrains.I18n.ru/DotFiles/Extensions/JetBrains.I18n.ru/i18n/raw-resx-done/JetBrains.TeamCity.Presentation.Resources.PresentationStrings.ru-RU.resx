@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ChangesView_RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="Svn_SpecifyThePathToTheSvnClient_FileChooserOption_ToolTip" xml:space="preserve">
+  <value>Указать путь к клиенту svn</value>
+</data>
+<data name="RemoteRun_PreviousPositionOfTheDelayedCommitFormSettingDescription" xml:space="preserve">
+  <value>Предыдущее положение формы отложенного коммита</value>
+</data>
+<data name="RemoteRun_ResetBuildCustomizationActionText" xml:space="preserve">
+  <value>Сбросить настройки сборки</value>
+</data>
+<data name="ChangesView_ServerUserChangesSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки изменений пользователя сервера</value>
+</data>
+<data name="RemoteRun_InternalOptionPageTitle" xml:space="preserve">
+  <value>Внутренние</value>
+</data>
+<data name="Investigations_WhetherItShouldFilterFixedInvestigationsSettingDescription" xml:space="preserve">
+  <value>Следует ли фильтровать исправленные расследования</value>
+</data>
+<data name="Tfs_HistoryOfSelectedQuerySettingDescription" xml:space="preserve">
+  <value>История выбранного запроса</value>
+</data>
+<data name="RemoteRun_FileSystemBrowserUsedToNavigateFrom_RadioOption_Caption" xml:space="preserve">
+  <value>Используемый файловый браузер для навигации из локальных изменений:</value>
+</data>
+<data name="ChangesView_ViewDetailsActionText" xml:space="preserve">
+  <value>Просмотреть детали</value>
+</data>
+<data name="ChangesView_HorizontalSplitterSettingDescription" xml:space="preserve">
+  <value>Горизонтальный разделитель</value>
+</data>
+<data name="Svn_LocationsUnderSubversionControl_Header_Text" xml:space="preserve">
+  <value>Расположения под контролем Subversion</value>
+</data>
+<data name="ChangesView_ServerUserBuildsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки сборок пользователя сервера</value>
+</data>
+<data name="Investigations_OpenInWebActionText" xml:space="preserve">
+  <value>Открыть в веб</value>
+</data>
+<data name="RemoteRun_MessageOfTheCommitSettingDescription" xml:space="preserve">
+  <value>Сообщение коммита</value>
+</data>
+<data name="RemoteRun_WhetherTheMessageWasChangedManuallyOrNotThePreviousTimeSettingDescription" xml:space="preserve">
+  <value>Было ли сообщение изменено вручную в прошлый раз</value>
+</data>
+<data name="ChangesView_OpenInWebActionText" xml:space="preserve">
+  <value>Открыть в веб</value>
+</data>
+<data name="Investigations_MyInvestigationsActionText" xml:space="preserve">
+  <value>Мои расследования</value>
+</data>
+<data name="RemoteRun_PreviousSelectedTabIndexSettingDescription" xml:space="preserve">
+  <value>Предыдущий выбранный индекс вкладки</value>
+</data>
+<data name="TestsView_NewSessionWithSelectedTestsActionText" xml:space="preserve">
+  <value>Новая сессия с выбранными тестами</value>
+</data>
+<data name="RemoteRun_WhetherUncheckedFilesShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+  <value>Следует ли фильтровать непроверенные файлы</value>
+</data>
+<data name="RemoteRun_PreviouslyCollapsedProjectIdsSettingDescription" xml:space="preserve">
+  <value>Ранее свернутые идентификаторы проектов</value>
+</data>
+<data name="Tfs_TFSCommitPageSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки страницы коммита TFS</value>
+</data>
+<data name="RemoteRun_PreviousSizeOfTheSelectedBuildConfigurationFormSettingDescription" xml:space="preserve">
+  <value>Предыдущий размер формы выбранной конфигурации сборки</value>
+</data>
+<data name="Perforce_EnablePerforceSupport_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку Perforce</value>
+</data>
+<data name="RemoteRun_PreviouslySelectedGroupingModeSettingDescription" xml:space="preserve">
+  <value>Ранее выбранный режим группировки</value>
+</data>
+<data name="Coverage_DotCoverIntegration_Header_Text" xml:space="preserve">
+  <value>Интеграция dotCover</value>
+</data>
+<data name="RemoteRun_CustomizeBuildFormSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки формы настройки сборки</value>
+</data>
+<data name="RemoteRun_FilterUnversionedActionText" xml:space="preserve">
+  <value>Фильтровать неверсионные</value>
+</data>
+<data name="Coverage_SaveDotCoverCoverageSnapshotsDownloaded_Text_Text" xml:space="preserve">
+  <value>Сохранять снапшоты покрытия dotCover, загруженные с сервера TeamCity:</value>
+</data>
+<data name="RemoteRun_PreviouslyCollapsedItemsSettingDescription" xml:space="preserve">
+  <value>Ранее свернутые элементы</value>
+</data>
+<data name="RemoteRun_EditActionText" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="TestsView_NavigateToSourceCodeActionText" xml:space="preserve">
+  <value>Перейти к исходному коду</value>
+</data>
+<data name="TestsView_OpenFailedTestsActionText" xml:space="preserve">
+  <value>Открыть неудавшиеся тесты</value>
+</data>
+<data name="RemoteRun_DiffAgainstWorkspaceActionText" xml:space="preserve">
+  <value>Сравнить с рабочей областью</value>
+</data>
+<data name="RemoteRun_DiffAgainstLatestActionText" xml:space="preserve">
+  <value>Сравнить с последней версией</value>
+</data>
+<data name="RemoteRun_CommitActionText" xml:space="preserve">
+  <value>Зафиксировать…</value>
+</data>
+<data name="Svn_EnableSubversionSupport_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку Subversion</value>
+</data>
+<data name="RemoteRun_WindowsExplorer_Text" xml:space="preserve">
+  <value>Проводник Windows</value>
+</data>
+<data name="RemoteRun_Networking_Header_Text" xml:space="preserve">
+  <value>Сетевое взаимодействие</value>
+</data>
+<data name="RemoteRun_ExpandAllActionText" xml:space="preserve">
+  <value>Развернуть все</value>
+</data>
+<data name="RemoteRun_PreTestedCommit_Header_Text" xml:space="preserve">
+  <value>Предварительно протестированный коммит</value>
+</data>
+<data name="Tfs_OpenATFSSolutionToSeeTheTeamFoundation_Text" xml:space="preserve">
+  <value>Откройте решение TFS, чтобы увидеть детали рабочей области Team Foundation Server</value>
+</data>
+<data name="Svn_SubversionOptionPageTitle" xml:space="preserve">
+  <value>Subversion</value>
+</data>
+<data name="Tfs_TeamFoundationServerOptionPageTitle" xml:space="preserve">
+  <value>Team Foundation Server</value>
+</data>
+<data name="Investigations_RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="RemoteRun_CustomizeBuildActionText" xml:space="preserve">
+  <value>Настроить сборку…</value>
+</data>
+<data name="Perforce_ConnectionSettings_Header_Text" xml:space="preserve">
+  <value>Настройки подключения</value>
+</data>
+<data name="RemoteRun_SelectBuildConfigurationsViewSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки просмотра выбранных конфигураций сборки</value>
+</data>
+<data name="Svn_DetectedAutomaticallyMightAffectVisual_Text" xml:space="preserve">
+  <value>Определяется автоматически (может повлиять на производительность запуска Visual Studio)</value>
+</data>
+<data name="Perforce_PerforceClientLocation_Header_Text" xml:space="preserve">
+  <value>Расположение клиента Perforce</value>
+</data>
+<data name="RemoteRun_CommitMessagePattern_Text_Text" xml:space="preserve">
+  <value>Шаблон сообщения коммита:</value>
+</data>
+<data name="Investigations_MarkInvestigationAsFixedActionText" xml:space="preserve">
+  <value>Пометить расследование как исправленное…</value>
+</data>
+<data name="Svn_LoginSettings_Header_Text" xml:space="preserve">
+  <value>Настройки входа</value>
+</data>
+<data name="Perforce_SpecifyThePathToTheP4Exe_FileChooserOption_ToolTip" xml:space="preserve">
+  <value>Указать путь к p4.exe</value>
+</data>
+<data name="RemoteRun_FilterByCurrentSolutionActionText" xml:space="preserve">
+  <value>Фильтровать по текущему решению</value>
+</data>
+<data name="RemoteRun_RemoteRunActionText" xml:space="preserve">
+  <value>Удаленный запуск</value>
+</data>
+<data name="RemoteRun_PreviousMessageForBuildsSettingDescription" xml:space="preserve">
+  <value>Предыдущее сообщение для сборок</value>
+</data>
+<data name="Coverage_EnableDotCoverIntegrationInReSharper_Text" xml:space="preserve">
+  <value>Включить интеграцию dotCover в ReSharper для настройки параметров dotCover в плагине TeamCity</value>
+</data>
+<data name="Common_TeamCityActionGroupText" xml:space="preserve">
+  <value>TeamCity(&amp;Y)</value>
+</data>
+<data name="Perforce_SpecifiedManually_Text" xml:space="preserve">
+  <value>Указано вручную:</value>
+</data>
+<data name="Coverage_SelectTheDirectoryToStoreTheDownloaded_Text" xml:space="preserve">
+  <value>Выберите каталог для хранения загруженных снапшотов</value>
+</data>
+<data name="RemoteRun_PreviouslyCheckedBuildTypeIdsSettingDescription" xml:space="preserve">
+  <value>Ранее отмеченные идентификаторы типа сборки</value>
+</data>
+<data name="RemoteRun_ExternalDiffViewer_Header_Text" xml:space="preserve">
+  <value>Внешнее средство сравнения</value>
+</data>
+<data name="TestsView_RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="RemoteRun_PreviousSizeOfTheDelayedCommitFormSettingDescription" xml:space="preserve">
+  <value>Предыдущий размер формы отложенного коммита</value>
+</data>
+<data name="ChangesView_UseVerticalLayoutSettingDescription" xml:space="preserve">
+  <value>Использовать вертикальную компоновку</value>
+</data>
+<data name="Connect_LoginActionText" xml:space="preserve">
+  <value>Войти…</value>
+</data>
+<data name="RemoteRun_PreviousBuildConfigurationsFormSettingsSettingDescription" xml:space="preserve">
+  <value>Предыдущие настройки формы конфигураций сборки</value>
+</data>
+<data name="Connect_LogoutActionText" xml:space="preserve">
+  <value>Выйти</value>
+</data>
+<data name="Svn_DefinedBySubversionConfiguration_Text" xml:space="preserve">
+  <value>Определяется конфигурацией Subversion</value>
+</data>
+<data name="RemoteRun_ShowInExplorerActionText" xml:space="preserve">
+  <value>Показать в проводнике</value>
+</data>
+<data name="RemoteRun_UncheckAllActionText" xml:space="preserve">
+  <value>Снять все отметки</value>
+</data>
+<data name="ChangesView_CommitActionText" xml:space="preserve">
+  <value>Зафиксировать…</value>
+</data>
+<data name="Svn_Autodetect_Button_Text" xml:space="preserve">
+  <value>Автоопределение</value>
+</data>
+<data name="RemoteRun_CheckAllActionText" xml:space="preserve">
+  <value>Отметить все</value>
+</data>
+<data name="RemoteRun_PreviouslyCheckedLocalFilesSettingDescription" xml:space="preserve">
+  <value>Ранее отмеченные локальные файлы</value>
+</data>
+<data name="Svn_SubversionClientLocation_Header_Text" xml:space="preserve">
+  <value>Расположение клиента Subversion</value>
+</data>
+<data name="Svn_AddFolders_Button_Text" xml:space="preserve">
+  <value>Добавить папки</value>
+</data>
+<data name="ChangesView_HideSuccessfulActionText" xml:space="preserve">
+  <value>Скрыть успешные</value>
+</data>
+<data name="RemoteRun_FilterUncheckedActionText" xml:space="preserve">
+  <value>Фильтровать непроверенные</value>
+</data>
+<data name="Perforce_DetectUsingPATHEnvironmentVariable_Text" xml:space="preserve">
+  <value>Определять с помощью переменной окружения $PATH</value>
+</data>
+<data name="TestsView_ShowStackTraceInANewWindowActionText" xml:space="preserve">
+  <value>Показать трассировку стека в новом окне</value>
+</data>
+<data name="ChangesView_OpenBuildLogActionText" xml:space="preserve">
+  <value>Открыть лог сборки</value>
+</data>
+<data name="ChangesView_HideNonPersonalActionText" xml:space="preserve">
+  <value>Скрыть неличные</value>
+</data>
+<data name="RemoteRun_WhetherFilesFromOtherSolutionsShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+  <value>Следует ли фильтровать файлы из других решений</value>
+</data>
+<data name="Svn_SubversionLocationDirectoriesSetting_Text" xml:space="preserve">
+  <value>Настройки каталогов расположения Subversion доступны только при открытом решении</value>
+</data>
+<data name="ChangesView_ApplyChangeOnWorkspaceActionText" xml:space="preserve">
+  <value>Применить изменение к рабочей области</value>
+</data>
+<data name="Tfs_EnableTeamFoundationServerSupport_Text" xml:space="preserve">
+  <value>Включить поддержку Team Foundation Server</value>
+</data>
+<data name="RemoteRun_RevertActionText" xml:space="preserve">
+  <value>Откатить…</value>
+</data>
+<data name="Svn_SpecifiedManually_Text" xml:space="preserve">
+  <value>Указано вручную:</value>
+</data>
+<data name="RemoteRun_HistoryOfMessagesSettingDescription" xml:space="preserve">
+  <value>История сообщений</value>
+</data>
+<data name="Common_TeamCityOptionPageTitle" xml:space="preserve">
+  <value>TeamCity</value>
+</data>
+<data name="RemoteRun_RemoteRunLocalChangesActionText" xml:space="preserve">
+  <value>Удаленный запуск (локальные изменения)</value>
+</data>
+<data name="ChangesView_ShowPersonalOnlySettingDescription" xml:space="preserve">
+  <value>Показывать только личные</value>
+</data>
+<data name="ChangesView_ChangesViewSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки просмотра изменений</value>
+</data>
+<data name="EventTrackers_ToggleFilterBySolutionActionText" xml:space="preserve">
+  <value>Переключить фильтр по решению</value>
+</data>
+<data name="RemoteRun_PreviousPreTestedCommitTypeSettingDescription" xml:space="preserve">
+  <value>Предыдущий тип предварительно протестированного коммита</value>
+</data>
+<data name="RemoteRun_PreviousSizeOfTheCustomizeBuildFormSettingsSettingDescription" xml:space="preserve">
+  <value>Предыдущий размер формы настройки сборки</value>
+</data>
+<data name="RemoteRun_CustomTool_Text" xml:space="preserve">
+  <value>Пользовательский инструмент:</value>
+</data>
+<data name="Svn_DetectedUsingPATHEnvironmentVariable_Text" xml:space="preserve">
+  <value>Определяется с помощью переменной окружения $PATH</value>
+</data>
+<data name="RemoteRun_UseExternalToolToCompareFiles_BoolOption_Text" xml:space="preserve">
+  <value>Использовать внешний инструмент для сравнения файлов:</value>
+</data>
+<data name="Investigations_GiveUpInvestigationActionText" xml:space="preserve">
+  <value>Прекратить расследование…</value>
+</data>
+<data name="Investigations_HideProblemsMarkedAsFixedActionText" xml:space="preserve">
+  <value>Скрыть проблемы, помеченные как исправленные</value>
+</data>
+<data name="ChangesView_ShowCommitFailureReasonActionText" xml:space="preserve">
+  <value>Показать причину неудачи коммита</value>
+</data>
+<data name="ChangesView_HideSuccessfulSettingDescription" xml:space="preserve">
+  <value>Скрыть успешные</value>
+</data>
+<data name="ChangesView_ChangeLayoutActionText" xml:space="preserve">
+  <value>Изменить компоновку</value>
+</data>
+<data name="ChangesView_MyChangesActionText" xml:space="preserve">
+  <value>Мои изменения</value>
+</data>
+<data name="Svn_SpecifiedManuallyIncludingAllSubversion_Text" xml:space="preserve">
+  <value>Указано вручную, включая все внешние элементы Subversion:</value>
+</data>
+<data name="Tfs_SelectedQueryGUIDSettingDescription" xml:space="preserve">
+  <value>GUID выбранного запроса</value>
+</data>
+<data name="RemoteRun_PreviousUndoChangesViewConfigsSettingDescription" xml:space="preserve">
+  <value>Предыдущие конфигурации просмотра отмены изменений</value>
+</data>
+<data name="RemoteRun_WhetherUnversionedFilesShouldBeFilteredOrNotSettingDescription" xml:space="preserve">
+  <value>Следует ли фильтровать неверсионные файлы</value>
+</data>
+<data name="Investigations_PreviousBuildConfigurationsFormSettingsSettingDescription" xml:space="preserve">
+  <value>Предыдущие настройки формы конфигураций сборки</value>
+</data>
+<data name="RemoteRun_PreviouslyConfiguredBuildCustomizationDataSettingDescription" xml:space="preserve">
+  <value>Ранее настроенные данные кастомизации сборки</value>
+</data>
+<data name="Perforce_PerforceOptionPageTitle" xml:space="preserve">
+  <value>Perforce</value>
+</data>
+<data name="RemoteRun_FileSystemExplorer_Header_Text" xml:space="preserve">
+  <value>Проводник файловой системы</value>
+</data>
+<data name="Coverage_CoverageActionText" xml:space="preserve">
+  <value>Покрытие</value>
+</data>
+<data name="RemoteRun_RecollectLocalChangesActionText" xml:space="preserve">
+  <value>Пересобрать локальные изменения</value>
+</data>
+<data name="RemoteRun_CollapseAllActionText" xml:space="preserve">
+  <value>Свернуть все</value>
+</data>
+<data name="Perforce_TeamCityUsesStandardPerforceEnvironment_Text_Text" xml:space="preserve">
+  <value>TeamCity использует стандартные переменные окружения Perforce в качестве глобальных значений по умолчанию</value>
+</data>
+<data name="TestsView_RunSelectedTestsActionText" xml:space="preserve">
+  <value>Запустить выбранные тесты</value>
+</data>
+<data name="ChangesView_VerticalSplitterSettingDescription" xml:space="preserve">
+  <value>Вертикальный разделитель</value>
+</data>
+<data name="RemoteRun_PreviousLocalChangesViewConfigsSettingDescription" xml:space="preserve">
+  <value>Предыдущие конфигурации просмотра локальных изменений</value>
+</data>
+<data name="RemoteRun_WhetherPreTestedCommitIsRequiredOrNotSettingDescription" xml:space="preserve">
+  <value>Требуется ли предварительно протестированный коммит</value>
+</data>
+<data name="RemoteRun_PreviousPositionOfTheSelectedBuildConfigurationFormSettingDescription" xml:space="preserve">
+  <value>Предыдущее положение формы выбранной конфигурации сборки</value>
+</data>
+<data name="Tfs_CurrentWorkspaceDetails_Text" xml:space="preserve">
+  <value>Детали текущей рабочей области</value>
+</data>
+<data name="Svn_Remove_Button_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+</root>

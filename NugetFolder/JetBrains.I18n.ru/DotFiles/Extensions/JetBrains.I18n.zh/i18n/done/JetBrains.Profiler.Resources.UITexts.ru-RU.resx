@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Configurations_Templates_LineByLine" xml:space="preserve">
+    <value>逐行</value>
+  </data>
+  <data name="Profiler_Api_ApiDisabled" xml:space="preserve">
+    <value>分析器 API 已禁用</value>
+  </data>
+  <data name="TimelineInfo_CollectUnreleasedNativeAllocations" xml:space="preserve">
+    <value>收集未释放的分配</value>
+  </data>
+  <data name="Profiler_Error_ConcurrentGcNotProfilable" xml:space="preserve">
+    <value>无法附加分析器，因为应用程序使用并发垃圾收集</value>
+  </data>
+  <data name="Argument_ProcessFilters_None" xml:space="preserve">
+    <value>所有内容</value>
+  </data>
+  <data name="SymbolSearchInfo_SearchPolicy_None" xml:space="preserve">
+    <value>无任何内容</value>
+  </data>
+  <data name="CoreOptions_CoreRegistration" xml:space="preserve">
+    <value>Core 注册</value>
+  </data>
+  <data name="SnapshotOpening_Reading" xml:space="preserve">
+    <value>正在读取快照文件</value>
+  </data>
+  <data name="Argument_PresentableName_Silverlight" xml:space="preserve">
+    <value>Silverlight</value>
+  </data>
+  <data name="Profiler_Alert_InvalidBridgeInfo" xml:space="preserve">
+    <value>已舍弃连接请求。分析器网桥信息无效。</value>
+  </data>
+  <data name="Argument_ProcessFilters" xml:space="preserve">
+    <value>进程筛选器</value>
+  </data>
+  <data name="HostOptions_FinishProfilingManually" xml:space="preserve">
+    <value>手动完成分析</value>
+  </data>
+  <data name="Nettrace_ConvertedFrom" xml:space="preserve">
+    <value>转换自</value>
+  </data>
+  <data name="Configurations_Templates_Timeline" xml:space="preserve">
+    <value>时间线</value>
+  </data>
+  <data name="RuntimeType_Native" xml:space="preserve">
+    <value>原生</value>
+  </data>
+  <data name="Attach_Process" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="WindowsService_StartDependentServices" xml:space="preserve">
+    <value>启动依赖服务</value>
+  </data>
+  <data name="NewRunCfg_EnvVar_Hint" xml:space="preserve">
+    <value>在新行中指定每个变量，例如:</value>
+  </data>
+  <data name="MeterKind_None" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="ProcessFilter_Allow" xml:space="preserve">
+    <value>允许:</value>
+  </data>
+  <data name="PerformanceInfo_EnableInlining" xml:space="preserve">
+    <value>启用内联</value>
+  </data>
+  <data name="ProfilingType_Timeline" xml:space="preserve">
+    <value>时间线</value>
+  </data>
+  <data name="ProfilingType_Tracing" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unity_Header" xml:space="preserve">
+    <value>Unity 应用程序</value>
+  </data>
+  <data name="SnapshotOpening_UnsupportedSnapshotFormat" xml:space="preserve">
+    <value>不支持的快照格式。您可能正在尝试使用较旧的应用程序打开较新版本的快照。</value>
+  </data>
+  <data name="Profiler_Error_ProfilerAlreadyActive" xml:space="preserve">
+    <value>分析器无法附加到进程: 请确保该进程未在其他分析器、性能监控工具或模拟工具下运行。或者，请尝试重新启动计算机。</value>
+  </data>
+  <data name="Configurations_Templates_TimelineMono" xml:space="preserve">
+    <value>时间线(Mono)</value>
+  </data>
+  <data name="Profiler_Launcher_Connecting" xml:space="preserve">
+    <value>正在连接</value>
+  </data>
+  <data name="HostOptions_FinishProfilingNormally" xml:space="preserve">
+    <value>正常完成分析</value>
+  </data>
+  <data name="ClrEngine_ClrOrCoreClrOrMonoVm" xml:space="preserve">
+    <value>分析原生、.NET Framework、.NET Core 和 MonoVM 应用程序</value>
+  </data>
+  <data name="ApplicationKind_IISExpress" xml:space="preserve">
+    <value>IIS Express</value>
+  </data>
+  <data name="Profiler_Api_RequestedNotCalled" xml:space="preserve">
+    <value>已请求分析器 API，但未调用</value>
+  </data>
+  <data name="ControlKind_ApiFirst" xml:space="preserve">
+    <value>仅第一个进程使用 Core API</value>
+  </data>
+  <data name="StartImmediately" xml:space="preserve">
+    <value>从开始处收集分析数据</value>
+  </data>
+  <data name="Argument_ProfileOneProcess" xml:space="preserve">
+    <value>分析一个进程</value>
+  </data>
+  <data name="Argument_WorkingDirectory" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="PatternFilterInfo_Class" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="PatternFilterInfo_Allow" xml:space="preserve">
+    <value>允许:</value>
+  </data>
+  <data name="Configurations_TimelineUnreal" xml:space="preserve">
+    <value>时间线(Unreal)</value>
+  </data>
+  <data name="ProfilingType_LineByLine" xml:space="preserve">
+    <value>逐行</value>
+  </data>
+  <data name="ProfileCfg_Menu_Create" xml:space="preserve">
+    <value>根据当前的运行配置创建新的运行配置</value>
+  </data>
+  <data name="DragAndDrop_Text01" xml:space="preserve">
+    <value>将此图标拖放到应用程序窗口上</value>
+  </data>
+  <data name="DragAndDrop_Text02" xml:space="preserve">
+    <value>您想要附加到的地方</value>
+  </data>
+  <data name="Configurations_Templates_MemoryFull" xml:space="preserve">
+    <value>内存(完整分配)</value>
+  </data>
+  <data name="ApplicationKind_WCFLibrary" xml:space="preserve">
+    <value>WCF 库</value>
+  </data>
+  <data name="IISExpress_ShowInTray" xml:space="preserve">
+    <value>在托盘中显示</value>
+  </data>
+  <data name="PatternFilterInfo_InAssemblies" xml:space="preserve">
+    <value>在程序集中</value>
+  </data>
+  <data name="ScopeInfo_PatternFilters" xml:space="preserve">
+    <value>模式筛选器</value>
+  </data>
+  <data name="ProfileCfg_Menu_Delete" xml:space="preserve">
+    <value>删除运行配置</value>
+  </data>
+  <data name="Profiler_Error_IpcFailed" xml:space="preserve">
+    <value>在管道上与目标分析器进行通信时出错。这通常是由于在分析器读取管道或写入管道时，目标分析器正在关闭或被终止导致的。</value>
+  </data>
+  <data name="ClrEngine_ClrOrCoreClr" xml:space="preserve">
+    <value>分析 .NET Framework 和 .NET Core 应用程序</value>
+  </data>
+  <data name="SnapshotExport_FilePrefixForUnitTests" xml:space="preserve">
+    <value>单元测试</value>
+  </data>
+  <data name="NewRunCfg_AppType_WCF_Name" xml:space="preserve">
+    <value>WCF 服务</value>
+  </data>
+  <data name="NewRunCfg_Arguments_Label" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="NotEnoughDiskSpaceToSaveSnapshot_DialogTitle" xml:space="preserve">
+    <value>快照序列化失败</value>
+  </data>
+  <data name="IncludePatternFilters" xml:space="preserve">
+    <value>代码分析的包含范围</value>
+  </data>
+  <data name="NoWritePermissionsForSnapshotDirectory" xml:space="preserve">
+    <value>您对指定用于保存快照的目录没有写入权限。请在“偏好设置”中指定其他目录。</value>
+  </data>
+  <data name="MeterKind_PerformanceCounter" xml:space="preserve">
+    <value>实际时间(性能计数器)</value>
+  </data>
+  <data name="DontStartImmediately" xml:space="preserve">
+    <value>不从开始处收集分析数据</value>
+  </data>
+  <data name="ControlKind_Manual" xml:space="preserve">
+    <value>手动控制</value>
+  </data>
+  <data name="IIS_DontRunBrowser" xml:space="preserve">
+    <value>不运行浏览器</value>
+  </data>
+  <data name="Converage_GatherMethodRegions" xml:space="preserve">
+    <value>收集方法区域</value>
+  </data>
+  <data name="NewRunCfg_CancelBtn" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="HomeMenuItem_Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="NewRunCfg_AppType_IISExpress_Header" xml:space="preserve">
+    <value>IIS Express 应用程序</value>
+  </data>
+  <data name="HostOptions_Reprofile_DisabledNoProcessId" xml:space="preserve">
+    <value>未提供进程 ID</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unity_Description" xml:space="preserve">
+    <value>Unity 编辑器或独立应用程序</value>
+  </data>
+  <data name="Configurations_Templates_Tracing" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="Profiling_Progress_WaitingForEvents" xml:space="preserve">
+    <value>正在等待事件</value>
+  </data>
+  <data name="ClrEngine_CoreClr" xml:space="preserve">
+    <value>分析 .NET Core 应用程序</value>
+  </data>
+  <data name="AnyDotNetWarning" xml:space="preserve">
+    <value>如果分析器无法连接到 .NET 6.0+ 应用程序，请尝试重新启动应用程序本身及其所有父进程，即用于启动它的进程，例如，Windows 命令提示符、Windows PowerShell 等。</value>
+  </data>
+  <data name="CoreOptions_CoreLogsMask" xml:space="preserve">
+    <value>Core 日志掩码</value>
+  </data>
+  <data name="Profiler_Error_InvalidBridgeVersion" xml:space="preserve">
+    <value>分析器网桥版本无效</value>
+  </data>
+  <data name="RunBrowser_DisplayName_DefaultWithBrowser" xml:space="preserve">
+    <value>默认 ({0})</value>
+  </data>
+  <data name="IISExpress_Port_Auto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="ClrEngine_Mono" xml:space="preserve">
+    <value>分析 Mono 应用程序</value>
+  </data>
+  <data name="ClrEngine_None" xml:space="preserve">
+    <value>不分析任何内容</value>
+  </data>
+  <data name="WcfHost_ClientPath" xml:space="preserve">
+    <value>客户端路径</value>
+  </data>
+  <data name="WcfHost_ClientArgs" xml:space="preserve">
+    <value>客户端实参</value>
+  </data>
+  <data name="SnapshotsDirectoryDoesntExist" xml:space="preserve">
+    <value>用于保存会话和快照的目录不存在。请在“偏好设置”中指定其他目录。</value>
+  </data>
+  <data name="CoreDebug_None" xml:space="preserve">
+    <value>不需要附加</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetCore_Name" xml:space="preserve">
+    <value>.NET 和 .NET Core</value>
+  </data>
+  <data name="IISExpress_RuntimeVersion" xml:space="preserve">
+    <value>运行时版本</value>
+  </data>
+  <data name="Profiler_Error_InvalidBridgeInfo" xml:space="preserve">
+    <value>分析器网桥信息无效</value>
+  </data>
+  <data name="IIS_RunBrowserLocally" xml:space="preserve">
+    <value>在本地计算机上运行浏览器</value>
+  </data>
+  <data name="InjectInfo_DontUseNGenImages" xml:space="preserve">
+    <value>不使用 NGen 映像</value>
+  </data>
+  <data name="NewRunCfg_AppType_Mono_Description" xml:space="preserve">
+    <value>基于 Mono 的桌面或控制台应用程序</value>
+  </data>
+  <data name="CoreOptions_CoreTempPath" xml:space="preserve">
+    <value>Core Temp Path</value>
+  </data>
+  <data name="AttributeFilters" xml:space="preserve">
+    <value>不分析代码</value>
+  </data>
+  <data name="WcfHost_ClientArguments" xml:space="preserve">
+    <value>客户端实参</value>
+  </data>
+  <data name="ProfilingProcessFilter_Default" xml:space="preserve">
+    <value>默认(通用)</value>
+  </data>
+  <data name="ProfilingProcessFilter_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="RuntimeType_CoreCLR" xml:space="preserve">
+    <value>CoreCLR</value>
+  </data>
+  <data name="SnapshotOpening_SomeFilesAreNotFound" xml:space="preserve">
+    <value>无法打开快照:
+找不到某些快照文件。
+请注意，该快照由多个文件组成:
+*{0}、*{0}.0000、*{0}.0001 等。</value>
+  </data>
+  <data name="TimelineInfo_AllowBackgroundLoadPdb" xml:space="preserve">
+    <value>允许后台下载</value>
+  </data>
+  <data name="IISExpress_RandomPort" xml:space="preserve">
+    <value>使用随机端口</value>
+  </data>
+  <data name="SnapshotOpening_IndexFileIsCorrupted" xml:space="preserve">
+    <value>索引文件已损坏。快照很可能被截断或保存已被中止。</value>
+  </data>
+  <data name="ScopeInfo_ExcludeAttributeFilters" xml:space="preserve">
+    <value>排除特性筛选器</value>
+  </data>
+  <data name="ApplicationKind_WindowsService" xml:space="preserve">
+    <value>Windows 服务</value>
+  </data>
+  <data name="HomeMenuItem_Snapshots" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="SymbolSearchInfo_SearchPolicy" xml:space="preserve">
+    <value>搜索策略</value>
+  </data>
+  <data name="ApplicationKind_NoLongerSupported" xml:space="preserve">
+    <value>不再支持的应用类型</value>
+  </data>
+  <data name="ClrEngine_ClrOrCoreClrOrMono" xml:space="preserve">
+    <value>分析原生、.NET Framework、.NET Core 和 Mono 应用程序</value>
+  </data>
+  <data name="NewRunCfg_BackBtn" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="Profiler_Error_ProfileeIncompatibleWithTrigger" xml:space="preserve">
+    <value>无法请求分析器附件，因为目标进程的版本与当前进程不兼容</value>
+  </data>
+  <data name="Argument_PresentableName_IIS" xml:space="preserve">
+    <value>IIS</value>
+  </data>
+  <data name="HostOptions_FinishProfilingAfterMs" xml:space="preserve">
+    <value>{0} ms</value>
+  </data>
+  <data name="ScopeInfo_ExcludeAttributeFilters_None" xml:space="preserve">
+    <value>无任何内容</value>
+  </data>
+  <data name="TimelineInfo_EnableNativeProfiling" xml:space="preserve">
+    <value>启用原生分析</value>
+  </data>
+  <data name="WindowsService_ServiceName" xml:space="preserve">
+    <value>服务</value>
+  </data>
+  <data name="NewRunCfg_InBrowser_Label" xml:space="preserve">
+    <value>在浏览器中</value>
+  </data>
+  <data name="HostOptions_DenyKillProcess" xml:space="preserve">
+    <value>拒绝终止进程</value>
+  </data>
+  <data name="HostOptions_AllowKillProcess" xml:space="preserve">
+    <value>允许终止进程</value>
+  </data>
+  <data name="TimelineInfo_EnableDebugOutput" xml:space="preserve">
+    <value>收集调试输出</value>
+  </data>
+  <data name="HostOptions_Reprofile_Enabled" xml:space="preserve">
+    <value>允许重新分析</value>
+  </data>
+  <data name="NewRunCfg_AppType_Mono_Header" xml:space="preserve">
+    <value>Mono 应用程序</value>
+  </data>
+  <data name="ControlKind_RemoteApi" xml:space="preserve">
+    <value>使用远程 API</value>
+  </data>
+  <data name="SamplingNotSupportedForNetCore3AndEarlier" xml:space="preserve">
+    <value>无法启动分析: “采样”分析类型只能用于以 .NET Core 3.1 或更高版本为目标的项目。
+要分析您的项目，请根据“采样(.NET Core 3.0 及更早版本)”分析类型创建新的分析配置。</value>
+  </data>
+  <data name="Profiler_Error_InvalidBridgeProtocol" xml:space="preserve">
+    <value>分析器网桥协议无效</value>
+  </data>
+  <data name="Profiler_Error_ProfilerDetaching" xml:space="preserve">
+    <value>不允许分析器调用 CLR，因为分析器正在尝试分离</value>
+  </data>
+  <data name="RuntimeType_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="Argument_Arguments" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="ProfilingType_Monitoring" xml:space="preserve">
+    <value>监测</value>
+  </data>
+  <data name="NewRunCfg_AppType_Maui_Header" xml:space="preserve">
+    <value>MAUI 应用程序</value>
+  </data>
+  <data name="IISExpress_Site" xml:space="preserve">
+    <value>网站</value>
+  </data>
+  <data name="IISExpress_Port" xml:space="preserve">
+    <value>端口</value>
+  </data>
+  <data name="ProcessFilter_Deny" xml:space="preserve">
+    <value>拒绝:</value>
+  </data>
+  <data name="TimelineInfo_EnableTPL" xml:space="preserve">
+    <value>收集 TPL 事件</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinRT_Description" xml:space="preserve">
+    <value>Windows 应用商店和通用 Windows 平台应用程序</value>
+  </data>
+  <data name="NewRunCfg_CfgName_Label" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ClrEngine_ClrOrCoreClrOrMonoorMonoVm" xml:space="preserve">
+    <value>分析原生、.NET Framework、.NET Core、Mono 和 MonoVM 应用程序</value>
+  </data>
+  <data name="Profiling_Progress_ProcessingObjects" xml:space="preserve">
+    <value>正在处理对象</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinService_Description" xml:space="preserve">
+    <value>.NET Windows 服务</value>
+  </data>
+  <data name="HostOptions_PdbServerLogMask_LogsEnabled" xml:space="preserve">
+    <value>PDB 服务器日志已启用</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinService_Name" xml:space="preserve">
+    <value>Windows 服务</value>
+  </data>
+  <data name="TimelineInfo_EnableSampleNativeAllocations" xml:space="preserve">
+    <value>对分配采样({0} KB)</value>
+  </data>
+  <data name="Profiler_Launcher_Initializing" xml:space="preserve">
+    <value>正在初始化分析器</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unreal_Name" xml:space="preserve">
+    <value>Unreal Engine</value>
+  </data>
+  <data name="NewRunCfg_AppType_IISExpress_Description" xml:space="preserve">
+    <value>IIS Express 托管的 Web 应用程序</value>
+  </data>
+  <data name="RunningProcess_Title" xml:space="preserve">
+    <value>正在运行的进程</value>
+  </data>
+  <data name="RuntimeType_CLR" xml:space="preserve">
+    <value>CLR</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetProcess_Name" xml:space="preserve">
+    <value>外部 .NET 进程</value>
+  </data>
+  <data name="Argument_DontCreateConsoleWindow" xml:space="preserve">
+    <value>不创建控制台窗口</value>
+  </data>
+  <data name="PatternFilterInfo_InAssembly" xml:space="preserve">
+    <value>在程序集中</value>
+  </data>
+  <data name="Profiler_Error_InconsistentFlagsWithHostProtectionSetting" xml:space="preserve">
+    <value>无法分析应用程序，因为应用了主机保护。它可能与 Microsoft SQL 相关。</value>
+  </data>
+  <data name="NewRunCfg_AppType_Mono_Name" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="TimelineInfo_DontEnableNativeProfiling" xml:space="preserve">
+    <value>不启用原生分析</value>
+  </data>
+  <data name="NewRunCfg_AppType_IIS_Header" xml:space="preserve">
+    <value>IIS 应用程序</value>
+  </data>
+  <data name="Profiler_Launcher_StartingProfiler" xml:space="preserve">
+    <value>正在启动分析器</value>
+  </data>
+  <data name="MeterKind_Rdtsc" xml:space="preserve">
+    <value>实际时间(CPU 指令)</value>
+  </data>
+  <data name="NewRunCfg_SaveBtn" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ApplicationKind_WindowsStore" xml:space="preserve">
+    <value>Windows 应用商店</value>
+  </data>
+  <data name="ApplicationKind_IISServer" xml:space="preserve">
+    <value>IIS 服务器</value>
+  </data>
+  <data name="NewRunCfg_NetProcessDescription" xml:space="preserve">
+    <value>运行分析会话，然后启动要分析的 .NET 进程</value>
+  </data>
+  <data name="RunBrowser_DisplayName_Default" xml:space="preserve">
+    <value>默认(通用)</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetProcess_Description" xml:space="preserve">
+    <value>运行分析后系统中启动的任何 .NET 进程</value>
+  </data>
+  <data name="Converage_DontGatherCyclomaticComplexity" xml:space="preserve">
+    <value>不收集循环复杂度</value>
+  </data>
+  <data name="NewRunCfg_Package_Label" xml:space="preserve">
+    <value>打包</value>
+  </data>
+  <data name="CoreConfiguration_Debug" xml:space="preserve">
+    <value>安全调试</value>
+  </data>
+  <data name="HomeMenuItem_Workspaces" xml:space="preserve">
+    <value>工作区</value>
+  </data>
+  <data name="ProfilingProcessFilter_EntireTree" xml:space="preserve">
+    <value>整个进程树</value>
+  </data>
+  <data name="CoreOptions_TCPBridge" xml:space="preserve">
+    <value>TCP 网桥</value>
+  </data>
+  <data name="WcfHost_ConfigPath" xml:space="preserve">
+    <value>配置路径</value>
+  </data>
+  <data name="TimelineInfo_DontEnableNativeAllocations" xml:space="preserve">
+    <value>不收集原生分配</value>
+  </data>
+  <data name="IISExpress_DontShowInTray" xml:space="preserve">
+    <value>不在托盘中显示</value>
+  </data>
+  <data name="ApplicationKind_Mono" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="ApplicationKind_NetCore" xml:space="preserve">
+    <value>.NET Core</value>
+  </data>
+  <data name="Profiler_Alert_InvalidBridgeVersion" xml:space="preserve">
+    <value>已舍弃连接请求。分析器网桥版本无效。</value>
+  </data>
+  <data name="Profiling_Progress_ResolvingSymbols" xml:space="preserve">
+    <value>正在加载 {0} 的符号</value>
+  </data>
+  <data name="ProfilingFiltersTitle" xml:space="preserve">
+    <value>分析筛选器</value>
+  </data>
+  <data name="PerformanceInfo_DisableInlining" xml:space="preserve">
+    <value>禁用内联</value>
+  </data>
+  <data name="TimelineInfo_DontAllowBackgroundLoadPdb" xml:space="preserve">
+    <value>不允许后台下载</value>
+  </data>
+  <data name="ProfilingTemplates_AddRunConfigurationXml" xml:space="preserve">
+    <value>从配置 XML 添加运行配置</value>
+  </data>
+  <data name="Profiler_Error_SyncStackWalkNotSupported" xml:space="preserve">
+    <value>不支持同步堆栈浏览</value>
+  </data>
+  <data name="NewRunCfg_AppType_Maui_Name" xml:space="preserve">
+    <value>MAUI</value>
+  </data>
+  <data name="Profiler_Api_NotSupported" xml:space="preserve">
+    <value>分析器 API 调用不受支持</value>
+  </data>
+  <data name="Profiler_LocateSnapshot_ActionText" xml:space="preserve">
+    <value>定位快照(&amp;L)…</value>
+  </data>
+  <data name="HostOptions_HostTempPath" xml:space="preserve">
+    <value>主机临时路径</value>
+  </data>
+  <data name="ProfilingType_Sampling" xml:space="preserve">
+    <value>抽样</value>
+  </data>
+  <data name="ExcludePatternFilters" xml:space="preserve">
+    <value>代码分析的排除范围</value>
+  </data>
+  <data name="IISExpress_ConfigFilePath" xml:space="preserve">
+    <value>配置文件路径</value>
+  </data>
+  <data name="NewRunCfg_AppType_Standalone_Description" xml:space="preserve">
+    <value>桌面或控制台应用程序</value>
+  </data>
+  <data name="CommandProcessor_Alert_MessageWithHr" xml:space="preserve">
+    <value>{0}
+Details: {1}</value>
+  </data>
+  <data name="NewRunCfg_OpenUrl_Label" xml:space="preserve">
+    <value>打开 URL</value>
+  </data>
+  <data name="ProfilingTemplates_AddRunConfiguration" xml:space="preserve">
+    <value>添加运行配置</value>
+  </data>
+  <data name="UseEnvironmentVariables" xml:space="preserve">
+    <value>设置环境变量</value>
+  </data>
+  <data name="TimelineInfo_LoadPdb" xml:space="preserve">
+    <value>下载符号文件</value>
+  </data>
+  <data name="HomeMenuItem_Help" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="TimelineInfo_DontEnableDebugOutput" xml:space="preserve">
+    <value>不收集调试输出</value>
+  </data>
+  <data name="ProfileCfg_NoConfigurations_Add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AttributeFilterInfo_Classes" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="NotEnoughDiskSpaceToSaveSnapshot_DialogText" xml:space="preserve">
+    <value>磁盘空间不足或没有足够的权限来保存快照。快照保存在此处: {0}</value>
+  </data>
+  <data name="ProfileCfg_NewProcessRun" xml:space="preserve">
+    <value>新进程运行</value>
+  </data>
+  <data name="NewRunCfg_WinTitle" xml:space="preserve">
+    <value>新建运行配置</value>
+  </data>
+  <data name="MeterKind_ThreadTime" xml:space="preserve">
+    <value>线程时间</value>
+  </data>
+  <data name="NewRunCfg_ChooseAppType" xml:space="preserve">
+    <value>选择应用程序类型</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unreal_Description" xml:space="preserve">
+    <value>基于 Unreal Engine 的原生应用程序</value>
+  </data>
+  <data name="TimelineInfo_DontCollectUnreleasedNativeAllocations" xml:space="preserve">
+    <value>不收集未释放的分配</value>
+  </data>
+  <data name="CoreRegistration_RegistryFree" xml:space="preserve">
+    <value>不需要注册表</value>
+  </data>
+  <data name="Configurations_Templates_ExperimentalSampling" xml:space="preserve">
+    <value>采样(.NET Core 3.0 及更早版本)</value>
+  </data>
+  <data name="NewRunCfg_Path_Label" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="ApplicationKind_UnitTests" xml:space="preserve">
+    <value>单元测试</value>
+  </data>
+  <data name="HostOptions_PdbServerLogMask" xml:space="preserve">
+    <value>PDB 服务器日志掩码</value>
+  </data>
+  <data name="CoreOptions_AdditionalEnvironmentVariables_None" xml:space="preserve">
+    <value>无任何内容</value>
+  </data>
+  <data name="HostOptions_Reprofile_DisabledForTests" xml:space="preserve">
+    <value>ReSharper 单元测试运行程序不允许重新分析</value>
+  </data>
+  <data name="ProfileCfg_ImportFromXml" xml:space="preserve">
+    <value>从 XML 导入</value>
+  </data>
+  <data name="WcfHost_LibraryPath" xml:space="preserve">
+    <value>库路径</value>
+  </data>
+  <data name="Profiler_Api_NoProfilerDetected" xml:space="preserve">
+    <value>未检测到分析器</value>
+  </data>
+  <data name="NewRunCfg_RefreshBtn" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="ProcessFilter_Everything" xml:space="preserve">
+    <value>所有内容</value>
+  </data>
+  <data name="WcfHost_WcfHost" xml:space="preserve">
+    <value>WCF 主机</value>
+  </data>
+  <data name="HomeMenuItem_Tutorials" xml:space="preserve">
+    <value>教程</value>
+  </data>
+  <data name="MeasureType_LineByLine" xml:space="preserve">
+    <value>逐行</value>
+  </data>
+  <data name="PatternFilterInfo_Functions" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="Profiler_Api_UnrecoverableError" xml:space="preserve">
+    <value>检测到不可恢复的错误</value>
+  </data>
+  <data name="Attach_RuntimeVersion" xml:space="preserve">
+    <value>运行时版本</value>
+  </data>
+  <data name="ClrEngine_MonoVm" xml:space="preserve">
+    <value>分析 MonoVM 应用程序</value>
+  </data>
+  <data name="CoreOptions_NamedPipesBridge" xml:space="preserve">
+    <value>命名管道网桥</value>
+  </data>
+  <data name="Profiler_CloseSnapshot_ActionText" xml:space="preserve">
+    <value>关闭快照(&amp;C)</value>
+  </data>
+  <data name="ProfileCfg_OrWord" xml:space="preserve">
+    <value>或</value>
+  </data>
+  <data name="Profiler_Error_ProfilerCancelActivation" xml:space="preserve">
+    <value>分析器已请求 CLR 实例不将分析器加载到此进程中</value>
+  </data>
+  <data name="CoreRegistration_RegistryFreeArchitecture" xml:space="preserve">
+    <value>仅 {0} 不需要注册表</value>
+  </data>
+  <data name="PerformanceInfo_HighAccuracy" xml:space="preserve">
+    <value>高准确性</value>
+  </data>
+  <data name="ScopeInfo_PatternFilters_None" xml:space="preserve">
+    <value>所有内容</value>
+  </data>
+  <data name="Profiler_Api_InvalidCallSequence" xml:space="preserve">
+    <value>调用序列无效</value>
+  </data>
+  <data name="FilterProcessCaption" xml:space="preserve">
+    <value>指定掩码以定义应从分析中排除哪些进程，例如，*service.exe</value>
+  </data>
+  <data name="Profiler_Alert_InvalidBridgeProtocol" xml:space="preserve">
+    <value>已舍弃连接请求。分析器网桥协议无效。</value>
+  </data>
+  <data name="ProcessFilter_Process" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="Argument_ProfileNet5ChildProcesses" xml:space="preserve">
+    <value>分析 .NET 5+ 子进程</value>
+  </data>
+  <data name="ProcessTable_Column_Pid" xml:space="preserve">
+    <value>PID</value>
+  </data>
+  <data name="ProfileCfg_Menu_Edit" xml:space="preserve">
+    <value>编辑运行配置</value>
+  </data>
+  <data name="FailedToStartProfilingWithException" xml:space="preserve">
+    <value>无法启动分析: {0}</value>
+  </data>
+  <data name="WcfHost_LibraryConfigPath" xml:space="preserve">
+    <value>库配置路径</value>
+  </data>
+  <data name="NewRunCfg_AppType_Standalone_Name" xml:space="preserve">
+    <value>独立</value>
+  </data>
+  <data name="Profiler_Launcher_UnableToStart" xml:space="preserve">
+    <value>无法启动分析</value>
+  </data>
+  <data name="HostOptions_FinishProfilingAfterTimeout_Title" xml:space="preserve">
+    <value>在超时的情况下自动完成分析</value>
+  </data>
+  <data name="CoreDebug_InfiniteSleep" xml:space="preserve">
+    <value>无限休眠</value>
+  </data>
+  <data name="Profiling_Progress_SnapshotSaving" xml:space="preserve">
+    <value>分析器核心: 正在保存快照</value>
+  </data>
+  <data name="TimelineInfo_DontEnableSampleNativeAllocations" xml:space="preserve">
+    <value>不对分配采样</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unity_Name" xml:space="preserve">
+    <value>Unity</value>
+  </data>
+  <data name="Argument_CreateConsoleWindow" xml:space="preserve">
+    <value>创建控制台窗口</value>
+  </data>
+  <data name="Profiling_Progress_ResolvingCallTree" xml:space="preserve">
+    <value>正在解决调用树</value>
+  </data>
+  <data name="NewRunCfg_UnityArg_Hint" xml:space="preserve">
+    <value>如果要分析 Unity 编辑器，请将项目路径指定为其中一个实参。例如:</value>
+  </data>
+  <data name="ControlKind_Api" xml:space="preserve">
+    <value>使用 Core API</value>
+  </data>
+  <data name="RuntimeType_Silverlight" xml:space="preserve">
+    <value>Silverlight</value>
+  </data>
+  <data name="ApplicationKind_AttachedProcess" xml:space="preserve">
+    <value>附加的进程</value>
+  </data>
+  <data name="SnapshotExport_FilePrefixWhenNoProcessName" xml:space="preserve">
+    <value>快照</value>
+  </data>
+  <data name="NewRunCfg_AppType_WCF_Header" xml:space="preserve">
+    <value>WCF 服务</value>
+  </data>
+  <data name="NewRunCfg_NextBtn" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="HomeMenuItem_About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="MeasureType_Tracing" xml:space="preserve">
+    <value>跟踪</value>
+  </data>
+  <data name="ApplicationKind_Standalone" xml:space="preserve">
+    <value>独立</value>
+  </data>
+  <data name="HomeMenuItem_Profiling" xml:space="preserve">
+    <value>分析</value>
+  </data>
+  <data name="PatternFilterInfo_Assemblies" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="PatternFilterInfo_Function" xml:space="preserve">
+    <value>函数</value>
+  </data>
+  <data name="RunningProcess_ShowProcesses" xml:space="preserve">
+    <value>显示所有用户的进程</value>
+  </data>
+  <data name="AttributeFilterInfo_Everything" xml:space="preserve">
+    <value>所有内容</value>
+  </data>
+  <data name="ApplicationKind_Unity" xml:space="preserve">
+    <value>Unity</value>
+  </data>
+  <data name="SymbolSearchInfo_SearchPaths" xml:space="preserve">
+    <value>搜索路径</value>
+  </data>
+  <data name="NewRunCfg_AppType_Maui_MacCatalyst_Description" xml:space="preserve">
+    <value>基于 MAUI 的 Mac Catalyst 应用程序</value>
+  </data>
+  <data name="MeterKind_ThreadCycleTime" xml:space="preserve">
+    <value>线程周期时间</value>
+  </data>
+  <data name="MeasureType_Sampling" xml:space="preserve">
+    <value>抽样</value>
+  </data>
+  <data name="Configurations_Templates_MemorySampled" xml:space="preserve">
+    <value>内存(采样分配)</value>
+  </data>
+  <data name="NewRunCfg_AppType_IIS_Name" xml:space="preserve">
+    <value>IIS</value>
+  </data>
+  <data name="TimelineInfo_SamplesPerSec" xml:space="preserve">
+    <value>采样率 {0} 个样本/秒</value>
+  </data>
+  <data name="ProcessTable_Column_ProcessName" xml:space="preserve">
+    <value>进程名称</value>
+  </data>
+  <data name="PerformanceInfo_LowAccuracy" xml:space="preserve">
+    <value>低准确性</value>
+  </data>
+  <data name="Argument_ProfileChildProcesses" xml:space="preserve">
+    <value>分析子进程</value>
+  </data>
+  <data name="RunBrowser_Url" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="Profiler_Api_NotImplemented" xml:space="preserve">
+    <value>未实现</value>
+  </data>
+  <data name="WindowsService_DontStartDependentServices" xml:space="preserve">
+    <value>不启动依赖服务</value>
+  </data>
+  <data name="ProcessFilter_Processes" xml:space="preserve">
+    <value>进程</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinService_Header" xml:space="preserve">
+    <value>Windows 服务</value>
+  </data>
+  <data name="CoreRegistration_Default" xml:space="preserve">
+    <value>默认(通用)</value>
+  </data>
+  <data name="AnyDotNetWarningHeader" xml:space="preserve">
+    <value>.NET 6.0+</value>
+  </data>
+  <data name="Profiler_Error_UnrecognizedPipeMsgFormat" xml:space="preserve">
+    <value>在分析 API 附加管道上发送的消息的格式无法识别</value>
+  </data>
+  <data name="PatternFilterInfo_Assembly" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="Converage_DontGatherMethodRegions" xml:space="preserve">
+    <value>不收集方法区域</value>
+  </data>
+  <data name="PatternFilterInfo_Deny" xml:space="preserve">
+    <value>拒绝:</value>
+  </data>
+  <data name="Profiler_Error_Clr2NotSupported" xml:space="preserve">
+    <value>无法分析应用程序: 它以 .NET Framework v1.x/v2.0/v3.x 为目标，这不受支持</value>
+  </data>
+  <data name="ClrEngine_Clr" xml:space="preserve">
+    <value>分析 .NET Framework 应用程序</value>
+  </data>
+  <data name="NewRunCfg_Unreal_Arguments_Hint" xml:space="preserve">
+    <value>要分析 Unreal 编辑器，请将项目路径指定为一个实参。例如:</value>
+  </data>
+  <data name="NewRunCfg_AppType_Standalone_Header" xml:space="preserve">
+    <value>独立应用程序</value>
+  </data>
+  <data name="AttributeFilterInfo_Class" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="NewRunCfg_AppType_IIS_Description" xml:space="preserve">
+    <value>IIS 托管的 Web 应用程序</value>
+  </data>
+  <data name="InjectInfo_UseNGenImages" xml:space="preserve">
+    <value>使用 NGen 映像</value>
+  </data>
+  <data name="NewRunCfg_AppType_Maui_UWP_Description" xml:space="preserve">
+    <value>基于 MAUI 的 WinUI 应用程序</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetCore_Header" xml:space="preserve">
+    <value>.NET 或 .NET Core 应用程序</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetCore_Description" xml:space="preserve">
+    <value>自包含或依赖框架的应用程序</value>
+  </data>
+  <data name="TimelineInfo_EnableNativeAllocations" xml:space="preserve">
+    <value>收集原生分配</value>
+  </data>
+  <data name="Profiler_Error_ProfileeProcessNotFound" xml:space="preserve">
+    <value>找不到具有指定进程 ID 的分析器</value>
+  </data>
+  <data name="CoreConfiguration_Release" xml:space="preserve">
+    <value>全速版</value>
+  </data>
+  <data name="CoreOptions_CoreLogMask_Disabled" xml:space="preserve">
+    <value>无 Core 日志</value>
+  </data>
+  <data name="Configurations_Templates_Sampling" xml:space="preserve">
+    <value>抽样</value>
+  </data>
+  <data name="Profiler_SaveSnapshot_ActionText" xml:space="preserve">
+    <value>&amp;保存快照…</value>
+  </data>
+  <data name="IISExpress_Server" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="CoreOptions_AdditionalEnvironmentVariables" xml:space="preserve">
+    <value>其他环境变量</value>
+  </data>
+  <data name="Profiler_Launcher_CantConnect" xml:space="preserve">
+    <value>无法连接到主机</value>
+  </data>
+  <data name="TimelineInfo_DontEnableTPL" xml:space="preserve">
+    <value>不收集 TPL 事件</value>
+  </data>
+  <data name="IISExpress_ApplicationPath" xml:space="preserve">
+    <value>应用程序路径</value>
+  </data>
+  <data name="Argument_FileName" xml:space="preserve">
+    <value>应用</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinRT_Name" xml:space="preserve">
+    <value>WinRT</value>
+  </data>
+  <data name="ApplicationKind_NetProcess" xml:space="preserve">
+    <value>.NET 进程</value>
+  </data>
+  <data name="NewRunCfg_WorkingDir_Label" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="CoreOptions_CoreLogMask_Enabled" xml:space="preserve">
+    <value>Core 日志已启用</value>
+  </data>
+  <data name="Label_EverythingFilter" xml:space="preserve">
+    <value>仅分析指定的 .NET 进程</value>
+  </data>
+  <data name="PatternFilterInfo_Classes" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="NewRunCfg_AppType_WCF_Description" xml:space="preserve">
+    <value>Windows Communication Foundation 服务库</value>
+  </data>
+  <data name="Profiler_Error_Clr1NotSupported" xml:space="preserve">
+    <value>无法分析应用程序: 它以 .NET Framework v1.x 为目标，这不受支持</value>
+  </data>
+  <data name="RunBrowser_Browser" xml:space="preserve">
+    <value>浏览器</value>
+  </data>
+  <data name="IIS_RunBrowserOnRemote" xml:space="preserve">
+    <value>在远程计算机上运行浏览器</value>
+  </data>
+  <data name="HostOptions_PdbServerLogMask_NoLogs" xml:space="preserve">
+    <value>无 PDB 服务器日志</value>
+  </data>
+  <data name="NewRunCfg_AppType_Unreal_Header" xml:space="preserve">
+    <value>Unreal Engine 应用程序</value>
+  </data>
+  <data name="RunningProcess_AddRunConfiguration" xml:space="preserve">
+    <value>为此进程添加运行配置</value>
+  </data>
+  <data name="PatternFilterInfo_Everything" xml:space="preserve">
+    <value>所有内容</value>
+  </data>
+  <data name="TimelineInfo_DontLoadPdb" xml:space="preserve">
+    <value>不下载符号文件</value>
+  </data>
+  <data name="CoreDebug_ShowMessageBox" xml:space="preserve">
+    <value>显示消息框</value>
+  </data>
+  <data name="NewRunCfg_AppType_WinRT_Header" xml:space="preserve">
+    <value>WinRT 应用程序</value>
+  </data>
+  <data name="Converage_GatherCyclomaticComplexity" xml:space="preserve">
+    <value>收集循环复杂度</value>
+  </data>
+  <data name="Profiler_Launcher_CantInitialize" xml:space="preserve">
+    <value>无法初始化分析器</value>
+  </data>
+  <data name="Configurations_Templates_TimelineUnity" xml:space="preserve">
+    <value>时间线(Unity)</value>
+  </data>
+  <data name="Metro_Name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="SymbolSearchInfo_SearchPaths_None" xml:space="preserve">
+    <value>无任何内容</value>
+  </data>
+  <data name="NewRunCfg_AppType_NetProcess_Header" xml:space="preserve">
+    <value>启动后 .NET 进程</value>
+  </data>
+  <data name="ProfileCfg_NoConfigurations" xml:space="preserve">
+    <value>无运行配置</value>
+  </data>
+  <data name="NewRunCfg_AppType_IISExpress_Name" xml:space="preserve">
+    <value>IIS Express</value>
+  </data>
+  <data name="Profiling_Progress_ProcessingRoots" xml:space="preserve">
+    <value>正在处理根</value>
+  </data>
+  <data name="Profiler_Error_ProfilerNotAttachable" xml:space="preserve">
+    <value>指定的分析器不支持附件</value>
+  </data>
+</root>

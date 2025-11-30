@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ConfiguresFeatureSuggestionSettingDescription" xml:space="preserve">
+  <value>Настройка предложения функций</value>
+</data>
+<data name="ToSaveTheChangesGloballyChooseThisComputer_Text" xml:space="preserve">
+  <value>Для глобального сохранения изменений выберите "Этот компьютер" в раскрывающемся списке под "Сохранить".</value>
+</data>
+<data name="Invalid_ComboBoxElement_Text" xml:space="preserve">
+  <value>Недействительно</value>
+</data>
+<data name="_PerformCleanupPeriodically_BoolOption_Text" xml:space="preserve">
+  <value>Удалять устаревшие файлы в указанных местах по расписанию</value>
+</data>
+<data name="OK_Button_Text" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="ErrorOccurred_Text" xml:space="preserve">
+  <value>Произошла ошибка</value>
+</data>
+<data name="RunningCleanup_Result_Text" xml:space="preserve">
+  <value>Выполняется очистка…</value>
+</data>
+<data name="COMReferencesAreAvailableOnlyOnWindows_Text" xml:space="preserve">
+  <value>COM-ссылки доступны только в Windows</value>
+</data>
+<data name="PathTemplates_StringColumnFromKey_Text" xml:space="preserve">
+  <value>Шаблоны путей</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Running" xml:space="preserve">
+  <value>{0} выполняется</value>
+</data>
+<data name="PreviewPanelSplitterVerticalProportionSettingDescription" xml:space="preserve">
+  <value>Вертикальная пропорция разделителя панели предпросмотра</value>
+</data>
+<data name="DeleteEverythingInEveryLocationIgnore_Text" xml:space="preserve">
+  <value>Удалить все файлы и папки во всех указанных местах</value>
+</data>
+<data name="CanTEvaluateANameForCOMTypeFrom__Text" xml:space="preserve">
+  <value>Не удается оценить имя для COM-типа из '{0}'</value>
+</data>
+<data name="OtherLibraries_Text" xml:space="preserve">
+  <value>Другие библиотеки</value>
+</data>
+<data name="PathAlreadyExists_Text" xml:space="preserve">
+  <value>Путь уже существует</value>
+</data>
+<data name="PathDoesnTExistAndWillBeCreated_Text" xml:space="preserve">
+  <value>Путь не существует и будет создан</value>
+</data>
+<data name="CleanupInterrupted_Result_Text" xml:space="preserve">
+  <value>Очистка прервана</value>
+</data>
+<data name="TestRunner_DefaultSettings_Name" xml:space="preserve">
+  <value>Настройки по умолчанию для запуска тестов</value>
+</data>
+<data name="FilesAndFoldersToClean_Header_Text" xml:space="preserve">
+  <value>Местоположения</value>
+</data>
+<data name="UnknownError_Text" xml:space="preserve">
+  <value>Неизвестная ошибка</value>
+</data>
+<data name="NextSearchResult_DescriptionText" xml:space="preserve">
+  <value>Следующий результат поиска (_N)</value>
+</data>
+<data name="SynchronizeWithFileSystemActionText" xml:space="preserve">
+  <value>Синхронизировать с файловой системой</value>
+</data>
+<data name="Validation_Validators_MustBeValidNamespace_Text" xml:space="preserve">
+  <value>Значение не является допустимым пространством имен</value>
+</data>
+<data name="Save_Caption" xml:space="preserve">
+  <value>Сохранить</value>
+</data>
+<data name="CompactLOHActionText" xml:space="preserve">
+  <value>Компактировать LOH</value>
+</data>
+<data name="CanTLoadCOMTypeFrom_ErrorCode__Text" xml:space="preserve">
+  <value>Не удается загрузить COM-тип из '{0}', код ошибки: {1}</value>
+</data>
+<data name="DumpNuGetNuGetLockFileTrackerActionText" xml:space="preserve">
+  <value>Дамп NuGet NuGetLockFileTracker</value>
+</data>
+<data name="CleanUpAll_Selected_Button_Text" xml:space="preserve">
+  <value>Удалить всё в выбранном местоположении (_D)</value>
+</data>
+<data name="PreviewPanelSplitterHorizontalPositionSettingDescription" xml:space="preserve">
+  <value>Горизонтальное положение разделителя панели предпросмотра</value>
+</data>
+<data name="WhetherPreviewPanelIsVisibleSettingDescription" xml:space="preserve">
+  <value>Видимость панели предпросмотра</value>
+</data>
+<data name="Days_Postfix_Text" xml:space="preserve">
+  <value>дней</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Don_t_show_again" xml:space="preserve">
+  <value>Больше не показывать</value>
+</data>
+<data name="Projects_Text" xml:space="preserve">
+  <value>Проекты</value>
+</data>
+<data name="Delete_All_Button_Text" xml:space="preserve">
+  <value>Удалить всё (_A)</value>
+</data>
+<data name="TempFolder_Text" xml:space="preserve">
+  <value>Временная папка</value>
+</data>
+<data name="ExpandAll_DescriptionText" xml:space="preserve">
+  <value>Развернуть всё (_E)</value>
+</data>
+<data name="MoveUp_DescriptionText" xml:space="preserve">
+  <value>Переместить вверх (_U)</value>
+</data>
+<data name="Browse_FilePath_Button_Text" xml:space="preserve">
+  <value>…</value>
+</data>
+<data name="Interrupted_Text" xml:space="preserve">
+  <value>Прервано</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Ignored" xml:space="preserve">
+  <value>{0} проигнорировано</value>
+</data>
+<data name="Validation_Validators_Required_Text" xml:space="preserve">
+  <value>{0} обязателен для заполнения</value>
+</data>
+<data name="DumpOutputAssembliesActionText" xml:space="preserve">
+  <value>Дамп выходных сборок</value>
+</data>
+<data name="ManualCleanup_Header_Text" xml:space="preserve">
+  <value>Ручная очистка</value>
+</data>
+<data name="WaitSolutionPerClientComponentsCompose_Text" xml:space="preserve">
+  <value>Ожидание клиентских компонентов решения</value>
+</data>
+<data name="No_Button_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="DumpNuGetIconLoaderActionText" xml:space="preserve">
+  <value>Дамп NuGet IconLoader</value>
+</data>
+<data name="CanNotReadAssemblyMetadataFrom__Text" xml:space="preserve">
+  <value>Не удается прочитать метаданные сборки из '{0}'.</value>
+</data>
+<data name="No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="DumpMsbuildDataActionText" xml:space="preserve">
+  <value>Дамп данных Msbuild</value>
+</data>
+<data name="GoToNextLocationActionText" xml:space="preserve">
+  <value>Перейти к следующему местоположению</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Learn_More" xml:space="preserve">
+  <value>Узнать больше</value>
+</data>
+<data name="DumpNuGetNuGetFolderManagerActionText" xml:space="preserve">
+  <value>Дамп NuGet NuGetFolderManager</value>
+</data>
+<data name="COMLibraries_Text" xml:space="preserve">
+  <value>COM-библиотеки</value>
+</data>
+<data name="DumpChangeManagerActionText" xml:space="preserve">
+  <value>Дамп менеджера изменений</value>
+</data>
+<data name="Add_Button_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="Remove_Button_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="_DaysBetweenAutomaticCleanups_IntOption_Text" xml:space="preserve">
+  <value>Интервал выполнения плановой очистки (_P)</value>
+</data>
+<data name="_Outdated_Total_Text" xml:space="preserve">
+  <value>{0} устарело, всего {1}</value>
+</data>
+<data name="DumpNuGetActionGroupText" xml:space="preserve">
+  <value>Дамп NuGet</value>
+</data>
+<data name="NoMatchingFilesFound_Text" xml:space="preserve">
+  <value>Подходящие файлы не найдены</value>
+</data>
+<data name="DumpNonBlittableStructsActionText" xml:space="preserve">
+  <value>Дамп не blittable-структур</value>
+</data>
+<data name="SystemLibraries_Text" xml:space="preserve">
+  <value>Системные библиотеки</value>
+</data>
+<data name="_Cleared_Result_Text" xml:space="preserve">
+  <value>Освобождено {0} дискового пространства</value>
+</data>
+<data name="DiskCleanupOptionPageTitle" xml:space="preserve">
+  <value>Очистка диска</value>
+</data>
+<data name="DumpAllTargetFrameworkScopesActionText" xml:space="preserve">
+  <value>Дамп всех областей целевых платформ</value>
+</data>
+<data name="HowItWorks_Text" xml:space="preserve">
+  <value>Как это работает</value>
+</data>
+<data name="PreviewPanelSplitterVerticalPositionSettingDescription" xml:space="preserve">
+  <value>Вертикальное положение разделителя панели предпросмотра</value>
+</data>
+<data name="SelectFiles_Caption" xml:space="preserve">
+  <value>Выбор файлов</value>
+</data>
+<data name="Edit_DescriptionText" xml:space="preserve">
+  <value>Редактировать (_E)</value>
+</data>
+<data name="TheFile__Text" xml:space="preserve">
+  <value>Файл {0}</value>
+</data>
+<data name="PathCannotBeEmpty_Text" xml:space="preserve">
+  <value>Путь не может быть пустым</value>
+</data>
+<data name="DumpDocumentMarkupActionText" xml:space="preserve">
+  <value>Дамп разметки документа</value>
+</data>
+<data name="Add_DescriptionText" xml:space="preserve">
+  <value>Добавить (_A)</value>
+</data>
+<data name="PathIsNotAbsolute_Text" xml:space="preserve">
+  <value>Путь не является абсолютным</value>
+</data>
+<data name="ProducesCircularDependency_Text" xml:space="preserve">
+  <value>Создает циклическую зависимость</value>
+</data>
+<data name="DumpFleetDocumentsActionText" xml:space="preserve">
+  <value>Дамп документов Fleet Backend</value>
+</data>
+<data name="RecentlyAddedReferencePathsSettingDescription" xml:space="preserve">
+  <value>Недавно добавленные пути ссылок</value>
+</data>
+<data name="Validation_Validators_FileAlreadyExists_Text" xml:space="preserve">
+  <value>Файл с таким именем уже существует</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Pending" xml:space="preserve">
+  <value>{0} ожидает</value>
+</data>
+<data name="DumpLevelDbMapsStatsActionText" xml:space="preserve">
+  <value>Дамп статистики LevelDb maps</value>
+</data>
+<data name="DumpTargetFrameworkIdsActionText" xml:space="preserve">
+  <value>Дамп TargetFrameworkIds</value>
+</data>
+<data name="DeleteEverythingInTheSelectedLocation_Text" xml:space="preserve">
+  <value>Удалить все файлы и папки в выбранном местоположении</value>
+</data>
+<data name="ActionBarActionGroupText" xml:space="preserve">
+  <value>Панель действий</value>
+</data>
+<data name="Cancel_Button_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="DumpNuGetContentFileStorageActionText" xml:space="preserve">
+  <value>Дамп NuGet ContentFileStorage</value>
+</data>
+<data name="ReferenceToSelf_Text" xml:space="preserve">
+  <value>Ссылка на себя</value>
+</data>
+<data name="PathIsNotValid_Text" xml:space="preserve">
+  <value>Недопустимый путь</value>
+</data>
+<data name="DumpSolutionLoadStatisticsActionText" xml:space="preserve">
+  <value>Дамп статистики загрузки решения</value>
+</data>
+<data name="PasswordShouldNotBeEmpty_Text" xml:space="preserve">
+  <value>Пароль не должен быть пустым</value>
+</data>
+<data name="PreviewPanelOrientationSettingDescription" xml:space="preserve">
+  <value>Ориентация панели предпросмотра</value>
+</data>
+<data name="AlreadyAdded_Text" xml:space="preserve">
+  <value>Уже добавлено</value>
+</data>
+<data name="OutdatedAfterDays_Column_Text" xml:space="preserve">
+  <value>Считать устаревшим после (дней)</value>
+</data>
+<data name="NoTargetFrameworkIdProblemInReferences_Text" xml:space="preserve">
+  <value>Проблем с TargetFrameworkId в ссылках не обнаружено</value>
+</data>
+<data name="ShowPreview_Text" xml:space="preserve">
+  <value>Показать предпросмотр</value>
+</data>
+<data name="MoveDown_DescriptionText" xml:space="preserve">
+  <value>Переместить вниз (_D)</value>
+</data>
+<data name="PasswordsMustMatch_Text" xml:space="preserve">
+  <value>Пароли должны совпадать</value>
+</data>
+<data name="IncompatibleTargetFramework_Text" xml:space="preserve">
+  <value>Несовместимая целевая платформа</value>
+</data>
+<data name="Edit_Button_Text" xml:space="preserve">
+  <value>Редактировать</value>
+</data>
+<data name="ValueShouldNotBeMoreThan__Text" xml:space="preserve">
+  <value>Значение не должно превышать {0}</value>
+</data>
+<data name="DumpProjectResolveContextsActionText" xml:space="preserve">
+  <value>Дамп контекстов разрешения проекта</value>
+</data>
+<data name="GoToPreviousLocationActionText" xml:space="preserve">
+  <value>Перейти к предыдущему местоположению</value>
+</data>
+<data name="CollapseAll_DescriptionText" xml:space="preserve">
+  <value>Свернуть всё (_C)</value>
+</data>
+<data name="PreviousSearchResult_DescriptionText" xml:space="preserve">
+  <value>Предыдущий результат поиска (_P)</value>
+</data>
+<data name="ChangesInThisSectionWillBeSavedForTheCurrent_Text" xml:space="preserve">
+  <value>Изменения в этом разделе будут сохранены для текущего решения.</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Tooltip_Close" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="DumpNuGetNupkgStorageActionText" xml:space="preserve">
+  <value>Дамп NuGet NupkgStorage</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Aborted" xml:space="preserve">
+  <value>{0} прервано</value>
+</data>
+<data name="FilesInTheMatchingDirectoriesAreConsideredOutdtated_Text_Text" xml:space="preserve">
+  <value>Файлы в соответствующих каталогах считаются устаревшими, если они не изменялись в течение количества дней, указанного в столбце "Считать устаревшим после".</value>
+</data>
+<data name="Validation_Validators_MustBeValidClassName_Text" xml:space="preserve">
+  <value>Значение не является допустимым именем класса</value>
+</data>
+<data name="Delete_Outdated_Button_Text" xml:space="preserve">
+  <value>Очистить всё (_U)</value>
+</data>
+<data name="CleanUpEachLocationAccordingToTheir_Text" xml:space="preserve">
+  <value>Удалить устаревшие файлы во всех указанных местах</value>
+</data>
+<data name="SaveTo_Caption" xml:space="preserve">
+  <value>Сохранить в</value>
+</data>
+<data name="CanNotAddReference_Caption" xml:space="preserve">
+  <value>Не удается добавить ссылку</value>
+</data>
+<data name="Validation_Validators_DirectoryAlreadyExists_Text" xml:space="preserve">
+  <value>Каталог с таким именем уже существует</value>
+</data>
+<data name="DoesNotExist_Text" xml:space="preserve">
+  <value>Не существует</value>
+</data>
+<data name="PathDoesnTExist_Text" xml:space="preserve">
+  <value>Путь не существует</value>
+</data>
+<data name="DumpProjectFileDataCacheActionText" xml:space="preserve">
+  <value>Дамп кэша данных файлов проекта</value>
+</data>
+<data name="ChangesOnThisPageWillBeSavedForTheCurrent_Text" xml:space="preserve">
+  <value>Изменения на этой странице будут сохранены для текущего решения.</value>
+</data>
+<data name="UsageStatisticsNotifyIconText__0" xml:space="preserve">
+  <value>Ваши данные повлияют на будущие обновления {0}. Нажмите, чтобы узнать больше.</value>
+</data>
+<data name="Browse_Button_Text" xml:space="preserve">
+  <value>Обзор</value>
+</data>
+<data name="DumpNuGetNuGetPackageUsageTrackerActionText" xml:space="preserve">
+  <value>Дамп NuGet NuGetPackageUsageTracker</value>
+</data>
+<data name="ShowTipsInBulbMenuSettingDescription" xml:space="preserve">
+  <value>Показывать подсказки в меню лампочки</value>
+</data>
+<data name="Evaluating_Text" xml:space="preserve">
+  <value>Выполняется оценка…</value>
+</data>
+<data name="DumpNuGetConfigWatcherActionText" xml:space="preserve">
+  <value>Дамп NuGet ConfigWatcher</value>
+</data>
+<data name="DumpNuGetPackageReferenceTrackerActionText" xml:space="preserve">
+  <value>Дамп NuGet PackageReferenceTracker</value>
+</data>
+<data name="CanTAddCOMReference_N__Text" xml:space="preserve">
+  <value>Не удается добавить COM-ссылку '{0}':
+{1}</value>
+</data>
+<data name="DumpCurrentProjectsProjectModelActionText" xml:space="preserve">
+  <value>Дамп модели проекта текущих проектов</value>
+</data>
+<data name="CollectGarbageActionText" xml:space="preserve">
+  <value>Собрать мусор</value>
+</data>
+<data name="DumpFileSystemTrackerActionText" xml:space="preserve">
+  <value>Дамп трекера файловой системы</value>
+</data>
+<data name="SelectNext_DescriptionText" xml:space="preserve">
+  <value>Выбрать следующее (_N)</value>
+</data>
+<data name="InconsistentModificationsWereMadeTo_Text" xml:space="preserve">
+  <value>В {0} были внесены противоречивые изменения. Хотите открыть в редакторе для проверки изменений?</value>
+</data>
+<data name="PreviewPanelSplitterHorizontalProportionSettingDescription" xml:space="preserve">
+  <value>Горизонтальная пропорция разделителя панели предпросмотра</value>
+</data>
+<data name="Close_DescriptionText" xml:space="preserve">
+  <value>Закрыть (_C)</value>
+</data>
+<data name="Description_Column_Text" xml:space="preserve">
+  <value>Описание</value>
+</data>
+<data name="ShowTipsInCompletionPopupSettingDescription" xml:space="preserve">
+  <value>Показывать подсказки во всплывающем окне завершения</value>
+</data>
+<data name="CleanUpSelectedLocationAccordingToThe_Text" xml:space="preserve">
+  <value>Удалить устаревшие файлы в выбранном местоположении</value>
+</data>
+<data name="IrrelevantResults_Text" xml:space="preserve">
+  <value>Несущественные результаты</value>
+</data>
+<data name="SelectFile_Caption" xml:space="preserve">
+  <value>Выбор файла</value>
+</data>
+<data name="ValueShouldBeAtLeast__Text" xml:space="preserve">
+  <value>Значение должно быть не менее {0}</value>
+</data>
+<data name="DumpReSharperShortcutsActionText" xml:space="preserve">
+  <value>Дамп сочетаний клавиш ReSharper</value>
+</data>
+<data name="DumpPlatformsActionText" xml:space="preserve">
+  <value>Дамп платформ</value>
+</data>
+<data name="ValueCannotBeEmpty_Text" xml:space="preserve">
+  <value>Значение не может быть пустым</value>
+</data>
+<data name="CleanupFailed_Result_Text" xml:space="preserve">
+  <value>Очистка не выполнена</value>
+</data>
+<data name="DumpLevelDbMapsActionText" xml:space="preserve">
+  <value>Дамп LevelDb maps</value>
+</data>
+<data name="Remove_DescriptionText" xml:space="preserve">
+  <value>Удалить (_R)</value>
+</data>
+<data name="DumpSharedDocumentsActionText" xml:space="preserve">
+  <value>Дамп общих документов</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Passed" xml:space="preserve">
+  <value>{0} пройдено</value>
+</data>
+<data name="DumpFileSystemPathInterningStatsActionText" xml:space="preserve">
+  <value>Дамп статистики интернирования FileSystemPath</value>
+</data>
+<data name="SaveAs_Caption" xml:space="preserve">
+  <value>Сохранить как</value>
+</data>
+<data name="_Files_Text" xml:space="preserve">
+  <value>{0} файлов</value>
+</data>
+<data name="AutomaticCleanup_Header_Text" xml:space="preserve">
+  <value>Плановая очистка</value>
+</data>
+<data name="SpaceOccupied_Column_Text" xml:space="preserve">
+  <value>Занимаемое место</value>
+</data>
+<data name="DumpInstalledPackagesActionText" xml:space="preserve">
+  <value>Дамп установленных пакетов</value>
+</data>
+<data name="DumpProjectModelActionText" xml:space="preserve">
+  <value>Дамп модели проекта</value>
+</data>
+<data name="Recent_Text" xml:space="preserve">
+  <value>Недавние</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Disable_all_tips" xml:space="preserve">
+  <value>Отключить все подсказки</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Tooltip_Close_And_Disable" xml:space="preserve">
+  <value>Больше не показывать эту подсказку</value>
+</data>
+<data name="Yes_Button_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="UsageStatisticsNotifyIconTitle__0" xml:space="preserve">
+  <value>Помогите нам улучшить {0}!</value>
+</data>
+<data name="TestLicensesActionText" xml:space="preserve">
+  <value>Тест лицензий</value>
+</data>
+<data name="TestLicenses_Text" xml:space="preserve">
+  <value>Тест лицензий</value>
+</data>
+<data name="SelectPrevious_DescriptionText" xml:space="preserve">
+  <value>Выбрать предыдущее (_P)</value>
+</data>
+<data name="TreeModelBrowserStateSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки состояния обозревателя древовидной модели</value>
+</data>
+<data name="Validation_Validators_MustBeValidRelativePath_Text" xml:space="preserve">
+  <value>Значение не является допустимым путем</value>
+</data>
+<data name="AnalyzeProjectReferenceProblemsActionText" xml:space="preserve">
+  <value>Анализировать проблемы ссылок проекта</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Failed" xml:space="preserve">
+  <value>{0} не выполнено</value>
+</data>
+<data name="SpecifyPathTemplatesForTemporaryFiles_Text_Text" xml:space="preserve">
+  <value>Шаблоны путей для временных файлов и каталогов. Поддерживаются переменные среды (например, %TEMP%) и подстановочные знаки (?,*,**).</value>
+</data>
+<data name="UnitTesting_Session_OutputPanel_Header_Inconclusive" xml:space="preserve">
+  <value>{0} безрезультатно</value>
+</data>
+<data name="AssemblyReferencesWillBeAddedOnlyFor_Text" xml:space="preserve">
+  <value>Ссылки на сборки будут добавлены только для следующих платформ:
+ {0}</value>
+</data>
+<data name="DumpProjectsTargetFrameworkScopesActionText" xml:space="preserve">
+  <value>Дамп областей целевых платформ проектов</value>
+</data>
+<data name="SuggestionNotification_SuggestionNotification_Try_now" xml:space="preserve">
+  <value>Попробовать сейчас</value>
+</data>
+<data name="AddReferencesSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки добавления ссылок</value>
+</data>
+<data name="TemporaryFilesAndLocationsToCleanUp_Text_Text" xml:space="preserve">
+  <value>Временные файлы и каталоги, требующие периодической очистки</value>
+</data>
+<data name="Reset_Button_Text" xml:space="preserve">
+  <value>Сбросить</value>
+</data>
+<data name="CleanUpO_utdatedSelected_Button_Text" xml:space="preserve">
+  <value>Очистить выбранное местоположение (_C)</value>
+</data>
+<data name="Copy_DescriptionText" xml:space="preserve">
+  <value>Копировать (_C)</value>
+</data>
+<data name="DumpAppDomainInformationActionText" xml:space="preserve">
+  <value>Дамп информации AppDomain</value>
+</data>
+<data name="ToSaveTheChangesGloballyClickSaveTo_Text" xml:space="preserve">
+  <value>Для глобального сохранения изменений нажмите "Сохранить в" и выберите "Этот компьютер".</value>
+</data>
+</root>

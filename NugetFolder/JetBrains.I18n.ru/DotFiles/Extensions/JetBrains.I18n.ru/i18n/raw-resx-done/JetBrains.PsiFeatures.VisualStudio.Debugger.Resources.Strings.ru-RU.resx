@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="EvaluatePossiblyMutatingExpression_Text" xml:space="preserve">
+  <value>Вычислить возможно изменяющееся выражение</value>
+</data>
+<data name="Breakpoints_Text" xml:space="preserve">
+  <value>Точки останова</value>
+</data>
+<data name="AutoEvaluatePropertyActionDescription" xml:space="preserve">
+  <value>Автоматически вычислять свойства</value>
+</data>
+<data name="InDebugModeReSharperTriesToNavigate_Text" xml:space="preserve">
+  <value>В режиме отладки ReSharper пытается перейти к фактическому типу экземпляра вместо статически известного типа</value>
+</data>
+<data name="OK_Link_Text" xml:space="preserve">
+  <value>OK</value>
+</data>
+<data name="HexadecimalPropertyActionText" xml:space="preserve">
+  <value>Шестнадцатеричное свойство</value>
+</data>
+<data name="CreateObjectIdActionDescription" xml:space="preserve">
+  <value>Создать ID объекта</value>
+</data>
+<data name="DisableImplicitPropertyEvaluationActionText" xml:space="preserve">
+  <value>Отключить неявное вычисление свойств</value>
+</data>
+<data name="EnableImplicitPropertyEvaluationActionText" xml:space="preserve">
+  <value>Включить неявное вычисление свойств</value>
+</data>
+<data name="EditValueActionText" xml:space="preserve">
+  <value>Редактировать значение</value>
+</data>
+<data name="Show__Text" xml:space="preserve">
+  <value>Показать {0}</value>
+</data>
+<data name="EnableLinqAdornments_BoolOption_Text" xml:space="preserve">
+  <value>Показывать значения LINQ-выражений</value>
+</data>
+<data name="SpecifiesWhetherToShowCurrentExpressionsValuesInEditorSettingDescription" xml:space="preserve">
+  <value>Определяет, показывать ли значения текущих выражений в редакторе</value>
+</data>
+<data name="ShowCurrentLineExpressionsValues_BoolOption_Text" xml:space="preserve">
+  <value>Показывать значения выражений текущей строки</value>
+</data>
+<data name="RunPredictiveDebugger_Text" xml:space="preserve">
+  <value>Запустить предиктивный отладчик (Бета)</value>
+</data>
+<data name="LoadSymbolsWithReSharperDecompilerActionText" xml:space="preserve">
+  <value>Загрузить символы с помощью декомпилятора ReSharper (&amp;R)</value>
+</data>
+<data name="HexadecimalPropertyActionDescription" xml:space="preserve">
+  <value>Шестнадцатеричное свойство</value>
+</data>
+<data name="AutoEvaluatePropertyActionText" xml:space="preserve">
+  <value>Автоматически вычислять свойства</value>
+</data>
+<data name="CallStackActionText" xml:space="preserve">
+  <value>Стек вызовов</value>
+</data>
+<data name="PredictiveDebuggerIsStarted_Text" xml:space="preserve">
+  <value>Предиктивный отладчик запущен</value>
+</data>
+<data name="NavigateToActualTypeInGoToDeclaration_ComboEnum_Caption" xml:space="preserve">
+  <value>Переходить к фактическому типу в "Перейти к объявлению":</value>
+</data>
+<data name="PureChildrenSettingDescription" xml:space="preserve">
+  <value>Чистые дочерние элементы</value>
+</data>
+<data name="InlayEditorHints_Header_Text" xml:space="preserve">
+  <value>Встроенные подсказки редактора</value>
+</data>
+<data name="NavigationOptionPageTitle" xml:space="preserve">
+  <value>Навигация</value>
+</data>
+<data name="HighlightPropertyActionDescription" xml:space="preserve">
+  <value>Выделить свойство</value>
+</data>
+<data name="CopyActionText" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="CallStackActionBarActionGroupText" xml:space="preserve">
+  <value>Панель действий стека вызовов</value>
+</data>
+<data name="DisableImplicitPropertyEvaluationActionDescription" xml:space="preserve">
+  <value>Отключить неявное вычисление свойств</value>
+</data>
+<data name="HighlightedChildrenSettingDescription" xml:space="preserve">
+  <value>Выделенные дочерние элементы</value>
+</data>
+<data name="EnableImplicitPropertyEvaluationActionDescription" xml:space="preserve">
+  <value>Включить неявное вычисление свойств</value>
+</data>
+<data name="DebuggerDataTips_Header_Text" xml:space="preserve">
+  <value>Подсказки отладчика</value>
+</data>
+<data name="PredictionInside_Text" xml:space="preserve">
+  <value>Внутренняя прогнозизация</value>
+</data>
+<data name="HideInsidePrediction_Text" xml:space="preserve">
+  <value>Скрыть вложенные прогнозы</value>
+</data>
+<data name="SpecifiesWhetherToShowLocalVariablesValuesInEditorSettingDescription" xml:space="preserve">
+  <value>Определяет, показывать ли значения локальных переменных в редакторе</value>
+</data>
+<data name="DataTips_Header_Text" xml:space="preserve">
+  <value>Подсказки данных</value>
+</data>
+<data name="ObjectExplorerContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню обозревателя объектов</value>
+</data>
+<data name="EvaluateActionDescription" xml:space="preserve">
+  <value>Вычислить</value>
+</data>
+<data name="BreakpointsWindowContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню окна точек останова</value>
+</data>
+<data name="HidePredictiveDebugger_Text" xml:space="preserve">
+  <value>Остановить прогнозирование значений</value>
+</data>
+<data name="UseTextEditorFontForEditorAdornmentsSettingDescription" xml:space="preserve">
+  <value>Использовать шрифт текстового редактора для оформления редактора</value>
+</data>
+<data name="ExternalStackFrameLibraryLoadRequest_Text" xml:space="preserve">
+  <value>Запрос загрузки библиотеки внешнего кадра стека</value>
+</data>
+<data name="SpecifiesWhetherToShowFunctionReturnValueInEditorSettingDescription" xml:space="preserve">
+  <value>Определяет, показывать ли возвращаемое значение функции в редакторе</value>
+</data>
+<data name="DeleteActionText" xml:space="preserve">
+  <value>Удалить (&amp;D)</value>
+</data>
+<data name="CopyValueActionDescription" xml:space="preserve">
+  <value>Копировать значение</value>
+</data>
+<data name="CallStackWindowContextMenuActionGroupText" xml:space="preserve">
+  <value>Контекстное меню окна стека вызовов</value>
+</data>
+<data name="EditorIntegrationOptionPageTitle" xml:space="preserve">
+  <value>Интеграция с редактором</value>
+</data>
+<data name="BreakpointsActionBarActionGroupText" xml:space="preserve">
+  <value>Панель действий точек останова</value>
+</data>
+<data name="CopyExpressionActionDescription" xml:space="preserve">
+  <value>Копировать выражение</value>
+</data>
+<data name="EnableActionText" xml:space="preserve">
+  <value>Включить (&amp;E)</value>
+</data>
+<data name="ToggleActionText" xml:space="preserve">
+  <value>Переключить</value>
+</data>
+<data name="AddToVSWatchActionDescription" xml:space="preserve">
+  <value>Добавить в наблюдение VS</value>
+</data>
+<data name="RecursiveReference__ToolTip" xml:space="preserve">
+  <value>Рекурсивная ссылка</value>
+</data>
+<data name="DebuggerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки отладчика</value>
+</data>
+<data name="BreakpointsActionText" xml:space="preserve">
+  <value>Точки останова (&amp;B)</value>
+</data>
+<data name="EditValueActionDescription" xml:space="preserve">
+  <value>Редактировать значение</value>
+</data>
+<data name="_MayInvolveAnImpureFunctionCallOrChange_Text" xml:space="preserve">
+  <value>Выполнение '{0}' может привести к вызову нечистой функции или иным образом изменить состояние программы</value>
+</data>
+<data name="CopyValueActionText" xml:space="preserve">
+  <value>Копировать значение</value>
+</data>
+<data name="HighlightPropertyActionText" xml:space="preserve">
+  <value>Выделить свойство</value>
+</data>
+<data name="Frame_Text" xml:space="preserve">
+  <value>Кадр</value>
+</data>
+<data name="PossiblyImpureEvaluation_Text" xml:space="preserve">
+  <value>Возможно нечистое вычисление</value>
+</data>
+<data name="ClassWatchesSettingDescription" xml:space="preserve">
+  <value>Наблюдения классов</value>
+</data>
+<data name="DisplayHintsIn_RadioOption_Caption" xml:space="preserve">
+  <value>Отображать подсказки в:</value>
+</data>
+<data name="_VisualStudioIntelliSenseFont_Text" xml:space="preserve">
+  <value>Шрифт Visual Studio IntelliSense (_V)</value>
+</data>
+<data name="Close_Link_Text" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="ShowInBreakpointsWindow_Text" xml:space="preserve">
+  <value>Показать в окне точек останова</value>
+</data>
+<data name="MakeObjectID_Text" xml:space="preserve">
+  <value>Создать ID объекта</value>
+</data>
+<data name="ShowFunctionReturnValues_BoolOption_Text" xml:space="preserve">
+  <value>Показывать возвращаемые значения функций</value>
+</data>
+<data name="CopyActionDescription" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="CallStack_Text" xml:space="preserve">
+  <value>Стек вызовов:</value>
+</data>
+<data name="DeleteObjectID_Text" xml:space="preserve">
+  <value>Удалить ID объекта</value>
+</data>
+<data name="GotoDeclarationActionText" xml:space="preserve">
+  <value>Перейти к объявлению</value>
+</data>
+<data name="EvaluateActionText" xml:space="preserve">
+  <value>Вычислить</value>
+</data>
+<data name="ThereAreNoBreakpoints_Text" xml:space="preserve">
+  <value>Точки останова отсутствуют.</value>
+</data>
+<data name="AddToVSWatchActionText" xml:space="preserve">
+  <value>Добавить в наблюдение VS</value>
+</data>
+<data name="GoToDeclarationOpenMethodFromTheReal_Text" xml:space="preserve">
+  <value>Переход к объявлению открывает метод из реального типа</value>
+</data>
+<data name="DebuggerOptionPageTitle" xml:space="preserve">
+  <value>Отладчик</value>
+</data>
+<data name="ShowCustomVisualizerActionText" xml:space="preserve">
+  <value>Показать пользовательский визуализатор</value>
+</data>
+<data name="SpecifiesWhetherToOverrideVisualStudioDataTipsWithReSharperDataTipsSettingDescription" xml:space="preserve">
+  <value>Определяет, заменять ли подсказки данных Visual Studio подсказками ReSharper</value>
+</data>
+<data name="OverrideVisualStudioDataTipsWithReSharper_BoolOption_Text" xml:space="preserve">
+  <value>Заменить подсказки данных Visual Studio подсказками ReSharper</value>
+</data>
+<data name="DisableActionText" xml:space="preserve">
+  <value>Отключить (&amp;D)</value>
+</data>
+<data name="CopyExpressionActionText" xml:space="preserve">
+  <value>Копировать выражение</value>
+</data>
+<data name="ReplaceVisualStudioDataTipsWithReSharper_BoolOption_Text" xml:space="preserve">
+  <value>Заменить подсказки данных Visual Studio подсказками ReSharper</value>
+</data>
+<data name="ShowInCallStackWindow_Text" xml:space="preserve">
+  <value>Показать в окне стека вызовов</value>
+</data>
+<data name="GotoBreakpointsActionText" xml:space="preserve">
+  <value>Точки останова (&amp;B)…</value>
+</data>
+<data name="HexadecimalChildrenSettingDescription" xml:space="preserve">
+  <value>Шестнадцатеричные дочерние элементы</value>
+</data>
+<data name="CreateObjectIdActionText" xml:space="preserve">
+  <value>Создать ID объекта</value>
+</data>
+<data name="CurrentIteration__Text" xml:space="preserve">
+  <value>Текущая итерация {0}</value>
+</data>
+<data name="GotoDeclarationActionDescription" xml:space="preserve">
+  <value>Перейти к объявлению</value>
+</data>
+<data name="Text_EditorFont_Text" xml:space="preserve">
+  <value>Шрифт текстового редактора (_E)</value>
+</data>
+<data name="ShowLocalVariablesValues_BoolOption_Text" xml:space="preserve">
+  <value>Показывать значения локальных переменных</value>
+</data>
+<data name="DebuggerTypeVisualizingSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки визуализации типов отладчика</value>
+</data>
+<data name="ActualTypeKnownFromTheDebuggerWasUsed_Text" xml:space="preserve">
+  <value>Для навигации использовался фактический тип, известный отладчику</value>
+</data>
+</root>

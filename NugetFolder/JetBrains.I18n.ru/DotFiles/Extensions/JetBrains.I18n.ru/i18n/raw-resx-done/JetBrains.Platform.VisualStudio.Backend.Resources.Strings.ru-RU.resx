@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Intelli_JIDEA_Text" xml:space="preserve">
+  <value>IntelliJ IDEA(_J)</value>
+</data>
+<data name="CloseAllActionText" xml:space="preserve">
+  <value>Закрыть все</value>
+</data>
+<data name="HideVisualStudioInheritanceMargin_Text" xml:space="preserve">
+  <value>Скрыть поле наследования Visual Studio</value>
+</data>
+<data name="ThereIsABuildCurrentlyRunningDoYouWant_Text" xml:space="preserve">
+  <value>Сейчас выполняется сборка.
+Выполнить сейчас, не дожидаясь завершения этой сборки?</value>
+</data>
+<data name="AttachTo__Text" xml:space="preserve">
+  <value>Присоединиться к {0}</value>
+</data>
+<data name="ReSharperWillReplaceVisualStudioRefactorings_Text_Text" xml:space="preserve">
+  <value>ReSharper заменит рефакторинги Visual Studio собственными рефакторингами</value>
+</data>
+<data name="TheListOfOverriddenVisualStudioCommands_Text" xml:space="preserve">
+  <value>Список переопределенных команд Visual Studio находится на странице параметров *Среда | Клавиатура | Команды Visual Studio*</value>
+</data>
+<data name="SelectProcessToAttach_Text" xml:space="preserve">
+  <value>Выберите процесс для присоединения</value>
+</data>
+<data name="_VSStartup_Text" xml:space="preserve">
+  <value>{0} (запуск VS)</value>
+</data>
+<data name="Debug_Text" xml:space="preserve">
+  <value>Отладка</value>
+</data>
+<data name="ThePackageHasFailedToExecuteTheAction_Text" xml:space="preserve">
+  <value>Не удалось выполнить действие</value>
+</data>
+<data name="CheckNgenStateActionText" xml:space="preserve">
+  <value>Проверить состояние Ngen</value>
+</data>
+<data name="CommandLineArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы командной строки</value>
+</data>
+<data name="ExeConfigSettingDescription" xml:space="preserve">
+  <value>Конфигурация .exe</value>
+</data>
+<data name="VisualStudioCommand_Text" xml:space="preserve">
+  <value>Команда Visual Studio</value>
+</data>
+<data name="WorkingDirectorySettingDescription" xml:space="preserve">
+  <value>Рабочий каталог</value>
+</data>
+<data name="StartShellActionText" xml:space="preserve">
+  <value>Запустить оболочку</value>
+</data>
+<data name="PlatformVersionSettingDescription" xml:space="preserve">
+  <value>Версия платформы</value>
+</data>
+<data name="HideReSharperInheritanceIconsIfThey_Text" xml:space="preserve">
+  <value>Скрывать значки наследования ReSharper, если они дублируют значки поля наследования Visual Studio</value>
+</data>
+<data name="AutoAttach_Text" xml:space="preserve">
+  <value>Автоприсоединение</value>
+</data>
+<data name="DoNotSetAnyShortcutsYouCanConfigure_Comment_Text" xml:space="preserve">
+  <value>Не назначать сочетания клавиш. Вы всегда можете настроить команды {0} на странице «Среда | Клавиатура» в параметрах Visual Studio.</value>
+</data>
+<data name="PlatformArchitectureSettingDescription" xml:space="preserve">
+  <value>Архитектура платформы</value>
+</data>
+<data name="ProvidesAQuickAccessToReSharperMenu_Text" xml:space="preserve">
+  <value>Обеспечивает быстрый доступ к меню ReSharper, когда оно скрыто в мене «Расширения»</value>
+</data>
+<data name="KeepBothVisualStudioAndReSharperInheritance_Text" xml:space="preserve">
+  <value>Оставлять и значки наследования Visual Studio, и значки наследования ReSharper</value>
+</data>
+<data name="Usability_Header_Text" xml:space="preserve">
+  <value>Удобство использования</value>
+</data>
+<data name="CollapseAllActionText" xml:space="preserve">
+  <value>Свернуть все</value>
+</data>
+<data name="Share_Text" xml:space="preserve">
+  <value>Предоставить общий доступ</value>
+</data>
+<data name="Select_Text" xml:space="preserve">
+  <value>Выбрать</value>
+</data>
+<data name="DonTBuildByDefault_Text" xml:space="preserve">
+  <value>Не выполнять сборку по умолчанию</value>
+</data>
+<data name="VisualStudioInlineHints_Header_Text" xml:space="preserve">
+  <value>Встроенные подсказки Visual Studio</value>
+</data>
+<data name="_UseAltRShortcutToOpenReSharperMain_BoolOption_Text" xml:space="preserve">
+  <value>Использовать сочетание клавиш Alt+R для открытия главного меню ReSharper(_U)</value>
+</data>
+<data name="InvokeWithConsoleSettingDescription" xml:space="preserve">
+  <value>Вызывать с консолью</value>
+</data>
+<data name="NoteApplyingANewKeyboardSchemeDoesNot_Text" xml:space="preserve">
+  <value>Примечание. Применение новой схемы клавиатуры не отменяет никаких назначений клавиш из предыдущей схемы. Чтобы начать заново (и особенно чтобы восстановить назначения клавиш VS, удаленные схемой IDEA), сбросьте назначения клавиш на странице «Среда | Клавиатура» в параметрах Visual Studio к значениям по умолчанию.</value>
+</data>
+<data name="PressLeftCtrlKey3TimesInARowWithin__Text" xml:space="preserve">
+  <value>Нажмите левую клавишу Ctrl 3 раза подряд в течение {0} сек.</value>
+</data>
+<data name="StaticMethod_Text" xml:space="preserve">
+  <value>статический метод</value>
+</data>
+<data name="_VisualStudio_Text" xml:space="preserve">
+  <value>_Visual Studio</value>
+</data>
+<data name="EnableShortcutBrowserExperimental_BoolOption_Text" xml:space="preserve">
+  <value>Включить браузер сочетаний клавиш (экспериментально)</value>
+</data>
+<data name="ReadMore_Caption" xml:space="preserve">
+  <value>Подробнее</value>
+</data>
+<data name="SelectFolder_Caption" xml:space="preserve">
+  <value>Выберите папку</value>
+</data>
+<data name="ShortcutSchemeOptionPageTitle" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="PathToExeSettingDescription" xml:space="preserve">
+  <value>Путь к .exe</value>
+</data>
+<data name="Configure_Text" xml:space="preserve">
+  <value>Настроить</value>
+</data>
+<data name="CommandsMenus_Header_Text" xml:space="preserve">
+  <value>Команды и меню</value>
+</data>
+<data name="_IsAboutToOpen_FilesToMakeUndoOperation_Text" xml:space="preserve">
+  <value>{0} собирается открыть {1} файл(ов), что может заметно повлиять на производительность. Нажмите «Да», чтобы открыть эти файлы, или «Нет», чтобы продолжить, но без возможности отмены рефакторинга.</value>
+</data>
+<data name="DisableReadingThisSolutionFromDisk_Caption" xml:space="preserve">
+  <value>Отключить чтение этого решения с диска</value>
+</data>
+<data name="VisualStudioFeaturesOptionPageTitle" xml:space="preserve">
+  <value>Функции Visual Studio</value>
+</data>
+<data name="KeyboardOptionPageTitle" xml:space="preserve">
+  <value>Клавиатура</value>
+</data>
+<data name="_WithoutBuilding_Text" xml:space="preserve">
+  <value>{0} без сборки</value>
+</data>
+<data name="MethodConfigSettingDescription" xml:space="preserve">
+  <value>Конфигурация метода</value>
+</data>
+<data name="AreYouSureYouWantToDelete__Text" xml:space="preserve">
+  <value>Вы уверены, что хотите удалить «{0}»?</value>
+</data>
+<data name="_WouldYouLikeToContinueAndUseTheLast_Text" xml:space="preserve">
+  <value>Вы хотите продолжить и использовать последнюю успешную сборку для запуска {0}?</value>
+</data>
+<data name="DumpRevisionDatabase" xml:space="preserve">
+  <value>Дамп базы данных редакций</value>
+</data>
+<data name="ToggleSuspendedActionText" xml:space="preserve">
+  <value>Приостановить/Возобновить</value>
+</data>
+<data name="VSStartup_Text" xml:space="preserve">
+  <value>Запуск VS</value>
+</data>
+<data name="UseVisualStudioInheritanceMargin_Text" xml:space="preserve">
+  <value>Использовать поле наследования Visual Studio</value>
+</data>
+<data name="LaunchProject_Text" xml:space="preserve">
+  <value>Запускаемый проект</value>
+</data>
+<data name="YouCanUseToolsOptionsTextEditorCOrBasic_Text" xml:space="preserve">
+  <value>Поле наследования Visual Studio можно настроить в параметрах *Сервис | Параметры | Текстовый редактор | C# или Basic | Дополнительно | Показать поле наследования*</value>
+</data>
+<data name="DisableVisualStudioInlineHints_BoolOption_Text" xml:space="preserve">
+  <value>Отключить встроенные подсказки Visual Studio</value>
+</data>
+<data name="ShortcutScheme_Text" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="InheritanceMargin_RadioOption_Caption" xml:space="preserve">
+  <value>Поле наследования</value>
+</data>
+<data name="_OverrideVisualStudioRefactorings_BoolOption_Text" xml:space="preserve">
+  <value>Переопределить рефакторинги Visual Studio(_O)</value>
+</data>
+<data name="ReSharperInProcessActionGroup_Text" xml:space="preserve">
+  <value>Внутрипроцессный R#</value>
+</data>
+<data name="BasedOnTheIntelliJIDEAKeyboardLayout_Comment_Text" xml:space="preserve">
+  <value>Основанная на раскладке клавиатуры IntelliJ IDEA, эта схема удовлетворит потребности разработчиков, знакомых с Java, или тех, кто привык использовать сочетания клавиш на основе IDEA в ReSharper 2.5 и более ранних версий. Следовательно, это изменит значения многих стандартных сочетаний клавиш Visual Studio.</value>
+</data>
+<data name="ReSharperOutOfProcessActionGroup_Text" xml:space="preserve">
+  <value>Внепроцессный R#</value>
+</data>
+<data name="SelectIndividualVisualStudioCommands_Text" xml:space="preserve">
+  <value>Выберите отдельные команды Visual Studio для переопределения:</value>
+</data>
+<data name="Keyboard_Text" xml:space="preserve">
+  <value>Клавиатура</value>
+</data>
+<data name="ResumeActionText" xml:space="preserve">
+  <value>Продолжить</value>
+</data>
+<data name="SyncSolution__Text" xml:space="preserve">
+  <value>Синхронизировать решение: {0}</value>
+</data>
+<data name="KeyboardScheme_Header_Text" xml:space="preserve">
+  <value>Схема клавиатуры</value>
+</data>
+<data name="VSInheritanceMarginOptionPageTitle" xml:space="preserve">
+  <value>Поле наследования VS</value>
+</data>
+<data name="UseReSharperInheritanceIcons_Text" xml:space="preserve">
+  <value>Использовать значки наследования ReSharper</value>
+</data>
+<data name="Executable_Text" xml:space="preserve">
+  <value>Исполняемый файл</value>
+</data>
+<data name="SuspendActionText" xml:space="preserve">
+  <value>Приостановить</value>
+</data>
+<data name="DesignedForUsersWithVisualStudioBackground_Comment_Text" xml:space="preserve">
+  <value>Эта схема предназначена для пользователей, знакомых с Visual Studio, и привязывает функции {0} к стандартным сочетаниям клавиш Visual Studio, где это возможно. Для функций {0}, у которых нет эквивалента в VS, выбираются сочетания клавиш таким образом, чтобы они не конфликтовали с существующими функциями VS.</value>
+</data>
+<data name="_ApplyScheme_Button_Text" xml:space="preserve">
+  <value>Применить схему(_A)</value>
+</data>
+<data name="_None_Text" xml:space="preserve">
+  <value>Нет(_N)</value>
+</data>
+<data name="ReSharperCommand_Text" xml:space="preserve">
+  <value>Команда ReSharper</value>
+</data>
+<data name="DeleteConfirmation_Caption" xml:space="preserve">
+  <value>Подтверждение удаления</value>
+</data>
+<data name="Shortcuts_Text" xml:space="preserve">
+  <value>Сочетания клавиш</value>
+</data>
+<data name="Unshare_Text" xml:space="preserve">
+  <value>Остановить общий доступ</value>
+</data>
+<data name="Duplicate_Text" xml:space="preserve">
+  <value>Дублировать…</value>
+</data>
+<data name="FullPathToTheMethodSettingDescription" xml:space="preserve">
+  <value>Полный путь к методу</value>
+</data>
+<data name="AttachActionText" xml:space="preserve">
+  <value>Присоединить</value>
+</data>
+<data name="VisualStudioCommandsOptionPageTitle" xml:space="preserve">
+  <value>Команды Visual Studio</value>
+</data>
+<data name="_SimplifyVisualStudioMenus_BoolOption_Text" xml:space="preserve">
+  <value>Упростить меню Visual Studio(_S)</value>
+</data>
+<data name="Delete_Text" xml:space="preserve">
+  <value>Удалить…</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить…</value>
+</data>
+<data name="Edit_Text" xml:space="preserve">
+  <value>Изменить…</value>
+</data>
+<data name="Run_Text" xml:space="preserve">
+  <value>Запустить</value>
+</data>
+<data name="FailedToExecuteRunConfiguration_Caption" xml:space="preserve">
+  <value>Не удалось выполнить конфигурацию запуска</value>
+</data>
+<data name="SomeOverriddenVisualStudioCommandsCould_Text_Text" xml:space="preserve">
+  <value>Некоторые переопределенные команды Visual Studio можно скрыть в меню, чтобы избежать дублирования команд</value>
+</data>
+</root>

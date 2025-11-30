@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Field_Text" xml:space="preserve">
+  <value>Поле</value>
+</data>
+<data name="ToStaticReference_Text" xml:space="preserve">
+  <value>Преобразовать в статическую ссылку</value>
+</data>
+<data name="ExtractPropertySetterToStyleContextAction_Name" xml:space="preserve">
+  <value>Извлечь сеттер свойства в стиль</value>
+</data>
+<data name="SetBuildActionTo__Text" xml:space="preserve">
+  <value>Установить действие сборки в {0}</value>
+</data>
+<data name="MoveToNestedFolder_Text" xml:space="preserve">
+  <value>Переместить во вложенную папку</value>
+</data>
+<data name="RemoveRedundant_Attribute_Text" xml:space="preserve">
+  <value>Удалить избыточный атрибут '{0}'</value>
+</data>
+<data name="RenameTo__Text" xml:space="preserve">
+  <value>Переименовать в '{0}'</value>
+</data>
+<data name="RemoveCastFromBindingPath_Text" xml:space="preserve">
+  <value>Удалить приведение из пути привязки</value>
+</data>
+<data name="ChangeXAMLTypeOrTypeMemberAccessRightsContextAction_Name" xml:space="preserve">
+  <value>Изменить права доступа типа XAML или члена типа</value>
+</data>
+<data name="CollectPredefinedResources_Text" xml:space="preserve">
+  <value>Собрать предопределенные ресурсы</value>
+</data>
+<data name="CreateXAMLType_Text" xml:space="preserve">
+  <value>Создать тип XAML</value>
+</data>
+<data name="RemoveForbiddenNameAttribute_Text" xml:space="preserve">
+  <value>Удалить запрещенный атрибут name</value>
+</data>
+<data name="Make_Member_Static_Text" xml:space="preserve">
+  <value>Сделать {0} {1} статическим</value>
+</data>
+<data name="ExtractToStyle__Text" xml:space="preserve">
+  <value>Извлечь в стиль '{0}'</value>
+</data>
+<data name="RemoveRedundantSpanAttributes_Text" xml:space="preserve">
+  <value>Удалить избыточные атрибуты span</value>
+</data>
+<data name="CreateDeviceFamilySpecificViewContextAction_Name" xml:space="preserve">
+  <value>Создать представление для конкретного семейства устройств</value>
+</data>
+<data name="CollectingTypes_Text" xml:space="preserve">
+  <value>Сбор типов</value>
+</data>
+<data name="EditPathMappingContextAction_Name" xml:space="preserve">
+  <value>Редактировать сопоставление путей</value>
+</data>
+<data name="AddGridColumnRowDefinitionAfterCurrentOneContextAction_Name" xml:space="preserve">
+  <value>Добавить определение столбца/строки сетки после текущего</value>
+</data>
+<data name="QualifyAttachedPropertyPathOwnerTypeContextAction_Name" xml:space="preserve">
+  <value>Квалифицировать тип владельца пути присоединенного свойства</value>
+</data>
+<data name="RemoveClassDeclaration_Text" xml:space="preserve">
+  <value>Удалить объявление класса</value>
+</data>
+<data name="TransformDefinitionsToTags_Text" xml:space="preserve">
+  <value>Преобразовать определения в теги</value>
+</data>
+<data name="RemoveRedundantSpanAttribute_Text" xml:space="preserve">
+  <value>Удалить избыточный атрибут span</value>
+</data>
+<data name="RemoveRedundantStylePropertySetters_Text" xml:space="preserve">
+  <value>Удалить избыточные сеттеры свойств стиля</value>
+</data>
+<data name="QualifyPropertySetterOwnerTypeContextAction_Description" xml:space="preserve">
+  <value>Квалифицировать тип владельца сеттера свойства</value>
+</data>
+<data name="RemoveRedundantCollectionProperties_Text" xml:space="preserve">
+  <value>Удалить избыточные сеттеры свойств пустой коллекции</value>
+</data>
+<data name="CreateMethod__Text" xml:space="preserve">
+  <value>Создать метод {0}</value>
+</data>
+<data name="Create_ViewAt__Text" xml:space="preserve">
+  <value>Создать представление {0} в {1}</value>
+</data>
+<data name="Remove__Text" xml:space="preserve">
+  <value>Удалить {0}</value>
+</data>
+<data name="Make_Member_NotStatic_Text" xml:space="preserve">
+  <value>Сделать {0} {1} нестатическим</value>
+</data>
+<data name="Method_Text" xml:space="preserve">
+  <value>метод</value>
+</data>
+<data name="RemoveMarkupProperty_Text" xml:space="preserve">
+  <value>Удалить свойство разметки</value>
+</data>
+<data name="CreateField__Text" xml:space="preserve">
+  <value>Создать поле {0}</value>
+</data>
+<data name="RemoveRedundantFreezeAttribute_Text" xml:space="preserve">
+  <value>Удалить избыточный атрибут 'Freeze'</value>
+</data>
+<data name="RemoveRedundant_Attributes_Text" xml:space="preserve">
+  <value>Удалить избыточные атрибуты '{0}'</value>
+</data>
+<data name="CreateProperty__Text" xml:space="preserve">
+  <value>Создать свойство '{0}'</value>
+</data>
+<data name="Insert__Text" xml:space="preserve">
+  <value>Вставить {0}</value>
+</data>
+<data name="ChangeTypeOfParameterOfCalled_To__Text" xml:space="preserve">
+  <value>Изменить тип параметра вызываемого {0} на '{1}'</value>
+</data>
+<data name="MakeConstructorPublic_Text" xml:space="preserve">
+  <value>Сделать конструктор публичным</value>
+</data>
+<data name="CreateOverloadFor__Text" xml:space="preserve">
+  <value>Создать перегрузку для {0}</value>
+</data>
+<data name="ToQualifiedSetter_Text" xml:space="preserve">
+  <value>Преобразовать в квалифицированный сеттер</value>
+</data>
+<data name="TransformToAttribute_Text" xml:space="preserve">
+  <value>Преобразовать в атрибут</value>
+</data>
+<data name="ChangeResourceReferenceFromStaticToDynamicOrViceVersaContextAction_Name" xml:space="preserve">
+  <value>Изменить ссылку на ресурс со статической на динамическую или наоборот</value>
+</data>
+<data name="TransformRowColumnDefinitionsFromStringToTagsContextAction_Name" xml:space="preserve">
+  <value>Преобразовать определения строк/столбцов из строки в теги</value>
+</data>
+<data name="AddGridColumnRowDefinitionAfterCurrentOneContextAction_Description" xml:space="preserve">
+  <value>Добавить определение столбца/строки сетки после определения под текстовым курсором и обновить использования</value>
+</data>
+<data name="AddGridColumnRowDefinitionBeforeCurrentOneContextAction_Name" xml:space="preserve">
+  <value>Добавить определение столбца/строки сетки перед текущим</value>
+</data>
+<data name="QualifyAttachedPropertyPathOwnerTypeContextAction_Description" xml:space="preserve">
+  <value>Квалифицировать тип владельца пути привязки присоединенного свойства. Доступно только для WPF.</value>
+</data>
+<data name="MoveNextToParentView_Text" xml:space="preserve">
+  <value>Переместить следующий в родительское представление</value>
+</data>
+<data name="RemoveRedundantResources_Text" xml:space="preserve">
+  <value>Удалить избыточные ресурсы</value>
+</data>
+<data name="RemoveAllRedundantNamespaceAliases_Text" xml:space="preserve">
+  <value>Удалить все избыточные псевдонимы пространств имен</value>
+</data>
+<data name="RemoveRedundantUpdateSourceTriggerAttributes_Text" xml:space="preserve">
+  <value>Удалить избыточные атрибуты 'UpdateSourceTrigger'</value>
+</data>
+<data name="AddBindBackAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут BindBack</value>
+</data>
+<data name="ImportType_Text" xml:space="preserve">
+  <value>Импортировать тип</value>
+</data>
+<data name="RemoveTypeQualifier_Text" xml:space="preserve">
+  <value>Удалить квалификатор типа</value>
+</data>
+<data name="ChangeSignatureOf__Text" xml:space="preserve">
+  <value>Изменить сигнатуру '{0}'</value>
+</data>
+<data name="CreateResourceIn___Text" xml:space="preserve">
+  <value>Создать ресурс в {0} &lt;{1}&gt;</value>
+</data>
+<data name="RemoveMarkupExtensionPropertyContextAction_Description" xml:space="preserve">
+  <value>Удалить свойство расширения разметки</value>
+</data>
+<data name="CastArgumentTo__Text" xml:space="preserve">
+  <value>Привести аргумент к '{0}'</value>
+</data>
+<data name="ChangeXAMLTypeOrTypeMemberAccessRightsContextAction_Description" xml:space="preserve">
+  <value>Изменить права доступа типа XAML или члена типа</value>
+</data>
+<data name="RemoveGridColumnRowDefinitionContextAction_Description" xml:space="preserve">
+  <value>Удалить определение столбца/строки сетки и обновить использования</value>
+</data>
+<data name="CreateNamespaceAliasFromUsage_Text" xml:space="preserve">
+  <value>Создать псевдоним пространства имен из использования</value>
+</data>
+<data name="CreateEventHandler_Text" xml:space="preserve">
+  <value>Создать обработчик событий</value>
+</data>
+<data name="RemoveUpdateSourceTriggerAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут UpdateSourceTrigger</value>
+</data>
+<data name="MakeMethodMyDeclarationDeclaredName_Text" xml:space="preserve">
+  <value>Сделать метод {0} публичным</value>
+</data>
+<data name="ToDynamicReference_Text" xml:space="preserve">
+  <value>Преобразовать в динамическую ссылку</value>
+</data>
+<data name="AddXDataTypeAttribute_Text" xml:space="preserve">
+  <value>Добавить атрибут x:DataType</value>
+</data>
+<data name="ToThemeReference_Text" xml:space="preserve">
+  <value>Преобразовать в ссылку на тему</value>
+</data>
+<data name="ChangeBindingModeTo__Text" xml:space="preserve">
+  <value>Изменить режим привязки на {0}</value>
+</data>
+<data name="AddGridColumnRowDefinitionBeforeCurrentOneContextAction_Description" xml:space="preserve">
+  <value>Добавить определение столбца/строки сетки перед определением под текстовым курсором и обновить использования</value>
+</data>
+<data name="CreateType_Text" xml:space="preserve">
+  <value>Создать тип</value>
+</data>
+<data name="SpecifyDataContextType_Text" xml:space="preserve">
+  <value>Указать тип контекста данных</value>
+</data>
+<data name="RemoveRedundantResource_Text" xml:space="preserve">
+  <value>Удалить избыточный ресурс</value>
+</data>
+<data name="Make__Text" xml:space="preserve">
+  <value>Сделать {0}</value>
+</data>
+<data name="CreateDeviceFamilySpecificViewContextAction_Description" xml:space="preserve">
+  <value>Создать представление для конкретного семейства устройств</value>
+</data>
+<data name="MoveDeviceFamilyViewToNestedFolderAndBackContextAction_Description" xml:space="preserve">
+  <value>Переместить представление семейства устройств во вложенную папку и обратно</value>
+</data>
+<data name="ExtractPropertySetterToStyleContextAction_Description" xml:space="preserve">
+  <value>Извлечь сеттер свойства в стиль XAML</value>
+</data>
+<data name="ExtractToStyle_Text" xml:space="preserve">
+  <value>Извлечь в стиль</value>
+</data>
+<data name="Use__Text" xml:space="preserve">
+  <value>Использовать "{0}"</value>
+</data>
+<data name="QualifyAttachedPropertyType_Text" xml:space="preserve">
+  <value>Квалифицировать тип присоединенного свойства</value>
+</data>
+<data name="EditPathMappingContextAction_Description" xml:space="preserve">
+  <value>Открыть настройки сопоставления путей для текущего проекта</value>
+</data>
+<data name="CreateXAMLResourceContextAction_Description" xml:space="preserve">
+  <value>Создать ресурс XAML</value>
+</data>
+<data name="CreateTypeInheritedFrom_AndUseIt_Text" xml:space="preserve">
+  <value>Создать тип, унаследованный от {0}, и использовать этот тип</value>
+</data>
+<data name="CreateNestedType_Text" xml:space="preserve">
+  <value>Создать вложенный тип</value>
+</data>
+<data name="RemoveRedundantAttachedPropertySetters_Text" xml:space="preserve">
+  <value>Удалить избыточные сеттеры присоединенных свойств</value>
+</data>
+<data name="ChangeMethodSignature_Text" xml:space="preserve">
+  <value>Изменить сигнатуру метода</value>
+</data>
+<data name="RemoveRedundantStylePropertySetter_Text" xml:space="preserve">
+  <value>Удалить избыточный сеттер свойства стиля</value>
+</data>
+<data name="FixCase_Text" xml:space="preserve">
+  <value>Исправить регистр</value>
+</data>
+<data name="RemoveRedundantAttachedPropertySetter_Text" xml:space="preserve">
+  <value>Удалить избыточный сеттер присоединенного свойства</value>
+</data>
+<data name="ChangeResourceReferenceFromStaticToDynamicOrViceVersaContextAction_Description" xml:space="preserve">
+  <value>Переключить между статической и динамической ссылкой на ресурс</value>
+</data>
+<data name="Include_FileInProject_Text" xml:space="preserve">
+  <value>Включить файл '{0}' в проект</value>
+</data>
+<data name="QualifyPropertySetterOwnerTypeContextAction_Name" xml:space="preserve">
+  <value>Квалифицировать тип владельца сеттера свойства</value>
+</data>
+<data name="RemoveRedundantCollectionProperty_Text" xml:space="preserve">
+  <value>Удалить избыточный сеттер свойства пустой коллекции</value>
+</data>
+<data name="RemoveMarkupExtensionPropertyContextAction_Name" xml:space="preserve">
+  <value>Удалить свойство расширения разметки</value>
+</data>
+<data name="RemoveRedundantNamespaceAlias_Text" xml:space="preserve">
+  <value>Удалить избыточный псевдоним пространства имен</value>
+</data>
+<data name="NoResourceFound_Text" xml:space="preserve">
+  <value>Ресурс не найден</value>
+</data>
+<data name="SearchingForProperties_Text" xml:space="preserve">
+  <value>Поиск свойств</value>
+</data>
+<data name="Add_After_Text" xml:space="preserve">
+  <value>Добавить {0} после:</value>
+</data>
+<data name="Add_Before_Text" xml:space="preserve">
+  <value>Добавить {0} перед:</value>
+</data>
+<data name="RemoveRedundantNamespaceAliases_Text" xml:space="preserve">
+  <value>Удалить избыточные псевдонимы пространств имен</value>
+</data>
+<data name="RemoveXKeyDeclaration_Text" xml:space="preserve">
+  <value>Удалить объявление x:Key</value>
+</data>
+<data name="RemoveRedundantDefinitions_Text" xml:space="preserve">
+  <value>Удалить избыточные определения</value>
+</data>
+<data name="RemoveRedundantModeAttributes_Text" xml:space="preserve">
+  <value>Удалить избыточные атрибуты 'Mode'</value>
+</data>
+<data name="TransformRowColumnDefinitionsFromStringToTagsContextAction_Description" xml:space="preserve">
+  <value>Преобразовать определения строк/столбцов из краткого строкового представления в представление тегами</value>
+</data>
+<data name="SwapIndexAndType_Text" xml:space="preserve">
+  <value>Поменять индекс и тип местами</value>
+</data>
+<data name="RemoveAllRedundantStyledSetters_Text" xml:space="preserve">
+  <value>Удалить все сеттеры, значения которых предоставлены стилем</value>
+</data>
+<data name="CreateConstructor_Text" xml:space="preserve">
+  <value>Создать конструктор</value>
+</data>
+<data name="RemoveGridColumnRowDefinitionContextAction_Name" xml:space="preserve">
+  <value>Удалить определение столбца/строки сетки</value>
+</data>
+<data name="CreateXAMLResourceContextAction_Name" xml:space="preserve">
+  <value>Создать ресурс XAML</value>
+</data>
+<data name="___ToAvoidCollisionWithOverloadedMethods_Text" xml:space="preserve">
+  <value>{0} '{1}'{2} для избежания конфликта с перегруженными методами</value>
+</data>
+<data name="RemoveForbiddenNameAttributes_Text" xml:space="preserve">
+  <value>Удалить запрещенные атрибуты name</value>
+</data>
+<data name="RemoveRedundantUpdateSourceTriggerAttribute_Text" xml:space="preserve">
+  <value>Удалить избыточный атрибут 'UpdateSourceTrigger'</value>
+</data>
+<data name="RemoveBindBackAttribute_Text" xml:space="preserve">
+  <value>Удалить атрибут BindBack</value>
+</data>
+<data name="RemoveRedundantModeAttribute_Text" xml:space="preserve">
+  <value>Удалить избыточный атрибут 'Mode'</value>
+</data>
+<data name="RemoveRedundantModifiersAttributes_ScopedText" xml:space="preserve">
+  <value>Удалить избыточные атрибуты modifiers</value>
+</data>
+<data name="MoveDeviceFamilyViewToNestedFolderAndBackContextAction_Name" xml:space="preserve">
+  <value>Переместить представление семейства устройств во вложенную папку и обратно</value>
+</data>
+<data name="ReplaceProjectNameWithAssemblyName_Text" xml:space="preserve">
+  <value>Заменить имя проекта на имя сборки</value>
+</data>
+<data name="AddGrid_Specification_Text" xml:space="preserve">
+  <value>Добавить спецификацию Grid.{0}</value>
+</data>
+<data name="Create_Attribute_Text" xml:space="preserve">
+  <value>Создать атрибут {0}</value>
+</data>
+<data name="RemoveInvocationSArguments_Text" xml:space="preserve">
+  <value>Удалить аргументы вызова</value>
+</data>
+</root>

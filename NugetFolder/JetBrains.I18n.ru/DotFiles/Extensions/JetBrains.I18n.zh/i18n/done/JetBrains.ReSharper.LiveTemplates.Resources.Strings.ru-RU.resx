@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="InsertLiveTemplateActionText" xml:space="preserve">
+    <value>插入实时模板(&amp;L)…</value>
+  </data>
+  <data name="Edit_variables_Text" xml:space="preserve">
+    <value>编辑变量(_V)</value>
+  </data>
+  <data name="Template_Editable_UHJvcGVydHkEQ" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="In_WhereAnywhereExceptStringLiterals_Text" xml:space="preserve">
+    <value>在 {0} 中，允许除了字符串字面量以外的任何内容</value>
+  </data>
+  <data name="Template_Editable_VGhlICJNYWluIiBtZXRob2QgZGVjbGFyYXRpb24EQ" xml:space="preserve">
+    <value>"Main" 方法声明</value>
+  </data>
+  <data name="SuggestsXMLTagNameUsedInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+    <value>建议 XML 标记名称</value>
+  </data>
+  <data name="Template_Editable_Q3VycmVudCBmaWxlIGNvbnRleHQEQ" xml:space="preserve">
+    <value>当前文件上下文</value>
+  </data>
+  <data name="NoMacro_Text" xml:space="preserve">
+    <value>(没有宏)</value>
+  </data>
+  <data name="ErrorRemovingTemplate_Caption" xml:space="preserve">
+    <value>移除模板时出错</value>
+  </data>
+  <data name="Template_Editable_Y2hlY2tlZCBibG9jawEQEQ" xml:space="preserve">
+    <value>checked 块</value>
+  </data>
+  <data name="In_WhereNamespaceOrTypeDeclarationIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许命名空间或类型声明的位置</value>
+  </data>
+  <data name="Template_Editable_dGhyb3cgbmV3" xml:space="preserve">
+    <value>抛出新</value>
+  </data>
+  <data name="_Both_Text" xml:space="preserve">
+    <value>两者(_B)</value>
+  </data>
+  <data name="Template_Editable_VHJ5Q2FzdCBjbGF1c2UEQ" xml:space="preserve">
+    <value>TryCast 子句</value>
+  </data>
+  <data name="Template_Editable_Q1R5cGUEQ" xml:space="preserve">
+    <value>CType</value>
+  </data>
+  <data name="AllTemplatesActionText" xml:space="preserve">
+    <value>所有模板…</value>
+  </data>
+  <data name="DefaultCLiveTemplates_Text" xml:space="preserve">
+    <value>默认 C# 实时模板</value>
+  </data>
+  <data name="Template_IsBeingEditedDoYouWantToDiscard_Text" xml:space="preserve">
+    <value>正在编辑模板 '{0}'。要舍弃编辑并移除模板吗?</value>
+  </data>
+  <data name="InResxFileWhereDataTagIsExpected_Text" xml:space="preserve">
+    <value>在 Resx 文件中应为数据标记的位置</value>
+  </data>
+  <data name="Template_Editable_Q29uc3RydWN0b3IEQ" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="VisualBasicProjects_Text" xml:space="preserve">
+    <value>Visual Basic 项目</value>
+  </data>
+  <data name="InsertsTheFileHeaderSpecifiedInTheReSharperOptionsMacroDefinition_LongDescription" xml:space="preserve">
+    <value>插入设置中指定的文件头</value>
+  </data>
+  <data name="Template_Editable_dHJ5IGNhdGNo" xml:space="preserve">
+    <value>try catch</value>
+  </data>
+  <data name="Template_Editable_JkVudW0EQ" xml:space="preserve">
+    <value>枚举(&amp;E)</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIGFuIGVtcHR5IGFycmF5" xml:space="preserve">
+    <value>创建空数组</value>
+  </data>
+  <data name="_ExceptStrings_Text" xml:space="preserve">
+    <value>{0} 排除字符串</value>
+  </data>
+  <data name="Change_macro_Text" xml:space="preserve">
+    <value>更改宏(_M)</value>
+  </data>
+  <data name="CFiles_Text" xml:space="preserve">
+    <value>C# 文件</value>
+  </data>
+  <data name="DeleteTemplate_Text" xml:space="preserve">
+    <value>删除模板</value>
+  </data>
+  <data name="DefaultCFileTemplates_Text" xml:space="preserve">
+    <value>默认 C# 文件模板</value>
+  </data>
+  <data name="NotInQuickList_Text" xml:space="preserve">
+    <value>不在快速列表中:</value>
+  </data>
+  <data name="Template_Editable_U2FmZWx5IGNhc3QgYSB2YXJpYWJsZQEQEQ" xml:space="preserve">
+    <value>安全地转换变量</value>
+  </data>
+  <data name="InsertsIfRequiredCastToTheTypeWhichIsExpectedAtTheLeftSideOfAssignmentExpressionMacroDefinition_Description" xml:space="preserve">
+    <value>转换为所需类型(如果需要转换)</value>
+  </data>
+  <data name="Template_Editable_QXNzZXJ0IGV4cHJlc3Npb24gbm90IG51bGwEQ" xml:space="preserve">
+    <value>断言表达式非 null</value>
+  </data>
+  <data name="Template_Editable_c3dpdGNoIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+    <value>switch 语句</value>
+  </data>
+  <data name="Template_Editable_dHJ5IGNhdGNoIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+    <value>try catch 语句</value>
+  </data>
+  <data name="Template_Editable_dW5zYWZlIHN0YXRlbWVudAEQEQ" xml:space="preserve">
+    <value>unsafe 语句</value>
+  </data>
+  <data name="Template_Editable_U2ltcGxlICJmb3IiIGxvb3AEQ" xml:space="preserve">
+    <value>简单 "for" 循环</value>
+  </data>
+  <data name="_SuitableForTemplateSAvailabilityOnly_Text" xml:space="preserve">
+    <value>仅适用于模板的可用性(_S)</value>
+  </data>
+  <data name="Expression_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="Template_Editable_J3ZvaWQgTWFpbicgbWV0aG9k" xml:space="preserve">
+    <value>'void Main' 方法</value>
+  </data>
+  <data name="Template_Editable_aWYgc3RhdGVtZW50" xml:space="preserve">
+    <value>if 语句</value>
+  </data>
+  <data name="Template_Editable_SW5zZXJ0IG5ldyBHVUlE" xml:space="preserve">
+    <value>插入新 GUID</value>
+  </data>
+  <data name="S_urround_Text" xml:space="preserve">
+    <value>包围(_U)</value>
+  </data>
+  <data name="Template_Editable_JlN0cnVjdAEQEQ" xml:space="preserve">
+    <value>结构(&amp;S)</value>
+  </data>
+  <data name="_Reformat_Text" xml:space="preserve">
+    <value>重新格式化(_R)</value>
+  </data>
+  <data name="Shorten_qualifiedReferences_Text" xml:space="preserve">
+    <value>缩短限定引用(_Q)</value>
+  </data>
+  <data name="_All_Text" xml:space="preserve">
+    <value>所有(_A)</value>
+  </data>
+  <data name="Template_Editable_RGlyZWN0Q2FzdAEQEQ" xml:space="preserve">
+    <value>DirectCast</value>
+  </data>
+  <data name="SuggestsXMLTagNameUsedInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+    <value>建议当前文档中使用的 XML 标记名称</value>
+  </data>
+  <data name="Template_Editable_UmVzb3VyY2UgRGljdGlvbmFyeQEQEQ" xml:space="preserve">
+    <value>资源字典</value>
+  </data>
+  <data name="Template_Editable_ZG8uLi53aGlsZSBsb29w" xml:space="preserve">
+    <value>do...while 循环</value>
+  </data>
+  <data name="Template_Editable_U2FmZWx5IGNhc3QgdmFyaWFibGUEQ" xml:space="preserve">
+    <value>安全地转换变量</value>
+  </data>
+  <data name="Template_Editable_RGlyZWN0Q2FzdCBjbGF1c2UEQ" xml:space="preserve">
+    <value>DirectCast 子句</value>
+  </data>
+  <data name="In_WhereExpressionIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许表达式的位置</value>
+  </data>
+  <data name="AvailabilityConfiguration_Caption" xml:space="preserve">
+    <value>可用性配置</value>
+  </data>
+  <data name="In_WhereStatementIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许语句的位置</value>
+  </data>
+  <data name="AnywhereIn__Text" xml:space="preserve">
+    <value>{0} 中的任意位置</value>
+  </data>
+  <data name="Template_Editable_VXNpbmcEQ" xml:space="preserve">
+    <value>Using</value>
+  </data>
+  <data name="DefaultXMLFileTemplates_Text" xml:space="preserve">
+    <value>默认 XML 文件模板</value>
+  </data>
+  <data name="Options_Text" xml:space="preserve">
+    <value>选项:</value>
+  </data>
+  <data name="InResxFileWhereRootTagIsExpected_Text" xml:space="preserve">
+    <value>在 Resx 文件中应为根标记的位置</value>
+  </data>
+  <data name="Template_Editable_SWYuLkVsc2UEQ" xml:space="preserve">
+    <value>If..Else</value>
+  </data>
+  <data name="Template_Editable_SXRlcmF0ZSBhbiBhcnJheQEQEQ" xml:space="preserve">
+    <value>迭代数组</value>
+  </data>
+  <data name="Template_Editable_dXNpbmcgc3RhdGVtZW50" xml:space="preserve">
+    <value>using 语句</value>
+  </data>
+  <data name="AreYouSureYouWantToDeleteThisSection_Text" xml:space="preserve">
+    <value>确定要删除此部分吗?</value>
+  </data>
+  <data name="SurroundItemsContextAction_Description" xml:space="preserve">
+    <value>包围所选条目</value>
+  </data>
+  <data name="DefaultXMLSurroundTemplates_Text" xml:space="preserve">
+    <value>默认 XML 包围模板</value>
+  </data>
+  <data name="DefaultXMLLiveTemplates_Text" xml:space="preserve">
+    <value>默认 XML 实时模板</value>
+  </data>
+  <data name="Template_Editable_cmV2ZXJzZSBmb3IgbG9vcAEQEQ" xml:space="preserve">
+    <value>反转 for 循环</value>
+  </data>
+  <data name="Template_Editable_UmV2ZXJzZSAnZm9yJyBsb29w" xml:space="preserve">
+    <value>反转 'for' 循环</value>
+  </data>
+  <data name="Template_Editable_Y2FzdAEQEQ" xml:space="preserve">
+    <value>转换</value>
+  </data>
+  <data name="Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ" xml:space="preserve">
+    <value>Console.WriteLine</value>
+  </data>
+  <data name="Template_Editable_Q2xhc3MvSW50ZXJmYWNl" xml:space="preserve">
+    <value>类/接口</value>
+  </data>
+  <data name="Template_Editable_JlN0cnVjdHVyZQEQEQ" xml:space="preserve">
+    <value>结构(&amp;S)</value>
+  </data>
+  <data name="CProjects_Text" xml:space="preserve">
+    <value>C# 项目</value>
+  </data>
+  <data name="Template_Editable_SXRlcmF0ZSBhcnJheSBpbiByZXZlcnNlIG9yZGVy" xml:space="preserve">
+    <value>以相反顺序迭代数组</value>
+  </data>
+  <data name="Template_Editable_TWFrZSBhbiBhc3NlcnRpb24EQ" xml:space="preserve">
+    <value>创建断言</value>
+  </data>
+  <data name="Template_Editable_SXRlcmF0ZSBhbiBhcnJheSBpbiBpbnZlcnNlIG9yZGVy" xml:space="preserve">
+    <value>以相反顺序迭代数组</value>
+  </data>
+  <data name="XMLFiles_Text" xml:space="preserve">
+    <value>XML 文件</value>
+  </data>
+  <data name="AnywhereInResxFile_Text" xml:space="preserve">
+    <value>Resx 文件中的任意位置</value>
+  </data>
+  <data name="_Generation_Text" xml:space="preserve">
+    <value>生成(_G)</value>
+  </data>
+  <data name="TypeMemberDeclaration_Text" xml:space="preserve">
+    <value>类型成员声明</value>
+  </data>
+  <data name="_Queries_Text" xml:space="preserve">
+    <value>{0} 查询</value>
+  </data>
+  <data name="AnywhereInXMLFile_Text" xml:space="preserve">
+    <value>XML 文件中的任意位置</value>
+  </data>
+  <data name="Template_Editable_TGFuZ3VhZ2UtSW50ZWdyYXRlZCBRdWVyeQEQEQ" xml:space="preserve">
+    <value>语言集成查询</value>
+  </data>
+  <data name="Template_Editable_Zm9yLi4uaW4gbG9vcAEQEQ" xml:space="preserve">
+    <value>for...in 循环</value>
+  </data>
+  <data name="Template_Editable_QXR0YWNoZWQgcHJvcGVydHkEQ" xml:space="preserve">
+    <value>附加的属性</value>
+  </data>
+  <data name="Template_Editable_SXRlcmF0ZSBnZW5lcmljIFN5c3RlbS5Db2xsZWN0aW9ucy5HZW5lcmljLklMaXN0KE9mIFQp" xml:space="preserve">
+    <value>迭代泛型 System.Collections.Generic.IList(Of T)</value>
+  </data>
+  <data name="ShowIn_contextAction_Text" xml:space="preserve">
+    <value>在上下文操作中显示(_C)</value>
+  </data>
+  <data name="_Expressions_Text" xml:space="preserve">
+    <value>{0} 表达式</value>
+  </data>
+  <data name="Template_Editable_Sm9pbiBjbGF1c2UgaW4gbGFuZ3VhZ2UgaW50ZWdyYXRlZCBxdWVyeQEQEQ" xml:space="preserve">
+    <value>语言集成查询中的 Join 子句</value>
+  </data>
+  <data name="InsertsFullNameOfContainingTagMacroDefinition_Description" xml:space="preserve">
+    <value>完整标记名称</value>
+  </data>
+  <data name="In_WhereTypeMemberDeclarationIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许类型成员声明的位置</value>
+  </data>
+  <data name="ResxFiles_Text" xml:space="preserve">
+    <value>Resx 文件</value>
+  </data>
+  <data name="Template_Editable_Zm9yLW9mIGxvb3AEQ" xml:space="preserve">
+    <value>for-of 循环</value>
+  </data>
+  <data name="Template_Editable_d3JpdGVsbiBmdW5jdGlvbiBjYWxs" xml:space="preserve">
+    <value>writeln 函数调用</value>
+  </data>
+  <data name="Template_Editable_QXR0cmlidXRlIHVzaW5nIHJlY29tbWVuZGVkIHBhdHRlcm4EQ" xml:space="preserve">
+    <value>使用推荐模式的特性</value>
+  </data>
+  <data name="Template_Editable_d2l0aCBzdGF0ZW1lbnQEQ" xml:space="preserve">
+    <value>with 语句</value>
+  </data>
+  <data name="Template_Editable_RGVwZW5kZW5jeSBwcm9wZXJ0eQEQEQ" xml:space="preserve">
+    <value>依赖项属性</value>
+  </data>
+  <data name="SUrroundWithTemplateActionText" xml:space="preserve">
+    <value>使用模板包围…</value>
+  </data>
+  <data name="CProjectsIncludingASPNETCProjects_Text" xml:space="preserve">
+    <value>C# 项目(包括 ASP.NET C# 项目)</value>
+  </data>
+  <data name="_Editable_Text" xml:space="preserve">
+    <value>可编辑(_E)</value>
+  </data>
+  <data name="SurroundWithBlock_Text" xml:space="preserve">
+    <value>使用块包围</value>
+  </data>
+  <data name="Template_Editable_RGVjbGFyZSBhIHZhcmlhYmxl" xml:space="preserve">
+    <value>声明变量</value>
+  </data>
+  <data name="ResxDatatags_Text" xml:space="preserve">
+    <value>.resx 数据标记</value>
+  </data>
+  <data name="InsertsNameOfContainingTagWithoutNamespaceMacroDefinition_LongDescription" xml:space="preserve">
+    <value>插入不带命名空间的包含标记的名称</value>
+  </data>
+  <data name="Done_Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="ProjectRoot_Text" xml:space="preserve">
+    <value>项目根</value>
+  </data>
+  <data name="Template_Editable_cHVibGljIHN0YXRpYyByZWFkb25seQEQEQ" xml:space="preserve">
+    <value>public static readonly</value>
+  </data>
+  <data name="VisualBasicFiles_Text" xml:space="preserve">
+    <value>Visual Basic 文件</value>
+  </data>
+  <data name="Template_Editable_JlRlc3QgRml4dHVyZQEQEQ" xml:space="preserve">
+    <value>测试固定例程(&amp;T)</value>
+  </data>
+  <data name="Template_Editable_bG9jayBzdGF0ZW1lbnQEQ" xml:space="preserve">
+    <value>lock 语句</value>
+  </data>
+  <data name="Template_Editable_J2ludCBNYWluJyBtZXRob2Qg" xml:space="preserve">
+    <value>'int Main' 方法</value>
+  </data>
+  <data name="Template_Editable_JlJlY29yZAEQEQ" xml:space="preserve">
+    <value>记录(&amp;R)</value>
+  </data>
+  <data name="Template_Editable_QnlWYWwgcGFyYW1ldGVy" xml:space="preserve">
+    <value>ByVal 形参</value>
+  </data>
+  <data name="Template_Editable_dW5jaGVja2VkIGJsb2Nr" xml:space="preserve">
+    <value>unchecked 块</value>
+  </data>
+  <data name="WhereATagCouldBeInXMLFile_Text" xml:space="preserve">
+    <value>标记可能在 XML 文件中的位置</value>
+  </data>
+  <data name="NewFromTemplateActionGroupText" xml:space="preserve">
+    <value>从模板新建(&amp;N)</value>
+  </data>
+  <data name="In_WhereQueryClauseIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许查询子句的位置</value>
+  </data>
+  <data name="Template_Editable_dHJ5IGZpbmFsbHkEQ" xml:space="preserve">
+    <value>try finally</value>
+  </data>
+  <data name="CreateFileFromTemplate_Text" xml:space="preserve">
+    <value>从模板创建文件</value>
+  </data>
+  <data name="Template_Editable_VHJ5Q2FzdAEQEQ" xml:space="preserve">
+    <value>TryCast</value>
+  </data>
+  <data name="Template_Editable_Q3JlYXRlIHJlc291cmNlIGVudHJ5" xml:space="preserve">
+    <value>创建资源条目</value>
+  </data>
+  <data name="Template_Editable_SXRlcmF0ZSBhIElMaXN0PFQPL" xml:space="preserve">
+    <value>迭代 IList&lt;T&gt;</value>
+  </data>
+  <data name="FileNameMustBeAValid_identifier_Text" xml:space="preserve">
+    <value>文件名必须是有效的标识符(_I)</value>
+  </data>
+  <data name="SuggestsXMLAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+    <value>按标记建议 XML 特性名称</value>
+  </data>
+  <data name="Template_Editable_RnVuY3Rpb24gZGVjbGFyYXRpb24EQ" xml:space="preserve">
+    <value>函数声明</value>
+  </data>
+  <data name="AddTo_NewMenu_Text" xml:space="preserve">
+    <value>添加到 "新建(_N)…" 菜单</value>
+  </data>
+  <data name="EditQuickList_Caption" xml:space="preserve">
+    <value>编辑快速列表</value>
+  </data>
+  <data name="AllApplicableLiveTemplates_Text" xml:space="preserve">
+    <value>所有适用的实时模板</value>
+  </data>
+  <data name="SurroundItemsContextAction_Name" xml:space="preserve">
+    <value>包围条目</value>
+  </data>
+  <data name="VBProjects_Text" xml:space="preserve">
+    <value>VB.NET 项目</value>
+  </data>
+  <data name="Template_Editable_KCkEQ" xml:space="preserve">
+    <value>()</value>
+  </data>
+  <data name="Template_Editable_SWYEQ" xml:space="preserve">
+    <value>If</value>
+  </data>
+  <data name="DefaultCSurroundTemplates_Text" xml:space="preserve">
+    <value>默认 C# 包围模板</value>
+  </data>
+  <data name="Template_Editable_e30EQ" xml:space="preserve">
+    <value>{}</value>
+  </data>
+  <data name="Template_Editable_TWVzc2FnZUJveC5TaG93" xml:space="preserve">
+    <value>MessageBox.Show</value>
+  </data>
+  <data name="CreateNewFileActionText" xml:space="preserve">
+    <value>创建新文件…</value>
+  </data>
+  <data name="_Group_Text" xml:space="preserve">
+    <value>组(_G):</value>
+  </data>
+  <data name="SurroundWith_PopupMenu_Title_Text" xml:space="preserve">
+    <value>包围方式</value>
+  </data>
+  <data name="Template_Editable_UHJpbnQgdmFsdWUgb2YgYW4gZXhwcmVzc2lvbgEQEQ" xml:space="preserve">
+    <value>打印表达式的值</value>
+  </data>
+  <data name="NoApplicableSurroundsFound_Text" xml:space="preserve">
+    <value>找不到适用的包围模板</value>
+  </data>
+  <data name="AllApplicableFileTemplates_Text" xml:space="preserve">
+    <value>所有适用的文件模板</value>
+  </data>
+  <data name="Template_Editable_c2ltcGxlIGl0ZXJhdG9y" xml:space="preserve">
+    <value>简单迭代器</value>
+  </data>
+  <data name="Template_Editable_Q1R5cGUgY2xhdXNl" xml:space="preserve">
+    <value>CType 子句</value>
+  </data>
+  <data name="SelectTargetFolder_Text" xml:space="preserve">
+    <value>选择目标文件夹</value>
+  </data>
+  <data name="Template_Editable_Z2VuZXJhdG9y" xml:space="preserve">
+    <value>生成器</value>
+  </data>
+  <data name="EditQuickLists_Text" xml:space="preserve">
+    <value>编辑快速列表…</value>
+  </data>
+  <data name="Template_Editable_ZWxzZSBzdGF0ZW1lbnQEQ" xml:space="preserve">
+    <value>else 语句</value>
+  </data>
+  <data name="Template_Editable_JkNsYXNz" xml:space="preserve">
+    <value>类(&amp;C)</value>
+  </data>
+  <data name="Template_Editable_JkludGVyZmFjZQEQEQ" xml:space="preserve">
+    <value>接口(&amp;I)</value>
+  </data>
+  <data name="Template_Editable_QnlSZWYgcGFyYW1ldGVy" xml:space="preserve">
+    <value>ByRef 形参</value>
+  </data>
+  <data name="CreateLiveTemplateFromSelectionActionText" xml:space="preserve">
+    <value>从选区创建实时模板…</value>
+  </data>
+  <data name="AllTemplates_Text" xml:space="preserve">
+    <value>所有模板…</value>
+  </data>
+  <data name="_Statements_Text" xml:space="preserve">
+    <value>{0} 语句</value>
+  </data>
+  <data name="Template_Editable_cHVibGljIGNvbnN0IHN0cmluZwEQEQ" xml:space="preserve">
+    <value>public const string</value>
+  </data>
+  <data name="Template_Editable_bmFtZXNwYWNl" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="Template_Editable_UHJpbnQgYSBzdHJpbmcEQ" xml:space="preserve">
+    <value>打印字符串</value>
+  </data>
+  <data name="TemplatesUIDialogActionText" xml:space="preserve">
+    <value>模板 UI 对话框…</value>
+  </data>
+  <data name="MinimumCVersion_Text" xml:space="preserve">
+    <value>最低 C# 版本:</value>
+  </data>
+  <data name="Template_Editable_RGVzdHJ1Y3RvcgEQEQ" xml:space="preserve">
+    <value>析构函数</value>
+  </data>
+  <data name="NoMacroSelected_Text" xml:space="preserve">
+    <value>未选择任何宏</value>
+  </data>
+  <data name="XMLAttributes_Text" xml:space="preserve">
+    <value>XML 特性</value>
+  </data>
+  <data name="Template_Editable_cHVibGljIGNvbnN0IGludAEQEQ" xml:space="preserve">
+    <value>public const int</value>
+  </data>
+  <data name="Template_Editable_UHJpbnQgdmFsdWUgb2YgYSB2YXJpYWJsZQEQEQ" xml:space="preserve">
+    <value>打印变量的值</value>
+  </data>
+  <data name="AllApplicableSurroundTemplates_Text" xml:space="preserve">
+    <value>所有适用的包围模板</value>
+  </data>
+  <data name="_EditableAt_Text" xml:space="preserve">
+    <value>可编辑位置(_E):</value>
+  </data>
+  <data name="InsertsFullNameOfContainingTagMacroDefinition_LongDescription" xml:space="preserve">
+    <value>插入包含标记的全名</value>
+  </data>
+  <data name="DefaultFile_name_Text" xml:space="preserve">
+    <value>默认文件名(_N):</value>
+  </data>
+  <data name="_Availability_Text" xml:space="preserve">
+    <value>可用性(_A):</value>
+  </data>
+  <data name="Template_Editable_d2hpbGUgbG9vcAEQEQ" xml:space="preserve">
+    <value>while 循环</value>
+  </data>
+  <data name="_Description_Text" xml:space="preserve">
+    <value>描述(_D):</value>
+  </data>
+  <data name="_Shortcut_Text" xml:space="preserve">
+    <value>快捷键(_S):</value>
+  </data>
+  <data name="CloneAndEditTemplate_Text" xml:space="preserve">
+    <value>克隆并编辑模板</value>
+  </data>
+  <data name="_Mnemonic_Text" xml:space="preserve">
+    <value>助记键(_M):</value>
+  </data>
+  <data name="EditVariables_Text" xml:space="preserve">
+    <value>编辑变量</value>
+  </data>
+  <data name="Template_Editable_U2ltcGxlICJGb3IiIGxvb3AEQ" xml:space="preserve">
+    <value>简单 "For" 循环</value>
+  </data>
+  <data name="Template_Editable_Rm9yIEVhY2ggYmxvY2sEQ" xml:space="preserve">
+    <value>For Each 块</value>
+  </data>
+  <data name="_TypeMembers_Text" xml:space="preserve">
+    <value>{0} 类型成员</value>
+  </data>
+  <data name="In_WhereNamespaceDeclarationIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许命名空间声明的位置</value>
+  </data>
+  <data name="Template_Editable_Jk1vZHVsZQEQEQ" xml:space="preserve">
+    <value>模块 (&amp;M)</value>
+  </data>
+  <data name="Template_Editable_Zm9yZWFjaCBibG9jawEQEQ" xml:space="preserve">
+    <value>foreach 块</value>
+  </data>
+  <data name="DeleteConfirmation_Caption" xml:space="preserve">
+    <value>删除确认</value>
+  </data>
+  <data name="SuggestsXMLAttributeNameUsedInTheSameTagsInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+    <value>建议当前文档相同标记中使用的 XML 特性名称</value>
+  </data>
+  <data name="ResxRoots_Text" xml:space="preserve">
+    <value>.resx 根</value>
+  </data>
+  <data name="SurroundWith_Text" xml:space="preserve">
+    <value>包围方式…</value>
+  </data>
+  <data name="Template_Editable_U2VsZWN0IGNhc2Ugc3RhdGVtZW50" xml:space="preserve">
+    <value>选择 case 语句</value>
+  </data>
+  <data name="InsertsNamespaceOfContainingTagMacroDefinition_LongDescription" xml:space="preserve">
+    <value>插入包含标记的命名空间</value>
+  </data>
+  <data name="NewTemplate_Text" xml:space="preserve">
+    <value>新建模板</value>
+  </data>
+  <data name="InsertsNameOfContainingTagWithoutNamespaceMacroDefinition_Description" xml:space="preserve">
+    <value>标记名称</value>
+  </data>
+  <data name="Template_Editable_U3luY0xvY2sEQ" xml:space="preserve">
+    <value>SyncLock</value>
+  </data>
+  <data name="Template_Editable_Zm9yIGxvb3AEQ" xml:space="preserve">
+    <value>for 循环</value>
+  </data>
+  <data name="_TypesAndNamespaces_Text" xml:space="preserve">
+    <value>{0} 类型和命名空间</value>
+  </data>
+  <data name="DefaultResxFileTemplates_Text" xml:space="preserve">
+    <value>默认 Resx 文件模板</value>
+  </data>
+  <data name="InsertsTheFileHeaderSpecifiedInTheReSharperOptionsMacroDefinition_Description" xml:space="preserve">
+    <value>文件头</value>
+  </data>
+  <data name="VBProjectsIncludingASPNETProjects_Text" xml:space="preserve">
+    <value>VB.NET 项目(包括 ASP.NET VB.NET 项目)</value>
+  </data>
+  <data name="Template_Editable_UHJvcGVydHkgd2l0aCBhICdnZXQnIGFjY2Vzc29yIGFuZCBhIHByaXZhdGUgJ3NldCcgYWNjZXNzb3IEQ" xml:space="preserve">
+    <value>具有 'get' 访问器和 private 'set' 访问器的属性</value>
+  </data>
+  <data name="Template_Editable_U3Vicm91dGluZSBkZWNsYXJhdGlvbgEQEQ" xml:space="preserve">
+    <value>子例程声明</value>
+  </data>
+  <data name="MnemonicCouldBeSingleDigitOnly_Text" xml:space="preserve">
+    <value>助记键只能是个位数</value>
+  </data>
+  <data name="UseIn_Text" xml:space="preserve">
+    <value>用于:</value>
+  </data>
+  <data name="In_WhereMethodParameterIsAllowed_Text" xml:space="preserve">
+    <value>在 {0} 中允许方法形参的位置</value>
+  </data>
+  <data name="DefaultResxLiveTemplates_Text" xml:space="preserve">
+    <value>默认 Resx 实时模板</value>
+  </data>
+  <data name="InQuickList_Text" xml:space="preserve">
+    <value>在快速列表中:</value>
+  </data>
+  <data name="ChooseMacro_Caption" xml:space="preserve">
+    <value>选择宏</value>
+  </data>
+  <data name="InsertsNamespaceOfContainingTagMacroDefinition_Description" xml:space="preserve">
+    <value>标记命名空间</value>
+  </data>
+  <data name="SuggestsXMLAttributeNameUsedInCurrentDocumentMacroDefinition_LongDescription" xml:space="preserve">
+    <value>建议当前文档中使用的 XML 特性名称</value>
+  </data>
+  <data name="More_Text" xml:space="preserve">
+    <value>更多…</value>
+  </data>
+  <data name="SuggestsXMLAttributeNameUsedInCurrentDocumentMacroDefinition_Description" xml:space="preserve">
+    <value>建议 XML 特性名称</value>
+  </data>
+  <data name="Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ" xml:space="preserve">
+    <value>Public Shared Sub Main</value>
+  </data>
+  <data name="WhereAnAttributeCouldBeInXMLFile_Text" xml:space="preserve">
+    <value>特性可能在 XML 文件中的位置</value>
+  </data>
+  <data name="InsertsIfRequiredCastToTheTypeWhichIsExpectedAtTheLeftSideOfAssignmentExpressionMacroDefinition_LongDescription" xml:space="preserve">
+    <value>插入(如果需要)到应位于赋值表达式左侧的类型的转换</value>
+  </data>
+  <data name="NamespaceDeclaration_Text" xml:space="preserve">
+    <value>命名空间声明</value>
+  </data>
+  <data name="XMLTags_Text" xml:space="preserve">
+    <value>XML 标记</value>
+  </data>
+</root>

@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="HighUntilFinishedActionText" xml:space="preserve">
+  <value>Высокий, до завершения</value>
+</data>
+<data name="NoErrorsWarningsOrSuggestionsFoundIn_Text" xml:space="preserve">
+  <value>В этом файле не найдено ошибок, предупреждений или предложений</value>
+</data>
+<data name="OK_Button_Text" xml:space="preserve">
+  <value>ОК</value>
+</data>
+<data name="CannotLoadSolutionWideAnalysisCacheAnotherInstance_Text" xml:space="preserve">
+  <value>Не удалось загрузить кэш анализа решения – кэш используется другим экземпляром Visual Studio</value>
+</data>
+<data name="StopIgnoringErrors_Text" xml:space="preserve">
+  <value>Прекратить игнорировать ошибки</value>
+</data>
+<data name="Other_Issue_Types_Text" xml:space="preserve">
+  <value>Другие</value>
+</data>
+<data name="CannotLoadSolutionWideAnalysisCache_Text" xml:space="preserve">
+  <value>Не удалось загрузить кэш анализа решения – невозможно записать в директорию кэша</value>
+</data>
+<data name="SolutionErrorsActionText" xml:space="preserve">
+  <value>Ошибки решения(&amp;E)</value>
+</data>
+<data name="LoadingPaused_Text" xml:space="preserve">
+  <value>Загрузка приостановлена</value>
+</data>
+<data name="NoErrorsInSolution_Text" xml:space="preserve">
+  <value>В решении нет ошибок</value>
+</data>
+<data name="CodeIssuesFrom__Text" xml:space="preserve">
+  <value>Проблемы кода в '{0}'</value>
+</data>
+<data name="Warning_Text" xml:space="preserve">
+  <value>Предупреждение</value>
+</data>
+<data name="UncheckAll_Button_Text" xml:space="preserve">
+  <value>Снять все</value>
+</data>
+<data name="ErrorsWarningsIn__Text" xml:space="preserve">
+  <value>Ошибки/предупреждения в {0}</value>
+</data>
+<data name="AnalysisPaused_Text" xml:space="preserve">
+  <value>Анализ приостановлен</value>
+</data>
+<data name="IgnoreErrors_Text" xml:space="preserve">
+  <value>Игнорировать ошибки</value>
+</data>
+<data name="WarningsAreHiddenButStillMonitoredClick_Text" xml:space="preserve">
+  <value>Предупреждения скрыты, но всё равно отслеживаются. Щелкните, чтобы показать. Вы можете отключить отслеживание предупреждений в настройках для повышения производительности.</value>
+</data>
+<data name="AnalyzingChanges_Text" xml:space="preserve">
+  <value>Анализ изменений</value>
+</data>
+<data name="AnalysisIsSuspended_Text" xml:space="preserve">
+  <value>Анализ приостановлен</value>
+</data>
+<data name="TurnSolutionWideAnalysisOff_Text" xml:space="preserve">
+  <value>Выключить анализ решения?</value>
+</data>
+<data name="GuessWhat_Text" xml:space="preserve">
+  <value>Угадайте что</value>
+</data>
+<data name="IgnoreErrorSActionText" xml:space="preserve">
+  <value>Игнорировать ошибку</value>
+</data>
+<data name="StopSolutionWideAnalysis_Text" xml:space="preserve">
+  <value>Остановить анализ решения</value>
+</data>
+<data name="Issues_Text" xml:space="preserve">
+  <value>Проблемы</value>
+</data>
+<data name="PauseAnalysisActionText" xml:space="preserve">
+  <value>Приостановить анализ</value>
+</data>
+<data name="FileIsMissing_Text" xml:space="preserve">
+  <value>Файл отсутствует</value>
+</data>
+<data name="HideAllExceptIssueTypeGroupActionText" xml:space="preserve">
+  <value>Скрыть все, кроме группы типов проблем</value>
+</data>
+<data name="SaveIssuesReportTo__Text" xml:space="preserve">
+  <value>Сохранить отчет о проблемах в {0}</value>
+</data>
+<data name="File_Text" xml:space="preserve">
+  <value>Файл</value>
+</data>
+<data name="SolutionWideAnalysisIsOff_Status_Text" xml:space="preserve">
+  <value>Анализ решения выключен.</value>
+</data>
+<data name="HideAll__Text" xml:space="preserve">
+  <value>Скрыть все {0}</value>
+</data>
+<data name="MonitorWarnings_Text" xml:space="preserve">
+  <value>Отслеживать предупреждения</value>
+</data>
+<data name="FolderDoesnTExist_Text" xml:space="preserve">
+  <value>Папка не существует</value>
+</data>
+<data name="AnalyzingFile_Text" xml:space="preserve">
+  <value>Анализ файла…</value>
+</data>
+<data name="SelectedIssueTypes_Text" xml:space="preserve">
+  <value>Выбранные типы проблем</value>
+</data>
+<data name="_In__Text" xml:space="preserve">
+  <value>{0} в '{1}'</value>
+</data>
+<data name="AnalyzeErrorsInWholeSolutionOptionShould_Text" xml:space="preserve">
+  <value>Для этой проверки должна быть включена опция "Анализировать ошибки во всем решении"</value>
+</data>
+<data name="NoErrorsWarningsInSolution_Text" xml:space="preserve">
+  <value>В решении нет ошибок/предупреждений</value>
+</data>
+<data name="Hide__Text" xml:space="preserve">
+  <value>Скрыть {0}</value>
+</data>
+<data name="Issue_Text" xml:space="preserve">
+  <value>Проблема</value>
+</data>
+<data name="AnalysisIsSwitchedOff_Text" xml:space="preserve">
+  <value>Анализ выключен</value>
+</data>
+<data name="ShowInspectionHelp_Text" xml:space="preserve">
+  <value>Показать справку по инспекции</value>
+</data>
+<data name="InspectionResultsActionGroupText" xml:space="preserve">
+  <value>Результаты инспекции</value>
+</data>
+<data name="StopIgnoringErrorSPopupActionText" xml:space="preserve">
+  <value>Прекратить игнорировать ошибки(&amp;S)</value>
+</data>
+<data name="Errors_Text" xml:space="preserve">
+  <value>Ошибки</value>
+</data>
+<data name="Displaying_Of_Found__Text" xml:space="preserve">
+  <value>Показано {0} из {1} найденных {2}</value>
+</data>
+<data name="ShowOnly__Text" xml:space="preserve">
+  <value>Показывать только {0}</value>
+</data>
+<data name="SaveIssuesReportActionText" xml:space="preserve">
+  <value>Сохранить отчет о проблемах…</value>
+</data>
+<data name="SolutionWideAnalysis_Text" xml:space="preserve">
+  <value>Анализ решения</value>
+</data>
+<data name="StopIgnoringErrorSActionText" xml:space="preserve">
+  <value>Прекратить игнорировать ошибки</value>
+</data>
+<data name="StartSolutionWideAnalysis_Text" xml:space="preserve">
+  <value>Начать анализ решения</value>
+</data>
+<data name="RefreshActionText" xml:space="preserve">
+  <value>Обновить</value>
+</data>
+<data name="PreviousErrorWarningInSolution_Text" xml:space="preserve">
+  <value>Предыдущая ошибка/предупреждение в решении</value>
+</data>
+<data name="Files_Text" xml:space="preserve">
+  <value>Файлы</value>
+</data>
+<data name="FindSimilarIssuesInCustomScope_Text" xml:space="preserve">
+  <value>Найти похожие проблемы в пользовательской области…</value>
+</data>
+<data name="Defaults_Button_Text" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="___Text" xml:space="preserve">
+  <value> ({0} {1})</value>
+</data>
+<data name="LoadingAnalysisResults__Text" xml:space="preserve">
+  <value>Загрузка результатов анализа… – {0:P0}</value>
+</data>
+<data name="IncludeWarningsActionText" xml:space="preserve">
+  <value>Включая предупреждения</value>
+</data>
+<data name="NextIssueInFileActionText" xml:space="preserve">
+  <value>Следующая проблема в файле</value>
+</data>
+<data name="DoubleClickForOptions_Status_Text" xml:space="preserve">
+  <value>Двойной щелчок для просмотра опций.</value>
+</data>
+<data name="ShowIgnoredErrorsActionText" xml:space="preserve">
+  <value>Показать игнорируемые ошибки</value>
+</data>
+<data name="SaveIssuesReport_Text" xml:space="preserve">
+  <value>Сохранить отчет о проблемах</value>
+</data>
+<data name="NextErrorWarningInSolution_Text" xml:space="preserve">
+  <value>Следующая ошибка/предупреждение в решении</value>
+</data>
+<data name="Error_Text" xml:space="preserve">
+  <value>Ошибка</value>
+</data>
+<data name="Cancel_Button_Text" xml:space="preserve">
+  <value>Отмена</value>
+</data>
+<data name="_Issues_Text" xml:space="preserve">
+  <value>Проблемы '{0}'</value>
+</data>
+<data name="FilterIssuesActionText" xml:space="preserve">
+  <value>Фильтровать проблемы…</value>
+</data>
+<data name="IgnoreAllSuchErrorsActionText" xml:space="preserve">
+  <value>Игнорировать все подобные ошибки</value>
+</data>
+<data name="NextErrorWarningActionText" xml:space="preserve">
+  <value>Следующая ошибка/предупреждение</value>
+</data>
+<data name="ShowErrorsView_Text" xml:space="preserve">
+  <value>Показать представление ошибок</value>
+</data>
+<data name="LoadSavedIssuesReportActionText" xml:space="preserve">
+  <value>Загрузить сохраненный отчет о проблемах…</value>
+</data>
+<data name="CodeIssues_Text" xml:space="preserve">
+  <value>Проблемы кода</value>
+</data>
+<data name="IssueTypesToShow_Text" xml:space="preserve">
+  <value>Типы проблем для показа:</value>
+</data>
+<data name="Stop_Text" xml:space="preserve">
+  <value>Стоп</value>
+</data>
+<data name="_FileIsMissing_Text" xml:space="preserve">
+  <value>{0} – Файл отсутствует</value>
+</data>
+<data name="SolutionWideAnalysis_Caption" xml:space="preserve">
+  <value>Анализ решения</value>
+</data>
+<data name="AnalyzingFiles_Text" xml:space="preserve">
+  <value>Анализ файлов</value>
+</data>
+<data name="AnalysisInProgress_Text" xml:space="preserve">
+  <value>Выполняется анализ</value>
+</data>
+<data name="PreviousIssueInFileActionText" xml:space="preserve">
+  <value>Предыдущая проблема в файле</value>
+</data>
+<data name="ContinueAnalysis_Text" xml:space="preserve">
+  <value>Продолжить анализ</value>
+</data>
+<data name="ShowInspectionHelpActionText" xml:space="preserve">
+  <value>Показать справку по инспекции</value>
+</data>
+<data name="FilterIssues_Text" xml:space="preserve">
+  <value>Фильтр проблем</value>
+</data>
+<data name="NoIssuesFound_Text" xml:space="preserve">
+  <value>Проблем не обнаружено</value>
+</data>
+<data name="DropAllResultsAndReanalyzeAllFiles_Text" xml:space="preserve">
+  <value>Отбросить все результаты и переанализировать все файлы?</value>
+</data>
+<data name="Initializing_Text" xml:space="preserve">
+  <value>Инициализация</value>
+</data>
+<data name="Warnings_Text" xml:space="preserve">
+  <value>Предупреждения</value>
+</data>
+<data name="EnableSolutionWideAnalysisActionText" xml:space="preserve">
+  <value>Включить анализ решения</value>
+</data>
+<data name="AnalyzingFiles_Of___Text" xml:space="preserve">
+  <value>**Анализ файлов**({0}/{1}): {2}</value>
+</data>
+<data name="Exception__Text" xml:space="preserve">
+  <value>Исключение: {0}</value>
+</data>
+<data name="HideIssueTypeGroupActionText" xml:space="preserve">
+  <value>Скрыть группу типов проблем</value>
+</data>
+<data name="CheckAll_Button_Text" xml:space="preserve">
+  <value>Выбрать все</value>
+</data>
+<data name="ResourcesUtilizationActionText" xml:space="preserve">
+  <value>Использование ресурсов</value>
+</data>
+<data name="Found___Text" xml:space="preserve">
+  <value>Найдено {0} {1}</value>
+</data>
+<data name="Customize_Text" xml:space="preserve">
+  <value>Настроить…</value>
+</data>
+<data name="ReanalyzeAllActionText" xml:space="preserve">
+  <value>Переанализировать все</value>
+</data>
+<data name="SolutionWideAnalysisIsOff_Text" xml:space="preserve">
+  <value>Анализ решения выключен</value>
+</data>
+<data name="HideWarningsYouCanDisableWarningMonitoring_Text" xml:space="preserve">
+  <value>Скрыть предупреждения. Вы можете отключить отслеживание предупреждений в настройках для повышения производительности.</value>
+</data>
+<data name="PreviousErrorWarningActionText" xml:space="preserve">
+  <value>Предыдущая ошибка/предупреждение</value>
+</data>
+<data name="AnalysisPausedDueToA__Text" xml:space="preserve">
+  <value>Анализ приостановлен из-за {0}</value>
+</data>
+<data name="WhenYouPressOKReSharperWillStartAnalyzing_Text" xml:space="preserve">
+  <value>После нажатия кнопки «ОК» ReSharper начнет анализировать все файлы в решении. В зависимости от его размера, это может занять от нескольких секунд до нескольких десятков минут. Вы можете продолжать работу, но производительность может снизиться.
+
+После завершения этой длительной глобальной операции будет выполняться только необходимый инкрементный анализ в зависимости от изменений в коде. После включения анализ решения также может потреблять значительный объем памяти.
+
+Если вы заметите, что используется слишком много системных ресурсов, вы можете в любое время отключить эту функцию.</value>
+</data>
+<data name="__In___Text" xml:space="preserve">
+  <value>{0:N0} {1} в {2:N0} {3}</value>
+</data>
+<data name="ImportingIssuesFrom__Caption" xml:space="preserve">
+  <value>Импорт проблем из {0}</value>
+</data>
+</root>

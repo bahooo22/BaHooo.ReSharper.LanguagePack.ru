@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="OK_ButtonText" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_UnknownConstraint_Text" xml:space="preserve">
+    <value>未知约束</value>
+  </data>
+  <data name="OpenProjectIn_VisualStudio_Text" xml:space="preserve">
+    <value>在 Visual Studio 中打开项目(_V)</value>
+  </data>
+  <data name="TodoItemPatternWindow_CaseSensitive_CheckBox" xml:space="preserve">
+    <value>区分大小写</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Extern_Text" xml:space="preserve">
+    <value>Extern</value>
+  </data>
+  <data name="CustomFilterConfiguration_Text" xml:space="preserve">
+    <value>自定义筛选器配置</value>
+  </data>
+  <data name="GoToMetadataView_Text" xml:space="preserve">
+    <value>转到元数据视图(_M)</value>
+  </data>
+  <data name="MinCountOfSearchsBeforeNotificationSettingDescription" xml:space="preserve">
+    <value>通知前的最小搜索计数</value>
+  </data>
+  <data name="AssemblyExplorerActionText" xml:space="preserve">
+    <value>程序集资源管理器(&amp;E)</value>
+  </data>
+  <data name="BasicCompletion_BoolOption_Text" xml:space="preserve">
+    <value>基本补全(_B)</value>
+  </data>
+  <data name="FileLayoutDesigner_Load_DefaultWithRegions_Text" xml:space="preserve">
+    <value>带区域的默认值</value>
+  </data>
+  <data name="CannotExecuteTheGoToMetadataTokenBecause_Text" xml:space="preserve">
+    <value>无法执行“转到元数据令牌”，因为没有打开的解决方案</value>
+  </data>
+  <data name="EditPlaceholder_Text" xml:space="preserve">
+    <value>编辑占位符</value>
+  </data>
+  <data name="_Export_ButtonText" xml:space="preserve">
+    <value>导出(_E)</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Constraints_Text" xml:space="preserve">
+    <value>约束</value>
+  </data>
+  <data name="PathSelection_Placeholder" xml:space="preserve">
+    <value>选择文件位置…</value>
+  </data>
+  <data name="Waiting_Text" xml:space="preserve">
+    <value>正在等待…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_InheritsFromType_Text" xml:space="preserve">
+    <value>继承自类型</value>
+  </data>
+  <data name="PackageSource_Text" xml:space="preserve">
+    <value>软件包源:</value>
+  </data>
+  <data name="RegExpWindow_Options_TextBlock" xml:space="preserve">
+    <value>选项:</value>
+  </data>
+  <data name="GotoFileMemberAction_Text" xml:space="preserve">
+    <value>转到文件成员(&amp;M)…</value>
+  </data>
+  <data name="FileLayoutDesigner_View_InheritsFromType_Text" xml:space="preserve">
+    <value>继承:</value>
+  </data>
+  <data name="TypeBrowserActionGroupText" xml:space="preserve">
+    <value>类型浏览器</value>
+  </data>
+  <data name="_Generate_ButtonText" xml:space="preserve">
+    <value>生成(_G)</value>
+  </data>
+  <data name="ReplaceWithPatternConflicts_Text" xml:space="preserve">
+    <value>替换为模式冲突</value>
+  </data>
+  <data name="ValidateRegularExpression_Caption" xml:space="preserve">
+    <value>验证正则表达式</value>
+  </data>
+  <data name="FileDoesNotExist_Text" xml:space="preserve">
+    <value>文件不存在</value>
+  </data>
+  <data name="SmartBehaviorInBasicCompletion_ComboEnum_Caption" xml:space="preserve">
+    <value>基本补全中的智能行为:</value>
+  </data>
+  <data name="TheSameScope__Text" xml:space="preserve">
+    <value>相同的作用域({0})</value>
+  </data>
+  <data name="TodoItemPatternWindow_MatchInStrings_CheckBox" xml:space="preserve">
+    <value>在字符串中匹配</value>
+  </data>
+  <data name="GoToAssemblyExplorer_Text" xml:space="preserve">
+    <value>转到程序集资源管理器(_A)</value>
+  </data>
+  <data name="OpenSymbolInVSObjectBrowser_Text" xml:space="preserve">
+    <value>在 Visual Studio 对象浏览器中打开符号</value>
+  </data>
+  <data name="GotoMethodAction_Text" xml:space="preserve">
+    <value>转到方法…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Property_Text" xml:space="preserve">
+    <value>依赖项属性</value>
+  </data>
+  <data name="Enabled_Text" xml:space="preserve">
+    <value>已启用</value>
+  </data>
+  <data name="LoadingView_WaitCache_Text" xml:space="preserve">
+    <value>正在等待缓存</value>
+  </data>
+  <data name="GoToText_3Hotkey_Text" xml:space="preserve">
+    <value>转到文本({0}、{0}、{0})</value>
+  </data>
+  <data name="FileLayoutDesigner_Load_DefaultWithoutRegions_Text" xml:space="preserve">
+    <value>不带区域的默认值</value>
+  </data>
+  <data name="DecompilerLegalNotice_Caption" xml:space="preserve">
+    <value>反编译器法律声明</value>
+  </data>
+  <data name="RegularExpressionValidatorPatternRowHeightSettingDescription" xml:space="preserve">
+    <value>正则表达式验证器模式行高</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_UnknownSortDescriptor_Text" xml:space="preserve">
+    <value>未知排序描述符</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Priority_High_Text" xml:space="preserve">
+    <value>高</value>
+  </data>
+  <data name="SwapPaths_Text" xml:space="preserve">
+    <value>交换路径</value>
+  </data>
+  <data name="ThisAssemblyHasAlreadyBeenExportedToProject_Text" xml:space="preserve">
+    <value>此程序集已被导出到项目</value>
+  </data>
+  <data name="CanUseForAssertion_Text" xml:space="preserve">
+    <value>可用于断言</value>
+  </data>
+  <data name="OpenFromNuGetActionText" xml:space="preserve">
+    <value>从 NuGet 打开(&amp;N)…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_UnknownEntry_Text" xml:space="preserve">
+    <value>未知条目</value>
+  </data>
+  <data name="ChooseDefaultNavigationActionForCompiled_Text" xml:space="preserve">
+    <value>为编译的代码选择默认导航操作</value>
+  </data>
+  <data name="GoToMetadataTokenActionText" xml:space="preserve">
+    <value>转到元数据令牌(&amp;M)…</value>
+  </data>
+  <data name="FileLayoutDesigner_View_ImplementsInterface_Text" xml:space="preserve">
+    <value>实现:</value>
+  </data>
+  <data name="ThereIsConflictingItem_Text" xml:space="preserve">
+    <value>存在冲突条目:</value>
+  </data>
+  <data name="DeleteAllFilesAndSubfoldersBeforeExport_Text" xml:space="preserve">
+    <value>导出前删除所有文件和子文件夹</value>
+  </data>
+  <data name="Disabled_Text" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_ImplementsInterface_Text" xml:space="preserve">
+    <value>实现接口</value>
+  </data>
+  <data name="SearchEverywhereGoToType_Text" xml:space="preserve">
+    <value>随处搜索/转到类型(&amp;T)…</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Entries_Text" xml:space="preserve">
+    <value>条目</value>
+  </data>
+  <data name="AssemblyExplorerCompareSelectedItemsActionText" xml:space="preserve">
+    <value>比较所选…</value>
+  </data>
+  <data name="FileLayoutOptionPageTitle" xml:space="preserve">
+    <value>文件布局</value>
+  </data>
+  <data name="MoveDown_Button_Text" xml:space="preserve">
+    <value>下移(_D)</value>
+  </data>
+  <data name="FindUsagesActionGroupText" xml:space="preserve">
+    <value>查找用法</value>
+  </data>
+  <data name="RecentFilesActionText" xml:space="preserve">
+    <value>最近的文件(&amp;R)…</value>
+  </data>
+  <data name="OverwriteExistingFiles_Text" xml:space="preserve">
+    <value>覆盖现有文件</value>
+  </data>
+  <data name="TargetFolder_Text" xml:space="preserve">
+    <value>目标文件夹: </value>
+  </data>
+  <data name="ProjectNameCannotEndWithDot_Text" xml:space="preserve">
+    <value>项目名称不得以 '.' 结尾</value>
+  </data>
+  <data name="PublicKey_Header" xml:space="preserve">
+    <value>公钥</value>
+  </data>
+  <data name="GoToSymbol_Text" xml:space="preserve">
+    <value>转到符号(&amp;S)…</value>
+  </data>
+  <data name="Canceled_Text" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="ReplaceWithPattern_Text" xml:space="preserve">
+    <value>替换为模式</value>
+  </data>
+  <data name="ProjectNameCannotBeAnEmptyString_Text" xml:space="preserve">
+    <value>项目名称不得为空字符串</value>
+  </data>
+  <data name="FileLayoutDesigner_Load_Text" xml:space="preserve">
+    <value>加载…</value>
+  </data>
+  <data name="ChangeSearchPatternActionText" xml:space="preserve">
+    <value>更改搜索模式</value>
+  </data>
+  <data name="AddProjectToAssemblyExplorerSettingDescription" xml:space="preserve">
+    <value>将项目添加到程序集资源管理器</value>
+  </data>
+  <data name="FolderSubstitutions_Text" xml:space="preserve">
+    <value>文件夹替换</value>
+  </data>
+  <data name="File_Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="InvalidPathFormat_Text" xml:space="preserve">
+    <value>路径格式无效</value>
+  </data>
+  <data name="CannotExecuteTheGoToActionBecauseThere_Text" xml:space="preserve">
+    <value>无法执行“转到”操作，因为没有打开的解决方案</value>
+  </data>
+  <data name="NewPath_Text" xml:space="preserve">
+    <value>位置 2:</value>
+  </data>
+  <data name="CreatePattern_Text" xml:space="preserve">
+    <value>创建模式</value>
+  </data>
+  <data name="Generating_TooltipText" xml:space="preserve">
+    <value>正在生成</value>
+  </data>
+  <data name="Folder_IsNotEmpty_Text" xml:space="preserve">
+    <value>文件夹 '{0}' 不为空!</value>
+  </data>
+  <data name="FileLayoutDesigner_Presenters_DropConstraintHere_Text" xml:space="preserve">
+    <value>将约束拖放到此处</value>
+  </data>
+  <data name="FileLayoutDesigner_XAML_Text" xml:space="preserve">
+    <value>XAML</value>
+  </data>
+  <data name="Open_ButtonText" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="AssemblyExplorerCompareActionText" xml:space="preserve">
+    <value>比较…</value>
+  </data>
+  <data name="CustomPatternsOptionPageTitle" xml:space="preserve">
+    <value>自定义模式</value>
+  </data>
+  <data name="NoAssembliesAreSelected_Text" xml:space="preserve">
+    <value>未选择程序集</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_And_Text" xml:space="preserve">
+    <value>And</value>
+  </data>
+  <data name="AssemblyExplorerCompareWithActionText" xml:space="preserve">
+    <value>比较对象…</value>
+  </data>
+  <data name="CanUseForAssertionYes_Text" xml:space="preserve">
+    <value>可用于断言: 是</value>
+  </data>
+  <data name="ConfigurePriorityOfNullCheckingPatterns_Tooltip" xml:space="preserve">
+    <value>ReSharper 使用对给定上下文可用的最高优先级模式</value>
+  </data>
+  <data name="PatternWithColon_Text" xml:space="preserve">
+    <value>模式:</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Abstract_Text" xml:space="preserve">
+    <value>abstract</value>
+  </data>
+  <data name="CodeCleanup_Text" xml:space="preserve">
+    <value>代码清理</value>
+  </data>
+  <data name="AssemblyDiffExplorerActionText" xml:space="preserve">
+    <value>程序集差异</value>
+  </data>
+  <data name="Folders_TabName" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="SearchEverywhere_Text" xml:space="preserve">
+    <value>随处搜索{0}</value>
+  </data>
+  <data name="RegExpWindow_TestInput_TextBlock" xml:space="preserve">
+    <value>测试输入:</value>
+  </data>
+  <data name="DestinationOf__Text" xml:space="preserve">
+    <value>'{0}' 的目标</value>
+  </data>
+  <data name="WhatWouldYouLikeToDo_Text" xml:space="preserve">
+    <value>您想做什么?</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Priority_Normal_Text" xml:space="preserve">
+    <value>正常</value>
+  </data>
+  <data name="OpeningOnl_y_Option_Text" xml:space="preserve">
+    <value>仅左圆括号(_Y)</value>
+  </data>
+  <data name="SwapPaths_Tooltip" xml:space="preserve">
+    <value>交换比较文件</value>
+  </data>
+  <data name="CanUseForAssertionNo_Text" xml:space="preserve">
+    <value>可用于断言: 否</value>
+  </data>
+  <data name="AssemblyDiff_Text" xml:space="preserve">
+    <value>程序集差异</value>
+  </data>
+  <data name="PackageFilters_Text" xml:space="preserve">
+    <value>软件包筛选器:</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Setter_Text" xml:space="preserve">
+    <value>附加的 DP Setter</value>
+  </data>
+  <data name="CompletionBehaviorOptionPageTitle" xml:space="preserve">
+    <value>补全行为</value>
+  </data>
+  <data name="DiffOptions_Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="OldPath_Text" xml:space="preserve">
+    <value>位置 1:</value>
+  </data>
+  <data name="_Remove_Text" xml:space="preserve">
+    <value>移除(_R)…</value>
+  </data>
+  <data name="GoToStrIngActionText" xml:space="preserve">
+    <value>转到字符串(&amp;I)…</value>
+  </data>
+  <data name="Assemblies_TabName" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="ThisAssemblyHasAlreadyBeenExportedTo_Text" xml:space="preserve">
+    <value>此程序集已被导出到项目
+{0}
+是否要再次导出此程序集?
+(点击“否”可将现有项目添加到程序集资源管理器而不重新导出)</value>
+  </data>
+  <data name="LoadDependencies_Text" xml:space="preserve">
+    <value>加载依赖项</value>
+  </data>
+  <data name="InsertSpacingAfterKeywordsWhenRequired_BoolOption_Text" xml:space="preserve">
+    <value>当后面需要空格时，在关键字后插入空格</value>
+  </data>
+  <data name="TestRegularExpression_Text" xml:space="preserve">
+    <value>测试正则表达式…</value>
+  </data>
+  <data name="DidYouTry_Text" xml:space="preserve">
+    <value>您试用过 {0} 吗?</value>
+  </data>
+  <data name="FileLayoutDesigner_Load_Empty_Text" xml:space="preserve">
+    <value>空模式</value>
+  </data>
+  <data name="RegExpWindow_Why_TextBlock" xml:space="preserve">
+    <value>(why?)</value>
+  </data>
+  <data name="UseVSSymbolCacheFolderForPdbGenerationSettingDescription" xml:space="preserve">
+    <value>为 PDB 生成使用 VS 符号缓存文件夹</value>
+  </data>
+  <data name="InProgress_Text" xml:space="preserve">
+    <value>进行中</value>
+  </data>
+  <data name="PressCancelToContinueSearchWithoutQuasi_Text" xml:space="preserve">
+    <value>点击“取消”可继续搜索而不进行准实现</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_TypePattern_Text" xml:space="preserve">
+    <value>类型模式</value>
+  </data>
+  <data name="Create_SlnFile_Text" xml:space="preserve">
+    <value>创建 *._sln 文件</value>
+  </data>
+  <data name="MoveUp_Button_Text" xml:space="preserve">
+    <value>上移(_U)</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Sequential_Label_Text" xml:space="preserve">
+    <value>Then By</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_SortBy_None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="RegularExpressionValidatorMatchColumnWidthSettingDescription" xml:space="preserve">
+    <value>正则表达式验证器匹配列宽</value>
+  </data>
+  <data name="ExternalSourceInformationActionText" xml:space="preserve">
+    <value>外部源信息…</value>
+  </data>
+  <data name="LoadingData_Text" xml:space="preserve">
+    <value>正在加载数据</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Priority_Lowest_Text" xml:space="preserve">
+    <value>最低</value>
+  </data>
+  <data name="_MatchMiddleOfIdentifiers_BoolOption_Text" xml:space="preserve">
+    <value>匹配标识符的中间部分(_M)</value>
+  </data>
+  <data name="SaveChanges_Text" xml:space="preserve">
+    <value>是否保存更改?</value>
+  </data>
+  <data name="DestinationFolder_Text" xml:space="preserve">
+    <value>目标文件夹:</value>
+  </data>
+  <data name="AllFilesAndSubfoldersInThisFolderWill_Text" xml:space="preserve">
+    <value>此文件夹中的所有文件和子文件夹都将被移除</value>
+  </data>
+  <data name="ShowConfirmationDialogBeforeAddingReference_BoolOption_Text" xml:space="preserve">
+    <value>添加引用之前显示确认对话框</value>
+  </data>
+  <data name="TodoItemPatternWindow_Icon_Label" xml:space="preserve">
+    <value>图标:</value>
+  </data>
+  <data name="Cancel_ButtonText" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="FileLayoutDesigner_View_Entry_ToggleButton_SwitchToCompositionView_Tooltip" xml:space="preserve">
+    <value>切换到复合视图</value>
+  </data>
+  <data name="AdvancedSymbolsOptions_Caption" xml:space="preserve">
+    <value>高级符号选项</value>
+  </data>
+  <data name="Create_PdbFile_Text" xml:space="preserve">
+    <value>创建 *._pdb 文件</value>
+  </data>
+  <data name="CanTGeneratePdbThisAssemblyDoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+    <value>无法生成 PDB: 此程序集不包含任何调试目录</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Patterns_Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="OpenFromGacDialogSettingsSettingDescription" xml:space="preserve">
+    <value>从 Gac 对话框设置打开</value>
+  </data>
+  <data name="FileLayoutDesigner_View_Entry_ToggleButton_SwitchToConstraintsView_Tooltip" xml:space="preserve">
+    <value>切换到约束视图</value>
+  </data>
+  <data name="IncludePrerelease_Text" xml:space="preserve">
+    <value>包括预发布</value>
+  </data>
+  <data name="_AddProjectToAssemblyExplorer_Text" xml:space="preserve">
+    <value>将项目添加到程序集资源管理器(_A)</value>
+  </data>
+  <data name="TodoItemPatternWindow_Pattern_Label" xml:space="preserve">
+    <value>模式:</value>
+  </data>
+  <data name="RegExpWindow_RegularExpression_TextBlock" xml:space="preserve">
+    <value>正则表达式:</value>
+  </data>
+  <data name="Archives_TabName" xml:space="preserve">
+    <value>归档</value>
+  </data>
+  <data name="Example_Text" xml:space="preserve">
+    <value>示例</value>
+  </data>
+  <data name="GoToActionActionText" xml:space="preserve">
+    <value>转到操作(&amp;A)…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_UnknownPattern_Text" xml:space="preserve">
+    <value>未知模式</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Text" xml:space="preserve">
+    <value>Toolbox</value>
+  </data>
+  <data name="DoYouWantToReplaceIt_Text" xml:space="preserve">
+    <value>是否要替换它?</value>
+  </data>
+  <data name="LocalizationManagerActionText" xml:space="preserve">
+    <value>本地化管理器(&amp;L)</value>
+  </data>
+  <data name="TodoItemPatternWindow_MatchInComments_CheckBox" xml:space="preserve">
+    <value>在注释中匹配</value>
+  </data>
+  <data name="TryNow_Text" xml:space="preserve">
+    <value>立即试用</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HasMember_Text" xml:space="preserve">
+    <value>具有成员</value>
+  </data>
+  <data name="GoToText_Hotkey_Text" xml:space="preserve">
+    <value>转到文本{0}</value>
+  </data>
+  <data name="UnableToApplyReplaceIn_BecauseItHas_Text" xml:space="preserve">
+    <value>无法在 {0} 中应用替换操作，因为它已被更改</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Override_Text" xml:space="preserve">
+    <value>重写</value>
+  </data>
+  <data name="GoToText_Text" xml:space="preserve">
+    <value>转到文本(&amp;T)…</value>
+  </data>
+  <data name="CannotCompareFiles_Text" xml:space="preserve">
+    <value>无法比较这些文件</value>
+  </data>
+  <data name="Remove_Text" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="Done_Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="PackageFilterShowOnlyReleaseSettingDescription" xml:space="preserve">
+    <value>软件包筛选器:仅显示发布</value>
+  </data>
+  <data name="TodoItemPatternWindow_Pattern_Tooltip" xml:space="preserve">
+    <value>正则表达式
+使用 ?&lt;TAG&gt; 捕获组以高亮显示匹配文本的一部分</value>
+  </data>
+  <data name="RegularExpressionValidatorInputColumnWidthSettingDescription" xml:space="preserve">
+    <value>正则表达式验证器输入列宽</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HandlesEvent_Text" xml:space="preserve">
+    <value>处理事件</value>
+  </data>
+  <data name="AssemblyDiff_Header" xml:space="preserve">
+    <value>比较</value>
+  </data>
+  <data name="_Add_Text" xml:space="preserve">
+    <value>添加(_A)…</value>
+  </data>
+  <data name="FilesWithNamesLikeTheGeneratedFiles_Text" xml:space="preserve">
+    <value>生成的文件将覆盖现有的同名文件</value>
+  </data>
+  <data name="DisplayDeclarationOfTargetTypeAndItsMembers_Text" xml:space="preserve">
+    <value>在编辑器中显示目标类型及其成员的声明，类似于 Visual Studio 的代码定义窗口</value>
+  </data>
+  <data name="OpenProjectInVisualStudio_Text" xml:space="preserve">
+    <value>在 Visual Studio 中打开项目</value>
+  </data>
+  <data name="MRUDialogPositionSettingDescription" xml:space="preserve">
+    <value>MRU 对话框位置</value>
+  </data>
+  <data name="Name_Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="GotoMethodAction_CreateController_CaptionText" xml:space="preserve">
+    <value>输入方法名称:</value>
+  </data>
+  <data name="MoveUp_Button_Tooltip" xml:space="preserve">
+    <value>提高所选 null 检查模式的优先级</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Access_Text" xml:space="preserve">
+    <value>访问权限</value>
+  </data>
+  <data name="TodoItemPatternWindow_Name_Label" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="ApplyingChanges_Text" xml:space="preserve">
+    <value>正在应用更改</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Hidden_Text" xml:space="preserve">
+    <value>已隐藏</value>
+  </data>
+  <data name="SelectedPackageSourceSettingDescription" xml:space="preserve">
+    <value>所选软件包源</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_GroupBy_None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="OpenFromGACActionText" xml:space="preserve">
+    <value>从 GAC 打开(&amp;G)…</value>
+  </data>
+  <data name="NuGetPackages_TabName" xml:space="preserve">
+    <value>NuGet 软件包</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Sealed_Text" xml:space="preserve">
+    <value>sealed</value>
+  </data>
+  <data name="ChooseFolderForPdbFiles_Caption" xml:space="preserve">
+    <value>选择 .pdb 文件的文件夹</value>
+  </data>
+  <data name="ExportToProjectDialogSettingsSettingDescription" xml:space="preserve">
+    <value>导出到项目对话框设置</value>
+  </data>
+  <data name="GoToNetFrameworkSources_Text" xml:space="preserve">
+    <value>转到原始源(_S)</value>
+  </data>
+  <data name="GoToFile_Text" xml:space="preserve">
+    <value>转到文件(&amp;F)…</value>
+  </data>
+  <data name="AddProjectToAssemblyExplorer_Text" xml:space="preserve">
+    <value>将项目添加到程序集资源管理器</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Property_Text" xml:space="preserve">
+    <value>带支持字段的属性</value>
+  </data>
+  <data name="TodoItemPatternWindow_MatchInIdentifiers_CheckBox" xml:space="preserve">
+    <value>在标识符中匹配</value>
+  </data>
+  <data name="SourceFolder_Caption" xml:space="preserve">
+    <value>源文件夹</value>
+  </data>
+  <data name="_WhatWouldYouLikeToDo_Text" xml:space="preserve">
+    <value>{0}
+
+您想做什么?</value>
+  </data>
+  <data name="FileTypeDoesnTMatchCurrentMode_Text" xml:space="preserve">
+    <value>文件类型与当前比较模式不匹配</value>
+  </data>
+  <data name="_Edit_Text" xml:space="preserve">
+    <value>编辑(_E)…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyProperty_Text" xml:space="preserve">
+    <value>依赖项属性</value>
+  </data>
+  <data name="MoveDown_Button_Tooltip" xml:space="preserve">
+    <value>降低所选 null 检查模式的优先级</value>
+  </data>
+  <data name="UnableToApplyReplaceBecauseFileIsNot_Text" xml:space="preserve">
+    <value>无法应用替换操作，因为文件不再可用</value>
+  </data>
+  <data name="Version_Header" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="ExportToProjectDestinationFolderSettingDescription" xml:space="preserve">
+    <value>导出到项目目标文件夹</value>
+  </data>
+  <data name="CreatePdbFileSettingDescription" xml:space="preserve">
+    <value>创建 *._pdb 文件</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Virtual_Text" xml:space="preserve">
+    <value>虚拟</value>
+  </data>
+  <data name="TodoItemPatternWindow_Cancel_Button" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="InvalidCharacter_AtPosition__Text" xml:space="preserve">
+    <value>位置 {1} 处的字符 '{0}' 无效</value>
+  </data>
+  <data name="AttemptToLocateSourcesOnSymbolServer_Text" xml:space="preserve">
+    <value>尝试从源服务器(例如 https://raw.githubusercontent.com)下载源并将其显示在编辑器中</value>
+  </data>
+  <data name="Use__Text" xml:space="preserve">
+    <value>使用“{0}”</value>
+  </data>
+  <data name="AttemptToLocateSourcesOnSymbolServerAndIfItFailsUseDecompiler_Text" xml:space="preserve">
+    <value>尝试从源服务器下载源，如果不成功，则使用内置 dotPeek 反编译器将库代码显示为 C#。</value>
+  </data>
+  <data name="ExportAgain_Text" xml:space="preserve">
+    <value>再次导出</value>
+  </data>
+  <data name="TheSamePatternHasAlreadyBeenCreated_Text" xml:space="preserve">
+    <value>已创建相同的模式。您可以在“ReSharper | 选项 | 自定义模式”中查看和编辑它 。</value>
+  </data>
+  <data name="OpenForComparison_Caption" xml:space="preserve">
+    <value>选择要比较的条目</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Text" xml:space="preserve">
+    <value>依赖项属性部分</value>
+  </data>
+  <data name="CustomPackageSourcesSettingDescription" xml:space="preserve">
+    <value>自定义软件包源</value>
+  </data>
+  <data name="NotSpecifiedInToolsOptionsDebuggingSymbols_Text" xml:space="preserve">
+    <value>未指定(在“工具 | 选项 | 调试 | 符号”中)</value>
+  </data>
+  <data name="UnsupportedFileExtension_Text" xml:space="preserve">
+    <value>不支持的文件扩展名</value>
+  </data>
+  <data name="OpenFromGAC_Caption" xml:space="preserve">
+    <value>从 GAC 打开</value>
+  </data>
+  <data name="AdditionalAliasItemsToCorrectCommonErrors_BoolOption_Text" xml:space="preserve">
+    <value>添加特殊条目以更正常见错误(例如，'Length' 与 'Count')</value>
+  </data>
+  <data name="_CachesSeemsToBeCorrupted_Text" xml:space="preserve">
+    <value>{0} 缓存似乎已被损坏</value>
+  </data>
+  <data name="_GenerationItem_Progress_TooltipText" xml:space="preserve">
+    <value>{0} {1}%</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_LogicalContainers_Text" xml:space="preserve">
+    <value>逻辑容器</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Entry_Text" xml:space="preserve">
+    <value>条目</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Kind_Text" xml:space="preserve">
+    <value>种类</value>
+  </data>
+  <data name="PathIsRelative_Text" xml:space="preserve">
+    <value>路径为相对路径</value>
+  </data>
+  <data name="OpenSymbolInAssemblyExplorer_Text" xml:space="preserve">
+    <value>在程序集资源管理器中打开符号</value>
+  </data>
+  <data name="choice:mappings" xml:space="preserve">
+    <value>one:i == 1</value>
+  </data>
+  <data name="ThereAreConflictingItems_Text" xml:space="preserve">
+    <value>存在冲突条目:</value>
+  </data>
+  <data name="UnableToApplyReplaceTo_BecauseOfInline_Text" xml:space="preserve">
+    <value>由于使用了内联代码，无法对 {0} 应用替换操作</value>
+  </data>
+  <data name="GoToDecompiledSources_Text" xml:space="preserve">
+    <value>转到反编译的源代码(_D)</value>
+  </data>
+  <data name="_ImportCompletion__BoolOption_Text" xml:space="preserve">
+    <value>导入补全(_I)</value>
+  </data>
+  <data name="AssemblyExplorer_Text" xml:space="preserve">
+    <value>程序集资源管理器</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Synthetic_Text" xml:space="preserve">
+    <value>合成</value>
+  </data>
+  <data name="OpenFromNuGetPackagesCache_Caption" xml:space="preserve">
+    <value>Open from NuGet Packages Cache</value>
+  </data>
+  <data name="PdbGenerationDialogPositionSettingDescription" xml:space="preserve">
+    <value>PDB generation dialog position</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Body_Text" xml:space="preserve">
+    <value>主体</value>
+  </data>
+  <data name="ProcessExplorerEnableDebuggingActionHandler_ActionText" xml:space="preserve">
+    <value>启用调试</value>
+  </data>
+  <data name="OpenFromRunningProcessActionText" xml:space="preserve">
+    <value>从正在运行的进程打开(&amp;R)</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Readonly_Text" xml:space="preserve">
+    <value>只读</value>
+  </data>
+  <data name="RegExpWindow_Capture_Name_Header" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ChooseFolderForProject_Caption" xml:space="preserve">
+    <value>选择项目文件夹</value>
+  </data>
+  <data name="ThereIsNoPermissionToCreateSubfolderOfTheFolder__Text" xml:space="preserve">
+    <value>您没有在 '{0}' 文件夹中创建子文件夹所需的权限</value>
+  </data>
+  <data name="Advanced_Button_Text" xml:space="preserve">
+    <value>高级</value>
+  </data>
+  <data name="PdbGenerationDialogSettingsSettingDescription" xml:space="preserve">
+    <value>PDB generation dialog settings</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_NameMatchingFile_Text" xml:space="preserve">
+    <value>与文件匹配的名称</value>
+  </data>
+  <data name="DoYouWantToReplaceThem_Text" xml:space="preserve">
+    <value>是否要替换它们?</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Static_Text" xml:space="preserve">
+    <value>static</value>
+  </data>
+  <data name="SortItems_ComboEnum_Caption" xml:space="preserve">
+    <value>对条目排序:</value>
+  </data>
+  <data name="ILCodeIsNotAvailable_Text" xml:space="preserve">
+    <value>代码不可用</value>
+  </data>
+  <data name="Loading_Text" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="CompareAssembliesActionText" xml:space="preserve">
+    <value>比较程序集…</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Or_Text" xml:space="preserve">
+    <value>Or</value>
+  </data>
+  <data name="CheckOutReSharpersInstantNavigation_Text" xml:space="preserve">
+    <value>查看 ReSharper 的即时导航
+{0}</value>
+  </data>
+  <data name="TheSymbolYouAreNavigatingToIsInCompiledCode_Text" xml:space="preserve">
+    <value>您要导航到的符号位于编译的代码中。您需要选择显示此类符号的默认操作。
+此偏好设置稍后可在“ReSharper | 选项 | 工具 | 外部源”下更改。
+您还可以在“导航到”菜单 {0} 中明确调用任意操作。</value>
+  </data>
+  <data name="AddFolderSubstitution_Caption" xml:space="preserve">
+    <value>添加文件夹替换</value>
+  </data>
+  <data name="GoToObjectBrowser_Text" xml:space="preserve">
+    <value>转到对象浏览器(_O)</value>
+  </data>
+  <data name="ApplyChanges_Text" xml:space="preserve">
+    <value>应用更改</value>
+  </data>
+  <data name="LeaveVSNavigationIntact_Text" xml:space="preserve">
+    <value>保持 Visual Studio 导航不变(_V)</value>
+  </data>
+  <data name="ConfigurePriorityOfNullCheckingPatterns_Text" xml:space="preserve">
+    <value>配置 null 检查模式的优先级:</value>
+  </data>
+  <data name="PdbGeneration_Caption" xml:space="preserve">
+    <value>PDB 生成</value>
+  </data>
+  <data name="RunningCustomTool_Text" xml:space="preserve">
+    <value>正在运行自定义工具</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Field_Text" xml:space="preserve">
+    <value>DP 字段</value>
+  </data>
+  <data name="AdvancedCodeCompletionSettings_Text" xml:space="preserve">
+    <value>Advanced code completion settings</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Priority_Low_Text" xml:space="preserve">
+    <value>低</value>
+  </data>
+  <data name="RegularExpressionValidatorInputRowHeightSettingDescription" xml:space="preserve">
+    <value>正则表达式验证器输入行高</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyName_Text" xml:space="preserve">
+    <value>DP 名称</value>
+  </data>
+  <data name="FileLayoutDesigner_Editors_Priority_Highest_Text" xml:space="preserve">
+    <value>最高</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Region_Text" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="TestRegularExpressionContextAction_Description" xml:space="preserve">
+    <value>打开对话框以编辑正则表达式并根据示例文本对其进行测试</value>
+  </data>
+  <data name="_LoadingData_Text" xml:space="preserve">
+    <value>{0} – 正在加载数据</value>
+  </data>
+  <data name="AssemblyDiff_Description" xml:space="preserve">
+    <value>选择要比较的条目的类型和位置</value>
+  </data>
+  <data name="AddAssemblyToAssemblyExplorerActionText" xml:space="preserve">
+    <value>将程序集添加到程序集资源管理器</value>
+  </data>
+  <data name="PDB_Plural" xml:space="preserve">
+    <value>{0} 个 {0:choice:one#PDB|other#PDB}</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_PropertyPart_Text" xml:space="preserve">
+    <value>属性部分</value>
+  </data>
+  <data name="_BothOpeningAndClosing_Option_Text" xml:space="preserve">
+    <value>左圆括号和右圆括号(_B)</value>
+  </data>
+  <data name="CannotExecuteTheGoToStringBecauseThere_Text" xml:space="preserve">
+    <value>无法执行“转到字符串”，因为没有打开的解决方案</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Patterns_Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="ValidateRegularExpressionActionText" xml:space="preserve">
+    <value>验证正则表达式…</value>
+  </data>
+  <data name="CreateTracepoint_Caption" xml:space="preserve">
+    <value>创建跟踪点</value>
+  </data>
+  <data name="OpenProjectInVisualStudioSettingDescription" xml:space="preserve">
+    <value>在 Visual Studio 中打开项目(_V)</value>
+  </data>
+  <data name="ExportToProjectDialogPositionSettingDescription" xml:space="preserve">
+    <value>导出到项目对话框位置</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_UnknownGroupDescriptor_Text" xml:space="preserve">
+    <value>未知组描述符</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Key_Text" xml:space="preserve">
+    <value>DP 键</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Modifiers_Text" xml:space="preserve">
+    <value>修饰符</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Group_Text" xml:space="preserve">
+    <value>组</value>
+  </data>
+  <data name="ChooseAnotherFolder_Text" xml:space="preserve">
+    <value>选择另一个文件夹</value>
+  </data>
+  <data name="TargetFolder_Caption" xml:space="preserve">
+    <value>目标文件夹</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Not_Text" xml:space="preserve">
+    <value>非</value>
+  </data>
+  <data name="PatternIsSavedAndWillBeUsedForBackground_Text" xml:space="preserve">
+    <value>模式已保存，并将用于后台代码分析。您可以在“ReSharper | 选项 | 自定义模式”中查看和编辑它 。</value>
+  </data>
+  <data name="LocateProjectInFileExplorer_Text" xml:space="preserve">
+    <value>在文件资源管理器中定位项目</value>
+  </data>
+  <data name="Generating___Text" xml:space="preserve">
+    <value>正在生成 {0}…</value>
+  </data>
+  <data name="DoNotModifyDefaultBehaviorOfVS_Text" xml:space="preserve">
+    <value>不修改 Visual Studio 的默认行为</value>
+  </data>
+  <data name="ReplaceKeywordsWithLiveTemplates_BoolOption_Text" xml:space="preserve">
+    <value>将关键字替换为实时模板</value>
+  </data>
+  <data name="RegularExpressionValidatorDialogLayoutSettingDescription" xml:space="preserve">
+    <value>正则表达式验证器对话框布局</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_PropertyName_Text" xml:space="preserve">
+    <value>属性名称</value>
+  </data>
+  <data name="OpenFromNuGetPackagesCacheDialogSettingsSettingDescription" xml:space="preserve">
+    <value>从 NuGet 软件包缓存对话框设置打开</value>
+  </data>
+  <data name="Item_Plural" xml:space="preserve">
+    <value>{0} 个{0:choice:one#条目|other#条目}</value>
+  </data>
+  <data name="OpenFromNuGet_Caption" xml:space="preserve">
+    <value>从 NuGet 打开</value>
+  </data>
+  <data name="Status_Text" xml:space="preserve">
+    <value>按状态分组</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_Category_Snippets_Text" xml:space="preserve">
+    <value>片段</value>
+  </data>
+  <data name="_VSSymbolCacheFolder__Text" xml:space="preserve">
+    <value>Visual Studio 符号缓存文件夹: {0}(_V)</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Handler_Text" xml:space="preserve">
+    <value>DP 处理程序</value>
+  </data>
+  <data name="OpenFromNuGetPackagesCacheActionText" xml:space="preserve">
+    <value>从 NuGet 软件包缓存打开…</value>
+  </data>
+  <data name="SourceFolder_Text" xml:space="preserve">
+    <value>源文件夹: </value>
+  </data>
+  <data name="EnterActionName_Text" xml:space="preserve">
+    <value>操作名称:</value>
+  </data>
+  <data name="TodoItemPatternWindow_Url_Tooltip" xml:space="preserve">
+    <value>URL 模式
+使用 ${GROUP} 替换对应于 ?&lt;GROUP&gt; 捕获组的文本</value>
+  </data>
+  <data name="SearchWithPatteRnActionText" xml:space="preserve">
+    <value>使用模式搜索(&amp;R)…</value>
+  </data>
+  <data name="TestRegularExpressionContextAction_Name" xml:space="preserve">
+    <value>测试正则表达式</value>
+  </data>
+  <data name="FileLayoutDesigner_View_HasAttribute_Text" xml:space="preserve">
+    <value>具有特性:</value>
+  </data>
+  <data name="PatternCouldNotBeParsed_Text" xml:space="preserve">
+    <value>模式无法解析</value>
+  </data>
+  <data name="AutomaticallyAcceptSingleSuggestedItemIn_Text" xml:space="preserve">
+    <value>在以下补全中自动接受单个建议条目:</value>
+  </data>
+  <data name="Id_Header" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="Sma_rtCompletion__BoolOption_Text" xml:space="preserve">
+    <value>智能补全(_R)</value>
+  </data>
+  <data name="FolderCannotBeAnEmptyString_Text" xml:space="preserve">
+    <value>文件夹不能为空字符串</value>
+  </data>
+  <data name="ShouldEnterAnUniqueName_Text" xml:space="preserve">
+    <value>请输入唯一名称</value>
+  </data>
+  <data name="PdbGenerationDestinationFolderSettingDescription" xml:space="preserve">
+    <value>PDB 生成目标文件夹</value>
+  </data>
+  <data name="FindSimilarIssues__Text" xml:space="preserve">
+    <value>查找类似问题('{0}')</value>
+  </data>
+  <data name="Location_Header" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="_Cancel_ButtonText" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="AssemblyDiff_RadioGroup_Header" xml:space="preserve">
+    <value>选择类型:</value>
+  </data>
+  <data name="AutomaticallyInsert_parenthesesAfter_RadioOption_Caption" xml:space="preserve">
+    <value>补全后自动插入圆括号(_P):</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_FilePattern_Text" xml:space="preserve">
+    <value>文件模式</value>
+  </data>
+  <data name="TodoItemPatternWindow_Url_Label" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="EditPattern_Text" xml:space="preserve">
+    <value>编辑模式</value>
+  </data>
+  <data name="ExportToProject_Caption" xml:space="preserve">
+    <value>导出到项目</value>
+  </data>
+  <data name="OpenContainingFolderActionText" xml:space="preserve">
+    <value>打开包含文件夹</value>
+  </data>
+  <data name="TodoItemPatternWindow_OK_Button" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Published_Header" xml:space="preserve">
+    <value>已发布</value>
+  </data>
+  <data name="RegExpWindow_Capture_Value_Header" xml:space="preserve">
+    <value>值</value>
+  </data>
+  <data name="Authors_Header" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="Downloads_Header" xml:space="preserve">
+    <value>下载</value>
+  </data>
+  <data name="CreatePlaceholder_Text" xml:space="preserve">
+    <value>创建占位符</value>
+  </data>
+  <data name="OpenWithLocalizationManagerActionText" xml:space="preserve">
+    <value>使用 Localization Manager 打开</value>
+  </data>
+  <data name="OpenFromNuGetDialogPositionSettingDescription" xml:space="preserve">
+    <value>从 NuGet 对话框位置打开</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HasAttribute_Text" xml:space="preserve">
+    <value>具有特性</value>
+  </data>
+  <data name="AssemblyName_Information_Caption" xml:space="preserve">
+    <value>程序集名称:</value>
+  </data>
+  <data name="AddNewFileToCompare_Text" xml:space="preserve">
+    <value>添加要比较的新文件</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Name_Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="RegExpWindow_CheckLinesSeparately_CheckBox" xml:space="preserve">
+    <value>分别检查行</value>
+  </data>
+  <data name="AddAssembliesToAssemblyExplorer_Text" xml:space="preserve">
+    <value>将程序集添加到程序集资源管理器</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="AssemblyLocation_Information_Caption" xml:space="preserve">
+    <value>程序集位置:</value>
+  </data>
+  <data name="Edit_Text" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="PathMustBeANonEmptyString_Text" xml:space="preserve">
+    <value>路径必须是非空字符串</value>
+  </data>
+  <data name="OriginOf__Text" xml:space="preserve">
+    <value>'{0}' 的来源</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Getter_Text" xml:space="preserve">
+    <value>附加的 DP Getter</value>
+  </data>
+  <data name="ProjectName_Text" xml:space="preserve">
+    <value>项目名称:</value>
+  </data>
+  <data name="CanUseForAssertion_Tooltip" xml:space="preserve">
+    <value>生成断言时将使用标有此标志的优先级最高的模式</value>
+  </data>
+  <data name="FolderNameCannotEndWithDot_Text" xml:space="preserve">
+    <value>文件夹名称不能以 '.' 结尾</value>
+  </data>
+  <data name="Summary_Header" xml:space="preserve">
+    <value>总结</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Type_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="YouAreAboutToReplaceTheSetOfPatterns_Text" xml:space="preserve">
+    <value>您即将使用默认模式集替换该模式集。这会移除您可能已进行的所有更改。要继续吗?</value>
+  </data>
+  <data name="ShowImportItemsInBasicCompletion_BoolOption_Text" xml:space="preserve">
+    <value>在基本补全中显示导入条目</value>
+  </data>
+  <data name="OpenFromNuGetDialogSettingsSettingDescription" xml:space="preserve">
+    <value>从 NuGet 对话框设置打开</value>
+  </data>
+  <data name="ThereIsNoDrive__Text" xml:space="preserve">
+    <value>没有驱动器 '{0}'</value>
+  </data>
+  <data name="CannotCompareFileOrFolderWithItself_Text" xml:space="preserve">
+    <value>无法与自身比较</value>
+  </data>
+  <data name="CreateSlnFileSettingDescription" xml:space="preserve">
+    <value>创建 *._sln 文件</value>
+  </data>
+  <data name="LoadReferencePackagesSettingDescription" xml:space="preserve">
+    <value>加载引用软件包</value>
+  </data>
+  <data name="ExternalSourcesProvider_Information_Caption" xml:space="preserve">
+    <value>外部源提供程序:</value>
+  </data>
+  <data name="ConfiguresGoToSuggesterSettingDescription" xml:space="preserve">
+    <value>配置“转到建议器”</value>
+  </data>
+  <data name="Pattern_Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+</root>

@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CppDFAConstantFunctionResultTitle" xml:space="preserve">
+    <value>返回值始终为同一个常量的函数</value>
+  </data>
+  <data name="CppDFAInfiniteRecursionDescription" xml:space="preserve">
+    <value>报告除非抛出异常否则无限调用自己的函数</value>
+  </data>
+  <data name="CppDFAUnreachableCodeDescription" xml:space="preserve">
+    <value>报告从未在任何控制流中执行并且可以安全移除的代码片段</value>
+  </data>
+  <data name="CppDFALoopConditionNotUpdatedDescription" xml:space="preserve">
+    <value>报告循环内未更新的循环条件</value>
+  </data>
+  <data name="VarUsedInLoopConditionIsNotUpdatedInTheLoop" xml:space="preserve">
+    <value>循环条件中使用的 {0} 未在循环中更新</value>
+  </data>
+  <data name="InfiniteRecursion" xml:space="preserve">
+    <value>无限递归</value>
+  </data>
+  <data name="IndexMayHaveAValueWhichIsOutOfBounds" xml:space="preserve">
+    <value>索引的值 '{0}' 可能超出范围</value>
+  </data>
+  <data name="VarIsOnlyAssignedButNeverAccessed" xml:space="preserve">
+    <value>{0}只是被分配，从未被访问</value>
+  </data>
+  <data name="CppDFAUnreadVariableDescription" xml:space="preserve">
+    <value>报告已声明但从未访问以进行读取的局部变量</value>
+  </data>
+  <data name="CppDFAArrayIndexOutOfBoundsTitle" xml:space="preserve">
+    <value>索引可能超出范围的数组访问表达式</value>
+  </data>
+  <data name="CppDFAMemoryLeakDescription" xml:space="preserve">
+    <value>报告在无法访问之前未释放的内存分配(使用 'new' 或 'malloc()')</value>
+  </data>
+  <data name="CppDFAInfiniteRecursionTitle" xml:space="preserve">
+    <value>无限调用自己的函数</value>
+  </data>
+  <data name="IndexMayBeOutOfBounds" xml:space="preserve">
+    <value>索引可能超出范围</value>
+  </data>
+  <data name="CppDFAEndlessLoopDescription" xml:space="preserve">
+    <value>报告仅通过抛出异常退出的 'for'、'while'、'do-while' 和 'goto' 语句</value>
+  </data>
+  <data name="CppDFAMemoryLeakTitle" xml:space="preserve">
+    <value>未释放的内存分配</value>
+  </data>
+  <data name="CppDFAConstantFunctionResultDescription" xml:space="preserve">
+    <value>报告返回值始终为同一个常量的函数</value>
+  </data>
+  <data name="EntityMayPointToDeallocatedMemory" xml:space="preserve">
+    <value>{0} 可能指向已取消分配的内存</value>
+  </data>
+  <data name="AllocatedMemoryLeaked" xml:space="preserve">
+    <value>分配的内存泄漏</value>
+  </data>
+  <data name="CppDFADeletedPointerDescription" xml:space="preserve">
+    <value>报告引用已被删除运算符或 free(void* ptr) 函数删除的内存的指针的用法</value>
+  </data>
+  <data name="CppDFALoopConditionNotUpdatedTitle" xml:space="preserve">
+    <value>循环内未更新的循环条件</value>
+  </data>
+  <data name="VarMayPointToInvalidatedMemory" xml:space="preserve">
+    <value>{0} 可能指向无效内存</value>
+  </data>
+  <data name="CppDFANotInitializedFieldTitle" xml:space="preserve">
+    <value>使用前可能尚未初始化的字段</value>
+  </data>
+  <data name="CppDFAUnreadVariableTitle" xml:space="preserve">
+    <value>已声明但从未访问以进行读取的局部变量</value>
+  </data>
+  <data name="TheAddressOfTheLocalVariableMayEscapeTheFunction" xml:space="preserve">
+    <value>{0}的地址可能转义该函数</value>
+  </data>
+  <data name="CppDFANotInitializedFieldDescription" xml:space="preserve">
+    <value>报告在使用之前可能尚未初始化的字段。初始化和使用可能发生在不同的函数中。</value>
+  </data>
+  <data name="CppDFAConstantParameterTitle" xml:space="preserve">
+    <value>始终具有相同值的函数形参</value>
+  </data>
+  <data name="NotInitializedField" xml:space="preserve">
+    <value>未初始化的{0} 的用法</value>
+  </data>
+  <data name="CppDFANullDereferenceDescription" xml:space="preserve">
+    <value>报告可能包含 nullptr 的指针的解引用</value>
+  </data>
+  <data name="FunctionAlwaysReturnsConstant" xml:space="preserve">
+    <value>{0} 始终返回 {1}</value>
+  </data>
+  <data name="ParamAlwaysEqualsToConstant" xml:space="preserve">
+    <value>{0} 始终等于 {1}</value>
+  </data>
+  <data name="CppDFALocalValueEscapesScopeDescription" xml:space="preserve">
+    <value>报告引用了转义其作用域的局部变量的变量</value>
+  </data>
+  <data name="AllCallsOfFunctionAreUnreachable" xml:space="preserve">
+    <value>{0} 的所有调用都不可到达</value>
+  </data>
+  <data name="CppDFAConstantParameterDescription" xml:space="preserve">
+    <value>报告始终具有相同值的函数形参</value>
+  </data>
+  <data name="TheAddressOfTheLocalObjectMayEscapeTheFunction" xml:space="preserve">
+    <value>局部临时对象的地址可能转义该函数</value>
+  </data>
+  <data name="CalledFromGlobalScope" xml:space="preserve">
+    <value>从全局作用域调用时，{0}</value>
+  </data>
+  <data name="CppDFALocalValueEscapesFunctionTitle" xml:space="preserve">
+    <value>引用转义函数的局部值</value>
+  </data>
+  <data name="CppDFAConstantConditionsTitle" xml:space="preserve">
+    <value>始终为 true 或 false 的条件</value>
+  </data>
+  <data name="CppDFAUnreachableCodeTitle" xml:space="preserve">
+    <value>不可到达的代码</value>
+  </data>
+  <data name="EndlessLoop" xml:space="preserve">
+    <value>无尽循环</value>
+  </data>
+  <data name="CppDFAArrayIndexOutOfBoundsDescription" xml:space="preserve">
+    <value>报告索引可能超出数组或已分配缓冲区的范围的数组或指针变量访问表达式</value>
+  </data>
+  <data name="CppDFAUnusedValueDescription" xml:space="preserve">
+    <value>报告赋值后从未使用过的变量值</value>
+  </data>
+  <data name="CppDFAInvalidatedMemoryDescription" xml:space="preserve">
+    <value>报告对无效容器的内容的引用</value>
+  </data>
+  <data name="CppDFATimeOverDescription" xml:space="preserve">
+    <value>数据流检查已达到时间或内存限值，无法在上下文敏感或上下文不敏感模式下进行评估</value>
+  </data>
+  <data name="CalledFrom" xml:space="preserve">
+    <value>从 {1} 调用时，{0}</value>
+  </data>
+  <data name="CppDFAConstantConditionsDescription" xml:space="preserve">
+    <value>报告始终为 true 或 false 的条件以及值被静态证明为常量的表达式</value>
+  </data>
+  <data name="TheValueIsNeverUsed" xml:space="preserve">
+    <value>从未使用值</value>
+  </data>
+  <data name="PointerMayBeNull" xml:space="preserve">
+    <value>指针可能为 null</value>
+  </data>
+  <data name="VarMayPointToMemoryWhichIsOutOfScope" xml:space="preserve">
+    <value>{0} 可能指向超出范围的内存</value>
+  </data>
+  <data name="CppDFAUnreachableFunctionCallDescription" xml:space="preserve">
+    <value>报告其调用从未使用的函数。此类函数也永远不会被执行。</value>
+  </data>
+  <data name="ConditionIsAlwaysConstantWhenReached" xml:space="preserve">
+    <value>条件满足后始终为 {0}</value>
+  </data>
+  <data name="MemoryLeak" xml:space="preserve">
+    <value>{0} 中分配的内存泄漏</value>
+  </data>
+  <data name="DFAUnreachableCode" xml:space="preserve">
+    <value>不可到达的代码</value>
+  </data>
+  <data name="CppDFAInvalidatedMemoryTitle" xml:space="preserve">
+    <value>对无效容器的内容的引用</value>
+  </data>
+  <data name="CppDFANullDereferenceTitle" xml:space="preserve">
+    <value>可能包含 nullptr 的指针的解引用</value>
+  </data>
+  <data name="CppDFADeletedPointerTitle" xml:space="preserve">
+    <value>引用已删除内存的指针的用法</value>
+  </data>
+  <data name="CppDFAUnusedValueTitle" xml:space="preserve">
+    <value>赋值后从未使用过的变量值</value>
+  </data>
+  <data name="ConditionIsAlwaysConstant" xml:space="preserve">
+    <value>条件始终为 {0}</value>
+  </data>
+  <data name="CppDFATimeOverTitle" xml:space="preserve">
+    <value>数据流检查已超时</value>
+  </data>
+  <data name="CppDFALocalValueEscapesScopeTitle" xml:space="preserve">
+    <value>引用转义其作用域的局部变量</value>
+  </data>
+  <data name="CppDFAEndlessLoopTitle" xml:space="preserve">
+    <value>无限循环语句</value>
+  </data>
+  <data name="CppDFALocalValueEscapesFunctionDescription" xml:space="preserve">
+    <value>报告对通过返回、对全局变量或字段赋值转义该函数的局部值的引用</value>
+  </data>
+  <data name="DFATimeIsOver" xml:space="preserve">
+    <value>此文件过于复杂，无法执行数据流分析</value>
+  </data>
+  <data name="CppDFAUnreachableFunctionCallTitle" xml:space="preserve">
+    <value>其调用从未使用的函数</value>
+  </data>
+  <data name="AddNoreturn_Text" xml:space="preserve">
+    <value>将 [[noreturn]] 添加到包含函数</value>
+  </data>
+</root>

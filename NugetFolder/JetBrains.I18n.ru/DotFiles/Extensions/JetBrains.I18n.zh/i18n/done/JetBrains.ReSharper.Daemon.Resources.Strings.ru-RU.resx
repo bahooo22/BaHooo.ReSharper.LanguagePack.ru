@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ContentOfCollectionIsNeverUpdatedMessage" xml:space="preserve">
+    <value>集合 '{0}' 的内容从未更新</value>
+  </data>
+  <data name="ConvertLocalVariableOrFieldToConstant" xml:space="preserve">
+    <value>将局部变量或字段转换为常量</value>
+  </data>
+  <data name="Implements_From__Text" xml:space="preserve">
+    <value>从 {1} 实现{0}</value>
+  </data>
+  <data name="LocalVariableParameterIsOnlyUsedToCaptureItsNameVianameofExpression" xml:space="preserve">
+    <value>局部变量/形参仅用于通过 'nameof' 表达式捕获其名称</value>
+  </data>
+  <data name="EventIsInvokedNeitherInThisClassNorInItsInheritorsMessage" xml:space="preserve">
+    <value>既未在此类中也未在其继承者中调用事件 '{0}'</value>
+  </data>
+  <data name="OnlyImplementationsOfAreUsedMessage" xml:space="preserve">
+    <value>仅使用了{0} '{1}' 的实现</value>
+  </data>
+  <data name="EnableAnalysisForAll_FilesFromNuGet_Text" xml:space="preserve">
+    <value>在此{1}中启用对 NuGet 软件包中所有 {0} 文件的分析</value>
+  </data>
+  <data name="TypeMemberIsNeverUsedFromOutsideOfImplementationHierarchyItIsOnlyAccessedFromOverridesThroughBaseCall" xml:space="preserve">
+    <value>类型成员从未在实现层次结构之外使用，只通过基调用从重写中访问</value>
+  </data>
+  <data name="ConfigureActionText" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="ParameterIsOnlyPassedToItselfAndUsedForPreconditionCheckSMessage" xml:space="preserve">
+    <value>形参 '{0}' 仅被传递给自身并用于先决条件检查</value>
+  </data>
+  <data name="MethodReturnValueIsNeverUsedMessage" xml:space="preserve">
+    <value>方法 '{0}' 返回值从未被使用</value>
+  </data>
+  <data name="FromTo_Text" xml:space="preserve">
+    <value>从 {0} 到 {1}</value>
+  </data>
+  <data name="Default_ToolTipFormatString_Text" xml:space="preserve">
+    <value>{0}</value>
+  </data>
+  <data name="TypeMemberIsNeverUsed" xml:space="preserve">
+    <value>类型成员从未被使用</value>
+  </data>
+  <data name="EventIsNeverSubscribedToMessage" xml:space="preserve">
+    <value>事件 '{0}' 从未被订阅</value>
+  </data>
+  <data name="UnusedParameter" xml:space="preserve">
+    <value>未使用的形参</value>
+  </data>
+  <data name="ConvertToConstantMessage" xml:space="preserve">
+    <value>转换为常量</value>
+  </data>
+  <data name="EventIsNeverSubscribedTo" xml:space="preserve">
+    <value>事件从未被订阅</value>
+  </data>
+  <data name="MemberOrTypeCanBeMadeInternalFriend" xml:space="preserve">
+    <value>成员或类型可被设为 internal (friend)</value>
+  </data>
+  <data name="UnassignedReadonlyField" xml:space="preserve">
+    <value>未被赋值的只读字段</value>
+  </data>
+  <data name="StructLacksIEquatableImplementationDescription" xml:space="preserve">
+    <value>结构会重写相等性成员，但缺少 'IEquatable' 实现。为了防止在泛型上下文中装箱，请实现 'IEquatable'。仅当结构或其包含类型(例如，记录)在解决方案中实际用于相等性比较时，才会触发此检查。</value>
+  </data>
+  <data name="AutoPropertyWithoutSetterHasNoInitializerOrNeverAssignedInConstructor" xml:space="preserve">
+    <value>没有 setter 的自动属性没有初始值设定项或从未在构造函数中赋值</value>
+  </data>
+  <data name="ReadonlyIsNeverAssignedMessage" xml:space="preserve">
+    <value>只读{0} '{1}' 从未被赋值</value>
+  </data>
+  <data name="EventIsNeverInvokedMessage" xml:space="preserve">
+    <value>事件 '{0}' 从未被调用</value>
+  </data>
+  <data name="CanBeMadeProtectedMessage" xml:space="preserve">
+    <value>{0} '{1}' 可被设为 protected</value>
+  </data>
+  <data name="UnusedTypeParameter" xml:space="preserve">
+    <value>未使用的类型形参</value>
+  </data>
+  <data name="StructLacksIEquatableImplementationMessage" xml:space="preserve">
+    <value>实现 '{0}' 接口以避免在泛型上下文中使用结构体相等性时装箱</value>
+  </data>
+  <data name="TypeParameterIsNeverUsedMessage" xml:space="preserve">
+    <value>类型形参 '{0}' 从未使用</value>
+  </data>
+  <data name="UnusedPositionalParameter" xml:space="preserve">
+    <value>未使用的位置形参</value>
+  </data>
+  <data name="ClickToGo_Text" xml:space="preserve">
+    <value>(点击以导航)</value>
+  </data>
+  <data name="NewElementsAreNeverAddedToTheCollection" xml:space="preserve">
+    <value>新元素从未被添加到集合</value>
+  </data>
+  <data name="AutoPropertyAccessorIsNeverUsedMessage" xml:space="preserve">
+    <value>自动属性访问器 '{0}' 从未被使用</value>
+  </data>
+  <data name="ParameterOfThePrimaryConstructorIsDeclaredButNeverUsed" xml:space="preserve">
+    <value>主构造函数的形参已被声明，但从未被使用</value>
+  </data>
+  <data name="SuggestBaseTypeForParameter_AvoidMemberVirtualizationDescription" xml:space="preserve">
+    <value>如果使用此形参调用的非 virtual 类型成员因此变为 virtual，则不建议更改形参类型</value>
+  </data>
+  <data name="PositionalPropertyIsNeverAccessedExceptInImplicitEqualsToStringImplementationsMessage" xml:space="preserve">
+    <value>位置属性 '{0}' 从未访问(隐式 {1}/{2} 实现除外)</value>
+  </data>
+  <data name="LabelIsNeverReferencedMessage" xml:space="preserve">
+    <value>标签 '{0}' 从未被引用</value>
+  </data>
+  <data name="AutoPropertyAccessorIsNeverUsed" xml:space="preserve">
+    <value>自动属性访问器从未被使用</value>
+  </data>
+  <data name="ImplicitConversionOfElements_Text" xml:space="preserve">
+    <value>{0} 元素的隐式转换</value>
+  </data>
+  <data name="LocalVariableIsNeverUsedCompilerWarning" xml:space="preserve">
+    <value>局部变量从未被使用(编译器警告)</value>
+  </data>
+  <data name="TypeMemberIsNeverAccessedViaBaseType" xml:space="preserve">
+    <value>类型成员从未被通过基类型访问</value>
+  </data>
+  <data name="TypeMemberIsOnlyUsedInOverrides" xml:space="preserve">
+    <value>类型成员仅在重写中使用</value>
+  </data>
+  <data name="LocalFunctionReturnValueIsNeverUsedMessage" xml:space="preserve">
+    <value>局部函数 '{0}' 返回值从未被使用</value>
+  </data>
+  <data name="Implements__Text" xml:space="preserve">
+    <value>实现 {0}</value>
+  </data>
+  <data name="ParameterIsOnlyUsedForPreconditionCheck" xml:space="preserve">
+    <value>形参仅用于先决条件检查</value>
+  </data>
+  <data name="FieldIsNeverUsedCompilerWarning" xml:space="preserve">
+    <value>字段从未被使用(编译器警告)</value>
+  </data>
+  <data name="TypeWithSuspiciousEqualityIsUsedInRecordDescription" xml:space="preserve">
+    <value>具有可疑相等性的类型被用作记录类型的成员。仅当记录类型在解决方案中实际用于相等性比较时，才会触发此检查。</value>
+  </data>
+  <data name="IsNeverAssignedMessage" xml:space="preserve">
+    <value>{0} '{1}' 从未被赋值</value>
+  </data>
+  <data name="ExceptInsideItsDeclaration_Text" xml:space="preserve">
+    <value>(在其声明内部除外)</value>
+  </data>
+  <data name="MemberCanBeMadeProtected16" xml:space="preserve">
+    <value>成员可被设为 protected</value>
+  </data>
+  <data name="PropertyCanBeMadeMessage" xml:space="preserve">
+    <value>属性可被设为 {0}</value>
+  </data>
+  <data name="ParameterCanBeDeclaredWithBaseTypeNoteThatWhenTheBaseTypeIsIEnumerableTAnotherInspectionParameterTypeCanBeIEnumerableTWillBeApplied" xml:space="preserve">
+    <value>可以使用基类型声明形参。请注意，当基类型为 IEnumerable&lt;T&gt; 时，将应用另一项检查 '形参类型可以为 IEnumerable&lt;T&gt;'。</value>
+  </data>
+  <data name="MemberCanBeMadePrivate" xml:space="preserve">
+    <value>成员可被设为 private</value>
+  </data>
+  <data name="ConvertLocalVariableOrFieldToConstant18" xml:space="preserve">
+    <value>将局部变量或字段转换为常量</value>
+  </data>
+  <data name="ANonVirtualInstanceMemberDoesNotUsethisObjectNeitherImplicitlyNorExplicitlyAndCanBeMadeStaticShared" xml:space="preserve">
+    <value>非 virtual 实例成员不使用 'this' 对象(既不隐式也不显式)，可被设为 static (共享)</value>
+  </data>
+  <data name="FieldIsAssignedButItsValueIsNeverUsed" xml:space="preserve">
+    <value>字段已被赋值，但它的值从未被使用</value>
+  </data>
+  <data name="ResumeAnalysis_Text" xml:space="preserve">
+    <value>恢复分析</value>
+  </data>
+  <data name="CanBeMadeMessage" xml:space="preserve">
+    <value>{0} '{1}' 可被设为 {2}</value>
+  </data>
+  <data name="MethodReturnValueIsNeverUsed12" xml:space="preserve">
+    <value>方法返回值从未被使用</value>
+  </data>
+  <data name="OneTypeIsConvertedToAnotherButThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAlsoAppliesToisOperatorAndAndComparisons" xml:space="preserve">
+    <value>一种类型转换为另一种类型，但解决方案中没有类型继承自两者。这也适用于 'is' 运算符以及 '==' 和 '!=' 比较。</value>
+  </data>
+  <data name="PropertyCanBeMadeInitOnly" xml:space="preserve">
+    <value>属性可被设为仅初始化</value>
+  </data>
+  <data name="VirtualOverridableMemberIsNeverOverridden" xml:space="preserve">
+    <value>virtual (overridable)成员从未被重写</value>
+  </data>
+  <data name="ParameterIsNeverUsed" xml:space="preserve">
+    <value>从不使用参数</value>
+  </data>
+  <data name="NonAccessedLocalVariable" xml:space="preserve">
+    <value>不可访问的局部变量</value>
+  </data>
+  <data name="TypeIsNeverUsed11" xml:space="preserve">
+    <value>类型从未被使用</value>
+  </data>
+  <data name="IsOnlyUsedToCaptureItsNameMessage" xml:space="preserve">
+    <value>{0} '{1}' 仅用于捕获其名称</value>
+  </data>
+  <data name="ParameterCanBeOfTypeMessage" xml:space="preserve">
+    <value>形参可以为 '{0}' 类型</value>
+  </data>
+  <data name="TypeMemberIsNeverUsedWithBaseTypeOrInterfaceItIsAlwaysAccessedViaMoreSpecificType" xml:space="preserve">
+    <value>类型成员从未与基类型或接口一起使用，始终通过更具体的类型访问</value>
+  </data>
+  <data name="Hides_From__Text" xml:space="preserve">
+    <value>从 {1} 隐藏{0}</value>
+  </data>
+  <data name="UsageCheckingServiceSettingDescription" xml:space="preserve">
+    <value>用法检查服务</value>
+  </data>
+  <data name="ParameterCanBeDeclaredWithBaseType" xml:space="preserve">
+    <value>可以使用基类型声明形参</value>
+  </data>
+  <data name="OnlyOverridesOfAreUsedMessage" xml:space="preserve">
+    <value>仅使用了{0} '{1}' 的重写</value>
+  </data>
+  <data name="EventIsNeverSubscribedTo14" xml:space="preserve">
+    <value>事件从未被订阅</value>
+  </data>
+  <data name="StructMemberHasNoMutableAccessTothisAndCanBeMadeReadonly" xml:space="preserve">
+    <value>结构成员不通过 'this' 更改包含结构，可被设置为只读</value>
+  </data>
+  <data name="ParameterIsNeverUsedMessage" xml:space="preserve">
+    <value>形参 '{0}' 从未使用</value>
+  </data>
+  <data name="TypeParameterIsNeverUsed" xml:space="preserve">
+    <value>类型形参从未被使用</value>
+  </data>
+  <data name="IsNeverUsedMessage" xml:space="preserve">
+    <value>{0} '{1}' 从未被使用{2}</value>
+  </data>
+  <data name="ConstructorParameterCanBeDeclaredWithBaseType" xml:space="preserve">
+    <value>可以使用基类型声明构造函数的形参</value>
+  </data>
+  <data name="ParameterOfPartialMethodIsNeverUsed" xml:space="preserve">
+    <value>分部方法的形参从未被使用</value>
+  </data>
+  <data name="FieldIsNeverUsed" xml:space="preserve">
+    <value>字段从未被使用</value>
+  </data>
+  <data name="IsAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+    <value>{0} '{1}' 已被赋值，但它的值从未被使用</value>
+  </data>
+  <data name="CanBeMadeMessage3" xml:space="preserve">
+    <value>{0}可被设为 {1}</value>
+  </data>
+  <data name="CanBeMadeMessage4" xml:space="preserve">
+    <value>{0}可被设为 {1}</value>
+  </data>
+  <data name="CanBeMadeMessage5" xml:space="preserve">
+    <value>{0}可被设为 {1}</value>
+  </data>
+  <data name="ParameterIsAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+    <value>形参 '{0}' 已被赋值，但它的值从未被使用</value>
+  </data>
+  <data name="GetOnlyAutoPropertyIsNeverAssigned" xml:space="preserve">
+    <value>只获取自动属性从未被赋值</value>
+  </data>
+  <data name="ReadonlyFieldIsNeverAssignedCompilerWarning" xml:space="preserve">
+    <value>只读字段从未被赋值(编译器警告)</value>
+  </data>
+  <data name="ClassCanBeMadeSealedNonInheritable" xml:space="preserve">
+    <value>类可被设为 sealed (不可继承)</value>
+  </data>
+  <data name="EventNeverInvokedNoteThatInCThisWarningIsTheCompilerWarningCSAndIsNotConfiguredHere" xml:space="preserve">
+    <value>事件从未被调用。注意，在 C# 中，此警告是编译器警告 CS0067，此处未配置。</value>
+  </data>
+  <data name="SuggestBaseTypeForParameter_AvoidMemberVirtualizationTitle" xml:space="preserve">
+    <value>避免类型成员虚拟化</value>
+  </data>
+  <data name="Overrides_From__Text" xml:space="preserve">
+    <value>从 {1} 重写{0}</value>
+  </data>
+  <data name="UnusedLabel" xml:space="preserve">
+    <value>未使用的标签</value>
+  </data>
+  <data name="FieldIsAssignedButItsValueIsNeverUsedCompilerWarning" xml:space="preserve">
+    <value>字段已被赋值，但它的值从未被使用(编译器警告)</value>
+  </data>
+  <data name="CollectionIsNeverUpdated" xml:space="preserve">
+    <value>集合从未更新</value>
+  </data>
+  <data name="ElementsAreOnlyAddedToTheCollectionButNeverUsed" xml:space="preserve">
+    <value>元素仅添加到集合中，从未被使用</value>
+  </data>
+  <data name="NonAccessedPositionalProperty" xml:space="preserve">
+    <value>不可访问的位置属性</value>
+  </data>
+  <data name="WithItsOverridersIsNeverUsedFromOutsideMessage" xml:space="preserve">
+    <value>{0} '{1}' 及其重写程序从未从外部使用</value>
+  </data>
+  <data name="ALocalFunctionDoesNotUsethisObjectNeitherImplicitlyNorExplicitlyOrOutsideLocalVariablesAndCanBeMadeStatic" xml:space="preserve">
+    <value>局部函数不使用 'this' 对象或外部作用域中的变量，可被设为 static</value>
+  </data>
+  <data name="DisableAnalysis_Text" xml:space="preserve">
+    <value>禁用分析</value>
+  </data>
+  <data name="NonStaticClassIsNeverInstantiated" xml:space="preserve">
+    <value>非 static 类从未被实例化</value>
+  </data>
+  <data name="CollectionsContentIsNeverQueried" xml:space="preserve">
+    <value>集合内容从未查询</value>
+  </data>
+  <data name="DefaultEqualityOfStructIsUsedMessage" xml:space="preserve">
+    <value>使用低效运行时提供的实现检查结构 '{0}' 的相等性</value>
+  </data>
+  <data name="MemberCanBeMadeProtected" xml:space="preserve">
+    <value>成员可被设为 protected</value>
+  </data>
+  <data name="ClassIsNeverInstantiated" xml:space="preserve">
+    <value>类从未被实例化</value>
+  </data>
+  <data name="TypeWithSuspiciousEqualityIsUsedInRecordTitle" xml:space="preserve">
+    <value>记录中使用了具有可疑相等性的类型</value>
+  </data>
+  <data name="MethodReturnValueIsNeverUsed" xml:space="preserve">
+    <value>方法返回值从未被使用</value>
+  </data>
+  <data name="FieldIsNeverAssignedCompilerWarning" xml:space="preserve">
+    <value>字段从未被赋值(编译器警告)</value>
+  </data>
+  <data name="AutoPropertyCanBeMadeGetOnly" xml:space="preserve">
+    <value>自动属性可被设为只获取</value>
+  </data>
+  <data name="IsOnlyUsedToDiscardOutParameterValueMessage" xml:space="preserve">
+    <value>{0} '{1}' 仅用于舍弃 'out' 形参值</value>
+  </data>
+  <data name="IsNeverUsedMessage9" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="IsNeverUsedMessage8" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="IsNeverUsedMessage1" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="IsNeverUsedMessage2" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="IsNeverUsedMessage7" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="IsNeverUsedMessage6" xml:space="preserve">
+    <value>{0} '{1}' 从未使用</value>
+  </data>
+  <data name="LocalVariableToDiscardOutParameterDescription" xml:space="preserve">
+    <value>不可访问的局部变量仅用于舍弃 'out' 形参值</value>
+  </data>
+  <data name="AutoPropertyCanBeMadeMessage" xml:space="preserve">
+    <value>自动属性可被设为 {0}</value>
+  </data>
+  <data name="CanBeMadePrivateMessage" xml:space="preserve">
+    <value>{0} '{1}' 可被设为 private</value>
+  </data>
+  <data name="PrimaryConstructorParameterIsNeverAccessed" xml:space="preserve">
+    <value>主构造函数形参 '{0}' 从未访问</value>
+  </data>
+  <data name="VirtualOverridableMemberIsNeverOverriddenAndSoThevirtualoverridableModifierCanBeRemoved" xml:space="preserve">
+    <value>virtual (overridable)成员从未被重写，因此 'virtual' ('overridable')修饰符可被移除</value>
+  </data>
+  <data name="FieldIsNeverAssigned" xml:space="preserve">
+    <value>字段未分配</value>
+  </data>
+  <data name="UnassignedField" xml:space="preserve">
+    <value>未被赋值的字段</value>
+  </data>
+  <data name="ParameterIsOnlyPassedToItselfMessage" xml:space="preserve">
+    <value>形参 '{0}' 仅被传递给自身</value>
+  </data>
+  <data name="ParameterOutputValueIsAlwaysDiscarded" xml:space="preserve">
+    <value>形参输出值始终被舍弃</value>
+  </data>
+  <data name="ParameterOutputValueIsAlwaysDiscardedMessage" xml:space="preserve">
+    <value>形参 '{0}' 输出值始终被舍弃</value>
+  </data>
+  <data name="GetOnlyAutoPropertyIsNeverAssignedMessage" xml:space="preserve">
+    <value>只获取自动属性 '{0}' 从未被赋值</value>
+  </data>
+  <data name="EnableAnalysis_Text" xml:space="preserve">
+    <value>启用分析</value>
+  </data>
+  <data name="StructHasNoMutableMembersAndCanBeMadeReadonly" xml:space="preserve">
+    <value>结构没有可变成员，可被设为只读</value>
+  </data>
+  <data name="NotAccessedPrimaryConstructorParameter" xml:space="preserve">
+    <value>未访问的主构造函数形参</value>
+  </data>
+  <data name="ParameterDeclaresTheImplicitPositionalPropertyThatIsNeverAccessed" xml:space="preserve">
+    <value>形参 '{0}' 声明了从未访问的隐式位置属性 '{1}'。这可能导致在 '{2}' 实例中捕获多余状态并参与隐式 {3}/{4} 实现。</value>
+  </data>
+  <data name="PositionalParameterIsNeverUsedDidYouForgetToUseItToInitializeThePropertyWithThatNameMessage" xml:space="preserve">
+    <value>位置形参 '{0}' 从未被使用。您是否忘记使用它初始化该名称的属性?</value>
+  </data>
+  <data name="OnlyOverridersOfEventAreSubscribedToMessage" xml:space="preserve">
+    <value>仅订阅了事件 '{0}' 的重写</value>
+  </data>
+  <data name="ReturnTypeCanBeMessage" xml:space="preserve">
+    <value>返回值类型可以为 '{0}'</value>
+  </data>
+  <data name="LocalVariableIsAssignedButItsValueIsNeverUsed" xml:space="preserve">
+    <value>局部变量已被赋值，但它的值从未被使用</value>
+  </data>
+  <data name="EventIsNotInvokedInAnyOfTheImplementationsMessage" xml:space="preserve">
+    <value>未在任何实现中调用事件 '{0}'</value>
+  </data>
+  <data name="StructCanBeMadeReadonly" xml:space="preserve">
+    <value>结构可被设为只读</value>
+  </data>
+  <data name="HasSomeMembersButNoInheritorsMessage" xml:space="preserve">
+    <value>{0} '{1}' 具有一些 {2} 成员，但没有继承者</value>
+  </data>
+  <data name="SuspiciousTypeCheckThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+    <value>可疑类型检查: 解决方案中没有从 '{0}' 和 '{1}' 继承的类型</value>
+  </data>
+  <data name="ParameterIsOnlyUsedForPreconditionCheck13" xml:space="preserve">
+    <value>形参仅用于先决条件检查</value>
+  </data>
+  <data name="StructLacksIEquatableImplementationTitle" xml:space="preserve">
+    <value>结构缺少 'IEquatable' 实现</value>
+  </data>
+  <data name="UnusedParameterInPartialMethod" xml:space="preserve">
+    <value>分部方法中的未使用形参</value>
+  </data>
+  <data name="LocalVariableToDiscardOutParameter" xml:space="preserve">
+    <value>不可访问的局部变量仅用于舍弃 'out' 形参值</value>
+  </data>
+  <data name="HasNoInheritorsAndCanBeMarkedMessage" xml:space="preserve">
+    <value>{0} '{1}' 没有继承者，可被标记为 {2}</value>
+  </data>
+  <data name="ParameterIsUsedNeitherInThisNorInOverridingsMessage" xml:space="preserve">
+    <value>形参 '{0}' 未在这里使用，也未用于重写{1}</value>
+  </data>
+  <data name="ClassHasNoInheritorsAndCanBeMarkedSealedNonInheritable" xml:space="preserve">
+    <value>类没有继承者，可被标记为 sealed (不可继承)</value>
+  </data>
+  <data name="AbstractOrVirtualOverridableEventIsNeverInvoked" xml:space="preserve">
+    <value>abstract 或 virtual (overridable)事件从未被调用</value>
+  </data>
+  <data name="ClassWithVirtualOverridableMembersNeverInherited" xml:space="preserve">
+    <value>具有 virtual (overridable)成员的类从未被继承</value>
+  </data>
+  <data name="LocalFunctionCanBeMadeStatic" xml:space="preserve">
+    <value>局部函数可被设为 static</value>
+  </data>
+  <data name="ParameterIsOnlyUsedForPreconditionCheckSMessage" xml:space="preserve">
+    <value>形参 '{0}' 仅用于先决条件检查</value>
+  </data>
+  <data name="DefaultEqualityOfStructIsUsedDescription" xml:space="preserve">
+    <value>结构的 'Equals' 和 'GetHashCode' 方法的默认实现基于反射，性能不佳。为了防止装箱和提高性能，建议重写相等性成员。仅当结构或其包含类型(例如，记录)在解决方案中实际用于相等性比较时，才会触发此检查。</value>
+  </data>
+  <data name="TypeWithSuspiciousEqualityIsUsedInRecordMessage" xml:space="preserve">
+    <value>具有可疑相等性的类型被用作记录类型的成员</value>
+  </data>
+  <data name="MemberCanBeMadeStaticShared" xml:space="preserve">
+    <value>成员可被设为 static (共享)</value>
+  </data>
+  <data name="IsNeverOverriddenMessage" xml:space="preserve">
+    <value>{0} {1} '{2}' 从未被重写</value>
+  </data>
+  <data name="TypeCanBeMadeFileLocal" xml:space="preserve">
+    <value>类型可被设为 file-local</value>
+  </data>
+  <data name="EntityIsOnlyUsedToCaptureItsName" xml:space="preserve">
+    <value>实体仅用于捕获其名称</value>
+  </data>
+  <data name="ReturnTypeCanBeIEnumerableT" xml:space="preserve">
+    <value>返回值类型可以为 IEnumerable&lt;T&gt;</value>
+  </data>
+  <data name="UnusedLocalVariable" xml:space="preserve">
+    <value>未使用的局部变量</value>
+  </data>
+  <data name="LocalVariableIsNeverUsed" xml:space="preserve">
+    <value>局部变量从未被使用</value>
+  </data>
+  <data name="TypeCanBeMessage" xml:space="preserve">
+    <value>类型可以为 '{0}'</value>
+  </data>
+  <data name="ParameterCanBeDeclaredWithIEnumerableTTypeWhileItsDeclaredWithMoreSpecificTypeEGListT" xml:space="preserve">
+    <value>可以使用 IEnumerable&lt;T&gt; 类型声明形参，但它使用更具体的类型(例如 List&lt;T&gt;)声明</value>
+  </data>
+  <data name="TypeIsNeverUsed" xml:space="preserve">
+    <value>类型从未被使用</value>
+  </data>
+  <data name="OnlyImplementationsOfEventAreSubscribedToMessage" xml:space="preserve">
+    <value>仅订阅了事件 '{0}' 的实现</value>
+  </data>
+  <data name="ImplicitConversion_Text" xml:space="preserve">
+    <value>{0} 的隐式转换</value>
+  </data>
+  <data name="LocalVariableIsAssignedButItsValueIsNeverUsedCompilerWarning" xml:space="preserve">
+    <value>局部变量已被赋值，但它的值从未被使用(编译器警告)</value>
+  </data>
+  <data name="FieldHasNoWriteUsagesAfterInitializationAndCanBeMadeReadonly" xml:space="preserve">
+    <value>字段在初始化后没有写入用法，可被设为只读</value>
+  </data>
+  <data name="ReadonlyFieldIsNeverAssigned" xml:space="preserve">
+    <value>只读字段从未被赋值</value>
+  </data>
+  <data name="StructMemberCanBeMadeReadonly" xml:space="preserve">
+    <value>结构成员可被设为只读</value>
+  </data>
+  <data name="TheResultingValueOfOutputParameterIsAlwaysDiscarded" xml:space="preserve">
+    <value>输出形参的结果值始终被舍弃</value>
+  </data>
+  <data name="AllUsagesOfAMethodOrReadOnlyPropertyIndexerUseReturnedValueAsIEnumerableTWhileItsDeclaredWithMoreSpecificTypeEGListT" xml:space="preserve">
+    <value>方法(或只读属性/索引器)的所有用法都使用返回值作为 IEnumerable&lt;T&gt;，但它使用更具体的类型(例如 List&lt;T&gt;)声明</value>
+  </data>
+  <data name="SuspiciousComparisonThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+    <value>可疑比较: 解决方案中没有从 '{0}' 和 '{1}' 继承的类型</value>
+  </data>
+  <data name="EnableAnalysisInSolution_Text" xml:space="preserve">
+    <value>在解决方案中启用分析</value>
+  </data>
+  <data name="PositionalPropertyIsNeverAccessedForRead" xml:space="preserve">
+    <value>从未为读取访问位置属性</value>
+  </data>
+  <data name="AutoPropertyHasNoWriteUsagesAfterInitializationAndCanBeMadeGetOnly" xml:space="preserve">
+    <value>自动属性在初始化后没有写入用法，可被设为只获取</value>
+  </data>
+  <data name="DisableAnalysisForAll_FilesFromNuGet_Text" xml:space="preserve">
+    <value>在此{1}中禁用对 NuGet 软件包中所有 {0} 文件的分析</value>
+  </data>
+  <data name="CanBeMadeFileLocalMessage" xml:space="preserve">
+    <value>{0} '{1}' 可被设为 file-local</value>
+  </data>
+  <data name="CalculateElementIdForPrivateMembersSettingDescription" xml:space="preserve">
+    <value>计算 private 成员的 ElementId</value>
+  </data>
+  <data name="TypeMemberIsNeverUsed10" xml:space="preserve">
+    <value>类型成员从未被使用</value>
+  </data>
+  <data name="ParameterTypeCanBeIEnumerableT" xml:space="preserve">
+    <value>形参类型可以为 IEnumerable&lt;T&gt;</value>
+  </data>
+  <data name="DefaultEqualityOfStructIsUsedTitle" xml:space="preserve">
+    <value>具有默认相等性成员的结构用于比较</value>
+  </data>
+  <data name="ParameterIsNotUsedInAnyOfTheImplementationsMessage" xml:space="preserve">
+    <value>未在任何实现中使用形参 '{0}'</value>
+  </data>
+  <data name="PropertySetterCanBeReplacesWithinitAccessorToEnforcePropertyImmutability" xml:space="preserve">
+    <value>属性 setter 可被替换为 'init' 访问器以强制执行属性不变性</value>
+  </data>
+  <data name="ContentOfCollectionIsOnlyUpdatedButNeverUsedMessage" xml:space="preserve">
+    <value>集合 '{0}' 的内容仅被更新，从未被使用</value>
+  </data>
+  <data name="ImplicitConversionCompound_Text" xml:space="preserve">
+    <value>该操作将进行以下隐式转换:</value>
+  </data>
+  <data name="LabelIsNeverReferenced" xml:space="preserve">
+    <value>标签从未被引用</value>
+  </data>
+  <data name="AccessorInAutoPropertyIsNeverUsed" xml:space="preserve">
+    <value>自动属性中的访问器从未被使用</value>
+  </data>
+  <data name="EventNeverInvoked" xml:space="preserve">
+    <value>事件从未被调用</value>
+  </data>
+  <data name="SuspiciousTypeConversionOrCheck" xml:space="preserve">
+    <value>可疑类型转换或检查</value>
+  </data>
+  <data name="AnAbstractOrVirtualOverridableEventIsNeverInvokedInItsClassOrItsInheritors" xml:space="preserve">
+    <value>abstract 或 virtual (overridable)事件从未在其类或其继承者中调用</value>
+  </data>
+  <data name="FieldCanBeMadeReadonly" xml:space="preserve">
+    <value>字段可被设为只读</value>
+  </data>
+  <data name="NonAbstractClassHasVirtualOverridableMembersButHasNoInheritors" xml:space="preserve">
+    <value>非抽象类具有 virtual (overridable)成员，但没有继承者</value>
+  </data>
+  <data name="NonAccessedField" xml:space="preserve">
+    <value>不可访问的字段</value>
+  </data>
+  <data name="SuspiciousCastThereIsNoTypeInTheSolutionWhichIsInheritedFromBothAndMessage" xml:space="preserve">
+    <value>可疑转换: 解决方案中没有从 '{0}' 和 '{1}' 继承的类型</value>
+  </data>
+  <data name="MemberCanBeMadePrivate15" xml:space="preserve">
+    <value>成员可被设为 private</value>
+  </data>
+  <data name="IsNeverInstantiatedMessage" xml:space="preserve">
+    <value>{0} '{1}' 从未被实例化</value>
+  </data>
+  <data name="IsOnlyAssignedButItsValueIsNeverUsedMessage" xml:space="preserve">
+    <value>{0} '{1}' 仅被赋值，但它的值从未被使用</value>
+  </data>
+</root>

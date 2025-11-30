@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="FeedbackCenter_BugReport_Bug_Type" xml:space="preserve">
+  <value>баг или некорректное поведение</value>
+</data>
+<data name="DisableOtherInstance_Text" xml:space="preserve">
+  <value>Отключить другой экземпляр</value>
+</data>
+<data name="DocumentTabAdd" xml:space="preserve">
+  <value>Начать новый анализ</value>
+</data>
+<data name="LicenseDialogServerLabel" xml:space="preserve">
+  <value>Сервер:</value>
+</data>
+<data name="DocumentTabCloneCurrentWithKey" xml:space="preserve">
+  <value>Клонировать текущий анализ ({0})
+(Чтобы начать новый анализ, используйте {1})</value>
+</data>
+<data name="FeedbackCenter_AttachLogs_Label" xml:space="preserve">
+  <value>Прикрепить логи</value>
+</data>
+<data name="LicenseDialogUserNameLabel" xml:space="preserve">
+  <value>Имя пользователя:</value>
+</data>
+<data name="LastName_Text" xml:space="preserve">
+  <value>Фамилия:</value>
+</data>
+<data name="LicenseServerState_PingOk" xml:space="preserve">
+  <value>Успешное соединение</value>
+</data>
+<data name="OptionsCustomProxy" xml:space="preserve">
+  <value>Пользовательские настройки веб-прокси</value>
+</data>
+<data name="LicenseDialogLicenseServerComboAutoItem" xml:space="preserve">
+  <value>(Автоопределение)</value>
+</data>
+<data name="Options_WebProxy_Copy" xml:space="preserve">
+  <value>Копировать значения из системы</value>
+</data>
+<data name="DetectedAutomatically_Text" xml:space="preserve">
+  <value>(Автоопределение)</value>
+</data>
+<data name="FeedbackCenter_UserAccount_LogIn4" xml:space="preserve">
+  <value>Отправить</value>
+</data>
+<data name="FeedbackCenter_UserAccount_LogIn1" xml:space="preserve">
+  <value>Укажите свой адрес электронной почты или</value>
+</data>
+<data name="FeedbackCenter_UserAccount_LogIn2" xml:space="preserve">
+  <value>войдите в свою учетную запись JetBrains</value>
+</data>
+<data name="FeedbackCenter_UserAccount_LogIn3" xml:space="preserve">
+  <value>, чтобы служба поддержки могла связаться с вами для уточнения деталей. В противном случае отправляйте анонимно</value>
+</data>
+<data name="LicenseDialogJBAuthSeparator" xml:space="preserve">
+  <value> или </value>
+</data>
+<data name="LicenseDialogAddNewLicenseServerButton" xml:space="preserve">
+  <value>Добавить сервер лицензий</value>
+</data>
+<data name="ExceptionBrowser_SubmittedExceptions_Header" xml:space="preserve">
+  <value>Отправленные исключения</value>
+</data>
+<data name="FeedbackCenter_TellAboutExperience" xml:space="preserve">
+  <value>Расскажите нам о своем опыте</value>
+</data>
+<data name="LicenseDialogLogIn" xml:space="preserve">
+  <value>Войти с помощью JetBrains Account</value>
+</data>
+<data name="ExceptionBrowser_Form_InfoToBeSent" xml:space="preserve">
+  <value>Техническая информация для отправки:</value>
+</data>
+<data name="ExceptionBrowser_Form_Happened" xml:space="preserve">
+  <value>Когда произошло:</value>
+</data>
+<data name="ExceptionBrowser_Form_Message" xml:space="preserve">
+  <value>Сообщение:</value>
+</data>
+<data name="LicenseDialogInfoTitle" xml:space="preserve">
+  <value>Активируйте {0} с помощью:</value>
+</data>
+<data name="FeedbackCenter_AttachLogs_ToolTip" xml:space="preserve">
+  <value>Логи прикреплены</value>
+</data>
+<data name="FeedbackCenter_AttachFile_Label" xml:space="preserve">
+  <value>Добавить файл</value>
+</data>
+<data name="OptionsProxyTcpPort" xml:space="preserve">
+  <value>TCP-порт (_P):</value>
+</data>
+<data name="AboutBoxTitle" xml:space="preserve">
+  <value>О {0} {1}</value>
+</data>
+<data name="AboutBoxToday" xml:space="preserve">
+  <value>Сегодня</value>
+</data>
+<data name="FeedbackCenter_AttachSnapshotMessage" xml:space="preserve">
+  <value>Пожалуйста, прикрепите хотя бы один снимок производительности или памяти</value>
+</data>
+<data name="AboutBoxCheckingForUpdates" xml:space="preserve">
+  <value>Проверка обновлений…</value>
+</data>
+<data name="Options_WebProxy_Clear" xml:space="preserve">
+  <value>Очистить значения</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_ToggleNewToolTip" xml:space="preserve">
+  <value>Показать/скрыть новые исключения</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_ToggleReadToolTip" xml:space="preserve">
+  <value>Показать/скрыть просмотренные исключения</value>
+</data>
+<data name="FeedbackCenter_AttachSnapshotLabel" xml:space="preserve">
+  <value>Анализ</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_EditToolTip" xml:space="preserve">
+  <value>Редактировать сведения об исключении</value>
+</data>
+<data name="Enables_Text" xml:space="preserve">
+  <value>Включить:</value>
+</data>
+<data name="ExceptionBrowser_Edit_Description_Label" xml:space="preserve">
+  <value>Описание</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_DeleteToolTip" xml:space="preserve">
+  <value>Удалить это исключение</value>
+</data>
+<data name="AboutBoxEnvironment" xml:space="preserve">
+  <value>Окружение</value>
+</data>
+<data name="ExceptionBrowser_Form_Issue" xml:space="preserve">
+  <value>Проблема:</value>
+</data>
+<data name="DocumentTabCloneCurrent" xml:space="preserve">
+  <value>Клонировать текущий анализ</value>
+</data>
+<data name="RequestActivationCode_Text" xml:space="preserve">
+  <value>Запросить код активации</value>
+</data>
+<data name="LicenseKey_Text" xml:space="preserve">
+  <value>Лицензионный ключ:</value>
+</data>
+<data name="FeedbackCenter_StartPerformanceProfiling" xml:space="preserve">
+  <value>Начать профилирование производительности</value>
+</data>
+<data name="CancelAuthorization_Text" xml:space="preserve">
+  <value>Отменить авторизацию</value>
+</data>
+<data name="FirstName_Text" xml:space="preserve">
+  <value>Имя:</value>
+</data>
+<data name="ExceptionBrowser_PendingExceptions_Header" xml:space="preserve">
+  <value>Ожидающие исключения</value>
+</data>
+<data name="ContactsForActivationCodeRequest_Text" xml:space="preserve">
+  <value>Контактная информация для запроса кода активации</value>
+</data>
+<data name="ObtainTicketsFor_Text" xml:space="preserve">
+  <value>Получить тикеты для:</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_ToggleMutedToolTip" xml:space="preserve">
+  <value>Показать/скрыть игнорируемые исключения</value>
+</data>
+<data name="ExceptionBrowser_Form_Submitted" xml:space="preserve">
+  <value>Когда отправлено:</value>
+</data>
+<data name="AboutBoxBuiltOn" xml:space="preserve">
+  <value>Собрано {0}</value>
+</data>
+<data name="GotoByNameRecentShowAll" xml:space="preserve">
+  <value>Показать все ({0})</value>
+</data>
+<data name="Password_Text" xml:space="preserve">
+  <value>Пароль:</value>
+</data>
+<data name="FeedbackCenter_Attachment_Label" xml:space="preserve">
+  <value>Вложение</value>
+</data>
+<data name="AboutBoxTomorrow" xml:space="preserve">
+  <value>Завтра</value>
+</data>
+<data name="Account_Text" xml:space="preserve">
+  <value>Учетная запись:</value>
+</data>
+<data name="FeedbackCenter_UserAccount_EMail_Watermark" xml:space="preserve">
+  <value>Адрес электронной почты (необязательно)</value>
+</data>
+<data name="ExceptionBrowser_Issue_Label" xml:space="preserve">
+  <value>Опишите проблему</value>
+</data>
+<data name="OptionsProxyHost" xml:space="preserve">
+  <value>Хост (_H):</value>
+</data>
+<data name="AboutBoxInDays" xml:space="preserve">
+  <value>Через {0} д.</value>
+</data>
+<data name="FeedbackCenter_BugReport_Summary_Label" xml:space="preserve">
+  <value>Сводка:</value>
+</data>
+<data name="LogInWithJetBrainsAccount_Text" xml:space="preserve">
+  <value>Войти с помощью JetBrains Account</value>
+</data>
+<data name="ExceptionBrowser_Edit_Summary_Label" xml:space="preserve">
+  <value>Сводка</value>
+</data>
+<data name="ManageJetBrainsAccount_Text" xml:space="preserve">
+  <value>Управление учетной записью JetBrains</value>
+</data>
+<data name="Email_Text" xml:space="preserve">
+  <value>Эл. почта:</value>
+</data>
+<data name="LicenseDialogAddNewLicenseButton" xml:space="preserve">
+  <value>Добавить лицензию</value>
+</data>
+<data name="DocumentTabCloseAllToTheRight" xml:space="preserve">
+  <value>Закрыть все справа</value>
+</data>
+<data name="AboutBoxCheckUpdatesFailed" xml:space="preserve">
+  <value>(Не удалось проверить обновления)</value>
+</data>
+<data name="ExceptionBrowser_Issue_Watermark" xml:space="preserve">
+  <value>Опишите, что вы делали, когда произошло исключение. Обратите внимание, что вы можете редактировать сообщение об исключении, чтобы удалить любую личную информацию.</value>
+</data>
+<data name="GotoByNameNoRecentAvailable" xml:space="preserve">
+  <value>Нет доступных недавних запросов на этой вкладке</value>
+</data>
+<data name="FeedbackCenter_BugReport_Type_Label" xml:space="preserve">
+  <value>Тип проблемы:</value>
+</data>
+<data name="AnotherInstanceOf_With_IsRunningOn__Text" xml:space="preserve">
+  <value>Другой экземпляр {1} для {2} работает на {0}.
+Введите другую лицензию или отключите другой экземпляр. В противном случае {1} на этой машине будет отключен.</value>
+</data>
+<data name="AboutBoxShowMore" xml:space="preserve">
+  <value>Развернуть</value>
+</data>
+<data name="FeedbackFailedToSendReport" xml:space="preserve">
+  <value>Не удалось отправить отчет из-за сетевой ошибки</value>
+</data>
+<data name="OptionsProxyUserName" xml:space="preserve">
+  <value>Имя пользователя (_N):</value>
+</data>
+<data name="LicenseDialogUserLicenseRemoveButton" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="DocumentTabCloseAllExceptThis" xml:space="preserve">
+  <value>Закрыть все вкладки, кроме этой</value>
+</data>
+<data name="LogOut_Text" xml:space="preserve">
+  <value>Выйти</value>
+</data>
+<data name="LicenseDialogStartTrialButtonContent" xml:space="preserve">
+  <value>Начать пробный период</value>
+</data>
+<data name="LicenseDialogLicenseKeyLabel" xml:space="preserve">
+  <value>Лицензионный ключ:</value>
+</data>
+<data name="AboutBoxCheckedBuild" xml:space="preserve">
+  <value>Проверенная сборка.</value>
+</data>
+<data name="DocumentTabShowMenu" xml:space="preserve">
+  <value>Главное меню ({0})</value>
+</data>
+<data name="DocumentTabClose" xml:space="preserve">
+  <value>Закрыть</value>
+</data>
+<data name="AboutBoxBack" xml:space="preserve">
+  <value>Назад</value>
+</data>
+<data name="AboutBoxCopy" xml:space="preserve">
+  <value>Копировать</value>
+</data>
+<data name="FeedbackCenter_UserAccount_Submit_Watermark" xml:space="preserve">
+  <value>Отправить как:</value>
+</data>
+<data name="CopyToClipboard_Text" xml:space="preserve">
+  <value>Скопировать в буфер обмена</value>
+</data>
+<data name="LicenseSummary_Text" xml:space="preserve">
+  <value>Сводка по лицензии:</value>
+</data>
+<data name="GotoByNameRecentAvailable" xml:space="preserve">
+  <value>Доступные недавние запросы на этой вкладке</value>
+</data>
+<data name="LicenseDialogWindowTitle" xml:space="preserve">
+  <value>Информация о лицензии</value>
+</data>
+<data name="ExceptionBrowser_Edit_Hint" xml:space="preserve">
+  <value>Дополнительные данные, которые будут отправлены отдельно</value>
+</data>
+<data name="LicenseDialogDataSharingTitle" xml:space="preserve">
+  <value>Параметры обмена данными</value>
+</data>
+<data name="ExceptionBrowser_Issue_Watermark2" xml:space="preserve">
+  <value>Предоставьте комментарий с описанием ваших действий в момент возникновения исключения. Это сообщение об ошибке можно редактировать. Рекомендуется удалить любую личную информацию (например, имя пользователя), которую отчет может содержать.</value>
+</data>
+<data name="GotoByNameTruncated" xml:space="preserve">
+  <value>Слишком много элементов, список усечен</value>
+</data>
+<data name="AboutBoxUpdateAvailable" xml:space="preserve">
+  <value>(Доступно обновление: {0})</value>
+</data>
+<data name="WhenLastHappened_Format" xml:space="preserve">
+  <value>dd/MM HH:mm:ss</value>
+</data>
+<data name="LicenseDialogUserLicenseRestoreButton" xml:space="preserve">
+  <value>Восстановить</value>
+</data>
+<data name="RegionSelection_Text" xml:space="preserve">
+  <value>Выбор региона</value>
+</data>
+<data name="ExceptionBrowser_Attachment_Label" xml:space="preserve">
+  <value>Вложение</value>
+</data>
+<data name="EnterLicense_Text" xml:space="preserve">
+  <value>Ввести лицензию</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_MuteToolTip" xml:space="preserve">
+  <value>Игнорировать это исключение</value>
+</data>
+<data name="Disable__Text" xml:space="preserve">
+  <value>Отключить {0}</value>
+</data>
+<data name="OptionsProxyPassword" xml:space="preserve">
+  <value>Пароль (_W):</value>
+</data>
+<data name="FeedbackCenter_KeepAttachments_Label" xml:space="preserve">
+  <value>Сохранить текст и вложения после отправки</value>
+</data>
+<data name="LicenseDialogUserLicenseApplyButton" xml:space="preserve">
+  <value>Применить</value>
+</data>
+<data name="MessageDoNotAskAgain" xml:space="preserve">
+  <value>Больше не спрашивать</value>
+</data>
+<data name="AboutBoxBestBefore" xml:space="preserve">
+  <value>Срок действия этой пререлизной версии истекает {0}</value>
+</data>
+<data name="FeedbackCenter_BugReport_PerfIssue_Type" xml:space="preserve">
+  <value>Проблема с производительностью</value>
+</data>
+<data name="FeedbackCenter_StartMemoryProfiling" xml:space="preserve">
+  <value>Начать профилирование памяти</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_ViewToolTip" xml:space="preserve">
+  <value>Просмотреть сведения об исключении</value>
+</data>
+<data name="DocumentTabCloseAllToTheLeft" xml:space="preserve">
+  <value>Закрыть все слева</value>
+</data>
+<data name="ExceptionBrowser_Exceptions_CopyToolTip" xml:space="preserve">
+  <value>Скопировать сведения об исключении в буфер обмена</value>
+</data>
+<data name="ExceptionBrowser_Form_LastTime" xml:space="preserve">
+  <value>Последний раз:</value>
+</data>
+<data name="AvailableLicenses_Text" xml:space="preserve">
+  <value>Доступные лицензии:</value>
+</data>
+<data name="AboutBoxInternalMode" xml:space="preserve">
+  <value>Внутренний режим.</value>
+</data>
+<data name="UserName_Text" xml:space="preserve">
+  <value>Имя пользователя:</value>
+</data>
+<data name="AboutBoxUpToDate" xml:space="preserve">
+  <value>(Актуально)</value>
+</data>
+<data name="DocumentTabEditName" xml:space="preserve">
+  <value>Переименовать</value>
+</data>
+<data name="LicenseDialogUServerAddressLabel" xml:space="preserve">
+  <value>Адрес сервера:</value>
+</data>
+<data name="LicenseDialogJBAuthTitle" xml:space="preserve">
+  <value>Управление учетной записью JetBrains</value>
+</data>
+<data name="SelectRegionWhereYouLocated_Text" xml:space="preserve">
+  <value>Выберите регион, чтобы ссылки и функции, зависящие от региона, работали корректно</value>
+</data>
+<data name="LicenseInformation_Text" xml:space="preserve">
+  <value>Информация о лицензии</value>
+</data>
+<data name="DataSharingOptions_Text" xml:space="preserve">
+  <value>Параметры обмена данными</value>
+</data>
+<data name="LicenseDialogDataSharingHint" xml:space="preserve">
+  <value>Пожалуйста, проверьте, как вы хотите делиться данными с JetBrains:</value>
+</data>
+<data name="LicenseDialogAddNewButton" xml:space="preserve">
+  <value>Добавить новый {0}</value>
+</data>
+<data name="ServerAddress_Text" xml:space="preserve">
+  <value>Адрес сервера:</value>
+</data>
+<data name="PleaseReviewHowYouPreferToShareYour_Text" xml:space="preserve">
+  <value>Пожалуйста, проверьте, как вы предпочитаете делиться своими данными с JetBrains:</value>
+</data>
+</root>

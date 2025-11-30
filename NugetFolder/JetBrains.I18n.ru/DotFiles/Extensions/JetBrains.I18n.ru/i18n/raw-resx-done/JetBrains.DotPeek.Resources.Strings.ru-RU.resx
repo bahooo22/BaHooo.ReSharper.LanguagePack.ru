@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="PathToDiffTool_Text" xml:space="preserve">
+  <value>Внешний инструмент сравнения:</value>
+</data>
+<data name="DiffToolCommandLineArguments_Text" xml:space="preserve">
+  <value>Аргументы командной строки:</value>
+</data>
+<data name="Show_TokenValues_Text" xml:space="preserve">
+  <value>Показывать значения токенов(_T)</value>
+</data>
+<data name="DumpLoadedAssembliesActionText" xml:space="preserve">
+  <value>Дамп загруженных сборок</value>
+</data>
+<data name="NavigateActionGroupText" xml:space="preserve">
+  <value>Навигация(&amp;N)</value>
+</data>
+<data name="_ColorIdentifiersAndShowTooltips_Text" xml:space="preserve">
+  <value>Раскрашивать идентификаторы и показывать всплывающие подсказки(_C)</value>
+</data>
+<data name="DarkTheme_Text" xml:space="preserve">
+  <value>Тёмная</value>
+</data>
+<data name="EnablePrivateSource_LinkSupport_Text" xml:space="preserve">
+  <value>Включить поддержку Private Source Link(_L)</value>
+</data>
+<data name="BoundTo__Text" xml:space="preserve">
+  <value>{0}
+Привязано к {1},</value>
+</data>
+<data name="AllAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки</value>
+</data>
+<data name="CurrentFile_Text" xml:space="preserve">
+  <value>Текущий файл(&amp;F)</value>
+</data>
+<data name="HideCompilerGeneratedCode_Text" xml:space="preserve">
+  <value>Скрывать сгенерированный компилятором код</value>
+</data>
+<data name="DotPeekDiffSettingDescription" xml:space="preserve">
+  <value>Настройки внешнего инструмента сравнения DotPeek</value>
+</data>
+<data name="LoadedAssemblies_Text" xml:space="preserve">
+  <value>Загруженные сборки(&amp;A)</value>
+</data>
+<data name="Font_Text" xml:space="preserve">
+  <value>Шрифт:</value>
+</data>
+<data name="NETXActionText" xml:space="preserve">
+  <value>.NET 2.0 x86</value>
+</data>
+<data name="SaveAsActionText" xml:space="preserve">
+  <value>Сохранить как…</value>
+</data>
+<data name="Show_XmlDocumentationInDecompiledSources_Text" xml:space="preserve">
+  <value>Показывать XML-документацию в декомпилированном исходном коде(_X)</value>
+</data>
+<data name="DotPeekDiffToolPathSettingDescription" xml:space="preserve">
+  <value>Путь к внешнему инструменту сравнения</value>
+</data>
+<data name="Show_PinButtonInUnpinnedTabs_Text" xml:space="preserve">
+  <value>Показывать кнопку закрепления в незакреплённых вкладках(_P)</value>
+</data>
+<data name="File_CannotBeSaved_Text" xml:space="preserve">
+  <value>Не удается сохранить файл {0}</value>
+</data>
+<data name="PdbAccessLog_Text" xml:space="preserve">
+  <value>Журнал доступа к PDB</value>
+</data>
+<data name="DiffToolCommandLineArgumentsFormatDescription_Text" xml:space="preserve">
+  <value>$1 и $2 обозначают пути к первому и второму сравниваемым файлам</value>
+</data>
+<data name="Tutorial_MenuItemText" xml:space="preserve">
+  <value>Обучение</value>
+</data>
+<data name="CompilerGeneratedCodeActionText" xml:space="preserve">
+  <value>Сгенерированный компилятором код(&amp;G)</value>
+</data>
+<data name="Port_Text" xml:space="preserve">
+  <value>Порт</value>
+</data>
+<data name="IndentSize_Text" xml:space="preserve">
+  <value>Размер отступа</value>
+</data>
+<data name="StopSymbolServer_Text" xml:space="preserve">
+  <value>Остановить сервер символов</value>
+</data>
+<data name="_AllAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки(_A)</value>
+</data>
+<data name="_VerticalScrollbar_Text" xml:space="preserve">
+  <value>Вертикальная полоса прокрутки(_V)</value>
+</data>
+<data name="Show_ILCodeInComments_Text" xml:space="preserve">
+  <value>Показывать IL-код в комментариях(_I)</value>
+</data>
+<data name="Use_KnownDiffTool_ButtonText" xml:space="preserve">
+  <value>Использовать "{0}"</value>
+</data>
+<data name="SymbolServerSetup_Caption" xml:space="preserve">
+  <value>Настройка сервера символов</value>
+</data>
+<data name="InspectActionGroupText" xml:space="preserve">
+  <value>Инспекция(&amp;I)</value>
+</data>
+<data name="PlaceOpenBraceOn_NewLine_Text" xml:space="preserve">
+  <value>Размещать открывающую фигурную скобку на новой строке(_N)</value>
+</data>
+<data name="LightTheme_Text" xml:space="preserve">
+  <value>Светлая</value>
+</data>
+<data name="UseTernaryConditionalOperators_Text" xml:space="preserve">
+  <value>Использовать условный оператор (?:)</value>
+</data>
+<data name="SymbolServer_SymbolFilesPdbGeneration_TooltipText" xml:space="preserve">
+  <value>Сервер символов({0})
+Генерация файлов символов (.pdb):
+{1}</value>
+</data>
+<data name="Diff_OptionsPageTitle" xml:space="preserve">
+  <value>Сравнение</value>
+</data>
+<data name="SyncToVisualStudioThemeSettingDescription" xml:space="preserve">
+  <value>Синхронизировать с темой Visual Studio</value>
+</data>
+<data name="AboutJetBrainsDotPeekActionText" xml:space="preserve">
+  <value>О JetBrains dotPeek(&amp;A)…</value>
+</data>
+<data name="StartSymbolServer_Text" xml:space="preserve">
+  <value>Запустить сервер символов</value>
+</data>
+<data name="OptionsActionText" xml:space="preserve">
+  <value>Параметры(&amp;O)…</value>
+</data>
+<data name="AllExceptDotNet_FrameworkAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме .NET Framework(_F)</value>
+</data>
+<data name="SchemeVs" xml:space="preserve">
+  <value>_Visual Studio (по умолчанию)</value>
+</data>
+<data name="DotPeeksThemingSettingDescription" xml:space="preserve">
+  <value>Настройки темы DotPeek</value>
+</data>
+<data name="DumpExternalSourcesSupportInformationActionText" xml:space="preserve">
+  <value>Дамп информации о поддержке внешних источников</value>
+</data>
+<data name="InsertNewTabsToThe_RightOfExistingTabs_Text" xml:space="preserve">
+  <value>Вставлять новые вкладки справа от существующих(_R)</value>
+</data>
+<data name="DotPeekSymbolServerDescription_Text" xml:space="preserve">
+  <value>&lt;a&gt;Сервер символов dotPeek&lt;/a&gt; позволяет отладчику автоматически получать правильные файлы символов для загруженных сборок. Чтобы добавить сервер символов dotPeek в расположения символов Visual Studio, укажите следующий адрес в параметрах Visual Studio (Сервис | Параметры | Отладка | Символы | Места загрузки символов): {0}
+
+Выберите сборки, для которых нужно генерировать файлы символов отладки (.pdb). Вы можете {1} изменить свой выбор позже.</value>
+</data>
+<data name="LicenseVersionWasAcceptedByUserSettingDescription" xml:space="preserve">
+  <value>Версия лицензии была принята пользователем</value>
+</data>
+<data name="_HighlightCurrentLine_Text" xml:space="preserve">
+  <value>Выделять текущую строку(_H)</value>
+</data>
+<data name="Use_CamelHumpsForNavigation_Text" xml:space="preserve">
+  <value>Использовать CamelHumps для навигации(_C)</value>
+</data>
+<data name="DeleteDecompiledFileActionText" xml:space="preserve">
+  <value>Удалить декомпилированный файл</value>
+</data>
+<data name="ProductRegionAndCultureSettings_Text" xml:space="preserve">
+  <value>Регион и язык</value>
+</data>
+<data name="LicenseWasAcceptedByUserSettingDescription" xml:space="preserve">
+  <value>Лицензия была принята пользователем</value>
+</data>
+<data name="At_OuterSide_Text" xml:space="preserve">
+  <value>Снаружи(_O)</value>
+</data>
+<data name="AllExceptNuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме кэша пакетов NuGet</value>
+</data>
+<data name="AllowDownloadingFrom_RemoteLocations_Text" xml:space="preserve">
+  <value>Разрешить загрузку из удалённых расположений(_R)</value>
+</data>
+<data name="UseSourcesFrom_SymbolFilesWhenAvailable_Text" xml:space="preserve">
+  <value>Использовать исходный код из файлов символов, когда доступно(_S)</value>
+</data>
+<data name="WindowsActionGroupText" xml:space="preserve">
+  <value>Окна(&amp;W)</value>
+</data>
+<data name="GoToAssembly_Text" xml:space="preserve">
+  <value>Перейти к сборке…</value>
+</data>
+<data name="_OpenNewDocumentsInThePreviewTab_Text" xml:space="preserve">
+  <value>Открывать новые документы в панели предпросмотра(_O)</value>
+</data>
+<data name="ChooseDiffTool_Caption" xml:space="preserve">
+  <value>Выберите инструмент сравнения для сравнения файлов</value>
+</data>
+<data name="HelpActionGroupText" xml:space="preserve">
+  <value>Справка(&amp;H)</value>
+</data>
+<data name="DotPeekDiffToolCommandLineArgumentsSettingDescription" xml:space="preserve">
+  <value>Аргументы командной строки внешнего инструмента сравнения</value>
+</data>
+<data name="GeneratePdbFor_Caption" xml:space="preserve">
+  <value>Генерировать файлы символов (.pdb) для:</value>
+</data>
+<data name="VisualExperience_Header" xml:space="preserve">
+  <value>Визуальное оформление</value>
+</data>
+<data name="UseNullCoalescingOperators_Text" xml:space="preserve">
+  <value>Использовать оператор объединения со значением NULL (??)</value>
+</data>
+<data name="AllExceptDotNetFrameworkAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме .NET Framework</value>
+</data>
+<data name="Outline_Text" xml:space="preserve">
+  <value>Контур</value>
+</data>
+<data name="Use_FileScopedNamespaces_Text" xml:space="preserve">
+  <value>Использовать пространства имён на уровне файла(_F)</value>
+</data>
+<data name="UseStringInterpolation_Text" xml:space="preserve">
+  <value>Использовать интерполяцию строк</value>
+</data>
+<data name="ByProvider_Text" xml:space="preserve">
+  <value>Поставщиком '{0}'</value>
+</data>
+<data name="ToolsActionGroupText" xml:space="preserve">
+  <value>Сервис(&amp;T)</value>
+</data>
+<data name="Viewer_OptionsPageTitle" xml:space="preserve">
+  <value>Просмотрщик</value>
+</data>
+<data name="ResetSymbolServerFirstStartSettingActionText" xml:space="preserve">
+  <value>Сбросить настройку первого запуска сервера символов</value>
+</data>
+<data name="Show_CompilerGeneratedCode_Text" xml:space="preserve">
+  <value>Показывать сгенерированный компилятором код(_C)</value>
+</data>
+<data name="AllExceptGACAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме GAC</value>
+</data>
+<data name="_LineNumbers_Text" xml:space="preserve">
+  <value>Номера строк(_L)</value>
+</data>
+<data name="Color_Text" xml:space="preserve">
+  <value>Цвет</value>
+</data>
+<data name="ShowMetadataTokenValues_Text" xml:space="preserve">
+  <value>Показывать значения токенов метаданных</value>
+</data>
+<data name="ShowCompilerGeneratedCode_Text" xml:space="preserve">
+  <value>Показывать сгенерированный компилятором код</value>
+</data>
+<data name="ViewActionGroupText" xml:space="preserve">
+  <value>Вид(&amp;V)</value>
+</data>
+<data name="KeyboardShortcutScheme_Text" xml:space="preserve">
+  <value>Схема сочетаний клавиш</value>
+</data>
+<data name="_SyncToVisualStudioColorTheme_Text" xml:space="preserve">
+  <value>Синхронизировать с цветовой темой Visual Studio(_S)</value>
+</data>
+<data name="IntegrateWith_WindowsExplorer_Text" xml:space="preserve">
+  <value>Интегрировать с Проводником Windows(_W)</value>
+</data>
+<data name="DiffToolArgumentsMustContain2_Text" xml:space="preserve">
+  <value>Аргументы должны содержать '$2'</value>
+</data>
+<data name="Decompile_VeryLongMethods_Text" xml:space="preserve">
+  <value>Декомпилировать очень длинные методы(_V)</value>
+</data>
+<data name="IndentStyle_Text" xml:space="preserve">
+  <value>Стиль отступов</value>
+</data>
+<data name="DiffToolArgumentsMustContain1_Text" xml:space="preserve">
+  <value>Аргументы должны содержать '$1'</value>
+</data>
+<data name="SymbolServer_OptionsPageTitle" xml:space="preserve">
+  <value>Сервер символов</value>
+</data>
+<data name="Highlight_MatchingDelimitersWhenCaretIs_Text" xml:space="preserve">
+  <value>Выделять соответствующие разделители, когда курсор находится(_M):</value>
+</data>
+<data name="AllExcept_GACAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме GAC(_G)</value>
+</data>
+<data name="At_BothSides_Text" xml:space="preserve">
+  <value>С обеих сторон(_B)</value>
+</data>
+<data name="HideMetadataTokenValues_Text" xml:space="preserve">
+  <value>Скрывать значения токенов метаданных</value>
+</data>
+<data name="Keyboard_Header" xml:space="preserve">
+  <value>Клавиатура</value>
+</data>
+<data name="SymbolServer_Caption" xml:space="preserve">
+  <value>Сервер символов</value>
+</data>
+<data name="UseNullConditionalOperators_Text" xml:space="preserve">
+  <value>Использовать условные операторы со значением NULL (?. и ?[])</value>
+</data>
+<data name="AllExcept_NuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
+  <value>Все сборки, кроме кэша пакетов NuGet(_N)</value>
+</data>
+<data name="DotPeeksLicenseAgreementSettingDescription" xml:space="preserve">
+  <value>Лицензионное соглашение DotPeek</value>
+</data>
+<data name="SYmbolServerActionText" xml:space="preserve">
+  <value>Сервер символов(&amp;Y)</value>
+</data>
+<data name="DiffToolArgumentsMustBeANonEmptyString_Text" xml:space="preserve">
+  <value>Аргументы должны быть непустой строкой</value>
+</data>
+<data name="PathToDiffTool_FileChooser_ToolTip" xml:space="preserve">
+  <value>Путь к инструменту сравнения</value>
+</data>
+<data name="AssembliesOpenedInTheAssemblyExplorer_FilterText" xml:space="preserve">
+  <value>Сборки, открытые в обозревателе сборок</value>
+</data>
+<data name="UseThemedWindowChrome_Text" xml:space="preserve">
+  <value>Использовать тематическое окно Chrome</value>
+</data>
+<data name="ToAddDotPeekSymbolServerToVisualStudio_Text" xml:space="preserve">
+  <value>Чтобы добавить сервер символов dotPeek в расположения символов Visual Studio, укажите следующий адрес в параметрах Visual Studio (Сервис | Параметры | Отладка | Символы | Места загрузки символов):</value>
+</data>
+<data name="ForMoreInformationAboutDotPeekSymbolServerSee_Text" xml:space="preserve">
+  <value>Для получения дополнительной информации о сервере символов dotPeek см.</value>
+</data>
+<data name="BlueTheme_Text" xml:space="preserve">
+  <value>Синяя</value>
+</data>
+<data name="MetadataToKenValuesActionText" xml:space="preserve">
+  <value>Значения токенов метаданных(&amp;K)</value>
+</data>
+<data name="CopyToClipboard_Text" xml:space="preserve">
+  <value>Копировать в буфер обмена</value>
+</data>
+<data name="WindowsMetadataFilesWinRTActionText" xml:space="preserve">
+  <value>Файлы метаданных Windows (WinRT)</value>
+</data>
+<data name="Decompile_ProtectedAssemblies_Text" xml:space="preserve">
+  <value>Декомпилировать защищённые сборки (игнорировать атрибут SuppressIldasm)(_P)</value>
+</data>
+<data name="OpenSolutionActionText" xml:space="preserve">
+  <value>Открыть решение…</value>
+</data>
+<data name="SchemeIdea" xml:space="preserve">
+  <value>IntelliJ _IDEA</value>
+</data>
+<data name="HighlightWith_Text" xml:space="preserve">
+  <value>Способ выделения</value>
+</data>
+<data name="InternaLActionGroupText" xml:space="preserve">
+  <value>Внутренние(&amp;L)</value>
+</data>
+<data name="Decompiler_OptionsPageTitle" xml:space="preserve">
+  <value>Декомпилятор</value>
+</data>
+<data name="KeyboardShortcutsActionText" xml:space="preserve">
+  <value>Сочетания клавиш(&amp;K)</value>
+</data>
+<data name="PdbAccessLogActionText" xml:space="preserve">
+  <value>Журнал доступа к PDB(&amp;A)</value>
+</data>
+<data name="PresentationOfTypeBy_Text" xml:space="preserve">
+  <value>Представление типа {0} с помощью {1}</value>
+</data>
+<data name="InDotPeekSymbolServerOptions_Text" xml:space="preserve">
+  <value>В параметрах dotPeek (Сервис | Параметры | Сервер символов)</value>
+</data>
+<data name="VisibleWhite_Spaces_Text" xml:space="preserve">
+  <value>Видимые пробелы(_S)</value>
+</data>
+<data name="ShowILCodeInCommentsActionText" xml:space="preserve">
+  <value>Показывать IL-код в комментариях(&amp;L)</value>
+</data>
+<data name="DotPeeksColorThemeSettingDescription" xml:space="preserve">
+  <value>Цветовая тема DotPeek</value>
+</data>
+<data name="FileActionGroupText" xml:space="preserve">
+  <value>Файл(&amp;F)</value>
+</data>
+<data name="AccessTo_IsDenied_Text" xml:space="preserve">
+  <value>Доступ к {0} запрещён!</value>
+</data>
+<data name="_Ok_ButtonText" xml:space="preserve">
+  <value>ОК(_O)</value>
+</data>
+<data name="NETFrameworkActionGroupText" xml:space="preserve">
+  <value>.NET Framework</value>
+</data>
+<data name="Properties_Text" xml:space="preserve">
+  <value>Свойства</value>
+</data>
+<data name="_WordWrap_Text" xml:space="preserve">
+  <value>Перенос по словам(_W)</value>
+</data>
+<data name="NavigateForwardActionText" xml:space="preserve">
+  <value>Перейти вперёд</value>
+</data>
+<data name="Color_Theme_Text" xml:space="preserve">
+  <value>Цветовая тема(_T):</value>
+</data>
+<data name="DumpActionsAndShortcutsActionText" xml:space="preserve">
+  <value>Дамп действий и сочетаний клавиш</value>
+</data>
+<data name="EnterAssemblyName_Text" xml:space="preserve">
+  <value>Введите имя сборки:</value>
+</data>
+<data name="Use_ExpressionBodiedMembers_Text" xml:space="preserve">
+  <value>Использовать члены в виде выражений(_E)</value>
+</data>
+<data name="ShowManaged_MemoryUsageInStatusBar_Text" xml:space="preserve">
+  <value>Показывать использование управляемой памяти в строке состояния(_M)</value>
+</data>
+<data name="NavigateBackwardActionText" xml:space="preserve">
+  <value>Перейти назад</value>
+</data>
+<data name="_HorizontalScrollbar_Text" xml:space="preserve">
+  <value>Горизонтальная полоса прокрутки(_H)</value>
+</data>
+<data name="ThisIsTheFirstTimeYouRunDotPeekSymbolServer_Text" xml:space="preserve">
+  <value>Это первый раз, когда вы запускаете сервер символов dotPeek</value>
+</data>
+<data name="Tutorial_Text" xml:space="preserve">
+  <value>Это обучение</value>
+</data>
+<data name="Region_Text" xml:space="preserve">
+  <value>Регион:</value>
+</data>
+<data name="AssembliesOpenedInTheAssembly_Explorer_FilterText" xml:space="preserve">
+  <value>Сборки, открытые в обозревателе сборок(_E)</value>
+</data>
+<data name="TextControl_Header" xml:space="preserve">
+  <value>Текстовый редактор</value>
+</data>
+<data name="ShowMetadataTokenValues2_Text" xml:space="preserve">
+  <value>Показывать значения токенов метаданных</value>
+</data>
+<data name="CopySymbolServerURL_Text" xml:space="preserve">
+  <value>Копировать URL сервера символов</value>
+</data>
+<data name="DotPeekDefaultOptions_Text" xml:space="preserve">
+  <value>Параметры dotPeek по умолчанию</value>
+</data>
+<data name="_Cancel_ButtonText" xml:space="preserve">
+  <value>Отмена(_C)</value>
+</data>
+<data name="SilverlightActionText" xml:space="preserve">
+  <value>Silverlight 3</value>
+</data>
+<data name="Assembly_GotoTargetText" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="Tabs_OptionsPageTitle" xml:space="preserve">
+  <value>Вкладки</value>
+</data>
+<data name="OpenFrameworkAssembliesActionGroupText" xml:space="preserve">
+  <value>Открыть сборки Framework</value>
+</data>
+<data name="CodeStyleAndFormatting_Header" xml:space="preserve">
+  <value>Стиль кода и форматирование</value>
+</data>
+<data name="DotPeekSpecificSettingsSettingDescription" xml:space="preserve">
+  <value>Специфические настройки DotPeek</value>
+</data>
+<data name="UseWithExpressions_Text" xml:space="preserve">
+  <value>Использовать выражения 'with'</value>
+</data>
+<data name="CodeHighlight_Header" xml:space="preserve">
+  <value>Выделение кода</value>
+</data>
+<data name="About__ActionText" xml:space="preserve">
+  <value>О {0} {1}(&amp;A)…</value>
+</data>
+<data name="SilverlightActionGroupText" xml:space="preserve">
+  <value>Silverlight</value>
+</data>
+<data name="UseWindowChromeForTheMainWindowSettingDescription" xml:space="preserve">
+  <value>Использовать хром окна для главного окна</value>
+</data>
+<data name="CurrentlyIntegratedInstance_Text" xml:space="preserve">
+  <value>Текущий интегрированный экземпляр:</value>
+</data>
+<data name="OpenManyTabsActionText" xml:space="preserve">
+  <value>Открыть много вкладок</value>
+</data>
+<data name="_ByDefaultItGeneratesPdbFor_YouCanChangeIt_Text" xml:space="preserve">
+  <value>{0}. По умолчанию он генерирует файлы символов (.pdb) для {1}. Вы можете {2} изменить это.</value>
+</data>
+<data name="EnableTab_ColorsToIndicateCodePresentationMode_Text" xml:space="preserve">
+  <value>Включить цвета вкладок для указания режима представления кода(_C)</value>
+</data>
+</root>

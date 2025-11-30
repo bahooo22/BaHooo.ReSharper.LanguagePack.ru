@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="ReSpellerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки ReSpeller</value>
+</data>
+<data name="TypoIn_ReplaceWith_Text" xml:space="preserve">
+  <value>Орфографическая ошибка в '{0}'. Заменить на…</value>
+</data>
+<data name="DocCommentsUseMemberModifiersSettingDescription" xml:space="preserve">
+  <value>Проверять документационные комментарии в соответствии с видимостью члена</value>
+</data>
+<data name="DontCheckInheritedMembersSettingDescription" xml:space="preserve">
+  <value>Не проверять унаследованные члены</value>
+</data>
+<data name="CheckNonLocalizableStringsSettingDescription" xml:space="preserve">
+  <value>Проверять строки, явно помеченные как не подлежащие локализации</value>
+</data>
+<data name="Internal_BoolOption_Text" xml:space="preserve">
+  <value>internal</value>
+</data>
+<data name="TypoIn_RenameTo_Text" xml:space="preserve">
+  <value>Орфографическая ошибка в '{0}'. Переименовать в…</value>
+</data>
+<data name="GrammarCheckingScope" xml:space="preserve">
+  <value>Область проверки грамматики</value>
+</data>
+<data name="WordsSettingDescription" xml:space="preserve">
+  <value>Слова</value>
+</data>
+<data name="UserWords_Header_Text" xml:space="preserve">
+  <value>Пользовательские слова</value>
+</data>
+<data name="MinimalWordLengthToCheckSmallerWordsWillBeSkippedSettingDescription" xml:space="preserve">
+  <value>Минимальная длина слова для проверки (более короткие слова будут пропущены)</value>
+</data>
+<data name="CheckProtectedInternalMembersSettingDescription" xml:space="preserve">
+  <value>Проверять protected internal члены</value>
+</data>
+<data name="GrammarMistake_Tooltip_PoweredByLanguageTool" xml:space="preserve">
+  <value>На основе технологии LanguageTool</value>
+</data>
+<data name="ReSpellerInstalledDictionariesSettingDescription" xml:space="preserve">
+  <value>Пользовательские словари ReSpeller</value>
+</data>
+<data name="SpellCheckingScope" xml:space="preserve">
+  <value>Область проверки орфографии</value>
+</data>
+<data name="LanguageDetectionSettings" xml:space="preserve">
+  <value>Настройки определения языка</value>
+</data>
+<data name="DisableOnceWithComment" xml:space="preserve">
+  <value>Однократно отключить с помощью комментария</value>
+</data>
+<data name="CheckInInterpolatedStringLiterals" xml:space="preserve">
+  <value>Проверять интерполированные строковые литералы</value>
+</data>
+<data name="SpellingSettings" xml:space="preserve">
+  <value>Настройки проверки орфографии</value>
+</data>
+<data name="AddToUserDictionary_Text" xml:space="preserve">
+  <value>Добавить в пользовательский словарь</value>
+</data>
+<data name="TypoInMarkupText__Text" xml:space="preserve">
+  <value>Орфографическая ошибка в тексте разметки: '{0}'</value>
+</data>
+<data name="TypoInMarkupAttributeValueConfigurableSeverityDescription" xml:space="preserve">
+  <value>Орфографическая ошибка в значении атрибута разметки</value>
+</data>
+<data name="CheckNonLocalizableStrings_BoolOption_Text" xml:space="preserve">
+  <value>Проверять строки, явно помеченные как не подлежащие локализации</value>
+</data>
+<data name="CheckVerbatimStringsStartingWith_BoolOption_Text" xml:space="preserve">
+  <value>Проверять дословные строки (начинающиеся с @)</value>
+</data>
+<data name="ReSpellerPencilsFilter_Spelling_Text" xml:space="preserve">
+  <value>Орфография</value>
+</data>
+<data name="CheckLocalsLocalVariablesAndParametersSettingDescription" xml:space="preserve">
+  <value>Проверять локальные элементы (локальные переменные и параметры)</value>
+</data>
+<data name="GrammarSettings" xml:space="preserve">
+  <value>Настройки проверки грамматики</value>
+</data>
+<data name="TypoInString__Text" xml:space="preserve">
+  <value>Орфографическая ошибка в строке: '{0}'</value>
+</data>
+<data name="TypoInMarkupTextConfigurableSeverityTitle" xml:space="preserve">
+  <value>Орфографическая ошибка в тексте разметки</value>
+</data>
+<data name="VisibilityOptionsMarkedMembersWillBe_Header_Text" xml:space="preserve">
+  <value>Параметры видимости (отмеченные члены будут проверяться)</value>
+</data>
+<data name="CheckInheritedMembersSettingDescription" xml:space="preserve">
+  <value>Проверять унаследованные члены</value>
+</data>
+<data name="CheckPublicMembersSettingDescription" xml:space="preserve">
+  <value>Проверять public члены</value>
+</data>
+<data name="TypoInIdentifier__Text" xml:space="preserve">
+  <value>Орфографическая ошибка в идентификаторе: '{0}'</value>
+</data>
+<data name="CheckLocals_BoolOption_Text" xml:space="preserve">
+  <value>Проверять локальные переменные</value>
+</data>
+<data name="TypoInMarkupAttributeValue__Text" xml:space="preserve">
+  <value>Орфографическая ошибка в значении атрибута разметки: '{0}'</value>
+</data>
+<data name="Grazie_Bulbs_IgnorePattern" xml:space="preserve">
+  <value>Игнорировать '{0}'</value>
+</data>
+<data name="TypoInStringLiteralConfigurableSeverityTitle" xml:space="preserve">
+  <value>Орфографическая ошибка в строковом литерале</value>
+</data>
+<data name="ConfigureDictionaries_Text" xml:space="preserve">
+  <value>Настроить словари</value>
+</data>
+<data name="GrammarIssues_Text" xml:space="preserve">
+  <value>Проблемы с грамматикой</value>
+</data>
+<data name="IgnoredWordsSettingDescription" xml:space="preserve">
+  <value>Игнорируемые слова</value>
+</data>
+<data name="General_Header_Text" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="TypoInStringLiteralConfigurableSeverityDescription" xml:space="preserve">
+  <value>Орфографическая ошибка в строковом литерале</value>
+</data>
+<data name="Public_BoolOption_Text" xml:space="preserve">
+  <value>public</value>
+</data>
+<data name="CheckVerbatimStringsStartingWithSettingDescription" xml:space="preserve">
+  <value>Проверять дословные строки (начинающиеся с @)</value>
+</data>
+<data name="ReSpellerUserDictionariesSettingDescription" xml:space="preserve">
+  <value>Пользовательские словари ReSpeller</value>
+</data>
+<data name="ConfigureRule__Text" xml:space="preserve">
+  <value>Настроить правило '{0}'…</value>
+</data>
+<data name="EnableSpellChecking" xml:space="preserve">
+  <value>Включить проверку орфографии</value>
+</data>
+<data name="Protected_BoolOption_Text" xml:space="preserve">
+  <value>protected</value>
+</data>
+<data name="CheckProtectedMembersSettingDescription" xml:space="preserve">
+  <value>Проверять protected члены</value>
+</data>
+<data name="DontCheckVerbatimStringsStartingWithSettingDescription" xml:space="preserve">
+  <value>Не проверять дословные строки (начинающиеся с @)</value>
+</data>
+<data name="EnableReSpeller_BoolOption_Text" xml:space="preserve">
+  <value>Включить ReSpeller</value>
+</data>
+<data name="ReSpellerUserDictionarySettingDescription" xml:space="preserve">
+  <value>Пользовательский словарь ReSpeller</value>
+</data>
+<data name="TypoInMarkupAttributeValueConfigurableSeverityTitle" xml:space="preserve">
+  <value>Орфографическая ошибка в значении атрибута разметки</value>
+</data>
+<data name="CheckPrivateMembersSettingDescription" xml:space="preserve">
+  <value>Проверять private члены</value>
+</data>
+<data name="ShowDisableWarningOptionsPopup" xml:space="preserve">
+  <value>Показывать всплывающее окно параметров отключения предупреждений</value>
+</data>
+<data name="CheckInDocumentation" xml:space="preserve">
+  <value>Проверять в документации</value>
+</data>
+<data name="TypoInCommentConfigurableSeverityDescription" xml:space="preserve">
+  <value>Орфографическая ошибка в комментарии</value>
+</data>
+<data name="CheckDocCommentsAccordingToVisibility_BoolOption_Text" xml:space="preserve">
+  <value>Проверять документационные комментарии в соответствии с видимостью члена</value>
+</data>
+<data name="UnderlineTyposInRenameDialogSettingDescription" xml:space="preserve">
+  <value>Подчёркивать орфографические ошибки в диалоге переименования</value>
+</data>
+<data name="GrammarMistake_TooltipFormat" xml:space="preserve">
+  <value>Грамматическая ошибка: '{0}'</value>
+</data>
+<data name="ProtectedInternal_BoolOption_Text" xml:space="preserve">
+  <value>protected internal</value>
+</data>
+<data name="TypoInMarkupTextConfigurableSeverityDescription" xml:space="preserve">
+  <value>Орфографическая ошибка в тексте разметки</value>
+</data>
+<data name="GrammarFix_RemoveText" xml:space="preserve">
+  <value>Удалить '{0}'</value>
+</data>
+<data name="ReSpellerIsEnabledSettingDescription" xml:space="preserve">
+  <value>Проверка грамматики и орфографии включена</value>
+</data>
+<data name="SpellingIssues_Text" xml:space="preserve">
+  <value>Проблемы с орфографией</value>
+</data>
+<data name="DisableAndRestoreWithComments" xml:space="preserve">
+  <value>Отключать и восстанавливать с помощью комментариев</value>
+</data>
+<data name="GrammarMistake_Tooltip_Incorrect" xml:space="preserve">
+  <value>Неверно:</value>
+</data>
+<data name="TypoInIdentifierConfigurableSeverityTitle" xml:space="preserve">
+  <value>Орфографическая ошибка в идентификаторе</value>
+</data>
+<data name="ReSpellerOptionPageTitle" xml:space="preserve">
+  <value>ReSpeller</value>
+</data>
+<data name="CheckInternalMembersSettingDescription" xml:space="preserve">
+  <value>Проверять internal члены</value>
+</data>
+<data name="CheckInheritedMembers_BoolOption_Text" xml:space="preserve">
+  <value>Проверять унаследованные члены</value>
+</data>
+<data name="TypoInCommentConfigurableSeverityTitle" xml:space="preserve">
+  <value>Орфографическая ошибка в комментарии</value>
+</data>
+<data name="InstalledDictionariesSettingDescription" xml:space="preserve">
+  <value>Установленные словари</value>
+</data>
+<data name="GrammarAndSpellingSettings" xml:space="preserve">
+  <value>Настройки грамматики и орфографии</value>
+</data>
+<data name="ConfigureReSpellerDictionaries_Text" xml:space="preserve">
+  <value>Настроить словари ReSpeller</value>
+</data>
+<data name="TypoInComment__Text" xml:space="preserve">
+  <value>Орфографическая ошибка в комментарии: '{0}'</value>
+</data>
+<data name="Private_BoolOption_Text" xml:space="preserve">
+  <value>private</value>
+</data>
+<data name="GrammarMistake_Tooltip_Correct" xml:space="preserve">
+  <value>Верно:</value>
+</data>
+<data name="TypoInIdentifierConfigurableSeverityDescription" xml:space="preserve">
+  <value>Орфографическая ошибка в идентификаторе</value>
+</data>
+<data name="HighlightingGroup_Common" xml:space="preserve">
+  <value>Общее</value>
+</data>
+<data name="UseBundledDictionarySettingDescription" xml:space="preserve">
+  <value>Использовать встроенный словарь</value>
+</data>
+</root>

@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AutoFormatOnEnterSettingDescription" xml:space="preserve">
+  <value>Автоматическое форматирование при нажатии Enter</value>
+</data>
+<data name="TypeScriptOptionPageTitle" xml:space="preserve">
+  <value>TypeScript</value>
+</data>
+<data name="MinimalApiOccurrencePositionFormat" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="RouteTemplates_OnIdentifier" xml:space="preserve">
+  <value>На идентификаторе</value>
+</data>
+<data name="AllowTemplatesInFormOfText_BoolOption_Text" xml:space="preserve">
+  <value>Разрешить шаблоны в форме $text$</value>
+</data>
+<data name="ASPNETWebFormsCProjects_Text" xml:space="preserve">
+  <value>Проекты ASP.NET Web Forms (C#)</value>
+</data>
+<data name="OnSettingDescription" xml:space="preserve">
+  <value>На '#'</value>
+</data>
+<data name="AvailableHelpers_Header_Text" xml:space="preserve">
+  <value>Доступные помощники</value>
+</data>
+<data name="CannotResolveViewComponent__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить компонент представления '{0}'</value>
+</data>
+<data name="RouteTemplatesSettingDescription" xml:space="preserve">
+  <value>Шаблоны маршрутов ASP.NET</value>
+</data>
+<data name="RezorImportNamespaceQuickFix_TextFormat" xml:space="preserve">
+  <value>Импортировать пространство имен '{0}'</value>
+</data>
+<data name="RazorProjects_Text" xml:space="preserve">
+  <value>Проекты Razor</value>
+</data>
+<data name="OverrideVSIntelliSenseForCSSSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для CSS</value>
+</data>
+<data name="OnPunctuationSettingDescription" xml:space="preserve">
+  <value>На знаках препинания</value>
+</data>
+<data name="PredefinedRazorEditorSettings_Text" xml:space="preserve">
+  <value>Предопределенные настройки редактора Razor</value>
+</data>
+<data name="CSSOptionPageTitle" xml:space="preserve">
+  <value>CSS</value>
+</data>
+<data name="ASPNETTypingAssistanceSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки помощи при вводе для ASP.NET</value>
+</data>
+<data name="BaseOf_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Базовые классы для '{0}'</value>
+</data>
+<data name="JSONOptionPageTitle" xml:space="preserve">
+  <value>JSON</value>
+</data>
+<data name="OnLettersAndDigitsSettingDescription" xml:space="preserve">
+  <value>На буквах и цифрах</value>
+</data>
+<data name="YouMayWantToDisableCPUIntensiveTyping_Text" xml:space="preserve">
+  <value>Если вы испытываете задержки при вводе, вы можете отключить ресурсоемкую помощь при вводе в Razor</value>
+</data>
+<data name="TypeScriptSettingDescription" xml:space="preserve">
+  <value>TypeScript</value>
+</data>
+<data name="AllowTemplatesInFormOfText_BoolOption_Text2" xml:space="preserve">
+  <value>Разрешить шаблоны в форме "[текст]"</value>
+</data>
+<data name="SpecifyPathToTheNodeJsExecutable_NodePathChooserOption_ToolTip" xml:space="preserve">
+  <value>Укажите путь к исполняемому файлу Node.js</value>
+</data>
+<data name="OverrideVSIntelliSenseForHTMLSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для HTML</value>
+</data>
+<data name="RazorUnresolvedComponentWarningHighlighting_TooltipTextFormat" xml:space="preserve">
+  <value>Элемент разметки '{0}', по-видимому, является компонентом. Хотите добавить отсутствующую директиву импорта пространства имен?</value>
+</data>
+<data name="AutoFixCommaToGoOutsideQuotesOfJSONValueSettingDescription" xml:space="preserve">
+  <value>Автоматически исправлять запятую, чтобы она выходила за кавычки значения JSON</value>
+</data>
+<data name="PathToNodeJsInterpreter_Text_Text" xml:space="preserve">
+  <value>Путь к интерпретатору Node.js:</value>
+</data>
+<data name="AutoInsertClosingTagsSettingDescription" xml:space="preserve">
+  <value>Автоматически вставлять закрывающие теги</value>
+</data>
+<data name="ASPNETProjects_Text" xml:space="preserve">
+  <value>Проекты ASP.NET</value>
+</data>
+<data name="UseSpecificLocation_SingleRadioOption_Text" xml:space="preserve">
+  <value>Использовать определенное местоположение:</value>
+</data>
+<data name="SettingAValueTypeForSpecificJSONProperties_Text_Text" xml:space="preserve">
+  <value>Установка типа значения для определенных свойств JSON позволит использовать такие функции ReSharper, как завершение кода для соответствующих значений или навигация</value>
+</data>
+<data name="HTMLTypingAssistanceSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки помощи при вводе для HTML</value>
+</data>
+<data name="NodeJsOptionPageTitle" xml:space="preserve">
+  <value>Node.js</value>
+</data>
+<data name="JSONSchemaCatalogIsAJSONFileThatAllows_Text_Text" xml:space="preserve">
+  <value>Каталог схем JSON — это JSON-файл, который позволяет автоматически назначать схемы JSON через файловые маски</value>
+</data>
+<data name="AutoFixColonToGoOutsideQuotesOfJSONKeySettingDescription" xml:space="preserve">
+  <value>Автоматически исправлять двоеточие, чтобы оно выходило за кавычки ключа JSON</value>
+</data>
+<data name="JSONSchemaCatalogsOptionPageTitle" xml:space="preserve">
+  <value>Каталоги схем JSON</value>
+</data>
+<data name="Disable_Text" xml:space="preserve">
+  <value>Отключить</value>
+</data>
+<data name="ASPNETVBProjects_Text" xml:space="preserve">
+  <value>Проекты ASP.NET (VB)</value>
+</data>
+<data name="AutoFixColonToGoOutsideQuotesOfJSON_BoolOption_Text" xml:space="preserve">
+  <value>Автоматически исправлять двоеточие, чтобы оно выходило за кавычки ключа JSON</value>
+</data>
+<data name="NodeJs_Header_Text" xml:space="preserve">
+  <value>Node.js</value>
+</data>
+<data name="BlazorCProjects_Text" xml:space="preserve">
+  <value>Проекты Blazor (C#)</value>
+</data>
+<data name="NodeJsSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки Node.js</value>
+</data>
+<data name="Overriding_Of__Text" xml:space="preserve">
+  <value>Переопределение {0} для '{1}'</value>
+</data>
+<data name="NodeJsPathSearchModeSettingDescription" xml:space="preserve">
+  <value>Режим поиска пути Node.js</value>
+</data>
+<data name="RazorOptionPageTitle" xml:space="preserve">
+  <value>Razor</value>
+</data>
+<data name="CodeCleanupTask_HtmlReformatCode" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="RazorNullConditionalOperatorHighlighting_Settings_TooltipTextFormat" xml:space="preserve">
+  <value>Эта версия Razor не поддерживает оператор условного null</value>
+</data>
+<data name="CodeCleanupTask_JsFormatDocComments" xml:space="preserve">
+  <value>Переформатировать встроенные XML-документационные комментарии</value>
+</data>
+<data name="OverrideVSIntelliSenseForJSONSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для JSON</value>
+</data>
+<data name="ItSNotPathToNodeJsExecutable__Text" xml:space="preserve">
+  <value>Это не путь к исполняемому файлу Node.js: {0}</value>
+</data>
+<data name="AutoFormatOnClosingTagSettingDescription" xml:space="preserve">
+  <value>Автоматическое форматирование при вводе закрывающего тега</value>
+</data>
+<data name="JavaScriptReformatCodeBase_Name_Reformat_JavaScript" xml:space="preserve">
+  <value>Переформатировать JavaScript</value>
+</data>
+<data name="JavaScriptJsFilesAndEmbeddedJavaScriptSettingDescription" xml:space="preserve">
+  <value>JavaScript (файлы .js и встроенный JavaScript)</value>
+</data>
+<data name="ASPNETVBNETProjects_Text" xml:space="preserve">
+  <value>Проекты ASP.NET (VB.NET)</value>
+</data>
+<data name="TranslatingJsToTs_Text" xml:space="preserve">
+  <value>Преобразование js в ts</value>
+</data>
+<data name="CannotResolveMasterpage__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить мастер-страницу '{0}'</value>
+</data>
+<data name="HTMLHtmlFilesAndServerPagesSettingDescription" xml:space="preserve">
+  <value>HTML (файлы .html и серверные страницы)</value>
+</data>
+<data name="OnSelectorsSettingDescription" xml:space="preserve">
+  <value>На селекторах</value>
+</data>
+<data name="WhereValueIsExpectedSettingDescription" xml:space="preserve">
+  <value>Там, где ожидается значение</value>
+</data>
+<data name="JSONValueHelpersOptionPageTitle" xml:space="preserve">
+  <value>Помощники значений JSON</value>
+</data>
+<data name="RouteTemplates_AfterColon" xml:space="preserve">
+  <value>После ':'</value>
+</data>
+<data name="TypingAssistanceSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки помощи при вводе</value>
+</data>
+<data name="ReformatCode_Name_Reformat_HTML" xml:space="preserve">
+  <value>Переформатировать HTML</value>
+</data>
+<data name="CurrentProject_Text" xml:space="preserve">
+  <value>Текущий проект</value>
+</data>
+<data name="JavaScriptSettingDescription" xml:space="preserve">
+  <value>JavaScript</value>
+</data>
+<data name="ASPNETOptionPageTitle" xml:space="preserve">
+  <value>ASP.NET</value>
+</data>
+<data name="BaseTypesOf__Text" xml:space="preserve">
+  <value>Базовые типы для '{0}'</value>
+</data>
+<data name="CannotResolveView__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить представление '{0}'</value>
+</data>
+<data name="CannotResolveController__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить контроллер '{0}'</value>
+</data>
+<data name="RemoveRedundantTagNamePrefixesModule_Name_Optimize__Register_directives" xml:space="preserve">
+  <value>Оптимизировать директивы @Register</value>
+</data>
+<data name="CodeCleanupTask_JsInsertSemicolon" xml:space="preserve">
+  <value>Применить завершение операторов</value>
+</data>
+<data name="CSSCssFilesAndEmbeddedCSSSettingDescription" xml:space="preserve">
+  <value>CSS (файлы .css и встроенный CSS)</value>
+</data>
+<data name="NodeJsSourcePathSettingDescription" xml:space="preserve">
+  <value>Исходный путь Node.js</value>
+</data>
+<data name="TransformationJsToTs_Text" xml:space="preserve">
+  <value>Преобразование Js в Ts</value>
+</data>
+<data name="CSSSettingDescription" xml:space="preserve">
+  <value>CSS</value>
+</data>
+<data name="Implementing_Of__Text" xml:space="preserve">
+  <value>Реализация {0} для '{1}'</value>
+</data>
+<data name="AutoFixCommaToGoOutsideQuotesOfJSON_BoolOption_Text" xml:space="preserve">
+  <value>Автоматически исправлять запятую, чтобы она выходила за кавычки значения JSON</value>
+</data>
+<data name="JavaScriptOptionPageTitle" xml:space="preserve">
+  <value>JavaScript</value>
+</data>
+<data name="InheritorsOf_FindUsagesTitle_Text" xml:space="preserve">
+  <value>Наследники '{0}'</value>
+</data>
+<data name="InjectedJavaScriptSettingDescription" xml:space="preserve">
+  <value>Внедренный JavaScript</value>
+</data>
+<data name="RazorASPNETFrameworkProjects_Text" xml:space="preserve">
+  <value>Проекты Razor ASP.NET Framework</value>
+</data>
+<data name="CannotResolveArea__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить область '{0}'</value>
+</data>
+<data name="ToGetMoreInformationAboutJSONCatalog_Text_Text" xml:space="preserve">
+  <value>Чтобы получить больше информации о формате каталога JSON, посетите раздел 'API' на http://schemastore.org/json/</value>
+</data>
+<data name="JSONValueHelpersAreHintsForReSharper_Text_Text" xml:space="preserve">
+  <value>Помощники значений JSON — это подсказки для ReSharper, чтобы распознавать определенные типы значений в JSON-файлах (например, регулярные выражения или пути к файлам)</value>
+</data>
+<data name="RazorCViewsFolder_Text" xml:space="preserve">
+  <value>Папка представлений Razor (C#)</value>
+</data>
+<data name="FindAutomaticallyWhenRequired_SingleRadioOption_Text" xml:space="preserve">
+  <value>Автоматически находить при необходимости</value>
+</data>
+<data name="InspectionsOptionPageTitle" xml:space="preserve">
+  <value>Инспекции</value>
+</data>
+<data name="CodeCleanupTask_JsReformatCode" xml:space="preserve">
+  <value>Переформатировать код</value>
+</data>
+<data name="CannotResolveViewComponentView__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить представление компонента '{0}'</value>
+</data>
+<data name="RouteTemplates_AfterBrackets" xml:space="preserve">
+  <value>После '{' и '['</value>
+</data>
+<data name="OnHexColorsSettingDescription" xml:space="preserve">
+  <value>На шестнадцатеричных цветах</value>
+</data>
+<data name="RazorNullConditionalOperatorHighlighting_TooltipTextFormat" xml:space="preserve">
+  <value>Эта версия Razor не поддерживает оператор условного null</value>
+</data>
+<data name="RazorCProjects_Text" xml:space="preserve">
+  <value>Проекты Razor (C#)</value>
+</data>
+<data name="CannotResolveAction__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить действие '{0}'</value>
+</data>
+<data name="OverrideVSIntelliSenseForJSXJavaScriptSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для JSX JavaScript</value>
+</data>
+<data name="TransformationJsToTsPreparingCaches_Text" xml:space="preserve">
+  <value>Преобразование Js в Ts: подготовка кэшей</value>
+</data>
+<data name="HTMLSettingDescription" xml:space="preserve">
+  <value>HTML</value>
+</data>
+<data name="JavaScriptDecoration_Name_JavaScript_decoration" xml:space="preserve">
+  <value>Оформление JavaScript</value>
+</data>
+<data name="FormattingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль форматирования</value>
+</data>
+<data name="RazorCSharedViewsFolder_Text" xml:space="preserve">
+  <value>Папка общих представлений Razor (C#)</value>
+</data>
+<data name="OnClassesAndIDsSettingDescription" xml:space="preserve">
+  <value>На классах и ID</value>
+</data>
+<data name="CSSNamingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль именования CSS 2</value>
+</data>
+<data name="AvailableCatalogs_Header_Text" xml:space="preserve">
+  <value>Доступные каталоги</value>
+</data>
+<data name="SplitUpdateMatchingTagsInTwoSeparateUndoCommands" xml:space="preserve">
+  <value>Использовать отдельные шаги отмены для автоматически обновленных соответствующих тегов</value>
+</data>
+<data name="RazorCreateComponentQuickFix_TextFormat" xml:space="preserve">
+  <value>Создать компонент</value>
+</data>
+<data name="AboutValueHelpers_Header_Text" xml:space="preserve">
+  <value>О помощниках значений</value>
+</data>
+<data name="SynchronousChangingOfMatchingTagSettingDescription" xml:space="preserve">
+  <value>Синхронное изменение соответствующего тега</value>
+</data>
+<data name="OverrideVSIntelliSenseForJavaScriptSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для JavaScript</value>
+</data>
+<data name="OverrideVSIntelliSenseForInjectedJavaScriptSettingDescription" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для внедренного JavaScript</value>
+</data>
+<data name="NormalizeTagNames_HTML" xml:space="preserve">
+  <value>Нормализовать имена тегов</value>
+</data>
+<data name="CannotResolvePartialView__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить частичное представление '{0}'</value>
+</data>
+<data name="WhatIsASchemaCatalog_Header_Text" xml:space="preserve">
+  <value>Что такое каталог схем?</value>
+</data>
+<data name="AllowCPUIntensiveTypingAssistsSettingDescription" xml:space="preserve">
+  <value>Разрешить ресурсоемкую помощь при вводе</value>
+</data>
+<data name="JavaScriptInStringLiteralsInjectedSettingDescription" xml:space="preserve">
+  <value>JavaScript в строковых литералах (внедренный)</value>
+</data>
+<data name="CodeCleanupTask_AspOptimizeRegisterDirectives" xml:space="preserve">
+  <value>Оптимизировать директивы @Register</value>
+</data>
+<data name="DerivedTypesOf__Text" xml:space="preserve">
+  <value>Производные типы для '{0}'</value>
+</data>
+<data name="NamingStyleOptionPageTitle" xml:space="preserve">
+  <value>Стиль именования</value>
+</data>
+<data name="HTMLOptionPageTitle" xml:space="preserve">
+  <value>HTML</value>
+</data>
+<data name="RouteTemplates_AfterEquality" xml:space="preserve">
+  <value>После '='</value>
+</data>
+<data name="InsideStringSettingDescription" xml:space="preserve">
+  <value>Внутри строки</value>
+</data>
+<data name="ScanningFile__Text" xml:space="preserve">
+  <value>Сканирование файла '{0}'</value>
+</data>
+<data name="OnSpaceSettingDescription" xml:space="preserve">
+  <value>На пробеле</value>
+</data>
+<data name="WeNoticedThatYouReExperiencingLagsOn_Text" xml:space="preserve">
+  <value>Мы заметили, что вы испытываете задержки при вводе в Razor</value>
+</data>
+<data name="RazorCViewComponentsFolder_Text" xml:space="preserve">
+  <value>Папка компонентов представлений Razor (C#)</value>
+</data>
+<data name="JavaScriptInJSXJsxFilesOnlySettingDescription" xml:space="preserve">
+  <value>JavaScript в JSX (только файлы .jsx)</value>
+</data>
+<data name="OnIdentifiersSettingDescription" xml:space="preserve">
+  <value>На идентификаторах</value>
+</data>
+<data name="PredefinedASPNETEditorSettings_Text" xml:space="preserve">
+  <value>Предопределенные настройки редактора ASP.NET</value>
+</data>
+<data name="RazorTypingAssistanceSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки помощи при вводе для Razor</value>
+</data>
+<data name="CannotResolveTemplate__ToolTip" xml:space="preserve">
+  <value>Не удается разрешить шаблон '{0}'</value>
+</data>
+<data name="RazorUnresolvedComponentWarningHighlighting_Settings_TooltipTextFormat" xml:space="preserve">
+  <value>Неизвестный HTML-тег, возможно, компонент</value>
+</data>
+<data name="Base_Of__Text" xml:space="preserve">
+  <value>Базовый {0} для '{1}'</value>
+</data>
+<data name="PredefinedHtmlEditorSettings_Text" xml:space="preserve">
+  <value>Предопределенные настройки редактора Html</value>
+</data>
+<data name="RazorASPNETCoreProjects_Text" xml:space="preserve">
+  <value>Проекты Razor ASP.NET Core</value>
+</data>
+<data name="JSONSettingDescription" xml:space="preserve">
+  <value>JSON</value>
+</data>
+<data name="TypingAssistanceOptionPageTitle" xml:space="preserve">
+  <value>Помощь при вводе</value>
+</data>
+<data name="ASPNETCProjects_Text" xml:space="preserve">
+  <value>Проекты ASP.NET (C#)</value>
+</data>
+<data name="AfterDotSettingDescription" xml:space="preserve">
+  <value>После точки</value>
+</data>
+</root>

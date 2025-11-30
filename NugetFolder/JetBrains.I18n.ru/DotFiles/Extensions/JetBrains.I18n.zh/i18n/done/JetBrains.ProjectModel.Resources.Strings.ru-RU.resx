@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ProjectWasSuccessfullyMigratedToProjectReferences_Text" xml:space="preserve">
+    <value>项目已成功迁移到 ProjectReferences</value>
+  </data>
+  <data name="RiderIntegrated_Text" xml:space="preserve">
+    <value>Rider 集成</value>
+  </data>
+  <data name="_WasSuccessfullyInstalledTo__Text" xml:space="preserve">
+    <value>{0} 已成功安装到 {1}</value>
+  </data>
+  <data name="RemoveDependenciesSettingDescription" xml:space="preserve">
+    <value>RemoveDependencies</value>
+  </data>
+  <data name="PreparingAssemblies_Text" xml:space="preserve">
+    <value>正在准备程序集</value>
+  </data>
+  <data name="ClearNuGetFolders__Caption" xml:space="preserve">
+    <value>清除 NuGet 文件夹: {0}</value>
+  </data>
+  <data name="Failing_Text" xml:space="preserve">
+    <value>即将失败…</value>
+  </data>
+  <data name="UpdatingAllPackagesInSolution" xml:space="preserve">
+    <value>正在更新解决方案中的所有软件包</value>
+  </data>
+  <data name="Uninstalling_From__Caption" xml:space="preserve">
+    <value>正在从 {1} 中卸载 {0}</value>
+  </data>
+  <data name="NuGetFolderCleaningIsCancelled_Caption" xml:space="preserve">
+    <value>NuGet 文件夹清除已被取消</value>
+  </data>
+  <data name="Feed_Invalid_Name" xml:space="preserve">
+    <value>无效名称: '{0}'</value>
+  </data>
+  <data name="NETCLIX64ExecutablePathSettingDescription" xml:space="preserve">
+    <value>.NET CLI x64 可执行文件路径</value>
+  </data>
+  <data name="IsSolutionWatchdogEnabledSettingDescription" xml:space="preserve">
+    <value>是否已启用解决方案监视程序</value>
+  </data>
+  <data name="CacheFolderLocationTypeSettingDescription" xml:space="preserve">
+    <value>缓存文件夹位置类型</value>
+  </data>
+  <data name="ItemTypesToFetchAsCompileFilesAlongWithTheirBuildActionSettingDescription" xml:space="preserve">
+    <value>要作为编译文件获取的条目类型及其构建操作</value>
+  </data>
+  <data name="ConfiguresNuGetSettingDescription" xml:space="preserve">
+    <value>配置 NuGet</value>
+  </data>
+  <data name="PolicyForAutomaticDownloadSDKPropertySettingDescription" xml:space="preserve">
+    <value>如果找不到目标 SDK 版本，是否自动下载 .NET SDK</value>
+  </data>
+  <data name="DontUseReferencesProvidedByRoslynUseCOMAPISettingDescription" xml:space="preserve">
+    <value>Don't use references provided by Roslyn. Use COM API.</value>
+  </data>
+  <data name="FollowingInvalidFallbackFoldersFound_Text" xml:space="preserve">
+    <value>找到以下无效的回退文件夹&lt;br/&gt;{0}</value>
+  </data>
+  <data name="IncludeUnlistedSettingDescription" xml:space="preserve">
+    <value>IncludeUnlisted</value>
+  </data>
+  <data name="RunBuildAfterSolutionIsLoadedSettingDescription" xml:space="preserve">
+    <value>加载解决方案后运行构建</value>
+  </data>
+  <data name="NuGetNETCLIPlugins_Text" xml:space="preserve">
+    <value>NuGet/.NET CLI 插件</value>
+  </data>
+  <data name="EditProjectItemPropertiesActionText" xml:space="preserve">
+    <value>编辑项目条目属性</value>
+  </data>
+  <data name="UseAzureCredentialProviderV2Title" xml:space="preserve">
+    <value>使用捆绑的 Azure 凭据提供程序(实验性)</value>
+  </data>
+  <data name="Assembly_PresentableLocation_Text" xml:space="preserve">
+    <value>&lt;Assembly:{0}&gt;</value>
+  </data>
+  <data name="FailedToRetrievePackageSourceCredentials__Text" xml:space="preserve">
+    <value>无法检索软件包源凭据 '{0}'</value>
+  </data>
+  <data name="RecentCustomNETCLIX86ExecutablePathsSettingDescription" xml:space="preserve">
+    <value>最近的自定义 .NET CLI x86 可执行文件路径</value>
+  </data>
+  <data name="NETCLIExecutablePathSettingDescription" xml:space="preserve">
+    <value>.NET CLI 可执行文件路径</value>
+  </data>
+  <data name="CannotInstallPackage_InProject_Because_Text" xml:space="preserve">
+    <value>无法在项目 '{1}' 中安装软件包 '{0}'，因为它们的名称相同。请考虑重命名项目。</value>
+  </data>
+  <data name="ProjectModelSynchronizerSettingsSettingDescription" xml:space="preserve">
+    <value>ProjectModelSynchronizer 设置</value>
+  </data>
+  <data name="WhetherToLoadProjectModelFromVisualStudioCOMAPIOrFromFilesOnDiskSettingDescription" xml:space="preserve">
+    <value>是从 Visual Studio COM API 还是从文件系统加载项目模型</value>
+  </data>
+  <data name="RestoreSkipped_Caption" xml:space="preserve">
+    <value>还原已跳过</value>
+  </data>
+  <data name="Project_Shared_Text" xml:space="preserve">
+    <value>项目 {0} 共享</value>
+  </data>
+  <data name="ForceRemoveSettingDescription" xml:space="preserve">
+    <value>ForceRemove</value>
+  </data>
+  <data name="Project_Personal_Text" xml:space="preserve">
+    <value>项目 {0} 个人</value>
+  </data>
+  <data name="WhetherToUseMSBuildToObtainProjectReferencesAndGeneratedFilesSettingDescription" xml:space="preserve">
+    <value>是否使用 MSBuild 获取项目引用和生成的文件</value>
+  </data>
+  <data name="CustomPathForBuildToolSettingDescription" xml:space="preserve">
+    <value>构建工具的自定义路径</value>
+  </data>
+  <data name="AdditionalCompileItemsDisplayName_Text" xml:space="preserve">
+    <value>其他编译条目</value>
+  </data>
+  <data name="ShowBuildResultsAfterBuildCompletedSettingDescription" xml:space="preserve">
+    <value>构建完成后显示构建结果</value>
+  </data>
+  <data name="MonoExePathSettingDescription" xml:space="preserve">
+    <value>Mono exe 路径</value>
+  </data>
+  <data name="FolderAutoCleanModeSettingDescription" xml:space="preserve">
+    <value>FolderAutoCleanMode</value>
+  </data>
+  <data name="FileConflictActionSettingDescription" xml:space="preserve">
+    <value>FileConflictAction</value>
+  </data>
+  <data name="CredentialProvidersSettingDescription" xml:space="preserve">
+    <value>凭据提供程序</value>
+  </data>
+  <data name="TrackPublicAPIChangesAndOnlyRebuildDependenciesWhenPublicAPIIsChangedNotRecommendedForSolutionsThatIncludeNonMSBuildProjectsOrProjectsWithCustomBuildStepsSettingDescription" xml:space="preserve">
+    <value>跟踪公共 API 更改，仅在公共 API 更改时重建依赖项。不推荐用于包含非 MSBuild 项目或具有自定义构建步骤的项目的解决方案。</value>
+  </data>
+  <data name="NuGet_Fallback_Title" xml:space="preserve">
+    <value>回滚 {0}</value>
+  </data>
+  <data name="TargetsToExecuteToFetchGeneratedFilesToBeCompiledAlongWithSourcesSettingDescription" xml:space="preserve">
+    <value>要执行以获取要与源代码一起编译的生成文件的目标</value>
+  </data>
+  <data name="PackageSource_WasRemoved_Text" xml:space="preserve">
+    <value>软件包源 '{0}' 已被移除</value>
+  </data>
+  <data name="NETCLIX86ExecutablePathSettingDescription" xml:space="preserve">
+    <value>.NET CLI x86 可执行文件路径</value>
+  </data>
+  <data name="AllPackagesWereSuccessfullyUpdated_Text" xml:space="preserve">
+    <value>已成功更新所有软件包</value>
+  </data>
+  <data name="TheSolutionSettingsFileCouldNotBeUpgraded_Text" xml:space="preserve">
+    <value>无法从先前版本升级解决方案设置文件。
+
+{0}
+{1}</value>
+  </data>
+  <data name="UninstallFailedProject_Package__Text" xml:space="preserve">
+    <value>卸载失败(项目: {0}，软件包: {1})</value>
+  </data>
+  <data name="StartingFeatures_Text" xml:space="preserve">
+    <value>正在启动功能</value>
+  </data>
+  <data name="FailedToAddPackageSource__Text" xml:space="preserve">
+    <value>无法添加软件包源 '{0}'</value>
+  </data>
+  <data name="Build_Caption" xml:space="preserve">
+    <value>构建</value>
+  </data>
+  <data name="Console_Text" xml:space="preserve">
+    <value>控制台</value>
+  </data>
+  <data name="UninstallPackage0FromProject1" xml:space="preserve">
+    <value>从 {1} 中卸载 '{0}'</value>
+  </data>
+  <data name="SeeLogsForDetails_Text" xml:space="preserve">
+    <value>请参阅日志了解详细信息</value>
+  </data>
+  <data name="IgnoreDisableInterruptionAssertCookieDescription" xml:space="preserve">
+    <value>Force-enables the assert for muted known cases</value>
+  </data>
+  <data name="NuGetSettingDescription" xml:space="preserve">
+    <value>NuGet</value>
+  </data>
+  <data name="UseAllColorsForPaintingOutputMessagesOnlyForTestingSettingDescription" xml:space="preserve">
+    <value>Use all colors for painting output messages. Only for testing</value>
+  </data>
+  <data name="AllPackagesAreAlreadyRestored_Text" xml:space="preserve">
+    <value>所有软件包都已还原</value>
+  </data>
+  <data name="NuGetHome" xml:space="preserve">
+    <value>NuGetHome</value>
+  </data>
+  <data name="DoNotCreateSolutionContainerUntilSolutionInstance_Text" xml:space="preserve">
+    <value>正在等待解决方案实例组件</value>
+  </data>
+  <data name="HttpRequestError__Caption" xml:space="preserve">
+    <value>HttpRequest 错误({0})</value>
+  </data>
+  <data name="RestoreAllPackagesInSolution" xml:space="preserve">
+    <value>还原解决方案中的所有软件包</value>
+  </data>
+  <data name="Local_Packages" xml:space="preserve">
+    <value>局部软件包</value>
+  </data>
+  <data name="PackageSource_WasAdded_Text" xml:space="preserve">
+    <value>软件包源 '{0}' 已被添加</value>
+  </data>
+  <data name="LoadingSolution_Text" xml:space="preserve">
+    <value>正在加载解决方案</value>
+  </data>
+  <data name="NameSettingDescription" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="CacheFullTreeInStubTreeNodesCachesDescription" xml:space="preserve">
+    <value>Cache full PSI trees in StubTreeNodesCache</value>
+  </data>
+  <data name="BindingRedirectsWasAddedSuccessfully_Text" xml:space="preserve">
+    <value>已成功添加绑定重定向</value>
+  </data>
+  <data name="RunConfigurationsSettingDescription" xml:space="preserve">
+    <value>运行配置</value>
+  </data>
+  <data name="AllPackagesWereSuccessfullyInstalled_Text" xml:space="preserve">
+    <value>所有软件包都已成功安装到项目</value>
+  </data>
+  <data name="FailedToRemovePackageSource__Text" xml:space="preserve">
+    <value>无法移除软件包源 '{0}'</value>
+  </data>
+  <data name="RestoreFailed_Text" xml:space="preserve">
+    <value>还原失败</value>
+  </data>
+  <data name="AdditionalCompileItemsPerProjectSettingDescription" xml:space="preserve">
+    <value>每个项目的附加编译条目</value>
+  </data>
+  <data name="TimeoutError__Caption" xml:space="preserve">
+    <value>超时错误({0})</value>
+  </data>
+  <data name="InstallingAnnotationsNuGetPackage_Text" xml:space="preserve">
+    <value>正在安装注解 NuGet 软件包</value>
+  </data>
+  <data name="BuildToolSettingsSettingDescription" xml:space="preserve">
+    <value>构建工具设置</value>
+  </data>
+  <data name="AlwaysUseValueFromNuGetConfig_Text" xml:space="preserve">
+    <value>始终使用 NuGet.Config 中的值</value>
+  </data>
+  <data name="Automatic_Text" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="AdditionalAssemblyReferencesPerProjectSettingDescription" xml:space="preserve">
+    <value>每个项目的附加程序集引用</value>
+  </data>
+  <data name="UpdatingAllPackagesIn" xml:space="preserve">
+    <value>正在更新 {0} 中的所有软件包</value>
+  </data>
+  <data name="NuGetRestoreIsDisabledInSettings_Text" xml:space="preserve">
+    <value>设置中禁用了 NuGet 还原</value>
+  </data>
+  <data name="Global_Packages" xml:space="preserve">
+    <value>全局软件包</value>
+  </data>
+  <data name="_CannotAccessNuGetConfigPleaseCheck_Text" xml:space="preserve">
+    <value>{0}: 无法访问 NuGet.Config，请检查 NuGet.Config</value>
+  </data>
+  <data name="CacheTokensAndBuffersDescription" xml:space="preserve">
+    <value>Cache tokens and buffers in StubTreeNodesCache</value>
+  </data>
+  <data name="BRestoreFailedWithFollowingErrorsBN_Text" xml:space="preserve">
+    <value>&lt;b&gt;还原失败，存在以下错误:&lt;/b&gt;
+
+{0}</value>
+  </data>
+  <data name="AssertInterruptibleReadAccessDescription" xml:space="preserve">
+    <value>Throws an exception when the content model is accessed in a non-interruptible way</value>
+  </data>
+  <data name="Package_Cache" xml:space="preserve">
+    <value>软件包缓存</value>
+  </data>
+  <data name="UseNewPresentationBuildResultsTreeWithProjectsBuildStateSettingDescription" xml:space="preserve">
+    <value>使用新表示(使用项目的构建状态构建结果树)</value>
+  </data>
+  <data name="ReadingCaches_Text" xml:space="preserve">
+    <value>正在读取缓存</value>
+  </data>
+  <data name="FailedWithoutErrors_Text" xml:space="preserve">
+    <value>失败，没有错误</value>
+  </data>
+  <data name="NuGetNETCLIPluginsThenRiderIntegrated_Text" xml:space="preserve">
+    <value>NuGet/.NET CLI 插件，然后 Rider 集成</value>
+  </data>
+  <data name="RecentCustomBuildToolPathsSettingDescription" xml:space="preserve">
+    <value>最近的自定义构建工具路径</value>
+  </data>
+  <data name="NamespaceProviderDescription_Text" xml:space="preserve">
+    <value>指定是否应包含文件夹名称，将其作为此文件夹中源文件的命名空间的一部分</value>
+  </data>
+  <data name="WhetherToRunMsbuildWithinVisualStudioOrUseExternalProcessSettingDescription" xml:space="preserve">
+    <value>是在 Visual Studio 中运行 MSBuild 还是使用外部进程</value>
+  </data>
+  <data name="RecentCustomNETCLIX64ExecutablePathsSettingDescription" xml:space="preserve">
+    <value>最近的自定义 .NET CLI x64 可执行文件路径</value>
+  </data>
+  <data name="PolicyForenabledNuGetConfigRestorePropertySettingDescription" xml:space="preserve">
+    <value>'enabled' NuGet.Config 还原属性的策略</value>
+  </data>
+  <data name="Project_Plural" xml:space="preserve">
+    <value>{0} 个{0:choice:one#项目|other#项目}</value>
+  </data>
+  <data name="PackageSpecDumpStrategySettingDescription" xml:space="preserve">
+    <value>PackageSpec Dump Strategy</value>
+  </data>
+  <data name="InstallFailedProject_Package__Text" xml:space="preserve">
+    <value>安装失败(项目: {0}，软件包: {1})</value>
+  </data>
+  <data name="MachineConfigDir" xml:space="preserve">
+    <value>MachineConfigDir</value>
+  </data>
+  <data name="CustomGlobalPropertiesSettingDescription" xml:space="preserve">
+    <value>CustomGlobalProperties</value>
+  </data>
+  <data name="RestoringPackagesInSolution__Caption" xml:space="preserve">
+    <value>正在还原解决方案 {0} 中的软件包</value>
+  </data>
+  <data name="SucceededWithErrors_Text" xml:space="preserve">
+    <value>成功，但存在错误</value>
+  </data>
+  <data name="_ReadFailed_Text" xml:space="preserve">
+    <value>{0}: 读取失败</value>
+  </data>
+  <data name="ProjectSettingsStorageComponentOriginShared_Text" xml:space="preserve">
+    <value>项目文件夹中的 *proj.DotSettings 文件 — 如果添加到版本控制系统中，则与团队共享</value>
+  </data>
+  <data name="CanTStartBuildSolutionHasnTBeenLoaded_Text" xml:space="preserve">
+    <value>无法启动构建。尚未加载解决方案。是否继续而不构建?</value>
+  </data>
+  <data name="PackageSource_WasUpdated_Text" xml:space="preserve">
+    <value>软件包源 '{0}' 已被更新</value>
+  </data>
+  <data name="InstallationSourceSettingDescription" xml:space="preserve">
+    <value>安装源</value>
+  </data>
+  <data name="ProjectGuidsThatNeedMsbuildCalledSettingDescription" xml:space="preserve">
+    <value>需要调用 msbuild 的项目 guid</value>
+  </data>
+  <data name="UpdatingAllPackagesIn__Caption" xml:space="preserve">
+    <value>正在更新 {0} 中的所有软件包</value>
+  </data>
+  <data name="NumberOfProcessesRunningInParallelDuringSolutionLoadingSettingDescription" xml:space="preserve">
+    <value>解决方案加载期间并行运行的进程数</value>
+  </data>
+  <data name="Feed_URL_Exists" xml:space="preserve">
+    <value>已存在 URL 为 '{0}' 的 Feed</value>
+  </data>
+  <data name="ExcludedProjectsSettingDescription" xml:space="preserve">
+    <value>排除的项目</value>
+  </data>
+  <data name="___Text" xml:space="preserve">
+    <value>{0} ({1})</value>
+  </data>
+  <data name="SolutionSettingsStoragePersonalOrigin_Text" xml:space="preserve">
+    <value>解决方案文件夹中的 sln.DotSettings.User 文件 — 不应添加到版本控制系统中</value>
+  </data>
+  <data name="FailedToFindConfigFile_Text" xml:space="preserve">
+    <value>找不到配置文件</value>
+  </data>
+  <data name="ActiveSettingDescription" xml:space="preserve">
+    <value>活跃</value>
+  </data>
+  <data name="LoadingProjects_Text" xml:space="preserve">
+    <value>正在加载项目</value>
+  </data>
+  <data name="UseGetClCommandLinesTargetForCppProjectsTooltip" xml:space="preserve">
+    <value>如果启用此选项，将运行 'GetClCommandLines' 目标，并解析其结果以获取 C++ 项目的属性。</value>
+  </data>
+  <data name="UninstallFailedProject_Package__Caption" xml:space="preserve">
+    <value>卸载失败(项目: {0}，软件包: {1})</value>
+  </data>
+  <data name="WaitForAsyncProjectModelLoad_Text" xml:space="preserve">
+    <value>正在等待异步项目模型加载</value>
+  </data>
+  <data name="WaitSolutionContainerComponentsCompose_Text" xml:space="preserve">
+    <value>正在等待解决方案组件</value>
+  </data>
+  <data name="WriteLogToOutputSettingDescription" xml:space="preserve">
+    <value>将日志写入输出</value>
+  </data>
+  <data name="NuGetBrowserSearchServiceUrlForTestsSettingDescription" xml:space="preserve">
+    <value>测试的 NuGet 浏览器搜索服务 URL</value>
+  </data>
+  <data name="AdditionalAssemblyReferencesDescription_Text" xml:space="preserve">
+    <value>可能无法正确解析的库的绝对或相对路径的分号分隔列表</value>
+  </data>
+  <data name="SolutionBuilderDashboardActionsRestoreNugetActionText" xml:space="preserve">
+    <value>SolutionBuilderDashboardActions.RestoreNuget</value>
+  </data>
+  <data name="ConfiguresSolutionAndProjectBuildSettingDescription" xml:space="preserve">
+    <value>配置解决方案和项目构建</value>
+  </data>
+  <data name="RecentCustomMonoExecutablePathsSettingDescription" xml:space="preserve">
+    <value>最近的自定义 mono 可执行文件路径</value>
+  </data>
+  <data name="Http_Cache" xml:space="preserve">
+    <value>HTTP 缓存</value>
+  </data>
+  <data name="CachesLocationIfLocationTypeCUSTOMFOLDERSettingDescription" xml:space="preserve">
+    <value>如果 LocationType == CUSTOM_FOLDER 则缓存位置</value>
+  </data>
+  <data name="EnvironmentHierarchySettingsInVisualStudioThisIsTheSolutionProjectModelSettingDescription" xml:space="preserve">
+    <value>环境层次结构设置。在 Visual Studio 中，这是解决方案/项目模型。</value>
+  </data>
+  <data name="CalculatingModifiedFiles_ToolTip" xml:space="preserve">
+    <value>正在计算修改后的文件…</value>
+  </data>
+  <data name="MachineSettingsBaseDir" xml:space="preserve">
+    <value>MachineSettingsBaseDir</value>
+  </data>
+  <data name="SearchInAzureBlobsSettingDescription" xml:space="preserve">
+    <value>SearchInAzureBlobs</value>
+  </data>
+  <data name="ShowVerticalProgressBarWhenBuildStartedSettingDescription" xml:space="preserve">
+    <value>构建开始时显示垂直进度条</value>
+  </data>
+  <data name="SolutionSettingsStorageSharedOrigin_Text" xml:space="preserve">
+    <value>解决方案文件夹中的 sln.DotSettings 文件 — 如果添加到版本控制系统中，则与团队共享</value>
+  </data>
+  <data name="Displaying_NuGetConfig" xml:space="preserve">
+    <value>显示有效的 NuGet.Config，这是组合以下文件的结果:</value>
+  </data>
+  <data name="PreparingSolutionStructure_Text" xml:space="preserve">
+    <value>正在准备解决方案结构</value>
+  </data>
+  <data name="TypeSettingDescription" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="NuGetSourcePathIsInvalid_Caption" xml:space="preserve">
+    <value>NuGet 源路径无效</value>
+  </data>
+  <data name="PsiCachesRepairServiceEnabledDescription" xml:space="preserve">
+    <value>Enables PSI caches auto-repair service</value>
+  </data>
+  <data name="SearchPageSizeDescription" xml:space="preserve">
+    <value>搜索页面大小</value>
+  </data>
+  <data name="Solution_Personal_Text" xml:space="preserve">
+    <value>解决方案“{0}”个人</value>
+  </data>
+  <data name="GenerateBindingRedirectsFailedProject_Text" xml:space="preserve">
+    <value>生成绑定重定向失败(项目: {0}): {1}</value>
+  </data>
+  <data name="_WasSuccessfullyUninstalledFrom__Text" xml:space="preserve">
+    <value>已成功从 {1} 卸载 {0}</value>
+  </data>
+  <data name="EnableGroupingSolutionBuilderResultsByNamespacesTypesAndMembersSettingDescription" xml:space="preserve">
+    <value>启用按命名空间、类型和成员对解决方案构建器结果进行分组</value>
+  </data>
+  <data name="WaitTenSecondsBeforeRestoringPackagesShouldBeVisibleOnlyInInternalOnlyForManualTestingSettingDescription" xml:space="preserve">
+    <value>在还原软件包之前等待十秒钟。应该只在内部可见。仅用于手动测试。</value>
+  </data>
+  <data name="SettingsForNuGetBrowserSettingDescription" xml:space="preserve">
+    <value>NuGet 浏览器的设置</value>
+  </data>
+  <data name="NuGet_Text" xml:space="preserve">
+    <value>NuGet</value>
+  </data>
+  <data name="SolutionWatchdogSettingsSettingDescription" xml:space="preserve">
+    <value>解决方案监视程序设置</value>
+  </data>
+  <data name="TheEventsAllowedIntoTheLoggerMustBeAtLeastThisImportantAllowingThroughLowerImportanceEventsSlowDownTheBuildProcessSettingDescription" xml:space="preserve">
+    <value>The events allowed into the logger must be at least this important. Allowing lower-importance events will slow down the build process.</value>
+  </data>
+  <data name="AfterBuildFinishesSwitchToTreeViewModeIfAnyImportantEventsWereReportedDuringTheBuildSettingDescription" xml:space="preserve">
+    <value>构建完成后，如果构建期间报告了重要事件，则切换到树视图模式</value>
+  </data>
+  <data name="NuGetConfigContainsInvalidFallbackFolders_Caption" xml:space="preserve">
+    <value>NuGet 配置包含无效的回退文件夹</value>
+  </data>
+  <data name="SolutionBuilderDashboardActionsRestoreNugetActionDescription" xml:space="preserve">
+    <value>还原 NuGet 软件包</value>
+  </data>
+  <data name="AdditionalCompileItemsDescription_Text" xml:space="preserve">
+    <value>包含在编译中但可能无法正确解析的文件的绝对或相对路径的分号分隔列表</value>
+  </data>
+  <data name="ProjectGuidSettingDescription" xml:space="preserve">
+    <value>ProjectGuid</value>
+  </data>
+  <data name="NuGetFoldersAreCleared_Caption" xml:space="preserve">
+    <value>NuGet 文件夹已被清除</value>
+  </data>
+  <data name="AutoAttachSettingDescription" xml:space="preserve">
+    <value>自动附加</value>
+  </data>
+  <data name="None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="PresentationAspectsOfTheSolutionBuilderSettingDescription" xml:space="preserve">
+    <value>解决方案构建器的表示切面</value>
+  </data>
+  <data name="WillInstallAnnotationsNuGetPackage_Text" xml:space="preserve">
+    <value>{0} (将安装 'JetBrains.Annotations' NuGet 软件包)</value>
+  </data>
+  <data name="AlwaysDisable_Text" xml:space="preserve">
+    <value>始终禁用</value>
+  </data>
+  <data name="MRUGroupingOfBuildResultsInBuildResultsViewSettingDescription" xml:space="preserve">
+    <value>“构建结果”视图中构建结果的 MRU 分组</value>
+  </data>
+  <data name="ConstructingComponents_Text" xml:space="preserve">
+    <value>正在构建组件</value>
+  </data>
+  <data name="ShowBuildProgressInWindowsTaskBarWhenABuildIsRunningSettingDescription" xml:space="preserve">
+    <value>构建运行时在 Windows 任务栏中显示构建进度</value>
+  </data>
+  <data name="WhetherToAvoidRebuildingUnchangedProjectsWhoseReferencesHaveOnlyHadInsignificantChangesSinceLastBuildSettingDescription" xml:space="preserve">
+    <value>是否避免重新构建未更改的项目，这些项目的引用自上次构建以来仅发生了微不足道的变化</value>
+  </data>
+  <data name="PackageUninstallFailedSeeLogForDetails_Text" xml:space="preserve">
+    <value>软件包卸载失败。请参阅日志以了解详情。</value>
+  </data>
+  <data name="SingleConfigurationSettingDescription" xml:space="preserve">
+    <value>单一配置</value>
+  </data>
+  <data name="MigrationFailedProject___Text" xml:space="preserve">
+    <value>迁移失败(项目: {0}): {1}</value>
+  </data>
+  <data name="choice:mappings" xml:space="preserve">
+    <value>one:i == 1</value>
+  </data>
+  <data name="Failed_Text" xml:space="preserve">
+    <value>已失败</value>
+  </data>
+  <data name="SolutionSettingsUpgradedSettingDescription" xml:space="preserve">
+    <value>已升级解决方案设置</value>
+  </data>
+  <data name="RestoreFailed_Caption" xml:space="preserve">
+    <value>还原失败</value>
+  </data>
+  <data name="DefaultPackageManagementFormatSettingDescription" xml:space="preserve">
+    <value>默认软件包管理格式</value>
+  </data>
+  <data name="ProjectMasksToIgnoreSettingDescription" xml:space="preserve">
+    <value>要忽略的项目掩码</value>
+  </data>
+  <data name="PackageUninstallFailedDueToRestoreCancel_Text" xml:space="preserve">
+    <value>由于还原已被取消，软件包卸载失败。请参阅日志以了解详情。</value>
+  </data>
+  <data name="Solution_PresentableLocation_Text" xml:space="preserve">
+    <value>&lt;Solution:{0}&gt;</value>
+  </data>
+  <data name="Canceling_Text" xml:space="preserve">
+    <value>正在取消…</value>
+  </data>
+  <data name="SmartRestoreOnBuildSettingDescription" xml:space="preserve">
+    <value>构建时智能还原</value>
+  </data>
+  <data name="MsBuild_Text" xml:space="preserve">
+    <value>MsBuild</value>
+  </data>
+  <data name="ThereAreNoNuGetPackagesToRestore_Text" xml:space="preserve">
+    <value>没有要还原的 NuGet 软件包</value>
+  </data>
+  <data name="Solution_TeamShared_Text" xml:space="preserve">
+    <value>解决方案“{0}”团队共享</value>
+  </data>
+  <data name="PackageUninstallFailedDueToRestoreFail_Text" xml:space="preserve">
+    <value>由于还原失败，软件包卸载失败。请参阅日志以了解详情。</value>
+  </data>
+  <data name="OrderProjectLoadingAccordingToDependenciesSettingDescription" xml:space="preserve">
+    <value>根据依赖项排列项目加载顺序(可能会降低设计时构建速度，但会防止项目被多次构建)</value>
+  </data>
+  <data name="_RestoreFailed_Caption" xml:space="preserve">
+    <value>{0}: 还原失败</value>
+  </data>
+  <data name="MultiInstall" xml:space="preserve">
+    <value>正在安装多个软件包</value>
+  </data>
+  <data name="NETCoreRestoreEngineSettingDescription" xml:space="preserve">
+    <value>.NET Core 还原引擎</value>
+  </data>
+  <data name="BuildWithSolBuilderDuoSettingDescription" xml:space="preserve">
+    <value>使用 SolBuilderDuo 构建</value>
+  </data>
+  <data name="SyncingProjects_Text" xml:space="preserve">
+    <value>正在同步项目</value>
+  </data>
+  <data name="Installing_In__Caption" xml:space="preserve">
+    <value>正在 {1} 中安装 {0}</value>
+  </data>
+  <data name="BuildResultsBrowserSettingsSettingDescription" xml:space="preserve">
+    <value>构建结果浏览器设置</value>
+  </data>
+  <data name="StartingCodeAnalysis_Text" xml:space="preserve">
+    <value>正在启动代码分析</value>
+  </data>
+  <data name="RestoreFinished_Caption" xml:space="preserve">
+    <value>还原已完成</value>
+  </data>
+  <data name="MultiInstallFailed_Caption" xml:space="preserve">
+    <value>MultiInstall 失败</value>
+  </data>
+  <data name="Succeeded_Text" xml:space="preserve">
+    <value>已成功</value>
+  </data>
+  <data name="RestoreFinished_Text" xml:space="preserve">
+    <value>还原已完成</value>
+  </data>
+  <data name="WhenBuildStartsOpenAToolWindowWithGraphicalPresentationOfTheBuildDisableSmartnessProgressSettingDescription" xml:space="preserve">
+    <value>打开一个包含构建进度的图形表示的工具窗口，即使该构建为隐式调用</value>
+  </data>
+  <data name="WhenBuildStartsOpenAToolWindowWithGraphicalPresentationOfTheBuildProgressSettingDescription" xml:space="preserve">
+    <value>显式调用构建时，将打开一个工具窗口，其中包含构建进度的图形表示</value>
+  </data>
+  <data name="IncludePrereleaseSettingDescription" xml:space="preserve">
+    <value>IncludePrerelease</value>
+  </data>
+  <data name="CanTRestoreNuGetPackagesInIntegrated_Caption" xml:space="preserve">
+    <value>无法在集成项目中还原 NuGet 软件包</value>
+  </data>
+  <data name="Package_Plural" xml:space="preserve">
+    <value>{0} 个{0:choice:one#软件包|other#软件包}</value>
+  </data>
+  <data name="Feed_Exists" xml:space="preserve">
+    <value>已存在名为 '{0}' 的 Feed</value>
+  </data>
+  <data name="DependencyBehaviorSettingDescription" xml:space="preserve">
+    <value>DependencyBehavior</value>
+  </data>
+  <data name="RelativePathsToProjectFilesOrProjectFolderInCaseOfAWebsiteToLoadFromVisualStudioUsingCOMAPIIfAPathCannotBeMadeRelativeAbsolutePathWillBeUsedSettingDescription" xml:space="preserve">
+    <value>使用 COM API 从 Visual Studio 加载的项目文件(或网站的项目文件夹)的相对路径。如果路径不能设为相对，将使用绝对路径。</value>
+  </data>
+  <data name="UpdateFailed_Text" xml:space="preserve">
+    <value>更新失败</value>
+  </data>
+  <data name="ReloadProjectsOnExternalRestore" xml:space="preserve">
+    <value>ReloadProjectsOnExternalRestore</value>
+  </data>
+  <data name="TargetsToExecuteToObtainAssemblyReferencesSettingDescription" xml:space="preserve">
+    <value>要执行以获取程序集引用的目标</value>
+  </data>
+  <data name="ProjectSettingsStorageComponentOriginPersonal_Text" xml:space="preserve">
+    <value>项目文件夹中的 *proj.DotSettings.User 文件 — 不应添加到版本控制系统中</value>
+  </data>
+  <data name="MSBuildSolutionLoadingTargetsSettingDescription" xml:space="preserve">
+    <value>MSBuild 解决方案加载目标</value>
+  </data>
+  <data name="SwapDefaultActionToSkipBuildingSettingDescription" xml:space="preserve">
+    <value>交换跳过构建的默认操作</value>
+  </data>
+  <data name="DefaultActionSettingDescription" xml:space="preserve">
+    <value>DefaultAction</value>
+  </data>
+  <data name="ProjectItemProperties_Text" xml:space="preserve">
+    <value>项目条目属性</value>
+  </data>
+  <data name="Feed_Invalid_URL" xml:space="preserve">
+    <value>无效 URL: '{0}'</value>
+  </data>
+  <data name="Cancelled_Text" xml:space="preserve">
+    <value>已取消</value>
+  </data>
+  <data name="PaintOutputLogSettingDescription" xml:space="preserve">
+    <value>绘制输出日志</value>
+  </data>
+  <data name="Embedded_Text" xml:space="preserve">
+    <value>嵌入式</value>
+  </data>
+  <data name="UseGetClCommandLinesTargetForCppProjectsDescription" xml:space="preserve">
+    <value>从 MSBuild 读取时使用基于命令行的 C++ 编译属性</value>
+  </data>
+  <data name="VersionOfMSBuildToUseWhenBuildingMeansasTheRuntimeVersionOfTheApplicationInitiatingTheBuildInCaseOfVisualStudioThisIsTheSameMSBuildVSItselfUsesForBuildingFFFFFFFFMeansUseTheHighestVersionAvailableOnThisMachineAnyOtherNumberHIWORDIsTheMajorVersionNumberLOWORDIsTheMinorVersionNumberSettingDescription" xml:space="preserve">
+    <value>构建时使用的 MSBuild 版本。0 表示“启动构建的应用程序的运行时版本”(对于 Visual Studio，这与 MSBuild VS 本身用于构建的相同)。FFFFFFFF 表示使用此计算机上可用的最高版本。任何其他数字: HIWORD 是主要版本号，LOWORD 是次要版本号。</value>
+  </data>
+  <data name="RestoringPackage__Caption" xml:space="preserve">
+    <value>正在还原软件包 {0}</value>
+  </data>
+  <data name="WaitForDelayedShellComponents_Text" xml:space="preserve">
+    <value>正在等待延迟的 shell 组件</value>
+  </data>
+  <data name="ReSharperBuild__Text" xml:space="preserve">
+    <value>ReSharper Build – {0}</value>
+  </data>
+  <data name="PolicyForautomaticNuGetConfigRestorePropertySettingDescription" xml:space="preserve">
+    <value>'automatic' NuGet.Config 还原属性的策略</value>
+  </data>
+  <data name="RestoreCancelled_Caption" xml:space="preserve">
+    <value>还原已被取消</value>
+  </data>
+  <data name="PSIConfigurationSettingsSettingDescription" xml:space="preserve">
+    <value>PSI 配置设置</value>
+  </data>
+  <data name="NuGetBrowserSearchServiceUrlSettingDescription" xml:space="preserve">
+    <value>NuGet 浏览器搜索服务 URL</value>
+  </data>
+  <data name="AlwaysEnable_Text" xml:space="preserve">
+    <value>始终启用</value>
+  </data>
+  <data name="ShowBuildProgressInStatusBarWhenABuildIsRunningSettingDescription" xml:space="preserve">
+    <value>构建运行时在状态栏中显示构建进度</value>
+  </data>
+  <data name="InstallPackage0InProject1" xml:space="preserve">
+    <value>在 {1} 中安装 '{0}'</value>
+  </data>
+  <data name="Effective_NuGet_Config" xml:space="preserve">
+    <value>有效的 NuGet.Config</value>
+  </data>
+  <data name="FailedToUpdatePackageSource__Text" xml:space="preserve">
+    <value>无法更新软件包源 '{0}'</value>
+  </data>
+  <data name="AdditionalAssemblyReferencesDisplayName_Text" xml:space="preserve">
+    <value>其他程序集引用</value>
+  </data>
+  <data name="ShowFullPathInConsoleSettingDescription" xml:space="preserve">
+    <value>During the build, print full paths to the console output</value>
+  </data>
+  <data name="UserSettings" xml:space="preserve">
+    <value>UserSettings</value>
+  </data>
+  <data name="NamespaceProviderDisplayName_Text" xml:space="preserve">
+    <value>命名空间提供程序</value>
+  </data>
+  <data name="RecentCustomNETCLIExecutablePathsSettingDescription" xml:space="preserve">
+    <value>最近的自定义 .NET CLI 可执行文件路径</value>
+  </data>
+  <data name="PackageUninstallFailedPackageRestore_Text" xml:space="preserve">
+    <value>软件包卸载失败: 根据还原设置，已跳过软件包还原。
+请启用还原以删除软件包。</value>
+  </data>
+  <data name="Temp" xml:space="preserve">
+    <value>Temp</value>
+  </data>
+  <data name="Feed_Not_Found" xml:space="preserve">
+    <value>找不到名为 '{0}' 的 Feed</value>
+  </data>
+  <data name="DefaultPSIConfigurationSettings_Text" xml:space="preserve">
+    <value>默认 PSI 配置设置</value>
+  </data>
+  <data name="TurnSolutionWatchdogOnOrOffSettingDescription" xml:space="preserve">
+    <value>打开或关闭解决方案监视程序</value>
+  </data>
+</root>

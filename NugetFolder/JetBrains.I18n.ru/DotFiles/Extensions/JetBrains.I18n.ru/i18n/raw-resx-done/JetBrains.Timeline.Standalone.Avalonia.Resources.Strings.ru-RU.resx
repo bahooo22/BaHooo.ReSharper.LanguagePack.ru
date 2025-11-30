@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="HelpToolTipGcType" xml:space="preserve">
+  <value>
+Этот фильтр показывает интервалы времени, когда приложение выполняет определённый тип сборки мусора (GC):
+* **Блокирующая**&lt;br&gt; интервалы выполнения блокирующей сборки мусора. Все потоки, кроме инициировавшего сборку, приостанавливаются.
+* **Фоновая**&lt;br&gt; интервалы выполнения фоновой сборки мусора. Это событие может происходить только в потоке **GC**.
+* **Блокирующая во время фоновой**&lt;br&gt; интервалы выполнения блокирующей сборки мусора во время фоновой. Обычно это означает, что блокирующая сборка инициирована фоновым **GC**‑потоком.
+
+&lt;p&gt;Если вы видите значительные интервалы блокирующей сборки мусора, рекомендуется переключить фильтр **События** на **.NET распределение памяти** и определить потоки, которые выделяют наибольший объём памяти. Скорее всего именно они инициируют сборку мусора.
+  </value>
+</data>
+
+<data name="HelpToolTipFileIoName" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение времени операций ввода‑вывода (I/O) между конкретными файлами.
+&lt;p&gt;После выбора файла фильтр будет сохранять только интервалы времени, когда поток обрабатывает выбранный файл.
+  </value>
+</data>
+
+<data name="HelpToolTipExceptionMessage" xml:space="preserve">
+  <value>
+Этот фильтр показывает сообщение вызванного исключения.
+&lt;p&gt;После выбора сообщения фильтр будет сохранять только точечные события исключений с выбранным сообщением.
+  </value>
+</data>
+
+<data name="HelpToolTipIntervalFilters" xml:space="preserve">
+  <value>
+Это набор отдельных фильтров, представляющих события с определёнными интервалами — они могут перекрываться внутри потока. Если применить два или более фильтра с перекрывающимися интервалами, результирующий интервал будет их пересечением.
+* **UI‑заморозка**&lt;br&gt; интервалы, когда пользовательский интерфейс не отвечает. Более точно — когда обработка оконных сообщений занимает более 200 мс или их прокачка занимает более 200 мс. Это событие может происходить только в UI‑потоке.
+* **Входящий HTTP‑запрос**&lt;br&gt; интервал от получения HTTP‑запроса веб‑сервером до отправки ответа. Фильтр применяется только на стороне сервера.
+* **Задача**&lt;br&gt; интервалы выполнения задач, запущенных через API задач (например, Task.StartNew или Task.ContinueWith). При использовании async/await фильтр сохраняет только код после узла 'Task execution': сам async‑метод (включая продолжения) не входит в область фильтра.
+  </value>
+</data>
+
+<data name="HelpToolTipCpuCore" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение работы между логическими ядрами CPU.
+&lt;p&gt;После выбора CPU фильтр будет сохранять только интервалы времени, когда поток выполняется на выбранном логическом ядре.
+  </value>
+</data>
+
+<data name="HelpToolTipComparison" xml:space="preserve">
+  <value>
+Этот режим позволяет сравнивать два разных снимка, например, до и после оптимизации кода. dotTrace показывает различия во времени выполнения функций между первым и вторым снимком. Отрицательные значения (улучшение производительности) отображаются **%{color:{1}}зелёным%**, положительные (ухудшение) — **%{color:{2}}красным%**.
+&lt;p&gt;Если функция есть в первом снимке, но отсутствует во втором, всё её время отображается как отрицательное (**зелёным**). Если функция отсутствует в первом снимке, но появляется во втором, её время отображается как положительное (**красным**).
+&lt;p&gt;Если в одном из снимков область анализа ограничена конкретным узлом дерева вызовов, то для второго снимка нужно сделать то же самое. Иначе сравнение будет трудно интерпретировать.
+  </value>
+</data>
+
+<data name="HelpToolTipGcDepth" xml:space="preserve">
+  <value>
+Этот фильтр показывает интервалы времени, когда приложение выполняет сборку мусора (GC) определённого поколения.
+  </value>
+</data>
+
+<data name="HelpToolTipGcReason" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение сборок мусора по причинам их запуска.
+&lt;p&gt;После выбора причины фильтр будет сохранять только интервалы времени, когда GC был вызван по этой причине.
+  </value>
+</data>
+
+<data name="HelpToolTipWaitingActivatingThread" xml:space="preserve">
+  <value>
+Этот фильтр показывает поток или процесс, который разблокировал выбранный поток.
+&lt;p&gt;После выбора активирующего потока или процесса фильтр будет сохранять только интервалы времени ожидания до разблокировки выбранным объектом.
+&lt;p&gt;Фильтр используется для определения, какой поток блокировал другой.
+  </value>
+</data>
+
+<data name="HelpToolTipThreadStates" xml:space="preserve">
+  <value>
+Фильтр показывает интервалы времени, которые выбранный поток провёл в определённом состоянии:
+* **Выполняется**&lt;br&gt; поток выполняется на CPU.
+* **Ожидание**&lt;br&gt; поток не выполняется, так как ожидает ресурс или уведомление от другого потока.
+
+&lt;p&gt;Например, чтобы проанализировать интервалы ожидания, выберите поток на графике **Потоки** и примените фильтр **Состояние потока → Ожидание**.
+  </value>
+</data>
+
+<data name="HelpToolTipThreads" xml:space="preserve">
+  <value>
+График **Потоки** визуально показывает активность потоков. Для каждого потока отображается временная линия состояний и следующая информация:
+* **ID**&lt;br&gt; идентификатор потока.
+* **Имя**&lt;br&gt; имя потока или его тип (если имя отсутствует).
+* **мс/МБ/события**&lt;br&gt; отфильтрованное время/объём памяти/число событий. Например, если выбран фильтр **Время** и другие фильтры не применены, это будет весь жизненный цикл потока. Если выбран фильтр **Состояние потока → Ожидание**, это будет сумма всех интервалов ожидания.
+* **%**&lt;br&gt; процент времени/памяти/событий относительно всех выбранных интервалов.
+
+&lt;p&gt;Использование графика:
+* *Клик по потоку* — применить фильтр по потоку. Например, дерево вызовов покажет путь выполнения только для выбранного потока.&lt;br&gt;Кнопка **Видимые потоки** позволяет показать/скрыть потоки по имени или типу.
+* *Перетаскивание мышью с зажатой ЛКМ* — выбрать диапазон времени и поток. Фильтр применится автоматически.
+* ***Ctrl*** *+ колесо мыши или* ***Ctrl*** *+ перетаскивание* — масштабирование графика. Фильтр применится по видимому диапазону.
+* *ПКМ + перетаскивание* — панорамирование графика.
+* *ПКМ по имени потока* — открыть контекстное меню для выбора/скрытия потоков.
+* *ПКМ по потоку* — открыть контекстное меню для масштабирования выбранного интервала или очистки выбора.
+
+&lt;p&gt;График используется для выбора потоков и интервалов для анализа.
+  </value>
+</data>
+
+<data name="HelpToolTipTopMethods" xml:space="preserve">
+  <value>
+**Хотспоты** показывают список методов, выполнявшихся в выбранных интервалах. Если фильтр **События** не выбран, методы можно сортировать по собственному времени (без под‑вызовов) или по общему времени (с под‑вызовами). При включённой опции **Скрыть системные функции** собственное время системных вызовов добавляется к ближайшему пользовательскому методу.
+&lt;p&gt;Использование **Хотспотов**:
+* *Двойной клик или Enter по методу* — переход к исходному коду.
+* ***Ctrl+Enter*** — объединить и открыть все совпадения метода в дереве вызовов.
+* *ПКМ по методу* — открыть контекстное меню.
+  </value>
+</data>
+
+<data name="HelpToolTipDebugOutputString" xml:space="preserve">
+  <value>
+Этот фильтр показывает строковые сообщения, отправленные в отладочный вывод.
+&lt;p&gt;После выбора строки фильтр будет сохранять только интервалы времени, когда отправлялись сообщения с этим содержимым.
+  </value>
+</data>
+<data name="HelpToolTipProcessOverview" xml:space="preserve">
+  <value>
+График **Обзор процессов** визуально показывает активность приложения и события:
+* **Загрузка CPU**&lt;br&gt; процент загрузки CPU. Ось Y показывает количество логических ядер.
+* **Блокирующая сборка мусора**&lt;br&gt; интервалы выполнения блокирующей GC.
+* **UI‑заморозка**&lt;br&gt; интервалы, когда пользовательский интерфейс не отвечает (обработка сообщений >200 мс). Это событие может происходить только в UI‑потоке.
+
+&lt;p&gt;Использование графика:
+* *ЛКМ + перетаскивание* — выбрать диапазон времени. Фильтр применится автоматически.
+* *Колесо мыши или Ctrl+перетаскивание* — масштабирование.
+* *Клик по UI‑заморозке* — выбрать интервал заморозки UI.
+* *ПКМ + перетаскивание* — панорамирование.
+* *ПКМ по графику* — открыть контекстное меню для масштабирования или очистки выбора.
+  </value>
+</data>
+
+<data name="HelpToolTipBlockingGc" xml:space="preserve">
+  <value>
+Этот фильтр показывает суммарное время, когда выбранный поток был заблокирован или не заблокирован сборкой мусора (GC).
+* **Блокирующая GC**&lt;br&gt; выполнение блокирующей сборки мусора. Все потоки, кроме инициировавшего, приостанавливаются.
+* **Исключая блокирующую GC**&lt;br&gt; приложение работает без блокирующей сборки мусора.
+* **Не выбрано**&lt;br&gt; фильтр не применён.
+
+&lt;p&gt;После выбора значения фильтр сохраняет только соответствующие интервалы.
+&lt;p&gt;Фильтр используется для анализа GC. Например, при значительных блокирующих интервалах стоит переключить фильтр **Анализируемый субъект** на **.NET распределение памяти** и определить потоки, выделяющие больше всего памяти.
+  </value>
+</data>
+
+<data name="HelpToolTipSubsystems" xml:space="preserve">
+  <value>
+Это набор дополнительных фильтров для оценки распределения времени по компонентам:
+* **Пользовательский код**&lt;br&gt; интервалы выполнения пользовательских методов и вызванных ими системных методов.
+* **Системный/нативный код**&lt;br&gt; интервалы выполнения системного или нативного кода.
+* **Ожидание CPU**&lt;br&gt; интервалы ожидания доступного ядра CPU.
+* **Конкуренция за блокировку**&lt;br&gt; интервалы ожидания эксклюзивного доступа к объекту (Monitor.Enter, lock).
+* **Ожидание GC**&lt;br&gt; интервалы ожидания завершения блокирующей GC.
+* **Файловый I/O**&lt;br&gt; интервалы выполнения файловых операций.
+* **WPF, WinForms, Wait, Sleep, Linq и др.**&lt;br&gt; суммарные интервалы вызовов из определённых пространств имён или сборок.
+  </value>
+</data>
+
+<data name="HelpToolTipHttpRequestVerb" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение времени между HTTP‑запросами с определённым методом.
+&lt;p&gt;После выбора метода фильтр сохраняет только интервалы обработки запросов с этим методом.
+  </value>
+</data>
+
+<data name="HelpToolTipSqlCommandText" xml:space="preserve">
+  <value>
+Этот фильтр показывает суммарное время общения выбранного потока с SQL Server: открытие/закрытие соединений, ожидание результатов.
+&lt;p&gt;После выбора команды фильтр сохраняет только интервалы её выполнения.
+  </value>
+</data>
+
+<data name="HelpToolTipCallTree" xml:space="preserve">
+  <value>
+**Дерево вызовов** показывает путь выполнения методов. Каждый узел — верхнеуровневый метод, выполняемый потоком, со списком вызванных методов и временем выполнения поддерева.
+&lt;br&gt;Если дерево вызовов сфокусировано на методе, можно переключиться в режим **Обратного трассирования**, чтобы проследить путь до первого метода в стеке.
+&lt;p&gt;Использование:
+* *Двойной клик или ***Enter*** по методу* — переход к исходному коду.
+
+* ***Ctrl+Enter*** — ограничить область деревом вызовов текущего метода.
+* ***Ctrl+Shift+Enter*** — объединить и показать все совпадения метода.
+* *ПКМ по методу* — открыть контекстное меню.
+
+&lt;p&gt;Легенда:
+&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Fold{0}.svg) Цепочка системных вызовов, которую можно свернуть в одном узле.
+&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Unfold{0}.svg) Свернутая цепочка системных вызовов.
+  </value>
+</data>
+
+<data name="HelpToolTipExceptionType" xml:space="preserve">
+  <value>
+Этот фильтр показывает тип вызванного исключения.
+&lt;p&gt;После выбора типа фильтр сохраняет только точечные события исключений этого типа. Например, окно **Стек вызовов** покажет список методов, вызвавших исключение.
+  </value>
+</data>
+
+<data name="HelpToolTipTopMethodsUsingParagraph" xml:space="preserve">
+  <value>
+Использование **Методов**:
+  </value>
+</data>
+
+<data name="HelpToolTipHttpRequestUrl" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение времени между HTTP‑запросами к определённому URL.
+&lt;p&gt;После выбора URL фильтр сохраняет только интервалы обработки запросов к нему.
+  </value>
+</data>
+
+<data name="HelpToolTipSqlConnectionString" xml:space="preserve">
+  <value>
+Этот фильтр показывает суммарное время SQL‑сессий с определённой строкой подключения.
+&lt;p&gt;После выбора строки подключения фильтр сохраняет только соответствующие интервалы.
+  </value>
+</data>
+
+<data name="HelpToolTipAllocationType" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение выделенной памяти между типами объектов.
+&lt;p&gt;Учтите, что распределение приблизительное: ETW‑события выделения памяти генерируются только при превышении порога 100 KB. В списке будет указан тип объекта, вызвавшего превышение порога.
+  </value>
+</data>
+
+<data name="HelpToolTipAllocationHeap" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение выделенной памяти между малыми и большими кучами (SOH и LOH).
+&lt;br&gt;Например, чтобы определить методы, выделяющие память в LOH, выберите в фильтре **События → .NET распределение памяти → Куча → Большая куча**. Эти методы будут показаны в окне **Хотспоты**.
+  </value>
+</data>
+
+<data name="HelpToolTipWaitingReason" xml:space="preserve">
+  <value>
+Этот фильтр показывает причину блокировки выбранного потока.
+&lt;p&gt;После выбора причины фильтр сохраняет только интервалы ожидания по этой причине.
+&lt;p&gt;Лучше использовать подфильтр **Ожидание: причина** вместе с **Ожидание: активирующий поток**, чтобы определить, почему «Thread#X» блокирует «Thread#Y». Например, причина **UserRequest** означает блокировку из‑за конкуренции за ресурс.
+  </value>
+</data>
+
+<data name="HelpToolTipBlockingGcReason" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение времени блокирующей GC по причинам её запуска.
+&lt;p&gt;После выбора причины фильтр сохраняет только соответствующие интервалы.
+  </value>
+</data>
+
+<data name="HelpToolTipFileIoDirection" xml:space="preserve">
+  <value>
+Этот фильтр показывает распределение времени между операциями чтения и записи.
+&lt;p&gt;После выбора файла фильтр сохраняет только интервалы выполнения выбранной операции.
+  </value>
+</data>
+
+<data name="HelpToolTipAnalysisSubject" xml:space="preserve">
+  <value>
+Это набор фильтров для отображения определённых событий приложения:
+* **Не выбрано**&lt;br&gt; все собранные данные временной линии.
+* **.NET распределение памяти**&lt;br&gt; точечные события выделения памяти в управляемой куче (только при превышении 100 KB).
+* **Нативное распределение**&lt;br&gt; точечные события выделения памяти в нативной куче (фиксируются всегда).
+* **Исключения**&lt;br&gt; точечные события вызова исключений.
+* **Отладочный вывод**&lt;br&gt; точечные события записи в отладочный вывод.
+* **Сборка мусора**&lt;br&gt; интервалы выполнения GC.
+* **JIT‑компиляция**&lt;br&gt; интервалы выполнения JIT.
+* **Файловые операции**&lt;br&gt; интервалы выполнения операций ввода‑вывода.
+* **SQL‑запросы**&lt;br&gt; интервалы общения с SQL Server (замеряются на клиенте).
+  </value>
+</data>
+</root>

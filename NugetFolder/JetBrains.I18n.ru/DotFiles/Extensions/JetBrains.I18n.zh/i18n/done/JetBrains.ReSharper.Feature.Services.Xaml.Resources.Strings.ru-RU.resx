@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="__Namespace_Text" xml:space="preserve">
+    <value>{0} ('{1}' 命名空间)</value>
+  </data>
+  <data name="ImplicitAttributeName_Header_Text" xml:space="preserve">
+    <value>隐式特性名称</value>
+  </data>
+  <data name="VisibilityModeOfHintsForImplicitAttributeNamesSettingDescription" xml:space="preserve">
+    <value>隐式特性名称的提示的可见性模式</value>
+  </data>
+  <data name="CornerRadiusArgument_Header_Text" xml:space="preserve">
+    <value>CornerRadius 实参</value>
+  </data>
+  <data name="ThicknessArgument_Header_Text" xml:space="preserve">
+    <value>Thickness 实参</value>
+  </data>
+  <data name="VisibilityModeOfHintsInsideThicknessValueMarginPaddingEtcSettingDescription" xml:space="preserve">
+    <value>Thickness 值(Margin、Padding 等)内提示的可见性模式</value>
+  </data>
+  <data name="AttachedEvents__ToolTip" xml:space="preserve">
+    <value>附加的事件</value>
+  </data>
+  <data name="MissingGridRowColumn_Header_Text" xml:space="preserve">
+    <value>缺少 Grid.Row/Column</value>
+  </data>
+  <data name="CreateAttachedProperty__Text" xml:space="preserve">
+    <value>创建附加的属性 '{0}'</value>
+  </data>
+  <data name="CreateSelfClosedTagsInCodeCompletionSettingDescription" xml:space="preserve">
+    <value>在代码补全中创建自闭合标记</value>
+  </data>
+  <data name="AnyXAMLProjects_Text" xml:space="preserve">
+    <value>任何 XAML 项目</value>
+  </data>
+  <data name="HideForTemplateBindingsIfHintHasBeen_BoolOption_Text" xml:space="preserve">
+    <value>如果已为父绑定元素提供提示，则对模板绑定隐藏</value>
+  </data>
+  <data name="SilverlightProjects_Text" xml:space="preserve">
+    <value>Silverlight 项目</value>
+  </data>
+  <data name="VisibilityModeOfHintsInsideCornerRadiusValueSettingDescription" xml:space="preserve">
+    <value>CornerRadius 值内提示的可见性模式</value>
+  </data>
+  <data name="MAUICProjects_Text" xml:space="preserve">
+    <value>MAUI (C#)项目</value>
+  </data>
+  <data name="WhetherToShowImplicitMarkAttributeNameHintsSettingDescription" xml:space="preserve">
+    <value>是否显示隐式标记特性名称提示</value>
+  </data>
+  <data name="WhetherToShowFullyQualifiedNamesOfTypesSettingDescription" xml:space="preserve">
+    <value>是否显示类型的完全限定名称</value>
+  </data>
+  <data name="XAMLOptionPageTitle" xml:space="preserve">
+    <value>XAML</value>
+  </data>
+  <data name="WhetherToShowHintsInsideThicknessValueMarginPaddingEtcSettingDescription" xml:space="preserve">
+    <value>是否在 Thickness 值(Margin、Padding 等)内显示提示</value>
+  </data>
+  <data name="WhetherToShowHintsInsideCornerRadiusValueSettingDescription" xml:space="preserve">
+    <value>是否在 CornerRadius 值内显示提示</value>
+  </data>
+  <data name="WhetherToShowHintsForMissingGridRowColumnEtcSettingDescription" xml:space="preserve">
+    <value>是否显示缺少 Grid.Row/Column 等的提示</value>
+  </data>
+  <data name="WhetherToShowHintsForTheDataContextOfTheBindingSettingDescription" xml:space="preserve">
+    <value>是否显示绑定的 DataContext 的提示</value>
+  </data>
+  <data name="XAMLCProjects_Text" xml:space="preserve">
+    <value>XAML (C#)项目</value>
+  </data>
+  <data name="XAMLProjects_Text" xml:space="preserve">
+    <value>XAML 项目</value>
+  </data>
+  <data name="CreateDependencyProperty__Text" xml:space="preserve">
+    <value>创建依赖项属性 '{0}'</value>
+  </data>
+  <data name="UseSmartBehaviorForAutomaticCodeCompletionSettingDescription" xml:space="preserve">
+    <value>为自动代码补全使用智能行为</value>
+  </data>
+  <data name="AutoInsertTagFooterInCodeCompletionSettingDescription" xml:space="preserve">
+    <value>在代码补全中自动插入页脚标记</value>
+  </data>
+  <data name="EvaluatesToDependencyPropertyTypeSpecificToCurrentFrameworkMacroDefinition_Description" xml:space="preserve">
+    <value>DependencyProperty 类型</value>
+  </data>
+  <data name="VisibilityModeOfHintsForTheDataContextOfTheBindingSettingDescription" xml:space="preserve">
+    <value>绑定的 DataContext 的提示的可见性模式</value>
+  </data>
+  <data name="DataContext_Header_Text" xml:space="preserve">
+    <value>DataContext</value>
+  </data>
+  <data name="XamarinCProjects_Text" xml:space="preserve">
+    <value>Xamarin (C#)项目</value>
+  </data>
+  <data name="WhetherToHideHintInTemplateBindingsIfDataContextHintAlreadyPresentedInParentElementSettingDescription" xml:space="preserve">
+    <value>如果已为父元素显示数据上下文提示，是否隐藏模板绑定中的提示</value>
+  </data>
+  <data name="XAMLTypingAssistanceSettingsSettingDescription" xml:space="preserve">
+    <value>XAML 输入辅助设置</value>
+  </data>
+  <data name="AttachedEvents_Text" xml:space="preserve">
+    <value>附加的事件</value>
+  </data>
+  <data name="ExpandNamespaceAliasesInCodeCompletionSettingDescription" xml:space="preserve">
+    <value>在代码补全中展开命名空间别名</value>
+  </data>
+  <data name="CollapseEmptyTags_Name_Collapse_empty_tags" xml:space="preserve">
+    <value>收起空标记</value>
+  </data>
+  <data name="WinRTProjects_Text" xml:space="preserve">
+    <value>WinRT 项目</value>
+  </data>
+  <data name="WPFProjects_Text" xml:space="preserve">
+    <value>WPF 项目</value>
+  </data>
+  <data name="XAMLVBNETProjects_Text" xml:space="preserve">
+    <value>XAML (VB.NET)项目</value>
+  </data>
+  <data name="EvaluatesToDependencyPropertyTypeSpecificToCurrentFrameworkMacroDefinition_LongDescription" xml:space="preserve">
+    <value>求值结果为当前框架特定的依赖项属性类型</value>
+  </data>
+  <data name="NamingStyleOptionPageTitle" xml:space="preserve">
+    <value>命名样式</value>
+  </data>
+  <data name="CreateStyledProperty__Text" xml:space="preserve">
+    <value>创建带样式的属性 '{0}'</value>
+  </data>
+  <data name="CreateDirectProperty__Text" xml:space="preserve">
+    <value>创建直接属性 '{0}'</value>
+  </data>
+  <data name="VisibilityModeOfHintsForMissingGridRowColumnEtcSettingDescription" xml:space="preserve">
+    <value>缺少 Grid.Row/ Column 等的提示的可见性模式</value>
+  </data>
+  <data name="XamlInlayHintsSettingsSettingDescription" xml:space="preserve">
+    <value>XAML 内嵌提示设置</value>
+  </data>
+  <data name="CodeCleanupTask_XAMLCollapseEmptyTags" xml:space="preserve">
+    <value>收起空标记</value>
+  </data>
+  <data name="WPFCProjects_Text" xml:space="preserve">
+    <value>WPF (C#)项目</value>
+  </data>
+  <data name="ShowFullyQualifiedNamesForDataContext_BoolOption_Text" xml:space="preserve">
+    <value>显示 DataContext 特性的完全限定名称</value>
+  </data>
+</root>

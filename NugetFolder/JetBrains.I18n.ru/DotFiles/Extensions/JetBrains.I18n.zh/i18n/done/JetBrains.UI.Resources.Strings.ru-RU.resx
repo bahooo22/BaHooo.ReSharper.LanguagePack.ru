@@ -1,0 +1,1212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PleaseHelpUsImprove_Text" xml:space="preserve">
+    <value>请帮助我们改进</value>
+  </data>
+  <data name="ConvertThemedIconsActionText" xml:space="preserve">
+    <value>转换主题图标…</value>
+  </data>
+  <data name="DisableOtherInstance_Text" xml:space="preserve">
+    <value>禁用其他实例</value>
+  </data>
+  <data name="ExtensionManagerDialogButtonOK_Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="ProvideFeedback_Text" xml:space="preserve">
+    <value>提供反馈</value>
+  </data>
+  <data name="CopyFullPathActionText" xml:space="preserve">
+    <value>复制完整路径</value>
+  </data>
+  <data name="IfYouAgreeToParticipateInTheProgram_Text" xml:space="preserve">
+    <value>如果您同意参与此计划，ReSharper 将匿名发送以下信息:</value>
+  </data>
+  <data name="QuickSearchSettingsSettingDescription" xml:space="preserve">
+    <value>快速搜索设置</value>
+  </data>
+  <data name="RequestApplicationShutdownActionText" xml:space="preserve">
+    <value>请求应用程序关闭</value>
+  </data>
+  <data name="Submitting_Text" xml:space="preserve">
+    <value>正在提交</value>
+  </data>
+  <data name="ThrowExceptionsActionText" xml:space="preserve">
+    <value>抛出异常</value>
+  </data>
+  <data name="ThereIsNoContentToShowInThisView_Text" xml:space="preserve">
+    <value>没有可在此视图中显示的内容</value>
+  </data>
+  <data name="NoPersonallyIdentifiableInformation_RichText_Text" xml:space="preserve">
+    <value>不会向服务器上传任何个人身份信息</value>
+  </data>
+  <data name="Reverse_Text" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="TheClickedStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+    <value>The Clicked status image name in the ImageList.</value>
+  </data>
+  <data name="LastName_Text" xml:space="preserve">
+    <value>姓氏:</value>
+  </data>
+  <data name="FailedToObtainCredentials_Text" xml:space="preserve">
+    <value>无法获取凭据</value>
+  </data>
+  <data name="EM_ExtensionSection_Updated" xml:space="preserve">
+    <value>已更新</value>
+  </data>
+  <data name="TheStringMustNotBeEmpty_Text" xml:space="preserve">
+    <value>字符串不得为空</value>
+  </data>
+  <data name="StatusBarWasFoundAs__Text" xml:space="preserve">
+    <value>StatusBar was found as {0}.</value>
+  </data>
+  <data name="OptionsDialogViewRelatedSettingsSettingDescription" xml:space="preserve">
+    <value>选项对话框视图相关设置</value>
+  </data>
+  <data name="AboutBox_DataHasBeenCopiedOnClipboard" xml:space="preserve">
+    <value>此数据已复制到剪贴板</value>
+  </data>
+  <data name="NewItem_Text" xml:space="preserve">
+    <value>新建条目:</value>
+  </data>
+  <data name="AboutBox_ShowMore" xml:space="preserve">
+    <value>显示其他 个</value>
+  </data>
+  <data name="AboutBox_Evaluating" xml:space="preserve">
+    <value>正在评估…</value>
+  </data>
+  <data name="IfYouLlProceedWeWonTBeAbleToGetBackShort_Text" xml:space="preserve">
+    <value>If you'll proceed, we won't be able to get back to you with a solution to your problem or </value>
+  </data>
+  <data name="ClearExceptionReporterDataText" xml:space="preserve">
+    <value>Clear Exception Reporter User Data</value>
+  </data>
+  <data name="Open_Text" xml:space="preserve">
+    <value>开放</value>
+  </data>
+  <data name="EM_ExtensionSection_To_Install" xml:space="preserve">
+    <value>待安装</value>
+  </data>
+  <data name="ExceptionReporterAnonymouslyText" xml:space="preserve">
+    <value>匿名</value>
+  </data>
+  <data name="MoveBeforeActionText" xml:space="preserve">
+    <value>Move Before</value>
+  </data>
+  <data name="AndA_Text" xml:space="preserve">
+    <value>和</value>
+  </data>
+  <data name="UsageStatisticsActionText" xml:space="preserve">
+    <value>用法统计信息</value>
+  </data>
+  <data name="Source_Caption" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="ExtensionManagerOptionViewButtonMoveUp" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="TextFiles_Text" xml:space="preserve">
+    <value>文本文件</value>
+  </data>
+  <data name="ExtensionManagerOptionViewButtonAdd" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="EditPackageSource_Text" xml:space="preserve">
+    <value>编辑软件包源</value>
+  </data>
+  <data name="WithEMail_Text" xml:space="preserve">
+    <value>(使用电子邮件)</value>
+  </data>
+  <data name="AreYouGenerallySatisfiedWithTheProduct_Text" xml:space="preserve">
+    <value>您对产品整体是否满意? 您如何评价它?</value>
+  </data>
+  <data name="New_Text" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="EM_Install_Button_Text" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="DetectedAutomatically_Text" xml:space="preserve">
+    <value>(自动检测)</value>
+  </data>
+  <data name="Extensions_Caption" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="ProcessEXplorerActionText" xml:space="preserve">
+    <value>进程资源管理器(&amp;X)</value>
+  </data>
+  <data name="AreYouSureYouWantToCancel_Text" xml:space="preserve">
+    <value>确定要取消吗?</value>
+  </data>
+  <data name="ClearAllSurvivors_Text" xml:space="preserve">
+    <value>清除所有未处理的对象</value>
+  </data>
+  <data name="ToolWindowEmptyContentWithActionHint_UseAction" xml:space="preserve">
+    <value>使用 {0}</value>
+  </data>
+  <data name="ExtensionManagerOptionViewButtonEdit" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="SettingsStore_Text" xml:space="preserve">
+    <value>设置存储</value>
+  </data>
+  <data name="TheContentOfThisViewHasBeenUnloaded_Text" xml:space="preserve">
+    <value>此视图的内容已卸载</value>
+  </data>
+  <data name="SettingsDashboard_Text" xml:space="preserve">
+    <value>设置仪表板</value>
+  </data>
+  <data name="TheHoverStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+    <value>The Hover status image name in the ImageList.</value>
+  </data>
+  <data name="Name_Text" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="Restart_Caption" xml:space="preserve">
+    <value>重新启动?</value>
+  </data>
+  <data name="UpgradeFromExceptionReportSettingsKeySettingDescription" xml:space="preserve">
+    <value>UpgradeFromExceptionReportSettingsKey</value>
+  </data>
+  <data name="Provide_Caption" xml:space="preserve">
+    <value>提供反馈</value>
+  </data>
+  <data name="EM_ExtensionSection_Selected_Short_Description" xml:space="preserve">
+    <value>{0:choice:one#{{0}}|other#修改}</value>
+  </data>
+  <data name="KeepOriginalNewLinesActionText" xml:space="preserve">
+    <value>Keep original new lines</value>
+  </data>
+  <data name="Description_Text" xml:space="preserve">
+    <value>描述:</value>
+  </data>
+  <data name="EM_Model_Installed" xml:space="preserve">
+    <value>当前已安装 {0} {1}</value>
+  </data>
+  <data name="ExtensionManagerOptionViewButtonMoveDown" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="EM_View_More_Info" xml:space="preserve">
+    <value>更多信息…</value>
+  </data>
+  <data name="YouCanAlwaysChangeYourSettingOnTheReSharper_Text" xml:space="preserve">
+    <value>您可以随时在 ReSharper 的“使用情况统计”选项页面更改您的偏好设置</value>
+  </data>
+  <data name="AnyInformationIdentifyingYourProjects_Text" xml:space="preserve">
+    <value>  * 能够识别您的项目的任何信息(如文件和项目名称、符号、源代码)</value>
+  </data>
+  <data name="Never_Description_Text" xml:space="preserve">
+    <value>从不</value>
+  </data>
+  <data name="Schema_Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="EditActionText" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="WhetherFilterCheckedSettingDescription" xml:space="preserve">
+    <value>Whether filter checked</value>
+  </data>
+  <data name="CannotSetValue_Caption" xml:space="preserve">
+    <value>无法设置值</value>
+  </data>
+  <data name="ClearSearchTooltip_Text" xml:space="preserve">
+    <value>清除搜索(Esc)</value>
+  </data>
+  <data name="SelectFolder_Text" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="PleaseAttachAtLeastOnePerformanceOr_Text" xml:space="preserve">
+    <value>请点击下方的 '+' 按钮，附加至少一个性能或内存快照</value>
+  </data>
+  <data name="SelectFolders_Text" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="ExtensionManagerDialogButtonCancel_Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Statistics_Text" xml:space="preserve">
+    <value>统计信息</value>
+  </data>
+  <data name="AboutBox_Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="DetectEnvironment_Description_Text" xml:space="preserve">
+    <value>Detect Environment</value>
+  </data>
+  <data name="Result_Caption" xml:space="preserve">
+    <value>结果</value>
+  </data>
+  <data name="ShowAccentColorsActionText" xml:space="preserve">
+    <value>Show Accent Colors…</value>
+  </data>
+  <data name="CheckForUpdates_Header_Text" xml:space="preserve">
+    <value>检查更新</value>
+  </data>
+  <data name="AboutBox_CheckedBuild" xml:space="preserve">
+    <value>Checked build. </value>
+  </data>
+  <data name="AboutBox_InDays" xml:space="preserve">
+    <value>{0} 天后</value>
+  </data>
+  <data name="OpenStoragesWindowActionText" xml:space="preserve">
+    <value>打开存储窗口</value>
+  </data>
+  <data name="ClickToUpdate_Text" xml:space="preserve">
+    <value>点击以更新</value>
+  </data>
+  <data name="ExtensionManagerOptionPageTitle" xml:space="preserve">
+    <value>扩展程序管理器</value>
+  </data>
+  <data name="PlatformGeneralHacksOptionPageTitle" xml:space="preserve">
+    <value>Platform General Hacks</value>
+  </data>
+  <data name="ProcessExplorer_Text" xml:space="preserve">
+    <value>Process Explorer</value>
+  </data>
+  <data name="TheFocusedStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+    <value>The Focused status image name in the ImageList.</value>
+  </data>
+  <data name="BugOrIncorrectBehavior_Text" xml:space="preserve">
+    <value>bug 或不正确的行为</value>
+  </data>
+  <data name="EvaluationOf_AboutToExpire_Text" xml:space="preserve">
+    <value>{0} 评估即将到期</value>
+  </data>
+  <data name="Cancel_Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="Execute_Text" xml:space="preserve">
+    <value>执行</value>
+  </data>
+  <data name="IndicatesWhetherTheSplitHeightMustBeFilledToTheButtonHeightEvenIfTheSplitImageHeightIsLower_Description_Text" xml:space="preserve">
+    <value>Indicates whether the split height must be filled to the button height even if the split image height is lower.</value>
+  </data>
+  <data name="FileLayoutDesigner_Presenters_DropItemsHere_Text" xml:space="preserve">
+    <value>将条目拖放到此处</value>
+  </data>
+  <data name="TheSplitHeightIgnoredIfCalculateSplitRectIsSetToTrue_Description_Text" xml:space="preserve">
+    <value>The split height (ignored if CalculateSplitRect is set to true).</value>
+  </data>
+  <data name="AboutBox_Today" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="AboutBox_Title" xml:space="preserve">
+    <value>关于 {0} {1}</value>
+  </data>
+  <data name="RequestApplicationShutdownActionDescription" xml:space="preserve">
+    <value>请求应用程序永久关闭或关闭并重启</value>
+  </data>
+  <data name="TheFollowingFilesWillBeDeletedAfter_Text" xml:space="preserve">
+    <value>提交后，以下文件将被删除。是否要移除这些文件?</value>
+  </data>
+  <data name="TypeWordsToSearchFor_Text" xml:space="preserve">
+    <value>输入要搜索的字词</value>
+  </data>
+  <data name="Enables_Text" xml:space="preserve">
+    <value>启用:</value>
+  </data>
+  <data name="EM_ExtensionSection_To_Remove" xml:space="preserve">
+    <value>待移除</value>
+  </data>
+  <data name="Rename__Caption" xml:space="preserve">
+    <value>重命名 {0}</value>
+  </data>
+  <data name="OpenMountingPointsWindowActionText" xml:space="preserve">
+    <value>打开装入点窗口</value>
+  </data>
+  <data name="CopyShortcut_Text" xml:space="preserve">
+    <value>复制快捷键</value>
+  </data>
+  <data name="OpenExtensionManager_Text" xml:space="preserve">
+    <value>打开扩展程序管理器…</value>
+  </data>
+  <data name="PleaseProvideAValidEMailAddress_Text" xml:space="preserve">
+    <value>请提供有效的电子邮件地址</value>
+  </data>
+  <data name="ApplyTheFix_ComboEnum_Caption" xml:space="preserve">
+    <value>Apply the fix:</value>
+  </data>
+  <data name="TheFixIsAppliedToRemoveTheFixPlease_RichText_Text" xml:space="preserve">
+    <value>**The fix is applied.** To remove the fix, disable this option and restart Visual Studio.</value>
+  </data>
+  <data name="ReSharperGenericTooltipWindow_Text" xml:space="preserve">
+    <value>ReSharper 常规工具提示窗口</value>
+  </data>
+  <data name="Calculating_Text" xml:space="preserve">
+    <value>正在计算…</value>
+  </data>
+  <data name="ScrollLeft_Text" xml:space="preserve">
+    <value>向左滚动</value>
+  </data>
+  <data name="Target_Caption" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="SavedWindowPositionsManagedBySaveWindowPositionBehaviorKeyedByTheWindowIDSettingDescription" xml:space="preserve">
+    <value>由 SaveWindowPositionBehavior 管理的已保存窗口位置，由窗口 ID 键控</value>
+  </data>
+  <data name="GeneralStatisticsNumberOfFilesFileTypes_Text" xml:space="preserve">
+    <value>  * 您正在处理的解决方案的一般统计数据(文件数量、文件类型)</value>
+  </data>
+  <data name="EM_ExtensionSection_Selected_Description" xml:space="preserve">
+    <value>{0} 个{0:choice:one#扩展程序|other#扩展程序}待{1}</value>
+  </data>
+  <data name="AndAttachAtLeastOnePerformanceSnapshot_Text" xml:space="preserve">
+    <value>并附加至少一个性能快照</value>
+  </data>
+  <data name="TypeToSearch_Text" xml:space="preserve">
+    <value>输入以搜索</value>
+  </data>
+  <data name="SavedWindowPositionsManagedBySaveWindowPositionBehaviorSettingDescription" xml:space="preserve">
+    <value>由 SaveWindowPositionBehavior 管理的已保存窗口位置</value>
+  </data>
+  <data name="RequestActivationCode_Text" xml:space="preserve">
+    <value>申请激活码</value>
+  </data>
+  <data name="EM_Action_Install" xml:space="preserve">
+    <value>安装</value>
+  </data>
+  <data name="EXtensionManagerActionText" xml:space="preserve">
+    <value>扩展程序管理器(&amp;X)…</value>
+  </data>
+  <data name="LicenseKey_Text" xml:space="preserve">
+    <value>许可证密钥:</value>
+  </data>
+  <data name="EM_ExtensionSection_Recently_Updated" xml:space="preserve">
+    <value>最近更新</value>
+  </data>
+  <data name="KeepTextAndAttachmentsAfterSubmission_Text" xml:space="preserve">
+    <value>提交后保留文本和附件</value>
+  </data>
+  <data name="ExtensionManagerOptionViewColumnSource" xml:space="preserve">
+    <value>源</value>
+  </data>
+  <data name="Copy_Text" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="GettingReadyToLoadTheView_Text" xml:space="preserve">
+    <value>正在准备加载视图…</value>
+  </data>
+  <data name="CancelAuthorization_Text" xml:space="preserve">
+    <value>取消授权</value>
+  </data>
+  <data name="FixTheProblemWithBitWinAPIGetCursorPosFunctionSettingDescription" xml:space="preserve">
+    <value>修正 32 位 WinAPI GetCursorPos 函数的问题</value>
+  </data>
+  <data name="FocusMonitor_Text" xml:space="preserve">
+    <value>聚焦监视器</value>
+  </data>
+  <data name="AboutBox_InternalMode" xml:space="preserve">
+    <value>Internal Mode. </value>
+  </data>
+  <data name="ReSharperWILLNOTSend_Text" xml:space="preserve">
+    <value>ReSharper 不会发送:</value>
+  </data>
+  <data name="AboutBox_CheckingForUpdates" xml:space="preserve">
+    <value>正在检查更新…</value>
+  </data>
+  <data name="FirstName_Text" xml:space="preserve">
+    <value>名字:</value>
+  </data>
+  <data name="Invert_Text" xml:space="preserve">
+    <value>反转</value>
+  </data>
+  <data name="CollapseAllActionText" xml:space="preserve">
+    <value>全部收起</value>
+  </data>
+  <data name="ShowProcessTreeActionText" xml:space="preserve">
+    <value>显示进程树</value>
+  </data>
+  <data name="OpenSchemaWindowActionText" xml:space="preserve">
+    <value>打开架构窗口</value>
+  </data>
+  <data name="EM_View_Progress" xml:space="preserve">
+    <value>正在加载扩展程序信息…</value>
+  </data>
+  <data name="ShowNativeProcessesActionText" xml:space="preserve">
+    <value>显示原生进程</value>
+  </data>
+  <data name="IncludePrereleasePackages_BoolOption_Text" xml:space="preserve">
+    <value>包括预发布软件包</value>
+  </data>
+  <data name="Close_Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="StopProfiling_Text" xml:space="preserve">
+    <value>停止分析</value>
+  </data>
+  <data name="FileAttachmentsHaveBeenSavedTo__Text" xml:space="preserve">
+    <value>文件附件已保存至 {0}</value>
+  </data>
+  <data name="ShowNativeModulesActionText" xml:space="preserve">
+    <value>显示原生模块</value>
+  </data>
+  <data name="ObtainTicketsFor_Text" xml:space="preserve">
+    <value>获取工单:</value>
+  </data>
+  <data name="AreThereAnyProblems_Text" xml:space="preserve">
+    <value>是否存在任何问题?</value>
+  </data>
+  <data name="AboutBox_UpToDate" xml:space="preserve">
+    <value>(最新)</value>
+  </data>
+  <data name="IfYouLlProceedWeWonTBeAbleToGetBack_Text" xml:space="preserve">
+    <value>如果您继续，我们将无法为您提供问题的解决方案或要求您提供问题的其他信息。您要查看您的联系信息吗?</value>
+  </data>
+  <data name="SelectAnItemToEdit_Text" xml:space="preserve">
+    <value>选择要编辑的条目</value>
+  </data>
+  <data name="Hide_Text" xml:space="preserve">
+    <value>隐藏</value>
+  </data>
+  <data name="_ParticipateInTheEarlyAccessProgram_BoolOption_Text" xml:space="preserve">
+    <value>参与抢先体验计划(EAP)(_P)</value>
+  </data>
+  <data name="WeNeedYouFor5Seconds_Text" xml:space="preserve">
+    <value>我们需要您花 5 秒钟分享反馈…</value>
+  </data>
+  <data name="FromEvaluationExpirationNotification_Text" xml:space="preserve">
+    <value>From Evaluation expiration notification</value>
+  </data>
+  <data name="DefaultReporterChangedSettingDescription" xml:space="preserve">
+    <value>UpgradePerformed</value>
+  </data>
+  <data name="SourceShouldBeValidUri_Text" xml:space="preserve">
+    <value>源必须是有效的 URI</value>
+  </data>
+  <data name="PleaseWait_Text" xml:space="preserve">
+    <value>请稍候</value>
+  </data>
+  <data name="ScrollRight_Text" xml:space="preserve">
+    <value>向右滚动</value>
+  </data>
+  <data name="Product_WillBeDisabledIn_Day__Text" xml:space="preserve">
+    <value>产品将在 {0} 天后被禁用</value>
+  </data>
+  <data name="MultipleSelectionCannotBeEdited_Text" xml:space="preserve">
+    <value>不能编辑多重选择</value>
+  </data>
+  <data name="CheckLicense_Caption" xml:space="preserve">
+    <value>检查许可证</value>
+  </data>
+  <data name="Password_Text" xml:space="preserve">
+    <value>密码:</value>
+  </data>
+  <data name="NameShouldNotBeEmpty_Text" xml:space="preserve">
+    <value>名称不得为空</value>
+  </data>
+  <data name="GeneralInformationAboutYourHardware_Text" xml:space="preserve">
+    <value>  * 有关硬件配置的一般信息(例如，RAM 容量、CPU 速度与核心数量)</value>
+  </data>
+  <data name="EM_Install_Completed_Success_Description" xml:space="preserve">
+    <value>所有选定功能都已成功安装</value>
+  </data>
+  <data name="SourceShouldNotBeEmpty_Text" xml:space="preserve">
+    <value>源不能为空</value>
+  </data>
+  <data name="InformationAboutWhichProductFeatures_Text" xml:space="preserve">
+    <value>  * 有关您使用的产品功能的信息</value>
+  </data>
+  <data name="Account_Text" xml:space="preserve">
+    <value>帐号:</value>
+  </data>
+  <data name="GroupByCLRActionText" xml:space="preserve">
+    <value>按 CLR 分组</value>
+  </data>
+  <data name="Details_Text" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="ToggleInternalActionText" xml:space="preserve">
+    <value>Toggle Internal</value>
+  </data>
+  <data name="AdminRightsRequired_Text" xml:space="preserve">
+    <value>(需要管理员权限)</value>
+  </data>
+  <data name="MinimalValueShouldBeLessThanMaximal_Text" xml:space="preserve">
+    <value>最小值必须小于最大值</value>
+  </data>
+  <data name="GotAnOperationCanceledExceptionProbably_Text" xml:space="preserve">
+    <value>发生 OperationCanceledException。视图加载已中断，现在将卸载视图。</value>
+  </data>
+  <data name="OpenSettingsStoreWindowActionText" xml:space="preserve">
+    <value>打开设置存储窗口</value>
+  </data>
+  <data name="AboutBox_Environment_Subtitle" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="YouReAboutToSubmitFeedbackAnonymously_Text" xml:space="preserve">
+    <value>您即将匿名提交反馈。</value>
+  </data>
+  <data name="_AutomaticallyCheckFor_Updates_BoolOption_Text" xml:space="preserve">
+    <value>自动检查 {0} 更新(_A)</value>
+  </data>
+  <data name="CopySettingsFromLayerToLayer_Text" xml:space="preserve">
+    <value>将设置从层复制到层</value>
+  </data>
+  <data name="EM_View_Text1" xml:space="preserve">
+    <value>
+            使用第三方插件时，可能会由插件供应商处理您的个人数据。
+            有关个人数据处理的详细信息，请查看插件供应商的文档。</value>
+  </data>
+  <data name="EM_View_Text2" xml:space="preserve">
+    <value>JetBrains 不对由任何第三方插件供应商对您个人数据的任何处理负责。</value>
+  </data>
+  <data name="AtomicRename_Text" xml:space="preserve">
+    <value>原子重命名</value>
+  </data>
+  <data name="RefreshActionText" xml:space="preserve">
+    <value>刷新</value>
+  </data>
+  <data name="LogInWithJetBrainsAccount_Text" xml:space="preserve">
+    <value>使用 JetBrains Account 登录</value>
+  </data>
+  <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
+    <value>保留所有权利。© {0} {1}</value>
+  </data>
+  <data name="ManageJetBrainsAccount_Text" xml:space="preserve">
+    <value>管理 JetBrains Account</value>
+  </data>
+  <data name="PreviewAvailableSourceDataAndSelect_ToolTip" xml:space="preserve">
+    <value>预览可用的源数据并选择要应用的设置</value>
+  </data>
+  <data name="ExceptionReporterSubmitAsText" xml:space="preserve">
+    <value>提交身份</value>
+  </data>
+  <data name="Clone_Text" xml:space="preserve">
+    <value>克隆</value>
+  </data>
+  <data name="SelectTheSourceFromWhichTheDataIsExtracted_ToolTip" xml:space="preserve">
+    <value>选择从中提取数据的源</value>
+  </data>
+  <data name="MountingPoints_Text" xml:space="preserve">
+    <value>装入点</value>
+  </data>
+  <data name="___Text" xml:space="preserve">
+    <value>{0}: {1}.</value>
+  </data>
+  <data name="_Collected_Text" xml:space="preserve">
+    <value>{0} 已收集</value>
+  </data>
+  <data name="Subject_Text" xml:space="preserve">
+    <value>主题:</value>
+  </data>
+  <data name="ItemText_Text" xml:space="preserve">
+    <value>条目文本:</value>
+  </data>
+  <data name="TheDisabledStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+    <value>The Disabled status image name in the ImageList.</value>
+  </data>
+  <data name="SelectColor_Text" xml:space="preserve">
+    <value>选择颜色</value>
+  </data>
+  <data name="ExtensionManagerOptionViewColumnName" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ShortInfoHasBeenCopiedToClipboard_Text" xml:space="preserve">
+    <value>简短信息已复制到剪贴板</value>
+  </data>
+  <data name="AnyPersonallyIdentifiableInformation_Text" xml:space="preserve">
+    <value>  * 任何个人身份信息(如用户名、许可证、YouTrack/JIRA 登录名、电子邮件等)</value>
+  </data>
+  <data name="Expired_Caption" xml:space="preserve">
+    <value>已过期</value>
+  </data>
+  <data name="IndicatesWhetherTheDoubleClickEventIsRaisedOnTheSplitButton_Description_Text" xml:space="preserve">
+    <value>Indicates whether the double click event is raised on the SplitButton</value>
+  </data>
+  <data name="MRUDialogPositionSettingDescription" xml:space="preserve">
+    <value>MRU 对话框位置</value>
+  </data>
+  <data name="TabStripView_TabContextMenu_Close" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="_NameCannotBeEmpty_Text" xml:space="preserve">
+    <value>{0} 名称不能为空</value>
+  </data>
+  <data name="FeedbackCenter_Text" xml:space="preserve">
+    <value>反馈中心</value>
+  </data>
+  <data name="AboutBox_Tomorrow" xml:space="preserve">
+    <value>明天</value>
+  </data>
+  <data name="TheNormalStatusImageNameInTheImageList_Description_Text" xml:space="preserve">
+    <value>The Normal status image name in the ImageList.</value>
+  </data>
+  <data name="AddNewItem_Caption" xml:space="preserve">
+    <value>添加新条目</value>
+  </data>
+  <data name="EM_Action_Update" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="DeleteActionText" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="SubmitAs_Text" xml:space="preserve">
+    <value>以下列身份提交:</value>
+  </data>
+  <data name="EM_Product_Name" xml:space="preserve">
+    <value>{0} 扩展程序</value>
+  </data>
+  <data name="LogPresentationTraceSourcesActionText" xml:space="preserve">
+    <value>Log Presentation Trace Sources</value>
+  </data>
+  <data name="EditItem_Caption" xml:space="preserve">
+    <value>编辑条目</value>
+  </data>
+  <data name="AnotherInstanceOf_With_IsRunningOn__Text" xml:space="preserve">
+    <value>{2}的另一个 {1} 实例正在 {0} 上运行。
+请输入其他许可证或禁用其他实例。否则，这台计算机上的 {1} 将被禁用。</value>
+  </data>
+  <data name="ExceptionDetails_Caption" xml:space="preserve">
+    <value>异常详细信息</value>
+  </data>
+  <data name="OpenSettingsImportExportWindowActionText" xml:space="preserve">
+    <value>打开设置导入和导出窗口</value>
+  </data>
+  <data name="EM_Options_Button_Text" xml:space="preserve">
+    <value>选项</value>
+  </data>
+  <data name="TheInstallationOfThisLanguageIsNotComplete_Text" xml:space="preserve">
+    <value>如果安装成功完成，请重新启动 Visual Studio。否则，请尝试通过扩展程序管理器完成安装。</value>
+  </data>
+  <data name="MoveAfterActionText" xml:space="preserve">
+    <value>Move After</value>
+  </data>
+  <data name="Less_Text" xml:space="preserve">
+    <value>收起</value>
+  </data>
+  <data name="LogOut_Text" xml:space="preserve">
+    <value>退出登录</value>
+  </data>
+  <data name="SubmitAnonymousUsageStatisticsToHelp_Text" xml:space="preserve">
+    <value>提交匿名使用统计数据，以帮助我们制作更好的版本，并优化产品的最重要领域。</value>
+  </data>
+  <data name="InOrderToSubmitFeedbackYouMustFillAt_Text" xml:space="preserve">
+    <value>要提交反馈，请填写至少一个字段</value>
+  </data>
+  <data name="Updates_Text" xml:space="preserve">
+    <value>更新</value>
+  </data>
+  <data name="_WithName_AlreadyExists_Text" xml:space="preserve">
+    <value>已存在名称为“{1}”的{0}</value>
+  </data>
+  <data name="InternalModeIsSetTo_Restart_Text" xml:space="preserve">
+    <value>内部模式设置为 {0}。是否重新启动?</value>
+  </data>
+  <data name="PleaseDonTForgetToAttachA_Text" xml:space="preserve">
+    <value>请不要忘记附加</value>
+  </data>
+  <data name="AboutBox_BuiltOn" xml:space="preserve">
+    <value>{0} 构建</value>
+  </data>
+  <data name="FixMouseIssuesInThe32BitApplication_Header_Text" xml:space="preserve">
+    <value>Fix mouse issues in the 32-bit application (Experimental)</value>
+  </data>
+  <data name="ClickHereToAuthenticate_Text" xml:space="preserve">
+    <value>点击此处进行身份验证</value>
+  </data>
+  <data name="NoteWindows10InsiderPreviewIsNotListed_Text_Text" xml:space="preserve">
+    <value>Note: Windows 10 Insider Preview is not listed as an environment to apply the fix automatically. Please apply the fix manually.</value>
+  </data>
+  <data name="OccursWhenTheButtonPartOfTheSplitButtonIsClicked_Description_Text" xml:space="preserve">
+    <value>Occurs when the button part of the SplitButton is clicked.</value>
+  </data>
+  <data name="ExtensionManagerDialogColumnName_Title" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="ByClickingTheButtonBelow_Text" xml:space="preserve">
+    <value>，方式为点击下方的 '+' 按钮</value>
+  </data>
+  <data name="ExceptionReporterSubmitAnonymouslyMessage" xml:space="preserve">
+    <value>匿名提交</value>
+  </data>
+  <data name="IndicatesWhetherTheSplitButtonAlwaysShowsTheHoverImageStatusInTheSplitPartEvenIfTheButtonPartOfTheSplitButtonIsHovered_Description_Text" xml:space="preserve">
+    <value>Indicates whether the SplitButton always shows the Hover image status in the split part even if the button part of the SplitButton is hovered.</value>
+  </data>
+  <data name="_Cancel_Text" xml:space="preserve">
+    <value>取消(_C)</value>
+  </data>
+  <data name="_ExtensionsHaveBeenInstalled_Text" xml:space="preserve">
+    <value>已安装 {0} 扩展程序</value>
+  </data>
+  <data name="NameIsInUse_Text" xml:space="preserve">
+    <value>名称已被使用</value>
+  </data>
+  <data name="TabStripView_TabContextMenu_CloseAllButPinned" xml:space="preserve">
+    <value>关闭所有未固定选项卡</value>
+  </data>
+  <data name="ProblemCategory_Text" xml:space="preserve">
+    <value>问题类别:</value>
+  </data>
+  <data name="WhatFeaturesAppearUseful_Text" xml:space="preserve">
+    <value>哪些功能比较实用?</value>
+  </data>
+  <data name="ChangeAccount_Text" xml:space="preserve">
+    <value>更改帐户</value>
+  </data>
+  <data name="AreThereAnyFeaturesYouDLikeToHaveBut_Text" xml:space="preserve">
+    <value>是否存在您需要但没有找到的功能?</value>
+  </data>
+  <data name="EM_ExtensionSection_Incompatible" xml:space="preserve">
+    <value>不兼容</value>
+  </data>
+  <data name="Or_Text" xml:space="preserve">
+    <value> 或 </value>
+  </data>
+  <data name="LicenseSummary_Text" xml:space="preserve">
+    <value>许可证摘要:</value>
+  </data>
+  <data name="SaveAs_Text" xml:space="preserve">
+    <value>另存为</value>
+  </data>
+  <data name="ControlShowcase_Text" xml:space="preserve">
+    <value>Control Showcase</value>
+  </data>
+  <data name="AddAttachment_Text" xml:space="preserve">
+    <value>添加附件</value>
+  </data>
+  <data name="UpgradePerformedSettingDescription" xml:space="preserve">
+    <value>UpgradePerformed</value>
+  </data>
+  <data name="_NoIWouldNotLikeToParticipate_Text" xml:space="preserve">
+    <value>否，我不想参与(_N)</value>
+  </data>
+  <data name="EvaluationExpiration_Caption" xml:space="preserve">
+    <value>评估到期</value>
+  </data>
+  <data name="choice:mappings" xml:space="preserve">
+    <value>one:i == 1</value>
+  </data>
+  <data name="PackageSourceDirectory_Caption" xml:space="preserve">
+    <value>软件包源目录</value>
+  </data>
+  <data name="AboutBox_CheckingForUpdatesFailed" xml:space="preserve">
+    <value>(检查更新失败)</value>
+  </data>
+  <data name="EMail_Text" xml:space="preserve">
+    <value>电子邮件:</value>
+  </data>
+  <data name="ABoutBox_Back" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="ToUseThisLanguagePleaseRestartVisual_Text" xml:space="preserve">
+    <value>要使用此语言，请重新启动 Visual Studio 并等待安装完成。</value>
+  </data>
+  <data name="EM_ExtensionSection_Most_Popular" xml:space="preserve">
+    <value>最热门</value>
+  </data>
+  <data name="WritesToTheTargetAndDisplaysTheResult_ToolTip" xml:space="preserve">
+    <value>写入目标并显示结果</value>
+  </data>
+  <data name="IndicatesWhetherTheSplitRectangeMustBeCalculatedBasingOnSplitImageSize_Description_Text" xml:space="preserve">
+    <value>Indicates whether the split rectangle must be calculated (basing on Split image size)</value>
+  </data>
+  <data name="TheSplitWidthIgnoredIfCalculateSplitRectIsSetToTrue_Description_Text" xml:space="preserve">
+    <value>The split width (ignored if CalculateSplitRect is set to true).</value>
+  </data>
+  <data name="EM_Installer_Is_Running" xml:space="preserve">
+    <value>{0} 安装程序正在运行。请将其关闭以继续。</value>
+  </data>
+  <data name="ExceptionReporterRemoveAttachmentsDialogText" xml:space="preserve">
+    <value>正在移除附件</value>
+  </data>
+  <data name="Loading_Text" xml:space="preserve">
+    <value>正在加载…</value>
+  </data>
+  <data name="EM_Install_Completed_Failure_Description" xml:space="preserve">
+    <value>出现 {0} 个{0:choice:one#错误|other#错误}</value>
+  </data>
+  <data name="AreYouSureYouWantToStopProfiling_Text" xml:space="preserve">
+    <value>确实要停止分析吗?</value>
+  </data>
+  <data name="SettingsStoreViewerActionText" xml:space="preserve">
+    <value>设置存储查看器</value>
+  </data>
+  <data name="Attachments_Text" xml:space="preserve">
+    <value>附件</value>
+  </data>
+  <data name="IndicatesWhetherTheSplitButtonAlwaysShowsTheDropDownMenuEvenIfTheButtonPartOfTheSplitButtonIsClicked_Description_Text" xml:space="preserve">
+    <value>Indicates whether the SplitButton always shows the drop down menu even if the button part of the SplitButton is clicked.</value>
+  </data>
+  <data name="EM_ExtensionSection_Installed" xml:space="preserve">
+    <value>已安装</value>
+  </data>
+  <data name="Preview_Caption" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="RegionSelection_Text" xml:space="preserve">
+    <value>区域选择</value>
+  </data>
+  <data name="DoYouWantToSaveTheTextYouVeEnteredAnd_Text" xml:space="preserve">
+    <value>是否要保存您输入的文本和添加的附件?</value>
+  </data>
+  <data name="EnterLicense_Text" xml:space="preserve">
+    <value>输入许可证</value>
+  </data>
+  <data name="_Storage_Text" xml:space="preserve">
+    <value>{0} 存储</value>
+  </data>
+  <data name="ProductsFeaturesOptionPageTitle" xml:space="preserve">
+    <value>产品和功能</value>
+  </data>
+  <data name="Feedback_Text" xml:space="preserve">
+    <value>反馈</value>
+  </data>
+  <data name="CannotRunUpdatesChecker_Caption" xml:space="preserve">
+    <value>不能运行更新检查器</value>
+  </data>
+  <data name="Storages_Text" xml:space="preserve">
+    <value>存储</value>
+  </data>
+  <data name="_YesParticipateAnonymouslyInTheReSharper_Text" xml:space="preserve">
+    <value>是，匿名参与 ReSharper 使用情况统计计划(_Y)</value>
+  </data>
+  <data name="EM_ExtensionSection_Available_Extensions" xml:space="preserve">
+    <value>可用扩展程序</value>
+  </data>
+  <data name="OpenStorageActionText" xml:space="preserve">
+    <value>打开存储</value>
+  </data>
+  <data name="OK_Text" xml:space="preserve">
+    <value>确定</value>
+  </data>
+  <data name="Submit_Text" xml:space="preserve">
+    <value>提交(_S)</value>
+  </data>
+  <data name="CollectingThisInformationWillNotAffect_Text" xml:space="preserve">
+    <value>收集此信息不会影响 ReSharper 的性能。</value>
+  </data>
+  <data name="Disable__Text" xml:space="preserve">
+    <value>禁用 {0}</value>
+  </data>
+  <data name="TheEarlyAccessProgramProvidesAccess_RichText_Text" xml:space="preserve">
+    <value>抢先体验计划可以让您访问产品的预发布版本。</value>
+  </data>
+  <data name="AvailableExtensionSources_Text_Text" xml:space="preserve">
+    <value>可用扩展程序源:</value>
+  </data>
+  <data name="NewVersionsOfTheExtensionsAreAvailable_Text" xml:space="preserve">
+    <value>可以使用新版本的扩展程序:</value>
+  </data>
+  <data name="GettingThingsReady_Text" xml:space="preserve">
+    <value>正在准备…</value>
+  </data>
+  <data name="OpenFileLocation_Text" xml:space="preserve">
+    <value>打开文件位置</value>
+  </data>
+  <data name="ImportExport_Text" xml:space="preserve">
+    <value>导入和导出</value>
+  </data>
+  <data name="AboutBox_UpdateAvailable" xml:space="preserve">
+    <value>(可用更新: {0})</value>
+  </data>
+  <data name="RemoveNewLinesActionText" xml:space="preserve">
+    <value>移除新行</value>
+  </data>
+  <data name="OpenMountingPointActionText" xml:space="preserve">
+    <value>打开装入点</value>
+  </data>
+  <data name="GeneralInformationAboutYourSoftware_Text" xml:space="preserve">
+    <value>  * 有关软件配置的一般信息(例如，操作系统版本)</value>
+  </data>
+  <data name="EditException_Text" xml:space="preserve">
+    <value>编辑异常</value>
+  </data>
+  <data name="ShuttingDown_Text" xml:space="preserve">
+    <value>正在关闭…</value>
+  </data>
+  <data name="TheFolder_DoesNotExist_Text" xml:space="preserve">
+    <value>文件夹 {0} 不存在</value>
+  </data>
+  <data name="InOrderToSubmitAReportYouMustProvide_Text" xml:space="preserve">
+    <value>要提交报告，请提供详细信息</value>
+  </data>
+  <data name="ChooseHowYouDLikeToIdentifyYourself_Text" xml:space="preserve">
+    <value>选择您想要如何证明自己的身份</value>
+  </data>
+  <data name="AvailableLicenses_Text" xml:space="preserve">
+    <value>可用许可证:</value>
+  </data>
+  <data name="PerformanceProblem_Text" xml:space="preserve">
+    <value>性能问题</value>
+  </data>
+  <data name="UserName_Text" xml:space="preserve">
+    <value>用户名:</value>
+  </data>
+  <data name="ExceptionReporterBrowserAuthenticationDescriptionText" xml:space="preserve">
+    <value>使用 Web 浏览器|登录 JetBrains Hub|，以便在所报告的异常得到修正时收到通知。|或|匿名提交|。</value>
+  </data>
+  <data name="SomethingWentWrongWhileLoadingThisView_Text" xml:space="preserve">
+    <value>加载此视图时出错。请稍后再试。</value>
+  </data>
+  <data name="AddPackageSource_Text" xml:space="preserve">
+    <value>添加软件包源</value>
+  </data>
+  <data name="SearchTextBox_Watermark" xml:space="preserve">
+    <value>搜索…</value>
+  </data>
+  <data name="FeedbackCenterBrowserAuthenticationDescriptionText" xml:space="preserve">
+    <value>使用 Web 浏览器|登录 JetBrains Hub|，以在反馈更新时收到通知。|或|匿名提交|。</value>
+  </data>
+  <data name="CollectGarbage_Text" xml:space="preserve">
+    <value>回收垃圾</value>
+  </data>
+  <data name="ExtensionManagerDialogColumnSource_Title" xml:space="preserve">
+    <value>源:</value>
+  </data>
+  <data name="TabStripView_TabContextMenu_CloseAllButThis" xml:space="preserve">
+    <value>关闭除此之外的所有</value>
+  </data>
+  <data name="ToggleAutoHide_Text" xml:space="preserve">
+    <value>切换搜索栏的自动隐藏</value>
+  </data>
+  <data name="YouExpresslyAcknowledgeThatEAPVersions_RichText_Text" xml:space="preserve">
+    <value>您明确确认此产品的 EAP 版本可能不可靠，无法按预期工作，而且可能包含错误。使用 EAP 产品的风险由您自己承担。</value>
+  </data>
+  <data name="EM_View_License" xml:space="preserve">
+    <value>许可证…</value>
+  </data>
+  <data name="TheRichTextCouldNotBeUploadedToTheView_Text" xml:space="preserve">
+    <value>The rich text could not be uploaded to the view</value>
+  </data>
+  <data name="LicenseConflict_Text" xml:space="preserve">
+    <value>许可证冲突</value>
+  </data>
+  <data name="TreeWidthSettingDescription" xml:space="preserve">
+    <value>树宽度</value>
+  </data>
+  <data name="EM_Close_Button_Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="SelectTheTargetIntoWhichTheDataShould_ToolTip" xml:space="preserve">
+    <value>选择数据应写入的目标</value>
+  </data>
+  <data name="ExceptionBrowser_Caption" xml:space="preserve">
+    <value>异常浏览器</value>
+  </data>
+  <data name="UsageStatistics_Text" xml:space="preserve">
+    <value>用法统计信息</value>
+  </data>
+  <data name="TabStripView_TabContextMenu_CloseAll" xml:space="preserve">
+    <value>关闭所有选项卡</value>
+  </data>
+  <data name="YouCanTurnTheIndicatorBackOnAtTheMenu_Text" xml:space="preserve">
+    <value>您可以在 **ReSharper | 选项 | 环境 | 常规**中重新打开指示器</value>
+  </data>
+  <data name="Always_Description_Text" xml:space="preserve">
+    <value>始终</value>
+  </data>
+  <data name="CopySurvivorsToClipboard_Text" xml:space="preserve">
+    <value>将未处理的对象复制到剪贴板</value>
+  </data>
+  <data name="FixModeAutomaticAlwaysOrNeverSettingDescription" xml:space="preserve">
+    <value>Fix mode (Automatic, Always or Never)</value>
+  </data>
+  <data name="ExtensionManagerOptionViewButtonRemove" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="EM_Action_Skip" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="EM_Action_Keep" xml:space="preserve">
+    <value>保留</value>
+  </data>
+  <data name="_IsNotAValidFilesystemPath_Text" xml:space="preserve">
+    <value>'{0}' 不是有效的文件系统路径</value>
+  </data>
+  <data name="SelectRegionWhereYouLocated_Text" xml:space="preserve">
+    <value>选择一个区域，确保链接和区域特定的功能正常运行</value>
+  </data>
+  <data name="LicenseInformation_Text" xml:space="preserve">
+    <value>许可证信息</value>
+  </data>
+  <data name="ThrowMemoryLeakException_Text" xml:space="preserve">
+    <value>Throw MemoryLeakException</value>
+  </data>
+  <data name="EM_Install_Completed" xml:space="preserve">
+    <value>安装已完成</value>
+  </data>
+  <data name="ExceptionReporterBrowserAuthenticationText" xml:space="preserve">
+    <value>浏览器身份验证</value>
+  </data>
+  <data name="EM_View_Confirm2" xml:space="preserve">
+    <value>第三方插件隐私说明</value>
+  </data>
+  <data name="EM_View_Confirm1" xml:space="preserve">
+    <value>我已阅读并理解</value>
+  </data>
+  <data name="ExpandAllActionText" xml:space="preserve">
+    <value>全部展开</value>
+  </data>
+  <data name="Delete_Text" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="DataSharingOptions_Text" xml:space="preserve">
+    <value>数据共享选项</value>
+  </data>
+  <data name="IsHierarchicalActionText" xml:space="preserve">
+    <value>已分层</value>
+  </data>
+  <data name="EM_Action_Uninstall" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="UserNameShouldNotBeEmpty_Text" xml:space="preserve">
+    <value>用户名不应为空</value>
+  </data>
+  <data name="IconPackFolder_Caption" xml:space="preserve">
+    <value>Icon Pack Folder</value>
+  </data>
+  <data name="ParticipatingInThisProgramWillHelpUs_Text" xml:space="preserve">
+    <value>参与此计划可以帮助我们更好地确定使用最多和最少的功能以及使用产品的配置。</value>
+  </data>
+  <data name="NewActionText" xml:space="preserve">
+    <value>新</value>
+  </data>
+  <data name="OpenInWebBrowser_Text" xml:space="preserve">
+    <value>在 Web 浏览器中打开</value>
+  </data>
+  <data name="GarbageWereCollectedButThisDidnTGive_Text" xml:space="preserve">
+    <value>垃圾已被回收，但这并没有提供任何可用内存</value>
+  </data>
+  <data name="AboutBox_ThisPreReleaseWillExpire" xml:space="preserve">
+    <value>此预发布版本将在 {0}到期</value>
+  </data>
+  <data name="More_Text" xml:space="preserve">
+    <value>更多</value>
+  </data>
+  <data name="NoSignal_Text" xml:space="preserve">
+    <value>无信号</value>
+  </data>
+  <data name="FileLayoutDesigner_Toolbox_PropertyGrid_Header_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ProblemReport_Text" xml:space="preserve">
+    <value>问题报告</value>
+  </data>
+  <data name="FindProcessByWindowActionText" xml:space="preserve">
+    <value>按窗口查找进程</value>
+  </data>
+  <data name="ServerAddress_Text" xml:space="preserve">
+    <value>服务器地址:</value>
+  </data>
+  <data name="PleaseReviewHowYouPreferToShareYour_Text" xml:space="preserve">
+    <value>请检查您希望如何与 JetBrains 共享数据:</value>
+  </data>
+</root>

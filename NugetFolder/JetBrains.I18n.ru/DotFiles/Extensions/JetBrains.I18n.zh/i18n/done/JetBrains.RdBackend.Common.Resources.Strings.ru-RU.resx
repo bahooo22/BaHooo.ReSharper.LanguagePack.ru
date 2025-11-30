@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Execute__Text" xml:space="preserve">
+    <value>执行 {0}</value>
+  </data>
+  <data name="EnvironmentSettingPage_Text" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="Version_TextBox_Caption" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="MsBuild_Imported_From_Text" xml:space="preserve">
+    <value>导入自</value>
+  </data>
+  <data name="Compile_SectionTitle" xml:space="preserve">
+    <value>编译</value>
+  </data>
+  <data name="DependenciesFolder_Text" xml:space="preserve">
+    <value>依赖项</value>
+  </data>
+  <data name="DefineConstants_Text" xml:space="preserve">
+    <value>定义常量</value>
+  </data>
+  <data name="ProjectGUID_Caption" xml:space="preserve">
+    <value>项目 GUID</value>
+  </data>
+  <data name="HideObsoleteMembersSettingDescription" xml:space="preserve">
+    <value>隐藏过时成员</value>
+  </data>
+  <data name="DownloadAndInstallNodeJs_Text" xml:space="preserve">
+    <value>下载并安装 Node.js…</value>
+  </data>
+  <data name="Product_TextBox_Caption" xml:space="preserve">
+    <value>产品</value>
+  </data>
+  <data name="InvalidNETFramework_Text" xml:space="preserve">
+    <value>.NET Framework 无效</value>
+  </data>
+  <data name="WarningsAndErrors_SectionTitle" xml:space="preserve">
+    <value>警告和错误</value>
+  </data>
+  <data name="Portable_Text" xml:space="preserve">
+    <value>便携</value>
+  </data>
+  <data name="ProductionBuildCommand_Property" xml:space="preserve">
+    <value>生产构建命令</value>
+  </data>
+  <data name="MSBuildIncompatibleWithNETCore_Text" xml:space="preserve">
+    <value>MSBuild 与 .NET Core 不兼容</value>
+  </data>
+  <data name="EnableNullabilityAnnotationsOnly_Text" xml:space="preserve">
+    <value>仅启用为 null 性注解</value>
+  </data>
+  <data name="ProjectURL_TextBox_Caption" xml:space="preserve">
+    <value>项目 URL</value>
+  </data>
+  <data name="_OwnUsages_Text" xml:space="preserve">
+    <value>{0} 个自有用法</value>
+  </data>
+  <data name="AddCustomTool_Caption" xml:space="preserve">
+    <value>添加自定义工具</value>
+  </data>
+  <data name="ToTargetOtherFrameworksEditProjectFile_Text" xml:space="preserve">
+    <value>要以其他框架为目标，请手动编辑项目文件</value>
+  </data>
+  <data name="ImplicitAssembliesFolder_Text" xml:space="preserve">
+    <value>隐式</value>
+  </data>
+  <data name="MsBuild_UnevaluatedInclude_Text" xml:space="preserve">
+    <value>未求值的 Include</value>
+  </data>
+  <data name="_Own_Text" xml:space="preserve">
+    <value>{0} 个自有</value>
+  </data>
+  <data name="IndexClassEventsNotPersistedCountDescription" xml:space="preserve">
+    <value>Index Class Events Not Persisted Count</value>
+  </data>
+  <data name="Localization_SectionTitle" xml:space="preserve">
+    <value>本地化</value>
+  </data>
+  <data name="ConfigureAwaitAnalysisMode_ToolTip" xml:space="preserve">
+    <value>为当前项目启用或禁用 'ConfigureAwait' 分析</value>
+  </data>
+  <data name="CurrentFile_Text" xml:space="preserve">
+    <value>当前文件</value>
+  </data>
+  <data name="_ExtensionMethodsForBaseTypes_Text" xml:space="preserve">
+    <value> + {0} 个基类型的扩展方法</value>
+  </data>
+  <data name="General_SectionTitle" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="Environment_Text" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="DerivedSymbols_Text" xml:space="preserve">
+    <value>派生符号</value>
+  </data>
+  <data name="NullableReferenceTypesC80_Text" xml:space="preserve">
+    <value>可以为 null 的引用类型(C# 8.0+)</value>
+  </data>
+  <data name="DisabledGeneratorsSettingDescription" xml:space="preserve">
+    <value>禁用的生成器</value>
+  </data>
+  <data name="PDBOnly_Text" xml:space="preserve">
+    <value>仅 PDB</value>
+  </data>
+  <data name="Signing_TabTitle" xml:space="preserve">
+    <value>签署</value>
+  </data>
+  <data name="Name_Text" xml:space="preserve">
+    <value>名称:</value>
+  </data>
+  <data name="Disabled_Text" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="_ExtensionMethodForBaseTypes_Text" xml:space="preserve">
+    <value> + {0} 个基类型的扩展方法</value>
+  </data>
+  <data name="MSBuild150IsRequiredToLoadProject__Caption" xml:space="preserve">
+    <value>需要使用 MSBuild 15.0+ 才能加载项目 '{0}'</value>
+  </data>
+  <data name="ProjectHasUnsupportedLanguageVersion_Label_Text" xml:space="preserve">
+    <value>项目具有不支持的语言版本 '{0}'</value>
+  </data>
+  <data name="FrameworkReferenceFolder_Text" xml:space="preserve">
+    <value>框架</value>
+  </data>
+  <data name="ExternalTool_Text" xml:space="preserve">
+    <value>外部工具</value>
+  </data>
+  <data name="MsBuild_EvaluatedInclude_Text" xml:space="preserve">
+    <value>求值的 Include</value>
+  </data>
+  <data name="BuiltInDisabled_Text" xml:space="preserve">
+    <value>内置(已禁用)</value>
+  </data>
+  <data name="Editable_SectionTitle" xml:space="preserve">
+    <value>可编辑</value>
+  </data>
+  <data name="Implementations_Text" xml:space="preserve">
+    <value>实现</value>
+  </data>
+  <data name="_NotYetImplemented_Text" xml:space="preserve">
+    <value>{0} (尚未实施)</value>
+  </data>
+  <data name="CustomToolsDataSettingDescription" xml:space="preserve">
+    <value>自定义工具数据</value>
+  </data>
+  <data name="_NotAvailable_Text" xml:space="preserve">
+    <value>{0}不可用</value>
+  </data>
+  <data name="Inheritors_Text" xml:space="preserve">
+    <value>继承者</value>
+  </data>
+  <data name="Project_HasMissingDependencies_Caption" xml:space="preserve">
+    <value>项目 '{0}' 具有缺少的依赖项</value>
+  </data>
+  <data name="Language_SectionTitle" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="CurrentMono__Text" xml:space="preserve">
+    <value>当前 Mono: {0}</value>
+  </data>
+  <data name="DownloadMonoPackage_Text" xml:space="preserve">
+    <value>下载 Mono 软件包…</value>
+  </data>
+  <data name="SourceGeneratorFolder_Text" xml:space="preserve">
+    <value>源生成器</value>
+  </data>
+  <data name="PropertyName_ColumnName" xml:space="preserve">
+    <value>属性名称</value>
+  </data>
+  <data name="EcmaScriptDeployPropertiesTab_Text" xml:space="preserve">
+    <value>部署</value>
+  </data>
+  <data name="EvaluatedPropertyValue_ColumnName" xml:space="preserve">
+    <value>评估的属性值</value>
+  </data>
+  <data name="Library_Text" xml:space="preserve">
+    <value>库</value>
+  </data>
+  <data name="AttributeName_Highlighter_Display_Name" xml:space="preserve">
+    <value>ASPX//特性名称</value>
+  </data>
+  <data name="DirectiveName_Highlighter_Display_Name" xml:space="preserve">
+    <value>ASPX//指令名称</value>
+  </data>
+  <data name="ExternalTool__Text" xml:space="preserve">
+    <value>外部工具: '{0}'</value>
+  </data>
+  <data name="CustomTool_Text" xml:space="preserve">
+    <value>自定义工具</value>
+  </data>
+  <data name="RequireLicenseAcceptance_CheckBox_Caption" xml:space="preserve">
+    <value>需要接受许可证</value>
+  </data>
+  <data name="AssemblyFileVersion_TextBox_Caption" xml:space="preserve">
+    <value>程序集文件版本</value>
+  </data>
+  <data name="CodeInsightsSettingDescription" xml:space="preserve">
+    <value>代码洞察</value>
+  </data>
+  <data name="ConsoleApplication_Text" xml:space="preserve">
+    <value>控制台应用程序</value>
+  </data>
+  <data name="CreateSolutionConfigurations_Text" xml:space="preserve">
+    <value>创建解决方案配置</value>
+  </data>
+  <data name="ApplicationIcon_IconTitle" xml:space="preserve">
+    <value>应用程序图标</value>
+  </data>
+  <data name="ProjectsFolder_Text" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="Usages_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="Name_Caption" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="No_Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="Platform_SectionTitle" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="SyncToVisualStudioThemeSettingDescription" xml:space="preserve">
+    <value>同步到 Visual Studio 主题</value>
+  </data>
+  <data name="AvailableMacros_Text" xml:space="preserve">
+    <value>可用的宏：</value>
+  </data>
+  <data name="CustomToolNamespace_Text" xml:space="preserve">
+    <value>自定义工具命名空间</value>
+  </data>
+  <data name="Platform_Caption" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="ConfigureAwaitAnalysisMode_Caption" xml:space="preserve">
+    <value>ConfigureAwait 分析模式</value>
+  </data>
+  <data name="Extensions_Text" xml:space="preserve">
+    <value>扩展:</value>
+  </data>
+  <data name="BuildAction_Text" xml:space="preserve">
+    <value>构建操作</value>
+  </data>
+  <data name="StartupCommand_Property" xml:space="preserve">
+    <value>启动命令</value>
+  </data>
+  <data name="AllowUnsafeCode_CheckBox_Caption" xml:space="preserve">
+    <value>允许不安全的代码</value>
+  </data>
+  <data name="RiderOptionPageTitle" xml:space="preserve">
+    <value>Rider</value>
+  </data>
+  <data name="IconURL_TextBox_Caption" xml:space="preserve">
+    <value>图标 URL</value>
+  </data>
+  <data name="Title_TextBox_Caption" xml:space="preserve">
+    <value>标题</value>
+  </data>
+  <data name="Linked_Text" xml:space="preserve">
+    <value>已链接</value>
+  </data>
+  <data name="_OwnExtensionMethod_Text" xml:space="preserve">
+    <value>{0} 个自有扩展方法</value>
+  </data>
+  <data name="__Of__Text" xml:space="preserve">
+    <value> + {0} 个{1}，共 {2} 个</value>
+  </data>
+  <data name="DefineConstantsImplicit_Text" xml:space="preserve">
+    <value>定义常量(隐式)</value>
+  </data>
+  <data name="BuildEvents_Text" xml:space="preserve">
+    <value>构建事件</value>
+  </data>
+  <data name="ApplyingFileNestingRules_Text" xml:space="preserve">
+    <value>正在应用文件嵌套规则…</value>
+  </data>
+  <data name="MSBuildVersionIssue_Text" xml:space="preserve">
+    <value>MSBuild 版本问题</value>
+  </data>
+  <data name="Flatten_Text" xml:space="preserve">
+    <value>平展</value>
+  </data>
+  <data name="Localizable_Caption" xml:space="preserve">
+    <value>可本地化</value>
+  </data>
+  <data name="EditingPropertiesIsNotSupportedForThis_Text" xml:space="preserve">
+    <value>此条目不支持编辑属性</value>
+  </data>
+  <data name="Tags_TextBox_Caption" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="ConflictsWillAppear_Text" xml:space="preserve">
+    <value>将出现冲突:</value>
+  </data>
+  <data name="Optimistic_Text" xml:space="preserve">
+    <value>乐观</value>
+  </data>
+  <data name="Project_ContainsDuplicatedPackageReferences_Caption" xml:space="preserve">
+    <value>项目 {0} 包含重复的 PackageReferences</value>
+  </data>
+  <data name="_UsageOfBaseMethod_Text" xml:space="preserve">
+    <value> + {0} 个基方法的用法</value>
+  </data>
+  <data name="CopyIfNewer_Text" xml:space="preserve">
+    <value>如果较新则复制</value>
+  </data>
+  <data name="RepositoryType_TextBox_Caption" xml:space="preserve">
+    <value>仓库类型</value>
+  </data>
+  <data name="IndexSymbolEventsNotPersistedCountDescription" xml:space="preserve">
+    <value>Index Symbol Events Not Persisted Count</value>
+  </data>
+  <data name="InstallNETCoreToDevelopNETApplications_Text" xml:space="preserve">
+    <value>安装 .NET Core 以开发 .NET 应用程序…</value>
+  </data>
+  <data name="UnloadedProjectsSettingDescription" xml:space="preserve">
+    <value>卸载的项目</value>
+  </data>
+  <data name="ApplicationPropertiesTab_Text" xml:space="preserve">
+    <value>应用程序</value>
+  </data>
+  <data name="ExecuteCommand_Caption" xml:space="preserve">
+    <value>执行命令</value>
+  </data>
+  <data name="Remove__Text" xml:space="preserve">
+    <value>移除 '{0}'?</value>
+  </data>
+  <data name="In__Text" xml:space="preserve">
+    <value>({0} 中)</value>
+  </data>
+  <data name="LoadingSolution_Caption" xml:space="preserve">
+    <value>正在加载解决方案</value>
+  </data>
+  <data name="SolutionFolder_Text" xml:space="preserve">
+    <value>解决方案文件夹</value>
+  </data>
+  <data name="DebugSymbols_CheckBox_Caption" xml:space="preserve">
+    <value>调试符号</value>
+  </data>
+  <data name="Metadata_SectionTitle" xml:space="preserve">
+    <value>元数据</value>
+  </data>
+  <data name="Disable_Text" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="SignTheAssembly_CheckBox_Caption" xml:space="preserve">
+    <value>签署程序集</value>
+  </data>
+  <data name="GenerateANuGetPackageDuringTheBuild_CheckBox_Caption" xml:space="preserve">
+    <value>在构建期间生成 NuGet 软件包</value>
+  </data>
+  <data name="BuildCommandWorkingDirectory_Property" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="IndexEventsCountSettingsDescription" xml:space="preserve">
+    <value>Index Events Count Settings</value>
+  </data>
+  <data name="XMLDocumentation_SectionTitle" xml:space="preserve">
+    <value>XML 文档</value>
+  </data>
+  <data name="CodeCompletionObsoleteItemsSettingsSettingDescription" xml:space="preserve">
+    <value>代码补全过时条目设置</value>
+  </data>
+  <data name="ProductionQualityWarnings_Text" xml:space="preserve">
+    <value>3 - 生产质量警告</value>
+  </data>
+  <data name="SignificantWarnings_Text" xml:space="preserve">
+    <value>2 - 重大警告</value>
+  </data>
+  <data name="AssembliesFolder_Text" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="_HasFoundThatTheRefactoringHasSomeConflicts_Text" xml:space="preserve">
+    <value>{0} 发现重构与现有代码存在一些冲突。 </value>
+  </data>
+  <data name="DownloadAndInstall_DeveloperPack_Text" xml:space="preserve">
+    <value>下载并安装 {0} 开发者包…</value>
+  </data>
+  <data name="Derived_Text" xml:space="preserve">
+    <value>派生</value>
+  </data>
+  <data name="SelectDifferentMSBuildInRiderSettings_Text" xml:space="preserve">
+    <value>在 Rider 设置中选择其他 MSBuild…</value>
+  </data>
+  <data name="CodeAnalysis_SectionTitle" xml:space="preserve">
+    <value>代码分析</value>
+  </data>
+  <data name="InternalSymbolsOnly_Text" xml:space="preserve">
+    <value>仅内部符号</value>
+  </data>
+  <data name="AllWarnings_Text" xml:space="preserve">
+    <value>4 - 所有警告</value>
+  </data>
+  <data name="EnableNullabilityWarningsOnly_Text" xml:space="preserve">
+    <value>仅启用为 null 性警告</value>
+  </data>
+  <data name="PublicSign_CheckBox_Caption" xml:space="preserve">
+    <value>公开签名</value>
+  </data>
+  <data name="CopyLocal_CheckboxText" xml:space="preserve">
+    <value>复制本地</value>
+  </data>
+  <data name="AfterBuild_SectionTitle" xml:space="preserve">
+    <value>构建后</value>
+  </data>
+  <data name="WhatIsJetBrainsMSBuild_Text" xml:space="preserve">
+    <value>什么是 JetBrains MSBuild?</value>
+  </data>
+  <data name="BuildCommand_Property" xml:space="preserve">
+    <value>构建命令</value>
+  </data>
+  <data name="FollowingDuplicatedProjectReferences_Text" xml:space="preserve">
+    <value>找到以下重复的 ProjectReferences:
+
+{0}</value>
+  </data>
+  <data name="Pessimistic_Text" xml:space="preserve">
+    <value>悲观</value>
+  </data>
+  <data name="InvalidNETFrameworkInProject__Caption" xml:space="preserve">
+    <value>项目 '{0}' 中的 .NET Framework 无效</value>
+  </data>
+  <data name="ChangeTargetFramework_Text" xml:space="preserve">
+    <value>更改目标框架…</value>
+  </data>
+  <data name="ExposingAPI_m_Text" xml:space="preserve">
+    <value>公开 API</value>
+  </data>
+  <data name="DelaySign_CheckBox_Caption" xml:space="preserve">
+    <value>延迟签名</value>
+  </data>
+  <data name="MsBuild_Build_Time_Targets_Text" xml:space="preserve">
+    <value>构建时目标</value>
+  </data>
+  <data name="ShowMsBuildConnectionDiagnosticActionActionText" xml:space="preserve">
+    <value>显示 MsBuild 连接诊断操作</value>
+  </data>
+  <data name="BeforeBuild_SectionTitle" xml:space="preserve">
+    <value>构建前</value>
+  </data>
+  <data name="Assembly_TabTitleText" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="ReferenceHintPath_IsDifferentFromThe_Text" xml:space="preserve">
+    <value>引用 HintPath '{0}' 与 MsBuild 解析的实际引用位置 '{1}' 不同</value>
+  </data>
+  <data name="SemanticSymbolCacheEnabledDescription" xml:space="preserve">
+    <value>语义缓存符号计数</value>
+  </data>
+  <data name="CopyAlways_Text" xml:space="preserve">
+    <value>始终复制</value>
+  </data>
+  <data name="NETFrameworkNotInstalled_Text" xml:space="preserve">
+    <value>未安装 .NET Framework</value>
+  </data>
+  <data name="TargetFrameworkProfileClientCanBeUsed_Text" xml:space="preserve">
+    <value>目标框架配置文件 'Client' 只能与 .NET Framework v3.5 或 v4.0 一起使用。</value>
+  </data>
+  <data name="Aliases_ComboBoxText" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="TargetFramework_Text" xml:space="preserve">
+    <value>目标框架</value>
+  </data>
+  <data name="Override_Text" xml:space="preserve">
+    <value>override</value>
+  </data>
+  <data name="RdEditProjectPropertyTab_Properties_Caption" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="Resources_SectionTitile" xml:space="preserve">
+    <value>资源</value>
+  </data>
+  <data name="PlatformTarget_ComboBox_Caption" xml:space="preserve">
+    <value>平台目标</value>
+  </data>
+  <data name="PropertyIconUrlIsObsoleteUsePackage_Text" xml:space="preserve">
+    <value>属性图标 URL 已过时。请改用软件包图标。</value>
+  </data>
+  <data name="StartupCommandWorkingDirectory_Property" xml:space="preserve">
+    <value>工作目录</value>
+  </data>
+  <data name="TurnOffAllWarnings_Text" xml:space="preserve">
+    <value>0 - 关闭所有警告</value>
+  </data>
+  <data name="Files_Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="AnalyzersFolder_Text" xml:space="preserve">
+    <value>分析器</value>
+  </data>
+  <data name="CustomToolsOptionPageTitle" xml:space="preserve">
+    <value>自定义工具</value>
+  </data>
+  <data name="UnloadedProjectListSettingDescription" xml:space="preserve">
+    <value>卸载的项目列表</value>
+  </data>
+  <data name="On_Text" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="InstallMono_Text" xml:space="preserve">
+    <value>安装 Mono…</value>
+  </data>
+  <data name="RefactoringModification_Text" xml:space="preserve">
+    <value>重构修改</value>
+  </data>
+  <data name="PessimisticAnalyzeAllPossibleElements_ToolTip" xml:space="preserve">
+    <value>悲观: 分析所有可能的元素。乐观: 仅分析可本地化元素。</value>
+  </data>
+  <data name="_OwnUsage_Text" xml:space="preserve">
+    <value>{0} 个自有用法</value>
+  </data>
+  <data name="Company_TextBox_Caption" xml:space="preserve">
+    <value>公司</value>
+  </data>
+  <data name="AssemblyNeutralLanguage_ComboBox_Caption" xml:space="preserve">
+    <value>程序集非特定语言</value>
+  </data>
+  <data name="Overrides_Text" xml:space="preserve">
+    <value>重写</value>
+  </data>
+  <data name="SevereWarnings_Text" xml:space="preserve">
+    <value>1 - 严重警告</value>
+  </data>
+  <data name="ProjectLocation_Caption" xml:space="preserve">
+    <value>项目位置</value>
+  </data>
+  <data name="NETAndNETCoreSupportPolicy_Text" xml:space="preserve">
+    <value>.NET 和 .NET Core 支持政策</value>
+  </data>
+  <data name="ImportsFolder_Text" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="Inspections_Text" xml:space="preserve">
+    <value>检查</value>
+  </data>
+  <data name="ProjectFolder_Text" xml:space="preserve">
+    <value>项目文件夹</value>
+  </data>
+  <data name="UI_Text" xml:space="preserve">
+    <value>UI</value>
+  </data>
+  <data name="WarningLevel_ComboBox_Caption" xml:space="preserve">
+    <value>警告级别</value>
+  </data>
+  <data name="RecentURLsSettingDescription" xml:space="preserve">
+    <value>最近的 URL</value>
+  </data>
+  <data name="Notes_Caption" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ManageNETSDKForTheSolution_Text" xml:space="preserve">
+    <value>管理解决方案的 .NET SDK…</value>
+  </data>
+  <data name="BuiltIn_Text" xml:space="preserve">
+    <value>内置</value>
+  </data>
+  <data name="_ThisMayBeBecauseTheProjectIsUnloaded_Text" xml:space="preserve">
+    <value>[{0}] 这可能是因为项目已被卸载或者不是当前解决方案的一部分，因此请从命令行运行还原。否则，项目文件可能无效或缺少还原所需的目标。</value>
+  </data>
+  <data name="SqlCmdVariablesFolder_Text" xml:space="preserve">
+    <value>SQLCMD 变量</value>
+  </data>
+  <data name="ReferenceOutputAssembly_Caption" xml:space="preserve">
+    <value>引用输出程序集</value>
+  </data>
+  <data name="Off_Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Args_Text" xml:space="preserve">
+    <value>实参:</value>
+  </data>
+  <data name="Authors_TextBox_Caption" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="InstallXamarinSDK_Text" xml:space="preserve">
+    <value>安装 Xamarin SDK…</value>
+  </data>
+  <data name="ExtMethods_Text" xml:space="preserve">
+    <value>扩展方法</value>
+  </data>
+  <data name="ExposingAPI_Text" xml:space="preserve">
+    <value>公开 API</value>
+  </data>
+  <data name="Path_Text" xml:space="preserve">
+    <value>路径:</value>
+  </data>
+  <data name="SolutionWideAnalysisIsPaused_Text" xml:space="preserve">
+    <value>解决方案级分析已暂停</value>
+  </data>
+  <data name="Location_Caption" xml:space="preserve">
+    <value>地点</value>
+  </data>
+  <data name="ImportLocations__Text" xml:space="preserve">
+    <value>导入位置</value>
+  </data>
+  <data name="Folders_Text" xml:space="preserve">
+    <value>文件夹</value>
+  </data>
+  <data name="EnablesOrDisablesSolutionWideInspections_ToolTip" xml:space="preserve">
+    <value>启用或禁用解决方案级检查，例如未使用的非 private 方法</value>
+  </data>
+  <data name="CSharpLanguageLevel_ToolTip" xml:space="preserve">
+    <value>指定 Rider 应当用于代码分析的 C# 语言级别；不影响编译器、Roslyn 分析器和项目构建。</value>
+  </data>
+  <data name="WhatIsMSBuild_Text" xml:space="preserve">
+    <value>什么是 MSBuild?</value>
+  </data>
+  <data name="OpenDetailedLog_Text" xml:space="preserve">
+    <value>打开详细日志</value>
+  </data>
+  <data name="LicenseURL_TextBox_Caption" xml:space="preserve">
+    <value>许可证 URL</value>
+  </data>
+  <data name="ShowNAEntriesIfSWEAIsDisabledSettingDescription" xml:space="preserve">
+    <value>如果 SWEA 已禁用，则显示“不适用”条目</value>
+  </data>
+  <data name="CSharpLanguageLevel_Caption" xml:space="preserve">
+    <value>Rider 的语言级别重写</value>
+  </data>
+  <data name="BindingRedirects_SectionTitle" xml:space="preserve">
+    <value>绑定重定向</value>
+  </data>
+  <data name="ID_TextBox_Caption" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ThisErrorUsuallyOccursBecauseOfInvalid_Text" xml:space="preserve">
+    <value>此错误通常是由无效的 Mono 导致的。请尝试更新 Mono 运行时。</value>
+  </data>
+  <data name="UpdateNETSDK_Text" xml:space="preserve">
+    <value>更新 .NET SDK…</value>
+  </data>
+  <data name="TreatAllWarningsAsErrors_CheckBox_Caption" xml:space="preserve">
+    <value>将所有警告视为错误</value>
+  </data>
+  <data name="IfNETCoreIsInstalledInANonStandardLocation_Text" xml:space="preserve">
+    <value>如果 .NET Core 安装在非标准位置，请在设置中指定自定义 .NET CLI 执行路径。</value>
+  </data>
+  <data name="ApplePlatforms_Text" xml:space="preserve">
+    <value>Apple 平台</value>
+  </data>
+  <data name="StickyLinesSettingsDescription" xml:space="preserve">
+    <value>Sticky Lines Settings</value>
+  </data>
+  <data name="MSBuildCannotFindTargetFrameworkAssemblies_Text" xml:space="preserve">
+    <value>MSBuild 找不到 {0} 的 TargetFramework 程序集</value>
+  </data>
+  <data name="MsBuild_ItemType_Text" xml:space="preserve">
+    <value>条目类型</value>
+  </data>
+  <data name="SdkFolder_Text" xml:space="preserve">
+    <value>SDK</value>
+  </data>
+  <data name="BlockTag_Highlighter_Display_Name" xml:space="preserve">
+    <value>ASPX//块标记</value>
+  </data>
+  <data name="AlsoMSBuildPackageShouldBeInstalled_Text" xml:space="preserve">
+    <value>还应安装 MSBuild 软件包。</value>
+  </data>
+  <data name="None_Text" xml:space="preserve">
+    <value>(无)</value>
+  </data>
+  <data name="RootNamespace_Text" xml:space="preserve">
+    <value>根命名空间</value>
+  </data>
+  <data name="Full_Text" xml:space="preserve">
+    <value>完整</value>
+  </data>
+  <data name="ContextMenuActionGroupText" xml:space="preserve">
+    <value>上下文菜单</value>
+  </data>
+  <data name="AutoGenerateBindingRedirects_Caption" xml:space="preserve">
+    <value>自动生成绑定重定向</value>
+  </data>
+  <data name="Copyright_TextBox_Caption" xml:space="preserve">
+    <value>版权</value>
+  </data>
+  <data name="Enable_Text" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="CanTEditPropertiesForThisTypeOfProject_Text" xml:space="preserve">
+    <value>无法编辑此类型项目的属性</value>
+  </data>
+  <data name="SuppressWarnings_TextBox_Caption" xml:space="preserve">
+    <value>禁止警告</value>
+  </data>
+  <data name="Debug_SectionTitle" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="ReferencePaths_Text" xml:space="preserve">
+    <value>引用路径</value>
+  </data>
+  <data name="SolutionWideInspections_Caption" xml:space="preserve">
+    <value>解决方案级检查</value>
+  </data>
+  <data name="StickyLinesHighlightingGroup_Text" xml:space="preserve">
+    <value>粘性行高亮显示组</value>
+  </data>
+  <data name="SolutionName_Text" xml:space="preserve">
+    <value>解决方案名称</value>
+  </data>
+  <data name="EditingProjectDependenciesIsNotSupported_Text" xml:space="preserve">
+    <value>此条目不支持编辑项目依赖项</value>
+  </data>
+  <data name="Yes_Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Processing__Text" xml:space="preserve">
+    <value>正在处理{0}</value>
+  </data>
+  <data name="OutputType_ComboBox_Caption" xml:space="preserve">
+    <value>输出类型</value>
+  </data>
+  <data name="IDE_Text" xml:space="preserve">
+    <value>IDE</value>
+  </data>
+  <data name="DoNotCopy_Text" xml:space="preserve">
+    <value>不复制</value>
+  </data>
+  <data name="Reset_ActionLink_Text" xml:space="preserve">
+    <value>重置</value>
+  </data>
+  <data name="AssemblyVersion_TextBox_Caption" xml:space="preserve">
+    <value>程序集版本</value>
+  </data>
+  <data name="HideUnavailableMetrics_Text" xml:space="preserve">
+    <value>隐藏不可用的指标</value>
+  </data>
+  <data name="InternalActionsReSharper_Text" xml:space="preserve">
+    <value>内部操作(ReSharper)</value>
+  </data>
+  <data name="InstallNETCoreOrMonoToDevelopNETApplications_Text" xml:space="preserve">
+    <value>安装 .NET Core 或 Mono 以开发 .NET 应用程序…</value>
+  </data>
+  <data name="CheckForArithmeticOverflow_CheckBox_Caption" xml:space="preserve">
+    <value>检查算术溢出</value>
+  </data>
+  <data name="SemanticClassCacheEnabledDescription" xml:space="preserve">
+    <value>语义缓存类计数</value>
+  </data>
+  <data name="Usage_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="Target__Text" xml:space="preserve">
+    <value>目标: {0}</value>
+  </data>
+  <data name="DocumentationFile_Caption" xml:space="preserve">
+    <value>文档文件</value>
+  </data>
+  <data name="AttributeValue_Highlighter_Display_Name" xml:space="preserve">
+    <value>ASPX//特性值</value>
+  </data>
+  <data name="OnBuildSuccess_Text" xml:space="preserve">
+    <value>构建成功时</value>
+  </data>
+  <data name="AssemblyName_Text" xml:space="preserve">
+    <value>程序集名称</value>
+  </data>
+  <data name="ThemeSettingsSettingDescription" xml:space="preserve">
+    <value>主题设置</value>
+  </data>
+  <data name="Postprocessing_Text" xml:space="preserve">
+    <value>正在后处理…</value>
+  </data>
+  <data name="DebugType_ComboBox_Caption" xml:space="preserve">
+    <value>调试类型</value>
+  </data>
+  <data name="Description_TextBox_Caption" xml:space="preserve">
+    <value>描述</value>
+  </data>
+  <data name="RunCommand_ComboBox_Caption" xml:space="preserve">
+    <value>运行命令</value>
+  </data>
+  <data name="Usages_m_Text" xml:space="preserve">
+    <value>用法</value>
+  </data>
+  <data name="Rename__Text" xml:space="preserve">
+    <value>重命名 '{0}'</value>
+  </data>
+  <data name="RepositoryURL_TextBox_Caption" xml:space="preserve">
+    <value>仓库 URL</value>
+  </data>
+  <data name="CleanCommand_Property" xml:space="preserve">
+    <value>清理命令</value>
+  </data>
+  <data name="TargetFrameworkProfile_Text" xml:space="preserve">
+    <value>目标框架配置文件</value>
+  </data>
+  <data name="Items_Text" xml:space="preserve">
+    <value>条目</value>
+  </data>
+  <data name="DumpWildcardContainerActionText" xml:space="preserve">
+    <value>Dump wildcard container</value>
+  </data>
+  <data name="ToolsetAndBuild_Text" xml:space="preserve">
+    <value>工具包和构建</value>
+  </data>
+  <data name="WindowsApplication_Text" xml:space="preserve">
+    <value>Windows 应用程序</value>
+  </data>
+  <data name="PackagesFolder_Text" xml:space="preserve">
+    <value>软件包</value>
+  </data>
+  <data name="OnOutputUpdated_Text" xml:space="preserve">
+    <value>输出更新时</value>
+  </data>
+  <data name="ConflictsWereFound_Text" xml:space="preserve">
+    <value>发现冲突</value>
+  </data>
+  <data name="StickyLinesDisabledLanguagesDescription" xml:space="preserve">
+    <value>Languages Where Sticky Lines Are Disabled</value>
+  </data>
+  <data name="BuildOutputFolder_Property" xml:space="preserve">
+    <value>构建输出文件夹</value>
+  </data>
+  <data name="NETFramework_IsRequiredToLoadProject_Caption" xml:space="preserve">
+    <value>需要使用 .NET Framework {0} 才能加载项目 '{1}'，但尚未安装</value>
+  </data>
+  <data name="Properties_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="LanguageVersion_Text" xml:space="preserve">
+    <value>语言版本</value>
+  </data>
+  <data name="OutputPath_TextBox_Caption" xml:space="preserve">
+    <value>输出路径</value>
+  </data>
+  <data name="Configurations_Text" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="TheProjectCanBePackedIntoAPackage_CheckBox_Caption" xml:space="preserve">
+    <value>项目可以打包成一个软件包</value>
+  </data>
+  <data name="Implementation_Text" xml:space="preserve">
+    <value>实现</value>
+  </data>
+  <data name="ExposingAPIs_Text" xml:space="preserve">
+    <value>公开 API</value>
+  </data>
+  <data name="GroupByFile_Text" xml:space="preserve">
+    <value>按文件分组</value>
+  </data>
+  <data name="SemanticCacheSettingsDescription" xml:space="preserve">
+    <value>语义缓存设置</value>
+  </data>
+  <data name="Inheritor_Text" xml:space="preserve">
+    <value>继承者</value>
+  </data>
+  <data name="ExtensionMethods_Text" xml:space="preserve">
+    <value>扩展方法</value>
+  </data>
+  <data name="ReadMoreAboutNuGetMetadataProperties_Text" xml:space="preserve">
+    <value>阅读有关 NuGet 元数据属性的更多信息</value>
+  </data>
+  <data name="WebReferencesSettingsSettingDescription" xml:space="preserve">
+    <value>Web 引用设置</value>
+  </data>
+  <data name="LanguageLevelIsOverriddenByRiderSettings_ActionLink_Caption" xml:space="preserve">
+    <value>语言级别被 Rider 设置重写为 '{0}'</value>
+  </data>
+  <data name="OnlyNETFrameworkV35AndV40SupportsClient_Label_Text" xml:space="preserve">
+    <value>仅 .NET Framework v3.5 和 v4.0 支持 `Client` 配置文件</value>
+  </data>
+  <data name="DatabasesFolder_Text" xml:space="preserve">
+    <value>数据库</value>
+  </data>
+  <data name="IfAMonoRuntimeIsAvailableInANonStandard_Text" xml:space="preserve">
+    <value>如果在非标准位置提供 Mono 运行时，请在设置中指定自定义运行时位置。</value>
+  </data>
+  <data name="StickyLinesIsEnabledDescription" xml:space="preserve">
+    <value>Sticky Lines is enabled</value>
+  </data>
+  <data name="Note_Caption" xml:space="preserve">
+    <value>注释</value>
+  </data>
+  <data name="ProjectName_Caption" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+  <data name="CurrentFolder_Text" xml:space="preserve">
+    <value>当前文件夹</value>
+  </data>
+  <data name="EnablesOrDisablesLocalizationFeatures_ToolTip" xml:space="preserve">
+    <value>启用或禁用当前项目的本地化功能。默认情况下，如果项目中有一个或多个资源文件，Rider 仅高亮显示可本地化的条目。</value>
+  </data>
+  <data name="CurrentColorThemeSettingDescription" xml:space="preserve">
+    <value>当前颜色主题</value>
+  </data>
+  <data name="SolutionWideAnalysisIsOff_Text" xml:space="preserve">
+    <value>解决方案级分析已关闭</value>
+  </data>
+  <data name="_OwnExtensionMethods_Text" xml:space="preserve">
+    <value>{0} 个自有扩展方法</value>
+  </data>
+  <data name="Assembly_SectionTitle" xml:space="preserve">
+    <value>程序集</value>
+  </data>
+  <data name="DownloadJetBrainsMSBuildPackage_Text" xml:space="preserve">
+    <value>下载 JetBrains MSBuild 软件包</value>
+  </data>
+  <data name="CopyToOutputDirectory_Text" xml:space="preserve">
+    <value>复制到输出目录</value>
+  </data>
+  <data name="StrongNameKeyFile_Caption" xml:space="preserve">
+    <value>强名称密钥文件</value>
+  </data>
+  <data name="TreatTheseWarningsAsErrors_TextBox_Caption" xml:space="preserve">
+    <value>将这些警告视为错误</value>
+  </data>
+  <data name="ExtMethod_Text" xml:space="preserve">
+    <value>扩展方法</value>
+  </data>
+  <data name="Generate_Caption" xml:space="preserve">
+    <value>生成</value>
+  </data>
+  <data name="OptimizeCode_CheckBox_Caption" xml:space="preserve">
+    <value>优化代码</value>
+  </data>
+  <data name="EditSolutionConfigurations_Text" xml:space="preserve">
+    <value>编辑解决方案配置</value>
+  </data>
+  <data name="Embedded_Text" xml:space="preserve">
+    <value>嵌入式</value>
+  </data>
+  <data name="FullName_Caption" xml:space="preserve">
+    <value>全名</value>
+  </data>
+  <data name="ReleaseNotes_TextBox_Caption" xml:space="preserve">
+    <value>版本说明</value>
+  </data>
+  <data name="RemoveCustomTool_Caption" xml:space="preserve">
+    <value>移除自定义工具</value>
+  </data>
+  <data name="MSBuild150IsRequiredToLoadProject_NCurrent_Text" xml:space="preserve">
+    <value>需要使用 MSBuild 15.0+ 才能加载项目 '{0}'。
+当前 MSBuild {1} '{2}'。</value>
+  </data>
+  <data name="CustomToolsSettingsSettingDescription" xml:space="preserve">
+    <value>自定义工具设置</value>
+  </data>
+  <data name="AnyCPU32BitPreferred_CheckBox_Caption" xml:space="preserve">
+    <value>首选任何 32 位 CPU</value>
+  </data>
+  <data name="Task__Text" xml:space="preserve">
+    <value>任务: {0}</value>
+  </data>
+  <data name="Different_Text" xml:space="preserve">
+    <value>不同</value>
+  </data>
+  <data name="NoteThatMonoInstalledFromHomebrewIs_Text" xml:space="preserve">
+    <value>请注意，不支持从 Homebrew 安装的 Mono。</value>
+  </data>
+  <data name="_UsagesOfBaseMethods_Text" xml:space="preserve">
+    <value> + {0} 个基方法的用法</value>
+  </data>
+  <data name="Imports_Caption" xml:space="preserve">
+    <value>Import</value>
+  </data>
+  <data name="CustomTools_Text" xml:space="preserve">
+    <value>自定义工具:</value>
+  </data>
+  <data name="SpecifyNETCLIPathInRiderSettings_Text" xml:space="preserve">
+    <value>在 Rider 设置中指定 .NET CLI 路径…</value>
+  </data>
+  <data name="DocumentsModification_Text" xml:space="preserve">
+    <value>文档修改</value>
+  </data>
+  <data name="Module_Text" xml:space="preserve">
+    <value>模块</value>
+  </data>
+  <data name="Always_Text" xml:space="preserve">
+    <value>始终</value>
+  </data>
+  <data name="UseWindowChromeForTheMainWindowSettingDescription" xml:space="preserve">
+    <value>为主窗口使用窗口镶边</value>
+  </data>
+  <data name="UnpauseSolutionWideAnalysis_Text" xml:space="preserve">
+    <value>取消暂停解决方案级分析</value>
+  </data>
+  <data name="Missing_Text" xml:space="preserve">
+    <value>缺少</value>
+  </data>
+  <data name="PackageIcon_Caption" xml:space="preserve">
+    <value>软件包图标</value>
+  </data>
+  <data name="ProjectName_Text" xml:space="preserve">
+    <value>项目名称</value>
+  </data>
+  <data name="EcmaScriptBuildPropertiesTab_Text" xml:space="preserve">
+    <value>构建</value>
+  </data>
+  <data name="ResetLanguageLevelSettingsActionText" xml:space="preserve">
+    <value>重置语言级别设置</value>
+  </data>
+  <data name="LocalizableInspector_Caption" xml:space="preserve">
+    <value>可本地化检查器</value>
+  </data>
+  <data name="NamespaceProvider_Text" xml:space="preserve">
+    <value>命名空间提供程序</value>
+  </data>
+  <data name="ClassLibrary_Text" xml:space="preserve">
+    <value>类库</value>
+  </data>
+  <data name="CacheProcessing_Text" xml:space="preserve">
+    <value>缓存处理中</value>
+  </data>
+  <data name="UpdatingSolution_Caption" xml:space="preserve">
+    <value>正在更新解决方案</value>
+  </data>
+  <data name="None_ComboBoxValue" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Default_Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="SetOfDisabledProvidersSettingDescription" xml:space="preserve">
+    <value>禁用的提供程序集合</value>
+  </data>
+  <data name="CanTExecute_RNTheSourceCodeHasBeenModified_Text" xml:space="preserve">
+    <value>无法执行 '{0}'。
+源代码已被修改。</value>
+  </data>
+  <data name="TurnSolutionWideAnalysisON_Text" xml:space="preserve">
+    <value>开启解决方案级分析</value>
+  </data>
+  <data name="Diagnostic_Text" xml:space="preserve">
+    <value>诊断</value>
+  </data>
+  <data name="InstallNETSDK_Text" xml:space="preserve">
+    <value>安装 .NET SDK…</value>
+  </data>
+</root>

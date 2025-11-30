@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AsmParserError_ExpectedRBracket" xml:space="preserve">
+  <value>Ожидается ']'</value>
+</data>
+<data name="AsmMemoryAccessError_InvalidCombinationOfRegisters" xml:space="preserve">
+  <value>Недопустимая комбинация регистров в адресе памяти</value>
+</data>
+<data name="AsmOperandSizeError_OperandSizeGreaterThanProcessorModeOfStatement" xml:space="preserve">
+  <value>Размер операнда не может быть {1}-битным в {0}-битном режиме</value>
+</data>
+<data name="AsmHighlighterPresentableName_SingleLineComment" xml:space="preserve">
+  <value>Ассемблер//Однострочный комментарий</value>
+</data>
+<data name="AsmCharsProvider_Setting_CompleteOnSpace" xml:space="preserve">
+  <value>Завершать при нажатии пробела</value>
+</data>
+<data name="AsmExprCalculationError_InvalidRegister" xml:space="preserve">
+  <value>В обращении к памяти можно использовать только регистры общего назначения</value>
+</data>
+<data name="AsmOperandSizeDeadCode_RedundantSizeSpecification" xml:space="preserve">
+  <value>Избыточное указание размера</value>
+</data>
+<data name="AsmOperandSizeWarning_OverflowInImmediateValue" xml:space="preserve">
+  <value>Переполнение при преобразовании в {0}-битное значение</value>
+</data>
+<data name="AsmCharsProvider_Setting_TabAction" xml:space="preserve">
+  <value>Действие клавиши Tab</value>
+</data>
+<data name="AsmExprCalculationError_ImpossibleValueForCalculation" xml:space="preserve">
+  <value>Невозможно вычислить значение LONG_MIN {0} -1</value>
+</data>
+<data name="AsmParserError_ExpectedNumericLiteral" xml:space="preserve">
+  <value>Ожидается числовой литерал</value>
+</data>
+<data name="AsmInvalidCombinationOfArgumentsError_Text" xml:space="preserve">
+  <value>Инструкция '{0}' не допускает комбинации операндов ({1})</value>
+</data>
+<data name="AsmOperandSizeError_InvalidSizeKeywordInMemoryAccess" xml:space="preserve">
+  <value>Недопустимое ключевое слово размера в обращении к памяти</value>
+</data>
+<data name="AsmOperandSizeError_OperandSizeCanNotBeDerivedFromOperands" xml:space="preserve">
+  <value>Размер операнда инструкции не указан и не может быть выведен из операндов</value>
+</data>
+<data name="AsmFirstArgumentMustBeRegisterError_Text" xml:space="preserve">
+  <value>Первый операнд инструкции '{0}' должен быть регистром</value>
+</data>
+<data name="AsmExprCalculationError_InvalidNumberBinary" xml:space="preserve">
+  <value>Недопустимый символ в двоичном числе</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Directive" xml:space="preserve">
+  <value>Директива</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_123Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 1, 2 или 3 операнда, но предоставлено {1}</value>
+</data>
+<data name="AsmHighlighterPresentableName_Label" xml:space="preserve">
+  <value>Ассемблер//Метка//Метка</value>
+</data>
+<data name="AsmHighlighterPresentableName_UnresolvedIdentifier" xml:space="preserve">
+  <value>Ассемблер//Нераспознанный идентификатор</value>
+</data>
+<data name="AsmExprCalculationWarning_InvalidStringLiteral" xml:space="preserve">
+  <value>В строковом литерале присутствуют не-ASCII символы</value>
+</data>
+<data name="AsmParserError_ExpectedNewLine" xml:space="preserve">
+  <value>Ожидается новая строка</value>
+</data>
+<data name="AsmInstructionMovzxDoesntAllowExtension32To64Error_Text" xml:space="preserve">
+  <value>Инструкция 'movzx' не допускает расширение с 32 до 64 бит</value>
+</data>
+<data name="AsmInstructionMovsxdRequires32BitSourceError_Text" xml:space="preserve">
+  <value>Инструкция 'movsxd' требует 32-битный исходный операнд</value>
+</data>
+<data name="AsmPtrKeywordNotAllowedError_MemoryAccessesMustHaveNoPtrKeyword" xml:space="preserve">
+  <value>Ключевое слово 'ptr' не допускается в обращении к памяти</value>
+</data>
+<data name="AsmHighlighterPresentableName_Instruction" xml:space="preserve">
+  <value>Ассемблер//Инструкция//Инструкция</value>
+</data>
+<data name="AsmHighlighterPresentableName_Variable" xml:space="preserve">
+  <value>Ассемблер//Метка//Переменная</value>
+</data>
+<data name="AsmOperandSizeError_DifferentOperandSizesOfOperands" xml:space="preserve">
+  <value>На основе предыдущих операндов, размер операнда должен быть {0} бит</value>
+</data>
+<data name="AsmHighlighterPresentableName_DataPseudoInstruction" xml:space="preserve">
+  <value>Ассемблер//Инструкция//Псевдоинструкция данных</value>
+</data>
+<data name="AsmParserError_ExpectedLPar" xml:space="preserve">
+  <value>Ожидается '('</value>
+</data>
+<data name="AsmParserError_ExpectedRPar" xml:space="preserve">
+  <value>Ожидается ')'</value>
+</data>
+<data name="AsmParserError_ExpectedInstruction" xml:space="preserve">
+  <value>Ожидается инструкция</value>
+</data>
+<data name="AssemblerErrors_Text" xml:space="preserve">
+  <value>Ошибки ассемблера</value>
+</data>
+<data name="AsmInstructionMovsxdRequires64BitDestinationError_Text" xml:space="preserve">
+  <value>Инструкция 'movsxd' требует 64-битный целевой операнд</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_2Singular" xml:space="preserve">
+  <value>Инструкция '{0}' требует 2 операнда, но предоставлено {1}</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_AlAxEaxRegister" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром AL/AX/EAX</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_GprOrSegOrMem" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром, сегментным регистром или обращением к памяти</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_GprOrSegOrMemOrImm" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром, обращением к памяти или непосредственным значением</value>
+</data>
+<data name="AsmExprCalculationError_InvalidNumberDecimal" xml:space="preserve">
+  <value>Недопустимый символ в десятичном числе</value>
+</data>
+<data name="AsmHighlighterPresentableName_ConstantLabel" xml:space="preserve">
+  <value>Ассемблер//Метка//Константа</value>
+</data>
+<data name="AsmHighlighterPresentableName_SizeKeyword" xml:space="preserve">
+  <value>Ассемблер//Ключевое слово//Ключевое слово размера</value>
+</data>
+<data name="AsmLabelRedefinitionError_MultipleDefinitionsOfLabel" xml:space="preserve">
+  <value>Множественное определение метки '{0}'</value>
+</data>
+<data name="AsmProcessorModeError_InvalidProcessorModeDirective" xml:space="preserve">
+  <value>Допустимые режимы процессора: 16, 32 и 64, но предоставлен '{0}'</value>
+</data>
+<data name="AsmHighlighterPresentableName_Keyword" xml:space="preserve">
+  <value>Ассемблер//Ключевое слово//Ключевое слово</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_01Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 0 или 1 операнд, но предоставлено {1}</value>
+</data>
+<data name="AsmExprCalculationError_InvalidNumberOctal" xml:space="preserve">
+  <value>Недопустимый символ в восьмеричном числе</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_0Singular" xml:space="preserve">
+  <value>Инструкция '{0}' требует 0 операндов, но предоставлено {1}</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Register" xml:space="preserve">
+  <value>Регистр</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_0Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 0 операндов, но предоставлено {1}</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Constant" xml:space="preserve">
+  <value>Константа</value>
+</data>
+<data name="AsmInvalidCombinationOfArgumentsError_MemoryAccess" xml:space="preserve">
+  <value>Обращение к памяти</value>
+</data>
+<data name="AsmInvalidCombinationOfArgumentsError_GeneralRegister" xml:space="preserve">
+  <value>Регистр общего назначения</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_SizeSpecifier" xml:space="preserve">
+  <value>Спецификатор размера</value>
+</data>
+<data name="AsmOperandSizeWarning_SizeSpecificationWillBeIgnored" xml:space="preserve">
+  <value>Указание размера будет проигнорировано</value>
+</data>
+<data name="AsmRipRelativeAddressingPlacementError_MustBePlacedInMemoryAccess" xml:space="preserve">
+  <value>Спецификатор относительной адресации RIP должен располагаться в обращении к памяти</value>
+</data>
+<data name="AsmParserError_ExpectedInstructionOperand" xml:space="preserve">
+  <value>Ожидается операнд инструкции</value>
+</data>
+<data name="AsmHighlighterPresentableName_Number" xml:space="preserve">
+  <value>Ассемблер//Числовой литерал</value>
+</data>
+<data name="AsmOperandSizeError_InvalidSizeKeywordInMemoryAccessWithSpecification" xml:space="preserve">
+  <value>Недопустимое ключевое слово размера в обращении к памяти в {0}-битном режиме</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Instruction" xml:space="preserve">
+  <value>Инструкция</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_1Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 1 операнд, но предоставлено {1}</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_ClRegisterOrImm" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром CL или непосредственным значением</value>
+</data>
+<data name="AsmOperandSizeError_SizeOfRegistersInMemoryAccessGreaterThenProcessorModeOfStatement" xml:space="preserve">
+  <value>{0}-битный регистр не может использоваться в {1}-битном режиме</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Prefix" xml:space="preserve">
+  <value>Префикс</value>
+</data>
+<data name="AsmRipRelativeAddressingPlacementError_MustBePlacedInsideBrackets" xml:space="preserve">
+  <value>Спецификатор относительной адресации RIP должен располагаться внутри квадратных скобок</value>
+</data>
+<data name="AsmHighlighterPresentableName_Prefix" xml:space="preserve">
+  <value>Ассемблер//Инструкция//Префикс</value>
+</data>
+<data name="AsmParserError_ExpectedIdentifier" xml:space="preserve">
+  <value>Ожидается идентификатор</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_Gpr" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром общего назначения</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_Imm" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть непосредственным значением</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_Mem" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть обращением к памяти</value>
+</data>
+<data name="AsmInvalidCombinationOfArgumentsError_Immediate" xml:space="preserve">
+  <value>Непосредственное значение</value>
+</data>
+<data name="AsmExprCalculationWarning_NumericConstantIsTooLarge" xml:space="preserve">
+  <value>Числовая константа слишком велика</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_Label" xml:space="preserve">
+  <value>Метка</value>
+</data>
+<data name="AsmHighlighterPresentableName_String" xml:space="preserve">
+  <value>Ассемблер//Строковый литерал</value>
+</data>
+<data name="AsmInstructionRequiresDestinationLargerThanSourceError_Text" xml:space="preserve">
+  <value>Инструкция '{0}' требует, чтобы целевой операнд был больше исходного</value>
+</data>
+<data name="AsmHighlighterPresentableName_ConstantKeyword" xml:space="preserve">
+  <value>Ассемблер//Ключевое слово//Ключевое слово константы</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_2Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 2 операнда, но предоставлено {1}</value>
+</data>
+<data name="AsmInvalidCombinationOfArgumentsError_SegmentRegister" xml:space="preserve">
+  <value>Сегментный регистр</value>
+</data>
+<data name="AsmCharsProvider_Setting_NonCompletingCharacters" xml:space="preserve">
+  <value>Символы, не завершающие ввод</value>
+</data>
+<data name="AsmCharsProvider_Setting_EnterAction" xml:space="preserve">
+  <value>Действие клавиши Enter</value>
+</data>
+<data name="AsmParserError_ExpectedComma" xml:space="preserve">
+  <value>Ожидается ','</value>
+</data>
+<data name="AsmParserError_ExpectedColon" xml:space="preserve">
+  <value>Ожидается ':'</value>
+</data>
+<data name="AsmMemoryAccessError_InvalidFormOfMemoryAccess" xml:space="preserve">
+  <value>Адрес памяти должен иметь форму '[reg + N * reg + смещение]'</value>
+</data>
+<data name="AsmHighlighterPresentableName_EquPseudoInstruction" xml:space="preserve">
+  <value>Ассемблер//Инструкция//Псевдоинструкция Equ</value>
+</data>
+<data name="AsmMemoryAccessError_XSP_RegisterCanNotBeUsedInMemoryAccess" xml:space="preserve">
+  <value>Регистр '{0}' не может использоваться как индексный регистр в обращении к памяти</value>
+</data>
+<data name="Asm_Setting_Description" xml:space="preserve">
+  <value>ASM</value>
+</data>
+<data name="AsmHighlighterPresentableName_Directive" xml:space="preserve">
+  <value>Ассемблер//Инструкция//Директива</value>
+</data>
+<data name="AsmInvalidNumberOfOperandsError_12Plural" xml:space="preserve">
+  <value>Инструкция '{0}' требует 1 или 2 операнда, но предоставлено {1}</value>
+</data>
+<data name="AsmExprCalculationError_LeftHandSideOfConditionalExprMustBeConstantExpression" xml:space="preserve">
+  <value>Левая часть '?' должна быть константным выражением</value>
+</data>
+<data name="AsmDeclaredElement_PresentableName_LocalLabel" xml:space="preserve">
+  <value>Локальная метка</value>
+</data>
+<data name="AsmAutopopup_Setting_OnLabelDeclarationItemDescription" xml:space="preserve">
+  <value>При объявлении метки</value>
+</data>
+<data name="AsmAutopopup_Setting_OverrideVSIntelliSense" xml:space="preserve">
+  <value>Переопределить VS IntelliSense для ASM</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_DxRegisterOrImm" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром DX или непосредственным значением</value>
+</data>
+<data name="AsmExprCalculationError_DivisionByZero" xml:space="preserve">
+  <value>Деление на ноль</value>
+</data>
+<data name="AsmExprCalculationError_FloatingNumber" xml:space="preserve">
+  <value>Числа с плавающей точкой не допускаются в обращении к памяти</value>
+</data>
+<data name="AsmExprCalculationError_OperationCanBeUsedOnlyWithConstantExpressions" xml:space="preserve">
+  <value>Эта операция может использоваться только с константными выражениями</value>
+</data>
+<data name="AsmHighlighterPresentableName_Register" xml:space="preserve">
+  <value>Ассемблер//Регистр</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_GprOrMemOrImm" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром общего назначения, обращением к памяти или непосредственным значением</value>
+</data>
+<data name="AsmArgumentIsSupposedToBeError_GprOrMem" xml:space="preserve">
+  <value>{0} операнд инструкции '{1}' должен быть регистром общего назначения или обращением к памяти</value>
+</data>
+<data name="AsmExprCalculationError_InvalidNumberHexadecimal" xml:space="preserve">
+  <value>Недопустимый символ в шестнадцатеричном числе</value>
+</data>
+<data name="AsmAutopopup_Setting_OnIdentifierItemDescription" xml:space="preserve">
+  <value>Буквы и цифры</value>
+</data>
+<data name="AsmMemoryAccessError_InvalidFormOfMemoryAccessWithCalculatedExpr" xml:space="preserve">
+  <value>Адрес памяти должен иметь форму '[reg] + [{{1, 2, 4, 8}}*reg] + [смещение]', но предоставлен '{0}'</value>
+</data>
+<data name="AsmExprCalculationError_QuotationMarkExpected" xml:space="preserve">
+  <value>Ожидается '{0}' в конце строкового литерала</value>
+</data>
+</root>

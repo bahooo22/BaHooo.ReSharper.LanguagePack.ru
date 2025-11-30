@@ -1,0 +1,1854 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Field_Text" xml:space="preserve">
+    <value>字段</value>
+  </data>
+  <data name="BeforeNullableMarkSettingDescription" xml:space="preserve">
+    <value>可以为 null 的标记前</value>
+  </data>
+  <data name="ParserConditionalSymbolName_Text" xml:space="preserve">
+    <value>条件符号名称</value>
+  </data>
+  <data name="QualifyMembersDeclaredInSettingDescription" xml:space="preserve">
+    <value>将声明的成员限定在</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapAfterDotInMethodCalls_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在 '.' 后换行</value>
+  </data>
+  <data name="LocalFunctionsSettingDescription" xml:space="preserve">
+    <value>局部函数</value>
+  </data>
+  <data name="IndentBracesInsideStatementConditionsSettingDescription" xml:space="preserve">
+    <value>缩进语句条件内的大括号</value>
+  </data>
+  <data name="EntityFrameworkAnalysisSettingsDisabledDbContextsDescription" xml:space="preserve">
+    <value>将禁用 Entity Framework 查询检查的 DbContext 类的 FQN</value>
+  </data>
+  <data name="PlacePropertyExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将属性表达式主体置于同一行中</value>
+  </data>
+  <data name="RemoveUnusedOnlyUsingAliasesSettingDescription" xml:space="preserve">
+    <value>仅移除未使用的 'using' 别名</value>
+  </data>
+  <data name="WrapObjectAndCollectionInitializerSettingDescription" xml:space="preserve">
+    <value>将对象和集合初始值设定项换行</value>
+  </data>
+  <data name="UseUsingAliasDirectiveToResolveConflictsSettingDescription" xml:space="preserve">
+    <value>使用 using 别名指令解决冲突</value>
+  </data>
+  <data name="PlaceSimpleEnumerationOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单枚举置于单行中</value>
+  </data>
+  <data name="RecordStruct_Text" xml:space="preserve">
+    <value>记录结构</value>
+  </data>
+  <data name="ParserPropertyAssignmentSymbol_Text" xml:space="preserve">
+    <value>属性分配</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeComma_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在 ',' 前换行</value>
+  </data>
+  <data name="Type_DoesnTMatchExpectedType__Text" xml:space="preserve">
+    <value>类型 '{0}' 与预期类型 '{1}' 不匹配</value>
+  </data>
+  <data name="AroundDotSettingDescription" xml:space="preserve">
+    <value>点周围</value>
+  </data>
+  <data name="InAnonymousType_Text" xml:space="preserve">
+    <value>在匿名类型中</value>
+  </data>
+  <data name="AroundPropertyEventSettingDescription" xml:space="preserve">
+    <value>属性/事件周围</value>
+  </data>
+  <data name="Struct_Text" xml:space="preserve">
+    <value>struct</value>
+  </data>
+  <data name="ParserTypeDeclarationBodySymbol_Text" xml:space="preserve">
+    <value>类型声明主体</value>
+  </data>
+  <data name="CSharpPatternStyleSettingsSettingDescription" xml:space="preserve">
+    <value>C# 模式样式设置</value>
+  </data>
+  <data name="SettingsEntryDescription_ForceChopCompoundConditionInStatement" xml:space="preserve">
+    <value>在 '{0}' 语句中强制截断复合条件</value>
+  </data>
+  <data name="PlaceSimplePropertyPatternOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单属性模式置于单行中</value>
+  </data>
+  <data name="WhenCreatedTypeIsNotEvidentFromUsageSettingDescription" xml:space="preserve">
+    <value>在无法从用法明显看出创建的类型时</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Name_IgnoreCase_Text" xml:space="preserve">
+    <value>忽略大小写</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceSingleMethodArgumentLambdaOnTheSameLine_SettingsEntryDescription" xml:space="preserve">
+    <value>在方法调用中将单个 lambda 表达式实参放在与 '(' 相同的行上</value>
+  </data>
+  <data name="RemoveBraces_Description_Text" xml:space="preserve">
+    <value>移除大括号</value>
+  </data>
+  <data name="KeepExistingArrangementOfEnumerationSettingDescription" xml:space="preserve">
+    <value>保留枚举的现有排列</value>
+  </data>
+  <data name="WrapMultipleTypeParameterConstraintsSettingDescription" xml:space="preserve">
+    <value>将多类型形参约束换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceSimpleCaseStatementOnSameLine_SettingsEntryDescription" xml:space="preserve">
+    <value>将简单 'case' 语句置于同一行中</value>
+  </data>
+  <data name="ExtensionDeclarationWithNameError_Text" xml:space="preserve">
+    <value>扩展声明可能不具有名称</value>
+  </data>
+  <data name="EmptyBracesFormattingSettingDescription" xml:space="preserve">
+    <value>空大括号格式设置</value>
+  </data>
+  <data name="InitializerExpected_Text" xml:space="preserve">
+    <value>应为初始值设定项</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_RemoveBlankLinesNearBracesInCode_SettingsEntryDescription" xml:space="preserve">
+    <value>移除代码中 '{' 之后和 '}' 之前的空行</value>
+  </data>
+  <data name="PreferWrapBeforeTypeParametersOpeningAngleSettingDescription" xml:space="preserve">
+    <value>首选在类型形参列表的左尖括号前换行</value>
+  </data>
+  <data name="IndentPrimaryConstructorDeclarationsParenthesisSettingDescription" xml:space="preserve">
+    <value>缩进主构造函数声明的圆括号</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_ImplementsInterface_Immediate_Text" xml:space="preserve">
+    <value>立即</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Direction_Ascending_Text" xml:space="preserve">
+    <value>升序</value>
+  </data>
+  <data name="CNamespaceImportSettingDescription" xml:space="preserve">
+    <value>C# 命名空间导入</value>
+  </data>
+  <data name="AroundSingleLineFieldSettingDescription" xml:space="preserve">
+    <value>单行字段周围</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PreferToWrapBeforeFirstMethodCall_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在第一个方法调用前换行</value>
+  </data>
+  <data name="KeepExistingArrangementOfListPatternsSettingDescription" xml:space="preserve">
+    <value>保留列表模式和集合表达式的现有排列</value>
+  </data>
+  <data name="AllowTypeConstraintsOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>允许类型约束位于同一行</value>
+  </data>
+  <data name="AfterStatementsWithChildBlocksSettingDescription" xml:space="preserve">
+    <value>带子块的语句后</value>
+  </data>
+  <data name="IndentTypeConstraintsSettingDescription" xml:space="preserve">
+    <value>缩进类型约束</value>
+  </data>
+  <data name="AfterTypeParameterConstraintColonSettingDescription" xml:space="preserve">
+    <value>类型形参约束冒号后</value>
+  </data>
+  <data name="WithinArrayAccessBracketsSettingDescription" xml:space="preserve">
+    <value>数组访问中括号内</value>
+  </data>
+  <data name="ParserTypeDeclarationSymbol_Text" xml:space="preserve">
+    <value>类型声明</value>
+  </data>
+  <data name="ParserModifierSymbol_Text" xml:space="preserve">
+    <value>修饰符</value>
+  </data>
+  <data name="ModifiersOrderSettingDescription" xml:space="preserve">
+    <value>修饰符顺序</value>
+  </data>
+  <data name="PreferFullyQualifiedUsingNameAtNestedScopeSettingDescription" xml:space="preserve">
+    <value>首选在嵌套作用域内使用完全限定名称</value>
+  </data>
+  <data name="AllowConstructorInitializerOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>允许构造函数初始值设定项位于同一行</value>
+  </data>
+  <data name="AroundSingleLineLocalFunctionSettingDescription" xml:space="preserve">
+    <value>单行局部函数周围</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Strict_Text" xml:space="preserve">
+    <value>严格</value>
+  </data>
+  <data name="FileLayoutPatternSettingDescription" xml:space="preserve">
+    <value>文件布局模式</value>
+  </data>
+  <data name="Presenter_ITopLevelEntryPoint_Text" xml:space="preserve">
+    <value>&lt;top-level-entry-point&gt;</value>
+  </data>
+  <data name="KeepusingDirectivesOnOptimizationSettingDescription" xml:space="preserve">
+    <value>优化时保留 'using' 指令</value>
+  </data>
+  <data name="AnonymousFunction_Text" xml:space="preserve">
+    <value>匿名函数</value>
+  </data>
+  <data name="BeforeEndOfLineCommentTextSettingDescription" xml:space="preserve">
+    <value>在注释中的 '//' 后加空格</value>
+  </data>
+  <data name="AssignmentOperatorsSettingDescription" xml:space="preserve">
+    <value>赋值运算符(如 '=' 和 '+=')</value>
+  </data>
+  <data name="UseContinuousLineIndentInsideParenthesisSettingDescription" xml:space="preserve">
+    <value>在圆括号内使用连续行缩进</value>
+  </data>
+  <data name="PropertiesIndexersAndEventsSettingDescription" xml:space="preserve">
+    <value>属性、索引器和事件</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_All_Text" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="AlwaysIfMultiLine" xml:space="preserve">
+    <value>多行时始终</value>
+  </data>
+  <data name="AddusingDirectivesOnOptimizationSettingDescription" xml:space="preserve">
+    <value>优化时添加 'using' 指令</value>
+  </data>
+  <data name="Class_Text" xml:space="preserve">
+    <value>class</value>
+  </data>
+  <data name="DefaultLayoutWithoutRegions_Description_Text" xml:space="preserve">
+    <value>不带区域的默认布局</value>
+  </data>
+  <data name="OutdentBinaryOperatorsSettingDescription" xml:space="preserve">
+    <value>减少缩进二元运算符</value>
+  </data>
+  <data name="NestedTernaryExpressionStyleSettingDescription" xml:space="preserve">
+    <value>嵌套三元表达式样式</value>
+  </data>
+  <data name="EqualityOperatorsSettingDescription" xml:space="preserve">
+    <value>相等运算符 (==,!=)</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapForStmtHeaderStyle_SettingsEntryDescription" xml:space="preserve">
+    <value>换行 'for' 语句头</value>
+  </data>
+  <data name="ParserValidOperatorSignSymbol_Text" xml:space="preserve">
+    <value>有效的运算符符号</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Is_Text" xml:space="preserve">
+    <value>为</value>
+  </data>
+  <data name="FieldsAndConstantsSettingDescription" xml:space="preserve">
+    <value>字段和常量</value>
+  </data>
+  <data name="TypeDoesNotMatchExpectedTypeMessage" xml:space="preserve">
+    <value>类型 '{0}' 与预期类型 '{1}' 不匹配</value>
+  </data>
+  <data name="IndentIfElseElifEndifSettingDescription" xml:space="preserve">
+    <value>缩进 #if、#else、#elif、#endif</value>
+  </data>
+  <data name="RemoveTrailingCommaToConformToCodeStyle_Text" xml:space="preserve">
+    <value>移除尾随逗号以符合代码样式</value>
+  </data>
+  <data name="IndentInsideNamespaceDeclarationSettingDescription" xml:space="preserve">
+    <value>在命名空间声明中缩进</value>
+  </data>
+  <data name="ParserAttributeSectionSymbol_Text" xml:space="preserve">
+    <value>特性部分</value>
+  </data>
+  <data name="WithinListPatternBracketsSettingDescription" xml:space="preserve">
+    <value>在列表模式和集合表达式中括号内</value>
+  </data>
+  <data name="OtherAssignmentsAndInitializersSettingDescription" xml:space="preserve">
+    <value>其他赋值和初始值设定项</value>
+  </data>
+  <data name="WrapPropertyPatternSettingDescription" xml:space="preserve">
+    <value>将属性模式换行</value>
+  </data>
+  <data name="EmptyRecursivePattern_Text" xml:space="preserve">
+    <value>'{ }' 模式</value>
+  </data>
+  <data name="MembersToQualifySettingDescription" xml:space="preserve">
+    <value>要限定的成员</value>
+  </data>
+  <data name="MaxPrimaryConstructorParametersOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行上的最大主构造函数形参</value>
+  </data>
+  <data name="MultiplicativeOperatorsSettingDescription" xml:space="preserve">
+    <value>乘法运算符 (*,/,%)</value>
+  </data>
+  <data name="BeforeTypeArgumentListAngleSettingDescription" xml:space="preserve">
+    <value>类型实参列表的左尖括号前</value>
+  </data>
+  <data name="ParenthesesSettingDescription" xml:space="preserve">
+    <value>括号</value>
+  </data>
+  <data name="WithinArrayRankEmptyBracketsSettingDescription" xml:space="preserve">
+    <value>数组秩空中括号内</value>
+  </data>
+  <data name="ParserTypeParameterConstraintSymbol_Text" xml:space="preserve">
+    <value>类型形参约束</value>
+  </data>
+  <data name="EntityFrameworkModelAnalysis_Settings_Enabled_Description" xml:space="preserve">
+    <value>是否启用 Entity Framework 模型特定分析及相关功能</value>
+  </data>
+  <data name="Record_PresentableName_Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="TupleComponent_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+    <value>应移除元组组件 '{0}' 以匹配预期类型</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Direction_Text" xml:space="preserve">
+    <value>排序方向</value>
+  </data>
+  <data name="Constructor_Text" xml:space="preserve">
+    <value>构造函数</value>
+  </data>
+  <data name="PreferWrapBeforeOperatorInBinaryPatternSettingDescription" xml:space="preserve">
+    <value>首选在二元模式中的运算符前换行</value>
+  </data>
+  <data name="AroundSingleLinePropertyEventSettingDescription" xml:space="preserve">
+    <value>单行属性/事件周围</value>
+  </data>
+  <data name="CaseBlockBracesSettingDescription" xml:space="preserve">
+    <value>'case' 标签下的块</value>
+  </data>
+  <data name="ParserUsageOfTypeSymbol_Text" xml:space="preserve">
+    <value>类型用法</value>
+  </data>
+  <data name="GeneratorModeSettingDescription" xml:space="preserve">
+    <value>生成器模式</value>
+  </data>
+  <data name="CatchVariable_PresentableName_Text" xml:space="preserve">
+    <value>捕获变量</value>
+  </data>
+  <data name="WrapSwitchExpressionSettingDescription" xml:space="preserve">
+    <value>将 switch 表达式换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PreferToWrapAfterPropertiesAndFields_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在链式方法调用中的属性和字段后换行</value>
+  </data>
+  <data name="BinaryPatternsSettingDescription" xml:space="preserve">
+    <value>二元模式</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Priority_Text" xml:space="preserve">
+    <value>优先级</value>
+  </data>
+  <data name="ParserLambdaSignatureSymbol_Text" xml:space="preserve">
+    <value>lambda 签名</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_ParameterName_Text" xml:space="preserve">
+    <value>形参名称</value>
+  </data>
+  <data name="PreferWrapBeforeFirstConstraintSettingDescription" xml:space="preserve">
+    <value>首选在第一个约束前换行</value>
+  </data>
+  <data name="KeepMaxBlankLinesInCodeSettingDescription" xml:space="preserve">
+    <value>保留代码中的最大空行</value>
+  </data>
+  <data name="WhenTheOperationsFromTheFollowingGroupsAreNestedSettingDescription" xml:space="preserve">
+    <value>当来自以下组的运算嵌套时</value>
+  </data>
+  <data name="ParserUnexpectedToken_Text" xml:space="preserve">
+    <value>非预期令牌</value>
+  </data>
+  <data name="UseNotNullPattern_Text" xml:space="preserve">
+    <value>使用 'not null' 模式</value>
+  </data>
+  <data name="Type_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="PatternIsMissing_Text" xml:space="preserve">
+    <value>缺少模式</value>
+  </data>
+  <data name="ParserPatternSymbol_Text" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="TypeParametersListSettingDescription" xml:space="preserve">
+    <value>类型形参列表</value>
+  </data>
+  <data name="UseExplicitDiscardDeclaration_Text" xml:space="preserve">
+    <value>使用显式弃元声明</value>
+  </data>
+  <data name="ParserInterpolationStringExpressionSymbol_Text" xml:space="preserve">
+    <value>内插字符串表达式</value>
+  </data>
+  <data name="PlaceAbstractAutoPropertyIndexerEventDeclarationOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将 abstract/auto 属性/索引器/事件声明置于单行中</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Unrestricted_Text" xml:space="preserve">
+    <value>无限制</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SpaceBeforeForSemicolon_SettingsEntryDescription" xml:space="preserve">
+    <value>'for' 分号之前</value>
+  </data>
+  <data name="MultipleDeclarationsSettingDescription" xml:space="preserve">
+    <value>多个声明</value>
+  </data>
+  <data name="CIndenting_Text" xml:space="preserve">
+    <value>C# 缩进</value>
+  </data>
+  <data name="MaxFormalParametersOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大形参数</value>
+  </data>
+  <data name="KeepExistingArrangementOfExpressionBodiedMembersSettingDescription" xml:space="preserve">
+    <value>保留表达式主体成员的现有排列</value>
+  </data>
+  <data name="InconsistentBodyStyleUseStatementBody_Text" xml:space="preserve">
+    <value>代码主体不符合代码样式设置: 请使用语句体</value>
+  </data>
+  <data name="StatementConditionsInsideParenthesisSettingDescription" xml:space="preserve">
+    <value>圆括号内的语句条件</value>
+  </data>
+  <data name="CMemberOrderPatternSettingDescription" xml:space="preserve">
+    <value>C# 成员顺序模式</value>
+  </data>
+  <data name="Property_Text" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="KeepNonTrivialUsingAliasesSettingDescription" xml:space="preserve">
+    <value>如果与符号名称不同，则保留 'using' 别名</value>
+  </data>
+  <data name="OutdentDotsInChainedMethodCallsSettingDescription" xml:space="preserve">
+    <value>减少缩进链式方法调用中的点</value>
+  </data>
+  <data name="TupleElementName_DoesnTMatchExpected_Text" xml:space="preserve">
+    <value>元组元素名称 '{0}' 与预期名称 '{1}' 不匹配</value>
+  </data>
+  <data name="KeepExistingArrangementOfInitializersSettingDescription" xml:space="preserve">
+    <value>保留初始值设定项的现有排列</value>
+  </data>
+  <data name="WrapLINQExpressionsSettingDescription" xml:space="preserve">
+    <value>将 LINQ 表达式换行</value>
+  </data>
+  <data name="ParserExpressionBodyClauseSymbol_Text" xml:space="preserve">
+    <value>表达式主体子句</value>
+  </data>
+  <data name="BeforeSingleLineCommentSettingDescription" xml:space="preserve">
+    <value>单行注释前</value>
+  </data>
+  <data name="PlaceSimpleAccessorOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单访问器置于单行中</value>
+  </data>
+  <data name="IndentOtherPreprocessorDirectivesSettingDescription" xml:space="preserve">
+    <value>缩进其他预处理程序指令</value>
+  </data>
+  <data name="PlaceSimpleListPatternOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单列表模式和集合表达式置于单行中</value>
+  </data>
+  <data name="SettingsEntryDescription_BracesInStatement" xml:space="preserve">
+    <value>'{0}' 语句中的大括号</value>
+  </data>
+  <data name="DontIndentCommentsStartedAtFirstColumnSettingDescription" xml:space="preserve">
+    <value>不缩进从第一列开始的注释</value>
+  </data>
+  <data name="SyntaxStyleInCSettingDescription" xml:space="preserve">
+    <value>C# 中的语法样式</value>
+  </data>
+  <data name="IncorrectPrimaryExpression_Text" xml:space="preserve">
+    <value>不正确的主表达式</value>
+  </data>
+  <data name="AroundSingleLinePropertyEventAccessorSettingDescription" xml:space="preserve">
+    <value>单行属性/事件访问器周围</value>
+  </data>
+  <data name="AddusingDirectiveToDeepestScopeSettingDescription" xml:space="preserve">
+    <value>将 'using' 指令添加到最深的作用域</value>
+  </data>
+  <data name="Event_Text" xml:space="preserve">
+    <value>event</value>
+  </data>
+  <data name="QualifyWithTheNameOfSettingDescription" xml:space="preserve">
+    <value>使用以下类型的名称限定:</value>
+  </data>
+  <data name="KeepExistingArrangementOfParenthesisInInvocationSettingDescription" xml:space="preserve">
+    <value>保留调用中圆括号的现有排列</value>
+  </data>
+  <data name="MethodCallParenthesesSettingDescription" xml:space="preserve">
+    <value>方法调用圆括号</value>
+  </data>
+  <data name="SettingsEntry_Description_InStatement" xml:space="preserve">
+    <value>在 '{0}' 语句中</value>
+  </data>
+  <data name="KeepExistingLineBreaksSettingDescription" xml:space="preserve">
+    <value>保留现有换行符</value>
+  </data>
+  <data name="UsePositionalDeconstructionPattern_Text" xml:space="preserve">
+    <value>使用位置析构模式</value>
+  </data>
+  <data name="ParserExpectedTwoSymbols_Text" xml:space="preserve">
+    <value>应为 {0} 或 {1}</value>
+  </data>
+  <data name="PlaceSimplePropertyIndexerEventDeclarationOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单属性/索引器/事件声明置于单行中</value>
+  </data>
+  <data name="AnonymousMethodsDelegatesAndLambdasSettingDescription" xml:space="preserve">
+    <value>匿名方法(委托和 lambda)</value>
+  </data>
+  <data name="UseBracesForMultiline_Description_Text" xml:space="preserve">
+    <value>为多行使用大括号</value>
+  </data>
+  <data name="PlaceAttributeSectionListOnSeparateLineIfItIsLongerThanSettingDescription" xml:space="preserve">
+    <value>长度大于此值时将特性部分列表置于单独的行中</value>
+  </data>
+  <data name="AroundFieldSettingDescription" xml:space="preserve">
+    <value>字段周围</value>
+  </data>
+  <data name="IndentToPreviousLine_Text" xml:space="preserve">
+    <value>缩进到上一行</value>
+  </data>
+  <data name="KeepExistingAttributePlacementSettingDescription" xml:space="preserve">
+    <value>保留现有特性位置</value>
+  </data>
+  <data name="AsyncTaskMethod_PresentableName_Text" xml:space="preserve">
+    <value>返回任务的方法(非 'async')</value>
+  </data>
+  <data name="Namespace_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="BeforeOtherColonsSettingDescription" xml:space="preserve">
+    <value>其他冒号前</value>
+  </data>
+  <data name="AfterOtherColonsSettingDescription" xml:space="preserve">
+    <value>其他冒号后</value>
+  </data>
+  <data name="ParserExpressionSymbol_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="TypeCastParenthesesSettingDescription" xml:space="preserve">
+    <value>类型转换圆括号</value>
+  </data>
+  <data name="RangeVariable_Text" xml:space="preserve">
+    <value>范围变量</value>
+  </data>
+  <data name="CheckedOperator_Text" xml:space="preserve">
+    <value>checked 运算符</value>
+  </data>
+  <data name="SettingsEntryDescription_Parentheses" xml:space="preserve">
+    <value>'{0}' 圆括号</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_TreatCaseStatementWithBreakAsSimple_SettingsEntryDescription" xml:space="preserve">
+    <value>将带有 'break' 的 'case' 语句视为简单</value>
+  </data>
+  <data name="BeforeStatementsWithChildBlocksSettingDescription" xml:space="preserve">
+    <value>带子块的语句前</value>
+  </data>
+  <data name="AccessorDeclarationSettingDescription" xml:space="preserve">
+    <value>访问器声明</value>
+  </data>
+  <data name="TupleComponentShouldBeRemovedInOrder_Text" xml:space="preserve">
+    <value>应移除元组组件{0}以匹配预期类型</value>
+  </data>
+  <data name="OutdentBinaryPatternsSettingDescription" xml:space="preserve">
+    <value>减少缩进二元模式</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_SubscriptionOrSignature_Text" xml:space="preserve">
+    <value>两者</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_SortBy_Text" xml:space="preserve">
+    <value>排序依据</value>
+  </data>
+  <data name="TypeArgumentAnglesSettingDescription" xml:space="preserve">
+    <value>类型实参尖括号</value>
+  </data>
+  <data name="ParserTypeMemberDeclarationSymbol_Text" xml:space="preserve">
+    <value>类型成员声明</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Method_Text" xml:space="preserve">
+    <value>method</value>
+  </data>
+  <data name="PropertiesAndEventsSettingDescription" xml:space="preserve">
+    <value>属性和事件</value>
+  </data>
+  <data name="ParserTupleExpressionSymbol_Text" xml:space="preserve">
+    <value>元组表达式</value>
+  </data>
+  <data name="LayoutTypeSettingDescription" xml:space="preserve">
+    <value>布局类型</value>
+  </data>
+  <data name="NoParameters_Text" xml:space="preserve">
+    <value>无形参</value>
+  </data>
+  <data name="ParserDeclarationOrExpressionListSymbol_Text" xml:space="preserve">
+    <value>声明或表达式列表</value>
+  </data>
+  <data name="FunctionPointer_Text" xml:space="preserve">
+    <value>函数指针</value>
+  </data>
+  <data name="InMemberAccessExpressionsPreferSettingDescription" xml:space="preserve">
+    <value>在成员访问表达式中，首选</value>
+  </data>
+  <data name="MethodDeclarationParenthesesSettingDescription" xml:space="preserve">
+    <value>方法声明圆括号</value>
+  </data>
+  <data name="SkipSingleArgumentsSettingDescription" xml:space="preserve">
+    <value>跳过单一实参</value>
+  </data>
+  <data name="PreferWrapBeforeMultilineLINQExpressionsSettingDescription" xml:space="preserve">
+    <value>首选在多行 LINQ 表达式前换行</value>
+  </data>
+  <data name="AlignMultilineCommentsWithAsterisksSettingsDescription" xml:space="preserve">
+    <value>将多行注释与星号对齐</value>
+  </data>
+  <data name="AroundSingleLineMethodSettingDescription" xml:space="preserve">
+    <value>单行方法周围</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeTernaryOpsigns_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在三元表达式中的 '?' 和 ':' 前换行</value>
+  </data>
+  <data name="BetweenAttributeSectionsSettingDescription" xml:space="preserve">
+    <value>特性部分之间</value>
+  </data>
+  <data name="NotNullPattern_Text" xml:space="preserve">
+    <value>'not null' 模式</value>
+  </data>
+  <data name="ParserParameterDeclarationSymbol_Text" xml:space="preserve">
+    <value>形参声明</value>
+  </data>
+  <data name="CFileLayoutPatternSettingDescription" xml:space="preserve">
+    <value>C# 文件布局模式</value>
+  </data>
+  <data name="IndentOtherParenthesisAndBracketsSettingDescription" xml:space="preserve">
+    <value>缩进其他圆括号和中括号</value>
+  </data>
+  <data name="RemoveRedundantSettingDescription" xml:space="preserve">
+    <value>移除冗余大括号</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeExtendsColon_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在 ':' 前换行</value>
+  </data>
+  <data name="InAnonymousTypeBrackets_Text" xml:space="preserve">
+    <value>(在匿名类型中)</value>
+  </data>
+  <data name="UnaryPlusOperatorSettingDescription" xml:space="preserve">
+    <value>一元加法运算符(+)</value>
+  </data>
+  <data name="BeforeSingleLineAccessorsBlockSettingDescription" xml:space="preserve">
+    <value>单行访问器块前</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesAroundMultilineCaseSection_SettingsEntryDescription" xml:space="preserve">
+    <value>switch 语句中多行 'case' 部分周围</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_Text" xml:space="preserve">
+    <value>移除区域</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Direction_Descending_Text" xml:space="preserve">
+    <value>降序</value>
+  </data>
+  <data name="EntityFrameworkQueryAnalysisModeSettingsEntryDescription" xml:space="preserve">
+    <value>分析 Entity Framework 查询时是否使用乐观模式</value>
+  </data>
+  <data name="UseSeparateDeclarationExpressions_Text" xml:space="preserve">
+    <value>使用单独的声明表达式</value>
+  </data>
+  <data name="UseVarWhenEvident_Description_Text" xml:space="preserve">
+    <value>在明显时使用 'var'</value>
+  </data>
+  <data name="SettingsEntryDescription_IndentNestetStatements" xml:space="preserve">
+    <value>缩进嵌套 '{0}' 语句</value>
+  </data>
+  <data name="UseContinuousLineIndentInsideExpressionBracesSettingDescription" xml:space="preserve">
+    <value>在表达式大括号内使用连续行缩进</value>
+  </data>
+  <data name="PreferRoslynRulesForParenthesesClaritySettingDescription" xml:space="preserve">
+    <value>首选 Roslyn 规则，使圆括号清晰</value>
+  </data>
+  <data name="AfterMultilineStatementsSettingDescription" xml:space="preserve">
+    <value>多行语句后</value>
+  </data>
+  <data name="LocalConstant_Text" xml:space="preserve">
+    <value>局部常量</value>
+  </data>
+  <data name="KeepExistingArrangementOfPropertyPatternsSettingDescription" xml:space="preserve">
+    <value>保留属性模式的现有排列</value>
+  </data>
+  <data name="ParserConstructorDeclarationSymbol_Text" xml:space="preserve">
+    <value>构造函数声明</value>
+  </data>
+  <data name="ParserUsingDirectiveSymbol_Text" xml:space="preserve">
+    <value>using 指令</value>
+  </data>
+  <data name="Extension_Text" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="KeepExistingArrangementOfAttributesSettingDescription" xml:space="preserve">
+    <value>保留特性的现有排列</value>
+  </data>
+  <data name="DumpDbContextsStatsText" xml:space="preserve">
+    <value>转储 DbContexts 的统计信息</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Body_Type_Block_Text" xml:space="preserve">
+    <value>块</value>
+  </data>
+  <data name="PlaceMethodAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将方法特性置于同一行中</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Text" xml:space="preserve">
+    <value>static 字段重新排序策略</value>
+  </data>
+  <data name="IndentRegionEndregionSettingDescription" xml:space="preserve">
+    <value>缩进 #region、#endregion</value>
+  </data>
+  <data name="PreferFullyQualifiedReferencesSettingDescription" xml:space="preserve">
+    <value>首选完全限定引用</value>
+  </data>
+  <data name="PlaceSimpleArrayObjectAndCollectionOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单数组、对象和集合置于单行中</value>
+  </data>
+  <data name="PlaceSimpleSwitchExpressionOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单 switch 表达式置于单行中</value>
+  </data>
+  <data name="Presenter_INamespace_Root_Text" xml:space="preserve">
+    <value>&lt;根命名空间&gt;</value>
+  </data>
+  <data name="AfterColonSettingDescription" xml:space="preserve">
+    <value>在 ':' 后</value>
+  </data>
+  <data name="BetweenAccessorsInSingleLinePropertyEventSettingDescription" xml:space="preserve">
+    <value>单行属性/事件中的访问器之间</value>
+  </data>
+  <data name="BeforeUnsafePointerDeclarationSettingDescription" xml:space="preserve">
+    <value>不安全的指针声明前</value>
+  </data>
+  <data name="AroundOperandsOfTheFollowingOperationsSettingDescription" xml:space="preserve">
+    <value>以下运算的操作数周围</value>
+  </data>
+  <data name="OtherSettingDescription" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_IndentCaseFromSwitch_SettingsEntry" xml:space="preserve">
+    <value>缩进 'switch' 中的 'case'</value>
+  </data>
+  <data name="OutdentTernaryExpressionsSettingDescription" xml:space="preserve">
+    <value>减少缩进三元表达式</value>
+  </data>
+  <data name="WithinSlicePatternSettingDescription" xml:space="preserve">
+    <value>在切片模式中的 '..' 之后</value>
+  </data>
+  <data name="ListPatternsSettingDescription" xml:space="preserve">
+    <value>列表模式和集合表达式</value>
+  </data>
+  <data name="WhenCreatedTypeIsEvidentFromUsageSettingDescription" xml:space="preserve">
+    <value>在可以从用法明显看出创建的类型时</value>
+  </data>
+  <data name="LiteralValuesSettingDescription" xml:space="preserve">
+    <value>字面量值</value>
+  </data>
+  <data name="InconsistentBodyStyleUseExpressionBodiedIndexer_Text" xml:space="preserve">
+    <value>代码主体不符合代码样式设置: 请使用表达式体索引器</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Signature_Text" xml:space="preserve">
+    <value>签名</value>
+  </data>
+  <data name="InvocationsOfTheSameMethodSettingDescription" xml:space="preserve">
+    <value>相同方法的调用</value>
+  </data>
+  <data name="WhenTheLastElementIsNotFollowedByANewLineSettingDescription" xml:space="preserve">
+    <value>当最后一个元素后面不跟新行时</value>
+  </data>
+  <data name="LocalFunction_Text" xml:space="preserve">
+    <value>局部函数</value>
+  </data>
+  <data name="ParserGroupClauseSymbol_Text" xml:space="preserve">
+    <value>'group' 子句</value>
+  </data>
+  <data name="ParserLineNumberSymbol_Text" xml:space="preserve">
+    <value>行号</value>
+  </data>
+  <data name="JoinOrSeparateAttributesInSectionSettingDescription" xml:space="preserve">
+    <value>在部分中联接或分隔特性</value>
+  </data>
+  <data name="AfterAttributesSettingDescription" xml:space="preserve">
+    <value>特性后</value>
+  </data>
+  <data name="ApplySyntaxStyleOnCodeCompletionSettingDescription" xml:space="preserve">
+    <value>补全代码时应用语法样式</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapAfterInvocationLpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在调用中的 '(' 后换行</value>
+  </data>
+  <data name="PlaceSinglelineMethodAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将单行方法特性置于同一行中</value>
+  </data>
+  <data name="ConstructorsAndDestructorsSettingDescription" xml:space="preserve">
+    <value>构造函数和析构函数</value>
+  </data>
+  <data name="PlaceSimpleEmbeddedStatementOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将简单嵌入式语句置于同一行中</value>
+  </data>
+  <data name="WhenTypeIsNotEvidentFromUsageSettingDescription" xml:space="preserve">
+    <value>在无法从用法明显看出类型时</value>
+  </data>
+  <data name="RecordPositionalParameter_PresentableName_Text" xml:space="preserve">
+    <value>记录位置形参</value>
+  </data>
+  <data name="UseAlways_Description_Text" xml:space="preserve">
+    <value>始终使用</value>
+  </data>
+  <data name="WithinSingleLineAccessorSettingDescription" xml:space="preserve">
+    <value>单行访问器内</value>
+  </data>
+  <data name="Presenter_IAnonymousMethod_Text" xml:space="preserve">
+    <value>匿名方法</value>
+  </data>
+  <data name="RevertToOldFormattingEngineSettingDescription" xml:space="preserve">
+    <value>还原为旧格式设置引擎</value>
+  </data>
+  <data name="ExplicitType_Text" xml:space="preserve">
+    <value>显式类型</value>
+  </data>
+  <data name="NamespacesThatShouldNotBeRemovedFromFullyQualifiedTypeNamesSettingDescription" xml:space="preserve">
+    <value>不应从完全限定类型名称中移除的命名空间</value>
+  </data>
+  <data name="PlaceMethodExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将方法表达式主体置于同一行中</value>
+  </data>
+  <data name="MethodCallEmptyParenthesesSettingDescription" xml:space="preserve">
+    <value>方法调用空圆括号</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SpecialElseIfTreatment_SettingsEntryDescription" xml:space="preserve">
+    <value>特殊的 'else if' 对待</value>
+  </data>
+  <data name="SameClass_Text" xml:space="preserve">
+    <value>同一类</value>
+  </data>
+  <data name="ParserEnumDeclarationBodySymbol_Text" xml:space="preserve">
+    <value>枚举声明主体</value>
+  </data>
+  <data name="OtherExpressionsSettingDescription" xml:space="preserve">
+    <value>其他表达式</value>
+  </data>
+  <data name="IndentTypeParametersAnglesSettingDescription" xml:space="preserve">
+    <value>缩进类型形参的尖括号</value>
+  </data>
+  <data name="CommaExpected_Text" xml:space="preserve">
+    <value>应为 ,</value>
+  </data>
+  <data name="PreferredVarStyle_Text" xml:space="preserve">
+    <value>首选的 '{0}' 样式</value>
+  </data>
+  <data name="ParserExpectedSymbol_Text" xml:space="preserve">
+    <value>应为 {0}</value>
+  </data>
+  <data name="DontRemoveExtraBlankLinesSettingDescription" xml:space="preserve">
+    <value>不移除额外的空白行</value>
+  </data>
+  <data name="MaxInvocationArgumentsOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大调用实参数</value>
+  </data>
+  <data name="TypeParameter_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+    <value>应移除类型形参 '{0}' 以匹配预期类型</value>
+  </data>
+  <data name="KeepExistingArrangementOfSwitchExpressionsSettingDescription" xml:space="preserve">
+    <value>保留 switch 表达式的现有排列</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesAfterUsingList_SettingsEntryDescription" xml:space="preserve">
+    <value>'using' 列表后</value>
+  </data>
+  <data name="WrapListPatternSettingDescription" xml:space="preserve">
+    <value>将列表模式和集合表达式换行</value>
+  </data>
+  <data name="BeforeArrayAccessBracketsSettingDescription" xml:space="preserve">
+    <value>数组访问中括号前</value>
+  </data>
+  <data name="InsideRegionSettingDescription" xml:space="preserve">
+    <value>区域内</value>
+  </data>
+  <data name="ElsewhereSettingDescription" xml:space="preserve">
+    <value>其他地方</value>
+  </data>
+  <data name="ParserExpressionOrInitializerSymbol_Text" xml:space="preserve">
+    <value>表达式或初始值设定项</value>
+  </data>
+  <data name="PreferExplicitImplicitInternalModifierForTypesSettingDescription" xml:space="preserve">
+    <value>为类型首选显式/隐式 internal 修饰符</value>
+  </data>
+  <data name="Record_Text" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="GetsTheSubstringAtTheSpecifiedRange_Text" xml:space="preserve">
+    <value>在指定的范围内获取子字符串。</value>
+  </data>
+  <data name="PlaceRecordFieldAttributeOnTheSameLine" xml:space="preserve">
+    <value>将记录字段特性置于同一行中</value>
+  </data>
+  <data name="TupleComponent_DoesnTMatchExpectedComponent_Text" xml:space="preserve">
+    <value>元组组件 '{0}' 与预期组件 '{1}' 不匹配。</value>
+  </data>
+  <data name="LogicalOperatorsSettingDescription" xml:space="preserve">
+    <value>逻辑运算符(&amp;&amp;,||)</value>
+  </data>
+  <data name="StringLiteralValuesSettingDescription" xml:space="preserve">
+    <value>字符串字面量值</value>
+  </data>
+  <data name="ParserStatementSymbol_Text" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="UseVarDeconstructionPattern_Text" xml:space="preserve">
+    <value>使用 'var' 析构模式</value>
+  </data>
+  <data name="KeepExistingArrangementOfEmbeddedBlocksSettingDescription" xml:space="preserve">
+    <value>保留嵌入式块的现有排列</value>
+  </data>
+  <data name="TypeParameter_Text" xml:space="preserve">
+    <value>类型形参</value>
+  </data>
+  <data name="ParserConditionalSymbol_Text" xml:space="preserve">
+    <value>条件符号</value>
+  </data>
+  <data name="AdditiveOperatorsSettingDescription" xml:space="preserve">
+    <value>加法运算符(+、-)</value>
+  </data>
+  <data name="WrapTernaryExpressionSettingDescription" xml:space="preserve">
+    <value>将三元表达式换行</value>
+  </data>
+  <data name="ArrayObjectAndCollectionInitializerSettingDescription" xml:space="preserve">
+    <value>数组、对象和集合初始值设定项</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_IndentBreakFromCase_SettingsEntry" xml:space="preserve">
+    <value>缩进 'case' 中的 'break'</value>
+  </data>
+  <data name="UnaryMinusOperatorSettingDescription" xml:space="preserve">
+    <value>一元减法运算符(-)</value>
+  </data>
+  <data name="ParserMethodBodySymbol_Text" xml:space="preserve">
+    <value>方法体</value>
+  </data>
+  <data name="SortusingDirectivesSettingDescription" xml:space="preserve">
+    <value>对 'using' 指令排序</value>
+  </data>
+  <data name="AfterFileScopedNamespaceDirectiveSettingDescription" xml:space="preserve">
+    <value>文件作用域的命名空间指令后</value>
+  </data>
+  <data name="ExpressionExpected_Text" xml:space="preserve">
+    <value>应为表达式</value>
+  </data>
+  <data name="MethodsAndOperatorsSettingDescription" xml:space="preserve">
+    <value>方法和运算符</value>
+  </data>
+  <data name="PreferRoslynVisualStudioLogicForTypeEvidenceSettingDescription" xml:space="preserve">
+    <value>为类型证据首选 Roslyn (Visual Studio)逻辑</value>
+  </data>
+  <data name="BeforeMultilineStatementsSettingDescription" xml:space="preserve">
+    <value>多行语句前</value>
+  </data>
+  <data name="UsingDirectivesAreOnlyAllowedInTheBeginningOfNamespace_Text" xml:space="preserve">
+    <value>仅在命名空间主体的开头允许 'using' 指令</value>
+  </data>
+  <data name="BeforeAfterAndSettingDescription" xml:space="preserve">
+    <value>++ 和 -- 前/后</value>
+  </data>
+  <data name="Destructor_Text" xml:space="preserve">
+    <value>析构函数</value>
+  </data>
+  <data name="PrimaryCtorParameter_PresentableName_Text" xml:space="preserve">
+    <value>主构造函数形参</value>
+  </data>
+  <data name="AllowCommentAfterSettingDescription" xml:space="preserve">
+    <value>允许在 '{' 后添加注释</value>
+  </data>
+  <data name="PlaceMultilineAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将多行访问器特性置于同一行中</value>
+  </data>
+  <data name="CWrapping_Text" xml:space="preserve">
+    <value>C# 换行</value>
+  </data>
+  <data name="Constant_Text" xml:space="preserve">
+    <value>常量</value>
+  </data>
+  <data name="UseSingleDeconstructionDeclaration_Text" xml:space="preserve">
+    <value>使用单个析构声明</value>
+  </data>
+  <data name="Parameter_Text" xml:space="preserve">
+    <value>形参</value>
+  </data>
+  <data name="TypeAndNamespaceDeclarationSettingDescription" xml:space="preserve">
+    <value>类型和命名空间声明</value>
+  </data>
+  <data name="MethodDeclarationSettingDescription" xml:space="preserve">
+    <value>方法声明</value>
+  </data>
+  <data name="AllowglobalPrefixUseSettingDescription" xml:space="preserve">
+    <value>允许使用 'global::' 前缀</value>
+  </data>
+  <data name="NamedExpressionsVariablesPropertiesMethodsEtcSettingDescription" xml:space="preserve">
+    <value>命名表达式(变量、属性、方法等)</value>
+  </data>
+  <data name="DoNotChange_Description_Text" xml:space="preserve">
+    <value>不更改</value>
+  </data>
+  <data name="BaseClass_Text" xml:space="preserve">
+    <value>基类</value>
+  </data>
+  <data name="EvenWhenOperationsOfTheSameTypeAreNestedSettingDescription" xml:space="preserve">
+    <value>即使嵌套了相同类型的运算</value>
+  </data>
+  <data name="DoNotUse_Description_Text" xml:space="preserve">
+    <value>不使用</value>
+  </data>
+  <data name="ParserCharacterNumberSymbol_Text" xml:space="preserve">
+    <value>字符数</value>
+  </data>
+  <data name="KeepExistingArrangementOfParenthesisInDeclarationSettingDescription" xml:space="preserve">
+    <value>保留声明中圆括号的现有排列</value>
+  </data>
+  <data name="CollectionExpressionElementExpected_Text" xml:space="preserve">
+    <value>应为集合表达式元素</value>
+  </data>
+  <data name="PropertyDeclarationSettingDescription" xml:space="preserve">
+    <value>Property 声明</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Patterns_StaticFieldReorderingPolicy_Relaxed_Text" xml:space="preserve">
+    <value>宽松</value>
+  </data>
+  <data name="SpaceBetweenEmptyBracesSettingDescription" xml:space="preserve">
+    <value>空大括号之间的空格</value>
+  </data>
+  <data name="WrapCollectionExpressionSettingDescription" xml:space="preserve">
+    <value>将集合表达式换行</value>
+  </data>
+  <data name="AvoidIfPossible" xml:space="preserve">
+    <value>在可能的情况下避免</value>
+  </data>
+  <data name="ArrayCreationMustHaveArraySizeOrArray_Text" xml:space="preserve">
+    <value>数组创建必须具有数组大小或数组初始值设定项</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_AlignMultilineForStmt_SettingsEntryDescription" xml:space="preserve">
+    <value>'for' 语句头</value>
+  </data>
+  <data name="AfterStatementsWithControlTransferSettingDescription" xml:space="preserve">
+    <value>带控制传输的语句后</value>
+  </data>
+  <data name="CNamingSettingsSettingDescription" xml:space="preserve">
+    <value>C# 命名设置</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeDeclarationLpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在声明中的 '(' 前换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesAroundBlockCaseSection_SettingsEntryDescription" xml:space="preserve">
+    <value>switch 语句中带有块的 'case' 部分周围</value>
+  </data>
+  <data name="ForFields_Description_Text" xml:space="preserve">
+    <value>用于字段</value>
+  </data>
+  <data name="PlacePropertyAccessorExpressionBodyOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将属性访问器表达式主体置于同一行中</value>
+  </data>
+  <data name="ParserArgumentSymbol_Text" xml:space="preserve">
+    <value>实参</value>
+  </data>
+  <data name="AmbiguousUserDefinedConversions_Text" xml:space="preserve">
+    <value>不明确的用户定义转换</value>
+  </data>
+  <data name="TupleElementName_ShouldBeRemovedInOrder_Text" xml:space="preserve">
+    <value>应移除元组元素名称 '{0}' 以匹配预期类型</value>
+  </data>
+  <data name="MethodDeclarationEmptyParenthesesSettingDescription" xml:space="preserve">
+    <value>方法声明空圆括号</value>
+  </data>
+  <data name="TypeParameterConstraintsSettingDescription" xml:space="preserve">
+    <value>类型形参约束</value>
+  </data>
+  <data name="BreakLineInABlockWithASingleStatementSettingDescription" xml:space="preserve">
+    <value>在具有单条语句的块中换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesBeforeCase_SettingsEntryDescription" xml:space="preserve">
+    <value>switch 语句中的 'case' 前</value>
+  </data>
+  <data name="StaticMemberQualifierSettingDescription" xml:space="preserve">
+    <value>static 成员限定符</value>
+  </data>
+  <data name="NullCoalescingOperatorSettingDescription" xml:space="preserve">
+    <value>null 合并运算符(??)</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Body_Type_Expression_Text" xml:space="preserve">
+    <value>表达式</value>
+  </data>
+  <data name="PlacePropertyIndexerEventAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将属性/索引器/事件特性置于同一行中</value>
+  </data>
+  <data name="AroundInNamespaceAliasDirectiveSettingDescription" xml:space="preserve">
+    <value>命名空间别名指令中的 '=' 周围</value>
+  </data>
+  <data name="KeepExistingArrangementOfEmbeddedStatementsSettingDescription" xml:space="preserve">
+    <value>保留嵌入式语句的现有排列</value>
+  </data>
+  <data name="AliasKeywordExpected_Text" xml:space="preserve">
+    <value>应为 'alias' 关键字</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SpaceAfterColonInCase_SettingsEntryDescription" xml:space="preserve">
+    <value>'case' 语句中的冒号后</value>
+  </data>
+  <data name="TupleComponentShouldBeAddedInOrder_Text" xml:space="preserve">
+    <value>应添加元组组件{0}以匹配预期类型</value>
+  </data>
+  <data name="ParserParameterModifierSymbol2_Text" xml:space="preserve">
+    <value>形参修饰符</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeInvocationRpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在调用中的 ')' 前换行</value>
+  </data>
+  <data name="UnsafeArrowOperatorSettingDescription" xml:space="preserve">
+    <value>不安全的箭头运算符(-&gt;)</value>
+  </data>
+  <data name="WrapExtendsImplementsListSettingDescription" xml:space="preserve">
+    <value>将 extends/implements 列表换行</value>
+  </data>
+  <data name="UseExplicitVar_Pattern_Text" xml:space="preserve">
+    <value>使用显式 'var _' 模式</value>
+  </data>
+  <data name="Align_Text" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="CFormatting_Text" xml:space="preserve">
+    <value>C# 格式设置</value>
+  </data>
+  <data name="AnonymousMethodBodySettingDescription" xml:space="preserve">
+    <value>匿名方法体</value>
+  </data>
+  <data name="AroundPropertyEventAccessorSettingDescription" xml:space="preserve">
+    <value>属性/事件访问器周围</value>
+  </data>
+  <data name="WithinSingleLineAnonymousMethodSettingDescription" xml:space="preserve">
+    <value>单行匿名方法内</value>
+  </data>
+  <data name="DimensionExpressionMissing_Text" xml:space="preserve">
+    <value>缺少维度表达式</value>
+  </data>
+  <data name="LogicalNotOperatorSettingDescription" xml:space="preserve">
+    <value>逻辑非运算符(!)</value>
+  </data>
+  <data name="AroundTypeSettingDescription" xml:space="preserve">
+    <value>类型周围</value>
+  </data>
+  <data name="AfterFileHeaderCommentSettingDescription" xml:space="preserve">
+    <value>文件头注释后</value>
+  </data>
+  <data name="AroundRegionSettingDescription" xml:space="preserve">
+    <value>区域周围</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceCatchOnNewLine_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'catch' 置于新行中</value>
+  </data>
+  <data name="StronglyPrefer" xml:space="preserve">
+    <value>强烈偏好</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Text" xml:space="preserve">
+    <value>匹配依据</value>
+  </data>
+  <data name="EntityFrameworkAnalysisSettingsEntryDescription" xml:space="preserve">
+    <value>是否启用 Entity Framework 特定分析及相关功能</value>
+  </data>
+  <data name="CollectionExpressionExpected_Text" xml:space="preserve">
+    <value>应为集合表达式</value>
+  </data>
+  <data name="IndentMethodDeclarationsParenthesisSettingDescription" xml:space="preserve">
+    <value>缩进方法声明的圆括号</value>
+  </data>
+  <data name="MethodParametersSettingDescription" xml:space="preserve">
+    <value>方法参数</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HasAttribute_Target_Text" xml:space="preserve">
+    <value>目标</value>
+  </data>
+  <data name="ParserParameterModifierSymbol_Text" xml:space="preserve">
+    <value>形参修饰符</value>
+  </data>
+  <data name="BeforeSemicolonSettingDescription" xml:space="preserve">
+    <value>分号之前</value>
+  </data>
+  <data name="UnsafeAddressofOperatorSettingDescription" xml:space="preserve">
+    <value>不安全的 addressof 运算符(&amp;)</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceFinallyOnNewLine_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'finally' 置于新行中</value>
+  </data>
+  <data name="FileIsNotIncludedIntoCompilation_Text" xml:space="preserve">
+    <value>文件未包含在编译中</value>
+  </data>
+  <data name="AroundAutoAbstractPropertyEventSettingDescription" xml:space="preserve">
+    <value>auto/abstract 属性/事件周围</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_RedundantThisQualifierStyle_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'this.' 限定符用于实例成员</value>
+  </data>
+  <data name="BeforeColonSettingDescription" xml:space="preserve">
+    <value>在 ':' 前</value>
+  </data>
+  <data name="AroundSingleLineTypeSettingDescription" xml:space="preserve">
+    <value>单行类型周围</value>
+  </data>
+  <data name="ApplyStyleHeuristicsSettingDescription" xml:space="preserve">
+    <value>应用样式启发</value>
+  </data>
+  <data name="IndentTypeArgumentsAnglesSettingDescription" xml:space="preserve">
+    <value>缩进类型实参的尖括号</value>
+  </data>
+  <data name="SimpleSwitchSectionsSettingDescription" xml:space="preserve">
+    <value>简单 switch 部分</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SpaceBeforeColonInUse_SettingsEntryDescription" xml:space="preserve">
+    <value>'case' 语句中的冒号前</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceWhileOnNewLine_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'while' 置于新行中</value>
+  </data>
+  <data name="ExpectedTupleElementName__Text" xml:space="preserve">
+    <value>应为元组元素名称: '{0}'</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceElseOnNewLine_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'else' 置于新行中</value>
+  </data>
+  <data name="CodeFormattingInCSettingDescription" xml:space="preserve">
+    <value>C# 中的代码格式设置</value>
+  </data>
+  <data name="DontForceSingleLinesSettingDescription" xml:space="preserve">
+    <value>不强制使用单行</value>
+  </data>
+  <data name="AroundLocalFunctionSettingDescription" xml:space="preserve">
+    <value>局部函数周围</value>
+  </data>
+  <data name="PlaceSystemAndWindowsNamespacesFirstWhenSortingusingDirectivesSettingDescription" xml:space="preserve">
+    <value>对 'using' 指令排序时先放置 'System.*' 和 'Windows.*' 命名空间</value>
+  </data>
+  <data name="EnumMember_Text" xml:space="preserve">
+    <value>枚举成员</value>
+  </data>
+  <data name="BeforeEndOfLineCommentSettingDescription" xml:space="preserve">
+    <value>行尾注释前</value>
+  </data>
+  <data name="KeepMaxBlankLinesInDeclarationsSettingDescription" xml:space="preserve">
+    <value>保留声明中的最大空行</value>
+  </data>
+  <data name="InconsistentBodyStyleUseExpressionBodiedProperty_Text" xml:space="preserve">
+    <value>代码主体不符合代码样式设置: 请使用表达式体属性</value>
+  </data>
+  <data name="PlaceAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将访问器特性置于同一行中</value>
+  </data>
+  <data name="Accessor_Text" xml:space="preserve">
+    <value>访问器</value>
+  </data>
+  <data name="WrapMultipleDeclarationSettingDescription" xml:space="preserve">
+    <value>将多个声明换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeDeclarationRpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在声明中的 ')' 前换行</value>
+  </data>
+  <data name="UseExplicitType_Description_Text" xml:space="preserve">
+    <value>使用显式类型</value>
+  </data>
+  <data name="AroundLambdaArrowSettingDescription" xml:space="preserve">
+    <value>lambda 箭头周围</value>
+  </data>
+  <data name="Operator_Text" xml:space="preserve">
+    <value>运算符</value>
+  </data>
+  <data name="Class_PresentableName_Text" xml:space="preserve">
+    <value>类</value>
+  </data>
+  <data name="LambdaAndDelegateAnonymousMethodDeclarationSettingDescription" xml:space="preserve">
+    <value>lambda 和委托(匿名方法声明)</value>
+  </data>
+  <data name="IncludePrefixCommentsInIndentsSettingDescription" xml:space="preserve">
+    <value>在缩进中包含前缀注释</value>
+  </data>
+  <data name="AroundNamespaceSettingDescription" xml:space="preserve">
+    <value>命名空间周围</value>
+  </data>
+  <data name="Interface_Text" xml:space="preserve">
+    <value>interface</value>
+  </data>
+  <data name="DefaultLayoutUsingRegions_Description_Text" xml:space="preserve">
+    <value>使用区域的默认布局</value>
+  </data>
+  <data name="HowToIndentRawStringLiteralsSettingsDescription" xml:space="preserve">
+    <value>如何缩进原始字符串字面量</value>
+  </data>
+  <data name="IndentMethodCallsParenthesisSettingDescription" xml:space="preserve">
+    <value>缩进方法调用的圆括号</value>
+  </data>
+  <data name="CallArgumentsBySettingDescription" xml:space="preserve">
+    <value>将调用实参对齐到 '('</value>
+  </data>
+  <data name="ForThisClassMembers_Description_Text" xml:space="preserve">
+    <value>用于此类成员</value>
+  </data>
+  <data name="Enum_Text" xml:space="preserve">
+    <value>enum</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeArrowWithExpressions_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在后跟表达式的 '=&gt;' 前换行</value>
+  </data>
+  <data name="EndifDirectiveExpected_Text" xml:space="preserve">
+    <value>应为 #endif 指令</value>
+  </data>
+  <data name="ParserVariableDesignationSymbol_Text" xml:space="preserve">
+    <value>变量指定</value>
+  </data>
+  <data name="AfterOperatorKeywordSettingDescription" xml:space="preserve">
+    <value>运算符关键字后</value>
+  </data>
+  <data name="ThisQualifierSettingsKey_InstanceMembersQualifyMembers_SettingsEntryDescription" xml:space="preserve">
+    <value>将 'this.' 限定符用于</value>
+  </data>
+  <data name="NamespacesSettingDescription" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="BinaryExpressionsSettingDescription" xml:space="preserve">
+    <value>二項式</value>
+  </data>
+  <data name="WithinSingleLineMethodSettingDescription" xml:space="preserve">
+    <value>单行方法内</value>
+  </data>
+  <data name="UsingDirectivesAreOnlyAllowedInTheBeginningOfFile_Text" xml:space="preserve">
+    <value>仅在文件开头允许 'using' 指令</value>
+  </data>
+  <data name="BeforeBaseTypesListColonSettingDescription" xml:space="preserve">
+    <value>基类型列表冒号前</value>
+  </data>
+  <data name="BeforeCommaSettingDescription" xml:space="preserve">
+    <value>在逗号前</value>
+  </data>
+  <data name="MaxArrayInitializerElementsOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大数组初始值设定项和集合表达式元素数</value>
+  </data>
+  <data name="BeforeQuestSettingDescription" xml:space="preserve">
+    <value>在 '?' 前</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SpaceAfterForSemicolon_SettingsEntryDescription" xml:space="preserve">
+    <value>'for' 分号之后</value>
+  </data>
+  <data name="IndentStatementIfWhileForEtcParenthesisSettingDescription" xml:space="preserve">
+    <value>缩进语句(if、while、for 等)圆括号</value>
+  </data>
+  <data name="LambdaArrowExpected_Text" xml:space="preserve">
+    <value>应为 =&gt;</value>
+  </data>
+  <data name="AsyncLocalFunction_PresentableName_Text" xml:space="preserve">
+    <value>带有 'async' 的局部函数</value>
+  </data>
+  <data name="MaxObjectAndCollectionInitializerElementsOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大对象和集合初始值设定项元素数</value>
+  </data>
+  <data name="WrapEnumerationDeclarationSettingDescription" xml:space="preserve">
+    <value>将枚举声明换行</value>
+  </data>
+  <data name="UseEmptyRecursivePattern_Text" xml:space="preserve">
+    <value>使用 '{ }' 模式</value>
+  </data>
+  <data name="GlobalAttributesAreOnlyAllowedInThe_Text" xml:space="preserve">
+    <value>仅在文件开头 'using' 指令之后允许全局特性</value>
+  </data>
+  <data name="InconsistentBodyStyleUseExpressionBody_Text" xml:space="preserve">
+    <value>代码主体不符合代码样式设置: 请使用表达式体</value>
+  </data>
+  <data name="CSharpVarKeywordUsageSettingsSettingDescription" xml:space="preserve">
+    <value>C# var 关键字使用设置</value>
+  </data>
+  <data name="UsevarKeywordForDiscardsSettingDescription" xml:space="preserve">
+    <value>将 'var' 关键字用于弃元</value>
+  </data>
+  <data name="PlaceABlockWithASingleSimpleStatementOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将带有单条简单语句的块置于同一行中</value>
+  </data>
+  <data name="ExternAliasDirectivesAreOnlyAllowed_Text" xml:space="preserve">
+    <value>仅在文件开头允许 'extern alias' 指令</value>
+  </data>
+  <data name="InsideTypeSettingDescription" xml:space="preserve">
+    <value>类型内部</value>
+  </data>
+  <data name="ForFieldsInThisClass_Description_Text" xml:space="preserve">
+    <value>用于此类中的字段</value>
+  </data>
+  <data name="ParserForeachVariableDeclarationSymbol_Text" xml:space="preserve">
+    <value>foreach 变量声明</value>
+  </data>
+  <data name="DumpDbContextsStructureText" xml:space="preserve">
+    <value>Dump DbContexts' Structures</value>
+  </data>
+  <data name="Delegate_Text" xml:space="preserve">
+    <value>delegate</value>
+  </data>
+  <data name="BetweenKeywordAndTypeSettingDescription" xml:space="preserve">
+    <value>关键字和类型之间</value>
+  </data>
+  <data name="ForSimpleTypesSettingDescription" xml:space="preserve">
+    <value>对于简单类型</value>
+  </data>
+  <data name="ParserFunctionBodySymbol_Text" xml:space="preserve">
+    <value>函数体</value>
+  </data>
+  <data name="CLanguageLevelSettingDescription" xml:space="preserve">
+    <value>C# 语言级别</value>
+  </data>
+  <data name="OutdentStatementLabelsSettingDescription" xml:space="preserve">
+    <value>减少缩进语句标签</value>
+  </data>
+  <data name="WrapCommentsSettingDescription" xml:space="preserve">
+    <value>对非文档注释换行</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_SimpleCaseStatementStyle_SettingsEntryDescription" xml:space="preserve">
+    <value>在单条 'case' 语句中换行</value>
+  </data>
+  <data name="BreakLineInSingleEmbeddedStatementSettingDescription" xml:space="preserve">
+    <value>在单条嵌入式语句中换行</value>
+  </data>
+  <data name="TypeParameterAnglesSettingDescription" xml:space="preserve">
+    <value>类型形参尖括号</value>
+  </data>
+  <data name="NestedTernaryOperatorsSettingDescription" xml:space="preserve">
+    <value>嵌套三元运算符</value>
+  </data>
+  <data name="ParserSwitchCaseLabelSymbol_Text" xml:space="preserve">
+    <value>switch case 标签</value>
+  </data>
+  <data name="GetsOrSetsElementAtTheSpecifiedIndex_Text" xml:space="preserve">
+    <value>在指定的索引处获取或设置元素。</value>
+  </data>
+  <data name="LINQQuerySettingDescription" xml:space="preserve">
+    <value>LINQ 查询</value>
+  </data>
+  <data name="SimpleMethodsOperatorsDelegatesSettingDescription" xml:space="preserve">
+    <value>简单方法、运算符、委托</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_DisplayName_Text" xml:space="preserve">
+    <value>显示名称</value>
+  </data>
+  <data name="ListOfBaseClassesAndInterfacesSettingDescription" xml:space="preserve">
+    <value>基类和接口列表</value>
+  </data>
+  <data name="NullCheckingPatternStyle" xml:space="preserve">
+    <value>null 检查模式样式</value>
+  </data>
+  <data name="ParserSwitchGoverningExpressionSymbol_Text" xml:space="preserve">
+    <value>switch 控制表达式</value>
+  </data>
+  <data name="WrapChainedMethodCallsSettingDescription" xml:space="preserve">
+    <value>将链式方法调用换行</value>
+  </data>
+  <data name="Alias_Text" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="UnsafeAsteriskOperatorSettingDescription" xml:space="preserve">
+    <value>不安全的星号运算符(*)</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Body_Type_Text" xml:space="preserve">
+    <value>类型</value>
+  </data>
+  <data name="BeforeStatementsWithControlTransferSettingDescription" xml:space="preserve">
+    <value>带控制传输的语句前</value>
+  </data>
+  <data name="ParserUsageOfUserDefinedTypeSymbol_Text" xml:space="preserve">
+    <value>用户定义类型的用法</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_PlaceLinqInotOnNewLine_SettingsEntryDescription" xml:space="preserve">
+    <value>在 LINQ 表达式中将 'into' 置于新行中</value>
+  </data>
+  <data name="PlaceCommentsAtFirstColumnWhenCommentingOutCodeSettingDescription" xml:space="preserve">
+    <value>注释掉代码时将注释置于第一列</value>
+  </data>
+  <data name="ThisQualifierSettingsKey_Description" xml:space="preserve">
+    <value>'this.' 限定符</value>
+  </data>
+  <data name="TupleComponentsSettingDescription" xml:space="preserve">
+    <value>元组组件</value>
+  </data>
+  <data name="AroundMethodSettingDescription" xml:space="preserve">
+    <value>方法周围</value>
+  </data>
+  <data name="BeforeANewLineInMultilineListsSettingDescription" xml:space="preserve">
+    <value>多行列表中的新行前</value>
+  </data>
+  <data name="RelationalOperatorsSettingDescription" xml:space="preserve">
+    <value>关系运算符(&lt;、&gt;、&lt;=、&gt;=)</value>
+  </data>
+  <data name="AfterBaseTypesListColonSettingDescription" xml:space="preserve">
+    <value>基类型列表冒号后</value>
+  </data>
+  <data name="MultilineMethodSignatureSettingDescription" xml:space="preserve">
+    <value>多行方法签名</value>
+  </data>
+  <data name="LocalFunction_PresentableName_Text" xml:space="preserve">
+    <value>局部函数</value>
+  </data>
+  <data name="ParserPointerTypeSymbol_Text" xml:space="preserve">
+    <value>指针类型</value>
+  </data>
+  <data name="WrapInvocationArgumentsSettingDescription" xml:space="preserve">
+    <value>将调用实参换行</value>
+  </data>
+  <data name="MaxEnumerationMembersOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大枚举成员数</value>
+  </data>
+  <data name="RemoveRedundantParenthesesSettingDescription" xml:space="preserve">
+    <value>移除冗余括号</value>
+  </data>
+  <data name="Indexer_Text" xml:space="preserve">
+    <value>索引器</value>
+  </data>
+  <data name="PlaceTypeAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将类型特性置于同一行中</value>
+  </data>
+  <data name="PreferExtensionMethodsImportWithusingStaticDirectiveSettingDescription" xml:space="preserve">
+    <value>首选使用 'using static' 指令导入扩展方法</value>
+  </data>
+  <data name="WrapFormalParametersSettingDescription" xml:space="preserve">
+    <value>将形参换行</value>
+  </data>
+  <data name="OutdentCommasSettingDescription" xml:space="preserve">
+    <value>减少缩进逗号</value>
+  </data>
+  <data name="PreferExplicitImplicitPrivateModifierForTypeMembersSettingDescription" xml:space="preserve">
+    <value>为类型成员首选显式/隐式 private 修饰符</value>
+  </data>
+  <data name="AllowPrimaryConstructorInitializerOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>允许主构造函数初始值设定项位于同一行</value>
+  </data>
+  <data name="SettingsEntryDescription_Parentheses_CheckedUnchecked" xml:space="preserve">
+    <value>'checked' 和 'unchecked' 圆括号</value>
+  </data>
+  <data name="AroundSingleLineAutoAbstractPropertyEventSettingDescription" xml:space="preserve">
+    <value>单行 auto/abstract 属性/事件周围</value>
+  </data>
+  <data name="BetweenKeywordAndExpressionSettingDescription" xml:space="preserve">
+    <value>关键字和表达式之间</value>
+  </data>
+  <data name="KeepExistingArrangementOfDeclarationBlocksSettingDescription" xml:space="preserve">
+    <value>保留声明块的现有排列</value>
+  </data>
+  <data name="ParserIdentifierSymbol_Text" xml:space="preserve">
+    <value>标识符</value>
+  </data>
+  <data name="AfterTypeCastParenthesesSettingDescription" xml:space="preserve">
+    <value>类型转换圆括号后</value>
+  </data>
+  <data name="ParserUsageOfPredefinedTypeSymbol_Text" xml:space="preserve">
+    <value>预定义类型用法</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapAroundEq_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在 '=' 周围换行</value>
+  </data>
+  <data name="PlaceSimpleAnonymousMethodOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单匿名方法置于单行中</value>
+  </data>
+  <data name="PlaceSimpleMethodOnSingleLineSettingDescription" xml:space="preserve">
+    <value>将简单方法置于单行中</value>
+  </data>
+  <data name="PreferWrapBeforeOperatorInBinaryExpressionSettingDescription" xml:space="preserve">
+    <value>首选在二元表达式中的运算符前换行</value>
+  </data>
+  <data name="PlaceAttributeOnSeparateLineIfItIsLongerThanSettingDescription" xml:space="preserve">
+    <value>长度大于此值时将特性置于单独的行中</value>
+  </data>
+  <data name="AfterQuestSettingDescription" xml:space="preserve">
+    <value>在 '?' 后</value>
+  </data>
+  <data name="AddTrailingCommaToConformToCodeStyle_Text" xml:space="preserve">
+    <value>添加尾随逗号以符合代码样式</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_HandlesEvent_MatchBy_Subscription_Text" xml:space="preserve">
+    <value>订阅</value>
+  </data>
+  <data name="Label_Text" xml:space="preserve">
+    <value>标签</value>
+  </data>
+  <data name="WhenTypeIsEvidentFromUsageSettingDescription" xml:space="preserve">
+    <value>在可以从用法明显看出类型时</value>
+  </data>
+  <data name="ShiftOperatorsSettingDescription" xml:space="preserve">
+    <value>移位运算符(&lt;&lt;、&gt;&gt;、&gt;&gt;&gt;)</value>
+  </data>
+  <data name="WithinAttributeBracketsSettingDescription" xml:space="preserve">
+    <value>特性中括号内</value>
+  </data>
+  <data name="AfterCommaSettingDescription" xml:space="preserve">
+    <value>在逗号后</value>
+  </data>
+  <data name="ApplyToNativeIntegerDescription" xml:space="preserve">
+    <value>也适用于原生大小的整数类型</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeEq_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在 '=' 前换行</value>
+  </data>
+  <data name="WrapPrimaryConstructorParametersSettingDescription" xml:space="preserve">
+    <value>包装主构造函数形参</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesAfterCase_SettingsEntryDescription" xml:space="preserve">
+    <value>switch 语句中的 'case' 后</value>
+  </data>
+  <data name="WithinArrayRankBracketsSettingDescription" xml:space="preserve">
+    <value>数组秩中括号内</value>
+  </data>
+  <data name="BeforeTypeParameterListAngleSettingDescription" xml:space="preserve">
+    <value>类型形参列表的左尖括号前</value>
+  </data>
+  <data name="EntityFrameworkEntityAdornment_Settings_Enabled_Description" xml:space="preserve">
+    <value>是否在 EF 实体类的声明附近显示装饰</value>
+  </data>
+  <data name="InconsistentBodyStyleUseExpressionBodiedGetter_Text" xml:space="preserve">
+    <value>代码主体不符合代码样式设置: 请使用表达式体 getter</value>
+  </data>
+  <data name="ForBuiltInTypesSettingDescription" xml:space="preserve">
+    <value>对于内置类型</value>
+  </data>
+  <data name="BitwiseOperatorsSettingDescription" xml:space="preserve">
+    <value>按位运算符(&amp;,|,^)</value>
+  </data>
+  <data name="LambdaParameter_PresentableName_Text" xml:space="preserve">
+    <value>lambda 形参</value>
+  </data>
+  <data name="InsideNamespaceSettingDescription" xml:space="preserve">
+    <value>命名空间内部</value>
+  </data>
+  <data name="EnableDisableRestoreExpected_Text" xml:space="preserve">
+    <value>应为 enable/disable/restore</value>
+  </data>
+  <data name="BeforeTypeParameterConstraintColonSettingDescription" xml:space="preserve">
+    <value>类型形参约束冒号前</value>
+  </data>
+  <data name="ExpressionsInitializersSwitchExpressionsPatternsSettingDescription" xml:space="preserve">
+    <value>表达式(初始值设定项、switch 表达式、模式、集合表达式)</value>
+  </data>
+  <data name="PlaceSinglelineAccessorAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将单行访问器特性置于同一行中</value>
+  </data>
+  <data name="AddBraces_Description_Text" xml:space="preserve">
+    <value>添加大括号</value>
+  </data>
+  <data name="InLocalsMembersAndParametersPreferSettingDescription" xml:space="preserve">
+    <value>在局部变量、成员和形参中，首选</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Pattern_RemoveRegions_ExceptGenerated_Text" xml:space="preserve">
+    <value>生成的区域除外</value>
+  </data>
+  <data name="BeforeArrayRankBracketsSettingDescription" xml:space="preserve">
+    <value>数组秩中括号前</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_RemoveBlankLinesNearBracesInDeclaration_SettingsEntryDescription" xml:space="preserve">
+    <value>移除声明中 '{' 之后和 '}' 之前的空行</value>
+  </data>
+  <data name="FileLayoutDesigner_Elements_Name_Text" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="ParserSelectClauseSymbol_Text" xml:space="preserve">
+    <value>'select' 子句</value>
+  </data>
+  <data name="PreferSeparateDeclarationsForDeconstructedVariablesSettingDescription" xml:space="preserve">
+    <value>为析构变量首选单独的声明</value>
+  </data>
+  <data name="AsyncTaskLocalFunction_PresentableName_Text" xml:space="preserve">
+    <value>返回任务的局部函数(非 'async')</value>
+  </data>
+  <data name="WrapArrayInitializerSettingDescription" xml:space="preserve">
+    <value>将数组初始值设定项换行</value>
+  </data>
+  <data name="EntityFrameworkSettingsDescription" xml:space="preserve">
+    <value>Entity Framework 分析设置</value>
+  </data>
+  <data name="WrapChainedBinaryExpressionsSettingDescription" xml:space="preserve">
+    <value>将链式二元表达式换行</value>
+  </data>
+  <data name="ParserInitializerSymbol_Text" xml:space="preserve">
+    <value>初始值设定项</value>
+  </data>
+  <data name="MaxPatternPropertiesOnASingleLineSettingDescription" xml:space="preserve">
+    <value>一行中的最大模式属性数</value>
+  </data>
+  <data name="Missing_Text" xml:space="preserve">
+    <value>缺少</value>
+  </data>
+  <data name="EndCommentsSettingDescription" xml:space="preserve">
+    <value>结束注释</value>
+  </data>
+  <data name="UseVar_Description_Text" xml:space="preserve">
+    <value>使用 'var'</value>
+  </data>
+  <data name="SwitchExpressionsSettingDescription" xml:space="preserve">
+    <value>Switch 表达式</value>
+  </data>
+  <data name="ChainedMethodCallsSettingDescription" xml:space="preserve">
+    <value>链式方法调用</value>
+  </data>
+  <data name="CustomPatternUseNullForDefaultPatternSettingDescription" xml:space="preserve">
+    <value>自定义模式。使用 null 表示默认模式。</value>
+  </data>
+  <data name="DefaultWrap" xml:space="preserve">
+    <value>默认偏好</value>
+  </data>
+  <data name="VariablesAndLocalConstantsSettingDescription" xml:space="preserve">
+    <value>变量和局部常量</value>
+  </data>
+  <data name="CallArgumentsSettingDescription" xml:space="preserve">
+    <value>调用参数</value>
+  </data>
+  <data name="WithinSingleLineExpressionBracesSettingDescription" xml:space="preserve">
+    <value>单行表达式大括号内</value>
+  </data>
+  <data name="EqualsExpected_Text" xml:space="preserve">
+    <value>应为 =</value>
+  </data>
+  <data name="PlaceItOnSingleLineEvenWhenItHasAttributesOnAccessorsSettingDescription" xml:space="preserve">
+    <value>即使在访问器上有特性，也将其置于单行中</value>
+  </data>
+  <data name="PrimaryConstructor_Text" xml:space="preserve">
+    <value>主构造函数</value>
+  </data>
+  <data name="CustomLayout_Description_Text" xml:space="preserve">
+    <value>自定义布局</value>
+  </data>
+  <data name="PlaceFieldAttributeOnTheSameLineSettingDescription" xml:space="preserve">
+    <value>将字段特性置于同一行中</value>
+  </data>
+  <data name="AsyncMethod_PresentableName_Text" xml:space="preserve">
+    <value>带有 'async' 的方法</value>
+  </data>
+  <data name="WarningsAnnotationsExpected_Text" xml:space="preserve">
+    <value>应为警告/注解</value>
+  </data>
+  <data name="ParserCollectionExpressionElementSymbol_Text" xml:space="preserve">
+    <value>集合表达式元素</value>
+  </data>
+  <data name="CLanguageSettingsSettingDescription" xml:space="preserve">
+    <value>C# 语言设置</value>
+  </data>
+  <data name="PropertyPatternsSettingDescription" xml:space="preserve">
+    <value>属性模式</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_BlankLinesBetweenUsingGroups_SettingsEntryDescription" xml:space="preserve">
+    <value>不同的 'using' 组之间</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapBeforeInvocationLpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在调用中的 '(' 前换行</value>
+  </data>
+  <data name="RemoveRedundantVarKeyword_Text" xml:space="preserve">
+    <value>移除冗余的 'var' 关键字</value>
+  </data>
+  <data name="ExternAliasDirectivesAreOnlyAllowed2_Text" xml:space="preserve">
+    <value>仅在命名空间主体的开头允许 'extern alias' 指令</value>
+  </data>
+  <data name="CSharpFormatSettingsKey_WrapAfterDeclarationLpar_SettingsEntryDescription" xml:space="preserve">
+    <value>首选在声明中的 '(' 后换行</value>
+  </data>
+  <data name="WrapComplexBinaryPatternsSettingDescription" xml:space="preserve">
+    <value>将复杂二元模式换行</value>
+  </data>
+  <data name="NamespaceBodyBlockExpected_Text" xml:space="preserve">
+    <value>应为命名空间主体块</value>
+  </data>
+  <data name="WrapVerbatimInterpolatedStringsSettingDescription" xml:space="preserve">
+    <value>将内插字符串换行</value>
+  </data>
+  <data name="LocalVariable_Text" xml:space="preserve">
+    <value>局部变量</value>
+  </data>
+  <data name="IndexedProperty_Text" xml:space="preserve">
+    <value>已编制索引的属性</value>
+  </data>
+</root>

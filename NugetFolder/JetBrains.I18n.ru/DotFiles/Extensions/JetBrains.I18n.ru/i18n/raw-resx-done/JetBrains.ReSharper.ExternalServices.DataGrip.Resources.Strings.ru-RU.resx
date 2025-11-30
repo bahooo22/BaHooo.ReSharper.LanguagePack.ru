@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="CollapseShortMultiRowValues_Text" xml:space="preserve">
+  <value>Свернуть короткие многострочные значения</value>
+</data>
+<data name="RoutineStatement_Text" xml:space="preserve">
+  <value>Оператор подпрограммы</value>
+</data>
+<data name="IndentENDIF_Text" xml:space="preserve">
+  <value>Отступ END IF</value>
+</data>
+<data name="Columns_Text" xml:space="preserve">
+  <value>Столбцы</value>
+</data>
+<data name="ToEnd_Text" xml:space="preserve">
+  <value>До конца</value>
+</data>
+<data name="IndentOptions_Text" xml:space="preserve">
+  <value>Параметры отступа</value>
+</data>
+<data name="ChangeDialectTo_Text" xml:space="preserve">
+  <value>Изменить диалект на…</value>
+</data>
+<data name="AlignLineCommentsAtRightOfElements_Text" xml:space="preserve">
+  <value>Выровнять строчные комментарии по правому краю элементов</value>
+</data>
+<data name="NewLine_Text" xml:space="preserve">
+  <value>Новая строка</value>
+</data>
+<data name="Script_Text" xml:space="preserve">
+  <value>Скрипт</value>
+</data>
+<data name="UseOriginalCase_Text" xml:space="preserve">
+  <value>Использовать оригинальный регистр</value>
+</data>
+<data name="WrappedAligned_Text" xml:space="preserve">
+  <value>Перенесено и выровнено</value>
+</data>
+<data name="JOINContinuouslyIndented_Text" xml:space="preserve">
+  <value>JOIN с непрерывным отступом</value>
+</data>
+<data name="QuotedIdentifiers_Text" xml:space="preserve">
+  <value>Идентификаторы в кавычках</value>
+</data>
+<data name="WrapTHEN_Text" xml:space="preserve">
+  <value>Переносить THEN</value>
+</data>
+<data name="SpacesWithinParentheses_Text" xml:space="preserve">
+  <value>Пробелы внутри круглых скобок</value>
+</data>
+<data name="WrappedIndented_Text" xml:space="preserve">
+  <value>Перенесено и с отступом</value>
+</data>
+<data name="UseAS_Text" xml:space="preserve">
+  <value>Использовать AS</value>
+</data>
+<data name="PlaceSubquery_Text" xml:space="preserve">
+  <value>Размещение подзапроса</value>
+</data>
+<data name="INSERTStatementAndVALUESClause_Text" xml:space="preserve">
+  <value>Оператор INSERT и предложение VALUES</value>
+</data>
+<data name="WrapTheFirstJOIN_Text" xml:space="preserve">
+  <value>Переносить первый JOIN</value>
+</data>
+<data name="SELECTClause_Text" xml:space="preserve">
+  <value>Предложение SELECT</value>
+</data>
+<data name="Routines_Text" xml:space="preserve">
+  <value>Подпрограммы</value>
+</data>
+<data name="SQLNamingSettings_Text" xml:space="preserve">
+  <value>Параметры именования SQL</value>
+</data>
+<data name="Queries_Text" xml:space="preserve">
+  <value>Запросы</value>
+</data>
+<data name="UPDATEStatement_Text" xml:space="preserve">
+  <value>Оператор UPDATE</value>
+</data>
+<data name="QueryLanguagesFeatureSuggesterMessageWithLicense" xml:space="preserve">
+  <value>Поддержка SQL и NoSQL в ReSharper была включена для вас.
+Подписка на dotUltimate и All Products Pack позволяет без ограничений использовать интеллектуальный анализ кода, завершение и быстрые исправления.</value>
+</data>
+<data name="Aliases_Text" xml:space="preserve">
+  <value>Псевдонимы</value>
+</data>
+<data name="SpaceBeforeComma_Text" xml:space="preserve">
+  <value>Пробел перед запятой</value>
+</data>
+<data name="WordCase_Text" xml:space="preserve">
+  <value>Регистр слов</value>
+</data>
+<data name="WHEREAndHAVINGClauses_Text" xml:space="preserve">
+  <value>Предложения WHERE и HAVING</value>
+</data>
+<data name="NamingStyle_Text" xml:space="preserve">
+  <value>Стиль именования</value>
+</data>
+<data name="CodeCleanupTask_StandaloneSqlReformatCode" xml:space="preserve">
+  <value>Переформатировать файлы SQL/NoSQL</value>
+</data>
+<data name="Expressions_Text" xml:space="preserve">
+  <value>Выражения</value>
+</data>
+<data name="PlaceClauseElementsOn_Text" xml:space="preserve">
+  <value>Размещать элементы предложения</value>
+</data>
+<data name="WrapInnerCode_Text" xml:space="preserve">
+  <value>Переносить внутренний код</value>
+</data>
+<data name="FROM_Text" xml:space="preserve">
+  <value>FROM</value>
+</data>
+<data name="BinaryExpression_Text" xml:space="preserve">
+  <value>Бинарное выражение</value>
+</data>
+<data name="KeepItemsOnOneLineIf_Text" xml:space="preserve">
+  <value>Максимум элементов в одной строке</value>
+</data>
+<data name="OnTheSameLine_Text" xml:space="preserve">
+  <value>На той же строке</value>
+</data>
+<data name="WrapREFERENCES_Text" xml:space="preserve">
+  <value>Переносить REFERENCES</value>
+</data>
+<data name="WrapAlteringInstructions_Text" xml:space="preserve">
+  <value>Переносить инструкции ALTER</value>
+</data>
+<data name="SQLNoSQLDefaultLiveTemplates_Text" xml:space="preserve">
+  <value>Стандартные живые шаблоны SQL/NoSQL</value>
+</data>
+<data name="KeepSectionElementUnderSectionHeader_Text" xml:space="preserve">
+  <value>Держать элемент раздела под заголовком раздела</value>
+</data>
+<data name="ForeignKeys_Text" xml:space="preserve">
+  <value>Внешние ключи</value>
+</data>
+<data name="QueryLanguagesTrialTimerStartedFeatureSuggesterShortDescription" xml:space="preserve">
+  <value>Начался пробный период поддержки SQL и NoSQL</value>
+</data>
+<data name="NewLineAfterALLDISTINCT_Text" xml:space="preserve">
+  <value>Новая строка после ALL, DISTINCT</value>
+</data>
+<data name="PlaceTopLevelANDOR_Text" xml:space="preserve">
+  <value>Размещение AND/OR верхнего уровня</value>
+</data>
+<data name="ToLeftWithIndent_Text" xml:space="preserve">
+  <value>Влево с отступом</value>
+</data>
+<data name="PlaceComma_Text" xml:space="preserve">
+  <value>Размещение запятой</value>
+</data>
+<data name="DeclaredVariables_Text" xml:space="preserve">
+  <value>Объявленные переменные</value>
+</data>
+<data name="AsIdentifiers_Text" xml:space="preserve">
+  <value>Как идентификаторы</value>
+</data>
+<data name="KeepNewLineAfterTHENELSE_Text" xml:space="preserve">
+  <value>Сохранять новую строку после THEN, ELSE</value>
+</data>
+<data name="AlignMultiRowVALUESPercentile_Text" xml:space="preserve">
+  <value>Процентиль для выравнивания многострочных VALUES</value>
+</data>
+<data name="PlaceINTOClauseElementsOn_Text" xml:space="preserve">
+  <value>Размещать элементы предложения INTO</value>
+</data>
+<data name="WrapEveryStatement_Text" xml:space="preserve">
+  <value>Переносить каждое выражение</value>
+</data>
+<data name="AddSpaceBefore_Text" xml:space="preserve">
+  <value>Добавить пробел перед `(`</value>
+</data>
+<data name="MaximumBlankLinesBetweenDeclarations_Text" xml:space="preserve">
+  <value>Максимум пустых строк между объявлениями</value>
+</data>
+<data name="SpaceWithinParenthesizedSubExpressions_Text" xml:space="preserve">
+  <value>Пробел внутри подвыражений в скобках</value>
+</data>
+<data name="PlaceJOINInJoinOnlyQueriesUnder_Text" xml:space="preserve">
+  <value>Размещать JOIN в запросах только с соединениями под</value>
+</data>
+<data name="No_Text" xml:space="preserve">
+  <value>0</value>
+</data>
+<data name="DDL_Text" xml:space="preserve">
+  <value>DDL</value>
+</data>
+<data name="Aligned_Text" xml:space="preserve">
+  <value>Выровнено</value>
+</data>
+<data name="WrapElements_Text" xml:space="preserve">
+  <value>Переносить элементы</value>
+</data>
+<data name="Unindented_Text" xml:space="preserve">
+  <value>Без отступа</value>
+</data>
+<data name="Variables_Text" xml:space="preserve">
+  <value>Переменные</value>
+</data>
+<data name="AllDonTBreak_Text" xml:space="preserve">
+  <value>Все (не переносить)</value>
+</data>
+<data name="SameLine_Text" xml:space="preserve">
+  <value>Та же строка</value>
+</data>
+<data name="DisableInFileWithComment_Text" xml:space="preserve">
+  <value>Отключать в файле с комментарием</value>
+</data>
+<data name="TableAsUsual_Text" xml:space="preserve">
+  <value>Таблица (как обычно)</value>
+</data>
+<data name="SqlCommonHighlightingGroup" xml:space="preserve">
+  <value>Общее</value>
+</data>
+<data name="KeepBlankLinesInCode_Text" xml:space="preserve">
+  <value>Сохранять пустые строки в коде</value>
+</data>
+<data name="WrapLOOP_Text" xml:space="preserve">
+  <value>Переносить LOOP</value>
+</data>
+<data name="SameLineAligned_Text" xml:space="preserve">
+  <value>Та же строка, выровнено</value>
+</data>
+<data name="ToLower_Text" xml:space="preserve">
+  <value>В нижний регистр</value>
+</data>
+<data name="WrapIfLong_Text" xml:space="preserve">
+  <value>Переносить, если длинное</value>
+</data>
+<data name="AlignDefaults_Text" xml:space="preserve">
+  <value>Выравнивать DEFAULT</value>
+</data>
+<data name="WrapCONSTRAINT_Text" xml:space="preserve">
+  <value>Переносить CONSTRAINT</value>
+</data>
+<data name="WrapELSE_Text" xml:space="preserve">
+  <value>Переносить ELSE</value>
+</data>
+<data name="Common_Text" xml:space="preserve">
+  <value>Общее</value>
+</data>
+<data name="BuiltInTypes_Text" xml:space="preserve">
+  <value>Встроенные типы</value>
+</data>
+<data name="Schemas_Text" xml:space="preserve">
+  <value>Схемы</value>
+</data>
+<data name="Never_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="WrapTheNextOption_Text" xml:space="preserve">
+  <value>Переносить следующую опцию</value>
+</data>
+<data name="SQLAndNoSQLSupportTrialEnded_Text" xml:space="preserve">
+  <value>Пробный период поддержки SQL и NoSQL подходит к концу</value>
+</data>
+<data name="DisableInStatementWithComment_Text" xml:space="preserve">
+  <value>Отключать в операторе с комментарием</value>
+</data>
+<data name="ToTitle_Text" xml:space="preserve">
+  <value>В регистр заголовка</value>
+</data>
+<data name="AlignAlteringInstructions_Text" xml:space="preserve">
+  <value>Выравнивать инструкции ALTER</value>
+</data>
+<data name="AlignMultiRowVALUESWithINSERT_Text" xml:space="preserve">
+  <value>Выравнивать многострочные VALUES с INSERT</value>
+</data>
+<data name="IndentWHENIfWrapped_Text" xml:space="preserve">
+  <value>Отступ WHEN, если перенесено</value>
+</data>
+<data name="InTheMiddle_Text" xml:space="preserve">
+  <value>Посередине</value>
+</data>
+<data name="ToLeft_Text" xml:space="preserve">
+  <value>Влево</value>
+</data>
+<data name="QueryLanguagesFeatureSuggesterMessageNoLicense" xml:space="preserve">
+  <value>Поддержка SQL и NoSQL в ReSharper теперь включена для вас!
+В течение 30 дней используйте интеллектуальный анализ кода, завершение и быстрые исправления для ваших запросов без ограничений или оформите подписку на dotUltimate.
+</value>
+</data>
+<data name="ChopIfLong_Text" xml:space="preserve">
+  <value>Разбивать, если длинное</value>
+</data>
+<data name="WrapCascadeAndDeferrability_Text" xml:space="preserve">
+  <value>Переносить CASCADE и DEFERRED</value>
+</data>
+<data name="AlignWithWHEN_Text" xml:space="preserve">
+  <value>Выровнять по WHEN</value>
+</data>
+<data name="AlignOperandsInBinaryExpressions_Text" xml:space="preserve">
+  <value>Выравнивать операнды в бинарных выражениях</value>
+</data>
+<data name="CREATEOrALTERTABLE_Text" xml:space="preserve">
+  <value>CREATE или ALTER TABLE</value>
+</data>
+<data name="WrapOptionsAfterClosing_Text" xml:space="preserve">
+  <value>Переносить опции после закрывающего $$</value>
+</data>
+<data name="Table_Text" xml:space="preserve">
+  <value>Таблица</value>
+</data>
+<data name="FunctionOrProcedureCall_Text" xml:space="preserve">
+  <value>Вызов функции или процедуры</value>
+</data>
+<data name="SQLAndNoSQLSupportLicenseInformation_Text" xml:space="preserve">
+  <value>Информация о лицензии на поддержку SQL и NoSQL</value>
+</data>
+<data name="Functions_Text" xml:space="preserve">
+  <value>Функции</value>
+</data>
+<data name="IndentLOOP_Text" xml:space="preserve">
+  <value>Отступ LOOP</value>
+</data>
+<data name="FROMIndented_Text" xml:space="preserve">
+  <value>FROM с отступом</value>
+</data>
+<data name="AlignMultiRowVALUESMinimalIncreaseThreshold_Text" xml:space="preserve">
+  <value>Порог минимального увеличения для выравнивания многострочных VALUES</value>
+</data>
+<data name="TabsIndentsAlignment_Text" xml:space="preserve">
+  <value>Табуляция, отступы, выравнивание</value>
+</data>
+<data name="SQLFiles_Text" xml:space="preserve">
+  <value>SQL файлы</value>
+</data>
+<data name="PlaceColumnsOrValues_Text" xml:space="preserve">
+  <value>Размещение столбцов или значений</value>
+</data>
+<data name="WrapWHEN_Text" xml:space="preserve">
+  <value>Переносить WHEN</value>
+</data>
+<data name="CustomTypes_Text" xml:space="preserve">
+  <value>Пользовательские типы</value>
+</data>
+<data name="ImperativeCommons_Text" xml:space="preserve">
+  <value>Императивные команды</value>
+</data>
+<data name="Tables_Text" xml:space="preserve">
+  <value>Таблицы</value>
+</data>
+<data name="WrapONUSING_Text" xml:space="preserve">
+  <value>Переносить ON/USING</value>
+</data>
+<data name="IndentENDLOOP_Text" xml:space="preserve">
+  <value>Отступ END LOOP</value>
+</data>
+<data name="Remove_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="AlignSectionElements_Text" xml:space="preserve">
+  <value>Выравнивать элементы раздела</value>
+</data>
+<data name="CollapseShortStatement_Text" xml:space="preserve">
+  <value>Сворачивать короткие операторы</value>
+</data>
+<data name="UseSpacesAroundOperators_Text" xml:space="preserve">
+  <value>Использовать пробелы вокруг операторов</value>
+</data>
+<data name="SqlFormatSettingsKeyDescription" xml:space="preserve">
+  <value>Форматирование кода в SQL/NoSQL</value>
+</data>
+<data name="AlignAS_Text" xml:space="preserve">
+  <value>Выравнивать AS</value>
+</data>
+<data name="WrapOpening_Text" xml:space="preserve">
+  <value>Переносить открывающий $$</value>
+</data>
+<data name="TreatAsteriskAsARegularElement_Text" xml:space="preserve">
+  <value>Считать звездочку обычным элементом</value>
+</data>
+<data name="Loops_Text" xml:space="preserve">
+  <value>Циклы</value>
+</data>
+<data name="WrappedUnindented_Text" xml:space="preserve">
+  <value>Перенесено и без отступа</value>
+</data>
+<data name="AsKeywords_Text" xml:space="preserve">
+  <value>Как ключевые слова</value>
+</data>
+<data name="LatestStatusOfSQLAndNoSQLSupportLicense_Text" xml:space="preserve">
+  <value>Последний статус лицензии на поддержку SQL и NoSQL</value>
+</data>
+<data name="ShowLicenseInformation_Text" xml:space="preserve">
+  <value>Показать информацию о лицензии</value>
+</data>
+<data name="ToRight_Text" xml:space="preserve">
+  <value>Вправо</value>
+</data>
+<data name="WrapFirstOption_Text" xml:space="preserve">
+  <value>Переносить первую опцию</value>
+</data>
+<data name="SQLDialectIsNotConfigured_Text" xml:space="preserve">
+  <value>Диалект SQL для ReSharper не настроен.</value>
+</data>
+<data name="PlaceINTOOnTheNewLine_Text" xml:space="preserve">
+  <value>Размещать INTO на новой строке</value>
+</data>
+<data name="AlignASCDESC_Text" xml:space="preserve">
+  <value>Выравнивать ASC/DESC</value>
+</data>
+<data name="AtTheEnd_Text" xml:space="preserve">
+  <value>В конце</value>
+</data>
+<data name="SQLInCStringLiterals_Text" xml:space="preserve">
+  <value>SQL в строковых литералах C#</value>
+</data>
+<data name="YourTrialPeriodIsEndingConsiderUpgrading_Text" xml:space="preserve">
+  <value>Ваш пробный период подходит к концу. Подумайте о переходе на подписку dotUltimate,
+чтобы продолжить использовать расширенную подсветку, завершение кода и быстрые исправления
+для различных диалектов, создавая лучший SQL и NoSQL код.</value>
+</data>
+<data name="WrapTheNextJOIN_Text" xml:space="preserve">
+  <value>Переносить следующий JOIN</value>
+</data>
+<data name="SpaceWithinParentheses_Text" xml:space="preserve">
+  <value>Пробел внутри круглых скобок</value>
+</data>
+<data name="JOIN_Text" xml:space="preserve">
+  <value>JOIN</value>
+</data>
+<data name="Identifiers_Text" xml:space="preserve">
+  <value>Идентификаторы</value>
+</data>
+<data name="ExploreDotUltimate_Text" xml:space="preserve">
+  <value>Изучить dotUltimate</value>
+</data>
+<data name="CollapseShortClause_Text" xml:space="preserve">
+  <value>Сворачивать короткие предложения</value>
+</data>
+<data name="AlignWithCASE_Text" xml:space="preserve">
+  <value>Выровнять по CASE</value>
+</data>
+<data name="AlignTableAliases_Text" xml:space="preserve">
+  <value>Выравнивать псевдонимы таблиц</value>
+</data>
+<data name="IndentContent_Text" xml:space="preserve">
+  <value>Отступ содержимого</value>
+</data>
+<data name="UnderOpening_Text" xml:space="preserve">
+  <value>Под открывающей скобкой</value>
+</data>
+<data name="AsInCommon_Text" xml:space="preserve">
+  <value>Как в общем</value>
+</data>
+<data name="QueryLanguagesTrialTimerStartedFeatureSuggesterMessage" xml:space="preserve">
+  <value>Ваш пробный период поддержки SQL и NoSQL начался. Осталось {0} {1:choice:one#день|other#дней}.</value>
+</data>
+<data name="MinimumBlankLinesBetweenDeclarations_Text" xml:space="preserve">
+  <value>Минимум пустых строк между объявлениями</value>
+</data>
+<data name="Align_Text" xml:space="preserve">
+  <value>Выровнять `=`</value>
+</data>
+<data name="ContinuationIndentSizeSettingDescription" xml:space="preserve">
+  <value>Размер отступа для продолжения</value>
+</data>
+<data name="MatchBest_Text" xml:space="preserve">
+  <value>Наиболее {0:choice:one#соответствует|other#соответствуют}.</value>
+</data>
+<data name="AlignExpressions_Text" xml:space="preserve">
+  <value>Выравнивать выражения</value>
+</data>
+<data name="WrapColumnsOrValues_Text" xml:space="preserve">
+  <value>Переносить столбцы или значения</value>
+</data>
+<data name="WITHClause_Text" xml:space="preserve">
+  <value>Предложение WITH</value>
+</data>
+<data name="WrapBeforeClosing_Text" xml:space="preserve">
+  <value>Переносить перед закрывающим $$</value>
+</data>
+<data name="AlignJoinedTables_Text" xml:space="preserve">
+  <value>Выравнивать соединенные таблицы</value>
+</data>
+<data name="choice:mappings" xml:space="preserve">
+  <value>one:i == 1</value>
+</data>
+<data name="Yes_Text" xml:space="preserve">
+  <value>Да</value>
+</data>
+<data name="Auto_Text" xml:space="preserve">
+  <value>Авто</value>
+</data>
+<data name="GROUPBYAndORDERBYClauses_Text" xml:space="preserve">
+  <value>Предложения GROUP BY и ORDER BY</value>
+</data>
+<data name="InAppropriateSQLNoSQLContext_Text" xml:space="preserve">
+  <value>В подходящем контексте SQL/NoSQL (управляется ReSharper)</value>
+</data>
+<data name="WrapKEYCHECK_Text" xml:space="preserve">
+  <value>Переносить KEY/CHECK</value>
+</data>
+<data name="ToBegin_Text" xml:space="preserve">
+  <value>В начало</value>
+</data>
+<data name="WrapTheContentAfterOpening_Text" xml:space="preserve">
+  <value>Переносить содержимое после открывающего $$</value>
+</data>
+<data name="SpaceAfterComma_Text" xml:space="preserve">
+  <value>Пробел после запятой</value>
+</data>
+<data name="CASEClause_Text" xml:space="preserve">
+  <value>Предложение CASE</value>
+</data>
+<data name="DoNotChange_Text" xml:space="preserve">
+  <value>Не изменять</value>
+</data>
+<data name="SuitableSQLCode_Text" xml:space="preserve">
+  <value>Подходящий SQL код</value>
+</data>
+<data name="UnderElements_Text" xml:space="preserve">
+  <value>Под элементами</value>
+</data>
+<data name="AlignTheFirstWordOfClause_Text" xml:space="preserve">
+  <value>Выравнивать первое слово предложения</value>
+</data>
+<data name="SubqueriesOnly_Text" xml:space="preserve">
+  <value>Только подзапросы</value>
+</data>
+<data name="CommandsFollowByBlankLines_Text" xml:space="preserve">
+  <value>Добавлять пустые строки после команд</value>
+</data>
+<data name="RoutineArguments_Text" xml:space="preserve">
+  <value>Аргументы подпрограммы</value>
+</data>
+<data name="AlignNullabilities_Text" xml:space="preserve">
+  <value>Выравнивать допустимость NULL</value>
+</data>
+<data name="Subquery_Text" xml:space="preserve">
+  <value>Подзапрос</value>
+</data>
+<data name="AddAlways_Text" xml:space="preserve">
+  <value>Добавлять всегда</value>
+</data>
+<data name="SQLSupportTrialFailedToStartRecently_Text" xml:space="preserve">
+  <value>Пробный период поддержки SQL недавно не удалось запустить</value>
+</data>
+<data name="PlaceElements_Text" xml:space="preserve">
+  <value>Размещение элементов</value>
+</data>
+<data name="BuiltInFunctions_Text" xml:space="preserve">
+  <value>Встроенные функции</value>
+</data>
+<data name="IndentAlteringInstructions_Text" xml:space="preserve">
+  <value>Отступ для инструкций ALTER</value>
+</data>
+<data name="PlaceClosingParenthesis_Text" xml:space="preserve">
+  <value>Размещение закрывающей скобки</value>
+</data>
+<data name="PlaceONUSINGUnder_Text" xml:space="preserve">
+  <value>Размещать ON/USING под</value>
+</data>
+<data name="JOINIndented_Text" xml:space="preserve">
+  <value>JOIN с отступом</value>
+</data>
+<data name="FROMClause_Text" xml:space="preserve">
+  <value>Предложение FROM</value>
+</data>
+<data name="IndentTHENAndELSE_Text" xml:space="preserve">
+  <value>Отступ THEN и ELSE</value>
+</data>
+<data name="AlignEnd_Text" xml:space="preserve">
+  <value>Выровнять END</value>
+</data>
+<data name="AlignAssignments_Text" xml:space="preserve">
+  <value>Выравнивать присваивания</value>
+</data>
+<data name="InjectsSQLInCStringLiteralsWhenAString_Text" xml:space="preserve">
+  <value>Внедрять SQL в строковые литералы C#, когда строка похожа на SQL оператор</value>
+</data>
+<data name="CodeCleanupTask_InjectedSqlReformatCode" xml:space="preserve">
+  <value>Переформатировать внедренный SQL/NoSQL</value>
+</data>
+<data name="WrapAS_Text" xml:space="preserve">
+  <value>Переносить AS</value>
+</data>
+<data name="Views_Text" xml:space="preserve">
+  <value>Представления</value>
+</data>
+<data name="TableIndented_Text" xml:space="preserve">
+  <value>Таблица с отступом</value>
+</data>
+<data name="IndentAlteredItems_Text" xml:space="preserve">
+  <value>Отступ для изменяемых элементов</value>
+</data>
+<data name="WrapAlteredItems_Text" xml:space="preserve">
+  <value>Переносить изменяемые элементы</value>
+</data>
+<data name="Indented_Text" xml:space="preserve">
+  <value>С отступом</value>
+</data>
+<data name="AlignTypes_Text" xml:space="preserve">
+  <value>Выравнивать типы</value>
+</data>
+<data name="AlignMultiRowVALUES_Text" xml:space="preserve">
+  <value>Выравнивать многострочные VALUES</value>
+</data>
+<data name="WarpCommandEndingSemicolon_Text" xml:space="preserve">
+  <value>Переносить завершающую точку с запятой команды</value>
+</data>
+<data name="QueryLanguagesFeatureSuggesterShortDescription" xml:space="preserve">
+  <value>ReSharper предоставляет поддержку SQL и NoSQL</value>
+</data>
+<data name="Cortege_Text" xml:space="preserve">
+  <value>Кортеж</value>
+</data>
+<data name="Code_Text" xml:space="preserve">
+  <value>Код</value>
+</data>
+<data name="DatabaseLanguageComboBoxToolTip" xml:space="preserve">
+  <value>SQL диалект для этого файла</value>
+</data>
+<data name="Keys_Text" xml:space="preserve">
+  <value>Ключи</value>
+</data>
+<data name="PlaceVALUESClauseElementsRowsOn_Text" xml:space="preserve">
+  <value>Размещать элементы предложения VALUES (строки)</value>
+</data>
+<data name="Keywords_Text" xml:space="preserve">
+  <value>Ключевые слова</value>
+</data>
+<data name="ReSharperSSQLAndNoSQLSupportIsIncluded_Text" xml:space="preserve">
+  <value>Поддержка SQL и NoSQL в ReSharper включена в вашу подписку.
+Вы уже пробовали? Мы будем рады услышать ваше мнение.</value>
+</data>
+<data name="IndentJOIN_Text" xml:space="preserve">
+  <value>Отступ JOIN</value>
+</data>
+<data name="AlignAlteredItems_Text" xml:space="preserve">
+  <value>Выравнивать изменяемые элементы</value>
+</data>
+<data name="PlaceTheOpeningParenthesis_Text" xml:space="preserve">
+  <value>Размещение открывающей скобки</value>
+</data>
+<data name="ReSharperIsRequiredToEnableSQLAndNoSQL_Text" xml:space="preserve">
+  <value>Для включения поддержки SQL и NoSQL требуется ReSharper</value>
+</data>
+<data name="Chop_Text" xml:space="preserve">
+  <value>Разбивать</value>
+</data>
+<data name="CollapseWhenShort_Text" xml:space="preserve">
+  <value>Сворачивать, если короткое</value>
+</data>
+<data name="WrapSection_Text" xml:space="preserve">
+  <value>Переносить раздел</value>
+</data>
+<data name="InAnySQLFile_Text" xml:space="preserve">
+  <value>В любом SQL файле</value>
+</data>
+<data name="Templates_Text" xml:space="preserve">
+  <value>Шаблоны</value>
+</data>
+<data name="AlignMultiRowVALUESBreakThreshold_Text" xml:space="preserve">
+  <value>Порог разрыва для выравнивания многострочных VALUES</value>
+</data>
+<data name="Always_Text" xml:space="preserve">
+  <value>Всегда</value>
+</data>
+<data name="AlignELSEUnderTHENWhenTHENAligned_Text" xml:space="preserve">
+  <value>Выравнивать ELSE под THEN, когда THEN выровнено</value>
+</data>
+<data name="WrapTheBeginningOfTheQuery_Text" xml:space="preserve">
+  <value>Переносить начало запроса</value>
+</data>
+<data name="SpaceAfterKeyword_Text" xml:space="preserve">
+  <value>Пробел после ключевого слова</value>
+</data>
+<data name="PlaceElementsOn_Text" xml:space="preserve">
+  <value>Размещать элементы</value>
+</data>
+<data name="ToUpper_Text" xml:space="preserve">
+  <value>В верхний регистр</value>
+</data>
+<data name="SQLAndNoSQLSupportTrialFailedToStart_Text" xml:space="preserve">
+  <value>Не удалось начать пробный период поддержки SQL и NoSQL.</value>
+</data>
+<data name="AlignOptions_Text" xml:space="preserve">
+  <value>Параметры выравнивания</value>
+</data>
+<data name="AlignTHEN_Text" xml:space="preserve">
+  <value>Выравнивать THEN</value>
+</data>
+<data name="FormattingStyle_Text" xml:space="preserve">
+  <value>Стиль форматирования</value>
+</data>
+<data name="PostfixOptions_Text" xml:space="preserve">
+  <value>Постфиксные опции</value>
+</data>
+<data name="WrapVariables_Text" xml:space="preserve">
+  <value>Переносить переменные</value>
+</data>
+<data name="IndentQuery_Text" xml:space="preserve">
+  <value>Отступ запроса</value>
+</data>
+<data name="PlaceCommaToBegin_Text" xml:space="preserve">
+  <value>Размещать запятую в начале</value>
+</data>
+</root>

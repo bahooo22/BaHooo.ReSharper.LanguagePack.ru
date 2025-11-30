@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="WeWillAutomaticallyLookForTSLintPackage_RichText_Text" xml:space="preserve">
+  <value>Мы автоматически найдем пакет TSLint в папке node_modules проекта</value>
+</data>
+<data name="FailedToInitialize_CanTLoadLinterBy_Text" xml:space="preserve">
+  <value>Не удалось инициализировать {0}. Не удалось загрузить linter по найденному пути "{1}". Причина: {2}.</value>
+</data>
+<data name="ChooseTSLintPackageLocation_Text_Text" xml:space="preserve">
+  <value>Выберите расположение пакета TSLint:</value>
+</data>
+<data name="FailedToInitialize_SpecifiedLinterPath_Text" xml:space="preserve">
+  <value>Не удалось инициализировать {0}. Указанный путь к linter пуст.</value>
+</data>
+<data name="WeWillAutomaticallyLookForESLintPackage_RichText_Text" xml:space="preserve">
+  <value>Мы автоматически найдем пакет ESLint в папке node_modules проекта</value>
+</data>
+<data name="PathToAdditionalESLintRulesDirectorySettingDescription" xml:space="preserve">
+  <value>Путь к дополнительному каталогу правил ESLint</value>
+</data>
+<data name="PathToTheTSLintFolder_FolderChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к папке TSLint</value>
+</data>
+<data name="_Fix_Problem_ToolTip" xml:space="preserve">
+  <value>({0}) Исправляет проблему {1}</value>
+</data>
+<data name="ShowFullMessage_Caption" xml:space="preserve">
+  <value>Показать полное сообщение</value>
+</data>
+<data name="AdditionalJSLintOptionsSettingDescription" xml:space="preserve">
+  <value>Дополнительные опции JSLint</value>
+</data>
+<data name="AdditionalESLintOptionsSettingDescription" xml:space="preserve">
+  <value>Дополнительные опции ESLint</value>
+</data>
+<data name="TSLintWillAutomaticallyLookForTslint_Text" xml:space="preserve">
+  <value>TSLint автоматически будет искать файлы tslint.json/.yaml/.yml в каталоге линтируемого файла и в последовательных родительских каталогах до корня файловой системы или домашнего каталога пользователя.</value>
+</data>
+<data name="TSLintRunTypeSettingDescription" xml:space="preserve">
+  <value>Тип запуска TSLint</value>
+</data>
+<data name="JSLintRunTypeSettingDescription" xml:space="preserve">
+  <value>Тип запуска JSLint</value>
+</data>
+<data name="AdditionalJSLintOptions_StringOption_Text" xml:space="preserve">
+  <value>Дополнительные опции JSLint: </value>
+</data>
+<data name="SomethingGoesWrongWhileLinterInitialization_Text" xml:space="preserve">
+  <value>Ошибка при инициализации linter: {0}</value>
+</data>
+<data name="Configuration_Header_Text" xml:space="preserve">
+  <value>Конфигурация</value>
+</data>
+<data name="TSLintPackageSearchModeSettingDescription" xml:space="preserve">
+  <value>Режим поиска пакета TSLint</value>
+</data>
+<data name="AdditionalTSLintOptions_StringOption_Text" xml:space="preserve">
+  <value>Дополнительные опции TSLint: </value>
+</data>
+<data name="ExternalLinterTypeScriptErrors_Text" xml:space="preserve">
+  <value>Ошибки TypeScript внешнего linter</value>
+</data>
+<data name="JSLintPackageSearchModeSettingDescription" xml:space="preserve">
+  <value>Режим поиска пакета JSLint</value>
+</data>
+<data name="EnterOptionsInTheCommandLineLikeFormat_Text" xml:space="preserve">
+  <value>Вводите опции в формате, подобном командной строке. Разделяйте параметры пробелами.</value>
+</data>
+<data name="FailedToInitialize_CanTLoadLinterBy_Text2" xml:space="preserve">
+  <value>Не удалось инициализировать {0}. Не удалось загрузить linter по указанному пути. Причина: {1}.</value>
+</data>
+<data name="Inspection__Text" xml:space="preserve">
+  <value>Инспекция: {0}</value>
+</data>
+<data name="TSLintEnabledSettingDescription" xml:space="preserve">
+  <value>TSLint включен</value>
+</data>
+<data name="ESLintWillAutomaticallyLookForEslintrc_Text" xml:space="preserve">
+  <value>ESLint автоматически будет искать файлы .eslintrc.* и package.json в каталоге линтируемого файла и в последовательных родительских каталогах до корня файловой системы или домашнего каталога пользователя.</value>
+</data>
+<data name="CustomESLintFolder_SingleRadioOption_Text" xml:space="preserve">
+  <value>Пользовательская папка ESLint:</value>
+</data>
+<data name="CustomConfigurationFile_SingleRadioOption_Text" xml:space="preserve">
+  <value>Пользовательский файл конфигурации:</value>
+</data>
+<data name="ChooseAWayOfTSLintConfiguration_Text_Text" xml:space="preserve">
+  <value>Выберите способ конфигурации TSLint:</value>
+</data>
+<data name="NodeJsIsNotInstalledCorrectlyOrPath_Text" xml:space="preserve">
+  <value>Node.js установлен неправильно или путь к исполняемому файлу Node.js некорректен: {0}</value>
+</data>
+<data name="ChooseAWayOfESLintConfiguration_Text_Text" xml:space="preserve">
+  <value>Выберите способ конфигурации ESLint:</value>
+</data>
+<data name="Enable_BoolOption_Text" xml:space="preserve">
+  <value>Включить</value>
+</data>
+<data name="EditNodeJsSettings_Caption" xml:space="preserve">
+  <value>Изменить настройки Node.js</value>
+</data>
+<data name="CriticalLinterError_Text" xml:space="preserve">
+  <value>Критическая ошибка linter</value>
+</data>
+<data name="ESLintLinterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки linter ESLint</value>
+</data>
+<data name="ExternalLinterJavaScriptErrors_Text" xml:space="preserve">
+  <value>Ошибки JavaScript внешнего linter</value>
+</data>
+<data name="ESLintEnabledSettingDescription" xml:space="preserve">
+  <value>ESLint включен</value>
+</data>
+<data name="TSLintOptionPageTitle" xml:space="preserve">
+  <value>TSLint</value>
+</data>
+<data name="ChooseJSLintPackageLocation_Text_Text" xml:space="preserve">
+  <value>Выберите расположение пакета JSLint:</value>
+</data>
+<data name="ValidateJavaScriptFilesSettingDescription" xml:space="preserve">
+  <value>Проверять файлы JavaScript</value>
+</data>
+<data name="EnableEsLintValidation_BoolOption_ToolTip" xml:space="preserve">
+  <value>Включить проверку ESLint</value>
+</data>
+<data name="PathToTheConfigurationFile_FileChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к файлу конфигурации</value>
+</data>
+<data name="JslintEnabledSettingDescription" xml:space="preserve">
+  <value>JSLint включен</value>
+</data>
+<data name="EnableTSLintValidation_BoolOption_ToolTip" xml:space="preserve">
+  <value>Включить проверку TSLint</value>
+</data>
+<data name="LintJavaScriptFiles_BoolOption_Text" xml:space="preserve">
+  <value>Линтовать файлы JavaScript</value>
+</data>
+<data name="CustomJSLintFolder_SingleRadioOption_Text" xml:space="preserve">
+  <value>Пользовательская папка JSLint:</value>
+</data>
+<data name="ShowLinterSettings_Caption" xml:space="preserve">
+  <value>Показать настройки linter</value>
+</data>
+<data name="General_Header_Text" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="JSLintOptionPageTitle" xml:space="preserve">
+  <value>JSLint</value>
+</data>
+<data name="WaitingTooLongForReadingLinterResponse_Text" xml:space="preserve">
+  <value>Слишком долгое ожидание чтения ответа linter.</value>
+</data>
+<data name="LinterSourcesPathSettingDescription" xml:space="preserve">
+  <value>Путь к исходникам linter</value>
+</data>
+<data name="AdditionalTSLintOptionsSettingDescription" xml:space="preserve">
+  <value>Дополнительные опции TSLint</value>
+</data>
+<data name="GeneralLintersSettingsSettingDescription" xml:space="preserve">
+  <value>Общие настройки linter</value>
+</data>
+<data name="ConfigurationSearchModeSettingDescription" xml:space="preserve">
+  <value>Режим поиска конфигурации</value>
+</data>
+<data name="CustomTSLintFolder_SingleRadioOption_Text" xml:space="preserve">
+  <value>Пользовательская папка TSLint:</value>
+</data>
+<data name="LinterPackagePathSettingDescription" xml:space="preserve">
+  <value>Путь к пакету linter</value>
+</data>
+<data name="LintFailed__Text" xml:space="preserve">
+  <value>Ошибка линтинга: {0}</value>
+</data>
+<data name="ESLintRunTypeSettingDescription" xml:space="preserve">
+  <value>Тип запуска ESLint</value>
+</data>
+<data name="ShowError_Caption" xml:space="preserve">
+  <value>Показать ошибку</value>
+</data>
+<data name="AdditionalESLintOptions_StringOption_Text" xml:space="preserve">
+  <value>Дополнительные опции ESLint: </value>
+</data>
+<data name="FailedToInitialize___Text" xml:space="preserve">
+  <value>Не удалось инициализировать {0}.{1}</value>
+</data>
+<data name="EnterOptionsInTheCommandLineLikeFormat_Text2" xml:space="preserve">
+  <value>Вводите опции в формате, подобном командной строке. Разделяйте параметры пробелами.</value>
+</data>
+<data name="WebLintersOptionPageTitle" xml:space="preserve">
+  <value>Веб linter</value>
+</data>
+<data name="ESLintOptionPageTitle" xml:space="preserve">
+  <value>ESLint</value>
+</data>
+<data name="AutomaticSearch_SingleRadioOption_Text" xml:space="preserve">
+  <value>Автоматический поиск</value>
+</data>
+<data name="TSLintLinterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки linter TSLint</value>
+</data>
+<data name="ChooseESLintPackageLocation_Text_Text" xml:space="preserve">
+  <value>Выберите расположение пакета ESLint:</value>
+</data>
+<data name="PathToAdditionalTSLintRulesDirectorySettingDescription" xml:space="preserve">
+  <value>Путь к дополнительному каталогу правил TSLint</value>
+</data>
+<data name="EnableJSLintValidation_BoolOption_ToolTip" xml:space="preserve">
+  <value>Включить проверку JSLint</value>
+</data>
+<data name="PathToTheESLintFolder_FolderChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к папке ESLint</value>
+</data>
+<data name="Options_Header_Text" xml:space="preserve">
+  <value>Опции</value>
+</data>
+<data name="ESLintPackageSearchModeSettingDescription" xml:space="preserve">
+  <value>Режим поиска пакета ESLint</value>
+</data>
+<data name="LinterWarning_Text" xml:space="preserve">
+  <value>Предупреждение linter</value>
+</data>
+<data name="General_Header_Text3" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="General_Header_Text2" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="WeWillAutomaticallyLookForJSLintPackage_RichText_Text" xml:space="preserve">
+  <value>Мы автоматически найдем пакет JSLint в папке node_modules проекта</value>
+</data>
+<data name="NodeJsIsNotFound_Text" xml:space="preserve">
+  <value>Node.js не найден</value>
+</data>
+<data name="LinterInfoMessage_Text" xml:space="preserve">
+  <value>Информационное сообщение linter</value>
+</data>
+<data name="ConfigurationFilePathSettingDescription" xml:space="preserve">
+  <value>Путь к файлу конфигурации</value>
+</data>
+<data name="JslintLinterSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки linter JSLint</value>
+</data>
+<data name="PathToTheJSLintFolder_FolderChooserOption_ToolTip" xml:space="preserve">
+  <value>Путь к папке JSLint</value>
+</data>
+<data name="ConfigureInspectionSeverity_Text" xml:space="preserve">
+  <value>Настроить серьезность инспекции</value>
+</data>
+</root>

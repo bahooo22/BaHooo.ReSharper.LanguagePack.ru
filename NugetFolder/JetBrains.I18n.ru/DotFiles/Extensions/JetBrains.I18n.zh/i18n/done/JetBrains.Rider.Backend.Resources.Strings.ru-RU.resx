@@ -1,0 +1,3322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Extension_for_objects" xml:space="preserve">
+    <value>对象的扩展</value>
+  </data>
+  <data name="Project_Template_Option_TWFjIENhdGFseXN0IEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Mac Catalyst 应用程序</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Set_Project_Properties" xml:space="preserve">
+    <value>无法设置项目属性</value>
+  </data>
+  <data name="RearrangeCodeActionText" xml:space="preserve">
+    <value>重新排列代码</value>
+  </data>
+  <data name="NETFrameworkProjects_Text" xml:space="preserve">
+    <value>.NET Framework 项目</value>
+  </data>
+  <data name="GeneratingType__Text" xml:space="preserve">
+    <value>正在生成类型 '{0}'…</value>
+  </data>
+  <data name="AdditionalData_Text" xml:space="preserve">
+    <value>其他数据</value>
+  </data>
+  <data name="Processing_File_Text" xml:space="preserve">
+    <value>正在处理 {0}…</value>
+  </data>
+  <data name="ShowRunMarkerOnStaticMethodsSettingDescription" xml:space="preserve">
+    <value>在 static 方法上显示运行标记</value>
+  </data>
+  <data name="CanNotFindTypeDeclaration_SkipGeneration_Text" xml:space="preserve">
+    <value>找不到类型声明 '{0}'，跳过生成</value>
+  </data>
+  <data name="AnonymousAuthentication_Caption" xml:space="preserve">
+    <value>匿名身份验证</value>
+  </data>
+  <data name="XCodeProjectFileIsMissing_Text" xml:space="preserve">
+    <value>缺少 Xcode 项目文件</value>
+  </data>
+  <data name="GenerateApplicationhostConfig_Caption" xml:space="preserve">
+    <value>生成 applicationhost.config</value>
+  </data>
+  <data name="SmartStepInto_Text" xml:space="preserve">
+    <value>智能步入</value>
+  </data>
+  <data name="ProvisionProfile_Text" xml:space="preserve">
+    <value>预配配置文件:</value>
+  </data>
+  <data name="Decompress__Text" xml:space="preserve">
+    <value>解压缩 {0}</value>
+  </data>
+  <data name="EnableHotReloadWhenDebugging_Text" xml:space="preserve">
+    <value>调试时启用热重载</value>
+  </data>
+  <data name="UseIncrementalAndroidPackingSystemAapt2_CheckBox_Caption" xml:space="preserve">
+    <value>使用增量 Android 打包系统(aapt2)</value>
+  </data>
+  <data name="JavaDevelopmentKitPathSettingDescription" xml:space="preserve">
+    <value>Java Development Kit 路径</value>
+  </data>
+  <data name="TrueIfSWEAWasEnabledOnFirstSolutionLoadSettingDescription" xml:space="preserve">
+    <value>如果在第一次加载解决方案时启用了 SWEA，则为 True</value>
+  </data>
+  <data name="ProjectFileContentWasUpdated_Text" xml:space="preserve">
+    <value>项目文件内容已更新</value>
+  </data>
+  <data name="FailedToParseMethodOn__Text" xml:space="preserve">
+    <value>无法解析 {0} 上的方法</value>
+  </data>
+  <data name="NotificationsActionGroupText" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="AndroidResourceDesignerGenerator_Text" xml:space="preserve">
+    <value>Android Resource.Designer 生成器</value>
+  </data>
+  <data name="RiderDetectsNamingConventionsInOpened_Text" xml:space="preserve">
+    <value>Rider 可以在打开的解决方案中检测命名约定并相应地更新设置。点击“配置”以更改。</value>
+  </data>
+  <data name="FirstAndLastName_Text" xml:space="preserve">
+    <value>名字和姓氏</value>
+  </data>
+  <data name="AuthenticationType_ToolTip" xml:space="preserve">
+    <value>身份验证类型</value>
+  </data>
+  <data name="Unknown___Text" xml:space="preserve">
+    <value>未知 {0}: {1}</value>
+  </data>
+  <data name="Finish_Text" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="AndroidPackageFormat_ComboBox_Caption" xml:space="preserve">
+    <value>Android 软件包格式</value>
+  </data>
+  <data name="VBLanguageLevel_Caption" xml:space="preserve">
+    <value>Rider 的语言级别重写</value>
+  </data>
+  <data name="PathToCInteractiveToolSettingDescription" xml:space="preserve">
+    <value>C# Interactive 工具的路径</value>
+  </data>
+  <data name="HttpClientManaged_ComboBoxValue" xml:space="preserve">
+    <value>HttpClient (托管)</value>
+  </data>
+  <data name="DistributionAutomatic_Text" xml:space="preserve">
+    <value>分发(自动)</value>
+  </data>
+  <data name="AndroidSDKPlatformForApplicationAPI_Text" xml:space="preserve">
+    <value>未安装应用程序 API 级别的 Android SDK 平台。
+请在 Android SDK 管理器中进行安装，或更改您的 Xamarin.Android 项目，以安装的 API 版本为目标。</value>
+  </data>
+  <data name="Package_vulnerabilities_detected" xml:space="preserve">
+    <value>已检测到包含漏洞的软件包</value>
+  </data>
+  <data name="CompactFormatActionText" xml:space="preserve">
+    <value>紧凑格式</value>
+  </data>
+  <data name="ShowArchitectureDiagramActionText" xml:space="preserve">
+    <value>显示项目依赖关系图(&amp;P)</value>
+  </data>
+  <data name="CannotGenerateTheConfigurationFile_Text" xml:space="preserve">
+    <value>无法生成配置文件</value>
+  </data>
+  <data name="SqlProjects_Tools_Header_Text" xml:space="preserve">
+    <value>工具</value>
+  </data>
+  <data name="ArchivesListPage_Name_Title" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="RemoveSelectedTest_Text" xml:space="preserve">
+    <value>移除所选测试</value>
+  </data>
+  <data name="WhetherWindowsFormsDesignerIsEnabledSettingDescription" xml:space="preserve">
+    <value>是否启用 Windows 窗体设计器</value>
+  </data>
+  <data name="Project_Template_Option_d2l0aCBSZWFjdC5qcwEQEQ" xml:space="preserve">
+    <value>使用 React.js</value>
+  </data>
+  <data name="SpecifiedXcodePath_PointsToInvalidXcode_Text" xml:space="preserve">
+    <value>指定的 Xcode 路径 '{0}' 指向无效的位置</value>
+  </data>
+  <data name="OpenXamarinAndroidSDKRepositoryPage_Text" xml:space="preserve">
+    <value>打开 GitHub 上的 Xamarin Android SDK 仓库页面…</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Related_Usages" xml:space="preserve">
+    <value>相关用法</value>
+  </data>
+  <data name="CredentialProviders_Header_Text" xml:space="preserve">
+    <value>凭据提供程序</value>
+  </data>
+  <data name="GeneratePageModelClass_DescriptionText" xml:space="preserve">
+    <value>生成 PageModel 类(_P)</value>
+  </data>
+  <data name="_IsNotFrameworkProject_Text" xml:space="preserve">
+    <value>{0} 不是 Framework 项目</value>
+  </data>
+  <data name="IisExpressSettingsSettingDescription" xml:space="preserve">
+    <value>IIS Express 设置</value>
+  </data>
+  <data name="GoTo__Caption" xml:space="preserve">
+    <value>转到 {0}</value>
+  </data>
+  <data name="Core_ComboBoxValue" xml:space="preserve">
+    <value>核心</value>
+  </data>
+  <data name="DefaultCLR_Text" xml:space="preserve">
+    <value>默认(CLR)</value>
+  </data>
+  <data name="_ReferenceScriptLibraries_Text" xml:space="preserve">
+    <value>引用脚本库(_R)</value>
+  </data>
+  <data name="Uninstall_Header_Text" xml:space="preserve">
+    <value>卸载</value>
+  </data>
+  <data name="_IsAlreadyUsingPackageReferences_Text" xml:space="preserve">
+    <value>{0} 已使用软件包引用</value>
+  </data>
+  <data name="ItemWithName_AlreadyExists_Text" xml:space="preserve">
+    <value>已存在名为 '{0}' 的条目</value>
+  </data>
+  <data name="CheckAndInstallNuGetPackages_Text" xml:space="preserve">
+    <value>检查并安装 NuGet 软件包</value>
+  </data>
+  <data name="GoToUsageIfThereIsOnly_oneResultNavigate_Text" xml:space="preserve">
+    <value>转到用法: 如果只有一个结果，导航而不显示列表(_O)</value>
+  </data>
+  <data name="IgnoreAssemblies_TextBox_Caption" xml:space="preserve">
+    <value>忽略程序集</value>
+  </data>
+  <data name="EnterURIPath_Caption" xml:space="preserve">
+    <value>输入 URI 路径</value>
+  </data>
+  <data name="UnableToFindBaseObjectTypeFor__Text" xml:space="preserve">
+    <value>找不到 '{0}' 的基对象类型</value>
+  </data>
+  <data name="SpecifyAnExistingOrNewCSHTMLFileFrom_Text" xml:space="preserve">
+    <value>指定 '{0}' 项目中的现有或新 CSHTML 文件</value>
+  </data>
+  <data name="LoadPatterns_Text" xml:space="preserve">
+    <value>加载模式:</value>
+  </data>
+  <data name="DefaultLanguage_Text" xml:space="preserve">
+    <value>所选框架的默认值</value>
+  </data>
+  <data name="UsingDefaultXcodeToOpenGeneratedProject_Text" xml:space="preserve">
+    <value>使用默认 Xcode 打开生成的项目</value>
+  </data>
+  <data name="MtouchSdkRootPathSettingDescription" xml:space="preserve">
+    <value>Mtouch SDK 根路径</value>
+  </data>
+  <data name="ExecutablePackageExe_ComboBoxValue" xml:space="preserve">
+    <value>可执行文件包(.exe)</value>
+  </data>
+  <data name="ShowTestPanelNotificationActionText" xml:space="preserve">
+    <value>显示测试面板通知</value>
+  </data>
+  <data name="GettingDebuggingInformationForAType_Text" xml:space="preserve">
+    <value>正在获取类型的调试信息</value>
+  </data>
+  <data name="Project_Template_Option_TWFjIENhdGFseXN0IENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Mac Catalyst 类库</value>
+  </data>
+  <data name="ThereIsNo_DefinedInXCodeProjectButUsed_Text" xml:space="preserve">
+    <value>Xcode 项目中未定义 '{0}'，但已在 'Info.plist' 中使用</value>
+  </data>
+  <data name="Project_Template_Option_QW5kcm9pZCBXZWFyIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>Android Wear 应用程序</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Delete_File" xml:space="preserve">
+    <value>无法删除文件: {0}</value>
+  </data>
+  <data name="DoNotStripNativeDebuggingSymbols_CheckBox_Caption" xml:space="preserve">
+    <value>不剥离原生调试符号</value>
+  </data>
+  <data name="EnterpriseDistributeToYourOrganization_Text" xml:space="preserve">
+    <value>企业 - 分发给您的组织</value>
+  </data>
+  <data name="CalculateInlineDocsSettingName" xml:space="preserve">
+    <value>是否计算非阅读器模式文件的内联文档</value>
+  </data>
+  <data name="Project_Template_Option_Qmxhem9yIFdlYkFzc2VtYmx5IEFwcAEQEQ" xml:space="preserve">
+    <value>Blazor WebAssembly 应用</value>
+  </data>
+  <data name="Project_Template_Option_Qmxhem9yIFdlYkFzc2VtYmx5IEFwcCBFbXB0eQEQEQ" xml:space="preserve">
+    <value>空 Blazor WebAssembly 应用</value>
+  </data>
+  <data name="XcodeProjectRootPath__Text" xml:space="preserve">
+    <value>Xcode 项目根路径: '{0}'</value>
+  </data>
+  <data name="ContentFileWasCreatedAndWillBeSynced_Text" xml:space="preserve">
+    <value>内容文件已被创建，将与 .NET 项目同步</value>
+  </data>
+  <data name="NETStandardProjects_Text" xml:space="preserve">
+    <value>.NET Standard 项目</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_DefaultInspection" xml:space="preserve">
+    <value>找到的问题</value>
+  </data>
+  <data name="UsageGrouping_IssueCategory_Text" xml:space="preserve">
+    <value>问题类别</value>
+  </data>
+  <data name="Project_Template_Option_V2ViIEFwcCAoTW9kZWwtVmlldy1Db250cm9sbGVyKQEQEQ" xml:space="preserve">
+    <value>Web 应用(模型-视图-控制器)</value>
+  </data>
+  <data name="Project_Template_Option_aU9TIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>iOS 应用程序</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgUGFnZQEQEQ" xml:space="preserve">
+    <value>Razor 页面</value>
+  </data>
+  <data name="Project_Template_Option_V2luZG93cyBGb3JtcyBDb250cm9sIExpYnJhcnkEQ" xml:space="preserve">
+    <value>Windows 窗体控件库</value>
+  </data>
+  <data name="UniversalWindowsPlatformSDKSupported_Text" xml:space="preserve">
+    <value>仅在 Windows 下才支持通用 Windows 平台 SDK</value>
+  </data>
+  <data name="ASPNETVBNETOptionPageTitle" xml:space="preserve">
+    <value>ASP.NET (VB.NET)</value>
+  </data>
+  <data name="CLRActionText" xml:space="preserve">
+    <value>CLR</value>
+  </data>
+  <data name="FindingModules_Text" xml:space="preserve">
+    <value>正在查找模块</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Dynamic__smart_" xml:space="preserve">
+    <value>动态(智能)</value>
+  </data>
+  <data name="LinkFrameworkSDKsOnly_ComboBoxValue" xml:space="preserve">
+    <value>仅链接 Framework SDK</value>
+  </data>
+  <data name="LeaveEmptyIfItIsSetInRazor_viewstart_Text" xml:space="preserve">
+    <value>如果在 Razor _viewstart 文件中设置，则留空</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_MacroArgument" xml:space="preserve">
+    <value>宏实参中的用法</value>
+  </data>
+  <data name="GeneratingSolutionFile_Text" xml:space="preserve">
+    <value>正在生成解决方案文件…</value>
+  </data>
+  <data name="SelectFileDialogTitle" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="InvalidText_Error__Text" xml:space="preserve">
+    <value>无效文本 {0}。错误: {1}</value>
+  </data>
+  <data name="UsageGrouping_OccurrenceType_Text" xml:space="preserve">
+    <value>匹配项类型</value>
+  </data>
+  <data name="ManagedPipelineMode_Text" xml:space="preserve">
+    <value>托管管道模式</value>
+  </data>
+  <data name="ASPCodeBehindGenerator_Text" xml:space="preserve">
+    <value>ASP 代码隐藏生成器</value>
+  </data>
+  <data name="XcodePath_Text" xml:space="preserve">
+    <value>Xcode 路径: </value>
+  </data>
+  <data name="Template_Editable_WElC" xml:space="preserve">
+    <value>XIB</value>
+  </data>
+  <data name="SqlProjects_Text" xml:space="preserve">
+    <value>SQL 项目</value>
+  </data>
+  <data name="SigningCertificateData_Text" xml:space="preserve">
+    <value>正在签署证书数据</value>
+  </data>
+  <data name="CreatingProject_Text" xml:space="preserve">
+    <value>正在创建项目</value>
+  </data>
+  <data name="Delete_DescriptionText" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="LoadingSigningKeys_Text" xml:space="preserve">
+    <value>正在加载签名密钥…</value>
+  </data>
+  <data name="FileConflictAction_Text" xml:space="preserve">
+    <value>文件冲突操作</value>
+  </data>
+  <data name="ImportChangesFromXcodeInto__Caption" xml:space="preserve">
+    <value>将更改从 Xcode 导入 '{0}'</value>
+  </data>
+  <data name="WiXLibraryWixlib_ComboBoxValue" xml:space="preserve">
+    <value>WiX 库(.wixlib)</value>
+  </data>
+  <data name="ReadMore_ComboEnum_TextSuffix" xml:space="preserve">
+    <value>阅读更多信息</value>
+  </data>
+  <data name="Prompt_Text" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="TestIconTransformationPerformanceActionText" xml:space="preserve">
+    <value>Test icon transformation performance</value>
+  </data>
+  <data name="UnableToSyncContentItem__Text" xml:space="preserve">
+    <value>无法同步内容项: {0}</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb250cm9sbGVy" xml:space="preserve">
+    <value>视图控制器</value>
+  </data>
+  <data name="AdditionalArguments_TextBox_Caption" xml:space="preserve">
+    <value>其他实参</value>
+  </data>
+  <data name="View_AlreadyExists_Text" xml:space="preserve">
+    <value>视图 '{0}' 已存在</value>
+  </data>
+  <data name="DownloadIISExpress_WarningTextWithLink_Text" xml:space="preserve">
+    <value>下载 IIS Express</value>
+  </data>
+  <data name="DiagnosticTypesN__Text" xml:space="preserve">
+    <value>诊断类型:
+{0}</value>
+  </data>
+  <data name="AllowDownloadingSymbolsFromRemoteLocations_BoolOption_Text" xml:space="preserve">
+    <value>允许从远程位置下载符号</value>
+  </data>
+  <data name="URL_Caption" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="PreviousError_Text" xml:space="preserve">
+    <value>上一个错误</value>
+  </data>
+  <data name="HighestMinorInstallsTheVersionWithThe_ToolTip" xml:space="preserve">
+    <value>“最高次要版本”会安装具有相同的主要版本号，但具有最高次要版本号和修补程序号的版本。如果指定了版本 1.2.2，将安装以 1 开头的最高版本。</value>
+  </data>
+  <data name="SolutionAnalysis_Analyzing_Files_N_Text" xml:space="preserve">
+    <value>正在分析文件({0}/{1}): {2}</value>
+  </data>
+  <data name="XAMLVBNETOptionPageTitle" xml:space="preserve">
+    <value>XAML (VB.NET)</value>
+  </data>
+  <data name="SendLineFocusesToolWindow_BoolOption_ToolTip" xml:space="preserve">
+    <value>发送行使工具窗口获得焦点</value>
+  </data>
+  <data name="Project_Template_Option_WGFtYXJpbi5Gb3JtcwEQEQ" xml:space="preserve">
+    <value>Xamarin.Forms</value>
+  </data>
+  <data name="OptionExplicit_ComboBox_Caption" xml:space="preserve">
+    <value>Option Explicit</value>
+  </data>
+  <data name="XamarinSDKRequiresXcode_OrLater_Caption" xml:space="preserve">
+    <value>Xamarin SDK 需要 Xcode {0} 或更高版本</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_DependentCode" xml:space="preserve">
+    <value>依赖代码</value>
+  </data>
+  <data name="XamarinSettingsSettingDescription" xml:space="preserve">
+    <value>Xamarin 设置</value>
+  </data>
+  <data name="UnableToFind__Text" xml:space="preserve">
+    <value>找不到 '{0}'</value>
+  </data>
+  <data name="ApplicationRootURL_Caption" xml:space="preserve">
+    <value>应用程序根 URL</value>
+  </data>
+  <data name="Author_Text" xml:space="preserve">
+    <value>作者</value>
+  </data>
+  <data name="UseAzureCredentialProviderV2_Text" xml:space="preserve">
+    <value>使用捆绑的 Azure 凭据提供程序(实验性)</value>
+  </data>
+  <data name="IncludePrereleaseVersionsOfPackages_BoolOption_ToolTip" xml:space="preserve">
+    <value>在搜索结果中包括软件包的预发布版本</value>
+  </data>
+  <data name="DebugOverWiFi_CheckBox_Caption" xml:space="preserve">
+    <value>通过 WiFi 调试</value>
+  </data>
+  <data name="Environment_Text" xml:space="preserve">
+    <value>环境</value>
+  </data>
+  <data name="EnableXAMLHotReloadForXamarinFormsSettingDescription" xml:space="preserve">
+    <value>为 Xamarin.Forms 启用 XAML 热重载</value>
+  </data>
+  <data name="WiXSettings_Text" xml:space="preserve">
+    <value>WiX 设置</value>
+  </data>
+  <data name="TargetPlatformVersion_IsNotInstalled_Text" xml:space="preserve">
+    <value>未安装目标平台版本 '{0}'。请考虑在项目属性中更改目标版本。</value>
+  </data>
+  <data name="RestartRequired_Text" xml:space="preserve">
+    <value>需要重启</value>
+  </data>
+  <data name="SymbolsOptionPageTitle" xml:space="preserve">
+    <value>符号</value>
+  </data>
+  <data name="DevelopmentDistributeToMembersOfYour_Text" xml:space="preserve">
+    <value>开发 - 分发给团队成员</value>
+  </data>
+  <data name="List_DescriptionText" xml:space="preserve">
+    <value>列表</value>
+  </data>
+  <data name="AheadOfTimeCompileAssemblies_ComboBox_Caption" xml:space="preserve">
+    <value>预先编译程序集</value>
+  </data>
+  <data name="Project_Template_Option_RHluYW1pYyBMaWJyYXJ5" xml:space="preserve">
+    <value>动态库</value>
+  </data>
+  <data name="EnableDockerSupportActionActionText" xml:space="preserve">
+    <value>启用 Docker 支持</value>
+  </data>
+  <data name="RiderPrimaryThreadWatchdogSettingsInternalSettingDescription" xml:space="preserve">
+    <value>RiderPrimaryThreadWatchdog 设置(内部)</value>
+  </data>
+  <data name="ArchiveForPublishIsFailed_SignFailed_Text" xml:space="preserve">
+    <value>无法签署归档</value>
+  </data>
+  <data name="MonoIsNotFound_Text" xml:space="preserve">
+    <value>找不到 Mono</value>
+  </data>
+  <data name="EnterSignPassword_Caption" xml:space="preserve">
+    <value>输入签署密码</value>
+  </data>
+  <data name="Advisory" xml:space="preserve">
+    <value>咨询</value>
+  </data>
+  <data name="FormattingIssueReport_Text" xml:space="preserve">
+    <value>格式设置问题报告</value>
+  </data>
+  <data name="TypeFileWasChangedAndWillBeSyncedWith_Text" xml:space="preserve">
+    <value>类型文件已被更改，将与 .NET 项目同步</value>
+  </data>
+  <data name="GeneratesRandomIdForTheStoryboardXibMacroDefinition_Description" xml:space="preserve">
+    <value>情节提要/XIB 随机 id</value>
+  </data>
+  <data name="AppsCannotBeArchivedWithout__Text" xml:space="preserve">
+    <value>没有 {0}，不能归档应用</value>
+  </data>
+  <data name="Project_Template_Option_Lk5FVCBTdGFuZGFyZAEQEQ" xml:space="preserve">
+    <value>.NET 标准</value>
+  </data>
+  <data name="RiderRequiresACInteractiveToolSuchAs_CommentText_Text" xml:space="preserve">
+    <value>Rider 需要 C# interactive 工具，如 MSBuild/Mono 附带的 csi.exe、csi 或 csharp。</value>
+  </data>
+  <data name="ExpandingProjectTemplate_Text" xml:space="preserve">
+    <value>正在展开项目模板</value>
+  </data>
+  <data name="UnitTestSession_AllTestsHaveSameStatus_Title" xml:space="preserve">
+    <value>{0} 个测试{1}</value>
+  </data>
+  <data name="AspNetErrorsDefaultSettings_Text" xml:space="preserve">
+    <value>ASP.NET Errors default settings</value>
+  </data>
+  <data name="IISHostingDocumentation_WarningTextWithLink_Text" xml:space="preserve">
+    <value>IIS 托管文档</value>
+  </data>
+  <data name="AndroidOptionPageTitle" xml:space="preserve">
+    <value>Android</value>
+  </data>
+  <data name="MacOSBigSur_Text" xml:space="preserve">
+    <value>macOS Big Sur</value>
+  </data>
+  <data name="SsdtIsNotInstalled_Text" xml:space="preserve">
+    <value>在计算机上找不到 SQL Server Data Tools</value>
+  </data>
+  <data name="SkipGenerationApplicationhostConfigFileBasedOnProjectPropertiesSettingDescription" xml:space="preserve">
+    <value>Skip generation applicationhost.config file based on project properties</value>
+  </data>
+  <data name="DebuggerForceRunToStatementContextAction_Description" xml:space="preserve">
+    <value>运行到文本光标下的语句而不在断点处停止</value>
+  </data>
+  <data name="CInteractiveTool_Text" xml:space="preserve">
+    <value>C# Interactive 工具:</value>
+  </data>
+  <data name="CommentSettingsKeyName" xml:space="preserve">
+    <value>Rider Comment Settings</value>
+  </data>
+  <data name="SearchPageSize_IntOption_Text" xml:space="preserve">
+    <value>搜索页面大小</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_MacroBody" xml:space="preserve">
+    <value>宏主体中的用法</value>
+  </data>
+  <data name="Project_Template_Option_TVNUZXN0" xml:space="preserve">
+    <value>MSTest</value>
+  </data>
+  <data name="Provisioning_Text" xml:space="preserve">
+    <value>预配</value>
+  </data>
+  <data name="WindowsFormsDesignerSaving_Caption" xml:space="preserve">
+    <value>Windows 窗体设计器正在保存</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Declarations" xml:space="preserve">
+    <value>声明</value>
+  </data>
+  <data name="Project_Template_Option_TWFjIENhdGFseXN0IEJpbmRpbmcgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>Mac Catalyst 绑定库</value>
+  </data>
+  <data name="OptimizeImportsActionText" xml:space="preserve">
+    <value>优化 import</value>
+  </data>
+  <data name="FileLayoutOptionPageTitle" xml:space="preserve">
+    <value>文件布局</value>
+  </data>
+  <data name="_CanTUsePackageReferences_Text" xml:space="preserve">
+    <value>{0} 无法使用软件包引用</value>
+  </data>
+  <data name="XamarinAndroid_Header_Text" xml:space="preserve">
+    <value>Xamarin.Android</value>
+  </data>
+  <data name="WhenCheckedUninstallsAPackageEvenIf_BoolOption_ToolTip" xml:space="preserve">
+    <value>选中后，即使项目中仍在引用软件包，也会卸载该软件包</value>
+  </data>
+  <data name="UnableToCreateCertificate_Caption" xml:space="preserve">
+    <value>无法创建证书</value>
+  </data>
+  <data name="XamarinMacCProjects_Text" xml:space="preserve">
+    <value>Xamarin (Mac) C# 项目</value>
+  </data>
+  <data name="ThereAreManyCliTypesForTheObjcType__Text" xml:space="preserve">
+    <value>objc 类型 '{0}' 有许多 CLI 类型，请使用 '{1}'</value>
+  </data>
+  <data name="UsageGrouping_Member_Text" xml:space="preserve">
+    <value>成员</value>
+  </data>
+  <data name="UnitTestOutput_LastLaunchLogFile_Text" xml:space="preserve">
+    <value>上一个启动日志文件: {0}</value>
+  </data>
+  <data name="ArchivesListPage_Platform_Title" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="KeystorePassword_TextBox_Caption" xml:space="preserve">
+    <value>密钥库密码</value>
+  </data>
+  <data name="ManagedHttpClientHandler_ComboBoxValue" xml:space="preserve">
+    <value>托管(HttpClientHandler)</value>
+  </data>
+  <data name="OSXYosemite_Text" xml:space="preserve">
+    <value>OS X Yosemite</value>
+  </data>
+  <data name="Web_PropertyTabCaption" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="TargetOS_Text" xml:space="preserve">
+    <value>目标 OS</value>
+  </data>
+  <data name="LoggerTraceUntraceThisActionText" xml:space="preserve">
+    <value>Logger Trace/Untrace This</value>
+  </data>
+  <data name="EnableDockerComposeSupportInProject__Caption" xml:space="preserve">
+    <value>在项目 '{0}' 中启用 Docker Compose 支持</value>
+  </data>
+  <data name="SearchPageSize_IntOption_Tooltip" xml:space="preserve">
+    <value>在源中搜索软件包时每页获取的条目数</value>
+  </data>
+  <data name="ScanningForNSObjectTypes_Text" xml:space="preserve">
+    <value>正在扫描 NSObject 类型</value>
+  </data>
+  <data name="Project_Template_Option_QW5kcm9pZCBDbGFzcyBMaWJyYXJ5" xml:space="preserve">
+    <value>Android 类库</value>
+  </data>
+  <data name="AnalyzingChanges_Text" xml:space="preserve">
+    <value>正在分析更改</value>
+  </data>
+  <data name="CouldNotExportSession_Caption" xml:space="preserve">
+    <value>无法导出会话</value>
+  </data>
+  <data name="SelectFolder_Text" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="WindowsFormsDesignerSettingsSettingDescription" xml:space="preserve">
+    <value>Windows 窗体设计器设置</value>
+  </data>
+  <data name="City_Text" xml:space="preserve">
+    <value>城市</value>
+  </data>
+  <data name="Project_Template_Option_Q3Jvc3MgUGxhdGZvcm0gVUkEQ" xml:space="preserve">
+    <value>跨平台 UI</value>
+  </data>
+  <data name="Qodana_InspectCodeFinder_Text" xml:space="preserve">
+    <value>正在分析全局依赖项</value>
+  </data>
+  <data name="Area_DescriptionText" xml:space="preserve">
+    <value>区域</value>
+  </data>
+  <data name="SelectFolders_Text" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="ShouldMoveCaretToNextLineOnLineCommentActionName" xml:space="preserve">
+    <value>Should Move Caret to Next Line on Line Comment Action</value>
+  </data>
+  <data name="Binary_ComboBoxValue" xml:space="preserve">
+    <value>二进制</value>
+  </data>
+  <data name="LinkSDKAssembliesOnly_ComboBoxValue" xml:space="preserve">
+    <value>仅链接 SDK 程序集</value>
+  </data>
+  <data name="HotReloadOptionPageTitle" xml:space="preserve">
+    <value>热重载</value>
+  </data>
+  <data name="DebuggerSmartStepIntoContextAction_Name" xml:space="preserve">
+    <value>调试器 - 智能步入</value>
+  </data>
+  <data name="InactivePreprocessorBranch_ToolTip" xml:space="preserve">
+    <value>停用的预处理程序分支</value>
+  </data>
+  <data name="Template_Editable_cnVudGltZWNvbmZpZy50ZW1wbGF0ZS5qc29uIEZpbGUEQ" xml:space="preserve">
+    <value>runtimeconfig.template.json 文件</value>
+  </data>
+  <data name="SignTheApplicationBundle_CheckBox_Caption" xml:space="preserve">
+    <value>签署应用程序捆绑包</value>
+  </data>
+  <data name="Project_Template_Option_Lk5FVCBNQVVJIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>.NET MAUI 类库</value>
+  </data>
+  <data name="FindSimilarIssues_name_Text" xml:space="preserve">
+    <value>查找类似问题 - {0}</value>
+  </data>
+  <data name="AdditionalMtouchArguments_TextBox_Caption" xml:space="preserve">
+    <value>其他 'mtouch' 实参</value>
+  </data>
+  <data name="Project_Template_Option_WGFtYXJpbiBGb3JtcwEQEQ" xml:space="preserve">
+    <value>Xamarin 窗体</value>
+  </data>
+  <data name="RemoveDependencies_BoolOption_Text" xml:space="preserve">
+    <value>移除依赖项</value>
+  </data>
+  <data name="Project_Template_Option_V2VhcgEQEQ" xml:space="preserve">
+    <value>Wear</value>
+  </data>
+  <data name="XamarinMacIOSProjects_Text" xml:space="preserve">
+    <value>Xamarin (Mac/iOS)项目</value>
+  </data>
+  <data name="StartScaffolding__Text" xml:space="preserve">
+    <value>启动基架 '{0}'</value>
+  </data>
+  <data name="State_Text" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="RemoveSelectedTestsActionText" xml:space="preserve">
+    <value>移除所选测试</value>
+  </data>
+  <data name="LinkEverything_ComboBoxValue" xml:space="preserve">
+    <value>链接所有内容</value>
+  </data>
+  <data name="HotReloadSettingDescription" xml:space="preserve">
+    <value>热重载</value>
+  </data>
+  <data name="YesToAll_Text" xml:space="preserve">
+    <value>全部是</value>
+  </data>
+  <data name="AppStoreDistributeThroughTheAppStore_Text" xml:space="preserve">
+    <value>App Store - 通过 App Store 分发</value>
+  </data>
+  <data name="DockerSupport_Disabled_Text" xml:space="preserve">
+    <value>已禁用</value>
+  </data>
+  <data name="CouplingAnalysis_Text" xml:space="preserve">
+    <value>耦合分析</value>
+  </data>
+  <data name="ReSharperIndentGuide_Text" xml:space="preserve">
+    <value>ReSharper 缩进参考线</value>
+  </data>
+  <data name="MacOSHighSierra_Text" xml:space="preserve">
+    <value>macOS High Sierra</value>
+  </data>
+  <data name="IISExpressRootPathBitSettingDescription" xml:space="preserve">
+    <value>IIS Express 根路径(32 位)</value>
+  </data>
+  <data name="TvOS_Text" xml:space="preserve">
+    <value>tvOS</value>
+  </data>
+  <data name="DebuggerForceRunToStatementContextAction_Name" xml:space="preserve">
+    <value>调试器 - 强制运行到语句</value>
+  </data>
+  <data name="GeneratingXcodeProject_Text" xml:space="preserve">
+    <value>正在生成 Xcode 项目</value>
+  </data>
+  <data name="HttpClientImplementation_ComboBox_Caption" xml:space="preserve">
+    <value>HttpClient 实现</value>
+  </data>
+  <data name="On_ComboBoxValue" xml:space="preserve">
+    <value>开启</value>
+  </data>
+  <data name="RunToCursorNonStop_Text" xml:space="preserve">
+    <value>不间断运行到光标处</value>
+  </data>
+  <data name="NuGet__Caption" xml:space="preserve">
+    <value>NuGet: {0}</value>
+  </data>
+  <data name="UnexpectedOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '-'</value>
+  </data>
+  <data name="No_Text" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="AndroidSdkPathSettingDescription" xml:space="preserve">
+    <value>Android SDK 路径</value>
+  </data>
+  <data name="Cancel_Text" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="IsAutomaticThreadSamplingCollectionAllowedSettingDescription" xml:space="preserve">
+    <value>是否允许自动线程采样收集</value>
+  </data>
+  <data name="UnableToFindTheCodeGeneratorFor__Text" xml:space="preserve">
+    <value>找不到 {0} 的代码生成器</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgVmlldyBJbXBvcnRz" xml:space="preserve">
+    <value>Razor 视图导入</value>
+  </data>
+  <data name="RiderWasUnableToLocateTheXSPServerThat_Macos_Text" xml:space="preserve">
+    <value>Rider 找不到运行此项目所需的 XSP 服务器。预期 XSP 路径: {0}。请确保已使用官方安装程序安装了 Mono: http://www.mono-project.com/download/ (从 Homebrew 安装的 Mono 不包含 XSP 服务器)。</value>
+  </data>
+  <data name="Authenticate_Caption" xml:space="preserve">
+    <value>身份验证</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Project_Is_Readonly" xml:space="preserve">
+    <value>项目无法更新，因为它处于只读状态</value>
+  </data>
+  <data name="Project_Template_Option_U3RhdGljIExpYnJhcnkEQ" xml:space="preserve">
+    <value>静态库</value>
+  </data>
+  <data name="InstallNew_Text" xml:space="preserve">
+    <value>安装新</value>
+  </data>
+  <data name="ContentFileWasChangedAndWillBeSynced_Text" xml:space="preserve">
+    <value>内容文件已被更改，将与 .NET 项目同步</value>
+  </data>
+  <data name="IOS_Text" xml:space="preserve">
+    <value>iOS</value>
+  </data>
+  <data name="BuildTypeDependenciesMap_Text" xml:space="preserve">
+    <value>构建类型依赖关系图</value>
+  </data>
+  <data name="_ViewName_Text" xml:space="preserve">
+    <value>视图名称(_V): </value>
+  </data>
+  <data name="Browse_TooltipText" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="_Template_Text" xml:space="preserve">
+    <value>模板(_T): </value>
+  </data>
+  <data name="OSXMountainLion_Text" xml:space="preserve">
+    <value>OS X Mountain Lion</value>
+  </data>
+  <data name="Back_Text" xml:space="preserve">
+    <value>后退</value>
+  </data>
+  <data name="RazorFoldingsHighlighterGroup" xml:space="preserve">
+    <value>Razor 折叠</value>
+  </data>
+  <data name="DockShowBuildProgressInMacOSDock_Text" xml:space="preserve">
+    <value>程序坞: 在 macOS 程序坞中显示构建进度</value>
+  </data>
+  <data name="UnableToFindObjcSystemTypesGeneration_Text" xml:space="preserve">
+    <value>找不到 objc 系统类型，将跳过生成</value>
+  </data>
+  <data name="InitializeDockerComposeSupport_Text" xml:space="preserve">
+    <value>初始化 Docker Compose 支持</value>
+  </data>
+  <data name="Create_DescriptionText" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="Options_Text" xml:space="preserve">
+    <value>选项: </value>
+  </data>
+  <data name="View_DescriptionText" xml:space="preserve">
+    <value>查看</value>
+  </data>
+  <data name="UseHeuristicsToDetermineWhetherARestore_BoolOption_ToolTip" xml:space="preserve">
+    <value>使用启发式方法确定构建时是否需要还原</value>
+  </data>
+  <data name="AnErrorOccurredDuringExport___Text" xml:space="preserve">
+    <value>导出时出错:{0}{1}</value>
+  </data>
+  <data name="MappedFileOrFolderIsNotSpecified_Text" xml:space="preserve">
+    <value>未指定映射的文件或文件夹</value>
+  </data>
+  <data name="SendLineFocusesToolWindow_BoolOption_Text" xml:space="preserve">
+    <value>发送行使工具窗口获得焦点</value>
+  </data>
+  <data name="BackToArchives_Text" xml:space="preserve">
+    <value>返回归档</value>
+  </data>
+  <data name="IgnoreAllInstructsNuGetToSkipOverwriting_ToolTip" xml:space="preserve">
+    <value>“全部忽略”会指示 NuGet 跳过任何现有软件包的覆盖</value>
+  </data>
+  <data name="URI_Text" xml:space="preserve">
+    <value>URI:</value>
+  </data>
+  <data name="RerunFailedTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>重新运行失败的测试</value>
+  </data>
+  <data name="UnableToParseTheStoryboardFile__Text" xml:space="preserve">
+    <value>无法解析情节提要文件: {0}</value>
+  </data>
+  <data name="RunToCursor_Text" xml:space="preserve">
+    <value>运行到光标处</value>
+  </data>
+  <data name="RazorPage_AlreadyExists_Text" xml:space="preserve">
+    <value>Razor 页面 '{0}' 已存在</value>
+  </data>
+  <data name="UnableToCreateFolder__Text" xml:space="preserve">
+    <value>无法创建文件夹 '{0}'</value>
+  </data>
+  <data name="DebuggerRunToStatementContextAction_Name" xml:space="preserve">
+    <value>调试器 - 运行到语句</value>
+  </data>
+  <data name="_Missing_Text" xml:space="preserve">
+    <value>{0} (缺失)</value>
+  </data>
+  <data name="DirectoryWithTheMatchingName_Exists_Text" xml:space="preserve">
+    <value>文件系统中存在具有匹配名称 '{0}' 的目录，将不对其重命名</value>
+  </data>
+  <data name="TheProjectFileParsingError_Text" xml:space="preserve">
+    <value>项目文件解析错误</value>
+  </data>
+  <data name="OSXLion_Text" xml:space="preserve">
+    <value>OS X Lion</value>
+  </data>
+  <data name="IISSettingsSettingDescription" xml:space="preserve">
+    <value>IIS 设置</value>
+  </data>
+  <data name="ArchiveForPublishIsFailed_AuthorizeForArchiveDirectoryFailed_Text" xml:space="preserve">
+    <value>无法访问归档目录。请验证您的权限。</value>
+  </data>
+  <data name="ArchivesListPage_Version_Title" xml:space="preserve">
+    <value>版本</value>
+  </data>
+  <data name="IncrementalBuild_CheckBox_Caption" xml:space="preserve">
+    <value>增量构建</value>
+  </data>
+  <data name="ExcludingMono_Text" xml:space="preserve">
+    <value> (不包括 Mono)</value>
+  </data>
+  <data name="SqlProjectsSettingsSettingDescription" xml:space="preserve">
+    <value>SQL 项目设置</value>
+  </data>
+  <data name="RiderFindResultsBrowserSettingsSettingDescription" xml:space="preserve">
+    <value>Rider 查找结果浏览器设置</value>
+  </data>
+  <data name="CreationDate_Text" xml:space="preserve">
+    <value>创建日期:</value>
+  </data>
+  <data name="ManagedPipelineMode_Classic_Text" xml:space="preserve">
+    <value>经典</value>
+  </data>
+  <data name="XamarinMacIOSOptionPageTitle" xml:space="preserve">
+    <value>Xamarin (Mac/iOS)</value>
+  </data>
+  <data name="Project_Template_Option_TmF0aXZl" xml:space="preserve">
+    <value>原生</value>
+  </data>
+  <data name="Project_Template_Option_aU9T" xml:space="preserve">
+    <value>iOS</value>
+  </data>
+  <data name="ShowIPAFile_Text" xml:space="preserve">
+    <value>显示 IPA 文件</value>
+  </data>
+  <data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_Text" xml:space="preserve">
+    <value>配置模板:</value>
+  </data>
+  <data name="UsageGrouping_Directory_Text" xml:space="preserve">
+    <value>目录</value>
+  </data>
+  <data name="DebuggerShowClassInstancesContextAction_Name" xml:space="preserve">
+    <value>调试器 - 显示类实例</value>
+  </data>
+  <data name="MonoActionText" xml:space="preserve">
+    <value>Mono</value>
+  </data>
+  <data name="BundleSigning_SectionName" xml:space="preserve">
+    <value>捆绑包签名</value>
+  </data>
+  <data name="See_advisory_by_1_2" xml:space="preserve">
+    <value>由 {0} 提供咨询: {1}</value>
+  </data>
+  <data name="OpenApplicationhostConfigForSolutionActionText" xml:space="preserve">
+    <value>打开解决方案的 applicationhost.config</value>
+  </data>
+  <data name="RerunInconclusiveTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>重新运行不确定的测试</value>
+  </data>
+  <data name="Error_EnumText" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="UnitTestOutput_LastRunnerLogFile_Text" xml:space="preserve">
+    <value>上一个运行程序日志文件: {0}</value>
+  </data>
+  <data name="ConfigFileOverridesSettingsMessage" xml:space="preserve">
+    <value>{1} 的 &lt;a&gt;{0}&lt;/a&gt; 重写此页面上的某些代码样式设置</value>
+  </data>
+  <data name="UsageGrouping_IssueType_Text" xml:space="preserve">
+    <value>问题类型</value>
+  </data>
+  <data name="UsageGrouping_File_Text" xml:space="preserve">
+    <value>文件</value>
+  </data>
+  <data name="FilesAndFolders_Caption" xml:space="preserve">
+    <value>文件和文件夹:</value>
+  </data>
+  <data name="UniversalWindowsPlatformSDKSupportedUnloadUWP_Text" xml:space="preserve">
+    <value>仅在 Windows 下才支持通用 Windows 平台 SDK，请卸载 UWP 项目 '{0}' 以隐藏此消息</value>
+  </data>
+  <data name="IISExpressRootFolder_Text_Text" xml:space="preserve">
+    <value>IIS Express 根文件夹:</value>
+  </data>
+  <data name="DecompileMethods_BoolOption_Text" xml:space="preserve">
+    <value>反编译方法</value>
+  </data>
+  <data name="Template_Editable_U3Rvcnlib2FyZAEQEQ" xml:space="preserve">
+    <value>情节提要</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Failed" xml:space="preserve">
+    <value>目标项目更新失败</value>
+  </data>
+  <data name="UnitTestOutput_LastRunnerError_Text" xml:space="preserve">
+    <value>上一个运行程序错误: {0}</value>
+  </data>
+  <data name="ApplicationContainer_Text" xml:space="preserve">
+    <value>应用程序容器</value>
+  </data>
+  <data name="AutomaticallyApplyChangesOnStepAndResume_Text" xml:space="preserve">
+    <value>在步进和恢复时自动应用更改</value>
+  </data>
+  <data name="HotReloadIsNotActive_Caption" xml:space="preserve">
+    <value>热重载未处于有效状态</value>
+  </data>
+  <data name="WinFormsRiderFileTemplates_Text" xml:space="preserve">
+    <value>WinForms Rider 文件模板</value>
+  </data>
+  <data name="IncludeUnlistedVersionsOfPackagesIn_BoolOption_ToolTip" xml:space="preserve">
+    <value>在搜索结果中包括软件包的未列出版本</value>
+  </data>
+  <data name="TheSelectedBuildConfigurationIsUsingIncrementalBuilds_Text" xml:space="preserve">
+    <value>为了更快部署，所选构建配置正在使用增量构建。启用此设置后，不能归档应用。请转到“项目 | 属性”，在相应的配置中取消选中“增量构建”设置。</value>
+  </data>
+  <data name="XamarinMacIOS_Text" xml:space="preserve">
+    <value>Xamarin (Mac/iOS)</value>
+  </data>
+  <data name="ValidityYears_Text" xml:space="preserve">
+    <value>有效期(年)</value>
+  </data>
+  <data name="WindowsFormsDesignerOptionPageTitle" xml:space="preserve">
+    <value>Windows 窗体设计器</value>
+  </data>
+  <data name="Disable_Text" xml:space="preserve">
+    <value>禁用</value>
+  </data>
+  <data name="ASPNETCoreModule_Text_Text" xml:space="preserve">
+    <value>ASP.NET Core 模块:</value>
+  </data>
+  <data name="EnableHotReloadWhenRunningWithoutDebugging_Text" xml:space="preserve">
+    <value>在不调试的情况下运行时启用热重载(.NET 6.0 及更高版本)</value>
+  </data>
+  <data name="ChangeTargetAPIVersion_Text" xml:space="preserve">
+    <value>更改目标 API 版本…</value>
+  </data>
+  <data name="EnablePackageSearchInAzureBlobsNuGet_BoolOption_ToolTip" xml:space="preserve">
+    <value>在 Azure Blobs NuGet 源中启用软件包搜索(可能会增加内存占用)</value>
+  </data>
+  <data name="See_advisory_by_1" xml:space="preserve">
+    <value>由 {0} 提供咨询</value>
+  </data>
+  <data name="CollectSamplingTimeoutSettingDescription" xml:space="preserve">
+    <value>收集采样超时</value>
+  </data>
+  <data name="SqlProjSettings_Text" xml:space="preserve">
+    <value>SQL</value>
+  </data>
+  <data name="General_Text" xml:space="preserve">
+    <value>File layout general tab title</value>
+  </data>
+  <data name="RevealArchiveActionText" xml:space="preserve">
+    <value>显示归档</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Project_Files_Update_Failure" xml:space="preserve">
+    <value>某些项目文件无法更新</value>
+  </data>
+  <data name="DeclaredElementKind_Type_Text" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="SpecifyAValidName_Text" xml:space="preserve">
+    <value>指定有效名称</value>
+  </data>
+  <data name="GeneratedDirectoriesAndFilesSetting_Text" xml:space="preserve">
+    <value> 生成的目录和文件设置仅在解决方案打开时可用 </value>
+  </data>
+  <data name="DefaultRiderFileTemplates_Text" xml:space="preserve">
+    <value>默认 Rider 文件模板</value>
+  </data>
+  <data name="XamarinIOSProjects_Text" xml:space="preserve">
+    <value>Xamarin (iOS)项目</value>
+  </data>
+  <data name="Unloaded_Text" xml:space="preserve">
+    <value> · 个已卸载</value>
+  </data>
+  <data name="GeneratesRandomIdForTheStoryboardXibMacroDefinition_LongDescription" xml:space="preserve">
+    <value>为情节提要/xib 生成一个随机 id</value>
+  </data>
+  <data name="Razor_PageName_Text" xml:space="preserve">
+    <value>Razor 页面名称(_P): </value>
+  </data>
+  <data name="AddAPIControllerWithActionsUsingEntity_Text" xml:space="preserve">
+    <value>添加具有使用 Entity Framework 的操作的 API 控制器</value>
+  </data>
+  <data name="SpellChecking_FixTypo" xml:space="preserve">
+    <value>修正拼写错误</value>
+  </data>
+  <data name="ProjectConfigurationDoesNotTargetAn_Text" xml:space="preserve">
+    <value>项目配置不以 iOS 设备为目标。
+请选择 'iPhone' 项目配置。</value>
+  </data>
+  <data name="UseSQ_LiteInsteadOfSQLServer_Text" xml:space="preserve">
+    <value>使用 SQLite 而非 SQL Server(_L)</value>
+  </data>
+  <data name="AliasPassword_TextBox_Caption" xml:space="preserve">
+    <value>别名密码</value>
+  </data>
+  <data name="NETProjectsWithSDKStyleProjectFile_Text" xml:space="preserve">
+    <value>具有 SDK 样式项目文件的 .NET 项目</value>
+  </data>
+  <data name="NewDataContextType_Text" xml:space="preserve">
+    <value>新建数据上下文类型:</value>
+  </data>
+  <data name="Classifications_Text" xml:space="preserve">
+    <value>分类</value>
+  </data>
+  <data name="_AlreadySignedWith_Keystore_Text" xml:space="preserve">
+    <value>{0} 已使用 '{1}' 密钥库签署</value>
+  </data>
+  <data name="OpeningCInteractiveToolFocusesToolWindow_BoolOption_ToolTip" xml:space="preserve">
+    <value>打开 C# Interactive 工具使工具窗口获得焦点</value>
+  </data>
+  <data name="RiderRazorFileTemplates_Text" xml:space="preserve">
+    <value>Rider Razor 文件模板</value>
+  </data>
+  <data name="PreferredRuntime__Text" xml:space="preserve">
+    <value>首选运行时: {0}</value>
+  </data>
+  <data name="AllRegisteredCliTypes__Text" xml:space="preserve">
+    <value>所有注册的 CLI 类型: {0}</value>
+  </data>
+  <data name="Hint_EnumText" xml:space="preserve">
+    <value>提示</value>
+  </data>
+  <data name="Close_Text" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="Project_Template_Option_V1BGIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>WPF 应用程序</value>
+  </data>
+  <data name="Details_DescriptionText" xml:space="preserve">
+    <value>详细信息</value>
+  </data>
+  <data name="UniversalWindowsPlatformSDK_Text" xml:space="preserve">
+    <value>通用 Windows 平台 SDK</value>
+  </data>
+  <data name="OptionStrict_ComboBox_Caption" xml:space="preserve">
+    <value>Option Strict</value>
+  </data>
+  <data name="SearchInDotnetfeedBlobFeeds_BoolOption_Text" xml:space="preserve">
+    <value>在 dotnetfeed*.blob 源中搜索</value>
+  </data>
+  <data name="XcodePathSettingDescription" xml:space="preserve">
+    <value>Xcode 路径</value>
+  </data>
+  <data name="TypeWasNotChangedSinceLastSync_Text" xml:space="preserve">
+    <value>类型自上次同步后未更改</value>
+  </data>
+  <data name="JavaDevelopmentKit_Text" xml:space="preserve">
+    <value>Java 开发工具包</value>
+  </data>
+  <data name="HowItWorks_Text" xml:space="preserve">
+    <value>运作方式</value>
+  </data>
+  <data name="AndroidSignForPublishSettingsPage_Alias_Title" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="UnexpectedPropertyOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '@property'</value>
+  </data>
+  <data name="DependencyBehavior_Text" xml:space="preserve">
+    <value>依赖项行为</value>
+  </data>
+  <data name="AndroidSignForPublishSettingsPage_Expiration_Title" xml:space="preserve">
+    <value>过期</value>
+  </data>
+  <data name="GroupID_Text" xml:space="preserve">
+    <value>组 ID</value>
+  </data>
+  <data name="VisualFormatterEnabledSettingsEntryName" xml:space="preserve">
+    <value>Visual formatter enabled in reader mode</value>
+  </data>
+  <data name="SyncingContentItems_Text" xml:space="preserve">
+    <value>正在同步内容项</value>
+  </data>
+  <data name="WarningDuringLoadingSolution_Text" xml:space="preserve">
+    <value>加载解决方案时出现警告</value>
+  </data>
+  <data name="ForceUninstallEvenIfThereAreDependencies_BoolOption_Text" xml:space="preserve">
+    <value>强制卸载，即使上面存在依赖项</value>
+  </data>
+  <data name="SqlProj_Project_Not_Ready" xml:space="preserve">
+    <value>目标项目未就绪</value>
+  </data>
+  <data name="TypeOfProjectForSharedCode_ToolTip" xml:space="preserve">
+    <value>共享代码的项目类型</value>
+  </data>
+  <data name="RazorOptionPageTitle" xml:space="preserve">
+    <value>Razor</value>
+  </data>
+  <data name="InlinePromptHighlightingGroup_Text" xml:space="preserve">
+    <value>内联提示高亮显示群组</value>
+  </data>
+  <data name="Project_Template_Option_WGFtYXJpbi5OYXRpdmUEQ" xml:space="preserve">
+    <value>Xamarin.Native</value>
+  </data>
+  <data name="FindUsagesActionText" xml:space="preserve">
+    <value>查找用法</value>
+  </data>
+  <data name="UpdatingCaches_Text" xml:space="preserve">
+    <value>正在更新缓存</value>
+  </data>
+  <data name="_Expired_Text" xml:space="preserve">
+    <value>{0} (已过期)</value>
+  </data>
+  <data name="Search_Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="ShortName_Text" xml:space="preserve">
+    <value>短名称</value>
+  </data>
+  <data name="ActiveRuntimeIsnTSelectedPleaseSelect_Text" xml:space="preserve">
+    <value>未选择有效运行时。请将其选中并重新打开解决方案。</value>
+  </data>
+  <data name="InvalidXcodeInstallation_Text" xml:space="preserve">
+    <value>无效的 Xcode 安装</value>
+  </data>
+  <data name="SupportedABIs_Caption" xml:space="preserve">
+    <value>支持的 ABI</value>
+  </data>
+  <data name="WindowsAuthentication_Caption" xml:space="preserve">
+    <value>Windows 身份验证</value>
+  </data>
+  <data name="ChooseFile_Caption" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="ClearUserClass_Text" xml:space="preserve">
+    <value>清除用户类</value>
+  </data>
+  <data name="IsUiSmoothnessToolkitEnabledSettingDescription" xml:space="preserve">
+    <value>启用 UiSmoothnessToolkit</value>
+  </data>
+  <data name="CannotCreateArchive_Caption" xml:space="preserve">
+    <value>不能创建归档</value>
+  </data>
+  <data name="_DataContextClass_Text" xml:space="preserve">
+    <value>数据上下文类(_D): </value>
+  </data>
+  <data name="StrictFormatActionText" xml:space="preserve">
+    <value>严格格式</value>
+  </data>
+  <data name="IncludeUnlisted_BoolOption_Text" xml:space="preserve">
+    <value>包括未列出</value>
+  </data>
+  <data name="Edit_DescriptionText" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="MacOSSierra_Text" xml:space="preserve">
+    <value>macOS Sierra</value>
+  </data>
+  <data name="UnexpectedProtocolOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '@protocol'</value>
+  </data>
+  <data name="ExpandingProjectTemplateDots_Text" xml:space="preserve">
+    <value>正在展开项目模板…</value>
+  </data>
+  <data name="WaitingForTheFirstSolutionLoad_Text" xml:space="preserve">
+    <value>解决方案的初始处理。</value>
+  </data>
+  <data name="Project_Template_Option_bWFjT1MEQ" xml:space="preserve">
+    <value>macOS</value>
+  </data>
+  <data name="UnableToFindTheBaseType_ForType__Text" xml:space="preserve">
+    <value>找不到类型 '{1}' 的基类型 '{0}'</value>
+  </data>
+  <data name="Automatic_ComboBoxValue" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="XAMLOptionPageTitle" xml:space="preserve">
+    <value>XAML</value>
+  </data>
+  <data name="AppStoreAutomatic_ComboBoxValue" xml:space="preserve">
+    <value>App Store (自动)</value>
+  </data>
+  <data name="ResXGenerator_Text" xml:space="preserve">
+    <value>ResX 生成器</value>
+  </data>
+  <data name="Password_Text" xml:space="preserve">
+    <value>密码</value>
+  </data>
+  <data name="__ContainsVulnerabilitiesAccordingTo_Text" xml:space="preserve">
+    <value>根据 {2}，{0} {1} 包含漏洞</value>
+  </data>
+  <data name="ActionReferenceInCInteractiveBuilds_BoolOption_ToolTip" xml:space="preserve">
+    <value>调用“C# Interactive 中的引用”操作时构建项目</value>
+  </data>
+  <data name="FileWasNotChangedSinceLastSync_Text" xml:space="preserve">
+    <value>文件自上次同步后未更改</value>
+  </data>
+  <data name="UpdateTypeDependenciesMap_Text" xml:space="preserve">
+    <value>更新类型依赖关系图</value>
+  </data>
+  <data name="ErrorDuringLoadingProject_Text" xml:space="preserve">
+    <value>加载项目时出错</value>
+  </data>
+  <data name="Project_Template_Option_V2luZG93cyBGb3JtcyBBcHAEQ" xml:space="preserve">
+    <value>Windows 窗体应用</value>
+  </data>
+  <data name="Signing_SectionName" xml:space="preserve">
+    <value>签署</value>
+  </data>
+  <data name="SpecifyAPathToAnExistingOrNewCSHTML_Text" xml:space="preserve">
+    <value>指定现有或新 CSHTML 文件的路径</value>
+  </data>
+  <data name="ErrorDuringLoadingSolution_Text" xml:space="preserve">
+    <value>加载解决方案时出错</value>
+  </data>
+  <data name="Exception_Text" xml:space="preserve">
+    <value>异常</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Remove_MsBuild_Item" xml:space="preserve">
+    <value>无法移除 MSBuild 条目: {0}</value>
+  </data>
+  <data name="UWPProjectIsBasedOnProjectJsonAndIs_Text" xml:space="preserve">
+    <value>UWP 项目基于 project.json，不受支持。请改用 PackageReference。</value>
+  </data>
+  <data name="ArchivesListPage_Date_Title" xml:space="preserve">
+    <value>日期</value>
+  </data>
+  <data name="AutomaticActionText" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="PromptInstructsNuGetToAskWhetherToKeep_ToolTip" xml:space="preserve">
+    <value>“提示”会指示 NuGet 询问是保留还是覆盖现有软件包</value>
+  </data>
+  <data name="SyncFinished_Sec_Caption" xml:space="preserve">
+    <value>同步已完成({0} 秒)</value>
+  </data>
+  <data name="ArchivesListPage_Id_Title" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="UncompressedResourceExtensions_TextBox_Caption" xml:space="preserve">
+    <value>未压缩的资源扩展</value>
+  </data>
+  <data name="Architecture_ComboBox_Caption" xml:space="preserve">
+    <value>架构</value>
+  </data>
+  <data name="SqlProjGeneralSettings_Caption" xml:space="preserve">
+    <value>常规</value>
+  </data>
+  <data name="PublishOptions_Text" xml:space="preserve">
+    <value>发布选项</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Related_Symbols" xml:space="preserve">
+    <value>相关符号</value>
+  </data>
+  <data name="IISExpressNotFoundToGetItPleaseVisit_Text" xml:space="preserve">
+    <value>找不到 IIS Express。要获取，请访问: &lt;a href="{0}"&gt;链接&lt;/a&gt;</value>
+  </data>
+  <data name="DownloadXcode_Text" xml:space="preserve">
+    <value>下载 Xcode…</value>
+  </data>
+  <data name="UnableToFindTheCLITypeFor__Text" xml:space="preserve">
+    <value>找不到 '{0}' 的 CLI 类型</value>
+  </data>
+  <data name="PathToCInteractiveTool_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>C# Interactive 工具的路径</value>
+  </data>
+  <data name="ScaffoldItemCommandFailed" xml:space="preserve">
+    <value>基架条目命令失败</value>
+  </data>
+  <data name="SamplingDurationSettingDescription" xml:space="preserve">
+    <value>采样时长</value>
+  </data>
+  <data name="EnableMultiDex_CheckBox_Caption" xml:space="preserve">
+    <value>启用 Multi-Dex</value>
+  </data>
+  <data name="CreatingSolutionFile_Text" xml:space="preserve">
+    <value>正在创建解决方案文件</value>
+  </data>
+  <data name="UWPSDKIsNotFound_Text" xml:space="preserve">
+    <value>找不到 UWP SDK</value>
+  </data>
+  <data name="Project_Template_Option_V2ViIEFwcAEQEQ" xml:space="preserve">
+    <value>Web 应用</value>
+  </data>
+  <data name="GettingExportableCategories_Text" xml:space="preserve">
+    <value>正在获取可导出类别…</value>
+  </data>
+  <data name="InlineDocHighlightingGroup_Text" xml:space="preserve">
+    <value>内联文档高亮显示组</value>
+  </data>
+  <data name="AddMVCView_Text" xml:space="preserve">
+    <value>添加 MVC 视图</value>
+  </data>
+  <data name="IisExpressOptionPageTitle" xml:space="preserve">
+    <value>IIS Express</value>
+  </data>
+  <data name="LinkBehavior_ComboBox_Caption" xml:space="preserve">
+    <value>链接行为</value>
+  </data>
+  <data name="Arguments_Text" xml:space="preserve">
+    <value>实参:</value>
+  </data>
+  <data name="DevelopmentPort_Caption" xml:space="preserve">
+    <value>开发端口</value>
+  </data>
+  <data name="MacOSMonterey_Text" xml:space="preserve">
+    <value>macOS Monterey</value>
+  </data>
+  <data name="OrganisationalUnit_Text" xml:space="preserve">
+    <value>组织单位</value>
+  </data>
+  <data name="HotReloadDisabledDueToAndroidLinker_Text" xml:space="preserve">
+    <value>由于 Android 链接器设置，热重载已被禁用。请转到“项目 | 属性”，将链接器设置更改为“不链接”。</value>
+  </data>
+  <data name="ReplaceXCodePropertiesWithActualValues_Text" xml:space="preserve">
+    <value>将 Xcode 属性替换为 Info.plist 中的实际值…</value>
+  </data>
+  <data name="EnterTypeName_Text" xml:space="preserve">
+    <value>输入类型名称:</value>
+  </data>
+  <data name="DesignerSaving_Text" xml:space="preserve">
+    <value>设计器正在保存</value>
+  </data>
+  <data name="WhetherRecordingIsEnabledSettingDescription" xml:space="preserve">
+    <value>是否启用录音</value>
+  </data>
+  <data name="RestoreDecompileSettingsSettingDescription" xml:space="preserve">
+    <value>还原反编译设置</value>
+  </data>
+  <data name="WaitingForCachesToBeBuilt_Text" xml:space="preserve">
+    <value>正在等待构建缓存</value>
+  </data>
+  <data name="ReadSettingsFromEditorconfigProject_Text" xml:space="preserve">
+    <value>从 editorconfig、项目设置和规则集中读取设置</value>
+  </data>
+  <data name="AllowProvisioningUpdates_Text" xml:space="preserve">
+    <value>允许预配更新</value>
+  </data>
+  <data name="SigningIdentity_Text" xml:space="preserve">
+    <value>签名身份: </value>
+  </data>
+  <data name="EnableDockerComposeSupportActionActionText" xml:space="preserve">
+    <value>启用 Docker Compose 支持</value>
+  </data>
+  <data name="InstallAndUpdate_Header_Text" xml:space="preserve">
+    <value>安装并更新</value>
+  </data>
+  <data name="Template_Editable_V2luZG93cyBGb3Jt" xml:space="preserve">
+    <value>Windows 窗体</value>
+  </data>
+  <data name="CreateVirtualDirectory_Text" xml:space="preserve">
+    <value>创建 IIS 虚拟目录</value>
+  </data>
+  <data name="FlipAroundCommaActionText" xml:space="preserve">
+    <value>围绕逗号翻转</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Textual__fuzzy_" xml:space="preserve">
+    <value>文本(模糊)</value>
+  </data>
+  <data name="OSXElCapitan_Text" xml:space="preserve">
+    <value>OS X El Capitan</value>
+  </data>
+  <data name="Template_Editable_VXNlciBDb250cm9s" xml:space="preserve">
+    <value>用户控件</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Compiled" xml:space="preserve">
+    <value>已编译</value>
+  </data>
+  <data name="CSharpInteractiveSettingDescription" xml:space="preserve">
+    <value>C# Interactive</value>
+  </data>
+  <data name="Server_SectionTitle" xml:space="preserve">
+    <value>服务器</value>
+  </data>
+  <data name="SelectFilesDialogTitle" xml:space="preserve">
+    <value>选择文件</value>
+  </data>
+  <data name="Internal_Header_Text" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="UnableToGenerateContentForTheFile_Text" xml:space="preserve">
+    <value>无法为文件生成内容</value>
+  </data>
+  <data name="_GenerateViews_Text" xml:space="preserve">
+    <value>生成视图(_G)</value>
+  </data>
+  <data name="Packaging_SectionName" xml:space="preserve">
+    <value>打包</value>
+  </data>
+  <data name="JavaDevelopmentKitLocation_Text_Text" xml:space="preserve">
+    <value>Java 开发工具包位置:</value>
+  </data>
+  <data name="SendLineMovesCaretDown_BoolOption_Text" xml:space="preserve">
+    <value>发送行向下移动文本光标</value>
+  </data>
+  <data name="ThereIsNoKeyToSignSelected_Text" xml:space="preserve">
+    <value>未选择任何密钥</value>
+  </data>
+  <data name="InHouseAutomatic_ComboBoxValue" xml:space="preserve">
+    <value>内部(自动)</value>
+  </data>
+  <data name="ASPNETOptionPageTitle" xml:space="preserve">
+    <value>ASP.NET</value>
+  </data>
+  <data name="Vulnerable_Installed_Packages_Detected" xml:space="preserve">
+    <value>检测到包含漏洞的软件包</value>
+  </data>
+  <data name="RiderSourceLinkNotifications_Title_Text" xml:space="preserve">
+    <value>外部源</value>
+  </data>
+  <data name="GenerateXcodeProjectFor___Caption" xml:space="preserve">
+    <value>为 '{0}' [{1}] 生成 Xcode 项目…</value>
+  </data>
+  <data name="ReaderModeEnabledSettingsEntryName" xml:space="preserve">
+    <value>Reader mode enabled</value>
+  </data>
+  <data name="ShowILCode_Text" xml:space="preserve">
+    <value>显示 IL 代码</value>
+  </data>
+  <data name="Organisation_Text" xml:space="preserve">
+    <value>组织</value>
+  </data>
+  <data name="AutomaticallyRestoreMissingPackages_ComboEnum_Caption" xml:space="preserve">
+    <value>必要时自动还原缺少的软件包</value>
+  </data>
+  <data name="FindSimilarIssuesInCustomScope_Text" xml:space="preserve">
+    <value>在自定义作用域内查找类似问题…</value>
+  </data>
+  <data name="EnableWindowsFormsDesigner_Text" xml:space="preserve">
+    <value>启用 Windows 窗体设计器</value>
+  </data>
+  <data name="FileConflict_Caption" xml:space="preserve">
+    <value>文件冲突</value>
+  </data>
+  <data name="_UserClass_Text" xml:space="preserve">
+    <value>用户类(_U): </value>
+  </data>
+  <data name="AspNetFoldingsHighlighterGroup" xml:space="preserve">
+    <value>ASP.NET 折叠</value>
+  </data>
+  <data name="Project_Template_Option_aU9TIFRhYmJlZCBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+    <value>iOS 标签式应用程序</value>
+  </data>
+  <data name="DebuggerShowClassInstancesContextAction_Description" xml:space="preserve">
+    <value>显示特定类的实例</value>
+  </data>
+  <data name="UnexpectedEndOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '@end'</value>
+  </data>
+  <data name="EnableDesignerExceptionsNavigation_Text" xml:space="preserve">
+    <value>启用设计器异常导航</value>
+  </data>
+  <data name="OpenApplicationhostConfigInTheEditor_Text" xml:space="preserve">
+    <value>在编辑器中打开 applicationhost.config</value>
+  </data>
+  <data name="VisualStudioBuildTools_Text" xml:space="preserve">
+    <value>Visual Studio 构建工具</value>
+  </data>
+  <data name="ConfigureVisualStudioInstallationFolder_Text" xml:space="preserve">
+    <value>配置 Visual Studio 安装文件夹</value>
+  </data>
+  <data name="FindGenericTypeUsagesBehaviour_ComboEnum_Caption" xml:space="preserve">
+    <value>查找泛型类型用法时的行为:</value>
+  </data>
+  <data name="Platform_GroupName" xml:space="preserve">
+    <value>平台</value>
+  </data>
+  <data name="Template_Editable_bGF1bmNoU2V0dGluZ3MuanNvbiBGaWxl" xml:space="preserve">
+    <value>launchSettings.json 文件</value>
+  </data>
+  <data name="SyncingTypes_Text" xml:space="preserve">
+    <value>正在同步类型</value>
+  </data>
+  <data name="XcodeProjectWasDeletedStopSyncing_Caption" xml:space="preserve">
+    <value>Xcode 项目已从文件系统中删除，停止同步</value>
+  </data>
+  <data name="ControllerName_Text" xml:space="preserve">
+    <value>控制器名称(_C): </value>
+  </data>
+  <data name="Configure_Text" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="Project_Template_Option_eFVuaXQEQ" xml:space="preserve">
+    <value>xUnit</value>
+  </data>
+  <data name="Project_Template_Option_Lk5FVCBNQVVJIEJsYXpvciBBcHAEQ" xml:space="preserve">
+    <value>.NET MAUI Blazor 应用</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Update_File" xml:space="preserve">
+    <value>无法更新文件: {0}</value>
+  </data>
+  <data name="SkipToCursor_Text" xml:space="preserve">
+    <value>跳到光标</value>
+  </data>
+  <data name="XCodeInstallation_Presentation_Default_Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="RazorCOptionPageTitle" xml:space="preserve">
+    <value>Razor (C#)</value>
+  </data>
+  <data name="Alias_TextBox_Caption" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="SkipInfoPlistPostProcessingThereIsNo_Text" xml:space="preserve">
+    <value>跳过 Info.plist 后处理: 文件中没有已知属性</value>
+  </data>
+  <data name="Text_ComboBoxValue" xml:space="preserve">
+    <value>文本文件</value>
+  </data>
+  <data name="PathMappingHelpsRiderAnalyzeResources_Text" xml:space="preserve">
+    <value>路径映射可以帮助 Rider 分析设计时和部署后具有不同路径的资源。忽略设计时不存在的文件或文件夹的路径，以避免错误的高亮显示。替换部署后不同的路径，以确保正确导航。</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgTGF5b3V0" xml:space="preserve">
+    <value>Razor 布局</value>
+  </data>
+  <data name="UsagesOptionsPageTitle" xml:space="preserve">
+    <value>搜索和导航</value>
+  </data>
+  <data name="Other_Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="FailedToParseIBOutletOn__Text" xml:space="preserve">
+    <value>无法解析 {0} 上的 IBOutlet</value>
+  </data>
+  <data name="HighestPatch_Text" xml:space="preserve">
+    <value>最高修补程序版本</value>
+  </data>
+  <data name="AddIdentity_Text" xml:space="preserve">
+    <value>添加身份</value>
+  </data>
+  <data name="ShowInstancesOf__Text" xml:space="preserve">
+    <value>显示 '{0}' 的实例</value>
+  </data>
+  <data name="UnableToSyncType__Text" xml:space="preserve">
+    <value>无法同步类型: {0}</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Remove_Reference" xml:space="preserve">
+    <value>无法移除程序集引用: {0}</value>
+  </data>
+  <data name="MigratePackagesConfigToPackageReferenceActionText" xml:space="preserve">
+    <value>将 packages.config 迁移到 PackageReference</value>
+  </data>
+  <data name="OpenAndroidSDKManager_Text" xml:space="preserve">
+    <value>打开 Android SDK 管理器…</value>
+  </data>
+  <data name="SkippedElementsSettinsOptionPageTitle" xml:space="preserve">
+    <value>跳过的元素设置</value>
+  </data>
+  <data name="MinimumPlatform_Text" xml:space="preserve">
+    <value>MinimumPlatform</value>
+  </data>
+  <data name="Parsing__Text" xml:space="preserve">
+    <value>正在解析 '{0}'…</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGggWElCIGZvciBpT1MEQ" xml:space="preserve">
+    <value>适用于 iOS 的具有 XIB 的视图控制器</value>
+  </data>
+  <data name="GenerateUnitTest_Dialog_Notification_FileTemplateCanBeEdited_EditorLocation" xml:space="preserve">
+    <value>设置 &gt; 编辑器 &gt; 文件模板</value>
+  </data>
+  <data name="ExportSettings_Text" xml:space="preserve">
+    <value>导出设置</value>
+  </data>
+  <data name="OverwriteAllInstructsNuGetToOverwrite_ToolTip" xml:space="preserve">
+    <value>“全部覆盖”会指示 NuGet 覆盖任何现有软件包</value>
+  </data>
+  <data name="TargetPlatform_Text" xml:space="preserve">
+    <value>TargetPlatform</value>
+  </data>
+  <data name="IISExpress32Bit_Header_Text" xml:space="preserve">
+    <value>IIS Express (32 位)</value>
+  </data>
+  <data name="SelectAnExistingLayoutPageOrSpecify_Text" xml:space="preserve">
+    <value>选择现有布局页面，或指定新页面:</value>
+  </data>
+  <data name="PackageReferenceRestoreEngine_ComboEnum_Caption" xml:space="preserve">
+    <value>PackageReference 还原引擎</value>
+  </data>
+  <data name="Template_Editable_V2ViLmNvbmZpZyBGaWxl" xml:space="preserve">
+    <value>Web.config 文件</value>
+  </data>
+  <data name="GetsTheNewestNETFrameworkVersionOfTheProjectAndPreparesAnAttributeStringFrameworkMacroDefinition_Description" xml:space="preserve">
+    <value>Web.config 框架特性</value>
+  </data>
+  <data name="GeneratedFilesAndDirectories_Caption" xml:space="preserve">
+    <value>生成的文件和目录:</value>
+  </data>
+  <data name="ToolArgumentsSettingDescription" xml:space="preserve">
+    <value>工具实参</value>
+  </data>
+  <data name="UnknownModel__Text" xml:space="preserve">
+    <value>未知模型 {0}</value>
+  </data>
+  <data name="Off_ComboBoxValue" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="SelectFolderOrFileDialogTitle" xml:space="preserve">
+    <value>选择路径</value>
+  </data>
+  <data name="IISExpressIsNotSupportedOnCurrentOperating_Text" xml:space="preserve">
+    <value>此操作系统上不支持 IIS Express</value>
+  </data>
+  <data name="Project_Template_Option_U2hhcmVkIExpYnJhcnkEQ" xml:space="preserve">
+    <value>共享库</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Create_Reference" xml:space="preserve">
+    <value>无法创建程序集引用: {0}</value>
+  </data>
+  <data name="SignTheAPKFileUsingTheNextKeystoreInformation_CheckBox_Caption" xml:space="preserve">
+    <value>使用下一个密钥库信息签署 .APK 文件</value>
+  </data>
+  <data name="_Issues_Text" xml:space="preserve">
+    <value>“{0}”问题</value>
+  </data>
+  <data name="VBNETOptionPageTitle" xml:space="preserve">
+    <value>VB.NET</value>
+  </data>
+  <data name="Advisory_1" xml:space="preserve">
+    <value>咨询: {0}</value>
+  </data>
+  <data name="FileWasUpdated_Text" xml:space="preserve">
+    <value>文件已被更新</value>
+  </data>
+  <data name="TheRequiredXcodeVersionForInstalled_Text" xml:space="preserve">
+    <value>用于 {0} 的安装的 Xamarin SDK 的所需 Xcode 版本为 Xcode {1} 或更高版本。当前 Xcode 版本(在 {2} 中找到)为 {3}。</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Generated" xml:space="preserve">
+    <value>已生成</value>
+  </data>
+  <data name="SolutionAnalysis_Analyzing_Files_Text" xml:space="preserve">
+    <value>正在分析文件</value>
+  </data>
+  <data name="PreserveDataCacheBetweenApplication_Text" xml:space="preserve">
+    <value>在两次应用程序部署之间保留数据/缓存</value>
+  </data>
+  <data name="TemporarySettingToRestoreDecompileMethodsSettingDescription" xml:space="preserve">
+    <value>Temporary setting to restore 'Decompile methods'</value>
+  </data>
+  <data name="UseCredentialProvidersRequiresRestart_ComboEnum_Caption" xml:space="preserve">
+    <value>使用凭据提供程序(需要重启)</value>
+  </data>
+  <data name="UsageGrouping_Type_Text" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="ExpandUnitTestTree_ProgressText" xml:space="preserve">
+    <value>正在计算要扩展的单元测试…</value>
+  </data>
+  <data name="Internal_Text" xml:space="preserve">
+    <value>内部</value>
+  </data>
+  <data name="SynchronizationHasStoppedReopenProject_Text" xml:space="preserve">
+    <value>同步已停止。请在 Xcode 中重新打开项目以再次同步更改。</value>
+  </data>
+  <data name="DiagnosticsWithoutDumpActionFound_Text" xml:space="preserve">
+    <value>找到没有转储操作的诊断</value>
+  </data>
+  <data name="RiderDebuggerSettingsSettingDescription" xml:space="preserve">
+    <value>Rider 调试器设置</value>
+  </data>
+  <data name="FormattedTestOutput_Text" xml:space="preserve">
+    <value>'{0}' 输出</value>
+  </data>
+  <data name="Score" xml:space="preserve">
+    <value>分数</value>
+  </data>
+  <data name="OutputName_TextBox_Caption" xml:space="preserve">
+    <value>输出名称</value>
+  </data>
+  <data name="SigningIdentity_TitleText" xml:space="preserve">
+    <value>签名身份</value>
+  </data>
+  <data name="OpenFullTestOutputInEditorActionText" xml:space="preserve">
+    <value>在编辑器中打开完整的测试输出</value>
+  </data>
+  <data name="ArchiveForPublishActionText" xml:space="preserve">
+    <value>归档以用于发布</value>
+  </data>
+  <data name="IsAutomaticThreadDumpCollectionAllowedSettingDescription" xml:space="preserve">
+    <value>是否允许自动线程转储收集</value>
+  </data>
+  <data name="ForBuildingAndRunningApplications_Text" xml:space="preserve">
+    <value>以构建和运行应用程序</value>
+  </data>
+  <data name="FilesAndFoldersAreSpecifiedRelative_Text_Text" xml:space="preserve">
+    <value>文件和文件夹是相对于解决方案根目录指定的；文件掩码将与文件绝对路径匹配。</value>
+  </data>
+  <data name="RiderOnlineHelpActionText" xml:space="preserve">
+    <value>Rider 在线帮助</value>
+  </data>
+  <data name="Keystore_TextBox_Caption" xml:space="preserve">
+    <value>密钥库</value>
+  </data>
+  <data name="XCodeInstallation_Presentation_Missing_Text" xml:space="preserve">
+    <value>缺少</value>
+  </data>
+  <data name="UnableToSyncXcodeProject__Text" xml:space="preserve">
+    <value>无法同步 Xcode 项目: {0}</value>
+  </data>
+  <data name="SyncChangesFromXcodeProject_Caption" xml:space="preserve">
+    <value>同步 Xcode 项目中的更改…</value>
+  </data>
+  <data name="CodeIssues_Text" xml:space="preserve">
+    <value>代码问题</value>
+  </data>
+  <data name="InitTypeSystem_Text" xml:space="preserve">
+    <value>初始化类型系统</value>
+  </data>
+  <data name="DeviceSpecificBuild_Caption" xml:space="preserve">
+    <value>特定于设备的构建</value>
+  </data>
+  <data name="ManagedPipelineMode_Integrated_Text" xml:space="preserve">
+    <value>已集成</value>
+  </data>
+  <data name="Codesets_TextBox_Caption" xml:space="preserve">
+    <value>代码集</value>
+  </data>
+  <data name="IncludePrerelease_BoolOption_Text" xml:space="preserve">
+    <value>包括预发布</value>
+  </data>
+  <data name="IPhoneShouldBeConnectedToTheSameNetwork_Text" xml:space="preserve">
+    <value>iPhone 必须连接到与主机相同的网络</value>
+  </data>
+  <data name="NETCoreProjects_Text" xml:space="preserve">
+    <value>.NET Core 项目</value>
+  </data>
+  <data name="CodeBlock_Highlighter_Display_Name" xml:space="preserve">
+    <value>Razor//代码块</value>
+  </data>
+  <data name="ItemCannotBeRemoved_Text" xml:space="preserve">
+    <value>条目无法移除。原因: {0}</value>
+  </data>
+  <data name="ToolSettings_Header_Text" xml:space="preserve">
+    <value>工具设置</value>
+  </data>
+  <data name="Remove_Caption" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="IllegalCharactersInPath_Text" xml:space="preserve">
+    <value>路径中的字符非法</value>
+  </data>
+  <data name="RerunAbortedTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>重新运行中止的测试</value>
+  </data>
+  <data name="AreYouSureYouWantToRemove_TestElements_Text" xml:space="preserve">
+    <value>确定要从会话中移除 {0} 个测试元素吗?</value>
+  </data>
+  <data name="CanNotFindPlatformProjectFolderPlatforms_Text" xml:space="preserve">
+    <value>找不到平台项目文件夹 'Platforms/{0}'</value>
+  </data>
+  <data name="LoadingTypeHierarchy_Text" xml:space="preserve">
+    <value>正在加载类型层次结构</value>
+  </data>
+  <data name="ServerType_NoneServer_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="PasswordsMustMatch_Text" xml:space="preserve">
+    <value>密码必须匹配</value>
+  </data>
+  <data name="NTLMAuthentication_Caption" xml:space="preserve">
+    <value>NTLM 身份验证</value>
+  </data>
+  <data name="TypeFileWasCreatedAndWillBeSyncedWith_Text" xml:space="preserve">
+    <value>类型文件已被创建，将与 .NET 项目同步</value>
+  </data>
+  <data name="NoToAll_Text" xml:space="preserve">
+    <value>全部否</value>
+  </data>
+  <data name="Next_Text" xml:space="preserve">
+    <value>下一步</value>
+  </data>
+  <data name="CheckAndInstallCodeGenerationTool_Text" xml:space="preserve">
+    <value>检查并安装代码生成工具</value>
+  </data>
+  <data name="DebuggerJumpToStatementContextAction_Name" xml:space="preserve">
+    <value>调试器 - 跳转到语句</value>
+  </data>
+  <data name="UnableToFindTheBaseType__Text" xml:space="preserve">
+    <value>找不到基类型 '{0}'</value>
+  </data>
+  <data name="RiderSourceLinkNotifications_CannotDownloadSource_Text" xml:space="preserve">
+    <value>无法下载源</value>
+  </data>
+  <data name="ThereAreNoAnyPackagesIn__Text" xml:space="preserve">
+    <value>{0} 中没有软件包</value>
+  </data>
+  <data name="TagHelperElement_Highlighter_Display_Name" xml:space="preserve">
+    <value>Razor//标记帮助程序元素</value>
+  </data>
+  <data name="FailedToParseInterfaceDefinitionOn__Text" xml:space="preserve">
+    <value>无法解析 {0} 上的接口定义</value>
+  </data>
+  <data name="Debug_SectionName" xml:space="preserve">
+    <value>调试</value>
+  </data>
+  <data name="ASPNETCoreModuleDLLPathBitSettingDescription" xml:space="preserve">
+    <value>ASP.NET Core 模块 DLL 路径(32 位)</value>
+  </data>
+  <data name="UnexpectedInterfaceOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '@interface'</value>
+  </data>
+  <data name="ShowQuickDocumentationActionText" xml:space="preserve">
+    <value>显示快速文档(&amp;Q)…</value>
+  </data>
+  <data name="NothingToGenerate_Text" xml:space="preserve">
+    <value>没有要生成的内容</value>
+  </data>
+  <data name="OptionCompare_ComboBox_Caption" xml:space="preserve">
+    <value>Option Compare</value>
+  </data>
+  <data name="Signing_Text" xml:space="preserve">
+    <value>签署</value>
+  </data>
+  <data name="EnableDockerSupportInProject__Caption" xml:space="preserve">
+    <value>在项目 '{0}' 中启用 Docker 支持</value>
+  </data>
+  <data name="Root_Text" xml:space="preserve">
+    <value>根</value>
+  </data>
+  <data name="ItemWasRemoved_Text" xml:space="preserve">
+    <value>条目已被移除</value>
+  </data>
+  <data name="NextInsightHighlightingsGroup_Text" xml:space="preserve">
+    <value>AI 洞察组</value>
+  </data>
+  <data name="DownloadAndInstallUWPSDK_Text" xml:space="preserve">
+    <value>下载并安装 UWP SDK…</value>
+  </data>
+  <data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
+    <value>生成的代码</value>
+  </data>
+  <data name="SpaciousFormatActionText" xml:space="preserve">
+    <value>宽松格式</value>
+  </data>
+  <data name="PreparingFileSystem_Text" xml:space="preserve">
+    <value>正在准备文件系统</value>
+  </data>
+  <data name="EnableHotReloadWhenRunningWithoutDebuggingNETAndLaterSettingDescription" xml:space="preserve">
+    <value>在不调试的情况下运行时启用热重载(.NET 6.0 及更高版本)</value>
+  </data>
+  <data name="HighestMinor_Text" xml:space="preserve">
+    <value>最高次要版本</value>
+  </data>
+  <data name="EnableXAMLHotReloadForXamarinForms_Text" xml:space="preserve">
+    <value>为 Xamarin.Forms 启用 XAML 热重载</value>
+  </data>
+  <data name="FindIssues_Text" xml:space="preserve">
+    <value>查找问题</value>
+  </data>
+  <data name="_OverrideExistingFiles_Text" xml:space="preserve">
+    <value>重写现有文件(_O)</value>
+  </data>
+  <data name="DecompileProtectedAssemblies_BoolOption_Text" xml:space="preserve">
+    <value>反编译受保护的程序集(忽略 SuppressIldasm 特性)</value>
+  </data>
+  <data name="DebuggerJumpToStatementContextAction_Description" xml:space="preserve">
+    <value>将执行指针移动到当前语句而不执行代码</value>
+  </data>
+  <data name="UnexpectedImplementationOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 '@implementation'</value>
+  </data>
+  <data name="ILCode_Text" xml:space="preserve">
+    <value>IL 代码</value>
+  </data>
+  <data name="CodeSharing_GroupName" xml:space="preserve">
+    <value>代码共享</value>
+  </data>
+  <data name="DownloadMono_Linux_Text" xml:space="preserve">
+    <value>下载最新的稳定 Mono-complete 软件包</value>
+  </data>
+  <data name="Empty_Text" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="NETFrameworkDeveloperPackIsNotFound_Text" xml:space="preserve">
+    <value>找不到 .NET Framework 开发者包</value>
+  </data>
+  <data name="AddRazorPageUsingEntityFramework_Text" xml:space="preserve">
+    <value>添加使用 Entity Framework 的 Razor 页面</value>
+  </data>
+  <data name="Template_Editable_WElCIGZvciBNYWMEQ" xml:space="preserve">
+    <value>适用于 Mac 的 XIB</value>
+  </data>
+  <data name="UseSharedMonoRuntime_CheckBox_Caption" xml:space="preserve">
+    <value>使用共享 mono 运行时</value>
+  </data>
+  <data name="Controller_AlreadyExists_Text" xml:space="preserve">
+    <value>控制器 '{0}' 已存在</value>
+  </data>
+  <data name="Solution_contains_vulnerable_packages_installed" xml:space="preserve">
+    <value>此解决方案中安装了包含漏洞的软件包</value>
+  </data>
+  <data name="IgnoreAll_Text" xml:space="preserve">
+    <value>全部忽略</value>
+  </data>
+  <data name="InOrderToRunMSTestTestsRiderNeedsTo_Text_Text" xml:space="preserve">
+    <value>为了运行 MSTest 测试，Rider 需要使用随 Visual Studio 一起分发的控制台单元测试运行程序，并且需要 Visual Studio 许可证。选择下面的 Visual Studio 安装，即表示您确认您负责获得适当的许可来使用 Visual Studio 安装:</value>
+  </data>
+  <data name="None_Text" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="Project_Template_Option_VVdQIEFwcGxpY2F0aW9u" xml:space="preserve">
+    <value>UWP 应用程序</value>
+  </data>
+  <data name="UwpDeploy_UnableToCopy_Message" xml:space="preserve">
+    <value>无法复制文件 '{0}'</value>
+  </data>
+  <data name="HereYouCanSpecifyFilesFileMasksAndFolders_Text_Text" xml:space="preserve">
+    <value>在这里，您可以指定应从代码分析中排除的文件、文件掩码和文件夹。</value>
+  </data>
+  <data name="Project_Template_Option_VkIEQ" xml:space="preserve">
+    <value>VB</value>
+  </data>
+  <data name="Project_Template_Option_RiMEQ" xml:space="preserve">
+    <value>F#</value>
+  </data>
+  <data name="Project_Template_Option_QyMEQ" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="DoNotLink_ComboBoxValue" xml:space="preserve">
+    <value>不链接</value>
+  </data>
+  <data name="ContextActions_Text" xml:space="preserve">
+    <value>上下文操作</value>
+  </data>
+  <data name="Linker_TextBox_Caption" xml:space="preserve">
+    <value>链接器</value>
+  </data>
+  <data name="XcodeWasClosedStopSyncing_Caption" xml:space="preserve">
+    <value>Xcode 已关闭，请停止同步</value>
+  </data>
+  <data name="FilesToOverride_Text" xml:space="preserve">
+    <value>要重写的文件: </value>
+  </data>
+  <data name="SyncWithDdlDataSourceSetting_Text" xml:space="preserve">
+    <value>为数据库项目创建 DDL 数据源并同步</value>
+  </data>
+  <data name="LastLaunchLog_Text" xml:space="preserve">
+    <value>上一个启动日志</value>
+  </data>
+  <data name="VBLanguageLevel_ToolTip" xml:space="preserve">
+    <value>指定 Rider 应当用于代码分析的 Visual Basic 语言级别；不影响编译器、Roslyn 分析器和项目构建。</value>
+  </data>
+  <data name="PackageSpecDumpStrategy_ComboEnum_Caption" xml:space="preserve">
+    <value>PackageSpec 转储策略</value>
+  </data>
+  <data name="Run__Text" xml:space="preserve">
+    <value>运行 '{0}'</value>
+  </data>
+  <data name="Qodana_InspectCode_Text" xml:space="preserve">
+    <value>Qodana for .NET</value>
+  </data>
+  <data name="Project_Template_Option_Qmxhem9yIFNlcnZlciBBcHAgRW1wdHkEQ" xml:space="preserve">
+    <value>空 Blazor 服务器应用</value>
+  </data>
+  <data name="SearchTarget_Text" xml:space="preserve">
+    <value>搜索目标</value>
+  </data>
+  <data name="Show_File_Text" xml:space="preserve">
+    <value>显示 {0} 文件</value>
+  </data>
+  <data name="Search_Header_Text" xml:space="preserve">
+    <value>搜索</value>
+  </data>
+  <data name="AndroidSDKLocation_Text_Text" xml:space="preserve">
+    <value>Android SDK 位置:</value>
+  </data>
+  <data name="DefaultNativeTLS12_ComboBoxValue" xml:space="preserve">
+    <value>默认(Native TLS 1.2+)</value>
+  </data>
+  <data name="UseXcodeSelectUtilityToChangeDefault_Text" xml:space="preserve">
+    <value>使用 'xcode-select' 实用工具更改系统和 IDE 中的默认 Xcode</value>
+  </data>
+  <data name="UsingXcode_ToOpenGeneratedProject_Text" xml:space="preserve">
+    <value>使用 Xcode {0} 打开生成的项目</value>
+  </data>
+  <data name="DebuggerSmartStepIntoContextAction_Description" xml:space="preserve">
+    <value>如果当前行中存在多个调用，允许选择要步入的函数</value>
+  </data>
+  <data name="SsdtLocationSetting_Description" xml:space="preserve">
+    <value>SQL Server Data Tools 位置</value>
+  </data>
+  <data name="FailedToParseMethodOf_On__Text" xml:space="preserve">
+    <value>无法解析 {1} 上 '{0}' 的方法</value>
+  </data>
+  <data name="GettingProfiles_Text" xml:space="preserve">
+    <value>正在获取分析…</value>
+  </data>
+  <data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
+    <value>在“转到…”结果中显示非 public 编译条目</value>
+  </data>
+  <data name="AutoIndentLinesActionText" xml:space="preserve">
+    <value>自动缩进行</value>
+  </data>
+  <data name="Project_Template_Option_QmluZGluZ3MgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>绑定库</value>
+  </data>
+  <data name="NoNewCustomUIClassDefinitionsFound_Text" xml:space="preserve">
+    <value>找不到新的自定义 UI 类定义</value>
+  </data>
+  <data name="SqlProjOptionPageTitle" xml:space="preserve">
+    <value>SQL 项目</value>
+  </data>
+  <data name="ProcessKeys_Text" xml:space="preserve">
+    <value>正在处理密钥</value>
+  </data>
+  <data name="LowestInstallsTheDependencyWithTheMinimal_ToolTip" xml:space="preserve">
+    <value>“最低”会安装满足最初选择的软件包要求的具有最小版本号的依赖项</value>
+  </data>
+  <data name="ASPNETCOptionPageTitle" xml:space="preserve">
+    <value>ASP.NET (C#)</value>
+  </data>
+  <data name="Project_Template_Option_V2luZG93cyBGb3JtcyBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+    <value>Windows 窗体应用程序</value>
+  </data>
+  <data name="DebuggerPort_TextBox_Caption" xml:space="preserve">
+    <value>调试器端口</value>
+  </data>
+  <data name="MSTestOptionPageTitle" xml:space="preserve">
+    <value>MSTest</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Add_MsBuild_Item" xml:space="preserve">
+    <value>无法添加 MSBuild 条目: {0}</value>
+  </data>
+  <data name="Controller_DescriptionText" xml:space="preserve">
+    <value>控制器</value>
+  </data>
+  <data name="UnitTestSession_IsFinished_Caption" xml:space="preserve">
+    <value>单元测试会话 '{0}' 已完成</value>
+  </data>
+  <data name="MacOSCatalina_Text" xml:space="preserve">
+    <value>macOS Catalina</value>
+  </data>
+  <data name="ThereAreManyObjcTypesForTheCliType__Text" xml:space="preserve">
+    <value>CLI 类型 '{0}' 有许多 objc 类型，请使用 '{1}'</value>
+  </data>
+  <data name="Output_Text" xml:space="preserve">
+    <value>输出</value>
+  </data>
+  <data name="DistributionChannel_Text" xml:space="preserve">
+    <value>分发渠道</value>
+  </data>
+  <data name="XamarinSDK_Text" xml:space="preserve">
+    <value>Xamarin SDK</value>
+  </data>
+  <data name="DownloadNETFrameworkDeveloperPack_Text" xml:space="preserve">
+    <value>下载最新版本的 .NET Framework Developer Pack</value>
+  </data>
+  <data name="RiderRecorderSettingsSettingDescription" xml:space="preserve">
+    <value>Rider 记录器设置</value>
+  </data>
+  <data name="GroupingsSettingDescription" xml:space="preserve">
+    <value>分组</value>
+  </data>
+  <data name="AddDataContextClass_Text" xml:space="preserve">
+    <value>添加数据上下文类</value>
+  </data>
+  <data name="OpeningCInteractiveToolFocusesToolWindow_BoolOption_Text" xml:space="preserve">
+    <value>打开 C# Interactive 工具使工具窗口获得焦点</value>
+  </data>
+  <data name="choice:mappings" xml:space="preserve">
+    <value>one:i == 1</value>
+  </data>
+  <data name="Identifier_Text" xml:space="preserve">
+    <value>标识符:</value>
+  </data>
+  <data name="XamarinMacProjects_Text" xml:space="preserve">
+    <value>Xamarin (Mac)项目</value>
+  </data>
+  <data name="NoteThatIfSomeSymbolsAreOnlyUsedInThe_Text_Text" xml:space="preserve">
+    <value>请注意，如果某些符号仅在排除的文件中使用，则解决方案级分析会将这些符号高亮显示为从未被使用。</value>
+  </data>
+  <data name="InstallAndroidSDK_Text" xml:space="preserve">
+    <value>安装 Android SDK…</value>
+  </data>
+  <data name="Yes_Text" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="AddFromURIActionText" xml:space="preserve">
+    <value>从 URI 添加…</value>
+  </data>
+  <data name="Other_Header_Text" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="SpellAndGrammarMarks_Text" xml:space="preserve">
+    <value>拼写和语法标记</value>
+  </data>
+  <data name="Yesterday_Text" xml:space="preserve">
+    <value>昨天</value>
+  </data>
+  <data name="AddDataContext_Text" xml:space="preserve">
+    <value>添加数据上下文</value>
+  </data>
+  <data name="XAMLCOptionPageTitle" xml:space="preserve">
+    <value>XAML (C#)</value>
+  </data>
+  <data name="CodeStyleConfiguration_Caption" xml:space="preserve">
+    <value>代码样式配置</value>
+  </data>
+  <data name="UpdateFromXCodeWasSkippedApplication_Caption" xml:space="preserve">
+    <value>从 Xcode 更新已跳过: 应用程序处于调试模式</value>
+  </data>
+  <data name="AddUserClass_Text" xml:space="preserve">
+    <value>添加用户类</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Documentation" xml:space="preserve">
+    <value>文档</value>
+  </data>
+  <data name="FocusToolWindowOnSendLineSettingDescription" xml:space="preserve">
+    <value>发送行时聚焦工具窗口</value>
+  </data>
+  <data name="AccessDeniedToFileOrDirectory__Text" xml:space="preserve">
+    <value>访问文件或目录被拒: '{0}'</value>
+  </data>
+  <data name="Is_vulnerable" xml:space="preserve">
+    <value>是否包含漏洞</value>
+  </data>
+  <data name="UnableToInitializeHotReloadAgentIn__Text" xml:space="preserve">
+    <value>无法在 {0} 秒内初始化热重载代理。{1}请参阅“调试器输出”以了解详情。</value>
+  </data>
+  <data name="ShowCodeStyleConfigurationActionText" xml:space="preserve">
+    <value>显示代码样式配置</value>
+  </data>
+  <data name="WhetherNavigationToDesignerErrorsViaExceptionPopupIsActiveSettingDescription" xml:space="preserve">
+    <value>通过异常弹出窗口导航到设计器错误是否处于活动状态</value>
+  </data>
+  <data name="_Password_Text" xml:space="preserve">
+    <value>密码(_P): </value>
+  </data>
+  <data name="AdditionalMmpArguments_TextBox_Caption" xml:space="preserve">
+    <value>其他 'mmp' 实参</value>
+  </data>
+  <data name="BuildingProject__Text" xml:space="preserve">
+    <value>正在构建项目 '{0}'…</value>
+  </data>
+  <data name="NuGetOptionPageTitle" xml:space="preserve">
+    <value>NuGet</value>
+  </data>
+  <data name="Internalisation_SectionName" xml:space="preserve">
+    <value>国际化</value>
+  </data>
+  <data name="ArchivesListPage_Notification" xml:space="preserve">
+    <value>项目 '{1}' 的 {0} 构建成功</value>
+  </data>
+  <data name="EnablePrivateSourceLinkSupport_BoolOption_Text" xml:space="preserve">
+    <value>启用不公开源链接支持</value>
+  </data>
+  <data name="ThereIsNoSyncedProjectUseSolutionExplorer_Text" xml:space="preserve">
+    <value>没有同步的项目。请使用 Solution Explorer 选择要打开的项目。</value>
+  </data>
+  <data name="OutputType_ComboBox_Caption" xml:space="preserve">
+    <value>输出类型</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Dynamic" xml:space="preserve">
+    <value>动态</value>
+  </data>
+  <data name="Security" xml:space="preserve">
+    <value>安全性</value>
+  </data>
+  <data name="Template_Editable_U3Rvcnlib2FyZCBmb3IgTWFj" xml:space="preserve">
+    <value>适用于 Mac 的情节提要</value>
+  </data>
+  <data name="Template_Editable_U3Rvcnlib2FyZCBmb3IgaU9T" xml:space="preserve">
+    <value>适用于 iOS 的情节提要</value>
+  </data>
+  <data name="Saving__Text" xml:space="preserve">
+    <value>正在保存 {0}</value>
+  </data>
+  <data name="NoneWithAngleBrackets_Text" xml:space="preserve">
+    <value>&lt;None&gt;</value>
+  </data>
+  <data name="GoToBaseInheritorIfThereIsOnlyOneResult_Text" xml:space="preserve">
+    <value>转到基础/继承者: 如果只有一个结果，导航而不显示列表</value>
+  </data>
+  <data name="ChangePathToXcodeInRiderSettings_Text" xml:space="preserve">
+    <value>在 Rider 设置中更改 Xcode 的路径…</value>
+  </data>
+  <data name="UseManagedDesignTimeResourceGenerator_Text" xml:space="preserve">
+    <value>默认情况下使用托管的设计时资源生成器</value>
+  </data>
+  <data name="Template_Editable_V2luZG93" xml:space="preserve">
+    <value>窗口</value>
+  </data>
+  <data name="AndroidSDKPlatformIsNotInstalled_Text" xml:space="preserve">
+    <value>未安装 Android SDK 平台</value>
+  </data>
+  <data name="CodeShrinker_ComboBox_Caption" xml:space="preserve">
+    <value>代码收缩器</value>
+  </data>
+  <data name="AllTemplates_Text" xml:space="preserve">
+    <value>所有模板</value>
+  </data>
+  <data name="NavigateToUnitTestSessionActionText" xml:space="preserve">
+    <value>导航到单元测试会话</value>
+  </data>
+  <data name="Project_Template_Option_V1BGIEN1c3RvbSBDb250cm9sIExpYnJhcnkEQ" xml:space="preserve">
+    <value>WPF 自定义控件库</value>
+  </data>
+  <data name="NewUserClassType_Text" xml:space="preserve">
+    <value>新建用户类类型:</value>
+  </data>
+  <data name="MoveCaretDownOnSendLineSettingDescription" xml:space="preserve">
+    <value>发送行时向下移动文本光标</value>
+  </data>
+  <data name="SSLPort_Caption" xml:space="preserve">
+    <value>SSL 端口</value>
+  </data>
+  <data name="Template_Editable_YXBwc2V0dGluZ3MuanNvbiBGaWxl" xml:space="preserve">
+    <value>appsettings.json 文件</value>
+  </data>
+  <data name="InjectionMark_Text" xml:space="preserve">
+    <value>注入标记</value>
+  </data>
+  <data name="ThePackageNameOfAnAndroidAppMustConsist_Text" xml:space="preserve">
+    <value>Android 应用的软件包名称必须至少包含 2 个段。请在 {0} 中指定软件包名称。</value>
+  </data>
+  <data name="SpecifyAPathToAValidCSHTMLFile_Text" xml:space="preserve">
+    <value>指定有效 CSHTML 文件的路径。</value>
+  </data>
+  <data name="AllRegisteredObjcTypes__Text" xml:space="preserve">
+    <value>所有注册的 objc 类型: {0}</value>
+  </data>
+  <data name="TargetPlatformVersionOfUWPSDK_ToolTip" xml:space="preserve">
+    <value>UWP SDK 的目标平台版本</value>
+  </data>
+  <data name="_IsNotAValidNuGetProject_Text" xml:space="preserve">
+    <value>{0} 不是有效的 NuGet 项目</value>
+  </data>
+  <data name="COptionPageTitle" xml:space="preserve">
+    <value>C#</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Update_Reference" xml:space="preserve">
+    <value>无法更新程序集引用: {0}</value>
+  </data>
+  <data name="FailedToParsePropertyOn__Text" xml:space="preserve">
+    <value>无法解析 {0} 上的属性</value>
+  </data>
+  <data name="ToolWindowBehavior_Header_Text" xml:space="preserve">
+    <value>工具窗口行为</value>
+  </data>
+  <data name="PackingAndDeployment_Caption" xml:space="preserve">
+    <value>打包和部署</value>
+  </data>
+  <data name="UnableToPerformRefactoring_Caption" xml:space="preserve">
+    <value>无法执行重构</value>
+  </data>
+  <data name="ServerType_ComboBoxTitle" xml:space="preserve">
+    <value>服务器类型</value>
+  </data>
+  <data name="OptionInfer_ComboBox_Caption" xml:space="preserve">
+    <value>Option Infer</value>
+  </data>
+  <data name="UnexpectedIBOutletCollectionOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 'IBOutletCollection'</value>
+  </data>
+  <data name="CodeBlockTag_Highlighter_Display_Name" xml:space="preserve">
+    <value>Razor//代码块标记</value>
+  </data>
+  <data name="UnitTestSession_TestsHaveMixedStatuses_Title" xml:space="preserve">
+    <value>{0}/{1} 个测试</value>
+  </data>
+  <data name="Project_Template_Option_d2l0aCBBbmd1bGFy" xml:space="preserve">
+    <value>使用 Angular</value>
+  </data>
+  <data name="AllowRiderToRestoreMissingPackages_ComboEnum_Caption" xml:space="preserve">
+    <value>允许 Rider 还原缺少的软件包</value>
+  </data>
+  <data name="Auth_Text" xml:space="preserve">
+    <value>身份验证</value>
+  </data>
+  <data name="ShowClassInstances_Text" xml:space="preserve">
+    <value>显示类实例</value>
+  </data>
+  <data name="Paths_SectionTitle" xml:space="preserve">
+    <value>路径</value>
+  </data>
+  <data name="InlinePromptSettings_Text" xml:space="preserve">
+    <value>内联提示设置</value>
+  </data>
+  <data name="TargetAndroidAPI_Text" xml:space="preserve">
+    <value>目标 Android API</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Default" xml:space="preserve">
+    <value>找到的用法</value>
+  </data>
+  <data name="AnalysingTypes_Text" xml:space="preserve">
+    <value>正在分析类型</value>
+  </data>
+  <data name="ArchiveForPublishIsFailed_BuildFailed_Text" xml:space="preserve">
+    <value>构建任务失败</value>
+  </data>
+  <data name="RunningCustomTool_Text" xml:space="preserve">
+    <value>正在运行自定义工具</value>
+  </data>
+  <data name="IOSSuggestUpdateCodesignKeySettingDescription" xml:space="preserve">
+    <value>IOS 建议更新 Codesign 密钥</value>
+  </data>
+  <data name="WaitForFileSystemTrackerSync_Text" xml:space="preserve">
+    <value>正在等待 FileSystemTracker 同步</value>
+  </data>
+  <data name="CollectingAndInstantiatingProblemDiagnostics_Text" xml:space="preserve">
+    <value>正在收集并实例化问题诊断…</value>
+  </data>
+  <data name="SettingsCodeBehindGenerator_Text" xml:space="preserve">
+    <value>代码隐藏生成器设置</value>
+  </data>
+  <data name="Project_Template_Option_UmF6b3IgQ2xhc3MgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>Razor 类库</value>
+  </data>
+  <data name="Type_GroupName" xml:space="preserve">
+    <value>按类型分组</value>
+  </data>
+  <data name="RevealKeystoreActionText" xml:space="preserve">
+    <value>显示密钥库</value>
+  </data>
+  <data name="Warning_EnumText" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="CreateANewKey_Button_ToolTip" xml:space="preserve">
+    <value>创建新密钥</value>
+  </data>
+  <data name="UseConcurrentGarbageCollector_CheckBox_Caption" xml:space="preserve">
+    <value>使用并发垃圾回收器</value>
+  </data>
+  <data name="Project_Template_Option_Q2xhc3MgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>类库</value>
+  </data>
+  <data name="GroupBy_Text" xml:space="preserve">
+    <value>分组依据:</value>
+  </data>
+  <data name="Version_Text" xml:space="preserve">
+    <value>版本：</value>
+  </data>
+  <data name="DexCompiler_ComboBox_Caption" xml:space="preserve">
+    <value>Dex 编译器</value>
+  </data>
+  <data name="EditApplicationhostConfigActionText" xml:space="preserve">
+    <value>编辑 applicationhost.config</value>
+  </data>
+  <data name="Project_Template_Option_QW5kcm9pZAEQEQ" xml:space="preserve">
+    <value>Android</value>
+  </data>
+  <data name="RunMethodMarkersSettingsSettingDescription" xml:space="preserve">
+    <value>运行方法标记设置</value>
+  </data>
+  <data name="Project_Template_Option_V1BGIFVzZXIgQ29udHJvbCBMaWJyYXJ5" xml:space="preserve">
+    <value>WPF 用户控件库</value>
+  </data>
+  <data name="Class_AlreadyExists_Text" xml:space="preserve">
+    <value>类 '{0}' 已存在</value>
+  </data>
+  <data name="Template_Editable_WElCIGZvciBpT1MEQ" xml:space="preserve">
+    <value>适用于 iOS 的 XIB</value>
+  </data>
+  <data name="OverwriteAll_Text" xml:space="preserve">
+    <value>全部覆盖</value>
+  </data>
+  <data name="ProcessingAssemblies_Text" xml:space="preserve">
+    <value>处理程序集</value>
+  </data>
+  <data name="HotReloadDisabledDueToIOSLinkerSettings_Text" xml:space="preserve">
+    <value>由于 iOS 链接器设置，热重载已被禁用。请转到“项目 | 属性”，将链接器设置更改为“不链接”。</value>
+  </data>
+  <data name="RiderCodeCleanupService_RunCodeCleanup_Cannot_find_profile" xml:space="preserve">
+    <value>找不到名称为 '{0}' 的代码清理配置文件</value>
+  </data>
+  <data name="Template_Editable_UHJvcGVydHkgTGlzdAEQEQ" xml:space="preserve">
+    <value>属性列表</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Other" xml:space="preserve">
+    <value>其他</value>
+  </data>
+  <data name="Project_Template_Option_V2ViIEFQSQEQEQ" xml:space="preserve">
+    <value>Web API</value>
+  </data>
+  <data name="DownloadMono_MacOs_Text" xml:space="preserve">
+    <value>下载最新的稳定 Mono 版本</value>
+  </data>
+  <data name="_ModelClass_Text" xml:space="preserve">
+    <value>模型类(_M): </value>
+  </data>
+  <data name="PathMappingFor__Caption" xml:space="preserve">
+    <value>{0} 的路径映射</value>
+  </data>
+  <data name="AndroidNDKLocation_Text_Text" xml:space="preserve">
+    <value>自定义 Android NDK 位置:</value>
+  </data>
+  <data name="Project_Template_Option_QW5kcm9pZCBBcHBsaWNhdGlvbgEQEQ" xml:space="preserve">
+    <value>Android 应用</value>
+  </data>
+  <data name="Template_Editable_WGFtYXJpbiBGb3Jt" xml:space="preserve">
+    <value>Xamarin 窗体</value>
+  </data>
+  <data name="SmartGoTo_DeclarationBehavior_ComboEnum_Caption" xml:space="preserve">
+    <value>智能转到声明行为:</value>
+  </data>
+  <data name="EvaluatesNETFrameworkVersionOfCurrentProjectAndCreatesAStartupSectionForItMacroDefinition_LongDescription" xml:space="preserve">
+    <value>评估当前项目的 .NET Framework 版本并为其创建一个&lt;startup&gt; 部分</value>
+  </data>
+  <data name="AlwaysSuggestToUpdateCodesignKey_Text" xml:space="preserve">
+    <value>始终建议更新 Codesign 密钥</value>
+  </data>
+  <data name="AutomaticallyApplyChangesOnStepAndResumeSettingDescription" xml:space="preserve">
+    <value>在步进和还原时自动应用更改</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_InactiveCode" xml:space="preserve">
+    <value>停用代码中的用法</value>
+  </data>
+  <data name="SpecifyADataContextClass_Text" xml:space="preserve">
+    <value>指定数据上下文类</value>
+  </data>
+  <data name="AppsCannotBeArchivedWhenTheProjectDoes_Text" xml:space="preserve">
+    <value>当项目没有软件包名称时，不能归档应用。请在 {0} 中指定软件包名称。</value>
+  </data>
+  <data name="NextError_Text" xml:space="preserve">
+    <value>下一个错误</value>
+  </data>
+  <data name="HighestInstallsTheHighestAvailableVersion_ToolTip" xml:space="preserve">
+    <value>“最高”会安装软件包的最高可用版本</value>
+  </data>
+  <data name="RiderSolutionAnalysisSettingsSettingDescription" xml:space="preserve">
+    <value>Rider 解决方案分析设置</value>
+  </data>
+  <data name="DumpUnitTestTrees_Text" xml:space="preserve">
+    <value>Dump Unit Test Trees</value>
+  </data>
+  <data name="GeneratedFileMasks_Caption" xml:space="preserve">
+    <value>生成的文件掩码:</value>
+  </data>
+  <data name="ChangeJDKPathInRiderSettings_Text" xml:space="preserve">
+    <value>在 Rider 设置中更改 JDK 路径…</value>
+  </data>
+  <data name="IISExpress64Bit_Header_Text" xml:space="preserve">
+    <value>IIS Express (64 位)</value>
+  </data>
+  <data name="Country2CharactersCode_Text" xml:space="preserve">
+    <value>国家/地区(2 字符代码)</value>
+  </data>
+  <data name="SolutionBuilderHost_GetProgressTitle_Build" xml:space="preserve">
+    <value>构建 {0}</value>
+  </data>
+  <data name="LanguageVersion_Text" xml:space="preserve">
+    <value>语言版本</value>
+  </data>
+  <data name="ImportSettings_Text" xml:space="preserve">
+    <value>导入设置</value>
+  </data>
+  <data name="SolutionBuilderHost_GetProgressTitle_Clean" xml:space="preserve">
+    <value>清理 {0}</value>
+  </data>
+  <data name="SpecifyAValidCSHTMLFileFromThe_Project_Text" xml:space="preserve">
+    <value>指定 '{0}' 项目中的有效 CSHTML 文件。</value>
+  </data>
+  <data name="RemoveArchiveActionText" xml:space="preserve">
+    <value>移除归档</value>
+  </data>
+  <data name="AddRazorPageUsingEntityFrameworkCRUD_Text" xml:space="preserve">
+    <value>添加使用 Entity Framework 的 Razor 页面(CRUD)</value>
+  </data>
+  <data name="Project_Template_Option_aU9TIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>iOS 类库</value>
+  </data>
+  <data name="UrlsOfSymbolServersSettingDescription" xml:space="preserve">
+    <value>符号服务器的 URL</value>
+  </data>
+  <data name="SolutionBuilderHost_GetProgressTitle_solution" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="Publish__Text" xml:space="preserve">
+    <value>发布 {0}</value>
+  </data>
+  <data name="UseAzureCredentialProviderV2_Tooltip" xml:space="preserve">
+    <value>为基于 Azure 的 NuGet 源身份验证提供更好的体验。可能不稳定。</value>
+  </data>
+  <data name="Language_GroupName" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="SolutionBuilderHost_GetProgressTitle_Rebuild" xml:space="preserve">
+    <value>重新构建{0}</value>
+  </data>
+  <data name="GenerateResources_Text" xml:space="preserve">
+    <value>生成资源</value>
+  </data>
+  <data name="XCodeInstallation_Presentation_Unknown_Text" xml:space="preserve">
+    <value>未知</value>
+  </data>
+  <data name="CodeGenerationAndRuntime_SectionName" xml:space="preserve">
+    <value>代码生成和运行时</value>
+  </data>
+  <data name="ServerType_CustomServer_Text" xml:space="preserve">
+    <value>自定义服务器</value>
+  </data>
+  <data name="UseFastAssemblyDeployment_InvertedCheckBox_Caption" xml:space="preserve">
+    <value>使用快速程序集部署</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Create_File" xml:space="preserve">
+    <value>无法创建文件: {0}</value>
+  </data>
+  <data name="PasswordShouldNotBeLessThan6Characters_Text" xml:space="preserve">
+    <value>密码必须至少为 6 个字符</value>
+  </data>
+  <data name="DefaultPackageManagementFormat_ComboEnum_Caption" xml:space="preserve">
+    <value>默认软件包管理格式</value>
+  </data>
+  <data name="ListOfSymbolServerUrlsSettingDescription" xml:space="preserve">
+    <value>符号服务器 URL 列表</value>
+  </data>
+  <data name="ReformatCodeActionText" xml:space="preserve">
+    <value>重新格式化代码</value>
+  </data>
+  <data name="Custom_Text" xml:space="preserve">
+    <value>自定义…</value>
+  </data>
+  <data name="AddRazorPage_Text" xml:space="preserve">
+    <value>添加 Razor 页面</value>
+  </data>
+  <data name="AreYouSureYouWantToRemoveTestElement_Text" xml:space="preserve">
+    <value>确定要从会话中移除测试元素吗?</value>
+  </data>
+  <data name="Project_Template_Option_Lk5FVCBNQVVJIEFwcAEQEQ" xml:space="preserve">
+    <value>.NET MAUI 应用</value>
+  </data>
+  <data name="GenerateCodeBehind_Text" xml:space="preserve">
+    <value>生成代码隐藏</value>
+  </data>
+  <data name="Restore_Header_Text" xml:space="preserve">
+    <value>还原</value>
+  </data>
+  <data name="RiderBrowseTypeHierarchyAction_Title_Type_Hierarchy" xml:space="preserve">
+    <value>类型层次结构(&amp;H)</value>
+  </data>
+  <data name="Alias_Text" xml:space="preserve">
+    <value>别名</value>
+  </data>
+  <data name="HotReloadIsDisabled_Caption" xml:space="preserve">
+    <value>热重载已被禁用</value>
+  </data>
+  <data name="Solution_Text" xml:space="preserve">
+    <value>解决方案</value>
+  </data>
+  <data name="Views_Text" xml:space="preserve">
+    <value>视图:</value>
+  </data>
+  <data name="AllTemplatesOptionPageTitle" xml:space="preserve">
+    <value>所有模板</value>
+  </data>
+  <data name="Project_Template_Option_V1BGIENsYXNzIExpYnJhcnkEQ" xml:space="preserve">
+    <value>WPF 类库</value>
+  </data>
+  <data name="ScanningForCustomUIClassDefinitions_Text" xml:space="preserve">
+    <value>正在扫描自定义 UI 类定义…</value>
+  </data>
+  <data name="EvaluatesNETFrameworkVersionOfCurrentProjectAndCreatesAStartupSectionForItMacroDefinition_Description" xml:space="preserve">
+    <value>项目目标框架的 App.config startup 部分</value>
+  </data>
+  <data name="Dependency" xml:space="preserve">
+    <value>依赖项</value>
+  </data>
+  <data name="GetsTheNewestNETFrameworkVersionOfTheProjectAndPreparesAnAttributeStringFrameworkMacroDefinition_LongDescription" xml:space="preserve">
+    <value>返回带有最新版本的项目目标 .NET Framework 的特性字符串 'framework="&lt;version&gt;"'</value>
+  </data>
+  <data name="WhenCheckedRemovesAnyDependentPackages_BoolOption_ToolTip" xml:space="preserve">
+    <value>选中后，如果项目中的其他位置未引用任何依赖软件包，则将其删除</value>
+  </data>
+  <data name="SyncWithDdlDataSourceSetting_Description" xml:space="preserve">
+    <value>为数据库项目创建 DDL 数据源并同步</value>
+  </data>
+  <data name="UwpDeploy_UnableToCopyAttempt_Message" xml:space="preserve">
+    <value>复制文件 '{1}' 的尝试 {0} 失败。正在重试…</value>
+  </data>
+  <data name="SolutionBuilderHost_GetProgressTitle_selected_projects" xml:space="preserve">
+    <value>所选项目</value>
+  </data>
+  <data name="RemoveFromSession_Caption" xml:space="preserve">
+    <value>从会话中移除</value>
+  </data>
+  <data name="Project_Template_Option_TlVuaXQEQ" xml:space="preserve">
+    <value>NUnit</value>
+  </data>
+  <data name="RunAllTestsActionText" xml:space="preserve">
+    <value>运行所有测试</value>
+  </data>
+  <data name="Linker_SectionTitle" xml:space="preserve">
+    <value>链接器</value>
+  </data>
+  <data name="MSTestAndVisualStudioIntegration_Header_Text" xml:space="preserve">
+    <value>MSTest 和 Visual Studio 集成</value>
+  </data>
+  <data name="PackageManagement_Header_Text" xml:space="preserve">
+    <value>软件包管理</value>
+  </data>
+  <data name="IncludePaths_TextBox_Caption" xml:space="preserve">
+    <value>Include 路径</value>
+  </data>
+  <data name="ContextActionsOptionPageTitle" xml:space="preserve">
+    <value>上下文操作</value>
+  </data>
+  <data name="FileOrFolderDoesNotExist_Text" xml:space="preserve">
+    <value>文件或文件夹不存在</value>
+  </data>
+  <data name="Lowest_Text" xml:space="preserve">
+    <value>最低</value>
+  </data>
+  <data name="AdHocAutomatic_ComboBoxValue" xml:space="preserve">
+    <value>临时(自动)</value>
+  </data>
+  <data name="NewN_ame_Text" xml:space="preserve">
+    <value>新名称(_A):</value>
+  </data>
+  <data name="ASPNETCoreModulePathFor32BitIISExpress_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>32 位 IIS Express 的 ASP.NET Core 模块路径</value>
+  </data>
+  <data name="SqlTargetPlatform_TextBox_Caption" xml:space="preserve">
+    <value>目标平台</value>
+  </data>
+  <data name="AnyNETProjects_Text" xml:space="preserve">
+    <value>任何 .NET 项目</value>
+  </data>
+  <data name="AndroidUseManagedDesignTimeResourceGeneratorSettingDescription" xml:space="preserve">
+    <value>Android Use Managed Design Time Resource Generator</value>
+  </data>
+  <data name="OptimizePNGImages_CheckBox_Caption" xml:space="preserve">
+    <value>优化 PNG 图像</value>
+  </data>
+  <data name="RunMarkers_Text" xml:space="preserve">
+    <value>运行标记</value>
+  </data>
+  <data name="MinimumPlatformVersionOfUWPSDK_ToolTip" xml:space="preserve">
+    <value>UWP SDK 的最低平台版本</value>
+  </data>
+  <data name="UsageGrouping_Namespace_Text" xml:space="preserve">
+    <value>命名空间</value>
+  </data>
+  <data name="Writing__Text" xml:space="preserve">
+    <value>正在写入 {0}</value>
+  </data>
+  <data name="SqlProj_ProjectUpdate_Cannot_Update_MsBuild_Item" xml:space="preserve">
+    <value>无法更新 MSBuild 条目: {0}</value>
+  </data>
+  <data name="AddMVCControllerWithActionsUsingEntity_Text" xml:space="preserve">
+    <value>添加具有使用 Entity Framework 的操作的 MVC 控制器</value>
+  </data>
+  <data name="PublishIPA_Text" xml:space="preserve">
+    <value>发布 IPA</value>
+  </data>
+  <data name="ArchiveForPublishIsFailed_BuildAndArchiveFailed_Text" xml:space="preserve">
+    <value>'构建并归档' MSBuild 任务失败</value>
+  </data>
+  <data name="DoNotShow_EnumText" xml:space="preserve">
+    <value>不显示</value>
+  </data>
+  <data name="Location_Text" xml:space="preserve">
+    <value>位置:</value>
+  </data>
+  <data name="MacOSMojave_Text" xml:space="preserve">
+    <value>macOS Mojave</value>
+  </data>
+  <data name="WarningDuringLoadingProject_Text" xml:space="preserve">
+    <value>加载项目时出现警告</value>
+  </data>
+  <data name="ApplePlatformsOptionPageTitle" xml:space="preserve">
+    <value>Apple 平台</value>
+  </data>
+  <data name="Project_Template_Option_Q3Jvc3MgUGxhdGZvcm0EQ" xml:space="preserve">
+    <value>跨平台</value>
+  </data>
+  <data name="FileAlreadyExists_Plural" xml:space="preserve">
+    <value>{0:choice:one#文件|other#文件} {1} 已{0:choice:one#存在|other#存在}。请删除{0:choice:one#文件|other#文件}以选择此选项。</value>
+  </data>
+  <data name="GenerateResourceDesigner_Text" xml:space="preserve">
+    <value>生成 Resource.Designer</value>
+  </data>
+  <data name="UsageGrouping_Project_Text" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="AndroidSignForPublishSettingsPage_Name_Title" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="Ignore_Text" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="UniversalWindowsPlatformSDKIsRequired_Caption" xml:space="preserve">
+    <value>需要使用通用 Windows 平台 SDK 才能加载 '{0}'，但未找到</value>
+  </data>
+  <data name="Project_Template_Option_RW1wdHkEQ" xml:space="preserve">
+    <value>空</value>
+  </data>
+  <data name="WindowsInstallerPackageMsi_ComboBoxValue" xml:space="preserve">
+    <value>Windows Installer 软件包(.msi)</value>
+  </data>
+  <data name="Project_Template_Option_dHZPUwEQEQ" xml:space="preserve">
+    <value>tvOS</value>
+  </data>
+  <data name="All_ComboBoxValue" xml:space="preserve">
+    <value>所有</value>
+  </data>
+  <data name="SendLineMovesCaretDown_BoolOption_ToolTip" xml:space="preserve">
+    <value>发送行向下移动文本光标</value>
+  </data>
+  <data name="AndroidPreserveDataAndCacheBetweenDeploysSettingDescription" xml:space="preserve">
+    <value>Android 在部署之间保留数据和缓存</value>
+  </data>
+  <data name="SearchTargets_Text" xml:space="preserve">
+    <value>搜索目标</value>
+  </data>
+  <data name="UsageGrouping_SolutionFolder_Text" xml:space="preserve">
+    <value>解决方案文件夹</value>
+  </data>
+  <data name="RiderUnitTestMsTestSettingDescription" xml:space="preserve">
+    <value>Rider.UnitTest.MsTest</value>
+  </data>
+  <data name="OverrideApplicationRoot_Caption" xml:space="preserve">
+    <value>重写应用程序根</value>
+  </data>
+  <data name="ASPNETCoreModulePathFor64BitIISExpress_FileChooserOption_ToolTip" xml:space="preserve">
+    <value>64 位 IIS Express 的 ASP.NET Core 模块路径</value>
+  </data>
+  <data name="ASPNETCoreModuleIsNotInstalledToInstall_WarningTextWithLink_Text" xml:space="preserve">
+    <value>ASP.NET Core 模块未安装。要安装 ASP.NET Core 模块，请访问以下链接并下载 .NET Core 托管捆绑包:</value>
+  </data>
+  <data name="IgnoreDependenciesSkipsInstallingAny_ToolTip" xml:space="preserve">
+    <value>忽略依赖项会跳过任何依赖的软件包的安装，这通常会中断最初安装的软件包</value>
+  </data>
+  <data name="WaitingForCaches_Text" xml:space="preserve">
+    <value>正在等待缓存</value>
+  </data>
+  <data name="ShowRunMarkerOnEntryPointSettingDescription" xml:space="preserve">
+    <value>在入口点上显示运行标记</value>
+  </data>
+  <data name="Keyword_Highlighter_Display_Name" xml:space="preserve">
+    <value>Razor//关键字</value>
+  </data>
+  <data name="InlinePromptIsEnabled_Text" xml:space="preserve">
+    <value>内联提示已启用</value>
+  </data>
+  <data name="ExpandTreeNode_Text" xml:space="preserve">
+    <value>展开树节点</value>
+  </data>
+  <data name="CollectingProjectsInformation_Text" xml:space="preserve">
+    <value>正在收集项目信息…</value>
+  </data>
+  <data name="UsageGrouping_SectionType_Text" xml:space="preserve">
+    <value>部分类型</value>
+  </data>
+  <data name="SelectFolderDialogTitle" xml:space="preserve">
+    <value>选择文件夹</value>
+  </data>
+  <data name="Net8AndLater_Text" xml:space="preserve">
+    <value> (.NET 8.0 及更高版本)</value>
+  </data>
+  <data name="SqlProjectsSsdtFolder_Text_Text" xml:space="preserve">
+    <value>SQL Server Data Tools 文件夹:</value>
+  </data>
+  <data name="WixProjectExtensionsFolder_Text" xml:space="preserve">
+    <value>扩展</value>
+  </data>
+  <data name="OSXMavericks_Text" xml:space="preserve">
+    <value>OS X Mavericks</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGhvdXQgWElCIGZvciBpT1MEQ" xml:space="preserve">
+    <value>适用于 iOS 的不具有 XIB 的视图控制器</value>
+  </data>
+  <data name="Suggestion_EnumText" xml:space="preserve">
+    <value>建议</value>
+  </data>
+  <data name="MinimumPlatform_ComboBox_Caption" xml:space="preserve">
+    <value>最低平台</value>
+  </data>
+  <data name="DebuggingOnAPhysicalIPhoneRequiresThe_Text" xml:space="preserve">
+    <value>在实体 iPhone 上调试时，需要解释器使用 XAML 热重载。请转到“项目 | 属性”，将 '--interpreter' 开关添加到其他 mtouch 实参。</value>
+  </data>
+  <data name="InitializeDockerSupport_Text" xml:space="preserve">
+    <value>初始化 Docker 支持</value>
+  </data>
+  <data name="GeneratedCodeRegions_Caption" xml:space="preserve">
+    <value>生成的代码区域:</value>
+  </data>
+  <data name="TheSelectedBuildConfigurationIsUsingSharedMono_Text" xml:space="preserve">
+    <value>为了更快部署，所选构建配置正在使用共享 Mono 运行时。启用此设置后，不能归档应用。请转到“项目 | 属性”，在相应的配置中取消选中“使用共享 mono 运行时”设置。</value>
+  </data>
+  <data name="Qodana_LocalInspections_Text" xml:space="preserve">
+    <value>局部检查</value>
+  </data>
+  <data name="Diagram_Compare_Current_With" xml:space="preserve">
+    <value>将当前解决方案与 {0} 比较</value>
+  </data>
+  <data name="GenerateRazorPagesUsingEntityFramework_Text" xml:space="preserve">
+    <value>为所选模型生成使用 Entity Framework 的 Razor 页面以进行: 创建、删除、详细信息、编辑和列表操作</value>
+  </data>
+  <data name="ProvisionProfile_TitleText" xml:space="preserve">
+    <value>预配配置文件</value>
+  </data>
+  <data name="Template_Editable_UmF6b3IgVmlldyBTdGFydAEQEQ" xml:space="preserve">
+    <value>Razor 视图起始</value>
+  </data>
+  <data name="ActionReferenceInCInteractiveBuilds_BoolOption_Text" xml:space="preserve">
+    <value>“C# Interactive 中的引用”构建项目</value>
+  </data>
+  <data name="ToEditTheListOfSkippedFilesAndFolders_Text_Text" xml:space="preserve">
+    <value>要编辑跳过的文件和文件夹列表，请打开解决方案</value>
+  </data>
+  <data name="XamarinDevelopmentUnderLinuxIsNotSupported_Text" xml:space="preserve">
+    <value>目前不支持在 Linux 下开发 Xamarin。要开发 Xamarin Android 应用程序，请手动下载并构建 Xamarin SDK。</value>
+  </data>
+  <data name="NoChangesFound_Caption" xml:space="preserve">
+    <value>找不到更改</value>
+  </data>
+  <data name="UpdateXCodePropertyInProjectFile" xml:space="preserve">
+    <value>更新项目文件 '{2}' 中的属性 '{0}' = '{1}'…</value>
+  </data>
+  <data name="NETOptionPageTitle" xml:space="preserve">
+    <value>.NET</value>
+  </data>
+  <data name="TargetPlatform_ComboBox_Caption" xml:space="preserve">
+    <value>目标平台</value>
+  </data>
+  <data name="TagHelperAttribute_Highlighter_Display_Name" xml:space="preserve">
+    <value>Razor//标记帮助程序特性</value>
+  </data>
+  <data name="ElementsToSkip_Header_Text" xml:space="preserve">
+    <value>要跳过的元素</value>
+  </data>
+  <data name="DefaultWithRegions_Text" xml:space="preserve">
+    <value>带区域的默认值</value>
+  </data>
+  <data name="PathStateAction_Substitute_Text" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="Project_Template_Option_d2F0Y2hPUwEQEQ" xml:space="preserve">
+    <value>watchOS</value>
+  </data>
+  <data name="UnitTestSession_NoTestsRunInSession_Title" xml:space="preserve">
+    <value>会话 {0} 中无测试运行</value>
+  </data>
+  <data name="UpdatingProject_Text" xml:space="preserve">
+    <value>正在更新项目</value>
+  </data>
+  <data name="DebuggerRunToStatementContextAction_Description" xml:space="preserve">
+    <value>执行程序，直至到达当前语句</value>
+  </data>
+  <data name="AutoDetectAndConfigureFormattingTip" xml:space="preserve">
+    <value>要仅查看影响所选代码块的代码样式规则，请按 &lt;i&gt;Alt+Enter&lt;/i&gt;，然后选择 &lt;i&gt;{0} | {1}&lt;/i&gt; 或 &lt;i&gt;{2}&lt;/i&gt;</value>
+  </data>
+  <data name="BuildOnReferenceProjectDescription" xml:space="preserve">
+    <value>使用“C# Interactive 中的引用”操作时构建项目</value>
+  </data>
+  <data name="Use32BitFloatOperations_CheckBox_Caption" xml:space="preserve">
+    <value>使用 32 位浮点运算</value>
+  </data>
+  <data name="MacDeveloperAutomatic_Text" xml:space="preserve">
+    <value>Mac 开发者(自动)</value>
+  </data>
+  <data name="ConfigFileOverridesNamingSettingsMessage" xml:space="preserve">
+    <value>{1} 的 {0} 重写此页面上的某些代码样式设置</value>
+  </data>
+  <data name="DefaultXamarinMacIOSFileTemplates_Text" xml:space="preserve">
+    <value>默认 Xamarin (Mac/iOS)文件模板</value>
+  </data>
+  <data name="XCodeProjectFileWasChangedAndWillBeSynced_Text" xml:space="preserve">
+    <value>Xcode 项目文件已被更改，将与 .NET 项目同步</value>
+  </data>
+  <data name="UnexpectedIBOutletOn__Text" xml:space="preserve">
+    <value>{0} 上意外出现 'IBOutlet'</value>
+  </data>
+  <data name="Remove__FromDisk_Text" xml:space="preserve">
+    <value>是否从磁盘中移除 '{0}' [{1}]?</value>
+  </data>
+  <data name="SavingAllDocumentsInXcode_Text" xml:space="preserve">
+    <value>正在 Xcode 中保存所有文档</value>
+  </data>
+  <data name="FocusToolWindowOnOpenSettingDescription" xml:space="preserve">
+    <value>打开时聚焦工具窗口</value>
+  </data>
+  <data name="PreferredRuntimeActionGroupText" xml:space="preserve">
+    <value>首选运行时</value>
+  </data>
+  <data name="Identity_DescriptionText" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="_UseALayoutPage_Text" xml:space="preserve">
+    <value>使用布局页面(_U):</value>
+  </data>
+  <data name="Project_Template_Option_Qmxhem9yIFNlcnZlciBBcHAEQ" xml:space="preserve">
+    <value>Blazor 服务器应用</value>
+  </data>
+  <data name="DeveloperAutomatic_Text" xml:space="preserve">
+    <value>开发者(自动)</value>
+  </data>
+  <data name="ErrorDuringGenerationActionsOutlets_Text" xml:space="preserve">
+    <value>生成操作/出口时出错</value>
+  </data>
+  <data name="XamarinIOSCProjects_Text" xml:space="preserve">
+    <value>Xamarin (iOS) C# 项目</value>
+  </data>
+  <data name="IISExpressIsNotInstalledToInstallIIS_WarningTextWithLink_Text" xml:space="preserve">
+    <value>未安装 IIS Express。要安装 IIS Express，请访问以下链接:</value>
+  </data>
+  <data name="ArchivesBrowser_Caption" xml:space="preserve">
+    <value>归档浏览器</value>
+  </data>
+  <data name="Identity_Text" xml:space="preserve">
+    <value>标识</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGggWElCIGZvciBNYWMEQ" xml:space="preserve">
+    <value>适用于 Mac 的具有 XIB 的视图控制器</value>
+  </data>
+  <data name="Highest_Text" xml:space="preserve">
+    <value>最高</value>
+  </data>
+  <data name="RerunBrokenTestsInCurrentSessionActionText" xml:space="preserve">
+    <value>重新运行失效测试</value>
+  </data>
+  <data name="MergeModuleMsm_ComboBoxValue" xml:space="preserve">
+    <value>合并模块(.msm)</value>
+  </data>
+  <data name="CollectDumpTimeoutSettingDescription" xml:space="preserve">
+    <value>收集转储超时</value>
+  </data>
+  <data name="VisualStudioRootFolderSettingDescription" xml:space="preserve">
+    <value>Visual Studio 根文件夹</value>
+  </data>
+  <data name="Project_Template_Option_V2luZG93cyBGb3JtcyBDbGFzcyBMaWJyYXJ5" xml:space="preserve">
+    <value>Windows 窗体类库</value>
+  </data>
+  <data name="SpecifyAModelClass_Text" xml:space="preserve">
+    <value>指定模型类</value>
+  </data>
+  <data name="AppsCannotBeArchivedWithThisProject_Caption" xml:space="preserve">
+    <value>不能使用此项目配置归档应用</value>
+  </data>
+  <data name="AndroidNdkPathSettingDescription" xml:space="preserve">
+    <value>Android NDK 路径</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Textual" xml:space="preserve">
+    <value>文本</value>
+  </data>
+  <data name="EnableHotReloadWhenDebuggingSettingDescription" xml:space="preserve">
+    <value>调试时启用热重载</value>
+  </data>
+  <data name="ASPNETCoreIISModuleNotFound_Text" xml:space="preserve">
+    <value>找不到 ASP.NET Core IIS 模块</value>
+  </data>
+  <data name="EnterAtLeastOneOfTheFollowing_Text" xml:space="preserve">
+    <value>至少输入下列一项</value>
+  </data>
+  <data name="GenerateOnePackageApkPerSelectedABI_CheckBox_Caption" xml:space="preserve">
+    <value>每个所选 ABI 生成一个软件包(.apk)</value>
+  </data>
+  <data name="HighestPatchInstallsTheVersionWithThe_ToolTip" xml:space="preserve">
+    <value>“最高修补程序版本”会安装具有相同的主要版本号和次要版本号，但具有最高修补程序号的版本。例如，如果指定了版本 1.2.2，将安装以 1.2 开头的最高版本。</value>
+  </data>
+  <data name="HelloWorld_Text" xml:space="preserve">
+    <value>Hello, world</value>
+  </data>
+  <data name="CanNotFindXcodeInTheSystem_Text" xml:space="preserve">
+    <value>在系统中找不到 Xcode</value>
+  </data>
+  <data name="IISExpressExecutable_NotFound_Text" xml:space="preserve">
+    <value>找不到 IIS Express 可执行文件({0})</value>
+  </data>
+  <data name="CreateAsAPartialView_DescriptionText" xml:space="preserve">
+    <value>创建为分部视图(_P)</value>
+  </data>
+  <data name="SSLTLSImplementation_ComboBox_Caption" xml:space="preserve">
+    <value>SSL/TLS 实现</value>
+  </data>
+  <data name="Template_Editable_UmVzb3VyY2VzICgucmVzeCkEQ" xml:space="preserve">
+    <value>资源(.resx)</value>
+  </data>
+  <data name="DeveloperIDAutomatic_Text" xml:space="preserve">
+    <value>开发者 ID (自动)</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb21wb25lbnQEQ" xml:space="preserve">
+    <value>视图组件</value>
+  </data>
+  <data name="PasswordConfirm_Text" xml:space="preserve">
+    <value>密码(确认)</value>
+  </data>
+  <data name="FileMasksWildcardsAreSupported_Caption" xml:space="preserve">
+    <value>文件掩码(支持 ?、*、** 通配符):</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="ArchiveForPublishIsFailed_Caption" xml:space="preserve">
+    <value>“归档以发布”失败</value>
+  </data>
+  <data name="IOError__Text" xml:space="preserve">
+    <value>IO 错误: {0}</value>
+  </data>
+  <data name="Razorpage_DescriptionText" xml:space="preserve">
+    <value>razorpage</value>
+  </data>
+  <data name="ExportSessionResultsActionText" xml:space="preserve">
+    <value>导出会话结果</value>
+  </data>
+  <data name="EmptyWithoutModel_DescriptionText" xml:space="preserve">
+    <value>空(无模型)</value>
+  </data>
+  <data name="Compiler_TextBox_Caption" xml:space="preserve">
+    <value>编译器</value>
+  </data>
+  <data name="ShowTypeDependencyDiagramActionText" xml:space="preserve">
+    <value>显示类型依赖关系图(&amp;T)</value>
+  </data>
+  <data name="Project_Template_Option_aU9TIEJpbmRpbmcgTGlicmFyeQEQEQ" xml:space="preserve">
+    <value>iOS 绑定库</value>
+  </data>
+  <data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGhvdXQgWElCIGZvciBNYWMEQ" xml:space="preserve">
+    <value>适用于 Mac 的不具有 XIB 的视图控制器</value>
+  </data>
+  <data name="XcodeProject_WasGeneratedSuccessfully_Caption" xml:space="preserve">
+    <value>Xcode 项目 '{0}' 已成功生成</value>
+  </data>
+  <data name="ReferenceScriptLibraries_DescriptionText" xml:space="preserve">
+    <value>引用脚本库(_R)</value>
+  </data>
+  <data name="FileWasAddedToTheProject_Text" xml:space="preserve">
+    <value>文件已被添加到项目</value>
+  </data>
+  <data name="RiderUsageLocalizer_ToLocalizedString_Dynamic__other_" xml:space="preserve">
+    <value>动态(其他)</value>
+  </data>
+  <data name="PathStateAction_Ignore_Text" xml:space="preserve">
+    <value>忽略</value>
+  </data>
+  <data name="SolutionAnalysis_Loading_Analysis_Results_Text" xml:space="preserve">
+    <value>正在加载分析结果… – {0}</value>
+  </data>
+  <data name="EnableHotReloadForBlazorWasmSettingDescription" xml:space="preserve">
+    <value>为 Blazor WebAssembly 启用热重载</value>
+  </data>
+  <data name="YouAreAboutToReplaceTheSetOfPatterns_Text" xml:space="preserve">
+    <value>您即将用默认模式集替换该模式集。{0}这将移除您可能进行的所有更改。{1}要继续吗?</value>
+  </data>
+  <data name="CSharpInteractiveOptionPageTitle" xml:space="preserve">
+    <value>C# Interactive</value>
+  </data>
+  <data name="XamarinMacIOSCProjects_Text" xml:space="preserve">
+    <value>Xamarin (Mac/iOS) C# 项目</value>
+  </data>
+  <data name="SignAndPublish_Text" xml:space="preserve">
+    <value>签署并发布</value>
+  </data>
+  <data name="AndroidSDKPlatformRequiredForProject_Caption" xml:space="preserve">
+    <value>未安装项目 '{0}' 所需的 Android SDK 平台</value>
+  </data>
+  <data name="CreateNewCertificate_Caption" xml:space="preserve">
+    <value>创建新证书</value>
+  </data>
+  <data name="DebugUnitTestsUntilFailActionText" xml:space="preserve">
+    <value>调试单元测试，直至失败</value>
+  </data>
+  <data name="RiderWasUnableToLocateTheXSPServerThat_Linux_Text" xml:space="preserve">
+    <value>Rider 找不到运行此项目所需的 XSP 服务器。预期 XSP 路径: {0}。请为您的 Linux 发行版安装 mono-xsp 软件包(例如，在 Ubuntu 上，运行 apt-get install mono-xsp)。</value>
+  </data>
+  <data name="ThisNavigationIsNotImplementedYet_Text" xml:space="preserve">
+    <value>此导航尚未实现</value>
+  </data>
+  <data name="AdditionalToolOptions_Caption" xml:space="preserve">
+    <value>其他工具选项</value>
+  </data>
+  <data name="_NUnlockDirectoryAndRestartRiderToFix_Text" xml:space="preserve">
+    <value>{0}
+解锁目录并重启 Rider 以解决问题。</value>
+  </data>
+  <data name="AdHocInstallOnDesignatedDevices_Text" xml:space="preserve">
+    <value>临时 - 在指定设备上安装</value>
+  </data>
+  <data name="See_advisory_below" xml:space="preserve">
+    <value>请参阅下面的咨询</value>
+  </data>
+  <data name="Default_Text" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="UseSourcesFromSymbolFilesWhenAvailable_BoolOption_Text" xml:space="preserve">
+    <value>尽可能使用符号文件中的源代码</value>
+  </data>
+  <data name="Project_Template_Option_QW5kcm9pZCBKYXZhIExpYnJhcnkgQmluZGluZwEQEQ" xml:space="preserve">
+    <value>Android Java 库绑定</value>
+  </data>
+  <data name="Template_Editable_QXBwLmNvbmZpZyBGaWxl" xml:space="preserve">
+    <value>App.config 文件</value>
+  </data>
+  <data name="RemoveSelectedTest_Plural" xml:space="preserve">
+    <value>移除所选{0:choice:one#测试|other#测试}</value>
+  </data>
+  <data name="SelectPath_Caption" xml:space="preserve">
+    <value>选择路径</value>
+  </data>
+  <data name="Today_Text" xml:space="preserve">
+    <value>今天</value>
+  </data>
+  <data name="Project_Template_Option_Z1JQQyBTZXJ2aWNl" xml:space="preserve">
+    <value>gRPC 服务</value>
+  </data>
+  <data name="TheTargetExecutionError_Text" xml:space="preserve">
+    <value>目标执行错误</value>
+  </data>
+  <data name="AndroidSDK_Text" xml:space="preserve">
+    <value>Android SDK</value>
+  </data>
+  <data name="GeneralSettings_Text" xml:space="preserve">
+    <value>常规设置</value>
+  </data>
+  <data name="FailedToParseIBOutletCollectionOn__Text" xml:space="preserve">
+    <value>无法解析 {0} 上的 IBOutletCollection</value>
+  </data>
+  <data name="SmartRestoreOnBuild_BoolOption_Text" xml:space="preserve">
+    <value>构建时智能还原</value>
+  </data>
+  <data name="MacDistributionAutomatic_Text" xml:space="preserve">
+    <value>Mac 分发(自动)</value>
+  </data>
+  <data name="FileOrFolderIsOutsideTheCurrentProject_Text" xml:space="preserve">
+    <value>文件或文件夹在当前项目以外</value>
+  </data>
+  <data name="ViewArchivesActionText" xml:space="preserve">
+    <value>查看归档</value>
+  </data>
+  <data name="UsageGrouping_Severity_Text" xml:space="preserve">
+    <value>严重程度</value>
+  </data>
+  <data name="ManagedTLS10Legacy_ComboBoxValue" xml:space="preserve">
+    <value>托管 TLS 1.0 (旧版)</value>
+  </data>
+  <data name="RequiredPluginRiderXamarinAndroidSupport_Text" xml:space="preserve">
+    <value>缺少必要的插件 'Rider Xamarin Android Support'</value>
+  </data>
+  <data name="Properties_PropertyTabCaption" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="ChooseTheIDEFolderInsideTheVisualStudio_Text_Text" xml:space="preserve">
+    <value>选择 Visual Studio 文件夹内的 IDE 文件夹(例如 "c:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE")</value>
+  </data>
+  <data name="WebConfigErrorsDefaultSettings_Text" xml:space="preserve">
+    <value>Web.config 错误默认设置</value>
+  </data>
+  <data name="AnalysingSolution__Caption" xml:space="preserve">
+    <value>正在分析解决方案 {0}</value>
+  </data>
+  <data name="ReaderModeSettingsKeyName" xml:space="preserve">
+    <value>Reader mode settings key name</value>
+  </data>
+</root>
