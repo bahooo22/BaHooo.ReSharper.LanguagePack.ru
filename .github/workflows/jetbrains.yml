@@ -1,0 +1,38 @@
+name: Publish to JetBrains Marketplace
+
+on:
+  release:
+    types: [created]
+  workflow_dispatch: {}
+
+jobs:
+  jetbrains:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Setup NuGet
+      uses: NuGet/setup-nuget@v1
+
+    - name: Pack JetBrains Extension
+      run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: JetBrains.I18n.ru.nupkg
+        path: JetBrainsMarketplaceFolder/out/*.nupkg
+
+    - name: Publish to JetBrains Marketplace
+      if: github.event_name == 'release'
+      run: |
+        nuget push JetBrainsMarketplaceFolder/out/*.nupkg `
+          -Source https://plugins.jetbrains.com/ `
+          -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+
+    - name: Confirm JetBrains Upload
+      if: github.event_name == 'release'
+      run: |
+        echo "✅ JetBrains Marketplace package published successfully."
