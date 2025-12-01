@@ -20,8 +20,10 @@ jobs:
       run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
 
     - name: Publish to JetBrains Marketplace
-      if: github.event_name == 'release'
-      run: nuget push JetBrainsMarketplaceFolder/out/JetBrains.I18n.ru.*.nupkg -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+      run: |
+        $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/*.nupkg | Select-Object -First 1
+        nuget push $pkg.FullName -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_API_KEY }}
+
 
     - name: Upload artifact
       uses: actions/upload-artifact@v4

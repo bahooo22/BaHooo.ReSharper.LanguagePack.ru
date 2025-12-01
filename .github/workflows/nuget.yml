@@ -30,8 +30,9 @@ jobs:
         path: NugetFolder/out/*.nupkg
 
     - name: Log release info
-      run: |
-        PREV_TAG=$(git describe --tags --abbrev=0 ${{ github.event.release.tag_name }}^)
-        CURR_TAG=${{ github.event.release.tag_name }}
-        echo "## 📦 NuGet package published: $CURR_TAG" >> $GITHUB_STEP_SUMMARY
-        echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$PREV_TAG...$CURR_TAG" >> $GITHUB_STEP_SUMMARY
+        run: |
+            $prevTag = git describe --tags --abbrev=0
+            $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
+            Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 NuGet package published: $currTag"
+            Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
+
