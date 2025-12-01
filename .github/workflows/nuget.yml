@@ -19,20 +19,19 @@ jobs:
     - name: Pack NuGet
       run: nuget pack NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec -OutputDirectory NugetFolder/out
 
+    - name: Publish to NuGet
+      if: github.event_name == 'release'
+      run: nuget push NugetFolder/out/BaHooo.ReSharper.I18n.ru.*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
+
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: BaHooo.ReSharper.I18n.ru.nupkg
         path: NugetFolder/out/*.nupkg
 
-    - name: Publish to NuGet
-      if: github.event_name == 'release'
+    - name: Log release info
       run: |
-        nuget push NugetFolder/out/*.nupkg `
-          -Source https://api.nuget.org/v3/index.json `
-          -ApiKey ${{ secrets.NUGET_API_KEY }}
-
-    - name: Confirm NuGet Upload
-      if: github.event_name == 'release'
-      run: |
-        echo "✅ NuGet package published successfully."
+        PREV_TAG=$(git describe --tags --abbrev=0 ${{ github.event.release.tag_name }}^)
+        CURR_TAG=${{ github.event.release.tag_name }}
+        echo "## 📦 NuGet package published: $CURR_TAG" >> $GITHUB_STEP_SUMMARY
+        echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$PREV_TAG...$CURR_TAG" >> $GITHUB_STEP_SUMMARY

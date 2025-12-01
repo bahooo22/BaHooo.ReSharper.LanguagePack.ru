@@ -19,20 +19,19 @@ jobs:
     - name: Pack JetBrains Extension
       run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
 
+    - name: Publish to JetBrains Marketplace
+      if: github.event_name == 'release'
+      run: nuget push JetBrainsMarketplaceFolder/out/JetBrains.I18n.ru.*.nupkg -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+
     - name: Upload artifact
       uses: actions/upload-artifact@v4
       with:
         name: JetBrains.I18n.ru.nupkg
         path: JetBrainsMarketplaceFolder/out/*.nupkg
 
-    - name: Publish to JetBrains Marketplace
-      if: github.event_name == 'release'
+    - name: Log release info
       run: |
-        nuget push JetBrainsMarketplaceFolder/out/*.nupkg `
-          -Source https://plugins.jetbrains.com/ `
-          -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
-
-    - name: Confirm JetBrains Upload
-      if: github.event_name == 'release'
-      run: |
-        echo "✅ JetBrains Marketplace package published successfully."
+        PREV_TAG=$(git describe --tags --abbrev=0 ${{ github.event.release.tag_name }}^)
+        CURR_TAG=${{ github.event.release.tag_name }}
+        echo "## 📦 JetBrains Marketplace package published: $CURR_TAG" >> $GITHUB_STEP_SUMMARY
+        echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$PREV_TAG...$CURR_TAG" >> $GITHUB_STEP_SUMMARY
