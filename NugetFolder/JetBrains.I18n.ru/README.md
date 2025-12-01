@@ -3,7 +3,8 @@
 
 [Репозиторий на GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk)
 
-![icon](icon.png)
+![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/JetBrains.I18n.ru/icon.png)
+
 
 Русский перевод интерфейсных строк JetBrains ReSharper.  
 Автор перевода: Ivan "BaHooo" Zelenkevich. Перевод основан на строках продукта JetBrains ReSharper.
