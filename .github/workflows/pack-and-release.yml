@@ -32,7 +32,8 @@ jobs:
         
         
         -   name: Build and pack 
-            run: | powershell -NoProfile -ExecutionPolicy Bypass -File NugetFolder/JetBrains.I18n.ru/build.ps1 -Version ${{ github.event.release.tag_name || '2025.11.27' }} -Output artifacts
+            run: |
+                powershell -NoProfile -ExecutionPolicy Bypass -File NugetFolder/JetBrains.I18n.ru/build.ps1 -Version ${{ github.event.release.tag_name || '2025.11.27' }} -Output artifacts
         
         
         -   name: Upload artifact
