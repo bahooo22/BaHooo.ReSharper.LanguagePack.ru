@@ -3,8 +3,11 @@
 
 # 📘 BaHooo.ReSharper.LanguagePack.ru
 
+![ReSharper Russian Language Pack Icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/JetBrains.I18n.ru/icon.png)
+
 Плагин для русской локализации интерфейса **ReSharper** в Visual Studio.  
 Проект автоматизирует перевод китайских ресурсов JetBrains на русский язык через промежуточный английский, используя **Argos Translate** и при необходимости **OpenNMT-py**.
+
 
 ---
 

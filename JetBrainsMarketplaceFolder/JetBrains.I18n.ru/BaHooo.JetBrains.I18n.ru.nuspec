@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <!-- IDENTIFICATION -->
+    <id>JetBrains.I18n.ru</id>
+    <version>1.1</version>
+    <title>Russian Language Pack / Русский языковой пакет</title>
+
+    <!-- AUTHORS -->
+    <authors>Ivan "BaHooo" Zelenkevich</authors>
+    <owners>Ivan "BaHooo" Zelenkevich</owners>
+
+    <!-- LINKS -->
+    <projectUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/JetBrains.I18n.ru</projectUrl>
+    <repository type="git" url="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/JetBrains.I18n.ru" />
+    <license type="expression">MIT</license>
+    <icon>icon.png</icon>
+
+    <!-- SHORT SUMMARY -->
+    <summary>
+      Russian Language Pack for JetBrains ReSharper / Русский языковой пакет для ReSharper
+    </summary>
+
+    <!-- FULL DESCRIPTION -->
+    <description><![CDATA[
+The Russian Language Pack localizes the UI of JetBrains ReSharper into Russian.  
+Translation authored by Ivan "BaHooo" Zelenkevich, based on the JetBrains ReSharper product under JetBrains license.  
+Your feedback is very much appreciated — you can submit issues on GitHub or contact via Telegram.
+
+---
+
+Русский языковой пакет полностью переводит интерфейс ReSharper на русский язык.  
+Перевод выполнен Иваном "BaHooo" Зеленкевичем на основе продукта JetBrains ReSharper под лицензией JetBrains.  
+Обратная связь приветствуется — используйте GitHub Issues или Telegram.
+]]></description>
+
+    <!-- RELEASE NOTES -->
+    <releaseNotes><![CDATA[
+English:
+- Initial release of the Russian Language Pack for ReSharper
+- Full translation of UI resources
+- Added feedback channels (GitHub, Telegram)
+
+Русский:
+- Первый релиз русской локализации ReSharper
+- Полный перевод строк интерфейса
+- Добавлены каналы обратной связи (GitHub, Telegram)
+]]></releaseNotes>
+
+    <!-- TAGS -->
+    <tags>resharper localization russian language-pack</tags>
+
+    <!-- DEPENDENCIES -->
+    <dependencies>
+      <!-- Wave version from official ReSharper 2025.3 builds -->
+      <dependency id="Wave" version="[253.0.0]" />
+    </dependencies>
+
+    <!-- LANGUAGE -->
+    <language>ru-RU</language>
+
+    <!-- README -->
+    <readme>README.md</readme>
+
+    <!-- REQUIRED NUGET METADATA -->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>false</developmentDependency>
+    <serviceable>false</serviceable>
+
+    <!-- COPYRIGHT -->
+    <copyright>
+      © 2025 JetBrains s.r.o. — ReSharper product.
+      Translation © 2025 Ivan "BaHooo" Zelenkevich.
+	  2024.11.27 Anna "Pixel" Zelenkevich Birthday :)
+	  Date of build: 2025.12.1
+    </copyright>
+  </metadata>
+
+  <files>
+    <!-- ICON -->
+    <file src="icon.png" target="icon.png" />
+
+    <!-- README -->
+    <file src="README.md" target="README.md" />
+
+    <!-- ALL .resources FILES FOR LOCALIZATION -->
+    <file src="DotFiles\Extensions\JetBrains.I18n.ru\i18n\*.resources"
+          target="DotFiles/Extensions/JetBrains.I18n.ru/i18n" />
+  </files>
+</package>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
