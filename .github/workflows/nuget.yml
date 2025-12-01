@@ -12,6 +12,9 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # подтягиваем всю историю
+          fetch-tags: true # подтягиваем все теги
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1

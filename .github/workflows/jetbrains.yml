@@ -10,30 +10,35 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # подтягиваем всю историю
+          fetch-tags: true # подтягиваем все теги
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
 
-    - name: Pack JetBrains Extension
-      run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
+      - name: Pack JetBrains Extension
+        run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
 
-    - name: Publish to JetBrains Marketplace
-      run: |
-        $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/*.nupkg | Select-Object -First 1
-        nuget push $pkg.FullName -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+      - name: Publish to JetBrains Marketplace
+        run: |
+          $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/*.nupkg | Select-Object -First 1
+          nuget push $pkg.FullName -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: JetBrains.I18n.ru.nupkg
+          path: JetBrainsMarketplaceFolder/out/*.nupkg
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: JetBrains.I18n.ru.nupkg
-        path: JetBrainsMarketplaceFolder/out/*.nupkg
-
-    - name: Log release info
-      run: |
-        PREV_TAG=$(git describe --tags --abbrev=0 ${{ github.event.release.tag_name }}^)
-        CURR_TAG=${{ github.event.release.tag_name }}
-        echo "## 📦 JetBrains Marketplace package published: $CURR_TAG" >> $GITHUB_STEP_SUMMARY
-        echo "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$PREV_TAG...$CURR_TAG" >> $GITHUB_STEP_SUMMARY
+      - name: Log release info
+        run: |
+          # Получаем предыдущий тег (нужен полный fetch и теги)
+          $prevTag = git describe --tags --abbrev=0
+          # Текущий тег берём из переменной окружения
+          $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
+          # Записываем в GitHub summary
+          Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 JetBrains Marketplace package published: $currTag"
+          Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
