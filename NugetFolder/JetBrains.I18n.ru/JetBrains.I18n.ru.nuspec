@@ -3,7 +3,7 @@
   <metadata>
     <!-- IDENTIFICATION -->
     <id>JetBrains.I18n.ru</id>
-    <version>2025.11.27</version>
+    <version>1.1</version>
     <title>Russian Language Pack / Русский языковой пакет</title>
 
     <!-- AUTHORS -->
@@ -11,8 +11,8 @@
     <owners>Ivan "BaHooo" Zelenkevich</owners>
 
     <!-- LINKS -->
-    <projectUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru</projectUrl>
-    <repository type="git" url="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru" />
+    <projectUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/JetBrains.I18n.ru</projectUrl>
+    <repository type="git" url="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/JetBrains.I18n.ru" />
     <license type="expression">MIT</license>
     <icon>icon.png</icon>
 
@@ -73,6 +73,7 @@ English:
       © 2025 JetBrains s.r.o. — ReSharper product.
       Translation © 2025 Ivan "BaHooo" Zelenkevich.
 	  2024.11.27 Anna "Pixel" Zelenkevich Birthday :)
+	  Date of build: 2025.12.1
     </copyright>
   </metadata>
 
@@ -88,6 +89,12 @@ English:
           target="DotFiles/Extensions/JetBrains.I18n.ru/i18n" />
   </files>
 </package>
+
+
+
+
+
+
 
 
 

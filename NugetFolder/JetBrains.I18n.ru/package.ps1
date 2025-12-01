@@ -1,7 +1,7 @@
 param(
     [string]$ResxFolder = 'DotFiles\Extensions\JetBrains.I18n.ru\i18n',
     [string]$Output = 'artifacts',
-    [string]$Version = '2025.11.27',
+    [string]$Version = (Get-Date -Format 'yyyy.MM.dd'),
     [string]$LogFile = 'build.log',
     [string]$ErrorLogFile = 'build.errors.log'
 )

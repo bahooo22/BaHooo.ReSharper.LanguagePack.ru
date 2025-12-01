@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="Specified_folder_Text" xml:space="preserve">
+  <value>Указанная папка (_F)</value>
+</data>
+<data name="PlatformVersion_Net47_Name" xml:space="preserve">
+  <value>.NET4.7</value>
+</data>
+<data name="BuildPolicy__Text" xml:space="preserve">
+  <value>Политика сборки: {0}</value>
+</data>
+<data name="ActivateUnitTestSessionWindowWhenRun_Caption" xml:space="preserve">
+  <value>Активировать окно сеанса модульных тестов при запуске</value>
+</data>
+<data name="UnitTestExplorerActionText" xml:space="preserve">
+  <value>Обозреватель модульных тестов</value>
+</data>
+<data name="PlatformType_Automatic_Description" xml:space="preserve">
+  <value>Автоматический выбор на основе целевой платформы тестового проекта</value>
+</data>
+<data name="PlatformVersion_Net40_Name" xml:space="preserve">
+  <value>.NET4.0</value>
+</data>
+<data name="TestType_PresentableName_Text" xml:space="preserve">
+  <value>Тип теста</value>
+</data>
+<data name="EnableInternalLoggingSettingDescription" xml:space="preserve">
+  <value>Включить внутреннее ведение журнала</value>
+</data>
+<data name="PlatformVersion_Net47_ShortName" xml:space="preserve">
+  <value>net47</value>
+</data>
+<data name="PlatformVersion_Net20_ShortName" xml:space="preserve">
+  <value>net20</value>
+</data>
+<data name="NotSupportedByProvider_Text" xml:space="preserve">
+  <value>Не поддерживается поставщиком</value>
+</data>
+<data name="StopExecutionActionText" xml:space="preserve">
+  <value>Остановить выполнение</value>
+</data>
+<data name="_AlwaysForTheseProcesses_Text" xml:space="preserve">
+  <value>Всегда применять к этим процессам (_A)</value>
+</data>
+<data name="Platform__Text" xml:space="preserve">
+  <value>Платформа: {0}</value>
+</data>
+<data name="UnknownTestsFilter_UnknownTestsFilter_New_and_Outdated_Tests" xml:space="preserve">
+  <value>Новые и устаревшие тесты</value>
+</data>
+<data name="UnitTesting_Session_TestCountPattern_Plural" xml:space="preserve">
+  <value>({0} тестов)</value>
+</data>
+<data name="AppendContainedTestsActionText" xml:space="preserve">
+  <value>Добавить содержащиеся тесты</value>
+</data>
+<data name="DefaultPlatform_architecture_Caption" xml:space="preserve">
+  <value>Архитектура платформы по умолчанию (_A):</value>
+</data>
+<data name="ShadowCopyAssembliesBeingTestedSettingDescription" xml:space="preserve">
+  <value>Теневое копирование тестируемых сборок</value>
+</data>
+<data name="RunNETFrameworkWithoutIsolationSettingDescription" xml:space="preserve">
+  <value>Запускать .NET Framework без изоляции</value>
+</data>
+<data name="WrapLongLinesInUnitTestsOutputSettingDescription" xml:space="preserve">
+  <value>Переносить длинные строки в выводе модульных тестов</value>
+</data>
+<data name="Session_Text" xml:space="preserve">
+  <value>Сеанс</value>
+</data>
+<data name="ShowSkippedExplorationResultsSettingDescription" xml:space="preserve">
+  <value>Показывать пропущенные результаты исследования</value>
+</data>
+<data name="TestDuration_ValueQualifier_Sec" xml:space="preserve">
+  <value>{0} сек.</value>
+</data>
+<data name="TestDuration_ValueQualifier_Min" xml:space="preserve">
+  <value>{0} мин.</value>
+</data>
+<data name="RunWasCancelled_Text" xml:space="preserve">
+  <value>Запуск был отменен</value>
+</data>
+<data name="NET45ActionText" xml:space="preserve">
+  <value>.NET4.5</value>
+</data>
+<data name="NotRunnableInvalidDeclaration_Text" xml:space="preserve">
+  <value>Не запускается: недопустимое объявление</value>
+</data>
+<data name="_ShadowCopyAssembliesBeingTested_Caption" xml:space="preserve">
+  <value>Теневое копирование тестируемых сборок (_S)</value>
+</data>
+<data name="TestDuration_Category_Slow" xml:space="preserve">
+  <value>Медленные (&gt;{0})</value>
+</data>
+<data name="TestDuration_Category_Fast" xml:space="preserve">
+  <value>Быстрые (&lt;{0})</value>
+</data>
+<data name="ShadowCopyCustomFileMask" xml:space="preserve">
+  <value>Маска файлов для теневого копирования</value>
+</data>
+<data name="SkipTestsFromCategories_Caption" xml:space="preserve">
+  <value>Пропускать тесты из указанных категорий:</value>
+</data>
+<data name="WaitIntervalForProcessesSpawnedByTestRunnerToExitAfterTestRunnerExitsSettingDescription" xml:space="preserve">
+  <value>Интервал ожидания выхода процессов, порожденных исполнителем тестов, после его завершения</value>
+</data>
+<data name="Debug_Text" xml:space="preserve">
+  <value>Отладка</value>
+</data>
+<data name="IfTheTestRunnerProcessDoesNotExitAfter_TextPrefix" xml:space="preserve">
+  <value>Если процесс исполнителя тестов не завершится после:</value>
+</data>
+<data name="PreferClrPreferMonoToRunTestsSettingDescription" xml:space="preserve">
+  <value>PreferClr/PreferMono для запуска тестов</value>
+</data>
+<data name="ExitCodeIs_Text" xml:space="preserve">
+  <value>Код выхода: {0}</value>
+</data>
+<data name="StackOverflowException_Text" xml:space="preserve">
+  <value>Исключение переполнения стека</value>
+</data>
+<data name="KillProcesses_Option_Text" xml:space="preserve">
+  <value>Завершить процессы</value>
+</data>
+<data name="RunNETCoreWithoutIsolationSettingDescription" xml:space="preserve">
+  <value>Запускать .NET Core без изоляции</value>
+</data>
+<data name="Name_Text" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="Failures_Caption" xml:space="preserve">
+  <value>Сбои</value>
+</data>
+<data name="InAllTargetFrameworks_Text" xml:space="preserve">
+  <value>Во всех целевых фреймворках</value>
+</data>
+<data name="HangingTestExecutionResponseSettingDescription" xml:space="preserve">
+  <value>Реакция на зависание выполнения теста</value>
+</data>
+<data name="LimitNumberOfShownInputDataForParametrizedTestsSettingDescription" xml:space="preserve">
+  <value>Ограничить количество отображаемых входных данных для параметризованных тестов</value>
+</data>
+<data name="ExploringTests_Description_Text" xml:space="preserve">
+  <value>Исследование тестов</value>
+</data>
+<data name="PlatformDefault__Text" xml:space="preserve">
+  <value>Платформа: По умолчанию ({0})</value>
+</data>
+<data name="PlatformType_X86_Description" xml:space="preserve">
+  <value>Принудительный запуск тестов в процессе X86</value>
+</data>
+<data name="PlatformVersion_Automatic_Description" xml:space="preserve">
+  <value>Автоматический выбор на основе целевого фреймворка тестового проекта</value>
+</data>
+<data name="ShowEntriesWithSeverityEqualOrHigherThanSettingDescription" xml:space="preserve">
+  <value>Показывать записи с серьезностью, равной или выше указанной</value>
+</data>
+<data name="RuNAllTestsFromSolutionActionText" xml:space="preserve">
+  <value>Запустить все тесты решения (&amp;N)</value>
+</data>
+<data name="CouldNotExportSession_Caption" xml:space="preserve">
+  <value>Не удалось экспортировать сеанс</value>
+</data>
+<data name="VSHiveForIntegrationTestsSettingDescription" xml:space="preserve">
+  <value>Ветка VS для интеграционных тестов</value>
+</data>
+<data name="GeneralOptionPageTitle" xml:space="preserve">
+  <value>Общие</value>
+</data>
+<data name="PlatformMonoPreference_PreferCLR_Name" xml:space="preserve">
+  <value>Предпочитать CLR</value>
+</data>
+<data name="CreateAppDomainWhenRunningTestsSettingDescription" xml:space="preserve">
+  <value>Создавать домен приложения при запуске тестов</value>
+</data>
+<data name="Running_Description_Text" xml:space="preserve">
+  <value>Выполнение…</value>
+</data>
+<data name="UseCustomDirectoryForTestsSettingDescription" xml:space="preserve">
+  <value>Использовать пользовательский каталог для тестов</value>
+</data>
+<data name="LockSessionActionText" xml:space="preserve">
+  <value>Заблокировать сеанс</value>
+</data>
+<data name="VisualStudioInstallationFolderIsNot_Text" xml:space="preserve">
+  <value>Папка установки Visual Studio не задана</value>
+</data>
+<data name="TargetFrameworkActionGroupText" xml:space="preserve">
+  <value>Целевой фреймворк</value>
+</data>
+<data name="NET20ActionText" xml:space="preserve">
+  <value>.NET2.0</value>
+</data>
+<data name="_IsNotAValidTargetForAUnitTestProject_Text" xml:space="preserve">
+  <value>{0} не является допустимой целью для проекта модульных тестов</value>
+</data>
+<data name="TheProcess__HasFinishedRunningTests_Text" xml:space="preserve">
+  <value>Процесс {0}:{1} завершил назначенные ему запущенные тесты, но все еще работает</value>
+</data>
+<data name="FrameworkDefault__Text" xml:space="preserve">
+  <value>framework: По умолчанию ({0})</value>
+</data>
+<data name="CaptureTestRunnerOutputSettingDescription" xml:space="preserve">
+  <value>Захватывать вывод исполнителя тестов</value>
+</data>
+<data name="DebugUnitTestsActionText" xml:space="preserve">
+  <value>Отладить модульные тесты (&amp;D)</value>
+</data>
+<data name="GroupingProvidersSettingDescription" xml:space="preserve">
+  <value>Поставщики группировки</value>
+</data>
+<data name="UnitTesting_TestStatus_Running" xml:space="preserve">
+  <value>Выполняется…</value>
+</data>
+<data name="UnitTesting_TestStatus_Success" xml:space="preserve">
+  <value>Успешно</value>
+</data>
+<data name="RunningUnitTests_Text" xml:space="preserve">
+  <value>Запуск модульных тестов…</value>
+</data>
+<data name="UnitTestExplorer_Caption" xml:space="preserve">
+  <value>Обозреватель модульных тестов</value>
+</data>
+<data name="ListOfExcludedCategoriesSettingDescription" xml:space="preserve">
+  <value>Список исключенных категорий</value>
+</data>
+<data name="AppendAllTestsFrom__Text" xml:space="preserve">
+  <value>Добавить все тесты из {0}</value>
+</data>
+<data name="Cap_tureOutput_Caption" xml:space="preserve">
+  <value>Захватывать вывод (_T)</value>
+</data>
+<data name="CannotConnectToTestRunner_Text" xml:space="preserve">
+  <value>Не удается подключиться к исполнителю тестов</value>
+</data>
+<data name="DisabledProvidersSettingDescription" xml:space="preserve">
+  <value>Отключенные поставщики</value>
+</data>
+<data name="AskWhatToDo_Option_Text" xml:space="preserve">
+  <value>Спрашивать, что делать</value>
+</data>
+<data name="ExportSessionActionText" xml:space="preserve">
+  <value>Экспортировать сеанс</value>
+</data>
+<data name="TestDuration_Category_Slowest" xml:space="preserve">
+  <value>Самые медленные (&gt;{0})</value>
+</data>
+<data name="LimitTestOutputToASpecifiedNumberOfLinesSettingDescription" xml:space="preserve">
+  <value>Ограничить вывод теста указанным количеством строк</value>
+</data>
+<data name="EnvironmentVariables_Header_Text" xml:space="preserve">
+  <value>Переменные среды</value>
+</data>
+<data name="NET46ActionText" xml:space="preserve">
+  <value>.NET4.6</value>
+</data>
+<data name="ProjectIsNotValid_Text" xml:space="preserve">
+  <value>Проект недопустим</value>
+</data>
+<data name="PlatformType_Arm_Name" xml:space="preserve">
+  <value>ARM</value>
+</data>
+<data name="KillProcess_Option_Text" xml:space="preserve">
+  <value>Завершить процесс</value>
+</data>
+<data name="RenameSessionActionText" xml:space="preserve">
+  <value>Переименовать сеанс</value>
+</data>
+<data name="AnErrorOccurredDuringExport___Text" xml:space="preserve">
+  <value>Произошла ошибка при экспорте:
+{0}</value>
+</data>
+<data name="SaveSessionStateOnCloseAndRestoreOnStartupSettingDescription" xml:space="preserve">
+  <value>Сохранять состояние сеанса при закрытии и восстанавливать при запуске</value>
+</data>
+<data name="Metadata_Text" xml:space="preserve">
+  <value>Метаданные</value>
+</data>
+<data name="ContinueWaiting_Option_Text" xml:space="preserve">
+  <value>Продолжить ожидание</value>
+</data>
+<data name="PlatformVersion_Net47_Description" xml:space="preserve">
+  <value>Принудительное использование .NET 4.7 для тестов</value>
+</data>
+<data name="UnitTestSessions_Text" xml:space="preserve">
+  <value>Сеансы модульных тестов</value>
+</data>
+<data name="BuildFailed_Description_Text" xml:space="preserve">
+  <value>Сборка не выполнена</value>
+</data>
+<data name="Install__Text" xml:space="preserve">
+  <value>Установить {0}</value>
+</data>
+<data name="PlatformType_X86_Name" xml:space="preserve">
+  <value>x86</value>
+</data>
+<data name="Building_Description_Text" xml:space="preserve">
+  <value>Сборка</value>
+</data>
+<data name="ShowNotificationWhenSessionIsFinished_Caption" xml:space="preserve">
+  <value>Показывать уведомление по завершении сеанса</value>
+</data>
+<data name="PathToRunconfigTestsettingsFileSettingDescription" xml:space="preserve">
+  <value>Путь к файлу .runconfig/.testsettings</value>
+</data>
+<data name="ShowTimeActionText" xml:space="preserve">
+  <value>Показывать время</value>
+</data>
+<data name="PlatformType_X64_Description" xml:space="preserve">
+  <value>Принудительный запуск тестов в процессе X64</value>
+</data>
+<data name="All_Text" xml:space="preserve">
+  <value>Все</value>
+</data>
+<data name="OrphanedProcesses_Text" xml:space="preserve">
+  <value>Оставшиеся процессы:</value>
+</data>
+<data name="Passed_Text" xml:space="preserve">
+  <value>Пройдены</value>
+</data>
+<data name="ShowNotificationWhenSessionIsFinishedSettingDescription" xml:space="preserve">
+  <value>Показывать уведомление по завершении сеанса</value>
+</data>
+<data name="RunTestsFrom_RadioOption_Caption" xml:space="preserve">
+  <value>Запускать тесты из:</value>
+</data>
+<data name="ClearTestResults_Text" xml:space="preserve">
+  <value>Очистить результаты тестов</value>
+</data>
+<data name="TestDuration_ValueQualifier_Ms" xml:space="preserve">
+  <value>{0} мс</value>
+</data>
+<data name="UnitTestExplorerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки обозревателя модульных тестов</value>
+</data>
+<data name="In__Text" xml:space="preserve">
+  <value>(в {0})</value>
+</data>
+<data name="ShowIntegrationTestsOptionInUTSession_Caption" xml:space="preserve">
+  <value>Показывать параметр интеграционных тестов в сеансе модульных тестов</value>
+</data>
+<data name="PlatformType_Automatic_Name" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="MRUValuesForUnitTestingSettingDescription" xml:space="preserve">
+  <value>Недавние значения для модульного тестирования</value>
+</data>
+<data name="RunTestsWithoutIsolation_Text_Text" xml:space="preserve">
+  <value>Запускать тесты без изоляции</value>
+</data>
+<data name="RunUnitTestsActionText" xml:space="preserve">
+  <value>&amp;Запустить модульные тесты</value>
+</data>
+<data name="KillOrphaned_Text" xml:space="preserve">
+  <value>Завершить оставшиеся</value>
+</data>
+<data name="TestFrameworksOptionPageTitle" xml:space="preserve">
+  <value>Тестовые framework</value>
+</data>
+<data name="EnableInternalDebugSettingDescription" xml:space="preserve">
+  <value>Включить внутреннюю отладку</value>
+</data>
+<data name="PlatformVersion_Net46_Description" xml:space="preserve">
+  <value>Принудительное использование .NET 4.6 для тестов</value>
+</data>
+<data name="PlatformVersion_Automatic_Name" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="PlatformVersion_Net45_ShortName" xml:space="preserve">
+  <value>net45</value>
+</data>
+<data name="AllTestsFromSolution_Text" xml:space="preserve">
+  <value>Все тесты решения</value>
+</data>
+<data name="Never_Text" xml:space="preserve">
+  <value>Никогда</value>
+</data>
+<data name="LimitAutoLoadedOutputTo_Text" xml:space="preserve">
+  <value>Максимальное количество строк в автоматически загружаемом выводе:</value>
+</data>
+<data name="ShowTestTimeByDefaultInAllNewSessionsSettingDescription" xml:space="preserve">
+  <value>Показывать время теста по умолчанию во всех новых сеансах</value>
+</data>
+<data name="PlatformType_X64_Name" xml:space="preserve">
+  <value>x64</value>
+</data>
+<data name="UnitTestingGroupName_TestHierarchy_Text" xml:space="preserve">
+  <value>Иерархия тестов</value>
+</data>
+<data name="PlatformVersion_Net20_Description" xml:space="preserve">
+  <value>Принудительное использование .NET 2.0 для тестов</value>
+</data>
+<data name="RunUnitTestsUntilFailActionText" xml:space="preserve">
+  <value>Запускать модульные тесты до сбоя</value>
+</data>
+<data name="ShowIntegrationTestsOptionInUTSessionSettingDescription" xml:space="preserve">
+  <value>Показывать параметр интеграционных тестов в сеансе модульных тестов</value>
+</data>
+<data name="Arm64ActionText" xml:space="preserve">
+  <value>ARM64</value>
+</data>
+<data name="ChooseFile_Caption" xml:space="preserve">
+  <value>Выбрать файл</value>
+</data>
+<data name="Enable_Debug_Caption" xml:space="preserve">
+  <value>Включить отладку (_D)</value>
+</data>
+<data name="UnitTestingOptionPageTitle" xml:space="preserve">
+  <value>Модульные тесты</value>
+</data>
+<data name="UnitTestTree_Text" xml:space="preserve">
+  <value>Дерево модульных тестов</value>
+</data>
+<data name="PlatformVersion_Net40_Description" xml:space="preserve">
+  <value>Принудительное использование .NET 4.0 для тестов</value>
+</data>
+<data name="_SaveAndRestoreUnitTestSessions_Caption" xml:space="preserve">
+  <value>Сохранять и восстанавливать сеансы модульных тестов (_S)</value>
+</data>
+<data name="PlatformVersion_Net40_ShortName" xml:space="preserve">
+  <value>net40</value>
+</data>
+<data name="ProjectDoesNotHaveOutputForTargetFramework_Text" xml:space="preserve">
+  <value>Проект не имеет выходных данных для целевого фреймворка</value>
+</data>
+<data name="PlatformVersion_NetCoreApp_Name" xml:space="preserve">
+  <value>NETCoreApp</value>
+</data>
+<data name="TestMethodProperty_PresentableName_Text" xml:space="preserve">
+  <value>Тестовый метод (атрибут)</value>
+</data>
+<data name="PlatformVersion_Net20_Name" xml:space="preserve">
+  <value>.NET2.0</value>
+</data>
+<data name="CustomDirectoryForTestAssembliesAndDataSettingDescription" xml:space="preserve">
+  <value>Пользовательский каталог для тестовых сборок и данных</value>
+</data>
+<data name="AutomaticActionText" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="UnitTestingGroupName_Namespaces_Text" xml:space="preserve">
+  <value>Пространства имен</value>
+</data>
+<data name="FastButMightNotBeAbleToFindCertainEntities_ToolTip" xml:space="preserve">
+  <value>Быстро, но может не найти некоторые сущности, например, пользовательские категории или динамические тесты. Они появятся после первого выполнения.</value>
+</data>
+<data name="PlatformVersion_NetCoreApp_ShortName" xml:space="preserve">
+  <value>netcoreapp</value>
+</data>
+<data name="AllTestsFilter_Name_All_Tests" xml:space="preserve">
+  <value>Все тесты</value>
+</data>
+<data name="AutoScrollToBottomOfOutputPanelDuringTestRunSettingDescription" xml:space="preserve">
+  <value>Автоматически прокручивать к низу панели вывода во время запуска теста</value>
+</data>
+<data name="Wait_Text" xml:space="preserve">
+  <value>Ожидание</value>
+</data>
+<data name="AllTestsHaveFinishedButProcessesSpawned_Text" xml:space="preserve">
+  <value>Все тесты завершены, но процессы, порожденные тестами, все еще работают</value>
+</data>
+<data name="UnitTestGutterMarks_Text" xml:space="preserve">
+  <value>Метки на полях для модульных тестов</value>
+</data>
+<data name="Debug__Text" xml:space="preserve">
+  <value>Отладка {0}</value>
+</data>
+<data name="Skipped_Text" xml:space="preserve">
+  <value>Пропущены</value>
+</data>
+<data name="AppendTo__Text" xml:space="preserve">
+  <value>Добавить в: {0}</value>
+</data>
+<data name="NuGetPackage_IsNotInstalled_Text" xml:space="preserve">
+  <value>Пакет NuGet '{0}' не установлен</value>
+</data>
+<data name="CurrentSession_Text" xml:space="preserve">
+  <value>Текущий сеанс</value>
+</data>
+<data name="TestRunner_Text" xml:space="preserve">
+  <value>Исполнитель тестов</value>
+</data>
+<data name="UnitTestGroupingProvider_Category" xml:space="preserve">
+  <value>Категория</value>
+</data>
+<data name="WhyCanTIRunTests_Text" xml:space="preserve">
+  <value>Почему я не могу запустить тесты?</value>
+</data>
+<data name="UnitTestingGroupName_ProjectsAndNamespaces_Text" xml:space="preserve">
+  <value>Проекты и пространства имен</value>
+</data>
+<data name="_LoggingLevel_Caption" xml:space="preserve">
+  <value>Уровень ведения журнала (_L)</value>
+</data>
+<data name="IntegrationTests_Text" xml:space="preserve">
+  <value>Интеграционные тесты</value>
+</data>
+<data name="Remove_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="UnitTesting_Session_TestCountPattern_Singular" xml:space="preserve">
+  <value>({0} тест)</value>
+</data>
+<data name="SlowerFindsAllTestsOrCategories_ToolTip" xml:space="preserve">
+  <value>Медленнее, находит все тесты или категории</value>
+</data>
+<data name="DefaultActionText" xml:space="preserve">
+  <value>По умолчанию</value>
+</data>
+<data name="UnitTesting_TestStatus_None" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="UnitTesting_TestStatus_Pending" xml:space="preserve">
+  <value>Ожидание</value>
+</data>
+<data name="CouldNotImportSession_Caption" xml:space="preserve">
+  <value>Не удалось импортировать сеанс</value>
+</data>
+<data name="DebugUnitTestsActionGroupDescription" xml:space="preserve">
+  <value>Отладить модульные тесты (&amp;D)</value>
+</data>
+<data name="UnitTesting_Category_Uncategorized_Text" xml:space="preserve">
+  <value>&lt;Без категории&gt;</value>
+</data>
+<data name="AnErrorOccurredDuringImportN__Text" xml:space="preserve">
+  <value>Произошла ошибка при импорте:
+{0}</value>
+</data>
+<data name="SkipParameterizedTestAfterInputData_TextPrefix" xml:space="preserve">
+  <value>Пропускать параметризованный тест после превышения объема входных данных</value>
+</data>
+<data name="Items_PostfixText" xml:space="preserve">
+  <value>элементов</value>
+</data>
+<data name="DoNothing_Option_Text" xml:space="preserve">
+  <value>Ничего не делать</value>
+</data>
+<data name="PlatformType_Arm64_Name" xml:space="preserve">
+  <value>ARM64</value>
+</data>
+<data name="UnitTesting_TestStatus_Inconclusive" xml:space="preserve">
+  <value>Неопределенно</value>
+</data>
+<data name="ArmActionText" xml:space="preserve">
+  <value>ARM</value>
+</data>
+<data name="AutomaticWholeSolutionActionText" xml:space="preserve">
+  <value>Автоматически (все решение)</value>
+</data>
+<data name="UnitTestGroupingProvider_FileSystem" xml:space="preserve">
+  <value>Файловая система</value>
+</data>
+<data name="NET47ActionText" xml:space="preserve">
+  <value>.NET4.7</value>
+</data>
+<data name="IgnoreReason_TestIsInIgnoredCategory" xml:space="preserve">
+  <value>Тест находится в игнорируемой категории '{0}'</value>
+</data>
+<data name="UNitTestSession_Caption" xml:space="preserve">
+  <value>Сеанс модульных тестов (&amp;N)</value>
+</data>
+<data name="NET40ActionText" xml:space="preserve">
+  <value>.NET4.0</value>
+</data>
+<data name="UnitTestingGroupName_Categories_Text" xml:space="preserve">
+  <value>Категории</value>
+</data>
+<data name="UnitTestingGroupName_ProjectAndCategories_Text" xml:space="preserve">
+  <value>Проекты и категории</value>
+</data>
+<data name="Finishing_Description_Text" xml:space="preserve">
+  <value>Завершение</value>
+</data>
+<data name="SpawnedProcessesCheckResponseSettingDescription" xml:space="preserve">
+  <value>Реакция проверки порожденных процессов</value>
+</data>
+<data name="Starting_Description_Text" xml:space="preserve">
+  <value>Запуск</value>
+</data>
+<data name="ProcessorArchitectureForStandaloneIntegrationTestsSettingDescription" xml:space="preserve">
+  <value>Архитектура процессора для автономных интеграционных тестов</value>
+</data>
+<data name="LifetimeIsTerminated_Text" xml:space="preserve">
+  <value>Время жизни завершено</value>
+</data>
+<data name="CreateNeWSessionActionText" xml:space="preserve">
+  <value>Создать новый сеанс (&amp;W)</value>
+</data>
+<data name="UnitTestingGroupName_Projects_Text" xml:space="preserve">
+  <value>Проекты</value>
+</data>
+<data name="_DoNotShowAgain_Text" xml:space="preserve">
+  <value>Больше не показывать (_D)</value>
+</data>
+<data name="UnitTestingSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки модульного тестирования</value>
+</data>
+<data name="ShadowCopyRecursive" xml:space="preserve">
+  <value>Указывает, следует ли выполнять теневого копирования файлов рекурсивно</value>
+</data>
+<data name="UnitTestGroupingProvider_Namespace" xml:space="preserve">
+  <value>Пространство имен</value>
+</data>
+<data name="ProjectIsNotAUserProject_Text" xml:space="preserve">
+  <value>Проект не является пользовательским проектом</value>
+</data>
+<data name="SessionsSettingDescription" xml:space="preserve">
+  <value>Сеансы</value>
+</data>
+<data name="PlatformVersion_Net45_Description" xml:space="preserve">
+  <value>Принудительное использование .NET 4.5 для тестов</value>
+</data>
+<data name="_ProjectOutputFolder_Text" xml:space="preserve">
+  <value>Выходная папка проекта (_P)</value>
+</data>
+<data name="None_Text" xml:space="preserve">
+  <value>Нет</value>
+</data>
+<data name="BuildSettingsActionGroupText" xml:space="preserve">
+  <value>Настройки сборки</value>
+</data>
+<data name="UnitTesting_TestStatus_Aborted" xml:space="preserve">
+  <value>Прервано</value>
+</data>
+<data name="PassedTestsFilter_PassedTestsFilter_Passed_Tests" xml:space="preserve">
+  <value>Пройденные тесты</value>
+</data>
+<data name="OutputDoesNotExistOnDisk_Text" xml:space="preserve">
+  <value>Выходные данные не существуют на диске</value>
+</data>
+<data name="AdditionalEnvironmentVariablesToBeUsedByTheTestRunnerSettingDescription" xml:space="preserve">
+  <value>Дополнительные переменные среды, используемые исполнителем тестов</value>
+</data>
+<data name="Run__Text" xml:space="preserve">
+  <value>Запустить {0}</value>
+</data>
+<data name="ExceptionOccurredDuringExploration_Text" xml:space="preserve">
+  <value>Во время исследования произошло исключение</value>
+</data>
+<data name="ExitCodeIs_WithError_Text" xml:space="preserve">
+  <value>Код выхода: {0} ({1})</value>
+</data>
+<data name="RunUnitTestsActionGroupText" xml:space="preserve">
+  <value>Запустить модульные тесты</value>
+</data>
+<data name="ImportSessionActionText" xml:space="preserve">
+  <value>Импортировать сеанс</value>
+</data>
+<data name="UnitTestRunnerSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки исполнителя модульных тестов</value>
+</data>
+<data name="UnitTesting_Session_FailedTestCountPattern_Singular" xml:space="preserve">
+  <value>{0} тест завершился неудачей</value>
+</data>
+<data name="TestRunnerResultEventsTimeout" xml:space="preserve">
+  <value>Тайм-аут событий результата исполнителя тестов</value>
+</data>
+<data name="TestNotRun_Text" xml:space="preserve">
+  <value>Тест не запущен</value>
+</data>
+<data name="DebugUnitTestsActionGroupText" xml:space="preserve">
+  <value>Отладить модульные тесты (&amp;D)</value>
+</data>
+<data name="WaitIntervalForTestRunnerToExitAfterTestsSeeminglyFinishSettingDescription" xml:space="preserve">
+  <value>Интервал ожидания выхода исполнителя тестов после кажущегося завершения тестов</value>
+</data>
+<data name="TargetPlatformActionGroupText" xml:space="preserve">
+  <value>Целевая платформа</value>
+</data>
+<data name="NumberOfTestRunnerProcessesRunningInParallelSettingDescription" xml:space="preserve">
+  <value>Количество процессов исполнителя тестов, работающих параллельно</value>
+</data>
+<data name="TrackActiveElementInTreeByDefaultInAllNewSessionsSettingDescription" xml:space="preserve">
+  <value>Отслеживать активный элемент в дереве по умолчанию во всех новых сеансах</value>
+</data>
+<data name="IgnoredTestsFilter_IgnoredTestsFilter_Ignored_Tests" xml:space="preserve">
+  <value>Игнорируемые тесты</value>
+</data>
+<data name="CheckForOrphanedProcessesSettingDescription" xml:space="preserve">
+  <value>Проверять на оставшиеся процессы</value>
+</data>
+<data name="Auto_Text" xml:space="preserve">
+  <value>Автоматически</value>
+</data>
+<data name="Failed_Text" xml:space="preserve">
+  <value>Неудачно</value>
+</data>
+<data name="AppendUnitTestsToSessionActionText" xml:space="preserve">
+  <value>Добавить модульные тесты в сеанс</value>
+</data>
+<data name="PlatformVersion_Net46_ShortName" xml:space="preserve">
+  <value>net46</value>
+</data>
+<data name="AutoWholeSolution_Text" xml:space="preserve">
+  <value>Автоматически (все решение)</value>
+</data>
+<data name="AllTestsFrom_0_Text" xml:space="preserve">
+  <value>Все тесты из {0}</value>
+</data>
+<data name="TestDuration_Category_Slower" xml:space="preserve">
+  <value>Более медленные (&gt;{0})</value>
+</data>
+<data name="TestGradationByDurationSettingDescription" xml:space="preserve">
+  <value>Градация тестов по длительности</value>
+</data>
+<data name="DefaultUnitTestSessionSettingsSettingDescription" xml:space="preserve">
+  <value>Настройки сеанса модульных тестов по умолчанию</value>
+</data>
+<data name="UnitTestOutput_Text" xml:space="preserve">
+  <value>Вывод модульных тестов</value>
+</data>
+<data name="RunWasAborted_Text" xml:space="preserve">
+  <value>Запуск был прерван</value>
+</data>
+<data name="UnitTestRunner_Caption" xml:space="preserve">
+  <value>Исполнитель модульных тестов</value>
+</data>
+<data name="X64ActionText" xml:space="preserve">
+  <value>x64</value>
+</data>
+<data name="UnitTesting_TestStatus_Unknown" xml:space="preserve">
+  <value>Неизвестно</value>
+</data>
+<data name="Seconds_PostfixText" xml:space="preserve">
+  <value>сек.:</value>
+</data>
+<data name="UnitTestGroupingProvider_Project" xml:space="preserve">
+  <value>Проект</value>
+</data>
+<data name="PlatformType_Arm_Description" xml:space="preserve">
+  <value>Принудительный запуск тестов в процессе ARM</value>
+</data>
+<data name="NotRunnable__Text" xml:space="preserve">
+  <value>Не запускается: {0}</value>
+</data>
+<data name="Diagnostics_Header_Text" xml:space="preserve">
+  <value>Диагностика</value>
+</data>
+<data name="AppendTestsToSessionActionText" xml:space="preserve">
+  <value>Добавить тесты в сеанс (&amp;A)</value>
+</data>
+<data name="ForNETCoreSameAsDotnetTest_Caption" xml:space="preserve">
+  <value>Для .NET Core (аналогично dotnet test)</value>
+</data>
+<data name="UnitTestGroupingProvider_TargetFramework" xml:space="preserve">
+  <value>Целевая framework</value>
+</data>
+<data name="UnitTestExplorer_Text" xml:space="preserve">
+  <value>Обозреватель модульных тестов</value>
+</data>
+<data name="X86ActionText" xml:space="preserve">
+  <value>x86</value>
+</data>
+<data name="REpeatPreviousRunActionText" xml:space="preserve">
+  <value>Повторить предыдущий запуск (&amp;E)</value>
+</data>
+<data name="PlatformMonoPreference_PreferMono_Name" xml:space="preserve">
+  <value>Предпочитать Mono</value>
+</data>
+<data name="AllTestsInCategory__Text" xml:space="preserve">
+  <value>Все тесты в категории '{0}'</value>
+</data>
+<data name="ForNETFramework_Caption" xml:space="preserve">
+  <value>Для .NET Framework</value>
+</data>
+<data name="TestDuration_Category_Medium" xml:space="preserve">
+  <value>Средние (&gt;{0})</value>
+</data>
+<data name="Framework__Text" xml:space="preserve">
+  <value>framework: {0}</value>
+</data>
+<data name="InAnotherTest_Text" xml:space="preserve">
+  <value>В другом тесте{0}</value>
+</data>
+<data name="InAllTargetFrameworksActionText" xml:space="preserve">
+  <value>Во всех целевых фреймворках (&amp;I)</value>
+</data>
+<data name="UnitTesting_TestStatus_Failed" xml:space="preserve">
+  <value>Неудачно</value>
+</data>
+<data name="NotRunnableTest_Text" xml:space="preserve">
+  <value>Неподдерживаемый тест</value>
+</data>
+<data name="TestRunnerOptionPageTitle" xml:space="preserve">
+  <value>Исполнитель тестов</value>
+</data>
+<data name="Skip_Action_Text" xml:space="preserve">
+  <value>Пропустить</value>
+</data>
+<data name="LatestNetCoreAppActionText" xml:space="preserve">
+  <value>Последняя версия NetCoreApp</value>
+</data>
+<data name="TestDuration_Category_NotRun" xml:space="preserve">
+  <value>Не запускались</value>
+</data>
+<data name="ChildProcessName_Text" xml:space="preserve">
+  <value>Имя дочернего процесса,*</value>
+</data>
+<data name="FailedTestsFilter_FailedTestsFilter_Failed_Tests" xml:space="preserve">
+  <value>Неудачные тесты</value>
+</data>
+<data name="Category__Text" xml:space="preserve">
+  <value>Категория "{0}"</value>
+</data>
+<data name="_WrapLongLinesInUnitTestSessionOutput_Caption" xml:space="preserve">
+  <value>Переносить длинные строки в выводе сеанса модульных тестов (_W)</value>
+</data>
+<data name="InternalOptions_Text" xml:space="preserve">
+  <value>Внутренние параметры</value>
+</data>
+<data name="PlatformMonoPreference_PreferMono_Description" xml:space="preserve">
+  <value>Предпочитать Mono для тестов .NET Framework</value>
+</data>
+<data name="Advanced_Text" xml:space="preserve">
+  <value>Дополнительно</value>
+</data>
+<data name="UnitTestingGroupName_ProjectStructure_Text" xml:space="preserve">
+  <value>Структура проекта</value>
+</data>
+<data name="LeaveRunning_Text" xml:space="preserve">
+  <value>Оставить запущенными</value>
+</data>
+<data name="UnitTestingSessionsSettingDescription" xml:space="preserve">
+  <value>Сеансы модульных тестов</value>
+</data>
+<data name="Kill_Text" xml:space="preserve">
+  <value>Завершить</value>
+</data>
+<data name="PlatformTypeXXToRunTestsSettingDescription" xml:space="preserve">
+  <value>PlatformType (x86/x64) для запуска тестов</value>
+</data>
+<data name="ActivateUnitTestSessionWindowWhenRunStartsSettingDescription" xml:space="preserve">
+  <value>Активировать окно сеанса модульных тестов при запуске теста</value>
+</data>
+<data name="EnableUnitTestingSettingDescription" xml:space="preserve">
+  <value>Включить модульное тестирование</value>
+</data>
+<data name="NeverBuildActionText" xml:space="preserve">
+  <value>Никогда не строить</value>
+</data>
+<data name="ExceptionOccurredDuringDiscovery_Text" xml:space="preserve">
+  <value>Во время обнаружения произошло исключение</value>
+</data>
+<data name="PlatformMonoPreference_PreferCLR_Description" xml:space="preserve">
+  <value>Предпочитать CLR для тестов .NET Framework</value>
+</data>
+<data name="TestsPassed_Failed_Ignored__Text" xml:space="preserve">
+  <value>Тестов пройдено: {0}, не пройдено: {1}, пропущено: {2}</value>
+</data>
+<data name="TestRunnersInParallel_Text" xml:space="preserve">
+  <value>Максимальное количество параллельно работающих исполнителей тестов:</value>
+</data>
+<data name="DefaultNET_FrameworkVersion_Caption" xml:space="preserve">
+  <value>Версия .NET Framework по умолчанию (_F):</value>
+</data>
+<data name="FileMask_Caption" xml:space="preserve">
+  <value>Маска файлов</value>
+</data>
+<data name="Declarations_Caption" xml:space="preserve">
+  <value>Объявления</value>
+</data>
+<data name="PossibleReasonsAreIncorrectAsynchronous_Text" xml:space="preserve">
+  <value>Возможными причинами являются некорректный асинхронный код или длительное освобождение тестовых ресурсов.
+Если ожидается, что очистка тестов будет медленной, увеличьте время ожидания на странице параметров модульного тестирования.</value>
+</data>
+<data name="UnitTestGroupingProvider_TestHierarchy" xml:space="preserve">
+  <value>Иерархия тестов</value>
+</data>
+<data name="UnitTesting_Session_FailedTestCountPattern_Plural" xml:space="preserve">
+  <value>{0} тестов завершились неудачей</value>
+</data>
+<data name="PlatformVersion_NetCoreApp_Description" xml:space="preserve">
+  <value>Принудительное использование среды выполнения NETCoreApp для тестов</value>
+</data>
+<data name="UnitTestGroupingProvider_Duration" xml:space="preserve">
+  <value>Длительность</value>
+</data>
+<data name="AppendTo_Text" xml:space="preserve">
+  <value>Добавить в:</value>
+</data>
+<data name="AllTestsFrom__Text" xml:space="preserve">
+  <value>Все тесты из &lt;{0}&gt;</value>
+</data>
+<data name="TestRunnerResultEventsFrequency" xml:space="preserve">
+  <value>Частота событий результата исполнителя тестов</value>
+</data>
+<data name="ExpandTestSessionTreeToATestWhenPossibleSettingDescription" xml:space="preserve">
+  <value>По возможности разворачивать дерево сеанса тестов до теста</value>
+</data>
+<data name="ActionAuto_Text" xml:space="preserve">
+  <value>Действие, автоматически</value>
+</data>
+<data name="BuildSucceeded_Description_Text" xml:space="preserve">
+  <value>Сборка выполнена успешно</value>
+</data>
+<data name="UseSpecificRunsettingsTestsettingsSettings_Text_Text" xml:space="preserve">
+  <value>Использовать конкретный файл настроек .runsettings/.testsettings:</value>
+</data>
+<data name="IfTheSpawnedProcessesDoNotExitAfter_TextPrefix" xml:space="preserve">
+  <value>Если порожденные процессы не завершатся после:</value>
+</data>
+<data name="AllTestsFrom_TargetFramework_Text" xml:space="preserve">
+  <value>Все тесты из &lt;{0}&gt;</value>
+</data>
+<data name="ClearTestResultActionText" xml:space="preserve">
+  <value>Очистить результат теста</value>
+</data>
+<data name="Native_Text" xml:space="preserve">
+  <value>Собственный</value>
+</data>
+<data name="TestSettings_Header_Text" xml:space="preserve">
+  <value>Параметры тестов</value>
+</data>
+<data name="CopyRecursively_Caption" xml:space="preserve">
+  <value>Копировать рекурсивно</value>
+</data>
+<data name="ListOfProcessesWithSetRepliesSettingDescription" xml:space="preserve">
+  <value>Список процессов с заданными ответами</value>
+</data>
+<data name="ShowLogEntriesWithSeverity_Text" xml:space="preserve">
+  <value>Минимальная серьезность записей журнала:</value>
+</data>
+<data name="CancellationRequested_Text" xml:space="preserve">
+  <value>Запрошена отмена</value>
+</data>
+<data name="Add_Text" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="AutoDetectRunSettingsFile_Text" xml:space="preserve">
+  <value>Автоматически обнаруживать файл .runsettings</value>
+</data>
+<data name="PlatformVersion_Net45_Name" xml:space="preserve">
+  <value>.NET4.5</value>
+</data>
+<data name="Run_Text" xml:space="preserve">
+  <value>Запустить</value>
+</data>
+<data name="WhenRunningTestsDiscoveryFromArtifacts_RadioOption_Caption" xml:space="preserve">
+  <value>При запуске обнаружения тестов из артефактов использовать:</value>
+</data>
+<data name="AppendToSession_Text" xml:space="preserve">
+  <value>Добавить в сеанс</value>
+</data>
+<data name="RunCurrentSessionActionText" xml:space="preserve">
+  <value>Запустить текущий сеанс (&amp;C)</value>
+</data>
+<data name="PlatformVersion_Net46_Name" xml:space="preserve">
+  <value>.NET4.6</value>
+</data>
+<data name="RuntimeEnvironmentCLRToRunTestsSettingDescription" xml:space="preserve">
+  <value>RuntimeEnvironment (CLR2/4) для запуска тестов</value>
+</data>
+<data name="CreateNewSession_Text" xml:space="preserve">
+  <value>Создать новый сеанс</value>
+</data>
+<data name="More_Text" xml:space="preserve">
+  <value>Еще…</value>
+</data>
+<data name="RunUnitTestsActionGroupDescription" xml:space="preserve">
+  <value>Запустить модульные тесты</value>
+</data>
+<data name="PlatformType_Arm64_Description" xml:space="preserve">
+  <value>Принудительный запуск тестов в процессе ARM64</value>
+</data>
+<data name="Kill_Action_Text" xml:space="preserve">
+  <value>Завершить</value>
+</data>
+<data name="Value_Text" xml:space="preserve">
+  <value>Значение</value>
+</data>
+<data name="UnitTesting_Guttermark_Tooltip_Text" xml:space="preserve">
+  <value>(Щелкните для запуска)</value>
+</data>
+<data name="UnitTesting_TestStatus_Ignored" xml:space="preserve">
+  <value>Проигнорировано</value>
+</data>
+<data name="DefaultSolutionBuildPolicyBeforeRunningTestsInAllNewSessionsSettingDescription" xml:space="preserve">
+  <value>Политика сборки решения по умолчанию перед запуском тестов во всех новых сеансах</value>
+</data>
+</root>
