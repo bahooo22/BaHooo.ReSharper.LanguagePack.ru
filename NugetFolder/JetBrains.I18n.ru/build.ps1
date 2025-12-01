@@ -107,11 +107,10 @@ else {
 
 # Выведем результат
 $created = Get-ChildItem -Path $Output -Filter '*.nupkg' -File -ErrorAction SilentlyContinue
-if ($created -and $created.Count -gt 0) {
-    Write-Host "Пакеты созданы в: $Output"
-    $created | ForEach-Object { Write-Host " - $($_.FullName)" }
-}
-else {
+if ($created -and ($created | Measure-Object).Count -gt 0) {
+    Write-Host "Package(s) created:"
+    $created | ForEach-Object { Write-Host $_ }
+} else {
     Write-Host "Не найдено созданных .nupkg в $Output"
     throw "Упаковка завершилась без создания .nupkg"
 }
