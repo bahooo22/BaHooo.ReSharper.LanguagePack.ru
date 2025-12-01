@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="AssemblyIsNotInAssemblyExplorer_Text" xml:space="preserve">
+  <value>Не в обозревателе сборок</value>
+</data>
+<data name="SymbolServerAssemblyFilterSettingDescription" xml:space="preserve">
+  <value>Фильтр сборок сервера символов</value>
+</data>
+<data name="SymbolServerRunningStateSettingDescription" xml:space="preserve">
+  <value>Состояние работы сервера символов</value>
+</data>
+<data name="SymbolServerOptionsSettingDescription" xml:space="preserve">
+  <value>Параметры сервера символов</value>
+</data>
+<data name="AssemblyIsFromDotNetFramework_Text" xml:space="preserve">
+  <value>Из .NET Framework</value>
+</data>
+<data name="UnableToGeneratePdbBecauseTheAssemblyWithPdbName_AndSignature_IsNotFound_Text" xml:space="preserve">
+  <value>Не удалось создать PDB, так как не найдена сборка с именем PDB {0} и сигнатурой {1}</value>
+</data>
+<data name="PdbFileHasAlreadyBeenRequestedSignature__Text" xml:space="preserve">
+  <value>PDB-файл уже запрашивался (сигнатура {0})</value>
+</data>
+<data name="PdbFileIsInTheCacheSignature__Text" xml:space="preserve">
+  <value>PDB-файл находится в кэше (сигнатура {0})</value>
+</data>
+<data name="SymbolServerFirstStartSettingDescription" xml:space="preserve">
+  <value>Первый запуск сервера символов</value>
+</data>
+<data name="PdbHasNotBeenGeneratedBecauseAssemblyDoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+  <value>PDB не был создан, так как сборка не содержит каталога отладки</value>
+</data>
+<data name="SymbolServerPortSettingDescription" xml:space="preserve">
+  <value>Порт сервера символов</value>
+</data>
+<data name="Decompiling__Text" xml:space="preserve">
+  <value>Декомпиляция {0}…</value>
+</data>
+<data name="Assembly_IsProtectedFromDecompilation_Text" xml:space="preserve">
+  <value>Сборка {0} защищена от декомпиляции. Чтобы декомпилировать защищенные сборки, включите опцию «Декомпилировать защищенные сборки (игнорировать атрибут SuppressIldasm)».</value>
+</data>
+<data name="PdbFileIsInTheCache_Text" xml:space="preserve">
+  <value>PDB-файл находится в кэше</value>
+</data>
+<data name="AssemblyIsLocatedInNuGetPackagesCache_Text" xml:space="preserve">
+  <value>Находится в кэше пакетов NuGet</value>
+</data>
+<data name="AssemblyIsLocatedInGAC_Text" xml:space="preserve">
+  <value>Находится в GAC</value>
+</data>
+<data name="AssemblyInfo_Text" xml:space="preserve">
+  <value>Сведения о сборке</value>
+</data>
+<data name="GeneratingPDBs_Text" xml:space="preserve">
+  <value>Генерация PDB</value>
+</data>
+<data name="PdbFileIsCopiedFromTheCacheSignature__Text" xml:space="preserve">
+  <value>PDB-файл скопирован из кэша (сигнатура {0})</value>
+</data>
+<data name="PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text" xml:space="preserve">
+  <value>PDB не был создан, так как сборка {0} имеет имя PDB {1} и сигнатуру {2}</value>
+</data>
+<data name="AssemblyFile_DoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
+  <value>Файл сборки {0} не содержит каталога отладки</value>
+</data>
+<data name="DecompilingSourcesAndResourcesToTemp_Text" xml:space="preserve">
+  <value>Декомпиляция исходных кодов и ресурсов во временную папку…</value>
+</data>
+<data name="DecompilingSourcesAndResources_Text" xml:space="preserve">
+  <value>Декомпиляция исходных кодов и ресурсов…</value>
+</data>
+<data name="CantGeneratePdbForOutputAssembly_Text" xml:space="preserve">
+  <value>Не удалось создать PDB для выходной сборки</value>
+</data>
+</root>

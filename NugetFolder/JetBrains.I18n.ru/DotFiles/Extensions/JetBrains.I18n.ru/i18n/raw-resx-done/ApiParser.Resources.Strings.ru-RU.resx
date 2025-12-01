@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="EditorWindow_OnBeforeRemovedAsTab_Description" xml:space="preserve">
+  <value>Вызывается перед удалением окна редактора из вкладки</value>
+</data>
+<data name="EditorWindow_ShowButton_Description" xml:space="preserve">
+  <value>Позволяет панели редактора показывать небольшую кнопку рядом с общим меню (например, значок блокировки инспектора)</value>
+</data>
+<data name="AssetPostprocessor_OnGeneratedCSProjectFiles_Description" xml:space="preserve">
+  <value>Этот проект не документирован и является "страховкой" на случай, когда Visual Studio получает новую версию, несовместимую с Unity, чтобы пользователи могли выполнять постобработку наших csproj-файлов для исправления проблем (или полностью заменять их). Надеемся, что это нам никогда не понадобится.</value>
+</data>
+<data name="Editor_OnSceneDrag_sceneView_Description" xml:space="preserve">
+  <value>Текущее окно сцены</value>
+</data>
+<data name="Editor_OnPreSceneGUI_Description" xml:space="preserve">
+  <value>Вызывается перед отрисовкой окна сцены.</value>
+</data>
+<data name="ScriptableObject_OnValidate_Description" xml:space="preserve">
+  <value>Вызывается при загрузке скрипта или изменении значения в инспекторе (вызывается только в редакторе).</value>
+</data>
+<data name="AssetPostprocessor_OnGeneratedSlnSolution_Description" xml:space="preserve">
+  <value>Редактор C# кода использует этот обратный вызов для изменения .sln файла.</value>
+</data>
+<data name="MonoBehaviour_OnRectTransformDimensionsChange_Description" xml:space="preserve">
+  <value>Этот обратный вызов вызывается, если изменяются размеры связанного RectTransform.</value>
+</data>
+<data name="Editor_HasFrameBounds_Description" xml:space="preserve">
+  <value>Проверяет, можно ли вычислить пользовательские границы для этого редактора.</value>
+</data>
+<data name="Editor_OnSceneDrag_index_Description" xml:space="preserve">
+  <value>Индекс в массиве DragAndDrop.objectReferences</value>
+</data>
+<data name="EditorWindow_OnBecameVisible_Description" xml:space="preserve">
+  <value>Вызывается при открытии окна редактора</value>
+</data>
+<data name="EditorWindow_ShowButton_rect_Description" xml:space="preserve">
+  <value>Позиция для отрисовки кнопки</value>
+</data>
+<data name="Editor_OnSceneDrag_Description" xml:space="preserve">
+  <value>Вызывается для каждого объекта, перетаскиваемого в окно сцены</value>
+</data>
+<data name="AssetPostprocessor_OnPreGeneratingCSProjectFiles_Description" xml:space="preserve">
+  <value>UnityVS использует этот обратный вызов для перехвата генерации проекта у Unity</value>
+</data>
+<data name="AssetPostprocessor_OnPostprocessAllAssets_Description" xml:space="preserve">
+  <value>Вызывается после завершения импорта любого количества ресурсов (когда индикатор прогресса ресурсов доходит до конца).</value>
+</data>
+<data name="EditorWindow_OnTabDetached_Description" xml:space="preserve">
+  <value>Вызывается при отсоединении вкладки окна редактора во время перетаскивания</value>
+</data>
+<data name="Editor_OnGetFrameBounds_Description" xml:space="preserve">
+  <value>Получает пользовательские границы для цели этого редактора.</value>
+</data>
+<data name="EditorWindow_OnBecameInvisible_Description" xml:space="preserve">
+  <value>Вызывается при закрытии окна редактора</value>
+</data>
+<data name="EditorWindow_OnDidOpenScene_Description" xml:space="preserve">
+  <value>Вызывается при открытии сцены</value>
+</data>
+<data name="EditorWindow_OnAddedAsTab_Description" xml:space="preserve">
+  <value>Вызывается, когда окно редактора добавляется в качестве вкладки</value>
+</data>
+<data name="ScriptableObject_Reset_Description" xml:space="preserve">
+  <value>Сбрасывает значения по умолчанию.</value>
+</data>
+<data name="EditorWindow_ModifierKeysChanged_Description" xml:space="preserve">
+  <value>Вызывается при изменении модификаторов клавиш. Автоматически регистрирует и отменяет регистрацию события EditorApplication.modifierKeysChanged</value>
+</data>
+<data name="EditorWindow_OnMainWindowMove_Description" xml:space="preserve">
+  <value>Вызывается при перемещении главного окна</value>
+</data>
+<data name="AssetPostprocessor_OnGeneratedCSProject_Description" xml:space="preserve">
+  <value>Редактор C# кода использует этот обратный вызов для изменения .csproj файла.</value>
+</data>
+</root>

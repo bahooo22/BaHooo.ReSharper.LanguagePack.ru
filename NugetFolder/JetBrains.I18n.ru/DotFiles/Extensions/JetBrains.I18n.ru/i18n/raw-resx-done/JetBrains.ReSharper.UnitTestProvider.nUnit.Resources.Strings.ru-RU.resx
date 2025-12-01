@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+<data name="_Always_Text" xml:space="preserve">
+  <value>Всегда(_A)</value>
+</data>
+<data name="AdditionalParametersAvailableThroughTestContextParametersSettingDescription" xml:space="preserve">
+  <value>Дополнительные параметры, доступные через TestContext.Parameters</value>
+</data>
+<data name="TestDiscovery_Header_Text" xml:space="preserve">
+  <value>Обнаружение тестов</value>
+</data>
+<data name="TestParameters_Text" xml:space="preserve">
+  <value>Параметры теста:</value>
+</data>
+<data name="CheckTestAssemblySFolderForAddins_Text" xml:space="preserve">
+  <value>Искать дополнения в папке сборки теста</value>
+</data>
+<data name="PutAddinsIn_TestRunnerAdaptersNUnit2_Text" xml:space="preserve">
+  <value>Поместите дополнения в {0}\TestRunner\Adapters\NUnit2\addins</value>
+</data>
+<data name="CheckAddinsFolderInsideTestAssembly_Text" xml:space="preserve">
+  <value>Искать дополнения в подпапке 'addins' папки сборки теста</value>
+</data>
+<data name="PrefilterTypesAndMethodsWhenDiscoveringTestsInTestRunnerSettingDescription" xml:space="preserve">
+  <value>Предварительная фильтрация типов и методов при обнаружении тестов в исполнителе тестов</value>
+</data>
+<data name="TestParameter_Name_Column" xml:space="preserve">
+  <value>Имя</value>
+</data>
+<data name="NUnitOptionPageTitle" xml:space="preserve">
+  <value>NUnit</value>
+</data>
+<data name="LoadNUnitAddins_RadioOption_Caption" xml:space="preserve">
+  <value>Загружать дополнения NUnit</value>
+</data>
+<data name="UseSpecifiedCustomNUnit_BoolOption_Text" xml:space="preserve">
+  <value>Использовать указанную пользовательскую NUnit</value>
+</data>
+<data name="_IfRequired_Text" xml:space="preserve">
+  <value>При необходимости(_I)</value>
+</data>
+<data name="PathToCustomNUnitInstallationSettingDescription" xml:space="preserve">
+  <value>Путь к пользовательской установке NUnit</value>
+</data>
+<data name="UseCustomNUnitInstallationSettingDescription" xml:space="preserve">
+  <value>Использовать пользовательскую установку NUnit</value>
+</data>
+<data name="Add_ButtonWithListAction_ToolTip" xml:space="preserve">
+  <value>Добавить</value>
+</data>
+<data name="NUnit3_Header_Text" xml:space="preserve">
+  <value>NUnit 3</value>
+</data>
+<data name="CustomNUnitFolder_Caption" xml:space="preserve">
+  <value>Пользовательская папка NUnit</value>
+</data>
+<data name="Remove_Text" xml:space="preserve">
+  <value>Удалить</value>
+</data>
+<data name="SettingsForNUnitUnitTestProviderSettingDescription" xml:space="preserve">
+  <value>Настройки для поставщика модульных тестов NUnit</value>
+</data>
+<data name="DiscoveryMethodForDiscoveryTestsFromArtifactsSettingDescription" xml:space="preserve">
+  <value>Метод обнаружения для поиска тестов из артефактов</value>
+</data>
+<data name="TestParameters_Value_Column" xml:space="preserve">
+  <value>Значение</value>
+</data>
+<data name="UseSpecifiedCustomNUnit_BoolOption_ToolTip" xml:space="preserve">
+  <value>Использовать указанную пользовательскую NUnit</value>
+</data>
+<data name="NUnitAddinUsagePolicySettingDescription" xml:space="preserve">
+  <value>Политика использования дополнений NUnit</value>
+</data>
+<data name="CheckBinAddinsFolderForAddinsSettingDescription" xml:space="preserve">
+  <value>Искать дополнения в подпапке 'addins' папки сборки теста</value>
+</data>
+<data name="_Enable_Support_BoolOption_Text" xml:space="preserve">
+  <value>Включить поддержку {0}(_E)</value>
+</data>
+<data name="PrefilterTypesAndMethodsWhenDiscovering_BoolOption_Text" xml:space="preserve">
+  <value>Предварительная фильтрация типов и методов при обнаружении тестов в исполнителе тестов</value>
+</data>
+<data name="CheckBinFolderForAddinsSettingDescription" xml:space="preserve">
+  <value>Искать дополнения в папке сборки теста</value>
+</data>
+<data name="CustomNUnitInstallation_Header_Text" xml:space="preserve">
+  <value>Пользовательская установка NUnit</value>
+</data>
+<data name="NUnit2_Header_Text" xml:space="preserve">
+  <value>NUnit 2</value>
+</data>
+<data name="_Never_Text" xml:space="preserve">
+  <value>Никогда(_N)</value>
+</data>
+</root>
