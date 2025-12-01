@@ -10,29 +10,28 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
-    - name: Setup NuGet
-      uses: NuGet/setup-nuget@v1
+      - name: Setup NuGet
+        uses: NuGet/setup-nuget@v1
 
-    - name: Pack NuGet
-      run: nuget pack NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec -OutputDirectory NugetFolder/out
+      - name: Pack NuGet
+        run: nuget pack NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec -OutputDirectory NugetFolder/out
 
-    - name: Publish to NuGet
-      if: github.event_name == 'release'
-      run: nuget push NugetFolder/out/BaHooo.ReSharper.I18n.ru.*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
+      - name: Publish to NuGet
+        if: github.event_name == 'release'
+        run: nuget push NugetFolder/out/BaHooo.ReSharper.I18n.ru.*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v4
-      with:
-        name: BaHooo.ReSharper.I18n.ru.nupkg
-        path: NugetFolder/out/*.nupkg
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: BaHooo.ReSharper.I18n.ru.nupkg
+          path: NugetFolder/out/*.nupkg
 
-    - name: Log release info
+      - name: Log release info
         run: |
-            $prevTag = git describe --tags --abbrev=0
-            $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
-            Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 NuGet package published: $currTag"
-            Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
-
+          $prevTag = git describe --tags --abbrev=0
+          $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
+          Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 NuGet package published: $currTag"
+          Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
