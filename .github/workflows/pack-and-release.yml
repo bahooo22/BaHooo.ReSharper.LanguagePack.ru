@@ -31,22 +31,21 @@ jobs:
             run: nuget restore || echo "no solution to restore"
         
         
-        -   name: Build and pack
-            run: |
-                powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Version ${{ github.event.release.tag_name || '2025.11.27' }} -Output artifacts
+        -   name: Build and pack 
+            run: | powershell -NoProfile -ExecutionPolicy Bypass -File NugetFolder/JetBrains.I18n.ru/build.ps1 -Version ${{ github.event.release.tag_name || '2025.11.27' }} -Output artifacts
         
         
         -   name: Upload artifact
             uses: actions/upload-artifact@v4
             with:
                 name: JetBrains.I18n.ru.nupkg
-                path: artifacts/*.nupkg
+                path: NugetFolder/JetBrains.I18n.ru/artifacts/*.nupkg
         
         
         -   name: Create release and attach package (optional)
             if: github.event_name == 'release'
             uses: softprops/action-gh-release@v1
             with:
-                files: artifacts/*.nupkg
+                files: NugetFolder/JetBrains.I18n.ru/artifacts/*.nupkg
             env:
                 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
