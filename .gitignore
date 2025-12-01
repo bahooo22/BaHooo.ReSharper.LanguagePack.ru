@@ -461,3 +461,4 @@ models/opus-mt-en-ru/pytorch_model.bin
 models/opus-mt-en-ru/generation_config.json
 models/opus-mt-en-ru/config.json
 models/opus-mt-en-ru/.gitattributes
+NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec.bak
