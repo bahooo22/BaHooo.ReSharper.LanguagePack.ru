@@ -478,7 +478,7 @@
   <value>Прокрутить к трассировке стека</value>
 </data>
 <data name="FindIssuesActionText" xml:space="preserve">
-  <value>Найти проблемы…</value>
+  <value>Найти проблемы...</value>
 </data>
 <data name="IssueSummary_SqlCommandDuration_MaxExecuted_Template" xml:space="preserve">
   <value>Макс.: {0}, общее время {1}</value>
@@ -541,7 +541,7 @@
   <value>ASP</value>
 </data>
 <data name="IssuesToolWindow_WaitingForIssues" xml:space="preserve">
-  <value>Ожидание данных…</value>
+  <value>Ожидание данных...</value>
 </data>
 <data name="IssueNode_Max" xml:space="preserve">
   <value>Макс.: </value>
@@ -763,7 +763,7 @@
   <value>Подавить проблему: {0:N0} записей БД</value>
 </data>
 <data name="Ignore_LearnMoreActionText" xml:space="preserve">
-  <value>Узнать больше…</value>
+  <value>Узнать больше...</value>
 </data>
 <data name="ShowStacktraceActionText" xml:space="preserve">
   <value>Показать трассировку стека</value>

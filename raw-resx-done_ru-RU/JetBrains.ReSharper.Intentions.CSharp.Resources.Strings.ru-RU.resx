@@ -169,7 +169,7 @@
     <value>Удалить избыточный spread-элемент</value>
 </data>
 <data name="DelegateImplementationTo_Text" xml:space="preserve">
-    <value>Делегировать реализацию…</value>
+    <value>Делегировать реализацию...</value>
 </data>
 <data name="CheckStringBuilderIndexValueContextAction_Description" xml:space="preserve">
     <value>Проверить значение индекса для 'StringBuilder'</value>
@@ -523,7 +523,7 @@
     <value>Проверить, выходит ли числовой параметр за пределы диапазона</value>
 </data>
 <data name="RunningEvaluation_Text" xml:space="preserve">
-    <value>Выполняется оценка…</value>
+    <value>Выполняется оценка...</value>
 </data>
 <data name="CopyDocumentationFromBase_Text" xml:space="preserve">
     <value>Скопировать документацию из базового</value>
@@ -1270,7 +1270,7 @@
     <value>Включить проверку "Обязательные фигурные скобки в операторе 'do-while'"</value>
 </data>
 <data name="ImportMethod_MultipleChoices_Text" xml:space="preserve">
-    <value>Импортировать метод '{0}' (множественный выбор…)?</value>
+    <value>Импортировать метод '{0}' (множественный выбор...)?</value>
 </data>
 <data name="PullInitializerExpressionToUsage_Text" xml:space="preserve">
     <value>Перетащить выражение инициализатора в место использования</value>
@@ -1372,7 +1372,7 @@
     <value>Использовать явное объявление отбрасывания</value>
 </data>
 <data name="TransformParameters_Text" xml:space="preserve">
-    <value>Трансформировать параметры…</value>
+    <value>Трансформировать параметры...</value>
 </data>
 <data name="RemoveAllEmptyInitializers_Text" xml:space="preserve">
     <value>Удалить все пустые инициализаторы</value>
@@ -1531,7 +1531,7 @@
     <value>Удалить оператор 'if'</value>
 </data>
 <data name="ConvertToPropertyDots_Text" xml:space="preserve">
-    <value>Преобразовать в свойство…</value>
+    <value>Преобразовать в свойство...</value>
 </data>
 <data name="CreateDelegate__Text" xml:space="preserve">
     <value>Создать делегат '{0}'</value>
@@ -1771,7 +1771,7 @@
     <value>Добавить синтаксис отбрасывания (discard)</value>
 </data>
 <data name="GenerateTypePatterns_Text" xml:space="preserve">
-    <value>Сгенерировать шаблоны типов…</value>
+    <value>Сгенерировать шаблоны типов...</value>
 </data>
 <data name="CopyElementsBeforeEnumerationFix_Text" xml:space="preserve">
     <value>Скопировать элементы в список перед перечислением</value>
@@ -2902,7 +2902,7 @@
     <value>Удалить избыточное ключевое слово 'abstract' в объявлении интерфейса</value>
 </data>
 <data name="GenerateTryCatchBlock_Text" xml:space="preserve">
-    <value>Сгенерировать блок try-catch…</value>
+    <value>Сгенерировать блок try-catch...</value>
 </data>
 <data name="UseImplicitDiscardDeclarationContextAction_Name" xml:space="preserve">
     <value>Использовать неявное отбрасываемое объявление</value>
@@ -2947,7 +2947,7 @@
     <value>Преобразовать обычную или буквальную строку в выражение интерполяции строки соответствующего вида</value>
 </data>
 <data name="CopyType_Text" xml:space="preserve">
-    <value>Копировать тип…</value>
+    <value>Копировать тип...</value>
 </data>
 <data name="CreatePrimaryConstructorParameter_AndPull_Text" xml:space="preserve">
     <value>Создать параметр первичного конструктора '{0}' в содержащем{1} '{2}' и извлечь</value>
@@ -3163,7 +3163,7 @@
     <value>Инициализатор массива</value>
 </data>
 <data name="ExtractMethod_Text" xml:space="preserve">
-    <value>Извлечь метод…</value>
+    <value>Извлечь метод...</value>
 </data>
 <data name="ConvertExtensionBlockToClassicExtensionMethods_Description" xml:space="preserve">
     <value>Преобразовать методы расширения из блока расширений C# 14 в классические методы расширения</value>
@@ -3196,7 +3196,7 @@
     <value>Преобразовать в инициализатор коллекции</value>
 </data>
 <data name="ModifyingSourceCode_Text" xml:space="preserve">
-    <value>Изменение исходного кода…</value>
+    <value>Изменение исходного кода...</value>
 </data>
 <data name="ToPropertyWithFieldKeyword_Text" xml:space="preserve">
     <value>Преобразовать в свойство с ключевым словом 'field'</value>
@@ -3391,7 +3391,7 @@
     <value>Перечислить в список</value>
 </data>
 <data name="AssumingThatTypeHierarchyInSolution_Text" xml:space="preserve">
-    <value>… предполагая, что в решении имеется замкнутая иерархия типов</value>
+    <value>... предполагая, что в решении имеется замкнутая иерархия типов</value>
 </data>
 <data name="ChangeTypeOfArrayElementsTo__Text" xml:space="preserve">
     <value>Изменить тип элементов массива на '{0}'</value>
@@ -3655,7 +3655,7 @@
     <value>Сделать содержащий член не readonly</value>
 </data>
 <data name="EvaluatingExpression_Text" xml:space="preserve">
-    <value>Вычисление выражения…</value>
+    <value>Вычисление выражения...</value>
 </data>
 <data name="PrimaryConstructorParameters_Text" xml:space="preserve">
     <value>Параметры первичного конструктора</value>
@@ -3793,7 +3793,7 @@
     <value>Заставить{0}расширять '{1}'</value>
 </data>
 <data name="ChangeSignature_Text" xml:space="preserve">
-    <value>Изменить сигнатуру…</value>
+    <value>Изменить сигнатуру...</value>
 </data>
 <data name="ConvertToMultiLineRawStringContextAction_Text" xml:space="preserve">
     <value>Преобразовать в многострочную сырую строку</value>
@@ -3859,7 +3859,7 @@
     <value>Отсортировать модификаторы</value>
 </data>
 <data name="CompilingExpression_Text" xml:space="preserve">
-    <value>Компиляция выражения…</value>
+    <value>Компиляция выражения...</value>
 </data>
 <data name="ToOrdinaryLocalVariable_Text" xml:space="preserve">
     <value>Преобразовать в обычную локальную переменную</value>
@@ -4226,7 +4226,7 @@
   <value>Преобразовать в пользовательскую реализацию события</value>
 </data>
 <data name="ImportExtensionMethod_Text" xml:space="preserve">
-  <value>Импортировать метод расширения…</value>
+  <value>Импортировать метод расширения...</value>
 </data>
 <data name="ForAllParametersOf__Text" xml:space="preserve">
   <value>Для всех параметров{0} '{1}'</value>
@@ -4643,7 +4643,7 @@
   <value>Заменить оператор 'if' на распространение null</value>
 </data>
 <data name="ConfigureNullCheckPattern_Text" xml:space="preserve">
-  <value>Настроить шаблон проверки на null…</value>
+  <value>Настроить шаблон проверки на null...</value>
 </data>
 <data name="AddTupleComponentNames_Text" xml:space="preserve">
   <value>Добавить имена компонентов кортежа</value>
@@ -4718,7 +4718,7 @@
   <value>Интерфейс</value>
 </data>
 <data name="RelaTionalComparer_Caption" xml:space="preserve">
-  <value>Реляционный компаратор(&amp;T)</value>
+  <value>Реляционный компаратор &amp;T)</value>
 </data>
 <data name="ConvertAllObjectInitializersToConstructors_Text" xml:space="preserve">
   <value>Преобразовать все инициализаторы объектов в конструкторы с параметрами</value>
@@ -5051,7 +5051,7 @@
   <value>Закомментировать присваивание</value>
 </data>
 <data name="ConvertToSwitchExpressionDots_Text" xml:space="preserve">
-  <value>Преобразовать в выражение 'switch'…</value>
+  <value>Преобразовать в выражение 'switch'...</value>
 </data>
 <data name="AlignmentConstantWillBeInlined_Hint" xml:space="preserve">
   <value> (константа выравнивания будет встроена)</value>
@@ -5186,7 +5186,7 @@
   <value>Предложить включить проверку "Требовать фигурные скобки в операторе 'if'", когда текстовый курсор находится на ключевых словах 'if', 'else'</value>
 </data>
 <data name="EqualityCoMparer_Caption" xml:space="preserve">
-  <value>Компаратор равенства(&amp;M)</value>
+  <value>Компаратор равенства &amp;M)</value>
 </data>
 <data name="RemoveRedundant_Modifier_Text" xml:space="preserve">
   <value>Удалить избыточный модификатор '{0}'</value>
@@ -5270,7 +5270,7 @@
   <value>Пессимистичный</value>
 </data>
 <data name="AssumingThatTypesCanBeExtendedByExternal_Text" xml:space="preserve">
-  <value>… предполагая, что типы могут быть расширены внешним кодом</value>
+  <value>... предполагая, что типы могут быть расширены внешним кодом</value>
 </data>
 <data name="DisableMutableFieldsReplacement_Text" xml:space="preserve">
   <value>Отключить замену изменяемых полей</value>
@@ -5384,7 +5384,7 @@
   <value>Преобразовать в 'for'</value>
 </data>
 <data name="ReferenceAndImportExtensionMethod_Text" xml:space="preserve">
-  <value>Сослаться и импортировать метод расширения…</value>
+  <value>Сослаться и импортировать метод расширения...</value>
 </data>
 <data name="ToRawInterpolation_Text" xml:space="preserve">
   <value>Преобразовать в необработанную интерполяцию</value>
@@ -5447,7 +5447,7 @@
   <value>Проверить значение индекса коллекции</value>
 </data>
 <data name="ConfigureAssertionPattern_Text" xml:space="preserve">
-  <value>Настроить шаблон утверждения…</value>
+  <value>Настроить шаблон утверждения...</value>
 </data>
 <data name="MakeOperationTwoWay_Text" xml:space="preserve">
   <value>Удалить контракт 'IsOneWay=true'</value>
@@ -5804,7 +5804,7 @@
   <value>Преобразовать итератор в метод или свойство с заполнением List&lt;T&gt; или возвратом массива</value>
 </data>
 <data name="PresentingResult_Text" xml:space="preserve">
-  <value>Отображение результата…</value>
+  <value>Отображение результата...</value>
 </data>
 <data name="ConvertIfStatementTo_ConditionalExpressionContextAction_Description" xml:space="preserve">
   <value>Применяется к операторам 'if', которые возвращают значение или выполняют присваивание в каждой ветви. Преобразует оператор в условное выражение ('x ? a : b').</value>
@@ -5963,7 +5963,7 @@
   <value>Разделить логический шаблон 'and' на серию выражений 'is' или охранных выражений</value>
 </data>
 <data name="ConvertToMethod_Text" xml:space="preserve">
-  <value>Преобразовать в метод…</value>
+  <value>Преобразовать в метод...</value>
 </data>
 <data name="ToConditionalAccess_Text" xml:space="preserve">
   <value>Преобразовать в условный доступ</value>
@@ -6320,7 +6320,7 @@
   <value>Утверждать, что ссылка не равна null</value>
 </data>
 <data name="ConvertToSwitchStatementDots_Text" xml:space="preserve">
-  <value>Преобразовать в оператор 'switch'…</value>
+  <value>Преобразовать в оператор 'switch'...</value>
 </data>
 <data name="OptimizeElse_Text" xml:space="preserve">
   <value>Оптимизировать 'else'</value>

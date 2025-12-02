@@ -153,7 +153,7 @@
   <value>Примечание: Если плагин находится в проекте Engine и движок предварительно собран (например, установлен через Epic Games Launcher), он всегда будет устанавливать RiderLink, а не извлекать</value>
 </data>
 <data name="PathContainsNonASCIICharactersBuild_Text" xml:space="preserve">
-  <value>Путь содержит не-ASCII символы, что может привести к сбою сборки. Измените временный каталог или используйте действие «Извлечь RiderLink…».</value>
+  <value>Путь содержит не-ASCII символы, что может привести к сбою сборки. Измените временный каталог или используйте действие «Извлечь RiderLink...».</value>
 </data>
 <data name="InstallRiderLinkPluginInGameDescription_Text" xml:space="preserve">
   <value>Установить плагин RiderLink в каждую доступную игру в решении. Если Rider не сможет установить плагин RiderLink в какой-либо игровой проект, он откатит процесс установки.</value>
@@ -226,7 +226,7 @@
   <value>Извлечь RiderLink в игре</value>
 </data>
 <data name="RiderLinkInstallationIsInProgress_Text" xml:space="preserve">
-  <value>Идет установка…</value>
+  <value>Идет установка...</value>
 </data>
 <data name="RefreshProjectsAfterRiderLinkInstallation_Text" xml:space="preserve">
   <value>Обновлять проекты после установки RiderLink</value>

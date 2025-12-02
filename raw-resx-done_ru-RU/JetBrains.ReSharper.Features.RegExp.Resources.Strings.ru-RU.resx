@@ -352,7 +352,7 @@
   <value>Негативная группа символов</value>
 </data>
 <data name="RegexOption_ExplicitCapture_Description" xml:space="preserve">
-  <value>Указывает, что допустимыми захватами являются только явно именованные группы или нумерованные группы вида (?&lt;name&gt;…)</value>
+  <value>Указывает, что допустимыми захватами являются только явно именованные группы или нумерованные группы вида (?&lt;name&gt;...)</value>
 </data>
 <data name="FixRegularExpressionContextAction_Name" xml:space="preserve">
   <value>Исправить регулярное выражение</value>

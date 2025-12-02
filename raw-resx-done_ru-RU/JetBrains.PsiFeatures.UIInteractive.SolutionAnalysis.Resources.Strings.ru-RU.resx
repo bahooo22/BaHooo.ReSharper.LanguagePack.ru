@@ -139,7 +139,7 @@
   <value>Не удалось загрузить кэш анализа решения – невозможно записать в директорию кэша</value>
 </data>
 <data name="SolutionErrorsActionText" xml:space="preserve">
-  <value>Ошибки решения(&amp;E)</value>
+  <value>Ошибки решения &amp;E)</value>
 </data>
 <data name="LoadingPaused_Text" xml:space="preserve">
   <value>Загрузка приостановлена</value>
@@ -217,7 +217,7 @@
   <value>Папка не существует</value>
 </data>
 <data name="AnalyzingFile_Text" xml:space="preserve">
-  <value>Анализ файла…</value>
+  <value>Анализ файла...</value>
 </data>
 <data name="SelectedIssueTypes_Text" xml:space="preserve">
   <value>Выбранные типы проблем</value>
@@ -247,7 +247,7 @@
   <value>Результаты инспекции</value>
 </data>
 <data name="StopIgnoringErrorSPopupActionText" xml:space="preserve">
-  <value>Прекратить игнорировать ошибки(&amp;S)</value>
+  <value>Прекратить игнорировать ошибки &amp;S)</value>
 </data>
 <data name="Errors_Text" xml:space="preserve">
   <value>Ошибки</value>
@@ -259,7 +259,7 @@
   <value>Показывать только {0}</value>
 </data>
 <data name="SaveIssuesReportActionText" xml:space="preserve">
-  <value>Сохранить отчет о проблемах…</value>
+  <value>Сохранить отчет о проблемах...</value>
 </data>
 <data name="SolutionWideAnalysis_Text" xml:space="preserve">
   <value>Анализ решения</value>
@@ -280,7 +280,7 @@
   <value>Файлы</value>
 </data>
 <data name="FindSimilarIssuesInCustomScope_Text" xml:space="preserve">
-  <value>Найти похожие проблемы в пользовательской области…</value>
+  <value>Найти похожие проблемы в пользовательской области...</value>
 </data>
 <data name="Defaults_Button_Text" xml:space="preserve">
   <value>По умолчанию</value>
@@ -289,7 +289,7 @@
   <value> ({0} {1})</value>
 </data>
 <data name="LoadingAnalysisResults__Text" xml:space="preserve">
-  <value>Загрузка результатов анализа… – {0:P0}</value>
+  <value>Загрузка результатов анализа... – {0:P0}</value>
 </data>
 <data name="IncludeWarningsActionText" xml:space="preserve">
   <value>Включая предупреждения</value>
@@ -319,7 +319,7 @@
   <value>Проблемы '{0}'</value>
 </data>
 <data name="FilterIssuesActionText" xml:space="preserve">
-  <value>Фильтровать проблемы…</value>
+  <value>Фильтровать проблемы...</value>
 </data>
 <data name="IgnoreAllSuchErrorsActionText" xml:space="preserve">
   <value>Игнорировать все подобные ошибки</value>
@@ -331,7 +331,7 @@
   <value>Показать представление ошибок</value>
 </data>
 <data name="LoadSavedIssuesReportActionText" xml:space="preserve">
-  <value>Загрузить сохраненный отчет о проблемах…</value>
+  <value>Загрузить сохраненный отчет о проблемах...</value>
 </data>
 <data name="CodeIssues_Text" xml:space="preserve">
   <value>Проблемы кода</value>
@@ -400,7 +400,7 @@
   <value>Найдено {0} {1}</value>
 </data>
 <data name="Customize_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="ReanalyzeAllActionText" xml:space="preserve">
   <value>Переанализировать все</value>

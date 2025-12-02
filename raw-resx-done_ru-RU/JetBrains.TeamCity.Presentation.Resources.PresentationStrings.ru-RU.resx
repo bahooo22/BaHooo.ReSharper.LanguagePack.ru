@@ -226,7 +226,7 @@
   <value>Сравнить с последней версией</value>
 </data>
 <data name="RemoteRun_CommitActionText" xml:space="preserve">
-  <value>Зафиксировать…</value>
+  <value>Зафиксировать...</value>
 </data>
 <data name="Svn_EnableSubversionSupport_BoolOption_Text" xml:space="preserve">
   <value>Включить поддержку Subversion</value>
@@ -256,7 +256,7 @@
   <value>Обновить</value>
 </data>
 <data name="RemoteRun_CustomizeBuildActionText" xml:space="preserve">
-  <value>Настроить сборку…</value>
+  <value>Настроить сборку...</value>
 </data>
 <data name="Perforce_ConnectionSettings_Header_Text" xml:space="preserve">
   <value>Настройки подключения</value>
@@ -274,7 +274,7 @@
   <value>Шаблон сообщения коммита:</value>
 </data>
 <data name="Investigations_MarkInvestigationAsFixedActionText" xml:space="preserve">
-  <value>Пометить расследование как исправленное…</value>
+  <value>Пометить расследование как исправленное...</value>
 </data>
 <data name="Svn_LoginSettings_Header_Text" xml:space="preserve">
   <value>Настройки входа</value>
@@ -295,7 +295,7 @@
   <value>Включить интеграцию dotCover в ReSharper для настройки параметров dotCover в плагине TeamCity</value>
 </data>
 <data name="Common_TeamCityActionGroupText" xml:space="preserve">
-  <value>TeamCity(&amp;Y)</value>
+  <value>TeamCity &amp;Y)</value>
 </data>
 <data name="Perforce_SpecifiedManually_Text" xml:space="preserve">
   <value>Указано вручную:</value>
@@ -319,7 +319,7 @@
   <value>Использовать вертикальную компоновку</value>
 </data>
 <data name="Connect_LoginActionText" xml:space="preserve">
-  <value>Войти…</value>
+  <value>Войти...</value>
 </data>
 <data name="RemoteRun_PreviousBuildConfigurationsFormSettingsSettingDescription" xml:space="preserve">
   <value>Предыдущие настройки формы конфигураций сборки</value>
@@ -337,7 +337,7 @@
   <value>Снять все отметки</value>
 </data>
 <data name="ChangesView_CommitActionText" xml:space="preserve">
-  <value>Зафиксировать…</value>
+  <value>Зафиксировать...</value>
 </data>
 <data name="Svn_Autodetect_Button_Text" xml:space="preserve">
   <value>Автоопределение</value>
@@ -385,7 +385,7 @@
   <value>Включить поддержку Team Foundation Server</value>
 </data>
 <data name="RemoteRun_RevertActionText" xml:space="preserve">
-  <value>Откатить…</value>
+  <value>Откатить...</value>
 </data>
 <data name="Svn_SpecifiedManually_Text" xml:space="preserve">
   <value>Указано вручную:</value>
@@ -424,7 +424,7 @@
   <value>Использовать внешний инструмент для сравнения файлов:</value>
 </data>
 <data name="Investigations_GiveUpInvestigationActionText" xml:space="preserve">
-  <value>Прекратить расследование…</value>
+  <value>Прекратить расследование...</value>
 </data>
 <data name="Investigations_HideProblemsMarkedAsFixedActionText" xml:space="preserve">
   <value>Скрыть проблемы, помеченные как исправленные</value>

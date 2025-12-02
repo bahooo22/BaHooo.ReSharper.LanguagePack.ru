@@ -125,7 +125,7 @@
   <value>Выберите компонент для получения подробной информации</value>
 </data>
 <data name="AddFromFile_Text" xml:space="preserve">
-  <value>Добавить из файла…</value>
+  <value>Добавить из файла...</value>
 </data>
 <data name="DesignerToolboxManagerNetCoreStateSettingDescription" xml:space="preserve">
   <value>Состояние видимости Designer Toolbox Manager .NET Core</value>
@@ -251,7 +251,7 @@
   <value>Библиотеки и сборки</value>
 </data>
 <data name="AddActionText" xml:space="preserve">
-  <value>Добавить…</value>
+  <value>Добавить...</value>
 </data>
 <data name="AllLibraries_Text" xml:space="preserve">
   <value>Все библиотеки</value>
@@ -260,7 +260,7 @@
   <value>Открыть диспетчер компонентов</value>
 </data>
 <data name="ManageComponents_Text" xml:space="preserve">
-  <value>Управление компонентами…</value>
+  <value>Управление компонентами...</value>
 </data>
 <data name="Version_Text" xml:space="preserve">
   <value>Версия</value>
@@ -278,7 +278,7 @@
   <value>Глобальный кэш сборок</value>
 </data>
 <data name="RemoveActionText" xml:space="preserve">
-  <value>Удалить…</value>
+  <value>Удалить...</value>
 </data>
 <data name="NETCoreDefault_Text" xml:space="preserve">
   <value>Значение по умолчанию .NET Core</value>

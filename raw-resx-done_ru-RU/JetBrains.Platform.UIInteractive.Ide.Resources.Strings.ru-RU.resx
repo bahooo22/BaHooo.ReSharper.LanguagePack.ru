@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="PreparingData_Text" xml:space="preserve">
-  <value>Подготовка данных…</value>
+  <value>Подготовка данных...</value>
 </data>
 <data name="GetHelp" xml:space="preserve">
   <value>Получить справку</value>
@@ -149,13 +149,13 @@
   <value>Для поиска в следующий раз начинайте ввод, когда фокус находится в окне</value>
 </data>
 <data name="LoggerConfigurationActionText" xml:space="preserve">
-  <value>Настройка журналирования…</value>
+  <value>Настройка журналирования...</value>
 </data>
 <data name="ToggleAutoHideOfSearchBar_Tooltip" xml:space="preserve">
   <value>Переключить автоматическое скрытие панели поиска</value>
 </data>
 <data name="BusyIndicator_Text" xml:space="preserve">
-  <value>Загрузка…</value>
+  <value>Загрузка...</value>
 </data>
 <data name="AddReferenceTo__Text" xml:space="preserve">
   <value>Добавить ссылку на {0}</value>

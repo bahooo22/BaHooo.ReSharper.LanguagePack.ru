@@ -525,7 +525,7 @@
   <value>Настройки иерархии окружения. В Visual Studio это модель решения/проекта.</value>
 </data>
 <data name="CalculatingModifiedFiles_ToolTip" xml:space="preserve">
-  <value>Вычисление измененных файлов…</value>
+  <value>Вычисление измененных файлов...</value>
 </data>
 <data name="MachineSettingsBaseDir" xml:space="preserve">
   <value>Базовый каталог настроек машины</value>
@@ -663,7 +663,7 @@
   <value>&lt;Решение:{0}&gt;</value>
 </data>
 <data name="Canceling_Text" xml:space="preserve">
-  <value>Отмена…</value>
+  <value>Отмена...</value>
 </data>
 <data name="SmartRestoreOnBuildSettingDescription" xml:space="preserve">
   <value>Умное восстановление при сборке</value>

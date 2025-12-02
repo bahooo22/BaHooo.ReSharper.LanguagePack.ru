@@ -133,7 +133,7 @@
   <value>AI Assistant Pro</value>
 </data>
 <data name="EnterThePromptBody_Text" xml:space="preserve">
-  <value>Введите текст промпта…</value>
+  <value>Введите текст промпта...</value>
 </data>
 <data name="Accept_Text" xml:space="preserve">
   <value>Принять</value>
@@ -216,7 +216,7 @@
   <value>Войти с JetBrains Account</value>
 </data>
 <data name="UpgradeToAIProEllipsis_Text" xml:space="preserve">
-  <value>Обновить до AI Pro…</value>
+  <value>Обновить до AI Pro...</value>
 </data>
 <data name="Reprompt_Text" xml:space="preserve">
   <value>Повторный промпт</value>
@@ -276,7 +276,7 @@
   <value>Добавить новый промпт</value>
 </data>
 <data name="CollectingRelevantCode_Text" xml:space="preserve">
-  <value>Сбор релевантного кода…</value>
+  <value>Сбор релевантного кода...</value>
 </data>
 <data name="PreviousGeneratedResult_Text" xml:space="preserve">
   <value>Предыдущий сгенерированный результат</value>
@@ -300,7 +300,7 @@
   <value>Параметры по умолчанию</value>
 </data>
 <data name="Fetching_Text" xml:space="preserve">
-  <value>Получение…</value>
+  <value>Получение...</value>
 </data>
 <data name="PleaseMakeSureRegionChosenSettingsCorrect_Text" xml:space="preserve">
   <value>Убедитесь, что в настройках выбран правильный регион. Дополнительную информацию о доступности AI Assistant в разных регионах вы можете найти в документации.</value>
@@ -378,7 +378,7 @@
   <value>Копировать</value>
 </data>
 <data name="OpenAIAssistantOptions_Text" xml:space="preserve">
-  <value>Открыть настройки AI Assistant…</value>
+  <value>Открыть настройки AI Assistant...</value>
 </data>
 <data name="SuggestChatTitlesWithAI_Text" xml:space="preserve">
   <value>Предлагать названия чатов с помощью ИИ</value>
@@ -402,13 +402,13 @@
   <value>История чата скоро достигнет лимита</value>
 </data>
 <data name="HowToConfigureShortcuts_Text" xml:space="preserve">
-  <value>Как настроить сочетания клавиш…</value>
+  <value>Как настроить сочетания клавиш...</value>
 </data>
 <data name="Close_Text" xml:space="preserve">
   <value>Закрыть</value>
 </data>
 <data name="OpenLibrary_Text" xml:space="preserve">
-  <value>Открыть библиотеку…</value>
+  <value>Открыть библиотеку...</value>
 </data>
 <data name="InPlaceSuggestions_Text" xml:space="preserve">
   <value>Встроенные предложения</value>
@@ -417,7 +417,7 @@
   <value>В начале</value>
 </data>
 <data name="LoginInProgress_Text" xml:space="preserve">
-  <value>Выполняется вход…</value>
+  <value>Выполняется вход...</value>
 </data>
 <data name="ImproveYourPromptWithAI_Text" xml:space="preserve">
   <value>Улучшить промпт с помощью ИИ</value>
@@ -432,7 +432,7 @@
   <value>Статус подписки</value>
 </data>
 <data name="PromptLibrary" xml:space="preserve">
-  <value>Библиотека промптов (&amp;L)…</value>
+  <value>Библиотека промптов (&amp;L)...</value>
 </data>
 <data name="AIPromptLibrary_Text" xml:space="preserve">
   <value>Библиотека AI-промптов</value>
@@ -680,7 +680,7 @@
   <value>Скопировать этот код в буфер обмена</value>
 </data>
 <data name="AddsAIPoweredActionsSuchAsExplainOr_Text" xml:space="preserve">
-  <value>Добавляет AI-действия, такие как "Объяснить…" или "Найти проблему", в меню Alt+Enter, делясь выбранным кодом с AI-моделью</value>
+  <value>Добавляет AI-действия, такие как "Объяснить..." или "Найти проблему", в меню Alt+Enter, делясь выбранным кодом с AI-моделью</value>
 </data>
 <data name="EnableInEditorWriteDocumentation_Text" xml:space="preserve">
   <value>Включить внутриредакторное "Написать документацию"</value>
@@ -756,7 +756,7 @@
   <value>Ваш отзыв</value>
 </data>
 <data name="WaitingForSolution_Text" xml:space="preserve">
-  <value>Ожидание решения…</value>
+  <value>Ожидание решения...</value>
 </data>
 <data name="EnableAICodeCompletion_Text" xml:space="preserve">
   <value>Включить AI-завершение кода</value>
@@ -783,7 +783,7 @@
   <value>Недавние чаты</value>
 </data>
 <data name="Generating_Text" xml:space="preserve">
-  <value>Генерация…</value>
+  <value>Генерация...</value>
 </data>
 <data name="MessagesFactory_OnboardingMessage_ReSharperDisabled" xml:space="preserve">
   <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.
@@ -845,7 +845,7 @@
   <value>Большой</value>
 </data>
 <data name="ManageSubscriptionEllipsis_Text" xml:space="preserve">
-  <value>Управление подпиской…</value>
+  <value>Управление подпиской...</value>
 </data>
 <data name="AIAssistant_Text" xml:space="preserve">
   <value>AI Assistant</value>
@@ -857,7 +857,7 @@
   <value>Осталось {0}% лимита</value>
 </data>
 <data name="ConnectingToJetBrainsAI_Text" xml:space="preserve">
-  <value>Подключение к JetBrains AI…</value>
+  <value>Подключение к JetBrains AI...</value>
 </data>
 <data name="WelcomeToTheAIAssistantChatYourNewAssistantTerms_Text" xml:space="preserve">
   <value>Добро пожаловать в чат AI Assistant, вашего нового помощника для решения вопросов, связанных с программированием.

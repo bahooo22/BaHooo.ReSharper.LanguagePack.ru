@@ -154,13 +154,13 @@
   <value>Преобразовать в буквальную интерполяцию</value>
 </data>
 <data name="SearchingForUsagesOf__Text" xml:space="preserve">
-  <value>Поиск использований '{0}'…</value>
+  <value>Поиск использований '{0}'...</value>
 </data>
 <data name="TheProperty_IsNotPublicResourceAccess_Text" xml:space="preserve">
   <value>Свойство {0} не является public. Модификатор доступа к ресурсу должен быть public. Исправьте в редакторе управляемых ресурсов.</value>
 </data>
 <data name="UpdatingReferences_Text" xml:space="preserve">
-  <value>Обновление ссылок…</value>
+  <value>Обновление ссылок...</value>
 </data>
 <data name="LocalizableStringMessage" xml:space="preserve">
   <value>Локализуемая строка: '{0}'</value>

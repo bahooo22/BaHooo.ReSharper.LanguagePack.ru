@@ -529,7 +529,7 @@
   <value>Компонент модуля должен начинаться с /</value>
 </data>
 <data name="Configure_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="InvalidNumberOfArguments_IsExpected_Text" xml:space="preserve">
   <value>Недопустимое количество аргументов: ожидается {0}</value>

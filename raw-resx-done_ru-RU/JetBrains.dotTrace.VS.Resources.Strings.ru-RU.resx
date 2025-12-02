@@ -130,7 +130,7 @@
   <value>Общие</value>
 </data>
 <data name="RunApplicationPerformanceProfilingActionText" xml:space="preserve">
-  <value>Запустить профилирование производительности приложения (&amp;A)…</value>
+  <value>Запустить профилирование производительности приложения (&amp;A)...</value>
 </data>
 <data name="SamplingActionText" xml:space="preserve">
   <value>Сэмплирование</value>
@@ -148,7 +148,7 @@
   <value>DotInstantActivateNode</value>
 </data>
 <data name="RunStartupConfigurationPerformanceProfilingActionText" xml:space="preserve">
-  <value>Запустить профилирование производительности конфигурации запуска (&amp;S)…</value>
+  <value>Запустить профилирование производительности конфигурации запуска (&amp;S)...</value>
 </data>
 <data name="HelpContentsActionText" xml:space="preserve">
   <value>Содержание справки</value>
@@ -157,7 +157,7 @@
   <value>Подсистемы</value>
 </data>
 <data name="ReprocessTimelineSnapshot_ActionText" xml:space="preserve">
-  <value>Переобработать снимок…</value>
+  <value>Переобработать снимок...</value>
 </data>
 <data name="LineByLineActionText" xml:space="preserve">
   <value>Построчно</value>
@@ -190,7 +190,7 @@
   <value>Открыть в Visual Studio</value>
 </data>
 <data name="OpenTimelineSnapshot_ActionText" xml:space="preserve">
-  <value>Открыть снимок…</value>
+  <value>Открыть снимок...</value>
 </data>
 <data name="DotInstantOptionPageTitle" xml:space="preserve">
   <value>dotInstant</value>

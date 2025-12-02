@@ -130,16 +130,16 @@
   <value>Не удается разрешить свойство</value>
 </data>
 <data name="ExportingResourceItem_Of__Text" xml:space="preserve">
-  <value>Экспорт элемента ресурса {0:N0} из {1:N0}…</value>
+  <value>Экспорт элемента ресурса {0:N0} из {1:N0}...</value>
 </data>
 <data name="ExportToCSV_Text" xml:space="preserve">
   <value>Экспорт в CSV</value>
 </data>
 <data name="InLineResource_Text" xml:space="preserve">
-  <value>Встроить ресурс(&amp;L)</value>
+  <value>Встроить ресурс &amp;L)</value>
 </data>
 <data name="RenamingDeclarations_Text" xml:space="preserve">
-  <value>Переименование объявлений…</value>
+  <value>Переименование объявлений...</value>
 </data>
 <data name="ModifyingResourceFile_Text" xml:space="preserve">
   <value>Изменение файла ресурсов</value>
@@ -157,7 +157,7 @@
   <value>Вставить</value>
 </data>
 <data name="InitializingRefactoring_Text" xml:space="preserve">
-  <value>Инициализация рефакторинга…</value>
+  <value>Инициализация рефакторинга...</value>
 </data>
 <data name="ResourceItemWithThisNameAlreadyExists_Text" xml:space="preserve">
   <value>Элемент ресурса с таким именем уже существует</value>
@@ -166,7 +166,7 @@
   <value>Отключенные языки</value>
 </data>
 <data name="SearchingForResourceUsages_Text" xml:space="preserve">
-  <value>Поиск использований ресурса…</value>
+  <value>Поиск использований ресурса...</value>
 </data>
 <data name="ErrorWhileModifyingTheResourceFile_Text" xml:space="preserve">
   <value>Ошибка при изменении файла ресурсов</value>
@@ -187,7 +187,7 @@
   <value>Встроить все использования(_A)</value>
 </data>
 <data name="SaFeDeleteResource_Text" xml:space="preserve">
-  <value>Безопасное удаление ресурса(&amp;F)</value>
+  <value>Безопасное удаление ресурса &amp;F)</value>
 </data>
 <data name="RenamingResource_Text" xml:space="preserve">
   <value>Переименование ресурса</value>
@@ -202,7 +202,7 @@
   <value>Имя</value>
 </data>
 <data name="MoveToResource_Text" xml:space="preserve">
-  <value>Переместить в ресурс(&amp;M)</value>
+  <value>Переместить в ресурс &amp;M)</value>
 </data>
 <data name="LastResourceFileSettingDescription" xml:space="preserve">
   <value>Последний файл ресурсов</value>
@@ -223,7 +223,7 @@
   <value>Выберите путь к файлу и укажите параметры экспорта</value>
 </data>
 <data name="ReNameResource_Text" xml:space="preserve">
-  <value>Переименовать ресурс(&amp;N)</value>
+  <value>Переименовать ресурс &amp;N)</value>
 </data>
 <data name="DeclaredElementIsInvalid_Text" xml:space="preserve">
   <value>Объявленный элемент недействителен</value>
@@ -268,10 +268,10 @@
   <value>Выберите параметры</value>
 </data>
 <data name="ReadingCSV_Text" xml:space="preserve">
-  <value>Чтение CSV…</value>
+  <value>Чтение CSV...</value>
 </data>
 <data name="InliningUsages_Text" xml:space="preserve">
-  <value>Встраивание использований…</value>
+  <value>Встраивание использований...</value>
 </data>
 <data name="CannotApplyRefactoringToInvalidElement_Text" xml:space="preserve">
   <value>Не удается применить рефакторинг к недействительному элементу</value>
@@ -292,10 +292,10 @@
   <value>Открыть</value>
 </data>
 <data name="InlineActionText" xml:space="preserve">
-  <value>Встроить…</value>
+  <value>Встроить...</value>
 </data>
 <data name="AddNewActionText" xml:space="preserve">
-  <value>Добавить…</value>
+  <value>Добавить...</value>
 </data>
 <data name="File__Text" xml:space="preserve">
   <value>Файл {0}</value>
@@ -313,7 +313,7 @@
   <value>Редактор Resx</value>
 </data>
 <data name="BaseResourceSymbols_Caption" xml:space="preserve">
-  <value>Базовые символы ресурсов(&amp;B)</value>
+  <value>Базовые символы ресурсов &amp;B)</value>
 </data>
 <data name="LocalizationOptionPageTitle" xml:space="preserve">
   <value>Локализация</value>
@@ -325,10 +325,10 @@
   <value>Не удается разрешить свойство</value>
 </data>
 <data name="ProcessingReferences_Text" xml:space="preserve">
-  <value>Обработка ссылок…</value>
+  <value>Обработка ссылок...</value>
 </data>
 <data name="SearchingForIdenticalItems_Text" xml:space="preserve">
-  <value>Поиск идентичных элементов…</value>
+  <value>Поиск идентичных элементов...</value>
 </data>
 <data name="CopyActionText" xml:space="preserve">
   <value>Копировать</value>
@@ -349,7 +349,7 @@
   <value>Здесь допускаются только имена public свойств</value>
 </data>
 <data name="ExportingResourceItemsToCSV_Text" xml:space="preserve">
-  <value>Экспорт элементов ресурса в CSV…</value>
+  <value>Экспорт элементов ресурса в CSV...</value>
 </data>
 <data name="ValueValue_Text_Text" xml:space="preserve">
   <value>$Value$ - значение</value>
@@ -364,7 +364,7 @@
   <value>Показывать только проблемы</value>
 </data>
 <data name="ImportingResourceItems_Text" xml:space="preserve">
-  <value>Импорт элементов ресурса…</value>
+  <value>Импорт элементов ресурса...</value>
 </data>
 <data name="OrderByResourceFileKeyActionText" xml:space="preserve">
   <value>Сортировать по ключу файла ресурсов</value>
@@ -391,7 +391,7 @@
   <value>Имя(_M)</value>
 </data>
 <data name="MoveActionText" xml:space="preserve">
-  <value>Переместить…</value>
+  <value>Переместить...</value>
 </data>
 <data name="Separator_Semicolon_Text" xml:space="preserve">
   <value>Точка с запятой(_S)</value>
@@ -439,10 +439,10 @@
   <value>Добавить новую культуру</value>
 </data>
 <data name="ReplacingExistingItem_Text" xml:space="preserve">
-  <value>Замена существующего элемента…</value>
+  <value>Замена существующего элемента...</value>
 </data>
 <data name="AddingNewItem_Text" xml:space="preserve">
-  <value>Добавление нового элемента…</value>
+  <value>Добавление нового элемента...</value>
 </data>
 <data name="ThisProjectDoesNotContainAnAvailable_Text" xml:space="preserve">
   <value>Этот проект не содержит доступного файла ресурсов</value>
@@ -457,7 +457,7 @@
   <value>Не удается добавить элемент в файл ресурсов.</value>
 </data>
 <data name="RunningCustomTools_Text" xml:space="preserve">
-  <value>Запуск пользовательских инструментов…</value>
+  <value>Запуск пользовательских инструментов...</value>
 </data>
 <data name="ValueFor_IsMissing_Text" xml:space="preserve">
   <value>Отсутствует значение для {0}</value>
@@ -481,7 +481,7 @@
   <value>Показывать только локализуемые строковые ресурсы</value>
 </data>
 <data name="ImportingResourceItem_Of__Text" xml:space="preserve">
-  <value>Импорт элемента ресурса {0:N0} из {1:N0}…</value>
+  <value>Импорт элемента ресурса {0:N0} из {1:N0}...</value>
 </data>
 <data name="LocalizableInspectorDescription_Text" xml:space="preserve">
   <value>Пессимистично: анализировать все возможные элементы. Оптимистично: анализировать только локализуемые элементы.</value>
@@ -505,7 +505,7 @@
   <value>Будут экспортированы только локализуемые строковые ресурсы</value>
 </data>
 <data name="MoveResource_Text" xml:space="preserve">
-  <value>Переместить ресурс(&amp;M)</value>
+  <value>Переместить ресурс &amp;M)</value>
 </data>
 <data name="OrderByFullPathSettingDescription" xml:space="preserve">
   <value>Сортировать по полному пути</value>
@@ -517,7 +517,7 @@
   <value>{0}  ++•  Отсутствует++</value>
 </data>
 <data name="Processing__Text" xml:space="preserve">
-  <value>Обработка {0}…</value>
+  <value>Обработка {0}...</value>
 </data>
 <data name="Apply_filters_Text" xml:space="preserve">
   <value>Применить фильтры(_F)</value>
@@ -526,13 +526,13 @@
   <value>Выберите целевой файл ресурсов и при необходимости измените целевое имя ресурса</value>
 </data>
 <data name="RenameActionText" xml:space="preserve">
-  <value>Переименовать…</value>
+  <value>Переименовать...</value>
 </data>
 <data name="AddNewResource_Caption" xml:space="preserve">
   <value>Добавить новый ресурс</value>
 </data>
 <data name="RunningCustomTool_Text" xml:space="preserve">
-  <value>Запуск пользовательского инструмента…</value>
+  <value>Запуск пользовательского инструмента...</value>
 </data>
 <data name="SpecifyANewNameForTheResource_Text" xml:space="preserve">
   <value>Укажите новое имя для ресурса</value>
@@ -550,7 +550,7 @@
   <value>Имя записи ресурса по умолчанию</value>
 </data>
 <data name="ResourceValueActionText" xml:space="preserve">
-  <value>Значение ресурса…</value>
+  <value>Значение ресурса...</value>
 </data>
 <data name="Find_identicalItemsIn_Text" xml:space="preserve">
   <value>Найти идентичные элементы в(_I)</value>
@@ -571,7 +571,7 @@
   <value>Перемещать ли похожие элементы</value>
 </data>
 <data name="DeriVedResources_Caption" xml:space="preserve">
-  <value>Производные ресурсы(&amp;V)</value>
+  <value>Производные ресурсы &amp;V)</value>
 </data>
 <data name="IdenticalStringsFound_Text" xml:space="preserve">
   <value>Найдены идентичные строки</value>
@@ -589,10 +589,10 @@
   <value>Инициализировано</value>
 </data>
 <data name="SafeDeleteActionText" xml:space="preserve">
-  <value>Безопасное удаление…</value>
+  <value>Безопасное удаление...</value>
 </data>
 <data name="MovingResourceItemsToTargetFile_Text" xml:space="preserve">
-  <value>Перемещение элементов ресурса в целевой файл…</value>
+  <value>Перемещение элементов ресурса в целевой файл...</value>
 </data>
 <data name="ValueFor_HasBeenRemovedByUser_Text" xml:space="preserve">
   <value>Значение {0} было удалено пользователем</value>
@@ -616,10 +616,10 @@
   <value>Выберите путь к файлу и укажите параметры импорта</value>
 </data>
 <data name="RollingBackChanges_Text" xml:space="preserve">
-  <value>Откат изменений…</value>
+  <value>Откат изменений...</value>
 </data>
 <data name="RemovingResourceItems_Text" xml:space="preserve">
-  <value>Удаление элементов ресурса…</value>
+  <value>Удаление элементов ресурса...</value>
 </data>
 <data name="_IgnoreEmptyValues_Text" xml:space="preserve">
   <value>Игнорировать пустые значения(_I)</value>
@@ -637,7 +637,7 @@
   <value>Запятая(_C)</value>
 </data>
 <data name="ResourceImpLementation_Caption" xml:space="preserve">
-  <value>Реализация ресурса(&amp;L)</value>
+  <value>Реализация ресурса &amp;L)</value>
 </data>
 <data name="LocalizableDescription_Text" xml:space="preserve">
   <value>Включить или отключить функции локализации для текущего проекта. По умолчанию ReSharper выделяет локализуемые элементы, только если в проекте есть один или несколько файлов ресурсов.</value>

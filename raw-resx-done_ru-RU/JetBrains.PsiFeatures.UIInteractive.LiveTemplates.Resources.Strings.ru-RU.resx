@@ -133,7 +133,7 @@
   <value>Клонировать и редактировать шаблон</value>
 </data>
 <data name="TemplatesExplorerActionText" xml:space="preserve">
-  <value>Обозреватель шаблонов(&amp;T)…</value>
+  <value>Обозреватель шаблонов &amp;T)...</value>
 </data>
 <data name="ImportTemplates_Caption" xml:space="preserve">
   <value>Импорт шаблонов</value>
@@ -157,7 +157,7 @@
   <value>Контекстное меню папки</value>
 </data>
 <data name="ImportActionText" xml:space="preserve">
-  <value>Импорт…</value>
+  <value>Импорт...</value>
 </data>
 <data name="SuccessfullyImported___Text" xml:space="preserve">
   <value>Успешно импортировано {0} {1}</value>
@@ -166,13 +166,13 @@
   <value>Удалить</value>
 </data>
 <data name="ExportActionText" xml:space="preserve">
-  <value>Экспорт…</value>
+  <value>Экспорт...</value>
 </data>
 <data name="QuicklistItem_Text" xml:space="preserve">
   <value>Элемент быстрого списка</value>
 </data>
 <data name="ManageLayersActionText" xml:space="preserve">
-  <value>Управление слоями…</value>
+  <value>Управление слоями...</value>
 </data>
 <data name="FilterTemplatesActionGroupText" xml:space="preserve">
   <value>Фильтр шаблонов</value>
@@ -196,7 +196,7 @@
   <value>Подтверждение удаления</value>
 </data>
 <data name="NewCategoryActionText" xml:space="preserve">
-  <value>Новая категория…</value>
+  <value>Новая категория...</value>
 </data>
 <data name="Templates_Text" xml:space="preserve">
   <value>Шаблоны</value>

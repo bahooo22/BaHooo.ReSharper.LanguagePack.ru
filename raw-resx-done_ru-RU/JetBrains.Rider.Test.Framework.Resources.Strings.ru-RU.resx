@@ -127,7 +127,7 @@
   <value>Тестовое действие с прерыванием по требованию</value>
 </data>
 <data name="TestVerOfRefactorThisActionText" xml:space="preserve">
-  <value>Тестовая версия действия «Рефакторинг этого…»</value>
+  <value>Тестовая версия действия «Рефакторинг этого...»</value>
 </data>
 <data name="TestActionWithAcquiringWriteLockBeforeHandshakeActionText" xml:space="preserve">
   <value>Тестовое действие с получением блокировки записи перед handshake</value>

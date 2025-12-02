@@ -286,7 +286,7 @@
   <value>Удалить определение подсистемы</value>
 </data>
 <data name="Subsystems_OpenSettings_ContextMenuAction" xml:space="preserve">
-  <value>Редактировать…</value>
+  <value>Редактировать...</value>
 </data>
 <data name="SimpleRuleType_HasAssemblyAndNamespaceTemplate" xml:space="preserve">
   <value>Оба</value>

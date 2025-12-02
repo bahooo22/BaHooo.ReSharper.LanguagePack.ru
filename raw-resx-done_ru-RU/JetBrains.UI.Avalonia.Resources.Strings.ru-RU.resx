@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="Cancelling_Text" xml:space="preserve">
-  <value>Отмена…</value>
+  <value>Отмена...</value>
 </data>
 <data name="MessageBox_Ignore" xml:space="preserve">
   <value>Пропустить</value>
@@ -142,7 +142,7 @@
   <value>Аутентификация в браузере</value>
 </data>
 <data name="Calculating_Text" xml:space="preserve">
-  <value>Вычисление…</value>
+  <value>Вычисление...</value>
 </data>
 <data name="OpenActionText" xml:space="preserve">
   <value>&amp;Открыть</value>
@@ -154,10 +154,11 @@
   <value>Копировать</value>
 </data>
 <data name="PleaseWait_Text" xml:space="preserve">
-  <value>Пожалуйста, подождите…</value>
+  <value>Пожалуйста, подождите...</value>
 </data>
 <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
-  <value>Все права защищены. © {0} {1}</value>
+  <value>Все права защищены. © {0} {1}
+  Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
 </data>
 <data name="DialogOk" xml:space="preserve">
   <value>ОК</value>

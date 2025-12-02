@@ -160,7 +160,7 @@
   <value>Лицензия {0} не была автоматически продлена</value>
 </data>
 <data name="ManageOptionsActionText" xml:space="preserve">
-  <value>Управление параметрами(&amp;M)…</value>
+  <value>Управление параметрами (&amp;M)...</value>
 </data>
 <data name="AggressiveFiberUsageNumberOdFibersIsTwiceProcessorCount_Description_Text" xml:space="preserve">
   <value>Агрессивное использование файберов. Количество файберов в два раза превышает количество процессоров.</value>
@@ -286,7 +286,7 @@
   <value>Пользовательский интерфейс</value>
 </data>
 <data name="ImportFromFileActionText" xml:space="preserve">
-  <value>Импорт из файла…</value>
+  <value>Импорт из файла...</value>
 </data>
 <data name="IfGuardedActionExecutionTimeExceeds_Text" xml:space="preserve">
   <value>Если время выполнения защищенного действия превышает этот порог, будет записана ошибка.</value>
@@ -295,7 +295,7 @@
   <value>Справка</value>
 </data>
 <data name="AddGroupToEventsTestSchemeActionText" xml:space="preserve">
-  <value>Добавить группу в схему тестирования событий…</value>
+  <value>Добавить группу в схему тестирования событий...</value>
 </data>
 <data name="UserInterfaceSettings_IconThemeSelection" xml:space="preserve">
   <value>Выбор темы значков, используемой при отображении значков приложения</value>
@@ -364,7 +364,7 @@
   <value>Европа</value>
 </data>
 <data name="GotoProductTwitterActionText" xml:space="preserve">
-  <value>Перейти в Twitter продукта(&amp;T)</value>
+  <value>Перейти в Twitter продукта (&amp;T)</value>
 </data>
 <data name="UserIsInformedAboutSendingCodeToJetBrainsSettingDescription" xml:space="preserve">
   <value>Пользователь уведомлен об отправке узлов в JetBrains</value>
@@ -412,7 +412,7 @@
   <value>Лицензия {0} была назначена {1}</value>
 </data>
 <data name="ShowEnterLicenseAction_Text" xml:space="preserve">
-  <value>Сведения о лицензии(&amp;L)…</value>
+  <value>Сведения о лицензии (&amp;L)...</value>
 </data>
 <data name="ExtensionManagerProviderOptionsSettingDescription" xml:space="preserve">
   <value>Параметры провайдера менеджера расширений</value>
@@ -469,7 +469,7 @@
   <value>Скрытые бейджи на функциях и странице продукта</value>
 </data>
 <data name="ExportSVGActionText" xml:space="preserve">
-  <value>Экспорт SVG…</value>
+  <value>Экспорт SVG...</value>
 </data>
 <data name="YouAreGoingToRemoveThePluginThatIsCurrently_Text" xml:space="preserve">
   <value>Удаление плагина локализации сбросит язык пользовательского интерфейса на язык по умолчанию</value>
@@ -535,7 +535,7 @@
   <value>Индикатор использования памяти (в строке состояния)</value>
 </data>
 <data name="About___Text" xml:space="preserve">
-  <value>О {0} {1}(&amp;A)…</value>
+  <value>О {0} {1} (&amp;A)...</value>
 </data>
 <data name="SubmittingExceptions_Text" xml:space="preserve">
   <value>Отправка исключений</value>
@@ -638,7 +638,7 @@ URI: {1}
   <value>Не выбрана группа, в которую нужно добавить новый файловый слой</value>
 </data>
 <data name="OpenSettingsFileActionText" xml:space="preserve">
-  <value>Открыть файл настроек…</value>
+  <value>Открыть файл настроек...</value>
 </data>
 <data name="WhetherAutomaticCleanupAllowedSettingDescription" xml:space="preserve">
   <value>Разрешена ли автоматическая очистка</value>
@@ -653,7 +653,7 @@ URI: {1}
   <value>Нет новых токенов</value>
 </data>
 <data name="OptionsActionText" xml:space="preserve">
-  <value>Параметры(&amp;O)…</value>
+  <value>Параметры (&amp;O)...</value>
 </data>
 <data name="SubscriptionIsValidThrough__Text" xml:space="preserve">
   <value>. Подписка действительна до {0}</value>
@@ -756,7 +756,7 @@ URI: {1}
 Хотите попробовать перезагрузить?</value>
 </data>
 <data name="ExportToHTMLActionText" xml:space="preserve">
-  <value>Экспорт в HTML…</value>
+  <value>Экспорт в HTML...</value>
 </data>
 <data name="DoNotUseMultiCoreFibers_Description_Text" xml:space="preserve">
   <value>Не использовать многоядерные файберы</value>
@@ -801,7 +801,7 @@ URI: {1}
   <value>Отправляя форму, которая включает любые персональные данные или адрес электронной почты, вы подтверждаете, что JetBrains s.r.o. может обрабатывать предоставленные вами персональные данные для оказания поддержки и может привлекать к такому обработке &lt;a href="https://www.jetbrains.com/legal/docs/privacy/third-parties"&gt;третьи стороны&lt;/a&gt;. Для получения более подробной информации об этой обработке см. &lt;a href="https://www.jetbrains.com/legal/docs/privacy/privacy.html"&gt;Политику конфиденциальности JetBrains&lt;/a&gt;.</value>
 </data>
 <data name="AiAssistantWithAccelerator" xml:space="preserve">
-  <value>AI Assistant(&amp;S)</value>
+  <value>AI Assistant (&amp;S)</value>
 </data>
 <data name="DeleteAll_Text" xml:space="preserve">
   <value>Удалить все</value>
@@ -834,7 +834,7 @@ URI: {1}
   <value>Свернуть все</value>
 </data>
 <data name="DownloadingDotMemoryConsoleProfiler_Text" xml:space="preserve">
-  <value>Загрузка консольного профилировщика dotMemory…</value>
+  <value>Загрузка консольного профилировщика dotMemory...</value>
 </data>
 <data name="SettingsLayersActionGroupText" xml:space="preserve">
   <value>Слои настроек</value>
@@ -846,13 +846,13 @@ URI: {1}
   <value>Отправлять ли анонимно</value>
 </data>
 <data name="WindowsActionGroupText" xml:space="preserve">
-  <value>Окна(&amp;W)</value>
+  <value>Окна (&amp;W)</value>
 </data>
 <data name="CopyActionText" xml:space="preserve">
   <value>Копировать</value>
 </data>
 <data name="SavingProfilingSnapshot_Text" xml:space="preserve">
-  <value>Сохранение снимка профилирования…</value>
+  <value>Сохранение снимка профилирования...</value>
 </data>
 <data name="UserIsInformedAboutAnonymousSubmissionSettingDescription" xml:space="preserve">
   <value>Пользователь уведомлен об анонимной отправке</value>
@@ -864,7 +864,7 @@ URI: {1}
   <value>мс</value>
 </data>
 <data name="SendingReport_Text" xml:space="preserve">
-  <value>Отправка отчета…</value>
+  <value>Отправка отчета...</value>
 </data>
 <data name="ReSharperGeneralInlayHintsSettingsSettingDescription" xml:space="preserve">
   <value>Общие настройки встроенных подсказок ReSharper</value>
@@ -927,7 +927,7 @@ URI: {1}
   <value>Показывать форму после отправки</value>
 </data>
 <data name="HelpActionGroupText" xml:space="preserve">
-  <value>Справка(&amp;H)</value>
+  <value>Справка (&amp;H)</value>
 </data>
 <data name="SingleGotoTwitterActionText" xml:space="preserve">
   <value>SingleGotoTwitter</value>
@@ -936,10 +936,10 @@ URI: {1}
   <value>Действует бесплатный пробный период. Осталось {0} дней</value>
 </data>
 <data name="PleaseWait_Text" xml:space="preserve">
-  <value>Пожалуйста, подождите…</value>
+  <value>Пожалуйста, подождите...</value>
 </data>
 <data name="GettingMemorySnapshot_Text" xml:space="preserve">
-  <value>Получение снимка памяти…</value>
+  <value>Получение снимка памяти...</value>
 </data>
 <data name="AuthorizationFailed_ThisMightHappen_Text" xml:space="preserve">
   <value>Сбой аутентификации: {0}. Это может произойти, если выполняется другой процесс аутентификации.</value>
@@ -960,7 +960,7 @@ URI: {1}
   <value>Включить инструмент плавности пользовательского интерфейса</value>
 </data>
 <data name="Manage_Options_Dialog_Button_Text" xml:space="preserve">
-  <value>Управление…</value>
+  <value>Управление</value>
 </data>
 <data name="DockOptionsActionText" xml:space="preserve">
   <value>Параметры</value>
@@ -1033,7 +1033,7 @@ URI: {0}
   <value>Дамп</value>
 </data>
 <data name="Browse_Button_Text2" xml:space="preserve">
-  <value>Обзор…</value>
+  <value>Обзор...</value>
 </data>
 <data name="TODOAddDescription_Text" xml:space="preserve">
   <value>TODO: добавить описание</value>
@@ -1110,7 +1110,7 @@ URI: {0}
   <value>Лицензия для версии {0} неприемлема</value>
 </data>
 <data name="ShowAllLayers_Text" xml:space="preserve">
-  <value>Показать все слои…</value>
+  <value>Показать все слои...</value>
 </data>
 <data name="PByPublicKeySettingDescription" xml:space="preserve">
   <value>P по открытому ключу</value>
@@ -1227,7 +1227,7 @@ URI: {0}
   <value>Отзывчивость пользовательского интерфейса</value>
 </data>
 <data name="GotoProductWebPageActionText" xml:space="preserve">
-  <value>Перейти на веб-страницу продукта(&amp;W)</value>
+  <value>Перейти на веб-страницу продукта (&amp;W)</value>
 </data>
 <data name="GatheringResults_Text" xml:space="preserve">
   <value>Сбор результатов</value>
@@ -1248,7 +1248,7 @@ URI: {0}
   <value>Аутентификация прошла успешно</value>
 </data>
 <data name="TheToolWindowHasBeenLoadedRendering_Text" xml:space="preserve">
-  <value>Окно инструментов загружено, отрисовывается его содержимое…</value>
+  <value>Окно инструментов загружено, отрисовывается его содержимое...</value>
 </data>
 <data name="SomeBoolOptionSettingDescription" xml:space="preserve">
   <value>Некоторая логическая опция</value>
@@ -1257,7 +1257,7 @@ URI: {0}
   <value>Редактировать лицензию</value>
 </data>
 <data name="LoggingIn_Text" xml:space="preserve">
-  <value>Вход в систему…</value>
+  <value>Вход в систему...</value>
 </data>
 <data name="ShowPreviewActionGroupText" xml:space="preserve">
   <value>Показать предварительный просмотр</value>
@@ -1269,7 +1269,7 @@ URI: {0}
   <value>SingleGotoWeb</value>
 </data>
 <data name="ProductTwitterActionGroupText" xml:space="preserve">
-  <value>Twitter продукта(&amp;T)</value>
+  <value>Twitter продукта (&amp;T)</value>
 </data>
 <data name="FUSActionGroupText" xml:space="preserve">
   <value>FUS</value>
@@ -1290,7 +1290,7 @@ URI: {0}
   <value>Показать лицензию, запрошенную пользователем</value>
 </data>
 <data name="DumpStatisticsGroupsActionText" xml:space="preserve">
-  <value>Дамп групп статистики…</value>
+  <value>Дамп групп статистики...</value>
 </data>
 <data name="DumpComponentContainersStatisticsActionText" xml:space="preserve">
   <value>Дамп статистики контейнеров компонентов</value>
@@ -1299,7 +1299,7 @@ URI: {0}
   <value>Копировать в</value>
 </data>
 <data name="CoverActionGroupText" xml:space="preserve">
-  <value>Обложка(&amp;C)</value>
+  <value>Обложка (&amp;C)</value>
 </data>
 <data name="PerformanceMonitoringOptionPageTitle" xml:space="preserve">
   <value>Мониторинг производительности</value>
@@ -1353,7 +1353,7 @@ URI: {0}
   <value>Шаги сборки</value>
 </data>
 <data name="ReadingPackagesFromProductContentPack_Text" xml:space="preserve">
-  <value>Чтение пакетов из ресурса пакета содержимого продукта…</value>
+  <value>Чтение пакетов из ресурса пакета содержимого продукта...</value>
 </data>
 <data name="PerformanceMonitoringSettingsSettingDescription" xml:space="preserve">
   <value>Настройки мониторинга производительности</value>
@@ -1365,7 +1365,7 @@ URI: {0}
   <value>Дамп нежелательных зависимостей контейнеров компонентов</value>
 </data>
 <data name="ExportToFileActionText" xml:space="preserve">
-  <value>Экспорт в файл…</value>
+  <value>Экспорт в файл...</value>
 </data>
 <data name="GovernsTheUseOfAProxyServerWhenDownloadingFromInternetSettingDescription" xml:space="preserve">
   <value>Регулирует использование прокси-сервера при загрузке из Интернета</value>
@@ -1416,7 +1416,7 @@ URI: {0}
   <value>Опубликовано расширением {0}</value>
 </data>
 <data name="CreateSettingsFileActionText" xml:space="preserve">
-  <value>Создать файл настроек…</value>
+  <value>Создать файл настроек...</value>
 </data>
 <data name="_Took_ms_Text" xml:space="preserve">
   <value>{0} заняло {1} мс</value>
@@ -1443,13 +1443,13 @@ URI: {0}
   <value>Настройки по умолчанию из {0}</value>
 </data>
 <data name="ExportActionGroupText" xml:space="preserve">
-  <value>Экспорт…</value>
+  <value>Экспорт...</value>
 </data>
 <data name="BuildDispatch_Text" xml:space="preserve">
   <value>Диспетчер сборки</value>
 </data>
 <data name="ImportFromURLActionText" xml:space="preserve">
-  <value>Импорт из URL…</value>
+  <value>Импорт из URL...</value>
 </data>
 <data name="URICannotBeEmpty_Text" xml:space="preserve">
   <value>URI не может быть пустым</value>
@@ -1515,7 +1515,7 @@ URI: {0}
   <value>Параметры</value>
 </data>
 <data name="InternaLActionGroupText" xml:space="preserve">
-  <value>Внутренние(&amp;L)</value>
+  <value>Внутренние (&amp;L)</value>
 </data>
 <data name="DeletePending_Text" xml:space="preserve">
   <value>Ожидают удаления</value>
@@ -1530,7 +1530,7 @@ URI: {0}
   <value>Показать журнал</value>
 </data>
 <data name="ExportToTextActionText" xml:space="preserve">
-  <value>Экспорт в текст…</value>
+  <value>Экспорт в текст...</value>
 </data>
 <data name="BrowseAsIconPacksActionDescription" xml:space="preserve">
   <value>Режим детального просмотра с дополнительной группировкой по пакетам значков, которым принадлежат значки</value>
@@ -1554,7 +1554,7 @@ URI: {0}
   <value>Включенные пользовательские пространства имен из LogTraceScenarios.Map, разделенные запятыми</value>
 </data>
 <data name="Browse_Button_Text" xml:space="preserve">
-  <value>Обзор…</value>
+  <value>Обзор...</value>
 </data>
 <data name="AlwaysShowPushToHintIndicatorSettingDescription" xml:space="preserve">
   <value>Показывать ли индикатор состояния "Push to Hint" в редакторе, даже когда состояние "Push to Hint" неактивно</value>
@@ -1593,7 +1593,7 @@ URI: {0}
   <value>Продукт лицензирован для {0}</value>
 </data>
 <data name="ProductWebPageActionGroupText" xml:space="preserve">
-  <value>Веб-страница продукта(&amp;W)</value>
+  <value>Веб-страница продукта (&amp;W)</value>
 </data>
 <data name="JetBrainsAccountMustBeConnectedUntil_Text" xml:space="preserve">
   <value>JetBrains Account должен быть подключен до {0:f} для проверки ресурса</value>
@@ -1635,7 +1635,7 @@ URI: {0}
   <value>Начать новую строку</value>
 </data>
 <data name="_Edit_Button_Text" xml:space="preserve">
-  <value>Редактировать(_E)…</value>
+  <value>Редактировать(_E)...</value>
 </data>
 <data name="Americas_Text" xml:space="preserve">
   <value>Америка</value>
@@ -1728,7 +1728,7 @@ URI: {0}
 {1}</value>
 </data>
 <data name="ExportToXMLActionText" xml:space="preserve">
-  <value>Экспорт в XML…</value>
+  <value>Экспорт в XML...</value>
 </data>
 <data name="ToReSharper_Text" xml:space="preserve">
   <value>для ReSharper</value>
@@ -1785,7 +1785,7 @@ URI: {0}
   <value>OOP</value>
 </data>
 <data name="BuildActionGroupText" xml:space="preserve">
-  <value>Сборка(&amp;B)</value>
+  <value>Сборка (&amp;B)</value>
 </data>
 <data name="JetBrainsAccountInaccessible_Text" xml:space="preserve">
   <value>JetBrains Account недоступен</value>
@@ -1839,7 +1839,7 @@ URI: {0}
   <value>Подписка действительна до {1}{0}</value>
 </data>
 <data name="AttachingPerformanceProfiler_Text" xml:space="preserve">
-  <value>Присоединение профилировщика производительности…</value>
+  <value>Присоединение профилировщика производительности...</value>
 </data>
 <data name="DisableTraceScenario_Text" xml:space="preserve">
   <value>Отключить сценарий трассировки</value>
@@ -1889,7 +1889,7 @@ URI: {0}
   <value>Производительность Visual Studio улучшится, если вы {0}. Узнайте больше и настройте это поведение в руководстве по производительности ReSharper.</value>
 </data>
 <data name="PreparingTheListOfItemsPleaseWait_Text" xml:space="preserve">
-  <value>Подготовка списка элементов, пожалуйста, подождите…</value>
+  <value>Подготовка списка элементов, пожалуйста, подождите...</value>
 </data>
 <data name="JetPopupMenuNoItemsBanner" xml:space="preserve">
   <value>Нет элементов для отображения в этом меню</value>
@@ -1916,7 +1916,7 @@ URI: {0}
   <value>Показать диалог лицензии</value>
 </data>
 <data name="PropertiesActionText" xml:space="preserve">
-  <value>Свойства(&amp;P)</value>
+  <value>Свойства (&amp;P)</value>
 </data>
 <data name="OpenContainingFolderActionText" xml:space="preserve">
   <value>Открыть содержащую папку</value>
@@ -1925,13 +1925,13 @@ URI: {0}
   <value>Окно инструментов выгружено</value>
 </data>
 <data name="ExportPNGActionText" xml:space="preserve">
-  <value>Экспорт PNG…</value>
+  <value>Экспорт PNG...</value>
 </data>
 <data name="ImportFromActionGroupText" xml:space="preserve">
   <value>Импортировать из</value>
 </data>
 <data name="OnlineHelpActionText" xml:space="preserve">
-  <value>Онлайн-справка(&amp;H)</value>
+  <value>Онлайн-справка (&amp;H)</value>
 </data>
 <data name="FreeTrialPeriodIsRunning_Text" xml:space="preserve">
   <value>Бесплатный пробный период активен</value>
@@ -2042,7 +2042,7 @@ URI: {0}
   <value>Серая, Светлая тема</value>
 </data>
 <data name="ProfilingReproduceProblemAndStopItManually_Text" xml:space="preserve">
-  <value>Профилирование… (воспроизведите проблему и остановите вручную)</value>
+  <value>Профилирование... (воспроизведите проблему и остановите вручную)</value>
 </data>
 <data name="SubscriptionHasExpiredOn_PleaseRenew_Text" xml:space="preserve">
   <value>Подписка истекла {0}. Пожалуйста, продлите до {1}, чтобы предотвратить отключение {2}.</value>

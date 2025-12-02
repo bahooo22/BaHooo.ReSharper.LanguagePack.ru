@@ -259,7 +259,7 @@
   <value> [не влияет на компиляцию]</value>
 </data>
 <data name="VsToolsOptionsPage_Button_Options_Text" xml:space="preserve">
-  <value>Параметры(_O)…</value>
+  <value>Параметры(_O)...</value>
 </data>
 <data name="VsWindowFrameMonitor_Text" xml:space="preserve">
   <value>Монитор фреймов окон VS</value>
@@ -461,7 +461,7 @@
   <value>ReSharper &gt; Параметры &gt; Среда &gt; Клавиатура &gt; Схема сочетаний клавиш</value>
 </data>
 <data name="VsToolsOptionsPage_Button_Help_Text" xml:space="preserve">
-  <value>Справка(_H)…</value>
+  <value>Справка(_H)...</value>
 </data>
 <data name="BasedOnTheIntelliJIDEAKeyboardLayout_Comment_Text" xml:space="preserve">
   <value>На основе раскладки клавиатуры IntelliJ IDEA, эта схема удовлетворит потребности разработчиков, знакомых с Java, или тех, кто привык использовать сочетания клавиш на основе IDEA в ReSharper 2.5 и более ранних версиях. Следовательно, это изменяет значения многих стандартных сочетаний клавиш Visual Studio.</value>
@@ -600,7 +600,7 @@ URI: {0}
   <value>Упростить меню Visual Studio(_S)</value>
 </data>
 <data name="VsToolsOptionsPage_About_Link" xml:space="preserve">
-  <value>О программе…</value>
+  <value>О программе...</value>
 </data>
 <data name="CouldNotRename_To__Caption" xml:space="preserve">
   <value>Не удалось переименовать {0} в {1}</value>

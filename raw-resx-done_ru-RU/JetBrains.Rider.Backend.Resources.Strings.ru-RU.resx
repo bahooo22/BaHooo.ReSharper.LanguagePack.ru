@@ -133,13 +133,13 @@
     <value>Проекты .NET Framework</value>
 </data>
 <data name="GeneratingType__Text" xml:space="preserve">
-    <value>Генерация типа "{0}"…</value>
+    <value>Генерация типа "{0}"...</value>
 </data>
 <data name="AdditionalData_Text" xml:space="preserve">
     <value>Дополнительные данные</value>
 </data>
 <data name="Processing_File_Text" xml:space="preserve">
-    <value>Обработка {0}…</value>
+    <value>Обработка {0}...</value>
 </data>
 <data name="ShowRunMarkerOnStaticMethodsSettingDescription" xml:space="preserve">
     <value>Показывать маркер запуска на статических методах</value>
@@ -230,7 +230,7 @@
     <value>Компактный формат</value>
 </data>
 <data name="ShowArchitectureDiagramActionText" xml:space="preserve">
-    <value>Показать диаграмму зависимостей проекта(&amp;P)</value>
+    <value>Показать диаграмму зависимостей проекта &amp;P)</value>
 </data>
 <data name="CannotGenerateTheConfigurationFile_Text" xml:space="preserve">
     <value>Не удалось сгенерировать файл конфигурации</value>
@@ -254,7 +254,7 @@
     <value>Указанный путь Xcode '{0}' ведет в недопустимое место</value>
 </data>
 <data name="OpenXamarinAndroidSDKRepositoryPage_Text" xml:space="preserve">
-    <value>Открыть страницу репозитория Xamarin Android SDK на GitHub…</value>
+    <value>Открыть страницу репозитория Xamarin Android SDK на GitHub...</value>
 </data>
 <data name="RiderUsageLocalizer_ToLocalizedString_Related_Usages" xml:space="preserve">
     <value>Связанные использования</value>
@@ -410,7 +410,7 @@
     <value>Использование в аргументах макроса</value>
 </data>
 <data name="GeneratingSolutionFile_Text" xml:space="preserve">
-    <value>Генерация файла решения…</value>
+    <value>Генерация файла решения...</value>
 </data>
 <data name="SelectFileDialogTitle" xml:space="preserve">
     <value>Выберите файл</value>
@@ -446,7 +446,7 @@
     <value>Удалить</value>
 </data>
 <data name="LoadingSigningKeys_Text" xml:space="preserve">
-    <value>Загрузка ключей подписи…</value>
+    <value>Загрузка ключей подписи...</value>
 </data>
 <data name="FileConflictAction_Text" xml:space="preserve">
     <value>Действие при конфликте файлов</value>
@@ -1119,7 +1119,7 @@
     <value>Включать горячую перезагрузку при запуске без отладки (.NET 6.0 и выше)</value>
 </data>
 <data name="ChangeTargetAPIVersion_Text" xml:space="preserve">
-    <value>Изменить целевую версию API…</value>
+    <value>Изменить целевую версию API...</value>
 </data>
 <data name="EnablePackageSearchInAzureBlobsNuGet_BoolOption_ToolTip" xml:space="preserve">
     <value>Включить поиск пакетов в источниках NuGet Azure Blobs (может увеличить использование памяти)</value>
@@ -1339,7 +1339,7 @@
     <value>Неожиданное '@protocol' на {0}</value>
 </data>
 <data name="ExpandingProjectTemplateDots_Text" xml:space="preserve">
-    <value>Развертывание шаблона проекта…</value>
+    <value>Развертывание шаблона проекта...</value>
 </data>
 <data name="WaitingForTheFirstSolutionLoad_Text" xml:space="preserve">
     <value>Первоначальная обработка решения.</value>
@@ -1435,7 +1435,7 @@
     <value>IIS Express не найден. Чтобы получить его, посетите: &lt;a href="{0}"&gt;ссылку&lt;/a&gt;</value>
 </data>
 <data name="DownloadXcode_Text" xml:space="preserve">
-    <value>Скачать Xcode…</value>
+    <value>Скачать Xcode...</value>
 </data>
 <data name="UnableToFindTheCLITypeFor__Text" xml:space="preserve">
     <value>Не удалось найти CLI-тип для '{0}'</value>
@@ -1462,7 +1462,7 @@
     <value>Веб-приложение</value>
 </data>
 <data name="GettingExportableCategories_Text" xml:space="preserve">
-    <value>Получение экспортируемых категорий…</value>
+    <value>Получение экспортируемых категорий...</value>
 </data>
 <data name="InlineDocHighlightingGroup_Text" xml:space="preserve">
     <value>Группа выделения встроенной документации</value>
@@ -1492,7 +1492,7 @@
     <value>Горячая перезагрузка отключена из-за настроек компоновщика Android. Перейдите в «Проект | Свойства» и измените настройку компоновщика на «Не связывать».</value>
 </data>
 <data name="ReplaceXCodePropertiesWithActualValues_Text" xml:space="preserve">
-    <value>Замена свойств Xcode фактическими значениями в Info.plist…</value>
+    <value>Замена свойств Xcode фактическими значениями в Info.plist...</value>
 </data>
 <data name="EnterTypeName_Text" xml:space="preserve">
     <value>Введите имя типа:</value>
@@ -1588,7 +1588,7 @@
   <value>Внешние источники</value>
 </data>
 <data name="GenerateXcodeProjectFor___Caption" xml:space="preserve">
-  <value>Создание проекта Xcode для '{0}' [{1}]…</value>
+  <value>Создание проекта Xcode для '{0}' [{1}]...</value>
 </data>
 <data name="ReaderModeEnabledSettingsEntryName" xml:space="preserve">
   <value>Режим чтения включен</value>
@@ -1603,7 +1603,7 @@
   <value>Автоматически восстанавливать отсутствующие пакеты при необходимости</value>
 </data>
 <data name="FindSimilarIssuesInCustomScope_Text" xml:space="preserve">
-  <value>Найти похожие проблемы в пользовательской области…</value>
+  <value>Найти похожие проблемы в пользовательской области...</value>
 </data>
 <data name="EnableWindowsFormsDesigner_Text" xml:space="preserve">
   <value>Включить конструктор Windows Forms</value>
@@ -1720,7 +1720,7 @@
   <value>Перенести packages.config в PackageReference</value>
 </data>
 <data name="OpenAndroidSDKManager_Text" xml:space="preserve">
-  <value>Открыть диспетчер Android SDK…</value>
+  <value>Открыть диспетчер Android SDK...</value>
 </data>
 <data name="SkippedElementsSettinsOptionPageTitle" xml:space="preserve">
   <value>Настройки пропускаемых элементов</value>
@@ -1729,7 +1729,7 @@
   <value>Минимальная платформа</value>
 </data>
 <data name="Parsing__Text" xml:space="preserve">
-  <value>Разбор '{0}'…</value>
+  <value>Разбор '{0}'...</value>
 </data>
 <data name="Template_Editable_VmlldyBDb250cm9sbGVyIHdpdGggWElCIGZvciBpT1MEQ" xml:space="preserve">
   <value>Контроллер представления с XIB для iOS</value>
@@ -1822,7 +1822,7 @@
   <value>Группировать по типу</value>
 </data>
 <data name="ExpandUnitTestTree_ProgressText" xml:space="preserve">
-  <value>Вычисление модульных тестов для развертывания…</value>
+  <value>Вычисление модульных тестов для развертывания...</value>
 </data>
 <data name="Internal_Text" xml:space="preserve">
   <value>Внутренние</value>
@@ -1876,7 +1876,7 @@
   <value>Не удалось синхронизировать проект Xcode: {0}</value>
 </data>
 <data name="SyncChangesFromXcodeProject_Caption" xml:space="preserve">
-  <value>Синхронизация изменений из проекта Xcode…</value>
+  <value>Синхронизация изменений из проекта Xcode...</value>
 </data>
 <data name="CodeIssues_Text" xml:space="preserve">
   <value>Проблемы кода</value>
@@ -1978,7 +1978,7 @@
   <value>Неожиданное '@interface' на {0}</value>
 </data>
 <data name="ShowQuickDocumentationActionText" xml:space="preserve">
-  <value>Показать краткую документацию (&amp;Q)…</value>
+  <value>Показать краткую документацию (&amp;Q)...</value>
 </data>
 <data name="NothingToGenerate_Text" xml:space="preserve">
   <value>Нечего генерировать</value>
@@ -2002,7 +2002,7 @@
   <value>Группа инсайтов AI</value>
 </data>
 <data name="DownloadAndInstallUWPSDK_Text" xml:space="preserve">
-  <value>Скачать и установить UWP SDK…</value>
+  <value>Скачать и установить UWP SDK...</value>
 </data>
 <data name="GeneratedCodeOptionPageTitle" xml:space="preserve">
   <value>Сгенерированный код</value>
@@ -2161,10 +2161,10 @@
   <value>Не удалось разобрать метод '{0}' на {1}</value>
 </data>
 <data name="GettingProfiles_Text" xml:space="preserve">
-  <value>Получение профилей…</value>
+  <value>Получение профилей...</value>
 </data>
 <data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
-  <value>Показывать непубличные скомпилированные элементы в результатах «Перейти к…»</value>
+  <value>Показывать непубличные скомпилированные элементы в результатах «Перейти к...»</value>
 </data>
 <data name="AutoIndentLinesActionText" xml:space="preserve">
   <value>Автоматический отступ строк</value>
@@ -2248,13 +2248,13 @@
   <value>Обратите внимание, что если некоторые символы используются только в исключенных файлах, анализ на уровне решения будет выделять эти символы как никогда не использованные.</value>
 </data>
 <data name="InstallAndroidSDK_Text" xml:space="preserve">
-  <value>Установить Android SDK…</value>
+  <value>Установить Android SDK...</value>
 </data>
 <data name="Yes_Text" xml:space="preserve">
   <value>Да</value>
 </data>
 <data name="AddFromURIActionText" xml:space="preserve">
-  <value>Добавить из URI…</value>
+  <value>Добавить из URI...</value>
 </data>
 <data name="Other_Header_Text" xml:space="preserve">
   <value>Другие</value>
@@ -2308,7 +2308,7 @@
   <value>Дополнительные аргументы 'mmp'</value>
 </data>
 <data name="BuildingProject__Text" xml:space="preserve">
-  <value>Сборка проекта '{0}'…</value>
+  <value>Сборка проекта '{0}'...</value>
 </data>
 <data name="NuGetOptionPageTitle" xml:space="preserve">
   <value>NuGet</value>
@@ -2350,7 +2350,7 @@
   <value>Перейти к базовому/наследнику: если результат один, переходить без показа списка</value>
 </data>
 <data name="ChangePathToXcodeInRiderSettings_Text" xml:space="preserve">
-  <value>Изменить путь к Xcode в настройках Rider…</value>
+  <value>Изменить путь к Xcode в настройках Rider...</value>
 </data>
 <data name="UseManagedDesignTimeResourceGenerator_Text" xml:space="preserve">
   <value>Использовать управляемый генератор ресурсов времени разработки по умолчанию</value>
@@ -2476,7 +2476,7 @@
   <value>Ожидание синхронизации FileSystemTracker</value>
 </data>
 <data name="CollectingAndInstantiatingProblemDiagnostics_Text" xml:space="preserve">
-  <value>Сбор и создание экземпляров диагностики проблем…</value>
+  <value>Сбор и создание экземпляров диагностики проблем...</value>
 </data>
 <data name="SettingsCodeBehindGenerator_Text" xml:space="preserve">
   <value>Настройки генератора кода программной части</value>
@@ -2605,7 +2605,7 @@
   <value>Маски сгенерированных файлов:</value>
 </data>
 <data name="ChangeJDKPathInRiderSettings_Text" xml:space="preserve">
-  <value>Изменить путь к JDK в настройках Rider…</value>
+  <value>Изменить путь к JDK в настройках Rider...</value>
 </data>
 <data name="IISExpress64Bit_Header_Text" xml:space="preserve">
   <value>IIS Express (64-разрядная)</value>
@@ -2686,7 +2686,7 @@
   <value>Переформатировать код</value>
 </data>
 <data name="Custom_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="AddRazorPage_Text" xml:space="preserve">
   <value>Добавить страницу Razor</value>
@@ -2725,7 +2725,7 @@
   <value>Библиотека классов WPF</value>
 </data>
 <data name="ScanningForCustomUIClassDefinitions_Text" xml:space="preserve">
-  <value>Сканирование определений пользовательских классов UI…</value>
+  <value>Сканирование определений пользовательских классов UI...</value>
 </data>
 <data name="EvaluatesNETFrameworkVersionOfCurrentProjectAndCreatesAStartupSectionForItMacroDefinition_Description" xml:space="preserve">
   <value>Раздел startup App.config для целевой платформы проекта</value>
@@ -2743,7 +2743,7 @@
   <value>Создать источник данных DDL для проекта базы данных и синхронизировать</value>
 </data>
 <data name="UwpDeploy_UnableToCopyAttempt_Message" xml:space="preserve">
-  <value>Попытка {0} копирования файла '{1}' не удалась. Повтор…</value>
+  <value>Попытка {0} копирования файла '{1}' не удалась. Повтор...</value>
 </data>
 <data name="SolutionBuilderHost_GetProgressTitle_selected_projects" xml:space="preserve">
   <value>Выбранные проекты</value>
@@ -2914,7 +2914,7 @@
   <value>Развернуть узел дерева</value>
 </data>
 <data name="CollectingProjectsInformation_Text" xml:space="preserve">
-  <value>Сбор информации о проектах…</value>
+  <value>Сбор информации о проектах...</value>
 </data>
 <data name="UsageGrouping_SectionType_Text" xml:space="preserve">
   <value>Тип раздела</value>
@@ -2983,7 +2983,7 @@
   <value>Изменения не найдены</value>
 </data>
 <data name="UpdateXCodePropertyInProjectFile" xml:space="preserve">
-  <value>Обновление свойства '{0}' = '{1}' в файле проекта '{2}'…</value>
+  <value>Обновление свойства '{0}' = '{1}' в файле проекта '{2}'...</value>
 </data>
 <data name="NETOptionPageTitle" xml:space="preserve">
   <value>.NET</value>
@@ -3202,7 +3202,7 @@
   <value>Игнорировать</value>
 </data>
 <data name="SolutionAnalysis_Loading_Analysis_Results_Text" xml:space="preserve">
-  <value>Загрузка результатов анализа… – {0}</value>
+  <value>Загрузка результатов анализа... – {0}</value>
 </data>
 <data name="EnableHotReloadForBlazorWasmSettingDescription" xml:space="preserve">
   <value>Включить горячую перезагрузку для Blazor WebAssembly</value>

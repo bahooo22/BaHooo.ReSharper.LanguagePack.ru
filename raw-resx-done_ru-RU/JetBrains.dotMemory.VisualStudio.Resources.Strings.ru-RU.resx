@@ -130,7 +130,7 @@
   <value>Остановить профилирование</value>
 </data>
 <data name="VsActions_ProfileRunConfiguration_Text" xml:space="preserve">
-  <value>Запустить профилирование памяти…</value>
+  <value>Запустить профилирование памяти...</value>
 </data>
 <data name="ToolWindow_RunningProcesses_TabName" xml:space="preserve">
   <value>Выполняющиеся процессы</value>
@@ -148,7 +148,7 @@
   <value>Показать профилировщик dotMemory</value>
 </data>
 <data name="ProfileStartupProjectAction_Text" xml:space="preserve">
-  <value>Запустить профилирование памяти стартового проекта…</value>
+  <value>Запустить профилирование памяти стартового проекта...</value>
 </data>
 <data name="OpenDotMemoryUnitPageAction_Text" xml:space="preserve">
   <value>Как найти проблемы с памятью с помощью модульных тестов</value>
@@ -157,6 +157,6 @@
   <value>Показать профилировщик памяти</value>
 </data>
 <data name="ProfileApplicationAction_Text" xml:space="preserve">
-  <value>Запустить профилирование памяти приложения…</value>
+  <value>Запустить профилирование памяти приложения...</value>
 </data>
 </root>

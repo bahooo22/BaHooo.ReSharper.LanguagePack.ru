@@ -1,6 +1,7 @@
 param(
-    [string]$ResxFolder = 'DotFiles\Extensions\JetBrains.I18n.ru\i18n',
-    [string]$Output = 'artifacts',
+    [string]$ResxFolder = '..\..\raw-resx-done_ru-RU',
+    [string]$Output = 'artifacts',              # для NuGet пакета
+    [string]$ResourcesOutput = 'DotFiles\Extensions\JetBrains.I18n.ru\i18n\',     # для .resources файлов
     [string]$Version = (Get-Date -Format 'yyyy.MM.dd'),
     [string]$LogFile = 'build.log',
     [string]$ErrorLogFile = 'build.errors.log'
@@ -25,7 +26,8 @@ if ($files.Count -eq 0) {
 $errIndex = 0
 
 foreach ($f in $files) {
-    $out = [System.IO.Path]::ChangeExtension($f.FullName, '.resources')
+    # создаём выходной путь в ResourcesOutput
+	$out = Join-Path $ResourcesOutput ($f.BaseName + '.resources')
     $msg = "resgen $($f.FullName) -> $out"
     Write-Host $msg
     $msg | Tee-Object -FilePath $LogFile -Append

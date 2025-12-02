@@ -350,7 +350,7 @@
   <value>Значительная</value>
 </data>
 <data name="RunningMsbuild_Text" xml:space="preserve">
-  <value>Выполняется MSBuild…</value>
+  <value>Выполняется MSBuild...</value>
 </data>
 <data name="WhetherEnabledSettingDescription" xml:space="preserve">
   <value>Включено ли</value>

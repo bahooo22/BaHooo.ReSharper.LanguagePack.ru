@@ -359,7 +359,7 @@
   <value>Остановить общий доступ</value>
 </data>
 <data name="Duplicate_Text" xml:space="preserve">
-  <value>Дублировать…</value>
+  <value>Дублировать...</value>
 </data>
 <data name="FullPathToTheMethodSettingDescription" xml:space="preserve">
   <value>Полный путь к методу</value>
@@ -374,13 +374,13 @@
   <value>Упростить меню Visual Studio(_S)</value>
 </data>
 <data name="Delete_Text" xml:space="preserve">
-  <value>Удалить…</value>
+  <value>Удалить...</value>
 </data>
 <data name="Add_Text" xml:space="preserve">
-  <value>Добавить…</value>
+  <value>Добавить...</value>
 </data>
 <data name="Edit_Text" xml:space="preserve">
-  <value>Изменить…</value>
+  <value>Изменить...</value>
 </data>
 <data name="Run_Text" xml:space="preserve">
   <value>Запустить</value>

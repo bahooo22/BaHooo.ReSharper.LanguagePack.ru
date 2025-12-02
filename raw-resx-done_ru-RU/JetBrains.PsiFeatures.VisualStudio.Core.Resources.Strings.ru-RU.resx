@@ -246,7 +246,7 @@
   <value>Текущий исходный файл</value>
 </data>
 <data name="Configure_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="CanTCreateView_Text" xml:space="preserve">
   <value>Не удается создать представление</value>
@@ -336,7 +336,7 @@
   <value>Масштаб встроенных подсказок:</value>
 </data>
 <data name="PreparingTheListOfItemsPleaseWait_Text" xml:space="preserve">
-  <value>Подготовка списка элементов, пожалуйста, подождите…</value>
+  <value>Подготовка списка элементов, пожалуйста, подождите...</value>
 </data>
 <data name="DoNotAskAgainToAttachMemorySnapshotSettingDescription" xml:space="preserve">
   <value>Больше не спрашивать о присоединении снимка памяти</value>
@@ -372,6 +372,6 @@
   <value>Файл или папка находится вне текущего проекта</value>
 </data>
 <data name="WhatsNew_Loading_Text" xml:space="preserve">
-  <value>Загрузка «Что нового»…</value>
+  <value>Загрузка «Что нового»...</value>
 </data>
 </root>

@@ -164,7 +164,7 @@
   <value>Ссылки {0}</value>
 </data>
 <data name="SearchingForUsagesEscToOpenFindResults_Text" xml:space="preserve">
-  <value>Поиск использований… (Нажмите Esc для открытия «Результатов поиска»)</value>
+  <value>Поиск использований... (Нажмите Esc для открытия «Результатов поиска»)</value>
 </data>
 <data name="ActiveConfigurationFiles_Text" xml:space="preserve">
   <value>Активные файлы конфигурации:</value>
@@ -251,7 +251,7 @@
   <value>Навигация в обозревателе объектов</value>
 </data>
 <data name="StringComparison_Text" xml:space="preserve">
-  <value>Сравнение строк(&amp;C)</value>
+  <value>Сравнение строк &amp;C)</value>
 </data>
 <data name="SuggestsVariablesOfTheSpecifiedTypeMacroDefinition_Description" xml:space="preserve">
   <value>Предлагает переменные типа {#0:type}</value>
@@ -326,7 +326,7 @@
   <value>Окружать при вводе с выделением</value>
 </data>
 <data name="NavigateActionGroupText" xml:space="preserve">
-  <value>Навигация(&amp;N)</value>
+  <value>Навигация &amp;N)</value>
 </data>
 <data name="ShowSmartCodeCompletionListAtThePointWhereTheVariableIsEvaluatedMacroDefinition_LongDescription" xml:space="preserve">
   <value>Показывать список умного завершения кода в точке вычисления переменной</value>
@@ -410,7 +410,7 @@
   <value>Показывать метки навигации на полях для реализованных и переопределенных членов</value>
 </data>
 <data name="FilteringSearchResults_Text" xml:space="preserve">
-  <value>Фильтрация результатов поиска…</value>
+  <value>Фильтрация результатов поиска...</value>
 </data>
 <data name="InFolder_Text" xml:space="preserve">
   <value>В папке</value>
@@ -431,7 +431,7 @@
   <value>В XMLDoc</value>
 </data>
 <data name="Analyzing_Text" xml:space="preserve">
-  <value>Анализ…</value>
+  <value>Анализ...</value>
 </data>
 <data name="MatchInStringsSettingDescription" xml:space="preserve">
   <value>Совпадение в строках</value>
@@ -470,7 +470,7 @@
   <value>Оптимизация инкрементных этапов демона, запускаемых для файла после изменений внутри тела члена</value>
 </data>
 <data name="GenerateOption_OverloadRelationalOperators_Text" xml:space="preserve">
-  <value>Перегрузить операторы отношений(&amp;O)</value>
+  <value>Перегрузить операторы отношений &amp;O)</value>
 </data>
 <data name="FilterInterfacesInvertActionText" xml:space="preserve">
   <value>Инвертировать фильтр интерфейсов</value>
@@ -609,7 +609,7 @@
   <value>**Щелкните**, чтобы зафиксировать режим *Push-to-Hint*</value>
 </data>
 <data name="GenerateOption_ClassHasUnmanagedResources_Text" xml:space="preserve">
-  <value>Класс имеет неуправляемые ресурсы(&amp;R)</value>
+  <value>Класс имеет неуправляемые ресурсы &amp;R)</value>
 </data>
 <data name="DefaultLiveTemplates_Text" xml:space="preserve">
   <value>Живые шаблоны по умолчанию</value>
@@ -774,7 +774,7 @@
   <value>Навигация</value>
 </data>
 <data name="EditActionGroupText" xml:space="preserve">
-  <value>Правка(&amp;E)</value>
+  <value>Правка &amp;E)</value>
 </data>
 <data name="UpdateReferencesTo__Text" xml:space="preserve">
   <value>Обновить ссылки на {0}</value>
@@ -795,7 +795,7 @@
   <value>Сгенерировать свойства</value>
 </data>
 <data name="AnalyzingInParallel_Threads_Text" xml:space="preserve">
-  <value>Параллельный анализ… ({0} потоков)</value>
+  <value>Параллельный анализ... ({0} потоков)</value>
 </data>
 <data name="Information_Description_Text" xml:space="preserve">
   <value>Информация</value>
@@ -996,7 +996,7 @@
   <value>Возможное использование в аргументе макроса</value>
 </data>
 <data name="ShowNonPublicCompiledItemsInGoToResultsSettingDescription" xml:space="preserve">
-  <value>Показывать не-public скомпилированные элементы в результатах «Перейти к…»</value>
+  <value>Показывать не-public скомпилированные элементы в результатах «Перейти к...»</value>
 </data>
 <data name="ShowFunctionSignaturesSettingDescription" xml:space="preserve">
   <value>Показывать сигнатуры функций</value>
@@ -1038,7 +1038,7 @@
   <value>Предложение</value>
 </data>
 <data name="GenerateOption_ImplementIComparableInterface_Text" xml:space="preserve">
-  <value>Реализовать интерфейс IComparable(&amp;I)</value>
+  <value>Реализовать интерфейс IComparable &amp;I)</value>
 </data>
 <data name="DependsOnMainFileSettingDescription" xml:space="preserve">
   <value>Зависит от основного файла</value>
@@ -1089,7 +1089,7 @@
   <value>Запуск внешних инструментов очистки</value>
 </data>
 <data name="InspectActionGroupText" xml:space="preserve">
-  <value>Проверить(&amp;I)</value>
+  <value>Проверить &amp;I)</value>
 </data>
 <data name="FileMaskEGXmlHtml_Text" xml:space="preserve">
   <value>Маска файла (например, *.xml; *.html):</value>
@@ -1143,7 +1143,7 @@
   <value>Сообщать о вызовах общих методов</value>
 </data>
 <data name="INcludeLibraryTypes_Text" xml:space="preserve">
-  <value>Включать типы библиотек(&amp;N)</value>
+  <value>Включать типы библиотек &amp;N)</value>
 </data>
 <data name="EvaluatesFullNameOfTheCurrentUserMacroDefinition_Description" xml:space="preserve">
   <value>Полное имя текущего пользователя</value>
@@ -1224,7 +1224,7 @@
   <value>Невозможно добавить параметр в {0}</value>
 </data>
 <data name="GenerateOption_FieldsCanBeNull_Text" xml:space="preserve">
-  <value>Поля могут быть null(&amp;N)</value>
+  <value>Поля могут быть null &amp;N)</value>
 </data>
 <data name="FailedToReferenceModuleProbablyReference_Text" xml:space="preserve">
   <value>Не удалось сослаться на модуль. Ссылка может создать циклические зависимости между проектами.</value>
@@ -1258,7 +1258,7 @@
   <value>Язык</value>
 </data>
 <data name="SearchScope_CurrentProject_Text" xml:space="preserve">
-  <value>Текущий проект(&amp;P)</value>
+  <value>Текущий проект &amp;P)</value>
 </data>
 <data name="RecentEditsCountSettingDescription" xml:space="preserve">
   <value>Количество последних правок</value>
@@ -1489,7 +1489,7 @@
   <value>Показать дополнительные параметры</value>
 </data>
 <data name="FindActionGroupText" xml:space="preserve">
-  <value>Найти(&amp;F)</value>
+  <value>Найти &amp;F)</value>
 </data>
 <data name="InlayHintsGeneralOptionsPage_Enable_Inlay_Hints_in__NET_languages" xml:space="preserve">
   <value>Включить встроенные подсказки в языках .NET</value>
@@ -1642,7 +1642,7 @@
   <value>Файлы и папки:</value>
 </data>
 <data name="SearchScope_SolutionAndLibraries_Text" xml:space="preserve">
-  <value>Решение и библиотеки(&amp;L)</value>
+  <value>Решение и библиотеки &amp;L)</value>
 </data>
 <data name="FindResults_Text" xml:space="preserve">
   <value>Результаты поиска</value>
@@ -1699,7 +1699,7 @@
   <value>Путь</value>
 </data>
 <data name="GenerateOption_ComparandTypeCheck_Text" xml:space="preserve">
-  <value>Проверка типа сравнения(&amp;T)</value>
+  <value>Проверка типа сравнения &amp;T)</value>
 </data>
 <data name="UsageInDocumentation_Text" xml:space="preserve">
   <value>Использование в документации</value>
@@ -1750,7 +1750,7 @@
   <value>Маски файлов и каталогов для пропуска</value>
 </data>
 <data name="ProcessingReferences_Text" xml:space="preserve">
-  <value>Обработка ссылок…</value>
+  <value>Обработка ссылок...</value>
 </data>
 <data name="AlwaysSearchForConcreteGenericType_Description_Text" xml:space="preserve">
   <value>Всегда искать конкретный универсальный тип</value>
@@ -1915,7 +1915,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Производный</value>
 </data>
 <data name="CheckingPreviouslyRenamedUsagesInThe_Text" xml:space="preserve">
-  <value>Проверка ранее переименованных использований в том же файле…</value>
+  <value>Проверка ранее переименованных использований в том же файле...</value>
 </data>
 <data name="ImportsOptimization_KeepNonTrivialOption_Text" xml:space="preserve">
   <value>Оставлять псевдонимы, если они отличаются от имени символа (например, '{0}')(_K)</value>
@@ -1978,7 +1978,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Завершать при нажатии пробела</value>
 </data>
 <data name="UpdatingCaches_Text" xml:space="preserve">
-  <value>Обновление кэшей…</value>
+  <value>Обновление кэшей...</value>
 </data>
 <data name="ShowAllCandidatesInParameterInfoPopupSettingDescription" xml:space="preserve">
   <value>Показывать всех кандидатов во всплывающем окне информации о параметрах</value>
@@ -2104,7 +2104,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Анализ недоступен</value>
 </data>
 <data name="SHrinkSelectionActionText" xml:space="preserve">
-  <value>Сжать выделение(&amp;H)</value>
+  <value>Сжать выделение &amp;H)</value>
 </data>
 <data name="IntroduceLocalVariableRefactoringSettingsRegardingTheUseOfThevarKeywordRatherThanExplicitTypeSettingDescription" xml:space="preserve">
   <value>Настройки рефакторинга «Ввести локальную переменную», касающиеся использования ключевого слова 'var' вместо явного типа</value>
@@ -2170,7 +2170,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Экранировать вставленный текст в зависимости от контекста</value>
 </data>
 <data name="CqrsRequiresSwaButtonText" xml:space="preserve">
-  <value>Включить анализ на уровне решения(&amp;A)</value>
+  <value>Включить анализ на уровне решения &amp;A)</value>
 </data>
 <data name="EvaluatesPrimaryFileNameWithoutExtensionWithAllNonAlphanumericReplacedWithUnderscoresMacroDefinition_LongDescription" xml:space="preserve">
   <value>Вычисляет основное имя файла без расширения, все не буквенно-цифровые символы заменены на подчеркивания</value>
@@ -2260,7 +2260,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Идентификатор файла закладки</value>
 </data>
 <data name="LoadingSuggestions_Text" xml:space="preserve">
-  <value>Загрузка предложений…</value>
+  <value>Загрузка предложений...</value>
 </data>
 <data name="Parameter_Of__Text" xml:space="preserve">
   <value>Параметр {0} из {1}</value>
@@ -2494,7 +2494,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Пробел вокруг '='</value>
 </data>
 <data name="ActionTextMultipleChoices_Text" xml:space="preserve">
-  <value>{0} (множественный выбор…)?</value>
+  <value>{0} (множественный выбор...)?</value>
 </data>
 <data name="ReadSettingsFromEditorconfigAndProjectSettingsSettingDescription" xml:space="preserve">
   <value>Читать настройки из editorconfig и настроек проекта</value>
@@ -2614,7 +2614,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>ReSharper полностью проигнорирует все файлы, указанные здесь. Обратите внимание, что все символы в этих файлах также будут проигнорированы.</value>
 </data>
 <data name="Configure_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="HighlightContextExitsSettingDescription" xml:space="preserve">
   <value>Выделять выходы из контекста</value>
@@ -2626,7 +2626,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Использований не найдено</value>
 </data>
 <data name="InspectThis_Action_Name_Text" xml:space="preserve">
-  <value>Проверить это…</value>
+  <value>Проверить это...</value>
 </data>
 <data name="SuggestersStateSettingDescription" xml:space="preserve">
   <value>Состояние средств предложения</value>
@@ -2852,7 +2852,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Переформатировать код</value>
 </data>
 <data name="CollectingFilesToProcess_Text" xml:space="preserve">
-  <value>Сбор файлов для обработки…</value>
+  <value>Сбор файлов для обработки...</value>
 </data>
 <data name="CannotRenameVirtualElementsLikeValue_Text" xml:space="preserve">
   <value>Нельзя переименовать виртуальные элементы (например, параметр value в свойствах)</value>
@@ -2996,7 +2996,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Фильтровать интерфейсы</value>
 </data>
 <data name="ScanningHierarchyFor__Text" xml:space="preserve">
-  <value>Сканирование иерархии для {0}…</value>
+  <value>Сканирование иерархии для {0}...</value>
 </data>
 <data name="CustomFilterStateSettingDescription" xml:space="preserve">
   <value>Состояние пользовательского фильтра</value>
@@ -3197,7 +3197,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Автоматически завершать элементы в завершении импорта</value>
 </data>
 <data name="ApplyingInScope1Match_Text" xml:space="preserve">
-  <value>Применение в области… 1 совпадение</value>
+  <value>Применение в области... 1 совпадение</value>
 </data>
 <data name="TemplateProvidersListDisabledEnabledListSettingDescription" xml:space="preserve">
   <value>Список поставщиков шаблонов отключен/включен</value>
@@ -3598,7 +3598,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Текстовое вхождение</value>
 </data>
 <data name="ExcludingFiles_Text" xml:space="preserve">
-  <value>Исключение файлов…</value>
+  <value>Исключение файлов...</value>
 </data>
 <data name="PressTabOrEnterToMoveToNextField_Text" xml:space="preserve">
   <value>Нажмите Tab или Enter для перехода к следующему полю</value>
@@ -3718,7 +3718,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Заполнитель</value>
 </data>
 <data name="ApplyingInScope_Matches_Text" xml:space="preserve">
-  <value>Применение в области… {0} совпадений</value>
+  <value>Применение в области... {0} совпадений</value>
 </data>
 <data name="Error_Description_Text" xml:space="preserve">
   <value>Ошибка</value>
@@ -3967,7 +3967,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Не удалось добавить поле в {0}</value>
 </data>
 <data name="ApplyingInScope_Text" xml:space="preserve">
-  <value>Применение в области…</value>
+  <value>Применение в области...</value>
 </data>
 <data name="XmlDocSection_Bug_Text" xml:space="preserve">
   <value>Ошибка</value>
@@ -4021,7 +4021,7 @@ Shift+Tab — перейти к предыдущему элементу кода
   <value>Вычисление индекса ресурсов</value>
 </data>
 <data name="RestoringSavedResults_Text" xml:space="preserve">
-  <value>Восстановление сохраненных результатов…</value>
+  <value>Восстановление сохраненных результатов...</value>
 </data>
 <data name="RenameOf_Into__Text" xml:space="preserve">
   <value>Переименовать '{0}' в '{1}'</value>
@@ -4246,7 +4246,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Включить проверку кода SQL</value>
 </data>
 <data name="SearchingFor_Usages_Text" xml:space="preserve">
-    <value>Поиск использований {0} '{1}'…</value>
+    <value>Поиск использований {0} '{1}'...</value>
 </data>
 <data name="Success_Text" xml:space="preserve">
     <value>Успешно</value>
@@ -4284,7 +4284,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Объявления не найдены</value>
 </data>
 <data name="BrowseStackTraceActionText" xml:space="preserve">
-    <value>Просмотреть трассировку стека (&amp;B)…</value>
+    <value>Просмотреть трассировку стека (&amp;B)...</value>
 </data>
 <data name="RenameThisOverload_Text" xml:space="preserve">
     <value>Переименовать эту перегрузку</value>
@@ -4439,7 +4439,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Общие</value>
 </data>
 <data name="UseSmartCompletionToShowAll_Text" xml:space="preserve">
-    <value>… использовать умное завершение, чтобы показать все</value>
+    <value>... использовать умное завершение, чтобы показать все</value>
 </data>
 <data name="ShowUsagesOfSymbolPopup_Description_Text" xml:space="preserve">
     <value>Показать всплывающее окно "Использование символа"</value>
@@ -4493,7 +4493,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Вычисляет имя текущего решения</value>
 </data>
 <data name="PreparingTheListOfItemsPleaseWait_Text" xml:space="preserve">
-    <value>Подготовка списка элементов, пожалуйста, подождите…</value>
+    <value>Подготовка списка элементов, пожалуйста, подождите...</value>
 </data>
 <data name="ToProperIndentPosition_Description_Text" xml:space="preserve">
     <value>На правильную позицию отступа</value>

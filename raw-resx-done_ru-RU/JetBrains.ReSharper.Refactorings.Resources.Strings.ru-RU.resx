@@ -127,10 +127,10 @@
     <value>Переименовать файл и обновить ссылки на него</value>
   </data>
   <data name="ExtensionMethodToPlainStaticActionText" xml:space="preserve">
-    <value>Метод расширения в обычный статический…</value>
+    <value>Метод расширения в обычный статический...</value>
   </data>
   <data name="AdjustNamespacesActionText" xml:space="preserve">
-    <value>Настроить пространства имён…</value>
+    <value>Настроить пространства имён...</value>
   </data>
   <data name="UseInputContextClass_DescriptionText" xml:space="preserve">
     <value>Использовать тот же параметр в качестве входного</value>
@@ -163,7 +163,7 @@
     <value>Анонимные типы не могут пересекать границу извлечённого блока</value>
   </data>
   <data name="RemovingUnusedUsings_Text" xml:space="preserve">
-    <value>Удаление неиспользуемых using…</value>
+    <value>Удаление неиспользуемых using...</value>
   </data>
   <data name="SearchIn_commentsAndStringLiterals_Text" xml:space="preserve">
     <value>Искать в комментариях и строковых литералах (_C)</value>
@@ -223,7 +223,7 @@
     <value>Использовать выбранное выражение в качестве источника</value>
   </data>
   <data name="ExtractMethodActionText" xml:space="preserve">
-    <value>Извлечь метод…</value>
+    <value>Извлечь метод...</value>
   </data>
   <data name="PartialDeclarationInFile_IsNotIncluded_Text" xml:space="preserve">
     <value>Частичное объявление в файле {0} не включено</value>
@@ -241,7 +241,7 @@
     <value>Индексатор в функцию</value>
   </data>
   <data name="PreparingNewArguments_Text" xml:space="preserve">
-    <value>Подготовка новых аргументов…</value>
+    <value>Подготовка новых аргументов...</value>
   </data>
   <data name="_FromDeletedElementOverridesAbstract_Text" xml:space="preserve">
     <value>{0} из удалённого элемента переопределяет abstract {1}</value>
@@ -274,10 +274,10 @@
     <value>Проверка и исправление использования</value>
   </data>
   <data name="ScanningFiles_Text" xml:space="preserve">
-    <value>Сканирование файлов…</value>
+    <value>Сканирование файлов...</value>
   </data>
   <data name="CheckingForHiddenMembers_Text" xml:space="preserve">
-    <value>Проверка скрытых членов…</value>
+    <value>Проверка скрытых членов...</value>
   </data>
   <data name="SourceClass_Text" xml:space="preserve">
     <value>Исходный класс:</value>
@@ -307,7 +307,7 @@
     <value>Конструктор в фабричный метод</value>
   </data>
   <data name="RemoveParamsModifierActionText" xml:space="preserve">
-    <value>Удалить модификатор 'params' из параметра…</value>
+    <value>Удалить модификатор 'params' из параметра...</value>
   </data>
   <data name="MethodBodyWillHaveErrorsBecauseItUsesMembers_Text" xml:space="preserve">
     <value>Тело метода будет содержать ошибки, поскольку оно использует члены экземпляра</value>
@@ -325,7 +325,7 @@
     <value>Предпросмотр:</value>
   </data>
   <data name="ConvertPropertyToAutoProperty_Text" xml:space="preserve">
-    <value>Преобразовать свойство в автоматическое свойство…</value>
+    <value>Преобразовать свойство в автоматическое свойство...</value>
   </data>
   <data name="NameIsInvalid_Text" xml:space="preserve">
     <value>Недопустимое имя</value>
@@ -352,7 +352,7 @@
     <value>Рефакторингу не удалось создать объявление базового типа</value>
   </data>
   <data name="InvertBooleanActionText" xml:space="preserve">
-    <value>Инвертировать логическое значение…</value>
+    <value>Инвертировать логическое значение...</value>
   </data>
   <data name="FileName_IsAlreadyUsedForAnotherMoved_Text" xml:space="preserve">
     <value>Имя файла '{0}' уже используется для другого перемещённого объявления</value>
@@ -391,13 +391,13 @@
     <value>Переименовать файл (&amp;I)</value>
   </data>
   <data name="FixingCode_Text" xml:space="preserve">
-    <value>Исправление кода…</value>
+    <value>Исправление кода...</value>
   </data>
   <data name="InvertBooleanValue_Text" xml:space="preserve">
     <value>Инвертировать логическое значение</value>
   </data>
   <data name="AnalyseTypeParameters_Text" xml:space="preserve">
-    <value>Анализ параметров типа…</value>
+    <value>Анализ параметров типа...</value>
   </data>
   <data name="NewClassWithPublicFields_DescriptionText" xml:space="preserve">
     <value>Новый класс с public полями</value>
@@ -451,7 +451,7 @@
     <value>Не удалось сгенерировать предложения по именам</value>
   </data>
   <data name="MethodToPropertyActionText" xml:space="preserve">
-    <value>Метод в свойство…</value>
+    <value>Метод в свойство...</value>
   </data>
   <data name="InvalidTupleComponentName_Text" xml:space="preserve">
     <value>Недопустимое имя компонента кортежа</value>
@@ -496,7 +496,7 @@
     <value>Навигация</value>
   </data>
   <data name="PropertyToAutoPropertyActionText" xml:space="preserve">
-    <value>Свойство в автоматическое свойство…</value>
+    <value>Свойство в автоматическое свойство...</value>
   </data>
   <data name="Expression_Text" xml:space="preserve">
     <value>Выражение</value>
@@ -517,7 +517,7 @@
     <value>Извлечь члены в частичный тип</value>
   </data>
   <data name="SearchingUsages_Text" xml:space="preserve">
-    <value>Поиск использований…</value>
+    <value>Поиск использований...</value>
   </data>
   <data name="AbstractClassToInterface_Text" xml:space="preserve">
     <value>Abstract класс в интерфейс</value>
@@ -538,7 +538,7 @@
     <value>{0} будет реализовывать {1}</value>
   </data>
   <data name="SearchConflictsWithExistingMembers_Text" xml:space="preserve">
-    <value>Поиск конфликтов с существующими членами…</value>
+    <value>Поиск конфликтов с существующими членами...</value>
   </data>
   <data name="Parameter_CreatedIn___Text" xml:space="preserve">
     <value>Параметр '{0}' создан в {1} '{2}'</value>
@@ -550,7 +550,7 @@
     <value>Конструктор</value>
   </data>
   <data name="MakeMethodStaticActionText" xml:space="preserve">
-    <value>Сделать метод статическим…</value>
+    <value>Сделать метод статическим...</value>
   </data>
   <data name="CreateDelegatingWrapper_DescriptionText" xml:space="preserve">
     <value>Создать делегирующую обёртку</value>
@@ -565,13 +565,13 @@
     <value>{0} является последним конструктором. Он вызывает конструктор базового класса, а базовый класс не имеет конструктора по умолчанию.</value>
   </data>
   <data name="StaticToExtensionMethodActionText" xml:space="preserve">
-    <value>Статический в метод расширения…</value>
+    <value>Статический в метод расширения...</value>
   </data>
   <data name="SpecifyHowToCreateNewFiles_Text" xml:space="preserve">
     <value>Как создавать новые файлы:</value>
   </data>
   <data name="StoringUsagesOfMovedSymbols_Text" xml:space="preserve">
-    <value>Сохранение использований перемещённых символов…</value>
+    <value>Сохранение использований перемещённых символов...</value>
   </data>
   <data name="ClassNa_me_Text" xml:space="preserve">
     <value>Имя класса (_M):</value>
@@ -610,13 +610,13 @@
     <value>Не удалось встроить {{0, использование}}. Не удалось ввести nullable значение типа '{0}'.</value>
   </data>
   <data name="ReplacingFieldReferences_Text" xml:space="preserve">
-    <value>Замена ссылок на поле…</value>
+    <value>Замена ссылок на поле...</value>
   </data>
   <data name="Folder_Exists_Text" xml:space="preserve">
     <value>Папка '{0}' уже существует</value>
   </data>
   <data name="CollectingMovedFiles_Text" xml:space="preserve">
-    <value>Сбор перемещённых файлов…</value>
+    <value>Сбор перемещённых файлов...</value>
   </data>
   <data name="Remove_WHOLEHierarchy_Text" xml:space="preserve">
     <value>Удалить всю иерархию (_W)</value>
@@ -634,7 +634,7 @@
     <value>Сгенерировать изменяемые свойства (_M)</value>
   </data>
   <data name="Scanning__Text" xml:space="preserve">
-    <value>Сканирование: {0}…</value>
+    <value>Сканирование: {0}...</value>
   </data>
   <data name="TransformParameters_Text" xml:space="preserve">
     <value>Преобразовать параметры</value>
@@ -652,7 +652,7 @@
     <value>Группировать по типу</value>
   </data>
   <data name="SearchingForUsagesAndTextualOccurences_Text" xml:space="preserve">
-    <value>Поиск использований и текстовых вхождений…</value>
+    <value>Поиск использований и текстовых вхождений...</value>
   </data>
   <data name="Removed_IsQuasiImplementedBy_ThatWill_Text" xml:space="preserve">
     <value>Удалённый {0} квази-реализуется {1}, который не будет удалён. Пожалуйста, разрешите конфликт вручную.</value>
@@ -670,16 +670,16 @@
     <value>{0:N0} / {1:N0}</value>
   </data>
   <data name="RegisteringNewCopies_Text" xml:space="preserve">
-    <value>Регистрация новых копий…</value>
+    <value>Регистрация новых копий...</value>
   </data>
   <data name="PasteDeclarations_Text" xml:space="preserve">
-    <value>Вставить объявления…</value>
+    <value>Вставить объявления...</value>
   </data>
   <data name="DefaultParameterValue_Text" xml:space="preserve">
     <value> Значение параметра по умолчанию</value>
   </data>
   <data name="UpdatingLocalReferences_Text" xml:space="preserve">
-    <value>Обновление локальных ссылок…</value>
+    <value>Обновление локальных ссылок...</value>
   </data>
   <data name="NoAppropriateInheritorsWereFoundRefactoring_Text" xml:space="preserve">
     <value>Подходящие наследники не найдены. Рефакторинг будет прерван.</value>
@@ -703,7 +703,7 @@
     <value>Использования:</value>
   </data>
   <data name="ExtractClassActionText" xml:space="preserve">
-    <value>Извлечь класс…</value>
+    <value>Извлечь класс...</value>
   </data>
   <data name="Property_Text" xml:space="preserve">
     <value>Свойство</value>
@@ -721,7 +721,7 @@
     <value>Следующие параметры будут добавлены (_A):</value>
   </data>
   <data name="FixingOverrides_Text" xml:space="preserve">
-    <value>Исправление переопределений…</value>
+    <value>Исправление переопределений...</value>
   </data>
   <data name="ProjectIsNullForThisFolder_Text" xml:space="preserve">
     <value>Проект для этой папки равен null</value>
@@ -730,7 +730,7 @@
     <value>Произошла ошибка</value>
   </data>
   <data name="ExtractSuperclassActionText" xml:space="preserve">
-    <value>Извлечь суперкласс…</value>
+    <value>Извлечь суперкласс...</value>
   </data>
   <data name="WriteUsageIsFoundButInitialization_Text" xml:space="preserve">
     <value>Найдено {0, использование для записи}, но не удалось извлечь выражение инициализации</value>
@@ -742,7 +742,7 @@
     <value>Оставить код некомпилируемым, я сам исправлю вызовы (_M)</value>
   </data>
   <data name="ValidatingUsagesOfSymbols_Of__Text" xml:space="preserve">
-    <value>Проверка использований символов ({0:N0}/{1:N0})…</value>
+    <value>Проверка использований символов ({0:N0}/{1:N0})...</value>
   </data>
   <data name="UseBaseTypeWherePossible_Text" xml:space="preserve">
     <value>Использовать базовый тип, где это возможно</value>
@@ -760,7 +760,7 @@
     <value>'{0}' является членом иерархии. Что вы хотите сделать?</value>
   </data>
   <data name="GeneratingNewFiles_Text" xml:space="preserve">
-    <value>Создание новых файлов…</value>
+    <value>Создание новых файлов...</value>
   </data>
   <data name="NewRecordClass_DescriptionText" xml:space="preserve">
     <value>Новый класс-запись</value>
@@ -781,13 +781,13 @@
     <value>Имя папки проекта отличается от имени проекта и не может быть переименовано</value>
   </data>
   <data name="ProcessingReference_Of__Text" xml:space="preserve">
-    <value>Обработка ссылки {0:N0}/{1:N0}…</value>
+    <value>Обработка ссылки {0:N0}/{1:N0}...</value>
   </data>
   <data name="ReplacingReferences_Text" xml:space="preserve">
-    <value>Замена ссылок…</value>
+    <value>Замена ссылок...</value>
   </data>
   <data name="UpdatingDeclarations_Text" xml:space="preserve">
-    <value>Обновление объявлений…</value>
+    <value>Обновление объявлений...</value>
   </data>
   <data name="ConvertedInterfaceIsImplementedBy_That_Text" xml:space="preserve">
     <value>Преобразованный интерфейс реализуется {0}, который не наследуется от System.Object</value>
@@ -796,7 +796,7 @@
     <value>Поиск наследников</value>
   </data>
   <data name="ExtractingDeclarationsFromSourceFiles_Text" xml:space="preserve">
-    <value>Извлечение объявлений из исходных файлов…</value>
+    <value>Извлечение объявлений из исходных файлов...</value>
   </data>
   <data name="Name_ShouldBeUsedForType__Text" xml:space="preserve">
     <value>Имя '{0}' должно использоваться для типа {{0}}</value>
@@ -805,7 +805,7 @@
     <value>Путь содержит недопустимые символы</value>
   </data>
   <data name="ChangeSignatureActionText" xml:space="preserve">
-    <value>Изменить сигнатуру…</value>
+    <value>Изменить сигнатуру...</value>
   </data>
   <data name="UnableToChangeSignatureOf0Element_Text" xml:space="preserve">
     <value>Не удалось изменить сигнатуру {0, элемента}</value>
@@ -829,7 +829,7 @@
     <value>Переименовать ссылки на проект в исходном коде</value>
   </data>
   <data name="CheckingForDerivedFileRenames_Text" xml:space="preserve">
-    <value>Проверка имён файлов, совпадающих с именами производных типов…</value>
+    <value>Проверка имён файлов, совпадающих с именами производных типов...</value>
   </data>
   <data name="AutoPropertyWillBeTransformedIntoProperty_Text" xml:space="preserve">
     <value>{0, автоматическое свойство} будет преобразовано в свойство с опорным полем</value>
@@ -844,10 +844,10 @@
     <value>Инкапсулировать поле (&amp;C)</value>
   </data>
   <data name="PostProcessingMovedFiles_Text" xml:space="preserve">
-    <value>Постобработка перемещённых файлов…</value>
+    <value>Постобработка перемещённых файлов...</value>
   </data>
   <data name="InlineActionText" xml:space="preserve">
-    <value>Встроить…</value>
+    <value>Встроить...</value>
   </data>
   <data name="RenameFile_Text" xml:space="preserve">
     <value>Переименовать файл</value>
@@ -856,7 +856,7 @@
     <value>{0} ({1} символов)</value>
   </data>
   <data name="InterfaceToAbstractClassActionText" xml:space="preserve">
-    <value>Интерфейс в abstract класс…</value>
+    <value>Интерфейс в abstract класс...</value>
   </data>
   <data name="UnableToInline0DeconstructionUsage_Text" xml:space="preserve">
     <value>Не удалось встроить {0, использование деконструкции}</value>
@@ -871,7 +871,7 @@
     <value>Рефакторинг обнаружил, что следует добавить дополнительные ссылки</value>
   </data>
   <data name="CheckingForConflictsBeforeRefactoring_Text" xml:space="preserve">
-    <value>Проверка конфликтов перед рефакторингом…</value>
+    <value>Проверка конфликтов перед рефакторингом...</value>
   </data>
   <data name="_IsAlreadyDeclaredWithAnotherType_Text" xml:space="preserve">
     <value>{0} уже объявлен с другим типом</value>
@@ -940,7 +940,7 @@
     <value>Параметр '{0}' повторяется, он будет переименован в '{1}'</value>
   </data>
   <data name="FinalCheckingForConflicts_Text" xml:space="preserve">
-    <value>Финальная проверка на наличие конфликтов…</value>
+    <value>Финальная проверка на наличие конфликтов...</value>
   </data>
   <data name="WhetherToIgnoreAnyReferencesWhenFileIsRenamedSettingDescription" xml:space="preserve">
     <value>Игнорировать ли любые ссылки при переименовании файла</value>
@@ -967,7 +967,7 @@
     <value>Удалённый {0} также реализует {1}, который не будет удалён. Пожалуйста, разрешите конфликт вручную.</value>
   </data>
   <data name="SearchingReferences_Text" xml:space="preserve">
-    <value>Поиск ссылок…</value>
+    <value>Поиск ссылок...</value>
   </data>
   <data name="PlaceTopLevelSettingDescription" xml:space="preserve">
     <value>Разместить на верхнем уровне</value>
@@ -976,7 +976,7 @@
     <value>Если какие-либо использования {0} не могут быть безопасно удалены, вы сможете проверить это на следующем шаге</value>
   </data>
   <data name="CheckingNewNames_Text" xml:space="preserve">
-    <value>Проверка новых имён…</value>
+    <value>Проверка новых имён...</value>
   </data>
   <data name="ReplaceInitialNamespaceOnly_Text" xml:space="preserve">
     <value>Заменять только начальное пространство имён</value>
@@ -1018,7 +1018,7 @@
     <value>Выберите базовый тип и члены</value>
   </data>
   <data name="CutDeclarations_Text" xml:space="preserve">
-    <value>Вырезать объявления…</value>
+    <value>Вырезать объявления...</value>
   </data>
   <data name="_StaticMembersToMove_Text" xml:space="preserve">
     <value>Статические члены для перемещения (_S):</value>
@@ -1027,7 +1027,7 @@
     <value>Видимость (_V):</value>
   </data>
   <data name="_HasInitializerAnd_WriteUsageS1First_Text" xml:space="preserve">
-    <value>{{0}} имеет инициализатор и {0} использований для записи: {{1,Первое использование для записи}}…</value>
+    <value>{{0}} имеет инициализатор и {0} использований для записи: {{1,Первое использование для записи}}...</value>
   </data>
   <data name="ChangeSignatureIsAppliedTo_ThatAlsoOverrides_Text" xml:space="preserve">
     <value>"Изменение сигнатуры" применено к {0}, который также переопределяет {1}, который не будет изменён. Пожалуйста, разрешите конфликт вручную.</value>
@@ -1042,7 +1042,7 @@
     <value>Рефакторинг этого</value>
   </data>
   <data name="SearchingUsagesOfMovedSymbols_Text" xml:space="preserve">
-    <value>Поиск использований перемещённых символов…</value>
+    <value>Поиск использований перемещённых символов...</value>
   </data>
   <data name="ConvertMethodToIndexer_Text" xml:space="preserve">
     <value>Преобразовать метод в индексатор</value>
@@ -1063,7 +1063,7 @@
     <value>Имя типа не должно быть пустым</value>
   </data>
   <data name="UseBaseTypeWherePossibleActionText" xml:space="preserve">
-    <value>Использовать базовый тип, где это возможно…</value>
+    <value>Использовать базовый тип, где это возможно...</value>
   </data>
   <data name="RenameProject_Text" xml:space="preserve">
     <value>Переименовать проект</value>
@@ -1078,7 +1078,7 @@
     <value>Введите имя локальной функции</value>
   </data>
   <data name="PushMembersDownActionText" xml:space="preserve">
-    <value>Опустить члены вниз…</value>
+    <value>Опустить члены вниз...</value>
   </data>
   <data name="SearchFor_usages_Text" xml:space="preserve">
     <value>Поиск использований (_U)</value>
@@ -1087,10 +1087,10 @@
     <value>Выберите целевой базовый тип (_B):</value>
   </data>
   <data name="UpdatingCaches_Text" xml:space="preserve">
-    <value>Обновление кэшей…</value>
+    <value>Обновление кэшей...</value>
   </data>
   <data name="StoringSuspiciousReferences_Text" xml:space="preserve">
-    <value>Сохранение подозрительных ссылок…</value>
+    <value>Сохранение подозрительных ссылок...</value>
   </data>
   <data name="MethodBodyWillHaveErrorsBecauseItUsesCaptures_Text" xml:space="preserve">
     <value>Тело метода будет содержать ошибки, поскольку некоторые используемые значения недоступны через 'this'</value>
@@ -1114,10 +1114,10 @@
     <value>Тип не может быть разрешён</value>
   </data>
   <data name="EncapsulateFieldActionText" xml:space="preserve">
-    <value>Инкапсулировать поле…</value>
+    <value>Инкапсулировать поле...</value>
   </data>
   <data name="SearchingOverrides_Text" xml:space="preserve">
-    <value>Поиск переопределений…</value>
+    <value>Поиск переопределений...</value>
   </data>
   <data name="MoveInstanceMethod_Text" xml:space="preserve">
     <value>Переместить метод экземпляра</value>
@@ -1132,7 +1132,7 @@
     <value>Не удалось обновить объявление переопределения</value>
   </data>
   <data name="GeneratingUsingDirectives_Text" xml:space="preserve">
-    <value>Генерация using директив…</value>
+    <value>Генерация using директив...</value>
   </data>
   <data name="Convert_setterToMethodWithName_Text" xml:space="preserve">
     <value>Преобразовать сеттер в метод с именем (_S):</value>
@@ -1168,7 +1168,7 @@
     <value>Выберите элемент </value>
   </data>
   <data name="AnonymousToNamedTypeActionText" xml:space="preserve">
-    <value>Преобразовать анонимный тип в именованный…</value>
+    <value>Преобразовать анонимный тип в именованный...</value>
   </data>
   <data name="RenameRoot_namespace__Text" xml:space="preserve">
     <value>Переименовать корневое пространство имён {0} (_N)</value>
@@ -1177,7 +1177,7 @@
     <value>{0,элемент} имеет переопределения</value>
   </data>
   <data name="MakingClassesAbstract_Text" xml:space="preserve">
-    <value>Преобразование классов в abstract…</value>
+    <value>Преобразование классов в abstract...</value>
   </data>
   <data name="ParameterN_ame_Text" xml:space="preserve">
     <value>Имя параметра (_A):</value>
@@ -1195,7 +1195,7 @@
     <value>Переместить в папку (&amp;R)</value>
   </data>
   <data name="ExtractMembersToPartialActionText" xml:space="preserve">
-    <value>Извлечь члены в частичный тип…</value>
+    <value>Извлечь члены в частичный тип...</value>
   </data>
   <data name="SourceClassMember_Column_Text" xml:space="preserve">
     <value>Член исходного класса</value>
@@ -1219,7 +1219,7 @@
     <value>Введите имя класса и метода</value>
   </data>
   <data name="PullMembersUpActionText" xml:space="preserve">
-    <value>Поднять члены вверх…</value>
+    <value>Поднять члены вверх...</value>
   </data>
   <data name="CopyingDeclarations_Text" xml:space="preserve">
     <value>Копирование объявлений:</value>
@@ -1231,7 +1231,7 @@
     <value>Не удалось сохранить иерархию для объявления – используйте опцию размещения в отдельных файлах</value>
   </data>
   <data name="CheckingForNewOverridesImplementationsInBase_Text" xml:space="preserve">
-    <value>Проверка новых переопределений/реализаций в базовых типах…</value>
+    <value>Проверка новых переопределений/реализаций в базовых типах...</value>
   </data>
   <data name="MethodNa_me_Text" xml:space="preserve">
     <value>Имя метода (_M):</value>
@@ -1261,7 +1261,7 @@
     <value>Выберите параметры конструктора</value>
   </data>
   <data name="ScanningProject_Of__Text" xml:space="preserve">
-    <value>Сканирование проекта ({0:N0}/{1:N0})…</value>
+    <value>Сканирование проекта ({0:N0}/{1:N0})...</value>
   </data>
   <data name="RemoveParamsModifierRefactoringTitle" xml:space="preserve">
     <value>Удалить модификатор 'params' из параметра</value>
@@ -1282,16 +1282,16 @@
     <value>Имя (_M):</value>
   </data>
   <data name="UpdatingBackingFieldUsages_Text" xml:space="preserve">
-    <value>Обновление использований опорного поля…</value>
+    <value>Обновление использований опорного поля...</value>
   </data>
   <data name="MoveActionText" xml:space="preserve">
-    <value>Переместить…</value>
+    <value>Переместить...</value>
   </data>
   <data name="ReplaceAnonymousTypeWithNamedType_Text" xml:space="preserve">
     <value>Заменить анонимный тип именованным типом</value>
   </data>
   <data name="MakeMethodNonStaticActionText" xml:space="preserve">
-    <value>Сделать метод нестатическим…</value>
+    <value>Сделать метод нестатическим...</value>
   </data>
   <data name="IntroduceField_Text" xml:space="preserve">
     <value>Ввести поле</value>
@@ -1300,7 +1300,7 @@
     <value>Новая папка вложена в исходную папку</value>
   </data>
   <data name="MovingMembers_Text" xml:space="preserve">
-    <value>Перемещение членов…</value>
+    <value>Перемещение членов...</value>
   </data>
   <data name="NewElementIsHiddenBy__Text" xml:space="preserve">
     <value>Новый элемент скрыт {0}</value>
@@ -1330,7 +1330,7 @@
     <value>Конструкторы (_C)</value>
   </data>
   <data name="UpdatingUsages_Text" xml:space="preserve">
-    <value>Обновление использований…</value>
+    <value>Обновление использований...</value>
   </data>
   <data name="_RemoveSourceFile_Text" xml:space="preserve">
     <value>Удалить исходный файл (_R)</value>
@@ -1339,7 +1339,7 @@
     <value>Тип возвращаемого значения (_T):</value>
   </data>
   <data name="AbstractClassToInterfaceActionText" xml:space="preserve">
-    <value>Abstract класс в интерфейс…</value>
+    <value>Abstract класс в интерфейс...</value>
   </data>
   <data name="_HasHandlesClause_Text" xml:space="preserve">
     <value>{0} имеет предложение handles</value>
@@ -1375,10 +1375,10 @@
     <value>Использования</value>
   </data>
   <data name="UpdatingDeclaration_Text" xml:space="preserve">
-    <value>Обновление объявления…</value>
+    <value>Обновление объявления...</value>
   </data>
   <data name="UpdatingOtherReferences_Text" xml:space="preserve">
-    <value>Обновление других ссылок…</value>
+    <value>Обновление других ссылок...</value>
   </data>
   <data name="ReturnValue_DescriptionText" xml:space="preserve">
     <value>Возвращаемое значение</value>
@@ -1411,10 +1411,10 @@
     <value>Конфликты</value>
   </data>
   <data name="CreatingFiles_Text" xml:space="preserve">
-    <value>Создание файлов…</value>
+    <value>Создание файлов...</value>
   </data>
   <data name="ScanningHierarchy_Text" xml:space="preserve">
-    <value>Сканирование иерархии…</value>
+    <value>Сканирование иерархии...</value>
   </data>
   <data name="UpdateExternalFieldUsagesOnlySettingDescription" xml:space="preserve">
     <value>Обновлять только внешние использования полей</value>
@@ -1423,13 +1423,13 @@
     <value>Извлечённый блок имеет выходы в разные точки</value>
   </data>
   <data name="IntroduceFieldActionText" xml:space="preserve">
-    <value>Ввести поле…</value>
+    <value>Ввести поле...</value>
   </data>
   <data name="PushMembersDoWn_Text" xml:space="preserve">
     <value>Опустить члены вниз (&amp;W)</value>
   </data>
   <data name="SearchingForAmbiguitiesInTheTargetType_Text" xml:space="preserve">
-    <value>Поиск неоднозначностей в целевом типе…</value>
+    <value>Поиск неоднозначностей в целевом типе...</value>
   </data>
   <data name="InLineVariable_Text" xml:space="preserve">
     <value>Встроить переменную (&amp;L)</value>
@@ -1465,7 +1465,7 @@
     <value>Язык встроенного объявления - {0}, но язык {{0, использования}} - {1}</value>
   </data>
   <data name="UpdatingSuspiciousReferences_Text" xml:space="preserve">
-    <value>Обновление подозрительных ссылок…</value>
+    <value>Обновление подозрительных ссылок...</value>
   </data>
   <data name="ObjectCreationCannotBeDeleted_Text" xml:space="preserve">
     <value>{0,создание объекта} не может быть удалено</value>
@@ -1510,7 +1510,7 @@
     <value>{0} квази-реализуется {1}, который не будет изменён. Пожалуйста, разрешите конфликт вручную.</value>
   </data>
   <data name="InternalReferences_Text" xml:space="preserve">
-    <value>Внутренние ссылки…</value>
+    <value>Внутренние ссылки...</value>
   </data>
   <data name="ExtractActionGroupText" xml:space="preserve">
     <value>Извлечь</value>
@@ -1522,16 +1522,16 @@
     <value>Безопасное удаление (&amp;F)</value>
   </data>
   <data name="AnalyzingPossibleProblems_Text" xml:space="preserve">
-    <value>Анализ возможных проблем…</value>
+    <value>Анализ возможных проблем...</value>
   </data>
   <data name="InvertValues_insideMember_Text" xml:space="preserve">
     <value>Инвертировать значения внутри члена (_I)</value>
   </data>
   <data name="FixingTypeDeclarations_Text" xml:space="preserve">
-    <value>Исправление объявлений типов…</value>
+    <value>Исправление объявлений типов...</value>
   </data>
   <data name="UpdatingInternalUsages_Text" xml:space="preserve">
-    <value>Обновление внутренних использований…</value>
+    <value>Обновление внутренних использований...</value>
   </data>
   <data name="ThereAreSomeOtherProjectsInSameProjectFolders_Text" xml:space="preserve">
     <value>В одних и тех же папках проекта есть некоторые другие проекты</value>
@@ -1540,10 +1540,10 @@
     <value>Порядок операций может измениться в {0}</value>
   </data>
   <data name="MoveTypesIntoMatchingFilesActionText" xml:space="preserve">
-    <value>Переместить типы в соответствующие файлы…</value>
+    <value>Переместить типы в соответствующие файлы...</value>
   </data>
   <data name="RemovingObsoleteImports_Text" xml:space="preserve">
-    <value>Удаление устаревших импортов…</value>
+    <value>Удаление устаревших импортов...</value>
   </data>
   <data name="Name_Column_Text" xml:space="preserve">
     <value>Имя</value>
@@ -1564,7 +1564,7 @@
     <value>Параметр имеет недопустимый тип</value>
   </data>
   <data name="GeneratingNewCode_Text" xml:space="preserve">
-    <value>Генерация нового кода…</value>
+    <value>Генерация нового кода...</value>
   </data>
   <data name="Folder_AlreadyExists_Text" xml:space="preserve">
     <value>Папка '{0}' уже существует</value>
@@ -1585,7 +1585,7 @@
     <value>{0} (1 символ)</value>
   </data>
   <data name="RefactorThisAction_Title" xml:space="preserve">
-    <value>Рефакторинг этого…</value>
+    <value>Рефакторинг этого...</value>
   </data>
   <data name="_WithGetterAlreadyExists_Text" xml:space="preserve">
     <value>{0} с геттером уже существует</value>
@@ -1618,7 +1618,7 @@
     <value>Встроить</value>
   </data>
   <data name="PreProcessingUsages_Text" xml:space="preserve">
-    <value>Предобработка использований…</value>
+    <value>Предобработка использований...</value>
   </data>
   <data name="_RemoveInlinedMethodDeclaration_Text" xml:space="preserve">
     <value>Удалить объявление встроенного метода (_R)</value>
@@ -1642,7 +1642,7 @@
     <value>Преобразовать метод в свойство</value>
   </data>
   <data name="CreatingProperty_Text" xml:space="preserve">
-    <value>Создание свойства…</value>
+    <value>Создание свойства...</value>
   </data>
   <data name="SplitRefParameterToInAndOut_DescriptionText" xml:space="preserve">
     <value>Разделить параметр ref на in и out</value>
@@ -1654,10 +1654,10 @@
     <value>Параметры (_A):</value>
   </data>
   <data name="AnalysingConflicts_Text" xml:space="preserve">
-    <value>Анализ конфликтов…</value>
+    <value>Анализ конфликтов...</value>
   </data>
   <data name="UpdatingRecursiveCalls_Text" xml:space="preserve">
-    <value>Обновление рекурсивных вызовов…</value>
+    <value>Обновление рекурсивных вызовов...</value>
   </data>
   <data name="CreateANewLocalVariableAndUseIt_DescriptionText" xml:space="preserve">
     <value>Создать новую локальную переменную и использовать её (_L)</value>
@@ -1672,19 +1672,19 @@
     <value>Текущий член (_M)</value>
   </data>
   <data name="CopyTypeActionText" xml:space="preserve">
-    <value>Копировать тип…</value>
+    <value>Копировать тип...</value>
   </data>
   <data name="Introduce_Variable_Text" xml:space="preserve">
     <value>Ввести переменную (&amp;V)</value>
   </data>
   <data name="SetParamsModifierActionText" xml:space="preserve">
-    <value>Добавить модификатор 'params' к параметру…</value>
+    <value>Добавить модификатор 'params' к параметру...</value>
   </data>
   <data name="Make_fieldPrivate_Text" xml:space="preserve">
     <value>Сделать поле приватным (_F)</value>
   </data>
   <data name="BuildingASetOfElementsToRename_Text" xml:space="preserve">
-    <value>Построение набора элементов для переименования…</value>
+    <value>Построение набора элементов для переименования...</value>
   </data>
   <data name="PersistentSettingsForEncapsulateFieldRefactoringSettingDescription" xml:space="preserve">
     <value>Постоянные настройки для рефакторинга 'Инкапсулировать поле'</value>
@@ -1795,7 +1795,7 @@
     <value>Метод расширения в обычный статический</value>
   </data>
   <data name="ExtractMethodPage_LoadingNameSuggestions_Text" xml:space="preserve">
-    <value>Загрузка предложений по именам…</value>
+    <value>Загрузка предложений по именам...</value>
   </data>
   <data name="ExistingClass_DescriptionText" xml:space="preserve">
     <value>Существующий класс</value>
@@ -1834,7 +1834,7 @@
     <value>{0} также переопределяет {1}, который не будет изменён. Пожалуйста, разрешите конфликт вручную.</value>
   </data>
   <data name="IntroduceParameterActionText" xml:space="preserve">
-    <value>Ввести параметр…</value>
+    <value>Ввести параметр...</value>
   </data>
   <data name="_Implements__Text" xml:space="preserve">
     <value>{0} реализует {1}</value>
@@ -1849,7 +1849,7 @@
     <value>Выберите типы, в которые вы хотите переместить члены (_T):</value>
   </data>
   <data name="RenameActionText" xml:space="preserve">
-    <value>Переименовать…</value>
+    <value>Переименовать...</value>
   </data>
   <data name="PropertyNa_me_Text" xml:space="preserve">
     <value>Имя свойства (_M):</value>
@@ -1873,7 +1873,7 @@
     <value>Не применять исправление</value>
   </data>
   <data name="VerifyingSuspiciousReferencesAfterRename_Text" xml:space="preserve">
-    <value>Проверка подозрительных ссылок после переименования…</value>
+    <value>Проверка подозрительных ссылок после переименования...</value>
   </data>
   <data name="IntroduceConstant_DescriptionText" xml:space="preserve">
     <value>Ввести константу (_I)</value>
@@ -1891,7 +1891,7 @@
     <value>Новое имя файла не может быть использовано в качестве допустимого имени типа</value>
   </data>
   <data name="AnalyzingEmptyNamespaces_Text" xml:space="preserve">
-    <value>Анализ пустых пространств имён…</value>
+    <value>Анализ пустых пространств имён...</value>
   </data>
   <data name="UnableToPerformRefactoring_Caption" xml:space="preserve">
     <value>Невозможно выполнить рефакторинг</value>
@@ -1918,7 +1918,7 @@
     <value> чтобы переместить метод {0} в </value>
   </data>
   <data name="CollectingObsoleteUsages_Text" xml:space="preserve">
-    <value>Сбор устаревших использований…</value>
+    <value>Сбор устаревших использований...</value>
   </data>
   <data name="QuickRename_IgnoreAnyReferences_Text" xml:space="preserve">
     <value>Быстрое переименование, игнорировать любые ссылки (_I)</value>
@@ -1927,7 +1927,7 @@
     <value>Обновить вхождения (_O)</value>
   </data>
   <data name="IndexerToMethodActionText" xml:space="preserve">
-    <value>Индексатор в метод…</value>
+    <value>Индексатор в метод...</value>
   </data>
   <data name="FixLinkedFiles_Text" xml:space="preserve">
     <value>Исправить связанные файлы</value>
@@ -1939,7 +1939,7 @@
     <value>Просмотр изменений типов</value>
   </data>
   <data name="SearchingBackingFieldUsages_Text" xml:space="preserve">
-    <value>Поиск использований опорного поля…</value>
+    <value>Поиск использований опорного поля...</value>
   </data>
   <data name="Modifier_Text" xml:space="preserve">
     <value>Модификатор</value>
@@ -1948,7 +1948,7 @@
     <value> Ссылка не может быть инвертирована</value>
   </data>
   <data name="ProcessingUsages_Text" xml:space="preserve">
-    <value>Обработка использований…</value>
+    <value>Обработка использований...</value>
   </data>
   <data name="UnableToUpdateCustomAsyncDeclaration_Text" xml:space="preserve">
     <value>Не удалось обновить асинхронный метод с типом возвращаемого значения, отличным от Task</value>
@@ -2011,7 +2011,7 @@
     <value>"Ввести параметр" применено к {0}, который также реализует {1}, который не будет преобразован. Пожалуйста, разрешите конфликт вручную.</value>
   </data>
   <data name="InlineClassActionText" xml:space="preserve">
-    <value>Встроить класс…</value>
+    <value>Встроить класс...</value>
   </data>
   <data name="Virtual_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
     <value>Virtual {0} уже объявлен в целевом типе</value>
@@ -2056,7 +2056,7 @@
     <value>Инвертировать использования члена (_S)</value>
   </data>
   <data name="MethodToIndexerActionText" xml:space="preserve">
-    <value>Метод в индексатор…</value>
+    <value>Метод в индексатор...</value>
   </data>
   <data name="Module_Lower_Text" xml:space="preserve">
     <value>Модуль</value>
@@ -2074,10 +2074,10 @@
     <value>Заменить одно вхождение</value>
   </data>
   <data name="SearchingForUsages_Text" xml:space="preserve">
-    <value>Поиск использований…</value>
+    <value>Поиск использований...</value>
   </data>
   <data name="Removing_Text" xml:space="preserve">
-    <value>Удаление…</value>
+    <value>Удаление...</value>
   </data>
   <data name="DefaultValue__Text" xml:space="preserve">
     <value>Значение по умолчанию {0}</value>
@@ -2128,13 +2128,13 @@
     <value>Успешно.</value>
   </data>
   <data name="ExtractInterfaceActionText" xml:space="preserve">
-    <value>Извлечь интерфейс…</value>
+    <value>Извлечь интерфейс...</value>
   </data>
   <data name="SearchingExpressionOccurrences_Text" xml:space="preserve">
-    <value>Поиск вхождений выражений…</value>
+    <value>Поиск вхождений выражений...</value>
   </data>
   <data name="CheckingForNewOverridesImplementationsInDerived_Text" xml:space="preserve">
-    <value>Проверка новых переопределений/реализаций в производных типах…</value>
+    <value>Проверка новых переопределений/реализаций в производных типах...</value>
   </data>
   <data name="ThereAreSomeProjectsInSolutionDirectory_Text" xml:space="preserve">
     <value>В каталоге решения есть некоторые проекты. Они не могут быть безопасно удалены.</value>
@@ -2155,10 +2155,10 @@
     <value>Заменить все подсвеченные вхождения начального выражения новой переменной</value>
   </data>
   <data name="Finishing_Text" xml:space="preserve">
-    <value>Завершение…</value>
+    <value>Завершение...</value>
   </data>
   <data name="UpdatingLocalReferencesFor__Text" xml:space="preserve">
-    <value>Обновление локальных ссылок для {0}…</value>
+    <value>Обновление локальных ссылок для {0}...</value>
   </data>
   <data name="MoveToOuterScoPe_Text" xml:space="preserve">
     <value>Переместить во внешнюю область (&amp;P)</value>
@@ -2176,16 +2176,16 @@
     <value>Извлечь блок extension</value>
   </data>
   <data name="AnalysingEmptyNamespaces_Text" xml:space="preserve">
-    <value>Анализ пустых пространств имён…</value>
+    <value>Анализ пустых пространств имён...</value>
   </data>
   <data name="ProcessingCommentsAndStringLiterals_Text" xml:space="preserve">
     <value>Обработка комментариев и строковых литералов</value>
   </data>
   <data name="SafeDeleteActionText" xml:space="preserve">
-    <value>Безопасное удаление…</value>
+    <value>Безопасное удаление...</value>
   </data>
   <data name="SearchingReferencesToFilesThatNeedTo_Text" xml:space="preserve">
-    <value>Поиск ссылок на файлы, которые нужно переименовать…</value>
+    <value>Поиск ссылок на файлы, которые нужно переименовать...</value>
   </data>
   <data name="ProjectFileIsNotValid_Text" xml:space="preserve">
     <value>Файл проекта недействителен</value>
@@ -2200,7 +2200,7 @@
     <value>Нет предложений</value>
   </data>
   <data name="ConstructorToFactoryMethodActionText" xml:space="preserve">
-    <value>Конструктор в фабричный метод…</value>
+    <value>Конструктор в фабричный метод...</value>
   </data>
   <data name="RemoveElementAndAll_INHERITORS_Text" xml:space="preserve">
     <value>Удалить элемент и всех наследников (_I)</value>
@@ -2212,13 +2212,13 @@
     <value>Индексатор</value>
   </data>
   <data name="SearchingConflictsFor__Text" xml:space="preserve">
-    <value>Поиск конфликтов для {0}…</value>
+    <value>Поиск конфликтов для {0}...</value>
   </data>
   <data name="_Targets_Text" xml:space="preserve">
     <value>Цели (_T):</value>
   </data>
   <data name="UpdatingReferencesForRenamedFiles_Text" xml:space="preserve">
-    <value>Обновление ссылок для переименованных файлов…</value>
+    <value>Обновление ссылок для переименованных файлов...</value>
   </data>
   <data name="File_Exists_Text" xml:space="preserve">
     <value>Файл '{0}' уже существует</value>
@@ -2236,7 +2236,7 @@
     <value>Использовать пользовательское значение</value>
   </data>
   <data name="CheckingMemberHidingInDerivedTypes_Text" xml:space="preserve">
-    <value>Проверка скрытия членов в производных типах…</value>
+    <value>Проверка скрытия членов в производных типах...</value>
   </data>
   <data name="_DeleteProjectFolderAndFilesFromThe_Text" xml:space="preserve">
     <value>Удалить папку проекта и файлы из файловой системы (_D)</value>
@@ -2248,7 +2248,7 @@
     <value>Сообщить о конфликте (_C)</value>
   </data>
   <data name="_Has_WriteUsages1FirstWriteUsage2Second_Text" xml:space="preserve">
-    <value>{{0}} имеет {0} использований для записи: {{1,Первое использование для записи}}, {{2, второе использование для записи}}…</value>
+    <value>{{0}} имеет {0} использований для записи: {{1,Первое использование для записи}}, {{2, второе использование для записи}}...</value>
   </data>
   <data name="Synchronize_filename_Text" xml:space="preserve">
     <value>Синхронизировать имя файла (_F)</value>
@@ -2266,7 +2266,7 @@
     <value>Не удалось встроить {0,использование}. Группы методов не поддерживаются этим языком.</value>
   </data>
   <data name="CheckingForConflictsInFileRenames_Text" xml:space="preserve">
-    <value>Проверка конфликтов в переименовании файлов…</value>
+    <value>Проверка конфликтов в переименовании файлов...</value>
   </data>
   <data name="Abstract_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
     <value>Abstract {0} уже объявлен в целевом типе</value>
@@ -2320,7 +2320,7 @@
     <value>{0} обнаружил некоторые текстовые вхождения в комментариях и строковых литералах, которые могут быть связаны с рефакторингом. Вы можете выбрать, какие из них следует изменить, а какие нет.</value>
   </data>
   <data name="EvaluatingDerivedRenames_Text" xml:space="preserve">
-    <value>Оценка производных символов для переименования…</value>
+    <value>Оценка производных символов для переименования...</value>
   </data>
   <data name="IntroduceParameter_Text" xml:space="preserve">
     <value>Ввести параметр</value>
@@ -2332,7 +2332,7 @@
     <value>Переименованный {0} также реализует {1}, который не будет переименован. Пожалуйста, разрешите конфликт вручную.</value>
   </data>
   <data name="PreparingToRename_Text" xml:space="preserve">
-    <value>Подготовка к переименованию…</value>
+    <value>Подготовка к переименованию...</value>
   </data>
   <data name="MoveToAnotherFIle_Text" xml:space="preserve">
     <value>Переместить в другой файл (&amp;I)</value>
@@ -2344,7 +2344,7 @@
     <value>объявление типа</value>
   </data>
   <data name="Inserting_Text" xml:space="preserve">
-    <value>Вставка…</value>
+    <value>Вставка...</value>
   </data>
   <data name="UnableToInline0CollectionInitializer_Text" xml:space="preserve">
     <value>Не удалось встроить {0, инициализатор коллекции}</value>
@@ -2356,31 +2356,31 @@
     <value>Дать новое имя файлу '{0}'</value>
   </data>
   <data name="PropertyToMethodSActionText" xml:space="preserve">
-    <value>Свойство в метод…</value>
+    <value>Свойство в метод...</value>
   </data>
   <data name="Modifier_Column_Name" xml:space="preserve">
     <value>Модификатор</value>
   </data>
   <data name="TransformParametersActionText" xml:space="preserve">
-    <value>Преобразовать параметры…</value>
+    <value>Преобразовать параметры...</value>
   </data>
   <data name="SelectedBlockOfCodeCannotBeExtracted_Text" xml:space="preserve">
     <value>Выбранный блок кода не может быть извлечён</value>
   </data>
   <data name="CheckingSuspiciousReferences_Text" xml:space="preserve">
-    <value>Проверка подозрительных ссылок…</value>
+    <value>Проверка подозрительных ссылок...</value>
   </data>
   <data name="UseOutParameterAsReturnValue_DescriptionText" xml:space="preserve">
     <value>Использовать параметр out как возвращаемое значение</value>
   </data>
   <data name="CollectingReferencesToMovedTypes_Text" xml:space="preserve">
-    <value>Сбор ссылок на перемещённые типы…</value>
+    <value>Сбор ссылок на перемещённые типы...</value>
   </data>
   <data name="SearchInAllSolutionSettingDescription" xml:space="preserve">
     <value>Искать во всём решении</value>
   </data>
   <data name="ResolvingReferencesFromSourceFiles_Text" xml:space="preserve">
-    <value>Разрешение ссылок из исходных файлов…</value>
+    <value>Разрешение ссылок из исходных файлов...</value>
   </data>
   <data name="FileAlreadyExists_Text" xml:space="preserve">
     <value>Файл уже существует</value>
@@ -2398,7 +2398,7 @@
     <value>Проект {0}</value>
   </data>
   <data name="UpdatingReferences_Text" xml:space="preserve">
-    <value>Обновление ссылок…</value>
+    <value>Обновление ссылок...</value>
   </data>
   <data name="IOError__Text" xml:space="preserve">
     <value>Ошибка ввода-вывода: {0}</value>
@@ -2431,13 +2431,13 @@
     <value>Переименовать тип '{0}' в соответствии с новым именем файла (_T)</value>
   </data>
   <data name="MakingMembersProtected_Text" xml:space="preserve">
-    <value>Преобразование членов в protected…</value>
+    <value>Преобразование членов в protected...</value>
   </data>
   <data name="Type_AlreadyExists_Text" xml:space="preserve">
     <value>Тип {0} уже существует</value>
   </data>
   <data name="FixingAccessRights_Text" xml:space="preserve">
-    <value>Исправление прав доступа…</value>
+    <value>Исправление прав доступа...</value>
   </data>
   <data name="DefineHowToTransformUsagesOfInstance_Text" xml:space="preserve">
     <value>Определите, как преобразовать использования членов экземпляра</value>
@@ -2446,13 +2446,13 @@
     <value>Объявления делегатов (_D)</value>
   </data>
   <data name="SearchingSuspiciousReferences_Text" xml:space="preserve">
-    <value>Поиск подозрительных ссылок…</value>
+    <value>Поиск подозрительных ссылок...</value>
   </data>
   <data name="WhetherToInlineAllUsagesOrJustTheCurrentUsageIfAvailableSettingDescription" xml:space="preserve">
     <value>Встраивать все использования или только текущее использование (если доступно)</value>
   </data>
   <data name="RemovingLegacyDeclarations_Text" xml:space="preserve">
-    <value>Удаление устаревших объявлений…</value>
+    <value>Удаление устаревших объявлений...</value>
   </data>
   <data name="Override_IsAlreadyDeclaredInTheTarget_Text" xml:space="preserve">
     <value>Переопределение {0} уже объявлено в целевом типе</value>
@@ -2464,7 +2464,7 @@
     <value>Файл '{0}' уже существует</value>
   </data>
   <data name="Preparing_Text" xml:space="preserve">
-    <value>Подготовка…</value>
+    <value>Подготовка...</value>
   </data>
   <data name="ParameterUsagesWillBeBroken_Text" xml:space="preserve">
     <value>Использования параметра будут нарушены</value>
@@ -2473,10 +2473,10 @@
     <value>Размещение извлечённого класса:</value>
   </data>
   <data name="SearchingMembersToMakeProtected_Text" xml:space="preserve">
-    <value>Поиск членов для преобразования в protected…</value>
+    <value>Поиск членов для преобразования в protected...</value>
   </data>
   <data name="ExecutingExternalRefactoring_Text" xml:space="preserve">
-    <value>Выполнение внешнего рефакторинга…</value>
+    <value>Выполнение внешнего рефакторинга...</value>
   </data>
   <data name="DeletingProjects_Text" xml:space="preserve">
     <value>Удаление проектов</value>
@@ -2485,7 +2485,7 @@
     <value>Сделать доступным только для чтения (_R)</value>
   </data>
   <data name="IntroduceVariableActionText" xml:space="preserve">
-    <value>Ввести переменную…</value>
+    <value>Ввести переменную...</value>
   </data>
   <data name="ReturnValue__Text" xml:space="preserve">
     <value>{0} : {1}</value>
@@ -2506,7 +2506,7 @@
     <value>Нет</value>
   </data>
   <data name="ConvertMethodToProperty_Ellipsis_Text" xml:space="preserve">
-    <value>Преобразовать метод в свойство…</value>
+    <value>Преобразовать метод в свойство...</value>
   </data>
   <data name="WhetherToSearchForStructurallyCompatibleMembersSettingDescription" xml:space="preserve">
     <value>Искать ли структурно совместимые члены</value>

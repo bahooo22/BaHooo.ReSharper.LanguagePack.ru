@@ -180,7 +180,7 @@
   <value>Не удалось открыть {0}</value>
 </data>
 <data name="Common_ImportingProgressText" xml:space="preserve">
-  <value>Идет импорт…</value>
+  <value>Идет импорт...</value>
 </data>
 <data name="Common_RecentSnapshotInfoSettingDescription" xml:space="preserve">
   <value>Информация о последних снимках</value>
@@ -225,7 +225,7 @@
   <value>Расположение хранилища снимков</value>
 </data>
 <data name="Common_ExportingProgressText" xml:space="preserve">
-  <value>Идет сохранение…</value>
+  <value>Идет сохранение...</value>
 </data>
 <data name="Common_EnableAutoCleanupOfTemporaryStorageBySizeLimitSettingDescription" xml:space="preserve">
   <value>Включить автоматическую очистку временного хранилища по ограничению размера</value>
@@ -249,7 +249,7 @@
   <value>Type</value>
 </data>
 <data name="Common_CleanupProgressText" xml:space="preserve">
-  <value>Идет очистка…</value>
+  <value>Идет очистка...</value>
 </data>
 <data name="Common_DeleteError" xml:space="preserve">
   <value>Не удалось удалить {0}: возможно, он открыт в средстве просмотра. Закройте средство просмотра и повторите попытку.</value>

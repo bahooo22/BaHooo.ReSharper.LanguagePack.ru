@@ -224,7 +224,7 @@
     <value>Не удалось открыть снимок: неподдерживаемый тип CPU ({0}). Этот снимок можно открыть только на компьютерах с {1}.</value>
   </data>
   <data name="CallTree_History_MergeAll_Text" xml:space="preserve">
-    <value>… (любой код)</value>
+    <value>... (любой код)</value>
   </data>
   <data name="Summary_Empty" xml:space="preserve">
     <value>Пусто</value>
@@ -599,7 +599,7 @@
     <value>Постобработка дерева вызовов</value>
   </data>
   <data name="SnapshotProcessing_ProcessingWithPercent_RowText" xml:space="preserve">
-    <value>Обработка… {0}%</value>
+    <value>Обработка... {0}%</value>
   </data>
   <data name="PropertiesParameters" xml:space="preserve">
     <value>Параметры:</value>
@@ -686,7 +686,7 @@
     <value>Стек вызовов</value>
   </data>
   <data name="CallTree_History_MergeSystem_Text" xml:space="preserve">
-    <value>… (системный код)</value>
+    <value>... (системный код)</value>
   </data>
   <data name="Unit_SI_Peta" xml:space="preserve">
     <value>P</value>
@@ -719,7 +719,7 @@
     <value>Группировать по типу</value>
   </data>
   <data name="WaitingForXRuntime" xml:space="preserve">
-    <value>Запуск сессии профилирования…
+    <value>Запуск сессии профилирования...
 Если ожидание затянулось, убедитесь, что целью профилирования является приложение {0}</value>
   </data>
   <data name="Filters_HttpRequestVerb_Name_Plural" xml:space="preserve">
@@ -771,7 +771,7 @@
     <value>[Неизвестный модуль]</value>
   </data>
   <data name="Options_SystemModules_LoadingText" xml:space="preserve">
-    <value>Загрузка…</value>
+    <value>Загрузка...</value>
   </data>
   <data name="Overview_ModulesCount" xml:space="preserve">
     <value>{0} модулей</value>
@@ -936,7 +936,7 @@
     <value>Нет информации о модуле</value>
   </data>
   <data name="TopMethods_Loading" xml:space="preserve">
-    <value>Загрузка…</value>
+    <value>Загрузка...</value>
   </data>
   <data name="KnownEventTypes_HttpRequest_EventName_Plural" xml:space="preserve">
     <value>Входящие HTTP-запросы</value>
@@ -1081,7 +1081,7 @@
     <value>Интервалы времени работы SQL-сессии с определенными параметрами подключения</value>
   </data>
   <data name="WaitingForWeb" xml:space="preserve">
-    <value>Ожидание приложения…
+    <value>Ожидание приложения...
 Пожалуйста, откройте URL-адрес приложения, которое вы хотите профилировать</value>
   </data>
   <data name="CallTree_Backtrace_Events_Tooltip" xml:space="preserve">
@@ -1205,7 +1205,7 @@
     <value>Параметры</value>
   </data>
   <data name="Filters_ThreadStates_Running" xml:space="preserve">
-    <value>Выполнение…</value>
+    <value>Выполнение...</value>
   </data>
   <data name="Options_SystemModules_ModuleNameLabel" xml:space="preserve">
     <value>Имя: </value>
@@ -1241,7 +1241,7 @@
     <value>Причины</value>
   </data>
   <data name="CallTree_LoadingNodeText" xml:space="preserve">
-    <value>Загрузка…</value>
+    <value>Загрузка...</value>
   </data>
   <data name="Filters_BlockingGc_Reason_Enum_LowMemory" xml:space="preserve">
     <value>Недостаточно памяти</value>
@@ -1340,7 +1340,7 @@
     <value>Глубина GC</value>
   </data>
   <data name="StartingTheProfilingSession" xml:space="preserve">
-    <value>Запуск сессии профилирования…</value>
+    <value>Запуск сессии профилирования...</value>
   </data>
   <data name="Filters_HttpRequestUrl_Tooltip" xml:space="preserve">
     <value>Интервалы времени обработки HTTP-запросов к определенному URL</value>
@@ -1349,7 +1349,7 @@
     <value>Метод</value>
   </data>
   <data name="SnapshotProcessing_Processing_RowText" xml:space="preserve">
-    <value>Обработка…</value>
+    <value>Обработка...</value>
   </data>
   <data name="TopMethods_Merged_ShowUser_Name" xml:space="preserve">
     <value>Стектрейсы без пользовательских методов</value>
@@ -1703,7 +1703,7 @@
     <value>Следовать за выделением в дереве вызовов. При включении точки нагрузки вычисляются в области видимости текущего выбранного узла в дереве вызовов.</value>
   </data>
   <data name="Ide_OpenInStandalone_TextAction" xml:space="preserve">
-    <value>Сохранить как…</value>
+    <value>Сохранить как...</value>
   </data>
   <data name="ThreadPresentation_NoInfo_Name" xml:space="preserve">
     <value>Нет активирующего потока</value>
@@ -1820,7 +1820,7 @@
     <value>Группировать по типу</value>
   </data>
   <data name="SaveSnapshot_ProgressName" xml:space="preserve">
-    <value>Сохранение снимка ({0})…</value>
+    <value>Сохранение снимка ({0})...</value>
   </data>
   <data name="Subsystems_Hidden" xml:space="preserve">
     <value>Скрыто</value>

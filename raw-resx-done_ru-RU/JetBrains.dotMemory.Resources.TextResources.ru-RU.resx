@@ -133,7 +133,7 @@
     <value>Новые объекты, объявленные в пространстве имен {0} или одном из его базовых пространств имен</value>
 </data>
 <data name="Operation_TraverseGraph" xml:space="preserve">
-    <value>Обход прямого графа…</value>
+    <value>Обход прямого графа...</value>
 </data>
 <data name="About_Licence_Label" xml:space="preserve">
     <value>Информация о лицензии</value>
@@ -160,10 +160,10 @@
     <value>Байт</value>
 </data>
 <data name="NavigateToDeclaration_NavigationFailed_VsNavigationIsUsed_Template" xml:space="preserve">
-    <value>{0}. Навигация к внешним источникам отключена в настройках ReSharper: параметр «ReSharper | Опции… | Инструменты | Внешние источники» установлен в «Навигация Visual Studio по умолчанию».</value>
+    <value>{0}. Навигация к внешним источникам отключена в настройках ReSharper: параметр «ReSharper | Опции... | Инструменты | Внешние источники» установлен в «Навигация Visual Studio по умолчанию».</value>
 </data>
 <data name="NavigateToDeclaration_OperationName" xml:space="preserve">
-    <value>Поиск объявления в IDE…</value>
+    <value>Поиск объявления в IDE...</value>
 </data>
 <data name="DownloadAndOpenInPortableDotMemory_Question" xml:space="preserve">
     <value>Рабочая область, которую вы пытаетесь открыть, несовместима с текущей версией dotMemory.
@@ -186,7 +186,7 @@
     <value>1:45</value>
 </data>
 <data name="Operation_AggregateObjectByHeap" xml:space="preserve">
-    <value>Получение данных кучи…</value>
+    <value>Получение данных кучи...</value>
 </data>
 <data name="ProfilingSessionView_GetSnapshot_Text" xml:space="preserve">
     <value>Получить снимок</value>
@@ -198,13 +198,13 @@
     <value>Показать объекты, удерживаемые этим экземпляром</value>
 </data>
 <data name="ExportWorkspace_Progress_Text" xml:space="preserve">
-    <value>Экспорт рабочей области…</value>
+    <value>Экспорт рабочей области...</value>
 </data>
 <data name="ObjectSetThumbnail_ObjectsCount_Template" xml:space="preserve">
     <value>{0:n0} объектов</value>
 </data>
 <data name="AsyncCalculatedValue_SelectToCalculate" xml:space="preserve">
-    <value>Нажмите для вычисления…</value>
+    <value>Нажмите для вычисления...</value>
 </data>
 <data name="Comparison_AllObjects_LearnMore_Link" xml:space="preserve">
     <value>Представление_Сравнения</value>
@@ -219,7 +219,7 @@
     <value>Открыть рабочую область</value>
 </data>
 <data name="ObjectSet_GroupAllocations" xml:space="preserve">
-    <value>Группировка распределений…</value>
+    <value>Группировка распределений...</value>
 </data>
 <data name="SnapshotView_Fragmentation_Fragmentation_Text" xml:space="preserve">
     <value>Фрагментация</value>
@@ -240,7 +240,7 @@
     <value>Невозможно открыть рабочую область нового формата, созданную в dotMemory (сборка {0})</value>
 </data>
 <data name="GetSnapshotByCondition_ToolTip_On" xml:space="preserve">
-    <value>Получить снимок по условию: нажмите, чтобы увидеть настроенные триггеры…</value>
+    <value>Получить снимок по условию: нажмите, чтобы увидеть настроенные триггеры...</value>
 </data>
 <data name="CrossWorkspaceSnapshotsOverview_LockedByCurrentProcessTooltip" xml:space="preserve">
     <value>Эта рабочая область уже открыта на другой вкладке для сравнения</value>
@@ -288,7 +288,7 @@
     <value>Открыть объекты, удерживаемые через этот путь доминирования</value>
 </data>
 <data name="Operation_BuildPathPairs" xml:space="preserve">
-    <value>Поиск пар путей удержания…</value>
+    <value>Поиск пар путей удержания...</value>
 </data>
 <data name="ImportClrDump_OnlyNativeRuntimes_Exception" xml:space="preserve">
     <value>Не удалось импортировать дамп: дамп содержит данные только для среды выполнения .NET Native, которая в настоящее время не поддерживается.</value>
@@ -318,7 +318,7 @@
     <value>Размер:</value>
 </data>
 <data name="Operation_GroupAllocationsByMethod" xml:space="preserve">
-    <value>Группировка распределений по методам…</value>
+    <value>Группировка распределений по методам...</value>
 </data>
 <data name="IcicleChart_SelectedStackTrace_FunctionsWithoutAllocations" xml:space="preserve">
     <value>#0 функций с почти отсутствующими распределениями</value>
@@ -359,7 +359,7 @@
     <value>{0} - Visual Studio</value>
 </data>
 <data name="Operation_BuildAllocationStat" xml:space="preserve">
-    <value>Обработка статистики распределений…</value>
+    <value>Обработка статистики распределений...</value>
 </data>
 <data name="SnapshotTrafficNodeTitle" xml:space="preserve">
     <value>Статистика сборки мусора от начала профилирования до снимка</value>
@@ -377,7 +377,7 @@
     <value>Поддерево вызовов для выбранной подсистемы</value>
 </data>
 <data name="Progress_RetainedSet" xml:space="preserve">
-    <value>Определение набора удерживаемых объектов…</value>
+    <value>Определение набора удерживаемых объектов...</value>
 </data>
 <data name="Comparison_OpenSurvivedObjects" xml:space="preserve">
     <value>Открыть выжившие объекты</value>
@@ -404,13 +404,13 @@
     <value>Неразрешённое имя поля</value>
 </data>
 <data name="Operation_SortObjects" xml:space="preserve">
-    <value>Сортировка объектов…</value>
+    <value>Сортировка объектов...</value>
 </data>
 <data name="Comparison_SurvivedArraysOfInterfacesShort" xml:space="preserve">
     <value>Выжившие {0}</value>
 </data>
 <data name="AggregateTrafficByFunction" xml:space="preserve">
-    <value>Группировка потока по функциям…</value>
+    <value>Группировка потока по функциям...</value>
 </data>
 <data name="NavigateToDeclaration_NavigationTimeout_Text" xml:space="preserve">
     <value>Не удалось перейти к {0}.sln: IDE требует вашего внимания в модальном диалоге.</value>
@@ -476,7 +476,7 @@
     <value>Профилирование приложения на удалённом компьютере</value>
 </data>
 <data name="Common_Calculating" xml:space="preserve">
-    <value>Вычисление…</value>
+    <value>Вычисление...</value>
 </data>
 <data name="RangeAllocations_Disclaimer_TracedPartial" xml:space="preserve">
     <value>Выбранный временной диапазон содержит интервалы, для которых данные о распределениях не собирались:
@@ -492,13 +492,13 @@
     <value>Объект подписался на событие другого объекта и никогда не отписывался от этого события</value>
 </data>
 <data name="AsyncCalculatedValue_Calculating" xml:space="preserve">
-    <value>Вычисление…</value>
+    <value>Вычисление...</value>
 </data>
 <data name="GCTime_LegendLabel" xml:space="preserve">
     <value>Время сборки мусора</value>
 </data>
 <data name="Operation_GenerateObjectSet" xml:space="preserve">
-    <value>Вычисление набора объектов…</value>
+    <value>Вычисление набора объектов...</value>
 </data>
 <data name="FinalizedObjects_Stats_TypesCount" xml:space="preserve">
     <value>{0:n0} типов</value>
@@ -550,7 +550,7 @@
     <value>Главный экран</value>
 </data>
 <data name="Operation_GroupAllocationsByType" xml:space="preserve">
-    <value>Группировка распределений по типам…</value>
+    <value>Группировка распределений по типам...</value>
 </data>
 <data name="DacNotFoundDialog_Title" xml:space="preserve">
     <value>DAC не найден</value>
@@ -610,7 +610,7 @@
     <value>{0} -&gt;</value>
 </data>
 <data name="ExpandTrafficByFunctionNode" xml:space="preserve">
-    <value>Развёртывание узла функции…</value>
+    <value>Развёртывание узла функции...</value>
 </data>
 <data name="DebuggerLibsInfoDialog_OkButton_Text" xml:space="preserve">
     <value>Продолжить</value>
@@ -658,7 +658,7 @@
     <value>Мёртвые байты</value>
 </data>
 <data name="ProfilingSessionView_ProfilingInProgress_TabTitle" xml:space="preserve">
-    <value>Профилирование…</value>
+    <value>Профилирование...</value>
 </data>
 <data name="SnapshotView_Fragmentation_ObjectsToSizeRelationVerb_Occupied" xml:space="preserve">
     <value>, занято:</value>
@@ -676,7 +676,7 @@
     <value>Типы</value>
 </data>
 <data name="ExportObjectSet_Action_Text" xml:space="preserve">
-    <value>Экспортировать все объекты…</value>
+    <value>Экспортировать все объекты...</value>
 </data>
 <data name="Comparison_SurvivedObjectsOfEnumTemplateLong" xml:space="preserve">
     <value>Выжившие объекты типа перечисления {0}</value>
@@ -751,10 +751,10 @@ dotMemory требуется больше свободной физическо�
     <value>[Рабочая область автоматически сохранена]</value>
 </data>
 <data name="ExportObject_Action_Text" xml:space="preserve">
-    <value>Экспортировать объект…</value>
+    <value>Экспортировать объект...</value>
 </data>
 <data name="ExportObject_Wizard_Progress" xml:space="preserve">
-    <value>Экспорт в файл ({0})…</value>
+    <value>Экспорт в файл ({0})...</value>
 </data>
 <data name="ProfilingSessionView_StatusTitle_FinishedCurrent" xml:space="preserve">
     <value>Сеанс профилирования для текущего процесса завершён</value>
@@ -1043,7 +1043,7 @@ dotMemory требуется больше свободной физическо�
     <value>Поиск универсальных типов с любым количеством аргументов</value>
 </data>
 <data name="ObjectRetention_MoreReferences" xml:space="preserve">
-    <value>… (ещё {0} ссылок)</value>
+    <value>... (ещё {0} ссылок)</value>
 </data>
 <data name="ImportAnything_NotEnoughSpace_Exception_Template" xml:space="preserve">
     <value>Не удалось импортировать {0}: недостаточно места на диске для хранения данных</value>
@@ -1085,19 +1085,19 @@ dotMemory требуется больше свободной физическо�
     <value>&lt;пусто&gt;</value>
 </data>
 <data name="Operation_BuildDominatorsTree" xml:space="preserve">
-    <value>Построение дерева доминирования…</value>
+    <value>Построение дерева доминирования...</value>
 </data>
 <data name="ObtainingObjectAllocationCallstack" xml:space="preserve">
-    <value>Получение стека вызовов распределения объекта…</value>
+    <value>Получение стека вызовов распределения объекта...</value>
 </data>
 <data name="CrossWorkspaceSnapshotsComparsion_OtherObjectsCountColumn" xml:space="preserve">
     <value>Объекты (Б)</value>
 </data>
 <data name="TreeAllocationPresenter_ExpandNodes" xml:space="preserve">
-    <value>Развёртывание узлов поддерева функций…</value>
+    <value>Развёртывание узлов поддерева функций...</value>
 </data>
 <data name="Operation_GroupAllocationsBySubsystem" xml:space="preserve">
-    <value>Группировка распределений по подсистемам…</value>
+    <value>Группировка распределений по подсистемам...</value>
 </data>
 <data name="BytesCount_Column_Title" xml:space="preserve">
     <value>Байт</value>
@@ -1121,7 +1121,7 @@ dotMemory требуется больше свободной физическо�
     <value>Кратчайший путь к корням</value>
 </data>
 <data name="Operation_CompactCallTree" xml:space="preserve">
-    <value>Сжатие дерева вызовов…</value>
+    <value>Сжатие дерева вызовов...</value>
 </data>
 <data name="RetainedSizeLabel" xml:space="preserve">
     <value>Сохраняемый размер:</value>
@@ -1142,7 +1142,7 @@ dotMemory требуется больше свободной физическо�
     <value>Всего</value>
 </data>
 <data name="ObjectTagging_Operation_Tracking" xml:space="preserve">
-    <value>Отслеживание объекта {0}…</value>
+    <value>Отслеживание объекта {0}...</value>
 </data>
 <data name="Inspection_CopyValue_Title_Template" xml:space="preserve">
     <value>Инспекция {0}</value>
@@ -1157,7 +1157,7 @@ dotMemory требуется больше свободной физическо�
     <value>Скопировать кратчайший путь в буфер обмена</value>
 </data>
 <data name="CalculateSetToSetPaths" xml:space="preserve">
-    <value>Вычисление путей…</value>
+    <value>Вычисление путей...</value>
 </data>
 <data name="DacNotFoundDialog_Solution2_Text" xml:space="preserve">
     <value>Решение 2:</value>
@@ -1232,7 +1232,7 @@ dotMemory требуется больше свободной физическо�
     <value>Назад</value>
 </data>
 <data name="ExportObject_MenuText_Multi" xml:space="preserve">
-    <value>Экспортировать объекты…</value>
+    <value>Экспортировать объекты...</value>
 </data>
 <data name="ObjectSetInfo_Long_HeapTemplate" xml:space="preserve">
     <value>Объекты в {0} куче</value>
@@ -1434,7 +1434,7 @@ dotMemory требуется больше свободной физическо�
     <value>Сгруппировано по типам</value>
 </data>
 <data name="Operation_BuildGraphRoots" xml:space="preserve">
-    <value>Обработка корней графа…</value>
+    <value>Обработка корней графа...</value>
 </data>
 <data name="Title_DeleteAll" xml:space="preserve">
     <value>Удалить все</value>
@@ -1495,7 +1495,7 @@ dotMemory не может импортировать данные для сле�
     <value>Дублирование строк</value>
 </data>
 <data name="SnapshotsComparison_ComparisonProgressMessage" xml:space="preserve">
-    <value>Сравнение снимков…</value>
+    <value>Сравнение снимков...</value>
 </data>
 <data name="Help_Youtube_TheProfilingWorkflow_Duration" xml:space="preserve">
     <value>2:29</value>
@@ -1510,13 +1510,13 @@ dotMemory не может импортировать данные для сле�
     <value>Для просмотра сравнения снимков требуется лицензия dotMemory</value>
 </data>
 <data name="Dominators_Progress_Compacting" xml:space="preserve">
-    <value>Сжатие дерева доминирования…</value>
+    <value>Сжатие дерева доминирования...</value>
 </data>
 <data name="SubsystemByTypeFilter_TextBoxWatermark" xml:space="preserve">
     <value>Ctrl+Shift+F: Фильтровать подсистемы по пространству имён/имени типа. Используйте кавычки для поиска по 'Точному' совпадению.</value>
 </data>
 <data name="ImportJavaDump_Progress_Text" xml:space="preserve">
-    <value>Импорт java дампа…</value>
+    <value>Импорт java дампа...</value>
 </data>
 <data name="Comparison_DeadObjectsFromNamespace_Long" xml:space="preserve">
     <value>Мёртвые объекты, объявленные в пространстве имен {0} или одном из его базовых пространств имен</value>
@@ -1593,7 +1593,7 @@ dotMemory не может импортировать данные для сле�
     <value>Мёртвые объекты, реализующие интерфейс {0}</value>
 </data>
 <data name="Operation_CompactDominatorsTreeDetailed" xml:space="preserve">
-    <value>Сжатие дерева доминирования: обработано {0} K/{1} K объектов…</value>
+    <value>Сжатие дерева доминирования: обработано {0} K/{1} K объектов...</value>
 </data>
 <data name="ShowIdeListForDeclaration_Action_Text" xml:space="preserve">
     <value>Перейти к объявлению (выбрать IDE)</value>
@@ -1608,7 +1608,7 @@ dotMemory не может импортировать данные для сле�
     <value>Пользовательская метка</value>
 </data>
 <data name="Home_MenuItem_ImportJavaDump" xml:space="preserve">
-    <value>Импорт Java дампа…</value>
+    <value>Импорт Java дампа...</value>
 </data>
 <data name="CrossWorkspaceComparison_UserAlert_WorkspaceMissed" xml:space="preserve">
     <value>Не удалось найти целевую рабочую область для сравнения '{0}'. Пожалуйста, выберите другую рабочую область.</value>
@@ -1657,7 +1657,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>Весь набор объектов</value>
 </data>
 <data name="PackDebuggerLibsAction_Text" xml:space="preserve">
-    <value>Упаковать библиотеки отладчика (&amp;P)…</value>
+    <value>Упаковать библиотеки отладчика (&amp;P)...</value>
 </data>
 <data name="ObjectSetBackTraces_LearnMore_Link" xml:space="preserve">
     <value>Обратные_Трассировки</value>
@@ -1678,7 +1678,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>Онлайн-справка</value>
 </data>
 <data name="ObjectSetInfo_ExpandAllocationsBacktraceNode" xml:space="preserve">
-    <value>Развёртывание узла дерева распределений…</value>
+    <value>Развёртывание узла дерева распределений...</value>
 </data>
 <data name="RangeAllocations_ByType_LearnMore_Link" xml:space="preserve">
     <value>Анализ_Распределения_Памяти</value>
@@ -1725,7 +1725,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>{0}</value>
 </data>
 <data name="Operation_BuildPathPairsDetailed" xml:space="preserve">
-    <value>Поиск пар путей удержания: обработано {0}/{1} объектов…</value>
+    <value>Поиск пар путей удержания: обработано {0}/{1} объектов...</value>
 </data>
 <data name="GraphRootKind_FinalizableObject" xml:space="preserve">
     <value>Очередь финализации</value>
@@ -1804,7 +1804,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>Хост WCF:</value>
 </data>
 <data name="Operation_CompactDominatorsTree" xml:space="preserve">
-    <value>Сжатие дерева доминирования…</value>
+    <value>Сжатие дерева доминирования...</value>
 </data>
 <data name="ObjectSet_ViewModeMap_Inspections" xml:space="preserve">
     <value>Инспекции</value>
@@ -1834,7 +1834,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>{1} {0} объектов ({2})</value>
 </data>
 <data name="Operation_CompactCallTreeDetailed" xml:space="preserve">
-    <value>Сжатие дерева вызовов: обработано {0} K/{1} K объектов…</value>
+    <value>Сжатие дерева вызовов: обработано {0} K/{1} K объектов...</value>
 </data>
 <data name="Automation_TakeSnapshotEveryText" xml:space="preserve">
     <value>Каждые</value>
@@ -1861,7 +1861,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>Объект подписался на изменения некоторого DependencyProperty с помощью метода AddValueChanged и никогда не отписывался от этих изменений</value>
 </data>
 <data name="ObjectSet_ExpandTreeAllocationNode" xml:space="preserve">
-    <value>Развёртывание узла…</value>
+    <value>Развёртывание узла...</value>
 </data>
 <data name="Inspection_ObjectsToSizeRelationVerb_Wasted" xml:space="preserve">
     <value>, потрачено впустую:</value>
@@ -1933,7 +1933,7 @@ dotMemory требуется около *{2}* памяти для открыти
     <value>Поток памяти для {0}</value>
 </data>
 <data name="Operation_LoadData" xml:space="preserve">
-    <value>Загрузка данных…</value>
+    <value>Загрузка данных...</value>
 </data>
 <data name="StartScreen_Help_Text" xml:space="preserve">
     <value>Справка и руководства</value>
@@ -1967,7 +1967,7 @@ dotMemory требуется около *{2}* памяти для открыти
 ● Рассмотрите возможность использования специальных фрагментированных коллекций без LOH.</value>
 </data>
 <data name="DacNotFoundDialog_Solution2_P2_Text" xml:space="preserve">
-  <value>2. В главном окне dotMemory нажмите на стрелку рядом с "Домашней страницей" и выберите "Упаковать библиотеки отладчика…". Это создаст .zip архив с необходимыми библиотеками.</value>
+  <value>2. В главном окне dotMemory нажмите на стрелку рядом с "Домашней страницей" и выберите "Упаковать библиотеки отладчика...". Это создаст .zip архив с необходимыми библиотеками.</value>
 </data>
 <data name="Comparison_DeadObjectsOfDelegateTemplateLong" xml:space="preserve">
   <value>Мертвые объекты делегатного типа {0}</value>
@@ -1995,7 +1995,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Свернуть все (Ctrl + Shift + -)</value>
 </data>
 <data name="Stacktrace_Node_Await" xml:space="preserve">
-  <value>(Загрузка…)</value>
+  <value>(Загрузка...)</value>
 </data>
 <data name="SnapshotsComparison_SurvivedBytesColumn" xml:space="preserve">
   <value>Выжившие байты</value>
@@ -2055,7 +2055,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>({0}) {1}, из {2}, снят {3}</value>
 </data>
 <data name="UniversalSet_Text" xml:space="preserve">
-  <value>Обработка набора…</value>
+  <value>Обработка набора...</value>
 </data>
 <data name="TimelineIsNotAvailable_Title" xml:space="preserve">
   <value>Данные о выделении памяти недоступны по одной из следующих причин:</value>
@@ -2070,13 +2070,13 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Пользовательская группировка</value>
 </data>
 <data name="Operation_FindUnreachableObjects" xml:space="preserve">
-  <value>Поиск недостижимых объектов…</value>
+  <value>Поиск недостижимых объектов...</value>
 </data>
 <data name="UnresolvedArray" xml:space="preserve">
   <value>(Массив)</value>
 </data>
 <data name="ObjectReferencesView_LotReferencesNodeText" xml:space="preserve">
-  <value>… Дважды щелкните, чтобы увидеть все записи в отдельном шаге анализа</value>
+  <value>... Дважды щелкните, чтобы увидеть все записи в отдельном шаге анализа</value>
 </data>
 <data name="DacNotFoundDialog_Solution3_P3_Text" xml:space="preserve">
   <value>3. На локальном компьютере распакуйте архив в папку, где находится этот дамп.</value>
@@ -2109,7 +2109,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Обнаружено проблем: {0}</value>
 </data>
 <data name="Operation_GroupBySimilarRetention" xml:space="preserve">
-  <value>Анализ путей удержания…</value>
+  <value>Анализ путей удержания...</value>
 </data>
 <data name="RetentionPath_ViaField_Template" xml:space="preserve">
   <value>{0}.{1}</value>
@@ -2160,7 +2160,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Профилирование памяти</value>
 </data>
 <data name="GetSnapshotByCondition_ToolTip_OnLimit" xml:space="preserve">
-  <value>Получить снимок по условию: Нажмите для просмотра и перенастройки триггеров…</value>
+  <value>Получить снимок по условию: Нажмите для просмотра и перенастройки триггеров...</value>
 </data>
 <data name="TreeAllocationsPresenter_CopyToClipboard_Text" xml:space="preserve">
   <value>Копировать трассировку стека в буфер обмена</value>
@@ -2169,7 +2169,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Удерживает {0} Б в {1} объектах</value>
 </data>
 <data name="ImportWorkspace_Progress_Text" xml:space="preserve">
-  <value>Импорт рабочей области…</value>
+  <value>Импорт рабочей области...</value>
 </data>
 <data name="Workspace_FileFilter_Description" xml:space="preserve">
   <value>Файлы рабочей области dotMemory</value>
@@ -2295,7 +2295,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Редактировать имя (F2)</value>
 </data>
 <data name="ProfilingSessionView_CoreError_Text" xml:space="preserve">
-  <value>Ошибка ядра…</value>
+  <value>Ошибка ядра...</value>
 </data>
 <data name="NewRunCfg_AppType_Standalone_Description" xml:space="preserve">
   <value>Настольное или консольное приложение на основе .NET Framework</value>
@@ -2325,7 +2325,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Как управлять профилированием</value>
 </data>
 <data name="Operation_LoadDataFromCache" xml:space="preserve">
-  <value>Загрузка данных с дискового кэша…</value>
+  <value>Загрузка данных с дискового кэша...</value>
 </data>
 <data name="DuplicatedStrings_Stats_DuplicatesCount" xml:space="preserve">
   <value>Строки: {0}</value>
@@ -2419,7 +2419,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Созданы во всех экземплярах функции</value>
 </data>
 <data name="ImportClrDump_Progress_Text" xml:space="preserve">
-  <value>Импорт дампа процесса…</value>
+  <value>Импорт дампа процесса...</value>
 </data>
 <data name="Label_Browser" xml:space="preserve">
   <value>Браузер:</value>
@@ -2440,7 +2440,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Объекты</value>
 </data>
 <data name="Operation_BuildReverseGraphDetails" xml:space="preserve">
-  <value>Обработка деталей ссылок графа…</value>
+  <value>Обработка деталей ссылок графа...</value>
 </data>
 <data name="Dominators_ObjectSetInfo_SmallAtDominationRoot_Short" xml:space="preserve">
   <value>Мелкие недоминируемые объекты</value>
@@ -2479,7 +2479,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Типы</value>
 </data>
 <data name="Home_MenuItem_ImportWorkspace" xml:space="preserve">
-  <value>Открыть рабочую область…</value>
+  <value>Открыть рабочую область...</value>
 </data>
 <data name="Internal_ShowThemedIconsAction_Text" xml:space="preserve">
   <value>Показывать тематические значки</value>
@@ -2530,7 +2530,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>( 1x )</value>
 </data>
 <data name="TreeAllocationsPresenter_SearchForFunctions" xml:space="preserve">
-  <value>Поиск…</value>
+  <value>Поиск...</value>
 </data>
 <data name="Title_Note" xml:space="preserve">
   <value>Примечание</value>
@@ -2669,7 +2669,7 @@ dotMemory требуется около *{2}* памяти для открыти
 {1}</value>
 </data>
 <data name="Operation_SaveDataToCache" xml:space="preserve">
-  <value>Сохранение данных в дисковый кэш…</value>
+  <value>Сохранение данных в дисковый кэш...</value>
 </data>
 <data name="Home_WorkspacesTable_TabTitle" xml:space="preserve">
   <value>Недавние рабочие области</value>
@@ -2744,7 +2744,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>У вас нет разрешения на запись в {0}. Обратитесь к системному администратору.</value>
 </data>
 <data name="SnapshotOperation_WaitingForConvert" xml:space="preserve">
-  <value>Ожидание обработки…</value>
+  <value>Ожидание обработки...</value>
 </data>
 <data name="Comparison_AllNewObjects_Short" xml:space="preserve">
   <value>Все новые объекты</value>
@@ -2762,7 +2762,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Удерживаемые байты</value>
 </data>
 <data name="ProbeSummaryCalculation_Title" xml:space="preserve">
-  <value>Вычисление…</value>
+  <value>Вычисление...</value>
 </data>
 <data name="Traffic_Wasted_Summary_Template" xml:space="preserve">
   <value>Собрано: [{0}; {1}]</value>
@@ -2926,7 +2926,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Фрагментация кучи</value>
 </data>
 <data name="Operation_MapAddressesToObjectNumbers" xml:space="preserve">
-  <value>Обработка адресов объектов…</value>
+  <value>Обработка адресов объектов...</value>
 </data>
 <data name="NamingConstant_Text_SecondPart" xml:space="preserve">
   <value>внешнего приложения для анализа</value>
@@ -2998,7 +2998,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Поиск универсального типа с двумя аргументами, где первый аргумент содержит 'string'</value>
 </data>
 <data name="Operation_LoadMetadata" xml:space="preserve">
-  <value>Загрузка метаданных…</value>
+  <value>Загрузка метаданных...</value>
 </data>
 <data name="Subsystem_InterestScope_Include" xml:space="preserve">
   <value>Вернуться в область</value>
@@ -3010,7 +3010,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Получите свою первую рабочую область здесь:</value>
 </data>
 <data name="Home_MenuItem_PackDebuggerLibs" xml:space="preserve">
-  <value>Упаковать библиотеки отладчика…</value>
+  <value>Упаковать библиотеки отладчика...</value>
 </data>
 <data name="UnreachableObjects_LearnMore_Link" xml:space="preserve">
   <value>Unreachable_Objects</value>
@@ -3031,7 +3031,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Анализ экземпляра</value>
 </data>
 <data name="Operation_MergeAllocationStatistic" xml:space="preserve">
-  <value>Агрегация статистики выделений…</value>
+  <value>Агрегация статистики выделений...</value>
 </data>
 <data name="Home_Tutorials_TutorialsSectionTitle" xml:space="preserve">
   <value>Обучающие материалы</value>
@@ -3049,7 +3049,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Показать объекты, удерживаемые этим набором</value>
 </data>
 <data name="IdeNavigationService_FindIdes_OperationName" xml:space="preserve">
-  <value>Поиск подходящей IDE…</value>
+  <value>Поиск подходящей IDE...</value>
 </data>
 <data name="QuickAccessWorkspace_OpenedInAnotherInstance" xml:space="preserve">
   <value>Уже открыто в другом экземпляре dotMemory</value>
@@ -3061,7 +3061,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Учебное пособие 2 - Как найти утечку памяти с помощью dotMemory</value>
 </data>
 <data name="Operation_HashPaths" xml:space="preserve">
-  <value>Поиск путей удержания с похожим хешем…</value>
+  <value>Поиск путей удержания с похожим хешем...</value>
 </data>
 <data name="ObjectSetInfo_IsOfTypeTemplate_Long" xml:space="preserve">
   <value>Объекты типа {0}</value>
@@ -3112,7 +3112,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Рабочая область</value>
 </data>
 <data name="ImportClrDumpAction_Text" xml:space="preserve">
-  <value>Импорт дампа процесса (&amp;D)…</value>
+  <value>Импорт дампа процесса (&amp;D)...</value>
 </data>
 <data name="Button_Text_Open" xml:space="preserve">
   <value>Открыть</value>
@@ -3121,7 +3121,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Ключевые пути удержания:</value>
 </data>
 <data name="ExportObject_MenuText_Single" xml:space="preserve">
-  <value>Экспорт объекта…</value>
+  <value>Экспорт объекта...</value>
 </data>
 <data name="Allocations_NotAvailable" xml:space="preserve">
   <value>
@@ -3135,7 +3135,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Поиск экземпляров массивов с указанной длиной</value>
 </data>
 <data name="Operation_BuildRootPathTree" xml:space="preserve">
-  <value>Построение кратчайших путей к корням…</value>
+  <value>Построение кратчайших путей к корням...</value>
 </data>
 <data name="ImportClrDump_MacOsIsNotSupported_Exception" xml:space="preserve">
   <value>Не удалось импортировать дамп: дампы macOS не поддерживаются.</value>
@@ -3144,7 +3144,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Сохранить изменения</value>
 </data>
 <data name="Traffic_AvailabilityCheckProgress" xml:space="preserve">
-  <value>Проверка доступности потока…</value>
+  <value>Проверка доступности потока...</value>
 </data>
 <data name="RangeAllocations_UsageTip_Text" xml:space="preserve">
   <value>Начиная с dotMemory 2021.1, вы можете анализировать данные о выделении памяти за любой интервал времени. Чтобы выбрать интервал, используйте диаграмму временной шкалы.</value>
@@ -3171,7 +3171,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Использовано (закреплено)</value>
 </data>
 <data name="Operation_CalculateRetainedSizes" xml:space="preserve">
-  <value>Вычисление минимального удерживаемого размера…</value>
+  <value>Вычисление минимального удерживаемого размера...</value>
 </data>
 <data name="Comparison_SurvivedObjectsOfEnumTemplateShort" xml:space="preserve">
   <value>Выжившие {0}</value>
@@ -3236,16 +3236,16 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Ctrl+Shift+F: Фильтровать по пространству имен, типу, массивам и универсальным аргументам. Введите !g, чтобы исключить универсальные аргументы из совпадений, или !a, чтобы исключить массивы.</value>
 </data>
 <data name="Operation_GroupAllocationsByCallTree" xml:space="preserve">
-  <value>Группировка выделений по дереву вызовов…</value>
+  <value>Группировка выделений по дереву вызовов...</value>
 </data>
 <data name="Operation_BuildAllocationPoints" xml:space="preserve">
-  <value>Обработка точек выделения объектов…</value>
+  <value>Обработка точек выделения объектов...</value>
 </data>
 <data name="SnapshotsComparison_NewBytesColumn" xml:space="preserve">
   <value>Новые байты</value>
 </data>
 <data name="ExportWorkspaceAction_Text" xml:space="preserve">
-  <value>Экспорт рабочей области…</value>
+  <value>Экспорт рабочей области...</value>
 </data>
 <data name="Comparison_DeadArraysOfInterfacesShort" xml:space="preserve">
   <value>Мертвые {0}</value>
@@ -3353,7 +3353,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Метод</value>
 </data>
 <data name="Operation_PreMergeAllocationStatistic" xml:space="preserve">
-  <value>Предварительная обработка статистики выделений…</value>
+  <value>Предварительная обработка статистики выделений...</value>
 </data>
 <data name="OpenOwnAllocatedInFunctionObjects" xml:space="preserve">
   <value>Открыть объекты, выделенные этим экземпляром функции</value>
@@ -3371,7 +3371,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Новые объекты типа значения {0}</value>
 </data>
 <data name="PackDebuggerLibs_Progress_Text" xml:space="preserve">
-  <value>Упаковка библиотек отладчика…</value>
+  <value>Упаковка библиотек отладчика...</value>
 </data>
 <data name="AssemblyNameLabel" xml:space="preserve">
   <value>Сборка</value>
@@ -3380,13 +3380,13 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Корни = {</value>
 </data>
 <data name="ProfilerVM_State_Preparing" xml:space="preserve">
-  <value>Подготовка профилировщика…</value>
+  <value>Подготовка профилировщика...</value>
 </data>
 <data name="SnapshotsComparison_TypeColumn" xml:space="preserve">
   <value>Сгруппировать по типу</value>
 </data>
 <data name="SnapshotOperation_Get" xml:space="preserve">
-  <value>Создание снимка…</value>
+  <value>Создание снимка...</value>
 </data>
 <data name="CrossWorkspaceSnapshotsOverview_CurrentWorkspaceTitle" xml:space="preserve">
   <value>Текущая рабочая область</value>
@@ -3472,7 +3472,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Сборки</value>
 </data>
 <data name="ImportWorkspaceAction_Text" xml:space="preserve">
-  <value>Открыть рабочую область (&amp;O)…</value>
+  <value>Открыть рабочую область (&amp;O)...</value>
 </data>
 <data name="RiderPlugin_LicenseRequired" xml:space="preserve">
   <value>Требуется лицензия на плагин dotMemory</value>
@@ -3535,7 +3535,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Файлы GEXF</value>
 </data>
 <data name="ExportObject_Wizard_Preparing" xml:space="preserve">
-  <value>Подготовка к экспорту…</value>
+  <value>Подготовка к экспорту...</value>
 </data>
 <data name="RangeAllocations_ByMethod_CopyValue_Preamble" xml:space="preserve">
   <value>Метод выделения: {0}</value>
@@ -3601,7 +3601,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Выжившие объекты типа значения {0}</value>
 </data>
 <data name="NetworkError_Line1" xml:space="preserve">
-  <value>Из-за известной проблемы в версии Windows может не работать навигация к исходному коду из dotMemory в Visual Studio. Вы можете отключить эту функцию (вы можете снова включить ее в ReSharper | Параметры… | dotMemory | Общие | Поддержка навигации к исходному коду из dotMemory) или загрузить исправление Windows для решения этой проблемы.</value>
+  <value>Из-за известной проблемы в версии Windows может не работать навигация к исходному коду из dotMemory в Visual Studio. Вы можете отключить эту функцию (вы можете снова включить ее в ReSharper | Параметры... | dotMemory | Общие | Поддержка навигации к исходному коду из dotMemory) или загрузить исправление Windows для решения этой проблемы.</value>
 </data>
 <data name="ObjectSetOrigin_SourceView_Allocations" xml:space="preserve">
   <value>Сгруппировать по дереву вызовов</value>
@@ -3687,10 +3687,10 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Завершить все</value>
 </data>
 <data name="Operation_ProcessMetadata" xml:space="preserve">
-  <value>Обработка метаданных…</value>
+  <value>Обработка метаданных...</value>
 </data>
 <data name="Operation_GatherPathsToRoot" xml:space="preserve">
-  <value>Построение путей удержания…</value>
+  <value>Построение путей удержания...</value>
 </data>
 <data name="TimelineInspection_GcPressure_Summary" xml:space="preserve">
   <value>Высокое давление сборки мусора: {0:P0}</value>
@@ -3711,10 +3711,10 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Импорт Java дампа</value>
 </data>
 <data name="SnapshotOperation_Download" xml:space="preserve">
-  <value>Загрузка снимка…</value>
+  <value>Загрузка снимка...</value>
 </data>
 <data name="Operation_BuildReverseGraph" xml:space="preserve">
-  <value>Построение обратного графа…</value>
+  <value>Построение обратного графа...</value>
 </data>
 <data name="AnalysisStep_CrossWorkspaceSnapshotsOverview_SubTitle" xml:space="preserve">
   <value>Выбор снимков</value>
@@ -3777,7 +3777,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Все объекты, существующие только в более старом снимке</value>
 </data>
 <data name="Operation_MapObjectTypes" xml:space="preserve">
-  <value>Разрешение типов объектов…</value>
+  <value>Разрешение типов объектов...</value>
 </data>
 <data name="RecentLaunches_Title" xml:space="preserve">
   <value>Недавние запуски сеансов профилирования</value>
@@ -3855,7 +3855,7 @@ dotMemory требуется около *{2}* памяти для открыти
 В файле .csproj добавьте &lt;ConcurrentGarbageCollection&gt;false&lt;/ConcurrentGarbageCollection&gt; в элемент &lt;PropertyGroup&gt;.</value>
 </data>
 <data name="Operation_MergeCallTrees" xml:space="preserve">
-  <value>Объединение деревьев вызовов…</value>
+  <value>Объединение деревьев вызовов...</value>
 </data>
 <data name="Comparison_NewObjectsImplementsInterface_Long" xml:space="preserve">
   <value>Новые объекты, реализующие интерфейс {0}</value>
@@ -3906,7 +3906,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Профилировать только указанные процессы .NET:</value>
 </data>
 <data name="Home_MenuItem_ImportDump" xml:space="preserve">
-  <value>Импорт дампа процесса…</value>
+  <value>Импорт дампа процесса...</value>
 </data>
 <data name="ObjectsCount_Column_Title" xml:space="preserve">
   <value>Объекты</value>
@@ -3915,10 +3915,10 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Искать везде: по пространству имен, типу, методу или универсальным аргументам</value>
 </data>
 <data name="GetSnapshotByCondition_ToolTip_Off" xml:space="preserve">
-  <value>Получить снимок по условию: Нажмите для настройки триггеров…</value>
+  <value>Получить снимок по условию: Нажмите для настройки триггеров...</value>
 </data>
 <data name="TreeAllocationsPresenter_BuildFindByNameIndex" xml:space="preserve">
-  <value>Построение индекса функций…</value>
+  <value>Построение индекса функций...</value>
 </data>
 <data name="OpenInPortableDotMemory_CompatibilityMap_Error_Template" xml:space="preserve">
   <value>Не удается открыть рабочую область: ошибка HTTP {0} при получении карты совместимости.</value>
@@ -3948,7 +3948,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Импорт Java дампа (.hprof) из файла</value>
 </data>
 <data name="ObjectSet_CalculateAllocationsBactraceTree" xml:space="preserve">
-  <value>Вычисление дерева обратной трассировки выделений…</value>
+  <value>Вычисление дерева обратной трассировки выделений...</value>
 </data>
 <data name="DependencyProperty_Title" xml:space="preserve">
   <value>Утечка свойств зависимостей</value>
@@ -3979,7 +3979,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Копировать трассировку стека</value>
 </data>
 <data name="Options_WorkspaceStorageDirectory_Custom" xml:space="preserve">
-  <value>Обзор…</value>
+  <value>Обзор...</value>
 </data>
 <data name="Help_Youtube_TheProfilingWorkflow_Link" xml:space="preserve">
   <value>https://www.youtube.com/watch?v=l-XstgGKJ2c&amp;index=3&amp;list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL</value>
@@ -4006,7 +4006,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Время сборки мусора:</value>
 </data>
 <data name="AggregateTrafficByType" xml:space="preserve">
-  <value>Группировка потока по типам…</value>
+  <value>Группировка потока по типам...</value>
 </data>
 <data name="Help_Youtube_GettingStarted_Link" xml:space="preserve">
   <value>https://www.youtube.com/watch?v=6Tmcx6cTExg&amp;index=1&amp;list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL</value>
@@ -4027,10 +4027,10 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>.NET (Всего)</value>
 </data>
 <data name="SnapshotOperation_Move" xml:space="preserve">
-  <value>Обработка…</value>
+  <value>Обработка...</value>
 </data>
 <data name="SnapshotOperation_Save" xml:space="preserve">
-  <value>Сохранение снимка…</value>
+  <value>Сохранение снимка...</value>
 </data>
 <data name="OkCancelWrapper_OkButton_DefaultText" xml:space="preserve">
   <value>OK</value>
@@ -4089,7 +4089,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Выжившие объекты в снимке {0}</value>
 </data>
 <data name="HeapListPresenter_HeapStatisticsGatheringProgress" xml:space="preserve">
-  <value>Сбор статистики по куче…</value>
+  <value>Сбор статистики по куче...</value>
 </data>
 <data name="Automation_StartButtonText" xml:space="preserve">
   <value>Запустить</value>
@@ -4125,7 +4125,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>дней</value>
 </data>
 <data name="Task_PrecalculateBunch" xml:space="preserve">
-  <value>Предварительный расчет {0}…</value>
+  <value>Предварительный расчет {0}...</value>
 </data>
 <data name="Help_dotMemoryUnit_TextAfter" xml:space="preserve">
   <value>Хотите узнать, как мы это сделали?</value>
@@ -4167,7 +4167,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Высокая скорость роста LOH: {0:F2} ГБ/с</value>
 </data>
 <data name="RealtimeChart_SnapshotSaving_Title" xml:space="preserve">
-  <value>Обновление…</value>
+  <value>Обновление...</value>
 </data>
 <data name="StartScreen_RecentLaunches_Text" xml:space="preserve">
   <value>Запуски</value>
@@ -4278,13 +4278,13 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>Показывать информацию о библиотеках отладчика</value>
 </data>
 <data name="SnapshotOperation_Convert" xml:space="preserve">
-  <value>Обработка…</value>
+  <value>Обработка...</value>
 </data>
 <data name="EventHandlers_Title" xml:space="preserve">
   <value>Утечка обработчиков событий</value>
 </data>
 <data name="Operation_NumberObjects" xml:space="preserve">
-  <value>Нумерация объектов…</value>
+  <value>Нумерация объектов...</value>
 </data>
 <data name="ObjectSetOrigin_Kind_Multiselection" xml:space="preserve">
   <value>Выбранные объекты</value>

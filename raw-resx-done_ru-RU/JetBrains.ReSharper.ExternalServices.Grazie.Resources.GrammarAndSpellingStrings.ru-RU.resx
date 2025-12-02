@@ -289,7 +289,7 @@
   <value>Правильно:</value>
 </data>
 <data name="Options_Languages_Status_Loading" xml:space="preserve">
-  <value>Загрузка…</value>
+  <value>Загрузка...</value>
 </data>
 <data name="Options_Languages_Install" xml:space="preserve">
   <value>Установить</value>

@@ -166,7 +166,7 @@
   <value>Анализ файла {0}: {1}</value>
 </data>
 <data name="CodeISsues_Caption" xml:space="preserve">
-  <value>Проблемы в коде(&amp;S)</value>
+  <value>Проблемы в коде &amp;S)</value>
 </data>
 <data name="AnalyzingFile__Text" xml:space="preserve">
   <value>Анализ файла "{0}"</value>

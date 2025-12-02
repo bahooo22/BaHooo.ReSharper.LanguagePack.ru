@@ -163,10 +163,10 @@
   <value>Ограничения</value>
 </data>
 <data name="PathSelection_Placeholder" xml:space="preserve">
-  <value>Выберите расположение файла…</value>
+  <value>Выберите расположение файла...</value>
 </data>
 <data name="Waiting_Text" xml:space="preserve">
-  <value>Ожидание…</value>
+  <value>Ожидание...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_InheritsFromType_Text" xml:space="preserve">
   <value>Наследует от типа</value>
@@ -178,7 +178,7 @@
   <value>Параметры:</value>
 </data>
 <data name="GotoFileMemberAction_Text" xml:space="preserve">
-  <value>Перейти к члену файла (&amp;M)…</value>
+  <value>Перейти к члену файла (&amp;M)...</value>
 </data>
 <data name="FileLayoutDesigner_View_InheritsFromType_Text" xml:space="preserve">
   <value>Наследование:</value>
@@ -214,7 +214,7 @@
   <value>Открыть символ в обозревателе объектов Visual Studio</value>
 </data>
 <data name="GotoMethodAction_Text" xml:space="preserve">
-  <value>Перейти к методу…</value>
+  <value>Перейти к методу...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_DependencyPropertyPart_Property_Text" xml:space="preserve">
   <value>Свойство зависимости</value>
@@ -253,7 +253,7 @@
   <value>Можно использовать для утверждений</value>
 </data>
 <data name="OpenFromNuGetActionText" xml:space="preserve">
-  <value>Открыть из NuGet (&amp;N)…</value>
+  <value>Открыть из NuGet (&amp;N)...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_UnknownEntry_Text" xml:space="preserve">
   <value>Неизвестная запись</value>
@@ -262,7 +262,7 @@
   <value>Выбрать действие навигации по умолчанию для скомпилированного кода</value>
 </data>
 <data name="GoToMetadataTokenActionText" xml:space="preserve">
-  <value>Перейти к токену метаданных (&amp;M)…</value>
+  <value>Перейти к токену метаданных (&amp;M)...</value>
 </data>
 <data name="FileLayoutDesigner_View_ImplementsInterface_Text" xml:space="preserve">
   <value>Реализации:</value>
@@ -280,13 +280,13 @@
   <value>Реализует интерфейс</value>
 </data>
 <data name="SearchEverywhereGoToType_Text" xml:space="preserve">
-  <value>Искать везде/Перейти к типу (&amp;T)…</value>
+  <value>Искать везде/Перейти к типу (&amp;T)...</value>
 </data>
 <data name="FileLayoutDesigner_Toolbox_Category_Entries_Text" xml:space="preserve">
   <value>Записи</value>
 </data>
 <data name="AssemblyExplorerCompareSelectedItemsActionText" xml:space="preserve">
-  <value>Сравнить выбранное…</value>
+  <value>Сравнить выбранное...</value>
 </data>
 <data name="FileLayoutOptionPageTitle" xml:space="preserve">
   <value>Макет файла</value>
@@ -298,7 +298,7 @@
   <value>Найти использования</value>
 </data>
 <data name="RecentFilesActionText" xml:space="preserve">
-  <value>Недавние файлы (&amp;R)…</value>
+  <value>Недавние файлы (&amp;R)...</value>
 </data>
 <data name="OverwriteExistingFiles_Text" xml:space="preserve">
   <value>Перезаписывать существующие файлы</value>
@@ -313,7 +313,7 @@
   <value>Открытый ключ</value>
 </data>
 <data name="GoToSymbol_Text" xml:space="preserve">
-  <value>Перейти к символу (&amp;S)…</value>
+  <value>Перейти к символу (&amp;S)...</value>
 </data>
 <data name="Canceled_Text" xml:space="preserve">
   <value>Отменено</value>
@@ -325,7 +325,7 @@
   <value>Имя проекта не может быть пустой строкой</value>
 </data>
 <data name="FileLayoutDesigner_Load_Text" xml:space="preserve">
-  <value>Загрузить…</value>
+  <value>Загрузить...</value>
 </data>
 <data name="ChangeSearchPatternActionText" xml:space="preserve">
   <value>Изменить шаблон поиска</value>
@@ -367,7 +367,7 @@
   <value>Открыть</value>
 </data>
 <data name="AssemblyExplorerCompareActionText" xml:space="preserve">
-  <value>Сравнить…</value>
+  <value>Сравнить...</value>
 </data>
 <data name="CustomPatternsOptionPageTitle" xml:space="preserve">
   <value>Пользовательские шаблоны</value>
@@ -379,7 +379,7 @@
   <value>And</value>
 </data>
 <data name="AssemblyExplorerCompareWithActionText" xml:space="preserve">
-  <value>Сравнить с…</value>
+  <value>Сравнить с...</value>
 </data>
 <data name="CanUseForAssertionYes_Text" xml:space="preserve">
   <value>Можно использовать для утверждений: Да</value>
@@ -445,10 +445,10 @@
   <value>Расположение 1:</value>
 </data>
 <data name="_Remove_Text" xml:space="preserve">
-  <value>Удалить (_R)…</value>
+  <value>Удалить (_R)...</value>
 </data>
 <data name="GoToStrIngActionText" xml:space="preserve">
-  <value>Перейти к строке (&amp;I)…</value>
+  <value>Перейти к строке (&amp;I)...</value>
 </data>
 <data name="Assemblies_TabName" xml:space="preserve">
   <value>Сборки</value>
@@ -466,7 +466,7 @@
   <value>Вставлять пробел после ключевых слов, когда это требуется</value>
 </data>
 <data name="TestRegularExpression_Text" xml:space="preserve">
-  <value>Проверить регулярное выражение…</value>
+  <value>Проверить регулярное выражение...</value>
 </data>
 <data name="DidYouTry_Text" xml:space="preserve">
   <value>Вы пробовали {0}?</value>
@@ -505,7 +505,7 @@
   <value>Ширина столбца совпадения валидатора регулярных выражений</value>
 </data>
 <data name="ExternalSourceInformationActionText" xml:space="preserve">
-  <value>Информация о внешнем источнике…</value>
+  <value>Информация о внешнем источнике...</value>
 </data>
 <data name="LoadingData_Text" xml:space="preserve">
   <value>Загрузка данных</value>
@@ -574,7 +574,7 @@
   <value>Пример</value>
 </data>
 <data name="GoToActionActionText" xml:space="preserve">
-  <value>Перейти к действию (&amp;A)…</value>
+  <value>Перейти к действию (&amp;A)...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_UnknownPattern_Text" xml:space="preserve">
   <value>Неизвестный шаблон</value>
@@ -607,7 +607,7 @@
   <value>Переопределение</value>
 </data>
 <data name="GoToText_Text" xml:space="preserve">
-  <value>Перейти к тексту (&amp;T)…</value>
+  <value>Перейти к тексту (&amp;T)...</value>
 </data>
 <data name="CannotCompareFiles_Text" xml:space="preserve">
   <value>Невозможно сравнить эти файлы</value>
@@ -635,7 +635,7 @@
   <value>Сравнить</value>
 </data>
 <data name="_Add_Text" xml:space="preserve">
-  <value>Добавить (_A)…</value>
+  <value>Добавить (_A)...</value>
 </data>
 <data name="FilesWithNamesLikeTheGeneratedFiles_Text" xml:space="preserve">
   <value>Сгенерированные файлы перезапишут существующие файлы с такими же именами</value>
@@ -677,7 +677,7 @@
   <value>Нет</value>
 </data>
 <data name="OpenFromGACActionText" xml:space="preserve">
-  <value>Открыть из GAC (&amp;G)…</value>
+  <value>Открыть из GAC (&amp;G)...</value>
 </data>
 <data name="NuGetPackages_TabName" xml:space="preserve">
   <value>Пакеты NuGet</value>
@@ -695,7 +695,7 @@
   <value>Перейти к исходному источнику (_S)</value>
 </data>
 <data name="GoToFile_Text" xml:space="preserve">
-  <value>Перейти к файлу (&amp;F)…</value>
+  <value>Перейти к файлу (&amp;F)...</value>
 </data>
 <data name="AddProjectToAssemblyExplorer_Text" xml:space="preserve">
   <value>Добавить проект в обозреватель сборок</value>
@@ -718,7 +718,7 @@
   <value>Тип файла не соответствует текущему режиму сравнения</value>
 </data>
 <data name="_Edit_Text" xml:space="preserve">
-  <value>Редактировать (_E)…</value>
+  <value>Редактировать (_E)...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_DependencyProperty_Text" xml:space="preserve">
   <value>Свойство зависимости</value>
@@ -874,10 +874,10 @@
   <value>Код недоступен</value>
 </data>
 <data name="Loading_Text" xml:space="preserve">
-  <value>Загрузка…</value>
+  <value>Загрузка...</value>
 </data>
 <data name="CompareAssembliesActionText" xml:space="preserve">
-  <value>Сравнить сборки…</value>
+  <value>Сравнить сборки...</value>
 </data>
 <data name="FileLayoutDesigner_Elements_Or_Text" xml:space="preserve">
   <value>Or</value>
@@ -961,7 +961,7 @@
   <value>Шаблоны</value>
 </data>
 <data name="ValidateRegularExpressionActionText" xml:space="preserve">
-  <value>Проверить регулярное выражение…</value>
+  <value>Проверить регулярное выражение...</value>
 </data>
 <data name="CreateTracepoint_Caption" xml:space="preserve">
   <value>Создать точку трассировки</value>
@@ -1000,7 +1000,7 @@
   <value>Найти проект в проводнике</value>
 </data>
 <data name="Generating___Text" xml:space="preserve">
-  <value>Генерация {0}…</value>
+  <value>Генерация {0}...</value>
 </data>
 <data name="DoNotModifyDefaultBehaviorOfVS_Text" xml:space="preserve">
   <value>Не изменять поведение Visual Studio по умолчанию</value>
@@ -1036,7 +1036,7 @@
   <value>Обработчик DP</value>
 </data>
 <data name="OpenFromNuGetPackagesCacheActionText" xml:space="preserve">
-  <value>Открыть из кеша пакетов NuGet…</value>
+  <value>Открыть из кеша пакетов NuGet...</value>
 </data>
 <data name="SourceFolder_Text" xml:space="preserve">
   <value>Исходная папка: </value>
@@ -1049,7 +1049,7 @@
 Используйте ${GROUP} для замены текста, соответствующего группе захвата ?&lt;GROUP&gt;</value>
 </data>
 <data name="SearchWithPatteRnActionText" xml:space="preserve">
-  <value>Искать с помощью шаблона (&amp;R)…</value>
+  <value>Искать с помощью шаблона (&amp;R)...</value>
 </data>
 <data name="TestRegularExpressionContextAction_Name" xml:space="preserve">
   <value>Проверить регулярное выражение</value>

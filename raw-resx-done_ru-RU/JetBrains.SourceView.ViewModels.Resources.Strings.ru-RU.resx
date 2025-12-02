@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="SearchInFolder_Button_Text" xml:space="preserve">
-  <value>Поиск в папке(_S)…</value>
+  <value>Поиск в папке(_S)...</value>
 </data>
 <data name="AddFolderMapping_Button_TooltipText" xml:space="preserve">
   <value>Сопоставить исходный относительный путь с абсолютным путем найденного файла для последующего использования.</value>

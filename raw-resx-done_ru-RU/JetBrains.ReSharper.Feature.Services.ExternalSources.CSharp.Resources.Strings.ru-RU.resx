@@ -151,7 +151,7 @@
   <value>Порт сервера символов</value>
 </data>
 <data name="Decompiling__Text" xml:space="preserve">
-  <value>Декомпиляция {0}…</value>
+  <value>Декомпиляция {0}...</value>
 </data>
 <data name="Assembly_IsProtectedFromDecompilation_Text" xml:space="preserve">
   <value>Сборка {0} защищена от декомпиляции. Чтобы декомпилировать защищенные сборки, включите опцию «Декомпилировать защищенные сборки (игнорировать атрибут SuppressIldasm)».</value>
@@ -181,10 +181,10 @@
   <value>Файл сборки {0} не содержит каталога отладки</value>
 </data>
 <data name="DecompilingSourcesAndResourcesToTemp_Text" xml:space="preserve">
-  <value>Декомпиляция исходных кодов и ресурсов во временную папку…</value>
+  <value>Декомпиляция исходных кодов и ресурсов во временную папку...</value>
 </data>
 <data name="DecompilingSourcesAndResources_Text" xml:space="preserve">
-  <value>Декомпиляция исходных кодов и ресурсов…</value>
+  <value>Декомпиляция исходных кодов и ресурсов...</value>
 </data>
 <data name="CantGeneratePdbForOutputAssembly_Text" xml:space="preserve">
   <value>Не удалось создать PDB для выходной сборки</value>

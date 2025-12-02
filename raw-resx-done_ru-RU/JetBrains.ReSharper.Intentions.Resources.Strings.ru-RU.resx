@@ -133,7 +133,7 @@
   <value>поиск производных типов</value>
 </data>
 <data name="ChangeNamingRule__Text" xml:space="preserve">
-  <value>изменить правило именования '{0}'…</value>
+  <value>изменить правило именования '{0}'...</value>
 </data>
 <data name="EditPattern__Text" xml:space="preserve">
   <value>редактировать шаблон '{0}'</value>
@@ -171,10 +171,10 @@
 {0}</value>
 </data>
 <data name="DetectCodeStyleSettings_Text" xml:space="preserve">
-  <value>обнаружить настройки стиля кода…</value>
+  <value>обнаружить настройки стиля кода...</value>
 </data>
 <data name="Rename_Text" xml:space="preserve">
-  <value>переименовать…</value>
+  <value>переименовать...</value>
 </data>
 <data name="Folder_DoNotIntroduceNamespace_Text" xml:space="preserve">
   <value>папка '{0}' не вводит пространство имён</value>
@@ -204,7 +204,7 @@
   <value>предоставляет действия для очистки кода в выбранной области</value>
 </data>
 <data name="FindThis_OnNugetOrg_Text" xml:space="preserve">
-  <value>найти этот {0} на nuget.org…</value>
+  <value>найти этот {0} на nuget.org...</value>
 </data>
 <data name="AdjustNamespaces_Text" xml:space="preserve">
   <value>настроить пространства имён</value>
@@ -277,7 +277,7 @@
   <value>прокомментировать неиспользуемый{0}</value>
 </data>
 <data name="ConfigureCodeStyle_Text" xml:space="preserve">
-  <value>настроить стиль кода…</value>
+  <value>настроить стиль кода...</value>
 </data>
 <data name="InsertFormatArgument_Text" xml:space="preserve">
   <value>вставить аргумент формата</value>
@@ -388,7 +388,7 @@
   <value>обновление прав доступа иерархии</value>
 </data>
 <data name="ImportTypeWithDots_Text" xml:space="preserve">
-  <value>импортировать тип…</value>
+  <value>импортировать тип...</value>
 </data>
 <data name="SpaciousFormatChop_Text" xml:space="preserve">
   <value>просторный формат (разбивка)</value>
@@ -502,7 +502,7 @@
   <value>сделать {0}</value>
 </data>
 <data name="RenameCqrs_Text" xml:space="preserve">
-  <value>CQRS: переименовать…</value>
+  <value>CQRS: переименовать...</value>
 </data>
 <data name="TheFollowingSettingsAffectTheCodeStyle_Caption" xml:space="preserve">
   <value>Следующие настройки влияют на стиль кода в этом месте</value>
@@ -526,7 +526,7 @@
   <value>сделать все типы '{0}'</value>
 </data>
 <data name="ReformatAndCleanupContextAction_Name" xml:space="preserve">
-  <value>переформатировать и очистить…</value>
+  <value>переформатировать и очистить...</value>
 </data>
 <data name="Use__Text" xml:space="preserve">
   <value>использовать «{0}»</value>
@@ -535,7 +535,7 @@
   <value>для всех параметров как {0}</value>
 </data>
 <data name="ReferenceAndImportType_Text" xml:space="preserve">
-  <value>сослаться и импортировать тип…</value>
+  <value>сослаться и импортировать тип...</value>
 </data>
 <data name="ToStringFormatInvocation_Text" xml:space="preserve">
   <value>преобразовать в вызов string.Format</value>
@@ -592,7 +592,7 @@
   <value>импортировать '{0}' и другие отсутствующие ссылки</value>
 </data>
 <data name="SeeMore_Text" xml:space="preserve">
-  <value>увидеть больше…</value>
+  <value>увидеть больше...</value>
 </data>
 <data name="WeCanTRecommendAnyChangesToYourCode_Text" xml:space="preserve">
   <value>Мы не можем рекомендовать какие-либо изменения ваших настроек стиля кода. Похоже, ваш код соответствует текущим настройкам, или ваш стиль кода не поддерживается.</value>
@@ -655,7 +655,7 @@
   <value>только переотступ</value>
 </data>
 <data name="ReformatAndCleanup_Text" xml:space="preserve">
-  <value>переформатировать и очистить…</value>
+  <value>переформатировать и очистить...</value>
 </data>
 <data name="RemoveUnusedFixNotAccessed_Text" xml:space="preserve">
   <value>не доступно</value>
@@ -709,10 +709,10 @@
   <value>сделать все члены '{0}'</value>
 </data>
 <data name="ImportType_MultipleChoices_Text" xml:space="preserve">
-  <value>импортировать тип '{0}' (множественный выбор…)?</value>
+  <value>импортировать тип '{0}' (множественный выбор...)?</value>
 </data>
 <data name="ConfigureCleanupProfiles_Text" xml:space="preserve">
-  <value>настроить профили очистки…</value>
+  <value>настроить профили очистки...</value>
 </data>
 <data name="PreviousValue_DetectedValue__Text" xml:space="preserve">
   <value>предыдущее значение {0}, обнаруженное значение {1}</value>

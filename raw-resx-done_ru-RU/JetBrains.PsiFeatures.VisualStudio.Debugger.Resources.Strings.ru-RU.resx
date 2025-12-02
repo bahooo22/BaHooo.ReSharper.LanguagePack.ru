@@ -367,7 +367,7 @@
   <value>Показать в окне стека вызовов</value>
 </data>
 <data name="GotoBreakpointsActionText" xml:space="preserve">
-  <value>Точки останова (&amp;B)…</value>
+  <value>Точки останова (&amp;B)...</value>
 </data>
 <data name="HexadecimalChildrenSettingDescription" xml:space="preserve">
   <value>Шестнадцатеричные дочерние элементы</value>

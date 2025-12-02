@@ -124,7 +124,7 @@
   <value>Перейти к следующему экземпляру функции, исключая рекурсивные вызовы</value>
 </data>
 <data name="GoToActionActionText" xml:space="preserve">
-  <value>Перейти к действию(&amp;A)…</value>
+  <value>Перейти к действию &amp;A)...</value>
 </data>
 <data name="GoToNextInstanceOfTheFunctionActionText" xml:space="preserve">
   <value>Перейти к следующему экземпляру функции</value>

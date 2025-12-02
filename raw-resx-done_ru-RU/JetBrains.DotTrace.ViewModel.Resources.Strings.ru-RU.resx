@@ -133,7 +133,7 @@
   <value>Уменьшить</value>
 </data>
 <data name="FindFunctionActionText" xml:space="preserve">
-  <value>Найти функцию (&amp;F)…</value>
+  <value>Найти функцию (&amp;F)...</value>
 </data>
 <data name="OpenSnapshot_SnapshotListDialog_ButtonText_SelectFromDisk" xml:space="preserve">
   <value>Выбрать с диска</value>

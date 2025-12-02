@@ -145,7 +145,7 @@
   <value>Скрыть устаревшие члены</value>
 </data>
 <data name="DownloadAndInstallNodeJs_Text" xml:space="preserve">
-  <value>Скачать и установить Node.js…</value>
+  <value>Скачать и установить Node.js...</value>
 </data>
 <data name="Product_TextBox_Caption" xml:space="preserve">
   <value>Продукт</value>
@@ -280,7 +280,7 @@
   <value>Текущий Mono: {0}</value>
 </data>
 <data name="DownloadMonoPackage_Text" xml:space="preserve">
-  <value>Скачать пакет Mono…</value>
+  <value>Скачать пакет Mono...</value>
 </data>
 <data name="SourceGeneratorFolder_Text" xml:space="preserve">
   <value>Генераторы исходного кода</value>
@@ -394,7 +394,7 @@
   <value>События сборки</value>
 </data>
 <data name="ApplyingFileNestingRules_Text" xml:space="preserve">
-  <value>Применение правил вложения файлов…</value>
+  <value>Применение правил вложения файлов...</value>
 </data>
 <data name="MSBuildVersionIssue_Text" xml:space="preserve">
   <value>Проблема версии MSBuild</value>
@@ -433,7 +433,7 @@
   <value>Количество неперсистентных событий индекса символов</value>
 </data>
 <data name="InstallNETCoreToDevelopNETApplications_Text" xml:space="preserve">
-  <value>Установить .NET Core для разработки .NET приложений…</value>
+  <value>Установить .NET Core для разработки .NET приложений...</value>
 </data>
 <data name="UnloadedProjectsSettingDescription" xml:space="preserve">
   <value>Выгруженные проекты</value>
@@ -496,13 +496,13 @@
   <value>{0} обнаружил, что рефакторинг имеет некоторые конфликты с существующим кодом. </value>
 </data>
 <data name="DownloadAndInstall_DeveloperPack_Text" xml:space="preserve">
-  <value>Скачать и установить {0} Developer Pack…</value>
+  <value>Скачать и установить {0} Developer Pack...</value>
 </data>
 <data name="Derived_Text" xml:space="preserve">
   <value>Производный</value>
 </data>
 <data name="SelectDifferentMSBuildInRiderSettings_Text" xml:space="preserve">
-  <value>Выбрать другой MSBuild в настройках Rider…</value>
+  <value>Выбрать другой MSBuild в настройках Rider...</value>
 </data>
 <data name="CodeAnalysis_SectionTitle" xml:space="preserve">
   <value>Анализ кода</value>
@@ -543,7 +543,7 @@
   <value>Неверный .NET Framework в проекте '{0}'</value>
 </data>
 <data name="ChangeTargetFramework_Text" xml:space="preserve">
-  <value>Изменить целевую платформу…</value>
+  <value>Изменить целевую платформу...</value>
 </data>
 <data name="ExposingAPI_m_Text" xml:space="preserve">
   <value>Открытие API</value>
@@ -621,7 +621,7 @@
   <value>Вкл</value>
 </data>
 <data name="InstallMono_Text" xml:space="preserve">
-  <value>Установить Mono…</value>
+  <value>Установить Mono...</value>
 </data>
 <data name="RefactoringModification_Text" xml:space="preserve">
   <value>Модификация рефакторинга</value>
@@ -672,7 +672,7 @@
   <value>Примечания</value>
 </data>
 <data name="ManageNETSDKForTheSolution_Text" xml:space="preserve">
-  <value>Управлять .NET SDK для решения…</value>
+  <value>Управлять .NET SDK для решения...</value>
 </data>
 <data name="BuiltIn_Text" xml:space="preserve">
   <value>Встроенный</value>
@@ -696,7 +696,7 @@
   <value>Авторы</value>
 </data>
 <data name="InstallXamarinSDK_Text" xml:space="preserve">
-  <value>Установить Xamarin SDK…</value>
+  <value>Установить Xamarin SDK...</value>
 </data>
 <data name="ExtMethods_Text" xml:space="preserve">
   <value>Методы расширения</value>
@@ -750,7 +750,7 @@
   <value>Эта ошибка обычно возникает из-за неверной версии Mono. Попробуйте обновить среду выполнения Mono.</value>
 </data>
 <data name="UpdateNETSDK_Text" xml:space="preserve">
-  <value>Обновить .NET SDK…</value>
+  <value>Обновить .NET SDK...</value>
 </data>
 <data name="TreatAllWarningsAsErrors_CheckBox_Caption" xml:space="preserve">
   <value>Рассматривать все предупреждения как ошибки</value>
@@ -852,7 +852,7 @@
   <value>Внутренние действия (ReSharper)</value>
 </data>
 <data name="InstallNETCoreOrMonoToDevelopNETApplications_Text" xml:space="preserve">
-  <value>Установить .NET Core или Mono для разработки .NET приложений…</value>
+  <value>Установить .NET Core или Mono для разработки .NET приложений...</value>
 </data>
 <data name="CheckForArithmeticOverflow_CheckBox_Caption" xml:space="preserve">
   <value>Проверять арифметическое переполнение</value>
@@ -882,7 +882,7 @@
   <value>Настройки темы</value>
 </data>
 <data name="Postprocessing_Text" xml:space="preserve">
-  <value>Постобработка…</value>
+  <value>Постобработка...</value>
 </data>
 <data name="DebugType_ComboBox_Caption" xml:space="preserve">
   <value>Тип отладки</value>
@@ -1081,7 +1081,7 @@
   <value>Пользовательские инструменты:</value>
 </data>
 <data name="SpecifyNETCLIPathInRiderSettings_Text" xml:space="preserve">
-  <value>Указать путь .NET CLI в настройках Rider…</value>
+  <value>Указать путь .NET CLI в настройках Rider...</value>
 </data>
 <data name="DocumentsModification_Text" xml:space="preserve">
   <value>Модификация документов</value>
@@ -1148,6 +1148,6 @@
   <value>Диагностика</value>
 </data>
 <data name="InstallNETSDK_Text" xml:space="preserve">
-  <value>Установить .NET SDK…</value>
+  <value>Установить .NET SDK...</value>
 </data>
 </root>

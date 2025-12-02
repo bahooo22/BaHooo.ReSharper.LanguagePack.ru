@@ -650,7 +650,7 @@
   <value>Вызов API профилировщика не поддерживается</value>
 </data>
 <data name="Profiler_LocateSnapshot_ActionText" xml:space="preserve">
-  <value>Указать расположение снимка(&amp;L)…</value>
+  <value>Указать расположение снимка &amp;L)...</value>
 </data>
 <data name="HostOptions_HostTempPath" xml:space="preserve">
   <value>Временный путь узла</value>
@@ -777,7 +777,7 @@
   <value>Мст именованных каналов</value>
 </data>
 <data name="Profiler_CloseSnapshot_ActionText" xml:space="preserve">
-  <value>Закрыть снимок(&amp;C)</value>
+  <value>Закрыть снимок &amp;C)</value>
 </data>
 <data name="ProfileCfg_OrWord" xml:space="preserve">
   <value>или</value>
@@ -1005,7 +1005,7 @@
   <value>Сэмплинг</value>
 </data>
 <data name="Profiler_SaveSnapshot_ActionText" xml:space="preserve">
-  <value>&amp;Сохранить снимок…</value>
+  <value>&amp;Сохранить снимок...</value>
 </data>
 <data name="IISExpress_Server" xml:space="preserve">
   <value>Сервер</value>

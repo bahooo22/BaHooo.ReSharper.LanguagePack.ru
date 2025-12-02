@@ -253,7 +253,7 @@
   <value>Оптимизировать директивы register</value>
 </data>
 <data name="ReplaceVarWithItsFallbackValueContextAction_Description" xml:space="preserve">
-  <value>Заменить вызов var(…) на его резервное значение (если есть)</value>
+  <value>Заменить вызов var(...) на его резервное значение (если есть)</value>
 </data>
 <data name="TsCreateFromUsageAction_InExternalModuleText" xml:space="preserve">
   <value>Создать {0} '{1}' во внешнем модуле '{2}'</value>
@@ -622,7 +622,7 @@
   <value>Преобразовать все устаревшие конструкции в ECMAScript 6</value>
 </data>
 <data name="ReplaceVarWithItsFallbackValue_Text" xml:space="preserve">
-  <value>Заменить var(…) на его резервное значение</value>
+  <value>Заменить var(...) на его резервное значение</value>
 </data>
 <data name="ChangeLanguageLevelToECMAScript2015_Text" xml:space="preserve">
   <value>Изменить уровень языка на ECMAScript 2015</value>
@@ -1747,7 +1747,7 @@
   <value>Извлечь '{0}' в шаблоны маршрутов контроллера</value>
 </data>
 <data name="ReplaceVarWithItsFallbackValueContextAction_Name" xml:space="preserve">
-  <value>Заменить var(…) на его резервное значение</value>
+  <value>Заменить var(...) на его резервное значение</value>
 </data>
 <data name="ChangeVariable_TypeTo__Text" xml:space="preserve">
   <value>Изменить тип переменной '{0}' на '{1}'</value>

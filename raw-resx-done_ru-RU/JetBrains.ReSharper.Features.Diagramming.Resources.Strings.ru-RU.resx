@@ -256,7 +256,7 @@
   <value>Включить метрики кода</value>
 </data>
 <data name="CompareWithSavedActionText" xml:space="preserve">
-  <value>Сравнить с сохранённым…</value>
+  <value>Сравнить с сохранённым...</value>
 </data>
 <data name="ShowInheritanceDependenciesActionText" xml:space="preserve">
   <value>Показать зависимости наследования</value>
@@ -283,7 +283,7 @@
   <value>Показать транзитивные ссылки</value>
 </data>
 <data name="SaveArchitectureGraphActionText" xml:space="preserve">
-  <value>Сохранить граф архитектуры…</value>
+  <value>Сохранить граф архитектуры...</value>
 </data>
 <data name="ShowOnlySelectedItemsActionText" xml:space="preserve">
   <value>Показать только выбранные элементы</value>
@@ -366,7 +366,7 @@
   <value>Показать внедрения через конструктор</value>
 </data>
 <data name="GroupingActionGroupText" xml:space="preserve">
-  <value>Группировка…</value>
+  <value>Группировка...</value>
 </data>
 <data name="DoNotGroupActionText" xml:space="preserve">
   <value>Не группировать</value>

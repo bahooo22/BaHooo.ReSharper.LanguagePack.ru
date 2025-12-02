@@ -201,7 +201,7 @@
   <value>Восстанавливать пакеты NuGet перед сборкой</value>
 </data>
 <data name="LearnMore_Button_Text" xml:space="preserve">
-  <value>Подробнее…</value>
+  <value>Подробнее...</value>
 </data>
 <data name="MSBuildGlobalProperties_Text" xml:space="preserve">
   <value>Глобальные свойства MSBuild</value>
@@ -347,7 +347,7 @@
 Пример имени файла: {0}</value>
 </data>
 <data name="Custom_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="DumpBuildStatesBeforeBuildSettingDescription" xml:space="preserve">
   <value>Перед сборкой сохранять состояние сборки</value>
@@ -392,7 +392,7 @@
   <value>Папка для файлового логгера</value>
 </data>
 <data name="Edit_Text" xml:space="preserve">
-  <value>Редактировать…</value>
+  <value>Редактировать...</value>
 </data>
 <data name="ProjectsShouldBeNeverBuiltIndependentlyFromHeuristicSettingDescription" xml:space="preserve">
   <value>Проекты не должны собираться независимо от эвристик</value>

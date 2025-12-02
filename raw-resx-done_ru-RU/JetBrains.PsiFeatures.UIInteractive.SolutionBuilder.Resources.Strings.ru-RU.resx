@@ -279,7 +279,7 @@
 Он собирает проекты только тогда, когда их ссылки обновляют общедоступный API.</value>
 </data>
 <data name="PrepareBuildResults__Text" xml:space="preserve">
-  <value>Подготовка результатов сборки… {0:P0}</value>
+  <value>Подготовка результатов сборки... {0:P0}</value>
 </data>
 <data name="BuildFailed_Warnings_Text" xml:space="preserve">
   <value>Сборка не удалась ({0} предупреждений)</value>
@@ -329,7 +329,7 @@
 Собрать всё решение вместо этого?</value>
 </data>
 <data name="PrepareBuildResults_Text" xml:space="preserve">
-  <value>Подготовка результатов сборки…</value>
+  <value>Подготовка результатов сборки...</value>
 </data>
 <data name="ProjectsWithWarningsActionText" xml:space="preserve">
   <value>Проекты с предупреждениями</value>

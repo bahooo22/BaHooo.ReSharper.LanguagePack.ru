@@ -121,13 +121,13 @@
   <value>Включить предложения по изменению комментариев (экспериментальная функция)</value>
 </data>
 <data name="ExplainThis_Text" xml:space="preserve">
-  <value>Объяснить…</value>
+  <value>Объяснить...</value>
 </data>
 <data name="ImplementThis_NoDots_Text" xml:space="preserve">
   <value>Реализовать</value>
 </data>
 <data name="PromptLibrary_Text" xml:space="preserve">
-  <value>Библиотека промтов…</value>
+  <value>Библиотека промтов...</value>
 </data>
 <data name="IsUserNotifiedAboutSmartChat_Text" xml:space="preserve">
   <value>Уведомлен ли пользователь об умном чате</value>
@@ -160,13 +160,13 @@
   <value>Настройки ввода</value>
 </data>
 <data name="CollectingRelevantCode_Text" xml:space="preserve">
-  <value>Сбор релевантного кода…</value>
+  <value>Сбор релевантного кода...</value>
 </data>
 <data name="RetrievesCodeFragmentsFromCurrently_Text" xml:space="preserve">
   <value>Извлекает фрагменты кода, содержащие объявления символов и связанный код, из текущего открытого решения, используя CLR-имена символов.</value>
 </data>
 <data name="ImplementThis_Text" xml:space="preserve">
-  <value>Реализовать…</value>
+  <value>Реализовать...</value>
 </data>
 <data name="InEditorWriteDocumentationExperimental_Text" xml:space="preserve">
   <value>Написание документации в редакторе (экспериментальная функция)</value>
@@ -223,7 +223,7 @@
   <value>Рефакторинг</value>
 </data>
 <data name="ExplainThisRegularExpressionWithAI_Text" xml:space="preserve">
-  <value>Объяснить это регулярное выражение с помощью ИИ…</value>
+  <value>Объяснить это регулярное выражение с помощью ИИ...</value>
 </data>
 <data name="ContextPlacement_Text" xml:space="preserve">
   <value>Размещение контекста</value>
@@ -295,7 +295,7 @@
   <value>Изменить комментарий '{0}' на '{1}'</value>
 </data>
 <data name="FetchingContextsOfDeclarationsAndUsages_Text" xml:space="preserve">
-  <value>Получение контекстов объявлений и использований…</value>
+  <value>Получение контекстов объявлений и использований...</value>
 </data>
 <data name="EnableSmartChat_Text" xml:space="preserve">
   <value>Включить умный чат</value>
@@ -307,7 +307,7 @@
   <value>Включить контекстные действия (экспериментальная функция)</value>
 </data>
 <data name="FindIssuesIn_Text" xml:space="preserve">
-  <value>Найти проблемы…</value>
+  <value>Найти проблемы...</value>
 </data>
 <data name="ChatType_Text" xml:space="preserve">
   <value>Тип чата</value>

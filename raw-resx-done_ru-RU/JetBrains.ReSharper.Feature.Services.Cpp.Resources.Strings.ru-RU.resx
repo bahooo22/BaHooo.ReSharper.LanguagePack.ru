@@ -133,7 +133,7 @@
     <value>Порядок cv-квалификаторов</value>
   </data>
   <data name="HashFunction_Text" xml:space="preserve">
-    <value>Хэш-функция(&amp;H)</value>
+    <value>Хэш-функция (&amp;H)</value>
   </data>
   <data name="DeductionFailure_InferredConflictingSubstitutions_Text" xml:space="preserve">
     <value>Выведенные конфликтующие подстановки для параметра шаблона {0}: {1}</value>
@@ -413,7 +413,7 @@
     <value>Изменить сигнатуру текущей функции</value>
   </data>
   <data name="ChangeSignatureAction_Text" xml:space="preserve">
-    <value>Изменить сигнатуру…</value>
+    <value>Изменить сигнатуру...</value>
   </data>
   <data name="TheNodiscardAttributeCannotBeAppliedToFunctionsWithoutAReturnValue" xml:space="preserve">
     <value>Атрибут [[nodiscard]] не может применяться к функциям без возвращаемого значения</value>
@@ -759,10 +759,10 @@
     <value>Способ приема параметров (&amp;P)</value>
   </data>
   <data name="UpdatingTODOs_Text" xml:space="preserve">
-    <value>Обновление TODO…</value>
+    <value>Обновление TODO...</value>
   </data>
   <data name="IntroduceNamespaceAliasActionText" xml:space="preserve">
-    <value>Ввести псевдоним пространства имен…</value>
+    <value>Ввести псевдоним пространства имен...</value>
   </data>
   <data name="MainHeaderGroupOrderSettingDescription" xml:space="preserve">
     <value>Порядок основных групп заголовков</value>
@@ -807,7 +807,7 @@
     <value>Вызов {0} неоднозначен.</value>
   </data>
   <data name="InconsistentUE4NamingDescription" xml:space="preserve">
-    <value>Имя не соответствует стилю именования стандартов кодирования Unreal Engine. &lt;a href="https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard#namingconventions"&gt;Узнать больше…&lt;/a&gt;</value>
+    <value>Имя не соответствует стилю именования стандартов кодирования Unreal Engine. &lt;a href="https://docs.unrealengine.com/en-us/Programming/Development/CodingStandard#namingconventions"&gt;Узнать больше...&lt;/a&gt;</value>
   </data>
   <data name="SafeDeleteConflict_UpdateArgumentListOf_Text" xml:space="preserve">
     <value>Невозможно обновить список аргументов {0}</value>
@@ -1077,7 +1077,7 @@
     <value>Индексировать исходные файлы Unreal Engine</value>
   </data>
   <data name="ForNumericTypesIntBoolCharSettingDescription" xml:space="preserve">
-    <value>Для числовых типов (int, bool, char…)</value>
+    <value>Для числовых типов (int, bool, char...)</value>
   </data>
   <data name="OperatorNewHasButIsCalledWithMessage" xml:space="preserve">
     <value>Оператор new имеет {0} {1}, но вызывается с {2} {3}</value>
@@ -1860,7 +1860,7 @@
     <value>После запятой в фигурных скобках единообразной инициализации</value>
   </data>
   <data name="ExtractMethodAction_Text" xml:space="preserve">
-    <value>Извлечь метод…</value>
+    <value>Извлечь метод...</value>
   </data>
   <data name="ExtractMethodAction_Name" xml:space="preserve">
     <value>Извлечь метод из выбранного кода</value>
@@ -1992,7 +1992,7 @@
     <value>'this' не захвачен</value>
   </data>
   <data name="IntroduceTypedefActionText" xml:space="preserve">
-    <value>Ввести Typedef…</value>
+    <value>Ввести Typedef...</value>
   </data>
   <data name="ZeroConstantCanBeReplacedWithNullptrMessage" xml:space="preserve">
     <value>Нулевая константа может быть заменена на nullptr</value>
@@ -2757,7 +2757,7 @@
   <value>Директиве '#pragma endregion' не хватает соответствующей директивы '#pragma region'</value>
 </data>
 <data name="SearchingForReferences_Text" xml:space="preserve">
-  <value>Поиск ссылок…</value>
+  <value>Поиск ссылок...</value>
 </data>
 <data name="BinaryOperatorActsOnEqualOperandsMessage" xml:space="preserve">
   <value>Бинарный оператор '{0}' действует на одинаковые операнды</value>
@@ -2808,7 +2808,7 @@
   <value>Можно использовать функцию-член 'contains'</value>
 </data>
 <data name="MocKMethods_Text" xml:space="preserve">
-  <value>Создать mock-методы(&amp;K)</value>
+  <value>Создать mock-методы (&amp;K)</value>
 </data>
 <data name="CppRedundantConditionalExpressionTitle" xml:space="preserve">
   <value>Избыточное условное выражение</value>
@@ -2850,7 +2850,7 @@
   <value>Расширение HLSL</value>
 </data>
 <data name="UseUniformInitialization_Text" xml:space="preserve">
-  <value>Использовать унифицированную инициализацию(&amp;U)</value>
+  <value>Использовать унифицированную инициализацию (&amp;U)</value>
 </data>
 <data name="NonTypeTemplateParameter_RiderPresentableName" xml:space="preserve">
   <value>Нетиповой параметр шаблона</value>
@@ -3018,7 +3018,7 @@
   <value>Размещение cv-квалификаторов</value>
 </data>
 <data name="UseConstForValueParameters_Text" xml:space="preserve">
-  <value>Использовать 'const' для параметров по значению(&amp;C)</value>
+  <value>Использовать 'const' для параметров по значению (&amp;C)</value>
 </data>
 <data name="FailedToGenerateProjectModelDefinition_Text" xml:space="preserve">
   <value>Не удалось сгенерировать файл определения модели проекта для '{0}'</value>
@@ -3057,10 +3057,10 @@
   <value>Заменить признак типа соответствующим псевдонимом шаблона или переменной шаблона</value>
 </data>
 <data name="InLineFunction_Text" xml:space="preserve">
-  <value>Встроенная функция(&amp;L)</value>
+  <value>Встроенная функция (&amp;L)</value>
 </data>
 <data name="GenerateOption_AddPrefiXesToSetters_Text" xml:space="preserve">
-  <value>Добавить префиксы к сеттерам(&amp;X)</value>
+  <value>Добавить префиксы к сеттерам (&amp;X)</value>
 </data>
 <data name="GenerateInlineDefinition_Text" xml:space="preserve">
   <value>Сгенерировать встроенное определение</value>
@@ -3159,7 +3159,7 @@
   <value>Неожиданная ошибка: {0}</value>
 </data>
 <data name="GenerateOption_MakeSwapFunctionNoeXcept_Text" xml:space="preserve">
-  <value>Сделать функцию swap noexcept(&amp;X)</value>
+  <value>Сделать функцию swap noexcept (&amp;X)</value>
 </data>
 <data name="ToVariableDefinitionUsingUniformInitialization_Text" xml:space="preserve">
   <value>К определению переменной с использованием унифицированной инициализации</value>
@@ -3462,7 +3462,7 @@
   <value>Член анонимного пространства имён {0} не реализован</value>
 </data>
 <data name="IMplementIEquatableTInterface_Text" xml:space="preserve">
-  <value>Реализовать интерфейс IEquatable&lt;T&gt;(&amp;M)</value>
+  <value>Реализовать интерфейс IEquatable&lt;T&gt; (&amp;M)</value>
 </data>
 <data name="ForLoopWithoutInitStatementAndUpdateExpressionIsEquivalentToWhileLoop" xml:space="preserve">
   <value>Цикл for без инициализирующей инструкции и выражения обновления эквивалентен циклу while</value>
@@ -3525,10 +3525,10 @@
   <value>Не удалось разобрать файл ассета {0}. Выброшено исключение: {1}</value>
 </data>
 <data name="MIssingMembers_Text" xml:space="preserve">
-  <value>Отсутствующие члены(&amp;I)</value>
+  <value>Отсутствующие члены (&amp;I)</value>
 </data>
 <data name="StaticDataMemberInLocalIsNotAllowedMessage" xml:space="preserve">
-  <value>Статический член данных '{0}' не допускается в локальном{1}</value>
+  <value>Статический член данных '{0}' не допускается в локальном {1}</value>
 </data>
 <data name="OrderOfMemberInitializersDoesNotMatchTheInitializationOrderMessage" xml:space="preserve">
   <value>Порядок инициализаторов членов не соответствует порядку инициализации</value>
@@ -3564,7 +3564,7 @@
   <value>Ключевое слово '__super' может использоваться только внутри тела функции-члена класса</value>
 </data>
 <data name="InLineMacro_Text" xml:space="preserve">
-  <value>Встроенный макрос(&amp;L)</value>
+  <value>Встроенный макрос (&amp;L)</value>
 </data>
 <data name="EvaluatesToTheQualifiedNameOfTheEntityThatIsBeingDocumentedMacroDefinition_Description" xml:space="preserve">
   <value>Документация: квалифицированное имя сущности</value>
@@ -3606,7 +3606,7 @@
   <value>Инициализатор переменной содержит ошибку</value>
 </data>
 <data name="SwapBasedAssignment_Text" xml:space="preserve">
-  <value>Присваивание на основе swap(&amp;B)</value>
+  <value>Присваивание на основе swap (&amp;B)</value>
 </data>
 <data name="MultipleDeclarationsInRangeBasedFor_Text" xml:space="preserve">
   <value>Множественные объявления в for на основе диапазона</value>
@@ -3966,7 +3966,7 @@
   <value>Разрывать строку после '-&gt;' в завершающих возвращаемых типах</value>
 </data>
 <data name="GenerateOption_DeclareGettersNodiscard_Text" xml:space="preserve">
-  <value>Объявить геттеры [[nodiscard]](&amp;N)</value>
+  <value>Объявить геттеры [[nodiscard]] (&amp;N)</value>
 </data>
 <data name="CallToAVirtualFunctionInsideAIsResolvedAtCompileTimeMessage" xml:space="preserve">
   <value>Вызов виртуальной функции внутри{0} разрешается во время компиляции</value>
@@ -4002,7 +4002,7 @@
   <value>Добавить необходимые ключевые слова 'typename' и 'template'</value>
 </data>
 <data name="MoveOperations_Text" xml:space="preserve">
-  <value>Операции перемещения(&amp;M)</value>
+  <value>Операции перемещения (&amp;M)</value>
 </data>
 <data name="CTypeDeductionOnlyAllowedOnVariablesMessage" xml:space="preserve">
   <value>Вывод типа разрешён только для переменных</value>
@@ -4320,7 +4320,7 @@
   <value>Функции//Глобальная функция</value>
 </data>
 <data name="AccessRights_Text" xml:space="preserve">
-  <value>Права доступа(&amp;R)</value>
+  <value>Права доступа (&amp;R)</value>
 </data>
 <data name="BackslashIsNotALineContinuatorBecauseThereIsASpaceBetweenItAndTheEndOfTheLine" xml:space="preserve">
   <value>Обратная косая черта не является продолжением строки, потому что между ней и концом строки есть пробел</value>
@@ -4593,7 +4593,7 @@
   <value>Перед ':' в for на основе диапазона</value>
 </data>
 <data name="GenerateOption_Kind_Text" xml:space="preserve">
-  <value>Вид(&amp;K)</value>
+  <value>Вид (&amp;K)</value>
 </data>
 <data name="VolatileQualificationOfParametersHasAnEffectOnlyInFunctionDefinitions" xml:space="preserve">
   <value>Volatile квалификация параметров имеет эффект только в определениях функций</value>
@@ -4749,7 +4749,7 @@
   <value>Вычисляется в тип возвращаемого значения функции</value>
 </data>
 <data name="GenerateOption_GeneratePrOperties_Text" xml:space="preserve">
-  <value>Генерировать свойства(&amp;O)</value>
+  <value>Генерировать свойства (&amp;O)</value>
 </data>
 <data name="ResultOfAssignmentIsUsedAsConditionMessage" xml:space="preserve">
   <value>Результат присваивания используется в качестве условия</value>
@@ -4997,7 +4997,7 @@
   <value>Преобразовать в необработанный строковый литерал</value>
 </data>
 <data name="CHangeSignature_Text" xml:space="preserve">
-  <value>Изменить сигнатуру(&amp;H)</value>
+  <value>Изменить сигнатуру (&amp;H)</value>
 </data>
 <data name="BindingToNonConstReference_Text" xml:space="preserve">
   <value>Привязка к неконстантной ссылке</value>
@@ -5015,7 +5015,7 @@
   <value>В других местах</value>
 </data>
 <data name="Configure_Text" xml:space="preserve">
-  <value>Настроить…</value>
+  <value>Настроить...</value>
 </data>
 <data name="FunctionsMemberFunction_RiderPresentableName" xml:space="preserve">
   <value>Функции//Функция-член</value>
@@ -5168,7 +5168,7 @@
   <value>Невозможно разрешить имя типа</value>
 </data>
 <data name="InLineTypedef_Text" xml:space="preserve">
-  <value>Встроенный Typedef(&amp;L)</value>
+  <value>Встроенный Typedef &amp;L)</value>
 </data>
 <data name="EvaluationFail_DuplicatedCtorInitializer" xml:space="preserve">
   <value>Повторяющийся инициализатор для {0}</value>
@@ -5243,7 +5243,7 @@
   <value>Невозможно привязать ссылку на rvalue к lvalue</value>
 </data>
 <data name="OverridingMembers_Text" xml:space="preserve">
-  <value>Переопределить члены(&amp;O)</value>
+  <value>Переопределить члены &amp;O)</value>
 </data>
 <data name="IncludesHierarchy_Text" xml:space="preserve">
   <value>Иерархия Include</value>
@@ -5273,7 +5273,7 @@
   <value>Заменить {0}</value>
 </data>
 <data name="WriteCurrentStyleToClangFormat_Button_Caption" xml:space="preserve">
-  <value>Записать текущий стиль в .clang-format…</value>
+  <value>Записать текущий стиль в .clang-format...</value>
 </data>
 <data name="DeductionFailure_CannotInferSubstitutionFor_Text" xml:space="preserve">
   <value>Невозможно вывести подстановку для {0}</value>
@@ -5330,7 +5330,7 @@
   <value>Возвращаемый тип {0} отличается или не ковариантен с возвращаемым типом {1} переопределённого{2}</value>
 </data>
 <data name="ViewGraphOfCIncludesActionText" xml:space="preserve">
-  <value>Просмотреть граф Include C/C++(&amp;O)</value>
+  <value>Просмотреть граф Include C/C++ &amp;O)</value>
 </data>
 <data name="ChangeSignature_TypeColumn_Text" xml:space="preserve">
   <value>Тип,*</value>
@@ -5348,7 +5348,7 @@
   <value>Добавить return</value>
 </data>
 <data name="InLineVariable_Text" xml:space="preserve">
-  <value>Встроенная переменная(&amp;L)</value>
+  <value>Встроенная переменная &amp;L)</value>
 </data>
 <data name="EnableCheckSymbols_BoolOption_Text" xml:space="preserve">
   <value>Включить CheckSymbols</value>
@@ -5730,7 +5730,7 @@
   <value>Сложный тест</value>
 </data>
 <data name="SurroundWithParentheses_Text" xml:space="preserve">
-  <value>Окружить круглыми скобками '(…)'</value>
+  <value>Окружить круглыми скобками '(...)'</value>
 </data>
 <data name="RemoveRedundantQualifiers_Text" xml:space="preserve">
   <value>Удалить избыточные квалификаторы</value>
@@ -6168,7 +6168,7 @@
   <value>Использовать тип '{0}' (добавить предварительное объявление)</value>
 </data>
 <data name="IntroduceFieldAction_Text" xml:space="preserve">
-  <value>Ввести поле…</value>
+  <value>Ввести поле...</value>
 </data>
 <data name="IntroduceFieldAction_Name" xml:space="preserve">
   <value>Ввести поле для выбранного выражения</value>
@@ -6285,7 +6285,7 @@
   <value>Настройки инициализации</value>
 </data>
 <data name="SearchingForDerivedFunctionsEllipsis_Text" xml:space="preserve">
-  <value>Поиск производных функций…</value>
+  <value>Поиск производных функций...</value>
 </data>
 <data name="UnionMembers_Title_Text" xml:space="preserve">
   <value>Члены объединения</value>
@@ -6606,7 +6606,7 @@
   <value>Кроме объявления/определения</value>
 </data>
 <data name="_MultipleChoices_Text" xml:space="preserve">
-  <value>{0} (Множественный выбор…)</value>
+  <value>{0} (Множественный выбор...)</value>
 </data>
 <data name="TypesEnum_RiderPresentableName" xml:space="preserve">
   <value>Типы // Перечисление</value>
@@ -6828,7 +6828,7 @@
   <value>После ptr в объявлении переменной</value>
 </data>
 <data name="UnscopedEnumToScopedEnumActionText" xml:space="preserve">
-  <value>Нескопированное перечисление в скопированное…</value>
+  <value>Нескопированное перечисление в скопированное...</value>
 </data>
 <data name="TheClassIsBuiltin" xml:space="preserve">
   <value>{0} '{1}' является встроенным.</value>
@@ -7095,7 +7095,7 @@
   <value>Оператор return не разрешен в сопрограмме</value>
 </data>
 <data name="OnlyPathsWithout_Description_Text" xml:space="preserve">
-  <value>Только пути без…</value>
+  <value>Только пути без...</value>
 </data>
 <data name="CppRedundantComplexityInComparison" xml:space="preserve">
   <value>Выражение можно упростить</value>
@@ -8097,7 +8097,7 @@
     <value>События</value>
 </data>
 <data name="IntroduceTypedef_Text" xml:space="preserve">
-    <value>Ввести Typedef(&amp;T)</value>
+    <value>Ввести Typedef &amp;T)</value>
 </data>
 <data name="TypeTraitCanBeSimplifiedUsingATemplateAliasOrAVariableTemplate" xml:space="preserve">
     <value>Типовой признак может быть упрощён с использованием псевдонима шаблона или переменной шаблона</value>
@@ -8334,7 +8334,7 @@
     <value>Явно заданная по умолчанию {0} неявно удалена</value>
 </data>
 <data name="SearchingForDeclarationsInCCLICode_Text" xml:space="preserve">
-    <value>Поиск объявлений в коде C++/CLI…</value>
+    <value>Поиск объявлений в коде C++/CLI...</value>
 </data>
 <data name="EvaluationFail_InternalPrefix_Text" xml:space="preserve">
     <value>[ВНУТРЕННЯЯ] {0}</value>
@@ -8367,7 +8367,7 @@
     <value>Можно использовать алгоритм, работающий с диапазонами</value>
 </data>
 <data name="TooManyElementsToDisplay" xml:space="preserve">
-    <value>…слишком много элементов для отображения…</value>
+    <value>...слишком много элементов для отображения...</value>
 </data>
 <data name="FunctionHasButIsCalledWithMessage" xml:space="preserve">
     <value>Функция имеет {0} {1}, но вызывается с {2} {3}</value>
@@ -8967,7 +8967,7 @@
     <value>Не удается разрешить заголовки стандартной библиотеки C++ в исходном файле Unreal Engine. Возможно, вам потребуется перегенерировать файлы проекта.</value>
 </data>
 <data name="ExtractMethod_Text" xml:space="preserve">
-    <value>Извлечь метод(&amp;E)</value>
+    <value>Извлечь метод &amp;E)</value>
 </data>
 <data name="AbstractMemberFunctionIsNotVirtualMessage" xml:space="preserve">
     <value>Абстрактная функция-член '{0}' не является virtual</value>
@@ -9378,7 +9378,7 @@
     <value>Классы и структуры</value>
 </data>
 <data name="DeclareConstructorsNodiscard_Text" xml:space="preserve">
-    <value>Объявить конструкторы [[nodiscard]](&amp;D)</value>
+    <value>Объявить конструкторы [[nodiscard]] &amp;D)</value>
 </data>
 <data name="CanBeReplacedWithStdSizeMessage" xml:space="preserve">
     <value>Может быть заменён на std::size</value>
@@ -9480,7 +9480,7 @@
     <value>Использовать пути относительно исходного файла</value>
 </data>
 <data name="SwapFunction_Text" xml:space="preserve">
-    <value>Поменять функцию местами(&amp;S)</value>
+    <value>Поменять функцию местами &amp;S)</value>
 </data>
 <data name="DeMorganLawContextAction_Name" xml:space="preserve">
     <value>Законы де Моргана</value>
@@ -9705,7 +9705,7 @@
     <value>Удалить недостижимый код</value>
 </data>
 <data name="GenerateOption_UseConstParameters_Text" xml:space="preserve">
-    <value>Использовать 'const' параметры(&amp;C)</value>
+    <value>Использовать 'const' параметры &amp;C)</value>
 </data>
 <data name="CastingFromNullptrToPointerTypeWithReinterpretCastIsNonStandardMicrosoftCExtensionMessage" xml:space="preserve">
     <value>Приведение nullptr к типу указателя с помощью reinterpret_cast является нестандартным расширением Microsoft C++</value>
@@ -9774,7 +9774,7 @@
     <value>Декларатор только присваивается, но никогда не accessed</value>
 </data>
 <data name="GenerateOption_AccessRights_Text" xml:space="preserve">
-    <value>Права доступа(&amp;R)</value>
+    <value>Права доступа &amp;R)</value>
 </data>
 <data name="Requirement_TypeDoesntSatisfyConcept_Text" xml:space="preserve">
     <value>{0} не удовлетворяет концепции {1}</value>
@@ -9990,7 +9990,7 @@
     <value>Обнаруживает конструкции получения/освобождения ресурсов, склонные к утечкам</value>
 </data>
 <data name="IntroduceUsingEnumActionText" xml:space="preserve">
-    <value>Ввести using enum…</value>
+    <value>Ввести using enum...</value>
 </data>
 <data name="TypeHierarchyActionGroupText" xml:space="preserve">
     <value>Иерархия типов</value>
@@ -10056,7 +10056,7 @@
     <value>Оператор switch не охватывает весь диапазон используемого перечисления '{0}'</value>
 </data>
 <data name="GenerateOperatorBasedOnOperator_Text" xml:space="preserve">
-    <value>Сгенерировать оператор != на основе оператора ==(&amp;O)</value>
+    <value>Сгенерировать оператор != на основе оператора == &amp;O)</value>
 </data>
 <data name="_BundledFromLLVM__Text" xml:space="preserve">
     <value>В комплекте (из LLVM {0})(_B)</value>

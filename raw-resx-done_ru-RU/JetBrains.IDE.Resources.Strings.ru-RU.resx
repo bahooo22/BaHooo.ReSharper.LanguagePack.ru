@@ -136,7 +136,7 @@
   <value>Произошла ошибка</value>
 </data>
 <data name="RunningCleanup_Result_Text" xml:space="preserve">
-  <value>Выполняется очистка…</value>
+  <value>Выполняется очистка...</value>
 </data>
 <data name="COMReferencesAreAvailableOnlyOnWindows_Text" xml:space="preserve">
   <value>COM-ссылки доступны только в Windows</value>
@@ -229,7 +229,7 @@
   <value>Переместить вверх (_U)</value>
 </data>
 <data name="Browse_FilePath_Button_Text" xml:space="preserve">
-  <value>…</value>
+  <value>...</value>
 </data>
 <data name="Interrupted_Text" xml:space="preserve">
   <value>Прервано</value>
@@ -484,7 +484,7 @@
   <value>Показывать подсказки в меню лампочки</value>
 </data>
 <data name="Evaluating_Text" xml:space="preserve">
-  <value>Выполняется оценка…</value>
+  <value>Выполняется оценка...</value>
 </data>
 <data name="DumpNuGetConfigWatcherActionText" xml:space="preserve">
   <value>Дамп NuGet ConfigWatcher</value>

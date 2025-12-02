@@ -133,7 +133,7 @@
   <value>Загрузка PDB-файла для {0}</value>
 </data>
 <data name="Downloaded_SoFar_Text" xml:space="preserve">
-  <value>На данный момент загружено {0}…</value>
+  <value>На данный момент загружено {0}...</value>
 </data>
 <data name="Downloading_PdbFrom__Text" xml:space="preserve">
   <value>Загрузка {0}.pdb из {1}</value>

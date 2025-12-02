@@ -133,7 +133,7 @@
   <value>Куда извлечь новый ресурс</value>
 </data>
 <data name="SearchingForResourceUsages_Text" xml:space="preserve">
-  <value>Поиск использований ресурса…</value>
+  <value>Поиск использований ресурса...</value>
 </data>
 <data name="Inline_allUsages_Text" xml:space="preserve">
   <value>Встроить все использования(_A)</value>
@@ -142,7 +142,7 @@
   <value>Имя ресурса(_A):</value>
 </data>
 <data name="CheckingResources_Text" xml:space="preserve">
-  <value>Проверка ресурсов…</value>
+  <value>Проверка ресурсов...</value>
 </data>
 <data name="ExtractedStyleIsNotExplicitlyReferenced_Text" xml:space="preserve">
   <value>Извлеченный стиль не ссылается явно из-за существующей {0, ссылки на стиль}</value>
@@ -151,7 +151,7 @@
   <value>Замена вхождений ссылками на ресурсы</value>
 </data>
 <data name="ExtractXAMLStyleActionText" xml:space="preserve">
-  <value>Извлечь стиль XAML…</value>
+  <value>Извлечь стиль XAML...</value>
 </data>
 <data name="WhereToMoveResource_Text" xml:space="preserve">
   <value>Куда переместить ресурс</value>
@@ -160,10 +160,10 @@
   <value>Использование ресурса {0} внутри объявления</value>
 </data>
 <data name="ExtractingProperties_Text" xml:space="preserve">
-  <value>Извлечение свойств…</value>
+  <value>Извлечение свойств...</value>
 </data>
 <data name="InliningUsages_Text" xml:space="preserve">
-  <value>Встраивание использований…</value>
+  <value>Встраивание использований...</value>
 </data>
 <data name="ThereIsNoTargetResourceDictionaryFound_Text" xml:space="preserve">
   <value>Целевой словарь ресурсов не найден.
@@ -179,7 +179,7 @@
   <value>Переместить ресурс XAML</value>
 </data>
 <data name="SearchingForConflicts_Text" xml:space="preserve">
-  <value>Поиск конфликтов…</value>
+  <value>Поиск конфликтов...</value>
 </data>
 <data name="CanTAddArgumentsTo0BindBackMethodSince_Text" xml:space="preserve">
   <value>Не удается добавить аргументы в {0, метод BindBack}, так как вызов метода здесь не разрешен</value>
@@ -215,7 +215,7 @@
   <value>Для встраивания ресурса '{0}'</value>
 </data>
 <data name="CheckingConflicts_Text" xml:space="preserve">
-  <value>Проверка конфликтов…</value>
+  <value>Проверка конфликтов...</value>
 </data>
 <data name="ResourceType_Text" xml:space="preserve">
   <value>Тип ресурса:</value>
@@ -230,7 +230,7 @@
   <value>Создание объявления ресурса</value>
 </data>
 <data name="CollectingReferences_Text" xml:space="preserve">
-  <value>Сбор ссылок…</value>
+  <value>Сбор ссылок...</value>
 </data>
 <data name="InlinedResourceHasPossibleDynamic0Usage_Text" xml:space="preserve">
   <value>Встроенный ресурс имеет возможное dynamic {0, использование}, которое будет нарушено при удалении объявления ресурса</value>
@@ -257,10 +257,10 @@
   <value>Переименование элементов такого вида пока не поддерживается</value>
 </data>
 <data name="RemovingSetters_Text" xml:space="preserve">
-  <value>Удаление сеттеров…</value>
+  <value>Удаление сеттеров...</value>
 </data>
 <data name="InlineXAMLResourceActionText" xml:space="preserve">
-  <value>Встроить ресурс XAML…</value>
+  <value>Встроить ресурс XAML...</value>
 </data>
 <data name="BindBackMethodInXBindCanTBeMadeStatic_Text" xml:space="preserve">
   <value>{0, метод BindBack} в x:Bind не может быть сделан статическим путем введения параметров</value>
@@ -308,7 +308,7 @@
   <value>Замена вхождений ссылками</value>
 </data>
 <data name="ExtractXAMLResourceActionText" xml:space="preserve">
-  <value>Извлечь ресурс XAML…</value>
+  <value>Извлечь ресурс XAML...</value>
 </data>
 <data name="Invalid_Text" xml:space="preserve">
   <value>Недействительно</value>
@@ -347,7 +347,7 @@
   <value>Заменять только начальное выражение.</value>
 </data>
 <data name="CheckingTypeReferences_Text" xml:space="preserve">
-  <value>Проверка ссылок на типы…</value>
+  <value>Проверка ссылок на типы...</value>
 </data>
 <data name="TargetStyle_AlreadyProvides0SetterFor_Text" xml:space="preserve">
   <value>Целевой стиль '{0}' уже предоставляет {{0, сеттер}} для свойства '{1}'</value>
@@ -365,10 +365,10 @@
   <value>Ссылаться на ресурс статически(_S)</value>
 </data>
 <data name="CheckingCodebehindReferences_Text" xml:space="preserve">
-  <value>Проверка ссылок в коде программной части…</value>
+  <value>Проверка ссылок в коде программной части...</value>
 </data>
 <data name="CheckingForConflicts_Text" xml:space="preserve">
-  <value>Проверка на конфликты…</value>
+  <value>Проверка на конфликты...</value>
 </data>
 <data name="_Resources__Text" xml:space="preserve">
   <value>{0} (Ресурсы: {1})</value>

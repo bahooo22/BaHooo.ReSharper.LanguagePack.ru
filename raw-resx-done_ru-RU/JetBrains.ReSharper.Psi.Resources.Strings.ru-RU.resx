@@ -661,7 +661,7 @@
   <value>Событие</value>
 </data>
 <data name="SearchingForInheritors_Text" xml:space="preserve">
-  <value>Поиск наследников…</value>
+  <value>Поиск наследников...</value>
 </data>
 <data name="ProcessingFiles_Text" xml:space="preserve">
   <value>Обработка файлов</value>

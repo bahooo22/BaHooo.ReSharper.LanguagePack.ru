@@ -118,67 +118,67 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="ToggleAllOutlining_Text" xml:space="preserve">
-  <value>Переключить всё структурирование(&amp;A)</value>
+  <value>Переключить всё структурирование &amp;A)</value>
 </data>
 <data name="ToggleCurrentOutlining_Text" xml:space="preserve">
-  <value>Переключить текущее структурирование(&amp;T)</value>
+  <value>Переключить текущее структурирование &amp;T)</value>
 </data>
 <data name="FindNext_Text" xml:space="preserve">
   <value>Найти следующее</value>
 </data>
 <data name="StopOutlining_Text" xml:space="preserve">
-  <value>Остановить структурирование(&amp;P)</value>
+  <value>Остановить структурирование &amp;P)</value>
 </data>
 <data name="TheLineNumberMustNotBeAboveTheTotal_Text" xml:space="preserve">
   <value>Номер строки не может превышать общее количество строк {0:N0}</value>
 </data>
 <data name="Print_Text" xml:space="preserve">
-  <value>Печать(&amp;P)…</value>
+  <value>Печать &amp;P)...</value>
 </data>
 <data name="Options_Text" xml:space="preserve">
-  <value>Параметры(&amp;O)</value>
+  <value>Параметры &amp;O)</value>
 </data>
 <data name="TheLineNumberIsNotAValidInteger_Text" xml:space="preserve">
   <value>Номер строки не является допустимым целым числом</value>
 </data>
 <data name="StopHidingCurrent_Text" xml:space="preserve">
-  <value>Прекратить скрывать текущее(&amp;I)</value>
+  <value>Прекратить скрывать текущее &amp;I)</value>
 </data>
 <data name="WordWrap_Text" xml:space="preserve">
-  <value>Перенос слов(&amp;R)</value>
+  <value>Перенос слов &amp;R)</value>
 </data>
 <data name="_GoToLine_Text" xml:space="preserve">
-  <value>Перейти к строке(&amp;G)…</value>
+  <value>Перейти к строке &amp;G)...</value>
 </data>
 <data name="GoToLine_Text" xml:space="preserve">
   <value>Перейти к строке</value>
 </data>
 <data name="CollapseToDefinitions_Text" xml:space="preserve">
-  <value>Свернуть до определений(&amp;C)</value>
+  <value>Свернуть до определений &amp;C)</value>
 </data>
 <data name="PrintPreview_Text" xml:space="preserve">
-  <value>Предварительный просмотр(&amp;V)…</value>
+  <value>Предварительный просмотр &amp;V)...</value>
 </data>
 <data name="LineNumber__Text" xml:space="preserve">
   <value>Номер строки (1 - {0:N0})</value>
 </data>
 <data name="ViewWhiteSpace_Text" xml:space="preserve">
-  <value>Отображать пробелы(&amp;W)</value>
+  <value>Отображать пробелы &amp;W)</value>
 </data>
 <data name="Find_Text" xml:space="preserve">
-  <value>Найти(&amp;F)…</value>
+  <value>Найти &amp;F)...</value>
 </data>
 <data name="StartAutomaticOutlining_Text" xml:space="preserve">
-  <value>Начать автоматическое структурирование(&amp;S)</value>
+  <value>Начать автоматическое структурирование &amp;S)</value>
 </data>
 <data name="LineNumbers_Text" xml:space="preserve">
-  <value>Номера строк(&amp;N)</value>
+  <value>Номера строк &amp;N)</value>
 </data>
 <data name="TheLineNumberMustNotBeBelow1_Text" xml:space="preserve">
   <value>Номер строки не может быть меньше 1</value>
 </data>
 <data name="OutLining_Text" xml:space="preserve">
-  <value>Структурирование(&amp;L)</value>
+  <value>Структурирование &amp;L)</value>
 </data>
 <data name="FindPrevious_Text" xml:space="preserve">
   <value>Найти предыдущее</value>

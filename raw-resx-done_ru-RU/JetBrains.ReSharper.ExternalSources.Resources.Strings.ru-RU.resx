@@ -134,7 +134,7 @@
   <value>Копировать полный путь</value>
 </data>
 <data name="AddSourceLinkToPortablePDB_ActionText" xml:space="preserve">
-  <value>Добавить SourceLink в переносимый PDB…</value>
+  <value>Добавить SourceLink в переносимый PDB...</value>
 </data>
 <data name="ClearListActionText" xml:space="preserve">
   <value>Очистить список</value>
@@ -158,7 +158,7 @@
   <value>Юридическое уведомление декомпилятора принято пользователем</value>
 </data>
 <data name="OpenDiffOptionsActionText" xml:space="preserve">
-  <value>Параметры сравнения…</value>
+  <value>Параметры сравнения...</value>
 </data>
 <data name="AssemblyExplorerActionGroupText" xml:space="preserve">
   <value>Обозреватель сборок</value>
@@ -194,13 +194,13 @@
   <value>IL-код</value>
 </data>
 <data name="OpenWithActionText" xml:space="preserve">
-  <value>Открыть с помощью(&amp;W)…</value>
+  <value>Открыть с помощью &amp;W)...</value>
 </data>
 <data name="_TrustTheCommandsGeneratedFromThisTemplate_Text" xml:space="preserve">
-  <value>Доверять командам, созданным из этого шаблона(&amp;T)</value>
+  <value>Доверять командам, созданным из этого шаблона &amp;T)</value>
 </data>
 <data name="PdbGenerationStatusActionText" xml:space="preserve">
-  <value>Статус создания PDB(&amp;G)</value>
+  <value>Статус создания PDB &amp;G)</value>
 </data>
 <data name="ProjectPDBGenerationStatus_Text" xml:space="preserve">
   <value>Статус проекта/создания PDB</value>
@@ -251,7 +251,7 @@
   <value>Неопределенная целевая платформа</value>
 </data>
 <data name="CollectingPackages__Text" xml:space="preserve">
-  <value>Сбор пакетов ({0})…</value>
+  <value>Сбор пакетов ({0})...</value>
 </data>
 <data name="UnmanagedAssemblyLimitedSupport_ToolTip" xml:space="preserve">
   <value>Не сборка .NET, типы не отображаются</value>
@@ -278,7 +278,7 @@
   <value>Низкоуровневый C# код</value>
 </data>
 <data name="ExtractToFileActionText" xml:space="preserve">
-  <value>Извлечь в файл…</value>
+  <value>Извлечь в файл...</value>
 </data>
 <data name="ILViewerCodeTypeILText" xml:space="preserve">
   <value>IL</value>
@@ -359,7 +359,7 @@
   <value>Навигация Visual Studio по умолчанию</value>
 </data>
 <data name="AdvancedSymbolsOptions_Button_Text" xml:space="preserve">
-  <value>Дополнительные параметры символов…</value>
+  <value>Дополнительные параметры символов...</value>
 </data>
 <data name="BCLAssemblyContains_Image_ToolTip" xml:space="preserve">
   <value>Сборка BCL содержит {0} изображений</value>
@@ -428,7 +428,7 @@
   <value>Синхронизировать курсор с представлением IL</value>
 </data>
 <data name="ShowAtRootLevelActionText" xml:space="preserve">
-  <value>Показать на корневом уровне(&amp;R)</value>
+  <value>Показать на корневом уровне &amp;R)</value>
 </data>
 <data name="OpenInVisualStudioActionText" xml:space="preserve">
   <value>Открыть в Visual Studio</value>
@@ -455,16 +455,16 @@
   <value>Элемент ProjFile</value>
 </data>
 <data name="CollectingPackages_Text" xml:space="preserve">
-  <value>Сбор пакетов…</value>
+  <value>Сбор пакетов...</value>
 </data>
 <data name="ReorderMembersAccordingToCurrentOptionsSettingDescription" xml:space="preserve">
   <value>Изменять порядок членов в соответствии с текущими настройками</value>
 </data>
 <data name="ExploreFolDerActionText" xml:space="preserve">
-  <value>Обзор папки(&amp;D)…</value>
+  <value>Обзор папки &amp;D)...</value>
 </data>
 <data name="Downloading_NuGetPackage_Text" xml:space="preserve">
-  <value>Загрузка пакета NuGet {0}…</value>
+  <value>Загрузка пакета NuGet {0}...</value>
 </data>
 <data name="ModuleReference__ToolTip" xml:space="preserve">
   <value>Ссылка на модуль</value>
@@ -482,10 +482,10 @@
   <value>Открыть</value>
 </data>
 <data name="SaveResourceToFileActionText" xml:space="preserve">
-  <value>Сохранить ресурс в файл(&amp;S)…</value>
+  <value>Сохранить ресурс в файл &amp;S)...</value>
 </data>
 <data name="SaveAssemblyListActionText" xml:space="preserve">
-  <value>Сохранить список сборок(&amp;S)…</value>
+  <value>Сохранить список сборок &amp;S)...</value>
 </data>
 <data name="TheCommandIsGeneratedFromThisTemplate_Text" xml:space="preserve">
   <value>Команда создана из шаблона, указанного в PDB:</value>
@@ -531,7 +531,7 @@
   <value>Не удалось найти информацию о репозитории исходного кода в PDB</value>
 </data>
 <data name="_NeverUseThisTemplate_Text" xml:space="preserve">
-  <value>Никогда не использовать этот шаблон(&amp;N)</value>
+  <value>Никогда не использовать этот шаблон &amp;N)</value>
 </data>
 <data name="ContextActionPageUISettingsSettingDescription" xml:space="preserve">
   <value>Настройки пользовательского интерфейса страницы контекстных действий</value>
@@ -582,7 +582,7 @@
   <value>Не WebCIL WebAssembly, типы не отображаются</value>
 </data>
 <data name="OpenAssemblyListActionText" xml:space="preserve">
-  <value>Открыть список сборок(&amp;L)…</value>
+  <value>Открыть список сборок &amp;L)...</value>
 </data>
 <data name="SourcesFromSymbolFilesActionText" xml:space="preserve">
   <value>Источники из файлов символов</value>
@@ -633,7 +633,7 @@
   <value>Хотите обновить эти настройки и включить отладку?</value>
 </data>
 <data name="PatchPdbBindWithAssembly_ActionText" xml:space="preserve">
-  <value>Исправить PDB (привязать к сборке)…</value>
+  <value>Исправить PDB (привязать к сборке)...</value>
 </data>
 <data name="DiffOptionsDescription" xml:space="preserve">
   <value>Параметры для сравнения сборок, пакетов NuGet, архивов и папок в обозревателе сборок</value>
@@ -654,7 +654,7 @@
   <value>Включить</value>
 </data>
 <data name="ShowNonPublicCompiledItemsInGoToResults_BoolOption_Text" xml:space="preserve">
-  <value>Показывать непубличные скомпилированные элементы в результатах 'Перейти к…'</value>
+  <value>Показывать непубличные скомпилированные элементы в результатах 'Перейти к...'</value>
 </data>
 <data name="SingleFileBundle_ToolTip" xml:space="preserve">
   <value>Однофайловый пакет</value>
@@ -678,10 +678,10 @@
   <value>Показывать IL-код в комментариях</value>
 </data>
 <data name="OpenNuGetPackagesConfigActionText" xml:space="preserve">
-  <value>Открыть NuGet packages.config…</value>
+  <value>Открыть NuGet packages.config...</value>
 </data>
 <data name="Processing__Text" xml:space="preserve">
-  <value>Обработка {0}…</value>
+  <value>Обработка {0}...</value>
 </data>
 <data name="MetadataViewer_Text" xml:space="preserve">
   <value>Просмотр метаданных</value>
@@ -723,7 +723,7 @@
   <value>По умолчанию ReSharper переходит в обозреватель объектов</value>
 </data>
 <data name="Loading_Text" xml:space="preserve">
-  <value> (Загрузка…)</value>
+  <value> (Загрузка...)</value>
 </data>
 <data name="ILViewerCodeUnavailabilityReason_BuildProject_Text" xml:space="preserve">
   <value>Соберите проект, чтобы просмотреть {0}</value>
@@ -732,10 +732,10 @@
   <value>Навигация осуществляется Visual Studio. Навигация ReSharper к внешним источникам отключена.</value>
 </data>
 <data name="ClearAssemblyListActionText" xml:space="preserve">
-  <value>Очистить список сборок(&amp;C)</value>
+  <value>Очистить список сборок &amp;C)</value>
 </data>
 <data name="ExportToProjectActionText" xml:space="preserve">
-  <value>Экспортировать в проект…</value>
+  <value>Экспортировать в проект...</value>
 </data>
 <data name="INTERNALERROR_Text" xml:space="preserve">
   <value> ВНУТРЕННЯЯ ОШИБКА</value>
@@ -750,7 +750,7 @@
   <value>Загрузка пакетов NuGet</value>
 </data>
 <data name="AssemblyExplorerAddItemsActionText" xml:space="preserve">
-  <value>Открыть(&amp;O)…</value>
+  <value>Открыть &amp;O)...</value>
 </data>
 <data name="InField_Text" xml:space="preserve">
   <value>В поле</value>
@@ -774,7 +774,7 @@
   <value>PDB-файлы не будут созданы для следующих сборок:</value>
 </data>
 <data name="ExtractBundleContentsToFolderActionText" xml:space="preserve">
-  <value>Извлечь содержимое пакета в папку…</value>
+  <value>Извлечь содержимое пакета в папку...</value>
 </data>
 <data name="Dependencies_Text" xml:space="preserve">
   <value>Зависимости</value>
@@ -786,13 +786,13 @@
   <value>Перейти к пространству имен {0} в сборках:</value>
 </data>
 <data name="ParsingFiles_Text" xml:space="preserve">
-  <value>Разбор файлов…</value>
+  <value>Разбор файлов...</value>
 </data>
 <data name="CopyFirstItemFullPathActionText" xml:space="preserve">
   <value>Копировать полный путь первого элемента</value>
 </data>
 <data name="GeneratePdbActionText" xml:space="preserve">
-  <value>Создать PDB…</value>
+  <value>Создать PDB...</value>
 </data>
 <data name="GeneratingPDBs_Text" xml:space="preserve">
   <value>Создание PDB</value>
@@ -819,7 +819,7 @@
   <value>Использовать пространства имен в области файла</value>
 </data>
 <data name="ShowPDBContentActionText" xml:space="preserve">
-  <value>Показать содержимое PDB(&amp;D)…</value>
+  <value>Показать содержимое PDB &amp;D)...</value>
 </data>
 <data name="RecursiveReferences__ToolTip" xml:space="preserve">
   <value>Рекурсивные ссылки</value>
@@ -894,7 +894,7 @@
   <value>Откройте {0}, чтобы просмотреть его исходный код</value>
 </data>
 <data name="DecompileResourcesFileActionText" xml:space="preserve">
-  <value>Декомпилировать .resources файл…</value>
+  <value>Декомпилировать .resources файл...</value>
 </data>
 <data name="FailedToFindInfoForBuidingUrlForThisElement_Text" xml:space="preserve">
   <value>Не удалось найти информацию об источнике элемента в PDB</value>

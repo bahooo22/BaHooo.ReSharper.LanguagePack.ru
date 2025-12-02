@@ -142,7 +142,7 @@
   <value>Произошла непредвиденная ошибка при добавлении нового класса</value>
 </data>
 <data name="SearchScope_Project_Text" xml:space="preserve">
-  <value>Проект(&amp;P)</value>
+  <value>Проект &amp;P)</value>
 </data>
 <data name="SharpmakeOptionsPageTitle" xml:space="preserve">
   <value>Sharpmake</value>
@@ -183,10 +183,10 @@
 <data name="FailedToLocateUnrealEngineAssociatedWithUproject_Text" xml:space="preserve">
   <value>Не удалось найти Unreal Engine, связанный с файлом проекта.
 Убедитесь, что поле EngineAssociation в {0} имеет правильное значение.
-Или щелкните правой кнопкой мыши на {0}, выберите 'Switch Unreal Engine version…' и укажите желаемую версию Unreal Engine.</value>
+Или щелкните правой кнопкой мыши на {0}, выберите 'Switch Unreal Engine version...' и укажите желаемую версию Unreal Engine.</value>
 </data>
 <data name="FailedToReadUnrealEngineVersionFrom_Text" xml:space="preserve">
-  <value>Не удалось прочитать версию Unreal Engine из файла …/Engine/Build/Build.version</value>
+  <value>Не удалось прочитать версию Unreal Engine из файла .../Engine/Build/Build.version</value>
 </data>
 <data name="BuildProject_Text" xml:space="preserve">
   <value>Собрать проект</value>
@@ -259,7 +259,7 @@
   <value>Свойство недоступно</value>
 </data>
 <data name="SearchScope_CurrentFile_Text" xml:space="preserve">
-  <value>Текущий файл(&amp;F)</value>
+  <value>Текущий файл &amp;F)</value>
 </data>
 <data name="InternalActionsReSharperCpp" xml:space="preserve">
   <value>Внутренние действия (ReSharper C++)</value>
@@ -358,7 +358,7 @@
   <value>Больше не показывать</value>
 </data>
 <data name="RdJsonExploringFileSystemAndSearchingForProjects_Text" xml:space="preserve">
-  <value>Сканирование файловой системы для поиска сгенерированных проектов…</value>
+  <value>Сканирование файловой системы для поиска сгенерированных проектов...</value>
 </data>
 <data name="UnrealCustomTargetSettings_BuildArgs" xml:space="preserve">
   <value>Дополнительные аргументы сборки</value>

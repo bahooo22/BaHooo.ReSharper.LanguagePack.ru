@@ -205,7 +205,7 @@
   <value>Показать журнал выполнения</value>
 </data>
 <data name="ExportActionGroupText" xml:space="preserve">
-  <value>Экспорт…</value>
+  <value>Экспорт...</value>
 </data>
 <data name="Sessions_AreLocked__Text" xml:space="preserve">
   <value>Сессии {0} заблокированы. {1}?</value>

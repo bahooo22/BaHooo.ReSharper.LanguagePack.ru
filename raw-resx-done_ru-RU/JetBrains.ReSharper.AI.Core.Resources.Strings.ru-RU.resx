@@ -160,7 +160,7 @@
   <value>Использование сервиса запрещено в вашем регионе</value>
 </data>
 <data name="ExpandToIncludeMoreDetails_Text" xml:space="preserve">
-  <value>Развернуть, чтобы включить больше деталей…</value>
+  <value>Развернуть, чтобы включить больше деталей...</value>
 </data>
 <data name="Print_Text" xml:space="preserve">
   <value>Печать</value>
@@ -169,13 +169,13 @@
   <value>Завершено</value>
 </data>
 <data name="CollectingRelevantCode_Text" xml:space="preserve">
-  <value>Сбор релевантного кода…</value>
+  <value>Сбор релевантного кода...</value>
 </data>
 <data name="InEditorGenerateImplementationBulbAction_Text" xml:space="preserve">
   <value>Реализовать</value>
 </data>
 <data name="GenerateTests_Text" xml:space="preserve">
-  <value>Сгенерировать тесты…</value>
+  <value>Сгенерировать тесты...</value>
 </data>
 <data name="TooManyRequestsPleaseTryAgainLater_Text" xml:space="preserve">
   <value>Слишком много запросов. Пожалуйста, повторите попытку позже.</value>
@@ -214,7 +214,7 @@
   <value>Функции ИИ отключены сервером плавающих лицензий</value>
 </data>
 <data name="GrazieTestMethodGenerator_Progress_Start_Text" xml:space="preserve">
-  <value>Подготовка запроса…</value>
+  <value>Подготовка запроса...</value>
 </data>
 <data name="AIEnabledState_NoLicense_Text" xml:space="preserve">
   <value>Для использования функций ИИ требуется активная ИИ-подписка</value>
@@ -238,7 +238,7 @@
   <value>Текущее значение квоты</value>
 </data>
 <data name="GeneratingNameSuggestions_Text" xml:space="preserve">
-  <value>Генерация предложений имен…</value>
+  <value>Генерация предложений имен...</value>
 </data>
 <data name="AIEnabledState_TheStateIsUnknownYet_Text" xml:space="preserve">
   <value>Состояние неизвестно</value>
@@ -250,7 +250,7 @@
   <value>Максимальное значение квоты</value>
 </data>
 <data name="PreparingARequest_Text" xml:space="preserve">
-  <value>Подготовка запроса…</value>
+  <value>Подготовка запроса...</value>
 </data>
 <data name="WriteDocumentation_Text" xml:space="preserve">
   <value>Написать документацию</value>
@@ -298,10 +298,10 @@
   <value>Когда-либо входил в систему</value>
 </data>
 <data name="AskAI_Text" xml:space="preserve">
-  <value>Спросить ИИ…</value>
+  <value>Спросить ИИ...</value>
 </data>
 <data name="AIWritingTheCode_Text" xml:space="preserve">
-  <value>AI Assistant пишет код…</value>
+  <value>AI Assistant пишет код...</value>
 </data>
 <data name="GrazieStagingInviteKey_Text" xml:space="preserve">
   <value>Пригласительный ключ Grazie staging</value>
@@ -331,13 +331,13 @@
   <value>Использовать ИИ для генерации тестов</value>
 </data>
 <data name="WaitingForResponse_Text" xml:space="preserve">
-  <value>Ожидание ответа…</value>
+  <value>Ожидание ответа...</value>
 </data>
 <data name="GrazieTestMethodGenerator_Progress_Waiting_Text" xml:space="preserve">
-  <value>Ожидание данных…</value>
+  <value>Ожидание данных...</value>
 </data>
 <data name="GrazieTestMethodGenerator_Progress_End_Text" xml:space="preserve">
-  <value>Применение изменений…</value>
+  <value>Применение изменений...</value>
 </data>
 <data name="ErrorCouldNotApplyAIResponse_Text" xml:space="preserve">
   <value>Ошибка: не удалось применить ответ ИИ</value>
@@ -355,7 +355,7 @@
   <value>Задача «Улучшить подсказку» завершена</value>
 </data>
 <data name="AIIsPreparingToWriteCode_Text" xml:space="preserve">
-  <value>AI Assistant готовится писать код…</value>
+  <value>AI Assistant готовится писать код...</value>
 </data>
 <data name="ProofreadCommentContextAction_Description" xml:space="preserve">
   <value>Исправьте грамматические и синтаксические ошибки в комментарии, переписав его при необходимости</value>

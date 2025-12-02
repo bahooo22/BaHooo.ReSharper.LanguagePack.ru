@@ -148,7 +148,7 @@
   <value>Создать цель '{0}'</value>
 </data>
 <data name="SeeMore_Text" xml:space="preserve">
-  <value>Посмотреть больше…</value>
+  <value>Посмотреть больше...</value>
 </data>
 <data name="GeneratePropertyForTargetDependenciesContextAction_Description" xml:space="preserve">
   <value>Создать свойство для сбора всех зависимостей цели для более простой интеграции в процесс сборки</value>

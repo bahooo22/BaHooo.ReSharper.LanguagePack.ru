@@ -121,7 +121,7 @@
   <value>Помогите нам стать лучше</value>
 </data>
 <data name="ConvertThemedIconsActionText" xml:space="preserve">
-  <value>Преобразовать тематические значки…</value>
+  <value>Преобразовать тематические значки...</value>
 </data>
 <data name="DisableOtherInstance_Text" xml:space="preserve">
   <value>Отключить другой экземпляр</value>
@@ -190,7 +190,7 @@
   <value>Показать еще</value>
 </data>
 <data name="AboutBox_Evaluating" xml:space="preserve">
-  <value>Оценивается…</value>
+  <value>Оценивается...</value>
 </data>
 <data name="IfYouLlProceedWeWonTBeAbleToGetBackShort_Text" xml:space="preserve">
   <value>Если вы продолжите, мы не сможем связаться с вами с решением вашей проблемы или</value>
@@ -304,7 +304,7 @@
   <value>Переместить вниз</value>
 </data>
 <data name="EM_View_More_Info" xml:space="preserve">
-  <value>Дополнительная информация…</value>
+  <value>Дополнительная информация...</value>
 </data>
 <data name="YouCanAlwaysChangeYourSettingOnTheReSharper_Text" xml:space="preserve">
   <value>Вы всегда можете изменить свой выбор на странице параметров "Статистика использования" ReSharper</value>
@@ -355,7 +355,7 @@
   <value>Результат</value>
 </data>
 <data name="ShowAccentColorsActionText" xml:space="preserve">
-  <value>Показать акцентные цвета…</value>
+  <value>Показать акцентные цвета...</value>
 </data>
 <data name="CheckForUpdates_Header_Text" xml:space="preserve">
   <value>Проверить обновления</value>
@@ -436,7 +436,7 @@
   <value>Копировать сочетание клавиш</value>
 </data>
 <data name="OpenExtensionManager_Text" xml:space="preserve">
-  <value>Открыть диспетчер расширений…</value>
+  <value>Открыть диспетчер расширений...</value>
 </data>
 <data name="PleaseProvideAValidEMailAddress_Text" xml:space="preserve">
   <value>Укажите действительный адрес электронной почты</value>
@@ -451,7 +451,7 @@
   <value>Окно общих всплывающих подсказок ReSharper</value>
 </data>
 <data name="Calculating_Text" xml:space="preserve">
-  <value>Вычисление…</value>
+  <value>Вычисление...</value>
 </data>
 <data name="ScrollLeft_Text" xml:space="preserve">
   <value>Прокрутить влево</value>
@@ -484,7 +484,7 @@
   <value>Установить</value>
 </data>
 <data name="EXtensionManagerActionText" xml:space="preserve">
-  <value>Диспетчер расширений (&amp;X)…</value>
+  <value>Диспетчер расширений (&amp;X)...</value>
 </data>
 <data name="LicenseKey_Text" xml:space="preserve">
   <value>Лицензионный ключ:</value>
@@ -502,7 +502,7 @@
   <value>Копировать</value>
 </data>
 <data name="GettingReadyToLoadTheView_Text" xml:space="preserve">
-  <value>Подготовка к загрузке представления…</value>
+  <value>Подготовка к загрузке представления...</value>
 </data>
 <data name="CancelAuthorization_Text" xml:space="preserve">
   <value>Отменить авторизацию</value>
@@ -520,7 +520,7 @@
   <value>ReSharper НЕ отправляет:</value>
 </data>
 <data name="AboutBox_CheckingForUpdates" xml:space="preserve">
-  <value>Проверка обновлений…</value>
+  <value>Проверка обновлений...</value>
 </data>
 <data name="FirstName_Text" xml:space="preserve">
   <value>Имя:</value>
@@ -538,7 +538,7 @@
   <value>Открыть окно схем</value>
 </data>
 <data name="EM_View_Progress" xml:space="preserve">
-  <value>Загрузка сведений о расширениях…</value>
+  <value>Загрузка сведений о расширениях...</value>
 </data>
 <data name="ShowNativeProcessesActionText" xml:space="preserve">
   <value>Показать собственные процессы</value>
@@ -580,7 +580,7 @@
   <value>Участвовать в программе раннего доступа (EAP)(_P)</value>
 </data>
 <data name="WeNeedYouFor5Seconds_Text" xml:space="preserve">
-  <value>Нам нужно 5 секунд вашего времени, чтобы поделиться отзывом…</value>
+  <value>Нам нужно 5 секунд вашего времени, чтобы поделиться отзывом...</value>
 </data>
 <data name="FromEvaluationExpirationNotification_Text" xml:space="preserve">
   <value>Из уведомления об окончании оценки</value>
@@ -678,7 +678,8 @@
   <value>Войти с помощью JetBrains Account</value>
 </data>
 <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
-  <value>Все права защищены. © {0} {1}</value>
+  <value>Все права защищены. © {0} {1}
+  Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
 </data>
 <data name="ManageJetBrainsAccount_Text" xml:space="preserve">
   <value>Управление JetBrains Account</value>
@@ -928,7 +929,7 @@
   <value>Удаление вложений</value>
 </data>
 <data name="Loading_Text" xml:space="preserve">
-  <value>Загрузка…</value>
+  <value>Загрузка...</value>
 </data>
 <data name="EM_Install_Completed_Failure_Description" xml:space="preserve">
   <value>Произошло {0} {0:choice:one#ошибка|other#ошибок}}</value>
@@ -1006,7 +1007,7 @@
   <value>Доступны новые версии расширений:</value>
 </data>
 <data name="GettingThingsReady_Text" xml:space="preserve">
-  <value>Подготовка…</value>
+  <value>Подготовка...</value>
 </data>
 <data name="OpenFileLocation_Text" xml:space="preserve">
   <value>Открыть расположение файла</value>
@@ -1030,7 +1031,7 @@
   <value>Редактировать исключение</value>
 </data>
 <data name="ShuttingDown_Text" xml:space="preserve">
-  <value>Завершение работы…</value>
+  <value>Завершение работы...</value>
 </data>
 <data name="TheFolder_DoesNotExist_Text" xml:space="preserve">
   <value>Папка {0} не существует</value>
@@ -1060,7 +1061,7 @@
   <value>Добавить источник пакета</value>
 </data>
 <data name="SearchTextBox_Watermark" xml:space="preserve">
-  <value>Поиск…</value>
+  <value>Поиск...</value>
 </data>
 <data name="FeedbackCenterBrowserAuthenticationDescriptionText" xml:space="preserve">
   <value>Используйте веб-браузер|Войти в JetBrains Hub|, чтобы получать уведомления об обновлениях отзыва.|Или|Отправить анонимно|.</value>
@@ -1081,7 +1082,7 @@
   <value>Вы прямо подтверждаете, что версии EAP этого продукта могут быть ненадежными, работать не так, как ожидается, и содержать ошибки. Вы используете продукт EAP на свой страх и риск.</value>
 </data>
 <data name="EM_View_License" xml:space="preserve">
-  <value>Лицензия…</value>
+  <value>Лицензия...</value>
 </data>
 <data name="TheRichTextCouldNotBeUploadedToTheView_Text" xml:space="preserve">
   <value>Не удалось загрузить форматированный текст в представление</value>

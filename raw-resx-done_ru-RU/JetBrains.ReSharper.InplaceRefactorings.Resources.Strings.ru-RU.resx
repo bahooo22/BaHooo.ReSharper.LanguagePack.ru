@@ -148,7 +148,7 @@
   <value>Тихий режим</value>
 </data>
 <data name="ApplyChangeSignatureRefactoring_Text" xml:space="preserve">
-  <value>Применить рефакторинг "Изменить сигнатуру"…</value>
+  <value>Применить рефакторинг "Изменить сигнатуру"...</value>
 </data>
 <data name="PressNextToUpdateUsagesToReflectThe_Text" xml:space="preserve">
   <value>Нажмите "Далее" для обновления использований для отражения изменений сигнатуры</value>

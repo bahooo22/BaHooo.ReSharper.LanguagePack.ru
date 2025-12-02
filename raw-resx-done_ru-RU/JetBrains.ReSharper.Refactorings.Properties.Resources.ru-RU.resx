@@ -295,7 +295,7 @@
   <value>Укажите имя для перемещаемого класса</value>
 </data>
 <data name="Anonymous2DeclaredWindow_Description_Specify_parameters_of_new_type_declaration___" xml:space="preserve">
-  <value>Укажите параметры нового объявления типа…</value>
+  <value>Укажите параметры нового объявления типа...</value>
 </data>
 <data name="Constructor2FactoryMethodWindow_Title" xml:space="preserve">
   <value>Определите имя фабричного метода</value>

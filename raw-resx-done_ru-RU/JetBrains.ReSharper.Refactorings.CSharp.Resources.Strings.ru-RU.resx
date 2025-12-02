@@ -187,10 +187,10 @@
   <value>Проверка конфликтов</value>
 </data>
 <data name="ApplyNullabilityChange_Text" xml:space="preserve">
-  <value>Применение изменения допустимости значения NULL…</value>
+  <value>Применение изменения допустимости значения NULL...</value>
 </data>
 <data name="RemovingGlobalUsingDirectives_Text" xml:space="preserve">
-  <value>Удаление глобальных директив using…</value>
+  <value>Удаление глобальных директив using...</value>
 </data>
 <data name="DeterminingSearchDomainFor__Text" xml:space="preserve">
   <value>Определение домена поиска для '{0}'</value>
@@ -208,7 +208,7 @@
   <value>Существующий метод '{0}' должен принимать LogLevel в качестве параметра, но вместо этого имеет {1}</value>
 </data>
 <data name="StoringReferences_Text" xml:space="preserve">
-  <value>Сохранение ссылок…</value>
+  <value>Сохранение ссылок...</value>
 </data>
 <data name="TransformParameters_Conflict_CannotCreateVariable_Text" xml:space="preserve">
   <value>Не удается объявить переменную для параметра '{0}' в точке вызова</value>
@@ -238,7 +238,7 @@
   <value>Рефакторинг изменит метод доступа 'init' свойства '{0}' на 'set', что позволит извлечь инициализатор объекта в присваивание</value>
 </data>
 <data name="PasteDeclarationsTo__Of__Text" xml:space="preserve">
-  <value>Вставка объявлений в {0}({1:N0} / {2:N0})…</value>
+  <value>Вставка объявлений в {0}({1:N0} / {2:N0})...</value>
 </data>
 <data name="UnableToRemoveTheAccessorFrom_Positional_Text" xml:space="preserve">
   <value>Не удается удалить метод доступа из позиционного свойства {0}</value>
@@ -334,7 +334,7 @@
   <value>{0} не может быть сделан public. Существует конфликтующий {1}.</value>
 </data>
 <data name="ExtractMethod_LocalFunctionSelector_EditorAdornment_NextButtonText" xml:space="preserve">
-  <value>Извлечь здесь…</value>
+  <value>Извлечь здесь...</value>
 </data>
 <data name="ReadWriteUsage_Text" xml:space="preserve">
   <value>Использование для чтения/записи</value>
@@ -490,7 +490,7 @@
   <value>Автоматическое свойство также переопределит {0}</value>
 </data>
 <data name="ConvertToNonGlobalUsing_Action_Text" xml:space="preserve">
-  <value>Преобразовать в неглобальный using…</value>
+  <value>Преобразовать в неглобальный using...</value>
 </data>
 <data name="CannotReplaceNameofArgumentWithDefault_Text" xml:space="preserve">
   <value>Не удается заменить аргумент 'nameof()' значением параметра по умолчанию</value>
@@ -550,7 +550,7 @@
   <value>Узел стал недействительным</value>
 </data>
 <data name="ConvertToGlobalUsing_Action_Text" xml:space="preserve">
-  <value>Преобразовать в global using…</value>
+  <value>Преобразовать в global using...</value>
 </data>
 <data name="ParameterWillBeReplacedWithLocalVariable_Text" xml:space="preserve">
   <value>Параметр будет заменен локальной переменной для сохранения использований</value>
@@ -667,7 +667,7 @@
   <value>Создать параметр '{0}' в первичном конструкторе {1} '{2}'</value>
 </data>
 <data name="CutDeclarations_Of__Text" xml:space="preserve">
-  <value>Вырезание объявлений({0:N0}/{1:N0})…</value>
+  <value>Вырезание объявлений({0:N0}/{1:N0})...</value>
 </data>
 <data name="ConvertToLogMethod_Calls_Text" xml:space="preserve">
   <value>Преобразовать в метод ведения журнала</value>
@@ -814,7 +814,7 @@
   <value>Отмена</value>
 </data>
 <data name="SearchingForUsages_Text" xml:space="preserve">
-  <value>Поиск использований…</value>
+  <value>Поиск использований...</value>
 </data>
 <data name="AtTheEndOf__Text" xml:space="preserve">
   <value>В конце {0}</value>
@@ -865,7 +865,7 @@
   <value>{0,Null} передан как параметр экземпляра</value>
 </data>
 <data name="SearchingGlobalUsingDirectives_Text" xml:space="preserve">
-  <value>Поиск глобальных директив using…</value>
+  <value>Поиск глобальных директив using...</value>
 </data>
 <data name="IntroduceSingleVariable__Text" xml:space="preserve">
   <value>Ввести одну переменную({0})</value>
@@ -931,7 +931,7 @@
   <value>До операторов верхнего уровня</value>
 </data>
 <data name="ConvertToGlobalUsings_Action_Text" xml:space="preserve">
-  <value>Преобразовать using в global…</value>
+  <value>Преобразовать using в global...</value>
 </data>
 <data name="InvalidFieldName_Text" xml:space="preserve">
   <value>fieldName неверно</value>
@@ -949,7 +949,7 @@
   <value>Не удается удалить первичный конструктор {0}</value>
 </data>
 <data name="UpdatingReferences_Text" xml:space="preserve">
-  <value>Обновление ссылок…</value>
+  <value>Обновление ссылок...</value>
 </data>
 <data name="ParameterOfMethodCanTHaveOutModifier_Text" xml:space="preserve">
   <value>{0,Параметр метода} не может иметь модификатор [out]</value>

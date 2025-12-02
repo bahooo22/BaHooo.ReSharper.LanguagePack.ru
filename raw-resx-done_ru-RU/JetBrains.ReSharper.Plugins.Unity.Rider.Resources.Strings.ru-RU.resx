@@ -178,7 +178,7 @@
   <value>Пользовательский</value>
 </data>
 <data name="UnityRefresher_RefreshInternal_Refreshing_solution_in_Unity_Editor___" xml:space="preserve">
-  <value>Обновление решения в редакторе Unity…</value>
+  <value>Обновление решения в редакторе Unity...</value>
 </data>
 <data name="ConfigureShaderVariantKeywordsQuickFix_Text" xml:space="preserve">
   <value>Настроить ключевые слова вариантов шейдера</value>

@@ -121,7 +121,7 @@
   <value>Копировать XML-документацию из переопределяемого члена (_C)</value>
 </data>
 <data name="GenerateAction_Text" xml:space="preserve">
-  <value>Создать код…</value>
+  <value>Создать код...</value>
 </data>
 <data name="InsideOfTagHeader_Text" xml:space="preserve">
   <value>Внутри заголовка тега</value>
@@ -185,7 +185,7 @@
   <value>Сгенерировать компаратор отношений</value>
 </data>
 <data name="CleanupOpenFilesActionText" xml:space="preserve">
-  <value>Очистить открытые файлы…</value>
+  <value>Очистить открытые файлы...</value>
 </data>
 <data name="BlankLinesOptionPageTitle" xml:space="preserve">
   <value>Пустые строки</value>
@@ -293,7 +293,7 @@
   <value>Применить стиль 'auto'</value>
 </data>
 <data name="EditEditorconfigInteractively_Button_Caption" xml:space="preserve">
-  <value>Интерактивно редактировать .editorconfig…</value>
+  <value>Интерактивно редактировать .editorconfig...</value>
 </data>
 <data name="ObjectCreation_Text" xml:space="preserve">
   <value>Создание объекта</value>
@@ -551,7 +551,7 @@
   <value>Очистка кода</value>
 </data>
 <data name="CleanupRecentlyModifiedFilesActionText" xml:space="preserve">
-  <value>Очистить недавно измененные файлы…</value>
+  <value>Очистить недавно измененные файлы...</value>
 </data>
 <data name="_ThrowNotImplementedException_Text" xml:space="preserve">
   <value>Выбросить NotImplementedException (_T)</value>
@@ -775,7 +775,7 @@
   <value>Эти настройки влияют только на действия *Очистить недавно измененные файлы* и *Тихо очистить недавно измененные файлы*. Вы можете вызвать их через подменю *ReSharper &gt; Правка &gt; Очистить недавние файлы*.</value>
 </data>
 <data name="CleanupCodeActionText" xml:space="preserve">
-  <value>Очистить код…</value>
+  <value>Очистить код...</value>
 </data>
 <data name="WhenFormattingSomeCodeAlsoFixColumn_Text" xml:space="preserve">
   <value>При форматировании выделенного кода, при необходимости, также исправлять выравнивание по столбцам в соседних строках</value>
@@ -811,7 +811,7 @@
   <value>Упорядочить спецификаторы ('virtual' и/или 'override') для переопределяющих функций</value>
 </data>
 <data name="WriteCurrentStyleTo__Button_Caption" xml:space="preserve">
-  <value>Записать текущий стиль в {0}…</value>
+  <value>Записать текущий стиль в {0}...</value>
 </data>
 <data name="CleanupInRecentlyModifiedFiles_Header_Text" xml:space="preserve">
   <value>Очистка в недавно измененных файлах</value>

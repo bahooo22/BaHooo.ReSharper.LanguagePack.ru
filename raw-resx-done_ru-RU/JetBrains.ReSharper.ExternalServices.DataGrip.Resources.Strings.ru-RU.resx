@@ -136,7 +136,7 @@
   <value>Параметры отступа</value>
 </data>
 <data name="ChangeDialectTo_Text" xml:space="preserve">
-  <value>Изменить диалект на…</value>
+  <value>Изменить диалект на...</value>
 </data>
 <data name="AlignLineCommentsAtRightOfElements_Text" xml:space="preserve">
   <value>Выровнять строчные комментарии по правому краю элементов</value>

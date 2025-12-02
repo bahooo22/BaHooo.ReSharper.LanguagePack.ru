@@ -6879,7 +6879,7 @@
     <value>Это вернет по ссылке через ref-параметр параметр; но он может быть безопасно возвращен только в операторе return</value>
 </data>
 <data name="And_More_Text" xml:space="preserve">
-    <value>… и еще {0}</value>
+    <value>... и еще {0}</value>
 </data>
 <data name="BracesAndOperatorsParentheses_RiderPresentableName" xml:space="preserve">
     <value>Скобки и операторы//Круглые скобки</value>

@@ -121,7 +121,7 @@
   <value>Настройки ReSpeller</value>
 </data>
 <data name="TypoIn_ReplaceWith_Text" xml:space="preserve">
-  <value>Орфографическая ошибка в '{0}'. Заменить на…</value>
+  <value>Орфографическая ошибка в '{0}'. Заменить на...</value>
 </data>
 <data name="DocCommentsUseMemberModifiersSettingDescription" xml:space="preserve">
   <value>Проверять документационные комментарии в соответствии с видимостью члена</value>
@@ -136,7 +136,7 @@
   <value>internal</value>
 </data>
 <data name="TypoIn_RenameTo_Text" xml:space="preserve">
-  <value>Орфографическая ошибка в '{0}'. Переименовать в…</value>
+  <value>Орфографическая ошибка в '{0}'. Переименовать в...</value>
 </data>
 <data name="GrammarCheckingScope" xml:space="preserve">
   <value>Область проверки грамматики</value>
@@ -253,7 +253,7 @@
   <value>Пользовательские словари ReSpeller</value>
 </data>
 <data name="ConfigureRule__Text" xml:space="preserve">
-  <value>Настроить правило '{0}'…</value>
+  <value>Настроить правило '{0}'...</value>
 </data>
 <data name="EnableSpellChecking" xml:space="preserve">
   <value>Включить проверку орфографии</value>

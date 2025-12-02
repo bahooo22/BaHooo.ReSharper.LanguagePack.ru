@@ -133,6 +133,6 @@
   <value>Получить снимок</value>
 </data>
 <data name="PendingSnapshotButtonText" xml:space="preserve">
-  <value>Ожидание…</value>
+  <value>Ожидание...</value>
 </data>
 </root>

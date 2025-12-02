@@ -298,7 +298,7 @@
     <value>Burst: Загрузка управляемого типа '{0}' не поддерживается</value>
   </data>
   <data name="AsmDefIntraTextAdornmentModel_BuildContextMenuItems_Configure___" xml:space="preserve">
-    <value>Настроить…</value>
+    <value>Настроить...</value>
   </data>
   <data name="Unity_Internal_DumpDuplicateTypeNames_Text" xml:space="preserve">
     <value>Вывести повторяющиеся имена типов</value>

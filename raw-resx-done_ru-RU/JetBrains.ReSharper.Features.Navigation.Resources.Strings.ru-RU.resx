@@ -166,7 +166,7 @@
   <value>Нет связанных файлов</value>
 </data>
 <data name="CodeDependentOn_Ellipsis___Text" xml:space="preserve">
-  <value>Код зависит от '{0}', '{1}'…</value>
+  <value>Код зависит от '{0}', '{1}'...</value>
 </data>
 <data name="_DynamicReferences_Text" xml:space="preserve">
   <value>Динамические ссылки</value>
@@ -223,7 +223,7 @@
   <value>Такие же атрибуты, как у '{0}'</value>
 </data>
 <data name="NavigateTo_Ellipsis_Text" xml:space="preserve">
-  <value>Перейти к…</value>
+  <value>Перейти к...</value>
 </data>
 <data name="Found__And__PressEscapeToRemoveHighlighting_Plural" xml:space="preserve">
   <value>Найдено {0} {0:choice:one#использование|other#использований} и {2} {2:choice:one#объявление|other#объявлений} для '{1}' (нажмите Escape, чтобы убрать подсветку)</value>
@@ -457,7 +457,7 @@
   <value>Ссылочный код</value>
 </data>
 <data name="ReferencedCodeIn_U2026_Text" xml:space="preserve">
-  <value>Ссылочный код в: '{0}' (…)</value>
+  <value>Ссылочный код в: '{0}' (...)</value>
 </data>
 <data name="IterateUsagesActionText" xml:space="preserve">
   <value>Итерировать использования</value>
@@ -595,7 +595,7 @@
   <value>Показать вызовы базовых методов</value>
 </data>
 <data name="SearchingForQuasiImplementations_Text" xml:space="preserve">
-  <value>Поиск квази-реализаций…</value>
+  <value>Поиск квази-реализаций...</value>
 </data>
 <data name="Rich_mouseNavigationInTheEditor_Text" xml:space="preserve">
   <value>Богатая навигация мышью в редакторе</value>
@@ -658,7 +658,7 @@
   <value>Найдено {0} {1}</value>
 </data>
 <data name="GoToFile_Text" xml:space="preserve">
-  <value>Перейти к файлу…</value>
+  <value>Перейти к файлу...</value>
 </data>
 <data name="SearchFor_MatchCase_Text" xml:space="preserve">
   <value>Искать '{0}' (с учетом регистра)</value>
@@ -814,7 +814,7 @@
   <value>Выбрать объявление</value>
 </data>
 <data name="SearchingPleaseWait_Text" xml:space="preserve">
-  <value>Идет поиск, подождите…</value>
+  <value>Идет поиск, подождите...</value>
 </data>
 <data name="OpenNewFilesIn_previewTabFromEverywhere_BoolOption_Text" xml:space="preserve">
   <value>Открывать новые файлы в предпросмотре отовсюду</value>
@@ -841,10 +841,10 @@
   <value>Хотите найти использования параметра '{0}' в переопределении{1}?</value>
 </data>
 <data name="SeachingForNextUsage_Text" xml:space="preserve">
-  <value>Поиск следующего использования…</value>
+  <value>Поиск следующего использования...</value>
 </data>
 <data name="ShowUsages_Text" xml:space="preserve">
-  <value>Показать использования…</value>
+  <value>Показать использования...</value>
 </data>
 <data name="NavigateForwardActionText" xml:space="preserve">
   <value>Навигация вперед</value>
@@ -907,7 +907,7 @@
   <value>Производные символы</value>
 </data>
 <data name="FindUsagesAdvancedActionText" xml:space="preserve">
-  <value>Расширенный поиск использований…</value>
+  <value>Расширенный поиск использований...</value>
 </data>
 <data name="ReferencesAvailableVia_FindUsagesTitle_Text" xml:space="preserve">
   <value>Ссылки, доступные через '{0}'</value>
@@ -922,7 +922,7 @@
   <value>Нажмите Esc, чтобы убрать подсветку</value>
 </data>
 <data name="RecentEditsActionText" xml:space="preserve">
-  <value>Недавние правки…</value>
+  <value>Недавние правки...</value>
 </data>
 <data name="WindowsExplorer_Text" xml:space="preserve">
   <value>&amp;Проводник Windows</value>
@@ -1000,7 +1000,7 @@
   <value>Объединить вхождения в одну строку</value>
 </data>
 <data name="NavigateToActionText" xml:space="preserve">
-  <value>Перейти к…</value>
+  <value>Перейти к...</value>
 </data>
 <data name="Declarations_Text" xml:space="preserve">
   <value>Объявления</value>

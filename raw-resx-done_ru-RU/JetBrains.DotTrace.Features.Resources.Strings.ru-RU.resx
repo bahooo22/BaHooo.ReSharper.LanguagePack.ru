@@ -223,7 +223,7 @@
   <value>ID</value>
 </data>
 <data name="CallTreeShowProperties_ActionText" xml:space="preserve">
-  <value>Свойства…</value>
+  <value>Свойства...</value>
 </data>
 <data name="ReturnToPreviousScopeActionText" xml:space="preserve">
   <value>Вернуться к предыдущей области</value>

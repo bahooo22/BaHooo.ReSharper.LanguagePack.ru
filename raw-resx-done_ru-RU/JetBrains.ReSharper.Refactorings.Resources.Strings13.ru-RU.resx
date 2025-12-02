@@ -166,7 +166,7 @@
   <value>Возможные динамические ссылки</value>
 </data>
 <data name="IntroduceTypeAliasActionText" xml:space="preserve">
-  <value>Ввести псевдоним типа…</value>
+  <value>Ввести псевдоним типа...</value>
 </data>
 <data name="StructurallyCompatibleMembers_Text" xml:space="preserve">
   <value>Структурно совместимые члены</value>
@@ -268,7 +268,7 @@
   <value>Невозможно встроить рекурсивную функцию</value>
 </data>
 <data name="InlineMasterPageContent_Action_text" xml:space="preserve">
-  <value>Встроить содержимое мастер-страницы…</value>
+  <value>Встроить содержимое мастер-страницы...</value>
 </data>
 <data name="ProfileGroupClassNameMustStartWith__Text" xml:space="preserve">
   <value>Имя класса группы профиля должно начинаться с {0}</value>
@@ -289,7 +289,7 @@
   <value>Динамические ссылки</value>
 </data>
 <data name="InlineTypeAliasActionText" xml:space="preserve">
-  <value>Встроить псевдоним типа…</value>
+  <value>Встроить псевдоним типа...</value>
 </data>
 <data name="RenameInAllTypes_Text" xml:space="preserve">
   <value>Переименовать во всех типах</value>
@@ -298,7 +298,7 @@
   <value>Если класс {{0}} будет переименован в {0}, то свойство {1} также должно быть переименовано в {2}</value>
 </data>
 <data name="ExtractCSSStyleActionText" xml:space="preserve">
-  <value>Извлечь CSS стиль…</value>
+  <value>Извлечь CSS стиль...</value>
 </data>
 <data name="IntroduceType_Alias_Text" xml:space="preserve">
   <value>Ввести псевдоним типа (&amp;A)</value>
@@ -319,7 +319,7 @@
   <value>Невозможно переименовать параметр маршрута {{0, {0}}}, так как он объявлен в константе</value>
 </data>
 <data name="ExtractContentPlaceholder_Action_Text" xml:space="preserve">
-  <value>Извлечь заполнитель содержимого…</value>
+  <value>Извлечь заполнитель содержимого...</value>
 </data>
 <data name="ExtractCSSStyle_Text" xml:space="preserve">
   <value>Извлечь CSS стиль</value>

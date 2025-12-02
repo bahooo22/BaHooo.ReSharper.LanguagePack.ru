@@ -215,7 +215,7 @@
   <value>Пожалуйста, прикрепите хотя бы один снимок производительности или памяти</value>
 </data>
 <data name="AboutBoxCheckingForUpdates" xml:space="preserve">
-  <value>Проверка обновлений…</value>
+  <value>Проверка обновлений...</value>
 </data>
 <data name="Options_WebProxy_Clear" xml:space="preserve">
   <value>Очистить значения</value>

@@ -292,7 +292,7 @@
   <value>Создавать домен приложения при запуске тестов</value>
 </data>
 <data name="Running_Description_Text" xml:space="preserve">
-  <value>Выполнение…</value>
+  <value>Выполнение...</value>
 </data>
 <data name="UseCustomDirectoryForTestsSettingDescription" xml:space="preserve">
   <value>Использовать пользовательский каталог для тестов</value>
@@ -328,13 +328,13 @@
   <value>Поставщики группировки</value>
 </data>
 <data name="UnitTesting_TestStatus_Running" xml:space="preserve">
-  <value>Выполняется…</value>
+  <value>Выполняется...</value>
 </data>
 <data name="UnitTesting_TestStatus_Success" xml:space="preserve">
   <value>Успешно</value>
 </data>
 <data name="RunningUnitTests_Text" xml:space="preserve">
-  <value>Запуск модульных тестов…</value>
+  <value>Запуск модульных тестов...</value>
 </data>
 <data name="UnitTestExplorer_Caption" xml:space="preserve">
   <value>Обозреватель модульных тестов</value>
@@ -1072,7 +1072,7 @@
   <value>Создать новый сеанс</value>
 </data>
 <data name="More_Text" xml:space="preserve">
-  <value>Еще…</value>
+  <value>Еще...</value>
 </data>
 <data name="RunUnitTestsActionGroupDescription" xml:space="preserve">
   <value>Запустить модульные тесты</value>

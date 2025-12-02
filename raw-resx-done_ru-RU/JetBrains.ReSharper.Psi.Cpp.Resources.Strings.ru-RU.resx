@@ -388,7 +388,7 @@
   <value>Вокруг точки с запятой</value>
 </data>
 <data name="ProcessingChangedFiles_Text" xml:space="preserve">
-  <value>Обработка измененных файлов…</value>
+  <value>Обработка измененных файлов...</value>
 </data>
 <data name="Parser_Error_ExpectedAfterDeclaration_Text" xml:space="preserve">
   <value>После объявления ожидается ';'</value>
@@ -530,7 +530,7 @@
   <value>Ожидается идентификатор</value>
 </data>
 <data name="PreparingWordIndex_Text" xml:space="preserve">
-  <value>Подготовка словесного индекса…</value>
+  <value>Подготовка словесного индекса...</value>
 </data>
 <data name="Parser_Error_ExpectedStatement_Text" xml:space="preserve">
   <value>Ожидается оператор</value>
@@ -809,7 +809,7 @@
   <value>Ожидается ',' или ')'</value>
 </data>
 <data name="IndexingSymbols_Text" xml:space="preserve">
-  <value>Индексирование символов…</value>
+  <value>Индексирование символов...</value>
 </data>
 <data name="Enum_Text" xml:space="preserve">
   <value>enum</value>
@@ -1001,7 +1001,7 @@
   <value>Вокруг фигурных скобок</value>
 </data>
 <data name="InitializingSymbolCache_Text" xml:space="preserve">
-  <value>Инициализация кэша символов…</value>
+  <value>Инициализация кэша символов...</value>
 </data>
 <data name="Parser_Error_ExpectedCliProperty_Text" xml:space="preserve">
   <value>Ожидается свойство CLI</value>

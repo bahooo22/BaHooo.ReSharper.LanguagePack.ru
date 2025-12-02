@@ -149,7 +149,7 @@
   <value>Невозможно изменить файл '{0}': {1}</value>
 </data>
 <data name="ApplyingProjectModelChanges_Text" xml:space="preserve">
-  <value>Применение изменений модели проекта…</value>
+  <value>Применение изменений модели проекта...</value>
 </data>
 <data name="FileNameContainsInvalidCharacters_Text" xml:space="preserve">
   <value>Имя файла содержит недопустимые символы</value>

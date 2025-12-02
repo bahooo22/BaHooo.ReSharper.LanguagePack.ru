@@ -251,7 +251,7 @@
   <value>30-дневная бесплатная пробная версия</value>
 </data>
 <data name="ShowHelp" xml:space="preserve">
-  <value>Показать справку по проблеме…</value>
+  <value>Показать справку по проблеме...</value>
 </data>
 <data name="LicenseStartTrial" xml:space="preserve">
   <value>Попробовать</value>
@@ -263,7 +263,7 @@
   <value>Управляемая</value>
 </data>
 <data name="IssuesMenuOpen" xml:space="preserve">
-  <value>Анализировать проблему…</value>
+  <value>Анализировать проблему...</value>
 </data>
 <data name="ChartLabel_Memory" xml:space="preserve">
   <value>Память</value>

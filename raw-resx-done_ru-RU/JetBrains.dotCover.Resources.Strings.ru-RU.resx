@@ -121,7 +121,7 @@
   <value>Покрывающие тесты</value>
 </data>
 <data name="ExportToDetailedXMLActionText" xml:space="preserve">
-  <value>Экспортировать в детальный XML…</value>
+  <value>Экспортировать в детальный XML...</value>
 </data>
 <data name="WelcomeScreen_AnalyzeApplicationButton" xml:space="preserve">
   <value>Анализировать приложение</value>
@@ -136,7 +136,7 @@
   <value>Автономное приложение</value>
 </data>
 <data name="EditCoverageFiltersActionText" xml:space="preserve">
-  <value>Редактировать фильтры покрытия (&amp;E)…</value>
+  <value>Редактировать фильтры покрытия (&amp;E)...</value>
 </data>
 <data name="FailedToObtainOutputDirectory_Error" xml:space="preserve">
   <value>Не удалось получить выходной каталог</value>
@@ -250,7 +250,7 @@
   <value>Создать новую сессию</value>
 </data>
 <data name="ContinuousTestingSettingsActionText" xml:space="preserve">
-  <value>Настройки непрерывного тестирования…</value>
+  <value>Настройки непрерывного тестирования...</value>
 </data>
 <data name="ProfilerConfigurator_CoverageConfigurationDialog_StartButton_Text" xml:space="preserve">
   <value>Запустить</value>
@@ -427,19 +427,19 @@
   <value>Прервать запущенные тесты? Если не прерывать, анализ покрытия будет запущен после завершения тестов.</value>
 </data>
 <data name="ExportToHTMLActionText" xml:space="preserve">
-  <value>Экспортировать в HTML…</value>
+  <value>Экспортировать в HTML...</value>
 </data>
 <data name="DotCoverOptions_ContinuousTesting_CoverAllTestsAtFirstTime_Caption" xml:space="preserve">
   <value>Покрывать тесты без информации о покрытии</value>
 </data>
 <data name="ExportToXMLForNDependActionText" xml:space="preserve">
-  <value>Экспортировать в XML для NDepend…</value>
+  <value>Экспортировать в XML для NDepend...</value>
 </data>
 <data name="LineMarkerTooltip_SomeTestsOutdated" xml:space="preserve">
   <value>**{0}** тестов **устарело**</value>
 </data>
 <data name="ExportToJSONActionText" xml:space="preserve">
-  <value>Экспортировать в JSON…</value>
+  <value>Экспортировать в JSON...</value>
 </data>
 <data name="Pencil_Background" xml:space="preserve">
   <value>Фон</value>
@@ -499,7 +499,7 @@
   <value>Уровень ведения журнала ядра:</value>
 </data>
 <data name="OpenCoverageSnapshotActionText" xml:space="preserve">
-  <value>Открыть снапшот покрытия (&amp;O)…</value>
+  <value>Открыть снапшот покрытия (&amp;O)...</value>
 </data>
 <data name="ContinuousTestingTurnOn" xml:space="preserve">
   <value>Включить непрерывное тестирование</value>
@@ -553,7 +553,7 @@
   <value>Режим запуска непрерывного тестирования</value>
 </data>
 <data name="CoverApplicationActionText" xml:space="preserve">
-  <value>Покрыть приложение (&amp;C)…</value>
+  <value>Покрыть приложение (&amp;C)...</value>
 </data>
 <data name="DotCoverOptions_ContinuousTesting_PageTitle" xml:space="preserve">
   <value>Непрерывное тестирование</value>
@@ -646,7 +646,7 @@
   <value>Покрыто {0}%</value>
 </data>
 <data name="UnitTestingSettingsActionText" xml:space="preserve">
-  <value>Настройки модульных тестов…</value>
+  <value>Настройки модульных тестов...</value>
 </data>
 <data name="DotCoverOptions_General_UseNGenImages" xml:space="preserve">
   <value>Использовать NGen-образы (_N)</value>
@@ -881,10 +881,10 @@
   <value>Файлы в папках запуска тестов</value>
 </data>
 <data name="ExportToXMLActionText" xml:space="preserve">
-  <value>Экспортировать в XML…</value>
+  <value>Экспортировать в XML...</value>
 </data>
 <data name="MergeCoverageSnapshotsActionText" xml:space="preserve">
-  <value>Объединить снапшоты покрытия (&amp;M)…</value>
+  <value>Объединить снапшоты покрытия (&amp;M)...</value>
 </data>
 <data name="ProfilerConfigurator_CoverageConfigurationDialog_Step2Header_SpecifyCoverageOptions" xml:space="preserve">
   <value>Указать параметры покрытия</value>
@@ -905,7 +905,7 @@
   <value>Анализ покрытия</value>
 </data>
 <data name="SaveCoverageSnapshotActionText" xml:space="preserve">
-  <value>Сохранить снапшот покрытия…</value>
+  <value>Сохранить снапшот покрытия...</value>
 </data>
 <data name="ProfilerConfigurator_ApplicationTypeSelector_IIS_Description" xml:space="preserve">
   <value>Веб-приложение, размещенное в IIS</value>
@@ -1037,7 +1037,7 @@
   <value>Сборки и файлы символов</value>
 </data>
 <data name="ExportCoverageReportActionGroupText" xml:space="preserve">
-  <value>Экспортировать отчет о покрытии…</value>
+  <value>Экспортировать отчет о покрытии...</value>
 </data>
 <data name="ProfilerConfigurator_CoverageConfigurationDialog_Step3Header_RunAnalysis" xml:space="preserve">
   <value>Запустить анализ</value>

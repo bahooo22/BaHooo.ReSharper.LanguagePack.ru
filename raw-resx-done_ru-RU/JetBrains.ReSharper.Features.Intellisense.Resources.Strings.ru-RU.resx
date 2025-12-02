@@ -274,7 +274,7 @@
   <value>Классы</value>
 </data>
 <data name="CompleteSymbolActionText" xml:space="preserve">
-  <value>Завершить символ(&amp;C)</value>
+  <value>Завершить символ &amp;C)</value>
 </data>
 <data name="PressOnNotNullAnnotatedParameterToInsert_Text" xml:space="preserve">
   <value>Нажатие '!' на параметре, аннотированном как 'NotNull', для вставки проверки на null</value>
@@ -433,7 +433,7 @@
   <value>Предлагать инкапсулировать поля из базовых типов</value>
 </data>
 <data name="SmartCodeCompletionActionText" xml:space="preserve">
-  <value>Умное завершение кода(&amp;S)</value>
+  <value>Умное завершение кода &amp;S)</value>
 </data>
 <data name="ParametersSettingDescription" xml:space="preserve">
   <value>Параметры</value>
@@ -532,7 +532,7 @@
   <value>Вставлять проверку параметра на null при вводе '!', когда параметр аннотирован как 'NotNull'</value>
 </data>
 <data name="DuplicateTextActionText" xml:space="preserve">
-  <value>Дублировать текст(&amp;D)</value>
+  <value>Дублировать текст &amp;D)</value>
 </data>
 <data name="StructuralNavigationCXMLWebLanguages_Header_Text" xml:space="preserve">
   <value>Структурная навигация (C#, XML, веб-языки)</value>
@@ -706,7 +706,7 @@
   <value>Расширить выделение до горба следующего слова</value>
 </data>
 <data name="ImportSymbolActionText" xml:space="preserve">
-  <value>Импортировать символ(&amp;I)</value>
+  <value>Импортировать символ &amp;I)</value>
 </data>
 <data name="HighlightCurrent_line_BoolOption_Text" xml:space="preserve">
   <value>Подсвечивать текущую строку(_L)</value>

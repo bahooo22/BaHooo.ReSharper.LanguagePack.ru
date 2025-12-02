@@ -202,10 +202,10 @@
   <value>Показывать внешние изменения</value>
 </data>
 <data name="ShowQuickDocumentationActionText" xml:space="preserve">
-  <value>Показать быструю документацию (&amp;Q)…</value>
+  <value>Показать быструю документацию (&amp;Q)...</value>
 </data>
 <data name="Generate_Options_Text" xml:space="preserve">
-  <value>Параметры…</value>
+  <value>Параметры...</value>
 </data>
 <data name="Generate_SelectNone_Text" xml:space="preserve">
   <value>Снять выделение (_E)</value>
@@ -253,7 +253,7 @@
   <value>Переместить вверх (_U)</value>
 </data>
 <data name="_IsThinkingEscToCancel_Text" xml:space="preserve">
-  <value>{0} думает… ^^(Нажмите Esc для отмены)^^</value>
+  <value>{0} думает... ^^(Нажмите Esc для отмены)^^</value>
 </data>
 <data name="DefaultActionSettingDescription" xml:space="preserve">
   <value>Действие по умолчанию</value>
@@ -265,7 +265,7 @@
   <value>Контекстный фильтр</value>
 </data>
 <data name="_IsThinking_Text" xml:space="preserve">
-  <value>{0} думает…</value>
+  <value>{0} думает...</value>
 </data>
 <data name="GenerateCode_Text" xml:space="preserve">
   <value>Сгенерировать код</value>

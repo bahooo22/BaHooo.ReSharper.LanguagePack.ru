@@ -299,13 +299,13 @@
   <value>Если вы согласны участвовать в программе, будет анонимно отправлена следующая информация:</value>
 </data>
 <data name="Connecting_Text" xml:space="preserve">
-  <value>Подключение…</value>
+  <value>Подключение...</value>
 </data>
 <data name="NoLicenseServer_Text" xml:space="preserve">
   <value>Нет сервера лицензий</value>
 </data>
 <data name="CheckForUpdatesActionText" xml:space="preserve">
-  <value>Проверить обновления…</value>
+  <value>Проверить обновления...</value>
 </data>
 <data name="ShowItemInExplorer_Text" xml:space="preserve">
   <value>Показать {0} в проводнике</value>
@@ -353,10 +353,10 @@
   <value>Применить</value>
 </data>
 <data name="ReportABugActionText" xml:space="preserve">
-  <value>Сообщить об ошибке…</value>
+  <value>Сообщить об ошибке...</value>
 </data>
 <data name="SubmitFeedbackActionText" xml:space="preserve">
-  <value>Отправить отзыв…</value>
+  <value>Отправить отзыв...</value>
 </data>
 <data name="Feedback_PleaseHelpUsImproveOurProducts_Header_Text" xml:space="preserve">
   <value>Пожалуйста, помогите нам улучшить наши продукты</value>
@@ -383,7 +383,7 @@
   <value>Глобальное исключение</value>
 </data>
 <data name="ShowDetails_Text" xml:space="preserve">
-  <value>Показать подробности…</value>
+  <value>Показать подробности...</value>
 </data>
 <data name="JoinLinesIfTheMessageContainsMultipleLinesSettingDescription" xml:space="preserve">
   <value>Объединять строки, если сообщение содержит несколько строк</value>
@@ -410,7 +410,7 @@
   <value>Ключ лицензии не может быть пустым</value>
 </data>
 <data name="ContactSupportActionText" xml:space="preserve">
-  <value>Связаться со службой поддержки…</value>
+  <value>Связаться со службой поддержки...</value>
 </data>
 <data name="Print" xml:space="preserve">
   <value>Печать</value>
@@ -446,7 +446,7 @@
   <value>Аутентифицироваться с помощью {0}</value>
 </data>
 <data name="CheckingLicense_Text" xml:space="preserve">
-  <value>Проверка лицензии…</value>
+  <value>Проверка лицензии...</value>
 </data>
 <data name="_TotalNotifications_ToolTip" xml:space="preserve">
   <value>Всего уведомлений: {0}</value>
@@ -525,7 +525,7 @@
   <value>На этом компьютере не сохранен ключ лицензии</value>
 </data>
 <data name="ExchangingKey_Text" xml:space="preserve">
-  <value>Обмен ключами…</value>
+  <value>Обмен ключами...</value>
 </data>
 <data name="ClearSelectionActionText" xml:space="preserve">
   <value>Очистить выделение</value>
@@ -619,7 +619,7 @@
   <value>Журнал уведомлений</value>
 </data>
 <data name="LoggingOnDotDotDot_Text" xml:space="preserve">
-  <value>Вход в систему…</value>
+  <value>Вход в систему...</value>
 </data>
 <data name="Add_Text" xml:space="preserve">
   <value>Добавить</value>
@@ -640,7 +640,7 @@
   <value>Ошибка входа в Account</value>
 </data>
 <data name="ReportABugOrSubmitFeedbackActionText" xml:space="preserve">
-  <value>Сообщить об ошибке или отправить отзыв…</value>
+  <value>Сообщить об ошибке или отправить отзыв...</value>
 </data>
 <data name="CouldNotViewInBrowser" xml:space="preserve">
   <value>Не удалось просмотреть документ в браузере.</value>

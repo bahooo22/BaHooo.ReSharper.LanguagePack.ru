@@ -162,7 +162,7 @@
   <value>Создание проекта {0}</value>
 </data>
 <data name="GenerateUnitTest_Dialog_Notification_TestFrameworkAreLoading_Text" xml:space="preserve">
-  <value>Загрузка тестовых фреймворков…</value>
+  <value>Загрузка тестовых фреймворков...</value>
 </data>
 <data name="TestLinkerOptionsPage_NavigationSection_NameOfSubjectAttributeTextBox_Label" xml:space="preserve">
   <value>Имя атрибута для упоминания тестового субъекта:</value>
