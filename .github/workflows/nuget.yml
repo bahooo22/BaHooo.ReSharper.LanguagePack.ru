@@ -22,11 +22,30 @@ jobs:
       - name: Pack NuGet
         run: nuget pack NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec -OutputDirectory NugetFolder/out
 
+      - name: Debug - List files
+        run: |
+          Write-Host "Current directory: $(Get-Location)"
+          Write-Host "Files in NugetFolder/out/:"
+          Get-ChildItem -Path NugetFolder/out -Recurse -ErrorAction Continue | Format-Table -AutoSize
+
       - name: Publish to NuGet
         if: github.event_name == 'release'
         run: |
-          $package = (Get-ChildItem NugetFolder/out/*.nupkg)[0].FullName
-          nuget push "$package" -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
+          $packagePath = Join-Path $env:GITHUB_WORKSPACE "NugetFolder/out"
+          Write-Host "Looking for packages in: $packagePath"
+          
+          $packages = Get-ChildItem -Path $packagePath -Filter *.nupkg
+          if ($packages.Count -eq 0) {
+            Write-Host "No .nupkg files found!"
+            exit 1
+          }
+          
+          Write-Host "Found packages:"
+          $packages | ForEach-Object { Write-Host "  - $($_.FullName)" }
+          
+          $firstPackage = $packages[0].FullName
+          Write-Host "Publishing: $firstPackage"
+          nuget push "$firstPackage" -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
