@@ -19,7 +19,7 @@ if (-not [System.IO.Path]::IsPathRooted($Output)) {
 }
 
 # Путь к nuspec-файлу (в каталоге скрипта)
-$nuspecPath = Join-Path $scriptDir 'BaHooo.JetBrains.I18n.ru.nuspec'
+$nuspecPath = Join-Path $scriptDir 'JetBrains.I18n.ru.nuspec'
 
 if (-not (Test-Path $nuspecPath)) {
     throw "Файл nuspec не найден: $nuspecPath"

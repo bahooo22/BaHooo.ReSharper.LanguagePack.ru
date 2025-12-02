@@ -2,8 +2,8 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <!-- IDENTIFICATION -->
-    <id>BaHooo.JetBrains.I18n.ru</id>
-    <version>2025.3</version>
+    <id>JetBrains.I18n.ru</id>
+    <version>2025.3.7.1</version>
     <title>Russian Language Pack for JetBrains ReSharper</title>
 
     <!-- AUTHORS -->
@@ -134,6 +134,8 @@ English:
           target="DotFiles/Extensions/JetBrains.I18n.ru/i18n" />
   </files>
 </package>
+
+
 
 
 
