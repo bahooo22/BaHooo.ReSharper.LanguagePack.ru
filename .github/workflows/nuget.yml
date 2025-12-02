@@ -13,8 +13,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0   # подтягиваем всю историю
-          fetch-tags: true # подтягиваем все теги
+          fetch-depth: 0
+          fetch-tags: true
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1
@@ -24,7 +24,9 @@ jobs:
 
       - name: Publish to NuGet
         if: github.event_name == 'release'
-        run: nuget push NugetFolder/out/*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
+        run: |
+          $package = (Get-ChildItem NugetFolder/out/*.nupkg)[0].FullName
+          nuget push "$package" -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
