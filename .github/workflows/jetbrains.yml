@@ -24,7 +24,7 @@ jobs:
 
       - name: Publish to JetBrains Marketplace
         run: |
-          $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/*.nupkg | Select-Object -First 1
+          $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/BaHooo.JetBrains.I18n.ru.*.nupkg | Select-Object -First 1
           nuget push $pkg.FullName -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
 
       - name: Upload artifact

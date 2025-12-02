@@ -21,15 +21,22 @@
 
     <!-- FULL DESCRIPTION -->
     <description><![CDATA[
-This package provides a Russian language pack for JetBrains ReSharper.  
-The translation is distributed under the MIT License.  
-Note: JetBrains ReSharper itself is licensed separately under the JetBrains EULA.
+The Russian Language Pack localizes the UI of JetBrains ReSharper into Russian.  
+Translation authored by Ivan "BaHooo" Zelenkevich, based on the JetBrains ReSharper product under JetBrains license.  
+Your feedback is very much appreciated — you can submit issues on GitHub or contact via Telegram.
 
+	  2024.11.27 Anna "Pixel" Zelenkevich Birthday :)
+	  Project started: 2025.11.27
+	  Date of first build: 2025.12.1
 ---
 
 Русский языковой пакет полностью переводит интерфейс ReSharper на русский язык.  
-Перевод выполнен Иваном "BaHooo" Зеленкевичем.  
+Перевод выполнен Иваном "BaHooo" Зеленкевичем на основе продукта JetBrains ReSharper под лицензией JetBrains.  
 Обратная связь приветствуется — используйте GitHub Issues или Telegram.
+
+	  2024.11.27 Родилась Аня "Pixel" Зеленкевич :)
+	  Проект начат: 2025.11.27
+	  Дата первой сборки: 2025.12.1
 ]]></description>
 
     <!-- RELEASE NOTES -->
@@ -61,7 +68,8 @@ English:
 
     <!-- COPYRIGHT -->
     <copyright>
-      © 2025 Ivan "BaHooo" Zelenkevich. Based on JetBrains ReSharper © JetBrains s.r.o.
+      © 2025 JetBrains s.r.o. — ReSharper product.
+      Translation © 2025 Ivan "BaHooo" Zelenkevich.
     </copyright>
   </metadata>
 

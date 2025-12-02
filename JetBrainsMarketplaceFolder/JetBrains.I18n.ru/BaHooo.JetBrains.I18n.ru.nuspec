@@ -3,8 +3,8 @@
   <metadata>
     <!-- IDENTIFICATION -->
     <id>JetBrains.I18n.ru</id>
-    <version>1.1</version>
-    <title>Russian Language Pack / Русский языковой пакет</title>
+    <version>2025.3.7</version>
+    <title>Russian Language Pack for JetBrains ReSharper</title>
 
     <!-- AUTHORS -->
     <authors>Ivan "BaHooo" Zelenkevich</authors>
@@ -27,11 +27,18 @@ The Russian Language Pack localizes the UI of JetBrains ReSharper into Russian.
 Translation authored by Ivan "BaHooo" Zelenkevich, based on the JetBrains ReSharper product under JetBrains license.  
 Your feedback is very much appreciated — you can submit issues on GitHub or contact via Telegram.
 
+	  2024.11.27 Anna "Pixel" Zelenkevich Birthday :)
+	  Project started: 2025.11.27
+	  Date of first build: 2025.12.1
 ---
 
 Русский языковой пакет полностью переводит интерфейс ReSharper на русский язык.  
 Перевод выполнен Иваном "BaHooo" Зеленкевичем на основе продукта JetBrains ReSharper под лицензией JetBrains.  
 Обратная связь приветствуется — используйте GitHub Issues или Telegram.
+
+	  2024.11.27 Родилась Аня "Pixel" Зеленкевич :)
+	  Проект начат: 2025.11.27
+	  Дата первой сборки: 2025.12.1
 ]]></description>
 
     <!-- RELEASE NOTES -->
@@ -48,7 +55,7 @@ English:
 ]]></releaseNotes>
 
     <!-- TAGS -->
-    <tags>resharper localization russian language-pack</tags>
+    <tags>resharper localization russian language-pack i18n</tags>
 
     <!-- DEPENDENCIES -->
     <dependencies>
@@ -71,8 +78,6 @@ English:
     <copyright>
       © 2025 JetBrains s.r.o. — ReSharper product.
       Translation © 2025 Ivan "BaHooo" Zelenkevich.
-	  2024.11.27 Anna "Pixel" Zelenkevich Birthday :)
-	  Date of build: 2025.12.1
     </copyright>
   </metadata>
 
@@ -88,3 +93,4 @@ English:
           target="DotFiles/Extensions/JetBrains.I18n.ru/i18n" />
   </files>
 </package>
+
