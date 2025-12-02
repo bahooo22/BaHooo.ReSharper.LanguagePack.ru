@@ -24,7 +24,7 @@ jobs:
 
       - name: Publish to NuGet
         if: github.event_name == 'release'
-        run: nuget push NugetFolder/out/BaHooo.ReSharper.I18n.ru.?*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
+        run: nuget push NugetFolder/out/*.nupkg -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }}
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
