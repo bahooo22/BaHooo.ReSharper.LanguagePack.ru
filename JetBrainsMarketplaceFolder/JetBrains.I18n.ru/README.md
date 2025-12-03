@@ -172,7 +172,6 @@ Workflow `.github/workflows/pack-and-release.yml` собирает `.nupkg` пр
 
 - Исходные строки принадлежат JetBrains.
 - Перевод — авторская работа Ivan "BaHooo" Zelenkevich.
-- Перед публикацией в Marketplace убедитесь, что соблюдены условия JetBrains и права на распространение.
 
 Добавьте файл LICENSE с указанием лицензии для перевода (например MIT/CC BY, если применимо).
 
