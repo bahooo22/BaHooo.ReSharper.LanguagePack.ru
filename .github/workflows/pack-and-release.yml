@@ -1,6 +1,9 @@
 on:
   push:
     branches: [main]
+  release:
+    types: [created]
+  workflow_dispatch:
 jobs:
   pack:
     runs-on: windows-latest
@@ -23,18 +26,22 @@ jobs:
 
       - name: Check if version changed
         id: check
+        shell: pwsh
         run: |
-          echo "Current version: ${{ steps.nuspec.outputs.version }}"
-          # Здесь можно сравнить с последним релизом на GitHub
-          # Если совпадает — выставляем флаг skip
-          latest=$(gh release list --limit 1 --json tagName --jq '.[0].tagName')
-          echo "Latest release tag: $latest"
-          if [ "${{ steps.nuspec.outputs.version }}" = "$latest" ]; then
-            echo "skip=true" >> $GITHUB_OUTPUT
-          else
-            echo "skip=false" >> $GITHUB_OUTPUT
+            $version = "${{ steps.nuspec.outputs.version }}"
+            Write-Host "Current version: $version"
+        
+            $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
+            Write-Host "Latest release tag: $latest"
+        
+            if ($version -eq $latest) {
+            "skip=true" >> $env:GITHUB_OUTPUT
+            } else {
+            "skip=false" >> $env:GITHUB_OUTPUT
+            }
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Run resx-to-resources.ps1
         if: steps.check.outputs.skip == 'false'
