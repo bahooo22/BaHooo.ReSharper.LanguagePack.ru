@@ -61,28 +61,43 @@ jobs:
         shell: pwsh
         run: pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\NugetFolder\artifacts"
 
-      - name: Upload NuGet package to release
-        if: steps.check.outputs.skip == 'false'
-        shell: pwsh
-        run: |
-          gh release upload "${{ steps.nuspec.outputs.version }}" `
-            NugetFolder/artifacts/*.nupkg `
-            --repo "${{ github.repository }}"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Build JetBrains Marketplace package
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
-
-      - name: Upload JetBrains Marketplace package to release
+            
+      - name: Create release if missing
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
-          gh release upload "${{ steps.nuspec.outputs.version }}" `
+            $tag = "${{ steps.nuspec.outputs.version }}"
+            gh release view "$tag" --repo "${{ github.repository }}" || `
+            gh release create "$tag" `
+                --repo "${{ github.repository }}" `
+                --title "$tag" `
+                --notes "Auto-generated release for version $tag"
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            
+      - name: Upload NuGet package to release
+        if: steps.check.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+            $tag = "${{ steps.nuspec.outputs.version }}"
+            gh release upload "$tag" `
+            NugetFolder/artifacts/*.nupkg `
+            --repo "${{ github.repository }}"
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    
+      - name: Upload JetBrains package to release
+        if: steps.check.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+            $tag = "${{ steps.nuspec.outputs.version }}"
+            gh release upload "$tag" `
             MarketplaceFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
