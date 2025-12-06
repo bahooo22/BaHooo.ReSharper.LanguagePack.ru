@@ -73,6 +73,23 @@ jobs:
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
             
+      # --- ОТЛАДКА: удаление релиза и тега, если они есть ---
+      - name: Удаление релиза (если существует)
+        if: steps.check.outputs.skip == 'false'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: pwsh
+        run: |
+          gh release delete "${{ steps.check.outputs.version }}" --repo "${{ github.repository }}" --yes || echo "Релиз не найден"
+
+      - name: Удаление тега (если существует)
+        if: steps.check.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+          git push origin --delete "${{ steps.check.outputs.version }}" || echo "Тег не найден"
+      # --- КОНЕЦ блока отладки ---
+      
+
       - name: Создание релиза если его нет
         if: steps.check.outputs.skip == 'false'
         env:
@@ -85,19 +102,23 @@ jobs:
               --title "${{ steps.check.outputs.version }}" `
               --notes "Автоматически созданный релиз для версии ${{ steps.check.outputs.version }}"
 
+
       - name: Переименовать NuGet пакет
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
           $file = Get-ChildItem NugetFolder/artifacts/*.nupkg | Select-Object -First 1
-          Rename-Item $file.FullName ("NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.nuget.nupkg")
-
+          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.nuget.nupkg"
+          Rename-Item -Path $file.FullName -NewName $newName
+      
       - name: Переименовать Marketplace пакет
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
           $file = Get-ChildItem MarketplaceFolder/artifacts/*.nupkg | Select-Object -First 1
-          Rename-Item $file.FullName ("MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.marketplace.nupkg")
+          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.marketplace.nupkg"
+          Rename-Item -Path $file.FullName -NewName $newName
+
 
       - name: Загрузка NuGet пакета в релиз
         if: steps.check.outputs.skip == 'false'
