@@ -1,9 +1,12 @@
+name: Pack RU ReSharper I18n
+
 on:
   push:
     branches: [main]
   release:
     types: [created]
   workflow_dispatch:
+  
 jobs:
   pack:
     runs-on: windows-latest
@@ -58,7 +61,22 @@ jobs:
         shell: pwsh
         run: pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\NugetFolder\artifacts"
 
+      - name: Upload NuGet artifact
+        if: steps.check.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BaHooo.ReSharper.I18n.ru-nuget
+          path: NugetFolder/artifacts/*.nupkg
+
       - name: Build Marketplace package
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
+
+      - name: Upload Marketplace artifact
+        if: steps.check.outputs.skip == 'false'
+        uses: actions/upload-artifact@v4
+        with:
+          name: BaHooo.ReSharper.I18n.ru-marketplace
+          path: MarketplaceFolder/artifacts/*.nupkg
+

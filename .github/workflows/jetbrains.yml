@@ -8,17 +8,16 @@ on:
     types: [created]
   workflow_dispatch:
 
-
 jobs:
   jetbrains:
     runs-on: windows-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Download artifact from pack workflow
+        if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
         uses: actions/download-artifact@v4
         with:
-          name: BaHooo.ReSharper.I18n.ru-marketplace   # имя артефакта из pack.yml
+          name: BaHooo.ReSharper.I18n.ru-marketplace
           path: ./marketplace-artifacts
 
       - name: Setup NuGet
@@ -39,6 +38,7 @@ jobs:
             nuget push "$($pkg.FullName)" `
               -Source https://plugins.jetbrains.com/ `
               -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+
       - name: Log release info
         shell: pwsh
         run: |

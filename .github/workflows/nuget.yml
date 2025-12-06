@@ -11,13 +11,13 @@ on:
 jobs:
   publish:
     runs-on: windows-latest
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - name: Download artifact from pack workflow
+        if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
         uses: actions/download-artifact@v4
         with:
-          name: BaHooo.ReSharper.I18n.ru-nuget   # имя артефакта из pack.yml
+          name: BaHooo.ReSharper.I18n.ru-nuget
           path: ./nuget-artifacts
 
       - name: Setup NuGet
@@ -39,4 +39,3 @@ jobs:
               -Source https://api.nuget.org/v3/index.json `
               -ApiKey ${{ secrets.NUGET_API_KEY }} `
               -SkipDuplicate
-          }
