@@ -30,20 +30,20 @@ jobs:
       - name: Check if version changed
         id: check
         shell: pwsh
+        env:
+            VERSION: ${{ steps.nuspec.outputs.version }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-            $version = "${{ steps.nuspec.outputs.version }}"
-            Write-Host "Current version: $version"
-        
+            Write-Host "Current version: $env:VERSION"
             $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
             Write-Host "Latest release tag: $latest"
         
-            if ($version -eq $latest) {
+            if ($env:VERSION -eq $latest) {
             "skip=true" >> $env:GITHUB_OUTPUT
             } else {
             "skip=false" >> $env:GITHUB_OUTPUT
             }
-        env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
 
       - name: Run resx-to-resources.ps1
