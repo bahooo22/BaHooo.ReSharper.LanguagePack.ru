@@ -61,22 +61,28 @@ jobs:
         shell: pwsh
         run: pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\NugetFolder\artifacts"
 
-      - name: Upload NuGet artifact
+      - name: Upload NuGet package to release
         if: steps.check.outputs.skip == 'false'
-        uses: actions/upload-artifact@v4
-        with:
-          name: BaHooo.ReSharper.I18n.ru-nuget
-          path: NugetFolder/artifacts/*.nupkg
+        shell: pwsh
+        run: |
+          gh release upload "${{ steps.nuspec.outputs.version }}" `
+            NugetFolder/artifacts/*.nupkg `
+            --repo "${{ github.repository }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build Marketplace package
+      - name: Build JetBrains Marketplace package
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
 
-      - name: Upload Marketplace artifact
+      - name: Upload JetBrains Marketplace package to release
         if: steps.check.outputs.skip == 'false'
-        uses: actions/upload-artifact@v4
-        with:
-          name: BaHooo.ReSharper.I18n.ru-marketplace
-          path: MarketplaceFolder/artifacts/*.nupkg
+        shell: pwsh
+        run: |
+          gh release upload "${{ steps.nuspec.outputs.version }}" `
+            MarketplaceFolder/artifacts/*.nupkg `
+            --repo "${{ github.repository }}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

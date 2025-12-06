@@ -1,21 +1,25 @@
 name: Publish to JetBrains Marketplace
 
 on:
-  workflow_run:
-    workflows: ["Pack RU ReSharper I18n"]
-    types: [completed]
+  release:
+    types: [published]
+  workflow_dispatch:
 
 jobs:
   jetbrains:
     runs-on: windows-latest
 
     steps:
-      - name: Download artifact from pack workflow
-        if: ${{ github.event.workflow_run.conclusion == 'success' || github.event_name != 'workflow_run' }}
-        uses: actions/download-artifact@v4
-        with:
-          name: BaHooo.ReSharper.I18n.ru-marketplace
-          path: ./marketplace-artifacts
+      - name: Download JetBrains package from release
+        shell: pwsh
+        run: |
+          $tag = "${{ github.event.release.tag_name }}"
+          gh release download "$tag" `
+            --repo "${{ github.repository }}" `
+            --pattern "*marketplace*.nupkg" `
+            --dir "marketplace-artifacts"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1
@@ -28,18 +32,8 @@ jobs:
             Write-Host "No .nupkg files found in marketplace-artifacts/"
             exit 1
           }
-          Write-Host "Found package(s):"
-          $packages | ForEach-Object { Write-Host "  - $($_.Name)" }
           foreach ($pkg in $packages) {
             Write-Host "Publishing: $($pkg.FullName)"
             nuget push "$($pkg.FullName)" `
               -Source https://plugins.jetbrains.com/ `
               -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
-
-      - name: Log release info
-        shell: pwsh
-        run: |
-          $prevTag = git describe --tags --abbrev=0
-          $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
-          Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 JetBrains Marketplace package published: $currTag"
-          Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
