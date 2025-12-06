@@ -85,6 +85,20 @@ jobs:
               --title "${{ steps.check.outputs.version }}" `
               --notes "Автоматически созданный релиз для версии ${{ steps.check.outputs.version }}"
 
+      - name: Переименовать NuGet пакет
+        if: steps.check.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+          $file = Get-ChildItem NugetFolder/artifacts/*.nupkg | Select-Object -First 1
+          Rename-Item $file.FullName ("NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.nuget.nupkg")
+
+      - name: Переименовать Marketplace пакет
+        if: steps.check.outputs.skip == 'false'
+        shell: pwsh
+        run: |
+          $file = Get-ChildItem MarketplaceFolder/artifacts/*.nupkg | Select-Object -First 1
+          Rename-Item $file.FullName ("MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.marketplace.nupkg")
+
       - name: Загрузка NuGet пакета в релиз
         if: steps.check.outputs.skip == 'false'
         env:
@@ -92,7 +106,7 @@ jobs:
         shell: pwsh
         run: |
           gh release upload "${{ steps.check.outputs.version }}" `
-            NugetFolder/artifacts/*.nupkg `
+            NugetFolder/artifacts/*.nuget.nupkg `
             --repo "${{ github.repository }}"
 
       - name: Загрузка JetBrains пакета в релиз
@@ -102,5 +116,5 @@ jobs:
         shell: pwsh
         run: |
           gh release upload "${{ steps.check.outputs.version }}" `
-            MarketplaceFolder/artifacts/*.nupkg `
+            MarketplaceFolder/artifacts/*.marketplace.nupkg `
             --repo "${{ github.repository }}"
