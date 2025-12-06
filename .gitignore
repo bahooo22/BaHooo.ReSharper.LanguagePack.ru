@@ -472,3 +472,6 @@ MarketplaceFolder/**/artifacts/
 NugetFolder/**/out/
 MarketplaceFolder/**/out/
 np++_session
+.github/workflows/jetbrains.yml.txt
+.github/workflows/nuget.yml.txt
+.github/workflows/pack-and-release.yml.txt

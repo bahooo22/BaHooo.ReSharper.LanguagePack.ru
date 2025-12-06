@@ -1,4 +1,4 @@
-name: Publish to JetBrains Marketplace
+name: Публикация в JetBrains Marketplace
 
 on:
   release:
@@ -10,30 +10,31 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Download JetBrains package from release
+      - name: Загрузка JetBrains пакета из релиза
         shell: pwsh
         run: |
           $tag = "${{ github.event.release.tag_name }}"
           gh release download "$tag" `
             --repo "${{ github.repository }}" `
-            --pattern "*marketplace*.nupkg" `
+            --pattern "BaHooo.ReSharper.I18n.ru.*.nupkg" `
             --dir "marketplace-artifacts"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup NuGet
+      - name: Настройка NuGet
         uses: NuGet/setup-nuget@v1
 
-      - name: Publish to JetBrains Marketplace
+      - name: Публикация в JetBrains Marketplace
         shell: pwsh
         run: |
           $packages = Get-ChildItem -Path "marketplace-artifacts" -Filter "*.nupkg"
           if ($packages.Count -eq 0) {
-            Write-Host "No .nupkg files found in marketplace-artifacts/"
+            Write-Host "Не найдено .nupkg файлов в marketplace-artifacts/"
             exit 1
           }
           foreach ($pkg in $packages) {
-            Write-Host "Publishing: $($pkg.FullName)"
+            Write-Host "Публикую: $($pkg.FullName)"
             nuget push "$($pkg.FullName)" `
               -Source https://plugins.jetbrains.com/ `
               -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
+          }

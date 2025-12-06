@@ -1,10 +1,8 @@
-name: Pack RU ReSharper I18n
+name: Сборка RU ReSharper I18n
 
 on:
   push:
     branches: [main]
-  release:
-    types: [created]
   workflow_dispatch:
   
 jobs:
@@ -12,38 +10,53 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Checkout
+      - name: Проверка кода
         uses: actions/checkout@v4
 
-      - name: Read nuspec version
+      - name: Чтение версии из nuspec
         id: nuspec
         shell: pwsh
         run: |
           $nuspecPath = "NugetFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec"
           $xml = Get-Content $nuspecPath -Raw
           $match = [Regex]::Match($xml, '<version>(.*?)</version>', 'IgnoreCase')
-          if (-not $match.Success) { throw "Version not found in nuspec" }
+          if (-not $match.Success) { throw "Версия не найдена в nuspec" }
           $version = $match.Groups[1].Value
-          Write-Host "Found version: $version"
+          Write-Host "Найдена версия: $version"
           echo "version=$version" >> $GITHUB_OUTPUT
 
-      - name: Check if version changed
+      - name: Проверка изменения версии
         id: check
         shell: pwsh
         run: |
-          Write-Host "Current version: ${{ steps.nuspec.outputs.version }}"
+          # Получаем версию из предыдущего шага
+          $currentVersion = "${{ steps.nuspec.outputs.version }}"
+          Write-Host "Текущая версия: '$currentVersion'"
+          
+          # Получаем последний релиз
           $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
-          Write-Host "Latest release tag: $latest"
-      
-          if ("${{ steps.nuspec.outputs.version }}" -eq $latest) {
+          Write-Host "Последний тег релиза: '$latest'"
+          
+          # Проверяем не пустые ли значения
+          if ([string]::IsNullOrEmpty($currentVersion)) {
+            Write-Host "ОШИБКА: currentVersion пустая!"
+            exit 1
+          }
+          
+          if ([string]::IsNullOrEmpty($latest)) {
+            Write-Host "Нет существующих релизов, создаем новый"
+            "skip=false" >> $env:GITHUB_OUTPUT
+          } elseif ($currentVersion -eq $latest) {
+            Write-Host "Версии совпадают, пропускаем сборку"
             "skip=true" >> $env:GITHUB_OUTPUT
           } else {
+            Write-Host "Версии отличаются, продолжаем сборку"
             "skip=false" >> $env:GITHUB_OUTPUT
           }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Run resx-to-resources.ps1
+      - name: Конвертация RESX в ресурсы
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
@@ -53,17 +66,17 @@ jobs:
             -LogFile "build.log" `
             -ErrorLogFile "build.errors.log"
 
-      - name: Build NuGet package
+      - name: Сборка NuGet пакета
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\NugetFolder\artifacts"
 
-      - name: Build JetBrains Marketplace package
+      - name: Сборка JetBrains Marketplace пакета
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
             
-      - name: Create release if missing
+      - name: Создание релиза если его нет
         if: steps.check.outputs.skip == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -73,9 +86,9 @@ jobs:
             gh release create "${{ steps.nuspec.outputs.version }}" `
               --repo "${{ github.repository }}" `
               --title "${{ steps.nuspec.outputs.version }}" `
-              --notes "Auto-generated release for version ${{ steps.nuspec.outputs.version }}"
+              --notes "Автоматически созданный релиз для версии ${{ steps.nuspec.outputs.version }}"
 
-      - name: Upload NuGet package to release
+      - name: Загрузка NuGet пакета в релиз
         if: steps.check.outputs.skip == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -85,7 +98,7 @@ jobs:
             NugetFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
 
-      - name: Upload JetBrains package to release
+      - name: Загрузка JetBrains пакета в релиз
         if: steps.check.outputs.skip == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -94,5 +107,3 @@ jobs:
           gh release upload "${{ steps.nuspec.outputs.version }}" `
             MarketplaceFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
-
-

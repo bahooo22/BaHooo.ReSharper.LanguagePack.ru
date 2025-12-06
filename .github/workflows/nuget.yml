@@ -1,4 +1,4 @@
-name: Publish NuGet Package
+name: Публикация в NuGet
 
 on:
   release:
@@ -10,31 +10,32 @@ jobs:
     runs-on: windows-latest
 
     steps:
-      - name: Download NuGet package from release
+      - name: Загрузка NuGet пакета из релиза
         shell: pwsh
         run: |
           $tag = "${{ github.event.release.tag_name }}"
           gh release download "$tag" `
             --repo "${{ github.repository }}" `
-            --pattern "*nuget*.nupkg" `
+            --pattern "BaHooo.ReSharper.I18n.ru.*.nupkg" `
             --dir "nuget-artifacts"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Setup NuGet
+      - name: Настройка NuGet
         uses: NuGet/setup-nuget@v1
 
-      - name: Publish to NuGet
+      - name: Публикация в NuGet.org
         shell: pwsh
         run: |
           $packages = Get-ChildItem -Path "nuget-artifacts" -Filter "*.nupkg"
           if ($packages.Count -eq 0) {
-            Write-Host "No .nupkg files found in nuget-artifacts/"
+            Write-Host "Не найдено .nupkg файлов в nuget-artifacts/"
             exit 1
           }
           foreach ($pkg in $packages) {
-            Write-Host "Publishing: $($pkg.FullName)"
+            Write-Host "Публикую: $($pkg.FullName)"
             nuget push "$($pkg.FullName)" `
               -Source https://api.nuget.org/v3/index.json `
               -ApiKey ${{ secrets.NUGET_API_KEY }} `
               -SkipDuplicate
+          }
