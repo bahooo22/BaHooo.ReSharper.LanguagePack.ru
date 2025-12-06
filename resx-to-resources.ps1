@@ -11,6 +11,12 @@ $resgen = 'c:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
+# Убедимся, что папка для .resources существует
+if (-not (Test-Path $ResourcesOutput)) {
+    New-Item -ItemType Directory -Path $ResourcesOutput -Force | Out-Null
+    Write-Host "Created missing output folder: $ResourcesOutput"
+}
+
 # Очистим старые логи
 Remove-Item $LogFile, $ErrorLogFile -ErrorAction SilentlyContinue
 
