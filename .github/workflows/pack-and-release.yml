@@ -30,19 +30,20 @@ jobs:
       - name: Check if version changed
         id: check
         shell: pwsh
-        env:
-            VERSION: ${{ steps.nuspec.outputs.version }}
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-            Write-Host "Current version: $env:VERSION"
-            $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
-            Write-Host "Latest release tag: $latest"
-        
-            if ($env:VERSION -eq $latest) {
+          Write-Host "Current version: ${{ steps.nuspec.outputs.version }}"
+          $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
+          Write-Host "Latest release tag: $latest"
+      
+          if ("${{ steps.nuspec.outputs.version }}" -eq $latest) {
             "skip=true" >> $env:GITHUB_OUTPUT
-            } else {
+          } else {
             "skip=false" >> $env:GITHUB_OUTPUT
-            }
+          }
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+
 
 
 
@@ -69,35 +70,32 @@ jobs:
       - name: Create release if missing
         if: steps.check.outputs.skip == 'false'
         env:
-          TAG: ${{ steps.nuspec.outputs.version }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release view "$env:TAG" --repo "${{ github.repository }}" || `
-            gh release create "$env:TAG" `
+          gh release view "${{ steps.nuspec.outputs.version }}" --repo "${{ github.repository }}" || `
+            gh release create "${{ steps.nuspec.outputs.version }}" `
               --repo "${{ github.repository }}" `
-              --title "$env:TAG" `
-              --notes "Auto-generated release for version $env:TAG"
+              --title "${{ steps.nuspec.outputs.version }}" `
+              --notes "Auto-generated release for version ${{ steps.nuspec.outputs.version }}"
 
       - name: Upload NuGet package to release
         if: steps.check.outputs.skip == 'false'
         env:
-          TAG: ${{ steps.nuspec.outputs.version }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "$env:TAG" `
+          gh release upload "${{ steps.nuspec.outputs.version }}" `
             NugetFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
 
       - name: Upload JetBrains package to release
         if: steps.check.outputs.skip == 'false'
         env:
-          TAG: ${{ steps.nuspec.outputs.version }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "$env:TAG" `
+          gh release upload "${{ steps.nuspec.outputs.version }}" `
             MarketplaceFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
 
