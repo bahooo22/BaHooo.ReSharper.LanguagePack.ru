@@ -76,11 +76,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release view "${{ steps.nuspec.outputs.version }}" --repo "${{ github.repository }}" || `
-            gh release create "${{ steps.nuspec.outputs.version }}" `
+          gh release view "${{ steps.check.outputs.version }}" --repo "${{ github.repository }}" || `
+            gh release create "${{ steps.check.outputs.version }}" `
               --repo "${{ github.repository }}" `
-              --title "${{ steps.nuspec.outputs.version }}" `
-              --notes "Автоматически созданный релиз для версии ${{ steps.nuspec.outputs.version }}"
+              --title "${{ steps.check.outputs.version }}" `
+              --notes "Автоматически созданный релиз для версии ${{ steps.check.outputs.version }}"
 
       - name: Загрузка NuGet пакета в релиз
         if: steps.check.outputs.skip == 'false'
@@ -88,7 +88,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "${{ steps.nuspec.outputs.version }}" `
+          gh release upload "${{ steps.check.outputs.version }}" `
             NugetFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
 
@@ -98,6 +98,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "${{ steps.nuspec.outputs.version }}" `
+          gh release upload "${{ steps.check.outputs.version }}" `
             MarketplaceFolder/artifacts/*.nupkg `
             --repo "${{ github.repository }}"
