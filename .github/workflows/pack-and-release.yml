@@ -1,3 +1,6 @@
+on:
+  push:
+    branches: [main]
 jobs:
   pack:
     runs-on: windows-latest
