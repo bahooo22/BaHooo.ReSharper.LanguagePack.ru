@@ -2,10 +2,12 @@ name: Publish to JetBrains Marketplace
 
 on:
   workflow_run:
-    workflows: ["Pack RU ReSharper I18n"]   # имя pack-workflow
-    types:
-      - completed
-  workflow_dispatch: {}
+    workflows: ["Pack RU ReSharper I18n"]
+    types: [completed]
+  release:
+    types: [created]
+  workflow_dispatch:
+
 
 jobs:
   jetbrains:
