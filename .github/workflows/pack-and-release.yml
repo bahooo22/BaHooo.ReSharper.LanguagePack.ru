@@ -16,6 +16,41 @@ jobs:
       - name: Проверка кода
         uses: actions/checkout@v4
 
+      # - name: Read nuspec version and check release
+        # id: check
+        # shell: pwsh
+        # env:
+          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # run: |
+          # $nuspecPath = "NugetFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec"
+          # $xml = Get-Content $nuspecPath -Raw
+          # $match = [Regex]::Match($xml, '<version>(.*?)</version>', 'IgnoreCase')
+          # if (-not $match.Success) { throw "Version not found in nuspec" }
+          # $currentVersion = $match.Groups[1].Value
+          # Write-Host "Found version: $currentVersion"
+      
+          # $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
+          # Write-Host "Latest release tag: $latest"
+      
+          # Проверяем не пустые ли значения
+          # if ([string]::IsNullOrEmpty($currentVersion)) {
+            # Write-Host "ОШИБКА: currentVersion пустая!"
+            # exit 1
+          # }
+      
+          # if ([string]::IsNullOrEmpty($latest)) {
+            # Write-Host "Нет существующих релизов, создаем новый"
+            # "skip=false" >> $env:GITHUB_OUTPUT
+            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
+          # } elseif ($currentVersion -eq $latest) {
+            # Write-Host "Версии совпадают, пропускаем сборку"
+            # "skip=true" >> $env:GITHUB_OUTPUT
+            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
+          # } else {
+            # Write-Host "Версии отличаются, продолжаем сборку"
+            # "skip=false" >> $env:GITHUB_OUTPUT
+            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
+          # }
       - name: Read nuspec version and check release
         id: check
         shell: pwsh
@@ -28,27 +63,33 @@ jobs:
           if (-not $match.Success) { throw "Version not found in nuspec" }
           $currentVersion = $match.Groups[1].Value
           Write-Host "Found version: $currentVersion"
-      
+
+          # Получаем последний релиз
           $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
           Write-Host "Latest release tag: $latest"
-      
-          # Проверяем не пустые ли значения
-          if ([string]::IsNullOrEmpty($currentVersion)) {
-            Write-Host "ОШИБКА: currentVersion пустая!"
-            exit 1
+
+          # --- ОТЛАДКА: удаление релиза и тега, если версия совпадает ---
+          if ($currentVersion -eq $latest) {
+            Write-Host "Версия уже существует, удаляем релиз и тег для отладки"
+            gh release delete "$currentVersion" --repo "${{ github.repository }}" --yes || echo "Релиз не найден"
+            git push origin --delete "$currentVersion" || echo "Тег не найден"
+            Write-Host "Удалено. Продолжаем сборку."
+            "skip=false" >> $env:GITHUB_OUTPUT
+            "version=$currentVersion" >> $env:GITHUB_OUTPUT
           }
-      
-          if ([string]::IsNullOrEmpty($latest)) {
+          elseif ([string]::IsNullOrEmpty($latest)) {
             Write-Host "Нет существующих релизов, создаем новый"
             "skip=false" >> $env:GITHUB_OUTPUT
             "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          } elseif ($currentVersion -eq $latest) {
-            Write-Host "Версии совпадают, пропускаем сборку"
-            "skip=true" >> $env:GITHUB_OUTPUT
-            "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          } else {
+          }
+          elseif ($currentVersion -ne $latest) {
             Write-Host "Версии отличаются, продолжаем сборку"
             "skip=false" >> $env:GITHUB_OUTPUT
+            "version=$currentVersion" >> $env:GITHUB_OUTPUT
+          }
+          else {
+            Write-Host "Версии совпадают, пропускаем сборку"
+            "skip=true" >> $env:GITHUB_OUTPUT
             "version=$currentVersion" >> $env:GITHUB_OUTPUT
           }
 
@@ -73,23 +114,6 @@ jobs:
         shell: pwsh
         run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
             
-      # --- ОТЛАДКА: удаление релиза и тега, если они есть ---
-      - name: Удаление релиза (если существует)
-        if: steps.check.outputs.skip == 'false'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        shell: pwsh
-        run: |
-          gh release delete "${{ steps.check.outputs.version }}" --repo "${{ github.repository }}" --yes || echo "Релиз не найден"
-
-      - name: Удаление тега (если существует)
-        if: steps.check.outputs.skip == 'false'
-        shell: pwsh
-        run: |
-          git push origin --delete "${{ steps.check.outputs.version }}" || echo "Тег не найден"
-      # --- КОНЕЦ блока отладки ---
-      
-
       - name: Создание релиза если его нет
         if: steps.check.outputs.skip == 'false'
         env:
@@ -101,7 +125,6 @@ jobs:
               --repo "${{ github.repository }}" `
               --title "${{ steps.check.outputs.version }}" `
               --notes "Автоматически созданный релиз для версии ${{ steps.check.outputs.version }}"
-
 
       - name: Переименовать NuGet пакет
         if: steps.check.outputs.skip == 'false'
