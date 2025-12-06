@@ -1,44 +1,46 @@
 name: Publish to JetBrains Marketplace
 
 on:
-  release:
-    types: [created]
+  workflow_run:
+    workflows: ["Pack RU ReSharper I18n"]   # имя pack-workflow
+    types:
+      - completed
   workflow_dispatch: {}
 
 jobs:
   jetbrains:
     runs-on: windows-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Download artifact from pack workflow
+        uses: actions/download-artifact@v4
         with:
-          fetch-depth: 0   # подтягиваем всю историю
-          fetch-tags: true # подтягиваем все теги
+          name: BaHooo.ReSharper.I18n.ru-marketplace   # имя артефакта из pack.yml
+          path: ./marketplace-artifacts
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1
 
-      - name: Pack JetBrains Extension
-        run: nuget pack JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec -OutputDirectory JetBrainsMarketplaceFolder/out
-
       - name: Publish to JetBrains Marketplace
+        shell: pwsh
         run: |
-          $pkg = Get-ChildItem JetBrainsMarketplaceFolder/out/BaHooo.JetBrains.I18n.ru.?*.nupkg | Select-Object -First 1
-          nuget push $pkg.FullName -Source https://plugins.jetbrains.com/ -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: JetBrains.I18n.ru.nupkg
-          path: JetBrainsMarketplaceFolder/out/*.nupkg
-
+          $packages = Get-ChildItem -Path "marketplace-artifacts" -Filter "*.nupkg"
+          if ($packages.Count -eq 0) {
+            Write-Host "No .nupkg files found in marketplace-artifacts/"
+            exit 1
+          }
+          Write-Host "Found package(s):"
+          $packages | ForEach-Object { Write-Host "  - $($_.Name)" }
+          foreach ($pkg in $packages) {
+            Write-Host "Publishing: $($pkg.FullName)"
+            nuget push "$($pkg.FullName)" `
+              -Source https://plugins.jetbrains.com/ `
+              -ApiKey ${{ secrets.JETBRAINS_MARKETPLACE_TOKEN }}
       - name: Log release info
+        shell: pwsh
         run: |
-          # Получаем предыдущий тег (нужен полный fetch и теги)
           $prevTag = git describe --tags --abbrev=0
-          # Текущий тег берём из переменной окружения
           $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
-          # Записываем в GitHub summary
           Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 JetBrains Marketplace package published: $currTag"
           Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"

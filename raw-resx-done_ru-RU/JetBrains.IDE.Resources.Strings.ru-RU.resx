@@ -651,6 +651,6 @@
   <value>Дамп информации AppDomain</value>
 </data>
 <data name="ToSaveTheChangesGloballyClickSaveTo_Text" xml:space="preserve">
-  <value>Для глобального сохранения изменений нажмите "Сохранить в" и выберите "Этот компьютер".</value>
+  <value>Для глобального сохранения изменений нажмите "Сохранить в" и выберите "Этот компьютер". </value>
 </data>
 </root>

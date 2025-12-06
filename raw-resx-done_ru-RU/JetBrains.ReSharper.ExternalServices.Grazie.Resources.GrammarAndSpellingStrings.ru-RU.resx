@@ -205,7 +205,7 @@
   <value>Открыть настройки</value>
 </data>
 <data name="Options_Rules_CategoryDescription_Prefix" xml:space="preserve">
-  <value>Используйте флажки для переключения</value>
+  <value>Используйте флажки для переключения &quot;</value>
 </data>
 <data name="LanguageDetection_Description_Several" xml:space="preserve">
   <value>Включить проверку грамматики и орфографии для {0}?</value>
@@ -274,7 +274,7 @@
   <value>Отсутствуют языковые пакеты. Чтобы решить проблему, нажмите ссылку для загрузки.</value>
 </data>
 <data name="Options_Rules_CategoryDescription_Suffix_Language" xml:space="preserve">
-  <value>Все правила для языка.</value>
+  <value>&quot;. Все правила для языка.</value>
 </data>
 <data name="Options_General_Options" xml:space="preserve">
   <value>Параметры</value>

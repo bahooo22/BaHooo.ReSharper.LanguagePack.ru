@@ -1,61 +1,41 @@
 name: Publish NuGet Package
 
 on:
-  release:
-    types: [created]
+  workflow_run:
+    workflows: ["Pack RU ReSharper I18n"]   # имя первого workflow
+    types:
+      - completed
   workflow_dispatch: {}
 
 jobs:
-  nuget:
+  publish:
     runs-on: windows-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Download artifact from pack workflow
+        uses: actions/download-artifact@v4
         with:
-          fetch-depth: 0
-          fetch-tags: true
+          name: BaHooo.ReSharper.I18n.ru-nuget   # имя артефакта из pack.yml
+          path: ./nuget-artifacts
 
       - name: Setup NuGet
         uses: NuGet/setup-nuget@v1
 
-      - name: Pack NuGet
-        run: nuget pack NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec -OutputDirectory NugetFolder/out
-
       - name: Publish to NuGet
-        if: github.event_name == 'release'
+        shell: pwsh
         run: |
-          # Перейти в корневую директорию рабочего пространства
-          cd $env:GITHUB_WORKSPACE
-          
-          # Найти все .nupkg файлы
-          $packages = Get-ChildItem -Path "NugetFolder/out" -Filter "*.nupkg"
-          
+          $packages = Get-ChildItem -Path "nuget-artifacts" -Filter "*.nupkg"
           if ($packages.Count -eq 0) {
-            Write-Host "No .nupkg files found in NugetFolder/out/"
-            Write-Host "Current directory: $(Get-Location)"
-            Write-Host "Listing NugetFolder/out/:"
-            Get-ChildItem -Path "NugetFolder/out" -Recurse
+            Write-Host "No .nupkg files found in nuget-artifacts/"
             exit 1
           }
-          
           Write-Host "Found package(s):"
           $packages | ForEach-Object { Write-Host "  - $($_.Name)" }
-          
-          # Опубликовать первый найденный пакет
-          $packagePath = $packages[0].FullName
-          Write-Host "Publishing: $packagePath"
-          nuget push "$packagePath" -Source https://api.nuget.org/v3/index.json -ApiKey ${{ secrets.NUGET_API_KEY }} -SkipDuplicate
-
-      - name: Upload artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: BaHooo.ReSharper.I18n.ru.nupkg
-          path: NugetFolder/out/*.nupkg
-
-      - name: Log release info
-        run: |
-          $prevTag = git describe --tags --abbrev=0
-          $currTag = $env:GITHUB_REF -replace 'refs/tags/', ''
-          Add-Content $env:GITHUB_STEP_SUMMARY "## 📦 NuGet package published: $currTag"
-          Add-Content $env:GITHUB_STEP_SUMMARY "**Full Changelog**: https://github.com/${{ github.repository }}/compare/$prevTag...$currTag"
+          foreach ($pkg in $packages) {
+            Write-Host "Publishing: $($pkg.FullName)"
+            nuget push "$($pkg.FullName)" `
+              -Source https://api.nuget.org/v3/index.json `
+              -ApiKey ${{ secrets.NUGET_API_KEY }} `
+              -SkipDuplicate
+          }

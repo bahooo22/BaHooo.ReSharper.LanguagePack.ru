@@ -461,5 +461,14 @@ models/opus-mt-en-ru/pytorch_model.bin
 models/opus-mt-en-ru/generation_config.json
 models/opus-mt-en-ru/config.json
 models/opus-mt-en-ru/.gitattributes
-NugetFolder/JetBrains.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec.bak
-JetBrainsMarketplaceFolder/JetBrains.I18n.ru/BaHooo.JetBrains.I18n.ru.nuspec.bak
+
+*.bak
+# Ignore intermediate localization artifacts
+*.resources
+
+# Ignore build outputs for NuGet and JetBrains Marketplace
+NugetFolder/**/artifacts/
+MarketplaceFolder/**/artifacts/
+NugetFolder/**/out/
+MarketplaceFolder/**/out/
+np++_session
