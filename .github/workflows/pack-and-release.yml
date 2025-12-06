@@ -13,48 +13,42 @@ jobs:
       - name: Проверка кода
         uses: actions/checkout@v4
 
-      - name: Чтение версии из nuspec
-        id: nuspec
+      - name: Read nuspec version and check release
+        id: check
         shell: pwsh
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           $nuspecPath = "NugetFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec"
           $xml = Get-Content $nuspecPath -Raw
           $match = [Regex]::Match($xml, '<version>(.*?)</version>', 'IgnoreCase')
-          if (-not $match.Success) { throw "Версия не найдена в nuspec" }
-          $version = $match.Groups[1].Value
-          Write-Host "Найдена версия: $version"
-          echo "version=$version" >> $GITHUB_OUTPUT
-
-      - name: Проверка изменения версии
-        id: check
-        shell: pwsh
-        run: |
-          # Получаем версию из предыдущего шага
-          $currentVersion = "${{ steps.nuspec.outputs.version }}"
-          Write-Host "Текущая версия: '$currentVersion'"
-          
-          # Получаем последний релиз
+          if (-not $match.Success) { throw "Version not found in nuspec" }
+          $currentVersion = $match.Groups[1].Value
+          Write-Host "Found version: $currentVersion"
+      
           $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
-          Write-Host "Последний тег релиза: '$latest'"
-          
+          Write-Host "Latest release tag: $latest"
+      
           # Проверяем не пустые ли значения
           if ([string]::IsNullOrEmpty($currentVersion)) {
             Write-Host "ОШИБКА: currentVersion пустая!"
             exit 1
           }
-          
+      
           if ([string]::IsNullOrEmpty($latest)) {
             Write-Host "Нет существующих релизов, создаем новый"
             "skip=false" >> $env:GITHUB_OUTPUT
+            "version=$currentVersion" >> $env:GITHUB_OUTPUT
           } elseif ($currentVersion -eq $latest) {
             Write-Host "Версии совпадают, пропускаем сборку"
             "skip=true" >> $env:GITHUB_OUTPUT
+            "version=$currentVersion" >> $env:GITHUB_OUTPUT
           } else {
             Write-Host "Версии отличаются, продолжаем сборку"
             "skip=false" >> $env:GITHUB_OUTPUT
+            "version=$currentVersion" >> $env:GITHUB_OUTPUT
           }
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Конвертация RESX в ресурсы
         if: steps.check.outputs.skip == 'false'
