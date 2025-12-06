@@ -2,9 +2,12 @@ name: Публикация в JetBrains Marketplace
 
 on:
   release:
-    types: [published]
+    types: [published, created]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  
 jobs:
   jetbrains:
     runs-on: windows-latest

@@ -2,9 +2,12 @@ name: Публикация в NuGet
 
 on:
   release:
-    types: [published]
+    types: [published, created]
   workflow_dispatch:
 
+permissions:
+  contents: read
+  
 jobs:
   publish:
     runs-on: windows-latest
