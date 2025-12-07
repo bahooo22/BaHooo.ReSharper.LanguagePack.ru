@@ -1,18 +1,17 @@
+# 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-# JetBrains.I18n.ru — Русский языковой пакет для ReSharper
-
-[Репозиторий на GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk)
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk)
 
 ![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
-
 Русский перевод интерфейсных строк JetBrains ReSharper.  
-Автор перевода: Ivan "BaHooo" Zelenkevich. Перевод основан на строках продукта JetBrains ReSharper.
+Автор: Ivan "BaHooo" Zelenkevich. Перевод основан на оригинальных строках ReSharper.
 
-Badges
-- GitHub Actions: ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci)
-- Release: ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru)
-- License: ![License](https://img.shields.io/github/license/bahooo22/BaHooo.ReSharper.LanguagePack.ru)
+## 🛠️ Статус
+
+| CI | Release | License |
+|----|---------|---------|
+| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | ![License](https://img.shields.io/github/license/bahooo22/BaHooo.ReSharper.LanguagePack.ru) |
 
 Содержание
 - Быстрый старт
