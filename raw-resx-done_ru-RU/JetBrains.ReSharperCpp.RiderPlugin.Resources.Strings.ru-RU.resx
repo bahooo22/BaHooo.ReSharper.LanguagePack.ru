@@ -142,7 +142,7 @@
   <value>Произошла непредвиденная ошибка при добавлении нового класса</value>
 </data>
 <data name="SearchScope_Project_Text" xml:space="preserve">
-  <value>Проект &amp;P)</value>
+  <value>Проект (&amp;P)</value>
 </data>
 <data name="SharpmakeOptionsPageTitle" xml:space="preserve">
   <value>Sharpmake</value>
@@ -259,7 +259,7 @@
   <value>Свойство недоступно</value>
 </data>
 <data name="SearchScope_CurrentFile_Text" xml:space="preserve">
-  <value>Текущий файл &amp;F)</value>
+  <value>Текущий файл (&amp;F)</value>
 </data>
 <data name="InternalActionsReSharperCpp" xml:space="preserve">
   <value>Внутренние действия (ReSharper C++)</value>

@@ -230,7 +230,7 @@
     <value>Компактный формат</value>
 </data>
 <data name="ShowArchitectureDiagramActionText" xml:space="preserve">
-    <value>Показать диаграмму зависимостей проекта &amp;P)</value>
+    <value>Показать диаграмму зависимостей проекта (&amp;P)</value>
 </data>
 <data name="CannotGenerateTheConfigurationFile_Text" xml:space="preserve">
     <value>Не удалось сгенерировать файл конфигурации</value>

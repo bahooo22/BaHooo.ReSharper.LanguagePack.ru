@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="InsertLiveTemplateActionText" xml:space="preserve">
-  <value>Вставить живой шаблон &amp;L)...</value>
+  <value>Вставить живой шаблон (&amp;L)...</value>
 </data>
 <data name="Edit_variables_Text" xml:space="preserve">
   <value>Редактировать переменные(_V)</value>
@@ -187,7 +187,7 @@
   <value>try catch</value>
 </data>
 <data name="Template_Editable_JkVudW0EQ" xml:space="preserve">
-  <value>Перечисление &amp;E)</value>
+  <value>Перечисление (&amp;E)</value>
 </data>
 <data name="Template_Editable_Q3JlYXRlIGFuIGVtcHR5IGFycmF5" xml:space="preserve">
   <value>Создать пустой массив</value>
@@ -250,7 +250,7 @@
   <value>Окружить(_U)</value>
 </data>
 <data name="Template_Editable_JlN0cnVjdAEQEQ" xml:space="preserve">
-  <value>Структура &amp;S)</value>
+  <value>Структура (&amp;S)</value>
 </data>
 <data name="_Reformat_Text" xml:space="preserve">
   <value>Переформатировать(_R)</value>
@@ -340,7 +340,7 @@
   <value>Класс/Интерфейс</value>
 </data>
 <data name="Template_Editable_JlN0cnVjdHVyZQEQEQ" xml:space="preserve">
-  <value>Структура &amp;S)</value>
+  <value>Структура (&amp;S)</value>
 </data>
 <data name="CProjects_Text" xml:space="preserve">
   <value>Проекты C#</value>
@@ -451,7 +451,7 @@
   <value>Файлы Visual Basic</value>
 </data>
 <data name="Template_Editable_JlRlc3QgRml4dHVyZQEQEQ" xml:space="preserve">
-  <value>Тестовый метод &amp;T)</value>
+  <value>Тестовый метод (&amp;T)</value>
 </data>
 <data name="Template_Editable_bG9jayBzdGF0ZW1lbnQEQ" xml:space="preserve">
   <value>lock-оператор</value>
@@ -460,7 +460,7 @@
   <value>Метод 'int Main'</value>
 </data>
 <data name="Template_Editable_JlJlY29yZAEQEQ" xml:space="preserve">
-  <value>Запись &amp;R)</value>
+  <value>Запись (&amp;R)</value>
 </data>
 <data name="Template_Editable_QnlWYWwgcGFyYW1ldGVy" xml:space="preserve">
   <value>Параметр ByVal</value>
@@ -472,7 +472,7 @@
   <value>Где тег может находиться в XML-файле</value>
 </data>
 <data name="NewFromTemplateActionGroupText" xml:space="preserve">
-  <value>Создать из шаблона &amp;N)</value>
+  <value>Создать из шаблона (&amp;N)</value>
 </data>
 <data name="In_WhereQueryClauseIsAllowed_Text" xml:space="preserve">
   <value>В {0}, где разрешено предложение запроса</value>
@@ -568,10 +568,10 @@
   <value>else-оператор</value>
 </data>
 <data name="Template_Editable_JkNsYXNz" xml:space="preserve">
-  <value>Класс &amp;C)</value>
+  <value>Класс (&amp;C)</value>
 </data>
 <data name="Template_Editable_JkludGVyZmFjZQEQEQ" xml:space="preserve">
-  <value>Интерфейс &amp;I)</value>
+  <value>Интерфейс (&amp;I)</value>
 </data>
 <data name="Template_Editable_QnlSZWYgcGFyYW1ldGVy" xml:space="preserve">
   <value>Параметр ByRef</value>

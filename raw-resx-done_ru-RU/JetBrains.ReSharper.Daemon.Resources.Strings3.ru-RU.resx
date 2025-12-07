@@ -722,7 +722,7 @@
 Позволяет подавлять проверки с помощью #pragma с соответствующим ID компилятора</value>
 </data>
 <data name="ToggleInlayHintsActionText" xml:space="preserve">
-  <value>Переключить встроенные подсказки &amp;I)</value>
+  <value>Переключить встроенные подсказки (&amp;I)</value>
 </data>
 <data name="FoldersProvideNamespacesByDefault_Tooltip_Text" xml:space="preserve">
   <value>Эта настройка управляет поведением по умолчанию для пространств имён всех папок, позволяя всем папкам влиять на пространство имён (с некоторыми исключениями) или отключая все папки и включая определённые.</value>

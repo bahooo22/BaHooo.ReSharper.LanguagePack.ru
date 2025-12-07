@@ -295,7 +295,7 @@
   <value>Включить интеграцию dotCover в ReSharper для настройки параметров dotCover в плагине TeamCity</value>
 </data>
 <data name="Common_TeamCityActionGroupText" xml:space="preserve">
-  <value>TeamCity &amp;Y)</value>
+  <value>TeamCity (&amp;Y)</value>
 </data>
 <data name="Perforce_SpecifiedManually_Text" xml:space="preserve">
   <value>Указано вручную:</value>

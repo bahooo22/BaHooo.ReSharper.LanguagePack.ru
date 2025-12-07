@@ -679,7 +679,7 @@
 </data>
 <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
   <value>Все права защищены. © {0} {1}
-  Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
+Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
 </data>
 <data name="ManageJetBrainsAccount_Text" xml:space="preserve">
   <value>Управление JetBrains Account</value>

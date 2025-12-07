@@ -121,7 +121,7 @@
   <value>Переименование элементов</value>
 </data>
 <data name="ToEnableUndoOpenAllFilesWithChanges_Text" xml:space="preserve">
-  <value>Чтобы включить отмену действий, откройте все изменённые файлы для редактирования &amp;U)</value>
+  <value>Чтобы включить отмену действий, откройте все изменённые файлы для редактирования (&amp;U)</value>
 </data>
 <data name="RelativePositionOfTheTopCenterPointOfTheRefactoringsWindowSettingDescription" xml:space="preserve">
   <value>Относительное положение верхней центральной точки окна рефакторинга</value>

@@ -1388,7 +1388,7 @@
     <value>Поток {0} (#{1})</value>
   </data>
   <data name="SaveSnapshot_DialogTitle" xml:space="preserve">
-    <value>Сохранить снимок</value>
+    <value>Сохранить снапшот</value>
   </data>
   <data name="Properties_CallCount" xml:space="preserve">
     <value>Количество вызовов: {0}</value>
@@ -1538,7 +1538,7 @@
     <value>Управляемый</value>
   </data>
   <data name="SaveSnapshot_Question" xml:space="preserve">
-    <value>Сохранить снимок?</value>
+    <value>Сохранить снапшот?</value>
   </data>
   <data name="Filters_ConversionErrorType_Name_Plural" xml:space="preserve">
     <value>Типы</value>

@@ -127,7 +127,7 @@
   <value>Настройки TODO</value>
 </data>
 <data name="ValueTrackingUpAction_Title" xml:space="preserve">
-  <value>Источники значения &amp;V)</value>
+  <value>Источники значения (&amp;V)</value>
 </data>
 <data name="SupertypesHierarchyActionText" xml:space="preserve">
   <value>Иерархия базовых типов</value>
@@ -172,13 +172,13 @@
   <value>Показать члены</value>
 </data>
 <data name="LocateInToDoExplorer_Caption" xml:space="preserve">
-  <value>Найти в обозревателе задач &amp;T)</value>
+  <value>Найти в обозревателе задач (&amp;T)</value>
 </data>
 <data name="NoHierarchiesOpen_Text" xml:space="preserve">
   <value>Нет открытых иерархий</value>
 </data>
 <data name="ShowPRojectHierarchy_Caption" xml:space="preserve">
-  <value>Показать иерархию проекта &amp;R)</value>
+  <value>Показать иерархию проекта (&amp;R)</value>
 </data>
 <data name="DisabledFiltersSettingDescription" xml:space="preserve">
   <value>Отключенные фильтры</value>
@@ -211,13 +211,13 @@
   <value>Очистить нумерованные/удалить анонимные</value>
 </data>
 <data name="ValueTrackingDownAction_Title" xml:space="preserve">
-  <value>Цели значения &amp;A)</value>
+  <value>Цели значения (&amp;A)</value>
 </data>
 <data name="ClearUsedAtRuntimeMarkActionText" xml:space="preserve">
   <value>Очистить отметку 'Используется во время выполнения'</value>
 </data>
 <data name="ModuleReferencesActionText" xml:space="preserve">
-  <value>Ссылки на модули &amp;M)</value>
+  <value>Ссылки на модули (&amp;M)</value>
 </data>
 <data name="Bookmark_Text" xml:space="preserve">
   <value>Закладка</value>
@@ -337,7 +337,7 @@
   <value>Неизвестная сборка</value>
 </data>
 <data name="ShowIncomingCallsAction_Title" xml:space="preserve">
-  <value>Входящие вызовы &amp;I)</value>
+  <value>Входящие вызовы (&amp;I)</value>
 </data>
 <data name="CallHierarchyActionText" xml:space="preserve">
   <value>Иерархия вызовов</value>
@@ -349,7 +349,7 @@
   <value>Код, на который ссылаются в {0}</value>
 </data>
 <data name="InspectionsActionText" xml:space="preserve">
-  <value>Инспекции &amp;I)</value>
+  <value>Инспекции (&amp;I)</value>
 </data>
 <data name="ToggleBookmark1ActionText" xml:space="preserve">
   <value>Переключить закладку 1</value>
@@ -364,7 +364,7 @@
   <value>Выражение в {0}</value>
 </data>
 <data name="ToDoExplorerAmpActionText" xml:space="preserve">
-  <value>Обозреватель задач &amp;P)</value>
+  <value>Обозреватель задач (&amp;P)</value>
 </data>
 <data name="FieldInitializer_Text" xml:space="preserve">
   <value>Инициализатор поля</value>
@@ -400,7 +400,7 @@
   <value>На основе этого</value>
 </data>
 <data name="ShowOutgoingCallsAction_Title" xml:space="preserve">
-  <value>Исходящие вызовы &amp;O)</value>
+  <value>Исходящие вызовы (&amp;O)</value>
 </data>
 <data name="RefreshActionText" xml:space="preserve">
   <value>Обновить</value>
@@ -421,7 +421,7 @@
   <value>Очистить выделение</value>
 </data>
 <data name="BrowseTypeHierarchyAction_Title" xml:space="preserve">
-  <value>Иерархия &amp;H)</value>
+  <value>Иерархия (&amp;H)</value>
 </data>
 <data name="ShowElementsFromThisSolutionActionText" xml:space="preserve">
   <value>Показывать элементы из этого решения</value>
@@ -551,7 +551,7 @@
   <value>Закладки</value>
 </data>
 <data name="FileStructureActionText" xml:space="preserve">
-  <value>Структура файла &amp;S)</value>
+  <value>Структура файла (&amp;S)</value>
 </data>
 <data name="NoModulesToAnalyzeOpen_Text" xml:space="preserve">
   <value>Нет открытых модулей для анализа</value>
@@ -560,7 +560,7 @@
   <value>Вызов универсального конструктора</value>
 </data>
 <data name="HierarchiesActionText" xml:space="preserve">
-  <value>Иерархии &amp;H)</value>
+  <value>Иерархии (&amp;H)</value>
 </data>
 <data name="TodoFilterSettingsSettingDescription" xml:space="preserve">
   <value>Настройки фильтра TODO</value>

@@ -139,7 +139,7 @@
   <value>Не удалось загрузить кэш анализа решения – невозможно записать в директорию кэша</value>
 </data>
 <data name="SolutionErrorsActionText" xml:space="preserve">
-  <value>Ошибки решения &amp;E)</value>
+  <value>Ошибки решения (&amp;E)</value>
 </data>
 <data name="LoadingPaused_Text" xml:space="preserve">
   <value>Загрузка приостановлена</value>
@@ -247,7 +247,7 @@
   <value>Результаты инспекции</value>
 </data>
 <data name="StopIgnoringErrorSPopupActionText" xml:space="preserve">
-  <value>Прекратить игнорировать ошибки &amp;S)</value>
+  <value>Прекратить игнорировать ошибки (&amp;S)</value>
 </data>
 <data name="Errors_Text" xml:space="preserve">
   <value>Ошибки</value>

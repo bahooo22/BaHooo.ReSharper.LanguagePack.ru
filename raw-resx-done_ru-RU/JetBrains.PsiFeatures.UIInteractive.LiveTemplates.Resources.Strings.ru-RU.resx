@@ -133,7 +133,7 @@
   <value>Клонировать и редактировать шаблон</value>
 </data>
 <data name="TemplatesExplorerActionText" xml:space="preserve">
-  <value>Обозреватель шаблонов &amp;T)...</value>
+  <value>Обозреватель шаблонов (&amp;T)...</value>
 </data>
 <data name="ImportTemplates_Caption" xml:space="preserve">
   <value>Импорт шаблонов</value>

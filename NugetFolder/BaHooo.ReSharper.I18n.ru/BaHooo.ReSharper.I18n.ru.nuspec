@@ -3,7 +3,7 @@
   <metadata>
     <!-- IDENTIFICATION -->
     <id>BaHooo.ReSharper.I18n.ru</id>
-    <version>2025.3.7.2</version>
+    <version>2025.3.7.3</version>
     <title>Russian Language Pack for ReSharper / Русский языковой пакет для ReSharper</title>
 
     <!-- AUTHORS -->
@@ -13,7 +13,7 @@
     <!-- LINKS -->
     <projectUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/BaHooo.ReSharper.I18n.ru</projectUrl>
     <repository type="git" url="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/BaHooo.ReSharper.I18n.ru" />
-    <license type="file">LICENSE.md</license>
+    <license type="file">LICENSE</license>
     <icon>icon.png</icon>
 
     <!-- SHORT SUMMARY -->
@@ -144,7 +144,7 @@ English:
     <file src="README.md" target="README.md" />
 
     <!-- LICENSE FILE -->
-    <file src="..\..\LICENSE.md" target="LICENSE.md" />
+    <file src="..\..\LICENSE" target="LICENSE" />
 
     <!-- ALL .resources FILES FOR LOCALIZATION -->
     <file src="DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n\*.resources"

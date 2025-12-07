@@ -2235,7 +2235,7 @@
     <value>Символ '{0}'{1} неоднозначен</value>
   </data>
   <data name="SaveCProjectSnapshotActionText" xml:space="preserve">
-    <value>Сохранить снимок проекта C/C++</value>
+    <value>Сохранить снапшот проекта C/C++</value>
   </data>
   <data name="UnrealLogCategoryMacro_LongDescription" xml:space="preserve">
     <value>Вычисляет список категорий журнала</value>
@@ -5168,7 +5168,7 @@
   <value>Невозможно разрешить имя типа</value>
 </data>
 <data name="InLineTypedef_Text" xml:space="preserve">
-  <value>Встроенный Typedef &amp;L)</value>
+  <value>Встроенный Typedef (&amp;L)</value>
 </data>
 <data name="EvaluationFail_DuplicatedCtorInitializer" xml:space="preserve">
   <value>Повторяющийся инициализатор для {0}</value>
@@ -5243,7 +5243,7 @@
   <value>Невозможно привязать ссылку на rvalue к lvalue</value>
 </data>
 <data name="OverridingMembers_Text" xml:space="preserve">
-  <value>Переопределить члены &amp;O)</value>
+  <value>Переопределить члены (&amp;O)</value>
 </data>
 <data name="IncludesHierarchy_Text" xml:space="preserve">
   <value>Иерархия Include</value>
@@ -5330,7 +5330,7 @@
   <value>Возвращаемый тип {0} отличается или не ковариантен с возвращаемым типом {1} переопределённого{2}</value>
 </data>
 <data name="ViewGraphOfCIncludesActionText" xml:space="preserve">
-  <value>Просмотреть граф Include C/C++ &amp;O)</value>
+  <value>Просмотреть граф Include C/C++ (&amp;O)</value>
 </data>
 <data name="ChangeSignature_TypeColumn_Text" xml:space="preserve">
   <value>Тип,*</value>
@@ -5348,7 +5348,7 @@
   <value>Добавить return</value>
 </data>
 <data name="InLineVariable_Text" xml:space="preserve">
-  <value>Встроенная переменная &amp;L)</value>
+  <value>Встроенная переменная (&amp;L)</value>
 </data>
 <data name="EnableCheckSymbols_BoolOption_Text" xml:space="preserve">
   <value>Включить CheckSymbols</value>
@@ -7668,7 +7668,7 @@
   <value>Удалить избыточные фигурные скобки, если возможно</value>
 </data>
 <data name="SaveSingleCFileSnapshotActionText" xml:space="preserve">
-  <value>Сохранить снимок отдельного файла C/C++</value>
+  <value>Сохранить снапшот отдельного файла C/C++</value>
 </data>
 <data name="ReplaceIncludeFilePathWith__Text" xml:space="preserve">
   <value>Заменить путь include-файла на {0}</value>
@@ -8097,7 +8097,7 @@
     <value>События</value>
 </data>
 <data name="IntroduceTypedef_Text" xml:space="preserve">
-    <value>Ввести Typedef &amp;T)</value>
+    <value>Ввести Typedef (&amp;T)</value>
 </data>
 <data name="TypeTraitCanBeSimplifiedUsingATemplateAliasOrAVariableTemplate" xml:space="preserve">
     <value>Типовой признак может быть упрощён с использованием псевдонима шаблона или переменной шаблона</value>
@@ -8967,7 +8967,7 @@
     <value>Не удается разрешить заголовки стандартной библиотеки C++ в исходном файле Unreal Engine. Возможно, вам потребуется перегенерировать файлы проекта.</value>
 </data>
 <data name="ExtractMethod_Text" xml:space="preserve">
-    <value>Извлечь метод &amp;E)</value>
+    <value>Извлечь метод (&amp;E)</value>
 </data>
 <data name="AbstractMemberFunctionIsNotVirtualMessage" xml:space="preserve">
     <value>Абстрактная функция-член '{0}' не является virtual</value>
@@ -9378,7 +9378,7 @@
     <value>Классы и структуры</value>
 </data>
 <data name="DeclareConstructorsNodiscard_Text" xml:space="preserve">
-    <value>Объявить конструкторы [[nodiscard]] &amp;D)</value>
+    <value>Объявить конструкторы [[nodiscard]] (&amp;D)</value>
 </data>
 <data name="CanBeReplacedWithStdSizeMessage" xml:space="preserve">
     <value>Может быть заменён на std::size</value>
@@ -9480,7 +9480,7 @@
     <value>Использовать пути относительно исходного файла</value>
 </data>
 <data name="SwapFunction_Text" xml:space="preserve">
-    <value>Поменять функцию местами &amp;S)</value>
+    <value>Поменять функцию местами (&amp;S)</value>
 </data>
 <data name="DeMorganLawContextAction_Name" xml:space="preserve">
     <value>Законы де Моргана</value>
@@ -9693,7 +9693,7 @@
     <value>Запустить вычисление до сбоя</value>
 </data>
 <data name="AfterUnaryOperatorDescription" xml:space="preserve">
-    <value>После унарного оператора (+, -, ~, *, &amp;, ++, --)</value>
+    <value>После унарного оператора (+, -, ~, *, (&amp;, ++, --)</value>
 </data>
 <data name="RefactoringHasFoundAdditionalReferencesToDelete_Text" xml:space="preserve">
     <value>Рефакторинг обнаружил дополнительные ссылки в связанном коде. Выберите ссылки для удаления:</value>
@@ -9705,7 +9705,7 @@
     <value>Удалить недостижимый код</value>
 </data>
 <data name="GenerateOption_UseConstParameters_Text" xml:space="preserve">
-    <value>Использовать 'const' параметры &amp;C)</value>
+    <value>Использовать 'const' параметры (&amp;C)</value>
 </data>
 <data name="CastingFromNullptrToPointerTypeWithReinterpretCastIsNonStandardMicrosoftCExtensionMessage" xml:space="preserve">
     <value>Приведение nullptr к типу указателя с помощью reinterpret_cast является нестандартным расширением Microsoft C++</value>
@@ -9774,7 +9774,7 @@
     <value>Декларатор только присваивается, но никогда не accessed</value>
 </data>
 <data name="GenerateOption_AccessRights_Text" xml:space="preserve">
-    <value>Права доступа &amp;R)</value>
+    <value>Права доступа (&amp;R)</value>
 </data>
 <data name="Requirement_TypeDoesntSatisfyConcept_Text" xml:space="preserve">
     <value>{0} не удовлетворяет концепции {1}</value>
@@ -10056,7 +10056,7 @@
     <value>Оператор switch не охватывает весь диапазон используемого перечисления '{0}'</value>
 </data>
 <data name="GenerateOperatorBasedOnOperator_Text" xml:space="preserve">
-    <value>Сгенерировать оператор != на основе оператора == &amp;O)</value>
+    <value>Сгенерировать оператор != на основе оператора == (&amp;O)</value>
 </data>
 <data name="_BundledFromLLVM__Text" xml:space="preserve">
     <value>В комплекте (из LLVM {0})(_B)</value>

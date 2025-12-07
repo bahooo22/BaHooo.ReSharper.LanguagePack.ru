@@ -4718,7 +4718,7 @@
   <value>Интерфейс</value>
 </data>
 <data name="RelaTionalComparer_Caption" xml:space="preserve">
-  <value>Реляционный компаратор &amp;T)</value>
+  <value>Реляционный компаратор (&amp;T)</value>
 </data>
 <data name="ConvertAllObjectInitializersToConstructors_Text" xml:space="preserve">
   <value>Преобразовать все инициализаторы объектов в конструкторы с параметрами</value>
@@ -5186,7 +5186,7 @@
   <value>Предложить включить проверку "Требовать фигурные скобки в операторе 'if'", когда текстовый курсор находится на ключевых словах 'if', 'else'</value>
 </data>
 <data name="EqualityCoMparer_Caption" xml:space="preserve">
-  <value>Компаратор равенства &amp;M)</value>
+  <value>Компаратор равенства (&amp;M)</value>
 </data>
 <data name="RemoveRedundant_Modifier_Text" xml:space="preserve">
   <value>Удалить избыточный модификатор '{0}'</value>

@@ -124,22 +124,22 @@
   <value>Аргументы командной строки:</value>
 </data>
 <data name="Show_TokenValues_Text" xml:space="preserve">
-  <value>Показывать значения токенов(_T)</value>
+  <value>Показывать значения токенов (_T)</value>
 </data>
 <data name="DumpLoadedAssembliesActionText" xml:space="preserve">
   <value>Дамп загруженных сборок</value>
 </data>
 <data name="NavigateActionGroupText" xml:space="preserve">
-  <value>Навигация &amp;N)</value>
+  <value>Навигация (&amp;N)</value>
 </data>
 <data name="_ColorIdentifiersAndShowTooltips_Text" xml:space="preserve">
-  <value>Раскрашивать идентификаторы и показывать всплывающие подсказки(_C)</value>
+  <value>Раскрашивать идентификаторы и показывать всплывающие подсказки (_C)</value>
 </data>
 <data name="DarkTheme_Text" xml:space="preserve">
   <value>Тёмная</value>
 </data>
 <data name="EnablePrivateSource_LinkSupport_Text" xml:space="preserve">
-  <value>Включить поддержку Private Source Link(_L)</value>
+  <value>Включить поддержку Private Source Link (_L)</value>
 </data>
 <data name="BoundTo__Text" xml:space="preserve">
   <value>{0}
@@ -149,7 +149,7 @@
   <value>Все сборки</value>
 </data>
 <data name="CurrentFile_Text" xml:space="preserve">
-  <value>Текущий файл &amp;F)</value>
+  <value>Текущий файл (&amp;F)</value>
 </data>
 <data name="HideCompilerGeneratedCode_Text" xml:space="preserve">
   <value>Скрывать сгенерированный компилятором код</value>
@@ -158,7 +158,7 @@
   <value>Настройки внешнего инструмента сравнения DotPeek</value>
 </data>
 <data name="LoadedAssemblies_Text" xml:space="preserve">
-  <value>Загруженные сборки &amp;A)</value>
+  <value>Загруженные сборки (&amp;A)</value>
 </data>
 <data name="Font_Text" xml:space="preserve">
   <value>Шрифт:</value>
@@ -170,13 +170,13 @@
   <value>Сохранить как...</value>
 </data>
 <data name="Show_XmlDocumentationInDecompiledSources_Text" xml:space="preserve">
-  <value>Показывать XML-документацию в декомпилированном исходном коде(_X)</value>
+  <value>Показывать XML-документацию в декомпилированном исходном коде (_X)</value>
 </data>
 <data name="DotPeekDiffToolPathSettingDescription" xml:space="preserve">
   <value>Путь к внешнему инструменту сравнения</value>
 </data>
 <data name="Show_PinButtonInUnpinnedTabs_Text" xml:space="preserve">
-  <value>Показывать кнопку закрепления в незакреплённых вкладках(_P)</value>
+  <value>Показывать кнопку закрепления в незакреплённых вкладках (_P)</value>
 </data>
 <data name="File_CannotBeSaved_Text" xml:space="preserve">
   <value>Не удается сохранить файл {0}</value>
@@ -191,7 +191,7 @@
   <value>Обучение</value>
 </data>
 <data name="CompilerGeneratedCodeActionText" xml:space="preserve">
-  <value>Сгенерированный компилятором код &amp;G)</value>
+  <value>Сгенерированный компилятором код (&amp;G)</value>
 </data>
 <data name="Port_Text" xml:space="preserve">
   <value>Порт</value>
@@ -203,13 +203,13 @@
   <value>Остановить сервер символов</value>
 </data>
 <data name="_AllAssemblies_FilterText" xml:space="preserve">
-  <value>Все сборки(_A)</value>
+  <value>Все сборки (_A)</value>
 </data>
 <data name="_VerticalScrollbar_Text" xml:space="preserve">
-  <value>Вертикальная полоса прокрутки(_V)</value>
+  <value>Вертикальная полоса прокрутки (_V)</value>
 </data>
 <data name="Show_ILCodeInComments_Text" xml:space="preserve">
-  <value>Показывать IL-код в комментариях(_I)</value>
+  <value>Показывать IL-код в комментариях (_I)</value>
 </data>
 <data name="Use_KnownDiffTool_ButtonText" xml:space="preserve">
   <value>Использовать "{0}"</value>
@@ -218,10 +218,10 @@
   <value>Настройка сервера символов</value>
 </data>
 <data name="InspectActionGroupText" xml:space="preserve">
-  <value>Инспекция &amp;I)</value>
+  <value>Инспекция (&amp;I)</value>
 </data>
 <data name="PlaceOpenBraceOn_NewLine_Text" xml:space="preserve">
-  <value>Размещать открывающую фигурную скобку на новой строке(_N)</value>
+  <value>Размещать открывающую фигурную скобку на новой строке (_N)</value>
 </data>
 <data name="LightTheme_Text" xml:space="preserve">
   <value>Светлая</value>
@@ -241,16 +241,16 @@
   <value>Синхронизировать с темой Visual Studio</value>
 </data>
 <data name="AboutJetBrainsDotPeekActionText" xml:space="preserve">
-  <value>О JetBrains dotPeek &amp;A)...</value>
+  <value>О JetBrains dotPeek (&amp;A)...</value>
 </data>
 <data name="StartSymbolServer_Text" xml:space="preserve">
   <value>Запустить сервер символов</value>
 </data>
 <data name="OptionsActionText" xml:space="preserve">
-  <value>Параметры &amp;O)...</value>
+  <value>Параметры (&amp;O)...</value>
 </data>
 <data name="AllExceptDotNet_FrameworkAssemblies_FilterText" xml:space="preserve">
-  <value>Все сборки, кроме .NET Framework(_F)</value>
+  <value>Все сборки, кроме .NET Framework (_F)</value>
 </data>
 <data name="SchemeVs" xml:space="preserve">
   <value>_Visual Studio (по умолчанию)</value>
@@ -262,7 +262,7 @@
   <value>Дамп информации о поддержке внешних источников</value>
 </data>
 <data name="InsertNewTabsToThe_RightOfExistingTabs_Text" xml:space="preserve">
-  <value>Вставлять новые вкладки справа от существующих(_R)</value>
+  <value>Вставлять новые вкладки справа от существующих (_R)</value>
 </data>
 <data name="DotPeekSymbolServerDescription_Text" xml:space="preserve">
   <value>&lt;a&gt;Сервер символов dotPeek&lt;/a&gt; позволяет отладчику автоматически получать правильные файлы символов для загруженных сборок. Чтобы добавить сервер символов dotPeek в расположения символов Visual Studio, укажите следующий адрес в параметрах Visual Studio (Сервис | Параметры | Отладка | Символы | Места загрузки символов): {0}
@@ -273,10 +273,10 @@
   <value>Версия лицензии была принята пользователем</value>
 </data>
 <data name="_HighlightCurrentLine_Text" xml:space="preserve">
-  <value>Выделять текущую строку(_H)</value>
+  <value>Выделять текущую строку (_H)</value>
 </data>
 <data name="Use_CamelHumpsForNavigation_Text" xml:space="preserve">
-  <value>Использовать CamelHumps для навигации(_C)</value>
+  <value>Использовать CamelHumps для навигации (_C)</value>
 </data>
 <data name="DeleteDecompiledFileActionText" xml:space="preserve">
   <value>Удалить декомпилированный файл</value>
@@ -288,31 +288,31 @@
   <value>Лицензия была принята пользователем</value>
 </data>
 <data name="At_OuterSide_Text" xml:space="preserve">
-  <value>Снаружи(_O)</value>
+  <value>Снаружи (_O)</value>
 </data>
 <data name="AllExceptNuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
   <value>Все сборки, кроме кэша пакетов NuGet</value>
 </data>
 <data name="AllowDownloadingFrom_RemoteLocations_Text" xml:space="preserve">
-  <value>Разрешить загрузку из удалённых расположений(_R)</value>
+  <value>Разрешить загрузку из удалённых расположений (_R)</value>
 </data>
 <data name="UseSourcesFrom_SymbolFilesWhenAvailable_Text" xml:space="preserve">
-  <value>Использовать исходный код из файлов символов, когда доступно(_S)</value>
+  <value>Использовать исходный код из файлов символов, когда доступно (_S)</value>
 </data>
 <data name="WindowsActionGroupText" xml:space="preserve">
-  <value>Окна &amp;W)</value>
+  <value>Окна (&amp;W)</value>
 </data>
 <data name="GoToAssembly_Text" xml:space="preserve">
   <value>Перейти к сборке...</value>
 </data>
 <data name="_OpenNewDocumentsInThePreviewTab_Text" xml:space="preserve">
-  <value>Открывать новые документы в панели предпросмотра(_O)</value>
+  <value>Открывать новые документы в панели предпросмотра (_O)</value>
 </data>
 <data name="ChooseDiffTool_Caption" xml:space="preserve">
   <value>Выберите инструмент сравнения для сравнения файлов</value>
 </data>
 <data name="HelpActionGroupText" xml:space="preserve">
-  <value>Справка &amp;H)</value>
+  <value>Справка (&amp;H)</value>
 </data>
 <data name="DotPeekDiffToolCommandLineArgumentsSettingDescription" xml:space="preserve">
   <value>Аргументы командной строки внешнего инструмента сравнения</value>
@@ -333,7 +333,7 @@
   <value>Контур</value>
 </data>
 <data name="Use_FileScopedNamespaces_Text" xml:space="preserve">
-  <value>Использовать пространства имён на уровне файла(_F)</value>
+  <value>Использовать пространства имён на уровне файла (_F)</value>
 </data>
 <data name="UseStringInterpolation_Text" xml:space="preserve">
   <value>Использовать интерполяцию строк</value>
@@ -342,7 +342,7 @@
   <value>Поставщиком '{0}'</value>
 </data>
 <data name="ToolsActionGroupText" xml:space="preserve">
-  <value>Сервис &amp;T)</value>
+  <value>Сервис (&amp;T)</value>
 </data>
 <data name="Viewer_OptionsPageTitle" xml:space="preserve">
   <value>Просмотрщик</value>
@@ -351,13 +351,13 @@
   <value>Сбросить настройку первого запуска сервера символов</value>
 </data>
 <data name="Show_CompilerGeneratedCode_Text" xml:space="preserve">
-  <value>Показывать сгенерированный компилятором код(_C)</value>
+  <value>Показывать сгенерированный компилятором код (_C)</value>
 </data>
 <data name="AllExceptGACAssemblies_FilterText" xml:space="preserve">
   <value>Все сборки, кроме GAC</value>
 </data>
 <data name="_LineNumbers_Text" xml:space="preserve">
-  <value>Номера строк(_L)</value>
+  <value>Номера строк (_L)</value>
 </data>
 <data name="Color_Text" xml:space="preserve">
   <value>Цвет</value>
@@ -369,22 +369,22 @@
   <value>Показывать сгенерированный компилятором код</value>
 </data>
 <data name="ViewActionGroupText" xml:space="preserve">
-  <value>Вид &amp;V)</value>
+  <value>Вид (&amp;V)</value>
 </data>
 <data name="KeyboardShortcutScheme_Text" xml:space="preserve">
   <value>Схема сочетаний клавиш</value>
 </data>
 <data name="_SyncToVisualStudioColorTheme_Text" xml:space="preserve">
-  <value>Синхронизировать с цветовой темой Visual Studio(_S)</value>
+  <value>Синхронизировать с цветовой темой Visual Studio (_S)</value>
 </data>
 <data name="IntegrateWith_WindowsExplorer_Text" xml:space="preserve">
-  <value>Интегрировать с Проводником Windows(_W)</value>
+  <value>Интегрировать с Проводником Windows (_W)</value>
 </data>
 <data name="DiffToolArgumentsMustContain2_Text" xml:space="preserve">
   <value>Аргументы должны содержать '$2'</value>
 </data>
 <data name="Decompile_VeryLongMethods_Text" xml:space="preserve">
-  <value>Декомпилировать очень длинные методы(_V)</value>
+  <value>Декомпилировать очень длинные методы (_V)</value>
 </data>
 <data name="IndentStyle_Text" xml:space="preserve">
   <value>Стиль отступов</value>
@@ -396,13 +396,13 @@
   <value>Сервер символов</value>
 </data>
 <data name="Highlight_MatchingDelimitersWhenCaretIs_Text" xml:space="preserve">
-  <value>Выделять соответствующие разделители, когда курсор находится(_M):</value>
+  <value>Выделять соответствующие разделители, когда курсор находится (_M):</value>
 </data>
 <data name="AllExcept_GACAssemblies_FilterText" xml:space="preserve">
-  <value>Все сборки, кроме GAC(_G)</value>
+  <value>Все сборки, кроме GAC (_G)</value>
 </data>
 <data name="At_BothSides_Text" xml:space="preserve">
-  <value>С обеих сторон(_B)</value>
+  <value>С обеих сторон (_B)</value>
 </data>
 <data name="HideMetadataTokenValues_Text" xml:space="preserve">
   <value>Скрывать значения токенов метаданных</value>
@@ -417,13 +417,13 @@
   <value>Использовать условные операторы со значением NULL (?. и ?[])</value>
 </data>
 <data name="AllExcept_NuGetPackagesCacheAssemblies_FilterText" xml:space="preserve">
-  <value>Все сборки, кроме кэша пакетов NuGet(_N)</value>
+  <value>Все сборки, кроме кэша пакетов NuGet (_N)</value>
 </data>
 <data name="DotPeeksLicenseAgreementSettingDescription" xml:space="preserve">
   <value>Лицензионное соглашение DotPeek</value>
 </data>
 <data name="SYmbolServerActionText" xml:space="preserve">
-  <value>Сервер символов &amp;Y)</value>
+  <value>Сервер символов (&amp;Y)</value>
 </data>
 <data name="DiffToolArgumentsMustBeANonEmptyString_Text" xml:space="preserve">
   <value>Аргументы должны быть непустой строкой</value>
@@ -447,7 +447,7 @@
   <value>Синяя</value>
 </data>
 <data name="MetadataToKenValuesActionText" xml:space="preserve">
-  <value>Значения токенов метаданных &amp;K)</value>
+  <value>Значения токенов метаданных (&amp;K)</value>
 </data>
 <data name="CopyToClipboard_Text" xml:space="preserve">
   <value>Копировать в буфер обмена</value>
@@ -456,7 +456,7 @@
   <value>Файлы метаданных Windows (WinRT)</value>
 </data>
 <data name="Decompile_ProtectedAssemblies_Text" xml:space="preserve">
-  <value>Декомпилировать защищённые сборки (игнорировать атрибут SuppressIldasm)(_P)</value>
+  <value>Декомпилировать защищённые сборки (игнорировать атрибут SuppressIldasm) (_P)</value>
 </data>
 <data name="OpenSolutionActionText" xml:space="preserve">
   <value>Открыть решение...</value>
@@ -468,16 +468,16 @@
   <value>Способ выделения</value>
 </data>
 <data name="InternaLActionGroupText" xml:space="preserve">
-  <value>Внутренние &amp;L)</value>
+  <value>Внутренние (&amp;L)</value>
 </data>
 <data name="Decompiler_OptionsPageTitle" xml:space="preserve">
   <value>Декомпилятор</value>
 </data>
 <data name="KeyboardShortcutsActionText" xml:space="preserve">
-  <value>Сочетания клавиш &amp;K)</value>
+  <value>Сочетания клавиш (&amp;K)</value>
 </data>
 <data name="PdbAccessLogActionText" xml:space="preserve">
-  <value>Журнал доступа к PDB &amp;A)</value>
+  <value>Журнал доступа к PDB (&amp;A)</value>
 </data>
 <data name="PresentationOfTypeBy_Text" xml:space="preserve">
   <value>Представление типа {0} с помощью {1}</value>
@@ -486,22 +486,22 @@
   <value>В параметрах dotPeek (Сервис | Параметры | Сервер символов)</value>
 </data>
 <data name="VisibleWhite_Spaces_Text" xml:space="preserve">
-  <value>Видимые пробелы(_S)</value>
+  <value>Видимые пробелы (_S)</value>
 </data>
 <data name="ShowILCodeInCommentsActionText" xml:space="preserve">
-  <value>Показывать IL-код в комментариях &amp;L)</value>
+  <value>Показывать IL-код в комментариях (&amp;L)</value>
 </data>
 <data name="DotPeeksColorThemeSettingDescription" xml:space="preserve">
   <value>Цветовая тема DotPeek</value>
 </data>
 <data name="FileActionGroupText" xml:space="preserve">
-  <value>Файл &amp;F)</value>
+  <value>Файл (&amp;F)</value>
 </data>
 <data name="AccessTo_IsDenied_Text" xml:space="preserve">
   <value>Доступ к {0} запрещён!</value>
 </data>
 <data name="_Ok_ButtonText" xml:space="preserve">
-  <value>ОК(_O)</value>
+  <value>ОК (_O)</value>
 </data>
 <data name="NETFrameworkActionGroupText" xml:space="preserve">
   <value>.NET Framework</value>
@@ -510,13 +510,13 @@
   <value>Свойства</value>
 </data>
 <data name="_WordWrap_Text" xml:space="preserve">
-  <value>Перенос по словам(_W)</value>
+  <value>Перенос по словам (_W)</value>
 </data>
 <data name="NavigateForwardActionText" xml:space="preserve">
   <value>Перейти вперёд</value>
 </data>
 <data name="Color_Theme_Text" xml:space="preserve">
-  <value>Цветовая тема(_T):</value>
+  <value>Цветовая тема (_T):</value>
 </data>
 <data name="DumpActionsAndShortcutsActionText" xml:space="preserve">
   <value>Дамп действий и сочетаний клавиш</value>
@@ -525,16 +525,16 @@
   <value>Введите имя сборки:</value>
 </data>
 <data name="Use_ExpressionBodiedMembers_Text" xml:space="preserve">
-  <value>Использовать члены в виде выражений(_E)</value>
+  <value>Использовать члены в виде выражений (_E)</value>
 </data>
 <data name="ShowManaged_MemoryUsageInStatusBar_Text" xml:space="preserve">
-  <value>Показывать использование управляемой памяти в строке состояния(_M)</value>
+  <value>Показывать использование управляемой памяти в строке состояния (_M)</value>
 </data>
 <data name="NavigateBackwardActionText" xml:space="preserve">
   <value>Перейти назад</value>
 </data>
 <data name="_HorizontalScrollbar_Text" xml:space="preserve">
-  <value>Горизонтальная полоса прокрутки(_H)</value>
+  <value>Горизонтальная полоса прокрутки (_H)</value>
 </data>
 <data name="ThisIsTheFirstTimeYouRunDotPeekSymbolServer_Text" xml:space="preserve">
   <value>Это первый раз, когда вы запускаете сервер символов dotPeek</value>
@@ -546,7 +546,7 @@
   <value>Регион:</value>
 </data>
 <data name="AssembliesOpenedInTheAssembly_Explorer_FilterText" xml:space="preserve">
-  <value>Сборки, открытые в обозревателе сборок(_E)</value>
+  <value>Сборки, открытые в обозревателе сборок (_E)</value>
 </data>
 <data name="TextControl_Header" xml:space="preserve">
   <value>Текстовый редактор</value>
@@ -561,7 +561,7 @@
   <value>Параметры dotPeek по умолчанию</value>
 </data>
 <data name="_Cancel_ButtonText" xml:space="preserve">
-  <value>Отмена(_C)</value>
+  <value>Отмена (_C)</value>
 </data>
 <data name="SilverlightActionText" xml:space="preserve">
   <value>Silverlight 3</value>
@@ -588,7 +588,7 @@
   <value>Выделение кода</value>
 </data>
 <data name="About__ActionText" xml:space="preserve">
-  <value>О {0} {1} &amp;A)...</value>
+  <value>О {0} {1} (&amp;A)...</value>
 </data>
 <data name="SilverlightActionGroupText" xml:space="preserve">
   <value>Silverlight</value>
@@ -606,6 +606,6 @@
   <value>{0}. По умолчанию он генерирует файлы символов (.pdb) для {1}. Вы можете {2} изменить это.</value>
 </data>
 <data name="EnableTab_ColorsToIndicateCodePresentationMode_Text" xml:space="preserve">
-  <value>Включить цвета вкладок для указания режима представления кода(_C)</value>
+  <value>Включить цвета вкладок для указания режима представления кода (_C)</value>
 </data>
 </root>
