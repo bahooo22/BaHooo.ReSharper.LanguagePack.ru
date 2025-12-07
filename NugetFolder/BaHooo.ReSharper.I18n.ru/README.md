@@ -11,8 +11,7 @@
 
 | CI | Release | License |
 |----|---------|---------|
-| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | !📜 License: [CC BY-NC-SA 4.0](LICENSE) · [Additional Terms](LICENSE.additional.md)
- |
+| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | 📜 License: [CC BY-NC-SA 4.0](LICENSE) · [Additional Terms](LICENSE.additional.md) |
 
 Содержание
 - Быстрый старт
