@@ -451,7 +451,7 @@
   <value>Удалить устаревшие файлы во всех указанных местах</value>
 </data>
 <data name="SaveTo_Caption" xml:space="preserve">
-  <value>Сохранить в</value>
+  <value>Сохранить      </value>
 </data>
 <data name="CanNotAddReference_Caption" xml:space="preserve">
   <value>Не удается добавить ссылку</value>

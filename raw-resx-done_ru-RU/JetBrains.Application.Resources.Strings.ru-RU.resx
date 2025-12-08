@@ -1066,7 +1066,7 @@ URI: {0}
   <value>Инструменты</value>
 </data>
 <data name="SaveTo_Options_Dialog_Button_Text" xml:space="preserve">
-  <value>Сохранить в</value>
+  <value>Сохранить      </value>
 </data>
 <data name="LoginFailedNoUserIdObtained_Text" xml:space="preserve">
   <value>Ошибка входа: идентификатор пользователя не получен</value>

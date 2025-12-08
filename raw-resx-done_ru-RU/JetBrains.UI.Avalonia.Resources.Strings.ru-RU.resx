@@ -157,7 +157,9 @@
   <value>Пожалуйста, подождите...</value>
 </data>
 <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
-  <value>Все права защищены. © {0} {1} 
+  <value>Все права защищены. © {0} {1}
+  
+BaHooo.ReSharper.I18n.ru, v. 2025.3.0.7
 Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
 </data>
 <data name="DialogOk" xml:space="preserve">
@@ -245,3 +247,6 @@
   <value>Открыть детали проверки</value>
 </data>
 </root>
+
+
+

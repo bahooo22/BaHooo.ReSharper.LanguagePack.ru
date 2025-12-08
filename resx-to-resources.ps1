@@ -1,7 +1,7 @@
 param(
     [string]$ResxFolder = '.\raw-resx-done_ru-RU',
     [string]$ResourcesOutput = '.\build\resources',   # общая папка для .resources
-    [string]$Version = (Get-Date -Format 'yyyy.MM.dd'),
+    [string]$Version,
     [string]$LogFile = 'build.log',
     [string]$ErrorLogFile = 'build.errors.log',
     
@@ -15,11 +15,15 @@ param(
     [switch]$BuildOnly,
     [alias("bo")][switch]$BuildOnlyAlias, # Только сборка (пропустить resgen)
     
+    [switch]$SyncVersions,
+    [alias("sv")][switch]$SyncVersionsAlias, # Синхронизировать версии
+    
     [switch]$Help,
     [alias("h")][switch]$HelpAlias
 )
 
 $resgen = 'c:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\ResGen.exe'
+$HashesFile = ".\build\resx-hashes.json"  # Файл для хранения хэшей
 
 # Проверяем запрос помощи
 if ($Help -or $HelpAlias) {
@@ -27,10 +31,71 @@ if ($Help -or $HelpAlias) {
     exit 0
 }
 
+# Импортируем модуль управления версиями
+$modulePath = Join-Path $PSScriptRoot 'VersionManager.psm1'
+if (Test-Path $modulePath) {
+    try {
+        Import-Module $modulePath -Force -ErrorAction Stop
+        Write-Host "Модуль VersionManager успешно загружен" -ForegroundColor Gray
+    }
+    catch {
+        Write-Host "Ошибка при загрузке модуля VersionManager: $_" -ForegroundColor Red
+        # Создаем минимальную реализацию функций на месте
+        Initialize-FallbackVersionFunctions
+    }
+} else {
+    Write-Host "Модуль VersionManager не найден: $modulePath" -ForegroundColor Red
+    # Создаем минимальную реализацию функций на месте
+    Initialize-FallbackVersionFunctions
+}
+
+# Функция для инициализации запасных функций версионирования
+function Initialize-FallbackVersionFunctions {
+    Write-Host "Инициализация запасных функций версионирования..." -ForegroundColor Yellow
+    
+    # Минимальная реализация Update-AllVersions
+    function Update-AllVersions {
+        param(
+            [string]$ProjectRoot,
+            [string]$NewVersion
+        )
+        
+        Write-Host "Запасная функция Update-AllVersions: обновление версии пропущено" -ForegroundColor Yellow
+        Write-Host "Используйте параметр -SyncVersions для полной синхронизации версий" -ForegroundColor Yellow
+        
+        return @{
+            Version = "0.0.0.0"
+            NuspecUpdated = 0
+            ResxUpdated = 0
+        }
+    }
+    
+    # Минимальная реализация Sync-Versions
+    function Sync-Versions {
+        param(
+            [string]$ProjectRoot,
+            [switch]$Force
+        )
+        
+        Write-Host "Запасная функция Sync-Versions: синхронизация версий пропущена" -ForegroundColor Yellow
+        Write-Host "Пожалуйста, проверьте наличие файла VersionManager.psm1" -ForegroundColor Yellow
+        
+        return $false
+    }
+    
+    # Минимальная реализация Get-CurrentVersion
+    function Get-CurrentVersion {
+        param([string]$ProjectRoot)
+        
+        return "0.0.0.0"
+    }
+}
+
 # Определяем режимы работы
 $skipBuild = $NoBuild -or $NoBuildAlias
 $skipResgen = $NoResgen -or $NoResgenAlias
 $buildOnly = $BuildOnly -or $BuildOnlyAlias
+$syncVersions = $SyncVersions -or $SyncVersionsAlias
 
 # Проверка конфликтующих параметров
 if ($skipBuild -and $buildOnly) {
@@ -48,77 +113,304 @@ if ($buildOnly) {
     $skipResgen = $true
 }
 
+if ($syncVersions) {
+    Write-Host "`nРежим: Синхронизация версий" -ForegroundColor Cyan
+}
+
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
 # Очистим старые логи
 Remove-Item $LogFile, $ErrorLogFile -ErrorAction SilentlyContinue
 
+# Функция для вычисления хэша файла
+function Get-FileHashSafe($filePath) {
+    if (Test-Path $filePath) {
+        try {
+            $hash = Get-FileHash -Path $filePath -Algorithm SHA256
+            return $hash.Hash
+        }
+        catch {
+            Write-Host "Ошибка вычисления хэша для ${filePath}: $_" -ForegroundColor Red
+            return $null
+        }
+    }
+    return $null
+}
+
+# Функция для проверки изменений с возвратом списка файлов для конвертации
+function Get-FilesToConvert {
+    param(
+        [string]$ResxFolder,
+        [string]$HashesFile
+    )
+    
+    Write-Host "`n=== Проверка изменений в .resx файлах ===" -ForegroundColor Cyan
+    
+    # Создаем папку build если ее нет
+    $buildDir = Split-Path $HashesFile -Parent
+    if (-not (Test-Path $buildDir)) {
+        New-Item -ItemType Directory -Path $buildDir -Force | Out-Null
+    }
+    
+    # Загружаем предыдущие хэши
+    $previousHashes = @{}
+    if (Test-Path $HashesFile) {
+        try {
+            $previousHashes = Get-Content $HashesFile | ConvertFrom-Json -AsHashtable
+            Write-Host "Загружено хэшей из кэша: $($previousHashes.Count)" -ForegroundColor Gray
+        }
+        catch {
+            Write-Host "Не удалось загрузить кэш хэшей, создаем новый" -ForegroundColor Yellow
+            $previousHashes = @{}
+        }
+    }
+    
+    # Получаем текущие файлы
+    $currentFiles = Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse -File
+    
+    if ($currentFiles.Count -eq 0) {
+        Write-Host "Не найдено .resx файлов в папке: $ResxFolder" -ForegroundColor Yellow
+        return @{
+            FilesToConvert = @()
+            HasChanges = $true
+            ChangedFiles = @()
+            NewFiles = @()
+            DeletedFiles = @()
+            TotalFiles = 0
+        }
+    }
+    
+    # Собираем информацию о текущих файлах
+    $currentHashes = @{}
+    $changedFiles = @()
+    $newFiles = @()
+    $unchangedFiles = @()
+    $deletedFiles = @()
+    
+    foreach ($file in $currentFiles) {
+        $relativePath = $file.FullName.Substring((Resolve-Path $ResxFolder).Path.Length + 1)
+        $currentHash = Get-FileHashSafe $file.FullName
+        
+        if ($currentHash) {
+            $currentHashes[$relativePath] = @{
+                Hash = $currentHash
+                LastWriteTime = $file.LastWriteTime
+                Size = $file.Length
+                FullPath = $file.FullName
+            }
+            
+            # Проверяем изменения
+            if ($previousHashes.ContainsKey($relativePath)) {
+                if ($previousHashes[$relativePath].Hash -ne $currentHash) {
+                    $changedFiles += $file
+                    Write-Host "[ИЗМЕНЕН] $relativePath" -ForegroundColor Yellow
+                }
+                else {
+                    $unchangedFiles += $file
+                }
+            }
+            else {
+                $newFiles += $file
+                Write-Host "[НОВЫЙ] $relativePath" -ForegroundColor Green
+            }
+        }
+    }
+    
+    # Находим удаленные файлы
+    foreach ($key in $previousHashes.Keys) {
+        if (-not $currentHashes.ContainsKey($key)) {
+            $deletedFiles += $key
+            Write-Host "[УДАЛЕН] $key" -ForegroundColor Red
+        }
+    }
+    
+    # Файлы для конвертации: измененные + новые
+    $filesToConvert = $changedFiles + $newFiles
+    
+    # Сохраняем новые хэши
+    try {
+        # Удаляем информацию о полном пути перед сохранением
+        $hashesToSave = @{}
+        foreach ($key in $currentHashes.Keys) {
+            $hashesToSave[$key] = @{
+                Hash = $currentHashes[$key].Hash
+                LastWriteTime = $currentHashes[$key].LastWriteTime
+                Size = $currentHashes[$key].Size
+            }
+        }
+        $hashesToSave | ConvertTo-Json -Depth 3 | Out-File $HashesFile -Encoding UTF8
+        Write-Host "Сохранено хэшей в кэш: $($currentHashes.Count)" -ForegroundColor Gray
+    }
+    catch {
+        Write-Host "Не удалось сохранить кэш хэшей: $_" -ForegroundColor Red
+    }
+    
+    $hasChanges = ($changedFiles.Count -gt 0) -or ($newFiles.Count -gt 0) -or ($deletedFiles.Count -gt 0)
+    
+    # Выводим статистику
+    Write-Host "`n=== Статистика изменений ===" -ForegroundColor Cyan
+    Write-Host "Всего файлов: $($currentFiles.Count)" -ForegroundColor White
+    Write-Host "Измененных: $($changedFiles.Count)" -ForegroundColor $(if ($changedFiles.Count -gt 0) { "Yellow" } else { "Gray" })
+    Write-Host "Новых: $($newFiles.Count)" -ForegroundColor $(if ($newFiles.Count -gt 0) { "Green" } else { "Gray" })
+    Write-Host "Удаленных: $($deletedFiles.Count)" -ForegroundColor $(if ($deletedFiles.Count -gt 0) { "Red" } else { "Gray" })
+    Write-Host "Без изменений: $($unchangedFiles.Count)" -ForegroundColor Gray
+    Write-Host "Файлов для конвертации: $($filesToConvert.Count)" -ForegroundColor $(if ($filesToConvert.Count -gt 0) { "Cyan" } else { "Gray" })
+    Write-Host "Есть изменения: $(if ($hasChanges) { 'ДА' } else { 'НЕТ' })" -ForegroundColor $(if ($hasChanges) { "Yellow" } else { "Green" })
+    
+    return @{
+        FilesToConvert = $filesToConvert
+        HasChanges = $hasChanges
+        ChangedFiles = $changedFiles
+        NewFiles = $newFiles
+        DeletedFiles = $deletedFiles
+        TotalFiles = $currentFiles.Count
+    }
+}
+
+# Этап 0: Синхронизация версий (если указано)
+if ($syncVersions) {
+    Write-Host "`n=== Этап 0: Синхронизация версий ===" -ForegroundColor Cyan
+    
+    try {
+        Sync-Versions -ProjectRoot $PSScriptRoot -Force:$true
+        Write-Host "Синхронизация версий завершена" -ForegroundColor Green
+    }
+    catch {
+        Write-Host "Ошибка при синхронизации версий: $_" -ForegroundColor Red
+        exit 1
+    }
+}
+
 # Этап 1: Генерация .resources (пропускаем если указано)
 if (-not $skipResgen) {
-    Write-Host "=== Этап 1: Конвертация resx -> resources ===" -ForegroundColor Green
+    Write-Host "`n=== Этап 1: Конвертация resx -> resources ===" -ForegroundColor Green
     
-    # Убедимся, что папка для .resources существует
-    if (-not (Test-Path $ResourcesOutput)) {
-        New-Item -ItemType Directory -Path $ResourcesOutput -Force | Out-Null
-        Write-Host "Created missing output folder: $ResourcesOutput"
-    }
-
-    Write-Host "Converting resx -> resources in: $ResxFolder" | Tee-Object -FilePath $LogFile -Append
-
-    $files = Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse
-    if ($files.Count -eq 0) {
-        "No .resx files found." | Tee-Object -FilePath $LogFile -Append
+    # Проверяем изменения и получаем список файлов для конвертации
+    $changes = Get-FilesToConvert -ResxFolder $ResxFolder -HashesFile $HashesFile
+    
+    # Если есть изменения, обновляем версию
+    if ($changes.HasChanges -and $changes.FilesToConvert.Count -gt 0) {
+        Write-Host "`nОбнаружены изменения, обновляю версию..." -ForegroundColor Yellow
         
-        # Если файлов нет, но не пропускаем сборку - продолжаем
-        if (-not $skipBuild) {
-            Write-Host "`nРесурсные файлы не найдены, но продолжаем сборку..." -ForegroundColor Yellow
-        } else {
-            exit 0
+        try {
+            # Используем модуль для обновления версий
+            $updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot
+            
+            Write-Host "Версия обновлена до: $($updateResult.Version)" -ForegroundColor Green
+            Write-Host "Обновлено файлов: $($updateResult.NuspecUpdated) nuspec, $($updateResult.ResxUpdated) resx" -ForegroundColor Green
         }
-    } else {
-        $errIndex = 0
-
-        foreach ($f in $files) {
-            # создаём выходной путь в ResourcesOutput
-            $out = Join-Path $ResourcesOutput ($f.BaseName + '.resources')
-            $msg = "resgen $($f.FullName) -> $out"
-            Write-Host $msg
-            $msg | Tee-Object -FilePath $LogFile -Append
-
-            $result = & $resgen $f.FullName $out 2>&1
-            $result | Tee-Object -FilePath $LogFile -Append
-
-            if ($LASTEXITCODE -ne 0) {
-                $errIndex++
-
-                # выделяем строки с ошибками
-                $errorLines = $result | Where-Object { $_ -match 'error RG' -or $_ -match 'Ошибка' }
-                $errorCount = ($errorLines | Measure-Object).Count
-
-                $block = @()
-                $block += "Ошибка №$errIndex"
-                $block += "Файл: $($f.FullName)"
-                $block += "Количество ошибок: $errorCount"
-                $block += "Описание:"
-                $block += $errorLines
-                $block += ""  # пустая строка для разделения
-
-                Write-Host "ERROR in $($f.Name): $errorCount error(s)" -ForegroundColor Red
-                $block | Out-File -FilePath $ErrorLogFile -Append -Encoding UTF8
+        catch {
+            Write-Host "Ошибка при обновлении версии: $_" -ForegroundColor Red
+            Write-Host "Продолжаю конвертацию без обновления версии" -ForegroundColor Yellow
+        }
+    }
+    
+    # Если нет файлов для конвертации и файлы существуют, спрашиваем пользователя
+    if ($changes.FilesToConvert.Count -eq 0 -and $changes.TotalFiles -gt 0) {
+        Write-Host "`n⚠️  Изменений в .resx файлах не обнаружено!" -ForegroundColor Yellow
+        
+        # Проверяем, существуют ли уже .resources файлы
+        $resourcesExist = $false
+        if (Test-Path $ResourcesOutput) {
+            $resourceFiles = Get-ChildItem -Path $ResourcesOutput -Filter '*.resources' -Recurse
+            if ($resourceFiles.Count -ge $changes.TotalFiles) {
+                $resourcesExist = $true
+                Write-Host "Обнаружены существующие .resources файлы ($($resourceFiles.Count) шт.)" -ForegroundColor Gray
             }
         }
         
-        if ($errIndex -gt 0) {
-            Write-Host "`nОбнаружено ошибок при генерации .resources: $errIndex" -ForegroundColor Red
-            Write-Host "Подробности в файле: $ErrorLogFile" -ForegroundColor Yellow
-            
-            # Спрашиваем продолжать ли сборку при наличии ошибок
-            if (-not $skipBuild) {
-                $response = Read-Host "`nПродолжить сборку несмотря на ошибки? (y/N)"
-                if ($response -ne 'y' -and $response -ne 'Y') {
-                    exit 1
+        if ($resourcesExist) {
+            $response = Read-Host "`nПродолжить конвертацию всех файлов? (y/N)"
+            if ($response -ne 'y' -and $response -ne 'Y') {
+                Write-Host "Конвертация пропущена" -ForegroundColor Yellow
+                
+                # Пропускаем конвертацию, но продолжаем со сборкой если нужно
+                $skipResgen = $true
+                
+                if (-not $skipBuild) {
+                    Write-Host "`nПереход к этапу сборки..." -ForegroundColor Cyan
                 }
+            } else {
+                # Пользователь хочет конвертировать все файлы
+                $changes.FilesToConvert = Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse -File
+                Write-Host "Будет выполнена конвертация всех файлов ($($changes.FilesToConvert.Count) шт.)" -ForegroundColor Cyan
+            }
+        }
+    }
+    
+    # Выполняем конвертацию если не пропущена
+    if (-not $skipResgen) {
+        # Убедимся, что папка для .resources существует
+        if (-not (Test-Path $ResourcesOutput)) {
+            New-Item -ItemType Directory -Path $ResourcesOutput -Force | Out-Null
+            Write-Host "Created missing output folder: $ResourcesOutput"
+        }
+
+        if ($changes.FilesToConvert.Count -eq 0) {
+            Write-Host "`nНет файлов для конвертации." | Tee-Object -FilePath $LogFile -Append
+            
+            # Если файлов нет, но не пропускаем сборку - продолжаем
+            if (-not $skipBuild) {
+                Write-Host "`nРесурсные файлы не найдены или не требуют конвертации, продолжаем сборку..." -ForegroundColor Yellow
+            } else {
+                exit 0
+            }
+        } else {
+            Write-Host "`nConverting $($changes.FilesToConvert.Count) file(s) in: $ResxFolder" | Tee-Object -FilePath $LogFile -Append
+            
+            $errIndex = 0
+            $convertedCount = 0
+
+            foreach ($f in $changes.FilesToConvert) {
+                # создаём выходной путь в ResourcesOutput
+                $out = Join-Path $ResourcesOutput ($f.BaseName + '.resources')
+                Write-Host "Конвертация: $($f.Name) -> $($f.BaseName).resources"
+                
+                $result = & $resgen $f.FullName $out 2>&1
+                if ($result) {
+                    $result | ForEach-Object {
+                        Write-Host $_
+                        $_ | Out-File -FilePath $LogFile -Append -Encoding UTF8
+                    }
+                }
+
+                if ($LASTEXITCODE -ne 0) {
+                    $errIndex++
+
+                    # выделяем строки с ошибками
+                    $errorLines = $result | Where-Object { $_ -match 'error RG' -or $_ -match 'Ошибка' }
+                    $errorCount = ($errorLines | Measure-Object).Count
+
+                    $block = @()
+                    $block += "Ошибка №$errIndex"
+                    $block += "Файл: $($f.FullName)"
+                    $block += "Количество ошибок: $errorCount"
+                    $block += "Описание:"
+                    $block += $errorLines
+                    $block += ""  # пустая строка для разделения
+
+                    Write-Host "ERROR in $($f.Name): $errorCount error(s)" -ForegroundColor Red
+                    $block | Out-File -FilePath $ErrorLogFile -Append -Encoding UTF8
+                } else {
+                    $convertedCount++
+                }
+            }
+            
+            if ($errIndex -gt 0) {
+                Write-Host "`nОбнаружено ошибок при генерации .resources: $errIndex" -ForegroundColor Red
+                Write-Host "Успешно сконвертировано: $convertedCount из $($changes.FilesToConvert.Count)" -ForegroundColor $(if ($convertedCount -eq 0) { "Red" } elseif ($convertedCount -lt $changes.FilesToConvert.Count) { "Yellow" } else { "Green" })
+                Write-Host "Подробности в файле: $ErrorLogFile" -ForegroundColor Yellow
+                
+                # Спрашиваем продолжать ли сборку при наличии ошибок
+                if (-not $skipBuild) {
+                    $response = Read-Host "`nПродолжить сборку несмотря на ошибки? (y/N)"
+                    if ($response -ne 'y' -and $response -ne 'Y') {
+                        exit 1
+                    }
+                }
+            } else {
+                Write-Host "`nУспешно сконвертировано: $convertedCount из $($changes.FilesToConvert.Count) файлов" -ForegroundColor Green
             }
         }
     }
@@ -132,11 +424,24 @@ if (-not $skipBuild) {
     Write-Host "`n=== Этап 2: Сборка пакетов ===" -ForegroundColor Green
     
     try {
-        Write-Host "=== Building NuGet package ==="
-        & .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Version $Version -Output '..\artifacts' 2>&1 | Tee-Object -FilePath $LogFile -Append
+        # Получаем текущую версию для сборки из обновленного nuspec
+        $nugetNuspecPath = Join-Path $PSScriptRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
+        if (Test-Path $nugetNuspecPath) {
+            $nuspecText = Get-Content $nugetNuspecPath -Raw
+            if ($nuspecText -match '<version>(.*?)</version>') {
+                $currentVersion = $Matches[1]
+            } else {
+                $currentVersion = Get-CurrentVersion -ProjectRoot $PSScriptRoot
+            }
+        } else {
+            $currentVersion = Get-CurrentVersion -ProjectRoot $PSScriptRoot
+        }
+        
+        Write-Host "=== Building NuGet package (version: $currentVersion) ==="
+        & .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Version $currentVersion -Output '..\artifacts' 2>&1 | Tee-Object -FilePath $LogFile -Append
 
-        Write-Host "=== Building JetBrains Marketplace package ==="
-        & .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Version $Version -Output '..\artifacts' 2>&1 | Tee-Object -FilePath $LogFile -Append
+        Write-Host "=== Building JetBrains Marketplace package (version: $currentVersion) ==="
+        & .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Version $currentVersion -Output '..\artifacts' 2>&1 | Tee-Object -FilePath $LogFile -Append
         
         Write-Host "`n=== Сборка успешно завершена ===" -ForegroundColor Green
     }
@@ -161,45 +466,75 @@ if (-not $skipBuild) {
 function Show-Help {
     Write-Host @"
 ИСПОЛЬЗОВАНИЕ:
-    .\build.ps1 [ПАРАМЕТРЫ]
+    .\resx-to-resources.ps1 [ПАРАМЕТРЫ]
 
 ПАРАМЕТРЫ:
     -ResxFolder <путь>          Папка с исходными .resx файлами (по умолчанию: .\raw-resx-done_ru-RU)
     -ResourcesOutput <путь>     Папка для сгенерированных .resources файлов (по умолчанию: .\build\resources)
-    -Version <версия>           Версия сборки (по умолчанию: текущая дата в формате ГГГГ.ММ.ДД)
+    -Version <версия>           Версия сборки (по умолчанию: автоматическое определение)
     -LogFile <файл>             Файл лога (по умолчанию: build.log)
     -ErrorLogFile <файл>        Файл лога ошибок (по умолчанию: build.errors.log)
     
     -NoResgen, -nr              Пропустить генерацию .resources файлов
     -BuildOnly, -bo             Только сборка (пропустить генерацию .resources)
     -NoBuild, -nb               Только генерация .resources (пропустить сборку)
+    -SyncVersions, -sv          Синхронизировать версии перед выполнением
     
     -Help, -h                   Показать эту справку
 
+ФУНКЦИОНАЛ ПРОВЕРКИ ИЗМЕНЕНИЙ:
+    Скрипт автоматически отслеживает изменения в .resx файлах:
+    - Сохраняет хэши SHA256 всех .resx файлов в .\build\resx-hashes.json
+    - При запуске проверяет, были ли изменения с последней конвертации
+    - Если изменений нет, предлагает пропустить этап конвертации
+    - Конвертирует ТОЛЬКО изменившиеся или новые файлы
+    - Удаленные файлы отмечаются, но не влияют на конвертацию
+
+АВТОМАТИЧЕСКОЕ ОБНОВЛЕНИЕ ВЕРСИИ:
+    При обнаружении изменений в .resx файлах скрипт автоматически:
+    1. Инкрементирует версию (формат: 2025.3.0.4 → 2025.3.0.5)
+    2. Обновляет версию в .nuspec файлах:
+        - NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
+        - MarketplaceFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
+    3. Обновляет версию в .resx файлах:
+        - raw-resx-done_ru-RU\JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx
+        - raw-resx-done_ru-RU\JetBrains.UI.Resources.Strings.ru-RU.resx
+
+СИНХРОНИЗАЦИЯ ВЕРСИЙ:
+    Используйте параметр -SyncVersions для принудительной синхронизации всех версий
+    перед выполнением конвертации или сборки.
+
 ПРИМЕРЫ:
-    .\build.ps1                                     # Полный процесс: resgen + сборка
-    .\build.ps1 -NoBuild                            # Только генерация .resources
-    .\build.ps1 -BuildOnly                          # Только сборка (пропустить resgen)
-    .\build.ps1 -NoResgen                           # Только сборка (альтернатива -BuildOnly)
-    .\build.ps1 -nb                                 # Краткая форма (только генерация)
-    .\build.ps1 -bo                                 # Краткая форма (только сборка)
-    .\build.ps1 -nr                                 # Краткая форма (пропустить resgen)
+    .\resx-to-resources.ps1                          # Полный процесс: проверка → конвертация → сборка
+    .\resx-to-resources.ps1 -NoBuild                 # Только генерация .resources
+    .\resx-to-resources.ps1 -BuildOnly               # Только сборка (пропустить resgen)
+    .\resx-to-resources.ps1 -NoResgen                # Только сборка (альтернатива -BuildOnly)
+    .\resx-to-resources.ps1 -SyncVersions            # Синхронизировать версии + полный процесс
+    .\resx-to-resources.ps1 -SyncVersions -NoBuild   # Только синхронизация версий
     
-    .\build.ps1 -ResxFolder "C:\my-resx" -NoBuild   # Конвертация из указанной папки
-    .\build.ps1 -BuildOnly -Version "1.0.0"         # Сборка с указанием версии
-    .\build.ps1 -Help                               # Показать справку
+    .\resx-to-resources.ps1 -nb                      # Краткая форма (только генерация)
+    .\resx-to-resources.ps1 -bo                      # Краткая форма (только сборка)
+    .\resx-to-resources.ps1 -nr                      # Краткая форма (пропустить resgen)
+    .\resx-to-resources.ps1 -sv                      # Краткая форма (синхронизация)
+    
+    .\resx-to-resources.ps1 -ResxFolder "C:\my-resx" # Конвертация из указанной папки
+    .\resx-to-resources.ps1 -Help                    # Показать справку
 
 РЕЖИМЫ РАБОТЫ:
-    1. Без параметров:           resgen → сборка (полный процесс)
-    2. -NoBuild (-nb):           resgen → остановка
-    3. -BuildOnly (-bo):         сборка (пропуск resgen)
-    4. -NoResgen (-nr):          сборка (пропуск resgen, аналогично -BuildOnly)
+    1. Без параметров:           проверка → resgen → сборка (полный процесс)
+    2. -NoBuild (-nb):           проверка → resgen → остановка
+    3. -BuildOnly (-bo):         проверка → сборка (пропуск resgen)
+    4. -NoResgen (-nr):          проверка → сборка (пропуск resgen, аналогично -BuildOnly)
+    5. -SyncVersions (-sv):      синхронизация → проверка → resgen → сборка
 
 ОПИСАНИЕ:
     Скрипт выполняет конвертацию .resx файлов в .resources файлы с помощью ResGen
     и последующую сборку NuGet и JetBrains Marketplace пакетов.
     
-    Параметры -NoResgen и -BuildOnly дают одинаковый результат: пропуск генерации
-    .resources файлов и выполнение только этапа сборки.
+    Умная проверка изменений конвертирует только изменившиеся файлы,
+    что значительно ускоряет процесс при небольших правках.
+    
+    Автоматическое обновление версии обеспечивает синхронизацию версий
+    во всех файлах проекта при каждом изменении переводов.
 "@
 }
