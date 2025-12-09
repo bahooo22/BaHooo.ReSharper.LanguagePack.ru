@@ -108,7 +108,7 @@ jobs:
             -Output "..\artifacts"
             
           # Проверяем результат
-          $packages = Get-ChildItem ".\NugetFolder\BaHooo.ReSharper.I18n.ru\artifacts\*.nupkg"
+          $packages = Get-ChildItem ".\NugetFolder\artifacts\*.nupkg"
           if ($packages.Count -eq 0) {
             Write-Host "ОШИБКА: NuGet пакет не создан!" -ForegroundColor Red
             exit 1
@@ -125,7 +125,7 @@ jobs:
             -Output "..\artifacts"
             
           # Проверяем результат
-          $packages = Get-ChildItem ".\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\artifacts\*.nupkg"
+          $packages = Get-ChildItem ".\MarketplaceFolder\artifacts\*.nupkg"
           if ($packages.Count -eq 0) {
             Write-Host "ОШИБКА: Marketplace пакет не создан!" -ForegroundColor Red
             exit 1
