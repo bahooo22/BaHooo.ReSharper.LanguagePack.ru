@@ -51,68 +51,86 @@ jobs:
             "skip=false" >> $env:GITHUB_OUTPUT
             "version=$currentVersion" >> $env:GITHUB_OUTPUT
           }
-      # - name: Read nuspec version and check release
-        # id: check
-        # shell: pwsh
-        # env:
-          # GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        # run: |
-          # $nuspecPath = "NugetFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec"
-          # $xml = Get-Content $nuspecPath -Raw
-          # $match = [Regex]::Match($xml, '<version>(.*?)</version>', 'IgnoreCase')
-          # if (-not $match.Success) { throw "Version not found in nuspec" }
-          # $currentVersion = $match.Groups[1].Value
-          # Write-Host "Found version: $currentVersion"
 
-          # # Получаем последний релиз
-          # $latest = gh release list --limit 1 --json tagName --jq '.[0].tagName'
-          # Write-Host "Latest release tag: $latest"
-
-          # # --- ОТЛАДКА: удаление релиза и тега, если версия совпадает ---
-          # if ($currentVersion -eq $latest) {
-            # Write-Host "Версия уже существует, удаляем релиз и тег для отладки"
-            # gh release delete "$currentVersion" --repo "${{ github.repository }}" --yes || echo "Релиз не найден"
-            # git push origin --delete "$currentVersion" || echo "Тег не найден"
-            # Write-Host "Удалено. Продолжаем сборку."
-            # "skip=false" >> $env:GITHUB_OUTPUT
-            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          # }
-          # elseif ([string]::IsNullOrEmpty($latest)) {
-            # Write-Host "Нет существующих релизов, создаем новый"
-            # "skip=false" >> $env:GITHUB_OUTPUT
-            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          # }
-          # elseif ($currentVersion -ne $latest) {
-            # Write-Host "Версии отличаются, продолжаем сборку"
-            # "skip=false" >> $env:GITHUB_OUTPUT
-            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          # }
-          # else {
-            # Write-Host "Версии совпадают, пропускаем сборку"
-            # "skip=true" >> $env:GITHUB_OUTPUT
-            # "version=$currentVersion" >> $env:GITHUB_OUTPUT
-          # }
-
-
-      - name: Конвертация RESX в ресурсы
+      - name: Конвертация RESX в ресурсы (CI/CD режим)
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
+          # Убеждаемся, что папка для ресурсов существует
+          if (-not (Test-Path ".\build\resources")) {
+            New-Item -ItemType Directory -Path ".\build\resources" -Force | Out-Null
+          }
+          
+          # Конвертируем ВСЕ .resx файлы (ForceAll) без автоинкремента версии (SkipVersionUpdate)
+          # и ТОЛЬКО конвертация (NoBuild)
           pwsh .\resx-to-resources.ps1 `
+            -ForceAll `
+            -SkipVersionUpdate `
+            -NoBuild `
             -ResxFolder ".\raw-resx-done_ru-RU" `
             -ResourcesOutput ".\build\resources" `
             -LogFile "build.log" `
             -ErrorLogFile "build.errors.log"
+          
+          # Проверяем результат
+          $resxCount = (Get-ChildItem -Path ".\raw-resx-done_ru-RU" -Filter "*.resx" -Recurse -File).Count
+          $resourcesCount = (Get-ChildItem -Path ".\build\resources" -Filter "*.resources" -File).Count
+          
+          Write-Host "RESX файлов: $resxCount" -ForegroundColor Cyan
+          Write-Host "RESOURCES файлов: $resourcesCount" -ForegroundColor Cyan
+          
+          if ($resourcesCount -lt $resxCount) {
+            Write-Host "ВНИМАНИЕ: Сконвертировано меньше файлов, чем исходных!" -ForegroundColor Yellow
+          }
+
+      - name: Получение версии для сборки
+        if: steps.check.outputs.skip == 'false'
+        id: get_version
+        shell: pwsh
+        run: |
+          # Берем версию из nuspec, которую мы зафиксировали при коммите
+          $nuspecPath = "NugetFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec"
+          $xml = Get-Content $nuspecPath -Raw
+          $match = [Regex]::Match($xml, '<version>(.*?)</version>', 'IgnoreCase')
+          $version = $match.Groups[1].Value
+          Write-Host "Сборка пакета версии: $version"
+          
+          # Сохраняем для использования в следующих шагах
+          "version=$version" >> $env:GITHUB_OUTPUT
 
       - name: Сборка NuGet пакета
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
-        run: pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\NugetFolder\artifacts"
+        run: |
+          # Используем версию из предыдущего шага
+          pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 `
+            -Version "${{ steps.get_version.outputs.version }}" `
+            -Output ".\NugetFolder\artifacts"
+            
+          # Проверяем результат
+          $packages = Get-ChildItem ".\NugetFolder\artifacts\*.nupkg"
+          if ($packages.Count -eq 0) {
+            Write-Host "ОШИБКА: NuGet пакет не создан!" -ForegroundColor Red
+            exit 1
+          }
+          Write-Host "Создан NuGet пакет: $($packages[0].Name)" -ForegroundColor Green
 
       - name: Сборка JetBrains Marketplace пакета
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
-        run: pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 -Output ".\MarketplaceFolder\artifacts"
+        run: |
+          # Используем ту же версию
+          pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 `
+            -Version "${{ steps.get_version.outputs.version }}" `
+            -Output ".\MarketplaceFolder\artifacts"
+            
+          # Проверяем результат
+          $packages = Get-ChildItem ".\MarketplaceFolder\artifacts\*.nupkg"
+          if ($packages.Count -eq 0) {
+            Write-Host "ОШИБКА: Marketplace пакет не создан!" -ForegroundColor Red
+            exit 1
+          }
+          Write-Host "Создан Marketplace пакет: $($packages[0].Name)" -ForegroundColor Green
             
       - name: Создание релиза если его нет
         if: steps.check.outputs.skip == 'false'
@@ -120,28 +138,33 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release view "${{ steps.check.outputs.version }}" --repo "${{ github.repository }}" || `
-            gh release create "${{ steps.check.outputs.version }}" `
+          gh release view "${{ steps.get_version.outputs.version }}" --repo "${{ github.repository }}" || `
+            gh release create "${{ steps.get_version.outputs.version }}" `
               --repo "${{ github.repository }}" `
-              --title "${{ steps.check.outputs.version }}" `
-              --notes "Автоматически созданный релиз для версии ${{ steps.check.outputs.version }}"
+              --title "Russian Language Pack for ReSharper ${{ steps.get_version.outputs.version }}" `
+              --notes "Автоматически созданный релиз для версии ${{ steps.get_version.outputs.version }}"
+              
+          Write-Host "Релиз ${{ steps.get_version.outputs.version }} создан или уже существует" -ForegroundColor Green
 
       - name: Переименовать NuGet пакет
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
-          $file = Get-ChildItem NugetFolder/artifacts/*.nupkg | Select-Object -First 1
-          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.nuget.nupkg"
+          $file = Get-ChildItem "NugetFolder/artifacts/*.nupkg" | Select-Object -First 1
+          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.get_version.outputs.version }}.nuget.nupkg"
+          Write-Host "Переименование: $($file.Name) -> $newName"
           Rename-Item -Path $file.FullName -NewName $newName
+          Write-Host "NuGet пакет переименован" -ForegroundColor Green
       
       - name: Переименовать Marketplace пакет
         if: steps.check.outputs.skip == 'false'
         shell: pwsh
         run: |
-          $file = Get-ChildItem MarketplaceFolder/artifacts/*.nupkg | Select-Object -First 1
-          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.check.outputs.version }}.marketplace.nupkg"
+          $file = Get-ChildItem "MarketplaceFolder/artifacts/*.nupkg" | Select-Object -First 1
+          $newName = "BaHooo.ReSharper.I18n.ru.${{ steps.get_version.outputs.version }}.marketplace.nupkg"
+          Write-Host "Переименование: $($file.Name) -> $newName"
           Rename-Item -Path $file.FullName -NewName $newName
-
+          Write-Host "Marketplace пакет переименован" -ForegroundColor Green
 
       - name: Загрузка NuGet пакета в релиз
         if: steps.check.outputs.skip == 'false'
@@ -149,9 +172,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "${{ steps.check.outputs.version }}" `
-            NugetFolder/artifacts/*.nuget.nupkg `
+          Write-Host "Загрузка NuGet пакета в релиз ${{ steps.get_version.outputs.version }}..."
+          gh release upload "${{ steps.get_version.outputs.version }}" `
+            "NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.get_version.outputs.version }}.nuget.nupkg" `
             --repo "${{ github.repository }}"
+          Write-Host "NuGet пакет загружен" -ForegroundColor Green
 
       - name: Загрузка JetBrains пакета в релиз
         if: steps.check.outputs.skip == 'false'
@@ -159,6 +184,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: pwsh
         run: |
-          gh release upload "${{ steps.check.outputs.version }}" `
-            MarketplaceFolder/artifacts/*.marketplace.nupkg `
+          Write-Host "Загрузка JetBrains пакета в релиз ${{ steps.get_version.outputs.version }}..."
+          gh release upload "${{ steps.get_version.outputs.version }}" `
+            "MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.get_version.outputs.version }}.marketplace.nupkg" `
             --repo "${{ github.repository }}"
+          Write-Host "JetBrains пакет загружен" -ForegroundColor Green
