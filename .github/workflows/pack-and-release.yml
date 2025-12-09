@@ -10,7 +10,8 @@ permissions:
   
 jobs:
   pack:
-    runs-on: windows-latest
+    # runs-on: windows-latest
+    runs-on: [self-hosted, Windows, X64, WinX64]
 
     steps:
       - name: Проверка кода
