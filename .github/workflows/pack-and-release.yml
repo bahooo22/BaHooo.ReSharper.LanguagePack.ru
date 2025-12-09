@@ -105,10 +105,10 @@ jobs:
           # Используем версию из предыдущего шага
           pwsh .\NugetFolder\BaHooo.ReSharper.I18n.ru\build.ps1 `
             -Version "${{ steps.get_version.outputs.version }}" `
-            -Output ".\NugetFolder\artifacts"
+            -Output "..\artifacts"
             
           # Проверяем результат
-          $packages = Get-ChildItem ".\NugetFolder\artifacts\*.nupkg"
+          $packages = Get-ChildItem ".\NugetFolder\BaHooo.ReSharper.I18n.ru\artifacts\*.nupkg"
           if ($packages.Count -eq 0) {
             Write-Host "ОШИБКА: NuGet пакет не создан!" -ForegroundColor Red
             exit 1
@@ -122,10 +122,10 @@ jobs:
           # Используем ту же версию
           pwsh .\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\build.ps1 `
             -Version "${{ steps.get_version.outputs.version }}" `
-            -Output ".\MarketplaceFolder\artifacts"
+            -Output "..\artifacts"
             
           # Проверяем результат
-          $packages = Get-ChildItem ".\MarketplaceFolder\artifacts\*.nupkg"
+          $packages = Get-ChildItem ".\MarketplaceFolder\BaHooo.ReSharper.I18n.ru\artifacts\*.nupkg"
           if ($packages.Count -eq 0) {
             Write-Host "ОШИБКА: Marketplace пакет не создан!" -ForegroundColor Red
             exit 1
@@ -189,3 +189,5 @@ jobs:
             "MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.${{ steps.get_version.outputs.version }}.marketplace.nupkg" `
             --repo "${{ github.repository }}"
           Write-Host "JetBrains пакет загружен" -ForegroundColor Green
+
+
