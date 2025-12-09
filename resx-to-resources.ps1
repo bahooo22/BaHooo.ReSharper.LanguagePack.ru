@@ -18,6 +18,14 @@ param(
     [switch]$SyncVersions,
     [alias("sv")][switch]$SyncVersionsAlias, # Синхронизировать версии
     
+    # НОВЫЙ ПАРАМЕТР: Отключить автоинкремент версии
+    [switch]$SkipVersionUpdate,
+    [alias("svu")][switch]$SkipVersionUpdateAlias,
+    
+    # НОВЫЙ ПАРАМЕТР: Принудительная конвертация всех файлов
+    [switch]$ForceAll,
+    [alias("fa")][switch]$ForceAllAlias,
+    
     [switch]$Help,
     [alias("h")][switch]$HelpAlias
 )
@@ -96,6 +104,8 @@ $skipBuild = $NoBuild -or $NoBuildAlias
 $skipResgen = $NoResgen -or $NoResgenAlias
 $buildOnly = $BuildOnly -or $BuildOnlyAlias
 $syncVersions = $SyncVersions -or $SyncVersionsAlias
+$skipVersionUpdate = $SkipVersionUpdate -or $SkipVersionUpdateAlias
+$forceAll = $ForceAll -or $ForceAllAlias
 
 # Проверка конфликтующих параметров
 if ($skipBuild -and $buildOnly) {
@@ -115,6 +125,14 @@ if ($buildOnly) {
 
 if ($syncVersions) {
     Write-Host "`nРежим: Синхронизация версий" -ForegroundColor Cyan
+}
+
+if ($skipVersionUpdate) {
+    Write-Host "`nРежим: Автоматическое обновление версии отключено" -ForegroundColor Cyan
+}
+
+if ($forceAll) {
+    Write-Host "`nРежим: Принудительная конвертация всех .resx файлов" -ForegroundColor Cyan
 }
 
 Set-StrictMode -Version Latest
@@ -167,9 +185,9 @@ function Get-FilesToConvert {
     }
     
     # Получаем текущие файлы
-    $currentFiles = Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse -File
-    
-    if ($currentFiles.Count -eq 0) {
+$currentFiles = @(Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse -File -ErrorAction SilentlyContinue)
+
+if ($currentFiles.Count -eq 0) {
         Write-Host "Не найдено .resx файлов в папке: $ResxFolder" -ForegroundColor Yellow
         return @{
             FilesToConvert = @()
@@ -286,35 +304,54 @@ if ($syncVersions) {
 if (-not $skipResgen) {
     Write-Host "`n=== Этап 1: Конвертация resx -> resources ===" -ForegroundColor Green
     
-    # Проверяем изменения и получаем список файлов для конвертации
-    $changes = Get-FilesToConvert -ResxFolder $ResxFolder -HashesFile $HashesFile
-    
-    # Если есть изменения, обновляем версию
-    if ($changes.HasChanges -and $changes.FilesToConvert.Count -gt 0) {
-        Write-Host "`nОбнаружены изменения, обновляю версию..." -ForegroundColor Yellow
-        
-        try {
-            # Используем модуль для обновления версий
-            $updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot
-            
-            Write-Host "Версия обновлена до: $($updateResult.Version)" -ForegroundColor Green
-            Write-Host "Обновлено файлов: $($updateResult.NuspecUpdated) nuspec, $($updateResult.ResxUpdated) resx" -ForegroundColor Green
+    # Если указан ForceAll - конвертируем все файлы
+    if ($forceAll) {
+        Write-Host "Принудительная конвертация ВСЕХ файлов..." -ForegroundColor Cyan
+        $allFiles = Get-ChildItem -Path $ResxFolder -Filter '*.resx' -Recurse -File
+        $changes = @{
+            FilesToConvert = $allFiles
+            HasChanges = $true
+            ChangedFiles = @()
+            NewFiles = $allFiles
+            DeletedFiles = @()
+            TotalFiles = $allFiles.Count
         }
-        catch {
-            Write-Host "Ошибка при обновлении версии: $_" -ForegroundColor Red
-            Write-Host "Продолжаю конвертацию без обновления версии" -ForegroundColor Yellow
+        Write-Host "Будет сконвертировано $($allFiles.Count) файлов" -ForegroundColor Cyan
+    } else {
+        # Проверяем изменения и получаем список файлов для конвертации
+        $changes = Get-FilesToConvert -ResxFolder $ResxFolder -HashesFile $HashesFile
+    }
+    
+    # Если есть изменения, обновляем версию (если не отключено)
+    if ($changes.HasChanges -and $changes.FilesToConvert.Count -gt 0) {
+        if (-not $skipVersionUpdate) {
+            Write-Host "`nОбнаружены изменения, обновляю версию..." -ForegroundColor Yellow
+            
+            try {
+                # Используем модуль для обновления версий
+                $updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot
+                
+                Write-Host "Версия обновлена до: $($updateResult.Version)" -ForegroundColor Green
+                Write-Host "Обновлено файлов: $($updateResult.NuspecUpdated) nuspec, $($updateResult.ResxUpdated) resx" -ForegroundColor Green
+            }
+            catch {
+                Write-Host "Ошибка при обновлении версии: $_" -ForegroundColor Red
+                Write-Host "Продолжаю конвертацию без обновления версии" -ForegroundColor Yellow
+            }
+        } else {
+            Write-Host "`nОбнаружены изменения, но обновление версии отключено (-SkipVersionUpdate)" -ForegroundColor Gray
         }
     }
     
-    # Если нет файлов для конвертации и файлы существуют, спрашиваем пользователя
-    if ($changes.FilesToConvert.Count -eq 0 -and $changes.TotalFiles -gt 0) {
+    # Если нет файлов для конвертации и не указан ForceAll
+    if (-not $forceAll -and $changes.FilesToConvert.Count -eq 0 -and $changes.TotalFiles -gt 0) {
         Write-Host "`n⚠️  Изменений в .resx файлах не обнаружено!" -ForegroundColor Yellow
         
         # Проверяем, существуют ли уже .resources файлы
         $resourcesExist = $false
         if (Test-Path $ResourcesOutput) {
             $resourceFiles = Get-ChildItem -Path $ResourcesOutput -Filter '*.resources' -Recurse
-            if ($resourceFiles.Count -ge $changes.TotalFiles) {
+            if ($resourceFiles -and $resourceFiles.Count -ge $changes.TotalFiles) {
                 $resourcesExist = $true
                 Write-Host "Обнаружены существующие .resources файлы ($($resourceFiles.Count) шт.)" -ForegroundColor Gray
             }
@@ -479,6 +516,8 @@ function Show-Help {
     -BuildOnly, -bo             Только сборка (пропустить генерацию .resources)
     -NoBuild, -nb               Только генерация .resources (пропустить сборку)
     -SyncVersions, -sv          Синхронизировать версии перед выполнением
+    -SkipVersionUpdate, -svu    Отключить автоматическое обновление версии (для CI/CD)
+    -ForceAll, -fa              Принудительная конвертация ВСЕХ .resx файлов (для CI/CD)
     
     -Help, -h                   Показать эту справку
 
@@ -504,37 +543,37 @@ function Show-Help {
     Используйте параметр -SyncVersions для принудительной синхронизации всех версий
     перед выполнением конвертации или сборки.
 
+ИСПОЛЬЗОВАНИЕ В CI/CD:
+    Для GitHub Actions используйте параметры:
+    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
+    Это гарантирует:
+    - Конвертацию ВСЕХ .resx файлов (даже если хэш-файл сброшен)
+    - Автоинкремент версии отключен
+    - Только конвертация, сборка отдельно
+
 ПРИМЕРЫ:
+    ЛОКАЛЬНО (с автоинкрементом версии):
     .\resx-to-resources.ps1                          # Полный процесс: проверка → конвертация → сборка
-    .\resx-to-resources.ps1 -NoBuild                 # Только генерация .resources
+    
+    CI/CD (без автоинкремента):
+    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild  # Только конвертация всех файлов
+    
+    Только сборка:
     .\resx-to-resources.ps1 -BuildOnly               # Только сборка (пропустить resgen)
-    .\resx-to-resources.ps1 -NoResgen                # Только сборка (альтернатива -BuildOnly)
-    .\resx-to-resources.ps1 -SyncVersions            # Синхронизировать версии + полный процесс
-    .\resx-to-resources.ps1 -SyncVersions -NoBuild   # Только синхронизация версий
     
-    .\resx-to-resources.ps1 -nb                      # Краткая форма (только генерация)
-    .\resx-to-resources.ps1 -bo                      # Краткая форма (только сборка)
-    .\resx-to-resources.ps1 -nr                      # Краткая форма (пропустить resgen)
-    .\resx-to-resources.ps1 -sv                      # Краткая форма (синхронизация)
+    Только конвертация:
+    .\resx-to-resources.ps1 -NoBuild                 # Только генерация .resources
     
-    .\resx-to-resources.ps1 -ResxFolder "C:\my-resx" # Конвертация из указанной папки
-    .\resx-to-resources.ps1 -Help                    # Показать справку
+    Краткие формы:
+    .\resx-to-resources.ps1 -fa -svu -nb             # Для CI/CD
+    .\resx-to-resources.ps1 -bo                      # Только сборка
+    .\resx-to-resources.ps1 -nr                      # Пропустить resgen
+    .\resx-to-resources.ps1 -sv                      # Синхронизация версий
 
 РЕЖИМЫ РАБОТЫ:
-    1. Без параметров:           проверка → resgen → сборка (полный процесс)
+    1. Без параметров:           проверка → resgen → сборка (полный процесс с автоинкрементом)
     2. -NoBuild (-nb):           проверка → resgen → остановка
     3. -BuildOnly (-bo):         проверка → сборка (пропуск resgen)
-    4. -NoResgen (-nr):          проверка → сборка (пропуск resgen, аналогично -BuildOnly)
-    5. -SyncVersions (-sv):      синхронизация → проверка → resgen → сборка
-
-ОПИСАНИЕ:
-    Скрипт выполняет конвертацию .resx файлов в .resources файлы с помощью ResGen
-    и последующую сборку NuGet и JetBrains Marketplace пакетов.
-    
-    Умная проверка изменений конвертирует только изменившиеся файлы,
-    что значительно ускоряет процесс при небольших правках.
-    
-    Автоматическое обновление версии обеспечивает синхронизацию версий
-    во всех файлах проекта при каждом изменении переводов.
+    4. -ForceAll -SkipVersionUpdate: CI/CD режим (все файлы, без инкремента версии)
 "@
 }
