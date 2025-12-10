@@ -1,242 +1,471 @@
-
----
-
 # 📘 BaHooo.ReSharper.LanguagePack.ru
 
-![ReSharper Russian Language Pack Icon](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
+![ReSharper Russian Language Pack Icon](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
-Плагин для русской локализации интерфейса **ReSharper** в Visual Studio.  
-Проект автоматизирует перевод китайских ресурсов JetBrains на русский язык через промежуточный английский, используя **Argos Translate** и при необходимости **OpenNMT-py**.
-
+| [![GitHub license](https://img.shields.io/github/license/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](LICENSE) | [![NuGet Version](https://img.shields.io/nuget/v/BaHooo.ReSharper.I18n.ru)](https://www.nuget.org/packages/BaHooo.ReSharper.I18n.ru) | [![NuGet Downloads](https://img.shields.io/nuget/dt/BaHooo.ReSharper.I18n.ru)](https://www.nuget.org/packages/BaHooo.ReSharper.I18n.ru) |
+|---|---|---|
+| [![GitHub release (latest by date)](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases) | [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/actions/workflows/pack-and-release.yml) | [![GitHub last commit](https://img.shields.io/github/last-commit/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/commits/main) |
+| [![GitHub issues](https://img.shields.io/github/issues/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues) | [![GitHub pull requests](https://img.shields.io/github/issues-pr/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pulls) | [![GitHub Repo size](https://img.shields.io/github/repo-size/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) |
+| [![GitHub Repo stars](https://img.shields.io/github/stars/bahooo22/BaHooo.ReSharper.LanguagePack.ru?style=social)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/stargazers) | [![GitHub forks](https://img.shields.io/github/forks/bahooo22/BaHooo.ReSharper.LanguagePack.ru?style=social)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/network/members) | [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) |
+| ![Platform](https://img.shields.io/badge/platform-.NET-blue) | ![Language](https://img.shields.io/github/languages/top/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | [![Donate](https://img.shields.io/badge/donate-destream.net-red)](https://destream.net/live/bahooo22_06537/donate) |
+| [![English](https://img.shields.io/badge/README-Русская→English-blue)](./README.en.md) |
+Плагин для русской локализации интерфейса **ReSharper** в Visual Studio.
 
 ---
 
-## 🔧 Подготовка окружений
+## 📁 Структура проекта
 
-### 1. Создание виртуальных окружений
-Используй скрипт `InstallTranslaters.ps1`:
-
-- **Argos Translate**  
-- **OpenNMT-py**  
-- Оба сразу  
-- Удаление окружений  
-- Проверка существующих окружений  
-
-Пример запуска:
-```powershell
-.\InstallTranslaters.ps1
+```
+├───.github/
+│   └───workflows/              # GitHub Actions workflows
+│       └───pack-and-release.yml
+├───MarketplaceFolder/          # Пакет для JetBrains Marketplace
+│   └───BaHooo.ReSharper.I18n.ru/
+│       ├───DotFiles/
+│       ├───package/
+│       └───build.ps1
+├───NugetFolder/                # Пакет для NuGet
+│   └───BaHooo.ReSharper.I18n.ru/
+│       ├───DotFiles/
+│       ├───package/
+│       └───build.ps1
+├───build/                      # Ресурсы для сборки
+│   └───resx-hashes.json       # Кэш хэшей .resx файлов
+└───raw-resx-done_ru-RU/        # Исходные переведенные файлы .resx (236 файлов)
 ```
 
-### 2. Активация окружений
-Скрипт `activate-venv.ps1` позволяет выбрать окружение:
-
-```powershell
-.\activate-venv.ps1
-```
-Выбор:
-- `1` → Argos Translate  
-- `2` → OpenNMT-py  
+**Основные файлы:**
+- `resx-to-resources.ps1` - основной скрипт сборки
+- `VersionManager.psm1` - управление версиями
+- `final-check.ps1` - проверка финальной сборки
+- `test-paths.ps1` - тестирование путей
+- `test-local-workflow.ps1` - локальный тест workflow
+- `TODO.md` - список задач
 
 ---
 
-## 📂 Конвертация ресурсов
+## 📊 Статистика проекта
 
-Перед переводом нужно преобразовать `.resources` → `.resx`.  
-Используй `ConvertResourceToResx.ps1`:
+**Всего переведенных файлов:** 236 файлов .resx  
+**Текущая версия:** 2025.3.0.7  
+**Последнее обновление:** 8 декабря 2025 года  
+**Общий размер ресурсов:** 5 615 837 Байт
 
-```powershell
-.\ConvertResourceToResx.ps1
-```
-
-- Исходная папка: китайские ресурсы (`zh-CN`)  
-- Целевая папка: русские `.resx` (`ru-RU`)  
-- Автоматическая замена `zh-CN` → `ru-RU` внутри файлов  
-
----
-
-## 🌐 Установка переводчиков
-
-В окружении Argos Translate установи пакеты:
-
-```python
-import argostranslate.package as pkg
-available = pkg.get_available_packages()
-
-zh_en = next(p for p in available if p.from_code == "zh" and p.to_code == "en")
-pkg.install_from_path(zh_en.download())
-
-en_ru = next(p for p in available if p.from_code == "en" and p.to_code == "ru")
-pkg.install_from_path(en_ru.download())
-```
+**Ключевые модули:**
+- JetBrains.UI.Resources.Strings.ru-RU.resx (61 КБ)
+- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (901 КБ)
+- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (605 КБ)
+- JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx (167 КБ)
 
 ---
 
-## 📝 Тест перевода
+## 🚀 Основной скрипт сборки
 
-Файл `ArgosTest.txt` проверяет цепочку zh→en→ru:
+### `resx-to-resources.ps1`
 
-```python
-import argostranslate.translate as tr
+Умный скрипт для управления процессом сборки с отслеживанием изменений через хэши SHA256.
 
-langs = tr.get_installed_languages()
-zh = next(l for l in langs if l.code == "zh")
-en = next(l for l in langs if l.code == "en")
-ru = next(l for l in langs if l.code == "ru")
+#### Интеллектуальные возможности:
 
-zh_en = zh.get_translation(en)
-en_ru = en.get_translation(ru)
+1. **Кэширование хэшей** - сохраняет хэши всех .resx файлов в `build/resx-hashes.json`
+2. **Инкрементальная конвертация** - конвертирует только измененные файлы
+3. **Автоинкремент версии** - при изменениях автоматически обновляет версию
+4. **Проверка конфликтов** - предотвращает несовместимые комбинации параметров
 
-text = "测试一下中文到俄文的翻译"
-print(en_ru.translate(zh_en.translate(text)))
-```
+#### Параметры:
 
----
+| Параметр | Алиас | Описание | По умолчанию |
+|----------|--------|----------|--------------|
+| `-ResxFolder` | - | Папка с .resx файлами | `.\raw-resx-done_ru-RU` |
+| `-ResourcesOutput` | - | Папка для .resources файлов | `.\build\resources` |
+| `-NoBuild` | `-nb` | Только конвертация, без сборки | - |
+| `-BuildOnly` | `-bo` | Только сборка, без конвертации | - |
+| `-NoResgen` | `-nr` | Пропустить генерацию .resources | - |
+| `-SyncVersions` | `-sv` | Синхронизировать версии | - |
+| `-SkipVersionUpdate` | `-svu` | Отключить автоинкремент версии | - |
+| `-ForceAll` | `-fa` | Принудительная конвертация всех файлов | - |
+| `-Help` | `-h` | Показать справку | - |
 
-## 🚀 Основной скрипт перевода
-
-Файл `translate_resx.py` выполняет пакетный перевод `.resx` файлов:
-
-### Возможности
-- Аргументы: `--original`, `--intermediate`, `--final`, `--single`, `--log`, `--workers`, `--resume`, `--dry-run`, `--logfile`  
-- Прогрессбар для строк внутри файла  
-- Логирование на разных уровнях (`full`, `first5`, `every10`, `minimal`)  
-- Параллельная обработка файлов (`--workers`)  
-- Продолжение обработки (`--resume`)  
-- Dry-run для проверки списка файлов  
-- Сохранение лога в файл  
-
-### Примеры запуска
-```bash
-# Все файлы (минимальный лог)
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru
-
-# Один файл для отладки
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --single MyPlugin.Strings.ru-RU.resx
-
-# Полный лог
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log full
-
-# Каждая 10-я фраза, 2 воркера
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log every10 --workers 2
-
-# Продолжение обработки
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --resume
-
-# Проверка списка файлов без перевода
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --dry-run
-
-# Сохранение лога в файл
-python translate_resx.py --original C:\src --intermediate C:\en --final C:\ru --log full --workers 2 --resume --logfile C:\logs\translate.log
-```
-
----
-
-## ❗ Типичные ошибки и их решение
-
-1. **`AttributeError: 'NoneType' object has no attribute 'translate'`**  
-   → Установи пакеты zh→en и en→ru заново.
-
-2. **`KeyboardInterrupt` при установке пакета**  
-   → Не прерывай процесс, он может занимать несколько минут.
-
-3. **`Could not load Stanza resources...`**  
-   → Это предупреждение, перевод работает.
-
-4. **`FileNotFoundError`**  
-   → Проверь пути `--original`, `--intermediate`, `--final`.
-
-5. **`PermissionError`**  
-   → Запусти от имени администратора или выбери другую папку.
-
-6. **`ModuleNotFoundError: No module named 'tqdm'`**  
-   → Установи библиотеку: `pip install tqdm`.
-
-7. **Перевод слишком медленный**  
-   → Используй `--workers N` и `translate_batch`.
-
-8. **Нужно продолжить после сбоя**  
-   → Добавь `--resume`.
-
----
-
-## ⚡ Оптимизация производительности
-
-- Используй **batch‑перевод** (`translate_batch`) вместо построчного.  
-- Включи **кэширование** повторяющихся строк.  
-- Минимизируй логирование (`--log minimal`).  
-- Параллельная обработка файлов (`--workers`, по умолчанию половина CPU).  
-- Логи можно писать в файл (`--logfile`) для анализа.  
-
----
-
-
-Основные изменения в resx-to-resources.ps1:
-
-Добавлены новые параметры:
-
--NoBuild (и его алиас -nb) - пропустить этап сборки
-
--Help (и его алиас -h) - показать справку
-
-Добавлена функция Show-Help с подробным описанием всех параметров и примеров использования.
-
-Добавлена логика пропуска сборки:
-
-Если указан -NoBuild или -nb, скрипт пропускает выполнение build.ps1
-
-Выводится информационное сообщение о пропуске сборки
-
-Примеры использования:
+#### Примеры использования:
 
 ```powershell
-# Полная сборка (по умолчанию)
-.\build.ps1
+# Полный процесс: проверка → конвертация → сборка
+.\resx-to-resources.ps1
 
-# Только конвертация resx -> resources
-.\build.ps1 -NoBuild
-# или
-.\build.ps1 -nb
+# Только конвертация измененных файлов
+.\resx-to-resources.ps1 -NoBuild
 
-# Показать справку
-.\build.ps1 -Help
-# или
-.\build.ps1 -h
+# Только сборка пакетов
+.\resx-to-resources.ps1 -BuildOnly
 
-# Конвертация с пользовательскими путями без сборки
-.\build.ps1 -ResxFolder "C:\my-resx-files" -ResourcesOutput ".\output" -NoBuild
+# CI/CD режим: все файлы, без инкремента версии
+.\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
+
+# Синхронизация версий
+.\resx-to-resources.ps1 -SyncVersions
+
+# Краткие формы:
+.\resx-to-resources.ps1 -fa -svu -nb    # Для CI/CD
+.\resx-to-resources.ps1 -bo             # Только сборка
 ```
 
-Новые возможности:
+#### Как работает проверка изменений:
 
-Добавлены параметры для управления этапами:
+1. **При первом запуске:** создается `build/resx-hashes.json` с хэшами всех файлов
+2. **При последующих запусках:** сравниваются хэши с сохраненными
+3. **Конвертируются только:** новые или измененные файлы
+4. **Удаленные файлы:** отмечаются в логе, но не влияют на сборку
 
--NoResgen, -nr - пропустить генерацию .resources файлов
+**Пример вывода:**
+```
+=== Проверка изменений в .resx файлах ===
+Загружено хэшей из кэша: 404
+[ИЗМЕНЕН] JetBrains.UI.Resources.Strings.ru-RU.resx
+[НОВЫЙ] JetBrains.New.Module.ru-RU.resx
+[УДАЛЕН] JetBrains.Old.Module.ru-RU.resx
 
--BuildOnly, -bo - выполнить только сборку (автоматически включает -NoResgen)
+=== Статистика изменений ===
+Всего файлов: 405
+Измененных: 1
+Новых: 1
+Удаленных: 1
+Без изменений: 403
+Файлов для конвертации: 2
+Есть изменения: ДА
+```
 
-Логика разделена на два независимых этапа:
+---
 
-Этап 1: Генерация .resources (может быть пропущена через -NoResgen или -BuildOnly)
+## 🎯 Установка
 
-Этап 2: Сборка пакетов (может быть пропущена через -NoBuild)
+### Через NuGet (ReSharper Extension Manager):
+```
+PM> Install-Package BaHooo.ReSharper.I18n.ru
+```
 
-Проверка конфликтов: Добавлена проверка несовместимых параметров
+### Через JetBrains Marketplace:
+1. Откройте **Extensions** → **Marketplace** в ReSharper
+2. Найдите "Russian Language Pack for ReSharper"
+3. Нажмите **Install**
 
-Улучшенный вывод: Цветное разделение этапов и режимов работы
+### Ручная установка:
+1. Скачайте `.nupkg` файл из [Releases](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases)
+2. Перетащите файл в окно ReSharper Extensions
+3. Перезапустите Visual Studio
 
-Примеры новых сценариев:
+---
 
+## 📦 Содержимое пакета
+
+**NuGet пакет (`BaHooo.ReSharper.I18n.ru.2025.3.0.7.nupkg`):**
+
+### Метаданные:
+- **ID:** `BaHooo.ReSharper.I18n.ru`
+- **Версия:** `2025.3.0.7`
+- **Зависимости:** Wave `[253.0.0]` (ReSharper 2025.3)
+- **Лицензия:** CC BY-NC-SA 4.0 (требуется принятие)
+
+### Файлы:
+- `icon.png` - иконка пакета
+- `README.md` - документация
+- `LICENSE` - лицензионное соглашение
+- `DotFiles/Extensions/BaHooo.ReSharper.I18n.ru/i18n/*.resources` - файлы локализации
+
+---
+
+## 💖 Поддержка проекта
+
+Проект разрабатывается и поддерживается на энтузиазме. Если вы хотите поддержать дальнейшую разработку:
+
+### 💰 Пожертвования:
+- **Destream (карты, криптовалюта):** https://destream.net/live/bahooo22_06537/donate
+- **Telegram:** [@compohelp_vitebsk](https://t.me/compohelp_vitebsk) (для связи по вопросам донатов)
+
+### 🤝 Другие формы поддержки:
+- ⭐ **Поставьте звезду** на GitHub
+- 🐛 **Сообщайте об ошибках** перевода
+- 💡 **Предлагайте улучшения**
+- 📢 **Расскажите о проекте** коллегам
+
+---
+
+## 🔧 Утилиты
+
+### Тестирование путей
 ```powershell
-# Только генерация .resources (без сборки)
-.\build.ps1 -NoBuild
-
-# Только сборка (без генерации .resources)
-.\build.ps1 -BuildOnly
-# или
-.\build.ps1 -NoResgen
-
-# Полный процесс (по умолчанию)
-.\build.ps1
+.\test-paths.ps1
 ```
 
-Обработка ошибок: При ошибках генерации .resources предлагается выбор - продолжать ли сборку
+### Проверка финальной сборки
+```powershell
+.\final-check.ps1
+```
+
+### Локальный тест workflow
+```powershell
+.\test-local-workflow.ps1
+```
+
+### Управление версиями
+```powershell
+Import-Module .\VersionManager.psm1
+```
+
+---
+
+## 🚀 GitHub Actions Workflow
+
+### `pack-and-release.yml`
+
+**Триггеры:**
+- Push в ветку `main`
+- Создание релиза
+- Ручной запуск
+
+**Этапы:**
+1. **Checkout** - получение кода
+2. **Setup .NET** - установка .NET SDK
+3. **Convert RESX** - конвертация .resx в .resources
+4. **Build NuGet** - сборка NuGet пакета
+5. **Build Marketplace** - сборка Marketplace пакета
+6. **Upload Artifacts** - загрузка артефактов
+
+**Команды в workflow:**
+```yaml
+- name: Convert RESX to Resources
+  run: .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
+
+- name: Build NuGet Package
+  run: .\resx-to-resources.ps1 -BuildOnly
+```
+
+---
+
+## 📊 Процесс сборки
+
+### Этап 1: Проверка изменений
+- Загружаются хэши из `build/resx-hashes.json`
+- Вычисляются хэши текущих файлов
+- Определяются измененные/новые/удаленные файлы
+
+### Этап 2: Управление версиями
+- При изменениях: инкрементируется версия (2025.3.0.4 → 2025.3.0.5)
+- Обновляются .nuspec файлы
+- Обновляются .resx файлы
+
+### Этап 3: Конвертация
+- Только измененные файлы конвертируются с помощью ResGen
+- Результат сохраняется в `build/resources/`
+
+### Этап 4: Сборка пакетов
+1. **NuGet пакет** - для установки через ReSharper
+2. **Marketplace пакет** - для публикации в JetBrains Marketplace
+
+---
+
+## 📝 Примеры перевода
+
+**Элементы интерфейса:**
+- `PleaseHelpUsImprove_Text` → "Помогите нам стать лучше"
+- `ConvertThemedIconsActionText` → "Преобразовать тематические значки…"
+- `DisableOtherInstance_Text` → "Отключить другой экземпляр"
+- `ProvideFeedback_Text` → "Оставить отзыв"
+- `CopyFullPathActionText` → "Копировать полный путь"
+
+**Терминология:**
+- `Code Inspection` → "Проверка кода"
+- `Refactoring` → "Рефакторинг"
+- `Quick Fix` → "Быстрое исправление"
+- `Solution` → "Решение"
+- `Project` → "Проект"
+
+---
+
+## ⚙️ Требования для локальной сборки
+
+1. **.NET SDK** - для работы ResGen
+2. **NuGet CLI** (nuget.exe) - для создания пакетов
+   - Установить: `winget install Microsoft.NuGet`
+   - Или скачать: https://www.nuget.org/downloads
+3. **PowerShell 5.1+** - для выполнения скриптов
+4. **ResGen.exe** - обычно входит в состав Windows SDK или .NET SDK
+
+---
+
+## 📦 Результаты сборки
+
+После успешной сборки артефакты будут доступны в папках:
+- `MarketplaceFolder/BaHooo.ReSharper.I18n.ru/artifacts/` - JetBrains Marketplace
+- `NugetFolder/BaHooo.ReSharper.I18n.ru/artifacts/` - NuGet
+
+**Формат имени пакета:** `BaHooo.ReSharper.I18n.ru.{версия}.nupkg`
+
+---
+
+## 🔄 Версионирование
+
+**Формат версии:** `ГГГГ.Майнор.Минор.Билд`
+
+**Пример:** `2025.3.0.7`
+- `2025` - год релиза
+- `3` - мажорная версия ReSharper (2025.3)
+- `0` - минорная версия пакета
+- `7` - номер сборки (инкрементируется при изменениях)
+
+**Файлы, где обновляется версия:**
+- `NugetFolder/BaHooo.ReSharper.I18n.ru.nuspec`
+- `MarketplaceFolder/BaHooo.ReSharper.I18n.ru.nuspec`
+- `raw-resx-done_ru-RU/JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx`
+- `raw-resx-done_ru-RU/JetBrains.UI.Resources.Strings.ru-RU.resx`
+
+---
+
+## 📜 Лицензия
+
+### Основная лицензия
+**Creative Commons Attribution‑NonCommercial‑ShareAlike 4.0 International (CC BY‑NC‑SA 4.0)**  
+Copyright (c) 2025 Ivan "BaHooo" Zelenkevich
+
+### Условия:
+- **Attribution (BY)**: Указывайте автора (Ivan "BaHooo" Zelenkevich) и ссылку на оригинальный репозиторий
+- **NonCommercial (NC)**: Только для некоммерческого использования
+- **ShareAlike (SA)**: Производные работы под той же лицензией
+
+### Коммерческое использование:
+Требуется отдельное лицензионное соглашение с автором:
+📧 E-Mail: a7706061@outlook.com  
+📱 Telegram: [Иван "BaHooo" 3](https://t.me/compohelp_vitebsk)
+
+---
+
+## 🤝 Обратная связь
+
+### Сообщение об ошибках:
+- **GitHub Issues**: [https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)
+- **Telegram**: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)
+
+### Предложения по переводу:
+- Создайте Issue с пометкой "translation"
+- Укажите исходную фразу и ваш вариант перевода
+- Объясните, почему ваш вариант лучше
+
+---
+
+## 🐛 Отладка и решение проблем
+
+### Проверка логов
+```powershell
+# Основной лог
+Get-Content build.log -Tail 50
+
+# Лог ошибок
+Get-Content build.errors.log
+
+# Кэш хэшей
+Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
+```
+
+### Тестирование компонентов
+```powershell
+# Проверка путей и зависимостей
+.\test-paths.ps1
+
+# Локальный тест полного workflow
+.\test-local-workflow.ps1
+
+# Проверка финальных артефактов
+.\final-check.ps1
+```
+
+### Частые проблемы и решения:
+
+1. **"nuget.exe not found"**
+   ```powershell
+   winget install Microsoft.NuGet
+   # или
+   # Скачайте с https://www.nuget.org/downloads
+   # и добавьте в PATH
+   ```
+
+2. **"ResGen not found"**
+   ```powershell
+   # Установите Windows SDK или .NET SDK
+   # ResGen обычно находится в:
+   # C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+   ```
+
+3. **"Permission denied"**
+   ```powershell
+   # Запустите PowerShell от администратора
+   # или измените права на папку build/
+   ```
+
+4. **Хэш-файл поврежден**
+   ```powershell
+   # Удалите кэш и выполните полную конвертацию
+   Remove-Item build\resx-hashes.json -ErrorAction SilentlyContinue
+   .\resx-to-resources.ps1 -ForceAll
+   ```
+
+5. **Нет изменений, но нужна сборка**
+   ```powershell
+   # Принудительная конвертация всех файлов
+   .\resx-to-resources.ps1 -ForceAll
+   ```
+
+---
+
+## 📝 Рекомендации по работе
+
+### Для разработчиков:
+```powershell
+# Ежедневная работа
+.\resx-to-resources.ps1
+
+# После изменений в нескольких файлах
+.\resx-to-resources.ps1 -NoBuild
+# Проверить результат, затем:
+.\resx-to-resources.ps1 -BuildOnly
+```
+
+### Для CI/CD:
+```powershell
+# Первый этап: конвертация
+.\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
+
+# Второй этап: сборка
+.\resx-to-resources.ps1 -BuildOnly
+```
+
+### Для отладки:
+```powershell
+# Проверить состояние
+.\test-paths.ps1
+
+# Полный лог с деталями
+.\resx-to-resources.ps1 2>&1 | Tee-Object -FilePath debug.log
+
+# Проверить конкретный файл
+# (временно добавьте -Verbose к скрипту)
+```
+
+---
+
+## 🎉 История проекта
+
+**Вехи проекта:**
+- **2024.11.27** - Родилась Аня "Pixel" Зеленкевич
+- **2025.11.27** - Проект начат
+- **2025.12.1** - Первая сборка
+- **2025.12.8** - Текущий релиз (версия 2025.3.0.7)
+
+---
+
+## 🔗 Полезные ссылки
+
+- [JetBrains Marketplace](https://plugins.jetbrains.com/)
+- [NuGet Gallery](https://www.nuget.org/)
+- [ReSharper Documentation](https://www.jetbrains.com/resharper/documentation/)
+- [GitHub Actions Documentation](https://docs.github.com/en/actions)
+- [Лицензия CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- **Поддержать проект:** https://destream.net/live/bahooo22_06537/donate

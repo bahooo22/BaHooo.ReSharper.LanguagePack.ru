@@ -3,7 +3,7 @@
   <metadata>
     <!-- IDENTIFICATION -->
     <id>BaHooo.ReSharper.I18n.ru</id>
-    <version>2025.3.0.7</version>
+    <version>2025.3.0.8</version>
     <title>Russian Language Pack for ReSharper</title>
 
     <!-- AUTHORS -->
@@ -151,6 +151,8 @@ English:
           target="DotFiles/Extensions/BaHooo.ReSharper.I18n.ru/i18n" />
   </files>
 </package>
+
+
 
 
 
