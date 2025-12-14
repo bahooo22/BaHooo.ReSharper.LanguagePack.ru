@@ -33,6 +33,84 @@ param(
 $resgen = 'c:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\ResGen.exe'
 $HashesFile = ".\build\resx-hashes.json"  # Файл для хранения хэшей
 
+function Show-Help {
+    Write-Host @"
+ИСПОЛЬЗОВАНИЕ:
+    .\resx-to-resources.ps1 [ПАРАМЕТРЫ]
+
+ПАРАМЕТРЫ:
+    -ResxFolder <путь>          Папка с исходными .resx файлами (по умолчанию: .\raw-resx-done_ru-RU)
+    -ResourcesOutput <путь>     Папка для сгенерированных .resources файлов (по умолчанию: .\build\resources)
+    -Version <версия>           Версия сборки (по умолчанию: автоматическое определение)
+    -LogFile <файл>             Файл лога (по умолчанию: build.log)
+    -ErrorLogFile <файл>        Файл лога ошибок (по умолчанию: build.errors.log)
+    
+    -NoResgen, -nr              Пропустить генерацию .resources файлов
+    -BuildOnly, -bo             Только сборка (пропустить генерацию .resources)
+    -NoBuild, -nb               Только генерация .resources (пропустить сборку)
+    -SyncVersions, -sv          Синхронизировать версии перед выполнением
+    -SkipVersionUpdate, -svu    Отключить автоматическое обновление версии (для CI/CD)
+    -ForceAll, -fa              Принудительная конвертация ВСЕХ .resx файлов (для CI/CD)
+    
+    -Help, -h                   Показать эту справку
+
+ФУНКЦИОНАЛ ПРОВЕРКИ ИЗМЕНЕНИЙ:
+    Скрипт автоматически отслеживает изменения в .resx файлах:
+    - Сохраняет хэши SHA256 всех .resx файлов в .\build\resx-hashes.json
+    - При запуске проверяет, были ли изменения с последней конвертации
+    - Если изменений нет, предлагает пропустить этап конвертации
+    - Конвертирует ТОЛЬКО изменившиеся или новые файлы
+    - Удаленные файлы отмечаются, но не влияют на конвертацию
+
+АВТОМАТИЧЕСКОЕ ОБНОВЛЕНИЕ ВЕРСИИ:
+    При обнаружении изменений в .resx файлах скрипт автоматически:
+    1. Инкрементирует версию (формат: 2025.3.0.4 → 2025.3.0.5)
+    2. Обновляет версию в .nuspec файлах:
+        - NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
+        - MarketplaceFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
+    3. Обновляет версию в .resx файлах:
+        - raw-resx-done_ru-RU\JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx
+        - raw-resx-done_ru-RU\JetBrains.UI.Resources.Strings.ru-RU.resx
+
+СИНХРОНИЗАЦИЯ ВЕРСИЙ:
+    Используйте параметр -SyncVersions для принудительной синхронизации всех версий
+    перед выполнением конвертации или сборки.
+
+ИСПОЛЬЗОВАНИЕ В CI/CD:
+    Для GitHub Actions используйте параметры:
+    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
+    Это гарантирует:
+    - Конвертацию ВСЕХ .resx файлов (даже если хэш-файл сброшен)
+    - Автоинкремент версии отключен
+    - Только конвертация, сборка отдельно
+
+ПРИМЕРЫ:
+    ЛОКАЛЬНО (с автоинкрементом версии):
+    .\resx-to-resources.ps1                          # Полный процесс: проверка → конвертация → сборка
+    
+    CI/CD (без автоинкремента):
+    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild  # Только конвертация всех файлов
+    
+    Только сборка:
+    .\resx-to-resources.ps1 -BuildOnly               # Только сборка (пропустить resgen)
+    
+    Только конвертация:
+    .\resx-to-resources.ps1 -NoBuild                 # Только генерация .resources
+    
+    Краткие формы:
+    .\resx-to-resources.ps1 -fa -svu -nb             # Для CI/CD
+    .\resx-to-resources.ps1 -bo                      # Только сборка
+    .\resx-to-resources.ps1 -nr                      # Пропустить resgen
+    .\resx-to-resources.ps1 -sv                      # Синхронизация версий
+
+РЕЖИМЫ РАБОТЫ:
+    1. Без параметров:           проверка → resgen → сборка (полный процесс с автоинкрементом)
+    2. -NoBuild (-nb):           проверка → resgen → остановка
+    3. -BuildOnly (-bo):         проверка → сборка (пропуск resgen)
+    4. -ForceAll -SkipVersionUpdate: CI/CD режим (все файлы, без инкремента версии)
+"@
+}
+
 # Проверяем запрос помощи
 if ($Help -or $HelpAlias) {
     Show-Help
@@ -291,7 +369,7 @@ if ($syncVersions) {
     Write-Host "`n=== Этап 0: Синхронизация версий ===" -ForegroundColor Cyan
     
     try {
-        Sync-Versions -ProjectRoot $PSScriptRoot -Force:$true
+        Sync-Versions -ProjectRoot $PSScriptRoot -Force:$true -NewVersion $Version
         Write-Host "Синхронизация версий завершена" -ForegroundColor Green
     }
     catch {
@@ -322,27 +400,33 @@ if (-not $skipResgen) {
         $changes = Get-FilesToConvert -ResxFolder $ResxFolder -HashesFile $HashesFile
     }
     
-    # Если есть изменения, обновляем версию (если не отключено)
-    if ($changes.HasChanges -and $changes.FilesToConvert.Count -gt 0) {
-        if (-not $skipVersionUpdate) {
-            Write-Host "`nОбнаружены изменения, обновляю версию..." -ForegroundColor Yellow
-            
-            try {
-                # Используем модуль для обновления версий
-                $updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot
-                
-                Write-Host "Версия обновлена до: $($updateResult.Version)" -ForegroundColor Green
-                Write-Host "Обновлено файлов: $($updateResult.NuspecUpdated) nuspec, $($updateResult.ResxUpdated) resx" -ForegroundColor Green
-            }
-            catch {
-                Write-Host "Ошибка при обновлении версии: $_" -ForegroundColor Red
-                Write-Host "Продолжаю конвертацию без обновления версии" -ForegroundColor Yellow
-            }
-        } else {
-            Write-Host "`nОбнаружены изменения, но обновление версии отключено (-SkipVersionUpdate)" -ForegroundColor Gray
-        }
-    }
-    
+	# Если есть изменения, обновляем версию (если не отключено)
+	if ($changes.HasChanges -and $changes.FilesToConvert.Count -gt 0) {
+		if (-not $skipVersionUpdate) {
+			Write-Host "`nОбнаружены изменения, обновляю версию..." -ForegroundColor Yellow
+	
+			try {
+				# Если версия указана вручную, используем её
+				if ($Version) {
+					$updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot -NewVersion $Version
+					Write-Host "Версия принудительно установлена: $Version" -ForegroundColor Cyan
+				} else {
+					# Иначе автоинкремент
+					$updateResult = Update-AllVersions -ProjectRoot $PSScriptRoot
+					Write-Host "Версия обновлена автоматически до: $($updateResult.Version)" -ForegroundColor Green
+				}
+	
+				Write-Host "Обновлено файлов: $($updateResult.NuspecUpdated) nuspec, $($updateResult.ResxUpdated) resx" -ForegroundColor Green
+			}
+			catch {
+				Write-Host "Ошибка при обновлении версии: $_" -ForegroundColor Red
+				Write-Host "Продолжаю конвертацию без обновления версии" -ForegroundColor Yellow
+			}
+		} else {
+			Write-Host "`nОбнаружены изменения, но обновление версии отключено (-SkipVersionUpdate)" -ForegroundColor Gray
+		}
+	}
+		
     # Если нет файлов для конвертации и не указан ForceAll
     if (-not $forceAll -and $changes.FilesToConvert.Count -eq 0 -and $changes.TotalFiles -gt 0) {
         Write-Host "`n⚠️  Изменений в .resx файлах не обнаружено!" -ForegroundColor Yellow
@@ -500,80 +584,3 @@ if (-not $skipBuild) {
     "Building of packages was skipped by user request." | Tee-Object -FilePath $LogFile -Append
 }
 
-function Show-Help {
-    Write-Host @"
-ИСПОЛЬЗОВАНИЕ:
-    .\resx-to-resources.ps1 [ПАРАМЕТРЫ]
-
-ПАРАМЕТРЫ:
-    -ResxFolder <путь>          Папка с исходными .resx файлами (по умолчанию: .\raw-resx-done_ru-RU)
-    -ResourcesOutput <путь>     Папка для сгенерированных .resources файлов (по умолчанию: .\build\resources)
-    -Version <версия>           Версия сборки (по умолчанию: автоматическое определение)
-    -LogFile <файл>             Файл лога (по умолчанию: build.log)
-    -ErrorLogFile <файл>        Файл лога ошибок (по умолчанию: build.errors.log)
-    
-    -NoResgen, -nr              Пропустить генерацию .resources файлов
-    -BuildOnly, -bo             Только сборка (пропустить генерацию .resources)
-    -NoBuild, -nb               Только генерация .resources (пропустить сборку)
-    -SyncVersions, -sv          Синхронизировать версии перед выполнением
-    -SkipVersionUpdate, -svu    Отключить автоматическое обновление версии (для CI/CD)
-    -ForceAll, -fa              Принудительная конвертация ВСЕХ .resx файлов (для CI/CD)
-    
-    -Help, -h                   Показать эту справку
-
-ФУНКЦИОНАЛ ПРОВЕРКИ ИЗМЕНЕНИЙ:
-    Скрипт автоматически отслеживает изменения в .resx файлах:
-    - Сохраняет хэши SHA256 всех .resx файлов в .\build\resx-hashes.json
-    - При запуске проверяет, были ли изменения с последней конвертации
-    - Если изменений нет, предлагает пропустить этап конвертации
-    - Конвертирует ТОЛЬКО изменившиеся или новые файлы
-    - Удаленные файлы отмечаются, но не влияют на конвертацию
-
-АВТОМАТИЧЕСКОЕ ОБНОВЛЕНИЕ ВЕРСИИ:
-    При обнаружении изменений в .resx файлах скрипт автоматически:
-    1. Инкрементирует версию (формат: 2025.3.0.4 → 2025.3.0.5)
-    2. Обновляет версию в .nuspec файлах:
-        - NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
-        - MarketplaceFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec
-    3. Обновляет версию в .resx файлах:
-        - raw-resx-done_ru-RU\JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx
-        - raw-resx-done_ru-RU\JetBrains.UI.Resources.Strings.ru-RU.resx
-
-СИНХРОНИЗАЦИЯ ВЕРСИЙ:
-    Используйте параметр -SyncVersions для принудительной синхронизации всех версий
-    перед выполнением конвертации или сборки.
-
-ИСПОЛЬЗОВАНИЕ В CI/CD:
-    Для GitHub Actions используйте параметры:
-    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
-    Это гарантирует:
-    - Конвертацию ВСЕХ .resx файлов (даже если хэш-файл сброшен)
-    - Автоинкремент версии отключен
-    - Только конвертация, сборка отдельно
-
-ПРИМЕРЫ:
-    ЛОКАЛЬНО (с автоинкрементом версии):
-    .\resx-to-resources.ps1                          # Полный процесс: проверка → конвертация → сборка
-    
-    CI/CD (без автоинкремента):
-    .\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild  # Только конвертация всех файлов
-    
-    Только сборка:
-    .\resx-to-resources.ps1 -BuildOnly               # Только сборка (пропустить resgen)
-    
-    Только конвертация:
-    .\resx-to-resources.ps1 -NoBuild                 # Только генерация .resources
-    
-    Краткие формы:
-    .\resx-to-resources.ps1 -fa -svu -nb             # Для CI/CD
-    .\resx-to-resources.ps1 -bo                      # Только сборка
-    .\resx-to-resources.ps1 -nr                      # Пропустить resgen
-    .\resx-to-resources.ps1 -sv                      # Синхронизация версий
-
-РЕЖИМЫ РАБОТЫ:
-    1. Без параметров:           проверка → resgen → сборка (полный процесс с автоинкрементом)
-    2. -NoBuild (-nb):           проверка → resgen → остановка
-    3. -BuildOnly (-bo):         проверка → сборка (пропуск resgen)
-    4. -ForceAll -SkipVersionUpdate: CI/CD режим (все файлы, без инкремента версии)
-"@
-}
