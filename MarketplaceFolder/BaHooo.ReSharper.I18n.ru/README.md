@@ -4,7 +4,7 @@
 
 ![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
-Русский перевод интерфейсных строк JetBrains ReSharper.  
+Русский перевод интерфейсных строк ReSharper.  
 Автор: Ivan "BaHooo" Zelenkevich. Перевод основан на оригинальных строках ReSharper.
 
 ---
@@ -55,7 +55,6 @@
 
 ## 📜 Лицензия
 
-- Исходные строки принадлежат JetBrains.  
 - Перевод — авторская работа Ivan "BaHooo" Zelenkevich.  
 - Лицензия: [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).  
 - Коммерческое использование требует отдельного соглашения.  

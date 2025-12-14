@@ -1,1182 +1,1182 @@
 {
-  "JetBrains.dotTrace.VS.Properties.Resources.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:57.0736345+03:00",
-    "Hash": "53B2E9A9A6C976155827863E0BAF29D8CC4C3F3C8ECF76F58190F9AA40C2A7E1",
-    "Size": 6738
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:03:43.6923009+03:00",
-    "Hash": "DFA2896B358B683A452AD3E826A90288EF858A1143E7BCA28344A31F1FCAFB08",
-    "Size": 6966
-  },
-  "JetBrains.PsiFeatures.UIInteractive.SolutionAnalysis.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:34.9274777+03:00",
-    "Hash": "866E4178BDA387943ACD677300611B83BDBC6402F0148BC90AD8815B544AFA65",
-    "Size": 20910
-  },
-  "JetBrains.ReSharper.Intentions.Resources.Strings11.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:47:19.938527+03:00",
-    "Hash": "C7D0E35ACFCC64EAD6062995164E8964C478B5D55A80999E0775D68F4186E3C4",
-    "Size": 7693
-  },
-  "JetBrains.PsiFeatures.VisualStudio.ReSpeller.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:42:18.9778803+03:00",
-    "Hash": "38784C20730B3ED60B992C22FAE8718430EC4CE3EFDD01B0DDA4AAC18E98F892",
-    "Size": 6639
-  },
-  "JetBrains.Symbols.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.8356702+03:00",
-    "Hash": "1E5566B4A27BA3FB7D7630317E22FEE2EC9DB01C6FF4ADFDAF71FFFB3DCE2F20",
-    "Size": 7054
-  },
-  "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.594349+03:00",
-    "Hash": "FDC2D6F827CAA6EF1F0066E4E404E752E0481D23E8BBAD852A8E1A2EDD2D8EC4",
-    "Size": 53780
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs16.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:33:12.9455926+03:00",
-    "Hash": "1C4CC1B7EA8B1ACD92C08BA9365CEE5BA5F72ED93BF0C9D1DB1686B3A3D686F3",
-    "Size": 6515
-  },
-  "JetBrains.ReSharper.UnitTestExplorer.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.9379723+03:00",
-    "Hash": "18C0975C9CE564089D092A0C59377E10547F61B758109CA473448C31FF18AA4A",
-    "Size": 12264
-  },
-  "JetBrains.ReSharper.Refactorings.VB.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:35:03.3581619+03:00",
-    "Hash": "FB653D11885CD6EFF6F15EB5FC7EF81D629BE8D7A17D0C4F5A08410B35AC2564",
-    "Size": 16498
-  },
-  "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T02:52:24.566385+03:00",
-    "Hash": "A84DF7CFA7691193718046B04D6F65173600D128D2A1CD320F4925D838A0BCD2",
-    "Size": 94302
-  },
-  "JetBrains.Profiler.Configurations.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:48:16.6937186+03:00",
-    "Hash": "1AE1BA68C4C0368BA1E39FC1AA09D58077A6F6234331347EB3CB33E29DD9647B",
-    "Size": 7905
-  },
-  "JetBrains.ReSharper.Intentions.Xml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:47:20.3769073+03:00",
-    "Hash": "67F966BBF32619B49A72A838BE5CB22494DB20430AA1A08A12D8DBBD93A47CB4",
-    "Size": 14700
-  },
-  "JetBrains.ReSharper.Feature.Services.ExternalSources.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:46:26.7264402+03:00",
-    "Hash": "BD8F4B3A44893A26873DB19BE56F338AE236C34C3F655FD6DED76EDDE1541999",
-    "Size": 7905
-  },
-  "JetBrains.dotTrace.Ide.Core.UnitTesting.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:50:51.461714+03:00",
-    "Hash": "01963E611FBF73F8AFEB13DC193FF99352F500A761A3859A5BDB4BCC418979C6",
-    "Size": 7491
-  },
-  "JetBrains.ReSharper.InplaceRefactorings.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.2261609+03:00",
-    "Hash": "0ED0FA85CDFE17C8FE88967F9620C0CE277047C0883F2824AEFD75AB3C945C2F",
-    "Size": 9480
-  },
-  "JetBrains.ReSharper.Features.StructuralSearch.resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:28:25.2796636+03:00",
-    "Hash": "F222EC33A246A0DA1F90A4A4E8FD26FB0D661249EA435FF58E0FF91ED33C292A",
-    "Size": 6307
-  },
-  "JetBrains.TestBakery.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:05:13.2761748+03:00",
-    "Hash": "526D7F798CC568BAC5FB5FDE60BADD8B0551A9A40B65857F0D302F031BFB6EC7",
-    "Size": 6132
-  },
-  "JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:49:31.640407+03:00",
-    "Hash": "DDEB47E31252059D0773EEFCDCF9B507C9620861D0B66F004F911FFAD18FDD9D",
-    "Size": 7232
-  },
-  "JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.0127761+03:00",
-    "Hash": "4CD4C77208E083120564B7699BE94EF745430FE5C3EDA2AE96E53E8E7EA8552E",
-    "Size": 19825
-  },
-  "JetBrains.SourceView.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:52:29.3375574+03:00",
-    "Hash": "2DB7C7D7AB99A60F12EA3143DB1B22794C2B56E0AA5FA440B91698A4CB3120B3",
-    "Size": 7329
-  },
-  "JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:03:38.7155364+03:00",
-    "Hash": "AD0A09A2CF78325A23D4D3A003A474AC2024341C40A64CAEC8090FF5415741FE",
-    "Size": 6164
-  },
-  "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.2263896+03:00",
-    "Hash": "3EC0AAAE95FD5C41E5096C958E1D04131552E144D2330F7C8C902CE1A9A9AE43",
-    "Size": 41775
-  },
-  "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:02:08.2812914+03:00",
-    "Hash": "F8F681DEB058860BC5CE3702C34B3DE16FC2D090985E9F9EE86B0084168AE2C7",
-    "Size": 6199
-  },
-  "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T02:32:45.8551616+03:00",
-    "Hash": "FBBEAF700CBFD254D34790C76D0786028F8B68419CED95F9210F018AD4939523",
-    "Size": 103835
-  },
-  "JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:49:35.2780815+03:00",
-    "Hash": "E1A39FB4DCDFF06B997B758B291D7F5CE0EE89C5B53EEFCDF3689E035CF1485E",
-    "Size": 13417
-  },
-  "JetBrains.DotTrace.Ide.Rider.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:07:20.3867849+03:00",
-    "Hash": "16B81E27709C035C79C45D859BB11AA3F25EDC703E4E9608D8EAD6E7788556C3",
-    "Size": 6794
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:34:43.2405607+03:00",
-    "Hash": "76881A8130BD950198149F40C25795E30317DB5C9EFA014219E2E2E52BCB6861",
-    "Size": 6506
-  },
-  "JetBrains.ReSharper.Intentions.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T14:09:06.1430281+03:00",
-    "Hash": "3E75D963E7CB56AEDE6D060231B01EE3AE78B1B529E7DAD765D76925DA302210",
-    "Size": 25417
-  },
-  "JetBrains.Rider.Roslyn.Host.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T18:06:58.186665+03:00",
-    "Hash": "37A1FDB6944B640932F348E8FD1B91A2C24F6DCB710C445D6206063CEF80E85E",
-    "Size": 10957
-  },
-  "JetBrains.TextControl.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T04:05:02.7962475+03:00",
-    "Hash": "D6C0AC402B03A512D697412B23730DCCAE79D5DD918AE6784EF5CA66391A8229",
-    "Size": 12098
-  },
-  "JetBrains.dotMemory.Home.Presentation.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:01:43.7776372+03:00",
-    "Hash": "D16793D19E1CB1C99EE47C9352E85954A5EAF065EB6111A0845A70A39A57DC4D",
-    "Size": 6275
-  },
-  "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:48:54.5332744+03:00",
-    "Hash": "2073C4C0FF271F8E7073A8818A4CFBB774E3F8C605A4874140295A7F2A8F22DD",
-    "Size": 6346
-  },
-  "JetBrains.EntityFramework.Features.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T04:11:02.0253879+03:00",
-    "Hash": "2D14D603EDB987584E55337734778B4B936F5D104F692A3102602C7A682BD1D5",
-    "Size": 13131
-  },
-  "JetBrains.ReSharper.Psi.Asm.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T14:17:54.1228443+03:00",
-    "Hash": "3BF2E9DEFA168220F440A452A8BCB635EC60D4058CA0CCC52E9658A40D06C346",
-    "Size": 25020
-  },
-  "JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T03:59:06.111351+03:00",
-    "Hash": "783043EA30F3446966356A6ECF68F87CF5FC49A5FA9BCB709EF253C730A086D7",
-    "Size": 48267
-  },
-  "JetBrains.ReSharper.Intentions.Web.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:51.9146963+03:00",
-    "Hash": "B6526177C5D42506A2AB3C09916832E51D5AA0E1DF3CD5A29BD7E71518083A1E",
-    "Size": 128264
-  },
-  "JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:05:13.6079735+03:00",
-    "Hash": "1F12C92740A5E6FD3F2384C06FCD1A737E5F8C57890432E0DE9C8EFD368F2AAC",
-    "Size": 18798
-  },
-  "JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:04:16.9170799+03:00",
-    "Hash": "013E7296E78F12A301F4261522E14343993F15887582A0A53D7120E5CB46B252",
-    "Size": 6719
-  },
-  "JetBrains.ReSharper.Psi.VB.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T01:49:15.2879992+03:00",
-    "Hash": "DF800D2365A790F4D4569E0EBB2913225D6367D6646671650A24C92B35B04F6F",
-    "Size": 22381
-  },
-  "JetBrains.ReSharper.Plugins.Yaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:31:26.6147273+03:00",
-    "Hash": "40D61C81372FBA2A67BD7AA8AC53B3FE14F7E7D1F22BEF91A8F8DDA390F02124",
-    "Size": 6349
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs16RoslynAware.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:51:09.7650071+03:00",
-    "Hash": "09A58709AD60DB192F960B77629692C9512BC015F8641720A5D87ED61BB643AC",
-    "Size": 6097
-  },
-  "JetBrains.ReSharper.Intentions.VB.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T13:53:20.6037043+03:00",
-    "Hash": "3A5FDD0516F3306B167589F7079C4094F4BF2EA15A0C7297A7DEBA0169E2813E",
-    "Size": 26629
-  },
-  "JetBrains.ReSharper.UnitTestRunner.dotMemoryUnit.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T06:01:47.0419692+03:00",
-    "Hash": "AD14AFBFBDEFF48C6F5E6C9A43ECE0914CC8041243357822F60662F530F498B8",
-    "Size": 6947
-  },
-  "JetBrains.Application.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-08T03:41:07.7112471+03:00",
-    "Hash": "7FCEB784D3FCE9204AF0EB3DEED5E9497463C1DBC0C5F7E2A9ACEA11062C3CA8",
-    "Size": 118081
-  },
-  "JetBrains.ForTea.RiderPlugin.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:48:02.8095815+03:00",
-    "Hash": "F3401C91576868C2F8DC9539C529E35AAFCAA7BCA977263EEEEF8FDE796F5497",
-    "Size": 6333
-  },
-  "JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.3497097+03:00",
-    "Hash": "CD2580586A34A6EB47125F71D70E1C74904CB9AAD9383A3BE9F3A11D2AB6A1E2",
-    "Size": 17567
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs17.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:02:37.7176361+03:00",
-    "Hash": "DE480C49DC9BC60A675EEA42972F91FD715204668109E86106C5A71042C1FCE8",
-    "Size": 6188
-  },
-  "JetBrains.RdBackend.Common.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.8653032+03:00",
-    "Hash": "BE0BC6E5251FD9ECAFF4C2BBB854D646A3FAE0D706D211529F3FC2414EE1E6BA",
-    "Size": 52300
-  },
-  "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.1631678+03:00",
-    "Hash": "6278071D5FAD631F50C94EB6CBB8287EAC0B2DB8D426470D76F1B9295F629DD7",
-    "Size": 24568
-  },
-  "JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:09:03.8587343+03:00",
-    "Hash": "61ED21CB23745994F76909DC4EB7911FEEA2394E2A7D6202C6A324BE0C99EA0E",
-    "Size": 6970
-  },
-  "JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.4013486+03:00",
-    "Hash": "78C2EDD66C3A514D841B84B7190BCB911FD1C9C70F05D65AA926DE8A91EBAA07",
-    "Size": 20021
-  },
-  "JetBrains.Fleet.Backend.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:12:46.3668497+03:00",
-    "Hash": "1892C3BB0547AC1376388BDF853BF714FC0D9FA2F6A6764C4CB31871B7001D51",
-    "Size": 5933
-  },
-  "JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.3677782+03:00",
-    "Hash": "36F1B1268FAEBC1A51B53F15308D1A40B60EA1A9E47FBF08C9688E690D9CD321",
-    "Size": 9373
-  },
-  "JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:48:40.2414953+03:00",
-    "Hash": "F12A4DB5F004A1458E6002AF831BE127FA9294AB5106DBAD6613041DA4519201",
-    "Size": 7422
-  },
-  "JetBrains.TeamCity.Presentation.Resources.PresentationStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.5485726+03:00",
-    "Hash": "DE29C3C7809A2D9307402811DEBA5EB82670DF81C05703293B3B6309081F81ED",
-    "Size": 26894
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs16RoslynAware.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:48:34.5084706+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.1574942+03:00",
-    "Hash": "468A70A967B916328677AEB04BD6D39AF6924E167C6CF08B46333ABA64D3E948",
-    "Size": 10072
-  },
-  "JetBrains.CommandLine.CleanupCode.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:07:41.1141596+03:00",
-    "Hash": "901019C652368CBB21D4AFAB408C04BC7F054D55F150659C514BD529A11216AB",
-    "Size": 5966
-  },
-  "JetBrains.dotMemory.VisualStudio.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.7059321+03:00",
-    "Hash": "76981DFE116249808EA7C503E7D98FADF1BA94FAB19AE0920ED19C317946E489",
-    "Size": 8001
-  },
-  "JetBrains.ViewModels.Src.Options.Res.OptionsStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:11:21.2308215+03:00",
-    "Hash": "4FE3124564AFC66EEDDD1F210743A173F7DBAD4D1491DA2D7B843BA7A2B9A677",
-    "Size": 5926
-  },
-  "JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T17:59:49.2576198+03:00",
-    "Hash": "10ABBC4C6AD9C349ABDC5502B3A53E8D13964499A68B1719157FCF2924E64F6F",
-    "Size": 10797
-  },
-  "JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.9735133+03:00",
-    "Hash": "A9011B6045E8EFABE0592BFAFF24D1B6DD2A0064FB01950EA87715F147813D21",
-    "Size": 48968
-  },
-  "JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:36:07.0903656+03:00",
-    "Hash": "7372515760A928A67D83E2D5AB840105D6407EC0EBB9B2A429895F5841D0FF88",
-    "Size": 6537
-  },
-  "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.7355658+03:00",
-    "Hash": "D5832D01A4E0FFFF1769689D4D8A0CE765D89AC33567459772D90AF16AC66EAB",
-    "Size": 32965
-  },
-  "JetBrains.ReSharper.I18n.Services.Asp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:08:08.6251679+03:00",
-    "Hash": "3DE53A559D8667C12FB47517E0AA13B11E35242494F15FE7232024D7F4A388CE",
-    "Size": 6801
-  },
-  "JetBrains.ReSharper.Feature.Services.Resources.GroupingStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T18:21:40.4632239+03:00",
-    "Hash": "0C36EF4656453C66632D09C936A324901DAED96AA86B26150CD6BAB60E164211",
-    "Size": 10821
-  },
-  "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:51.7099052+03:00",
-    "Hash": "C4D515F56ADE061623D8B5DFFD8EE574E4D6C7E74FC519A7FC1380B4E4D16404",
-    "Size": 238391
-  },
-  "JetBrains.Standalone.Shell.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.2330969+03:00",
-    "Hash": "A8A6F7B09BA24AEB540DC8EB46E39D5B022907FC7CB026E2A0FA4FE06919114A",
-    "Size": 24403
-  },
-  "JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:02:15.0832347+03:00",
-    "Hash": "9A1A321C9799A9A0A0645D421D36317096D53EFD34FD3A8330FE636FB69F434E",
-    "Size": 7125
-  },
-  "JetBrains.PsiFeatures.VisualStudio.Debugger.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.9396472+03:00",
-    "Hash": "DFE9EDC5EE68E3BCBA9854443F5DD34C782755637D6D0E7CBACF2A5EDC2D2C9B",
-    "Size": 19902
-  },
-  "JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:21:14.6092725+03:00",
-    "Hash": "9CD56451D2FA121C72F753F5AF236350804660EC5DEAD9C36C89472FD598FFEA",
-    "Size": 7245
-  },
-  "JetBrains.Rider.Plugins.Verse.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:48:59.6193384+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:06:22.8021457+03:00",
-    "Hash": "8227BBC959A9D14D73FDF163E34491249624714863037A1CC328296973F62122",
-    "Size": 620127
-  },
-  "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.6221337+03:00",
-    "Hash": "E4B1EE62C239F1CD39C55FEEA332E9B9FE3AF12574F55FC604FC3B02E8A94F7E",
-    "Size": 8216
-  },
-  "JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T02:46:25.0580669+03:00",
-    "Hash": "2364A0973CE26022E28802EBD987B034E800C7854E61EABD236EF564AE901945",
-    "Size": 18756
-  },
-  "JetBrains.IDE.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-08T04:35:48.350287+03:00",
-    "Hash": "DD1284CD62286B0A60A7027607231F37DB4A24B91F8B19793D1006D437BA9190",
-    "Size": 32021
-  },
-  "JetBrains.DocumentManagers.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.8021783+03:00",
-    "Hash": "9810982974D9D18F45224F4A4694A00C4E36BB6D2B59D0690A3BE84978E1839D",
-    "Size": 13205
-  },
-  "JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T13:41:16.1460814+03:00",
-    "Hash": "67495B9902E32BF69A782E50049D86E852FB55D46571CA650AFEEF9DB7B21E43",
-    "Size": 30456
-  },
-  "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T03:01:35.6141227+03:00",
-    "Hash": "393EC1176DB90A43F3ACA47C17EDFEFDD74CD66A42A53423F9CA86380D98E1F6",
-    "Size": 78525
-  },
-  "JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:21:53.5765725+03:00",
-    "Hash": "C40DD0D09053F6DC4D1DEB6BDF2ABDA800021AA5C90C3F1B3FF0BE376BE8E207",
-    "Size": 9634
-  },
-  "JetBrains.ReSharper.Daemon.Specific.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T02:15:34.8192644+03:00",
-    "Hash": "A3BF1A7BBE91C6F85062208A4998142F3F94974A82436D18FC8E2A3253373F56",
-    "Size": 22873
-  },
-  "JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.4464507+03:00",
-    "Hash": "8CEA82CA9492615B02B067A6BE90F4E7C19D8291D6F29A2A2F4C984FA1981BFB",
-    "Size": 171024
-  },
-  "JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.3294043+03:00",
-    "Hash": "1855132940AC20FF65C2FDB45677BA9A4AE0EE99E66D680C70B3E8702CB2DBCE",
-    "Size": 59475
-  },
-  "JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:55:49.4072095+03:00",
-    "Hash": "3156EC629D6CD8BD99BAB01B747B3A4ADF057433C379763CBA6911F05997DBAC",
-    "Size": 8392
-  },
-  "JetBrains.Common.Util.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:06:15.159046+03:00",
-    "Hash": "30900D439A3DDD7D7258712A0943D688827D605AF24CD6A4323BCE2E46643B6B",
-    "Size": 15507
-  },
-  "JetBrains.SourceView.ViewModels.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:57.0124416+03:00",
-    "Hash": "160E13FB06C49C145E72941804D888230B884D730BC8D1D3AC95A9CDB7398546",
-    "Size": 6793
-  },
-  "JetBrains.UsageStatistics.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:45:54.5011936+03:00",
-    "Hash": "939C54FFB4FC415D3622931B8C10312220F7E731AB622478DEC67364F56E69C2",
-    "Size": 6745
-  },
-  "JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:46:39.7721717+03:00",
-    "Hash": "3816F0BCE78677C1CCB5081AE144BB15E2E22FC4F1D207628E9C18F38FC4C6D6",
-    "Size": 14098
-  },
-  "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.0336955+03:00",
-    "Hash": "71D92F94A99BF3D1C26A0567366C42CA067D80D0E14042749647DFAD9E516887",
-    "Size": 48400
-  },
-  "JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:09:59.2202129+03:00",
-    "Hash": "8295F006AB544C146AA8050AAD7C00DA6D8A7821DC2161566785CE12E2438033",
-    "Size": 8697
-  },
-  "JetBrains.Common.Util.Shell.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:58:17.974568+03:00",
-    "Hash": "0374275B90056A0088F14DBF56D11089E26BD0FE07C8700349A78AF1425A185C",
-    "Size": 6275
-  },
-  "JetBrains.ReSharper.I18n.Services.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T03:59:06.2424533+03:00",
-    "Hash": "39AFF501CAFDA2A12242299C0CC625D4C515BBD7934C761536F2854003DE6710",
-    "Size": 33881
-  },
-  "JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:06:22.6933794+03:00",
-    "Hash": "2448F201BC02FC484C86FB0E0974736268F546108BDED6AEA3909C6D4E82863F",
-    "Size": 105790
-  },
-  "JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:53:32.7437997+03:00",
-    "Hash": "5CC6C264832DFBED16A6A09D207887F8714B36C32BA02B91FCE968535F507341",
-    "Size": 8160
-  },
-  "JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx": {
-    "LastWriteTime": "2025-11-28T23:57:26.7717156+03:00",
-    "Hash": "E6F21E9282352C82931D9FFE1396D4DB09F74A629BDD951B2A3ACEF465FBEEFE",
-    "Size": 282319
-  },
-  "JetBrains.ReSharper.Resources.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T18:17:10.5294638+03:00",
-    "Hash": "2739D8087F3560EC18C9042A23D62C86E0F00166FCFB78B708CD1E0D9A42F9BD",
-    "Size": 14071
-  },
-  "JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.1953169+03:00",
-    "Hash": "CC629BB4FDF42E15F58C2E436AFF5956C6B2CE33746814BB3AC014D9D7B1AE7A",
-    "Size": 43953
-  },
-  "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:30:51.4086906+03:00",
-    "Hash": "7960E24F8E57744DFEEA0BAA4D5A225517DEA7D54D39E8C2E87E77626B86F705",
-    "Size": 6345
-  },
-  "JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.6769954+03:00",
-    "Hash": "A8BA08A9A246A1D30273B0050731651B7947648907E46BD0176EA699958FBCD7",
-    "Size": 14452
-  },
-  "JetBrains.Platform.UIInteractive.Text.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:08:07.4659644+03:00",
-    "Hash": "47E7A5DAF38E84D15CE2BF45C66EC8D419C0E1A508A91485F34ED4589D7FF431",
-    "Size": 5971
-  },
-  "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.1052462+03:00",
-    "Hash": "777CFEE7DE9E8C1CD177C8409A051606FE18D1CBB150AC2D9A0AFB20EB63C215",
-    "Size": 25433
-  },
-  "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.0063851+03:00",
-    "Hash": "DC76486A992EA0A8920C707EB175AEE232CBD0634F3DE7B26621D7C613737756",
-    "Size": 127293
-  },
-  "JetBrains.Standalone.TextControl.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.4898673+03:00",
-    "Hash": "103D2B1520349A8F34575754F1CAD6E0B336E846D287B4B54D2D48BDFC5FB0D4",
-    "Size": 8801
-  },
-  "JetBrains.UI.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-08T06:36:52.571028+03:00",
-    "Hash": "A7190B2A984ACFF92A989CE767375AAC85314E0885A1CBDA5FF2BBADC880BBB4",
-    "Size": 61640
-  },
-  "JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:55:51.8160515+03:00",
-    "Hash": "72AD3C4B848D0C0A2BF409099DFC0F86DD2D013A0D5C84611E417D233E5F3AC7",
-    "Size": 11693
-  },
-  "JetBrains.Rider.Backend.WebServices.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:17:50.1915863+03:00",
-    "Hash": "EB94051A3EC81F50A284EB5C1ACC151A6C68E19EE8C141B0D90C8945F09DF848",
-    "Size": 9430
-  },
-  "JetBrains.ReSharper.Daemon.Resx.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:54:55.9721125+03:00",
-    "Hash": "D5FD6CDDC10CCFE04397811744C7940B1E2A6F272811E0358D1372D5F667B7C4",
-    "Size": 11437
-  },
-  "JetBrains.SourceView.SourceViewUI.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:01:05.9255199+03:00",
-    "Hash": "CA96B01BE0EE301B1FBD53F7C0BF13676E028953C15344220DCDB0508B7F4FA7",
-    "Size": 6189
-  },
-  "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.1834119+03:00",
-    "Hash": "B3774705AA16A9CE45DC13599BF99B85B6F1FF77858C931E76D7EE4D99EB194A",
-    "Size": 63570
-  },
-  "JetBrains.TeamCity.Core.Resources.CoreStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:49:01.4471314+03:00",
-    "Hash": "35B455D56B05AAC50048FC0D5454B12BE8934652186A8B5404464666F6A643DD",
-    "Size": 13833
-  },
-  "JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:29:59.2178839+03:00",
-    "Hash": "3D5AF424D785CBF90545FF78048DA43DC75FC399A2FEF51C3A20A05F06E643FE",
-    "Size": 9117
-  },
-  "JetBrains.ReSharper.Features.Xml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:09:41.2242798+03:00",
-    "Hash": "59F965B1196B5D697827A8F9F49CFE1CB92D04E7B66CA288762F43206F577163",
-    "Size": 7073
-  },
-  "JetBrains.ReSharper.Features.Navigation.VB.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:06:48.5438759+03:00",
-    "Hash": "CA204B73C5D03436136CD40014C456F7CE2C4269722CD25DB77570BA2359935C",
-    "Size": 6717
-  },
-  "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T03:59:06.1603685+03:00",
-    "Hash": "F80C348083226A752E21786C0F0DD1077B7E9C4976C37874A1873EF006F348CB",
-    "Size": 276297
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs14.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:48:33.9394428+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs15.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:56:00.9153553+03:00",
-    "Hash": "622FF0C59B533F6FFD89299196448AC63C66EB629D527D16EEB03060B96628D3",
-    "Size": 6321
-  },
-  "JetBrains.PsiFeatures.UIInteractive.SolutionBuilder.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.5679875+03:00",
-    "Hash": "68485CF6169CEBCDE626EFB17A7732702DEDBFF26788176602E2F348DE552A6A",
-    "Size": 15550
-  },
-  "JetBrains.TestBakery.RiderPlugin.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:06:55.8298248+03:00",
-    "Hash": "BE7CEECBAB4B61B34915132289E9D85DC90F14CFD85DFFB55BE85C8066705CE6",
-    "Size": 5906
-  },
-  "JetBrains.ReSharper.UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:35:19.4088684+03:00",
-    "Hash": "F23AFD40E6B6E137B96A889D12F6C603F9ADC7F0362C2A345DD84B84E5A60208",
-    "Size": 6548
-  },
-  "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.6522264+03:00",
-    "Hash": "3E9FE3567787E9A521989BDEB3C3AC8111EACEF64D7070AD69259705AB775AEC",
-    "Size": 53044
-  },
-  "JetBrains.dotCover.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.3976913+03:00",
-    "Hash": "89E4C83B64BA4BAA19E4CA2C103AF8197C8C3975E2465C97B66F9BECB7283073",
-    "Size": 57871
-  },
-  "JetBrains.Common.SystemModulesOptionsManager.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:50:33.8749974+03:00",
-    "Hash": "E69BB04D251635F2A7FA0BAD86AAA91FA42A901A84F08DFF7E9DAC1B79E44869",
-    "Size": 7408
-  },
-  "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.8565824+03:00",
-    "Hash": "34B67457BAA6DAB3D9492CF3BAB8C688285110B3F78C0EFBF86BE3F290F69BAF",
-    "Size": 12920
-  },
-  "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:43:37.828869+03:00",
-    "Hash": "32A55E09DE025B8141D44D24BFD9F1373BA15EBC22B5D4B1F1C2E4017DA0F7D7",
-    "Size": 14824
-  },
-  "JetBrains.PsiFeatures.UIInteractive.LiveTemplates.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:34.8364973+03:00",
-    "Hash": "493E18D320FA60F20CDC3AEDB63FD0E68ED78A082AED6246B0A8DE9BAA20ED2C",
-    "Size": 9408
-  },
-  "JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:49:03.5320042+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.3994389+03:00",
-    "Hash": "4717D659F8F94BCF86F603C11913FDF13D1DA89C50598A2A0DD7302E04A7A0B0",
-    "Size": 16943
-  },
-  "GammaJul.ForTea.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:40:15.925999+03:00",
-    "Hash": "EC978137A318BA8742AD302773D496387380ECC57D850BDA502A192A04A70ABE",
-    "Size": 6612
-  },
-  "JetBrains.Standalone.Shell.Res.Stringtable.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:12:21.3187031+03:00",
-    "Hash": "778EB717B024FA2E591281E04BB3B84130C4CD8B9BCA02FCC92FF5D7FBFE0BC9",
-    "Size": 5916
-  },
-  "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.1893615+03:00",
-    "Hash": "D7A4D9BC31B88E5C5501AA0F0678AF8EF6A89B387E0B18F6E3CF8B9880D647C0",
-    "Size": 18821
-  },
-  "JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T02:47:32.5634385+03:00",
-    "Hash": "CE9DC67DB3123645DACE5977539A54B85438715595F2FF05DDB6E1284AC43FE8",
-    "Size": 18923
-  },
-  "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.3472249+03:00",
-    "Hash": "E0810C72D0291F239E570F856114B7220C46B1C753F794BFFE98FD420ACD1F77",
-    "Size": 40742
-  },
-  "JetBrains.Common.ViewModels.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:34.6852805+03:00",
-    "Hash": "86282A0DDB0C4CD3DF0AB6801B83178A293259044822872CCAC0620E243B6812",
-    "Size": 6715
-  },
-  "JetBrains.ReSharper.AI.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.0625889+03:00",
-    "Hash": "D43F4240CB15B24A30A120C4A7A07242E2CF41D55FB563DD818ACD08B7DEDBD1",
-    "Size": 19476
-  },
-  "JetBrains.dotMemory.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:41:23.7970819+03:00",
-    "Hash": "089005791D4B9768D5A4A5A331820D38B97E95363E5E23407E32D8EC803192FD",
-    "Size": 8575
-  },
-  "JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:54:49.8796604+03:00",
-    "Hash": "1DE1426BBFD49435D7027D89C31C265354EFE4E7F236ECB983C9E08DBCCA30CE",
-    "Size": 8083
-  },
-  "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.4287702+03:00",
-    "Hash": "C0EA52CC075DDB287EB07F90F6F4C9472FE2D7E23B5F629198034F78212913ED",
-    "Size": 36763
-  },
-  "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.5094162+03:00",
-    "Hash": "412C5BDA370F09D94D95F6BFB0CEEF2B952B501D517419AA7B314AA79528786B",
-    "Size": 36075
-  },
-  "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.4524826+03:00",
-    "Hash": "FA903A4819051EB7BD8F5B2B167354DA2D2469A48D9153FD04D76E97FEE68FBB",
-    "Size": 16321
-  },
-  "JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.3118179+03:00",
-    "Hash": "0F378CE61246D179D95D719336CFA1C7180BE9E7CEACE89CD837354474C3BED8",
-    "Size": 35815
-  },
-  "JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:52:42.2983502+03:00",
-    "Hash": "74B7CB036E27C0C9457D1D0E51A918C6A292F78FEA7A2129C670BD179C9886F0",
-    "Size": 6145
-  },
-  "JetBrains.DocumentModel.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:20:24.5473809+03:00",
-    "Hash": "C1DCD6C491F17ED31033AF69515B9A56DA99F2F92D01BF337571035A9EC50D84",
-    "Size": 7373
-  },
-  "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.7832081+03:00",
-    "Hash": "D7C1E7AA0A944F362B8CF6AAABFB564D77D1F17379E3A83D8D27A66AA36771D9",
-    "Size": 20842
-  },
-  "JetBrains.ReSharper.LiveTemplates.VB.Resources.Strings1.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:37:37.8857149+03:00",
-    "Hash": "73C3CADE8AE01D9EDCB7F9D403072B1D343D0B143046EE17D3FCC6804633D792",
-    "Size": 6522
-  },
-  "JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:15:56.7061967+03:00",
-    "Hash": "82A9162C0BBBE735FC178334F857DF0271A745A75C1FDFBC3C51942DFE668DA5",
-    "Size": 9283
-  },
-  "JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:22:28.7062224+03:00",
-    "Hash": "3157380BD72552927F3CA9BB092ABEA33C2DE851C17A6D1D11446868BF8F39F4",
-    "Size": 15365
-  },
-  "JetBrains.Rider.Test.Framework.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.7753173+03:00",
-    "Hash": "26FA4C1FA9C6973DFFB53279582A5EAE54453355151E99232106C32C712C60BD",
-    "Size": 7276
-  },
-  "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.5958248+03:00",
-    "Hash": "75B609ECCDE315B0345458C93EDE7532D9C93AE3007D79FB2B2716A82D802E6C",
-    "Size": 21040
-  },
-  "JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T18:17:38.3584862+03:00",
-    "Hash": "4672EB4D3B8A8F720091F9E9A08F7C92DAEE2CD6FF8B42500A5DD13E7BCF1C27",
-    "Size": 10729
-  },
-  "JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.7209193+03:00",
-    "Hash": "BD84A23FE80F2C00C3F57A867D7FE21C78AC59478EF7E25C5C2FF0006E700DA2",
-    "Size": 52539
-  },
-  "JetBrains.ReSharper.Psi.Resources.Strings1.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:25:49.2186345+03:00",
-    "Hash": "B0FA97545D9C3196ECE114009876C176AACB37E748F85D7B927DED903475F004",
-    "Size": 9923
-  },
-  "JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:56:41.8415656+03:00",
-    "Hash": "0E21D9E905FA3347B6842DDFBA5A8D8EEFB637C751A2C34DEE1CB418516D2250",
-    "Size": 12761
-  },
-  "JetBrains.ReSharper.Daemon.Xml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:10:50.7133554+03:00",
-    "Hash": "5405F656D0A66185F78418BC8AF03A7CF00E06829C9C5038F1D1AB664B781051",
-    "Size": 9430
-  },
-  "JetBrains.ReSharper.Features.ReSpeller.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.2507039+03:00",
-    "Hash": "5BB0ADFF87DF12E8950E1A4B498BB5A387D80791D3F832B6C2E45F464E4870F3",
-    "Size": 18702
-  },
-  "JetBrains.ReSharper.Refactorings.Resources.Strings13.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.3078165+03:00",
-    "Hash": "8CB5BD6808B1DFE84D2440707D2261B48D5DB515B9CF5D136385BC0A1F7DBDDC",
-    "Size": 18608
-  },
-  "OperatorsResolveCacheGenerator.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:49:05.9316738+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.PsiFeatures.UIInteractive.Refactorings.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:34.8794602+03:00",
-    "Hash": "976F19B3A3143056064D0C6BFE6F575D2F31874C67776BB9A0B2775C8BC0F485",
-    "Size": 6676
-  },
-  "JetBrains.ReSharper.Psi.RegExp.resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:11:01.0443816+03:00",
-    "Hash": "FAF54B0E3639B8CE1B032149D7EE8FC8261664C137D4CA59A345CD125DB49093",
-    "Size": 5941
-  },
-  "JetBrains.SourceView.SourceModel.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:10:39.8307472+03:00",
-    "Hash": "6755BEBC42C1F9D6EE0D28486AEE6B74F7411AF01CA83280BD8C0307B8B75742",
-    "Size": 5935
-  },
-  "JetBrains.Common.Resources.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.6146588+03:00",
-    "Hash": "EE4AC46E2408D2A53F5E4A98CC52A4946580944ADC62A0412490621C970B9B0D",
-    "Size": 15265
-  },
-  "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:34.9784365+03:00",
-    "Hash": "3D3BA6966E588AD4C721478D08D62629AF85799E25C10D964BFCD7B13CFA0745",
-    "Size": 922412
-  },
-  "JetBrains.ReSharper.I18n.Services.VB.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:44:12.1807319+03:00",
-    "Hash": "0990D9C20FC77AB5A941CC0E535ADCA934BD6096C51562A5768E9A17C2519864",
-    "Size": 6754
-  },
-  "JetBrains.ReSharper.Refactorings.BuildScripts.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.3559956+03:00",
-    "Hash": "AC414480DC048CB2A0B15FFB57639A659847D92D74678C6939EADF9ADDEB0A5A",
-    "Size": 6794
-  },
-  "JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T13:49:06.1904622+03:00",
-    "Hash": "FD02FE668D0BFF3BF4A416AEC31164764450B13E035850F1629073C73B537FC2",
-    "Size": 27327
-  },
-  "JetBrains.ReSharper.Features.RegExp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.1133702+03:00",
-    "Hash": "FFF567815AE3A8B0B466C39E8DF80F61F873552ED363F5911CA547419E60B133",
-    "Size": 19039
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs15.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:08:27.1585385+03:00",
-    "Hash": "926026B2705F4712AD19749E80747FBDAD0DA1B62887917BAF94A268F0430BA3",
-    "Size": 5969
-  },
-  "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.9096613+03:00",
-    "Hash": "57BECDBCD169C70EEBE4B9B833E9F2C62B25ADC111B1947B18EA9F09BF3A6F65",
-    "Size": 49651
-  },
-  "JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:33:29.2080477+03:00",
-    "Hash": "35B7BEA96F8FC2091289CEE4B2DC4CD26F806EDA8F1A33D3752E9A9FAEC12987",
-    "Size": 8804
-  },
-  "JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.312758+03:00",
-    "Hash": "0A5C22D1D12EAC5DC0CAD0AAB021E8756A64FE8E49CFE23747AA7EE506361AA3",
-    "Size": 24167
-  },
-  "JetBrains.Etw.Resources.UITexts.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:56:15.4075135+03:00",
-    "Hash": "707E697995192A3AB5E9231A545524F6C095668BA0DACFA1276E84FDD7B90A80",
-    "Size": 8846
-  },
-  "RiderPlugin.UnrealLink.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.510765+03:00",
-    "Hash": "774C6BC9AE84060828CF802B7AC04D7E87C9BAC99A90E872FA83809BA5C2DA1A",
-    "Size": 16273
-  },
-  "JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:01:16.7106198+03:00",
-    "Hash": "ABA864ABA4E5F60F70CFEFBF053E078E59E0BE0953DBDC307C9136D634857C9A",
-    "Size": 16396
-  },
-  "JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:53:20.7578531+03:00",
-    "Hash": "3A15B3BE0AF932211FB5A8F412A5D448CC860E4EB4F848E5CFC2966985956943",
-    "Size": 6101
-  },
-  "ApiParser.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T18:07:10.492076+03:00",
-    "Hash": "CDE5E60F00C866146C0DF5D1EB4267F9E6C432986A38246E01CCBFB715435035",
-    "Size": 11571
-  },
-  "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:32:36.0559976+03:00",
-    "Hash": "D181CFA7FCF87446B8A922371E260FEC916049E421F171B3A20DFE7233C09548",
-    "Size": 6478
-  },
-  "JetBrains.PsiFeatures.Web.UIInteractive.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-27T22:48:34.7796912+03:00",
-    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B",
-    "Size": 5816
-  },
-  "JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:43:09.3535181+03:00",
-    "Hash": "262E65E9D95639B07001BF18E62633A5E71FB37144E9796A7D454CFD6125B6BC",
-    "Size": 7882
-  },
-  "JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T01:08:06.8721753+03:00",
-    "Hash": "756A2621EC5DEFCD8725A61D4F181C2CCAE1DE78CC0DC193EC1F388416A39FC6",
-    "Size": 25084
-  },
-  "JetBrains.DotPeek.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T03:54:48.1907752+03:00",
-    "Hash": "6CCF51BDBD4C7ABAF9BA66DC65CC71EAB25FEB8BAF47A3A206862CAB0E687A09",
-    "Size": 30300
+  "JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:34:13.204892+03:00",
+    "Size": 6515,
+    "Hash": "A5EAB85848FDCF8B0089C3AB7B666E19C1972F2E308EAC161F783233B47EB168"
   },
   "JetBrains.Common.UI.Shell.Resources.Strings.ru-RU.resx": {
     "LastWriteTime": "2025-12-01T04:02:53.7424374+03:00",
-    "Hash": "1B1A09D746C275D65986D99518BDB0D5B9F15815AE284D69824A0DCDEB4CEB6A",
-    "Size": 6692
+    "Size": 6692,
+    "Hash": "1B1A09D746C275D65986D99518BDB0D5B9F15815AE284D69824A0DCDEB4CEB6A"
   },
-  "JetBrains.ReSharper.Psi.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T04:09:25.3980874+03:00",
-    "Hash": "41CC5999FBE05812068D4A4F2AAB55F0E26D51C9DBC158A471CE8B4F01C59259",
-    "Size": 13105
+  "JetBrains.ReSharper.Daemon.Resx.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:54:55.9721125+03:00",
+    "Size": 11437,
+    "Hash": "D5FD6CDDC10CCFE04397811744C7940B1E2A6F272811E0358D1372D5F667B7C4"
   },
-  "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:51.8343125+03:00",
-    "Hash": "9273EFBC743E4FA3A0BE00E38E9EAB1A8DA4F037595DC5672E974C7B5DF52FB3",
-    "Size": 139871
+  "JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.1953169+03:00",
+    "Size": 43953,
+    "Hash": "CC629BB4FDF42E15F58C2E436AFF5956C6B2CE33746814BB3AC014D9D7B1AE7A"
   },
-  "JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.140549+03:00",
-    "Hash": "B42D16C869BB0BD61A7DB5588C648880FC96638AC33EAE5C279BCE139F9F72BD",
-    "Size": 46754
+  "JetBrains.Platform.VisualStudio.SinceVs16RoslynAware.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:51:09.7650071+03:00",
+    "Size": 6097,
+    "Hash": "09A58709AD60DB192F960B77629692C9512BC015F8641720A5D87ED61BB643AC"
   },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs14RoslynAware.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:45:19.3458237+03:00",
-    "Hash": "16E4A260427D36B52171FB062857CB448A5761F46B2B9D6BA58EFD08080FFC34",
-    "Size": 6604
+  "JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:49:03.5320042+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
   },
-  "JetBrains.ReSharper.UnitTestFramework.Src.Features.TestLinker.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.4262126+03:00",
-    "Hash": "D4F7198B11245BF6AEDD8B5CFB293093EA7DDFBBDBBC04F142C6E09C7D6D4E83",
-    "Size": 22820
-  },
-  "JetBrains.PsiFeatures.UIInteractive.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:55.7385033+03:00",
-    "Hash": "BF757F487DF26CF01EADA0C760CB0FBCF295E0608539FF5728719EA02887391F",
-    "Size": 13373
-  },
-  "JetBrains.DotTrace.Ide.Core.Common.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:22:45.2225174+03:00",
-    "Hash": "7830BE0E7EE6E1B56EE9D23A085FB2FD0974145C85664B0767AF69DF67B7D79D",
-    "Size": 7391
-  },
-  "JetBrains.ReSharper.Features.Inspections.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.1806839+03:00",
-    "Hash": "64696331CA90772EF45C2EE625E5992AAF70889FFAC7AB350D419A0A8C8FFFF2",
-    "Size": 34882
-  },
-  "JetBrains.ReSharper.ReSharperTutorials.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:57:06.5936676+03:00",
-    "Hash": "758DB04A710655F4FFF0BA77818AADF8E8BFC96F9047C4BAA69D95FBAEB4AEB4",
-    "Size": 8426
-  },
-  "JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.0840912+03:00",
-    "Hash": "E5ACED0A28B4455314EB95D6FED26ACD7C634E3A8053051029E6B6A8227F217F",
-    "Size": 11939
-  },
-  "JetBrains.SourceView.FoldersMapping.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:10:33.1420043+03:00",
-    "Hash": "510E12B425F5813B6C32A76DE17124520B26F463C01D5C31F9C1E9262B898D4E",
-    "Size": 7023
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:55:21.7414628+03:00",
-    "Hash": "8D23B19D65D72DC838BD4DA047D072C9B88554FA19B539D988811024777046E5",
-    "Size": 6332
-  },
-  "JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:46:50.940688+03:00",
-    "Hash": "601C84E10FB2AA3FD8AA9BA7DDC11F5566DEF82247FB33B091F2F33F8DE9D41A",
-    "Size": 7808
-  },
-  "JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:30:23.6745458+03:00",
-    "Hash": "162C2574F5C92388D76766B1ACF55588ADDFAC28746E365132D8B0EC3D40ED1A",
-    "Size": 16114
-  },
-  "JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:57:49.6558109+03:00",
-    "Hash": "C468C0A11C3F374881CB4FAA342A32F5C95DE6DF1B5F96DDAF02A743B59EB187",
-    "Size": 6291
-  },
-  "JetBrains.ReSharper.I18n.Services.Xaml.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:42:50.234203+03:00",
-    "Hash": "BAB0421537D01886AE6CB6ED79010119D7EBA925245FC7491472108EEFF6D691",
-    "Size": 6699
-  },
-  "JetBrains.ReSharper.Daemon.Protobuf.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:15:42.3798662+03:00",
-    "Hash": "5F30B772B8270BBDA630D70EA452FEB0580A3C1A1FBE06BBB3FB6E4C60C482E6",
-    "Size": 9488
-  },
-  "JetBrains.ReSharper.Psi.Cpp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.7773809+03:00",
-    "Hash": "B071F87743C92703B96C3E6A09920A0EA3E33BBCC59B00B04145D1AA99C472A2",
-    "Size": 52503
-  },
-  "JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:41:42.9120004+03:00",
-    "Hash": "78B6CF5342F504518E519D4FD17E8768BAD4FF46F862A6750518D3CA21960C28",
-    "Size": 8603
-  },
-  "JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:56.5025894+03:00",
-    "Hash": "C8E4C38F5DF434F6C4783908D68FAEBB60E943DFAD38563C53871DA0B79A962B",
-    "Size": 8750
-  },
-  "JetBrains.Qodana.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:21:55.4662761+03:00",
-    "Hash": "6A6D207ED799F2EABB224B367571DF32465229F1777A6CAABB568D59EC4384B0",
-    "Size": 7303
-  },
-  "JetBrains.ReSharper.Daemon.BuildScripts.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:31:24.0499139+03:00",
-    "Hash": "3FE7DCC7F0AAF9AC59513BEC842550EFBFFB7B2529F3922CE19B96A5558E77F2",
-    "Size": 9034
-  },
-  "JetBrains.dotMemory.Model.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:28:56.097684+03:00",
-    "Hash": "05AC0617B712253F2D492A3DF716F32A62BC6AE19D550C7A3E92F2929F83B4BF",
-    "Size": 6348
-  },
-  "JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:55:15.4685071+03:00",
-    "Hash": "D6468E47F36D8E8FE65DA855D7F6C67974C477026F9CA7CC347320B80BCDCDA8",
-    "Size": 8014
-  },
-  "JetBrains.Platform.MsBuildHost.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:07:20.2039498+03:00",
-    "Hash": "334B6C2C1CD7B8F8DEB29DCA1FBDEDAEF802A13CFB81D899E78BDD035B9F9420",
-    "Size": 6087
-  },
-  "JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:58:30.3715104+03:00",
-    "Hash": "5318DD95D0DF5C27AC0117DBC02893D4CEA1E9330287EFC7F099EEDF4ECCD50D",
-    "Size": 8143
-  },
-  "JetBrains.Rider.MacAgent.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T05:08:50.836197+03:00",
-    "Hash": "DD443F2B3D7F8E037A6AC3744C8414D1E1E57CD2A02A1737FD8A6B462C3D2D38",
-    "Size": 5952
-  },
-  "JetBrains.Profiler.Home.Presentation.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:18:25.1859542+03:00",
-    "Hash": "E6414EA046D6CA331A665FFF6C26E92E85C26E2D5AD20C9CCD47F68968F5E845",
-    "Size": 15577
-  },
-  "JetBrains.Profiler.Resources.UITexts.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:06:22.7776411+03:00",
-    "Hash": "541D004FA9A0F710FD05BA4C65A508D1BA98F316B10502E3326E91FBEFF89BF9",
-    "Size": 53832
-  },
-  "JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:32:02.9388041+03:00",
-    "Hash": "502719E37E1B1EB298345D6CD121052EDFF27306A2464A74593C5AE8ABA62428",
-    "Size": 6526
-  },
-  "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-06T02:38:10.8452178+03:00",
-    "Hash": "C8D5A94999D71EB383C5999E938315833F924884FB9C2C0454D6CE6D74A2465D",
-    "Size": 23399
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.9818172+03:00",
-    "Hash": "DF0D5E7A0B26AE594C7C1CF88CC704F99AD196289F0FDBCA1CD6E64A2E9D8437",
-    "Size": 29511
-  },
-  "JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T01:07:39.6363232+03:00",
-    "Hash": "61D1F67BF965C9F4EE651F667B5CE0D3A8D1D1919702E42F4633359D615D8FF2",
-    "Size": 24892
-  },
-  "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:36:54.4263393+03:00",
-    "Hash": "F9E66FF48D83F898188F33DBD911360843EA224600891DB49429AB31AAFDE787",
-    "Size": 8606
-  },
-  "JetBrains.PsiFeatures.VisualStudio.SinceVs12.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:47:47.0096838+03:00",
-    "Hash": "92F40B788F8FA2E82B3C12E241E56F26EC75AD9E3FB238F4C29DC9ECA747A0D8",
-    "Size": 7986
-  },
-  "JetBrains.ReSharper.UnitTestProvider.MSTest10.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:41:28.083092+03:00",
-    "Hash": "5B82D92D99D641138B7468358CFCBD29ABA7EC99DA9B4341295A5F5764A6E286",
-    "Size": 6610
-  },
-  "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-07T04:01:35.2620462+03:00",
-    "Hash": "628C72705E8E40CC7911CEA22DF9588D64D27C29D125EAB180EC50B7A507F9DF",
-    "Size": 399741
-  },
-  "JetBrains.ReSharper.Daemon.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T12:23:04.9783877+03:00",
-    "Hash": "4D3CC932232EEAA07E7E9DA234291AC91271E42FAA493BABC7A02604BA79F5C3",
-    "Size": 45848
-  },
-  "JetBrains.ReSharper.Intentions.Resx.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:31:42.5095958+03:00",
-    "Hash": "E24454AF4C7896E780B639F2624A01838E0DCFD9C2B7C73E55A36CA2D5B898E5",
-    "Size": 8843
-  },
-  "JetBrains.Platform.VisualStudio.SinceVs11.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:18:46.1816694+03:00",
-    "Hash": "B18347971F1ABB86F00A302FF9F088AD5A1455040CE5F12639EBA0D7D7D45895",
-    "Size": 7070
-  },
-  "JetBrains.ReSharper.UnitTesting.Analysis.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T12:55:09.0145654+03:00",
-    "Hash": "71D16DB6C8E41C4912489E51776E13DF3A83F3998410EC3E3B3C08F0E6148022",
-    "Size": 33825
-  },
-  "DPA.Core.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:52.4654813+03:00",
-    "Hash": "F4D9A5880C789D6C361F83DBB25471B484A6FCCA0594D79CA7C68A45904ADDA2",
-    "Size": 54054
-  },
-  "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T04:47:03.9470778+03:00",
-    "Hash": "8ABC5232E694DE5279BF10F47140A26C75908398981E44D0FBF3D6512DCA6B30",
-    "Size": 50191
-  },
-  "JetBrains.Roslyn.Host.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:29:31.07621+03:00",
-    "Hash": "CF3FAE72B2FC54F1775B516B175F3E40105A2A8D109FACCE699DE2D695F7F99D",
-    "Size": 9181
-  },
-  "JetBrains.UI.Resources.CommonStrings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:53.8482858+03:00",
-    "Hash": "6FDBC0EB3D5F108DBCA93B003E3C99EEC175595D05A1EA9AB02C73DDE3C2A76F",
-    "Size": 31814
-  },
-  "JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-08T06:36:52.5659925+03:00",
-    "Hash": "4F552FA62582F9107D1B1222271717847CE358A7483CF660C2F700B86E69A4D5",
-    "Size": 10798
-  },
-  "DPA.Monitoring.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T03:13:19.7747819+03:00",
-    "Hash": "F7764C3A6588B8BBC0858A701DDEA3F0B6E25FA3862939E05F4A1B82B85EB3CB",
-    "Size": 16088
-  },
-  "JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:51:41.3046467+03:00",
-    "Hash": "AE10857EA09DF868BF34A350EE87915995EEE6422E19C09F17F00B400495612A",
-    "Size": 7458
-  },
-  "JetBrains.ReSharper.Refactorings.Properties.Resources.ru-RU.resx": {
-    "LastWriteTime": "2025-12-02T20:01:54.5124254+03:00",
-    "Hash": "6F6E24856F5C1E546C058932F767AC7DDC0D51FBA3CB57A844434201CE602BC9",
-    "Size": 21042
-  },
-  "Mono.Debugging.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-30T17:59:41.5229851+03:00",
-    "Hash": "D5C8DE06FA9F33C3640E6B66221966F5B6439DE922BC2E0FD25686498223998B",
-    "Size": 10766
-  },
-  "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T03:49:04.5994765+03:00",
-    "Hash": "0330DD125DCA52205BDFC933CCA94CC0AAEC51105FD66285A7F7966ECA093B55",
-    "Size": 7703
-  },
-  "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-11-29T05:15:11.1258658+03:00",
-    "Hash": "ADD97BE6C62E98D3FA5F65D02A21D25763D8E058FA1EEAFF63C70A93AC4FC87A",
-    "Size": 50022
+  "JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:05:13.6079735+03:00",
+    "Size": 18798,
+    "Hash": "1F12C92740A5E6FD3F2384C06FCD1A737E5F8C57890432E0DE9C8EFD368F2AAC"
   },
   "JetBrains.Qodana.VisualStudio.Common.Resources.Strings.ru-RU.resx": {
     "LastWriteTime": "2025-11-30T03:57:26.1217617+03:00",
-    "Hash": "CBDB72C4416B0EA195315310D7134AF6F5E0F717C597CAF10B30E65A4E74A73E",
-    "Size": 11136
+    "Size": 11136,
+    "Hash": "CBDB72C4416B0EA195315310D7134AF6F5E0F717C597CAF10B30E65A4E74A73E"
   },
-  "JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.ru-RU.resx": {
-    "LastWriteTime": "2025-12-01T04:34:13.204892+03:00",
-    "Hash": "A5EAB85848FDCF8B0089C3AB7B666E19C1972F2E308EAC161F783233B47EB168",
-    "Size": 6515
+  "JetBrains.dotMemory.Home.Presentation.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:01:43.7776372+03:00",
+    "Size": 6275,
+    "Hash": "D16793D19E1CB1C99EE47C9352E85954A5EAF065EB6111A0845A70A39A57DC4D"
+  },
+  "JetBrains.Common.SystemModulesOptionsManager.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:50:33.8749974+03:00",
+    "Size": 7408,
+    "Hash": "E69BB04D251635F2A7FA0BAD86AAA91FA42A901A84F08DFF7E9DAC1B79E44869"
+  },
+  "JetBrains.Application.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-08T03:41:07.7112471+03:00",
+    "Size": 118081,
+    "Hash": "7FCEB784D3FCE9204AF0EB3DEED5E9497463C1DBC0C5F7E2A9ACEA11062C3CA8"
+  },
+  "JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:51:41.3046467+03:00",
+    "Size": 7458,
+    "Hash": "AE10857EA09DF868BF34A350EE87915995EEE6422E19C09F17F00B400495612A"
+  },
+  "JetBrains.EntityFramework.Features.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T04:11:02.0253879+03:00",
+    "Size": 13131,
+    "Hash": "2D14D603EDB987584E55337734778B4B936F5D104F692A3102602C7A682BD1D5"
+  },
+  "JetBrains.ReSharper.Feature.Services.Resources.GroupingStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T18:21:40.4632239+03:00",
+    "Size": 10821,
+    "Hash": "0C36EF4656453C66632D09C936A324901DAED96AA86B26150CD6BAB60E164211"
+  },
+  "JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:43:09.3535181+03:00",
+    "Size": 7882,
+    "Hash": "262E65E9D95639B07001BF18E62633A5E71FB37144E9796A7D454CFD6125B6BC"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.ReSpeller.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:42:18.9778803+03:00",
+    "Size": 6639,
+    "Hash": "38784C20730B3ED60B992C22FAE8718430EC4CE3EFDD01B0DDA4AAC18E98F892"
+  },
+  "JetBrains.ReSharper.Resources.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T18:17:10.5294638+03:00",
+    "Size": 14071,
+    "Hash": "2739D8087F3560EC18C9042A23D62C86E0F00166FCFB78B708CD1E0D9A42F9BD"
+  },
+  "JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T01:08:06.8721753+03:00",
+    "Size": 25084,
+    "Hash": "756A2621EC5DEFCD8725A61D4F181C2CCAE1DE78CC0DC193EC1F388416A39FC6"
+  },
+  "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.8565824+03:00",
+    "Size": 12920,
+    "Hash": "34B67457BAA6DAB3D9492CF3BAB8C688285110B3F78C0EFBF86BE3F290F69BAF"
+  },
+  "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:43:37.828869+03:00",
+    "Size": 14824,
+    "Hash": "32A55E09DE025B8141D44D24BFD9F1373BA15EBC22B5D4B1F1C2E4017DA0F7D7"
+  },
+  "JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:41:42.9120004+03:00",
+    "Size": 8603,
+    "Hash": "78B6CF5342F504518E519D4FD17E8768BAD4FF46F862A6750518D3CA21960C28"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs14.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:48:33.9394428+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
+  },
+  "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:34.9784365+03:00",
+    "Size": 922412,
+    "Hash": "3D3BA6966E588AD4C721478D08D62629AF85799E25C10D964BFCD7B13CFA0745"
+  },
+  "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:02:08.2812914+03:00",
+    "Size": 6199,
+    "Hash": "F8F681DEB058860BC5CE3702C34B3DE16FC2D090985E9F9EE86B0084168AE2C7"
+  },
+  "JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:04:16.9170799+03:00",
+    "Size": 6719,
+    "Hash": "013E7296E78F12A301F4261522E14343993F15887582A0A53D7120E5CB46B252"
+  },
+  "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.6221337+03:00",
+    "Size": 8216,
+    "Hash": "E4B1EE62C239F1CD39C55FEEA332E9B9FE3AF12574F55FC604FC3B02E8A94F7E"
+  },
+  "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.3994389+03:00",
+    "Size": 16943,
+    "Hash": "4717D659F8F94BCF86F603C11913FDF13D1DA89C50598A2A0DD7302E04A7A0B0"
+  },
+  "JetBrains.UsageStatistics.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:45:54.5011936+03:00",
+    "Size": 6745,
+    "Hash": "939C54FFB4FC415D3622931B8C10312220F7E731AB622478DEC67364F56E69C2"
+  },
+  "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.0336955+03:00",
+    "Size": 48400,
+    "Hash": "71D92F94A99BF3D1C26A0567366C42CA067D80D0E14042749647DFAD9E516887"
+  },
+  "JetBrains.ReSharper.Intentions.Web.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:51.9146963+03:00",
+    "Size": 128264,
+    "Hash": "B6526177C5D42506A2AB3C09916832E51D5AA0E1DF3CD5A29BD7E71518083A1E"
+  },
+  "JetBrains.DotTrace.Ide.Core.Common.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:22:45.2225174+03:00",
+    "Size": 7391,
+    "Hash": "7830BE0E7EE6E1B56EE9D23A085FB2FD0974145C85664B0767AF69DF67B7D79D"
+  },
+  "JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.4013486+03:00",
+    "Size": 20021,
+    "Hash": "78C2EDD66C3A514D841B84B7190BCB911FD1C9C70F05D65AA926DE8A91EBAA07"
+  },
+  "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.1834119+03:00",
+    "Size": 63570,
+    "Hash": "B3774705AA16A9CE45DC13599BF99B85B6F1FF77858C931E76D7EE4D99EB194A"
+  },
+  "JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.1574942+03:00",
+    "Size": 10072,
+    "Hash": "468A70A967B916328677AEB04BD6D39AF6924E167C6CF08B46333ABA64D3E948"
+  },
+  "JetBrains.Common.Resources.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.6146588+03:00",
+    "Size": 15265,
+    "Hash": "EE4AC46E2408D2A53F5E4A98CC52A4946580944ADC62A0412490621C970B9B0D"
+  },
+  "JetBrains.DotTrace.Ide.Rider.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:07:20.3867849+03:00",
+    "Size": 6794,
+    "Hash": "16B81E27709C035C79C45D859BB11AA3F25EDC703E4E9608D8EAD6E7788556C3"
+  },
+  "JetBrains.dotMemory.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:41:23.7970819+03:00",
+    "Size": 8575,
+    "Hash": "089005791D4B9768D5A4A5A331820D38B97E95363E5E23407E32D8EC803192FD"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.3294043+03:00",
+    "Size": 59475,
+    "Hash": "1855132940AC20FF65C2FDB45677BA9A4AE0EE99E66D680C70B3E8702CB2DBCE"
+  },
+  "JetBrains.SourceView.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:52:29.3375574+03:00",
+    "Size": 7329,
+    "Hash": "2DB7C7D7AB99A60F12EA3143DB1B22794C2B56E0AA5FA440B91698A4CB3120B3"
+  },
+  "DPA.Monitoring.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:13:19.7747819+03:00",
+    "Size": 16088,
+    "Hash": "F7764C3A6588B8BBC0858A701DDEA3F0B6E25FA3862939E05F4A1B82B85EB3CB"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs11.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:18:46.1816694+03:00",
+    "Size": 7070,
+    "Hash": "B18347971F1ABB86F00A302FF9F088AD5A1455040CE5F12639EBA0D7D7D45895"
+  },
+  "JetBrains.ReSharper.Intentions.VB.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T13:53:20.6037043+03:00",
+    "Size": 26629,
+    "Hash": "3A5FDD0516F3306B167589F7079C4094F4BF2EA15A0C7297A7DEBA0169E2813E"
+  },
+  "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T05:15:11.1258658+03:00",
+    "Size": 50022,
+    "Hash": "ADD97BE6C62E98D3FA5F65D02A21D25763D8E058FA1EEAFF63C70A93AC4FC87A"
+  },
+  "JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.5025894+03:00",
+    "Size": 8750,
+    "Hash": "C8E4C38F5DF434F6C4783908D68FAEBB60E943DFAD38563C53871DA0B79A962B"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.7385033+03:00",
+    "Size": 13373,
+    "Hash": "BF757F487DF26CF01EADA0C760CB0FBCF295E0608539FF5728719EA02887391F"
+  },
+  "JetBrains.Rider.MacAgent.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:08:50.836197+03:00",
+    "Size": 5952,
+    "Hash": "DD443F2B3D7F8E037A6AC3744C8414D1E1E57CD2A02A1737FD8A6B462C3D2D38"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:53:32.7437997+03:00",
+    "Size": 8160,
+    "Hash": "5CC6C264832DFBED16A6A09D207887F8714B36C32BA02B91FCE968535F507341"
+  },
+  "JetBrains.ReSharper.Daemon.Xml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:10:50.7133554+03:00",
+    "Size": 9430,
+    "Hash": "5405F656D0A66185F78418BC8AF03A7CF00E06829C9C5038F1D1AB664B781051"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs16RoslynAware.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:48:34.5084706+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
+  },
+  "JetBrains.SourceView.SourceModel.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:10:39.8307472+03:00",
+    "Size": 5935,
+    "Hash": "6755BEBC42C1F9D6EE0D28486AEE6B74F7411AF01CA83280BD8C0307B8B75742"
+  },
+  "JetBrains.ReSharper.Features.ReSpeller.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.2507039+03:00",
+    "Size": 18702,
+    "Hash": "5BB0ADFF87DF12E8950E1A4B498BB5A387D80791D3F832B6C2E45F464E4870F3"
+  },
+  "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:48:54.5332744+03:00",
+    "Size": 6346,
+    "Hash": "2073C4C0FF271F8E7073A8818A4CFBB774E3F8C605A4874140295A7F2A8F22DD"
+  },
+  "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.4524826+03:00",
+    "Size": 16321,
+    "Hash": "FA903A4819051EB7BD8F5B2B167354DA2D2469A48D9153FD04D76E97FEE68FBB"
+  },
+  "JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:52:42.2983502+03:00",
+    "Size": 6145,
+    "Hash": "74B7CB036E27C0C9457D1D0E51A918C6A292F78FEA7A2129C670BD179C9886F0"
+  },
+  "JetBrains.ReSharper.I18n.Services.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:42:50.234203+03:00",
+    "Size": 6699,
+    "Hash": "BAB0421537D01886AE6CB6ED79010119D7EBA925245FC7491472108EEFF6D691"
+  },
+  "JetBrains.ReSharper.AI.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.0625889+03:00",
+    "Size": 19476,
+    "Hash": "D43F4240CB15B24A30A120C4A7A07242E2CF41D55FB563DD818ACD08B7DEDBD1"
+  },
+  "JetBrains.ReSharper.Features.StructuralSearch.resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:28:25.2796636+03:00",
+    "Size": 6307,
+    "Hash": "F222EC33A246A0DA1F90A4A4E8FD26FB0D661249EA435FF58E0FF91ED33C292A"
+  },
+  "JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.3497097+03:00",
+    "Size": 17567,
+    "Hash": "CD2580586A34A6EB47125F71D70E1C74904CB9AAD9383A3BE9F3A11D2AB6A1E2"
+  },
+  "JetBrains.Etw.Resources.UITexts.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:56:15.4075135+03:00",
+    "Size": 8846,
+    "Hash": "707E697995192A3AB5E9231A545524F6C095668BA0DACFA1276E84FDD7B90A80"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:55:21.7414628+03:00",
+    "Size": 6332,
+    "Hash": "8D23B19D65D72DC838BD4DA047D072C9B88554FA19B539D988811024777046E5"
+  },
+  "JetBrains.ReSharper.Refactorings.Resources.Strings13.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.3078165+03:00",
+    "Size": 18608,
+    "Hash": "8CB5BD6808B1DFE84D2440707D2261B48D5DB515B9CF5D136385BC0A1F7DBDDC"
+  },
+  "JetBrains.ReSharper.UnitTestProvider.MSTest10.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:41:28.083092+03:00",
+    "Size": 6610,
+    "Hash": "5B82D92D99D641138B7468358CFCBD29ABA7EC99DA9B4341295A5F5764A6E286"
+  },
+  "JetBrains.Platform.UIInteractive.Text.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:08:07.4659644+03:00",
+    "Size": 5971,
+    "Hash": "47E7A5DAF38E84D15CE2BF45C66EC8D419C0E1A508A91485F34ED4589D7FF431"
+  },
+  "JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.7209193+03:00",
+    "Size": 52539,
+    "Hash": "BD84A23FE80F2C00C3F57A867D7FE21C78AC59478EF7E25C5C2FF0006E700DA2"
+  },
+  "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:51.8343125+03:00",
+    "Size": 139871,
+    "Hash": "9273EFBC743E4FA3A0BE00E38E9EAB1A8DA4F037595DC5672E974C7B5DF52FB3"
+  },
+  "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T02:52:24.566385+03:00",
+    "Size": 94302,
+    "Hash": "A84DF7CFA7691193718046B04D6F65173600D128D2A1CD320F4925D838A0BCD2"
+  },
+  "JetBrains.ReSharper.Daemon.Specific.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T02:15:34.8192644+03:00",
+    "Size": 22873,
+    "Hash": "A3BF1A7BBE91C6F85062208A4998142F3F94974A82436D18FC8E2A3253373F56"
+  },
+  "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:51.7099052+03:00",
+    "Size": 238391,
+    "Hash": "C4D515F56ADE061623D8B5DFFD8EE574E4D6C7E74FC519A7FC1380B4E4D16404"
+  },
+  "JetBrains.ViewModels.Src.Options.Res.OptionsStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:11:21.2308215+03:00",
+    "Size": 5926,
+    "Hash": "4FE3124564AFC66EEDDD1F210743A173F7DBAD4D1491DA2D7B843BA7A2B9A677"
+  },
+  "JetBrains.UI.Resources.CommonStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.8482858+03:00",
+    "Size": 31814,
+    "Hash": "6FDBC0EB3D5F108DBCA93B003E3C99EEC175595D05A1EA9AB02C73DDE3C2A76F"
+  },
+  "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.3472249+03:00",
+    "Size": 40742,
+    "Hash": "E0810C72D0291F239E570F856114B7220C46B1C753F794BFFE98FD420ACD1F77"
+  },
+  "JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:02:15.0832347+03:00",
+    "Size": 7125,
+    "Hash": "9A1A321C9799A9A0A0645D421D36317096D53EFD34FD3A8330FE636FB69F434E"
+  },
+  "JetBrains.RdBackend.Common.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.8653032+03:00",
+    "Size": 52300,
+    "Hash": "BE0BC6E5251FD9ECAFF4C2BBB854D646A3FAE0D706D211529F3FC2414EE1E6BA"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs14RoslynAware.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:45:19.3458237+03:00",
+    "Size": 6604,
+    "Hash": "16E4A260427D36B52171FB062857CB448A5761F46B2B9D6BA58EFD08080FFC34"
+  },
+  "JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:58:30.3715104+03:00",
+    "Size": 8143,
+    "Hash": "5318DD95D0DF5C27AC0117DBC02893D4CEA1E9330287EFC7F099EEDF4ECCD50D"
+  },
+  "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T04:47:03.9470778+03:00",
+    "Size": 50191,
+    "Hash": "8ABC5232E694DE5279BF10F47140A26C75908398981E44D0FBF3D6512DCA6B30"
+  },
+  "JetBrains.Common.Util.Shell.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:58:17.974568+03:00",
+    "Size": 6275,
+    "Hash": "0374275B90056A0088F14DBF56D11089E26BD0FE07C8700349A78AF1425A185C"
+  },
+  "JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.4464507+03:00",
+    "Size": 171024,
+    "Hash": "8CEA82CA9492615B02B067A6BE90F4E7C19D8291D6F29A2A2F4C984FA1981BFB"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.9818172+03:00",
+    "Size": 29511,
+    "Hash": "DF0D5E7A0B26AE594C7C1CF88CC704F99AD196289F0FDBCA1CD6E64A2E9D8437"
+  },
+  "JetBrains.Profiler.Home.Presentation.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:18:25.1859542+03:00",
+    "Size": 15577,
+    "Hash": "E6414EA046D6CA331A665FFF6C26E92E85C26E2D5AD20C9CCD47F68968F5E845"
+  },
+  "JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx": {
+    "LastWriteTime": "2025-11-28T23:57:26.7717156+03:00",
+    "Size": 282319,
+    "Hash": "E6F21E9282352C82931D9FFE1396D4DB09F74A629BDD951B2A3ACEF465FBEEFE"
+  },
+  "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T03:01:35.6141227+03:00",
+    "Size": 78525,
+    "Hash": "393EC1176DB90A43F3ACA47C17EDFEFDD74CD66A42A53423F9CA86380D98E1F6"
+  },
+  "GammaJul.ForTea.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:40:15.925999+03:00",
+    "Size": 6612,
+    "Hash": "EC978137A318BA8742AD302773D496387380ECC57D850BDA502A192A04A70ABE"
+  },
+  "JetBrains.ReSharper.UnitTestFramework.Src.Features.TestLinker.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.4262126+03:00",
+    "Size": 22820,
+    "Hash": "D4F7198B11245BF6AEDD8B5CFB293093EA7DDFBBDBBC04F142C6E09C7D6D4E83"
+  },
+  "JetBrains.ReSharper.Psi.VB.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T01:49:15.2879992+03:00",
+    "Size": 22381,
+    "Hash": "DF800D2365A790F4D4569E0EBB2913225D6367D6646671650A24C92B35B04F6F"
+  },
+  "JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-14T13:02:58.7969374+03:00",
+    "Size": 10802,
+    "Hash": "FB118C3585BB530924E2D2487ABA6C11A01C38410319BF7271C7625A6C70EACD"
+  },
+  "JetBrains.ReSharper.Refactorings.BuildScripts.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.3559956+03:00",
+    "Size": 6794,
+    "Hash": "AC414480DC048CB2A0B15FFB57639A659847D92D74678C6939EADF9ADDEB0A5A"
+  },
+  "JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.0840912+03:00",
+    "Size": 11939,
+    "Hash": "E5ACED0A28B4455314EB95D6FED26ACD7C634E3A8053051029E6B6A8227F217F"
+  },
+  "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-06T02:38:10.8452178+03:00",
+    "Size": 23399,
+    "Hash": "C8D5A94999D71EB383C5999E938315833F924884FB9C2C0454D6CE6D74A2465D"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:34:43.2405607+03:00",
+    "Size": 6506,
+    "Hash": "76881A8130BD950198149F40C25795E30317DB5C9EFA014219E2E2E52BCB6861"
+  },
+  "JetBrains.Standalone.TextControl.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.4898673+03:00",
+    "Size": 8801,
+    "Hash": "103D2B1520349A8F34575754F1CAD6E0B336E846D287B4B54D2D48BDFC5FB0D4"
+  },
+  "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T02:32:45.8551616+03:00",
+    "Size": 103835,
+    "Hash": "FBBEAF700CBFD254D34790C76D0786028F8B68419CED95F9210F018AD4939523"
+  },
+  "JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:49:31.640407+03:00",
+    "Size": 7232,
+    "Hash": "DDEB47E31252059D0773EEFCDCF9B507C9620861D0B66F004F911FFAD18FDD9D"
+  },
+  "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:32:36.0559976+03:00",
+    "Size": 6478,
+    "Hash": "D181CFA7FCF87446B8A922371E260FEC916049E421F171B3A20DFE7233C09548"
+  },
+  "JetBrains.ReSharper.UnitTestExplorer.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.9379723+03:00",
+    "Size": 12264,
+    "Hash": "18C0975C9CE564089D092A0C59377E10547F61B758109CA473448C31FF18AA4A"
+  },
+  "JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:22:28.7062224+03:00",
+    "Size": 15365,
+    "Hash": "3157380BD72552927F3CA9BB092ABEA33C2DE851C17A6D1D11446868BF8F39F4"
+  },
+  "JetBrains.DocumentModel.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:20:24.5473809+03:00",
+    "Size": 7373,
+    "Hash": "C1DCD6C491F17ED31033AF69515B9A56DA99F2F92D01BF337571035A9EC50D84"
+  },
+  "JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:36:07.0903656+03:00",
+    "Size": 6537,
+    "Hash": "7372515760A928A67D83E2D5AB840105D6407EC0EBB9B2A429895F5841D0FF88"
+  },
+  "JetBrains.ReSharper.Intentions.Resx.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:31:42.5095958+03:00",
+    "Size": 8843,
+    "Hash": "E24454AF4C7896E780B639F2624A01838E0DCFD9C2B7C73E55A36CA2D5B898E5"
+  },
+  "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.9096613+03:00",
+    "Size": 49651,
+    "Hash": "57BECDBCD169C70EEBE4B9B833E9F2C62B25ADC111B1947B18EA9F09BF3A6F65"
+  },
+  "JetBrains.ReSharper.Daemon.BuildScripts.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:31:24.0499139+03:00",
+    "Size": 9034,
+    "Hash": "3FE7DCC7F0AAF9AC59513BEC842550EFBFFB7B2529F3922CE19B96A5558E77F2"
+  },
+  "JetBrains.ReSharper.UnitTestRunner.dotMemoryUnit.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T06:01:47.0419692+03:00",
+    "Size": 6947,
+    "Hash": "AD14AFBFBDEFF48C6F5E6C9A43ECE0914CC8041243357822F60662F530F498B8"
+  },
+  "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.5958248+03:00",
+    "Size": 21040,
+    "Hash": "75B609ECCDE315B0345458C93EDE7532D9C93AE3007D79FB2B2716A82D802E6C"
+  },
+  "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.1893615+03:00",
+    "Size": 18821,
+    "Hash": "D7A4D9BC31B88E5C5501AA0F0678AF8EF6A89B387E0B18F6E3CF8B9880D647C0"
+  },
+  "JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.9735133+03:00",
+    "Size": 48968,
+    "Hash": "A9011B6045E8EFABE0592BFAFF24D1B6DD2A0064FB01950EA87715F147813D21"
+  },
+  "JetBrains.dotTrace.VS.Properties.Resources.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:57.0736345+03:00",
+    "Size": 6738,
+    "Hash": "53B2E9A9A6C976155827863E0BAF29D8CC4C3F3C8ECF76F58190F9AA40C2A7E1"
+  },
+  "JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T13:41:16.1460814+03:00",
+    "Size": 30456,
+    "Hash": "67495B9902E32BF69A782E50049D86E852FB55D46571CA650AFEEF9DB7B21E43"
+  },
+  "Mono.Debugging.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T17:59:41.5229851+03:00",
+    "Size": 10766,
+    "Hash": "D5C8DE06FA9F33C3640E6B66221966F5B6439DE922BC2E0FD25686498223998B"
+  },
+  "JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:09:59.2202129+03:00",
+    "Size": 8697,
+    "Hash": "8295F006AB544C146AA8050AAD7C00DA6D8A7821DC2161566785CE12E2438033"
+  },
+  "JetBrains.Common.Util.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:06:15.159046+03:00",
+    "Size": 15507,
+    "Hash": "30900D439A3DDD7D7258712A0943D688827D605AF24CD6A4323BCE2E46643B6B"
+  },
+  "JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T13:49:06.1904622+03:00",
+    "Size": 27327,
+    "Hash": "FD02FE668D0BFF3BF4A416AEC31164764450B13E035850F1629073C73B537FC2"
+  },
+  "JetBrains.TeamCity.Presentation.Resources.PresentationStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.5485726+03:00",
+    "Size": 26894,
+    "Hash": "DE29C3C7809A2D9307402811DEBA5EB82670DF81C05703293B3B6309081F81ED"
+  },
+  "JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.6769954+03:00",
+    "Size": 14452,
+    "Hash": "A8BA08A9A246A1D30273B0050731651B7947648907E46BD0176EA699958FBCD7"
+  },
+  "JetBrains.Standalone.Shell.Res.Stringtable.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:12:21.3187031+03:00",
+    "Size": 5916,
+    "Hash": "778EB717B024FA2E591281E04BB3B84130C4CD8B9BCA02FCC92FF5D7FBFE0BC9"
+  },
+  "JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T17:59:49.2576198+03:00",
+    "Size": 10797,
+    "Hash": "10ABBC4C6AD9C349ABDC5502B3A53E8D13964499A68B1719157FCF2924E64F6F"
+  },
+  "JetBrains.dotTrace.Ide.Core.UnitTesting.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:50:51.461714+03:00",
+    "Size": 7491,
+    "Hash": "01963E611FBF73F8AFEB13DC193FF99352F500A761A3859A5BDB4BCC418979C6"
+  },
+  "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.2263896+03:00",
+    "Size": 41775,
+    "Hash": "3EC0AAAE95FD5C41E5096C958E1D04131552E144D2330F7C8C902CE1A9A9AE43"
+  },
+  "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T03:59:06.1603685+03:00",
+    "Size": 276297,
+    "Hash": "F80C348083226A752E21786C0F0DD1077B7E9C4976C37874A1873EF006F348CB"
+  },
+  "JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:55:49.4072095+03:00",
+    "Size": 8392,
+    "Hash": "3156EC629D6CD8BD99BAB01B747B3A4ADF057433C379763CBA6911F05997DBAC"
+  },
+  "JetBrains.Standalone.Shell.Avalonia.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.2330969+03:00",
+    "Size": 24403,
+    "Hash": "A8A6F7B09BA24AEB540DC8EB46E39D5B022907FC7CB026E2A0FA4FE06919114A"
+  },
+  "JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:15:56.7061967+03:00",
+    "Size": 9283,
+    "Hash": "82A9162C0BBBE735FC178334F857DF0271A745A75C1FDFBC3C51942DFE668DA5"
+  },
+  "JetBrains.ReSharper.Refactorings.VB.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:35:03.3581619+03:00",
+    "Size": 16498,
+    "Hash": "FB653D11885CD6EFF6F15EB5FC7EF81D629BE8D7A17D0C4F5A08410B35AC2564"
+  },
+  "JetBrains.ReSharper.Features.Xml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:09:41.2242798+03:00",
+    "Size": 7073,
+    "Hash": "59F965B1196B5D697827A8F9F49CFE1CB92D04E7B66CA288762F43206F577163"
+  },
+  "JetBrains.Rider.Backend.WebServices.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:17:50.1915863+03:00",
+    "Size": 9430,
+    "Hash": "EB94051A3EC81F50A284EB5C1ACC151A6C68E19EE8C141B0D90C8945F09DF848"
+  },
+  "JetBrains.DotPeek.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T03:54:48.1907752+03:00",
+    "Size": 30300,
+    "Hash": "6CCF51BDBD4C7ABAF9BA66DC65CC71EAB25FEB8BAF47A3A206862CAB0E687A09"
+  },
+  "JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:21:14.6092725+03:00",
+    "Size": 7245,
+    "Hash": "9CD56451D2FA121C72F753F5AF236350804660EC5DEAD9C36C89472FD598FFEA"
+  },
+  "JetBrains.ReSharper.Features.RegExp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.1133702+03:00",
+    "Size": 19039,
+    "Hash": "FFF567815AE3A8B0B466C39E8DF80F61F873552ED363F5911CA547419E60B133"
+  },
+  "JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:03:38.7155364+03:00",
+    "Size": 6164,
+    "Hash": "AD0A09A2CF78325A23D4D3A003A474AC2024341C40A64CAEC8090FF5415741FE"
+  },
+  "JetBrains.Rider.Roslyn.Host.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T18:06:58.186665+03:00",
+    "Size": 10957,
+    "Hash": "37A1FDB6944B640932F348E8FD1B91A2C24F6DCB710C445D6206063CEF80E85E"
+  },
+  "JetBrains.Rider.Plugins.Verse.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:48:59.6193384+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
+  },
+  "JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:55:51.8160515+03:00",
+    "Size": 11693,
+    "Hash": "72AD3C4B848D0C0A2BF409099DFC0F86DD2D013A0D5C84611E417D233E5F3AC7"
+  },
+  "JetBrains.Roslyn.Host.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:29:31.07621+03:00",
+    "Size": 9181,
+    "Hash": "CF3FAE72B2FC54F1775B516B175F3E40105A2A8D109FACCE699DE2D695F7F99D"
+  },
+  "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.4287702+03:00",
+    "Size": 36763,
+    "Hash": "C0EA52CC075DDB287EB07F90F6F4C9472FE2D7E23B5F629198034F78212913ED"
+  },
+  "JetBrains.ReSharper.Feature.Services.ExternalSources.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:46:26.7264402+03:00",
+    "Size": 7905,
+    "Hash": "BD8F4B3A44893A26873DB19BE56F338AE236C34C3F655FD6DED76EDDE1541999"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs15.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:08:27.1585385+03:00",
+    "Size": 5969,
+    "Hash": "926026B2705F4712AD19749E80747FBDAD0DA1B62887917BAF94A268F0430BA3"
+  },
+  "JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T02:46:25.0580669+03:00",
+    "Size": 18756,
+    "Hash": "2364A0973CE26022E28802EBD987B034E800C7854E61EABD236EF564AE901945"
+  },
+  "JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:21:53.5765725+03:00",
+    "Size": 9634,
+    "Hash": "C40DD0D09053F6DC4D1DEB6BDF2ABDA800021AA5C90C3F1B3FF0BE376BE8E207"
+  },
+  "JetBrains.Profiler.Configurations.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:48:16.6937186+03:00",
+    "Size": 7905,
+    "Hash": "1AE1BA68C4C0368BA1E39FC1AA09D58077A6F6234331347EB3CB33E29DD9647B"
+  },
+  "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:30:51.4086906+03:00",
+    "Size": 6345,
+    "Hash": "7960E24F8E57744DFEEA0BAA4D5A225517DEA7D54D39E8C2E87E77626B86F705"
+  },
+  "JetBrains.ReSharper.Features.Navigation.VB.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:06:48.5438759+03:00",
+    "Size": 6717,
+    "Hash": "CA204B73C5D03436136CD40014C456F7CE2C4269722CD25DB77570BA2359935C"
+  },
+  "JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T01:07:39.6363232+03:00",
+    "Size": 24892,
+    "Hash": "61D1F67BF965C9F4EE651F667B5CE0D3A8D1D1919702E42F4633359D615D8FF2"
+  },
+  "JetBrains.ReSharper.Refactorings.Properties.Resources.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.5124254+03:00",
+    "Size": 21042,
+    "Hash": "6F6E24856F5C1E546C058932F767AC7DDC0D51FBA3CB57A844434201CE602BC9"
+  },
+  "JetBrains.ReSharper.Features.Inspections.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.1806839+03:00",
+    "Size": 34882,
+    "Hash": "64696331CA90772EF45C2EE625E5992AAF70889FFAC7AB350D419A0A8C8FFFF2"
+  },
+  "JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:55:15.4685071+03:00",
+    "Size": 8014,
+    "Hash": "D6468E47F36D8E8FE65DA855D7F6C67974C477026F9CA7CC347320B80BCDCDA8"
+  },
+  "JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:53:20.7578531+03:00",
+    "Size": 6101,
+    "Hash": "3A15B3BE0AF932211FB5A8F412A5D448CC860E4EB4F848E5CFC2966985956943"
+  },
+  "JetBrains.Common.ViewModels.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:34.6852805+03:00",
+    "Size": 6715,
+    "Hash": "86282A0DDB0C4CD3DF0AB6801B83178A293259044822872CCAC0620E243B6812"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.Debugger.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.9396472+03:00",
+    "Size": 19902,
+    "Hash": "DFE9EDC5EE68E3BCBA9854443F5DD34C782755637D6D0E7CBACF2A5EDC2D2C9B"
+  },
+  "JetBrains.ReSharper.UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:35:19.4088684+03:00",
+    "Size": 6548,
+    "Hash": "F23AFD40E6B6E137B96A889D12F6C603F9ADC7F0362C2A345DD84B84E5A60208"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.SinceVs12.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:47:47.0096838+03:00",
+    "Size": 7986,
+    "Hash": "92F40B788F8FA2E82B3C12E241E56F26EC75AD9E3FB238F4C29DC9ECA747A0D8"
+  },
+  "JetBrains.ReSharper.InplaceRefactorings.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.2261609+03:00",
+    "Size": 9480,
+    "Hash": "0ED0FA85CDFE17C8FE88967F9620C0CE277047C0883F2824AEFD75AB3C945C2F"
+  },
+  "JetBrains.dotMemory.Model.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:28:56.097684+03:00",
+    "Size": 6348,
+    "Hash": "05AC0617B712253F2D492A3DF716F32A62BC6AE19D550C7A3E92F2929F83B4BF"
+  },
+  "JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:06:22.6933794+03:00",
+    "Size": 105790,
+    "Hash": "2448F201BC02FC484C86FB0E0974736268F546108BDED6AEA3909C6D4E82863F"
+  },
+  "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.0063851+03:00",
+    "Size": 127293,
+    "Hash": "DC76486A992EA0A8920C707EB175AEE232CBD0634F3DE7B26621D7C613737756"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.Refactorings.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:34.8794602+03:00",
+    "Size": 6676,
+    "Hash": "976F19B3A3143056064D0C6BFE6F575D2F31874C67776BB9A0B2775C8BC0F485"
+  },
+  "JetBrains.dotMemory.VisualStudio.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.7059321+03:00",
+    "Size": 8001,
+    "Hash": "76981DFE116249808EA7C503E7D98FADF1BA94FAB19AE0920ED19C317946E489"
+  },
+  "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:36:54.4263393+03:00",
+    "Size": 8606,
+    "Hash": "F9E66FF48D83F898188F33DBD911360843EA224600891DB49429AB31AAFDE787"
+  },
+  "JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.140549+03:00",
+    "Size": 46754,
+    "Hash": "B42D16C869BB0BD61A7DB5588C648880FC96638AC33EAE5C279BCE139F9F72BD"
+  },
+  "JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:46:39.7721717+03:00",
+    "Size": 14098,
+    "Hash": "3816F0BCE78677C1CCB5081AE144BB15E2E22FC4F1D207628E9C18F38FC4C6D6"
+  },
+  "JetBrains.ReSharper.I18n.Services.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T03:59:06.2424533+03:00",
+    "Size": 33881,
+    "Hash": "39AFF501CAFDA2A12242299C0CC625D4C515BBD7934C761536F2854003DE6710"
+  },
+  "JetBrains.Rider.Test.Framework.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.7753173+03:00",
+    "Size": 7276,
+    "Hash": "26FA4C1FA9C6973DFFB53279582A5EAE54453355151E99232106C32C712C60BD"
+  },
+  "JetBrains.dotCover.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.3976913+03:00",
+    "Size": 57871,
+    "Hash": "89E4C83B64BA4BAA19E4CA2C103AF8197C8C3975E2465C97B66F9BECB7283073"
+  },
+  "JetBrains.TestBakery.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:05:13.2761748+03:00",
+    "Size": 6132,
+    "Hash": "526D7F798CC568BAC5FB5FDE60BADD8B0551A9A40B65857F0D302F031BFB6EC7"
+  },
+  "JetBrains.ReSharper.Daemon.Protobuf.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:15:42.3798662+03:00",
+    "Size": 9488,
+    "Hash": "5F30B772B8270BBDA630D70EA452FEB0580A3C1A1FBE06BBB3FB6E4C60C482E6"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.SolutionAnalysis.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:34.9274777+03:00",
+    "Size": 20910,
+    "Hash": "866E4178BDA387943ACD677300611B83BDBC6402F0148BC90AD8815B544AFA65"
+  },
+  "JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.3677782+03:00",
+    "Size": 9373,
+    "Hash": "36F1B1268FAEBC1A51B53F15308D1A40B60EA1A9E47FBF08C9688E690D9CD321"
+  },
+  "JetBrains.ForTea.RiderPlugin.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:48:02.8095815+03:00",
+    "Size": 6333,
+    "Hash": "F3401C91576868C2F8DC9539C529E35AAFCAA7BCA977263EEEEF8FDE796F5497"
+  },
+  "JetBrains.TeamCity.Core.Resources.CoreStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:49:01.4471314+03:00",
+    "Size": 13833,
+    "Hash": "35B455D56B05AAC50048FC0D5454B12BE8934652186A8B5404464666F6A643DD"
+  },
+  "JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:30:23.6745458+03:00",
+    "Size": 16114,
+    "Hash": "162C2574F5C92388D76766B1ACF55588ADDFAC28746E365132D8B0EC3D40ED1A"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.LiveTemplates.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:34.8364973+03:00",
+    "Size": 9408,
+    "Hash": "493E18D320FA60F20CDC3AEDB63FD0E68ED78A082AED6246B0A8DE9BAA20ED2C"
+  },
+  "JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.0127761+03:00",
+    "Size": 19825,
+    "Hash": "4CD4C77208E083120564B7699BE94EF745430FE5C3EDA2AE96E53E8E7EA8552E"
+  },
+  "JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T18:17:38.3584862+03:00",
+    "Size": 10729,
+    "Hash": "4672EB4D3B8A8F720091F9E9A08F7C92DAEE2CD6FF8B42500A5DD13E7BCF1C27"
+  },
+  "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.2620462+03:00",
+    "Size": 399741,
+    "Hash": "628C72705E8E40CC7911CEA22DF9588D64D27C29D125EAB180EC50B7A507F9DF"
+  },
+  "JetBrains.Platform.MsBuildHost.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:07:20.2039498+03:00",
+    "Size": 6087,
+    "Hash": "334B6C2C1CD7B8F8DEB29DCA1FBDEDAEF802A13CFB81D899E78BDD035B9F9420"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:03:43.6923009+03:00",
+    "Size": 6966,
+    "Hash": "DFA2896B358B683A452AD3E826A90288EF858A1143E7BCA28344A31F1FCAFB08"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:32:02.9388041+03:00",
+    "Size": 6526,
+    "Hash": "502719E37E1B1EB298345D6CD121052EDFF27306A2464A74593C5AE8ABA62428"
+  },
+  "JetBrains.ReSharper.Psi.Resources.Strings1.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:25:49.2186345+03:00",
+    "Size": 9923,
+    "Hash": "B0FA97545D9C3196ECE114009876C176AACB37E748F85D7B927DED903475F004"
+  },
+  "JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:48:40.2414953+03:00",
+    "Size": 7422,
+    "Hash": "F12A4DB5F004A1458E6002AF831BE127FA9294AB5106DBAD6613041DA4519201"
+  },
+  "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.594349+03:00",
+    "Size": 53780,
+    "Hash": "FDC2D6F827CAA6EF1F0066E4E404E752E0481D23E8BBAD852A8E1A2EDD2D8EC4"
+  },
+  "JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T02:47:32.5634385+03:00",
+    "Size": 18923,
+    "Hash": "CE9DC67DB3123645DACE5977539A54B85438715595F2FF05DDB6E1284AC43FE8"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs16.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:33:12.9455926+03:00",
+    "Size": 6515,
+    "Hash": "1C4CC1B7EA8B1ACD92C08BA9365CEE5BA5F72ED93BF0C9D1DB1686B3A3D686F3"
+  },
+  "DPA.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.4654813+03:00",
+    "Size": 54054,
+    "Hash": "F4D9A5880C789D6C361F83DBB25471B484A6FCCA0594D79CA7C68A45904ADDA2"
+  },
+  "JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:54:49.8796604+03:00",
+    "Size": 8083,
+    "Hash": "1DE1426BBFD49435D7027D89C31C265354EFE4E7F236ECB983C9E08DBCCA30CE"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs17.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:02:37.7176361+03:00",
+    "Size": 6188,
+    "Hash": "DE480C49DC9BC60A675EEA42972F91FD715204668109E86106C5A71042C1FCE8"
+  },
+  "JetBrains.SourceView.SourceViewUI.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:01:05.9255199+03:00",
+    "Size": 6189,
+    "Hash": "CA96B01BE0EE301B1FBD53F7C0BF13676E028953C15344220DCDB0508B7F4FA7"
+  },
+  "JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:29:59.2178839+03:00",
+    "Size": 9117,
+    "Hash": "3D5AF424D785CBF90545FF78048DA43DC75FC399A2FEF51C3A20A05F06E643FE"
+  },
+  "JetBrains.UI.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-14T13:02:58.8334229+03:00",
+    "Size": 61644,
+    "Hash": "9AAD88DF42B9747CB90A73E19F99245182F318953072147665B65DD58A8B7545"
+  },
+  "JetBrains.ReSharper.Psi.Cpp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.7773809+03:00",
+    "Size": 52503,
+    "Hash": "B071F87743C92703B96C3E6A09920A0EA3E33BBCC59B00B04145D1AA99C472A2"
+  },
+  "JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:01:16.7106198+03:00",
+    "Size": 16396,
+    "Hash": "ABA864ABA4E5F60F70CFEFBF053E078E59E0BE0953DBDC307C9136D634857C9A"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.7832081+03:00",
+    "Size": 20842,
+    "Hash": "D7C1E7AA0A944F362B8CF6AAABFB564D77D1F17379E3A83D8D27A66AA36771D9"
+  },
+  "JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:09:03.8587343+03:00",
+    "Size": 6970,
+    "Hash": "61ED21CB23745994F76909DC4EB7911FEEA2394E2A7D6202C6A324BE0C99EA0E"
+  },
+  "JetBrains.CommandLine.CleanupCode.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:07:41.1141596+03:00",
+    "Size": 5966,
+    "Hash": "901019C652368CBB21D4AFAB408C04BC7F054D55F150659C514BD529A11216AB"
+  },
+  "JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.312758+03:00",
+    "Size": 24167,
+    "Hash": "0A5C22D1D12EAC5DC0CAD0AAB021E8756A64FE8E49CFE23747AA7EE506361AA3"
+  },
+  "JetBrains.ReSharper.Intentions.Resources.Strings11.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:47:19.938527+03:00",
+    "Size": 7693,
+    "Hash": "C7D0E35ACFCC64EAD6062995164E8964C478B5D55A80999E0775D68F4186E3C4"
+  },
+  "JetBrains.SourceView.ViewModels.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:57.0124416+03:00",
+    "Size": 6793,
+    "Hash": "160E13FB06C49C145E72941804D888230B884D730BC8D1D3AC95A9CDB7398546"
+  },
+  "JetBrains.ReSharper.Psi.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T04:09:25.3980874+03:00",
+    "Size": 13105,
+    "Hash": "41CC5999FBE05812068D4A4F2AAB55F0E26D51C9DBC158A471CE8B4F01C59259"
+  },
+  "JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:56:41.8415656+03:00",
+    "Size": 12761,
+    "Hash": "0E21D9E905FA3347B6842DDFBA5A8D8EEFB637C751A2C34DEE1CB418516D2250"
+  },
+  "JetBrains.Fleet.Backend.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:12:46.3668497+03:00",
+    "Size": 5933,
+    "Hash": "1892C3BB0547AC1376388BDF853BF714FC0D9FA2F6A6764C4CB31871B7001D51"
+  },
+  "JetBrains.DocumentManagers.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.8021783+03:00",
+    "Size": 13205,
+    "Hash": "9810982974D9D18F45224F4A4694A00C4E36BB6D2B59D0690A3BE84978E1839D"
+  },
+  "JetBrains.SourceView.FoldersMapping.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:10:33.1420043+03:00",
+    "Size": 7023,
+    "Hash": "510E12B425F5813B6C32A76DE17124520B26F463C01D5C31F9C1E9262B898D4E"
+  },
+  "JetBrains.PsiFeatures.UIInteractive.SolutionBuilder.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.5679875+03:00",
+    "Size": 15550,
+    "Hash": "68485CF6169CEBCDE626EFB17A7732702DEDBFF26788176602E2F348DE552A6A"
+  },
+  "JetBrains.Platform.VisualStudio.SinceVs15.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:56:00.9153553+03:00",
+    "Size": 6321,
+    "Hash": "622FF0C59B533F6FFD89299196448AC63C66EB629D527D16EEB03060B96628D3"
+  },
+  "JetBrains.ReSharper.Intentions.Xaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T14:09:06.1430281+03:00",
+    "Size": 25417,
+    "Hash": "3E75D963E7CB56AEDE6D060231B01EE3AE78B1B529E7DAD765D76925DA302210"
+  },
+  "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.7355658+03:00",
+    "Size": 32965,
+    "Hash": "D5832D01A4E0FFFF1769689D4D8A0CE765D89AC33567459772D90AF16AC66EAB"
+  },
+  "JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:06:22.8021457+03:00",
+    "Size": 620127,
+    "Hash": "8227BBC959A9D14D73FDF163E34491249624714863037A1CC328296973F62122"
+  },
+  "JetBrains.ReSharper.LiveTemplates.VB.Resources.Strings1.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:37:37.8857149+03:00",
+    "Size": 6522,
+    "Hash": "73C3CADE8AE01D9EDCB7F9D403072B1D343D0B143046EE17D3FCC6804633D792"
+  },
+  "JetBrains.ReSharper.Plugins.Yaml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:31:26.6147273+03:00",
+    "Size": 6349,
+    "Hash": "40D61C81372FBA2A67BD7AA8AC53B3FE14F7E7D1F22BEF91A8F8DDA390F02124"
+  },
+  "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.1052462+03:00",
+    "Size": 25433,
+    "Hash": "777CFEE7DE9E8C1CD177C8409A051606FE18D1CBB150AC2D9A0AFB20EB63C215"
+  },
+  "JetBrains.Symbols.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:56.8356702+03:00",
+    "Size": 7054,
+    "Hash": "1E5566B4A27BA3FB7D7630317E22FEE2EC9DB01C6FF4ADFDAF71FFFB3DCE2F20"
+  },
+  "JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:33:29.2080477+03:00",
+    "Size": 8804,
+    "Hash": "35B7BEA96F8FC2091289CEE4B2DC4CD26F806EDA8F1A33D3752E9A9FAEC12987"
+  },
+  "JetBrains.ReSharper.I18n.Services.VB.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:44:12.1807319+03:00",
+    "Size": 6754,
+    "Hash": "0990D9C20FC77AB5A941CC0E535ADCA934BD6096C51562A5768E9A17C2519864"
+  },
+  "JetBrains.ReSharper.Psi.Asm.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T14:17:54.1228443+03:00",
+    "Size": 25020,
+    "Hash": "3BF2E9DEFA168220F440A452A8BCB635EC60D4058CA0CCC52E9658A40D06C346"
+  },
+  "JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:49:35.2780815+03:00",
+    "Size": 13417,
+    "Hash": "E1A39FB4DCDFF06B997B758B291D7F5CE0EE89C5B53EEFCDF3689E035CF1485E"
+  },
+  "JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:57:49.6558109+03:00",
+    "Size": 6291,
+    "Hash": "C468C0A11C3F374881CB4FAA342A32F5C95DE6DF1B5F96DDAF02A743B59EB187"
+  },
+  "JetBrains.ReSharper.Daemon.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T12:23:04.9783877+03:00",
+    "Size": 45848,
+    "Hash": "4D3CC932232EEAA07E7E9DA234291AC91271E42FAA493BABC7A02604BA79F5C3"
+  },
+  "JetBrains.PsiFeatures.Web.UIInteractive.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:48:34.7796912+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
+  },
+  "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:53.5094162+03:00",
+    "Size": 36075,
+    "Hash": "412C5BDA370F09D94D95F6BFB0CEEF2B952B501D517419AA7B314AA79528786B"
+  },
+  "JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:01:35.3118179+03:00",
+    "Size": 35815,
+    "Hash": "0F378CE61246D179D95D719336CFA1C7180BE9E7CEACE89CD837354474C3BED8"
+  },
+  "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:52.6522264+03:00",
+    "Size": 53044,
+    "Hash": "3E9FE3567787E9A521989BDEB3C3AC8111EACEF64D7070AD69259705AB775AEC"
+  },
+  "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:54.1631678+03:00",
+    "Size": 24568,
+    "Hash": "6278071D5FAD631F50C94EB6CBB8287EAC0B2DB8D426470D76F1B9295F629DD7"
+  },
+  "JetBrains.ReSharper.Psi.RegExp.resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:11:01.0443816+03:00",
+    "Size": 5941,
+    "Hash": "FAF54B0E3639B8CE1B032149D7EE8FC8261664C137D4CA59A345CD125DB49093"
+  },
+  "RiderPlugin.UnrealLink.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-02T20:01:55.510765+03:00",
+    "Size": 16273,
+    "Hash": "774C6BC9AE84060828CF802B7AC04D7E87C9BAC99A90E872FA83809BA5C2DA1A"
   },
   "JetBrains.ReSharper.I18n.Services.CSharp.Resources.Strings.ru-RU.resx": {
     "LastWriteTime": "2025-12-02T20:01:56.5622221+03:00",
-    "Hash": "5FA5C6A0096CA39C2DAAB8A43CECA1622BF4E61924FB59F920FE5E3745E2CD49",
-    "Size": 8530
+    "Size": 8530,
+    "Hash": "5FA5C6A0096CA39C2DAAB8A43CECA1622BF4E61924FB59F920FE5E3745E2CD49"
+  },
+  "ApiParser.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T18:07:10.492076+03:00",
+    "Size": 11571,
+    "Hash": "CDE5E60F00C866146C0DF5D1EB4267F9E6C432986A38246E01CCBFB715435035"
+  },
+  "JetBrains.ReSharper.I18n.Services.Asp.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:08:08.6251679+03:00",
+    "Size": 6801,
+    "Hash": "3DE53A559D8667C12FB47517E0AA13B11E35242494F15FE7232024D7F4A388CE"
+  },
+  "JetBrains.IDE.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-08T04:35:48.350287+03:00",
+    "Size": 32021,
+    "Hash": "DD1284CD62286B0A60A7027607231F37DB4A24B91F8B19793D1006D437BA9190"
+  },
+  "JetBrains.TextControl.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T04:05:02.7962475+03:00",
+    "Size": 12098,
+    "Hash": "D6C0AC402B03A512D697412B23730DCCAE79D5DD918AE6784EF5CA66391A8229"
+  },
+  "OperatorsResolveCacheGenerator.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-27T22:49:05.9316738+03:00",
+    "Size": 5816,
+    "Hash": "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
+  },
+  "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:49:04.5994765+03:00",
+    "Size": 7703,
+    "Hash": "0330DD125DCA52205BDFC933CCA94CC0AAEC51105FD66285A7F7966ECA093B55"
+  },
+  "JetBrains.TestBakery.RiderPlugin.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T05:06:55.8298248+03:00",
+    "Size": 5906,
+    "Hash": "BE7CEECBAB4B61B34915132289E9D85DC90F14CFD85DFFB55BE85C8066705CE6"
+  },
+  "JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T03:59:06.111351+03:00",
+    "Size": 48267,
+    "Hash": "783043EA30F3446966356A6ECF68F87CF5FC49A5FA9BCB709EF253C730A086D7"
+  },
+  "JetBrains.ReSharper.ReSharperTutorials.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:57:06.5936676+03:00",
+    "Size": 8426,
+    "Hash": "758DB04A710655F4FFF0BA77818AADF8E8BFC96F9047C4BAA69D95FBAEB4AEB4"
+  },
+  "JetBrains.Qodana.Core.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T04:21:55.4662761+03:00",
+    "Size": 7303,
+    "Hash": "6A6D207ED799F2EABB224B367571DF32465229F1777A6CAABB568D59EC4384B0"
+  },
+  "JetBrains.ReSharper.Intentions.Xml.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-30T03:47:20.3769073+03:00",
+    "Size": 14700,
+    "Hash": "67F966BBF32619B49A72A838BE5CB22494DB20430AA1A08A12D8DBBD93A47CB4"
+  },
+  "JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-12-01T03:46:50.940688+03:00",
+    "Size": 7808,
+    "Hash": "601C84E10FB2AA3FD8AA9BA7DDC11F5566DEF82247FB33B091F2F33F8DE9D41A"
+  },
+  "JetBrains.Profiler.Resources.UITexts.ru-RU.resx": {
+    "LastWriteTime": "2025-12-07T04:06:22.7776411+03:00",
+    "Size": 53832,
+    "Hash": "541D004FA9A0F710FD05BA4C65A508D1BA98F316B10502E3326E91FBEFF89BF9"
+  },
+  "JetBrains.ReSharper.UnitTesting.Analysis.Resources.Strings.ru-RU.resx": {
+    "LastWriteTime": "2025-11-29T12:55:09.0145654+03:00",
+    "Size": 33825,
+    "Hash": "71D16DB6C8E41C4912489E51776E13DF3A83F3998410EC3E3B3C08F0E6148022"
   }
 }
