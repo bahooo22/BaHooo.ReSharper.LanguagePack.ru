@@ -4,7 +4,7 @@
     <!-- IDENTIFICATION -->
     <id>BaHooo.ReSharper.I18n.ru</id>
     <version>2025.3.0.9</version>
-    <title>Russian Language Pack for ReSharper</title>
+    <title>Russian Localization for .NET Tools (BaHooo)</title>
 
     <!-- AUTHORS -->
     <authors>Ivan "BaHooo" Zelenkevich</authors>
@@ -13,12 +13,12 @@
     <!-- LINKS -->
     <projectUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/MarketplaceFolder/BaHooo.ReSharper.I18n.ru</projectUrl>
     <repository type="git" url="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/MarketplaceFolder/BaHooo.ReSharper.I18n.ru" />
-    <license type="file">LICENSE</license>
+	<licenseUrl>https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/LICENSE</licenseUrl>
     <icon>icon.png</icon>
 
     <!-- SHORT SUMMARY -->
     <summary>
-      Russian Language Pack for ReSharper / Русский языковой пакет для ReSharper
+      Russian UI translation for .NET IDE extensions / Русская локализация интерфейса
     </summary>
 
     <!-- FULL DESCRIPTION -->
@@ -41,7 +41,7 @@ Your feedback is very much appreciated — you can submit issues on
 <ul>
   <li><strong>Source Code:</strong> Available on <a href="https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/tree/main/raw-resx-done_ru-RU">GitHub</a>.</li>
   <li><strong>License:</strong> This translation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>.
-    <br/>Commercial use requires a separate agreement with the author. See the included <code>LICENSE.md</code> file for full terms.</li>
+    <br/>Commercial use requires a separate agreement with the author. See the included <code>LICENSE</code> file for full terms.</li>
 </ul>
 <p />
 <p><em>Examples of translated UI elements:</em></p>
@@ -54,7 +54,7 @@ Your feedback is very much appreciated — you can submit issues on
 </ul>
 <p />
 <p><em>Project milestones:</em><br/>
-2024.11.27 — Anna "Pixel" Zelenkevich Birthday<br/>
+2024.11.13 — Anna "Pixel" Zelenkevich Birthday<br/>
 2025.11.27 — Project started<br/>
 2025.12.1 — Date of first build</p>
 
@@ -132,7 +132,6 @@ English:
     <!-- COPYRIGHT -->
     <copyright>
       © 2025 Ivan "BaHooo" Zelenkevich. This is a community translation.
-      ReSharper is a trademark of its respective owner.
     </copyright>
   </metadata>
 
