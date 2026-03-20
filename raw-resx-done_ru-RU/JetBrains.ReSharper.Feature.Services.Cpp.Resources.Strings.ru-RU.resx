@@ -3552,7 +3552,7 @@
   <value>Использовать мьютекс для запуска UBT</value>
 </data>
 <data name="VariableCanBeMovedToMessage" xml:space="preserve">
-  <value>Переменную '{0}' можно переместить в{1}</value>
+  <value>Переменную '{0}' можно переместить в {1}</value>
 </data>
 <data name="CSettingDescription" xml:space="preserve">
   <value>C/C++</value>

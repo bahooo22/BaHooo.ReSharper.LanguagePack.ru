@@ -5006,7 +5006,7 @@
   <value>Список параметров</value>
 </data>
 <data name="Create_Symbols_Text" xml:space="preserve">
-  <value>Создать{0} '{1}'</value>
+  <value>Создать {0} '{1}'</value>
 </data>
 <data name="ThrowException__Text" xml:space="preserve">
   <value>Выбросить исключение '{0}'</value>
@@ -6398,7 +6398,7 @@
   <value>Создать первичный конструктор</value>
 </data>
 <data name="Create_InBase__Text" xml:space="preserve">
-  <value>Создать{0} в базовом{1}</value>
+  <value>Создать {0} в базовом {1}</value>
 </data>
 <data name="UseStringEqualsMethod_Text" xml:space="preserve">
   <value>Использовать метод 'string.Equals'</value>

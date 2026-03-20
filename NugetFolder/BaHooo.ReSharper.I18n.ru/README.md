@@ -1,6 +1,6 @@
 # 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://destream.net/live/bahooo22_06537/donate)
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate]()
 
 ![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
@@ -34,7 +34,7 @@
 ## 🧭 Поддерживаемые версии
 
 - **ReSharper:** проверено на 2025.3 и совместимых версиях.  
-- **Visual Studio:** 2019, 2022.  
+- **Visual Studio:** 2019, 2022, 2026.  
 - **.NET SDK:** требуется для локальной сборки `.resources`.
 
 ---
@@ -66,15 +66,8 @@ BaHooo.ReSharper.I18n.ru.nupkg
 Основной скрипт: `resx-to-resources.ps1`.
 
 Примеры:
-```powershell
-# Полный процесс: проверка → конвертация → сборка
-.\resx-to-resources.ps1
-
-# Только конвертация изменённых файлов
-.\resx-to-resources.ps1 -NoBuild
-
-# Только сборка пакетов
-.\resx-to-resources.ps1 -BuildOnly
+```
+Смотри: https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/edit/main/README.md#-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82-%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B8
 ```
 
 Требуется: `resgen.exe` (входит в .NET SDK / Visual Studio).
@@ -129,7 +122,7 @@ BaHooo.ReSharper.I18n.ru.nupkg
 - GitHub: [репозиторий](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)  
 - Issues: [открыть задачу](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)  
 - Telegram: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)  
-- Donate: [destream.net](https://destream.net/live/bahooo22_06537/donate)
+- Donate: []()
 
 ---
 

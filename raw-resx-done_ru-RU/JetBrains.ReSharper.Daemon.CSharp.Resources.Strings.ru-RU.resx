@@ -8002,7 +8002,7 @@
     <value>Избыточный вызов 'WithCancellation()'</value>
   </data>
   <data name="InitializingByDefaultValueIsRedundantMessage" xml:space="preserve">
-    <value>Инициализация{0} значением по умолчанию избыточна</value>
+    <value>Инициализация {0} значением по умолчанию избыточна</value>
   </data>
   <data name="PrivateCannotBePolymorphicMessage" xml:space="preserve">
     <value>private {0} не может быть полиморфным</value>
@@ -9019,7 +9019,7 @@
     <value>Тип используется только для оценки и может быть изменен или удален в будущих обновлениях.</value>
   </data>
   <data name="InitializationIsRecursiveOnAllExecutionPathsMessage" xml:space="preserve">
-    <value>Инициализация{0} рекурсивна на всех путях выполнения</value>
+    <value>Инициализация {0} рекурсивна на всех путях выполнения</value>
   </data>
   <data name="MemberInitializerValueIgnoredBecauseMemberAlwaysInitializedInAllConstructors" xml:space="preserve">
     <value>Значение инициализатора члена игнорируется, потому что член всегда инициализируется во всех конструкторах</value>
