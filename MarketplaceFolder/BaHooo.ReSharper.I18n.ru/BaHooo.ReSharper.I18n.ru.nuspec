@@ -3,7 +3,7 @@
   <metadata>
     <!-- IDENTIFICATION -->
     <id>BaHooo.ReSharper.I18n.ru</id>
-    <version>2025.3.0.9</version>
+    <version>2025.3.3.11</version>
     <title>Russian Localization for .NET Tools (BaHooo)</title>
 
     <!-- AUTHORS -->
@@ -150,11 +150,3 @@ English:
           target="DotFiles/Extensions/BaHooo.ReSharper.I18n.ru/i18n" />
   </files>
 </package>
-
-
-
-
-
-
-
-

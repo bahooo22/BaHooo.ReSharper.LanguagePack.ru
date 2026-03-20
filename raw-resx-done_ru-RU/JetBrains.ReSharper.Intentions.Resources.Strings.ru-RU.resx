@@ -118,52 +118,52 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="Setter_Text" xml:space="preserve">
-  <value>сеттер</value>
+  <value>Сеттер</value>
 </data>
 <data name="ToStringInterpolation_Text" xml:space="preserve">
-  <value>преобразовать в интерполированную строку</value>
+  <value>Преобразовать в интерполированную строку</value>
 </data>
 <data name="SelectSignature_Text" xml:space="preserve">
-  <value>выбрать сигнатуру</value>
+  <value>Выбрать сигнатуру</value>
 </data>
 <data name="RemoveParameterAndUpdateUsages_Text" xml:space="preserve">
-  <value>удалить параметр (и обновить использования)</value>
+  <value>Удалить параметр (и обновить использования)</value>
 </data>
 <data name="SearchingForDerivedTypes_Text" xml:space="preserve">
-  <value>поиск производных типов</value>
+  <value>Поиск производных типов</value>
 </data>
 <data name="ChangeNamingRule__Text" xml:space="preserve">
-  <value>изменить правило именования '{0}'...</value>
+  <value>Изменить правило именования '{0}'...</value>
 </data>
 <data name="EditPattern__Text" xml:space="preserve">
-  <value>редактировать шаблон '{0}'</value>
+  <value>Редактировать шаблон '{0}'</value>
 </data>
 <data name="EscapeUnmatchedBrace_Text" xml:space="preserve">
-  <value>экранировать несопоставленную фигурную скобку</value>
+  <value>Экранировать несопоставленную фигурную скобку</value>
 </data>
 <data name="MoveToGlobalNamespace_Text" xml:space="preserve">
-  <value>переместить в глобальное пространство имён</value>
+  <value>Переместить в глобальное пространство имён</value>
 </data>
 <data name="SetLanguageVersionTo_ForAll_Projects_Text" xml:space="preserve">
-  <value>установить версию языка '{0}' для всех {1} проектов с более низкой версией языка</value>
+  <value>Установить версию языка '{0}' для всех {1} проектов с более низкой версией языка</value>
 </data>
 <data name="EncapsulateFieldContextAction_Name" xml:space="preserve">
-  <value>инкапсулировать поле</value>
+  <value>Инкапсулировать поле</value>
 </data>
 <data name="RenameTo__Text" xml:space="preserve">
-  <value>переименовать в '{0}'</value>
+  <value>Переименовать в '{0}'</value>
 </data>
 <data name="InstallPackage_AndImport__Text" xml:space="preserve">
-  <value>установить пакет {0} и импортировать '{1}'</value>
+  <value>Установить пакет {0} и импортировать '{1}'</value>
 </data>
 <data name="ImFeelingLuckyActionText" xml:space="preserve">
-  <value>мне повезёт</value>
+  <value>Мне повезёт</value>
 </data>
 <data name="Reference_AndImport__Text" xml:space="preserve">
-  <value>сослаться на {0} и импортировать '{1}'</value>
+  <value>Сослаться на {0} и импортировать '{1}'</value>
 </data>
 <data name="GeneratingMembers_Text" xml:space="preserve">
-  <value>генерация членов</value>
+  <value>Генерация членов</value>
 </data>
 <data name="SomeOfTheSettingsYouModifiedAreOverridden_Text" xml:space="preserve">
   <value>Некоторые изменённые вами настройки переопределены в .editorconfig. Сохранить изменения в .editorconfig?
@@ -171,335 +171,335 @@
 {0}</value>
 </data>
 <data name="DetectCodeStyleSettings_Text" xml:space="preserve">
-  <value>обнаружить настройки стиля кода...</value>
+  <value>Обнаружить настройки стиля кода...</value>
 </data>
 <data name="Rename_Text" xml:space="preserve">
-  <value>переименовать...</value>
+  <value>Переименовать...</value>
 </data>
 <data name="Folder_DoNotIntroduceNamespace_Text" xml:space="preserve">
-  <value>папка '{0}' не вводит пространство имён</value>
+  <value>Папка '{0}' не вводит пространство имён</value>
 </data>
 <data name="MarkAsInjectedLanguageOrReference_Text" xml:space="preserve">
-  <value>пометить как внедрённый язык или ссылку</value>
+  <value>Пометить как внедрённый язык или ссылку</value>
 </data>
 <data name="DonTShowThisTipAgain_Text" xml:space="preserve">
-  <value>больше не показывать эту подсказку</value>
+  <value>Больше не показывать эту подсказку</value>
 </data>
 <data name="ImportPath_Text" xml:space="preserve">
-  <value>путь импорта</value>
+  <value>Путь импорта</value>
 </data>
 <data name="EditPathMappingsFor__Text" xml:space="preserve">
-  <value>редактировать сопоставления путей для {0}</value>
+  <value>Редактировать сопоставления путей для {0}</value>
 </data>
 <data name="New_Text" xml:space="preserve">
-  <value>новый </value>
+  <value>Новый </value>
 </data>
 <data name="ViewActionList__Text" xml:space="preserve">
-  <value>просмотреть список действий{0}</value>
+  <value>Просмотреть список действий{0}</value>
 </data>
 <data name="AddTypeArgument_Text" xml:space="preserve">
-  <value>добавить аргумент типа</value>
+  <value>Добавить аргумент типа</value>
 </data>
 <data name="ReformatAndCleanupContextAction_Description" xml:space="preserve">
-  <value>предоставляет действия для очистки кода в выбранной области</value>
+  <value>Предоставляет действия для очистки кода в выбранной области</value>
 </data>
 <data name="FindThis_OnNugetOrg_Text" xml:space="preserve">
-  <value>найти этот {0} на nuget.org...</value>
+  <value>Найти этот {0} на nuget.org...</value>
 </data>
 <data name="AdjustNamespaces_Text" xml:space="preserve">
-  <value>настроить пространства имён</value>
+  <value>Настроить пространства имён</value>
 </data>
 <data name="PassStringInterpolation_Text" xml:space="preserve">
-  <value>передать интерполированную строку</value>
+  <value>Передать интерполированную строку</value>
 </data>
 <data name="Non_ModifierText" xml:space="preserve">
-  <value>не {0}</value>
+  <value>Не {0}</value>
 </data>
 <data name="TheFollowingSettingsWereNotSavedBecause_Text" xml:space="preserve">
   <value>Следующие настройки не были сохранены, так как они переопределены во внешних файлах конфигурации:
 {0}</value>
 </data>
 <data name="MoveTo_Namespace_Text" xml:space="preserve">
-  <value>переместить в пространство имён '{0}'</value>
+  <value>Переместить в пространство имён '{0}'</value>
 </data>
 <data name="SetPathMappingFor__Text" xml:space="preserve">
-  <value>задать сопоставление путей для '{0}'</value>
+  <value>Задать сопоставление путей для '{0}'</value>
 </data>
 <data name="Tip__Text" xml:space="preserve">
-  <value>подсказка: {0}</value>
+  <value>Подсказка: {0}</value>
 </data>
 <data name="RemoveTemplateArgument__Text" xml:space="preserve">
-  <value>удалить шаблонный аргумент {{{0}}}</value>
+  <value>Удалить шаблонный аргумент {{{0}}}</value>
 </data>
 <data name="ChangeSignatureOf____Text" xml:space="preserve">
-  <value>изменить сигнатуру{0} '{1}'{2}</value>
+  <value>Изменить сигнатуру{0} '{1}'{2}</value>
 </data>
 <data name="WhyIs_SuggestingThis_Text" xml:space="preserve">
-  <value>почему {0} предлагает это?</value>
+  <value>Почему {0} предлагает это?</value>
 </data>
 <data name="AllAboveTypes_Text" xml:space="preserve">
-  <value>все вышеуказанные типы</value>
+  <value>Все вышеуказанные типы</value>
 </data>
 <data name="Remove___Text" xml:space="preserve">
-  <value>удалить {0} {1}</value>
+  <value>Удалить {0} {1}</value>
 </data>
 <data name="Set_LanguageVersionTo_ForThisProject_Text" xml:space="preserve">
-  <value>установить версию языка {0} для этого проекта в '{1}'</value>
+  <value>Установить версию языка {0} для этого проекта в '{1}'</value>
 </data>
 <data name="ShowAdvisoryFor_Text" xml:space="preserve">
-  <value>показать консультацию для {0} ({1}) на {2}</value>
+  <value>Показать консультацию для {0} ({1}) на {2}</value>
 </data>
 <data name="WrapLongLineContextAction_Name" xml:space="preserve">
-  <value>перенос длинной строки</value>
+  <value>Перенос длинной строки</value>
 </data>
 <data name="WrapLongLine_Text" xml:space="preserve">
-  <value>перенос длинной строки</value>
+  <value>Перенос длинной строки</value>
 </data>
 <data name="UsedImplicitly_Text" xml:space="preserve">
-  <value>используется неявно</value>
+  <value>Используется неявно</value>
 </data>
 <data name="ConfiguresSwitchToGoToActionSuggesterSettingDescription" xml:space="preserve">
   <value>Настраивает переключение на подсказчик действий "Перейти к"</value>
 </data>
 <data name="ReplaceAssignmentToField_WithParameter_Text" xml:space="preserve">
-  <value>заменить присваивание полю '{0}' значением параметра</value>
+  <value>Заменить присваивание полю '{0}' значением параметра</value>
 </data>
 <data name="Make__Static_Text" xml:space="preserve">
-  <value>сделать '{0}' {1}</value>
+  <value>Сделать '{0}' {1}</value>
 </data>
 <data name="Type_Text" xml:space="preserve">
-  <value>тип</value>
+  <value>Тип</value>
 </data>
 <data name="EncapsulateField_Text" xml:space="preserve">
-  <value>инкапсулировать поле</value>
+  <value>Инкапсулировать поле</value>
 </data>
 <data name="CommentUnused__Text" xml:space="preserve">
-  <value>прокомментировать неиспользуемый{0}</value>
+  <value>Прокомментировать неиспользуемый{0}</value>
 </data>
 <data name="ConfigureCodeStyle_Text" xml:space="preserve">
-  <value>настроить стиль кода...</value>
+  <value>Настроить стиль кода...</value>
 </data>
 <data name="InsertFormatArgument_Text" xml:space="preserve">
-  <value>вставить аргумент формата</value>
+  <value>Вставить аргумент формата</value>
 </data>
 <data name="FullCleanup_Text" xml:space="preserve">
-  <value>полная очистка</value>
+  <value>Полная очистка</value>
 </data>
 <data name="InitializeField_WithParameterValue_Text" xml:space="preserve">
-  <value>инициализировать поле '{0}' значением параметра</value>
+  <value>Инициализировать поле '{0}' значением параметра</value>
 </data>
 <data name="EnableAutoDetectedRules_Text" xml:space="preserve">
-  <value>включить автоматически обнаруженные правила</value>
+  <value>Включить автоматически обнаруженные правила</value>
 </data>
 <data name="InitializeMembersFromConstructor_Text" xml:space="preserve">
-  <value>инициализировать члены из конструктора</value>
+  <value>Инициализировать члены из конструктора</value>
 </data>
 <data name="Make_Accessor__Text" xml:space="preserve">
-  <value>сделать аксессор '{0}' {1}</value>
+  <value>Сделать аксессор '{0}' {1}</value>
 </data>
 <data name="RemoveFormatArgument__Text" xml:space="preserve">
-  <value>удалить аргумент формата #{0}</value>
+  <value>Удалить аргумент формата #{0}</value>
 </data>
 <data name="ChopLongLine_Text" xml:space="preserve">
-  <value>разбить длинную строку</value>
+  <value>Разбить длинную строку</value>
 </data>
 <data name="ShowContextActionsSuggesterName_FindActionsFaster_Text" xml:space="preserve">
-  <value>находить действия быстрее</value>
+  <value>Находить действия быстрее</value>
 </data>
 <data name="IntroduceFieldsForAllUnusedParameters_Text" xml:space="preserve">
-  <value>ввести поля для всех неиспользуемых параметров</value>
+  <value>Ввести поля для всех неиспользуемых параметров</value>
 </data>
 <data name="FailedToReferenceModuleProbablyReference_Text" xml:space="preserve">
   <value>Не удалось сослаться на модуль. Ссылка может создавать циклические зависимости между проектами.</value>
 </data>
 <data name="RemoveUnusedFixDiscarded_Text" xml:space="preserve">
-  <value>отброшено</value>
+  <value>Отброшено</value>
 </data>
 <data name="StrictFormat_Text" xml:space="preserve">
-  <value>строгий формат</value>
+  <value>Строгий формат</value>
 </data>
 <data name="MarkAsInjectedLanguageOrReferenceContextAction_Description" xml:space="preserve">
-  <value>распознать содержимое литерального выражения как язык или ссылку</value>
+  <value>Распознать содержимое литерального выражения как язык или ссылку</value>
 </data>
 <data name="RemoveUnused__Text" xml:space="preserve">
-  <value>удалить неиспользуемый{0}</value>
+  <value>Удалить неиспользуемый{0}</value>
 </data>
 <data name="Add_ToTheAbbreviationsList_Text" xml:space="preserve">
-  <value>добавить '{0}' в список сокращений</value>
+  <value>Добавить '{0}' в список сокращений</value>
 </data>
 <data name="DisableAutoDetectedRules_Text" xml:space="preserve">
-  <value>отключить автоматически обнаруженные правила</value>
+  <value>Отключить автоматически обнаруженные правила</value>
 </data>
 <data name="Initialize_FromConstructor_Text" xml:space="preserve">
-  <value>инициализировать {0} из конструктора</value>
+  <value>Инициализировать {0} из конструктора</value>
 </data>
 <data name="ConfigureDefault_Text" xml:space="preserve">
-  <value>настроить значение по умолчанию</value>
+  <value>Настроить значение по умолчанию</value>
 </data>
 <data name="As__Text" xml:space="preserve">
-  <value>как {0}</value>
+  <value>Как {0}</value>
 </data>
 <data name="SaveFormatterOptionsToComments_Text" xml:space="preserve">
-  <value>сохранить параметры форматирования в комментариях</value>
+  <value>Сохранить параметры форматирования в комментариях</value>
 </data>
 <data name="Namespace_Text" xml:space="preserve">
-  <value>пространство имён</value>
+  <value>Пространство имён</value>
 </data>
 <data name="CommentSelectionContextAction_Description" xml:space="preserve">
-  <value>прокомментировать выделенную область</value>
+  <value>Прокомментировать выделенную область</value>
 </data>
 <data name="WithPrivateSetter_Text" xml:space="preserve">
-  <value>с приватным сеттером</value>
+  <value>С приватным сеттером</value>
 </data>
 <data name="AutodetectCodeStyleSettings_Text" xml:space="preserve">
-  <value>автоматически определить настройки стиля кода</value>
+  <value>Автоматически определить настройки стиля кода</value>
 </data>
 <data name="RemoveRedundantArgument_Text" xml:space="preserve">
-  <value>удалить избыточный аргумент</value>
+  <value>Удалить избыточный аргумент</value>
 </data>
 <data name="TryTypingToFindMoreActions_Text" xml:space="preserve">
-  <value>попробуйте ввести, чтобы найти больше действий</value>
+  <value>Попробуйте ввести, чтобы найти больше действий</value>
 </data>
 <data name="DefaultSetterAccessRightsSettingDescription" xml:space="preserve">
-  <value>права доступа сеттера по умолчанию</value>
+  <value>Права доступа сеттера по умолчанию</value>
 </data>
 <data name="IntroduceReadOnlyField__Text" xml:space="preserve">
-  <value>ввести поле только для чтения '{0}'</value>
+  <value>Ввести поле только для чтения '{0}'</value>
 </data>
 <data name="SelectTargetTypePart_Text" xml:space="preserve">
-  <value>выбрать часть целевого типа</value>
+  <value>Выбрать часть целевого типа</value>
 </data>
 <data name="SettingsDetectedFromYourCodeSample_Caption" xml:space="preserve">
   <value>Настройки, обнаруженные в вашем примере кода</value>
 </data>
 <data name="ViewActionList_Text" xml:space="preserve">
-  <value>просмотреть список действий</value>
+  <value>Просмотреть список действий</value>
 </data>
 <data name="ERROR_Text" xml:space="preserve">
   <value>&lt;ошибка&gt;</value>
 </data>
 <data name="LocateInToDoExplorer_Text" xml:space="preserve">
-  <value>найти в обозревателе TODO</value>
+  <value>Найти в обозревателе TODO</value>
 </data>
 <data name="EditLanguageInjectionsSettings_Text" xml:space="preserve">
-  <value>редактировать настройки внедрения языков</value>
+  <value>Редактировать настройки внедрения языков</value>
 </data>
 <data name="UpdatingHierarchyAccessRights_Text" xml:space="preserve">
-  <value>обновление прав доступа иерархии</value>
+  <value>Обновление прав доступа иерархии</value>
 </data>
 <data name="ImportTypeWithDots_Text" xml:space="preserve">
-  <value>импортировать тип...</value>
+  <value>Импортировать тип...</value>
 </data>
 <data name="SpaciousFormatChop_Text" xml:space="preserve">
-  <value>просторный формат (разбивка)</value>
+  <value>Просторный формат (разбивка)</value>
 </data>
 <data name="WrapLongLineContextAction_Description" xml:space="preserve">
-  <value>перенос длинной строки</value>
+  <value>Перенос длинной строки</value>
 </data>
 <data name="Getter_Text" xml:space="preserve">
-  <value>геттер</value>
+  <value>Геттер</value>
 </data>
 <data name="ImportMissingReferences_Text" xml:space="preserve">
-  <value>импортировать отсутствующие ссылки</value>
+  <value>Импортировать отсутствующие ссылки</value>
 </data>
 <data name="Move_ToOuterScope_Text" xml:space="preserve">
-  <value>переместить {0} во внешнюю область видимости</value>
+  <value>Переместить {0} во внешнюю область видимости</value>
 </data>
 <data name="Use___Text" xml:space="preserve">
-  <value>использовать{0} {1}</value>
+  <value>Использовать{0} {1}</value>
 </data>
 <data name="UpdateProjects_Text" xml:space="preserve">
-  <value>обновить проекты</value>
+  <value>Обновить проекты</value>
 </data>
 <data name="IntroduceFieldsForAllParameters_Text" xml:space="preserve">
-  <value>ввести поля для всех параметров</value>
+  <value>Ввести поля для всех параметров</value>
 </data>
 <data name="Remove_FromTheAbbreviationsList_Text" xml:space="preserve">
-  <value>удалить '{0}' из списка сокращений</value>
+  <value>Удалить '{0}' из списка сокращений</value>
 </data>
 <data name="AnalyzingMembers_Text" xml:space="preserve">
-  <value>анализ членов</value>
+  <value>Анализ членов</value>
 </data>
 <data name="OpenToDoLink_Text" xml:space="preserve">
-  <value>открыть ссылку на задачу</value>
+  <value>Открыть ссылку на задачу</value>
 </data>
 <data name="MakeMembers__Text" xml:space="preserve">
-  <value>сделать члены {0}</value>
+  <value>Сделать члены {0}</value>
 </data>
 <data name="RenameDuplicateItems_Text" xml:space="preserve">
-  <value>переименовать повторяющиеся элементы</value>
+  <value>Переименовать повторяющиеся элементы</value>
 </data>
 <data name="FixNaming_Text" xml:space="preserve">
-  <value>исправить именование</value>
+  <value>Исправить именование</value>
 </data>
 <data name="MakeType__Text" xml:space="preserve">
-  <value>сделать тип {0}</value>
+  <value>Сделать тип {0}</value>
 </data>
 <data name="UseStringInterpolation_Text" xml:space="preserve">
-  <value>использовать интерполированную строку</value>
+  <value>Использовать интерполированную строку</value>
 </data>
 <data name="ForAllUnusedParameters_Text" xml:space="preserve">
-  <value>для всех неиспользуемых параметров</value>
+  <value>Для всех неиспользуемых параметров</value>
 </data>
 <data name="MakeReturnType__Text" xml:space="preserve">
-  <value>сделать возвращаемый тип {0}</value>
+  <value>Сделать возвращаемый тип {0}</value>
 </data>
 <data name="ExportSettingsToEditorconfigActionText" xml:space="preserve">
-  <value>экспортировать настройки в .editorconfig</value>
+  <value>Экспортировать настройки в .editorconfig</value>
 </data>
 <data name="ImportType_Text" xml:space="preserve">
-  <value>импортировать тип</value>
+  <value>Импортировать тип</value>
 </data>
 <data name="_From__Text" xml:space="preserve">
   <value>{0} (из {1})</value>
 </data>
 <data name="TryNow_Text" xml:space="preserve">
-  <value>попробовать сейчас</value>
+  <value>Попробовать сейчас</value>
 </data>
 <data name="NothingToImplement_Text" xml:space="preserve">
-  <value>нечего реализовывать</value>
+  <value>Нечего реализовывать</value>
 </data>
 <data name="AddArgument_Text" xml:space="preserve">
-  <value>добавить аргумент</value>
+  <value>Добавить аргумент</value>
 </data>
 <data name="NoCodeInALanguageSupportedByAutodetection_Text" xml:space="preserve">
-  <value>не выбран код на языке, поддерживаемом функцией автоопределения</value>
+  <value>Не выбран код на языке, поддерживаемом функцией автоопределения</value>
 </data>
 <data name="Remove_InjectionMark_Text" xml:space="preserve">
-  <value>удалить{0}метку внедрения</value>
+  <value>Удалить{0}метку внедрения</value>
 </data>
 <data name="AdditionalCodeCleanupAfterElementRemoval_Text" xml:space="preserve">
-  <value>дополнительная очистка кода после удаления элемента</value>
+  <value>Дополнительная очистка кода после удаления элемента</value>
 </data>
 <data name="SelectTargetPart_Text" xml:space="preserve">
-  <value>выбрать целевую часть</value>
+  <value>Выбрать целевую часть</value>
 </data>
 <data name="InsertInterpolationArgument_Text" xml:space="preserve">
-  <value>вставить аргумент интерполяции</value>
+  <value>Вставить аргумент интерполяции</value>
 </data>
 <data name="NoPlacesWereFoundToImplementThisMember_Text" xml:space="preserve">
-  <value>не найдено мест для реализации этого члена</value>
+  <value>Не найдено мест для реализации этого члена</value>
 </data>
 <data name="ShowContextActionsSuggesterDescription_BoostYourEfficiency_Text" xml:space="preserve">
   <value>Используйте «{0}» или «{1}», чтобы мгновенно найти любое нужное действие – больше не нужно искать в меню</value>
 </data>
 <data name="ApplyReplacement_Text" xml:space="preserve">
-  <value>применить замену</value>
+  <value>Применить замену</value>
 </data>
 <data name="ShowContextActionsSuggesterName_BoostYourEfficiency_Text" xml:space="preserve">
-  <value>повысьте свою эффективность</value>
+  <value>Повысьте свою эффективность</value>
 </data>
 <data name="FormatSelection_Text" xml:space="preserve">
-  <value>форматировать выделенную область</value>
+  <value>Форматировать выделенную область</value>
 </data>
 <data name="MoveFileToFolder__Text" xml:space="preserve">
-  <value>переместить файл в папку '{0}'</value>
+  <value>Переместить файл в папку '{0}'</value>
 </data>
 <data name="CommentSelectionContextAction_Name" xml:space="preserve">
-  <value>прокомментировать выделенную область</value>
+  <value>Прокомментировать выделенную область</value>
 </data>
 <data name="Make__Text" xml:space="preserve">
-  <value>сделать {0}</value>
+  <value>Сделать {0}</value>
 </data>
 <data name="RenameCqrs_Text" xml:space="preserve">
   <value>CQRS: переименовать...</value>
@@ -508,225 +508,225 @@
   <value>Следующие настройки влияют на стиль кода в этом месте</value>
 </data>
 <data name="ImportType__Text" xml:space="preserve">
-  <value>импортировать тип '{0}'</value>
+  <value>Импортировать тип '{0}'</value>
 </data>
 <data name="IgnorePath__Text" xml:space="preserve">
-  <value>игнорировать путь '{0}'</value>
+  <value>Игнорировать путь '{0}'</value>
 </data>
 <data name="Folder_Text" xml:space="preserve">
-  <value>папка </value>
+  <value>Папка </value>
 </data>
 <data name="FixFormattingProblem_Text" xml:space="preserve">
-  <value>исправить проблему форматирования</value>
+  <value>Исправить проблему форматирования</value>
 </data>
 <data name="Set_LanguageLevelTo_ForCodeAnalysis_Text" xml:space="preserve">
-  <value>установить уровень языка {0} для анализа кода этого проекта в '{1}' (не влияет на сборку)</value>
+  <value>Установить уровень языка {0} для анализа кода этого проекта в '{1}' (не влияет на сборку)</value>
 </data>
 <data name="MakeAllTypes__Text" xml:space="preserve">
-  <value>сделать все типы '{0}'</value>
+  <value>Сделать все типы '{0}'</value>
 </data>
 <data name="ReformatAndCleanupContextAction_Name" xml:space="preserve">
-  <value>переформатировать и очистить...</value>
+  <value>Переформатировать и очистить...</value>
 </data>
 <data name="Use__Text" xml:space="preserve">
-  <value>использовать «{0}»</value>
+  <value>Использовать «{0}»</value>
 </data>
 <data name="ForAllAs__Text" xml:space="preserve">
-  <value>для всех параметров как {0}</value>
+  <value>Для всех параметров как {0}</value>
 </data>
 <data name="ReferenceAndImportType_Text" xml:space="preserve">
-  <value>сослаться и импортировать тип...</value>
+  <value>Сослаться и импортировать тип...</value>
 </data>
 <data name="ToStringFormatInvocation_Text" xml:space="preserve">
-  <value>преобразовать в вызов string.Format</value>
+  <value>Преобразовать в вызов string.Format</value>
 </data>
 <data name="CleanupWith_Profile_Text" xml:space="preserve">
-  <value>очистить с профилем '{0}'</value>
+  <value>Очистить с профилем '{0}'</value>
 </data>
 <data name="ConfigureCodeAnnotations_Text" xml:space="preserve">
-  <value>настроить аннотации кода</value>
+  <value>Настроить аннотации кода</value>
 </data>
 <data name="MarkAsMyProviderInjectDescription_Text" xml:space="preserve">
-  <value>пометить как {0}</value>
+  <value>Пометить как {0}</value>
 </data>
 <data name="AltEnterActionText" xml:space="preserve">
   <value>Alt+Enter</value>
 </data>
 <data name="ForAllParameters_Text" xml:space="preserve">
-  <value>для всех параметров</value>
+  <value>Для всех параметров</value>
 </data>
 <data name="ReplaceTabsWithSpaces_Text" xml:space="preserve">
-  <value>заменить табы пробелами</value>
+  <value>Заменить табы пробелами</value>
 </data>
 <data name="CreateOther_Text" xml:space="preserve">
-  <value>создать другой</value>
+  <value>Создать другой</value>
 </data>
 <data name="ForAllWith__Text" xml:space="preserve">
-  <value>для всех параметров с {0}</value>
+  <value>Для всех параметров с {0}</value>
 </data>
 <data name="ShowContextActionsSuggesterDescription_FindActionsFaster_Text" xml:space="preserve">
   <value>Нажмите {0} или {1}, чтобы найти и активировать любую функцию ReSharper за несколько секунд</value>
 </data>
 <data name="PassStringFormat_Text" xml:space="preserve">
-  <value>передать string.Format</value>
+  <value>Передать string.Format</value>
 </data>
 <data name="ApplySyntaxStyle_Text" xml:space="preserve">
-  <value>применить синтаксический стиль</value>
+  <value>Применить синтаксический стиль</value>
 </data>
 <data name="FixIndentationProblem_Text" xml:space="preserve">
-  <value>исправить проблему отступа</value>
+  <value>Исправить проблему отступа</value>
 </data>
 <data name="SaveToEditorconfig_Caption" xml:space="preserve">
-  <value>сохранить в .editorconfig</value>
+  <value>Сохранить в .editorconfig</value>
 </data>
 <data name="MoveFileTo_Text" xml:space="preserve">
-  <value>переместить файл в</value>
+  <value>Переместить файл в </value>
 </data>
 <data name="ReplaceWithFormatSpecifier_Text" xml:space="preserve">
-  <value>заменить спецификатором формата</value>
+  <value>Заменить спецификатором формата</value>
 </data>
 <data name="ChangeInjectedLanguage" xml:space="preserve">
-  <value>изменить внедрённый язык на {0}</value>
+  <value>Изменить внедрённый язык на {0}</value>
 </data>
 <data name="Import_AndOtherMissingReferences_Text" xml:space="preserve">
-  <value>импортировать '{0}' и другие отсутствующие ссылки</value>
+  <value>Импортировать '{0}' и другие отсутствующие ссылки</value>
 </data>
 <data name="SeeMore_Text" xml:space="preserve">
-  <value>увидеть больше...</value>
+  <value>Просмотреть...</value>
 </data>
 <data name="WeCanTRecommendAnyChangesToYourCode_Text" xml:space="preserve">
   <value>Мы не можем рекомендовать какие-либо изменения ваших настроек стиля кода. Похоже, ваш код соответствует текущим настройкам, или ваш стиль кода не поддерживается.</value>
 </data>
 <data name="IncreaseLineIndentActionText" xml:space="preserve">
-  <value>увеличить отступ строки</value>
+  <value>Увеличить отступ строки</value>
 </data>
 <data name="ReSharperMenuClicksThresholdSettingDescription" xml:space="preserve">
   <value>Порог кликов меню ReSharper</value>
 </data>
 <data name="EncapsulateFieldContextAction_Description" xml:space="preserve">
-  <value>инкапсулировать поле в свойство, если существующее свойство отсутствует</value>
+  <value>Инкапсулировать поле в свойство, если существующее свойство отсутствует</value>
 </data>
 <data name="IntroducePropertySettingsSettingDescription" xml:space="preserve">
   <value>Настройки введения свойства</value>
 </data>
 <data name="CommentSelection_Text" xml:space="preserve">
-  <value>прокомментировать выделенную область</value>
+  <value>Прокомментировать выделенную область</value>
 </data>
 <data name="MakeParameterType__Text" xml:space="preserve">
-  <value>сделать тип параметра '{0}'</value>
+  <value>Сделать тип параметра '{0}'</value>
 </data>
 <data name="Update_ToTheLatestVersion_Text" xml:space="preserve">
-  <value>попытаться обновить {0} до последней версии</value>
+  <value>Попытаться обновить {0} до последней версии</value>
 </data>
 <data name="Rename__Text" xml:space="preserve">
-  <value>переименовать {0}</value>
+  <value>Переименовать {0}</value>
 </data>
 <data name="RemoveUnusedFixUnused_Text" xml:space="preserve">
-  <value>не используется</value>
+  <value>Не используется</value>
 </data>
 <data name="Add_AccessorFor__Text" xml:space="preserve">
-  <value>добавить {0} аксессор для {1}</value>
+  <value>Добавить {0} аксессор для {1}</value>
 </data>
 <data name="ChangeTypeOf__To__Text" xml:space="preserve">
-  <value>изменить тип{0} '{1}' на '{2}'</value>
+  <value>Изменить тип{0} '{1}' на '{2}'</value>
 </data>
 <data name="ConvertConcatenationToInterpolation_Text" xml:space="preserve">
-  <value>преобразовать конкатенацию в интерполяцию</value>
+  <value>Преобразовать конкатенацию в интерполяцию</value>
 </data>
 <data name="RemoveRedundantTypeParameter__Text" xml:space="preserve">
-  <value>удалить избыточный параметр типа '{0}'</value>
+  <value>Удалить избыточный параметр типа '{0}'</value>
 </data>
 <data name="CleanupSelection_Text" xml:space="preserve">
-  <value>очистить выделенную область</value>
+  <value>Очистить выделенную область</value>
 </data>
 <data name="ReformatSelection_Text" xml:space="preserve">
-  <value>переформатировать выделенную область</value>
+  <value>Переформатировать выделенную область</value>
 </data>
 <data name="ContextActionsOptionPageTitle" xml:space="preserve">
-  <value>контекстные действия</value>
+  <value>Контекстные действия</value>
 </data>
 <data name="EnterActionName_Text" xml:space="preserve">
-  <value>имя действия:</value>
+  <value>Имя действия:</value>
 </data>
 <data name="MakeAccessibilityConsistent_Text" xml:space="preserve">
-  <value>сделать доступность согласованной</value>
+  <value>Сделать доступность согласованной</value>
 </data>
 <data name="ReindentOnly_Text" xml:space="preserve">
-  <value>только переотступ</value>
+  <value>Только переотступ</value>
 </data>
 <data name="ReformatAndCleanup_Text" xml:space="preserve">
-  <value>переформатировать и очистить...</value>
+  <value>Переформатировать и очистить...</value>
 </data>
 <data name="RemoveUnusedFixNotAccessed_Text" xml:space="preserve">
-  <value>не доступно</value>
+  <value>Не доступно</value>
 </data>
 <data name="FailedToImportType_Text" xml:space="preserve">
-  <value>не удалось импортировать тип</value>
+  <value>Не удалось импортировать тип</value>
 </data>
 <data name="CompactFormatFewerLineBreaks_Text" xml:space="preserve">
-  <value>компактный формат (меньше переносов строк)</value>
+  <value>Компактный формат (меньше переносов строк)</value>
 </data>
 <data name="ReplaceWith__Text" xml:space="preserve">
-  <value>заменить на '{0}'</value>
+  <value>Заменить на '{0}'</value>
 </data>
 <data name="DefaultGetterAccessRightsSettingDescription" xml:space="preserve">
-  <value>права доступа геттера по умолчанию</value>
+  <value>Права доступа геттера по умолчанию</value>
 </data>
 <data name="InitializeAutoProperty__Text" xml:space="preserve">
-  <value>инициализировать автосвойство '{0}'</value>
+  <value>Инициализировать автосвойство '{0}'</value>
 </data>
 <data name="MarkAsInjectedLanguageOrReferenceContextAction_Name" xml:space="preserve">
-  <value>пометить как внедрённый язык или ссылку</value>
+  <value>Пометить как внедрённый язык или ссылку</value>
 </data>
 <data name="ReplaceAssignmentToAutoProperty_With_Text" xml:space="preserve">
-  <value>заменить присваивание автосвойству '{0}' значением параметра</value>
+  <value>Заменить присваивание автосвойству '{0}' значением параметра</value>
 </data>
 <data name="RenameToCqrs__Text" xml:space="preserve">
   <value>CQRS: переименовать в '{0}'</value>
 </data>
 <data name="AddReferenceTo__Text" xml:space="preserve">
-  <value>добавить ссылку на {0}</value>
+  <value>Добавить ссылку на {0}</value>
 </data>
 <data name="PickColorFromPalette_Text" xml:space="preserve">
-  <value>выбрать цвет из палитры</value>
+  <value>Выбрать цвет из палитры</value>
 </data>
 <data name="DetectedSettings_Text" xml:space="preserve">
-  <value>обнаруженные настройки</value>
+  <value>Обнаруженные настройки</value>
 </data>
 <data name="DonTShowTipsInThisMenu_Text" xml:space="preserve">
-  <value>не показывать подсказки в этом меню</value>
+  <value>Не показывать подсказки в этом меню</value>
 </data>
 <data name="SurroundWithFormat_Text" xml:space="preserve">
-  <value>окружить форматом</value>
+  <value>Окружить форматом</value>
 </data>
 <data name="EditEditorconfigActionText" xml:space="preserve">
-  <value>редактировать .editorconfig</value>
+  <value>Редактировать .editorconfig</value>
 </data>
 <data name="CreateDefaultConstructorIn___Text" xml:space="preserve">
-  <value>создать конструктор по умолчанию в{0} '{1}'</value>
+  <value>Создать конструктор по умолчанию в{0} '{1}'</value>
 </data>
 <data name="MakeAllMembers__Text" xml:space="preserve">
-  <value>сделать все члены '{0}'</value>
+  <value>Сделать все члены '{0}'</value>
 </data>
 <data name="ImportType_MultipleChoices_Text" xml:space="preserve">
-  <value>импортировать тип '{0}' (множественный выбор...)?</value>
+  <value>Импортировать тип '{0}' (множественный выбор...)?</value>
 </data>
 <data name="ConfigureCleanupProfiles_Text" xml:space="preserve">
-  <value>настроить профили очистки...</value>
+  <value>Настроить профили очистки...</value>
 </data>
 <data name="PreviousValue_DetectedValue__Text" xml:space="preserve">
-  <value>предыдущее значение {0}, обнаруженное значение {1}</value>
+  <value>Предыдущее значение {0}, обнаруженное значение {1}</value>
 </data>
 <data name="MakeTypes__Text" xml:space="preserve">
-  <value>сделать типы {0}</value>
+  <value>Сделать типы {0}</value>
 </data>
 <data name="IntroduceAutoProperty_WithPrivateSetter_Text" xml:space="preserve">
-  <value>ввести автосвойство с приватным сеттером '{0}'</value>
+  <value>Ввести автосвойство с приватным сеттером '{0}'</value>
 </data>
 <data name="ConfigureInspectionSeverity_Text" xml:space="preserve">
-  <value>настроить серьёзность инспекции</value>
+  <value>Настроить серьёзность инспекции</value>
 </data>
 <data name="Make____Text" xml:space="preserve">
-  <value>сделать {0} '{1}' {2}</value>
+  <value>Сделать {0} '{1}' {2}</value>
 </data>
 </root>

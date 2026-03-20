@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$ResxFolder = '.\raw-resx-done_ru-RU',
     [string]$ResourcesOutput = '.\build\resources',   # общая папка для .resources
     [string]$Version,
@@ -324,23 +324,23 @@ if ($currentFiles.Count -eq 0) {
     # Файлы для конвертации: измененные + новые
     $filesToConvert = $changedFiles + $newFiles
     
-    # Сохраняем новые хэши
-    try {
-        # Удаляем информацию о полном пути перед сохранением
-        $hashesToSave = @{}
-        foreach ($key in $currentHashes.Keys) {
-            $hashesToSave[$key] = @{
-                Hash = $currentHashes[$key].Hash
-                LastWriteTime = $currentHashes[$key].LastWriteTime
-                Size = $currentHashes[$key].Size
-            }
-        }
-        $hashesToSave | ConvertTo-Json -Depth 3 | Out-File $HashesFile -Encoding UTF8
-        Write-Host "Сохранено хэшей в кэш: $($currentHashes.Count)" -ForegroundColor Gray
-    }
-    catch {
-        Write-Host "Не удалось сохранить кэш хэшей: $_" -ForegroundColor Red
-    }
+	# Сохраняем новые хэши
+	try {
+		$hashesToSave = @{}
+		foreach ($key in $currentHashes.Keys) {
+			$hashesToSave[$key] = @{
+				Hash = $currentHashes[$key].Hash
+				# Преобразуем DateTime в строку ISO 8601
+				LastWriteTime = $currentHashes[$key].LastWriteTime.ToString('o')
+				Size = $currentHashes[$key].Size
+			}
+		}
+		$hashesToSave | ConvertTo-Json -Depth 3 | Out-File $HashesFile -Encoding UTF8
+		Write-Host "Сохранено хэшей в кэш: $($currentHashes.Count)" -ForegroundColor Gray
+	}
+	catch {
+		Write-Host "Не удалось сохранить кэш хэшей: $_" -ForegroundColor Red
+	}
     
     $hasChanges = ($changedFiles.Count -gt 0) -or ($newFiles.Count -gt 0) -or ($deletedFiles.Count -gt 0)
     

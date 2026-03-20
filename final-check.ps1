@@ -1,4 +1,4 @@
-# Финальный тест
+﻿# Финальный тест
 Write-Host "=== ФИНАЛЬНАЯ ПРОВЕРКА ===" -ForegroundColor Cyan
 
 $workflow = Get-Content .github/workflows/pack-and-release.yml -Raw

@@ -1,8 +1,8 @@
 # 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://destream.net/live/bahooo22_06537/donate)
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate]()
 
-![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
+![ReSharper Russian Language Pack Icon](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
 Русский перевод интерфейсных строк ReSharper.  
 Автор: Ivan "BaHooo" Zelenkevich. Перевод основан на оригинальных строках ReSharper.
@@ -29,8 +29,8 @@
 ## 🧭 Поддерживаемые версии
 
 - **ReSharper:** 2025.3 и совместимые версии.  
-- **Visual Studio:** 2019, 2022.  
-- **Rider:** совместимость проверяется по мере обновлений.  
+- **Visual Studio:** 2019, 2022, 2026.  
+- **Rider:** совместимость не проверялась.  
 
 ---
 
@@ -66,4 +66,4 @@
 - GitHub: [репозиторий](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)  
 - Issues: [открыть задачу](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)  
 - Telegram: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)  
-- Donate: [destream.net](https://destream.net/live/bahooo22_06537/donate)
+- Donate: 

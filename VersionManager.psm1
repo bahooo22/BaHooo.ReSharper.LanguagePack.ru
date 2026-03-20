@@ -1,4 +1,4 @@
-# Временные функции, если модуль не загружен
+﻿# Временные функции, если модуль не загружен
 if (-not (Get-Command -Name Update-AllVersions -ErrorAction SilentlyContinue)) {
     function Update-AllVersions {
         param(
@@ -34,20 +34,23 @@ if (-not (Get-Command -Name Update-AllVersions -ErrorAction SilentlyContinue)) {
             return @{ Version = "0.0.0.0"; NuspecUpdated = 0; ResxUpdated = 0 }
         }
 
-        # Обновляем nuspec файлы
-        $nuspecFiles = @(
-            Join-Path $ProjectRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
-            Join-Path $ProjectRoot 'MarketplaceFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
-        )
-        $nuspecUpdated = 0
-        foreach ($file in $nuspecFiles) {
-            if (Test-Path $file) {
-                $content = Get-Content $file -Raw
-                $content = $content -replace '<version>.*?</version>', "<version>$targetVersion</version>"
-                $content | Out-File $file -Encoding UTF8 -Force
-                $nuspecUpdated++
-            }
-        }
+		# Обновляем nuspec файлы
+		$nuspecFiles = @(
+			Join-Path $ProjectRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
+			Join-Path $ProjectRoot 'MarketplaceFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
+		)
+		$nuspecUpdated = 0
+		foreach ($file in $nuspecFiles) {
+			if (Test-Path $file) {
+				# Читаем файл как UTF-8 (с BOM или без)
+				$content = [System.IO.File]::ReadAllText($file, [System.Text.Encoding]::UTF8)
+				# Заменяем версию
+				$content = $content -replace '<version>.*?</version>', "<version>$targetVersion</version>"
+				# Сохраняем как UTF-8 без BOM (чтобы не плодить лишний BOM, если его не было)
+				[System.IO.File]::WriteAllText($file, $content, [System.Text.UTF8Encoding]::new($false))
+				$nuspecUpdated++
+			}
+		}
 
         # Обновляем resx файлы
         $resxFiles = @(
