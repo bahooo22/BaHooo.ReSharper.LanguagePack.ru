@@ -343,7 +343,7 @@
   <value>Параметр типа никогда не используется</value>
 </data>
 <data name="IsNeverUsedMessage" xml:space="preserve">
-  <value>{0} '{1}' никогда не используется{2}</value>
+  <value>{0} '{1}' никогда не используется {2}</value>
 </data>
 <data name="ConstructorParameterCanBeDeclaredWithBaseType" xml:space="preserve">
   <value>Параметр конструктора можно объявить с базовым типом</value>
@@ -544,7 +544,7 @@
   <value>{0} '{1}' не имеет наследников и может быть помечен как {2}</value>
 </data>
 <data name="ParameterIsUsedNeitherInThisNorInOverridingsMessage" xml:space="preserve">
-  <value>Параметр '{0}' не используется здесь и не используется при переопределении{1}</value>
+  <value>Параметр '{0}' не используется здесь и не используется при переопределении {1}</value>
 </data>
 <data name="ClassHasNoInheritorsAndCanBeMarkedSealedNonInheritable" xml:space="preserve">
   <value>Класс не имеет наследников и может быть помечен как sealed (не наследуемый)</value>

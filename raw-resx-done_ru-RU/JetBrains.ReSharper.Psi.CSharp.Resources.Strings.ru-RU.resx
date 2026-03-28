@@ -640,7 +640,7 @@
   <value>Объявление аксессора</value>
 </data>
 <data name="TupleComponentShouldBeRemovedInOrder_Text" xml:space="preserve">
-  <value>Компонент кортежа{0} должен быть удален для соответствия ожидаемому типу</value>
+  <value>Компонент кортежа {0} должен быть удален для соответствия ожидаемому типу</value>
 </data>
 <data name="OutdentBinaryPatternsSettingDescription" xml:space="preserve">
   <value>Уменьшать отступ для бинарных шаблонов</value>
@@ -661,7 +661,7 @@
   <value>Нет</value>
 </data>
 <data name="Method_Text" xml:space="preserve">
-  <value>method</value>
+  <value> Method</value>
 </data>
 <data name="PropertiesAndEventsSettingDescription" xml:space="preserve">
   <value>Свойства и события</value>
@@ -1186,7 +1186,7 @@
   <value>После двоеточия в операторе 'case'</value>
 </data>
 <data name="TupleComponentShouldBeAddedInOrder_Text" xml:space="preserve">
-  <value>Компонент кортежа{0} должен быть добавлен для соответствия ожидаемому типу</value>
+  <value>Компонент кортежа {0} должен быть добавлен для соответствия ожидаемому типу</value>
 </data>
 <data name="ParserParameterModifierSymbol2_Text" xml:space="preserve">
   <value>Модификатор параметра</value>

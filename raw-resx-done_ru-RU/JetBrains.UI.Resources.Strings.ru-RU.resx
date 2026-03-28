@@ -680,7 +680,7 @@
 <data name="Copyright__AllRightsReserved_Text" xml:space="preserve">
   <value>Все права защищены. © {0} {1}
   
-BaHooo.ReSharper.I18n.ru, v. 2025.3.3.11 
+BaHooo.ReSharper.I18n.ru, v. 2025.3.3.10 
 Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
 </data>
 <data name="ManageJetBrainsAccount_Text" xml:space="preserve">
@@ -1213,3 +1213,24 @@ BaHooo.ReSharper.I18n.ru, v. 2025.3.3.11
   <value>Пожалуйста, проверьте, как вы предпочитаете делиться данными с JetBrains:</value>
 </data>
 </root>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

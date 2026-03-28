@@ -4558,7 +4558,7 @@ Shift+Tab — перейти к предыдущему элементу кода
 </data>
 <data name="ReSharperNoticedTheClipboardContains_Text" xml:space="preserve">
     <value>ReSharper заметил связанную трассировку стека в буфере обмена
-и отобразил её в Обозревателе трассировки стека{0}</value>
+и отобразил её в Обозревателе трассировки стека {0}</value>
 </data>
 <data name="BreakpointPresentationLambdaExpression_Text" xml:space="preserve">
     <value>внутри лямбда-выражения</value>
@@ -4633,7 +4633,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>GUID шаблона</value>
 </data>
 <data name="For_KindName_UsageScope_Text" xml:space="preserve">
-    <value>Для{0} '{1}'</value>
+    <value>Для {0} '{1}'</value>
 </data>
 <data name="PropertyDeclaration_Text" xml:space="preserve">
     <value>Объявление свойства</value>
@@ -4950,7 +4950,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Игнорировать знак условного доступа C# 6.0</value>
 </data>
 <data name="Base_Of__Text" xml:space="preserve">
-    <value>Базовый{0} для '{1}'</value>
+    <value>Базовый {0} для '{1}'</value>
 </data>
 <data name="ReindentAdjustIndentation_Description_Text" xml:space="preserve">
     <value>Переотступ (настроить отступ)</value>
@@ -4995,7 +4995,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Показывать тип завершения</value>
 </data>
 <data name="Displaying_Of_Found___Text" xml:space="preserve">
-    <value>Отображение {0} из {1} найденных{2}{3}</value>
+    <value>Отображение {0} из {1} найденных {2}{3}</value>
 </data>
 <data name="ConflictWith_DescriptionText" xml:space="preserve">
     <value>Конфликт с {0}</value>

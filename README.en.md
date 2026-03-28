@@ -72,6 +72,152 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 
 ## 🚀 Main Build Script
 
+## 🚀 Main Build Script
+
+### `resx-to-resources.ps1`
+
+> **📅 Last updated:** 2026-03-28  
+> **✨ What's new today:**
+> - ✅ Parallel conversion (`-up`, `-t`, `-Threads`) with auto thread selection
+> - ✅ Auto-download of PowerShell 7 to `./Tools/PWSH7` when needed
+> - ✅ Auto-download of tools (ResGen.exe, nuget.exe) to `./Tools`
+> - ✅ New flags: `-AcceptAll/-aa` (CI/CD), `-CleanTools`, `-NoNetwork` (offline)
+> - ✅ Hash history: up to 10 versions in `resx-hashes.history.json`
+> - ✅ Enhanced error details: line/position display + visual `^` indicator
+> - ✅ Improved output: concise `[✓] file.resx` format + resource statistics
+> - ✅ Summary block "CONVERSION SUMMARY" with time, speed, resource count
+> - ✅ Interactive confirmation when running without parameters
+> - ✅ Russian keyboard layout support: `т/Т/да/Д` = yes, `н/Н/нет` = no
+> - ✅ System info on startup (PS version, CPU, cores)
+> - ✅ Single-responsibility functions + `<# .SYNOPSIS #>` documentation
+> - ✅ Thread-safe logging via `[System.IO.File]::AppendAllText()`
+> - ✅ `VersionAlreadyUpdated` flag: prevents double version increment
+
+An intelligent script for managing the build process with change tracking via SHA256 hashes.
+
+#### Intelligent features:
+
+1. **Hash caching** - saves hashes of all .resx files in `build/resx-hashes.json`
+2. **Incremental conversion** - converts only changed files
+3. **Auto-version increment** - automatically updates version when changes are detected
+4. **Conflict checking** - prevents incompatible parameter combinations
+5. **Parallel processing** - multi-threaded conversion via PowerShell 7+ (`-up`)
+6. **Self-hosting infrastructure** - auto-download missing tools to `./Tools`
+7. **Change history** - stores up to 10 snapshots with timestamps in `.history.json`
+8. **Error details** - parses ResGen output to show line/position with visual indicator
+
+#### Parameters:
+
+| Parameter | Alias | Description | Default |
+|-----------|--------|-------------|---------|
+| `-ResxFolder` | - | Folder with source .resx files | `.\raw-resx-done_ru-RU` |
+| `-ResourcesOutput` | - | Folder for generated .resources files | `.\build\resources` |
+| `-Version` | - | Build version manually (otherwise auto-increment) | (auto) |
+| `-LogFile` | - | Main log file path | `build.log` |
+| `-ErrorLogFile` | - | Error log file path | `build.errors.log` |
+| `-NoBuild` | `-nb` | Conversion only, no package building | - |
+| `-BuildOnly` | `-bo` | Package building only, no conversion | - |
+| `-NoResgen` | `-nr` | Skip .resources generation | - |
+| `-SyncVersions` | `-sv` | Synchronize versions before execution | - |
+| `-SkipVersionUpdate` | `-svu` | Disable auto-version increment (for CI/CD) | - |
+| `-ForceAll` | `-fa` | Force conversion of ALL .resx files | - |
+| `-UseParallel` | `-up`, `-t`, `-Threads` | Thread count for parallel processing (0=off, 1=auto, 2..N=explicit) | `0` |
+| `-AcceptAll` | `-aa` | Auto-consent for tool downloads (for CI/CD) | - |
+| `-CleanTools` | - | Clean `./Tools` folder before run | - |
+| `-NoNetwork` | - | Disable all network requests (offline mode) | - |
+| `-Help` | `-h` | Show help | - |
+
+#### Usage examples:
+
+```powershell
+# 🔹 Full process: check → convert → build
+.\resx-to-resources.ps1
+
+# 🔹 With parallelism (speedup): 8 threads + version sync
+.\resx-to-resources.ps1 -up 8 -sv
+
+# 🔹 Smart parallelism: auto thread selection (half of CPU cores)
+.\resx-to-resources.ps1 -up -sv
+
+# 🔹 Conversion of changed files only
+.\resx-to-resources.ps1 -NoBuild
+
+# 🔹 Package building only (resources already ready)
+.\resx-to-resources.ps1 -BuildOnly
+
+# 🔹 CI/CD mode: all files, no version increment, auto-consent
+.\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild -AcceptAll
+
+# 🔹 Offline mode: no downloads, skip resgen
+.\resx-to-resources.ps1 -NoNetwork -NoResgen
+
+# 🔹 Short forms:
+.\resx-to-resources.ps1 -fa -svu -nb -aa    # For CI/CD
+.\resx-to-resources.ps1 -bo                 # Build only
+.\resx-to-resources.ps1 -up -sv             # Parallel + sync
+```
+
+#### How change detection works:
+
+1. **First run:** creates `build/resx-hashes.json` with hashes of all files
+2. **Subsequent runs:** compares hashes with saved ones
+3. **Only converts:** new or modified files
+4. **Deleted files:** logged but don't affect build
+5. **History:** saves up to 10 latest snapshots in `resx-hashes.history.json`
+
+**Sample output:**
+```
+=== Checking changes in .resx files ===
+Loaded hashes from cache: 236
+[CHANGED] JetBrains.UI.Resources.Strings.ru-RU.resx
+[NEW] JetBrains.New.Module.ru-RU.resx
+[DELETED] JetBrains.Old.Module.ru-RU.resx
+
+=== Change statistics ===
+Total files: 236
+Changed: 1
+New: 1
+Deleted: 1
+Unchanged: 233
+Files to convert: 2
+Has changes: YES
+
+  ═════════════════════════════════════════════════════════════
+  CONVERSION SUMMARY
+  ═════════════════════════════════════════════════════════════
+  Files processed: 2
+  Successful:      2
+  Errors:          0
+  Total resources: 1247
+  Time:            0.24 sec.
+  Speed:           8.33 files/sec.
+  ═════════════════════════════════════════════════════════════
+```
+
+#### Error details:
+
+When conversion fails, the script shows:
+- Line number and position in the .resx file (if available)
+- Error message from ResGen
+- The problematic code line with visual `^` indicator
+
+**Example:**
+```
+  [!] JetBrains.Broken.File.resx
+      Line 42, Position 15
+      error RG000: The data at line 42, position 15 is invalid.
+      Code: <data name="InvalidKey" xml:space="preserve">
+              ^
+```
+
+#### Russian keyboard layout support:
+
+In interactive prompts, the following inputs are supported:
+- **Yes:** `y`, `Y`, `т`, `Т`, `да`, `Д`
+- **No:** `n`, `N`, `н`, `Н`, `нет`, `Enter` (default)
+
+---
+
 ### `resx-to-resources.ps1`
 
 An intelligent script for managing the build process with change tracking via SHA256 hashes.

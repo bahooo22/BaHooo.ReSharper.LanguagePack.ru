@@ -700,7 +700,7 @@
   <value>Квалификатор 'MyBase.' избыточен и может быть безопасно удален без изменения семантики кода.</value>
 </data>
 <data name="ReferenceToRequiresTypeMessage" xml:space="preserve">
-  <value>Ссылка на '{0}' требует {1} тип{2}</value>
+  <value>Ссылка на '{0}' требует {1} тип {2}</value>
 </data>
 <data name="AutoPropertyCannotHaveParametersMessage" xml:space="preserve">
   <value>Автосвойство не может иметь параметры</value>

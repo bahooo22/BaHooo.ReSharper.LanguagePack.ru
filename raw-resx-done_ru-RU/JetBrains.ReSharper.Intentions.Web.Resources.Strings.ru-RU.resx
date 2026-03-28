@@ -643,7 +643,7 @@
   <value>Применяется к оператору 'return', условием которого является конъюнкция двух более простых условий ('&amp;&amp;'). Он преобразует оператор 'return' в защитный оператор 'if' и 'return'.</value>
 </data>
 <data name="RemoveUnused__Text" xml:space="preserve">
-  <value>Удалить неиспользуемый{0}</value>
+  <value>Удалить неиспользуемый {0}</value>
 </data>
 <data name="CreateClass_InModule___Text" xml:space="preserve">
   <value>Создать класс '{0}' в модуле '{1}' {2}</value>
@@ -1537,7 +1537,7 @@
   <value>Добавить параметр с именем 'value'</value>
 </data>
 <data name="TreatPageParserFilterTypeAs__Text" xml:space="preserve">
-  <value>Рассматривать тип pageParserFilter как{0}</value>
+  <value>Рассматривать тип pageParserFilter как {0}</value>
 </data>
 <data name="IntroduceVariable_Text" xml:space="preserve">
   <value>Ввести переменную</value>
@@ -1729,7 +1729,7 @@
   <value>Удалить избыточную спецификацию родительского типа</value>
 </data>
 <data name="RenameClashing__Text" xml:space="preserve">
-  <value>Переименовать конфликтующий{0}</value>
+  <value>Переименовать конфликтующий {0}</value>
 </data>
 <data name="AddParameterToControllerSRouteTemplateContextAction_Name" xml:space="preserve">
   <value>Добавить параметр в шаблон маршрута контроллера</value>
@@ -1819,7 +1819,7 @@
   <value>Изменить на вопросительный знак</value>
 </data>
 <data name="RemoveRedundant__Text" xml:space="preserve">
-  <value>Удалить избыточный{0}</value>
+  <value>Удалить избыточный {0}</value>
 </data>
 <data name="ChangeAllLocal__Text" xml:space="preserve">
   <value>Изменить все локальные '{0}'</value>

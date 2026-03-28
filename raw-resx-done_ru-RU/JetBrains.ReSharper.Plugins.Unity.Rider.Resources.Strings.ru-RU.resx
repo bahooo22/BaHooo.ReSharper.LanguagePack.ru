@@ -200,7 +200,7 @@
 </data>
 <data name="PleaseSwitchToTheUnityEditorToReload_Text" xml:space="preserve">
   <value>Переключитесь в редактор Unity для загрузки плагина.
-                             Плагин Rider v{0} можно найти здесь:
+                             Плагин Rider v {0} можно найти здесь:
                              {1}.</value>
 </data>
 <data name="UnityProfilerSnapshot_Internal_Call_Highlighting_moreinfo" xml:space="preserve">
@@ -229,14 +229,14 @@
 </data>
 <data name="PleaseSwitchToUnityEditorToLoadThePlugin_Text" xml:space="preserve">
   <value>Переключитесь в редактор Unity для загрузки плагина.
-                             Плагин Rider v{0} можно найти здесь:
+                             Плагин Rider v {0} можно найти здесь:
                              {1}.</value>
 </data>
 <data name="GameObjectUsageGroupingRule_GameObjectUsageGroupingRule_UnityGameObject" xml:space="preserve">
   <value>Unity GameObject</value>
 </data>
 <data name="UnityProfilerSnapshot_Multiple_Class_Highlighting_display_name" xml:space="preserve">
-  <value>{0:F2}мс ({1:P1}) x{2} [{3:F1}]</value>
+  <value>{0:F2}мс ({1:P1}) x {2} [{3:F1}]</value>
 </data>
 <data name="RiderPackageUpdateAvailabilityChecker_ShowNotificationIfNeeded_Do_not_show_for_this_solution" xml:space="preserve">
   <value>Не показывать для этого решения</value>
@@ -272,7 +272,7 @@
   <value>Этот файл является частью встроенного кэша пакетов Unity. Все внесённые изменения будут потеряны.</value>
 </data>
 <data name="UnityProfilerSnapshot_Internal_Call_Highlighting_display_name" xml:space="preserve">
-  <value>{0:F2}мс ({1:P1}) x{2} [{3:F1}]</value>
+  <value>{0:F2}мс ({1:P1}) x {2} [{3:F1}]</value>
 </data>
 <data name="UnityCodeInsightFieldUsageProvider_AddInspectorHighlighting_CapitalChar_Method" xml:space="preserve">
   <value>Метод</value>
@@ -290,7 +290,7 @@
   <value>{0} {1:F2}мс ({2:P1})</value>
 </data>
 <data name="UnityProfilerSnapshot_Multiple_Method_Highlighting_display_name" xml:space="preserve">
-  <value>{0:F2}мс ({1:P1}) x{2} [{3:F1}]</value>
+  <value>{0:F2}мс ({1:P1}) x {2} [{3:F1}]</value>
 </data>
 <data name="GeneratedFileNotification_GeneratedFileNotification_Edit_corresponding__asmdef_in_Unity" xml:space="preserve">
   <value>Редактировать соответствующий .asmdef в Unity</value>

@@ -133,7 +133,7 @@
   <value>Открыть как сравнение в сторонней программе просмотра различий</value>
 </data>
 <data name="ShowSummaryForPreviousSignature__ToolTip" xml:space="preserve">
-  <value>Показать сводку для предыдущей сигнатуры{0}</value>
+  <value>Показать сводку для предыдущей сигнатуры {0}</value>
 </data>
 <data name="IgnoreActionText" xml:space="preserve">
   <value>Игнорировать</value>
@@ -277,7 +277,7 @@
   <value>Щелкните, чтобы показать сводку для этой сигнатуры</value>
 </data>
 <data name="ShowSummaryForNextSignature__ToolTip" xml:space="preserve">
-  <value>Показать сводку для следующей сигнатуры{0}</value>
+  <value>Показать сводку для следующей сигнатуры {0}</value>
 </data>
 <data name="Generate_SelectAll_Text" xml:space="preserve">
   <value>Выделить все (_A)</value>

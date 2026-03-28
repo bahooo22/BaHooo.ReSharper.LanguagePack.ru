@@ -300,8 +300,8 @@
 * *ПКМ по методу* — открыть контекстное меню.
 
 &lt;p&gt;Легенда:
-&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Fold{0}.svg) Цепочка системных вызовов, которую можно свернуть в одном узле.
-&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Unfold{0}.svg) Свернутая цепочка системных вызовов.
+&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Fold {0}.svg) Цепочка системных вызовов, которую можно свернуть в одном узле.
+&lt;p&gt;![VectorImage](Xaml/Assets/Svg/Unfold {0}.svg) Свернутая цепочка системных вызовов.
   </value>
 </data>
 

@@ -1240,7 +1240,7 @@
     <value>Инициализатор статического члена ссылается на статический член ниже или в другой части</value>
   </data>
   <data name="NonNullableBackingFieldIsUninitializedInConstructorConsiderDeclaringTheAsNullableOrUseAttributesMessage" xml:space="preserve">
-    <value>При выходе из конструктора ненулевое {0} "{1}" должно содержать ненулевое значение. Рассмотрите добавление модификатора '{2}' или объявите {0} как nullable{3}.</value>
+    <value>При выходе из конструктора ненулевое {0} "{1}" должно содержать ненулевое значение. Рассмотрите добавление модификатора '{2}' или объявите {0} как nullable {3}.</value>
   </data>
   <data name="MethodReturnType_Text" xml:space="preserve">
     <value>Тип возвращаемого значения метода</value>
@@ -5114,7 +5114,7 @@
     <value>Заменить одним вызовом Last(..)</value>
 </data>
 <data name="OptionalParameterDefaultValueDiffersFromParameterInBaseMessage" xml:space="preserve">
-    <value>Значение необязательного параметра по умолчанию отличается от параметра{0} в базовом {1} "{2}"</value>
+    <value>Значение необязательного параметра по умолчанию отличается от параметра {0} в базовом {1} "{2}"</value>
 </data>
 <data name="DeclaringNewProtectedInSealedIsTheSameAsDeclaringItAsPrivateMessage" xml:space="preserve">
     <value>Объявление нового protected {0} "{1}" в sealed {2} эквивалентно объявлению его как private</value>
@@ -5390,7 +5390,7 @@
     <value>"{0}" не является допустимым типом соглашения о вызовах для 'UnmanagedCallersOnly'</value>
 </data>
 <data name="NonNullableBackingFieldsAreUninitializedInConstructorConsiderDeclaringTheAsNullableOrUseAttributesMessage" xml:space="preserve">
-    <value>При выходе из конструктора не-nullable свойство{0} должно содержать не-null значение. Рассмотрите добавление модификатора '{1}' или объявление свойства как nullable{2}.</value>
+    <value>При выходе из конструктора не-nullable свойство {0} должно содержать не-null значение. Рассмотрите добавление модификатора '{1}' или объявление свойства как nullable {2}.</value>
 </data>
 <data name="AccessorInInterfaceCannotDeclareABodyMessage" xml:space="preserve">
     <value>Аксессор в interface {0} не может объявлять тело</value>
@@ -6996,7 +6996,7 @@
     <value>Нельзя преобразовать 'null' в параметр типа '{0}', так как он может быть типом значения. Рассмотрите возможность использования 'default(T)'.</value>
   </data>
   <data name="BaseInterfaceIsRedundantBecauseImplementsMessage" xml:space="preserve">
-    <value>Базовый интерфейс '{0}' избыточен, поскольку{1} реализует '{2}'</value>
+    <value>Базовый интерфейс '{0}' избыточен, поскольку {1} реализует '{2}'</value>
   </data>
   <data name="RedundantExplicitPropertyNameMessage" xml:space="preserve">
     <value>Избыточное явное имя свойства</value>
@@ -7152,7 +7152,7 @@
     <value>Применение аннотации допустимости значения NULL к объявлению, на которое нельзя напрямую ссылаться из другого кода, бессмысленно</value>
   </data>
   <data name="CannotReturnByReferenceBecauseItIsNotArefoutOrinParameterMessage" xml:space="preserve">
-    <value>Нельзя вернуть по ссылке{0} '{1}', так как это не параметр 'ref', 'out' или 'in'</value>
+    <value>Нельзя вернуть по ссылке {0} '{1}', так как это не параметр 'ref', 'out' или 'in'</value>
   </data>
   <data name="RedundantExplicitTupleComponentNameMessage" xml:space="preserve">
     <value>Избыточное явное имя компонента кортежа</value>
@@ -7381,7 +7381,7 @@
     <value>Глобальные директивы '{0}'</value>
   </data>
   <data name="MethodExpectedButFoundMessage" xml:space="preserve">
-    <value>Ожидался метод, но найден{0} {1}</value>
+    <value>Ожидался метод, но найден {0} {1}</value>
   </data>
   <data name="PossibleIncorrectImplementationOfDoubleCheckLockingPatternReadAccessToCheckedField" xml:space="preserve">
     <value>Возможно некорректная реализация шаблона двойной проверки блокировки. Осуществите доступ на чтение к проверяемому полю.</value>
@@ -7462,7 +7462,7 @@
     <value>Функции базы данных не должны вызываться в не-базовом контексте</value>
   </data>
   <data name="TypeParameterHasTheSameNameAsTheTypeParameterFromOuterMessage" xml:space="preserve">
-    <value>Параметр типа '{0}' имеет то же имя, что и параметр типа из внешнего{1} '{2}'</value>
+    <value>Параметр типа '{0}' имеет то же имя, что и параметр типа из внешнего {1} '{2}'</value>
   </data>
   <data name="CompilerWarning_CS7022_Title" xml:space="preserve">
     <value>Точкой входа программы является глобальный код; игнорируется эта точка входа</value>
@@ -7477,7 +7477,7 @@
     <value>Компонент кортежа никогда не используется</value>
   </data>
   <data name="IntroduceOptionalParameterSForMessage" xml:space="preserve">
-    <value>Ввести необязательные параметры для{0} '{1}'</value>
+    <value>Ввести необязательные параметры для {0} '{1}'</value>
   </data>
   <data name="CompilerWarning_CS0251_Title" xml:space="preserve">
     <value>Индексация массива с отрицательным значением</value>
@@ -7636,7 +7636,7 @@
     <value>Типы//структура</value>
   </data>
   <data name="PartialMember_MustHaveAnImplementationPartMessage" xml:space="preserve">
-    <value>Частичный{0} '{1}' должен иметь часть реализации</value>
+    <value>Частичный {0} '{1}' должен иметь часть реализации</value>
   </data>
   <data name="MoveToExtensionBlockDescription" xml:space="preserve">
     <value>Переместить метод расширения в существующий блок расширений</value>
@@ -7669,7 +7669,7 @@
     <value>Обращение к члену в поле класса с маршаллингом по ссылке может привести к исключению времени выполнения</value>
   </data>
   <data name="OverrideCannotChangeAccessRightsMessage" xml:space="preserve">
-    <value>Переопределение{0} '{1}' не может изменять права доступа</value>
+    <value>Переопределение {0} '{1}' не может изменять права доступа</value>
   </data>
   <data name="InterceptableMethodMustBeOrdinaryMessage" xml:space="preserve">
     <value>Невозможно перехватить '{0}', так как это не вызов обычного метода-члена</value>
@@ -7780,7 +7780,7 @@
     <value>Аннотация [MustDisposeResource] не наследуется от базового конструктора, должна быть размещена явно</value>
   </data>
   <data name="CovariantReturnTypeOfA_CanOnlyBeUsed_Text" xml:space="preserve">
-    <value>Условием использования ковариантного возвращаемого типа{0} является то, что переопределяющий{0} находится в состоянии только для чтения</value>
+    <value>Условием использования ковариантного возвращаемого типа {0} является то, что переопределяющий {0} находится в состоянии только для чтения</value>
   </data>
   <data name="NotSingleExtensionReceiverParameterErrorMessage" xml:space="preserve">
     <value>Расширение должно иметь единственный параметр-приемник</value>
@@ -7807,7 +7807,7 @@
     <value>В выражения можно безопасно добавить круглые скобки для уточнения приоритета</value>
   </data>
   <data name="TheInheritedMembersAndHaveTheSameSignatureInSoTheyCannotBeOverriddenMessage" xml:space="preserve">
-    <value>Унаследованные члены '{0}' и '{1}' имеют одинаковую сигнатуру в{2} '{3}', поэтому они не могут быть переопределены</value>
+    <value>Унаследованные члены '{0}' и '{1}' имеют одинаковую сигнатуру в {2} '{3}', поэтому они не могут быть переопределены</value>
   </data>
   <data name="PatternMatchingIsNotPermittedForPointerTypesMessage" xml:space="preserve">
     <value>Сопоставление шаблонов не разрешено для типов указателей</value>
@@ -7822,7 +7822,7 @@
     <value>Преобразование литерала NULL или возможного значения NULL в тип, не допускающий значение NULL</value>
   </data>
   <data name="ParameterHasNoMatchingParamTagInTheXMLCommentForButOtherParametersDoMessage" xml:space="preserve">
-    <value>Параметр '{0}' не имеет соответствующего тега param в XML-комментарии для{1} (но другие параметры имеют)</value>
+    <value>Параметр '{0}' не имеет соответствующего тега param в XML-комментарии для {1} (но другие параметры имеют)</value>
   </data>
   <data name="PossibleNullReferenceAssignmentMessage" xml:space="preserve">
     <value>Возможное присваивание ссылки на NULL</value>
@@ -7906,7 +7906,7 @@
     <value>Значение, присвоенное локальной переменной или параметру, не используется ни в одном пути выполнения</value>
   </data>
   <data name="TypeNameExpectedButNameFoundMessage" xml:space="preserve">
-    <value>Ожидалось имя типа, но найдено{0} имя{1}</value>
+    <value>Ожидалось имя типа, но найдено {0} имя {1}</value>
   </data>
   <data name="WhenTypeIsEvident_Caption" xml:space="preserve">
     <value>Когда тип очевиден</value>
@@ -7927,10 +7927,10 @@
     <value>Избыточный блок 'else'</value>
   </data>
   <data name="CannotTakeTheAddressOfBecauseItIsReadOnlyMessage" xml:space="preserve">
-    <value>Нельзя получить адрес{0}, так как он доступен только для чтения</value>
+    <value>Нельзя получить адрес {0}, так как он доступен только для чтения</value>
   </data>
   <data name="TheBodyOfCannotBeAnIteratorBlockBecauseIsNotAnInterfaceTypeMessage" xml:space="preserve">
-    <value>Тело '{0}' не может быть блоком итератора, потому что '{1}' не является{2} типом интерфейса</value>
+    <value>Тело '{0}' не может быть блоком итератора, потому что '{1}' не является {2} типом интерфейса</value>
   </data>
   <data name="BaseMemberHasparamsParameterButOverriderHasnt5" xml:space="preserve">
     <value>Базовый член имеет параметр 'params', но переопределение не имеет</value>
@@ -7981,13 +7981,13 @@
     <value>Не удалось найти значение RuntimeMetadataVersion</value>
   </data>
   <data name="sOfTypeCannotBeDeclaredInAsyncsMessage" xml:space="preserve">
-    <value>Нельзя объявлять{0} типа '{1}' в async {2}</value>
+    <value>Нельзя объявлять {0} типа '{1}' в async {2}</value>
   </data>
   <data name="TheExpressionIsUsedInSeveralLockStatementsWithInconsistentExecutionOrderFormingACycleThisMightLeadToAPossibleDeadlockInAMultiThreadedExecution" xml:space="preserve">
     <value>Выражение используется в нескольких операторах lock с несогласованным порядком выполнения, образуя цикл. Это может привести к взаимоблокировке при многопоточном выполнении.</value>
   </data>
   <data name="PossibleLocalVariableEscapeWarningMessage" xml:space="preserve">
-    <value>Использование{0} '{1}' в этом контексте может раскрыть ссылочную переменную за пределы области ее объявления</value>
+    <value>Использование {0} '{1}' в этом контексте может раскрыть ссылочную переменную за пределы области ее объявления</value>
   </data>
   <data name="ConvertToExtensionBlockDescription" xml:space="preserve">
     <value>Преобразовать классические методы расширения в блок расширений C# 14</value>
@@ -7996,7 +7996,7 @@
     <value>Поиск в словаре можно упростить с помощью 'TryAdd'</value>
   </data>
   <data name="InconsistentAccessibilityBaseIsLessAccessibleMessage" xml:space="preserve">
-    <value>Несогласованная доступность: базовый{0} '{1}' имеет меньшую доступность</value>
+    <value>Несогласованная доступность: базовый {0} '{1}' имеет меньшую доступность</value>
   </data>
   <data name="RedundantWithCancellationTitle" xml:space="preserve">
     <value>Избыточный вызов 'WithCancellation()'</value>
@@ -8014,7 +8014,7 @@
     <value>Анонимные методы, лямбда-выражения, локальные функции и выражения запросов внутри структур не могут обращаться к членам экземпляра 'this'. Рассмотрите возможность копирования 'this' в локальную переменную вне замыкания и использования этой локальной переменной вместо этого.</value>
   </data>
   <data name="ParameterInBaseHasDefaultValueMessage" xml:space="preserve">
-    <value>Параметр{0} в базовом{1} '{2}' имеет значение по умолчанию</value>
+    <value>Параметр {0} в базовом {1} '{2}' имеет значение по умолчанию</value>
   </data>
   <data name="ArrayInitializersCanOnlyBeUsedInAVariableOrFieldInitializerTryUsingANewExpressionInsteadMessage" xml:space="preserve">
     <value>Инициализаторы массивов могут использоваться только в инициализаторе переменной или поля. Попробуйте использовать вместо этого новое выражение.</value>
@@ -8164,7 +8164,7 @@
     <value>'{0}' должно быть обязательным, так как оно переопределяет обязательный член '{1}'</value>
   </data>
   <data name="MultipleWithTheSameNumberOfParametersCannotBeMarkedWithDefaultOverloadAttributeMessage" xml:space="preserve">
-    <value>Нельзя пометить атрибутом 'DefaultOverloadAttribute' несколько{0} с одинаковым количеством параметров</value>
+    <value>Нельзя пометить атрибутом 'DefaultOverloadAttribute' несколько {0} с одинаковым количеством параметров</value>
   </data>
   <data name="ConstructorCannotCallItselfThroughAnotherConstructorMessage" xml:space="preserve">
     <value>Конструктор не может вызывать себя через другой конструктор</value>
@@ -8182,16 +8182,16 @@
     <value>Предлагает использовать пустое выражение коллекции '[]' для случаев вроде 'new List&lt;T&gt;()', 'Array.Empty&lt;T&gt;()', 'Enumerable.Empty&lt;T&gt;()', 'ImmutableArray.Create&lt;T&gt;()'.</value>
   </data>
   <data name="RedundantOverrideMessage" xml:space="preserve">
-    <value>Избыточное{0} переопределение</value>
+    <value>Избыточное {0} переопределение</value>
   </data>
   <data name="MergeStringLiteralWithContainingInterpolationMessage" xml:space="preserve">
     <value>Объединить строковый литерал с содержащей интерполяцией</value>
   </data>
   <data name="RefReturnNonRefVariableMemberWarningMessage" xml:space="preserve">
-    <value>Это возвращает по ссылке член{0} '{1}', но это не ref-локальная переменная</value>
+    <value>Это возвращает по ссылке член {0} '{1}', но это не ref-локальная переменная</value>
   </data>
   <data name="OverrideCannotBeMarkedAsNewMessage" xml:space="preserve">
-    <value>Переопределение{0} не может быть помечено как new</value>
+    <value>Переопределение {0} не может быть помечено как new</value>
   </data>
   <data name="ReplaceAutoPropertyWithComputedProperty" xml:space="preserve">
     <value>Заменить автоматическое свойство на вычисляемое свойство</value>
@@ -8320,16 +8320,16 @@
     <value>Устаревший член переопределяет неустаревший член</value>
   </data>
   <data name="RequiredNotInitializedInAnyExecutionPathMessage" xml:space="preserve">
-    <value>Обязательный{0} '{1}' не инициализирован ни в одном пути выполнения</value>
+    <value>Обязательный {0} '{1}' не инициализирован ни в одном пути выполнения</value>
   </data>
   <data name="UseSimpleTypesMessage" xml:space="preserve">
-    <value>Использовать{0} (простой тип)</value>
+    <value>Использовать {0} (простой тип)</value>
   </data>
   <data name="LeftOperandOfTheOperatorShouldBeOfReferenceOrNullableTypeMessage" xml:space="preserve">
     <value>Левый операнд оператора '??' должен быть ссылочным или допускающим значение NULL типом</value>
   </data>
   <data name="RefReturnOnlyParameterWarningMessage" xml:space="preserve">
-    <value>Это возвращает по ссылке{0} '{1}' через ref-параметр; но его можно безопасно возвращать только в операторе return</value>
+    <value>Это возвращает по ссылке {0} '{1}' через ref-параметр; но его можно безопасно возвращать только в операторе return</value>
   </data>
   <data name="OmitVarKeywordForDiscardsWhenPossible_Caption" xml:space="preserve">
     <value>По возможности опускать ключевое слово 'var' для отбрасываний</value>
@@ -8356,7 +8356,7 @@
     <value>Параметр-приемник расширения не может иметь модификатор 'params'</value>
   </data>
   <data name="MustHaveSetToMatchOverriddenMessage" xml:space="preserve">
-    <value>'{0}' должен иметь метод доступа 'set' вместо 'init', чтобы соответствовать переопределенному{1} '{2}'</value>
+    <value>'{0}' должен иметь метод доступа 'set' вместо 'init', чтобы соответствовать переопределенному {1} '{2}'</value>
   </data>
   <data name="EmptyExtensionBlockTitle" xml:space="preserve">
     <value>Пустой блок extension</value>
@@ -8431,7 +8431,7 @@
     <value>Преобразовать конструктор в инициализаторы членов</value>
   </data>
   <data name="TypeParameterHidesMessage" xml:space="preserve">
-    <value>Параметр типа '{0}' скрывает{1} '{2}'</value>
+    <value>Параметр типа '{0}' скрывает {1} '{2}'</value>
   </data>
   <data name="RefVariablesAreNotAllowedInThisContextMessage" xml:space="preserve">
     <value>Ref-переменные не допускаются в этом контексте</value>
@@ -8452,7 +8452,7 @@
     <value>Неиспользуемая директива допустимости значения NULL</value>
   </data>
   <data name="BaseDoesntContainParameterlessConstructorMessage" xml:space="preserve">
-    <value>Базовый{0} '{1}' не содержит конструктор без параметров</value>
+    <value>Базовый {0} '{1}' не содержит конструктор без параметров</value>
   </data>
   <data name="UsePreferredNamespaceBodyStyle" xml:space="preserve">
     <value>Использовать предпочтительный стиль тела пространства имен</value>
@@ -8524,10 +8524,10 @@
     <value>Используется перехватчик '{1}' для перехвата вызова '{0}', но сигнатуры не совпадают</value>
   </data>
   <data name="CannotUseLocalVariableInsideMessage" xml:space="preserve">
-    <value>Нельзя использовать локальную переменную '{1}' '{0}' внутри{2}</value>
+    <value>Нельзя использовать локальную переменную '{1}' '{0}' внутри {2}</value>
   </data>
   <data name="InconsistentAccessibilityReturnTypeIsLessAccessibleThanMessage" xml:space="preserve">
-    <value>Несогласованная доступность: тип возвращаемого значения '{0}' имеет меньшую доступность, чем{1} '{2}'</value>
+    <value>Несогласованная доступность: тип возвращаемого значения '{0}' имеет меньшую доступность, чем {1} '{2}'</value>
   </data>
   <data name="ThreadStaticFieldHasInitializerItIsInvokedOnlyOnceOnTheThreadThatsRunningWhenTheStaticConstructorExecutes" xml:space="preserve">
     <value>Поле thread static имеет инициализатор, который вызывается только один раз в потоке, который выполняется при выполнении статического конструктора</value>
@@ -8578,7 +8578,7 @@
     <value>Оно ref-присваивает значение, которое покидает область видимости шире, чем цель, позволяя присваивание через цель значения, покидающего область видимости уже.</value>
   </data>
   <data name="PartialPropertyAccessor_MustBeInitMessage" xml:space="preserve">
-    <value>Частичный{0} метод доступа '{1}' должен быть '{2}', чтобы соответствовать определению</value>
+    <value>Частичный {0} метод доступа '{1}' должен быть '{2}', чтобы соответствовать определению</value>
   </data>
   <data name="TheTypeArgumentsForMethodCannotBeInferredFromTheQueryMessage" xml:space="preserve">
     <value>Не удается вывести аргументы типа для метода '{0}' из запроса</value>
@@ -8644,7 +8644,7 @@
     <value>Атрибут 'ConstantExpectedAttribute' неправильно применен к параметру</value>
   </data>
   <data name="TheEndIndexIsInterpretedAsLiteralDidYouMeanToUseRangeMessage" xml:space="preserve">
-    <value>Конечный индекс интерпретируется как{0} литерал '{1}'. Вы хотели использовать диапазон '{2}'?</value>
+    <value>Конечный индекс интерпретируется как {0} литерал '{1}'. Вы хотели использовать диапазон '{2}'?</value>
   </data>
   <data name="RedundantabstractModifier" xml:space="preserve">
     <value>Избыточный модификатор 'abstract'</value>
@@ -8748,7 +8748,7 @@
     <value>Выбрасываемое значение может быть null</value>
   </data>
   <data name="PartialWithSinglePartMessage" xml:space="preserve">
-    <value>Частичный{0} с одной частью</value>
+    <value>Частичный {0} с одной частью</value>
   </data>
   <data name="withExpressionIsUsedInsteadOfObjectInitializerMessage" xml:space="preserve">
     <value>Используется выражение 'with' вместо инициализатора объекта</value>
@@ -8772,7 +8772,7 @@
     <value>Несовместимая сигнатура анонимной функции</value>
   </data>
   <data name="CannotDefineOperatorWithParametersMessage" xml:space="preserve">
-    <value>Нельзя определить оператор '{0}' с{1} параметрами</value>
+    <value>Нельзя определить оператор '{0}' с {1} параметрами</value>
   </data>
   <data name="TheWillNotBeUsedAsAnEntryPointBecauseCompilationUnitWithTopLevelStatementsWasFoundMessage" xml:space="preserve">
     <value>'{0}' {1} не будет использоваться как точка входа, потому что найдена единица компиляции с операторами верхнего уровня</value>
@@ -8838,7 +8838,7 @@
     <value>Частичный метод "{0}" должен иметь модификаторы доступности, поскольку он имеет модификатор "virtual", "override", "sealed", "new" или "extern"</value>
   </data>
   <data name="ThreadStaticDoesntWorkWithMessage" xml:space="preserve">
-    <value>[ThreadStatic] не работает с{0}</value>
+    <value>[ThreadStatic] не работает с {0}</value>
   </data>
   <data name="CannotawaitInAnUnsafeContextMessage" xml:space="preserve">
     <value>Нельзя использовать 'await' в небезопасном контексте</value>
@@ -8904,7 +8904,7 @@
     <value>Несколько последовательных вызовов 'OrderBy' бессмысленны. Возможно, вы имели в виду 'ThenBy'.</value>
   </data>
   <data name="TypeNameExpectedMessage5" xml:space="preserve">
-    <value>Ожидалось имя типа{0}</value>
+    <value>Ожидалось имя типа {0}</value>
   </data>
   <data name="UseSymbolAliasDescription" xml:space="preserve">
     <value>Использовать доступный псевдоним</value>
@@ -8937,7 +8937,7 @@
     <value>Возможно непреднамеренный линейный поиск в наборе</value>
   </data>
   <data name="ReferenceToThisIsImmutableInReadonlyStructs_Text" xml:space="preserve">
-    <value>Ссылка на '{0}' неизменяема в объявлении{2} '{1}'.</value>
+    <value>Ссылка на '{0}' неизменяема в объявлении {2} '{1}'.</value>
   </data>
   <data name="IsNotAnInterpolatedStringHandlerTypeMessage" xml:space="preserve">
     <value>'{0}' не является типом обработчика интерполированной строки</value>
@@ -9040,7 +9040,7 @@
     <value>Ковариантное преобразование массива</value>
   </data>
   <data name="NullabilityOfReferenceTypesInTypeOfParameterInDoesntMatchOverriddenMemberMessage" xml:space="preserve">
-    <value>Допустимость значения NULL ссылочных типов в типе параметра '{0}' в{1} не соответствует переопределенному члену '{2}'</value>
+    <value>Допустимость значения NULL ссылочных типов в типе параметра '{0}' в {1} не соответствует переопределенному члену '{2}'</value>
   </data>
   <data name="CommandInvasionMessage" xml:space="preserve">
     <value>Пересечение контекстов CQRS. {0} вызывается из контекста "запроса", но принадлежит контексту "команды".</value>
@@ -9069,7 +9069,7 @@
     <value>Метод доступа такого же вида уже объявлен</value>
   </data>
   <data name="ARefReturningCannotBevoidMessage" xml:space="preserve">
-    <value>Возвращающий{0} ref не может быть 'void'</value>
+    <value>Возвращающий {0} ref не может быть 'void'</value>
   </data>
   <data name="AllUnderscoreLocalParameterNameTitle" xml:space="preserve">
     <value>Возможно вводящее в заблуждение имя параметра в лямбде или локальной функции</value>
@@ -9087,7 +9087,7 @@
     <value>Комментарии//блочный комментарий</value>
   </data>
   <data name="MethodInvocationIsSkippedConditionalMessage" xml:space="preserve">
-    <value>Вызов{0} '{1}' пропущен. Компилятор не будет генерировать вызов, так как{2} помечен атрибутом [{3}], и не определен ни один из следующих условных символов: {4}</value>
+    <value>Вызов {0} '{1}' пропущен. Компилятор не будет генерировать вызов, так как {2} помечен атрибутом [{3}], и не определен ни один из следующих условных символов: {4}</value>
   </data>
   <data name="MethodCannotBeDeclaredInEnumMessage" xml:space="preserve">
     <value>Метод не может быть объявлен в перечислении</value>
@@ -9195,7 +9195,7 @@
     <value>Избыточный вызов '{0}'</value>
   </data>
   <data name="ARefReturningMustHaveAGetterMessage" xml:space="preserve">
-    <value>Возвращающий{0} ref не может иметь getter</value>
+    <value>Возвращающий {0} ref не может иметь getter</value>
   </data>
   <data name="AStaticLocalFunctionCannotContainAReferenceToMessage" xml:space="preserve">
     <value>Статическая локальная функция не может содержать ссылку на '{0}'</value>
@@ -9280,7 +9280,7 @@
     <value>Подозрительное имя параметра в ArgumentNullException</value>
   </data>
   <data name="BaseLastParameterHasparamsModifierMessage" xml:space="preserve">
-    <value>Последний параметр базового{0} '{1}' имеет модификатор 'params'</value>
+    <value>Последний параметр базового {0} '{1}' имеет модификатор 'params'</value>
   </data>
   <data name="UseDeconstructionToSwapVariables" xml:space="preserve">
     <value>Использовать деконструкцию для обмена переменными</value>
@@ -9319,10 +9319,10 @@
     <value>Эта опция позволяет игнорировать обычные правила стиля 'var' и всегда сохранять одно ключевое слово 'var' для объявлений деконструкции с несколькими переменными.</value>
   </data>
   <data name="TheTypeArgumentsForCannotBeInferredFromTheUsageTrySpecifyingTheTypeArgumentsExplicitlyMessage" xml:space="preserve">
-    <value>Не удается вывести аргументы типа для{0} '{1}' из использования. Попробуйте явно указать аргументы типа.</value>
+    <value>Не удается вывести аргументы типа для {0} '{1}' из использования. Попробуйте явно указать аргументы типа.</value>
   </data>
   <data name="In__Call_Text" xml:space="preserve">
-    <value> (в вызове{1} '{0}')</value>
+    <value> (в вызове {1} '{0}')</value>
   </data>
   <data name="CompilerWarning_CS1723_Title" xml:space="preserve">
     <value>В XML-комментарии имеется cref-атрибут, ссылающийся на параметр типа</value>
@@ -9398,7 +9398,7 @@
     <value>Члены {0} должны иметь ненулевое значение при выходе с '{1}'</value>
   </data>
   <data name="SuspiciousShiftCountForLeftOperandOfTypeActualShiftCountWillBeMessage" xml:space="preserve">
-    <value>Подозрительное количество сдвигов {0} для левого операнда типа{1}: фактическое количество сдвигов будет {2}</value>
+    <value>Подозрительное количество сдвигов {0} для левого операнда типа {1}: фактическое количество сдвигов будет {2}</value>
   </data>
   <data name="ReplaceDelegateVariableWithLocalFunction" xml:space="preserve">
     <value>Заменить переменную делегата локальной функцией</value>
@@ -9437,10 +9437,10 @@
     <value>Некоторые значения перечисления не обрабатываются внутри оператора 'switch' и попадают в раздел default. Это может указывать на непреднамеренную обработку всех добавленных значений перечисления после введения switch, рассмотрите явную обработку отсутствующих значений перечисления</value>
   </data>
   <data name="MustHaveInitToImplementMessage" xml:space="preserve">
-    <value>'{0}' должен иметь метод доступа 'init' вместо 'set', чтобы реализовать{1} '{2}'</value>
+    <value>'{0}' должен иметь метод доступа 'init' вместо 'set', чтобы реализовать {1} '{2}'</value>
   </data>
   <data name="CanTMakeReferenceFromKindName_Text" xml:space="preserve">
-    <value>Нельзя создать ссылку из{0} '{1}'.</value>
+    <value>Нельзя создать ссылку из {0} '{1}'.</value>
   </data>
   <data name="InconsistentBracesStyleMissingBracesMessage" xml:space="preserve">
     <value>Несогласованный стиль фигурных скобок: отсутствуют фигурные скобки</value>
@@ -9617,7 +9617,7 @@
     <value>Упростить LINQ-выражение (использовать 'All')</value>
   </data>
   <data name="NonPublicHidesWithDefaultImplementationInInterfaceMessage" xml:space="preserve">
-    <value>Не public {0} '{1}' скрывает{0} с реализацией по умолчанию в интерфейсе{2}</value>
+    <value>Не public {0} '{1}' скрывает {0} с реализацией по умолчанию в интерфейсе {2}</value>
   </data>
   <data name="CompilerWarning_CS9264_Title" xml:space="preserve">
     <value>При выходе из конструктора свойства, не допускающие значение NULL, должны содержать ненулевое значение. Рассмотрите возможность добавления модификатора 'required' или объявления свойства как допускающего значение NULL, или добавления атрибута '[field: MaybeNull, AllowNull]'.</value>
@@ -9749,10 +9749,10 @@
     <value>Отсутствует метка case</value>
   </data>
   <data name="ARefReturningCannotHaveASetterMessage" xml:space="preserve">
-    <value>Возвращающий{0} ref не может иметь setter</value>
+    <value>Возвращающий {0} ref не может иметь setter</value>
   </data>
   <data name="MustHaveInitToImplementMessage" xml:space="preserve">
-    <value>'{0}' должен иметь метод доступа 'init' вместо 'set', чтобы реализовать{1} '{2}'</value>
+    <value>'{0}' должен иметь метод доступа 'init' вместо 'set', чтобы реализовать {1} '{2}'</value>
   </data>
   <data name="TheGivenExpressionAlwaysMatchesTheProvidedConstantMessage" xml:space="preserve">
     <value>Выражение всегда соответствует предоставленной константе</value>
@@ -9767,7 +9767,7 @@
     <value>Заменить члены шаблона свойства рекурсивного шаблона на шаблоны позиционной деконструкции в существующей позиционной деконструкции</value>
   </data>
   <data name="ReferenceToThisIsImmutableInClassDeclarations_Text" xml:space="preserve">
-    <value>Ссылка на '{0}' неизменяема в объявлении{1}.</value>
+    <value>Ссылка на '{0}' неизменяема в объявлении {1}.</value>
   </data>
   <data name="CompilerWarning_CS9089_Title" xml:space="preserve">
     <value>Это возвращает по ссылке член параметра, который не является параметром ref или out</value>
@@ -9794,7 +9794,7 @@
     <value>Тело предыдущего оператора может быть пропущено, а следующий оператор может быть прочитан как его тело. Повысьте видимость фактического тела или разделите следующий оператор пустой строкой.</value>
   </data>
   <data name="InitializerValueIgnoredDuringInitializationMessage" xml:space="preserve">
-    <value>Значение инициализатора{0} игнорируется во время инициализации</value>
+    <value>Значение инициализатора {0} игнорируется во время инициализации</value>
   </data>
   <data name="CastExpressionCanBeReplacedWithShorterTypeArguments" xml:space="preserve">
     <value>Выражение приведения можно заменить упрощенными аргументами типа</value>
@@ -9878,7 +9878,7 @@
     <value>stackalloc нельзя использовать в блоке 'catch' или 'finally'</value>
   </data>
   <data name="NonNullableNotSatisfiedInConstructorConsiderDeclaringAsNullablePropertiesMessage" xml:space="preserve">
-    <value>При выходе из конструктора свойства, не допускающие значение NULL{0}, должны содержать ненулевое значение. Рассмотрите возможность добавления модификатора '{1}' или объявления свойств как допускающих значение NULL.</value>
+    <value>При выходе из конструктора свойства, не допускающие значение NULL {0}, должны содержать ненулевое значение. Рассмотрите возможность добавления модификатора '{1}' или объявления свойств как допускающих значение NULL.</value>
   </data>
   <data name="InlineArrayUnsupportedElementFieldModifierMessage" xml:space="preserve">
     <value>Поле элемента встроенного массива не может быть объявлено как required, readonly, volatile или буфер фиксированного размера</value>
@@ -9896,7 +9896,7 @@
     <value>Необязательный</value>
   </data>
   <data name="NullabilityOfTypeOfParameterInDoesntMatchOverriddenMemberPossiblyBecauseOfNullabilityAttributesMessage" xml:space="preserve">
-    <value>Допустимость значения NULL типа параметра '{0}' в{1} не соответствует переопределенному члену '{2}' (возможно, из-за атрибутов допустимости значения NULL)</value>
+    <value>Допустимость значения NULL типа параметра '{0}' в {1} не соответствует переопределенному члену '{2}' (возможно, из-за атрибутов допустимости значения NULL)</value>
   </data>
   <data name="SimplifyConditionalTernaryExpressionMessage" xml:space="preserve">
     <value>Упростить условное тернарное выражение</value>
@@ -11205,7 +11205,7 @@
     <value>Оператор 'foreach' не может работать с перечислителем типа '{0}', поскольку он является параметром типа, допускающим ref-структуры, и неизвестно во время компиляции, реализует ли он 'IDisposable'</value>
   </data>
   <data name="NamespaceNameExpectedMessage" xml:space="preserve">
-    <value>Ожидается имя пространства имен{0}</value>
+    <value>Ожидается имя пространства имен {0}</value>
   </data>
   <data name="ImmediateDelegateInvocationIsRedundant" xml:space="preserve">
     <value>Немедленный вызов делегата избыточен</value>
@@ -11253,7 +11253,7 @@
     <value>Объявить переменную внутри условия цикла, используя синтаксис сопоставления шаблонов, чтобы уменьшить ее область видимости и избежать побочного эффекта в виде присваивания в стиле C</value>
   </data>
   <data name="NonNullableIsUninitializedConsiderDeclaringTheAsNullableOrUseAttributesMessage" xml:space="preserve">
-    <value>Не-NULL {0} '{1}' не инициализирован. Рассмотрите возможность добавления модификатора '{2}' или объявите {0} как допускающий NULL{3}.</value>
+    <value>Не-NULL {0} '{1}' не инициализирован. Рассмотрите возможность добавления модификатора '{2}' или объявите {0} как допускающий NULL {3}.</value>
   </data>
   <data name="PossibleSystemInvalidOperationException" xml:space="preserve">
     <value>Возможно возникновение 'System.InvalidOperationException'</value>
