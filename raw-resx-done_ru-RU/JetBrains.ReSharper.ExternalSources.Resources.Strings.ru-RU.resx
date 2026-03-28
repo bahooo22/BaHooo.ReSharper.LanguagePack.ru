@@ -128,7 +128,7 @@
   <value>Файл был удален</value>
 </data>
 <data name="BundleV___Text" xml:space="preserve">
-  <value> (Пакет v{0}.{1})</value>
+  <value> (Пакет v {0}.{1})</value>
 </data>
 <data name="CopyFullPathActionText" xml:space="preserve">
   <value>Копировать полный путь</value>

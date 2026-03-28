@@ -205,7 +205,7 @@
     <value>Преобразовать в возврат коллекции</value>
 </data>
 <data name="CallConvertTo_String_Text" xml:space="preserve">
-    <value>Вызвать Convert.To{0}(строка)</value>
+    <value>Вызвать Convert.To {0}(строка)</value>
 </data>
 <data name="ReplaceUnsafeStatementWithItsBody_Text" xml:space="preserve">
     <value>Заменить оператор 'unsafe' на его тело</value>
@@ -244,7 +244,7 @@
     <value>Создать другую часть объявления типа</value>
 </data>
 <data name="CreateParameter_InContaining__AndPull_Text" xml:space="preserve">
-    <value>Создать параметр '{0}' в содержащем{1} '{2}' и подтянуть</value>
+    <value>Создать параметр '{0}' в содержащем {1} '{2}' и подтянуть</value>
 </data>
 <data name="RemoveRedundantFixedPointerDeclarations_Text" xml:space="preserve">
     <value>Удалить избыточные объявления фиксированных указателей</value>
@@ -433,7 +433,7 @@
     <value>Разрешить замыкания в содержащей функции</value>
 </data>
 <data name="Cast_OperandTo__Text" xml:space="preserve">
-    <value>Привести{0}операнд к '{1}'</value>
+    <value>Привести {0} операнд к '{1}'</value>
 </data>
 <data name="AddParams_Text" xml:space="preserve">
     <value>Добавить 'params'</value>
@@ -463,7 +463,7 @@
     <value>Включить замену изменяемых полей</value>
 </data>
 <data name="Make__Required_Text" xml:space="preserve">
-    <value>Сделать{1} '{0}' 'required'</value>
+    <value>Сделать {1} '{0}' 'required'</value>
 </data>
 <data name="RemoveRegionContentAction_Name" xml:space="preserve">
     <value>Удалить директивы #region, #endregion</value>
@@ -517,7 +517,7 @@
     <value>Объединить {0} повторяющихся тел 'if'</value>
 </data>
 <data name="UseReturnType_OfBase__Text" xml:space="preserve">
-    <value>Использовать тип возвращаемого значения '{0}' базового{1}</value>
+    <value>Использовать тип возвращаемого значения '{0}' базового {1}</value>
 </data>
 <data name="CheckIfNumericParameterIsOutOfRangeContextAction_Name" xml:space="preserve">
     <value>Проверить, выходит ли числовой параметр за пределы диапазона</value>
@@ -547,7 +547,7 @@
     <value>Создать локальную переменную '{0}'</value>
 </data>
 <data name="_In1stArgument_Text" xml:space="preserve">
-    <value>В 1-м аргументе{0}</value>
+    <value>В 1-м аргументе {0}</value>
 </data>
 <data name="DeleteComment_Text" xml:space="preserve">
     <value>Удалить комментарий</value>
@@ -604,7 +604,7 @@
     <value>Преобразовать '{0}' в локальную переменную</value>
 </data>
 <data name="CreateParameter_InContaining__Text" xml:space="preserve">
-    <value>Создать параметр '{0}' в содержащем{1}</value>
+    <value>Создать параметр '{0}' в содержащем {1}</value>
 </data>
 <data name="ConvertToGlobalUsingContextAction_Name" xml:space="preserve">
     <value>Преобразовать в 'global using'</value>
@@ -631,7 +631,7 @@
     <value>Заставить тип коллекции '{0}' реализовать '{1}'</value>
 </data>
 <data name="Mark_WithFlagsAttribute_Text" xml:space="preserve">
-    <value>Пометить{0}атрибутом 'Flags'</value>
+    <value>Пометить {0} атрибутом 'Flags'</value>
 </data>
 <data name="ConvertToIfStatement_Text" xml:space="preserve">
     <value>Преобразовать в оператор 'if'</value>
@@ -736,7 +736,7 @@
     <value>Анализ освобождения (Dispose):</value>
 </data>
 <data name="CreateTypeParameter_In___Text" xml:space="preserve">
-    <value>Создать параметр типа '{0}' в{1} '{2}'</value>
+    <value>Создать параметр типа '{0}' в {1} '{2}'</value>
 </data>
 <data name="RemoveStructConstraint_Text" xml:space="preserve">
     <value>Удалить ограничение 'struct'</value>
@@ -796,7 +796,7 @@
     <value>Развернуть из кортежа</value>
 </data>
 <data name="CreatePrimaryConstuctorParameter_Text" xml:space="preserve">
-    <value>Создать параметр основного конструктора '{0}' в содержащем{1} '{2}'</value>
+    <value>Создать параметр основного конструктора '{0}' в содержащем {1} '{2}'</value>
 </data>
 <data name="UseExplicitType_Text" xml:space="preserve">
     <value>Использовать явный тип</value>
@@ -883,7 +883,7 @@
     <value>Удалить выражение 'unchecked'</value>
 </data>
 <data name="RemoveBraces__Text" xml:space="preserve">
-    <value>Удалить фигурные скобки{0}</value>
+    <value>Удалить фигурные скобки {0}</value>
 </data>
 <data name="ReplaceByOperatorIsInvocation_Text" xml:space="preserve">
     <value>Заменить на вызов оператора 'is'</value>
@@ -1081,7 +1081,7 @@
     <value>Создать return из выражения</value>
 </data>
 <data name="Make__Partial_Text" xml:space="preserve">
-    <value>Сделать{0} '{1}' partial</value>
+    <value>Сделать {0} '{1}' partial</value>
 </data>
 <data name="CheckIfStringParameterIsNullOrWhitespaceStringContextAction_Name" xml:space="preserve">
     <value>Проверить, является ли строковый параметр null или строкой пробелов</value>
@@ -1108,7 +1108,7 @@
     <value>Использовать явный модификатор '{0}'</value>
 </data>
 <data name="_In2ndArgument_Text" xml:space="preserve">
-    <value>Во 2-м аргументе{0}</value>
+    <value>Во 2-м аргументе {0}</value>
 </data>
 <data name="RemoveRedundantStringFormatCall_Text" xml:space="preserve">
     <value>Удалить избыточный вызов 'string.Format()'</value>
@@ -1120,7 +1120,7 @@
     <value>Сделать проверенные на null параметры nullable</value>
 </data>
 <data name="For_Of_Text" xml:space="preserve">
-    <value>Для{0} '{1}' из{2} '{3}'</value>
+    <value>Для {0} '{1}' из {2} '{3}'</value>
 </data>
 <data name="ConvertToAssignmentStatement_Text" xml:space="preserve">
     <value>Преобразовать в оператор присваивания</value>
@@ -1333,7 +1333,7 @@
     <value>Преобразовать объявление члена с телом оператора в форму с телом-выражением</value>
 </data>
 <data name="Make_Of___Text" xml:space="preserve">
-    <value>Сделать{0} из{1}{2}</value>
+    <value>Сделать {0} из {1} {2}</value>
 </data>
 <data name="RemoveRedundantArgumentNameSpecifications_Text" xml:space="preserve">
     <value>Удалить избыточные спецификации имен аргументов</value>
@@ -1561,7 +1561,7 @@
     <value>Перевернуть выражение вызова</value>
 </data>
 <data name="Seal___Text" xml:space="preserve">
-    <value>Запечатать{0} '{1}'</value>
+    <value>Запечатать {0} '{1}'</value>
 </data>
 <data name="ConvertMethodGroupToAnonymousMethodContextAction_Name" xml:space="preserve">
     <value>Преобразовать группу методов в анонимный метод</value>
@@ -1585,7 +1585,7 @@
     <value>Встроить вложенную интерполяцию</value>
 </data>
 <data name="ChopFormatting_Text" xml:space="preserve">
-    <value>Обрезать{0}</value>
+    <value>Обрезать {0}</value>
 </data>
 <data name="SpreadCollection_Text" xml:space="preserve">
     <value>Распространить коллекцию (spread)</value>
@@ -1609,7 +1609,7 @@
     <value>Вставить аргументы типа вызова универсального метода</value>
 </data>
 <data name="UseParameterType_OfBase__Text" xml:space="preserve">
-    <value>Использовать тип параметра '{0}' базового{1}</value>
+    <value>Использовать тип параметра '{0}' базового {1}</value>
 </data>
 <data name="PassCancellationToken_Text" xml:space="preserve">
     <value>Передать токен отмены</value>
@@ -1621,7 +1621,7 @@
     <value>Вставить спецификацию типа возвращаемого значения лямбда-выражения</value>
 </data>
 <data name="UseSymbolAlias_Text" xml:space="preserve">
-    <value>Использовать{0}псевдоним '{1}'</value>
+    <value>Использовать {0} псевдоним '{1}'</value>
 </data>
 <data name="SplitIntoIfAndReturn_Text" xml:space="preserve">
     <value>Разделить на 'if' и 'return'</value>
@@ -1735,7 +1735,7 @@
     <value>Добавить 'var' к объявлению отбрасывания, чтобы предотвратить возможный конфликт с другими элементами с именем '_'</value>
 </data>
 <data name="Make_AsyncAwait_Text" xml:space="preserve">
-    <value>Сделать {0} 'async' и выражениями await{1}</value>
+    <value>Сделать {0} 'async' и выражениями await {1}</value>
 </data>
 <data name="ToEqualityOperator_Text" xml:space="preserve">
     <value>Преобразовать в оператор равенства</value>
@@ -1762,7 +1762,7 @@
     <value>Привести к базовым типам перечисления</value>
 </data>
 <data name="MakeInitOnly__Mutable_Text" xml:space="preserve">
-    <value>Сделать только для инициализации{0} '{1}' изменяемым</value>
+    <value>Сделать только для инициализации {0} '{1}' изменяемым</value>
 </data>
 <data name="MoveInitializationToConstructor_Text" xml:space="preserve">
     <value>Переместить инициализацию в конструктор</value>
@@ -2182,7 +2182,7 @@
   <value>Разделить цепочку вызовов на две части, начиная с текущего вызова метода, и при необходимости ввести переменную</value>
 </data>
 <data name="Replace__WithItsValue_Text" xml:space="preserve">
-  <value>Заменить '{0}' {1}его значением</value>
+  <value>Заменить '{0}' {1} его значением</value>
 </data>
 <data name="ToAbstractVirtualNonAbstractNonVirtualMemberContentAction_Description" xml:space="preserve">
   <value>Сделать член типа abstract, virtual, не abstract или не virtual</value>
@@ -2401,7 +2401,7 @@
   <value>Инициализировать новым экземпляром</value>
 </data>
 <data name="MakeMutable__InitOnly_Text" xml:space="preserve">
-  <value>Сделать изменяемый{0} '{1}' инициализируемым только при создании</value>
+  <value>Сделать изменяемый {0} '{1}' инициализируемым только при создании</value>
 </data>
 <data name="Convert_ToStaticReadonlyField_Text" xml:space="preserve">
   <value>Преобразовать '{0}' в статическое поле только для чтения</value>
@@ -2569,7 +2569,7 @@
   <value>Отключить с помощью #pragma</value>
 </data>
 <data name="Use___Text" xml:space="preserve">
-  <value>Использовать{0} '{1}'</value>
+  <value>Использовать {0} '{1}'</value>
 </data>
 <data name="SafelyCastTupleComponent_To__Text" xml:space="preserve">
   <value>Безопасно преобразовать компонент кортежа '{0}' в '{1}'</value>
@@ -2596,7 +2596,7 @@
   <value>Переместить локальную функцию в конец области видимости (вставить переход управления)</value>
 </data>
 <data name="CreateParameter_InContaining___Text" xml:space="preserve">
-  <value>Создать параметр '{0}' в содержащем{1} '{2}'</value>
+  <value>Создать параметр '{0}' в содержащем {1} '{2}'</value>
 </data>
 <data name="AssertExpressionIsNotNull_Text" xml:space="preserve">
   <value>Утверждать, что выражение не равно null</value>
@@ -2740,7 +2740,7 @@
     <value>Разрешить замену объявлений с несколькими переменными на явный тип с синтаксисом 'var (...)', сделав их все неявно типизированными</value>
 </data>
 <data name="Use__From__Text" xml:space="preserve">
-    <value>Использовать{0} '{1}' (из '{2}')</value>
+    <value>Использовать {0} '{1}' (из '{2}')</value>
 </data>
 <data name="MovePartialModifierToCorrectPlace_Text" xml:space="preserve">
     <value>Переместить модификатор 'partial' в правильное место</value>
@@ -2896,7 +2896,7 @@
     <value>(этап экранирования)</value>
 </data>
 <data name="IntroduceOptionalParameterSFor___Text" xml:space="preserve">
-    <value>Ввести необязательные параметры для{0} '{1}'</value>
+    <value>Ввести необязательные параметры для {0} '{1}'</value>
 </data>
 <data name="RemoveRedundantAbstractKeywordInInterface_Text" xml:space="preserve">
     <value>Удалить избыточное ключевое слово 'abstract' в объявлении интерфейса</value>
@@ -2950,7 +2950,7 @@
     <value>Копировать тип...</value>
 </data>
 <data name="CreatePrimaryConstructorParameter_AndPull_Text" xml:space="preserve">
-    <value>Создать параметр первичного конструктора '{0}' в содержащем{1} '{2}' и извлечь</value>
+    <value>Создать параметр первичного конструктора '{0}' в содержащем {1} '{2}' и извлечь</value>
 </data>
 <data name="UseTypeAliasContextAction_Text" xml:space="preserve">
     <value>Использовать этот псевдоним типа, где это возможно</value>
@@ -3028,7 +3028,7 @@
     <value>Объединить два строковых литерала в один</value>
 </data>
 <data name="MakeTypeParameter___Text" xml:space="preserve">
-    <value>Сделать параметр типа{0} {1}</value>
+    <value>Сделать параметр типа {0} {1}</value>
 </data>
 <data name="MergeSequentialChecksIntoNullPropagatingExpressionContextAction_Name" xml:space="preserve">
     <value>Объединить последовательные проверки в выражение с распространением null</value>
@@ -3208,7 +3208,7 @@
     <value>Создать явное объявление свойства для позиционного параметра</value>
 </data>
 <data name="Add_Body_Text" xml:space="preserve">
-    <value>Добавить{0}тело</value>
+    <value>Добавить {0}тело</value>
 </data>
 <data name="SwapViaDeconstruction_Text" xml:space="preserve">
     <value>Обменять через деконструкцию</value>
@@ -3349,7 +3349,7 @@
     <value>Преобразовать в virtual</value>
 </data>
 <data name="Make_Implement__Text" xml:space="preserve">
-    <value>Заставить{0}реализовать '{1}'</value>
+    <value>Заставить {0}реализовать '{1}'</value>
 </data>
 <data name="UseSeparateDeclarationsInDeconstructionDeclarationPatternsContextAction_Name" xml:space="preserve">
     <value>Использовать отдельные объявления в деконструкции/объявлениях/шаблонах</value>
@@ -3481,7 +3481,7 @@
     <value>Преобразовать явную реализацию метода интерфейса в неявную</value>
 </data>
 <data name="Make_Kind_Static_Text" xml:space="preserve">
-    <value>Сделать{0} 'static'</value>
+    <value>Сделать {0} 'static'</value>
 </data>
 <data name="Implement_Instead_Text" xml:space="preserve">
     <value>Вместо этого реализовать {0}</value>
@@ -3511,13 +3511,13 @@
     <value>Преобразовать в метод расширения</value>
 </data>
 <data name="FlipOperands__Text" xml:space="preserve">
-    <value>Поменять операнды{0}</value>
+    <value>Поменять операнды {0}</value>
 </data>
 <data name="InsertMatchingTypeArgumentsFor__Text" xml:space="preserve">
     <value>Вставить соответствующие аргументы типа для '{0}'</value>
 </data>
 <data name="DisableFor___Text" xml:space="preserve">
-    <value>Отключить для{0} '{1}'</value>
+    <value>Отключить для {0} '{1}'</value>
 </data>
 <data name="RemoveRedundantNullableDirective_ScopedText" xml:space="preserve">
     <value>Удалить избыточную директиву nullable</value>
@@ -3790,7 +3790,7 @@
     <value>Удалить избыточное уменьшение</value>
 </data>
 <data name="Make_Extend__Text" xml:space="preserve">
-    <value>Заставить{0}расширять '{1}'</value>
+    <value>Заставить {0} расширять '{1}'</value>
 </data>
 <data name="ChangeSignature_Text" xml:space="preserve">
     <value>Изменить сигнатуру...</value>
@@ -3805,10 +3805,10 @@
     <value>Преобразовать текущий метод расширения в обычную форму static метода, удалив модификатор 'this' и обновив все использования метода</value>
 </data>
 <data name="CreateTypeParameter__Text" xml:space="preserve">
-    <value>Создать параметр типа '{0}'</value>
+    <value>Создать параметр типа '{0}' </value>
 </data>
 <data name="AllowNullableTypesIn__Of___Text" xml:space="preserve">
-    <value>Разрешить типы, допускающие null, в{2} '{3}' для{0} '{1}'</value>
+    <value>Разрешить типы, допускающие null, в {2} '{3}' для {0} '{1}'</value>
 </data>
 <data name="ReplaceCastWithLambdaReturnType_Text" xml:space="preserve">
     <value>Заменить приведение на тип возвращаемого значения лямбды</value>
@@ -3907,7 +3907,7 @@
     <value>(неявный)</value>
 </data>
 <data name="Make_Unsafe_Text" xml:space="preserve">
-    <value>Сделать{0} 'unsafe'</value>
+    <value>Сделать {0} 'unsafe'</value>
 </data>
 <data name="ThisIsFormatTemplatePlaceholder_Text" xml:space="preserve">
     <value>Это заполнитель шаблона формата</value>
@@ -3925,7 +3925,7 @@
     <value>Добавить инициализаторы для обязательных членов</value>
 </data>
 <data name="Separate__Text" xml:space="preserve">
-    <value>Разделить{0}</value>
+    <value>Разделить {0}</value>
 </data>
 <data name="ExtractLambdaExpressionToLocalFunctionContextAction_Name" xml:space="preserve">
     <value>Извлечь лямбда-выражение в локальную функцию</value>
@@ -4102,7 +4102,7 @@
     <value>Проверить значение индекса для типа Span&lt;T&gt;/ReadOnlySpan&lt;T&gt;</value>
 </data>
 <data name="ImplementInDerived__Text" xml:space="preserve">
-    <value>Реализовать в производном{0}</value>
+    <value>Реализовать в производном {0}</value>
 </data>
 <data name="Settings_Enabled" xml:space="preserve">
     <value>Включено</value>
@@ -4126,7 +4126,7 @@
     <value>Возвращаемое значение</value>
 </data>
 <data name="OverrideInDerived__Text" xml:space="preserve">
-    <value>Переопределить в производном{0}</value>
+    <value>Переопределить в производном {0}</value>
 </data>
 
 
@@ -4187,7 +4187,7 @@
   <value>Удалить спецификацию типа параметра</value>
 </data>
 <data name="RedundanciesInSymbolDeclarationsQuickFixRegistration_Register_Remove_redundant__0__override" xml:space="preserve">
-  <value>Удалить избыточное{0} переопределение</value>
+  <value>Удалить избыточное {0} переопределение</value>
 </data>
 <data name="ImportNamespace_Text" xml:space="preserve">
   <value>Импортировать пространство имен</value>
@@ -4196,7 +4196,7 @@
   <value>Преобразовать все инициализаторы объектов для типа '{0}'</value>
 </data>
 <data name="ChangeTypeOfParameterOfCalled_To__Text" xml:space="preserve">
-  <value>Изменить тип параметра вызываемого{1} на '{0}'</value>
+  <value>Изменить тип параметра вызываемого {1} на '{0}'</value>
 </data>
 <data name="CatchDeclaredExceptionTypesContextAction_Name" xml:space="preserve">
   <value>Перехватывать объявленные типы исключений</value>
@@ -4229,7 +4229,7 @@
   <value>Импортировать метод расширения...</value>
 </data>
 <data name="ForAllParametersOf__Text" xml:space="preserve">
-  <value>Для всех параметров{0} '{1}'</value>
+  <value>Для всех параметров {0} '{1}'</value>
 </data>
 <data name="SpecifyArrayTypeExplicitlyContextAction_Name" xml:space="preserve">
   <value>Явно указать тип массива</value>
@@ -4430,7 +4430,7 @@
   <value>Создать выражение коллекции из аргументов параметра 'params'</value>
 </data>
 <data name="InlineThis__Text" xml:space="preserve">
-  <value>Встроить этот{0}</value>
+  <value>Встроить этот {0}</value>
 </data>
 <data name="InFollowingArguments_Text" xml:space="preserve">
   <value>В следующих аргументах</value>
@@ -4607,7 +4607,7 @@
   <value>Сделать '{0}' не readonly</value>
 </data>
 <data name="RemoveCastTo__Text" xml:space="preserve">
-  <value>Удалить приведение к{0}</value>
+  <value>Удалить приведение к {0}</value>
 </data>
 <data name="MoveInitializationToConstructorSContextAction_Name" xml:space="preserve">
   <value>Переместить инициализацию в конструктор</value>
@@ -4676,7 +4676,7 @@
   <value>Перечислять с помощью метода AsArray [Внутренний]</value>
 </data>
 <data name="ToAutoProperty__Text" xml:space="preserve">
-  <value>Преобразовать в автоматическое свойство{0}</value>
+  <value>Преобразовать в автоматическое свойство {0}</value>
 </data>
 <data name="AddTupleComponentNameContextAction_Name" xml:space="preserve">
   <value>Добавить имя компонента кортежа</value>
@@ -4712,7 +4712,7 @@
   <value>Итерировать через 'foreach' настройки</value>
 </data>
 <data name="CreateRecordPositionalParameter_Text" xml:space="preserve">
-  <value>Создать позиционный параметр '{0}' в содержащем{1} '{2}'</value>
+  <value>Создать позиционный параметр '{0}' в содержащем {1} '{2}'</value>
 </data>
 <data name="Interface_Kind_Text" xml:space="preserve">
   <value>Интерфейс</value>
@@ -4862,7 +4862,7 @@
   <value>Проверить, равна ли переменная null</value>
 </data>
 <data name="Make_ReturnVoid_Text" xml:space="preserve">
-  <value>Заставить{0} возвращать 'void'</value>
+  <value>Заставить {0} возвращать 'void'</value>
 </data>
 <data name="RegisterHighlightingType_Text" xml:space="preserve">
   <value>Зарегистрировать тип выделения</value>
@@ -4997,7 +4997,7 @@
   <value>Использовать Span&lt;{0}&gt; в качестве типа переменной</value>
 </data>
 <data name="Capture_Name_Text" xml:space="preserve">
-  <value>Захватить{0} имя</value>
+  <value>Захватить {0} имя</value>
 </data>
 <data name="MakeCollectionType_ImplementIEnumerable_Text" xml:space="preserve">
   <value>Заставить тип коллекции '{0}' реализовать 'IEnumerable'</value>
@@ -5030,7 +5030,7 @@
   <value>Предложить включить проверку "Требовать фигурные скобки в операторе 'using'", когда текстовый курсор находится на ключевом слове 'using'</value>
 </data>
 <data name="Inherit_FromBaseExceptionClass_Text" xml:space="preserve">
-  <value>Наследовать{0} от базового класса исключений</value>
+  <value>Наследовать {0} от базового класса исключений</value>
 </data>
 <data name="ConvertToString_Text" xml:space="preserve">
   <value>Преобразовать в строку</value>
@@ -5072,7 +5072,7 @@
   <value>Вызывать все методы как расширения</value>
 </data>
 <data name="_In_thArgument_Text" xml:space="preserve">
-  <value>В {1}-м аргументе{0}</value>
+  <value>В {1}-м аргументе {0}</value>
 </data>
 <data name="ExtractLambdaExpressionToNamedMethodContextAction_Name" xml:space="preserve">
   <value>Извлечь лямбда-выражение в именованный метод</value>
@@ -5144,7 +5144,7 @@
   <value>Использовать метод '{0}'</value>
 </data>
 <data name="CreateGetPinnableReferenceMethodIn__Text" xml:space="preserve">
-  <value>Создать метод 'GetPinnableReference' в{0} '{1}'</value>
+  <value>Создать метод 'GetPinnableReference' в {0} '{1}'</value>
 </data>
 <data name="ConvertStringInterpolationToStringFormatCallContextAction_Name" xml:space="preserve">
   <value>Преобразовать строковую интерполяцию в вызов 'string.Format'</value>
@@ -5873,7 +5873,7 @@
   <value>Параметр '{0}' является out-параметром</value>
 </data>
 <data name="ImplementInAnotherPart_Text" xml:space="preserve">
-  <value>Реализовать{0} в другой части{1}</value>
+  <value>Реализовать {0} в другой части {1}</value>
 </data>
 <data name="RemoveRedundantNames_Text" xml:space="preserve">
   <value>Удалить избыточные имена</value>
@@ -5900,7 +5900,7 @@
   <value>Изменить параметр на массив 'params'</value>
 </data>
 <data name="MakeAsyncVoidMethodSafeFix_Text" xml:space="preserve">
-  <value>Перехватывать все исключения в теле{0}</value>
+  <value>Перехватывать все исключения в теле {0}</value>
 </data>
 <data name="ReplaceExplicitTypeSpecificationWithVarContextAction_Name" xml:space="preserve">
   <value>Заменить явную спецификацию типа на 'var'</value>
@@ -6086,7 +6086,7 @@
   <value>Удалить имя элемента кортежа '{0}'</value>
 </data>
 <data name="Make_MustDisposeResource_Text" xml:space="preserve">
-  <value>Аннотировать{0} с помощью [MustDisposeResource]</value>
+  <value>Аннотировать {0} с помощью [MustDisposeResource]</value>
 </data>
 <data name="RemoveStaticModifier_Text" xml:space="preserve">
   <value>Удалить модификатор 'static'</value>
@@ -6137,7 +6137,7 @@
   <value>Использовать вызов 'Equals'</value>
 </data>
 <data name="_In3dArgument_Text" xml:space="preserve">
-  <value>В 3-м аргументе{0}</value>
+  <value>В 3-м аргументе {0}</value>
 </data>
 <data name="RemoveConstraints_Text" xml:space="preserve">
   <value>Удалить ограничения</value>
@@ -6152,7 +6152,7 @@
   <value>Использовать инициализаторы объектов/коллекций</value>
 </data>
 <data name="CreateNestedSymbols_Text" xml:space="preserve">
-  <value>Создать вложенный{0} '{1}'</value>
+  <value>Создать вложенный {0} '{1}'</value>
 </data>
 <data name="DisableOnceWithComment_Text" xml:space="preserve">
   <value>Отключить один раз с комментарием</value>
@@ -6269,13 +6269,13 @@
   <value>Преобразовать в оператор 'return'</value>
 </data>
 <data name="ToComputedProperty__Text" xml:space="preserve">
-  <value>Преобразовать в вычисляемое свойство{0}</value>
+  <value>Преобразовать в вычисляемое свойство {0}</value>
 </data>
 <data name="ToRegularMethod_Text" xml:space="preserve">
   <value>Преобразовать в обычный метод</value>
 </data>
 <data name="CreateRecordPositionalParameter_AndPull_Text" xml:space="preserve">
-  <value>Создать позиционный параметр '{0}' в содержащем{1} '{2}' и извлечь</value>
+  <value>Создать позиционный параметр '{0}' в содержащем {1} '{2}' и извлечь</value>
 </data>
 <data name="InitializeWithDefaultConstructorCall_Text" xml:space="preserve">
   <value>Инициализировать вызовом конструктора по умолчанию</value>
@@ -6431,7 +6431,7 @@
   <value>Преобразовать в тело-выражение</value>
 </data>
 <data name="DisableFor__Text" xml:space="preserve">
-  <value>Отключить для{0}</value>
+  <value>Отключить для {0}</value>
 </data>
 <data name="MakeMembersMustDisposeResource_ScopedText" xml:space="preserve">
   <value>Аннотировать члены с помощью [MustDisposeResource]</value>
@@ -6515,7 +6515,7 @@
   <value>Заменить выражение коллекции C# 12 на синтаксис инициализатора коллекции</value>
 </data>
 <data name="Convert__IntoClass_Text" xml:space="preserve">
-  <value>Преобразовать{0} '{1}' в класс</value>
+  <value>Преобразовать {0} '{1}' в класс</value>
 </data>
 <data name="InitializeVariable_Text" xml:space="preserve">
   <value>Инициализировать переменную</value>

@@ -491,7 +491,7 @@
     <value>Параметру out '{0}' должно быть присвоено значение (до выхода из функции)</value>
   </data>
   <data name="MissingUMacroCallInUEDeclarationMessage" xml:space="preserve">
-    <value>В объявлении Unreal Engine {1} отсутствует вызов макроса U{0}</value>
+    <value>В объявлении Unreal Engine {1} отсутствует вызов макроса U {0}</value>
   </data>
   <data name="Substitution_SubstitutionFailed_Text" xml:space="preserve">
     <value>Подстановка не удалась</value>
@@ -678,7 +678,7 @@
     <value>Неявное преобразование в тип указателя с потерей квалификаторов</value>
   </data>
   <data name="ClassIsAbstractMessage" xml:space="preserve">
-    <value>{0} является абстрактным{1}</value>
+    <value>{0} является абстрактным {1}</value>
   </data>
   <data name="Template_Editable_ZG8gd2hpbGUgbG9vcAEQEQ" xml:space="preserve">
     <value>Цикл do while</value>
@@ -1206,7 +1206,7 @@
     <value>Избыточное ключевое слово «typename»</value>
   </data>
   <data name="ClassIsAbstractButNotDeclaredAsSuchMessage" xml:space="preserve">
-    <value>{0} является абстрактным, но не объявлен как таковой{1}</value>
+    <value>{0} является абстрактным, но не объявлен как таковой {1}</value>
   </data>
   <data name="ReinterpretCastIsUsedInsteadOfAStaticCastMessage" xml:space="preserve">
     <value>Используется reinterpret_cast вместо static_cast</value>
@@ -2502,7 +2502,7 @@
     <value>Лямбда-выражение можно переписать для использования явных параметров шаблона</value>
   </data>
   <data name="UMustBeAMessage" xml:space="preserve">
-    <value>U{0} должен быть {1}</value>
+    <value>U {0} должен быть {1}</value>
   </data>
   <data name="CClassDeclarations_Text" xml:space="preserve">
     <value>Объявления классов C++</value>
@@ -2652,7 +2652,7 @@
   <value>Упаковка C++/CLI</value>
 </data>
 <data name="RemoveUnused__Text" xml:space="preserve">
-  <value>Удалить неиспользуемый{0}</value>
+  <value>Удалить неиспользуемый {0}</value>
 </data>
 <data name="SomeControlPathsMayNotReachThisMessage" xml:space="preserve">
   <value>Некоторые пути выполнения могут не достигать этой точки</value>
@@ -2700,7 +2700,7 @@
   <value>Объявление {0} конфликтует с предыдущим объявлением {1}, введённым using-объявлением</value>
 </data>
 <data name="QualifiedMemberAccessOfCannotReferToAMemberOfMessage" xml:space="preserve">
-  <value>Квалифицированный доступ к члену '{0}' не может ссылаться на член{1}{2}</value>
+  <value>Квалифицированный доступ к члену '{0}' не может ссылаться на член {1}{2}</value>
 </data>
 <data name="BadCast_RvalueToLvalueBinding_Text" xml:space="preserve">
   <value>Невозможно преобразовать rvalue в ссылку на lvalue</value>
@@ -2739,7 +2739,7 @@
   <value>Всегда добавлять #include</value>
 </data>
 <data name="ClassMustImplementAllCLIInterfaceMembersMessage" xml:space="preserve">
-  <value>{0} должен реализовать все члены интерфейса CLI{1}</value>
+  <value>{0} должен реализовать все члены интерфейса CLI {1}</value>
 </data>
 <data name="SelectStyle_Text" xml:space="preserve">
   <value>Выбрать стиль</value>
@@ -2778,7 +2778,7 @@
   <value>{0} никогда не используется в коде блюпринтов или C++</value>
 </data>
 <data name="DefinitionOfInAHeaderFileShouldHaveAninlineSpecifierMessage" xml:space="preserve">
-  <value>Определение{0} в файле заголовка должно иметь спецификатор 'inline'</value>
+  <value>Определение {0} в файле заголовка должно иметь спецификатор 'inline'</value>
 </data>
 <data name="BracesLayout_Text" xml:space="preserve">
   <value>Расположение фигурных скобок</value>
@@ -3000,7 +3000,7 @@
   <value>Добавлять пробелы после размещения оператора '+' Slate на новой строке</value>
 </data>
 <data name="PolymorphicHasANonVirtualPublicDestructorMessage" xml:space="preserve">
-  <value>Полиморфный{0} имеет невиртуальный публичный деструктор</value>
+  <value>Полиморфный {0} имеет невиртуальный публичный деструктор</value>
 </data>
 <data name="finalMemberFunctionIsNotVirtualMessage" xml:space="preserve">
   <value>Функция-член 'final' '{0}' не является virtual</value>
@@ -3051,7 +3051,7 @@
   <value>Использовать тип '{0}' (#include {1})</value>
 </data>
 <data name="SafeDeleteConflict_UnknownFunctionReference_Text" xml:space="preserve">
-  <value>Не удалось корректно обработать ссылку на функцию{0}</value>
+  <value>Не удалось корректно обработать ссылку на функцию {0}</value>
 </data>
 <data name="CodeCleanupTask_CppTypeTraitAliasDescriptor" xml:space="preserve">
   <value>Заменить признак типа соответствующим псевдонимом шаблона или переменной шаблона</value>
@@ -3078,7 +3078,7 @@
   <value>Документировать</value>
 </data>
 <data name="ReturnTypeIsNotIdenticalToReturnTypeOfOverriddenFunctionManagedClassesDontAllowCovariantOverrideMessage" xml:space="preserve">
-  <value>Возвращаемый тип {0} отличается от возвращаемого типа {1} переопределённого{2}: управляемые классы не допускают ковариантного переопределения</value>
+  <value>Возвращаемый тип {0} отличается от возвращаемого типа {1} переопределённого {2}: управляемые классы не допускают ковариантного переопределения</value>
 </data>
 <data name="UseOfoperatorProducedTooLargeSequenceOfCallsLimitOnTheNumberOfIterationsExceededMessage" xml:space="preserve">
   <value>Использование 'operator -&gt;' привело к слишком большой последовательности вызовов, превышен лимит количества итераций</value>
@@ -3294,7 +3294,7 @@
   <value>Не удалось удалить спецификатор override из {0,декларатора}</value>
 </data>
 <data name="CannotInitializeAnObjectOfTypeDefaultConstructorIsDeletedMessage" xml:space="preserve">
-  <value>Невозможно инициализировать объект типа{0}: конструктор по умолчанию удалён</value>
+  <value>Невозможно инициализировать объект типа {0}: конструктор по умолчанию удалён</value>
 </data>
 <data name="RemoveCaseStatement_Text" xml:space="preserve">
   <value>Удалить ветку 'case'</value>
@@ -3435,7 +3435,7 @@
   <value>Настройки завершения кода C/C++ по умолчанию</value>
 </data>
 <data name="_Everywhere_Text" xml:space="preserve">
-  <value>Везде{0}</value>
+  <value>Везде {0}</value>
 </data>
 <data name="EnableUE4AssetsCache_BoolOption_Text" xml:space="preserve">
   <value>Включить кэш ассетов UE4</value>
@@ -3468,7 +3468,7 @@
   <value>Цикл for без инициализирующей инструкции и выражения обновления эквивалентен циклу while</value>
 </data>
 <data name="FunctionReturnTypeIsNotValidMessage" xml:space="preserve">
-  <value>Возвращаемый тип функции{0} недопустим</value>
+  <value>Возвращаемый тип функции {0} недопустим</value>
 </data>
 <data name="GroupByRootDirectorySettingDescription" xml:space="preserve">
   <value>Группировать по корневому каталогу</value>
@@ -3480,7 +3480,7 @@
   <value>Заголовок с защитой уже включён</value>
 </data>
 <data name="ImplicitDefaultConstructorIsNotAvailableBecauseFieldsNeedToBeInitializedMessage" xml:space="preserve">
-  <value>Неявный конструктор по умолчанию недоступен, потому что поля{0} требуют инициализации</value>
+  <value>Неявный конструктор по умолчанию недоступен, потому что поля {0} требуют инициализации</value>
 </data>
 <data name="VariableHasUnknownType_Text" xml:space="preserve">
   <value>Переменная имеет неизвестный тип</value>
@@ -3579,7 +3579,7 @@
   <value>Требовать порядок cv-квалификаторов</value>
 </data>
 <data name="CreateDerived__Text" xml:space="preserve">
-  <value>Создать производный{0}</value>
+  <value>Создать производный {0}</value>
 </data>
 <data name="BadConversion_NarrowingConversion_Text" xml:space="preserve">
   <value>Сужение преобразования</value>
@@ -3627,7 +3627,7 @@
   <value>Использовать 'std::erase'/'std::erase_if' вместо идиомы remove-erase</value>
 </data>
 <data name="DefinedAsHereButPreviouslyDeclaredAsMessage" xml:space="preserve">
-  <value>{0} определён здесь как{1}, но ранее объявлен как{2}</value>
+  <value>{0} определён здесь как {1}, но ранее объявлен как {2}</value>
 </data>
 <data name="Header_IncludedForStdAs_const_Text" xml:space="preserve">
   <value>Включить заголовок {0} (для std::as_const)</value>
@@ -3642,7 +3642,7 @@
   <value>Исполняемый файл clang-format для использования:</value>
 </data>
 <data name="Displaying_Of_Found__Text" xml:space="preserve">
-  <value>Отображение {0} из {1} найденных{2}</value>
+  <value>Отображение {0} из {1} найденных {2}</value>
 </data>
 <data name="EnforceThePlacementOfCvQualifiers" xml:space="preserve">
   <value>Требовать размещение cv-квалификаторов</value>
@@ -3723,7 +3723,7 @@
   <value>Объявление и присваивание можно объединить</value>
 </data>
 <data name="FirstClassDeclarationNotExportedMessage" xml:space="preserve">
-  <value>Первое объявление экспортируемого{0} должно быть экспортирующим объявлением</value>
+  <value>Первое объявление экспортируемого {0} должно быть экспортирующим объявлением</value>
 </data>
 <data name="PrecompiledHeaderMustBeIncludedAtTheTopOfSourceFileMessage" xml:space="preserve">
   <value>Прекомпилированный заголовок должен быть включён в начале исходного файла</value>
@@ -3927,7 +3927,7 @@
   <value>Квалификаторы имени недействительны в C</value>
 </data>
 <data name="OverridingDoesNotHaveAnSpecifierMessage" xml:space="preserve">
-  <value>Переопределяющему{0} не хватает спецификатора '{1}'</value>
+  <value>Переопределяющему {0} не хватает спецификатора '{1}'</value>
 </data>
 <data name="CodeCleanupTask_CppMakePostfixOperatorPrefix" xml:space="preserve">
   <value>Заменить постфиксный оператор на префиксный вариант</value>
@@ -3957,7 +3957,7 @@
   <value>Исходная функция</value>
 </data>
 <data name="ConversionFunctionCannotConvertToMessage" xml:space="preserve">
-  <value>Функция преобразования не может преобразовать в{0}</value>
+  <value>Функция преобразования не может преобразовать в {0}</value>
 </data>
 <data name="ShadersOptionsPage_LoadMappingsDescription" xml:space="preserve">
   <value>Вы можете загрузить информацию о сопоставлении шейдеров из Unreal Engine (требуется установленный плагин RiderLink и запущенный Unreal Engine).</value>
@@ -3969,7 +3969,7 @@
   <value>Объявить геттеры [[nodiscard]] (&amp;N)</value>
 </data>
 <data name="CallToAVirtualFunctionInsideAIsResolvedAtCompileTimeMessage" xml:space="preserve">
-  <value>Вызов виртуальной функции внутри{0} разрешается во время компиляции</value>
+  <value>Вызов виртуальной функции внутри {0} разрешается во время компиляции</value>
 </data>
 <data name="AggregateInitializationOfType__Text" xml:space="preserve">
   <value>Агрегатная инициализация типа {0}</value>
@@ -3984,7 +3984,7 @@
   <value>Преобразование в указатель на функцию-член не допускается</value>
 </data>
 <data name="FunctionReturnTypeIsIncompleteMessage" xml:space="preserve">
-  <value>Возвращаемый тип функции{0} неполон</value>
+  <value>Возвращаемый тип функции {0} неполон</value>
 </data>
 <data name="ATemplateParameterFromAnOuterScopeIsShadowedByADeclarationWithTheSameName" xml:space="preserve">
   <value>Параметр шаблона из внешней области видимости затенён объявлением с тем же именем</value>
@@ -4092,7 +4092,7 @@
   <value>Показывать ли подсказки преобразования типов для стандартных преобразований</value>
 </data>
 <data name="TemplateParameterHasAlreadyBeenDeclaredAsMessage" xml:space="preserve">
-  <value>Параметр шаблона{0} уже объявлен как{1}</value>
+  <value>Параметр шаблона {0} уже объявлен как {1}</value>
 </data>
 <data name="StructFieldCannotHaveInitializer" xml:space="preserve">
   <value>Поле {0} не может иметь инициализатор</value>
@@ -4110,7 +4110,7 @@
   <value>Какие шаблоны использовать для фильтрации преобразований при размещении подсказок</value>
 </data>
 <data name="IsNeverUsedMessage" xml:space="preserve">
-  <value>{0} никогда не используется{1}</value>
+  <value>{0} никогда не используется {1}</value>
 </data>
 <data name="PragmaRegionIsMissingAMatchingEndRegionMessage" xml:space="preserve">
   <value>Директиве '#pragma region' не хватает соответствующей директивы '#pragma endregion'</value>
@@ -4191,7 +4191,7 @@
   <value>Использовать внешний clang-format вместо встроенного clang-format</value>
 </data>
 <data name="CannotApplyBinaryToAndMessage" xml:space="preserve">
-  <value>Невозможно применить бинарный{0} к {1} и {2}</value>
+  <value>Невозможно применить бинарный {0} к {1} и {2}</value>
 </data>
 <data name="SearchingForICompiledElementInCCode_Text" xml:space="preserve">
   <value>Поиск ICompiledElement в коде C++</value>
@@ -4242,7 +4242,7 @@
   <value>Неподдерживаемая инструкция {0}</value>
 </data>
 <data name="PossibleEnumerator0UsageInDependent_Text" xml:space="preserve">
-  <value>Возможное использование перечислителя{0} в зависимом коде не будет обновлено</value>
+  <value>Возможное использование перечислителя {0} в зависимом коде не будет обновлено</value>
 </data>
 <data name="AVariableDefinitionInAHeaderFileThatWillCauseMultipleDefinitionLinkageError" xml:space="preserve">
   <value>Определение переменной в файле заголовка, которое вызовет ошибку компоновки из-за множественного определения</value>
@@ -4311,7 +4311,7 @@
   <value>Заменить на прямую инициализацию</value>
 </data>
 <data name="CannotCastFromToViaMessage" xml:space="preserve">
-  <value>Невозможно преобразовать из{1} в{2} через{0}</value>
+  <value>Невозможно преобразовать из {1} в {2} через {0}</value>
 </data>
 <data name="NoViableFunction_MatchesArgumentsOfType_Text" xml:space="preserve">
   <value>Нет подходящего {0}, соответствующего аргументам типа {1} и {2}.</value>
@@ -4404,7 +4404,7 @@
   <value>Тип слешей для использования в директивах include</value>
 </data>
 <data name="RedundantSpecifierOnAFunctionInAClassMessage" xml:space="preserve">
-  <value>Избыточный спецификатор '{0}' на функции в классе{1}</value>
+  <value>Избыточный спецификатор '{0}' на функции в классе {1}</value>
 </data>
 <data name="NoUsagesFound_Text" xml:space="preserve">
   <value>Использований не найдено</value>
@@ -4692,7 +4692,7 @@
   <value>Вокруг '=' в объявлении псевдонима и псевдониме пространства имён</value>
 </data>
 <data name="SelectedForTheRewrittenComparisonDoesNotReturnboolMessage" xml:space="preserve">
-  <value>Выбранный для переписанного сравнения{0} не возвращает 'bool'</value>
+  <value>Выбранный для переписанного сравнения {0} не возвращает 'bool'</value>
 </data>
 <data name="NoGrouping_Text" xml:space="preserve">
   <value>Без группировки</value>
@@ -5027,7 +5027,7 @@
   <value>Использовать функцию-член 'contains'</value>
 </data>
 <data name="CannotHaveTheSameNameAsItsEnclosingMessage" xml:space="preserve">
-  <value>{0} не может иметь то же имя, что и его охватывающий{1}</value>
+  <value>{0} не может иметь то же имя, что и его охватывающий {1}</value>
 </data>
 <data name="BaseTypesOf__Text" xml:space="preserve">
   <value>Базовые типы {0}</value>
@@ -5126,7 +5126,7 @@
   <value>Условное выражение можно удалить</value>
 </data>
 <data name="RedeclaresFromAnOuterScopeMessage" xml:space="preserve">
-  <value>{0} переобъявляет{1} из внешней области видимости</value>
+  <value>{0} переобъявляет {1} из внешней области видимости</value>
 </data>
 <data name="PragmaEndRegionIsMissingAMatchingEndRegionTitle" xml:space="preserve">
   <value>Отсутствует соответствующая директива '#pragma region'</value>
@@ -5174,7 +5174,7 @@
   <value>Повторяющийся инициализатор для {0}</value>
 </data>
 <data name="UnionMemberCannotBeVirtualMessage" xml:space="preserve">
-  <value>Член объединения{0} не может быть виртуальным</value>
+  <value>Член объединения {0} не может быть виртуальным</value>
 </data>
 <data name="ExpressionIsInAnExternalFileAndCannot_Text" xml:space="preserve">
   <value>{0,выражение} находится во внешнем файле и не может быть обновлено</value>
@@ -5186,7 +5186,7 @@
   <value>Обработка сгенерированных UE функций</value>
 </data>
 <data name="UseOfClassTemplateRequiresTemplateArgumentListMessage" xml:space="preserve">
-  <value>Использование шаблона{0} требует список аргументов шаблона{1}</value>
+  <value>Использование шаблона {0} требует список аргументов шаблона {1}</value>
 </data>
 <data name="Attribute_UnusedResultOfAFunctionWithANodiscardMessageArgument" xml:space="preserve">
   <value>Атрибут</value>
@@ -5303,7 +5303,7 @@
   <value>Использовать предпочитаемый стиль cv-квалификаторов</value>
 </data>
 <data name="DefinitionOfADestructorImplicitlyDeclaredInMessage" xml:space="preserve">
-  <value>Определение деструктора, неявно объявленного в{0}</value>
+  <value>Определение деструктора, неявно объявленного в {0}</value>
 </data>
 <data name="InitializingUnrealEngineProjectModel_Text" xml:space="preserve">
   <value>Инициализация модели проекта Unreal Engine</value>
@@ -5327,7 +5327,7 @@
   <value>Перечислители</value>
 </data>
 <data name="ReturnTypeIsNotIdenticalOrCovariantToReturnTypeOfOverriddenFunctionMessage" xml:space="preserve">
-  <value>Возвращаемый тип {0} отличается или не ковариантен с возвращаемым типом {1} переопределённого{2}</value>
+  <value>Возвращаемый тип {0} отличается или не ковариантен с возвращаемым типом {1} переопределённого {2}</value>
 </data>
 <data name="ViewGraphOfCIncludesActionText" xml:space="preserve">
   <value>Просмотреть граф Include C/C++ (&amp;O)</value>
@@ -5436,7 +5436,7 @@
   <value>Сгенерировать операции копирования и перемещения</value>
 </data>
 <data name="AggregateInitElement_Base_Text" xml:space="preserve">
-  <value>База{0} {1}</value>
+  <value>База {0} {1}</value>
 </data>
 <data name="ResolveCandidate_WrongParametersCount_Text" xml:space="preserve">
   <value>{0} имеет {1} {2}, но вызывается с {3} {4}</value>
@@ -7878,7 +7878,7 @@
   <value>Тип аргумента: {0}.</value>
 </data>
 <data name="BadConversion_IncompleteTargetTypePointerOrCliHandle_Text" xml:space="preserve">
-  <value>Тип{0}неполный</value>
+  <value>Тип {0}неполный</value>
 </data>
 <data name="EvaluatesToACommaSeparatedListOfTheParameterNamesOfTheContainingFunctionMacroDefinition_Description" xml:space="preserve">
   <value>Список параметров содержащей функции</value>
@@ -7926,7 +7926,7 @@
   <value>Дублирует содержащую строку шаблона для каждого параметра макроса и вычисляется в имя параметра макроса</value>
 </data>
 <data name="FunctionParameterTypeIsNotValidMessage" xml:space="preserve">
-  <value>Тип параметра функции{0}недействителен</value>
+  <value>Тип параметра функции {0}недействителен</value>
 </data>
 <data name="SlateBracketsWrapSetting_Description" xml:space="preserve">
   <value>Переносить скобки в Slate</value>
@@ -7968,7 +7968,7 @@
   <value>Подавлять ошибки разрешения неквалифицированных имён в HLSL в Unreal Engine</value>
 </data>
 <data name="RedundantinlineSpecifierOnAFunctionDeclaredEntirelyInsideADefinitionMessage" xml:space="preserve">
-  <value>Избыточный спецификатор 'inline' на функции, объявленной полностью внутри определения{0}</value>
+  <value>Избыточный спецификатор 'inline' на функции, объявленной полностью внутри определения {0}</value>
 </data>
 <data name="GlobalStaticIsNotImplementedMessage" xml:space="preserve">
   <value>Глобальный static {0}не реализован</value>
@@ -8211,7 +8211,7 @@
     <value>Включить предкомпилированный заголовок (#include {0})</value>
 </data>
 <data name="BaseOfClassIsAmbiguousMessage" xml:space="preserve">
-    <value>Базовый{0} класса{1} неоднозначен</value>
+    <value>Базовый {0} класса {1} неоднозначен</value>
 </data>
 <data name="Rename__Text" xml:space="preserve">
     <value>Переименовать {0}</value>
@@ -8355,7 +8355,7 @@
     <value>Режим видимости подсказок имён параметров в вызовах макросов</value>
 </data>
 <data name="LeftSideOfoperatorHasTypeWhichIsNotAPointerToAClassTypeMessage" xml:space="preserve">
-    <value>Левая сторона 'operator -&gt;' имеет тип{0}, который не является указателем на классовый тип</value>
+    <value>Левая сторона 'operator -&gt;' имеет тип {0}, который не является указателем на классовый тип</value>
 </data>
 <data name="UseTrailingReturnTypes_Description_Text" xml:space="preserve">
     <value>Использовать завершающие возвращаемые типы</value>
@@ -8385,7 +8385,7 @@
     <value>Глобальные функции</value>
 </data>
 <data name="MemberAccessOfDoesNotReferToAMemberFunctionOrAFieldOfMessage" xml:space="preserve">
-    <value>Доступ к члену '{0}' не ссылается на функцию-член или поле{1}</value>
+    <value>Доступ к члену '{0}' не ссылается на функцию-член или поле {1}</value>
 </data>
 <data name="AddReferenceToModule_In__Text" xml:space="preserve">
     <value>Добавить ссылку на модуль '{0}' в {1}</value>
@@ -8424,7 +8424,7 @@
     <value>Объявление типа</value>
 </data>
 <data name="AggregateInitError_CannotInitWithTypeAndExpr_Text" xml:space="preserve">
-    <value>{0} типа {1} не может быть инициализирован с помощью{2}</value>
+    <value>{0} типа {1} не может быть инициализирован с помощью {2}</value>
 </data>
 <data name="IntroduceTypeAction_Name" xml:space="preserve">
     <value>Ввести typedef/псевдоним типа для выбранного типа</value>
@@ -8460,7 +8460,7 @@
     <value>Директива #warning: {0}</value>
 </data>
 <data name="RemoveRedundant__Text" xml:space="preserve">
-    <value>Удалить избыточный{0}</value>
+    <value>Удалить избыточный {0}</value>
 </data>
 <data name="TheNameOfTheEnumThatTheActionIsInvokedOnMacroDefinition_LongDescription" xml:space="preserve">
     <value>Имя перечисления, для которого вызывается действие</value>
@@ -8493,13 +8493,13 @@
     <value>Не удается корректно обработать{0,ссылку}</value>
 </data>
 <data name="PossiblyUnintendedObjectSlicingIsValueInitializedFromDerivedMessage" xml:space="preserve">
-    <value>Возможно непреднамеренное срез объекта: {0} инициализируется значением из производного{1}</value>
+    <value>Возможно непреднамеренное срез объекта: {0} инициализируется значением из производного {1}</value>
 </data>
 <data name="CommentsBlockComment_RiderPresentableName" xml:space="preserve">
     <value>Комментарии//Блочный комментарий</value>
 </data>
 <data name="NoPropertyMatchesIndexesOfTypeMessage" xml:space="preserve">
-    <value>Ни одно свойство '{0}' не соответствует индексам типа{1}</value>
+    <value>Ни одно свойство '{0}' не соответствует индексам типа {1}</value>
 </data>
 <data name="VolatileQualifiedParameterInAFunctionDeclarationMessage" xml:space="preserve">
     <value>Параметр с квалификатором volatile в объявлении функции</value>
@@ -8535,7 +8535,7 @@
     <value>Дамп конфигурации clang-tidy</value>
 </data>
 <data name="MissedUEFunctionSuperCallMessage" xml:space="preserve">
-    <value>Отсутствует 'Super::{0}' в реализации производного{0}</value>
+    <value>Отсутствует 'Super::{0}' в реализации производного {0}</value>
 </data>
 <data name="GenerateOption_OutputOperator_Text" xml:space="preserve">
     <value>Оператор вывода</value>
@@ -8607,13 +8607,13 @@
     <value>Индексирование Unreal Engine</value>
 </data>
 <data name="NotFirstExportedClassDeclarationMessage" xml:space="preserve">
-    <value>Экспортируемое объявление должно быть первым объявлением{0}</value>
+    <value>Экспортируемое объявление должно быть первым объявлением {0}</value>
 </data>
 <data name="Replace__With__Text" xml:space="preserve">
     <value>Заменить '{0}' на '{1}'</value>
 </data>
 <data name="UIsNotAllowedToHavePureVirtualMemberFunctionsMessage" xml:space="preserve">
-    <value>U{0} не допускает наличие чисто виртуальных функций-членов</value>
+    <value>U {0} не допускает наличие чисто виртуальных функций-членов</value>
 </data>
 <data name="ReturnValue_Option_Text" xml:space="preserve">
     <value>Значение</value>
@@ -8652,7 +8652,7 @@
     <value>Выражение инкремента типа bool устарело в C++11 и удалено в C++17</value>
 </data>
 <data name="WasPreviouslyDeclaredAs_ClickToNavigate" xml:space="preserve">
-    <value>{0} ранее был объявлен как{1}(нажмите для навигации)</value>
+    <value>{0} ранее был объявлен как {1}(нажмите для навигации)</value>
 </data>
 <data name="RefBindingKind_NonConstLvalueRef_Text" xml:space="preserve">
     <value>Не const ссылка на lvalue</value>
@@ -8757,7 +8757,7 @@
     <value>Удалить недостижимый код</value>
 </data>
 <data name="ImplicitDefaultConstructorIsNotAvailableBecauseFieldNeedsToBeInitializedMessage" xml:space="preserve">
-    <value>Неявный конструктор по умолчанию недоступен, потому что поле{0} требует инициализации</value>
+    <value>Неявный конструктор по умолчанию недоступен, потому что поле {0} требует инициализации</value>
 </data>
 <data name="IncludesHierarchyActionGroupText" xml:space="preserve">
     <value>Иерархия включений (Include)</value>
@@ -8847,7 +8847,7 @@
     <value>В конструктор</value>
 </data>
 <data name="DoesNotHaveAMatchingDeclarationInMessage" xml:space="preserve">
-    <value>{0} не имеет соответствующего объявления в{1}</value>
+    <value>{0} не имеет соответствующего объявления в {1}</value>
 </data>
 <data name="Interfaces_Text" xml:space="preserve">
     <value>Интерфейсы</value>
@@ -8859,7 +8859,7 @@
     <value>Не удается выполнить рефакторинг, потому что файлы устарели (возможно, из-за внешних изменений)</value>
 </data>
 <data name="ReturnTypeIsNotIdenticalToReturnTypeOfOverriddenFunctionMessage" xml:space="preserve">
-    <value>Возвращаемый тип {0} не идентичен возвращаемому типу {1} переопределённого{2}</value>
+    <value>Возвращаемый тип {0} не идентичен возвращаемому типу {1} переопределённого {2}</value>
 </data>
 <data name="GenerateRelationalOperatorsActionText" xml:space="preserve">
     <value>Сгенерировать операторы отношения</value>
@@ -8910,7 +8910,7 @@
     <value>Создать новую переменную для выбранного выражения</value>
 </data>
 <data name="DoesNotNameMessage" xml:space="preserve">
-    <value>'{0}' не называет{1}</value>
+    <value>'{0}' не называет {1}</value>
 </data>
 <data name="BinaryOperatorActsOnEqualOperands" xml:space="preserve">
     <value>Бинарный оператор действует на равные операнды</value>
@@ -9000,7 +9000,7 @@
     <value>Класс является абстрактным, но не объявлен явно как таковой</value>
 </data>
 <data name="CannotDeleteAnExpressionOfTypeWhichIsNeitherAPointerNorAnArrayTypeMessage" xml:space="preserve">
-    <value>Нельзя удалить выражение типа{0}, которое не является ни указателем, ни типом массива</value>
+    <value>Нельзя удалить выражение типа {0}, которое не является ни указателем, ни типом массива</value>
 </data>
 <data name="AfterBaseTypesListColonSettingDescription" xml:space="preserve">
     <value>После двоеточия списка базовых типов</value>
@@ -9396,7 +9396,7 @@
     <value>Использовать пространство имён '{0}'</value>
 </data>
 <data name="CannotDeduceautoReturnTypeConstraintFailedMessage" xml:space="preserve">
-    <value>Не удается вывести {0} возвращаемый тип: ограничение{1} не выполнено</value>
+    <value>Не удается вывести {0} возвращаемый тип: ограничение {1} не выполнено</value>
 </data>
 <data name="BeforePtrInAbstractDeclarationSettingDescription" xml:space="preserve">
     <value>Перед ptr в abstract объявлении</value>
@@ -9510,7 +9510,7 @@
     <value>Скрывать, если намерение аргумента ясно из использования</value>
 </data>
 <data name="MakeBase_Non__Text" xml:space="preserve">
-    <value>Сделать базовый{0} не {1}</value>
+    <value>Сделать базовый {0} не {1}</value>
 </data>
 <data name="SortMemberInitializersByTheOrderOfInitialization_Text" xml:space="preserve">
     <value>Сортировать инициализаторы членов по порядку инициализации</value>
@@ -9630,7 +9630,7 @@
     <value>Объявление ничего не объявляет</value>
 </data>
 <data name="CannotApplyOperatorToMessage" xml:space="preserve">
-    <value>Нельзя применить{0} к{1}</value>
+    <value>Нельзя применить {0} к {1}</value>
 </data>
 <data name="TabsAreProhibited" xml:space="preserve">
     <value>Использование табуляции запрещено</value>
@@ -9660,7 +9660,7 @@
     <value>Привязка делегата</value>
 </data>
 <data name="GlobalCannotBeVirtualMessage" xml:space="preserve">
-    <value>Глобальный{0} не может быть virtual</value>
+    <value>Глобальный {0} не может быть virtual</value>
 </data>
 <data name="Argument_Text" xml:space="preserve">
     <value>Аргумент</value>
@@ -9804,7 +9804,7 @@
     <value>{0} использований в Blueprint</value>
 </data>
 <data name="TooManyTemplateArgumentsForMessage" xml:space="preserve">
-    <value>Слишком много аргументов шаблона для{0}</value>
+    <value>Слишком много аргументов шаблона для {0}</value>
 </data>
 <data name="RedundantCastExpression" xml:space="preserve">
     <value>Избыточное выражение приведения</value>
@@ -9867,7 +9867,7 @@
     <value>Вариативный параметр C++/CLI имеет тип {0} вместо одномерного дескриптора массива</value>
 </data>
 <data name="CannotDecomposeArrayTypeOfUnknownSizeMessage" xml:space="preserve">
-    <value>Невозможно разложить тип массива{0} неизвестного размера</value>
+    <value>Невозможно разложить тип массива {0} неизвестного размера</value>
 </data>
 <data name="DependentTypeWithouttypenameKeyword" xml:space="preserve">
     <value>Зависимый тип без ключевого слова "typename"</value>
@@ -9891,7 +9891,7 @@
     <value>'if' может быть заменён на 'if consteval'</value>
 </data>
 <data name="ClassTypeOfAMemberPointerTypeIsNotValidMessage" xml:space="preserve">
-    <value>Классовый тип{0} типа указателя на член недействителен</value>
+    <value>Классовый тип {0} типа указателя на член недействителен</value>
 </data>
 <data name="MultipleTypeSpecifiersInASingleDeclarationMessage" xml:space="preserve">
     <value>Несколько спецификаторов типа в одном объявлении</value>
@@ -9969,7 +9969,7 @@
     <value>Класс интерфейса '{0}' не может иметь функций-членов, содержащих спецификатор '{1}'</value>
 </data>
 <data name="CannotSubstituteForDueToViolatedConstraintMessage" xml:space="preserve">
-    <value>Не удается подставить{0} для ограничения{1} из-за нарушения ограничения {2}</value>
+    <value>Не удается подставить {0} для ограничения {1} из-за нарушения ограничения {2}</value>
 </data>
 <data name="RegenerateProjectPropertiesOnProject_BoolOption_Text" xml:space="preserve">
     <value>Перегенерировать свойства проекта при изменении файлов проекта</value>

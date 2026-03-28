@@ -609,7 +609,7 @@
     <value>Развертывание шаблона проекта</value>
 </data>
 <data name="UnitTestSession_AllTestsHaveSameStatus_Title" xml:space="preserve">
-    <value>{0} тестов{1}</value>
+    <value>{0} тестов {1}</value>
 </data>
 <data name="AspNetErrorsDefaultSettings_Text" xml:space="preserve">
     <value>Настройки по умолчанию для ошибок ASP.NET</value>

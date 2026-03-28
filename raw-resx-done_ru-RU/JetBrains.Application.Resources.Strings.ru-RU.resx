@@ -307,7 +307,7 @@
   <value>Настройки среды приложения. Обычно не должны быть общими для решения в рамках команды.</value>
 </data>
 <data name="LicenseTo_Key__Text" xml:space="preserve">
-  <value>Лицензия для {0} (ключ{1})</value>
+  <value>Лицензия для {0} (ключ {1})</value>
 </data>
 <data name="SomeBoolOptionForShowingVisibilitySettingDescription" xml:space="preserve">
   <value>Некоторая логическая опция для отображения видимости</value>
@@ -1937,7 +1937,7 @@ URI: {0}
   <value>Бесплатный пробный период активен</value>
 </data>
 <data name="LicenseToReSharper_IsNotAcceptable__Text" xml:space="preserve">
-  <value>Лицензия для ReSharper {0} неприемлема{1}</value>
+  <value>Лицензия для ReSharper {0} неприемлема {1}</value>
 </data>
 <data name="FreeTrialPeriodWillExpireTomorrow_Text" xml:space="preserve">
   <value>Бесплатный пробный период истекает завтра</value>

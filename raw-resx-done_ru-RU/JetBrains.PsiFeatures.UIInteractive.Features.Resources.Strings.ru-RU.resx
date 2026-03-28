@@ -403,7 +403,7 @@
   <value>Папки</value>
 </data>
 <data name="SearchEverywhere_Text" xml:space="preserve">
-  <value>Искать везде{0}</value>
+  <value>Искать везде {0}</value>
 </data>
 <data name="RegExpWindow_TestInput_TextBlock" xml:space="preserve">
   <value>Тестовый ввод:</value>
@@ -598,7 +598,7 @@
   <value>Имеет член</value>
 </data>
 <data name="GoToText_Hotkey_Text" xml:space="preserve">
-  <value>Перейти к тексту{0}</value>
+  <value>Перейти к тексту {0}</value>
 </data>
 <data name="UnableToApplyReplaceIn_BecauseItHas_Text" xml:space="preserve">
   <value>Не удалось применить замену в {0}, так как он был изменен</value>

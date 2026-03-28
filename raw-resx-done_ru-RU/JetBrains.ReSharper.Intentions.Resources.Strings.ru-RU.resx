@@ -195,7 +195,7 @@
   <value>Новый </value>
 </data>
 <data name="ViewActionList__Text" xml:space="preserve">
-  <value>Просмотреть список действий{0}</value>
+  <value>Просмотреть список действий {0}</value>
 </data>
 <data name="AddTypeArgument_Text" xml:space="preserve">
   <value>Добавить аргумент типа</value>
@@ -232,7 +232,7 @@
   <value>Удалить шаблонный аргумент {{{0}}}</value>
 </data>
 <data name="ChangeSignatureOf____Text" xml:space="preserve">
-  <value>Изменить сигнатуру{0} '{1}'{2}</value>
+  <value>Изменить сигнатуру {0} '{1}'{2}</value>
 </data>
 <data name="WhyIs_SuggestingThis_Text" xml:space="preserve">
   <value>Почему {0} предлагает это?</value>
@@ -274,7 +274,7 @@
   <value>Инкапсулировать поле</value>
 </data>
 <data name="CommentUnused__Text" xml:space="preserve">
-  <value>Прокомментировать неиспользуемый{0}</value>
+  <value>Прокомментировать неиспользуемый {0}</value>
 </data>
 <data name="ConfigureCodeStyle_Text" xml:space="preserve">
   <value>Настроить стиль кода...</value>
@@ -322,7 +322,7 @@
   <value>Распознать содержимое литерального выражения как язык или ссылку</value>
 </data>
 <data name="RemoveUnused__Text" xml:space="preserve">
-  <value>Удалить неиспользуемый{0}</value>
+  <value>Удалить неиспользуемый {0}</value>
 </data>
 <data name="Add_ToTheAbbreviationsList_Text" xml:space="preserve">
   <value>Добавить '{0}' в список сокращений</value>
@@ -406,7 +406,7 @@
   <value>Переместить {0} во внешнюю область видимости</value>
 </data>
 <data name="Use___Text" xml:space="preserve">
-  <value>Использовать{0} {1}</value>
+  <value>Использовать {0} {1}</value>
 </data>
 <data name="UpdateProjects_Text" xml:space="preserve">
   <value>Обновить проекты</value>
@@ -466,7 +466,7 @@
   <value>Не выбран код на языке, поддерживаемом функцией автоопределения</value>
 </data>
 <data name="Remove_InjectionMark_Text" xml:space="preserve">
-  <value>Удалить{0}метку внедрения</value>
+  <value>Удалить {0} метку внедрения</value>
 </data>
 <data name="AdditionalCodeCleanupAfterElementRemoval_Text" xml:space="preserve">
   <value>Дополнительная очистка кода после удаления элемента</value>
@@ -628,7 +628,7 @@
   <value>Добавить {0} аксессор для {1}</value>
 </data>
 <data name="ChangeTypeOf__To__Text" xml:space="preserve">
-  <value>Изменить тип{0} '{1}' на '{2}'</value>
+  <value>Изменить тип {0} '{1}' на '{2}'</value>
 </data>
 <data name="ConvertConcatenationToInterpolation_Text" xml:space="preserve">
   <value>Преобразовать конкатенацию в интерполяцию</value>
@@ -703,7 +703,7 @@
   <value>Редактировать .editorconfig</value>
 </data>
 <data name="CreateDefaultConstructorIn___Text" xml:space="preserve">
-  <value>Создать конструктор по умолчанию в{0} '{1}'</value>
+  <value>Создать конструктор по умолчанию в {0} '{1}'</value>
 </data>
 <data name="MakeAllMembers__Text" xml:space="preserve">
   <value>Сделать все члены '{0}'</value>

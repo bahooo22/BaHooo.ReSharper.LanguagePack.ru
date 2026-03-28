@@ -214,7 +214,7 @@
   <value>Неверная директива using</value>
 </data>
 <data name="_Implementing__Text" xml:space="preserve">
-  <value>Реализация{0}</value>
+  <value>Реализация {0}</value>
 </data>
 <data name="Declaration_Caption" xml:space="preserve">
   <value>&amp;Объявление</value>
@@ -382,7 +382,7 @@
   <value>Перейти к следующему использованию '{{0}}' ({0}/{1}) [все {2}]</value>
 </data>
 <data name="_Overriding__Text" xml:space="preserve">
-  <value>Переопределение{0}</value>
+  <value>Переопределение {0}</value>
 </data>
 <data name="GoToModuleReferenceDeclaration_Caption" xml:space="preserve">
   <value>Перейти к объявлению ссылки на модуль</value>
@@ -403,7 +403,7 @@
   <value>Запоминать настройки 'Включать типы библиотек', 'Включать члены из связанных файлов' и 'Учитывать регистр' для команд поиска</value>
 </data>
 <data name="Include_overloading__Text" xml:space="preserve">
-  <value>Включать перегрузки{0}</value>
+  <value>Включать перегрузки {0}</value>
 </data>
 <data name="ControlFlowTarget_Text" xml:space="preserve">
   <value>Цель потока управления</value>
@@ -634,7 +634,7 @@
   <value>Открытые API</value>
 </data>
 <data name="UsagesOf_derived__Text" xml:space="preserve">
-  <value>Использования производных{0}</value>
+  <value>Использования производных {0}</value>
 </data>
 <data name="SearchScope_CurrentFile_Text" xml:space="preserve">
   <value>Текущий файл</value>
@@ -838,7 +838,7 @@
   <value>Интегрировать "Перейти к тексту" в "Поиск везде"</value>
 </data>
 <data name="DoYouWantToFindUsagesOfTheParameter_Text" xml:space="preserve">
-  <value>Хотите найти использования параметра '{0}' в переопределении{1}?</value>
+  <value>Хотите найти использования параметра '{0}' в переопределении {1}?</value>
 </data>
 <data name="SeachingForNextUsage_Text" xml:space="preserve">
   <value>Поиск следующего использования...</value>

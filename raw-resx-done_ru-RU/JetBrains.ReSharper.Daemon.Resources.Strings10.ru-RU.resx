@@ -1610,7 +1610,7 @@
   <value>Переменная используется вне области видимости, в которой она объявлена</value>
 </data>
 <data name="AllDeclarationsOfAnInterfaceMustHaveIdenticalTypeParametersMessage" xml:space="preserve">
-  <value>Все объявления интерфейса должны иметь идентичные параметры типа{0}</value>
+  <value>Все объявления интерфейса должны иметь идентичные параметры типа {0}</value>
 </data>
 <data name="AttributeQuotesAreMissingOrDifferFromSettingsConfigurableSeverityDescription" xml:space="preserve">
   <value>Кавычки атрибута отсутствуют или отличаются от настроек</value>
@@ -2144,7 +2144,7 @@
     <value>Аннотация типа в операторе export разрешена только в объявлении Ambient внешнего модуля</value>
 </data>
 <data name="OnlyPublicMethodsOfTheBaseClassAreAccessibleViaThesuperKeywordMessage" xml:space="preserve">
-    <value>Только публичные{0} методы базового класса доступны через ключевое слово 'super'</value>
+    <value>Только публичные {0} методы базового класса доступны через ключевое слово 'super'</value>
 </data>
 <data name="PathIsEmpty_Text" xml:space="preserve">
     <value>Путь пуст</value>
@@ -2378,7 +2378,7 @@
     <value>Дублирование сигнатуры конструктора перегрузки</value>
 </data>
 <data name="Type_HasOnly_Type__ToolTip" xml:space="preserve">
-    <value>Тип {0} имеет только {1} тип{2}</value>
+    <value>Тип {0} имеет только {1} тип {2}</value>
 </data>
 <data name="UnknownASPNETMVCViewComponent_Text" xml:space="preserve">
     <value>Неизвестный компонент представления ASP.NET MVC</value>
@@ -3047,7 +3047,7 @@
     <value>'==' и '!=' при применении к 'null' или 'undefined' выполняют проверку с обоими этими значениями</value>
 </data>
 <data name="ExportedClassExtendsClassFromInaccessibleModuleMessage" xml:space="preserve">
-    <value>Экспортируемый класс '{0}' расширяет класс из недоступного модуля{1}</value>
+    <value>Экспортируемый класс '{0}' расширяет класс из недоступного модуля {1}</value>
 </data>
 <data name="CSSSymbolSyntaxIsNotCompatibleWithASpecificBrowser3" xml:space="preserve">
     <value>Синтаксис/символ CSS несовместим с определенным браузером</value>
@@ -3314,7 +3314,7 @@
     <value>Попытка запросить тип неинициализированного модуля '{0}'</value>
 </data>
 <data name="Overrides___ClickToNavigate_Text" xml:space="preserve">
-    <value>Переопределяет{0}{1}{2}(нажмите для навигации)</value>
+    <value>Переопределяет {0}{1}{2}(нажмите для навигации)</value>
 </data>
 <data name="ArestParameterCannotBeSpecializedMessage" xml:space="preserve">
     <value>Параметр rest не может быть специализирован</value>
@@ -3458,7 +3458,7 @@
     <value>Оператор '{0}' не может быть применен к типам '{1}' и '{2}': {3}</value>
 </data>
 <data name="TernaryExpressionCanBeReplacedWithItsconditionMessage" xml:space="preserve">
-    <value>Тернарное выражение можно заменить его{0} условием</value>
+    <value>Тернарное выражение можно заменить его {0} условием</value>
 </data>
 <data name="InconstEnumDeclarationsMemberInitializerMustBeConstantExpressionOrConstEnumMemberMessage" xml:space="preserve">
     <value>В объявлениях 'const' перечисления инициализатор члена должен быть константным выражением или членом константного перечисления</value>
@@ -3845,7 +3845,7 @@
     <value>MVC</value>
 </data>
 <data name="InterfaceIsRecursivelyReferencedAsABaseTypeOfItselfViaTypeMessage" xml:space="preserve">
-    <value>Интерфейс '{0}' рекурсивно ссылается как базовый тип на себя через тип{1}</value>
+    <value>Интерфейс '{0}' рекурсивно ссылается как базовый тип на себя через тип {1}</value>
 </data>
 <data name="AssignmentToAVariableInsideAConditionalStatement" xml:space="preserve">
     <value>Присваивание переменной внутри условного оператора</value>

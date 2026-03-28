@@ -190,7 +190,7 @@
   <value>Анализ приостановлен для этого файла. Ожидание {0}.</value>
 </data>
 <data name="LineIndentNotRestoredToThePreviousLevel__Text" xml:space="preserve">
-  <value>Отступ строки не восстановлен до предыдущего уровня{0}</value>
+  <value>Отступ строки не восстановлен до предыдущего уровня {0}</value>
 </data>
 <data name="AnalyzeIntegerArithmetic_BoolOption_Text" xml:space="preserve">
   <value>Анализировать целочисленную арифметику</value>
@@ -304,7 +304,7 @@
   <value>Проверки на циклические зависимости, неограниченную длину строковых свойств и т.д.</value>
 </data>
 <data name="LineNotIndentedRelativeToThePrevious_Text" xml:space="preserve">
-  <value>Строка не имеет отступа относительно предыдущей строки{0}</value>
+  <value>Строка не имеет отступа относительно предыдущей строки {0}</value>
 </data>
 <data name="AnalysisIsNotSupported__Text" xml:space="preserve">
   <value>Анализ не поддерживается: {0}</value>
@@ -370,7 +370,7 @@
   <value>Включить ресурсоёмкие проверки</value>
 </data>
 <data name="UnexpectedLineIndentChange__ToolTip" xml:space="preserve">
-  <value>Неожиданное изменение отступа строки{0}</value>
+  <value>Неожиданное изменение отступа строки {0}</value>
 </data>
 <data name="IgnoredCodeOptionPageTitle" xml:space="preserve">
   <value>Игнорируемый код</value>
@@ -764,7 +764,7 @@
   <value>Включить анализ на уровне решения(_A)</value>
 </data>
 <data name="LineNotOutdentedRelativeToThePrevious_Text" xml:space="preserve">
-  <value>Строка не имеет уменьшенного отступа относительно предыдущей строки{0}</value>
+  <value>Строка не имеет уменьшенного отступа относительно предыдущей строки {0}</value>
 </data>
 <data name="QuickFixesAndContextActions_Header_Text" xml:space="preserve">
   <value>Быстрые исправления и контекстные действия</value>

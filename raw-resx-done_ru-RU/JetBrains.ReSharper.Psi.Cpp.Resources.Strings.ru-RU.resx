@@ -403,7 +403,7 @@
   <value>Невозможно преобразовать возвращаемый тип {0} в {1}</value>
 </data>
 <data name="ComparisonUtil_SelectedCandidateIsNotRewritten_Text" xml:space="preserve">
-  <value>Кандидат, выбранный разрешением перегрузки{0}, не является переписанным кандидатом</value>
+  <value>Кандидат, выбранный разрешением перегрузки {0}, не является переписанным кандидатом</value>
 </data>
 <data name="Namespace_Text" xml:space="preserve">
   <value>Пространство имен</value>
@@ -439,7 +439,7 @@
   <value>Неожиданный 'template'</value>
 </data>
 <data name="Method_Text" xml:space="preserve">
-  <value>method</value>
+  <value> Method</value>
 </data>
 <data name="__interface_Text" xml:space="preserve">
   <value>__interface</value>

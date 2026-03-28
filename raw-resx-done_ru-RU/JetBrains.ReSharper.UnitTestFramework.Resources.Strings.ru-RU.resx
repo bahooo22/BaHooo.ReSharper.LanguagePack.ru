@@ -888,7 +888,7 @@
   <value>framework: {0}</value>
 </data>
 <data name="InAnotherTest_Text" xml:space="preserve">
-  <value>В другом тесте{0}</value>
+  <value>В другом тесте {0}</value>
 </data>
 <data name="InAllTargetFrameworksActionText" xml:space="preserve">
   <value>Во всех целевых фреймворках (&amp;I)</value>
