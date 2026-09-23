@@ -16,7 +16,7 @@ if (-not (Get-Command -Name Update-AllVersions -ErrorAction SilentlyContinue)) {
             # Получаем текущую версию из nuspec
             $nuspecPath = Join-Path $ProjectRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
             if (Test-Path $nuspecPath) {
-                $nuspecText = Get-Content $nuspecPath -Raw
+                $nuspecText = Get-Content $nuspecPath -Raw -Encoding UTF8
                 if ($nuspecText -match '<version>(.*?)</version>') {
                     $currentVersion = $Matches[1]
                     $versionParts = $currentVersion.Split('.')
@@ -63,7 +63,7 @@ if (-not (Get-Command -Name Update-AllVersions -ErrorAction SilentlyContinue)) {
                 $content = Get-Content $resxFile -Raw -Encoding UTF8
                 if ($content -match 'BaHooo\.ReSharper\.I18n\.ru,\s*v\.\s*\d{4}\.\d+\.\d+\.\d+') {
                     $content = $content -replace 'BaHooo\.ReSharper\.I18n\.ru,\s*v\.\s*\d{4}\.\d+\.\d+\.\d+', "BaHooo.ReSharper.I18n.ru, v. $targetVersion"
-                    $content | Out-File $resxFile -Encoding UTF8 -Force
+                    [System.IO.File]::WriteAllText($resxFile, $content, [System.Text.UTF8Encoding]::new($false))
                     $resxUpdated++
                 }
             }
@@ -90,7 +90,7 @@ if (-not (Get-Command -Name Update-AllVersions -ErrorAction SilentlyContinue)) {
         param([string]$ProjectRoot)
         $nuspecPath = Join-Path $ProjectRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
         if (Test-Path $nuspecPath) {
-            $nuspecText = Get-Content $nuspecPath -Raw
+            $nuspecText = Get-Content $nuspecPath -Raw -Encoding UTF8
             if ($nuspecText -match '<version>(.*?)</version>') {
                 return $Matches[1]
             }

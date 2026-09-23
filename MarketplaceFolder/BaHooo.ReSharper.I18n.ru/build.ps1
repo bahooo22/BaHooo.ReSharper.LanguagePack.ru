@@ -1,4 +1,4 @@
-<# build.ps1
+﻿<# build.ps1
 Usage: .\build.ps1 [-Configuration Release] [-Version 2025.12.06] [-Output artifacts]
 #>
 param(
@@ -43,7 +43,7 @@ Write-Host "`n=== Сборка пакета ===" -ForegroundColor Cyan
 
 # Если версия не передана — берём из nuspec
 if (-not $Version) {
-    $nuspecText = Get-Content $nuspecPath -Raw
+    $nuspecText = Get-Content $nuspecPath -Raw -Encoding UTF8
     if ($nuspecText -match '<version>(.*?)</version>') {
         $Version = $Matches[1]
         Write-Host "Используется версия из nuspec: $Version" -ForegroundColor Cyan
@@ -53,7 +53,7 @@ if (-not $Version) {
     }
 } else {
     # Обновляем версию в nuspec если указана явно
-    $nuspecContent = Get-Content $nuspecPath -Raw
+    $nuspecContent = Get-Content $nuspecPath -Raw -Encoding UTF8
     $oldVersion = ''
     
     if ($nuspecContent -match '<version>(.*?)</version>') {
@@ -61,7 +61,9 @@ if (-not $Version) {
     }
     
     $nuspecContent = $nuspecContent -replace '<version>.*?</version>', "<version>$Version</version>"
-    $nuspecContent | Out-File $nuspecPath -Encoding UTF8 -Force
+    # Out-File дописывает перевод строки на каждый запуск — накапливались пустые строки в конце файла
+    $nuspecContent = $nuspecContent.TrimEnd() + "`r`n"
+    [System.IO.File]::WriteAllText($nuspecPath, $nuspecContent, [System.Text.UTF8Encoding]::new($false))
     
     if ($oldVersion) {
         Write-Host "Версия в nuspec обновлена: $oldVersion → $Version" -ForegroundColor Green

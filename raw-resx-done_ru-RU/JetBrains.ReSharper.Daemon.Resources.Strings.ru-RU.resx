@@ -154,7 +154,7 @@
   <value>С {0} по {1}</value>
 </data>
 <data name="Default_ToolTipFormatString_Text" xml:space="preserve">
-  <value>{0}</value>
+  <value> {0} </value>
 </data>
 <data name="TypeMemberIsNeverUsed" xml:space="preserve">
   <value>Член типа никогда не используется</value>
@@ -190,7 +190,7 @@
   <value>Событие '{0}' никогда не вызывается</value>
 </data>
 <data name="CanBeMadeProtectedMessage" xml:space="preserve">
-  <value>{0} '{1}' можно сделать protected</value>
+  <value> {0} '{1}' можно сделать protected</value>
 </data>
 <data name="UnusedTypeParameter" xml:space="preserve">
   <value>Неиспользуемый параметр типа</value>

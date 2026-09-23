@@ -580,7 +580,7 @@
   <value>Сохранить в .editorconfig</value>
 </data>
 <data name="MoveFileTo_Text" xml:space="preserve">
-  <value>Переместить файл в </value>
+  <value>Переместить файл в&#160;{0}</value>
 </data>
 <data name="ReplaceWithFormatSpecifier_Text" xml:space="preserve">
   <value>Заменить спецификатором формата</value>
@@ -628,7 +628,7 @@
   <value>Добавить {0} аксессор для {1}</value>
 </data>
 <data name="ChangeTypeOf__To__Text" xml:space="preserve">
-  <value>Изменить тип {0} '{1}' на '{2}'</value>
+  <value>Изменить тип  {0} '{1}' на '{2}'</value>
 </data>
 <data name="ConvertConcatenationToInterpolation_Text" xml:space="preserve">
   <value>Преобразовать конкатенацию в интерполяцию</value>

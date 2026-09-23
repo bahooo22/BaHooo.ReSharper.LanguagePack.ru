@@ -714,7 +714,7 @@
     <value>Объединить в шаблон</value>
   </data>
   <data name="InterceptorMustHaveMatchingThisParameterMessage" xml:space="preserve">
-    <value>Перехватчик '{0}' должен иметь параметр 'this', соответствующий параметру '{1}{2} this' на '{3}'</value>
+    <value>Перехватчик '{0}' должен иметь параметр 'this', соответствующий параметру '{1} {2} this' на '{3}'</value>
   </data>
   <data name="InvalidModifierInLocalFunctionDeclarationMessage" xml:space="preserve">
     <value>Модификатор '{0}' в объявлении локальной функции недопустим</value>
@@ -1489,7 +1489,7 @@
     <value>Лучше использовать конкретные значения (такие как 'false' или '0') вместо общих выражений вроде 'default' или 'new()'</value>
   </data>
   <data name="UsingSymbolRequiresOptingIntoPreviewFeaturesSeeUrl_PrePunctuatedText" xml:space="preserve">
-    <value>{0}Использование {1} требует включения предварительных функций. Для получения дополнительной информации см. {2}.</value>
+    <value>{0} Использование {1} требует включения предварительных функций. Для получения дополнительной информации см. {2}.</value>
   </data>
   <data name="SuspiciousvolatileFieldUsageCompoundOperationIsNotAtomicInterlockedClassCanBeUsedInstead" xml:space="preserve">
     <value>Подозрительное использование 'volatile' поля: составная операция не атомарна. Вместо этого можно использовать класс 'Interlocked'.</value>
@@ -2141,7 +2141,7 @@
     <value>Избыточный операнд в логическом условном выражении</value>
   </data>
   <data name="TheOperandOfAnOperatorMustBeAnAssignableVariablePropertyOrIndexerMessage" xml:space="preserve">
-    <value>Операнд {0}{1} оператора должен быть назначаемой переменной, свойством или индексатором</value>
+    <value>Операнд {0} {1} оператора должен быть назначаемой переменной, свойством или индексатором</value>
   </data>
   <data name="OverriddenGetHashCodeCallsBaseObjectGetHashCode" xml:space="preserve">
     <value>Переопределенный GetHashCode вызывает базовый 'Object.GetHashCode()'</value>
@@ -2463,7 +2463,7 @@
     <value>Нельзя вернуть по ссылке {0} '{1}' через ref параметр; он может быть возвращен только в операторе return</value>
   </data>
   <data name="UsingSymbolRequiresOptingIntoPreviewFeatures_PrePunctuatedText" xml:space="preserve">
-    <value>{0}Использование {1} требует включения предварительных функций.</value>
+    <value>{0} Использование {1} требует включения предварительных функций.</value>
   </data>
   <data name="UseExpressionBodyOrBlockBodyForProperties_Text" xml:space="preserve">
     <value>Использовать тело-выражение или тело-блок для свойств/индексаторов/событий</value>
@@ -2643,7 +2643,7 @@
     <value>Устаревший {0} '{1}' переопределяет неустаревший {2} '{3}'.</value>
   </data>
   <data name="StaticCannotImplementFromInterfaceMessage" xml:space="preserve">
-    <value>Статический {0} '{1}' не может реализовывать {3}{0} из интерфейса {2}</value>
+    <value>Статический {0} '{1}' не может реализовывать {3} {0} из интерфейса {2}</value>
   </data>
   <data name="NeitherisNorasAreValidOnPointerTypesMessage" xml:space="preserve">
     <value>'is' и 'as' недопустимы для типов указателей</value>
@@ -3574,7 +3574,7 @@
     <value>Избыточный суффикс 'Attribute'</value>
 </data>
 <data name="CannotResolveCandidatesAreMessage" xml:space="preserve">
-    <value>Не удается разрешить {0}:{3}{4}{1}{3}Кандидаты: {2}</value>
+    <value>Не удается разрешить {0}:{3} {4} {1} {3}Кандидаты: {2}</value>
 </data>
 <data name="TheExpressionBeingAssignedToEnumMemberMustBeConstantMessage" xml:space="preserve">
     <value>Выражение, присваиваемое члену перечисления "{0}", должно быть константой</value>
@@ -5617,7 +5617,7 @@
     <value>[ЭКСПЕРИМЕНТАЛЬНО] Параметр выводится как nullable: рассмотрите аннотирование его атрибутами [CanBeNull] или [ItemCanBeNull]. Эта проверка иногда дает ненадежные результаты.</value>
 </data>
 <data name="InstanceCannotImplementFromInterfaceMessage" xml:space="preserve">
-    <value>Экземплярный {0} "{1}" не может реализовать {2}{3} из интерфейса {0}</value>
+    <value>Экземплярный {0} "{1}" не может реализовать {2} {3} из интерфейса {0}</value>
 </data>
 <data name="NonObviousPrecedenceMessage" xml:space="preserve">
     <value>Неочевидный приоритет</value>
@@ -6765,10 +6765,10 @@
     <value>Шаблон сообщения журналирования не должен изменяться между вызовами '{0}'</value>
 </data>
 <data name="CannotAccessHereMessage1" xml:space="preserve">
-    <value>Невозможно получить доступ к {0}{1} "{2}" здесь</value>
+    <value>Невозможно получить доступ к {0} {1} "{2}" здесь</value>
 </data>
 <data name="CannotAccessHereMessage2" xml:space="preserve">
-    <value>Невозможно получить доступ к {0}{1} "{2}" здесь</value>
+    <value>Невозможно получить доступ к {0} {1} "{2}" здесь</value>
 </data>
 <data name="NullableAttributeHasNoEffectAndCanBeSafelyRemovedThisCanBeCausedByTheTargetElementAlreadyHavingTheDesiredNullableAnnotation" xml:space="preserve">
     <value>Атрибут nullable не имеет эффекта и может быть безопасно удален. Это может быть вызвано тем, что целевой элемент уже имеет желаемую nullable-аннотацию.</value>
@@ -8245,7 +8245,7 @@
     <value>Атрибут UnscopedRef нельзя применять к параметрам с модификатором 'scoped'</value>
   </data>
   <data name="ExpressionIsAlwaysMessage" xml:space="preserve">
-    <value>Выражение всегда {0}{1}</value>
+    <value>Выражение всегда {0} {1}</value>
   </data>
   <data name="CLRTypeNamesAndCorrespondingCKeyword_DescriptionText" xml:space="preserve">
     <value>Имена типов CLR и соответствующие ключевые слова C# взаимозаменяемы и не влияют на семантику кода</value>
@@ -9234,7 +9234,7 @@
     <value>Возможное присваивание '{0}' не допускающей значение NULL сущности</value>
   </data>
   <data name="ReplaceWithStringIsNullOrEmptyMessage" xml:space="preserve">
-    <value>Заменить на '{0}{1}.{2}'</value>
+    <value>Заменить на '{0} {1}.{2}'</value>
   </data>
   <data name="AGenericTypeCannotDeriveFromSystemAttributeBecauseItIsAnAttributeClassMessage" xml:space="preserve">
     <value>Универсальный тип не может наследовать от 'System.Attribute', так как это класс атрибута</value>
@@ -9319,7 +9319,7 @@
     <value>Эта опция позволяет игнорировать обычные правила стиля 'var' и всегда сохранять одно ключевое слово 'var' для объявлений деконструкции с несколькими переменными.</value>
   </data>
   <data name="TheTypeArgumentsForCannotBeInferredFromTheUsageTrySpecifyingTheTypeArgumentsExplicitlyMessage" xml:space="preserve">
-    <value>Не удается вывести аргументы типа для {0} '{1}' из использования. Попробуйте явно указать аргументы типа.</value>
+    <value>Не удается вывести аргументы типа для  {0}  '{1}' из использования. Попробуйте явно указать аргументы типа.</value>
   </data>
   <data name="In__Call_Text" xml:space="preserve">
     <value> (в вызове {1} '{0}')</value>
@@ -11063,7 +11063,7 @@
     <value>Явная реализация интерфейса для события должна явно объявлять методы доступа 'add'/'remove'</value>
   </data>
   <data name="ExpectedAMethodWithSignatureMessage" xml:space="preserve">
-    <value>Ожидается метод с сигнатурой '{0}{1} {2}{3}'</value>
+    <value>Ожидается метод с сигнатурой '{0} {1} {2} {3}'</value>
   </data>
   <data name="ReplaceNullnessAttributesSuchAsCanBeNullOrItemCanBeNullWithNullableReferenceTypesAnnotationSyntax" xml:space="preserve">
     <value>Заменить атрибуты допустимости NULL, такие как [CanBeNull] или [ItemCanBeNull], на синтаксис аннотаций для ссылочных типов, допускающих значение NULL</value>

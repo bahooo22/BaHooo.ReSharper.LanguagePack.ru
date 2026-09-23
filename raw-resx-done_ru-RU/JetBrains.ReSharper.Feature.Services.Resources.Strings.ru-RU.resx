@@ -1339,7 +1339,7 @@
   <value>Специфично для TypeScript</value>
 </data>
 <data name="__Of__Text" xml:space="preserve">
-  <value>{0}{1} '{2}'</value>
+  <value>{0} {1} '{2}'</value>
 </data>
 <data name="UsagesInDocumentation_Text" xml:space="preserve">
   <value>Использование в документации</value>
@@ -1771,13 +1771,13 @@
   <value>Включить рекомендации по объявлениям CQRS (в разработке)</value>
 </data>
 <data name="Found____Text" xml:space="preserve">
-  <value>{2}Найдено {0} {1}</value>
+  <value>{2} Найдено {0} {1}</value>
 </data>
 <data name="Overriding_Text" xml:space="preserve">
   <value>Переопределение</value>
 </data>
 <data name="No_Found__Text" xml:space="preserve">
-  <value>{1}Не найдено {0}</value>
+  <value>{1} Не найдено {0}</value>
 </data>
 <data name="GlobalSqlDialectSettingName" xml:space="preserve">
   <value>Глобальный SQL диалект</value>
@@ -4761,7 +4761,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Содержащее пространство имён</value>
 </data>
 <data name="CannotBeRemoved_DescriptionText" xml:space="preserve">
-    <value>{0}не может быть удалён</value>
+    <value>{0} не может быть удалён</value>
 </data>
 <data name="WhetherToShowTypeNameHintsForLambdaExpressionParametersSettingDescription" xml:space="preserve">
     <value>Показывать ли подсказки с именами типов для параметров лямбда-выражений</value>
@@ -4932,7 +4932,7 @@ Shift+Tab — перейти к предыдущему элементу кода
     <value>Что-то пошло не так. Если проблема повторится, обратитесь в службу поддержки.</value>
 </data>
 <data name="CannotBeUpdatedCorrectly_DescriptionText" xml:space="preserve">
-    <value>{0}не может быть корректно обновлён</value>
+    <value>{0} не может быть корректно обновлён</value>
 </data>
 <data name="XmlDocSection_Compatibility_Text" xml:space="preserve">
     <value>Совместимость</value>
