@@ -32,19 +32,14 @@
                                                                                    },
                      "JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx":  {
                                                                                 "Size":  10835,
-                                                                                "LastWriteTime":  "2026-09-24T00:54:55.7831123+03:00",
-                                                                                "Hash":  "E36385030D4B1CCC641A7953E6DE1AE6EBACDB9EE561AC0DB79445AA1AC8B268"
+                                                                                "LastWriteTime":  "2026-09-24T01:59:58.4810354+03:00",
+                                                                                "Hash":  "DC05C4A26EDB2D104A677EBD3FF9EE5292DD468AEA155EDE13727F9D9DDE8435"
                                                                             },
                      "JetBrains.ReSharper.I18n.Services.Resources.Strings.ru-RU.resx":  {
                                                                                             "Size":  33881,
                                                                                             "LastWriteTime":  "2025-12-07T03:59:06.2424533+03:00",
                                                                                             "Hash":  "39AFF501CAFDA2A12242299C0CC625D4C515BBD7934C761536F2854003DE6710"
                                                                                         },
-                     "JetBrains.ReSharper.Refactorings.Resources.Strings13.ru-RU.resx":  {
-                                                                                             "Size":  18608,
-                                                                                             "LastWriteTime":  "2025-12-02T20:01:55.3078165+03:00",
-                                                                                             "Hash":  "8CB5BD6808B1DFE84D2440707D2261B48D5DB515B9CF5D136385BC0A1F7DBDDC"
-                                                                                         },
                      "JetBrains.Standalone.Shell.Res.Stringtable.ru-RU.resx":  {
                                                                                    "Size":  5916,
                                                                                    "LastWriteTime":  "2025-12-01T05:12:21.3187031+03:00",
@@ -90,11 +85,21 @@
                                                                                      "LastWriteTime":  "2025-12-02T20:01:52.8653032+03:00",
                                                                                      "Hash":  "BE0BC6E5251FD9ECAFF4C2BBB854D646A3FAE0D706D211529F3FC2414EE1E6BA"
                                                                                  },
-                     "JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx":  {
-                                                                                                "Size":  43953,
-                                                                                                "LastWriteTime":  "2025-12-02T20:01:53.1953169+03:00",
-                                                                                                "Hash":  "CC629BB4FDF42E15F58C2E436AFF5956C6B2CE33746814BB3AC014D9D7B1AE7A"
-                                                                                            },
+                     "JetBrains.SourceView.SourceModel.Resources.Strings.ru-RU.resx":  {
+                                                                                           "Size":  5935,
+                                                                                           "LastWriteTime":  "2025-12-01T05:10:39.8307472+03:00",
+                                                                                           "Hash":  "6755BEBC42C1F9D6EE0D28486AEE6B74F7411AF01CA83280BD8C0307B8B75742"
+                                                                                       },
+                     "JetBrains.Application.Resources.VsResources.ru-RU.resx":  {
+                                                                                    "Size":  22792,
+                                                                                    "LastWriteTime":  "2026-09-24T01:58:27.8077941+03:00",
+                                                                                    "Hash":  "8F3C22A95E44F110699CF4F5BEF5B8B59C6E1A485E6900980BF62E719E770B98"
+                                                                                },
+                     "JetBrains.Etw.Resources.UITexts.ru-RU.resx":  {
+                                                                        "Size":  8846,
+                                                                        "LastWriteTime":  "2025-12-01T03:56:15.4075135+03:00",
+                                                                        "Hash":  "707E697995192A3AB5E9231A545524F6C095668BA0DACFA1276E84FDD7B90A80"
+                                                                    },
                      "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx":  {
                                                                                                  "Size":  94303,
                                                                                                  "LastWriteTime":  "2026-03-28T02:44:29.6774943+03:00",
@@ -125,11 +130,6 @@
                                                                                                                "LastWriteTime":  "2025-12-01T03:21:53.5765725+03:00",
                                                                                                                "Hash":  "C40DD0D09053F6DC4D1DEB6BDF2ABDA800021AA5C90C3F1B3FF0BE376BE8E207"
                                                                                                            },
-                     "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx":  {
-                                                                                               "Size":  276306,
-                                                                                               "LastWriteTime":  "2026-04-01T18:13:23.0627977+03:00",
-                                                                                               "Hash":  "37F042A0909B899DB13BB0C6606357393821ABE8ACE4EDCAA5D07F80933BBCB0"
-                                                                                           },
                      "JetBrains.ReSharper.Features.Xml.Resources.Strings.ru-RU.resx":  {
                                                                                            "Size":  7073,
                                                                                            "LastWriteTime":  "2025-12-01T04:09:41.2242798+03:00",
@@ -151,9 +151,9 @@
                                                                                                        "Hash":  "926026B2705F4712AD19749E80747FBDAD0DA1B62887917BAF94A268F0430BA3"
                                                                                                    },
                      "JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx":  {
-                                                                                                    "Size":  14098,
-                                                                                                    "LastWriteTime":  "2025-11-30T03:46:39.7721717+03:00",
-                                                                                                    "Hash":  "3816F0BCE78677C1CCB5081AE144BB15E2E22FC4F1D207628E9C18F38FC4C6D6"
+                                                                                                    "Size":  14092,
+                                                                                                    "LastWriteTime":  "2026-09-24T02:14:45.8220495+03:00",
+                                                                                                    "Hash":  "254F7AA48B905101F91FC4435D555AB65DF0DC175714A4D623BE37AB43C02C14"
                                                                                                 },
                      "JetBrains.PsiFeatures.VisualStudio.ReSpeller.Resources.Strings.ru-RU.resx":  {
                                                                                                        "Size":  6639,
@@ -206,9 +206,9 @@
                                                                                                 "Hash":  "73C3CADE8AE01D9EDCB7F9D403072B1D343D0B143046EE17D3FCC6804633D792"
                                                                                             },
                      "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx":  {
-                                                                                                  "Size":  63570,
-                                                                                                  "LastWriteTime":  "2025-12-02T20:01:52.1834119+03:00",
-                                                                                                  "Hash":  "B3774705AA16A9CE45DC13599BF99B85B6F1FF77858C931E76D7EE4D99EB194A"
+                                                                                                  "Size":  63595,
+                                                                                                  "LastWriteTime":  "2026-09-24T02:15:04.8645960+03:00",
+                                                                                                  "Hash":  "34D68F8337564FCC3EC44A1BD2965320443A9FB94AB4ED488DF8A070B218E8A6"
                                                                                               },
                      "JetBrains.ViewModels.Src.Options.Res.OptionsStrings.ru-RU.resx":  {
                                                                                             "Size":  5926,
@@ -255,15 +255,15 @@
                                                                                                 "LastWriteTime":  "2026-03-28T02:44:30.1602176+03:00",
                                                                                                 "Hash":  "751B9D4E768D65717164D6B2C8433F65CB684DA190E08A0FC80C1A29CF0061EC"
                                                                                             },
-                     "JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.ru-RU.resx":  {
-                                                                                                          "Size":  11693,
-                                                                                                          "LastWriteTime":  "2025-11-30T03:55:51.8160515+03:00",
-                                                                                                          "Hash":  "72AD3C4B848D0C0A2BF409099DFC0F86DD2D013A0D5C84611E417D233E5F3AC7"
-                                                                                                      },
+                     "JetBrains.ReSharper.Refactorings.Resources.Strings13.ru-RU.resx":  {
+                                                                                             "Size":  18608,
+                                                                                             "LastWriteTime":  "2025-12-02T20:01:55.3078165+03:00",
+                                                                                             "Hash":  "8CB5BD6808B1DFE84D2440707D2261B48D5DB515B9CF5D136385BC0A1F7DBDDC"
+                                                                                         },
                      "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx":  {
-                                                                                         "Size":  36089,
-                                                                                         "LastWriteTime":  "2026-04-11T18:49:38.0397316+03:00",
-                                                                                         "Hash":  "D390EC0527FCFF4DEC62C8B0ECAF0093B6AF7B605894177A2D1A7FCE76C2B600"
+                                                                                         "Size":  36081,
+                                                                                         "LastWriteTime":  "2026-09-24T02:15:01.3904112+03:00",
+                                                                                         "Hash":  "310861CC34F1BC8F4A81E0E1742C4B7C7E196BFBB289F7859E990901055770DC"
                                                                                      },
                      "JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx":  {
                                                                                                                       "Size":  7232,
@@ -280,11 +280,11 @@
                                                                                                                         "LastWriteTime":  "2025-12-01T04:48:54.5332744+03:00",
                                                                                                                         "Hash":  "2073C4C0FF271F8E7073A8818A4CFBB774E3F8C605A4874140295A7F2A8F22DD"
                                                                                                                     },
-                     "JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx":  {
-                                                                                                     "Size":  8014,
-                                                                                                     "LastWriteTime":  "2025-12-01T03:55:15.4685071+03:00",
-                                                                                                     "Hash":  "D6468E47F36D8E8FE65DA855D7F6C67974C477026F9CA7CC347320B80BCDCDA8"
-                                                                                                 },
+                     "JetBrains.Application.Res.StringTable.ru-RU.resx":  {
+                                                                              "Size":  15016,
+                                                                              "LastWriteTime":  "2026-09-24T01:58:27.5292519+03:00",
+                                                                              "Hash":  "47D526BEF9307A1D5BC8A2A50AEA5745F2DD9164738EF1F58EB4F329758FC517"
+                                                                          },
                      "JetBrains.dotMemory.Model.Resources.Strings.ru-RU.resx":  {
                                                                                     "Size":  6348,
                                                                                     "LastWriteTime":  "2025-12-01T04:28:56.0976840+03:00",
@@ -355,11 +355,11 @@
                                                                                          "LastWriteTime":  "2026-03-28T02:44:30.1094396+03:00",
                                                                                          "Hash":  "23385E6CC240CB0E7588E29EDC75D7B813B8D3C9B0F010B7A04F3F8BDF6D79D3"
                                                                                      },
-                     "JetBrains.Etw.Resources.UITexts.ru-RU.resx":  {
-                                                                        "Size":  8846,
-                                                                        "LastWriteTime":  "2025-12-01T03:56:15.4075135+03:00",
-                                                                        "Hash":  "707E697995192A3AB5E9231A545524F6C095668BA0DACFA1276E84FDD7B90A80"
-                                                                    },
+                     "JetBrains.Platform.VisualStudio.SinceVs11.Resources.Strings.ru-RU.resx":  {
+                                                                                                    "Size":  7070,
+                                                                                                    "LastWriteTime":  "2025-12-01T04:18:46.1816694+03:00",
+                                                                                                    "Hash":  "B18347971F1ABB86F00A302FF9F088AD5A1455040CE5F12639EBA0D7D7D45895"
+                                                                                                },
                      "JetBrains.ReSharper.UnitTesting.Analysis.Resources.Strings.ru-RU.resx":  {
                                                                                                    "Size":  33825,
                                                                                                    "LastWriteTime":  "2025-11-29T12:55:09.0145654+03:00",
@@ -445,16 +445,26 @@
                                                                                            "LastWriteTime":  "2025-12-01T03:47:19.9385270+03:00",
                                                                                            "Hash":  "C7D0E35ACFCC64EAD6062995164E8964C478B5D55A80999E0775D68F4186E3C4"
                                                                                        },
-                     "JetBrains.SourceView.SourceModel.Resources.Strings.ru-RU.resx":  {
-                                                                                           "Size":  5935,
-                                                                                           "LastWriteTime":  "2025-12-01T05:10:39.8307472+03:00",
-                                                                                           "Hash":  "6755BEBC42C1F9D6EE0D28486AEE6B74F7411AF01CA83280BD8C0307B8B75742"
-                                                                                       },
+                     "JetBrains.DPA.Ide.VS.Resources.Strings.ru-RU.resx":  {
+                                                                               "Size":  6658,
+                                                                               "LastWriteTime":  "2026-09-24T01:58:27.8193256+03:00",
+                                                                               "Hash":  "75F90C3B16761BB9CAFBE0B628751F7C1DCE2F4EF6BE4CAAC11B1D479F0A1CCF"
+                                                                           },
+                     "JetBrains.UI.Resources.StringTable.ru-RU.resx":  {
+                                                                           "Size":  15046,
+                                                                           "LastWriteTime":  "2026-09-24T01:58:27.6347639+03:00",
+                                                                           "Hash":  "6FCA5685A37E69AA03E81B740C0B85546883BC7C4DA8E97ADDD436C783C592FD"
+                                                                       },
                      "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx":  {
                                                                                  "Size":  49651,
                                                                                  "LastWriteTime":  "2025-12-02T20:01:52.9096613+03:00",
                                                                                  "Hash":  "57BECDBCD169C70EEBE4B9B833E9F2C62B25ADC111B1947B18EA9F09BF3A6F65"
                                                                              },
+                     "JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx":  {
+                                                                                                "Size":  43953,
+                                                                                                "LastWriteTime":  "2025-12-02T20:01:53.1953169+03:00",
+                                                                                                "Hash":  "CC629BB4FDF42E15F58C2E436AFF5956C6B2CE33746814BB3AC014D9D7B1AE7A"
+                                                                                            },
                      "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx":  {
                                                                                       "Size":  6478,
                                                                                       "LastWriteTime":  "2025-12-01T04:32:36.0559976+03:00",
@@ -485,10 +495,15 @@
                                                                                                            "LastWriteTime":  "2025-12-01T03:58:30.3715104+03:00",
                                                                                                            "Hash":  "5318DD95D0DF5C27AC0117DBC02893D4CEA1E9330287EFC7F099EEDF4ECCD50D"
                                                                                                        },
+                     "JetBrains.Profiler.Windows.Resources.Strings.ru-RU.resx":  {
+                                                                                     "Size":  9115,
+                                                                                     "LastWriteTime":  "2026-09-24T01:58:27.8596480+03:00",
+                                                                                     "Hash":  "21CA3FC587F3FD111FD8E15663737D91D9AAB38FA056B80D3FDBC37AD95C1788"
+                                                                                 },
                      "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx":  {
-                                                                                                "Size":  399817,
-                                                                                                "LastWriteTime":  "2026-04-02T03:16:26.1513533+03:00",
-                                                                                                "Hash":  "5E0800AB7EC5437FE5DFFCC934B4CC60404CBFFDD303C282F378336084499F47"
+                                                                                                "Size":  399811,
+                                                                                                "LastWriteTime":  "2026-09-24T02:15:00.3420593+03:00",
+                                                                                                "Hash":  "E8B5CF81BB6C025E414C6988D69564E924ACC6AD4DACD16C0CE0B27ED7BF505D"
                                                                                             },
                      "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx":  {
                                                                                            "Size":  8606,
@@ -575,11 +590,6 @@
                                                                                          "LastWriteTime":  "2025-12-01T05:07:20.2039498+03:00",
                                                                                          "Hash":  "334B6C2C1CD7B8F8DEB29DCA1FBDEDAEF802A13CFB81D899E78BDD035B9F9420"
                                                                                      },
-                     "JetBrains.Platform.VisualStudio.SinceVs11.Resources.Strings.ru-RU.resx":  {
-                                                                                                    "Size":  7070,
-                                                                                                    "LastWriteTime":  "2025-12-01T04:18:46.1816694+03:00",
-                                                                                                    "Hash":  "B18347971F1ABB86F00A302FF9F088AD5A1455040CE5F12639EBA0D7D7D45895"
-                                                                                                },
                      "JetBrains.Symbols.Resources.Strings.ru-RU.resx":  {
                                                                             "Size":  7054,
                                                                             "LastWriteTime":  "2025-12-02T20:01:56.8356702+03:00",
@@ -596,9 +606,9 @@
                                                                                   "Hash":  "C1DCD6C491F17ED31033AF69515B9A56DA99F2F92D01BF337571035A9EC50D84"
                                                                               },
                      "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx":  {
-                                                                                            "Size":  922495,
-                                                                                            "LastWriteTime":  "2026-06-08T02:47:54.5230576+03:00",
-                                                                                            "Hash":  "D245EE7F296943D9E3FB7DA16F272E0D69FE39B4E86B351B5451D5DEA25161B0"
+                                                                                            "Size":  922529,
+                                                                                            "LastWriteTime":  "2026-09-24T02:14:42.3974882+03:00",
+                                                                                            "Hash":  "D8F9865963C33A5FF6E4112FDB8E9DE8B8A51BFD8ED06090B97AFC36BD571403"
                                                                                         },
                      "JetBrains.Common.Util.Shell.Resources.Strings.ru-RU.resx":  {
                                                                                       "Size":  6275,
@@ -635,6 +645,11 @@
                                                                                    "LastWriteTime":  "2025-12-01T03:25:49.2186345+03:00",
                                                                                    "Hash":  "B0FA97545D9C3196ECE114009876C176AACB37E748F85D7B927DED903475F004"
                                                                                },
+                     "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx":  {
+                                                                                                     "Size":  25433,
+                                                                                                     "LastWriteTime":  "2025-12-02T20:01:54.1052462+03:00",
+                                                                                                     "Hash":  "777CFEE7DE9E8C1CD177C8409A051606FE18D1CBB150AC2D9A0AFB20EB63C215"
+                                                                                                 },
                      "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx":  {
                                                                                                      "Size":  24568,
                                                                                                      "LastWriteTime":  "2025-12-02T20:01:54.1631678+03:00",
@@ -665,11 +680,11 @@
                                                                                                         "LastWriteTime":  "2025-12-01T04:28:25.2796636+03:00",
                                                                                                         "Hash":  "F222EC33A246A0DA1F90A4A4E8FD26FB0D661249EA435FF58E0FF91ED33C292A"
                                                                                                     },
-                     "JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx":  {
-                                                                                                   "Size":  8603,
-                                                                                                   "LastWriteTime":  "2025-12-01T03:41:42.9120004+03:00",
-                                                                                                   "Hash":  "78B6CF5342F504518E519D4FD17E8768BAD4FF46F862A6750518D3CA21960C28"
-                                                                                               },
+                     "JetBrains.Standalone.TabWell.Resources.Strings.ru-RU.resx":  {
+                                                                                       "Size":  7283,
+                                                                                       "LastWriteTime":  "2026-09-24T01:58:27.8751879+03:00",
+                                                                                       "Hash":  "8A6BF96E5FF4955D05330B36A7016597B116BF58573F92B0BC200A118F54D6C9"
+                                                                                   },
                      "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx":  {
                                                                                       "Size":  48404,
                                                                                       "LastWriteTime":  "2026-03-28T02:44:29.5633863+03:00",
@@ -685,6 +700,11 @@
                                                                                                   "LastWriteTime":  "2025-12-02T20:01:54.5958248+03:00",
                                                                                                   "Hash":  "75B609ECCDE315B0345458C93EDE7532D9C93AE3007D79FB2B2716A82D802E6C"
                                                                                               },
+                     "JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.ru-RU.resx":  {
+                                                                                                          "Size":  11693,
+                                                                                                          "LastWriteTime":  "2025-11-30T03:55:51.8160515+03:00",
+                                                                                                          "Hash":  "72AD3C4B848D0C0A2BF409099DFC0F86DD2D013A0D5C84611E417D233E5F3AC7"
+                                                                                                      },
                      "JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx":  {
                                                                                               "Size":  8392,
                                                                                               "LastWriteTime":  "2025-12-01T03:55:49.4072095+03:00",
@@ -717,8 +737,8 @@
                                                                                     },
                      "JetBrains.UI.Resources.Strings.ru-RU.resx":  {
                                                                        "Size":  61677,
-                                                                       "LastWriteTime":  "2026-09-24T00:54:55.7878372+03:00",
-                                                                       "Hash":  "93FB638301FE340F2B2A981A6AD5EDD8D3D87B93982D1AD01E17CF4959AEF57F"
+                                                                       "LastWriteTime":  "2026-09-24T01:59:58.4826248+03:00",
+                                                                       "Hash":  "1F9EBEF2044A8ED111F9D66D7AA2A1CDD712A5738CB3F5A48CFA70E112256721"
                                                                    },
                      "JetBrains.TestBakery.Core.Resources.Strings.ru-RU.resx":  {
                                                                                     "Size":  6132,
@@ -741,9 +761,9 @@
                                                                          "Hash":  "D5C8DE06FA9F33C3640E6B66221966F5B6439DE922BC2E0FD25686498223998B"
                                                                      },
                      "JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx":  {
-                                                                                                "Size":  19825,
-                                                                                                "LastWriteTime":  "2026-03-20T07:15:32.5373931+03:00",
-                                                                                                "Hash":  "4CD4C77208E083120564B7699BE94EF745430FE5C3EDA2AE96E53E8E7EA8552E"
+                                                                                                "Size":  19824,
+                                                                                                "LastWriteTime":  "2026-09-24T02:15:17.6729756+03:00",
+                                                                                                "Hash":  "F7F0DDE16612F38E4B103544C7B333387898D28291750CC97EB29EEE77B1DBF3"
                                                                                             },
                      "JetBrains.dotCover.Resources.Strings.ru-RU.resx":  {
                                                                              "Size":  57871,
@@ -815,6 +835,11 @@
                                                                                               "LastWriteTime":  "2025-12-02T20:01:54.5124254+03:00",
                                                                                               "Hash":  "6F6E24856F5C1E546C058932F767AC7DDC0D51FBA3CB57A844434201CE602BC9"
                                                                                           },
+                     "JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx":  {
+                                                                                                     "Size":  8014,
+                                                                                                     "LastWriteTime":  "2025-12-01T03:55:15.4685071+03:00",
+                                                                                                     "Hash":  "D6468E47F36D8E8FE65DA855D7F6C67974C477026F9CA7CC347320B80BCDCDA8"
+                                                                                                 },
                      "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx":  {
                                                                                                       "Size":  50022,
                                                                                                       "LastWriteTime":  "2025-11-29T05:15:11.1258658+03:00",
@@ -865,6 +890,11 @@
                                                                                     "LastWriteTime":  "2026-03-28T02:44:29.2990826+03:00",
                                                                                     "Hash":  "CFF883578F6E2F63E62F7AE8668E9EDBFDEFCBAD6593DED1B0F46C53439E2402"
                                                                                 },
+                     "JetBrains.SignatureVerifier.Messages.ru-RU.resx":  {
+                                                                             "Size":  6622,
+                                                                             "LastWriteTime":  "2026-09-24T01:58:27.8642594+03:00",
+                                                                             "Hash":  "95BBBFC3C193C233665A9537CB2AFDF81D3E8A360410F9D40E71630A0E2E7CC1"
+                                                                         },
                      "JetBrains.ReSharper.Daemon.Protobuf.Resources.Strings.ru-RU.resx":  {
                                                                                               "Size":  9488,
                                                                                               "LastWriteTime":  "2025-12-01T03:15:42.3798662+03:00",
@@ -971,9 +1001,9 @@
                                                                                                                "Hash":  "0E21D9E905FA3347B6842DDFBA5A8D8EEFB637C751A2C34DEE1CB418516D2250"
                                                                                                            },
                      "JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx":  {
-                                                                                                   "Size":  620202,
-                                                                                                   "LastWriteTime":  "2026-04-01T14:04:21.0162715+03:00",
-                                                                                                   "Hash":  "01030F03044418A394B53693EA99156B1052B78EB33FF3E8017E92FA41409750"
+                                                                                                   "Size":  620196,
+                                                                                                   "LastWriteTime":  "2026-09-24T02:14:44.6991535+03:00",
+                                                                                                   "Hash":  "2A30E9109BB2AD94FEC2B2172C6E62EC972E9CF90BC4E1314D193D21745A08C8"
                                                                                                },
                      "JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.ru-RU.resx":  {
                                                                                                             "Size":  6515,
@@ -995,6 +1025,11 @@
                                                                                            "LastWriteTime":  "2025-12-02T20:01:56.7059321+03:00",
                                                                                            "Hash":  "76981DFE116249808EA7C503E7D98FADF1BA94FAB19AE0920ED19C317946E489"
                                                                                        },
+                     "JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx":  {
+                                                                                            "Size":  8804,
+                                                                                            "LastWriteTime":  "2025-12-01T03:33:29.2080477+03:00",
+                                                                                            "Hash":  "35B7BEA96F8FC2091289CEE4B2DC4CD26F806EDA8F1A33D3752E9A9FAEC12987"
+                                                                                        },
                      "GammaJul.ForTea.Core.Resources.Strings.ru-RU.resx":  {
                                                                                "Size":  6612,
                                                                                "LastWriteTime":  "2025-12-01T04:40:15.9259990+03:00",
@@ -1010,11 +1045,11 @@
                                                                                                         "LastWriteTime":  "2025-12-01T03:48:40.2414953+03:00",
                                                                                                         "Hash":  "F12A4DB5F004A1458E6002AF831BE127FA9294AB5106DBAD6613041DA4519201"
                                                                                                     },
-                     "JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx":  {
-                                                                                            "Size":  8804,
-                                                                                            "LastWriteTime":  "2025-12-01T03:33:29.2080477+03:00",
-                                                                                            "Hash":  "35B7BEA96F8FC2091289CEE4B2DC4CD26F806EDA8F1A33D3752E9A9FAEC12987"
-                                                                                        },
+                     "JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx":  {
+                                                                                                   "Size":  8603,
+                                                                                                   "LastWriteTime":  "2025-12-01T03:41:42.9120004+03:00",
+                                                                                                   "Hash":  "78B6CF5342F504518E519D4FD17E8768BAD4FF46F862A6750518D3CA21960C28"
+                                                                                               },
                      "JetBrains.Platform.VisualStudio.SinceVs16.Resources.Strings.ru-RU.resx":  {
                                                                                                     "Size":  6515,
                                                                                                     "LastWriteTime":  "2025-12-01T04:33:12.9455926+03:00",
@@ -1025,11 +1060,11 @@
                                                                                                                   "LastWriteTime":  "2025-12-01T04:45:19.3458237+03:00",
                                                                                                                   "Hash":  "16E4A260427D36B52171FB062857CB448A5761F46B2B9D6BA58EFD08080FFC34"
                                                                                                               },
-                     "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx":  {
-                                                                                                     "Size":  25433,
-                                                                                                     "LastWriteTime":  "2025-12-02T20:01:54.1052462+03:00",
-                                                                                                     "Hash":  "777CFEE7DE9E8C1CD177C8409A051606FE18D1CBB150AC2D9A0AFB20EB63C215"
-                                                                                                 },
+                     "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx":  {
+                                                                                               "Size":  276306,
+                                                                                               "LastWriteTime":  "2026-04-01T18:13:23.0627977+03:00",
+                                                                                               "Hash":  "37F042A0909B899DB13BB0C6606357393821ABE8ACE4EDCAA5D07F80933BBCB0"
+                                                                                           },
                      "JetBrains.ReSharper.UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx":  {
                                                                                                         "Size":  6548,
                                                                                                         "LastWriteTime":  "2025-12-01T04:35:19.4088684+03:00",
@@ -1056,9 +1091,9 @@
                                                                                                     "Hash":  "DE480C49DC9BC60A675EEA42972F91FD715204668109E86106C5A71042C1FCE8"
                                                                                                 },
                      "JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.ru-RU.resx":  {
-                                                                                                        "Size":  7808,
-                                                                                                        "LastWriteTime":  "2025-12-01T03:46:50.9406880+03:00",
-                                                                                                        "Hash":  "601C84E10FB2AA3FD8AA9BA7DDC11F5566DEF82247FB33B091F2F33F8DE9D41A"
+                                                                                                        "Size":  7821,
+                                                                                                        "LastWriteTime":  "2026-09-24T02:14:46.8231741+03:00",
+                                                                                                        "Hash":  "E3344A51EBC07A2D4FA2302F6F6705EC408AF6D6D743C8C5CAABEBCBFC15A299"
                                                                                                     },
                      "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx":  {
                                                                                            "Size":  139871,
@@ -1086,9 +1121,9 @@
                                                                                                        "Hash":  "8D23B19D65D72DC838BD4DA047D072C9B88554FA19B539D988811024777046E5"
                                                                                                    },
                      "JetBrains.Application.Resources.Strings.ru-RU.resx":  {
-                                                                                "Size":  118083,
-                                                                                "LastWriteTime":  "2026-03-28T02:44:29.2563454+03:00",
-                                                                                "Hash":  "306BB8841E439785B9627C60BFBB9E0B324A3F01194E714A4C010F27FCB0729F"
+                                                                                "Size":  118072,
+                                                                                "LastWriteTime":  "2026-09-24T02:14:59.2651624+03:00",
+                                                                                "Hash":  "27AF92C0F0C78F2358477EAE890602902D7E921E83724BE4C87FF7BE62D71E58"
                                                                             },
                      "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx":  {
                                                                                                                         "Size":  23399,
@@ -1161,9 +1196,9 @@
                                                                                             "Hash":  "CA96B01BE0EE301B1FBD53F7C0BF13676E028953C15344220DCDB0508B7F4FA7"
                                                                                         },
                      "JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx":  {
-                                                                                  "Size":  171025,
-                                                                                  "LastWriteTime":  "2026-03-28T02:44:30.2008168+03:00",
-                                                                                  "Hash":  "D3CE8CE0E7061084386FD4C9970937F06073CBF11BE2107D379069937CDEA9EA"
+                                                                                  "Size":  171061,
+                                                                                  "LastWriteTime":  "2026-09-24T02:14:31.7551679+03:00",
+                                                                                  "Hash":  "B9104E635B11D2C2B432CB91D64DA6E867578FCCB43036E6E0397774F0A994BD"
                                                                               },
                      "JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx":  {
                                                                                                 "Size":  105790,
@@ -1181,6 +1216,6 @@
                                                                                                        "Hash":  "FA6CFCAF91273207FD0D55F059F2B61A03A7CBC4FBB057428A5E5B714666664B"
                                                                                                    }
                  },
-    "Timestamp":  "2026-09-24T00:55:17.0807222+03:00",
-    "FileCount":  236
+    "Timestamp":  "2026-09-24T02:15:33.3983133+03:00",
+    "FileCount":  243
 }

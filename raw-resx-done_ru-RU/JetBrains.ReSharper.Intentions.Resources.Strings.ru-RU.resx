@@ -580,7 +580,7 @@
   <value>Сохранить в .editorconfig</value>
 </data>
 <data name="MoveFileTo_Text" xml:space="preserve">
-  <value>Переместить файл в&#160;{0}</value>
+  <value>Переместить файл в </value>
 </data>
 <data name="ReplaceWithFormatSpecifier_Text" xml:space="preserve">
   <value>Заменить спецификатором формата</value>

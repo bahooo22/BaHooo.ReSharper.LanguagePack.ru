@@ -307,7 +307,7 @@
   <value>Настройки среды приложения. Обычно не должны быть общими для решения в рамках команды.</value>
 </data>
 <data name="LicenseTo_Key__Text" xml:space="preserve">
-  <value>Лицензия для {0} (ключ {1})</value>
+  <value>лицензия (ключ {0})</value>
 </data>
 <data name="SomeBoolOptionForShowingVisibilitySettingDescription" xml:space="preserve">
   <value>Некоторая логическая опция для отображения видимости</value>

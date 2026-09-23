@@ -502,7 +502,7 @@
   <value>Доступ к резервному полю {0} станет полиморфным</value>
 </data>
 <data name="UnableToPartiallyEncapsulateField0Usage_Text" xml:space="preserve">
-  <value>Не удается частично инкапсулировать использование поля {0}</value>
+  <value>Не удается частично инкапсулировать использование поля {0,usage}</value>
 </data>
 <data name="ConvertToGeneratedMethod_MoveToAnotherClass_Text" xml:space="preserve">
   <value>Переместить созданный метод в определенный класс (_M):</value>
@@ -529,7 +529,7 @@
   <value>Существующий метод '{0}' объявляет EventId = {1}, что отличается от исходного EventId = {2}</value>
 </data>
 <data name="Field0InitializerWillBeReplacedWith_Text" xml:space="preserve">
-  <value>Инициализатор поля {0} будет заменен полиморфным присваиванием в конструкторе</value>
+  <value>Инициализатор поля {0,initializer} будет заменен полиморфным присваиванием в конструкторе</value>
 </data>
 <data name="Existing0AutoPropertyWillBeBroken_Text" xml:space="preserve">
   <value>Существующее {0, автоматическое свойство} будет нарушено</value>
@@ -829,7 +829,7 @@
   <value>Извлечь метод</value>
 </data>
 <data name="ConfigureAwait0CallWillNotBeTransferred_Text" xml:space="preserve">
-  <value>Вызов 'ConfigureAwait()' {0} не будет перенесен в встроенное выражение await, его эффект будет потерян</value>
+  <value>Вызов 'ConfigureAwait()' {0,call} не будет перенесен во встроенные выражения await, его эффект будет потерян</value>
 </data>
 <data name="CreateField_InType__Text" xml:space="preserve">
   <value>Создать поле '{0}' в типе '{1}'</value>

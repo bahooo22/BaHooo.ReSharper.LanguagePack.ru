@@ -5994,7 +5994,7 @@
   <value>Использование ранее не объявленного класса</value>
 </data>
 <data name="Requirement_NestedReasonNextLineDelimiter_Text" xml:space="preserve">
-  <value>， потому что</value>
+  <value>, потому что</value>
 </data>
 <data name="VisibilityModeOfNamespaceNameHintsAfterNamespaceDefinitionsSettingDescription" xml:space="preserve">
   <value>Режим видимости подсказок имен пространств имен после определений пространств имен</value>
@@ -6138,7 +6138,7 @@
   <value>Выражение свертки не содержит неразвернутый пакет параметров</value>
 </data>
 <data name="_WillGenerateDocumentationCommentStub_Text" xml:space="preserve">
-  <value>{0} сгенерирует заглушку комментария документации после ввода /**、/*!、/// или //! и нажатия Enter</value>
+  <value>{0} сгенерирует заглушку комментария документации после ввода /**, /*!, /// или //! и нажатия Enter</value>
 </data>
 <data name="NonModifiableErrorSubject_ArrayType_Text" xml:space="preserve">
   <value>Тип массива {0}</value>
@@ -6795,7 +6795,7 @@
   <value>Избыточное пустое объявление</value>
 </data>
 <data name="ClassDeclaredInFewModules" xml:space="preserve">
-  <value>， потому что {0} объявлен в модуле</value>
+  <value>, потому что {0} объявлен в модуле</value>
 </data>
 <data name="CStyleCastIsUsedInsteadOfACCast1" xml:space="preserve">
   <value>Используется приведение в стиле C вместо приведения C++</value>
