@@ -3275,7 +3275,7 @@
     <value>Неизвестное представление компонента представления ASP.NET MVC</value>
 </data>
 <data name="Message" xml:space="preserve">
-    <value>{0}</value>
+    <value> {0} </value>
 </data>
 <data name="TypeParametersCannotAppearOnAConstructorDeclarationMessage" xml:space="preserve">
     <value>Параметры типа не могут появляться в объявлении конструктора</value>

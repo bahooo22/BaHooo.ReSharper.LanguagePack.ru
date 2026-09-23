@@ -493,7 +493,7 @@
   <value>Конструктор не разрешен</value>
 </data>
 <data name="_Index__IsOutOfGrid_DefinitionsRange_ToolTip" xml:space="preserve">
-  <value>{0}индекс {1} вне диапазона определений {3} сетки (0-{4})</value>
+  <value>{0} индекс {1} вне диапазона определений {3} сетки (0-{4})</value>
 </data>
 <data name="CannotResolveSymbol__Text" xml:space="preserve">
   <value>Не удается разрешить символ '{0}'</value>
@@ -652,7 +652,7 @@
   <value>На универсальные типы нельзя ссылаться в XAML 2006</value>
 </data>
 <data name="_Index_WithSpan_IsOutOfGrid_DefinitionsRange_ToolTip" xml:space="preserve">
-  <value>{0}индекс {1} с диапазоном {2} вне диапазона определений {3} сетки (0-{4})</value>
+  <value>{0} индекс {1} с диапазоном {2} вне диапазона определений {3} сетки (0-{4})</value>
 </data>
 <data name="GridColumnsRowsDefinitionsCanBeConverted_Text" xml:space="preserve">
   <value>Определения столбцов/строк сетки могут быть преобразованы в атрибуты</value>
@@ -757,7 +757,7 @@
   <value>Ссылка на имя элемента не разрешена</value>
 </data>
 <data name="Message" xml:space="preserve">
-  <value>{0}</value>
+  <value> {0} </value>
 </data>
 <data name="RemoveRedundantAttachedPropertySetter" xml:space="preserve">
   <value>Удалить избыточный сеттер присоединенного свойства</value>

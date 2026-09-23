@@ -6425,13 +6425,13 @@
   <value>Преобразовать в char</value>
 </data>
 <data name="SearchingForAliasUsagesInFile___Text" xml:space="preserve">
-  <value>Поиск использований псевдонима в файле {0}: {1}</value>
+  <value>Поиск использований псевдонима в файле  {0}: {1}</value>
 </data>
 <data name="ToExpressionBody_Text" xml:space="preserve">
   <value>Преобразовать в тело-выражение</value>
 </data>
 <data name="DisableFor__Text" xml:space="preserve">
-  <value>Отключить для {0}</value>
+  <value>Отключить для  {0}</value>
 </data>
 <data name="MakeMembersMustDisposeResource_ScopedText" xml:space="preserve">
   <value>Аннотировать члены с помощью [MustDisposeResource]</value>

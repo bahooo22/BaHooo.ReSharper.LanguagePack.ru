@@ -8979,7 +8979,7 @@
     <value>Показать как</value>
 </data>
 <data name="Message" xml:space="preserve">
-    <value>{0}</value>
+    <value> {0} </value>
 </data>
 <data name="FormatCompoundStatementContextAction_Description" xml:space="preserve">
     <value>Форматировать составной оператор под текстовым курсором</value>

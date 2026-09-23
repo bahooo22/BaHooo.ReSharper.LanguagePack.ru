@@ -448,7 +448,7 @@
   <value>Вернуться к использованию '{0}'</value>
 </data>
 <data name="Found____Text" xml:space="preserve">
-  <value>{2}Найдено {0} {1}</value>
+  <value>{2} Найдено {0} {1}</value>
 </data>
 <data name="ShowUsages_Caption" xml:space="preserve">
   <value>Показать использования</value>

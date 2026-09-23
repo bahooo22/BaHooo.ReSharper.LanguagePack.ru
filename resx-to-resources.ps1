@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Конвертер .resx -> .resources с поддержкой параллелизма и авто-обновления версий.
 .DESCRIPTION
@@ -1334,7 +1334,7 @@ function Resolve-BuildVersion {
     param([Parameter(Mandatory)][string]$ProjectRoot)
     $nuspecPath = Join-Path $ProjectRoot 'NugetFolder\BaHooo.ReSharper.I18n.ru\BaHooo.ReSharper.I18n.ru.nuspec'
     if (Test-Path $nuspecPath) {
-        $content = Get-Content $nuspecPath -Raw
+        $content = Get-Content $nuspecPath -Raw -Encoding UTF8
         if ($content -match '<version>(.*?)</version>') {
             return $Matches[1]
         }
@@ -1747,10 +1747,15 @@ function Invoke-ResgenConversionStage {
     }
     $elapsed = $stats.Elapsed
 	$totalFiles = $changes.FilesToConvert.Count
-	
+	if ($Script:Config.MaxThreads -gt 1) {
+		$modeText = 'Потоков: ' + $Script:Config.MaxThreads
+	} else {
+		$modeText = 'однопоточный'
+	}
+
 	Write-Host ""
 	Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
-	Write-Host "  ИТОГИ КОНВЕРТАЦИИ" -ForegroundColor Cyan
+	Write-Host "  ИТОГИ КОНВЕРТАЦИИ ($modeText)" -ForegroundColor Cyan
 	Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
 	Write-Host "  Файлов обработано: $totalFiles" -ForegroundColor White
 	Write-Host "  Успешно:           $($stats.Success)" -ForegroundColor $(if($stats.Success -eq $totalFiles){'Green'}else{'Yellow'})
