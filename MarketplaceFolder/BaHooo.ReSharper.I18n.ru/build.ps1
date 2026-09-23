@@ -9,6 +9,45 @@ param(
     [alias("h")][switch]$HelpAlias
 )
 
+function Show-Help {
+    Write-Host @"
+ИСПОЛЬЗОВАНИЕ:
+    .\build.ps1 [ПАРАМЕТРЫ]
+
+ПАРАМЕТРЫ:
+    -Configuration <config>     Конфигурация сборки (по умолчанию: Release)
+    -Version <версия>           Версия пакета (например: 2025.3.0.4)
+    -Output <путь>              Папка для выходных файлов (по умолчанию: artifacts)
+    -Help, -h                   Показать эту справку
+
+ОПИСАНИЕ:
+    Скрипт для сборки пакета BaHooo.ReSharper.I18n.ru.
+    Использует .nuspec файл для создания NuGet пакета.
+    Для работы требуется наличие nuget.exe в системе PATH.
+
+ТРЕБОВАНИЯ:
+    - NuGet CLI (nuget.exe) должен быть установлен и доступен в PATH
+    - Можно скачать с: https://www.nuget.org/downloads
+    - Или установить через: winget install Microsoft.NuGet
+
+ПРИМЕРЫ:
+    .\build.ps1                    # Сборка с текущей версией
+    .\build.ps1 -Version "2025.3.0.5"  # Сборка с указанной версией
+    .\build.ps1 -Output "C:\packages"  # Сборка в указанную папку
+    .\build.ps1 -Help              # Показать справку
+
+КОМАНДА ПАКЕТИРОВАНИЯ:
+    nuget pack "BaHooo.ReSharper.I18n.ru.nuspec" -OutputDirectory "artifacts" -NoDefaultExcludes
+
+ПУТИ:
+    Скрипт использует следующие пути (относительно своего расположения):
+    - .nuspec файл:              BaHooo.ReSharper.I18n.ru.nuspec
+    - Ресурсы:                   ..\..\build\resources
+    - Выходная папка:            artifacts (по умолчанию)
+    - Временные ресурсы:         DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n
+"@
+}
+
 # Проверяем запрос помощи
 if ($Help -or $HelpAlias) {
     Show-Help
@@ -153,43 +192,4 @@ if ($created -and ($created | Measure-Object).Count -gt 0) {
 } else {
     Write-Host "Не найдено созданных .nupkg в $Output" -ForegroundColor Red
     throw "Упаковка завершилась без создания .nupkg"
-}
-
-function Show-Help {
-    Write-Host @"
-ИСПОЛЬЗОВАНИЕ:
-    .\build.ps1 [ПАРАМЕТРЫ]
-
-ПАРАМЕТРЫ:
-    -Configuration <config>     Конфигурация сборки (по умолчанию: Release)
-    -Version <версия>           Версия пакета (например: 2025.3.0.4)
-    -Output <путь>              Папка для выходных файлов (по умолчанию: artifacts)
-    -Help, -h                   Показать эту справку
-
-ОПИСАНИЕ:
-    Скрипт для сборки пакета BaHooo.ReSharper.I18n.ru.
-    Использует .nuspec файл для создания NuGet пакета.
-    Для работы требуется наличие nuget.exe в системе PATH.
-
-ТРЕБОВАНИЯ:
-    - NuGet CLI (nuget.exe) должен быть установлен и доступен в PATH
-    - Можно скачать с: https://www.nuget.org/downloads
-    - Или установить через: winget install Microsoft.NuGet
-
-ПРИМЕРЫ:
-    .\build.ps1                    # Сборка с текущей версией
-    .\build.ps1 -Version "2025.3.0.5"  # Сборка с указанной версией
-    .\build.ps1 -Output "C:\packages"  # Сборка в указанную папку
-    .\build.ps1 -Help              # Показать справку
-
-КОМАНДА ПАКЕТИРОВАНИЯ:
-    nuget pack "BaHooo.ReSharper.I18n.ru.nuspec" -OutputDirectory "artifacts" -NoDefaultExcludes
-
-ПУТИ:
-    Скрипт использует следующие пути (относительно своего расположения):
-    - .nuspec файл:              BaHooo.ReSharper.I18n.ru.nuspec
-    - Ресурсы:                   ..\..\build\resources
-    - Выходная папка:            artifacts (по умолчанию)
-    - Временные ресурсы:         DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n
-"@
 }

@@ -405,7 +405,7 @@ $Script:Config = @{
     NoResgenAlias = $NoResgenAlias
     BuildOnly = $BuildOnly
     BuildOnlyAlias = $BuildOnlyAlias
-	VersionAlreadyUpdated = $false  # Флаг: версия уже обновлена в этом запуске
+    VersionAlreadyUpdated = $false  # Флаг: версия уже обновлена в этом запуске
     SyncVersions = $SyncVersions
     SyncVersionsAlias = $SyncVersionsAlias
     SkipVersionUpdate = $SkipVersionUpdate
@@ -1216,37 +1216,37 @@ function Convert-FilesParallel {
                 }
             }
             # Логируем в общий файл (с блокировкой для безопасности)
-			try {
-				# Формируем блок с заголовком
-				$logBlock = @(
-					"=== [$fileName] ===",
-					"Input:  $($f.FullName)",
-					"Output: $outputPath", 
-					"Time:   $(Get-Date -Format 'HH:mm:ss')",
-					""
-				)
-				
-				# Добавляем вывод ResGen
-				if ($result) {
-					$logBlock += $result
-				}
-				$logBlock += ""  # Пустая строка между файлами
-				
-				# Атомарная запись всего блока
-				$logContent = $logBlock -join "`n"
-				[System.IO.File]::AppendAllText($logFile, $logContent + "`n", [System.Text.Encoding]::UTF8)
-			}
-			catch {
-				# Игнорируем ошибки логирования в параллельном режиме
-			}
+            try {
+                # Формируем блок с заголовком
+                $logBlock = @(
+                    "=== [$fileName] ===",
+                    "Input:  $($f.FullName)",
+                    "Output: $outputPath", 
+                    "Time:   $(Get-Date -Format 'HH:mm:ss')",
+                    ""
+                )
+                
+                # Добавляем вывод ResGen
+                if ($result) {
+                    $logBlock += $result
+                }
+                $logBlock += ""  # Пустая строка между файлами
+                
+                # Атомарная запись всего блока
+                $logContent = $logBlock -join "`n"
+                [System.IO.File]::AppendAllText($logFile, $logContent + "`n", [System.Text.Encoding]::UTF8)
+            }
+            catch {
+                # Игнорируем ошибки логирования в параллельном режиме
+            }
         }
         
         # Вывод в консоль (может быть не в порядке файлов, но это ок для параллелизма)
-		if ($success) {
-			Write-Host "  [✓] $fileName" -ForegroundColor Green
-		} else {
-			Write-Host "  [!] $fileName" -ForegroundColor Red
-		}
+        if ($success) {
+            Write-Host "  [✓] $fileName" -ForegroundColor Green
+        } else {
+            Write-Host "  [!] $fileName" -ForegroundColor Red
+        }
         
         return @{
             Success = $success
@@ -1746,25 +1746,25 @@ function Invoke-ResgenConversionStage {
         $stats = Convert-FilesSequential -Files $changes.FilesToConvert -OutputDir $Script:Config.ResourcesOutput -ResGenPath $Script:Config.ResGenPath
     }
     $elapsed = $stats.Elapsed
-	$totalFiles = $changes.FilesToConvert.Count
-	if ($Script:Config.MaxThreads -gt 1) {
-		$modeText = 'Потоков: ' + $Script:Config.MaxThreads
-	} else {
-		$modeText = 'однопоточный'
-	}
+    $totalFiles = $changes.FilesToConvert.Count
+    if ($Script:Config.MaxThreads -gt 1) {
+        $modeText = 'Потоков: ' + $Script:Config.MaxThreads
+    } else {
+        $modeText = 'однопоточный'
+    }
 
-	Write-Host ""
-	Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
-	Write-Host "  ИТОГИ КОНВЕРТАЦИИ ($modeText)" -ForegroundColor Cyan
-	Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
-	Write-Host "  Файлов обработано: $totalFiles" -ForegroundColor White
-	Write-Host "  Успешно:           $($stats.Success)" -ForegroundColor $(if($stats.Success -eq $totalFiles){'Green'}else{'Yellow'})
-	Write-Host "  Ошибок:            $($stats.Errors)" -ForegroundColor $(if($stats.Errors -eq 0){'Green'}else{'Red'})
-	Write-Host "  Всего ресурсов:    $($stats.TotalResources)" -ForegroundColor Gray
-	Write-Host "  Время:             $($elapsed.TotalSeconds.ToString('F2')) сек." -ForegroundColor Gray
-	Write-Host "  Скорость:          $([math]::Round($totalFiles / $elapsed.TotalSeconds, 2)) файлов/сек." -ForegroundColor Gray
-	Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
-	Write-Host ""
+    Write-Host ""
+    Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+    Write-Host "  ИТОГИ КОНВЕРТАЦИИ ($modeText)" -ForegroundColor Cyan
+    Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+    Write-Host "  Файлов обработано: $totalFiles" -ForegroundColor White
+    Write-Host "  Успешно:           $($stats.Success)" -ForegroundColor $(if($stats.Success -eq $totalFiles){'Green'}else{'Yellow'})
+    Write-Host "  Ошибок:            $($stats.Errors)" -ForegroundColor $(if($stats.Errors -eq 0){'Green'}else{'Red'})
+    Write-Host "  Всего ресурсов:    $($stats.TotalResources)" -ForegroundColor Gray
+    Write-Host "  Время:             $($elapsed.TotalSeconds.ToString('F2')) сек." -ForegroundColor Gray
+    Write-Host "  Скорость:          $([math]::Round($totalFiles / $elapsed.TotalSeconds, 2)) файлов/сек." -ForegroundColor Gray
+    Write-Host "  ═════════════════════════════════════════════════════════════" -ForegroundColor Cyan
+    Write-Host ""
 
     if ($stats.Errors -gt 0 -and -not $Script:Config.SkipBuild) {
         $answer = Read-Host "`nПродолжить сборку несмотря на ошибки? (y/N)"
