@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActionCantInsertInvalidAnchor" xml:space="preserve">
+    <value>Не удалось вставить действия: якорное действие не существует</value>
+  </data>
+  <data name="UpdFree" xml:space="preserve">
+    <value>бесплатно</value>
+  </data>
+  <data name="ActionCantInsertCantLoad" xml:space="preserve">
+    <value>Не удалось вставить действие в группу: действие не загрузилось</value>
+  </data>
+  <data name="UpdThisUpdateInstallsInstalls" xml:space="preserve">
+    <value>устанавливает</value>
+  </data>
+  <data name="ExceptionBrowserForm_Please_Describe" xml:space="preserve">
+    <value>&amp;Опишите, что вы делали в момент возникновения исключения (пример: пытался открыть решение из 6 проектов с BizTalk-проектами):</value>
+  </data>
+  <data name="ActionCantInsertConflictingAnchor" xml:space="preserve">
+    <value>Не удалось вставить действия: указано якорное действие, конфликтующее со значением относительного позиционирования</value>
+  </data>
+  <data name="UpdAreNewProductVersionsAvailable" xml:space="preserve">
+    <value>Доступны новые версии {0}</value>
+  </data>
+  <data name="ActionCantLoad" xml:space="preserve">
+    <value>Не удалось загрузить действие продукта {0}</value>
+  </data>
+  <data name="SubmittedView_Initialize_Result" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="ActionCantInsertInvalidRelativePosition" xml:space="preserve">
+    <value>Не удалось вставить действия: недопустимое значение относительного позиционирования</value>
+  </data>
+  <data name="JetPopupMenuMainThread" xml:space="preserve">
+    <value>Всплывающее меню можно использовать только в потоке UI</value>
+  </data>
+  <data name="ExceptionBrowserForm_Submit_Selected" xml:space="preserve">
+    <value>&amp;Отправить</value>
+  </data>
+  <data name="UpdKindService" xml:space="preserve">
+    <value>сервисное обновление</value>
+  </data>
+  <data name="ActionCantInsertIntoNonGroupAction" xml:space="preserve">
+    <value>Не удалось вставить действия: идентификатор целевого действия принадлежит действию, не являющемуся группой действий</value>
+  </data>
+  <data name="UpdIsNewPluginVersionAvailable" xml:space="preserve">
+    <value>Доступна новая версия плагина</value>
+  </data>
+  <data name="ExceptionBrowserForm_Copy_URL" xml:space="preserve">
+    <value>Копировать URL</value>
+  </data>
+  <data name="UpdKindGeneric" xml:space="preserve">
+    <value>обновление</value>
+  </data>
+  <data name="UpdDownloadLink" xml:space="preserve">
+    <value>Скачать</value>
+  </data>
+  <data name="ActionCantInsertMissingAnchor" xml:space="preserve">
+    <value>Не удалось вставить действия: не указано якорное действие, требуемое значением относительного позиционирования</value>
+  </data>
+  <data name="ActionUnnamedXmlElementName" xml:space="preserve">
+    <value>Безымянный элемент &lt;{0}&gt;</value>
+  </data>
+  <data name="MenuAlreadyVisible" xml:space="preserve">
+    <value>Меню уже отображается</value>
+  </data>
+  <data name="ExceptionBrowserForm_Message" xml:space="preserve">
+    <value>Сообщение:</value>
+  </data>
+  <data name="ExceptionBrowserForm_Forget" xml:space="preserve">
+    <value>Забыть</value>
+  </data>
+  <data name="ExceptionBrowserForm_Remove_Selected" xml:space="preserve">
+    <value>&amp;Удалить</value>
+  </data>
+  <data name="ExceptionBrowserForm_Mute_Selected" xml:space="preserve">
+    <value>&amp;Игнорировать</value>
+  </data>
+  <data name="ExceptionBrowserForm_Close" xml:space="preserve">
+    <value>&amp;Закрыть</value>
+  </data>
+  <data name="UpdIsNewProductVersionAvailable" xml:space="preserve">
+    <value>Доступна новая версия {0}</value>
+  </data>
+  <data name="NoItemsCaseShouldHaveBeenCutOffEarlier" xml:space="preserve">
+    <value>Случай отсутствия элементов должен был быть отсечён ранее</value>
+  </data>
+  <data name="UpdNoUpdatesAvailableForProduct" xml:space="preserve">
+    <value>Для {0} нет доступных обновлений</value>
+  </data>
+  <data name="UpdUntitledUpdate" xml:space="preserve">
+    <value>Без названия</value>
+  </data>
+  <data name="MenuItemKeyMustBeNonNull" xml:space="preserve">
+    <value>Ключ элемента меню должен быть задан</value>
+  </data>
+  <data name="UpdUnknownCompany" xml:space="preserve">
+    <value>Неизвестная компания</value>
+  </data>
+  <data name="PendingView_Initialize_When_Happened" xml:space="preserve">
+    <value>Когда произошло</value>
+  </data>
+  <data name="ActionCantInsertAnchorNotInGroup" xml:space="preserve">
+    <value>Не удалось вставить действия: якорное действие не входит в группу, в которую выполняется вставка</value>
+  </data>
+  <data name="PendingView_Initialize_Error_Summary" xml:space="preserve">
+    <value>Сводка</value>
+  </data>
+  <data name="ExceptionBrowserForm_Copy_To_Clipboard" xml:space="preserve">
+    <value>Копировать в буфер обмена</value>
+  </data>
+  <data name="UpdKindFeatures" xml:space="preserve">
+    <value>функциональный релиз</value>
+  </data>
+  <data name="UpdProductUpdates" xml:space="preserve">
+    <value>Обновления {0}</value>
+  </data>
+  <data name="UpdReadMoreLink" xml:space="preserve">
+    <value>Подробнее</value>
+  </data>
+  <data name="ExceptionBrowserForm_Created_new_issue" xml:space="preserve">
+    <value>Создана новая задача</value>
+  </data>
+  <data name="ExceptionBrowserForm_Do_Not_Show" xml:space="preserve">
+    <value>Не показывать это окно после отправки исключений</value>
+  </data>
+  <data name="UpdKindPreview" xml:space="preserve">
+    <value>предварительная сборка</value>
+  </data>
+  <data name="UpdAreNewPluginVersionsAvailable" xml:space="preserve">
+    <value>Доступны новые версии плагинов</value>
+  </data>
+  <data name="ExceptionBrowserForm_Double_Click" xml:space="preserve">
+    <value>Дважды щёлкните элемент, чтобы открыть соответствующую задачу в веб-браузере, или нажмите Enter</value>
+  </data>
+  <data name="UpdAllowDownloadCheckbox" xml:space="preserve">
+    <value>Загружать список доступных обновлений из интернета</value>
+  </data>
+  <data name="ExceptionBrowserForm_Please_Note" xml:space="preserve">
+    <value>Обратите внимание: исключения отправляются в публичный трекер JetBrains, доступный всем</value>
+  </data>
+  <data name="UpdThisUpdateInstallsPre" xml:space="preserve">
+    <value>Это</value>
+  </data>
+  <data name="SubmittedView_Initialize_Issue_Key" xml:space="preserve">
+    <value>Ключ задачи</value>
+  </data>
+  <data name="SubmittedView_Initialize_Submitted" xml:space="preserve">
+    <value>Отправлено</value>
+  </data>
+  <data name="UpdNoUpdatesAvailable" xml:space="preserve">
+    <value>Нет доступных обновлений</value>
+  </data>
+  <data name="UpdUnidentifiedProduct" xml:space="preserve">
+    <value>Неопознанный продукт</value>
+  </data>
+  <data name="JetPopupMenuNoItemsBanner" xml:space="preserve">
+    <value>В этом меню нет элементов для отображения</value>
+  </data>
+  <data name="UpdPluginUpdates" xml:space="preserve">
+    <value>Обновления плагинов</value>
+  </data>
+  <data name="UpdAllowDownloadComment" xml:space="preserve">
+    <value>На сервер не передаётся информация, позволяющая установить личность</value>
+  </data>
+  <data name="ActionCantInsertIntoNonexistentGroup" xml:space="preserve">
+    <value>Не удалось вставить действия: целевой группы действий не существует</value>
+  </data>
+  <data name="UpdEstimatedPrice" xml:space="preserve">
+    <value>Ориентировочная цена</value>
+  </data>
+</root>

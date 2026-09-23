@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ReinstallProjectPackage" xml:space="preserve">
+    <value>Переустановка '{0}' в проекте '{1}'</value>
+  </data>
+  <data name="TemplateWizard_ErrorDialogTitle" xml:space="preserve">
+    <value>Ошибка установки пакета</value>
+  </data>
+  <data name="Debug_RemovedFolder" xml:space="preserve">
+    <value>Удалена папка '{0}'</value>
+  </data>
+  <data name="Dialog_DisclaimerText" xml:space="preserve">
+    <value>Каждое расширение лицензируется вам его владельцем. JetBrains не отвечает за сторонние расширения и не выдаёт лицензии на них.</value>
+  </data>
+  <data name="Debug_RemovedFile" xml:space="preserve">
+    <value>Удалён файл '{0}'</value>
+  </data>
+  <data name="Warning_NoExactMatchForReference" xml:space="preserve">
+    <value>Точное совпадение для удаления ссылки '{0}' не найдено. Выполняется поиск без учёта регистра…</value>
+  </data>
+  <data name="PackageSource_Invalid" xml:space="preserve">
+    <value>Источник расширений не входит в коллекцию доступных источников</value>
+  </data>
+  <data name="Warning_PackageNotReferencedByAnyProject" xml:space="preserve">
+    <value>Расширение {0} версии {1} не используется ни одним продуктом</value>
+  </data>
+  <data name="TemplateWizard_MissingRegistryKeyName" xml:space="preserve">
+    <value>Шаблон проекта настроен на использование репозитория пакетов из реестра, но имя параметра реестра не указано. Используйте атрибут 'keyName', чтобы задать имя параметра реестра.</value>
+  </data>
+  <data name="FailedToAddReference" xml:space="preserve">
+    <value>Не удалось добавить ссылку на '{0}'</value>
+  </data>
+  <data name="IgnoreUpgrade" xml:space="preserve">
+    <value>Пока игнорировать</value>
+  </data>
+  <data name="UnknownPackageInProject" xml:space="preserve">
+    <value>Не удалось найти расширение '{0}' в '{1}'</value>
+  </data>
+  <data name="Warning_FileAlreadyExists" xml:space="preserve">
+    <value>'{0}' уже существует. Пропуск…</value>
+  </data>
+  <data name="OfficialSourceName" xml:space="preserve">
+    <value>Официальный источник пакетов NuGet</value>
+  </data>
+  <data name="DTE_InvalidProject" xml:space="preserve">
+    <value>Недопустимый проект</value>
+  </data>
+  <data name="TemplateWizard_InvalidWizardRunKind" xml:space="preserve">
+    <value>Этот мастер шаблонов применим только к шаблонам отдельных проектов или элементов проектов</value>
+  </data>
+  <data name="TemplateWizard_ExtensionManagerError" xml:space="preserve">
+    <value>Ошибка доступа к диспетчеру расширений</value>
+  </data>
+  <data name="Warning_DirectoryNotEmpty" xml:space="preserve">
+    <value>Каталог '{0}' не пуст. Пропуск…</value>
+  </data>
+  <data name="Debug_AddedFileToProject" xml:space="preserve">
+    <value>Файл '{0}' добавлен в проект '{1}'</value>
+  </data>
+  <data name="SolutionDirectoryNotAvailable" xml:space="preserve">
+    <value>Не удалось найти каталог решения. Убедитесь, что решение сохранено.</value>
+  </data>
+  <data name="TemplateWizard_PackageInstallStatus" xml:space="preserve">
+    <value>Добавление {0}.{1} в проект…</value>
+  </data>
+  <data name="PackageRestoreWaitMessage" xml:space="preserve">
+    <value>Настройка продукта для восстановления расширений при запуске…</value>
+  </data>
+  <data name="Warning_FailedToFindMatchForRemoveReference" xml:space="preserve">
+    <value>Не найдено совпадение для удаления ссылки '{0}'</value>
+  </data>
+  <data name="DialogTitle" xml:space="preserve">
+    <value>Диспетчер расширений</value>
+  </data>
+  <data name="PackageRestoreSkipForProject" xml:space="preserve">
+    <value>Пропущена переустановка расширения '{0}' в продукте '{1}': расширение отсутствует в источнике расширений</value>
+  </data>
+  <data name="PackageCannotBeRemovedBecauseItIsInUse" xml:space="preserve">
+    <value>'{0}' нельзя удалить, так как он используется в '{1}'</value>
+  </data>
+  <data name="TemplateWizard_InvalidRepositoryAttribute" xml:space="preserve">
+    <value>Атрибут 'repository' элемента package имеет недопустимое значение: '{0}'. Допустимые значения: 'template' или 'extension'.</value>
+  </data>
+  <data name="PackageNotInstalledInAnyProject" xml:space="preserve">
+    <value>'{0}' не установлен ни в одном проекте. Обновление не выполнено.</value>
+  </data>
+  <data name="FailedToRemoveReference" xml:space="preserve">
+    <value>Поиск без учёта регистра ссылки '{0}' для удаления вернул более одного совпадения. Запрос невозможно выполнить.</value>
+  </data>
+  <data name="UnableToFindPackageFromSource" xml:space="preserve">
+    <value>Не удалось найти расширение '{0}' версии '{1}' в источнике '{2}'</value>
+  </data>
+  <data name="NoUpdatesAvailable" xml:space="preserve">
+    <value>Для '{0}' нет доступных обновлений</value>
+  </data>
+  <data name="FailedToAddGacReference" xml:space="preserve">
+    <value>Не удалось добавить ссылку на '{0}'. Убедитесь, что сборка находится в глобальном кэше сборок (GAC).</value>
+  </data>
+  <data name="TemplateWizard_InvalidExtensionId" xml:space="preserve">
+    <value>Шаблон проекта ссылается на отсутствующее расширение. Не удалось найти расширение с идентификатором '{0}'.</value>
+  </data>
+  <data name="Console_InitializeHostFails" xml:space="preserve">
+    <value>Не удалось инициализировать узел PowerShell. Если для политики выполнения PowerShell задано значение AllSigned, сначала откройте консоль диспетчера пакетов, чтобы инициализировать узел.</value>
+  </data>
+  <data name="PackageRestoreConfirmation" xml:space="preserve">
+    <value>Настроить этот продукт на загрузку и восстановление отсутствующих расширений?</value>
+  </data>
+  <data name="Debug_AddReference" xml:space="preserve">
+    <value>Ссылка '{0}' добавлена в проект '{1}'</value>
+  </data>
+  <data name="PackageRestoreSkipForSolution" xml:space="preserve">
+    <value>Пропущена переустановка расширения '{0}': расширение отсутствует в источнике расширений</value>
+  </data>
+  <data name="Debug_RemovedFileFromFolder" xml:space="preserve">
+    <value>Файл '{0}' удалён из папки '{1}'</value>
+  </data>
+  <data name="Warning_RollingBack" xml:space="preserve">
+    <value>Сбой установки. Выполняется откат…</value>
+  </data>
+  <data name="NoActivePackageSource" xml:space="preserve">
+    <value>Не удалось получить список расширений: не указан источник</value>
+  </data>
+  <data name="PackageRestoreErrorMessage" xml:space="preserve">
+    <value>Произошла ошибка при настройке продукта на восстановление расширений при запуске</value>
+  </data>
+  <data name="PackageRestoreProgressMessage" xml:space="preserve">
+    <value>Загрузка отсутствующих расширений…</value>
+  </data>
+  <data name="UnknownPackage" xml:space="preserve">
+    <value>Не удалось найти расширение '{0}'</value>
+  </data>
+  <data name="ProjectNotSpecified" xml:space="preserve">
+    <value>Проект не указан</value>
+  </data>
+  <data name="RestoreButtonLabel" xml:space="preserve">
+    <value>_Восстановить</value>
+  </data>
+  <data name="FileConflictTitle" xml:space="preserve">
+    <value>Конфликт файлов</value>
+  </data>
+  <data name="Warning_FailedToAddBindingRedirects" xml:space="preserve">
+    <value>Не удалось создать перенаправления привязок для '{0}'. {1}</value>
+  </data>
+  <data name="Debug_RemoveReference" xml:space="preserve">
+    <value>Ссылка '{0}' удалена из проекта '{1}'</value>
+  </data>
+  <data name="RestartNow" xml:space="preserve">
+    <value>Перезапустить сейчас</value>
+  </data>
+  <data name="AggregateSourceName" xml:space="preserve">
+    <value>Все</value>
+  </data>
+  <data name="Warning_FailedToDeleteMarkedPackageDirectory" xml:space="preserve">
+    <value>Не удалось удалить каталог расширения '{0}', помеченный для удаления при перезапуске приложения</value>
+  </data>
+  <data name="TemplateWizard_InvalidPackageElementAttributes" xml:space="preserve">
+    <value>Шаблон проекта содержит один или несколько пакетов с отсутствующими, пустыми или недопустимыми значениями атрибутов 'id' или 'version'. Оба атрибута обязательны и должны иметь корректные значения.</value>
+  </data>
+  <data name="Console_HelpText" xml:space="preserve">
+    <value>Введите 'get-help NuGet', чтобы увидеть все доступные команды NuGet</value>
+  </data>
+  <data name="Warning_FailedToMarkPackageDirectoryForDeletion" xml:space="preserve">
+    <value>Не удалось пометить каталог расширения '{0}' для удаления при перезапуске приложения: {1}</value>
+  </data>
+  <data name="Console_DisclaimerText" xml:space="preserve">
+    <value>Каждое расширение лицензируется вам его владельцем. JetBrains не отвечает за сторонние расширения и не выдаёт лицензии на них. Некоторые расширения могут включать зависимости, регулируемые дополнительными лицензиями. Перейдите по URL-адресу источника расширений (канала), чтобы определить зависимости.</value>
+  </data>
+  <data name="Log_PackageAlreadyInstalled" xml:space="preserve">
+    <value>'{0}' уже установлен</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>Сбой операции</value>
+  </data>
+  <data name="PackageUpdatedSuccessfully" xml:space="preserve">
+    <value>'{0}' успешно обновлён</value>
+  </data>
+  <data name="RequestRestartToCompleteUninstall" xml:space="preserve">
+    <value>Чтобы изменения вступили в силу, необходимо перезапустить приложение. Требуют перезапуска следующие расширения: {0}.</value>
+  </data>
+  <data name="DoNotRemindAgain" xml:space="preserve">
+    <value>Больше не показывать</value>
+  </data>
+  <data name="AmbiguousUpdate" xml:space="preserve">
+    <value>Не удалось обновить '{0}': установлено несколько версий.</value>
+  </data>
+  <data name="AmbiguousUninstall" xml:space="preserve">
+    <value>Установлено несколько версий '{0}'. Укажите версию.</value>
+  </data>
+  <data name="VisualStudioExpressForWindows8SourceName" xml:space="preserve">
+    <value>Пакеты Windows 8</value>
+  </data>
+  <data name="TemplateWizard_InvalidRegistryValue" xml:space="preserve">
+    <value>Шаблон проекта ссылается на отсутствующий параметр реестра. Не удалось найти раздел реестра с именем '{0}' в '{1}'.</value>
+  </data>
+  <data name="DTE_ProjectUnsupported" xml:space="preserve">
+    <value>Проект '{0}' не поддерживается</value>
+  </data>
+  <data name="TemplateWizard_VersionConflict" xml:space="preserve">
+    <value>Попытка установить версию '{1}' пакета '{0}', но проект уже содержит другую версию. Пропуск…</value>
+  </data>
+  <data name="TemplateWizard_MissingExtensionId" xml:space="preserve">
+    <value>Шаблон проекта настроен на использование репозитория пакетов, специфичного для расширения, но идентификатор расширения не указан. Используйте атрибут 'repositoryId', чтобы задать идентификатор расширения.</value>
+  </data>
+  <data name="ShowDetails" xml:space="preserve">
+    <value>Показать подробности</value>
+  </data>
+  <data name="TemplateWizard_FailedToInstallPackage" xml:space="preserve">
+    <value>Не удалось добавить все необходимые расширения в продукт. Следующие расширения не установились из '{0}':</value>
+  </data>
+  <data name="TemplateWizard_RegistryKeyError" xml:space="preserve">
+    <value>Шаблон проекта настроен на использование репозитория пакетов из реестра, но произошла ошибка доступа к разделу реестра '{0}'</value>
+  </data>
+  <data name="PackageRestoreDownloadPackageFailed" xml:space="preserve">
+    <value>Не удалось загрузить расширение '{0}'</value>
+  </data>
+  <data name="ReinstallSolutionPackage" xml:space="preserve">
+    <value>Переустановка '{0}'</value>
+  </data>
+  <data name="AskForUpdateMessage" xml:space="preserve">
+    <value>Доступна новая версия диспетчера пакетов NuGet</value>
+  </data>
+  <data name="ExecutingScript" xml:space="preserve">
+    <value>Выполняется файл сценария '{0}'</value>
+  </data>
+  <data name="ErrorReadingFile" xml:space="preserve">
+    <value>Ошибка чтения '{0}'</value>
+  </data>
+  <data name="AskForRestoreMessage" xml:space="preserve">
+    <value>В этом продукте отсутствуют некоторые расширения. Нажмите, чтобы восстановить.</value>
+  </data>
+  <data name="Warning_FailedToDeleteMarkedPackageDirectories" xml:space="preserve">
+    <value>Не удалось удалить каталоги расширений, помеченные для удаления при перезапуске приложения: {0}</value>
+  </data>
+  <data name="AmbiguousProjectLevelUninstal" xml:space="preserve">
+    <value>Не удалось найти '{0}' в '{1}', при этом установлено несколько версий '{0}'. Укажите версию.</value>
+  </data>
+  <data name="SolutionNotAvailable" xml:space="preserve">
+    <value>В текущей среде не загружено ни одно решение</value>
+  </data>
+  <data name="PackageRestoreErrorTryAgain" xml:space="preserve">
+    <value>Произошла ошибка при попытке восстановить расширения. Повторите попытку.</value>
+  </data>
+  <data name="PackageRestoreCompleted" xml:space="preserve">
+    <value>Настройка продукта на восстановление расширений при запуске завершена</value>
+  </data>
+</root>
