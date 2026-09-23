@@ -6166,7 +6166,7 @@
     <value>Не-универсальная структура</value>
 </data>
 <data name="UseUnsignedRightShiftOperator" xml:space="preserve">
-    <value>Использовать оператор беззнакового右 shift '&gt;&gt;&gt;'</value>
+    <value>Использовать оператор беззнакового сдвига вправо '&gt;&gt;&gt;'</value>
 </data>
 <data name="_IsDeclaredInTheFollowingReferenced_Text" xml:space="preserve">
     <value>{0} объявлен в следующих referenced сборках:</value>
@@ -9707,7 +9707,7 @@
     <value>Избыточный вызов базового конструктора</value>
   </data>
   <data name="UseUnsignedRightShiftOperatorInsteadOfManualCasting" xml:space="preserve">
-    <value>Использовать оператор беззнакового右 shift '&gt;&gt;&gt;' вместо ручного приведения и сдвига</value>
+    <value>Использовать оператор беззнакового сдвига вправо '&gt;&gt;&gt;' вместо ручного приведения и сдвига</value>
   </data>
   <data name="StringEscapeSequenceEscapeUnavailableMessage" xml:space="preserve">
     <value>Функция «Escape-последовательность строки» недоступна. Используйте версию языка {0}.</value>

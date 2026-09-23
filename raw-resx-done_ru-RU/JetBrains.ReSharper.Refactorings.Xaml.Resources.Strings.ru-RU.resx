@@ -124,7 +124,7 @@
   <value>Не удалось сослаться на извлеченный ресурс после извлечения (ресурс может быть скрыт)</value>
 </data>
 <data name="ExistingResource0ReferenceWillBeHiddenByExtractedResource_Text" xml:space="preserve">
-  <value>Существующая ссылка на ресурс {0} будет скрыта извлеченным ресурсом</value>
+  <value>Существующая ссылка на ресурс {0, reference} будет скрыта извлеченным ресурсом</value>
 </data>
 <data name="InitializingRefactoring_Text" xml:space="preserve">
   <value>Инициализация рефакторинга</value>
@@ -157,7 +157,7 @@
   <value>Куда переместить ресурс</value>
 </data>
 <data name="Resource0UsageInsideDeclaration_Text" xml:space="preserve">
-  <value>Использование ресурса {0} внутри объявления</value>
+  <value>Ресурс {0,usage} внутри объявления</value>
 </data>
 <data name="ExtractingProperties_Text" xml:space="preserve">
   <value>Извлечение свойств...</value>
@@ -221,7 +221,7 @@
   <value>Тип ресурса:</value>
 </data>
 <data name="ExistingResource0ReferenceWillBeHidden_Text" xml:space="preserve">
-  <value>Существующая ссылка на ресурс {0} будет скрыта перемещенным ресурсом</value>
+  <value>Существующая ссылка на ресурс {0, reference} будет скрыта перемещенным ресурсом</value>
 </data>
 <data name="CreateNewStyle_Text" xml:space="preserve">
   <value>&lt;Создать новый стиль&gt;</value>

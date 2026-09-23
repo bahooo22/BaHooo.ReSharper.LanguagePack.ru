@@ -583,7 +583,7 @@
     <value>Добавить другой аксессор</value>
 </data>
 <data name="RemoveRedundantAttribute_Text" xml:space="preserve">
-    <value>Удалить избыточный атрибут [{0}]</value>
+    <value>Удалить избыточный атрибут</value>
 </data>
 <data name="CreateGetOnlyProperty__Text" xml:space="preserve">
     <value>Создать свойство только для чтения '{0}'</value>

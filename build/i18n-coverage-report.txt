@@ -1,0 +1,248 @@
+﻿=== Аудит покрытия локализации: G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025 ===
+Дата: 2026-09-24 01:45
+
+DLL просканировано:        626
+  не удалось загрузить:    2
+Neutral .resources всего:  340
+Файлов в пакете (resx):    236
+Задеплоено в i18n:         236
+
+ПОКРЫТО ПАКЕТОМ:  175 из 340
+ОТСУТСТВУЕТ В ПАКЕТЕ: 165
+В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 61
+Задеплоено лишнего (нет в resx): 0
+Есть в resx, но не задеплоено: 0
+
+--- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер) ---
+[Strings] JetBrains.DPA.Ide.VS.Resources.Strings.resources | JetBrains.DPA.Ide.VS.dll | 746
+[Strings] JetBrains.Profiler.Windows.Resources.Strings.resources | JetBrains.Profiler.Windows.Impl.dll | 2488
+[Strings] JetBrains.ReSharper.UnitTestProvider.MSTest12.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest12.dll | 709
+[Strings] JetBrains.ReSharper.UnitTestProvider.MSTest14.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest14.dll | 709
+[Strings] JetBrains.ReSharper.UnitTestProvider.MSTest15.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest15.dll | 709
+[Strings] JetBrains.Standalone.TabWell.Resources.Strings.resources | JetBrains.Platform.Standalone.TabWell.dll | 988
+[Strings] Microsoft.Extensions.FileSystemGlobbing.Resources.Strings.resources | Microsoft.Extensions.FileSystemGlobbing.dll | 602
+[Strings] NuGet.Commands.Strings.resources | NuGet.Commands.dll | 41706
+[Strings] NuGet.Common.Strings.resources | NuGet.Common.dll | 2103
+[Strings] NuGet.DependencyResolver.Strings.resources | NuGet.DependencyResolver.Core.dll | 807
+[Strings] NuGet.Frameworks.Strings.resources | NuGet.Frameworks.dll | 1160
+[Strings] NuGet.LibraryModel.Strings.resources | NuGet.LibraryModel.dll | 325
+[Strings] NuGet.PackageManagement.Strings.resources | NuGet.PackageManagement.dll | 13153
+[Strings] NuGet.Packaging.Strings.resources | NuGet.Packaging.dll | 31394
+[Strings] NuGet.ProjectModel.Strings.resources | NuGet.ProjectModel.dll | 4709
+[Strings] NuGet.Protocol.Strings.resources | NuGet.Protocol.dll | 15233
+[Strings] NuGet.Resolver.Strings.resources | NuGet.Resolver.dll | 2014
+[other]   System.Reactive.Platforms.Windows.Strings_WindowsThreading.resources | System.Reactive.dll | 419
+[other]   System.Reactive.Strings_Core.resources | System.Reactive.dll | 1411
+[other]   System.Reactive.Strings_Linq.resources | System.Reactive.dll | 2111
+[other]   System.Reactive.Strings_PlatformServices.resources | System.Reactive.dll | 336
+[other]   System.Reactive.Strings_Providers.resources | System.Reactive.dll | 506
+[other]   ActiproSoftware.Products.Docking.Resources.resources | ActiproSoftware.Docking.Wpf.dll | 5389
+[other]   ActiproSoftware.Products.PropertyGrid.Resources.resources | ActiproSoftware.PropertyGrid.Wpf.dll | 1367
+[other]   ActiproSoftware.Products.Shared.Resources.resources | ActiproSoftware.Shared.Wpf.dll | 579
+[other]   ActiproSoftware.Products.SyntaxEditor.Resources.resources | ActiproSoftware.SyntaxEditor.Wpf.dll | 22533
+[other]   ActiproSoftware.Products.Text.Resources.resources | ActiproSoftware.Text.Wpf.dll | 13196
+[other]   DevExpress.Data.Db.Messages.resources | DevExpress.Data.v7.1.dll | 2085
+[other]   DevExpress.Utils.About.AboutSN.resources | DevExpress.Utils.v7.1.dll | 5618
+[other]   DevExpress.Utils.About.frmAbout.resources | DevExpress.Utils.v7.1.dll | 526
+[other]   DevExpress.Utils.About.ProductInfo.resources | DevExpress.Utils.v7.1.dll | 220
+[other]   DevExpress.Utils.DemoBox.resources | DevExpress.Utils.v7.1.dll | 223
+[other]   DevExpress.Utils.Editors.ObjectEditor.resources | DevExpress.Utils.v7.1.dll | 180
+[other]   DevExpress.Utils.Frames.EmbeddedFrameInit.resources | DevExpress.Utils.v7.1.dll | 1451
+[other]   DevExpress.Utils.Frames.XtraFrame.resources | DevExpress.Utils.v7.1.dll | 954
+[other]   DevExpress.XtraEditors.Frames.AppearancesDesignerBase.resources | DevExpress.XtraEditors.v7.1.dll | 1624
+[other]   DevExpress.XtraEditors.Frames.AppearancesDesignerSimple.resources | DevExpress.XtraEditors.v7.1.dll | 234
+[other]   DevExpress.XtraEditors.LocalizationRes.resources | DevExpress.XtraEditors.v7.1.dll | 13441
+[other]   DevExpress.XtraTreeList.Blending.AlphaStyleEditor.resources | DevExpress.XtraTreeList.v7.1.dll | 231
+[other]   DevExpress.XtraTreeList.Blending.Preview.resources | DevExpress.XtraTreeList.v7.1.dll | 1076
+[other]   DevExpress.XtraTreeList.Dragging.DragMaster.resources | DevExpress.XtraTreeList.v7.1.dll | 180
+[other]   DevExpress.XtraTreeList.Frames.TreeListPrinting.resources | DevExpress.XtraTreeList.v7.1.dll | 77192
+[other]   DevExpress.XtraTreeList.LocalizationRes.resources | DevExpress.XtraTreeList.v7.1.dll | 2570
+[other]   dt.AqHz.resources | yWorks.yFilesWPF.Complete.dll | 4435
+[other]   dt.IqlN.resources | yWorks.yFilesWPF.Complete.dll | 10164
+[other]   EditorFormats.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1000471
+[other]   ExceptionStringTable.resources | System.Windows.Interactivity.dll, WPFToolkit.dll | 2741
+[other]   JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922
+[other]   JetBrains.Application.Res.StringTable.resources | JetBrains.Platform.Shell.dll | 6013
+[other]   JetBrains.Application.Resources.VsResources.resources | JetBrains.Platform.Shell.dll | 10777
+[other]   JetBrains.Common.UI.WinForms.Src.TriStateTreeView.resources | JetBrains.Common.UI.WinForms.dll | 871
+[other]   JetBrains.dotMemory.GUI.Properties.Resources.resources | JetBrains.dotMemory.GUI.dll | 88617
+[other]   JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources | JetBrains.DotTrace.Ide.Core.Interface.dll | 495
+[other]   JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129
+[other]   JetBrains.dotTraceInstant.ViewModel.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.ViewModel.Interface.dll | 447
+[other]   JetBrains.dotTraceInstant.ViewModel.resources.Resources.resources | JetBrains.dotTraceInstant.ViewModel.dll | 180
+[other]   JetBrains.Platform.UIInteractive.Ide.Src.TreeBrowser.ExportTreeViewResources.resources | JetBrains.Platform.UIInteractive.Ide.dll | 180
+[other]   JetBrains.Platform.VisualStudio.AnyEnd.Resources.ReSharperPlatformImages.resources | JetBrains.Platform.VisualStudio.AnyEnd.dll | 1525445
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.DevExpressTreeControl.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.QuickSearchBox.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.TreeModelBrowserPanel.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.Naming.AdvancedNamingSettingsForm.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.Naming.EditNamingPolicyControl.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.Naming.EditUserRuleForm.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.ParameterInfo.InvocableControl.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.ParameterInfo.ParameterInfoControl.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.Features.Src.Altering.CodeCleanup.ProfileNameDialog.resources | JetBrains.PsiFeatures.UIInteractive.Features.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.LiveTemplates.Src.FieldsSelectionDialog.resources | JetBrains.PsiFeatures.UIInteractive.LiveTemplates.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.LiveTemplates.Src.TemplateChooserDialog.resources | JetBrains.PsiFeatures.UIInteractive.LiveTemplates.dll | 180
+[other]   JetBrains.PsiFeatures.UIInteractive.LiveTemplates.SrcView.TemplateEditor.TemplateTextEditor.resources | JetBrains.PsiFeatures.UIInteractive.LiveTemplates.dll | 180
+[other]   JetBrains.PsiFeatures.VisualStudio.Core.Resources.Clipart.PsiFeaturesVisualStudioClipart.resources | JetBrains.PsiFeatures.VisualStudio.Core.dll | 9464
+[other]   JetBrains.ReSharper.DebuggerVisualizers.resources.icons.DebuggerVisualizersIcons.resources | JetBrains.ReSharper.DebuggerVisualizers.dll | 1810
+[other]   JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 82355
+[other]   JetBrains.ReSharper.Feature.Services.Web.Resources.Html.HtmlResources.resources | JetBrains.ReSharper.Feature.Services.Web.dll | 356200
+[other]   JetBrains.ReSharper.Features.Altering.Src.CodeStyle.VB.VBFormattingStylePage.resources | JetBrains.ReSharper.Features.Altering.dll | 180
+[other]   JetBrains.ReSharper.LiveTemplates.Src.UI.ExtendedRichText.resources | JetBrains.ReSharper.LiveTemplates.dll | 180
+[other]   JetBrains.ReSharper.LiveTemplates.Src.UI.StringValueEntryForm.resources | JetBrains.ReSharper.LiveTemplates.dll | 180
+[other]   JetBrains.ReSharper.Plugins.Unity.CSharp.Psi.CodeStyle.AdditionalFileLayoutResources.resources | JetBrains.ReSharper.Plugins.Unity.dll | 8516
+[other]   JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources.resources | JetBrains.ReSharper.Psi.CSharp.dll | 25094
+[other]   JetBrains.ReSharper.Psi.Resources.W3CEntities.resources | JetBrains.ReSharper.Psi.dll | 19032
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.dlcdm.resources | JetBrains.ReSharper.Psi.Web.dll | 34934
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.dlcpolicy.resources | JetBrains.ReSharper.Psi.Web.dll | 77515
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.ipfs.resources | JetBrains.ReSharper.Psi.Web.dll | 6232
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.Microsoft.Office.Server.Search.resources | JetBrains.ReSharper.Psi.Web.dll | 15775
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.obaui.resources | JetBrains.ReSharper.Psi.Web.dll | 20900
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.osrv.resources | JetBrains.ReSharper.Psi.Web.dll | 1975
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.PpsAdminUIStrings.resources | JetBrains.ReSharper.Psi.Web.dll | 29338
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.PPSImportUtilityStrings.resources | JetBrains.ReSharper.Psi.Web.dll | 20560
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.SearchAdmin.resources | JetBrains.ReSharper.Psi.Web.dll | 15775
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.sllayout.resources | JetBrains.ReSharper.Psi.Web.dll | 1359
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.taxonomy.resources | JetBrains.ReSharper.Psi.Web.dll | 24530
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.VSRV.resources | JetBrains.ReSharper.Psi.Web.dll | 80367
+[other]   JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.xlsrv.resources | JetBrains.ReSharper.Psi.Web.dll | 6286
+[other]   JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources | JetBrains.ReSharper.Psi.Web.dll | 2211
+[other]   JetBrains.ReSharper.Refactorings.Src.Move.AdjustNamespaces.Impl.AdjustNamespacesPage.resources | JetBrains.ReSharper.NewRefactorings.dll | 180
+[other]   JetBrains.ReSharper.Resources.Resources.Clipart.ReSharperClipart.resources | JetBrains.ReSharper.Resources.dll | 180
+[other]   JetBrains.SignatureVerifier.Messages.resources | JetBrains.SignatureVerifier.dll | 718
+[other]   JetBrains.Standalone.TextControl.Src.TextControl.Syntax.SyntaxResources.SyntaxResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 70758
+[other]   JetBrains.Standalone.TextControl.Src.TextControl.Theming.ThemingResources.ThemingResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 4931
+[other]   JetBrains.UI.Resources.StringTable.resources | JetBrains.Platform.UIInteractive.Shell.dll | 6010
+[other]   JetBrains.UI.Src.Features.ExtensionManager.OptionsPages.PackageSourceEditorDialog.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Features.License.EvaluationExpirationControl.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Features.License.EvaluationFeedbackControl.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Features.License.JetWebBrowser.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Features.License.ProductBaseForm.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Features.License2.Conflict.LicenseConflictForm.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.WinForms.Controls.Dialogs.PromptWinForm.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.WinForms.Controls.TabStrip.TabStripControl.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
+[other]   JetBrains.UI.Src.Wpf.Effects.EffectsShaders.resources | JetBrains.Platform.UIInteractive.Shell.dll | 1308
+[other]   LocalizationRes.resources | DevExpress.Utils.v7.1.dll | 7064
+[other]   MahApps.Metro.Properties.Resources.resources | MahApps.Metro.dll | 180
+[other]   Microsoft.CodeAnalysis.AnalyzersResources.resources | Microsoft.CodeAnalysis.Features.dll | 14315
+[other]   Microsoft.CodeAnalysis.CodeAnalysisResources.resources | Microsoft.CodeAnalysis.dll | 23780
+[other]   Microsoft.CodeAnalysis.CodeFixesResources.resources | Microsoft.CodeAnalysis.Features.dll | 6686
+[other]   Microsoft.CodeAnalysis.CompilerExtensionsResources.resources | Microsoft.CodeAnalysis.Workspaces.dll | 5168
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpAnalyzersResources.resources | Microsoft.CodeAnalysis.CSharp.Features.dll | 11626
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpCodeFixesResources.resources | Microsoft.CodeAnalysis.CSharp.Features.dll | 4509
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpCompilerExtensionsResources.resources | Microsoft.CodeAnalysis.CSharp.Workspaces.dll | 1207
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpFeaturesResources.resources | Microsoft.CodeAnalysis.CSharp.Features.dll | 13664
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpResources.resources | Microsoft.CodeAnalysis.CSharp.dll | 409727
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpWorkspaceExtensionsResources.resources | Microsoft.CodeAnalysis.CSharp.Workspaces.dll | 180
+[other]   Microsoft.CodeAnalysis.CSharp.CSharpWorkspaceResources.resources | Microsoft.CodeAnalysis.CSharp.Workspaces.dll | 910
+[other]   Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScriptingResources.resources | Microsoft.CodeAnalysis.CSharp.Scripting.dll | 2114
+[other]   Microsoft.CodeAnalysis.Elfie.Resources.resources | Microsoft.CodeAnalysis.Elfie.dll | 2288
+[other]   Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.ExternalAccessAspNetCoreResources.resources | Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.dll | 180
+[other]   Microsoft.CodeAnalysis.FeaturesResources.resources | Microsoft.CodeAnalysis.Features.dll | 150731
+[other]   Microsoft.CodeAnalysis.LanguageServer.LanguageServerProtocolResources.resources | Microsoft.CodeAnalysis.LanguageServer.Protocol.dll | 1576
+[other]   Microsoft.CodeAnalysis.Sarif.SdkResources.resources | Sarif.dll | 10988
+[other]   Microsoft.CodeAnalysis.Scripting.ScriptingResources.resources | Microsoft.CodeAnalysis.Scripting.dll | 3107
+[other]   Microsoft.CodeAnalysis.VisualBasic.VBFeaturesResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 80545
+[other]   Microsoft.CodeAnalysis.VisualBasic.VBResources.resources | Microsoft.CodeAnalysis.VisualBasic.dll | 274012
+[other]   Microsoft.CodeAnalysis.VisualBasic.VBWorkspaceResources.resources | Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll | 9339
+[other]   Microsoft.CodeAnalysis.WorkspaceExtensionsResources.resources | Microsoft.CodeAnalysis.Workspaces.dll | 4289
+[other]   Microsoft.CodeAnalysis.WorkspacesResources.resources | Microsoft.CodeAnalysis.Workspaces.dll | 16286
+[other]   Microsoft.Deployment.Compression.Cab.Errors.resources | Microsoft.Deployment.Compression.Cab.dll | 1465
+[other]   Microsoft.Deployment.WindowsInstaller.Errors.resources | Microsoft.Deployment.WindowsInstaller.dll | 31461
+[other]   Microsoft.Owin.Host.HttpListener.Resources.resources | Microsoft.Owin.Host.HttpListener.dll | 407
+[other]   Microsoft.Owin.Hosting.App_Packages.Owin.Loader.LoaderResources.resources | Microsoft.Owin.Hosting.dll | 2133
+[other]   Microsoft.Owin.Hosting.Resources.resources | Microsoft.Owin.Hosting.dll | 1133
+[other]   Microsoft.Owin.Resources.resources | Microsoft.Owin.dll | 1739
+[other]   Microsoft.Owin.StaticFiles.Resources.resources | Microsoft.Owin.StaticFiles.dll | 894
+[other]   Microsoft.VisualStudio.SolutionPersistence.Errors.resources | Microsoft.VisualStudio.SolutionPersistence.dll | 3027
+[other]   Microsoft.VisualStudio.TestPlatform.Common.Resources.Resources.resources | Microsoft.VisualStudio.TestPlatform.Common.dll | 4645
+[other]   Microsoft.VisualStudio.TestPlatform.CommunicationUtilities.Resources.Resources.resources | Microsoft.TestPlatform.CommunicationUtilities.dll | 1321
+[other]   Microsoft.VisualStudio.TestPlatform.CoreUtilities.Resources.Resources.resources | Microsoft.TestPlatform.CoreUtilities.dll | 2062
+[other]   Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources.CommonResources.resources | Microsoft.VisualStudio.TestPlatform.ObjectModel.dll | 1041
+[other]   Microsoft.VisualStudio.TestPlatform.ObjectModel.Resources.Resources.resources | Microsoft.VisualStudio.TestPlatform.ObjectModel.dll | 7311
+[other]   Microsoft.VisualStudio.TestPlatform.Utilities.Resources.Resources.resources | Microsoft.TestPlatform.Utilities.dll | 1007
+[other]   Microsoft.VisualStudio.TestPlatform.VsTestConsole.TranslationLayer.Resources.Resources.resources | Microsoft.TestPlatform.VsTestConsole.TranslationLayer.dll | 648
+[other]   Microsoft.Web.XmlTransform.Properties.Resources.resources | Microsoft.Web.XmlTransform.dll | 6197
+[other]   Microsoft.WindowsAPICodePack.Resources.LocalizedMessages.resources | Microsoft.WindowsAPICodePack.dll | 8676
+[other]   Microsoft.WindowsAPICodePack.Shell.Resources.LocalizedMessages.resources | Microsoft.WindowsAPICodePack.Shell.dll | 15305
+[other]   NHunspell.Resources.resources | NHunspell.dll | 703
+[other]   NuGet.Configuration.Resources.resources | NuGet.Configuration.dll | 7637
+[other]   NuGet.Credentials.Resources.resources | NuGet.Credentials.dll | 2474
+[other]   NuGet.Packaging.PackageCreation.Resources.NuGetResources.resources | NuGet.Packaging.dll | 5651
+[other]   NuGet.Packaging.Rules.AnalysisResources.resources | NuGet.Packaging.dll | 8625
+[other]   NuGet.Versioning.Resources.resources | NuGet.Versioning.dll | 695
+[other]   Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1226232
+[other]   System.Windows.Controls.DataVisualization.Properties.Resources.resources | System.Windows.Controls.DataVisualization.Toolkit.dll | 5680
+[other]   System.Windows.Controls.Properties.Resources.resources | System.Windows.Controls.Input.Toolkit.dll, System.Windows.Controls.Layout.Toolkit.dll | 4973
+[other]   VisualBasicAnalyzersResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 963
+[other]   VisualBasicCodeFixesResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 1008
+[other]   VisualBasicCompilerExtensionsResources.resources | Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll | 180
+[other]   VisualBasicWorkspaceExtensionsResources.resources | Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll | 180
+
+--- В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL ---
+  ApiParser.Resources.Strings.resources
+  GammaJul.ForTea.Core.Resources.Strings.resources
+  JetBrains.CommandLine.CleanupCode.Resources.Strings.resources
+  JetBrains.DotPeek.Resources.Strings.resources
+  JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.resources
+  JetBrains.DotTrace.Ide.Rider.Resources.Strings.resources
+  JetBrains.EntityFramework.Features.Resources.Strings.resources
+  JetBrains.Fleet.Backend.Resources.Strings.resources
+  JetBrains.ForTea.RiderPlugin.Resources.Strings.resources
+  JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.resources
+  JetBrains.RdBackend.Common.Resources.Strings.resources
+  JetBrains.ReSharper.AI.Core.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.resources
+  JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.resources
+  JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Godot.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Asm.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Cpp.Resources.Strings.resources
+  JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.resources
+  JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.resources
+  JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings.resources
+  JetBrains.Rider.Backend.Resources.Strings.resources
+  JetBrains.Rider.Backend.WebServices.Resources.Strings.resources
+  JetBrains.Rider.MacAgent.Resources.Strings.resources
+  JetBrains.Rider.Plugins.Verse.Resources.Strings.resources
+  JetBrains.Rider.Roslyn.Host.Resources.Strings.resources
+  JetBrains.Rider.Test.Framework.Resources.Strings.resources
+  JetBrains.Roslyn.Host.Resources.Strings.resources
+  JetBrains.SourceView.Avalonia.Resources.Strings.resources
+  JetBrains.SourceView.FoldersMapping.Resources.Strings.resources
+  JetBrains.SourceView.SourceModel.Resources.Strings.resources
+  JetBrains.SourceView.SourceViewUI.Resources.Strings.resources
+  JetBrains.SourceView.ViewModels.Resources.Strings.resources
+  JetBrains.TeamCity.Core.Resources.CoreStrings.resources
+  JetBrains.TeamCity.Presentation.Resources.PresentationStrings.resources
+  JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings.resources
+  JetBrains.TestBakery.Core.Resources.Strings.resources
+  JetBrains.TestBakery.RiderPlugin.Resources.Strings.resources
+  JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.resources
+  JetBrains.ViewModels.Src.Options.Res.OptionsStrings.resources
+  Mono.Debugging.Resources.Strings.resources
+  OperatorsResolveCacheGenerator.Resources.Strings.resources
+  RiderPlugin.UnrealLink.Resources.Strings.resources
+
+--- DLL НЕ УДАЛОСЬ ЗАГРУЗИТЬ (обычно нативные) ---
+  Hunspellx64.dll: MethodInvocationException
+  Hunspellx86.dll: MethodInvocationException

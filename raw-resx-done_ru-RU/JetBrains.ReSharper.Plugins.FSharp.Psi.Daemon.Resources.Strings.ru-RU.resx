@@ -127,7 +127,7 @@
   <value>Выведенный тип скопирован в буфер обмена</value>
 </data>
 <data name="FSharpTypeHints_PipesSettings_Header" xml:space="preserve">
-  <value>Операторы管道 (pipes)</value>
+  <value>Операторы конвейера (pipes)</value>
 </data>
 <data name="FSharpTypeHints_ShowPipeReturnTypes_Description" xml:space="preserve">
   <value>Показывать подсказки типов возвращаемых значений в цепочках |&gt;</value>

@@ -163,7 +163,7 @@
   <value>MAUI (C#) проекты</value>
 </data>
 <data name="WhetherToShowImplicitMarkAttributeNameHintsSettingDescription" xml:space="preserve">
-  <value>Показывать ли подсказки неявных имен атрибутов标记</value>
+  <value>Показывать ли подсказки неявных имен атрибутов</value>
 </data>
 <data name="WhetherToShowFullyQualifiedNamesOfTypesSettingDescription" xml:space="preserve">
   <value>Показывать ли полные квалифицированные имена типов</value>
