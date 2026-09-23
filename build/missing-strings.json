@@ -1,0 +1,971 @@
+﻿[
+    {
+        "Resource":  "JetBrains.Application.Res.StringTable.resources",
+        "Dll":  "JetBrains.Platform.Shell.dll",
+        "Count":  56,
+        "Entries":  [
+                        {
+                            "Key":  "ActionCantInsertInvalidAnchor",
+                            "En":  "Failed to insert actions because the anchoring action does not exist"
+                        },
+                        {
+                            "Key":  "UpdFree",
+                            "En":  "free"
+                        },
+                        {
+                            "Key":  "ActionCantInsertCantLoad",
+                            "En":  "Failed to insert an action into the group because it failed to load"
+                        },
+                        {
+                            "Key":  "UpdThisUpdateInstallsInstalls",
+                            "En":  "installs"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Please_Describe",
+                            "En":  "\u0026Please describe what you were doing when the exception occurred (example: I tried to open a 6-project solution with BizTalk projects):"
+                        },
+                        {
+                            "Key":  "ActionCantInsertConflictingAnchor",
+                            "En":  "Failed to insert actions because an anchoring action was specified, which conflicts with the relative positioning value"
+                        },
+                        {
+                            "Key":  "UpdAreNewProductVersionsAvailable",
+                            "En":  "There are new {0} versions available"
+                        },
+                        {
+                            "Key":  "ActionCantLoad",
+                            "En":  "Failed to load the product action {0}"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Result",
+                            "En":  "Result"
+                        },
+                        {
+                            "Key":  "ActionCantInsertInvalidRelativePosition",
+                            "En":  "Failed to insert actions because the relative positioning value is invalid"
+                        },
+                        {
+                            "Key":  "JetPopupMenuMainThread",
+                            "En":  "The popup menu must be used on the UI thread only"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Submit_Selected",
+                            "En":  "\u0026Submit"
+                        },
+                        {
+                            "Key":  "UpdKindService",
+                            "En":  "service update"
+                        },
+                        {
+                            "Key":  "ActionCantInsertIntoNonGroupAction",
+                            "En":  "Failed to insert actions because the target action ID belongs to an action that is not an action group"
+                        },
+                        {
+                            "Key":  "UpdIsNewPluginVersionAvailable",
+                            "En":  "There is a new plugin version available"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Copy_URL",
+                            "En":  "Copy URL"
+                        },
+                        {
+                            "Key":  "UpdKindGeneric",
+                            "En":  "update"
+                        },
+                        {
+                            "Key":  "UpdDownloadLink",
+                            "En":  "Download"
+                        },
+                        {
+                            "Key":  "ActionCantInsertMissingAnchor",
+                            "En":  "Failed to insert actions because the anchoring action was not specified, as required by the relative positioning value"
+                        },
+                        {
+                            "Key":  "ActionUnnamedXmlElementName",
+                            "En":  "Unnamed \u003c{0}\u003e Element"
+                        },
+                        {
+                            "Key":  "MenuAlreadyVisible",
+                            "En":  "The menu is already visible"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Message",
+                            "En":  "Message:"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Forget",
+                            "En":  "Forget"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Remove_Selected",
+                            "En":  "\u0026Remove"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Mute_Selected",
+                            "En":  "\u0026Mute"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Close",
+                            "En":  "Cl\u0026ose"
+                        },
+                        {
+                            "Key":  "UpdIsNewProductVersionAvailable",
+                            "En":  "There is a new {0} version available"
+                        },
+                        {
+                            "Key":  "NoItemsCaseShouldHaveBeenCutOffEarlier",
+                            "En":  "The no-items case should have been cut off earlier"
+                        },
+                        {
+                            "Key":  "UpdNoUpdatesAvailableForProduct",
+                            "En":  "There are no updates available for {0}"
+                        },
+                        {
+                            "Key":  "UpdUntitledUpdate",
+                            "En":  "Untitled"
+                        },
+                        {
+                            "Key":  "MenuItemKeyMustBeNonNull",
+                            "En":  "The menu item key is expected to be non-null"
+                        },
+                        {
+                            "Key":  "UpdUnknownCompany",
+                            "En":  "Unknown Company"
+                        },
+                        {
+                            "Key":  "PendingView_Initialize_When_Happened",
+                            "En":  "When Happened"
+                        },
+                        {
+                            "Key":  "ActionCantInsertAnchorNotInGroup",
+                            "En":  "Failed to insert actions because the anchoring action is not included in the actions group we are inserting into"
+                        },
+                        {
+                            "Key":  "PendingView_Initialize_Error_Summary",
+                            "En":  "Summary"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Copy_To_Clipboard",
+                            "En":  "Copy to clipboard"
+                        },
+                        {
+                            "Key":  "UpdKindFeatures",
+                            "En":  "feature release"
+                        },
+                        {
+                            "Key":  "UpdProductUpdates",
+                            "En":  "{0} Updates"
+                        },
+                        {
+                            "Key":  "UpdReadMoreLink",
+                            "En":  "Read More"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Created_new_issue",
+                            "En":  "Created new issue"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Do_Not_Show",
+                            "En":  "Do not show this window after exceptions are submitted"
+                        },
+                        {
+                            "Key":  "UpdKindPreview",
+                            "En":  "prerelease build"
+                        },
+                        {
+                            "Key":  "UpdAreNewPluginVersionsAvailable",
+                            "En":  "There are new plugin versions available"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Double_Click",
+                            "En":  "Double-click an item to open the corresponding issue in a web browser or press Enter"
+                        },
+                        {
+                            "Key":  "UpdAllowDownloadCheckbox",
+                            "En":  "Download the list of available updates from the Web"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Please_Note",
+                            "En":  "Please note that exceptions are submitted to JetBrains public tracker, which is available publicly"
+                        },
+                        {
+                            "Key":  "UpdThisUpdateInstallsPre",
+                            "En":  "This"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Issue_Key",
+                            "En":  "Issue Key"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Submitted",
+                            "En":  "Submitted"
+                        },
+                        {
+                            "Key":  "UpdNoUpdatesAvailable",
+                            "En":  "There are no updates available"
+                        },
+                        {
+                            "Key":  "UpdUnidentifiedProduct",
+                            "En":  "Unidentified Product"
+                        },
+                        {
+                            "Key":  "UpdPluginUpdates",
+                            "En":  "Plugin Updates"
+                        },
+                        {
+                            "Key":  "UpdAllowDownloadComment",
+                            "En":  "No personally identifiable information is uploaded to the server"
+                        },
+                        {
+                            "Key":  "ActionCantInsertIntoNonexistentGroup",
+                            "En":  "Failed to insert actions because the target action group does not exist"
+                        },
+                        {
+                            "Key":  "SearchHelpOptionViewModel_Nothing_found",
+                            "En":  "Nothing found"
+                        },
+                        {
+                            "Key":  "UpdEstimatedPrice",
+                            "En":  "Estimated price"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.UI.Resources.StringTable.resources",
+        "Dll":  "JetBrains.Platform.UIInteractive.Shell.dll",
+        "Count":  56,
+        "Entries":  [
+                        {
+                            "Key":  "ActionCantInsertInvalidAnchor",
+                            "En":  "Unable to insert actions because the anchoring action does not exist"
+                        },
+                        {
+                            "Key":  "UpdFree",
+                            "En":  "free"
+                        },
+                        {
+                            "Key":  "ActionCantInsertCantLoad",
+                            "En":  "Failed to insert an action into the group because it failed to load"
+                        },
+                        {
+                            "Key":  "UpdThisUpdateInstallsInstalls",
+                            "En":  "installs"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Please_Describe",
+                            "En":  "\u0026Please describe what you were doing when the exception occurred (example: I tried to open a 6-project solution with BizTalk projects):"
+                        },
+                        {
+                            "Key":  "ActionCantInsertConflictingAnchor",
+                            "En":  "Failed to insert actions because the anchoring action was specified, which conflicts with the relative positioning value"
+                        },
+                        {
+                            "Key":  "UpdAreNewProductVersionsAvailable",
+                            "En":  "There are new {0} versions available"
+                        },
+                        {
+                            "Key":  "ActionCantLoad",
+                            "En":  "Failed to load the product action {0}"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Result",
+                            "En":  "Result"
+                        },
+                        {
+                            "Key":  "ActionCantInsertInvalidRelativePosition",
+                            "En":  "Failed to insert actions because the relative positioning value is invalid"
+                        },
+                        {
+                            "Key":  "JetPopupMenuMainThread",
+                            "En":  "The popup menu must be used on the UI thread only"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Submit_Selected",
+                            "En":  "\u0026Submit"
+                        },
+                        {
+                            "Key":  "UpdKindService",
+                            "En":  "service update"
+                        },
+                        {
+                            "Key":  "ActionCantInsertIntoNonGroupAction",
+                            "En":  "Unable to insert actions because the target action ID belongs to an action that is not an action group"
+                        },
+                        {
+                            "Key":  "UpdIsNewPluginVersionAvailable",
+                            "En":  "There is a new plugin version available"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Copy_URL",
+                            "En":  "Copy URL"
+                        },
+                        {
+                            "Key":  "UpdKindGeneric",
+                            "En":  "update"
+                        },
+                        {
+                            "Key":  "UpdDownloadLink",
+                            "En":  "Download"
+                        },
+                        {
+                            "Key":  "ActionCantInsertMissingAnchor",
+                            "En":  "Failed to insert actions because the anchoring action was not specified, as required by the relative positioning value"
+                        },
+                        {
+                            "Key":  "ActionUnnamedXmlElementName",
+                            "En":  "Unnamed \u003c{0}\u003e Element"
+                        },
+                        {
+                            "Key":  "MenuAlreadyVisible",
+                            "En":  "The menu is already visible"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Message",
+                            "En":  "Message:"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Forget",
+                            "En":  "Forget"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Remove_Selected",
+                            "En":  "\u0026Remove"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Mute_Selected",
+                            "En":  "\u0026Mute"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Close",
+                            "En":  "Cl\u0026ose"
+                        },
+                        {
+                            "Key":  "UpdIsNewProductVersionAvailable",
+                            "En":  "There is a new {0} version available"
+                        },
+                        {
+                            "Key":  "NoItemsCaseShouldHaveBeenCutOffEarlier",
+                            "En":  "The no-items case should have been cut off earlier"
+                        },
+                        {
+                            "Key":  "UpdNoUpdatesAvailableForProduct",
+                            "En":  "There are no updates available for {0}"
+                        },
+                        {
+                            "Key":  "UpdUntitledUpdate",
+                            "En":  "Untitled"
+                        },
+                        {
+                            "Key":  "MenuItemKeyMustBeNonNull",
+                            "En":  "The menu item key is expected to be non-null"
+                        },
+                        {
+                            "Key":  "UpdUnknownCompany",
+                            "En":  "Unknown Company"
+                        },
+                        {
+                            "Key":  "PendingView_Initialize_When_Happened",
+                            "En":  "When Happened"
+                        },
+                        {
+                            "Key":  "ActionCantInsertAnchorNotInGroup",
+                            "En":  "Unable to insert actions because the anchoring action is not included in the actions group we\u0027re inserting into"
+                        },
+                        {
+                            "Key":  "PendingView_Initialize_Error_Summary",
+                            "En":  "Summary"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Copy_To_Clipboard",
+                            "En":  "Copy to clipboard"
+                        },
+                        {
+                            "Key":  "UpdKindFeatures",
+                            "En":  "feature release"
+                        },
+                        {
+                            "Key":  "UpdProductUpdates",
+                            "En":  "{0} Updates"
+                        },
+                        {
+                            "Key":  "UpdReadMoreLink",
+                            "En":  "Read More"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Created_new_issue",
+                            "En":  "Created new issue"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Do_Not_Show",
+                            "En":  "Do not show this window after exceptions are submitted"
+                        },
+                        {
+                            "Key":  "UpdKindPreview",
+                            "En":  "prerelease build"
+                        },
+                        {
+                            "Key":  "UpdAreNewPluginVersionsAvailable",
+                            "En":  "There are new plugin versions available"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Double_Click",
+                            "En":  "Double-click an item to open the corresponding issue in a web browser or press Enter"
+                        },
+                        {
+                            "Key":  "UpdAllowDownloadCheckbox",
+                            "En":  "Download the list of available updates from the Web"
+                        },
+                        {
+                            "Key":  "ExceptionBrowserForm_Please_Note",
+                            "En":  "Please note that exceptions are submitted to JetBrains public tracker which is available publicly"
+                        },
+                        {
+                            "Key":  "UpdThisUpdateInstallsPre",
+                            "En":  "This"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Issue_Key",
+                            "En":  "Issue Key"
+                        },
+                        {
+                            "Key":  "SubmittedView_Initialize_Submitted",
+                            "En":  "Submitted"
+                        },
+                        {
+                            "Key":  "UpdNoUpdatesAvailable",
+                            "En":  "There are no updates available"
+                        },
+                        {
+                            "Key":  "UpdUnidentifiedProduct",
+                            "En":  "Unidentified Product"
+                        },
+                        {
+                            "Key":  "JetPopupMenuNoItemsBanner",
+                            "En":  "There are no items to show in this menu"
+                        },
+                        {
+                            "Key":  "UpdPluginUpdates",
+                            "En":  "Plugin Updates"
+                        },
+                        {
+                            "Key":  "UpdAllowDownloadComment",
+                            "En":  "No personally identifiable information is uploaded to the server"
+                        },
+                        {
+                            "Key":  "ActionCantInsertIntoNonexistentGroup",
+                            "En":  "Unable to insert actions because the target action group does not exist"
+                        },
+                        {
+                            "Key":  "UpdEstimatedPrice",
+                            "En":  "Estimated price"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Application.Resources.VsResources.resources",
+        "Dll":  "JetBrains.Platform.Shell.dll",
+        "Count":  81,
+        "Entries":  [
+                        {
+                            "Key":  "ReinstallProjectPackage",
+                            "En":  "Reinstalling \u0027{0}\u0027 in project \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "TemplateWizard_ErrorDialogTitle",
+                            "En":  "Package Installation Error"
+                        },
+                        {
+                            "Key":  "Debug_RemovedFolder",
+                            "En":  "Removed folder \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "Dialog_DisclaimerText",
+                            "En":  "Each extension is licensed to you by its owner. JetBrains is not responsible for, nor does it grant any licenses to, third-party extensions."
+                        },
+                        {
+                            "Key":  "Debug_RemovedFile",
+                            "En":  "Removed file \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "Warning_NoExactMatchForReference",
+                            "En":  "No exact match found for removing reference \u0027{0}\u0027. Trying case-insensitive search…"
+                        },
+                        {
+                            "Key":  "PackageSource_Invalid",
+                            "En":  "The extension source does not belong to the collection of available sources"
+                        },
+                        {
+                            "Key":  "Warning_PackageNotReferencedByAnyProject",
+                            "En":  "Extension {0} of version {1} is not referenced by any product"
+                        },
+                        {
+                            "Key":  "TemplateWizard_MissingRegistryKeyName",
+                            "En":  "The project template is configured to use a Registry-provided package repository but the Registry value name has not been specified. Use the \u0027keyName\u0027 attribute to specify the Registry value."
+                        },
+                        {
+                            "Key":  "FailedToAddReference",
+                            "En":  "Failed to add reference to \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "IgnoreUpgrade",
+                            "En":  "Ignore for now"
+                        },
+                        {
+                            "Key":  "UnknownPackageInProject",
+                            "En":  "Unable to find extension \u0027{0}\u0027 in \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "Warning_FileAlreadyExists",
+                            "En":  "\u0027{0}\u0027 already exists. Skipping…"
+                        },
+                        {
+                            "Key":  "OfficialSourceName",
+                            "En":  "NuGet official package source"
+                        },
+                        {
+                            "Key":  "DTE_InvalidProject",
+                            "En":  "The project is invalid"
+                        },
+                        {
+                            "Key":  "TemplateWizard_InvalidWizardRunKind",
+                            "En":  "This template wizard can only be applied to single-project or project-item templates"
+                        },
+                        {
+                            "Key":  "TemplateWizard_ExtensionManagerError",
+                            "En":  "Error accessing Extension Manager"
+                        },
+                        {
+                            "Key":  "Warning_DirectoryNotEmpty",
+                            "En":  "Directory \u0027{0}\u0027 is not empty. Skipping…"
+                        },
+                        {
+                            "Key":  "Debug_AddedFileToProject",
+                            "En":  "Added file \u0027{0}\u0027 to project \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "SolutionDirectoryNotAvailable",
+                            "En":  "Unable to locate the solution directory. Please ensure that the solution has been saved."
+                        },
+                        {
+                            "Key":  "TemplateWizard_PackageInstallStatus",
+                            "En":  "Adding {0}.{1} to project…"
+                        },
+                        {
+                            "Key":  "PackageRestoreWaitMessage",
+                            "En":  "Configuring the product to restore extensions on start…"
+                        },
+                        {
+                            "Key":  "Warning_FailedToFindMatchForRemoveReference",
+                            "En":  "Failed to find match for removing reference \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "DialogTitle",
+                            "En":  "Extension Manager"
+                        },
+                        {
+                            "Key":  "PackageRestoreSkipForProject",
+                            "En":  "Skipped reinstalling extension \u0027{0}\u0027 in product \u0027{1}\u0027 because the extension does not exist in the extension source"
+                        },
+                        {
+                            "Key":  "PackageCannotBeRemovedBecauseItIsInUse",
+                            "En":  "\u0027{0}\u0027 cannot be removed because it is in use by \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "TemplateWizard_InvalidRepositoryAttribute",
+                            "En":  "The \u0027repository\u0027 attribute of the package element has an invalid value: \u0027{0}\u0027. Valid values are: \u0027template\u0027 or \u0027extension\u0027."
+                        },
+                        {
+                            "Key":  "PackageNotInstalledInAnyProject",
+                            "En":  "\u0027{0}\u0027 was not installed in any project. Update failed."
+                        },
+                        {
+                            "Key":  "FailedToRemoveReference",
+                            "En":  "Case insensitive search for reference \u0027{0}\u0027, to be removed, returned more than 1 match. Request could not be performed."
+                        },
+                        {
+                            "Key":  "UnableToFindPackageFromSource",
+                            "En":  "Unable to find extension \u0027{0}\u0027 version \u0027{1}\u0027 from the source \u0027{2}\u0027"
+                        },
+                        {
+                            "Key":  "NoUpdatesAvailable",
+                            "En":  "No updates available for \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "FailedToAddGacReference",
+                            "En":  "Failed to add reference to \u0027{0}\u0027. Please make sure that it is in the Global Assembly Cache."
+                        },
+                        {
+                            "Key":  "TemplateWizard_InvalidExtensionId",
+                            "En":  "The project template has a reference to a missing Extension. Failed to find an Extension with ID \u0027{0}\u0027."
+                        },
+                        {
+                            "Key":  "Console_InitializeHostFails",
+                            "En":  "Failed to initialize the PowerShell host. If your PowerShell execution policy setting is set to AllSigned, open the Package Manager Console to initialize the host first."
+                        },
+                        {
+                            "Key":  "PackageRestoreConfirmation",
+                            "En":  "Do you want to configure this product to download and restore missing extensions?"
+                        },
+                        {
+                            "Key":  "Debug_AddReference",
+                            "En":  "Added reference \u0027{0}\u0027 to project \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "PackageRestoreSkipForSolution",
+                            "En":  "Skipped reinstalling extension \u0027{0}\u0027 because the extension does not exist in the extension source"
+                        },
+                        {
+                            "Key":  "Debug_RemovedFileFromFolder",
+                            "En":  "Removed file \u0027{0}\u0027 from folder \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "Warning_RollingBack",
+                            "En":  "Install failed. Rolling back…"
+                        },
+                        {
+                            "Key":  "NoActivePackageSource",
+                            "En":  "Unable to retrieve extension list because no source was specified"
+                        },
+                        {
+                            "Key":  "PackageRestoreErrorMessage",
+                            "En":  "An error occurred while configuring the product to restore extensions on start"
+                        },
+                        {
+                            "Key":  "PackageRestoreProgressMessage",
+                            "En":  "Downloading missing extensions…"
+                        },
+                        {
+                            "Key":  "UnknownPackage",
+                            "En":  "Unable to find extension \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ProjectNotSpecified",
+                            "En":  "No project was specified"
+                        },
+                        {
+                            "Key":  "RestoreButtonLabel",
+                            "En":  "_Restore"
+                        },
+                        {
+                            "Key":  "FileConflictTitle",
+                            "En":  "File Conflict"
+                        },
+                        {
+                            "Key":  "Warning_FailedToAddBindingRedirects",
+                            "En":  "Failed to generate binding redirects for \u0027{0}\u0027. {1}"
+                        },
+                        {
+                            "Key":  "Debug_RemoveReference",
+                            "En":  "Removed reference \u0027{0}\u0027 from project \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "RestartNow",
+                            "En":  "Restart Now"
+                        },
+                        {
+                            "Key":  "AggregateSourceName",
+                            "En":  "All"
+                        },
+                        {
+                            "Key":  "Warning_FailedToDeleteMarkedPackageDirectory",
+                            "En":  "Failed to remove extension directory \u0027{0}\u0027 that was marked for deletion on application restart"
+                        },
+                        {
+                            "Key":  "TemplateWizard_InvalidPackageElementAttributes",
+                            "En":  "The project template lists one or more packages with missing, empty, or invalid values for the \u0027id\u0027 or \u0027version\u0027 attributes. Both attributes are required and must have valid values."
+                        },
+                        {
+                            "Key":  "Console_HelpText",
+                            "En":  "Type \u0027get-help NuGet\u0027 to see all available NuGet commands"
+                        },
+                        {
+                            "Key":  "Warning_FailedToMarkPackageDirectoryForDeletion",
+                            "En":  "Failed to mark extension directory \u0027{0}\u0027 for deletion on application restart: {1}"
+                        },
+                        {
+                            "Key":  "Console_DisclaimerText",
+                            "En":  "Each extension is licensed to you by its owner. JetBrains is not responsible for, nor does it grant any licenses to, third-party extensions. Some extensions may include dependencies which are governed by additional licenses. Follow the extension source (feed) URL to determine any dependencies."
+                        },
+                        {
+                            "Key":  "Log_PackageAlreadyInstalled",
+                            "En":  "\u0027{0}\u0027 is already installed"
+                        },
+                        {
+                            "Key":  "OperationFailed",
+                            "En":  "Operation failed"
+                        },
+                        {
+                            "Key":  "PackageUpdatedSuccessfully",
+                            "En":  "\u0027{0}\u0027 updated successfully"
+                        },
+                        {
+                            "Key":  "RequestRestartToCompleteUninstall",
+                            "En":  "You must restart the application in order for the changes to take effect. The following extensions require a restart: {0}."
+                        },
+                        {
+                            "Key":  "DoNotRemindAgain",
+                            "En":  "Don\u0027t show again"
+                        },
+                        {
+                            "Key":  "AmbiguousUpdate",
+                            "En":  "Unable to update \u0027{0}\u0027. Found multiple versions installed."
+                        },
+                        {
+                            "Key":  "AmbiguousUninstall",
+                            "En":  "Found multiple versions of \u0027{0}\u0027 installed. Please specify a version."
+                        },
+                        {
+                            "Key":  "VisualStudioExpressForWindows8SourceName",
+                            "En":  "Windows 8 Packages"
+                        },
+                        {
+                            "Key":  "TemplateWizard_InvalidRegistryValue",
+                            "En":  "The project template has a reference to a missing Registry value. Failed to find a Registry key with name \u0027{0}\u0027 under \u0027{1}\u0027."
+                        },
+                        {
+                            "Key":  "DTE_ProjectUnsupported",
+                            "En":  "The project \u0027{0}\u0027 is unsupported"
+                        },
+                        {
+                            "Key":  "TemplateWizard_VersionConflict",
+                            "En":  "Attempting to install version \u0027{1}\u0027 of \u0027{0}\u0027 but the project already includes a different version. Skipping…"
+                        },
+                        {
+                            "Key":  "TemplateWizard_MissingExtensionId",
+                            "En":  "The project template is configured to use an Extension-specific package repository but the Extension ID has not been specified. Use the \u0027repositoryId\u0027 attribute to specify the Extension ID."
+                        },
+                        {
+                            "Key":  "ShowDetails",
+                            "En":  "Show Details"
+                        },
+                        {
+                            "Key":  "TemplateWizard_FailedToInstallPackage",
+                            "En":  "Failed to add all required extensions to the product. The following extensions failed to install from \u0027{0}\u0027:"
+                        },
+                        {
+                            "Key":  "TemplateWizard_RegistryKeyError",
+                            "En":  "The project template is configured to use a Registry-provided package repository but there was an error accessing Registry key \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "PackageRestoreDownloadPackageFailed",
+                            "En":  "Downloading extension \u0027{0}\u0027 failed"
+                        },
+                        {
+                            "Key":  "ReinstallSolutionPackage",
+                            "En":  "Reinstalling \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "AskForUpdateMessage",
+                            "En":  "A new version of NuGet Package Manager is available"
+                        },
+                        {
+                            "Key":  "ExecutingScript",
+                            "En":  "Executing script file \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ErrorReadingFile",
+                            "En":  "Error reading \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "AskForRestoreMessage",
+                            "En":  "Some extensions are missing from this product. Click to restore."
+                        },
+                        {
+                            "Key":  "Warning_FailedToDeleteMarkedPackageDirectories",
+                            "En":  "Failed to remove extension directories that were marked for deletion on application restart: {0}"
+                        },
+                        {
+                            "Key":  "AmbiguousProjectLevelUninstal",
+                            "En":  "Unable to find \u0027{0}\u0027 in \u0027{1}\u0027 and found multiple versions of \u0027{0}\u0027 installed. Please specify a version."
+                        },
+                        {
+                            "Key":  "SolutionNotAvailable",
+                            "En":  "The current environment does not have a solution loaded"
+                        },
+                        {
+                            "Key":  "PackageRestoreErrorTryAgain",
+                            "En":  "An error occurred while trying to restore extensions. Please try again."
+                        },
+                        {
+                            "Key":  "PackageRestoreCompleted",
+                            "En":  "Finished configuring this product to restore extensions on start"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DPA.Ide.VS.Resources.Strings.resources",
+        "Dll":  "JetBrains.DPA.Ide.VS.dll",
+        "Count":  6,
+        "Entries":  [
+                        {
+                            "Key":  "Monitoring_Options_StartModeOnDebug",
+                            "En":  "On Debug"
+                        },
+                        {
+                            "Key":  "Monitoring_Options_AutoShow",
+                            "En":  "Auto-Open on Process Start"
+                        },
+                        {
+                            "Key":  "Monitoring_Options_StartModeAlways",
+                            "En":  "On Debug or Run"
+                        },
+                        {
+                            "Key":  "Monitoring_Options_StartModeDisabled",
+                            "En":  "Never"
+                        },
+                        {
+                            "Key":  "Monitoring_Options_ShowTotalMemory",
+                            "En":  "Show Total Memory"
+                        },
+                        {
+                            "Key":  "Monitoring_Options_Settings",
+                            "En":  "Monitoring Settings"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Profiler.Windows.Resources.Strings.resources",
+        "Dll":  "JetBrains.Profiler.Windows.Impl.dll",
+        "Count":  15,
+        "Entries":  [
+                        {
+                            "Key":  "HostProfiles_ProcessWithKnownNameUsingPort",
+                            "En":  "The port {2} is in use by the process {0} \u0027{1}\u0027."
+                        },
+                        {
+                            "Key":  "HostProfiles_FailedAttemptToTerminate",
+                            "En":  "Failed to gracefully terminate the process: Timeout exceeded."
+                        },
+                        {
+                            "Key":  "HostProfiler_NoFreePort",
+                            "En":  "Can\u0027t find free port"
+                        },
+                        {
+                            "Key":  "HostProfiles_PortsDiffer",
+                            "En":  "Profiling configuration mismatch. The \u0027Port\u0027 parameter ({1}) differs from the port specified in \u0027Open URL\u0027 ({0})."
+                        },
+                        {
+                            "Key":  "HostProfiles_FailedToTerminate",
+                            "En":  "Failed to terminate the process: "
+                        },
+                        {
+                            "Key":  "HostProfiles_ProcessWithUnknownNameUsingPort",
+                            "En":  "The port {1} is in use by the process {0}."
+                        },
+                        {
+                            "Key":  "HostProfiles_SystemUsingPort",
+                            "En":  "The port {0} is in use by SYSTEM."
+                        },
+                        {
+                            "Key":  "HostProfiles_ApplicationSandboxed",
+                            "En":  "Profiling of sandboxed applications is not possible.\r\nThe following application has the \u0027com.apple.security.app-sandbox\u0027 entitlement set to YES:\r\n\"{0}\"."
+                        },
+                        {
+                            "Key":  "HostProfiles_KillAndContinue",
+                            "En":  "Do you want to terminate the process forcefully?"
+                        },
+                        {
+                            "Key":  "HostProfiles_UnknownProcessUsingPort",
+                            "En":  "The port {0} is in use by an unknown process."
+                        },
+                        {
+                            "Key":  "HostProfiles_UnityApplicationDoesNotSupportProfiling",
+                            "En":  "Unity profiling is only available for Development Builds.\r\nRebuild the game with Development Build enabled and try again."
+                        },
+                        {
+                            "Key":  "HostProfiles_TerminateGracefully",
+                            "En":  "Do you want to terminate the process gracefully?"
+                        },
+                        {
+                            "Key":  "HostProfiles_CannotTerminate",
+                            "En":  "The port {1} is in use by the process {0} running under Administrator or a different user account. To continue profiling, you should either terminate this process or run IIS Express on a different port."
+                        },
+                        {
+                            "Key":  "HostProfiles_IISExpressResponseTimeout",
+                            "En":  "IIS Express response timeout"
+                        },
+                        {
+                            "Key":  "HostProfiles_IISExpressConfigurationNotFound",
+                            "En":  "IIS Express configuration to profile wasn\u0027t found"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.SignatureVerifier.Messages.resources",
+        "Dll":  "JetBrains.SignatureVerifier.dll",
+        "Count":  5,
+        "Entries":  [
+                        {
+                            "Key":  "unknown_certificate_revocation_status",
+                            "En":  "Unknown certificate revocation status"
+                        },
+                        {
+                            "Key":  "unable_determin_certificate_revocation_status",
+                            "En":  "Unable to determine certificate revocation status"
+                        },
+                        {
+                            "Key":  "certificate_revoked",
+                            "En":  "Certificate has been revoked at {0}. {1}"
+                        },
+                        {
+                            "Key":  "invalid_ocsp_response",
+                            "En":  "Invalid OCSP response"
+                        },
+                        {
+                            "Key":  "signer_cert_not_found",
+                            "En":  "Signer\u0027s certificate not found"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Standalone.TabWell.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.Standalone.TabWell.dll",
+        "Count":  11,
+        "Entries":  [
+                        {
+                            "Key":  "NewVerticalTabGroup_ActionText",
+                            "En":  "New Vertical Tab Group"
+                        },
+                        {
+                            "Key":  "KeepTabOpen_ActionText",
+                            "En":  "Keep Tab Open"
+                        },
+                        {
+                            "Key":  "NewHorizontalTabGroup_ActionText",
+                            "En":  "New Horizontal Tab Group"
+                        },
+                        {
+                            "Key":  "Dock_ActionText",
+                            "En":  "Dock"
+                        },
+                        {
+                            "Key":  "DockAsDocument_ActionText",
+                            "En":  "Dock as Document"
+                        },
+                        {
+                            "Key":  "AutoHide_ActionText",
+                            "En":  "Auto Hide"
+                        },
+                        {
+                            "Key":  "Float_ActionText",
+                            "En":  "Float"
+                        },
+                        {
+                            "Key":  "PinTab_ActionText",
+                            "En":  "Pin Tab"
+                        },
+                        {
+                            "Key":  "OpenContainingFolder_ActionText",
+                            "En":  "Open Containing Folder"
+                        },
+                        {
+                            "Key":  "CopyFullPath_ActionText",
+                            "En":  "Copy Full Path"
+                        },
+                        {
+                            "Key":  "UnpinTab_ActionText",
+                            "En":  "Unpin Tab"
+                        }
+                    ]
+    }
+]
