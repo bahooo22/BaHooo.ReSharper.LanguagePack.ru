@@ -95,7 +95,10 @@ enumerates the neutral resources (no `*.g.resources`, no satellites) embedded in
 the installed ReSharper platform and matches them against the resource names our package
 provides. The install folder is auto-detected (`ReSharperPlatform*` under
 `Program Files (x86)\JetBrains\Installations` and `%LOCALAPPDATA%`) because its name carries
-an install hash and changes with every platform build. Report: `build/i18n-coverage-report.txt`.
+an install hash and changes with every platform build. Report: `build/i18n-coverage-report.txt`. Both reports — this one and `i18n-translation-report.txt` — are deterministic: the
+hashtable traversals are sorted, line endings are LF, and the header date appears only
+with `-Stamp`. So a rerun never adds `git diff` noise: if the report changed, a number
+changed, not the run time.
 
 Measured against ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 2026-09-24:
 
