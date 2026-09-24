@@ -82,14 +82,14 @@ foreach ($rf in $resxFiles) {
         $problems.Add("$($rf.Name): XML НЕ ПАРСИТСЯ: $($_.Exception.Message)")
         continue
     }
-    try { $statEntries += [int]$values.Count }
-    catch {
-        Write-Host ("ДИАГНОСТИКА: файл={0} тип values={1} values.Count={2}" -f $rf.Name, $values.GetType().FullName, $values.Count) -ForegroundColor Magenta
-        $statEntries += @($values.Keys).Count
-    }
+    # `.Count` через point-access у hashtable недоверителен: в DPA.Core.Resources.Strings есть
+    # ключ с именем `Count`, и PowerShell отдаёт значение этого ключа вместо свойства.
+    $statEntries += $values.Keys.Count
 
     # пустые значения
-    foreach ($k in @($values.Keys)) {
+    # Порядок обхода ключей фиксируется сортировкой: без него enumeration у hashtable меняется
+    # от прогона к прогону, и весь отчёт выглядел переписанным в git diff.
+    foreach ($k in @($values.Keys | Sort-Object)) {
         if ([string]::IsNullOrWhiteSpace($values[$k])) {
             $statEmpty++
             $problems.Add("$($rf.Name): ПУСТОЕ ЗНАЧЕНИЕ [$k]")
@@ -108,12 +108,12 @@ foreach ($rf in $resxFiles) {
     }
     $en = $neutral[$neutralName]
 
-    $missing = @($en.Keys | Where-Object { -not $values.ContainsKey($_) })
-    $extra   = @($values.Keys | Where-Object { -not $en.ContainsKey($_) })
+    $missing = @($en.Keys   | Where-Object { -not $values.ContainsKey($_) } | Sort-Object)
+    $extra   = @($values.Keys | Where-Object { -not $en.ContainsKey($_) }   | Sort-Object)
     if ($missing.Count -gt 0) { $statKeys++; $problems.Add("$($rf.Name): НЕТ КЛЮЧЕЙ (в resx меньше, чем в DLL): $($missing -join ', ')") }
     if ($extra.Count -gt 0)   { $statKeys++; $problems.Add("$($rf.Name): ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): $($extra -join ', ')") }
 
-    foreach ($k in @($en.Keys)) {
+    foreach ($k in @($en.Keys | Sort-Object)) {
         if (-not $values.ContainsKey($k)) { continue }
         $enPh = @(Get-Placeholders $en[$k]) -join ','
         $ruPh = @(Get-Placeholders $values[$k]) -join ','
@@ -167,7 +167,9 @@ if ($failedDlls.Count -gt 0) {
     foreach ($f in $failedDlls) { [void]$sb.AppendLine("  $f") }
 }
 
-[System.IO.File]::WriteAllText($ReportPath, $sb.ToString(), (New-Object System.Text.UTF8Encoding($true)))
+# Отчёт нормализуем в LF: .gitattributes задаёт *.txt eol=lf, а StringBuilder даёт CRLF,
+# из-за чего каждый прогон показывался в git diff как полностью переписанный файл.
+[System.IO.File]::WriteAllText($ReportPath, ($sb.ToString() -replace "`r`n", "`n"), (New-Object System.Text.UTF8Encoding($true)))
 Write-Host ''
 Write-Host 'ИТОГИ:'
 Write-Host ("  файлов: {0}, записей: {1}" -f $statFiles, $statEntries)

@@ -1,5 +1,5 @@
 ﻿=== Аудит покрытия локализации: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229 ===
-Дата: 2026-09-24 07:08
+Дата: 2026-09-24 08:52
 
 DLL просканировано:        624
   не удалось загрузить:    2
@@ -178,6 +178,20 @@ Neutral .resources всего:  337
   из них файлы данных SharePoint:            13 (синхронизированы с ASPX-разметкой, не переводятся)
   пустых контейнеров (0 строковых записей):  38
   таблиц со строками:                        12, всего строк: 60
+
+--- ТАБЛИЦЫ СО СТРОКАМИ (строков | ресурс | DLL | байт) ---
+    15 | JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922
+    15 | JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources | JetBrains.ReSharper.Psi.Web.dll | 2211
+     5 | JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129
+     4 | JetBrains.dotTraceInstant.ViewModel.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.ViewModel.Interface.dll | 447
+     4 | JetBrains.ReSharper.UnitTestProvider.MSTest12.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest12.dll | 709
+     4 | JetBrains.ReSharper.UnitTestProvider.MSTest14.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest14.dll | 709
+     4 | JetBrains.ReSharper.UnitTestProvider.MSTest15.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest15.dll | 709
+     3 | JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources.resources | JetBrains.ReSharper.Psi.CSharp.dll | 25094
+     2 | JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources | JetBrains.DotTrace.Ide.Core.Interface.dll | 495
+     2 | JetBrains.ReSharper.Plugins.Unity.CSharp.Psi.CodeStyle.AdditionalFileLayoutResources.resources | JetBrains.ReSharper.Plugins.Unity.dll | 8516
+     1 | JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 82355
+     1 | Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1224088
 
 --- В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL ---
   ApiParser.Resources.Strings.resources
