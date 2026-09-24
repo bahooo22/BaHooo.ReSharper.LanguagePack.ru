@@ -3,7 +3,9 @@
 #requires -Version 5
 [CmdletBinding()]
 param(
-    [string]$InstallDir = 'G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025',
+    # По умолчанию — последняя по времени установки платформа ReSharper на этой машине;
+    # каталог содержит хэш установки, поэтому захардкодить его нельзя.
+    [string]$InstallDir,
     [string]$ResxFolder,
     [string]$I18nDir,
     [string]$ReportPath
@@ -11,6 +13,25 @@ param(
 
 $ErrorActionPreference = 'Stop'
 
+function Find-LatestReSharperInstall {
+    $roots = @(
+        (Join-Path ${env:ProgramFiles(x86)} 'JetBrains\Installations'),
+        "$env:LOCALAPPDATA\JetBrains\Installations"
+    ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) }
+    $candidates = foreach ($root in $roots) {
+        Get-ChildItem -LiteralPath $root -Directory -Filter 'ReSharperPlatform*' -ErrorAction SilentlyContinue
+    }
+    $latest = $candidates | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if (-not $latest) {
+        throw "Каталог установки ReSharper не найден в: $($roots -join ', '). Передайте -InstallDir явно."
+    }
+    return $latest.FullName
+}
+
+if (-not $InstallDir) {
+    $InstallDir = Find-LatestReSharperInstall
+    Write-Host "Каталог установки определён автоматически: $InstallDir"
+}
 if (-not $ResxFolder) { $ResxFolder = Join-Path $PSScriptRoot '..\raw-resx-done_ru-RU' }
 if (-not $I18nDir)    { $I18nDir = Join-Path $InstallDir 'Extensions\BaHooo.ReSharper.I18n.ru\i18n' }
 if (-not $ReportPath) { $ReportPath = Join-Path $PSScriptRoot 'i18n-coverage-report.txt' }
@@ -77,8 +98,11 @@ $deployedNorm = @($deployed | ForEach-Object { $_ -replace '\.ru-RU\.resources$'
 $deployedExtra    = @($deployedNorm | Where-Object { -not $packSet.Contains($_) })
 $packNotDeployed  = @($pack | Where-Object { $deployedNorm -notcontains $_ })
 
-# Размер внедрённого ресурса для отсутствующих (для оценки объёма работы)
+# Размер и число строковых записей для отсутствующих ресурсов: без числа строк
+# список неотличим — 180-байтовый пустой контейнер формы и таблица на 2900 строк
+# выглядят одинаково. Поток уже открыт, поэтому доплата за подсчёт почти нулевая.
 $sizeByName = @{}
+$strCountByName = @{}
 $missingNames = @($missing | Select-Object -ExpandProperty Name -Unique)
 if ($missingNames.Count -gt 0) {
     $dllMap = @{}
@@ -89,7 +113,22 @@ if ($missingNames.Count -gt 0) {
             foreach ($n in $missingNames) {
                 if ($dllMap[$n] -eq $dll -and -not $sizeByName.ContainsKey($n)) {
                     $s = $asm.GetManifestResourceStream($n)
-                    if ($s) { $sizeByName[$n] = $s.Length; $s.Close() }
+                    if ($s) {
+                        $sizeByName[$n] = $s.Length
+                        try {
+                            $reader = New-Object System.Resources.ResourceReader($s)
+                            $enumerator = $reader.GetEnumerator()
+                            $strings = 0
+                            while ($enumerator.MoveNext()) { if ($enumerator.Value -is [string]) { $strings++ } }
+                            # Close() освобождает и сам читатель, и его перечислитель:
+                            # у ResourceEnumerator в .NET Framework нет метода Dispose().
+                            $reader.Close()
+                            $strCountByName[$n] = $strings
+                        } catch {
+                            $strCountByName[$n] = -1
+                        }
+                        $s.Close()
+                    }
                 }
             }
         } catch { }
@@ -115,13 +154,30 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine()
 
 if ($missing.Count -gt 0) {
-    [void]$sb.AppendLine('--- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер) ---')
+    [void]$sb.AppendLine('--- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер байт | строковых записей) ---')
+    [void]$sb.AppendLine('    (-1 = ресурс не читается как набор имя/значение; 0 = пустой контейнер формы/картинок)')
     foreach ($m in $missing | Sort-Object { $_.Name -notlike '*.Strings*' }, Name) {
         $sz = $sizeByName[$m.Name]; $szText = if ($sz) { '{0}' -f $sz } else { '?' }
+        $st = $strCountByName[$m.Name]; $stText = if ($null -eq $st) { '?' } else { '{0}' -f $st }
         $kind = if ($m.Name -like '*.Strings.*' -or $m.Name -like '*.Strings') { '[Strings]' } else { '[other]  ' }
         $dllsText = (@($m.Group | Select-Object -ExpandProperty Dll -Unique) -join ', ')
-        [void]$sb.AppendLine("$kind $($m.Name) | $dllsText | $szText")
+        [void]$sb.AppendLine("$kind $($m.Name) | $dllsText | $szText | $stText")
     }
+    [void]$sb.AppendLine()
+
+    # Сводка по своим (JetBrains) ресурсам: сторонние NuGet/DevExpress/Actipro/yWorks
+    # механизмом сателлитов не перекрываются, их доля в списке — только шум.
+    $own = @($missing | Where-Object { (@($_.Group | Select-Object -ExpandProperty Dll -Unique)) -like 'JetBrains*' })
+    $ownWithData = @($own | Where-Object { $_.Name -notlike '*.Sharepoint.ResourceFiles.*' })
+    $empty = @($ownWithData | Where-Object { $strCountByName[$_.Name] -eq 0 })
+    $withStrings = @($ownWithData | Where-Object { $strCountByName[$_.Name] -gt 0 })
+    $sumStrings = 0
+    foreach ($w in $withStrings) { $sumStrings += $strCountByName[$w.Name] }
+    [void]$sb.AppendLine('--- ОЦЕНКА ДЕФИЦИТА ПО РЕСУРСАМ JETBRAINS ---')
+    [void]$sb.AppendLine("Непокрытых JetBrains-ресурсов:              $($own.Count)")
+    [void]$sb.AppendLine("  из них файлы данных SharePoint:            $(@($own).Count - @($ownWithData).Count) (синхронизированы с ASPX-разметкой, не переводятся)")
+    [void]$sb.AppendLine("  пустых контейнеров (0 строковых записей):  $($empty.Count)")
+    [void]$sb.AppendLine("  таблиц со строками:                        $($withStrings.Count), всего строк: $sumStrings")
     [void]$sb.AppendLine()
 }
 
