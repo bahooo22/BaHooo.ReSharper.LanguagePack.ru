@@ -11,7 +11,11 @@ param(
     # обязаны смотреть в одну и ту же установку, иначе их числа несопоставимы.
     [string]$InstallDir,
     [string]$ResxFolder,
-    [string]$ReportPath
+    [string]$ReportPath,
+    # Дата в отчёте делает его разным на каждый прогон, поэтому любой пересъём пачкает git diff и
+    # не доказывает воспроизводимость сверки. По умолчанию дата не пишется (провенанс виден из
+    # git log по файлу отчёта), `-stamp` возвращает её, когда отчёт идёт человеку.
+    [switch]$Stamp
 )
 
 $ErrorActionPreference = 'Stop'
@@ -167,7 +171,7 @@ foreach ($rf in $resxFiles) {
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('=== Проверка перевода всех resx-файлов пакета ===')
 [void]$sb.AppendLine("Установка: $InstallDir")
-[void]$sb.AppendLine("Дата: $(Get-Date -Format 'yyyy-MM-dd HH:mm')")
+if ($Stamp) { [void]$sb.AppendLine("Дата: $(Get-Date -Format 'yyyy-MM-dd HH:mm')") }
 [void]$sb.AppendLine()
 [void]$sb.AppendLine("resx-файлов:                $statFiles")
 [void]$sb.AppendLine("записей всего:              $statEntries")

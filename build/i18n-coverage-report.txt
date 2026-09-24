@@ -1,5 +1,4 @@
 ﻿=== Аудит покрытия локализации: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229 ===
-Дата: 2026-09-24 08:52
 
 DLL просканировано:        624
   не удалось загрузить:    2

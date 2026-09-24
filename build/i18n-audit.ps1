@@ -8,7 +8,12 @@ param(
     [string]$InstallDir,
     [string]$ResxFolder,
     [string]$I18nDir,
-    [string]$ReportPath
+    [string]$ReportPath,
+    # Строка «Дата:» делает отчёт разным на КАЖДЫЙ прогон, то есть любой пересъём шумами пачкает
+    # git diff и невозможно доказать воспроизводимость сверки. По умолчанию дата в отчёт не
+    # пишется (провенанс и так виден из git log по файлу отчёта), `-stamp` возвращает её, когда
+    # отчёт идёт человеку, а не машине.
+    [switch]$Stamp
 )
 
 $ErrorActionPreference = 'Stop'
@@ -138,7 +143,7 @@ if ($missingNames.Count -gt 0) {
 # --- Отчёт ---
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine("=== Аудит покрытия локализации: $InstallDir ===")
-[void]$sb.AppendLine("Дата: $(Get-Date -Format 'yyyy-MM-dd HH:mm')")
+if ($Stamp) { [void]$sb.AppendLine("Дата: $(Get-Date -Format 'yyyy-MM-dd HH:mm')") }
 [void]$sb.AppendLine()
 [void]$sb.AppendLine("DLL просканировано:        $($scan.Total)")
 [void]$sb.AppendLine("  не удалось загрузить:    $($scan.Failed.Count)")
