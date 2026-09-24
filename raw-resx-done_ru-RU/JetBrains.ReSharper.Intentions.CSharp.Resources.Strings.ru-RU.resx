@@ -2278,7 +2278,7 @@
   <value>Продолжить объединение в шаблон</value>
 </data>
 <data name="Flip_Operands__Text" xml:space="preserve">
-  <value>Поменять операнды '{0'{1}</value>
+  <value>Поменять операнды '{0}'{1}</value>
 </data>
 <data name="RemoveRedundantComment_Text" xml:space="preserve">
   <value>Удалить избыточный комментарий</value>
