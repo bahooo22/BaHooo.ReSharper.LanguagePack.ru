@@ -69,6 +69,9 @@ setting, and the hash cache would report all 243 files as changed.
 
 **Translation files:** 243 `.resx`
 **Strings in them:** 33,945 `<data>` elements, 33,229 of them have Cyrillic in the value.
+&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 33,943 because two keys are written twice in their
+&nbsp;&nbsp;&nbsp;&nbsp;resx (`MustHaveInitToImplementMessage` in Daemon.CSharp and `ConvertPropertyToMethod...` in
+&nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
 &nbsp;&nbsp;&nbsp;&nbsp;yields 34,917, because the header of every resx carries 4 XSD documentation examples.
 **Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
@@ -123,13 +126,19 @@ The 157 uncovered resources are not 157 pages of untranslated UI:
     `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15...Strings`
     (4 each), `FileLayoutPatternResources` (3), `Unity...AdditionalFileLayoutResources` (2),
     `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1),
-    `Resources.resources` of the VS package (1). Of these 60: 11 strings belong to dotTrace
-    (a separate product, not part of ReSharper inside Visual Studio), 15 are license texts,
-    and the remaining 34 in 8 tables are the actual translation work tracked in TODO.md.
+    `Resources.resources` of the VS package (1). Every one of the 60 values was read back out of
+    the neutral resource in the platform DLL, and by content 42 of them cannot be translated:
+    EULA and RTF agreement texts (20), Razor generated-code templates (15), XML/XSLT layout
+    patterns and the XML inspection index (6), and one AHE token in the VS package (1). That
+    leaves **18 translatable strings = 9 unique phrases**: 12 of them are three copies of one
+    MSTest set whose Russian text already exists in
+    `...UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx`, and 6 belong to the dotTrace UI,
+    which is installed separately. Row-by-row breakdown is in TODO.md; the audit script now
+    prints the table itself.
 
 **Conclusion:** extracting resources from every DLL is not needed. Of the 337 platform
-resources, the uncovered localizable remainder is 60 strings in 12 tables - against 33,229
-strings already translated. The 63 of our `.resx` that are absent from this VS install are kept
+resources, the uncovered localizable remainder is 9 unique translatable phrases (18 strings in
+12 tables) - against 33,943 records in the 243 resx files of the pack. The 63 of our `.resx` that are absent from this VS install are kept
 on purpose: they belong to Rider, dotPeek, dotMemory and dotTrace Home, which this same source
 tree serves.
 
@@ -154,7 +163,7 @@ that is a real gap and it should be closed with a translation.
 
 One more case, settled by measurement rather than by reading the report: the key
 `Resource0UsageInlineWillProduceConflicts_Text` in
-`JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings`. Out of 215 rows with placeholder
+`JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings`. Out of 214 rows with placeholder
 mismatches it is the only formally dangerous one (Russian references an index the checker did not
 find in English). The neutral English value there literally reads
 `Inlining resource {0, usage} will produce conflicts`, and `[string]::Format` on that string
