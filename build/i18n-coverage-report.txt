@@ -1,17 +1,17 @@
-﻿=== Аудит покрытия локализации: G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025 ===
-Дата: 2026-09-24 03:21
+﻿=== Аудит покрытия локализации: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229 ===
+Дата: 2026-09-24 05:00
 
-DLL просканировано:        626
+DLL просканировано:        624
   не удалось загрузить:    2
-Neutral .resources всего:  340
+Neutral .resources всего:  337
 Файлов в пакете (resx):    243
-Задеплоено в i18n:         243
+Задеплоено в i18n:         0
 
-ПОКРЫТО ПАКЕТОМ:  182 из 340
-ОТСУТСТВУЕТ В ПАКЕТЕ: 158
-В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 61
+ПОКРЫТО ПАКЕТОМ:  180 из 337
+ОТСУТСТВУЕТ В ПАКЕТЕ: 157
+В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 63
 Задеплоено лишнего (нет в resx): 0
-Есть в resx, но не задеплоено: 0
+Есть в resx, но не задеплоено: 243
 
 --- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер) ---
 [Strings] JetBrains.ReSharper.UnitTestProvider.MSTest12.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest12.dll | 709
@@ -134,7 +134,6 @@ Neutral .resources всего:  340
 [other]   Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.ExternalAccessAspNetCoreResources.resources | Microsoft.CodeAnalysis.ExternalAccess.AspNetCore.dll | 180
 [other]   Microsoft.CodeAnalysis.FeaturesResources.resources | Microsoft.CodeAnalysis.Features.dll | 150731
 [other]   Microsoft.CodeAnalysis.LanguageServer.LanguageServerProtocolResources.resources | Microsoft.CodeAnalysis.LanguageServer.Protocol.dll | 1576
-[other]   Microsoft.CodeAnalysis.Sarif.SdkResources.resources | Sarif.dll | 10988
 [other]   Microsoft.CodeAnalysis.Scripting.ScriptingResources.resources | Microsoft.CodeAnalysis.Scripting.dll | 3107
 [other]   Microsoft.CodeAnalysis.VisualBasic.VBFeaturesResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 80545
 [other]   Microsoft.CodeAnalysis.VisualBasic.VBResources.resources | Microsoft.CodeAnalysis.VisualBasic.dll | 274012
@@ -165,7 +164,7 @@ Neutral .resources всего:  340
 [other]   NuGet.Packaging.PackageCreation.Resources.NuGetResources.resources | NuGet.Packaging.dll | 5651
 [other]   NuGet.Packaging.Rules.AnalysisResources.resources | NuGet.Packaging.dll | 8625
 [other]   NuGet.Versioning.Resources.resources | NuGet.Versioning.dll | 695
-[other]   Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1226232
+[other]   Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1224088
 [other]   System.Windows.Controls.DataVisualization.Properties.Resources.resources | System.Windows.Controls.DataVisualization.Toolkit.dll | 5680
 [other]   System.Windows.Controls.Properties.Resources.resources | System.Windows.Controls.Input.Toolkit.dll, System.Windows.Controls.Layout.Toolkit.dll | 4973
 [other]   VisualBasicAnalyzersResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 963
@@ -189,6 +188,8 @@ Neutral .resources всего:  340
   JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.resources
   JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.resources
   JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.resources
+  JetBrains.Qodana.Core.Resources.Strings.resources
+  JetBrains.Qodana.VisualStudio.Common.Resources.Strings.resources
   JetBrains.RdBackend.Common.Resources.Strings.resources
   JetBrains.ReSharper.AI.Core.Resources.Strings.resources
   JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.resources
@@ -232,6 +233,251 @@ Neutral .resources всего:  340
   JetBrains.TestBakery.RiderPlugin.Resources.Strings.resources
   JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.resources
   JetBrains.ViewModels.Src.Options.Res.OptionsStrings.resources
+  Mono.Debugging.Resources.Strings.resources
+  OperatorsResolveCacheGenerator.Resources.Strings.resources
+  RiderPlugin.UnrealLink.Resources.Strings.resources
+
+--- В RESX ЕСТЬ, НО НЕ ЗАДЕПЛОИРОВАНО В I18N ---
+  ApiParser.Resources.Strings.resources
+  DPA.Core.Resources.Strings.resources
+  DPA.Monitoring.Resources.Strings.resources
+  GammaJul.ForTea.Core.Resources.Strings.resources
+  JetBrains.Application.Res.StringTable.resources
+  JetBrains.Application.Resources.Strings.resources
+  JetBrains.Application.Resources.VsResources.resources
+  JetBrains.CommandLine.CleanupCode.Resources.Strings.resources
+  JetBrains.Common.Resources.Resources.Strings.resources
+  JetBrains.Common.SubsystemsManagement.Resources.Strings.resources
+  JetBrains.Common.SystemModulesOptionsManager.Resources.Strings.resources
+  JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.resources
+  JetBrains.Common.UI.Shell.Resources.Strings.resources
+  JetBrains.Common.Util.Resources.Strings.resources
+  JetBrains.Common.Util.Shell.Resources.Strings.resources
+  JetBrains.Common.Util.ViewModel.Resources.Strings.resources
+  JetBrains.Common.ViewModels.Resources.Strings.resources
+  JetBrains.DocumentManagers.Resources.Strings.resources
+  JetBrains.DocumentModel.Resources.Strings.resources
+  JetBrains.dotCover.Resources.Strings.resources
+  JetBrains.dotMemory.Core.Resources.Strings.resources
+  JetBrains.dotMemory.Home.Presentation.Resources.Strings.resources
+  JetBrains.dotMemory.Model.Resources.Strings.resources
+  JetBrains.dotMemory.Resources.TextResources.resources
+  JetBrains.dotMemory.VisualStudio.Resources.Strings.resources
+  JetBrains.DotPeek.Resources.Strings.resources
+  JetBrains.DotTrace.DataStructures.Resources.Strings.resources
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.resources
+  JetBrains.DotTrace.Features.Resources.Strings.resources
+  JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.resources
+  JetBrains.dotTrace.Home.Presentation.Resources.Strings.resources
+  JetBrains.DotTrace.Ide.Core.Common.Resources.Strings.resources
+  JetBrains.dotTrace.Ide.Core.UnitTesting.Resources.Strings.resources
+  JetBrains.DotTrace.Ide.Rider.Resources.Strings.resources
+  JetBrains.DotTrace.ViewModel.Resources.Strings.resources
+  JetBrains.dotTrace.VS.Properties.Resources.resources
+  JetBrains.dotTrace.VS.Resources.Strings.resources
+  JetBrains.DPA.Ide.VS.Resources.Strings.resources
+  JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.resources
+  JetBrains.EntityFramework.Features.Resources.Strings.resources
+  JetBrains.Etw.Resources.UITexts.resources
+  JetBrains.Fleet.Backend.Resources.Strings.resources
+  JetBrains.ForTea.RiderPlugin.Resources.Strings.resources
+  JetBrains.IDE.Resources.Strings.resources
+  JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.resources
+  JetBrains.Platform.MsBuildHost.Resources.Strings.resources
+  JetBrains.Platform.UIInteractive.Ide.Resources.Strings.resources
+  JetBrains.Platform.UIInteractive.Text.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.Backend.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs11.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs14RoslynAware.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs15.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs16.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs16RoslynAware.Resources.Strings.resources
+  JetBrains.Platform.VisualStudio.SinceVs17.Resources.Strings.resources
+  JetBrains.Profiler.Configurations.Resources.Strings.resources
+  JetBrains.Profiler.Home.Presentation.Resources.Strings.resources
+  JetBrains.Profiler.InternalLauncher.Resources.Strings.resources
+  JetBrains.Profiler.Resources.UITexts.resources
+  JetBrains.Profiler.Windows.Resources.Strings.resources
+  JetBrains.ProjectModel.ProjectsHost.Resources.Strings.resources
+  JetBrains.ProjectModel.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.Core.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.LiveTemplates.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.Refactorings.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.SolutionAnalysis.Resources.Strings.resources
+  JetBrains.PsiFeatures.UIInteractive.SolutionBuilder.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.Debugger.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.ReSpeller.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs10.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs12.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs14.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs14RoslynAware.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs15.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs16RoslynAware.Resources.Strings.resources
+  JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings.resources
+  JetBrains.PsiFeatures.Web.UIInteractive.Resources.Strings.resources
+  JetBrains.Qodana.Core.Resources.Strings.resources
+  JetBrains.Qodana.VisualStudio.Common.Resources.Strings.resources
+  JetBrains.RdBackend.Common.Resources.Strings.resources
+  JetBrains.ReSharper.AI.Core.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.BuildScripts.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.Protobuf.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.Resources.Strings10.resources
+  JetBrains.ReSharper.Daemon.Resources.Strings3.resources
+  JetBrains.ReSharper.Daemon.Resx.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.Specific.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.resources
+  JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.Daemon.Xml.Resources.Strings.resources
+  JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.resources
+  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.resources
+  JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.resources
+  JetBrains.ReSharper.ExternalSources.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.resources
+  JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.ExternalSources.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Resources.GroupingStrings.resources
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings.resources
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Altering.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Diagramming.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Environment.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Inspections.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Intellisense.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings.resources
+  JetBrains.ReSharper.Features.Internal.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Navigation.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Navigation.VB.Resources.Strings.resources
+  JetBrains.ReSharper.Features.RegExp.Resources.Strings.resources
+  JetBrains.ReSharper.Features.ReSpeller.Resources.Strings.resources
+  JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.resources
+  JetBrains.ReSharper.Features.StructuralSearch.resources.Strings.resources
+  JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Web.Resources.Strings.resources
+  JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.resources
+  JetBrains.ReSharper.Features.Xml.Resources.Strings.resources
+  JetBrains.ReSharper.I18n.Services.Asp.Resources.Strings.resources
+  JetBrains.ReSharper.I18n.Services.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.I18n.Services.Resources.Strings.resources
+  JetBrains.ReSharper.I18n.Services.VB.Resources.Strings.resources
+  JetBrains.ReSharper.I18n.Services.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.InplaceRefactorings.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.Resources.Strings11.resources
+  JetBrains.ReSharper.Intentions.Resx.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.VB.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.Web.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.Intentions.Xml.Resources.Strings.resources
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.resources
+  JetBrains.ReSharper.LiveTemplates.VB.Resources.Strings1.resources
+  JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Godot.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.resources
+  JetBrains.ReSharper.Plugins.Yaml.Resources.Strings.resources
+  JetBrains.ReSharper.Product.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Asm.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Cpp.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.RegExp.resources.Strings.resources
+  JetBrains.ReSharper.Psi.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Resources.Strings1.resources
+  JetBrains.ReSharper.Psi.Resources.Strings12.resources
+  JetBrains.ReSharper.Psi.Resx.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.VB.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.Psi.Xml.Resources.Strings.resources
+  JetBrains.ReSharper.Refactorings.BuildScripts.Resources.Strings.resources
+  JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.resources
+  JetBrains.ReSharper.Refactorings.Properties.Resources.resources
+  JetBrains.ReSharper.Refactorings.Resources.Strings.resources
+  JetBrains.ReSharper.Refactorings.Resources.Strings13.resources
+  JetBrains.ReSharper.Refactorings.VB.Resources.Strings.resources
+  JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.resources
+  JetBrains.ReSharper.ReSharperTutorials.Resources.Strings.resources
+  JetBrains.ReSharper.Resources.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestExplorer.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestFramework.Src.Features.TestLinker.Strings.resources
+  JetBrains.ReSharper.UnitTesting.Analysis.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.MSTest10.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.MSTest11.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestRunner.dotMemoryUnit.Resources.Strings.resources
+  JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.resources
+  JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.resources
+  JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings.resources
+  JetBrains.Rider.Backend.Resources.Strings.resources
+  JetBrains.Rider.Backend.WebServices.Resources.Strings.resources
+  JetBrains.Rider.MacAgent.Resources.Strings.resources
+  JetBrains.Rider.Plugins.Verse.Resources.Strings.resources
+  JetBrains.Rider.Roslyn.Host.Resources.Strings.resources
+  JetBrains.Rider.Test.Framework.Resources.Strings.resources
+  JetBrains.Roslyn.Host.Resources.Strings.resources
+  JetBrains.SignatureVerifier.Messages.resources
+  JetBrains.SourceView.Avalonia.Resources.Strings.resources
+  JetBrains.SourceView.FoldersMapping.Resources.Strings.resources
+  JetBrains.SourceView.SourceModel.Resources.Strings.resources
+  JetBrains.SourceView.SourceViewUI.Resources.Strings.resources
+  JetBrains.SourceView.ViewModels.Resources.Strings.resources
+  JetBrains.Standalone.Shell.Avalonia.Resources.Strings.resources
+  JetBrains.Standalone.Shell.Res.Stringtable.resources
+  JetBrains.Standalone.TabWell.Resources.Strings.resources
+  JetBrains.Standalone.TextControl.Resources.Strings.resources
+  JetBrains.Symbols.Resources.Strings.resources
+  JetBrains.TeamCity.Core.Resources.CoreStrings.resources
+  JetBrains.TeamCity.Presentation.Resources.PresentationStrings.resources
+  JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings.resources
+  JetBrains.TestBakery.Core.Resources.Strings.resources
+  JetBrains.TestBakery.RiderPlugin.Resources.Strings.resources
+  JetBrains.TextControl.Resources.Strings.resources
+  JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.resources
+  JetBrains.UI.Avalonia.Resources.Strings.resources
+  JetBrains.UI.Resources.CommonStrings.resources
+  JetBrains.UI.Resources.Strings.resources
+  JetBrains.UI.Resources.StringTable.resources
+  JetBrains.UsageStatistics.Resources.Strings.resources
+  JetBrains.ViewModels.Src.Options.Res.OptionsStrings.resources
+  JetBrains.VsIntegration.Resources.Strings.resources
   Mono.Debugging.Resources.Strings.resources
   OperatorsResolveCacheGenerator.Resources.Strings.resources
   RiderPlugin.UnrealLink.Resources.Strings.resources
