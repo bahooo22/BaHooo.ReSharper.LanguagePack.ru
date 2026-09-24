@@ -461,9 +461,13 @@ Import-Module .\VersionManager.psm1
 
 ## ⚙️ Requirements for Local Build
 
-1. **Windows PowerShell 5.1 or PowerShell 7** - both work, but **only with UTF-8 BOM in
-   `.ps1`/`.psm1`**: without the BOM, Windows PowerShell 5.1 reads the script in the system
-   ANSI codepage, Cyrillic strings turn into garbage and the file stops parsing.
+1. **PowerShell 7 (`pwsh`) is the recommended interpreter.** The scripts also run under Windows
+   PowerShell 5.1, but **only with a UTF-8 BOM in `.ps1`/`.psm1`**: without the BOM, 5.1 reads the
+   file in the system ANSI codepage, Cyrillic strings turn into garbage and the script stops
+   parsing. The parallel run (`-up` / `-Threads N` in `resx-to-resources.ps1`) is a separate case:
+   under 5.1 the `Ensure-PowerShell7Available` function (lines 717-754) downloads portable
+   PowerShell 7 (101 MB for `PowerShell-7.6.6-win-x64.zip`) into `Tools\PWSH7\` and restarts the
+   script, so launching under `pwsh 7` right away is faster and needs no network access.
 2. **ResGen.exe** - ships only inside the Windows SDK, there is no separate download for it.
    The script looks for it in `PATH`, then in every
    `Microsoft SDKs\Windows\v10.0A\bin\NETFX * Tools\` directory, then in `.\Tools\ResGen\`.
