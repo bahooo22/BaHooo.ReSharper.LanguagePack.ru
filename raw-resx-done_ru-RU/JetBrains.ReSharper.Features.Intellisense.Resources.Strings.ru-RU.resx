@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -785,9 +785,9 @@
   <value>Локальная переменная</value>
 </data>
 <data name="CreateTypeParameter_Text" xml:space="preserve">
-  <value>(СЃРѕР·РґР°С‚СЊ РїР°СЂР°РјРµС‚СЂ С‚РёРїР°)</value>
+  <value>(создать параметр типа)</value>
 </data>
 <data name="GenerateLoggerMethod_Text" xml:space="preserve">
-  <value>(СЃРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ РјРµС‚РѕРґ Р»РѕРіРіРµСЂР°)</value>
+  <value>(сгенерировать метод логгера)</value>
 </data>
 </root>

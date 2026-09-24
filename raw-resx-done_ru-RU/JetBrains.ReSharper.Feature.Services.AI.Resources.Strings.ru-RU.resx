@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -316,12 +316,12 @@
   <value>Пожалуйста, найдите проблемы в следующем коде:{0}{1}</value>
 </data>
 <data name="AIAssistantZone_Description" xml:space="preserve">
-  <value>Р’СЃС‚СЂРѕРµРЅРЅС‹Р№ С‡Р°С‚ AI Assistant Рё РґСЂСѓРіРёРµ С„СѓРЅРєС†РёРё СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РР РІ ReSharper</value>
+  <value>Встроенный чат AI Assistant и другие функции с использованием ИИ в ReSharper</value>
 </data>
 <data name="AIAssistantZone_FeatureName" xml:space="preserve">
   <value>AI Assistant</value>
 </data>
 <data name="FeatureUnavailableInOutOfProcessMode_Text" xml:space="preserve">
-  <value>Р­С‚Р° С„СѓРЅРєС†РёСЏ РІ РЅР°СЃС‚РѕСЏС‰РµРµ РІСЂРµРјСЏ РЅРµРґРѕСЃС‚СѓРїРЅР° РІРѕ РІРЅРµРїСЂРѕС†РµСЃСЃРЅРѕРј СЂРµР¶РёРјРµ</value>
+  <value>Эта функция в настоящее время недоступна во внепроцессном режиме</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1213,10 +1213,10 @@ BaHooo.ReSharper.I18n.ru, v. 2025.3.3.12
   <value>Пожалуйста, проверьте, как вы предпочитаете делиться данными с JetBrains:</value>
 </data>
 <data name="LicensingMethods_Text" xml:space="preserve">
-  <value>РЎРїРѕСЃРѕР±С‹ Р»РёС†РµРЅР·РёСЂРѕРІР°РЅРёСЏ</value>
+  <value>Способы лицензирования</value>
 </data>
 <data name="ModifyAction_Text" xml:space="preserve">
-  <value>РР·РјРµРЅРёС‚СЊ</value>
+  <value>Изменить</value>
 </data>
 </root>
 

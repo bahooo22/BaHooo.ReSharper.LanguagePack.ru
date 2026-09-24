@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1096,9 +1096,9 @@
   <value>Политика сборки решения по умолчанию перед запуском тестов во всех новых сеансах</value>
 </data>
 <data name="UnitTestingZone_Description" xml:space="preserve">
-  <value>РЎСЂРµРґСЃС‚РІРѕ Р·Р°РїСѓСЃРєР° С‚РµСЃС‚РѕРІ, РѕР±РѕР·СЂРµРІР°С‚РµР»СЊ Рё С„СѓРЅРєС†РёРё СЂРµРґР°РєС‚РѕСЂР° РґР»СЏ РїР»Р°С‚С„РѕСЂРј РјРѕРґСѓР»СЊРЅРѕРіРѕ С‚РµСЃС‚РёСЂРѕРІР°РЅРёСЏ</value>
+  <value>Средство запуска тестов, обозреватель и функции редактора для платформ модульного тестирования</value>
 </data>
 <data name="UnitTestingZone_FeatureName" xml:space="preserve">
-  <value>РњРѕРґСѓР»СЊРЅРѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ</value>
+  <value>Модульное тестирование</value>
 </data>
 </root>

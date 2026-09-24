@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1057,30 +1057,30 @@
   <value>Показать зависания UI</value>
 </data>
 <data name="DPA_Monitoring" xml:space="preserve">
-  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі</value>
+  <value>Мониторинг</value>
 </data>
 <data name="EmptyContentMonitoringDisabledText" xml:space="preserve">
-  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕС‚РєР»СЋС‡С‘РЅ.</value>
+  <value>Мониторинг отключён.</value>
 </data>
 <data name="EmptyContentMonitoringEnableLinkText" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РјРѕРЅРёС‚РѕСЂРёРЅРі</value>
+  <value>Включить мониторинг</value>
 </data>
 <data name="EmptyContentView_Enable" xml:space="preserve">
-  <value>Р’С‹ РјРѕР¶РµС‚Рµ РІРєР»СЋС‡РёС‚СЊ РµРіРѕ РІ </value>
+  <value>Вы можете включить его в </value>
 </data>
 <data name="EmptyContentView_Link" xml:space="preserve">
-  <value>РџСЂРѕРґСѓРєС‚С‹ Рё С„СѓРЅРєС†РёРё</value>
+  <value>Продукты и функции</value>
 </data>
 <data name="EmptyContentView_ProductIsCurrentlyDisabled" xml:space="preserve">
-  <value>{0} СЃРµР№С‡Р°СЃ РѕС‚РєР»СЋС‡РµРЅРѕ</value>
+  <value>{0} сейчас отключено</value>
 </data>
 <data name="MonitoringDetailsCaused" xml:space="preserve">
-  <value>Р­С‚Р° РїСЂРѕР±Р»РµРјР° РІС‹Р·РІР°РЅР°:</value>
+  <value>Эта проблема вызвана:</value>
 </data>
 <data name="QuickFilter_ShowMuted" xml:space="preserve">
-  <value>РџРѕРєР°Р·Р°С‚СЊ СЃРєСЂС‹С‚С‹Рµ РїСЂРѕР±Р»РµРјС‹</value>
+  <value>Показать скрытые проблемы</value>
 </data>
 <data name="StackTraceTabTitle" xml:space="preserve">
-  <value>РўСЂР°СЃСЃРёСЂРѕРІРєР° СЃС‚РµРєР° РґР»СЏ {0}</value>
+  <value>Трассировка стека для {0}</value>
 </data>
 </root>

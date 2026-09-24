@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -433,18 +433,18 @@
   <value>На базе технологии LanguageTool</value>
 </data>
 <data name="AcceptLicenseButtonText" xml:space="preserve">
-  <value>РџСЂРёРЅРёРјР°СЋ</value>
+  <value>Принимаю</value>
 </data>
 <data name="GrazieGplLicenseNoticePostfix" xml:space="preserve">
   <value>:</value>
 </data>
 <data name="GrazieGplLicenseNoticePrefix" xml:space="preserve">
-  <value>РЎР»РµРґСѓСЋС‰РёРµ СЃР»РѕРІР°СЂРё Р»РёС†РµРЅР·РёСЂРѕРІР°РЅС‹ РєР°Рє СЃРІРѕР±РѕРґРЅРѕРµ РїСЂРѕРіСЂР°РјРјРЅРѕРµ РѕР±РµСЃРїРµС‡РµРЅРёРµ РЅР° СѓСЃР»РѕРІРёСЏС… </value>
+  <value>Следующие словари лицензированы как свободное программное обеспечение на условиях </value>
 </data>
 <data name="LicenseInformationWindowTitle" xml:space="preserve">
-  <value>РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё</value>
+  <value>Сведения о лицензии</value>
 </data>
 <data name="RejectLicenseButtonText" xml:space="preserve">
-  <value>РћС‚РєР»РѕРЅСЏСЋ</value>
+  <value>Отклоняю</value>
 </data>
 </root>

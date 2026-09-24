@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -862,6 +862,6 @@
   <value>Квалификатор типа владельца свойства избыточен и может быть безопасно удален</value>
 </data>
 <data name="UnsupportedNulConditionalBindingErrorMessage" xml:space="preserve">
-  <value>РћРїРµСЂР°С‚РѕСЂ СѓСЃР»РѕРІРЅРѕРіРѕ РґРѕСЃС‚СѓРїР° Рє null РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ</value>
+  <value>Оператор условного доступа к null не поддерживается</value>
 </data>
 </root>

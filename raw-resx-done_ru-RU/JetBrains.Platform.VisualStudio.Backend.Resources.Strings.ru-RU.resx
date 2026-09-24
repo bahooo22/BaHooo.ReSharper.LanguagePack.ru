@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -392,80 +392,80 @@
   <value>Некоторые переопределенные команды Visual Studio можно скрыть в меню, чтобы избежать дублирования команд</value>
 </data>
 <data name="AIAssistantNotFoundToTryJuniePlease_Text" xml:space="preserve">
-  <value>AI Assistant РЅРµ РЅР°Р№РґРµРЅ.
-Р§С‚РѕР±С‹ РїРѕРїСЂРѕР±РѕРІР°С‚СЊ Junie, Р·Р°РїСѓСЃС‚РёС‚Рµ РјР°СЃС‚РµСЂ СѓСЃС‚Р°РЅРѕРІРєРё ReSharper РёР»Рё dotUltimate Рё СѓР±РµРґРёС‚РµСЃСЊ, С‡С‚Рѕ РєРѕРјРїРѕРЅРµРЅС‚ В«AI AssistantВ» РІС‹Р±СЂР°РЅ РґР»СЏ СѓСЃС‚Р°РЅРѕРІРєРё.</value>
+  <value>AI Assistant не найден.
+Чтобы попробовать Junie, запустите мастер установки ReSharper или dotUltimate и убедитесь, что компонент «AI Assistant» выбран для установки.</value>
 </data>
 <data name="CallAutomaticallyOnNuGetChangesOrIf_Text" xml:space="preserve">
-  <value>Р’С‹Р·С‹РІР°С‚СЊ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСЂРё РёР·РјРµРЅРµРЅРёСЏС… РІ NuGet РёР»Рё РµСЃР»Рё РїСЂРѕРµРєС‚ СЃРѕРґРµСЂР¶РёС‚ СѓСЃР»РѕРІРЅС‹Рµ СЃСЃС‹Р»РєРё</value>
+  <value>Вызывать автоматически при изменениях в NuGet или если проект содержит условные ссылки</value>
 </data>
 <data name="DefaultDiskCleanupSettings_Text" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕР№РєРё РѕС‡РёСЃС‚РєРё РґРёСЃРєР° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ</value>
+  <value>Настройки очистки диска по умолчанию</value>
 </data>
 <data name="DeplozedPackagesCache_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€ СЂР°Р·РІРµСЂРЅСѓС‚С‹С… РїР°РєРµС‚РѕРІ. РњРѕР¶РЅРѕ Р±РµР·РѕРїР°СЃРЅРѕ СѓРґР°Р»РёС‚СЊ. РќРµРѕР±С…РѕРґРёРјС‹Рµ РєСЌС€Рё Р±СѓРґСѓС‚ СЃРѕР·РґР°РЅС‹ РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ.</value>
+  <value>Кэш развернутых пакетов. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
 </data>
 <data name="DoNotCallMSBuild_Text" xml:space="preserve">
-  <value>РќРµ РІС‹Р·С‹РІР°С‚СЊ MSBuild</value>
+  <value>Не вызывать MSBuild</value>
 </data>
 <data name="DonTShowWhatSNewPageAfterUpdate_Text" xml:space="preserve">
-  <value>РќРµ РїРѕРєР°Р·С‹РІР°С‚СЊ СЃС‚СЂР°РЅРёС†Сѓ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ» РїРѕСЃР»Рµ РѕР±РЅРѕРІР»РµРЅРёСЏ</value>
+  <value>Не показывать страницу «Что нового» после обновления</value>
 </data>
 <data name="ExternalServices_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€ РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±. РќРµРІРѕР·РјРѕР¶РЅРѕ СѓРґР°Р»РёС‚СЊ С„Р°Р№Р»С‹, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РІ РЅР°СЃС‚РѕСЏС‰РµРµ РІСЂРµРјСЏ.</value>
+  <value>Кэш внешних служб. Невозможно удалить файлы, используемые в настоящее время.</value>
 </data>
 <data name="InstallerLogFiles_PathToCleanDescription_Text" xml:space="preserve">
-  <value>Р¤Р°Р№Р»С‹ Р¶СѓСЂРЅР°Р»Р° СѓСЃС‚Р°РЅРѕРІРєРё</value>
+  <value>Файлы журнала установки</value>
 </data>
 <data name="LogFiles_PathToCleanDescription_Text" xml:space="preserve">
-  <value>Р¤Р°Р№Р»С‹ Р¶СѓСЂРЅР°Р»РѕРІ</value>
+  <value>Файлы журналов</value>
 </data>
 <data name="MSBuildAccess_Header_Text" xml:space="preserve">
-  <value>Р”РѕСЃС‚СѓРї Рє MSBuild</value>
+  <value>Доступ к MSBuild</value>
 </data>
 <data name="ObtainDataFromMSBuildAfterEachCompilation_Text" xml:space="preserve">
-  <value>РџРѕР»СѓС‡Р°С‚СЊ РґР°РЅРЅС‹Рµ РёР· MSBuild РїРѕСЃР»Рµ РєР°Р¶РґРѕР№ РєРѕРјРїРёР»СЏС†РёРё</value>
+  <value>Получать данные из MSBuild после каждой компиляции</value>
 </data>
 <data name="ProductContentCache_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РїСЂРѕРґСѓРєС‚Р°. РњРѕР¶РЅРѕ Р±РµР·РѕРїР°СЃРЅРѕ СѓРґР°Р»РёС‚СЊ. РќРµРѕР±С…РѕРґРёРјС‹Рµ РєСЌС€Рё Р±СѓРґСѓС‚ СЃРѕР·РґР°РЅС‹ РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ.</value>
+  <value>Кэш содержимого продукта. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
 </data>
 <data name="ReadSolutionModelDirectlyFromProject_BoolOption_Text" xml:space="preserve">
-  <value>Р§РёС‚Р°С‚СЊ РјРѕРґРµР»СЊ СЂРµС€РµРЅРёСЏ РЅР°РїСЂСЏРјСѓСЋ РёР· С„Р°Р№Р»РѕРІ РїСЂРѕРµРєС‚Р°/СЂРµС€РµРЅРёСЏ.
-Р•СЃР»Рё СЃРЅСЏС‚Рѕ, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ API Visual Studio COM РґР»СЏ Р·Р°РіСЂСѓР·РєРё РјРѕРґРµР»Рё СЂРµС€РµРЅРёСЏ, РєР°Рє РІ ReSharper 2019.1 Рё Р±РѕР»РµРµ СЂР°РЅРЅРёС… РІРµСЂСЃРёСЏС…. Р­С‚Рѕ РїРѕРІРµРґРµРЅРёРµ РјРѕР¶РЅРѕ РїРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ РІ СЃРІРѕР№СЃС‚РІР°С… РґР»СЏ РєРѕРЅРєСЂРµС‚РЅС‹С… РїСЂРѕРµРєС‚РѕРІ.</value>
+  <value>Читать модель решения напрямую из файлов проекта/решения.
+Если снято, используется API Visual Studio COM для загрузки модели решения, как в ReSharper 2019.1 и более ранних версиях. Это поведение можно переопределить в свойствах для конкретных проектов.</value>
 </data>
 <data name="SettingsStorageCache_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€ С…СЂР°РЅРёР»РёС‰Р° РЅР°СЃС‚СЂРѕРµРє. РњРѕР¶РЅРѕ Р±РµР·РѕРїР°СЃРЅРѕ СѓРґР°Р»РёС‚СЊ. РќРµРѕР±С…РѕРґРёРјС‹Рµ РєСЌС€Рё Р±СѓРґСѓС‚ СЃРѕР·РґР°РЅС‹ РїРѕ С‚СЂРµР±РѕРІР°РЅРёСЋ.</value>
+  <value>Кэш хранилища настроек. Можно безопасно удалить. Необходимые кэши будут созданы по требованию.</value>
 </data>
 <data name="ShellCachesInAppData_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€Рё РѕР±РѕР»РѕС‡РєРё РІ Р»РѕРєР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёСЏ</value>
+  <value>Кэши оболочки в локальных данных приложения</value>
 </data>
 <data name="SolutionCachesInAppData_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€Рё СЂРµС€РµРЅРёР№ РІ Р»РѕРєР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С… РїСЂРёР»РѕР¶РµРЅРёСЏ</value>
+  <value>Кэши решений в локальных данных приложения</value>
 </data>
 <data name="SolutionCachesInTemp_PathToCleanDescription_Text" xml:space="preserve">
-  <value>РљСЌС€Рё СЂРµС€РµРЅРёР№ РІ temp</value>
+  <value>Кэши решений в temp</value>
 </data>
 <data name="SolutionModel_Header_Text" xml:space="preserve">
-  <value>РњРѕРґРµР»СЊ СЂРµС€РµРЅРёСЏ</value>
+  <value>Модель решения</value>
 </data>
 <data name="StoresForWhichWhatsNewIsShownSettingDescription" xml:space="preserve">
-  <value>РҐСЂР°РЅРёР»РёС‰Р°, РґР»СЏ РєРѕС‚РѕСЂС‹С… РїРѕРєР°Р·С‹РІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРѕРІРѕРІРІРµРґРµРЅРёСЏС…</value>
+  <value>Хранилища, для которых показывается информация о нововведениях</value>
 </data>
 <data name="StoresMd5HashForLastShownWhatNew" xml:space="preserve">
-  <value>РҐСЂР°РЅРёС‚ MD5-С…СЌС€ РїРѕСЃР»РµРґРЅРµРіРѕ РїРѕРєР°Р·Р°РЅРЅРѕРіРѕ whats_new.json</value>
+  <value>Хранит MD5-хэш последнего показанного whats_new.json</value>
 </data>
 <data name="TempCaches_PathToCleanDescription_Text" xml:space="preserve">
-  <value>Р’СЂРµРјРµРЅРЅС‹Рµ РєСЌС€Рё</value>
+  <value>Временные кэши</value>
 </data>
 <data name="UseMSBuildToObtainProjectReferences_RadioOption_Caption" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ MSBuild РґР»СЏ РїРѕР»СѓС‡РµРЅРёСЏ СЃСЃС‹Р»РѕРє РїСЂРѕРµРєС‚Р° Рё СЃРіРµРЅРµСЂРёСЂРѕРІР°РЅРЅС‹С… С„Р°Р№Р»РѕРІ:</value>
+  <value>Использовать MSBuild для получения ссылок проекта и сгенерированных файлов:</value>
 </data>
 <data name="WebsiteBuilderFiles_PathToCleanDescription_Text" xml:space="preserve">
-  <value>Р¤Р°Р№Р»С‹ Рё РїР°РїРєРё РїРѕСЃС‚СЂРѕРёС‚РµР»СЏ РІРµР±-СЃР°Р№С‚РѕРІ РґР»СЏ РІСЂРµРјРµРЅРЅС‹С… РІРµР±-СЃР°Р№С‚РѕРІ, СЃРѕР·РґР°РЅРЅС‹С… ReSharper</value>
+  <value>Файлы и папки построителя веб-сайтов для временных веб-сайтов, созданных ReSharper</value>
 </data>
 <data name="WhatSNew_Text" xml:space="preserve">
-  <value>Р§С‚Рѕ РЅРѕРІРѕРіРѕ</value>
+  <value>Что нового</value>
 </data>
 <data name="WhatsNewShownSettingsSettingDescription" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕР№РєРё РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ»</value>
+  <value>Настройки отображения «Что нового»</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1825,33 +1825,33 @@
     <value>Интеграция с профилировщиком Unity</value>
   </data>
 <data name="UnityOptionsPage_AddCSharpSection_Use_asm_def_folder_as_namespace_root_" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РїР°РїРєСѓ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃР±РѕСЂРєРё РєР°Рє РєРѕСЂРµРЅСЊ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјС‘РЅ</value>
+  <value>Использовать папку определения сборки как корень пространства имён</value>
 </data>
 <data name="UnityOptionsPage_Profiler_New_Profiler_Highlightings" xml:space="preserve">
-  <value>Р РµР¶РёРј РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РїРѕРґСЃРІРµС‚РєРё РїСЂРѕС„Р°Р№Р»РµСЂР°:</value>
+  <value>Режим отображения подсветки профайлера:</value>
 </data>
 <data name="UnityOptionsPage_Profiler_New_Profiler_Highlightings_Default" xml:space="preserve">
-  <value>РџРѕ СѓРјРѕР»С‡Р°РЅРёСЋ</value>
+  <value>По умолчанию</value>
 </data>
 <data name="UnityOptionsPage_Profiler_New_Profiler_Highlightings_Minimized" xml:space="preserve">
-  <value>РЎРІС‘СЂРЅСѓС‚С‹Р№</value>
+  <value>Свёрнутый</value>
 </data>
 <data name="UnitySettings_Enable_Profiler_Snapshot_Fetching" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РёРЅС‚РµРіСЂР°С†РёСЋ СЃ РїСЂРѕС„Р°Р№Р»РµСЂРѕРј Unity</value>
+  <value>Включить интеграцию с профайлером Unity</value>
 </data>
 <data name="UnitySettings_Profiler_Highlighting_View_Mode" xml:space="preserve">
-  <value>Р РµР¶РёРј РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ РїРѕРґСЃРІРµС‚РєРё РїСЂРѕС„Р°Р№Р»РµСЂР°: </value>
+  <value>Режим отображения подсветки профайлера: </value>
 </data>
 <data name="UnitySettings_Profiler_New_Highlighting_Enabled" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РїРѕРґСЃРІРµС‚РєСѓ РїСЂРѕС„Р°Р№Р»РµСЂР°</value>
+  <value>Включить подсветку профайлера</value>
 </data>
 <data name="UnitySettings_Profiler_Snapshot_Fetching_Mode" xml:space="preserve">
-  <value>Р РµР¶РёРј РїРѕР»СѓС‡РµРЅРёСЏ СЃРЅРёРјРєРѕРІ РїСЂРѕС„Р°Р№Р»РµСЂР° Unity: </value>
+  <value>Режим получения снимков профайлера Unity: </value>
 </data>
 <data name="UnitySettings_t_Skip_Editor_folders_when_calculating_namespaces" xml:space="preserve">
-  <value>РџСЂРѕРїСѓСЃРєР°С‚СЊ РїР°РїРєРё "Editor" РїСЂРё РІС‹С‡РёСЃР»РµРЅРёРё РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІ РёРјС‘РЅ</value>
+  <value>Пропускать папки "Editor" при вычислении пространств имён</value>
 </data>
 <data name="UnitySettings_t_Use_asm_def_folder_as_namespace_root_" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РїР°РїРєСѓ РѕРїСЂРµРґРµР»РµРЅРёСЏ СЃР±РѕСЂРєРё (.asmdef) РєР°Рє РєРѕСЂРµРЅСЊ РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјС‘РЅ</value>
+  <value>Использовать папку определения сборки (.asmdef) как корень пространства имён</value>
 </data>
 </root>

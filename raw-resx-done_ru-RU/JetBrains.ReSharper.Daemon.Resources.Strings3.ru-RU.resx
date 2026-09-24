@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -785,9 +785,9 @@
   <value>Строка должна иметь отступ только табуляциями</value>
 </data>
 <data name="CopyInspectionDescription_Text" xml:space="preserve">
-  <value>РЎРєРѕРїРёСЂРѕРІР°С‚СЊ РѕРїРёСЃР°РЅРёРµ РёРЅСЃРїРµРєС†РёРё</value>
+  <value>Скопировать описание инспекции</value>
 </data>
 <data name="CopyInspectionDescription_Tooltip" xml:space="preserve">
-  <value>РћРїРёСЃР°РЅРёРµ РёРЅСЃРїРµРєС†РёРё СЃРєРѕРїРёСЂРѕРІР°РЅРѕ РІ Р±СѓС„РµСЂ РѕР±РјРµРЅР°</value>
+  <value>Описание инспекции скопировано в буфер обмена</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -133,7 +133,7 @@
   <value>Модуль MSBuild</value>
 </data>
 <data name="LanguageBuildScriptsZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° СЃРєСЂРёРїС‚РѕРІ MSBuild</value>
+  <value>Поддержка скриптов MSBuild</value>
 </data>
 <data name="LanguageBuildScriptsZone_FeatureName" xml:space="preserve">
   <value>MsBuild</value>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -379,6 +379,6 @@
   <value>Очистить кэши символов</value>
 </data>
 <data name="CacheSecondaryPsiText" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РІС‚РѕСЂРёС‡РЅС‹Р№ РєСЌС€ PSI</value>
+  <value>Использовать вторичный кэш PSI</value>
 </data>
 </root>

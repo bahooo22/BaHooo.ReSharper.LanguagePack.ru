@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -897,33 +897,33 @@
   <value>Настройки других встроенных подсказок C#</value>
 </data>
 <data name="ChooseAtLeastOneEntityValidationError_Text" xml:space="preserve">
-  <value>Р’С‹Р±РµСЂРёС‚Рµ С…РѕС‚СЏ Р±С‹ РѕРґРЅСѓ СЃСѓС‰РЅРѕСЃС‚СЊ</value>
+  <value>Выберите хотя бы одну сущность</value>
 </data>
 <data name="EditAbbreviations_Text" xml:space="preserve">
-  <value>РР·РјРµРЅРёС‚СЊ СЃРѕРєСЂР°С‰РµРЅРёСЏ</value>
+  <value>Изменить сокращения</value>
 </data>
 <data name="EnableNullableContextForNewFilesPropertyExtenderDescription" xml:space="preserve">
-  <value>Р’СЃС‚Р°РІР»СЏС‚СЊ '#nullable enable' РІ РЅРѕРІС‹Рµ С„Р°Р№Р»С‹ C#</value>
+  <value>Вставлять '#nullable enable' в новые файлы C#</value>
 </data>
 <data name="EnableNullableContextForNewFilesPropertyExtenderDisplayName" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ C#</value>
+  <value>Включить контекст допустимости значения NULL для новых файлов C#</value>
 </data>
 <data name="EnableNullableContextForNewFilesSettingDescription" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ C#</value>
+  <value>Включить контекст допустимости значения NULL для новых файлов C#</value>
 </data>
 <data name="InstanceMembersAndLocals_Text" xml:space="preserve">
-  <value>Р­РєР·РµРјРїР»СЏСЂРЅС‹Рµ С‡Р»РµРЅС‹ Рё Р»РѕРєР°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ</value>
+  <value>Экземплярные члены и локальные переменные</value>
 </data>
 <data name="NullableContextProjectSettingsDescription" xml:space="preserve">
-  <value>РџР°СЂР°РјРµС‚СЂС‹ РїСЂРѕРµРєС‚Р° РґР»СЏ РєРѕРЅС‚РµРєСЃС‚Р° РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL</value>
+  <value>Параметры проекта для контекста допустимости значения NULL</value>
 </data>
 <data name="Solution_Text" xml:space="preserve">
-  <value>СЂРµС€РµРЅРёРµ</value>
+  <value>решение</value>
 </data>
 <data name="StaticMembersTypesAndNamespaces_Text" xml:space="preserve">
-  <value>РЎС‚Р°С‚РёС‡РµСЃРєРёРµ С‡Р»РµРЅС‹, С‚РёРїС‹ Рё РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјС‘РЅ</value>
+  <value>Статические члены, типы и пространства имён</value>
 </data>
 <data name="WhereArgumentsAreExpectedSettingDescription" xml:space="preserve">
-  <value>Р“РґРµ РѕР¶РёРґР°СЋС‚СЃСЏ Р°СЂРіСѓРјРµРЅС‚С‹</value>
+  <value>Где ожидаются аргументы</value>
 </data>
 </root>

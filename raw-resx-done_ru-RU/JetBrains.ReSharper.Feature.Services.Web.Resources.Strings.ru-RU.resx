@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -532,6 +532,6 @@
   <value>После точки</value>
 </data>
 <data name="InsertClosingTagOnTagNameCompletion" xml:space="preserve">
-  <value>Р’СЃС‚Р°РІР»СЏС‚СЊ Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі РїСЂРё Р·Р°РІРµСЂС€РµРЅРёРё РёРјРµРЅРё С‚РµРіР°</value>
+  <value>Вставлять закрывающий тег при завершении имени тега</value>
 </data>
 </root>

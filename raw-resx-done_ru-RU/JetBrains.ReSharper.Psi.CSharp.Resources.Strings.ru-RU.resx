@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1852,18 +1852,18 @@
   <value>Индексированное свойство</value>
 </data>
 <data name="EmptyStringSettingsDescription" xml:space="preserve">
-  <value>РџСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°</value>
+  <value>Пустая строка</value>
 </data>
 <data name="LocalParameter_PresentableName_Text" xml:space="preserve">
-  <value>Р›РѕРєР°Р»СЊРЅС‹Р№ РїР°СЂР°РјРµС‚СЂ</value>
+  <value>Локальный параметр</value>
 </data>
 <data name="OtherParameter_PresentableName_Text" xml:space="preserve">
-  <value>РџСЂРѕС‡РµРµ</value>
+  <value>Прочее</value>
 </data>
 <data name="Union_Text" xml:space="preserve">
-  <value>РѕР±СЉРµРґРёРЅРµРЅРёРµ</value>
+  <value>объединение</value>
 </data>
 <data name="WithinSpreadPatternSettingDescription" xml:space="preserve">
-  <value>РџРѕСЃР»Рµ '..' РІ С€Р°Р±Р»РѕРЅРµ СЂР°СЃРєСЂС‹С‚РёСЏ</value>
+  <value>После '..' в шаблоне раскрытия</value>
 </data>
 </root>
