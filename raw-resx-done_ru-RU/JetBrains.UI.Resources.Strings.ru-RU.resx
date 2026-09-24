@@ -298,7 +298,7 @@
   <value>Описание:</value>
 </data>
 <data name="EM_Model_Installed" xml:space="preserve">
-  <value>Сейчас установлено {0} {1}</value>
+  <value>Сейчас установлено {0}</value>
 </data>
 <data name="ExtensionManagerOptionViewButtonMoveDown" xml:space="preserve">
   <value>Переместить вниз</value>
