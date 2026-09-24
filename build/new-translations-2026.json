@@ -1,0 +1,3044 @@
+[
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "_15OrGreater_Text",
+  "En": "15.0 or greater",
+  "Ru": "15.0 или выше"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AForEachCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed",
+  "En": "A 'foreach' can be converted into a LINQ-expression but another 'GetEnumerator' method will be used",
+  "Ru": "Оператор 'foreach' может быть преобразован в LINQ-выражение, но будет использован другой метод 'GetEnumerator'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AForEachOrForStatementCanBeConvertedIntoALINQExpression",
+  "En": "A 'foreach' or 'for' statement can be converted into a LINQ-expression",
+  "Ru": "Оператор 'foreach' или 'for' может быть преобразован в LINQ-выражение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeAccessorsOrder_Description",
+  "En": "It is recommended to place 'get' before 'set'/'init', and 'add' before 'remove'",
+  "Ru": "Рекомендуется размещать 'get' перед 'set'/'init', а 'add' — перед 'remove'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeAccessorsOrder_Title",
+  "En": "Arrange accessors order",
+  "Ru": "Упорядочить порядок методов доступа"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeAccessorsOrderMessage",
+  "En": "Arrange accessors order",
+  "Ru": "Упорядочить порядок методов доступа"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeEmptyString_Description",
+  "En": "Consider using either empty literal \"\" or 'string.Empty' consistently across the codebase to improve readability and maintain a uniform code style",
+  "Ru": "Рекомендуется последовательно использовать пустой литерал \"\" или 'string.Empty' во всей кодовой базе для улучшения читаемости и единообразия стиля кода"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeEmptyString_Title",
+  "En": "Empty string style",
+  "Ru": "Стиль пустой строки"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeEmptyString_UseEmptyLiteral_Message",
+  "En": "Use \"\"",
+  "Ru": "Использовать \"\""
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeEmptyString_UseStringEmpty_Message",
+  "En": "Use 'string.Empty'",
+  "Ru": "Использовать 'string.Empty'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncMethodWithoutAwaitDescription",
+  "En": "Async methods are expected to have 'await' operators inside to run asynchronously",
+  "Ru": "Ожидается, что асинхронные методы содержат операторы 'await' внутри для асинхронного выполнения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncMethodWithoutAwaitMessage",
+  "En": "This async method lacks 'await' operators and will run synchronously. Consider using 'await' for non-blocking API calls, or remove the 'async' modifier to avoid generating a state machine for this method.",
+  "Ru": "В этом асинхронном методе отсутствуют операторы 'await', и он будет выполняться синхронно. Рассмотрите использование 'await' для неблокирующих вызовов API или удалите модификатор 'async', чтобы избежать генерации конечного автомата для этого метода."
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncMethodWithoutAwaitTitle",
+  "En": "Async method without 'await' operators",
+  "Ru": "Асинхронный метод без операторов 'await'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncTaskMethodWithoutAwaitTitle",
+  "En": "Async Task method without 'await' operators",
+  "Ru": "Асинхронный метод Task без операторов 'await'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncTaskOverrideMethodWithoutAwaitTitle",
+  "En": "Async Task method override without 'await' operators",
+  "Ru": "Переопределение асинхронного метода Task без операторов 'await'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncVoidMethodWithoutAwaitTitle",
+  "En": "Async void method without 'await' operators",
+  "Ru": "Асинхронный метод void без операторов 'await'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AsyncVoidOverrideMethodWithoutAwaitTitle",
+  "En": "Async void method override without 'await' operators",
+  "Ru": "Переопределение асинхронного метода void без операторов 'await'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AvoidAllUsingasyncMethodsWithThevoidReturnType",
+  "En": "Avoid using 'async' for methods and functions with the 'void' return type",
+  "Ru": "Избегать использования 'async' для методов и функций с типом возвращаемого значения 'void'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CallerUnsafeExplicitlyImplementingSafeMessage",
+  "En": "Unsafe member '{0}' cannot implement safe member '{1}'",
+  "Ru": "Небезопасный член '{0}' не может реализовать безопасный член '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CallerUnsafeImplicitlyImplementingSafeMessage",
+  "En": "Unsafe member '{0}' cannot implicitly implement safe member '{1}'",
+  "Ru": "Небезопасный член '{0}' не может неявно реализовать безопасный член '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CallerUnsafeOverridingSafeMessage",
+  "En": "Unsafe member '{0}' cannot override safe member '{1}'",
+  "Ru": "Небезопасный член '{0}' не может переопределить безопасный член '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CannotBeBothAbstractAndMessage",
+  "En": "{0} '{1}' cannot be both {2} and {3}",
+  "Ru": "{0} '{1}' не может быть одновременно {2} и {3}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CannotResolveCollectionExpressionConstructorMessage",
+  "En": "Cannot resolve expected constructor of '{0}'",
+  "Ru": "Не удается разрешить ожидаемый конструктор '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CanUseHashCodeCombineDescription",
+  "En": "Hash code is being calculated using a temporary value tuple. Consider using 'HashCode.Combine' instead",
+  "Ru": "Хэш-код вычисляется с использованием временного кортежа значений. Рассмотрите использование 'HashCode.Combine' вместо этого"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CanUseHashCodeCombineMessage",
+  "En": "Use 'HashCode.Combine' to calculate the hash code",
+  "Ru": "Использовать 'HashCode.Combine' для вычисления хэш-кода"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CanUseHashCodeCombineTitle",
+  "En": "Use 'HashCode.Combine' to calculate the hash code",
+  "Ru": "Использовать 'HashCode.Combine' для вычисления хэш-кода"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ClassCannotBeBothClosedAnd_Message",
+  "En": "Class cannot be both {0} and {1} at the same time",
+  "Ru": "Класс не может быть одновременно {0} и {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ClosedBaseTypeBaseFromOtherAssembly_Message",
+  "En": "Cannot use {0} type '{1}' from another assembly as a base type",
+  "Ru": "Нельзя использовать {0} тип '{1}' из другой сборки в качестве базового типа"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ClosedExplicitlyAbstract_Message",
+  "En": "A {0} type '{1}' cannot be marked {2} because it is always implicitly abstract",
+  "Ru": "Невозможно пометить {0} тип '{1}' как {2}, так как он всегда неявно является abstract"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CodeCleanupTask_ArrangeAccessors",
+  "En": "Arrange accessors",
+  "Ru": "Упорядочить методы доступа"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CodeCleanupTask_ArrangeEmptyString",
+  "En": "Apply empty string style ('string.Empty' vs. empty literal \"\")",
+  "Ru": "Применить стиль пустой строки ('string.Empty' против пустого литерала \"\")"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CodeStyleRule_EmptyString_Category",
+  "En": "Empty string",
+  "Ru": "Пустая строка"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CodeStyleRule_EmptyString_Description",
+  "En": "Empty strings must be expressed as \"\" or 'string.Empty'",
+  "Ru": "Пустые строки должны быть записаны как \"\" или 'string.Empty'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CodeStyleRule_EmptyString_Title",
+  "En": "Use empty literal \"\" or 'string.Empty'",
+  "Ru": "Использовать пустой литерал \"\" или 'string.Empty'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CollectionArgumentsMustBeEmptyMessage",
+  "En": "'with(...)' element for a read-only interface must be empty if present",
+  "Ru": "Элемент 'with(...)' для интерфейса только для чтения должен быть пустым, если присутствует"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CollectionRefLikeElementTypeMessage",
+  "En": "Collection iteration type '{0}' may not be a ref struct or a type parameter allowing ref structs",
+  "Ru": "Тип итерации коллекции '{0}' не может быть ref-структурой или параметром типа, допускающим ref-структуры"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CompilerWarning_CS9377_Title",
+  "En": "The 'unsafe' modifier does not have any effect here under the current memory safety rules",
+  "Ru": "Модификатор 'unsafe' здесь не имеет эффекта согласно текущим правилам безопасности памяти"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertStaticMethodInvocationToExtensionMemberCall",
+  "En": "Convert static method invocation into extension member call",
+  "Ru": "Преобразовать вызов статического метода в вызов члена расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertStaticMethodInvocationToExtensionMemberCallFromOtherClass",
+  "En": "Convert qualified static method invocation into extension member call",
+  "Ru": "Преобразовать вызов квалифицированного статического метода в вызов члена расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertStaticMethodInvocationToExtensionMemberCallFromSameClass",
+  "En": "Convert same-class static method invocation into extension method call",
+  "Ru": "Преобразовать вызов статического метода того же класса в вызов метода расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ExplicitOrExtendedLayoutFieldRequiresUnsafeOrSafeMessage",
+  "En": "Field in an explicit or extended layout type must be marked 'unsafe' or 'safe'",
+  "Ru": "Поле в типе с явным или расширенным размещением должно быть помечено 'unsafe' или 'safe'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ExternMemberRequiresUnsafeOrSafeMessage",
+  "En": "'extern' member must be marked 'unsafe' or 'safe'",
+  "Ru": "Член 'extern' должен быть помечен 'unsafe' или 'safe'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "IgnoredDirectiveInProjectBasedProgramMessage",
+  "En": "'#:' directives can only be used in file-based programs ('-features:FileBasedProgram')",
+  "Ru": "Директивы '#:' можно использовать только в программах на основе файлов ('-features:FileBasedProgram')"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "IllFormedUnionDeclarationCaseMessage",
+  "En": "A 'union' declaration case must contain only a type",
+  "Ru": "Элемент объявления 'union' должен содержать только тип"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImmutableArrayWithCollectionInitializerDescription",
+  "En": "Using a collection initializer with 'ImmutableArray<T>' causes a runtime exception. Collection initializers are translated into 'Add' calls on the default 'ImmutableArray<T>' instance. Because the underlying 'array' field is 'null', this results in a 'NullReferenceException'.",
+  "Ru": "Использование инициализатора коллекции с 'ImmutableArray<T>' приводит к исключению во время выполнения. Инициализаторы коллекции преобразуются в вызовы 'Add' для экземпляра 'ImmutableArray<T>' по умолчанию. Поскольку базовое поле 'array' имеет значение 'null', это приводит к 'NullReferenceException'."
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImmutableArrayWithCollectionInitializerMessage",
+  "En": "Using a collection initializer with 'ImmutableArray<T>' leads to a runtime exception",
+  "Ru": "Использование инициализатора коллекции с 'ImmutableArray<T>' приводит к исключению во время выполнения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImmutableArrayWithCollectionInitializerTitle",
+  "En": "ImmutableArray<T> with collection initializer",
+  "Ru": "ImmutableArray<T> с инициализатором коллекции"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InstanceFieldsNotPermittedInUnionMessage",
+  "En": "Instance fields, auto-properties, or field-like events are not permitted in a 'union' declaration",
+  "Ru": "Поля экземпляра, автосвойства или события, подобные полям, не допускаются в объявлении 'union'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InvokeAsExtensionMemberMessage",
+  "En": "Invoke as extension {0}",
+  "Ru": "Вызвать как {0} расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MethodsExtensionMethodCall_RiderPresentableName",
+  "En": "Methods//Extension method call",
+  "Ru": "Методы//Вызов метода расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MethodsMethodCall_RiderPresentableName",
+  "En": "Methods//Method Call",
+  "Ru": "Методы//Вызов метода"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MethodsStaticMethodCall_RiderPresentableName",
+  "En": "Methods//Static Method Call",
+  "Ru": "Методы//Вызов статического метода"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MustHaveInitSetToImplementMessage",
+  "En": "'{0}' must have '{1}' accessor instead of '{2}' to implement {3} '{4}'",
+  "Ru": "'{0}' должен иметь метод доступа '{1}' вместо '{2}', чтобы реализовать {3} '{4}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MustHaveInitSetToMatchOverriddenMessage",
+  "En": "'{0}' must have '{1}' accessor instead of '{2}' to match overridden {3} '{4}'",
+  "Ru": "'{0}' должен иметь метод доступа '{1}' вместо '{2}' для соответствия переопределяемому {3} '{4}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "NoExtensionOperatorMatchingKindParameterMessage",
+  "En": "Receiver parameter of a value type must have '{0}' modifier",
+  "Ru": "Параметр-приемник типа значения должен иметь модификатор '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "NoExtensionOperatorMatchingValueKindParameterMessage",
+  "En": "Receiver parameter of a value type must not have '{0}' modifier",
+  "Ru": "Параметр-приемник типа значения не должен иметь модификатор '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "OneOfTheParametersOfAnEqualityOrInequalityOperatorDeclaredInInterfaceMustBeATypeParameterConstrainedToTheContainingTypeMessage",
+  "En": "One of the parameters of an equality or inequality operator declared in interface must be a type parameter constrained to the containing type",
+  "Ru": "Один из параметров оператора равенства или неравенства, объявленного в интерфейсе, должен быть параметром типа с ограничением на содержащий тип"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "OnlyOnePartOfAPartialUnionCanDeclareCaseTypesMessage",
+  "En": "Only one part of a '{0} {1}' can declare case types",
+  "Ru": "Только одна часть '{0} {1}' может объявлять типы случаев"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ParamsModifierIsAlwaysIgnoredOnOverridesDescription",
+  "En": "'params' modifier is always ignored on overrides",
+  "Ru": "Модификатор 'params' всегда игнорируется при переопределении"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "PartialMemberSafeDifferenceMessage",
+  "En": "Both partial member declarations must be marked 'safe' or neither may be marked 'safe'",
+  "Ru": "Обе декларации частичного члена должны быть помечены 'safe' или ни одна из них не должна быть помечена 'safe'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "PartialMethodsMustHaveVoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage",
+  "En": "Partial methods must have a '{0}' return type unless language version '9.0' or greater is used",
+  "Ru": "Частичные методы должны иметь тип возвращаемого значения '{0}', если не используется версия языка '9.0' или выше"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpression",
+  "En": "Part of 'foreach' statement's body can be converted into a LINQ-expression",
+  "Ru": "Часть тела оператора 'foreach' может быть преобразована в LINQ-выражение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed",
+  "En": "Part of 'foreach' statement's body can be converted into a LINQ-expression but another 'GetEnumerator' method will be used",
+  "Ru": "Часть тела оператора 'foreach' может быть преобразована в LINQ-выражение, но будет использован другой метод 'GetEnumerator'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEnd",
+  "En": "Index from end must be greater than zero; use '^1' to refer to the last element",
+  "Ru": "Индекс от конца должен быть больше нуля; используйте '^1' для ссылки на последний элемент"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReceiverParameterConstraintRequiredErrorMessage",
+  "En": "Either '{0}' or '{1}' constraint is required on receiver parameter type to declare instance extension operator for it",
+  "Ru": "На типе параметра-приемника требуется ограничение '{0}' или '{1}', чтобы объявить для него оператор расширения экземпляра"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantCapacityArgumentDescription",
+  "En": "The specified initial capacity is smaller than the number of provided elements, making the capacity argument redundant",
+  "Ru": "Указанная начальная емкость меньше количества предоставленных элементов, поэтому аргумент емкости избыточен"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantCapacityArgumentMessage",
+  "En": "Capacity argument is redundant because more elements are already provided",
+  "Ru": "Аргумент емкости избыточен, так как уже предоставлено больше элементов"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantCapacityArgumentTitle",
+  "En": "Redundant capacity argument",
+  "Ru": "Избыточный аргумент емкости"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantEmptyWithElementDescription",
+  "En": "Empty 'with()' is redundant",
+  "Ru": "Пустое 'with()' избыточно"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantEmptyWithElementMessage",
+  "En": "'with()' is redundant",
+  "Ru": "'with()' избыточно"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantEmptyWithElementTitle",
+  "En": "Redundant empty 'with()'",
+  "Ru": "Избыточное пустое 'with()'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RefLocalAcrossAwaitMessage",
+  "En": "A '{0}' local cannot be preserved across '{1}' or '{2}' boundary",
+  "Ru": "Локальная переменная '{0}' не может сохраняться при переходе границы '{1}' или '{2}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RefReceiverParameterRequiredForStructErrorMessage",
+  "En": "The receiver parameter of a struct instance extension operator must have '{0}' modifier",
+  "Ru": "Параметр-приемник оператора расширения для экземпляра структуры должен иметь модификатор '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceWithOfTypeDescription",
+  "En": "Replace .Where(x => x is T).Select(x => (T) x) and similar constructs with .OfType<T>",
+  "Ru": "Заменить конструкции вида .Where(x => x is T).Select(x => (T) x) и аналогичные на .OfType<T>"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceWithOfTypeMessage",
+  "En": "Replace with '.{0}<{1}>()'",
+  "Ru": "Заменить на '.{0}<{1}>()'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceWithOfTypeTitle",
+  "En": "Replace with '.OfType<T>()'",
+  "Ru": "Заменить на '.OfType<T>()'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RuntimeDoesNotSupportExtendedLayoutTypesMessage",
+  "En": "The target runtime does not support extended layout types",
+  "Ru": "Целевая среда выполнения не поддерживает типы с расширенным размещением"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "SafeModifierUnsupportedTargetMessage",
+  "En": "The 'safe' modifier may only be used on members that are not marked 'unsafe' and are either 'extern', or field-like in types with explicit or extended layout",
+  "Ru": "Модификатор 'safe' можно использовать только для членов без пометки 'unsafe', которые являются 'extern' или подобны полям в типах с явным или расширенным размещением"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ShortLivedHttpClientDescription",
+  "En": "Short-lived 'HttpClient' is not recommended. Frequently creating 'HttpClient' instances can lead to socket exhaustion. Consider using 'IHttpClientFactory' or a long-lived (e.g., static) 'HttpClient' instance instead.",
+  "Ru": "Короткоживущий 'HttpClient' не рекомендуется. Частое создание экземпляров 'HttpClient' может привести к исчерпанию сокетов. Рассмотрите использование 'IHttpClientFactory' или долгоживущего (например, статического) экземпляра 'HttpClient' вместо этого."
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ShortLivedHttpClientMessage",
+  "En": "Short-lived 'HttpClient' is not recommended. Frequently creating 'HttpClient' instances can lead to socket exhaustion. Consider using 'IHttpClientFactory' or a long-lived (e.g., static) 'HttpClient' instance instead.",
+  "Ru": "Короткоживущий 'HttpClient' не рекомендуется. Частое создание экземпляров 'HttpClient' может привести к исчерпанию сокетов. Рассмотрите использование 'IHttpClientFactory' или долгоживущего (например, статического) экземпляра 'HttpClient' вместо этого."
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ShortLivedHttpClientTitle",
+  "En": "Short-lived 'HttpClient'",
+  "Ru": "Короткоживущий 'HttpClient'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "SingleParameterConstructorNotPermittedInUnionMessage",
+  "En": "Explicitly declared public constructors with a single parameter are not permitted in a 'union' declaration",
+  "Ru": "Явно объявленные public-конструкторы с одним параметром не допускаются в объявлении 'union'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "StructLayoutAndExtendedLayoutAttributesTogetherMessage",
+  "En": "Use of 'StructLayoutAttribute' and 'ExtendedLayoutAttribute' on the same type is not allowed",
+  "Ru": "Использование 'StructLayoutAttribute' и 'ExtendedLayoutAttribute' в одном типе не допускается"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "SuggestCollectionExpressionWithArgumentsDescription",
+  "En": "Suggest converting into collection expression with arguments: '[with(capacity: 10), 1, 2, 3]'",
+  "Ru": "Предложить преобразование в выражение коллекции с аргументами: '[with(capacity: 10), 1, 2, 3]'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "SuggestCollectionExpressionWithArgumentsTitle",
+  "En": "Suggest when the arguments are required",
+  "Ru": "Предложить, когда аргументы обязательны"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnderspecifiedClosedSubtype_Message",
+  "En": "Base type '{0}' is closed and must reference all type parameters from the derived class. References are missing for type parameters: {1}",
+  "Ru": "Базовый тип '{0}' является закрытым и должен ссылаться на все параметры типа производного класса. Отсутствуют ссылки для параметров типа: {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionCaseTypeAlreadyDeclaredMessage",
+  "En": "Case type '{0}' already declared",
+  "Ru": "Тип случая '{0}' уже объявлен"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionCaseTypeMustBeConvertibleToObjectMessage",
+  "En": "Cannot convert type '{0}' to '{1}' via an implicit reference or boxing conversion",
+  "Ru": "Невозможно преобразовать тип '{0}' в '{1}' посредством неявного ссылочного преобразования или упаковывания"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionConstructorMustCallDefaultConstructorMessage",
+  "En": "A constructor declared in a 'union' declaration must have a 'this' initializer that calls a synthesized constructor or an explicitly declared constructor",
+  "Ru": "Конструктор, объявленный в объявлении 'union', должен иметь инициализатор 'this', вызывающий синтезированный конструктор или явно объявленный конструктор"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionMemberProviderInterfaceNotPermittedMessage",
+  "En": "A 'union' declaration cannot use a union member provider interface",
+  "Ru": "Объявление 'union' не может использовать интерфейс — поставщик членов 'union'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionMemberProviderMustHaveValuePropertyMessage",
+  "En": "A union member provider type must have an instance 'Value' property of type 'object?' or 'object'. The property must have a public get accessor.",
+  "Ru": "Тип — поставщик членов 'union' должен иметь свойство экземпляра 'Value' типа 'object?' или 'object'. Свойство должно иметь public метод доступа get."
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionMustHaveAtLeastOneUnionCreationMemberMessage",
+  "En": "A union type must have at least one union creation member",
+  "Ru": "Тип 'union' должен иметь хотя бы один член для создания 'union'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnionMustSpecifyAtLeastOneCaseTypeMessage",
+  "En": "A union declaration must specify at least one case type",
+  "Ru": "Объявление 'union' должно задавать хотя бы один тип случая"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeConstructorConstraintMessage",
+  "En": "An unsafe context is required for constructor '{0}()' marked as 'unsafe' to satisfy the 'new()' constraint of type parameter '{1}' in '{2}'",
+  "Ru": "Конструктору '{0}()', помеченному как 'unsafe', требуется небезопасный контекст для удовлетворения ограничения 'new()' параметра типа '{1}' в '{2}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeExpressionIsRedundantMessage",
+  "En": "'unsafe' expression is redundant",
+  "Ru": "Выражение 'unsafe' избыточно"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeMeaninglessMessage",
+  "En": "The 'unsafe' modifier does not have any effect here under the current memory safety rules",
+  "Ru": "Модификатор 'unsafe' здесь не имеет эффекта согласно текущим правилам безопасности памяти"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeMemberOperationMessage",
+  "En": "The {0} '{1}' must be used in an unsafe context because it is marked as 'unsafe'",
+  "Ru": "{0} '{1}' должен использоваться в небезопасном контексте, так как помечен как 'unsafe'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeOperationMessage",
+  "En": "This operation may only be used in an unsafe context",
+  "Ru": "Эта операция может использоваться только в небезопасном контексте"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UnsafeUninitializedStackAllocMessage",
+  "En": "stackalloc expression without an initializer inside SkipLocalsInit may only be used in an unsafe context",
+  "Ru": "Выражение stackalloc без инициализатора внутри SkipLocalsInit может использоваться только в небезопасном контексте"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseArgumentExceptionThrowIfMethodDescription",
+  "En": "Use 'ArgumentException.ThrowIfNullOrEmpty' and 'ArgumentException.ThrowIfNullOrWhiteSpace'",
+  "Ru": "Использовать 'ArgumentException.ThrowIfNullOrEmpty' и 'ArgumentException.ThrowIfNullOrWhiteSpace'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseArgumentExceptionThrowIfMethodMessage",
+  "En": "Use '{0}.{1}'",
+  "Ru": "Использовать '{0}.{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseArgumentExceptionThrowIfMethodTitle",
+  "En": "Use 'ArgumentException.ThrowIfNullOrEmpty/ThrowIfNullOrWhiteSpace'",
+  "Ru": "Использовать 'ArgumentException.ThrowIfNullOrEmpty/ThrowIfNullOrWhiteSpace'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseExtensionMemberMessage",
+  "En": "Use extension {0}",
+  "Ru": "Использовать {0} расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseIsNullOrEmptyMessage",
+  "En": "Use '{0}.{1}'",
+  "Ru": "Использовать '{0}.{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ValueTupleHashCodeIgnoresElementsDescription",
+  "En": "When a value tuple has more than 8 elements, its hash code is calculated using only the last 8; some elements are ignored",
+  "Ru": "Когда кортеж значений содержит более 8 элементов, его хэш-код вычисляется только по последним 8; некоторые элементы игнорируются"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ValueTupleHashCodeIgnoresElementsMessage",
+  "En": "This value tuple contains {0} elements, but its hash code is calculated using only the last 8; the first {1} element(s) are ignored",
+  "Ru": "Этот кортеж значений содержит {0} элементов, но его хэш-код вычисляется только по последним 8; первые {1} элементов игнорируются"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ValueTupleHashCodeIgnoresElementsTitle",
+  "En": "Value tuple 'GetHashCode()' ignores some elements",
+  "Ru": "'GetHashCode()' кортежа значений игнорирует некоторые элементы"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntax",
+  "En": "When extension member is invoked as static method, convert invocation into extension member syntax",
+  "Ru": "Когда член расширения вызывается как статический метод, преобразовать вызов в синтаксис члена расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntaxFromSameClass",
+  "En": "When extension method is invoked as static method of the same class, convert invocation into extension method syntax",
+  "Ru": "Когда метод расширения вызывается как статический метод того же класса, преобразовать вызов в синтаксис метода расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx",
+  "Key": "CopyInspectionDescription_Text",
+  "En": "Copy inspection description",
+  "Ru": "Скопировать описание инспекции"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx",
+  "Key": "CopyInspectionDescription_Tooltip",
+  "En": "Inspection description copied to clipboard",
+  "Ru": "Описание инспекции скопировано в буфер обмена"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx",
+  "Key": "ConvertStaticMethodInvocationToExtensionMethodCall",
+  "En": "Convert static method invocation into extension method call",
+  "Ru": "Преобразовать вызов статического метода в вызов метода расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx",
+  "Key": "RuntimeDoesNotSupportExtendedLayoutTypesMessage",
+  "En": "The target runtime does not support extended layout types",
+  "Ru": "Целевая среда выполнения не поддерживает типы с расширенной компоновкой"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx",
+  "Key": "StructLayoutAndExtendedLayoutAttributesTogetherMessage",
+  "En": "Use of 'StructLayoutAttribute' and 'ExtendedLayoutAttribute' on the same type is not allowed",
+  "Ru": "Одновременное использование атрибутов 'StructLayoutAttribute' и 'ExtendedLayoutAttribute' в одном типе недопустимо"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx",
+  "Key": "WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax",
+  "En": "When extension method is invoked as static method, convert invocation into extension method syntax",
+  "Ru": "Если метод расширения вызывается как статический метод, преобразовать вызов в синтаксис метода расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.ru-RU.resx",
+  "Key": "UnsupportedNulConditionalBindingErrorMessage",
+  "En": "Null conditional operator is not supported",
+  "Ru": "Оператор условного доступа к null не поддерживается"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.ru-RU.resx",
+  "Key": "ResultsPoweredBy_Text",
+  "En": "Results powered by {0}",
+  "Ru": "Результаты подготовлены с помощью {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "AddLoggerMessageMethodParameters_Text",
+  "En": "Add missing parameter(s)",
+  "Ru": "Добавить отсутствующие параметры"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangeAccessorsOrder_Text",
+  "En": "Arrange accessors order",
+  "Ru": "Упорядочить порядок аксессоров"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ChangeExtensionReceiverParameterKind_Text",
+  "En": "Make extension receiver parameter '{0}'",
+  "Ru": "Сделать параметр приемника расширения '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureNullableContextForNewFilesContextAction_Description",
+  "En": "Configures whether to insert '#nullable enable' into new files",
+  "Ru": "Настроить, вставлять ли '#nullable enable' в новые файлы"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureNullableContextForNewFilesContextAction_Name",
+  "En": "Configure nullable context for new files",
+  "Ru": "Настроить контекст nullable для новых файлов"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureNullableContextForNewFilesContextAction_Text",
+  "En": "Nullable context for new files:",
+  "Ru": "Контекст nullable для новых файлов:"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConsolidateExtensionMembers_Description",
+  "En": "Merges compatible extension members and blocks into the selected block",
+  "Ru": "Объединить совместимые члены расширения и блоки в выбранном блоке"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConsolidateExtensionMembers_Name",
+  "En": "Consolidate extension members",
+  "Ru": "Объединить члены расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConsolidateExtensionMembers_Text",
+  "En": "Consolidate extension members",
+  "Ru": "Объединить члены расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertPropertyToMethodContextAction_Name",
+  "En": "Convert property to method",
+  "Ru": "Преобразовать свойство в метод"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToStaticField_Text",
+  "En": "Convert to static field",
+  "Ru": "Преобразовать в статическое поле"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CopyTypeRefactoringContextAction_Description",
+  "En": "Make a copy of the current type. Useful to create a new type using the code of the current type as a template.",
+  "Ru": "Создать копию текущего типа. Удобно для создания нового типа с использованием кода текущего типа в качестве шаблона."
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "DisabledNullableContextForNewFilesContextAction_Text",
+  "En": "Disabled",
+  "Ru": "Отключено"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EnabledNullableContextForNewFilesContextAction_Text",
+  "En": "Enabled (insert '#nullable enable')",
+  "Ru": "Включено (вставлять '#nullable enable')"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMultiDeclarationElement_Text",
+  "En": "Extract single declaration",
+  "Ru": "Извлечь одно объявление"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "FailedToImportExtensionMember_Text",
+  "En": "Failed to import extension member",
+  "Ru": "Не удалось импортировать член расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "FixEmptyStringStyle_Text",
+  "En": "Fix empty string style",
+  "Ru": "Исправить стиль пустой строки"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "GenerateLoggerMessageMethod_Text",
+  "En": "Generate logger method",
+  "Ru": "Сгенерировать метод логгера"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "GenerateUnionValueProperty_Text",
+  "En": "Generate 'Value' property",
+  "Ru": "Сгенерировать свойство 'Value'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImportExtensionMember_MultipleChoices_Text",
+  "En": "Import extension {0} '{1}' (multiple choices…)?",
+  "Ru": "Импортировать {0} расширения '{1}' (несколько вариантов…)?"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImportExtensionMember_Text",
+  "En": "Import extension {0}…",
+  "Ru": "Импортировать {0} расширения…"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ImportExtensionMemberFrom__Text",
+  "En": "{0} (from '{1}')",
+  "Ru": "{0} (из '{1}')"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "Initialize_Text",
+  "En": "Initialize '{0}'",
+  "Ru": "Инициализировать '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InitializeRequiredMembers_Text",
+  "En": "Initialize required members",
+  "Ru": "Инициализировать обязательные члены"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InLocalScope_Text",
+  "En": "in {0} '{1}'",
+  "Ru": "в {0} '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InvokeAllMembersAsExtensions_Text",
+  "En": "Invoke all members as extensions",
+  "Ru": "Вызывать все члены как расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MarkContaining_AsExperimental_Text",
+  "En": "Mark containing {0} as experimental",
+  "Ru": "Пометить содержащий его {0} как экспериментальный"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "MarkContaining_AsObsolete_Text",
+  "En": "Mark containing {0} as obsolete",
+  "Ru": "Пометить содержащий его {0} как устаревший"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "NormalizeUnionDeclarationCase_Text",
+  "En": "Normalize 'union' case",
+  "Ru": "Нормализовать 'union' case"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RedundantBooleanComparisonWarning_DisableForComparisonWithFalse_Title",
+  "En": "Allow explicit comparison with 'false'",
+  "Ru": "Разрешить явное сравнение с 'false'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveArguments_Text",
+  "En": "Remove arguments",
+  "Ru": "Удалить аргументы"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveAsyncModifierWillChangesExceptionsHandling_Text",
+  "En": "Remove 'async' modifier (thrown exceptions may be raised synchronously to the caller)",
+  "Ru": "Удалить модификатор 'async' (исключения могут выбрасываться синхронно в вызывающий код)"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveEmptyWith_Text",
+  "En": "Remove empty 'with()'",
+  "Ru": "Удалить пустой 'with()'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveExceptionsAggregating_Text",
+  "En": "Remove aggregation of synchronously thrown exceptions within the returned Task",
+  "Ru": "Удалить агрегирование исключений, синхронно выброшенных в возвращаемом Task"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveKeyword_Text",
+  "En": "Remove '{0}' keyword",
+  "Ru": "Удалить ключевое слово '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveKeywordWhenItIsNotApplicable_Text",
+  "En": "Remove '{0}' keyword when it is not applicable",
+  "Ru": "Удалить ключевое слово '{0}', когда оно неприменимо"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveParameterKind_Text",
+  "En": "Remove parameter kind modifier",
+  "Ru": "Удалить модификатор вида параметра"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveParameterName_Text",
+  "En": "Remove parameter name",
+  "Ru": "Удалить имя параметра"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveRedundantAttributeFormat_Text",
+  "En": "Remove redundant attribute [{0}]",
+  "Ru": "Удалить избыточный атрибут [{0}]"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveRedundantParameterNames_Text",
+  "En": "Remove redundant parameter names",
+  "Ru": "Удалить избыточные имена параметров"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveRedundantPreprocesosrParenthesisContextAction_Name",
+  "En": "Remove redundant preprocessor parentheses",
+  "Ru": "Удалить избыточные круглые скобки в препроцессорных выражениях"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveRedundantPreprocessorParenthesisContextAction_Description",
+  "En": "Removes parentheses in preprocessor expressions if they are redundant",
+  "Ru": "Удалить круглые скобки в препроцессорных выражениях, если они избыточны"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveUnionCaseType_Text",
+  "En": "Remove case type",
+  "Ru": "Удалить тип case"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceUnsafeConstructsWithTheirBodies_Text",
+  "En": "Replace 'unsafe' constructs with their bodies",
+  "Ru": "Заменить конструкции 'unsafe' на их тела"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceUnsafeConstructWithItsBody_Text",
+  "En": "Replace 'unsafe' construct with its body",
+  "Ru": "Заменить конструкцию 'unsafe' на её тело"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceWithHashCodeCombineFix_Text",
+  "En": "Replace with 'HashCode.Combine'",
+  "Ru": "Заменить на 'HashCode.Combine'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceWithOfType__Text",
+  "En": "Replace with 'OfType<{0}>()'",
+  "Ru": "Заменить на 'OfType<{0}>()'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ToExtensionMemberInvocation_Text",
+  "En": "To extension {0} invocation",
+  "Ru": "К вызову {0} расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ToggleSyntaxStyleForNativeSizedInteger_Text",
+  "En": "Toggle syntax style for native-sized integer types",
+  "Ru": "Переключить стиль синтаксиса для целочисленных типов нативного размера"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UpdateCapacityTo__Text",
+  "En": "Update capacity to {0}",
+  "Ru": "Обновить вместимость до {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseArgumentExceptionThrowIf_Text",
+  "En": "Use 'ArgumentException.{0}'",
+  "Ru": "Использовать 'ArgumentException.{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseEmptyStringLiteral_Text",
+  "En": "Use \"\"",
+  "Ru": "Использовать \"\""
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseEmptyStringLiteralAction_Description",
+  "En": "Uses \"\" literal instead of 'string.Empty'",
+  "Ru": "Использовать литерал \"\" вместо 'string.Empty'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseExtensionMember__Text",
+  "En": "Use extension {0} '{1}'",
+  "Ru": "Использовать {0} расширения '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseExtensionMember_Text",
+  "En": "Use extension",
+  "Ru": "Использовать расширение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseImmutableArrayCreate_Text",
+  "En": "Use 'ImmutableArray.Create'",
+  "Ru": "Использовать 'ImmutableArray.Create'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseStringEmpty_Text",
+  "En": "Use 'string.Empty'",
+  "Ru": "Использовать 'string.Empty'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "UseStringEmptyAction_Description",
+  "En": "Uses 'string.Empty' instead of \"\" literal",
+  "Ru": "Использовать 'string.Empty' вместо литерала \"\""
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "WithDefaultValues_Text",
+  "En": "With default values",
+  "Ru": "Со значениями по умолчанию"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "Configure_CompilerWarningEditorconfig_Severity_Text",
+  "En": "Configure {0} severity in .editorconfig",
+  "Ru": "Настроить серьёзность {0} в .editorconfig"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "Configure_Editorconfig_AnalyzerCodeStyle_Text",
+  "En": "Configure '{0}' code style",
+  "Ru": "Настроить стиль кода '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "Configure_Editorconfig_Severity_Text",
+  "En": "Configure {0} severity",
+  "Ru": "Настроить серьёзность {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureRoslynAnalyzerCodeStyleSeverity_Text",
+  "En": "Configure severity",
+  "Ru": "Настроить серьёзность"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureSeverityFor_AnalyzersCategory_Text",
+  "En": "Configure severity for all '{0}' analyzers",
+  "Ru": "Настроить серьёзность для всех анализаторов '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "ConfigureSeverityForAllAnalyzers_Text",
+  "En": "Configure severity for all analyzers",
+  "Ru": "Настроить серьёзность для всех анализаторов"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveUnusedLocal_Text",
+  "En": "Remove {0} {1}",
+  "Ru": "Удалить {0} {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "RemoveUnusedVariables_Text",
+  "En": "Remove unused variables",
+  "Ru": "Удалить неиспользуемые переменные"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "ResultsPoweredBy_Text",
+  "En": "Results powered by {0}",
+  "Ru": "Результаты подготовлены с помощью {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+  "Key": "SavingSettingsTo_Editorconfig",
+  "En": "Saving settings to .editorconfig",
+  "Ru": "Сохранение настроек в .editorconfig"
+ },
+ {
+  "File": "JetBrains.DocumentManagers.Resources.Strings.ru-RU.resx",
+  "Key": "CannotCopyFolderIntoItself_Text",
+  "En": "Unable to copy folder into itself",
+  "Ru": "Невозможно скопировать папку в саму себя"
+ },
+ {
+  "File": "JetBrains.IDE.Resources.Strings.ru-RU.resx",
+  "Key": "NuGetDumpInstalledPackageTrackerAction",
+  "En": "Dump NuGet InstalledPackageTracker",
+  "Ru": "Создать дамп InstalledPackageTracker NuGet"
+ },
+ {
+  "File": "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx",
+  "Key": "CompactSpacingInToolWindowsTreesSettingDescription",
+  "En": "Use compact spacing in tree views",
+  "Ru": "Использовать компактный интервал между строками в древовидных представлениях"
+ },
+ {
+  "File": "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx",
+  "Key": "TreeGridPresentableViewStyleSettingsSettingDescription",
+  "En": "Tool window tree view style settings",
+  "Ru": "Настройки стиля древовидных представлений в инструментальных окнах"
+ },
+ {
+  "File": "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx",
+  "Key": "UseCompactSpacingInToolWindowsTrees_Text",
+  "En": "Use compact spacing in tree views",
+  "Ru": "Компактный интервал между строками в древовидных представлениях"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "AllowAICompletionForExperimentalLanguages_Text",
+  "En": "Allow AI completion for experimental languages",
+  "Ru": "Разрешить AI-завершение для экспериментальных языков"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "BringAnyAiAgent_Text",
+  "En": "Bring any AI agent to Visual Studio. Start the journey with Junie.",
+  "Ru": "Добавьте любого AI-агента в Visual Studio. Начните путь с Junie."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "DoNotFilterOutDuplicateVSLightBulbActions_Text",
+  "En": "Do not filter out duplicate VS Light Bulb actions",
+  "Ru": "Не фильтровать повторяющиеся действия лампочки VS"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "DonTShowWhatSNewPageAfterUpdate_Text",
+  "En": "Don't show the What's New page after updating",
+  "Ru": "Не показывать страницу «Что нового» после обновления"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "EnableAICodeCompletion_Text",
+  "En": "Enable AI Code Completion",
+  "Ru": "Включить AI-завершение кода"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "EnableRetrievalTimeoutForVisualStudio_Text",
+  "En": "Enable retrieval timeout for Visual Studio Quick Actions",
+  "Ru": "Включить время ожидания извлечения для быстрых действий Visual Studio"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "EnvironmentInfoAttachmentProvider_ProviderName",
+  "En": "Environment Information",
+  "Ru": "Информация о среде"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "HideVisualStudioSquigglesSettingDescription",
+  "En": "Hide Visual Studio squiggles",
+  "Ru": "Скрывать волнистые подчеркивания Visual Studio"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "InvokeAICompletionAutomaticallyOnNew_Text",
+  "En": "Invoke AI Completion automatically on new line",
+  "Ru": "Автоматически вызывать AI-завершение на новой строке"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "ShowVisualStudioLightBulbActionsInSubmenu_Text",
+  "En": "Show Visual Studio light Bulb actions in submenu",
+  "Ru": "Показывать действия лампочки Visual Studio в подменю"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "StoresForWhichWhatsNewIsShownSettingDescription",
+  "En": "Stores for which what's new is shown",
+  "Ru": "Хранилища, для которых показывается информация о нововведениях"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "StoresMd5HashForLastShownWhatNew",
+  "En": "Stores MD5 hash for last shown whats_new.json",
+  "Ru": "Хранит MD5-хэш последнего показанного whats_new.json"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "UseTheAgentsYouWantInVisualStudioReSharper_Text",
+  "En": "Use the agents you want in Visual Studio. ReSharper's open ecosystem for AI starts with Junie, our first supported agent.",
+  "Ru": "Используйте нужные вам агенты в Visual Studio. Открытая экосистема ReSharper для AI начинается с Junie — нашего первого поддерживаемого агента."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "VisualStudioLightBulbDisplayMode_Text",
+  "En": "Visual Studio Light Bulb display mode",
+  "Ru": "Режим отображения лампочки Visual Studio"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "VisualStudioRelatedSettingsForGrayCode_Text",
+  "En": "Visual Studio related settings for gray code completion.",
+  "Ru": "Связанные настройки Visual Studio для серого кода завершения."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "VisualStudioSquigglesRoslynAnalyzersAreNotRenderedByVisualStudioItselfButInsteadThoseOfThemWhichAreNotRedundantInPresenceOfReSharperSuchAsCustomAnalyzerSetsAreProcessedTogetherWithReSharperAnalysisResultsSuppressVsSquigglesMustBeOffToTakeEffectSettingDescription",
+  "En": "Visual Studio squiggles (Roslyn analyzers) are not rendered by Visual Studio itself, but instead those of them which are not redundant in presence of ReSharper (such as custom analyzer sets) are processed together with ReSharper analysis results; SuppressVsSquiggles must be off to take effect",
+  "Ru": "Волнистые подчеркивания Visual Studio (анализаторы Roslyn) не отображаются самим Visual Studio, вместо этого те из них, которые не являются избыточными при наличии ReSharper (например, пользовательские наборы анализаторов), обрабатываются вместе с результатами анализа ReSharper; для вступления в силу параметр SuppressVsSquiggles должен быть выключен"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "VsHighlightingSettings",
+  "En": "Visual Studio Light Bulb settings",
+  "Ru": "Настройки лампочки Visual Studio"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNewShownSettingsSettingDescription",
+  "En": "What's new shown settings",
+  "Ru": "Настройки отображения «Что нового»"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+  "Key": "ZeroLockInAI_Text",
+  "En": "Zero Lock-In AI",
+  "Ru": "AI без привязки к поставщику"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "AIAssistantNotFoundToTryJuniePlease_Text",
+  "En": "AI Assistant not found.\nTo try Junie, please run the ReSharper or dotUltimate setup wizard and ensure 'AI Assistant' is selected for installation.",
+  "Ru": "AI Assistant не найден.\nЧтобы попробовать Junie, запустите мастер установки ReSharper или dotUltimate и убедитесь, что компонент «AI Assistant» выбран для установки."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "CallAutomaticallyOnNuGetChangesOrIf_Text",
+  "En": "Call automatically on NuGet changes or if project contains conditional references",
+  "Ru": "Вызывать автоматически при изменениях в NuGet или если проект содержит условные ссылки"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "DefaultDiskCleanupSettings_Text",
+  "En": "Default disk cleanup settings",
+  "Ru": "Настройки очистки диска по умолчанию"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "DeplozedPackagesCache_PathToCleanDescription_Text",
+  "En": "Deployed packages cache. Safe to remove. The necessary ones will be created on demand.",
+  "Ru": "Кэш развернутых пакетов. Можно безопасно удалить. Необходимые кэши будут созданы по требованию."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "DoNotCallMSBuild_Text",
+  "En": "Do not call MSBuild",
+  "Ru": "Не вызывать MSBuild"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "DonTShowWhatSNewPageAfterUpdate_Text",
+  "En": "Don't show the What's New page after updating",
+  "Ru": "Не показывать страницу «Что нового» после обновления"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ExternalServices_PathToCleanDescription_Text",
+  "En": "External services cache. Files currently in use cannot be deleted.",
+  "Ru": "Кэш внешних служб. Невозможно удалить файлы, используемые в настоящее время."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "InstallerLogFiles_PathToCleanDescription_Text",
+  "En": "Installer log files",
+  "Ru": "Файлы журнала установки"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "LogFiles_PathToCleanDescription_Text",
+  "En": "Log files",
+  "Ru": "Файлы журналов"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "MSBuildAccess_Header_Text",
+  "En": "MSBuild access",
+  "Ru": "Доступ к MSBuild"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ObtainDataFromMSBuildAfterEachCompilation_Text",
+  "En": "Obtain data from MSBuild after each compilation",
+  "Ru": "Получать данные из MSBuild после каждой компиляции"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ProductContentCache_PathToCleanDescription_Text",
+  "En": "Product content cache. Safe to remove. The necessary ones will be created on demand.",
+  "Ru": "Кэш содержимого продукта. Можно безопасно удалить. Необходимые кэши будут созданы по требованию."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ReadSolutionModelDirectlyFromProject_BoolOption_Text",
+  "En": "Read solution model directly from project/solution files.\nIf deselected, solution model is loaded using Visual Studio COM API, like in ReSharper 2019.1 and below. You can override this behavior for specific projects in their properties.",
+  "Ru": "Читать модель решения напрямую из файлов проекта/решения.\nЕсли снято, используется API Visual Studio COM для загрузки модели решения, как в ReSharper 2019.1 и более ранних версиях. Это поведение можно переопределить в свойствах для конкретных проектов."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "SettingsStorageCache_PathToCleanDescription_Text",
+  "En": "Settings storage cache. Safe to remove. The necessary ones will be created on demand.",
+  "Ru": "Кэш хранилища настроек. Можно безопасно удалить. Необходимые кэши будут созданы по требованию."
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ShellCachesInAppData_PathToCleanDescription_Text",
+  "En": "Shell caches in local app data",
+  "Ru": "Кэши оболочки в локальных данных приложения"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "SolutionCachesInAppData_PathToCleanDescription_Text",
+  "En": "Solution caches in local app data",
+  "Ru": "Кэши решений в локальных данных приложения"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "SolutionCachesInTemp_PathToCleanDescription_Text",
+  "En": "Solution caches in temp",
+  "Ru": "Кэши решений в temp"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "SolutionModel_Header_Text",
+  "En": "Solution Model",
+  "Ru": "Модель решения"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "StoresForWhichWhatsNewIsShownSettingDescription",
+  "En": "Stores for which what's new is shown",
+  "Ru": "Хранилища, для которых показывается информация о нововведениях"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "StoresMd5HashForLastShownWhatNew",
+  "En": "Stores MD5 hash for last shown whats_new.json",
+  "Ru": "Хранит MD5-хэш последнего показанного whats_new.json"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "TempCaches_PathToCleanDescription_Text",
+  "En": "Temp caches",
+  "Ru": "Временные кэши"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "UseMSBuildToObtainProjectReferences_RadioOption_Caption",
+  "En": "Use MSBuild to obtain project references and generated files:",
+  "Ru": "Использовать MSBuild для получения ссылок проекта и сгенерированных файлов:"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "WebsiteBuilderFiles_PathToCleanDescription_Text",
+  "En": "Website builder files and folders for temporary websites created by ReSharper",
+  "Ru": "Файлы и папки построителя веб-сайтов для временных веб-сайтов, созданных ReSharper"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "WhatSNew_Text",
+  "En": "What's New",
+  "Ru": "Что нового"
+ },
+ {
+  "File": "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNewShownSettingsSettingDescription",
+  "En": "What's new shown settings",
+  "Ru": "Настройки отображения «Что нового»"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "AlignBaselines_BoolOption_Text",
+  "En": "Align baselines",
+  "Ru": "Выравнивать базовые линии"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "CodeInspectionSettingsColorIdentifiers_Text",
+  "En": "*Code Inspection | Settings | Color identifiers* option must be turned on for ReSharper to be able to show its tooltips",
+  "Ru": "Опция *Проверка кода | Настройки | Цветовые идентификаторы* должна быть включена, чтобы ReSharper отображал свои всплывающие подсказки"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "EnvironmentInfoAttachmentProvider_ProviderName",
+  "En": "Environment Information",
+  "Ru": "Информация о среде"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Hint_Text_Size",
+  "En": "Font size",
+  "Ru": "Размер шрифта"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Inline_Hints_Scale ",
+  "En": "Inline Hints scale: ",
+  "Ru": "Масштаб встроенных подсказок:"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Interline_Hints_Scale ",
+  "En": "Interline Hints scale: ",
+  "Ru": "Масштаб межстрочных подсказок:"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "InternalOptions_Text",
+  "En": "Internal options",
+  "Ru": "Внутренние параметры"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Log_Option_Text",
+  "En": "Log",
+  "Ru": "Журнал"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption",
+  "En": "Log level for writing NuGet package restorer messages to output:",
+  "Ru": "Уровень журнала для записи сообщений восстановителя пакетов NuGet в вывод:"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "None_Option_Text",
+  "En": "None",
+  "Ru": "Нет"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Notification_Option_Text",
+  "En": "Notification",
+  "Ru": "Уведомление"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "NuGetRestorerOptionPageTitle",
+  "En": "NuGet Restorer",
+  "Ru": "Восстановитель NuGet"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ReplaceVisualStudioTooltips_Text",
+  "En": "Replace Visual Studio tooltips",
+  "Ru": "Заменять всплывающие подсказки Visual Studio"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperForVSCodeFeatureSuggesterSettingsKeySettingDescription",
+  "En": "ReSharper for VS Code feature suggester settings",
+  "Ru": "Настройки предложения функций ReSharper for VS Code"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperForVSCodeLearnMore_Text",
+  "En": "Learn More",
+  "Ru": "Подробнее"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperForVSCodeSuggestion_Text",
+  "En": "The trusted ReSharper expertise is now available in VS Code, Cursor, and Google Antigravity.\nIt is covered by the same license as ReSharper in Visual Studio.\nSearch for **ReSharper** in the Extensions view and give it a try!",
+  "Ru": "Проверенное качество ReSharper теперь доступно в VS Code, Cursor и Google Antigravity.\nОно распространяется по той же лицензии, что и ReSharper в Visual Studio.\nНайдите **ReSharper** в окне расширений и попробуйте его!"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "RestoringNuGetPackagesClickToCancel_ToolTip",
+  "En": "Restoring NuGet packages\nClick to cancel",
+  "Ru": "Восстановление пакетов NuGet\nНажмите для отмены"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "ShowLog_Button_Text",
+  "En": "Show log",
+  "Ru": "Показать журнал"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+  "Key": "Tooltips_Header_Text",
+  "En": "Tooltips",
+  "Ru": "Всплывающие подсказки"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx",
+  "Key": "VsDebuggerFeaturesZone_Description",
+  "En": "Features related to Visual Studio debugger",
+  "Ru": "Функции, связанные с отладчиком Visual Studio"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx",
+  "Key": "VsDebuggerFeaturesZone_FeatureName",
+  "En": "Debugger features",
+  "Ru": "Функции отладчика"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ClassicWithFullFeaturesPerformanceMay_Text",
+  "En": "ⓘ Classic with full features, performance may be impacted",
+  "Ru": "ⓘ Классический режим со всеми функциями; производительность может быть снижена"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "FullyRestart_WithoutRestartingVisual_Text",
+  "En": "Fully restart {0} without restarting Visual Studio.",
+  "Ru": "Полностью перезапустить {0} без перезапуска Visual Studio."
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "LearnWhatSNew_Text",
+  "En": "Learn what's new",
+  "Ru": "Узнать о нововведениях"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "NewHighlyResponsiveSmallSubsetOfFeatures_Text",
+  "En": "ⓘ New, highly responsive, small subset of features unavailable",
+  "Ru": "ⓘ Новый режим с высокой отзывчивостью; небольшая часть функций недоступна"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ReloadsStateAndRestartsBackgroundAnalysis_Text",
+  "En": "Reloads state and restarts background analysis.",
+  "Ru": "Перезагружает состояние и перезапускает фоновый анализ."
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "RepairOutOfProcess_Text",
+  "En": "Repair Out-of-Process",
+  "Ru": "Исправить внепроцессный режим"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperInProcess__Text",
+  "En": "ReSharper In-Process{0}",
+  "Ru": "Внутрипроцессный ReSharper{0}"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperIsRunningInInProcessMode_Text",
+  "En": "ReSharper is running in the In-Process mode",
+  "Ru": "ReSharper работает во внутрипроцессном режиме"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperIsRunningInOutOfProcessMode_Text",
+  "En": "ReSharper is running in the Out-of-Process mode",
+  "Ru": "ReSharper работает во внепроцессном режиме"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperOutOfProcess__Text",
+  "En": "ReSharper Out-of-Process {0}{1}",
+  "Ru": "Внепроцессный ReSharper {0}{1}"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "StoresForWhichWhatsNewIsShownSettingDescription",
+  "En": "Stores for which what's new is shown",
+  "Ru": "Хранилища, для которых показывается информация о нововведениях"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "StoresMd5HashForLastShownWhatNew",
+  "En": "Stores MD5 hash for last shown whats_new.json",
+  "Ru": "Хранит MD5-хэш последнего показанного whats_new.json"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "SubmitFeedback_Text",
+  "En": "Submit Feedback…",
+  "Ru": "Отправить отзыв…"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "TheOptionPageCouldNotBeLoadedPlease_Text",
+  "En": "Failed to load the options page. Please try opening it again.",
+  "Ru": "Не удалось загрузить страницу параметров. Повторите попытку."
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "VsToolsOptionsPage_Button_Restart_Text",
+  "En": "Restart",
+  "Ru": "Перезапустить"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNew_FailedToLoad_Text",
+  "En": "Failed to load 'What's New' content",
+  "Ru": "Не удалось загрузить содержимое «Что нового»"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNew_Loading_Text",
+  "En": "'What's new' is loading…",
+  "Ru": "Загрузка «Что нового»..."
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNew_OpenInBrowser_Hyperlink_Text",
+  "En": "Open in browser ↗",
+  "Ru": "Открыть в браузере ↗"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "WhatSNew_Text",
+  "En": "What's New",
+  "Ru": "Что нового"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "WhatsNewShownSettingsSettingDescription",
+  "En": "What's new shown settings",
+  "Ru": "Настройки отображения «Что нового»"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "YouHave__Installed_Text",
+  "En": "You have {0} {1} installed",
+  "Ru": "Установлен {0} {1}"
+ },
+ {
+  "File": "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+  "Key": "YouHaveInstalledANewVersionOf__Text",
+  "En": "You have installed a new version of {0}",
+  "Ru": "Вы установили новую версию {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ApplyIn_Text",
+  "En": "Apply {0}",
+  "Ru": "Применить {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ApplyInFile_Text",
+  "En": "Apply in file '{0}'",
+  "Ru": "Применить в файле '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ApplyInFolder_Text",
+  "En": "Apply in folder '{0}'",
+  "Ru": "Применить в папке '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ApplyInProject_Text",
+  "En": "Apply in project '{0}'",
+  "Ru": "Применить в проекте '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ApplyInSolution_Text",
+  "En": "Apply in solution '{0}'",
+  "Ru": "Применить в решении '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ClangTidyCheck_Text",
+  "En": "Clang-tidy check: '{0}'",
+  "Ru": "Проверка Clang-tidy: '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "CompilerWarning_Text",
+  "En": "Compiler warning: '{0}'",
+  "Ru": "Предупреждение компилятора: '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "EntityFrameworkZone_Description",
+  "En": "All features related to Entity Framework",
+  "Ru": "Все функции, связанные с Entity Framework"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "EntityFrameworkZone_FeatureName",
+  "En": "Entity Framework",
+  "Ru": "Entity Framework"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "GenericInspection_Text",
+  "En": "Inspection: '{0}: {1}'",
+  "Ru": "Инспекция: '{0}: {1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "Install_NuGetPackage_Text",
+  "En": "Install '{0}' NuGet package",
+  "Ru": "Установить NuGet-пакет '{0}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "NavigationZone_Description",
+  "En": "All features related to navigation, search, hierarchies, diagramming, and decompiler",
+  "Ru": "Все функции, связанные с навигацией, поиском, иерархиями, построением диаграмм и декомпилятором"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "NavigationZone_FeatureName",
+  "En": "Navigation and Search",
+  "Ru": "Навигация и поиск"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "PackageCheckerZone_Description",
+  "En": "JetBrains-hosted online service for checking known vulnerabilities in installed NuGet packages",
+  "Ru": "Интерактивный онлайн-сервис от JetBrains для проверки установленных NuGet-пакетов на известные уязвимости"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "PackageCheckerZone_FeatureName",
+  "En": "Package Checker",
+  "Ru": "Package Checker"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "ProductInspection_Text",
+  "En": "{0} inspection: '{1}'",
+  "Ru": "Инспекция {0}: '{1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "RoslynAnalyzerInspection_Text",
+  "En": "Roslyn analyzer: '{0}: {1}'",
+  "Ru": "Анализатор Roslyn: '{0}: {1}'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "SupportImplicitlyBundledVisualStudioAnalyzers",
+  "En": "Support Visual Studio's implicitly bundled dotnet analyzers",
+  "Ru": "Поддержка анализаторов dotnet, неявно входящих в состав Visual Studio"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "WaitingForCaches_Text",
+  "En": "Waiting for caches",
+  "Ru": "Ожидание кэшей"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "WaitingForProjectModel_Text",
+  "En": "Waiting for project model",
+  "Ru": "Ожидание модели проекта"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+  "Key": "XmlDocSection_TruncatedError_Text",
+  "En": "XML documentation is partially reconstructed after the error",
+  "Ru": "XML-документация частично восстановлена после ошибки"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ChooseAtLeastOneEntityValidationError_Text",
+  "En": "Choose at least one entity",
+  "Ru": "Выберите хотя бы одну сущность"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EditAbbreviations_Text",
+  "En": "Edit Abbreviations",
+  "Ru": "Изменить сокращения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EnableNullableContextForNewFilesPropertyExtenderDescription",
+  "En": "Insert '#nullable enable' into new C# files",
+  "Ru": "Вставлять '#nullable enable' в новые файлы C#"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EnableNullableContextForNewFilesPropertyExtenderDisplayName",
+  "En": "Enable nullable context for new C# files",
+  "Ru": "Включить контекст допустимости значения NULL для новых файлов C#"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EnableNullableContextForNewFilesSettingDescription",
+  "En": "Enable nullable context for new C# files",
+  "Ru": "Включить контекст допустимости значения NULL для новых файлов C#"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "InstanceMembersAndLocals_Text",
+  "En": "Instance members and locals",
+  "Ru": "Экземплярные члены и локальные переменные"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "NullableContextProjectSettingsDescription",
+  "En": "Nullable context project settings",
+  "Ru": "Параметры проекта для контекста допустимости значения NULL"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "Solution_Text",
+  "En": "solution",
+  "Ru": "решение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "StaticMembersTypesAndNamespaces_Text",
+  "En": "Static members, types, and namespaces",
+  "Ru": "Статические члены, типы и пространства имён"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "WhereArgumentsAreExpectedSettingDescription",
+  "En": "Where arguments are expected",
+  "Ru": "Где ожидаются аргументы"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx",
+  "Key": "AIAssistantZone_Description",
+  "En": "Integrated AI chat and other AI-powered features in ReSharper",
+  "Ru": "Встроенный чат AI Assistant и другие функции с использованием ИИ в ReSharper"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx",
+  "Key": "AIAssistantZone_FeatureName",
+  "En": "AI Assistant",
+  "Ru": "AI Assistant"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx",
+  "Key": "FeatureUnavailableInOutOfProcessMode_Text",
+  "En": "This feature in currently unavailable in Out-of-Process mode",
+  "Ru": "Эта функция в настоящее время недоступна во внепроцессном режиме"
+ },
+ {
+  "File": "JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx",
+  "Key": "InsertClosingTagOnTagNameCompletion",
+  "En": "Insert closing tag on tag name completion",
+  "Ru": "Вставлять закрывающий тег при завершении имени тега"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_Description_Text",
+  "En": "Duplicate code was found. Select the occurrences to extract in addition to the original:",
+  "Ru": "Найден дублирующийся код. Выберите вхождения для извлечения в дополнение к исходному:"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_DifferencesColumn_Text",
+  "En": "Differences",
+  "Ru": "Отличия"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_DuplicateLocation_Text",
+  "En": "Line {0}",
+  "Ru": "Строка {0}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_ExactDuplicatesGroup_Text",
+  "En": "Exact duplicates ({0})",
+  "Ru": "Полные дубликаты ({0})"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_LocationColumn_Text",
+  "En": "Location",
+  "Ru": "Расположение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_OriginalExtractionPreview_Text",
+  "En": "original extraction",
+  "Ru": "исходное извлечение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_ParametrizedDuplicatesGroup_Text",
+  "En": "Parametrized duplicates ({0})",
+  "Ru": "Параметризованные дубликаты ({0})"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_SelectAll_Text",
+  "En": "Select all",
+  "Ru": "Выбрать все"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodDuplicatesPage_Title_Text",
+  "En": "Duplicates",
+  "Ru": "Дубликаты"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractMethodRefactoringSettingsSettingDescription",
+  "En": "Extract Method refactoring settings",
+  "Ru": "Параметры рефакторинга 'Извлечь метод'"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "Rename_Conflict_OnlyHasDeclarationsInSourceGenerated_Text",
+  "En": "'{0}' is a source-generated {1}.",
+  "Ru": "'{0}' — это {1}, созданное генератором кода."
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+  "Key": "WhetherToSearchForDuplicatesOfTheExtractedFragmentSettingDescription",
+  "En": "Whether to search for duplicates of the extracted fragment",
+  "Ru": "Искать ли дубликаты извлекаемого фрагмента"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_AttributeValueIsConstant_ConflictText",
+  "En": "Existing method '{0}' has constant {1} = {2}, but the invocation had no value for {1}",
+  "Ru": "У существующего метода '{0}' константа {1} = {2}, но в вызове не было значения {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_AttributeValueMismatch_ConflictText",
+  "En": "Existing method '{0}' has constant {1} = {2}, but the invocation had the value {1} = {3}",
+  "Ru": "У существующего метода '{0}' константа {1} = {2}, но в вызове было значение {1} = {3}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_ExistingMethodExceptionMismatch_ConflictText",
+  "En": "Existing method '{0}' declares exception parameter of type {1}, which is different from the original argument type {2}",
+  "Ru": "Существующий метод '{0}' объявляет параметр исключения типа {1}, который отличается от типа исходного аргумента {2}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_ExistingMethodExceptionWillBeCreated_ConflictText",
+  "En": "Existing method '{0}' doesn't declare an exception parameter, one of type {1} will be created",
+  "Ru": "Существующий метод '{0}' не объявляет параметр исключения; будет создан параметр типа {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_ExistingMethodExceptionWillChange_ConflictText",
+  "En": "Existing method '{0}' declares exception parameter of type {1}, it will be generalized to {2}",
+  "Ru": "Существующий метод '{0}' объявляет параметр исключения типа {1}, он будет обобщён до {2}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_ParameterMissed_ConflictText",
+  "En": "Existing method '{0}' is expected to have parameter of type {1}",
+  "Ru": "Существующий метод '{0}' должен иметь параметр типа {1}"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ConvertToLogMethod_ParameterToBeIntroduced_ConflictText",
+  "En": "Existing method '{0}' doesn't have a parameter of type {1}, it will be introduced",
+  "Ru": "У существующего метода '{0}' нет параметра типа {1}, он будет добавлен"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CreateExtensionMethodDeclarationBelowTheCurrent_Text",
+  "En": "Create extension method declaration below the current extension",
+  "Ru": "Создать объявление метода расширения ниже текущего"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "CreateExtensionPropertyDeclarationBelowTheCurrent_Text",
+  "En": "Create extension property declaration below the current extension",
+  "Ru": "Создать объявление свойства расширения ниже текущего"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractExtensionMethod_Text",
+  "En": "Extract Extension Method",
+  "Ru": "Извлечь метод расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "ExtractExtensionProperty_Text",
+  "En": "Extract Extension Property",
+  "Ru": "Извлечь свойство расширения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "NestedLoggerClassesAreNotSupportedYet_Text",
+  "En": "Nested logger class generation is not supported yet",
+  "Ru": "Создание вложенных классов логгера пока не поддерживается"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx",
+  "Key": "_InsertClosingTagOnTagNameCompletion_Text",
+  "En": "_Insert closing tag on tag name completion",
+  "Ru": "_Вставить закрывающий тег при завершении имени тега"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx",
+  "Key": "InserTheMatchingClosingTagUponCompletionOfATagName_Text",
+  "En": "Insert the matching closing tag upon completion of a tag name",
+  "Ru": "Вставлять парный закрывающий тег при завершении имени тега"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx",
+  "Key": "Template_Editable_d2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ",
+  "En": "with Scoped CSS (*.razor.css) File",
+  "Ru": "с файлом изолированного CSS (*.razor.css)"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx",
+  "Key": "CreateTypeParameter_Text",
+  "En": "(create type parameter)",
+  "Ru": "(создать параметр типа)"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx",
+  "Key": "GenerateLoggerMethod_Text",
+  "En": "(generate logger method)",
+  "Ru": "(сгенерировать метод логгера)"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "DPA_Monitoring",
+  "En": "Monitoring",
+  "Ru": "Мониторинг"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentMonitoringDisabledText",
+  "En": "Monitoring disabled.",
+  "Ru": "Мониторинг отключён."
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentMonitoringEnableLinkText",
+  "En": "Enable Monitoring",
+  "Ru": "Включить мониторинг"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_Enable",
+  "En": "You can enable it in ",
+  "Ru": "Вы можете включить его в "
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_Link",
+  "En": "Products & Features",
+  "Ru": "Продукты и функции"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_ProductIsCurrentlyDisabled",
+  "En": "{0} is currently disabled",
+  "Ru": "{0} сейчас отключено"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringDetailsCaused",
+  "En": "This issue was caused by",
+  "Ru": "Эта проблема вызвана:"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "QuickFilter_ShowMuted",
+  "En": "Show Muted Issues",
+  "Ru": "Показать скрытые проблемы"
+ },
+ {
+  "File": "DPA.Core.Resources.Strings.ru-RU.resx",
+  "Key": "StackTraceTabTitle",
+  "En": "Stack Trace for {0}",
+  "Ru": "Трассировка стека для {0}"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "ExplainHotspotWithAITask",
+  "En": "Monitoring has detected an issue in `{0}`. Explain whether it's a real performance issue and what caused it.",
+  "Ru": "Мониторинг обнаружил проблему в `{0}`. Объясните, действительно ли это проблема с производительностью и что её вызвало."
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "FixHotspotWithAITask",
+  "En": "Monitoring has detected an issue in `{0}`. Suggest a fix.",
+  "Ru": "Мониторинг обнаружил проблему в `{0}`. Предложите исправление."
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringOptionsPage_General",
+  "En": "General",
+  "Ru": "Общие"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_AspInspectionHidden",
+  "En": "Hide ASP.NET Core issues",
+  "Ru": "Скрывать проблемы ASP.NET Core"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_DiagnosticsToolPanelSuppressed",
+  "En": "DiagnosticsTool warning panel is suppressed",
+  "Ru": "Панель предупреждений Diagnostic Tools отключена"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_DoNotAskMuteReason",
+  "En": "Do not ask for mute reason",
+  "Ru": "Не спрашивать причину скрытия"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_GcPressureInspectionHidden",
+  "En": "Hide GC Pressure issues",
+  "Ru": "Скрывать проблемы с давлением GC"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_PerformanceHotspotInspectionHidden",
+  "En": "Hide Performance Hotspot issues",
+  "Ru": "Скрывать проблемы с горячими точками производительности"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_SqlInspectionHidden",
+  "En": "Hide Database issues",
+  "Ru": "Скрывать проблемы с базой данных"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "MonitoringSettings_UiFreezeInspectionHidden",
+  "En": "Hide UI Freeze issues",
+  "Ru": "Скрывать проблемы с зависанием интерфейса"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "OptionsPage_EnableDiagnosticTools",
+  "En": "Enable Visual Studio Diagnostic Tools",
+  "Ru": "Включить Visual Studio Diagnostic Tools"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "OptionsPage_EnableMonitoring",
+  "En": "Enable ReSharper Monitoring",
+  "Ru": "Включить мониторинг ReSharper"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "OptionsPage_MonitoringAndDiagnosticTools",
+  "En": "Monitoring & Diagnostic Tools",
+  "Ru": "Мониторинг и средства диагностики"
+ },
+ {
+  "File": "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+  "Key": "OptionsPage_MonitoringIssues",
+  "En": "Issue Detection",
+  "Ru": "Обнаружение проблем"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallBenefit1",
+  "En": "Find the code that causes slowdowns",
+  "Ru": "Находите код, вызывающий замедление работы"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallBenefit2",
+  "En": "Investigate UI freezes, SQL queries, HTTP requests, file I/O, and other events",
+  "Ru": "Анализируйте зависания интерфейса, SQL-запросы, HTTP-запросы, операции ввода-вывода с файлами и другие события"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallBenefit3",
+  "En": "See CPU, threading, async, and GC activity over time",
+  "Ru": "Отслеживайте активность ЦП, потоков, асинхронных операций и GC с течением времени"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallBuyButton",
+  "En": "Buy",
+  "Ru": "Купить"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallBuyHint",
+  "En": "Open the website to buy a license.",
+  "Ru": "Открыть веб-сайт для покупки лицензии."
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallCloseButton",
+  "En": "Not Now",
+  "Ru": "Не сейчас"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallDescription",
+  "En": "Profile your .NET applications to find performance bottlenecks and understand where time is spent.",
+  "Ru": "Профилируйте свои .NET-приложения, чтобы находить узкие места производительности и понимать, на что расходуется время."
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallHeader",
+  "En": "Unlock with dotUltimate",
+  "Ru": "Доступно с dotUltimate"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallLicenseButton",
+  "En": "Manage Licenses",
+  "Ru": "Управление лицензиями"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallObtainTicketButton",
+  "En": "Get License",
+  "Ru": "Получить лицензию"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallObtainTicketHint",
+  "En": "Get access to an available dotUltimate license from the license server.",
+  "Ru": "Получить доступ к свободной лицензии dotUltimate с сервера лицензий."
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallObtainTicketUpgradeHint",
+  "En": "Get access to an available dotUltimate license from the license server.",
+  "Ru": "Получить доступ к свободной лицензии dotUltimate с сервера лицензий."
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallTrialButton",
+  "En": "Give It a Try",
+  "Ru": "Попробовать"
+ },
+ {
+  "File": "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "PaywallTrialHint",
+  "En": "Start a free 30-day trial.",
+  "Ru": "Начать бесплатную 30-дневную пробную версию."
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "DotCoverEnableContinuousTestingActionText",
+  "En": "Enable Continuous Testing",
+  "Ru": "Включить непрерывное тестирование"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_Benefit1",
+  "En": "Review coverage results in Visual Studio",
+  "Ru": "Анализируйте результаты покрытия кода в Visual Studio"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_Benefit2",
+  "En": "Focus on untested code",
+  "Ru": "Фокусируйтесь на непроверенном коде"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_Benefit3",
+  "En": "Spot gaps and validate changes with more confidence",
+  "Ru": "Находите пробелы в тестировании и увереннее проверяйте изменения"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_CloseButton",
+  "En": "Not Now",
+  "Ru": "Не сейчас"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_Description",
+  "En": "Measure code coverage in your .NET applications and find which parts of your code are not exercised by tests.",
+  "Ru": "Измеряйте покрытие кода в ваших .NET-приложениях и узнавайте, какие части кода не проверяются тестами."
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_Header",
+  "En": "Unlock with dotUltimate",
+  "Ru": "Доступно с dotUltimate"
+ },
+ {
+  "File": "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+  "Key": "Paywall_ToolWindowTitle",
+  "En": "Unlock dotCover with dotUltimate",
+  "Ru": "Доступ к dotCover с dotUltimate"
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "ImportClrDump_FileIsNotExecutable_Exception",
+  "En": "Unable to import the dump: dotMemory failed to run the required file. Make sure the file at {0} has execute permission and try again.",
+  "Ru": "Не удалось выполнить импорт дампа: dotMemory не смог запустить необходимый файл. Убедитесь, что файл {0} имеет права на выполнение, и повторите попытку."
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "ImportClrDump_FileIsNotReadable_Exception",
+  "En": "Unable to import the dump: dotMemory failed to run the required file. Make sure the file at {0} has read permission and try again.",
+  "Ru": "Не удалось выполнить импорт дампа: dotMemory не смог запустить необходимый файл. Убедитесь, что файл {0} имеет права на чтение, и повторите попытку."
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "ImportClrDump_SelectDac_Dialog_Title",
+  "En": "Select a DAC library for {0}",
+  "Ru": "Выберите библиотеку DAC для {0}"
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "ImportClrDump_SelectDac_FileFilter_Description",
+  "En": "DAC libraries",
+  "Ru": "Библиотеки DAC"
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "ImportClrDump_UntrustedDac_Confirmation_Template",
+  "En": "The DAC library required to read this dump was found in the runtime location recorded in the dump:\n{0}\n\ndotMemory cannot verify the authenticity of this library. Load it only if you trust its source.\n\nDo you want to load it?",
+  "Ru": "Библиотека DAC, необходимая для чтения этого дампа, найдена в расположении среды выполнения, записанном в дампе:\n{0}\n\ndotMemory не может проверить подлинность этой библиотеки. Загружайте её, только если вы доверяете её источнику.\n\nЗагрузить её?"
+ },
+ {
+  "File": "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+  "Key": "MainView_StartNewAnalysisButton_MacOs_Tooltip",
+  "En": "Copy current analysis (⌘T)\r\n(To start new analysis, use ⌃⌘T)",
+  "Ru": "Копировать текущий анализ (⌘T)\r\n(Чтобы начать новый анализ, используйте ⌃⌘T)"
+ },
+ {
+  "File": "JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx",
+  "Key": "ConfigurationEditor_ConfigureSymbolServers",
+  "En": "Configure symbol servers",
+  "Ru": "Настроить серверы символов"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "CallTreePreprocessor_Preprocessing_call_tree",
+  "En": "Preprocessing call tree",
+  "Ru": "Предварительная обработка дерева вызовов"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "CallTreePreprocessor_Processing_resolved_call_tree",
+  "En": "Processing resolved call tree",
+  "Ru": "Обработка разрешённого дерева вызовов"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "CallTreeResolver_Resolving_call_tree",
+  "En": "Resolving call tree",
+  "Ru": "Разрешение дерева вызовов"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "LoadPdbSettingDescription",
+  "En": "LoadPdb",
+  "Ru": "LoadPdb"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "NativeModulesPreprocessor_Collecting_native_functions",
+  "En": "Collecting native functions from native modules",
+  "Ru": "Сбор нативных функций из нативных модулей"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "SymbolPathsSettingsKey_KeyDescription",
+  "En": "dotTrace profiling symbol server settings",
+  "Ru": "Настройки сервера символов для профилирования dotTrace"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "SymbolServersUsedInDotTraceSettingDescription",
+  "En": "Symbol servers used in dotTrace",
+  "Ru": "Серверы символов, используемые в dotTrace"
+ },
+ {
+  "File": "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+  "Key": "TimelineProcessingSettingsSettingDescription",
+  "En": "TimelineProcessingSettings",
+  "Ru": "TimelineProcessingSettings"
+ },
+ {
+  "File": "JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx",
+  "Key": "UseStackWalkSyncOnWindowsSettingDescription",
+  "En": "UseStackWalkSyncOnWindows",
+  "Ru": "UseStackWalkSyncOnWindows"
+ },
+ {
+  "File": "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_EnableFormat",
+  "En": "Enable it in {0}.",
+  "Ru": "Включите его в {0}."
+ },
+ {
+  "File": "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_ProductIsDisabled",
+  "En": "dotTrace Performance Profiler is disabled.",
+  "Ru": "Профилировщик производительности dotTrace отключён."
+ },
+ {
+  "File": "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyContentView_SettingsLink",
+  "En": "Settings",
+  "Ru": "Параметры"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "DevartWarningMessage",
+  "En": "Monitoring has disabled database issue detection: This project uses Devart’s ADO.NET data providers, which can cause problems during profiling.",
+  "Ru": "Мониторинг отключил обнаружение проблем с базами данных: в этом проекте используются поставщики данных ADO.NET Devart, которые могут вызывать проблемы при профилировании."
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticsToolsPanel_Settings",
+  "En": "Set up in Settings",
+  "Ru": "Настроить в параметрах"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticsToolsPanel_Text1",
+  "En": "ReSharper Monitoring: ",
+  "Ru": "Мониторинг ReSharper: "
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticsToolsPanel_Text2",
+  "En": "a refined take on performance diagnostics.",
+  "Ru": "улучшенный подход к диагностике производительности."
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "LogReport_KernelNotSupported",
+  "En": "Performance data will not be collected because kernel-level sampling is not supported on this system",
+  "Ru": "Данные о производительности не будут собираться, так как сэмплирование на уровне ядра не поддерживается в этой системе"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelDropdown",
+  "En": "Choose reason",
+  "Ru": "Выберите причину"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelLabel",
+  "En": "Issue muted. Would you like to share the reason?",
+  "Ru": "Проблема скрыта. Хотите указать причину?"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelNeverAsk",
+  "En": "Never ask",
+  "Ru": "Больше не спрашивать"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelNotMyCode",
+  "En": "Code I cannot modify",
+  "Ru": "Код, который я не могу изменить"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelReasonFalsePositive",
+  "En": "False positive",
+  "Ru": "Ложное срабатывание"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelReasonMinor",
+  "En": "Too minor to look into",
+  "Ru": "Слишком незначительно, чтобы разбираться"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "MutePanelReasonOther",
+  "En": "Other",
+  "Ru": "Другое"
+ },
+ {
+  "File": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+  "Key": "RestoreIssueAction",
+  "En": "Unmute Issue",
+  "Ru": "Показать проблему снова"
+ },
+ {
+  "File": "JetBrains.Profiler.Resources.UITexts.ru-RU.resx",
+  "Key": "PerformanceInfo_DisableSynchStackWalking",
+  "En": "Do not use safer sampling",
+  "Ru": "Не использовать безопасное сэмплирование"
+ },
+ {
+  "File": "JetBrains.Profiler.Resources.UITexts.ru-RU.resx",
+  "Key": "PerformanceInfo_EnableSynchStackWalking",
+  "En": "Use safer sampling",
+  "Ru": "Использовать безопасное сэмплирование"
+ },
+ {
+  "File": "JetBrains.Profiler.Resources.UITexts.ru-RU.resx",
+  "Key": "PerformanceInfo_EnableSynchStackWalking_Details",
+  "En": "Significantly reduces the risk of freezes and crashes when profiling .NET Core 3.0 or later. GC information will not be available, and the snapshot may contain fewer samples per second.",
+  "Ru": "Значительно снижает риск зависаний и сбоев при профилировании .NET Core 3.0 или более поздних версий. Сведения о GC будут недоступны, а снимок может содержать меньше сэмплов в секунду."
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "CacheSecondaryPsiDescription",
+  "En": "Cache Secondary PSI treeNodes in SecondaryPsiTreeNodeCache",
+  "Ru": "Кэшировать узлы дерева Secondary PSI в SecondaryPsiTreeNodeCache"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticSubsystem_Environment",
+  "En": "Environment",
+  "Ru": "Среда"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticSubsystem_Roslyn",
+  "En": "Roslyn",
+  "Ru": "Roslyn"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticSubsystem_Security",
+  "En": "Security",
+  "Ru": "Безопасность"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "DiagnosticSubsystem_Solution",
+  "En": "Solution",
+  "Ru": "Решение"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "InstallAnnotationsPackageHint_Text",
+  "En": "{0} (install '{1}' package)",
+  "Ru": "{0} (установить пакет «{1}»)"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "InstallingNuGetPackage_Text",
+  "En": "Installing '{0}' package",
+  "Ru": "Установка пакета «{0}»"
+ },
+ {
+  "File": "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+  "Key": "UpdatingSelectedPackages__Caption",
+  "En": "Updating selected packages",
+  "Ru": "Обновление выбранных пакетов"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "CollectLogsActionText",
+  "En": "Collect Logs",
+  "Ru": "Собрать журналы"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "EnableAIAssistant",
+  "En": "Enable AI Assistant",
+  "Ru": "Включить AI Assistant"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "FailedToCollectLogFiles_Text",
+  "En": "Failed to collect log files",
+  "Ru": "Не удалось собрать файлы журналов"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "FailedToCollectLogs_Text",
+  "En": "Failed to collect log files. See log for details.",
+  "Ru": "Не удалось собрать файлы журналов. Подробности — в журнале."
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "IncludedLogsMayContainSensitiveData_Text",
+  "En": "Included logs may contain sensitive data. Do you want to make a zip archive and show it in Windows Explorer?",
+  "Ru": "Собранные журналы могут содержать конфиденциальные данные. Создать zip-архив и открыть его в проводнике Windows?"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "InternalOptionPageTitle",
+  "En": "Internal",
+  "Ru": "Внутренние"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "IVsOnlyInProcessZone_Description",
+  "En": "Run in a single process",
+  "Ru": "Запуск в одном процессе"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "IVsOnlyInProcessZone_FeatureName",
+  "En": "In Process",
+  "Ru": "В процессе"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "OneOrMoreLogsCannotBeCollectedError_Text",
+  "En": "One or more logs cannot be collected. Error: {0}",
+  "Ru": "Не удалось собрать один или несколько журналов. Ошибка: {0}"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "PlatformInternalOptionPageTitle",
+  "En": "General",
+  "Ru": "Общие"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "ProfileVisualStudioActionText",
+  "En": "Profile Visual Studio",
+  "Ru": "Профилировать Visual Studio"
+ },
+ {
+  "File": "JetBrains.Application.Resources.Strings.ru-RU.resx",
+  "Key": "YouAreAboutToEnableAIAssistant",
+  "En": "You are about to enable ReSharper AI Assistant. Do you want to continue? Visual Studio won't need to restart.",
+  "Ru": "Вы собираетесь включить ReSharper AI Assistant. Продолжить? Перезапуск Visual Studio не потребуется."
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "ChangeHeapSizeAction_Description",
+  "En": "Change the maximum heap size for the external services host (ext-services64.exe) that powers spelling, grammar, and SQL support",
+  "Ru": "Изменение максимального размера кучи для узла внешних служб (ext-services64.exe), обеспечивающего проверку орфографии и грамматики, а также поддержку SQL"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "ChangeHeapSizeAction_DialogLabel",
+  "En": "Maximum heap size for the external services process, in MB (restart ReSharper to apply):",
+  "Ru": "Максимальный размер кучи для процесса внешних служб, МБ (для применения перезапустите ReSharper):"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "ChangeHeapSizeAction_DialogTitle",
+  "En": "External Services Memory Limit",
+  "Ru": "Ограничение памяти внешних служб"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "ChangeHeapSizeAction_Text",
+  "En": "Change External Services Memory Limit…",
+  "Ru": "Изменить ограничение памяти внешних служб…"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "ExternalServicesSettings_Description",
+  "En": "External services host",
+  "Ru": "Узел внешних служб"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+  "Key": "MaxHeapSizeMegabytes_Description",
+  "En": "Maximum heap size for the external services host process, in megabytes",
+  "Ru": "Максимальный размер кучи для процесса узла внешних служб, в мегабайтах"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx",
+  "Key": "SqlLanguagesZone_Description",
+  "En": "Syntax highlighting and inspections for SQL dialects",
+  "Ru": "Подсветка синтаксиса и инспекции для диалектов SQL"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx",
+  "Key": "SqlLanguagesZone_FeatureName",
+  "En": "SQL and NoSQL",
+  "Ru": "SQL и NoSQL"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+  "Key": "AcceptLicenseButtonText",
+  "En": "I Accept",
+  "Ru": "Принимаю"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+  "Key": "GrazieGplLicenseNoticePostfix",
+  "En": ":",
+  "Ru": ":"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+  "Key": "GrazieGplLicenseNoticePrefix",
+  "En": "The following dictionaries are licensed as free software under ",
+  "Ru": "Следующие словари лицензированы как свободное программное обеспечение на условиях "
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+  "Key": "LicenseInformationWindowTitle",
+  "En": "License information",
+  "Ru": "Сведения о лицензии"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+  "Key": "RejectLicenseButtonText",
+  "En": "I Reject",
+  "Ru": "Отклоняю"
+ },
+ {
+  "File": "JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx",
+  "Key": "PackageWasRemoved_Text",
+  "En": " (package was removed)",
+  "Ru": " (пакет был удалён)"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx",
+  "Key": "ArrangementOfLambdaAndAnonymousFunctionSignatures_Text",
+  "En": "Arrangement of Lambda and Anonymous function Signatures",
+  "Ru": "Упорядочение сигнатур лямбда- и анонимных функций"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyStrings_Text",
+  "En": "Empty string",
+  "Ru": "Пустая строка"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx",
+  "Key": "Diagramming_FeatureDescription",
+  "En": "Build and analyze dependency graphs of types and projects in your solution",
+  "Ru": "Построение и анализ графов зависимостей типов и проектов вашего решения"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx",
+  "Key": "Diagramming_FeatureName",
+  "En": "Diagramming",
+  "Ru": "Диаграммы"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx",
+  "Key": "FluentDark_Option_Text",
+  "En": "Fluent Design, Dark Theme",
+  "Ru": "Fluent Design, тёмная тема"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx",
+  "Key": "FluentLight_Option_Text",
+  "En": "Fluent Design, Light Theme",
+  "Ru": "Fluent Design, светлая тема"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx",
+  "Key": "CacheSecondaryPsiText",
+  "En": "Use secondary PSI cache",
+  "Ru": "Использовать вторичный кэш PSI"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx",
+  "Key": "SolutionBuilderZone_Description",
+  "En": "Heuristic build optimizer and build result presenter",
+  "Ru": "Эвристическая оптимизация сборки и отображение её результатов"
+ },
+ {
+  "File": "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx",
+  "Key": "SolutionBuilderZone_FeatureName",
+  "En": "ReSharper Build",
+  "Ru": "ReSharper Build"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnityOptionsPage_AddCSharpSection_Use_asm_def_folder_as_namespace_root_",
+  "En": "Use assembly definition folder as namespace root",
+  "Ru": "Использовать папку определения сборки как корень пространства имён"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnityOptionsPage_Profiler_New_Profiler_Highlightings",
+  "En": "Profiler highlightings view mode:",
+  "Ru": "Режим отображения подсветки профайлера:"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnityOptionsPage_Profiler_New_Profiler_Highlightings_Default",
+  "En": "Default",
+  "Ru": "По умолчанию"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnityOptionsPage_Profiler_New_Profiler_Highlightings_Minimized",
+  "En": "Minimized",
+  "Ru": "Свёрнутый"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_Enable_Profiler_Snapshot_Fetching",
+  "En": "Enable Unity profiler integration",
+  "Ru": "Включить интеграцию с профайлером Unity"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_Profiler_Highlighting_View_Mode",
+  "En": "Profiler highlightings view mode: ",
+  "Ru": "Режим отображения подсветки профайлера: "
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_Profiler_New_Highlighting_Enabled",
+  "En": "Enable profiler highlightings",
+  "Ru": "Включить подсветку профайлера"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_Profiler_Snapshot_Fetching_Mode",
+  "En": "Unity profiler snapshot fetching mode: ",
+  "Ru": "Режим получения снимков профайлера Unity: "
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_t_Skip_Editor_folders_when_calculating_namespaces",
+  "En": "Skip \"Editor\" folders when calculating namespaces",
+  "Ru": "Пропускать папки \"Editor\" при вычислении пространств имён"
+ },
+ {
+  "File": "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+  "Key": "UnitySettings_t_Use_asm_def_folder_as_namespace_root_",
+  "En": "Use assembly definition (.asmdef) folder as namespace root",
+  "Ru": "Использовать папку определения сборки (.asmdef) как корень пространства имён"
+ },
+ {
+  "File": "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperProductZone_Description",
+  "En": "Visual Studio extension for .NET developers",
+  "Ru": "Расширение Visual Studio для разработчиков .NET"
+ },
+ {
+  "File": "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx",
+  "Key": "ReSharperProductZone_FeatureName",
+  "En": "ReSharper",
+  "Ru": "ReSharper"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageBuildScriptsZone_Description",
+  "En": "Support for MSBuild scripts",
+  "Ru": "Поддержка скриптов MSBuild"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageBuildScriptsZone_FeatureName",
+  "En": "MsBuild",
+  "Ru": "MsBuild"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "EmptyStringSettingsDescription",
+  "En": "Empty string",
+  "Ru": "Пустая строка"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "LocalParameter_PresentableName_Text",
+  "En": "Local parameter",
+  "Ru": "Локальный параметр"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "OtherParameter_PresentableName_Text",
+  "En": "Other",
+  "Ru": "Прочее"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "Union_Text",
+  "En": "union",
+  "Ru": "объединение"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+  "Key": "WithinSpreadPatternSettingDescription",
+  "En": "After '..' in spread pattern",
+  "Ru": "После '..' в шаблоне раскрытия"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageProtobufZone_Description",
+  "En": "Support for Google Protocol Buffers in .proto files",
+  "Ru": "Поддержка Google Protocol Buffers в файлах .proto"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageProtobufZone_FeatureName",
+  "En": "Protobuf",
+  "Ru": "Protobuf"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx",
+  "Key": "StyleCopSettingsConfigSourceName",
+  "En": "StyleCop settings",
+  "Ru": "Настройки StyleCop"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx",
+  "Key": "WebPsiLanguageZone_Description",
+  "En": "Support for Html, ASP.NET, ASP.NET MVC, Razor, Blazor",
+  "Ru": "Поддержка Html, ASP.NET, ASP.NET MVC, Razor, Blazor"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx",
+  "Key": "WebPsiLanguageZone_FeatureName",
+  "En": "Web Languages",
+  "Ru": "Веб-языки"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "BlazorRefAttributeTargetType_Text",
+  "En": "Blazor @ref attribute target type",
+  "Ru": "Целевой тип для атрибута @ref в Blazor"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "BlazorRefAttributeTargetTypes_Text",
+  "En": "Blazor @ref attribute target types",
+  "Ru": "Целевые типы для атрибута @ref в Blazor"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "DefaultBlazorRefAttributeTargetTypeSettings_Text",
+  "En": "Default Blazor @ref attribute target type settings",
+  "Ru": "Настройки целевого типа по умолчанию для атрибута @ref в Blazor"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "LanguageCssZone_Description",
+  "En": "Support for CSS language in .css files as well as for CSS injections in HTML-based languages and JavaScript",
+  "Ru": "Поддержка языка CSS в файлах .css, а также внедрения CSS в языки на основе HTML и JavaScript"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "LanguageCssZone_FeatureName",
+  "En": "CSS Language",
+  "Ru": "Язык CSS"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "LanguageJavaScriptZone_Description",
+  "En": "Support for JavaScript and TypeScript languages in .js and .ts files as well as for JavaScript injections in HTML-based languages",
+  "Ru": "Поддержка языков JavaScript и TypeScript в файлах .js и .ts, а также внедрения JavaScript в языки на основе HTML"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+  "Key": "LanguageJavaScriptZone_FeatureName",
+  "En": "JavaScript and TypeScript",
+  "Ru": "JavaScript и TypeScript"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageResxZone_Description",
+  "En": "Support for .resx and other resource files",
+  "Ru": "Поддержка файлов .resx и других файлов ресурсов"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx",
+  "Key": "LanguageResxZone_FeatureName",
+  "En": "Internationalization",
+  "Ru": "Интернационализация"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx",
+  "Key": "HereArrowText",
+  "En": "◀ here",
+  "Ru": "◀ здесь"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx",
+  "Key": "IncompleteOpenXmlAttribute_Text",
+  "En": "Missing closing quote for attribute '{0}':",
+  "Ru": "Отсутствует закрывающая кавычка для атрибута '{0}':"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx",
+  "Key": "IncompleteOpenXmlTag_Text",
+  "En": "Missing closing tag for '<{0}>':",
+  "Ru": "Отсутствует закрывающий тег для '<{0}>':"
+ },
+ {
+  "File": "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx",
+  "Key": "UnexpectedXmlToken_Text",
+  "En": "Unexpected XML token or closing tag:",
+  "Ru": "Непредвиденная лексема XML или закрывающий тег:"
+ },
+ {
+  "File": "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx",
+  "Key": "UnitTestingZone_Description",
+  "En": "Unit test runner, explorer, and editor features for unit testing frameworks",
+  "Ru": "Средство запуска тестов, обозреватель и функции редактора для платформ модульного тестирования"
+ },
+ {
+  "File": "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx",
+  "Key": "UnitTestingZone_FeatureName",
+  "En": "Unit Testing",
+  "Ru": "Модульное тестирование"
+ },
+ {
+  "File": "JetBrains.UI.Resources.Strings.ru-RU.resx",
+  "Key": "LicensingMethods_Text",
+  "En": "Licensing methods",
+  "Ru": "Способы лицензирования"
+ },
+ {
+  "File": "JetBrains.UI.Resources.Strings.ru-RU.resx",
+  "Key": "ModifyAction_Text",
+  "En": "Modify",
+  "Ru": "Изменить"
+ },
+ {
+  "File": "JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx",
+  "Key": "PopupIndicatorShortcutHint_Text",
+  "En": "{0}",
+  "Ru": "{0}"
+ }
+]

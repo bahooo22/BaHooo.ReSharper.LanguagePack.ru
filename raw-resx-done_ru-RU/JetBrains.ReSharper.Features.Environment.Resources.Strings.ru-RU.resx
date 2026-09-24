@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -299,5 +299,11 @@
 </data>
 <data name="SystemTEMPFolder_Option_Text" xml:space="preserve">
   <value>Системная папка TEMP</value>
+</data>
+<data name="FluentDark_Option_Text" xml:space="preserve">
+  <value>Fluent Design, С‚С‘РјРЅР°СЏ С‚РµРјР°</value>
+</data>
+<data name="FluentLight_Option_Text" xml:space="preserve">
+  <value>Fluent Design, СЃРІРµС‚Р»Р°СЏ С‚РµРјР°</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -5029,5 +5029,68 @@ Shift+Tab — перейти к предыдущему элементу кода
 </data>
 <data name="ToDoItemsSettingsSettingDescription" xml:space="preserve">
     <value>Настройки элементов TODO</value>
+</data>
+<data name="ApplyIn_Text" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ {0}</value>
+</data>
+<data name="ApplyInFile_Text" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ РІ С„Р°Р№Р»Рµ '{0}'</value>
+</data>
+<data name="ApplyInFolder_Text" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ РІ РїР°РїРєРµ '{0}'</value>
+</data>
+<data name="ApplyInProject_Text" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ РІ РїСЂРѕРµРєС‚Рµ '{0}'</value>
+</data>
+<data name="ApplyInSolution_Text" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ РІ СЂРµС€РµРЅРёРё '{0}'</value>
+</data>
+<data name="ClangTidyCheck_Text" xml:space="preserve">
+  <value>РџСЂРѕРІРµСЂРєР° Clang-tidy: '{0}'</value>
+</data>
+<data name="CompilerWarning_Text" xml:space="preserve">
+  <value>РџСЂРµРґСѓРїСЂРµР¶РґРµРЅРёРµ РєРѕРјРїРёР»СЏС‚РѕСЂР°: '{0}'</value>
+</data>
+<data name="EntityFrameworkZone_Description" xml:space="preserve">
+  <value>Р’СЃРµ С„СѓРЅРєС†РёРё, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ Entity Framework</value>
+</data>
+<data name="EntityFrameworkZone_FeatureName" xml:space="preserve">
+  <value>Entity Framework</value>
+</data>
+<data name="GenericInspection_Text" xml:space="preserve">
+  <value>РРЅСЃРїРµРєС†РёСЏ: '{0}: {1}'</value>
+</data>
+<data name="Install_NuGetPackage_Text" xml:space="preserve">
+  <value>РЈСЃС‚Р°РЅРѕРІРёС‚СЊ NuGet-РїР°РєРµС‚ '{0}'</value>
+</data>
+<data name="NavigationZone_Description" xml:space="preserve">
+  <value>Р’СЃРµ С„СѓРЅРєС†РёРё, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ РЅР°РІРёРіР°С†РёРµР№, РїРѕРёСЃРєРѕРј, РёРµСЂР°СЂС…РёСЏРјРё, РїРѕСЃС‚СЂРѕРµРЅРёРµРј РґРёР°РіСЂР°РјРј Рё РґРµРєРѕРјРїРёР»СЏС‚РѕСЂРѕРј</value>
+</data>
+<data name="NavigationZone_FeatureName" xml:space="preserve">
+  <value>РќР°РІРёРіР°С†РёСЏ Рё РїРѕРёСЃРє</value>
+</data>
+<data name="PackageCheckerZone_Description" xml:space="preserve">
+  <value>РРЅС‚РµСЂР°РєС‚РёРІРЅС‹Р№ РѕРЅР»Р°Р№РЅ-СЃРµСЂРІРёСЃ РѕС‚ JetBrains РґР»СЏ РїСЂРѕРІРµСЂРєРё СѓСЃС‚Р°РЅРѕРІР»РµРЅРЅС‹С… NuGet-РїР°РєРµС‚РѕРІ РЅР° РёР·РІРµСЃС‚РЅС‹Рµ СѓСЏР·РІРёРјРѕСЃС‚Рё</value>
+</data>
+<data name="PackageCheckerZone_FeatureName" xml:space="preserve">
+  <value>Package Checker</value>
+</data>
+<data name="ProductInspection_Text" xml:space="preserve">
+  <value>РРЅСЃРїРµРєС†РёСЏ {0}: '{1}'</value>
+</data>
+<data name="RoslynAnalyzerInspection_Text" xml:space="preserve">
+  <value>РђРЅР°Р»РёР·Р°С‚РѕСЂ Roslyn: '{0}: {1}'</value>
+</data>
+<data name="SupportImplicitlyBundledVisualStudioAnalyzers" xml:space="preserve">
+  <value>РџРѕРґРґРµСЂР¶РєР° Р°РЅР°Р»РёР·Р°С‚РѕСЂРѕРІ dotnet, РЅРµСЏРІРЅРѕ РІС…РѕРґСЏС‰РёС… РІ СЃРѕСЃС‚Р°РІ Visual Studio</value>
+</data>
+<data name="WaitingForCaches_Text" xml:space="preserve">
+  <value>РћР¶РёРґР°РЅРёРµ РєСЌС€РµР№</value>
+</data>
+<data name="WaitingForProjectModel_Text" xml:space="preserve">
+  <value>РћР¶РёРґР°РЅРёРµ РјРѕРґРµР»Рё РїСЂРѕРµРєС‚Р°</value>
+</data>
+<data name="XmlDocSection_TruncatedError_Text" xml:space="preserve">
+  <value>XML-РґРѕРєСѓРјРµРЅС‚Р°С†РёСЏ С‡Р°СЃС‚РёС‡РЅРѕ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅР° РїРѕСЃР»Рµ РѕС€РёР±РєРё</value>
 </data>
 </root>

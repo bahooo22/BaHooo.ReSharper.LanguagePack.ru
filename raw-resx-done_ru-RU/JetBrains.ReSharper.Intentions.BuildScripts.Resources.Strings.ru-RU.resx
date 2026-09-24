@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -170,5 +170,8 @@
 </data>
 <data name="AddOutputTagForOutputAttribute__Text" xml:space="preserve">
   <value>Добавить output-тег для атрибута вывода '{0}'</value>
+</data>
+<data name="ResultsPoweredBy_Text" xml:space="preserve">
+  <value>Р РµР·СѓР»СЊС‚Р°С‚С‹ РїРѕРґРіРѕС‚РѕРІР»РµРЅС‹ СЃ РїРѕРјРѕС‰СЊСЋ {0}</value>
 </data>
 </root>

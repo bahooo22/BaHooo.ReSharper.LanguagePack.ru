@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -431,5 +431,20 @@
 </data>
 <data name="PoweredByLanguageTool" xml:space="preserve">
   <value>На базе технологии LanguageTool</value>
+</data>
+<data name="AcceptLicenseButtonText" xml:space="preserve">
+  <value>РџСЂРёРЅРёРјР°СЋ</value>
+</data>
+<data name="GrazieGplLicenseNoticePostfix" xml:space="preserve">
+  <value>:</value>
+</data>
+<data name="GrazieGplLicenseNoticePrefix" xml:space="preserve">
+  <value>РЎР»РµРґСѓСЋС‰РёРµ СЃР»РѕРІР°СЂРё Р»РёС†РµРЅР·РёСЂРѕРІР°РЅС‹ РєР°Рє СЃРІРѕР±РѕРґРЅРѕРµ РїСЂРѕРіСЂР°РјРјРЅРѕРµ РѕР±РµСЃРїРµС‡РµРЅРёРµ РЅР° СѓСЃР»РѕРІРёСЏС… </value>
+</data>
+<data name="LicenseInformationWindowTitle" xml:space="preserve">
+  <value>РЎРІРµРґРµРЅРёСЏ Рѕ Р»РёС†РµРЅР·РёРё</value>
+</data>
+<data name="RejectLicenseButtonText" xml:space="preserve">
+  <value>РћС‚РєР»РѕРЅСЏСЋ</value>
 </data>
 </root>

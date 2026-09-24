@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,5 +125,47 @@
 </data>
 <data name="SorterVmStateSettingDescription" xml:space="preserve">
   <value>Состояние виртуальной машины сортировщика</value>
+</data>
+<data name="PaywallBenefit1" xml:space="preserve">
+  <value>РќР°С…РѕРґРёС‚Рµ РєРѕРґ, РІС‹Р·С‹РІР°СЋС‰РёР№ Р·Р°РјРµРґР»РµРЅРёРµ СЂР°Р±РѕС‚С‹</value>
+</data>
+<data name="PaywallBenefit2" xml:space="preserve">
+  <value>РђРЅР°Р»РёР·РёСЂСѓР№С‚Рµ Р·Р°РІРёСЃР°РЅРёСЏ РёРЅС‚РµСЂС„РµР№СЃР°, SQL-Р·Р°РїСЂРѕСЃС‹, HTTP-Р·Р°РїСЂРѕСЃС‹, РѕРїРµСЂР°С†РёРё РІРІРѕРґР°-РІС‹РІРѕРґР° СЃ С„Р°Р№Р»Р°РјРё Рё РґСЂСѓРіРёРµ СЃРѕР±С‹С‚РёСЏ</value>
+</data>
+<data name="PaywallBenefit3" xml:space="preserve">
+  <value>РћС‚СЃР»РµР¶РёРІР°Р№С‚Рµ Р°РєС‚РёРІРЅРѕСЃС‚СЊ Р¦Рџ, РїРѕС‚РѕРєРѕРІ, Р°СЃРёРЅС…СЂРѕРЅРЅС‹С… РѕРїРµСЂР°С†РёР№ Рё GC СЃ С‚РµС‡РµРЅРёРµРј РІСЂРµРјРµРЅРё</value>
+</data>
+<data name="PaywallBuyButton" xml:space="preserve">
+  <value>РљСѓРїРёС‚СЊ</value>
+</data>
+<data name="PaywallBuyHint" xml:space="preserve">
+  <value>РћС‚РєСЂС‹С‚СЊ РІРµР±-СЃР°Р№С‚ РґР»СЏ РїРѕРєСѓРїРєРё Р»РёС†РµРЅР·РёРё.</value>
+</data>
+<data name="PaywallCloseButton" xml:space="preserve">
+  <value>РќРµ СЃРµР№С‡Р°СЃ</value>
+</data>
+<data name="PaywallDescription" xml:space="preserve">
+  <value>РџСЂРѕС„РёР»РёСЂСѓР№С‚Рµ СЃРІРѕРё .NET-РїСЂРёР»РѕР¶РµРЅРёСЏ, С‡С‚РѕР±С‹ РЅР°С…РѕРґРёС‚СЊ СѓР·РєРёРµ РјРµСЃС‚Р° РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё Рё РїРѕРЅРёРјР°С‚СЊ, РЅР° С‡С‚Рѕ СЂР°СЃС…РѕРґСѓРµС‚СЃСЏ РІСЂРµРјСЏ.</value>
+</data>
+<data name="PaywallHeader" xml:space="preserve">
+  <value>Р”РѕСЃС‚СѓРїРЅРѕ СЃ dotUltimate</value>
+</data>
+<data name="PaywallLicenseButton" xml:space="preserve">
+  <value>РЈРїСЂР°РІР»РµРЅРёРµ Р»РёС†РµРЅР·РёСЏРјРё</value>
+</data>
+<data name="PaywallObtainTicketButton" xml:space="preserve">
+  <value>РџРѕР»СѓС‡РёС‚СЊ Р»РёС†РµРЅР·РёСЋ</value>
+</data>
+<data name="PaywallObtainTicketHint" xml:space="preserve">
+  <value>РџРѕР»СѓС‡РёС‚СЊ РґРѕСЃС‚СѓРї Рє СЃРІРѕР±РѕРґРЅРѕР№ Р»РёС†РµРЅР·РёРё dotUltimate СЃ СЃРµСЂРІРµСЂР° Р»РёС†РµРЅР·РёР№.</value>
+</data>
+<data name="PaywallObtainTicketUpgradeHint" xml:space="preserve">
+  <value>РџРѕР»СѓС‡РёС‚СЊ РґРѕСЃС‚СѓРї Рє СЃРІРѕР±РѕРґРЅРѕР№ Р»РёС†РµРЅР·РёРё dotUltimate СЃ СЃРµСЂРІРµСЂР° Р»РёС†РµРЅР·РёР№.</value>
+</data>
+<data name="PaywallTrialButton" xml:space="preserve">
+  <value>РџРѕРїСЂРѕР±РѕРІР°С‚СЊ</value>
+</data>
+<data name="PaywallTrialHint" xml:space="preserve">
+  <value>РќР°С‡Р°С‚СЊ Р±РµСЃРїР»Р°С‚РЅСѓСЋ 30-РґРЅРµРІРЅСѓСЋ РїСЂРѕР±РЅСѓСЋ РІРµСЂСЃРёСЋ.</value>
 </data>
 </root>

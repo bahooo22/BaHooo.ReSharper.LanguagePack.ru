@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -312,5 +312,47 @@
 </data>
 <data name="Settings_MonitoringStartMode_Description" xml:space="preserve">
   <value>Режим запуска мониторинга</value>
+</data>
+<data name="ExplainHotspotWithAITask" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕР±РЅР°СЂСѓР¶РёР» РїСЂРѕР±Р»РµРјСѓ РІ `{0}`. РћР±СЉСЏСЃРЅРёС‚Рµ, РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ Р»Рё СЌС‚Рѕ РїСЂРѕР±Р»РµРјР° СЃ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊСЋ Рё С‡С‚Рѕ РµС‘ РІС‹Р·РІР°Р»Рѕ.</value>
+</data>
+<data name="FixHotspotWithAITask" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕР±РЅР°СЂСѓР¶РёР» РїСЂРѕР±Р»РµРјСѓ РІ `{0}`. РџСЂРµРґР»РѕР¶РёС‚Рµ РёСЃРїСЂР°РІР»РµРЅРёРµ.</value>
+</data>
+<data name="MonitoringOptionsPage_General" xml:space="preserve">
+  <value>РћР±С‰РёРµ</value>
+</data>
+<data name="MonitoringSettings_AspInspectionHidden" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ ASP.NET Core</value>
+</data>
+<data name="MonitoringSettings_DiagnosticsToolPanelSuppressed" xml:space="preserve">
+  <value>РџР°РЅРµР»СЊ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№ Diagnostic Tools РѕС‚РєР»СЋС‡РµРЅР°</value>
+</data>
+<data name="MonitoringSettings_DoNotAskMuteReason" xml:space="preserve">
+  <value>РќРµ СЃРїСЂР°С€РёРІР°С‚СЊ РїСЂРёС‡РёРЅСѓ СЃРєСЂС‹С‚РёСЏ</value>
+</data>
+<data name="MonitoringSettings_GcPressureInspectionHidden" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ РґР°РІР»РµРЅРёРµРј GC</value>
+</data>
+<data name="MonitoringSettings_PerformanceHotspotInspectionHidden" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ РіРѕСЂСЏС‡РёРјРё С‚РѕС‡РєР°РјРё РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё</value>
+</data>
+<data name="MonitoringSettings_SqlInspectionHidden" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ Р±Р°Р·РѕР№ РґР°РЅРЅС‹С…</value>
+</data>
+<data name="MonitoringSettings_UiFreezeInspectionHidden" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ Р·Р°РІРёСЃР°РЅРёРµРј РёРЅС‚РµСЂС„РµР№СЃР°</value>
+</data>
+<data name="OptionsPage_EnableDiagnosticTools" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ Visual Studio Diagnostic Tools</value>
+</data>
+<data name="OptionsPage_EnableMonitoring" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РјРѕРЅРёС‚РѕСЂРёРЅРі ReSharper</value>
+</data>
+<data name="OptionsPage_MonitoringAndDiagnosticTools" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі Рё СЃСЂРµРґСЃС‚РІР° РґРёР°РіРЅРѕСЃС‚РёРєРё</value>
+</data>
+<data name="OptionsPage_MonitoringIssues" xml:space="preserve">
+  <value>РћР±РЅР°СЂСѓР¶РµРЅРёРµ РїСЂРѕР±Р»РµРј</value>
 </data>
 </root>

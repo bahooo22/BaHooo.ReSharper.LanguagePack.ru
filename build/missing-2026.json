@@ -1,0 +1,2486 @@
+﻿[
+    {
+        "Resource":  "DPA.Core.Resources.Strings.resources",
+        "Dll":  "JetBrains.DPA.Core.dll",
+        "ResxFile":  "DPA.Core.Resources.Strings.ru-RU.resx",
+        "Count":  9,
+        "Entries":  [
+                        {
+                            "Key":  "DPA_Monitoring",
+                            "En":  "Monitoring"
+                        },
+                        {
+                            "Key":  "EmptyContentMonitoringDisabledText",
+                            "En":  "Monitoring disabled."
+                        },
+                        {
+                            "Key":  "EmptyContentMonitoringEnableLinkText",
+                            "En":  "Enable Monitoring"
+                        },
+                        {
+                            "Key":  "EmptyContentView_Enable",
+                            "En":  "You can enable it in "
+                        },
+                        {
+                            "Key":  "EmptyContentView_Link",
+                            "En":  "Products \u0026 Features"
+                        },
+                        {
+                            "Key":  "EmptyContentView_ProductIsCurrentlyDisabled",
+                            "En":  "{0} is currently disabled"
+                        },
+                        {
+                            "Key":  "MonitoringDetailsCaused",
+                            "En":  "This issue was caused by"
+                        },
+                        {
+                            "Key":  "QuickFilter_ShowMuted",
+                            "En":  "Show Muted Issues"
+                        },
+                        {
+                            "Key":  "StackTraceTabTitle",
+                            "En":  "Stack Trace for {0}"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "DPA.Monitoring.Resources.Strings.resources",
+        "Dll":  "JetBrains.DPA.Monitoring.dll",
+        "ResxFile":  "DPA.Monitoring.Resources.Strings.ru-RU.resx",
+        "Count":  14,
+        "Entries":  [
+                        {
+                            "Key":  "ExplainHotspotWithAITask",
+                            "En":  "Monitoring has detected an issue in `{0}`. Explain whether it\u0027s a real performance issue and what caused it."
+                        },
+                        {
+                            "Key":  "FixHotspotWithAITask",
+                            "En":  "Monitoring has detected an issue in `{0}`. Suggest a fix."
+                        },
+                        {
+                            "Key":  "MonitoringOptionsPage_General",
+                            "En":  "General"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_AspInspectionHidden",
+                            "En":  "Hide ASP.NET Core issues"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_DiagnosticsToolPanelSuppressed",
+                            "En":  "DiagnosticsTool warning panel is suppressed"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_DoNotAskMuteReason",
+                            "En":  "Do not ask for mute reason"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_GcPressureInspectionHidden",
+                            "En":  "Hide GC Pressure issues"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_PerformanceHotspotInspectionHidden",
+                            "En":  "Hide Performance Hotspot issues"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_SqlInspectionHidden",
+                            "En":  "Hide Database issues"
+                        },
+                        {
+                            "Key":  "MonitoringSettings_UiFreezeInspectionHidden",
+                            "En":  "Hide UI Freeze issues"
+                        },
+                        {
+                            "Key":  "OptionsPage_EnableDiagnosticTools",
+                            "En":  "Enable Visual Studio Diagnostic Tools"
+                        },
+                        {
+                            "Key":  "OptionsPage_EnableMonitoring",
+                            "En":  "Enable ReSharper Monitoring"
+                        },
+                        {
+                            "Key":  "OptionsPage_MonitoringAndDiagnosticTools",
+                            "En":  "Monitoring \u0026 Diagnostic Tools"
+                        },
+                        {
+                            "Key":  "OptionsPage_MonitoringIssues",
+                            "En":  "Issue Detection"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Application.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.Shell.dll",
+        "ResxFile":  "JetBrains.Application.Resources.Strings.ru-RU.resx",
+        "Count":  12,
+        "Entries":  [
+                        {
+                            "Key":  "CollectLogsActionText",
+                            "En":  "Collect Logs"
+                        },
+                        {
+                            "Key":  "EnableAIAssistant",
+                            "En":  "Enable AI Assistant"
+                        },
+                        {
+                            "Key":  "FailedToCollectLogFiles_Text",
+                            "En":  "Failed to collect log files"
+                        },
+                        {
+                            "Key":  "FailedToCollectLogs_Text",
+                            "En":  "Failed to collect log files. See log for details."
+                        },
+                        {
+                            "Key":  "IncludedLogsMayContainSensitiveData_Text",
+                            "En":  "Included logs may contain sensitive data. Do you want to make a zip archive and show it in Windows Explorer?"
+                        },
+                        {
+                            "Key":  "InternalOptionPageTitle",
+                            "En":  "Internal"
+                        },
+                        {
+                            "Key":  "IVsOnlyInProcessZone_Description",
+                            "En":  "Run in a single process"
+                        },
+                        {
+                            "Key":  "IVsOnlyInProcessZone_FeatureName",
+                            "En":  "In Process"
+                        },
+                        {
+                            "Key":  "OneOrMoreLogsCannotBeCollectedError_Text",
+                            "En":  "One or more logs cannot be collected. Error: {0}"
+                        },
+                        {
+                            "Key":  "PlatformInternalOptionPageTitle",
+                            "En":  "General"
+                        },
+                        {
+                            "Key":  "ProfileVisualStudioActionText",
+                            "En":  "Profile Visual Studio"
+                        },
+                        {
+                            "Key":  "YouAreAboutToEnableAIAssistant",
+                            "En":  "You are about to enable ReSharper AI Assistant. Do you want to continue? Visual Studio won\u0027t need to restart."
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Common.Util.ViewModel.Resources.Strings.resources",
+        "Dll":  "JetBrains.Common.Util.ViewModel.dll",
+        "ResxFile":  "JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx",
+        "Count":  14,
+        "Entries":  [
+                        {
+                            "Key":  "PaywallBenefit1",
+                            "En":  "Find the code that causes slowdowns"
+                        },
+                        {
+                            "Key":  "PaywallBenefit2",
+                            "En":  "Investigate UI freezes, SQL queries, HTTP requests, file I/O, and other events"
+                        },
+                        {
+                            "Key":  "PaywallBenefit3",
+                            "En":  "See CPU, threading, async, and GC activity over time"
+                        },
+                        {
+                            "Key":  "PaywallBuyButton",
+                            "En":  "Buy"
+                        },
+                        {
+                            "Key":  "PaywallBuyHint",
+                            "En":  "Open the website to buy a license."
+                        },
+                        {
+                            "Key":  "PaywallCloseButton",
+                            "En":  "Not Now"
+                        },
+                        {
+                            "Key":  "PaywallDescription",
+                            "En":  "Profile your .NET applications to find performance bottlenecks and understand where time is spent."
+                        },
+                        {
+                            "Key":  "PaywallHeader",
+                            "En":  "Unlock with dotUltimate"
+                        },
+                        {
+                            "Key":  "PaywallLicenseButton",
+                            "En":  "Manage Licenses"
+                        },
+                        {
+                            "Key":  "PaywallObtainTicketButton",
+                            "En":  "Get License"
+                        },
+                        {
+                            "Key":  "PaywallObtainTicketHint",
+                            "En":  "Get access to an available dotUltimate license from the license server."
+                        },
+                        {
+                            "Key":  "PaywallObtainTicketUpgradeHint",
+                            "En":  "Get access to an available dotUltimate license from the license server."
+                        },
+                        {
+                            "Key":  "PaywallTrialButton",
+                            "En":  "Give It a Try"
+                        },
+                        {
+                            "Key":  "PaywallTrialHint",
+                            "En":  "Start a free 30-day trial."
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DocumentManagers.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.DocumentManager.dll",
+        "ResxFile":  "JetBrains.DocumentManagers.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "CannotCopyFolderIntoItself_Text",
+                            "En":  "Unable to copy folder into itself"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.dotCover.Resources.Strings.resources",
+        "Dll":  "JetBrains.dotCover.Resources.dll",
+        "ResxFile":  "JetBrains.dotCover.Resources.Strings.ru-RU.resx",
+        "Count":  8,
+        "Entries":  [
+                        {
+                            "Key":  "DotCoverEnableContinuousTestingActionText",
+                            "En":  "Enable Continuous Testing"
+                        },
+                        {
+                            "Key":  "Paywall_Benefit1",
+                            "En":  "Review coverage results in Visual Studio"
+                        },
+                        {
+                            "Key":  "Paywall_Benefit2",
+                            "En":  "Focus on untested code"
+                        },
+                        {
+                            "Key":  "Paywall_Benefit3",
+                            "En":  "Spot gaps and validate changes with more confidence"
+                        },
+                        {
+                            "Key":  "Paywall_CloseButton",
+                            "En":  "Not Now"
+                        },
+                        {
+                            "Key":  "Paywall_Description",
+                            "En":  "Measure code coverage in your .NET applications and find which parts of your code are not exercised by tests."
+                        },
+                        {
+                            "Key":  "Paywall_Header",
+                            "En":  "Unlock with dotUltimate"
+                        },
+                        {
+                            "Key":  "Paywall_ToolWindowTitle",
+                            "En":  "Unlock dotCover with dotUltimate"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.dotMemory.Resources.TextResources.resources",
+        "Dll":  "JetBrains.dotMemory.Resources.dll",
+        "ResxFile":  "JetBrains.dotMemory.Resources.TextResources.ru-RU.resx",
+        "Count":  6,
+        "Entries":  [
+                        {
+                            "Key":  "ImportClrDump_FileIsNotExecutable_Exception",
+                            "En":  "Unable to import the dump: dotMemory failed to run the required file. Make sure the file at {0} has execute permission and try again."
+                        },
+                        {
+                            "Key":  "ImportClrDump_FileIsNotReadable_Exception",
+                            "En":  "Unable to import the dump: dotMemory failed to run the required file. Make sure the file at {0} has read permission and try again."
+                        },
+                        {
+                            "Key":  "ImportClrDump_SelectDac_Dialog_Title",
+                            "En":  "Select a DAC library for {0}"
+                        },
+                        {
+                            "Key":  "ImportClrDump_SelectDac_FileFilter_Description",
+                            "En":  "DAC libraries"
+                        },
+                        {
+                            "Key":  "ImportClrDump_UntrustedDac_Confirmation_Template",
+                            "En":  "The DAC library required to read this dump was found in the runtime location recorded in the dump:\n{0}\n\ndotMemory cannot verify the authenticity of this library. Load it only if you trust its source.\n\nDo you want to load it?"
+                        },
+                        {
+                            "Key":  "MainView_StartNewAnalysisButton_MacOs_Tooltip",
+                            "En":  "Copy current analysis (⌘T)\r\n(To start new analysis, use ⌃⌘T)"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DotTrace.DataStructures.Resources.UIResources.resources",
+        "Dll":  "JetBrains.DotTrace.DataStructures.dll",
+        "ResxFile":  "JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "ConfigurationEditor_ConfigureSymbolServers",
+                            "En":  "Configure symbol servers"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DotTrace.Features.Resources.Strings.resources",
+        "Dll":  "JetBrains.DotTrace.Features.dll",
+        "ResxFile":  "JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx",
+        "Count":  8,
+        "Entries":  [
+                        {
+                            "Key":  "CallTreePreprocessor_Preprocessing_call_tree",
+                            "En":  "Preprocessing call tree"
+                        },
+                        {
+                            "Key":  "CallTreePreprocessor_Processing_resolved_call_tree",
+                            "En":  "Processing resolved call tree"
+                        },
+                        {
+                            "Key":  "CallTreeResolver_Resolving_call_tree",
+                            "En":  "Resolving call tree"
+                        },
+                        {
+                            "Key":  "LoadPdbSettingDescription",
+                            "En":  "LoadPdb"
+                        },
+                        {
+                            "Key":  "NativeModulesPreprocessor_Collecting_native_functions",
+                            "En":  "Collecting native functions from native modules"
+                        },
+                        {
+                            "Key":  "SymbolPathsSettingsKey_KeyDescription",
+                            "En":  "dotTrace profiling symbol server settings"
+                        },
+                        {
+                            "Key":  "SymbolServersUsedInDotTraceSettingDescription",
+                            "En":  "Symbol servers used in dotTrace"
+                        },
+                        {
+                            "Key":  "TimelineProcessingSettingsSettingDescription",
+                            "En":  "TimelineProcessingSettings"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.dotTrace.Home.Presentation.Resources.Strings.resources",
+        "Dll":  "JetBrains.dotTrace.Home.Presentation.dll",
+        "ResxFile":  "JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "UseStackWalkSyncOnWindowsSettingDescription",
+                            "En":  "UseStackWalkSyncOnWindows"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DotTrace.ViewModel.Resources.Strings.resources",
+        "Dll":  "JetBrains.DotTrace.ViewModel.dll",
+        "ResxFile":  "JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "EmptyContentView_EnableFormat",
+                            "En":  "Enable it in {0}."
+                        },
+                        {
+                            "Key":  "EmptyContentView_ProductIsDisabled",
+                            "En":  "dotTrace Performance Profiler is disabled."
+                        },
+                        {
+                            "Key":  "EmptyContentView_SettingsLink",
+                            "En":  "Settings"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.resources",
+        "Dll":  "JetBrains.DPA.Monitoring.GUI.Avalonia.dll",
+        "ResxFile":  "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx",
+        "Count":  13,
+        "Entries":  [
+                        {
+                            "Key":  "DevartWarningMessage",
+                            "En":  "Monitoring has disabled database issue detection: This project uses Devart’s ADO.NET data providers, which can cause problems during profiling."
+                        },
+                        {
+                            "Key":  "DiagnosticsToolsPanel_Settings",
+                            "En":  "Set up in Settings"
+                        },
+                        {
+                            "Key":  "DiagnosticsToolsPanel_Text1",
+                            "En":  "ReSharper Monitoring: "
+                        },
+                        {
+                            "Key":  "DiagnosticsToolsPanel_Text2",
+                            "En":  "a refined take on performance diagnostics."
+                        },
+                        {
+                            "Key":  "LogReport_KernelNotSupported",
+                            "En":  "Performance data will not be collected because kernel-level sampling is not supported on this system"
+                        },
+                        {
+                            "Key":  "MutePanelDropdown",
+                            "En":  "Choose reason"
+                        },
+                        {
+                            "Key":  "MutePanelLabel",
+                            "En":  "Issue muted. Would you like to share the reason?"
+                        },
+                        {
+                            "Key":  "MutePanelNeverAsk",
+                            "En":  "Never ask"
+                        },
+                        {
+                            "Key":  "MutePanelNotMyCode",
+                            "En":  "Code I cannot modify"
+                        },
+                        {
+                            "Key":  "MutePanelReasonFalsePositive",
+                            "En":  "False positive"
+                        },
+                        {
+                            "Key":  "MutePanelReasonMinor",
+                            "En":  "Too minor to look into"
+                        },
+                        {
+                            "Key":  "MutePanelReasonOther",
+                            "En":  "Other"
+                        },
+                        {
+                            "Key":  "RestoreIssueAction",
+                            "En":  "Unmute Issue"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.IDE.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.Ide.dll",
+        "ResxFile":  "JetBrains.IDE.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "NuGetDumpInstalledPackageTrackerAction",
+                            "En":  "Dump NuGet InstalledPackageTracker"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.UIInteractive.Ide.dll",
+        "ResxFile":  "JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "CompactSpacingInToolWindowsTreesSettingDescription",
+                            "En":  "Use compact spacing in tree views"
+                        },
+                        {
+                            "Key":  "TreeGridPresentableViewStyleSettingsSettingDescription",
+                            "En":  "Tool window tree view style settings"
+                        },
+                        {
+                            "Key":  "UseCompactSpacingInToolWindowsTrees_Text",
+                            "En":  "Use compact spacing in tree views"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.VisualStudio.AnyEnd.dll",
+        "ResxFile":  "JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx",
+        "Count":  19,
+        "Entries":  [
+                        {
+                            "Key":  "AllowAICompletionForExperimentalLanguages_Text",
+                            "En":  "Allow AI completion for experimental languages"
+                        },
+                        {
+                            "Key":  "BringAnyAiAgent_Text",
+                            "En":  "Bring any AI agent to Visual Studio. Start the journey with Junie."
+                        },
+                        {
+                            "Key":  "DoNotFilterOutDuplicateVSLightBulbActions_Text",
+                            "En":  "Do not filter out duplicate VS Light Bulb actions"
+                        },
+                        {
+                            "Key":  "DonTShowWhatSNewPageAfterUpdate_Text",
+                            "En":  "Don\u0027t show the What\u0027s New page after updating"
+                        },
+                        {
+                            "Key":  "EnableAICodeCompletion_Text",
+                            "En":  "Enable AI Code Completion"
+                        },
+                        {
+                            "Key":  "EnableRetrievalTimeoutForVisualStudio_Text",
+                            "En":  "Enable retrieval timeout for Visual Studio Quick Actions"
+                        },
+                        {
+                            "Key":  "EnvironmentInfoAttachmentProvider_ProviderName",
+                            "En":  "Environment Information"
+                        },
+                        {
+                            "Key":  "HideVisualStudioSquigglesSettingDescription",
+                            "En":  "Hide Visual Studio squiggles"
+                        },
+                        {
+                            "Key":  "InvokeAICompletionAutomaticallyOnNew_Text",
+                            "En":  "Invoke AI Completion automatically on new line"
+                        },
+                        {
+                            "Key":  "ShowVisualStudioLightBulbActionsInSubmenu_Text",
+                            "En":  "Show Visual Studio light Bulb actions in submenu"
+                        },
+                        {
+                            "Key":  "StoresForWhichWhatsNewIsShownSettingDescription",
+                            "En":  "Stores for which what\u0027s new is shown"
+                        },
+                        {
+                            "Key":  "StoresMd5HashForLastShownWhatNew",
+                            "En":  "Stores MD5 hash for last shown whats_new.json"
+                        },
+                        {
+                            "Key":  "UseTheAgentsYouWantInVisualStudioReSharper_Text",
+                            "En":  "Use the agents you want in Visual Studio. ReSharper\u0027s open ecosystem for AI starts with Junie, our first supported agent."
+                        },
+                        {
+                            "Key":  "VisualStudioLightBulbDisplayMode_Text",
+                            "En":  "Visual Studio Light Bulb display mode"
+                        },
+                        {
+                            "Key":  "VisualStudioRelatedSettingsForGrayCode_Text",
+                            "En":  "Visual Studio related settings for gray code completion."
+                        },
+                        {
+                            "Key":  "VisualStudioSquigglesRoslynAnalyzersAreNotRenderedByVisualStudioItselfButInsteadThoseOfThemWhichAreNotRedundantInPresenceOfReSharperSuchAsCustomAnalyzerSetsAreProcessedTogetherWithReSharperAnalysisResultsSuppressVsSquigglesMustBeOffToTakeEffectSettingDescription",
+                            "En":  "Visual Studio squiggles (Roslyn analyzers) are not rendered by Visual Studio itself, but instead those of them which are not redundant in presence of ReSharper (such as custom analyzer sets) are processed together with ReSharper analysis results; SuppressVsSquiggles must be off to take effect"
+                        },
+                        {
+                            "Key":  "VsHighlightingSettings",
+                            "En":  "Visual Studio Light Bulb settings"
+                        },
+                        {
+                            "Key":  "WhatsNewShownSettingsSettingDescription",
+                            "En":  "What\u0027s new shown settings"
+                        },
+                        {
+                            "Key":  "ZeroLockInAI_Text",
+                            "En":  "Zero Lock-In AI"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.VisualStudio.Backend.dll",
+        "ResxFile":  "JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+        "Count":  25,
+        "Entries":  [
+                        {
+                            "Key":  "AIAssistantNotFoundToTryJuniePlease_Text",
+                            "En":  "AI Assistant not found.\nTo try Junie, please run the ReSharper or dotUltimate setup wizard and ensure \u0027AI Assistant\u0027 is selected for installation."
+                        },
+                        {
+                            "Key":  "CallAutomaticallyOnNuGetChangesOrIf_Text",
+                            "En":  "Call automatically on NuGet changes or if project contains conditional references"
+                        },
+                        {
+                            "Key":  "DefaultDiskCleanupSettings_Text",
+                            "En":  "Default disk cleanup settings"
+                        },
+                        {
+                            "Key":  "DeplozedPackagesCache_PathToCleanDescription_Text",
+                            "En":  "Deployed packages cache. Safe to remove. The necessary ones will be created on demand."
+                        },
+                        {
+                            "Key":  "DoNotCallMSBuild_Text",
+                            "En":  "Do not call MSBuild"
+                        },
+                        {
+                            "Key":  "DonTShowWhatSNewPageAfterUpdate_Text",
+                            "En":  "Don\u0027t show the What\u0027s New page after updating"
+                        },
+                        {
+                            "Key":  "ExternalServices_PathToCleanDescription_Text",
+                            "En":  "External services cache. Files currently in use cannot be deleted."
+                        },
+                        {
+                            "Key":  "InstallerLogFiles_PathToCleanDescription_Text",
+                            "En":  "Installer log files"
+                        },
+                        {
+                            "Key":  "LogFiles_PathToCleanDescription_Text",
+                            "En":  "Log files"
+                        },
+                        {
+                            "Key":  "MSBuildAccess_Header_Text",
+                            "En":  "MSBuild access"
+                        },
+                        {
+                            "Key":  "ObtainDataFromMSBuildAfterEachCompilation_Text",
+                            "En":  "Obtain data from MSBuild after each compilation"
+                        },
+                        {
+                            "Key":  "ProductContentCache_PathToCleanDescription_Text",
+                            "En":  "Product content cache. Safe to remove. The necessary ones will be created on demand."
+                        },
+                        {
+                            "Key":  "ReadSolutionModelDirectlyFromProject_BoolOption_Text",
+                            "En":  "Read solution model directly from project/solution files.\nIf deselected, solution model is loaded using Visual Studio COM API, like in ReSharper 2019.1 and below. You can override this behavior for specific projects in their properties."
+                        },
+                        {
+                            "Key":  "SettingsStorageCache_PathToCleanDescription_Text",
+                            "En":  "Settings storage cache. Safe to remove. The necessary ones will be created on demand."
+                        },
+                        {
+                            "Key":  "ShellCachesInAppData_PathToCleanDescription_Text",
+                            "En":  "Shell caches in local app data"
+                        },
+                        {
+                            "Key":  "SolutionCachesInAppData_PathToCleanDescription_Text",
+                            "En":  "Solution caches in local app data"
+                        },
+                        {
+                            "Key":  "SolutionCachesInTemp_PathToCleanDescription_Text",
+                            "En":  "Solution caches in temp"
+                        },
+                        {
+                            "Key":  "SolutionModel_Header_Text",
+                            "En":  "Solution Model"
+                        },
+                        {
+                            "Key":  "StoresForWhichWhatsNewIsShownSettingDescription",
+                            "En":  "Stores for which what\u0027s new is shown"
+                        },
+                        {
+                            "Key":  "StoresMd5HashForLastShownWhatNew",
+                            "En":  "Stores MD5 hash for last shown whats_new.json"
+                        },
+                        {
+                            "Key":  "TempCaches_PathToCleanDescription_Text",
+                            "En":  "Temp caches"
+                        },
+                        {
+                            "Key":  "UseMSBuildToObtainProjectReferences_RadioOption_Caption",
+                            "En":  "Use MSBuild to obtain project references and generated files:"
+                        },
+                        {
+                            "Key":  "WebsiteBuilderFiles_PathToCleanDescription_Text",
+                            "En":  "Website builder files and folders for temporary websites created by ReSharper"
+                        },
+                        {
+                            "Key":  "WhatSNew_Text",
+                            "En":  "What\u0027s New"
+                        },
+                        {
+                            "Key":  "WhatsNewShownSettingsSettingDescription",
+                            "En":  "What\u0027s new shown settings"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.Profiler.Resources.UITexts.resources",
+        "Dll":  "JetBrains.Profiler.dll",
+        "ResxFile":  "JetBrains.Profiler.Resources.UITexts.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "PerformanceInfo_DisableSynchStackWalking",
+                            "En":  "Do not use safer sampling"
+                        },
+                        {
+                            "Key":  "PerformanceInfo_EnableSynchStackWalking",
+                            "En":  "Use safer sampling"
+                        },
+                        {
+                            "Key":  "PerformanceInfo_EnableSynchStackWalking_Details",
+                            "En":  "Significantly reduces the risk of freezes and crashes when profiling .NET Core 3.0 or later. GC information will not be available, and the snapshot may contain fewer samples per second."
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ProjectModel.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.ProjectModel.dll",
+        "ResxFile":  "JetBrains.ProjectModel.Resources.Strings.ru-RU.resx",
+        "Count":  8,
+        "Entries":  [
+                        {
+                            "Key":  "CacheSecondaryPsiDescription",
+                            "En":  "Cache Secondary PSI treeNodes in SecondaryPsiTreeNodeCache"
+                        },
+                        {
+                            "Key":  "DiagnosticSubsystem_Environment",
+                            "En":  "Environment"
+                        },
+                        {
+                            "Key":  "DiagnosticSubsystem_Roslyn",
+                            "En":  "Roslyn"
+                        },
+                        {
+                            "Key":  "DiagnosticSubsystem_Security",
+                            "En":  "Security"
+                        },
+                        {
+                            "Key":  "DiagnosticSubsystem_Solution",
+                            "En":  "Solution"
+                        },
+                        {
+                            "Key":  "InstallAnnotationsPackageHint_Text",
+                            "En":  "{0} (install \u0027{1}\u0027 package)"
+                        },
+                        {
+                            "Key":  "InstallingNuGetPackage_Text",
+                            "En":  "Installing \u0027{0}\u0027 package"
+                        },
+                        {
+                            "Key":  "UpdatingSelectedPackages__Caption",
+                            "En":  "Updating selected packages"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.resources",
+        "Dll":  "JetBrains.PsiFeatures.UIInteractive.Features.dll",
+        "ResxFile":  "JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "PopupIndicatorShortcutHint_Text",
+                            "En":  "{0}"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.resources",
+        "Dll":  "JetBrains.PsiFeatures.VisualStudio.Backend.dll",
+        "ResxFile":  "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx",
+        "Count":  19,
+        "Entries":  [
+                        {
+                            "Key":  "AlignBaselines_BoolOption_Text",
+                            "En":  "Align baselines"
+                        },
+                        {
+                            "Key":  "CodeInspectionSettingsColorIdentifiers_Text",
+                            "En":  "*Code Inspection | Settings | Color identifiers* option must be turned on for ReSharper to be able to show its tooltips"
+                        },
+                        {
+                            "Key":  "EnvironmentInfoAttachmentProvider_ProviderName",
+                            "En":  "Environment Information"
+                        },
+                        {
+                            "Key":  "Hint_Text_Size",
+                            "En":  "Font size"
+                        },
+                        {
+                            "Key":  "Inline_Hints_Scale ",
+                            "En":  "Inline Hints scale: "
+                        },
+                        {
+                            "Key":  "Interline_Hints_Scale ",
+                            "En":  "Interline Hints scale: "
+                        },
+                        {
+                            "Key":  "InternalOptions_Text",
+                            "En":  "Internal options"
+                        },
+                        {
+                            "Key":  "Log_Option_Text",
+                            "En":  "Log"
+                        },
+                        {
+                            "Key":  "LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption",
+                            "En":  "Log level for writing NuGet package restorer messages to output:"
+                        },
+                        {
+                            "Key":  "None_Option_Text",
+                            "En":  "None"
+                        },
+                        {
+                            "Key":  "Notification_Option_Text",
+                            "En":  "Notification"
+                        },
+                        {
+                            "Key":  "NuGetRestorerOptionPageTitle",
+                            "En":  "NuGet Restorer"
+                        },
+                        {
+                            "Key":  "ReplaceVisualStudioTooltips_Text",
+                            "En":  "Replace Visual Studio tooltips"
+                        },
+                        {
+                            "Key":  "ReSharperForVSCodeFeatureSuggesterSettingsKeySettingDescription",
+                            "En":  "ReSharper for VS Code feature suggester settings"
+                        },
+                        {
+                            "Key":  "ReSharperForVSCodeLearnMore_Text",
+                            "En":  "Learn More"
+                        },
+                        {
+                            "Key":  "ReSharperForVSCodeSuggestion_Text",
+                            "En":  "The trusted ReSharper expertise is now available in VS Code, Cursor, and Google Antigravity.\nIt is covered by the same license as ReSharper in Visual Studio.\nSearch for **ReSharper** in the Extensions view and give it a try!"
+                        },
+                        {
+                            "Key":  "RestoringNuGetPackagesClickToCancel_ToolTip",
+                            "En":  "Restoring NuGet packages\nClick to cancel"
+                        },
+                        {
+                            "Key":  "ShowLog_Button_Text",
+                            "En":  "Show log"
+                        },
+                        {
+                            "Key":  "Tooltips_Header_Text",
+                            "En":  "Tooltips"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.resources",
+        "Dll":  "JetBrains.PsiFeatures.VisualStudio.Core.dll",
+        "ResxFile":  "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "VsDebuggerFeaturesZone_Description",
+                            "En":  "Features related to Visual Studio debugger"
+                        },
+                        {
+                            "Key":  "VsDebuggerFeaturesZone_FeatureName",
+                            "En":  "Debugger features"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Daemon.CSharp.dll",
+        "ResxFile":  "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx",
+        "Count":  109,
+        "Entries":  [
+                        {
+                            "Key":  "_15OrGreater_Text",
+                            "En":  "15.0 or greater"
+                        },
+                        {
+                            "Key":  "AForEachCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed",
+                            "En":  "A \u0027foreach\u0027 can be converted into a LINQ-expression but another \u0027GetEnumerator\u0027 method will be used"
+                        },
+                        {
+                            "Key":  "AForEachOrForStatementCanBeConvertedIntoALINQExpression",
+                            "En":  "A \u0027foreach\u0027 or \u0027for\u0027 statement can be converted into a LINQ-expression"
+                        },
+                        {
+                            "Key":  "ArrangeAccessorsOrder_Description",
+                            "En":  "It is recommended to place \u0027get\u0027 before \u0027set\u0027/\u0027init\u0027, and \u0027add\u0027 before \u0027remove\u0027"
+                        },
+                        {
+                            "Key":  "ArrangeAccessorsOrder_Title",
+                            "En":  "Arrange accessors order"
+                        },
+                        {
+                            "Key":  "ArrangeAccessorsOrderMessage",
+                            "En":  "Arrange accessors order"
+                        },
+                        {
+                            "Key":  "ArrangeEmptyString_Description",
+                            "En":  "Consider using either empty literal \"\" or \u0027string.Empty\u0027 consistently across the codebase to improve readability and maintain a uniform code style"
+                        },
+                        {
+                            "Key":  "ArrangeEmptyString_Title",
+                            "En":  "Empty string style"
+                        },
+                        {
+                            "Key":  "ArrangeEmptyString_UseEmptyLiteral_Message",
+                            "En":  "Use \"\""
+                        },
+                        {
+                            "Key":  "ArrangeEmptyString_UseStringEmpty_Message",
+                            "En":  "Use \u0027string.Empty\u0027"
+                        },
+                        {
+                            "Key":  "AsyncMethodWithoutAwaitDescription",
+                            "En":  "Async methods are expected to have \u0027await\u0027 operators inside to run asynchronously"
+                        },
+                        {
+                            "Key":  "AsyncMethodWithoutAwaitMessage",
+                            "En":  "This async method lacks \u0027await\u0027 operators and will run synchronously. Consider using \u0027await\u0027 for non-blocking API calls, or remove the \u0027async\u0027 modifier to avoid generating a state machine for this method."
+                        },
+                        {
+                            "Key":  "AsyncMethodWithoutAwaitTitle",
+                            "En":  "Async method without \u0027await\u0027 operators"
+                        },
+                        {
+                            "Key":  "AsyncTaskMethodWithoutAwaitTitle",
+                            "En":  "Async Task method without \u0027await\u0027 operators"
+                        },
+                        {
+                            "Key":  "AsyncTaskOverrideMethodWithoutAwaitTitle",
+                            "En":  "Async Task method override without \u0027await\u0027 operators"
+                        },
+                        {
+                            "Key":  "AsyncVoidMethodWithoutAwaitTitle",
+                            "En":  "Async void method without \u0027await\u0027 operators"
+                        },
+                        {
+                            "Key":  "AsyncVoidOverrideMethodWithoutAwaitTitle",
+                            "En":  "Async void method override without \u0027await\u0027 operators"
+                        },
+                        {
+                            "Key":  "AvoidAllUsingasyncMethodsWithThevoidReturnType",
+                            "En":  "Avoid using \u0027async\u0027 for methods and functions with the \u0027void\u0027 return type"
+                        },
+                        {
+                            "Key":  "CallerUnsafeExplicitlyImplementingSafeMessage",
+                            "En":  "Unsafe member \u0027{0}\u0027 cannot implement safe member \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "CallerUnsafeImplicitlyImplementingSafeMessage",
+                            "En":  "Unsafe member \u0027{0}\u0027 cannot implicitly implement safe member \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "CallerUnsafeOverridingSafeMessage",
+                            "En":  "Unsafe member \u0027{0}\u0027 cannot override safe member \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "CannotBeBothAbstractAndMessage",
+                            "En":  "{0} \u0027{1}\u0027 cannot be both {2} and {3}"
+                        },
+                        {
+                            "Key":  "CannotResolveCollectionExpressionConstructorMessage",
+                            "En":  "Cannot resolve expected constructor of \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "CanUseHashCodeCombineDescription",
+                            "En":  "Hash code is being calculated using a temporary value tuple. Consider using \u0027HashCode.Combine\u0027 instead"
+                        },
+                        {
+                            "Key":  "CanUseHashCodeCombineMessage",
+                            "En":  "Use \u0027HashCode.Combine\u0027 to calculate the hash code"
+                        },
+                        {
+                            "Key":  "CanUseHashCodeCombineTitle",
+                            "En":  "Use \u0027HashCode.Combine\u0027 to calculate the hash code"
+                        },
+                        {
+                            "Key":  "ClassCannotBeBothClosedAnd_Message",
+                            "En":  "Class cannot be both {0} and {1} at the same time"
+                        },
+                        {
+                            "Key":  "ClosedBaseTypeBaseFromOtherAssembly_Message",
+                            "En":  "Cannot use {0} type \u0027{1}\u0027 from another assembly as a base type"
+                        },
+                        {
+                            "Key":  "ClosedExplicitlyAbstract_Message",
+                            "En":  "A {0} type \u0027{1}\u0027 cannot be marked {2} because it is always implicitly abstract"
+                        },
+                        {
+                            "Key":  "CodeCleanupTask_ArrangeAccessors",
+                            "En":  "Arrange accessors"
+                        },
+                        {
+                            "Key":  "CodeCleanupTask_ArrangeEmptyString",
+                            "En":  "Apply empty string style (\u0027string.Empty\u0027 vs. empty literal \"\")"
+                        },
+                        {
+                            "Key":  "CodeStyleRule_EmptyString_Category",
+                            "En":  "Empty string"
+                        },
+                        {
+                            "Key":  "CodeStyleRule_EmptyString_Description",
+                            "En":  "Empty strings must be expressed as \"\" or \u0027string.Empty\u0027"
+                        },
+                        {
+                            "Key":  "CodeStyleRule_EmptyString_Title",
+                            "En":  "Use empty literal \"\" or \u0027string.Empty\u0027"
+                        },
+                        {
+                            "Key":  "CollectionArgumentsMustBeEmptyMessage",
+                            "En":  "\u0027with(...)\u0027 element for a read-only interface must be empty if present"
+                        },
+                        {
+                            "Key":  "CollectionRefLikeElementTypeMessage",
+                            "En":  "Collection iteration type \u0027{0}\u0027 may not be a ref struct or a type parameter allowing ref structs"
+                        },
+                        {
+                            "Key":  "CompilerWarning_CS9377_Title",
+                            "En":  "The \u0027unsafe\u0027 modifier does not have any effect here under the current memory safety rules"
+                        },
+                        {
+                            "Key":  "ConvertStaticMethodInvocationToExtensionMemberCall",
+                            "En":  "Convert static method invocation into extension member call"
+                        },
+                        {
+                            "Key":  "ConvertStaticMethodInvocationToExtensionMemberCallFromOtherClass",
+                            "En":  "Convert qualified static method invocation into extension member call"
+                        },
+                        {
+                            "Key":  "ConvertStaticMethodInvocationToExtensionMemberCallFromSameClass",
+                            "En":  "Convert same-class static method invocation into extension method call"
+                        },
+                        {
+                            "Key":  "ExplicitOrExtendedLayoutFieldRequiresUnsafeOrSafeMessage",
+                            "En":  "Field in an explicit or extended layout type must be marked \u0027unsafe\u0027 or \u0027safe\u0027"
+                        },
+                        {
+                            "Key":  "ExternMemberRequiresUnsafeOrSafeMessage",
+                            "En":  "\u0027extern\u0027 member must be marked \u0027unsafe\u0027 or \u0027safe\u0027"
+                        },
+                        {
+                            "Key":  "IgnoredDirectiveInProjectBasedProgramMessage",
+                            "En":  "\u0027#:\u0027 directives can only be used in file-based programs (\u0027-features:FileBasedProgram\u0027)"
+                        },
+                        {
+                            "Key":  "IllFormedUnionDeclarationCaseMessage",
+                            "En":  "A \u0027union\u0027 declaration case must contain only a type"
+                        },
+                        {
+                            "Key":  "ImmutableArrayWithCollectionInitializerDescription",
+                            "En":  "Using a collection initializer with \u0027ImmutableArray\u003cT\u003e\u0027 causes a runtime exception. Collection initializers are translated into \u0027Add\u0027 calls on the default \u0027ImmutableArray\u003cT\u003e\u0027 instance. Because the underlying \u0027array\u0027 field is \u0027null\u0027, this results in a \u0027NullReferenceException\u0027."
+                        },
+                        {
+                            "Key":  "ImmutableArrayWithCollectionInitializerMessage",
+                            "En":  "Using a collection initializer with \u0027ImmutableArray\u003cT\u003e\u0027 leads to a runtime exception"
+                        },
+                        {
+                            "Key":  "ImmutableArrayWithCollectionInitializerTitle",
+                            "En":  "ImmutableArray\u003cT\u003e with collection initializer"
+                        },
+                        {
+                            "Key":  "InstanceFieldsNotPermittedInUnionMessage",
+                            "En":  "Instance fields, auto-properties, or field-like events are not permitted in a \u0027union\u0027 declaration"
+                        },
+                        {
+                            "Key":  "InvokeAsExtensionMemberMessage",
+                            "En":  "Invoke as extension {0}"
+                        },
+                        {
+                            "Key":  "MethodsExtensionMethodCall_RiderPresentableName",
+                            "En":  "Methods//Extension method call"
+                        },
+                        {
+                            "Key":  "MethodsMethodCall_RiderPresentableName",
+                            "En":  "Methods//Method Call"
+                        },
+                        {
+                            "Key":  "MethodsStaticMethodCall_RiderPresentableName",
+                            "En":  "Methods//Static Method Call"
+                        },
+                        {
+                            "Key":  "MustHaveInitSetToImplementMessage",
+                            "En":  "\u0027{0}\u0027 must have \u0027{1}\u0027 accessor instead of \u0027{2}\u0027 to implement {3} \u0027{4}\u0027"
+                        },
+                        {
+                            "Key":  "MustHaveInitSetToMatchOverriddenMessage",
+                            "En":  "\u0027{0}\u0027 must have \u0027{1}\u0027 accessor instead of \u0027{2}\u0027 to match overridden {3} \u0027{4}\u0027"
+                        },
+                        {
+                            "Key":  "NoExtensionOperatorMatchingKindParameterMessage",
+                            "En":  "Receiver parameter of a value type must have \u0027{0}\u0027 modifier"
+                        },
+                        {
+                            "Key":  "NoExtensionOperatorMatchingValueKindParameterMessage",
+                            "En":  "Receiver parameter of a value type must not have \u0027{0}\u0027 modifier"
+                        },
+                        {
+                            "Key":  "OneOfTheParametersOfAnEqualityOrInequalityOperatorDeclaredInInterfaceMustBeATypeParameterConstrainedToTheContainingTypeMessage",
+                            "En":  "One of the parameters of an equality or inequality operator declared in interface must be a type parameter constrained to the containing type"
+                        },
+                        {
+                            "Key":  "OnlyOnePartOfAPartialUnionCanDeclareCaseTypesMessage",
+                            "En":  "Only one part of a \u0027{0} {1}\u0027 can declare case types"
+                        },
+                        {
+                            "Key":  "ParamsModifierIsAlwaysIgnoredOnOverridesDescription",
+                            "En":  "\u0027params\u0027 modifier is always ignored on overrides"
+                        },
+                        {
+                            "Key":  "PartialMemberSafeDifferenceMessage",
+                            "En":  "Both partial member declarations must be marked \u0027safe\u0027 or neither may be marked \u0027safe\u0027"
+                        },
+                        {
+                            "Key":  "PartialMethodsMustHaveVoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage",
+                            "En":  "Partial methods must have a \u0027{0}\u0027 return type unless language version \u00279.0\u0027 or greater is used"
+                        },
+                        {
+                            "Key":  "PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpression",
+                            "En":  "Part of \u0027foreach\u0027 statement\u0027s body can be converted into a LINQ-expression"
+                        },
+                        {
+                            "Key":  "PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed",
+                            "En":  "Part of \u0027foreach\u0027 statement\u0027s body can be converted into a LINQ-expression but another \u0027GetEnumerator\u0027 method will be used"
+                        },
+                        {
+                            "Key":  "PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEnd",
+                            "En":  "Index from end must be greater than zero; use \u0027^1\u0027 to refer to the last element"
+                        },
+                        {
+                            "Key":  "ReceiverParameterConstraintRequiredErrorMessage",
+                            "En":  "Either \u0027{0}\u0027 or \u0027{1}\u0027 constraint is required on receiver parameter type to declare instance extension operator for it"
+                        },
+                        {
+                            "Key":  "RedundantCapacityArgumentDescription",
+                            "En":  "The specified initial capacity is smaller than the number of provided elements, making the capacity argument redundant"
+                        },
+                        {
+                            "Key":  "RedundantCapacityArgumentMessage",
+                            "En":  "Capacity argument is redundant because more elements are already provided"
+                        },
+                        {
+                            "Key":  "RedundantCapacityArgumentTitle",
+                            "En":  "Redundant capacity argument"
+                        },
+                        {
+                            "Key":  "RedundantEmptyWithElementDescription",
+                            "En":  "Empty \u0027with()\u0027 is redundant"
+                        },
+                        {
+                            "Key":  "RedundantEmptyWithElementMessage",
+                            "En":  "\u0027with()\u0027 is redundant"
+                        },
+                        {
+                            "Key":  "RedundantEmptyWithElementTitle",
+                            "En":  "Redundant empty \u0027with()\u0027"
+                        },
+                        {
+                            "Key":  "RefLocalAcrossAwaitMessage",
+                            "En":  "A \u0027{0}\u0027 local cannot be preserved across \u0027{1}\u0027 or \u0027{2}\u0027 boundary"
+                        },
+                        {
+                            "Key":  "RefReceiverParameterRequiredForStructErrorMessage",
+                            "En":  "The receiver parameter of a struct instance extension operator must have \u0027{0}\u0027 modifier"
+                        },
+                        {
+                            "Key":  "ReplaceWithOfTypeDescription",
+                            "En":  "Replace .Where(x =\u003e x is T).Select(x =\u003e (T) x) and similar constructs with .OfType\u003cT\u003e"
+                        },
+                        {
+                            "Key":  "ReplaceWithOfTypeMessage",
+                            "En":  "Replace with \u0027.{0}\u003c{1}\u003e()\u0027"
+                        },
+                        {
+                            "Key":  "ReplaceWithOfTypeTitle",
+                            "En":  "Replace with \u0027.OfType\u003cT\u003e()\u0027"
+                        },
+                        {
+                            "Key":  "RuntimeDoesNotSupportExtendedLayoutTypesMessage",
+                            "En":  "The target runtime does not support extended layout types"
+                        },
+                        {
+                            "Key":  "SafeModifierUnsupportedTargetMessage",
+                            "En":  "The \u0027safe\u0027 modifier may only be used on members that are not marked \u0027unsafe\u0027 and are either \u0027extern\u0027, or field-like in types with explicit or extended layout"
+                        },
+                        {
+                            "Key":  "ShortLivedHttpClientDescription",
+                            "En":  "Short-lived \u0027HttpClient\u0027 is not recommended. Frequently creating \u0027HttpClient\u0027 instances can lead to socket exhaustion. Consider using \u0027IHttpClientFactory\u0027 or a long-lived (e.g., static) \u0027HttpClient\u0027 instance instead."
+                        },
+                        {
+                            "Key":  "ShortLivedHttpClientMessage",
+                            "En":  "Short-lived \u0027HttpClient\u0027 is not recommended. Frequently creating \u0027HttpClient\u0027 instances can lead to socket exhaustion. Consider using \u0027IHttpClientFactory\u0027 or a long-lived (e.g., static) \u0027HttpClient\u0027 instance instead."
+                        },
+                        {
+                            "Key":  "ShortLivedHttpClientTitle",
+                            "En":  "Short-lived \u0027HttpClient\u0027"
+                        },
+                        {
+                            "Key":  "SingleParameterConstructorNotPermittedInUnionMessage",
+                            "En":  "Explicitly declared public constructors with a single parameter are not permitted in a \u0027union\u0027 declaration"
+                        },
+                        {
+                            "Key":  "StructLayoutAndExtendedLayoutAttributesTogetherMessage",
+                            "En":  "Use of \u0027StructLayoutAttribute\u0027 and \u0027ExtendedLayoutAttribute\u0027 on the same type is not allowed"
+                        },
+                        {
+                            "Key":  "SuggestCollectionExpressionWithArgumentsDescription",
+                            "En":  "Suggest converting into collection expression with arguments: \u0027[with(capacity: 10), 1, 2, 3]\u0027"
+                        },
+                        {
+                            "Key":  "SuggestCollectionExpressionWithArgumentsTitle",
+                            "En":  "Suggest when the arguments are required"
+                        },
+                        {
+                            "Key":  "UnderspecifiedClosedSubtype_Message",
+                            "En":  "Base type \u0027{0}\u0027 is closed and must reference all type parameters from the derived class. References are missing for type parameters: {1}"
+                        },
+                        {
+                            "Key":  "UnionCaseTypeAlreadyDeclaredMessage",
+                            "En":  "Case type \u0027{0}\u0027 already declared"
+                        },
+                        {
+                            "Key":  "UnionCaseTypeMustBeConvertibleToObjectMessage",
+                            "En":  "Cannot convert type \u0027{0}\u0027 to \u0027{1}\u0027 via an implicit reference or boxing conversion"
+                        },
+                        {
+                            "Key":  "UnionConstructorMustCallDefaultConstructorMessage",
+                            "En":  "A constructor declared in a \u0027union\u0027 declaration must have a \u0027this\u0027 initializer that calls a synthesized constructor or an explicitly declared constructor"
+                        },
+                        {
+                            "Key":  "UnionMemberProviderInterfaceNotPermittedMessage",
+                            "En":  "A \u0027union\u0027 declaration cannot use a union member provider interface"
+                        },
+                        {
+                            "Key":  "UnionMemberProviderMustHaveValuePropertyMessage",
+                            "En":  "A union member provider type must have an instance \u0027Value\u0027 property of type \u0027object?\u0027 or \u0027object\u0027. The property must have a public get accessor."
+                        },
+                        {
+                            "Key":  "UnionMustHaveAtLeastOneUnionCreationMemberMessage",
+                            "En":  "A union type must have at least one union creation member"
+                        },
+                        {
+                            "Key":  "UnionMustSpecifyAtLeastOneCaseTypeMessage",
+                            "En":  "A union declaration must specify at least one case type"
+                        },
+                        {
+                            "Key":  "UnsafeConstructorConstraintMessage",
+                            "En":  "An unsafe context is required for constructor \u0027{0}()\u0027 marked as \u0027unsafe\u0027 to satisfy the \u0027new()\u0027 constraint of type parameter \u0027{1}\u0027 in \u0027{2}\u0027"
+                        },
+                        {
+                            "Key":  "UnsafeExpressionIsRedundantMessage",
+                            "En":  "\u0027unsafe\u0027 expression is redundant"
+                        },
+                        {
+                            "Key":  "UnsafeMeaninglessMessage",
+                            "En":  "The \u0027unsafe\u0027 modifier does not have any effect here under the current memory safety rules"
+                        },
+                        {
+                            "Key":  "UnsafeMemberOperationMessage",
+                            "En":  "The {0} \u0027{1}\u0027 must be used in an unsafe context because it is marked as \u0027unsafe\u0027"
+                        },
+                        {
+                            "Key":  "UnsafeOperationMessage",
+                            "En":  "This operation may only be used in an unsafe context"
+                        },
+                        {
+                            "Key":  "UnsafeUninitializedStackAllocMessage",
+                            "En":  "stackalloc expression without an initializer inside SkipLocalsInit may only be used in an unsafe context"
+                        },
+                        {
+                            "Key":  "UseArgumentExceptionThrowIfMethodDescription",
+                            "En":  "Use \u0027ArgumentException.ThrowIfNullOrEmpty\u0027 and \u0027ArgumentException.ThrowIfNullOrWhiteSpace\u0027"
+                        },
+                        {
+                            "Key":  "UseArgumentExceptionThrowIfMethodMessage",
+                            "En":  "Use \u0027{0}.{1}\u0027"
+                        },
+                        {
+                            "Key":  "UseArgumentExceptionThrowIfMethodTitle",
+                            "En":  "Use \u0027ArgumentException.ThrowIfNullOrEmpty/ThrowIfNullOrWhiteSpace\u0027"
+                        },
+                        {
+                            "Key":  "UseExtensionMemberMessage",
+                            "En":  "Use extension {0}"
+                        },
+                        {
+                            "Key":  "UseIsNullOrEmptyMessage",
+                            "En":  "Use \u0027{0}.{1}\u0027"
+                        },
+                        {
+                            "Key":  "ValueTupleHashCodeIgnoresElementsDescription",
+                            "En":  "When a value tuple has more than 8 elements, its hash code is calculated using only the last 8; some elements are ignored"
+                        },
+                        {
+                            "Key":  "ValueTupleHashCodeIgnoresElementsMessage",
+                            "En":  "This value tuple contains {0} elements, but its hash code is calculated using only the last 8; the first {1} element(s) are ignored"
+                        },
+                        {
+                            "Key":  "ValueTupleHashCodeIgnoresElementsTitle",
+                            "En":  "Value tuple \u0027GetHashCode()\u0027 ignores some elements"
+                        },
+                        {
+                            "Key":  "WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntax",
+                            "En":  "When extension member is invoked as static method, convert invocation into extension member syntax"
+                        },
+                        {
+                            "Key":  "WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntaxFromSameClass",
+                            "En":  "When extension method is invoked as static method of the same class, convert invocation into extension method syntax"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Daemon.Resources.Strings3.resources",
+        "Dll":  "JetBrains.ReSharper.Daemon.dll",
+        "ResxFile":  "JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "CopyInspectionDescription_Text",
+                            "En":  "Copy inspection description"
+                        },
+                        {
+                            "Key":  "CopyInspectionDescription_Tooltip",
+                            "En":  "Inspection description copied to clipboard"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.resources",
+        "Dll":  "JetBrains.ReSharper.Daemon.VB.dll",
+        "ResxFile":  "JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx",
+        "Count":  4,
+        "Entries":  [
+                        {
+                            "Key":  "ConvertStaticMethodInvocationToExtensionMethodCall",
+                            "En":  "Convert static method invocation into extension method call"
+                        },
+                        {
+                            "Key":  "RuntimeDoesNotSupportExtendedLayoutTypesMessage",
+                            "En":  "The target runtime does not support extended layout types"
+                        },
+                        {
+                            "Key":  "StructLayoutAndExtendedLayoutAttributesTogetherMessage",
+                            "En":  "Use of \u0027StructLayoutAttribute\u0027 and \u0027ExtendedLayoutAttribute\u0027 on the same type is not allowed"
+                        },
+                        {
+                            "Key":  "WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax",
+                            "En":  "When extension method is invoked as static method, convert invocation into extension method syntax"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Daemon.Xaml.dll",
+        "ResxFile":  "JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "UnsupportedNulConditionalBindingErrorMessage",
+                            "En":  "Null conditional operator is not supported"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.resources",
+        "Dll":  "JetBrains.ReSharper.ExternalServices.Core.dll",
+        "ResxFile":  "JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx",
+        "Count":  6,
+        "Entries":  [
+                        {
+                            "Key":  "ChangeHeapSizeAction_Description",
+                            "En":  "Change the maximum heap size for the external services host (ext-services64.exe) that powers spelling, grammar, and SQL support"
+                        },
+                        {
+                            "Key":  "ChangeHeapSizeAction_DialogLabel",
+                            "En":  "Maximum heap size for the external services process, in MB (restart ReSharper to apply):"
+                        },
+                        {
+                            "Key":  "ChangeHeapSizeAction_DialogTitle",
+                            "En":  "External Services Memory Limit"
+                        },
+                        {
+                            "Key":  "ChangeHeapSizeAction_Text",
+                            "En":  "Change External Services Memory Limit…"
+                        },
+                        {
+                            "Key":  "ExternalServicesSettings_Description",
+                            "En":  "External services host"
+                        },
+                        {
+                            "Key":  "MaxHeapSizeMegabytes_Description",
+                            "En":  "Maximum heap size for the external services host process, in megabytes"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.ExternalServices.DataGrip.dll",
+        "ResxFile":  "JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "SqlLanguagesZone_Description",
+                            "En":  "Syntax highlighting and inspections for SQL dialects"
+                        },
+                        {
+                            "Key":  "SqlLanguagesZone_FeatureName",
+                            "En":  "SQL and NoSQL"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.resources",
+        "Dll":  "JetBrains.ReSharper.ExternalServices.Grazie.dll",
+        "ResxFile":  "JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx",
+        "Count":  5,
+        "Entries":  [
+                        {
+                            "Key":  "AcceptLicenseButtonText",
+                            "En":  "I Accept"
+                        },
+                        {
+                            "Key":  "GrazieGplLicenseNoticePostfix",
+                            "En":  ":"
+                        },
+                        {
+                            "Key":  "GrazieGplLicenseNoticePrefix",
+                            "En":  "The following dictionaries are licensed as free software under "
+                        },
+                        {
+                            "Key":  "LicenseInformationWindowTitle",
+                            "En":  "License information"
+                        },
+                        {
+                            "Key":  "RejectLicenseButtonText",
+                            "En":  "I Reject"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.ExternalSources.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.ExternalSources.dll",
+        "ResxFile":  "JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "PackageWasRemoved_Text",
+                            "En":  " (package was removed)"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Feature.Services.AI.dll",
+        "ResxFile":  "JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "AIAssistantZone_Description",
+                            "En":  "Integrated AI chat and other AI-powered features in ReSharper"
+                        },
+                        {
+                            "Key":  "AIAssistantZone_FeatureName",
+                            "En":  "AI Assistant"
+                        },
+                        {
+                            "Key":  "FeatureUnavailableInOutOfProcessMode_Text",
+                            "En":  "This feature in currently unavailable in Out-of-Process mode"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Feature.Services.CSharp.dll",
+        "ResxFile":  "JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx",
+        "Count":  10,
+        "Entries":  [
+                        {
+                            "Key":  "ChooseAtLeastOneEntityValidationError_Text",
+                            "En":  "Choose at least one entity"
+                        },
+                        {
+                            "Key":  "EditAbbreviations_Text",
+                            "En":  "Edit Abbreviations"
+                        },
+                        {
+                            "Key":  "EnableNullableContextForNewFilesPropertyExtenderDescription",
+                            "En":  "Insert \u0027#nullable enable\u0027 into new C# files"
+                        },
+                        {
+                            "Key":  "EnableNullableContextForNewFilesPropertyExtenderDisplayName",
+                            "En":  "Enable nullable context for new C# files"
+                        },
+                        {
+                            "Key":  "EnableNullableContextForNewFilesSettingDescription",
+                            "En":  "Enable nullable context for new C# files"
+                        },
+                        {
+                            "Key":  "InstanceMembersAndLocals_Text",
+                            "En":  "Instance members and locals"
+                        },
+                        {
+                            "Key":  "NullableContextProjectSettingsDescription",
+                            "En":  "Nullable context project settings"
+                        },
+                        {
+                            "Key":  "Solution_Text",
+                            "En":  "solution"
+                        },
+                        {
+                            "Key":  "StaticMembersTypesAndNamespaces_Text",
+                            "En":  "Static members, types, and namespaces"
+                        },
+                        {
+                            "Key":  "WhereArgumentsAreExpectedSettingDescription",
+                            "En":  "Where arguments are expected"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Feature.Services.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Feature.Services.dll",
+        "ResxFile":  "JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx",
+        "Count":  21,
+        "Entries":  [
+                        {
+                            "Key":  "ApplyIn_Text",
+                            "En":  "Apply {0}"
+                        },
+                        {
+                            "Key":  "ApplyInFile_Text",
+                            "En":  "Apply in file \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ApplyInFolder_Text",
+                            "En":  "Apply in folder \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ApplyInProject_Text",
+                            "En":  "Apply in project \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ApplyInSolution_Text",
+                            "En":  "Apply in solution \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ClangTidyCheck_Text",
+                            "En":  "Clang-tidy check: \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "CompilerWarning_Text",
+                            "En":  "Compiler warning: \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "EntityFrameworkZone_Description",
+                            "En":  "All features related to Entity Framework"
+                        },
+                        {
+                            "Key":  "EntityFrameworkZone_FeatureName",
+                            "En":  "Entity Framework"
+                        },
+                        {
+                            "Key":  "GenericInspection_Text",
+                            "En":  "Inspection: \u0027{0}: {1}\u0027"
+                        },
+                        {
+                            "Key":  "Install_NuGetPackage_Text",
+                            "En":  "Install \u0027{0}\u0027 NuGet package"
+                        },
+                        {
+                            "Key":  "NavigationZone_Description",
+                            "En":  "All features related to navigation, search, hierarchies, diagramming, and decompiler"
+                        },
+                        {
+                            "Key":  "NavigationZone_FeatureName",
+                            "En":  "Navigation and Search"
+                        },
+                        {
+                            "Key":  "PackageCheckerZone_Description",
+                            "En":  "JetBrains-hosted online service for checking known vulnerabilities in installed NuGet packages"
+                        },
+                        {
+                            "Key":  "PackageCheckerZone_FeatureName",
+                            "En":  "Package Checker"
+                        },
+                        {
+                            "Key":  "ProductInspection_Text",
+                            "En":  "{0} inspection: \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "RoslynAnalyzerInspection_Text",
+                            "En":  "Roslyn analyzer: \u0027{0}: {1}\u0027"
+                        },
+                        {
+                            "Key":  "SupportImplicitlyBundledVisualStudioAnalyzers",
+                            "En":  "Support Visual Studio\u0027s implicitly bundled dotnet analyzers"
+                        },
+                        {
+                            "Key":  "WaitingForCaches_Text",
+                            "En":  "Waiting for caches"
+                        },
+                        {
+                            "Key":  "WaitingForProjectModel_Text",
+                            "En":  "Waiting for project model"
+                        },
+                        {
+                            "Key":  "XmlDocSection_TruncatedError_Text",
+                            "En":  "XML documentation is partially reconstructed after the error"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Feature.Services.Web.dll",
+        "ResxFile":  "JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "InsertClosingTagOnTagNameCompletion",
+                            "En":  "Insert closing tag on tag name completion"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Altering.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.Altering.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "ArrangementOfLambdaAndAnonymousFunctionSignatures_Text",
+                            "En":  "Arrangement of Lambda and Anonymous function Signatures"
+                        },
+                        {
+                            "Key":  "EmptyStrings_Text",
+                            "En":  "Empty string"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Diagramming.Features.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "Diagramming_FeatureDescription",
+                            "En":  "Build and analyze dependency graphs of types and projects in your solution"
+                        },
+                        {
+                            "Key":  "Diagramming_FeatureName",
+                            "En":  "Diagramming"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Environment.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.Environment.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "FluentDark_Option_Text",
+                            "En":  "Fluent Design, Dark Theme"
+                        },
+                        {
+                            "Key":  "FluentLight_Option_Text",
+                            "En":  "Fluent Design, Light Theme"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.Intellisense.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "CreateTypeParameter_Text",
+                            "En":  "(create type parameter)"
+                        },
+                        {
+                            "Key":  "GenerateLoggerMethod_Text",
+                            "En":  "(generate logger method)"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Internal.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.Internal.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "CacheSecondaryPsiText",
+                            "En":  "Use secondary PSI cache"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.SolBuilderDuo.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "SolutionBuilderZone_Description",
+                            "En":  "Heuristic build optimizer and build result presenter"
+                        },
+                        {
+                            "Key":  "SolutionBuilderZone_FeatureName",
+                            "En":  "ReSharper Build"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Features.Web.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Features.Web.dll",
+        "ResxFile":  "JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "_InsertClosingTagOnTagNameCompletion_Text",
+                            "En":  "_Insert closing tag on tag name completion"
+                        },
+                        {
+                            "Key":  "InserTheMatchingClosingTagUponCompletionOfATagName_Text",
+                            "En":  "Insert the matching closing tag upon completion of a tag name"
+                        },
+                        {
+                            "Key":  "Template_Editable_d2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ",
+                            "En":  "with Scoped CSS (*.razor.css) File"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Intentions.BuildScripts.dll",
+        "ResxFile":  "JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.ru-RU.resx",
+        "Count":  1,
+        "Entries":  [
+                        {
+                            "Key":  "ResultsPoweredBy_Text",
+                            "En":  "Results powered by {0}"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Intentions.CSharp.dll",
+        "ResxFile":  "JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx",
+        "Count":  59,
+        "Entries":  [
+                        {
+                            "Key":  "AddLoggerMessageMethodParameters_Text",
+                            "En":  "Add missing parameter(s)"
+                        },
+                        {
+                            "Key":  "ArrangeAccessorsOrder_Text",
+                            "En":  "Arrange accessors order"
+                        },
+                        {
+                            "Key":  "ChangeExtensionReceiverParameterKind_Text",
+                            "En":  "Make extension receiver parameter \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "ConfigureNullableContextForNewFilesContextAction_Description",
+                            "En":  "Configures whether to insert \u0027#nullable enable\u0027 into new files"
+                        },
+                        {
+                            "Key":  "ConfigureNullableContextForNewFilesContextAction_Name",
+                            "En":  "Configure nullable context for new files"
+                        },
+                        {
+                            "Key":  "ConfigureNullableContextForNewFilesContextAction_Text",
+                            "En":  "Nullable context for new files:"
+                        },
+                        {
+                            "Key":  "ConsolidateExtensionMembers_Description",
+                            "En":  "Merges compatible extension members and blocks into the selected block"
+                        },
+                        {
+                            "Key":  "ConsolidateExtensionMembers_Name",
+                            "En":  "Consolidate extension members"
+                        },
+                        {
+                            "Key":  "ConsolidateExtensionMembers_Text",
+                            "En":  "Consolidate extension members"
+                        },
+                        {
+                            "Key":  "ConvertPropertyToMethodContextAction_Name",
+                            "En":  "Convert property to method"
+                        },
+                        {
+                            "Key":  "ConvertToStaticField_Text",
+                            "En":  "Convert to static field"
+                        },
+                        {
+                            "Key":  "CopyTypeRefactoringContextAction_Description",
+                            "En":  "Make a copy of the current type. Useful to create a new type using the code of the current type as a template."
+                        },
+                        {
+                            "Key":  "DisabledNullableContextForNewFilesContextAction_Text",
+                            "En":  "Disabled"
+                        },
+                        {
+                            "Key":  "EnabledNullableContextForNewFilesContextAction_Text",
+                            "En":  "Enabled (insert \u0027#nullable enable\u0027)"
+                        },
+                        {
+                            "Key":  "ExtractMultiDeclarationElement_Text",
+                            "En":  "Extract single declaration"
+                        },
+                        {
+                            "Key":  "FailedToImportExtensionMember_Text",
+                            "En":  "Failed to import extension member"
+                        },
+                        {
+                            "Key":  "FixEmptyStringStyle_Text",
+                            "En":  "Fix empty string style"
+                        },
+                        {
+                            "Key":  "GenerateLoggerMessageMethod_Text",
+                            "En":  "Generate logger method"
+                        },
+                        {
+                            "Key":  "GenerateUnionValueProperty_Text",
+                            "En":  "Generate \u0027Value\u0027 property"
+                        },
+                        {
+                            "Key":  "ImportExtensionMember_MultipleChoices_Text",
+                            "En":  "Import extension {0} \u0027{1}\u0027 (multiple choices…)?"
+                        },
+                        {
+                            "Key":  "ImportExtensionMember_Text",
+                            "En":  "Import extension {0}…"
+                        },
+                        {
+                            "Key":  "ImportExtensionMemberFrom__Text",
+                            "En":  "{0} (from \u0027{1}\u0027)"
+                        },
+                        {
+                            "Key":  "Initialize_Text",
+                            "En":  "Initialize \u0027{0}\u0027"
+                        },
+                        {
+                            "Key":  "InitializeRequiredMembers_Text",
+                            "En":  "Initialize required members"
+                        },
+                        {
+                            "Key":  "InLocalScope_Text",
+                            "En":  "in {0} \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "InvokeAllMembersAsExtensions_Text",
+                            "En":  "Invoke all members as extensions"
+                        },
+                        {
+                            "Key":  "MarkContaining_AsExperimental_Text",
+                            "En":  "Mark containing {0} as experimental"
+                        },
+                        {
+                            "Key":  "MarkContaining_AsObsolete_Text",
+                            "En":  "Mark containing {0} as obsolete"
+                        },
+                        {
+                            "Key":  "NormalizeUnionDeclarationCase_Text",
+                            "En":  "Normalize \u0027union\u0027 case"
+                        },
+                        {
+                            "Key":  "RedundantBooleanComparisonWarning_DisableForComparisonWithFalse_Title",
+                            "En":  "Allow explicit comparison with \u0027false\u0027"
+                        },
+                        {
+                            "Key":  "RemoveArguments_Text",
+                            "En":  "Remove arguments"
+                        },
+                        {
+                            "Key":  "RemoveAsyncModifierWillChangesExceptionsHandling_Text",
+                            "En":  "Remove \u0027async\u0027 modifier (thrown exceptions may be raised synchronously to the caller)"
+                        },
+                        {
+                            "Key":  "RemoveEmptyWith_Text",
+                            "En":  "Remove empty \u0027with()\u0027"
+                        },
+                        {
+                            "Key":  "RemoveExceptionsAggregating_Text",
+                            "En":  "Remove aggregation of synchronously thrown exceptions within the returned Task"
+                        },
+                        {
+                            "Key":  "RemoveKeyword_Text",
+                            "En":  "Remove \u0027{0}\u0027 keyword"
+                        },
+                        {
+                            "Key":  "RemoveKeywordWhenItIsNotApplicable_Text",
+                            "En":  "Remove \u0027{0}\u0027 keyword when it is not applicable"
+                        },
+                        {
+                            "Key":  "RemoveParameterKind_Text",
+                            "En":  "Remove parameter kind modifier"
+                        },
+                        {
+                            "Key":  "RemoveParameterName_Text",
+                            "En":  "Remove parameter name"
+                        },
+                        {
+                            "Key":  "RemoveRedundantAttributeFormat_Text",
+                            "En":  "Remove redundant attribute [{0}]"
+                        },
+                        {
+                            "Key":  "RemoveRedundantParameterNames_Text",
+                            "En":  "Remove redundant parameter names"
+                        },
+                        {
+                            "Key":  "RemoveRedundantPreprocesosrParenthesisContextAction_Name",
+                            "En":  "Remove redundant preprocessor parentheses"
+                        },
+                        {
+                            "Key":  "RemoveRedundantPreprocessorParenthesisContextAction_Description",
+                            "En":  "Removes parentheses in preprocessor expressions if they are redundant"
+                        },
+                        {
+                            "Key":  "RemoveUnionCaseType_Text",
+                            "En":  "Remove case type"
+                        },
+                        {
+                            "Key":  "ReplaceUnsafeConstructsWithTheirBodies_Text",
+                            "En":  "Replace \u0027unsafe\u0027 constructs with their bodies"
+                        },
+                        {
+                            "Key":  "ReplaceUnsafeConstructWithItsBody_Text",
+                            "En":  "Replace \u0027unsafe\u0027 construct with its body"
+                        },
+                        {
+                            "Key":  "ReplaceWithHashCodeCombineFix_Text",
+                            "En":  "Replace with \u0027HashCode.Combine\u0027"
+                        },
+                        {
+                            "Key":  "ReplaceWithOfType__Text",
+                            "En":  "Replace with \u0027OfType\u003c{0}\u003e()\u0027"
+                        },
+                        {
+                            "Key":  "ToExtensionMemberInvocation_Text",
+                            "En":  "To extension {0} invocation"
+                        },
+                        {
+                            "Key":  "ToggleSyntaxStyleForNativeSizedInteger_Text",
+                            "En":  "Toggle syntax style for native-sized integer types"
+                        },
+                        {
+                            "Key":  "UpdateCapacityTo__Text",
+                            "En":  "Update capacity to {0}"
+                        },
+                        {
+                            "Key":  "UseArgumentExceptionThrowIf_Text",
+                            "En":  "Use \u0027ArgumentException.{0}\u0027"
+                        },
+                        {
+                            "Key":  "UseEmptyStringLiteral_Text",
+                            "En":  "Use \"\""
+                        },
+                        {
+                            "Key":  "UseEmptyStringLiteralAction_Description",
+                            "En":  "Uses \"\" literal instead of \u0027string.Empty\u0027"
+                        },
+                        {
+                            "Key":  "UseExtensionMember__Text",
+                            "En":  "Use extension {0} \u0027{1}\u0027"
+                        },
+                        {
+                            "Key":  "UseExtensionMember_Text",
+                            "En":  "Use extension"
+                        },
+                        {
+                            "Key":  "UseImmutableArrayCreate_Text",
+                            "En":  "Use \u0027ImmutableArray.Create\u0027"
+                        },
+                        {
+                            "Key":  "UseStringEmpty_Text",
+                            "En":  "Use \u0027string.Empty\u0027"
+                        },
+                        {
+                            "Key":  "UseStringEmptyAction_Description",
+                            "En":  "Uses \u0027string.Empty\u0027 instead of \"\" literal"
+                        },
+                        {
+                            "Key":  "WithDefaultValues_Text",
+                            "En":  "With default values"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Intentions.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Intentions.dll",
+        "ResxFile":  "JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx",
+        "Count":  10,
+        "Entries":  [
+                        {
+                            "Key":  "Configure_CompilerWarningEditorconfig_Severity_Text",
+                            "En":  "Configure {0} severity in .editorconfig"
+                        },
+                        {
+                            "Key":  "Configure_Editorconfig_AnalyzerCodeStyle_Text",
+                            "En":  "Configure \u0027{0}\u0027 code style"
+                        },
+                        {
+                            "Key":  "Configure_Editorconfig_Severity_Text",
+                            "En":  "Configure {0} severity"
+                        },
+                        {
+                            "Key":  "ConfigureRoslynAnalyzerCodeStyleSeverity_Text",
+                            "En":  "Configure severity"
+                        },
+                        {
+                            "Key":  "ConfigureSeverityFor_AnalyzersCategory_Text",
+                            "En":  "Configure severity for all \u0027{0}\u0027 analyzers"
+                        },
+                        {
+                            "Key":  "ConfigureSeverityForAllAnalyzers_Text",
+                            "En":  "Configure severity for all analyzers"
+                        },
+                        {
+                            "Key":  "RemoveUnusedLocal_Text",
+                            "En":  "Remove {0} {1}"
+                        },
+                        {
+                            "Key":  "RemoveUnusedVariables_Text",
+                            "En":  "Remove unused variables"
+                        },
+                        {
+                            "Key":  "ResultsPoweredBy_Text",
+                            "En":  "Results powered by {0}"
+                        },
+                        {
+                            "Key":  "SavingSettingsTo_Editorconfig",
+                            "En":  "Saving settings to .editorconfig"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Plugins.Unity.dll",
+        "ResxFile":  "JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx",
+        "Count":  10,
+        "Entries":  [
+                        {
+                            "Key":  "UnityOptionsPage_AddCSharpSection_Use_asm_def_folder_as_namespace_root_",
+                            "En":  "Use assembly definition folder as namespace root"
+                        },
+                        {
+                            "Key":  "UnityOptionsPage_Profiler_New_Profiler_Highlightings",
+                            "En":  "Profiler highlightings view mode:"
+                        },
+                        {
+                            "Key":  "UnityOptionsPage_Profiler_New_Profiler_Highlightings_Default",
+                            "En":  "Default"
+                        },
+                        {
+                            "Key":  "UnityOptionsPage_Profiler_New_Profiler_Highlightings_Minimized",
+                            "En":  "Minimized"
+                        },
+                        {
+                            "Key":  "UnitySettings_Enable_Profiler_Snapshot_Fetching",
+                            "En":  "Enable Unity profiler integration"
+                        },
+                        {
+                            "Key":  "UnitySettings_Profiler_Highlighting_View_Mode",
+                            "En":  "Profiler highlightings view mode: "
+                        },
+                        {
+                            "Key":  "UnitySettings_Profiler_New_Highlighting_Enabled",
+                            "En":  "Enable profiler highlightings"
+                        },
+                        {
+                            "Key":  "UnitySettings_Profiler_Snapshot_Fetching_Mode",
+                            "En":  "Unity profiler snapshot fetching mode: "
+                        },
+                        {
+                            "Key":  "UnitySettings_t_Skip_Editor_folders_when_calculating_namespaces",
+                            "En":  "Skip \"Editor\" folders when calculating namespaces"
+                        },
+                        {
+                            "Key":  "UnitySettings_t_Use_asm_def_folder_as_namespace_root_",
+                            "En":  "Use assembly definition (.asmdef) folder as namespace root"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Product.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Product.dll",
+        "ResxFile":  "JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "ReSharperProductZone_Description",
+                            "En":  "Visual Studio extension for .NET developers"
+                        },
+                        {
+                            "Key":  "ReSharperProductZone_FeatureName",
+                            "En":  "ReSharper"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.BuildScripts.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "LanguageBuildScriptsZone_Description",
+                            "En":  "Support for MSBuild scripts"
+                        },
+                        {
+                            "Key":  "LanguageBuildScriptsZone_FeatureName",
+                            "En":  "MsBuild"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.CSharp.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx",
+        "Count":  5,
+        "Entries":  [
+                        {
+                            "Key":  "EmptyStringSettingsDescription",
+                            "En":  "Empty string"
+                        },
+                        {
+                            "Key":  "LocalParameter_PresentableName_Text",
+                            "En":  "Local parameter"
+                        },
+                        {
+                            "Key":  "OtherParameter_PresentableName_Text",
+                            "En":  "Other"
+                        },
+                        {
+                            "Key":  "Union_Text",
+                            "En":  "union"
+                        },
+                        {
+                            "Key":  "WithinSpreadPatternSettingDescription",
+                            "En":  "After \u0027..\u0027 in spread pattern"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.Protobuf.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "LanguageProtobufZone_Description",
+                            "En":  "Support for Google Protocol Buffers in .proto files"
+                        },
+                        {
+                            "Key":  "LanguageProtobufZone_FeatureName",
+                            "En":  "Protobuf"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx",
+        "Count":  3,
+        "Entries":  [
+                        {
+                            "Key":  "StyleCopSettingsConfigSourceName",
+                            "En":  "StyleCop settings"
+                        },
+                        {
+                            "Key":  "WebPsiLanguageZone_Description",
+                            "En":  "Support for Html, ASP.NET, ASP.NET MVC, Razor, Blazor"
+                        },
+                        {
+                            "Key":  "WebPsiLanguageZone_FeatureName",
+                            "En":  "Web Languages"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.Resources.Strings12.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.Web.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx",
+        "Count":  7,
+        "Entries":  [
+                        {
+                            "Key":  "BlazorRefAttributeTargetType_Text",
+                            "En":  "Blazor @ref attribute target type"
+                        },
+                        {
+                            "Key":  "BlazorRefAttributeTargetTypes_Text",
+                            "En":  "Blazor @ref attribute target types"
+                        },
+                        {
+                            "Key":  "DefaultBlazorRefAttributeTargetTypeSettings_Text",
+                            "En":  "Default Blazor @ref attribute target type settings"
+                        },
+                        {
+                            "Key":  "LanguageCssZone_Description",
+                            "En":  "Support for CSS language in .css files as well as for CSS injections in HTML-based languages and JavaScript"
+                        },
+                        {
+                            "Key":  "LanguageCssZone_FeatureName",
+                            "En":  "CSS Language"
+                        },
+                        {
+                            "Key":  "LanguageJavaScriptZone_Description",
+                            "En":  "Support for JavaScript and TypeScript languages in .js and .ts files as well as for JavaScript injections in HTML-based languages"
+                        },
+                        {
+                            "Key":  "LanguageJavaScriptZone_FeatureName",
+                            "En":  "JavaScript and TypeScript"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.Resx.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.Resx.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "LanguageResxZone_Description",
+                            "En":  "Support for .resx and other resource files"
+                        },
+                        {
+                            "Key":  "LanguageResxZone_FeatureName",
+                            "En":  "Internationalization"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Psi.Xml.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Psi.Xml.dll",
+        "ResxFile":  "JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx",
+        "Count":  4,
+        "Entries":  [
+                        {
+                            "Key":  "HereArrowText",
+                            "En":  "◀ here"
+                        },
+                        {
+                            "Key":  "IncompleteOpenXmlAttribute_Text",
+                            "En":  "Missing closing quote for attribute \u0027{0}\u0027:"
+                        },
+                        {
+                            "Key":  "IncompleteOpenXmlTag_Text",
+                            "En":  "Missing closing tag for \u0027\u003c{0}\u003e\u0027:"
+                        },
+                        {
+                            "Key":  "UnexpectedXmlToken_Text",
+                            "En":  "Unexpected XML token or closing tag:"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.Refactorings.CSharp.dll",
+        "ResxFile":  "JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx",
+        "Count":  12,
+        "Entries":  [
+                        {
+                            "Key":  "ConvertToLogMethod_AttributeValueIsConstant_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 has constant {1} = {2}, but the invocation had no value for {1}"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_AttributeValueMismatch_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 has constant {1} = {2}, but the invocation had the value {1} = {3}"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_ExistingMethodExceptionMismatch_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 declares exception parameter of type {1}, which is different from the original argument type {2}"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_ExistingMethodExceptionWillBeCreated_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 doesn\u0027t declare an exception parameter, one of type {1} will be created"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_ExistingMethodExceptionWillChange_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 declares exception parameter of type {1}, it will be generalized to {2}"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_ParameterMissed_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 is expected to have parameter of type {1}"
+                        },
+                        {
+                            "Key":  "ConvertToLogMethod_ParameterToBeIntroduced_ConflictText",
+                            "En":  "Existing method \u0027{0}\u0027 doesn\u0027t have a parameter of type {1}, it will be introduced"
+                        },
+                        {
+                            "Key":  "CreateExtensionMethodDeclarationBelowTheCurrent_Text",
+                            "En":  "Create extension method declaration below the current extension"
+                        },
+                        {
+                            "Key":  "CreateExtensionPropertyDeclarationBelowTheCurrent_Text",
+                            "En":  "Create extension property declaration below the current extension"
+                        },
+                        {
+                            "Key":  "ExtractExtensionMethod_Text",
+                            "En":  "Extract Extension Method"
+                        },
+                        {
+                            "Key":  "ExtractExtensionProperty_Text",
+                            "En":  "Extract Extension Property"
+                        },
+                        {
+                            "Key":  "NestedLoggerClassesAreNotSupportedYet_Text",
+                            "En":  "Nested logger class generation is not supported yet"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.Refactorings.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.NewRefactorings.dll",
+        "ResxFile":  "JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx",
+        "Count":  12,
+        "Entries":  [
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_Description_Text",
+                            "En":  "Duplicate code was found. Select the occurrences to extract in addition to the original:"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_DifferencesColumn_Text",
+                            "En":  "Differences"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_DuplicateLocation_Text",
+                            "En":  "Line {0}"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_ExactDuplicatesGroup_Text",
+                            "En":  "Exact duplicates ({0})"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_LocationColumn_Text",
+                            "En":  "Location"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_OriginalExtractionPreview_Text",
+                            "En":  "original extraction"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_ParametrizedDuplicatesGroup_Text",
+                            "En":  "Parametrized duplicates ({0})"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_SelectAll_Text",
+                            "En":  "Select all"
+                        },
+                        {
+                            "Key":  "ExtractMethodDuplicatesPage_Title_Text",
+                            "En":  "Duplicates"
+                        },
+                        {
+                            "Key":  "ExtractMethodRefactoringSettingsSettingDescription",
+                            "En":  "Extract Method refactoring settings"
+                        },
+                        {
+                            "Key":  "Rename_Conflict_OnlyHasDeclarationsInSourceGenerated_Text",
+                            "En":  "\u0027{0}\u0027 is a source-generated {1}."
+                        },
+                        {
+                            "Key":  "WhetherToSearchForDuplicatesOfTheExtractedFragmentSettingDescription",
+                            "En":  "Whether to search for duplicates of the extracted fragment"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.resources",
+        "Dll":  "JetBrains.ReSharper.UnitTestFramework.dll",
+        "ResxFile":  "JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "UnitTestingZone_Description",
+                            "En":  "Unit test runner, explorer, and editor features for unit testing frameworks"
+                        },
+                        {
+                            "Key":  "UnitTestingZone_FeatureName",
+                            "En":  "Unit Testing"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.UI.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.UIInteractive.Shell.dll",
+        "ResxFile":  "JetBrains.UI.Resources.Strings.ru-RU.resx",
+        "Count":  2,
+        "Entries":  [
+                        {
+                            "Key":  "LicensingMethods_Text",
+                            "En":  "Licensing methods"
+                        },
+                        {
+                            "Key":  "ModifyAction_Text",
+                            "En":  "Modify"
+                        }
+                    ]
+    },
+    {
+        "Resource":  "JetBrains.VsIntegration.Resources.Strings.resources",
+        "Dll":  "JetBrains.Platform.VisualStudio.Core.dll",
+        "ResxFile":  "JetBrains.VsIntegration.Resources.Strings.ru-RU.resx",
+        "Count":  22,
+        "Entries":  [
+                        {
+                            "Key":  "ClassicWithFullFeaturesPerformanceMay_Text",
+                            "En":  "ⓘ Classic with full features, performance may be impacted"
+                        },
+                        {
+                            "Key":  "FullyRestart_WithoutRestartingVisual_Text",
+                            "En":  "Fully restart {0} without restarting Visual Studio."
+                        },
+                        {
+                            "Key":  "LearnWhatSNew_Text",
+                            "En":  "Learn what\u0027s new"
+                        },
+                        {
+                            "Key":  "NewHighlyResponsiveSmallSubsetOfFeatures_Text",
+                            "En":  "ⓘ New, highly responsive, small subset of features unavailable"
+                        },
+                        {
+                            "Key":  "ReloadsStateAndRestartsBackgroundAnalysis_Text",
+                            "En":  "Reloads state and restarts background analysis."
+                        },
+                        {
+                            "Key":  "RepairOutOfProcess_Text",
+                            "En":  "Repair Out-of-Process"
+                        },
+                        {
+                            "Key":  "ReSharperInProcess__Text",
+                            "En":  "ReSharper In-Process{0}"
+                        },
+                        {
+                            "Key":  "ReSharperIsRunningInInProcessMode_Text",
+                            "En":  "ReSharper is running in the In-Process mode"
+                        },
+                        {
+                            "Key":  "ReSharperIsRunningInOutOfProcessMode_Text",
+                            "En":  "ReSharper is running in the Out-of-Process mode"
+                        },
+                        {
+                            "Key":  "ReSharperOutOfProcess__Text",
+                            "En":  "ReSharper Out-of-Process {0}{1}"
+                        },
+                        {
+                            "Key":  "StoresForWhichWhatsNewIsShownSettingDescription",
+                            "En":  "Stores for which what\u0027s new is shown"
+                        },
+                        {
+                            "Key":  "StoresMd5HashForLastShownWhatNew",
+                            "En":  "Stores MD5 hash for last shown whats_new.json"
+                        },
+                        {
+                            "Key":  "SubmitFeedback_Text",
+                            "En":  "Submit Feedback…"
+                        },
+                        {
+                            "Key":  "TheOptionPageCouldNotBeLoadedPlease_Text",
+                            "En":  "Failed to load the options page. Please try opening it again."
+                        },
+                        {
+                            "Key":  "VsToolsOptionsPage_Button_Restart_Text",
+                            "En":  "Restart"
+                        },
+                        {
+                            "Key":  "WhatsNew_FailedToLoad_Text",
+                            "En":  "Failed to load \u0027What\u0027s New\u0027 content"
+                        },
+                        {
+                            "Key":  "WhatsNew_Loading_Text",
+                            "En":  "\u0027What\u0027s new\u0027 is loading…"
+                        },
+                        {
+                            "Key":  "WhatsNew_OpenInBrowser_Hyperlink_Text",
+                            "En":  "Open in browser ↗"
+                        },
+                        {
+                            "Key":  "WhatSNew_Text",
+                            "En":  "What\u0027s New"
+                        },
+                        {
+                            "Key":  "WhatsNewShownSettingsSettingDescription",
+                            "En":  "What\u0027s new shown settings"
+                        },
+                        {
+                            "Key":  "YouHave__Installed_Text",
+                            "En":  "You have {0} {1} installed"
+                        },
+                        {
+                            "Key":  "YouHaveInstalledANewVersionOf__Text",
+                            "En":  "You have installed a new version of {0}"
+                        }
+                    ]
+    }
+]

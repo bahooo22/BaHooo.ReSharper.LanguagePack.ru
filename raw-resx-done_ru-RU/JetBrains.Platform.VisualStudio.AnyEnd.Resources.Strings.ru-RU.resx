@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -143,5 +143,62 @@
 </data>
 <data name="IsUiSmoothnessToolkitEnabledInDevelopmentBuildDescription" xml:space="preserve">
   <value>Включить инструмент сглаживания интерфейса по умолчанию в development-сборке</value>
+</data>
+<data name="AllowAICompletionForExperimentalLanguages_Text" xml:space="preserve">
+  <value>Р Р°Р·СЂРµС€РёС‚СЊ AI-Р·Р°РІРµСЂС€РµРЅРёРµ РґР»СЏ СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°Р»СЊРЅС‹С… СЏР·С‹РєРѕРІ</value>
+</data>
+<data name="BringAnyAiAgent_Text" xml:space="preserve">
+  <value>Р”РѕР±Р°РІСЊС‚Рµ Р»СЋР±РѕРіРѕ AI-Р°РіРµРЅС‚Р° РІ Visual Studio. РќР°С‡РЅРёС‚Рµ РїСѓС‚СЊ СЃ Junie.</value>
+</data>
+<data name="DoNotFilterOutDuplicateVSLightBulbActions_Text" xml:space="preserve">
+  <value>РќРµ С„РёР»СЊС‚СЂРѕРІР°С‚СЊ РїРѕРІС‚РѕСЂСЏСЋС‰РёРµСЃСЏ РґРµР№СЃС‚РІРёСЏ Р»Р°РјРїРѕС‡РєРё VS</value>
+</data>
+<data name="DonTShowWhatSNewPageAfterUpdate_Text" xml:space="preserve">
+  <value>РќРµ РїРѕРєР°Р·С‹РІР°С‚СЊ СЃС‚СЂР°РЅРёС†Сѓ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ» РїРѕСЃР»Рµ РѕР±РЅРѕРІР»РµРЅРёСЏ</value>
+</data>
+<data name="EnableAICodeCompletion_Text" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ AI-Р·Р°РІРµСЂС€РµРЅРёРµ РєРѕРґР°</value>
+</data>
+<data name="EnableRetrievalTimeoutForVisualStudio_Text" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РІСЂРµРјСЏ РѕР¶РёРґР°РЅРёСЏ РёР·РІР»РµС‡РµРЅРёСЏ РґР»СЏ Р±С‹СЃС‚СЂС‹С… РґРµР№СЃС‚РІРёР№ Visual Studio</value>
+</data>
+<data name="EnvironmentInfoAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃСЂРµРґРµ</value>
+</data>
+<data name="HideVisualStudioSquigglesSettingDescription" xml:space="preserve">
+  <value>РЎРєСЂС‹РІР°С‚СЊ РІРѕР»РЅРёСЃС‚С‹Рµ РїРѕРґС‡РµСЂРєРёРІР°РЅРёСЏ Visual Studio</value>
+</data>
+<data name="InvokeAICompletionAutomaticallyOnNew_Text" xml:space="preserve">
+  <value>РђРІС‚РѕРјР°С‚РёС‡РµСЃРєРё РІС‹Р·С‹РІР°С‚СЊ AI-Р·Р°РІРµСЂС€РµРЅРёРµ РЅР° РЅРѕРІРѕР№ СЃС‚СЂРѕРєРµ</value>
+</data>
+<data name="ShowVisualStudioLightBulbActionsInSubmenu_Text" xml:space="preserve">
+  <value>РџРѕРєР°Р·С‹РІР°С‚СЊ РґРµР№СЃС‚РІРёСЏ Р»Р°РјРїРѕС‡РєРё Visual Studio РІ РїРѕРґРјРµРЅСЋ</value>
+</data>
+<data name="StoresForWhichWhatsNewIsShownSettingDescription" xml:space="preserve">
+  <value>РҐСЂР°РЅРёР»РёС‰Р°, РґР»СЏ РєРѕС‚РѕСЂС‹С… РїРѕРєР°Р·С‹РІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРѕРІРѕРІРІРµРґРµРЅРёСЏС…</value>
+</data>
+<data name="StoresMd5HashForLastShownWhatNew" xml:space="preserve">
+  <value>РҐСЂР°РЅРёС‚ MD5-С…СЌС€ РїРѕСЃР»РµРґРЅРµРіРѕ РїРѕРєР°Р·Р°РЅРЅРѕРіРѕ whats_new.json</value>
+</data>
+<data name="UseTheAgentsYouWantInVisualStudioReSharper_Text" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·СѓР№С‚Рµ РЅСѓР¶РЅС‹Рµ РІР°Рј Р°РіРµРЅС‚С‹ РІ Visual Studio. РћС‚РєСЂС‹С‚Р°СЏ СЌРєРѕСЃРёСЃС‚РµРјР° ReSharper РґР»СЏ AI РЅР°С‡РёРЅР°РµС‚СЃСЏ СЃ Junie вЂ” РЅР°С€РµРіРѕ РїРµСЂРІРѕРіРѕ РїРѕРґРґРµСЂР¶РёРІР°РµРјРѕРіРѕ Р°РіРµРЅС‚Р°.</value>
+</data>
+<data name="VisualStudioLightBulbDisplayMode_Text" xml:space="preserve">
+  <value>Р РµР¶РёРј РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ Р»Р°РјРїРѕС‡РєРё Visual Studio</value>
+</data>
+<data name="VisualStudioRelatedSettingsForGrayCode_Text" xml:space="preserve">
+  <value>РЎРІСЏР·Р°РЅРЅС‹Рµ РЅР°СЃС‚СЂРѕР№РєРё Visual Studio РґР»СЏ СЃРµСЂРѕРіРѕ РєРѕРґР° Р·Р°РІРµСЂС€РµРЅРёСЏ.</value>
+</data>
+<data name="VisualStudioSquigglesRoslynAnalyzersAreNotRenderedByVisualStudioItselfButInsteadThoseOfThemWhichAreNotRedundantInPresenceOfReSharperSuchAsCustomAnalyzerSetsAreProcessedTogetherWithReSharperAnalysisResultsSuppressVsSquigglesMustBeOffToTakeEffectSettingDescription" xml:space="preserve">
+  <value>Р’РѕР»РЅРёСЃС‚С‹Рµ РїРѕРґС‡РµСЂРєРёРІР°РЅРёСЏ Visual Studio (Р°РЅР°Р»РёР·Р°С‚РѕСЂС‹ Roslyn) РЅРµ РѕС‚РѕР±СЂР°Р¶Р°СЋС‚СЃСЏ СЃР°РјРёРј Visual Studio, РІРјРµСЃС‚Рѕ СЌС‚РѕРіРѕ С‚Рµ РёР· РЅРёС…, РєРѕС‚РѕСЂС‹Рµ РЅРµ СЏРІР»СЏСЋС‚СЃСЏ РёР·Р±С‹С‚РѕС‡РЅС‹РјРё РїСЂРё РЅР°Р»РёС‡РёРё ReSharper (РЅР°РїСЂРёРјРµСЂ, РїРѕР»СЊР·РѕРІР°С‚РµР»СЊСЃРєРёРµ РЅР°Р±РѕСЂС‹ Р°РЅР°Р»РёР·Р°С‚РѕСЂРѕРІ), РѕР±СЂР°Р±Р°С‚С‹РІР°СЋС‚СЃСЏ РІРјРµСЃС‚Рµ СЃ СЂРµР·СѓР»СЊС‚Р°С‚Р°РјРё Р°РЅР°Р»РёР·Р° ReSharper; РґР»СЏ РІСЃС‚СѓРїР»РµРЅРёСЏ РІ СЃРёР»Сѓ РїР°СЂР°РјРµС‚СЂ SuppressVsSquiggles РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РІС‹РєР»СЋС‡РµРЅ</value>
+</data>
+<data name="VsHighlightingSettings" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕР№РєРё Р»Р°РјРїРѕС‡РєРё Visual Studio</value>
+</data>
+<data name="WhatsNewShownSettingsSettingDescription" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕР№РєРё РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ»</value>
+</data>
+<data name="ZeroLockInAI_Text" xml:space="preserve">
+  <value>AI Р±РµР· РїСЂРёРІСЏР·РєРё Рє РїРѕСЃС‚Р°РІС‰РёРєСѓ</value>
 </data>
 </root>

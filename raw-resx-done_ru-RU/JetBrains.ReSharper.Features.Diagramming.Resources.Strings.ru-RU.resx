@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -382,5 +382,11 @@
 </data>
 <data name="ShowPossiblePathsActionText" xml:space="preserve">
   <value>Показать возможные пути</value>
+</data>
+<data name="Diagramming_FeatureDescription" xml:space="preserve">
+  <value>РџРѕСЃС‚СЂРѕРµРЅРёРµ Рё Р°РЅР°Р»РёР· РіСЂР°С„РѕРІ Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№ С‚РёРїРѕРІ Рё РїСЂРѕРµРєС‚РѕРІ РІР°С€РµРіРѕ СЂРµС€РµРЅРёСЏ</value>
+</data>
+<data name="Diagramming_FeatureName" xml:space="preserve">
+  <value>Р”РёР°РіСЂР°РјРјС‹</value>
 </data>
 </root>

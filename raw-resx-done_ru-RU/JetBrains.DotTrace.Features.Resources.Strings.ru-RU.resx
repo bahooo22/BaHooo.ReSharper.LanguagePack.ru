@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -542,5 +542,29 @@
 </data>
 <data name="OpenSnapshot_FileDialog_AllSnapshotsFilesDescription" xml:space="preserve">
   <value>Файлы снимков</value>
+</data>
+<data name="CallTreePreprocessor_Preprocessing_call_tree" xml:space="preserve">
+  <value>РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РґРµСЂРµРІР° РІС‹Р·РѕРІРѕРІ</value>
+</data>
+<data name="CallTreePreprocessor_Processing_resolved_call_tree" xml:space="preserve">
+  <value>РћР±СЂР°Р±РѕС‚РєР° СЂР°Р·СЂРµС€С‘РЅРЅРѕРіРѕ РґРµСЂРµРІР° РІС‹Р·РѕРІРѕРІ</value>
+</data>
+<data name="CallTreeResolver_Resolving_call_tree" xml:space="preserve">
+  <value>Р Р°Р·СЂРµС€РµРЅРёРµ РґРµСЂРµРІР° РІС‹Р·РѕРІРѕРІ</value>
+</data>
+<data name="LoadPdbSettingDescription" xml:space="preserve">
+  <value>LoadPdb</value>
+</data>
+<data name="NativeModulesPreprocessor_Collecting_native_functions" xml:space="preserve">
+  <value>РЎР±РѕСЂ РЅР°С‚РёРІРЅС‹С… С„СѓРЅРєС†РёР№ РёР· РЅР°С‚РёРІРЅС‹С… РјРѕРґСѓР»РµР№</value>
+</data>
+<data name="SymbolPathsSettingsKey_KeyDescription" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕР№РєРё СЃРµСЂРІРµСЂР° СЃРёРјРІРѕР»РѕРІ РґР»СЏ РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёСЏ dotTrace</value>
+</data>
+<data name="SymbolServersUsedInDotTraceSettingDescription" xml:space="preserve">
+  <value>РЎРµСЂРІРµСЂС‹ СЃРёРјРІРѕР»РѕРІ, РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ РІ dotTrace</value>
+</data>
+<data name="TimelineProcessingSettingsSettingDescription" xml:space="preserve">
+  <value>TimelineProcessingSettings</value>
 </data>
 </root>

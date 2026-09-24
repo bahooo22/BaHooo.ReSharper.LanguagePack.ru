@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -815,5 +815,11 @@
 </data>
 <data name="PlaceCommaToBegin_Text" xml:space="preserve">
   <value>Размещать запятую в начале</value>
+</data>
+<data name="SqlLanguagesZone_Description" xml:space="preserve">
+  <value>РџРѕРґСЃРІРµС‚РєР° СЃРёРЅС‚Р°РєСЃРёСЃР° Рё РёРЅСЃРїРµРєС†РёРё РґР»СЏ РґРёР°Р»РµРєС‚РѕРІ SQL</value>
+</data>
+<data name="SqlLanguagesZone_FeatureName" xml:space="preserve">
+  <value>SQL Рё NoSQL</value>
 </data>
 </root>

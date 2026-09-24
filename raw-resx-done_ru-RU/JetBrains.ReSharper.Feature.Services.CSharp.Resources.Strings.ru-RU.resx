@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -895,5 +895,35 @@
 </data>
 <data name="COtherInlayHintsSettingsSettingDescription" xml:space="preserve">
   <value>Настройки других встроенных подсказок C#</value>
+</data>
+<data name="ChooseAtLeastOneEntityValidationError_Text" xml:space="preserve">
+  <value>Р’С‹Р±РµСЂРёС‚Рµ С…РѕС‚СЏ Р±С‹ РѕРґРЅСѓ СЃСѓС‰РЅРѕСЃС‚СЊ</value>
+</data>
+<data name="EditAbbreviations_Text" xml:space="preserve">
+  <value>РР·РјРµРЅРёС‚СЊ СЃРѕРєСЂР°С‰РµРЅРёСЏ</value>
+</data>
+<data name="EnableNullableContextForNewFilesPropertyExtenderDescription" xml:space="preserve">
+  <value>Р’СЃС‚Р°РІР»СЏС‚СЊ '#nullable enable' РІ РЅРѕРІС‹Рµ С„Р°Р№Р»С‹ C#</value>
+</data>
+<data name="EnableNullableContextForNewFilesPropertyExtenderDisplayName" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ C#</value>
+</data>
+<data name="EnableNullableContextForNewFilesSettingDescription" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ C#</value>
+</data>
+<data name="InstanceMembersAndLocals_Text" xml:space="preserve">
+  <value>Р­РєР·РµРјРїР»СЏСЂРЅС‹Рµ С‡Р»РµРЅС‹ Рё Р»РѕРєР°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ</value>
+</data>
+<data name="NullableContextProjectSettingsDescription" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂС‹ РїСЂРѕРµРєС‚Р° РґР»СЏ РєРѕРЅС‚РµРєСЃС‚Р° РґРѕРїСѓСЃС‚РёРјРѕСЃС‚Рё Р·РЅР°С‡РµРЅРёСЏ NULL</value>
+</data>
+<data name="Solution_Text" xml:space="preserve">
+  <value>СЂРµС€РµРЅРёРµ</value>
+</data>
+<data name="StaticMembersTypesAndNamespaces_Text" xml:space="preserve">
+  <value>РЎС‚Р°С‚РёС‡РµСЃРєРёРµ С‡Р»РµРЅС‹, С‚РёРїС‹ Рё РїСЂРѕСЃС‚СЂР°РЅСЃС‚РІР° РёРјС‘РЅ</value>
+</data>
+<data name="WhereArgumentsAreExpectedSettingDescription" xml:space="preserve">
+  <value>Р“РґРµ РѕР¶РёРґР°СЋС‚СЃСЏ Р°СЂРіСѓРјРµРЅС‚С‹</value>
 </data>
 </root>

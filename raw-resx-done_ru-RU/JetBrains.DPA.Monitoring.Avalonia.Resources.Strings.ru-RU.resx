@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -345,5 +345,44 @@
 </data>
 <data name="MenuGroupAnalysis" xml:space="preserve">
   <value>Анализ</value>
+</data>
+<data name="DevartWarningMessage" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕС‚РєР»СЋС‡РёР» РѕР±РЅР°СЂСѓР¶РµРЅРёРµ РїСЂРѕР±Р»РµРј СЃ Р±Р°Р·Р°РјРё РґР°РЅРЅС‹С…: РІ СЌС‚РѕРј РїСЂРѕРµРєС‚Рµ РёСЃРїРѕР»СЊР·СѓСЋС‚СЃСЏ РїРѕСЃС‚Р°РІС‰РёРєРё РґР°РЅРЅС‹С… ADO.NET Devart, РєРѕС‚РѕСЂС‹Рµ РјРѕРіСѓС‚ РІС‹Р·С‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ РїСЂРё РїСЂРѕС„РёР»РёСЂРѕРІР°РЅРёРё.</value>
+</data>
+<data name="DiagnosticsToolsPanel_Settings" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕРёС‚СЊ РІ РїР°СЂР°РјРµС‚СЂР°С…</value>
+</data>
+<data name="DiagnosticsToolsPanel_Text1" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі ReSharper: </value>
+</data>
+<data name="DiagnosticsToolsPanel_Text2" xml:space="preserve">
+  <value>СѓР»СѓС‡С€РµРЅРЅС‹Р№ РїРѕРґС…РѕРґ Рє РґРёР°РіРЅРѕСЃС‚РёРєРµ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё.</value>
+</data>
+<data name="LogReport_KernelNotSupported" xml:space="preserve">
+  <value>Р”Р°РЅРЅС‹Рµ Рѕ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё РЅРµ Р±СѓРґСѓС‚ СЃРѕР±РёСЂР°С‚СЊСЃСЏ, С‚Р°Рє РєР°Рє СЃСЌРјРїР»РёСЂРѕРІР°РЅРёРµ РЅР° СѓСЂРѕРІРЅРµ СЏРґСЂР° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ РІ СЌС‚РѕР№ СЃРёСЃС‚РµРјРµ</value>
+</data>
+<data name="MutePanelDropdown" xml:space="preserve">
+  <value>Р’С‹Р±РµСЂРёС‚Рµ РїСЂРёС‡РёРЅСѓ</value>
+</data>
+<data name="MutePanelLabel" xml:space="preserve">
+  <value>РџСЂРѕР±Р»РµРјР° СЃРєСЂС‹С‚Р°. РҐРѕС‚РёС‚Рµ СѓРєР°Р·Р°С‚СЊ РїСЂРёС‡РёРЅСѓ?</value>
+</data>
+<data name="MutePanelNeverAsk" xml:space="preserve">
+  <value>Р‘РѕР»СЊС€Рµ РЅРµ СЃРїСЂР°С€РёРІР°С‚СЊ</value>
+</data>
+<data name="MutePanelNotMyCode" xml:space="preserve">
+  <value>РљРѕРґ, РєРѕС‚РѕСЂС‹Р№ СЏ РЅРµ РјРѕРіСѓ РёР·РјРµРЅРёС‚СЊ</value>
+</data>
+<data name="MutePanelReasonFalsePositive" xml:space="preserve">
+  <value>Р›РѕР¶РЅРѕРµ СЃСЂР°Р±Р°С‚С‹РІР°РЅРёРµ</value>
+</data>
+<data name="MutePanelReasonMinor" xml:space="preserve">
+  <value>РЎР»РёС€РєРѕРј РЅРµР·РЅР°С‡РёС‚РµР»СЊРЅРѕ, С‡С‚РѕР±С‹ СЂР°Р·Р±РёСЂР°С‚СЊСЃСЏ</value>
+</data>
+<data name="MutePanelReasonOther" xml:space="preserve">
+  <value>Р”СЂСѓРіРѕРµ</value>
+</data>
+<data name="RestoreIssueAction" xml:space="preserve">
+  <value>РџРѕРєР°Р·Р°С‚СЊ РїСЂРѕР±Р»РµРјСѓ СЃРЅРѕРІР°</value>
 </data>
 </root>

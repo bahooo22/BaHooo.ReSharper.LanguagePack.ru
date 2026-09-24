@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -11498,4 +11498,331 @@
   <data name="InvalidInitializerMemberDeclaratorMissingNameMessage" xml:space="preserve">
     <value>Недопустимый объявитель члена инициализатора: отсутствует имя</value>
   </data>
+<data name="_15OrGreater_Text" xml:space="preserve">
+  <value>15.0 РёР»Рё РІС‹С€Рµ</value>
+</data>
+<data name="AForEachCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed" xml:space="preserve">
+  <value>РћРїРµСЂР°С‚РѕСЂ 'foreach' РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅ РІ LINQ-РІС‹СЂР°Р¶РµРЅРёРµ, РЅРѕ Р±СѓРґРµС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅ РґСЂСѓРіРѕР№ РјРµС‚РѕРґ 'GetEnumerator'</value>
+</data>
+<data name="AForEachOrForStatementCanBeConvertedIntoALINQExpression" xml:space="preserve">
+  <value>РћРїРµСЂР°С‚РѕСЂ 'foreach' РёР»Рё 'for' РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅ РІ LINQ-РІС‹СЂР°Р¶РµРЅРёРµ</value>
+</data>
+<data name="ArrangeAccessorsOrder_Description" xml:space="preserve">
+  <value>Р РµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ СЂР°Р·РјРµС‰Р°С‚СЊ 'get' РїРµСЂРµРґ 'set'/'init', Р° 'add' вЂ” РїРµСЂРµРґ 'remove'</value>
+</data>
+<data name="ArrangeAccessorsOrder_Title" xml:space="preserve">
+  <value>РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ РїРѕСЂСЏРґРѕРє РјРµС‚РѕРґРѕРІ РґРѕСЃС‚СѓРїР°</value>
+</data>
+<data name="ArrangeAccessorsOrderMessage" xml:space="preserve">
+  <value>РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ РїРѕСЂСЏРґРѕРє РјРµС‚РѕРґРѕРІ РґРѕСЃС‚СѓРїР°</value>
+</data>
+<data name="ArrangeEmptyString_Description" xml:space="preserve">
+  <value>Р РµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РїСѓСЃС‚РѕР№ Р»РёС‚РµСЂР°Р» "" РёР»Рё 'string.Empty' РІРѕ РІСЃРµР№ РєРѕРґРѕРІРѕР№ Р±Р°Р·Рµ РґР»СЏ СѓР»СѓС‡С€РµРЅРёСЏ С‡РёС‚Р°РµРјРѕСЃС‚Рё Рё РµРґРёРЅРѕРѕР±СЂР°Р·РёСЏ СЃС‚РёР»СЏ РєРѕРґР°</value>
+</data>
+<data name="ArrangeEmptyString_Title" xml:space="preserve">
+  <value>РЎС‚РёР»СЊ РїСѓСЃС‚РѕР№ СЃС‚СЂРѕРєРё</value>
+</data>
+<data name="ArrangeEmptyString_UseEmptyLiteral_Message" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ ""</value>
+</data>
+<data name="ArrangeEmptyString_UseStringEmpty_Message" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'string.Empty'</value>
+</data>
+<data name="AsyncMethodWithoutAwaitDescription" xml:space="preserve">
+  <value>РћР¶РёРґР°РµС‚СЃСЏ, С‡С‚Рѕ Р°СЃРёРЅС…СЂРѕРЅРЅС‹Рµ РјРµС‚РѕРґС‹ СЃРѕРґРµСЂР¶Р°С‚ РѕРїРµСЂР°С‚РѕСЂС‹ 'await' РІРЅСѓС‚СЂРё РґР»СЏ Р°СЃРёРЅС…СЂРѕРЅРЅРѕРіРѕ РІС‹РїРѕР»РЅРµРЅРёСЏ</value>
+</data>
+<data name="AsyncMethodWithoutAwaitMessage" xml:space="preserve">
+  <value>Р’ СЌС‚РѕРј Р°СЃРёРЅС…СЂРѕРЅРЅРѕРј РјРµС‚РѕРґРµ РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‚ РѕРїРµСЂР°С‚РѕСЂС‹ 'await', Рё РѕРЅ Р±СѓРґРµС‚ РІС‹РїРѕР»РЅСЏС‚СЊСЃСЏ СЃРёРЅС…СЂРѕРЅРЅРѕ. Р Р°СЃСЃРјРѕС‚СЂРёС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ 'await' РґР»СЏ РЅРµР±Р»РѕРєРёСЂСѓСЋС‰РёС… РІС‹Р·РѕРІРѕРІ API РёР»Рё СѓРґР°Р»РёС‚Рµ РјРѕРґРёС„РёРєР°С‚РѕСЂ 'async', С‡С‚РѕР±С‹ РёР·Р±РµР¶Р°С‚СЊ РіРµРЅРµСЂР°С†РёРё РєРѕРЅРµС‡РЅРѕРіРѕ Р°РІС‚РѕРјР°С‚Р° РґР»СЏ СЌС‚РѕРіРѕ РјРµС‚РѕРґР°.</value>
+</data>
+<data name="AsyncMethodWithoutAwaitTitle" xml:space="preserve">
+  <value>РђСЃРёРЅС…СЂРѕРЅРЅС‹Р№ РјРµС‚РѕРґ Р±РµР· РѕРїРµСЂР°С‚РѕСЂРѕРІ 'await'</value>
+</data>
+<data name="AsyncTaskMethodWithoutAwaitTitle" xml:space="preserve">
+  <value>РђСЃРёРЅС…СЂРѕРЅРЅС‹Р№ РјРµС‚РѕРґ Task Р±РµР· РѕРїРµСЂР°С‚РѕСЂРѕРІ 'await'</value>
+</data>
+<data name="AsyncTaskOverrideMethodWithoutAwaitTitle" xml:space="preserve">
+  <value>РџРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ Р°СЃРёРЅС…СЂРѕРЅРЅРѕРіРѕ РјРµС‚РѕРґР° Task Р±РµР· РѕРїРµСЂР°С‚РѕСЂРѕРІ 'await'</value>
+</data>
+<data name="AsyncVoidMethodWithoutAwaitTitle" xml:space="preserve">
+  <value>РђСЃРёРЅС…СЂРѕРЅРЅС‹Р№ РјРµС‚РѕРґ void Р±РµР· РѕРїРµСЂР°С‚РѕСЂРѕРІ 'await'</value>
+</data>
+<data name="AsyncVoidOverrideMethodWithoutAwaitTitle" xml:space="preserve">
+  <value>РџРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРµ Р°СЃРёРЅС…СЂРѕРЅРЅРѕРіРѕ РјРµС‚РѕРґР° void Р±РµР· РѕРїРµСЂР°С‚РѕСЂРѕРІ 'await'</value>
+</data>
+<data name="AvoidAllUsingasyncMethodsWithThevoidReturnType" xml:space="preserve">
+  <value>РР·Р±РµРіР°С‚СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ 'async' РґР»СЏ РјРµС‚РѕРґРѕРІ Рё С„СѓРЅРєС†РёР№ СЃ С‚РёРїРѕРј РІРѕР·РІСЂР°С‰Р°РµРјРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ 'void'</value>
+</data>
+<data name="CallerUnsafeExplicitlyImplementingSafeMessage" xml:space="preserve">
+  <value>РќРµР±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{0}' РЅРµ РјРѕР¶РµС‚ СЂРµР°Р»РёР·РѕРІР°С‚СЊ Р±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{1}'</value>
+</data>
+<data name="CallerUnsafeImplicitlyImplementingSafeMessage" xml:space="preserve">
+  <value>РќРµР±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{0}' РЅРµ РјРѕР¶РµС‚ РЅРµСЏРІРЅРѕ СЂРµР°Р»РёР·РѕРІР°С‚СЊ Р±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{1}'</value>
+</data>
+<data name="CallerUnsafeOverridingSafeMessage" xml:space="preserve">
+  <value>РќРµР±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{0}' РЅРµ РјРѕР¶РµС‚ РїРµСЂРµРѕРїСЂРµРґРµР»РёС‚СЊ Р±РµР·РѕРїР°СЃРЅС‹Р№ С‡Р»РµРЅ '{1}'</value>
+</data>
+<data name="CannotBeBothAbstractAndMessage" xml:space="preserve">
+  <value>{0} '{1}' РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ {2} Рё {3}</value>
+</data>
+<data name="CannotResolveCollectionExpressionConstructorMessage" xml:space="preserve">
+  <value>РќРµ СѓРґР°РµС‚СЃСЏ СЂР°Р·СЂРµС€РёС‚СЊ РѕР¶РёРґР°РµРјС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ '{0}'</value>
+</data>
+<data name="CanUseHashCodeCombineDescription" xml:space="preserve">
+  <value>РҐСЌС€-РєРѕРґ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РІСЂРµРјРµРЅРЅРѕРіРѕ РєРѕСЂС‚РµР¶Р° Р·РЅР°С‡РµРЅРёР№. Р Р°СЃСЃРјРѕС‚СЂРёС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ 'HashCode.Combine' РІРјРµСЃС‚Рѕ СЌС‚РѕРіРѕ</value>
+</data>
+<data name="CanUseHashCodeCombineMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'HashCode.Combine' РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ С…СЌС€-РєРѕРґР°</value>
+</data>
+<data name="CanUseHashCodeCombineTitle" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'HashCode.Combine' РґР»СЏ РІС‹С‡РёСЃР»РµРЅРёСЏ С…СЌС€-РєРѕРґР°</value>
+</data>
+<data name="ClassCannotBeBothClosedAnd_Message" xml:space="preserve">
+  <value>РљР»Р°СЃСЃ РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ {0} Рё {1}</value>
+</data>
+<data name="ClosedBaseTypeBaseFromOtherAssembly_Message" xml:space="preserve">
+  <value>РќРµР»СЊР·СЏ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ {0} С‚РёРї '{1}' РёР· РґСЂСѓРіРѕР№ СЃР±РѕСЂРєРё РІ РєР°С‡РµСЃС‚РІРµ Р±Р°Р·РѕРІРѕРіРѕ С‚РёРїР°</value>
+</data>
+<data name="ClosedExplicitlyAbstract_Message" xml:space="preserve">
+  <value>РќРµРІРѕР·РјРѕР¶РЅРѕ РїРѕРјРµС‚РёС‚СЊ {0} С‚РёРї '{1}' РєР°Рє {2}, С‚Р°Рє РєР°Рє РѕРЅ РІСЃРµРіРґР° РЅРµСЏРІРЅРѕ СЏРІР»СЏРµС‚СЃСЏ abstract</value>
+</data>
+<data name="CodeCleanupTask_ArrangeAccessors" xml:space="preserve">
+  <value>РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ РјРµС‚РѕРґС‹ РґРѕСЃС‚СѓРїР°</value>
+</data>
+<data name="CodeCleanupTask_ArrangeEmptyString" xml:space="preserve">
+  <value>РџСЂРёРјРµРЅРёС‚СЊ СЃС‚РёР»СЊ РїСѓСЃС‚РѕР№ СЃС‚СЂРѕРєРё ('string.Empty' РїСЂРѕС‚РёРІ РїСѓСЃС‚РѕРіРѕ Р»РёС‚РµСЂР°Р»Р° "")</value>
+</data>
+<data name="CodeStyleRule_EmptyString_Category" xml:space="preserve">
+  <value>РџСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°</value>
+</data>
+<data name="CodeStyleRule_EmptyString_Description" xml:space="preserve">
+  <value>РџСѓСЃС‚С‹Рµ СЃС‚СЂРѕРєРё РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ Р·Р°РїРёСЃР°РЅС‹ РєР°Рє "" РёР»Рё 'string.Empty'</value>
+</data>
+<data name="CodeStyleRule_EmptyString_Title" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РїСѓСЃС‚РѕР№ Р»РёС‚РµСЂР°Р» "" РёР»Рё 'string.Empty'</value>
+</data>
+<data name="CollectionArgumentsMustBeEmptyMessage" xml:space="preserve">
+  <value>Р­Р»РµРјРµРЅС‚ 'with(...)' РґР»СЏ РёРЅС‚РµСЂС„РµР№СЃР° С‚РѕР»СЊРєРѕ РґР»СЏ С‡С‚РµРЅРёСЏ РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїСѓСЃС‚С‹Рј, РµСЃР»Рё РїСЂРёСЃСѓС‚СЃС‚РІСѓРµС‚</value>
+</data>
+<data name="CollectionRefLikeElementTypeMessage" xml:space="preserve">
+  <value>РўРёРї РёС‚РµСЂР°С†РёРё РєРѕР»Р»РµРєС†РёРё '{0}' РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ ref-СЃС‚СЂСѓРєС‚СѓСЂРѕР№ РёР»Рё РїР°СЂР°РјРµС‚СЂРѕРј С‚РёРїР°, РґРѕРїСѓСЃРєР°СЋС‰РёРј ref-СЃС‚СЂСѓРєС‚СѓСЂС‹</value>
+</data>
+<data name="CompilerWarning_CS9377_Title" xml:space="preserve">
+  <value>РњРѕРґРёС„РёРєР°С‚РѕСЂ 'unsafe' Р·РґРµСЃСЊ РЅРµ РёРјРµРµС‚ СЌС„С„РµРєС‚Р° СЃРѕРіР»Р°СЃРЅРѕ С‚РµРєСѓС‰РёРј РїСЂР°РІРёР»Р°Рј Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё РїР°РјСЏС‚Рё</value>
+</data>
+<data name="ConvertStaticMethodInvocationToExtensionMemberCall" xml:space="preserve">
+  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РјРµС‚РѕРґР° РІ РІС‹Р·РѕРІ С‡Р»РµРЅР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="ConvertStaticMethodInvocationToExtensionMemberCallFromOtherClass" xml:space="preserve">
+  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ РєРІР°Р»РёС„РёС†РёСЂРѕРІР°РЅРЅРѕРіРѕ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РјРµС‚РѕРґР° РІ РІС‹Р·РѕРІ С‡Р»РµРЅР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="ConvertStaticMethodInvocationToExtensionMemberCallFromSameClass" xml:space="preserve">
+  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РјРµС‚РѕРґР° С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР° РІ РІС‹Р·РѕРІ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="ExplicitOrExtendedLayoutFieldRequiresUnsafeOrSafeMessage" xml:space="preserve">
+  <value>РџРѕР»Рµ РІ С‚РёРїРµ СЃ СЏРІРЅС‹Рј РёР»Рё СЂР°СЃС€РёСЂРµРЅРЅС‹Рј СЂР°Р·РјРµС‰РµРЅРёРµРј РґРѕР»Р¶РЅРѕ Р±С‹С‚СЊ РїРѕРјРµС‡РµРЅРѕ 'unsafe' РёР»Рё 'safe'</value>
+</data>
+<data name="ExternMemberRequiresUnsafeOrSafeMessage" xml:space="preserve">
+  <value>Р§Р»РµРЅ 'extern' РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїРѕРјРµС‡РµРЅ 'unsafe' РёР»Рё 'safe'</value>
+</data>
+<data name="IgnoredDirectiveInProjectBasedProgramMessage" xml:space="preserve">
+  <value>Р”РёСЂРµРєС‚РёРІС‹ '#:' РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ С‚РѕР»СЊРєРѕ РІ РїСЂРѕРіСЂР°РјРјР°С… РЅР° РѕСЃРЅРѕРІРµ С„Р°Р№Р»РѕРІ ('-features:FileBasedProgram')</value>
+</data>
+<data name="IllFormedUnionDeclarationCaseMessage" xml:space="preserve">
+  <value>Р­Р»РµРјРµРЅС‚ РѕР±СЉСЏРІР»РµРЅРёСЏ 'union' РґРѕР»Р¶РµРЅ СЃРѕРґРµСЂР¶Р°С‚СЊ С‚РѕР»СЊРєРѕ С‚РёРї</value>
+</data>
+<data name="ImmutableArrayWithCollectionInitializerDescription" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂР° РєРѕР»Р»РµРєС†РёРё СЃ 'ImmutableArray&lt;T&gt;' РїСЂРёРІРѕРґРёС‚ Рє РёСЃРєР»СЋС‡РµРЅРёСЋ РІРѕ РІСЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ. РРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂС‹ РєРѕР»Р»РµРєС†РёРё РїСЂРµРѕР±СЂР°Р·СѓСЋС‚СЃСЏ РІ РІС‹Р·РѕРІС‹ 'Add' РґР»СЏ СЌРєР·РµРјРїР»СЏСЂР° 'ImmutableArray&lt;T&gt;' РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ. РџРѕСЃРєРѕР»СЊРєСѓ Р±Р°Р·РѕРІРѕРµ РїРѕР»Рµ 'array' РёРјРµРµС‚ Р·РЅР°С‡РµРЅРёРµ 'null', СЌС‚Рѕ РїСЂРёРІРѕРґРёС‚ Рє 'NullReferenceException'.</value>
+</data>
+<data name="ImmutableArrayWithCollectionInitializerMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂР° РєРѕР»Р»РµРєС†РёРё СЃ 'ImmutableArray&lt;T&gt;' РїСЂРёРІРѕРґРёС‚ Рє РёСЃРєР»СЋС‡РµРЅРёСЋ РІРѕ РІСЂРµРјСЏ РІС‹РїРѕР»РЅРµРЅРёСЏ</value>
+</data>
+<data name="ImmutableArrayWithCollectionInitializerTitle" xml:space="preserve">
+  <value>ImmutableArray&lt;T&gt; СЃ РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂРѕРј РєРѕР»Р»РµРєС†РёРё</value>
+</data>
+<data name="InstanceFieldsNotPermittedInUnionMessage" xml:space="preserve">
+  <value>РџРѕР»СЏ СЌРєР·РµРјРїР»СЏСЂР°, Р°РІС‚РѕСЃРІРѕР№СЃС‚РІР° РёР»Рё СЃРѕР±С‹С‚РёСЏ, РїРѕРґРѕР±РЅС‹Рµ РїРѕР»СЏРј, РЅРµ РґРѕРїСѓСЃРєР°СЋС‚СЃСЏ РІ РѕР±СЉСЏРІР»РµРЅРёРё 'union'</value>
+</data>
+<data name="InvokeAsExtensionMemberMessage" xml:space="preserve">
+  <value>Р’С‹Р·РІР°С‚СЊ РєР°Рє {0} СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="MethodsExtensionMethodCall_RiderPresentableName" xml:space="preserve">
+  <value>РњРµС‚РѕРґС‹//Р’С‹Р·РѕРІ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="MethodsMethodCall_RiderPresentableName" xml:space="preserve">
+  <value>РњРµС‚РѕРґС‹//Р’С‹Р·РѕРІ РјРµС‚РѕРґР°</value>
+</data>
+<data name="MethodsStaticMethodCall_RiderPresentableName" xml:space="preserve">
+  <value>РњРµС‚РѕРґС‹//Р’С‹Р·РѕРІ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РјРµС‚РѕРґР°</value>
+</data>
+<data name="MustHaveInitSetToImplementMessage" xml:space="preserve">
+  <value>'{0}' РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РјРµС‚РѕРґ РґРѕСЃС‚СѓРїР° '{1}' РІРјРµСЃС‚Рѕ '{2}', С‡С‚РѕР±С‹ СЂРµР°Р»РёР·РѕРІР°С‚СЊ {3} '{4}'</value>
+</data>
+<data name="MustHaveInitSetToMatchOverriddenMessage" xml:space="preserve">
+  <value>'{0}' РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РјРµС‚РѕРґ РґРѕСЃС‚СѓРїР° '{1}' РІРјРµСЃС‚Рѕ '{2}' РґР»СЏ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёСЏ РїРµСЂРµРѕРїСЂРµРґРµР»СЏРµРјРѕРјСѓ {3} '{4}'</value>
+</data>
+<data name="NoExtensionOperatorMatchingKindParameterMessage" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂ-РїСЂРёРµРјРЅРёРє С‚РёРїР° Р·РЅР°С‡РµРЅРёСЏ РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РјРѕРґРёС„РёРєР°С‚РѕСЂ '{0}'</value>
+</data>
+<data name="NoExtensionOperatorMatchingValueKindParameterMessage" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂ-РїСЂРёРµРјРЅРёРє С‚РёРїР° Р·РЅР°С‡РµРЅРёСЏ РЅРµ РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РјРѕРґРёС„РёРєР°С‚РѕСЂ '{0}'</value>
+</data>
+<data name="OneOfTheParametersOfAnEqualityOrInequalityOperatorDeclaredInInterfaceMustBeATypeParameterConstrainedToTheContainingTypeMessage" xml:space="preserve">
+  <value>РћРґРёРЅ РёР· РїР°СЂР°РјРµС‚СЂРѕРІ РѕРїРµСЂР°С‚РѕСЂР° СЂР°РІРµРЅСЃС‚РІР° РёР»Рё РЅРµСЂР°РІРµРЅСЃС‚РІР°, РѕР±СЉСЏРІР»РµРЅРЅРѕРіРѕ РІ РёРЅС‚РµСЂС„РµР№СЃРµ, РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ РїР°СЂР°РјРµС‚СЂРѕРј С‚РёРїР° СЃ РѕРіСЂР°РЅРёС‡РµРЅРёРµРј РЅР° СЃРѕРґРµСЂР¶Р°С‰РёР№ С‚РёРї</value>
+</data>
+<data name="OnlyOnePartOfAPartialUnionCanDeclareCaseTypesMessage" xml:space="preserve">
+  <value>РўРѕР»СЊРєРѕ РѕРґРЅР° С‡Р°СЃС‚СЊ '{0} {1}' РјРѕР¶РµС‚ РѕР±СЉСЏРІР»СЏС‚СЊ С‚РёРїС‹ СЃР»СѓС‡Р°РµРІ</value>
+</data>
+<data name="ParamsModifierIsAlwaysIgnoredOnOverridesDescription" xml:space="preserve">
+  <value>РњРѕРґРёС„РёРєР°С‚РѕСЂ 'params' РІСЃРµРіРґР° РёРіРЅРѕСЂРёСЂСѓРµС‚СЃСЏ РїСЂРё РїРµСЂРµРѕРїСЂРµРґРµР»РµРЅРёРё</value>
+</data>
+<data name="PartialMemberSafeDifferenceMessage" xml:space="preserve">
+  <value>РћР±Рµ РґРµРєР»Р°СЂР°С†РёРё С‡Р°СЃС‚РёС‡РЅРѕРіРѕ С‡Р»РµРЅР° РґРѕР»Р¶РЅС‹ Р±С‹С‚СЊ РїРѕРјРµС‡РµРЅС‹ 'safe' РёР»Рё РЅРё РѕРґРЅР° РёР· РЅРёС… РЅРµ РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РїРѕРјРµС‡РµРЅР° 'safe'</value>
+</data>
+<data name="PartialMethodsMustHaveVoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage" xml:space="preserve">
+  <value>Р§Р°СЃС‚РёС‡РЅС‹Рµ РјРµС‚РѕРґС‹ РґРѕР»Р¶РЅС‹ РёРјРµС‚СЊ С‚РёРї РІРѕР·РІСЂР°С‰Р°РµРјРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ '{0}', РµСЃР»Рё РЅРµ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІРµСЂСЃРёСЏ СЏР·С‹РєР° '9.0' РёР»Рё РІС‹С€Рµ</value>
+</data>
+<data name="PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpression" xml:space="preserve">
+  <value>Р§Р°СЃС‚СЊ С‚РµР»Р° РѕРїРµСЂР°С‚РѕСЂР° 'foreach' РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅР° РІ LINQ-РІС‹СЂР°Р¶РµРЅРёРµ</value>
+</data>
+<data name="PartOfForEachStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed" xml:space="preserve">
+  <value>Р§Р°СЃС‚СЊ С‚РµР»Р° РѕРїРµСЂР°С‚РѕСЂР° 'foreach' РјРѕР¶РµС‚ Р±С‹С‚СЊ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅР° РІ LINQ-РІС‹СЂР°Р¶РµРЅРёРµ, РЅРѕ Р±СѓРґРµС‚ РёСЃРїРѕР»СЊР·РѕРІР°РЅ РґСЂСѓРіРѕР№ РјРµС‚РѕРґ 'GetEnumerator'</value>
+</data>
+<data name="PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEnd" xml:space="preserve">
+  <value>РРЅРґРµРєСЃ РѕС‚ РєРѕРЅС†Р° РґРѕР»Р¶РµРЅ Р±С‹С‚СЊ Р±РѕР»СЊС€Рµ РЅСѓР»СЏ; РёСЃРїРѕР»СЊР·СѓР№С‚Рµ '^1' РґР»СЏ СЃСЃС‹Р»РєРё РЅР° РїРѕСЃР»РµРґРЅРёР№ СЌР»РµРјРµРЅС‚</value>
+</data>
+<data name="ReceiverParameterConstraintRequiredErrorMessage" xml:space="preserve">
+  <value>РќР° С‚РёРїРµ РїР°СЂР°РјРµС‚СЂР°-РїСЂРёРµРјРЅРёРєР° С‚СЂРµР±СѓРµС‚СЃСЏ РѕРіСЂР°РЅРёС‡РµРЅРёРµ '{0}' РёР»Рё '{1}', С‡С‚РѕР±С‹ РѕР±СЉСЏРІРёС‚СЊ РґР»СЏ РЅРµРіРѕ РѕРїРµСЂР°С‚РѕСЂ СЂР°СЃС€РёСЂРµРЅРёСЏ СЌРєР·РµРјРїР»СЏСЂР°</value>
+</data>
+<data name="RedundantCapacityArgumentDescription" xml:space="preserve">
+  <value>РЈРєР°Р·Р°РЅРЅР°СЏ РЅР°С‡Р°Р»СЊРЅР°СЏ РµРјРєРѕСЃС‚СЊ РјРµРЅСЊС€Рµ РєРѕР»РёС‡РµСЃС‚РІР° РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ, РїРѕСЌС‚РѕРјСѓ Р°СЂРіСѓРјРµРЅС‚ РµРјРєРѕСЃС‚Рё РёР·Р±С‹С‚РѕС‡РµРЅ</value>
+</data>
+<data name="RedundantCapacityArgumentMessage" xml:space="preserve">
+  <value>РђСЂРіСѓРјРµРЅС‚ РµРјРєРѕСЃС‚Рё РёР·Р±С‹С‚РѕС‡РµРЅ, С‚Р°Рє РєР°Рє СѓР¶Рµ РїСЂРµРґРѕСЃС‚Р°РІР»РµРЅРѕ Р±РѕР»СЊС€Рµ СЌР»РµРјРµРЅС‚РѕРІ</value>
+</data>
+<data name="RedundantCapacityArgumentTitle" xml:space="preserve">
+  <value>РР·Р±С‹С‚РѕС‡РЅС‹Р№ Р°СЂРіСѓРјРµРЅС‚ РµРјРєРѕСЃС‚Рё</value>
+</data>
+<data name="RedundantEmptyWithElementDescription" xml:space="preserve">
+  <value>РџСѓСЃС‚РѕРµ 'with()' РёР·Р±С‹С‚РѕС‡РЅРѕ</value>
+</data>
+<data name="RedundantEmptyWithElementMessage" xml:space="preserve">
+  <value>'with()' РёР·Р±С‹С‚РѕС‡РЅРѕ</value>
+</data>
+<data name="RedundantEmptyWithElementTitle" xml:space="preserve">
+  <value>РР·Р±С‹С‚РѕС‡РЅРѕРµ РїСѓСЃС‚РѕРµ 'with()'</value>
+</data>
+<data name="RefLocalAcrossAwaitMessage" xml:space="preserve">
+  <value>Р›РѕРєР°Р»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ '{0}' РЅРµ РјРѕР¶РµС‚ СЃРѕС…СЂР°РЅСЏС‚СЊСЃСЏ РїСЂРё РїРµСЂРµС…РѕРґРµ РіСЂР°РЅРёС†С‹ '{1}' РёР»Рё '{2}'</value>
+</data>
+<data name="RefReceiverParameterRequiredForStructErrorMessage" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂ-РїСЂРёРµРјРЅРёРє РѕРїРµСЂР°С‚РѕСЂР° СЂР°СЃС€РёСЂРµРЅРёСЏ РґР»СЏ СЌРєР·РµРјРїР»СЏСЂР° СЃС‚СЂСѓРєС‚СѓСЂС‹ РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РјРѕРґРёС„РёРєР°С‚РѕСЂ '{0}'</value>
+</data>
+<data name="ReplaceWithOfTypeDescription" xml:space="preserve">
+  <value>Р—Р°РјРµРЅРёС‚СЊ РєРѕРЅСЃС‚СЂСѓРєС†РёРё РІРёРґР° .Where(x =&gt; x is T).Select(x =&gt; (T) x) Рё Р°РЅР°Р»РѕРіРёС‡РЅС‹Рµ РЅР° .OfType&lt;T&gt;</value>
+</data>
+<data name="ReplaceWithOfTypeMessage" xml:space="preserve">
+  <value>Р—Р°РјРµРЅРёС‚СЊ РЅР° '.{0}&lt;{1}&gt;()'</value>
+</data>
+<data name="ReplaceWithOfTypeTitle" xml:space="preserve">
+  <value>Р—Р°РјРµРЅРёС‚СЊ РЅР° '.OfType&lt;T&gt;()'</value>
+</data>
+<data name="RuntimeDoesNotSupportExtendedLayoutTypesMessage" xml:space="preserve">
+  <value>Р¦РµР»РµРІР°СЏ СЃСЂРµРґР° РІС‹РїРѕР»РЅРµРЅРёСЏ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ С‚РёРїС‹ СЃ СЂР°СЃС€РёСЂРµРЅРЅС‹Рј СЂР°Р·РјРµС‰РµРЅРёРµРј</value>
+</data>
+<data name="SafeModifierUnsupportedTargetMessage" xml:space="preserve">
+  <value>РњРѕРґРёС„РёРєР°С‚РѕСЂ 'safe' РјРѕР¶РЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ С‚РѕР»СЊРєРѕ РґР»СЏ С‡Р»РµРЅРѕРІ Р±РµР· РїРѕРјРµС‚РєРё 'unsafe', РєРѕС‚РѕСЂС‹Рµ СЏРІР»СЏСЋС‚СЃСЏ 'extern' РёР»Рё РїРѕРґРѕР±РЅС‹ РїРѕР»СЏРј РІ С‚РёРїР°С… СЃ СЏРІРЅС‹Рј РёР»Рё СЂР°СЃС€РёСЂРµРЅРЅС‹Рј СЂР°Р·РјРµС‰РµРЅРёРµРј</value>
+</data>
+<data name="ShortLivedHttpClientDescription" xml:space="preserve">
+  <value>РљРѕСЂРѕС‚РєРѕР¶РёРІСѓС‰РёР№ 'HttpClient' РЅРµ СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ. Р§Р°СЃС‚РѕРµ СЃРѕР·РґР°РЅРёРµ СЌРєР·РµРјРїР»СЏСЂРѕРІ 'HttpClient' РјРѕР¶РµС‚ РїСЂРёРІРµСЃС‚Рё Рє РёСЃС‡РµСЂРїР°РЅРёСЋ СЃРѕРєРµС‚РѕРІ. Р Р°СЃСЃРјРѕС‚СЂРёС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ 'IHttpClientFactory' РёР»Рё РґРѕР»РіРѕР¶РёРІСѓС‰РµРіРѕ (РЅР°РїСЂРёРјРµСЂ, СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ) СЌРєР·РµРјРїР»СЏСЂР° 'HttpClient' РІРјРµСЃС‚Рѕ СЌС‚РѕРіРѕ.</value>
+</data>
+<data name="ShortLivedHttpClientMessage" xml:space="preserve">
+  <value>РљРѕСЂРѕС‚РєРѕР¶РёРІСѓС‰РёР№ 'HttpClient' РЅРµ СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ. Р§Р°СЃС‚РѕРµ СЃРѕР·РґР°РЅРёРµ СЌРєР·РµРјРїР»СЏСЂРѕРІ 'HttpClient' РјРѕР¶РµС‚ РїСЂРёРІРµСЃС‚Рё Рє РёСЃС‡РµСЂРїР°РЅРёСЋ СЃРѕРєРµС‚РѕРІ. Р Р°СЃСЃРјРѕС‚СЂРёС‚Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ 'IHttpClientFactory' РёР»Рё РґРѕР»РіРѕР¶РёРІСѓС‰РµРіРѕ (РЅР°РїСЂРёРјРµСЂ, СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ) СЌРєР·РµРјРїР»СЏСЂР° 'HttpClient' РІРјРµСЃС‚Рѕ СЌС‚РѕРіРѕ.</value>
+</data>
+<data name="ShortLivedHttpClientTitle" xml:space="preserve">
+  <value>РљРѕСЂРѕС‚РєРѕР¶РёРІСѓС‰РёР№ 'HttpClient'</value>
+</data>
+<data name="SingleParameterConstructorNotPermittedInUnionMessage" xml:space="preserve">
+  <value>РЇРІРЅРѕ РѕР±СЉСЏРІР»РµРЅРЅС‹Рµ public-РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂС‹ СЃ РѕРґРЅРёРј РїР°СЂР°РјРµС‚СЂРѕРј РЅРµ РґРѕРїСѓСЃРєР°СЋС‚СЃСЏ РІ РѕР±СЉСЏРІР»РµРЅРёРё 'union'</value>
+</data>
+<data name="StructLayoutAndExtendedLayoutAttributesTogetherMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ 'StructLayoutAttribute' Рё 'ExtendedLayoutAttribute' РІ РѕРґРЅРѕРј С‚РёРїРµ РЅРµ РґРѕРїСѓСЃРєР°РµС‚СЃСЏ</value>
+</data>
+<data name="SuggestCollectionExpressionWithArgumentsDescription" xml:space="preserve">
+  <value>РџСЂРµРґР»РѕР¶РёС‚СЊ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёРµ РІ РІС‹СЂР°Р¶РµРЅРёРµ РєРѕР»Р»РµРєС†РёРё СЃ Р°СЂРіСѓРјРµРЅС‚Р°РјРё: '[with(capacity: 10), 1, 2, 3]'</value>
+</data>
+<data name="SuggestCollectionExpressionWithArgumentsTitle" xml:space="preserve">
+  <value>РџСЂРµРґР»РѕР¶РёС‚СЊ, РєРѕРіРґР° Р°СЂРіСѓРјРµРЅС‚С‹ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹</value>
+</data>
+<data name="UnderspecifiedClosedSubtype_Message" xml:space="preserve">
+  <value>Р‘Р°Р·РѕРІС‹Р№ С‚РёРї '{0}' СЏРІР»СЏРµС‚СЃСЏ Р·Р°РєСЂС‹С‚С‹Рј Рё РґРѕР»Р¶РµРЅ СЃСЃС‹Р»Р°С‚СЊСЃСЏ РЅР° РІСЃРµ РїР°СЂР°РјРµС‚СЂС‹ С‚РёРїР° РїСЂРѕРёР·РІРѕРґРЅРѕРіРѕ РєР»Р°СЃСЃР°. РћС‚СЃСѓС‚СЃС‚РІСѓСЋС‚ СЃСЃС‹Р»РєРё РґР»СЏ РїР°СЂР°РјРµС‚СЂРѕРІ С‚РёРїР°: {1}</value>
+</data>
+<data name="UnionCaseTypeAlreadyDeclaredMessage" xml:space="preserve">
+  <value>РўРёРї СЃР»СѓС‡Р°СЏ '{0}' СѓР¶Рµ РѕР±СЉСЏРІР»РµРЅ</value>
+</data>
+<data name="UnionCaseTypeMustBeConvertibleToObjectMessage" xml:space="preserve">
+  <value>РќРµРІРѕР·РјРѕР¶РЅРѕ РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ С‚РёРї '{0}' РІ '{1}' РїРѕСЃСЂРµРґСЃС‚РІРѕРј РЅРµСЏРІРЅРѕРіРѕ СЃСЃС‹Р»РѕС‡РЅРѕРіРѕ РїСЂРµРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РёР»Рё СѓРїР°РєРѕРІС‹РІР°РЅРёСЏ</value>
+</data>
+<data name="UnionConstructorMustCallDefaultConstructorMessage" xml:space="preserve">
+  <value>РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ, РѕР±СЉСЏРІР»РµРЅРЅС‹Р№ РІ РѕР±СЉСЏРІР»РµРЅРёРё 'union', РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂ 'this', РІС‹Р·С‹РІР°СЋС‰РёР№ СЃРёРЅС‚РµР·РёСЂРѕРІР°РЅРЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ РёР»Рё СЏРІРЅРѕ РѕР±СЉСЏРІР»РµРЅРЅС‹Р№ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂ</value>
+</data>
+<data name="UnionMemberProviderInterfaceNotPermittedMessage" xml:space="preserve">
+  <value>РћР±СЉСЏРІР»РµРЅРёРµ 'union' РЅРµ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РёРЅС‚РµСЂС„РµР№СЃ вЂ” РїРѕСЃС‚Р°РІС‰РёРє С‡Р»РµРЅРѕРІ 'union'</value>
+</data>
+<data name="UnionMemberProviderMustHaveValuePropertyMessage" xml:space="preserve">
+  <value>РўРёРї вЂ” РїРѕСЃС‚Р°РІС‰РёРє С‡Р»РµРЅРѕРІ 'union' РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ СЃРІРѕР№СЃС‚РІРѕ СЌРєР·РµРјРїР»СЏСЂР° 'Value' С‚РёРїР° 'object?' РёР»Рё 'object'. РЎРІРѕР№СЃС‚РІРѕ РґРѕР»Р¶РЅРѕ РёРјРµС‚СЊ public РјРµС‚РѕРґ РґРѕСЃС‚СѓРїР° get.</value>
+</data>
+<data name="UnionMustHaveAtLeastOneUnionCreationMemberMessage" xml:space="preserve">
+  <value>РўРёРї 'union' РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ С…РѕС‚СЏ Р±С‹ РѕРґРёРЅ С‡Р»РµРЅ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ 'union'</value>
+</data>
+<data name="UnionMustSpecifyAtLeastOneCaseTypeMessage" xml:space="preserve">
+  <value>РћР±СЉСЏРІР»РµРЅРёРµ 'union' РґРѕР»Р¶РЅРѕ Р·Р°РґР°РІР°С‚СЊ С…РѕС‚СЏ Р±С‹ РѕРґРёРЅ С‚РёРї СЃР»СѓС‡Р°СЏ</value>
+</data>
+<data name="UnsafeConstructorConstraintMessage" xml:space="preserve">
+  <value>РљРѕРЅСЃС‚СЂСѓРєС‚РѕСЂСѓ '{0}()', РїРѕРјРµС‡РµРЅРЅРѕРјСѓ РєР°Рє 'unsafe', С‚СЂРµР±СѓРµС‚СЃСЏ РЅРµР±РµР·РѕРїР°СЃРЅС‹Р№ РєРѕРЅС‚РµРєСЃС‚ РґР»СЏ СѓРґРѕРІР»РµС‚РІРѕСЂРµРЅРёСЏ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ 'new()' РїР°СЂР°РјРµС‚СЂР° С‚РёРїР° '{1}' РІ '{2}'</value>
+</data>
+<data name="UnsafeExpressionIsRedundantMessage" xml:space="preserve">
+  <value>Р’С‹СЂР°Р¶РµРЅРёРµ 'unsafe' РёР·Р±С‹С‚РѕС‡РЅРѕ</value>
+</data>
+<data name="UnsafeMeaninglessMessage" xml:space="preserve">
+  <value>РњРѕРґРёС„РёРєР°С‚РѕСЂ 'unsafe' Р·РґРµСЃСЊ РЅРµ РёРјРµРµС‚ СЌС„С„РµРєС‚Р° СЃРѕРіР»Р°СЃРЅРѕ С‚РµРєСѓС‰РёРј РїСЂР°РІРёР»Р°Рј Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё РїР°РјСЏС‚Рё</value>
+</data>
+<data name="UnsafeMemberOperationMessage" xml:space="preserve">
+  <value>{0} '{1}' РґРѕР»Р¶РµРЅ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ РІ РЅРµР±РµР·РѕРїР°СЃРЅРѕРј РєРѕРЅС‚РµРєСЃС‚Рµ, С‚Р°Рє РєР°Рє РїРѕРјРµС‡РµРЅ РєР°Рє 'unsafe'</value>
+</data>
+<data name="UnsafeOperationMessage" xml:space="preserve">
+  <value>Р­С‚Р° РѕРїРµСЂР°С†РёСЏ РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С‚РѕР»СЊРєРѕ РІ РЅРµР±РµР·РѕРїР°СЃРЅРѕРј РєРѕРЅС‚РµРєСЃС‚Рµ</value>
+</data>
+<data name="UnsafeUninitializedStackAllocMessage" xml:space="preserve">
+  <value>Р’С‹СЂР°Р¶РµРЅРёРµ stackalloc Р±РµР· РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂР° РІРЅСѓС‚СЂРё SkipLocalsInit РјРѕР¶РµС‚ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ С‚РѕР»СЊРєРѕ РІ РЅРµР±РµР·РѕРїР°СЃРЅРѕРј РєРѕРЅС‚РµРєСЃС‚Рµ</value>
+</data>
+<data name="UseArgumentExceptionThrowIfMethodDescription" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'ArgumentException.ThrowIfNullOrEmpty' Рё 'ArgumentException.ThrowIfNullOrWhiteSpace'</value>
+</data>
+<data name="UseArgumentExceptionThrowIfMethodMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ '{0}.{1}'</value>
+</data>
+<data name="UseArgumentExceptionThrowIfMethodTitle" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'ArgumentException.ThrowIfNullOrEmpty/ThrowIfNullOrWhiteSpace'</value>
+</data>
+<data name="UseExtensionMemberMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ {0} СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="UseIsNullOrEmptyMessage" xml:space="preserve">
+  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ '{0}.{1}'</value>
+</data>
+<data name="ValueTupleHashCodeIgnoresElementsDescription" xml:space="preserve">
+  <value>РљРѕРіРґР° РєРѕСЂС‚РµР¶ Р·РЅР°С‡РµРЅРёР№ СЃРѕРґРµСЂР¶РёС‚ Р±РѕР»РµРµ 8 СЌР»РµРјРµРЅС‚РѕРІ, РµРіРѕ С…СЌС€-РєРѕРґ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїРѕ РїРѕСЃР»РµРґРЅРёРј 8; РЅРµРєРѕС‚РѕСЂС‹Рµ СЌР»РµРјРµРЅС‚С‹ РёРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ</value>
+</data>
+<data name="ValueTupleHashCodeIgnoresElementsMessage" xml:space="preserve">
+  <value>Р­С‚РѕС‚ РєРѕСЂС‚РµР¶ Р·РЅР°С‡РµРЅРёР№ СЃРѕРґРµСЂР¶РёС‚ {0} СЌР»РµРјРµРЅС‚РѕРІ, РЅРѕ РµРіРѕ С…СЌС€-РєРѕРґ РІС‹С‡РёСЃР»СЏРµС‚СЃСЏ С‚РѕР»СЊРєРѕ РїРѕ РїРѕСЃР»РµРґРЅРёРј 8; РїРµСЂРІС‹Рµ {1} СЌР»РµРјРµРЅС‚РѕРІ РёРіРЅРѕСЂРёСЂСѓСЋС‚СЃСЏ</value>
+</data>
+<data name="ValueTupleHashCodeIgnoresElementsTitle" xml:space="preserve">
+  <value>'GetHashCode()' РєРѕСЂС‚РµР¶Р° Р·РЅР°С‡РµРЅРёР№ РёРіРЅРѕСЂРёСЂСѓРµС‚ РЅРµРєРѕС‚РѕСЂС‹Рµ СЌР»РµРјРµРЅС‚С‹</value>
+</data>
+<data name="WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntax" xml:space="preserve">
+  <value>РљРѕРіРґР° С‡Р»РµРЅ СЂР°СЃС€РёСЂРµРЅРёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ РєР°Рє СЃС‚Р°С‚РёС‡РµСЃРєРёР№ РјРµС‚РѕРґ, РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ РІ СЃРёРЅС‚Р°РєСЃРёСЃ С‡Р»РµРЅР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntaxFromSameClass" xml:space="preserve">
+  <value>РљРѕРіРґР° РјРµС‚РѕРґ СЂР°СЃС€РёСЂРµРЅРёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ РєР°Рє СЃС‚Р°С‚РёС‡РµСЃРєРёР№ РјРµС‚РѕРґ С‚РѕРіРѕ Р¶Рµ РєР»Р°СЃСЃР°, РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ РІ СЃРёРЅС‚Р°РєСЃРёСЃ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
 </root>

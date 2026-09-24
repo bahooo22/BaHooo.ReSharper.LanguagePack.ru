@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1055,5 +1055,32 @@
 </data>
 <data name="QuickFilter_ShowUiFreeze" xml:space="preserve">
   <value>Показать зависания UI</value>
+</data>
+<data name="DPA_Monitoring" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі</value>
+</data>
+<data name="EmptyContentMonitoringDisabledText" xml:space="preserve">
+  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕС‚РєР»СЋС‡С‘РЅ.</value>
+</data>
+<data name="EmptyContentMonitoringEnableLinkText" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РјРѕРЅРёС‚РѕСЂРёРЅРі</value>
+</data>
+<data name="EmptyContentView_Enable" xml:space="preserve">
+  <value>Р’С‹ РјРѕР¶РµС‚Рµ РІРєР»СЋС‡РёС‚СЊ РµРіРѕ РІ </value>
+</data>
+<data name="EmptyContentView_Link" xml:space="preserve">
+  <value>РџСЂРѕРґСѓРєС‚С‹ Рё С„СѓРЅРєС†РёРё</value>
+</data>
+<data name="EmptyContentView_ProductIsCurrentlyDisabled" xml:space="preserve">
+  <value>{0} СЃРµР№С‡Р°СЃ РѕС‚РєР»СЋС‡РµРЅРѕ</value>
+</data>
+<data name="MonitoringDetailsCaused" xml:space="preserve">
+  <value>Р­С‚Р° РїСЂРѕР±Р»РµРјР° РІС‹Р·РІР°РЅР°:</value>
+</data>
+<data name="QuickFilter_ShowMuted" xml:space="preserve">
+  <value>РџРѕРєР°Р·Р°С‚СЊ СЃРєСЂС‹С‚С‹Рµ РїСЂРѕР±Р»РµРјС‹</value>
+</data>
+<data name="StackTraceTabTitle" xml:space="preserve">
+  <value>РўСЂР°СЃСЃРёСЂРѕРІРєР° СЃС‚РµРєР° РґР»СЏ {0}</value>
 </data>
 </root>

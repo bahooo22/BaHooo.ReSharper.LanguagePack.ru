@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -2514,4 +2514,40 @@
   <data name="DeletingProjectsReferences_Text" xml:space="preserve">
     <value>Удаление ссылок на проекты</value>
   </data>
+<data name="ExtractMethodDuplicatesPage_Description_Text" xml:space="preserve">
+  <value>РќР°Р№РґРµРЅ РґСѓР±Р»РёСЂСѓСЋС‰РёР№СЃСЏ РєРѕРґ. Р’С‹Р±РµСЂРёС‚Рµ РІС…РѕР¶РґРµРЅРёСЏ РґР»СЏ РёР·РІР»РµС‡РµРЅРёСЏ РІ РґРѕРїРѕР»РЅРµРЅРёРµ Рє РёСЃС…РѕРґРЅРѕРјСѓ:</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_DifferencesColumn_Text" xml:space="preserve">
+  <value>РћС‚Р»РёС‡РёСЏ</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_DuplicateLocation_Text" xml:space="preserve">
+  <value>РЎС‚СЂРѕРєР° {0}</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_ExactDuplicatesGroup_Text" xml:space="preserve">
+  <value>РџРѕР»РЅС‹Рµ РґСѓР±Р»РёРєР°С‚С‹ ({0})</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_LocationColumn_Text" xml:space="preserve">
+  <value>Р Р°СЃРїРѕР»РѕР¶РµРЅРёРµ</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_OriginalExtractionPreview_Text" xml:space="preserve">
+  <value>РёСЃС…РѕРґРЅРѕРµ РёР·РІР»РµС‡РµРЅРёРµ</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_ParametrizedDuplicatesGroup_Text" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂРёР·РѕРІР°РЅРЅС‹Рµ РґСѓР±Р»РёРєР°С‚С‹ ({0})</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_SelectAll_Text" xml:space="preserve">
+  <value>Р’С‹Р±СЂР°С‚СЊ РІСЃРµ</value>
+</data>
+<data name="ExtractMethodDuplicatesPage_Title_Text" xml:space="preserve">
+  <value>Р”СѓР±Р»РёРєР°С‚С‹</value>
+</data>
+<data name="ExtractMethodRefactoringSettingsSettingDescription" xml:space="preserve">
+  <value>РџР°СЂР°РјРµС‚СЂС‹ СЂРµС„Р°РєС‚РѕСЂРёРЅРіР° 'РР·РІР»РµС‡СЊ РјРµС‚РѕРґ'</value>
+</data>
+<data name="Rename_Conflict_OnlyHasDeclarationsInSourceGenerated_Text" xml:space="preserve">
+  <value>'{0}' вЂ” СЌС‚Рѕ {1}, СЃРѕР·РґР°РЅРЅРѕРµ РіРµРЅРµСЂР°С‚РѕСЂРѕРј РєРѕРґР°.</value>
+</data>
+<data name="WhetherToSearchForDuplicatesOfTheExtractedFragmentSettingDescription" xml:space="preserve">
+  <value>РСЃРєР°С‚СЊ Р»Рё РґСѓР±Р»РёРєР°С‚С‹ РёР·РІР»РµРєР°РµРјРѕРіРѕ С„СЂР°РіРјРµРЅС‚Р°</value>
+</data>
 </root>

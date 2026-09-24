@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1062,5 +1062,29 @@
 </data>
 <data name="ProfilerConfigurator_CoverageConfigurationDialog_ControlKindLabel_Text" xml:space="preserve">
   <value>Как управлять анализом покрытия</value>
+</data>
+<data name="DotCoverEnableContinuousTestingActionText" xml:space="preserve">
+  <value>Р’РєР»СЋС‡РёС‚СЊ РЅРµРїСЂРµСЂС‹РІРЅРѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ</value>
+</data>
+<data name="Paywall_Benefit1" xml:space="preserve">
+  <value>РђРЅР°Р»РёР·РёСЂСѓР№С‚Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РїРѕРєСЂС‹С‚РёСЏ РєРѕРґР° РІ Visual Studio</value>
+</data>
+<data name="Paywall_Benefit2" xml:space="preserve">
+  <value>Р¤РѕРєСѓСЃРёСЂСѓР№С‚РµСЃСЊ РЅР° РЅРµРїСЂРѕРІРµСЂРµРЅРЅРѕРј РєРѕРґРµ</value>
+</data>
+<data name="Paywall_Benefit3" xml:space="preserve">
+  <value>РќР°С…РѕРґРёС‚Рµ РїСЂРѕР±РµР»С‹ РІ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРё Рё СѓРІРµСЂРµРЅРЅРµРµ РїСЂРѕРІРµСЂСЏР№С‚Рµ РёР·РјРµРЅРµРЅРёСЏ</value>
+</data>
+<data name="Paywall_CloseButton" xml:space="preserve">
+  <value>РќРµ СЃРµР№С‡Р°СЃ</value>
+</data>
+<data name="Paywall_Description" xml:space="preserve">
+  <value>РР·РјРµСЂСЏР№С‚Рµ РїРѕРєСЂС‹С‚РёРµ РєРѕРґР° РІ РІР°С€РёС… .NET-РїСЂРёР»РѕР¶РµРЅРёСЏС… Рё СѓР·РЅР°РІР°Р№С‚Рµ, РєР°РєРёРµ С‡Р°СЃС‚Рё РєРѕРґР° РЅРµ РїСЂРѕРІРµСЂСЏСЋС‚СЃСЏ С‚РµСЃС‚Р°РјРё.</value>
+</data>
+<data name="Paywall_Header" xml:space="preserve">
+  <value>Р”РѕСЃС‚СѓРїРЅРѕ СЃ dotUltimate</value>
+</data>
+<data name="Paywall_ToolWindowTitle" xml:space="preserve">
+  <value>Р”РѕСЃС‚СѓРї Рє dotCover СЃ dotUltimate</value>
 </data>
 </root>
