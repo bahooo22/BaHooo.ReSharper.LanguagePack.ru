@@ -135,6 +135,36 @@ tree serves.
 
 ---
 
+## 🚫 What is deliberately NOT translated (the `ru == en` flag)
+
+`build/i18n-verify-translations.ps1` reports entries whose Russian value equals the neutral
+English one. Those are not missed translations; they fall into two legitimate classes:
+
+1. **Product names and universal buttons** - `ReSharper`, `Visual Studio`, `IntelliJ IDEA`,
+   `ASP`, `XML`, `URI:`, `Tab`, `OK`. No language translates them.
+2. **`*SettingDescription` entries whose value upstream JetBrains itself stores as a raw token**:
+   verified against `JetBrains.Platform.UIInteractive.Shell.dll`, where the neutral English
+   `DefaultReporterChangedSettingDescription` and `UpgradePerformedSettingDescription` are
+   literally `UpgradePerformed` - the description of a migration setting looks like an event
+   identifier in the original product too. Our Russian value mirrors English honestly; there is
+   **no key/value desync** and nothing to translate.
+
+Do not "fix" such entries. If a `ru == en` flag appears on a key that belongs to neither class,
+that is a real gap and it should be closed with a translation.
+
+One more case, settled by measurement rather than by reading the report: the key
+`Resource0UsageInlineWillProduceConflicts_Text` in
+`JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings`. Out of 215 rows with placeholder
+mismatches it is the only formally dangerous one (Russian references an index the checker did not
+find in English). The neutral English value there literally reads
+`Inlining resource {0, usage} will produce conflicts`, and `[string]::Format` on that string
+throws `FormatException` even when an argument is supplied (verified on .NET Framework) - so
+upstream never formats this text, and `{0, usage}` is junk in the English original itself. Our
+`{0}` stays as it is: if it ever gets formatted it is safer than the original, and if it does not,
+it shows exactly the same kind of junk the original shows.
+
+---
+
 ## 🚀 Main Build Script
 
 ### `resx-to-resources.ps1`

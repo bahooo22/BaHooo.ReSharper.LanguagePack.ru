@@ -54,6 +54,41 @@ CI (`pack-and-release.yml`) создаёт только GitHub Release с обо
 
 ---
 
+## 🔍 Разобрать 215 срабатываний «ПЛЕЙСХОЛДЕРЫ» в отчёте проверки
+
+`build/i18n-translation-report.txt` (прогон 2026-09-24 06:21) выглядит как 215 поломок, но
+разложение по признаку риска другое (посчитано по колонкам `en[…] != ru[…]`):
+
+- **210** — ru потерял хотя бы один индекс en: чаще безобидно (например,
+  `CanSimplifyDictionaryLookupWithTryAddMessage`: en `…with '{0}'`, ru `…с помощью 'TryAdd'` —
+  аргумент там всегда один и тот же), но бывают и настоящие потери данных:
+  `DPA.Core…Tooltip_SqlConnectionCountIssue_Template`, где en `{0} DB {1}, {2}` превратился в
+  ru `{0} подключений к БД, {2}` — среднее значение просто исчезло;
+- **4** — те же наборы индексов, только другой порядок/повторы (это нормально, порядок в русском
+  меняется намеренно);
+- **1** — ru ссылается на индекс, которого в en нет:
+  `JetBrains.ReSharper.Refactorings.Xaml…Resource0UsageInlineWillProduceConflicts_Text`.
+  Формально это риск `FormatException`, но проверено на .NET Framework: сам en-value
+  `Inlining resource {0, usage} will produce conflicts` бросает `FormatException` даже с
+  аргументом, то есть upstream этот текст не форматирует — наш `{0}` безопаснее оригинала.
+
+- [ ] Пройти 210 строк глазами и поделить на «аргумент всегда константа → править не надо» и
+      «реально теряем значение → вернуть `{n}` в перевод». Распределение измерено: 204 из 210 —
+      один файл `JetBrains.ReSharper.Daemon.CSharp.Resources.Strings` (системный узор: вместо
+      `{0}`/`{1}` в русском тексте стоит описательная формулировка без идентификатора), по 1 в
+      `Feature.Services.CSharp`, `Feature.Services.ExternalSources.CSharp`,
+      `Intentions.CSharp`, `UI.Resources.CommonStrings` и 2 в `DPA.Core` — вот последние пять
+      действительно теряют значения (в `Tooltip_SqlConnectionCountIssue_Template` исчез `{1}`)
+- [ ] После правок переснять отчёт: `build/i18n-verify-translations.ps1`
+
+Правило `ru == en` (362 записи, из них 346 содержат строчные латинские последовательности от трёх
+букв и потому помечены как подозрительные) — НЕ пропуск: имена продуктов,
+универсальные кнопки и `*SettingDescription`, у которых сам upstream хранит в value сырой токен
+(проверено по `JetBrains.Platform.UIInteractive.Shell.dll`: `DefaultReporterChangedSettingDescription`
+= `UpgradePerformed`). Подробно — раздел «🚫 Что сознательно НЕ переводится» в `README.md`.
+
+---
+
 ## 🧹 Гигиена репозитория
 
 - [ ] Удалить из-под версионирования: `resx-to-resourcesV1.back`, `build/resx-hashes.json.back.json`, `NugetFolder/BaHooo.ReSharper.I18n.ru/build.ps1.txt` — это ручные бэкапы, git хранит историю лучше
