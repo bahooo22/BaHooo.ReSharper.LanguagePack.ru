@@ -1,9 +1,9 @@
 ﻿=== Проверка перевода всех resx-файлов пакета ===
 Установка: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229
 
-resx-файлов:                243
-записей всего:              33943
-neutral-ресурсов доступно:  177
+resx-файлов:                248
+записей всего:              33961
+neutral-ресурсов доступно:  182
 без neutral (нет DLL):      66
 
 XML-ошибок:                 0
