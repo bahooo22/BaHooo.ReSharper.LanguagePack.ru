@@ -60,7 +60,14 @@ CI (`pack-and-release.yml`) создаёт только GitHub Release с обо
 - [ ] Решить судьбу 6 `.resx`-заглушек: в них ровно **0** элементов `<data>` и 5816 байт — это чистый шаблон resx без единой строки перевода (`JetBrains.PsiFeatures.VisualStudio.SinceVs14`, `…SinceVs16RoslynAware`, `…Web.UIInteractive`, `JetBrains.Rider.Plugins.Verse`, `JetBrains.TeamCity.Presentation.Wpf`, `OperatorsResolveCacheGenerator`). Прежняя формулировка «по 4 служебные строки» — артефакт подсчёта: наивный regex ловил 4 примера из XSD-шапки файла. Либо удалить, либо объяснить в README, почему они пустые. Рядом стоит 7-й файл `JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants` — 9 записей, но ни одной с кириллицей (латинические константы), он нужен как есть
 - [ ] Разобраться с 63 `.resx`, которых нет в DLL платформы 2026.2.2 (список в `build/i18n-coverage-report.txt`, секция «В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL»): Rider / dotPeek / dotTrace / Cpp / FSharp / TeamCity / SourceView — они нужны для Rider-сценария или мёртвый груз?
 - [x] Добавить `.gitattributes`: `* text=auto eol=lf` + принудительный CRLF для `*.resx`/`*.nuspec`/`*.ps1`/`*.cmd`, binary для dll/exe/nupkg/resources. `working-tree-encoding=UTF-8` сознательно НЕ используем: у 7 resx уже есть BOM, git добавил бы второй
-- [x] Исправить скачивание ResGen в `resx-to-resources.ps1`: GUID в ссылке был выдуман (404). Теперь полный путь поиска `PATH → Windows SDK (glob по версиям) → .\Tools\ResGen`, скачивания нет, при отсутствии — честное предупреждение и сборка продолжается
+- [ ] Рабочую копию привести к новым правилам EOL одним `git add --renormalize .` + повторным
+      checkout: сейчас `git ls-files --eol` показывает 285 индексовых blob'ов в LF (то есть новые
+      правила ничего в истории не меняют), но в рабочей копии 13 текстовых файлов лежат с LF и
+      6 со смешанными окончаниями вместо предписанного CRLF
+- [x] Исправить скачивание ResGen в `resx-to-resources.ps1`: GUID в ссылке был выдуман (404).
+      Теперь путь поиска `PATH → Windows SDK (включая обход всего дерева по маске ResGen.exe) →
+      .\Tools\ResGen`, скачивания нет: при отсутствии выдаётся инструкция из Visual Studio
+      Installer и сборка продолжается без генерации `.resources`
 
 ---
 
@@ -83,5 +90,9 @@ CI (`pack-and-release.yml`) создаёт только GitHub Release с обо
 
 ## 🗑 Локальный мусор (не в git)
 
-- [ ] `build/PEER-HANDOFF-2026-09-24.md`, `build/_gap_strings.txt`, `build/_audit_run_mine.log`, `build/_pre_restore_build_ps1.bak` — рабочие файлы сверки 2026-09-24; решить, что из них оформить как отчёт в репозитории, а что удалить
-- [ ] Каталог `Ḁ/` в корне репозитория (пустой, создан 06:40) — артефакт mojibake-пути в сборочном инструменте: U+1E00 не кодируется в CP1251, поэтому git его не видит и удалить его обычным `rm` из Git Bash неудобно
+- [x] Рабочие файлы сверки 2026-09-24 удалены: `build/_gap_strings.txt`, `build/_audit_run_mine.log`,
+      `build/_pre_restore_build_ps1.bak` (их содержание теперь или в `i18n-coverage-report.txt`,
+      или в истории git). Пустой каталог `Ḁ/` в корне удалён — артефакт mojibake-пути:
+      U+1E00 не кодируется в CP1251, поэтому git его не показывал.
+- [ ] `build/PEER-HANDOFF-2026-09-24.md` — запись разделения работ между диалогами; держать до
+      публикации 2026.2.2.1, потом удалить или перенести в описание релиза
