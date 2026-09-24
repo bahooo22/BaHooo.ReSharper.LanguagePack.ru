@@ -1,5 +1,6 @@
 ﻿=== Проверка перевода всех resx-файлов пакета ===
-Дата: 2026-09-24 08:29
+Установка: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229
+Дата: 2026-09-24 09:07
 
 resx-файлов:                243
 записей всего:              33943
@@ -7,10 +8,10 @@ neutral-ресурсов доступно:  177
 без neutral (нет DLL):      66
 
 XML-ошибок:                 0
-пустых значений:            4
+пустых значений:            4  (en тоже пуст: 4)
 CJK-утечек:                 0
 расхождений ключей:         24
-ошибок плейсхолдеров:       214
+расхождений плейсхолдеров:  214
 ru==en (без кириллицы):     362  (с малыми англ. словами: 346)
 
 --- ПРОБЛЕМЫ (нужны исправления) ---
@@ -21,7 +22,7 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Help_Article7_Link, Help_Article7_Text, Help_Article8_Link, Help_Article8_Text, Help_dotMemoryUnit_Header, Help_dotMemoryUnit_Help, Help_dotMemoryUnit_TextAfter, Help_dotMemoryUnit_TextBefore, Help_Youtube_MeetDotMemoryUnit_Duration, Help_Youtube_MeetDotMemoryUnit_Link, Help_Youtube_MeetDotMemoryUnit_Text
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConfigurationEditor_AllowLoadPdbInBackground, ConfigurationEditor_ConfigureSymbolServers_LinkText
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AllowBackgroundLoadPdbSettingDescription, DownloadSymbolFilesSettingDescription, SymbolPathsSettingsKey_KeyDescription, SymbolServersUsedInDotTraceSettingDescription
-  JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [ActionText]
+  JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [ActionText]; en тоже пуст (upstream) — не пропуск
   JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ExplainWithAITask, FilterIssueByMethodAction, FilterIssueByMethodActionNoLicense, FilterIssueByModuleAction, FilterIssueByModuleActionNoLicense, FilterIssueByTypeAction, FilterIssueByTypeActionNoLicense, FixWithAITask
   JetBrains.IDE.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DumpFleetDocumentsActionText, WaitSolutionPerClientComponentsCompose_Text
   JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): IsUiSmoothnessToolkitEnabledInDevelopmentBuildDescription
@@ -234,12 +235,12 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnStructThisOrInstanceFieldWarningMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefStructsCannotImplementInterfacesMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [Message6]
+  JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [Message6]; en тоже пуст (upstream) — не пропуск
   JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): GrazieGplLicenseNotice
-  JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [DiffModeShowAll_Comment_Text]
+  JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [DiffModeShowAll_Comment_Text]; en тоже пуст (upstream) — не пропуск
   JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CSharp_EditorConfigOverride_Text]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text]: en[{0},{1},{2},{3}] != ru[{0},{1},{2}]
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [_Description_Text]
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [_Description_Text]; en тоже пуст (upstream) — не пропуск
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CompilerWarning___Text, GenericInspection__Text, ProductInspection__Text, RefactoringsDeferredRenameActionText, RoslynAnalyzerInspection__Text
   JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UseLegacyPublicApiSurfaceHashingAlgorithm_Text, UseLegacyPublicApiSurfaceHashingAlgorithmSettingDescription
   JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Template_Editable_V2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ
