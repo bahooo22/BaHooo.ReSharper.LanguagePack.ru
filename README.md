@@ -78,6 +78,9 @@ PowerShell), документация и JSON — LF. Без этого кажд
 
 **Файлов перевода:** 243 `.resx`
 **Строк в них:** 33 945 элементов `<data>`, из них 33 229 содержат кириллицу в значении.
+&nbsp;&nbsp;&nbsp;&nbsp;Отчёт `build/i18n-verify-translations.ps1` считает 33 943: два ключа записаны в resx дважды
+&nbsp;&nbsp;&nbsp;&nbsp;(`MustHaveInitToImplementMessage` в Daemon.CSharp и `ConvertPropertyToMethod...` в Intentions.CSharp),
+&nbsp;&nbsp;&nbsp;&nbsp;значения в дублях побайтово совпадают, поэтому словарь на одну пару меньше.
 &nbsp;&nbsp;&nbsp;&nbsp;Считано XML-парсером по детям корня: наивный поиск `<data name=` по тексту файла даёт 34 917,
 &nbsp;&nbsp;&nbsp;&nbsp;потому что в шапке каждого resx лежат 4 примера из XSD-документации.
 **Текущая версия:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
@@ -120,10 +123,11 @@ PowerShell), документация и JSON — LF. Без этого кажд
 - **63 набора — свои (JetBrains.*), и по фактическому числу строковых записей в них:**
   - 13 наборов = 2 892 строки — `JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.*`. Это справочные данные SharePoint, нужные PSI для разбора ASP.NET-разметки, а не текст интерфейса. **Переводить нельзя.**
   - 38 наборов = **0 строк** — пустые контейнеры локализации WinForms/WPF-форм (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`, `AdjustNamespacesPage` и т. п.): текст в таких диалогах зашит в код, resource-механизмом он не локализуется. **Доставывать нечего.**
-  - 12 наборов = **60 строк** — остаток, и он мелкий: `Razor.CSharp.Resources.Texts` (15), `Application.BuildScript.Compile.LicenseTexts` (15), `DotTraceLicenseSupportResources` (5), `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15…Strings` (по 4), `FileLayoutPatternResources` (3), `Unity…AdditionalFileLayoutResources` (2), `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1), `Resources.resources` пакета VS (1). Из этих 60 строк 11 относятся к dotTrace (отдельный продукт, в ReSharper внутри VS не виден), 15 — тексты лицензий, а реальная работа — 34 строки в 8 таблицах, они расписаны в TODO.md.
+  - 12 наборов = **60 строк** — остаток, и он мелкий: `Razor.CSharp.Resources.Texts` (15), `Application.BuildScript.Compile.LicenseTexts` (15), `DotTraceLicenseSupportResources` (5), `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15…Strings` (по 4), `FileLayoutPatternResources` (3), `Unity…AdditionalFileLayoutResources` (2), `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1), `Resources.resources` пакета VS (1). Каждая из 60 строк прочитана из neutral-ресурса DLL, и по содержанию 42 из них переводить нельзя: это тексты EULA и RTF-соглашения (20), шаблоны генерируемого C#-кода Razor (15), XML/XSLT-паттерны и XML-индекс инспекций (6), AHE-токен VS-пакета (1). Переводимых остаётся **18 строк = 9 уникальных фраз**, из них 12 (MSTest) — три копии одного набора, уже переведённого в `…UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx`, а 6 — интерфейс dotTrace, который ставится отдельно. Разбор по строкам — в TODO.md, таблица печатается аудитом.
 
 **Вывод:** «доставать все ресурсы из всех DLL» не нужно. Из 337 наборов локализуемый
-остаток, не покрытый пакетом, — 60 строк в 12 таблицах против 33 229 уже переведённых.
+остаток, не покрытый пакетом, — 9 уникальных переводимых фраз (18 строк в 12 таблицах) против
+33 943 записей в 243 resx пакета.
 Ресурсы, отсутствующие в установке VS (63 наших `.resx`), оставлены намеренно: они
 принадлежат продуктам того же пакета `.resources`-механики (Rider/dotPeek/dotMemory/dotTrace
 Home), которые мы поддерживаем тем же исходником.
@@ -148,7 +152,7 @@ neutral-английским. Это не пропуск перевода, а д
 одному из двух классов, — это реальный пропуск, и он закрывается переводом.
 
 Отдельный частный случай, проверенный замером: ключ `Resource0UsageInlineWillProduceConflicts_Text`
-из `JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings`. Из 215 строк с расхождением
+из `JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings`. Из 214 строк с расхождением
 плейсхолдеров только
 эта одна формально «опасна» (ru ссылается на индекс, которого проверка не нашла в en).
 Нейтральный en-value там буквально `Inlining resource {0, usage} will produce conflicts`, а
