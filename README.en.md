@@ -40,10 +40,20 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 │       ├───DotFiles/
 │       ├───package/
 │       └───build.ps1
-├───build/                      # Build resources
-│   └───resx-hashes.json       # Cache of .resx file hashes
-└───raw-resx-done_ru-RU/        # Source translated .resx files (236 files)
+├───build/                      # Intermediate material and reports
+│   ├───resources/             # .resources produced by ResGen (not in git)
+│   ├───resx-hashes.json       # Cache of .resx file hashes
+│   ├───new-translations-2026.json  # Source of new strings (file + key + en + ru)
+│   ├───i18n-audit.ps1         # Coverage audit: platform DLLs vs our package
+│   └───i18n-coverage-report.txt    # Its output - the numbers of "Resource coverage"
+├───Tools/                      # Downloaded tools (not in git)
+└───raw-resx-done_ru-RU/        # Source translated .resx files (243 files)
 ```
+
+Line endings are pinned by `.gitattributes`: everything is stored with LF in the repository,
+`.resx`/`.ps1`/`.nuspec` check out as CRLF (ResGen and Windows PowerShell consume them),
+docs and JSON stay LF. Without it every clone would get EOL from its own `core.autocrlf`
+setting, and the hash cache would report all 243 files as changed.
 
 **Key files:**
 - `resx-to-resources.ps1` - main build script
@@ -57,30 +67,86 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 
 ## 📊 Project Statistics
 
-**Total translated files:** 236 .resx files  
-**Current version:** 2025.3.0.7  
-**Last update:** December 8, 2025  
-**Total resource size:** ~5,6 MB
+**Translation files:** 243 `.resx`
+**Strings in them:** 33,945 `<data>` elements, 33,229 of them have Cyrillic in the value.
+&nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
+&nbsp;&nbsp;&nbsp;&nbsp;yields 34,917, because the header of every resx carries 4 XSD documentation examples.
+**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
+**Last update:** September 24, 2026
+**Source .resx size:** 7,577,375 bytes
+**Built .resources size:** 5,741,719 bytes
 
-**Key modules:**
-- JetBrains.UI.Resources.Strings.ru-RU.resx (61 KB)
-- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (901 KB)
-- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (605 KB)
-- JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx (167 KB)
+**Largest modules:**
+- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 KB)
+- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (620 KB)
+- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (410 KB)
+- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (282 KB)
+- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (279 KB)
+
+---
+
+## 🧭 Resource coverage
+
+The full answer to "should we translate everything" comes from `build/i18n-audit.ps1`: it
+enumerates the neutral resources (no `*.g.resources`, no satellites) embedded in the DLLs of
+the installed ReSharper platform and matches them against the resource names our package
+provides. The install folder is auto-detected (`ReSharperPlatform*` under
+`Program Files (x86)\JetBrains\Installations` and `%LOCALAPPDATA%`) because its name carries
+an install hash and changes with every platform build. Report: `build/i18n-coverage-report.txt`.
+
+Measured against ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 2026-09-24:
+
+| Metric | Value |
+|---|---|
+| DLLs scanned | 624 (2 native ones failed to load) |
+| Neutral `.resources` in the platform | 337 |
+| **Covered by the package** | **180 of 337** |
+| Not covered | 157 |
+| Our `.resx` absent from this install | 63 (Rider, dotTrace Home, CommandLine, ForTea...) |
+| `.resources` deployed into the platform `i18n` folder | 243 = 243, no differences |
+
+The 157 uncovered resources are not 157 pages of untranslated UI:
+
+- **94 are third-party libraries**: NuGet.* (15), Microsoft.* (45), DevExpress (17),
+  System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. The satellite mechanism does not
+  cover them, and most of them never reach the Visual Studio interface.
+- **63 are JetBrains-owned**; split by the actual number of string records inside them:
+  - 13 resources = 2,892 strings are `...Asp.Resources.Sharepoint.ResourceFiles.*` -
+    SharePoint reference data that PSI uses to parse ASP.NET markup. **Not UI text, must not
+    be translated.**
+  - 38 resources = **0 strings** - empty WinForms/WPF localization containers
+    (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`,
+    `AdjustNamespacesPage`, ...): the text of such dialogs is compiled into code, the resource
+    mechanism cannot localize it. **Nothing to extract.**
+  - 12 resources = **60 strings** - the real remainder: `Razor.CSharp.Resources.Texts` (15),
+    `Application.BuildScript.Compile.LicenseTexts` (15), `DotTraceLicenseSupportResources` (5),
+    `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15...Strings`
+    (4 each), `FileLayoutPatternResources` (3), `Unity...AdditionalFileLayoutResources` (2),
+    `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1),
+    `Resources.resources` of the VS package (1). Of these 60: 11 strings belong to dotTrace
+    (a separate product, not part of ReSharper inside Visual Studio), 15 are license texts,
+    and the remaining 34 in 8 tables are the actual translation work tracked in TODO.md.
+
+**Conclusion:** extracting resources from every DLL is not needed. Of the 337 platform
+resources, the uncovered localizable remainder is 60 strings in 12 tables - against 33,229
+strings already translated. The 63 of our `.resx` that are absent from this VS install are kept
+on purpose: they belong to Rider, dotPeek, dotMemory and dotTrace Home, which this same source
+tree serves.
 
 ---
 
 ## 🚀 Main Build Script
 
-## 🚀 Main Build Script
-
 ### `resx-to-resources.ps1`
 
-> **📅 Last updated:** 2026-03-28  
+> **📅 Last updated:** 2026-09-24  
 > **✨ What's new today:**
+> - ✅ Every `.ps1`/`.psm1` is saved with a UTF-8 BOM: without it Windows PowerShell 5.1 reads the script in the system ANSI codepage, turns Cyrillic into garbage and fails to parse the file
+> - ✅ `build.ps1` and `VersionManager.psm1` read `.nuspec` with an explicit `-Encoding UTF8` (a run under 5.1 used to re-encode the Russian text into mojibake)
+> - ✅ `.nuspec`/`.resx` rewriting goes through `WriteAllText` - `Out-File` appended one blank line per run
 > - ✅ Parallel conversion (`-up`, `-t`, `-Threads`) with auto thread selection
 > - ✅ Auto-download of PowerShell 7 to `./Tools/PWSH7` when needed
-> - ✅ Auto-download of tools (ResGen.exe, nuget.exe) to `./Tools`
+> - ✅ Auto-download of `nuget.exe` to `./Tools/NuGet` (ResGen.exe has no standalone download - the script finds it in the Windows SDK instead)
 > - ✅ New flags: `-AcceptAll/-aa` (CI/CD), `-CleanTools`, `-NoNetwork` (offline)
 > - ✅ Hash history: up to 10 versions in `resx-hashes.history.json`
 > - ✅ Enhanced error details: line/position display + visual `^` indicator
@@ -168,13 +234,13 @@ An intelligent script for managing the build process with change tracking via SH
 **Sample output:**
 ```
 === Checking changes in .resx files ===
-Loaded hashes from cache: 236
+Loaded hashes from cache: 243
 [CHANGED] JetBrains.UI.Resources.Strings.ru-RU.resx
 [NEW] JetBrains.New.Module.ru-RU.resx
 [DELETED] JetBrains.Old.Module.ru-RU.resx
 
 === Change statistics ===
-Total files: 236
+Total files: 243
 Changed: 1
 New: 1
 Deleted: 1
@@ -218,81 +284,6 @@ In interactive prompts, the following inputs are supported:
 
 ---
 
-### `resx-to-resources.ps1`
-
-An intelligent script for managing the build process with change tracking via SHA256 hashes.
-
-#### Intelligent features:
-
-1. **Hash caching** - saves hashes of all .resx files in `build/resx-hashes.json`
-2. **Incremental conversion** - converts only changed files
-3. **Auto-version increment** - automatically updates version when changes are detected
-4. **Conflict checking** - prevents incompatible parameter combinations
-
-#### Parameters:
-
-| Parameter | Alias | Description | Default |
-|-----------|--------|-------------|---------|
-| `-ResxFolder` | - | Folder with source .resx files | `.\raw-resx-done_ru-RU` |
-| `-ResourcesOutput` | - | Folder for generated .resources files | `.\build\resources` |
-| `-NoBuild` | `-nb` | Conversion only, no package building | - |
-| `-BuildOnly` | `-bo` | Package building only, no conversion | - |
-| `-NoResgen` | `-nr` | Skip .resources generation | - |
-| `-SyncVersions` | `-sv` | Synchronize versions | - |
-| `-SkipVersionUpdate` | `-svu` | Disable auto-version increment | - |
-| `-ForceAll` | `-fa` | Force conversion of ALL .resx files | - |
-| `-Help` | `-h` | Show help | - |
-
-#### Usage examples:
-
-```powershell
-# Full process: check → convert → build
-.\resx-to-resources.ps1
-
-# Conversion of changed files only
-.\resx-to-resources.ps1 -NoBuild
-
-# Package building only
-.\resx-to-resources.ps1 -BuildOnly
-
-# CI/CD mode: all files, no version increment
-.\resx-to-resources.ps1 -ForceAll -SkipVersionUpdate -NoBuild
-
-# Version synchronization
-.\resx-to-resources.ps1 -SyncVersions
-
-# Short forms:
-.\resx-to-resources.ps1 -fa -svu -nb    # For CI/CD
-.\resx-to-resources.ps1 -bo             # Build only
-```
-
-#### How change detection works:
-
-1. **First run:** creates `build/resx-hashes.json` with hashes of all files
-2. **Subsequent runs:** compares hashes with saved ones
-3. **Only converts:** new or modified files
-4. **Deleted files:** logged but don't affect build
-
-**Sample output:**
-```
-=== Проверка изменений в .resx файлах ===
-Загружено хэшей из кэша: 404
-[ИЗМЕНЕН] JetBrains.UI.Resources.Strings.ru-RU.resx
-[НОВЫЙ] JetBrains.New.Module.ru-RU.resx
-[УДАЛЕН] JetBrains.Old.Module.ru-RU.resx
-
-=== Статистика изменений ===
-Всего файлов: 405
-Измененных: 1
-Новых: 1
-Удаленных: 1
-Без изменений: 403
-Файлов для конвертации: 2
-Есть изменения: ДА
-```
-
----
-
 ## 🎯 Installation
 
 ### Via NuGet (ReSharper Extension Manager):
@@ -314,12 +305,12 @@ PM> Install-Package BaHooo.ReSharper.I18n.ru
 
 ## 📦 Package Contents
 
-**NuGet package (`BaHooo.ReSharper.I18n.ru.2025.3.0.7.nupkg`):**
+**NuGet package (`BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg`):**
 
 ### Metadata:
 - **ID:** `BaHooo.ReSharper.I18n.ru`
-- **Version:** `2025.3.0.7`
-- **Dependencies:** Wave `[253.0.0]` (ReSharper 2025.3)
+- **Version:** `2026.2.2.1`
+- **Dependencies:** Wave `[262.0.0]` (ReSharper 2026.2, Visual Studio 2026)
 - **License:** CC BY-NC-SA 4.0 (acceptance required)
 
 ### Files:
@@ -440,12 +431,17 @@ Import-Module .\VersionManager.psm1
 
 ## ⚙️ Requirements for Local Build
 
-1. **.NET SDK** - for ResGen to work
-2. **NuGet CLI** (nuget.exe) - for creating packages
+1. **Windows PowerShell 5.1 or PowerShell 7** - both work, but **only with UTF-8 BOM in
+   `.ps1`/`.psm1`**: without the BOM, Windows PowerShell 5.1 reads the script in the system
+   ANSI codepage, Cyrillic strings turn into garbage and the file stops parsing.
+2. **ResGen.exe** - ships only inside the Windows SDK, there is no separate download for it.
+   The script looks for it in `PATH`, then in every
+   `Microsoft SDKs\Windows\v10.0A\bin\NETFX * Tools\` directory, then in `.\Tools\ResGen\`.
+   If it is missing, `.resources` generation is skipped with a warning and the build continues.
+3. **NuGet CLI** (nuget.exe) - for creating packages
    - Install: `winget install Microsoft.NuGet`
    - Or download: https://www.nuget.org/downloads
-3. **PowerShell 5.1+** - for script execution
-4. **ResGen.exe** - usually included with Windows SDK or .NET SDK
+   - Or let the script download it into `.\Tools\NuGet` (`-NoNetwork` disables this)
 
 ---
 
@@ -463,11 +459,15 @@ After successful build, artifacts will be available in folders:
 
 **Version format:** `Year.Major.Minor.Build`
 
-**Example:** `2025.3.0.7`
-- `2025` - release year
-- `3` - major ReSharper version (2025.3)
-- `0` - package minor version
-- `7` - build number (incremented with changes)
+**Example:** `2026.2.2.1`
+- `2026` - release year
+- `2` - major ReSharper version (2026.2)
+- `2` - ReSharper patch (2026.2.2)
+- `1` - build number (incremented with changes)
+
+The first three components must match the supported platform: the package is built for one
+Wave, which is visible in `<dependency id="Wave" version="[262.0.0]" />` of both `.nuspec`
+files. A package built for 253 will not load under platform 262 at all.
 
 **Files where version is updated:**
 - `NugetFolder/BaHooo.ReSharper.I18n.ru.nuspec`
@@ -614,7 +614,10 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2024.11.27** - Anya "Pixel" Zelenkevich was born
 - **2025.11.27** - Project started
 - **2025.12.1** - First build
-- **2025.12.8** - Current release (version 2025.3.0.7)
+- **2025.12.8** - Release 2025.3.0.7
+- **2026.03.28** - Moved to ReSharper 2025.3.3, release 2025.3.3.10
+- **2026.09.24** - Build pipeline revision (script encodings, `.nuspec` corruption under PowerShell 5.1), release 2025.3.3.11
+- **2026.09.24** - Moved to ReSharper 2026.2.2: 507 new strings in 57 tables, wave raised to `[262.0.0]`, package 2026.2.2.1, release 2026.2.2.1 not published yet
 
 ---
 
