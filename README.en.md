@@ -47,13 +47,13 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 │   ├───i18n-audit.ps1         # Coverage audit: platform DLLs vs our package
 │   └───i18n-coverage-report.txt    # Its output - the numbers of "Resource coverage"
 ├───Tools/                      # Downloaded tools (not in git)
-└───raw-resx-done_ru-RU/        # Source translated .resx files (243 files)
+└───raw-resx-done_ru-RU/        # Source translated .resx files (248 files)
 ```
 
 Line endings are pinned by `.gitattributes`: everything is stored with LF in the repository,
 `.resx`/`.ps1`/`.nuspec` check out as CRLF (ResGen and Windows PowerShell consume them),
 docs and JSON stay LF. Without it every clone would get EOL from its own `core.autocrlf`
-setting, and the hash cache would report all 243 files as changed.
+setting, and the hash cache would report all 248 files as changed.
 
 **Key files:**
 - `resx-to-resources.ps1` - main build script
@@ -67,17 +67,17 @@ setting, and the hash cache would report all 243 files as changed.
 
 ## 📊 Project Statistics
 
-**Translation files:** 243 `.resx`
-**Strings in them:** 33,945 `<data>` elements, 33,229 of them have Cyrillic in the value.
-&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 33,943 because two keys are written twice in their
+**Translation files:** 248 `.resx`
+**Strings in them:** 33,963 `<data>` elements, 33,247 of them have Cyrillic in the value.
+&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 33,961 because two keys are written twice in their
 &nbsp;&nbsp;&nbsp;&nbsp;resx (`MustHaveInitToImplementMessage` in Daemon.CSharp and `ConvertPropertyToMethod...` in
 &nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
 &nbsp;&nbsp;&nbsp;&nbsp;yields 34,917, because the header of every resx carries 4 XSD documentation examples.
 **Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
 **Last update:** September 24, 2026
-**Source .resx size:** 7,577,375 bytes
-**Built .resources size:** 5,741,719 bytes
+**Source .resx size:** 7,603,724 bytes
+**Built .resources size:** 5,745,387 bytes
 
 **Largest modules:**
 - JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 KB)
@@ -106,17 +106,17 @@ Measured against ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 2026-09-
 |---|---|
 | DLLs scanned | 624 (2 native ones failed to load) |
 | Neutral `.resources` in the platform | 337 |
-| **Covered by the package** | **180 of 337** |
-| Not covered | 157 |
+| **Covered by the package** | **185 of 337** |
+| Not covered | 152 |
 | Our `.resx` absent from this install | 63 (Rider, dotTrace Home, CommandLine, ForTea...) |
-| `.resources` deployed into the platform `i18n` folder | 243 = 243, no differences |
+| `.resources` deployed into the platform `i18n` folder | 248 = 248, no differences |
 
-The 157 uncovered resources are not 157 pages of untranslated UI:
+The 152 uncovered resources are not 152 pages of untranslated UI:
 
 - **94 are third-party libraries**: NuGet.* (15), Microsoft.* (45), DevExpress (17),
   System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. The satellite mechanism does not
   cover them, and most of them never reach the Visual Studio interface.
-- **63 are JetBrains-owned**; split by the actual number of string records inside them:
+- **58 are JetBrains-owned**; split by the actual number of string records inside them:
   - 13 resources = 2,892 strings are `...Asp.Resources.Sharepoint.ResourceFiles.*` -
     SharePoint reference data that PSI uses to parse ASP.NET markup. **Not UI text, must not
     be translated.**
@@ -124,24 +124,25 @@ The 157 uncovered resources are not 157 pages of untranslated UI:
     (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`,
     `AdjustNamespacesPage`, ...): the text of such dialogs is compiled into code, the resource
     mechanism cannot localize it. **Nothing to extract.**
-  - 12 resources = **60 strings** - the real remainder: `Razor.CSharp.Resources.Texts` (15),
-    `Application.BuildScript.Compile.LicenseTexts` (15), `DotTraceLicenseSupportResources` (5),
-    `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15...Strings`
-    (4 each), `FileLayoutPatternResources` (3), `Unity...AdditionalFileLayoutResources` (2),
-    `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1),
-    `Resources.resources` of the VS package (1). Every one of the 60 values was read back out of
-    the neutral resource in the platform DLL, and by content 42 of them cannot be translated:
-    EULA and RTF agreement texts (20), Razor generated-code templates (15), XML/XSLT layout
-    patterns and the XML inspection index (6), and one AHE token in the VS package (1). That
-    leaves **18 translatable strings = 9 unique phrases**: 12 of them are three copies of one
-    MSTest set whose Russian text already exists in
-    `...UnitTestProvider.MSTest11.Resources.Strings.ru-RU.resx`, and 6 belong to the dotTrace UI,
-    which is installed separately. Row-by-row breakdown is in TODO.md; the audit script now
-    prints the table itself.
+  - 7 resources = **42 strings**, none of them translatable by content - every value was read
+    back out of the neutral resource in the platform DLL: `Razor.CSharp.Resources.Texts` (15)
+    are generated-C#-code templates, `Application.BuildScript.Compile.LicenseTexts` (15) and
+    `DotTraceLicenseSupportResources` (5) are EULA/RTF agreement texts, XML/XSLT layout
+    patterns and the XML inspection index (6), and one AHE token in the VS package (1).
+  - The translatable remainder of **12 resources = 60 strings** was closed on 2026-09-24:
+    12 strings are three copies of the `UnitTestProvider.MSTest12/14/15...Strings` sets (4 each),
+    translated the same way as the already covered `...MSTest11.Resources.Strings.ru-RU.resx`;
+    6 strings are the dotTrace UI: `DotTrace.Ide.Core.Interface.resources.Resources` (2) and
+    `dotTraceInstant.ViewModel.Interface.resources.Resources` (4: "Delete", "Delete session?",
+    "Stop"). Key parity with the neutral resource was verified by reading it back from the DLL
+    (2==2, 4==4). Row-by-row breakdown is in TODO.md; the audit script now prints the table itself.
 
 **Conclusion:** extracting resources from every DLL is not needed. Of the 337 platform
-resources, the uncovered localizable remainder is 9 unique translatable phrases (18 strings in
-12 tables) - against 33,943 records in the 243 resx files of the pack. The 63 of our `.resx` that are absent from this VS install are kept
+resources no translatable strings are left: the localizable remainder is fully closed, and what
+stays uncovered is untranslated by nature (SharePoint reference data, licenses, generated-code
+templates, empty form containers) - against 33,961 records in the 248 resx files of the pack.
+
+The 63 of our `.resx` that are absent from this VS install are kept
 on purpose: they belong to Rider, dotPeek, dotMemory and dotTrace Home, which this same source
 tree serves.
 
@@ -276,17 +277,17 @@ An intelligent script for managing the build process with change tracking via SH
 **Sample output:**
 ```
 === Checking changes in .resx files ===
-Loaded hashes from cache: 243
+Loaded hashes from cache: 248
 [CHANGED] JetBrains.UI.Resources.Strings.ru-RU.resx
 [NEW] JetBrains.New.Module.ru-RU.resx
 [DELETED] JetBrains.Old.Module.ru-RU.resx
 
 === Change statistics ===
-Total files: 243
+Total files: 248
 Changed: 1
 New: 1
 Deleted: 1
-Unchanged: 233
+Unchanged: 245
 Files to convert: 2
 Has changes: YES
 
