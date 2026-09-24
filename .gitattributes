@@ -1,0 +1,61 @@
+#
+# Нормализация окончаний строк и кодировок.
+#
+# Конфигурация машины разработчика (core.autocrlf=true) не переносится в репозиторий,
+# поэтому правила фиксации EOL должны лежать здесь: иначе у любого, кто клонирует
+# репозиторий с autocrlf=input/false, рабочее дерево resx/ps1 приходит с LF, а
+# кэш build/resx-hashes.json считает все 243 файла изменёнными.
+#
+# Все blob в истории уже хранятся с LF (замерено: 243/243 .resx, 14/14 .ps1, 2/2 .nuspec).
+# Значит этот файл меняет только правила checkout/add — содержимое индекса он не трогает
+# (проверка: git add --renormalize . не даёт ни одного изменения).
+#
+
+* text=auto eol=lf
+
+# Текстовые файлы, которые расходуются Windows-инструментовкой (ResGen.exe, MSBuild,
+# Windows PowerShell 5.1) и постоянно правятся локально: в рабочем дереве — CRLF,
+# в репозитории — LF.
+*.resx       text eol=crlf
+*.nuspec     text eol=crlf
+*.ps1        text eol=crlf
+*.psm1       text eol=crlf
+*.cmd        text eol=crlf
+*.bat        text eol=crlf
+
+# Документация и машиночитаемые отчёты/данные: LF в обе стороны, чтобы diff'ы
+# в GitHub Reads и в python-парсерах были стабильны.
+*.md         text eol=lf
+*.txt        text eol=lf
+*.json       text eol=lf
+*.xml        text eol=lf
+*.yml        text eol=lf
+*.yaml       text eol=lf
+.gitignore   text eol=lf
+.gitattributes text eol=lf
+
+# Рабочие таблицы перевода выгружаются в TSV/CSV — фиксированный CRLF,
+# Excel на Windows иначе не распознаёт колонки.
+*.csv        text eol=crlf
+*.tsv        text eol=crlf
+
+# Бинарные артефакты: ни конверсии EOL, ни текстового поиска в diff.
+*.dll        binary
+*.exe        binary
+*.pdb        binary
+*.nupkg      binary
+*.snupkg     binary
+*.resources  binary
+*.dat        binary
+*.zip        binary
+*.png        binary
+*.jpg        binary
+*.jpeg       binary
+*.gif        binary
+*.ico        binary
+*.ttf        binary
+*.otf        binary
+
+# Специально БЕЗ working-tree-encoding: 7 .resx уже содержат UTF-8 BOM, а
+# working-tree-encoding=UTF-8 добавлял бы второй BOM при каждом checkout и портил
+# разбор XML у ResGen. BOM/его отсутствие — вопрос самого файла, а не EOL.

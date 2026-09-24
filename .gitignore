@@ -477,3 +477,8 @@ np++_session
 .github/workflows/pack-and-release.yml.txt
 MarketplaceFolder/BaHooo.ReSharper.I18n.ru/BaHooo.ReSharper.I18n.ru.nuspec.txt
 deepseek_powershell_20260107_7355bb.ps1
+
+# Каталог скачиваемых инструментов ($Config.ToolsDir в resx-to-resources.ps1):
+# nuget.exe, ResGen, портативный PowerShell 7 (Tools/PWSH7, ~13 МБ бинарей).
+# Скрипт сам наполняет его при сборке и чистит по -CleanTools.
+Tools/
