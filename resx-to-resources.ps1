@@ -597,6 +597,22 @@ function Find-ResGenInSdkPaths {
             return $path
         }
     }
+    # Резерв: имя каталога 'NETFX x.y Tools' меняется от релиза к релизу, поэтому
+    # обходим весь Windows SDK, если ни один из зафиксированных путей не подошёл.
+    $roots = @(
+        "${env:ProgramFiles(x86)}\Microsoft SDKs\Windows",
+        "$env:ProgramFiles\Microsoft SDKs\Windows"
+    )
+    foreach ($root in $roots) {
+        if (-not (Test-Path -LiteralPath $root)) { continue }
+        $hit = Get-ChildItem -LiteralPath $root -Filter 'ResGen.exe' -Recurse -File -ErrorAction SilentlyContinue |
+            Sort-Object -Property DirectoryName -Descending |
+            Select-Object -First 1
+        if ($hit) {
+            Write-Log "Найден в Windows SDK: $($hit.FullName)" 'Gray'
+            return $hit.FullName
+        }
+    }
     return $null
 }
 
@@ -618,7 +634,7 @@ function Find-ToolInToolsFolder {
 
 <#
 .SYNOPSIS
-    Полный цикл поиска/загрузки ResGen.exe
+    Полный цикл поиска ResGen.exe (PATH -> Windows SDK -> .\Tools\ResGen)
 #>
 function Resolve-ResGenPath {
     [CmdletBinding()]
@@ -630,16 +646,10 @@ function Resolve-ResGenPath {
     if ($path) { return $path }
     $path = Find-ToolInToolsFolder -ToolName 'ResGen.exe' -SubFolder 'ResGen'
     if ($path) { return $path }
-    Write-Log "ResGen.exe не найден, требуется загрузка" 'Yellow'
-    if ($Script:Config.NoNetwork) {
-        Write-Log "[-NoNetwork] Пропускаем загрузку ResGen.exe" 'Yellow'
-        return $null
-    }
-    $destDir = Join-Path $Script:Config.ToolsDir 'ResGen'
-    $downloadUrl = 'https://download.microsoft.com/download/5/5/1/5515a3f6-8e8f-4e8e-8e8f-8e8f8e8f8e8f/ResGen.exe'
-    if (Invoke-FileDownload -Name 'ResGen.exe' -Url $downloadUrl -DestinationDir $destDir -DestinationFile 'ResGen.exe' -SizeMB 1) {
-        return (Join-Path $destDir 'ResGen.exe')
-    }
+    # Скачивания ResGen.exe здесь нет намеренно: исполняемый файл поставляется только
+    # в составе Windows SDK, отдельной загрузки Microsoft не существует.
+    Write-Log "ResGen.exe не найден в PATH, в Windows SDK и в $($Script:Config.ToolsDir)\ResGen" 'Yellow'
+    Write-Log "Получить ResGen.exe: Visual Studio Installer -> Отдельные компоненты -> SDK для Windows; либо положить файл вручную в .\Tools\ResGen\ResGen.exe. Без ResGen генерация .resources пропускается (-NoResgen / -nr)." 'Gray'
     return $null
 }
 
