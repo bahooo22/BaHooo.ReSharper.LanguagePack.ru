@@ -455,7 +455,7 @@ Import-Module .\VersionManager.psm1
 
 ## ⚙️ Требования для локальной сборки
 
-1. **Windows PowerShell 5.1 или PowerShell 7** - для выполнения скриптов. Работают оба, но **только при UTF-8 BOM в `.ps1`/`.psm1`**: без него Windows PowerShell 5.1 читает скрипт в системной ANSI-кодировке, русские строки превращаются в мусор и файл не парсится.
+1. **PowerShell 7 (`pwsh`) — рекомендуемый интерпретатор.** Скрипты совместимы и с Windows PowerShell 5.1, но **только при UTF-8 BOM в `.ps1`/`.psm1`**: без него 5.1 читает файл в системной ANSI-кодировке, русские строки превращаются в мусор, и скрипт не парсится. Отдельно про параллельный прогон (`-up` / `-Threads N` в `resx-to-resources.ps1`): под 5.1 функция `Ensure-PowerShell7Available` (строки 717-754) скачивает portable PowerShell 7 (`PowerShell-*-win-x64.zip`, 101 МБ для 7.6.6) в `Tools\PWSH7\` и перезапускает скрипт, поэтому запуск сразу под `pwsh 7` — быстрее и без обращения к сети.
 2. **ResGen.exe** - только в составе Windows SDK (отдельной загрузки нет). Скрипт ищет его в `PATH`, затем в `Microsoft SDKs\Windows\v10.0A\bin\NETFX * Tools\`, затем в `.\Tools\ResGen\`. Если не нашёл — генерация `.resources` пропускается с предупреждением, а сборка продолжается.
 3. **NuGet CLI** (nuget.exe) - для создания пакетов
    - Установить: `winget install Microsoft.NuGet` или скачать с https://www.nuget.org/downloads
