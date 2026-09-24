@@ -76,10 +76,16 @@ function Get-OemEncoding {
 
 # Запускает дочерний скрипт через -File (только так дочерний `exit N` честно долетает
 # до кода возврата: через -Command любая non-terminating ошибка обнуляет его до 1),
-# а перенаправленный поток декодирует в OEM-кодовой странице. Стрим читается событиями
-# процесса: отдельный поток под StandardError не поднимается (scriptblock-делегат теряет
-# PS-скоуп), а события с SynchronizingObject маршалируются в UI-поток и без окна
-# обрабатываются в паузах между cmdlet'ами. Возвращает @{ Exit; Lines }.
+# а перенаправленный поток декодирует в OEM-кодовой странице.
+#
+# ВАЖНО: стриминг нельзя делать ни через Register-ObjectEvent -Action (обработчики
+# PS-событий исполняются только когда движок PowerShell свободен, а во время модального
+# ShowDialog он занят внутри обработчика клика; DoEvents прокачивает только Win32-
+# сообщения), ни через .NET-делегат из scriptblock на add_OutputDataReceived (делегат
+# падает на пул-потоке с «нет доступного runspace», и это unreraised-exception убивает
+# процесс). Единственный безопасный вариант — UI-поток сам опрашивает задачи
+# StandardOutput/StandardError.ReadLineAsync() в цикле ожидания и печатает готовые
+# строки. Возвращает @{ Exit; Lines }.
 function Invoke-Tool {
     param(
         [string]$File,
@@ -100,51 +106,47 @@ function Invoke-Tool {
     $si.StandardOutputEncoding = $enc
     $si.StandardErrorEncoding  = $enc
     $p.StartInfo = $si
-    if ($Log) { $p.SynchronizingObject = $Log }
 
-    $md = @{ Lines = (New-Object System.Collections.Generic.List[string]); Log = $Log }
-    $outId = 'i18nstudio_out_' + [guid]::NewGuid().ToString('N')
-    $errId = 'i18nstudio_err_' + [guid]::NewGuid().ToString('N')
-    Register-ObjectEvent -InputObject $p -EventName OutputDataReceived -SourceId $outId -MessageData $md -Action {
-        if ($null -ne $EventArgs.Data) {
-            $d = $Event.MessageData
-            $d.Lines.Add($EventArgs.Data)
-            if ($d.Log) {
-                $d.Log.AppendText($EventArgs.Data + [Environment]::NewLine)
-                $d.Log.SelectionStart = $d.Log.TextLength
-                $d.Log.ScrollToCaret()
-                [System.Windows.Forms.Application]::DoEvents()
-            }
+    $lines = New-Object System.Collections.Generic.List[string]
+    $emit = {
+        param([bool]$IsErr, [string]$Text)
+        $prefixed = if ($IsErr) { '  ! ' + $Text } else { $Text }
+        $lines.Add($prefixed)
+        if ($Log) {
+            $Log.AppendText($prefixed + [Environment]::NewLine)
+            $Log.SelectionStart = $Log.TextLength
+            $Log.ScrollToCaret()
         }
-    } | Out-Null
-    Register-ObjectEvent -InputObject $p -EventName ErrorDataReceived -SourceId $errId -MessageData $md -Action {
-        if ($null -ne $EventArgs.Data) {
-            $d = $Event.MessageData
-            $d.Lines.Add('  ! ' + $EventArgs.Data)
-            if ($d.Log) {
-                $d.Log.AppendText('  ! ' + $EventArgs.Data + [Environment]::NewLine)
-                $d.Log.SelectionStart = $d.Log.TextLength
-                $d.Log.ScrollToCaret()
-                [System.Windows.Forms.Application]::DoEvents()
-            }
-        }
-    } | Out-Null
+    }
 
     [void]$p.Start()
-    $p.BeginOutputReadLine()
-    $p.BeginErrorReadLine()
-
-    while (-not $p.WaitForExit(50)) {
+    $so = $p.StandardOutput
+    $se = $p.StandardError
+    $tOut = $null; $tErr = $null
+    $outEof = $false; $errEof = $false
+    while (-not ($outEof -and $errEof)) {
+        if (-not $outEof) {
+            if ($null -eq $tOut) { $tOut = $so.ReadLineAsync() }
+            if ($tOut.Wait(0)) {
+                $line = $tOut.Result; $tOut = $null
+                if ($null -eq $line) { $outEof = $true } else { & $emit $false $line }
+            }
+        }
+        if (-not $errEof) {
+            if ($null -eq $tErr) { $tErr = $se.ReadLineAsync() }
+            if ($tErr.Wait(0)) {
+                $line = $tErr.Result; $tErr = $null
+                if ($null -eq $line) { $errEof = $true } else { & $emit $true $line }
+            }
+        }
         if ($Log) { [System.Windows.Forms.Application]::DoEvents() }
-        else { Start-Sleep -Milliseconds 20 }
+        Start-Sleep -Milliseconds 20
     }
     $p.WaitForExit()
 
-    Unregister-Event -SourceId $outId -ErrorAction SilentlyContinue
-    Unregister-Event -SourceId $errId -ErrorAction SilentlyContinue
-    [void]$md.Lines.Add(('[код выхода: {0}]' -f $p.ExitCode))
+    [void]$lines.Add(('[код выхода: {0}]' -f $p.ExitCode))
     if ($Log) { $Log.AppendText('[код выхода: ' + $p.ExitCode + ']' + [Environment]::NewLine) }
-    return [pscustomobject]@{ Exit = $p.ExitCode; Lines = $md.Lines }
+    return [pscustomobject]@{ Exit = $p.ExitCode; Lines = $lines }
 }
 
 function Invoke-Deploy {
