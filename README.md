@@ -40,16 +40,29 @@
 │   └───BaHooo.ReSharper.I18n.ru/
 │       ├───DotFiles/
 │       ├───package/
-│       └───build.ps1
+│       ├───build.ps1
+│       └───BaHooo.ReSharper.I18n.ru.nuspec
 ├───NugetFolder/                # Пакет для NuGet
 │   └───BaHooo.ReSharper.I18n.ru/
 │       ├───DotFiles/
 │       ├───package/
-│       └───build.ps1
-├───build/                      # Ресурсы для сборки
-│   └───resx-hashes.json       # Кэш хэшей .resx файлов
-└───raw-resx-done_ru-RU/        # Исходные переведенные файлы .resx (236 файлов)
+│       ├───build.ps1
+│       └───BaHooo.ReSharper.I18n.ru.nuspec
+├───build/                      # Промежуточные материалы и отчёты
+│   ├───resources/             # .resources, собранные ResGen (в git не попадает)
+│   ├───resx-hashes.json       # Кэш хэшей .resx файлов
+│   ├───new-translations-2026.json  # Источник новых строк_version_ (ключ + en + ru)
+│   ├───i18n-audit.ps1         # Аудит покрытия: DLL платформы vs наш пакет
+│   └───i18n-coverage-report.txt    # Его вывод — цифры раздела «Покрытие ресурсов»
+├───Tools/                      # Скачиваемые инструменты (в git не попадает)
+└───raw-resx-done_ru-RU/        # Исходные переведенные файлы .resx (243 файла)
 ```
+
+Окончания строк зафиксированы в `.gitattributes`: в репозитории всё хранится в LF,
+`.resx`/`.ps1`/`.nuspec` в рабочем дереве — CRLF (их расходуют ResGen и Windows
+PowerShell), документация и JSON — LF. Без этого каждый, кто клонирует репозиторий,
+получал бы EOL по своей настройке `core.autocrlf`, и кэш хэшей считал бы все 243 файла
+изменёнными.
 
 **Основные файлы:**
 - `resx-to-resources.ps1` - основной скрипт сборки
@@ -63,41 +76,57 @@
 
 ## 📊 Статистика проекта
 
-**Всего переведенных файлов:** 236 файлов .resx  
-**Текущая версия:** 2025.3.3.11  
-**Последнее обновление:** 24 сентября 2026 года  
-**Размер исходных .resx:** 7 387 283 байт  
-**Общий размер .resources:** 5 616 149 Байт
+**Файлов перевода:** 243 `.resx`
+**Строк в них:** 33 945 элементов `<data>`, из них 33 229 содержат кириллицу в значении.
+&nbsp;&nbsp;&nbsp;&nbsp;Считано XML-парсером по детям корня: наивный поиск `<data name=` по тексту файла даёт 34 917,
+&nbsp;&nbsp;&nbsp;&nbsp;потому что в шапке каждого resx лежат 4 примера из XSD-документации.
+**Текущая версия:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
+**Последнее обновление:** 24 сентября 2026 года
+**Размер исходных .resx:** 7 577 375 байт
+**Общий размер .resources:** 5 741 719 байт
 
-**Ключевые модули:**
-- JetBrains.UI.Resources.Strings.ru-RU.resx (61 КБ)
-- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (901 КБ)
-- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (605 КБ)
-- JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx (167 КБ)
+**Крупнейшие модули:**
+- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 КБ)
+- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (620 КБ)
+- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (410 КБ)
+- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (282 КБ)
+- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (279 КБ)
 
 ---
 
 ## 🧭 Покрытие ресурсов
 
-Аудит против установленной в VS платформы ReSharper (`ReSharperPlatformVs18_*`, 3803 сборки, имена внедрённых `.resources` читались из метаданных PE):
+Полный ответ на вопрос «надо ли переводить всё» даёт `build/i18n-audit.ps1`: он берёт
+все neutral-ресурсы (без `*.g.resources` и без сателлитов) из DLL установленной
+платформы ReSharper и сверяет их с именами, которые покрывает наш пакет. Каталог
+установки ищется сам (`ReSharperPlatform*` в `Program Files (x86)\JetBrains\Installations`
+и в `%LOCALAPPDATA%`), потому что имя папки содержит хэш установки и меняется при каждом
+переходе на новый билд. Отчёт — `build/i18n-coverage-report.txt`.
+
+Замер против ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 24.09.2026:
 
 | Показатель | Значение |
 |---|---|
-| Наборов ресурсов в платформе (без BAML `*.g`) | 1081 |
-| …с корнем `JetBrains.*` / `ReSharper.*` | 247 |
-| **Переведено нами** | **173 из 247** |
-| Не переведено | 74 |
-| Наших `.resx`, которых нет в платформе VS | 61 (Rider / dotTrace / dotPeek / dotMemory) |
+| DLL просканировано | 624 (загрузить не удалось 2 нативные) |
+| Neutral `.resources` в платформе | 337 |
+| **Покрыто пакетом** | **180 из 337** |
+| Не покрыто | 157 |
+| `.resx` пакета, которых нет в этой установке | 63 (Rider, dotTrace Home, CommandLine, ForTea…) |
+| Задеплоено `.resources` в `i18n` установки | 243 = 243, расхождений нет |
 
-Разбор 74 пробелов по фактическому числу строк в наборах:
+157 непокрытых — это не «непереведённые строки». Разложение:
 
-- **37 наборов содержат 0 строк** — это пустые контейнеры локализации WinForms/WPF-форм (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `EditUserRuleForm`, `ProfileNameDialog`, `AdjustNamespacesPage` и др.). Текст в таких диалогах зашит в код, resource-механизмом он не локализуется — доставывать нечего.
-- **18 наборов = 9857 строк** — `JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.*`. Это данные чужих SharePoint-ресурсов (нужны PSI для разбора `.resx` в ASP.NET-проектах), а не интерфейс ReSharper. Переводить нельзя.
-- **19 наборов = 293 строки** — реальные пропуски. К интерфейсу VS относятся примерно 10 из них (~230 строк):
-  `JetBrains.Application.Resources.VsResources` (81), `JetBrains.UI.Resources.StringTable` (56) и его дубль `JetBrains.Application.Res.StringTable` (56), `JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts` (15), `JetBrains.Application.BuildScript.Compile.LicenseTexts` (15), `JetBrains.VsIntegration.Resources.SR` (4), `JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources` (3), `JetBrains.SignatureVerifier.Messages` (5), `JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources` (1).
-- Остальные 834 набора — сторонние библиотеки (Autofac, Actipro, yWorks, DevExpress) и строки BCL/Visual Studio, к интерфейсу ReSharper отношения не имеют.
+- **94 набора — чужие библиотеки**: NuGet.* (15), Microsoft.* (45), DevExpress (17), System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. Механизм сателлитов ReSharper их не перекрывает, и в интерфейс VS они почти не попадают.
+- **63 набора — свои (JetBrains.*), и по фактическому числу строковых записей в них:**
+  - 13 наборов = 2 892 строки — `JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.*`. Это справочные данные SharePoint, нужные PSI для разбора ASP.NET-разметки, а не текст интерфейса. **Переводить нельзя.**
+  - 38 наборов = **0 строк** — пустые контейнеры локализации WinForms/WPF-форм (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`, `AdjustNamespacesPage` и т. п.): текст в таких диалогах зашит в код, resource-механизмом он не локализуется. **Доставывать нечего.**
+  - 12 наборов = **60 строк** — остаток, и он мелкий: `Razor.CSharp.Resources.Texts` (15), `Application.BuildScript.Compile.LicenseTexts` (15), `DotTraceLicenseSupportResources` (5), `dotTraceInstant.ViewModel.Interface.Resources` (4), `UnitTestProvider.MSTest12/14/15…Strings` (по 4), `FileLayoutPatternResources` (3), `Unity…AdditionalFileLayoutResources` (2), `DotTrace.Ide.Core.Interface.Resources` (2), `CodeInspectionWikiResources` (1), `Resources.resources` пакета VS (1). Из этих 60 строк 11 относятся к dotTrace (отдельный продукт, в ReSharper внутри VS не виден), 15 — тексты лицензий, а реальная работа — 34 строки в 8 таблицах, они расписаны в TODO.md.
 
-**Вывод:** «доставать всё из всех DLL» не нужно — из 1081 набора локализуемы и не покрыты только ~230 строк интерфейса. Закрыть их дешевле, чем поддерживать полные 1081.
+**Вывод:** «доставать все ресурсы из всех DLL» не нужно. Из 337 наборов локализуемый
+остаток, не покрытый пакетом, — 60 строк в 12 таблицах против 33 229 уже переведённых.
+Ресурсы, отсутствующие в установке VS (63 наших `.resx`), оставлены намеренно: они
+принадлежат продуктам того же пакета `.resources`-механики (Rider/dotPeek/dotMemory/dotTrace
+Home), которые мы поддерживаем тем же исходником.
 
 ---
 
@@ -112,7 +141,7 @@
 > - ✅ Перезапись `.nuspec`/`.resx` ведётся через `WriteAllText` — `Out-File` дописывал пустую строку в конец на каждый запуск
 > - ✅ Параллельная конвертация (`-up`, `-t`, `-Threads`) с авто-выбором потоков
 > - ✅ Авто-загрузка PowerShell 7 в `./Tools/PWSH7` при необходимости
-> - ✅ Авто-загрузка инструментов (ResGen.exe, nuget.exe) в `./Tools`
+> - ✅ Авто-загрузка `nuget.exe` в `./Tools/NuGet` (ResGen.exe скачивать не откуда: он приходит только с Windows SDK, скрипт находит его там)
 > - ✅ Новые флаги: `-AcceptAll/-aa` (CI/CD), `-CleanTools`, `-NoNetwork` (оффлайн)
 > - ✅ История хэшей: до 10 версий в `resx-hashes.history.json`
 > - ✅ Детализация ошибок: показ строки/позиции + визуальный указатель `^`
@@ -200,13 +229,13 @@
 **Пример вывода:**
 ```
 === Проверка изменений в .resx файлах ===
-Загружено хэшей из кэша: 236
+Загружено хэшей из кэша: 243
 [ИЗМЕНЕН] JetBrains.UI.Resources.Strings.ru-RU.resx
 [НОВЫЙ] JetBrains.New.Module.ru-RU.resx
 [УДАЛЕН] JetBrains.Old.Module.ru-RU.resx
 
 === Статистика изменений ===
-Всего файлов: 236
+Всего файлов: 243
 Измененных: 1
 Новых: 1
 Удаленных: 1
@@ -271,12 +300,12 @@ PM> Install-Package BaHooo.ReSharper.I18n.ru
 
 ## 📦 Содержимое пакета
 
-**NuGet пакет (`BaHooo.ReSharper.I18n.ru.2025.3.3.11.nupkg`):**
+**NuGet пакет (`BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg`):**
 
 ### Метаданные:
 - **ID:** `BaHooo.ReSharper.I18n.ru`
-- **Версия:** `2025.3.3.11`
-- **Зависимости:** Wave `[253.0.0]` (ReSharper 2025.3)
+- **Версия:** `2026.2.2.1`
+- **Зависимости:** Wave `[262.0.0]` (ReSharper 2026.2, Visual Studio 2026)
 - **Лицензия:** CC BY-NC-SA 4.0 (требуется принятие)
 
 ### Файлы:
@@ -363,7 +392,7 @@ Import-Module .\VersionManager.psm1
 - Определяются измененные/новые/удаленные файлы
 
 ### Этап 2: Управление версиями
-- При изменениях: инкрементируется версия (2025.3.0.4 → 2025.3.0.5)
+- При изменениях: инкрементируется последняя компонента (2026.2.2.1 → 2026.2.2.2)
 - Обновляются .nuspec файлы
 - Обновляются .resx файлы
 
@@ -397,12 +426,12 @@ Import-Module .\VersionManager.psm1
 
 ## ⚙️ Требования для локальной сборки
 
-1. **.NET SDK** - для работы ResGen
-2. **NuGet CLI** (nuget.exe) - для создания пакетов
-   - Установить: `winget install Microsoft.NuGet`
-   - Или скачать: https://www.nuget.org/downloads
-3. **PowerShell** - для выполнения скриптов. Работают и 5.1 (`powershell`), и 7 (`pwsh`), но **только при UTF-8 BOM в `.ps1`/`.psm1`**: без него Windows PowerShell 5.1 читает скрипт в системной ANSI-кодировке, русские строки превращаются в мусор и файл не парсится.
-4. **ResGen.exe** - обычно входит в состав Windows SDK или .NET SDK
+1. **Windows PowerShell 5.1 или PowerShell 7** - для выполнения скриптов. Работают оба, но **только при UTF-8 BOM в `.ps1`/`.psm1`**: без него Windows PowerShell 5.1 читает скрипт в системной ANSI-кодировке, русские строки превращаются в мусор и файл не парсится.
+2. **ResGen.exe** - только в составе Windows SDK (отдельной загрузки нет). Скрипт ищет его в `PATH`, затем в `Microsoft SDKs\Windows\v10.0A\bin\NETFX * Tools\`, затем в `.\Tools\ResGen\`. Если не нашёл — генерация `.resources` пропускается с предупреждением, а сборка продолжается.
+3. **NuGet CLI** (nuget.exe) - для создания пакетов
+   - Установить: `winget install Microsoft.NuGet` или скачать с https://www.nuget.org/downloads
+   - Или скрипт скачает его сам в каталог Tools\NuGet (отключается флагом -NoNetwork)
+4. **.NET SDK** - не требуется: ResGen берётся из Windows SDK, а `dotnet` в пайплайне не участвует
 
 ---
 
@@ -420,11 +449,15 @@ Import-Module .\VersionManager.psm1
 
 **Формат версии:** `ГГГГ.Мажор.Патч.Билд` — четыре компонента, где первые три повторяют версию ReSharper
 
-**Пример:** `2025.3.3.11`
-- `2025` - год релиза
-- `3` - мажорная версия ReSharper (2025.3)
-- `3` - патч ReSharper (2025.3.3)
-- `11` - номер сборки (инкрементируется при изменениях)
+**Пример:** `2026.2.2.1`
+- `2026` - год релиза
+- `2` - мажорная версия ReSharper (2026.2)
+- `2` - патч ReSharper (2026.2.2)
+- `1` - номер сборки (инкрементируется при изменениях)
+
+Версии первых трёх компонент обязаны соответствовать поддерживаемой платформе: пакет
+собирается под конкретный Wave, и расхождение видно в `<dependency id="Wave" version="[262.0.0]" />`
+обаих `.nuspec`. Пакет, собранный под 253, под платформой 262 просто не загрузится.
 
 **Файлы, где обновляется версия:**
 - `NugetFolder/BaHooo.ReSharper.I18n.ru.nuspec`
@@ -501,11 +534,13 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
    # и добавьте в PATH
    ```
 
-2. **"ResGen not found"**
+2. **"ResGen.exe не найден"**
    ```powershell
-   # Установите Windows SDK или .NET SDK
-   # ResGen обычно находится в:
-   # C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\
+   # Отдельной загрузки ResGen.exe нет — он приходит только с Windows SDK.
+   # Visual Studio Installer -> Отдельные компоненты -> SDK для Windows
+   # Проверить наличие:
+   Test-Path 'C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8.1 Tools\ResGen.exe'
+   # Скрипт ищет ResGen в PATH, во всех каталогах Windows SDK и в .\Tools\ResGen\
    ```
 
 3. **"Permission denied"**
@@ -574,6 +609,7 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2025.12.8** - Релиз 2025.3.0.7
 - **2026.03.28** - Переход на ReSharper 2025.3.3, релиз 2025.3.3.10
 - **2026.09.24** - Ревизия пайплайна (кодировки скриптов, порча `.nuspec` при сборке в PowerShell 5.1), сборка 2025.3.3.11
+- **2026.09.24** - Переход на ReSharper 2026.2.2: 507 новых строк в 57 таблицах, wave поднят до `[262.0.0]`, перезаливка перевода после mojibake-сбора, пакет `2026.2.2.1`
 
 ---
 
