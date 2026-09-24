@@ -4,7 +4,12 @@
 # Отчёт: build/i18n-translation-report.txt
 #requires -Version 5
 param(
-    [string]$InstallDir = 'G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025',
+    # Каталог установки определялся раньше константой, и эта константа уже успела протухнуть:
+    # в файле лежал путь G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025,
+    # который после обновления платформы перестал существовать, и проверка падала с
+    # «не удается найти путь». Теперь тот же автопоиск, что в i18n-audit.ps1: обе сверки
+    # обязаны смотреть в одну и ту же установку, иначе их числа несопоставимы.
+    [string]$InstallDir,
     [string]$ResxFolder,
     [string]$ReportPath
 )
@@ -12,6 +17,22 @@ param(
 $ErrorActionPreference = 'Stop'
 Add-Type -AssemblyName System.Windows.Forms
 
+function Find-LatestReSharperInstall {
+    $roots = @(
+        (Join-Path ${env:ProgramFiles(x86)} 'JetBrains\Installations'),
+        "$env:LOCALAPPDATA\JetBrains\Installations"
+    ) | Where-Object { $_ -and (Test-Path -LiteralPath $_) }
+    $candidates = foreach ($root in $roots) {
+        Get-ChildItem -LiteralPath $root -Directory -Filter 'ReSharperPlatform*' -ErrorAction SilentlyContinue
+    }
+    $latest = $candidates | Sort-Object LastWriteTime -Descending | Select-Object -First 1
+    if (-not $latest) {
+        throw "Каталог установки ReSharper не найден в: $($roots -join ', '). Передайте -InstallDir явно."
+    }
+    return $latest.FullName
+}
+
+if (-not $InstallDir) { $InstallDir = Find-LatestReSharperInstall }
 if (-not $ResxFolder) { $ResxFolder = Join-Path $PSScriptRoot '..\raw-resx-done_ru-RU' }
 if (-not $ReportPath) { $ReportPath = Join-Path $PSScriptRoot 'i18n-translation-report.txt' }
 
@@ -59,7 +80,7 @@ function Get-Placeholders {
 Write-Host '2/3 Проверка resx-файлов пакета...'
 $problems = New-Object 'System.Collections.Generic.List[string]'
 $suspicious = New-Object 'System.Collections.Generic.List[string]'
-$statFiles = 0; $statEntries = 0; $statXml = 0; $statEmpty = 0; $statCjk = 0; $statKeys = 0; $statPh = 0; $statNoNeutral = 0; $statIdentical = 0; $statIdenticalSuspicious = 0
+$statFiles = 0; $statEntries = 0; $statXml = 0; $statEmpty = 0; $statEmptyUpstream = 0; $statCjk = 0; $statKeys = 0; $statPh = 0; $statNoNeutral = 0; $statIdentical = 0; $statIdenticalSuspicious = 0
 
 $resxFiles = @(Get-ChildItem -LiteralPath $ResxFolder -Filter '*.ru-RU.resx' -File)
 foreach ($rf in $resxFiles) {
@@ -89,10 +110,23 @@ foreach ($rf in $resxFiles) {
     # пустые значения
     # Порядок обхода ключей фиксируется сортировкой: без него enumeration у hashtable меняется
     # от прогона к прогону, и весь отчёт выглядел переписанным в git diff.
+    # Пустое ru-значение само по себе ещё не дефект: если upstream хранит в neutral пустую
+    # строку, переводчик зеркалит её осознанно. Без этой пометки метрика «пустых значений: 4»
+    # читалась как 4 пропуска.
+    $hasNeutral = $neutral.ContainsKey($neutralName)
+    $enAll = if ($hasNeutral) { $neutral[$neutralName] } else { $null }
     foreach ($k in @($values.Keys | Sort-Object)) {
         if ([string]::IsNullOrWhiteSpace($values[$k])) {
             $statEmpty++
-            $problems.Add("$($rf.Name): ПУСТОЕ ЗНАЧЕНИЕ [$k]")
+            $note = ' (neutral недоступен — сверить вручную)'
+            if ($hasNeutral) {
+                if (-not $enAll.ContainsKey($k))    { $note = '; в neutral такого ключа нет' }
+                elseif ([string]::IsNullOrWhiteSpace($enAll[$k])) {
+                    $note = '; en тоже пуст (upstream) — не пропуск'; $statEmptyUpstream++
+                }
+                else { $note = "; en НЕ пуст ('{0}') — реальный пропуск" -f $enAll[$k] }
+            }
+            $problems.Add("$($rf.Name): ПУСТОЕ ЗНАЧЕНИЕ [$k]$note")
         }
         if ($values[$k] -match $cjkRegex) {
             $statCjk++
@@ -132,6 +166,7 @@ foreach ($rf in $resxFiles) {
 # --- 3. Отчёт ---
 $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine('=== Проверка перевода всех resx-файлов пакета ===')
+[void]$sb.AppendLine("Установка: $InstallDir")
 [void]$sb.AppendLine("Дата: $(Get-Date -Format 'yyyy-MM-dd HH:mm')")
 [void]$sb.AppendLine()
 [void]$sb.AppendLine("resx-файлов:                $statFiles")
@@ -140,10 +175,10 @@ $sb = New-Object System.Text.StringBuilder
 [void]$sb.AppendLine("без neutral (нет DLL):      $statNoNeutral")
 [void]$sb.AppendLine()
 [void]$sb.AppendLine("XML-ошибок:                 $statXml")
-[void]$sb.AppendLine("пустых значений:            $statEmpty")
+[void]$sb.AppendLine("пустых значений:            $statEmpty  (en тоже пуст: $statEmptyUpstream)")
 [void]$sb.AppendLine("CJK-утечек:                 $statCjk")
 [void]$sb.AppendLine("расхождений ключей:         $statKeys")
-[void]$sb.AppendLine("ошибок плейсхолдеров:       $statPh")
+[void]$sb.AppendLine("расхождений плейсхолдеров:  $statPh")
 [void]$sb.AppendLine("ru==en (без кириллицы):     $statIdentical  (с малыми англ. словами: $statIdenticalSuspicious)")
 [void]$sb.AppendLine()
 
