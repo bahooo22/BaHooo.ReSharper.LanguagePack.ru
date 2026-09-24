@@ -1,25 +1,22 @@
 ﻿=== Аудит покрытия локализации: G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025 ===
-Дата: 2026-09-24 01:45
+Дата: 2026-09-24 03:21
 
 DLL просканировано:        626
   не удалось загрузить:    2
 Neutral .resources всего:  340
-Файлов в пакете (resx):    236
-Задеплоено в i18n:         236
+Файлов в пакете (resx):    243
+Задеплоено в i18n:         243
 
-ПОКРЫТО ПАКЕТОМ:  175 из 340
-ОТСУТСТВУЕТ В ПАКЕТЕ: 165
+ПОКРЫТО ПАКЕТОМ:  182 из 340
+ОТСУТСТВУЕТ В ПАКЕТЕ: 158
 В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 61
 Задеплоено лишнего (нет в resx): 0
 Есть в resx, но не задеплоено: 0
 
 --- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер) ---
-[Strings] JetBrains.DPA.Ide.VS.Resources.Strings.resources | JetBrains.DPA.Ide.VS.dll | 746
-[Strings] JetBrains.Profiler.Windows.Resources.Strings.resources | JetBrains.Profiler.Windows.Impl.dll | 2488
 [Strings] JetBrains.ReSharper.UnitTestProvider.MSTest12.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest12.dll | 709
 [Strings] JetBrains.ReSharper.UnitTestProvider.MSTest14.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest14.dll | 709
 [Strings] JetBrains.ReSharper.UnitTestProvider.MSTest15.......v11.Provider.Resources.Strings.resources | JetBrains.ReSharper.UnitTestProvider.MSTest15.dll | 709
-[Strings] JetBrains.Standalone.TabWell.Resources.Strings.resources | JetBrains.Platform.Standalone.TabWell.dll | 988
 [Strings] Microsoft.Extensions.FileSystemGlobbing.Resources.Strings.resources | Microsoft.Extensions.FileSystemGlobbing.dll | 602
 [Strings] NuGet.Commands.Strings.resources | NuGet.Commands.dll | 41706
 [Strings] NuGet.Common.Strings.resources | NuGet.Common.dll | 2103
@@ -62,8 +59,6 @@ Neutral .resources всего:  340
 [other]   EditorFormats.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1000471
 [other]   ExceptionStringTable.resources | System.Windows.Interactivity.dll, WPFToolkit.dll | 2741
 [other]   JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922
-[other]   JetBrains.Application.Res.StringTable.resources | JetBrains.Platform.Shell.dll | 6013
-[other]   JetBrains.Application.Resources.VsResources.resources | JetBrains.Platform.Shell.dll | 10777
 [other]   JetBrains.Common.UI.WinForms.Src.TriStateTreeView.resources | JetBrains.Common.UI.WinForms.dll | 871
 [other]   JetBrains.dotMemory.GUI.Properties.Resources.resources | JetBrains.dotMemory.GUI.dll | 88617
 [other]   JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources | JetBrains.DotTrace.Ide.Core.Interface.dll | 495
@@ -110,10 +105,8 @@ Neutral .resources всего:  340
 [other]   JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources | JetBrains.ReSharper.Psi.Web.dll | 2211
 [other]   JetBrains.ReSharper.Refactorings.Src.Move.AdjustNamespaces.Impl.AdjustNamespacesPage.resources | JetBrains.ReSharper.NewRefactorings.dll | 180
 [other]   JetBrains.ReSharper.Resources.Resources.Clipart.ReSharperClipart.resources | JetBrains.ReSharper.Resources.dll | 180
-[other]   JetBrains.SignatureVerifier.Messages.resources | JetBrains.SignatureVerifier.dll | 718
 [other]   JetBrains.Standalone.TextControl.Src.TextControl.Syntax.SyntaxResources.SyntaxResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 70758
 [other]   JetBrains.Standalone.TextControl.Src.TextControl.Theming.ThemingResources.ThemingResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 4931
-[other]   JetBrains.UI.Resources.StringTable.resources | JetBrains.Platform.UIInteractive.Shell.dll | 6010
 [other]   JetBrains.UI.Src.Features.ExtensionManager.OptionsPages.PackageSourceEditorDialog.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
 [other]   JetBrains.UI.Src.Features.License.EvaluationExpirationControl.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
 [other]   JetBrains.UI.Src.Features.License.EvaluationFeedbackControl.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180
