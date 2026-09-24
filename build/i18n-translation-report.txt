@@ -1,5 +1,5 @@
 ﻿=== Проверка перевода всех resx-файлов пакета ===
-Дата: 2026-09-24 06:21
+Дата: 2026-09-24 08:29
 
 resx-файлов:                243
 записей всего:              33943
@@ -10,382 +10,381 @@ XML-ошибок:                 0
 пустых значений:            4
 CJK-утечек:                 0
 расхождений ключей:         24
-ошибок плейсхолдеров:       215
+ошибок плейсхолдеров:       214
 ru==en (без кириллицы):     362  (с малыми англ. словами: 346)
 
 --- ПРОБЛЕМЫ (нужны исправления) ---
-  DPA.Core.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Tooltip_SqlConnectionCountIssue_Template]: en[{0},{1},{2}] != ru[{0},{2}]
   DPA.Core.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Tooltip_SqlCommandCountIssue_Template]: en[{0},{1},{2}] != ru[{0},{2}]
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): YouAreGoingToRemoveThePluginThatIsCurrently_Text, ThankYouForInstalling__Text
+  DPA.Core.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Tooltip_SqlConnectionCountIssue_Template]: en[{0},{1},{2}] != ru[{0},{2}]
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ThankYouForInstalling__Text, YouAreGoingToRemoveThePluginThatIsCurrently_Text
   JetBrains.dotCover.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DotCoverToggleContinuousTestingActionText
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Help_dotMemoryUnit_Help, Help_Article8_Text, Help_Youtube_MeetDotMemoryUnit_Text, Help_Article7_Text, Help_dotMemoryUnit_TextBefore, Help_Article8_Link, Help_Youtube_MeetDotMemoryUnit_Link, Help_dotMemoryUnit_Header, Help_dotMemoryUnit_TextAfter, Help_Youtube_MeetDotMemoryUnit_Duration, Help_Article7_Link
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConfigurationEditor_ConfigureSymbolServers_LinkText, ConfigurationEditor_AllowLoadPdbInBackground
-  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DownloadSymbolFilesSettingDescription, AllowBackgroundLoadPdbSettingDescription, SymbolPathsSettingsKey_KeyDescription, SymbolServersUsedInDotTraceSettingDescription
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Help_Article7_Link, Help_Article7_Text, Help_Article8_Link, Help_Article8_Text, Help_dotMemoryUnit_Header, Help_dotMemoryUnit_Help, Help_dotMemoryUnit_TextAfter, Help_dotMemoryUnit_TextBefore, Help_Youtube_MeetDotMemoryUnit_Duration, Help_Youtube_MeetDotMemoryUnit_Link, Help_Youtube_MeetDotMemoryUnit_Text
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConfigurationEditor_AllowLoadPdbInBackground, ConfigurationEditor_ConfigureSymbolServers_LinkText
+  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AllowBackgroundLoadPdbSettingDescription, DownloadSymbolFilesSettingDescription, SymbolPathsSettingsKey_KeyDescription, SymbolServersUsedInDotTraceSettingDescription
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [ActionText]
-  JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): FilterIssueByMethodActionNoLicense, ExplainWithAITask, FilterIssueByTypeAction, FilterIssueByMethodAction, FilterIssueByTypeActionNoLicense, FilterIssueByModuleActionNoLicense, FixWithAITask, FilterIssueByModuleAction
-  JetBrains.IDE.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WaitSolutionPerClientComponentsCompose_Text, DumpFleetDocumentsActionText
+  JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ExplainWithAITask, FilterIssueByMethodAction, FilterIssueByMethodActionNoLicense, FilterIssueByModuleAction, FilterIssueByModuleActionNoLicense, FilterIssueByTypeAction, FilterIssueByTypeActionNoLicense, FixWithAITask
+  JetBrains.IDE.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DumpFleetDocumentsActionText, WaitSolutionPerClientComponentsCompose_Text
   JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): IsUiSmoothnessToolkitEnabledInDevelopmentBuildDescription
-  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WaitForSolutionBackgroundLoad_Text, ProjectModelSyncOptionPageTitle, SolutionModel_Header_Text, ReadSolutionModelDirectlyFromProject_BoolOption_Text, CallAutomaticallyOnNuGetChangesOrIf_Text, WaitForSolutionToLoad_Text, ObtainDataFromMSBuildAfterEachCompilation_Text, MSBuildAccess_Header_Text, UseMSBuildToObtainProjectReferences_RadioOption_Caption, DoNotCallMSBuild_Text
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): TimelineInfo_LoadPdb, TimelineInfo_DontLoadPdb, TimelineInfo_DontAllowBackgroundLoadPdb, TimelineInfo_AllowBackgroundLoadPdb
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WaitSolutionContainerComponentsCompose_Text, DoNotCreateSolutionContainerUntilSolutionInstance_Text, WaitForAsyncProjectModelLoad_Text, WillInstallAnnotationsNuGetPackage_Text, NuGet_Text, InstallingAnnotationsNuGetPackage_Text, WaitForDelayedShellComponents_Text
-  JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ReplaceVisualStudioTooltips_Text, None_Option_Text, ShowLog_Button_Text, LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption, Hint_Text_Size, Notification_Option_Text, CodeInspectionSettingsColorIdentifiers_Text, DonTShowWhatSNewPageAfterUpdate_Text, ProfileVisualStudioActionText, RestoringNuGetPackagesClickToCancel_ToolTip, Log_Option_Text, AlignBaselines_BoolOption_Text, NuGetRestorerOptionPageTitle, Interline_Hints_Scale , InternalOptions_Header_Text, Inline_Hints_Scale , EnvironmentInfoAttachmentProvider_ProviderName, Tooltips_Header_Text
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AforeachForEachForVBNETOrforStatementCanBeConvertedIntoALINQExpression, PartialMethodsMustHaveAvoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage, InvocationIsResolvedToMethodWithparamsButMoreSpecificMethodIsAvailableAndArgumentsPartiallyMatchIt, MustHaveInitToMatchOverriddenMessage, WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax, ConvertStaticMethodInvocationToExtensionMethodCall, MustHaveInitToImplementMessage, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpression, CannotResolveCollectionExpressionDefaultConstructorMessage, AforeachForEachForVBNETCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, CannotBeBothabstractAndsealedMessage, paramsModifierIsAlwaysIgnoredOnOverrides1, ReplaceWithStringIsNullOrEmptyMessage, CannotBeBothExternAndAbstractMessage, LambdaExpressionParameterCannotBeparamsMessage, ScopedNameDisallowedMessage, RefLocalAcrossAwait_Text, MisplacedScopedKeywordMessage, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, InvokeAsExtensionMethodMessage, MustHaveSetToMatchOverriddenMessage
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IntroducingAFinalizeMethodCanInterfereWithDestructorInvocationDidYouIntendToDeclareADestructorMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InstanceAutoPropertiesInReadonlyStructsMustBeReadonlyMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryAddMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherUnsafeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullabilityOfTypeArgumentMustMatchNotNullConstraintInOrderToUseItAsParameterMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesAClassConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotAReferenceTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifySetAddingWithSingleCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ListPatternRequiresLengthMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PointersMayOnlyBeUsedInAnUnsafeContextMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LeftOperandIsAlwaysNullMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleViolationOfValueRangeNonNegativeValueAttributeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IQueryableIsPossiblyUnintentionallyUsedAsIEnumerableMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NewConstraintCannotHaveRequiredMembersMessage]: en[{0},{0},{1},{2},{3},{4}] != ru[{0},{0},{1},{2},{3}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantElseBlockMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridableCannotBeStaticMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodLacksDoesNotReturnAnnotationInOrderToMatchOverriddenMemberMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturningCallAndAwaitMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionAddReferenceFromCallSiteMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherRequiredMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasAVirtualOverrideSealedNewOrExternModifierMessage]: en[{0},{1},{2},{3},{4},{5}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleExpressionsAreNotAllowedInUsingStatementMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParamsParameterInLambdaOnlyMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryGetValueMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InlineArrayUnsupportedElementFieldModifierMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyNonNullableValueTypeCouldBeUnderlyingOfSystemNullableMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerMethodIsMalformedItDoesNotReturnVoidOrBoolMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InitAccessorsCannotBeMarkedReadonlyMarkReadonlyInsteadMessage]: en[{0},{1},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorCannotUseUnmanagedCallersOnlyMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleSequentialOrderByClausesAreMeaninglessPossiblyYouMeanThenByInsteadMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceReturnMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MissingConfigureAwaitFalseForAsyncDisposableInLibraryCodeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RecordEqualityContractPropertyMustHaveAGetAccessorMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleUnintendedReferenceComparisonToGetAValueComparisonUseEqualsMethodMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveANonNullValueWhenExitingBecauseParameterIsNonNullMessage]: en[{0},{1},{2},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MemberMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NoBestTypeFoundForTheSwitchExpressionMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsAttributedWithUnmanagedCallersOnlyAndCannotBeCalledDirectlyObtainAFunctionPointerToThisMethodMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesAStructConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotANonNullableValueTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
+  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CallAutomaticallyOnNuGetChangesOrIf_Text, DoNotCallMSBuild_Text, MSBuildAccess_Header_Text, ObtainDataFromMSBuildAfterEachCompilation_Text, ProjectModelSyncOptionPageTitle, ReadSolutionModelDirectlyFromProject_BoolOption_Text, SolutionModel_Header_Text, UseMSBuildToObtainProjectReferences_RadioOption_Caption, WaitForSolutionBackgroundLoad_Text, WaitForSolutionToLoad_Text
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): TimelineInfo_AllowBackgroundLoadPdb, TimelineInfo_DontAllowBackgroundLoadPdb, TimelineInfo_DontLoadPdb, TimelineInfo_LoadPdb
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DoNotCreateSolutionContainerUntilSolutionInstance_Text, InstallingAnnotationsNuGetPackage_Text, NuGet_Text, WaitForAsyncProjectModelLoad_Text, WaitForDelayedShellComponents_Text, WaitSolutionContainerComponentsCompose_Text, WillInstallAnnotationsNuGetPackage_Text
+  JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AlignBaselines_BoolOption_Text, CodeInspectionSettingsColorIdentifiers_Text, DonTShowWhatSNewPageAfterUpdate_Text, EnvironmentInfoAttachmentProvider_ProviderName, Hint_Text_Size, Inline_Hints_Scale , Interline_Hints_Scale , InternalOptions_Header_Text, Log_Option_Text, LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption, None_Option_Text, Notification_Option_Text, NuGetRestorerOptionPageTitle, ProfileVisualStudioActionText, ReplaceVisualStudioTooltips_Text, RestoringNuGetPackagesClickToCancel_ToolTip, ShowLog_Button_Text, Tooltips_Header_Text
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AforeachForEachForVBNETCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, AforeachForEachForVBNETOrforStatementCanBeConvertedIntoALINQExpression, CannotBeBothabstractAndsealedMessage, CannotBeBothExternAndAbstractMessage, CannotResolveCollectionExpressionDefaultConstructorMessage, ConvertStaticMethodInvocationToExtensionMethodCall, InvocationIsResolvedToMethodWithparamsButMoreSpecificMethodIsAvailableAndArgumentsPartiallyMatchIt, InvokeAsExtensionMethodMessage, LambdaExpressionParameterCannotBeparamsMessage, MisplacedScopedKeywordMessage, MustHaveInitToImplementMessage, MustHaveInitToMatchOverriddenMessage, MustHaveSetToMatchOverriddenMessage, paramsModifierIsAlwaysIgnoredOnOverrides1, PartialMethodsMustHaveAvoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpression, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, RefLocalAcrossAwait_Text, ReplaceWithStringIsNullOrEmptyMessage, ScopedNameDisallowedMessage, WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CannotModifyStructMemberWhenAccessedStructIsNotClassifiedAsAVariableMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OpenTypeInUsingAliasDirectiveMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyMethodsOperatorsAndAccessorsCouldContainYieldStatementMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverriddenGetHashCodeCallsBaseGetHashCodeMessage]: en[{0},{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LocalFunctionMustBeStaticInOrderToUseTheConditionalAttributeMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InDynamicMethodArgMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NewCannotBeUsedWithValueTupleTypeUseATupleLiteralExpressionInsteadMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantObjectToStringCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustAllowOverridingBecauseTheContainingRecordIsNotSealedMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IntIsDefaultEnumGoverningTypeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorLineCharacterMustBePositiveMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GlobalUsingDirectiveIsNotRequiredByTheCodeAndCanBeSafelyRemovedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorCannotBeCheckedMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodHasAsyncOverloadMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ReadonlyKeywordMustFollowRefKeywordAndImmediatelyPrecedeTheTypeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverrideCannotBeMarkedAsVirtualMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleMistakenSystemTypeArgumentMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonRefVariableMemberWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefKeywordMustImmediatelyPrecedeTheTypeMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantEmptySwitchSectionMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParametersMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodParameterScopeModifiersMismatchMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantCaseLabelMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceArgumentForParameterInMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsNotAReferenceTypeAsRequiredByTheLockStatementMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerArgumentAttributeArgumentsCannotReferToTheParameterTheAttributeIsUsedOnMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantAttributeSuffixMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LocalFunctionMustDeclareABodyBecauseItIsNotMarkedStaticExternMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartiallyOpenedTypeIsNotPermittedInTypeofExpressionMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartOfLoopsBodyCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InitOnlyCanOnlyBeAssignedInAnObjectInitializerOrOnThisOrBaseInAnInstanceConstructorOrAnInitAccessorMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ReadonlyCanOnlyBeUsedOnAccessorsIfTheHasBothAGetAndASetAccessorMessage]: en[{0},{1},{2},{3}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReadonlyParameterDefaultValueMessage]: en[{0},{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleSequentialOrderByInvocationsAreMeaninglessPossiblyYouMeanThenByInsteadMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyAssignmentCallIncrementDecrementAwaitExpressionAndNewObjectExpressionsCanBeUsedAsAStatementMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryAddMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryGetValueMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryTryGetValueWithGetValueOrDefaultMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifySetAddingWithSingleCallMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DuplicateDefinitionPossiblyMissingKeywordPartialMessage]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [EnumeratorObjectIsNotDisposedConsiderSafeCastMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonByRefParameterWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MathSignMethodAlwaysGivesTheSameResultMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MergeAndPatternOperandsMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MemberMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [EnumeratorObjectIsNotDisposedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForeachStatementCannotOperateOnEnumeratorsOfTypeInAsyncOrIteratorMethodsBecauseIsARefStructMessage]: en[{0},{1},{1},{2},{3},{4}] != ru[{0},{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForeachStatementCannotOperateOnRefEnumeratorsInAsyncOrIteratorMethodsMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForLoopCanBeConvertedIntoForeachLoopMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [FormattingIsSpecifiedButInterpolatedStringExpressionIsNotIFormattableMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GCSuppressFinalizeIsInvokedForTypeWithoutDestructorMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GetSetOrInitExpectedMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GlobalUsingDirectiveIsNotRequiredByTheCodeAndCanBeSafelyRemovedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GlobalUsingStaticFileLocalTypeMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IgnoredDirectiveAfterIfDirectiveMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IndexerCannotBeDeclaredStaticMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InDynamicMethodArgMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InitAccessorsCannotBeMarkedReadonlyMarkReadonlyInsteadMessage]: en[{0},{1},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InitOnlyCanOnlyBeAssignedInAnObjectInitializerOrOnThisOrBaseInAnInstanceConstructorOrAnInitAccessorMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InlineArraySliceNotUsedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InlineArrayUnsupportedElementFieldModifierMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InstanceAutoPropertiesInReadonlyStructsMustBeReadonlyMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InstanceFieldsOfReadonlyStructsMustBeReadonlyMessage]: en[{0},{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorCannotUseUnmanagedCallersOnlyMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorLineCharacterMustBePositiveMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorScopedMismatchMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerArgumentAttributeArgumentsCannotReferToTheParameterTheAttributeIsUsedOnMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerArgumentHasNoEffectWhenAppliedToLambdaParametersAndWillBeIgnoredAtTheCallSiteMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerMethodIsMalformedItDoesNotReturnVoidOrBoolMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IntIsDefaultEnumGoverningTypeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IntroducingAFinalizeMethodCanInterfereWithDestructorInvocationDidYouIntendToDeclareADestructorMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InvalidExperimentalDiagnosticIdMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InvalidScopedLocalTypeOrReferenceKindMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IQueryableIsPossiblyUnintentionallyUsedAsIEnumerableMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsAttributedWithUnmanagedCallersOnlyAndCannotBeCalledDirectlyObtainAFunctionPointerToThisMethodMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsAttributedWithUnmanagedCallersOnlyAndCannotBeConvertedToADelegateTypeObtainAFunctionPointerToThisMethodMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsNotAReferenceTypeAsRequiredByTheLockStatementMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsNotAValidCallingConventionTypeForUnmanagedCallersOnlyMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IteratorCannotContainReturnStatementMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ItIsNotLegalToUseTypeDynamicInAPatternMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [JoinNullCheckWithAssignmentMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [KeywordOverrideIsMissingMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LeftOperandIsAlwaysNullMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LeftOperandIsNeverNullAccordingToNullableReferenceTypesAnnotationsMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridesObjectEqualsObjectOButDoesNotOverrideObjectGetHashCodeMessage]: en[{0},{1},{1},{2},{3},{4}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullIsNotAValidParameterNameToGetAccessToTheReceiverOfAnInstanceMethodUseTheEmptyStringAsTheParameterNameMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMemberWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefFieldInNonRefStructMessage]: en[{0},{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleIncorrectImplementationOfDoubleCheckLockingCheckedFieldMustBeVolatileOrAssignedFromLocalVariableAfterThreadMemoryBarrierCallMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefFieldCannotReferToRefStructMessage]: en[{0},{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParametersMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LeftOperandIsNeverNullMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ListPatternRequiresLengthMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LocalFunctionMustBeStaticInOrderToUseTheConditionalAttributeMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LocalFunctionMustDeclareABodyBecauseItIsNotMarkedStaticExternMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LoopCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MathAbsArgumentIsAlwaysNonNegativeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MathSignMethodAlwaysGivesTheSameResultMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MemberMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MemberMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersNamedCloneAreDisallowedInRecordsMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MergeAndPatternOperandsMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodHasAsyncOverloadMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodHasAsyncOverloadWithCancellationSupportMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodIsMarkedAsOneWayOperationAndThereforeCouldntReturnValuesMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodIsMarkedAsOperationContractButContainingTypeIsntMarkedAsServiceContractMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodLacksDoesNotReturnAnnotationInOrderToMatchImplementedMemberMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodLacksDoesNotReturnAnnotationInOrderToMatchOverriddenMemberMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodsAttributedWithUnmanagedCallersOnlyCannotHaveGenericTypeParametersAndCannotBeDeclaredInAGenericTypeMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesAClassConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotAReferenceTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesADefaultConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsConstrainedToAReferenceTypeOrAValueTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesAStructConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotANonNullableValueTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MissingConfigureAwaitFalseForAsyncDisposableInLibraryCodeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MissingConfigureAwaitFalseInLibraryCodeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ModuleInitializerCannotBeAttributedWithUnmanagedCallersOnlyMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ModuleInitializerMethodMustBeStaticMustHaveNoParametersAndMustReturnvoidMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleExpressionsAreNotAllowedInUsingStatementMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleSequentialOrderByClausesAreMeaninglessPossiblyYouMeanThenByInsteadMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MultipleSequentialOrderByInvocationsAreMeaninglessPossiblyYouMeanThenByInsteadMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustAllowOverridingBecauseTheContainingRecordIsNotSealedMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustBeEitherRefReadonlyOrRegularVariableInOrderToBeAssignedFromBecauseItReturnsReadonlyReferenceMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustHaveFieldOffsetAttributeMessage]: en[{0},{1},{2},{3}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NeitherIsNorAsAreValidOnPointerTypesMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NeitherIsNorAsAreValidOnVoidTypeMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NewCannotBeUsedWithValueTupleTypeUseATupleLiteralExpressionInsteadMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NewConstraintCannotHaveRequiredMembersMessage]: en[{0},{0},{1},{2},{3},{4}] != ru[{0},{0},{1},{2},{3}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NoBestTypeFoundForTheSwitchExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NoDeconstructMethodWithOutParametersFoundForTypeMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NonReadonlyReferencedInGetHashCodeMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionAddReferenceFromCallSiteMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionAddReferenceMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionCreateMethodReferenceFromCallSiteMessage]: en[{0},{1},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionCreateMethodReferenceMessage]: en[{0},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionDefaultCtorReferenceFromCallSiteMessage]: en[{0},{1},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionDefaultCtorReferenceMessage]: en[{0},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullabilityOfTypeArgumentMustMatchClassConstraintInOrderToUseItAsParameterMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullabilityOfTypeArgumentMustMatchNotNullConstraintInOrderToUseItAsParameterMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullableValueTypeMayBeNullMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullIsNotAValidParameterNameToGetAccessToTheReceiverOfAnInstanceMethodUseTheEmptyStringAsTheParameterNameMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullSuppressionOperatorMightBeConfusedWithAnInvertedIsExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObjectOrCollectionInitializerImplicitlyDereferencesPossiblyNullMemberMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObjectReferenceEqualsIsAlwaysFalseBecauseItIsCalledWithValueTypeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObsoleteMembersShouldNotBeRequiredMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyAssignmentCallIncrementDecrementAwaitExpressionAndNewObjectExpressionsCanBeUsedAsAStatementMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyMethodsOperatorsAndAccessorsCouldContainYieldStatementMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyNonNullableValueTypeCouldBeUnderlyingOfSystemNullableMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyOnePartOfAPartialTypeCanDeclarePrimaryConstructorMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OpenTypeInUsingAliasDirectiveMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperationIsInvalidOnVoidPointerMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorCannotBeCheckedMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorCannotHaveParamsParameterMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorCannotHaveRefOrOutParameterMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorIsCanBeUsedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorIsCannotBeAppliedToOperandOfTypeDefaultMessage]: en[{0},{1}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorWithoutMatchedCheckedOperatorMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OutAttrOnRefReadonlyParamMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InstanceFieldsOfReadonlyStructsMustBeReadonlyMessage]: en[{0},{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIsMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GetSetOrInitExpectedMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleUnassignedObjectCreatedByNewExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridableCannotBeStaticMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverriddenGetHashCodeCallsBaseGetHashCodeMessage]: en[{0},{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverrideCannotBeMarkedAsNewMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorIsCanBeUsedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterWithParamsModifierMustHaveAValidCollectionTypeMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForLoopCanBeConvertedIntoForeachLoopMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossiblyMisleadingDefaultValueAttributeUsageToDefineOptionalParameterValueDefaultParameterValueAttributeShouldBeUsedInsteadMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustHaveFieldOffsetAttributeMessage]: en[{0},{1},{2},{3}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowInCheckedContextMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonByRefParameterMemberWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceAssignmentMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasOutParametersMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IndexerCannotBeDeclaredStaticMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObjectOrCollectionInitializerImplicitlyDereferencesPossiblyNullMemberMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RecordMemberMayNotBeStaticMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefOrOutAreNotValidInThisContextMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantScopedParameterModifierMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObjectReferenceEqualsIsAlwaysFalseBecauseItIsCalledWithValueTypeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemArgumentOutOfRangeExceptionStartIndexShouldBeLessThanOrEqualToEndIndexMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ModuleInitializerMethodMustBeStaticMustHaveNoParametersAndMustReturnvoidMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantWithCancellationMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperationIsInvalidOnVoidPointerMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterModifierThisShouldBeOnTheFirstParameterMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InvalidExperimentalDiagnosticIdMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherReadonlyMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantStringToCharArrayCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefStructsCannotImplementInterfacesMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonRefVariableWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIEnumerableCastTCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowOfIntVariableMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullabilityOfTypeArgumentMustMatchClassConstraintInOrderToUseItAsParameterMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ItIsNotLegalToUseTypeDynamicInAPatternMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantAttributeUsagePropertyAssignmentMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartiallyOpenedTypeIsNotPermittedInNameofExpressionMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorCannotHaveParamsParameterMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NonReadonlyReferencedInGetHashCodeMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIEnumerableOfTypeTCallConsiderComparingWithNullInsteadMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowInUncheckedContextMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodLacksDoesNotReturnAnnotationInOrderToMatchImplementedMemberMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionCreateMethodReferenceMessage]: en[{0},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterpolatedStringHandlerArgumentHasNoEffectWhenAppliedToLambdaParametersAndWillBeIgnoredAtTheCallSiteMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantDictionaryContainsKeyBeforeAddingMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodIsMarkedAsOneWayOperationAndThereforeCouldntReturnValuesMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForeachStatementCannotOperateOnRefEnumeratorsInAsyncOrIteratorMethodsMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OnlyOnePartOfAPartialTypeCanDeclarePrimaryConstructorMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GCSuppressFinalizeIsInvokedForTypeWithoutDestructorMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsNotAValidCallingConventionTypeForUnmanagedCallersOnlyMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodSpecifiesADefaultConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsConstrainedToAReferenceTypeOrAValueTypeMessage]: en[{0},{1},{2},{3},{4}] != ru[{0},{1},{2},{3}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionAddReferenceMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMemberMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IteratorCannotContainReturnStatementMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodIsMarkedAsOperationContractButContainingTypeIsntMarkedAsServiceContractMessage]: en[{0},{1},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MissingConfigureAwaitFalseInLibraryCodeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasANonVoidReturnTypeMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherStaticMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberParameterParamsModifiersMismatchMessage]: en[{0},{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InterceptorScopedMismatchMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MustBeEitherRefReadonlyOrRegularVariableInOrderToBeAssignedFromBecauseItReturnsReadonlyReferenceMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReadOnlyWrongOrderingMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NeitherIsNorAsAreValidOnVoidTypeMessage]: en[{0},{1},{2}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullSuppressionOperatorMightBeConfusedWithAnInvertedIsExpressionMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleComparisonOfValueTypeWithNullMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParamsModifierIsAlwaysIgnoredOnOverridesMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefKeywordMustImmediatelyPrecedeTheStructMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantConfigureAwaitTrueCanBeRemovedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [EnumeratorObjectIsNotDisposedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionDefaultCtorReferenceFromCallSiteMessage]: en[{0},{1},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridesObsoleteAddTheObsoleteAttributeToMessage]: en[{0},{1},{2},{3},{4},{5}] != ru[{0},{1},{2},{3},{4}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IsAttributedWithUnmanagedCallersOnlyAndCannotBeConvertedToADelegateTypeObtainAFunctionPointerToThisMethodMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionDefaultCtorReferenceMessage]: en[{0},{2}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForeachStatementCannotOperateOnEnumeratorsOfTypeInAsyncOrIteratorMethodsBecauseIsARefStructMessage]: en[{0},{1},{1},{2},{3},{4}] != ru[{0},{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemInvalidOperationExceptionCollectionWasModifiedMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DuplicateDefinitionPossiblyMissingKeywordPartialMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OperatorIsCannotBeAppliedToOperandOfTypeDefaultMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleMistakenCallToGetTypeMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEndMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InvalidScopedLocalTypeOrReferenceKindMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NoDeconstructMethodWithOutParametersFoundForTypeMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnStructThisOrInstanceFieldWarningMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [IgnoredDirectiveAfterIfDirectiveMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustHaveMatchingRefReturnValuesMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantEmptyFinallyBlockMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [InlineArraySliceNotUsedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantExplicitCollectionCreationInArgumentOfParamsParameterMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NullableValueTypeMayBeNullMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterWithParamsModifierMustHaveAnArrayTypeMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturningPropertiesCannotBeRequiredMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryTryGetValueWithGetValueOrDefaultMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MethodsAttributedWithUnmanagedCallersOnlyCannotHaveGenericTypeParametersAndCannotBeDeclaredInAGenericTypeMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [JoinNullCheckWithAssignmentMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LoopCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [GlobalUsingStaticFileLocalTypeMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverrideCannotBeMarkedAsVirtualMessage]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverrideMustHaveRequiredMessage]: en[{0},{1},{2},{2}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ModuleInitializerCannotBeAttributedWithUnmanagedCallersOnlyMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridesObjectEqualsObjectOButDoesNotOverrideObjectGetHashCodeMessage]: en[{0},{1},{1},{2},{3},{4}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [OverridesObsoleteAddTheObsoleteAttributeToMessage]: en[{0},{1},{2},{3},{4},{5}] != ru[{0},{1},{2},{3},{4}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterModifierThisShouldBeOnTheFirstParameterMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveANonNullValueWhenExitingBecauseParameterIsNonNullMessage]: en[{0},{1},{2},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParametersMustHaveWhenExitingMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParametersMustHaveWhenExitingWithMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterWithParamsModifierMustHaveAnArrayTypeMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParameterWithParamsModifierMustHaveAValidCollectionTypeMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParamsModifierIsAlwaysIgnoredOnOverridesMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ParamsParameterInLambdaOnlyMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartiallyOpenedTypeIsNotPermittedInNameofExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartiallyOpenedTypeIsNotPermittedInTypeofExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherReadonlyMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherRequiredMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherStaticMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustBeEitherBothOrNeitherUnsafeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberDeclarationsMustHaveMatchingRefReturnValuesMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMemberParameterParamsModifiersMismatchMessage]: en[{0},{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasANonVoidReturnTypeMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasAVirtualOverrideSealedNewOrExternModifierMessage]: en[{0},{1},{2},{3},{4},{5}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodMustHaveAccessibilityModifiersBecauseItHasOutParametersMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartialMethodParameterScopeModifiersMismatchMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PartOfLoopsBodyCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PointersMayOnlyBeUsedInAnUnsafeContextMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleComparisonOfValueTypeWithNullMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleIncorrectImplementationOfDoubleCheckLockingCheckedFieldMustBeVolatileOrAssignedFromLocalVariableAfterThreadMemoryBarrierCallMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleMistakenCallToGetTypeMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleMistakenSystemTypeArgumentMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceArgumentForParameterInMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceAssignmentMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleNullReferenceReturnMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowInCheckedContextMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowInUncheckedContextMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleOverflowOfIntVariableMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemArgumentOutOfRangeExceptionStartIndexShouldBeLessThanOrEqualToEndIndexMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEndMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleSystemInvalidOperationExceptionCollectionWasModifiedMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleUnassignedObjectCreatedByNewExpressionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleUnintendedReferenceComparisonToGetAValueComparisonUseEqualsMethodMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossibleViolationOfValueRangeNonNegativeValueAttributeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PossiblyMisleadingDefaultValueAttributeUsageToDefineOptionalParameterValueDefaultParameterValueAttributeShouldBeUsedInsteadMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ReadonlyCanOnlyBeUsedOnAccessorsIfTheHasBothAGetAndASetAccessorMessage]: en[{0},{1},{2},{3}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ReadonlyKeywordMustFollowRefKeywordAndImmediatelyPrecedeTheTypeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RecordEqualityContractPropertyMustHaveAGetAccessorMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RecordMemberMayNotBeStaticMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantAttributeSuffixMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantAttributeUsagePropertyAssignmentMessage]: en[{0},{1}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantCaseLabelMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantConfigureAwaitTrueCanBeRemovedMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantDictionaryContainsKeyBeforeAddingMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantElseBlockMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantEmptyFinallyBlockMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantEmptySwitchSectionMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantExplicitCollectionCreationInArgumentOfParamsParameterMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIEnumerableCastTCallMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIEnumerableOfTypeTCallConsiderComparingWithNullInsteadMessage]: en[{0},{1},{2}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantIsMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantObjectToStringCallForValueTypeMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MembersNamedCloneAreDisallowedInRecordsMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [MathAbsArgumentIsAlwaysNonNegativeMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantObjectToStringCallMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantScopedParameterModifierMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantStringFormatCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [FormattingIsSpecifiedButInterpolatedStringExpressionIsNotIFormattableMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NeitherIsNorAsAreValidOnPointerTypesMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ObsoleteMembersShouldNotBeRequiredMessage]: en[{0},{1}] != ru[{0}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [LeftOperandIsNeverNullMessage]: en[{0}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [NotResolvedParamsCollectionCreateMethodReferenceFromCallSiteMessage]: en[{0},{1},{3}] != ru[{0},{1}]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantSwitchExpressionArmsMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantStringToCharArrayCallMessage]: en[{0},{1}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantSwitchExpressionArmMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantSwitchExpressionArmsMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RedundantWithCancellationMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefFieldCannotReferToRefStructMessage]: en[{0},{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefFieldInNonRefStructMessage]: en[{0},{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefKeywordMustImmediatelyPrecedeTheStructMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefKeywordMustImmediatelyPrecedeTheTypeMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefOrOutAreNotValidInThisContextMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReadonlyParameterDefaultValueMessage]: en[{0},{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReadOnlyWrongOrderingMessage]: en[{0},{1}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturningCallAndAwaitMessage]: en[{0},{1},{2}] != ru[{0}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturningPropertiesCannotBeRequiredMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonByRefParameterMemberWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonByRefParameterWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonRefVariableMemberWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnNonRefVariableWarningMessage]: en[{0},{1},{2}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMemberMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMemberWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnStructThisOrInstanceFieldWarningMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefStructsCannotImplementInterfacesMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [Message6]
   JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): GrazieGplLicenseNotice
   JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [DiffModeShowAll_Comment_Text]
   JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CSharp_EditorConfigOverride_Text]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text]: en[{0},{1},{2},{3}] != ru[{0},{1},{2}]
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [_Description_Text]
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CompilerWarning___Text, RoslynAnalyzerInspection__Text, GenericInspection__Text, ProductInspection__Text, RefactoringsDeferredRenameActionText
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CompilerWarning___Text, GenericInspection__Text, ProductInspection__Text, RefactoringsDeferredRenameActionText, RoslynAnalyzerInspection__Text
   JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UseLegacyPublicApiSurfaceHashingAlgorithm_Text, UseLegacyPublicApiSurfaceHashingAlgorithmSettingDescription
   JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Template_Editable_V2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ
-  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ReplaceUnsafeStatementsWithTheirBodies_Text, AddInitializerFor__Text, FailedToImportMethod_Text, AddLoggerMessageMethodParameter_Text, InvokeAllMethodsAsExtensions_Text, Make_Obsolete_Text, ImportMethod_MultipleChoices_Text, AddInitializersForRequiredMembers_Text, UseSystemStringEmptyValueContentAction_Name, ImportMethodFrom__Text, ToExtensionMethodInvocation_Text, Make_Experimental_Text, RemoveSealedKeywordWhenItIsNotApplicable_Text, UseMethod__Text, ImportExtensionMethod_Text, In_Scope_Text, UseMethod_Text, UseSystemStringEmptyValueContentAction_Description, ReplaceUnsafeStatementWithItsBody_Text, RemoveSealedKeyword_Text
-  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Flip_Operands__Text]: en[{0},{1}] != ru[{1}]
-  JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Use__Text, Remove___Text
+  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AddInitializerFor__Text, AddInitializersForRequiredMembers_Text, AddLoggerMessageMethodParameter_Text, FailedToImportMethod_Text, ImportExtensionMethod_Text, ImportMethod_MultipleChoices_Text, ImportMethodFrom__Text, In_Scope_Text, InvokeAllMethodsAsExtensions_Text, Make_Experimental_Text, Make_Obsolete_Text, RemoveSealedKeyword_Text, RemoveSealedKeywordWhenItIsNotApplicable_Text, ReplaceUnsafeStatementsWithTheirBodies_Text, ReplaceUnsafeStatementWithItsBody_Text, ToExtensionMethodInvocation_Text, UseMethod__Text, UseMethod_Text, UseSystemStringEmptyValueContentAction_Description, UseSystemStringEmptyValueContentAction_Name
+  JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Remove___Text, Use__Text
   JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UnityOptionsPage_Profiler_Integration_Help_Link_Text
   JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DonTShowWhatSNewPageAfterUpdate_Text
-  JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConvertToLogMethod_ExistingMethodEventIdRequired_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelConstant_ConflictText, ConvertToLogMethod_ExistingMethodEventIdWillChange_ConflictText, ConvertToLogMethod_ExistingMethodEventIdMismatch_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelRequired_ConflictText, ConvertToLogMethod_ExistingMethodMessageMismatch_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelMismatch_ConflictText
+  JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConvertToLogMethod_ExistingMethodEventIdMismatch_ConflictText, ConvertToLogMethod_ExistingMethodEventIdRequired_ConflictText, ConvertToLogMethod_ExistingMethodEventIdWillChange_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelConstant_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelMismatch_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelRequired_ConflictText, ConvertToLogMethod_ExistingMethodMessageMismatch_ConflictText
+  JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DynamicResource_0Usage_WillBeBroken_Text]: en[{0},{1}] != ru[{0},{0},{1}]
   JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Resource0UsageInlineWillProduceConflicts_Text]: en[] != ru[{0}]
   JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [StaticResource_0Usage_WillBeBroken_Text]: en[{0},{1}] != ru[{0},{0},{1}]
-  JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DynamicResource_0Usage_WillBeBroken_Text]: en[{0},{1}] != ru[{0},{0},{1}]
   JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Copyright__AllRightsReserved_Text]: en[{0},{1}] != ru[{0},{1},{1}]
   JetBrains.UI.Resources.CommonStrings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [__Change_WillBeLostUnlessApplied_Text]: en[{0},{1},{2}] != ru[{0},{1}]
   JetBrains.UI.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): EM_ExtensionSection_Selected_Short_Description
   JetBrains.UI.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Copyright__AllRightsReserved_Text]: en[{0},{1}] != ru[{0},{1},{1}]
-  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ExternalServices_PathToCleanDescription_Text, InstallerLogFiles_PathToCleanDescription_Text, DefaultDiskCleanupSettings_Text, SolutionCachesInAppData_PathToCleanDescription_Text, ShellCachesInAppData_PathToCleanDescription_Text, SolutionCachesInTemp_PathToCleanDescription_Text, ProductContentCache_PathToCleanDescription_Text, DeplozedPackagesCache_PathToCleanDescription_Text, LogFiles_PathToCleanDescription_Text, SettingsStorageCache_PathToCleanDescription_Text, TempCaches_PathToCleanDescription_Text, WebsiteBuilderFiles_PathToCleanDescription_Text
+  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DefaultDiskCleanupSettings_Text, DeplozedPackagesCache_PathToCleanDescription_Text, ExternalServices_PathToCleanDescription_Text, InstallerLogFiles_PathToCleanDescription_Text, LogFiles_PathToCleanDescription_Text, ProductContentCache_PathToCleanDescription_Text, SettingsStorageCache_PathToCleanDescription_Text, ShellCachesInAppData_PathToCleanDescription_Text, SolutionCachesInAppData_PathToCleanDescription_Text, SolutionCachesInTemp_PathToCleanDescription_Text, TempCaches_PathToCleanDescription_Text, WebsiteBuilderFiles_PathToCleanDescription_Text
 
 --- НА КЛАДКУ ВНИМАНИЯ ---
   ApiParser.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  DPA.Core.Resources.Strings.ru-RU.resx: ru==en [ThresholdsToolWindow_Asp] = ASP
-  DPA.Core.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   DPA.Core.Resources.Strings.ru-RU.resx: ru==en [AspTabTitle] = ASP
+  DPA.Core.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  DPA.Core.Resources.Strings.ru-RU.resx: ru==en [ThresholdsToolWindow_Asp] = ASP
   GammaJul.ForTea.Core.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [ReSharperActionGroupText] = ReSharper
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [XMLActionText] = XML
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [VsMenuOpenedActionText] = VsMenuOpenedAction
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [HTMLActionText] = HTML
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [TODO_Text] = TODO!!
   JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [_CtrlP_Text] = {0} (Ctrl+P)
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [OOPActionGroupText] = OOP
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [Tab_Text] = Tab
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [URI_Text] = URI:
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [_LIVE_Text] = {0} (LIVE)
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [FUSActionGroupText] = FUS
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [HTMLActionText] = HTML
   JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [LoggerActionGroupText] = Logger
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [OK_Options_Dialog_Button_Text] = OK
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [OOPActionGroupText] = OOP
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [ReSharperActionGroupText] = ReSharper
   JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [SingleGotoTwitterActionText] = SingleGotoTwitter
   JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [SingleGotoWebActionText] = SingleGotoWeb
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [FUSActionGroupText] = FUS
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [Tab_Text] = Tab
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [TODO_Text] = TODO!!
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [URI_Text] = URI:
   JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [VisualStudioActionGroupText] = Visual Studio
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [_LIVE_Text] = {0} (LIVE)
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [OK_Options_Dialog_Button_Text] = OK
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [VsMenuOpenedActionText] = VsMenuOpenedAction
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ru==en [XMLActionText] = XML
   JetBrains.CommandLine.CleanupCode.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Common.Resources.Resources.Strings.ru-RU.resx: ru==en [Common_InternalSettingDescription] = Internal
   JetBrains.Common.Resources.Resources.Strings.ru-RU.resx: ru==en [Common_TypeSettingDescription] = Type
   JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx: ru==en [Subsystems_Predefined_Linq] = Linq
-  JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx: ru==en [XmlSettingDescription] = Xml
   JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx: ru==en [Subsystems_Predefined_WinForms] = WinForms
   JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx: ru==en [Subsystems_Predefined_WPF] = WPF
-  JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx: ru==en [RemoveButtonText] = Remove
-  JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx: ru==en [AfterTableText] = User-defined modules are shown in bold
+  JetBrains.Common.SubsystemsManagement.Resources.Strings.ru-RU.resx: ru==en [XmlSettingDescription] = Xml
   JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx: ru==en [AddButtonText] = Add
-  JetBrains.Common.Util.Resources.Strings.ru-RU.resx: ru==en [Subsystems_Events_Jit] = JIT
+  JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx: ru==en [AfterTableText] = User-defined modules are shown in bold
+  JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants.ru-RU.resx: ru==en [RemoveButtonText] = Remove
   JetBrains.Common.Util.Resources.Strings.ru-RU.resx: ru==en [FunctionUID_Awaits] = await
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Json] = .json
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [DotCoverToolWindow_Title] = dotCover
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint2] = ASPNETCORE_ENVIRONMENT=Development
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Xml] = .xml
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Html] = Html
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Xml] = XML
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Json] = Json
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Html] = .html
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint3] = ASPNETCORE_URLS=http://localhost:5000
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_NDependXml] = XML for NDepend
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_ApplicationTypeSelector_IIS_Title] = IIS
+  JetBrains.Common.Util.Resources.Strings.ru-RU.resx: ru==en [Subsystems_Events_Jit] = JIT
   JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [DotCoverOptions_Anchor_PageTitle] = dotCover
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_TheProfilingWorkflow_Link] = https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ProfileConfiguration_IISExpress_ApplicationPath] = ApplicationPath:
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial2_Link] = https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [OkCancelWrapper_OkButton_DefaultText] = OK
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [UnreachableObjects_LearnMore_Link] = Unreachable_Objects
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [DotCoverToolWindow_Title] = dotCover
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Html] = .html
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Json] = .json
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [FileExtension_Xml] = .xml
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_ApplicationTypeSelector_IIS_Title] = IIS
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint2] = ASPNETCORE_ENVIRONMENT=Development
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint3] = ASPNETCORE_URLS=http://localhost:5000
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Html] = Html
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Json] = Json
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_NDependXml] = XML for NDepend
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ru==en [Report_Xml] = XML
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [DependencyProperty_LearnMoreLink] = Inspections#dependency_property_leak
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_UsageTip_Link] = Analyze_Memory_Allocation
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article2_Link] = http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectCallStack_LearnMore_Link] = Creation_Stack_Trace_instance
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article6_Link] = http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [XNameWpf_Column_XName] = x:Name
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_GettingStarted_Link] = https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AnalyzingAnInstance_Link] = https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WpfCollectionBinding_LearnMoreLink] = Inspections#wpf_collection_binding_leak
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WpfBinding_LearnMoreLink] = Inspections#wpf_binding_leak
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [XNameWpf_LearnMoreLink] = Inspections#xname
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article5_Link] = http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_ComparingSnapshots_Link] = https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [DuplicatedStrings_LearnMoreLink] = Inspections#strings_leak
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [EventHandlersInspection_LearnMoreLink] = Inspections#event_handlers_leak
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ExportObject_Filter_Bson] = BSON
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ExportObject_Filter_Json] = JSON
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [FinalizedObjects_LearnMoreLink] = Inspections#finalized_objects
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [GexfFiles_FileFilter_Extension] = .gexf
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_AnalyzingRoots_Link] = https://www.jetbrains.com/help/dotmemory/Analyzing_GC_Roots.html
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article1_Link] = http://blog.jetbrains.com/dotnet/2014/07/10/unusual-ways-of-boosting-up-app-performance-boxing-and-collections/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial1_Link] = https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_BySubsystem_LearnMore_Link] = Analyze_Memory_Allocation
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AutomaticInspections_Link] = https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectSetKeyPaths_LearnMore_Link] = Similar_Retention
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WorkspaceFileName_IIS] = IIS
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ExportObject_Filter_Bson] = BSON
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [OpenInPortableDotMemory_PortableExe_Error_OKButton_Text] = OK
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectSetOrigin_Kind_XNameWpf_XName] = x:Name="{0}"
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [MainView_HomeMode_Tooltip] = Ctrl+H
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [GexfFiles_FileFilter_Extension] = .gexf
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [MainView_WorkspaceMode_Tooltip] = Ctrl+W
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article4_Link] = http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [VsFacade_Title_Format] = {0} - Visual Studio
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [DuplicatedStrings_LearnMoreLink] = Inspections#strings_leak
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_SnapshotOverview_Link] = https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_MeetDotMemory_Link] = https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_ByCallTree_LearnMore_Link] = Analyze_Memory_Allocation
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [SparseArrays_LearnMoreLink] = Inspections#sparse_arrays
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [EventHandlersInspection_LearnMoreLink] = Inspections#event_handlers_leak
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ExportObject_Filter_Json] = JSON
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [VsFacade_DefaultTitle] = Visual Studio
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article2_Link] = http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article3_Link] = http://blog.jetbrains.com/dotnet/2014/07/24/unusual-ways-of-boosting-up-app-performance-lambdas-and-linqs/
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [FinalizedObjects_LearnMoreLink] = Inspections#finalized_objects
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectIncoming_LearnMore_Link] = Incoming_References
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Ok] = OK
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [NotifyLimitReached_Link] = https://intellij.com/inotify-instances
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WorkspaceFileName_IIS_Express] = IIS Express
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article4_Link] = http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article5_Link] = http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article6_Link] = http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial1_Link] = https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial2_Link] = https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AnalyzingAnInstance_Link] = https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AnalyzingAnObjectSet_Link] = https://www.youtube.com/watch?v=2UgKsHUVTFQ&index=7&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ZipFiles_FileFilter_Extension] = .zip
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AnalyzingMemoryTraffic_Link] = https://www.youtube.com/watch?v=03UOt5h42UU&index=10&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AutomaticInspections_Link] = https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_ComparingSnapshots_Link] = https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_GettingStarted_Link] = https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_MeetDotMemory_Link] = https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_SnapshotOverview_Link] = https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_TheProfilingWorkflow_Link] = https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [MainView_HomeMode_Tooltip] = Ctrl+H
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [MainView_WorkspaceMode_Tooltip] = Ctrl+W
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [NotifyLimitReached_Link] = https://intellij.com/inotify-instances
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectCallStack_LearnMore_Link] = Creation_Stack_Trace_instance
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectIncoming_LearnMore_Link] = Incoming_References
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectSetByClass_LearnMore_Link] = Type_List
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectSetKeyPaths_LearnMore_Link] = Similar_Retention
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ObjectSetOrigin_Kind_XNameWpf_XName] = x:Name="{0}"
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Ok] = OK
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [OkCancelWrapper_OkButton_DefaultText] = OK
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [OpenInPortableDotMemory_PortableExe_Error_OKButton_Text] = OK
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ProfileConfiguration_IISExpress_ApplicationPath] = ApplicationPath:
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_ByCallTree_LearnMore_Link] = Analyze_Memory_Allocation
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_BySubsystem_LearnMore_Link] = Analyze_Memory_Allocation
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [RangeAllocations_UsageTip_Link] = Analyze_Memory_Allocation
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [SparseArrays_LearnMoreLink] = Inspections#sparse_arrays
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [UnreachableObjects_LearnMore_Link] = Unreachable_Objects
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [VsFacade_DefaultTitle] = Visual Studio
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [VsFacade_Title_Format] = {0} - Visual Studio
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WorkspaceFileName_IIS] = IIS
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WorkspaceFileName_IIS_Express] = IIS Express
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WpfBinding_LearnMoreLink] = Inspections#wpf_binding_leak
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [WpfCollectionBinding_LearnMoreLink] = Inspections#wpf_collection_binding_leak
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [XNameWpf_Column_XName] = x:Name
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [XNameWpf_LearnMoreLink] = Inspections#xname
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ZipFiles_FileFilter_Extension] = .zip
   JetBrains.DotPeek.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SearchAutoHideSettingDescription] = SearchAutoHide
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [OpenSaveDialogSettingsSettingDescription] = OpenSaveDialogSettings
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [FollowSelectionSettingDescription] = FollowSelection
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SaveDirectorySettingDescription] = SaveDirectory
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowUnresolvedCallFramesSettingDescription] = ShowUnresolvedCallFrames
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [AutoShowSystemMethodsSettingDescription] = AutoShowSystemMethods
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowOtherSubsystemsWhenFilterAppliedSettingDescription] = ShowOtherSubsystemsWhenFilterApplied
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [AsyncSupportSettingDescription] = AsyncSupport
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [AutoShowSystemMethodsSettingDescription] = AutoShowSystemMethods
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [CallTreePresentationSettingsSettingDescription] = CallTreePresentationSettings
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SortByTotalSettingDescription] = SortByTotal
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [FollowSelectionSettingDescription] = FollowSelection
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [MergeMissedCallstackTypesSettingDescription] = MergeMissedCallstackTypes
-  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowSystemFunctionsSettingDescription] = ShowSystemFunctions
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [OpenSaveDialogSettingsSettingDescription] = OpenSaveDialogSettings
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [PlainListPresentationSettingsSettingDescription] = PlainListPresentationSettings
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_HttpRequest_ShortName] = HTTP
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Filters_Threads_IDColumn] = ID
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Filters_NativeAllocationIsClosed_Name] = IsClosed
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Mono] = Mono
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SaveDirectorySettingDescription] = SaveDirectory
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SearchAutoHideSettingDescription] = SearchAutoHide
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowOtherSubsystemsWhenFilterAppliedSettingDescription] = ShowOtherSubsystemsWhenFilterApplied
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowSystemFunctionsSettingDescription] = ShowSystemFunctions
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [ShowUnresolvedCallFramesSettingDescription] = ShowUnresolvedCallFrames
+  JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [SortByTotalSettingDescription] = SortByTotal
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Filters_HttpRequestUrl_Name] = URL
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_SqlCommand_ShortName] = SQL
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Filters_NativeAllocationIsClosed_Name] = IsClosed
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Filters_Threads_IDColumn] = ID
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_HttpRequest_ShortName] = HTTP
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_Jitting_ShortName] = JIT
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_SqlCommand_ShortName] = SQL
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Mono] = Mono
   JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx: ru==en [LoadPdbSettingDescription] = LoadPdb
   JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx: ru==en [TimelineProcessingSettingsSettingDescription] = TimelineProcessingSettings
   JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [UseStackWalkSyncOnWindowsSettingDescription] = UseStackWalkSyncOnWindows
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [EntryPoint_Unity_Footer_Header] = Unity
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [EntryPoint_Unreal_Footer_Header] = Unreal Engine
+  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [UseStackWalkSyncOnWindowsSettingDescription] = UseStackWalkSyncOnWindows
   JetBrains.DotTrace.Ide.Rider.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
+  JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotInstantActivateNodeActionText] = DotInstantActivateNode
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotInstantOptionPageTitle] = dotInstant
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotTraceVSDebugActionActionText] = DotTraceVSDebugAction
-  JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotInstantActivateNodeActionText] = DotInstantActivateNode
   JetBrains.EntityFramework.Features.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Fleet.Backend.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ForTea.RiderPlugin.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
@@ -394,53 +393,53 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx: ru==en [_VisualStudio_Text] = _Visual Studio
   JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
+  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [InternalTreasury_Text] = Internal Treasury
   JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [Shift_Text] = Shift
   JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [Tab_Text] = Tab
-  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [InternalTreasury_Text] = Internal Treasury
   JetBrains.Profiler.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [UrlSettingDescription] = URL
-  JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [DiagramPartKeptOpenSettingDescription] = DiagramPartKeptOpen
   JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [AlwaysOnTopSettingDescription] = AlwaysOnTop
-  JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [ControllerUiSettingsSettingDescription] = ControllerUiSettings
   JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [ControllerRectSettingDescription] = ControllerRect
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RunBrowser_Url] = URL
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_IIS_Name] = IIS
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [Argument_PresentableName_IIS] = IIS
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ProcessTable_Column_Pid] = PID
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [Argument_PresentableName_Silverlight] = Silverlight
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_Mono] = Mono
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_IISExpress_Name] = IIS Express
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Unity_Name] = Unity
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_CoreCLR] = CoreCLR
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_CLR] = CLR
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Unreal_Name] = Unreal Engine
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Maui_Name] = MAUI
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_WinRT_Name] = WinRT
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_Silverlight] = Silverlight
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_Mono] = Mono
+  JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [ControllerUiSettingsSettingDescription] = ControllerUiSettings
+  JetBrains.Profiler.InternalLauncher.Resources.Strings.ru-RU.resx: ru==en [DiagramPartKeptOpenSettingDescription] = DiagramPartKeptOpen
   JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [AnyDotNetWarningHeader] = .NET 6.0+
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_Unity] = Unity
   JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_IISExpress] = IIS Express
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Mono_Name] = Mono
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_Mono] = Mono
   JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_NetCore] = .NET Core
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ApplicationKind_Unity] = Unity
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [Argument_PresentableName_IIS] = IIS
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [Argument_PresentableName_Silverlight] = Silverlight
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_IIS_Name] = IIS
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_IISExpress_Name] = IIS Express
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Maui_Name] = MAUI
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Mono_Name] = Mono
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Unity_Name] = Unity
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_Unreal_Name] = Unreal Engine
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [NewRunCfg_AppType_WinRT_Name] = WinRT
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [ProcessTable_Column_Pid] = PID
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RunBrowser_Url] = URL
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_CLR] = CLR
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_CoreCLR] = CoreCLR
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_Mono] = Mono
+  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ru==en [RuntimeType_Silverlight] = Silverlight
   JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx: ru==en [DotnetWorkloadInstall__Text] = dotnet workload install {0}
   JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx: ru==en [NHintPath__Text] = 
 HintPath: {0}
   JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx: ru==en [SudoDotnetWorkloadInstall__Text] = sudo dotnet workload install {0}
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [DiagnosticSubsystem_Roslyn] = Roslyn
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [ReSharperBuild__Text] = ReSharper Build – {0}
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [NuGetSettingDescription] = NuGet
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [Temp] = Temp
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [IncludePrereleaseSettingDescription] = IncludePrerelease
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [MsBuild_Text] = MsBuild
-  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [OK_ButtonText] = OK
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [NuGetSettingDescription] = NuGet
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [ReSharperBuild__Text] = ReSharper Build – {0}
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [Temp] = Temp
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Editors_Sequential_Label_Text] = Then By
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Elements_And_Text] = And
   JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Elements_Extern_Text] = Extern
   JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Elements_Or_Text] = Or
-  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [TodoItemPatternWindow_Url_Label] = URL:
-  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Editors_Sequential_Label_Text] = Then By
   JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_XAML_Text] = XAML
-  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [FileLayoutDesigner_Elements_And_Text] = And
-  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [OK_ButtonText] = OK
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ru==en [TodoItemPatternWindow_Url_Label] = URL:
   JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx: ru==en [_VisualStudio_Text] = _Visual Studio
@@ -455,115 +454,115 @@ HintPath: {0}
   JetBrains.Qodana.VisualStudio.Common.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.RdBackend.Common.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.AI.Core.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [CqrsDebug] = CqrsDebug
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [CqrsDebug] = CqrsDebug
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [Params_Text] = 'params'
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [Preview_Text] = 'preview'
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [Struct_Text] = struct
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [ValueType_Text] = ValueType
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [Preview_Text] = 'preview'
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ru==en [Params_Text] = 'params'
   JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx: ru==en [MVCConfigurableSeverityCompoundItemName] = MVC
   JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx: ru==en [EntityFrameworkSettingsPageName] = Entity Framework
   JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
-  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [FROM_Text] = FROM
   JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
-  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [JOIN_Text] = JOIN
   JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [DDL_Text] = DDL
-  JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ru==en [NuGetPackagesConfig_Text] = NuGet packages.config
+  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [FROM_Text] = FROM
+  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [JOIN_Text] = JOIN
   JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ru==en [ILViewerCodeTypeILText] = IL
+  JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ru==en [NuGetPackagesConfig_Text] = NuGet packages.config
   JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx: ru==en [AIAssistantZone_FeatureName] = AI Assistant
   JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx: ru==en [ProtobufSettingDescription] = Protobuf
   JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx: ru==en [ProtobufOptionPageTitle] = Protobuf
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [VisualStudio_Text] = Visual Studio
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NUnit_Text] = NUnit
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [ReSharper_Text] = ReSharper
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PushToHint_Indicator_ConfigureDefaultVisibility_PushToHint] = Push-to-Hint
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [UnrealHeaderTool_Text] = UnrealHeaderTool
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFramework_Text] = Entity Framework
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EvaluatesToTheSpecifiedConstantValueMacroDefinition_Description] = {#0:Constant value}
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [Tab_Key_In_Formatting_Text] = Tab
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PackageCheckerZone_FeatureName] = Package Checker
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NETCore_Text] = .NET Core
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [SearchUrl] = URL:
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [Xunit_Text] = Xunit
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [SqlSettingsKeyDescription] = SQL / NoSQL
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFrameworkZone_FeatureName] = Entity Framework
+  JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx: ru==en [ProtobufSettingDescription] = Protobuf
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFramework_Text] = Entity Framework
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFrameworkZone_FeatureName] = Entity Framework
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EvaluatesToTheSpecifiedConstantValueMacroDefinition_Description] = {#0:Constant value}
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NETCore_Text] = .NET Core
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NUnit_Text] = NUnit
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PackageCheckerZone_FeatureName] = Package Checker
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PushToHint_Indicator_ConfigureDefaultVisibility_PushToHint] = Push-to-Hint
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [ReSharper_Text] = ReSharper
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [SearchUrl] = URL:
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [SqlSettingsKeyDescription] = SQL / NoSQL
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [Tab_Key_In_Formatting_Text] = Tab
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [UnrealEngine_Text] = Unreal Engine
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [UnrealHeaderTool_Text] = UnrealHeaderTool
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [VisualStudio_Text] = Visual Studio
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [Xunit_Text] = Xunit
   JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings.ru-RU.resx: ru==en [VBNETSettingDescription] = VB.NET
   JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings.ru-RU.resx: ru==en [VisualBasicOptionPageTitle] = Visual Basic
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptOptionPageTitle] = JavaScript
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JSONOptionPageTitle] = JSON
   JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [ASPNETOptionPageTitle] = ASP.NET
   JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [CSSOptionPageTitle] = CSS
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptOptionPageTitle] = TypeScript
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [NodeJs_Header_Text] = Node.js
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptSettingDescription] = TypeScript
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [HTMLSettingDescription] = HTML
   JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [CSSSettingDescription] = CSS
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [HTMLOptionPageTitle] = HTML
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [HTMLSettingDescription] = HTML
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptOptionPageTitle] = JavaScript
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptSettingDescription] = JavaScript
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JSONOptionPageTitle] = JSON
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JSONSettingDescription] = JSON
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [NodeJs_Header_Text] = Node.js
   JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [NodeJsOptionPageTitle] = Node.js
   JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [RazorOptionPageTitle] = Razor
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [HTMLOptionPageTitle] = HTML
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptSettingDescription] = JavaScript
-  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [JSONSettingDescription] = JSON
-  JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx: ru==en [XAMLOptionPageTitle] = XAML
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptOptionPageTitle] = TypeScript
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptSettingDescription] = TypeScript
   JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx: ru==en [DataContext_Header_Text] = DataContext
+  JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings.ru-RU.resx: ru==en [XAMLOptionPageTitle] = XAML
   JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings.ru-RU.resx: ru==en [XMLOptionPageTitle] = XML
   JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx: ru==en [GroupingIdSettingDescription] = GroupingId
   JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx: ru==en [IntelliJIDEA_Option_Text] = IntelliJ IDEA
-  JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [VisualBasicNET_Header_Text] = Visual Basic
-  JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [VBOptionPageTitle] = VB
   JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [IntelliSenseOptionPageTitle] = IntelliSense
   JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [MSBuildSettingDescription] = MSBuild
+  JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [VBOptionPageTitle] = VB
+  JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [VisualBasicNET_Header_Text] = Visual Basic
   JetBrains.ReSharper.Features.Intellisense.Resources.Strings.ru-RU.resx: ru==en [XAMLSettingDescription] = XAML
   JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings.ru-RU.resx: ru==en [VBNETSettingDescription] = VB.NET
   JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx: ru==en [PsiActionGroupText] = PSI
-  JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultToggleBreakpointActionText] = FindResult.ToggleBreakpoint
-  JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultEnableBreakpointActionText] = FindResult.EnableBreakpoint
   JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
+  JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultEnableBreakpointActionText] = FindResult.EnableBreakpoint
+  JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultToggleBreakpointActionText] = FindResult.ToggleBreakpoint
   JetBrains.ReSharper.Features.ReSpeller.Resources.Strings.ru-RU.resx: ru==en [ReSpellerOptionPageTitle] = ReSpeller
   JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ru==en [SolutionBuilderZone_FeatureName] = ReSharper Build
   JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [ESLintOptionPageTitle] = ESLint
-  JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [TSLintOptionPageTitle] = TSLint
   JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [JSLintOptionPageTitle] = JSLint
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptSettingDescription] = JavaScript
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [RazorOptionPageTitle] = Razor
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [HtmlOptionPageTitle] = Html
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [RazorSettingDescription] = Razor
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_QVNQLk5FVCBNVkMgVXJsLkFjdGlvbgEQEQ] = ASP.NET MVC Url.Action
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [CSSSettingDescription] = CSS
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [ASPNETSettingDescription] = ASP.NET
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptSettingDescription] = TypeScript
+  JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [TSLintOptionPageTitle] = TSLint
   JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [ASPNET_Caption] = ASP.NET
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [HtmlSettingDescription] = Html
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_QVNQLk5FVCBNVkMgSHRtbC5BY3Rpb25MaW5r] = ASP.NET MVC Html.ActionLink
   JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [ASPNETOptionPageTitle] = ASP.NET
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [ASPNETSettingDescription] = ASP.NET
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [CSSSettingDescription] = CSS
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [HtmlOptionPageTitle] = Html
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [HtmlSettingDescription] = Html
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [JavaScriptSettingDescription] = JavaScript
   JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [Razor_Caption] = Razor
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [RazorOptionPageTitle] = Razor
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [RazorSettingDescription] = Razor
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_QVNQLk5FVCBNVkMgSHRtbC5BY3Rpb25MaW5r] = ASP.NET MVC Html.ActionLink
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_QVNQLk5FVCBNVkMgVXJsLkFjdGlvbgEQEQ] = ASP.NET MVC Url.Action
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ru==en [TypeScriptSettingDescription] = TypeScript
   JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.ReSharper.Intentions.Web.Resources.Strings.ru-RU.resx: ru==en [Typescriptify_Text] = Typescriptify
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3luY0xvY2sEQ] = SyncLock
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ] = Console.WriteLine
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_cHVibGljIGNvbnN0IGludAEQEQ] = public const int
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_cHVibGljIGNvbnN0IHN0cmluZwEQEQ] = public const string
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SWYuLkVsc2UEQ] = If..Else
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_dHJ5IGZpbmFsbHkEQ] = try finally
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_Q1R5cGUEQ] = CType
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_VHJ5Q2FzdAEQEQ] = TryCast
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_RGlyZWN0Q2FzdAEQEQ] = DirectCast
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_cHVibGljIHN0YXRpYyByZWFkb25seQEQEQ] = public static readonly
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_dHJ5IGNhdGNo] = try catch
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ] = Public Shared Sub Main
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_dHJ5IGZpbmFsbHkEQ] = try finally
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_Q1R5cGUEQ] = CType
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ] = Console.WriteLine
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_RGlyZWN0Q2FzdAEQEQ] = DirectCast
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SWYEQ] = If
-  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_VXNpbmcEQ] = Using
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SWYuLkVsc2UEQ] = If..Else
   JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_TWVzc2FnZUJveC5TaG93] = MessageBox.Show
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3luY0xvY2sEQ] = SyncLock
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ] = Public Shared Sub Main
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_VHJ5Q2FzdAEQEQ] = TryCast
+  JetBrains.ReSharper.LiveTemplates.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_VXNpbmcEQ] = Using
   JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
@@ -571,85 +570,85 @@ HintPath: {0}
   JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UxmlUnity_Text] = Uxml (Unity)
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_WindowTitle] = ComponentData
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SUNvbXBvbmVudERhdGEEQ] = IComponentData
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_TW9ubyBCZWhhdmlvdXIEQ] = Mono Behaviour
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3lzdGVtQmFzZQEQEQ] = SystemBase
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U2NyaXB0YWJsZSBXaXphcmQEQ] = Scriptable Wizard
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_RE9UUwEQEQ] = DOTS
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_WindowTitle] = Baker
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [TypeDetector_AddDeclarationHighlighting_DOTS] = DOTS
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnitySettings_Dots_Header] = DOTS
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityBurst_Text] = Unity Burst
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SVN5c3RlbQEQEQ] = ISystem
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3RhdGUgTWFjaGluZSBCZWhhdmlvdXIEQ] = State Machine Behaviour
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SUpvYkVudGl0eQEQEQ] = IJobEntity
   JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [InputActionsProjectFileType_InputActionsProjectFileType_InputActions__Unity_] = InputActions (Unity)
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndComponent_ComponentData] = ComponentData
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U2NyaXB0YWJsZSBPYmplY3QEQ] = Scriptable Object
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndAuthoring_Baker] = Baker
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_RE9UUwEQEQ] = DOTS
   JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SUFzcGVjdAEQEQ] = IAspect
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SUNvbXBvbmVudERhdGEEQ] = IComponentData
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SUpvYkVudGl0eQEQEQ] = IJobEntity
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_SVN5c3RlbQEQEQ] = ISystem
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_TW9ubyBCZWhhdmlvdXIEQ] = Mono Behaviour
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U2NyaXB0YWJsZSBPYmplY3QEQ] = Scriptable Object
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U2NyaXB0YWJsZSBXaXphcmQEQ] = Scriptable Wizard
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3lzdGVtQmFzZQEQEQ] = SystemBase
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [Template_Editable_U3RhdGUgTWFjaGluZSBCZWhhdmlvdXIEQ] = State Machine Behaviour
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [TypeDetector_AddDeclarationHighlighting_DOTS] = DOTS
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityBurst_Text] = Unity Burst
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndAuthoring_Baker] = Baker
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_WindowTitle] = Baker
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndComponent_ComponentData] = ComponentData
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_WindowTitle] = ComponentData
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UnitySettings_Dots_Header] = DOTS
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UxmlUnity_Text] = Uxml (Unity)
   JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx: ru==en [ReSharperProductZone_FeatureName] = ReSharper
   JetBrains.ReSharper.Psi.Asm.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx: ru==en [LanguageBuildScriptsZone_FeatureName] = MsBuild
   JetBrains.ReSharper.Psi.Cpp.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Enum_Text] = enum
-  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Record_Text] = record
-  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Event_Text] = event
-  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Interface_Text] = interface
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Class_Text] = class
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Delegate_Text] = delegate
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Enum_Text] = enum
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Event_Text] = event
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Interface_Text] = interface
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Record_Text] = record
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Struct_Text] = struct
   JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx: ru==en [LanguageProtobufZone_FeatureName] = Protobuf
+  JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [CRLFWindows_Description_Text] = CR+LF (Windows)
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [EditorconfigGeneratedCodeSettingDescription] = .editorconfig generated_code
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [LFUnixMacOSX_Description_Text] = LF (Unix, Mac OS X)
-  JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [CRLFWindows_Description_Text] = CR+LF (Windows)
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [SettingsStyleCop_Description_Text] = Settings.StyleCop
-  JetBrains.ReSharper.Psi.Resources.Strings1.ru-RU.resx: ru==en [Angular2X_Description_Text] = Angular 2.x
   JetBrains.ReSharper.Psi.Resources.Strings1.ru-RU.resx: ru==en [Angular1X_Description_Text] = Angular 1.x
+  JetBrains.ReSharper.Psi.Resources.Strings1.ru-RU.resx: ru==en [Angular2X_Description_Text] = Angular 2.x
   JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx: ru==en [Output_Text] = <output>
   JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx: ru==en [Reference_Text] = <reference>
   JetBrains.ReSharper.Refactorings.Properties.Resources.ru-RU.resx: ru==en [RenameInitialControl_Title] = sdf
-  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [Return_Text] = return
-  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [RefOut_Text] = ref out
-  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [RefIn_Text] = ref in
-  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [Out_Text] = out
   JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [In_Text] = in
+  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [Out_Text] = out
+  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [RefIn_Text] = ref in
+  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [RefOut_Text] = ref out
+  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ru==en [Return_Text] = return
   JetBrains.ReSharper.UnitTestExplorer.Resources.Strings.ru-RU.resx: ru==en [IntegrationTestsTargetActionText] = IntegrationTests.Target
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET47ActionText] = .NET4.7
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET45ActionText] = .NET4.5
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET20ActionText] = .NET2.0
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformType_Arm_Name] = ARM
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_NetCoreApp_ShortName] = netcoreapp
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net47_Name] = .NET4.7
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net46_Name] = .NET4.6
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net46_ShortName] = net46
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_NetCoreApp_Name] = NETCoreApp
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net45_ShortName] = net45
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net20_ShortName] = net20
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net47_ShortName] = net47
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [Arm64ActionText] = ARM64
   JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [ArmActionText] = ARM
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET20ActionText] = .NET2.0
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET40ActionText] = .NET4.0
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET45ActionText] = .NET4.5
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET46ActionText] = .NET4.6
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET47ActionText] = .NET4.7
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformType_Arm_Name] = ARM
   JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformType_Arm64_Name] = ARM64
   JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net20_Name] = .NET2.0
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net20_ShortName] = net20
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net40_Name] = .NET4.0
   JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net40_ShortName] = net40
   JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net45_Name] = .NET4.5
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET46ActionText] = .NET4.6
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net40_Name] = .NET4.0
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [NET40ActionText] = .NET4.0
-  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [Arm64ActionText] = ARM64
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net45_ShortName] = net45
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net46_Name] = .NET4.6
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net46_ShortName] = net46
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net47_Name] = .NET4.7
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_Net47_ShortName] = net47
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_NetCoreApp_Name] = NETCoreApp
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ru==en [PlatformVersion_NetCoreApp_ShortName] = netcoreapp
   JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings.ru-RU.resx: ru==en [MSTestOptionPageTitle] = MSTest
   JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings.ru-RU.resx: ru==en [TestingPlatformOptionPageTitle] = Testing Platform
   JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings.ru-RU.resx: ru==en [VSTestOptionPageTitle] = VSTest
   JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings.ru-RU.resx: ru==en [PhantomJS_SingleRadioOption_Text] = PhantomJS
-  JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx: ru==en [NUnitOptionPageTitle] = NUnit
   JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx: ru==en [NUnit2_Header_Text] = NUnit 2
   JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx: ru==en [NUnit3_Header_Text] = NUnit 3
+  JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings.ru-RU.resx: ru==en [NUnitOptionPageTitle] = NUnit
+  JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx: ru==en [AssemblynameXml_Text_Text] = • {assemblyname}.xml
   JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx: ru==en [AssemblynameXunitRunnerJson_Text_Text] = • {assemblyname}.xunit.runner.json
   JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx: ru==en [XUnitNetOptionPageTitle] = xUnit.net
-  JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx: ru==en [AssemblynameXml_Text_Text] = • {assemblyname}.xml
   JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings.ru-RU.resx: ru==en [XunitRunnerJson_Text_Text] = • xunit.runner.json
   JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
@@ -675,16 +674,16 @@ HintPath: {0}
   JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.UI.Resources.CommonStrings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.UI.Resources.CommonStrings.ru-RU.resx: ru==en [ReSharper_Text] = ReSharper
-  JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradeFromExceptionReportSettingsKeySettingDescription] = UpgradeFromExceptionReportSettingsKey
-  JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradePerformedSettingDescription] = UpgradePerformed
   JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [DefaultReporterChangedSettingDescription] = UpgradePerformed
+  JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradeFromExceptionReportSettingsKeySettingDescription] = UpgradeFromExceptionReportSettingsKey
+  JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradePerformedSettingDescription] = UpgradePerformed
   JetBrains.ViewModels.Src.Options.Res.OptionsStrings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [_VisualStudio_Text] = _Visual Studio
-  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowOKButton_Text] = OK
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ConflictingShortcutWindowOkButton] = OK
-  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowVisualStudioTitle] = Visual Studio
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowIntellijIdeaTitle] = IntelliJ IDEA
+  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowOKButton_Text] = OK
+  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowVisualStudioTitle] = Visual Studio
   Mono.Debugging.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   OperatorsResolveCacheGenerator.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   RiderPlugin.UnrealLink.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)

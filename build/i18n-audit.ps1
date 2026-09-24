@@ -179,6 +179,17 @@ if ($missing.Count -gt 0) {
     [void]$sb.AppendLine("  пустых контейнеров (0 строковых записей):  $($empty.Count)")
     [void]$sb.AppendLine("  таблиц со строками:                        $($withStrings.Count), всего строк: $sumStrings")
     [void]$sb.AppendLine()
+
+    # Сводных чисел мало: чтобы разделить дефицит на «видно в VS», «расширение не
+    # установлено» и «дубли одного ресурса в нескольких DLL», нужен сам список
+    # таблиц с размером и числом строк, отсортированный по убыванию строк.
+    [void]$sb.AppendLine('--- ТАБЛИЦЫ СО СТРОКАМИ (строков | ресурс | DLL | байт) ---')
+    foreach ($w in ($withStrings | Sort-Object { -$strCountByName[$_.Name] }, Name)) {
+        $szText = if ($sizeByName[$w.Name]) { '{0}' -f $sizeByName[$w.Name] } else { '?' }
+        $dllsText = (@($w.Group | Select-Object -ExpandProperty Dll -Unique) -join ', ')
+        [void]$sb.AppendLine(('{0,6} | {1} | {2} | {3}' -f $strCountByName[$w.Name], $w.Name, $dllsText, $szText))
+    }
+    [void]$sb.AppendLine()
 }
 
 if ($stale.Count -gt 0) {
@@ -204,7 +215,7 @@ if ($scan.Failed.Count -gt 0) {
     foreach ($f in $scan.Failed | Sort-Object) { [void]$sb.AppendLine("  $f") }
 }
 
-[System.IO.File]::WriteAllText($ReportPath, $sb.ToString(), [System.Text.Encoding]::UTF8)
+[System.IO.File]::WriteAllText($ReportPath, ($sb.ToString() -replace "`r`n", "`n"), [System.Text.Encoding]::UTF8)
 Write-Host ''
 Write-Host 'ИТОГИ:'
 Write-Host "  Ресурсов в установке:   $($neutralSet.Count)"
