@@ -231,10 +231,14 @@ function Add-MkButton {
         $tt = New-Object System.Windows.Forms.ToolTip
         $tt.SetToolTip($b, $hint)
     }
-    $b.Add_Click({
+    # Обработчик клика живёт ПОСЛЕ возврата из функции, поэтому обязан замкнуть
+    # локальные $text/$body через GetNewClosure — иначе это динамический поиск в
+    # уже свёрнутой области Add-MkButton, $text пуст, а & $body падает на null.
+    $handler = {
         $log.AppendText([Environment]::NewLine + '=== ' + $text + ' ===' + [Environment]::NewLine)
         & $body
-    })
+    }.GetNewClosure()
+    $b.Add_Click($handler)
     [void]$btnPanel.Controls.Add($b)
     return $b
 }
