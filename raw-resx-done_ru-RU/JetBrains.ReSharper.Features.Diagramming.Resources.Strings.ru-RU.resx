@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -384,9 +384,9 @@
   <value>Показать возможные пути</value>
 </data>
 <data name="Diagramming_FeatureDescription" xml:space="preserve">
-  <value>РџРѕСЃС‚СЂРѕРµРЅРёРµ Рё Р°РЅР°Р»РёР· РіСЂР°С„РѕРІ Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№ С‚РёРїРѕРІ Рё РїСЂРѕРµРєС‚РѕРІ РІР°С€РµРіРѕ СЂРµС€РµРЅРёСЏ</value>
+  <value>Построение и анализ графов зависимостей типов и проектов вашего решения</value>
 </data>
 <data name="Diagramming_FeatureName" xml:space="preserve">
-  <value>Р”РёР°РіСЂР°РјРјС‹</value>
+  <value>Диаграммы</value>
 </data>
 </root>

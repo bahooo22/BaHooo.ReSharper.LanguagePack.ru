@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -375,9 +375,9 @@
   <value>Загрузка «Что нового»...</value>
 </data>
 <data name="VsDebuggerFeaturesZone_Description" xml:space="preserve">
-  <value>Р¤СѓРЅРєС†РёРё, СЃРІСЏР·Р°РЅРЅС‹Рµ СЃ РѕС‚Р»Р°РґС‡РёРєРѕРј Visual Studio</value>
+  <value>Функции, связанные с отладчиком Visual Studio</value>
 </data>
 <data name="VsDebuggerFeaturesZone_FeatureName" xml:space="preserve">
-  <value>Р¤СѓРЅРєС†РёРё РѕС‚Р»Р°РґС‡РёРєР°</value>
+  <value>Функции отладчика</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -280,12 +280,12 @@
   <value>Вызываемая функция: ничего не выбрано</value>
 </data>
 <data name="EmptyContentView_EnableFormat" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚Рµ РµРіРѕ РІ {0}.</value>
+  <value>Включите его в {0}.</value>
 </data>
 <data name="EmptyContentView_ProductIsDisabled" xml:space="preserve">
-  <value>РџСЂРѕС„РёР»РёСЂРѕРІС‰РёРє РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё dotTrace РѕС‚РєР»СЋС‡С‘РЅ.</value>
+  <value>Профилировщик производительности dotTrace отключён.</value>
 </data>
 <data name="EmptyContentView_SettingsLink" xml:space="preserve">
-  <value>РџР°СЂР°РјРµС‚СЂС‹</value>
+  <value>Параметры</value>
 </data>
 </root>

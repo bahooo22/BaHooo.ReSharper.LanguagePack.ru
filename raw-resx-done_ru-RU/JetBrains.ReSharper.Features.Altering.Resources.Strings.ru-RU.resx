@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -840,9 +840,9 @@ string output = string.Format(CultureInfo.InvariantCulture,
 string output = string.Format(CultureInfo.InvariantCulture, "{{0:yyyy-MM-dd}} {{1}}", date, message);</value>
 </data>
 <data name="ArrangementOfLambdaAndAnonymousFunctionSignatures_Text" xml:space="preserve">
-  <value>РЈРїРѕСЂСЏРґРѕС‡РµРЅРёРµ СЃРёРіРЅР°С‚СѓСЂ Р»СЏРјР±РґР°- Рё Р°РЅРѕРЅРёРјРЅС‹С… С„СѓРЅРєС†РёР№</value>
+  <value>Упорядочение сигнатур лямбда- и анонимных функций</value>
 </data>
 <data name="EmptyStrings_Text" xml:space="preserve">
-  <value>РџСѓСЃС‚Р°СЏ СЃС‚СЂРѕРєР°</value>
+  <value>Пустая строка</value>
 </data>
 </root>

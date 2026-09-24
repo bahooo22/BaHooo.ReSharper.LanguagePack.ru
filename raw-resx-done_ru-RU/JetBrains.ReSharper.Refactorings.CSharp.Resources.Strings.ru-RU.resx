@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1000,39 +1000,39 @@
   <value>Будет использован существующий член</value>
 </data>
 <data name="ConvertToLogMethod_AttributeValueIsConstant_ConflictText" xml:space="preserve">
-  <value>РЈ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРіРѕ РјРµС‚РѕРґР° '{0}' РєРѕРЅСЃС‚Р°РЅС‚Р° {1} = {2}, РЅРѕ РІ РІС‹Р·РѕРІРµ РЅРµ Р±С‹Р»Рѕ Р·РЅР°С‡РµРЅРёСЏ {1}</value>
+  <value>У существующего метода '{0}' константа {1} = {2}, но в вызове не было значения {1}</value>
 </data>
 <data name="ConvertToLogMethod_AttributeValueMismatch_ConflictText" xml:space="preserve">
-  <value>РЈ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРіРѕ РјРµС‚РѕРґР° '{0}' РєРѕРЅСЃС‚Р°РЅС‚Р° {1} = {2}, РЅРѕ РІ РІС‹Р·РѕРІРµ Р±С‹Р»Рѕ Р·РЅР°С‡РµРЅРёРµ {1} = {3}</value>
+  <value>У существующего метода '{0}' константа {1} = {2}, но в вызове было значение {1} = {3}</value>
 </data>
 <data name="ConvertToLogMethod_ExistingMethodExceptionMismatch_ConflictText" xml:space="preserve">
-  <value>РЎСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РјРµС‚РѕРґ '{0}' РѕР±СЉСЏРІР»СЏРµС‚ РїР°СЂР°РјРµС‚СЂ РёСЃРєР»СЋС‡РµРЅРёСЏ С‚РёРїР° {1}, РєРѕС‚РѕСЂС‹Р№ РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ С‚РёРїР° РёСЃС…РѕРґРЅРѕРіРѕ Р°СЂРіСѓРјРµРЅС‚Р° {2}</value>
+  <value>Существующий метод '{0}' объявляет параметр исключения типа {1}, который отличается от типа исходного аргумента {2}</value>
 </data>
 <data name="ConvertToLogMethod_ExistingMethodExceptionWillBeCreated_ConflictText" xml:space="preserve">
-  <value>РЎСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РјРµС‚РѕРґ '{0}' РЅРµ РѕР±СЉСЏРІР»СЏРµС‚ РїР°СЂР°РјРµС‚СЂ РёСЃРєР»СЋС‡РµРЅРёСЏ; Р±СѓРґРµС‚ СЃРѕР·РґР°РЅ РїР°СЂР°РјРµС‚СЂ С‚РёРїР° {1}</value>
+  <value>Существующий метод '{0}' не объявляет параметр исключения; будет создан параметр типа {1}</value>
 </data>
 <data name="ConvertToLogMethod_ExistingMethodExceptionWillChange_ConflictText" xml:space="preserve">
-  <value>РЎСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РјРµС‚РѕРґ '{0}' РѕР±СЉСЏРІР»СЏРµС‚ РїР°СЂР°РјРµС‚СЂ РёСЃРєР»СЋС‡РµРЅРёСЏ С‚РёРїР° {1}, РѕРЅ Р±СѓРґРµС‚ РѕР±РѕР±С‰С‘РЅ РґРѕ {2}</value>
+  <value>Существующий метод '{0}' объявляет параметр исключения типа {1}, он будет обобщён до {2}</value>
 </data>
 <data name="ConvertToLogMethod_ParameterMissed_ConflictText" xml:space="preserve">
-  <value>РЎСѓС‰РµСЃС‚РІСѓСЋС‰РёР№ РјРµС‚РѕРґ '{0}' РґРѕР»Р¶РµРЅ РёРјРµС‚СЊ РїР°СЂР°РјРµС‚СЂ С‚РёРїР° {1}</value>
+  <value>Существующий метод '{0}' должен иметь параметр типа {1}</value>
 </data>
 <data name="ConvertToLogMethod_ParameterToBeIntroduced_ConflictText" xml:space="preserve">
-  <value>РЈ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµРіРѕ РјРµС‚РѕРґР° '{0}' РЅРµС‚ РїР°СЂР°РјРµС‚СЂР° С‚РёРїР° {1}, РѕРЅ Р±СѓРґРµС‚ РґРѕР±Р°РІР»РµРЅ</value>
+  <value>У существующего метода '{0}' нет параметра типа {1}, он будет добавлен</value>
 </data>
 <data name="CreateExtensionMethodDeclarationBelowTheCurrent_Text" xml:space="preserve">
-  <value>РЎРѕР·РґР°С‚СЊ РѕР±СЉСЏРІР»РµРЅРёРµ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ РЅРёР¶Рµ С‚РµРєСѓС‰РµРіРѕ</value>
+  <value>Создать объявление метода расширения ниже текущего</value>
 </data>
 <data name="CreateExtensionPropertyDeclarationBelowTheCurrent_Text" xml:space="preserve">
-  <value>РЎРѕР·РґР°С‚СЊ РѕР±СЉСЏРІР»РµРЅРёРµ СЃРІРѕР№СЃС‚РІР° СЂР°СЃС€РёСЂРµРЅРёСЏ РЅРёР¶Рµ С‚РµРєСѓС‰РµРіРѕ</value>
+  <value>Создать объявление свойства расширения ниже текущего</value>
 </data>
 <data name="ExtractExtensionMethod_Text" xml:space="preserve">
-  <value>РР·РІР»РµС‡СЊ РјРµС‚РѕРґ СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Извлечь метод расширения</value>
 </data>
 <data name="ExtractExtensionProperty_Text" xml:space="preserve">
-  <value>РР·РІР»РµС‡СЊ СЃРІРѕР№СЃС‚РІРѕ СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Извлечь свойство расширения</value>
 </data>
 <data name="NestedLoggerClassesAreNotSupportedYet_Text" xml:space="preserve">
-  <value>РЎРѕР·РґР°РЅРёРµ РІР»РѕР¶РµРЅРЅС‹С… РєР»Р°СЃСЃРѕРІ Р»РѕРіРіРµСЂР° РїРѕРєР° РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚СЃСЏ</value>
+  <value>Создание вложенных классов логгера пока не поддерживается</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -139,9 +139,9 @@
     <value>Форматирование кода в Resx</value>
 </data>
 <data name="LanguageResxZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° С„Р°Р№Р»РѕРІ .resx Рё РґСЂСѓРіРёС… С„Р°Р№Р»РѕРІ СЂРµСЃСѓСЂСЃРѕРІ</value>
+  <value>Поддержка файлов .resx и других файлов ресурсов</value>
 </data>
 <data name="LanguageResxZone_FeatureName" xml:space="preserve">
-  <value>РРЅС‚РµСЂРЅР°С†РёРѕРЅР°Р»РёР·Р°С†РёСЏ</value>
+  <value>Интернационализация</value>
 </data>
 </root>

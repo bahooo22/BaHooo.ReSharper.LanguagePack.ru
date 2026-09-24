@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -2072,39 +2072,39 @@ URI: {0}
   <value>Резервное хранилище композитного хранилища настроек по умолчанию</value>
 </data>
 <data name="CollectLogsActionText" xml:space="preserve">
-  <value>РЎРѕР±СЂР°С‚СЊ Р¶СѓСЂРЅР°Р»С‹</value>
+  <value>Собрать журналы</value>
 </data>
 <data name="EnableAIAssistant" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ AI Assistant</value>
+  <value>Включить AI Assistant</value>
 </data>
 <data name="FailedToCollectLogFiles_Text" xml:space="preserve">
-  <value>РќРµ СѓРґР°Р»РѕСЃСЊ СЃРѕР±СЂР°С‚СЊ С„Р°Р№Р»С‹ Р¶СѓСЂРЅР°Р»РѕРІ</value>
+  <value>Не удалось собрать файлы журналов</value>
 </data>
 <data name="FailedToCollectLogs_Text" xml:space="preserve">
-  <value>РќРµ СѓРґР°Р»РѕСЃСЊ СЃРѕР±СЂР°С‚СЊ С„Р°Р№Р»С‹ Р¶СѓСЂРЅР°Р»РѕРІ. РџРѕРґСЂРѕР±РЅРѕСЃС‚Рё вЂ” РІ Р¶СѓСЂРЅР°Р»Рµ.</value>
+  <value>Не удалось собрать файлы журналов. Подробности — в журнале.</value>
 </data>
 <data name="IncludedLogsMayContainSensitiveData_Text" xml:space="preserve">
-  <value>РЎРѕР±СЂР°РЅРЅС‹Рµ Р¶СѓСЂРЅР°Р»С‹ РјРѕРіСѓС‚ СЃРѕРґРµСЂР¶Р°С‚СЊ РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ. РЎРѕР·РґР°С‚СЊ zip-Р°СЂС…РёРІ Рё РѕС‚РєСЂС‹С‚СЊ РµРіРѕ РІ РїСЂРѕРІРѕРґРЅРёРєРµ Windows?</value>
+  <value>Собранные журналы могут содержать конфиденциальные данные. Создать zip-архив и открыть его в проводнике Windows?</value>
 </data>
 <data name="InternalOptionPageTitle" xml:space="preserve">
-  <value>Р’РЅСѓС‚СЂРµРЅРЅРёРµ</value>
+  <value>Внутренние</value>
 </data>
 <data name="IVsOnlyInProcessZone_Description" xml:space="preserve">
-  <value>Р—Р°РїСѓСЃРє РІ РѕРґРЅРѕРј РїСЂРѕС†РµСЃСЃРµ</value>
+  <value>Запуск в одном процессе</value>
 </data>
 <data name="IVsOnlyInProcessZone_FeatureName" xml:space="preserve">
-  <value>Р’ РїСЂРѕС†РµСЃСЃРµ</value>
+  <value>В процессе</value>
 </data>
 <data name="OneOrMoreLogsCannotBeCollectedError_Text" xml:space="preserve">
-  <value>РќРµ СѓРґР°Р»РѕСЃСЊ СЃРѕР±СЂР°С‚СЊ РѕРґРёРЅ РёР»Рё РЅРµСЃРєРѕР»СЊРєРѕ Р¶СѓСЂРЅР°Р»РѕРІ. РћС€РёР±РєР°: {0}</value>
+  <value>Не удалось собрать один или несколько журналов. Ошибка: {0}</value>
 </data>
 <data name="PlatformInternalOptionPageTitle" xml:space="preserve">
-  <value>РћР±С‰РёРµ</value>
+  <value>Общие</value>
 </data>
 <data name="ProfileVisualStudioActionText" xml:space="preserve">
-  <value>РџСЂРѕС„РёР»РёСЂРѕРІР°С‚СЊ Visual Studio</value>
+  <value>Профилировать Visual Studio</value>
 </data>
 <data name="YouAreAboutToEnableAIAssistant" xml:space="preserve">
-  <value>Р’С‹ СЃРѕР±РёСЂР°РµС‚РµСЃСЊ РІРєР»СЋС‡РёС‚СЊ ReSharper AI Assistant. РџСЂРѕРґРѕР»Р¶РёС‚СЊ? РџРµСЂРµР·Р°РїСѓСЃРє Visual Studio РЅРµ РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ.</value>
+  <value>Вы собираетесь включить ReSharper AI Assistant. Продолжить? Перезапуск Visual Studio не потребуется.</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1060,12 +1060,12 @@
   <value>локальная переменная</value>
 </data>
 <data name="StyleCopSettingsConfigSourceName" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕР№РєРё StyleCop</value>
+  <value>Настройки StyleCop</value>
 </data>
 <data name="WebPsiLanguageZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° Html, ASP.NET, ASP.NET MVC, Razor, Blazor</value>
+  <value>Поддержка Html, ASP.NET, ASP.NET MVC, Razor, Blazor</value>
 </data>
 <data name="WebPsiLanguageZone_FeatureName" xml:space="preserve">
-  <value>Р’РµР±-СЏР·С‹РєРё</value>
+  <value>Веб-языки</value>
 </data>
 </root>

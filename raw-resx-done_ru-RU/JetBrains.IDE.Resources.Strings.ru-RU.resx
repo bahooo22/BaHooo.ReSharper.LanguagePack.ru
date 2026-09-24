@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -654,6 +654,6 @@
   <value>Для глобального сохранения изменений нажмите "Сохранить в" и выберите "Этот компьютер". </value>
 </data>
 <data name="NuGetDumpInstalledPackageTrackerAction" xml:space="preserve">
-  <value>РЎРѕР·РґР°С‚СЊ РґР°РјРї InstalledPackageTracker NuGet</value>
+  <value>Создать дамп InstalledPackageTracker NuGet</value>
 </data>
 </root>

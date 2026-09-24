@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -167,12 +167,12 @@
   <value>Строка поиска скрыта</value>
 </data>
 <data name="CompactSpacingInToolWindowsTreesSettingDescription" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РєРѕРјРїР°РєС‚РЅС‹Р№ РёРЅС‚РµСЂРІР°Р» РјРµР¶РґСѓ СЃС‚СЂРѕРєР°РјРё РІ РґСЂРµРІРѕРІРёРґРЅС‹С… РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏС…</value>
+  <value>Использовать компактный интервал между строками в древовидных представлениях</value>
 </data>
 <data name="TreeGridPresentableViewStyleSettingsSettingDescription" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕР№РєРё СЃС‚РёР»СЏ РґСЂРµРІРѕРІРёРґРЅС‹С… РїСЂРµРґСЃС‚Р°РІР»РµРЅРёР№ РІ РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°Р»СЊРЅС‹С… РѕРєРЅР°С…</value>
+  <value>Настройки стиля древовидных представлений в инструментальных окнах</value>
 </data>
 <data name="UseCompactSpacingInToolWindowsTrees_Text" xml:space="preserve">
-  <value>РљРѕРјРїР°РєС‚РЅС‹Р№ РёРЅС‚РµСЂРІР°Р» РјРµР¶РґСѓ СЃС‚СЂРѕРєР°РјРё РІ РґСЂРµРІРѕРІРёРґРЅС‹С… РїСЂРµРґСЃС‚Р°РІР»РµРЅРёСЏС…</value>
+  <value>Компактный интервал между строками в древовидных представлениях</value>
 </data>
 </root>

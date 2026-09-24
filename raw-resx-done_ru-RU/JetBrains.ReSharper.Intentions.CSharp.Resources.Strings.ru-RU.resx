@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -6626,180 +6626,180 @@
   <value>Преобразовать в 'catch'</value>
 </data>
   <data name="AddLoggerMessageMethodParameters_Text" xml:space="preserve">
-  <value>Р”РѕР±Р°РІРёС‚СЊ РѕС‚СЃСѓС‚СЃС‚РІСѓСЋС‰РёРµ РїР°СЂР°РјРµС‚СЂС‹</value>
+  <value>Добавить отсутствующие параметры</value>
 </data>
 <data name="ArrangeAccessorsOrder_Text" xml:space="preserve">
-  <value>РЈРїРѕСЂСЏРґРѕС‡РёС‚СЊ РїРѕСЂСЏРґРѕРє Р°РєСЃРµСЃСЃРѕСЂРѕРІ</value>
+  <value>Упорядочить порядок аксессоров</value>
 </data>
 <data name="ChangeExtensionReceiverParameterKind_Text" xml:space="preserve">
-  <value>РЎРґРµР»Р°С‚СЊ РїР°СЂР°РјРµС‚СЂ РїСЂРёРµРјРЅРёРєР° СЂР°СЃС€РёСЂРµРЅРёСЏ '{0}'</value>
+  <value>Сделать параметр приемника расширения '{0}'</value>
 </data>
 <data name="ConfigureNullableContextForNewFilesContextAction_Description" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕРёС‚СЊ, РІСЃС‚Р°РІР»СЏС‚СЊ Р»Рё '#nullable enable' РІ РЅРѕРІС‹Рµ С„Р°Р№Р»С‹</value>
+  <value>Настроить, вставлять ли '#nullable enable' в новые файлы</value>
 </data>
 <data name="ConfigureNullableContextForNewFilesContextAction_Name" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕРёС‚СЊ РєРѕРЅС‚РµРєСЃС‚ nullable РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ</value>
+  <value>Настроить контекст nullable для новых файлов</value>
 </data>
 <data name="ConfigureNullableContextForNewFilesContextAction_Text" xml:space="preserve">
-  <value>РљРѕРЅС‚РµРєСЃС‚ nullable РґР»СЏ РЅРѕРІС‹С… С„Р°Р№Р»РѕРІ:</value>
+  <value>Контекст nullable для новых файлов:</value>
 </data>
 <data name="ConsolidateExtensionMembers_Description" xml:space="preserve">
-  <value>РћР±СЉРµРґРёРЅРёС‚СЊ СЃРѕРІРјРµСЃС‚РёРјС‹Рµ С‡Р»РµРЅС‹ СЂР°СЃС€РёСЂРµРЅРёСЏ Рё Р±Р»РѕРєРё РІ РІС‹Р±СЂР°РЅРЅРѕРј Р±Р»РѕРєРµ</value>
+  <value>Объединить совместимые члены расширения и блоки в выбранном блоке</value>
 </data>
 <data name="ConsolidateExtensionMembers_Name" xml:space="preserve">
-  <value>РћР±СЉРµРґРёРЅРёС‚СЊ С‡Р»РµРЅС‹ СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Объединить члены расширения</value>
 </data>
 <data name="ConsolidateExtensionMembers_Text" xml:space="preserve">
-  <value>РћР±СЉРµРґРёРЅРёС‚СЊ С‡Р»РµРЅС‹ СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Объединить члены расширения</value>
 </data>
 <data name="ConvertPropertyToMethodContextAction_Name" xml:space="preserve">
-  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ СЃРІРѕР№СЃС‚РІРѕ РІ РјРµС‚РѕРґ</value>
+  <value>Преобразовать свойство в метод</value>
 </data>
 <data name="ConvertToStaticField_Text" xml:space="preserve">
-  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІ СЃС‚Р°С‚РёС‡РµСЃРєРѕРµ РїРѕР»Рµ</value>
+  <value>Преобразовать в статическое поле</value>
 </data>
 <data name="CopyTypeRefactoringContextAction_Description" xml:space="preserve">
-  <value>РЎРѕР·РґР°С‚СЊ РєРѕРїРёСЋ С‚РµРєСѓС‰РµРіРѕ С‚РёРїР°. РЈРґРѕР±РЅРѕ РґР»СЏ СЃРѕР·РґР°РЅРёСЏ РЅРѕРІРѕРіРѕ С‚РёРїР° СЃ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµРј РєРѕРґР° С‚РµРєСѓС‰РµРіРѕ С‚РёРїР° РІ РєР°С‡РµСЃС‚РІРµ С€Р°Р±Р»РѕРЅР°.</value>
+  <value>Создать копию текущего типа. Удобно для создания нового типа с использованием кода текущего типа в качестве шаблона.</value>
 </data>
 <data name="DisabledNullableContextForNewFilesContextAction_Text" xml:space="preserve">
-  <value>РћС‚РєР»СЋС‡РµРЅРѕ</value>
+  <value>Отключено</value>
 </data>
 <data name="EnabledNullableContextForNewFilesContextAction_Text" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РµРЅРѕ (РІСЃС‚Р°РІР»СЏС‚СЊ '#nullable enable')</value>
+  <value>Включено (вставлять '#nullable enable')</value>
 </data>
 <data name="ExtractMultiDeclarationElement_Text" xml:space="preserve">
-  <value>РР·РІР»РµС‡СЊ РѕРґРЅРѕ РѕР±СЉСЏРІР»РµРЅРёРµ</value>
+  <value>Извлечь одно объявление</value>
 </data>
 <data name="FailedToImportExtensionMember_Text" xml:space="preserve">
-  <value>РќРµ СѓРґР°Р»РѕСЃСЊ РёРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ С‡Р»РµРЅ СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Не удалось импортировать член расширения</value>
 </data>
 <data name="FixEmptyStringStyle_Text" xml:space="preserve">
-  <value>РСЃРїСЂР°РІРёС‚СЊ СЃС‚РёР»СЊ РїСѓСЃС‚РѕР№ СЃС‚СЂРѕРєРё</value>
+  <value>Исправить стиль пустой строки</value>
 </data>
 <data name="GenerateLoggerMessageMethod_Text" xml:space="preserve">
-  <value>РЎРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ РјРµС‚РѕРґ Р»РѕРіРіРµСЂР°</value>
+  <value>Сгенерировать метод логгера</value>
 </data>
 <data name="GenerateUnionValueProperty_Text" xml:space="preserve">
-  <value>РЎРіРµРЅРµСЂРёСЂРѕРІР°С‚СЊ СЃРІРѕР№СЃС‚РІРѕ 'Value'</value>
+  <value>Сгенерировать свойство 'Value'</value>
 </data>
 <data name="ImportExtensionMember_MultipleChoices_Text" xml:space="preserve">
-  <value>РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ {0} СЂР°СЃС€РёСЂРµРЅРёСЏ '{1}' (РЅРµСЃРєРѕР»СЊРєРѕ РІР°СЂРёР°РЅС‚РѕРІвЂ¦)?</value>
+  <value>Импортировать {0} расширения '{1}' (несколько вариантов…)?</value>
 </data>
 <data name="ImportExtensionMember_Text" xml:space="preserve">
-  <value>РРјРїРѕСЂС‚РёСЂРѕРІР°С‚СЊ {0} СЂР°СЃС€РёСЂРµРЅРёСЏвЂ¦</value>
+  <value>Импортировать {0} расширения…</value>
 </data>
 <data name="ImportExtensionMemberFrom__Text" xml:space="preserve">
-  <value>{0} (РёР· '{1}')</value>
+  <value>{0} (из '{1}')</value>
 </data>
 <data name="Initialize_Text" xml:space="preserve">
-  <value>РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊ '{0}'</value>
+  <value>Инициализировать '{0}'</value>
 </data>
 <data name="InitializeRequiredMembers_Text" xml:space="preserve">
-  <value>РРЅРёС†РёР°Р»РёР·РёСЂРѕРІР°С‚СЊ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рµ С‡Р»РµРЅС‹</value>
+  <value>Инициализировать обязательные члены</value>
 </data>
 <data name="InLocalScope_Text" xml:space="preserve">
-  <value>РІ {0} '{1}'</value>
+  <value>в {0} '{1}'</value>
 </data>
 <data name="InvokeAllMembersAsExtensions_Text" xml:space="preserve">
-  <value>Р’С‹Р·С‹РІР°С‚СЊ РІСЃРµ С‡Р»РµРЅС‹ РєР°Рє СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>Вызывать все члены как расширения</value>
 </data>
 <data name="MarkContaining_AsExperimental_Text" xml:space="preserve">
-  <value>РџРѕРјРµС‚РёС‚СЊ СЃРѕРґРµСЂР¶Р°С‰РёР№ РµРіРѕ {0} РєР°Рє СЌРєСЃРїРµСЂРёРјРµРЅС‚Р°Р»СЊРЅС‹Р№</value>
+  <value>Пометить содержащий его {0} как экспериментальный</value>
 </data>
 <data name="MarkContaining_AsObsolete_Text" xml:space="preserve">
-  <value>РџРѕРјРµС‚РёС‚СЊ СЃРѕРґРµСЂР¶Р°С‰РёР№ РµРіРѕ {0} РєР°Рє СѓСЃС‚Р°СЂРµРІС€РёР№</value>
+  <value>Пометить содержащий его {0} как устаревший</value>
 </data>
 <data name="NormalizeUnionDeclarationCase_Text" xml:space="preserve">
-  <value>РќРѕСЂРјР°Р»РёР·РѕРІР°С‚СЊ 'union' case</value>
+  <value>Нормализовать 'union' case</value>
 </data>
 <data name="RedundantBooleanComparisonWarning_DisableForComparisonWithFalse_Title" xml:space="preserve">
-  <value>Р Р°Р·СЂРµС€РёС‚СЊ СЏРІРЅРѕРµ СЃСЂР°РІРЅРµРЅРёРµ СЃ 'false'</value>
+  <value>Разрешить явное сравнение с 'false'</value>
 </data>
 <data name="RemoveArguments_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ Р°СЂРіСѓРјРµРЅС‚С‹</value>
+  <value>Удалить аргументы</value>
 </data>
 <data name="RemoveAsyncModifierWillChangesExceptionsHandling_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РјРѕРґРёС„РёРєР°С‚РѕСЂ 'async' (РёСЃРєР»СЋС‡РµРЅРёСЏ РјРѕРіСѓС‚ РІС‹Р±СЂР°СЃС‹РІР°С‚СЊСЃСЏ СЃРёРЅС…СЂРѕРЅРЅРѕ РІ РІС‹Р·С‹РІР°СЋС‰РёР№ РєРѕРґ)</value>
+  <value>Удалить модификатор 'async' (исключения могут выбрасываться синхронно в вызывающий код)</value>
 </data>
 <data name="RemoveEmptyWith_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РїСѓСЃС‚РѕР№ 'with()'</value>
+  <value>Удалить пустой 'with()'</value>
 </data>
 <data name="RemoveExceptionsAggregating_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ Р°РіСЂРµРіРёСЂРѕРІР°РЅРёРµ РёСЃРєР»СЋС‡РµРЅРёР№, СЃРёРЅС…СЂРѕРЅРЅРѕ РІС‹Р±СЂРѕС€РµРЅРЅС‹С… РІ РІРѕР·РІСЂР°С‰Р°РµРјРѕРј Task</value>
+  <value>Удалить агрегирование исключений, синхронно выброшенных в возвращаемом Task</value>
 </data>
 <data name="RemoveKeyword_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РєР»СЋС‡РµРІРѕРµ СЃР»РѕРІРѕ '{0}'</value>
+  <value>Удалить ключевое слово '{0}'</value>
 </data>
 <data name="RemoveKeywordWhenItIsNotApplicable_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РєР»СЋС‡РµРІРѕРµ СЃР»РѕРІРѕ '{0}', РєРѕРіРґР° РѕРЅРѕ РЅРµРїСЂРёРјРµРЅРёРјРѕ</value>
+  <value>Удалить ключевое слово '{0}', когда оно неприменимо</value>
 </data>
 <data name="RemoveParameterKind_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РјРѕРґРёС„РёРєР°С‚РѕСЂ РІРёРґР° РїР°СЂР°РјРµС‚СЂР°</value>
+  <value>Удалить модификатор вида параметра</value>
 </data>
 <data name="RemoveParameterName_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РёРјСЏ РїР°СЂР°РјРµС‚СЂР°</value>
+  <value>Удалить имя параметра</value>
 </data>
 <data name="RemoveRedundantAttributeFormat_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РёР·Р±С‹С‚РѕС‡РЅС‹Р№ Р°С‚СЂРёР±СѓС‚ [{0}]</value>
+  <value>Удалить избыточный атрибут [{0}]</value>
 </data>
 <data name="RemoveRedundantParameterNames_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РёР·Р±С‹С‚РѕС‡РЅС‹Рµ РёРјРµРЅР° РїР°СЂР°РјРµС‚СЂРѕРІ</value>
+  <value>Удалить избыточные имена параметров</value>
 </data>
 <data name="RemoveRedundantPreprocesosrParenthesisContextAction_Name" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РёР·Р±С‹С‚РѕС‡РЅС‹Рµ РєСЂСѓРіР»С‹Рµ СЃРєРѕР±РєРё РІ РїСЂРµРїСЂРѕС†РµСЃСЃРѕСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёСЏС…</value>
+  <value>Удалить избыточные круглые скобки в препроцессорных выражениях</value>
 </data>
 <data name="RemoveRedundantPreprocessorParenthesisContextAction_Description" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ РєСЂСѓРіР»С‹Рµ СЃРєРѕР±РєРё РІ РїСЂРµРїСЂРѕС†РµСЃСЃРѕСЂРЅС‹С… РІС‹СЂР°Р¶РµРЅРёСЏС…, РµСЃР»Рё РѕРЅРё РёР·Р±С‹С‚РѕС‡РЅС‹</value>
+  <value>Удалить круглые скобки в препроцессорных выражениях, если они избыточны</value>
 </data>
 <data name="RemoveUnionCaseType_Text" xml:space="preserve">
-  <value>РЈРґР°Р»РёС‚СЊ С‚РёРї case</value>
+  <value>Удалить тип case</value>
 </data>
 <data name="ReplaceUnsafeConstructsWithTheirBodies_Text" xml:space="preserve">
-  <value>Р—Р°РјРµРЅРёС‚СЊ РєРѕРЅСЃС‚СЂСѓРєС†РёРё 'unsafe' РЅР° РёС… С‚РµР»Р°</value>
+  <value>Заменить конструкции 'unsafe' на их тела</value>
 </data>
 <data name="ReplaceUnsafeConstructWithItsBody_Text" xml:space="preserve">
-  <value>Р—Р°РјРµРЅРёС‚СЊ РєРѕРЅСЃС‚СЂСѓРєС†РёСЋ 'unsafe' РЅР° РµС‘ С‚РµР»Рѕ</value>
+  <value>Заменить конструкцию 'unsafe' на её тело</value>
 </data>
 <data name="ReplaceWithHashCodeCombineFix_Text" xml:space="preserve">
-  <value>Р—Р°РјРµРЅРёС‚СЊ РЅР° 'HashCode.Combine'</value>
+  <value>Заменить на 'HashCode.Combine'</value>
 </data>
 <data name="ReplaceWithOfType__Text" xml:space="preserve">
-  <value>Р—Р°РјРµРЅРёС‚СЊ РЅР° 'OfType&lt;{0}&gt;()'</value>
+  <value>Заменить на 'OfType&lt;{0}&gt;()'</value>
 </data>
 <data name="ToExtensionMemberInvocation_Text" xml:space="preserve">
-  <value>Рљ РІС‹Р·РѕРІСѓ {0} СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+  <value>К вызову {0} расширения</value>
 </data>
 <data name="ToggleSyntaxStyleForNativeSizedInteger_Text" xml:space="preserve">
-  <value>РџРµСЂРµРєР»СЋС‡РёС‚СЊ СЃС‚РёР»СЊ СЃРёРЅС‚Р°РєСЃРёСЃР° РґР»СЏ С†РµР»РѕС‡РёСЃР»РµРЅРЅС‹С… С‚РёРїРѕРІ РЅР°С‚РёРІРЅРѕРіРѕ СЂР°Р·РјРµСЂР°</value>
+  <value>Переключить стиль синтаксиса для целочисленных типов нативного размера</value>
 </data>
 <data name="UpdateCapacityTo__Text" xml:space="preserve">
-  <value>РћР±РЅРѕРІРёС‚СЊ РІРјРµСЃС‚РёРјРѕСЃС‚СЊ РґРѕ {0}</value>
+  <value>Обновить вместимость до {0}</value>
 </data>
 <data name="UseArgumentExceptionThrowIf_Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'ArgumentException.{0}'</value>
+  <value>Использовать 'ArgumentException.{0}'</value>
 </data>
 <data name="UseEmptyStringLiteral_Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ ""</value>
+  <value>Использовать ""</value>
 </data>
 <data name="UseEmptyStringLiteralAction_Description" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р»РёС‚РµСЂР°Р» "" РІРјРµСЃС‚Рѕ 'string.Empty'</value>
+  <value>Использовать литерал "" вместо 'string.Empty'</value>
 </data>
 <data name="UseExtensionMember__Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ {0} СЂР°СЃС€РёСЂРµРЅРёСЏ '{1}'</value>
+  <value>Использовать {0} расширения '{1}'</value>
 </data>
 <data name="UseExtensionMember_Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ СЂР°СЃС€РёСЂРµРЅРёРµ</value>
+  <value>Использовать расширение</value>
 </data>
 <data name="UseImmutableArrayCreate_Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'ImmutableArray.Create'</value>
+  <value>Использовать 'ImmutableArray.Create'</value>
 </data>
 <data name="UseStringEmpty_Text" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'string.Empty'</value>
+  <value>Использовать 'string.Empty'</value>
 </data>
 <data name="UseStringEmptyAction_Description" xml:space="preserve">
-  <value>РСЃРїРѕР»СЊР·РѕРІР°С‚СЊ 'string.Empty' РІРјРµСЃС‚Рѕ Р»РёС‚РµСЂР°Р»Р° ""</value>
+  <value>Использовать 'string.Empty' вместо литерала ""</value>
 </data>
 <data name="WithDefaultValues_Text" xml:space="preserve">
-  <value>РЎРѕ Р·РЅР°С‡РµРЅРёСЏРјРё РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ</value>
+  <value>Со значениями по умолчанию</value>
 </data>
 </root>

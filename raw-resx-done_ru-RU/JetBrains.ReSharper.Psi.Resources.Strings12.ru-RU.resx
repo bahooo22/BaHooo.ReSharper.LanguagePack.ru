@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1375,24 +1375,24 @@
     <value>Настройки уровня решения/проекта для совместимости браузеров</value>
   </data>
 <data name="BlazorRefAttributeTargetType_Text" xml:space="preserve">
-  <value>Р¦РµР»РµРІРѕР№ С‚РёРї РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° @ref РІ Blazor</value>
+  <value>Целевой тип для атрибута @ref в Blazor</value>
 </data>
 <data name="BlazorRefAttributeTargetTypes_Text" xml:space="preserve">
-  <value>Р¦РµР»РµРІС‹Рµ С‚РёРїС‹ РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° @ref РІ Blazor</value>
+  <value>Целевые типы для атрибута @ref в Blazor</value>
 </data>
 <data name="DefaultBlazorRefAttributeTargetTypeSettings_Text" xml:space="preserve">
-  <value>РќР°СЃС‚СЂРѕР№РєРё С†РµР»РµРІРѕРіРѕ С‚РёРїР° РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° @ref РІ Blazor</value>
+  <value>Настройки целевого типа по умолчанию для атрибута @ref в Blazor</value>
 </data>
 <data name="LanguageCssZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° СЏР·С‹РєР° CSS РІ С„Р°Р№Р»Р°С… .css, Р° С‚Р°РєР¶Рµ РІРЅРµРґСЂРµРЅРёСЏ CSS РІ СЏР·С‹РєРё РЅР° РѕСЃРЅРѕРІРµ HTML Рё JavaScript</value>
+  <value>Поддержка языка CSS в файлах .css, а также внедрения CSS в языки на основе HTML и JavaScript</value>
 </data>
 <data name="LanguageCssZone_FeatureName" xml:space="preserve">
-  <value>РЇР·С‹Рє CSS</value>
+  <value>Язык CSS</value>
 </data>
 <data name="LanguageJavaScriptZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° СЏР·С‹РєРѕРІ JavaScript Рё TypeScript РІ С„Р°Р№Р»Р°С… .js Рё .ts, Р° С‚Р°РєР¶Рµ РІРЅРµРґСЂРµРЅРёСЏ JavaScript РІ СЏР·С‹РєРё РЅР° РѕСЃРЅРѕРІРµ HTML</value>
+  <value>Поддержка языков JavaScript и TypeScript в файлах .js и .ts, а также внедрения JavaScript в языки на основе HTML</value>
 </data>
 <data name="LanguageJavaScriptZone_FeatureName" xml:space="preserve">
-  <value>JavaScript Рё TypeScript</value>
+  <value>JavaScript и TypeScript</value>
 </data>
 </root>

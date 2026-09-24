@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -166,7 +166,7 @@
   <value>После запятой в опциях</value>
 </data>
 <data name="LanguageProtobufZone_Description" xml:space="preserve">
-  <value>РџРѕРґРґРµСЂР¶РєР° Google Protocol Buffers РІ С„Р°Р№Р»Р°С… .proto</value>
+  <value>Поддержка Google Protocol Buffers в файлах .proto</value>
 </data>
 <data name="LanguageProtobufZone_FeatureName" xml:space="preserve">
   <value>Protobuf</value>

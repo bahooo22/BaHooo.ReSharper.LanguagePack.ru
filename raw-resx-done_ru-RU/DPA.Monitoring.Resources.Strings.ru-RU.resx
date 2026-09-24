@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -314,45 +314,45 @@
   <value>Режим запуска мониторинга</value>
 </data>
 <data name="ExplainHotspotWithAITask" xml:space="preserve">
-  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕР±РЅР°СЂСѓР¶РёР» РїСЂРѕР±Р»РµРјСѓ РІ `{0}`. РћР±СЉСЏСЃРЅРёС‚Рµ, РґРµР№СЃС‚РІРёС‚РµР»СЊРЅРѕ Р»Рё СЌС‚Рѕ РїСЂРѕР±Р»РµРјР° СЃ РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊСЋ Рё С‡С‚Рѕ РµС‘ РІС‹Р·РІР°Р»Рѕ.</value>
+  <value>Мониторинг обнаружил проблему в `{0}`. Объясните, действительно ли это проблема с производительностью и что её вызвало.</value>
 </data>
 <data name="FixHotspotWithAITask" xml:space="preserve">
-  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі РѕР±РЅР°СЂСѓР¶РёР» РїСЂРѕР±Р»РµРјСѓ РІ `{0}`. РџСЂРµРґР»РѕР¶РёС‚Рµ РёСЃРїСЂР°РІР»РµРЅРёРµ.</value>
+  <value>Мониторинг обнаружил проблему в `{0}`. Предложите исправление.</value>
 </data>
 <data name="MonitoringOptionsPage_General" xml:space="preserve">
-  <value>РћР±С‰РёРµ</value>
+  <value>Общие</value>
 </data>
 <data name="MonitoringSettings_AspInspectionHidden" xml:space="preserve">
-  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ ASP.NET Core</value>
+  <value>Скрывать проблемы ASP.NET Core</value>
 </data>
 <data name="MonitoringSettings_DiagnosticsToolPanelSuppressed" xml:space="preserve">
-  <value>РџР°РЅРµР»СЊ РїСЂРµРґСѓРїСЂРµР¶РґРµРЅРёР№ Diagnostic Tools РѕС‚РєР»СЋС‡РµРЅР°</value>
+  <value>Панель предупреждений Diagnostic Tools отключена</value>
 </data>
 <data name="MonitoringSettings_DoNotAskMuteReason" xml:space="preserve">
-  <value>РќРµ СЃРїСЂР°С€РёРІР°С‚СЊ РїСЂРёС‡РёРЅСѓ СЃРєСЂС‹С‚РёСЏ</value>
+  <value>Не спрашивать причину скрытия</value>
 </data>
 <data name="MonitoringSettings_GcPressureInspectionHidden" xml:space="preserve">
-  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ РґР°РІР»РµРЅРёРµРј GC</value>
+  <value>Скрывать проблемы с давлением GC</value>
 </data>
 <data name="MonitoringSettings_PerformanceHotspotInspectionHidden" xml:space="preserve">
-  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ РіРѕСЂСЏС‡РёРјРё С‚РѕС‡РєР°РјРё РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚Рё</value>
+  <value>Скрывать проблемы с горячими точками производительности</value>
 </data>
 <data name="MonitoringSettings_SqlInspectionHidden" xml:space="preserve">
-  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ Р±Р°Р·РѕР№ РґР°РЅРЅС‹С…</value>
+  <value>Скрывать проблемы с базой данных</value>
 </data>
 <data name="MonitoringSettings_UiFreezeInspectionHidden" xml:space="preserve">
-  <value>РЎРєСЂС‹РІР°С‚СЊ РїСЂРѕР±Р»РµРјС‹ СЃ Р·Р°РІРёСЃР°РЅРёРµРј РёРЅС‚РµСЂС„РµР№СЃР°</value>
+  <value>Скрывать проблемы с зависанием интерфейса</value>
 </data>
 <data name="OptionsPage_EnableDiagnosticTools" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ Visual Studio Diagnostic Tools</value>
+  <value>Включить Visual Studio Diagnostic Tools</value>
 </data>
 <data name="OptionsPage_EnableMonitoring" xml:space="preserve">
-  <value>Р’РєР»СЋС‡РёС‚СЊ РјРѕРЅРёС‚РѕСЂРёРЅРі ReSharper</value>
+  <value>Включить мониторинг ReSharper</value>
 </data>
 <data name="OptionsPage_MonitoringAndDiagnosticTools" xml:space="preserve">
-  <value>РњРѕРЅРёС‚РѕСЂРёРЅРі Рё СЃСЂРµРґСЃС‚РІР° РґРёР°РіРЅРѕСЃС‚РёРєРё</value>
+  <value>Мониторинг и средства диагностики</value>
 </data>
 <data name="OptionsPage_MonitoringIssues" xml:space="preserve">
-  <value>РћР±РЅР°СЂСѓР¶РµРЅРёРµ РїСЂРѕР±Р»РµРј</value>
+  <value>Обнаружение проблем</value>
 </data>
 </root>
