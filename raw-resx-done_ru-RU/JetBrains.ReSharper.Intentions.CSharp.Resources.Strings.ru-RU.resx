@@ -123,6 +123,9 @@
 <data name="RemoveTypeCheck_Text" xml:space="preserve">
     <value>Удалить проверку типа</value>
 </data>
+<data name="RemoveNullableTypeAnnotationsFromConstraints_Text" xml:space="preserve">
+    <value>Удалить nullable-аннотации из существующих ограничений</value>
+</data>
 <data name="PassStringFormatMethodInvocationContentAction_Description" xml:space="preserve">
     <value>Заменить вызов метода форматирования на передачу результата вызова 'string.Format'. Используйте с осторожностью, так как некоторые методы форматирования (например, в фреймворках логирования) не всегда форматируют аргументы, а 'string.Format' всегда генерирует строку.</value>
 </data>

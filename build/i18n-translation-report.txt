@@ -1,41 +1,47 @@
 ﻿=== Проверка перевода всех resx-файлов пакета ===
-Установка: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229
+Установка: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229_000
 
 resx-файлов:                248
-записей всего:              33961
-neutral-ресурсов доступно:  182
-без neutral (нет DLL):      66
+записей всего:              33962
+neutral-ресурсов доступно:  183
+без neutral (нет DLL):      65
 
 XML-ошибок:                 0
 пустых значений:            4  (en тоже пуст: 4)
 CJK-утечек:                 0
-расхождений ключей:         24
-расхождений плейсхолдеров:  214
-ru==en (без кириллицы):     362  (с малыми англ. словами: 346)
+расхождений ключей:         52
+расхождений плейсхолдеров:  213
+ru==en (без кириллицы):     358  (с малыми англ. словами: 342)
 
 --- ПРОБЛЕМЫ (нужны исправления) ---
+  DPA.Core.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): EmptyContentView_Enable, EmptyContentView_Link, EmptyContentView_ProductIsCurrentlyDisabled
   DPA.Core.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Tooltip_SqlCommandCountIssue_Template]: en[{0},{1},{2}] != ru[{0},{2}]
   DPA.Core.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Tooltip_SqlConnectionCountIssue_Template]: en[{0},{1},{2}] != ru[{0},{2}]
-  JetBrains.Application.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ThankYouForInstalling__Text, YouAreGoingToRemoveThePluginThatIsCurrently_Text
-  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DotCoverToggleContinuousTestingActionText
-  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Help_Article7_Link, Help_Article7_Text, Help_Article8_Link, Help_Article8_Text, Help_dotMemoryUnit_Header, Help_dotMemoryUnit_Help, Help_dotMemoryUnit_TextAfter, Help_dotMemoryUnit_TextBefore, Help_Youtube_MeetDotMemoryUnit_Duration, Help_Youtube_MeetDotMemoryUnit_Link, Help_Youtube_MeetDotMemoryUnit_Text
-  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConfigurationEditor_AllowLoadPdbInBackground, ConfigurationEditor_ConfigureSymbolServers_LinkText
-  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AllowBackgroundLoadPdbSettingDescription, DownloadSymbolFilesSettingDescription, SymbolPathsSettingsKey_KeyDescription, SymbolServersUsedInDotTraceSettingDescription
+  DPA.Monitoring.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): MonitoringOptionsPage_General
+  JetBrains.Application.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): EnableAIAssistant, InternalOptionPageTitle, IVsOnlyInProcessZone_Description, IVsOnlyInProcessZone_FeatureName, PlatformInternalOptionPageTitle, YouAreAboutToEnableAIAssistant
+  JetBrains.Common.Util.ViewModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): PaywallBenefit1, PaywallBenefit2, PaywallBenefit3, PaywallBuyButton, PaywallBuyHint, PaywallCloseButton, PaywallDescription, PaywallHeader, PaywallLicenseButton, PaywallObtainTicketButton, PaywallObtainTicketHint, PaywallObtainTicketUpgradeHint, PaywallTrialButton, PaywallTrialHint
+  JetBrains.dotCover.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DotCoverEnableContinuousTestingActionText, Paywall_Benefit1, Paywall_Benefit2, Paywall_Benefit3, Paywall_CloseButton, Paywall_Description, Paywall_Header, Paywall_ToolWindowTitle
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ImportClrDump_SelectDac_Dialog_Title, ImportClrDump_SelectDac_FileFilter_Description, ImportClrDump_UntrustedDac_Confirmation_Template
+  JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConfigurationEditor_ConfigureSymbolServers
+  JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CallTreePreprocessor_Preprocessing_call_tree, CallTreePreprocessor_Processing_resolved_call_tree, CallTreeResolver_Resolving_call_tree, LoadPdbSettingDescription, NativeModulesPreprocessor_Collecting_native_functions, SymbolPathsSettingsKey_KeyDescription, SymbolServersUsedInDotTraceSettingDescription, TimelineProcessingSettingsSettingDescription
+  JetBrains.DotTrace.ViewModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): EmptyContentView_EnableFormat, EmptyContentView_ProductIsDisabled, EmptyContentView_SettingsLink
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [ActionText]; en тоже пуст (upstream) — не пропуск
   JetBrains.DPA.Monitoring.Avalonia.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ExplainWithAITask, FilterIssueByMethodAction, FilterIssueByMethodActionNoLicense, FilterIssueByModuleAction, FilterIssueByModuleActionNoLicense, FilterIssueByTypeAction, FilterIssueByTypeActionNoLicense, FixWithAITask
-  JetBrains.IDE.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DumpFleetDocumentsActionText, WaitSolutionPerClientComponentsCompose_Text
-  JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): IsUiSmoothnessToolkitEnabledInDevelopmentBuildDescription
-  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CallAutomaticallyOnNuGetChangesOrIf_Text, DoNotCallMSBuild_Text, MSBuildAccess_Header_Text, ObtainDataFromMSBuildAfterEachCompilation_Text, ProjectModelSyncOptionPageTitle, ReadSolutionModelDirectlyFromProject_BoolOption_Text, SolutionModel_Header_Text, UseMSBuildToObtainProjectReferences_RadioOption_Caption, WaitForSolutionBackgroundLoad_Text, WaitForSolutionToLoad_Text
-  JetBrains.Profiler.Resources.UITexts.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): TimelineInfo_AllowBackgroundLoadPdb, TimelineInfo_DontAllowBackgroundLoadPdb, TimelineInfo_DontLoadPdb, TimelineInfo_LoadPdb
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DoNotCreateSolutionContainerUntilSolutionInstance_Text, InstallingAnnotationsNuGetPackage_Text, NuGet_Text, WaitForAsyncProjectModelLoad_Text, WaitForDelayedShellComponents_Text, WaitSolutionContainerComponentsCompose_Text, WillInstallAnnotationsNuGetPackage_Text
-  JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AlignBaselines_BoolOption_Text, CodeInspectionSettingsColorIdentifiers_Text, DonTShowWhatSNewPageAfterUpdate_Text, EnvironmentInfoAttachmentProvider_ProviderName, Hint_Text_Size, Inline_Hints_Scale , Interline_Hints_Scale , InternalOptions_Header_Text, Log_Option_Text, LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption, None_Option_Text, Notification_Option_Text, NuGetRestorerOptionPageTitle, ProfileVisualStudioActionText, ReplaceVisualStudioTooltips_Text, RestoringNuGetPackagesClickToCancel_ToolTip, ShowLog_Button_Text, Tooltips_Header_Text
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AforeachForEachForVBNETCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, AforeachForEachForVBNETOrforStatementCanBeConvertedIntoALINQExpression, CannotBeBothabstractAndsealedMessage, CannotBeBothExternAndAbstractMessage, CannotResolveCollectionExpressionDefaultConstructorMessage, ConvertStaticMethodInvocationToExtensionMethodCall, InvocationIsResolvedToMethodWithparamsButMoreSpecificMethodIsAvailableAndArgumentsPartiallyMatchIt, InvokeAsExtensionMethodMessage, LambdaExpressionParameterCannotBeparamsMessage, MisplacedScopedKeywordMessage, MustHaveInitToImplementMessage, MustHaveInitToMatchOverriddenMessage, MustHaveSetToMatchOverriddenMessage, paramsModifierIsAlwaysIgnoredOnOverrides1, PartialMethodsMustHaveAvoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpression, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, RefLocalAcrossAwait_Text, ReplaceWithStringIsNullOrEmptyMessage, ScopedNameDisallowedMessage, WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax
+  JetBrains.IDE.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): NuGetDumpInstalledPackageTrackerAction, WaitSolutionPerClientComponentsCompose_Text
+  JetBrains.Platform.UIInteractive.Ide.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CompactSpacingInToolWindowsTreesSettingDescription, TreeGridPresentableViewStyleSettingsSettingDescription, UseCompactSpacingInToolWindowsTrees_Text
+  JetBrains.Platform.VisualStudio.AnyEnd.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AllowAICompletionForExperimentalLanguages_Text, BringAnyAiAgent_Text, DoNotFilterOutDuplicateVSLightBulbActions_Text, DonTShowWhatSNewPageAfterUpdate_Text, EnableAICodeCompletion_Text, EnableRetrievalTimeoutForVisualStudio_Text, HideVisualStudioSquigglesSettingDescription, InvokeAICompletionAutomaticallyOnNew_Text, IsUiSmoothnessToolkitEnabledInDevelopmentBuildDescription, ShowVisualStudioLightBulbActionsInSubmenu_Text, StoresForWhichWhatsNewIsShownSettingDescription, StoresMd5HashForLastShownWhatNew, UseTheAgentsYouWantInVisualStudioReSharper_Text, VisualStudioLightBulbDisplayMode_Text, VisualStudioRelatedSettingsForGrayCode_Text, VisualStudioSquigglesRoslynAnalyzersAreNotRenderedByVisualStudioItselfButInsteadThoseOfThemWhichAreNotRedundantInPresenceOfReSharperSuchAsCustomAnalyzerSetsAreProcessedTogetherWithReSharperAnalysisResultsSuppressVsSquigglesMustBeOffToTakeEffectSettingDescription, VsHighlightingSettings, WhatsNewShownSettingsSettingDescription, ZeroLockInAI_Text
+  JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AIAssistantNotFoundToTryJuniePlease_Text, CallAutomaticallyOnNuGetChangesOrIf_Text, DefaultDiskCleanupSettings_Text, DeplozedPackagesCache_PathToCleanDescription_Text, DoNotCallMSBuild_Text, DonTShowWhatSNewPageAfterUpdate_Text, ExternalServices_PathToCleanDescription_Text, InstallerLogFiles_PathToCleanDescription_Text, LogFiles_PathToCleanDescription_Text, MSBuildAccess_Header_Text, ObtainDataFromMSBuildAfterEachCompilation_Text, ProductContentCache_PathToCleanDescription_Text, ReadSolutionModelDirectlyFromProject_BoolOption_Text, SettingsStorageCache_PathToCleanDescription_Text, ShellCachesInAppData_PathToCleanDescription_Text, SolutionCachesInAppData_PathToCleanDescription_Text, SolutionCachesInTemp_PathToCleanDescription_Text, SolutionModel_Header_Text, StoresForWhichWhatsNewIsShownSettingDescription, StoresMd5HashForLastShownWhatNew, TempCaches_PathToCleanDescription_Text, UseMSBuildToObtainProjectReferences_RadioOption_Caption, WebsiteBuilderFiles_PathToCleanDescription_Text, WhatSNew_Text, WhatsNewShownSettingsSettingDescription
+  JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WaitForSolutionBackgroundLoad_Text, WaitForSolutionToLoad_Text
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CacheSecondaryPsiDescription, DiagnosticSubsystem_Environment, DiagnosticSubsystem_Roslyn, DiagnosticSubsystem_Security, DiagnosticSubsystem_Solution, DoNotCreateSolutionContainerUntilSolutionInstance_Text, InstallingAnnotationsNuGetPackage_Text, UpdatingSelectedPackages__Caption, WaitForAsyncProjectModelLoad_Text, WaitForDelayedShellComponents_Text, WaitSolutionContainerComponentsCompose_Text, WillInstallAnnotationsNuGetPackage_Text
+  JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): PopupIndicatorShortcutHint_Text
+  JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AlignBaselines_BoolOption_Text, Hint_Text_Size, Inline_Hints_Scale , Interline_Hints_Scale , InternalOptions_Text, Log_Option_Text, LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption, None_Option_Text, Notification_Option_Text, NuGetRestorerOptionPageTitle, RestoringNuGetPackagesClickToCancel_ToolTip, ShowLog_Button_Text
+  JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CodeInspectionSettingsColorIdentifiers_Text, EnvironmentInfoAttachmentProvider_ProviderName, ProfileVisualStudioActionText, ReplaceVisualStudioTooltips_Text, Tooltips_Header_Text, VsDebuggerFeaturesZone_Description, VsDebuggerFeaturesZone_FeatureName
+  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AforeachForEachForVBNETCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, AforeachForEachForVBNETOrforStatementCanBeConvertedIntoALINQExpression, CallerUnsafeExplicitlyImplementingSafeMessage, CallerUnsafeImplicitlyImplementingSafeMessage, CallerUnsafeOverridingSafeMessage, CannotBeBothAbstractAndMessage, CannotResolveCollectionExpressionDefaultConstructorMessage, CanUseHashCodeCombineDescription, CanUseHashCodeCombineMessage, CanUseHashCodeCombineTitle, ClassCannotBeBothClosedAnd_Message, ClosedBaseTypeBaseFromOtherAssembly_Message, ClosedExplicitlyAbstract_Message, CompilerWarning_CS9377_Title, ConvertStaticMethodInvocationToExtensionMethodCall, ExplicitOrExtendedLayoutFieldRequiresUnsafeOrSafeMessage, ExternMemberRequiresUnsafeOrSafeMessage, IllFormedUnionDeclarationCaseMessage, InstanceFieldsNotPermittedInUnionMessage, InvocationIsResolvedToMethodWithparamsButMoreSpecificMethodIsAvailableAndArgumentsPartiallyMatchIt, InvokeAsExtensionMethodMessage, LambdaExpressionParameterCannotBeparamsMessage, MisplacedScopedKeywordMessage, MustHaveInitToImplementMessage, MustHaveInitToMatchOverriddenMessage, MustHaveSetToMatchOverriddenMessage, OneOfTheParametersOfAnEqualityOrInequalityOperatorDeclaredInInterfaceMustBeATypeParameterConstrainedToTheContainingTypeMessage, OnlyOnePartOfAPartialUnionCanDeclareCaseTypesMessage, paramsModifierIsAlwaysIgnoredOnOverrides1, PartialMemberSafeDifferenceMessage, PartialMethodsMustHaveAvoidReturnTypeUnlessLanguageVersionOrGreaterIsUsedMessage, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpression, PartOfforeachForEachForVBNETStatementsBodyCanBeConvertedIntoALINQExpressionButAnotherGetEnumeratorMethodWillBeUsed, RedundantCapacityArgumentDescription, RedundantCapacityArgumentMessage, RedundantCapacityArgumentTitle, RedundantEmptyWithElementDescription, RedundantEmptyWithElementMessage, RedundantEmptyWithElementTitle, RefLocalAcrossAwait_Text, ReplaceWithStringIsNullOrEmptyMessage, SafeModifierUnsupportedTargetMessage, SingleParameterConstructorNotPermittedInUnionMessage, SuggestCollectionExpressionWithArgumentsDescription, SuggestCollectionExpressionWithArgumentsTitle, UnderspecifiedClosedSubtype_Message, UnionCaseTypeAlreadyDeclaredMessage, UnionCaseTypeMustBeConvertibleToObjectMessage, UnionConstructorMustCallDefaultConstructorMessage, UnionMemberProviderInterfaceNotPermittedMessage, UnionMemberProviderMustHaveValuePropertyMessage, UnionMustHaveAtLeastOneUnionCreationMemberMessage, UnionMustSpecifyAtLeastOneCaseTypeMessage, UnsafeConstructorConstraintMessage, UnsafeExpressionIsRedundantMessage, UnsafeMeaninglessMessage, UnsafeMemberOperationMessage, UnsafeOperationMessage, UnsafeUninitializedStackAllocMessage, ValueTupleHashCodeIgnoresElementsDescription, ValueTupleHashCodeIgnoresElementsMessage, ValueTupleHashCodeIgnoresElementsTitle, WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CannotModifyStructMemberWhenAccessedStructIsNotClassifiedAsAVariableMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryAddMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryLookupWithTryGetValueMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifyDictionaryTryGetValueWithGetValueOrDefaultMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CanSimplifySetAddingWithSingleCallMessage]: en[{0},{1}] != ru[]
-  JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DuplicateDefinitionPossiblyMissingKeywordPartialMessage]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [EnumeratorObjectIsNotDisposedConsiderSafeCastMessage]: en[{0},{1},{2}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [EnumeratorObjectIsNotDisposedMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [ForeachStatementCannotOperateOnEnumeratorsOfTypeInAsyncOrIteratorMethodsBecauseIsARefStructMessage]: en[{0},{1},{1},{2},{3},{4}] != ru[{0},{0}]
@@ -234,28 +240,49 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnOnlyParameterWarningMessage]: en[{0},{1},{2},{3}] != ru[{0},{1}]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefReturnStructThisOrInstanceFieldWarningMessage]: en[{0}] != ru[]
   JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [RefStructsCannotImplementInterfacesMessage]: en[{0}] != ru[]
+  JetBrains.ReSharper.Daemon.Resources.Strings3.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CopyInspectionDescription_Text, CopyInspectionDescription_Tooltip
   JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [Message6]; en тоже пуст (upstream) — не пропуск
+  JetBrains.ReSharper.Daemon.Xaml.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UnsupportedNulConditionalBindingErrorMessage
+  JetBrains.ReSharper.ExternalServices.Core.Resources.ExternalServicesCoreStrings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ChangeHeapSizeAction_Description, ChangeHeapSizeAction_DialogLabel, ChangeHeapSizeAction_DialogTitle, ChangeHeapSizeAction_Text, ExternalServicesSettings_Description, MaxHeapSizeMegabytes_Description
+  JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): SqlLanguagesZone_Description, SqlLanguagesZone_FeatureName
   JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): GrazieGplLicenseNotice
   JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [DiffModeShowAll_Comment_Text]; en тоже пуст (upstream) — не пропуск
+  JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AIAssistantZone_Description, AIAssistantZone_FeatureName, FeatureUnavailableInOutOfProcessMode_Text
+  JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WhereArgumentsAreExpectedSettingDescription
   JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [CSharp_EditorConfigOverride_Text]: en[{0},{1}] != ru[{0}]
   JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text]: en[{0},{1},{2},{3}] != ru[{0},{1},{2}]
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ПУСТОЕ ЗНАЧЕНИЕ [_Description_Text]; en тоже пуст (upstream) — не пропуск
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CompilerWarning___Text, GenericInspection__Text, ProductInspection__Text, RefactoringsDeferredRenameActionText, RoslynAnalyzerInspection__Text
-  JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UseLegacyPublicApiSurfaceHashingAlgorithm_Text, UseLegacyPublicApiSurfaceHashingAlgorithmSettingDescription
-  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Template_Editable_V2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ
-  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AddInitializerFor__Text, AddInitializersForRequiredMembers_Text, AddLoggerMessageMethodParameter_Text, FailedToImportMethod_Text, ImportExtensionMethod_Text, ImportMethod_MultipleChoices_Text, ImportMethodFrom__Text, In_Scope_Text, InvokeAllMethodsAsExtensions_Text, Make_Experimental_Text, Make_Obsolete_Text, RemoveSealedKeyword_Text, RemoveSealedKeywordWhenItIsNotApplicable_Text, ReplaceUnsafeStatementsWithTheirBodies_Text, ReplaceUnsafeStatementWithItsBody_Text, ToExtensionMethodInvocation_Text, UseMethod__Text, UseMethod_Text, UseSystemStringEmptyValueContentAction_Description, UseSystemStringEmptyValueContentAction_Name
-  JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Remove___Text, Use__Text
-  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UnityOptionsPage_Profiler_Integration_Help_Link_Text
-  JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DonTShowWhatSNewPageAfterUpdate_Text
+  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ClangTidyCheck_Text, CompilerWarning_Text, EntityFrameworkZone_Description, EntityFrameworkZone_FeatureName, GenericInspection_Text, NavigationZone_Description, NavigationZone_FeatureName, PackageCheckerZone_Description, PackageCheckerZone_FeatureName, ProductInspection_Text, RefactoringsDeferredRenameActionText, RoslynAnalyzerInspection_Text, SupportImplicitlyBundledVisualStudioAnalyzers, XmlDocSection_TruncatedError_Text
+  JetBrains.ReSharper.Feature.Services.Web.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): InsertClosingTagOnTagNameCompletion
+  JetBrains.ReSharper.Features.Altering.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ArrangementOfLambdaAndAnonymousFunctionSignatures_Text
+  JetBrains.ReSharper.Features.Diagramming.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Diagramming_FeatureDescription, Diagramming_FeatureName
+  JetBrains.ReSharper.Features.Environment.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): FluentDark_Option_Text, FluentLight_Option_Text
+  JetBrains.ReSharper.Features.Internal.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): CacheSecondaryPsiText
+  JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): SolutionBuilderZone_Description, SolutionBuilderZone_FeatureName
+  JetBrains.ReSharper.Features.Web.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): _InsertClosingTagOnTagNameCompletion_Text, InserTheMatchingClosingTagUponCompletionOfATagName_Text, Template_Editable_V2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ
+  JetBrains.ReSharper.Intentions.BuildScripts.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ResultsPoweredBy_Text
+  JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): AddLoggerMessageMethodParameter_Text, CopyTypeRefactoringContextAction_Description, ExtractMultiDeclarationElement_Text, FailedToImportMethod_Text, GenerateUnionValueProperty_Text, ImportExtensionMethod_Text, ImportMethod_MultipleChoices_Text, ImportMethodFrom__Text, In_Scope_Text, Initialize_Text, InitializeRequiredMembers_Text, InvokeAllMethodsAsExtensions_Text, Make_Experimental_Text, Make_Obsolete_Text, NormalizeUnionDeclarationCase_Text, RemoveEmptyWith_Text, RemoveKeyword_Text, RemoveKeywordWhenItIsNotApplicable_Text, RemoveUnionCaseType_Text, ReplaceUnsafeConstructsWithTheirBodies_Text, ReplaceUnsafeConstructWithItsBody_Text, ReplaceWithHashCodeCombineFix_Text, ToExtensionMethodInvocation_Text, ToggleSyntaxStyleForNativeSizedInteger_Text, UpdateCapacityTo__Text, UseMethod__Text, UseMethod_Text, UseSystemStringEmptyValueContentAction_Description, UseSystemStringEmptyValueContentAction_Name
+  JetBrains.ReSharper.Intentions.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Configure_CompilerWarningEditorconfig_Severity_Text, Configure_Editorconfig_AnalyzerCodeStyle_Text, Configure_Editorconfig_Severity_Text, ConfigureRoslynAnalyzerCodeStyleSeverity_Text, ConfigureSeverityFor_AnalyzersCategory_Text, ConfigureSeverityForAllAnalyzers_Text, Remove___Text, ResultsPoweredBy_Text, SavingSettingsTo_Editorconfig, Use__Text
+  JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UnityOptionsPage_AddCSharpSection_Use_asm_def_folder_as_namespace_root_, UnitySettings_t_Skip_Editor_folders_when_calculating_namespaces, UnitySettings_t_Use_asm_def_folder_as_namespace_root_
+  JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ReSharperProductZone_Description, ReSharperProductZone_FeatureName
+  JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): LanguageBuildScriptsZone_Description, LanguageBuildScriptsZone_FeatureName
+  JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): Union_Text, WithinSpreadPatternSettingDescription
+  JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): LanguageProtobufZone_Description, LanguageProtobufZone_FeatureName
+  JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): WebPsiLanguageZone_Description, WebPsiLanguageZone_FeatureName
+  JetBrains.ReSharper.Psi.Resources.Strings12.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): BlazorRefAttributeTargetType_Text, BlazorRefAttributeTargetTypes_Text, DefaultBlazorRefAttributeTargetTypeSettings_Text, LanguageCssZone_Description, LanguageCssZone_FeatureName, LanguageJavaScriptZone_Description, LanguageJavaScriptZone_FeatureName
+  JetBrains.ReSharper.Psi.Resx.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): LanguageResxZone_Description, LanguageResxZone_FeatureName
+  JetBrains.ReSharper.Psi.Xml.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): HereArrowText, IncompleteOpenXmlAttribute_Text, IncompleteOpenXmlTag_Text, UnexpectedXmlToken_Text
   JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ConvertToLogMethod_ExistingMethodEventIdMismatch_ConflictText, ConvertToLogMethod_ExistingMethodEventIdRequired_ConflictText, ConvertToLogMethod_ExistingMethodEventIdWillChange_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelConstant_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelMismatch_ConflictText, ConvertToLogMethod_ExistingMethodLogLevelRequired_ConflictText, ConvertToLogMethod_ExistingMethodMessageMismatch_ConflictText
+  JetBrains.ReSharper.Refactorings.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): ExtractMethodDuplicatesPage_Description_Text, ExtractMethodDuplicatesPage_DifferencesColumn_Text, ExtractMethodDuplicatesPage_DuplicateLocation_Text, ExtractMethodDuplicatesPage_ExactDuplicatesGroup_Text, ExtractMethodDuplicatesPage_LocationColumn_Text, ExtractMethodDuplicatesPage_OriginalExtractionPreview_Text, ExtractMethodDuplicatesPage_ParametrizedDuplicatesGroup_Text, ExtractMethodDuplicatesPage_SelectAll_Text, ExtractMethodDuplicatesPage_Title_Text, ExtractMethodRefactoringSettingsSettingDescription, WhetherToSearchForDuplicatesOfTheExtractedFragmentSettingDescription
   JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [DynamicResource_0Usage_WillBeBroken_Text]: en[{0},{1}] != ru[{0},{0},{1}]
   JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Resource0UsageInlineWillProduceConflicts_Text]: en[] != ru[{0}]
   JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [StaticResource_0Usage_WillBeBroken_Text]: en[{0},{1}] != ru[{0},{0},{1}]
+  JetBrains.ReSharper.UnitTestFramework.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): UnitTestingZone_Description, UnitTestingZone_FeatureName
   JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Copyright__AllRightsReserved_Text]: en[{0},{1}] != ru[{0},{1},{1}]
   JetBrains.UI.Resources.CommonStrings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [__Change_WillBeLostUnlessApplied_Text]: en[{0},{1},{2}] != ru[{0},{1}]
-  JetBrains.UI.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): EM_ExtensionSection_Selected_Short_Description
+  JetBrains.UI.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): LicensingMethods_Text, ModifyAction_Text
   JetBrains.UI.Resources.Strings.ru-RU.resx: ПЛЕЙСХОЛДЕРЫ [Copyright__AllRightsReserved_Text]: en[{0},{1}] != ru[{0},{1},{1}]
-  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): DefaultDiskCleanupSettings_Text, DeplozedPackagesCache_PathToCleanDescription_Text, ExternalServices_PathToCleanDescription_Text, InstallerLogFiles_PathToCleanDescription_Text, LogFiles_PathToCleanDescription_Text, ProductContentCache_PathToCleanDescription_Text, SettingsStorageCache_PathToCleanDescription_Text, ShellCachesInAppData_PathToCleanDescription_Text, SolutionCachesInAppData_PathToCleanDescription_Text, SolutionCachesInTemp_PathToCleanDescription_Text, TempCaches_PathToCleanDescription_Text, WebsiteBuilderFiles_PathToCleanDescription_Text
+  JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ЛИШНИЕ КЛЮЧИ (в resx больше, чем в DLL): LearnWhatSNew_Text, StoresForWhichWhatsNewIsShownSettingDescription, StoresMd5HashForLastShownWhatNew, VsToolsOptionsPage_Button_Restart_Text, WhatsNew_FailedToLoad_Text, WhatsNew_Loading_Text, WhatsNew_OpenInBrowser_Hyperlink_Text, WhatSNew_Text, WhatsNewShownSettingsSettingDescription, YouHave__Installed_Text, YouHaveInstalledANewVersionOf__Text
 
 --- НА КЛАДКУ ВНИМАНИЯ ---
   ApiParser.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
@@ -317,6 +344,8 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article4_Link] = http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article5_Link] = http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article6_Link] = http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article7_Link] = http://blog.jetbrains.com/dotnet/2015/03/04/unit-testing-and-memory-profiling-can-they-be-combined/
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Article8_Link] = http://blog.jetbrains.com/dotnet/2015/09/15/memory-testing-on-a-ci-server-dotmemory-unit-standalone-launcher/
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial1_Link] = https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Tutorial2_Link] = https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_AnalyzingAnInstance_Link] = https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
@@ -326,6 +355,7 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_ComparingSnapshots_Link] = https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_GettingStarted_Link] = https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_MeetDotMemory_Link] = https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k
+  JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_MeetDotMemoryUnit_Link] = https://www.youtube.com/watch?v=SGwdb5FXuNk&index=2&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_SnapshotOverview_Link] = https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [Help_Youtube_TheProfilingWorkflow_Link] = https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [MainView_HomeMode_Tooltip] = Ctrl+H
@@ -375,12 +405,13 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_Jitting_ShortName] = JIT
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [KnownEventTypes_SqlCommand_ShortName] = SQL
   JetBrains.DotTrace.DataStructures.Resources.UIResources.ru-RU.resx: ru==en [Mono] = Mono
-  JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx: ru==en [LoadPdbSettingDescription] = LoadPdb
-  JetBrains.DotTrace.Features.Resources.Strings.ru-RU.resx: ru==en [TimelineProcessingSettingsSettingDescription] = TimelineProcessingSettings
   JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
+  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [AllowBackgroundLoadPdbSettingDescription] = AllowBackgroundLoadPdb
+  JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [DownloadSymbolFilesSettingDescription] = DownloadSymbolFiles
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [EntryPoint_Unity_Footer_Header] = Unity
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [EntryPoint_Unreal_Footer_Header] = Unreal Engine
   JetBrains.dotTrace.Home.Presentation.Resources.Strings.ru-RU.resx: ru==en [UseStackWalkSyncOnWindowsSettingDescription] = UseStackWalkSyncOnWindows
+  JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.DotTrace.Ide.Rider.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotInstantActivateNodeActionText] = DotInstantActivateNode
   JetBrains.dotTrace.VS.Resources.Strings.ru-RU.resx: ru==en [DotInstantOptionPageTitle] = dotInstant
@@ -392,7 +423,6 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
   JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Platform.VisualStudio.Backend.Resources.Strings.ru-RU.resx: ru==en [_VisualStudio_Text] = _Visual Studio
-  JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [InternalTreasury_Text] = Internal Treasury
   JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [Shift_Text] = Shift
   JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings.ru-RU.resx: ru==en [Tab_Text] = Tab
@@ -426,9 +456,9 @@ ru==en (без кириллицы):     362  (с малыми англ. слов
 HintPath: {0}
   JetBrains.ProjectModel.ProjectsHost.Resources.Strings.ru-RU.resx: ru==en [SudoDotnetWorkloadInstall__Text] = sudo dotnet workload install {0}
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
-  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [DiagnosticSubsystem_Roslyn] = Roslyn
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [IncludePrereleaseSettingDescription] = IncludePrerelease
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [MsBuild_Text] = MsBuild
+  JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [NuGet_Text] = NuGet
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [NuGetSettingDescription] = NuGet
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [ReSharperBuild__Text] = ReSharper Build – {0}
   JetBrains.ProjectModel.Resources.Strings.ru-RU.resx: ru==en [Temp] = Temp
@@ -470,7 +500,6 @@ HintPath: {0}
   JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings.ru-RU.resx: ru==en [JOIN_Text] = JOIN
   JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ru==en [ILViewerCodeTypeILText] = IL
   JetBrains.ReSharper.ExternalSources.Resources.Strings.ru-RU.resx: ru==en [NuGetPackagesConfig_Text] = NuGet packages.config
-  JetBrains.ReSharper.Feature.Services.AI.Resources.Strings.ru-RU.resx: ru==en [AIAssistantZone_FeatureName] = AI Assistant
   JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
@@ -480,11 +509,9 @@ HintPath: {0}
   JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings.ru-RU.resx: ru==en [ProtobufSettingDescription] = Protobuf
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [choice:mappings] = one:i == 1
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFramework_Text] = Entity Framework
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EntityFrameworkZone_FeatureName] = Entity Framework
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [EvaluatesToTheSpecifiedConstantValueMacroDefinition_Description] = {#0:Constant value}
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NETCore_Text] = .NET Core
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [NUnit_Text] = NUnit
-  JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PackageCheckerZone_FeatureName] = Package Checker
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [PushToHint_Indicator_ConfigureDefaultVisibility_PushToHint] = Push-to-Hint
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [ReSharper_Text] = ReSharper
   JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx: ru==en [SearchUrl] = URL:
@@ -526,7 +553,6 @@ HintPath: {0}
   JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultEnableBreakpointActionText] = FindResult.EnableBreakpoint
   JetBrains.ReSharper.Features.Navigation.Resources.Strings.ru-RU.resx: ru==en [FindResultToggleBreakpointActionText] = FindResult.ToggleBreakpoint
   JetBrains.ReSharper.Features.ReSpeller.Resources.Strings.ru-RU.resx: ru==en [ReSpellerOptionPageTitle] = ReSpeller
-  JetBrains.ReSharper.Features.SolBuilderDuo.Resources.Strings.ru-RU.resx: ru==en [SolutionBuilderZone_FeatureName] = ReSharper Build
   JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [ESLintOptionPageTitle] = ESLint
   JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [JSLintOptionPageTitle] = JSLint
   JetBrains.ReSharper.Features.Web.Linters.Resources.Strings.ru-RU.resx: ru==en [TSLintOptionPageTitle] = TSLint
@@ -591,9 +617,7 @@ HintPath: {0}
   JetBrains.ReSharper.Plugins.Unity.Resources.Strings.ru-RU.resx: ru==en [UxmlUnity_Text] = Uxml (Unity)
   JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Product.Resources.Strings.ru-RU.resx: ru==en [ReSharperProductZone_FeatureName] = ReSharper
   JetBrains.ReSharper.Psi.Asm.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
-  JetBrains.ReSharper.Psi.BuildScripts.Resources.Strings.ru-RU.resx: ru==en [LanguageBuildScriptsZone_FeatureName] = MsBuild
   JetBrains.ReSharper.Psi.Cpp.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Class_Text] = class
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Delegate_Text] = delegate
@@ -602,7 +626,6 @@ HintPath: {0}
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Interface_Text] = interface
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Record_Text] = record
   JetBrains.ReSharper.Psi.CSharp.Resources.Strings.ru-RU.resx: ru==en [Struct_Text] = struct
-  JetBrains.ReSharper.Psi.Protobuf.Resources.Strings.ru-RU.resx: ru==en [LanguageProtobufZone_FeatureName] = Protobuf
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [CRLFWindows_Description_Text] = CR+LF (Windows)
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [EditorconfigGeneratedCodeSettingDescription] = .editorconfig generated_code
   JetBrains.ReSharper.Psi.Resources.Strings.ru-RU.resx: ru==en [LFUnixMacOSX_Description_Text] = LF (Unix, Mac OS X)
@@ -678,7 +701,6 @@ HintPath: {0}
   JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [DefaultReporterChangedSettingDescription] = UpgradePerformed
   JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradeFromExceptionReportSettingsKeySettingDescription] = UpgradeFromExceptionReportSettingsKey
   JetBrains.UI.Resources.Strings.ru-RU.resx: ru==en [UpgradePerformedSettingDescription] = UpgradePerformed
-  JetBrains.ViewModels.Src.Options.Res.OptionsStrings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [_VisualStudio_Text] = _Visual Studio
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ConflictingShortcutWindowOkButton] = OK
   JetBrains.VsIntegration.Resources.Strings.ru-RU.resx: ru==en [ShortcutSchemeSelectionWindowIntellijIdeaTitle] = IntelliJ IDEA

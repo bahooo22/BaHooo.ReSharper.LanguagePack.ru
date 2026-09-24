@@ -1,29 +1,30 @@
-﻿=== Аудит покрытия локализации: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229 ===
+﻿=== Аудит покрытия локализации: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229_000 ===
 
-DLL просканировано:        624
+DLL просканировано:        620
   не удалось загрузить:    2
-Neutral .resources всего:  337
+Neutral .resources всего:  344
 Файлов в пакете (resx):    248
 Задеплоено в i18n:         248
 
-ПОКРЫТО ПАКЕТОМ:  185 из 337
-ОТСУТСТВУЕТ В ПАКЕТЕ: 152
-В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 63
+ПОКРЫТО ПАКЕТОМ:  186 из 344
+ОТСУТСТВУЕТ В ПАКЕТЕ: 158
+В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 62
 Задеплоено лишнего (нет в resx): 0
 Есть в resx, но не задеплоено: 0
 
 --- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер байт | строковых записей) ---
     (-1 = ресурс не читается как набор имя/значение; 0 = пустой контейнер формы/картинок)
 [Strings] Microsoft.Extensions.FileSystemGlobbing.Resources.Strings.resources | Microsoft.Extensions.FileSystemGlobbing.dll | 602 | 4
-[Strings] NuGet.Commands.Strings.resources | NuGet.Commands.dll | 41706 | 290
+[Strings] NuGet.Commands.Strings.resources | NuGet.Commands.dll | 40623 | 287
 [Strings] NuGet.Common.Strings.resources | NuGet.Common.dll | 2103 | 14
 [Strings] NuGet.DependencyResolver.Strings.resources | NuGet.DependencyResolver.Core.dll | 807 | 3
 [Strings] NuGet.Frameworks.Strings.resources | NuGet.Frameworks.dll | 1160 | 8
 [Strings] NuGet.LibraryModel.Strings.resources | NuGet.LibraryModel.dll | 325 | 1
+[Strings] NuGet.NuGet.Frameworks.Strings.resources | NuGet.Core.dll | 575 | 4
 [Strings] NuGet.PackageManagement.Strings.resources | NuGet.PackageManagement.dll | 13153 | 101
-[Strings] NuGet.Packaging.Strings.resources | NuGet.Packaging.dll | 31394 | 216
+[Strings] NuGet.Packaging.Strings.resources | NuGet.Packaging.dll | 31266 | 215
 [Strings] NuGet.ProjectModel.Strings.resources | NuGet.ProjectModel.dll | 4709 | 28
-[Strings] NuGet.Protocol.Strings.resources | NuGet.Protocol.dll | 15233 | 114
+[Strings] NuGet.Protocol.Strings.resources | NuGet.Protocol.dll | 15103 | 113
 [Strings] NuGet.Resolver.Strings.resources | NuGet.Resolver.dll | 2014 | 13
 [other]   System.Reactive.Platforms.Windows.Strings_WindowsThreading.resources | System.Reactive.dll | 419 | 2
 [other]   System.Reactive.Strings_Core.resources | System.Reactive.dll | 1411 | 9
@@ -35,6 +36,8 @@ Neutral .resources всего:  337
 [other]   ActiproSoftware.Products.Shared.Resources.resources | ActiproSoftware.Shared.Wpf.dll | 579 | 5
 [other]   ActiproSoftware.Products.SyntaxEditor.Resources.resources | ActiproSoftware.SyntaxEditor.Wpf.dll | 22533 | 246
 [other]   ActiproSoftware.Products.Text.Resources.resources | ActiproSoftware.Text.Wpf.dll | 13196 | 124
+[other]   amy.resources | yWorks.yFilesWPF.Viewer.dll | 9932 | 143
+[other]   au2.resources | yWorks.yFilesWPF.Viewer.dll | 3443 | 66
 [other]   DevExpress.Data.Db.Messages.resources | DevExpress.Data.v7.1.dll | 2085 | 11
 [other]   DevExpress.Utils.About.AboutSN.resources | DevExpress.Utils.v7.1.dll | 5618 | 1
 [other]   DevExpress.Utils.About.frmAbout.resources | DevExpress.Utils.v7.1.dll | 526 | 1
@@ -51,17 +54,16 @@ Neutral .resources всего:  337
 [other]   DevExpress.XtraTreeList.Dragging.DragMaster.resources | DevExpress.XtraTreeList.v7.1.dll | 180 | 0
 [other]   DevExpress.XtraTreeList.Frames.TreeListPrinting.resources | DevExpress.XtraTreeList.v7.1.dll | 77192 | 189
 [other]   DevExpress.XtraTreeList.LocalizationRes.resources | DevExpress.XtraTreeList.v7.1.dll | 2570 | 23
-[other]   dt.AqHz.resources | yWorks.yFilesWPF.Complete.dll | 4435 | 79
-[other]   dt.IqlN.resources | yWorks.yFilesWPF.Complete.dll | 10164 | 147
 [other]   EditorFormats.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1000471 | 0
 [other]   ExceptionStringTable.resources | System.Windows.Interactivity.dll, WPFToolkit.dll | 2741 | 13
 [other]   JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922 | 15
 [other]   JetBrains.Common.UI.WinForms.Src.TriStateTreeView.resources | JetBrains.Common.UI.WinForms.dll | 871 | 0
-[other]   JetBrains.dotMemory.GUI.Properties.Resources.resources | JetBrains.dotMemory.GUI.dll | 88617 | 0
+[other]   JetBrains.dotMemory.GUI.Properties.Resources.resources | JetBrains.dotMemory.GUI.dll | 93907 | 0
 [other]   JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129 | 5
+[other]   JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.Model.Interface.dll | 495 | 2
 [other]   JetBrains.dotTraceInstant.ViewModel.resources.Resources.resources | JetBrains.dotTraceInstant.ViewModel.dll | 180 | 0
 [other]   JetBrains.Platform.UIInteractive.Ide.Src.TreeBrowser.ExportTreeViewResources.resources | JetBrains.Platform.UIInteractive.Ide.dll | 180 | 0
-[other]   JetBrains.Platform.VisualStudio.AnyEnd.Resources.ReSharperPlatformImages.resources | JetBrains.Platform.VisualStudio.AnyEnd.dll | 1525445 | 0
+[other]   JetBrains.Platform.VisualStudio.AnyEnd.Resources.ReSharperPlatformImages.resources | JetBrains.Platform.VisualStudio.AnyEnd.dll | 1458773 | 0
 [other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.DevExpressTreeControl.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180 | 0
 [other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.QuickSearchBox.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180 | 0
 [other]   JetBrains.PsiFeatures.UIInteractive.Core.Src.DevExpressTreeView.TreeModelBrowserPanel.resources | JetBrains.PsiFeatures.UIInteractive.Core.dll | 180 | 0
@@ -76,7 +78,7 @@ Neutral .resources всего:  337
 [other]   JetBrains.PsiFeatures.UIInteractive.LiveTemplates.SrcView.TemplateEditor.TemplateTextEditor.resources | JetBrains.PsiFeatures.UIInteractive.LiveTemplates.dll | 180 | 0
 [other]   JetBrains.PsiFeatures.VisualStudio.Core.Resources.Clipart.PsiFeaturesVisualStudioClipart.resources | JetBrains.PsiFeatures.VisualStudio.Core.dll | 9464 | 0
 [other]   JetBrains.ReSharper.DebuggerVisualizers.resources.icons.DebuggerVisualizersIcons.resources | JetBrains.ReSharper.DebuggerVisualizers.dll | 1810 | 0
-[other]   JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 82355 | 1
+[other]   JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 56362 | 1
 [other]   JetBrains.ReSharper.Feature.Services.Web.Resources.Html.HtmlResources.resources | JetBrains.ReSharper.Feature.Services.Web.dll | 356200 | 0
 [other]   JetBrains.ReSharper.Features.Altering.Src.CodeStyle.VB.VBFormattingStylePage.resources | JetBrains.ReSharper.Features.Altering.dll | 180 | 0
 [other]   JetBrains.ReSharper.LiveTemplates.Src.UI.ExtendedRichText.resources | JetBrains.ReSharper.LiveTemplates.dll | 180 | 0
@@ -100,6 +102,7 @@ Neutral .resources всего:  337
 [other]   JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources | JetBrains.ReSharper.Psi.Web.dll | 2211 | 15
 [other]   JetBrains.ReSharper.Refactorings.Src.Move.AdjustNamespaces.Impl.AdjustNamespacesPage.resources | JetBrains.ReSharper.NewRefactorings.dll | 180 | 0
 [other]   JetBrains.ReSharper.Resources.Resources.Clipart.ReSharperClipart.resources | JetBrains.ReSharper.Resources.dll | 180 | 0
+[other]   JetBrains.ReSharper.Resources.Src.Application.Licensing.ReSharperLicenseSupportResources.resources | JetBrains.ReSharper.Resources.dll | 413916 | 5
 [other]   JetBrains.Standalone.TextControl.Src.TextControl.Syntax.SyntaxResources.SyntaxResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 70758 | 0
 [other]   JetBrains.Standalone.TextControl.Src.TextControl.Theming.ThemingResources.ThemingResources.resources | JetBrains.Platform.Standalone.TextControl.dll | 4931 | 0
 [other]   JetBrains.UI.Src.Features.ExtensionManager.OptionsPages.PackageSourceEditorDialog.resources | JetBrains.Platform.UIInteractive.Shell.dll | 180 | 0
@@ -154,12 +157,15 @@ Neutral .resources всего:  337
 [other]   Microsoft.WindowsAPICodePack.Resources.LocalizedMessages.resources | Microsoft.WindowsAPICodePack.dll | 8676 | 68
 [other]   Microsoft.WindowsAPICodePack.Shell.Resources.LocalizedMessages.resources | Microsoft.WindowsAPICodePack.Shell.dll | 15305 | 132
 [other]   NHunspell.Resources.resources | NHunspell.dll | 703 | 5
+[other]   NuGet.CommonResources.resources | NuGet.Core.dll | 1406 | 9
 [other]   NuGet.Configuration.Resources.resources | NuGet.Configuration.dll | 7637 | 53
 [other]   NuGet.Credentials.Resources.resources | NuGet.Credentials.dll | 2474 | 13
 [other]   NuGet.Packaging.PackageCreation.Resources.NuGetResources.resources | NuGet.Packaging.dll | 5651 | 40
 [other]   NuGet.Packaging.Rules.AnalysisResources.resources | NuGet.Packaging.dll | 8625 | 40
+[other]   NuGet.Resources.AnalysisResources.resources | NuGet.Core.dll | 3803 | 27
+[other]   NuGet.Resources.NuGetResources.resources | NuGet.Core.dll | 14882 | 119
 [other]   NuGet.Versioning.Resources.resources | NuGet.Versioning.dll | 695 | 5
-[other]   Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1224088 | 1
+[other]   Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1223724 | 1
 [other]   System.Windows.Controls.DataVisualization.Properties.Resources.resources | System.Windows.Controls.DataVisualization.Toolkit.dll | 5680 | 28
 [other]   System.Windows.Controls.Properties.Resources.resources | System.Windows.Controls.Input.Toolkit.dll, System.Windows.Controls.Layout.Toolkit.dll | 4973 | 30
 [other]   VisualBasicAnalyzersResources.resources | Microsoft.CodeAnalysis.VisualBasic.Features.dll | 963 | 8
@@ -168,19 +174,21 @@ Neutral .resources всего:  337
 [other]   VisualBasicWorkspaceExtensionsResources.resources | Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll | 180 | 0
 
 --- ОЦЕНКА ДЕФИЦИТА ПО РЕСУРСАМ JETBRAINS ---
-Непокрытых JetBrains-ресурсов:              58
+Непокрытых JetBrains-ресурсов:              60
   из них файлы данных SharePoint:            13 (синхронизированы с ASPX-разметкой, не переводятся)
   пустых контейнеров (0 строковых записей):  38
-  таблиц со строками:                        7, всего строк: 42
+  таблиц со строками:                        9, всего строк: 49
 
 --- ТАБЛИЦЫ СО СТРОКАМИ (строков | ресурс | DLL | байт) ---
     15 | JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922
     15 | JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources | JetBrains.ReSharper.Psi.Web.dll | 2211
      5 | JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129
+     5 | JetBrains.ReSharper.Resources.Src.Application.Licensing.ReSharperLicenseSupportResources.resources | JetBrains.ReSharper.Resources.dll | 413916
      3 | JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources.resources | JetBrains.ReSharper.Psi.CSharp.dll | 25094
+     2 | JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.Model.Interface.dll | 495
      2 | JetBrains.ReSharper.Plugins.Unity.CSharp.Psi.CodeStyle.AdditionalFileLayoutResources.resources | JetBrains.ReSharper.Plugins.Unity.dll | 8516
-     1 | JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 82355
-     1 | Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1224088
+     1 | JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 56362
+     1 | Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1223724
 
 --- В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL ---
   ApiParser.Resources.Strings.resources
@@ -188,13 +196,13 @@ Neutral .resources всего:  337
   JetBrains.CommandLine.CleanupCode.Resources.Strings.resources
   JetBrains.DotPeek.Resources.Strings.resources
   JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.resources
+  JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources
   JetBrains.DotTrace.Ide.Rider.Resources.Strings.resources
   JetBrains.EntityFramework.Features.Resources.Strings.resources
   JetBrains.Fleet.Backend.Resources.Strings.resources
   JetBrains.ForTea.RiderPlugin.Resources.Strings.resources
   JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.resources
   JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.resources
-  JetBrains.Platform.VisualStudio.Protocol.Resources.Strings.resources
   JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.resources
   JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.resources
   JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.resources
@@ -242,7 +250,6 @@ Neutral .resources всего:  337
   JetBrains.TestBakery.Core.Resources.Strings.resources
   JetBrains.TestBakery.RiderPlugin.Resources.Strings.resources
   JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.resources
-  JetBrains.ViewModels.Src.Options.Res.OptionsStrings.resources
   Mono.Debugging.Resources.Strings.resources
   OperatorsResolveCacheGenerator.Resources.Strings.resources
   RiderPlugin.UnrealLink.Resources.Strings.resources
