@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1306,5 +1306,17 @@
 </data>
 <data name="CircularDependencyInvolvingAndMessage" xml:space="preserve">
   <value>Циклическая {0} зависимость, включающая '{1}' и '{2}'</value>
+</data>
+<data name="ConvertStaticMethodInvocationToExtensionMethodCall" xml:space="preserve">
+  <value>РџСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ СЃС‚Р°С‚РёС‡РµСЃРєРѕРіРѕ РјРµС‚РѕРґР° РІ РІС‹Р·РѕРІ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
+</data>
+<data name="RuntimeDoesNotSupportExtendedLayoutTypesMessage" xml:space="preserve">
+  <value>Р¦РµР»РµРІР°СЏ СЃСЂРµРґР° РІС‹РїРѕР»РЅРµРЅРёСЏ РЅРµ РїРѕРґРґРµСЂР¶РёРІР°РµС‚ С‚РёРїС‹ СЃ СЂР°СЃС€РёСЂРµРЅРЅРѕР№ РєРѕРјРїРѕРЅРѕРІРєРѕР№</value>
+</data>
+<data name="StructLayoutAndExtendedLayoutAttributesTogetherMessage" xml:space="preserve">
+  <value>РћРґРЅРѕРІСЂРµРјРµРЅРЅРѕРµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Р°С‚СЂРёР±СѓС‚РѕРІ 'StructLayoutAttribute' Рё 'ExtendedLayoutAttribute' РІ РѕРґРЅРѕРј С‚РёРїРµ РЅРµРґРѕРїСѓСЃС‚РёРјРѕ</value>
+</data>
+<data name="WhenExtensionMethodIsInvokedAsStaticMethodConvertInvocationToExtensionMethodSyntax" xml:space="preserve">
+  <value>Р•СЃР»Рё РјРµС‚РѕРґ СЂР°СЃС€РёСЂРµРЅРёСЏ РІС‹Р·С‹РІР°РµС‚СЃСЏ РєР°Рє СЃС‚Р°С‚РёС‡РµСЃРєРёР№ РјРµС‚РѕРґ, РїСЂРµРѕР±СЂР°Р·РѕРІР°С‚СЊ РІС‹Р·РѕРІ РІ СЃРёРЅС‚Р°РєСЃРёСЃ РјРµС‚РѕРґР° СЂР°СЃС€РёСЂРµРЅРёСЏ</value>
 </data>
 </root>

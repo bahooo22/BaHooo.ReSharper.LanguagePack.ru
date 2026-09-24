@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -125,5 +125,23 @@
 </data>
 <data name="ServiceShutdownNotification_Description" xml:space="preserve">
   <value>Служба, отвечающая за проверку орфографии, грамматики и поддержку SQL, не запущена</value>
+</data>
+<data name="ChangeHeapSizeAction_Description" xml:space="preserve">
+  <value>РР·РјРµРЅРµРЅРёРµ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ СЂР°Р·РјРµСЂР° РєСѓС‡Рё РґР»СЏ СѓР·Р»Р° РІРЅРµС€РЅРёС… СЃР»СѓР¶Р± (ext-services64.exe), РѕР±РµСЃРїРµС‡РёРІР°СЋС‰РµРіРѕ РїСЂРѕРІРµСЂРєСѓ РѕСЂС„РѕРіСЂР°С„РёРё Рё РіСЂР°РјРјР°С‚РёРєРё, Р° С‚Р°РєР¶Рµ РїРѕРґРґРµСЂР¶РєСѓ SQL</value>
+</data>
+<data name="ChangeHeapSizeAction_DialogLabel" xml:space="preserve">
+  <value>РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·РјРµСЂ РєСѓС‡Рё РґР»СЏ РїСЂРѕС†РµСЃСЃР° РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±, РњР‘ (РґР»СЏ РїСЂРёРјРµРЅРµРЅРёСЏ РїРµСЂРµР·Р°РїСѓСЃС‚РёС‚Рµ ReSharper):</value>
+</data>
+<data name="ChangeHeapSizeAction_DialogTitle" xml:space="preserve">
+  <value>РћРіСЂР°РЅРёС‡РµРЅРёРµ РїР°РјСЏС‚Рё РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±</value>
+</data>
+<data name="ChangeHeapSizeAction_Text" xml:space="preserve">
+  <value>РР·РјРµРЅРёС‚СЊ РѕРіСЂР°РЅРёС‡РµРЅРёРµ РїР°РјСЏС‚Рё РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±вЂ¦</value>
+</data>
+<data name="ExternalServicesSettings_Description" xml:space="preserve">
+  <value>РЈР·РµР» РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±</value>
+</data>
+<data name="MaxHeapSizeMegabytes_Description" xml:space="preserve">
+  <value>РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЂР°Р·РјРµСЂ РєСѓС‡Рё РґР»СЏ РїСЂРѕС†РµСЃСЃР° СѓР·Р»Р° РІРЅРµС€РЅРёС… СЃР»СѓР¶Р±, РІ РјРµРіР°Р±Р°Р№С‚Р°С…</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -652,5 +652,8 @@
 </data>
 <data name="ToSaveTheChangesGloballyClickSaveTo_Text" xml:space="preserve">
   <value>Для глобального сохранения изменений нажмите "Сохранить в" и выберите "Этот компьютер". </value>
+</data>
+<data name="NuGetDumpInstalledPackageTrackerAction" xml:space="preserve">
+  <value>РЎРѕР·РґР°С‚СЊ РґР°РјРї InstalledPackageTracker NuGet</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -281,5 +281,17 @@
 </data>
 <data name="SpaceAfterLastAttributeSettingDescription" xml:space="preserve">
   <value>Пробел после последнего атрибута</value>
+</data>
+<data name="HereArrowText" xml:space="preserve">
+  <value>в—Ђ Р·РґРµСЃСЊ</value>
+</data>
+<data name="IncompleteOpenXmlAttribute_Text" xml:space="preserve">
+  <value>РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ Р·Р°РєСЂС‹РІР°СЋС‰Р°СЏ РєР°РІС‹С‡РєР° РґР»СЏ Р°С‚СЂРёР±СѓС‚Р° '{0}':</value>
+</data>
+<data name="IncompleteOpenXmlTag_Text" xml:space="preserve">
+  <value>РћС‚СЃСѓС‚СЃС‚РІСѓРµС‚ Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі РґР»СЏ '&lt;{0}&gt;':</value>
+</data>
+<data name="UnexpectedXmlToken_Text" xml:space="preserve">
+  <value>РќРµРїСЂРµРґРІРёРґРµРЅРЅР°СЏ Р»РµРєСЃРµРјР° XML РёР»Рё Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі:</value>
 </data>
 </root>

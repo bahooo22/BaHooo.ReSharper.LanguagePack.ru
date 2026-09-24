@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -851,5 +851,29 @@
 </data>
 <data name="TurnSolutionWatchdogOnOrOffSettingDescription" xml:space="preserve">
   <value>Включить или выключить монитор решений</value>
+</data>
+<data name="CacheSecondaryPsiDescription" xml:space="preserve">
+  <value>РљСЌС€РёСЂРѕРІР°С‚СЊ СѓР·Р»С‹ РґРµСЂРµРІР° Secondary PSI РІ SecondaryPsiTreeNodeCache</value>
+</data>
+<data name="DiagnosticSubsystem_Environment" xml:space="preserve">
+  <value>РЎСЂРµРґР°</value>
+</data>
+<data name="DiagnosticSubsystem_Roslyn" xml:space="preserve">
+  <value>Roslyn</value>
+</data>
+<data name="DiagnosticSubsystem_Security" xml:space="preserve">
+  <value>Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ</value>
+</data>
+<data name="DiagnosticSubsystem_Solution" xml:space="preserve">
+  <value>Р РµС€РµРЅРёРµ</value>
+</data>
+<data name="InstallAnnotationsPackageHint_Text" xml:space="preserve">
+  <value>{0} (СѓСЃС‚Р°РЅРѕРІРёС‚СЊ РїР°РєРµС‚ В«{1}В»)</value>
+</data>
+<data name="InstallingNuGetPackage_Text" xml:space="preserve">
+  <value>РЈСЃС‚Р°РЅРѕРІРєР° РїР°РєРµС‚Р° В«{0}В»</value>
+</data>
+<data name="UpdatingSelectedPackages__Caption" xml:space="preserve">
+  <value>РћР±РЅРѕРІР»РµРЅРёРµ РІС‹Р±СЂР°РЅРЅС‹С… РїР°РєРµС‚РѕРІ</value>
 </data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -977,4 +977,13 @@ var output = MyVeryLongFunctionName(SomeVeryLongParameterExpr, "строковы
   <data name="ASPNET_Caption" xml:space="preserve">
     <value>ASP.NET</value>
   </data>
+<data name="_InsertClosingTagOnTagNameCompletion_Text" xml:space="preserve">
+  <value>_Р’СЃС‚Р°РІРёС‚СЊ Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі РїСЂРё Р·Р°РІРµСЂС€РµРЅРёРё РёРјРµРЅРё С‚РµРіР°</value>
+</data>
+<data name="InserTheMatchingClosingTagUponCompletionOfATagName_Text" xml:space="preserve">
+  <value>Р’СЃС‚Р°РІР»СЏС‚СЊ РїР°СЂРЅС‹Р№ Р·Р°РєСЂС‹РІР°СЋС‰РёР№ С‚РµРі РїСЂРё Р·Р°РІРµСЂС€РµРЅРёРё РёРјРµРЅРё С‚РµРіР°</value>
+</data>
+<data name="Template_Editable_d2l0aCBTY29wZWQgQ1NTICgqLnJhem9yLmNzcykgRmlsZQEQEQ" xml:space="preserve">
+  <value>СЃ С„Р°Р№Р»РѕРј РёР·РѕР»РёСЂРѕРІР°РЅРЅРѕРіРѕ CSS (*.razor.css)</value>
+</data>
 </root>

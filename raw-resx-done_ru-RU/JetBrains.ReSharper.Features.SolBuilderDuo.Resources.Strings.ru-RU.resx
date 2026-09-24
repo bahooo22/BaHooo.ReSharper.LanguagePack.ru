@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -411,5 +411,11 @@
 </data>
 <data name="UseUpTo_Text" xml:space="preserve">
   <value>Использовать до</value>
+</data>
+<data name="SolutionBuilderZone_Description" xml:space="preserve">
+  <value>Р­РІСЂРёСЃС‚РёС‡РµСЃРєР°СЏ РѕРїС‚РёРјРёР·Р°С†РёСЏ СЃР±РѕСЂРєРё Рё РѕС‚РѕР±СЂР°Р¶РµРЅРёРµ РµС‘ СЂРµР·СѓР»СЊС‚Р°С‚РѕРІ</value>
+</data>
+<data name="SolutionBuilderZone_FeatureName" xml:space="preserve">
+  <value>ReSharper Build</value>
 </data>
 </root>

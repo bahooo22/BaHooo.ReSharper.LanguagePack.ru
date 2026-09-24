@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -1906,4 +1906,7 @@
   <data name="EventLogTable_CallInfo_Unknown" xml:space="preserve">
     <value>[Неизвестно]</value>
   </data>
+<data name="ConfigurationEditor_ConfigureSymbolServers" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕРёС‚СЊ СЃРµСЂРІРµСЂС‹ СЃРёРјРІРѕР»РѕРІ</value>
+</data>
 </root>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -128,5 +128,11 @@
 </data>
 <data name="ReSharper8GlobalSettings_Text" xml:space="preserve">
     <value>Глобальные настройки ReSharper 8</value>
+</data>
+<data name="ReSharperProductZone_Description" xml:space="preserve">
+  <value>Р Р°СЃС€РёСЂРµРЅРёРµ Visual Studio РґР»СЏ СЂР°Р·СЂР°Р±РѕС‚С‡РёРєРѕРІ .NET</value>
+</data>
+<data name="ReSharperProductZone_FeatureName" xml:space="preserve">
+  <value>ReSharper</value>
 </data>
 </root>

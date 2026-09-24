@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -481,5 +481,65 @@
 </data>
 <data name="Disable_Support_Text" xml:space="preserve">
   <value>Отключить поддержку {0}</value>
+</data>
+<data name="AlignBaselines_BoolOption_Text" xml:space="preserve">
+  <value>Р’С‹СЂР°РІРЅРёРІР°С‚СЊ Р±Р°Р·РѕРІС‹Рµ Р»РёРЅРёРё</value>
+</data>
+<data name="CodeInspectionSettingsColorIdentifiers_Text" xml:space="preserve">
+  <value>РћРїС†РёСЏ *РџСЂРѕРІРµСЂРєР° РєРѕРґР° | РќР°СЃС‚СЂРѕР№РєРё | Р¦РІРµС‚РѕРІС‹Рµ РёРґРµРЅС‚РёС„РёРєР°С‚РѕСЂС‹* РґРѕР»Р¶РЅР° Р±С‹С‚СЊ РІРєР»СЋС‡РµРЅР°, С‡С‚РѕР±С‹ ReSharper РѕС‚РѕР±СЂР°Р¶Р°Р» СЃРІРѕРё РІСЃРїР»С‹РІР°СЋС‰РёРµ РїРѕРґСЃРєР°Р·РєРё</value>
+</data>
+<data name="EnvironmentInfoAttachmentProvider_ProviderName" xml:space="preserve">
+  <value>РРЅС„РѕСЂРјР°С†РёСЏ Рѕ СЃСЂРµРґРµ</value>
+</data>
+<data name="Hint_Text_Size" xml:space="preserve">
+  <value>Р Р°Р·РјРµСЂ С€СЂРёС„С‚Р°</value>
+</data>
+<data name="Inline_Hints_Scale " xml:space="preserve">
+  <value>РњР°СЃС€С‚Р°Р± РІСЃС‚СЂРѕРµРЅРЅС‹С… РїРѕРґСЃРєР°Р·РѕРє:</value>
+</data>
+<data name="Interline_Hints_Scale " xml:space="preserve">
+  <value>РњР°СЃС€С‚Р°Р± РјРµР¶СЃС‚СЂРѕС‡РЅС‹С… РїРѕРґСЃРєР°Р·РѕРє:</value>
+</data>
+<data name="InternalOptions_Text" xml:space="preserve">
+  <value>Р’РЅСѓС‚СЂРµРЅРЅРёРµ РїР°СЂР°РјРµС‚СЂС‹</value>
+</data>
+<data name="Log_Option_Text" xml:space="preserve">
+  <value>Р–СѓСЂРЅР°Р»</value>
+</data>
+<data name="LogLevelForWritingNuGetPackageRestorer_RadioOption_Caption" xml:space="preserve">
+  <value>РЈСЂРѕРІРµРЅСЊ Р¶СѓСЂРЅР°Р»Р° РґР»СЏ Р·Р°РїРёСЃРё СЃРѕРѕР±С‰РµРЅРёР№ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚РµР»СЏ РїР°РєРµС‚РѕРІ NuGet РІ РІС‹РІРѕРґ:</value>
+</data>
+<data name="None_Option_Text" xml:space="preserve">
+  <value>РќРµС‚</value>
+</data>
+<data name="Notification_Option_Text" xml:space="preserve">
+  <value>РЈРІРµРґРѕРјР»РµРЅРёРµ</value>
+</data>
+<data name="NuGetRestorerOptionPageTitle" xml:space="preserve">
+  <value>Р’РѕСЃСЃС‚Р°РЅРѕРІРёС‚РµР»СЊ NuGet</value>
+</data>
+<data name="ReplaceVisualStudioTooltips_Text" xml:space="preserve">
+  <value>Р—Р°РјРµРЅСЏС‚СЊ РІСЃРїР»С‹РІР°СЋС‰РёРµ РїРѕРґСЃРєР°Р·РєРё Visual Studio</value>
+</data>
+<data name="ReSharperForVSCodeFeatureSuggesterSettingsKeySettingDescription" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕР№РєРё РїСЂРµРґР»РѕР¶РµРЅРёСЏ С„СѓРЅРєС†РёР№ ReSharper for VS Code</value>
+</data>
+<data name="ReSharperForVSCodeLearnMore_Text" xml:space="preserve">
+  <value>РџРѕРґСЂРѕР±РЅРµРµ</value>
+</data>
+<data name="ReSharperForVSCodeSuggestion_Text" xml:space="preserve">
+  <value>РџСЂРѕРІРµСЂРµРЅРЅРѕРµ РєР°С‡РµСЃС‚РІРѕ ReSharper С‚РµРїРµСЂСЊ РґРѕСЃС‚СѓРїРЅРѕ РІ VS Code, Cursor Рё Google Antigravity.
+РћРЅРѕ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅСЏРµС‚СЃСЏ РїРѕ С‚РѕР№ Р¶Рµ Р»РёС†РµРЅР·РёРё, С‡С‚Рѕ Рё ReSharper РІ Visual Studio.
+РќР°Р№РґРёС‚Рµ **ReSharper** РІ РѕРєРЅРµ СЂР°СЃС€РёСЂРµРЅРёР№ Рё РїРѕРїСЂРѕР±СѓР№С‚Рµ РµРіРѕ!</value>
+</data>
+<data name="RestoringNuGetPackagesClickToCancel_ToolTip" xml:space="preserve">
+  <value>Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РїР°РєРµС‚РѕРІ NuGet
+РќР°Р¶РјРёС‚Рµ РґР»СЏ РѕС‚РјРµРЅС‹</value>
+</data>
+<data name="ShowLog_Button_Text" xml:space="preserve">
+  <value>РџРѕРєР°Р·Р°С‚СЊ Р¶СѓСЂРЅР°Р»</value>
+</data>
+<data name="Tooltips_Header_Text" xml:space="preserve">
+  <value>Р’СЃРїР»С‹РІР°СЋС‰РёРµ РїРѕРґСЃРєР°Р·РєРё</value>
 </data>
 </root>

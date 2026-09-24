@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -637,5 +637,71 @@ URI: {0}
 </data>
 <data name="Applying_KeyboardScheme_Text" xml:space="preserve">
   <value>Применение схемы клавиатуры {0}</value>
+</data>
+<data name="ClassicWithFullFeaturesPerformanceMay_Text" xml:space="preserve">
+  <value>в“ РљР»Р°СЃСЃРёС‡РµСЃРєРёР№ СЂРµР¶РёРј СЃРѕ РІСЃРµРјРё С„СѓРЅРєС†РёСЏРјРё; РїСЂРѕРёР·РІРѕРґРёС‚РµР»СЊРЅРѕСЃС‚СЊ РјРѕР¶РµС‚ Р±С‹С‚СЊ СЃРЅРёР¶РµРЅР°</value>
+</data>
+<data name="FullyRestart_WithoutRestartingVisual_Text" xml:space="preserve">
+  <value>РџРѕР»РЅРѕСЃС‚СЊСЋ РїРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ {0} Р±РµР· РїРµСЂРµР·Р°РїСѓСЃРєР° Visual Studio.</value>
+</data>
+<data name="LearnWhatSNew_Text" xml:space="preserve">
+  <value>РЈР·РЅР°С‚СЊ Рѕ РЅРѕРІРѕРІРІРµРґРµРЅРёСЏС…</value>
+</data>
+<data name="NewHighlyResponsiveSmallSubsetOfFeatures_Text" xml:space="preserve">
+  <value>в“ РќРѕРІС‹Р№ СЂРµР¶РёРј СЃ РІС‹СЃРѕРєРѕР№ РѕС‚Р·С‹РІС‡РёРІРѕСЃС‚СЊСЋ; РЅРµР±РѕР»СЊС€Р°СЏ С‡Р°СЃС‚СЊ С„СѓРЅРєС†РёР№ РЅРµРґРѕСЃС‚СѓРїРЅР°</value>
+</data>
+<data name="ReloadsStateAndRestartsBackgroundAnalysis_Text" xml:space="preserve">
+  <value>РџРµСЂРµР·Р°РіСЂСѓР¶Р°РµС‚ СЃРѕСЃС‚РѕСЏРЅРёРµ Рё РїРµСЂРµР·Р°РїСѓСЃРєР°РµС‚ С„РѕРЅРѕРІС‹Р№ Р°РЅР°Р»РёР·.</value>
+</data>
+<data name="RepairOutOfProcess_Text" xml:space="preserve">
+  <value>РСЃРїСЂР°РІРёС‚СЊ РІРЅРµРїСЂРѕС†РµСЃСЃРЅС‹Р№ СЂРµР¶РёРј</value>
+</data>
+<data name="ReSharperInProcess__Text" xml:space="preserve">
+  <value>Р’РЅСѓС‚СЂРёРїСЂРѕС†РµСЃСЃРЅС‹Р№ ReSharper{0}</value>
+</data>
+<data name="ReSharperIsRunningInInProcessMode_Text" xml:space="preserve">
+  <value>ReSharper СЂР°Р±РѕС‚Р°РµС‚ РІРѕ РІРЅСѓС‚СЂРёРїСЂРѕС†РµСЃСЃРЅРѕРј СЂРµР¶РёРјРµ</value>
+</data>
+<data name="ReSharperIsRunningInOutOfProcessMode_Text" xml:space="preserve">
+  <value>ReSharper СЂР°Р±РѕС‚Р°РµС‚ РІРѕ РІРЅРµРїСЂРѕС†РµСЃСЃРЅРѕРј СЂРµР¶РёРјРµ</value>
+</data>
+<data name="ReSharperOutOfProcess__Text" xml:space="preserve">
+  <value>Р’РЅРµРїСЂРѕС†РµСЃСЃРЅС‹Р№ ReSharper {0}{1}</value>
+</data>
+<data name="StoresForWhichWhatsNewIsShownSettingDescription" xml:space="preserve">
+  <value>РҐСЂР°РЅРёР»РёС‰Р°, РґР»СЏ РєРѕС‚РѕСЂС‹С… РїРѕРєР°Р·С‹РІР°РµС‚СЃСЏ РёРЅС„РѕСЂРјР°С†РёСЏ Рѕ РЅРѕРІРѕРІРІРµРґРµРЅРёСЏС…</value>
+</data>
+<data name="StoresMd5HashForLastShownWhatNew" xml:space="preserve">
+  <value>РҐСЂР°РЅРёС‚ MD5-С…СЌС€ РїРѕСЃР»РµРґРЅРµРіРѕ РїРѕРєР°Р·Р°РЅРЅРѕРіРѕ whats_new.json</value>
+</data>
+<data name="SubmitFeedback_Text" xml:space="preserve">
+  <value>РћС‚РїСЂР°РІРёС‚СЊ РѕС‚Р·С‹РІвЂ¦</value>
+</data>
+<data name="TheOptionPageCouldNotBeLoadedPlease_Text" xml:space="preserve">
+  <value>РќРµ СѓРґР°Р»РѕСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ СЃС‚СЂР°РЅРёС†Сѓ РїР°СЂР°РјРµС‚СЂРѕРІ. РџРѕРІС‚РѕСЂРёС‚Рµ РїРѕРїС‹С‚РєСѓ.</value>
+</data>
+<data name="VsToolsOptionsPage_Button_Restart_Text" xml:space="preserve">
+  <value>РџРµСЂРµР·Р°РїСѓСЃС‚РёС‚СЊ</value>
+</data>
+<data name="WhatsNew_FailedToLoad_Text" xml:space="preserve">
+  <value>РќРµ СѓРґР°Р»РѕСЃСЊ Р·Р°РіСЂСѓР·РёС‚СЊ СЃРѕРґРµСЂР¶РёРјРѕРµ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ»</value>
+</data>
+<data name="WhatsNew_Loading_Text" xml:space="preserve">
+  <value>Р—Р°РіСЂСѓР·РєР° В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ»...</value>
+</data>
+<data name="WhatsNew_OpenInBrowser_Hyperlink_Text" xml:space="preserve">
+  <value>РћС‚РєСЂС‹С‚СЊ РІ Р±СЂР°СѓР·РµСЂРµ в†—</value>
+</data>
+<data name="WhatSNew_Text" xml:space="preserve">
+  <value>Р§С‚Рѕ РЅРѕРІРѕРіРѕ</value>
+</data>
+<data name="WhatsNewShownSettingsSettingDescription" xml:space="preserve">
+  <value>РќР°СЃС‚СЂРѕР№РєРё РѕС‚РѕР±СЂР°Р¶РµРЅРёСЏ В«Р§С‚Рѕ РЅРѕРІРѕРіРѕВ»</value>
+</data>
+<data name="YouHave__Installed_Text" xml:space="preserve">
+  <value>РЈСЃС‚Р°РЅРѕРІР»РµРЅ {0} {1}</value>
+</data>
+<data name="YouHaveInstalledANewVersionOf__Text" xml:space="preserve">
+  <value>Р’С‹ СѓСЃС‚Р°РЅРѕРІРёР»Рё РЅРѕРІСѓСЋ РІРµСЂСЃРёСЋ {0}</value>
 </data>
 </root>

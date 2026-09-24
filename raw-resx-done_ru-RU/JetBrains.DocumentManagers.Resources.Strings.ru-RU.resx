@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -243,5 +243,8 @@
 </data>
 <data name="Argument_IsNull_Text" xml:space="preserve">
   <value>Аргумент '{0}' имеет значение null</value>
+</data>
+<data name="CannotCopyFolderIntoItself_Text" xml:space="preserve">
+  <value>РќРµРІРѕР·РјРѕР¶РЅРѕ СЃРєРѕРїРёСЂРѕРІР°С‚СЊ РїР°РїРєСѓ РІ СЃР°РјСѓ СЃРµР±СЏ</value>
 </data>
 </root>
