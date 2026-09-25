@@ -661,7 +661,7 @@
   <value>Нет</value>
 </data>
 <data name="Method_Text" xml:space="preserve">
-  <value> Method</value>
+  <value>метод</value>
 </data>
 <data name="PropertiesAndEventsSettingDescription" xml:space="preserve">
   <value>Свойства и события</value>

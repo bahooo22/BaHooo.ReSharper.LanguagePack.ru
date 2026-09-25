@@ -239,7 +239,7 @@
   <value>Создать конфигурацию запуска...</value>
 </data>
 <data name="GoToFileNearbyActionText" xml:space="preserve">
-  <value>Перейти к nearby файлу (Go to File Nearby)</value>
+  <value>Перейти к соседнему файлу</value>
 </data>
 <data name="RunConfigurationsEllipsis_Text" xml:space="preserve">
   <value>Конфигурации запуска...</value>

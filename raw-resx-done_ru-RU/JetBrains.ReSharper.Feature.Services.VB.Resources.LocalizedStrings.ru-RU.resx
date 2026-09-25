@@ -190,7 +190,7 @@
   <value>Там, где ожидается значение</value>
 </data>
 <data name="GenerateOption_No_Text" xml:space="preserve">
-  <value>0</value>
+  <value>Нет</value>
 </data>
 <data name="AfterSettingDescription" xml:space="preserve">
   <value>После '_'</value>

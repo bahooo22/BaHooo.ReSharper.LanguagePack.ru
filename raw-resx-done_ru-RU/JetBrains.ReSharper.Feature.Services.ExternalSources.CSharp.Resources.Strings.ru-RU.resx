@@ -175,7 +175,7 @@
   <value>PDB-файл скопирован из кэша (сигнатура {0})</value>
 </data>
 <data name="PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text" xml:space="preserve">
-  <value>PDB не был создан, так как сборка {0} имеет имя PDB {1} и сигнатуру {2}</value>
+  <value>PDB не был создан, так как сборка {0} имеет имя PDB {1} и сигнатуру {2} {3}</value>
 </data>
 <data name="AssemblyFile_DoesNotContainAnyDebugDirectory_Text" xml:space="preserve">
   <value>Файл сборки {0} не содержит каталога отладки</value>

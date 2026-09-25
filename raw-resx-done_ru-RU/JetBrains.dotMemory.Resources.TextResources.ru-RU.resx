@@ -4051,7 +4051,7 @@ dotMemory требуется около *{2}* памяти для открыти
   <value>.gexf</value>
 </data>
 <data name="TopTypes_Other" xml:space="preserve">
-  <value>Java EE</value>
+  <value>Прочее</value>
 </data>
 <data name="ObjectInfo_JustNumberTemplate" xml:space="preserve">
   <value>Объект #{0}</value>

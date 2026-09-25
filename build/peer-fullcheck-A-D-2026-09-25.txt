@@ -1,0 +1,1648 @@
+Полная проверка категорий A и D из build/semantic-scan-2026-09-25.txt (установка _000)
+============================================================================
+
+Метод: A — 525 строк скана, сведённые к 374 уникальным парам (ru,en); вердикт выносится
+паре, а каждая строка-исходник наследует его (вердикт определён значениями, они одинаковы).
+Все 374 пары просмотрены целиком (дамп E:/Temp/scan_review.txt), классы присвоены явными
+правилами + ручным разбором 34 остаточных. D — все 4 строки, каждая индивидуально.
+
+ИТОГ: дефектов 3 класса «чинить» (Д1, Д2, Д3a/b) + 4 наблюдения низкого приоритета (Н1-Н4).
+Категория D — все 4 строки легальны, из замечаний только D1 (полуперевод с дублем оригинала).
+
+ДЕФЕКТЫ (ключ + en + ru + предлагаемый ru)
+----------------------------------------------------------------------------
+Д1. Пара «Да/Нет» сломана: No_Text = «0» при Yes_Text = «Да». Показ «0» вместо «Нет». 4 ключа:
+    JetBrains.IDE.Resources.Strings / No_Text                              EN: No    RU: 0    -> «Нет»
+    JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings / No_Text  EN: No    RU: 0    -> «Нет»
+    JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings / GenerateOption_No_Text  EN: No    RU: 0    -> «Нет»
+    JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings / GenerateOption_No_Text  EN: No    RU: 0    -> «Нет»
+Д2. JetBrains.dotMemory.Resources.TextResources / TopTypes_Other
+    EN: Other   RU: Java EE   -> «Прочее» (копипаст из соседнего ключа)
+Д3. Заглушки «>» вместо названий возможностей (Feature.Services.CSharp.Strings):
+    PatternMatchingC70_Text   EN: Pattern matching (C# 7.0+)   RU: >   -> «Сопоставление с образцом (C# 7.0+)»
+    ThrowExpressionC70_Text   EN: Throw expression (C# 7.0+)   RU: >   -> «Выражение throw (C# 7.0+)»
+
+НАБЛЮДЕНИЯ (не чиню без решения ведущей)
+----------------------------------------------------------------------------
+Н1. DotTrace.DataStructures.UIResources / KnownEventTypes_Contention_ShortName: EN Contentions,
+    RU Contention — по сути непереведено; вариант «Ожидания».
+Н2. Psi.CSharp.Strings / Method_Text: EN method, RU « Method» (латиницей с заглавной);
+    вариант « метод».
+Н3. Application.Strings / LoggerActionGroupText: EN Logger, RU Logger; вариант «Журнал».
+Н4. Common.Resources / Common_TypeSettingDescription: EN Type, RU Type — value реальное слово,
+    не токен; вариант «Тип».
+D1. PsiFeatures.VisualStudio.Backend / GoToFileNearbyActionText: «Перейти к nearby файлу
+    (Go to File Nearby)» — осознанный дубль оригинала, но «nearby» не переведён; вариант
+    «Перейти к соседнему файлу».
+
+КЛАССЫ ВЕРДИКТОВ (легальные причины отсутствия кириллицы)
+----------------------------------------------------------------------------
+Л1 плейсхолдеры/символы; Л2 CLDR choice:mappings; Л3 имя продукта/бренда; Л4 ключевое слово/
+код/имя типа; Л5 токен-настройка (value = идентификатор); Л7 URL/файл/якорь/шаблон;
+Л8 длительность видео; Л9 адаптация (мнемоника/порядок слов); Л11 стилевые замены (of -> /).
+
+ПОСТРОЧНЫЕ ВЕРДИКТЫ — CAT-A, 374 уникальные пары (525 строк)
+----------------------------------------------------------------------------
+[Л1] x19  RU||{0}||  EN||{0}||
+      таблиц: 6 (например LocalizedStrings, Strings, TextResources); полный список таблиц/ключей наследует вердикт пары
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x12  RU||one:i == 1||  EN||one:i == 1||
+      таблиц: 12 (например CommonStrings, Strings, Strings3); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x9  RU||OK||  EN||OK||
+      таблиц: 6 (например Strings, TextResources); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x5  RU||C#||  EN||C#||
+      таблиц: 2 (например Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x5  RU||Visual Studio||  EN||Visual Studio||
+      таблиц: 5 (например Strings, TextResources); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x4  RU||0||  EN||No||
+      таблиц: 4 (например LocalizedStrings, Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x4  RU||ASP.NET||  EN||ASP.NET||
+      таблиц: 2 (например Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x4  RU||ID||  EN||Id||
+      таблиц: 4 (например Strings, Strings12); полный список таблиц/ключей наследует вердикт пары
+      вердикт: 
+
+[Л5] x4  RU||IIS||  EN||IIS||
+      таблиц: 3 (например Strings, TextResources, UITexts); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x4  RU||Mono||  EN||Mono||
+      таблиц: 2 (например UIResources, UITexts); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x4  RU||Razor||  EN||Razor||
+      таблиц: 2 (например Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x4  RU||private||  EN||Private||
+      таблиц: 4 (например LocalizedStrings, Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: 
+
+[MANUAL] x4  RU||protected||  EN||Protected||
+      таблиц: 4 (например LocalizedStrings, Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: 
+
+[MANUAL] x4  RU||public||  EN||Public||
+      таблиц: 4 (например LocalizedStrings, Strings); полный список таблиц/ключей наследует вердикт пары
+      вердикт: 
+
+[Л1] x4  RU||{0} {1}||  EN||{0} {1}||
+      таблиц: 2 (например Strings, UIResources); полный список таблиц/ключей наследует вердикт пары
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x3  RU|| ({0})||  EN|| ({0})||
+      JetBrains.dotMemory.Resources.TextResources / NavigateToDeclaration_Action_Text_Appendix_Template
+      JetBrains.ReSharper.ExternalSources.Resources.Strings / AssemblyVersion__Text
+      JetBrains.ReSharper.Refactorings.Resources.Strings / __Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x3  RU|| {0} ||  EN||{0}||
+      JetBrains.ReSharper.Daemon.Resources.Strings / Default_ToolTipFormatString_Text
+      JetBrains.ReSharper.Daemon.Resources.Strings10 / Message
+      JetBrains.ReSharper.Daemon.Xaml.Resources.Strings / Message
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x3  RU||2:29||  EN||2:29||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingAnObjectSet_Duration
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_MeetDotMemory_Duration
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_TheProfilingWorkflow_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x3  RU||Analyze_Memory_Allocation||  EN||Analyze_Memory_Allocation||
+      JetBrains.dotMemory.Resources.TextResources / RangeAllocations_ByCallTree_LearnMore_Link
+      JetBrains.dotMemory.Resources.TextResources / RangeAllocations_BySubsystem_LearnMore_Link
+      JetBrains.dotMemory.Resources.TextResources / RangeAllocations_UsageTip_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||CSS||  EN||CSS||
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / CSSOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / CSSSettingDescription
+      JetBrains.ReSharper.Features.Web.Resources.Strings / CSSSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||DOTS||  EN||DOTS||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_RE9UUwEQEQ
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / TypeDetector_AddDeclarationHighlighting_DOTS
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnitySettings_Dots_Header
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||HTML||  EN||HTML||
+      JetBrains.Application.Resources.Strings / HTMLActionText
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / HTMLOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / HTMLSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||Html||  EN||Html||
+      JetBrains.dotCover.Resources.Strings / Report_Html
+      JetBrains.ReSharper.Features.Web.Resources.Strings / HtmlOptionPageTitle
+      JetBrains.ReSharper.Features.Web.Resources.Strings / HtmlSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||IIS Express||  EN||IIS Express||
+      JetBrains.dotMemory.Resources.TextResources / WorkspaceFileName_IIS_Express
+      JetBrains.Profiler.Resources.UITexts / ApplicationKind_IISExpress
+      JetBrains.Profiler.Resources.UITexts / NewRunCfg_AppType_IISExpress_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||JSON||  EN||JSON||
+      JetBrains.dotMemory.Resources.TextResources / ExportObject_Filter_Json
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / JSONOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / JSONSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||JavaScript||  EN||JavaScript||
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / JavaScriptOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / JavaScriptSettingDescription
+      JetBrains.ReSharper.Features.Web.Resources.Strings / JavaScriptSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x3  RU||ReSharper||  EN||ReSharper||
+      JetBrains.Application.Resources.Strings / ReSharperActionGroupText
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / ReSharper_Text
+      JetBrains.UI.Resources.CommonStrings / ReSharper_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x3  RU||Tab||  EN||Tab||
+      JetBrains.Application.Resources.Strings / Tab_Text
+      JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings / Tab_Text
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / Tab_Key_In_Formatting_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||TypeScript||  EN||TypeScript||
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / TypeScriptOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / TypeScriptSettingDescription
+      JetBrains.ReSharper.Features.Web.Resources.Strings / TypeScriptSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x3  RU||URL||  EN||URL||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Filters_HttpRequestUrl_Name
+      JetBrains.Profiler.Home.Presentation.Resources.Strings / UrlSettingDescription
+      JetBrains.Profiler.Resources.UITexts / RunBrowser_Url
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||Unity||  EN||Unity||
+      JetBrains.dotTrace.Home.Presentation.Resources.Strings / EntryPoint_Unity_Footer_Header
+      JetBrains.Profiler.Resources.UITexts / ApplicationKind_Unity
+      JetBrains.Profiler.Resources.UITexts / NewRunCfg_AppType_Unity_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||Unreal Engine||  EN||Unreal Engine||
+      JetBrains.dotTrace.Home.Presentation.Resources.Strings / EntryPoint_Unreal_Footer_Header
+      JetBrains.Profiler.Resources.UITexts / NewRunCfg_AppType_Unreal_Name
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / UnrealEngine_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||XAML||  EN||XAML||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_XAML_Text
+      JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings / XAMLOptionPageTitle
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / XAMLSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||XML||  EN||XML||
+      JetBrains.Application.Resources.Strings / XMLActionText
+      JetBrains.dotCover.Resources.Strings / Report_Xml
+      JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings / XMLOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x3  RU||_Visual Studio||  EN||_Visual Studio||
+      JetBrains.Platform.VisualStudio.Backend.Resources.Strings / _VisualStudio_Text
+      JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / _VisualStudio_Text
+      JetBrains.VsIntegration.Resources.Strings / _VisualStudio_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x3  RU||internal||  EN||Internal||
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / InternalSettingDescription
+      JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings / InternalSettingDescription
+      JetBrains.ReSharper.Features.ReSpeller.Resources.Strings / Internal_BoolOption_Text
+      вердикт: 
+
+[Л1] x3  RU||{0}: {1} {2}||  EN||{0}: {1} {2}||
+      DPA.Core.Resources.Strings / IssueSummary_SqlCommandCount_Executed_Template
+      DPA.Core.Resources.Strings / IssueSummary_SqlConnectionCount_Template
+      DPA.Core.Resources.Strings / IssueSummary_SqlRecordCount_Executed_Template
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x2  RU||...||  EN||…||
+      JetBrains.IDE.Resources.Strings / Browse_FilePath_Button_Text
+      JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / _Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x2  RU||.NET Core||  EN||.NET Core||
+      JetBrains.Profiler.Resources.UITexts / ApplicationKind_NetCore
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / NETCore_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||.NET2.0||  EN||.NET2.0||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / NET20ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net20_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||.NET4.0||  EN||.NET4.0||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / NET40ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net40_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||.NET4.5||  EN||.NET4.5||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / NET45ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net45_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||.NET4.6||  EN||.NET4.6||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / NET46ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net46_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||.NET4.7||  EN||.NET4.7||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / NET47ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net47_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x2  RU||:||  EN||:||
+      JetBrains.DotTrace.ViewModel.Resources.Strings / UndoRedoSplitter
+      JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings / GrazieGplLicenseNoticePostfix
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x2  RU||ARM||  EN||ARM||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / ArmActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformType_Arm_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||ARM64||  EN||ARM64||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / Arm64ActionText
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformType_Arm64_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||ASP||  EN||ASP||
+      DPA.Core.Resources.Strings / AspTabTitle
+      DPA.Core.Resources.Strings / ThresholdsToolWindow_Asp
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||Baker||  EN||Baker||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnityDots_GenerateBakerAndAuthoring_Baker
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_WindowTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||ComponentData||  EN||ComponentData||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnityDots_GenerateBakerAndComponent_ComponentData
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_WindowTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x2  RU||Entity Framework||  EN||Entity Framework||
+      JetBrains.ReSharper.Daemon.Resources.Strings3 / EntityFrameworkSettingsPageName
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / EntityFramework_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||IntelliJ IDEA||  EN||IntelliJ IDEA||
+      JetBrains.ReSharper.Features.Environment.Resources.Strings / IntelliJIDEA_Option_Text
+      JetBrains.VsIntegration.Resources.Strings / ShortcutSchemeSelectionWindowIntellijIdeaTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л9] x2  RU||IntelliJ IDEA(_J)||  EN||Intelli_J IDEA||
+      JetBrains.Platform.VisualStudio.Backend.Resources.Strings / Intelli_JIDEA_Text
+      JetBrains.VsIntegration.Resources.Strings / Intelli_JIDEA_Text
+      вердикт: мнемоника перенесена
+
+[Л5] x2  RU||JIT||  EN||JIT||
+      JetBrains.Common.Util.Resources.Strings / Subsystems_Events_Jit
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / KnownEventTypes_Jitting_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||NUnit||  EN||NUnit||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / NUnit_Text
+      JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings / NUnitOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||Node.js||  EN||Node.js||
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / NodeJs_Header_Text
+      JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / NodeJsOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||NuGet||  EN||NuGet||
+      JetBrains.ProjectModel.Resources.Strings / NuGet_Text
+      JetBrains.ProjectModel.Resources.Strings / NuGetSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x2  RU||Protobuf||  EN||Protobuf||
+      JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings / ProtobufOptionPageTitle
+      JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings / ProtobufSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||Silverlight||  EN||Silverlight||
+      JetBrains.Profiler.Resources.UITexts / Argument_PresentableName_Silverlight
+      JetBrains.Profiler.Resources.UITexts / RuntimeType_Silverlight
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||URL:||  EN||URL:||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / TodoItemPatternWindow_Url_Label
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / SearchUrl
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||UpgradePerformed||  EN||UpgradePerformed||
+      JetBrains.UI.Resources.Strings / DefaultReporterChangedSettingDescription
+      JetBrains.UI.Resources.Strings / UpgradePerformedSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x2  RU||VB.NET||  EN||VB.NET||
+      JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings / VBNETSettingDescription
+      JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings / VBNETSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||Visual Basic||  EN||Visual Basic||
+      JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings / VisualBasicOptionPageTitle
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / VisualBasicNET_Header_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||dotCover||  EN||dotCover||
+      JetBrains.dotCover.Resources.Strings / DotCoverOptions_Anchor_PageTitle
+      JetBrains.dotCover.Resources.Strings / DotCoverToolWindow_Title
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x2  RU||struct||  EN||struct||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / Struct_Text
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Struct_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||x64||  EN||x64||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformType_X64_Name
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / X64ActionText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x2  RU||x86||  EN||x86||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformType_X86_Name
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / X86ActionText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x2  RU||{0} ({1})||  EN||{0} ({1})||
+      JetBrains.dotMemory.Resources.TextResources / CrossWorkspaceComparison_ProbeOrigin_SnapshotPart_Template
+      JetBrains.ProjectModel.Resources.Strings / ___Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x2  RU||{0}: {1}||  EN||{0}: {1}||
+      JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings / ConfigurableIssue_Presentation___Text
+      JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings / Message2
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||
+HintPath: {0}||  EN||
+HintPath: {0}||
+      JetBrains.ProjectModel.ProjectsHost.Resources.Strings / NHintPath__Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л1] x1  RU|| ({0} {1})||  EN|| ({0} {1})||
+      JetBrains.PsiFeatures.UIInteractive.SolutionAnalysis.Resources.Strings / ___Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU|| = ||  EN|| = ||
+      JetBrains.DPA.Monitoring.Avalonia.Resources.Strings / EnvironmentSeparator
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[НАБЛЮДЕНИЕ Н2] x1  RU|| Method||  EN||method||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Method_Text
+      вердикт: латинское « Method» с заглавной; вероятно составная подпись, можно « метод»
+
+[Л1] x1  RU||#{0}||  EN||#{0}||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / Number__Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||#{1} {0}||  EN||#{1} {0}||
+      JetBrains.dotMemory.Resources.TextResources / ProfilingSessionChooser_ItemTitle_Template
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||%||  EN||%||
+      JetBrains.dotMemory.Resources.TextResources / Abbr_Percent
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||'params'||  EN||'params'||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / Params_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||'preview'||  EN||'preview'||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / Preview_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||( 1x )||  EN||( 1x )||
+      JetBrains.dotMemory.Resources.TextResources / ObjectSet_MergedPathsToRoots_OneMergedObject
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x1  RU||()||  EN||()||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_KCkEQ
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||({0})||  EN||(of {0})||
+      JetBrains.ReSharper.Psi.Resources.Strings / OfParameterBracketsText
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||+||  EN||+||
+      JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings / _Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||,||  EN|| at ||
+      JetBrains.dotMemory.Resources.TextResources / RetentionPath_ViaArrayIndex
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||,||  EN||at||
+      JetBrains.dotMemory.Resources.TextResources / TimelineInspection_IssueAt
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||, ||  EN||, ||
+      JetBrains.Application.Resources.Strings / And_Separator_Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||->||  EN||->||
+      JetBrains.dotMemory.Resources.TextResources / Dominators_ChainingSymbol
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||.||  EN||.||
+      JetBrains.dotMemory.Resources.TextResources / RetentionPath_ViaField
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||.*||  EN||.*||
+      JetBrains.dotMemory.Resources.TextResources / AllFiles_FileFilter_Extension
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||.NET 6.0+||  EN||.NET 6.0+||
+      JetBrains.Profiler.Resources.UITexts / AnyDotNetWarningHeader
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л9] x1  RU||.NET/.NET Core||  EN||.NET / .NET Core||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / NetOrNetCore
+      вердикт: пробелы
+
+[Л5] x1  RU||.editorconfig generated_code||  EN||.editorconfig generated_code||
+      JetBrains.ReSharper.Psi.Resources.Strings / EditorconfigGeneratedCodeSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л7] x1  RU||.gexf||  EN||.gexf||
+      JetBrains.dotMemory.Resources.TextResources / GexfFiles_FileFilter_Extension
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||.html||  EN||.html||
+      JetBrains.dotCover.Resources.Strings / FileExtension_Html
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||.json||  EN||.json||
+      JetBrains.dotCover.Resources.Strings / FileExtension_Json
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||.xml||  EN||.xml||
+      JetBrains.dotCover.Resources.Strings / FileExtension_Xml
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||.zip||  EN||.zip||
+      JetBrains.dotMemory.Resources.TextResources / ZipFiles_FileFilter_Extension
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л1] x1  RU||.{0} ->||  EN||.{0} ->||
+      JetBrains.dotMemory.Resources.TextResources / Retention_Path_FieldInChainFormat
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||/||  EN|| of ||
+      JetBrains.dotMemory.Resources.TextResources / FinalizedObjects_Summary_Of
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л11] x1  RU||/ '{0}' {1}||  EN||of '{0}' {1}||
+      JetBrains.ReSharper.Intentions.CSharp.Resources.Strings / Of___Text
+      вердикт: of -> /
+
+[Л1] x1  RU||/ {0}||  EN||of {0}||
+      JetBrains.ReSharper.Psi.Resources.Strings / OfParameterText
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||1:45||  EN||1:45||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AutomaticInspections_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||2:20||  EN||2:20||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingAnInstance_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||2:50||  EN||2:50||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_SnapshotOverview_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||3:28||  EN||3:28||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_ComparingSnapshots_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||4:02||  EN||4:02||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingMemoryTraffic_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||5:14||  EN||5:14||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_GettingStarted_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||8:53||  EN||8:53||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_MeetDotMemoryUnit_Duration
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||<output>||  EN||<output>||
+      JetBrains.ReSharper.Psi.Resources.Strings12 / Output_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||<reference>||  EN||<reference>||
+      JetBrains.ReSharper.Psi.Resources.Strings12 / Reference_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x1  RU||>||  EN||Pattern matching (C# 7.0+)||
+      JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings / PatternMatchingC70_Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||>||  EN||Throw expression (C# 7.0+)||
+      JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings / ThrowExpressionC70_Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||A||  EN||A||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Comparison_FirstSnapshotPrefix
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л9] x1  RU||AI Assistant (&S)||  EN||AI A&ssistant||
+      JetBrains.Application.Resources.Strings / AiAssistantWithAccelerator
+      вердикт: мнемоника перенесена
+
+[Л9] x1  RU||API ThrowIfNull() (.NET 6+)||  EN||ThrowIfNull() API (.NET 6+)||
+      JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings / ThrowIfNull_Text
+      вердикт: порядок слов
+
+[Л5] x1  RU||ASP.NET MVC Html.ActionLink||  EN||ASP.NET MVC Html.ActionLink||
+      JetBrains.ReSharper.Features.Web.Resources.Strings / Template_Editable_QVNQLk5FVCBNVkMgSHRtbC5BY3Rpb25MaW5r
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ASP.NET MVC Url.Action||  EN||ASP.NET MVC Url.Action||
+      JetBrains.ReSharper.Features.Web.Resources.Strings / Template_Editable_QVNQLk5FVCBNVkMgVXJsLkFjdGlvbgEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ASPNETCORE_ENVIRONMENT=Development||  EN||ASPNETCORE_ENVIRONMENT=Development||
+      JetBrains.dotCover.Resources.Strings / ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint2
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ASPNETCORE_URLS=http://localhost:5000||  EN||ASPNETCORE_URLS=http://localhost:5000||
+      JetBrains.dotCover.Resources.Strings / ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint3
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||AllowBackgroundLoadPdb||  EN||AllowBackgroundLoadPdb||
+      JetBrains.dotTrace.Home.Presentation.Resources.Strings / AllowBackgroundLoadPdbSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л9] x1  RU||Alt+Enter||  EN||Alt Enter||
+      JetBrains.ReSharper.Intentions.Resources.Strings / AltEnterActionText
+      вердикт: добавлен +, мнемоника Alt+Enter
+
+[Л5] x1  RU||AlwaysOnTop||  EN||AlwaysOnTop||
+      JetBrains.Profiler.InternalLauncher.Resources.Strings / AlwaysOnTopSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||And||  EN||And||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_And_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Angular 1.x||  EN||Angular 1.x||
+      JetBrains.ReSharper.Psi.Resources.Strings1 / Angular1X_Description_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Angular 2.x||  EN||Angular 2.x||
+      JetBrains.ReSharper.Psi.Resources.Strings1 / Angular2X_Description_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ApplicationPath:||  EN||ApplicationPath:||
+      JetBrains.dotMemory.Resources.TextResources / ProfileConfiguration_IISExpress_ApplicationPath
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||AsyncSupport||  EN||AsyncSupport||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / AsyncSupportSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||AutoShowSystemMethods||  EN||AutoShowSystemMethods||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / AutoShowSystemMethodsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||B||  EN||B||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Comparison_SecondSnapshotPrefix
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||BSON||  EN||BSON||
+      JetBrains.dotMemory.Resources.TextResources / ExportObject_Filter_Bson
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л4] x1  RU||BasedOnStyle:||  EN||BasedOnStyle: ||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / BasedOnStyle_Text
+      вердикт: ключ clang-format
+
+[Л5] x1  RU||CLR||  EN||CLR||
+      JetBrains.Profiler.Resources.UITexts / RuntimeType_CLR
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||CR+LF (Windows)||  EN||CR+LF (Windows)||
+      JetBrains.ReSharper.Psi.Resources.Strings / CRLFWindows_Description_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||CType||  EN||CType||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_Q1R5cGUEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||CallTreePresentationSettings||  EN||CallTreePresentationSettings||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / CallTreePresentationSettingsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л4] x1  RU||Code-Behind||  EN||Code Behind||
+      JetBrains.ReSharper.Features.Internal.Resources.Strings / CodeBehind_Text
+      вердикт: термин, дефис по русской практике
+
+[Л5] x1  RU||Console.WriteLine||  EN||Console.WriteLine||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[НАБЛЮДЕНИЕ Н1] x1  RU||Contention||  EN||Contentions||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / KnownEventTypes_Contention_ShortName
+      вердикт: фактически непереведённое слово (short name типа событий dotTrace); можно «Ожидания» — на решение ведущей
+
+[Л5] x1  RU||ControllerRect||  EN||ControllerRect||
+      JetBrains.Profiler.InternalLauncher.Resources.Strings / ControllerRectSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ControllerUiSettings||  EN||ControllerUiSettings||
+      JetBrains.Profiler.InternalLauncher.Resources.Strings / ControllerUiSettingsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||CoreCLR||  EN||CoreCLR||
+      JetBrains.Profiler.Resources.UITexts / RuntimeType_CoreCLR
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||CqrsDebug||  EN||CqrsDebug||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / CqrsDebug
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Creation_Stack_Trace_instance||  EN||Creation_Stack_Trace_instance||
+      JetBrains.dotMemory.Resources.TextResources / ObjectCallStack_LearnMore_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Ctrl+H||  EN||Ctrl+H||
+      JetBrains.dotMemory.Resources.TextResources / MainView_HomeMode_Tooltip
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Ctrl+W||  EN||Ctrl+W||
+      JetBrains.dotMemory.Resources.TextResources / MainView_WorkspaceMode_Tooltip
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||DDL||  EN||DDL||
+      JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings / DDL_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||DataContext||  EN||DataContext||
+      JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings / DataContext_Header_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||DiagramPartKeptOpen||  EN||DiagramPartKeptOpen||
+      JetBrains.Profiler.InternalLauncher.Resources.Strings / DiagramPartKeptOpenSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||DirectCast||  EN||DirectCast||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_RGlyZWN0Q2FzdAEQEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||DotInstantActivateNode||  EN||DotInstantActivateNode||
+      JetBrains.dotTrace.VS.Resources.Strings / DotInstantActivateNodeActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||DotTraceVSDebugAction||  EN||DotTraceVSDebugAction||
+      JetBrains.dotTrace.VS.Resources.Strings / DotTraceVSDebugActionActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||DownloadSymbolFiles||  EN||DownloadSymbolFiles||
+      JetBrains.dotTrace.Home.Presentation.Resources.Strings / DownloadSymbolFilesSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||E||  EN||E||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_E
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ESLint||  EN||ESLint||
+      JetBrains.ReSharper.Features.Web.Linters.Resources.Strings / ESLintOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Extern||  EN||Extern||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_Extern_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||FROM||  EN||FROM||
+      JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings / FROM_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||FUS||  EN||FUS||
+      JetBrains.Application.Resources.Strings / FUSActionGroupText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||FindResult.EnableBreakpoint||  EN||FindResult.EnableBreakpoint||
+      JetBrains.ReSharper.Features.Navigation.Resources.Strings / FindResultEnableBreakpointActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||FindResult.ToggleBreakpoint||  EN||FindResult.ToggleBreakpoint||
+      JetBrains.ReSharper.Features.Navigation.Resources.Strings / FindResultToggleBreakpointActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||FollowSelection||  EN||FollowSelection||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / FollowSelectionSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||G||  EN||G||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_G
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||GUID||  EN||Guid||
+      JetBrains.ReSharper.Psi.Resources.Strings / GuidSettingDescription
+      вердикт: 
+
+[Л5] x1  RU||GroupingId||  EN||GroupingId||
+      JetBrains.ReSharper.Features.Diagramming.Resources.Strings / GroupingIdSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||HTTP||  EN||HTTP||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / KnownEventTypes_HttpRequest_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||IAspect||  EN||IAspect||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_SUFzcGVjdAEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||IComponentData||  EN||IComponentData||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_SUNvbXBvbmVudERhdGEEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ID||  EN||ID||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Filters_Threads_IDColumn
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||ID||  EN||id||
+      JetBrains.ReSharper.Psi.Resources.Strings12 / Id_Text
+      вердикт: 
+
+[Л5] x1  RU||IJobEntity||  EN||IJobEntity||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_SUpvYkVudGl0eQEQEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||IL||  EN||IL||
+      JetBrains.ReSharper.ExternalSources.Resources.Strings / ILViewerCodeTypeILText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ISystem||  EN||ISystem||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_SVN5c3RlbQEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||If||  EN||If||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_SWYEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||If..Else||  EN||If..Else||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_SWYuLkVsc2UEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||IncludePrerelease||  EN||IncludePrerelease||
+      JetBrains.ProjectModel.Resources.Strings / IncludePrereleaseSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Incoming_References||  EN||Incoming_References||
+      JetBrains.dotMemory.Resources.TextResources / ObjectIncoming_LearnMore_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||InputActions (Unity)||  EN||InputActions (Unity)||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / InputActionsProjectFileType_InputActionsProjectFileType_InputActions__Unity_
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л7] x1  RU||Inspections#dependency_property_leak||  EN||Inspections#dependency_property_leak||
+      JetBrains.dotMemory.Resources.TextResources / DependencyProperty_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#event_handlers_leak||  EN||Inspections#event_handlers_leak||
+      JetBrains.dotMemory.Resources.TextResources / EventHandlersInspection_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#finalized_objects||  EN||Inspections#finalized_objects||
+      JetBrains.dotMemory.Resources.TextResources / FinalizedObjects_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#sparse_arrays||  EN||Inspections#sparse_arrays||
+      JetBrains.dotMemory.Resources.TextResources / SparseArrays_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#strings_leak||  EN||Inspections#strings_leak||
+      JetBrains.dotMemory.Resources.TextResources / DuplicatedStrings_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#wpf_binding_leak||  EN||Inspections#wpf_binding_leak||
+      JetBrains.dotMemory.Resources.TextResources / WpfBinding_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#wpf_collection_binding_leak||  EN||Inspections#wpf_collection_binding_leak||
+      JetBrains.dotMemory.Resources.TextResources / WpfCollectionBinding_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||Inspections#xname||  EN||Inspections#xname||
+      JetBrains.dotMemory.Resources.TextResources / XNameWpf_LearnMoreLink
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л5] x1  RU||IntegrationTests.Target||  EN||IntegrationTests.Target||
+      JetBrains.ReSharper.UnitTestExplorer.Resources.Strings / IntegrationTestsTargetActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||IntelliSense||  EN||IntelliSense||
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / IntelliSenseOptionPageTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Internal||  EN||Internal||
+      JetBrains.Common.Resources.Resources.Strings / Common_InternalSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Internal Treasury||  EN||Internal Treasury||
+      JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings / InternalTreasury_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||IsClosed||  EN||IsClosed||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Filters_NativeAllocationIsClosed_Name
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||JOIN||  EN||JOIN||
+      JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings / JOIN_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||JSLint||  EN||JSLint||
+      JetBrains.ReSharper.Features.Web.Linters.Resources.Strings / JSLintOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[ДЕФЕКТ Д2] x1  RU||Java EE||  EN||Other||
+      JetBrains.dotMemory.Resources.TextResources / TopTypes_Other
+      вердикт: «Java EE» — копипаст из соседнего ключа; en «Other» в группе «Top Types»
+
+[Л5] x1  RU||Json||  EN||Json||
+      JetBrains.dotCover.Resources.Strings / Report_Json
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||LF (Unix, Mac OS X)||  EN||LF (Unix, Mac OS X)||
+      JetBrains.ReSharper.Psi.Resources.Strings / LFUnixMacOSX_Description_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Linq||  EN||Linq||
+      JetBrains.Common.SubsystemsManagement.Resources.Strings / Subsystems_Predefined_Linq
+      вердикт: идентификатор/токен, совпадающий с en
+
+[НАБЛЮДЕНИЕ Н3] x1  RU||Logger||  EN||Logger||
+      JetBrains.Application.Resources.Strings / LoggerActionGroupText
+      вердикт: название группы действий; возможно «Журнал» — на решение ведущей
+
+[Л5] x1  RU||M||  EN||M||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_Mega
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MAUI||  EN||MAUI||
+      JetBrains.Profiler.Resources.UITexts / NewRunCfg_AppType_Maui_Name
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MSBuild||  EN||MSBuild||
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / MSBuildSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MSTest||  EN||MSTest||
+      JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings / MSTestOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MVC||  EN||MVC||
+      JetBrains.ReSharper.Daemon.Resources.Strings10 / MVCConfigurableSeverityCompoundItemName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MergeMissedCallstackTypes||  EN||MergeMissedCallstackTypes||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / MergeMissedCallstackTypesSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||MessageBox.Show||  EN||MessageBox.Show||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_TWVzc2FnZUJveC5TaG93
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Mono Behaviour||  EN||Mono Behaviour||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_TW9ubyBCZWhhdmlvdXIEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||MsBuild||  EN||MsBuild||
+      JetBrains.ProjectModel.Resources.Strings / MsBuild_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||NETCoreApp||  EN||NETCoreApp||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_NetCoreApp_Name
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||NUnit 2||  EN||NUnit 2||
+      JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings / NUnit2_Header_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||NUnit 3||  EN||NUnit 3||
+      JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings / NUnit3_Header_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л9] x1  RU||NuGet Home||  EN||NuGetHome||
+      JetBrains.ProjectModel.Resources.Strings / NuGetHome
+      вердикт: разбивка бренда по официальному написанию
+
+[Л5] x1  RU||NuGet packages.config||  EN||NuGet packages.config||
+      JetBrains.ReSharper.ExternalSources.Resources.Strings / NuGetPackagesConfig_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[MANUAL] x1  RU||Nullable||  EN||nullable||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / Nullable_Text
+      вердикт: 
+
+[Л5] x1  RU||OOP||  EN||OOP||
+      JetBrains.Application.Resources.Strings / OOPActionGroupText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||OpenSaveDialogSettings||  EN||OpenSaveDialogSettings||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / OpenSaveDialogSettingsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Or||  EN||Or||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_Or_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||P||  EN||P||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_Peta
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||PID||  EN||PID||
+      JetBrains.Profiler.Resources.UITexts / ProcessTable_Column_Pid
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||PSI||  EN||PSI||
+      JetBrains.ReSharper.Features.Internal.Resources.Strings / PsiActionGroupText
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||PhantomJS||  EN||PhantomJS||
+      JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings / PhantomJS_SingleRadioOption_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||PlainListPresentationSettings||  EN||PlainListPresentationSettings||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / PlainListPresentationSettingsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л9] x1  RU||Portable dotMemory||  EN||dotMemory Portable||
+      JetBrains.dotMemory.Resources.TextResources / DacNotFoundDialog_Solution2_P1_LinkButton_Text
+      вердикт: порядок слов
+
+[Л5] x1  RU||Predictive Debugger||  EN||Predictive Debugger||
+      JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings / PredictiveDebugger_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Public Shared Sub Main||  EN||Public Shared Sub Main||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Push-to-Hint||  EN||Push-to-Hint||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / PushToHint_Indicator_ConfigureDefaultVisibility_PushToHint
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л9] x1  RU||ReSharper (_R)||  EN||_ReSharper||
+      JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / _ReSharper_Text
+      вердикт: мнемоника перенесена
+
+[Л5] x1  RU||ReSharper Build – {0}||  EN||ReSharper Build – {0}||
+      JetBrains.ProjectModel.Resources.Strings / ReSharperBuild__Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ReSpeller||  EN||ReSpeller||
+      JetBrains.ReSharper.Features.ReSpeller.Resources.Strings / ReSpellerOptionPageTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||SQL||  EN||SQL||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / KnownEventTypes_SqlCommand_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||SQL / NoSQL||  EN||SQL / NoSQL||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / SqlSettingsKeyDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||SaveDirectory||  EN||SaveDirectory||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / SaveDirectorySettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Scriptable Object||  EN||Scriptable Object||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_U2NyaXB0YWJsZSBPYmplY3QEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||Scriptable Object||  EN||Scriptable object||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / TypeDetector_AddDeclarationHighlighting_Scriptable_object
+      вердикт: 
+
+[Л4] x1  RU||Scriptable Object Unity||  EN||Unity scriptable object||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / TypeDetector_AddDeclarationHighlighting_Unity_scriptable_object
+      вердикт: имя Unity-ассета, порядок адаптирован
+
+[Л5] x1  RU||Scriptable Wizard||  EN||Scriptable Wizard||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_U2NyaXB0YWJsZSBXaXphcmQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||SearchAutoHide||  EN||SearchAutoHide||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / SearchAutoHideSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Settings.StyleCop||  EN||Settings.StyleCop||
+      JetBrains.ReSharper.Psi.Resources.Strings / SettingsStyleCop_Description_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Shift||  EN||Shift||
+      JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings / Shift_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ShowOtherSubsystemsWhenFilterApplied||  EN||ShowOtherSubsystemsWhenFilterApplied||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / ShowOtherSubsystemsWhenFilterAppliedSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ShowSystemFunctions||  EN||ShowSystemFunctions||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / ShowSystemFunctionsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||ShowUnresolvedCallFrames||  EN||ShowUnresolvedCallFrames||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / ShowUnresolvedCallFramesSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Similar_Retention||  EN||Similar_Retention||
+      JetBrains.dotMemory.Resources.TextResources / ObjectSetKeyPaths_LearnMore_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||SingleGotoTwitter||  EN||SingleGotoTwitter||
+      JetBrains.Application.Resources.Strings / SingleGotoTwitterActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||SingleGotoWeb||  EN||SingleGotoWeb||
+      JetBrains.Application.Resources.Strings / SingleGotoWebActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||SortByTotal||  EN||SortByTotal||
+      JetBrains.DotTrace.DataStructures.Resources.Strings / SortByTotalSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||State Machine Behaviour||  EN||State Machine Behaviour||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_U3RhdGUgTWFjaGluZSBCZWhhdmlvdXIEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||SyncLock||  EN||SyncLock||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_U3luY0xvY2sEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||SystemBase||  EN||SystemBase||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / Template_Editable_U3lzdGVtQmFzZQEQEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||T||  EN||T||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_T
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||TODO!!||  EN||TODO!!||
+      JetBrains.Application.Resources.Strings / TODO_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||TSLint||  EN||TSLint||
+      JetBrains.ReSharper.Features.Web.Linters.Resources.Strings / TSLintOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Temp||  EN||Temp||
+      JetBrains.ProjectModel.Resources.Strings / Temp
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Testing Platform||  EN||Testing Platform||
+      JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings / TestingPlatformOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Then By||  EN||Then By||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Editors_Sequential_Label_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||TryCast||  EN||TryCast||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_VHJ5Q2FzdAEQEQ
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л9] x1  RU||Twitter {0}||  EN||{0} Twitter||
+      JetBrains.Application.Resources.Strings / Twitter_Text
+      вердикт: порядок слов под русский, продукт не переводим
+
+[НАБЛЮДЕНИЕ Н4] x1  RU||Type||  EN||Type||
+      JetBrains.Common.Resources.Resources.Strings / Common_TypeSettingDescription
+      вердикт: Common_TypeSettingDescription: value — реальное слово (не токен), можно «Тип»
+
+[Л5] x1  RU||Type_List||  EN||Type_List||
+      JetBrains.dotMemory.Resources.TextResources / ObjectSetByClass_LearnMore_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Typescriptify||  EN||Typescriptify||
+      JetBrains.ReSharper.Intentions.Web.Resources.Strings / Typescriptify_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||URI:||  EN||URI:||
+      JetBrains.Application.Resources.Strings / URI_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||URL||  EN||URLs||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Filters_HttpRequestUrl_Name_Plural
+      вердикт: 
+
+[MANUAL] x1  RU||URL||  EN||Url||
+      JetBrains.ReSharper.Psi.Resources.Strings12 / UrlSettingDescription
+      вердикт: 
+
+[MANUAL] x1  RU||URL:||  EN||Url:||
+      JetBrains.dotMemory.Resources.TextResources / Label_Url
+      вердикт: 
+
+[Л5] x1  RU||Unity Burst||  EN||Unity Burst||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UnityBurst_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Unreachable_Objects||  EN||Unreachable_Objects||
+      JetBrains.dotMemory.Resources.TextResources / UnreachableObjects_LearnMore_Link
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||UnrealHeaderTool||  EN||UnrealHeaderTool||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / UnrealHeaderTool_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||UpgradeFromExceptionReportSettingsKey||  EN||UpgradeFromExceptionReportSettingsKey||
+      JetBrains.UI.Resources.Strings / UpgradeFromExceptionReportSettingsKeySettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||UseStackWalkSyncOnWindows||  EN||UseStackWalkSyncOnWindows||
+      JetBrains.dotTrace.Home.Presentation.Resources.Strings / UseStackWalkSyncOnWindowsSettingDescription
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||Using||  EN||Using||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_VXNpbmcEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Uxml (Unity)||  EN||Uxml (Unity)||
+      JetBrains.ReSharper.Plugins.Unity.Resources.Strings / UxmlUnity_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||VB||  EN||VB||
+      JetBrains.ReSharper.Features.Intellisense.Resources.Strings / VBOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||VSTest||  EN||VSTest||
+      JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings / VSTestOptionPageTitle
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||ValueType||  EN||ValueType||
+      JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / ValueType_Text
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||VsMenuOpenedAction||  EN||VsMenuOpenedAction||
+      JetBrains.Application.Resources.Strings / VsMenuOpenedActionText
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||WPF||  EN||WPF||
+      JetBrains.Common.SubsystemsManagement.Resources.Strings / Subsystems_Predefined_WPF
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||WinForms||  EN||WinForms||
+      JetBrains.Common.SubsystemsManagement.Resources.Strings / Subsystems_Predefined_WinForms
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||WinRT||  EN||WinRT||
+      JetBrains.Profiler.Resources.UITexts / NewRunCfg_AppType_WinRT_Name
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||XML for NDepend||  EN||XML for NDepend||
+      JetBrains.dotCover.Resources.Strings / Report_NDependXml
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Xml||  EN||Xml||
+      JetBrains.Common.SubsystemsManagement.Resources.Strings / XmlSettingDescription
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л3] x1  RU||Xunit||  EN||Xunit||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / Xunit_Text
+      вердикт: бренд
+
+[Л5] x1  RU||Y||  EN||Y||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_Yotta
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||Z||  EN||Z||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_Zetta
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||a||  EN||a||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_a
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||abstract||  EN||Abstract||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_Abstract_Text
+      вердикт: 
+
+[Л5] x1  RU||await||  EN||await||
+      JetBrains.Common.Util.Resources.Strings / FunctionUID_Awaits
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||class||  EN||class||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Class_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л7] x1  RU||dd/MM HH:mm:ss||  EN||dd/MM HH:mm:ss||
+      JetBrains.Standalone.Shell.Avalonia.Resources.Strings / WhenLastHappened_Format
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л5] x1  RU||delegate||  EN||delegate||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Delegate_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||dotInstant||  EN||dotInstant||
+      JetBrains.dotTrace.VS.Resources.Strings / DotInstantOptionPageTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л4] x1  RU||dotnet workload install {0}||  EN||dotnet workload install {0}||
+      JetBrains.ProjectModel.ProjectsHost.Resources.Strings / DotnetWorkloadInstall__Text
+      вердикт: CLI-команда
+
+[Л5] x1  RU||enum||  EN||enum||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Enum_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||event||  EN||event||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Event_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||f||  EN||f||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_f
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л9] x1  RU||framework: {0}||  EN||Framework: {0}||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / Framework__Text
+      вердикт: регистр подстроен, аргумент на месте
+
+[Л4] x1  RU||global using||  EN||Global Usings||
+      JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings / RefactorGlobalUsingsGroup_Text
+      вердикт: форма ключевого слова C#
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2014/07/10/unusual-ways-of-boosting-up-app-performance-boxing-and-collections/||  EN||http://blog.jetbrains.com/dotnet/2014/07/10/unusual-ways-of-boosting-up-app-performance-boxing-and-collections/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article1_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/||  EN||http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article2_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2014/07/24/unusual-ways-of-boosting-up-app-performance-lambdas-and-linqs/||  EN||http://blog.jetbrains.com/dotnet/2014/07/24/unusual-ways-of-boosting-up-app-performance-lambdas-and-linqs/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article3_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/||  EN||http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article4_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/||  EN||http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article6_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2015/03/04/unit-testing-and-memory-profiling-can-they-be-combined/||  EN||http://blog.jetbrains.com/dotnet/2015/03/04/unit-testing-and-memory-profiling-can-they-be-combined/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article7_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/||  EN||http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article5_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||http://blog.jetbrains.com/dotnet/2015/09/15/memory-testing-on-a-ci-server-dotmemory-unit-standalone-launcher/||  EN||http://blog.jetbrains.com/dotnet/2015/09/15/memory-testing-on-a-ci-server-dotmemory-unit-standalone-launcher/||
+      JetBrains.dotMemory.Resources.TextResources / Help_Article8_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||https://intellij.com/inotify-instances||  EN||https://intellij.com/inotify-instances||
+      JetBrains.dotMemory.Resources.TextResources / NotifyLimitReached_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||https://www.jetbrains.com/help/dotmemory/Analyzing_GC_Roots.html||  EN||https://www.jetbrains.com/help/dotmemory/Analyzing_GC_Roots.html||
+      JetBrains.dotMemory.Resources.TextResources / Help_AnalyzingRoots_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л5] x1  RU||https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html||  EN||https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html||
+      JetBrains.dotMemory.Resources.TextResources / Help_Tutorial1_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л7] x1  RU||https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html||  EN||https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html||
+      JetBrains.dotMemory.Resources.TextResources / Help_Tutorial2_Link
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||https://www.jetbrains.com/ru-RU/profiler/download/#section=web-installer||  EN||https://www.jetbrains.com/profiler/download/#section=web-installer||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkUri
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||https://www.jetbrains.com/ru-RU/profiler/download/other.html||  EN||https://www.jetbrains.com/profiler/download/other.html||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / FailedToOpenSnapshot_DownloadDotTrace241_LinkUri
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=03UOt5h42UU&index=10&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=03UOt5h42UU&index=10&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingMemoryTraffic_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=2UgKsHUVTFQ&index=7&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=2UgKsHUVTFQ&index=7&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingAnObjectSet_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_GettingStarted_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AutomaticInspections_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=SGwdb5FXuNk&index=2&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||  EN||https://www.youtube.com/watch?v=SGwdb5FXuNk&index=2&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_MeetDotMemoryUnit_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_AnalyzingAnInstance_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_ComparingSnapshots_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||  EN||https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_MeetDotMemory_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_TheProfilingWorkflow_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||  EN||https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+      JetBrains.dotMemory.Resources.TextResources / Help_Youtube_SnapshotOverview_Link
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||in||  EN||in||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / In_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||interface||  EN||interface||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Interface_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||k||  EN||k||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_k
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||m||  EN||m||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_m
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||n||  EN||n||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_n
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||net20||  EN||net20||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net20_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||net40||  EN||net40||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net40_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||net45||  EN||net45||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net45_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||net46||  EN||net46||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net46_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||net47||  EN||net47||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_Net47_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||netcoreapp||  EN||netcoreapp||
+      JetBrains.ReSharper.UnitTestFramework.Resources.Strings / PlatformVersion_NetCoreApp_ShortName
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||out||  EN||out||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / Out_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||p||  EN||p||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_p
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||protected internal||  EN||Protected internal||
+      JetBrains.ReSharper.Features.ReSpeller.Resources.Strings / ProtectedInternal_BoolOption_Text
+      вердикт: 
+
+[Л5] x1  RU||public const int||  EN||public const int||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_cHVibGljIGNvbnN0IGludAEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||public const string||  EN||public const string||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_cHVibGljIGNvbnN0IHN0cmluZwEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||public static readonly||  EN||public static readonly||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_cHVibGljIHN0YXRpYyByZWFkb25seQEQEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||record||  EN||record||
+      JetBrains.ReSharper.Psi.CSharp.Resources.Strings / Record_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л4] x1  RU||ref in||  EN||ref in||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / RefIn_Text
+      вердикт: ключевое слово/модификатор/имя типа из кода
+
+[Л5] x1  RU||ref out||  EN||ref out||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / RefOut_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||return||  EN||return||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / Return_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||sdf||  EN||sdf||
+      JetBrains.ReSharper.Refactorings.Properties.Resources / RenameInitialControl_Title
+      вердикт: идентификатор/токен, совпадающий с en
+
+[MANUAL] x1  RU||sealed||  EN||Sealed||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_Sealed_Text
+      вердикт: 
+
+[MANUAL] x1  RU||static||  EN||Static||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / FileLayoutDesigner_Elements_Static_Text
+      вердикт: 
+
+[Л4] x1  RU||sudo dotnet workload install {0}||  EN||sudo dotnet workload install {0}||
+      JetBrains.ProjectModel.ProjectsHost.Resources.Strings / SudoDotnetWorkloadInstall__Text
+      вердикт: CLI-команда
+
+[Л5] x1  RU||try catch||  EN||try catch||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_dHJ5IGNhdGNo
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||try finally||  EN||try finally||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_dHJ5IGZpbmFsbHkEQ
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||u||  EN||u||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_u
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л7] x1  RU||x:Name||  EN||x:Name||
+      JetBrains.dotMemory.Resources.TextResources / XNameWpf_Column_XName
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||x:Name="{0}"||  EN||x:Name="{0}"||
+      JetBrains.dotMemory.Resources.TextResources / ObjectSetOrigin_Kind_XNameWpf_XName
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л5] x1  RU||xUnit.net||  EN||xUnit.net||
+      JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings / XUnitNetOptionPageTitle
+      вердикт: токен-настройка (value = идентификатор, класс *SettingDescription)
+
+[Л5] x1  RU||y||  EN||y||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_y
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||z||  EN||z||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Unit_SI_z
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л7] x1  RU||{#0:Constant value}||  EN||{#0:Constant value}||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / EvaluatesToTheSpecifiedConstantValueMacroDefinition_Description
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л11] x1  RU||{0:N0} / {1:N0}||  EN||{0:N0} of {1:N0}||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / _Of__Text
+      вердикт: of -> / , аргументы сохранены
+
+[Л1] x1  RU||{0}  ++•++  {1}||  EN||{0}  ++•++  {1}||
+      JetBrains.ReSharper.I18n.Services.Resources.Strings / _U2022_Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0} #{1}||  EN||{0} #{1}||
+      JetBrains.dotMemory.Resources.TextResources / ObjectTypeNameAndId_Tempate
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0} (#{1})||  EN||{0} (#{1})||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / ThreadPresentation_Name_Tooltip
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л5] x1  RU||{0} (Ctrl+P)||  EN||{0} (Ctrl+P)||
+      JetBrains.Application.Resources.Strings / _CtrlP_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||{0} (LIVE)||  EN||{0} (LIVE)||
+      JetBrains.Application.Resources.Strings / _LIVE_Text
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л5] x1  RU||{0} - Visual Studio||  EN||{0} - Visual Studio||
+      JetBrains.dotMemory.Resources.TextResources / VsFacade_Title_Format
+      вердикт: идентификатор/токен, совпадающий с en
+
+[Л1] x1  RU||{0} ->||  EN||{0} ->||
+      JetBrains.dotMemory.Resources.TextResources / Retention_Path_ChainFormat
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л11] x1  RU||{0} / {1:N0}: {2}||  EN||{0} of {1:N0}: {2}||
+      JetBrains.Application.Resources.Strings / _Of___Text
+      вердикт: of -> / , аргументы сохранены
+
+[Л1] x1  RU||{0} : {1}||  EN||{0} : {1}||
+      JetBrains.ReSharper.Refactorings.Resources.Strings / ReturnValue__Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л2] x1  RU||{0} {0:choice:one#PDB|other#PDB}||  EN||{0} {0:choice:one#PDB|other#PDBs}||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / PDB_Plural
+      вердикт: машинный синтаксис CLDR
+
+[Л11] x1  RU||{0} {1} '{2}'||  EN||{0} {1} of '{2}'||
+      JetBrains.ReSharper.Feature.Services.Resources.Strings / __Of__Text
+      вердикт: of выброшен, все аргументы на местах
+
+[Л1] x1  RU||{0} {1}%||  EN||{0} {1}%||
+      JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / _GenerationItem_Progress_TooltipText
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}, ({1}:{2})||  EN||{0} at ({1}:{2})||
+      JetBrains.ProjectModel.ProjectsHost.Resources.Strings / Error_Presentation_Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}-{1}||  EN||{0}-{1}||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Comparison_ComparisonItemPrefix
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}.{1}||  EN||{0}.{1}||
+      JetBrains.dotMemory.Resources.TextResources / RetentionPath_ViaField_Template
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}/{1}||  EN||{0} of {1}||
+      DPA.Core.Resources.Strings / IssueNode_MemoryAllocation_StackTraceTabName_Template
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}: ||  EN||{0}: ||
+      JetBrains.DotTrace.DataStructures.Resources.UIResources / Comparison_SnapshotPrefix
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{0}: {1}.||  EN||{0}: {1}.||
+      JetBrains.UI.Resources.Strings / ___Text
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||{}||  EN||{}||
+      JetBrains.ReSharper.LiveTemplates.Resources.Strings / Template_Editable_e30EQ
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л1] x1  RU||}||  EN||}||
+      JetBrains.dotMemory.Resources.TextResources / RetentionPath_Roots_Postfix
+      вердикт: плейсхолдеры/символы — переводить нечего
+
+[Л7] x1  RU||• xunit.runner.json||  EN||• xunit.runner.json||
+      JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings / XunitRunnerJson_Text_Text
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||• {assemblyname}.xml||  EN||• {assemblyname}.xml||
+      JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings / AssemblynameXml_Text_Text
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+[Л7] x1  RU||• {assemblyname}.xunit.runner.json||  EN||• {assemblyname}.xunit.runner.json||
+      JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings / AssemblynameXunitRunnerJson_Text_Text
+      вердикт: URL/имя файла/якорь помощи/шаблон кода
+
+ПОСТРОЧНЫЕ ВЕРДИКТЫ — CAT-D, 4 строки
+----------------------------------------------------------------------------
+[JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / GoToFileNearbyActionText]
+  EN: Go to File Nearby
+  RU: Перейти к nearby файлу (Go to File Nearby)
+  вердикт: замечание D1: полуперевод, оригинал продублирован в скобках; вариант «Перейти к соседнему файлу» (не дефект-поломка, на решение ведущей)
+
+[JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / ReSharperForVSCodeFeatureSuggesterSettingsKeySettingDescription]
+  EN: ReSharper for VS Code feature suggester settings
+  RU: Настройки предложения функций ReSharper for VS Code
+  вердикт: легально: «ReSharper for VS Code» — имя продукта
+
+[JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / ForceMergeSequentialOrChecksSettingDescription]
+  EN: When disabled, sequential '||' checks are only merged into an 'or' pattern if the entire '||' sequence can be converted into a single 'or' pattern.
+When enabled, sequential '||' checks are merged whenever possible, even if the result ends up looking like this: `a is constA or constB || a == nonConst`
+  RU: Когда отключено, последовательные проверки '||' объединяются в шаблон 'or' только если вся последовательность '||' может быть преобразована в один шаблон 'or'.
+Когда включено, последовательные проверки '||' объединяются, насколько это возможно, даже если результат в конечном итоге может выглядеть как: `a is constA or constB || a == nonConst`
+  вердикт: легально: цепочка «is constA or constB» — пример кода в тексте настройки
+
+[JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / SuggestToReplacexIsNotNotTToxIsTXIsNotTToxIsT]
+  EN: Suggest to replace
+          `x is not not T` to `x is T`
+          `!(x is not T)` to `x is T`
+  RU: Предлагает заменить
+          `x is not not T` на `x is T`
+          `!(x is not T)` на `x is T`
+  вердикт: легально: «x is not not T» — код в бэктиках, переводить нельзя
+
+CAT-0: 65 таблиц без neutral — вне проверки (список в самом скане).

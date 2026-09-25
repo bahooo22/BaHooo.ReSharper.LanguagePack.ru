@@ -1,0 +1,946 @@
+=== Полный смысловой скан перевода против C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229_000 ===
+Пар en/ru просмотрено: 26777
+
+--- CAT-B1 — ПАДАЮЩИЙ string.Format / CJK (критично) : 1 ---
+JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings | Resource0UsageInlineWillProduceConflicts_Text | EN: ||Inlining resource {0, usage} will produce conflicts|| | RU: ||Встраивание использования ресурса {0} создаст конфликты|| || RU-индексы вне en: 0 (en: )
+
+--- CAT-C — зашитый в ru литерал, отсутствующий в en (класс дефекта RefReadonly) : 116 ---
+JetBrains.Application.Resources.Strings | AlwaysShowPushToHintIndicatorSettingDescription | EN: ||Whether to show an indicator of the Push-To-Hint state in the editor even when Push-To-Hint state is not activated|| | RU: ||Показывать ли индикатор состояния "Push to Hint" в редакторе, даже когда состояние "Push to Hint" неактивно|| || зашитый литерал RU: 'Push to Hint'
+JetBrains.Application.Resources.Strings | WhetherToBindThePressAndHoldOfTheCtrlKeyToPushToHintSettingDescription | EN: ||Whether to bind the Ctrl key to Push-To-Hint|| | RU: ||Связывать ли нажатие и удержание клавиши Ctrl с функцией "Push to Hint"|| || зашитый литерал RU: 'Push to Hint'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | addOrremoveExpectedMessage | EN: ||'add' or 'remove' expected|| | RU: ||Ожидается 'and' или 'remove'|| || зашитый литерал RU: 'and'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryLookupWithTryAddMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре можно упростить с помощью 'TryAdd'|| || зашитый литерал RU: 'TryAdd'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryLookupWithTryGetValueMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре можно упростить с помощью 'TryGetValue'|| || зашитый литерал RU: 'TryGetValue'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryTryGetValueWithGetValueOrDefaultMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре может быть упрощен с помощью 'GetValueOrDefault'|| || зашитый литерал RU: 'GetValueOrDefault'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifySetAddingWithSingleCallMessage | EN: ||Redundant '{0}' before '{1}'|| | RU: ||'Contains' перед 'Add' избыточен|| || зашитый литерал RU: 'Add'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | EnumeratorObjectIsNotDisposedConsiderSafeCastMessage | EN: ||'{0}' call result is never disposed; consider safe-casting to '{1}' and calling '{2}()' after enumeration|| | RU: ||Результат вызова 'GetEnumerator' никогда не освобождается; рассмотрите безопасное приведение к IDisposable после перечисления и вызов Dispose()|| || зашитый литерал RU: 'GetEnumerator'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | EnumeratorObjectIsNotDisposedMessage | EN: ||{0} call result is never disposed|| | RU: ||Результат вызова 'GetEnumerator' никогда не освобождается|| || зашитый литерал RU: 'GetEnumerator'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | foreachStatementCannotOperateOnEnumeratorsOfTypeInasyncOrIteratorMethodsBecauseIsArefStructMessage | EN: ||'{0}' statement cannot operate on enumerators of type '{1}' in '{2}' or iterator methods because '{1}' is a '{3}' {4}|| | RU: ||Оператор 'foreach' не может выполняться на перечислителях типа "{0}" в 'async'-методах или методах-итераторах, потому что "{0}" является 'ref'-структурой|| || зашитый литерал RU: 'async'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | foreachStatementCannotOperateOnRefEnumeratorsInasyncOrIteratorMethodsMessage | EN: ||{0} statement cannot operate on '{1}' enumerators in {2} or iterator methods|| | RU: ||Оператор 'foreach' не может выполняться на ref-перечислителях в 'async'-методах или методах-итераторах|| || зашитый литерал RU: 'async'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | GCSuppressFinalizeIsInvokedForTypeWithoutDestructorMessage | EN: ||'{0}.{1}' is invoked for type without destructor|| | RU: ||'GC.SuppressFinalize' вызывается для типа без деструктора|| || зашитый литерал RU: 'GC.SuppressFinalize'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | getsetOrinitExpectedMessage | EN: ||'{0}', '{1}', or '{2}' expected|| | RU: ||Ожидается 'get', 'set' или 'init'|| || зашитый литерал RU: 'get'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | GlobalUsingStaticFileLocalTypeMessage | EN: ||File-local type '{0}' cannot be used in a '{1}' directive|| | RU: ||Тип file-local '{0}' не может использоваться в директиве 'global using static'|| || зашитый литерал RU: 'global using static'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IndexerCannotBeDeclaredstaticMessage | EN: ||Indexer cannot be declared '{0}'|| | RU: ||Индексатор не может быть объявлен как 'static'|| || зашитый литерал RU: 'static'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | initAccessorsCannotBeMarkedreadonlyMarkReadonlyInsteadMessage | EN: ||'{0}' accessors cannot be marked '{1}'. Mark '{2}' property '{1}' instead.|| | RU: ||Методы доступа "init" не могут быть помечены как «только для чтения». Вместо этого пометьте «{0}» как «только для чтения».|| || зашитый литерал RU: 'init'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InitOnlyCanOnlyBeAssignedInAnObjectInitializerOrOnthisOrbaseInAnInstanceConstructorOrAninitAccessorMessage | EN: ||Init-only {0} '{1}' can only be assigned in an object initializer, or on '{2}' or '{3}' in an instance constructor or an '{4}' accessor|| | RU: ||Инициализатор только для инициализации {0} '{1}' может быть назначен только в инициализаторе объекта или в конструкторе экземпляра или методе доступа 'init' с помощью 'this' или 'base'|| || зашитый литерал RU: 'base'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InlineArraySliceNotUsedMessage | EN: ||Inline array '{0}' method will not be used for element access expression|| | RU: ||Метод 'Slice' встроенного массива не будет использоваться для выражения доступа к элементу|| || зашитый литерал RU: 'Slice'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InstanceAutoPropertiesInreadonlyStructsMustBereadonlyMessage | EN: ||Instance auto-properties in '{0}' structs must be {1}-only or {2}-only|| | RU: ||Экземплярные автосвойства в структурах 'readonly' должны быть только для чтения или только для инициализации|| || зашитый литерал RU: 'readonly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InstanceFieldsOfreadonlyStructsMustBereadonlyMessage | EN: ||Instance fields of '{0}' structs must be '{0}'|| | RU: ||Поля экземпляра структур 'readonly' должны быть 'readonly'|| || зашитый литерал RU: 'readonly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterceptorCannotUseUnmanagedCallersOnlyMessage | EN: ||An interceptor cannot be marked with '{0}'|| | RU: ||Перехватчик не может быть помечен атрибутом 'UnmanagedCallersOnlyAttribute'|| || зашитый литерал RU: 'UnmanagedCallersOnlyAttribute'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterceptorScopedMismatchMessage | EN: ||Cannot intercept call to '{0}' with '{1}' because of a difference in '{2}' modifiers or '[{3}]' attributes|| | RU: ||Невозможно перехватить вызов "{0}" с "{1}", потому что модификатор 'scoped' или атрибут '[UnscopedRef]' различаются|| || зашитый литерал RU: 'scoped'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterpolatedStringHandlerMethodIsMalformedItDoesNotReturnvoidOrboolMessage | EN: ||Interpolated string handler method '{0}' is malformed. It does not return '{1}' or '{2}'.|| | RU: ||Метод обработчика интерполированной строки "{0}" имеет неправильный формат. Он не возвращает 'void' или 'bool'.|| || зашитый литерал RU: 'bool'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | intIsDefaultEnumGoverningTypeMessage | EN: ||'{0}' is default {1} governing type|| | RU: ||'int' является типом управления перечислением по умолчанию|| || зашитый литерал RU: 'int'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IntroducingAFinalizeMethodCanInterfereWithDestructorInvocationDidYouIntendToDeclareADestructorMessage | EN: ||Introducing a '{0}' method can interfere with destructor invocation. Did you intend to declare a destructor?|| | RU: ||Введение метода "Finalize" может мешать вызову деструктора. Вы хотели объявить деструктор?|| || зашитый литерал RU: 'Finalize'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InvalidExperimentalDiagnosticIdMessage | EN: ||The '{0}' argument to the '{1}' attribute must be a valid identifier|| | RU: ||Аргумент diagnosticId атрибута 'Experimental' должен быть допустимым идентификатором|| || зашитый литерал RU: 'Experimental'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InvalidScopedLocalTypeOrReferenceKindMessage | EN: ||The '{0}' modifier can be used for refs and {1} values only|| | RU: ||Модификатор 'scoped' может использоваться только для ссылок и значений ref-структур|| || зашитый литерал RU: 'scoped'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsAttributedWithUnmanagedCallersOnlyAndCannotBeCalledDirectlyObtainAFunctionPointerToThisMethodMessage | EN: ||'{0}' is attributed with [{1}] and cannot be called directly. Obtain a function pointer to this method.|| | RU: ||Метод '{0}' атрибутирован с помощью "UnmanagedCallersOnly" и не может быть вызван напрямую. Получите указатель на функцию для этого метода.|| || зашитый литерал RU: 'UnmanagedCallersOnly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsAttributedWithUnmanagedCallersOnlyAndCannotBeConvertedToADelegateTypeObtainAFunctionPointerToThisMethodMessage | EN: ||'{0}' is attributed with [{1}] and cannot be converted into a delegate type. Obtain a function pointer to this method.|| | RU: ||'{0}' имеет атрибут 'UnmanagedCallersOnly' и не может быть преобразован в тип делегата. Получите указатель на функцию для этого метода.|| || зашитый литерал RU: 'UnmanagedCallersOnly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsNotAValidCallingConventionTypeForUnmanagedCallersOnlyMessage | EN: ||'{0}' is not a valid calling convention type for '{1}'|| | RU: ||"{0}" не является допустимым типом соглашения о вызовах для 'UnmanagedCallersOnly'|| || зашитый литерал RU: 'UnmanagedCallersOnly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IteratorCannotContainreturnStatementMessage | EN: ||Iterator cannot contain '{0}' statement|| | RU: ||Итератор не может содержать оператор 'return'|| || зашитый литерал RU: 'return'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ItIsNotLegalToUseTypedynamicInAPatternMessage | EN: ||It is not legal to use type '{0}' in a pattern|| | RU: ||Использование типа 'dynamic' в шаблоне недопустимо|| || зашитый литерал RU: 'dynamic'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | KeywordoverrideIsMissingMessage | EN: ||Keyword '{0}' is missing|| | RU: ||Отсутствует ключевое слово 'override'|| || зашитый литерал RU: 'override'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ListPatternRequiresLengthMessage | EN: ||List patterns may not be used for a value of type '{0}'. No suitable '{1}' or '{2}' property was found.|| | RU: ||Шаблон списка не может использоваться для значений типа "{0}". Не найдено подходящего свойства 'Length' или 'Count'.|| || зашитый литерал RU: 'Count'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LocalFunctionMustBestaticInOrderToUseTheConditionalAttributeMessage | EN: ||Local function '{0}' must be '{1}' in order to use the [{2}] attribute|| | RU: ||Локальная функция "{0}" должна быть "static", чтобы использовать атрибут "Conditional"|| || зашитый литерал RU: 'Conditional'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LocalFunctionMustDeclareABodyBecauseItIsNotMarkedstaticExternMessage | EN: ||Local function must declare a body because it is not marked '{0}'|| | RU: ||Локальная функция должна объявлять тело, потому что она не помечена как 'static extern'|| || зашитый литерал RU: 'static extern'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LoopCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage | EN: ||Loop can be converted into LINQ-expression but another '{0}' method will be used|| | RU: ||Цикл может быть преобразован в LINQ-выражение, но будет использован другой метод 'GetEnumerator'|| || зашитый литерал RU: 'GetEnumerator'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MembersNamedCloneAreDisallowedInRecordsMessage | EN: ||Members named '{0}' are disallowed in records|| | RU: ||Члены с именем 'Clone' запрещены в записях|| || зашитый литерал RU: 'Clone'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodsAttributedWithUnmanagedCallersOnlyCannotHaveGenericTypeParametersAndCannotBeDeclaredInAGenericTypeMessage | EN: ||Methods attributed with [{0}] cannot have generic type parameters and cannot be declared in a generic type|| | RU: ||Методы с атрибутом 'UnmanagedCallersOnly' не могут иметь универсальные параметры типа и не могут быть объявлены в универсальном типе|| || зашитый литерал RU: 'UnmanagedCallersOnly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAclassConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotAReferenceTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is not a reference type|| | RU: ||Метод '{0}' указывает ограничение 'class' для параметра типа '{1}', но соответствующий параметр типа '{2}' переопределенного или явно реализованного метода '{3}' не является ссылочным типом|| || зашитый литерал RU: 'class'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAdefaultConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsConstrainedToAReferenceTypeOrAValueTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is constrained to a reference type or a value type|| | RU: ||Метод "{0}" specifies ограничение 'default' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" ограничен ссылочным типом или типом значения|| || зашитый литерал RU: 'default'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAstructConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotANonNullableValueTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is not a non-nullable value type|| | RU: ||Метод "{0}" specifies ограничение 'struct' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" не является не-nullable-типом значения|| || зашитый литерал RU: 'struct'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ModuleInitializerCannotBeAttributedWithUnmanagedCallersOnlyMessage | EN: ||Module initializer cannot be attributed with [{0}]|| | RU: ||Инициализатор модуля не может иметь атрибут 'UnmanagedCallersOnly'|| || зашитый литерал RU: 'UnmanagedCallersOnly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ModuleInitializerMethodMustBeStaticMustHaveNoParametersAndMustReturnvoidMessage | EN: ||Module initializer method '{0}' must be '{1}', must have no parameters, and must return '{2}'|| | RU: ||Метод инициализатора модуля "{0}" должен быть статическим, не иметь параметров и возвращать "void"|| || зашитый литерал RU: 'void'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleExpressionsAreNotAllowedInusingStatementMessage | EN: ||Multiple expressions are not allowed in '{0}' statement|| | RU: ||В операторе 'using' не допускается несколько выражений|| || зашитый литерал RU: 'using'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleSequentialorderbyClausesAreMeaninglessPossiblyYouMeanThenByInsteadMessage | EN: ||Multiple sequential '{0}' clauses are meaningless. Possibly you mean '{1}' instead.|| | RU: ||Несколько последовательных предложений 'orderby' бессмысленны. Возможно, вы имели в виду 'ThenBy'.|| || зашитый литерал RU: 'orderby'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleSequentialOrderByInvocationsAreMeaninglessPossiblyYouMeanThenByInsteadMessage | EN: ||Multiple sequential '{0}' invocations are meaningless. Possibly you mean '{1}' instead.|| | RU: ||Несколько последовательных вызовов 'OrderBy' бессмысленны. Возможно, вы имели в виду 'ThenBy'.|| || зашитый литерал RU: 'OrderBy'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleWithTheSameNumberOfParametersCannotBeMarkedWithDefaultOverloadAttributeMessage | EN: ||Multiple {0} with the same number of parameters cannot be marked with [DefaultOverload]|| | RU: ||Нельзя пометить атрибутом 'DefaultOverloadAttribute' несколько {0} с одинаковым количеством параметров|| || зашитый литерал RU: 'DefaultOverloadAttribute'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MustBeEitherrefReadonlyOrRegularVariableInOrderToBeAssignedFromBecauseItReturnsreadonlyReferenceMessage | EN: ||'{0}' must be either '{1}' or regular variable in order to be assigned from '{2}' because it returns '{3}' reference|| | RU: ||"{0}" должен быть 'ref readonly' или обычной переменной, чтобы присваиваться из "{1}", потому что он возвращает 'readonly'-ссылку|| || зашитый литерал RU: 'readonly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NeitherisNorasAreValidOnPointerTypesMessage | EN: ||Neither '{0}' nor '{1}' are valid on pointer types|| | RU: ||'is' и 'as' недопустимы для типов указателей|| || зашитый литерал RU: 'as'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NeitherisNorasAreValidOnVoidTypeMessage | EN: ||Neither '{0}' nor '{1}' are valid on '{2}' type|| | RU: ||'is' и 'as' недопустимы для типа void|| || зашитый литерал RU: 'as'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | newCannotBeUsedWithValueTupleTypeUseATupleLiteralExpressionInsteadMessage | EN: ||'{0}' cannot be used with value tuple type. Use a tuple literal expression instead.|| | RU: ||'new' не может использоваться с типом кортежа-значения. Вместо этого используйте выражение литерала кортежа.|| || зашитый литерал RU: 'new'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NoBestTypeFoundForTheSwitchExpressionMessage | EN: ||No best type was found for the '{0}' expression|| | RU: ||Не найден лучший тип для выражения 'switch'|| || зашитый литерал RU: 'switch'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NoDeconstructMethodWithOutParametersFoundForTypeMessage | EN: ||No '{0}' method with {1} '{2}' parameters found for type '{3}'|| | RU: ||Не найден метод 'Deconstruct' с {1} out-параметрами для типа '{0}'|| || зашитый литерал RU: 'Deconstruct'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionAddReferenceFromCallSiteMessage | EN: ||Cannot find '{2}' method for type '{0}' to fill '{3}' collection from '{1}'|| | RU: ||Не удалось найти метод 'Add' для типа '{0}' из '{1}' для заполнения коллекции 'params'|| || зашитый литерал RU: 'Add'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionAddReferenceMessage | EN: ||Cannot find any '{1}' method for type '{0}' to fill '{2}' collection|| | RU: ||Не найдено ни одного метода 'Add' для типа "{0}" для заполнения 'params'-коллекции|| || зашитый литерал RU: 'Add'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionCreateMethodReferenceFromCallSiteMessage | EN: ||Cannot find a suitable builder method for type '{0}' to create '{3}' collection from '{1}'|| | RU: ||Не найден подходящий метод построителя для типа '{0}' для создания 'params' коллекции из '{1}'|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionCreateMethodReferenceMessage | EN: ||Cannot find a suitable builder method for type '{0}' to create '{2}' collection|| | RU: ||Не найден подходящий метод построителя для типа '{0}' для создания 'params' коллекции|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionDefaultCtorReferenceMessage | EN: ||Cannot find a default constructor for type '{0}' to create '{2}' collection|| | RU: ||Не найден конструктор по умолчанию для типа '{0}' для создания 'params' коллекции|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullabilityOfTypeArgumentMustMatchclassConstraintInOrderToUseItAsParameterMessage | EN: ||Nullability of type argument '{0}' must match '{1}' constraint in order to use it as parameter '{2}'|| | RU: ||Nullability аргумента типа '{0}' должна соответствовать ограничению 'class', чтобы использоваться как параметр '{1}'|| || зашитый литерал RU: 'class'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullabilityOfTypeArgumentMustMatchnotnullConstraintInOrderToUseItAsParameterMessage | EN: ||Nullability of type argument '{0}' must match '{1}' constraint in order to use it as parameter '{2}'|| | RU: ||Nullability аргумента типа "{0}" должен соответствовать ограничению 'notnull' для использования в качестве параметра "{1}"|| || зашитый литерал RU: 'notnull'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | nullIsNotAValidParameterNameToGetAccessToTheReceiverOfAnInstanceMethodUseTheEmptyStringAsTheParameterNameMessage | EN: ||'{0}' is not a valid parameter name. To get access to the receiver of an instance method, use an empty string as the parameter name.|| | RU: ||'null' не является допустимым именем параметра. Для доступа к получателю метода экземпляра используйте пустую строку в качестве имени параметра.|| || зашитый литерал RU: 'null'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullSuppressionOperatorMightBeConfusedWithAnInvertedisExpressionMessage | EN: ||Null suppression operator might be confused with an inverted '{0}' expression|| | RU: ||Оператор подавления null может быть спутан с инвертированным выражением 'is'|| || зашитый литерал RU: 'is'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ObjectReferenceEqualsIsAlwaysFalseBecauseItIsCalledWithValueTypeMessage | EN: ||'{0}.{1}' is always false because it is called with value type|| | RU: ||'Object.ReferenceEquals' всегда возвращает false, так как вызывается с типом значения|| || зашитый литерал RU: 'Object.ReferenceEquals'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ObsoleteMembersShouldNotBeRequiredMessage | EN: ||Required member '{0}' should not be attributed with '{1}' unless the containing type is obsolete or all constructors are obsolete|| | RU: ||Обязательный член "{0}" не должен быть атрибутирован с помощью 'ObsoleteAttribute', если содержащий тип не устарел или не все конструкторы устарели|| || зашитый литерал RU: 'ObsoleteAttribute'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyMethodsOperatorsAndAccessorsCouldContainyieldStatementMessage | EN: ||Only methods, operators, and accessors could contain '{0}' statement|| | RU: ||Только методы, операторы и методы доступа могут содержать оператор 'yield'|| || зашитый литерал RU: 'yield'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyNonNullableValueTypeCouldBeUnderlyingOfSystemNullableMessage | EN: ||Only non-nullable value type could be underlying of '{0}.{1}'|| | RU: ||Базовым типом для 'System.Nullable' может быть только ненулевой тип значения|| || зашитый литерал RU: 'System.Nullable'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyOnePartOfApartialTypeCanDeclarePrimaryConstructorMessage | EN: ||Only one part of a '{0}' type can declare primary constructor|| | RU: ||Только одна часть 'partial'-типа может объявлять первичный конструктор|| || зашитый литерал RU: 'partial'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorCannotHaveparamsParameterMessage | EN: ||Operator cannot have '{0}' parameter|| | RU: ||Оператор не может иметь параметр 'params'|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorCannotHaverefOroutParameterMessage | EN: ||Operator cannot have '{0}' or '{1}' parameter|| | RU: ||Оператор не может иметь параметры 'ref' или 'out'|| || зашитый литерал RU: 'out'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorisCanBeUsedMessage | EN: ||Operator '{0}' can be used|| | RU: ||Можно использовать оператор 'is'|| || зашитый литерал RU: 'is'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorisCannotBeAppliedToOperandOfTypedefaultMessage | EN: ||Operator '{0}' cannot be applied to operand of type '{1}'|| | RU: ||Оператор 'is' не может быть применен к операнду типа 'default'|| || зашитый литерал RU: 'default'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterModifierthisShouldBeOnTheFirstParameterMessage | EN: ||Parameter modifier '{0}' must be on the first parameter|| | RU: ||Модификатор параметра 'this' должен быть на первом параметре|| || зашитый литерал RU: 'this'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterWithparamsModifierMustHaveAnArrayTypeMessage | EN: ||Parameter with '{0}' modifier must have an array type|| | RU: ||Параметр с модификатором 'params' должен иметь тип массива|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterWithparamsModifierMustHaveAValidCollectionTypeMessage | EN: ||Parameter with '{0}' modifier must have a valid collection type|| | RU: ||Параметр с модификатором 'params' должен иметь допустимый тип коллекции|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | paramsModifierIsAlwaysIgnoredOnOverridesMessage | EN: ||'{0}' modifier is always ignored on overrides|| | RU: ||Модификатор 'params' всегда игнорируется при переопределении|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParamsParameterInLambdaOnlyMessage | EN: ||Parameter {0} has '{1}' modifier in lambda but not in the target delegate type|| | RU: ||Параметр {0} имеет модификатор 'params' в лямбде, но не в целевом типе делегата|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartiallyOpenedTypeIsNotPermittedIntypeofExpressionMessage | EN: ||Partially opened type is not allowed in '{0}' expression|| | RU: ||Частично открытый тип не допускается в выражении 'typeof'|| || зашитый литерал RU: 'typeof'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherreadonlyMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления 'partial'-члена должны быть либо оба 'readonly', либо ни один|| || зашитый литерал RU: 'partial'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherRequiredMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления разделяемого члена должны быть либо оба 'required', либо ни одно из них|| || зашитый литерал RU: 'required'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherstaticMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления частичного члена должны быть либо оба 'static', либо ни один|| || зашитый литерал RU: 'static'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherunsafeMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления разделяемого члена должны быть либо оба 'unsafe', либо ни одно из них|| || зашитый литерал RU: 'unsafe'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodMustHaveAccessibilityModifiersBecauseItHasAvirtualoverridesealednewOrexternModifierMessage | EN: ||Partial method '{0}' must have accessibility modifiers because it has a '{1}', '{2}', '{3}', '{4}', or '{5}' modifier|| | RU: ||Частичный метод "{0}" должен иметь модификаторы доступности, поскольку он имеет модификатор "virtual", "override", "sealed", "new" или "extern"|| || зашитый литерал RU: 'extern'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodMustHaveAccessibilityModifiersBecauseItHasoutParametersMessage | EN: ||Partial method '{0}' must have accessibility modifiers because it has '{1}' parameters|| | RU: ||Частичный метод "{0}" должен иметь модификаторы доступности, потому что он имеет параметры "out"|| || зашитый литерал RU: 'out'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodParameterScopeModifiersMismatchMessage | EN: ||The '{0}' modifier of parameter '{1}' doesn't match partial method declaration|| | RU: ||Модификатор 'scoped' для параметра '{0}' не соответствует объявлению частичного метода|| || зашитый литерал RU: 'scoped'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartOfLoopsBodyCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage | EN: ||Part of loop's body can be converted into LINQ-expression but another '{0}' method will be used|| | RU: ||Часть тела цикла может быть преобразована в LINQ-выражение, но будет использован другой метод 'GetEnumerator'|| || зашитый литерал RU: 'GetEnumerator'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleComparisonOfValueTypeWithnullMessage | EN: ||Possible comparison of value type with '{0}'|| | RU: ||Возможное сравнение типа значения с 'null'|| || зашитый литерал RU: 'null'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleMistakenSystemTypeArgumentMessage | EN: ||Possible mistaken argument of type '{0}.{1}'|| | RU: ||Возможный ошибочный аргумент типа 'System.Type'|| || зашитый литерал RU: 'System.Type'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleUnassignedObjectCreatedBynewExpressionMessage | EN: ||Possible unassigned object created by '{0}' expression|| | RU: ||Возможно не присвоенный объект, созданный выражением 'new'|| || зашитый литерал RU: 'new'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleUnintendedReferenceComparisonToGetAValueComparisonUseEqualsMethodMessage | EN: ||Possible unintended reference comparison. To get a value comparison, use '{0}' method.|| | RU: ||Возможно, непреднамеренное сравнение ссылок. Для сравнения значений используйте метод 'Equals'.|| || зашитый литерал RU: 'Equals'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleViolationOfValueRangeNonNegativeValueAttributeMessage | EN: ||Possible violation of [{0}]/[{1}] attribute|| | RU: ||Возможное нарушение атрибута 'ValueRange'/'NonNegativeValue'|| || зашитый литерал RU: 'NonNegativeValue'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossiblyMisleadingDefaultValueAttributeUsageToDefineOptionalParameterValueDefaultParameterValueAttributeShouldBeUsedInsteadMessage | EN: ||Possibly misleading '{0}' usage to define optional parameter value. '{1}' must be used instead.|| | RU: ||Возможно вводящее в заблуждение использование 'DefaultValueAttribute' для определения значения необязательного параметра. Вместо этого следует использовать 'DefaultParameterValueAttribute'.|| || зашитый литерал RU: 'DefaultParameterValueAttribute'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | readonlyCanOnlyBeUsedOnAccessorsIfTheHasBothAgetAndAsetAccessorMessage | EN: ||'{0}' can only be used on accessors if the {1} has both a '{2}' and a '{3}' accessor|| | RU: ||Модификатор 'readonly' можно использовать для методов доступа, только если {0} имеет и метод доступа 'get', и метод доступа 'set'|| || зашитый литерал RU: 'get'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | readonlyKeywordMustFollowrefKeywordAndImmediatelyPrecedeTheTypeMessage | EN: ||'{0}' keyword must follow '{1}' keyword and immediately precede the type|| | RU: ||Ключевое слово 'readonly' должно следовать за ключевым словом 'ref' и непосредственно предшествовать типу|| || зашитый литерал RU: 'readonly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantAttributeSuffixMessage | EN: ||Redundant '{0}' suffix|| | RU: ||Избыточный суффикс 'Attribute'|| || зашитый литерал RU: 'Attribute'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantConfigureAwaitTrueCanBeRemovedMessage | EN: ||Redundant '{0}' can be removed|| | RU: ||Избыточный 'ConfigureAwait' можно удалить|| || зашитый литерал RU: 'ConfigureAwait'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantDictionaryContainsKeyBeforeAddingMessage | EN: ||'{0}' call is redundant before adding the item to the dictionary|| | RU: ||Вызов 'ContainsKey' перед добавлением записи в словарь избыточен|| || зашитый литерал RU: 'ContainsKey'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantElseBlockMessage | EN: ||Redundant '{0}' block|| | RU: ||Избыточный блок 'else'|| || зашитый литерал RU: 'else'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantExplicitCollectionCreationInArgumentOfParamsParameterMessage | EN: ||Redundant explicit collection creation in argument of '{0}' parameter|| | RU: ||Избыточное явное создание коллекции в аргументе параметра 'params'|| || зашитый литерал RU: 'params'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantIEnumerableOfTypeTCallConsiderComparingWithnullInsteadMessage | EN: ||Redundant '{0}.{1}<T>' call. Consider comparing with '{2}' instead.|| | RU: ||Избыточный вызов 'IEnumerable.OfType<T>'. Рассмотрите возможность сравнения с 'null' вместо этого.|| || зашитый литерал RU: 'null'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantisMessage | EN: ||Redundant '{0}'|| | RU: ||Избыточный 'is'|| || зашитый литерал RU: 'is'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantScopedParameterModifierMessage | EN: ||Redundant '{0}' modifier|| | RU: ||Избыточный модификатор 'scoped'|| || зашитый литерал RU: 'scoped'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantSwitchExpressionArmMessage | EN: ||Redundant '{0}' expression arm|| | RU: ||Избыточная ветка выражения 'switch'|| || зашитый литерал RU: 'switch'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantSwitchExpressionArmsMessage | EN: ||Redundant '{0}' expression arms|| | RU: ||Избыточная ветвь выражения 'switch'|| || зашитый литерал RU: 'switch'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefFieldInNonRefStructMessage | EN: ||A '{0}' field can only be declared in a '{0}' struct|| | RU: ||Поле 'ref' может быть объявлено только в структуре 'ref'|| || зашитый литерал RU: 'ref'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refKeywordMustImmediatelyPrecedeTheStructMessage | EN: ||'{0}' keyword must immediately precede the '{1}' keyword|| | RU: ||Ключевое слово 'ref' должно непосредственно предшествовать ключевому слову 'struct'|| || зашитый литерал RU: 'ref'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refKeywordMustImmediatelyPrecedeTheTypeMessage | EN: ||'{0}' keyword must immediately precede the type|| | RU: ||Ключевое слово 'ref' должно непосредственно предшествовать типу|| || зашитый литерал RU: 'ref'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReadOnlyWrongOrderingMessage | EN: ||'{0}' modifier must be specified after '{1}'|| | RU: ||Модификатор 'readonly' должен указываться после 'ref'|| || зашитый литерал RU: 'readonly'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturningCallAndAwaitMessage | EN: ||A reference returned by a call to '{0}' cannot be preserved across '{1}' or '{2}' boundary|| | RU: ||Ссылка, возвращаемая вызовом '{0}', не может сохраняться через границы 'await' или 'yield'|| || зашитый литерал RU: 'await'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnNonByRefParameterMemberWarningMessage | EN: ||This returns by reference a member of {0} '{1}' that is not a '{2}' or '{3}' parameter|| | RU: ||Это возвращает по ссылке член {0} '{1}', который не является параметром 'ref' или 'out'|| || зашитый литерал RU: 'out'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnStructThisOrInstanceFieldWarningMessage | EN: ||Struct member returns '{0}' or other instance members by reference|| | RU: ||Член структуры возвращает по ссылке 'this' или другие члены экземпляра|| || зашитый литерал RU: 'this'
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refStructsCannotImplementInterfacesMessage | EN: ||'{0}' structs cannot implement interfaces|| | RU: ||Структуры 'ref' не могут реализовывать интерфейсы|| || зашитый литерал RU: 'ref'
+JetBrains.ReSharper.Daemon.Resources.Strings10 | OctalLiteralsAreNotAllowedInStrictModeMessage | EN: ||Octal literals are not allowed in the 'strict' mode|| | RU: ||Восьмеричные литералы не допускаются в 'strict mode'|| || зашитый литерал RU: 'strict mode'
+JetBrains.ReSharper.Intentions.CSharp.Resources.Strings | YieldThisValue_Text | EN: ||Yield this value|| | RU: ||Использовать 'yield return' для этого значения|| || зашитый литерал RU: 'yield return'
+JetBrains.UI.Avalonia.Resources.Strings | Copyright__AllRightsReserved_Text | EN: ||All rights reserved. © {0} {1}|| | RU: ||Все права защищены. © {0} {1}
+  
+BaHooo.ReSharper.I18n.ru, v. 2026.2.2.1
+Перевод © Иван "BaHooo" Зеленкевич, {1}|| || зашитый литерал RU: 'BaHooo'
+JetBrains.UI.Resources.Strings | Copyright__AllRightsReserved_Text | EN: ||All rights reserved. © {0} {1}|| | RU: ||Все права защищены. © {0} {1}
+  
+BaHooo.ReSharper.I18n.ru, v. 2026.2.2.1 
+Перевод © Иван "BaHooo" Зеленкевич, {1}|| || зашитый литерал RU: 'BaHooo'
+
+--- CAT-B2 — ru теряет аргументы en (класс LicenseTo/EM_Model_Installed) : 207 ---
+DPA.Core.Resources.Strings | Tooltip_SqlCommandCountIssue_Template | EN: ||{0} DB {1} executed, {2}|| | RU: ||Выполнено {0} команд БД, {2}||
+DPA.Core.Resources.Strings | Tooltip_SqlConnectionCountIssue_Template | EN: ||{0} DB {1}, {2}|| | RU: ||{0} подключений к БД, {2}||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CannotModifyStructMemberWhenAccessedStructIsNotClassifiedAsAVariableMessage | EN: ||{0}Cannot modify struct member when accessed struct is not classified as a variable|| | RU: ||Невозможно изменить член структуры, когда доступная структура не классифицирована как переменная||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryLookupWithTryAddMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре можно упростить с помощью 'TryAdd'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryLookupWithTryGetValueMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре можно упростить с помощью 'TryGetValue'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifyDictionaryTryGetValueWithGetValueOrDefaultMessage | EN: ||Dictionary lookup can be simplified with '{0}'|| | RU: ||Поиск в словаре может быть упрощен с помощью 'GetValueOrDefault'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CanSimplifySetAddingWithSingleCallMessage | EN: ||Redundant '{0}' before '{1}'|| | RU: ||'Contains' перед 'Add' избыточен||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | EnumeratorObjectIsNotDisposedConsiderSafeCastMessage | EN: ||'{0}' call result is never disposed; consider safe-casting to '{1}' and calling '{2}()' after enumeration|| | RU: ||Результат вызова 'GetEnumerator' никогда не освобождается; рассмотрите безопасное приведение к IDisposable после перечисления и вызов Dispose()||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | EnumeratorObjectIsNotDisposedMessage | EN: ||{0} call result is never disposed|| | RU: ||Результат вызова 'GetEnumerator' никогда не освобождается||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | foreachStatementCannotOperateOnEnumeratorsOfTypeInasyncOrIteratorMethodsBecauseIsArefStructMessage | EN: ||'{0}' statement cannot operate on enumerators of type '{1}' in '{2}' or iterator methods because '{1}' is a '{3}' {4}|| | RU: ||Оператор 'foreach' не может выполняться на перечислителях типа "{0}" в 'async'-методах или методах-итераторах, потому что "{0}" является 'ref'-структурой||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | foreachStatementCannotOperateOnRefEnumeratorsInasyncOrIteratorMethodsMessage | EN: ||{0} statement cannot operate on '{1}' enumerators in {2} or iterator methods|| | RU: ||Оператор 'foreach' не может выполняться на ref-перечислителях в 'async'-методах или методах-итераторах||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ForLoopCanBeConvertedIntoForeachLoopMessage | EN: ||'{0}' loop can be converted into '{1}' loop|| | RU: ||Цикл for может быть преобразован в цикл foreach||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | FormattingIsSpecifiedButInterpolatedStringExpressionIsNotIFormattableMessage | EN: ||Formatting is specified, but interpolated string expression is not '{0}'|| | RU: ||Указано форматирование, но интерполированное строковое выражение не является IFormattable||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | GCSuppressFinalizeIsInvokedForTypeWithoutDestructorMessage | EN: ||'{0}.{1}' is invoked for type without destructor|| | RU: ||'GC.SuppressFinalize' вызывается для типа без деструктора||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | getsetOrinitExpectedMessage | EN: ||'{0}', '{1}', or '{2}' expected|| | RU: ||Ожидается 'get', 'set' или 'init'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | GlobalUsingDirectiveIsNotRequiredByTheCodeAndCanBeSafelyRemovedMessage | EN: ||'{0}' directive is not required by the code and can be safely removed|| | RU: ||Коду не требуется директива global using, ее можно безопасно удалить||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | GlobalUsingStaticFileLocalTypeMessage | EN: ||File-local type '{0}' cannot be used in a '{1}' directive|| | RU: ||Тип file-local '{0}' не может использоваться в директиве 'global using static'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IgnoredDirectiveAfterIfDirectiveMessage | EN: ||The '#{0}' directive is not allowed before the '#{1}' directive|| | RU: ||Директива '#{0}' не допускается перед директивой '#if'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IndexerCannotBeDeclaredstaticMessage | EN: ||Indexer cannot be declared '{0}'|| | RU: ||Индексатор не может быть объявлен как 'static'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InDynamicMethodArgMessage | EN: ||Arguments with '{0}' modifier cannot be used in dynamically dispatched expressions|| | RU: ||Параметр с модификатором "in" не может использоваться в выражении с динамической диспетчеризацией||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | initAccessorsCannotBeMarkedreadonlyMarkReadonlyInsteadMessage | EN: ||'{0}' accessors cannot be marked '{1}'. Mark '{2}' property '{1}' instead.|| | RU: ||Методы доступа "init" не могут быть помечены как «только для чтения». Вместо этого пометьте «{0}» как «только для чтения».||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InitOnlyCanOnlyBeAssignedInAnObjectInitializerOrOnthisOrbaseInAnInstanceConstructorOrAninitAccessorMessage | EN: ||Init-only {0} '{1}' can only be assigned in an object initializer, or on '{2}' or '{3}' in an instance constructor or an '{4}' accessor|| | RU: ||Инициализатор только для инициализации {0} '{1}' может быть назначен только в инициализаторе объекта или в конструкторе экземпляра или методе доступа 'init' с помощью 'this' или 'base'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InlineArraySliceNotUsedMessage | EN: ||Inline array '{0}' method will not be used for element access expression|| | RU: ||Метод 'Slice' встроенного массива не будет использоваться для выражения доступа к элементу||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InlineArrayUnsupportedElementFieldModifierMessage | EN: ||Inline array element field cannot be declared as {0}, {1}, {2}, or as a fixed size buffer|| | RU: ||Поле элемента встроенного массива не может быть объявлено как required, readonly, volatile или буфер фиксированного размера||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InstanceAutoPropertiesInreadonlyStructsMustBereadonlyMessage | EN: ||Instance auto-properties in '{0}' structs must be {1}-only or {2}-only|| | RU: ||Экземплярные автосвойства в структурах 'readonly' должны быть только для чтения или только для инициализации||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InstanceFieldsOfreadonlyStructsMustBereadonlyMessage | EN: ||Instance fields of '{0}' structs must be '{0}'|| | RU: ||Поля экземпляра структур 'readonly' должны быть 'readonly'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterceptorCannotUseUnmanagedCallersOnlyMessage | EN: ||An interceptor cannot be marked with '{0}'|| | RU: ||Перехватчик не может быть помечен атрибутом 'UnmanagedCallersOnlyAttribute'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterceptorLineCharacterMustBePositiveMessage | EN: ||Line and character numbers provided to '{0}' must be positive|| | RU: ||Номер строки и символьная позиция, предоставленные в InterceptsLocationAttribute, должны быть положительными||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterceptorScopedMismatchMessage | EN: ||Cannot intercept call to '{0}' with '{1}' because of a difference in '{2}' modifiers or '[{3}]' attributes|| | RU: ||Невозможно перехватить вызов "{0}" с "{1}", потому что модификатор 'scoped' или атрибут '[UnscopedRef]' различаются||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterpolatedStringHandlerArgumentAttributeArgumentsCannotReferToTheParameterTheAttributeIsUsedOnMessage | EN: ||[{0}] arguments cannot refer to the parameter the attribute is used on|| | RU: ||Аргументы [InterpolatedStringHandlerArgumentAttribute] не могут ссылаться на параметр, к которому применяется атрибут||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterpolatedStringHandlerArgumentHasNoEffectWhenAppliedToLambdaParametersAndWillBeIgnoredAtTheCallSiteMessage | EN: ||[{0}] has no effect when applied to lambda parameters and will be ignored at the call site|| | RU: ||[InterpolatedStringHandlerArgument] не оказывает никакого эффекта при применении к параметрам лямбда-выражений и будет игнорироваться в точке вызова||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InterpolatedStringHandlerMethodIsMalformedItDoesNotReturnvoidOrboolMessage | EN: ||Interpolated string handler method '{0}' is malformed. It does not return '{1}' or '{2}'.|| | RU: ||Метод обработчика интерполированной строки "{0}" имеет неправильный формат. Он не возвращает 'void' или 'bool'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | intIsDefaultEnumGoverningTypeMessage | EN: ||'{0}' is default {1} governing type|| | RU: ||'int' является типом управления перечислением по умолчанию||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IntroducingAFinalizeMethodCanInterfereWithDestructorInvocationDidYouIntendToDeclareADestructorMessage | EN: ||Introducing a '{0}' method can interfere with destructor invocation. Did you intend to declare a destructor?|| | RU: ||Введение метода "Finalize" может мешать вызову деструктора. Вы хотели объявить деструктор?||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InvalidExperimentalDiagnosticIdMessage | EN: ||The '{0}' argument to the '{1}' attribute must be a valid identifier|| | RU: ||Аргумент diagnosticId атрибута 'Experimental' должен быть допустимым идентификатором||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | InvalidScopedLocalTypeOrReferenceKindMessage | EN: ||The '{0}' modifier can be used for refs and {1} values only|| | RU: ||Модификатор 'scoped' может использоваться только для ссылок и значений ref-структур||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IQueryableIsPossiblyUnintentionallyUsedAsIEnumerableMessage | EN: ||'{0}' is possibly unintentionally used as '{1}'|| | RU: ||IQueryable возможно непреднамеренно используется как IEnumerable||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsAttributedWithUnmanagedCallersOnlyAndCannotBeCalledDirectlyObtainAFunctionPointerToThisMethodMessage | EN: ||'{0}' is attributed with [{1}] and cannot be called directly. Obtain a function pointer to this method.|| | RU: ||Метод '{0}' атрибутирован с помощью "UnmanagedCallersOnly" и не может быть вызван напрямую. Получите указатель на функцию для этого метода.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsAttributedWithUnmanagedCallersOnlyAndCannotBeConvertedToADelegateTypeObtainAFunctionPointerToThisMethodMessage | EN: ||'{0}' is attributed with [{1}] and cannot be converted into a delegate type. Obtain a function pointer to this method.|| | RU: ||'{0}' имеет атрибут 'UnmanagedCallersOnly' и не может быть преобразован в тип делегата. Получите указатель на функцию для этого метода.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsNotAReferenceTypeAsRequiredByTheLockStatementMessage | EN: ||'{0}' is not a reference type as required by the '{1}' statement|| | RU: ||"{0}" не является ссылочным типом, как требуется оператором lock||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IsNotAValidCallingConventionTypeForUnmanagedCallersOnlyMessage | EN: ||'{0}' is not a valid calling convention type for '{1}'|| | RU: ||"{0}" не является допустимым типом соглашения о вызовах для 'UnmanagedCallersOnly'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | IteratorCannotContainreturnStatementMessage | EN: ||Iterator cannot contain '{0}' statement|| | RU: ||Итератор не может содержать оператор 'return'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ItIsNotLegalToUseTypedynamicInAPatternMessage | EN: ||It is not legal to use type '{0}' in a pattern|| | RU: ||Использование типа 'dynamic' в шаблоне недопустимо||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | JoinNullCheckWithAssignmentMessage | EN: ||Join '{0}' check with assignment|| | RU: ||Объединить проверку на null с присваиванием||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | KeywordoverrideIsMissingMessage | EN: ||Keyword '{0}' is missing|| | RU: ||Отсутствует ключевое слово 'override'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LeftOperandIsAlwaysNullMessage | EN: ||'??' left operand is always '{0}'|| | RU: ||Левый операнд '??' всегда null||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LeftOperandIsNeverNullAccordingToNullableReferenceTypesAnnotationsMessage | EN: ||'??' left operand is never '{0}' according to nullable reference types' annotations|| | RU: ||Согласно аннотациям nullable-ссылочных типов, левый операнд '??' никогда не равен null||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LeftOperandIsNeverNullMessage | EN: ||'??' left operand is never '{0}'|| | RU: ||Левый операнд '??' никогда не равен null||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ListPatternRequiresLengthMessage | EN: ||List patterns may not be used for a value of type '{0}'. No suitable '{1}' or '{2}' property was found.|| | RU: ||Шаблон списка не может использоваться для значений типа "{0}". Не найдено подходящего свойства 'Length' или 'Count'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LocalFunctionMustBestaticInOrderToUseTheConditionalAttributeMessage | EN: ||Local function '{0}' must be '{1}' in order to use the [{2}] attribute|| | RU: ||Локальная функция "{0}" должна быть "static", чтобы использовать атрибут "Conditional"||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LocalFunctionMustDeclareABodyBecauseItIsNotMarkedstaticExternMessage | EN: ||Local function must declare a body because it is not marked '{0}'|| | RU: ||Локальная функция должна объявлять тело, потому что она не помечена как 'static extern'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | LoopCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage | EN: ||Loop can be converted into LINQ-expression but another '{0}' method will be used|| | RU: ||Цикл может быть преобразован в LINQ-выражение, но будет использован другой метод 'GetEnumerator'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MathAbsArgumentIsAlwaysNonNegativeMessage | EN: ||{0}.{1}() argument is always non-negative|| | RU: ||Аргумент Math.Abs() всегда неотрицательный||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MathSignMethodAlwaysGivesTheSameResultMessage | EN: ||{0}.{1}() method always gives the same result ({2})|| | RU: ||Метод Math.Sign() всегда дает одинаковый результат ({0})||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MemberMustHaveWhenExitingMessage | EN: ||Member {0} must have a non-{1} value when exiting|| | RU: ||При выходе член {0} должен иметь не-null значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MemberMustHaveWhenExitingWithMessage | EN: ||Member {0} must have a non-{1} value when exiting with '{2}'|| | RU: ||При выходе с '{1}' член {0} должен иметь не-null значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MembersMustHaveWhenExitingMessage | EN: ||Members {0} must have non-{1} values when exiting|| | RU: ||При выходе член {0} должен иметь не-null значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MembersMustHaveWhenExitingWithMessage | EN: ||Members {0} must have non-{1} values when exiting with '{2}'|| | RU: ||Члены {0} должны иметь ненулевое значение при выходе с '{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MembersNamedCloneAreDisallowedInRecordsMessage | EN: ||Members named '{0}' are disallowed in records|| | RU: ||Члены с именем 'Clone' запрещены в записях||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MergeAndPatternOperandsMessage | EN: ||Merge '{0}' pattern operands|| | RU: ||Объединить операнды шаблона 'and'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodHasAsyncOverloadMessage | EN: ||Method has '{0}' overload|| | RU: ||Метод имеет асинхронную перегрузку||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodHasAsyncOverloadWithCancellationSupportMessage | EN: ||Method has '{0}' overload with cancellation support|| | RU: ||Метод имеет асинхронную перегрузку с поддержкой отмены||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodIsMarkedAsOneWayOperationAndThereforeCouldntReturnValuesMessage | EN: ||Method '{0}' is marked as [{1}] operation and therefore could not return values|| | RU: ||Метод '{0}' помечен как односторонняя операция, поэтому не может возвращать значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodIsMarkedAsOperationContractButContainingTypeIsntMarkedAsServiceContractMessage | EN: ||Method '{0}' is marked as [{1}] but containing type is not marked as [{2}]|| | RU: ||Метод '{0}' помечен как OperationContract, но содержащий тип не помечен как ServiceContract||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodLacksDoesNotReturnAnnotationInOrderToMatchImplementedMemberMessage | EN: ||Method '{0}' lacks [{1}] annotation in order to match implemented member|| | RU: ||Методу '{0}' не хватает аннотации '[DoesNotReturn]', необходимой для соответствия реализуемому члену||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodLacksDoesNotReturnAnnotationInOrderToMatchOverriddenMemberMessage | EN: ||Method '{0}' lacks [{1}] annotation in order to match overridden member|| | RU: ||Методу "{0}" не хватает аннотации '[DoesNotReturn]', необходимой для соответствия переопределенному члену||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodsAttributedWithUnmanagedCallersOnlyCannotHaveGenericTypeParametersAndCannotBeDeclaredInAGenericTypeMessage | EN: ||Methods attributed with [{0}] cannot have generic type parameters and cannot be declared in a generic type|| | RU: ||Методы с атрибутом 'UnmanagedCallersOnly' не могут иметь универсальные параметры типа и не могут быть объявлены в универсальном типе||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAclassConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotAReferenceTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is not a reference type|| | RU: ||Метод '{0}' указывает ограничение 'class' для параметра типа '{1}', но соответствующий параметр типа '{2}' переопределенного или явно реализованного метода '{3}' не является ссылочным типом||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAdefaultConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsConstrainedToAReferenceTypeOrAValueTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is constrained to a reference type or a value type|| | RU: ||Метод "{0}" specifies ограничение 'default' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" ограничен ссылочным типом или типом значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MethodSpecifiesAstructConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotANonNullableValueTypeMessage | EN: ||Method '{0}' specifies a '{1}' constraint for type parameter '{2}', but the corresponding type parameter '{3}' of overridden or explicitly implemented method '{4}' is not a non-nullable value type|| | RU: ||Метод "{0}" specifies ограничение 'struct' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" не является не-nullable-типом значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MissingConfigureAwaitFalseForAsyncDisposableInLibraryCodeMessage | EN: ||Missing '.{0}({1})' for async disposable in library code|| | RU: ||В библиотечном коде отсутствует '.ConfigureAwait(false)' для асинхронного высвобождения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MissingConfigureAwaitFalseInLibraryCodeMessage | EN: ||Missing '.{0}({1})' in library code|| | RU: ||Отсутствует '.ConfigureAwait(false)' в коде библиотеки||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ModuleInitializerCannotBeAttributedWithUnmanagedCallersOnlyMessage | EN: ||Module initializer cannot be attributed with [{0}]|| | RU: ||Инициализатор модуля не может иметь атрибут 'UnmanagedCallersOnly'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ModuleInitializerMethodMustBeStaticMustHaveNoParametersAndMustReturnvoidMessage | EN: ||Module initializer method '{0}' must be '{1}', must have no parameters, and must return '{2}'|| | RU: ||Метод инициализатора модуля "{0}" должен быть статическим, не иметь параметров и возвращать "void"||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleExpressionsAreNotAllowedInusingStatementMessage | EN: ||Multiple expressions are not allowed in '{0}' statement|| | RU: ||В операторе 'using' не допускается несколько выражений||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleSequentialorderbyClausesAreMeaninglessPossiblyYouMeanThenByInsteadMessage | EN: ||Multiple sequential '{0}' clauses are meaningless. Possibly you mean '{1}' instead.|| | RU: ||Несколько последовательных предложений 'orderby' бессмысленны. Возможно, вы имели в виду 'ThenBy'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MultipleSequentialOrderByInvocationsAreMeaninglessPossiblyYouMeanThenByInsteadMessage | EN: ||Multiple sequential '{0}' invocations are meaningless. Possibly you mean '{1}' instead.|| | RU: ||Несколько последовательных вызовов 'OrderBy' бессмысленны. Возможно, вы имели в виду 'ThenBy'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MustAllowOverridingBecauseTheContainingRecordIsNotSealedMessage | EN: ||'{0}' must allow overriding because the containing record is not '{1}'|| | RU: ||"{0}" должен разрешать переопределение, потому что содержащая запись не является sealed||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MustBeEitherrefReadonlyOrRegularVariableInOrderToBeAssignedFromBecauseItReturnsreadonlyReferenceMessage | EN: ||'{0}' must be either '{1}' or regular variable in order to be assigned from '{2}' because it returns '{3}' reference|| | RU: ||"{0}" должен быть 'ref readonly' или обычной переменной, чтобы присваиваться из "{1}", потому что он возвращает 'readonly'-ссылку||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | MustHaveFieldOffsetAttributeMessage | EN: ||Instance field in types marked with '[{0}({1}.{2})]' must have a '[{3}]' attribute|| | RU: ||Поля экземпляра в типах, помеченных '[StructLayout(LayoutKind.Explicit)]', должны иметь атрибут '[FieldOffset]'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NeitherisNorasAreValidOnPointerTypesMessage | EN: ||Neither '{0}' nor '{1}' are valid on pointer types|| | RU: ||'is' и 'as' недопустимы для типов указателей||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NeitherisNorasAreValidOnVoidTypeMessage | EN: ||Neither '{0}' nor '{1}' are valid on '{2}' type|| | RU: ||'is' и 'as' недопустимы для типа void||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | newCannotBeUsedWithValueTupleTypeUseATupleLiteralExpressionInsteadMessage | EN: ||'{0}' cannot be used with value tuple type. Use a tuple literal expression instead.|| | RU: ||'new' не может использоваться с типом кортежа-значения. Вместо этого используйте выражение литерала кортежа.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NewConstraintCannotHaveRequiredMembersMessage | EN: ||'{0}' cannot satisfy the '{1}()' constraint on parameter '{2}' in the generic {3} '{4}' because '{0}' has required members|| | RU: ||'{0}' не может удовлетворять ограничению 'new()' для параметра '{1}' в универсальном {2} '{3}', так как '{0}' имеет обязательные члены.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NoBestTypeFoundForTheSwitchExpressionMessage | EN: ||No best type was found for the '{0}' expression|| | RU: ||Не найден лучший тип для выражения 'switch'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NoDeconstructMethodWithOutParametersFoundForTypeMessage | EN: ||No '{0}' method with {1} '{2}' parameters found for type '{3}'|| | RU: ||Не найден метод 'Deconstruct' с {1} out-параметрами для типа '{0}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NonReadonlyReferencedInGetHashCodeMessage | EN: ||Non-readonly {0} referenced in '{1}()'|| | RU: ||В 'GetHashCode()' ссылается на не-readonly {0}||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionAddReferenceFromCallSiteMessage | EN: ||Cannot find '{2}' method for type '{0}' to fill '{3}' collection from '{1}'|| | RU: ||Не удалось найти метод 'Add' для типа '{0}' из '{1}' для заполнения коллекции 'params'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionAddReferenceMessage | EN: ||Cannot find any '{1}' method for type '{0}' to fill '{2}' collection|| | RU: ||Не найдено ни одного метода 'Add' для типа "{0}" для заполнения 'params'-коллекции||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionCreateMethodReferenceFromCallSiteMessage | EN: ||Cannot find a suitable builder method for type '{0}' to create '{3}' collection from '{1}'|| | RU: ||Не найден подходящий метод построителя для типа '{0}' для создания 'params' коллекции из '{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionCreateMethodReferenceMessage | EN: ||Cannot find a suitable builder method for type '{0}' to create '{2}' collection|| | RU: ||Не найден подходящий метод построителя для типа '{0}' для создания 'params' коллекции||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionDefaultCtorReferenceFromCallSiteMessage | EN: ||Cannot find a default constructor for type '{0}' to create '{3}' collection from '{1}'|| | RU: ||Не удалось найти конструктор по умолчанию для типа '{0}' из '{1}' для создания params-коллекции||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NotResolvedParamsCollectionDefaultCtorReferenceMessage | EN: ||Cannot find a default constructor for type '{0}' to create '{2}' collection|| | RU: ||Не найден конструктор по умолчанию для типа '{0}' для создания 'params' коллекции||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullabilityOfTypeArgumentMustMatchclassConstraintInOrderToUseItAsParameterMessage | EN: ||Nullability of type argument '{0}' must match '{1}' constraint in order to use it as parameter '{2}'|| | RU: ||Nullability аргумента типа '{0}' должна соответствовать ограничению 'class', чтобы использоваться как параметр '{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullabilityOfTypeArgumentMustMatchnotnullConstraintInOrderToUseItAsParameterMessage | EN: ||Nullability of type argument '{0}' must match '{1}' constraint in order to use it as parameter '{2}'|| | RU: ||Nullability аргумента типа "{0}" должен соответствовать ограничению 'notnull' для использования в качестве параметра "{1}"||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullableValueTypeMayBeNullMessage | EN: ||Nullable value type can be '{0}'|| | RU: ||Nullable-тип значения может быть null||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | nullIsNotAValidParameterNameToGetAccessToTheReceiverOfAnInstanceMethodUseTheEmptyStringAsTheParameterNameMessage | EN: ||'{0}' is not a valid parameter name. To get access to the receiver of an instance method, use an empty string as the parameter name.|| | RU: ||'null' не является допустимым именем параметра. Для доступа к получателю метода экземпляра используйте пустую строку в качестве имени параметра.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | NullSuppressionOperatorMightBeConfusedWithAnInvertedisExpressionMessage | EN: ||Null suppression operator might be confused with an inverted '{0}' expression|| | RU: ||Оператор подавления null может быть спутан с инвертированным выражением 'is'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ObjectOrCollectionInitializerImplicitlyDereferencesPossiblyNullMemberMessage | EN: ||Object or collection initializer implicitly dereferences possibly '{0}' member '{1}.{2}'|| | RU: ||Инициализатор объекта или коллекции неявно разыменовывает возможно null-член '{0}.{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ObjectReferenceEqualsIsAlwaysFalseBecauseItIsCalledWithValueTypeMessage | EN: ||'{0}.{1}' is always false because it is called with value type|| | RU: ||'Object.ReferenceEquals' всегда возвращает false, так как вызывается с типом значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ObsoleteMembersShouldNotBeRequiredMessage | EN: ||Required member '{0}' should not be attributed with '{1}' unless the containing type is obsolete or all constructors are obsolete|| | RU: ||Обязательный член "{0}" не должен быть атрибутирован с помощью 'ObsoleteAttribute', если содержащий тип не устарел или не все конструкторы устарели||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyAssignmentCallIncrementDecrementAwaitExpressionAndNewObjectExpressionsCanBeUsedAsAStatementMessage | EN: ||Only assignment, call, increment, decrement, '{0}' expression, and '{1}' object expressions can be used as a statement|| | RU: ||Только присваивание, вызов, инкремент, декремент, await-выражение и выражения создания нового объекта могут использоваться в качестве оператора||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyMethodsOperatorsAndAccessorsCouldContainyieldStatementMessage | EN: ||Only methods, operators, and accessors could contain '{0}' statement|| | RU: ||Только методы, операторы и методы доступа могут содержать оператор 'yield'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyNonNullableValueTypeCouldBeUnderlyingOfSystemNullableMessage | EN: ||Only non-nullable value type could be underlying of '{0}.{1}'|| | RU: ||Базовым типом для 'System.Nullable' может быть только ненулевой тип значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OnlyOnePartOfApartialTypeCanDeclarePrimaryConstructorMessage | EN: ||Only one part of a '{0}' type can declare primary constructor|| | RU: ||Только одна часть 'partial'-типа может объявлять первичный конструктор||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OpenTypeInUsingAliasDirectiveMessage | EN: ||Open type in '{0}' alias directive|| | RU: ||Открытый тип в директиве using alias||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperationIsInvalidOnVoidPointerMessage | EN: ||Operation is invalid on '{0}' pointer|| | RU: ||Операция недопустима для void указателя||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorCannotBeCheckedMessage | EN: ||User-defined operator '{0}' cannot be declared '{1}'|| | RU: ||Пользовательский оператор '{0}' не может быть объявлен как checked||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorCannotHaveparamsParameterMessage | EN: ||Operator cannot have '{0}' parameter|| | RU: ||Оператор не может иметь параметр 'params'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorCannotHaverefOroutParameterMessage | EN: ||Operator cannot have '{0}' or '{1}' parameter|| | RU: ||Оператор не может иметь параметры 'ref' или 'out'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorisCanBeUsedMessage | EN: ||Operator '{0}' can be used|| | RU: ||Можно использовать оператор 'is'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorisCannotBeAppliedToOperandOfTypedefaultMessage | EN: ||Operator '{0}' cannot be applied to operand of type '{1}'|| | RU: ||Оператор 'is' не может быть применен к операнду типа 'default'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OperatorWithoutMatchedCheckedOperatorMessage | EN: ||The operator does not have a matching '{0}' operator while other operators do|| | RU: ||Этот оператор не имеет соответствующего проверенного оператора, в то время как другие операторы имеют||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OutAttrOnRefReadonlyParamMessage | EN: ||A '{0}' parameter cannot have the [{1}] attribute|| | RU: ||Параметр ref readonly не может иметь атрибут Out||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverridableCannotBeStaticMessage | EN: ||Overridable {0} cannot be '{1}'|| | RU: ||Переопределяемый {0} не может быть static||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverriddenGetHashCodeCallsBaseGetHashCodeMessage | EN: ||Overridden '{0}()' calls base '{1}.{0}()'|| | RU: ||Переопределенный 'GetHashCode()' вызывает базовый '{0}.GetHashCode()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverrideCannotBeMarkedAsNewMessage | EN: ||Override {0} cannot be marked as '{1}'|| | RU: ||Переопределение {0} не может быть помечено как new||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverrideCannotBeMarkedAsVirtualMessage | EN: ||Override {0} cannot be marked as '{1}'|| | RU: ||Переопределенный {0} не может быть помечен как virtual||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverrideMustHaveRequiredMessage | EN: ||'{0}' must be '{2}' because it overrides '{2}' member '{1}'|| | RU: ||'{0}' должно быть обязательным, так как оно переопределяет обязательный член '{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverridesObjectEqualsObjectOButDoesNotOverrideObjectGetHashCodeMessage | EN: ||'{0}' overrides '{1}.{2}({3} o)' but does not override '{1}.{4}()'|| | RU: ||«{0}» переопределяет Object.Equals(object o), но не переопределяет Object.GetHashCode()||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | OverridesObsoleteAddTheObsoleteAttributeToMessage | EN: ||{0} '{1}' overrides obsolete {2} '{3}'. Add the [{4}] attribute to '{5}'.|| | RU: ||{0} "{1}" переопределяет устаревший {2} "{3}". Добавьте атрибут Obsolete к "{4}".||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterModifierthisShouldBeOnTheFirstParameterMessage | EN: ||Parameter modifier '{0}' must be on the first parameter|| | RU: ||Модификатор параметра 'this' должен быть на первом параметре||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterMustHaveANonNullValueWhenExitingBecauseParameterIsNonNullMessage | EN: ||Parameter '{0}' must have a non-{2} value when exiting because parameter '{1}' is non-{2}|| | RU: ||Параметр "{0}" должен иметь ненулевое значение при выходе, поскольку параметр "{1}" не равен NULL||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterMustHaveWhenExitingMessage | EN: ||Parameter {0} must have a non-{1} value when exiting|| | RU: ||При выходе параметр {0} должен иметь ненулевое значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterMustHaveWhenExitingWithMessage | EN: ||Parameter {0} must have a non-{1} value when exiting with '{2}'|| | RU: ||При выходе с '{1}' параметр {0} должен иметь не-null значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParametersMustHaveWhenExitingMessage | EN: ||Parameters {0} must have non-{1} values when exiting|| | RU: ||Параметр {0} должен иметь ненулевое значение при выходе||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParametersMustHaveWhenExitingWithMessage | EN: ||Parameters {0} must have non-{1} values when exiting with '{2}'|| | RU: ||При выходе с '{1}' параметр {0} должен иметь ненулевое значение||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterWithparamsModifierMustHaveAnArrayTypeMessage | EN: ||Parameter with '{0}' modifier must have an array type|| | RU: ||Параметр с модификатором 'params' должен иметь тип массива||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParameterWithparamsModifierMustHaveAValidCollectionTypeMessage | EN: ||Parameter with '{0}' modifier must have a valid collection type|| | RU: ||Параметр с модификатором 'params' должен иметь допустимый тип коллекции||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | paramsModifierIsAlwaysIgnoredOnOverridesMessage | EN: ||'{0}' modifier is always ignored on overrides|| | RU: ||Модификатор 'params' всегда игнорируется при переопределении||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ParamsParameterInLambdaOnlyMessage | EN: ||Parameter {0} has '{1}' modifier in lambda but not in the target delegate type|| | RU: ||Параметр {0} имеет модификатор 'params' в лямбде, но не в целевом типе делегата||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartiallyOpenedTypeIsNotPermittedInNameofExpressionMessage | EN: ||Partially opened type is not allowed in '{0}' expression|| | RU: ||Частично открытый тип не разрешен в выражении nameof||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartiallyOpenedTypeIsNotPermittedIntypeofExpressionMessage | EN: ||Partially opened type is not allowed in '{0}' expression|| | RU: ||Частично открытый тип не допускается в выражении 'typeof'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherreadonlyMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления 'partial'-члена должны быть либо оба 'readonly', либо ни один||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherRequiredMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления разделяемого члена должны быть либо оба 'required', либо ни одно из них||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherstaticMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления частичного члена должны быть либо оба 'static', либо ни один||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | partialMemberDeclarationsMustBeEitherBothOrNeitherunsafeMessage | EN: ||'{0}' member declarations must be either both or neither '{1}'|| | RU: ||Объявления разделяемого члена должны быть либо оба 'unsafe', либо ни одно из них||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMemberDeclarationsMustHaveMatchingRefReturnValuesMessage | EN: ||Partial member declarations must have matching {0} return values|| | RU: ||Объявления частичных членов должны иметь совпадающие ref-возвращаемые значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMemberParameterParamsModifiersMismatchMessage | EN: ||Both partial member declarations must use a '{0}' parameter or neither may use a '{0}' parameter|| | RU: ||Оба объявления частичного члена должны использовать params-параметры или оба не использовать||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodMustHaveAccessibilityModifiersBecauseItHasANonVoidReturnTypeMessage | EN: ||Partial method '{0}' must have accessibility modifiers because it has a non-{1} return type|| | RU: ||Разделяемый метод «{0}» должен иметь модификаторы доступности, поскольку он имеет возвращаемый тип, отличный от void||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodMustHaveAccessibilityModifiersBecauseItHasAvirtualoverridesealednewOrexternModifierMessage | EN: ||Partial method '{0}' must have accessibility modifiers because it has a '{1}', '{2}', '{3}', '{4}', or '{5}' modifier|| | RU: ||Частичный метод "{0}" должен иметь модификаторы доступности, поскольку он имеет модификатор "virtual", "override", "sealed", "new" или "extern"||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodMustHaveAccessibilityModifiersBecauseItHasoutParametersMessage | EN: ||Partial method '{0}' must have accessibility modifiers because it has '{1}' parameters|| | RU: ||Частичный метод "{0}" должен иметь модификаторы доступности, потому что он имеет параметры "out"||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartialMethodParameterScopeModifiersMismatchMessage | EN: ||The '{0}' modifier of parameter '{1}' doesn't match partial method declaration|| | RU: ||Модификатор 'scoped' для параметра '{0}' не соответствует объявлению частичного метода||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PartOfLoopsBodyCanBeConvertedIntoLINQExpressionButAnotherGetEnumeratorMethodWillBeUsedMessage | EN: ||Part of loop's body can be converted into LINQ-expression but another '{0}' method will be used|| | RU: ||Часть тела цикла может быть преобразована в LINQ-выражение, но будет использован другой метод 'GetEnumerator'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PointersMayOnlyBeUsedInAnUnsafeContextMessage | EN: ||Pointers can only be used in an '{0}' context|| | RU: ||Указатели могут использоваться только в unsafe-контексте||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleComparisonOfValueTypeWithnullMessage | EN: ||Possible comparison of value type with '{0}'|| | RU: ||Возможное сравнение типа значения с 'null'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleIncorrectImplementationOfDoubleCheckLockingCheckedFieldMustBeVolatileOrAssignedFromLocalVariableAfterThreadMemoryBarrierCallMessage | EN: ||Possible incorrect implementation of Double-Check Locking. The checked field must be '{0}' or assigned from a local variable after '{1}.{2}()' call.|| | RU: ||Возможно некорректная реализация шаблона двойной проверки блокировки. Проверяемое поле должно быть volatile или присваиваться из локальной переменной после вызова 'Thread.MemoryBarrier()'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleMistakenCallToGetTypeMessage | EN: ||Possible mistaken '{0}()' invocation|| | RU: ||Возможный ошибочный вызов 'GetType()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleMistakenSystemTypeArgumentMessage | EN: ||Possible mistaken argument of type '{0}.{1}'|| | RU: ||Возможный ошибочный аргумент типа 'System.Type'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleNullReferenceArgumentForParameterInMessage | EN: ||Possible '{0}' reference argument for parameter '{1}' in '{2}'|| | RU: ||Возможный аргумент-ссылка NULL для параметра '{0}' в '{1}'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleNullReferenceAssignmentMessage | EN: ||Possible {0} reference assignment|| | RU: ||Возможное присваивание ссылки на NULL||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleNullReferenceReturnMessage | EN: ||Possible {0} reference return|| | RU: ||Возможное возвращение ссылки на NULL||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleOverflowInCheckedContextMessage | EN: ||Possible overflow in '{0}' context|| | RU: ||Возможно переполнение в проверенном контексте||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleOverflowInUncheckedContextMessage | EN: ||Possible overflow in '{0}' context|| | RU: ||Возможно переполнение в unchecked-контексте||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleOverflowOfIntVariableMessage | EN: ||Possible overflow of '{0}' variable|| | RU: ||Возможное переполнение в переменной int||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleSystemArgumentOutOfRangeExceptionStartIndexShouldBeLessThanOrEqualToEndIndexMessage | EN: ||Possible '{0}.{1}'. Start index must be less than or equal to end index.|| | RU: ||Возможно возникновение 'System.ArgumentOutOfRangeException'. Начальный индекс должен быть меньше или равен конечному индексу.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleSystemArgumentOutOfRangeExceptionZeroIndexFromEndMessage | EN: ||Index from end must be greater than zero; use '^{0}' to refer to the last element|| | RU: ||Индекс от конца должен быть больше нуля; используйте '^1' для ссылки на последний элемент||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleSystemInvalidOperationExceptionCollectionWasModifiedMessage | EN: ||Possible '{0}.{1}: Collection was modified'|| | RU: ||Возможное 'System.InvalidOperationException: Коллекция была изменена'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleUnassignedObjectCreatedBynewExpressionMessage | EN: ||Possible unassigned object created by '{0}' expression|| | RU: ||Возможно не присвоенный объект, созданный выражением 'new'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleUnintendedReferenceComparisonToGetAValueComparisonUseEqualsMethodMessage | EN: ||Possible unintended reference comparison. To get a value comparison, use '{0}' method.|| | RU: ||Возможно, непреднамеренное сравнение ссылок. Для сравнения значений используйте метод 'Equals'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossibleViolationOfValueRangeNonNegativeValueAttributeMessage | EN: ||Possible violation of [{0}]/[{1}] attribute|| | RU: ||Возможное нарушение атрибута 'ValueRange'/'NonNegativeValue'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | PossiblyMisleadingDefaultValueAttributeUsageToDefineOptionalParameterValueDefaultParameterValueAttributeShouldBeUsedInsteadMessage | EN: ||Possibly misleading '{0}' usage to define optional parameter value. '{1}' must be used instead.|| | RU: ||Возможно вводящее в заблуждение использование 'DefaultValueAttribute' для определения значения необязательного параметра. Вместо этого следует использовать 'DefaultParameterValueAttribute'.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | readonlyCanOnlyBeUsedOnAccessorsIfTheHasBothAgetAndAsetAccessorMessage | EN: ||'{0}' can only be used on accessors if the {1} has both a '{2}' and a '{3}' accessor|| | RU: ||Модификатор 'readonly' можно использовать для методов доступа, только если {0} имеет и метод доступа 'get', и метод доступа 'set'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | readonlyKeywordMustFollowrefKeywordAndImmediatelyPrecedeTheTypeMessage | EN: ||'{0}' keyword must follow '{1}' keyword and immediately precede the type|| | RU: ||Ключевое слово 'readonly' должно следовать за ключевым словом 'ref' и непосредственно предшествовать типу||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RecordEqualityContractPropertyMustHaveAGetAccessorMessage | EN: ||Record equality contract property '{0}' must have a '{1}' accessor|| | RU: ||Свойство контракта равенства записи "{0}" должно иметь метод доступа get||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RecordMemberMayNotBeStaticMessage | EN: ||Record member '{0}' cannot be '{1}'|| | RU: ||Член записи '{0}' не может быть static||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantAttributeSuffixMessage | EN: ||Redundant '{0}' suffix|| | RU: ||Избыточный суффикс 'Attribute'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantAttributeUsagePropertyAssignmentMessage | EN: ||Redundant [{0}] property assignment: {1}|| | RU: ||Избыточное присваивание свойства [AttributeUsage]: {0}||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantCaseLabelMessage | EN: ||Redundant '{0}' label|| | RU: ||Избыточная метка case||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantConfigureAwaitTrueCanBeRemovedMessage | EN: ||Redundant '{0}' can be removed|| | RU: ||Избыточный 'ConfigureAwait' можно удалить||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantDictionaryContainsKeyBeforeAddingMessage | EN: ||'{0}' call is redundant before adding the item to the dictionary|| | RU: ||Вызов 'ContainsKey' перед добавлением записи в словарь избыточен||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantElseBlockMessage | EN: ||Redundant '{0}' block|| | RU: ||Избыточный блок 'else'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantEmptyFinallyBlockMessage | EN: ||Redundant empty '{0}' block|| | RU: ||Избыточный пустой блок finally||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantEmptySwitchSectionMessage | EN: ||Redundant empty '{0}' section|| | RU: ||Избыточная пустая секция switch||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantExplicitCollectionCreationInArgumentOfParamsParameterMessage | EN: ||Redundant explicit collection creation in argument of '{0}' parameter|| | RU: ||Избыточное явное создание коллекции в аргументе параметра 'params'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantIEnumerableCastTCallMessage | EN: ||Redundant '{0}.{1}<T>' call|| | RU: ||Избыточный вызов 'IEnumerable.Cast<T>'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantIEnumerableOfTypeTCallConsiderComparingWithnullInsteadMessage | EN: ||Redundant '{0}.{1}<T>' call. Consider comparing with '{2}' instead.|| | RU: ||Избыточный вызов 'IEnumerable.OfType<T>'. Рассмотрите возможность сравнения с 'null' вместо этого.||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantisMessage | EN: ||Redundant '{0}'|| | RU: ||Избыточный 'is'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantObjectToStringCallForValueTypeMessage | EN: ||Redundant '{0}.{1}()' call for value type|| | RU: ||Избыточный вызов 'Object.ToString()' для типа значения||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantObjectToStringCallMessage | EN: ||Redundant '{0}.{1}()' call|| | RU: ||Избыточный вызов 'Object.ToString()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantScopedParameterModifierMessage | EN: ||Redundant '{0}' modifier|| | RU: ||Избыточный модификатор 'scoped'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantStringFormatCallMessage | EN: ||Redundant '{0}.{1}()' call|| | RU: ||Избыточный вызов 'String.Format()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantStringToCharArrayCallMessage | EN: ||Redundant '{0}.{1}()' call|| | RU: ||Избыточный вызов 'String.ToCharArray()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantSwitchExpressionArmMessage | EN: ||Redundant '{0}' expression arm|| | RU: ||Избыточная ветка выражения 'switch'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantSwitchExpressionArmsMessage | EN: ||Redundant '{0}' expression arms|| | RU: ||Избыточная ветвь выражения 'switch'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RedundantWithCancellationMessage | EN: ||Redundant '{0}()' invocation|| | RU: ||Избыточный вызов 'WithCancellation()'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefFieldCannotReferToRefStructMessage | EN: ||A '{0}' field cannot refer to a '{0}' struct|| | RU: ||'ref'-поле не может ссылаться на 'ref'-структуру||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefFieldInNonRefStructMessage | EN: ||A '{0}' field can only be declared in a '{0}' struct|| | RU: ||Поле 'ref' может быть объявлено только в структуре 'ref'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refKeywordMustImmediatelyPrecedeTheStructMessage | EN: ||'{0}' keyword must immediately precede the '{1}' keyword|| | RU: ||Ключевое слово 'ref' должно непосредственно предшествовать ключевому слову 'struct'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refKeywordMustImmediatelyPrecedeTheTypeMessage | EN: ||'{0}' keyword must immediately precede the type|| | RU: ||Ключевое слово 'ref' должно непосредственно предшествовать типу||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefOrOutAreNotValidInThisContextMessage | EN: ||'{0}' or '{1}' are not valid in this context|| | RU: ||ref или out недопустимы в этом контексте||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReadOnlyWrongOrderingMessage | EN: ||'{0}' modifier must be specified after '{1}'|| | RU: ||Модификатор 'readonly' должен указываться после 'ref'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturningCallAndAwaitMessage | EN: ||A reference returned by a call to '{0}' cannot be preserved across '{1}' or '{2}' boundary|| | RU: ||Ссылка, возвращаемая вызовом '{0}', не может сохраняться через границы 'await' или 'yield'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturningPropertiesCannotBeRequiredMessage | EN: ||Ref-returning properties cannot be '{0}'|| | RU: ||Свойства с возвратом по ссылке не могут быть обязательными||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnNonByRefParameterMemberWarningMessage | EN: ||This returns by reference a member of {0} '{1}' that is not a '{2}' or '{3}' parameter|| | RU: ||Это возвращает по ссылке член {0} '{1}', который не является параметром 'ref' или 'out'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnNonByRefParameterWarningMessage | EN: ||This returns a {0} '{1}' by reference, but it is not a '{2}' parameter|| | RU: ||Это возвращает {0} '{1}' по ссылке, но он не является ref-параметром||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnNonRefVariableMemberWarningMessage | EN: ||This returns a member of {0} '{1}' by reference but it is not a '{2}' local|| | RU: ||Это возвращает по ссылке член {0} '{1}', но это не ref-локальная переменная||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnNonRefVariableWarningMessage | EN: ||This returns {0} '{1}' by reference but it is not a '{2}' local|| | RU: ||Это возвращает {0} '{1}' по ссылке, но он не является ref-локальной переменной||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnOnlyParameterMemberMessage | EN: ||Cannot return by reference a member of {0} '{1}' through a '{2}' parameter; it can only be returned in a '{3}' statement|| | RU: ||Невозможно вернуть по ссылке через ref-параметр член {0} "{1}"; он может быть возвращен только в операторе return||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnOnlyParameterMemberWarningMessage | EN: ||This returns by reference a member of {0} '{1}' through a '{2}' parameter; but it can only safely be returned in a '{3}' statement|| | RU: ||Это вернет по ссылке через ref-параметр член {0} "{1}"; но он может быть безопасно возвращен только в операторе return||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnOnlyParameterMessage | EN: ||Cannot return {0} '{1}' by reference through a '{2}' parameter; it can only be returned in a '{3}' statement|| | RU: ||Нельзя вернуть по ссылке {0} '{1}' через ref параметр; он может быть возвращен только в операторе return||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnOnlyParameterWarningMessage | EN: ||This returns {0} '{1}' by reference through a '{2}' parameter; but it can only safely be returned in a '{3}' statement|| | RU: ||Это возвращает по ссылке {0} '{1}' через ref-параметр; но его можно безопасно возвращать только в операторе return||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | RefReturnStructThisOrInstanceFieldWarningMessage | EN: ||Struct member returns '{0}' or other instance members by reference|| | RU: ||Член структуры возвращает по ссылке 'this' или другие члены экземпляра||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | refStructsCannotImplementInterfacesMessage | EN: ||'{0}' structs cannot implement interfaces|| | RU: ||Структуры 'ref' не могут реализовывать интерфейсы||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | CSharp_EditorConfigOverride_Text | EN: ||{0} for {1} overrides some naming rules on this page|| | RU: ||Некоторые правила именования на этой странице переопределяются {0} для решения||
+JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings | PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text | EN: ||PDB has not been generated because assembly {0} with PDB name {1} and signature {2} {3}|| | RU: ||PDB не был создан, так как сборка {0} имеет имя PDB {1} и сигнатуру {2}||
+JetBrains.UI.Resources.CommonStrings | __Change_WillBeLostUnlessApplied_Text | EN: ||{0} {1} change{2} will be lost unless applied|| | RU: ||Изменения {0} {1} будут потеряны, если не применить||
+
+--- CAT-A — ru без кириллицы (ru==en или калька; класс SystemModulesConstants) : 525 ---
+DPA.Core.Resources.Strings | AspTabTitle | EN: ||ASP|| | RU: ||ASP||
+DPA.Core.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+DPA.Core.Resources.Strings | IssueNode_MemoryAllocation_StackTraceTabName_Template | EN: ||{0} of {1}|| | RU: ||{0}/{1}||
+DPA.Core.Resources.Strings | IssueSummary_SqlCommandCount_Executed_Template | EN: ||{0}: {1} {2}|| | RU: ||{0}: {1} {2}||
+DPA.Core.Resources.Strings | IssueSummary_SqlConnectionCount_Template | EN: ||{0}: {1} {2}|| | RU: ||{0}: {1} {2}||
+DPA.Core.Resources.Strings | IssueSummary_SqlRecordCount_Executed_Template | EN: ||{0}: {1} {2}|| | RU: ||{0}: {1} {2}||
+DPA.Core.Resources.Strings | ThresholdsToolWindow_Asp | EN: ||ASP|| | RU: ||ASP||
+JetBrains.Application.Resources.Strings | _CtrlP_Text | EN: ||{0} (Ctrl+P)|| | RU: ||{0} (Ctrl+P)||
+JetBrains.Application.Resources.Strings | _LIVE_Text | EN: ||{0} (LIVE)|| | RU: ||{0} (LIVE)||
+JetBrains.Application.Resources.Strings | _Of___Text | EN: ||{0} of {1:N0}: {2}|| | RU: ||{0} / {1:N0}: {2}||
+JetBrains.Application.Resources.Strings | AiAssistantWithAccelerator | EN: ||AI A&ssistant|| | RU: ||AI Assistant (&S)||
+JetBrains.Application.Resources.Strings | And_Separator_Text | EN: ||, || | RU: ||, ||
+JetBrains.Application.Resources.Strings | FUSActionGroupText | EN: ||FUS|| | RU: ||FUS||
+JetBrains.Application.Resources.Strings | HTMLActionText | EN: ||HTML|| | RU: ||HTML||
+JetBrains.Application.Resources.Strings | LoggerActionGroupText | EN: ||Logger|| | RU: ||Logger||
+JetBrains.Application.Resources.Strings | OK_Options_Dialog_Button_Text | EN: ||OK|| | RU: ||OK||
+JetBrains.Application.Resources.Strings | OOPActionGroupText | EN: ||OOP|| | RU: ||OOP||
+JetBrains.Application.Resources.Strings | ReSharperActionGroupText | EN: ||ReSharper|| | RU: ||ReSharper||
+JetBrains.Application.Resources.Strings | SingleGotoTwitterActionText | EN: ||SingleGotoTwitter|| | RU: ||SingleGotoTwitter||
+JetBrains.Application.Resources.Strings | SingleGotoWebActionText | EN: ||SingleGotoWeb|| | RU: ||SingleGotoWeb||
+JetBrains.Application.Resources.Strings | Tab_Text | EN: ||Tab|| | RU: ||Tab||
+JetBrains.Application.Resources.Strings | TODO_Text | EN: ||TODO!!|| | RU: ||TODO!!||
+JetBrains.Application.Resources.Strings | Twitter_Text | EN: ||{0} Twitter|| | RU: ||Twitter {0}||
+JetBrains.Application.Resources.Strings | URI_Text | EN: ||URI:|| | RU: ||URI:||
+JetBrains.Application.Resources.Strings | VisualStudioActionGroupText | EN: ||Visual Studio|| | RU: ||Visual Studio||
+JetBrains.Application.Resources.Strings | VsMenuOpenedActionText | EN: ||VsMenuOpenedAction|| | RU: ||VsMenuOpenedAction||
+JetBrains.Application.Resources.Strings | XMLActionText | EN: ||XML|| | RU: ||XML||
+JetBrains.Common.Resources.Resources.Strings | Common_IdSettingDescription | EN: ||Id|| | RU: ||ID||
+JetBrains.Common.Resources.Resources.Strings | Common_InternalSettingDescription | EN: ||Internal|| | RU: ||Internal||
+JetBrains.Common.Resources.Resources.Strings | Common_TypeSettingDescription | EN: ||Type|| | RU: ||Type||
+JetBrains.Common.SubsystemsManagement.Resources.Strings | Subsystems_Predefined_Linq | EN: ||Linq|| | RU: ||Linq||
+JetBrains.Common.SubsystemsManagement.Resources.Strings | Subsystems_Predefined_WinForms | EN: ||WinForms|| | RU: ||WinForms||
+JetBrains.Common.SubsystemsManagement.Resources.Strings | Subsystems_Predefined_WPF | EN: ||WPF|| | RU: ||WPF||
+JetBrains.Common.SubsystemsManagement.Resources.Strings | XmlSettingDescription | EN: ||Xml|| | RU: ||Xml||
+JetBrains.Common.Util.Resources.Strings | FunctionUID_Awaits | EN: ||await|| | RU: ||await||
+JetBrains.Common.Util.Resources.Strings | Subsystems_Events_Jit | EN: ||JIT|| | RU: ||JIT||
+JetBrains.dotCover.Resources.Strings | DotCoverOptions_Anchor_PageTitle | EN: ||dotCover|| | RU: ||dotCover||
+JetBrains.dotCover.Resources.Strings | DotCoverToolWindow_Title | EN: ||dotCover|| | RU: ||dotCover||
+JetBrains.dotCover.Resources.Strings | FileExtension_Html | EN: ||.html|| | RU: ||.html||
+JetBrains.dotCover.Resources.Strings | FileExtension_Json | EN: ||.json|| | RU: ||.json||
+JetBrains.dotCover.Resources.Strings | FileExtension_Xml | EN: ||.xml|| | RU: ||.xml||
+JetBrains.dotCover.Resources.Strings | ProfilerConfigurator_ApplicationTypeSelector_IIS_Title | EN: ||IIS|| | RU: ||IIS||
+JetBrains.dotCover.Resources.Strings | ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint2 | EN: ||ASPNETCORE_ENVIRONMENT=Development|| | RU: ||ASPNETCORE_ENVIRONMENT=Development||
+JetBrains.dotCover.Resources.Strings | ProfilerConfigurator_CommonConfigurator_EnvironmentVariables_Hint3 | EN: ||ASPNETCORE_URLS=http://localhost:5000|| | RU: ||ASPNETCORE_URLS=http://localhost:5000||
+JetBrains.dotCover.Resources.Strings | Report_Html | EN: ||Html|| | RU: ||Html||
+JetBrains.dotCover.Resources.Strings | Report_Json | EN: ||Json|| | RU: ||Json||
+JetBrains.dotCover.Resources.Strings | Report_NDependXml | EN: ||XML for NDepend|| | RU: ||XML for NDepend||
+JetBrains.dotCover.Resources.Strings | Report_Xml | EN: ||XML|| | RU: ||XML||
+JetBrains.dotMemory.Resources.TextResources | Abbr_Percent | EN: ||%|| | RU: ||%||
+JetBrains.dotMemory.Resources.TextResources | AllFiles_FileFilter_Extension | EN: ||.*|| | RU: ||.*||
+JetBrains.dotMemory.Resources.TextResources | CompactDominatorTree_CompactedCount_Template | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | CrossWorkspaceComparison_ProbeOrigin_SnapshotPart_Template | EN: ||{0} ({1})|| | RU: ||{0} ({1})||
+JetBrains.dotMemory.Resources.TextResources | DacNotFoundDialog_Solution2_P1_LinkButton_Text | EN: ||dotMemory Portable|| | RU: ||Portable dotMemory||
+JetBrains.dotMemory.Resources.TextResources | DependencyProperty_LearnMoreLink | EN: ||Inspections#dependency_property_leak|| | RU: ||Inspections#dependency_property_leak||
+JetBrains.dotMemory.Resources.TextResources | Dominators_ChainingSymbol | EN: ||->|| | RU: ||->||
+JetBrains.dotMemory.Resources.TextResources | Dominators_ObjectSetInfo_SmallAtDominationPath_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | DuplicatedStrings_LearnMoreLink | EN: ||Inspections#strings_leak|| | RU: ||Inspections#strings_leak||
+JetBrains.dotMemory.Resources.TextResources | EventHandlersInspection_LearnMoreLink | EN: ||Inspections#event_handlers_leak|| | RU: ||Inspections#event_handlers_leak||
+JetBrains.dotMemory.Resources.TextResources | ExportObject_Filter_Bson | EN: ||BSON|| | RU: ||BSON||
+JetBrains.dotMemory.Resources.TextResources | ExportObject_Filter_Json | EN: ||JSON|| | RU: ||JSON||
+JetBrains.dotMemory.Resources.TextResources | FinalizedObjects_LearnMoreLink | EN: ||Inspections#finalized_objects|| | RU: ||Inspections#finalized_objects||
+JetBrains.dotMemory.Resources.TextResources | FinalizedObjects_Summary_Of | EN: || of || | RU: ||/||
+JetBrains.dotMemory.Resources.TextResources | GexfFiles_FileFilter_Extension | EN: ||.gexf|| | RU: ||.gexf||
+JetBrains.dotMemory.Resources.TextResources | Help_AnalyzingRoots_Link | EN: ||https://www.jetbrains.com/help/dotmemory/Analyzing_GC_Roots.html|| | RU: ||https://www.jetbrains.com/help/dotmemory/Analyzing_GC_Roots.html||
+JetBrains.dotMemory.Resources.TextResources | Help_Article1_Link | EN: ||http://blog.jetbrains.com/dotnet/2014/07/10/unusual-ways-of-boosting-up-app-performance-boxing-and-collections/|| | RU: ||http://blog.jetbrains.com/dotnet/2014/07/10/unusual-ways-of-boosting-up-app-performance-boxing-and-collections/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article2_Link | EN: ||http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/|| | RU: ||http://blog.jetbrains.com/dotnet/2014/07/17/unusual-ways-of-boosting-up-app-performance-strings/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article3_Link | EN: ||http://blog.jetbrains.com/dotnet/2014/07/24/unusual-ways-of-boosting-up-app-performance-lambdas-and-linqs/|| | RU: ||http://blog.jetbrains.com/dotnet/2014/07/24/unusual-ways-of-boosting-up-app-performance-lambdas-and-linqs/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article4_Link | EN: ||http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/|| | RU: ||http://blog.jetbrains.com/dotnet/2014/09/04/fighting-common-wpf-memory-leaks-with-dotmemory/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article5_Link | EN: ||http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/|| | RU: ||http://blog.jetbrains.com/dotnet/2015/04/23/analyzing-ineffective-memory-usage-with-dotmemory/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article6_Link | EN: ||http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/|| | RU: ||http://blog.jetbrains.com/dotnet/2015/02/12/string-interning-effective-memory-management-with-dotmemory/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article7_Link | EN: ||http://blog.jetbrains.com/dotnet/2015/03/04/unit-testing-and-memory-profiling-can-they-be-combined/|| | RU: ||http://blog.jetbrains.com/dotnet/2015/03/04/unit-testing-and-memory-profiling-can-they-be-combined/||
+JetBrains.dotMemory.Resources.TextResources | Help_Article8_Link | EN: ||http://blog.jetbrains.com/dotnet/2015/09/15/memory-testing-on-a-ci-server-dotmemory-unit-standalone-launcher/|| | RU: ||http://blog.jetbrains.com/dotnet/2015/09/15/memory-testing-on-a-ci-server-dotmemory-unit-standalone-launcher/||
+JetBrains.dotMemory.Resources.TextResources | Help_Tutorial1_Link | EN: ||https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html|| | RU: ||https://www.jetbrains.com/help/dotmemory/Getting_Started_with_dotMemory.html||
+JetBrains.dotMemory.Resources.TextResources | Help_Tutorial2_Link | EN: ||https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html|| | RU: ||https://www.jetbrains.com/help/dotmemory/How_to_Find_a_Memory_Leak.html||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingAnInstance_Duration | EN: ||2:20|| | RU: ||2:20||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingAnInstance_Link | EN: ||https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=igIpUE1KhX4&index=8&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingAnObjectSet_Duration | EN: ||2:29|| | RU: ||2:29||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingAnObjectSet_Link | EN: ||https://www.youtube.com/watch?v=2UgKsHUVTFQ&index=7&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=2UgKsHUVTFQ&index=7&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingMemoryTraffic_Duration | EN: ||4:02|| | RU: ||4:02||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AnalyzingMemoryTraffic_Link | EN: ||https://www.youtube.com/watch?v=03UOt5h42UU&index=10&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=03UOt5h42UU&index=10&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AutomaticInspections_Duration | EN: ||1:45|| | RU: ||1:45||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_AutomaticInspections_Link | EN: ||https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=CumYpopWluk&index=6&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_ComparingSnapshots_Duration | EN: ||3:28|| | RU: ||3:28||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_ComparingSnapshots_Link | EN: ||https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=jQSU2jG2UuI&index=11&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_GettingStarted_Duration | EN: ||5:14|| | RU: ||5:14||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_GettingStarted_Link | EN: ||https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=6Tmcx6cTExg&index=1&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_MeetDotMemory_Duration | EN: ||2:29|| | RU: ||2:29||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_MeetDotMemory_Link | EN: ||https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k|| | RU: ||https://www.youtube.com/watch?v=jnxn-vZM-Lg&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_MeetDotMemoryUnit_Duration | EN: ||8:53|| | RU: ||8:53||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_MeetDotMemoryUnit_Link | EN: ||https://www.youtube.com/watch?v=SGwdb5FXuNk&index=2&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k|| | RU: ||https://www.youtube.com/watch?v=SGwdb5FXuNk&index=2&list=PLQ176FUIyIUY7z-5UwwhiWfgJLP6o494k||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_SnapshotOverview_Duration | EN: ||2:50|| | RU: ||2:50||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_SnapshotOverview_Link | EN: ||https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=vkaiLNxLZUw&index=5&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_TheProfilingWorkflow_Duration | EN: ||2:29|| | RU: ||2:29||
+JetBrains.dotMemory.Resources.TextResources | Help_Youtube_TheProfilingWorkflow_Link | EN: ||https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL|| | RU: ||https://www.youtube.com/watch?v=l-XstgGKJ2c&index=3&list=PLQ176FUIyIUbEfA-XkqEBBNaU28RvtWEL||
+JetBrains.dotMemory.Resources.TextResources | Label_Url | EN: ||Url:|| | RU: ||URL:||
+JetBrains.dotMemory.Resources.TextResources | MainView_HomeMode_Tooltip | EN: ||Ctrl+H|| | RU: ||Ctrl+H||
+JetBrains.dotMemory.Resources.TextResources | MainView_WorkspaceMode_Tooltip | EN: ||Ctrl+W|| | RU: ||Ctrl+W||
+JetBrains.dotMemory.Resources.TextResources | MemoryTraffic_ProbeOrigin_From | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | MemoryTraffic_ProbeOrigin_To | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | NavigateToDeclaration_Action_Text_Appendix_Template | EN: || ({0})|| | RU: || ({0})||
+JetBrains.dotMemory.Resources.TextResources | NotifyLimitReached_Link | EN: ||https://intellij.com/inotify-instances|| | RU: ||https://intellij.com/inotify-instances||
+JetBrains.dotMemory.Resources.TextResources | ObjectCallStack_LearnMore_Link | EN: ||Creation_Stack_Trace_instance|| | RU: ||Creation_Stack_Trace_instance||
+JetBrains.dotMemory.Resources.TextResources | ObjectIncoming_LearnMore_Link | EN: ||Incoming_References|| | RU: ||Incoming_References||
+JetBrains.dotMemory.Resources.TextResources | ObjectSet_MergedPathsToRoots_OneMergedObject | EN: ||( 1x )|| | RU: ||( 1x )||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetByClass_LearnMore_Link | EN: ||Type_List|| | RU: ||Type_List||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_FromAssembly_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_FromNamespace_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_ImplementsInterface_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsArrayOfInterfacesShort | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsDelegateTemplate_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsEnumTemplate_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsOfTypeTemplate_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsUnresolvedTypeTemplate_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_IsValueTypeTemplate_Short | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetInfo_Short_GenerationTemplate | EN: ||{0}|| | RU: ||{0}||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetKeyPaths_LearnMore_Link | EN: ||Similar_Retention|| | RU: ||Similar_Retention||
+JetBrains.dotMemory.Resources.TextResources | ObjectSetOrigin_Kind_XNameWpf_XName | EN: ||x:Name="{0}"|| | RU: ||x:Name="{0}"||
+JetBrains.dotMemory.Resources.TextResources | ObjectTypeNameAndId_Tempate | EN: ||{0} #{1}|| | RU: ||{0} #{1}||
+JetBrains.dotMemory.Resources.TextResources | Ok | EN: ||OK|| | RU: ||OK||
+JetBrains.dotMemory.Resources.TextResources | OkCancelWrapper_OkButton_DefaultText | EN: ||OK|| | RU: ||OK||
+JetBrains.dotMemory.Resources.TextResources | OpenInPortableDotMemory_PortableExe_Error_OKButton_Text | EN: ||OK|| | RU: ||OK||
+JetBrains.dotMemory.Resources.TextResources | ProfileConfiguration_IISExpress_ApplicationPath | EN: ||ApplicationPath:|| | RU: ||ApplicationPath:||
+JetBrains.dotMemory.Resources.TextResources | ProfilingSessionChooser_ItemTitle_Template | EN: ||#{1} {0}|| | RU: ||#{1} {0}||
+JetBrains.dotMemory.Resources.TextResources | RangeAllocations_ByCallTree_LearnMore_Link | EN: ||Analyze_Memory_Allocation|| | RU: ||Analyze_Memory_Allocation||
+JetBrains.dotMemory.Resources.TextResources | RangeAllocations_BySubsystem_LearnMore_Link | EN: ||Analyze_Memory_Allocation|| | RU: ||Analyze_Memory_Allocation||
+JetBrains.dotMemory.Resources.TextResources | RangeAllocations_UsageTip_Link | EN: ||Analyze_Memory_Allocation|| | RU: ||Analyze_Memory_Allocation||
+JetBrains.dotMemory.Resources.TextResources | Retention_Path_ChainFormat | EN: ||{0} ->|| | RU: ||{0} ->||
+JetBrains.dotMemory.Resources.TextResources | Retention_Path_FieldInChainFormat | EN: ||.{0} ->|| | RU: ||.{0} ->||
+JetBrains.dotMemory.Resources.TextResources | RetentionPath_Roots_Postfix | EN: ||}|| | RU: ||}||
+JetBrains.dotMemory.Resources.TextResources | RetentionPath_ViaArrayIndex | EN: || at || | RU: ||,||
+JetBrains.dotMemory.Resources.TextResources | RetentionPath_ViaField | EN: ||.|| | RU: ||.||
+JetBrains.dotMemory.Resources.TextResources | RetentionPath_ViaField_Template | EN: ||{0}.{1}|| | RU: ||{0}.{1}||
+JetBrains.dotMemory.Resources.TextResources | SparseArrays_LearnMoreLink | EN: ||Inspections#sparse_arrays|| | RU: ||Inspections#sparse_arrays||
+JetBrains.dotMemory.Resources.TextResources | TimelineInspection_IssueAt | EN: ||at|| | RU: ||,||
+JetBrains.dotMemory.Resources.TextResources | TopTypes_Other | EN: ||Other|| | RU: ||Java EE||
+JetBrains.dotMemory.Resources.TextResources | UnreachableObjects_LearnMore_Link | EN: ||Unreachable_Objects|| | RU: ||Unreachable_Objects||
+JetBrains.dotMemory.Resources.TextResources | VsFacade_DefaultTitle | EN: ||Visual Studio|| | RU: ||Visual Studio||
+JetBrains.dotMemory.Resources.TextResources | VsFacade_Title_Format | EN: ||{0} - Visual Studio|| | RU: ||{0} - Visual Studio||
+JetBrains.dotMemory.Resources.TextResources | WorkspaceFileName_IIS | EN: ||IIS|| | RU: ||IIS||
+JetBrains.dotMemory.Resources.TextResources | WorkspaceFileName_IIS_Express | EN: ||IIS Express|| | RU: ||IIS Express||
+JetBrains.dotMemory.Resources.TextResources | WpfBinding_LearnMoreLink | EN: ||Inspections#wpf_binding_leak|| | RU: ||Inspections#wpf_binding_leak||
+JetBrains.dotMemory.Resources.TextResources | WpfCollectionBinding_LearnMoreLink | EN: ||Inspections#wpf_collection_binding_leak|| | RU: ||Inspections#wpf_collection_binding_leak||
+JetBrains.dotMemory.Resources.TextResources | XNameWpf_Column_XName | EN: ||x:Name|| | RU: ||x:Name||
+JetBrains.dotMemory.Resources.TextResources | XNameWpf_LearnMoreLink | EN: ||Inspections#xname|| | RU: ||Inspections#xname||
+JetBrains.dotMemory.Resources.TextResources | ZipFiles_FileFilter_Extension | EN: ||.zip|| | RU: ||.zip||
+JetBrains.DotTrace.DataStructures.Resources.Strings | AsyncSupportSettingDescription | EN: ||AsyncSupport|| | RU: ||AsyncSupport||
+JetBrains.DotTrace.DataStructures.Resources.Strings | AutoShowSystemMethodsSettingDescription | EN: ||AutoShowSystemMethods|| | RU: ||AutoShowSystemMethods||
+JetBrains.DotTrace.DataStructures.Resources.Strings | CallTreePresentationSettingsSettingDescription | EN: ||CallTreePresentationSettings|| | RU: ||CallTreePresentationSettings||
+JetBrains.DotTrace.DataStructures.Resources.Strings | FollowSelectionSettingDescription | EN: ||FollowSelection|| | RU: ||FollowSelection||
+JetBrains.DotTrace.DataStructures.Resources.Strings | MergeMissedCallstackTypesSettingDescription | EN: ||MergeMissedCallstackTypes|| | RU: ||MergeMissedCallstackTypes||
+JetBrains.DotTrace.DataStructures.Resources.Strings | OpenSaveDialogSettingsSettingDescription | EN: ||OpenSaveDialogSettings|| | RU: ||OpenSaveDialogSettings||
+JetBrains.DotTrace.DataStructures.Resources.Strings | PlainListPresentationSettingsSettingDescription | EN: ||PlainListPresentationSettings|| | RU: ||PlainListPresentationSettings||
+JetBrains.DotTrace.DataStructures.Resources.Strings | SaveDirectorySettingDescription | EN: ||SaveDirectory|| | RU: ||SaveDirectory||
+JetBrains.DotTrace.DataStructures.Resources.Strings | SearchAutoHideSettingDescription | EN: ||SearchAutoHide|| | RU: ||SearchAutoHide||
+JetBrains.DotTrace.DataStructures.Resources.Strings | ShowOtherSubsystemsWhenFilterAppliedSettingDescription | EN: ||ShowOtherSubsystemsWhenFilterApplied|| | RU: ||ShowOtherSubsystemsWhenFilterApplied||
+JetBrains.DotTrace.DataStructures.Resources.Strings | ShowSystemFunctionsSettingDescription | EN: ||ShowSystemFunctions|| | RU: ||ShowSystemFunctions||
+JetBrains.DotTrace.DataStructures.Resources.Strings | ShowUnresolvedCallFramesSettingDescription | EN: ||ShowUnresolvedCallFrames|| | RU: ||ShowUnresolvedCallFrames||
+JetBrains.DotTrace.DataStructures.Resources.Strings | SortByTotalSettingDescription | EN: ||SortByTotal|| | RU: ||SortByTotal||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Comparison_ComparisonItemPrefix | EN: ||{0}-{1}|| | RU: ||{0}-{1}||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Comparison_FirstSnapshotPrefix | EN: ||A|| | RU: ||A||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Comparison_SecondSnapshotPrefix | EN: ||B|| | RU: ||B||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Comparison_SnapshotPrefix | EN: ||{0}: || | RU: ||{0}: ||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | FailedToOpenSnapshot_DownloadDotTrace241_LinkUri | EN: ||https://www.jetbrains.com/profiler/download/other.html|| | RU: ||https://www.jetbrains.com/ru-RU/profiler/download/other.html||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | FailedToOpenSnapshot_SnapshotNewerThanViewer_LinkUri | EN: ||https://www.jetbrains.com/profiler/download/#section=web-installer|| | RU: ||https://www.jetbrains.com/ru-RU/profiler/download/#section=web-installer||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Filters_Enum_MultipleSelected | EN: ||{0} {1}|| | RU: ||{0} {1}||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Filters_HttpRequestUrl_Name | EN: ||URL|| | RU: ||URL||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Filters_HttpRequestUrl_Name_Plural | EN: ||URLs|| | RU: ||URL||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Filters_NativeAllocationIsClosed_Name | EN: ||IsClosed|| | RU: ||IsClosed||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Filters_Threads_IDColumn | EN: ||ID|| | RU: ||ID||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | KnownEventTypes_Contention_ShortName | EN: ||Contentions|| | RU: ||Contention||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | KnownEventTypes_HttpRequest_ShortName | EN: ||HTTP|| | RU: ||HTTP||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | KnownEventTypes_Jitting_ShortName | EN: ||JIT|| | RU: ||JIT||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | KnownEventTypes_SqlCommand_ShortName | EN: ||SQL|| | RU: ||SQL||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Mono | EN: ||Mono|| | RU: ||Mono||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | NetOrNetCore | EN: ||.NET / .NET Core|| | RU: ||.NET/.NET Core||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Processing_Issues_Header | EN: ||{0} {1}|| | RU: ||{0} {1}||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | ThreadPresentation_Name_Tooltip | EN: ||{0} (#{1})|| | RU: ||{0} (#{1})||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_a | EN: ||a|| | RU: ||a||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_E | EN: ||E|| | RU: ||E||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_f | EN: ||f|| | RU: ||f||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_G | EN: ||G|| | RU: ||G||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_k | EN: ||k|| | RU: ||k||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_m | EN: ||m|| | RU: ||m||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_Mega | EN: ||M|| | RU: ||M||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_n | EN: ||n|| | RU: ||n||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_p | EN: ||p|| | RU: ||p||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_Peta | EN: ||P|| | RU: ||P||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_T | EN: ||T|| | RU: ||T||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_u | EN: ||u|| | RU: ||u||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_y | EN: ||y|| | RU: ||y||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_Yotta | EN: ||Y|| | RU: ||Y||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_z | EN: ||z|| | RU: ||z||
+JetBrains.DotTrace.DataStructures.Resources.UIResources | Unit_SI_Zetta | EN: ||Z|| | RU: ||Z||
+JetBrains.DotTrace.Features.Resources.Strings | IdSettingDescription | EN: ||Id|| | RU: ||ID||
+JetBrains.dotTrace.Home.Presentation.Resources.Strings | AllowBackgroundLoadPdbSettingDescription | EN: ||AllowBackgroundLoadPdb|| | RU: ||AllowBackgroundLoadPdb||
+JetBrains.dotTrace.Home.Presentation.Resources.Strings | DownloadSymbolFilesSettingDescription | EN: ||DownloadSymbolFiles|| | RU: ||DownloadSymbolFiles||
+JetBrains.dotTrace.Home.Presentation.Resources.Strings | EntryPoint_Unity_Footer_Header | EN: ||Unity|| | RU: ||Unity||
+JetBrains.dotTrace.Home.Presentation.Resources.Strings | EntryPoint_Unreal_Footer_Header | EN: ||Unreal Engine|| | RU: ||Unreal Engine||
+JetBrains.dotTrace.Home.Presentation.Resources.Strings | UseStackWalkSyncOnWindowsSettingDescription | EN: ||UseStackWalkSyncOnWindows|| | RU: ||UseStackWalkSyncOnWindows||
+JetBrains.DotTrace.ViewModel.Resources.Strings | UndoRedoSplitter | EN: ||:|| | RU: ||:||
+JetBrains.dotTrace.VS.Resources.Strings | DotInstantActivateNodeActionText | EN: ||DotInstantActivateNode|| | RU: ||DotInstantActivateNode||
+JetBrains.dotTrace.VS.Resources.Strings | DotInstantOptionPageTitle | EN: ||dotInstant|| | RU: ||dotInstant||
+JetBrains.dotTrace.VS.Resources.Strings | DotTraceVSDebugActionActionText | EN: ||DotTraceVSDebugAction|| | RU: ||DotTraceVSDebugAction||
+JetBrains.DPA.Monitoring.Avalonia.Resources.Strings | EnvironmentSeparator | EN: || = || | RU: || = ||
+JetBrains.IDE.Resources.Strings | Browse_FilePath_Button_Text | EN: ||…|| | RU: ||...||
+JetBrains.IDE.Resources.Strings | No_Text | EN: ||No|| | RU: ||0||
+JetBrains.IDE.Resources.Strings | OK_Button_Text | EN: ||OK|| | RU: ||OK||
+JetBrains.Platform.VisualStudio.Backend.Resources.Strings | _VisualStudio_Text | EN: ||_Visual Studio|| | RU: ||_Visual Studio||
+JetBrains.Platform.VisualStudio.Backend.Resources.Strings | Intelli_JIDEA_Text | EN: ||Intelli_J IDEA|| | RU: ||IntelliJ IDEA(_J)||
+JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings | _Text | EN: ||+|| | RU: ||+||
+JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings | InternalTreasury_Text | EN: ||Internal Treasury|| | RU: ||Internal Treasury||
+JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings | Shift_Text | EN: ||Shift|| | RU: ||Shift||
+JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings | Tab_Text | EN: ||Tab|| | RU: ||Tab||
+JetBrains.Profiler.Home.Presentation.Resources.Strings | UrlSettingDescription | EN: ||URL|| | RU: ||URL||
+JetBrains.Profiler.InternalLauncher.Resources.Strings | AlwaysOnTopSettingDescription | EN: ||AlwaysOnTop|| | RU: ||AlwaysOnTop||
+JetBrains.Profiler.InternalLauncher.Resources.Strings | ControllerRectSettingDescription | EN: ||ControllerRect|| | RU: ||ControllerRect||
+JetBrains.Profiler.InternalLauncher.Resources.Strings | ControllerUiSettingsSettingDescription | EN: ||ControllerUiSettings|| | RU: ||ControllerUiSettings||
+JetBrains.Profiler.InternalLauncher.Resources.Strings | DiagramPartKeptOpenSettingDescription | EN: ||DiagramPartKeptOpen|| | RU: ||DiagramPartKeptOpen||
+JetBrains.Profiler.Resources.UITexts | AnyDotNetWarningHeader | EN: ||.NET 6.0+|| | RU: ||.NET 6.0+||
+JetBrains.Profiler.Resources.UITexts | ApplicationKind_IISExpress | EN: ||IIS Express|| | RU: ||IIS Express||
+JetBrains.Profiler.Resources.UITexts | ApplicationKind_Mono | EN: ||Mono|| | RU: ||Mono||
+JetBrains.Profiler.Resources.UITexts | ApplicationKind_NetCore | EN: ||.NET Core|| | RU: ||.NET Core||
+JetBrains.Profiler.Resources.UITexts | ApplicationKind_Unity | EN: ||Unity|| | RU: ||Unity||
+JetBrains.Profiler.Resources.UITexts | Argument_PresentableName_IIS | EN: ||IIS|| | RU: ||IIS||
+JetBrains.Profiler.Resources.UITexts | Argument_PresentableName_Silverlight | EN: ||Silverlight|| | RU: ||Silverlight||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_IIS_Name | EN: ||IIS|| | RU: ||IIS||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_IISExpress_Name | EN: ||IIS Express|| | RU: ||IIS Express||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_Maui_Name | EN: ||MAUI|| | RU: ||MAUI||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_Mono_Name | EN: ||Mono|| | RU: ||Mono||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_Unity_Name | EN: ||Unity|| | RU: ||Unity||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_Unreal_Name | EN: ||Unreal Engine|| | RU: ||Unreal Engine||
+JetBrains.Profiler.Resources.UITexts | NewRunCfg_AppType_WinRT_Name | EN: ||WinRT|| | RU: ||WinRT||
+JetBrains.Profiler.Resources.UITexts | ProcessTable_Column_Pid | EN: ||PID|| | RU: ||PID||
+JetBrains.Profiler.Resources.UITexts | RunBrowser_Url | EN: ||URL|| | RU: ||URL||
+JetBrains.Profiler.Resources.UITexts | RuntimeType_CLR | EN: ||CLR|| | RU: ||CLR||
+JetBrains.Profiler.Resources.UITexts | RuntimeType_CoreCLR | EN: ||CoreCLR|| | RU: ||CoreCLR||
+JetBrains.Profiler.Resources.UITexts | RuntimeType_Mono | EN: ||Mono|| | RU: ||Mono||
+JetBrains.Profiler.Resources.UITexts | RuntimeType_Silverlight | EN: ||Silverlight|| | RU: ||Silverlight||
+JetBrains.ProjectModel.ProjectsHost.Resources.Strings | DotnetWorkloadInstall__Text | EN: ||dotnet workload install {0}|| | RU: ||dotnet workload install {0}||
+JetBrains.ProjectModel.ProjectsHost.Resources.Strings | Error_Presentation_Text | EN: ||{0} at ({1}:{2})|| | RU: ||{0}, ({1}:{2})||
+JetBrains.ProjectModel.ProjectsHost.Resources.Strings | NHintPath__Text | EN: ||
+HintPath: {0}|| | RU: ||
+HintPath: {0}||
+JetBrains.ProjectModel.ProjectsHost.Resources.Strings | SudoDotnetWorkloadInstall__Text | EN: ||sudo dotnet workload install {0}|| | RU: ||sudo dotnet workload install {0}||
+JetBrains.ProjectModel.Resources.Strings | ___Text | EN: ||{0} ({1})|| | RU: ||{0} ({1})||
+JetBrains.ProjectModel.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ProjectModel.Resources.Strings | IncludePrereleaseSettingDescription | EN: ||IncludePrerelease|| | RU: ||IncludePrerelease||
+JetBrains.ProjectModel.Resources.Strings | MsBuild_Text | EN: ||MsBuild|| | RU: ||MsBuild||
+JetBrains.ProjectModel.Resources.Strings | NuGet_Text | EN: ||NuGet|| | RU: ||NuGet||
+JetBrains.ProjectModel.Resources.Strings | NuGetHome | EN: ||NuGetHome|| | RU: ||NuGet Home||
+JetBrains.ProjectModel.Resources.Strings | NuGetSettingDescription | EN: ||NuGet|| | RU: ||NuGet||
+JetBrains.ProjectModel.Resources.Strings | ReSharperBuild__Text | EN: ||ReSharper Build – {0}|| | RU: ||ReSharper Build – {0}||
+JetBrains.ProjectModel.Resources.Strings | Temp | EN: ||Temp|| | RU: ||Temp||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | _GenerationItem_Progress_TooltipText | EN: ||{0} {1}%|| | RU: ||{0} {1}%||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Editors_Sequential_Label_Text | EN: ||Then By|| | RU: ||Then By||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_Abstract_Text | EN: ||Abstract|| | RU: ||abstract||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_And_Text | EN: ||And|| | RU: ||And||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_Extern_Text | EN: ||Extern|| | RU: ||Extern||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_Or_Text | EN: ||Or|| | RU: ||Or||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_Sealed_Text | EN: ||Sealed|| | RU: ||sealed||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_Elements_Static_Text | EN: ||Static|| | RU: ||static||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | FileLayoutDesigner_XAML_Text | EN: ||XAML|| | RU: ||XAML||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | Id_Header | EN: ||Id|| | RU: ||ID||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | OK_ButtonText | EN: ||OK|| | RU: ||OK||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | PDB_Plural | EN: ||{0} {0:choice:one#PDB|other#PDBs}|| | RU: ||{0} {0:choice:one#PDB|other#PDB}||
+JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings | TodoItemPatternWindow_Url_Label | EN: ||URL:|| | RU: ||URL:||
+JetBrains.PsiFeatures.UIInteractive.SolutionAnalysis.Resources.Strings | ___Text | EN: || ({0} {1})|| | RU: || ({0} {1})||
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings | _ReSharper_Text | EN: ||_ReSharper|| | RU: ||ReSharper (_R)||
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings | _Text | EN: ||…|| | RU: ||...||
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings | _VisualStudio_Text | EN: ||_Visual Studio|| | RU: ||_Visual Studio||
+JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings | VisualStudio_Text | EN: ||Visual Studio|| | RU: ||Visual Studio||
+JetBrains.PsiFeatures.VisualStudio.Debugger.Resources.Strings | OK_Link_Text | EN: ||OK|| | RU: ||OK||
+JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings | PredictiveDebugger_Text | EN: ||Predictive Debugger|| | RU: ||Predictive Debugger||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | CqrsDebug | EN: ||CqrsDebug|| | RU: ||CqrsDebug||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | Nullable_Text | EN: ||nullable|| | RU: ||Nullable||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | Params_Text | EN: ||'params'|| | RU: ||'params'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | Preview_Text | EN: ||'preview'|| | RU: ||'preview'||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | Struct_Text | EN: ||struct|| | RU: ||struct||
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ValueType_Text | EN: ||ValueType|| | RU: ||ValueType||
+JetBrains.ReSharper.Daemon.Protobuf.Resources.Strings | Message | EN: ||{0}|| | RU: ||{0}||
+JetBrains.ReSharper.Daemon.Resources.Strings | Default_ToolTipFormatString_Text | EN: ||{0}|| | RU: || {0} ||
+JetBrains.ReSharper.Daemon.Resources.Strings10 | Message | EN: ||{0}|| | RU: || {0} ||
+JetBrains.ReSharper.Daemon.Resources.Strings10 | MVCConfigurableSeverityCompoundItemName | EN: ||MVC|| | RU: ||MVC||
+JetBrains.ReSharper.Daemon.Resources.Strings3 | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Daemon.Resources.Strings3 | EntityFrameworkSettingsPageName | EN: ||Entity Framework|| | RU: ||Entity Framework||
+JetBrains.ReSharper.Daemon.Resx.Resources.Strings | Message | EN: ||{0}|| | RU: ||{0}||
+JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings | ConfigurableIssue_Presentation___Text | EN: ||{0}: {1}|| | RU: ||{0}: {1}||
+JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings | Message | EN: ||{0}|| | RU: ||{0}||
+JetBrains.ReSharper.Daemon.VB.Resources.LocalizedStrings | Message2 | EN: ||{0}: {1}|| | RU: ||{0}: {1}||
+JetBrains.ReSharper.Daemon.Xaml.Resources.Strings | Message | EN: ||{0}|| | RU: || {0} ||
+JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings | DDL_Text | EN: ||DDL|| | RU: ||DDL||
+JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings | FROM_Text | EN: ||FROM|| | RU: ||FROM||
+JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings | JOIN_Text | EN: ||JOIN|| | RU: ||JOIN||
+JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings | No_Text | EN: ||No|| | RU: ||0||
+JetBrains.ReSharper.ExternalServices.Grazie.Resources.GrammarAndSpellingStrings | GrazieGplLicenseNoticePostfix | EN: ||:|| | RU: ||:||
+JetBrains.ReSharper.ExternalSources.Resources.Strings | AssemblyVersion__Text | EN: || ({0})|| | RU: || ({0})||
+JetBrains.ReSharper.ExternalSources.Resources.Strings | ILViewerCodeTypeILText | EN: ||IL|| | RU: ||IL||
+JetBrains.ReSharper.ExternalSources.Resources.Strings | NuGetPackagesConfig_Text | EN: ||NuGet packages.config|| | RU: ||NuGet packages.config||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | COptionPageTitle | EN: ||C#|| | RU: ||C#||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | CSettingDescription | EN: ||C#|| | RU: ||C#||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | GenerateOption_No_Text | EN: ||No|| | RU: ||0||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | PatternMatchingC70_Text | EN: ||Pattern matching (C# 7.0+)|| | RU: ||>||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | ThrowExpressionC70_Text | EN: ||Throw expression (C# 7.0+)|| | RU: ||>||
+JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings | ThrowIfNull_Text | EN: ||ThrowIfNull() API (.NET 6+)|| | RU: ||API ThrowIfNull() (.NET 6+)||
+JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings | ProtobufOptionPageTitle | EN: ||Protobuf|| | RU: ||Protobuf||
+JetBrains.ReSharper.Feature.Services.Protobuf.Resources.Strings | ProtobufSettingDescription | EN: ||Protobuf|| | RU: ||Protobuf||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | __Of__Text | EN: ||{0} {1} of '{2}'|| | RU: ||{0} {1} '{2}'||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | BasedOnStyle_Text | EN: ||BasedOnStyle: || | RU: ||BasedOnStyle:||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | CalculatingNodePresentation | EN: ||{0} {1}|| | RU: ||{0} {1}||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | EntityFramework_Text | EN: ||Entity Framework|| | RU: ||Entity Framework||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | EvaluatesToTheSpecifiedConstantValueMacroDefinition_Description | EN: ||{#0:Constant value}|| | RU: ||{#0:Constant value}||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | NETCore_Text | EN: ||.NET Core|| | RU: ||.NET Core||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | Number__Text | EN: ||#{0}|| | RU: ||#{0}||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | NUnit_Text | EN: ||NUnit|| | RU: ||NUnit||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | PushToHint_Indicator_ConfigureDefaultVisibility_PushToHint | EN: ||Push-to-Hint|| | RU: ||Push-to-Hint||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | ReSharper_Text | EN: ||ReSharper|| | RU: ||ReSharper||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | Scope_Intention_Text | EN: ||{0} {1}|| | RU: ||{0} {1}||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | SearchUrl | EN: ||URL:|| | RU: ||URL:||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | SqlSettingsKeyDescription | EN: ||SQL / NoSQL|| | RU: ||SQL / NoSQL||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | Tab_Key_In_Formatting_Text | EN: ||Tab|| | RU: ||Tab||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | UnrealEngine_Text | EN: ||Unreal Engine|| | RU: ||Unreal Engine||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | UnrealHeaderTool_Text | EN: ||UnrealHeaderTool|| | RU: ||UnrealHeaderTool||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | VisualStudio_Text | EN: ||Visual Studio|| | RU: ||Visual Studio||
+JetBrains.ReSharper.Feature.Services.Resources.Strings | Xunit_Text | EN: ||Xunit|| | RU: ||Xunit||
+JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings | GenerateOption_No_Text | EN: ||No|| | RU: ||0||
+JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings | VBNETSettingDescription | EN: ||VB.NET|| | RU: ||VB.NET||
+JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings | VisualBasicOptionPageTitle | EN: ||Visual Basic|| | RU: ||Visual Basic||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | ASPNETOptionPageTitle | EN: ||ASP.NET|| | RU: ||ASP.NET||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | CSSOptionPageTitle | EN: ||CSS|| | RU: ||CSS||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | CSSSettingDescription | EN: ||CSS|| | RU: ||CSS||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | HTMLOptionPageTitle | EN: ||HTML|| | RU: ||HTML||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | HTMLSettingDescription | EN: ||HTML|| | RU: ||HTML||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | JavaScriptOptionPageTitle | EN: ||JavaScript|| | RU: ||JavaScript||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | JavaScriptSettingDescription | EN: ||JavaScript|| | RU: ||JavaScript||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | JSONOptionPageTitle | EN: ||JSON|| | RU: ||JSON||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | JSONSettingDescription | EN: ||JSON|| | RU: ||JSON||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | NodeJs_Header_Text | EN: ||Node.js|| | RU: ||Node.js||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | NodeJsOptionPageTitle | EN: ||Node.js|| | RU: ||Node.js||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | RazorOptionPageTitle | EN: ||Razor|| | RU: ||Razor||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | TypeScriptOptionPageTitle | EN: ||TypeScript|| | RU: ||TypeScript||
+JetBrains.ReSharper.Feature.Services.Web.Resources.Strings | TypeScriptSettingDescription | EN: ||TypeScript|| | RU: ||TypeScript||
+JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings | DataContext_Header_Text | EN: ||DataContext|| | RU: ||DataContext||
+JetBrains.ReSharper.Feature.Services.Xaml.Resources.Strings | XAMLOptionPageTitle | EN: ||XAML|| | RU: ||XAML||
+JetBrains.ReSharper.Feature.Services.Xml.Resources.Strings | XMLOptionPageTitle | EN: ||XML|| | RU: ||XML||
+JetBrains.ReSharper.Features.Diagramming.Resources.Strings | GroupingIdSettingDescription | EN: ||GroupingId|| | RU: ||GroupingId||
+JetBrains.ReSharper.Features.Environment.Resources.Strings | IntelliJIDEA_Option_Text | EN: ||IntelliJ IDEA|| | RU: ||IntelliJ IDEA||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | C_Header_Text | EN: ||C#|| | RU: ||C#||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | COptionPageTitle | EN: ||C#|| | RU: ||C#||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | CSettingDescription | EN: ||C#|| | RU: ||C#||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | IntelliSenseOptionPageTitle | EN: ||IntelliSense|| | RU: ||IntelliSense||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | InternalSettingDescription | EN: ||Internal|| | RU: ||internal||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | MSBuildSettingDescription | EN: ||MSBuild|| | RU: ||MSBuild||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | PrivateSettingDescription | EN: ||Private|| | RU: ||private||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | ProtectedSettingDescription | EN: ||Protected|| | RU: ||protected||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | PublicSettingDescription | EN: ||Public|| | RU: ||public||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | VBOptionPageTitle | EN: ||VB|| | RU: ||VB||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | VisualBasicNET_Header_Text | EN: ||Visual Basic|| | RU: ||Visual Basic||
+JetBrains.ReSharper.Features.Intellisense.Resources.Strings | XAMLSettingDescription | EN: ||XAML|| | RU: ||XAML||
+JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings | InternalSettingDescription | EN: ||Internal|| | RU: ||internal||
+JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings | PrivateSettingDescription | EN: ||Private|| | RU: ||private||
+JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings | ProtectedSettingDescription | EN: ||Protected|| | RU: ||protected||
+JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings | PublicSettingDescription | EN: ||Public|| | RU: ||public||
+JetBrains.ReSharper.Features.Intellisense.VB.Resources.LocalizedStrings | VBNETSettingDescription | EN: ||VB.NET|| | RU: ||VB.NET||
+JetBrains.ReSharper.Features.Internal.Resources.Strings | CodeBehind_Text | EN: ||Code Behind|| | RU: ||Code-Behind||
+JetBrains.ReSharper.Features.Internal.Resources.Strings | PsiActionGroupText | EN: ||PSI|| | RU: ||PSI||
+JetBrains.ReSharper.Features.Navigation.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Features.Navigation.Resources.Strings | FindResultEnableBreakpointActionText | EN: ||FindResult.EnableBreakpoint|| | RU: ||FindResult.EnableBreakpoint||
+JetBrains.ReSharper.Features.Navigation.Resources.Strings | FindResultToggleBreakpointActionText | EN: ||FindResult.ToggleBreakpoint|| | RU: ||FindResult.ToggleBreakpoint||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | Internal_BoolOption_Text | EN: ||Internal|| | RU: ||internal||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | Private_BoolOption_Text | EN: ||Private|| | RU: ||private||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | Protected_BoolOption_Text | EN: ||Protected|| | RU: ||protected||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | ProtectedInternal_BoolOption_Text | EN: ||Protected internal|| | RU: ||protected internal||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | Public_BoolOption_Text | EN: ||Public|| | RU: ||public||
+JetBrains.ReSharper.Features.ReSpeller.Resources.Strings | ReSpellerOptionPageTitle | EN: ||ReSpeller|| | RU: ||ReSpeller||
+JetBrains.ReSharper.Features.Web.Linters.Resources.Strings | ESLintOptionPageTitle | EN: ||ESLint|| | RU: ||ESLint||
+JetBrains.ReSharper.Features.Web.Linters.Resources.Strings | JSLintOptionPageTitle | EN: ||JSLint|| | RU: ||JSLint||
+JetBrains.ReSharper.Features.Web.Linters.Resources.Strings | TSLintOptionPageTitle | EN: ||TSLint|| | RU: ||TSLint||
+JetBrains.ReSharper.Features.Web.Resources.Strings | ASPNET_Caption | EN: ||ASP.NET|| | RU: ||ASP.NET||
+JetBrains.ReSharper.Features.Web.Resources.Strings | ASPNETOptionPageTitle | EN: ||ASP.NET|| | RU: ||ASP.NET||
+JetBrains.ReSharper.Features.Web.Resources.Strings | ASPNETSettingDescription | EN: ||ASP.NET|| | RU: ||ASP.NET||
+JetBrains.ReSharper.Features.Web.Resources.Strings | CSSSettingDescription | EN: ||CSS|| | RU: ||CSS||
+JetBrains.ReSharper.Features.Web.Resources.Strings | HtmlOptionPageTitle | EN: ||Html|| | RU: ||Html||
+JetBrains.ReSharper.Features.Web.Resources.Strings | HtmlSettingDescription | EN: ||Html|| | RU: ||Html||
+JetBrains.ReSharper.Features.Web.Resources.Strings | JavaScriptSettingDescription | EN: ||JavaScript|| | RU: ||JavaScript||
+JetBrains.ReSharper.Features.Web.Resources.Strings | PrivateSettingDescription | EN: ||Private|| | RU: ||private||
+JetBrains.ReSharper.Features.Web.Resources.Strings | ProtectedSettingDescription | EN: ||Protected|| | RU: ||protected||
+JetBrains.ReSharper.Features.Web.Resources.Strings | PublicSettingDescription | EN: ||Public|| | RU: ||public||
+JetBrains.ReSharper.Features.Web.Resources.Strings | Razor_Caption | EN: ||Razor|| | RU: ||Razor||
+JetBrains.ReSharper.Features.Web.Resources.Strings | RazorOptionPageTitle | EN: ||Razor|| | RU: ||Razor||
+JetBrains.ReSharper.Features.Web.Resources.Strings | RazorSettingDescription | EN: ||Razor|| | RU: ||Razor||
+JetBrains.ReSharper.Features.Web.Resources.Strings | Template_Editable_QVNQLk5FVCBNVkMgSHRtbC5BY3Rpb25MaW5r | EN: ||ASP.NET MVC Html.ActionLink|| | RU: ||ASP.NET MVC Html.ActionLink||
+JetBrains.ReSharper.Features.Web.Resources.Strings | Template_Editable_QVNQLk5FVCBNVkMgVXJsLkFjdGlvbgEQEQ | EN: ||ASP.NET MVC Url.Action|| | RU: ||ASP.NET MVC Url.Action||
+JetBrains.ReSharper.Features.Web.Resources.Strings | TypeScriptSettingDescription | EN: ||TypeScript|| | RU: ||TypeScript||
+JetBrains.ReSharper.I18n.Services.Resources.Strings | _U2022_Text | EN: ||{0}  ++•++  {1}|| | RU: ||{0}  ++•++  {1}||
+JetBrains.ReSharper.Intentions.CSharp.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.ReSharper.Intentions.CSharp.Resources.Strings | Of___Text | EN: ||of '{0}' {1}|| | RU: ||/ '{0}' {1}||
+JetBrains.ReSharper.Intentions.Resources.Strings | AltEnterActionText | EN: ||Alt Enter|| | RU: ||Alt+Enter||
+JetBrains.ReSharper.Intentions.Web.Resources.Strings | Typescriptify_Text | EN: ||Typescriptify|| | RU: ||Typescriptify||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_cHVibGljIGNvbnN0IGludAEQEQ | EN: ||public const int|| | RU: ||public const int||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_cHVibGljIGNvbnN0IHN0cmluZwEQEQ | EN: ||public const string|| | RU: ||public const string||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_cHVibGljIHN0YXRpYyByZWFkb25seQEQEQ | EN: ||public static readonly|| | RU: ||public static readonly||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_dHJ5IGNhdGNo | EN: ||try catch|| | RU: ||try catch||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_dHJ5IGZpbmFsbHkEQ | EN: ||try finally|| | RU: ||try finally||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_e30EQ | EN: ||{}|| | RU: ||{}||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_KCkEQ | EN: ||()|| | RU: ||()||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_Q1R5cGUEQ | EN: ||CType|| | RU: ||CType||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_Q29uc29sZS5Xcml0ZUxpbmUEQ | EN: ||Console.WriteLine|| | RU: ||Console.WriteLine||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_RGlyZWN0Q2FzdAEQEQ | EN: ||DirectCast|| | RU: ||DirectCast||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_SWYEQ | EN: ||If|| | RU: ||If||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_SWYuLkVsc2UEQ | EN: ||If..Else|| | RU: ||If..Else||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_TWVzc2FnZUJveC5TaG93 | EN: ||MessageBox.Show|| | RU: ||MessageBox.Show||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_U3luY0xvY2sEQ | EN: ||SyncLock|| | RU: ||SyncLock||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_UHVibGljIFNoYXJlZCBTdWIgTWFpbgEQEQ | EN: ||Public Shared Sub Main|| | RU: ||Public Shared Sub Main||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_VHJ5Q2FzdAEQEQ | EN: ||TryCast|| | RU: ||TryCast||
+JetBrains.ReSharper.LiveTemplates.Resources.Strings | Template_Editable_VXNpbmcEQ | EN: ||Using|| | RU: ||Using||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | InputActionsProjectFileType_InputActionsProjectFileType_InputActions__Unity_ | EN: ||InputActions (Unity)|| | RU: ||InputActions (Unity)||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Message | EN: ||{0}|| | RU: ||{0}||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_RE9UUwEQEQ | EN: ||DOTS|| | RU: ||DOTS||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_SUFzcGVjdAEQEQ | EN: ||IAspect|| | RU: ||IAspect||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_SUNvbXBvbmVudERhdGEEQ | EN: ||IComponentData|| | RU: ||IComponentData||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_SUpvYkVudGl0eQEQEQ | EN: ||IJobEntity|| | RU: ||IJobEntity||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_SVN5c3RlbQEQEQ | EN: ||ISystem|| | RU: ||ISystem||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_TW9ubyBCZWhhdmlvdXIEQ | EN: ||Mono Behaviour|| | RU: ||Mono Behaviour||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_U2NyaXB0YWJsZSBPYmplY3QEQ | EN: ||Scriptable Object|| | RU: ||Scriptable Object||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_U2NyaXB0YWJsZSBXaXphcmQEQ | EN: ||Scriptable Wizard|| | RU: ||Scriptable Wizard||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_U3lzdGVtQmFzZQEQEQ | EN: ||SystemBase|| | RU: ||SystemBase||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | Template_Editable_U3RhdGUgTWFjaGluZSBCZWhhdmlvdXIEQ | EN: ||State Machine Behaviour|| | RU: ||State Machine Behaviour||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | TypeDetector_AddDeclarationHighlighting_DOTS | EN: ||DOTS|| | RU: ||DOTS||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | TypeDetector_AddDeclarationHighlighting_Scriptable_object | EN: ||Scriptable object|| | RU: ||Scriptable Object||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | TypeDetector_AddDeclarationHighlighting_Unity_scriptable_object | EN: ||Unity scriptable object|| | RU: ||Scriptable Object Unity||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnityBurst_Text | EN: ||Unity Burst|| | RU: ||Unity Burst||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnityDots_GenerateBakerAndAuthoring_Baker | EN: ||Baker|| | RU: ||Baker||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnityDots_GenerateBakerAndAuthoring_Unity_Component_Fields_WindowTitle | EN: ||Baker|| | RU: ||Baker||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnityDots_GenerateBakerAndComponent_ComponentData | EN: ||ComponentData|| | RU: ||ComponentData||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnityDots_GenerateBakerAndComponent_Unity_MonoBehaviour_Fields_WindowTitle | EN: ||ComponentData|| | RU: ||ComponentData||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UnitySettings_Dots_Header | EN: ||DOTS|| | RU: ||DOTS||
+JetBrains.ReSharper.Plugins.Unity.Resources.Strings | UxmlUnity_Text | EN: ||Uxml (Unity)|| | RU: ||Uxml (Unity)||
+JetBrains.ReSharper.Plugins.Yaml.Resources.Strings | Message | EN: ||{0}|| | RU: ||{0}||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Class_Text | EN: ||class|| | RU: ||class||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Delegate_Text | EN: ||delegate|| | RU: ||delegate||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Enum_Text | EN: ||enum|| | RU: ||enum||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Event_Text | EN: ||event|| | RU: ||event||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Interface_Text | EN: ||interface|| | RU: ||interface||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Method_Text | EN: ||method|| | RU: || Method||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Record_Text | EN: ||record|| | RU: ||record||
+JetBrains.ReSharper.Psi.CSharp.Resources.Strings | Struct_Text | EN: ||struct|| | RU: ||struct||
+JetBrains.ReSharper.Psi.Resources.Strings | CRLFWindows_Description_Text | EN: ||CR+LF (Windows)|| | RU: ||CR+LF (Windows)||
+JetBrains.ReSharper.Psi.Resources.Strings | EditorconfigGeneratedCodeSettingDescription | EN: ||.editorconfig generated_code|| | RU: ||.editorconfig generated_code||
+JetBrains.ReSharper.Psi.Resources.Strings | GuidSettingDescription | EN: ||Guid|| | RU: ||GUID||
+JetBrains.ReSharper.Psi.Resources.Strings | LFUnixMacOSX_Description_Text | EN: ||LF (Unix, Mac OS X)|| | RU: ||LF (Unix, Mac OS X)||
+JetBrains.ReSharper.Psi.Resources.Strings | OfParameterBracketsText | EN: ||(of {0})|| | RU: ||({0})||
+JetBrains.ReSharper.Psi.Resources.Strings | OfParameterText | EN: ||of {0}|| | RU: ||/ {0}||
+JetBrains.ReSharper.Psi.Resources.Strings | SettingsStyleCop_Description_Text | EN: ||Settings.StyleCop|| | RU: ||Settings.StyleCop||
+JetBrains.ReSharper.Psi.Resources.Strings1 | Angular1X_Description_Text | EN: ||Angular 1.x|| | RU: ||Angular 1.x||
+JetBrains.ReSharper.Psi.Resources.Strings1 | Angular2X_Description_Text | EN: ||Angular 2.x|| | RU: ||Angular 2.x||
+JetBrains.ReSharper.Psi.Resources.Strings12 | Id_Text | EN: ||id|| | RU: ||ID||
+JetBrains.ReSharper.Psi.Resources.Strings12 | IdSettingDescription | EN: ||Id|| | RU: ||ID||
+JetBrains.ReSharper.Psi.Resources.Strings12 | Output_Text | EN: ||<output>|| | RU: ||<output>||
+JetBrains.ReSharper.Psi.Resources.Strings12 | Reference_Text | EN: ||<reference>|| | RU: ||<reference>||
+JetBrains.ReSharper.Psi.Resources.Strings12 | UrlSettingDescription | EN: ||Url|| | RU: ||URL||
+JetBrains.ReSharper.Refactorings.CSharp.Resources.Strings | RefactorGlobalUsingsGroup_Text | EN: ||Global Usings|| | RU: ||global using||
+JetBrains.ReSharper.Refactorings.Properties.Resources | RenameInitialControl_Title | EN: ||sdf|| | RU: ||sdf||
+JetBrains.ReSharper.Refactorings.Resources.Strings | __Text | EN: || ({0})|| | RU: || ({0})||
+JetBrains.ReSharper.Refactorings.Resources.Strings | _Of__Text | EN: ||{0:N0} of {1:N0}|| | RU: ||{0:N0} / {1:N0}||
+JetBrains.ReSharper.Refactorings.Resources.Strings | In_Text | EN: ||in|| | RU: ||in||
+JetBrains.ReSharper.Refactorings.Resources.Strings | Out_Text | EN: ||out|| | RU: ||out||
+JetBrains.ReSharper.Refactorings.Resources.Strings | RefIn_Text | EN: ||ref in|| | RU: ||ref in||
+JetBrains.ReSharper.Refactorings.Resources.Strings | RefOut_Text | EN: ||ref out|| | RU: ||ref out||
+JetBrains.ReSharper.Refactorings.Resources.Strings | Return_Text | EN: ||return|| | RU: ||return||
+JetBrains.ReSharper.Refactorings.Resources.Strings | ReturnValue__Text | EN: ||{0} : {1}|| | RU: ||{0} : {1}||
+JetBrains.ReSharper.UnitTestExplorer.Resources.Strings | IntegrationTestsTargetActionText | EN: ||IntegrationTests.Target|| | RU: ||IntegrationTests.Target||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | Arm64ActionText | EN: ||ARM64|| | RU: ||ARM64||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | ArmActionText | EN: ||ARM|| | RU: ||ARM||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | Framework__Text | EN: ||Framework: {0}|| | RU: ||framework: {0}||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | NET20ActionText | EN: ||.NET2.0|| | RU: ||.NET2.0||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | NET40ActionText | EN: ||.NET4.0|| | RU: ||.NET4.0||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | NET45ActionText | EN: ||.NET4.5|| | RU: ||.NET4.5||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | NET46ActionText | EN: ||.NET4.6|| | RU: ||.NET4.6||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | NET47ActionText | EN: ||.NET4.7|| | RU: ||.NET4.7||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformType_Arm_Name | EN: ||ARM|| | RU: ||ARM||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformType_Arm64_Name | EN: ||ARM64|| | RU: ||ARM64||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformType_X64_Name | EN: ||x64|| | RU: ||x64||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformType_X86_Name | EN: ||x86|| | RU: ||x86||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net20_Name | EN: ||.NET2.0|| | RU: ||.NET2.0||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net20_ShortName | EN: ||net20|| | RU: ||net20||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net40_Name | EN: ||.NET4.0|| | RU: ||.NET4.0||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net40_ShortName | EN: ||net40|| | RU: ||net40||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net45_Name | EN: ||.NET4.5|| | RU: ||.NET4.5||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net45_ShortName | EN: ||net45|| | RU: ||net45||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net46_Name | EN: ||.NET4.6|| | RU: ||.NET4.6||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net46_ShortName | EN: ||net46|| | RU: ||net46||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net47_Name | EN: ||.NET4.7|| | RU: ||.NET4.7||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_Net47_ShortName | EN: ||net47|| | RU: ||net47||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_NetCoreApp_Name | EN: ||NETCoreApp|| | RU: ||NETCoreApp||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | PlatformVersion_NetCoreApp_ShortName | EN: ||netcoreapp|| | RU: ||netcoreapp||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | X64ActionText | EN: ||x64|| | RU: ||x64||
+JetBrains.ReSharper.UnitTestFramework.Resources.Strings | X86ActionText | EN: ||x86|| | RU: ||x86||
+JetBrains.ReSharper.UnitTesting.MSTest.Provider.Resources.Strings | MSTestOptionPageTitle | EN: ||MSTest|| | RU: ||MSTest||
+JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings | TestingPlatformOptionPageTitle | EN: ||Testing Platform|| | RU: ||Testing Platform||
+JetBrains.ReSharper.UnitTesting.VsTest.Provider.Resources.Strings | VSTestOptionPageTitle | EN: ||VSTest|| | RU: ||VSTest||
+JetBrains.ReSharper.UnitTestProvider.JavaScript.Resources.Strings | PhantomJS_SingleRadioOption_Text | EN: ||PhantomJS|| | RU: ||PhantomJS||
+JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings | NUnit2_Header_Text | EN: ||NUnit 2|| | RU: ||NUnit 2||
+JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings | NUnit3_Header_Text | EN: ||NUnit 3|| | RU: ||NUnit 3||
+JetBrains.ReSharper.UnitTestProvider.nUnit.Resources.Strings | NUnitOptionPageTitle | EN: ||NUnit|| | RU: ||NUnit||
+JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings | AssemblynameXml_Text_Text | EN: ||• {assemblyname}.xml|| | RU: ||• {assemblyname}.xml||
+JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings | AssemblynameXunitRunnerJson_Text_Text | EN: ||• {assemblyname}.xunit.runner.json|| | RU: ||• {assemblyname}.xunit.runner.json||
+JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings | XUnitNetOptionPageTitle | EN: ||xUnit.net|| | RU: ||xUnit.net||
+JetBrains.ReSharper.UnitTestProvider.Xunit.Resources.Strings | XunitRunnerJson_Text_Text | EN: ||• xunit.runner.json|| | RU: ||• xunit.runner.json||
+JetBrains.Standalone.Shell.Avalonia.Resources.Strings | WhenLastHappened_Format | EN: ||dd/MM HH:mm:ss|| | RU: ||dd/MM HH:mm:ss||
+JetBrains.UI.Resources.CommonStrings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.UI.Resources.CommonStrings | ReSharper_Text | EN: ||ReSharper|| | RU: ||ReSharper||
+JetBrains.UI.Resources.Strings | ___Text | EN: ||{0}: {1}.|| | RU: ||{0}: {1}.||
+JetBrains.UI.Resources.Strings | choice:mappings | EN: ||one:i == 1|| | RU: ||one:i == 1||
+JetBrains.UI.Resources.Strings | DefaultReporterChangedSettingDescription | EN: ||UpgradePerformed|| | RU: ||UpgradePerformed||
+JetBrains.UI.Resources.Strings | UpgradeFromExceptionReportSettingsKeySettingDescription | EN: ||UpgradeFromExceptionReportSettingsKey|| | RU: ||UpgradeFromExceptionReportSettingsKey||
+JetBrains.UI.Resources.Strings | UpgradePerformedSettingDescription | EN: ||UpgradePerformed|| | RU: ||UpgradePerformed||
+JetBrains.VsIntegration.Resources.Strings | _VisualStudio_Text | EN: ||_Visual Studio|| | RU: ||_Visual Studio||
+JetBrains.VsIntegration.Resources.Strings | ConflictingShortcutWindowOkButton | EN: ||OK|| | RU: ||OK||
+JetBrains.VsIntegration.Resources.Strings | Intelli_JIDEA_Text | EN: ||Intelli_J IDEA|| | RU: ||IntelliJ IDEA(_J)||
+JetBrains.VsIntegration.Resources.Strings | ShortcutSchemeSelectionWindowIntellijIdeaTitle | EN: ||IntelliJ IDEA|| | RU: ||IntelliJ IDEA||
+JetBrains.VsIntegration.Resources.Strings | ShortcutSchemeSelectionWindowOKButton_Text | EN: ||OK|| | RU: ||OK||
+JetBrains.VsIntegration.Resources.Strings | ShortcutSchemeSelectionWindowVisualStudioTitle | EN: ||Visual Studio|| | RU: ||Visual Studio||
+
+--- CAT-D — английская цепочка 4+ слов внутри ru (возможен неперевод) : 4 ---
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings | GoToFileNearbyActionText | EN: ||Go to File Nearby|| | RU: ||Перейти к nearby файлу (Go to File Nearby)|| || англ. цепочка: «Go to File Nearby»
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings | ReSharperForVSCodeFeatureSuggesterSettingsKeySettingDescription | EN: ||ReSharper for VS Code feature suggester settings|| | RU: ||Настройки предложения функций ReSharper for VS Code|| || англ. цепочка: «ReSharper for VS Code»
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | ForceMergeSequentialOrChecksSettingDescription | EN: ||When disabled, sequential '||' checks are only merged into an 'or' pattern if the entire '||' sequence can be converted into a single 'or' pattern.
+When enabled, sequential '||' checks are merged whenever possible, even if the result ends up looking like this: `a is constA or constB || a == nonConst`|| | RU: ||Когда отключено, последовательные проверки '||' объединяются в шаблон 'or' только если вся последовательность '||' может быть преобразована в один шаблон 'or'.
+Когда включено, последовательные проверки '||' объединяются, насколько это возможно, даже если результат в конечном итоге может выглядеть как: `a is constA or constB || a == nonConst`|| || англ. цепочка: «is constA or constB»
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings | SuggestToReplacexIsNotNotTToxIsTXIsNotTToxIsT | EN: ||Suggest to replace
+          `x is not not T` to `x is T`
+          `!(x is not T)` to `x is T`|| | RU: ||Предлагает заменить
+          `x is not not T` на `x is T`
+          `!(x is not T)` на `x is T`|| || англ. цепочка: «x is not T»
+
+--- CAT-0 — таблицы без neutral в этой установке : 65 ---
+ApiParser.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 24)
+GammaJul.ForTea.Core.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 6)
+JetBrains.CommandLine.CleanupCode.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1)
+JetBrains.DotPeek.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 162)
+JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.DotTrace.Ide.Rider.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 7)
+JetBrains.EntityFramework.Features.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 52)
+JetBrains.Fleet.Backend.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1)
+JetBrains.ForTea.RiderPlugin.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 4)
+JetBrains.LSP.Core.Features.Roslyn.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 27)
+JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 4)
+JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 244)
+JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 14)
+JetBrains.PsiFeatures.VisualStudio.SinceVs14.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+JetBrains.PsiFeatures.VisualStudio.SinceVs16RoslynAware.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+JetBrains.PsiFeatures.Web.UIInteractive.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+JetBrains.Qodana.Core.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 11)
+JetBrains.Qodana.VisualStudio.Common.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 48)
+JetBrains.RdBackend.Common.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 343)
+JetBrains.ReSharper.AI.Core.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 87)
+JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 10)
+JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 3317)
+JetBrains.ReSharper.Feature.Services.Cpp.UnitTesting.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 29)
+JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 21)
+JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 12)
+JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 60)
+JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 20)
+JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 12)
+JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 12)
+JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 4)
+JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 100)
+JetBrains.ReSharper.Plugins.FSharp.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 6)
+JetBrains.ReSharper.Plugins.Godot.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 18)
+JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 92)
+JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 68)
+JetBrains.ReSharper.Psi.Asm.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 102)
+JetBrains.ReSharper.Psi.Cpp.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 301)
+JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 3)
+JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 81)
+JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 64)
+JetBrains.Rider.Backend.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1066)
+JetBrains.Rider.Backend.WebServices.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 26)
+JetBrains.Rider.MacAgent.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1)
+JetBrains.Rider.Plugins.Verse.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+JetBrains.Rider.Roslyn.Host.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 28)
+JetBrains.Rider.Test.Framework.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 8)
+JetBrains.Roslyn.Host.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 18)
+JetBrains.SourceView.Avalonia.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 11)
+JetBrains.SourceView.FoldersMapping.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 8)
+JetBrains.SourceView.SourceModel.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1)
+JetBrains.SourceView.SourceViewUI.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 3)
+JetBrains.SourceView.ViewModels.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 6)
+JetBrains.TeamCity.Core.Resources.CoreStrings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 49)
+JetBrains.TeamCity.Presentation.Resources.PresentationStrings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 127)
+JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+JetBrains.TestBakery.Core.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 2)
+JetBrains.TestBakery.RiderPlugin.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 1)
+JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 29)
+Mono.Debugging.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 28)
+OperatorsResolveCacheGenerator.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 0)
+RiderPlugin.UnrealLink.Resources.Strings.ru-RU.resx — нейтрального ресурса нет в этой установке (записей: 49)

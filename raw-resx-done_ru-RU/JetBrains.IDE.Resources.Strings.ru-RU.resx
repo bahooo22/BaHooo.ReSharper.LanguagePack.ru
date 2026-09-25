@@ -259,7 +259,7 @@
   <value>Не удается прочитать метаданные сборки из '{0}'.</value>
 </data>
 <data name="No_Text" xml:space="preserve">
-  <value>0</value>
+  <value>Нет</value>
 </data>
 <data name="DumpMsbuildDataActionText" xml:space="preserve">
   <value>Дамп данных Msbuild</value>

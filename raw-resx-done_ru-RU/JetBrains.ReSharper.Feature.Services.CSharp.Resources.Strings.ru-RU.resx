@@ -223,7 +223,7 @@
   <value>Параметры помощи при вводе C#</value>
 </data>
 <data name="CSharp_EditorConfigOverride_Text" xml:space="preserve">
-  <value>Некоторые правила именования на этой странице переопределяются {0} для решения</value>
+  <value>Некоторые правила именования на этой странице переопределяются {0} для {1}</value>
 </data>
 <data name="OverrideInlineDataArgumentNames_BoolOption_Text" xml:space="preserve">
   <value>Показывать для аргументов атрибута InlineData</value>
@@ -286,7 +286,7 @@
   <value>Свойства как (&amp;P)</value>
 </data>
 <data name="PatternMatchingC70_Text" xml:space="preserve">
-  <value>&gt;</value>
+  <value>Сопоставление с образцом (C# 7.0+)</value>
 </data>
 <data name="XUnitAttributesDescription" xml:space="preserve">
   <value>Атрибуты xUnit</value>
@@ -499,7 +499,7 @@
   <value>Переменные диапазона LINQ</value>
 </data>
 <data name="GenerateOption_No_Text" xml:space="preserve">
-  <value>0</value>
+  <value>Нет</value>
 </data>
 <data name="CIntelliSenseEnabledSettingDescription" xml:space="preserve">
   <value>Включить C# IntelliSense</value>
@@ -556,7 +556,7 @@
   <value>Подписки на события для полей:</value>
 </data>
 <data name="ThrowExpressionC70_Text" xml:space="preserve">
-  <value>&gt;</value>
+  <value>Выражение throw (C# 7.0+)</value>
 </data>
 <data name="UseSingleIterationVariable_Text" xml:space="preserve">
   <value>Использовать одну переменную итерации</value>

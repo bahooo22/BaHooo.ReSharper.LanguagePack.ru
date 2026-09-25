@@ -299,7 +299,7 @@
   <value>Размещать JOIN в запросах только с соединениями под</value>
 </data>
 <data name="No_Text" xml:space="preserve">
-  <value>0</value>
+  <value>Нет</value>
 </data>
 <data name="DDL_Text" xml:space="preserve">
   <value>DDL</value>

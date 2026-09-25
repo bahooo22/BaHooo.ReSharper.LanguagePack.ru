@@ -432,7 +432,7 @@
     <value>Тип является членом типа, не соответствующего CLS, поэтому не может быть помечен как соответствующий CLS</value>
   </data>
   <data name="addOrremoveExpectedMessage" xml:space="preserve">
-    <value>Ожидается 'and' или 'remove'</value>
+    <value>Ожидается 'add' или 'remove'</value>
   </data>
   <data name="CompilerWarning_CS9258_Title" xml:space="preserve">
     <value>Ключевое слово 'field' связывается с синтетическим резервным полем свойства</value>
@@ -2421,7 +2421,7 @@
     <value>Директива '#:' может использоваться только в программах на основе файлов ('-features:FileBasedProgram')</value>
   </data>
   <data name="NewConstraintCannotHaveRequiredMembersMessage" xml:space="preserve">
-    <value>'{0}' не может удовлетворять ограничению 'new()' для параметра '{1}' в универсальном {2} '{3}', так как '{0}' имеет обязательные члены.</value>
+    <value>'{0}' не может удовлетворять ограничению 'new()' для параметра '{2}' в универсальном {3} '{4}', так как '{0}' имеет обязательные члены.</value>
   </data>
   <data name="ArgumentType_IsNotAssignableToParameterType_Message" xml:space="preserve">
     <value>Тип аргумента '{0}' не может быть присвоен типу параметра '{1}'</value>
@@ -2499,7 +2499,7 @@
     <value>Атрибут [SetsRequiredMembers] избыточен, так как нет 'required' членов</value>
   </data>
   <data name="ParametersMustHaveWhenExitingWithMessage" xml:space="preserve">
-    <value>При выходе с '{1}' параметр {0} должен иметь ненулевое значение</value>
+    <value>При выходе с '{2}' параметр {0} должен иметь ненулевое значение</value>
   </data>
   <data name="PreferUsingNamedPositionalArgumentWhenBooleanNumericbyteOrcharLiteralValueIsPassed" xml:space="preserve">
     <value>Предпочитать именованные/позиционные аргументы при передаче логических, численных, 'byte' или 'char' литеральных значений</value>
@@ -3003,7 +3003,7 @@
     <value>Дублирующееся определение глобального псевдонима using '{0}'</value>
   </data>
   <data name="NullabilityOfTypeArgumentMustMatchclassConstraintInOrderToUseItAsParameterMessage" xml:space="preserve">
-    <value>Nullability аргумента типа '{0}' должна соответствовать ограничению 'class', чтобы использоваться как параметр '{1}'</value>
+    <value>Nullability аргумента типа '{0}' должна соответствовать ограничению 'class', чтобы использоваться как параметр '{2}'</value>
   </data>
   <data name="ConvertTowhileLoopMessage" xml:space="preserve">
     <value>Преобразовать в цикл 'while'</value>
@@ -3481,7 +3481,7 @@
     <value>Вокруг точки с запятой</value>
 </data>
 <data name="ObjectOrCollectionInitializerImplicitlyDereferencesPossiblyNullMemberMessage" xml:space="preserve">
-    <value>Инициализатор объекта или коллекции неявно разыменовывает возможно null-член '{0}.{1}'</value>
+    <value>Инициализатор объекта или коллекции неявно разыменовывает возможно null-член '{1}.{2}'</value>
 </data>
 <data name="CompilerWarning_CS3016_Title" xml:space="preserve">
     <value>Массив в качестве параметра атрибута несовместим с CLS</value>
@@ -4139,7 +4139,7 @@
     <value>Дублирующиеся операторы</value>
 </data>
 <data name="NullabilityOfTypeArgumentMustMatchnotnullConstraintInOrderToUseItAsParameterMessage" xml:space="preserve">
-    <value>Nullability аргумента типа "{0}" должен соответствовать ограничению 'notnull' для использования в качестве параметра "{1}"</value>
+    <value>Nullability аргумента типа "{0}" должен соответствовать ограничению 'notnull' для использования в качестве параметра "{2}"</value>
 </data>
 <data name="MethodLacksDoesNotReturnAnnotationInOrderToMatchOverriddenMemberMessage" xml:space="preserve">
     <value>Методу "{0}" не хватает аннотации '[DoesNotReturn]', необходимой для соответствия переопределенному члену</value>
@@ -4367,7 +4367,7 @@
     <value>Невозможно присвоить значение 'using-переменной'</value>
 </data>
 <data name="OverridesObsoleteAddTheObsoleteAttributeToMessage" xml:space="preserve">
-    <value>{0} "{1}" переопределяет устаревший {2} "{3}". Добавьте атрибут Obsolete к "{4}".</value>
+    <value>{0} "{1}" переопределяет устаревший {2} "{3}". Добавьте атрибут [{4}] к "{5}".</value>
 </data>
 <data name="InterpolatedStringHandlerArgumentDisallowedErrorMessage" xml:space="preserve">
     <value>Аргумент обработчика интерполированной строки не допускается в этом контексте</value>
@@ -4552,7 +4552,7 @@
     <value>Параметр первичного конструктора "{0}" скрыт членом из базы</value>
 </data>
 <data name="MethodSpecifiesAdefaultConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsConstrainedToAReferenceTypeOrAValueTypeMessage" xml:space="preserve">
-    <value>Метод "{0}" specifies ограничение 'default' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" ограничен ссылочным типом или типом значения</value>
+    <value>Метод "{0}" указывает ограничение 'default' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" ограничен ссылочным типом или типом значения</value>
 </data>
 <data name="ArgumentMustBeAReadableVariableFieldOrAnArrayElementMessage" xml:space="preserve">
     <value>Аргумент {0} "{1}" должен быть читаемой переменной, полем или элементом массива</value>
@@ -4802,7 +4802,7 @@
     <value>Заменить ключевым словом "{0}"</value>
 </data>
 <data name="foreachStatementCannotOperateOnEnumeratorsOfTypeInasyncOrIteratorMethodsBecauseIsArefStructMessage" xml:space="preserve">
-    <value>Оператор 'foreach' не может выполняться на перечислителях типа "{0}" в 'async'-методах или методах-итераторах, потому что "{0}" является 'ref'-структурой</value>
+    <value>Оператор 'foreach' не может выполняться на перечислителях типа "{1}" в 'async'-методах или методах-итераторах, потому что "{1}" является 'ref'-структурой</value>
 </data>
 <data name="SealedMemberInSealedClass" xml:space="preserve">
     <value>Наличие sealed-члена в sealed-классе</value>
@@ -5288,7 +5288,7 @@
     <value>CallerArgumentExpressionAttribute принял недопустимое имя параметра.</value>
 </data>
 <data name="ParameterMustHaveWhenExitingWithMessage" xml:space="preserve">
-    <value>При выходе с '{1}' параметр {0} должен иметь не-null значение</value>
+    <value>При выходе с '{2}' параметр {0} должен иметь не-null значение</value>
 </data>
 <data name="UseTypeAnnotationSyntax" xml:space="preserve">
     <value>Использовать синтаксис аннотации типа</value>
@@ -5330,7 +5330,7 @@
     <value>Ваш код, похоже, использует шаблон CQRS</value>
 </data>
 <data name="RedundantAttributeUsagePropertyAssignmentMessage" xml:space="preserve">
-    <value>Избыточное присваивание свойства [AttributeUsage]: {0}</value>
+    <value>Избыточное присваивание свойства [AttributeUsage]: {1}</value>
 </data>
 <data name="AnExpressionTreeLambdaMayNotContainACallToAMethodPropertyOrIndexerThatReturnsByReferenceMessage" xml:space="preserve">
     <value>Лямбда-дерево выражений не может содержать вызов метода, свойства или индексатора, который возвращает значение по ссылке</value>
@@ -6043,7 +6043,7 @@
     <value>Использовать инициализатор объекта или коллекции, если возможно</value>
 </data>
 <data name="MethodSpecifiesAstructConstraintForTypeParameterButCorrespondingTypeParameterOfOverriddenOrExplicitlyImplementedMethodIsNotANonNullableValueTypeMessage" xml:space="preserve">
-    <value>Метод "{0}" specifies ограничение 'struct' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" не является не-nullable-типом значения</value>
+    <value>Метод "{0}" указывает ограничение 'struct' для параметра типа "{1}", но соответствующий параметр типа "{2}" переопределенного или явно реализованного метода "{3}" не является не-nullable-типом значения</value>
 </data>
 <data name="PrivateFieldIsAlwaysAssignedBeforeBeingUsedAndCanBeConvertedToLocalVariable" xml:space="preserve">
     <value>Private-поле всегда присваивается перед использованием и может быть преобразовано в локальную переменную</value>
@@ -6133,7 +6133,7 @@
     <value>Цикл for может быть преобразован в цикл foreach</value>
 </data>
 <data name="MustBeEitherrefReadonlyOrRegularVariableInOrderToBeAssignedFromBecauseItReturnsreadonlyReferenceMessage" xml:space="preserve">
-    <value>"{0}" должен быть 'ref readonly' или обычной переменной, чтобы присваиваться из "{1}", потому что он возвращает 'readonly'-ссылку</value>
+    <value>"{0}" должен быть 'ref readonly' или обычной переменной, чтобы присваиваться из "{2}", потому что он возвращает 'readonly'-ссылку</value>
 </data>
 <data name="SyntaxError_ToolTip" xml:space="preserve">
     <value>Синтаксическая ошибка</value>
@@ -6496,7 +6496,7 @@
     <value>Ветви ref-условного оператора ссылаются на переменные с несовместимыми областями escape</value>
 </data>
 <data name="OverriddenGetHashCodeCallsBaseGetHashCodeMessage" xml:space="preserve">
-    <value>Переопределенный 'GetHashCode()' вызывает базовый '{0}.GetHashCode()'</value>
+    <value>Переопределенный '{0}()' вызывает базовый '{1}.{0}()'</value>
 </data>
 <data name="CompilerWarning_CS2029_Title" xml:space="preserve">
     <value>Недопустимое имя символа препроцессора; не является допустимым идентификатором</value>
@@ -6870,7 +6870,7 @@
     <value>Преобразовать в выражение '?:'</value>
 </data>
 <data name="MemberMustHaveWhenExitingWithMessage" xml:space="preserve">
-    <value>При выходе с '{1}' член {0} должен иметь не-null значение</value>
+    <value>При выходе с '{2}' член {0} должен иметь не-null значение</value>
 </data>
 <data name="RedundantEmptyObjectOrCollectionInitializer" xml:space="preserve">
     <value>Избыточный пустой инициализатор объекта или коллекции</value>
@@ -7450,7 +7450,7 @@
     <value>Допустимость значения NULL возвращаемого типа не соответствует переопределенному члену (возможно, из-за атрибутов допустимости значения NULL).</value>
   </data>
   <data name="PartialMethodParameterScopeModifiersMismatchMessage" xml:space="preserve">
-    <value>Модификатор 'scoped' для параметра '{0}' не соответствует объявлению частичного метода</value>
+    <value>Модификатор 'scoped' для параметра '{1}' не соответствует объявлению частичного метода</value>
   </data>
   <data name="ConvertToStaticClass" xml:space="preserve">
     <value>Преобразовать в static класс</value>
@@ -8395,7 +8395,7 @@
     <value>Использовать файловые или блочные пространства имен</value>
   </data>
   <data name="NoDeconstructMethodWithOutParametersFoundForTypeMessage" xml:space="preserve">
-    <value>Не найден метод 'Deconstruct' с {1} out-параметрами для типа '{0}'</value>
+    <value>Не найден метод 'Deconstruct' с {1} out-параметрами для типа '{3}'</value>
   </data>
   <data name="ArrayElementsCannotBeOfStaticClassTypeMessage" xml:space="preserve">
     <value>Элементы массива не могут быть статическим классом типа '{0}'</value>
@@ -8599,7 +8599,7 @@
     <value>Тип определяет оператор == или оператор !=, но не переопределяет Object.GetHashCode()</value>
   </data>
   <data name="initAccessorsCannotBeMarkedreadonlyMarkReadonlyInsteadMessage" xml:space="preserve">
-    <value>Методы доступа "init" не могут быть помечены как «только для чтения». Вместо этого пометьте «{0}» как «только для чтения».</value>
+    <value>Методы доступа "init" не могут быть помечены как «только для чтения». Вместо этого пометьте «{2}» как «только для чтения».</value>
   </data>
   <data name="CommentsDocCommentsComment_RiderPresentableName" xml:space="preserve">
     <value>Комментарии//документирующие комментарии//комментарий</value>
@@ -9395,7 +9395,7 @@
     <value>Модификатор 'private' можно безопасно добавить/удалить у члена типа без изменения семантики кода</value>
   </data>
   <data name="MembersMustHaveWhenExitingWithMessage" xml:space="preserve">
-    <value>Члены {0} должны иметь ненулевое значение при выходе с '{1}'</value>
+    <value>Члены {0} должны иметь ненулевое значение при выходе с '{2}'</value>
   </data>
   <data name="SuspiciousShiftCountForLeftOperandOfTypeActualShiftCountWillBeMessage" xml:space="preserve">
     <value>Подозрительное количество сдвигов {0} для левого операнда типа {1}: фактическое количество сдвигов будет {2}</value>
@@ -9923,7 +9923,7 @@
     <value>Возможность значения NULL для типа возвращаемого значения не соответствует неявно реализуемому члену '{0}' (возможно, из-за атрибутов, связанных с допустимостью NULL)</value>
   </data>
   <data name="readonlyCanOnlyBeUsedOnAccessorsIfTheHasBothAgetAndAsetAccessorMessage" xml:space="preserve">
-    <value>Модификатор 'readonly' можно использовать для методов доступа, только если {0} имеет и метод доступа 'get', и метод доступа 'set'</value>
+    <value>Модификатор 'readonly' можно использовать для методов доступа, только если {1} имеет и метод доступа 'get', и метод доступа 'set'</value>
   </data>
   <data name="PossibleComparisonOfValueTypeWithnullMessage" xml:space="preserve">
     <value>Возможное сравнение типа значения с 'null'</value>
@@ -9956,7 +9956,7 @@
     <value>Избыточное указание класса или интерфейса в списке базовых типов</value>
   </data>
   <data name="PossibleNullReferenceArgumentForParameterInMessage" xml:space="preserve">
-    <value>Возможный аргумент-ссылка NULL для параметра '{0}' в '{1}'</value>
+    <value>Возможный аргумент-ссылка NULL для параметра '{1}' в '{2}'</value>
   </data>
   <data name="MisleadingBodyLikeStatementMessage" xml:space="preserve">
     <value>Оператор может быть ошибочно принят за тело предыдущего оператора</value>
@@ -11042,7 +11042,7 @@
     <value>Использование метода 'Enumerable.Count()' можно заменить на прямой доступ к свойству Count коллекции</value>
   </data>
   <data name="MathSignMethodAlwaysGivesTheSameResultMessage" xml:space="preserve">
-    <value>Метод Math.Sign() всегда дает одинаковый результат ({0})</value>
+    <value>Метод Math.Sign() всегда дает одинаковый результат ({2})</value>
   </data>
   <data name="CheckForReferenceEqualityInstead_Text" xml:space="preserve">
     <value>Вместо этого проверьте ссылочное равенство</value>
