@@ -1,0 +1,210 @@
+[
+  {
+    "key": "TemplateArguments_Text",
+    "value": "Template Arguments"
+  },
+  {
+    "key": "RuleName_Text",
+    "value": "Rule name"
+  },
+  {
+    "key": "ApplyThisStyle_Header",
+    "value": "Apply this style:"
+  },
+  {
+    "key": "EnableInspections",
+    "value": "Enable Inspections"
+  },
+  {
+    "key": "OverrideWithDifferentVisibilityMessage",
+    "value": "Visibility of {0} changes from {2} in base {1} to {3}"
+  },
+  {
+    "key": "Preview_Text",
+    "value": "Preview"
+  },
+  {
+    "key": "ImplementationOf___Text",
+    "value": "Implementation of {0} '{1}'"
+  },
+  {
+    "key": "HasBaseClass__Text",
+    "value": "{0} has a base class"
+  },
+  {
+    "key": "Style_Text",
+    "value": "Style"
+  },
+  {
+    "key": "UseBundledFromLLVMOrExternalClangFormatToFormat_CommentText_Text",
+    "value": "Use bundled (from LLVM {0}) or external clang-format to format code. {1} formatting options will not take effect and formatting inspections will be disabled."
+  },
+  {
+    "key": "Cpp_InconsistentNaming_Header",
+    "value": "Enable 'Inconsistent Naming' inspection"
+  },
+  {
+    "key": "DuplicateDesignatorMessage",
+    "value": "Duplicate designator '.{0}'"
+  },
+  {
+    "key": "MoveDown_Text",
+    "value": "Move Down"
+  },
+  {
+    "key": "_HasRelatedUE4Functions_Text",
+    "value": "{0} has related UE4 functions"
+  },
+  {
+    "key": "SortDesignatedInitializers_Text",
+    "value": "Sort designated initializers"
+  },
+  {
+    "key": "RuleDescription_Text",
+    "value": "Rule description"
+  },
+  {
+    "key": "__IsHidden_Text",
+    "value": "{0} is hidden"
+  },
+  {
+    "key": "OutOfOrderDesignatorMessage",
+    "value": "Designator '.{0}' must appear before designator '.{1}' according to the member declaration order in {2}"
+  },
+  {
+    "key": "UseType_Import__Text",
+    "value": "Use type '{0}' (import {1})"
+  },
+  {
+    "key": "ExportedAnonymousNamespaceMessage",
+    "value": "Anonymous namespace cannot be exported"
+  },
+  {
+    "key": "__HasDerivedClasses_Text",
+    "value": "{0} has derived classes"
+  },
+  {
+    "key": "From_Text",
+    "value": "From"
+  },
+  {
+    "key": "Prefix_Text",
+    "value": "Prefix"
+  },
+  {
+    "key": "ToTheFollowingElements_Header",
+    "value": "To the following elements:"
+  },
+  {
+    "key": "Abbreviations_Text",
+    "value": "Abbreviations:"
+  },
+  {
+    "key": "Pointee_Text",
+    "value": "Pointee"
+  },
+  {
+    "key": "MoveUp_Text",
+    "value": "Move Up"
+  },
+  {
+    "key": "View_Text",
+    "value": "View"
+  },
+  {
+    "key": "TemplateInstantiationDepthLimitSettingDescription",
+    "value": "Maximum depth of recursive template instantiation"
+  },
+  {
+    "key": "Remove_Text",
+    "value": "Remove"
+  },
+  {
+    "key": "TemplateInstantiationDepthLimit_Option_Text",
+    "value": "Maximum depth of recursive template instantiation (be careful, setting this value too high can cause ReSharper to crash due to a stack overflow)"
+  },
+  {
+    "key": "AddNamingRule_Header",
+    "value": "Add Naming Rule"
+  },
+  {
+    "key": "UseFunction_Import__Text",
+    "value": "Use function '{0}' (import {1})"
+  },
+  {
+    "key": "Cpp_InconsistentNaming_Text",
+    "value": "Violations of naming rules are detected with the 'Inconsistent Naming' inspection. If you want this inspection to skip only specific rules, clear 'Enable Inspections' in the preferences of those rules."
+  },
+  {
+    "key": "EvaluationFail_InvalidExpressionOrType",
+    "value": "invalid expression or type"
+  },
+  {
+    "key": "ConstexprEvaluationStepsLimitSettingDescription",
+    "value": "Maximum number of steps invoked during constexpr function evaluation"
+  },
+  {
+    "key": "OverrideWithDifferentVisibilityTitle",
+    "value": "Overriding function visibility differs from the base function"
+  },
+  {
+    "key": "__ImplementsBlockShaderInterfaces_Text",
+    "value": "{0} implements BlockShader interfaces"
+  },
+  {
+    "key": "__IsImplemented_Text",
+    "value": "{0} is implemented"
+  },
+  {
+    "key": "EditNamingRule_Header",
+    "value": "Edit Naming Rule"
+  },
+  {
+    "key": "CppCodeFoldingSettingsKey_FoldBeforeLBrace_Description",
+    "value": "Space instead of new line before '{', if collapsed"
+  },
+  {
+    "key": "HasBaseClasses__Text",
+    "value": "{0} has base classes"
+  },
+  {
+    "key": "Suffix_Text",
+    "value": "Suffix"
+  },
+  {
+    "key": "CppCodeFoldingSettingsDescription",
+    "value": "C++ code folding settings"
+  },
+  {
+    "key": "EvaluationFail_TypeIsDependent",
+    "value": "type is dependent"
+  },
+  {
+    "key": "ConstexprEvaluationStepsLimit_Option_Text",
+    "value": "Maximum number of steps invoked during constexpr function evaluation  (setting this value too high may result in heavy processing overhead, causing ReSharper to become unresponsive)"
+  },
+  {
+    "key": "OverrideWithDifferentVisibilityDescription",
+    "value": "Overriding function has different visibility than the base function"
+  },
+  {
+    "key": "Add_Text",
+    "value": "Add"
+  },
+  {
+    "key": "__IsOverridden_Text",
+    "value": "{0} is overridden"
+  },
+  {
+    "key": "EvaluationFail_InvalidType",
+    "value": "invalid type"
+  },
+  {
+    "key": "UseExternalClangFormatInsteadOfTheBundled_BoolOption_Text",
+    "value": "Use external clang-format instead of the bundled one"
+  },
+  {
+    "key": "InterfaceOf___Text",
+    "value": "Interface of {0} '{1}'"
+  }
+]

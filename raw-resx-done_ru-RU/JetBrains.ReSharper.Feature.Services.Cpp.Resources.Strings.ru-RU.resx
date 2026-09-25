@@ -10085,4 +10085,160 @@
 <data name="LambdaExpressionSettingDescription" xml:space="preserve">
     <value>Лямбда-выражение</value>
 </data>
+  <data name="TemplateArguments_Text" xml:space="preserve">
+    <value>Аргументы шаблона</value>
+  </data>
+  <data name="RuleName_Text" xml:space="preserve">
+    <value>Имя правила</value>
+  </data>
+  <data name="ApplyThisStyle_Header" xml:space="preserve">
+    <value>Применить этот стиль:</value>
+  </data>
+  <data name="EnableInspections" xml:space="preserve">
+    <value>Включить проверки</value>
+  </data>
+  <data name="OverrideWithDifferentVisibilityMessage" xml:space="preserve">
+    <value>Видимость {0} меняется с {2} в базовом {1} на {3}</value>
+  </data>
+  <data name="Preview_Text" xml:space="preserve">
+    <value>Предварительный просмотр</value>
+  </data>
+  <data name="ImplementationOf___Text" xml:space="preserve">
+    <value>Реализация {0} &apos;{1}&apos;</value>
+  </data>
+  <data name="HasBaseClass__Text" xml:space="preserve">
+    <value>{0} имеет базовый класс</value>
+  </data>
+  <data name="Style_Text" xml:space="preserve">
+    <value>Стиль</value>
+  </data>
+  <data name="UseBundledFromLLVMOrExternalClangFormatToFormat_CommentText_Text" xml:space="preserve">
+    <value>Для форматирования кода использовать встроенный (из LLVM {0}) или внешний clang-format. Параметры форматирования {1} не будут действовать, а инспекции форматирования будут отключены.</value>
+  </data>
+  <data name="Cpp_InconsistentNaming_Header" xml:space="preserve">
+    <value>Включить проверку &quot;Несогласованное именование&quot;</value>
+  </data>
+  <data name="DuplicateDesignatorMessage" xml:space="preserve">
+    <value>Повторяющееся обозначение &quot;.{0}&quot;</value>
+  </data>
+  <data name="MoveDown_Text" xml:space="preserve">
+    <value>Переместить вниз</value>
+  </data>
+  <data name="_HasRelatedUE4Functions_Text" xml:space="preserve">
+    <value>{0} имеет связанные функции UE4</value>
+  </data>
+  <data name="SortDesignatedInitializers_Text" xml:space="preserve">
+    <value>Сортировать инициализаторы с обозначением</value>
+  </data>
+  <data name="RuleDescription_Text" xml:space="preserve">
+    <value>Описание правила</value>
+  </data>
+  <data name="__IsHidden_Text" xml:space="preserve">
+    <value>{0} скрыт</value>
+  </data>
+  <data name="OutOfOrderDesignatorMessage" xml:space="preserve">
+    <value>Обозначение &quot;.{0}&quot; должно располагаться перед обозначением &quot;.{1}&quot; согласно порядку объявления членов в {2}</value>
+  </data>
+  <data name="UseType_Import__Text" xml:space="preserve">
+    <value>Использовать тип &apos;{0}&apos; (импорт {1})</value>
+  </data>
+  <data name="ExportedAnonymousNamespaceMessage" xml:space="preserve">
+    <value>Анонимное пространство имён не может быть экспортировано</value>
+  </data>
+  <data name="__HasDerivedClasses_Text" xml:space="preserve">
+    <value>{0} имеет производные классы</value>
+  </data>
+  <data name="From_Text" xml:space="preserve">
+    <value>Из</value>
+  </data>
+  <data name="Prefix_Text" xml:space="preserve">
+    <value>Префикс</value>
+  </data>
+  <data name="ToTheFollowingElements_Header" xml:space="preserve">
+    <value>К следующим элементам:</value>
+  </data>
+  <data name="Abbreviations_Text" xml:space="preserve">
+    <value>Сокращения:</value>
+  </data>
+  <data name="Pointee_Text" xml:space="preserve">
+    <value>Указываемый объект</value>
+  </data>
+  <data name="MoveUp_Text" xml:space="preserve">
+    <value>Переместить вверх</value>
+  </data>
+  <data name="View_Text" xml:space="preserve">
+    <value>Вид</value>
+  </data>
+  <data name="TemplateInstantiationDepthLimitSettingDescription" xml:space="preserve">
+    <value>Максимальная глубина рекурсивной подстановки шаблонов</value>
+  </data>
+  <data name="Remove_Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="TemplateInstantiationDepthLimit_Option_Text" xml:space="preserve">
+    <value>Максимальная глубина рекурсивной подстановки шаблонов (будьте осторожны: слишком высокое значение может привести к падению ReSharper из-за переполнения стека)</value>
+  </data>
+  <data name="AddNamingRule_Header" xml:space="preserve">
+    <value>Добавить правило именования</value>
+  </data>
+  <data name="UseFunction_Import__Text" xml:space="preserve">
+    <value>Использовать функцию &apos;{0}&apos; (импорт {1})</value>
+  </data>
+  <data name="Cpp_InconsistentNaming_Text" xml:space="preserve">
+    <value>Проверка &quot;Несогласованное именование&quot; обнаруживает нарушения правил именования. Если вы хотите, чтобы эта проверка пропускала только определенные правила, снимите флажок &quot;Включить проверки&quot; в настройках этих правил.</value>
+  </data>
+  <data name="EvaluationFail_InvalidExpressionOrType" xml:space="preserve">
+    <value>недопустимое выражение или тип</value>
+  </data>
+  <data name="ConstexprEvaluationStepsLimitSettingDescription" xml:space="preserve">
+    <value>Максимальное число шагов, выполняемых при вычислении constexpr-функции</value>
+  </data>
+  <data name="OverrideWithDifferentVisibilityTitle" xml:space="preserve">
+    <value>Видимость переопределяющей функции отличается от видимости базовой функции</value>
+  </data>
+  <data name="__ImplementsBlockShaderInterfaces_Text" xml:space="preserve">
+    <value>{0} реализует интерфейсы BlockShader</value>
+  </data>
+  <data name="__IsImplemented_Text" xml:space="preserve">
+    <value>{0} реализован</value>
+  </data>
+  <data name="EditNamingRule_Header" xml:space="preserve">
+    <value>Редактировать правило именования</value>
+  </data>
+  <data name="CppCodeFoldingSettingsKey_FoldBeforeLBrace_Description" xml:space="preserve">
+    <value>Пробел вместо новой строки перед &apos;{&apos;, если свернуто</value>
+  </data>
+  <data name="HasBaseClasses__Text" xml:space="preserve">
+    <value>{0} имеет базовые классы</value>
+  </data>
+  <data name="Suffix_Text" xml:space="preserve">
+    <value>Суффикс</value>
+  </data>
+  <data name="CppCodeFoldingSettingsDescription" xml:space="preserve">
+    <value>Параметры свёртки кода на C++</value>
+  </data>
+  <data name="EvaluationFail_TypeIsDependent" xml:space="preserve">
+    <value>тип является зависимым</value>
+  </data>
+  <data name="ConstexprEvaluationStepsLimit_Option_Text" xml:space="preserve">
+    <value>Максимальное число шагов, выполняемых при вычислении constexpr-функции (слишком высокое значение может привести к значительным затратам на обработку, из-за чего ReSharper перестанет отзываться на действия)</value>
+  </data>
+  <data name="OverrideWithDifferentVisibilityDescription" xml:space="preserve">
+    <value>Переопределяющая функция имеет другую видимость, чем базовая функция</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>Добавить</value>
+  </data>
+  <data name="__IsOverridden_Text" xml:space="preserve">
+    <value>{0} переопределен</value>
+  </data>
+  <data name="EvaluationFail_InvalidType" xml:space="preserve">
+    <value>недопустимый тип</value>
+  </data>
+  <data name="UseExternalClangFormatInsteadOfTheBundled_BoolOption_Text" xml:space="preserve">
+    <value>Использовать внешний clang-format вместо встроенного</value>
+  </data>
+  <data name="InterfaceOf___Text" xml:space="preserve">
+    <value>Интерфейс {0} &apos;{1}&apos;</value>
+  </data>
 </root>

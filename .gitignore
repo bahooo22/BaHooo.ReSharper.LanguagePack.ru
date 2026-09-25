@@ -482,3 +482,6 @@ deepseek_powershell_20260107_7355bb.ps1
 # nuget.exe, ResGen, портативный PowerShell 7 (Tools/PWSH7, ~13 МБ бинарей).
 # Скрипт сам наполняет его при сборке и чистит по -CleanTools.
 Tools/
+
+# Сырой дамп дерев-скана (4 МБ, перегенерируется build/i18n-scan-child.ps1):
+build/scan-tree-raw.jsonl

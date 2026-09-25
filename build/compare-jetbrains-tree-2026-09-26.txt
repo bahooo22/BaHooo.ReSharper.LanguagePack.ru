@@ -1,0 +1,89 @@
+Сравнение дерева C:\Program Files (x86)\JetBrains (JetBrains*.dll, рекурсивно) с 250 resx-таблицами; съём 2026-09-26 01:54
+нейтральных наборов со строками: 264; покрыто: 196
+
+--- НЕ ПОКРЫТЫ (JetBrains-наборы со строками, нет нашей resx) ---
+  5164  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.wss.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+  1007  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.cms.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   895  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.VSRV.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   725  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.sps.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   588  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.dlcpolicy.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   249  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.dlcdm.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   210  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.PpsAdminUIStrings.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   190  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.taxonomy.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   168  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.PPSImportUtilityStrings.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   153  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.obaui.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   149  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.Microsoft.Office.Server.Search.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+   149  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.SearchAdmin.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    70  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.ipfs.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    61  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.dlc.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    47  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.xlsrv.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    40  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.wa.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    15  JetBrains.ReSharper.Psi.Src.Razor.CSharp.Resources.Texts.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    15  JetBrains.Application.BuildScript.Compile.LicenseTexts.resources  [\Installations\dotCover261\JetBrains.Platform.Shell.dll]
+    14  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.sllayout.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+    10  JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.osrv.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Psi.Web.dll]
+     8  JetBrains.Timeline.Standalone.Properties.Resources.resources  [\Installations\dotTrace261\JetBrains.Timeline.Standalone.dll]
+     5  JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources  [\Installations\dotTrace261\JetBrains.DotTrace.UI.Builders.dll]
+     5  JetBrains.ReSharper.Resources.Src.Application.Licensing.ReSharperLicenseSupportResources.resources  [\Installations\dotCover261\JetBrains.ReSharper.Resources.dll]
+     4  JetBrains.DotPeekCommon.Resources.Strings.resources  [\Installations\dotPeek261\JetBrains.DotPeek.Common.dll]
+     3  JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources.resources  [\Installations\dotCover261\JetBrains.ReSharper.Psi.CSharp.dll]
+     2  JetBrains.ReSharper.Plugins.Unity.CSharp.Psi.CodeStyle.AdditionalFileLayoutResources.resources  [\Installations\ReSharperPlatformVs18_e6a7a229_000\JetBrains.ReSharper.Plugins.Unity.dll]
+     1  JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources  [\Installations\dotCover261\JetBrains.ReSharper.Feature.Services.dll]
+
+--- РАЗРЫВ ПАРИТЕТА (neutral-ключи, отсутствующие в нашем ru) ---
+
+--- НАШИ ТАБЛИЦЫ БЕЗ neutral В ЭТОМ ДЕРЕВЕ ---
+  ApiParser.Resources.Strings
+  GammaJul.ForTea.Core.Resources.Strings
+  JetBrains.CommandLine.CleanupCode.Resources.Strings
+  JetBrains.DotPeek.Resources.Strings
+  JetBrains.DotTrace.Ide.Core.Interface.resources.Resources
+  JetBrains.DotTrace.Ide.Rider.Resources.Strings
+  JetBrains.EntityFramework.Features.Resources.Strings
+  JetBrains.Fleet.Backend.Resources.Strings
+  JetBrains.ForTea.RiderPlugin.Resources.Strings
+  JetBrains.LSP.Core.Features.Roslyn.Resources.Strings
+  JetBrains.Platform.VisualStudio.Backend.OutOfProcess.Resources.Strings
+  JetBrains.PsiFeatures.VisualStudio.AI.Debugger.Resources.Strings
+  JetBrains.PsiFeatures.VisualStudio.AI.Resources.Strings
+  JetBrains.PsiFeatures.VisualStudio.LocalOnly.Resources.Strings
+  JetBrains.PsiFeatures.VisualStudio.SinceVs14.Resources.Strings
+  JetBrains.PsiFeatures.VisualStudio.SinceVs16RoslynAware.Resources.Strings
+  JetBrains.PsiFeatures.Web.UIInteractive.Resources.Strings
+  JetBrains.Qodana.Core.Resources.Strings
+  JetBrains.Qodana.VisualStudio.Common.Resources.Strings
+  JetBrains.RdBackend.Common.Resources.Strings
+  JetBrains.ReSharper.AI.Core.Resources.Strings
+  JetBrains.ReSharper.Feature.Services.Cpp.DkmDebugger.Resources.Strings
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Backend.Resources.Strings
+  JetBrains.ReSharper.Feature.Services.Cpp.VisualStudio.Resources.Strings14
+  JetBrains.ReSharper.Features.WinForms.Designer.Host.Resources.Strings
+  JetBrains.ReSharper.Features.Xaml.Previewer.External.Resources.Strings
+  JetBrains.ReSharper.Features.Xaml.Previewer.Host.Resources.Strings
+  JetBrains.ReSharper.LiveTemplatesTests.Resources.Strings
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Daemon.Resources.Strings
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Features.Resources.Strings
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Intentions.Resources.Strings
+  JetBrains.ReSharper.Plugins.FSharp.Psi.Services.Resources.Strings
+  JetBrains.ReSharper.Plugins.FSharp.Resources.Strings
+  JetBrains.ReSharper.Plugins.Godot.Resources.Strings
+  JetBrains.ReSharper.Plugins.Unity.Rider.Resources.Strings
+  JetBrains.ReSharper.Plugins.Unity.Shaders.Resources.Strings
+  JetBrains.ReSharperAutomationTools.CommandLine.Common.Resources.Strings
+  JetBrains.ReSharperCpp.RiderPlugin.Resources.Strings
+  JetBrains.ReSharperCpp.RiderPlugin.Src.Radler.DFA.DFAStrings
+  JetBrains.Rider.Backend.Resources.Strings
+  JetBrains.Rider.Backend.WebServices.Resources.Strings
+  JetBrains.Rider.MacAgent.Resources.Strings
+  JetBrains.Rider.Plugins.Verse.Resources.Strings
+  JetBrains.Rider.Roslyn.Host.Resources.Strings
+  JetBrains.Rider.Test.Framework.Resources.Strings
+  JetBrains.Roslyn.Host.Resources.Strings
+  JetBrains.TeamCity.Core.Resources.CoreStrings
+  JetBrains.TeamCity.Presentation.Resources.PresentationStrings
+  JetBrains.TeamCity.Presentation.Wpf.Resources.PresentationStrings
+  JetBrains.TestBakery.Core.Resources.Strings
+  JetBrains.TestBakery.RiderPlugin.Resources.Strings
+  Mono.Debugging.Resources.Strings
+  OperatorsResolveCacheGenerator.Resources.Strings
+  RiderPlugin.UnrealLink.Resources.Strings
