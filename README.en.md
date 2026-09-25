@@ -47,13 +47,13 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 │   ├───i18n-audit.ps1         # Coverage audit: platform DLLs vs our package
 │   └───i18n-coverage-report.txt    # Its output - the numbers of "Resource coverage"
 ├───Tools/                      # Downloaded tools (not in git)
-└───raw-resx-done_ru-RU/        # Source translated .resx files (248 files)
+└───raw-resx-done_ru-RU/        # Source translated .resx files (250 files)
 ```
 
 Line endings are pinned by `.gitattributes`: everything is stored with LF in the repository,
 `.resx`/`.ps1`/`.nuspec` check out as CRLF (ResGen and Windows PowerShell consume them),
 docs and JSON stay LF. Without it every clone would get EOL from its own `core.autocrlf`
-setting, and the hash cache would report all 248 files as changed.
+setting, and the hash cache would report all 250 files as changed.
 
 **Key files:**
 - `resx-to-resources.ps1` - main build script
@@ -67,17 +67,18 @@ setting, and the hash cache would report all 248 files as changed.
 
 ## 📊 Project Statistics
 
-**Translation files:** 248 `.resx`
-**Strings in them:** 33,963 `<data>` elements, 33,247 of them have Cyrillic in the value.
-&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 33,961 because two keys are written twice in their
+**Translation files:** 250 `.resx`
+**Strings in them:** 34,022 `<data>` elements, 33,323 of them have Cyrillic in the value.
+&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 34,020 because two keys are written twice in their
 &nbsp;&nbsp;&nbsp;&nbsp;resx (`MustHaveInitToImplementMessage` in Daemon.CSharp and `ConvertPropertyToMethod...` in
 &nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
 &nbsp;&nbsp;&nbsp;&nbsp;yields 34,917, because the header of every resx carries 4 XSD documentation examples.
-**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
-**Last update:** September 24, 2026
-**Source .resx size:** 7,603,724 bytes
-**Built .resources size:** 5,745,387 bytes
+**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`) - the mainline target; a
+local-only `2026.1.0.1` (wave `[261.0.0]`, 250 `.resources`) build exists for the live 2026.1 install
+**Last update:** September 26, 2026
+**Source .resx size:** 7,630,775 bytes
+**Built .resources size:** 5,755,341 bytes
 
 **Largest modules:**
 - JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 KB)
@@ -100,23 +101,24 @@ hashtable traversals are sorted, line endings are LF, and the header date appear
 with `-Stamp`. So a rerun never adds `git diff` noise: if the report changed, a number
 changed, not the run time.
 
-Measured against ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 2026-09-24:
+Measured against the live ReSharper 2026.1 install (`ReSharperPlatformVs18_e6a7a229_000`,
+`DeploymentPackagingIdentity.txt` = `261.0.20260329.174930`), 2026-09-26:
 
 | Metric | Value |
 |---|---|
-| DLLs scanned | 624 (2 native ones failed to load) |
-| Neutral `.resources` in the platform | 337 |
-| **Covered by the package** | **185 of 337** |
-| Not covered | 152 |
+| DLLs scanned | 620 (2 native ones failed to load) |
+| Neutral `.resources` in the platform | 344 |
+| **Covered by the package** | **187 of 344** |
+| Not covered | 157 |
 | Our `.resx` absent from this install | 63 (Rider, dotTrace Home, CommandLine, ForTea...) |
-| `.resources` deployed into the platform `i18n` folder | 248 = 248, no differences |
+| `.resources` deployed into the platform `i18n` folder | 236 of 250 - 14 sets not deployed, nothing extra |
 
-The 152 uncovered resources are not 152 pages of untranslated UI:
+The 157 uncovered resources are not 157 pages of untranslated UI:
 
-- **94 are third-party libraries**: NuGet.* (15), Microsoft.* (45), DevExpress (17),
+- **98 are third-party libraries**: Microsoft.* (45), NuGet.* (19), DevExpress (17),
   System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. The satellite mechanism does not
   cover them, and most of them never reach the Visual Studio interface.
-- **58 are JetBrains-owned**; split by the actual number of string records inside them:
+- **59 are JetBrains-owned**; split by the actual number of string records inside them:
   - 13 resources = 2,892 strings are `...Asp.Resources.Sharepoint.ResourceFiles.*` -
     SharePoint reference data that PSI uses to parse ASP.NET markup. **Not UI text, must not
     be translated.**
@@ -124,11 +126,12 @@ The 152 uncovered resources are not 152 pages of untranslated UI:
     (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`,
     `AdjustNamespacesPage`, ...): the text of such dialogs is compiled into code, the resource
     mechanism cannot localize it. **Nothing to extract.**
-  - 7 resources = **42 strings**, none of them translatable by content - every value was read
+  - 8 resources = **47 strings**, none of them translatable by content - every value was read
     back out of the neutral resource in the platform DLL: `Razor.CSharp.Resources.Texts` (15)
-    are generated-C#-code templates, `Application.BuildScript.Compile.LicenseTexts` (15) and
-    `DotTraceLicenseSupportResources` (5) are EULA/RTF agreement texts, XML/XSLT layout
-    patterns and the XML inspection index (6), and one AHE token in the VS package (1).
+    are generated-C#-code templates, `Application.BuildScript.Compile.LicenseTexts` (15),
+    `ReSharperLicenseSupportResources` (5) and `DotTraceLicenseSupportResources` (5) are EULA/RTF
+    agreement texts, XML/XSLT layout patterns and the XML inspection index (6 = FileLayoutPattern 3
+    + AdditionalFileLayout 2 + CodeInspectionWiki 1), and one AHE token in the VS package (1).
   - The translatable remainder of **12 resources = 60 strings** was closed on 2026-09-24:
     12 strings are three copies of the `UnitTestProvider.MSTest12/14/15...Strings` sets (4 each),
     translated the same way as the already covered `...MSTest11.Resources.Strings.ru-RU.resx`;
@@ -136,11 +139,17 @@ The 152 uncovered resources are not 152 pages of untranslated UI:
     `dotTraceInstant.ViewModel.Interface.resources.Resources` (4: "Delete", "Delete session?",
     "Stop"). Key parity with the neutral resource was verified by reading it back from the DLL
     (2==2, 4==4). Row-by-row breakdown is in TODO.md; the audit script now prints the table itself.
+  - On 2026-09-26 comparing the WHOLE `C:\Program Files (x86)\JetBrains` tree (1458 `JetBrains*.dll`,
+    `build/i18n-compare-tree.ps1`) instead of just the install folder found one more gap:
+    `JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings` was missing 52 of its 3359 keys, plus two
+    261-era sets (`JetBrains.VsIntegration.Resources.SR` - 4 strings,
+    `JetBrains.dotTraceInstant.Model.Interface.resources.Resources` - 2). Closed in `374dbf6`; the pack is
+    now 250 `.resx` / 250 `.resources`.
 
-**Conclusion:** extracting resources from every DLL is not needed. Of the 337 platform
+**Conclusion:** extracting resources from every DLL is not needed. Of the 344 platform
 resources no translatable strings are left: the localizable remainder is fully closed, and what
 stays uncovered is untranslated by nature (SharePoint reference data, licenses, generated-code
-templates, empty form containers) - against 33,961 records in the 248 resx files of the pack.
+templates, empty form containers) - against 34,020 records in the 250 resx files of the pack.
 
 The 63 of our `.resx` that are absent from this VS install are kept
 on purpose: they belong to Rider, dotPeek, dotMemory and dotTrace Home, which this same source
@@ -343,6 +352,15 @@ PM> Install-Package BaHooo.ReSharper.I18n.ru
 1. Download `.nupkg` file from [Releases](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases)
 2. Drag and drop file into ReSharper Extensions window
 3. Restart Visual Studio
+
+### Standalone apps (dotPeek / dotTrace / dotMemory / dotCover)
+Standalone products do not read `Extensions\*\i18n`; their culture and satellite folder come
+from environment variables (`JetBrains.Application.I18n` in `JetBrains.Platform.Shell.dll`):
+`JET_BACKEND_CULTURE=ru-RU` and `JET_BACKEND_LOCALIZATION_FOLDERS` (base64(UTF8) path to a flat
+folder of `<Set>.ru-RU.resources`, paths joined with `;`). Run `build/i18n-offline-deploy.ps1`
+once: it mirrors `build\resources` into `%LOCALAPPDATA%\JetBrains\i18n-ru` and writes one
+`ru-<product>.bat` launcher per detected product into `…\i18n-ru\launchers\`. Verified live on
+dotPeek 2026.1 (fully Russian UI).
 
 ---
 

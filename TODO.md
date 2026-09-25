@@ -12,9 +12,26 @@
 - [x] Перезалить переводы из чистого JSON, убрать mojibake — `d8bc33e`
 - [x] Поднять Wave до `[262.0.0]` (ReSharper 2026.2) — `3e4b91d`
 - [x] Синхронизировать версию `2026.2.2.1` в обоих `.nuspec` и в version-bearing `.resx` — `0c78161`, `1efb180`
-- [x] Пересобрать `.resources` и упаковать: проверено — в `raw-resx-done_ru-RU/` 248 файлов, в `build/resources/` 248, в каждом `.nupkg` 248 ресурсов
-- [x] Задеплоить в тестовый `i18n`-каталог: 248 из 248 совпадают с resx-списком (докопированы после part-A/part-B, отчёт: «не задеплоено: 0»)
+- [x] Пересобрать `.resources` и упаковать: на 26.09 в `raw-resx-done_ru-RU/` 250 файлов, в `build/resources/` 250
+- [x] Дерево-сравнение всей библиотеки JetBrains (1458 `JetBrains*.dll`, `build/i18n-compare-tree.ps1`): закрыт
+      паритет `Feature.Services.Cpp` (не хватало 52 ключа из 3359) + 2 таблицы 261-эры
+      (`VsIntegration.Resources.SR`, `dotTraceInstant.Model.Interface`) — `374dbf6`
+- [x] Для живой 2026.1 локально собран устанавливаемый пакет
+      `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.1.0.1.nupkg` (250 `.resources`, wave `[261.0.0]`);
+      mainline-nuspec откачен к `2026.2.2.1` / `[262.0.0]`, в git bump под 261 не поднимался
+- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 26.09 01:46 и
+      содержат уже 250 ресурсов (58 новых строк), тогда как опубликованный `2026.2.2.1` — 248. Под тем же номером
+      заливать нельзя: публикация новых строк только следующим bump-циклом и только по явном «повышай» от пользователя
+- [x] Задеплоить в тестовый `i18n`-каталог: на 25.09 было 248 из 248. **Регресс 26.09:** после возврата пользователя
+      на 2026.1 в `i18n` лежит 236 файлов (mtime 25.09 22:11), 14 наборов не задеплоены — среди них три MSTest-
+      копии, `DotTrace.Ide.Core.Interface`, обе таблицы dotTraceInstant, `VsIntegration.Resources.SR`,
+      `Application.Res.StringTable`, `Application.Resources.VsResources`, `DPA.Ide.VS.Resources.Strings`,
+      `Profiler.Windows.Resources.Strings`, `SignatureVerifier.Messages`, `Standalone.TabWell`,
+      `UI.Resources.StringTable`. Перезалить из `build/resources` либо поставить `2026.1.0.1`
 - [ ] `git push origin main` + тег `2026.2.2.1`
+- [ ] После возврата 2026.2.x переснять `build/i18n-semantic-scan.ps1`, `build/i18n-audit.ps1` и
+      `build/dll-coverage-matrix.ps1` против живой 262: текущие цифры покрытия (620 DLL / 344 neutral /
+      187 покрыто / 157 без покрытия / 63 устаревших) сняты против 261
 - [ ] Выложить `NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` на nuget.org
 - [ ] Выложить `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` в JetBrains Marketplace
 

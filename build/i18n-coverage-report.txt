@@ -3,14 +3,14 @@
 DLL просканировано:        620
   не удалось загрузить:    2
 Neutral .resources всего:  344
-Файлов в пакете (resx):    248
-Задеплоено в i18n:         248
+Файлов в пакете (resx):    250
+Задеплоено в i18n:         236
 
-ПОКРЫТО ПАКЕТОМ:  186 из 344
-ОТСУТСТВУЕТ В ПАКЕТЕ: 158
-В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 62
+ПОКРЫТО ПАКЕТОМ:  187 из 344
+ОТСУТСТВУЕТ В ПАКЕТЕ: 157
+В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 63
 Задеплоено лишнего (нет в resx): 0
-Есть в resx, но не задеплоено: 0
+Есть в resx, но не задеплоено: 14
 
 --- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер байт | строковых записей) ---
     (-1 = ресурс не читается как набор имя/значение; 0 = пустой контейнер формы/картинок)
@@ -60,7 +60,6 @@ Neutral .resources всего:  344
 [other]   JetBrains.Common.UI.WinForms.Src.TriStateTreeView.resources | JetBrains.Common.UI.WinForms.dll | 871 | 0
 [other]   JetBrains.dotMemory.GUI.Properties.Resources.resources | JetBrains.dotMemory.GUI.dll | 93907 | 0
 [other]   JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129 | 5
-[other]   JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.Model.Interface.dll | 495 | 2
 [other]   JetBrains.dotTraceInstant.ViewModel.resources.Resources.resources | JetBrains.dotTraceInstant.ViewModel.dll | 180 | 0
 [other]   JetBrains.Platform.UIInteractive.Ide.Src.TreeBrowser.ExportTreeViewResources.resources | JetBrains.Platform.UIInteractive.Ide.dll | 180 | 0
 [other]   JetBrains.Platform.VisualStudio.AnyEnd.Resources.ReSharperPlatformImages.resources | JetBrains.Platform.VisualStudio.AnyEnd.dll | 1458773 | 0
@@ -174,10 +173,10 @@ Neutral .resources всего:  344
 [other]   VisualBasicWorkspaceExtensionsResources.resources | Microsoft.CodeAnalysis.VisualBasic.Workspaces.dll | 180 | 0
 
 --- ОЦЕНКА ДЕФИЦИТА ПО РЕСУРСАМ JETBRAINS ---
-Непокрытых JetBrains-ресурсов:              60
+Непокрытых JetBrains-ресурсов:              59
   из них файлы данных SharePoint:            13 (синхронизированы с ASPX-разметкой, не переводятся)
   пустых контейнеров (0 строковых записей):  38
-  таблиц со строками:                        9, всего строк: 49
+  таблиц со строками:                        8, всего строк: 47
 
 --- ТАБЛИЦЫ СО СТРОКАМИ (строков | ресурс | DLL | байт) ---
     15 | JetBrains.Application.BuildScript.Compile.LicenseTexts.resources | JetBrains.Platform.Shell.dll | 123922
@@ -185,7 +184,6 @@ Neutral .resources всего:  344
      5 | JetBrains.DotTrace.UI.resources.agreements.DotTraceLicenseSupportResources.resources | JetBrains.DotTrace.UI.Builders.dll | 330129
      5 | JetBrains.ReSharper.Resources.Src.Application.Licensing.ReSharperLicenseSupportResources.resources | JetBrains.ReSharper.Resources.dll | 413916
      3 | JetBrains.ReSharper.Psi.CSharp.Src.CodeStyle.FileLayoutPatternResources.resources | JetBrains.ReSharper.Psi.CSharp.dll | 25094
-     2 | JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources | JetBrains.dotTraceInstant.Model.Interface.dll | 495
      2 | JetBrains.ReSharper.Plugins.Unity.CSharp.Psi.CodeStyle.AdditionalFileLayoutResources.resources | JetBrains.ReSharper.Plugins.Unity.dll | 8516
      1 | JetBrains.ReSharper.Feature.Services.Src.Explanatory.CodeInspectionWikiResources.resources | JetBrains.ReSharper.Feature.Services.dll | 56362
      1 | Resources.resources | JetBrains.ReSharperPlatformVs18.VisualStudio.v18.0.Package.dll | 1223724
@@ -250,9 +248,26 @@ Neutral .resources всего:  344
   JetBrains.TestBakery.Core.Resources.Strings.resources
   JetBrains.TestBakery.RiderPlugin.Resources.Strings.resources
   JetBrains.Timeline.Standalone.Avalonia.Resources.Strings.resources
+  JetBrains.VsIntegration.Resources.SR.resources
   Mono.Debugging.Resources.Strings.resources
   OperatorsResolveCacheGenerator.Resources.Strings.resources
   RiderPlugin.UnrealLink.Resources.Strings.resources
+
+--- В RESX ЕСТЬ, НО НЕ ЗАДЕПЛОИРОВАНО В I18N ---
+  JetBrains.Application.Res.StringTable.resources
+  JetBrains.Application.Resources.VsResources.resources
+  JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources
+  JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources
+  JetBrains.dotTraceInstant.ViewModel.Interface.resources.Resources.resources
+  JetBrains.DPA.Ide.VS.Resources.Strings.resources
+  JetBrains.Profiler.Windows.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.MSTest12.......v11.Provider.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.MSTest14.......v11.Provider.Resources.Strings.resources
+  JetBrains.ReSharper.UnitTestProvider.MSTest15.......v11.Provider.Resources.Strings.resources
+  JetBrains.SignatureVerifier.Messages.resources
+  JetBrains.Standalone.TabWell.Resources.Strings.resources
+  JetBrains.UI.Resources.StringTable.resources
+  JetBrains.VsIntegration.Resources.SR.resources
 
 --- DLL НЕ УДАЛОСЬ ЗАГРУЗИТЬ (обычно нативные) ---
   Hunspellx64.dll: MethodInvocationException

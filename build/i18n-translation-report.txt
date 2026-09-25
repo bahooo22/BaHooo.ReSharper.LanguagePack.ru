@@ -1,10 +1,10 @@
 ﻿=== Проверка перевода всех resx-файлов пакета ===
 Установка: C:\Program Files (x86)\JetBrains\Installations\ReSharperPlatformVs18_e6a7a229_000
 
-resx-файлов:                248
-записей всего:              33962
-neutral-ресурсов доступно:  183
-без neutral (нет DLL):      65
+resx-файлов:                251
+записей всего:              34024
+neutral-ресурсов доступно:  185
+без neutral (нет DLL):      66
 
 XML-ошибок:                 0
 пустых значений:            4  (en тоже пуст: 4)
@@ -377,6 +377,7 @@ ru==en (без кириллицы):     355  (с малыми англ. слов
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [XNameWpf_LearnMoreLink] = Inspections#xname
   JetBrains.dotMemory.Resources.TextResources.ru-RU.resx: ru==en [ZipFiles_FileFilter_Extension] = .zip
   JetBrains.DotPeek.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
+  JetBrains.DotPeekCommon.Resources.Strings.ru-RU.resx: neutral-ресурс не найден в этой установке (проверка ключей/плейсхолдеров пропущена)
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [AsyncSupportSettingDescription] = AsyncSupport
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [AutoShowSystemMethodsSettingDescription] = AutoShowSystemMethods
   JetBrains.DotTrace.DataStructures.Resources.Strings.ru-RU.resx: ru==en [CallTreePresentationSettingsSettingDescription] = CallTreePresentationSettings

@@ -55,13 +55,13 @@
 │   ├───i18n-audit.ps1         # Аудит покрытия: DLL платформы vs наш пакет
 │   └───i18n-coverage-report.txt    # Его вывод — цифры раздела «Покрытие ресурсов»
 ├───Tools/                      # Скачиваемые инструменты (в git не попадает)
-└───raw-resx-done_ru-RU/        # Исходные переведенные файлы .resx (248 файлов)
+└───raw-resx-done_ru-RU/        # Исходные переведенные файлы .resx (251 файл)
 ```
 
 Окончания строк зафиксированы в `.gitattributes`: в репозитории всё хранится в LF,
 `.resx`/`.ps1`/`.nuspec` в рабочем дереве — CRLF (их расходуют ResGen и Windows
 PowerShell), документация и JSON — LF. Без этого каждый, кто клонирует репозиторий,
-получал бы EOL по своей настройке `core.autocrlf`, и кэш хэшей считал бы все 248 файла
+получал бы EOL по своей настройке `core.autocrlf`, и кэш хэшей считал бы все 251 файл
 изменёнными.
 
 **Основные файлы:**
@@ -76,17 +76,18 @@ PowerShell), документация и JSON — LF. Без этого кажд
 
 ## 📊 Статистика проекта
 
-**Файлов перевода:** 248 `.resx`
-**Строк в них:** 33 963 элементов `<data>`, из них 33 247 содержат кириллицу в значении.
-&nbsp;&nbsp;&nbsp;&nbsp;Отчёт `build/i18n-verify-translations.ps1` считает 33 961: два ключа записаны в resx дважды
+**Файлов перевода:** 251 `.resx`
+**Строк в них:** 34 026 элементов `<data>` (34 024 уникальных ключа), из них 33 327 содержат кириллицу в значении.
+&nbsp;&nbsp;&nbsp;&nbsp;Отчёт `build/i18n-verify-translations.ps1` считает 34 024: два ключа записаны в resx дважды
 &nbsp;&nbsp;&nbsp;&nbsp;(`MustHaveInitToImplementMessage` в Daemon.CSharp и `ConvertPropertyToMethod...` в Intentions.CSharp),
 &nbsp;&nbsp;&nbsp;&nbsp;значения в дублях побайтово совпадают, поэтому словарь на одну пару меньше.
 &nbsp;&nbsp;&nbsp;&nbsp;Считано XML-парсером по детям корня: наивный поиск `<data name=` по тексту файла даёт 34 917,
 &nbsp;&nbsp;&nbsp;&nbsp;потому что в шапке каждого resx лежат 4 примера из XSD-документации.
-**Текущая версия:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`)
-**Последнее обновление:** 24 сентября 2026 года
-**Размер исходных .resx:** 7 603 724 байт
-**Общий размер .resources:** 5 745 387 байт
+**Текущая версия:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`) — цель mainline;
+для живой 2026.1 локально собран устанавливаемый `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`)
+**Последнее обновление:** 26 сентября 2026 года
+**Размер исходных .resx:** 7 634 435 байт
+**Общий размер .resources:** 5 756 379 байт
 
 **Крупнейшие модули:**
 - JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 КБ)
@@ -109,30 +110,37 @@ PowerShell), документация и JSON — LF. Без этого кажд
 `-Stamp`. Поэтому пересъём сверки не шумит в `git diff`: изменился отчёт — значит
 изменились числа, а не время прогона.
 
-Замер против ReSharper 2026.2.2 (`ReSharperPlatformVs18_e6a7a229`), 24.09.2026:
+Замер против живой установки ReSharper 2026.1 (каталог `ReSharperPlatformVs18_e6a7a229_000`,
+`DeploymentPackagingIdentity.txt` = `261.0.20260329.174930`), 26.09.2026:
 
 | Показатель | Значение |
 |---|---|
-| DLL просканировано | 624 (загрузить не удалось 2 нативные) |
-| Neutral `.resources` в платформе | 337 |
-| **Покрыто пакетом** | **185 из 337** |
-| Не покрыто | 152 |
+| DLL просканировано | 620 (загрузить не удалось 2 нативные) |
+| Neutral `.resources` в платформе | 344 |
+| **Покрыто пакетом** | **187 из 344** |
+| Не покрыто | 157 |
 | `.resx` пакета, которых нет в этой установке | 63 (Rider, dotTrace Home, CommandLine, ForTea…) |
-| Задеплоено `.resources` в `i18n` установки | 248 = 248, расхождений нет |
+| Задеплоено `.resources` в `i18n` установки | 236 из 251 — 15 наборов не задеплоены (нет их в VS-установке, включая DotPeekCommon), лишнего нет |
 
-152 непокрытых — это не «непереведённые строки». Разложение:
+157 непокрытых — это не «непереведённые строки». Разложение:
 
-- **94 набора — чужие библиотеки**: NuGet.* (15), Microsoft.* (45), DevExpress (17), System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. Механизм сателлитов ReSharper их не перекрывает, и в интерфейс VS они почти не попадают.
-- **58 наборов — свои (JetBrains.*), и по фактическому числу строковых записей в них:**
+- **98 наборов — чужие библиотеки**: Microsoft.* (45), NuGet.* (19), DevExpress (17), System.* (8), Actipro (5), yWorks (2), MahApps, NHunspell. Механизм сателлитов ReSharper их не перекрывает, и в интерфейс VS они почти не попадают.
+- **59 наборов — свои (JetBrains.*), и по фактическому числу строковых записей в них:**
   - 13 наборов = 2 892 строки — `JetBrains.ReSharper.Psi.Src.Asp.Resources.Sharepoint.ResourceFiles.*`. Это справочные данные SharePoint, нужные PSI для разбора ASP.NET-разметки, а не текст интерфейса. **Переводить нельзя.**
   - 38 наборов = **0 строк** — пустые контейнеры локализации WinForms/WPF-форм (`ProductBaseForm`, `PromptWinForm`, `AdvancedNamingSettingsForm`, `TemplateChooserDialog`, `AdjustNamespacesPage` и т. п.): текст в таких диалогах зашит в код, resource-механизмом он не локализуется. **Доставывать нечего.**
-  - 7 наборов = **42 строки**, и все переводить нельзя по содержанию — каждая прочитана из neutral-ресурса DLL: `Razor.CSharp.Resources.Texts` (15) — шаблоны генерируемого C#-кода, `Application.BuildScript.Compile.LicenseTexts` (15) и `DotTraceLicenseSupportResources` (5) — тексты EULA/RTF-соглашений, XML/XSLT-паттерны и XML-индекс инспекций (6), AHE-токен VS-пакета (1).
+  - 8 наборов = **47 строк**, и все переводить нельзя по содержанию — каждая прочитана из neutral-ресурса DLL: `Razor.CSharp.Resources.Texts` (15) — шаблоны генерируемого C#-кода, `Application.BuildScript.Compile.LicenseTexts` (15), `ReSharperLicenseSupportResources` (5) и `DotTraceLicenseSupportResources` (5) — тексты EULA/RTF-соглашений, XML/XSLT-паттерны и XML-индекс инспекций (6 = FileLayoutPattern 3 + AdditionalFileLayout 2 + CodeInspectionWiki 1), AHE-токен VS-пакета (1).
   - Переводимый остаток **12 наборов = 60 строк** закрыт 24.09.2026: 12 строк — три копии набора `UnitTestProvider.MSTest12/14/15…Strings` (по 4), переведённые как в уже покрытом `…MSTest11.Resources.Strings.ru-RU.resx`; 6 строк — интерфейс dotTrace: `DotTrace.Ide.Core.Interface.resources.Resources` (2) и `dotTraceInstant.ViewModel.Interface.resources.Resources` (4: «Удалить», «Удалить сеанс?», «Остановить»). Паритет ключей с нейтральным ресурсом проверен чтением из DLL (2==2, 4==4). Разбор по строкам — в TODO.md, таблица печатается аудитом.
+  - 26.09.2026 сравнение ВСЕГО дерева `C:\Program Files (x86)\JetBrains` (1458 `JetBrains*.dll`, скрипт
+    `build/i18n-compare-tree.ps1`) вместо одного каталога установки нашло ещё один разрыв: в
+    `JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings` не хватало 52 ключа из 3359, плюс две таблицы
+    261-эры (`JetBrains.VsIntegration.Resources.SR` — 4 строки,
+    `JetBrains.dotTraceInstant.Model.Interface.resources.Resources` — 2). Закрыто коммитом `374dbf6`,
+    всего в пакете стало 251 `.resx` / 251 `.resources` (добавлен и переведён набор standalone-dotPeek `DotPeekCommon`).
 
-**Вывод:** «доставать все ресурсы из всех DLL» не нужно. Из 337 наборов переводимых
+**Вывод:** «доставать все ресурсы из всех DLL» не нужно. Из 344 наборов переводимых
 строк не осталось: локализуемый остаток закрыт полностью, а непокрытыми остались только
 непереводимые по природе данные (справочники SharePoint, лицензии, шаблоны кода, пустые
-формы-контейнеры) — на фоне 33 961 записи в 248 resx пакета.
+формы-контейнеры) — на фоне 34 024 записей в 251 resx пакета.
 Ресурсы, отсутствующие в установке VS (63 наших `.resx`), оставлены намеренно: они
 принадлежат продуктам того же пакета `.resources`-механики (Rider/dotPeek/dotMemory/dotTrace
 Home), которые мы поддерживаем тем же исходником.
@@ -172,7 +180,7 @@ neutral-английским. Это не пропуск перевода, а д
 
 ### `resx-to-resources.ps1`
 
-> **📅 Последнее обновление:** 2026-09-24  
+> **📅 Последнее обновление:** 2026-09-26  
 > **✨ Что нового сегодня:**
 > - ✅ Все `.ps1`/`.psm1` сохранены с UTF-8 BOM: без него Windows PowerShell 5.1 читает скрипт в ANSI-кодировке и спотыкается о русские строки
 > - ✅ `build.ps1` и `VersionManager.psm1` читают `.nuspec` с явным `-Encoding UTF8` (раньше прогон под 5.1 перекодировал русский текст в кракозябры)
@@ -333,6 +341,20 @@ PM> Install-Package BaHooo.ReSharper.I18n.ru
 1. Скачайте `.nupkg` файл из [Releases](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases)
 2. Перетащите файл в окно ReSharper Extensions
 3. Перезапустите Visual Studio
+
+### Offline-продукты (dotPeek / dotTrace / dotMemory / dotCover)
+Standalone-приложения не читают `Extensions\*\i18n` — у них культура и сателлиты берутся
+из переменных окружения (механизм `JetBrains.Application.I18n` в `JetBrains.Platform.Shell.dll`,
+проверен декомпиляцией): `JET_BACKEND_CULTURE=ru-RU` задаёт культуру,
+`JET_BACKEND_LOCALIZATION_FOLDERS` — папку с файлами `<Набор>.ru-RU.resources`
+(путь в base64, поиск плоский, без подпапок).
+
+Один запуск `build/i18n-offline-deploy.ps1` зеркалит `build\resources` в
+`%LOCALAPPDATA%\JetBrains\i18n-ru` и пишет в `…\i18n-ru\launchers\` по `.bat`
+на каждый продукт (`ru-dotPeek261.bat`, `ru-dotTrace261.bat`, `ru-dotMemory261.bat`,
+`ru-dotCover261.bat`) — запускайте приложения через них. Проверено живьём: dotPeek 2026.1
+с этими переменными открывает интерфейс по-русски («Файл / Вид / Навигация / Инспекция»,
+«Обозреватель сборок»).
 
 ---
 
@@ -648,6 +670,9 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2026.03.28** - Переход на ReSharper 2025.3.3, релиз 2025.3.3.10
 - **2026.09.24** - Ревизия пайплайна (кодировки скриптов, порча `.nuspec` при сборке в PowerShell 5.1), сборка 2025.3.3.11
 - **2026.09.24** - Переход на ReSharper 2026.2.2: 507 новых строк в 57 таблицах, wave поднят до `[262.0.0]`, перезаливка перевода после mojibake-сбора, пакет `2026.2.2.1`
+- **2026.09.25** - Полный смысловой скан en/ru против живого neutral (26 777 пар) и перепроверка каждой кандидатуры: 38 исправленных строк в 13 таблицах (`161d7f8`, `ff0923d`, `3d76498`, `5647f87`)
+- **2026.09.26** - Дерево-сравнение всей библиотеки JetBrains: закрыт паритет Cpp (52 ключа) + 2 таблицы 261-эры, всего 250 `.resx`; для живой 2026.1 локально собран устанавливаемый пакет `2026.1.0.1` (wave `[261.0.0]`), mainline остаётся `2026.2.2.1` / `[262.0.0]`
+- **2026.09.26** - Перевод для offline-приложений: декомпиляцией `JetBrains.Platform.Shell.dll` найден официальный механизм standalone-локализации (`JET_BACKEND_CULTURE` + `JET_BACKEND_LOCALIZATION_FOLDERS`), добавлена таблица standalone-dotPeek `DotPeekCommon` (4 строки), `build/i18n-offline-deploy.ps1` готовит папку сателлитов и .bat-запускатели для dotPeek/dotTrace/dotMemory/dotCover 261; живьём проверено на dotPeek (русский интерфейс)
 
 ---
 
