@@ -118,34 +118,34 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
 <data name="ResetButtonTooltip" xml:space="preserve">
-  <value>Restore original list of system modules and assemblies</value>
+  <value>Восстановить исходный список системных модулей и сборок</value>
 </data>
 <data name="BeforeTableText" xml:space="preserve">
-  <value>To simplify analysis, the profiler hides functions that do not belong to user modules and assemblies.
-For example, by default, functions from system, Microsoft, UnityEngine, and other non-user namespaces are hidden.
-Such function calls are greyed out in the call tree, and such call chains are collapsed to reduce the depth of the call tree.
+  <value>Чтобы упростить анализ, профайлер скрывает функции, которые не относятся к пользовательским модулям и сборкам.
+Например, функции из System, Microsoft, UnityEngine и других непользовательских пространств имён по умолчанию скрыты.
+Такие вызовы функций отображаются серым в дереве вызовов, а цепочки таких вызовов сворачиваются, чтобы уменьшить глубину дерева.
 
-Collapse function calls from the following modules and assemblies:</value>
+Сворачивать вызовы функций из следующих модулей и сборок:</value>
 </data>
 <data name="AddModuleDuplicateErrorTextPrecise" xml:space="preserve">
-  <value>A module with this name already exists in the `{0}` category</value>
+  <value>Модуль с таким именем уже есть в категории `{0}`</value>
 </data>
 <data name="AfterTableText" xml:space="preserve">
-  <value>User-defined modules are shown in bold</value>
+  <value>Определяемые пользователем модули выделены полужирным</value>
 </data>
 <data name="AddModuleDuplicateErrorText" xml:space="preserve">
-  <value>A module with this name already exists in the list</value>
+  <value>Модуль с таким именем уже есть в списке</value>
 </data>
 <data name="ResetButtonText" xml:space="preserve">
-  <value>Reset to Default</value>
+  <value>Сбросить по умолчанию</value>
 </data>
 <data name="RemoveButtonText" xml:space="preserve">
-  <value>Remove</value>
+  <value>Удалить</value>
 </data>
 <data name="AddModuleDialogTitle" xml:space="preserve">
-  <value>Add Module/Assembly</value>
+  <value>Добавить модуль или сборку</value>
 </data>
 <data name="AddButtonText" xml:space="preserve">
-  <value>Add</value>
+  <value>Добавить</value>
 </data>
 </root>

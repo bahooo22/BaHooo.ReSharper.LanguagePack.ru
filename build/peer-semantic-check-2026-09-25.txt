@@ -1,0 +1,316 @@
+Независимая смысловая сверка перевода против установки _000 (2026-09-25)
+========================================================================
+
+Метод: из build/i18n-translation-report.txt (переснят против
+ReSharperPlatformVs18_e6a7a229_000) взяты блоки ПЛЕЙСХОЛДЕРЫ (213 строк, 8 таблиц) и
+ru==en (358 строк, 67 таблиц). Выборка: 46 строк = все 10 не-Daemon.CSharp плейсхолдерных
++ 14 случайных Daemon.CSharp (seed 42) + 22 ru==en из 22 разных таблиц (приор - строки со
+словами, не токены). en прочитан ResourceReader-ом из DLL _000 (регистронезависимо), ru -
+из resx. Каждая пара просмотрена целиком, а не только плейсхолдеры.
+
+Итог: 44/46 пар корректны или приемлемы. НАЙДЕНЫ 2 РЕАЛЬНЫХ ДЕФЕКТА (ниже).
+
+ДЕФЕКТ 1. Потеряно имя параметра, модификатор печатается дважды
+------------------------------------------------------------------------
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / RefReadonlyParameterDefaultValueMessage
+EN: A default value is specified for '{0}' parameter '{1}', but '{0}' should be used only
+    for references. Consider declaring the parameter as '{2}'
+    (аргументы: {0} = 'ref readonly', {1} = имя параметра, {2} = 'in')
+RU: Для параметра 'ref readonly' '{0}' указано значение по умолчанию, но 'ref readonly'
+    должен использоваться только для ссылок. Рассмотрите объявление параметра как 'in'
+Слот {0} стоит там, где по смыслу нужно имя параметра ({1}). При форматировании {0}
+подставляет ПЕРВЫЙ аргумент, то есть строку 'ref readonly'; рендер:
+  «Для параметра 'ref readonly' 'ref readonly' указано значение по умолчанию...»
+имя параметра в сообщении не появляется вообще. Это класс «реально теряем значение»,
+не косметика. Предлагаемый ru (все три слота по назначению):
+  Для параметра '{1}' (модификатор '{0}') указано значение по умолчанию, хотя '{0}'
+  должен использоваться только для ссылок. Рассмотрите объявление параметра как '{2}'.
+
+ДЕФЕКТ 2. Целиком непереведённая таблица: SystemModulesConstants (9 ключей)
+------------------------------------------------------------------------
+JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants - это не
+«латинические константы», как значилось в старой классификации, а видимая страница настроек
+профайлера «System Modules»: кнопки, заголовок диалога, тексты ошибок и абзац-пояснение.
+Все 9 значений в нашем resx - дословный английский. Флаг ru==en это маскировал.
+Предлагаемые ru:
+  AddButtonText                      Добавить
+  AddModuleDialogTitle               Добавить модуль или сборку
+  AddModuleDuplicateErrorText        Модуль с таким именем уже есть в списке
+  AddModuleDuplicateErrorTextPrecise Модуль с таким именем уже есть в категории `{0}`
+  AfterTableText                     Определяемые пользователем модули выделены полужирным
+  BeforeTableText                    Для удобства анализа профайлер скрывает функции, не
+                                     относящиеся к пользовательским модулям и сборкам.
+                                     Например, по умолчанию скрыты функции из System, Microsoft,
+                                     UnityEngine и других непользовательских пространств имён.
+                                     Вызовы таких функций показаны в дереве вызовов серым, а их
+                                     цепочки свёрнуты для уменьшения глубины дерева.
+                                     (пустая строка)
+                                     Свёртывать вызовы функций из следующих модулей и сборок:
+  RemoveButtonText                   Удалить
+  ResetButtonText                    Сбросить по умолчанию
+  ResetButtonTooltip                 Восстановить исходный список системных модулей и сборок
+ВНИМАНИЕ: en этой таблицы в _000 отличается по формулировкам от нашего resx (например
+AddModuleDuplicateErrorText: en «Such module name already exists in the list», у нас
+«A module with this name...») - таблица не догоняла и смену формулировок upstream.
+
+Ответы на прямые вопросы задания
+------------------------------------------------------------------------
+НЕТ КЛЮЧЕЙ: список ПУСТ - фикс RemoveNullableTypeAnnotationsFromConstraints_Text закрыл
+единственную позицию; против _000 недостающих ключей 0.
+ПУСТОЕ ЗНАЧЕНИЕ: все 4 (ActionText/dotTrace.VS, Message6/Daemon.VB,
+DiffModeShowAll_Comment_Text/ExternalSources, _Description_Text/Feature.Services) против _000
+тоже пусты у upstream - не пропуски, отчёт помечает их «en тоже пуст».
+ЛИШНИЕ КЛЮЧИ: 52 ключа в 52 файлах (по одному на файл) - наш resx содержит ключи, которых
+уже нет в neutral _000: upstream удалил их при переходе на этот билд. Риск нулевой (запросить
+их в этой установке нечем), хранить можно безболезненно; при желании - отдельная чистка.
+
+Замечания второго уровня (НЕ дефекты, для истории)
+------------------------------------------------------------------------
+- RecordMemberMayNotBeStaticMessage: ru захардкодил «static» вместо {1}; ключ обещает только
+  static, риск низкий, но если инспекция передаст другой модификатор - соврёт.
+- Copyright__AllRightsReserved_Text (UI и UI.Avalonia): авторская строка «Перевод © Иван
+  "BaHooo" Зеленкевич, {1}» использует {1} как год - так задумано автором пакета и годами
+  виден в About; сверка это не оспаривает, просто фиксирует.
+- Кастинг ключей: в resx «InreadonlyStructsMustBereadonly...» и «HasoutParameters...» против
+  DLL «InReadonly...BeReadonly...» и «HasOutParameters...». Рантайм ищет регистронезависимо
+  (ResourceSet), проверки тоже; чинить не нужно.
+- CSharp_EditorConfigOverride_Text и PdbHasNotBeenGenerated... - уже в TODO как «требуют
+  значения из рантайма»; сверка подтверждает статус-кво.
+
+Построчные вердикты выборки (46)
+------------------------------------------------------------------------
+[1] PH DPA.Core.Resources.Strings / Tooltip_SqlCommandCountIssue_Template
+    EN: {0} DB {1} executed, {2}
+    RU: Выполнено {0} команд БД, {2}
+    вердикт: OK: {1} (уточнение «commands») вписан в слово «команд», {0}/{2} на местах
+
+[2] PH DPA.Core.Resources.Strings / Tooltip_SqlConnectionCountIssue_Template
+    EN: {0} DB {1}, {2}
+    RU: {0} подключений к БД, {2}
+    вердикт: OK: {1} впитан в «подключений к БД», смысл сохранён
+
+[3] PH JetBrains.ReSharper.Feature.Services.CSharp.Resources.Strings / CSharp_EditorConfigOverride_Text
+    EN: {0} for {1} overrides some naming rules on this page
+    RU: Некоторые правила именования на этой странице переопределяются {0} для решения
+    вердикт: известное: {1} (имя решения) захардкожен словом «решения» - в TODO, требует рантайма
+
+[4] PH JetBrains.ReSharper.Feature.Services.ExternalSources.CSharp.Resources.Strings / PdbHasNotBeenGeneratedBecauseAssembly_WithPdbName_AndSignature___Text
+    EN: PDB has not been generated because assembly {0} with PDB name {1} and signature {2} {3}
+    RU: PDB не был создан, так как сборка {0} имеет имя PDB {1} и сигнатуру {2}
+    вердикт: известное: {3} (сигнатура сборки) потерян - в TODO, требует рантайма
+
+[5] PH JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings / DynamicResource_0Usage_WillBeBroken_Text
+    EN: Dynamic resource '{0}' {{0, usage}}{1} will be broken
+    RU: Использование {{0}} ресурса DynamicResource '{0}'{1} будет нарушено
+    вердикт: OK: оба слота на местах, литерал {{0}} сохранён
+
+[6] PH JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings / Resource0UsageInlineWillProduceConflicts_Text
+    EN: Inlining resource {0, usage} will produce conflicts
+    RU: Встраивание использования ресурса {0} создаст конфликты
+    вердикт: OK: upstream сам хранит невалидный {{0, usage}}; наш {0} безопаснее оригинала
+
+[7] PH JetBrains.ReSharper.Refactorings.Xaml.Resources.Strings / StaticResource_0Usage_WillBeBroken_Text
+    EN: Static resource '{0}' {{0, usage}}{1} will be broken
+    RU: Использование {{0}} ресурса StaticResource '{0}'{1} будет нарушено
+    вердикт: OK: аналогично [5]
+
+[8] PH JetBrains.UI.Avalonia.Resources.Strings / Copyright__AllRightsReserved_Text
+    EN: All rights reserved. © {0} {1}
+    RU: Все права защищены. © {0} {1}
+  
+BaHooo.ReSharper.I18n.ru, v. 2026.2.2.1
+Перевод © Иван "BaHooo" Зеленкевич, {1}
+    вердикт: OK (авторское): подпись переводчика с {0}/{1} - намеренный текст автора пакета
+
+[9] PH JetBrains.UI.Resources.CommonStrings / __Change_WillBeLostUnlessApplied_Text
+    EN: {0} {1} change{2} will be lost unless applied
+    RU: Изменения {0} {1} будут потеряны, если не применить
+    вердикт: OK: {2} - английская флексия «s», в русской не нужна, потерять корректно
+
+[10] PH JetBrains.UI.Resources.Strings / Copyright__AllRightsReserved_Text
+    EN: All rights reserved. © {0} {1}
+    RU: Все права защищены. © {0} {1}
+  
+BaHooo.ReSharper.I18n.ru, v. 2026.2.2.1 
+Перевод © Иван "BaHooo" Зеленкевич, {1}
+    вердикт: OK (авторское): аналогично [8]
+
+[11] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / RecordMemberMayNotBeStaticMessage
+    EN: Record member '{0}' cannot be '{1}'
+    RU: Член записи '{0}' не может быть static
+    вердикт: наблюдение: {1} захардкожен как «static»; ключ обещает static, риск низкий
+
+[12] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / InterpolatedStringHandlerArgumentHasNoEffectWhenAppliedToLambdaParametersAndWillBeIgnoredAtTheCallSiteMessage
+    EN: [{0}] has no effect when applied to lambda parameters and will be ignored at the call site
+    RU: [InterpolatedStringHandlerArgument] не оказывает никакого эффекта при применении к параметрам лямбда-выражений и будет игнорироваться в точке вызова
+    вердикт: OK: [{0}] - имя атрибута-константы, вписано литералом
+
+[13] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / EnumeratorObjectIsNotDisposedMessage
+    EN: {0} call result is never disposed
+    RU: Результат вызова 'GetEnumerator' никогда не освобождается
+    вердикт: OK: {0} - имя метода-константы GetEnumerator по смыслу ключа
+
+[14] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / RefReadonlyParameterDefaultValueMessage
+    EN: A default value is specified for '{0}' parameter '{1}', but '{0}' should be used only for references. Consider declaring the parameter as '{2}'
+    RU: Для параметра 'ref readonly' '{0}' указано значение по умолчанию, но 'ref readonly' должен использоваться только для ссылок. Рассмотрите объявление параметра как 'in'
+    вердикт: ДЕФЕКТ 1 - см. шапку
+
+[15] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / ModuleInitializerCannotBeAttributedWithUnmanagedCallersOnlyMessage
+    EN: Module initializer cannot be attributed with [{0}]
+    RU: Инициализатор модуля не может иметь атрибут 'UnmanagedCallersOnly'
+    вердикт: OK: [{0}] = UnmanagedCallersOnly по смыслу ключа
+
+[16] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / MethodLacksDoesNotReturnAnnotationInOrderToMatchImplementedMemberMessage
+    EN: Method '{0}' lacks [{1}] annotation in order to match implemented member
+    RU: Методу '{0}' не хватает аннотации '[DoesNotReturn]', необходимой для соответствия реализуемому члену
+    вердикт: OK: [{1}] = DoesNotReturn по смыслу ключа
+
+[17] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / MergeAndPatternOperandsMessage
+    EN: Merge '{0}' pattern operands
+    RU: Объединить операнды шаблона 'and'
+    вердикт: OK: {0} = «and» по смыслу ключа
+
+[18] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / IsAttributedWithUnmanagedCallersOnlyAndCannotBeCalledDirectlyObtainAFunctionPointerToThisMethodMessage
+    EN: '{0}' is attributed with [{1}] and cannot be called directly. Obtain a function pointer to this method.
+    RU: Метод '{0}' атрибутирован с помощью "UnmanagedCallersOnly" и не может быть вызван напрямую. Получите указатель на функцию для этого метода.
+    вердикт: OK: [{1}] = UnmanagedCallersOnly по смыслу ключа
+
+[19] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / RefOrOutAreNotValidInThisContextMessage
+    EN: '{0}' or '{1}' are not valid in this context
+    RU: ref или out недопустимы в этом контексте
+    вердикт: OK: {0}/{1} = ref/out - обе константы вписаны
+
+[20] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / InterceptorScopedMismatchMessage
+    EN: Cannot intercept call to '{0}' with '{1}' because of a difference in '{2}' modifiers or '[{3}]' attributes
+    RU: Невозможно перехватить вызов "{0}" с "{1}", потому что модификатор 'scoped' или атрибут '[UnscopedRef]' различаются
+    вердикт: OK: {2}/{3} = scoped/UnscopedRef по смыслу ключа, {0}/{1} сохранены
+
+[21] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / RedundantIEnumerableCastTCallMessage
+    EN: Redundant '{0}.{1}<T>' call
+    RU: Избыточный вызов 'IEnumerable.Cast<T>'
+    вердикт: OK: {0}.{1}<T> = IEnumerable.Cast<T> по смыслу ключа
+
+[22] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / PartialMethodMustHaveAccessibilityModifiersBecauseItHasOutParametersMessage
+    EN: Partial method '{0}' must have accessibility modifiers because it has '{1}' parameters
+    RU: Частичный метод "{0}" должен иметь модификаторы доступности, потому что он имеет параметры "out"
+    вердикт: OK: {1} = «out» по смыслу ключа, {0} сохранён
+
+[23] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / InstanceAutoPropertiesInReadonlyStructsMustBeReadonlyMessage
+    EN: Instance auto-properties in '{0}' structs must be {1}-only or {2}-only
+    RU: Экземплярные автосвойства в структурах 'readonly' должны быть только для чтения или только для инициализации
+    вердикт: OK: {0}/{1}/{2} = readonly/read/init - все три константы, смысл передан полностью
+
+[24] PH JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / PossibleOverflowInUncheckedContextMessage
+    EN: Possible overflow in '{0}' context
+    RU: Возможно переполнение в unchecked-контексте
+    вердикт: OK: {0} = unchecked; «Возможно переполнение» - допустимая формулировка
+
+[25] RUEN DPA.Core.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings - машинный синтаксис CLDR, не переводить
+
+[26] RUEN JetBrains.Application.Resources.Strings / _CtrlP_Text
+    EN: {0} (Ctrl+P)
+    RU: {0} (Ctrl+P)
+    вердикт: OK: универсальная клавиатурная подсказка
+
+[27] RUEN JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants / AfterTableText
+    EN: User-defined modules are shown in bold
+    RU: User-defined modules are shown in bold
+    вердикт: ДЕФЕКТ 2 - реальный UI-текст, оставлен английским (вся таблица из 9)
+
+[28] RUEN JetBrains.DotTrace.DataStructures.Resources.Strings / AsyncSupportSettingDescription
+    EN: AsyncSupport
+    RU: AsyncSupport
+    вердикт: OK: upstream хранит в value сырой токен ключа
+
+[29] RUEN JetBrains.Platform.VisualStudio.Backend.Resources.Strings / _VisualStudio_Text
+    EN: _Visual Studio
+    RU: _Visual Studio
+    вердикт: OK: имя продукта с мнемоникой
+
+[30] RUEN JetBrains.Platform.VisualStudio.SinceVs10.Resources.Strings / InternalTreasury_Text
+    EN: Internal Treasury
+    RU: Internal Treasury
+    вердикт: OK: имя внутренней фичи (Internal Treasury), переводить не принято
+
+[31] RUEN JetBrains.Profiler.InternalLauncher.Resources.Strings / AlwaysOnTopSettingDescription
+    EN: AlwaysOnTop
+    RU: AlwaysOnTop
+    вердикт: OK: токен-описание настройки
+
+[32] RUEN JetBrains.Profiler.Resources.UITexts / ApplicationKind_IISExpress
+    EN: IIS Express
+    RU: IIS Express
+    вердикт: OK: имя продукта
+
+[33] RUEN JetBrains.ProjectModel.ProjectsHost.Resources.Strings / DotnetWorkloadInstall__Text
+    EN: dotnet workload install {0}
+    RU: dotnet workload install {0}
+    вердикт: OK: CLI-команда, переводить нельзя
+
+[34] RUEN JetBrains.ProjectModel.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[35] RUEN JetBrains.PsiFeatures.UIInteractive.Features.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[36] RUEN JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings / _VisualStudio_Text
+    EN: _Visual Studio
+    RU: _Visual Studio
+    вердикт: OK: имя продукта
+
+[37] RUEN JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings / VisualStudio_Text
+    EN: Visual Studio
+    RU: Visual Studio
+    вердикт: OK: имя продукта
+
+[38] RUEN JetBrains.PsiFeatures.VisualStudio.SinceVs17.Resources.Strings / PredictiveDebugger_Text
+    EN: Predictive Debugger
+    RU: Predictive Debugger
+    вердикт: OK: имя фичи JetBrains (в ru-интерфейсе не переводится)
+
+[39] RUEN JetBrains.ReSharper.Daemon.CSharp.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[40] RUEN JetBrains.ReSharper.Daemon.Resources.Strings3 / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[41] RUEN JetBrains.ReSharper.Daemon.SolutionAnalysis.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[42] RUEN JetBrains.ReSharper.ExternalServices.DataGrip.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[43] RUEN JetBrains.ReSharper.ExternalSources.Resources.Strings / NuGetPackagesConfig_Text
+    EN: NuGet packages.config
+    RU: NuGet packages.config
+    вердикт: OK: технический термин (формат файла)
+
+[44] RUEN JetBrains.ReSharper.Feature.Services.Resources.Strings / choice:mappings
+    EN: one:i == 1
+    RU: one:i == 1
+    вердикт: OK: choice:mappings
+
+[45] RUEN JetBrains.ReSharper.Feature.Services.VB.Resources.LocalizedStrings / VisualBasicOptionPageTitle
+    EN: Visual Basic
+    RU: Visual Basic
+    вердикт: OK: имя языка
+
+[46] RUEN JetBrains.ReSharper.Feature.Services.Web.Resources.Strings / JavaScriptOptionPageTitle
+    EN: JavaScript
+    RU: JavaScript
+    вердикт: OK: имя языка

@@ -3526,7 +3526,7 @@
     <value>Функция является рекурсивной на всех путях выполнения</value>
 </data>
 <data name="RefReadonlyParameterDefaultValueMessage" xml:space="preserve">
-    <value>Для параметра 'ref readonly' '{0}' указано значение по умолчанию, но 'ref readonly' должен использоваться только для ссылок. Рассмотрите объявление параметра как 'in'</value>
+    <value>Для параметра '{1}' (модификатор '{0}') указано значение по умолчанию, хотя '{0}' должен использоваться только для ссылок. Рассмотрите объявление параметра как '{2}'</value>
 </data>
 <data name="RedundantEmptySwitchSectionMessage" xml:space="preserve">
     <value>Избыточная пустая секция switch</value>
