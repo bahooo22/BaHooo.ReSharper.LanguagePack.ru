@@ -12,22 +12,30 @@
 - [x] Перезалить переводы из чистого JSON, убрать mojibake — `d8bc33e`
 - [x] Поднять Wave до `[262.0.0]` (ReSharper 2026.2) — `3e4b91d`
 - [x] Синхронизировать версию `2026.2.2.1` в обоих `.nuspec` и в version-bearing `.resx` — `0c78161`, `1efb180`
-- [x] Пересобрать `.resources` и упаковать: на 26.09 в `raw-resx-done_ru-RU/` 250 файлов, в `build/resources/` 250
+- [x] Пересобрать `.resources` и упаковать: на 26.09 в `raw-resx-done_ru-RU/` 251 файл, в `build/resources/` 251
+      (34 026 элементов `<data>`, 34 024 уникальных ключа, 33 327 значений с кириллицей)
 - [x] Дерево-сравнение всей библиотеки JetBrains (1458 `JetBrains*.dll`, `build/i18n-compare-tree.ps1`): закрыт
       паритет `Feature.Services.Cpp` (не хватало 52 ключа из 3359) + 2 таблицы 261-эры
       (`VsIntegration.Resources.SR`, `dotTraceInstant.Model.Interface`) — `374dbf6`
 - [x] Для живой 2026.1 локально собран устанавливаемый пакет
-      `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.1.0.1.nupkg` (250 `.resources`, wave `[261.0.0]`);
+      `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.1.0.1.nupkg` (251 `.resources`, wave `[261.0.0]`,
+      пересобран 26.09 02:43 после добавления DotPeekCommon);
       mainline-nuspec откачен к `2026.2.2.1` / `[262.0.0]`, в git bump под 261 не поднимался
-- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 26.09 01:46 и
-      содержат уже 250 ресурсов (58 новых строк), тогда как опубликованный `2026.2.2.1` — 248. Под тем же номером
+- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 26.09 02:36 и
+      содержат уже 251 ресурс (+3 набора и 62 новые строки сверх опубликованного `2026.2.2.1` на 248). Под тем же номером
       заливать нельзя: публикация новых строк только следующим bump-циклом и только по явном «повышай» от пользователя
 - [x] Задеплоить в тестовый `i18n`-каталог: на 25.09 было 248 из 248. **Регресс 26.09:** после возврата пользователя
-      на 2026.1 в `i18n` лежит 236 файлов (mtime 25.09 22:11), 14 наборов не задеплоены — среди них три MSTest-
+      на 2026.1 в `i18n` лежит 236 файлов (mtime 25.09 22:11), 15 наборов не задеплоены (14 прежних + `DotPeekCommon`)
+      — среди них три MSTest-
       копии, `DotTrace.Ide.Core.Interface`, обе таблицы dotTraceInstant, `VsIntegration.Resources.SR`,
       `Application.Res.StringTable`, `Application.Resources.VsResources`, `DPA.Ide.VS.Resources.Strings`,
       `Profiler.Windows.Resources.Strings`, `SignatureVerifier.Messages`, `Standalone.TabWell`,
       `UI.Resources.StringTable`. Перезалить из `build/resources` либо поставить `2026.1.0.1`
+- [x] Offline-приложения (dotPeek/dotTrace/dotMemory/dotCover standalone): культура только из переменной
+      окружения `JET_BACKEND_CULTURE`, сателлиты ищутся ПЛОСКО (`<Set>.<culture>.resources`) в папках из
+      `JET_BACKEND_LOCALIZATION_FOLDERS` (base64(UTF8) путь, разделитель `;`); `Extensions\*\i18n` — только канал VS.
+      `build/i18n-offline-deploy.ps1` кладёт 251 плоский ресурс в `%LOCALAPPDATA%\JetBrains\i18n-ru` и пишет
+      `launchers\ru-{dotPeek,dotTrace,dotMemory,dotCover}261.bat` — проверено живьём на dotPeek 261 (`86303f1`)
 - [ ] `git push origin main` + тег `2026.2.2.1`
 - [ ] После возврата 2026.2.x переснять `build/i18n-semantic-scan.ps1`, `build/i18n-audit.ps1` и
       `build/dll-coverage-matrix.ps1` против живой 262: текущие цифры покрытия (620 DLL / 344 neutral /
