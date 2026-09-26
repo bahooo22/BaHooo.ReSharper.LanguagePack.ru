@@ -1,6 +1,6 @@
 # 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate]()
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://destream.net/live/bahooo22_06537/donate)
 
 ![ReSharper Russian Language Pack Icon](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
@@ -13,7 +13,7 @@
 
 | CI | Release | License |
 |----|---------|---------|
-| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | 📜 License: [CC BY-NC-SA 4.0](LICENSE) |
+| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | 📜 License: [CC BY-NC-SA 4.0](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/LICENSE) |
 
 ---
 
@@ -28,9 +28,27 @@
 
 ## 🧭 Поддерживаемые версии
 
-- **ReSharper:** 2025.3 и совместимые версии.  
-- **Visual Studio:** 2019, 2022, 2026.  
-- **Rider:** совместимость не проверялась.  
+- **ReSharper:** пакет `2026.2.2.1` собран под ReSharper 2026.2.2 (wave `[262.0.0]`, Visual Studio 2026).  
+  Для ReSharper 2026.1 (VS 2022) в [Releases](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases) выкладывается сборка `2026.1.0.1` (wave `[261.0.0]`) с тем же переводом.
+- **Visual Studio:** 2019, 2022, 2026 (под конкретный wave — см. выше).
+- **Rider:** совместимость не проверялась.
+- Покрытие: **251 набор `.resources`**, 34 024 уникальные строковые записи платформы ReSharper — локализуемые ресурсы закрыты полностью.
+
+---
+
+## 🖥️ Offline-продукты (dotPeek / dotTrace / dotMemory / dotCover)
+
+Standalone-приложения JetBrains не читают каталог `Extensions\*\i18n` — культура и
+сателлиты берутся из переменных окружения:
+
+```
+JET_BACKEND_CULTURE=ru-RU
+JET_BACKEND_LOCALIZATION_FOLDERS=<base64(UTF8) путь к папке с *.ru-RU.resources>
+```
+
+Распакуйте `.nupkg` как zip и укажите в `JET_BACKEND_LOCALIZATION_FOLDERS` папку
+`DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n` — либо используйте `.bat`-запускатели
+из `build/i18n-offline-deploy.ps1` в [репозитории](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru).
 
 ---
 
@@ -47,7 +65,7 @@
 ## 🤝 Вклад
 
 Хотите помочь улучшить перевод?  
-- Форкните репозиторий и предложите изменения в `.resx` файлах.  
+- Файлы перевода (`.resx`) лежат в `raw-resx-done_ru-RU/` [репозитория](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru); форкните его и предложите изменения.  
 - Создайте Pull Request или Issue с описанием контекста.  
 - Обсуждение и предложения — в [GitHub Issues](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues) или [Telegram](https://t.me/compohelp_vitebsk).  
 
@@ -66,4 +84,4 @@
 - GitHub: [репозиторий](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)  
 - Issues: [открыть задачу](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)  
 - Telegram: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)  
-- Donate: 
+- Donate: https://destream.net/live/bahooo22_06537/donate

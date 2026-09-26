@@ -13,7 +13,7 @@
 
 | CI | Release | License |
 |----|---------|---------|
-| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | 📜 License: [CC BY-NC-SA 4.0](LICENSE) · [Additional Terms](LICENSE.additional.md) |
+| ![CI](https://img.shields.io/github/actions/workflow/status/bahooo22/BaHooo.ReSharper.LanguagePack.ru/pack-and-release.yml?branch=main&label=ci) | ![Release](https://img.shields.io/github/v/release/bahooo22/BaHooo.ReSharper.LanguagePack.ru) | 📜 License: [CC BY-NC-SA 4.0](LICENSE) · [Additional Terms](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/LICENSE.additional.md) |
 
 ---
 
@@ -33,9 +33,28 @@
 
 ## 🧭 Поддерживаемые версии
 
-- **ReSharper:** проверено на 2025.3 и совместимых версиях.  
-- **Visual Studio:** 2019, 2022, 2026.  
-- **.NET SDK:** требуется для локальной сборки `.resources`.
+- **ReSharper:** основной пакет `2026.2.2.1` собран под ReSharper 2026.2.2 (wave `[262.0.0]`, Visual Studio 2026).  
+  Для ReSharper 2026.1 (VS 2022) в [Releases](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/releases) выкладывается сборка `2026.1.0.1` (wave `[261.0.0]`) с тем же переводом.
+- **Visual Studio:** 2019, 2022, 2026 (под конкретный wave — см. выше).
+- Полное покрытие локализуемых ресурсов платформы 2026.x: **251 набор `.resources`**, 34 024 уникальные строковые записи, из них 33 327 переведены на кириллицу (остальные — имена продуктов и служебные токены, которые не переводятся ни в одном языке).
+
+---
+
+## 🖥️ Offline-продукты (dotPeek / dotTrace / dotMemory / dotCover)
+
+Standalone-приложения JetBrains не читают каталог `Extensions\*\i18n` — культура и
+сателлиты берутся из переменных окружения:
+
+```
+JET_BACKEND_CULTURE=ru-RU
+JET_BACKEND_LOCALIZATION_FOLDERS=<base64(UTF8) путь к папке с *.ru-RU.resources>
+```
+
+В репозитории `build/i18n-offline-deploy.ps1` зеркалит собранные `.resources` в
+`%LOCALAPPDATA%\JetBrains\i18n-ru` и пишет по `.bat`-запускателю на каждый продукт
+(`ru-dotPeek261.bat` и т. п.). Работает и с файлами из этого пакета: распакуйте
+`.nupkg` как zip и укажите в `JET_BACKEND_LOCALIZATION_FOLDERS` папку
+`DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n`.
 
 ---
 
@@ -47,14 +66,15 @@ BaHooo.ReSharper.I18n.ru.nupkg
 │  └─ Extensions/
 │     └─ BaHooo.ReSharper.I18n.ru/
 │        └─ i18n/
-│           ├─ *.resources
+│           └─ *.resources
 ├─ icon.png
+├─ README.md
 ├─ LICENSE
 └─ BaHooo.ReSharper.I18n.ru.nuspec
 ```
 
 Ключевые элементы:
-- `.resources` — бинарные файлы локализации, собранные из `.resx`.
+- `.resources` — бинарные файлы локализации, собранные из `.resx` (251 набор).
 - `.nuspec` — метаданные пакета.
 - `icon.png` — иконка плагина.
 - `LICENSE` — условия использования.
@@ -63,14 +83,13 @@ BaHooo.ReSharper.I18n.ru.nupkg
 
 ## 🛠️ Сборка и упаковка
 
-Основной скрипт: `resx-to-resources.ps1`.
+Сборка выполняется из корня [репозитория](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)
+основным скриптом `resx-to-resources.ps1` (инкрементальная конвертация `.resx` → `.resources`
+по хэшам, автоинкремент версии, упаковка NuGet + Marketplace). Полная документация
+по параметрам и примерам — в [README репозитория](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru#-основной-скрипт-сборки).
 
-Примеры:
-```
-Смотри: https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/edit/main/README.md#-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%BE%D0%B9-%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82-%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B8
-```
-
-Требуется: `resgen.exe` (входит в .NET SDK / Visual Studio).
+Требуется: `resgen.exe` (входит в Windows SDK; скрипт находит его сам), `nuget.exe`
+(при необходимости скачивается автоматически).
 
 ---
 
@@ -79,6 +98,7 @@ BaHooo.ReSharper.I18n.ru.nupkg
 - Плагин не появляется в списке локализаций:
   - Перезапустите Visual Studio.
   - Убедитесь, что `.resources` лежат в `DotFiles/Extensions/BaHooo.ReSharper.I18n.ru/i18n/`.
+  - Проверьте, что версия пакета соответствует wave платформы (2026.2.x — для ReSharper 2026.2).
   - Проверьте логи ReSharper (**Help → Show Log**).
 
 - Ошибка при установке `.nupkg`:
@@ -122,7 +142,7 @@ BaHooo.ReSharper.I18n.ru.nupkg
 - GitHub: [репозиторий](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)  
 - Issues: [открыть задачу](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)  
 - Telegram: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)  
-- Donate: []()
+- Donate: https://destream.net/live/bahooo22_06537/donate
 
 ---
 
@@ -155,13 +175,13 @@ BaHooo.ReSharper.I18n.ru.nupkg
 Переводимые файлы лежат здесь:
 
 ```
-DotFiles/Extensions/BaHooo.ReSharper.I18n.ru/i18n/
+raw-resx-done_ru-RU/
 ```
 
 Формат файлов:
 
-* Основной формат для редактирования: **`.resx`**
-* Итоговый формат для ReSharper: **`.resources`**
+* Основной формат для редактирования: **`.resx`** (именно их правим в PR)
+* Итоговый формат для ReSharper: **`.resources`** — генерируется сборкой, в PR его класть не нужно
 
 Если `.resx` нет — откройте Issue, и автор добавит исходники.
 
@@ -192,23 +212,23 @@ JetBrains использует **binary .resources**, а `.resx` — тольк�
 Конвертация выполняется командой:
 
 ```
-resgen.exe File.resx File.resources
+resgen.exe File.ru-RU.resx File.ru-RU.resources
 ```
 
-или PowerShell:
+или одним запуском из корня репозитория:
 
 ```
-resgen File.resx File.resources
+.\resx-to-resources.ps1 -NoBuild
 ```
 
-**Важно:** имя файла должно оставаться тем же!
+**Важно:** имя набора должно оставаться тем же!
 
 Пример:
 
 ```
-JetBrains.ReSharper.Daemon.Main.Resources.Strings.resx
+JetBrains.ReSharper.Daemon.Main.Resources.Strings.ru-RU.resx
 ↓
-JetBrains.ReSharper.Daemon.Main.Resources.Strings.ru.resources
+JetBrains.ReSharper.Daemon.Main.Resources.Strings.ru-RU.resources
 ```
 
 ---
@@ -232,7 +252,7 @@ JetBrains.ReSharper.Daemon.Main.Resources.Strings.ru.resources
 Перед отправкой PR убедитесь, что:
 
 * `.resx` обновлены
-* `.resources` сгенерированы и находятся в нужных папках
+* конвертация проходит без ошибок (`.\resx-to-resources.ps1 -NoBuild`)
 * описание PR содержит:
 
   * какие модули переведены

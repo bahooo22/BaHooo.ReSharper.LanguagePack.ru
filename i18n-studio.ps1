@@ -7,8 +7,9 @@
     вывод в окно:
       - build/i18n-audit.ps1            — аудит покрытия нейтральных ресурсов DLL;
       - build/i18n-verify-translations.ps1 — проверка перевода (пустые, CJK, ключи, ru==en);
-      - resx-to-resources.ps1 -svu -fa  — пересборка .resources + упаковка без инкремента версии;
-      - resx-to-resources.ps1 -bo -svu  — только упаковка уже сконвертированных .resources;
+      - resx-to-resources.ps1           — полный конвейер: GUI-панель настроек покрывает
+        ВСЕ параметры скрипта (пути, версия, оба лога, режимы nb/nr/bo, sv/svu/fa,
+        потоки up, aa, CleanTools, NoNetwork, Help) и показывает точную командную строку;
       - ручной деплой build/resources/*.resources в i18n-каталог установки.
     Плюс список .resx с открытием выбранного в редакторе по двойному клику.
 
@@ -168,6 +169,58 @@ function Open-InEditor([string]$path) {
     Start-Process -FilePath $path
 }
 
+# Собирает аргументы resx-to-resources.ps1 из GUI-контролов. Отделено от окна,
+# чтобы прогонять проверки в -SelfTest. Возвращает @{ Errors; Args }.
+function Build-PipelineArgs {
+    $ret = @{ Errors = (New-Object System.Collections.Generic.List[string]); Args = (New-Object System.Collections.Generic.List[string]) }
+    $e = $ret.Errors; $a = $ret.Args
+    $v  = { param($c) if ($null -eq $c) { '' }
+                        elseif ($c -is [string]) { $c.Trim() }
+                        else { $c.Text.Trim() } }
+    $ck = { param($c) if ($null -ne $c) { [bool]$c.Checked } else { $false } }
+
+    $modeNB = & $ck $script:ckNoBuild; $modeNR = & $ck $script:ckNoResgen; $modeBO = & $ck $script:ckBuildOnly
+    $helpOn = & $ck $script:ckHelp
+    if (@($modeNB, $modeNR, $modeBO) -contains $true -and $helpOn) {
+        $e.Add('Справка (-Help) несовместима с режимами сборки и другими параметрами.')
+    }
+    if ($helpOn) {
+        $a.Add('-Help')
+        $t = & $v $script:cbTopic; if ($t) { [void]$a.AddRange([string[]]@('-Topic', $t)) }
+        if (& $ck $script:ckFull) { $a.Add('-Full') }
+        return $ret
+    }
+    $sel = @(@('NoBuild', 'NoResgen', 'BuildOnly') | Where-Object {
+        (& $ck $script:ckNoBuild -and $_ -eq 'NoBuild') -or
+        (& $ck $script:ckNoResgen -and $_ -eq 'NoResgen') -or
+        (& $ck $script:ckBuildOnly -and $_ -eq 'BuildOnly')
+    })
+    if ($sel.Count -gt 1) {
+        $e.Add("Режимы -NoBuild / -NoResgen / -BuildOnly взаимоисключающи (разные parameter sets): выбрано $($sel -join ', ').")
+    }
+    $rx  = & $v $script:txResx;  if ($rx)  { [void]$a.AddRange([string[]]@('-ResxFolder',    $rx)) }
+    $ro  = & $v $script:txOut;   if ($ro)  { [void]$a.AddRange([string[]]@('-ResourcesOutput', $ro)) }
+    $ver = & $v $script:txVersion
+    if ($ver -and $ver -notmatch '^\d+(\.\d+){0,3}$') { $e.Add("Версия '$ver' — ожидалось MAJOR.MINOR.PATCH.REVISION, например 2026.2.2.1.") }
+    if ($ver) { [void]$a.AddRange([string[]]@('-Version', $ver)) }
+    $lf  = & $v $script:txLog;   if ($lf)  { [void]$a.AddRange([string[]]@('-LogFile',       $lf)) }
+    $elf = & $v $script:txErr;   if ($elf) { [void]$a.AddRange([string[]]@('-ErrorLogFile',  $elf)) }
+    if (& $ck $script:ckNoBuild)  { $a.Add('-NoBuild') }
+    if (& $ck $script:ckNoResgen) { $a.Add('-NoResgen') }
+    if (& $ck $script:ckBuildOnly){ $a.Add('-BuildOnly') }
+    if (& $ck $script:ckSync)     { $a.Add('-SyncVersions') }
+    if (& $ck $script:ckSkipVU)   { $a.Add('-SkipVersionUpdate') }
+    if (& $ck $script:ckForceAll) { $a.Add('-ForceAll') }
+    $th = 0
+    if (-not [int]::TryParse((& $v $script:cbThreads), [ref]$th) -or $th -lt 0 -or $th -gt 64) {
+        $e.Add('Потоки: целое 0 (выкл), 1 (авто) или 2..64.')
+    } else { [void]$a.AddRange([string[]]@('-UseParallel', "$th")) }
+    if (& $ck $script:ckAcceptAll){ $a.Add('-AcceptAll') }
+    if (& $ck $script:ckCleanTools){ $a.Add('-CleanTools') }
+    if (& $ck $script:ckNoNetwork){ $a.Add('-NoNetwork') }
+    return $ret
+}
+
 if ($SelfTest) {
     # Проверка без графического окна: окружение + сквозной прогон Run-Tool на ephemeral-скрипте.
     $out = New-Object System.Collections.Generic.List[string]
@@ -184,11 +237,53 @@ if ($SelfTest) {
         $hasErr = (@($r.Lines | Where-Object { $_ -like '*проверка-stderr*' }).Count -gt 0)
         Write-Host ("SELFTEST exit={0} utf8-stdout={1} utf8-stderr={2}" -f $r.Exit, $hasRu, $hasErr)
         Write-Host ("LINES: " + $joined)
-        if ($r.Exit -eq 3 -and $hasRu -and $hasErr) { Write-Host 'SELFTEST=OK'; exit 0 }
-        else { Write-Host 'SELFTEST=FAIL'; exit 1 }
+        $toolOk = ($r.Exit -eq 3 -and $hasRu -and $hasErr)
+        if ($toolOk) { Write-Host 'SELFTEST=OK' } else { Write-Host 'SELFTEST=FAIL' }
     } finally {
         Remove-Item -LiteralPath $tmp -Force -ErrorAction SilentlyContinue
     }
+
+    # --- проверка сборщика аргументов конвейера на фейковых контролах (без окна) ---
+    $script:txResx = $null; $script:txOut = $null; $script:txVersion = $null
+    $script:txLog = $null;  $script:txErr  = $null
+    $script:ckNoBuild = $null; $script:ckNoResgen = $null; $script:ckBuildOnly = $null
+    $script:ckHelp = $null; $script:ckFull = $null; $script:cbTopic = 'Basic'
+    $script:ckSync = $null; $script:ckSkipVU = $null; $script:ckForceAll = $null
+    $script:cbThreads = '0'; $script:ckAcceptAll = $null; $script:ckCleanTools = $null; $script:ckNoNetwork = $null
+    $caseFails = 0
+    $chk = { param($cond, $name) if ($cond) { Write-Host "  [ok] $name" } else { $script:caseFails++; Write-Host "  [FAIL] $name" } }
+    $mk = { param($on = $false) [pscustomobject]@{ Checked = $on } }
+
+    $r = Build-PipelineArgs
+    & $chk ($r.Errors.Count -eq 0 -and ($r.Args -join ' ') -eq '-UseParallel 0') 'defaults -> -UseParallel 0, no errors'
+
+    $script:txResx = [pscustomobject]@{ Text = ' C:\my resx ' }
+    $script:txVersion = [pscustomobject]@{ Text = '2026.2.2.1' }
+    $script:ckSkipVU = & $mk $true; $script:ckAcceptAll = & $mk $true; $script:cbThreads = '8'
+    $r = Build-PipelineArgs
+    & $chk (($r.Args -join ' ') -eq '-ResxFolder C:\my resx -Version 2026.2.2.1 -SkipVersionUpdate -UseParallel 8 -AcceptAll') 'trim + order (raw values, quoting is Invoke-Tool job)'
+
+    $script:txVersion = [pscustomobject]@{ Text = '2026.2.x' }
+    $r = Build-PipelineArgs
+    & $chk ($r.Errors.Count -eq 1 -and $r.Errors[0] -like 'Версия*') 'bad version rejected'
+
+    $script:txVersion = [pscustomobject]@{ Text = '' }
+    $script:ckNoBuild = & $mk $true; $script:ckBuildOnly = & $mk $true
+    $r = Build-PipelineArgs
+    & $chk ($r.Errors.Count -eq 1 -and $r.Errors[0] -like '*взаимоисключающи*') 'NoBuild+BuildOnly rejected'
+    & $chk (($r.Args -join ' ') -like '*-NoBuild*-BuildOnly*' -or ($r.Args -join ' ') -like '*-BuildOnly*-NoBuild*') ('both modes still listed | got: [' + ($r.Args -join ' ') + ']')
+
+    $script:ckNoBuild = & $mk $false; $script:ckBuildOnly = & $mk $false; $script:ckSkipVU = $null; $script:ckAcceptAll = $null; $script:cbThreads = '0'; $script:txResx = $null
+    $script:ckHelp = & $mk $true; $script:ckFull = & $mk $true; $script:cbTopic = 'Parallelism'
+    $r = Build-PipelineArgs
+    & $chk (($r.Args -join ' ') -eq '-Help -Topic Parallelism -Full') 'help preset'
+
+    $script:ckNoBuild = & $mk $true
+    $r = Build-PipelineArgs
+    & $chk ($r.Errors.Count -ge 1 -and $r.Errors[0] -like 'Справка*') 'Help+mode rejected'
+
+    Write-Host ('PIPELINE-ARGCASES=' + $(if ($caseFails -eq 0) { 'OK' } else { "FAIL($caseFails)" }))
+    exit $(if ($toolOk -and $caseFails -eq 0) { 0 } else { 1 })
 }
 
 # ---------- GUI ----------
@@ -198,7 +293,7 @@ Add-Type -AssemblyName System.Drawing
 
 $form = New-Object System.Windows.Forms.Form
 $form.Text = 'I18n Studio — ReSharper RU'
-$form.Size = New-Object System.Drawing.Size(1000, 640)
+$form.Size = New-Object System.Drawing.Size(1000, 780)
 $form.StartPosition = 'CenterScreen'
 
 $split = New-Object System.Windows.Forms.SplitContainer
@@ -207,13 +302,27 @@ $split.Orientation = 'Vertical'
 [void]$form.Controls.Add($split)
 $split.SplitterDistance = 600
 
-# --- Левая часть: кнопки действий сверху, лог снизу ---
+# --- Левая часть (сверху вниз): панель настроек, кнопки, лог ---
+# Порядок добавления обратный зрительному: каждый следующий Dock='Top' встаёт
+# ВЫШЕ предыдущего, Fill — последним (замерено на живом окне).
 $btnPanel = New-Object System.Windows.Forms.FlowLayoutPanel
 $btnPanel.Dock = 'Top'
-$btnPanel.Height = 92
 $btnPanel.WrapContents = $true
+$btnPanel.Height = 140
 $btnPanel.Padding = 6
 [void]$split.Panel1.Controls.Add($btnPanel)
+
+# --- Панель полных настроек конвейера: покрывает все параметры resx-to-resources.ps1 ---
+# Единый FlowLayoutPanel с переносом по ширине и AutoSize: при 125-150% DPI
+# жёсткие ряды влезают не всегда, а перенос + авторост высоты работает при любом.
+$cfgPanel = New-Object System.Windows.Forms.FlowLayoutPanel
+$cfgPanel.Dock = 'Top'
+$cfgPanel.WrapContents = $true
+$cfgPanel.AutoSize = $true
+$cfgPanel.AutoSizeMode = 'GrowAndShrink'
+$cfgPanel.Padding = 4
+$cfgPanel.Width = 600
+[void]$split.Panel1.Controls.Add($cfgPanel)
 
 $log = New-Object System.Windows.Forms.RichTextBox
 $log.Dock = 'Fill'
@@ -247,6 +356,123 @@ function Add-MkButton {
 
 function Clear-Log { $log.Clear() }
 
+$cfgFont = New-Object System.Drawing.Font('Segoe UI', 9)
+# Ширина «переноса строки» для FlowLayoutPanel: неширокий невидимый контрол
+# шириной во всю клиентскую область заставляет следующий элемент начать новую строку.
+function New-CfgRow {
+    $brk = New-Object System.Windows.Forms.Label
+    $brk.Width = 584; $brk.Height = 1; $brk.Margin = New-Object System.Windows.Forms.Padding(0)
+    [void]$cfgPanel.Controls.Add($brk)
+}
+function Add-CfgControl([System.Windows.Forms.Control]$c) {
+    [void]$cfgPanel.Controls.Add($c); return $c
+}
+function New-LabeledText {
+    param([string]$Caption, [string]$Initial, [int]$Width = 150)
+    $lbl = New-Object System.Windows.Forms.Label
+    $lbl.Text = $Caption; $lbl.AutoSize = $true; $lbl.Font = $cfgFont
+    $lbl.Margin = New-Object System.Windows.Forms.Padding(6, 7, 2, 3)
+    $tb = New-Object System.Windows.Forms.TextBox
+    $tb.Text = $Initial; $tb.Width = $Width; $tb.Font = $cfgFont
+    $tb.Margin = New-Object System.Windows.Forms.Padding(2, 3, 2, 2)
+    [void](Add-CfgControl $lbl); [void](Add-CfgControl $tb)
+    return $tb
+}
+function New-CfgCheck {
+    param([string]$Caption, [string]$Hint)
+    $cb = New-Object System.Windows.Forms.CheckBox
+    $cb.Text = $Caption; $cb.AutoSize = $true; $cb.Font = $cfgFont
+    $cb.Margin = New-Object System.Windows.Forms.Padding(6, 5, 2, 2)
+    if ($Hint) { $script:cfgTip.SetToolTip($cb, $Hint) }
+    return (Add-CfgControl $cb)
+}
+$script:cfgTip = New-Object System.Windows.Forms.ToolTip
+function New-CfgCombo {
+    param([string]$Caption, [string[]]$Items, [string]$Selected, [int]$Width = 80)
+    $lbl = New-Object System.Windows.Forms.Label
+    $lbl.Text = $Caption; $lbl.AutoSize = $true; $lbl.Font = $cfgFont
+    $lbl.Margin = New-Object System.Windows.Forms.Padding(6, 7, 2, 3)
+    $cmb = New-Object System.Windows.Forms.ComboBox
+    $cmb.DropDownStyle = 'DropDownList'
+    [void]$cmb.Items.AddRange($Items)
+    $cmb.SelectedItem = $Selected; $cmb.Width = $Width; $cmb.Font = $cfgFont
+    $cmb.Margin = New-Object System.Windows.Forms.Padding(2, 3, 2, 2)
+    [void](Add-CfgControl $lbl); [void](Add-CfgControl $cmb)
+    return $cmb
+}
+
+New-CfgRow   # ряд 1: пути, версия, логи, потоки
+$script:txResx = New-LabeledText '.resx-папка' 'raw-resx-done_ru-RU' 160
+$script:txOut  = New-LabeledText '.resources-папка' 'build\resources' 120
+$script:txVersion = New-LabeledText 'Версия (пусто = авто)' '' 90
+$script:txLog  = New-LabeledText 'Лог' 'build.log' 90
+$script:txErr  = New-LabeledText 'Лог ошибок' 'build.errors.log' 110
+$script:cbThreads = New-CfgCombo 'Потоки (0=выкл, 1=авто)' @('0', '1', '2', '4', '8') '0' 55
+
+New-CfgRow   # ряд 2: взаимоисключающие режимы + версии/кэш
+$script:ckNoBuild   = New-CfgCheck 'NoBuild (без упаковки)' 'Конвертировать .resx, но не собирать пакеты (parameter set NoBuild).'
+$script:ckNoResgen  = New-CfgCheck 'NoResgen' 'Пропустить генерацию .resources через ResGen (parameter set NoResgen).'
+$script:ckBuildOnly = New-CfgCheck 'BuildOnly (без конвертации)' 'Только сборка пакетов из готовых .resources (parameter set BuildOnly).'
+$script:ckSync      = New-CfgCheck 'SyncVersions' 'Синхронизировать версии nuspec/resx перед выполнением.'
+$script:ckSkipVU    = New-CfgCheck 'SkipVerUpdate' 'SkipVersionUpdate: не инкрементировать версию (режим CI/CD и перевыпуска).'
+$script:ckForceAll  = New-CfgCheck 'ForceAll'
+
+New-CfgRow   # ряд 3: прочее + справка
+$script:ckAcceptAll = New-CfgCheck 'AcceptAll'
+$script:ckCleanTools= New-CfgCheck 'CleanTools'
+$script:ckNoNetwork = New-CfgCheck 'NoNetwork'
+$script:ckHelp      = New-CfgCheck 'Help'
+$script:cbTopic     = New-CfgCombo 'Topic' @('Basic','Paths','Modes','Parallelism','History','Tools','Config','Examples','Versioning','All') 'Basic' 110
+$script:ckFull      = New-CfgCheck 'Full'
+
+# NoBuild/NoResgen/BuildOnly — разные parameter sets: включение одного снимает остальные.
+$exclusive = {
+    param($self, $others)
+    $self.Add_Click({
+        if ($self.Checked) { foreach ($o in $others) { $o.Checked = $false } }
+        Update-PipelinePreview
+    }.GetNewClosure())
+}
+& $exclusive $script:ckNoBuild   @($script:ckNoResgen, $script:ckBuildOnly)
+& $exclusive $script:ckNoResgen  @($script:ckNoBuild, $script:ckBuildOnly)
+& $exclusive $script:ckBuildOnly @($script:ckNoBuild, $script:ckNoResgen)
+
+New-CfgRow   # последняя строка: предпросмотр итоговой командной строки
+$previewLbl = New-Object System.Windows.Forms.Label
+$previewLbl.AutoSize = $false
+$previewLbl.AutoEllipsis = $true
+$previewLbl.Width = 580; $previewLbl.Height = 16
+$previewLbl.UseMnemonic = $false
+$previewLbl.Font = New-Object System.Drawing.Font('Consolas', 8)
+$previewLbl.ForeColor = [System.Drawing.Color]::DarkSlateGray
+$previewLbl.Margin = New-Object System.Windows.Forms.Padding(6, 4, 2, 2)
+[void](Add-CfgControl $previewLbl)
+
+function Update-PipelinePreview {
+    $r = Build-PipelineArgs
+    $txt = 'pwsh -File resx-to-resources.ps1 ' + (($r.Args | ForEach-Object { Quote-Arg $_ }) -join ' ')
+    if ($r.Errors.Count -gt 0) {
+        $previewLbl.ForeColor = [System.Drawing.Color]::Firebrick
+        $previewLbl.Text = ($r.Errors -join ' ')
+    } else {
+        $previewLbl.ForeColor = [System.Drawing.Color]::DarkSlateGray
+        $previewLbl.Text = $txt
+    }
+}
+# Любое изменение настройки обновляет предпросмотр командной строки.
+foreach ($c in @($script:txResx, $script:txOut, $script:txVersion, $script:txLog, $script:txErr)) {
+    $c.Add_TextChanged({ Update-PipelinePreview })
+}
+foreach ($c in @($script:cbThreads, $script:cbTopic)) {
+    $c.Add_SelectedIndexChanged({ Update-PipelinePreview })
+}
+foreach ($c in @($script:ckNoBuild, $script:ckNoResgen, $script:ckBuildOnly, $script:ckSync, $script:ckSkipVU,
+                 $script:ckForceAll, $script:ckAcceptAll, $script:ckCleanTools, $script:ckNoNetwork,
+                 $script:ckHelp, $script:ckFull)) {
+    $c.Add_CheckedChanged({ Update-PipelinePreview })
+}
+Update-PipelinePreview
+
 $actAudit = Add-MkButton 'Аудит покрытия' {
     Invoke-Tool -File (Join-Path $BuildDir 'i18n-audit.ps1') -Log $log | Out-Null
     if (Test-Path -LiteralPath $CoverageReport) { Open-InEditor $CoverageReport }
@@ -257,13 +483,35 @@ $actVerify = Add-MkButton 'Проверка перевода' {
     if (Test-Path -LiteralPath $TranslationReport) { Open-InEditor $TranslationReport }
 } 'XML-валидность, пустые значения, CJK, наборы ключей, ru==en; пишет build/i18n-translation-report.txt.'
 
+$actRun = Add-MkButton '▶ Запустить по настройкам' {
+    $r = Build-PipelineArgs
+    if ($r.Errors.Count -gt 0) {
+        $log.AppendText([Environment]::NewLine + '[ОШИБКА] ' + ($r.Errors -join ' ') + [Environment]::NewLine)
+        [void][System.Windows.Forms.MessageBox]::Show($form, ($r.Errors -join [Environment]::NewLine),
+            'Параметры конвейера', 'OK', 'Error')
+        return
+    }
+    $log.AppendText('> resx-to-resources.ps1 ' + (($r.Args | ForEach-Object { Quote-Arg $_ }) -join ' ') + [Environment]::NewLine)
+    Invoke-Tool -File (Join-Path $Root 'resx-to-resources.ps1') -ToolArgs ([string[]]$r.Args) -Log $log | Out-Null
+} 'Полный запуск resx-to-resources.ps1 с параметрами из панели настроек (командная строка видна в предпросмотре).'
+
 $actRebuild = Add-MkButton 'Пересобрать без bump' {
-    Invoke-Tool -File (Join-Path $Root 'resx-to-resources.ps1') -ToolArgs @('-svu','-aa','-t','4') -Log $log | Out-Null
-} 'resx-to-resources.ps1 -svu -aa -t 4: конвертация всех .resx и сборка пакетов без инкремента версии.'
+    $savedVU = $script:ckSkipVU.Checked; $savedFA = $script:ckForceAll.Checked
+    $script:ckSkipVU.Checked = $true; $script:ckForceAll.Checked = $true
+    try { $actRun.PerformClick() } finally {
+        $script:ckSkipVU.Checked = $savedVU; $script:ckForceAll.Checked = $savedFA
+        Update-PipelinePreview
+    }
+} 'Пресет: -SkipVersionUpdate -ForceAll поверх настроек панели (без инкремента версии).'
 
 $actPack = Add-MkButton 'Только упаковка' {
-    Invoke-Tool -File (Join-Path $Root 'resx-to-resources.ps1') -ToolArgs @('-bo','-svu','-aa') -Log $log | Out-Null
-} 'resx-to-resources.ps1 -bo -svu: пересобрать пакеты из готовых .resources, без конвертации.'
+    $savedBO = $script:ckBuildOnly.Checked; $savedVU = $script:ckSkipVU.Checked
+    $script:ckBuildOnly.Checked = $true; $script:ckSkipVU.Checked = $true
+    try { $actRun.PerformClick() } finally {
+        $script:ckBuildOnly.Checked = $savedBO; $script:ckSkipVU.Checked = $savedVU
+        Update-PipelinePreview
+    }
+} 'Пресет: -BuildOnly -SkipVersionUpdate — пересобрать пакеты из готовых .resources, без конвертации.'
 
 $actDeploy = Add-MkButton 'Деплой в установку' {
     Invoke-Deploy -Log $log | Out-Null

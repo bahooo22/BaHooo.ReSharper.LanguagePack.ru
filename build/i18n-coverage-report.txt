@@ -3,14 +3,14 @@
 DLL просканировано:        620
   не удалось загрузить:    2
 Neutral .resources всего:  344
-Файлов в пакете (resx):    250
+Файлов в пакете (resx):    251
 Задеплоено в i18n:         236
 
 ПОКРЫТО ПАКЕТОМ:  187 из 344
 ОТСУТСТВУЕТ В ПАКЕТЕ: 157
-В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 63
+В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL (устаревшие?): 64
 Задеплоено лишнего (нет в resx): 0
-Есть в resx, но не задеплоено: 14
+Есть в resx, но не задеплоено: 15
 
 --- ОТСУТСТВУЮЩИЕ В ПАКЕТЕ (ресурс | DLL | размер байт | строковых записей) ---
     (-1 = ресурс не читается как набор имя/значение; 0 = пустой контейнер формы/картинок)
@@ -193,6 +193,7 @@ Neutral .resources всего:  344
   GammaJul.ForTea.Core.Resources.Strings.resources
   JetBrains.CommandLine.CleanupCode.Resources.Strings.resources
   JetBrains.DotPeek.Resources.Strings.resources
+  JetBrains.DotPeekCommon.Resources.Strings.resources
   JetBrains.dotTrace.Home.GUI.Avalonia.Resources.Strings.resources
   JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources
   JetBrains.DotTrace.Ide.Rider.Resources.Strings.resources
@@ -256,6 +257,7 @@ Neutral .resources всего:  344
 --- В RESX ЕСТЬ, НО НЕ ЗАДЕПЛОИРОВАНО В I18N ---
   JetBrains.Application.Res.StringTable.resources
   JetBrains.Application.Resources.VsResources.resources
+  JetBrains.DotPeekCommon.Resources.Strings.resources
   JetBrains.DotTrace.Ide.Core.Interface.resources.Resources.resources
   JetBrains.dotTraceInstant.Model.Interface.resources.Resources.resources
   JetBrains.dotTraceInstant.ViewModel.Interface.resources.Resources.resources
