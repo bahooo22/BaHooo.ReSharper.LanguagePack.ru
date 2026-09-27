@@ -74,8 +74,9 @@ setting, and the hash cache would report all 251 files as changed.
 &nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
 &nbsp;&nbsp;&nbsp;&nbsp;yields 35,010, because the header of every resx carries 4 XSD documentation examples.
-**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`) - the mainline target; a
-local-only `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`) build exists for the live 2026.1 install
+**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[261.0.0,263.0.0)` - 2026.1 and 2026.2) - the mainline
+target; the local `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`) build is no longer required after switching to
+the range, but it was not removed
 **Last update:** September 27, 2026
 **Source .resx size:** 7,634,435 bytes
 **Built .resources size:** 5,756,379 bytes
@@ -111,7 +112,7 @@ Measured against the live ReSharper 2026.1 install (`ReSharperPlatformVs18_e6a7a
 | **Covered by the package** | **187 of 344** |
 | Not covered | 157 |
 | Our `.resx` absent from this install | 64 (Rider, dotTrace Home, CommandLine, ForTea...) |
-| `.resources` deployed into the platform `i18n` folder | 236 of 251 - 15 sets not deployed, nothing extra |
+| `.resources` deployed into the platform `i18n` folder | 251 of 251 (measured 27.09), nothing extra; two files (`JetBrains.UI.Resources.Strings`, `JetBrains.UI.Avalonia.Resources.Strings`) in the install and in the offline folder still come from the rolled-back `v. 2026.2.2.2` build - awaiting a redeploy, see TODO |
 
 The 157 uncovered resources are not 157 pages of untranslated UI:
 
@@ -687,6 +688,7 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2026.09.25** - Full semantic scan of en/ru against the live neutral resources (26,777 pairs), every candidate re-checked by reading the neutral value back: 38 corrected strings in 13 tables (`161d7f8`, `ff0923d`, `3d76498`, `5647f87`)
 - **2026.09.26** - Tree comparison of the whole JetBrains library: Cpp key parity closed (52 keys) plus two 261-era tables, 250 `.resx` in total; installable `2026.1.0.1` (wave `[261.0.0]`) built locally for the live 2026.1, mainline stays `2026.2.2.1` / `[262.0.0]`
 - **2026.09.26** - Offline products: decompiling `JetBrains.Platform.Shell.dll` found the official standalone localization mechanism (`JET_BACKEND_CULTURE` + `JET_BACKEND_LOCALIZATION_FOLDERS`); the standalone-dotPeek table `DotPeekCommon` (4 strings) was added, `build/i18n-offline-deploy.ps1` stages the satellite folder and `.bat` launchers for dotPeek/dotTrace/dotMemory/dotCover 261; verified live on dotPeek (Russian UI)
+- **2026.09.27** - Wave changed from the point pin `[262.0.0]` to the range `[261.0.0,263.0.0)` (`87157bb`): one package now covers 2026.1 and 2026.2, so the separate `2026.1.0.1` build is no longer required. The silent bump incident (`2026.2.2.2`) was rolled back and its artifacts quarantined; `i18n-studio.ps1` now defaults `SkipVersionUpdate` to on, `FixedPanel='Panel1'` fixes the layout that "drifted" when maximized, and a field for the offline deployment folder was added. `build/resources` survives `git reset` (it is not tracked), so after a rollback the rebuild must use `-fa -svu`: all three packages were rebuilt at 21:48 and verified byte-by-byte plus the About string (`v. 2026.2.2.1`), 251 of 251 resources are deployed to the live catalogs
 
 ---
 

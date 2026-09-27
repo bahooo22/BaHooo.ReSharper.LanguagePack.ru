@@ -19,9 +19,14 @@
       (`VsIntegration.Resources.SR`, `dotTraceInstant.Model.Interface`) — `374dbf6`
 - [x] Для живой 2026.1 локально собран устанавливаемый пакет
       `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.1.0.1.nupkg` (251 `.resources`, wave `[261.0.0]`,
-      пересобран 26.09 02:43 после добавления DotPeekCommon);
-      mainline-nuspec откачен к `2026.2.2.1` / `[262.0.0]`, в git bump под 261 не поднимался
-- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 26.09 02:36 и
+      пересобран вручную 27.09 08:11: nuspec = `2026.1.0.1`/`[261.0.0]`, staging
+      `DotFiles\Extensions\BaHooo.ReSharper.I18n.ru\i18n` наполняется копией `build/resources`, затем прямой
+      `nuget.exe pack` — путь `-BuildOnly -SkipVersionUpdate` не годится, потому что `-svu` отменяет только
+      инкремент, а кросс-синхронизация версий между папками остаётся; без staging пакет собирается пустым (251→0).
+      С 27.09 (`87157bb`) mainline-wave — диапазон `[261.0.0,263.0.0)`, поэтому этот пакет больше не обязателен,
+      но не удалён; в git bump под 261 не поднимался
+- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 27.09 21:48
+      (`-fa -svu`) и
       содержат уже 251 ресурс (+3 набора и 62 новые строки сверх опубликованного `2026.2.2.1` на 248). Под тем же номером
       заливать нельзя: публикация новых строк только следующим bump-циклом и только по явном «повышай» от пользователя
 - [x] Задеплоить в тестовый `i18n`-каталог: на 25.09 было 248 из 248. **Регресс 26.09:** после возврата пользователя
@@ -30,7 +35,18 @@
       копии, `DotTrace.Ide.Core.Interface`, обе таблицы dotTraceInstant, `VsIntegration.Resources.SR`,
       `Application.Res.StringTable`, `Application.Resources.VsResources`, `DPA.Ide.VS.Resources.Strings`,
       `Profiler.Windows.Resources.Strings`, `SignatureVerifier.Messages`, `Standalone.TabWell`,
-      `UI.Resources.StringTable`. Перезалить из `build/resources` либо поставить `2026.1.0.1`
+      `UI.Resources.StringTable`. **Закрыто 27.09 замером: 251 из 251 и в `i18n` установки, и в оффлайн-папке,
+      лишнего нет** (остаток — два устаревших файла ниже)
+- [ ] **Перезалить 2 файла из `build/resources`** (VS должна быть закрыта): в `Extensions\BaHooo.ReSharper.I18n.ru\i18n`
+      и в `%LOCALAPPDATA%\JetBrains\i18n-ru` лежат `JetBrains.UI.Resources.Strings.ru-RU.resources` (`623ABAC39C`)
+      и `JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resources` (`BE910F8210`) ещё из bump-прогона 26.09 21:52 —
+      их About читается как `v. 2026.2.2.2`, тогда как после `-fa -svu` в `build/resources` лежат
+      `0E2BA08969`/`080874B6F0` с `v. 2026.2.2.1`. Остальные 249 совпадают по хешам
+- [ ] После любого `git`-отката `.resx`: пересобирать только `-fa -svu`. `build/resources` вне git
+      (`.gitignore:467 *.resources`), поэтому откат его не трогает, а `build/resx-hashes.json` после отката совпадает
+      с содержимым `.resx` → инкрементный прогон и `-BuildOnly` молча упаковывают устаревшие `.resources`
+      (замер 27.09: пакеты 21:24 несли `v. 2026.2.2.2` при верном nuspec). Сверку пакетов делать не только по
+      количеству/wave, но и по байтам против `build/resources` и по строке About
 - [x] Offline-приложения (dotPeek/dotTrace/dotMemory/dotCover standalone): культура только из переменной
       окружения `JET_BACKEND_CULTURE`, сателлиты ищутся ПЛОСКО (`<Set>.<culture>.resources`) в папках из
       `JET_BACKEND_LOCALIZATION_FOLDERS` (base64(UTF8) путь, разделитель `;`); `Extensions\*\i18n` — только канал VS.
