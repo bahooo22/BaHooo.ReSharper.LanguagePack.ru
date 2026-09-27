@@ -16,7 +16,7 @@
 [![NuGet Downloads](https://img.shields.io/nuget/dt/BaHooo.ReSharper.I18n.ru)](https://www.nuget.org/packages/BaHooo.ReSharper.I18n.ru)
 [![Platform](https://img.shields.io/badge/platform-.NET-blue)](#)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/LICENSE)
-[![Donate](https://img.shields.io/badge/donate-red)]()
+[![Donate](https://img.shields.io/badge/donate-red)](https://destream.net/live/bahooo22_06537/donate)
 
 ---
 
@@ -81,20 +81,20 @@ PowerShell), документация и JSON — LF. Без этого кажд
 &nbsp;&nbsp;&nbsp;&nbsp;Отчёт `build/i18n-verify-translations.ps1` считает 34 024: два ключа записаны в resx дважды
 &nbsp;&nbsp;&nbsp;&nbsp;(`MustHaveInitToImplementMessage` в Daemon.CSharp и `ConvertPropertyToMethod...` в Intentions.CSharp),
 &nbsp;&nbsp;&nbsp;&nbsp;значения в дублях побайтово совпадают, поэтому словарь на одну пару меньше.
-&nbsp;&nbsp;&nbsp;&nbsp;Считано XML-парсером по детям корня: наивный поиск `<data name=` по тексту файла даёт 34 917,
+&nbsp;&nbsp;&nbsp;&nbsp;Считано XML-парсером по детям корня: наивный поиск `<data name=` по тексту файла даёт 35 010,
 &nbsp;&nbsp;&nbsp;&nbsp;потому что в шапке каждого resx лежат 4 примера из XSD-документации.
 **Текущая версия:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`) — цель mainline;
 для живой 2026.1 локально собран устанавливаемый `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`)
-**Последнее обновление:** 26 сентября 2026 года
+**Последнее обновление:** 27 сентября 2026 года
 **Размер исходных .resx:** 7 634 435 байт
 **Общий размер .resources:** 5 756 379 байт
 
 **Крупнейшие модули:**
-- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 КБ)
-- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (620 КБ)
-- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (410 КБ)
-- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (282 КБ)
-- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (279 КБ)
+- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (938 КБ)
+- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (624 КБ)
+- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (400 КБ)
+- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (276 КБ)
+- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (273 КБ)
 
 ---
 
@@ -119,7 +119,7 @@ PowerShell), документация и JSON — LF. Без этого кажд
 | Neutral `.resources` в платформе | 344 |
 | **Покрыто пакетом** | **187 из 344** |
 | Не покрыто | 157 |
-| `.resx` пакета, которых нет в этой установке | 63 (Rider, dotTrace Home, CommandLine, ForTea…) |
+| `.resx` пакета, которых нет в этой установке | 64 (Rider, dotTrace Home, CommandLine, ForTea…) |
 | Задеплоено `.resources` в `i18n` установки | 236 из 251 — 15 наборов не задеплоены (нет их в VS-установке, включая DotPeekCommon), лишнего нет |
 
 157 непокрытых — это не «непереведённые строки». Разложение:
@@ -141,7 +141,7 @@ PowerShell), документация и JSON — LF. Без этого кажд
 строк не осталось: локализуемый остаток закрыт полностью, а непокрытыми остались только
 непереводимые по природе данные (справочники SharePoint, лицензии, шаблоны кода, пустые
 формы-контейнеры) — на фоне 34 024 записей в 251 resx пакета.
-Ресурсы, отсутствующие в установке VS (63 наших `.resx`), оставлены намеренно: они
+Ресурсы, отсутствующие в установке VS (64 наших `.resx`), оставлены намеренно: они
 принадлежат продуктам того же пакета `.resources`-механики (Rider/dotPeek/dotMemory/dotTrace
 Home), которые мы поддерживаем тем же исходником.
 
@@ -180,7 +180,7 @@ neutral-английским. Это не пропуск перевода, а д
 
 ### `resx-to-resources.ps1`
 
-> **📅 Последнее обновление:** 2026-09-26  
+> **📅 Последнее обновление:** 2026-09-27  
 > **✨ Что нового сегодня:**
 > - ✅ Все `.ps1`/`.psm1` сохранены с UTF-8 BOM: без него Windows PowerShell 5.1 читает скрипт в ANSI-кодировке и спотыкается о русские строки
 > - ✅ `build.ps1` и `VersionManager.psm1` читают `.nuspec` с явным `-Encoding UTF8` (раньше прогон под 5.1 перекодировал русский текст в кракозябры)

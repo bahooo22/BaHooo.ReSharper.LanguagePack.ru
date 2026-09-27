@@ -39,7 +39,7 @@
 - [ ] `git push origin main` + тег `2026.2.2.1`
 - [ ] После возврата 2026.2.x переснять `build/i18n-semantic-scan.ps1`, `build/i18n-audit.ps1` и
       `build/dll-coverage-matrix.ps1` против живой 262: текущие цифры покрытия (620 DLL / 344 neutral /
-      187 покрыто / 157 без покрытия / 63 устаревших) сняты против 261
+      187 покрыто / 157 без покрытия / 64 устаревших) сняты против 261
 - [ ] Выложить `NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` на nuget.org
 - [ ] Выложить `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` в JetBrains Marketplace
 
@@ -153,7 +153,7 @@ CI (`pack-and-release.yml`) создаёт только GitHub Release с обо
 
 - [ ] Удалить из-под версионирования: `resx-to-resourcesV1.back`, `build/resx-hashes.json.back.json`, `NugetFolder/BaHooo.ReSharper.I18n.ru/build.ps1.txt` — это ручные бэкапы, git хранит историю лучше
 - [ ] Решить судьбу 6 `.resx`-заглушек: в них ровно **0** элементов `<data>` и 5816 байт — это чистый шаблон resx без единой строки перевода (`JetBrains.PsiFeatures.VisualStudio.SinceVs14`, `…SinceVs16RoslynAware`, `…Web.UIInteractive`, `JetBrains.Rider.Plugins.Verse`, `JetBrains.TeamCity.Presentation.Wpf`, `OperatorsResolveCacheGenerator`). Прежняя формулировка «по 4 служебные строки» — артефакт подсчёта: наивный regex ловил 4 примера из XSD-шапки файла. Либо удалить, либо объяснить в README, почему они пустые. Рядом стоял 7-й файл `JetBrains.Common.SystemModulesOptionsManager.Resources.SystemModulesConstants` — 9 записей без кириллицы. РЕШЕНО 25.09.2026: это не «латинические константы», а видимая страница настроек профайлера «System Modules» (кнопки, заголовок диалога, тексты ошибок, абзац-пояснение) — переведена целиком (проверено чтением neutral-значений из DLL установки `_000`)
-- [ ] Разобраться с 63 `.resx`, которых нет в DLL платформы 2026.2.2 (список в `build/i18n-coverage-report.txt`, секция «В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL»): Rider / dotPeek / dotTrace / Cpp / FSharp / TeamCity / SourceView — они нужны для Rider-сценария или мёртвый груз?
+- [ ] Разобраться с 64 `.resx`, которых нет в DLL живой установки 2026.1 (список в `build/i18n-coverage-report.txt`, секция «В ПАКЕТЕ, НО НЕ НАЙДЕНО В DLL»): Rider / dotPeek / dotTrace / Cpp / FSharp / TeamCity / SourceView — они нужны для Rider-сценария или мёртвый груз?
 - [x] Добавить `.gitattributes`: `* text=auto eol=lf` + принудительный CRLF для `*.resx`/`*.nuspec`/`*.ps1`/`*.cmd`, binary для dll/exe/nupkg/resources. `working-tree-encoding=UTF-8` сознательно НЕ используем: у 7 resx уже есть BOM, git добавил бы второй
 - [ ] Рабочую копию привести к новым правилам EOL одним `git add --renormalize .` + повторным
       checkout: сейчас `git ls-files --eol` показывает 285 индексовых blob'ов в LF (то есть новые

@@ -16,7 +16,7 @@
 [![Forks](https://img.shields.io/github/forks/bahooo22/BaHooo.ReSharper.LanguagePack.ru?style=social)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/network/members)
 [![Platform](https://img.shields.io/badge/platform-.NET-blue)](#)
 [![Language](https://img.shields.io/github/languages/top/bahooo22/BaHooo.ReSharper.LanguagePack.ru)](#)
-[![Donate](https://img.shields.io/badge/donate-red)]()
+[![Donate](https://img.shields.io/badge/donate-red)](https://destream.net/live/bahooo22_06537/donate)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/LICENSE)
 [![README Русский](https://img.shields.io/badge/README-Русский-blue)](./README.md)
 
@@ -47,13 +47,13 @@ A plugin for Russian localization of the **ReSharper** UI in Visual Studio.
 │   ├───i18n-audit.ps1         # Coverage audit: platform DLLs vs our package
 │   └───i18n-coverage-report.txt    # Its output - the numbers of "Resource coverage"
 ├───Tools/                      # Downloaded tools (not in git)
-└───raw-resx-done_ru-RU/        # Source translated .resx files (250 files)
+└───raw-resx-done_ru-RU/        # Source translated .resx files (251 files)
 ```
 
 Line endings are pinned by `.gitattributes`: everything is stored with LF in the repository,
 `.resx`/`.ps1`/`.nuspec` check out as CRLF (ResGen and Windows PowerShell consume them),
 docs and JSON stay LF. Without it every clone would get EOL from its own `core.autocrlf`
-setting, and the hash cache would report all 250 files as changed.
+setting, and the hash cache would report all 251 files as changed.
 
 **Key files:**
 - `resx-to-resources.ps1` - main build script
@@ -67,25 +67,25 @@ setting, and the hash cache would report all 250 files as changed.
 
 ## 📊 Project Statistics
 
-**Translation files:** 250 `.resx`
-**Strings in them:** 34,022 `<data>` elements, 33,323 of them have Cyrillic in the value.
-&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 34,020 because two keys are written twice in their
+**Translation files:** 251 `.resx`
+**Strings in them:** 34,026 `<data>` elements, 33,327 of them have Cyrillic in the value.
+&nbsp;&nbsp;&nbsp;&nbsp;`build/i18n-verify-translations.ps1` reports 34,024 because two keys are written twice in their
 &nbsp;&nbsp;&nbsp;&nbsp;resx (`MustHaveInitToImplementMessage` in Daemon.CSharp and `ConvertPropertyToMethod...` in
 &nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
-&nbsp;&nbsp;&nbsp;&nbsp;yields 34,917, because the header of every resx carries 4 XSD documentation examples.
+&nbsp;&nbsp;&nbsp;&nbsp;yields 35,010, because the header of every resx carries 4 XSD documentation examples.
 **Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[262.0.0]`) - the mainline target; a
-local-only `2026.1.0.1` (wave `[261.0.0]`, 250 `.resources`) build exists for the live 2026.1 install
-**Last update:** September 26, 2026
-**Source .resx size:** 7,630,775 bytes
-**Built .resources size:** 5,755,341 bytes
+local-only `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`) build exists for the live 2026.1 install
+**Last update:** September 27, 2026
+**Source .resx size:** 7,634,435 bytes
+**Built .resources size:** 5,756,379 bytes
 
 **Largest modules:**
-- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (960 KB)
-- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (620 KB)
-- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (410 KB)
-- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (282 KB)
-- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (279 KB)
+- JetBrains.ReSharper.Daemon.CSharp.Resources.Strings.ru-RU.resx (938 KB)
+- JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings.ru-RU.resx (624 KB)
+- JetBrains.ReSharper.Intentions.CSharp.Resources.Strings.ru-RU.resx (400 KB)
+- JetBrains.ReSharper.Daemon.Resources.Strings10.ru-RU.resx (276 KB)
+- JetBrains.ReSharper.Feature.Services.Resources.Strings.ru-RU.resx (273 KB)
 
 ---
 
@@ -110,8 +110,8 @@ Measured against the live ReSharper 2026.1 install (`ReSharperPlatformVs18_e6a7a
 | Neutral `.resources` in the platform | 344 |
 | **Covered by the package** | **187 of 344** |
 | Not covered | 157 |
-| Our `.resx` absent from this install | 63 (Rider, dotTrace Home, CommandLine, ForTea...) |
-| `.resources` deployed into the platform `i18n` folder | 236 of 250 - 14 sets not deployed, nothing extra |
+| Our `.resx` absent from this install | 64 (Rider, dotTrace Home, CommandLine, ForTea...) |
+| `.resources` deployed into the platform `i18n` folder | 236 of 251 - 15 sets not deployed, nothing extra |
 
 The 157 uncovered resources are not 157 pages of untranslated UI:
 
@@ -144,14 +144,14 @@ The 157 uncovered resources are not 157 pages of untranslated UI:
     `JetBrains.ReSharper.Feature.Services.Cpp.Resources.Strings` was missing 52 of its 3359 keys, plus two
     261-era sets (`JetBrains.VsIntegration.Resources.SR` - 4 strings,
     `JetBrains.dotTraceInstant.Model.Interface.resources.Resources` - 2). Closed in `374dbf6`; the pack is
-    now 250 `.resx` / 250 `.resources`.
+    now 251 `.resx` / 251 `.resources` (plus the standalone-dotPeek `DotPeekCommon` set).
 
 **Conclusion:** extracting resources from every DLL is not needed. Of the 344 platform
 resources no translatable strings are left: the localizable remainder is fully closed, and what
 stays uncovered is untranslated by nature (SharePoint reference data, licenses, generated-code
-templates, empty form containers) - against 34,020 records in the 250 resx files of the pack.
+templates, empty form containers) - against 34,024 records in the 251 resx files of the pack.
 
-The 63 of our `.resx` that are absent from this VS install are kept
+The 64 of our `.resx` that are absent from this VS install are kept
 on purpose: they belong to Rider, dotPeek, dotMemory and dotTrace Home, which this same source
 tree serves.
 
@@ -191,7 +191,7 @@ it shows exactly the same kind of junk the original shows.
 
 ### `resx-to-resources.ps1`
 
-> **📅 Last updated:** 2026-09-24  
+> **📅 Last updated:** 2026-09-27  
 > **✨ What's new today:**
 > - ✅ Every `.ps1`/`.psm1` is saved with a UTF-8 BOM: without it Windows PowerShell 5.1 reads the script in the system ANSI codepage, turns Cyrillic into garbage and fails to parse the file
 > - ✅ `build.ps1` and `VersionManager.psm1` read `.nuspec` with an explicit `-Encoding UTF8` (a run under 5.1 used to re-encode the Russian text into mojibake)
@@ -683,6 +683,9 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2026.03.28** - Moved to ReSharper 2025.3.3, release 2025.3.3.10
 - **2026.09.24** - Build pipeline revision (script encodings, `.nuspec` corruption under PowerShell 5.1), release 2025.3.3.11
 - **2026.09.24** - Moved to ReSharper 2026.2.2: 507 new strings in 57 tables, wave raised to `[262.0.0]`, package 2026.2.2.1, release 2026.2.2.1 not published yet
+- **2026.09.25** - Full semantic scan of en/ru against the live neutral resources (26,777 pairs), every candidate re-checked by reading the neutral value back: 38 corrected strings in 13 tables (`161d7f8`, `ff0923d`, `3d76498`, `5647f87`)
+- **2026.09.26** - Tree comparison of the whole JetBrains library: Cpp key parity closed (52 keys) plus two 261-era tables, 250 `.resx` in total; installable `2026.1.0.1` (wave `[261.0.0]`) built locally for the live 2026.1, mainline stays `2026.2.2.1` / `[262.0.0]`
+- **2026.09.26** - Offline products: decompiling `JetBrains.Platform.Shell.dll` found the official standalone localization mechanism (`JET_BACKEND_CULTURE` + `JET_BACKEND_LOCALIZATION_FOLDERS`); the standalone-dotPeek table `DotPeekCommon` (4 strings) was added, `build/i18n-offline-deploy.ps1` stages the satellite folder and `.bat` launchers for dotPeek/dotTrace/dotMemory/dotCover 261; verified live on dotPeek (Russian UI)
 
 ---
 
