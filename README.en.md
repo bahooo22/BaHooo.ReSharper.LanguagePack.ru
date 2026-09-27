@@ -371,7 +371,7 @@ dotPeek 2026.1 (fully Russian UI).
 ### Metadata:
 - **ID:** `BaHooo.ReSharper.I18n.ru`
 - **Version:** `2026.2.2.1`
-- **Dependencies:** Wave `[262.0.0]` (ReSharper 2026.2, Visual Studio 2026)
+- **Dependencies:** Wave `[261.0.0,263.0.0)` (ReSharper 2026.1–2026.2, Visual Studio 2026)
 - **License:** CC BY-NC-SA 4.0 (acceptance required)
 
 ### Files:
@@ -530,9 +530,10 @@ After successful build, artifacts will be available in folders:
 - `2` - ReSharper patch (2026.2.2)
 - `1` - build number (incremented with changes)
 
-The first three components must match the supported platform: the package is built for one
-Wave, which is visible in `<dependency id="Wave" version="[262.0.0]" />` of both `.nuspec`
-files. A package built for 253 will not load under platform 262 at all.
+The Wave range is visible in `<dependency id="Wave" version="[261.0.0,263.0.0)" />` of both `.nuspec`
+files. Since 2026-09-27 the range `[261.0.0,263.0.0)` is used, so the package installs on ReSharper
+2026.1 (wave 261) and 2026.2 (262) alike; an exact pin such as `[262.0.0]` admits exactly one wave,
+and a package pinned to 253 will not load under platform 262 at all.
 
 **Files where version is updated:**
 - `NugetFolder/BaHooo.ReSharper.I18n.ru.nuspec`

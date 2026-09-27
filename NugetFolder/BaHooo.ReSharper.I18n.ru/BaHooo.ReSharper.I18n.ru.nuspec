@@ -114,8 +114,8 @@ English:
 
     <!-- DEPENDENCIES -->
     <dependencies>
-      <!-- Wave version from official ReSharper 2026.2 builds -->
-      <dependency id="Wave" version="[262.0.0]" />
+      <!-- Wave range: installs on ReSharper 2026.1 (wave 261) and 2026.2 (wave 262); exact pin admits one wave only -->
+      <dependency id="Wave" version="[261.0.0,263.0.0)" />
     </dependencies>
 
     <!-- LANGUAGE -->
