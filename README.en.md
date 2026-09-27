@@ -74,7 +74,7 @@ setting, and the hash cache would report all 251 files as changed.
 &nbsp;&nbsp;&nbsp;&nbsp;Intentions.CSharp); the duplicated values are byte-identical, so the dictionary is one pair shorter.
 &nbsp;&nbsp;&nbsp;&nbsp;Counted by an XML parser over root children: a naive search for `<data name=` in the file text
 &nbsp;&nbsp;&nbsp;&nbsp;yields 35,010, because the header of every resx carries 4 XSD documentation examples.
-**Current version:** 2026.2.2.1 (ReSharper 2026.2.2, wave `[261.0.0,263.0.0)` - 2026.1 and 2026.2) - the mainline
+**Current version:** 2026.2.2.2 (ReSharper 2026.2.2, wave `[261.0.0,263.0.0)` - 2026.1 and 2026.2) - the mainline
 target; the local `2026.1.0.1` (wave `[261.0.0]`, 251 `.resources`) build is no longer required after switching to
 the range, but it was not removed
 **Last update:** September 27, 2026
@@ -112,7 +112,7 @@ Measured against the live ReSharper 2026.1 install (`ReSharperPlatformVs18_e6a7a
 | **Covered by the package** | **187 of 344** |
 | Not covered | 157 |
 | Our `.resx` absent from this install | 64 (Rider, dotTrace Home, CommandLine, ForTea...) |
-| `.resources` deployed into the platform `i18n` folder | 251 of 251 (measured 27.09), nothing extra; two files (`JetBrains.UI.Resources.Strings`, `JetBrains.UI.Avalonia.Resources.Strings`) in the install and in the offline folder still come from the rolled-back `v. 2026.2.2.2` build - awaiting a redeploy, see TODO |
+| `.resources` deployed into the platform `i18n` folder | 251 of 251, nothing extra; byte-level comparison against `build/resources` on 27.09 22:05 shows 0 mismatches (same for the offline folder) |
 
 The 157 uncovered resources are not 157 pages of untranslated UI:
 
@@ -367,11 +367,11 @@ dotPeek 2026.1 (fully Russian UI).
 
 ## 📦 Package Contents
 
-**NuGet package (`BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg`):**
+**NuGet package (`BaHooo.ReSharper.I18n.ru.2026.2.2.2.nupkg`):**
 
 ### Metadata:
 - **ID:** `BaHooo.ReSharper.I18n.ru`
-- **Version:** `2026.2.2.1`
+- **Version:** `2026.2.2.2`
 - **Dependencies:** Wave `[261.0.0,263.0.0)` (ReSharper 2026.1–2026.2, Visual Studio 2026)
 - **License:** CC BY-NC-SA 4.0 (acceptance required)
 
@@ -459,9 +459,15 @@ Import-Module .\VersionManager.psm1
 - Identify modified/new/deleted files
 
 ### Stage 2: Version management
-- When changes detected: increment version (2025.3.0.4 → 2025.3.0.5)
+- When changes detected: increment version (2026.2.2.1 → 2026.2.2.2)
 - Update .nuspec files
 - Update .resx files
+- ⚠️ The whole stage is skipped when the `.resx` files show no changes (`resx-to-resources.ps1:1675`), and that
+  includes an explicit `-Version`: with a fresh `build/resx-hashes.json` the packages are silently built under the
+  OLD version. An explicit version must be applied either through synchronization (`-sv` - Stage 0,
+  `Sync-Versions -Force` at `:1651`, always applies) or by forcing a full resource rebuild (`-fa` - it sets
+  `HasChanges=$true` at `:1725`). `-aa` is unrelated: it only auto-accepts downloading tools. Working bump
+  combination: `-aa -sv -Version 'X'`
 
 ### Stage 3: Conversion
 - Only modified files are converted using ResGen
@@ -689,6 +695,7 @@ Get-Content build\resx-hashes.json | ConvertFrom-Json | Select-Object -First 5
 - **2026.09.26** - Tree comparison of the whole JetBrains library: Cpp key parity closed (52 keys) plus two 261-era tables, 250 `.resx` in total; installable `2026.1.0.1` (wave `[261.0.0]`) built locally for the live 2026.1, mainline stays `2026.2.2.1` / `[262.0.0]`
 - **2026.09.26** - Offline products: decompiling `JetBrains.Platform.Shell.dll` found the official standalone localization mechanism (`JET_BACKEND_CULTURE` + `JET_BACKEND_LOCALIZATION_FOLDERS`); the standalone-dotPeek table `DotPeekCommon` (4 strings) was added, `build/i18n-offline-deploy.ps1` stages the satellite folder and `.bat` launchers for dotPeek/dotTrace/dotMemory/dotCover 261; verified live on dotPeek (Russian UI)
 - **2026.09.27** - Wave changed from the point pin `[262.0.0]` to the range `[261.0.0,263.0.0)` (`87157bb`): one package now covers 2026.1 and 2026.2, so the separate `2026.1.0.1` build is no longer required. The silent bump incident (`2026.2.2.2`) was rolled back and its artifacts quarantined; `i18n-studio.ps1` now defaults `SkipVersionUpdate` to on, `FixedPanel='Panel1'` fixes the layout that "drifted" when maximized, and a field for the offline deployment folder was added. `build/resources` survives `git reset` (it is not tracked), so after a rollback the rebuild must use `-fa -svu`: all three packages were rebuilt at 21:48 and verified byte-by-byte plus the About string (`v. 2026.2.2.1`), 251 of 251 resources are deployed to the live catalogs
+- **2026.09.27 (evening)** - Bump `2026.2.2.1` → `2026.2.2.2` (`c28b6ec`) by explicit user decision. The first bump run silently did nothing (`-Version` without `-sv`/`-fa` is not applied while the hash cache is fresh - `resx-to-resources.ps1:1675`); the retry with `-aa -sv -Version` produced the correct packages at 22:03. Verified by unpacking: both `*.2026.2.2.2.nupkg` report `ver=2026.2.2.2`, the wave range is intact, 251 `.resources` are byte-identical to `build/resources`, the embedded About reads `v. 2026.2.2.2`, and the embedded README matches its side file by SHA-256. Side effect: the two files deployed earlier with `v. 2026.2.2.2` became correct - both live catalogs (VS and offline) now match `build/resources` completely, 0 mismatches
 
 ---
 

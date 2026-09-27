@@ -4,7 +4,7 @@
 
 ---
 
-## 🔥 Ближайший релиз: 2026.2.2.1
+## 🔥 Ближайший релиз: 2026.2.2.2
 
 Всё готово локально и проверено измерением, а не со слов. Осталась только публикация.
 
@@ -12,6 +12,10 @@
 - [x] Перезалить переводы из чистого JSON, убрать mojibake — `d8bc33e`
 - [x] Поднять Wave до `[262.0.0]` (ReSharper 2026.2) — `3e4b91d`
 - [x] Синхронизировать версию `2026.2.2.1` в обоих `.nuspec` и в version-bearing `.resx` — `0c78161`, `1efb180`
+- [x] Bump `2026.2.2.1` → `2026.2.2.2` (`c28b6ec`, 27.09 22:03): оба `.nuspec`, About в двух version-bearing `.resx`,
+      hash-кэши; wave-диапазон `[261.0.0,263.0.0)` не тронут. Верификация распаковкой: оба `*.2026.2.2.2.nupkg` —
+      `ver=2026.2.2.2`, 251 `.resources`, побайтово равны `build/resources` (mismatch 0), About везде `v. 2026.2.2.2`,
+      README внутри = боковой по SHA-256
 - [x] Пересобрать `.resources` и упаковать: на 26.09 в `raw-resx-done_ru-RU/` 251 файл, в `build/resources/` 251
       (34 026 элементов `<data>`, 34 024 уникальных ключа, 33 327 значений с кириллицей)
 - [x] Дерево-сравнение всей библиотеки JetBrains (1458 `JetBrains*.dll`, `build/i18n-compare-tree.ps1`): закрыт
@@ -25,10 +29,13 @@
       инкремент, а кросс-синхронизация версий между папками остаётся; без staging пакет собирается пустым (251→0).
       С 27.09 (`87157bb`) mainline-wave — диапазон `[261.0.0,263.0.0)`, поэтому этот пакет больше не обязателен,
       но не удалён; в git bump под 261 не поднимался
-- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` пересобраны 27.09 21:48
-      (`-fa -svu`) и
-      содержат уже 251 ресурс (+3 набора и 62 новые строки сверх опубликованного `2026.2.2.1` на 248). Под тем же номером
-      заливать нельзя: публикация новых строк только следующим bump-циклом и только по явном «повышай» от пользователя
+- [ ] **ОПАСНОСТЬ, проверено распаковкой:** локальные `*/artifacts/*.2026.2.2.1.nupkg` (пересобраны 27.09 22:00/22:01
+      прогоном, где bump молча не применился)
+      содержат уже 251 ресурс (+3 набора и 62 новые строки сверх опубликованного `2026.2.2.1` на 248). Под этим номером
+      заливать нельзя никогда; цель публикации после bump'а `c28b6ec` — `2026.2.2.2` (этот номер не публиковался).
+      Не перепутать файл: в `E:\Temp\quarantine-2026.2.2.2\{nuget,marketplace}` лежат `.2026.2.2.2.nupkg` той же
+      серии 26.09 20:59 (1 986 844 / 1 984 466 байт) — НЕ публиковать, настоящие артефакты — в `*/artifacts/`
+      (1 986 850 / 1 984 473 байт, 27.09 22:03)
 - [x] Задеплоить в тестовый `i18n`-каталог: на 25.09 было 248 из 248. **Регресс 26.09:** после возврата пользователя
       на 2026.1 в `i18n` лежит 236 файлов (mtime 25.09 22:11), 15 наборов не задеплоены (14 прежних + `DotPeekCommon`)
       — среди них три MSTest-
@@ -36,28 +43,42 @@
       `Application.Res.StringTable`, `Application.Resources.VsResources`, `DPA.Ide.VS.Resources.Strings`,
       `Profiler.Windows.Resources.Strings`, `SignatureVerifier.Messages`, `Standalone.TabWell`,
       `UI.Resources.StringTable`. **Закрыто 27.09 замером: 251 из 251 и в `i18n` установки, и в оффлайн-папке,
-      лишнего нет** (остаток — два устаревших файла ниже)
-- [ ] **Перезалить 2 файла из `build/resources`** (VS должна быть закрыта): в `Extensions\BaHooo.ReSharper.I18n.ru\i18n`
-      и в `%LOCALAPPDATA%\JetBrains\i18n-ru` лежат `JetBrains.UI.Resources.Strings.ru-RU.resources` (`623ABAC39C`)
-      и `JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resources` (`BE910F8210`) ещё из bump-прогона 26.09 21:52 —
-      их About читается как `v. 2026.2.2.2`, тогда как после `-fa -svu` в `build/resources` лежат
-      `0E2BA08969`/`080874B6F0` с `v. 2026.2.2.1`. Остальные 249 совпадают по хешам
+      лишнего нет; побайтовая сверка после bump'а — расхождений 0**
+- [x] **Перезалить 2 файла из `build/resources`** — закрыто самим bump'ом, перезаливка не нужна (замер 27.09 22:05,
+      VS закрыта): `JetBrains.UI.Resources.Strings.ru-RU.resources` и `JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resources`
+      лежали в `Extensions\BaHooo.ReSharper.I18n.ru\i18n` и в `%LOCALAPPDATA%\JetBrains\i18n-ru` с байтами bump-прогона
+      26.09 21:52 (`623ABAC39C`/`BE910F8210`, About `v. 2026.2.2.2`) и расходились с `build/resources` на версии
+      `2026.2.2.1`. После `-fa`/bump'а на `2026.2.2.2` в `build/resources` ровно те же байты → побайтовая сверка:
+      251 из 251, расхождений 0, лишних и отсутствующих 0 в ОБОИХ каналах
 - [ ] После любого `git`-отката `.resx`: пересобирать только `-fa -svu`. `build/resources` вне git
       (`.gitignore:467 *.resources`), поэтому откат его не трогает, а `build/resx-hashes.json` после отката совпадает
       с содержимым `.resx` → инкрементный прогон и `-BuildOnly` молча упаковывают устаревшие `.resources`
       (замер 27.09: пакеты 21:24 несли `v. 2026.2.2.2` при верном nuspec). Сверку пакетов делать не только по
       количеству/wave, но и по байтам против `build/resources` и по строке About
+- [ ] Правка пайплайна (предложение владелице `resx-to-resources.ps1`): применять явный `-Version X` независимо от
+      `HasChanges` — сейчас `Update-VersionIfChangesDetected` выходит на `resx-to-resources.ps1:1675` при отсутствии
+      изменений, ещё до ветки `$Script:Version` (`:1691`),
+      поэтому при свежем hash-кэше пакеты собираются под СТАРЫМ номером. Замер 27.09: первый bump-прогон (22:00/22:01)
+      молча пересобрал `*/artifacts/*.2026.2.2.1.nupkg` — внутренне консистентные (About тоже `v. 2026.2.2.1`,
+      `0E2BA08969`/`080874B6F0`), то есть отказ не виден ни по коду возврата, ни по содержимому: не поднимается просто
+      ничего. Явная версия требует `-sv` (Этап 0, `Sync-Versions -Force:$true` на `:1651` — применяется всегда) либо
+      `-fa` (принудительный `HasChanges=$true` на `:1725`); `-aa` к этому не относится — это согласие на загрузку
+      инструментов из сети. Рабочая комбинация: `-aa -sv -Version 'X'` (повторный прогон
+      22:03 дал консистентные `*.2026.2.2.2.nupkg`). Признак проверки после любого bump'а: `<version>` в обоих nuspec,
+      About внутри обоих version-bearing ресурсов и mtime артефактов. Правило процесса не меняется: bump — только по явному
+      «повышай» от пользователя, публикация новых строк — только следующим bump-циклом
 - [x] Offline-приложения (dotPeek/dotTrace/dotMemory/dotCover standalone): культура только из переменной
       окружения `JET_BACKEND_CULTURE`, сателлиты ищутся ПЛОСКО (`<Set>.<culture>.resources`) в папках из
       `JET_BACKEND_LOCALIZATION_FOLDERS` (base64(UTF8) путь, разделитель `;`); `Extensions\*\i18n` — только канал VS.
       `build/i18n-offline-deploy.ps1` кладёт 251 плоский ресурс в `%LOCALAPPDATA%\JetBrains\i18n-ru` и пишет
       `launchers\ru-{dotPeek,dotTrace,dotMemory,dotCover}261.bat` — проверено живьём на dotPeek 261 (`86303f1`)
-- [ ] `git push origin main` + тег `2026.2.2.1`
+- [ ] `git push origin main` + тег `2026.2.2.2`
 - [ ] После возврата 2026.2.x переснять `build/i18n-semantic-scan.ps1`, `build/i18n-audit.ps1` и
       `build/dll-coverage-matrix.ps1` против живой 262: текущие цифры покрытия (620 DLL / 344 neutral /
       187 покрыто / 157 без покрытия / 64 устаревших) сняты против 261
-- [ ] Выложить `NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` на nuget.org
-- [ ] Выложить `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.1.nupkg` в JetBrains Marketplace
+- [ ] Выложить `NugetFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.2.nupkg` на nuget.org
+- [ ] Выложить `MarketplaceFolder/artifacts/BaHooo.ReSharper.I18n.ru.2026.2.2.2.nupkg` в JetBrains Marketplace
+      (публикация — решение пользователя; `2026.2.2.2` никогда не публиковался)
 
 CI (`pack-and-release.yml`) создаёт только GitHub Release с обоими `.nupkg` — на nuget.org и в Marketplace публикация ручная.
 
