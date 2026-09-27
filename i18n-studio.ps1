@@ -10,7 +10,10 @@
       - resx-to-resources.ps1           — полный конвейер: GUI-панель настроек покрывает
         ВСЕ параметры скрипта (пути, версия, оба лога, режимы nb/nr/bo, sv/svu/fa,
         потоки up, aa, CleanTools, NoNetwork, Help) и показывает точную командную строку;
-      - ручной деплой build/resources/*.resources в i18n-каталог установки.
+      - ручной деплой build/resources/*.resources в i18n-каталог установки;
+      - build/i18n-offline-deploy.ps1 — оффлайн-деплой на standalone-приложения
+        (плоские сателлиты в локальную папку + .bat-запускатели dotPeek/dotTrace/
+        dotMemory/dotCover с JET_BACKEND_CULTURE и JET_BACKEND_LOCALIZATION_FOLDERS).
     Плюс список .resx с открытием выбранного в редакторе по двойному клику.
 
     Запуск:  pwsh -File i18n-studio.ps1
@@ -30,6 +33,9 @@ $BuildDir   = Join-Path $Root 'build'
 $Resources  = Join-Path $BuildDir 'resources'
 $CoverageReport  = Join-Path $BuildDir 'i18n-coverage-report.txt'
 $TranslationReport = Join-Path $BuildDir 'i18n-translation-report.txt'
+# Совпадает с дефолтом build/i18n-offline-deploy.ps1: студию и скрипт не должно
+# уводить в две разные оффлайн-папки.
+$OfflineDefault = Join-Path $env:LOCALAPPDATA 'JetBrains\i18n-ru'
 $script:OemEnc = $null
 
 function Get-Pwsh {
@@ -169,6 +175,27 @@ function Open-InEditor([string]$path) {
     Start-Process -FilePath $path
 }
 
+# %LOCALAPPDATA% на некоторых машинах ведёт через симлинк (здесь: C:\Users\eXample\AppData
+# -> G:\eXample\AppData), поэтому путь из переменной окружения и путь на букве G —
+# одна и та же папка. Разворачиваем цепочку симлинков по компонентам, чтобы в логе
+# и подписи показывать реальный адрес, а не два «разных».
+function Get-ResolvedRealPath([string]$Path) {
+    if (-not $Path) { return '' }
+    try { $full = [IO.Path]::GetFullPath($Path).TrimEnd('\') } catch { return $Path }
+    $root = [IO.Path]::GetPathRoot($full)
+    $cur = $full
+    while ($cur.Length -gt $root.Length) {
+        $t = $null
+        try { $t = [IO.Directory]::ResolveLinkTarget($cur, $false) } catch { }
+        if ($t) {
+            $rest = $full.Substring($cur.Length).TrimStart('\')
+            return $(if ($rest) { [IO.Path]::Combine($t.FullName, $rest) } else { $t.FullName })
+        }
+        $cur = [IO.Path]::GetDirectoryName($cur)
+    }
+    return $full
+}
+
 # Собирает аргументы resx-to-resources.ps1 из GUI-контролов. Отделено от окна,
 # чтобы прогонять проверки в -SelfTest. Возвращает @{ Errors; Args }.
 function Build-PipelineArgs {
@@ -221,6 +248,38 @@ function Build-PipelineArgs {
     return $ret
 }
 
+# Аргументы build/i18n-offline-deploy.ps1 из GUI-полей. Как и Build-PipelineArgs —
+# отдельно от окна, чтобы проверять в -SelfTest. Возвращает @{ Errors; Args }.
+function Build-OfflineArgs {
+    $ret = @{ Errors = (New-Object System.Collections.Generic.List[string]); Args = (New-Object System.Collections.Generic.List[string]) }
+    $a = $ret.Args
+    $v  = { param($c) if ($null -eq $c) { '' }
+                        elseif ($c -is [string]) { $c.Trim() }
+                        else { $c.Text.Trim() } }
+    # Относительные пути панели понимаются относительно корня репозитория: дочерний
+    # pwsh запускается с WorkingDirectory=$Root, но base64 пути в .bat обязан быть
+    # абсолютным, поэтому раскрываем здесь, а не на усмотрение CWD.
+    $abs = { param($p) if ([IO.Path]::IsPathRooted($p)) { $p } else { Join-Path $Root $p } }
+
+    $srcDir = & $v $script:txOut
+    if (-not $srcDir) { $srcDir = $Resources }
+    [void]$a.AddRange([string[]]@('-ResourcesDir', (& $abs $srcDir)))
+
+    $dir = & $v $script:txOfflineTarget
+    if ($dir) {
+        $dir = [Environment]::ExpandEnvironmentVariables($dir)   # допускаем %LOCALAPPDATA%\...
+        if ($dir -match '%') {
+            $ret.Errors.Add("Оффлайн-папка: не развёрнута переменная окружения в '$dir'.")
+            return $ret
+        }
+        $dir = & $abs $dir
+    } else {
+        $dir = $OfflineDefault
+    }
+    [void]$a.AddRange([string[]]@('-TargetDir', $dir))
+    return $ret
+}
+
 if ($SelfTest) {
     # Проверка без графического окна: окружение + сквозной прогон Run-Tool на ephemeral-скрипте.
     $out = New-Object System.Collections.Generic.List[string]
@@ -250,6 +309,7 @@ if ($SelfTest) {
     $script:ckHelp = $null; $script:ckFull = $null; $script:cbTopic = 'Basic'
     $script:ckSync = $null; $script:ckSkipVU = $null; $script:ckForceAll = $null
     $script:cbThreads = '0'; $script:ckAcceptAll = $null; $script:ckCleanTools = $null; $script:ckNoNetwork = $null
+    $script:txOfflineTarget = $null
     $caseFails = 0
     $chk = { param($cond, $name) if ($cond) { Write-Host "  [ok] $name" } else { $script:caseFails++; Write-Host "  [FAIL] $name" } }
     $mk = { param($on = $false) [pscustomobject]@{ Checked = $on } }
@@ -283,7 +343,36 @@ if ($SelfTest) {
     & $chk ($r.Errors.Count -ge 1 -and $r.Errors[0] -like 'Справка*') 'Help+mode rejected'
 
     Write-Host ('PIPELINE-ARGCASES=' + $(if ($caseFails -eq 0) { 'OK' } else { "FAIL($caseFails)" }))
-    exit $(if ($toolOk -and $caseFails -eq 0) { 0 } else { 1 })
+
+    # --- проверка аргументов оффлайн-деплоя и развёртки реального пути (без окна) ---
+    $script:offFails = 0
+    $chk2 = { param($cond, $name) if ($cond) { Write-Host "  [ok] $name" } else { $script:offFails++; Write-Host "  [FAIL] $name" } }
+
+    $r = Build-OfflineArgs
+    & $chk2 ($r.Errors.Count -eq 0 -and ($r.Args -join ' ') -eq "-ResourcesDir $Resources -TargetDir $OfflineDefault") 'offline defaults -> build\resources + LOCALAPPDATA\JetBrains\i18n-ru'
+
+    $script:txOut = [pscustomobject]@{ Text = 'build\res2' }
+    $script:txOfflineTarget = [pscustomobject]@{ Text = ' D:\other i18n ' }
+    $r = Build-OfflineArgs
+    & $chk2 (($r.Args -join ' ') -eq ('-ResourcesDir ' + (Join-Path $Root 'build\res2') + ' -TargetDir D:\other i18n')) 'relative src absolutized to repo root; target trimmed'
+
+    $script:txOfflineTarget = [pscustomobject]@{ Text = '%LOCALAPPDATA%\JetBrains\i18n-ru' }
+    $r = Build-OfflineArgs
+    & $chk2 (($r.Args -join ' ') -like ('*-TargetDir ' + (Join-Path $env:LOCALAPPDATA 'JetBrains\i18n-ru'))) '%LOCALAPPDATA% expanded'
+
+    $script:txOfflineTarget = [pscustomobject]@{ Text = '%NO_SUCH_DIR_XYZ%\a' }
+    $r = Build-OfflineArgs
+    & $chk2 ($r.Errors.Count -eq 1 -and $r.Errors[0] -like 'Оффлайн-папка*') 'unexpanded env var rejected'
+    $script:txOut = $null; $script:txOfflineTarget = $null
+
+    & $chk2 ((Get-ResolvedRealPath '') -eq '') 'real path of empty input = empty'
+    & $chk2 ((Get-ResolvedRealPath $env:SystemRoot) -eq $env:SystemRoot) ('not a link -> unchanged | got: [' + (Get-ResolvedRealPath $env:SystemRoot) + ']')
+    $realDefault = Get-ResolvedRealPath $OfflineDefault
+    Write-Host ('  offline-default=' + $OfflineDefault + '  real=' + $realDefault)
+    & $chk2 ($realDefault -and [IO.Path]::IsPathRooted($realDefault) -and -not ($realDefault -match '%') -and (Test-Path -LiteralPath $realDefault)) 'real offline path absolute, expanded, reachable'
+
+    Write-Host ('OFFLINE-ARGCASES=' + $(if ($script:offFails -eq 0) { 'OK' } else { "FAIL($($script:offFails))" }))
+    exit $(if ($toolOk -and $caseFails -eq 0 -and $script:offFails -eq 0) { 0 } else { 1 })
 }
 
 # ---------- GUI ----------
@@ -414,7 +503,8 @@ $script:ckNoBuild   = New-CfgCheck 'NoBuild (без упаковки)' 'Конв
 $script:ckNoResgen  = New-CfgCheck 'NoResgen' 'Пропустить генерацию .resources через ResGen (parameter set NoResgen).'
 $script:ckBuildOnly = New-CfgCheck 'BuildOnly (без конвертации)' 'Только сборка пакетов из готовых .resources (parameter set BuildOnly).'
 $script:ckSync      = New-CfgCheck 'SyncVersions' 'Синхронизировать версии nuspec/resx перед выполнением.'
-$script:ckSkipVU    = New-CfgCheck 'SkipVerUpdate' 'SkipVersionUpdate: не инкрементировать версию (режим CI/CD и перевыпуска).'
+$script:ckSkipVU    = New-CfgCheck 'SkipVerUpdate' 'SkipVersionUpdate: не инкрементировать версию (режим CI/CD и перевыпуска). В GUI включён по умолчанию: обычный прогон без него молча поднимает версию в nuspec и в строке About двух resx.'
+$script:ckSkipVU.Checked = $true
 $script:ckForceAll  = New-CfgCheck 'ForceAll'
 
 New-CfgRow   # ряд 3: прочее + справка
@@ -436,6 +526,36 @@ $exclusive = {
 & $exclusive $script:ckNoBuild   @($script:ckNoResgen, $script:ckBuildOnly)
 & $exclusive $script:ckNoResgen  @($script:ckNoBuild, $script:ckBuildOnly)
 & $exclusive $script:ckBuildOnly @($script:ckNoBuild, $script:ckNoResgen)
+
+New-CfgRow   # ряд 4: оффлайн-деплой (standalone dotPeek/dotTrace/dotMemory/dotCover)
+$script:txOfflineTarget = New-LabeledText 'Оффлайн-папка (standalone)' $OfflineDefault 250
+$offlineRealLbl = New-Object System.Windows.Forms.Label
+$offlineRealLbl.AutoSize = $true
+$offlineRealLbl.Font = New-Object System.Drawing.Font('Consolas', 8)
+$offlineRealLbl.ForeColor = [System.Drawing.Color]::DarkSlateGray
+$offlineRealLbl.UseMnemonic = $false
+$offlineRealLbl.Margin = New-Object System.Windows.Forms.Padding(6, 7, 2, 2)
+[void](Add-CfgControl $offlineRealLbl)
+
+function Update-OfflineRealPath {
+    $r = Build-OfflineArgs
+    if ($r.Errors.Count -gt 0) {
+        $offlineRealLbl.ForeColor = [System.Drawing.Color]::Firebrick
+        $offlineRealLbl.Text = ($r.Errors -join ' ')
+        return
+    }
+    $target = $r.Args[$r.Args.Count - 1]   # -TargetDir <значение>
+    $real = Get-ResolvedRealPath $target
+    $offlineRealLbl.ForeColor = [System.Drawing.Color]::DarkSlateGray
+    # Показываем реальный адрес: %LOCALAPPDATA% может вести через симлинк на другой диск.
+    $offlineRealLbl.Text = $(if ($real -and ($real -ne $target)) { '→ ' + $real } else { '→ (как в поле)' })
+}
+$script:txOfflineTarget.Add_TextChanged({ Update-OfflineRealPath })
+$script:cfgTip.SetToolTip($script:txOfflineTarget,
+    'Папка плоских сателлитов "<Set>.<culture>.resources" для standalone-приложений: ' +
+    'её base64(UTF8) попадает в JET_BACKEND_LOCALIZATION_FOLDERS в .bat-запускателях. ' +
+    'Пусто = ' + $OfflineDefault + '; допустимы переменные окружения (%LOCALAPPDATA%).')
+Update-OfflineRealPath
 
 New-CfgRow   # последняя строка: предпросмотр итоговой командной строки
 $previewLbl = New-Object System.Windows.Forms.Label
@@ -517,10 +637,27 @@ $actDeploy = Add-MkButton 'Деплой в установку' {
     Invoke-Deploy -Log $log | Out-Null
 } 'Скопировать build/resources/*.resources в i18n-каталог последней установки ReSharper.'
 
-Add-MkButton 'Открыть отчёт покрытия' {
+$actOffline = Add-MkButton 'Деплой оффлайн (standalone)' {
+    $r = Build-OfflineArgs
+    if ($r.Errors.Count -gt 0) {
+        $log.AppendText([Environment]::NewLine + '[ОШИБКА] ' + ($r.Errors -join ' ') + [Environment]::NewLine)
+        [void][System.Windows.Forms.MessageBox]::Show($form, ($r.Errors -join [Environment]::NewLine),
+            'Оффлайн-папка', 'OK', 'Error')
+        return
+    }
+    $target = $r.Args[$r.Args.Count - 1]
+    $real = Get-ResolvedRealPath $target
+    $log.AppendText('> i18n-offline-deploy.ps1 ' + (($r.Args | ForEach-Object { Quote-Arg $_ }) -join ' ') + [Environment]::NewLine)
+    if ($real -and ($real -ne $target)) { $log.AppendText('  (то же место по-настоящему: ' + $real + ')' + [Environment]::NewLine) }
+    Invoke-Tool -File (Join-Path $BuildDir 'i18n-offline-deploy.ps1') -ToolArgs ([string[]]$r.Args) -Log $log | Out-Null
+    $n = @(Get-ChildItem -LiteralPath $target -Filter *.resources -File -ErrorAction SilentlyContinue).Count
+    $log.AppendText("В оффлайн-папке теперь .resources: $n`r`n")
+} 'build/i18n-offline-deploy.ps1: зеркалит .resources в оффлайн-папку и пишет .bat-запускатели standalone-продуктов (JET_BACKEND_CULTURE + JET_BACKEND_LOCALIZATION_FOLDERS).'
+
+[void](Add-MkButton 'Открыть отчёт покрытия' {
     if (Test-Path -LiteralPath $CoverageReport) { Open-InEditor $CoverageReport } else { $log.AppendText('Отчёт ещё не создан.') }
-} $null
-Add-MkButton 'Очистить лог' { Clear-Log } $null
+} $null)
+[void](Add-MkButton 'Очистить лог' { Clear-Log } $null)
 
 # --- Правая часть: список .resx, двойной клик открывает в редакторе ---
 $lbl = New-Object System.Windows.Forms.Label
