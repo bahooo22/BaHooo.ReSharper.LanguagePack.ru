@@ -1,6 +1,6 @@
 # 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate]()
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://destream.net/live/bahooo22_06537/donate)
 
 ![icon](https://raw.githubusercontent.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
@@ -235,7 +235,13 @@ JetBrains.ReSharper.Daemon.Main.Resources.Strings.ru-RU.resources
 
 ## 🧪 5. Локальное тестирование
 
-Поместите `.resources` файлы в директорию ReSharper Extensions:
+Поместите `.resources` файлы в директорию ReSharper Extensions (путь зависит от типа установки — проверьте, где на вашей машине лежит папка `Installations`):
+
+```
+C:\Program Files (x86)\JetBrains\Installations\<ReSharperPlatform>\Extensions\BaHooo.ReSharper.I18n.ru\i18n\
+```
+
+или, при установке «только для текущего пользователя»:
 
 ```
 %LocalAppData%\JetBrains\Installations\<ReSharperPlatform>\Extensions\BaHooo.ReSharper.I18n.ru\i18n\
