@@ -388,6 +388,10 @@ $form.StartPosition = 'CenterScreen'
 $split = New-Object System.Windows.Forms.SplitContainer
 $split.Dock = 'Fill'
 $split.Orientation = 'Vertical'
+# Фиксируем левую колонку: по умолчанию (FixedPanel=None) при развороте окна панели
+# растягиваются пропорционально, левая колонка расползается, 584-пиксельные
+# разделители строк перестают доходить до края, и ряды настроек перемешиваются.
+$split.FixedPanel = 'Panel1'
 [void]$form.Controls.Add($split)
 $split.SplitterDistance = 600
 
