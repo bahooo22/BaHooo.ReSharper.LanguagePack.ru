@@ -784,7 +784,7 @@ function Initialize-VersionFunctionsFallback {
         param([string]$ProjectRoot, [string]$NewVersion)
         Write-Log "Запасная функция Update-AllVersions: обновление версии пропущено" 'Yellow'
         Write-Log "Используйте параметр -SyncVersions для полной синхронизации версий" 'Yellow'
-        return @{ Version = "0.0.0.0"; NuspecUpdated = 0; ResxUpdated = 0 }
+        return @{ Version = "0.0.0.0"; NuspecUpdated = 0; ResxUpdated = 0; DocsUpdated = 0 }
     }
     function global:Sync-Versions {
         param([string]$ProjectRoot, [switch]$Force)
@@ -1442,6 +1442,10 @@ function Show-ScriptHelp {
     3. Обновляет версию в .resx файлах:
         - raw-resx-done_ru-RU\JetBrains.UI.Avalonia.Resources.Strings.ru-RU.resx
         - raw-resx-done_ru-RU\JetBrains.UI.Resources.Strings.ru-RU.resx
+    4. Синхронизирует версию в документации (Update-DocsVersions):
+        - боковые README пакетов NugetFolder/MarketplaceFolder — строка «пакет `X»
+        - README.md / README.en.md — «Текущая/Current version», имя *.nupkg, «Версия/Version»
+        - TODO.md — «Ближайший релиз», файлы в пунктах «Выложить», «никогда не публиковался»
 
 СИНХРОНИЗАЦИЯ ВЕРСИЙ:
     Используйте параметр -SyncVersions для принудительной синхронизации всех версий
@@ -1695,7 +1699,7 @@ function Update-VersionIfChangesDetected {
             $result = Update-AllVersions -ProjectRoot $Script:Config.ScriptRoot
             Write-Host "Версия обновлена автоматически до: $($result.Version)" -ForegroundColor Green
         }
-        Write-Host "Обновлено файлов: $($result.NuspecUpdated) nuspec, $($result.ResxUpdated) resx" -ForegroundColor Green
+        Write-Host "Обновлено файлов: $($result.NuspecUpdated) nuspec, $($result.ResxUpdated) resx, $($result.DocsUpdated) docs" -ForegroundColor Green
         
         # ✅ Помечаем, что версия обновлена
         $Script:Config.VersionAlreadyUpdated = $true
