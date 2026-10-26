@@ -142,7 +142,7 @@ jobs:
             gh release create "${{ steps.get_version.outputs.version }}" `
               --repo "${{ github.repository }}" `
               --title "Russian Language Pack for ReSharper ${{ steps.get_version.outputs.version }}" `
-              --notes "Автоматически созданный релиз для версии ${{ steps.get_version.outputs.version }}"
+              --notes "Автоматически созданный релиз версии ${{ steps.get_version.outputs.version }}. Поддержать проект: https://www.donationalerts.com/r/bahooo · кошельки (ETH/TON/BTC): https://github.com/${{ github.repository }}/blob/main/.github/wallets.md"
               
           Write-Host "Релиз ${{ steps.get_version.outputs.version }} создан или уже существует" -ForegroundColor Green
 

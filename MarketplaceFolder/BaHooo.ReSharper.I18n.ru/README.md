@@ -1,6 +1,6 @@
 # 🇷🇺 BaHooo.ReSharper.I18n.ru — Русский языковой пакет для ReSharper
 
-[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://destream.net/live/bahooo22_06537/donate)
+[GitHub](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru) · [Telegram](https://t.me/compohelp_vitebsk) · [Donate](https://www.donationalerts.com/r/bahooo)
 
 ![ReSharper Russian Language Pack Icon](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/NugetFolder/BaHooo.ReSharper.I18n.ru/icon.png)
 
@@ -84,4 +84,5 @@ JET_BACKEND_LOCALIZATION_FOLDERS=<base64(UTF8) путь к папке с *.ru-RU
 - GitHub: [репозиторий](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru)  
 - Issues: [открыть задачу](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/issues)  
 - Telegram: [@compohelp_vitebsk](https://t.me/compohelp_vitebsk)  
-- Donate: https://destream.net/live/bahooo22_06537/donate
+- Donate: https://www.donationalerts.com/r/bahooo  
+- Крипто-кошельки (ETH / TON / BTC): [.github/wallets.md](https://github.com/bahooo22/BaHooo.ReSharper.LanguagePack.ru/blob/main/.github/wallets.md)

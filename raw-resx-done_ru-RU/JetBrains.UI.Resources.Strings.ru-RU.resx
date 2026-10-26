@@ -681,7 +681,11 @@
   <value>Все права защищены. © {0} {1}
   
 BaHooo.ReSharper.I18n.ru, v. 2026.2.2.2 
-Перевод © Иван "BaHooo" Зеленкевич, {1}</value>
+Перевод © Иван "BaHooo" Зеленкевич, {1}
+Поддержать проект: donationalerts.com/r/bahooo
+ETH: 0x984fE5Bfe7B1573063E20fb3722ba9d4A7a67F04
+TON: UQCHOWrPc1SF_1ZK8pvZP-L1j4mGXmN8JPYrM9GUxJRdOMcf
+BTC: bc1q4ln0y35utxhdtkf2qnrnu6e784yyct4n25eu5y</value>
 </data>
 <data name="ManageJetBrainsAccount_Text" xml:space="preserve">
   <value>Управление JetBrains Account</value>
