@@ -310,4 +310,7 @@
 <data name="UseStackWalkSyncOnWindowsSettingDescription" xml:space="preserve">
   <value>UseStackWalkSyncOnWindows</value>
 </data>
+  <data name="CollectNgenSymbols" xml:space="preserve">
+    <value>CollectNgenSymbols</value>
+  </data>
 </root>

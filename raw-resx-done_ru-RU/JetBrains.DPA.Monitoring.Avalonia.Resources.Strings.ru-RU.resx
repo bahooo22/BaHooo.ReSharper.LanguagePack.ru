@@ -385,4 +385,19 @@
 <data name="RestoreIssueAction" xml:space="preserve">
   <value>Показать проблему снова</value>
 </data>
+  <data name="LicenseActionAnalyzeWithAI" xml:space="preserve">
+    <value>AI-анализ</value>
+  </data>
+  <data name="ToolTipAnalyzeWithAI" xml:space="preserve">
+    <value>Проанализировать с помощью AI</value>
+  </data>
+  <data name="AiBanner_Title" xml:space="preserve">
+    <value>Ваш AI-агент теперь может исследовать эту сессию с помощью встроенного навыка dotTrace.</value>
+  </data>
+  <data name="AiBanner_Text" xml:space="preserve">
+    <value>Он читает данные профилирования среды выполнения, идёт по горячему пути в ваш код и объясняет, что тормозит и почему.</value>
+  </data>
+  <data name="AiBanner_LearnMore" xml:space="preserve">
+    <value>Подробнее о навыке</value>
+  </data>
 </root>

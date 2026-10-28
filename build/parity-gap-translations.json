@@ -1,0 +1,65 @@
+[
+  {
+    "Resource": "JetBrains.Profiler.Resources.UITexts",
+    "Entries": [
+      { "Key": "TimelineInfo_CollectNgenSymbols",            "Ru": "Собирать символы Ngen" },
+      { "Key": "TimelineInfo_DontCollectNgenSymbols",        "Ru": "Не собирать символы Ngen" },
+      { "Key": "Profiling_Progress_SnapshotSending",         "Ru": "Завершение снимка" },
+      { "Key": "Profiling_Progress_SnapshotQueueing",        "Ru": "Добавление снимка в очередь" },
+      { "Key": "Profiling_Progress_SnapshotPostProcessing",  "Ru": "Пост-обработка снимка" },
+      { "Key": "Profiling_Progress_SnapshotDownloading",     "Ru": "Получение файлов снимка" },
+      { "Key": "Profiling_Progress_LogSending",              "Ru": "Завершение журнала" },
+      { "Key": "Profiling_Progress_LogQueueing",             "Ru": "Добавление журнала в очередь" },
+      { "Key": "Profiling_Progress_LogDownloading",          "Ru": "Получение журнала" },
+      { "Key": "Profiling_Progress_LookingForSymbolFiles",   "Ru": "Поиск файлов символов" },
+      { "Key": "Profiling_Progress_ProcessingSymbolFiles",   "Ru": "Обработка файлов символов" },
+      { "Key": "Profiling_Progress_ReadingModulesData",      "Ru": "Чтение данных модулей" },
+      { "Key": "Profiling_Progress_OperationStepFormat",     "Ru": "{0}: {1}", "KeepAsIs": true }
+    ]
+  },
+  {
+    "Resource": "JetBrains.DPA.Monitoring.Avalonia.Resources.Strings",
+    "Entries": [
+      { "Key": "LicenseActionAnalyzeWithAI", "Ru": "AI-анализ" },
+      { "Key": "ToolTipAnalyzeWithAI",       "Ru": "Проанализировать с помощью AI" },
+      { "Key": "AiBanner_Title",             "Ru": "Ваш AI-агент теперь может исследовать эту сессию с помощью встроенного навыка dotTrace." },
+      { "Key": "AiBanner_Text",              "Ru": "Он читает данные профилирования среды выполнения, идёт по горячему пути в ваш код и объясняет, что тормозит и почему." },
+      { "Key": "AiBanner_LearnMore",         "Ru": "Подробнее о навыке" }
+    ]
+  },
+  {
+    "Resource": "JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings",
+    "Entries": [
+      { "Key": "ByDefault_InVisualStudioJumpsToTheBeginning_Text_Text", "CopyFrom": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings" },
+      { "Key": "MoveCaretToCodeBlockStartActionText",                   "CopyFrom": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings" },
+      { "Key": "Use_ToJumpToTheOpeningBrace_BoolOption_Text",           "CopyFrom": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings" },
+      { "Key": "Navigation_Header_Text",                                "CopyFrom": "JetBrains.PsiFeatures.VisualStudio.Core.Resources.Strings" }
+    ]
+  },
+  {
+    "Resource": "JetBrains.dotCover.Resources.Strings",
+    "Entries": [
+      { "Key": "SurveyBanner_TakeSurvey", "Ru": "Пройти опрос" },
+      { "Key": "SurveyBanner_Text",       "Ru": "Пройдите наш 5-минутный опрос, чтобы помочь нам улучшить средства анализа покрытия кода .NET от JetBrains, и получите шанс выиграть приз." }
+    ]
+  },
+  {
+    "Resource": "JetBrains.ReSharper.Daemon.CSharp.Resources.Strings",
+    "Entries": [
+      { "Key": "UnsafeMemberOperationCompatMessage", "Ru": "{0} «{1}» должен использоваться в небезопасном контексте, так как его сигнатура содержит указатели" },
+      { "Key": "_16OrGreater_Text",                  "Ru": "16.0 или выше" }
+    ]
+  },
+  {
+    "Resource": "JetBrains.DotTrace.DataStructures.Resources.UIResources",
+    "Entries": [
+      { "Key": "ConfigurationEditor_CollectNgenSymbols", "Ru": "Собирать символы Ngen" }
+    ]
+  },
+  {
+    "Resource": "JetBrains.dotTrace.Home.Presentation.Resources.Strings",
+    "Entries": [
+      { "Key": "CollectNgenSymbols", "Ru": "CollectNgenSymbols", "KeepAsIs": true }
+    ]
+  }
+]

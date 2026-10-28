@@ -1115,4 +1115,43 @@
 <data name="PerformanceInfo_EnableSynchStackWalking_Details" xml:space="preserve">
   <value>Значительно снижает риск зависаний и сбоев при профилировании .NET Core 3.0 или более поздних версий. Сведения о GC будут недоступны, а снимок может содержать меньше сэмплов в секунду.</value>
 </data>
+  <data name="TimelineInfo_CollectNgenSymbols" xml:space="preserve">
+    <value>Собирать символы Ngen</value>
+  </data>
+  <data name="TimelineInfo_DontCollectNgenSymbols" xml:space="preserve">
+    <value>Не собирать символы Ngen</value>
+  </data>
+  <data name="Profiling_Progress_SnapshotSending" xml:space="preserve">
+    <value>Завершение снимка</value>
+  </data>
+  <data name="Profiling_Progress_SnapshotQueueing" xml:space="preserve">
+    <value>Добавление снимка в очередь</value>
+  </data>
+  <data name="Profiling_Progress_SnapshotPostProcessing" xml:space="preserve">
+    <value>Пост-обработка снимка</value>
+  </data>
+  <data name="Profiling_Progress_SnapshotDownloading" xml:space="preserve">
+    <value>Получение файлов снимка</value>
+  </data>
+  <data name="Profiling_Progress_LogSending" xml:space="preserve">
+    <value>Завершение журнала</value>
+  </data>
+  <data name="Profiling_Progress_LogQueueing" xml:space="preserve">
+    <value>Добавление журнала в очередь</value>
+  </data>
+  <data name="Profiling_Progress_LogDownloading" xml:space="preserve">
+    <value>Получение журнала</value>
+  </data>
+  <data name="Profiling_Progress_LookingForSymbolFiles" xml:space="preserve">
+    <value>Поиск файлов символов</value>
+  </data>
+  <data name="Profiling_Progress_ProcessingSymbolFiles" xml:space="preserve">
+    <value>Обработка файлов символов</value>
+  </data>
+  <data name="Profiling_Progress_ReadingModulesData" xml:space="preserve">
+    <value>Чтение данных модулей</value>
+  </data>
+  <data name="Profiling_Progress_OperationStepFormat" xml:space="preserve">
+    <value>{0}: {1}</value>
+  </data>
 </root>

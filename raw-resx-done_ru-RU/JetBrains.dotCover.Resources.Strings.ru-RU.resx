@@ -1087,4 +1087,10 @@
 <data name="Paywall_ToolWindowTitle" xml:space="preserve">
   <value>Доступ к dotCover с dotUltimate</value>
 </data>
+  <data name="SurveyBanner_TakeSurvey" xml:space="preserve">
+    <value>Пройти опрос</value>
+  </data>
+  <data name="SurveyBanner_Text" xml:space="preserve">
+    <value>Пройдите наш 5-минутный опрос, чтобы помочь нам улучшить средства анализа покрытия кода .NET от JetBrains, и получите шанс выиграть приз.</value>
+  </data>
 </root>

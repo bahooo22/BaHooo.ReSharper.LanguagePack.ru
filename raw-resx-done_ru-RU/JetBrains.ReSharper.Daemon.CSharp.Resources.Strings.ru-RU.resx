@@ -11825,4 +11825,10 @@
 <data name="WhenExtensionMemberIsInvokedAsStaticMethodConvertInvocationToExtensionMemberSyntaxFromSameClass" xml:space="preserve">
   <value>Когда метод расширения вызывается как статический метод того же класса, преобразовать вызов в синтаксис метода расширения</value>
 </data>
+  <data name="UnsafeMemberOperationCompatMessage" xml:space="preserve">
+    <value>{0} «{1}» должен использоваться в небезопасном контексте, так как его сигнатура содержит указатели</value>
+  </data>
+  <data name="_16OrGreater_Text" xml:space="preserve">
+    <value>16.0 или выше</value>
+  </data>
 </root>

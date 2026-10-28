@@ -542,4 +542,16 @@
 <data name="Tooltips_Header_Text" xml:space="preserve">
   <value>Всплывающие подсказки</value>
 </data>
+<data name="ByDefault_InVisualStudioJumpsToTheBeginning_Text_Text" xml:space="preserve">
+  <value>По умолчанию «Перейти к содержащему блоку» {0} в Visual Studio переходит к началу содержащего оператора. Используйте эту опцию, чтобы изменить это поведение и переходить к открывающей фигурной скобке содержащего блока.</value>
+</data>
+<data name="MoveCaretToCodeBlockStartActionText" xml:space="preserve">
+  <value>Переместить курсор в начало блока кода</value>
+</data>
+<data name="Use_ToJumpToTheOpeningBrace_BoolOption_Text" xml:space="preserve">
+  <value>Использовать «Перейти к содержащему блоку» {0} для перехода к открывающей скобке</value>
+</data>
+<data name="Navigation_Header_Text" xml:space="preserve">
+  <value>Навигация</value>
+</data>
 </root>

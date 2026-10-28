@@ -1,0 +1,7 @@
+JetBrains.Profiler.Resources.UITexts	neutral=340	missing-in-ru=13
+JetBrains.DPA.Monitoring.Avalonia.Resources.Strings	neutral=86	missing-in-ru=5
+JetBrains.PsiFeatures.VisualStudio.Backend.Resources.Strings	neutral=144	missing-in-ru=4
+JetBrains.dotCover.Resources.Strings	neutral=323	missing-in-ru=2
+JetBrains.ReSharper.Daemon.CSharp.Resources.Strings	neutral=3855	missing-in-ru=2
+JetBrains.DotTrace.DataStructures.Resources.UIResources	neutral=592	missing-in-ru=1
+JetBrains.dotTrace.Home.Presentation.Resources.Strings	neutral=59	missing-in-ru=1

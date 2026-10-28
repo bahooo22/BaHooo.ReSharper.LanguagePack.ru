@@ -1909,4 +1909,7 @@
 <data name="ConfigurationEditor_ConfigureSymbolServers" xml:space="preserve">
   <value>Настроить серверы символов</value>
 </data>
+  <data name="ConfigurationEditor_CollectNgenSymbols" xml:space="preserve">
+    <value>Собирать символы Ngen</value>
+  </data>
 </root>
