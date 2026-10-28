@@ -1,9 +1,14 @@
 ﻿# Дамп содержимого конкретных внедрённых ресурсов (для оценки: строки UI или данные).
 #requires -Version 5
 param(
-    [string]$InstallDir = 'G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025',
+    # Без хардкода пути: хэш установки меняется при обновлении платформы (см. i18n-install.psm1).
+    [string]$InstallDir,
     [int]$Take = 6
 )
+
+$ErrorActionPreference = 'Stop'
+Import-Module (Join-Path $PSScriptRoot 'i18n-install.psm1')
+$InstallDir = Resolve-InstallDir $InstallDir
 
 $targets = @(
     @{ Dll = 'JetBrains.Platform.Shell.dll';                Res = 'JetBrains.Application.Res.StringTable.resources' },

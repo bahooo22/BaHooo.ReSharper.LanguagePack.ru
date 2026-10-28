@@ -36,28 +36,48 @@ Write-Host ("ресурсов: было {0} в источнике, в цели �
 
 $b64 = [Convert]::ToBase64String([Text.Encoding]::UTF8.GetBytes($TargetDir))
 
-$productExes = [ordered]@{
-    'dotCover261'  = @('dotCover.UI.64.exe','dotCover.UI.64a.exe')
-    'dotMemory261' = @('dotMemory.UI.64.exe','dotMemory.UI.64a.exe')
-    'dotPeek261'   = @('dotPeek64.exe','dotPeek64a.exe')
-    'dotTrace261'  = @('dotTrace64.exe','dotTrace64a.exe','dotTrace.UI.64.exe','DotTraceLauncher.exe')
+# Номера волн в именах папок не захардкожены: продукты ищутся по фактическому содержимому
+# $InstallRoot (dotPeek262, dotTrace263, …), иначе запускатели молча ломаются при каждом
+# обновлении платформы — так и случилось с серией 261 после перехода на 2026.2.3.
+$exeCandidates = [ordered]@{
+    'dotCover'  = @('dotCover.UI.64.exe','dotCover.UI.64a.exe')
+    'dotMemory' = @('dotMemory.UI.64.exe','dotMemory.UI.64a.exe')
+    'dotPeek'   = @('dotPeek64.exe','dotPeek64a.exe')
+    'dotTrace'  = @('dotTrace64.exe','dotTrace64a.exe','dotTrace.UI.64.exe','DotTraceLauncher.exe')
 }
 $launchers = Join-Path $TargetDir 'launchers'
 New-Item -ItemType Directory -Path $launchers -Force | Out-Null
 
-foreach ($prod in $productExes.Keys) {
-    $dir = Join-Path $InstallRoot $prod
-    if (-not (Test-Path -LiteralPath $dir)) { Write-Host "пропущен (нет папки): $prod"; continue }
-    $exe = $productExes[$prod] | Where-Object { Test-Path -LiteralPath (Join-Path $dir $_) } | Select-Object -First 1
-    if (-not $exe) { Write-Host "пропущен (нет известного UI-exe): $prod"; continue }
-    $bat = Join-Path $launchers ("ru-{0}.bat" -f $prod)
+$installed = @(Get-ChildItem -LiteralPath $InstallRoot -Directory |
+               Where-Object { $_.Name -match '^(dotCover|dotMemory|dotPeek|dotTrace)\d+$' } |
+               Sort-Object Name)
+if ($installed.Count -eq 0) { Write-Host "в $InstallRoot не найдено ни одного standalone-продукта" }
+
+foreach ($d in $installed) {
+    $base = $d.Name -replace '\d+$', ''
+    $candidates = $exeCandidates[$base]
+    if (-not $candidates) { Write-Host "пропущен (неизвестный продукт): $($d.Name)"; continue }
+    $exe = $candidates | Where-Object { Test-Path -LiteralPath (Join-Path $d.FullName $_) } | Select-Object -First 1
+    if (-not $exe) { Write-Host "пропущен (нет известного UI-exe): $($d.Name)"; continue }
+    $bat = Join-Path $launchers ("ru-{0}.bat" -f $d.Name)
     @(
         '@echo off'
         'rem dotPeek/dotTrace/... на русском: культура + папка сателлитов (base64 пути)'
         ('set "JET_BACKEND_CULTURE={0}"' -f $Culture)
         ('set "JET_BACKEND_LOCALIZATION_FOLDERS={0}"' -f $b64)
-        ('start "" "{0}" %*' -f (Join-Path $dir $exe))
+        ('start "" "{0}" %*' -f (Join-Path $d.FullName $exe))
     ) | Set-Content -LiteralPath $bat -Encoding ASCII
-    Write-Host "запускатель: $bat  ->  $dir\$exe"
+    Write-Host "запускатель: $bat  ->  $($d.FullName)\$exe"
+}
+
+# Чистка запускателей от прежних волн: путь из .bat больше не существует на диске.
+foreach ($old in @(Get-ChildItem -LiteralPath $launchers -Filter 'ru-*.bat' -File)) {
+    $target = (Get-Content -LiteralPath $old.FullName |
+               Where-Object { $_ -match '^\s*start\s+""\s+"(.+)"\s*%\*' } |
+               ForEach-Object { $Matches[1] } | Select-Object -First 1)
+    if ($target -and -not (Test-Path -LiteralPath $target)) {
+        Remove-Item -LiteralPath $old.FullName -Force
+        Write-Host "снят устаревший запускатель (путь не существует): $($old.Name) -> $target"
+    }
 }
 Write-Host "`nВСЁ. Запускайте продукты через .bat из $launchers"

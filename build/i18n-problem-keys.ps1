@@ -1,8 +1,10 @@
 ﻿# Дамп neutral-значений конкретных ключей проблемных записей.
 #requires -Version 5
-param([string]$InstallDir = 'G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025')
+param([string]$InstallDir)
 
 $ErrorActionPreference = 'Stop'
+Import-Module (Join-Path $PSScriptRoot 'i18n-install.psm1')
+$InstallDir = Resolve-InstallDir $InstallDir
 
 $want = @{
     'JetBrains.dotTrace.VS.Resources.Strings.resources'                        = @('ActionText')

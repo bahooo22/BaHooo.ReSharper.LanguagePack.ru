@@ -1,11 +1,15 @@
 ﻿# Извлечение полных key/value списков 7 недостающих нейтральных ресурсов в JSON (для перевода).
 #requires -Version 5
 param(
-    [string]$InstallDir = 'G:\eXample\AppData\Local\JetBrains\Installations\ReSharperPlatformVs18_23258025',
+    # Каталог установки не захардкожен: хэш в имени (`ReSharperPlatformVs18_<hash>`) меняется при
+    # каждом обновлении платформы, и прошлая константа `..._23258025` перестала существовать 28.10.
+    [string]$InstallDir,
     [string]$OutJson = "$PSScriptRoot\missing-strings.json"
 )
 
 $ErrorActionPreference = 'Stop'
+Import-Module (Join-Path $PSScriptRoot 'i18n-install.psm1')
+$InstallDir = Resolve-InstallDir $InstallDir
 
 $targets = @(
     @{ Dll = 'JetBrains.Platform.Shell.dll';               Res = 'JetBrains.Application.Res.StringTable.resources' },
